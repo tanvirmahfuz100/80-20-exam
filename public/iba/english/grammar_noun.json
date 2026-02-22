@@ -1,0 +1,23 @@
+{
+  "subject": "English",
+  "topic": "Grammar",
+  "chapter": "Noun",
+  "questions": [
+    {
+      "id": "noun_001",
+      "text": "Identify the collective noun in the following sentence: 'The flock of sheep grazing in the field looked peaceful.'",
+      "options": ["Sheep", "Flock", "Field", "Peaceful", "Grazing"],
+      "correct": 1,
+      "explanation": "**Flock** is a collective noun because it refers to a group of sheep. 'Sheep' is a common noun, 'Field' is a common noun, 'Peaceful' is an adjective, and 'Grazing' is a participle.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "noun_002",
+      "text": "Which word is an abstract noun?",
+      "options": ["Chair", "Team", "Wisdom", "Gold", "River"],
+      "correct": 2,
+      "explanation": "**Wisdom** is an abstract noun because it refers to a quality or idea that cannot be touched, seen, or measured physically.",
+      "difficulty": "easy"
+    }
+  ]
+}
