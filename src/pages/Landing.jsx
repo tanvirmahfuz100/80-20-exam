@@ -1,46 +1,36 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Star, ShieldCheck, Zap, BookOpen, GraduationCap, Users } from 'lucide-react';
-const HeroImage = 'hero-illustration.png';
-
 const Landing = () => {
     return (
         <div className="min-h-screen bg-background text-white selection:bg-primary/30">
             {/* Hero Section */}
-            <div className="max-w-7xl mx-auto px-6 py-20 flex flex-col lg:flex-row items-center justify-between gap-16">
-                <div className="flex-1 text-center lg:text-left space-y-8 animate-in slide-in-from-left-10 duration-1000">
+            <div className="max-w-7xl mx-auto px-6 py-32 flex flex-col items-center justify-center text-center space-y-12 animate-in fade-in duration-1000">
+                <div className="space-y-8 max-w-4xl">
                     <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-primary font-black uppercase tracking-widest text-[10px]">
                         <Star className="w-3 h-3 fill-current" />
                         The #1 Choice for IBA Preparation
                     </div>
-                    <h1 className="text-6xl md:text-7xl font-black italic tracking-tighter leading-[0.9] uppercase">
+                    <h1 className="text-6xl md:text-8xl font-black italic tracking-tighter leading-[0.9] uppercase">
                         The free, fun, and <span className="text-primary not-italic">effective</span> way to pass IBA!
                     </h1>
-                    <p className="text-white/40 text-lg md:text-xl font-medium max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                    <p className="text-white/40 text-lg md:text-2xl font-medium leading-relaxed max-w-3xl mx-auto">
                         Join thousands of students mastering Math, English, and Analytical subjects with our bite-sized lessons and <span className="text-white font-bold">50,000+ practice questions</span>.
                     </p>
-                    <div className="flex flex-col sm:flex-row items-center gap-4 pt-6">
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8">
                         <Link
                             to="/register"
-                            className="w-full sm:w-auto px-10 py-5 bg-primary hover:bg-primary-hover text-white rounded-[2rem] font-black uppercase tracking-[0.2em] text-xs transition-all hover:scale-105 active:scale-95 shadow-[0_20px_50px_rgba(94,106,210,0.3)] flex items-center justify-center gap-3"
+                            className="w-full sm:w-auto px-12 py-6 bg-primary hover:bg-primary-hover text-white rounded-[2rem] font-black uppercase tracking-[0.2em] text-xs transition-all hover:scale-105 active:scale-95 shadow-[0_20px_50px_rgba(94,106,210,0.3)] flex items-center justify-center gap-3"
                         >
                             Get Started
                         </Link>
                         <Link
                             to="/login"
-                            className="w-full sm:w-auto px-10 py-5 bg-white/5 hover:bg-white/10 text-white rounded-[2rem] font-black uppercase tracking-[0.2em] text-xs transition-all border border-white/10 flex items-center justify-center gap-3"
+                            className="w-full sm:w-auto px-12 py-6 bg-white/5 hover:bg-white/10 text-white rounded-[2rem] font-black uppercase tracking-[0.2em] text-xs transition-all border border-white/10 flex items-center justify-center gap-3"
                         >
                             I Already Have an Account
                         </Link>
                     </div>
-                </div>
-                <div className="flex-1 relative animate-in zoom-in-95 duration-1000">
-                    <div className="absolute inset-0 bg-primary/20 blur-[150px] rounded-full pointer-events-none"></div>
-                    <img
-                        src={HeroImage}
-                        alt="Hero"
-                        className="relative z-10 w-full max-w-lg mx-auto drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] rotate-3 hover:rotate-0 transition-transform duration-700"
-                    />
                 </div>
             </div>
 
