@@ -23,7 +23,9 @@ export const AuthProvider = ({ children }) => {
                     .from('profiles')
                     .insert([{
                         id: userId,
-                        role: email === 'tanvirmahfuz100@gmail.com' ? 'super_admin' : 'student'
+                        role: email === 'tanvirmahfuz100@gmail.com' ? 'super_admin' : 'student',
+                        phone_number: user?.user_metadata?.phone_number || null,
+                        target_exams: user?.user_metadata?.target_exams || []
                     }])
                     .select()
                     .single();

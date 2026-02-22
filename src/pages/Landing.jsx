@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Star, ShieldCheck, Zap, BookOpen, GraduationCap, Users } from 'lucide-react';
-const HeroImage = '/hero-illustration.png';
+const HeroImage = 'hero-illustration.png';
 
 const Landing = () => {
     return (

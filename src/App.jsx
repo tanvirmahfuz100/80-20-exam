@@ -9,7 +9,8 @@ import Register from './pages/Register';
 import Admin from './pages/Admin';
 import ProtectedRoute from './components/ProtectedRoute';
 import { AuthProvider, useAuth } from './context/AuthContext';
-import { Analytics, Settings } from './pages/Placeholders';
+import { Analytics } from './pages/Placeholders';
+import Settings from './pages/Settings';
 import Landing from './pages/Landing';
 
 function App() {
