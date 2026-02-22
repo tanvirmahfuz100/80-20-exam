@@ -35,7 +35,7 @@ const ChapterItem = ({ chapter, onClick }) => (
         <div className="flex-1 min-w-0 pr-4">
             <h4 className="font-bold text-white text-lg truncate group-hover:text-primary transition-colors leading-tight mb-1">{chapter.name}</h4>
             <div className="flex items-center gap-3">
-                <span className="text-[10px] font-black uppercase tracking-[0.1em] text-white/20 italic">Mastery Path</span>
+                <span className="text-[10px] font-black uppercase tracking-[0.1em] text-white/20 italic">Learning Goal</span>
                 <span className="w-1 h-1 rounded-full bg-white/10"></span>
                 <span className="text-[10px] font-black uppercase tracking-[0.1em] text-primary/50">15 Questions</span>
             </div>
@@ -45,7 +45,7 @@ const ChapterItem = ({ chapter, onClick }) => (
             className="flex items-center gap-2 px-6 py-3 bg-primary text-white font-black uppercase tracking-widest rounded-xl hover:bg-primary-hover transition-all text-[10px] shadow-lg shadow-primary/10 active:scale-95 shrink-0"
         >
             <Play className="w-4 h-4 fill-current" />
-            Launch
+            Start
         </button>
     </div>
 );
@@ -84,7 +84,7 @@ const PracticeConfig = () => {
     if (loading) return (
         <div className="flex flex-col items-center justify-center p-20 space-y-4">
             <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
-            <p className="text-white/20 font-black uppercase tracking-[0.3em] text-[10px]">Initializing Modules</p>
+            <p className="text-white/20 font-black uppercase tracking-[0.3em] text-[10px]">Getting ready...</p>
         </div>
     );
 
@@ -94,8 +94,8 @@ const PracticeConfig = () => {
                 <AlertCircle className="w-10 h-10 text-red-500" />
             </div>
             <div>
-                <h3 className="text-white font-bold text-lg">Resource Load Failure</h3>
-                <p className="text-red-500/60 text-sm max-w-sm mx-auto mt-2 font-medium">{error}. Ensure index.json is available in the content directory.</p>
+                <h3 className="text-white font-bold text-lg">Oops! Something went wrong</h3>
+                <p className="text-red-500/60 text-sm max-w-sm mx-auto mt-2 font-medium">{error}. We couldn't load the lessons.</p>
             </div>
         </div>
     );
@@ -106,10 +106,10 @@ const PracticeConfig = () => {
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
                 <div>
                     <h1 className="text-5xl md:text-6xl font-black text-white italic tracking-tighter mb-4">
-                        PRACTICE <span className="text-primary not-italic uppercase">Remix</span>
+                        LET'S <span className="text-primary not-italic uppercase">PRACTICE!</span>
                     </h1>
                     <p className="text-white/30 font-bold uppercase tracking-widest text-[10px] flex items-center gap-2">
-                        {user ? 'Historical Precision System Active' : 'Guest Mode - Session Not Recorded'}
+                        {user ? 'Your progress is being saved!' : 'Guest Mode - Your score won\'t be saved'}
                     </p>
                 </div>
 
@@ -138,12 +138,12 @@ const PracticeConfig = () => {
                             <Lock className="w-5 h-5 text-primary" />
                         </div>
                         <div>
-                            <h4 className="text-white font-black uppercase tracking-widest text-xs mb-1 italic">Guest Protocol Engaged</h4>
-                            <p className="text-white/30 text-[10px] font-medium leading-relaxed max-w-md uppercase tracking-tight">Your practice data and analytics strengths will not be recorded in guest mode. Login to build your profile.</p>
+                            <h4 className="text-white font-black uppercase tracking-widest text-xs mb-1 italic">Don't miss out!</h4>
+                            <p className="text-white/30 text-[10px] font-medium leading-relaxed max-w-md uppercase tracking-tight">Sign up to unlock 50,000+ questions and track your progress. It only takes a second!</p>
                         </div>
                     </div>
                     <Link to="/register" className="px-8 py-4 bg-white text-black rounded-2xl font-black uppercase tracking-widest text-[10px] hover:scale-105 active:scale-95 transition-all flex items-center gap-2 shadow-2xl">
-                        <UserPlus className="w-4 h-4" /> Initialize Neural Link
+                        <UserPlus className="w-4 h-4" /> Create Account
                     </Link>
                 </div>
             )}
@@ -166,7 +166,7 @@ const PracticeConfig = () => {
                     <div className="flex items-center gap-4">
                         <div className="h-px flex-1 bg-white/5"></div>
                         <div className="px-6 py-2 bg-white/5 rounded-full border border-white/5">
-                            <span className="text-[10px] font-black uppercase tracking-[0.3em] text-white/30">Module Library</span>
+                            <span className="text-[10px] font-black uppercase tracking-[0.3em] text-white/30">Choose a Lesson</span>
                         </div>
                         <div className="h-px flex-1 bg-white/5"></div>
                     </div>
@@ -186,7 +186,7 @@ const PracticeConfig = () => {
                                         ))
                                     ) : (
                                         <div className="col-span-2 py-10 text-center border-2 border-dashed border-white/5 rounded-3xl">
-                                            <p className="text-xs text-white/10 font-black uppercase tracking-widest">Neural Modules Under Construction</p>
+                                            <p className="text-xs text-white/10 font-black uppercase tracking-widest">Lessons Coming Soon!</p>
                                         </div>
                                     )}
                                 </div>

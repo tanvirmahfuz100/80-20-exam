@@ -41,10 +41,10 @@ const Dashboard = () => {
     ];
 
     const stats = [
-        { title: "Current Streak", value: user ? "5 Days" : "0 Days", subtitle: "Active Pulse", icon: Flame, color: "bg-orange-500 text-orange-500" },
-        { title: "Total XP", value: user ? "1,450" : "0", subtitle: "Level Registry", icon: Star, color: "bg-yellow-500 text-yellow-500" },
-        { title: "Overall Accuracy", value: user ? "82%" : "??%", subtitle: "Global Percentile", icon: Target, color: "bg-emerald-500 text-emerald-500" },
-        { title: "Time Invested", value: user ? "12h 30m" : "0h 0m", subtitle: "Focused Time", icon: Clock, color: "bg-blue-500 text-blue-500" },
+        { title: "Current Streak", value: user ? "5 Days" : "0 Days", subtitle: "Don't break it!", icon: Flame, color: "bg-orange-500 text-orange-500" },
+        { title: "Total XP", value: user ? "1,450" : "0", subtitle: "Points earned", icon: Star, color: "bg-yellow-500 text-yellow-500" },
+        { title: "Success Rate", value: user ? "82%" : "??%", subtitle: "You're doing great!", icon: Target, color: "bg-emerald-500 text-emerald-500" },
+        { title: "Learning Time", value: user ? "12h 30m" : "0h 0m", subtitle: "Time well spent", icon: Clock, color: "bg-blue-500 text-blue-500" },
     ];
 
     return (
@@ -55,18 +55,18 @@ const Dashboard = () => {
 
                 <div className="relative z-10">
                     <h1 className="text-5xl md:text-6xl font-black text-white mb-3 italic tracking-tighter">
-                        {user ? 'CONTINUE' : 'START'} <span className="text-primary not-italic">SIMULATION</span>
+                        {user ? 'KEEP IT' : 'START'} <span className="text-primary not-italic">GOING!</span>
                     </h1>
                     <p className="text-white/30 font-bold uppercase tracking-widest text-[10px] flex items-center gap-2">
                         {user ? (
-                            <>OPERATOR: {user.user_metadata?.username || user.email} • PATH: IBA ADMISSION</>
+                            <>STUDENT: {user.user_metadata?.username || user.email} • PATH: IBA ADMISSION</>
                         ) : (
-                            <>GUEST ACCESS GRANTED • ANALYTICS DISABLED</>
+                            <>GUEST MODE • SIGN IN TO SAVE PROGRESS</>
                         )}
                     </p>
                 </div>
                 <Link to="/practice" className="relative z-10 inline-flex items-center gap-3 px-10 py-5 bg-primary hover:bg-primary-hover text-white rounded-2xl font-black text-xs uppercase tracking-[0.2em] transition-all hover:scale-[1.05] active:scale-95 shadow-[0_20px_50px_rgba(94,106,210,0.3)]">
-                    {user ? 'Resume Laboratory' : 'Enter Arena'}
+                    {user ? 'Resume Practice' : 'Start Learning'}
                     <ArrowRight className="w-5 h-5" />
                 </Link>
             </div>
@@ -86,7 +86,7 @@ const Dashboard = () => {
                     <div className="flex items-center justify-between px-2">
                         <h2 className="text-2xl font-black text-white italic tracking-tighter flex items-center gap-3">
                             <TrendingUp className="text-primary w-6 h-6" />
-                            HISTORICAL DATA
+                            RECENT LESSONS
                         </h2>
                     </div>
                     <div className="bg-surface border border-white/5 rounded-[2.5rem] overflow-hidden shadow-2xl relative">
@@ -114,13 +114,13 @@ const Dashboard = () => {
                                     <Lock className="w-8 h-8 text-primary" />
                                 </div>
                                 <div className="max-w-xs">
-                                    <h3 className="text-xl font-black text-white italic uppercase tracking-tighter mb-2">Registry Required</h3>
+                                    <h3 className="text-xl font-black text-white italic uppercase tracking-tighter mb-2">Sign in Required</h3>
                                     <p className="text-white/30 text-xs font-medium leading-relaxed">
-                                        Simulation history and performance mapping require an active operator profile.
+                                        You need to sign in to see your lesson history and track your points.
                                     </p>
                                 </div>
                                 <Link to="/register" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-black rounded-2xl font-black uppercase tracking-widest text-[10px] shadow-2xl hover:scale-105 transition-all">
-                                    <UserPlus className="w-4 h-4" /> Initialize Registry
+                                    <UserPlus className="w-4 h-4" /> Sign Up Free
                                 </Link>
                             </div>
                         )}
@@ -131,7 +131,7 @@ const Dashboard = () => {
                 <div className="space-y-6">
                     <h2 className="text-2xl font-black text-white italic tracking-tighter flex items-center gap-3 px-2">
                         <Brain className="text-primary w-6 h-6" />
-                        WEAK POINTS
+                        STUDY FOCUS
                     </h2>
                     <div className="bg-surface border border-white/5 rounded-[2.5rem] p-10 space-y-10 shadow-2xl relative overflow-hidden group">
                         <div className={`space-y-10 ${!user ? 'blur-lg opacity-10 select-none grayscale' : ''}`}>
@@ -155,13 +155,13 @@ const Dashboard = () => {
                             ))}
 
                             <button className="w-full py-5 mt-6 text-[10px] font-black uppercase tracking-[0.2em] text-primary hover:text-white border border-primary/20 hover:bg-primary rounded-2xl transition-all duration-500 shadow-xl shadow-primary/5">
-                                Generate Full Audit
+                                See Full Report
                             </button>
                         </div>
 
                         {!user && (
                             <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center bg-black/20 backdrop-blur-[1px]">
-                                <p className="text-white/20 text-[10px] font-black uppercase tracking-[0.3em] italic">Intelligence Locked</p>
+                                <p className="text-white/20 text-[10px] font-black uppercase tracking-[0.3em] italic">Locked</p>
                             </div>
                         )}
                     </div>

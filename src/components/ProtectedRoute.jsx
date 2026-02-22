@@ -15,8 +15,8 @@ const ProtectedRoute = ({ children, adminOnly = false, superAdminOnly = false })
                     <ShieldAlert className="absolute inset-0 m-auto w-8 h-8 text-primary/50" />
                 </div>
                 <div className="text-center">
-                    <h2 className="text-xl font-black text-white italic tracking-tighter uppercase">Verifying Clearance</h2>
-                    <p className="text-[10px] text-white/20 font-black uppercase tracking-[0.3em] mt-2">Neural Identity Sync in Progress</p>
+                    <h2 className="text-xl font-black text-white italic tracking-tighter uppercase">One moment...</h2>
+                    <p className="text-[10px] text-white/20 font-black uppercase tracking-[0.3em] mt-2">Getting things ready for you!</p>
                 </div>
             </div>
         );

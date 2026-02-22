@@ -33,7 +33,7 @@ export const AuthProvider = ({ children }) => {
 
             if (data) setProfile(data);
         } catch (err) {
-            console.error("Neural profile sync error:", err);
+            console.error("Profile loading error:", err);
         }
     };
 

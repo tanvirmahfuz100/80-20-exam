@@ -31,8 +31,8 @@ const Login = () => {
                 <div className="absolute -top-24 -right-24 w-64 h-64 bg-primary/10 blur-[100px] rounded-full"></div>
 
                 <div className="relative text-center">
-                    <h2 className="text-3xl font-black text-white italic tracking-tighter mb-2">ACCESS NODE</h2>
-                    <p className="text-white/30 font-bold uppercase tracking-widest text-xs">Enter your credentials to proceed</p>
+                    <h2 className="text-3xl font-black text-white italic tracking-tighter mb-2">Welcome Back!</h2>
+                    <p className="text-white/30 font-bold uppercase tracking-widest text-xs">Sign in to keep your streak going!</p>
                 </div>
 
                 <form onSubmit={handleSubmit} className="mt-8 space-y-6 relative">
@@ -64,7 +64,7 @@ const Login = () => {
                                 value={password}
                                 onChange={(e) => setPassword(e.target.value)}
                                 className="w-full bg-background border border-white/5 pl-12 pr-4 py-4 rounded-2xl text-white outline-none focus:border-primary/50 transition-all font-medium"
-                                placeholder="Security Key"
+                                placeholder="Password"
                             />
                         </div>
                     </div>
@@ -75,12 +75,12 @@ const Login = () => {
                         className="w-full py-4 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-2xl font-black uppercase tracking-[0.2em] text-[10px] shadow-xl shadow-primary/20 transition-all flex items-center justify-center gap-3"
                     >
                         {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : <LogIn className="w-5 h-5" />}
-                        Initialize Authentication
+                        Sign In
                     </button>
 
                     <div className="text-center pt-4">
                         <p className="text-white/30 text-xs font-bold uppercase tracking-widest">
-                            New operator? <Link to="/register" className="text-primary hover:underline ml-2">Request Access</Link>
+                            New here? <Link to="/register" className="text-primary hover:underline ml-2">Sign up for free</Link>
                         </p>
                     </div>
                 </form>

@@ -144,7 +144,7 @@ const Quiz = () => {
     if (loading) return (
         <div className="min-h-[60vh] flex flex-col items-center justify-center space-y-4">
             <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
-            <p className="text-white/20 font-black uppercase tracking-widest text-[10px]">Loading Simulator</p>
+            <p className="text-white/20 font-black uppercase tracking-widest text-[10px]">Loading practice session...</p>
         </div>
     );
 
@@ -152,7 +152,7 @@ const Quiz = () => {
         <div className="max-w-md mx-auto p-10 bg-red-500/5 border border-red-500/20 rounded-3xl text-center">
             <AlertTriangle className="w-12 h-12 text-red-500 mx-auto mb-4" />
             <p className="text-white font-bold">{error}</p>
-            <Link to="/practice" className="mt-6 inline-block text-primary text-xs font-black uppercase tracking-widest">Return to Base</Link>
+            <Link to="/practice" className="mt-6 inline-block text-primary text-xs font-black uppercase tracking-widest">Go Back</Link>
         </div>
     );
 
@@ -170,7 +170,7 @@ const Quiz = () => {
                         </div>
 
                         <div>
-                            <h2 className="text-4xl font-black text-white italic tracking-tighter mb-2 uppercase">Session Terminated</h2>
+                            <h2 className="text-4xl font-black text-white italic tracking-tighter mb-2 uppercase">Practice Complete!</h2>
                             <p className="text-white/30 font-bold uppercase tracking-widest text-xs">{title}</p>
                         </div>
 
@@ -181,23 +181,23 @@ const Quiz = () => {
                             </div>
                             <div className="bg-surface-alt p-6 rounded-2xl border border-white/5">
                                 <div className="text-emerald-500 font-black text-3xl mb-1">{score}/{questions.length}</div>
-                                <div className="text-[10px] text-white/30 font-black uppercase tracking-widest">Correct Score</div>
+                                <div className="text-[10px] text-white/30 font-black uppercase tracking-widest">Correct Answers</div>
                             </div>
                             <div className="bg-surface-alt p-6 rounded-2xl border border-white/5">
                                 <div className="text-yellow-500 font-black text-xl mb-1 italic uppercase tracking-tighter">
-                                    {accuracy >= 80 ? 'Master' : accuracy >= 50 ? 'Novice' : 'Recruit'}
+                                    {accuracy >= 80 ? 'Expert' : accuracy >= 50 ? 'Learner' : 'Beginner'}
                                 </div>
-                                <div className="text-[10px] text-white/30 font-black uppercase tracking-widest">Efficiency Rank</div>
+                                <div className="text-[10px] text-white/30 font-black uppercase tracking-widest">Title Earned</div>
                             </div>
                         </div>
 
                         {!user && (
                             <div className="bg-primary/5 border border-dashed border-primary/20 rounded-2xl p-6 space-y-4">
                                 <div className="flex items-center justify-center gap-2 text-primary font-black uppercase tracking-widest text-[10px]">
-                                    <Lock className="w-4 h-4" /> Guest Mode Limitation
+                                    <Lock className="w-4 h-4" /> Keep your streak!
                                 </div>
                                 <p className="text-white/60 text-sm italic">
-                                    Historical performance and neural strengths are not recorded for guests. Register to enable global ranking.
+                                    Sign up to unlock 50,000+ questions, track your progress, and see where you rank on the leaderboard!
                                 </p>
                                 <Link
                                     to="/register"
@@ -210,10 +210,10 @@ const Quiz = () => {
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-6">
                             <button onClick={() => navigate('/practice')} className="flex-1 py-4 bg-white/5 hover:bg-white/10 text-white rounded-2xl font-black uppercase tracking-widest text-[10px] border border-white/5 transition-all">
-                                Return to Library
+                                Back Home
                             </button>
                             <button onClick={() => window.location.reload()} className="flex-1 py-4 bg-primary hover:bg-primary-hover text-white rounded-2xl font-black uppercase tracking-widest text-[10px] shadow-xl shadow-primary/20 transition-all flex items-center justify-center gap-2">
-                                <RefreshCw className="w-4 h-4" /> Reset Simulation
+                                <RefreshCw className="w-4 h-4" /> Try Again
                             </button>
                         </div>
                     </div>
@@ -236,7 +236,7 @@ const Quiz = () => {
                     <div>
                         <h4 className="text-white font-black italic tracking-tighter text-xl uppercase">{title}</h4>
                         <div className="flex items-center gap-2">
-                            <span className="text-[9px] font-black uppercase tracking-widest text-primary">Simulation Active</span>
+                            <span className="text-[9px] font-black uppercase tracking-widest text-primary">Learning...</span>
                             <div className="w-24 h-1 bg-white/5 rounded-full overflow-hidden">
                                 <div className="h-full bg-primary transition-all duration-500 shadow-[0_0_10px_#5e6ad2]" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}></div>
                             </div>
@@ -253,7 +253,7 @@ const Quiz = () => {
                     )}
                     <div className="bg-primary/10 border border-primary/20 px-4 py-2 rounded-xl flex items-center gap-2">
                         <Zap className="w-4 h-4 text-primary fill-primary" />
-                        <span className="text-primary font-black text-sm tracking-tighter">{totalXpSoFar} UNIT XP</span>
+                        <span className="text-primary font-black text-sm tracking-tighter">{totalXpSoFar} POINTS</span>
                     </div>
                 </div>
             </div>
@@ -327,14 +327,14 @@ const Quiz = () => {
                                 disabled={selectedOption === null}
                                 className="px-14 py-5 bg-primary hover:bg-primary-hover disabled:opacity-20 disabled:grayscale text-white rounded-3xl font-black uppercase tracking-[0.2em] text-[10px] transition-all shadow-2xl shadow-primary/40 active:scale-95 flex items-center gap-3"
                             >
-                                <BrainCircuit className="w-4 h-4" /> Validate Choice
+                                <BrainCircuit className="w-4 h-4" /> Check Answer
                             </button>
                         ) : (
                             <button
                                 onClick={handleNext}
                                 className="px-14 py-5 bg-white text-black hover:bg-white/90 rounded-3xl font-black uppercase tracking-[0.2em] text-[10px] transition-all flex items-center gap-3 shadow-2xl shadow-white/5 active:scale-95"
                             >
-                                {currentIndex < questions.length - 1 ? 'Next Neural Node' : 'Finalize Transmission'}
+                                {currentIndex < questions.length - 1 ? 'Continue' : 'Finish Lesson'}
                                 <ChevronRight className="w-4 h-4" />
                             </button>
                         )}
@@ -351,7 +351,7 @@ const Quiz = () => {
                                         <Lightbulb className="w-4 h-4" />
                                     </div>
                                     <h4 className="text-[10px] font-black uppercase tracking-widest text-primary mb-4 flex items-center gap-2">
-                                        Solution Analysis
+                                        Explanation
                                     </h4>
                                     <div
                                         className="text-white/80 text-sm leading-relaxed font-medium space-y-4 prose-invert"
@@ -385,8 +385,8 @@ const Quiz = () => {
                                         <Lock className="w-8 h-8 text-primary" />
                                     </div>
                                     <div className="space-y-2">
-                                        <h4 className="text-white font-black uppercase tracking-widest text-xs tracking-tighter">Analysis Restricted</h4>
-                                        <p className="text-white/20 text-[11px] leading-relaxed font-bold italic">Detailed solution feedback is exclusive to registered operators.</p>
+                                        <h4 className="text-white font-black uppercase tracking-widest text-xs tracking-tighter">Locked Solution</h4>
+                                        <p className="text-white/20 text-[11px] leading-relaxed font-bold italic">Join us to see the full explanation and video breakdowns!</p>
                                     </div>
                                     <Link
                                         to="/register"
@@ -413,8 +413,8 @@ const Quiz = () => {
                                 <BarChart3 className="w-6 h-6 text-white/10" />
                             </div>
                             <div className="space-y-2">
-                                <h4 className="text-white/20 font-black uppercase tracking-widest text-[9px]">Awaiting Intel</h4>
-                                <p className="text-white/10 text-[10px] leading-relaxed italic font-medium">Neural insights activate upon choice validation.</p>
+                                <h4 className="text-white/20 font-black uppercase tracking-widest text-[9px]">Ready to check?</h4>
+                                <p className="text-white/10 text-[10px] leading-relaxed italic font-medium">Check your answer to see the explanation.</p>
                             </div>
                         </div>
                     )}
