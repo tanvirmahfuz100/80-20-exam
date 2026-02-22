@@ -1,0 +1,352 @@
+{
+    "subjects": [
+        {
+            "id": "analytical",
+            "name": "Analytical Ability",
+            "icon": "Brain",
+            "topics": [
+                {
+                    "id": "puzzles",
+                    "name": "Puzzle",
+                    "chapters": [
+                        {
+                            "id": "analytical_puz_01",
+                            "name": "Standard Puzzles",
+                            "file": "/iba/analytical/puzzles_standard.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "critical_reasoning",
+                    "name": "Critical Reasoning",
+                    "chapters": [
+                        {
+                            "id": "analytical_cr_01",
+                            "name": "Logical Flaws",
+                            "file": "/iba/analytical/cr_logical_flaws.json"
+                        },
+                        {
+                            "id": "analytical_cr_02",
+                            "name": "Assumption & Inference",
+                            "file": "/iba/analytical/cr_assumptions.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "data_sufficiency",
+                    "name": "Data Sufficiency",
+                    "chapters": [
+                        {
+                            "id": "analytical_ds_01",
+                            "name": "Algebraic DS",
+                            "file": "/iba/analytical/ds_algebra.json"
+                        },
+                        {
+                            "id": "analytical_ds_02",
+                            "name": "Geometric DS",
+                            "file": "/iba/analytical/ds_geometry.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "english",
+            "name": "English",
+            "icon": "Book",
+            "topics": [
+                {
+                    "id": "grammar",
+                    "name": "Grammar",
+                    "chapters": [
+                        {
+                            "id": "eng_gram_noun",
+                            "name": "Noun",
+                            "file": "/iba/english/grammar_noun.json"
+                        },
+                        {
+                            "id": "eng_gram_pronoun",
+                            "name": "Pronoun",
+                            "file": "/iba/english/grammar_pronoun.json"
+                        },
+                        {
+                            "id": "eng_gram_adj",
+                            "name": "Adjective",
+                            "file": "/iba/english/grammar_adjective.json"
+                        },
+                        {
+                            "id": "eng_gram_tense",
+                            "name": "Tense",
+                            "file": "/iba/english/grammar_tense.json"
+                        },
+                        {
+                            "id": "eng_gram_sva",
+                            "name": "Subject-Verb Agreement",
+                            "file": "/iba/english/grammar_sva.json"
+                        },
+                        {
+                            "id": "eng_gram_comp",
+                            "name": "Comparison",
+                            "file": "/iba/english/grammar_comparison.json"
+                        },
+                        {
+                            "id": "eng_gram_parallel",
+                            "name": "Parallel Structure",
+                            "file": "/iba/english/grammar_parallel_structure.json"
+                        },
+                        {
+                            "id": "eng_gram_part_adj",
+                            "name": "Participles as Adjectives",
+                            "file": "/iba/english/grammar_participles.json"
+                        },
+                        {
+                            "id": "eng_gram_modifiers",
+                            "name": "Dangling Modifiers",
+                            "file": "/iba/english/grammar_modifiers.json"
+                        },
+                        {
+                            "id": "eng_gram_modals",
+                            "name": "Modals",
+                            "file": "/iba/english/grammar_modals.json"
+                        },
+                        {
+                            "id": "eng_gram_conditionals",
+                            "name": "Conditionals",
+                            "file": "/iba/english/grammar_conditionals.json"
+                        },
+                        {
+                            "id": "eng_gram_redundancy",
+                            "name": "Redundancy Errors",
+                            "file": "/iba/english/grammar_redundancy.json"
+                        },
+                        {
+                            "id": "eng_gram_misc",
+                            "name": "Miscellaneous",
+                            "file": "/iba/english/grammar_misc.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "vocabulary",
+                    "name": "Vocabulary",
+                    "chapters": [
+                        {
+                            "id": "eng_voc_syn",
+                            "name": "Synonyms",
+                            "file": "/iba/english/vocabulary_synonyms.json"
+                        },
+                        {
+                            "id": "eng_voc_ant",
+                            "name": "Antonyms",
+                            "file": "/iba/english/vocabulary_antonyms.json"
+                        },
+                        {
+                            "id": "eng_voc_repl",
+                            "name": "Word Replacement",
+                            "file": "/iba/english/vocabulary_replacement.json"
+                        },
+                        {
+                            "id": "eng_voc_rear",
+                            "name": "Rearrangement",
+                            "file": "/iba/english/vocabulary_rearrangement.json"
+                        },
+                        {
+                            "id": "eng_voc_usage",
+                            "name": "Usage",
+                            "file": "/iba/english/vocabulary_usage.json"
+                        },
+                        {
+                            "id": "eng_voc_fib",
+                            "name": "Fill in the Blanks",
+                            "file": "/iba/english/vocabulary_fib.json"
+                        },
+                        {
+                            "id": "eng_voc_analogy",
+                            "name": "Analogy",
+                            "file": "/iba/english/vocabulary_analogy.json"
+                        },
+                        {
+                            "id": "eng_voc_expr",
+                            "name": "Express in One Word",
+                            "file": "/iba/english/vocabulary_one_word.json"
+                        },
+                        {
+                            "id": "eng_voc_prep",
+                            "name": "Appropriate Preposition",
+                            "file": "/iba/english/vocabulary_preposition.json"
+                        },
+                        {
+                            "id": "eng_voc_idioms",
+                            "name": "Idioms & Phrases",
+                            "file": "/iba/english/vocabulary_idioms.json"
+                        },
+                        {
+                            "id": "eng_voc_miss",
+                            "name": "Missing Word Identification",
+                            "file": "/iba/english/vocabulary_missing_word.json"
+                        },
+                        {
+                            "id": "eng_voc_spell",
+                            "name": "Spelling",
+                            "file": "/iba/english/vocabulary_spelling.json"
+                        },
+                        {
+                            "id": "eng_voc_odd",
+                            "name": "Odd One Out",
+                            "file": "/iba/english/vocabulary_odd_one_out.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "math",
+            "name": "Math",
+            "icon": "Calculator",
+            "topics": [
+                {
+                    "id": "algebra",
+                    "name": "Algebra",
+                    "chapters": [
+                        {
+                            "id": "math_alg_num",
+                            "name": "Numbers (Integer, Odd/Even, Prime)",
+                            "file": "/iba/math/algebra_numbers.json"
+                        },
+                        {
+                            "id": "math_alg_ops",
+                            "name": "Basic Operations",
+                            "file": "/iba/math/algebra_operations.json"
+                        },
+                        {
+                            "id": "math_alg_factors",
+                            "name": "Factors, Multiples, HCF & LCM",
+                            "file": "/iba/math/algebra_factors.json"
+                        },
+                        {
+                            "id": "math_alg_div",
+                            "name": "Divisibility Rules",
+                            "file": "/iba/math/algebra_divisibility.json"
+                        },
+                        {
+                            "id": "math_alg_frac",
+                            "name": "Fractions & Decimals",
+                            "file": "/iba/math/algebra_fractions.json"
+                        },
+                        {
+                            "id": "math_alg_abs",
+                            "name": "Absolute Value & Number Line",
+                            "file": "/iba/math/algebra_absolute_value.json"
+                        },
+                        {
+                            "id": "math_alg_exp",
+                            "name": "Exponents & Roots (Square/Cube)",
+                            "file": "/iba/math/algebra_exponents.json"
+                        },
+                        {
+                            "id": "math_alg_seq",
+                            "name": "Sequences",
+                            "file": "/iba/math/algebra_sequences.json"
+                        },
+                        {
+                            "id": "math_alg_avg",
+                            "name": "Averages",
+                            "file": "/iba/math/algebra_averages.json"
+                        },
+                        {
+                            "id": "math_alg_age",
+                            "name": "Ages",
+                            "file": "/iba/math/algebra_ages.json"
+                        },
+                        {
+                            "id": "math_alg_pct",
+                            "name": "Percentages",
+                            "file": "/iba/math/algebra_percentages.json"
+                        },
+                        {
+                            "id": "math_alg_profit",
+                            "name": "Profit & Loss",
+                            "file": "/iba/math/algebra_profit_loss.json"
+                        },
+                        {
+                            "id": "math_alg_int",
+                            "name": "Interest",
+                            "file": "/iba/math/algebra_interest.json"
+                        },
+                        {
+                            "id": "math_alg_ineq",
+                            "name": "Inequalities",
+                            "file": "/iba/math/algebra_inequalities.json"
+                        },
+                        {
+                            "id": "math_alg_ratio",
+                            "name": "Ratio & Proportion",
+                            "file": "/iba/math/algebra_ratio.json"
+                        },
+                        {
+                            "id": "math_alg_speed",
+                            "name": "Distance, Time & Speed",
+                            "file": "/iba/math/algebra_speed.json"
+                        },
+                        {
+                            "id": "math_alg_work",
+                            "name": "Work Problems",
+                            "file": "/iba/math/algebra_work.json"
+                        },
+                        {
+                            "id": "math_alg_sets",
+                            "name": "Sets",
+                            "file": "/iba/math/algebra_sets.json"
+                        },
+                        {
+                            "id": "math_alg_mix",
+                            "name": "Mixture",
+                            "file": "/iba/math/algebra_mixture.json"
+                        },
+                        {
+                            "id": "math_alg_prob",
+                            "name": "Permutation, Combination & Probability",
+                            "file": "/iba/math/algebra_probability.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "geometry",
+                    "name": "Geometry",
+                    "chapters": [
+                        {
+                            "id": "math_geo_tri",
+                            "name": "Angles & Triangles",
+                            "file": "/iba/math/geometry_triangles.json"
+                        },
+                        {
+                            "id": "math_geo_poly",
+                            "name": "Quadrilaterals & Polygons",
+                            "file": "/iba/math/geometry_polygons.json"
+                        },
+                        {
+                            "id": "math_geo_cir",
+                            "name": "Circles",
+                            "file": "/iba/math/geometry_circles.json"
+                        },
+                        {
+                            "id": "math_geo_solid",
+                            "name": "Solid Geometry",
+                            "file": "/iba/math/geometry_solid.json"
+                        },
+                        {
+                            "id": "math_geo_coord",
+                            "name": "Coordinate Geometry",
+                            "file": "/iba/math/geometry_coordinate.json"
+                        },
+                        {
+                            "id": "math_geo_misc",
+                            "name": "Mixed Questions",
+                            "file": "/iba/math/geometry_mixed.json"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
