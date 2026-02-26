@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { useSearchParams, useNavigate, Link } from 'react-router-dom';
+import { useSearchParams, useNavigate, Link, useParams } from 'react-router-dom';
 import {
     ArrowLeft, CheckCircle, XCircle, ChevronRight,
     RefreshCw, AlertTriangle, Lightbulb, Timer,
@@ -8,6 +8,7 @@ import {
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { supabase } from '../supabase';
+import { api } from '../services/api';
 
 const Quiz = () => {
     const { user } = useAuth();
@@ -48,27 +49,31 @@ const Quiz = () => {
         return opts;
     }, [questions, currentIndex]);
 
+    const { chapterId } = useParams();
+    const isMock = searchParams.get('isMock') === 'true';
+
     useEffect(() => {
-        if (!file) return;
-        setLoading(true);
-        fetch(file)
-            .then(res => {
-                if (!res.ok) throw new Error("Failed to load questions");
-                return res.json();
-            })
-            .then(data => {
-                const qs = data.questions || [];
-                setQuestions(qs);
-                setLoading(false);
-                if (isTimedMode) {
-                    setTimeLeft(qs.length * 60);
+        const loadQuestions = async () => {
+            setLoading(true);
+            try {
+                if (isMock && chapterId) {
+                    // Fetch Mock Test Questions from DB
+                    const { data } = await api.getMockTestQuestions(chapterId);
+                    setQuestions(data || []);
+                } else if (file) {
+                    // Legacy JSON support
+                    const res = await fetch(file);
+                    const data = await res.json();
+                    setQuestions(data.questions || []);
                 }
-            })
-            .catch(err => {
+            } catch (err) {
                 setError(err.message);
+            } finally {
                 setLoading(false);
-            });
-    }, [file, isTimedMode]);
+            }
+        };
+        loadQuestions();
+    }, [file, chapterId, isMock]);
 
     // Timer Logic
     useEffect(() => {

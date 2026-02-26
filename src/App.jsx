@@ -9,7 +9,11 @@ import Register from './pages/Register';
 import Admin from './pages/Admin';
 import ProtectedRoute from './components/ProtectedRoute';
 import { AuthProvider, useAuth } from './context/AuthContext';
-import { Analytics } from './pages/Placeholders';
+import Courses from './pages/Courses';
+import QuestionBank from './pages/QuestionBank';
+import MockTests from './pages/MockTests';
+import VideoFeed from './pages/VideoFeed';
+import Analytics from './pages/Analytics';
 import Settings from './pages/Settings';
 import Landing from './pages/Landing';
 
@@ -34,8 +38,12 @@ const AppContent = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/" element={user ? <Dashboard /> : <Landing />} />
 
-        {/* Simulation Channels */}
+        {/* Learning Channels */}
+        <Route path="/courses" element={<Courses />} />
         <Route path="/practice" element={<PracticeConfig />} />
+        <Route path="/bank" element={<QuestionBank />} />
+        <Route path="/mock-tests" element={<MockTests />} />
+        <Route path="/shorts" element={<VideoFeed />} />
         <Route path="/quiz/:chapterId" element={<Quiz />} />
 
         {/* Private Neural Tracks */}

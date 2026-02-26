@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate, Link } from 'react-router-dom';
 import { Mail, Lock, LogIn, AlertCircle, Loader2 } from 'lucide-react';
+import { supabase } from '../supabase';
 
 const Login = () => {
     const { signIn } = useAuth();
@@ -78,10 +79,21 @@ const Login = () => {
                         Sign In
                     </button>
 
-                    <div className="text-center pt-4">
+                    <div className="flex flex-col gap-4 text-center">
                         <p className="text-white/30 text-xs font-bold uppercase tracking-widest">
                             New here? <Link to="/register" className="text-primary hover:underline ml-2">Sign up for free</Link>
                         </p>
+                        <button
+                            type="button"
+                            onClick={async () => {
+                                if (!email) return alert("Please enter your email first!");
+                                const { error } = await supabase.auth.resetPasswordForEmail(email);
+                                if (!error) alert("Check your email for a password reset link!");
+                            }}
+                            className="text-[10px] text-white/10 font-black uppercase tracking-widest hover:text-primary transition-colors"
+                        >
+                            Forgot Password?
+                        </button>
                     </div>
                 </form>
             </div>
