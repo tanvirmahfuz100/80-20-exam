@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Book, Calculator, Brain, ChevronRight, Play, Clock, AlertCircle, Timer, ShieldCheck } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
 const SubjectCard = ({ subject, isSelected, onClick }) => {
@@ -59,14 +59,37 @@ const PracticeConfig = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
+    const [searchParams] = useSearchParams();
+    const categoryFilter = searchParams.get('category');
+
     useEffect(() => {
-        const paths = ['/iba/index.json', '/ssc/index.json'];
-        Promise.all(paths.map(p => fetch(p).then(r => r.ok ? r.json() : null).catch(() => null)))
+        const base = import.meta.env.BASE_URL || '/';
+        const paths = ['iba/index.json', 'ssc/index.json'].map(p => `${base}${p}`);
+        Promise.all(paths.map(p =>
+            fetch(p)
+                .then(r => r.ok ? r.json().then(j => ({ json: j, path: p })) : null)
+                .catch(() => null)
+        ))
             .then(results => {
-                const subjects = results.filter(Boolean).flatMap(r => r.subjects || []);
-                const merged = { subjects };
+                const subjects = [];
+                for (const res of results.filter(Boolean)) {
+                    const rel = (res.path || '').replace(base, '');
+                    const src = rel.split('/')[0] || 'IBA';
+                    const examCat = src.toUpperCase();
+                    for (const sub of res.json.subjects || []) {
+                        subjects.push({ ...sub, exam_category: examCat });
+                    }
+                }
+
+                let filtered = subjects;
+                if (categoryFilter) {
+                    const wanted = categoryFilter.toUpperCase();
+                    filtered = subjects.filter(s => (s.exam_category || '').toUpperCase() === wanted);
+                }
+
+                const merged = { subjects: filtered };
                 setData(merged);
-                if (subjects.length > 0) setSelectedSubject(subjects[0]);
+                if (filtered.length > 0) setSelectedSubject(filtered[0]);
                 setLoading(false);
             })
             .catch(err => {
@@ -74,7 +97,7 @@ const PracticeConfig = () => {
                 setError(err.message);
                 setLoading(false);
             });
-    }, []);
+    }, [categoryFilter]);
 
     const handleStart = (chapter) => {
         navigate(`/quiz/${chapter.id}?file=${encodeURIComponent(chapter.file)}&title=${encodeURIComponent(chapter.name)}&timed=${isTimed}`);
