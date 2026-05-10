@@ -26,7 +26,7 @@ dist-ssr
 .env
 .env.*
 
-# Local Database Scripts (Sensitive)
+# Local Script Files (Sensitive)
 *.sql
 
 # Local Launchers & Tools

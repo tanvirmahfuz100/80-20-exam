@@ -19,16 +19,16 @@ const Landing = () => {
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8">
                         <Link
-                            to="/register"
+                            to="/login"
                             className="w-full sm:w-auto px-12 py-6 bg-primary hover:bg-primary-hover text-white rounded-[2rem] font-black uppercase tracking-[0.2em] text-xs transition-all hover:scale-105 active:scale-95 shadow-[0_20px_50px_rgba(94,106,210,0.3)] flex items-center justify-center gap-3"
                         >
-                            Get Started
+                            Start Testing
                         </Link>
                         <Link
                             to="/login"
                             className="w-full sm:w-auto px-12 py-6 bg-white/5 hover:bg-white/10 text-white rounded-[2rem] font-black uppercase tracking-[0.2em] text-xs transition-all border border-white/10 flex items-center justify-center gap-3"
                         >
-                            I Already Have an Account
+                            Continue to App
                         </Link>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ const Landing = () => {
                         </div>
                         <h3 className="text-2xl font-black italic tracking-tighter uppercase">50,000+ Questions</h3>
                         <p className="text-white/30 text-sm leading-relaxed">
-                            Access the largest database of competitive exam questions ever built. IBA, BCS, SSC, SAT, GRE, and more. Every single one comes with detailed explanations.
+                            Access a massive local question library for competitive exams. IBA, BCS, SSC, SAT, GRE, and more. Every single one comes with detailed explanations.
                         </p>
                     </div>
                     <div className="space-y-6">
@@ -76,14 +76,14 @@ const Landing = () => {
                     Start Your Exam Prep Today!
                 </h2>
                 <p className="text-white/40 text-xl font-medium">
-                    Create a profile now to start your streak and compete with other students on the global leaderboard.
+                    Local testing mode is active. You can explore every feature without registration.
                 </p>
                 <div className="flex justify-center pt-8">
                     <Link
-                        to="/register"
+                        to="/login"
                         className="px-12 py-6 bg-primary hover:bg-primary-hover text-white rounded-[2.5rem] font-black uppercase tracking-[0.3em] text-sm transition-all hover:scale-105 active:scale-95 shadow-[0_30px_60px_rgba(94,106,210,0.4)] flex items-center gap-4"
                     >
-                        Create My Profile
+                        Enter Test Mode
                     </Link>
                 </div>
             </div>

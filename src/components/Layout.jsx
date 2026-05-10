@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink, useLocation, Link } from 'react-router-dom';
 import {
     LayoutDashboard, BookOpen, Settings, Menu,
-    TrendingUp, LogOut, ShieldCheck, LogIn,
+    TrendingUp, LogOut, ShieldCheck,
     MessageSquareWarning, Bell, Target, ClipboardList, Video, Brain
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
@@ -76,13 +76,11 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                                     `flex items-center gap-3 px-3 py-3 rounded-xl text-sm font-bold transition-all relative group ${isActive
                                         ? 'bg-primary/10 text-primary border border-primary/20'
                                         : 'text-white/30 hover:bg-white/5 hover:text-white border border-transparent'
-                                    } ${!user ? 'opacity-50 cursor-not-allowed grayscale' : ''}`
+                                    }`
                                 }
-                                onClick={(e) => !user && e.preventDefault()}
                             >
                                 <item.icon className="w-5 h-5" />
                                 {item.label}
-                                {!user && <div className="ml-auto text-[8px] bg-white/5 px-1.5 py-0.5 rounded-full border border-white/5 font-black uppercase">PRO</div>}
                             </NavLink>
                         ))}
                     </div>
@@ -125,29 +123,17 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
 
                 {/* Footer */}
                 <div className="p-4 border-t border-border space-y-3 bg-black/20 backdrop-blur-xl">
-                    {user ? (
-                        <>
-                            <div className="bg-surface-active p-3 rounded-xl border border-white/10">
-                                <p className="text-[10px] uppercase font-bold tracking-widest text-white/30 mb-0.5">Welcome back,</p>
-                                <p className="text-sm font-black text-white tracking-tight truncate uppercase">{user.user_metadata?.username || user.email}</p>
-                            </div>
-                            <button
-                                onClick={() => signOut()}
-                                className="w-full flex items-center gap-3 px-3 py-3 rounded-xl text-sm font-bold text-red-400 hover:bg-red-500/10 transition-all border border-transparent hover:border-red-500/20"
-                            >
-                                <LogOut className="w-5 h-5" />
-                                Sign Out
-                            </button>
-                        </>
-                    ) : (
-                        <Link
-                            to="/login"
-                            className="w-full flex items-center justify-center gap-3 px-3 py-4 rounded-xl text-[10px] font-black uppercase tracking-[0.2em] text-white bg-primary hover:bg-primary-hover transition-all shadow-xl shadow-primary/20 animate-pulse hover:animate-none"
-                        >
-                            <LogIn className="w-4 h-4" />
-                            Sign in to start
-                        </Link>
-                    )}
+                    <div className="bg-surface-active p-3 rounded-xl border border-white/10">
+                        <p className="text-[10px] uppercase font-bold tracking-widest text-white/30 mb-0.5">Testing as,</p>
+                        <p className="text-sm font-black text-white tracking-tight truncate uppercase">{user.user_metadata?.username || user.email}</p>
+                    </div>
+                    <button
+                        onClick={() => signOut()}
+                        className="w-full flex items-center gap-3 px-3 py-3 rounded-xl text-sm font-bold text-red-400 hover:bg-red-500/10 transition-all border border-transparent hover:border-red-500/20"
+                    >
+                        <LogOut className="w-5 h-5" />
+                        Reset Test Session
+                    </button>
                 </div>
             </div>
         </aside>
@@ -192,7 +178,7 @@ const Layout = ({ children }) => {
     const location = useLocation();
 
     const isAuthPage = location.pathname === '/login' || location.pathname === '/register';
-    const isLandingPage = location.pathname === '/' && !user;
+    const isLandingPage = location.pathname === '/welcome';
     const hideLayout = isAuthPage || isLandingPage;
 
     return (

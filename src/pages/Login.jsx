@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
-import { useNavigate, Link } from 'react-router-dom';
-import { Mail, Lock, LogIn, AlertCircle, Loader2 } from 'lucide-react';
-import { supabase } from '../supabase';
+import { useNavigate } from 'react-router-dom';
+import { Mail, LogIn, AlertCircle, Loader2 } from 'lucide-react';
 
 const Login = () => {
     const { signIn } = useAuth();
     const navigate = useNavigate();
     const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(false);
 
@@ -17,7 +15,7 @@ const Login = () => {
         setLoading(true);
         setError(null);
 
-        const { error } = await signIn({ email, password });
+        const { error } = await signIn({ email });
         if (error) {
             setError(error.message);
             setLoading(false);
@@ -33,7 +31,7 @@ const Login = () => {
 
                 <div className="relative text-center">
                     <h2 className="text-3xl font-black text-white italic tracking-tighter mb-2">Welcome Back!</h2>
-                    <p className="text-white/30 font-bold uppercase tracking-widest text-xs">Sign in to keep your streak going!</p>
+                    <p className="text-white/30 font-bold uppercase tracking-widest text-xs">Local testing mode with full access enabled</p>
                 </div>
 
                 <form onSubmit={handleSubmit} className="mt-8 space-y-6 relative">
@@ -57,17 +55,9 @@ const Login = () => {
                             />
                         </div>
 
-                        <div className="relative group">
-                            <Lock className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-white/20 group-focus-within:text-primary transition-colors" />
-                            <input
-                                type="password"
-                                required
-                                value={password}
-                                onChange={(e) => setPassword(e.target.value)}
-                                className="w-full bg-background border border-white/5 pl-12 pr-4 py-4 rounded-2xl text-white outline-none focus:border-primary/50 transition-all font-medium"
-                                placeholder="Password"
-                            />
-                        </div>
+                        <p className="text-[10px] text-white/30 font-black uppercase tracking-[0.2em] px-1">
+                            Enter any email and continue. Registration is hidden during testing.
+                        </p>
                     </div>
 
                     <button
@@ -76,24 +66,13 @@ const Login = () => {
                         className="w-full py-4 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-2xl font-black uppercase tracking-[0.2em] text-[10px] shadow-xl shadow-primary/20 transition-all flex items-center justify-center gap-3"
                     >
                         {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : <LogIn className="w-5 h-5" />}
-                        Sign In
+                        Continue to App
                     </button>
 
-                    <div className="flex flex-col gap-4 text-center">
+                    <div className="text-center">
                         <p className="text-white/30 text-xs font-bold uppercase tracking-widest">
-                            New here? <Link to="/register" className="text-primary hover:underline ml-2">Sign up for free</Link>
+                            All features are unlocked for testing.
                         </p>
-                        <button
-                            type="button"
-                            onClick={async () => {
-                                if (!email) return alert("Please enter your email first!");
-                                const { error } = await supabase.auth.resetPasswordForEmail(email);
-                                if (!error) alert("Check your email for a password reset link!");
-                            }}
-                            className="text-[10px] text-white/10 font-black uppercase tracking-widest hover:text-primary transition-colors"
-                        >
-                            Forgot Password?
-                        </button>
                     </div>
                 </form>
             </div>

@@ -5,9 +5,7 @@ import Dashboard from './pages/Dashboard';
 import PracticeConfig from './pages/PracticeConfig';
 import Quiz from './pages/Quiz';
 import Login from './pages/Login';
-import Register from './pages/Register';
 import Admin from './pages/Admin';
-import ProtectedRoute from './components/ProtectedRoute';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import Courses from './pages/Courses';
 import QuestionBank from './pages/QuestionBank';
@@ -28,17 +26,15 @@ function App() {
 }
 
 const AppContent = () => {
-  const { user } = useAuth();
+  useAuth();
 
   return (
     <Layout>
       <Routes>
-        {/* Direct Protocol Entries */}
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/" element={user ? <Dashboard /> : <Landing />} />
+        <Route path="/register" element={<Navigate to="/login" replace />} />
+        <Route path="/" element={<Dashboard />} />
 
-        {/* Learning Channels */}
         <Route path="/courses" element={<Courses />} />
         <Route path="/practice" element={<PracticeConfig />} />
         <Route path="/bank" element={<QuestionBank />} />
@@ -46,26 +42,12 @@ const AppContent = () => {
         <Route path="/shorts" element={<VideoFeed />} />
         <Route path="/quiz/:chapterId" element={<Quiz />} />
 
-        {/* Private Neural Tracks */}
-        <Route path="/analytics" element={
-          <ProtectedRoute>
-            <Analytics />
-          </ProtectedRoute>
-        } />
-        <Route path="/settings" element={
-          <ProtectedRoute>
-            <Settings />
-          </ProtectedRoute>
-        } />
+        <Route path="/analytics" element={<Analytics />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/admin" element={<Admin />} />
 
-        {/* High Clearance Command Base */}
-        <Route path="/admin" element={
-          <ProtectedRoute adminOnly={true}>
-            <Admin />
-          </ProtectedRoute>
-        } />
+        <Route path="/welcome" element={<Landing />} />
 
-        {/* Protocol Recovery Redirect */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </Layout>

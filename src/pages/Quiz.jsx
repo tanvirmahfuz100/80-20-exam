@@ -1,13 +1,12 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { useSearchParams, useNavigate, Link, useParams } from 'react-router-dom';
+import { useSearchParams, useNavigate, useParams } from 'react-router-dom';
 import {
     ArrowLeft, CheckCircle, XCircle, ChevronRight,
     RefreshCw, AlertTriangle, Lightbulb, Timer,
-    Trophy, Target, Zap, Clock, Lock, UserPlus,
+    Trophy, Target, Zap, Clock,
     BarChart3, BrainCircuit, Video
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
-import { supabase } from '../supabase';
 import { api } from '../services/api';
 
 const Quiz = () => {
@@ -125,15 +124,12 @@ const Quiz = () => {
 
         setResults([...results, newResult]);
 
-        // If logged in, save to database
-        if (user) {
-            await supabase.from('user_responses').insert([{
-                user_id: user.id,
-                question_id: currentQ.uuid || null, // Handle UUID if available
-                is_correct: isCorrect,
-                time_spent: 0
-            }]);
-        }
+        await api.saveResponse({
+            user_id: user.id,
+            question_id: currentQ.uuid || currentQ.id || null,
+            is_correct: isCorrect,
+            time_spent: 0
+        });
     };
 
     const handleNext = () => {
@@ -195,23 +191,6 @@ const Quiz = () => {
                                 <div className="text-[10px] text-white/30 font-black uppercase tracking-widest">Title Earned</div>
                             </div>
                         </div>
-
-                        {!user && (
-                            <div className="bg-primary/5 border border-dashed border-primary/20 rounded-2xl p-6 space-y-4">
-                                <div className="flex items-center justify-center gap-2 text-primary font-black uppercase tracking-widest text-[10px]">
-                                    <Lock className="w-4 h-4" /> Keep your streak!
-                                </div>
-                                <p className="text-white/60 text-sm italic">
-                                    Sign up to unlock 50,000+ questions, track your progress, and see where you rank on the leaderboard!
-                                </p>
-                                <Link
-                                    to="/register"
-                                    className="inline-flex items-center gap-2 px-6 py-2 bg-primary text-white rounded-lg font-black uppercase tracking-widest text-[10px]"
-                                >
-                                    <UserPlus className="w-4 h-4" /> Register Now
-                                </Link>
-                            </div>
-                        )}
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-6">
                             <button onClick={() => navigate('/practice')} className="flex-1 py-4 bg-white/5 hover:bg-white/10 text-white rounded-2xl font-black uppercase tracking-widest text-[10px] border border-white/5 transition-all">
@@ -350,57 +329,38 @@ const Quiz = () => {
                 <div className="space-y-8 sticky top-32">
                     {isAnswered ? (
                         <div className="space-y-6 animate-in slide-in-from-bottom-6 duration-500">
-                            {user ? (
-                                <div className="bg-surface border border-white/10 rounded-[32px] p-8 shadow-2xl relative overflow-hidden">
-                                    <div className="absolute top-0 right-0 p-3 bg-yellow-500/10 text-yellow-500 rounded-bl-2xl">
-                                        <Lightbulb className="w-4 h-4" />
-                                    </div>
-                                    <h4 className="text-[10px] font-black uppercase tracking-widest text-primary mb-4 flex items-center gap-2">
-                                        Explanation
-                                    </h4>
-                                    <div
-                                        className="text-white/80 text-sm leading-relaxed font-medium space-y-4 prose-invert"
-                                        dangerouslySetInnerHTML={{
-                                            __html: (currentQ.explanation || 'No textual analysis available.')
-                                                .replace(/<script.*?>.*?<\/script>/gi, '') // Basic anti-hack
-                                                .replace(/\*\*(.*?)\*\*/g, '<span class="text-primary font-bold">$1</span>')
-                                                .replace(/\n/g, '<br/>')
-                                        }}
-                                    >
-                                    </div>
+                            <div className="bg-surface border border-white/10 rounded-[32px] p-8 shadow-2xl relative overflow-hidden">
+                                <div className="absolute top-0 right-0 p-3 bg-yellow-500/10 text-yellow-500 rounded-bl-2xl">
+                                    <Lightbulb className="w-4 h-4" />
+                                </div>
+                                <h4 className="text-[10px] font-black uppercase tracking-widest text-primary mb-4 flex items-center gap-2">
+                                    Explanation
+                                </h4>
+                                <div
+                                    className="text-white/80 text-sm leading-relaxed font-medium space-y-4 prose-invert"
+                                    dangerouslySetInnerHTML={{
+                                        __html: (currentQ.explanation || 'No textual analysis available.')
+                                            .replace(/<script.*?>.*?<\/script>/gi, '')
+                                            .replace(/\*\*(.*?)\*\*/g, '<span class="text-primary font-bold">$1</span>')
+                                            .replace(/\n/g, '<br/>')
+                                    }}
+                                >
+                                </div>
 
-                                    {currentQ.explanation_video_url && (
-                                        <div className="mt-8 pt-6 border-t border-white/5">
-                                            <a
-                                                href={currentQ.explanation_video_url}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="flex items-center justify-center gap-3 w-full py-4 bg-red-500/10 hover:bg-red-500/20 text-red-500 rounded-2xl border border-red-500/20 transition-all font-black uppercase tracking-widest text-[9px] group"
-                                            >
-                                                <Video className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                                                Watch Video Breakdown
-                                            </a>
-                                        </div>
-                                    )}
-                                </div>
-                            ) : (
-                                <div className="bg-surface border-2 border-dashed border-white/5 rounded-[32px] p-10 text-center space-y-6 relative group overflow-hidden">
-                                    <div className="absolute inset-0 bg-primary/2 blur-[80px] pointer-events-none"></div>
-                                    <div className="w-16 h-16 bg-primary/10 rounded-3xl flex items-center justify-center mx-auto border border-primary/20">
-                                        <Lock className="w-8 h-8 text-primary" />
+                                {currentQ.explanation_video_url && (
+                                    <div className="mt-8 pt-6 border-t border-white/5">
+                                        <a
+                                            href={currentQ.explanation_video_url}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex items-center justify-center gap-3 w-full py-4 bg-red-500/10 hover:bg-red-500/20 text-red-500 rounded-2xl border border-red-500/20 transition-all font-black uppercase tracking-widest text-[9px] group"
+                                        >
+                                            <Video className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                                            Watch Video Breakdown
+                                        </a>
                                     </div>
-                                    <div className="space-y-2">
-                                        <h4 className="text-white font-black uppercase tracking-widest text-xs tracking-tighter">Locked Solution</h4>
-                                        <p className="text-white/20 text-[11px] leading-relaxed font-bold italic">Join us to see the full explanation and video breakdowns!</p>
-                                    </div>
-                                    <Link
-                                        to="/register"
-                                        className="inline-block w-full py-4 bg-primary text-white rounded-2xl font-black uppercase tracking-widest text-[9px] shadow-xl shadow-primary/20 transition-all hover:scale-105"
-                                    >
-                                        Register to Unlock
-                                    </Link>
-                                </div>
-                            )}
+                                )}
+                            </div>
 
                             <div className="bg-surface border border-white/5 rounded-3xl p-6">
                                 <div className="flex items-center justify-between text-[10px] font-black uppercase tracking-widest text-white/20 mb-4">
