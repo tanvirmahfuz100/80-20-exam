@@ -53,7 +53,7 @@ const ChapterItem = ({ chapter, onClick }) => (
 const PracticeConfig = () => {
     const navigate = useNavigate();
     const { user } = useAuth();
-    const [data, setData] = useState(null);
+    const [data, setData] = useState({ subjects: [] });
     const [selectedSubject, setSelectedSubject] = useState(null);
     const [isTimed, setIsTimed] = useState(false);
     const [loading, setLoading] = useState(true);
@@ -155,7 +155,7 @@ const PracticeConfig = () => {
 
             {/* Subject Selector */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                {data.subjects.map(sub => (
+                {(data.subjects || []).map(sub => (
                     <SubjectCard
                         key={sub.id}
                         subject={sub}
