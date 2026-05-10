@@ -9,13 +9,13 @@ const Landing = () => {
                 <div className="space-y-8 max-w-4xl">
                     <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-primary font-black uppercase tracking-widest text-[10px]">
                         <Star className="w-3 h-3 fill-current" />
-                        The #1 Choice for IBA Preparation
+                        Master Any Competitive Exam
                     </div>
                     <h1 className="text-6xl md:text-8xl font-black italic tracking-tighter leading-[0.9] uppercase">
-                        The free, fun, and <span className="text-primary not-italic">effective</span> way to pass IBA!
+                        The free, fun, and <span className="text-primary not-italic">effective</span> way to ace competitive exams!
                     </h1>
                     <p className="text-white/40 text-lg md:text-2xl font-medium leading-relaxed max-w-3xl mx-auto">
-                        Join thousands of students mastering Math, English, and Analytical subjects with our bite-sized lessons and <span className="text-white font-bold">50,000+ practice questions</span>.
+                        Join thousands of students preparing for IBA, BCS, SSC, SAT, GRE, and more with our bite-sized lessons and <span className="text-white font-bold">50,000+ practice questions</span> covering Math, English, and Analytical reasoning.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8">
                         <Link
@@ -52,7 +52,7 @@ const Landing = () => {
                         </div>
                         <h3 className="text-2xl font-black italic tracking-tighter uppercase">50,000+ Questions</h3>
                         <p className="text-white/30 text-sm leading-relaxed">
-                            Access the largest database of IBA questions ever built. Every single one comes with detailed explanations.
+                            Access the largest database of competitive exam questions ever built. IBA, BCS, SSC, SAT, GRE, and more. Every single one comes with detailed explanations.
                         </p>
                     </div>
                     <div className="space-y-6">
@@ -73,7 +73,7 @@ const Landing = () => {
                     <GraduationCap className="w-16 h-16 text-primary" />
                 </div>
                 <h2 className="text-5xl md:text-6xl font-black italic tracking-tight uppercase leading-none">
-                    Master IBA Today!
+                    Start Your Exam Prep Today!
                 </h2>
                 <p className="text-white/40 text-xl font-medium">
                     Create a profile now to start your streak and compete with other students on the global leaderboard.
@@ -90,7 +90,7 @@ const Landing = () => {
 
             {/* Footer Minimal */}
             <footer className="py-12 border-t border-white/5 text-center text-[10px] font-black uppercase tracking-[0.3em] text-white/10">
-                &copy; 2024 IBA Practice Platform • Learning Reimagined
+                &copy; 2024 80-20 Exam Platform • Learning Reimagined
             </footer>
         </div>
     );
