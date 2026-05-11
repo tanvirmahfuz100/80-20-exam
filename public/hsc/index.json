@@ -53,6 +53,24 @@
           ]
         }
       ]
+    },
+    {
+      "id": "english_2nd",
+      "name": "English 2nd Paper",
+      "icon": "Book",
+      "topics": [
+        {
+          "id": "articles",
+          "name": "Articles",
+          "chapters": [
+            {
+              "id": "hsc_english_articles",
+              "name": "Articles (All)",
+              "file": "/hsc/english_2nd/all_articles_merged.json"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
