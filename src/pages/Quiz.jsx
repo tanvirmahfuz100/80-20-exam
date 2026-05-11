@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { useSearchParams, useNavigate, useParams } from 'react-router-dom';
+import { useSearchParams, useNavigate, useParams, Link } from 'react-router-dom';
 import {
     ArrowLeft, CheckCircle, XCircle, ChevronRight,
     RefreshCw, AlertTriangle, Lightbulb, Timer,
@@ -8,6 +8,38 @@ import {
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { api } from '../services/api';
+
+const normalizeQuizQuestions = (payload) => {
+    const sourceQuestions = payload?.questions || [];
+
+    return sourceQuestions.flatMap((question) => {
+        if (Array.isArray(question.blanks) && question.blanks.length > 0) {
+            return question.blanks.map((blank) => ({
+                id: `${question.id}_${blank.blankId}`,
+                text: `Choose the correct word for blank (${blank.blankId})`,
+                passage: question.passage || '',
+                boxWords: question.boxWords || [],
+                blankId: blank.blankId,
+                options: (blank.options || []).map((option) => option.text),
+                correct: (blank.options || []).findIndex((option) => option.isCorrect),
+                explanation: (blank.options || []).find((option) => option.isCorrect)?.explanationBn || '',
+                difficulty: question.difficulty || 'medium'
+            }));
+        }
+
+        return [{
+            id: question.id,
+            text: question.text || question.passage || 'Question',
+            passage: question.passage || '',
+            boxWords: question.boxWords || [],
+            blankId: question.blankId || null,
+            options: (question.options || []).map((option) => option.text || option),
+            correct: typeof question.correct === 'number' ? question.correct : 0,
+            explanation: question.explanation || '',
+            difficulty: question.difficulty || 'medium'
+        }];
+    });
+};
 
 const Quiz = () => {
     const { user } = useAuth();
@@ -38,7 +70,7 @@ const Quiz = () => {
         const q = questions[currentIndex];
 
         // Map options to objects with original index to track correctness
-        const opts = q.options.map((text, idx) => ({ text, originalIdx: idx }));
+        const opts = (q.options || []).map((text, idx) => ({ text, originalIdx: idx }));
 
         // Shuffle
         for (let i = opts.length - 1; i > 0; i--) {
@@ -61,14 +93,14 @@ const Quiz = () => {
                     setQuestions(data || []);
                 } else if (file) {
                     // Legacy JSON support
-                        let fileUrl = file || '';
-                        if (fileUrl.startsWith('/')) {
-                            const base = import.meta.env.BASE_URL || '/';
-                            fileUrl = `${base}${fileUrl.replace(/^\//, '')}`;
-                        }
-                        const res = await fetch(fileUrl);
-                        const data = await res.json();
-                        setQuestions(data.questions || []);
+                    let fileUrl = file || '';
+                    if (fileUrl.startsWith('/')) {
+                        const base = import.meta.env.BASE_URL || '/';
+                        fileUrl = `${base}${fileUrl.replace(/^\//, '')}`;
+                    }
+                    const res = await fetch(fileUrl);
+                    const data = await res.json();
+                    setQuestions(normalizeQuizQuestions(data));
                 }
             } catch (err) {
                 setError(err.message);
@@ -256,6 +288,28 @@ const Quiz = () => {
                         </div>
 
                         <div className="relative z-10">
+                            {currentQ.passage && (
+                                <div className="mb-10 p-6 rounded-3xl border border-white/5 bg-white/5 space-y-4">
+                                    {currentQ.blankId && (
+                                        <p className="text-[10px] font-black uppercase tracking-[0.3em] text-primary/60">
+                                            SSC Gap Filling - Blank ({currentQ.blankId})
+                                        </p>
+                                    )}
+                                    <p className="text-white/70 text-sm leading-relaxed font-medium whitespace-pre-wrap">
+                                        {currentQ.passage}
+                                    </p>
+                                    {(currentQ.boxWords || []).length > 0 && (
+                                        <div className="flex flex-wrap gap-2 pt-2">
+                                            {currentQ.boxWords.map((word) => (
+                                                <span key={word} className="px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-[10px] font-black uppercase tracking-widest">
+                                                    {word}
+                                                </span>
+                                            ))}
+                                        </div>
+                                    )}
+                                </div>
+                            )}
+
                             <div className="flex items-center gap-3 mb-10">
                                 <span className={`text-[9px] font-black px-3 py-1 rounded-full uppercase border ${currentQ.difficulty === 'hard' ? 'text-red-400 border-red-400/20 bg-red-400/5' :
                                     currentQ.difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :

@@ -107,12 +107,25 @@ const ExamTiles = () => {
 
     useEffect(() => {
         const base = import.meta.env.BASE_URL || '/';
-        const candidates = ['ssc', 'iba', 'gmat', 'gre', 'sat', 'hsc', 'bcs'];
+        const labels = {
+            ssc: 'SSC',
+            iba: 'IBA',
+            gmat: 'GMAT',
+            gre: 'GRE',
+            sat: 'SAT',
+            hsc: 'HSC',
+            bcs: 'BCS'
+        };
+        const candidates = Object.keys(labels);
 
         Promise.all(candidates.map(id => {
             const url = `${base}${id}/index.json`.replace(/\/\/+/, '/');
             return fetch(url)
-                .then(r => r.ok ? { id, name: id.toUpperCase(), url } : null)
+                .then(async r => {
+                    if (!r.ok) return null;
+                    const json = await r.json();
+                    return Array.isArray(json.subjects) && json.subjects.length > 0 ? { id, name: labels[id] || id.toUpperCase(), url } : null;
+                })
                 .catch(() => null);
         })).then(results => {
             const available = results.filter(Boolean);
