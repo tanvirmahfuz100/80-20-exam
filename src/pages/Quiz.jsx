@@ -13,6 +13,7 @@ const normalizeQuizQuestions = (payload) => {
     const sourceQuestions = payload?.questions || [];
 
     return sourceQuestions.flatMap((question) => {
+        // Handle gap-filling format (with blanks)
         if (Array.isArray(question.blanks) && question.blanks.length > 0) {
             return question.blanks.map((blank) => ({
                 id: `${question.id}_${blank.blankId}`,
@@ -27,6 +28,20 @@ const normalizeQuizQuestions = (payload) => {
             }));
         }
 
+        // Handle changing sentences format (with subQuestions)
+        if (Array.isArray(question.subQuestions) && question.subQuestions.length > 0) {
+            return question.subQuestions.map((subQ) => ({
+                id: subQ.id,
+                text: `${subQ.instruction || 'Transform the sentence'}: "${subQ.sentence}"`,
+                passage: subQ.sentence || '',
+                options: (subQ.options || []).map((option) => option.text),
+                correct: (subQ.options || []).findIndex((option) => option.isCorrect),
+                explanation: (subQ.options || []).find((option) => option.isCorrect)?.explanationBn || '',
+                difficulty: question.difficulty || 'medium'
+            }));
+        }
+
+        // Fallback for generic format
         return [{
             id: question.id,
             text: question.text || question.passage || 'Question',
