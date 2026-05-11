@@ -63,6 +63,7 @@ const Quiz = () => {
     // Timer state
     const [timeLeft, setTimeLeft] = useState(0);
     const timerRef = useRef(null);
+    const sessionSavedRef = useRef(false);
 
     // Shuffle options locally
     const shuffledOptions = useMemo(() => {
@@ -86,6 +87,7 @@ const Quiz = () => {
     useEffect(() => {
         const loadQuestions = async () => {
             setLoading(true);
+            sessionSavedRef.current = false;
             try {
                 if (isMock && chapterId) {
                     // Fetch Mock Test Questions from DB
@@ -110,6 +112,29 @@ const Quiz = () => {
         };
         loadQuestions();
     }, [file, chapterId, isMock]);
+
+    useEffect(() => {
+        const persistPracticeSession = async () => {
+            if (!isFinished || sessionSavedRef.current || !user?.id || questions.length === 0) return;
+
+            const payload = {
+                user_id: user.id,
+                chapter_id: chapterId || file || 'unknown_chapter',
+                chapter_title: title || 'Practice Session',
+                source_file: file || null,
+                total_questions: questions.length,
+                correct_answers: score,
+                wrong_answers: questions.length - score,
+                accuracy: questions.length > 0 ? Number(((score / questions.length) * 100).toFixed(2)) : 0,
+                mode: isTimedMode ? 'timed' : 'untimed'
+            };
+
+            await api.savePracticeSession(payload);
+            sessionSavedRef.current = true;
+        };
+
+        persistPracticeSession();
+    }, [isFinished, user, questions, score, chapterId, title, file, isTimedMode]);
 
     // Timer Logic
     useEffect(() => {
@@ -144,7 +169,8 @@ const Quiz = () => {
 
         const currentQ = questions[currentIndex];
         const selectedObj = shuffledOptions[selectedOption];
-        const isCorrect = selectedObj.originalIdx === currentQ.correct;
+        const selectedOriginalIdx = selectedObj?.originalIdx ?? -1;
+        const isCorrect = selectedOriginalIdx === currentQ.correct;
 
         setIsAnswered(true);
 
@@ -156,6 +182,7 @@ const Quiz = () => {
             id: currentQ.id,
             isCorrect: isCorrect,
             selected: selectedOption,
+            selectedOriginalIdx,
             time_spent: 0 // Will implement real timer tracking later
         };
 
@@ -164,6 +191,14 @@ const Quiz = () => {
         await api.saveResponse({
             user_id: user.id,
             question_id: currentQ.uuid || currentQ.id || null,
+            chapter_id: chapterId || null,
+            chapter_title: title || null,
+            source_file: file || null,
+            question_text: currentQ.text || null,
+            selected_option_index: selectedOriginalIdx,
+            selected_option_text: selectedObj?.text || null,
+            correct_option_index: currentQ.correct,
+            correct_option_text: (currentQ.options || [])[currentQ.correct] || null,
             is_correct: isCorrect,
             time_spent: 0
         });

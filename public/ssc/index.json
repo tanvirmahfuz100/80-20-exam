@@ -13,6 +13,11 @@
               "id": "ssc_gap_filling",
               "name": "Gap Filling With Clues",
               "file": "/ssc/english/gap_filling_with_clues_paper_11.json"
+            },
+            {
+              "id": "ssc_changing_sentences",
+              "name": "Changing Sentences",
+              "file": "/ssc/english/changing_sentences.json"
             }
           ]
         }
