@@ -31,7 +31,7 @@ const MockTests = () => {
     );
 
     return (
-        <div className="max-w-7xl mx-auto space-y-12 animate-in fade-in duration-700">
+        <div className="max-w-7xl mx-auto space-y-12">
             {/* Hero Section */}
             <div className="bg-primary/5 border border-primary/20 p-10 md:p-16 rounded-[3rem] relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10">
                 <div className="absolute top-0 left-0 w-64 h-64 bg-primary/10 blur-[100px] rounded-full"></div>

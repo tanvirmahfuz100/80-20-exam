@@ -282,7 +282,7 @@ const Quiz = () => {
     const totalXpSoFar = results.reduce((acc, r) => acc + (r.isCorrect ? 10 : 0), 0);
 
     return (
-        <div className="max-w-5xl mx-auto space-y-8 pb-32 animate-in fade-in duration-500">
+        <div className="max-w-5xl mx-auto space-y-8 pb-32">
             {/* Simulation Header */}
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
                 <div className="flex items-center gap-4">
