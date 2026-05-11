@@ -1,0 +1,119 @@
+{
+  "subjects": [
+    {
+      "id": "accounting_2nd",
+      "name": "Accounting 2nd Paper",
+      "icon": "Calculator",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1: Introduction to Non-Trading Organizations",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_1.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_1.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2: Partnership Accounting",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_2.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_2.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_3.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_3.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_4",
+          "name": "Chapter 4",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_4.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_4.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_5.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_5.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_6.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_6.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_7",
+          "name": "Chapter 7",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch7",
+              "name": "Chapter 7 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_7.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_7.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_8.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_8.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_9_10",
+          "name": "Chapters 9-10",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch9_10",
+              "name": "Chapters 9-10 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_9_10.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_9_10.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

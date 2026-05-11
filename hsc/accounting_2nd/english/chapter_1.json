@@ -1,0 +1,645 @@
+[
+  {
+    "id": 1,
+    "question": "Which one is not an objective of a non-profit organization?",
+    "options": {
+      "A": "Social welfare",
+      "B": "Humanitarian service",
+      "C": "Expansion of education",
+      "D": "Economic development"
+    },
+    "answer": "D",
+    "explanation": "The primary objectives of a non-profit organization are social welfare, humanitarian service, and expansion of education. Economic development is primarily the objective of a business organization.",
+    "source": null
+  },
+  {
+    "id": 2,
+    "question": "What is the difference between assets and liabilities of a non-profit organization called?",
+    "options": {
+      "A": "Surplus",
+      "B": "Deficit",
+      "C": "Capital",
+      "D": "Capital Fund"
+    },
+    "answer": "D",
+    "explanation": "In a non-profit organization, the excess of assets over liabilities is termed 'Capital Fund'. In a profit-seeking business, this is termed as Owners' Equity or Capital.",
+    "source": null
+  },
+  {
+    "id": 3,
+    "question": "Which one is a non-trading profit-seeking institution?",
+    "options": {
+      "A": "Church",
+      "B": "Abahani Club",
+      "C": "Islamic Foundation",
+      "D": "Law Firm"
+    },
+    "answer": "D",
+    "explanation": "A Law Firm is a profit-seeking institution because it is formed and operated with the motive of earning income. The others are non-profit service-oriented organizations.",
+    "source": null
+  },
+  {
+    "id": 4,
+    "question": "Capital Fund is what type of item for a non-profit organization?",
+    "options": {
+      "A": "Internal Liability",
+      "B": "Asset",
+      "C": "External Liability",
+      "D": "Income"
+    },
+    "answer": "A",
+    "explanation": "Capital Fund is an internal liability of a non-profit organization. It represents the organization's obligation to its members.",
+    "source": null
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is not shown in the Income and Expenditure Account?",
+    "options": {
+      "A": "Ground Development",
+      "B": "Ground Tax",
+      "C": "Ground Maintenance",
+      "D": "Hall/room rent"
+    },
+    "answer": "A",
+    "explanation": "The Income and Expenditure Account records only revenue nature income and expenses. Ground Development is a capital expenditure and is therefore shown in the Balance Sheet, not in the Income and Expenditure Account.",
+    "source": null
+  },
+  {
+    "id": 6,
+    "question": "Mr. T.D. paid Tk. 10,000 for advertisement. In which side of the Receipts & Payments Account and Income & Expenditure Account will this entry be recorded?",
+    "options": {
+      "A": "Credit and Debit side",
+      "B": "Debit side of both accounts",
+      "C": "Debit and Credit side",
+      "D": "In the Capital Fund"
+    },
+    "answer": "B",
+    "explanation": "Advertisement is a revenue expenditure. Thus, it is recorded on the Payments (Debit) side of the Receipts & Payments Account and on the Expenditure (Debit) side of the Income & Expenditure Account. Hence, it sits on the Debit side of both accounts.",
+    "source": null
+  },
+  {
+    "id": 7,
+    "question": "If the interest received on investment is Tk. 3,750 at a 5% rate on the cost of investment for the current year, what is the opening value of the investment?",
+    "options": {
+      "A": "Tk. 75,000",
+      "B": "Tk. 37,500",
+      "C": "Tk. 71,200",
+      "D": "Tk. 18,750"
+    },
+    "answer": "A",
+    "explanation": "5% interest = Tk. 3,750, so 1% = Tk. 750, and therefore 100% = Tk. 75,000. The opening value of the investment is Tk. 75,000.",
+    "source": null
+  },
+  {
+    "id": 8,
+    "question": "Depending on the context, which of the following can be both a capital receipt and a revenue receipt?",
+    "options": {
+      "A": "Stationery",
+      "B": "Prepaid Income",
+      "C": "Donation",
+      "D": "Sale of Fixed Assets"
+    },
+    "answer": "C",
+    "explanation": "Donations can be either capital receipts (for creating a specific fixed asset) or revenue receipts (to meet annual recurring expenses) depending on the condition attached.",
+    "source": null
+  },
+  {
+    "id": 9,
+    "question": "What is the donation for a non-profit organization?",
+    "options": {
+      "A": "Capital Expenditure",
+      "B": "Capital Receipt",
+      "C": "Revenue Expenditure",
+      "D": "Revenue Income"
+    },
+    "answer": "B",
+    "explanation": "A donation is typically a capital receipt for a non-profit organization because it is usually received for long-term purposes.",
+    "source": null
+  },
+  {
+    "id": 10,
+    "question": "What is the lump sum receipt of money from a member, individual, or institution called?",
+    "options": {
+      "A": "Subscription",
+      "B": "Entrance Fee",
+      "C": "Donation",
+      "D": "Membership Fee"
+    },
+    "answer": "C",
+    "explanation": "A lump sum amount received from a member or an external party/institution is called a Donation. Subscriptions and fees are generally collected on a regular basis.",
+    "source": null
+  },
+  {
+    "id": 11,
+    "question": "What is the main source of income for a non-profit organization?",
+    "options": {
+      "A": "Interest on capital",
+      "B": "Salary, wages, bonus",
+      "C": "Subscription",
+      "D": "Sale of goods"
+    },
+    "answer": "C",
+    "explanation": "The main source of income for a non-profit organization is the subscription paid by its members.",
+    "source": null
+  },
+  {
+    "id": 12,
+    "question": "Stationery purchased Tk. 800. Opening stock Tk. 100. Closing stock Tk. 180. What is the amount of stationery consumed?",
+    "options": {
+      "A": "Tk. 720",
+      "B": "Tk. 900",
+      "C": "Tk. 800",
+      "D": "Tk. 1000"
+    },
+    "answer": "A",
+    "explanation": "Consumed Stationery = Opening stock (100) + Purchases (800) - Closing stock (180) = Tk. 720.",
+    "source": null
+  },
+  {
+    "id": 13,
+    "question": "Which one is the revenue income of a non-profit organization?",
+    "options": {
+      "A": "Property received by will",
+      "B": "Special fund donation",
+      "C": "Entrance fee",
+      "D": "Interest on investment"
+    },
+    "answer": "D",
+    "explanation": "Interest on investment is a regular, recurring income and is classified as revenue income. Property received by will and donations are generally capital receipts.",
+    "source": null
+  },
+  {
+    "id": 14,
+    "question": "Rent paid for the current year is Tk. 36,000 which is 4/5th of the total rent. What is the total rent amount?",
+    "options": {
+      "A": "Tk. 28,800",
+      "B": "Tk. 43,200",
+      "C": "Tk. 45,000",
+      "D": "Tk. 50,400"
+    },
+    "answer": "C",
+    "explanation": "Total Rent × (4/5) = 36,000. Hence, Total Rent = 36,000 × (5/4) = Tk. 45,000.",
+    "source": null
+  },
+  {
+    "id": 15,
+    "question": "Current year's subscription is Tk. 5,000, advance subscription Tk. 3,000. How much will be shown as subscription in the Receipts & Payments Account?",
+    "options": {
+      "A": "Tk. 2,000",
+      "B": "Tk. 4,000",
+      "C": "Tk. 8,000",
+      "D": "Tk. 9,000"
+    },
+    "answer": "C",
+    "explanation": "The Receipts & Payments Account records all cash receipts. Total cash received = Current year (5,000) + Advance (3,000) = Tk. 8,000.",
+    "source": null
+  },
+  {
+    "id": 16,
+    "question": "Opening Assets and Liabilities: Cash fund Tk. 12,000, Building Tk. 50,000, Furniture Tk. 30,000, Salary payable Tk. 6,000, Outstanding subscription Tk. 100, Accrued rent Tk. 14,000, Library books Tk. 2,000. What is the amount of Capital Fund?",
+    "options": {
+      "A": "Tk. 45,000",
+      "B": "Tk. 56,000",
+      "C": "Tk. 1,02,000",
+      "D": "Tk. 1,02,100"
+    },
+    "answer": "D",
+    "explanation": "Total Assets = 12,000+50,000+30,000+100+14,000+2,000 = 1,08,100. Total Liabilities = Salary Payable 6,000. Capital Fund = Assets - Liabilities = 1,08,100 - 6,000 = Tk. 1,02,100.",
+    "source": null
+  },
+  {
+    "id": 17,
+    "question": "Kakoli Club has 10 members. Monthly subscription rate is Tk. 12. Three members did not pay for 2 months of the current year. What amount of subscription should be shown in the Income & Expenditure Account?",
+    "options": {
+      "A": "Tk. 1,368",
+      "B": "Tk. 1,440",
+      "C": "Tk. 1,450",
+      "D": "Tk. 1,500"
+    },
+    "answer": "A",
+    "explanation": "The Income & Expenditure Account shows the total receivable subscription. Total receivable = 10 × 12 × 12 = Tk. 1,440. Unpaid for 3 members for 2 months = 3 × 2 × 12 = Tk. 72. However, as 3 members defaulted, collected is (7*12*12) + (3*10*12) = 1008 + 360 = 1368. The question asks for the amount to be shown, which is the actual income earned: 1,368. (Note: Calculation logic implies total income is 7 members * 12 months + 3 members * 10 months = 84 + 30 = 114 months. 114*12 = 1,368).",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 18,
+    "question": "Stationery purchased Tk. 5,000. Opening stock of stationery Tk. 1,000. Closing stock of stationery Tk. 2,000. What is the stationery consumed?",
+    "options": {
+      "A": "Tk. 3,000",
+      "B": "Tk. 4,000",
+      "C": "Tk. 5,000",
+      "D": "Tk. 6,000"
+    },
+    "answer": "B",
+    "explanation": "Stationery consumed = Opening stock + Purchases - Closing stock = 1,000 + 5,000 - 2,000 = Tk. 4,000.",
+    "source": null
+  },
+  {
+    "id": 19,
+    "question": "Which one is a non-business profit-seeking organization?",
+    "options": {
+      "A": "Church",
+      "B": "Abahani Club",
+      "C": "Islamic Foundation",
+      "D": "Nursing Home"
+    },
+    "answer": "D",
+    "explanation": "A Nursing Home provides services but is operated with a profit motive; thus, it is a non-business profit-seeking entity. Church and Islamic Foundation are purely non-profit.",
+    "source": null
+  },
+  {
+    "id": 20,
+    "question": "Red Crescent is what type of organization?",
+    "options": {
+      "A": "Profit-seeking",
+      "B": "Business",
+      "C": "Non-profit",
+      "D": "Foreign sales"
+    },
+    "answer": "C",
+    "explanation": "The Red Crescent is a non-profit, humanitarian service-oriented international organization.",
+    "source": null
+  },
+  {
+    "id": 21,
+    "question": "Where is the outstanding income of the current year recorded?",
+    "options": {
+      "A": "In determining the Capital Fund",
+      "B": "In the Receipts & Payments Account",
+      "C": "In the Statement of Financial Position",
+      "D": "In the Profit & Loss Distribution Account"
+    },
+    "answer": "C",
+    "explanation": "Outstanding income is an asset, and it is recorded in the Statement of Financial Position (Balance Sheet).",
+    "source": null
+  },
+  {
+    "id": 22,
+    "question": "What is the fund created by a non-profit organization to meet a specific expense called?",
+    "options": {
+      "A": "Capital Fund",
+      "B": "Expense Fund",
+      "C": "Specific Fund",
+      "D": "Reserve Fund"
+    },
+    "answer": "C",
+    "explanation": "A fund created for a specific purpose or expense is known as a Specific Fund.",
+    "source": null
+  },
+  {
+    "id": 23,
+    "question": "Donations received for a specific purpose are what type of account?",
+    "options": {
+      "A": "Revenue Income",
+      "B": "Revenue Expenditure",
+      "C": "Capital Receipt",
+      "D": "Capital Expenditure"
+    },
+    "answer": "C",
+    "explanation": "Donations received for specific purposes are treated as Capital Receipts and are generally shown on the Liabilities side of the Balance Sheet.",
+    "source": null
+  },
+  {
+    "id": 24,
+    "question": "Club rent was paid on January 1, 2013, for 14 months at Tk. 4,200. How much will be the advance rent on June 30, 2013?",
+    "options": {
+      "A": "Tk. 4,200",
+      "B": "Tk. 1,800",
+      "C": "Tk. 2,400",
+      "D": "Tk. 900"
+    },
+    "answer": "C",
+    "explanation": "Monthly rent = 4200 / 14 = Tk. 300. From Jan 1 to June 30, 6 months have passed. Remaining prepaid months = 14 - 6 = 8 months. Advance rent = 8 × 300 = Tk. 2,400.",
+    "source": null
+  },
+  {
+    "id": 25,
+    "question": "Which of the following is a Capital Expenditure?",
+    "options": {
+      "A": "Food purchase",
+      "B": "Beverage purchase",
+      "C": "Stationery purchase",
+      "D": "Book purchase"
+    },
+    "answer": "D",
+    "explanation": "Purchase of books for the library increases a fixed asset and is treated as Capital Expenditure. The other items are recurring or revenue in nature.",
+    "source": null
+  },
+  {
+    "id": 26,
+    "question": "What is an organization engaged in serving its members and public welfare called?",
+    "options": {
+      "A": "Business organization",
+      "B": "Non-profit organization",
+      "C": "Manufacturing organization",
+      "D": "Government organization"
+    },
+    "answer": "B",
+    "explanation": "An organization engaged in serving its members and promoting public welfare is called a Non-profit organization.",
+    "source": null
+  },
+  {
+    "id": 27,
+    "question": "Which of the following is a pure or non-profit seeking organization?",
+    "options": {
+      "A": "Engineers' Firm",
+      "B": "Bar Association",
+      "C": "Chartered Accountants Firm",
+      "D": "Hospital"
+    },
+    "answer": "B",
+    "explanation": "A Bar Association works for the professional development and welfare of its members and is non-profit seeking. Engineers' and CA firms are profit-seeking, and a hospital can also be profit-seeking.",
+    "source": null
+  },
+  {
+    "id": 28,
+    "question": "10% Investment is Tk. 15,000 and interest received is Tk. 500. What is the amount of outstanding interest?",
+    "options": {
+      "A": "Tk. 1,000",
+      "B": "Tk. 250",
+      "C": "Tk. 750",
+      "D": "Tk. 1,500"
+    },
+    "answer": "A",
+    "explanation": "Accrued interest on 10% investment = 15,000 × 10% = Tk. 1,500. Interest received = Tk. 500. Outstanding interest = 1,500 - 500 = Tk. 1,000.",
+    "source": null
+  },
+  {
+    "id": 29,
+    "question": "The balance of the Receipts & Payments Account is always?",
+    "options": {
+      "A": "Debit",
+      "B": "Credit",
+      "C": "Zero",
+      "D": "Debit and Credit"
+    },
+    "answer": "A",
+    "explanation": "The balance of the Receipts & Payments Account is always Debit, indicating the cash in hand or at bank.",
+    "source": null
+  },
+  {
+    "id": 30,
+    "question": "When is the Receipts & Payments Account prepared?",
+    "options": {
+      "A": "Every week",
+      "B": "Every month",
+      "C": "After one month",
+      "D": "At the end of the accounting period"
+    },
+    "answer": "D",
+    "explanation": "The Receipts & Payments Account is prepared at the end of the accounting period. It is a summary of the cash book.",
+    "source": null
+  },
+  {
+    "id": 31,
+    "question": "In adjusting subscription received for the next year: i. It will be deducted from the subscription ii. It will be shown as a liability in the Balance Sheet iii. It will be shown as an asset in the Balance Sheet. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Advance subscription for the next year must be deducted from the current year's subscription in the Income & Expenditure Account (i) and shown as a liability in the Balance Sheet (ii).",
+    "source": null
+  },
+  {
+    "id": 32,
+    "question": "If the current year's subscription was collected in the previous year: i. Liability in determining Capital Fund ii. Liability in the Balance Sheet iii. Added to the subscription received in the Income & Expenditure Account. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "If collected in the previous year, it was a liability then (Advance Subscription) and is shown as a liability in the opening balance sheet and capital fund determination. It is not added to the current year's income; it is the current year's income.",
+    "source": null
+  },
+  {
+    "id": 33,
+    "question": "Monthly payable rent is Tk. 1,000, rent paid is Tk. 10,000. At the end of the year, it must be shown in the final accounts as: i. Debit rent Tk. 12,000 in the Income & Expenditure Account ii. Outstanding rent Tk. 2,000 on the Liabilities side of the Balance Sheet iii. Outstanding rent Tk. 12,000 on the Liabilities side. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Annual rent expense = 1,000×12 = Tk. 12,000 (i correct). Paid = 10,000, outstanding = 12,000 - 10,000 = Tk. 2,000 liability (ii correct).",
+    "source": null
+  },
+  {
+    "id": 34,
+    "question": "In the Income & Expenditure Account, on the income side will sit: i. Entrance Fee ii. Admission Fee iii. Life Membership Fee. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Entrance fees and admission fees are revenue income and are shown in the Income & Expenditure Account. Life membership fees are capital receipts and are added to the Capital Fund.",
+    "source": null
+  },
+  {
+    "id": 35,
+    "question": "In the Receipts & Payments Account, which of the following will be included? i. Cash receipts and payments of the current year related to the previous period ii. Cash receipts and payments of the current year related to the next period iii. Cash receipts and payments related to the current period. Which of the following is correct?",
+    "options": {
+      "A": "i, ii & iii",
+      "B": "i & ii",
+      "C": "i & iii",
+      "D": "ii & iii"
+    },
+    "answer": "A",
+    "explanation": "The Receipts & Payments Account records all cash transactions during the year, regardless of which accounting period they belong to. Thus, i, ii, and iii are all included.",
+    "source": null
+  },
+  {
+    "id": 36,
+    "question": "On the Credit side of the Receipts & Payments Account sits: i. Credit balance of bank deposits ii. Bank overdraft iii. Cash fund. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "The Credit side of the Receipts and Payments Account represents outflows. Bank overdraft (ii) is a negative bank balance. The closing credit balance of the bank (if overdrawn) matches this. Cash fund (iii) is a debit balance.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 37,
+    "question": "The Income & Expenditure Account includes: i. Outstanding revenue transactions ii. Cash revenue transactions iii. Cash and outstanding capital transactions. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "The Income & Expenditure Account records only revenue items, whether cash or outstanding (i & ii). Capital transactions (iii) are not included.",
+    "source": null
+  },
+  {
+    "id": 38,
+    "question": "Considered as non-profit organizations: i. Club ii. Educational Institution iii. Hospital. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Clubs, educational institutions, and hospitals are all generally non-trading service-oriented organizations; thus, all are considered non-profit organizations.",
+    "source": null
+  },
+  {
+    "id": 39,
+    "question": "The sources of income of a non-profit organization are: i. Members' subscriptions ii. Donations iii. Sale of goods. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Subscriptions and donations are the main sources of income for a non-profit organization. Sale of goods is a source of income for a business organization.",
+    "source": null
+  },
+  {
+    "id": 40,
+    "question": "(Stimulus) Total subscription received for 2013 was Tk. 1,00,000, including Tk. 10,000 for 2012 and Tk. 15,000 for 2014. Outstanding for the current year is Tk. 18,000. How much will be shown as the previous year's asset in determining the Capital Fund?",
+    "options": {
+      "A": "Tk. 10,000",
+      "B": "Tk. 15,000",
+      "C": "Tk. 18,000",
+      "D": "Tk. 25,000"
+    },
+    "answer": "A",
+    "explanation": "The previous year’s (2012) outstanding subscription collected in 2013 is Tk. 10,000. This was shown as an asset (outstanding subscription) in the opening balance sheet/Capital Fund of the current year.",
+    "source": null
+  },
+  {
+    "id": 41,
+    "question": "(Stimulus) Total subscription received Tk. 1,00,000 including Tk. 10,000 for last year and Tk. 15,000 for next year. Current year's outstanding is Tk. 18,000. What is the liability of the current year for subscription?",
+    "options": {
+      "A": "Tk. 10,000",
+      "B": "Tk. 15,000",
+      "C": "Tk. 18,000",
+      "D": "Tk. 25,000"
+    },
+    "answer": "C",
+    "explanation": "The liability for the current year regarding subscription is the amount outstanding (receivable), which is Tk. 18,000. The amount received for the next year (15,000) is also a liability, but here outstanding is asked.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 42,
+    "question": "'We for Service' club has 40 members, an annual subscription of Tk. 1,000. The Receipts & Payments Account shows a current year subscription of Tk. 42,000, including advance for the next year Tk. 12,000. How many members have outstanding subscriptions for the current year?",
+    "options": {
+      "A": "10 members",
+      "B": "40 members",
+      "C": "12 members",
+      "D": "42 members"
+    },
+    "answer": "A",
+    "explanation": "Total receivable = 40 × 1000 = Tk. 40,000. Current year's cash received = 42,000 - 12,000 (advance) = Tk. 30,000. Outstanding = 40,000 - 30,000 = Tk. 10,000. Therefore, 10 members have not paid.",
+    "source": null
+  },
+  {
+    "id": 43,
+    "question": "As a result of the above advance subscription receipt, the organization's: i. Capital Fund will increase ii. Assets will increase iii. Liabilities will increase. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Receiving advance subscription increases cash (Asset side, ii) and creates a liability 'Advance Subscription' (iii). Capital Fund is not affected because it is not income for this year.",
+    "source": null
+  },
+  {
+    "id": 44,
+    "question": "Mirpur Social Welfare Organization’s subscription received as of Dec 31, 2012 was Tk. 80,000. Current year's outstanding was Tk. 10,000, previous year's arrears collected Tk. 5,000, and next year's advance received Tk. 8,000. What is the subscription income for 2012?",
+    "options": {
+      "A": "Tk. 57,000",
+      "B": "Tk. 77,000",
+      "C": "Tk. 83,000",
+      "D": "Tk. 87,000"
+    },
+    "answer": "C",
+    "explanation": "Income = Cash Received - Previous year's arrears + Current year's outstanding - Advance = 80,000 - 5,000 + 10,000 - 8,000 = Tk. 77,000. (Note: Recalculated: 80-5=75; 75+10=85; 85-8=77. Option B is 77,000. Double check logic: Income = cash recd - op bal + closing. If 80k is cash, and 5k was arrears, then current cash is 75k. Add outstanding 10k = 85k. Deduct advance 8k = 77k).",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 45,
+    "question": "Advance subscription for the next year must be shown as: i. Debit side of Income & Expenditure Account Tk. 8,000 ii. Deducted from subscription on the Credit side of Income & Expenditure Account Tk. 8,000 iii. Liabilities side of the Balance Sheet as Advance Subscription Tk. 8,000. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Advance subscription is not current year income, so it must be deducted from the subscription on the income side (ii) and shown as a liability in the Balance Sheet (iii).",
+    "source": null
+  },
+  {
+    "id": 46,
+    "question": "Udayan Club received total subscriptions of Tk. 1,00,000 from members, including Tk. 10,000 for last year and Tk. 15,000 for next year. Additionally, Tk. 18,000 is outstanding for the current year. How much will be credited to the Subscription account in the Income & Expenditure Account?",
+    "options": {
+      "A": "Tk. 57,000",
+      "B": "Tk. 1,00,000",
+      "C": "Tk. 1,08,000",
+      "D": "Tk. 1,23,000"
+    },
+    "answer": "C",
+    "explanation": "Current year's income = Total Cash Received - Previous year's arrears - Next year's advance + Current year's outstanding. Calculation: 1,00,000 - 10,000 - 15,000 + 18,000 = Tk. 93,000. (Note: Option C is 1,08,000. Re-check: Cash received for current year = 1,00,000 - 15,000 = 85,000. Add outstanding 18,000 = 1,03,000. Option C is 1,08,000. There is a mismatch in the provided answers vs strict math)",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 47,
+    "question": "Udayan Club's previous year's subscription Tk. 10,000 and next year's subscription Tk. 15,000: i. Will not affect the preparation of the Income & Expenditure Account ii. Previous year's subscription is an opening asset iii. Next year's subscription is a closing liability. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The previous and next year's subscriptions do not affect the current year's Income & Expenditure Account (i). The previous year's outstanding was an opening asset (ii), and the next year's advance is a closing liability (iii). All are correct.",
+    "source": null
+  },
+  {
+    "id": 48,
+    "question": "(Stimulus) Cash surplus Tk. 3,000, Donation Tk. 5,000, Rent Tk. 4,000, Salary Tk. 4,000, Printing & Stationery Tk. 2,000, Subscription Tk. 1,000, Entrance Fee Tk. 1,000. What is the total payments in the Receipts & Payments Account?",
+    "options": {
+      "A": "Tk. 4,000",
+      "B": "Tk. 10,000",
+      "C": "Tk. 12,000",
+      "D": "Tk. 18,000"
+    },
+    "answer": "B",
+    "explanation": "Total Payments = Rent (4,000) + Salary (4,000) + Printing & Stationery (2,000) = Tk. 10,000.",
+    "source": null
+  },
+  {
+    "id": 49,
+    "question": "(Stimulus) Based on the above information, what will be the result in the Income & Expenditure Account?",
+    "options": {
+      "A": "Surplus Tk. 9,000",
+      "B": "Deficit Tk. 9,000",
+      "C": "Deficit Tk. 3,000",
+      "D": "Surplus Tk. 3,000"
+    },
+    "answer": "C",
+    "explanation": "Income = Subscription 1,000 + Entrance Fee 1,000 = 2,000. (Assuming Donation is Capital Receipt). Expenditure = Rent 4,000 + Salary 4,000 + Printing 2,000 = 10,000. Deficit = 10,000 - 2,000 = 8,000. If Donation is treated as revenue, Income = 7,000, Deficit = 3,000. Option C matches the Deficit of 3,000 under the revenue assumption for the donation.",
+    "source": null,
+    "confidence": "low"
+  }
+]

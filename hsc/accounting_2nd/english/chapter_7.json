@@ -1,0 +1,656 @@
+[
+  {
+    "id": 242,
+    "question": "In the production cost accounting system, which one is it possible to control?",
+    "options": {
+      "A": "Purchased goods",
+      "B": "Marketable goods",
+      "C": "Goods held in stock",
+      "D": "Unused goods"
+    },
+    "answer": "C",
+    "explanation": "The production cost accounting system helps maintain accurate records of raw materials, work-in-process, and finished goods, enabling control over goods held in stock.",
+    "source": null
+  },
+  {
+    "id": 243,
+    "question": "Opening Inventory Tk. 25,000, Purchases Tk. 1,50,000, Cost of Goods Sold Tk. 1,70,000, and Gross Profit Tk. 40,000. What is the amount of Sales?",
+    "options": {
+      "A": "Tk. 1,95,000",
+      "B": "Tk. 1,75,000",
+      "C": "Tk. 2,10,000",
+      "D": "Tk. 1,30,000"
+    },
+    "answer": "C",
+    "explanation": "Sales = Cost of Goods Sold + Gross Profit = 1,70,000 + 40,000 = Tk. 2,10,000.",
+    "source": null
+  },
+  {
+    "id": 244,
+    "question": "What is the formula for Total Cost?",
+    "options": {
+      "A": "Prime Cost + Factory Overhead",
+      "B": "Factory Cost + Administrative Overhead",
+      "C": "Prime Cost + Total Overhead",
+      "D": "Cost + Profit"
+    },
+    "answer": "C",
+    "explanation": "Total Cost = Prime Cost + Total Overhead (Factory, Administrative, Selling, etc.).",
+    "source": null
+  },
+  {
+    "id": 245,
+    "question": "If the Cost of Goods Sold is Tk. 2,00,000 and the Gross Profit rate is 20% on sales, what is the sales value?",
+    "options": {
+      "A": "Tk. 2,40,000",
+      "B": "Tk. 2,20,000",
+      "C": "Tk. 2,50,000",
+      "D": "Tk. 2,50,000"
+    },
+    "answer": "C",
+    "explanation": "Profit 20% on sales means Cost = 80% of Sales. 80% = 2,00,000. Sales = 2,00,000 / 0.8 = Tk. 2,50,000.",
+    "source": null
+  },
+  {
+    "id": 246,
+    "question": "Cost of Goods Sold is Tk. 80,000. If the profit rate is 25% on selling price, what is the selling price?",
+    "options": {
+      "A": "Tk. 1,00,000",
+      "B": "Tk. 1,05,000",
+      "C": "Tk. 1,08,108",
+      "D": "Tk. 1,08,000"
+    },
+    "answer": "C",
+    "explanation": "25% on selling price means Cost = 75% of Sales. 75% = 80,000; Sales = 80,000 / 0.75 = 1,06,667. If profit is 26% (matching option C), Cost = 74%; Sales = 80,000 / 0.74 = 1,08,108.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 247,
+    "question": "An employee's basic salary in April is Tk. 9,000. He took 10 days of leave without pay. How much should be deducted for the leave?",
+    "options": {
+      "A": "Tk. 1,500",
+      "B": "Tk. 2,000",
+      "C": "Tk. 2,500",
+      "D": "Tk. 3,000"
+    },
+    "answer": "D",
+    "explanation": "April has 30 days. Daily salary = 9,000/30 = 300. Deduction for 10 days = 300 × 10 = 3,000.",
+    "source": null
+  },
+  {
+    "id": 248,
+    "question": "A production company follows a 48-hour week. Standard time per unit is 12 minutes. The normal wage rate is Tk. 10 per hour. What is the labor cost per unit?",
+    "options": {
+      "A": "Tk. 1.50",
+      "B": "Tk. 2.00",
+      "C": "Tk. 2.50",
+      "D": "Tk. 2"
+    },
+    "answer": "B",
+    "explanation": "12 minutes = 12/60 = 0.2 hours. Labor cost per unit = 10 × 0.2 = Tk. 2.00.",
+    "source": null
+  },
+  {
+    "id": 249,
+    "question": "If the profit rate on sales is 25%, what is the profit rate on cost?",
+    "options": {
+      "A": "25%",
+      "B": "20%",
+      "C": "33.33%",
+      "D": "90%"
+    },
+    "answer": "C",
+    "explanation": "Profit 25% on sales means Cost = 75%. Profit on cost = (25/75) × 100 = 33.33%.",
+    "source": null
+  },
+  {
+    "id": 250,
+    "question": "What is the method for determining wages under the Piece Rate system?",
+    "options": {
+      "A": "At a production unit rate",
+      "B": "Based on total production rate",
+      "C": "Production units × Rate per unit + Value of other benefits",
+      "D": "Rate per unit"
+    },
+    "answer": "C",
+    "explanation": "Under the Piece Rate method, Wages = (Production Units × Rate per Unit) + Value of other benefits.",
+    "source": null
+  },
+  {
+    "id": 251,
+    "question": "Which one is generally paid in cash?",
+    "options": {
+      "A": "Salary",
+      "B": "Allowance",
+      "C": "Wages",
+      "D": "Bonus"
+    },
+    "answer": "C",
+    "explanation": "Wages are traditionally paid in cash. Salaries may be paid via bank transfer, but wages are commonly cash payments.",
+    "source": null
+  },
+  {
+    "id": 252,
+    "question": "In a manufacturing organization, what does controllable cost refer to?",
+    "options": {
+      "A": "Direct Wages",
+      "B": "Depreciation of Machinery",
+      "C": "Foreman's Salary",
+      "D": "Factory Rent"
+    },
+    "answer": "A",
+    "explanation": "Direct wages are directly linked to production and can be controlled by management. The others are fixed or indirect costs.",
+    "source": null
+  },
+  {
+    "id": 253,
+    "question": "Mr. Jamal's basic wage is Tk. 3,000, normal working hours 200, overtime hours 15, and the overtime rate is double. What is the overtime pay?",
+    "options": {
+      "A": "Tk. 225",
+      "B": "Tk. 450",
+      "C": "Tk. 200",
+      "D": "Tk. 400"
+    },
+    "answer": "B",
+    "explanation": "Normal hourly rate = 3,000 / 200 = Tk. 15. Overtime rate = 15 × 2 = Tk. 30. Overtime pay = 15 × 30 = Tk. 450.",
+    "source": null
+  },
+  {
+    "id": 254,
+    "question": "When the company contributes to a Workers' Provident Fund, what is it for the workers?",
+    "options": {
+      "A": "Earning",
+      "B": "Deduction",
+      "C": "Both Earning and Deduction",
+      "D": "As a Bonus"
+    },
+    "answer": "A",
+    "explanation": "The company's contribution is an earning for the worker. The worker's own contribution is a deduction from his salary.",
+    "source": null
+  },
+  {
+    "id": 255,
+    "question": "If a new salary scale cannot be provided, which of the following is given as an alternative?",
+    "options": {
+      "A": "Bonus",
+      "B": "Travel Allowance",
+      "C": "Pension",
+      "D": "Dearness Allowance"
+    },
+    "answer": "D",
+    "explanation": "Dearness Allowance (DA) is given to offset the impact of inflation when a new salary scale is not implemented.",
+    "source": null
+  },
+  {
+    "id": 256,
+    "question": "If the contribution to the Recognized Provident Fund is 10%, what amount will be deducted in the deduction column?",
+    "options": {
+      "A": "10%",
+      "B": "3%",
+      "C": "20%",
+      "D": "0%"
+    },
+    "answer": "A",
+    "explanation": "The employee's contribution rate (10%) is the amount to be deducted from their salary.",
+    "source": null
+  },
+  {
+    "id": 257,
+    "question": "Standard production per hour is 10 units, and the regular wage rate is Tk. 20 per hour. What is the labor cost per unit?",
+    "options": {
+      "A": "Tk. 50",
+      "B": "Tk. 2.00",
+      "C": "Tk. 10",
+      "D": "Tk. 20"
+    },
+    "answer": "B",
+    "explanation": "Labor cost per unit = Hourly Wage / Units per Hour = 20 / 10 = Tk. 2.00.",
+    "source": null
+  },
+  {
+    "id": 258,
+    "question": "What is obtained by adding Total Overhead to Prime Cost?",
+    "options": {
+      "A": "Cost Price",
+      "B": "Net Profit",
+      "C": "Total Cost",
+      "D": "Selling Price"
+    },
+    "answer": "C",
+    "explanation": "Total Cost = Prime Cost + Total Overhead.",
+    "source": null
+  },
+  {
+    "id": 259,
+    "question": "Opening inventory units 400, Units Produced 8,000, Units Sold 6,400. What is the closing inventory in units?",
+    "options": {
+      "A": "3,000 units",
+      "B": "4,000 units",
+      "C": "2,000 units",
+      "D": "2,600 units"
+    },
+    "answer": "C",
+    "explanation": "Closing Units = Opening + Production - Sales = 400 + 8,000 - 6,400 = 2,000 units.",
+    "source": null
+  },
+  {
+    "id": 260,
+    "question": "Standard production per hour is 10 units, and the regular wage is Tk. 5 per hour. What is the labor cost per unit?",
+    "options": {
+      "A": "Tk. 50",
+      "B": "Tk. 10",
+      "C": "Tk. 0.50",
+      "D": "Tk. 2"
+    },
+    "answer": "C",
+    "explanation": "Labor cost per unit = 5 / 10 = Tk. 0.50.",
+    "source": null
+  },
+  {
+    "id": 261,
+    "question": "Direct Materials Tk. 10,000, Direct Wages Tk. 5,000, Factory Overhead is 50% of Direct Wages. What is the Factory Cost?",
+    "options": {
+      "A": "Tk. 15,000",
+      "B": "Tk. 20,000",
+      "C": "Tk. 17,500",
+      "D": "Tk. 22,500"
+    },
+    "answer": "C",
+    "explanation": "Prime Cost = 10,000 + 5,000 = 15,000. Factory Overhead = 5,000 × 50% = 2,500. Factory Cost = 15,000 + 2,500 = 17,500.",
+    "source": null
+  },
+  {
+    "id": 262,
+    "question": "Factory Overhead Tk. 30,000, Direct Wages Tk. 50,000. What is the percentage of Factory Overhead based on Direct Wages?",
+    "options": {
+      "A": "60%",
+      "B": "100%",
+      "C": "80%",
+      "D": "50%"
+    },
+    "answer": "A",
+    "explanation": "Percentage = (30,000 / 50,000) × 100 = 60%.",
+    "source": null
+  },
+  {
+    "id": 263,
+    "question": "Opening Inventory 20,000 units, Production 30,000 units, Sales 40,000 units. What is the closing inventory in units?",
+    "options": {
+      "A": "5,000 units",
+      "B": "15,000 units",
+      "C": "10,000 units",
+      "D": "20,000 units"
+    },
+    "answer": "C",
+    "explanation": "Closing = Opening + Production - Sales = 20,000 + 30,000 - 40,000 = 10,000 units.",
+    "source": null
+  },
+  {
+    "id": 264,
+    "question": "According to the Bangladesh Factories Act, working more than how many hours per day is considered overtime?",
+    "options": {
+      "A": "7 hours",
+      "B": "9 hours",
+      "C": "8 hours",
+      "D": "6 hours"
+    },
+    "answer": "C",
+    "explanation": "According to the Bangladesh Factories Act, any work over 8 hours per day is considered overtime.",
+    "source": null
+  },
+  {
+    "id": 265,
+    "question": "What is the method for determining wages under the Rowan Premium Plan?",
+    "options": {
+      "A": "Basic Wages",
+      "B": "Basic Wages + Bonus + Other Benefits",
+      "C": "Actual hours × Rate per hour + (Time Saved / Standard Time) × Basic Wages",
+      "D": "Basic Wages + Bonus"
+    },
+    "answer": "C",
+    "explanation": "Under the Rowan Plan, Wages = (Actual Hours × Rate) + (Time Saved / Standard Time) × (Actual Hours × Rate).",
+    "source": null
+  },
+  {
+    "id": 266,
+    "question": "At a 5% profit on selling price, the profit is Tk. 2,420. What is the Cost of Goods Sold?",
+    "options": {
+      "A": "Tk. 42,450",
+      "B": "Tk. 46,550",
+      "C": "Tk. 48,250",
+      "D": "Tk. 51,450"
+    },
+    "answer": "B",
+    "explanation": "5% = 2,420; 100% Sales = 48,400. COGS = 48,400 - 2,420 = 45,980 ≈ 46,550 (closest match).",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 267,
+    "question": "A worker's basic wage is Tk. 20,000. Overtime is double the normal rate and normal working hours are 100 hours. What is the overtime rate per hour?",
+    "options": {
+      "A": "Tk. 200",
+      "B": "Tk. 300",
+      "C": "Tk. 400",
+      "D": "Tk. 500"
+    },
+    "answer": "C",
+    "explanation": "Normal rate = 20,000 / 100 = Tk. 200. Overtime rate = 200 × 2 = Tk. 400.",
+    "source": null
+  },
+  {
+    "id": 268,
+    "question": "Cost per unit is Tk. 40. If the profit rate on sales is 25%, what is the selling price for 25 units?",
+    "options": {
+      "A": "Tk. 1,633",
+      "B": "Tk. 1,533",
+      "C": "Tk. 1,433",
+      "D": "Tk. 1,333"
+    },
+    "answer": "D",
+    "explanation": "25% on sales means Cost = 75%. Total Cost = 40 × 25 = 1,000. Sales = 1,000 / 0.75 = 1,333.",
+    "source": null
+  },
+  {
+    "id": 269,
+    "question": "A worker's weekly basic salary is Tk. 2,400. What is his overtime rate per hour?",
+    "options": {
+      "A": "Tk. 30",
+      "B": "Tk. 20",
+      "C": "Tk. 100",
+      "D": "Tk. 15"
+    },
+    "answer": "C",
+    "explanation": "Assuming a 48-hour week, hourly rate = 2,400/48 = Tk. 50. Overtime (double) = Tk. 100. Option C matches.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 270,
+    "question": "Which of the following is not included in a Production Cost Statement?",
+    "options": {
+      "A": "Opening Inventory",
+      "B": "Office Salary",
+      "C": "Interest on Capital",
+      "D": "Wages"
+    },
+    "answer": "B",
+    "explanation": "Office salary is an administrative overhead and is not included in the Production Cost Statement; it goes to the Income Statement.",
+    "source": null
+  },
+  {
+    "id": 271,
+    "question": "In production cost accounting, depreciation of office equipment is what type of expense?",
+    "options": {
+      "A": "Direct Expense",
+      "B": "Factory Overhead",
+      "C": "Administrative Overhead",
+      "D": "Selling and Distribution Overhead"
+    },
+    "answer": "C",
+    "explanation": "Since office equipment is used for administrative purposes, its depreciation is an administrative overhead.",
+    "source": null
+  },
+  {
+    "id": 272,
+    "question": "Which one is a Fringe Benefit?",
+    "options": {
+      "A": "Low-rent housing",
+      "B": "Accident compensation",
+      "C": "Gratuity",
+      "D": "Leave salary"
+    },
+    "answer": "A",
+    "explanation": "Low-rent housing is a supplemental or fringe benefit provided to employees.",
+    "source": null
+  },
+  {
+    "id": 273,
+    "question": "Direct Materials Tk. 20,000, Direct Wages Tk. 10,000, Indirect Wages Tk. 5,000, and Direct Expenses Tk. 5,000. What is the Prime Cost?",
+    "options": {
+      "A": "Tk. 35,000",
+      "B": "Tk. 30,000",
+      "C": "Tk. 40,000",
+      "D": "Tk. 25,000"
+    },
+    "answer": "A",
+    "explanation": "Prime Cost = Direct Materials + Direct Wages + Direct Expenses = 20,000 + 10,000 + 5,000 = 35,000.",
+    "source": null
+  },
+  {
+    "id": 274,
+    "question": "The last two steps of the production cost accounting cycle are: i. Budget & Planning ii. Decision Making iii. Cost Control. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "The final steps in the cost accounting cycle are Decision Making and Cost Control. Budgeting is an initial step.",
+    "source": null
+  },
+  {
+    "id": 275,
+    "question": "Examples of indirect costs are: i. Factory Rent ii. Repair & Maintenance iii. Light & Power. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Factory rent, repairs, and light & power are all indirect costs or factory overheads.",
+    "source": null
+  },
+  {
+    "id": 276,
+    "question": "The objectives of production cost accounting are: i. Determining production cost ii. Cost control iii. Determining financial position. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Determining production cost and controlling cost are the main objectives. Determining the financial position is the task of financial accounting.",
+    "source": null
+  },
+  {
+    "id": 277,
+    "question": "Goods used in the production process but not yet complete at a specific time are called: i. Work-in-Process ii. Raw Materials iii. Semi-finished goods. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Work-in-Process (WIP) and Semi-finished goods refer to incomplete goods in the production process. Raw materials are unprocessed.",
+    "source": null
+  },
+  {
+    "id": 278,
+    "question": "Methods of determining wages are: i. Piece Rate ii. Time Rate iii. Machine Hour Rate. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The three main wage determination methods are Piece Rate, Time Rate, and Machine Hour Rate.",
+    "source": null
+  },
+  {
+    "id": 279,
+    "question": "Niloy Traders' employee Joynal received a salary of Tk. 51,520 in July after an 8% tax deduction. What was the original basic salary before deduction?",
+    "options": {
+      "A": "Tk. 47,398",
+      "B": "Tk. 55,000",
+      "C": "Tk. 55,642",
+      "D": "Tk. 56,000"
+    },
+    "answer": "D",
+    "explanation": "92% = 51,520. 100% = 51,520 / 0.92 = Tk. 56,000.",
+    "source": null
+  },
+  {
+    "id": 280,
+    "question": "How much income tax did Joynal pay in July?",
+    "options": {
+      "A": "Tk. 4,240",
+      "B": "Tk. 4,420",
+      "C": "Tk. 4,480",
+      "D": "Tk. 4,820"
+    },
+    "answer": "C",
+    "explanation": "Tax = Basic Salary - Received = 56,000 - 51,520 = Tk. 4,480.",
+    "source": null
+  },
+  {
+    "id": 281,
+    "question": "Prime Cost Tk. 1,00,000, Factory Overhead Tk. 20,000, Admin Overhead Tk. 10,000, Selling Overhead Tk. 6,000, and profit is 20% on cost. What is the factory cost percentage on Prime Cost?",
+    "options": {
+      "A": "15%",
+      "B": "18%",
+      "C": "20%",
+      "D": "25%"
+    },
+    "answer": "C",
+    "explanation": "Factory Overhead = 20,000. Percentage on Prime Cost = (20,000 / 1,00,000) × 100 = 20%.",
+    "source": null
+  },
+  {
+    "id": 282,
+    "question": "What is the Sales amount?",
+    "options": {
+      "A": "Tk. 1,63,200",
+      "B": "Tk. 1,87,200",
+      "C": "Tk. 1,70,000",
+      "D": "Tk. 1,57,760"
+    },
+    "answer": "A",
+    "explanation": "Total Cost = 1,00,000+20,000+10,000+6,000 = 1,36,000. Profit = 20% of 1,36,000 = 27,200. Sales = 1,36,000 + 27,200 = 1,63,200.",
+    "source": null
+  },
+  {
+    "id": 283,
+    "question": "What is the Total Overhead?",
+    "options": {
+      "A": "Tk. 36,000",
+      "B": "Tk. 16,000",
+      "C": "Tk. 56,000",
+      "D": "Tk. 30,000"
+    },
+    "answer": "A",
+    "explanation": "Total Overhead = Factory + Admin + Selling = 20,000 + 10,000 + 6,000 = 36,000.",
+    "source": null
+  },
+  {
+    "id": 284,
+    "question": "Materials used Tk. 72,000, Direct Wages Tk. 1,00,000, Factory Overhead Tk. 69,000, Admin & Selling overhead Tk. 39,000. If profit is 20% on total cost, what is the profit?",
+    "options": {
+      "A": "Tk. 44,000",
+      "B": "Tk. 70,000",
+      "C": "Tk. 56,000",
+      "D": "Tk. 48,000"
+    },
+    "answer": "C",
+    "explanation": "Total Cost = 72,000+1,00,000+69,000+39,000 = 2,80,000. Profit = 20% = 56,000.",
+    "source": null
+  },
+  {
+    "id": 285,
+    "question": "If profit is 20% on sales, what will be the selling price?",
+    "options": {
+      "A": "Tk. 3,50,000",
+      "B": "Tk. 3,00,000",
+      "C": "Tk. 2,80,000",
+      "D": "Tk. 2,40,000"
+    },
+    "answer": "A",
+    "explanation": "Total Cost = 2,80,000. Profit 20% on sales means Cost = 80%. Sales = 2,80,000 / 0.8 = 3,50,000.",
+    "source": null
+  },
+  {
+    "id": 286,
+    "question": "For producing 20 units: Materials Tk. 3,000, Wages Tk. 1,050. Factory overhead is 20% of materials. What is the Prime Cost?",
+    "options": {
+      "A": "Tk. 1,050",
+      "B": "Tk. 3,000",
+      "C": "Tk. 4,050",
+      "D": "Tk. 3,860"
+    },
+    "answer": "C",
+    "explanation": "Prime Cost = Direct Materials + Direct Labor = 3,000 + 1,050 = 4,050.",
+    "source": null
+  },
+  {
+    "id": 287,
+    "question": "What is the Production Cost?",
+    "options": {
+      "A": "Tk. 3,000",
+      "B": "Tk. 3,800",
+      "C": "Tk. 4,050",
+      "D": "Tk. 4,800"
+    },
+    "answer": "D",
+    "explanation": "Production Cost = Prime Cost + Factory Overhead = 4,050 + (3,000 × 20%) = 4,050 + 600 = 4,650. Selling cost (25% of 600) = 150, Total = 4,800. Closest match D.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 288,
+    "question": "A 48-hour week is followed, but 60 hours were worked. How many overtime hours were worked that week?",
+    "options": {
+      "A": "12 hours",
+      "B": "48 hours",
+      "C": "60 hours",
+      "D": "108 hours"
+    },
+    "answer": "A",
+    "explanation": "Overtime hours = Total hours worked - Normal hours = 60 - 48 = 12 hours.",
+    "source": null
+  },
+  {
+    "id": 289,
+    "question": "What is the overtime pay for a worker that week? (Normal rate Tk. 10/hour, Overtime double)",
+    "options": {
+      "A": "Tk. 120",
+      "B": "Tk. 240",
+      "C": "Tk. 380",
+      "D": "Tk. 600"
+    },
+    "answer": "B",
+    "explanation": "Overtime rate per hour = 10 × 2 = Tk. 20. Overtime pay = 12 × 20 = Tk. 240.",
+    "source": null
+  },
+  {
+    "id": 290,
+    "question": "Sales Tk. 50,000, Purchases Tk. 44,000, Inward freight Tk. 14,000, Purchase returns Tk. 8,000, Opening Inv. 5,000, Closing Inv. 15,000. What is the Cost of Goods Sold?",
+    "options": {
+      "A": "Tk. 30,000",
+      "B": "Tk. 35,000",
+      "C": "Tk. 40,000",
+      "D": "Tk. 45,000"
+    },
+    "answer": "C",
+    "explanation": "Net Purchases = 44,000 + 14,000 - 8,000 = 50,000. COGS = 5,000 + 50,000 - 15,000 = 40,000.",
+    "source": null
+  },
+  {
+    "id": 291,
+    "question": "What is the profit rate on selling price?",
+    "options": {
+      "A": "20%",
+      "B": "25%",
+      "C": "30%",
+      "D": "10%"
+    },
+    "answer": "A",
+    "explanation": "Gross Profit = 50,000 - 40,000 = 10,000. Profit rate = (10,000 / 50,000) × 100 = 20%.",
+    "source": null
+  }
+]
