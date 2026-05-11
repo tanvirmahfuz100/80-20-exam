@@ -1,0 +1,291 @@
+[
+  {
+    "id": 89,
+    "question": "What are the activities related to the main revenue income of a business called?",
+    "options": {
+      "A": "Operating Activities",
+      "B": "Investing Activities",
+      "C": "Financing Activities",
+      "D": "Income-Expenditure Activities"
+    },
+    "answer": "A",
+    "explanation": "Activities related to the main revenue income of a business are called Operating Activities. They indicate cash flow from the core business operations.",
+    "source": null
+  },
+  {
+    "id": 90,
+    "question": "'Repayment of long-term bonds' — What type of activity is this in the Cash Flow Statement?",
+    "options": {
+      "A": "Operating",
+      "B": "Investing",
+      "C": "Financing",
+      "D": "Non-cash Financing"
+    },
+    "answer": "C",
+    "explanation": "Repayment of long-term bonds is a Financing Activity as it relates to the collection and repayment of long-term funds of the company.",
+    "source": null
+  },
+  {
+    "id": 91,
+    "question": "Which one indicates the main cash-generating capacity of a business?",
+    "options": {
+      "A": "Cash from Investing Activities",
+      "B": "Cash from Receipt and Payment Activities",
+      "C": "Cash from Operating Activities",
+      "D": "Cash from Financing Activities"
+    },
+    "answer": "C",
+    "explanation": "Cash flow from operating activities indicates the main cash-generating capacity of the business.",
+    "source": null
+  },
+  {
+    "id": 92,
+    "question": "Just as blood and blood circulation are essential for every living being, which one is essential for a business?",
+    "options": {
+      "A": "Cash fixed assets",
+      "B": "Long-term fixed assets",
+      "C": "Cash and its flow",
+      "D": "Debentures"
+    },
+    "answer": "C",
+    "explanation": "The lifeblood of a business is cash and its flow, keeping the business running just like blood circulation keeps a body alive.",
+    "source": null
+  },
+  {
+    "id": 93,
+    "question": "Which of the following should NOT be considered in operating cash flow?",
+    "options": {
+      "A": "Accounts Receivable",
+      "B": "Inventory",
+      "C": "Machinery",
+      "D": "Tax Payable"
+    },
+    "answer": "C",
+    "explanation": "Machinery is a fixed asset and its purchase/sale is included in Investing Activities, not Operating Activities.",
+    "source": null
+  },
+  {
+    "id": 94,
+    "question": "Operating expenses including depreciation Tk. 30,000 total Tk. 1,20,000. Outstanding expenses at the end and beginning are Tk. 15,000 and Tk. 10,000 respectively. What is the cash paid for operating expenses?",
+    "options": {
+      "A": "Tk. 1,10,000",
+      "B": "Tk. 1,05,000",
+      "C": "Tk. 90,000",
+      "D": "Tk. 85,000"
+    },
+    "answer": "D",
+    "explanation": "Cash Operating Expenses = Total Expenses (excluding non-cash depreciation) + Opening Outstanding - Closing Outstanding = (1,20,000 - 30,000) + 10,000 - 15,000 = Tk. 85,000.",
+    "source": null
+  },
+  {
+    "id": 95,
+    "question": "Which of the following is a significant non-cash transaction?",
+    "options": {
+      "A": "Depreciation of furniture",
+      "B": "Loss on sale of property",
+      "C": "Purchase of land in exchange of shares",
+      "D": "Sale of shares to the public"
+    },
+    "answer": "C",
+    "explanation": "Purchasing land in exchange of shares is a significant non-cash transaction, disclosed as a note in the Cash Flow Statement.",
+    "source": null
+  },
+  {
+    "id": 96,
+    "question": "Which of the following is a cash flow from investing activities?",
+    "options": {
+      "A": "Sale of own company's shares",
+      "B": "Sale of goods",
+      "C": "Payment of dividends",
+      "D": "Purchase of land"
+    },
+    "answer": "D",
+    "explanation": "Purchase of land falls under investing activities. Sale of shares is financing; sale of goods is operating.",
+    "source": null
+  },
+  {
+    "id": 97,
+    "question": "Net Profit Tk. 1,32,000. Creditors increased by Tk. 10,000. Inventory decreased by Tk. 6,000 and Debtors increased by Tk. 12,000. Under the indirect method, cash from operating activities is?",
+    "options": {
+      "A": "Tk. 1,04,000",
+      "B": "Tk. 1,50,000",
+      "C": "Tk. 1,24,000",
+      "D": "Tk. 1,36,000"
+    },
+    "answer": "D",
+    "explanation": "Operating Cash Flow = Net Profit + Increase in Creditors + Decrease in Inventory - Increase in Debtors = 1,32,000 + 10,000 + 6,000 - 12,000 = Tk. 1,36,000.",
+    "source": null
+  },
+  {
+    "id": 98,
+    "question": "Which one is a non-cash expense?",
+    "options": {
+      "A": "Salary paid",
+      "B": "Purchase of shares",
+      "C": "Advance rent received",
+      "D": "Depreciation of machinery"
+    },
+    "answer": "D",
+    "explanation": "Depreciation is a non-cash expense as no actual cash is paid out.",
+    "source": null
+  },
+  {
+    "id": 99,
+    "question": "Which of the following is a cash outflow from operating activities?",
+    "options": {
+      "A": "Payment to creditors for goods",
+      "B": "Payment for purchase of fixed assets",
+      "C": "Loan given to another institution",
+      "D": "Payment of dividends"
+    },
+    "answer": "A",
+    "explanation": "Payment to creditors is a direct cash outflow from operating activities. The rest are investing or financing.",
+    "source": null
+  },
+  {
+    "id": 100,
+    "question": "Which of the following must be added in investing activities while preparing the Cash Flow Statement?",
+    "options": {
+      "A": "Purchase of equipment",
+      "B": "Purchase of another company's shares",
+      "C": "Sale of fixed assets",
+      "D": "Tax payable"
+    },
+    "answer": "C",
+    "explanation": "Sale of fixed assets is an inflow in investing activities, thus it is added.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 101,
+    "question": "Financing activities increase by: i. Issuing shares for cash ii. Issuing bonds for cash iii. Sale of investments for cash. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Financing activities increase by issuing shares and bonds for cash. Sale of investments is an investing activity.",
+    "source": null
+  },
+  {
+    "id": 102,
+    "question": "Operating activities include: i. Depreciation ii. Purchase of machinery iii. Profit/Loss on sale of machinery. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Under the indirect method, depreciation and profit/loss on sale of assets are adjusted in operating activities. Machinery purchase is an investing activity.",
+    "source": null
+  },
+  {
+    "id": 103,
+    "question": "To determine net cash from operating activities, one must: i. Deduct increase in current assets ii. Add increase in current liabilities iii. Add decrease in current liabilities. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Increase in current assets is deducted; increase in current liabilities is added. Decrease in liabilities is deducted.",
+    "source": null
+  },
+  {
+    "id": 104,
+    "question": "Significant non-cash activities in the Cash Flow Statement are: i. Issuing shares to purchase assets ii. Conversion of bonds into common stock iii. Exchange of fixed assets. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All are significant non-cash transactions that must be disclosed in the notes of the Cash Flow Statement.",
+    "source": null
+  },
+  {
+    "id": 105,
+    "question": "The activities in the Cash Flow Statement are: i. Operating ii. Investing iii. Financing. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The three main classifications of the Cash Flow Statement are Operating, Investing, and Financing activities.",
+    "source": null
+  },
+  {
+    "id": 106,
+    "question": "(Stimulus) Machinery purchase in cash Tk. 50,000, Bond repayment Tk. 70,000, Depreciation Tk. 30,000, Loss on sale of fixed assets Tk. 20,000, Dividend paid Tk. 30,000, Goodwill amortization Tk. 10,000, Interest paid Tk. 15,000. What is the amount of non-cash transactions?",
+    "options": {
+      "A": "Tk. 50,000",
+      "B": "Tk. 60,000",
+      "C": "Tk. 70,000",
+      "D": "Tk. 75,000"
+    },
+    "answer": "B",
+    "explanation": "Non-cash expenses = Depreciation 30,000 + Loss 20,000 + Goodwill amortization 10,000 = Tk. 60,000.",
+    "source": null
+  },
+  {
+    "id": 107,
+    "question": "(Stimulus) What is the amount of outflows under financing activities?",
+    "options": {
+      "A": "Tk. 80,000",
+      "B": "Tk. 1,00,000",
+      "C": "Tk. 1,12,000",
+      "D": "Tk. 1,50,000"
+    },
+    "answer": "B",
+    "explanation": "Financing Outflows = Bond repayment 70,000 + Dividend 30,000 = Tk. 1,00,000. Interest is operating.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 108,
+    "question": "(Stimulus) Machinery purchased for Tk. 10,000, sold for Tk. 9,000. Book value was Tk. 8,100. What was the accumulated depreciation of the sold machinery?",
+    "options": {
+      "A": "Tk. 1,800",
+      "B": "Tk. 1,900",
+      "C": "Tk. 2,000",
+      "D": "Tk. 8,100"
+    },
+    "answer": "B",
+    "explanation": "Accumulated Depreciation = Cost Price - Book Value = 10,000 - 8,100 = 1,900. (Gain/Loss = 9,000 - 8,100 = 900 Gain).",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 109,
+    "question": "(Stimulus) Cost of Goods Sold Tk. 5,00,000. Opening Inventory Tk. 70,000, Closing Inventory Tk. 90,000. What is the amount of net purchases?",
+    "options": {
+      "A": "Tk. 4,80,000",
+      "B": "Tk. 5,70,000",
+      "C": "Tk. 5,20,000",
+      "D": "Tk. 5,90,000"
+    },
+    "answer": "C",
+    "explanation": "Net Purchases = Cost of Goods Sold + Closing Inventory - Opening Inventory = 5,00,000 + 90,000 - 70,000 = Tk. 5,20,000.",
+    "source": null
+  },
+  {
+    "id": 110,
+    "question": "(Stimulus) Based on the given information, what is the amount of cash paid to suppliers? (Opening Payable Tk. 1,10,000, Closing Payable Tk. 80,000)",
+    "options": {
+      "A": "Tk. 6,90,000",
+      "B": "Tk. 6,50,000",
+      "C": "Tk. 5,70,000",
+      "D": "Tk. 5,50,000"
+    },
+    "answer": "D",
+    "explanation": "Cash Paid to Suppliers = Net Purchases + Opening Payable - Closing Payable = 5,20,000 + 1,10,000 - 80,000 = Tk. 5,50,000.",
+    "source": null
+  }
+]
