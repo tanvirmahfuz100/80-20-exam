@@ -28,6 +28,17 @@
               "file_en": "/hsc/accounting_2nd/english/chapter_2.json"
             }
           ]
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_3.json"
+            }
+          ]
         }
       ]
     }
