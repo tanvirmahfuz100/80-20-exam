@@ -12,7 +12,8 @@
             {
               "id": "hsc_accounting_ch1",
               "name": "Chapter 1 Questions",
-              "file": "/hsc/accounting_2nd/chapter_1.json"
+              "file_bn": "/hsc/accounting_2nd/chapter_1.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_1.json"
             }
           ]
         }
