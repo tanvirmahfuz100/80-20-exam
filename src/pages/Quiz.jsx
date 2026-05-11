@@ -11,22 +11,42 @@ import { useAuth } from '../context/AuthContext';
 import { api } from '../services/api';
 
 const normalizeQuizQuestions = (payload) => {
-    const sourceQuestions = payload?.questions || [];
+    const sourceQuestions = Array.isArray(payload?.questions) ? payload.questions : [];
 
     return sourceQuestions.flatMap((question) => {
         // Handle gap-filling format (with blanks)
         if (Array.isArray(question.blanks) && question.blanks.length > 0) {
-            return question.blanks.map((blank) => ({
-                id: `${question.id}_${blank.blankId}`,
-                text: `Choose the correct word for blank (${blank.blankId})`,
-                passage: question.passage || '',
-                boxWords: question.boxWords || [],
-                blankId: blank.blankId,
-                options: (blank.options || []).map((option) => option.text),
-                correct: (blank.options || []).findIndex((option) => option.isCorrect),
-                explanation: (blank.options || []).find((option) => option.isCorrect)?.explanationBn || '',
-                difficulty: question.difficulty || 'medium'
-            }));
+            return question.blanks.map((blank, blankIndex) => {
+                const blankId = blank.blankId || blank.id || String(blankIndex + 1);
+                const options = Array.isArray(blank.options)
+                    ? blank.options.map((option) => (typeof option === 'string' ? option : option?.text || ''))
+                    : [];
+
+                let correct = -1;
+                if (blank.correct_answer) {
+                    correct = options.findIndex(
+                        (option) => String(option).trim().toLowerCase() === String(blank.correct_answer).trim().toLowerCase()
+                    );
+                }
+                if (correct === -1) {
+                    correct = (blank.options || []).findIndex((option) => option?.isCorrect);
+                }
+                if (correct === -1 && options.length > 0) {
+                    correct = 0;
+                }
+
+                return {
+                    id: `${question.id}_${blankId}`,
+                    text: `Choose the correct word for blank (${blankId})`,
+                    passage: question.passage || question.passage_text || '',
+                    boxWords: question.boxWords || [],
+                    blankId,
+                    options,
+                    correct,
+                    explanation: blank.explanation_bn || (blank.options || []).find((option) => option?.isCorrect)?.explanationBn || '',
+                    difficulty: question.difficulty || 'medium'
+                };
+            });
         }
 
         // Handle changing sentences format (with subQuestions)
@@ -133,21 +153,20 @@ const Quiz = () => {
                         const base = import.meta.env.BASE_URL || '/';
                         fileUrl = `${base}${fileUrl.replace(/^\//, '')}`;
                     }
-                        const res = await fetch(fileUrl);
-                        const data = await res.json();
+                    const res = await fetch(fileUrl);
+                    const data = await res.json();
 
-                        // Support multiple legacy JSON shapes:
-                        // - Array of questions
-                        // - { questions: [...] }
-                        // - { passages: [...] } (articles/reading passages)
-                        let questionArray = [];
-                        if (Array.isArray(data)) questionArray = data;
-                        else if (Array.isArray(data.questions)) questionArray = data.questions;
-                        else if (Array.isArray(data.passages)) questionArray = data.passages;
-                        else if (Array.isArray(data.items)) questionArray = data.items;
-                        else questionArray = [];
+                    // Support multiple legacy JSON shapes:
+                    // - Array of questions
+                    // - { questions: [...] }
+                    // - { passages: [...] } (articles/reading passages)
+                    let questionArray = [];
+                    if (Array.isArray(data)) questionArray = data;
+                    else if (Array.isArray(data.questions)) questionArray = data.questions;
+                    else if (Array.isArray(data.passages)) questionArray = data.passages;
+                    else if (Array.isArray(data.items)) questionArray = data.items;
 
-                        setQuestions(normalizeQuizQuestions({ questions: questionArray }));
+                    setQuestions(normalizeQuizQuestions({ questions: questionArray }));
                 }
             } catch (err) {
                 setError(err.message);

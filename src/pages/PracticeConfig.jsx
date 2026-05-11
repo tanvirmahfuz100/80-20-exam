@@ -126,7 +126,13 @@ const PracticeConfig = () => {
                 if (!res.ok) return 0;
 
                 const payload = await res.json();
-                const sourceQuestions = payload?.questions || [];
+                const sourceQuestions = Array.isArray(payload)
+                    ? payload
+                    : Array.isArray(payload?.questions)
+                        ? payload.questions
+                        : Array.isArray(payload?.passages)
+                            ? payload.passages
+                            : [];
 
                 return sourceQuestions.reduce((total, question) => {
                     if (Array.isArray(question.blanks) && question.blanks.length > 0) {
