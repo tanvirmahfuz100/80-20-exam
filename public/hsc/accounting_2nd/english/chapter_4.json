@@ -1,0 +1,488 @@
+[
+  {
+    "id": 124,
+    "question": "Which type of shareholders enjoy voting rights?",
+    "options": {
+      "A": "Preference Share",
+      "B": "Convertible Preference Share",
+      "C": "Cumulative Preference Share",
+      "D": "Ordinary Share"
+    },
+    "answer": "D",
+    "explanation": "Ordinary shareholders, as the owners of the company, enjoy voting rights. Preference shareholders generally do not have voting rights.",
+    "source": null
+  },
+  {
+    "id": 125,
+    "question": "What is 'Share Discount' for a company?",
+    "options": {
+      "A": "Capital Loss",
+      "B": "Expense",
+      "C": "Profit",
+      "D": "Courtesy to shareholders"
+    },
+    "answer": "A",
+    "explanation": "When shares are issued at a discount, the company receives less than the face value. This is treated as a capital loss.",
+    "source": null
+  },
+  {
+    "id": 126,
+    "question": "In which type of company are the directors required to retire by rotation?",
+    "options": {
+      "A": "Private Limited Company",
+      "B": "Public Limited Company",
+      "C": "Statutory Company",
+      "D": "Unlimited Liability Company"
+    },
+    "answer": "B",
+    "explanation": "In a Public Limited Company, directors must retire by rotation and can be re-elected.",
+    "source": null
+  },
+  {
+    "id": 127,
+    "question": "If a debenture is converted into capital, what type of transaction is it?",
+    "options": {
+      "A": "Non-operating",
+      "B": "Non-investing",
+      "C": "Non-production",
+      "D": "Non-financing"
+    },
+    "answer": "D",
+    "explanation": "Conversion of a debenture into share capital is a non-cash financing transaction, as it does not involve a cash flow.",
+    "source": null
+  },
+  {
+    "id": 128,
+    "question": "What is the issue of shares at a price higher than the face value called?",
+    "options": {
+      "A": "Issue at Par",
+      "B": "Issue at Discount",
+      "C": "Issue at Premium",
+      "D": "Bonus Share Issue"
+    },
+    "answer": "C",
+    "explanation": "Issuing shares at a price higher than the face value is called Issue at Premium.",
+    "source": null
+  },
+  {
+    "id": 129,
+    "question": "Before the enactment of the Companies Act, which type of company was formed by the order of the head of state?",
+    "options": {
+      "A": "Statutory Company",
+      "B": "Chartered Company",
+      "C": "Registered Company",
+      "D": "Holding Company"
+    },
+    "answer": "B",
+    "explanation": "A company formed by a special order or charter of the head of state is called a Chartered Company.",
+    "source": null
+  },
+  {
+    "id": 130,
+    "question": "The rate of profit is not fixed for which type of share?",
+    "options": {
+      "A": "Preference Share",
+      "B": "Ordinary Share",
+      "C": "Deferred Share",
+      "D": "Redeemable Share"
+    },
+    "answer": "B",
+    "explanation": "The dividend rate for ordinary shares is not fixed; it depends on the company's profits.",
+    "source": null
+  },
+  {
+    "id": 131,
+    "question": "What is the maximum amount of capital a company can raise by selling shares?",
+    "options": {
+      "A": "Unsubscribed Capital",
+      "B": "Paid-up Capital",
+      "C": "Authorized Capital",
+      "D": "Issued Capital"
+    },
+    "answer": "C",
+    "explanation": "A company cannot sell more shares than its Authorized Capital. It indicates the maximum limit.",
+    "source": null
+  },
+  {
+    "id": 132,
+    "question": "What is Share Transfer?",
+    "options": {
+      "A": "Non-operating expense",
+      "B": "Non-operating income",
+      "C": "Operating income",
+      "D": "Operating expense"
+    },
+    "answer": "A",
+    "explanation": "Share transfer is a non-operating expense as it is not part of the company's core business activities.",
+    "source": null
+  },
+  {
+    "id": 133,
+    "question": "Which of the following is part of the ownership fund of an institution?",
+    "options": {
+      "A": "Proposed Dividend",
+      "B": "Income Tax Reserve",
+      "C": "Employee Welfare Fund",
+      "D": "Share Premium"
+    },
+    "answer": "D",
+    "explanation": "Share Premium is a part of the ownership fund. It belongs to the shareholders and is not a general reserve.",
+    "source": null
+  },
+  {
+    "id": 134,
+    "question": "Which type of company owns more than half of the shares of another company?",
+    "options": {
+      "A": "Foreign",
+      "B": "Multinational",
+      "C": "Holding",
+      "D": "Subsidiary"
+    },
+    "answer": "C",
+    "explanation": "A company that owns more than half of the shares of another company is called a Holding Company.",
+    "source": null
+  },
+  {
+    "id": 135,
+    "question": "If shares are paid without paying dividends due to shareholders, what type of share is it called?",
+    "options": {
+      "A": "Ordinary Share",
+      "B": "Bonus Share",
+      "C": "Preference Share",
+      "D": "Right Share"
+    },
+    "answer": "B",
+    "explanation": "When dividends are paid in the form of shares instead of cash, it is called a Bonus Share. This is the capitalization of profits.",
+    "source": null
+  },
+  {
+    "id": 136,
+    "question": "Emon and 7 friends formed a large-scale business named Mark Company Limited. What is the minimum number of directors for Mark Company Limited?",
+    "options": {
+      "A": "3",
+      "B": "7",
+      "C": "10",
+      "D": "9"
+    },
+    "answer": "A",
+    "explanation": "A large-scale business implies a Public Limited Company. The minimum number of directors for a Public Limited Company is 3.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 137,
+    "question": "How many days before the general meeting must the audited statements be sent to each shareholder?",
+    "options": {
+      "A": "12 days",
+      "B": "15 days",
+      "C": "14 days",
+      "D": "21 days"
+    },
+    "answer": "C",
+    "explanation": "According to the Companies Act, audited statements must be sent to shareholders 14 days before the general meeting.",
+    "source": null
+  },
+  {
+    "id": 138,
+    "question": "What is the meaning of 'Limited' at the end of a company's name?",
+    "options": {
+      "A": "The liability of the company is limited",
+      "B": "The liability of shareholders is limited",
+      "C": "The liability of directors is limited",
+      "D": "The tenure of the company is limited"
+    },
+    "answer": "B",
+    "explanation": "'Limited' means the liability of the members or shareholders is limited to the amount invested in their shares.",
+    "source": null
+  },
+  {
+    "id": 139,
+    "question": "When does a company gain perpetual existence?",
+    "options": {
+      "A": "Before being formed and registered",
+      "B": "After being formed and registered in its own name",
+      "C": "Through the sale of shares and debentures",
+      "D": "After shares become freely transferable"
+    },
+    "answer": "B",
+    "explanation": "A company gains perpetual existence as a separate legal entity after it is formed and registered.",
+    "source": null
+  },
+  {
+    "id": 140,
+    "question": "Where must a prospectus be published?",
+    "options": {
+      "A": "On TV",
+      "B": "In newspapers",
+      "C": "In periodicals",
+      "D": "On the internet"
+    },
+    "answer": "B",
+    "explanation": "A company's prospectus must be published in a national daily newspaper.",
+    "source": null
+  },
+  {
+    "id": 141,
+    "question": "When is the value of irredeemable preference shares returned?",
+    "options": {
+      "A": "After a specific period",
+      "B": "After 5 years",
+      "C": "Before winding up",
+      "D": "After winding up"
+    },
+    "answer": "D",
+    "explanation": "The capital of irredeemable preference shares is returned only after the company is wound up.",
+    "source": null
+  },
+  {
+    "id": 142,
+    "question": "Shares of which company are freely transferable?",
+    "options": {
+      "A": "Public Limited",
+      "B": "Private Limited",
+      "C": "Statutory",
+      "D": "Co-operative Society"
+    },
+    "answer": "A",
+    "explanation": "Shares of a Public Limited Company are freely and easily transferable.",
+    "source": null
+  },
+  {
+    "id": 143,
+    "question": "Who are the real owners of a company?",
+    "options": {
+      "A": "Ordinary shareholders",
+      "B": "Preference shareholders",
+      "C": "Deferred shareholders",
+      "D": "Bond holders"
+    },
+    "answer": "A",
+    "explanation": "Ordinary shareholders are the real owners of the company with voting rights and control over the company.",
+    "source": null
+  },
+  {
+    "id": 144,
+    "question": "Share Discount is what type of asset?",
+    "options": {
+      "A": "Fixed",
+      "B": "Current",
+      "C": "Fictitious",
+      "D": "Liquid"
+    },
+    "answer": "C",
+    "explanation": "Share Discount (Discount on Issue of Shares) is a fictitious or intangible asset, shown as a loss on issue of shares.",
+    "source": null
+  },
+  {
+    "id": 145,
+    "question": "In which month of 1994 was the current Companies Act applicable in Bangladesh passed in Parliament?",
+    "options": {
+      "A": "July",
+      "B": "August",
+      "C": "September",
+      "D": "October"
+    },
+    "answer": "C",
+    "explanation": "The Companies Act 1994 was passed in the Parliament of Bangladesh in September.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 146,
+    "question": "What is the maximum rate of share discount?",
+    "options": {
+      "A": "10%",
+      "B": "5%",
+      "C": "4%",
+      "D": "8%"
+    },
+    "answer": "A",
+    "explanation": "According to the Companies Act, the maximum rate of discount on the issue of shares is 10%.",
+    "source": null
+  },
+  {
+    "id": 147,
+    "question": "The steps of company formation are: i. Promotion ii. Filing and registration of documents iii. Collection of certificate of commencement. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "For a public company, all three steps are required. But for a private company, the certificate of commencement is not required. Assuming the standard three-step process for public companies, all are correct.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 148,
+    "question": "According to the Companies Act, Articles of Association specify: i. Authority and rights of the board ii. Rules of internal management iii. Relationship of persons employed within the company. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The Articles of Association govern the internal management rules, directors' powers, and relationships of individuals within the company.",
+    "source": null
+  },
+  {
+    "id": 149,
+    "question": "Right shares are issued to: i. Raise more capital ii. Distribute new shares among existing shareholders iii. Keep the company's shareholders limited. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Right shares are issued to raise capital and protect existing shareholders' rights. Limiting shareholders is not an objective.",
+    "source": null
+  },
+  {
+    "id": 150,
+    "question": "Issued share capital cannot exceed: i. Authorized share capital ii. Subscribed share capital iii. Called-up share capital. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Issued capital cannot exceed Authorized capital. Subscribed and Called-up capital are subsets of Issued capital, so they cannot exceed it either.",
+    "source": null
+  },
+  {
+    "id": 151,
+    "question": "A company's issued capital can increase through: i. Issue of shares ii. Right shares iii. Issue of bonus shares. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Issuing new shares or right shares increases issued capital. Bonus shares are issued from retained earnings, so while the number of issued shares increases, it does not bring in new cash capital.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 152,
+    "question": "Preference shareholders get priority in: i. Electing directors ii. Receiving dividends iii. Return of capital. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Preference shareholders have priority in receiving dividends and return of capital, but they generally do not have the right to vote for electing directors.",
+    "source": null
+  },
+  {
+    "id": 153,
+    "question": "Deferred shares are usually bought by: i. Promoters ii. Underwriters iii. Directors. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Deferred shares are typically bought by promoters and underwriters, giving them special benefits.",
+    "source": null
+  },
+  {
+    "id": 154,
+    "question": "Purbachal Co. Ltd. issued 5,000 shares of Tk. 100 each at a 10% discount. What is the amount of money raised through the sale of shares?",
+    "options": {
+      "A": "Tk. 5,00,000",
+      "B": "Tk. 4,50,000",
+      "C": "Tk. 9,50,000",
+      "D": "Tk. 10,00,000"
+    },
+    "answer": "B",
+    "explanation": "Face value = Tk. 100. 10% discount means Issue price = Tk. 90. Money raised = 5,000 × 90 = Tk. 4,50,000.",
+    "source": null
+  },
+  {
+    "id": 155,
+    "question": "Since the company issued shares at a 10% discount, on what amount will the dividend be paid?",
+    "options": {
+      "A": "Tk. 90",
+      "B": "Tk. 100",
+      "C": "Tk. 110",
+      "D": "Tk. 120"
+    },
+    "answer": "B",
+    "explanation": "Dividend is always paid on the face value of the share (Tk. 100), not on the issue price.",
+    "source": null
+  },
+  {
+    "id": 156,
+    "question": "Alam Co. Ltd. issued 40,000 shares at Tk. 9 each, received applications for 45,000. The excess application money was refunded. What is the total value of the refunded applications?",
+    "options": {
+      "A": "Tk. 50,000",
+      "B": "Tk. 45,000",
+      "C": "Tk. 40,000",
+      "D": "Tk. 30,000"
+    },
+    "answer": "B",
+    "explanation": "Excess shares applied = 45,000 - 40,000 = 5,000. Refunded amount = 5,000 × 9 = Tk. 45,000.",
+    "source": null
+  },
+  {
+    "id": 157,
+    "question": "At the end of the year, what is the amount of paid-up share capital of Alam Co. Ltd.?",
+    "options": {
+      "A": "Tk. 4,00,000",
+      "B": "Tk. 80,000",
+      "C": "Tk. 1,00,000",
+      "D": "Tk. 95,00,000"
+    },
+    "answer": "A",
+    "explanation": "Paid-up Capital (at Face Value) = 40,000 × 10 = Tk. 4,00,000. (Note: If calculated at issue price, it would be 3,60,000. Option matches face value calculation).",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 158,
+    "question": "What is the total amount of share discount for Alam Co. Ltd.?",
+    "options": {
+      "A": "Tk. 40,000",
+      "B": "Tk. 80,000",
+      "C": "Tk. 1,00,000",
+      "D": "Tk. 95,000"
+    },
+    "answer": "A",
+    "explanation": "Discount per share = 10 - 9 = Tk. 1. Total discount = 40,000 × 1 = Tk. 40,000.",
+    "source": null
+  },
+  {
+    "id": 159,
+    "question": "Ahsan Brothers Ltd. divided its total capital into 1,000,000 shares, where 100 shares are worth Tk. 10,000. What is the share capital of Ahsan Brothers Ltd.?",
+    "options": {
+      "A": "Tk. 10 crore",
+      "B": "Tk. 5 crore",
+      "C": "Tk. 12 crore",
+      "D": "Tk. 4 crore"
+    },
+    "answer": "A",
+    "explanation": "100 shares = Tk. 10,000, so 1 share = Tk. 100. Total capital = 1,000,000 × 100 = Tk. 10,00,00,000 (10 crore).",
+    "source": null
+  },
+  {
+    "id": 160,
+    "question": "What type of capital is the Tk. 10 crore of Ahsan Brothers Ltd.?",
+    "options": {
+      "A": "Subscribed Capital",
+      "B": "Called-up Capital",
+      "C": "Paid-up Capital",
+      "D": "Authorized Capital"
+    },
+    "answer": "D",
+    "explanation": "The total capital with which a company is registered and divided into shares is called the Authorized Capital. Tk. 10 crore is its Authorized Capital.",
+    "source": null
+  }
+]
