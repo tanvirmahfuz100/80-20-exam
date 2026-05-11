@@ -1,0 +1,58 @@
+{
+  "subjects": [
+    {
+      "id": "accounting_2nd",
+      "name": "Accounting 2nd Paper",
+      "icon": "Calculator",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1: Introduction to Non-Trading Organizations",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_1.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_1.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2: Partnership Accounting",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_2.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_2.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_3.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_3.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_4",
+          "name": "Chapter 4",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_4.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

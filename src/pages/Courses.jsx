@@ -32,7 +32,7 @@ const Courses = () => {
     );
 
     return (
-        <div className="max-w-7xl mx-auto space-y-12 animate-in fade-in duration-700">
+        <div className="max-w-7xl mx-auto space-y-12">
             {/* Header */}
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
                 <div>

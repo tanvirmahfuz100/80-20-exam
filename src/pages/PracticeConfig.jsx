@@ -52,7 +52,7 @@ const ChapterItem = ({ chapter, onClick, questionCount }) => (
 
 const PracticeConfig = () => {
     const navigate = useNavigate();
-    const { user } = useAuth();
+    const { profile } = useAuth();
     const [data, setData] = useState({ exams: [] });
     const [selectedSubject, setSelectedSubject] = useState(null);
     const [selectedExam, setSelectedExam] = useState(null);
@@ -63,6 +63,15 @@ const PracticeConfig = () => {
 
     const [searchParams] = useSearchParams();
     const categoryFilter = (searchParams.get('exam') || searchParams.get('category') || '').toLowerCase();
+
+    const version = profile?.question_version || 'bangla';
+    const versionLabel = version === 'english' ? 'English' : 'Bangla';
+
+    const getChapterFile = (chapter) => {
+        if (!chapter) return null;
+        if (version === 'english') return chapter.file_en || chapter.file || chapter.file_bn || null;
+        return chapter.file_bn || chapter.file || chapter.file_en || null;
+    };
 
     useEffect(() => {
         const base = import.meta.env.BASE_URL || '/';
@@ -135,7 +144,8 @@ const PracticeConfig = () => {
                 .flatMap((exam) => exam.subjects || [])
                 .flatMap((subject) => subject.topics || [])
                 .flatMap((topic) => topic.chapters || [])
-                .filter((chapter) => Boolean(chapter.file));
+                .map((chapter) => ({ chapter, file: getChapterFile(chapter) }))
+                .filter((entry) => Boolean(entry.file));
 
             if (chapterEntries.length === 0) {
                 setChapterQuestionCounts({});
@@ -143,17 +153,18 @@ const PracticeConfig = () => {
             }
 
             const pairs = await Promise.all(
-                chapterEntries.map(async (chapter) => [chapter.file, await countChapterQuestions(chapter.file)])
+                chapterEntries.map(async ({ chapter, file }) => [file, await countChapterQuestions(file)])
             );
 
             setChapterQuestionCounts(Object.fromEntries(pairs));
         };
 
         hydrateChapterCounts();
-    }, [data]);
+    }, [data, version]);
 
     const handleStart = (chapter) => {
-        navigate(`/quiz/${chapter.id}?file=${encodeURIComponent(chapter.file)}&title=${encodeURIComponent(chapter.name)}&timed=${isTimed}`);
+        const file = getChapterFile(chapter);
+        navigate(`/quiz/${chapter.id}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(chapter.name)}&timed=${isTimed}`);
     };
 
     if (loading) return (
@@ -176,7 +187,7 @@ const PracticeConfig = () => {
     );
 
     return (
-        <div className="max-w-6xl mx-auto space-y-12 animate-in fade-in duration-700">
+        <div className="max-w-6xl mx-auto space-y-12">
             {/* Header Section */}
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
                 <div>
@@ -188,7 +199,7 @@ const PracticeConfig = () => {
                     </p>
                     {selectedExam && (
                         <p className="mt-3 text-[10px] font-black uppercase tracking-[0.3em] text-primary/70">
-                            Exam: {selectedExam.label}
+                            Exam: {selectedExam.label} · Version: {versionLabel}
                         </p>
                     )}
                 </div>
@@ -307,7 +318,7 @@ const PracticeConfig = () => {
                                                 key={chapter.id}
                                                 chapter={chapter}
                                                 onClick={handleStart}
-                                                questionCount={chapterQuestionCounts[chapter.file] ?? 0}
+                                                questionCount={chapterQuestionCounts[getChapterFile(chapter)] ?? 0}
                                             />
                                         ))
                                     ) : (

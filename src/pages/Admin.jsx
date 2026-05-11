@@ -61,7 +61,7 @@ const Admin = () => {
     };
 
     return (
-        <div className="max-w-5xl mx-auto space-y-8 animate-in fade-in duration-500">
+        <div className="max-w-5xl mx-auto space-y-8">
             <div>
                 <h1 className="text-4xl font-black text-white italic tracking-tighter uppercase">Local Admin Studio</h1>
                 <p className="text-white/30 font-bold uppercase tracking-widest text-[10px] mt-2">Testing mode: all writes go to browser localStorage</p>

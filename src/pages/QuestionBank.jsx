@@ -30,15 +30,19 @@ const QuestionBank = () => {
         fetchQuestions();
     }, [filters]);
 
-    const filteredQuestions = questions.filter(q =>
-        q.question_text.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    const normalizedSearch = searchTerm.trim().toLowerCase();
+    const filteredQuestions = questions.filter(q => {
+        const text = q?.question_text;
+        if (!text) return false;
+        if (!normalizedSearch) return true;
+        return text.toLowerCase().includes(normalizedSearch);
+    });
 
     const totalPages = Math.ceil(filteredQuestions.length / questionsPerPage);
     const paginatedQuestions = filteredQuestions.slice((page - 1) * questionsPerPage, page * questionsPerPage);
 
     return (
-        <div className="max-w-7xl mx-auto space-y-10 animate-in fade-in duration-700">
+        <div className="max-w-7xl mx-auto space-y-10">
             {/* Search Base */}
             <div className="bg-surface border border-white/5 p-8 md:p-12 rounded-[3rem] shadow-2xl relative overflow-hidden">
                 <div className="absolute top-0 right-0 p-12 opacity-[0.02] pointer-events-none">

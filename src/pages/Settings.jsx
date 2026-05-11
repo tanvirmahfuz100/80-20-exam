@@ -7,14 +7,15 @@ import {
 } from 'lucide-react';
 
 const Settings = () => {
-    const { user, profile, loading: authLoading } = useAuth();
+    const { user, profile, loading: authLoading, updateProfileFields } = useAuth();
     const [loading, setLoading] = useState(false);
     const [message, setMessage] = useState({ type: '', text: '' });
 
     const [formData, setFormData] = useState({
         username: '',
         phone_number: '',
-        target_exams: []
+        target_exams: [],
+        question_version: 'bangla'
     });
 
     const examOptions = [
@@ -26,7 +27,8 @@ const Settings = () => {
             setFormData({
                 username: profile.username || user?.user_metadata?.username || '',
                 phone_number: profile.phone_number || '',
-                target_exams: profile.target_exams || []
+                target_exams: profile.target_exams || [],
+                question_version: profile.question_version || 'bangla'
             });
         }
     }, [profile, user]);
@@ -49,8 +51,13 @@ const Settings = () => {
                 username: formData.username,
                 phone_number: formData.phone_number,
                 target_exams: formData.target_exams,
+                question_version: formData.question_version,
                 updated_at: new Date().toISOString()
             });
+
+            if (!error) {
+                updateProfileFields({ question_version: formData.question_version });
+            }
 
             if (error) throw error;
             setMessage({ type: 'success', text: 'Profile updated successfully!' });
@@ -65,7 +72,7 @@ const Settings = () => {
     if (authLoading) return null;
 
     return (
-        <div className="max-w-4xl mx-auto space-y-12 animate-in fade-in duration-500">
+        <div className="max-w-4xl mx-auto space-y-12">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
                 <div>
                     <h1 className="text-4xl font-black text-white italic tracking-tighter uppercase mb-2">Profile Studio</h1>
@@ -171,6 +178,25 @@ const Settings = () => {
                                     {formData.target_exams.includes(exam) && <CheckCircle2 className="w-4 h-4" />}
                                 </button>
                             ))}
+                        </div>
+
+                        <div className="space-y-4">
+                            <h4 className="text-sm font-black text-white uppercase tracking-tight">Question Language</h4>
+                            <div className="grid grid-cols-2 gap-3">
+                                {['bangla', 'english'].map((version) => (
+                                    <button
+                                        key={version}
+                                        type="button"
+                                        onClick={() => setFormData({ ...formData, question_version: version })}
+                                        className={`px-4 py-4 rounded-2xl border text-left uppercase text-[10px] font-black transition-all ${formData.question_version === version
+                                            ? 'bg-primary text-white border-primary shadow-lg shadow-primary/20'
+                                            : 'bg-background border-white/5 text-white/50 hover:border-white/20 hover:text-white'
+                                        }`}
+                                    >
+                                        {version === 'bangla' ? 'Bangla' : 'English'}
+                                    </button>
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </div>
