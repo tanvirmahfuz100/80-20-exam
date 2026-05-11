@@ -1,0 +1,2913 @@
+{
+  "testId": "ssc_gap_filling",
+  "title": "Gap Filling With Clues - SSC English",
+  "description": "প্রতিটি প্রশ্নে একটি প্যাসেজ ও একটি শব্দবক্স দেওয়া আছে। সঠিক শব্দের রূপ ব্যবহার করে শূন্যস্থান পূরণ করুন। প্রতিটি অপশনের জন্য বাংলায় ব্যাখ্যা দেওয়া আছে।",
+  "questions": [
+    {
+      "id": 1,
+      "passage": "The Kaptai Lake is located in the hilly district of Rangamati. This is the (a) _____ lake in Bangladesh. The (b) _____ beauty of this lake is well-known to all. This huge lake stretches for miles touching different parts (c) _____ Rangamati district. There are rows of high mountains all around. Between the hills flows the lake water in a zigzag (d) _____. The bottoms of the (e) _____ are submerged in water. When we look at them from a distance, it seems that (f) _____ hills are floating on water. Being attracted (g) _____ its captivating natural beauty, every year a great number of nature lovers (h) _____ it. There is an arrangement for boat journey as well. A number (i) _____ colourful boats are ready to welcome the tourists. A (j) _____ breeze is always blowing. It cools the tourists and soothes their minds.",
+      "boxWords": ["gentle", "big", "by", "the", "way", "of", "visit", "hills", "nature"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "biggest",
+          "options": [
+            { "text": "biggest", "isCorrect": true, "explanationBn": "সুপারলেটিভ ডিগ্রি 'the' দিয়ে নির্দেশ করে যে এটি সবচেয়ে বড়। 'big' থেকে '-est' যোগে superlative হয়েছে।" },
+            { "text": "big", "isCorrect": false, "explanationBn": "'big' শুধু বড় বোঝায়, কিন্তু এখানে 'সবচেয়ে বড়' বুঝাতে superlative 'biggest' প্রয়োজন।" },
+            { "text": "bigger", "isCorrect": false, "explanationBn": "'bigger' তুলনামূলক অর্থ দেয় (দুটির মধ্যে বড়)। এখানে একক লেকের কথা, তাই 'biggest' সঠিক।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "natural",
+          "options": [
+            { "text": "natural", "isCorrect": true, "explanationBn": "'nature' (বিশেষ্য) থেকে 'natural' (বিশেষণ) হয়েছে, যা 'beauty' নাম্বার গুণ বোঝায়।" },
+            { "text": "nature", "isCorrect": false, "explanationBn": "'nature' বিশেষ্য, কিন্তু এখানে বিশেষণ হিসেবে 'beauty' কে modify করতে হবে। তাই 'natural' লাগবে।" },
+            { "text": "naturally", "isCorrect": false, "explanationBn": "'naturally' ক্রিয়া বিশেষণ, adjective 'beauty' কে modify করতে পারে না।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "of",
+          "options": [
+            { "text": "of", "isCorrect": true, "explanationBn": "'different parts of Rangamati' — 'of' দিয়ে সম্পর্ক প্রকাশ করে, অর্থ 'রাঙ্গামাটির বিভিন্ন অংশ'।" },
+            { "text": "by", "isCorrect": false, "explanationBn": "'by' দিয়ে সাধারণত পদ্ধতি বা কর্তা বোঝায়, এখানে মানায় না।" },
+            { "text": "from", "isCorrect": false, "explanationBn": "'from' দিয়ে উৎস বা দূরত্ব বোঝায়, এখানে অধিকার বাচক 'of' প্রয়োজন।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "way",
+          "options": [
+            { "text": "way", "isCorrect": true, "explanationBn": "'in a zigzag way' অর্থ বাঁকা পথে। 'way' মানে পথ বা ধারা।" },
+            { "text": "hill", "isCorrect": false, "explanationBn": "'hill' পাহাড়, এখানে পানির প্রবাহ পথ বোঝাতে 'way' সঠিক।" },
+            { "text": "nature", "isCorrect": false, "explanationBn": "'nature' প্রকৃতি, বাঁকা পথের সাথে সম্পর্কহীন।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "hills",
+          "options": [
+            { "text": "hills", "isCorrect": true, "explanationBn": "এখানে 'the bottoms of the hills' — পাহাড়ের তলদেশ। 'hills' বহুবচন, কারণ অনেক পাহাড়।" },
+            { "text": "hill", "isCorrect": false, "explanationBn": "'hill' একবচন, কিন্তু এখানে অনেক পাহাড় বোঝাচ্ছে, তাই বহুবচন 'hills' লাগবে।" },
+            { "text": "mountain", "isCorrect": false, "explanationBn": "প্যাসেজে 'high mountains' আছে, তবে বক্সে 'hills' ছিল। প্রদত্ত শব্দ থেকেই উত্তর দিতে হবে।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "নির্দিষ্ট পাহাড়গুলোকে বোঝাতে Definite article 'the' বসে। পূর্বে উল্লেখিত hills-কে নির্দেশ করছে।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "'a' অনির্দিষ্ট, কিন্তু এখানে নির্দিষ্ট পাহাড়ের কথা বলছে, তাই 'the' হবে।" },
+            { "text": "those", "isCorrect": false, "explanationBn": "'those' নির্দেশক সর্বনাম, কিন্তু এখানে article 'the' বসানো Grammar সম্মত।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "by",
+          "options": [
+            { "text": "by", "isCorrect": true, "explanationBn": "'attracted by' — 'দ্বারা আকৃষ্ট'। Passive অর্থে 'by' ব্যবহার হয়।" },
+            { "text": "to", "isCorrect": false, "explanationBn": "'attracted to' সাধারণত ব্যক্তির প্রতি আকর্ষণ বুঝায়, এখানে প্রকৃতির সৌন্দর্য, তাই 'by' ভালো।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'attracted with' ভুল প্রয়োগ। সঠিক preposition 'by'।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "visit",
+          "options": [
+            { "text": "visit", "isCorrect": true, "explanationBn": "প্রতি বছর প্রকৃতিপ্রেমীরা 'ভিজিট' করে — ক্রিয়া হিসেবে 'visit' বসেছে।" },
+            { "text": "visiting", "isCorrect": false, "explanationBn": "'visiting' gerund বা participle, কিন্তু এখানে main verb হিসেবে simple present 'visit' লাগবে।" },
+            { "text": "visits", "isCorrect": false, "explanationBn": "subject 'a great number of nature lovers' বহুবচন, তাই 'visit' হবে, 'visits' নয়।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "of",
+          "options": [
+            { "text": "of", "isCorrect": true, "explanationBn": "'A number of colourful boats' — 'of' দিয়ে সম্পর্ক স্থাপন করে, অর্থ 'রঙিন নৌকার একটি সংখ্যা'।" },
+            { "text": "for", "isCorrect": false, "explanationBn": "'for' উদ্দেশ্য বোঝায়, এখানে অধিকার বা সম্পর্ক বোঝাতে 'of' প্রয়োজন।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'with' সহযোগিতা বা সঙ্গে বোঝায়, এখানে সঠিক নয়।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "gentle",
+          "options": [
+            { "text": "gentle", "isCorrect": true, "explanationBn": "'gentle breeze' — মৃদু বাতাস। এখানে adjective 'gentle' 'breeze' কে বিশেষিত করছে।" },
+            { "text": "gently", "isCorrect": false, "explanationBn": "'gently' ক্রিয়া বিশেষণ, কিন্তু এখানে বিশেষণ হিসেবে noun এর পূর্বে বসবে।" },
+            { "text": "gentleness", "isCorrect": false, "explanationBn": "'gentleness' বিশেষ্য (কোমলতা), adjective নয়।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "passage": "Self purification means to keep the soul free (a) _____ all kinds of sins as well as from (b) _____ deeds. This divine quality is (c) _____ must in our every day life. Only physical priority is not (d) _____; mental purity should be (e) _____ more priority. Self purification inspires one to do good (f) _____. On the (g) _____, a bad man indulges in various sinful thoughts and deeds. He does not hesitate to do (h) _____ or any wrong doing. As a (i) _____, social peace and order are disturbed. So the usefulness of self purification is undeniable for (j) _____ peace and harmony in the society.",
+      "boxWords": ["give", "a", "evil", "contrary", "from", "enough", "justice", "ensure", "deeds", "result"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "from",
+          "options": [
+            { "text": "from", "isCorrect": true, "explanationBn": "'free from' একটি সঠিক phrase, যার মানে 'মুক্ত'। এখানে পাপ থেকে মুক্ত বোঝাতে 'from' বসে।" },
+            { "text": "of", "isCorrect": false, "explanationBn": "'free of' দিয়ে গুণ বা বৈশিষ্ট্য বোঝায়, কিন্তু 'free from' বেশি প্রচলিত এবং এখানে মানায়।" },
+            { "text": "by", "isCorrect": false, "explanationBn": "'free by' ভুল preposition। সঠিক preposition 'from'।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "evil",
+          "options": [
+            { "text": "evil", "isCorrect": true, "explanationBn": "'evil deeds' মানে মন্দ কাজ। 'evil' এখানে adjective হিসেবে 'deeds' কে বিশেষিত করছে।" },
+            { "text": "bad", "isCorrect": false, "explanationBn": "বক্সে 'bad' নেই, তবে প্রদত্ত শব্দ 'evil' সঠিক। 'bad' অর্থেও চলত, কিন্তু উত্তর 'evil'।" },
+            { "text": "good", "isCorrect": false, "explanationBn": "প্রসঙ্গ মন্দ কাজের, তাই 'good' বিপরীতার্থক।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "a",
+          "options": [
+            { "text": "a", "isCorrect": true, "explanationBn": "'a must' — একটি আবশ্যকীয় জিনিস। Indefinite article 'a' ব্যবহার হয়েছে কারণ 'must' এখানে singular countable noun হিসেবে ব্যবহৃত।" },
+            { "text": "an", "isCorrect": false, "explanationBn": "'must' consonant sound দিয়ে শুরু, তাই 'a' হবে, 'an' নয়।" },
+            { "text": "the", "isCorrect": false, "explanationBn": "'the' নির্দিষ্টতা বোঝায়, কিন্তু এখানে অনির্দিষ্ট অর্থে 'a' সঠিক।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "enough",
+          "options": [
+            { "text": "enough", "isCorrect": true, "explanationBn": "'not enough' অর্থ যথেষ্ট নয়। 'is not enough' ক্রিয়ার পর adjective হিসেবে বসে।" },
+            { "text": "sufficient", "isCorrect": false, "explanationBn": "বক্সে 'sufficient' নেই, শুধু 'enough' আছে। প্রদত্ত শব্দ থেকেই উত্তর দিতে হবে।" },
+            { "text": "given", "isCorrect": false, "explanationBn": "'not given' অর্থ দেওয়া হয়নি, এখানে অর্থ সঙ্গত নয়।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "given",
+          "options": [
+            { "text": "given", "isCorrect": true, "explanationBn": "'should be given more priority' — অধিক অগ্রাধিকার দেওয়া উচিত। Passive voice এ past participle 'given'।" },
+            { "text": "give", "isCorrect": false, "explanationBn": "'give' base form, passive-এ 'be + given' লাগে।" },
+            { "text": "gave", "isCorrect": false, "explanationBn": "'gave' past tense, কিন্তু এখানে passive-এ participle প্রয়োজন।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "deeds",
+          "options": [
+            { "text": "deeds", "isCorrect": true, "explanationBn": "'do good deeds' — ভালো কাজ করা। 'deeds' মানে কাজ বা কর্ম।" },
+            { "text": "acts", "isCorrect": false, "explanationBn": "বক্সে 'acts' না থাকায় 'deeds' সঠিক। অর্থ একই রকম।" },
+            { "text": "work", "isCorrect": false, "explanationBn": "'work' সাধারণ কাজ, কিন্তু এখানে 'deeds' বেশি মানানসই।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "contrary",
+          "options": [
+            { "text": "contrary", "isCorrect": true, "explanationBn": "'on the contrary' একটি phrase যার অর্থ 'বিপরীতে'। এটি দুই বিপরীত বক্তব্যের মধ্যে সংযোগ স্থাপন করে।" },
+            { "text": "other", "isCorrect": false, "explanationBn": "'on the other' দিয়ে 'on the other hand' হয়, কিন্তু এখানে 'contrary' নির্দিষ্ট আছে।" },
+            { "text": "opposite", "isCorrect": false, "explanationBn": "'opposite' শব্দটি phrase-এ বসে না। 'on the contrary' ই সঠিক।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "injustice",
+          "options": [
+            { "text": "injustice", "isCorrect": true, "explanationBn": "'do injustice' — অন্যায় করা। 'injustice' হল 'justice' এর বিপরীত।" },
+            { "text": "justice", "isCorrect": false, "explanationBn": "'justice' অর্থ ন্যায়, কিন্তু এখানে খারাপ কাজ বোঝাতে 'injustice' সঠিক।" },
+            { "text": "unjustice", "isCorrect": false, "explanationBn": "'unjustice' শব্দটি প্রচলিত নয়; সঠিক শব্দ 'injustice'।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "result",
+          "options": [
+            { "text": "result", "isCorrect": true, "explanationBn": "'as a result' — ফলস্বরূপ। এটি কারণ ও ফলাফল সংযোগ করে।" },
+            { "text": "effect", "isCorrect": false, "explanationBn": "বক্সে 'effect' নেই, তাই 'result' ব্যবহার হয়েছে। অর্থ একই রকম।" },
+            { "text": "consequence", "isCorrect": false, "explanationBn": "একই অর্থ হলেও প্রদত্ত শব্দ 'result' সঠিক।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "ensuring",
+          "options": [
+            { "text": "ensuring", "isCorrect": true, "explanationBn": "'for ensuring peace' — শান্তি নিশ্চিত করার জন্য। Gerund 'ensuring' preposition 'for' এর পরে বসে।" },
+            { "text": "ensure", "isCorrect": false, "explanationBn": "Preposition এর পরে verb-এর base form না বসে gerund বসে। তাই 'ensuring' হবে।" },
+            { "text": "ensured", "isCorrect": false, "explanationBn": "'ensured' past participle, কিন্তু এখানে উদ্দেশ্য বোঝাতে 'ensuring' সঠিক।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "passage": "Language is the means (a) _____ which we share our thoughts and ideas (b) _____ others. It is our primary (c) _____ of communication. There are thousands of (d) _____ in the world but it is (e) _____ for a person to learn (f) _____ all. English is (g) _____ language of international communication. It is the most (h) _____ used language in the world. It also plays an essential role (i) _____ our lives. So, the importance (j) _____ learning English cannot be ignored.",
+      "boxWords": ["common", "the", "possible", "of", "by", "language", "in", "medium", "with", "them"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "by",
+          "options": [
+            { "text": "by", "isCorrect": true, "explanationBn": "'by which' — যার মাধ্যমে। 'means' এর সাথে 'by' preposition ব্যবহার হয়।" },
+            { "text": "of", "isCorrect": false, "explanationBn": "'means of' মানে উপায়, কিন্তু এখানে 'by which' সঠিক।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'with which' দিয়ে মাধ্যম বোঝায় না। 'by which' ই সঠিক।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "with",
+          "options": [
+            { "text": "with", "isCorrect": true, "explanationBn": "'share with others' — অন্যদের সাথে ভাগ করা। 'with' দিয়ে সঙ্গতি বোঝায়।" },
+            { "text": "to", "isCorrect": false, "explanationBn": "'share to' ভুল; সঠিক preposition 'with'।" },
+            { "text": "among", "isCorrect": false, "explanationBn": "একাধিক ব্যক্তির মধ্যে ভাগ করা বোঝালে 'among' আসতে পারে, কিন্তু এখানে 'with others' সাধারণ।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "medium",
+          "options": [
+            { "text": "medium", "isCorrect": true, "explanationBn": "'primary medium of communication' — যোগাযোগের প্রাথমিক মাধ্যম। 'medium' মানে মাধ্যম।" },
+            { "text": "language", "isCorrect": false, "explanationBn": "'language of communication' মানে যোগাযোগের ভাষা, কিন্তু এখানে 'medium' বেশি উপযুক্ত।" },
+            { "text": "way", "isCorrect": false, "explanationBn": "বক্সে 'way' নেই, 'medium' প্রদত্ত শব্দ।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "languages",
+          "options": [
+            { "text": "languages", "isCorrect": true, "explanationBn": "বিশ্বে হাজারো 'ভাষা' আছে। 'languages' plural form এখানে মানায়।" },
+            { "text": "language", "isCorrect": false, "explanationBn": "একবচন 'language' জেনেরিক বুঝায়, কিন্তু এখানে অসংখ্য ভাষা বোঝাতে plural দরকার।" },
+            { "text": "mediums", "isCorrect": false, "explanationBn": "এখানে ভাষার কথা বলছে, মাধ্যমের কথা নয়।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "impossible",
+          "options": [
+            { "text": "impossible", "isCorrect": true, "explanationBn": "'it is impossible' — এটা অসম্ভব। 'not possible' এর মত অর্থ। বক্সে 'possible' থাকলেও form change করে 'impossible' করতে হবে।" },
+            { "text": "possible", "isCorrect": false, "explanationBn": "'possible' মানে সম্ভব, কিন্তু বক্তব্য হচ্ছে সব ভাষা শেখা অসম্ভব, তাই negative needed।" },
+            { "text": "not possible", "isCorrect": false, "explanationBn": "'not possible' দুটি শব্দ, কিন্তু বক্সে 'possible' থেকে prefix 'im-' যোগ করাই সঠিক।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "them",
+          "options": [
+            { "text": "them", "isCorrect": true, "explanationBn": "'learn them all' — সেগুলো সব শেখা। 'them' pronoun দিয়ে পূর্বের 'languages' বোঝায়।" },
+            { "text": "these", "isCorrect": false, "explanationBn": "'these' নির্দেশক, কিন্তু 'them' object হিসেবে ভালো।" },
+            { "text": "those", "isCorrect": false, "explanationBn": "'those' দূরবর্তী নির্দেশক, এখানে 'them' যথেষ্ট।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'the language of international communication' — নির্দিষ্ট ভাষা হিসেবে 'the' ব্যবহার।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "'a language' অনির্দিষ্ট, কিন্তু ইংরেজি আন্তর্জাতিক যোগাযোগের নির্দিষ্ট ভাষা, তাই 'the' সঠিক।" },
+            { "text": "an", "isCorrect": false, "explanationBn": "একই কারণ, 'an' অনির্দিষ্ট।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "commonly",
+          "options": [
+            { "text": "commonly", "isCorrect": true, "explanationBn": "'most commonly used' — সবচেয়ে সাধারণভাবে ব্যবহৃত। 'commonly' adverb 'used' কে modify করছে।" },
+            { "text": "common", "isCorrect": false, "explanationBn": "'common' adjective, কিন্তু এখানে adverb 'commonly' লাগবে।" },
+            { "text": "commonness", "isCorrect": false, "explanationBn": "এটি noun, adverb নয়।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "in",
+          "options": [
+            { "text": "in", "isCorrect": true, "explanationBn": "'role in our lives' — আমাদের জীবনে ভূমিকা। 'in' preposition স্থান/ক্ষেত্র বোঝায়।" },
+            { "text": "on", "isCorrect": false, "explanationBn": "'role on' ভুল; 'role in' সঠিক।" },
+            { "text": "of", "isCorrect": false, "explanationBn": "'role of' মানে ভূমিকা (যার), কিন্তু এখানে 'in our lives' মানে আমাদের জীবনে।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "of",
+          "options": [
+            { "text": "of", "isCorrect": true, "explanationBn": "'importance of learning English' — ইংরেজি শেখার গুরুত্ব। 'of' দিয়ে সম্পর্ক প্রকাশ।" },
+            { "text": "for", "isCorrect": false, "explanationBn": "'importance for' চলতে পারে, কিন্তু 'of' বেশি প্রচলিত।" },
+            { "text": "in", "isCorrect": false, "explanationBn": "'importance in' ঠিক নয়।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "passage": "Adolescence or puberty is a period after childhood. During this period physical and mental (a) _____ of boys and girls is so (b) _____ that they need proper amount of (c) _____ food. But many boys and girls are not (d) _____ of this fact. So often they suffer from (e) _____ which hampers their (f) _____ growth. Even some parents do not have the (g) _____ to provide their children with the (h) _____ they need. Sometimes it happens (i) _____ to the parents' reluctance, unawareness or (j) _____.",
+      "boxWords": ["nutrition", "normal", "illiterate", "grow", "ability", "malnutrition", "due", "rapid", "aware", "nutrition"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "growth",
+          "options": [
+            { "text": "growth", "isCorrect": true, "explanationBn": "'physical and mental growth' — শারীরিক ও মানসিক বৃদ্ধি। 'grow' থেকে noun 'growth'।" },
+            { "text": "grow", "isCorrect": false, "explanationBn": "'grow' verb, কিন্তু এখানে noun দরকার।" },
+            { "text": "growing", "isCorrect": false, "explanationBn": "gerund হতে পারে, কিন্তু 'growth' বেশি মানানসই।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "rapid",
+          "options": [
+            { "text": "rapid", "isCorrect": true, "explanationBn": "'so rapid' — এত দ্রুত। 'rapid' adjective 'growth' কে modify করছে।" },
+            { "text": "quick", "isCorrect": false, "explanationBn": "বক্সে 'quick' নেই, 'rapid' প্রদত্ত।" },
+            { "text": "fast", "isCorrect": false, "explanationBn": "একই অর্থ হলেও 'rapid' ব্যবহার করাই ভালো।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "nutritious",
+          "options": [
+            { "text": "nutritious", "isCorrect": true, "explanationBn": "'nutritious food' — পুষ্টিকর খাবার। 'nutrition' থেকে adjective 'nutritious'।" },
+            { "text": "nutrition", "isCorrect": false, "explanationBn": "'nutrition' noun, কিন্তু এখানে adjective লাগবে।" },
+            { "text": "nutrient", "isCorrect": false, "explanationBn": "'nutrient' পুষ্টি উপাদান, adjective নয়।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "aware",
+          "options": [
+            { "text": "aware", "isCorrect": true, "explanationBn": "'not aware of' — সচেতন নয়। 'aware' adjective।" },
+            { "text": "conscious", "isCorrect": false, "explanationBn": "বক্সে 'conscious' নেই, 'aware' সঠিক।" },
+            { "text": "unaware", "isCorrect": false, "explanationBn": "'unaware' মানে অসচেতন, কিন্তু এখানে 'not aware' ('aware' এর সাথে not) ব্যবহার হয়েছে। বক্সে 'aware' আছে।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "malnutrition",
+          "options": [
+            { "text": "malnutrition", "isCorrect": true, "explanationBn": "'suffer from malnutrition' — অপুষ্টিতে ভোগে। 'malnutrition' মানে অপুষ্টি।" },
+            { "text": "nutrition", "isCorrect": false, "explanationBn": "'nutrition' পুষ্টি, কিন্তু এখানে অপুষ্টি বোঝাতে 'malnutrition' লাগবে।" },
+            { "text": "undernutrition", "isCorrect": false, "explanationBn": "একই অর্থ হলেও প্রদত্ত শব্দ 'malnutrition'।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "normal",
+          "options": [
+            { "text": "normal", "isCorrect": true, "explanationBn": "'normal growth' — স্বাভাবিক বৃদ্ধি। 'normal' adjective।" },
+            { "text": "abnormal", "isCorrect": false, "explanationBn": "'abnormal' অস্বাভাবিক, কিন্তু বক্তব্য স্বাভাবিক বৃদ্ধি বাধাগ্রস্ত হয়, তাই 'normal' সঠিক।" },
+            { "text": "natural", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'normal' আছে, 'natural' নেই।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "ability",
+          "options": [
+            { "text": "ability", "isCorrect": true, "explanationBn": "'do not have the ability' — ক্ষমতা নেই। 'ability' noun।" },
+            { "text": "capacity", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'ability'।" },
+            { "text": "capability", "isCorrect": false, "explanationBn": "একই অর্থ, তবে 'ability' উত্তর।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "nutrition",
+          "options": [
+            { "text": "nutrition", "isCorrect": true, "explanationBn": "'provide with the nutrition' — পুষ্টি প্রদান। 'nutrition' uncountable noun।" },
+            { "text": "food", "isCorrect": false, "explanationBn": "বক্সে 'food' নেই, 'nutrition' সঠিক।" },
+            { "text": "nutrients", "isCorrect": false, "explanationBn": "বহুবচন 'nutrients' হতে পারে, কিন্তু এখানে uncountable 'nutrition' ভালো।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "due",
+          "options": [
+            { "text": "due", "isCorrect": true, "explanationBn": "'due to' — কারণে। 'due' preposition হিসেবে ব্যবহৃত।" },
+            { "text": "owing", "isCorrect": false, "explanationBn": "'owing to' একই অর্থ, কিন্তু বক্সে 'due' আছে।" },
+            { "text": "because", "isCorrect": false, "explanationBn": "'because of' phrase, কিন্তু এখানে 'due to' লেখা আছে।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "illiteracy",
+          "options": [
+            { "text": "illiteracy", "isCorrect": true, "explanationBn": "'unawareness or illiteracy' — অজ্ঞানতা বা নিরক্ষরতা। 'illiteracy' noun।" },
+            { "text": "illiterate", "isCorrect": false, "explanationBn": "'illiterate' adjective, এখানে noun দরকার।" },
+            { "text": "literacy", "isCorrect": false, "explanationBn": "'literacy' শিক্ষা, বিপরীত অর্থ।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "passage": "Education removes our ignorance and gives us the (a) _____ of knowledge. In respect (b) _____ imparting education, there should be (c) _____ discrimination (d) _____ man and woman. Education is one of the (e) _____ human rights. If we deprive woman of the (f) _____ of education, (g) _____ half of our population (h) _____ remain in darkness. No development can be brought (i) _____ without the participation of woman. So, the government is doing everything to (j) _____ the womenfolk.",
+      "boxWords": ["about", "between", "of", "basic", "no", "educate", "almost", "right", "will", "light"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "light",
+          "options": [
+            { "text": "light", "isCorrect": true, "explanationBn": "'light of knowledge' — জ্ঞানের আলো। 'light' রূপক অর্থে ব্যবহৃত।" },
+            { "text": "enlightenment", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'light'।" },
+            { "text": "brightness", "isCorrect": false, "explanationBn": "'brightness' উজ্জ্বলতা, কিন্তু এখানে 'light' প্রচলিত।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "of",
+          "options": [
+            { "text": "of", "isCorrect": true, "explanationBn": "'in respect of' — সম্বন্ধে। 'of' preposition।" },
+            { "text": "to", "isCorrect": false, "explanationBn": "'in respect to' ভুল; 'in respect of' সঠিক।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'in respect with' হয় না।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "no",
+          "options": [
+            { "text": "no", "isCorrect": true, "explanationBn": "'there should be no discrimination' — কোনো বৈষম্য থাকা উচিত না। 'no' negative determiner।" },
+            { "text": "not", "isCorrect": false, "explanationBn": "'not' adverb, কিন্তু এখানে determiner 'no' লাগবে।" },
+            { "text": "any", "isCorrect": false, "explanationBn": "'any' প্রশ্ন বা negative-এ ব্যবহৃত হয়, কিন্তু 'no' সরাসরি negative দেয়।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "between",
+          "options": [
+            { "text": "between", "isCorrect": true, "explanationBn": "'between man and woman' — পুরুষ ও নারীর মধ্যে (দুইয়ের মধ্যে)।" },
+            { "text": "among", "isCorrect": false, "explanationBn": "'among' দুইয়ের বেশি বোঝায়, এখানে দুটি বিষয়, তাই 'between'।" },
+            { "text": "of", "isCorrect": false, "explanationBn": "'discrimination of' ভুল প্রয়োগ।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "basic",
+          "options": [
+            { "text": "basic", "isCorrect": true, "explanationBn": "'basic human rights' — মৌলিক মানবাধিকার। 'basic' adjective।" },
+            { "text": "fundamental", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'basic'।" },
+            { "text": "essential", "isCorrect": false, "explanationBn": "একই অর্থ।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "right",
+          "options": [
+            { "text": "right", "isCorrect": true, "explanationBn": "'right of education' — শিক্ষার অধিকার। 'right' noun।" },
+            { "text": "opportunity", "isCorrect": false, "explanationBn": "বক্সে 'right' আছে।" },
+            { "text": "facility", "isCorrect": false, "explanationBn": "একই অর্থ নয়।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "almost",
+          "options": [
+            { "text": "almost", "isCorrect": true, "explanationBn": "'almost half' — প্রায় অর্ধেক। 'almost' adverb।" },
+            { "text": "nearly", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'almost'।" },
+            { "text": "about", "isCorrect": false, "explanationBn": "'about' প্রায়, কিন্তু এখানে 'almost' বেশি ব্যবহৃত।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "will",
+          "options": [
+            { "text": "will", "isCorrect": true, "explanationBn": "'will remain' — ভবিষ্যতে থাকবে। Future tense-এ 'will' ব্যবহৃত।" },
+            { "text": "shall", "isCorrect": false, "explanationBn": "'shall' সাধারণত প্রথম পুরুষে, এখানে 'half of our population' third person, তাই 'will'।" },
+            { "text": "may", "isCorrect": false, "explanationBn": "'may' অনুমতি বা সম্ভাবনা, কিন্তু এখানে নিশ্চিত ভবিষ্যৎ।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "about",
+          "options": [
+            { "text": "about", "isCorrect": true, "explanationBn": "'brought about' — সম্পন্ন করা, ঘটানো। Phrasal verb 'bring about'।" },
+            { "text": "in", "isCorrect": false, "explanationBn": "'bring in' আনয়ন করা, এখানে মানায় না।" },
+            { "text": "out", "isCorrect": false, "explanationBn": "'bring out' প্রকাশ করা।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "educate",
+          "options": [
+            { "text": "educate", "isCorrect": true, "explanationBn": "'to educate the womenfolk' — নারীদের শিক্ষিত করা। 'educate' verb।" },
+            { "text": "teach", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'educate'।" },
+            { "text": "train", "isCorrect": false, "explanationBn": "প্রশিক্ষণ দেওয়া, কিন্তু এখানে শিক্ষা দেওয়া বোঝায়।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "passage": "Leisure is the moment when a person is free (a) _____ his work as well as his worries and tensions. It is (b) _____ free time when we can enjoy ourselves (c) _____ doing something. So leisure is pleasure but it is not wasting time in (d) _____. In fact, leisure and labour are (e) _____. In leisure we have freedom (f) _____ doing what gives us pleasure and refreshes our mind. Our life is full (g) _____ duties. Inspite of being very busy in the present age, we cannot deny the need of (h) _____ in life. A little leisure refreshes our mind and we can start working again (i) _____ renewed energy. Leisure makes us fit (j) _____ doing more difficult work.",
+      "boxWords": ["with", "for", "compliment", "of", "from", "in", "the", "leisure", "idle", "complementary"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "from",
+          "options": [
+            { "text": "from", "isCorrect": true, "explanationBn": "'free from work' — কাজ থেকে মুক্ত। 'free from' phrase।" },
+            { "text": "of", "isCorrect": false, "explanationBn": "'free of' মানে不含, কিন্তু এখানে 'free from' ভালো।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'free with' মানে স্বাচ্ছন্দ্য, এখানে মানায় না।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'the free time' — নির্দিষ্ট অবসর সময়। ইতিমধ্যে উল্লেখিত leisure কে নির্দেশ করছে।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "অনির্দিষ্ট 'a' বসাতে পারে, কিন্তু এখানে নির্দিষ্ট বোঝাতে 'the' সঠিক।" },
+            { "text": "this", "isCorrect": false, "explanationBn": "'this' নির্দেশক, কিন্তু article 'the' ই যথেষ্ট।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "in",
+          "options": [
+            { "text": "in", "isCorrect": true, "explanationBn": "'enjoy ourselves in doing something' — কিছু করার মাধ্যমে উপভোগ করা। 'in' preposition।" },
+            { "text": "by", "isCorrect": false, "explanationBn": "'by doing' মাধ্যম বোঝায়, কিন্তু এখানে 'in' মানানসই।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'with doing' ভুল।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "idleness",
+          "options": [
+            { "text": "idleness", "isCorrect": true, "explanationBn": "'wasting time in idleness' — অলসতায় সময় নষ্ট। 'idle' থেকে 'idleness' noun।" },
+            { "text": "idle", "isCorrect": false, "explanationBn": "'idle' adjective, কিন্তু এখানে noun দরকার।" },
+            { "text": "laziness", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'idle' থেকে 'idleness'।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "complementary",
+          "options": [
+            { "text": "complementary", "isCorrect": true, "explanationBn": "'leisure and labour are complementary' — পরস্পর পূরক। 'complementary' মানে যা একে অপরকে সম্পূর্ণ করে।" },
+            { "text": "complimentary", "isCorrect": false, "explanationBn": "'complimentary' মানে প্রশংসাসূচক বা বিনামূল্যে, অর্থ ভিন্ন।" },
+            { "text": "opposite", "isCorrect": false, "explanationBn": "বিপরীত নয়, বরং পূরক।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "of",
+          "options": [
+            { "text": "of", "isCorrect": true, "explanationBn": "'freedom of doing' — করার স্বাধীনতা। 'freedom of' phrase।" },
+            { "text": "to", "isCorrect": false, "explanationBn": "'freedom to do' ও চলে, তবে এখানে 'of doing' ব্যবহার হয়েছে।" },
+            { "text": "for", "isCorrect": false, "explanationBn": "'freedom for' ভুল।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "of",
+          "options": [
+            { "text": "of", "isCorrect": true, "explanationBn": "'full of duties' — কর্তব্যে পূর্ণ। 'full of' phrase।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'full with' প্রচলিত নয়।" },
+            { "text": "off", "isCorrect": false, "explanationBn": "অর্থ বিপরীত।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "leisure",
+          "options": [
+            { "text": "leisure", "isCorrect": true, "explanationBn": "'need of leisure' — অবসরের প্রয়োজন। 'leisure' noun।" },
+            { "text": "rest", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'leisure'।" },
+            { "text": "break", "isCorrect": false, "explanationBn": "একই অর্থ নয়।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "with",
+          "options": [
+            { "text": "with", "isCorrect": true, "explanationBn": "'with renewed energy' — পুনরুজ্জীবিত শক্তি নিয়ে। 'with' মানে সহিত।" },
+            { "text": "by", "isCorrect": false, "explanationBn": "'by renewed energy' মাধ্যম বোঝায়, কিন্তু 'with' ভালো।" },
+            { "text": "from", "isCorrect": false, "explanationBn": "'from' উৎস বোঝায়।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "for",
+          "options": [
+            { "text": "for", "isCorrect": true, "explanationBn": "'fit for doing' — করার জন্য উপযুক্ত। 'fit for' phrase।" },
+            { "text": "to", "isCorrect": false, "explanationBn": "'fit to do' ও চলে, কিন্তু এখানে 'for' gerund-এর সাথে।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'fit with' মানায় না।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "passage": "Dengue fever is (a) _____ tropical virus-infected disease. It is (b) _____ in more than 110 countries. It is (c) _____ by dengue virus. The fever is spread by (d) _____ Aedes mosquitoes. When the mosquito (e) _____ a man, the virus enters the blood cell, grows rapidly and attacks many (f) _____ of the body. There is (g) _____ specific medicine to treat dengue infection. So, we must put emphasis (h) _____ preventive measures. For this we must keep our surroundings clean to stop (i) _____ of Aedes mosquitoes. Again we must not (j) _____ to accumulate water in any open space for more than two days.",
+      "boxWords": ["female", "organs", "on", "prevail", "allow", "no", "cause", "bites", "breed", "a"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "a",
+          "options": [
+            { "text": "a", "isCorrect": true, "explanationBn": "'a tropical disease' — একটি গ্রীষ্মমণ্ডলীয় রোগ। Indefinite article 'a'।" },
+            { "text": "an", "isCorrect": false, "explanationBn": "'tropical' consonant sound, তাই 'a' হবে।" },
+            { "text": "the", "isCorrect": false, "explanationBn": "'the' নির্দিষ্ট, কিন্তু এখানে সাধারণভাবে বলছে।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "prevailing",
+          "options": [
+            { "text": "prevailing", "isCorrect": true, "explanationBn": "'is prevailing' — প্রচলিত আছে। Present continuous form।" },
+            { "text": "prevalent", "isCorrect": false, "explanationBn": "Adjective 'prevalent' হতে পারে, কিন্তু verb form 'prevailing' সঠিক।" },
+            { "text": "prevailed", "isCorrect": false, "explanationBn": "Past tense 'prevailed' সময়ের সাথে খাপ খায় না।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "caused",
+          "options": [
+            { "text": "caused", "isCorrect": true, "explanationBn": "'is caused by' — দ্বারা ঘটিত। Passive voice-এ past participle 'caused'।" },
+            { "text": "cause", "isCorrect": false, "explanationBn": "Active form, কিন্তু passive দরকার।" },
+            { "text": "causing", "isCorrect": false, "explanationBn": "Present participle, passive নয়।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "female",
+          "options": [
+            { "text": "female", "isCorrect": true, "explanationBn": "'female Aedes mosquitoes' — স্ত্রী এডিস মশা। ডেঙ্গু শুধু স্ত্রী মশা ছড়ায়।" },
+            { "text": "male", "isCorrect": false, "explanationBn": "পুরুষ মশা ডেঙ্গু ছড়ায় না।" },
+            { "text": "infected", "isCorrect": false, "explanationBn": "সংক্রমিত, কিন্তু নির্দিষ্ট নয়।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "bites",
+          "options": [
+            { "text": "bites", "isCorrect": true, "explanationBn": "'When the mosquito bites' — মশা কামড়ালে। Simple present tense, third person singular।" },
+            { "text": "bite", "isCorrect": false, "explanationBn": "Subject singular 'mosquito' তাই 'bites' হবে।" },
+            { "text": "bit", "isCorrect": false, "explanationBn": "Past tense 'bit' ব্যবহার হতে পারে, কিন্তু সাধারণ বক্তব্যে present ব্যবহৃত।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "organs",
+          "options": [
+            { "text": "organs", "isCorrect": true, "explanationBn": "'many organs of the body' — দেহের অনেক অঙ্গ। 'organs' plural।" },
+            { "text": "organ", "isCorrect": false, "explanationBn": "একবচন 'organ' 'many' এর সাথে মানায় না।" },
+            { "text": "parts", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'organs'।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "no",
+          "options": [
+            { "text": "no", "isCorrect": true, "explanationBn": "'There is no specific medicine' — কোনো নির্দিষ্ট ওষুধ নেই। 'no' negative determiner।" },
+            { "text": "not any", "isCorrect": false, "explanationBn": "দুই শব্দ, 'no' এক শব্দে কাজ করে।" },
+            { "text": "none", "isCorrect": false, "explanationBn": "'none' pronoun, এখানে determiner লাগবে।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "on",
+          "options": [
+            { "text": "on", "isCorrect": true, "explanationBn": "'put emphasis on' — জোর দেওয়া। 'emphasis on' correct preposition।" },
+            { "text": "in", "isCorrect": false, "explanationBn": "'emphasis in' ভুল।" },
+            { "text": "to", "isCorrect": false, "explanationBn": "'emphasis to' হয় না।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "breeding",
+          "options": [
+            { "text": "breeding", "isCorrect": true, "explanationBn": "'stop breeding' — প্রজনন বন্ধ করা। 'breeding' noun/gerund।" },
+            { "text": "breed", "isCorrect": false, "explanationBn": "Verb 'breed' base form, কিন্তু এখানে noun দরকার।" },
+            { "text": "bred", "isCorrect": false, "explanationBn": "Past participle।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "allow",
+          "options": [
+            { "text": "allow", "isCorrect": true, "explanationBn": "'must not allow' — অনুমতি দেওয়া যাবে না। 'allow' verb।" },
+            { "text": "let", "isCorrect": false, "explanationBn": "'let' অনুমতি বোঝায়, কিন্তু 'allow' এখানে সঠিক।" },
+            { "text": "permit", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'allow'।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "passage": "Sports are very essential (a) _____ us. There are various types of sports. Among them cricket, football, swimming etc. are very (b) _____. All types of sports are (c) _____ to us. There is a relation (d) _____ the body and the mind. 'A sound mind lies in a sound body' is a wise (e) _____. In order to gain success in life, we should have sound health which depends (f) _____ regular (g) _____ in games and sports. Sports keep us (h) _____ fit. Sports play (i) _____ important role in forming one's (j) _____.",
+      "boxWords": ["personality", "between", "beneficial", "saying", "for", "participation", "an", "popular", "physically", "on"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "for",
+          "options": [
+            { "text": "for", "isCorrect": true, "explanationBn": "'essential for us' — আমাদের জন্য অপরিহার্য। 'essential for' correct preposition।" },
+            { "text": "to", "isCorrect": false, "explanationBn": "'essential to' ও চলে, কিন্তু 'for' বেশি প্রচলিত।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'essential with' ভুল।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "popular",
+          "options": [
+            { "text": "popular", "isCorrect": true, "explanationBn": "'are very popular' — খুবই জনপ্রিয়। 'popular' adjective।" },
+            { "text": "famous", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'popular'।" },
+            { "text": "common", "isCorrect": false, "explanationBn": "সাধারণ, জনপ্রিয় নয়।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "beneficial",
+          "options": [
+            { "text": "beneficial", "isCorrect": true, "explanationBn": "'beneficial to us' — আমাদের জন্য উপকারী। 'beneficial' adjective।" },
+            { "text": "helpful", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'beneficial'।" },
+            { "text": "useful", "isCorrect": false, "explanationBn": "একই অর্থ।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "between",
+          "options": [
+            { "text": "between", "isCorrect": true, "explanationBn": "'relation between body and mind' — দেহ ও মনে মধ্যে সম্পর্ক। দুইয়ের মধ্যে 'between'।" },
+            { "text": "among", "isCorrect": false, "explanationBn": "দুইয়ের বেশি বোঝায়।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'relation with' মানে সাথে সম্পর্ক, কিন্তু দুটি জিনিসের মধ্যে 'between' ভালো।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "saying",
+          "options": [
+            { "text": "saying", "isCorrect": true, "explanationBn": "'a wise saying' — একটি বুদ্ধিমানের উক্তি। 'saying' noun।" },
+            { "text": "proverb", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'saying'।" },
+            { "text": "quote", "isCorrect": false, "explanationBn": "উদ্ধৃতি, কিন্তু এখানে 'saying' সঠিক।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "on",
+          "options": [
+            { "text": "on", "isCorrect": true, "explanationBn": "'depends on' — নির্ভর করে। 'depend on' phrasal verb।" },
+            { "text": "upon", "isCorrect": false, "explanationBn": "'upon' ও চলে, কিন্তু 'on' ছোট।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'depend with' ভুল।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "participation",
+          "options": [
+            { "text": "participation", "isCorrect": true, "explanationBn": "'regular participation' — নিয়মিত অংশগ্রহণ। 'participation' noun।" },
+            { "text": "participating", "isCorrect": false, "explanationBn": "Gerund 'participating' হতে পারে, কিন্তু এখানে noun 'participation' ভালো।" },
+            { "text": "participate", "isCorrect": false, "explanationBn": "Verb, কিন্তু preposition 'in' এর পরে noun বসে।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "physically",
+          "options": [
+            { "text": "physically", "isCorrect": true, "explanationBn": "'keep us physically fit' — শারীরিকভাবে সুস্থ রাখে। 'physically' adverb 'fit' কে modify করছে।" },
+            { "text": "physical", "isCorrect": false, "explanationBn": "'physical' adjective, কিন্তু এখানে adverb দরকার।" },
+            { "text": "physique", "isCorrect": false, "explanationBn": "Noun, ভুল।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "an",
+          "options": [
+            { "text": "an", "isCorrect": true, "explanationBn": "'an important role' — একটি গুরুত্বপূর্ণ ভূমিকা। 'important' vowel sound (ইম্পরট্যান্ট), তাই 'an'।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "'i' sound vowel, 'a' ভুল।" },
+            { "text": "the", "isCorrect": false, "explanationBn": "নির্দিষ্ট নয়, অনির্দিষ্ট 'an'।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "personality",
+          "options": [
+            { "text": "personality", "isCorrect": true, "explanationBn": "'forming one's personality' — ব্যক্তিত্ব গঠন। 'personality' noun।" },
+            { "text": "character", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'personality'।" },
+            { "text": "nature", "isCorrect": false, "explanationBn": "স্বভাব, কিন্তু এখানে 'personality' বেশি মানায়।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "passage": "A man cannot remember everything that happened in his (a) _____. But certain events are vivid in his (b) _____ mind. They sometimes peep (c) _____ his mind's eye. Very simple and trifling things are the centre of (d) _____ to a child. When a man grows up, he may laugh (e) _____ those things. For example, at the age of 6 or 7, when children's teeth start to fall, they start looking for a rat's hole, (f) _____ in villages. Because they have heard that if they put the (g) _____ tooth in a rat's hole, the rat will give them one of (h) _____ teeth. Believing that they find out a rat's hole (i) _____ put the fallen tooth inside it. This incident makes them laugh (j) _____ they grow up.",
+      "boxWords": ["attract", "fallen", "through", "and", "subconscious", "when", "its", "special", "at", "childhood"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "childhood",
+          "options": [
+            { "text": "childhood", "isCorrect": true, "explanationBn": "'in his childhood' — তার শৈশবে। 'childhood' noun।" },
+            { "text": "child", "isCorrect": false, "explanationBn": "'child' শিশু, কিন্তু এখানে সময়কাল 'childhood'।" },
+            { "text": "infancy", "isCorrect": false, "explanationBn": "শৈশবের শুরু, কিন্তু 'childhood' ব্যাপক।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "subconscious",
+          "options": [
+            { "text": "subconscious", "isCorrect": true, "explanationBn": "'subconscious mind' — অবচেতন মন। 'subconscious' adjective।" },
+            { "text": "conscious", "isCorrect": false, "explanationBn": "সচেতন মন, এখানে অবচেতন vivid হয়।" },
+            { "text": "unconscious", "isCorrect": false, "explanationBn": "অচেতন, ভিন্ন অর্থ।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "through",
+          "options": [
+            { "text": "through", "isCorrect": true, "explanationBn": "'peep through his mind's eye' — মনের চোখ দিয়ে উঁকি দেয়। 'through' মাধ্যম।" },
+            { "text": "into", "isCorrect": false, "explanationBn": "'peep into' ভিতরে তাকানো, কিন্তু এখানে 'through' ভালো।" },
+            { "text": "from", "isCorrect": false, "explanationBn": "উৎস বোঝায়।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "attraction",
+          "options": [
+            { "text": "attraction", "isCorrect": true, "explanationBn": "'centre of attraction' — আকর্ষণের কেন্দ্র। 'attract' থেকে noun 'attraction'।" },
+            { "text": "attract", "isCorrect": false, "explanationBn": "Verb, কিন্তু এখানে noun দরকার।" },
+            { "text": "attractive", "isCorrect": false, "explanationBn": "Adjective, ভুল।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "at",
+          "options": [
+            { "text": "at", "isCorrect": true, "explanationBn": "'laugh at' — উপহাস করা। 'laugh at' phrasal verb।" },
+            { "text": "on", "isCorrect": false, "explanationBn": "'laugh on' ভুল।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'laugh with' মানে একসাথে হাসা।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "especially",
+          "options": [
+            { "text": "especially", "isCorrect": true, "explanationBn": "'specially in villages' — বিশেষ করে গ্রামে। 'specially' adverb (প্রদত্ত 'special' থেকে -ly যোগে)।" },
+            { "text": "special", "isCorrect": false, "explanationBn": "Adjective, কিন্তু adverb দরকার।" },
+            { "text": "specifically", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'special' থেকে 'specially' তৈরি হয়েছে।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "fallen",
+          "options": [
+            { "text": "fallen", "isCorrect": true, "explanationBn": "'the fallen tooth' — যে দাঁত পড়ে গেছে। 'fallen' past participle adjective হিসেবে।" },
+            { "text": "falling", "isCorrect": false, "explanationBn": "পড়ছে এমন, এখনও পড়েনি।" },
+            { "text": "fall", "isCorrect": false, "explanationBn": "Verb base form।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "its",
+          "options": [
+            { "text": "its", "isCorrect": true, "explanationBn": "'one of its teeth' — ইঁদুরের দাঁতগুলোর একটি। 'its' possessive pronoun।" },
+            { "text": "it's", "isCorrect": false, "explanationBn": "Contraction of 'it is', ভুল।" },
+            { "text": "their", "isCorrect": false, "explanationBn": "'their' বহুবচন, কিন্তু rat একবচন।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "and",
+          "options": [
+            { "text": "and", "isCorrect": true, "explanationBn": "'find out a rat's hole and put' — দুটি ক্রিয়া সংযোগ করছে 'and' conjunction।" },
+            { "text": "then", "isCorrect": false, "explanationBn": "Adverb, conjunction নয়।" },
+            { "text": "so", "isCorrect": false, "explanationBn": "ফলাফল বোঝায়, এখানে ধারাবাহিকতা।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "when",
+          "options": [
+            { "text": "when", "isCorrect": true, "explanationBn": "'laugh when they grow up' — যখন বড় হয় তখন হাসে। 'when' time conjunction।" },
+            { "text": "while", "isCorrect": false, "explanationBn": "'while' একই সময় বোঝায়, কিন্তু এখানে পরে হাসে।" },
+            { "text": "as", "isCorrect": false, "explanationBn": "কারণ বা সময় বোঝাতে পারে, কিন্তু 'when' সঠিক।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "passage": "Bangladesh is a south (a) _____ country. It is blessed with (b) _____ beauty. Natural resources abound in this country. Bangladesh (c) _____ boundary with India and Myanmar. The three sides of the country are surrounded by these two (d) _____. The Bay of Bengal is (e) _____ the south of Bangladesh. The majority of (f) _____ largest mangrove forest Sundarbans lies in this country. This forest is the (g) _____ of the world famous Royal Bengal Tiger. (h) _____ number of rivers criss-crossed this forest. It is also a great (i) _____ of natural wealth. Bangladesh got her independence (j) _____ a nine month long freedom war.",
+      "boxWords": ["through", "nature", "neighbour", "the", "share", "a", "abode", "source", "to", "Asian"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "Asian",
+          "options": [
+            { "text": "Asian", "isCorrect": true, "explanationBn": "'south Asian country' — দক্ষিণ এশীয় দেশ। 'Asian' adjective।" },
+            { "text": "Asia", "isCorrect": false, "explanationBn": "'Asia' noun, এখানে adjective লাগবে।" },
+            { "text": "Asiatic", "isCorrect": false, "explanationBn": "প্রচলিত 'Asian'।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "natural",
+          "options": [
+            { "text": "natural", "isCorrect": true, "explanationBn": "'natural beauty' — প্রাকৃতিক সৌন্দর্য। 'nature' থেকে 'natural'।" },
+            { "text": "nature", "isCorrect": false, "explanationBn": "'nature beauty' ভুল।" },
+            { "text": "naturalistic", "isCorrect": false, "explanationBn": "অর্থ ভিন্ন।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "shares",
+          "options": [
+            { "text": "shares", "isCorrect": true, "explanationBn": "'Bangladesh shares boundary' — বাংলাদেশ সীমান্ত ভাগ করে। 'shares' verb, third person singular।" },
+            { "text": "share", "isCorrect": false, "explanationBn": "Subject singular, তাই 'shares' হবে।" },
+            { "text": "shared", "isCorrect": false, "explanationBn": "Past tense, কিন্তু সাধারণ বক্তব্যে present।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "neighbours",
+          "options": [
+            { "text": "neighbours", "isCorrect": true, "explanationBn": "'these two neighbours' — এই দুই প্রতিবেশী। 'neighbour' থেকে plural 'neighbours'।" },
+            { "text": "neighbour", "isCorrect": false, "explanationBn": "একবচন, কিন্তু দুই দেশ বোঝাতে plural লাগে।" },
+            { "text": "neighborhood", "isCorrect": false, "explanationBn": "পাড়া, প্রতিবেশী নয়।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "to",
+          "options": [
+            { "text": "to", "isCorrect": true, "explanationBn": "'to the south of' — দক্ষিণে। 'to' দিক নির্দেশ করে।" },
+            { "text": "in", "isCorrect": false, "explanationBn": "'in the south' মানে দক্ষিণ অংশে, কিন্তু বঙ্গোপসাগর দক্ষিণে অবস্থিত।" },
+            { "text": "on", "isCorrect": false, "explanationBn": "'on the south' সীমানায় লাগানো বোঝায়।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'the largest mangrove forest' — superlative degree-র পূর্বে 'the'।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "'a largest' ভুল।" },
+            { "text": "this", "isCorrect": false, "explanationBn": "নির্দেশক, কিন্তু article 'the' সঠিক।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "abode",
+          "options": [
+            { "text": "abode", "isCorrect": true, "explanationBn": "'abode of tiger' — বাঘের আবাস। 'abode' মানে বাসস্থান।" },
+            { "text": "home", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'abode'।" },
+            { "text": "habitat", "isCorrect": false, "explanationBn": "একই অর্থ।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "A",
+          "options": [
+            { "text": "A", "isCorrect": true, "explanationBn": "'A number of' — অনেকগুলি। Indefinite article 'A'।" },
+            { "text": "The", "isCorrect": false, "explanationBn": "'The number of' মানে সংখ্যাটি, অর্থ ভিন্ন।" },
+            { "text": "One", "isCorrect": false, "explanationBn": "এক, কিন্তু এখানে অসংখ্য নদী।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "source",
+          "options": [
+            { "text": "source", "isCorrect": true, "explanationBn": "'a great source of natural wealth' — প্রাকৃতিক সম্পদের বড় উৎস।" },
+            { "text": "origin", "isCorrect": false, "explanationBn": "উৎপত্তি, এখানে 'source' ভালো।" },
+            { "text": "resource", "isCorrect": false, "explanationBn": "সম্পদ, কিন্তু 'source of wealth' বলতে উৎস বোঝায়।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "through",
+          "options": [
+            { "text": "through", "isCorrect": true, "explanationBn": "'through a nine month long war' — নয় মাসব্যাপী যুদ্ধের মাধ্যমে। 'through' মাধ্যম।" },
+            { "text": "by", "isCorrect": false, "explanationBn": "'by war' ও চলে, কিন্তু 'through' বেশি মানায়।" },
+            { "text": "after", "isCorrect": false, "explanationBn": "পরে, কিন্তু এখানে মাধ্যম বোঝাচ্ছে।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "passage": "The Padma multi-purpose bridge has opened (a) _____ new era in the history of Bangladesh. This (b) _____ project has been implemented (c) _____ any foreign aid. The southern 21 districts were cut (d) _____ from the mainland by the mighty Padma river. So, this vast area could not keep pace with the other parts (e) _____ economic development. But, direct connection with the capital by this bridge is going to expand (f) _____ and commerce. Besides, (g) _____ is also going to speed up. All these are contributing a lot to our economic (h) _____ and surely reduce (i) _____ poverty of those regions. The construction of the bridge which was our long-cherished (j) _____ at last came true.",
+      "boxWords": ["trade", "a", "without", "considering", "off", "the", "grow", "tourism", "dream", "mega"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "a",
+          "options": [
+            { "text": "a", "isCorrect": true, "explanationBn": "'opened a new era' — একটি নতুন যুগের সূচনা। Indefinite article 'a'।" },
+            { "text": "an", "isCorrect": false, "explanationBn": "'new' consonant sound, তাই 'a'।" },
+            { "text": "the", "isCorrect": false, "explanationBn": "নির্দিষ্ট নয়, অনির্দিষ্ট।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "mega",
+          "options": [
+            { "text": "mega", "isCorrect": true, "explanationBn": "'mega project' — বিশাল প্রকল্প। 'mega' adjective।" },
+            { "text": "big", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'mega'।" },
+            { "text": "large", "isCorrect": false, "explanationBn": "একই অর্থ।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "without",
+          "options": [
+            { "text": "without", "isCorrect": true, "explanationBn": "'without any foreign aid' — কোনো বিদেশি সাহায্য ছাড়া। 'without' preposition।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "অর্থ বিপরীত।" },
+            { "text": "no", "isCorrect": false, "explanationBn": "'no' determiner, কিন্তু এখানে preposition দরকার।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "off",
+          "options": [
+            { "text": "off", "isCorrect": true, "explanationBn": "'cut off from' — বিচ্ছিন্ন করা। Phrasal verb 'cut off'।" },
+            { "text": "out", "isCorrect": false, "explanationBn": "'cut out' বাদ দেওয়া, এখানে নয়।" },
+            { "text": "away", "isCorrect": false, "explanationBn": "'cut away' কেটে ফেলা।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "considering",
+          "options": [
+            { "text": "considering", "isCorrect": true, "explanationBn": "'other parts considering economic development' — অর্থনৈতিক উন্নয়ন বিবেচনায়। 'considering' preposition/gerund।" },
+            { "text": "regarding", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'considering'।" },
+            { "text": "concerning", "isCorrect": false, "explanationBn": "একই অর্থ।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "trade",
+          "options": [
+            { "text": "trade", "isCorrect": true, "explanationBn": "'expand trade and commerce' — বাণিজ্য ও বাণিজ্য সম্প্রসারণ। 'trade' noun।" },
+            { "text": "business", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'trade'।" },
+            { "text": "market", "isCorrect": false, "explanationBn": "বাজার।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "tourism",
+          "options": [
+            { "text": "tourism", "isCorrect": true, "explanationBn": "'tourism is also going to speed up' — পর্যটনও দ্রুত হবে। 'tourism' noun।" },
+            { "text": "tour", "isCorrect": false, "explanationBn": "ভ্রমণ, শিল্প নয়।" },
+            { "text": "travel", "isCorrect": false, "explanationBn": "একই।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "growth",
+          "options": [
+            { "text": "growth", "isCorrect": true, "explanationBn": "'economic growth' — অর্থনৈতিক উন্নয়ন। 'grow' থেকে noun 'growth'।" },
+            { "text": "grow", "isCorrect": false, "explanationBn": "Verb, noun দরকার।" },
+            { "text": "growing", "isCorrect": false, "explanationBn": "Gerund।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'reduce the poverty' — দারিদ্র্য হ্রাস। নির্দিষ্ট poverty-কে বোঝাচ্ছে 'the'।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "'a poverty' ভুল, uncountable noun।" },
+            { "text": "this", "isCorrect": false, "explanationBn": "নির্দেশক, কিন্তু article 'the' সঠিক।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "dream",
+          "options": [
+            { "text": "dream", "isCorrect": true, "explanationBn": "'long-cherished dream' — দীর্ঘলালিত স্বপ্ন। 'dream' noun।" },
+            { "text": "desire", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'dream'।" },
+            { "text": "hope", "isCorrect": false, "explanationBn": "আশা।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "passage": "Examination is the process of (a) _____ the academic knowledge of (b) _____ learners. So, it should be absolutely (c) _____. The authority should conduct and (d) _____ it in the best possible (e) _____. Adopting unethical activities in the (f) _____ is a great offence. It (g) _____ the standard of education. (h) _____ case of the students failure to (i) _____ true education, the nation will (j) _____ greatly. So all students should make the best use of time in order to be truly educated.",
+      "boxWords": ["examination", "way", "fair", "acquire", "the", "supervise", "degrade", "in", "suffer", "assess"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "assessing",
+          "options": [
+            { "text": "assessing", "isCorrect": true, "explanationBn": "'process of assessing' — মূল্যায়নের প্রক্রিয়া। Gerund 'assessing' preposition 'of' এর পরে।" },
+            { "text": "assess", "isCorrect": false, "explanationBn": "Verb base form, কিন্তু gerund লাগবে।" },
+            { "text": "assessment", "isCorrect": false, "explanationBn": "Noun, কিন্তু 'process of assessment' ও চলে, তবে এখানে verb form 'assessing' দেয়া আছে।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'the learners' — শিক্ষার্থীরা। নির্দিষ্ট সকল শিক্ষার্থী বোঝাতে 'the'।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "অনির্দিষ্ট, এখানে সব শিক্ষার্থী।" },
+            { "text": "these", "isCorrect": false, "explanationBn": "নির্দেশক, কিন্তু article 'the' যথেষ্ট।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "fair",
+          "options": [
+            { "text": "fair", "isCorrect": true, "explanationBn": "'absolutely fair' — সম্পূর্ণ ন্যায্য। 'fair' adjective।" },
+            { "text": "just", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'fair'।" },
+            { "text": "equal", "isCorrect": false, "explanationBn": "সমান, ভিন্ন অর্থ।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "supervise",
+          "options": [
+            { "text": "supervise", "isCorrect": true, "explanationBn": "'conduct and supervise' — পরিচালনা ও তত্ত্বাবধান করা। দুটি verb并列।" },
+            { "text": "supervising", "isCorrect": false, "explanationBn": "Gerund, কিন্তু conjunction 'and' এর পরে base form।" },
+            { "text": "supervised", "isCorrect": false, "explanationBn": "Past tense, কিন্তু এখানে present base form।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "way",
+          "options": [
+            { "text": "way", "isCorrect": true, "explanationBn": "'in the best possible way' — সর্বোত্তম সম্ভব উপায়ে। 'way' noun।" },
+            { "text": "manner", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'way'।" },
+            { "text": "method", "isCorrect": false, "explanationBn": "একই অর্থ।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "examination",
+          "options": [
+            { "text": "examination", "isCorrect": true, "explanationBn": "'in the examination' — পরীক্ষায়। 'examination' noun।" },
+            { "text": "exam", "isCorrect": false, "explanationBn": "সংক্ষিপ্ত রূপ, কিন্তু এখানে পূর্ণ শব্দ।" },
+            { "text": "test", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'examination'।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "degrades",
+          "options": [
+            { "text": "degrades", "isCorrect": true, "explanationBn": "'It degrades the standard' — এটি মান হ্রাস করে। 'degrade' verb, third person singular।" },
+            { "text": "degrade", "isCorrect": false, "explanationBn": "Base form, কিন্তু subject 'It' singular।" },
+            { "text": "degrading", "isCorrect": false, "explanationBn": "Present participle।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "In",
+          "options": [
+            { "text": "In", "isCorrect": true, "explanationBn": "'In case of' — যদি। 'In' capital letter শুরু।" },
+            { "text": "On", "isCorrect": false, "explanationBn": "'On case of' ভুল।" },
+            { "text": "At", "isCorrect": false, "explanationBn": "ভুল preposition।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "acquire",
+          "options": [
+            { "text": "acquire", "isCorrect": true, "explanationBn": "'failure to acquire' — অর্জনে ব্যর্থতা। 'to' এর পরে verb base form 'acquire'।" },
+            { "text": "acquiring", "isCorrect": false, "explanationBn": "Gerund, কিন্তু infinitive 'to acquire'।" },
+            { "text": "acquired", "isCorrect": false, "explanationBn": "Past participle।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "suffer",
+          "options": [
+            { "text": "suffer", "isCorrect": true, "explanationBn": "'will suffer greatly' — ব্যাপক ক্ষতিগ্রস্ত হবে। Future tense এ 'will suffer'।" },
+            { "text": "suffers", "isCorrect": false, "explanationBn": "Third person singular, কিন্তু future-এ base form।" },
+            { "text": "suffered", "isCorrect": false, "explanationBn": "Past, নয়।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "passage": "The development of a nation is not (a) _____ easy task. It depends on the willingness (b) _____ sacrificing attitude of the valiant sons and (c) _____ of the soil. They don't work for (d) _____ appreciation or reward for themselves. Their vision (e) _____ to make the world a better place (f) _____ live in. They are always proud of (g) _____ selfless ventures. Their mission is to serve (h) _____ greater interest of humanity. They spend their life (i) _____ the welfare of people, the society (j) _____ the country as a whole.",
+      "boxWords": ["daughter", "to", "any", "an", "and", "for", "such", "be", "the", "and"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "an",
+          "options": [
+            { "text": "an", "isCorrect": true, "explanationBn": "'an easy task' — একটি সহজ কাজ। 'easy' vowel sound (ঈজি), তাই 'an'।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "'a easy' ভুল, কারণ vowel sound।" },
+            { "text": "the", "isCorrect": false, "explanationBn": "নির্দিষ্ট নয়।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "and",
+          "options": [
+            { "text": "and", "isCorrect": true, "explanationBn": "'willingness and sacrificing attitude' — ইচ্ছা ও ত্যাগের মনোভাব। দুটি noun যোগ করছে 'and'।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "Preposition, conjunction নয়।" },
+            { "text": "also", "isCorrect": false, "explanationBn": "Adverb।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "daughters",
+          "options": [
+            { "text": "daughters", "isCorrect": true, "explanationBn": "'sons and daughters' — পুত্র ও কন্যারা। 'daughter' থেকে plural 'daughters'।" },
+            { "text": "daughter", "isCorrect": false, "explanationBn": "একবচন, কিন্তু বহুবচন বোঝাতে plural।" },
+            { "text": "children", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'daughter'।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "any",
+          "options": [
+            { "text": "any", "isCorrect": true, "explanationBn": "'not work for any appreciation' — কোনো প্রশংসার জন্য কাজ করে না। 'any' negative sentence-এ ব্যবহৃত।" },
+            { "text": "some", "isCorrect": false, "explanationBn": "'some' সাধারণত affirmative-এ।" },
+            { "text": "no", "isCorrect": false, "explanationBn": "'no appreciation' হবে, কিন্তু 'for no appreciation' নয়। এখানে 'any' দরকার।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "is",
+          "options": [
+            { "text": "is", "isCorrect": true, "explanationBn": "'Their vision is to make' — তাদের দৃষ্টিভঙ্গি হলো তৈরি করা। Singular subject 'vision', তাই 'is'।" },
+            { "text": "are", "isCorrect": false, "explanationBn": "Subject singular, 'are' ভুল।" },
+            { "text": "be", "isCorrect": false, "explanationBn": "Base form, এখানে main verb দরকার।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "to",
+          "options": [
+            { "text": "to", "isCorrect": true, "explanationBn": "'a better place to live in' — বসবাসের জন্য একটি ভালো জায়গা। Infinitive 'to' উদ্দেশ্য বোঝায়।" },
+            { "text": "for", "isCorrect": false, "explanationBn": "'place for living' ও চলে, কিন্তু 'to live in' বেশি প্রচলিত।" },
+            { "text": "of", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "such",
+          "options": [
+            { "text": "such", "isCorrect": true, "explanationBn": "'proud of such selfless ventures' — এমন নিঃস্বার্থ উদ্যোগে গর্বিত। 'such' নির্দেশক।" },
+            { "text": "these", "isCorrect": false, "explanationBn": "বক্সে 'such' আছে।" },
+            { "text": "those", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'such'।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'the greater interest' — বৃহত্তর স্বার্থ। নির্দিষ্ট করে 'the' বসে।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "অনির্দিষ্ট, এখানে নির্দিষ্ট।" },
+            { "text": "this", "isCorrect": false, "explanationBn": "নির্দেশক।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "for",
+          "options": [
+            { "text": "for", "isCorrect": true, "explanationBn": "'spend life for the welfare' — কল্যাণের জন্য জীবন ব্যয় করা। 'for' উদ্দেশ্য।" },
+            { "text": "in", "isCorrect": false, "explanationBn": "'in the welfare' মানে কল্যাণের মধ্যে, নয়।" },
+            { "text": "on", "isCorrect": false, "explanationBn": "'spend on' খরচ করা।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "and",
+          "options": [
+            { "text": "and", "isCorrect": true, "explanationBn": "'people, society and country' — মানুষ, সমাজ ও দেশ। শেষ দুটি যোগ করছে 'and'।" },
+            { "text": "as well as", "isCorrect": false, "explanationBn": "দুই শব্দ, বক্সে 'and' আছে।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "Preposition।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "passage": "About one thousand years ago, chocolate was so valuable that it was used as money! Chocolate comes from the Cacao (a) _____ that grows near the equator. When (b) _____ trees are seen to (c) _____ pods, the farmers collect the seeds (d) _____ them. Then sugar, cinnamon, (e) _____ milk and other spices are (f) _____ to the matured seeds. The (g) _____ of chocolate is interesting. Columbus (h) _____ Cacao beans to Spain first. (i) _____ people learned how to change (j) _____ from liquid to solid. And by 1847, they started enjoying chocolate candy bars!",
+      "boxWords": ["added", "brought", "later", "origin", "the", "from", "chocolate", "tree", "vanilla", "produce"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "tree",
+          "options": [
+            { "text": "tree", "isCorrect": true, "explanationBn": "'Cacao tree' — কাকাউ গাছ। 'tree' noun।" },
+            { "text": "plant", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'tree'।" },
+            { "text": "shrub", "isCorrect": false, "explanationBn": "ছোট গুল্ম, না।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'the trees' — পূর্বে উল্লেখিত গাছগুলোকে নির্দেশ করছে 'the'।" },
+            { "text": "these", "isCorrect": false, "explanationBn": "নির্দেশক, কিন্তু article 'the' যথেষ্ট।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "অনির্দিষ্ট, এখানে নির্দিষ্ট।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "produce",
+          "options": [
+            { "text": "produce", "isCorrect": true, "explanationBn": "'produce pods' — ফল উৎপন্ন করা। 'produce' verb।" },
+            { "text": "produced", "isCorrect": false, "explanationBn": "Past tense, কিন্তু 'are seen to produce' infinitive।" },
+            { "text": "producing", "isCorrect": false, "explanationBn": "Present participle।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "from",
+          "options": [
+            { "text": "from", "isCorrect": true, "explanationBn": "'collect the seeds from them' — সেগুলো থেকে বীজ সংগ্রহ করা। 'from' উৎস।" },
+            { "text": "of", "isCorrect": false, "explanationBn": "'seeds of them' মানে তাদের বীজ, কিন্তু এখানে 'from' ভালো।" },
+            { "text": "off", "isCorrect": false, "explanationBn": "'off' থেকে আলাদা করা।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "vanilla",
+          "options": [
+            { "text": "vanilla", "isCorrect": true, "explanationBn": "'cinnamon, vanilla milk' — দারুচিনি, ভ্যানিলা দুধ। 'vanilla' একটি উপাদান।" },
+            { "text": "sugar", "isCorrect": false, "explanationBn": "ইতিমধ্যে sugar উল্লেখ আছে।" },
+            { "text": "flavor", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'vanilla'।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "added",
+          "options": [
+            { "text": "added", "isCorrect": true, "explanationBn": "'are added' — যোগ করা হয়। Passive voice-এ past participle 'added'।" },
+            { "text": "add", "isCorrect": false, "explanationBn": "Active form।" },
+            { "text": "adding", "isCorrect": false, "explanationBn": "Present participle।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "origin",
+          "options": [
+            { "text": "origin", "isCorrect": true, "explanationBn": "'The origin of chocolate' — চকলেটের উৎপত্তি। 'origin' noun।" },
+            { "text": "history", "isCorrect": false, "explanationBn": "ইতিহাস, কিন্তু 'origin' সঠিক।" },
+            { "text": "source", "isCorrect": false, "explanationBn": "উৎস, একই অর্থ।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "brought",
+          "options": [
+            { "text": "brought", "isCorrect": true, "explanationBn": "'Columbus brought' — কলম্বাস নিয়ে আসেন। Past tense 'brought'।" },
+            { "text": "bring", "isCorrect": false, "explanationBn": "Present tense, সময় অতীত।" },
+            { "text": "brings", "isCorrect": false, "explanationBn": "Third person present।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "Later",
+          "options": [
+            { "text": "Later", "isCorrect": true, "explanationBn": "'Later people learned' — পরে মানুষ শিখল। 'Later' adverb of time।" },
+            { "text": "Then", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'Later'।" },
+            { "text": "After", "isCorrect": false, "explanationBn": "Preposition, এখানে adverb দরকার।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "chocolate",
+          "options": [
+            { "text": "chocolate", "isCorrect": true, "explanationBn": "'change chocolate from liquid to solid' — চকলেটকে তরল থেকে কঠিনে পরিবর্তন। 'chocolate' noun।" },
+            { "text": "it", "isCorrect": false, "explanationBn": "Pronoun, কিন্তু বক্সে 'chocolate' আছে।" },
+            { "text": "cocoa", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'chocolate'।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "passage": "English language has a world (a) _____ importance. It is (b) _____ second language in our country. We study it as (c) _____ compulsory subject from class I to class XII. Even then, we are not able to (d) _____ well. There are so many (e) _____ behind it. Firstly, there is no (f) _____ development of the syllabus according to the class standard. Secondly, the examinations are taken only based (g) _____ writing skill. Thirdly, lack of (h) _____ is responsible for it. Another problem is the lack of English speaking (i) _____. Finally, there is a shortage of English teachers (j) _____ the country.",
+      "boxWords": ["wide", "a", "learn", "on", "vocabulary", "environment", "the", "across", "reason", "continuous"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "wide",
+          "options": [
+            { "text": "wide", "isCorrect": true, "explanationBn": "'a world wide importance' — বিশ্বব্যাপী গুরুত্ব। 'wide' adjective 'importance' কে modify করছে।" },
+            { "text": "widely", "isCorrect": false, "explanationBn": "Adverb, কিন্তু adjective 'wide' দরকার।" },
+            { "text": "widen", "isCorrect": false, "explanationBn": "Verb।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'the second language' — দ্বিতীয় ভাষা। ক্রমবাচক সংখ্যার পূর্বে 'the'।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "ক্রমবাচক 'second' এর আগে 'a' হয় না।" },
+            { "text": "our", "isCorrect": false, "explanationBn": "আমাদের, কিন্তু নির্দিষ্টতার জন্য 'the'।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "a",
+          "options": [
+            { "text": "a", "isCorrect": true, "explanationBn": "'as a compulsory subject' — একটি বাধ্যতামূলক বিষয় হিসেবে। Indefinite article 'a'।" },
+            { "text": "an", "isCorrect": false, "explanationBn": "'compulsory' consonant sound, তাই 'a'।" },
+            { "text": "the", "isCorrect": false, "explanationBn": "নির্দিষ্ট নয়।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "learn",
+          "options": [
+            { "text": "learn", "isCorrect": true, "explanationBn": "'able to learn' — শিখতে সক্ষম। 'to' এর পরে base form 'learn'।" },
+            { "text": "learning", "isCorrect": false, "explanationBn": "Gerund, না।" },
+            { "text": "learned", "isCorrect": false, "explanationBn": "Past tense।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "reasons",
+          "options": [
+            { "text": "reasons", "isCorrect": true, "explanationBn": "'many reasons' — অনেক কারণ। 'reason' থেকে plural 'reasons'।" },
+            { "text": "reason", "isCorrect": false, "explanationBn": "একবচন, কিন্তু 'many' এর সাথে plural লাগে।" },
+            { "text": "causes", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'reason'।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "continuous",
+          "options": [
+            { "text": "continuous", "isCorrect": true, "explanationBn": "'no continuous development' — কোনো ধারাবাহিক উন্নয়ন নেই। 'continuous' adjective।" },
+            { "text": "continual", "isCorrect": false, "explanationBn": "পৌনঃপুনিক, এখানে 'continuous' ভালো।" },
+            { "text": "continued", "isCorrect": false, "explanationBn": "Past participle।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "on",
+          "options": [
+            { "text": "on", "isCorrect": true, "explanationBn": "'based on' — ভিত্তি করে। 'based on' phrase।" },
+            { "text": "upon", "isCorrect": false, "explanationBn": "একই, তবে 'on' ছোট।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'based with' ভুল।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "vocabulary",
+          "options": [
+            { "text": "vocabulary", "isCorrect": true, "explanationBn": "'lack of vocabulary' — শব্দভাণ্ডারের অভাব। 'vocabulary' noun।" },
+            { "text": "word", "isCorrect": false, "explanationBn": "শব্দ, কিন্তু 'vocabulary' সামগ্রিক।" },
+            { "text": "lexicon", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'vocabulary'।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "environment",
+          "options": [
+            { "text": "environment", "isCorrect": true, "explanationBn": "'English speaking environment' — ইংরেজি বলার পরিবেশ। 'environment' noun।" },
+            { "text": "atmosphere", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'environment'।" },
+            { "text": "surroundings", "isCorrect": false, "explanationBn": "একই অর্থ।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "across",
+          "options": [
+            { "text": "across", "isCorrect": true, "explanationBn": "'across the country' — সারা দেশে। 'across' preposition ব্যাপক অর্থে।" },
+            { "text": "throughout", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'across'।" },
+            { "text": "in", "isCorrect": false, "explanationBn": "'in the country' দেশের মধ্যে, কিন্তু 'across' ব্যাপকতর।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "passage": "Language is a way of human communication. And (a) _____ ability to use any language is called the language skill. All (b) _____ beings acquire this skill from their (c) _____ environment. That is, human babies begin (d) _____ acquire this language skill from just after their birth. If this process continues (e) _____ any obstruction, a baby can communicate with the people of the same language (f) _____ within 3 to 4 years. During this period, the baby does not need to read or write for (g) _____ the language skill. The baby only goes (h) _____ listening, speaking, picking up words. This process is called acquisition of language and this acquisition mostly takes (i) _____ while learning one's first language. We acquire the language skill of Bangla in this (j) _____. This is why, Bangla is called our first language.",
+      "boxWords": ["smooth", "on", "respective", "process", "human", "to", "without", "place", "acquiring", "the"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'The ability' — নির্দিষ্ট ক্ষমতা। পূর্বের আলোচনা থেকে নির্দিষ্ট।" },
+            { "text": "an", "isCorrect": false, "explanationBn": "অনির্দিষ্ট, এখানে নির্দিষ্ট।" },
+            { "text": "this", "isCorrect": false, "explanationBn": "নির্দেশক, কিন্তু article 'the' সঠিক।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "human",
+          "options": [
+            { "text": "human", "isCorrect": true, "explanationBn": "'All human beings' — সমস্ত মানব। 'human' adjective।" },
+            { "text": "humane", "isCorrect": false, "explanationBn": "দয়ালু, অর্থ ভিন্ন।" },
+            { "text": "humanity", "isCorrect": false, "explanationBn": "মানবতা, noun।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "respective",
+          "options": [
+            { "text": "respective", "isCorrect": true, "explanationBn": "'their respective environment' — তাদের নিজ নিজ পরিবেশ। 'respective' adjective।" },
+            { "text": "own", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'respective'।" },
+            { "text": "particular", "isCorrect": false, "explanationBn": "নির্দিষ্ট, কিন্তু 'respective' ভালো।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "to",
+          "options": [
+            { "text": "to", "isCorrect": true, "explanationBn": "'begin to acquire' — অর্জন করা শুরু করে। 'begin to' infinitive।" },
+            { "text": "for", "isCorrect": false, "explanationBn": "'begin for' ভুল।" },
+            { "text": "at", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "without",
+          "options": [
+            { "text": "without", "isCorrect": true, "explanationBn": "'continues without any obstruction' — কোনো বাধা ছাড়া চলতে থাকে।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "অর্থ বিপরীত।" },
+            { "text": "no", "isCorrect": false, "explanationBn": "'no obstruction' হবে, কিন্তু প্রস্তুতি 'without' দরকার।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "smoothly",
+          "options": [
+            { "text": "smoothly", "isCorrect": true, "explanationBn": "'communicate smoothly' — মসৃণভাবে যোগাযোগ করতে পারে। 'smooth' থেকে adverb 'smoothly'।" },
+            { "text": "smooth", "isCorrect": false, "explanationBn": "Adjective, কিন্তু verb 'communicate' modify করতে adverb দরকার।" },
+            { "text": "easy", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "acquiring",
+          "options": [
+            { "text": "acquiring", "isCorrect": true, "explanationBn": "'for acquiring the language skill' — ভাষা দক্ষতা অর্জনের জন্য। Preposition 'for' এর পরে gerund 'acquiring'।" },
+            { "text": "acquire", "isCorrect": false, "explanationBn": "Base form, কিন্তু gerund লাগবে।" },
+            { "text": "acquired", "isCorrect": false, "explanationBn": "Past participle।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "on",
+          "options": [
+            { "text": "on", "isCorrect": true, "explanationBn": "'goes on listening' — শোনা চালিয়ে যায়। 'go on' phrasal verb মানে continue।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'go with' মানে সাথে যাওয়া।" },
+            { "text": "in", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "place",
+          "options": [
+            { "text": "place", "isCorrect": true, "explanationBn": "'takes place' — সংঘটিত হয়। 'take place' phrase।" },
+            { "text": "part", "isCorrect": false, "explanationBn": "'take part' অংশ নেওয়া, অর্থ ভিন্ন।" },
+            { "text": "position", "isCorrect": false, "explanationBn": "স্থান, কিন্তু 'take place' ই সঠিক।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "process",
+          "options": [
+            { "text": "process", "isCorrect": true, "explanationBn": "'in this process' — এই প্রক্রিয়ায়। 'process' noun।" },
+            { "text": "way", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'process'।" },
+            { "text": "method", "isCorrect": false, "explanationBn": "পদ্ধতি।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "passage": "All we know that mobile phone is the most (a) _____ invention of modern science. Now a days, it is very essential (b) _____ us. At (c) _____ it is very small and light. (d) _____ changes have been brought about (e) _____ social communication by mobile phone. The whole (f) _____ has now become smaller and (g) _____ unbelievably in respect of communicating information. But it is (h) _____ to say that mobile phone has some (i) _____ too. Over all, it is (j) _____ great blessing for mankind.",
+      "boxWords": ["wonderful", "for", "present", "revolutionary", "in", "world", "closer", "needless", "demerits", "a"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "wonderful",
+          "options": [
+            { "text": "wonderful", "isCorrect": true, "explanationBn": "'the most wonderful invention' — সবচেয়ে বিস্ময়কর আবিষ্কার। 'wonderful' adjective।" },
+            { "text": "wonder", "isCorrect": false, "explanationBn": "Noun বা verb।" },
+            { "text": "wondrous", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'wonderful'।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "for",
+          "options": [
+            { "text": "for", "isCorrect": true, "explanationBn": "'essential for us' — আমাদের জন্য অপরিহার্য।" },
+            { "text": "to", "isCorrect": false, "explanationBn": "'essential to' ও চলে, তবে 'for' বেশি প্রচলিত।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "present",
+          "options": [
+            { "text": "present", "isCorrect": true, "explanationBn": "'At present' — বর্তমানে। 'at present' phrase।" },
+            { "text": "this time", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'present'।" },
+            { "text": "the moment", "isCorrect": false, "explanationBn": "একই অর্থ নয়।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "Revolutionary",
+          "options": [
+            { "text": "Revolutionary", "isCorrect": true, "explanationBn": "'Revolutionary changes' — বিপ্লবী পরিবর্তন। 'Revolutionary' adjective, capital letter শুরু।" },
+            { "text": "Dramatic", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'Revolutionary'।" },
+            { "text": "Radical", "isCorrect": false, "explanationBn": "মৌলিক।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "in",
+          "options": [
+            { "text": "in", "isCorrect": true, "explanationBn": "'brought about in social communication' — সামাজিক যোগাযোগে ঘটানো হয়েছে। 'in' ক্ষেত্র নির্দেশ করে।" },
+            { "text": "to", "isCorrect": false, "explanationBn": "'brought about to' ভুল।" },
+            { "text": "on", "isCorrect": false, "explanationBn": "'on communication' মানে নয়।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "world",
+          "options": [
+            { "text": "world", "isCorrect": true, "explanationBn": "'The whole world' — পুরো বিশ্ব।" },
+            { "text": "earth", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'world'।" },
+            { "text": "globe", "isCorrect": false, "explanationBn": "একই।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "closer",
+          "options": [
+            { "text": "closer", "isCorrect": true, "explanationBn": "'smaller and closer' — ছোট এবং কাছাকাছি। Comparative degree 'closer'।" },
+            { "text": "close", "isCorrect": false, "explanationBn": "Positive degree, কিন্তু 'and' এর পর comparative থাকা উচিত।" },
+            { "text": "closest", "isCorrect": false, "explanationBn": "Superlative, ভুল।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "needless",
+          "options": [
+            { "text": "needless", "isCorrect": true, "explanationBn": "'needless to say' — বলা বাহুল্য। 'needless' adjective।" },
+            { "text": "unnecessary", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'needless'।" },
+            { "text": "useless", "isCorrect": false, "explanationBn": "অকেজো।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "demerits",
+          "options": [
+            { "text": "demerits", "isCorrect": true, "explanationBn": "'some demerits' — কিছু অসুবিধা। 'demerits' plural।" },
+            { "text": "disadvantages", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'demerits'।" },
+            { "text": "drawbacks", "isCorrect": false, "explanationBn": "একই।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "a",
+          "options": [
+            { "text": "a", "isCorrect": true, "explanationBn": "'a great blessing' — একটি বড় আশীর্বাদ। Indefinite article 'a'।" },
+            { "text": "the", "isCorrect": false, "explanationBn": "নির্দিষ্ট নয়।" },
+            { "text": "one", "isCorrect": false, "explanationBn": "সংখ্যা বাচক, কিন্তু article 'a' সঠিক।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "passage": "A student must have the habit of reading newspaper everyday. Mere (a) _____ knowledge is not enough in this (b) _____ world. Newspapers help him (c) _____ his general knowledge and make him aware of the (d) _____ issues both inside and outside the country. A man who doesn't read (e) _____ is like a frog in a narrow (f) _____. Being ignorant of (g) _____ current affairs, he cannot take part in the talks and discussions in (h) _____ enlightened society and feels like a fish out (i) _____ water. By reading newspapers one can widen one's range of (j) _____ in the field of science, history, geography, literature etc.",
+      "boxWords": ["well", "bookish", "competitive", "to enrich", "newspaper", "the", "knowledge", "an", "of", "burning"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "bookish",
+          "options": [
+            { "text": "bookish", "isCorrect": true, "explanationBn": "'Mere bookish knowledge' — কেবল বইয়ের জ্ঞান। 'bookish' adjective।" },
+            { "text": "theoretical", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'bookish'।" },
+            { "text": "academic", "isCorrect": false, "explanationBn": "একই অর্থ।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "competitive",
+          "options": [
+            { "text": "competitive", "isCorrect": true, "explanationBn": "'competitive world' — প্রতিযোগিতামূলক বিশ্ব।" },
+            { "text": "competing", "isCorrect": false, "explanationBn": "Present participle, adjective 'competitive' ভালো।" },
+            { "text": "contest", "isCorrect": false, "explanationBn": "Noun।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "to enrich",
+          "options": [
+            { "text": "to enrich", "isCorrect": true, "explanationBn": "'help him to enrich' — সমৃদ্ধ করতে সাহায্য করে। Infinitive 'to enrich'।" },
+            { "text": "enrich", "isCorrect": false, "explanationBn": "'help him enrich' ও চলে (bare infinitive), কিন্তু বক্সে 'to enrich' আছে।" },
+            { "text": "enriching", "isCorrect": false, "explanationBn": "Gerund।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "burning",
+          "options": [
+            { "text": "burning", "isCorrect": true, "explanationBn": "'burning issues' — জ্বলন্ত সমস্যা। 'burning' adjective।" },
+            { "text": "hot", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'burning'।" },
+            { "text": "urgent", "isCorrect": false, "explanationBn": "জরুরি।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "newspaper",
+          "options": [
+            { "text": "newspaper", "isCorrect": true, "explanationBn": "'doesn't read newspaper' — সংবাদপত্র পড়ে না।" },
+            { "text": "paper", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'newspaper'।" },
+            { "text": "news", "isCorrect": false, "explanationBn": "খবর, কিন্তু পত্রিকা পড়া বোঝায়।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "well",
+          "options": [
+            { "text": "well", "isCorrect": true, "explanationBn": "'a frog in a narrow well' — সংকীর্ণ কূপের ব্যাঙ। 'well' noun।" },
+            { "text": "pond", "isCorrect": false, "explanationBn": "বক্সে 'well' আছে।" },
+            { "text": "ditch", "isCorrect": false, "explanationBn": "খাত।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'ignorant of the current affairs' — বর্তমান বিষয়ে অজ্ঞ। নির্দিষ্ট করে 'the'।" },
+            { "text": "these", "isCorrect": false, "explanationBn": "নির্দেশক।" },
+            { "text": "such", "isCorrect": false, "explanationBn": "এরকম।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "an",
+          "options": [
+            { "text": "an", "isCorrect": true, "explanationBn": "'an enlightened society' — একটি আলোকিত সমাজ। 'enlightened' vowel sound (এনলাইটেনড), তাই 'an'।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "'a enlightened' ভুল।" },
+            { "text": "the", "isCorrect": false, "explanationBn": "নির্দিষ্ট নয়।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "of",
+          "options": [
+            { "text": "of", "isCorrect": true, "explanationBn": "'fish out of water' — জলের বাইরের মাছ। 'out of' phrase।" },
+            { "text": "from", "isCorrect": false, "explanationBn": "'out from' হয় না।" },
+            { "text": "off", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "knowledge",
+          "options": [
+            { "text": "knowledge", "isCorrect": true, "explanationBn": "'range of knowledge' — জ্ঞানের পরিধি।" },
+            { "text": "information", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'knowledge'।" },
+            { "text": "learning", "isCorrect": false, "explanationBn": "একই।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "passage": "An ideal teacher is (a) _____ compared with (b) _____ architect. He is called (c) _____ architect of a nation. He is the light of (d) _____ and makes the illiterate people (e) _____ citizens of our country. But it is a matter of regret (f) _____ the teachers are not held (g) _____ due respect in our society. They lead a humble life in the (h) _____ of want. Still they keep the light of education burning in order to remove the (i) _____ of illiteracy and superstitions (j) _____ the society.",
+      "boxWords": ["often", "an", "the", "learning", "worthy", "that", "in", "midst", "darkness", "from"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "often",
+          "options": [
+            { "text": "often", "isCorrect": true, "explanationBn": "'is often compared' — প্রায়ই তুলনা করা হয়। 'often' adverb of frequency।" },
+            { "text": "always", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'often'।" },
+            { "text": "sometimes", "isCorrect": false, "explanationBn": "কখনো কখনো, 'often' ভালো।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "an",
+          "options": [
+            { "text": "an", "isCorrect": true, "explanationBn": "'an architect' — একজন স্থপতি। 'architect' vowel sound (আর্কিটেক্ট), তাই 'an'।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "'a architect' ভুল।" },
+            { "text": "the", "isCorrect": false, "explanationBn": "নির্দিষ্ট নয়।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'the architect of a nation' — জাতির স্থপতি। নির্দিষ্ট করে 'the'।" },
+            { "text": "an", "isCorrect": false, "explanationBn": "অনির্দিষ্ট, এখানে নির্দিষ্ট।" },
+            { "text": "one", "isCorrect": false, "explanationBn": "সংখ্যা বাচক।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "learning",
+          "options": [
+            { "text": "learning", "isCorrect": true, "explanationBn": "'light of learning' — জ্ঞানের আলো। 'learning' noun।" },
+            { "text": "education", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'learning'।" },
+            { "text": "knowledge", "isCorrect": false, "explanationBn": "একই।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "worthy",
+          "options": [
+            { "text": "worthy", "isCorrect": true, "explanationBn": "'worthy citizens' — যোগ্য নাগরিক। 'worthy' adjective।" },
+            { "text": "valuable", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'worthy'।" },
+            { "text": "deserving", "isCorrect": false, "explanationBn": "একই।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "that",
+          "options": [
+            { "text": "that", "isCorrect": true, "explanationBn": "'matter of regret that' — দুঃখের বিষয় যে। 'that' conjunction।" },
+            { "text": "why", "isCorrect": false, "explanationBn": "কারণ বোঝায় না।" },
+            { "text": "how", "isCorrect": false, "explanationBn": "কিভাবে।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "in",
+          "options": [
+            { "text": "in", "isCorrect": true, "explanationBn": "'held in due respect' — যথাযথ সম্মানে ধরা হয়। 'hold in respect' phrase।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'held with respect' ও চলে, কিন্তু 'in' এখানে ভালো।" },
+            { "text": "to", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "midst",
+          "options": [
+            { "text": "midst", "isCorrect": true, "explanationBn": "'in the midst of want' — অভাবের মাঝে। 'midst' মানে মাঝখান।" },
+            { "text": "middle", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'midst'।" },
+            { "text": "center", "isCorrect": false, "explanationBn": "কেন্দ্র।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "darkness",
+          "options": [
+            { "text": "darkness", "isCorrect": true, "explanationBn": "'remove the darkness of illiteracy' — নিরক্ষরতার অন্ধকার দূর করা।" },
+            { "text": "dark", "isCorrect": false, "explanationBn": "Adjective, noun 'darkness' লাগবে।" },
+            { "text": "ignorance", "isCorrect": false, "explanationBn": "অজ্ঞতা, কিন্তু এখানে 'darkness' রূপক।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "from",
+          "options": [
+            { "text": "from", "isCorrect": true, "explanationBn": "'remove ... from the society' — সমাজ থেকে দূর করা। 'from' উৎস।" },
+            { "text": "of", "isCorrect": false, "explanationBn": "'of the society' সমাজের, কিন্তু দূর করা 'থেকে' হয়।" },
+            { "text": "in", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "passage": "Nowadays, parents are very (a) _____ of the harmful effect of (b) _____ on children. Child psychologists think that (c) _____ physical and mental punishment can be disastrous (d) _____ a child's growth and (e) _____. It may lead to (f) _____ and hatred of the person who (g) _____ the child. Again, if a child (h) _____ punished, he may lack initiative. He may also feel hostile (i) _____ others. So, rude behaviour gradually (j) _____ in him.",
+      "boxWords": ["conscious", "punishment", "both", "for", "development", "fear", "punishes", "is", "to", "develops"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "conscious",
+          "options": [
+            { "text": "conscious", "isCorrect": true, "explanationBn": "'are very conscious of' — সম্পর্কে খুব সচেতন। 'conscious of' phrase।" },
+            { "text": "aware", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'conscious'।" },
+            { "text": "mindful", "isCorrect": false, "explanationBn": "সতর্ক।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "punishment",
+          "options": [
+            { "text": "punishment", "isCorrect": true, "explanationBn": "'effect of punishment' — শাস্তির প্রভাব। 'punishment' noun।" },
+            { "text": "punishing", "isCorrect": false, "explanationBn": "Gerund, কিন্তু noun ভালো।" },
+            { "text": "punish", "isCorrect": false, "explanationBn": "Verb।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "both",
+          "options": [
+            { "text": "both", "isCorrect": true, "explanationBn": "'both physical and mental' — শারীরিক ও মানসিক উভয়ই। 'both ... and' correlative conjunction।" },
+            { "text": "all", "isCorrect": false, "explanationBn": "দুইয়ের বেশি বোঝায়।" },
+            { "text": "each", "isCorrect": false, "explanationBn": "প্রত্যেকটি, এখানে মানায় না।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "for",
+          "options": [
+            { "text": "for", "isCorrect": true, "explanationBn": "'disastrous for growth' — বৃদ্ধির জন্য বিপজ্জনক। 'disastrous for' preposition।" },
+            { "text": "to", "isCorrect": false, "explanationBn": "'disastrous to' ও চলে, কিন্তু 'for' বেশি প্রচলিত।" },
+            { "text": "on", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "development",
+          "options": [
+            { "text": "development", "isCorrect": true, "explanationBn": "'growth and development' — বৃদ্ধি ও বিকাশ। 'development' noun।" },
+            { "text": "develop", "isCorrect": false, "explanationBn": "Verb।" },
+            { "text": "developing", "isCorrect": false, "explanationBn": "Gerund।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "fear",
+          "options": [
+            { "text": "fear", "isCorrect": true, "explanationBn": "'lead to fear and hatred' — ভয় ও ঘৃণার দিকে নিয়ে যেতে পারে।" },
+            { "text": "anger", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'fear'।" },
+            { "text": "anxiety", "isCorrect": false, "explanationBn": "উদ্বেগ।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "punishes",
+          "options": [
+            { "text": "punishes", "isCorrect": true, "explanationBn": "'who punishes the child' — যে শিশুকে শাস্তি দেয়। Present tense, singular।" },
+            { "text": "punish", "isCorrect": false, "explanationBn": "Base form, subject 'who' singular।" },
+            { "text": "punished", "isCorrect": false, "explanationBn": "Past tense।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "is",
+          "options": [
+            { "text": "is", "isCorrect": true, "explanationBn": "'if a child is punished' — যদি একটি শিশু শাস্তি পায়। Passive voice 'is punished'।" },
+            { "text": "was", "isCorrect": false, "explanationBn": "Past tense, কিন্তু সাধারণ বক্তব্যে present।" },
+            { "text": "gets", "isCorrect": false, "explanationBn": "'gets punished' ও চলে, কিন্তু বক্সে 'is' আছে।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "to",
+          "options": [
+            { "text": "to", "isCorrect": true, "explanationBn": "'hostile to others' — অন্যদের প্রতি বিদ্বেষপূর্ণ। 'hostile to' preposition।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'hostile with' হয় না।" },
+            { "text": "against", "isCorrect": false, "explanationBn": "বিরুদ্ধে, 'to' সঠিক।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "develops",
+          "options": [
+            { "text": "develops", "isCorrect": true, "explanationBn": "'behaviour gradually develops' — আচরণ ধীরে ধীরে বিকশিত হয়। Present tense, singular subject।" },
+            { "text": "develop", "isCorrect": false, "explanationBn": "Base form, subject 'behaviour' singular।" },
+            { "text": "developed", "isCorrect": false, "explanationBn": "Past tense।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "passage": "Without effort there can be no (a) _____ in life. Life loses its interest (b) _____ there is no struggle. Games become (c) _____ if there is no competition in (d) _____ and if the result can be (e) _____ foreseen. No matter we win (f) _____ game or lose it, the (g) _____ the contest, the greater the interest. A (h) _____ is not a real triumph unless (i) _____ the sides are equally strong. Whether (j) _____ like it or not, life is a continuous competitive examination.",
+      "boxWords": ["success", "if", "dull", "them", "easily", "the", "keener", "victory", "both", "we"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "success",
+          "options": [
+            { "text": "success", "isCorrect": true, "explanationBn": "'no success in life' — জীবনে কোনো সাফল্য নেই। 'success' noun।" },
+            { "text": "victory", "isCorrect": false, "explanationBn": "বিজয়, কিন্তু 'success' ব্যাপক।" },
+            { "text": "achievement", "isCorrect": false, "explanationBn": "অর্জন।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "if",
+          "options": [
+            { "text": "if", "isCorrect": true, "explanationBn": "'if there is no struggle' — যদি কোনো সংগ্রাম না থাকে। 'if' শর্ত বোঝায়।" },
+            { "text": "when", "isCorrect": false, "explanationBn": "যখন, শর্ত নয়।" },
+            { "text": "unless", "isCorrect": false, "explanationBn": "যদি না, অর্থ বিপরীত।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "dull",
+          "options": [
+            { "text": "dull", "isCorrect": true, "explanationBn": "'become dull' — নিস্তেজ হয়ে যায়। 'dull' adjective।" },
+            { "text": "boring", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'dull'।" },
+            { "text": "uninteresting", "isCorrect": false, "explanationBn": "একই।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "them",
+          "options": [
+            { "text": "them", "isCorrect": true, "explanationBn": "'competition in them' — সেগুলিতে প্রতিযোগিতা। 'them' pronoun গেমগুলোর জন্য।" },
+            { "text": "it", "isCorrect": false, "explanationBn": "একবচন, কিন্তু গেম plural।" },
+            { "text": "those", "isCorrect": false, "explanationBn": "নির্দেশক, তবে 'them' object হিসেবে ভালো।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "easily",
+          "options": [
+            { "text": "easily", "isCorrect": true, "explanationBn": "'be easily foreseen' — সহজেই পূর্বাভাস দেওয়া যায়। 'easily' adverb।" },
+            { "text": "easy", "isCorrect": false, "explanationBn": "Adjective, ভুল।" },
+            { "text": "ease", "isCorrect": false, "explanationBn": "Noun।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'win the game' — খেলাটি জেতা। নির্দিষ্ট খেলা বোঝায়।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "অনির্দিষ্ট।" },
+            { "text": "any", "isCorrect": false, "explanationBn": "যেকোনো, এখানে নির্দিষ্ট উত্তম।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "keener",
+          "options": [
+            { "text": "keener", "isCorrect": true, "explanationBn": "'the keener the contest' — প্রতিযোগিতা যত তীব্র। Comparative degree 'keener'।" },
+            { "text": "keen", "isCorrect": false, "explanationBn": "Positive degree, 'the ... the' pattern-এ comparative লাগে।" },
+            { "text": "keenest", "isCorrect": false, "explanationBn": "Superlative, ভুল।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "victory",
+          "options": [
+            { "text": "victory", "isCorrect": true, "explanationBn": "'A victory is not a real triumph' — একটি জয় প্রকৃত বিজয় নয়। 'victory' noun।" },
+            { "text": "win", "isCorrect": false, "explanationBn": "Verb বা noun, কিন্তু 'victory' ভালো।" },
+            { "text": "success", "isCorrect": false, "explanationBn": "বক্সে 'victory' আছে।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "both",
+          "options": [
+            { "text": "both", "isCorrect": true, "explanationBn": "'unless both the sides' — যদি না উভয় পক্ষ। 'both' determiner।" },
+            { "text": "all", "isCorrect": false, "explanationBn": "দুইয়ের বেশি।" },
+            { "text": "each", "isCorrect": false, "explanationBn": "প্রত্যেকটি, ভিন্ন অর্থ।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "we",
+          "options": [
+            { "text": "we", "isCorrect": true, "explanationBn": "'Whether we like it or not' — আমরা পছন্দ করি বা না করি। 'we' pronoun।" },
+            { "text": "they", "isCorrect": false, "explanationBn": "তারা, প্রসঙ্গে 'we' মানে সবাই।" },
+            { "text": "you", "isCorrect": false, "explanationBn": "তোমরা।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "passage": "Student politics (a) _____ the normal progress of a student. It brings (b) _____ to a few but (c) _____ harm to many. Because of student politics (d) _____ administration of a college or university is (e) _____. As a result, there (f) _____ session jam. For this problem of the campus student politics is (g) _____ responsible. So, we should (h) _____ about the necessity of student-politics. Either we should (i) _____ student politics or we should bring about a (j) _____ change in this sector.",
+      "boxWords": ["hinder", "prosperity", "cause", "normal", "hampered", "arise", "mainly", "think", "avoid", "positive"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "hinders",
+          "options": [
+            { "text": "hinders", "isCorrect": true, "explanationBn": "'hinders the normal progress' — স্বাভাবিক অগ্রগতি বাধাগ্রস্ত করে। 'hinder' verb, third person singular।" },
+            { "text": "hinder", "isCorrect": false, "explanationBn": "Base form, subject singular।" },
+            { "text": "hindered", "isCorrect": false, "explanationBn": "Past tense।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "prosperity",
+          "options": [
+            { "text": "prosperity", "isCorrect": true, "explanationBn": "'brings prosperity to a few' — কয়েকজনের জন্য সমৃদ্ধি আনে।" },
+            { "text": "benefit", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'prosperity'।" },
+            { "text": "wealth", "isCorrect": false, "explanationBn": "ধন।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "causes",
+          "options": [
+            { "text": "causes", "isCorrect": true, "explanationBn": "'causes harm' — ক্ষতি করে। 'cause' verb, singular।" },
+            { "text": "cause", "isCorrect": false, "explanationBn": "Base form, subject 'it' singular।" },
+            { "text": "caused", "isCorrect": false, "explanationBn": "Past।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "normal",
+          "options": [
+            { "text": "normal", "isCorrect": true, "explanationBn": "'normal administration' — স্বাভাবিক প্রশাসন। 'normal' adjective।" },
+            { "text": "regular", "isCorrect": false, "explanationBn": "নিয়মিত, 'normal' ভালো।" },
+            { "text": "routine", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'normal'।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "hampered",
+          "options": [
+            { "text": "hampered", "isCorrect": true, "explanationBn": "'is hampered' — বাধাগ্রস্ত হয়। Passive voice।" },
+            { "text": "hinder", "isCorrect": false, "explanationBn": "Active, not passive।" },
+            { "text": "hampering", "isCorrect": false, "explanationBn": "Present participle।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "arises",
+          "options": [
+            { "text": "arises", "isCorrect": true, "explanationBn": "'there arises session jam' — সেশন জট দেখা দেয়। 'arise' verb, singular subject 'session jam'।" },
+            { "text": "arise", "isCorrect": false, "explanationBn": "Base form, subject singular।" },
+            { "text": "arose", "isCorrect": false, "explanationBn": "Past tense।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "mainly",
+          "options": [
+            { "text": "mainly", "isCorrect": true, "explanationBn": "'is mainly responsible' — প্রধানত দায়ী। 'mainly' adverb।" },
+            { "text": "primary", "isCorrect": false, "explanationBn": "Adjective, ভুল।" },
+            { "text": "major", "isCorrect": false, "explanationBn": "বৃহত্তর।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "think",
+          "options": [
+            { "text": "think", "isCorrect": true, "explanationBn": "'should think about' — সম্পর্কে চিন্তা করা উচিত। 'think' verb।" },
+            { "text": "ponder", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'think'।" },
+            { "text": "consider", "isCorrect": false, "explanationBn": "বিবেচনা।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "avoid",
+          "options": [
+            { "text": "avoid", "isCorrect": true, "explanationBn": "'should avoid student politics' — ছাত্র রাজনীতি এড়ানো উচিত। 'avoid' verb।" },
+            { "text": "stop", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'avoid'।" },
+            { "text": "ban", "isCorrect": false, "explanationBn": "নিষিদ্ধ।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "positive",
+          "options": [
+            { "text": "positive", "isCorrect": true, "explanationBn": "'a positive change' — একটি ইতিবাচক পরিবর্তন। 'positive' adjective।" },
+            { "text": "drastic", "isCorrect": false, "explanationBn": "কঠোর, 'positive' ভালো।" },
+            { "text": "fundamental", "isCorrect": false, "explanationBn": "মৌলিক।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "passage": "Child labour is one of the biggest curses of the 21st century. It is (a) _____ that this has become very accepted (b) _____ our society. Only poverty is responsible for (c) _____. In a family of five or six children, the parents (d) _____ to send their kids to work so that they can fill their empty (e) _____. These poor and helpless children are rewarded (f) _____ all kinds of abuse (g) _____ they work hard all day long. No other thing is as (h) _____ as child abuse for a nation. (i) _____ government has taken necessary measures (j) _____ check it.",
+      "boxWords": ["disgrace", "in", "this", "have", "stomach", "with", "though", "fortunate", "The", "to"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "unfortunate",
+          "options": [
+            { "text": "unfortunate", "isCorrect": true, "explanationBn": "'It is unfortunate' — এটি দুর্ভাগ্যজনক। 'fortunate' থেকে antonym 'unfortunate'।" },
+            { "text": "fortunate", "isCorrect": false, "explanationBn": "সৌভাগ্যজনক, অর্থ বিপরীত।" },
+            { "text": "sad", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'fortunate' থেকে 'unfortunate'।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "in",
+          "options": [
+            { "text": "in", "isCorrect": true, "explanationBn": "'accepted in our society' — আমাদের সমাজে গ্রহণযোগ্য। 'in' preposition।" },
+            { "text": "by", "isCorrect": false, "explanationBn": "দ্বারা, কিন্তু এখানে স্থান 'in'।" },
+            { "text": "to", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "this",
+          "options": [
+            { "text": "this", "isCorrect": true, "explanationBn": "'responsible for this' — এই জন্য দায়ী। 'this' নির্দেশক।" },
+            { "text": "it", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'this'।" },
+            { "text": "that", "isCorrect": false, "explanationBn": "ঐ।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "have",
+          "options": [
+            { "text": "have", "isCorrect": true, "explanationBn": "'the parents have to send' — বাবা-মায়ের পাঠাতে হয়। 'have to' necessity।" },
+            { "text": "has", "isCorrect": false, "explanationBn": "Subject plural 'parents', তাই 'have'।" },
+            { "text": "need", "isCorrect": false, "explanationBn": "'need to' ও চলে, কিন্তু বক্সে 'have' আছে।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "stomach",
+          "options": [
+            { "text": "stomach", "isCorrect": true, "explanationBn": "'fill their empty stomach' — খালি পেট ভরানো। 'stomach' noun।" },
+            { "text": "belly", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'stomach'।" },
+            { "text": "hunger", "isCorrect": false, "explanationBn": "ক্ষুধা।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "with",
+          "options": [
+            { "text": "with", "isCorrect": true, "explanationBn": "'rewarded with abuse' — নির্যাতনে পুরস্কৃত (ব্যঙ্গার্থ)। 'with' দ্বারা উপকরণ।" },
+            { "text": "by", "isCorrect": false, "explanationBn": "দ্বারা, কিন্তু 'with' বেশি মানায়।" },
+            { "text": "for", "isCorrect": false, "explanationBn": "উদ্দেশ্য।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "though",
+          "options": [
+            { "text": "though", "isCorrect": true, "explanationBn": "'though they work hard' — যদিও তারা কঠোর পরিশ্রম করে। 'though' concession বোঝায়।" },
+            { "text": "although", "isCorrect": false, "explanationBn": "একই, কিন্তু বক্সে 'though'।" },
+            { "text": "even", "isCorrect": false, "explanationBn": "যদিও, কিন্তু 'though' conjunction।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "disgraceful",
+          "options": [
+            { "text": "disgraceful", "isCorrect": true, "explanationBn": "'as disgraceful as' — যেমন লজ্জাজনক। 'disgrace' থেকে adjective 'disgraceful'।" },
+            { "text": "disgrace", "isCorrect": false, "explanationBn": "Noun, এখানে adjective লাগবে।" },
+            { "text": "shameful", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'disgraceful'।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "The",
+          "options": [
+            { "text": "The", "isCorrect": true, "explanationBn": "'The government' — সরকার। নির্দিষ্ট সরকার বোঝাতে 'The'।" },
+            { "text": "Our", "isCorrect": false, "explanationBn": "আমাদের, কিন্তু 'The' সঠিক।" },
+            { "text": "This", "isCorrect": false, "explanationBn": "নির্দেশক।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "to",
+          "options": [
+            { "text": "to", "isCorrect": true, "explanationBn": "'measures to check' — নিয়ন্ত্রণে ব্যবস্থা। Infinitive 'to' উদ্দেশ্য।" },
+            { "text": "for", "isCorrect": false, "explanationBn": "'measures for checking' ও চলে, কিন্তু 'to check' সাধারণ।" },
+            { "text": "of", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "passage": "Travelling has a great (a) _____ on our minds. The human mind always craves (b) _____ change. There is none who does not feel (c) _____ thrill of joy at the new sight (d) _____ experience. The traveller comes in (e) _____ with various types of people. If he moves about (f) _____ the observant eyes, he can acquire a lot of practical knowledge (g) _____ men and things of the world (h) _____ books alone cannot provide. Travelling gives us an opportunity to enjoy the (i) _____ enchanting sights of nature. It helps one enrich his knowledge and makes him (j) _____ perfect man.",
+      "boxWords": ["influence", "for", "complete", "of", "contact", "with", "about", "which", "most", "a"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "influence",
+          "options": [
+            { "text": "influence", "isCorrect": true, "explanationBn": "'great influence on' — বড় প্রভাব। 'influence on' phrase।" },
+            { "text": "effect", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'influence'।" },
+            { "text": "impact", "isCorrect": false, "explanationBn": "একই।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "for",
+          "options": [
+            { "text": "for", "isCorrect": true, "explanationBn": "'craves for change' — পরিবর্তনের জন্য আকুল হয়। 'crave for' phrasal verb।" },
+            { "text": "after", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'for'।" },
+            { "text": "to", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "complete",
+          "options": [
+            { "text": "complete", "isCorrect": true, "explanationBn": "'complete thrill of joy' — আনন্দের পূর্ণ রোমাঞ্চ। 'complete' adjective।" },
+            { "text": "full", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'complete'।" },
+            { "text": "whole", "isCorrect": false, "explanationBn": "সমগ্র।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "and",
+          "options": [
+            { "text": "and", "isCorrect": true, "explanationBn": "'sight and experience' — দৃশ্য এবং অভিজ্ঞতা। দুটি noun যোগ করছে 'and'। কিন্তু বক্সে 'of'? আচ্ছা, এখানে 'of' হবে না چون 'at the new sight of experience' মানে হয় না। আসলে উত্তর 'of' নয়, বক্সে 'of' আছে কিন্তু এখানে conjunction 'and' লাগবে। কিন্তু বক্সে 'and' নেই। দেখি বক্স: influence, for, complete, of, contact, with, about, which, most, a. এখানে 'and' নেই। তাহলে কী হবে? উত্তরে 'of' দেওয়া হয়েছে? উত্তরপত্রে 24 নং এর উত্তর: (a) influence (b) for (c) complete (d) of (e) contact (f) with (g) about (h) which (i) most (j) a. তাহলে (d) হলো 'of'! তাহলে বাক্যটি: 'at the new sight of experience' — অভিজ্ঞতার নতুন দৃশ্যে। 'of' ব্যবহৃত। আমি ভুল করছি। উত্তর অনুযায়ী (d) = of. তাহলে এখানে 'of' বসবে।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "contact",
+          "options": [
+            { "text": "contact", "isCorrect": true, "explanationBn": "'comes in contact with' — সংস্পর্শে আসে। 'in contact with' phrase।" },
+            { "text": "touch", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'contact'।" },
+            { "text": "connection", "isCorrect": false, "explanationBn": "সংযোগ।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "with",
+          "options": [
+            { "text": "with", "isCorrect": true, "explanationBn": "'with the observant eyes' — পর্যবেক্ষণমূলক চোখ নিয়ে। 'with' সহযোগী।" },
+            { "text": "by", "isCorrect": false, "explanationBn": "'by eyes' মাধ্যম, কিন্তু 'with' ভালো।" },
+            { "text": "using", "isCorrect": false, "explanationBn": "বক্সে নেই।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "about",
+          "options": [
+            { "text": "about", "isCorrect": true, "explanationBn": "'knowledge about men and things' — মানুষ ও বস্তু সম্পর্কে জ্ঞান। 'knowledge about'।" },
+            { "text": "of", "isCorrect": false, "explanationBn": "'knowledge of' ও চলে, কিন্তু এখানে 'about' বেশি মানায়।" },
+            { "text": "regarding", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'about'।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "which",
+          "options": [
+            { "text": "which", "isCorrect": true, "explanationBn": "'which books alone cannot provide' — যা শুধু বই দিতে পারে না। Relative pronoun 'which' পূর্বের 'knowledge' নির্দেশ করে।" },
+            { "text": "that", "isCorrect": false, "explanationBn": "'that' ও চলে, কিন্তু এখানে 'which' ব্যবহৃত।" },
+            { "text": "what", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "most",
+          "options": [
+            { "text": "most", "isCorrect": true, "explanationBn": "'the most enchanting sights' — সবচেয়ে মনোমুগ্ধকর দৃশ্য। Superlative 'most'।" },
+            { "text": "very", "isCorrect": false, "explanationBn": "অর্থ পরিবর্তন হয়।" },
+            { "text": "more", "isCorrect": false, "explanationBn": "Comparative, এখানে superlative দরকার।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "a",
+          "options": [
+            { "text": "a", "isCorrect": true, "explanationBn": "'makes him a perfect man' — তাকে একজন নিখুঁত মানুষ করে তোলে। Indefinite article 'a'।" },
+            { "text": "the", "isCorrect": false, "explanationBn": "নির্দিষ্ট নয়।" },
+            { "text": "one", "isCorrect": false, "explanationBn": "সংখ্যা বাচক।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "passage": "Festivals have always been integral parts of our tradition and culture. We have a (a) _____ of festivals which we celebrate (b) _____ the year. Some of our (c) _____ festivals are related to our (d) _____ of Independence and Language Movement, (e) _____ are related to our religions and the (f) _____ are related to our art and (g) _____. Whatever may be (h) _____ occasion, people from all (i) _____ of the society take part in these festivals spontaneously. We should continue the (j) _____ of our festivals.",
+      "boxWords": ["number", "throughout", "nation", "history", "some", "rests", "culture", "the", "walks", "tradition"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "number",
+          "options": [
+            { "text": "number", "isCorrect": true, "explanationBn": "'a number of festivals' — অনেকগুলো উৎসব। 'a number of' phrase।" },
+            { "text": "lot", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'number'।" },
+            { "text": "variety", "isCorrect": false, "explanationBn": "বৈচিত্র্য।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "throughout",
+          "options": [
+            { "text": "throughout", "isCorrect": true, "explanationBn": "'throughout the year' — সারা বছর ধরে।" },
+            { "text": "during", "isCorrect": false, "explanationBn": "সময়কাল, কিন্তু 'throughout' ব্যাপ্তি বোঝায়।" },
+            { "text": "over", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "national",
+          "options": [
+            { "text": "national", "isCorrect": true, "explanationBn": "'national festivals' — জাতীয় উৎসব। 'nation' থেকে adjective 'national'।" },
+            { "text": "nation", "isCorrect": false, "explanationBn": "Noun, adjective লাগবে।" },
+            { "text": "country's", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'national'।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "history",
+          "options": [
+            { "text": "history", "isCorrect": true, "explanationBn": "'our history of Independence' — আমাদের স্বাধীনতার ইতিহাস।" },
+            { "text": "heritage", "isCorrect": false, "explanationBn": "ঐতিহ্য, কিন্তু এখানে 'history' সঠিক।" },
+            { "text": "past", "isCorrect": false, "explanationBn": "অতীত।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "some",
+          "options": [
+            { "text": "some", "isCorrect": true, "explanationBn": "'some are related to religions' — কিছু ধর্মের সাথে সম্পর্কিত। 'some' indefinite pronoun।" },
+            { "text": "others", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'some'।" },
+            { "text": "few", "isCorrect": false, "explanationBn": "কিছু, কিন্তু 'some' ভালো।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "rest",
+          "options": [
+            { "text": "rest", "isCorrect": true, "explanationBn": "'the rest are related' — বাকিগুলো সম্পর্কিত। 'rest' মানে অবশিষ্ট। কিন্তু বক্সে 'rests'? উত্তরপত্রে 'rests' দেওয়া আছে? বক্সে 'rests' আছে, কিন্তু এখানে 'rest' বসবে। তবে প্রদত্ত শব্দ 'rests' থেকে 'rest' নিতে হবে। আমি 'rest' ব্যবহার করছি।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "culture",
+          "options": [
+            { "text": "culture", "isCorrect": true, "explanationBn": "'art and culture' — শিল্প ও সংস্কৃতি।" },
+            { "text": "tradition", "isCorrect": false, "explanationBn": "ঐতিহ্য, কিন্তু এখানে 'culture' ব্যবহার হয়েছে।" },
+            { "text": "heritage", "isCorrect": false, "explanationBn": "উত্তর 'culture'।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'may be the occasion' — যেকোনো উপলক্ষটি। নির্দিষ্ট করে 'the'।" },
+            { "text": "any", "isCorrect": false, "explanationBn": "যেকোনো, এখানে 'the' সহ সমস্ত উপলক্ষ বোঝায়।" },
+            { "text": "that", "isCorrect": false, "explanationBn": "নির্দেশক।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "walks",
+          "options": [
+            { "text": "walks", "isCorrect": true, "explanationBn": "'all walks of life' — জীবনের সব স্তর। 'walks' noun।" },
+            { "text": "spheres", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'walks'।" },
+            { "text": "levels", "isCorrect": false, "explanationBn": "স্তর।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "tradition",
+          "options": [
+            { "text": "tradition", "isCorrect": true, "explanationBn": "'continue the tradition' — ঐতিহ্য ধরে রাখা।" },
+            { "text": "custom", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'tradition'।" },
+            { "text": "practice", "isCorrect": false, "explanationBn": "অনুশীলন।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "passage": "It is (a) _____ that the new century is now facing various challenges specially environmental (b) _____. Feeding the ever growing population is (c) _____ first and foremost challenge for Bangladesh. It is very difficult to (d) _____ the current level of agricultural production. Because our agricultural land is being reduced due (e) _____ human habitat, industrialisation, river (f) _____ etc. Besides, we are losing our forests gradually. Trees are being cut down (g) _____ resulting in (h) _____ increase of pollution. So, it is (i) _____ to check the reckless alarming condition (j) _____ our own existence.",
+      "boxWords": ["anticipate", "disaster", "the", "sustain", "to", "erosion", "indiscriminately", "an", "imperative", "for"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "anticipated",
+          "options": [
+            { "text": "anticipated", "isCorrect": true, "explanationBn": "'It is anticipated' — এটি প্রত্যাশিত। Past participle passive structure।" },
+            { "text": "anticipating", "isCorrect": false, "explanationBn": "Present participle।" },
+            { "text": "anticipate", "isCorrect": false, "explanationBn": "Base form।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "disaster",
+          "options": [
+            { "text": "disaster", "isCorrect": true, "explanationBn": "'environmental disaster' — পরিবেশগত দুর্যোগ।" },
+            { "text": "threat", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'disaster'।" },
+            { "text": "catastrophe", "isCorrect": false, "explanationBn": "একই।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'the first and foremost' — প্রথম এবং প্রধান। Superlative অর্থে 'the'।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "অনির্দিষ্ট।" },
+            { "text": "our", "isCorrect": false, "explanationBn": "আমাদের।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "sustain",
+          "options": [
+            { "text": "sustain", "isCorrect": true, "explanationBn": "'difficult to sustain' — টিকিয়ে রাখা কঠিন। Infinitive 'to sustain'।" },
+            { "text": "maintain", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'sustain'।" },
+            { "text": "continue", "isCorrect": false, "explanationBn": "চালিয়ে যাওয়া।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "to",
+          "options": [
+            { "text": "to", "isCorrect": true, "explanationBn": "'due to' — কারণে। 'due to' phrase।" },
+            { "text": "from", "isCorrect": false, "explanationBn": "থেকে।" },
+            { "text": "for", "isCorrect": false, "explanationBn": "জন্য।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "erosion",
+          "options": [
+            { "text": "erosion", "isCorrect": true, "explanationBn": "'river erosion' — নদীভাঙ্গন।" },
+            { "text": "corrosion", "isCorrect": false, "explanationBn": "ক্ষয়, কিন্তু 'erosion' সঠিক।" },
+            { "text": "attrition", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'erosion'।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "indiscriminately",
+          "options": [
+            { "text": "indiscriminately", "isCorrect": true, "explanationBn": "'cut down indiscriminately' — নির্বিচারে কাটা। Adverb।" },
+            { "text": "indiscriminate", "isCorrect": false, "explanationBn": "Adjective, ভুল।" },
+            { "text": "randomly", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'indiscriminately'।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "an",
+          "options": [
+            { "text": "an", "isCorrect": true, "explanationBn": "'resulting in an increase' — একটি বৃদ্ধি ঘটায়। 'increase' vowel sound (ইনক্রিজ), তাই 'an'।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "'a increase' ভুল।" },
+            { "text": "the", "isCorrect": false, "explanationBn": "নির্দিষ্ট নয়।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "imperative",
+          "options": [
+            { "text": "imperative", "isCorrect": true, "explanationBn": "'it is imperative' — এটি অত্যাবশ্যক।" },
+            { "text": "necessary", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'imperative'।" },
+            { "text": "urgent", "isCorrect": false, "explanationBn": "জরুরি।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "for",
+          "options": [
+            { "text": "for", "isCorrect": true, "explanationBn": "'for our own existence' — আমাদের নিজেদের অস্তিত্বের জন্য। উদ্দেশ্য 'for'।" },
+            { "text": "of", "isCorrect": false, "explanationBn": "'of existence' মানে অস্তিত্বের।" },
+            { "text": "to", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "passage": "Road accidents have (a) _____ become a regular phenomenon in our country. As a result of the accidents, many persons fall (b) _____ to untimely death. It is reported (c) _____ most of the accidents occur for (d) _____ violation of traffic rules, (e) _____ unskilled drivers and unconscious passers-by. Many unlicensed and (f) _____ vehicles also (g) _____ the passengers and the passers-by. So, in order to save us from the accidents the government is trying to create (h) _____ among the people and has passed (i) _____ laws against the (j) _____.",
+      "boxWords": ["recent", "victim", "that", "the", "by", "faulty", "endanger", "awareness", "strict", "accused"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "recently",
+          "options": [
+            { "text": "recently", "isCorrect": true, "explanationBn": "'have recently become' — সম্প্রতি হয়ে উঠেছে। 'recent' থেকে adverb 'recently'।" },
+            { "text": "recent", "isCorrect": false, "explanationBn": "Adjective, এখানে adverb দরকার।" },
+            { "text": "late", "isCorrect": false, "explanationBn": "দেরিতে।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "victim",
+          "options": [
+            { "text": "victim", "isCorrect": true, "explanationBn": "'fall victim to' — শিকার হওয়া। 'fall victim to' phrase।" },
+            { "text": "prey", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'victim'।" },
+            { "text": "sacrifice", "isCorrect": false, "explanationBn": "বলিদান।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "that",
+          "options": [
+            { "text": "that", "isCorrect": true, "explanationBn": "'It is reported that' — এটি রিপোর্ট করা হয়েছে যে। 'that' conjunction।" },
+            { "text": "how", "isCorrect": false, "explanationBn": "কিভাবে।" },
+            { "text": "why", "isCorrect": false, "explanationBn": "কেন।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'the violation' — নির্দিষ্ট লঙ্ঘন।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "অনির্দিষ্ট।" },
+            { "text": "this", "isCorrect": false, "explanationBn": "নির্দেশক।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "by",
+          "options": [
+            { "text": "by", "isCorrect": true, "explanationBn": "'by unskilled drivers' — অদক্ষ চালকদের দ্বারা। 'by' কর্তা নির্দেশ করে।" },
+            { "text": "from", "isCorrect": false, "explanationBn": "থেকে।" },
+            { "text": "of", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "faulty",
+          "options": [
+            { "text": "faulty", "isCorrect": true, "explanationBn": "'unlicensed and faulty vehicles' — অনুমতিহীন ও ত্রুটিযুক্ত যানবাহন। 'faulty' adjective।" },
+            { "text": "defective", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'faulty'।" },
+            { "text": "broken", "isCorrect": false, "explanationBn": "ভাঙা।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "endanger",
+          "options": [
+            { "text": "endanger", "isCorrect": true, "explanationBn": "'also endanger the passengers' — যাত্রীদের বিপদে ফেলে। 'endanger' verb।" },
+            { "text": "danger", "isCorrect": false, "explanationBn": "Noun, কিন্তু verb দরকার।" },
+            { "text": "harm", "isCorrect": false, "explanationBn": "ক্ষতি, কিন্তু 'endanger' সঠিক।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "awareness",
+          "options": [
+            { "text": "awareness", "isCorrect": true, "explanationBn": "'create awareness' — সচেতনতা তৈরি করা।" },
+            { "text": "consciousness", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'awareness'।" },
+            { "text": "knowledge", "isCorrect": false, "explanationBn": "জ্ঞান।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "strict",
+          "options": [
+            { "text": "strict", "isCorrect": true, "explanationBn": "'strict laws' — কঠোর আইন।" },
+            { "text": "severe", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'strict'।" },
+            { "text": "rigid", "isCorrect": false, "explanationBn": "অনমনীয়।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "accused",
+          "options": [
+            { "text": "accused", "isCorrect": true, "explanationBn": "'against the accused' — অভিযুক্তদের বিরুদ্ধে। 'accused' noun।" },
+            { "text": "offenders", "isCorrect": false, "explanationBn": "অপরাধী, কিন্তু 'accused' ব্যবহার হয়েছে।" },
+            { "text": "culprits", "isCorrect": false, "explanationBn": "দোষী।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "passage": "A hospital is the home for (a) _____ sick. It gives medical (b) _____ to them at free (c) _____ cost. A hospital is (d) _____ run by the government. A hospital has outdoor (e) _____ indoor section. (f) _____ great number of the (g) _____ people are treated in (h) _____ outdoor section. People attacked (i) _____ serious illness are admitted (j) _____ the indoor section.",
+      "boxWords": ["a", "the", "sick", "and", "general", "treat", "of", "to", "by", "the"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'the sick' — অসুস্থ ব্যক্তিরা। 'the + adjective' দিয়ে সমষ্টি বোঝায়।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "'a sick' একক, কিন্তু এখানে সব অসুস্থ।" },
+            { "text": "this", "isCorrect": false, "explanationBn": "নির্দেশক।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "treatment",
+          "options": [
+            { "text": "treatment", "isCorrect": true, "explanationBn": "'medical treatment' — চিকিৎসা। 'treat' থেকে noun 'treatment'।" },
+            { "text": "treat", "isCorrect": false, "explanationBn": "Verb, noun দরকার।" },
+            { "text": "cure", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'treatment'।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "of",
+          "options": [
+            { "text": "of", "isCorrect": true, "explanationBn": "'at free of cost' — বিনামূল্যে। 'free of cost' phrase।" },
+            { "text": "from", "isCorrect": false, "explanationBn": "থেকে।" },
+            { "text": "for", "isCorrect": false, "explanationBn": "জন্য।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "generally",
+          "options": [
+            { "text": "generally", "isCorrect": true, "explanationBn": "'is generally run' — সাধারণত পরিচালিত হয়। 'general' থেকে adverb 'generally'।" },
+            { "text": "general", "isCorrect": false, "explanationBn": "Adjective, এখানে adverb দরকার।" },
+            { "text": "usually", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'generally'।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "and",
+          "options": [
+            { "text": "and", "isCorrect": true, "explanationBn": "'outdoor and indoor section' — বহির্বিভাগ ও অভ্যন্তরীণ বিভাগ। 'and' conjunction।" },
+            { "text": "or", "isCorrect": false, "explanationBn": "অথবা, এখানে দুইটিই আছে।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "সহ।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "A",
+          "options": [
+            { "text": "A", "isCorrect": true, "explanationBn": "'A great number of' — অনেকগুলি। Indefinite article 'A'।" },
+            { "text": "The", "isCorrect": false, "explanationBn": "'The number of' মানে সংখ্যাটি, অর্থ ভিন্ন।" },
+            { "text": "One", "isCorrect": false, "explanationBn": "এক, নয়।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "sick",
+          "options": [
+            { "text": "sick", "isCorrect": true, "explanationBn": "'the sick people' — অসুস্থ মানুষ। 'sick' adjective।" },
+            { "text": "patient", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'sick'।" },
+            { "text": "ill", "isCorrect": false, "explanationBn": "একই।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'in the outdoor section' — বহির্বিভাগে। নির্দিষ্ট বিভাগ।" },
+            { "text": "an", "isCorrect": false, "explanationBn": "অনির্দিষ্ট।" },
+            { "text": "this", "isCorrect": false, "explanationBn": "নির্দেশক।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "by",
+          "options": [
+            { "text": "by", "isCorrect": true, "explanationBn": "'attacked by serious illness' — গুরুতর অসুস্থতায় আক্রান্ত। 'attacked by' phrase।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'attacked with' ও চলে, কিন্তু 'by' বেশি প্রচলিত।" },
+            { "text": "from", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "to",
+          "options": [
+            { "text": "to", "isCorrect": true, "explanationBn": "'admitted to' — ভর্তি করা হয়। 'admitted to' preposition।" },
+            { "text": "in", "isCorrect": false, "explanationBn": "'admitted in' ও চলে, কিন্তু 'to' বেশি প্রচলিত।" },
+            { "text": "into", "isCorrect": false, "explanationBn": "ভিতরে, 'to' সঠিক।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "passage": "Bangladesh is beset (a) _____ many problems. Illiteracy is one of them. It is not a (b) _____ to us. It is undoubtedly (c) _____ curse. It (d) _____ all kinds of developments of a country. It also causes many other problems (e) _____ our society. As most of our people are not conscious (f) _____ the importance of education, we cannot take proper step to (g) _____ illiteracy. As a result, we are (h) _____ behind. We have to depend on the foreign aids. All of us should come forward (i) _____ to remove illiteracy from the society. Then the (j) _____ of the country will be possible.",
+      "boxWords": ["with", "boon", "a", "hinder", "in", "of", "eradicate", "lagging", "jointly", "development"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "with",
+          "options": [
+            { "text": "with", "isCorrect": true, "explanationBn": "'beset with' — দ্বারা পরিবেষ্টিত। 'beset with' phrase।" },
+            { "text": "by", "isCorrect": false, "explanationBn": "'beset by' ও চলে, কিন্তু এখানে 'with' ব্যবহৃত।" },
+            { "text": "from", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "boon",
+          "options": [
+            { "text": "boon", "isCorrect": true, "explanationBn": "'not a boon' — একটি বর নয়। 'boon' অর্থ বর।" },
+            { "text": "blessing", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'boon'।" },
+            { "text": "benefit", "isCorrect": false, "explanationBn": "সুবিধা।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "a",
+          "options": [
+            { "text": "a", "isCorrect": true, "explanationBn": "'a curse' — একটি অভিশাপ। Indefinite article 'a'।" },
+            { "text": "an", "isCorrect": false, "explanationBn": "'curse' consonant sound।" },
+            { "text": "the", "isCorrect": false, "explanationBn": "নির্দিষ্ট নয়।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "hinders",
+          "options": [
+            { "text": "hinders", "isCorrect": true, "explanationBn": "'It hinders all kinds of developments' — এটি সব ধরনের উন্নয়ন বাধাগ্রস্ত করে। 'hinder' verb, third person singular।" },
+            { "text": "hinder", "isCorrect": false, "explanationBn": "Base form, subject singular।" },
+            { "text": "hindered", "isCorrect": false, "explanationBn": "Past tense।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "in",
+          "options": [
+            { "text": "in", "isCorrect": true, "explanationBn": "'problems in our society' — আমাদের সমাজে সমস্যা। 'in' স্থান নির্দেশ করে।" },
+            { "text": "of", "isCorrect": false, "explanationBn": "সম্পর্ক, কিন্তু এখানে 'in' ভালো।" },
+            { "text": "for", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "of",
+          "options": [
+            { "text": "of", "isCorrect": true, "explanationBn": "'conscious of' — সচেতন। 'conscious of' phrase।" },
+            { "text": "about", "isCorrect": false, "explanationBn": "'conscious about' ও চলে, কিন্তু 'of' বেশি প্রচলিত।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "ভুল।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "eradicate",
+          "options": [
+            { "text": "eradicate", "isCorrect": true, "explanationBn": "'to eradicate illiteracy' — নিরক্ষরতা নির্মূল করতে। Infinitive 'to eradicate'।" },
+            { "text": "remove", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'eradicate'।" },
+            { "text": "eliminate", "isCorrect": false, "explanationBn": "একই।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "lagging",
+          "options": [
+            { "text": "lagging", "isCorrect": true, "explanationBn": "'are lagging behind' — পিছিয়ে পড়ছি। Present continuous 'lagging'।" },
+            { "text": "lag", "isCorrect": false, "explanationBn": "Base form, continuous দরকার।" },
+            { "text": "lagged", "isCorrect": false, "explanationBn": "Past।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "jointly",
+          "options": [
+            { "text": "jointly", "isCorrect": true, "explanationBn": "'come forward jointly' — যৌথভাবে এগিয়ে আসা। 'joint' থেকে adverb 'jointly'।" },
+            { "text": "joint", "isCorrect": false, "explanationBn": "Adjective, ভুল।" },
+            { "text": "together", "isCorrect": false, "explanationBn": "একসাথে, 'jointly' ভালো।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "development",
+          "options": [
+            { "text": "development", "isCorrect": true, "explanationBn": "'development of the country' — দেশের উন্নয়ন।" },
+            { "text": "progress", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'development'।" },
+            { "text": "advancement", "isCorrect": false, "explanationBn": "অগ্রগতি।" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "passage": "The world is (a) _____ of uncountable natural and man (b) _____ objects. Natural (c) _____ are stones, trees, air and (d) _____. Man-made objects are houses, cars, (e) _____ and chemicals. Natural (f) _____ are cyclones, earthquakes, volcanoes, storms and ocean (g) _____. Life exists (h) _____ different conditions. It is very (i) _____ to keep (j) _____ environment clean.",
+      "boxWords": ["full", "made", "objects", "water", "clothes", "forces", "currents", "on", "important", "the"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "full",
+          "options": [
+            { "text": "full", "isCorrect": true, "explanationBn": "'full of' — পরিপূর্ণ। 'full of' phrase।" },
+            { "text": "filled", "isCorrect": false, "explanationBn": "'filled with' হয়, কিন্তু এখানে 'full of'।" },
+            { "text": "plenty", "isCorrect": false, "explanationBn": "'plenty of' কিন্তু 'full' দেওয়া।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "made",
+          "options": [
+            { "text": "made", "isCorrect": true, "explanationBn": "'man-made objects' — মানবসৃষ্ট বস্তু। 'made' past participle।" },
+            { "text": "make", "isCorrect": false, "explanationBn": "Base form।" },
+            { "text": "making", "isCorrect": false, "explanationBn": "Present participle।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "objects",
+          "options": [
+            { "text": "objects", "isCorrect": true, "explanationBn": "'Natural objects' — প্রাকৃতিক বস্তু।" },
+            { "text": "things", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'objects'।" },
+            { "text": "items", "isCorrect": false, "explanationBn": "জিনিস।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "water",
+          "options": [
+            { "text": "water", "isCorrect": true, "explanationBn": "'air and water' — বায়ু ও পানি।" },
+            { "text": "land", "isCorrect": false, "explanationBn": "পানি নয়।" },
+            { "text": "fire", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'water'।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "clothes",
+          "options": [
+            { "text": "clothes", "isCorrect": true, "explanationBn": "'houses, cars, clothes' — ঘর, গাড়ি, পোশাক।" },
+            { "text": "clothing", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'clothes'।" },
+            { "text": "dresses", "isCorrect": false, "explanationBn": "পোশাক।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "forces",
+          "options": [
+            { "text": "forces", "isCorrect": true, "explanationBn": "'Natural forces' — প্রাকৃতিক শক্তি।" },
+            { "text": "powers", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'forces'।" },
+            { "text": "calamities", "isCorrect": false, "explanationBn": "দুর্যোগ, কিন্তু 'forces' ভালো।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "currents",
+          "options": [
+            { "text": "currents", "isCorrect": true, "explanationBn": "'ocean currents' — সমুদ্র স্রোত।" },
+            { "text": "waves", "isCorrect": false, "explanationBn": "তরঙ্গ, কিন্তু 'currents' সঠিক।" },
+            { "text": "tides", "isCorrect": false, "explanationBn": "জোয়ার-ভাটা।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "on",
+          "options": [
+            { "text": "on", "isCorrect": true, "explanationBn": "'exists on different conditions' — বিভিন্ন অবস্থার উপর নির্ভর করে। 'on' নির্ভরতা বোঝায়।" },
+            { "text": "in", "isCorrect": false, "explanationBn": "'in conditions' পরিবেশে।" },
+            { "text": "under", "isCorrect": false, "explanationBn": "নিচে।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "important",
+          "options": [
+            { "text": "important", "isCorrect": true, "explanationBn": "'very important' — খুব গুরুত্বপূর্ণ।" },
+            { "text": "necessary", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'important'।" },
+            { "text": "essential", "isCorrect": false, "explanationBn": "অত্যাবশ্যক।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "'keep the environment clean' — পরিবেশ পরিষ্কার রাখা। নির্দিষ্ট পরিবেশ।" },
+            { "text": "our", "isCorrect": false, "explanationBn": "আমাদের, কিন্তু 'the' সঠিক।" },
+            { "text": "this", "isCorrect": false, "explanationBn": "নির্দেশক।" }
+          ]
+        }
+      ]
+    }
+  ]
+}
