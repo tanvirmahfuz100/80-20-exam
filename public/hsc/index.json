@@ -52,6 +52,66 @@
               "file_en": "/hsc/accounting_2nd/english/chapter_4.json"
             }
           ]
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_5.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_5.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_6.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_6.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_7",
+          "name": "Chapter 7",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch7",
+              "name": "Chapter 7 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_7.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_7.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_8.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_8.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_9_10",
+          "name": "Chapters 9-10",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch9_10",
+              "name": "Chapters 9-10 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_9_10.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_9_10.json"
+            }
+          ]
         }
       ]
     }
