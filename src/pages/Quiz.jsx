@@ -133,9 +133,21 @@ const Quiz = () => {
                         const base = import.meta.env.BASE_URL || '/';
                         fileUrl = `${base}${fileUrl.replace(/^\//, '')}`;
                     }
-                    const res = await fetch(fileUrl);
-                    const data = await res.json();
-                    setQuestions(normalizeQuizQuestions({ questions: data }));
+                        const res = await fetch(fileUrl);
+                        const data = await res.json();
+
+                        // Support multiple legacy JSON shapes:
+                        // - Array of questions
+                        // - { questions: [...] }
+                        // - { passages: [...] } (articles/reading passages)
+                        let questionArray = [];
+                        if (Array.isArray(data)) questionArray = data;
+                        else if (Array.isArray(data.questions)) questionArray = data.questions;
+                        else if (Array.isArray(data.passages)) questionArray = data.passages;
+                        else if (Array.isArray(data.items)) questionArray = data.items;
+                        else questionArray = [];
+
+                        setQuestions(normalizeQuizQuestions({ questions: questionArray }));
                 }
             } catch (err) {
                 setError(err.message);

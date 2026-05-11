@@ -117,7 +117,7 @@ const toQuestionRecord = (questionFile, chapter) => {
 
 const getAllJsonQuestions = async () => {
     const base = import.meta.env.BASE_URL || '/';
-    const indexPaths = ['iba/index.json', 'ssc/index.json'].map(p => `${base}${p}`);
+    const indexPaths = ['iba/index.json', 'ssc/index.json', 'hsc/index.json'].map(p => `${base}${p}`);
     const indexJsons = [];
 
     for (const p of indexPaths) {
