@@ -48,7 +48,8 @@
             {
               "id": "hsc_accounting_ch4",
               "name": "Chapter 4 Questions",
-              "file_bn": "/hsc/accounting_2nd/chapter_4.json"
+              "file_bn": "/hsc/accounting_2nd/chapter_4.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_4.json"
             }
           ]
         }
