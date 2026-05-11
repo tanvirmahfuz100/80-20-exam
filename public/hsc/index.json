@@ -16,6 +16,18 @@
               "file_en": "/hsc/accounting_2nd/english/chapter_1.json"
             }
           ]
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2: Partnership Accounting",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_2.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_2.json"
+            }
+          ]
         }
       ]
     }

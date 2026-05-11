@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
+import { motion } from 'framer-motion';
 import { useSearchParams, useNavigate, useParams, Link } from 'react-router-dom';
 import {
     ArrowLeft, CheckCircle, XCircle, ChevronRight,
@@ -73,6 +74,9 @@ const Quiz = () => {
     const [results, setResults] = useState([]);
     const [starBalance, setStarBalance] = useState(0);
     const [pendingStars, setPendingStars] = useState({});
+    const [flyingStars, setFlyingStars] = useState([]);
+    const [balanceGlow, setBalanceGlow] = useState(false);
+    const starTargetRef = useRef(null);
 
     // Timer state
     const [timeLeft, setTimeLeft] = useState(0);
@@ -165,6 +169,7 @@ const Quiz = () => {
 
     useEffect(() => {
         localStorage.setItem('quiz_star_balance', String(starBalance));
+        window.dispatchEvent(new Event('quizBalanceUpdated'));
     }, [starBalance]);
 
     useEffect(() => {
@@ -196,7 +201,25 @@ const Quiz = () => {
 
     const getQuestionKey = (question) => question.uuid || question.id || question.text || `question-${currentIndex}`;
 
-    const handleOptionSelect = async (index) => {
+    const createFlyingStar = (buttonRect, clickX, clickY) => {
+        const topbarIcon = document.querySelector('.topbar-star-icon');
+        const topbarTarget = document.querySelector('.topbar-star-target');
+        const targetRect = topbarIcon?.getBoundingClientRect() || topbarTarget?.getBoundingClientRect() || starTargetRef.current?.getBoundingClientRect();
+        const starSize = 40;
+        const targetOffset = starSize / 2;
+        const id = `${Date.now()}-${Math.random().toString(36).slice(2, 5)}`;
+        const startX = buttonRect ? buttonRect.left + buttonRect.width / 2 - targetOffset : clickX - targetOffset;
+        const startY = buttonRect ? buttonRect.top + buttonRect.height / 2 - targetOffset : clickY - targetOffset;
+        const endX = targetRect ? targetRect.left + targetRect.width / 2 - targetOffset : startX;
+        const endY = targetRect ? targetRect.top + targetRect.height / 2 - targetOffset : startY;
+
+        setFlyingStars((prev) => [...prev, { id, startX, startY, endX, endY }]);
+        setBalanceGlow(true);
+        window.setTimeout(() => setBalanceGlow(false), 500);
+        window.setTimeout(() => setFlyingStars((prev) => prev.filter((star) => star.id !== id)), 1200);
+    };
+
+    const handleOptionSelect = async (index, event) => {
         if (isAnswered) return;
 
         const currentQ = questions[currentIndex];
@@ -205,6 +228,11 @@ const Quiz = () => {
         const isCorrect = selectedOriginalIdx === currentQ.correct;
         const questionKey = getQuestionKey(currentQ);
         const alreadyPending = !!pendingStars[questionKey];
+
+        if (!isCorrect && !alreadyPending) {
+            const buttonRect = event.currentTarget?.getBoundingClientRect();
+            createFlyingStar(buttonRect, event.clientX, event.clientY);
+        }
 
         setSelectedOption(index);
         setIsAnswered(true);
@@ -332,6 +360,20 @@ const Quiz = () => {
 
     return (
         <div className="max-w-5xl mx-auto space-y-8 pb-32">
+            <div className="pointer-events-none">
+                {flyingStars.map((star) => (
+                    <motion.div
+                        key={star.id}
+                        className="fixed z-[60] pointer-events-none"
+                        initial={{ x: star.startX, y: star.startY, opacity: 1, scale: 1 }}
+                        animate={{ x: star.endX, y: star.endY, opacity: 0, scale: 0.35 }}
+                        transition={{ duration: 1.8, ease: [0.25, 0.1, 0.25, 1] }}
+                        style={{ width: 40, height: 40 }}
+                    >
+                        <Star className="w-full h-full text-yellow-300 drop-shadow-xl" />
+                    </motion.div>
+                ))}
+            </div>
             {/* Simulation Header */}
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
                 <div className="flex items-center gap-4">
@@ -360,7 +402,7 @@ const Quiz = () => {
                         <Zap className="w-4 h-4 text-primary fill-primary" />
                         <span className="text-primary font-black text-sm tracking-tighter">{totalXpSoFar} POINTS</span>
                     </div>
-                    <div className="bg-yellow-500/10 border border-yellow-500/20 px-4 py-2 rounded-xl flex items-center gap-2">
+                    <div className={`bg-yellow-500/10 border border-yellow-500/20 px-4 py-2 rounded-xl flex items-center gap-2 transition-all ${balanceGlow ? 'ring-2 ring-yellow-400/80 shadow-[0_0_20px_rgba(245,158,11,0.35)]' : ''}`}>
                         <Star className="w-4 h-4 text-yellow-300" />
                         <span className="text-yellow-300 font-black text-sm tracking-tighter">{starBalance} STARS</span>
                     </div>
@@ -424,7 +466,7 @@ const Quiz = () => {
                                         <button
                                             key={idx}
                                             disabled={isAnswered}
-                                            onClick={() => handleOptionSelect(idx)}
+                                            onClick={(e) => handleOptionSelect(idx, e)}
                                             className={`w-full text-left p-6 rounded-2xl border transition-all flex items-center justify-between group/opt ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-xl shadow-emerald-500/5' :
                                                 state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300 shadow-xl shadow-yellow-500/5' :
                                                     state === 'selected' ? 'bg-primary/20 border-primary text-white shadow-2xl shadow-primary/20 scale-[1.02]' :
