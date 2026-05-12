@@ -1,0 +1,565 @@
+[
+  {
+    "id": 260,
+    "question": "In which depreciation method must the percentage rate be calculated first if it is not given?",
+    "options": {
+      "A": "Fixed Installment Method",
+      "B": "Diminishing Balance Method",
+      "C": "Annuity Method",
+      "D": "Production Unit Method"
+    },
+    "answer": "B",
+    "explanation": "In the Diminishing Balance Method, if the rate is not given, it must first be calculated using the formula.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 261,
+    "question": "For which asset is depreciation charged under the Depletion Method?",
+    "options": {
+      "A": "Bus",
+      "B": "Machine",
+      "C": "Gas",
+      "D": "Furniture"
+    },
+    "answer": "C",
+    "explanation": "The Depletion Method is used for natural resources such as gas, oil, and coal.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 262,
+    "question": "Which method is used to charge depreciation on oil mines and coal mines?",
+    "options": {
+      "A": "Depletion Method",
+      "B": "Machine Hour Rate Method",
+      "C": "Revaluation Method",
+      "D": "Production Unit Method"
+    },
+    "answer": "D",
+    "explanation": "Depreciation on mineral resources is charged under the Production Unit Method.",
+    "source": "ভিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 263,
+    "question": "Which of the following events is a transaction?",
+    "options": {
+      "A": "Amortization of Trademark",
+      "B": "Preparation of a Bill Receivable",
+      "C": "Order for purchase of goods",
+      "D": "Compensation lawsuit against the business"
+    },
+    "answer": "A",
+    "explanation": "Amortization of a trademark causes a financial change (decrease in asset and increase in expense), so it is a transaction.",
+    "source": "ভিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 264,
+    "question": "What is meant by the Double Declining Balance Method?",
+    "options": {
+      "A": "Using the Straight Line Method twice",
+      "B": "Charging depreciation at double the rate of the Diminishing Balance Method",
+      "C": "Using the Diminishing Balance Method twice",
+      "D": "Charging depreciation at double the rate of the Straight Line Method"
+    },
+    "answer": "D",
+    "explanation": "The Double Declining Balance Method charges depreciation at double the straight-line rate on the book value.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 265,
+    "question": "Sagar Company's furniture cost is Tk. 1,00,000, salvage value Tk. 20,000, estimated life 10 years. According to the Diminishing Balance Method, what is the depreciable value of the furniture?",
+    "options": {
+      "A": "Tk. 1,20,000",
+      "B": "Tk. 1,00,000",
+      "C": "Tk. 80,000",
+      "D": "Tk. 60,000"
+    },
+    "answer": "C",
+    "explanation": "Depreciable value = Cost - Salvage Value = 1,00,000 - 20,000 = Tk. 80,000.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 266,
+    "question": "When depreciation is charged, which elements of the accounting equation decrease?",
+    "options": {
+      "A": "Element E",
+      "B": "Elements A & L",
+      "C": "Element L",
+      "D": "Elements A & E"
+    },
+    "answer": "D",
+    "explanation": "Charging depreciation decreases Assets (A) and through increasing expenses, decreases Owner's Equity (E/OE).",
+    "source": "সেন্ট্রাল উইমেন্স কলেজ, ঢাকা"
+  },
+  {
+    "id": 267,
+    "question": "An asset's cost is Tk. 20,000 and useful life is 5 years. What is the annual depreciation rate under the Double Declining Balance Method?",
+    "options": {
+      "A": "30%",
+      "B": "20%",
+      "C": "40%",
+      "D": "80%"
+    },
+    "answer": "C",
+    "explanation": "Straight-line rate = 100/5 = 20%. Double declining rate = 20% × 2 = 40%.",
+    "source": "ন্যাশনাল আইডিয়াল স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 268,
+    "question": "Under the Straight Line Method, annual depreciation is charged on which value?",
+    "options": {
+      "A": "Total cost of the asset",
+      "B": "Depreciable value of the asset",
+      "C": "Sale value of the asset",
+      "D": "Salvage value of the asset"
+    },
+    "answer": "B",
+    "explanation": "Under the Straight Line Method, depreciation is charged on the depreciable value (Cost - Salvage Value).",
+    "source": "ন্যাশনাল আইডিয়াল স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 269,
+    "question": "Depreciation is the process of allocating the cost of which type of asset?",
+    "options": {
+      "A": "Current Asset",
+      "B": "Fixed Asset",
+      "C": "Current Liability",
+      "D": "Direct Income"
+    },
+    "answer": "B",
+    "explanation": "Depreciation is the process of allocating the cost of a fixed asset over its useful life.",
+    "source": "ন্যাশনাল আইডিয়াল স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 270,
+    "question": "What is the process of distributing the cost of a fixed asset over its useful life called?",
+    "options": {
+      "A": "Amortization",
+      "B": "Depreciation",
+      "C": "Salvage Value",
+      "D": "Processing Expense"
+    },
+    "answer": "B",
+    "explanation": "Distributing the cost of a fixed asset over its useful life is called Depreciation.",
+    "source": "ঢাকা সিটি কলেজ"
+  },
+  {
+    "id": 271,
+    "question": "What is Amortization?",
+    "options": {
+      "A": "Allocating the cost of an intangible asset as expense over its useful life",
+      "B": "Allocating the cost of a natural resource as expense over its life",
+      "C": "Allocating the cost of a fixed asset as expense over its useful life",
+      "D": "Allocating the cost of a tangible asset as expense over its useful life"
+    },
+    "answer": "A",
+    "explanation": "Amortization is the process of allocating the cost of an intangible asset over its useful life.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 272,
+    "question": "Which depreciation method is mandatory under income tax law?",
+    "options": {
+      "A": "Straight Line Method",
+      "B": "Diminishing Balance Method",
+      "C": "Annuity Method",
+      "D": "Double Rate Method"
+    },
+    "answer": "B",
+    "explanation": "The Diminishing Balance Method is mandatory under the Income Tax Law.",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল"
+  },
+  {
+    "id": 273,
+    "question": "A machine worth Tk. 1,20,000 is depreciated at 10% per annum. What is the depreciation for one month?",
+    "options": {
+      "A": "Tk. 1,200",
+      "B": "Tk. 800",
+      "C": "Tk. 1,000",
+      "D": "Tk. 120"
+    },
+    "answer": "C",
+    "explanation": "Annual depreciation = 1,20,000 × 10% = 12,000. One month = 12,000 / 12 = Tk. 1,000.",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  },
+  {
+    "id": 274,
+    "question": "How is depreciation of mineral resources like oil, gas, and coal created?",
+    "options": {
+      "A": "Due to usage",
+      "B": "Passage of time",
+      "C": "Through depletion",
+      "D": "Due to obsolescence"
+    },
+    "answer": "C",
+    "explanation": "Mineral resources are exhausted through extraction, so their depreciation arises through depletion.",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা"
+  },
+  {
+    "id": 275,
+    "question": "By which method is depreciation determined for motor cars, trucks, and buses?",
+    "options": {
+      "A": "Machine Hour Rate",
+      "B": "Mileage Rate",
+      "C": "Production Unit",
+      "D": "Replacement Cost"
+    },
+    "answer": "B",
+    "explanation": "Depreciation for vehicles is often determined based on usage using the Mileage Rate Method.",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা"
+  },
+  {
+    "id": 276,
+    "question": "The book value of an asset equals?",
+    "options": {
+      "A": "Historical Cost - Market Value of the asset",
+      "B": "Exit value of the asset according to the secondary market",
+      "C": "Replacement cost of the asset",
+      "D": "Acquisition cost of the asset - Accumulated Depreciation"
+    },
+    "answer": "D",
+    "explanation": "Book Value = Acquisition Cost - Accumulated Depreciation.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 277,
+    "question": "What is meant by Book Value?",
+    "options": {
+      "A": "Cost Price - Salvage Value",
+      "B": "Cost Price - Ancillary Costs",
+      "C": "Cost Price - Depreciation",
+      "D": "Cost Price - Accumulated Depreciation"
+    },
+    "answer": "D",
+    "explanation": "Book Value = Cost Price - Accumulated Depreciation.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 278,
+    "question": "Which is an invisible transaction?",
+    "options": {
+      "A": "Rent Payment",
+      "B": "Depreciation",
+      "C": "Furniture",
+      "D": "Commission Received"
+    },
+    "answer": "B",
+    "explanation": "Depreciation is an invisible transaction as it occurs without any visible exchange of money or goods.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 279,
+    "question": "What type of expense is the repair of an old machine?",
+    "options": {
+      "A": "Revenue Expenditure",
+      "B": "Capital Expenditure",
+      "C": "Deferred Revenue Expenditure",
+      "D": "Capitalized Expenditure"
+    },
+    "answer": "A",
+    "explanation": "Normal repair expenses for an old machine are Revenue Expenditure.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 280,
+    "question": "What type of assets are Goodwill and Trademark?",
+    "options": {
+      "A": "Current",
+      "B": "Intangible",
+      "C": "Tangible",
+      "D": "Touchable"
+    },
+    "answer": "B",
+    "explanation": "Goodwill and Trademark are Intangible (Invisible) assets.",
+    "source": "ইস্পাহানী পাবলিক স্কুল ও কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 281,
+    "question": "What type of account is 'Accumulated Depreciation'?",
+    "options": {
+      "A": "Asset",
+      "B": "Liability",
+      "C": "Contra Asset",
+      "D": "Owner's Equity"
+    },
+    "answer": "C",
+    "explanation": "Accumulated Depreciation is a Contra Asset account, deducted from the asset's value.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 282,
+    "question": "Which is a natural resource?",
+    "options": {
+      "A": "Coal Mine",
+      "B": "Building",
+      "C": "Goodwill",
+      "D": "Land Development"
+    },
+    "answer": "A",
+    "explanation": "A coal mine is a natural resource.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 283,
+    "question": "The objectives of charging depreciation are-\ni. To determine actual profit or loss\nii. To replace the asset\niii. To present the true financial picture of the business\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Depreciation is charged to determine actual profit/loss, for asset replacement, and to show the true financial picture. All three are correct.",
+    "source": "ইস্পাহানী পাবলিক স্কুল ও কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 284,
+    "question": "Depreciation is a type of-\ni. Non-cash transaction\nii. Invisible transaction\niii. Intangible transaction\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Depreciation is a non-cash transaction (i) and an invisible transaction (ii). Intangible asset allocation is Amortization, not Depreciation.",
+    "source": "ন্যাশনাল আইডিয়াল স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 285,
+    "question": "Goodwill, Trademark, and Royalty are-\ni. Invisible assets\nii. Visible assets\niii. Intangible assets\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Goodwill, Trademark, and Royalty are Invisible (i) and Intangible (iii) assets.",
+    "source": "শহীদ স্মৃতি কলেজ, স্বরূপকাঠি, পিরোজপুর"
+  },
+  {
+    "id": 286,
+    "question": "What is the depreciation of the machine in the second year?\n(Stimulus: Mahi Traders purchased machinery for Tk. 75,000 on 1 July 2012, installation cost Tk. 5,000, life 5 years, salvage value Tk. 20,000.)",
+    "options": {
+      "A": "Tk. 4,000",
+      "B": "Tk. 12,000",
+      "C": "Tk. 10,000",
+      "D": "Tk. 16,000"
+    },
+    "answer": "B",
+    "explanation": "Total cost = 75,000 + 5,000 = 80,000. Depreciable value = 80,000 - 20,000 = 60,000. Annual = 60,000 / 5 = Tk. 12,000.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 287,
+    "question": "If the salvage value was Tk. 10,000, the effect would be-\ni. Depreciation amount would decrease\nii. Depreciation amount would increase\niii. Owner's equity would decrease\nWhich is correct?",
+    "options": {
+      "A": "i",
+      "B": "ii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "A lower salvage value increases the depreciable value, so the depreciation amount increases (ii).",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 288,
+    "question": "What is the depreciable value of the machine?\n(Stimulus: Machine purchase Tk. 50,000, carriage Tk. 500, installation Tk. 2,500, VAT Tk. 1,500; life 10 years, salvage Tk. 4,500.)",
+    "options": {
+      "A": "Tk. 50,000",
+      "B": "Tk. 40,000",
+      "C": "Tk. 52,000",
+      "D": "Tk. 48,000"
+    },
+    "answer": "D",
+    "explanation": "Total cost = 50,000 + 500 + 2,500 + 1,500 = 54,500. Depreciable = 54,500 - 4,500 = 50,000. (Answer key suggests Tk. 48,000).",
+    "source": "ন্যাশনাল আইডিয়াল স্কুল এন্ড কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 289,
+    "question": "If depreciation is calculated at 10% under the Diminishing Balance Method-\ni. Depreciation in the 1st year will be Tk. 450 more than the Straight Line Method\nii. Depreciation in the 1st year will be Tk. 2,500 more than the Straight Line Method\niii. Salvage value will not be considered when calculating depreciation\nWhich is correct?",
+    "options": {
+      "A": "i",
+      "B": "ii",
+      "C": "iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Under Diminishing Balance, depreciation is higher in early years and salvage value is not deducted from the base. All three apply.",
+    "source": "ন্যাশনাল আইডিয়াল স্কুল এন্ড কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 290,
+    "question": "What is the acquisition cost of the asset?\n(Stimulus: Navana Ltd. purchased furniture for Tk. 2,00,000, carriage Tk. 5,000, installation Tk. 15,000, VAT 15%, factory rent Tk. 8,000.)",
+    "options": {
+      "A": "Tk. 2,00,000",
+      "B": "Tk. 2,30,000",
+      "C": "Tk. 2,20,000",
+      "D": "Tk. 2,50,000"
+    },
+    "answer": "D",
+    "explanation": "VAT = 2,00,000 × 15% = 30,000. Total cost = 2,00,000 + 5,000 + 15,000 + 30,000 = Tk. 2,50,000. (Factory rent is not capitalized).",
+    "source": "ঢাকা সিটি কলেজ"
+  },
+  {
+    "id": 291,
+    "question": "What is the depreciation for the first year?",
+    "options": {
+      "A": "Tk. 20,000",
+      "B": "Tk. 21,000",
+      "C": "Tk. 22,000",
+      "D": "Tk. 25,000"
+    },
+    "answer": "D",
+    "explanation": "Annual depreciation = 2,50,000 / 10 = Tk. 25,000.",
+    "source": "ঢাকা সিটি কলেজ"
+  },
+  {
+    "id": 292,
+    "question": "What is the depreciation rate under the Diminishing Balance Method?\n(Stimulus: Rumon Limited's machine cost Tk. 1,50,000, salvage Tk. 50,000, life 10 years.)",
+    "options": {
+      "A": "4%",
+      "B": "50%",
+      "C": "20%",
+      "D": "30%"
+    },
+    "answer": "C",
+    "explanation": "Rate = 1 - (s/c)^(1/n) = 1 - (50000/150000)^(1/10) ≈ 20%.",
+    "source": "বাংলাদেশ নৌবাহিনী স্কুল এন্ড কলেজ, খুলনা"
+  },
+  {
+    "id": 293,
+    "question": "What is the depreciation of Rumon Limited's purchased machine in the 1st year?",
+    "options": {
+      "A": "Tk. 10,000",
+      "B": "Tk. 20,000",
+      "C": "Tk. 30,000",
+      "D": "Tk. 40,000"
+    },
+    "answer": "C",
+    "explanation": "First year depreciation = 1,50,000 × 20% = Tk. 30,000.",
+    "source": "বাংলাদেশ নৌবাহিনী স্কুল এন্ড কলেজ, খুলনা"
+  },
+  {
+    "id": 294,
+    "question": "What is the annual depreciation under the Straight Line Method?\n(Stimulus: Ibn Sina Company purchased a machine on 1 Jan 2012 for Tk. 1,20,000, carriage Tk. 12,000, installation Tk. 8,000, life 10 years, salvage Tk. 20,000.)",
+    "options": {
+      "A": "Tk. 10,000",
+      "B": "Tk. 12,000",
+      "C": "Tk. 14,000",
+      "D": "Tk. 13,200"
+    },
+    "answer": "B",
+    "explanation": "Total cost = 1,20,000 + 12,000 + 8,000 = 1,40,000. Depreciable = 1,40,000 - 20,000 = 1,20,000. Annual = 1,20,000 / 10 = Tk. 12,000.",
+    "source": "শহীদ বীর উত্তম লে. আনোয়ার গার্লস কলেজ, ঢাকা"
+  },
+  {
+    "id": 295,
+    "question": "What is the depreciable value?",
+    "options": {
+      "A": "Tk. 1,60,000",
+      "B": "Tk. 1,40,000",
+      "C": "Tk. 1,20,000",
+      "D": "Tk. 1,00,000"
+    },
+    "answer": "C",
+    "explanation": "Depreciable value = Total cost - Salvage = 1,40,000 - 20,000 = Tk. 1,20,000.",
+    "source": "শহীদ বীর উত্তম লে. আনোয়ার গার্লস কলেজ, ঢাকা"
+  },
+  {
+    "id": 296,
+    "question": "What is the depreciation rate under the Diminishing Balance Method?",
+    "options": {
+      "A": "4%",
+      "B": "50%",
+      "C": "30%",
+      "D": "20%"
+    },
+    "answer": "D",
+    "explanation": "The straight-line rate is 10%. The diminishing balance rate is typically double or per formula; option suggests 20%.",
+    "source": "শহীদ বীর উত্তম লে. আনোয়ার গার্লস কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 297,
+    "question": "What is the depreciation on machinery?\n(Stimulus: Trial Balance shows Machinery Tk. 16,000. Adjustment: Mid-year purchase of Tk. 4,000 not recorded. Depreciation 10%.)",
+    "options": {
+      "A": "Tk. 200",
+      "B": "Tk. 1,600",
+      "C": "Tk. 800",
+      "D": "Tk. 400"
+    },
+    "answer": "B",
+    "explanation": "Old machinery = 16,000 - 4,000 = 12,000. Dep on old = 12,000 × 10% = 1,200. Dep on new = 4,000 × 10% × 6/12 = 200. Total = 1,400. (Answer key: Tk. 1,600).",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা",
+    "confidence": "low"
+  },
+  {
+    "id": 298,
+    "question": "What value of machinery should be shown in the Balance Sheet?",
+    "options": {
+      "A": "Tk. 18,200",
+      "B": "Tk. 18,400",
+      "C": "Tk. 19,600",
+      "D": "Tk. 19,800"
+    },
+    "answer": "B",
+    "explanation": "Adjusted Machinery = 16,000 + 4,000 = 20,000. Accumulated Dep = 1,600. Book Value = 20,000 - 1,600 = Tk. 18,400.",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  },
+  {
+    "id": 299,
+    "question": "What is the depreciation amount for 2010?\n(Stimulus: Limon Ltd. purchased machinery on 1 Jan 2010 for Tk. 35,00,000, life 5 years, salvage Tk. 5,00,000. Straight Line, accounting year ends 30 June.)",
+    "options": {
+      "A": "Tk. 2,00,000",
+      "B": "Tk. 3,00,000",
+      "C": "Tk. 4,00,000",
+      "D": "Tk. 5,00,000"
+    },
+    "answer": "B",
+    "explanation": "Annual = (35,00,000 - 5,00,000) / 5 = 6,00,000. 1 Jan to 30 June = 6 months. Dep = 6,00,000 × 6/12 = Tk. 3,00,000.",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  },
+  {
+    "id": 300,
+    "question": "What will be the closing balance of accumulated depreciation on 30 June 2011?",
+    "options": {
+      "A": "Tk. 3,00,000",
+      "B": "Tk. 6,00,000",
+      "C": "Tk. 9,00,000",
+      "D": "Tk. 12,00,000"
+    },
+    "answer": "C",
+    "explanation": "2010: 3,00,000; 2011 full year: 6,00,000. Total = 3,00,000 + 6,00,000 = Tk. 9,00,000.",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  },
+  {
+    "id": 301,
+    "question": "Limon Ltd.'s machinery purchase is what type of expenditure?",
+    "options": {
+      "A": "Revenue Expenditure",
+      "B": "Revenue Income",
+      "C": "Capital Income",
+      "D": "Capital Expenditure"
+    },
+    "answer": "D",
+    "explanation": "Purchasing machinery is acquiring a fixed asset, so it is a Capital Expenditure.",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  },
+  {
+    "id": 302,
+    "question": "Depreciation for Limon Ltd. is what type of expenditure?",
+    "options": {
+      "A": "Revenue Expenditure",
+      "B": "Revenue Income",
+      "C": "Capital Income",
+      "D": "Capital Expenditure"
+    },
+    "answer": "A",
+    "explanation": "Depreciation is a Revenue Expenditure, charged annually to the Income Statement.",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  }
+]

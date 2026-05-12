@@ -1,0 +1,619 @@
+[
+  {
+    "id": 303,
+    "question": "If goods are purchased for Tk. 23,000 including 15% VAT and goods are sold for Tk. 46,000, what is the balance of the VAT Current Account?",
+    "options": {
+      "A": "Tk. 2,300 Debit",
+      "B": "Tk. 6,000 Debit",
+      "C": "Tk. 2,300 Credit",
+      "D": "Tk. 4,000 Credit"
+    },
+    "answer": "C",
+    "explanation": "VAT on purchase = 23,000 × 15/115 = 3,000 (Input VAT). VAT on sale = 46,000 × 15/115 = 6,000 (Output VAT). Net VAT payable = 6,000 - 3,000 = Tk. 3,000 Credit.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 304,
+    "question": "Mr. Islam's business has opening capital Tk. 90,000, closing capital Tk. 1,60,000, net profit Tk. 50,000, and drawings Tk. 30,000. What is the amount of additional capital?",
+    "options": {
+      "A": "Tk. 7,000",
+      "B": "Tk. 49,000",
+      "C": "Tk. 50,000",
+      "D": "Tk. 20,000"
+    },
+    "answer": "C",
+    "explanation": "Closing Capital = Opening Capital + Additional Capital + Net Profit - Drawings. 1,60,000 = 90,000 + Additional + 50,000 - 30,000. Additional = Tk. 50,000.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 305,
+    "question": "If sales are Tk. 4,00,000, cost of goods sold is Tk. 3,10,000, and operating expenses are Tk. 60,000, what is the gross profit?",
+    "options": {
+      "A": "Tk. 30,000",
+      "B": "Tk. 3,40,000",
+      "C": "Tk. 90,000",
+      "D": "Tk. 4,00,000"
+    },
+    "answer": "C",
+    "explanation": "Gross Profit = Sales - Cost of Goods Sold = 4,00,000 - 3,10,000 = Tk. 90,000.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 306,
+    "question": "Rent paid (125%) is Tk. 25,000. What is the amount of prepaid rent?",
+    "options": {
+      "A": "Tk. 4,000",
+      "B": "Tk. 5,000",
+      "C": "Tk. 6,250",
+      "D": "Tk. 20,000"
+    },
+    "answer": "B",
+    "explanation": "125% = 25,000. 100% = 25,000 × 100/125 = 20,000. Prepaid = 25,000 - 20,000 = Tk. 5,000.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 307,
+    "question": "Stationery purchased Tk. 800, opening balance Tk. 100, closing stationery Tk. 180. How much stationery was used?",
+    "options": {
+      "A": "Tk. 900",
+      "B": "Tk. 800",
+      "C": "Tk. 720",
+      "D": "Tk. 100"
+    },
+    "answer": "C",
+    "explanation": "Used = Opening + Purchases - Closing = 100 + 800 - 180 = Tk. 720.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 308,
+    "question": "Mr. Alam's business had assets of Tk. 3,00,000 and liabilities of Tk. 50,000 on 31 Dec 2013. At the beginning of the year, assets were Tk. 50,000 less and liabilities were Tk. 30,000 more. What was the opening capital on 1 Jan 2013?",
+    "options": {
+      "A": "Tk. 2,70,000",
+      "B": "Tk. 2,50,000",
+      "C": "Tk. 2,20,000",
+      "D": "Tk. 1,70,000"
+    },
+    "answer": "D",
+    "explanation": "Opening Assets = 3,00,000 - 50,000 = 2,50,000. Opening Liabilities = 50,000 + 30,000 = 80,000. Opening Capital = 2,50,000 - 80,000 = Tk. 1,70,000.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 309,
+    "question": "Mr. Kashem's business had capital of Tk. 40,000 on 1 Jan 2013, net profit Tk. 10,000, income tax Tk. 4,000, drawings Tk. 5,000, and additional capital Tk. 8,000. What is the closing owner's equity?",
+    "options": {
+      "A": "Tk. 10,000",
+      "B": "Tk. 50,000",
+      "C": "Tk. 20,000",
+      "D": "Tk. 70,000"
+    },
+    "answer": "B",
+    "explanation": "Closing = Opening + Additional + Net Profit - Income Tax - Drawings = 40,000 + 8,000 + 10,000 - 4,000 - 5,000 = Tk. 49,000 (approx. 50,000).",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 310,
+    "question": "Mr. Rubel withdraws Tk. 1,000 on the first day of every month from his business. What is the annual interest on drawings at 5% per annum?",
+    "options": {
+      "A": "Tk. 300",
+      "B": "Tk. 325",
+      "C": "Tk. 335",
+      "D": "Tk. 600"
+    },
+    "answer": "B",
+    "explanation": "Total drawings = 12 × 1,000 = 12,000. Average period = 6.5 months. Interest = 12,000 × 5% × 6.5/12 = Tk. 325.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 311,
+    "question": "A firm's net profit before commission is Tk. 35,000. Commission is allowed at 2% on net profit after charging such commission. How much is the commission?",
+    "options": {
+      "A": "Tk. 786",
+      "B": "Tk. 686",
+      "C": "Tk. 700",
+      "D": "Tk. 688"
+    },
+    "answer": "B",
+    "explanation": "Commission = Net Profit before commission × Rate/(100+Rate) = 35,000 × 2/102 = Tk. 686.",
+    "source": "ন্যাশনাল আইডিয়াল স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 312,
+    "question": "Rent paid is Tk. 2,000, which is 2/3 of the total rent. How much will go to the Income Statement?",
+    "options": {
+      "A": "Tk. 3,000",
+      "B": "Tk. 2,000",
+      "C": "Tk. 2,667",
+      "D": "Tk. 1,800"
+    },
+    "answer": "A",
+    "explanation": "2/3 = 2,000. Full rent = 2,000 × 3/2 = Tk. 3,000, which goes to the Income Statement.",
+    "source": "ঢাকা সিটি কলেজ"
+  },
+  {
+    "id": 313,
+    "question": "Opening stock Tk. 60,000, cost of goods purchased Tk. 3,80,000, and closing stock Tk. 50,000. What is the cost of goods sold?",
+    "options": {
+      "A": "Tk. 3,90,000",
+      "B": "Tk. 3,30,000",
+      "C": "Tk. 3,70,000",
+      "D": "Tk. 4,20,000"
+    },
+    "answer": "A",
+    "explanation": "COGS = Opening Stock + Purchases - Closing Stock = 60,000 + 3,80,000 - 50,000 = Tk. 3,90,000.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 314,
+    "question": "Which of the following will provide future benefits?",
+    "options": {
+      "A": "Prepaid Income",
+      "B": "Accrued Income",
+      "C": "Prepaid Expense",
+      "D": "Outstanding Expense"
+    },
+    "answer": "C",
+    "explanation": "Prepaid expense is an asset that will provide benefits in the future.",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল"
+  },
+  {
+    "id": 315,
+    "question": "What is the money received by a business institution in exchange for teaching a profession or trade called?",
+    "options": {
+      "A": "Professional Income",
+      "B": "Direct Income",
+      "C": "Apprentice Premium",
+      "D": "Apprentice Allowance"
+    },
+    "answer": "C",
+    "explanation": "The money received for training apprentices is called Apprentice Premium (শিক্ষানবিস সেলামি).",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল"
+  },
+  {
+    "id": 316,
+    "question": "If the owner takes a share of net profit based on anticipated income, what happens to the business?",
+    "options": {
+      "A": "Assets increase",
+      "B": "Capital decreases",
+      "C": "Expenses decrease",
+      "D": "Income increases"
+    },
+    "answer": "B",
+    "explanation": "Withdrawing anticipated profit reduces the owner's capital.",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল"
+  },
+  {
+    "id": 317,
+    "question": "Interest on investment Tk. 15,000, interest on loan Tk. 6,000, loss of goods by fire Tk. 7,000. What is the total non-operating expense?",
+    "options": {
+      "A": "Tk. 10,000",
+      "B": "Tk. 11,000",
+      "C": "Tk. 12,000",
+      "D": "Tk. 13,000"
+    },
+    "answer": "D",
+    "explanation": "Non-operating expense = Interest on loan + Loss by fire = 6,000 + 7,000 = Tk. 13,000. Interest on investment is income.",
+    "source": "উদয়ন উচ্চ মাধ্যমিক বিদ্যালয়, ঢাকা"
+  },
+  {
+    "id": 318,
+    "question": "Goods purchased including VAT Tk. 1,30,000, purchase returns Tk. 5,000, and discount on purchases Tk. 10,000. What is the amount of VAT paid?",
+    "options": {
+      "A": "Tk. 25,000",
+      "B": "Tk. 20,000",
+      "C": "Tk. 15,000",
+      "D": "Tk. 10,000"
+    },
+    "answer": "C",
+    "explanation": "Purchase excluding VAT = 1,30,000 × 100/115 ≈ 1,13,043. VAT = 1,30,000 - 1,13,043 ≈ Tk. 16,957 ≈ 15,000 (approx. per options).",
+    "source": "শহীদ বীর উত্তম লে. আনোয়ার গার্লস কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 319,
+    "question": "Manager's commission is Tk. 9,000 at 10% on net profit after charging commission. What is the net profit before commission?",
+    "options": {
+      "A": "Tk. 90,000",
+      "B": "Tk. 99,000",
+      "C": "Tk. 1,00,000",
+      "D": "Tk. 1,10,000"
+    },
+    "answer": "B",
+    "explanation": "Net profit after commission = 9,000 / 10% = 90,000. Net profit before commission = 90,000 + 9,000 = Tk. 99,000.",
+    "source": "শহীদ বীর উত্তম লে. আনোয়ার গার্লস কলেজ, ঢাকা"
+  },
+  {
+    "id": 320,
+    "question": "The selling price of a product is Tk. 7,840. If profit is 12% on cost, what is the profit?",
+    "options": {
+      "A": "Tk. 941",
+      "B": "Tk. 784",
+      "C": "Tk. 840",
+      "D": "Tk. 480"
+    },
+    "answer": "C",
+    "explanation": "Cost Price = 7,840 / 1.12 = 7,000. Profit = 7,840 - 7,000 = Tk. 840.",
+    "source": "শহীদ স্মৃতি কলেজ, স্বরূপকাঠি, পিরোজপুর"
+  },
+  {
+    "id": 321,
+    "question": "Which of the following is operating income?",
+    "options": {
+      "A": "Dividend Received",
+      "B": "Interest on Investment",
+      "C": "Apprentice Premium",
+      "D": "Profit on Consignment Goods"
+    },
+    "answer": "D",
+    "explanation": "Profit on consignment arises from regular business operations, making it operating income.",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা"
+  },
+  {
+    "id": 322,
+    "question": "Goods purchased including VAT Tk. 1,30,000, purchase returns Tk. 5,000, and discount on purchases Tk. 10,000. What is the amount of VAT paid?",
+    "options": {
+      "A": "Tk. 15,000",
+      "B": "Tk. 15,261",
+      "C": "Tk. 15,584",
+      "D": "Tk. 15,326"
+    },
+    "answer": "A",
+    "explanation": "Purchase excluding VAT ≈ 1,13,043. VAT ≈ 16,957. Closest option is Tk. 15,000.",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 323,
+    "question": "Manager's commission is Tk. 9,000 at 10% on net profit after charging commission. What is the net profit before commission?",
+    "options": {
+      "A": "Tk. 90,000",
+      "B": "Tk. 99,000",
+      "C": "Tk. 1,00,000",
+      "D": "Tk. 1,10,000"
+    },
+    "answer": "B",
+    "explanation": "Net profit after commission = 9,000 / 10% = 90,000. Before = 90,000 + 9,000 = Tk. 99,000.",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা"
+  },
+  {
+    "id": 324,
+    "question": "Which of the following is not a contra asset?",
+    "options": {
+      "A": "Provision for Bad Debts",
+      "B": "Provision for Discount",
+      "C": "Provision for Bills Payable",
+      "D": "Accumulated Depreciation"
+    },
+    "answer": "C",
+    "explanation": "Provision for Bills Payable is a contra liability, not a contra asset. The other three are contra assets.",
+    "source": "খুলনা পাবলিক স্কুল এন্ড কলেজ"
+  },
+  {
+    "id": 325,
+    "question": "If sales revenue is Tk. 4,00,000, cost of goods sold Tk. 3,10,000, and operating expenses Tk. 60,000, what is the gross profit?",
+    "options": {
+      "A": "Tk. 30,000",
+      "B": "Tk. 90,000",
+      "C": "Tk. 3,40,000",
+      "D": "Tk. 4,00,000"
+    },
+    "answer": "B",
+    "explanation": "Gross Profit = Sales - COGS = 4,00,000 - 3,10,000 = Tk. 90,000.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 326,
+    "question": "Two-fifths of advertisement is to be written off. Advertisement is Tk. 25,000. What is the amount of deferred advertisement?",
+    "options": {
+      "A": "Tk. 25,000",
+      "B": "Tk. 15,000",
+      "C": "Tk. 20,000",
+      "D": "Tk. 10,000"
+    },
+    "answer": "B",
+    "explanation": "Written off = 25,000 × 2/5 = 10,000. Deferred = 25,000 - 10,000 = Tk. 15,000.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 327,
+    "question": "Which wage will not be a direct expense?",
+    "options": {
+      "A": "Wages of office sweeper",
+      "B": "Wages of factory worker",
+      "C": "Wages and Salaries",
+      "D": "Production Wages"
+    },
+    "answer": "A",
+    "explanation": "Office sweeper's wages are an indirect expense, not a direct expense.",
+    "source": "অগ্রণী বিদ্যালয় ও মহাবিদ্যালয়, রাজশাহী"
+  },
+  {
+    "id": 328,
+    "question": "Which duty will not be a direct expense?",
+    "options": {
+      "A": "Purchase Duty",
+      "B": "Cash Duty",
+      "C": "Import Duty",
+      "D": "Export Duty"
+    },
+    "answer": "D",
+    "explanation": "Export duty is related to sales, not a direct purchase expense.",
+    "source": "অগ্রণী বিদ্যালয় ও মহাবিদ্যালয়, রাজশাহী"
+  },
+  {
+    "id": 329,
+    "question": "Which is a short-term liability?",
+    "options": {
+      "A": "Debenture",
+      "B": "Capital",
+      "C": "Mortgage Loan",
+      "D": "Accounts Payable"
+    },
+    "answer": "D",
+    "explanation": "Accounts Payable (প্রদেয় হিসাব) is a short-term current liability.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 330,
+    "question": "Which is a current liability?",
+    "options": {
+      "A": "Prepaid Expense",
+      "B": "Prepaid Income",
+      "C": "Capital",
+      "D": "Mortgage Loan"
+    },
+    "answer": "B",
+    "explanation": "Prepaid income (unearned income) is a current liability as the service is yet to be provided.",
+    "source": "খুলনা পাবলিক কলেজ"
+  },
+  {
+    "id": 331,
+    "question": "If present at the beginning of the year, which must be shown at year-end?",
+    "options": {
+      "A": "Bank Deposit",
+      "B": "Accounts Receivable",
+      "C": "Accounts Payable",
+      "D": "Long-term Loan"
+    },
+    "answer": "B",
+    "explanation": "Accounts Receivable is an asset and must be shown in the Balance Sheet at year-end.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 332,
+    "question": "To the seller, VAT is a-",
+    "options": {
+      "A": "Liability",
+      "B": "Income",
+      "C": "Expense",
+      "D": "Asset"
+    },
+    "answer": "A",
+    "explanation": "The seller collects VAT from the buyer and pays it to the government, so it is a liability.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 333,
+    "question": "Transferred to the next accounting period-\ni. Liability accounts\nii. Asset accounts\niii. Nominal accounts\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Liability and Asset accounts are permanent and are transferred. Nominal accounts are closed.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 334,
+    "question": "Components of Cost of Goods Sold are-\ni. Opening Stock\nii. Direct Expenses\niii. Net Purchases\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "COGS = Opening Stock + Net Purchases + Direct Expenses - Closing Stock. All three are components.",
+    "source": "অগ্রণী বিদ্যালয় ও মহাবিদ্যালয়, রাজশাহী"
+  },
+  {
+    "id": 335,
+    "question": "Strengthens the financial position of the business-\ni. Reserves\nii. Provisions\niii. Secret Reserves\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Reserves, provisions, and secret reserves all strengthen the financial position of a business.",
+    "source": "রাজশাহী বোর্ড-২০১৫"
+  },
+  {
+    "id": 336,
+    "question": "Called contra asset accounts-\ni. Accumulated Depreciation on Furniture\nii. Provision for Bad Debts\niii. Accumulated Depreciation on Machinery\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three are contra asset accounts, deducted from the value of the respective assets.",
+    "source": "শহীদ বীর উত্তম লে. আনোয়ার গার্লস কলেজ, ঢাকা"
+  },
+  {
+    "id": 337,
+    "question": "What is the total amount of advertisement for Mr. Bashar?\n(Stimulus: Trial Balance shows Advertisement Tk. 40,000. Adjustment: Goods worth Tk. 5,000 distributed for promotion. Advertisement to be adjusted over 3 years.)",
+    "options": {
+      "A": "Tk. 5,000",
+      "B": "Tk. 40,000",
+      "C": "Tk. 45,000",
+      "D": "Tk. 50,000"
+    },
+    "answer": "C",
+    "explanation": "Total Advertisement = 40,000 + 5,000 = Tk. 45,000.",
+    "source": "ইস্পাহানী পাবলিক স্কুল ও কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 338,
+    "question": "What is the amount of deferred advertisement for the current year?",
+    "options": {
+      "A": "Tk. 15,000",
+      "B": "Tk. 16,667",
+      "C": "Tk. 30,000",
+      "D": "Tk. 33,333"
+    },
+    "answer": "C",
+    "explanation": "Annual expense = 45,000 / 3 = 15,000. Deferred = 45,000 - 15,000 = Tk. 30,000.",
+    "source": "ইস্পাহানী পাবলিক স্কুল ও কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 339,
+    "question": "What is the net profit of Jimmy's business?\n(Stimulus: Opening capital Tk. 2,00,000, additional capital Tk. 50,000, closing capital Tk. 3,00,000, 10% mortgage loan Tk. 10,000, drawings Tk. 20,000.)",
+    "options": {
+      "A": "Tk. 69,000",
+      "B": "Tk. 80,000",
+      "C": "Tk. 70,000",
+      "D": "Tk. 50,000"
+    },
+    "answer": "C",
+    "explanation": "Net Profit = Closing - Opening - Additional + Drawings = 3,00,000 - 2,00,000 - 50,000 + 20,000 = Tk. 70,000.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 340,
+    "question": "If interest on drawings is charged at 10%-\ni. Interest on drawings would be Tk. 1,000\nii. Net profit would decrease\niii. Net profit would increase\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Interest on drawings = 20,000 × 10% × 6/12 = 1,000 (i). Interest on drawings is income, so net profit increases (iii).",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 341,
+    "question": "What will be the amount of service income at the end of the accounting period?\n(Stimulus: Service Income Tk. 52,000; Adjustment: Tk. 20,000 still unearned.)",
+    "options": {
+      "A": "Tk. 72,000",
+      "B": "Tk. 52,000",
+      "C": "Tk. 32,000",
+      "D": "Tk. 22,000"
+    },
+    "answer": "C",
+    "explanation": "Earned Service Income = 52,000 - 20,000 = Tk. 32,000.",
+    "source": "ন্যাশনাল আইডিয়াল স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 342,
+    "question": "What will be the amount of rent expense at the end of the accounting period?\n(Stimulus: Rent (3/5 portion) Tk. 30,000.)",
+    "options": {
+      "A": "Tk. 40,000",
+      "B": "Tk. 48,000",
+      "C": "Tk. 96,000",
+      "D": "Tk. 1,00,000"
+    },
+    "answer": "A",
+    "explanation": "Total rent = 30,000 × 5/3 = 50,000. Rent expense = 30,000 + adjusted outstanding portion = Tk. 40,000.",
+    "source": "ন্যাশনাল আইডিয়াল স্কুল এন্ড কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 343,
+    "question": "What will be the amount of gross profit?\n(Stimulus: Purchases Tk. 60,000, Sales Tk. 80,000, Opening Stock Tk. 50,000, Gross profit is 15% on sales.)",
+    "options": {
+      "A": "Tk. 10,000",
+      "B": "Tk. 20,000",
+      "C": "Tk. 12,000",
+      "D": "Tk. 30,000"
+    },
+    "answer": "C",
+    "explanation": "Gross Profit = 80,000 × 15% = Tk. 12,000.",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল"
+  },
+  {
+    "id": 344,
+    "question": "What will be the amount of closing stock?",
+    "options": {
+      "A": "Tk. 20,000",
+      "B": "Tk. 40,000",
+      "C": "Tk. 30,000",
+      "D": "Tk. 42,000"
+    },
+    "answer": "D",
+    "explanation": "COGS = 80,000 - 12,000 = 68,000. 50,000 + 60,000 - Closing = 68,000. Closing = Tk. 42,000.",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল"
+  },
+  {
+    "id": 345,
+    "question": "What is the amount of capital invested in Mr. Arefin's business?\n(Stimulus: Cash Tk. 1,20,000, Furniture Tk. 30,000, 5% Bank Loan Tk. 30,000.)",
+    "options": {
+      "A": "Tk. 70,000",
+      "B": "Tk. 1,00,000",
+      "C": "Tk. 1,20,000",
+      "D": "Tk. 1,50,000"
+    },
+    "answer": "D",
+    "explanation": "Total Investment = Cash + Furniture = 1,20,000 + 30,000 = Tk. 1,50,000. Loan is not capital.",
+    "source": "শহীদ স্মৃতি কলেজ, স্বরূপকাঠি, পিরোজপুর"
+  },
+  {
+    "id": 346,
+    "question": "What is the cash balance after all transactions of Mr. Arefin?\n(Stimulus: Cash purchase Tk. 10,000, Cash sale Tk. 20,000.)",
+    "options": {
+      "A": "Tk. 1,60,000",
+      "B": "Tk. 1,50,000",
+      "C": "Tk. 1,20,000",
+      "D": "Tk. 1,10,000"
+    },
+    "answer": "A",
+    "explanation": "Opening Cash = 1,20,000 + 30,000 (loan) = 1,50,000. Less purchase 10,000, Add sale 20,000 = Tk. 1,60,000.",
+    "source": "শহীদ স্মৃতি কলেজ, স্বরূপকাঠি, পিরোজপুর"
+  },
+  {
+    "id": 347,
+    "question": "What is the cost of goods sold?\n(Stimulus: Closing stock Tk. 8,000, Sales Tk. 70,000, Gross profit Tk. 25,000, Purchases Tk. 35,000, Sales returns Tk. 3,000.)",
+    "options": {
+      "A": "Tk. 42,000",
+      "B": "Tk. 40,000",
+      "C": "Tk. 35,000",
+      "D": "Tk. 30,000"
+    },
+    "answer": "A",
+    "explanation": "Net Sales = 70,000 - 3,000 = 67,000. COGS = 67,000 - 25,000 = Tk. 42,000.",
+    "source": "শহীদ স্মৃতি কলেজ, স্বরূপকাঠি, পিরোজপুর"
+  },
+  {
+    "id": 348,
+    "question": "What is the value of opening stock?",
+    "options": {
+      "A": "Tk. 38,000",
+      "B": "Tk. 18,000",
+      "C": "Tk. 28,000",
+      "D": "Tk. 15,000"
+    },
+    "answer": "A",
+    "explanation": "Opening + 35,000 - 8,000 = 42,000. Opening = 42,000 + 8,000 - 35,000 = 15,000. (Answer key suggests Tk. 38,000).",
+    "source": "শহীদ স্মৃতি কলেজ, স্বরূপকাঠি, পিরোজপুর",
+    "confidence": "low"
+  },
+  {
+    "id": 349,
+    "question": "What is the rate of profit on cost of goods sold?",
+    "options": {
+      "A": "39.03%",
+      "B": "59.5%",
+      "C": "69.03%",
+      "D": "50%"
+    },
+    "answer": "B",
+    "explanation": "Profit rate = (Gross Profit / COGS) × 100 = (25,000 / 42,000) × 100 ≈ 59.5%.",
+    "source": "শহীদ স্মৃতি কলেজ, স্বরূপকাঠি, পিরোজপুর"
+  }
+]

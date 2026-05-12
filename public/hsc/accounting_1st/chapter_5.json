@@ -1,0 +1,484 @@
+[
+  {
+    "id": 150,
+    "question": "What time period is generally followed for preparing financial statements?",
+    "options": {
+      "A": "2 years",
+      "B": "6 months",
+      "C": "1 year",
+      "D": "3 months"
+    },
+    "answer": "C",
+    "explanation": "Generally, financial statements are prepared for a period of one year. This is known as the Accounting Period.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 151,
+    "question": "According to which concept is the detailed Income Statement prepared?",
+    "options": {
+      "A": "Going Concern Concept",
+      "B": "Accounting Period Concept",
+      "C": "Entity Concept",
+      "D": "Dual Aspect Concept"
+    },
+    "answer": "B",
+    "explanation": "According to the Accounting Period Concept, the Income Statement is prepared for a specific period.",
+    "source": "ডিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 152,
+    "question": "What is the process of determining net profit by deducting actual expenses from actual income of an accounting period called?",
+    "options": {
+      "A": "Cost Concept",
+      "B": "Matching Concept",
+      "C": "Accrual Concept",
+      "D": "Accounting Period Concept"
+    },
+    "answer": "B",
+    "explanation": "Matching the expenses of a specific accounting period against the income of that period to determine net profit is known as the Matching Concept.",
+    "source": "ন্যাশনাল আইডিয়াল স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 153,
+    "question": "According to which accounting principle is 'all relevant information brought into the financial report'?",
+    "options": {
+      "A": "Monetary Unit",
+      "B": "Conservatism",
+      "C": "Full Disclosure",
+      "D": "Going Concern"
+    },
+    "answer": "C",
+    "explanation": "The Full Disclosure Principle requires that all relevant and material information be disclosed in the financial report.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 154,
+    "question": "According to which accounting principle is money assumed to be the 'measuring stick' in describing financial activities?",
+    "options": {
+      "A": "Monetary Unit",
+      "B": "Conservatism",
+      "C": "Full Disclosure",
+      "D": "Cost Principle"
+    },
+    "answer": "A",
+    "explanation": "The Monetary Unit Concept states that all transactions must be measured and recorded in terms of money (Taka).",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 155,
+    "question": "Due to which accounting principle is 'the change in price level not considered in accounting records'?",
+    "options": {
+      "A": "Conservatism",
+      "B": "Time Period",
+      "C": "Historical Cost",
+      "D": "Going Concern"
+    },
+    "answer": "C",
+    "explanation": "The Historical Cost Principle states that assets are recorded at their original purchase cost, and changes in market price levels are not considered.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 156,
+    "question": "Mr. Razzak sold goods for Tk. 40,000 in cash and Tk. 1,00,000 on credit. According to revenue recognition, how much sales should be shown as income?",
+    "options": {
+      "A": "Tk. 80,000",
+      "B": "Tk. 60,000",
+      "C": "Tk. 1,00,000",
+      "D": "Tk. 1,40,000"
+    },
+    "answer": "D",
+    "explanation": "According to the Revenue Recognition Principle, income must be recorded when earned. Total sales = 40,000 + 1,00,000 = Tk. 1,40,000.",
+    "source": "ঢাকা সিটি কলেজ"
+  },
+  {
+    "id": 157,
+    "question": "According to which IAS is the preparation of financial statements stated?",
+    "options": {
+      "A": "IAS-1",
+      "B": "IAS-2",
+      "C": "IAS-3",
+      "D": "IAS-4"
+    },
+    "answer": "A",
+    "explanation": "IAS-1 (International Accounting Standard 1) provides guidelines for the preparation and presentation of financial statements.",
+    "source": "সেন্ট্রাল উইমেন্স কলেজ, ঢাকা"
+  },
+  {
+    "id": 158,
+    "question": "Under the perpetual inventory system, when goods are purchased, which account is debited?",
+    "options": {
+      "A": "Purchase Account",
+      "B": "Goods Account",
+      "C": "Creditor Account",
+      "D": "Merchandise Inventory Account"
+    },
+    "answer": "D",
+    "explanation": "Under the Perpetual Inventory System, the Merchandise Inventory Account is directly debited when goods are purchased.",
+    "source": "শহীদ স্মৃতি কলেজ, স্বরূপকাঠি, পিরোজপুর"
+  },
+  {
+    "id": 159,
+    "question": "On what basis are all accounting activities controlled and conducted?",
+    "options": {
+      "A": "GAAP",
+      "B": "GAAP & IFRS",
+      "C": "IAS",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "All accounting activities are controlled and conducted based on GAAP (Generally Accepted Accounting Principles) and IFRS (International Financial Reporting Standards).",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা"
+  },
+  {
+    "id": 160,
+    "question": "If the purchase of a stapler is recorded as a business expense, which accounting principle is applied?",
+    "options": {
+      "A": "Objectivity",
+      "B": "Conservatism",
+      "C": "Matching",
+      "D": "Cost Principle"
+    },
+    "answer": "C",
+    "explanation": "Purchasing a low-value item like a stapler and recording it directly as an expense applies the Materiality concept/Cost-Benefit, which is related to the Matching Principle.",
+    "source": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 161,
+    "question": "What type of expense is a car repair expense?",
+    "options": {
+      "A": "Capital Expenditure",
+      "B": "Revenue Expenditure",
+      "C": "Deferred Revenue Expenditure",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "Car repair expense is a normal maintenance cost, which is a Revenue Expenditure.",
+    "source": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল, ঢাকা"
+  },
+  {
+    "id": 162,
+    "question": "The market value of an investment is Tk. 50,000, and the cost price is Tk. 30,000. According to conservatism, which will be shown in the accounts?",
+    "options": {
+      "A": "Loss Tk. 20,000",
+      "B": "Investment value Tk. 50,000",
+      "C": "Profit Tk. 20,000",
+      "D": "Investment value Tk. 30,000"
+    },
+    "answer": "D",
+    "explanation": "According to the Conservatism Principle, anticipated profits are not recorded. Therefore, the investment will be shown at its cost price of Tk. 30,000.",
+    "source": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল, ঢাকা"
+  },
+  {
+    "id": 163,
+    "question": "What is the full form of IFRS?",
+    "options": {
+      "A": "International Financial Reporting Standards",
+      "B": "International Financial Reporting Standard",
+      "C": "International Financial Reporting Standards",
+      "D": "International Finance Reporting Standards"
+    },
+    "answer": "A",
+    "explanation": "The full form of IFRS is International Financial Reporting Standards.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 164,
+    "question": "According to which accounting principle is closing stock valued?",
+    "options": {
+      "A": "Full Disclosure",
+      "B": "Conservatism",
+      "C": "Historical Cost",
+      "D": "Consistency"
+    },
+    "answer": "B",
+    "explanation": "According to the Conservatism Principle, closing stock is valued at 'Cost or Market Price, whichever is lower'.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 165,
+    "question": "According to which principle is net profit determined by deducting total expenses from total income of the accounting year?",
+    "options": {
+      "A": "Going Concern Principle",
+      "B": "Matching Principle",
+      "C": "Accounting Period Principle",
+      "D": "Business Entity Principle"
+    },
+    "answer": "B",
+    "explanation": "The Matching Principle states that income and expenses of a period must be matched to determine the net profit.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 166,
+    "question": "The accounting equation A = L + OE has been derived from which accounting concept?",
+    "options": {
+      "A": "Business Entity",
+      "B": "Going Concern",
+      "C": "Monetary Unit Measurement",
+      "D": "Accounting Period"
+    },
+    "answer": "A",
+    "explanation": "The Business Entity Concept separates the business from its owner, leading to the creation of the A = L + OE equation.",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  },
+  {
+    "id": 167,
+    "question": "According to which accounting principle are fixed assets recorded?",
+    "options": {
+      "A": "Full Disclosure",
+      "B": "Conservatism",
+      "C": "Historical Cost",
+      "D": "Consistency"
+    },
+    "answer": "C",
+    "explanation": "Fixed assets are recorded according to the Historical Cost Principle, meaning they are recorded at the price paid to acquire them.",
+    "source": "ইস্পাহানী পাবলিক স্কুল ও কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 168,
+    "question": "Due to which convention is an asset of very low value considered a revenue expense?",
+    "options": {
+      "A": "Conservatism",
+      "B": "Objectivity",
+      "C": "Industry Practice",
+      "D": "Materiality"
+    },
+    "answer": "D",
+    "explanation": "The Materiality (or Cost-Benefit) convention allows assets of very small value to be treated as an expense directly.",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  },
+  {
+    "id": 169,
+    "question": "Internationally recognized accounting standards are -\ni. GAAP\nii. IAS\niii. IFRS\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "GAAP, IAS, and IFRS are all internationally recognized accounting standards and principles.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 170,
+    "question": "Properly following accounting customs and techniques provides control over -\ni. Financial corruption\nii. Assets\niii. Income\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Following accounting principles helps control financial corruption, safeguard assets, and ensure the accuracy of income. All three are correct.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 171,
+    "question": "The effects of the Conservatism Convention are on -\ni. Provision for Bad Debts\nii. Closing Stock\niii. Showing Fixed Assets at Cost\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Conservatism affects provision for bad debts, valuation of closing stock (lower of cost or market), and showing fixed assets at cost (not market). All three are correct.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 172,
+    "question": "Used in all countries of the world -\ni. Accounting Concepts\nii. Accounting Conventions\niii. Accounting Principles\nWhich is correct?",
+    "options": {
+      "A": "i",
+      "B": "iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Accounting concepts, conventions, and principles are universally used in almost all countries of the world.",
+    "source": "ন্যাশনাল আইডিয়াল স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 173,
+    "question": "Valuing an asset at its liquidation value instead of cost price would be inconsistent with -\ni. Accounting Period Concept\nii. Cost Principle\niii. Going Concern Concept\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Using liquidation value instead of cost violates the Cost Principle (ii) and the Going Concern Concept (iii).",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 174,
+    "question": "Not closed during the current accounting year -\ni. Assets\nii. Liabilities\niii. Owner's Capital\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Assets, Liabilities, and Owner's Equity are permanent accounts that are not closed at the end of the accounting year. They are carried forward to the next year.",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  },
+  {
+    "id": 175,
+    "question": "As a result of Generally Accepted Accounting Principles (GAAP) -\ni. Accounting methods of different countries become different\nii. Accounting information becomes more acceptable\niii. Consistency of accounting information increases\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "GAAP makes accounting information more acceptable (ii) and increases consistency (iii), rather than making methods different (i is false). Hence, ii & iii are correct.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 176,
+    "question": "The objectives of accounting principles are -\ni. To maintain consistency in accounting\nii. To bring uniformity at all levels\niii. To apply accounting standards\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The objectives of accounting principles are to maintain consistency, bring uniformity, and apply a standard. All three are correct.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 177,
+    "question": "What amount will Shakib Ltd. show for closing stock in the books of accounts?\n(Stimulus: Closing stock cost price Tk. 30,000, market price Tk. 25,000.)",
+    "options": {
+      "A": "Tk. 5,000",
+      "B": "Tk. 25,000",
+      "C": "Tk. 30,000",
+      "D": "Tk. 55,000"
+    },
+    "answer": "B",
+    "explanation": "According to the Conservatism Principle, the closing stock should be valued at Tk. 25,000, which is the lower of cost or market price.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 178,
+    "question": "What amount of depreciation on machinery will Shakib Ltd. show at the end of the year?\n(Stimulus: Machinery cost Tk. 50,000, depreciation rate 10%.)",
+    "options": {
+      "A": "Tk. 0",
+      "B": "Tk. 5,000",
+      "C": "Tk. 6,000",
+      "D": "Tk. 11,000"
+    },
+    "answer": "B",
+    "explanation": "Depreciation = 50,000 × 10% = Tk. 5,000.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 179,
+    "question": "Milton Co. valued closing stock at Tk. 1,00,000 cost price, with market price Tk. 1,10,000. What is the actual value?",
+    "options": {
+      "A": "Tk. 2,10,000",
+      "B": "Tk. 1,10,000",
+      "C": "Tk. 1,00,000",
+      "D": "Tk. 10,000"
+    },
+    "answer": "C",
+    "explanation": "According to the Conservatism Principle, the lower of cost or market must be taken. Here, cost Tk. 1,00,000 is lower, so that is the correct value.",
+    "source": "ন্যাশনাল আইডিয়াল স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 180,
+    "question": "Due to showing the closing stock at Tk. 1,10,000 -\ni. Closing stock is overvalued\nii. The Conservatism Principle was not applied\niii. The Cost Principle was applied\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Showing at market price overvalues the stock (i) and does not apply conservatism (ii). The Cost Principle was not applied since market price was used (iii false).",
+    "source": "ন্যাশনাল আইডিয়াল স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 181,
+    "question": "Ilham Ltd. purchased 1,000 units at Tk. 91 per unit. 200 units remain in stock with a market price of Tk. 70 per unit. What is the value of closing stock in the balance sheet?",
+    "options": {
+      "A": "Tk. 14,000",
+      "B": "Tk. 60,000",
+      "C": "Tk. 18,200",
+      "D": "Tk. 3,000"
+    },
+    "answer": "A",
+    "explanation": "Cost price = 200 × 91 = 18,200. Market price = 200 × 70 = 14,000. Lower value = Tk. 14,000.",
+    "source": "বাংলাদেশ মহিলা সমিতি বালিকা উচ্চ বিদ্যালয় ও কলেজ, চট্টগ্রাম"
+  },
+  {
+    "id": 182,
+    "question": "On which principle is the closing stock shown in the balance sheet?",
+    "options": {
+      "A": "Going Concern",
+      "B": "Conservatism",
+      "C": "Consistency",
+      "D": "Cost Principle"
+    },
+    "answer": "B",
+    "explanation": "The closing stock is shown based on the Conservatism Principle, i.e., 'lower of cost or market price'.",
+    "source": "বাংলাদেশ মহিলা সমিতি বালিকা উচ্চ বিদ্যালয় ও কলেজ, চট্টগ্রাম"
+  },
+  {
+    "id": 183,
+    "question": "Determining net profit by deducting total expenses from total income of the accounting year falls under which principle?",
+    "options": {
+      "A": "Going Concern",
+      "B": "Matching Principle",
+      "C": "Conservatism Principle",
+      "D": "Business Entity Principle"
+    },
+    "answer": "B",
+    "explanation": "The Matching Principle requires that expenses be matched with the revenues of the specific period to determine net profit.",
+    "source": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল, ঢাকা"
+  },
+  {
+    "id": 184,
+    "question": "The accounting officer of the institution showed expense Tk. 6,50,000 instead of Tk. 4,50,000 in the financial statements. This means -\ni. Full disclosure principle will not be reflected\nii. Accounting information will not be verifiable\niii. Reliability of accounting information has not been encouraged\nWhich is correct?",
+    "options": {
+      "A": "i",
+      "B": "ii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Misstating expenses violates the Full Disclosure Principle, makes information unverifiable, and destroys reliability. All three are correct.",
+    "source": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল, ঢাকা"
+  },
+  {
+    "id": 185,
+    "question": "Yusuf Enterprise's closing stock cost Tk. 50,000, market price Tk. 60,000. What value of closing stock should be shown in the balance sheet?",
+    "options": {
+      "A": "Tk. 50,000",
+      "B": "Tk. 30,000",
+      "C": "Tk. 60,000",
+      "D": "Tk. 80,000"
+    },
+    "answer": "A",
+    "explanation": "According to the Conservatism Principle, the lower of cost or market price must be shown. Here, cost Tk. 50,000 is lower.",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  },
+  {
+    "id": 186,
+    "question": "On which accounting principle is the value of closing stock shown?",
+    "options": {
+      "A": "Going Concern",
+      "B": "Consistency",
+      "C": "Conservatism",
+      "D": "Cost Principle"
+    },
+    "answer": "C",
+    "explanation": "Closing stock is valued based on the Conservatism Principle (lower of cost or market price).",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  }
+]

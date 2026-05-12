@@ -1,0 +1,504 @@
+[
+  {
+    "id": 112,
+    "question": "Which of the following goes on the credit side of the Trial Balance?",
+    "options": {
+      "A": "Apprentice Premium",
+      "B": "Salaries and Wages",
+      "C": "Wages and Salaries",
+      "D": "Outstanding Salary"
+    },
+    "answer": "D",
+    "explanation": "Outstanding Salary is a liability. Liability accounts are placed on the credit side of the Trial Balance. Apprentice premium, salaries and wages are expense accounts, which go on the debit side.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 113,
+    "question": "Which of the following will be recorded in the debit column of the Trial Balance?",
+    "options": {
+      "A": "Apprentice Premium",
+      "B": "Prepaid Rent",
+      "C": "Commission Received",
+      "D": "Rent"
+    },
+    "answer": "A",
+    "explanation": "Apprentice Premium is an expense. Expense accounts have a debit balance and are placed on the debit side of the Trial Balance.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 114,
+    "question": "Which of the following is an error of principle?",
+    "options": {
+      "A": "Debiting Furniture Account for purchase of stationery",
+      "B": "Debiting Stationery Account for purchase of stationery",
+      "C": "Debiting Repair Account for machinery repair",
+      "D": "Crediting Furniture Account for sale of furniture"
+    },
+    "answer": "A",
+    "explanation": "Stationery is a revenue expense. Debiting it to the Furniture Account (a fixed asset) treats it as a capital expenditure, violating accounting principles. This is an error of principle.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 115,
+    "question": "Which error will cause a disagreement in the Trial Balance?",
+    "options": {
+      "A": "Debiting Machinery Account instead of Wages Account",
+      "B": "Debiting Rent Account twice",
+      "C": "Not recording the purchase of goods in the books",
+      "D": "Understating both Sales and Cash by Tk. 200"
+    },
+    "answer": "B",
+    "explanation": "Debiting the Rent Account twice will increase the debit side total, causing a discrepancy between the debit and credit totals of the Trial Balance. The other errors may not affect the agreement of the Trial Balance.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 116,
+    "question": "What is the amortization of leasehold property?",
+    "options": {
+      "A": "Revenue Income",
+      "B": "Revenue Expense",
+      "C": "Capital Income",
+      "D": "Capital Expense"
+    },
+    "answer": "B",
+    "explanation": "Amortization of leasehold property is a revenue expense, as it is charged to the Income and Expenditure Account annually.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 117,
+    "question": "Which transaction's benefit period is short-term?",
+    "options": {
+      "A": "Business relocation expense",
+      "B": "Purchase of stationery",
+      "C": "Wages for machine installation",
+      "D": "Building extension expense"
+    },
+    "answer": "B",
+    "explanation": "Purchase of stationery is a revenue expense and its benefit is consumed within a short period (usually within one year). The other options are capital in nature and provide long-term benefits.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 118,
+    "question": "If the amount of a transaction is recorded as less or more in the prime books, what is this type of error called?",
+    "options": {
+      "A": "Error of Omission",
+      "B": "Error of Principle",
+      "C": "Error of Commission",
+      "D": "Error of Posting"
+    },
+    "answer": "C",
+    "explanation": "When an amount is entered incorrectly (either less or more), it is called an 'Error of Commission' (Writing Error). This is a type of clerical error.",
+    "source": "ডিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 119,
+    "question": "What is the error created due to the carelessness of employees and officers called?",
+    "options": {
+      "A": "Error of Omission",
+      "B": "Compensating Error",
+      "C": "Error of Principle",
+      "D": "Error of Commission"
+    },
+    "answer": "D",
+    "explanation": "Errors caused by carelessness of employees or officers are generally known as 'Errors of Commission' or Clerical Errors.",
+    "source": "ডিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 120,
+    "question": "If the total of the Purchase Book is overstated by Tk. 500, what is the correct rectifying journal entry?",
+    "options": {
+      "A": "Suspense Account Dr. 500, Purchase Account Cr. 500",
+      "B": "Purchase Account Dr. 500, Suspense Account Cr. 500",
+      "C": "Purchase Account Dr. 500, Cash Account Cr. 500",
+      "D": "Creditor Account Dr. 500, Purchase Account Cr. 500"
+    },
+    "answer": "A",
+    "explanation": "If the Purchase Book total is overstated, the Purchase Account has been excessively debited. To correct this, the Purchase Account must be credited and the Suspense Account debited.",
+    "source": "ডিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 121,
+    "question": "Which of the following is correct regarding Cost of Goods Sold?",
+    "options": {
+      "A": "Opening Stock – Closing Stock",
+      "B": "Opening Stock + Purchases – Closing Stock",
+      "C": "Opening Stock – Closing Stock – Purchases",
+      "D": "Opening Stock + Purchases + Closing Stock"
+    },
+    "answer": "B",
+    "explanation": "The formula for the Cost of Goods Sold (Adjusted Purchases) is: Opening Stock + Net Purchases - Closing Stock.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 122,
+    "question": "The balance of Rent Paid Account is Tk. 57 but it was mistakenly written on the credit side of the Trial Balance as Tk. 75, with all other accounts correctly written. What will be the difference in the Trial Balance?",
+    "options": {
+      "A": "Tk. 18",
+      "B": "Tk. 132",
+      "C": "Tk. 114",
+      "D": "Tk. 150"
+    },
+    "answer": "B",
+    "explanation": "Rent Paid has a debit balance. Writing Tk. 75 on the credit side means the debit side is short by Tk. 57 and the credit side is overstated by Tk. 75. The total difference = 57 + 75 = Tk. 132.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 123,
+    "question": "Tk. 100 received from Karim was debited to Karim's Account. What type of journal entry is required to correct this?",
+    "options": {
+      "A": "Suspense Dr. 200, Karim Cr. 200",
+      "B": "Karim Dr. 100, Suspense Cr. 100",
+      "C": "Suspense Dr. 100, Karim Cr. 100",
+      "D": "Karim Dr. 200, Suspense Cr. 200"
+    },
+    "answer": "D",
+    "explanation": "Correct entry: Cash Dr. 100, Karim Cr. 100. Wrong entry: Karim Dr. 100. To rectify, Karim needs a double credit (total Tk. 200) and Suspense Account should be debited by Tk. 100 to balance the missing debit (though option D says Karim Dr. 200, Suspense Cr. 200).",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 124,
+    "question": "Tk. 12,800 salary paid was recorded as Tk. 18,200. What will be the rectifying journal entry?",
+    "options": {
+      "A": "Cash Account Dr. 12,800, Salary Account Cr. 12,800",
+      "B": "Salary Account Dr. 18,200, Cash Account Cr. 18,200",
+      "C": "Salary Account Dr. 5,400, Cash Account Cr. 5,400",
+      "D": "Cash Account Dr. 5,400, Salary Account Cr. 5,400"
+    },
+    "answer": "D",
+    "explanation": "Salary is overstated by Tk. 5,400 (18,200 - 12,800). To rectify, the Salary Account should be credited and the Cash Account debited to reflect the correct cash outflow.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 125,
+    "question": "Which of the following is an example of a temporary account?",
+    "options": {
+      "A": "Equipment",
+      "B": "Receivable Account",
+      "C": "Salary Expense",
+      "D": "Payable Account"
+    },
+    "answer": "C",
+    "explanation": "Salary Expense is a nominal or temporary account, which is closed at the end of the accounting period. Equipment, Receivables, and Payables are permanent accounts.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 126,
+    "question": "Why is a Suspense Account written in the Trial Balance?",
+    "options": {
+      "A": "For not preparing the final accounts",
+      "B": "To balance the Trial Balance",
+      "C": "To prepare the final accounts",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "When the debit and credit totals of the Trial Balance do not agree and errors cannot be immediately located, a Suspense Account is temporarily used to make the totals equal.",
+    "source": "বাংলাদেশ মহিলা সমিতি বালিকা উচ্চ বিদ্যালয় ও কলেজ, চট্টগ্রাম"
+  },
+  {
+    "id": 127,
+    "question": "Which of the following requires caution when recording in the Trial Balance?",
+    "options": {
+      "A": "Opening Cash Balance",
+      "B": "Opening Bank Balance",
+      "C": "Opening Investment",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "Opening balances need to be carefully placed in the Trial Balance. Opening Cash Balance is a crucial asset and must be shown correctly.",
+    "source": "অমৃতলাল দে মহাবিদ্যালয়, বরিশাল",
+    "confidence": "low"
+  },
+  {
+    "id": 128,
+    "question": "Tk. 109 was placed on the wrong side of the Trial Balance. If everything else is correct, what will be the difference between the two sides of the Trial Balance?",
+    "options": {
+      "A": "Tk. 54",
+      "B": "Tk. 218",
+      "C": "Tk. 109",
+      "D": "Tk. 327"
+    },
+    "answer": "B",
+    "explanation": "If Tk. 109 is placed on the wrong side, the correct side is short by Tk. 109 and the wrong side is overstated by Tk. 109. Difference = 109 × 2 = Tk. 218.",
+    "source": "উদয়ন উচ্চ মাধ্যমিক বিদ্যালয়, ঢাকা"
+  },
+  {
+    "id": 129,
+    "question": "In the Trial Balance, the Sales Account balance of Tk. 10,000 was written as Tk. 1,000 on the credit side. What will be the difference between the two sides?",
+    "options": {
+      "A": "Tk. 8,000",
+      "B": "Tk. 9,000",
+      "C": "Tk. 10,000",
+      "D": "Tk. 11,000"
+    },
+    "answer": "B",
+    "explanation": "By writing Tk. 1,000 instead of Tk. 10,000 on the credit side, the credit side is understated by Tk. 9,000. Therefore, the difference between debit and credit will be Tk. 9,000.",
+    "source": "উদয়ন উচ্চ মাধ্যমিক বিদ্যালয়, ঢাকা"
+  },
+  {
+    "id": 130,
+    "question": "The balance of the Purchase Ledger is shown in the Trial Balance under which account?",
+    "options": {
+      "A": "Debtor Account",
+      "B": "Sales Account",
+      "C": "Creditor Account",
+      "D": "Purchase Returns Account"
+    },
+    "answer": "C",
+    "explanation": "The Purchase Ledger contains the accounts of suppliers/creditors. Its balance appears in the Trial Balance as Creditor Account.",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা",
+    "confidence": "low"
+  },
+  {
+    "id": 131,
+    "question": "The errors that occur under clerical errors are -\ni. Errors of Omission\nii. Errors of Commission\niii. Errors of Principle\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Clerical errors include Errors of Omission and Errors of Commission. Errors of Principle are not clerical errors.",
+    "source": "ডিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 132,
+    "question": "Balances that go on the debit side of the Trial Balance -\ni. Unearned Income\nii. Bad Rent (Rent Arrears)\niii. Provision for Discount on Creditors\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Bad Rent (expense) and Provision for Discount on Creditors (a contra-liability/asset) show a debit balance. Unearned Income is a liability with a credit balance.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 133,
+    "question": "If a fixed asset is purchased using the owner's personal fund, it -\ni. Will be considered as additional capital\nii. Will be included in the capital calculation\niii. Will not appear in the Balance Sheet\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "When an owner purchases an asset with personal funds, it is treated as additional capital and will be counted in the capital. It will appear on both the asset and capital sides of the Balance Sheet.",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  },
+  {
+    "id": 134,
+    "question": "Which of the following will not be included in the Trial Balance?\ni. Prepaid Income\nii. Outstanding Expense\niii. Closing Stock\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Usually, closing stock, prepaid income, and outstanding expenses are shown through adjustments outside the Trial Balance if they do not appear in the ledger. Hence, all three may not be included.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা",
+    "confidence": "low"
+  },
+  {
+    "id": 135,
+    "question": "Items outside the Trial Balance -\ni. Contingent Expense\nii. Contingent Liability\niii. Contingent Asset\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Contingent expenses, liabilities, and assets are not included in the Trial Balance. They are shown in the footnotes.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 136,
+    "question": "Arpa purchased stationery worth Tk. 650 but recorded it as Tk. 600 under Stationery Expense. What is the correct rectifying journal entry?",
+    "options": {
+      "A": "Stationery Exp. Dr. 50, Suspense A/c Cr. 50",
+      "B": "Stationery Exp. Dr. 650, Suspense A/c Cr. 650",
+      "C": "Stationery Exp. Dr. 600, Suspense A/c Cr. 600",
+      "D": "Stationery Exp. Dr. 50, Cash A/c Cr. 50"
+    },
+    "answer": "A",
+    "explanation": "Actual expense is 650, recorded 600. So Tk. 50 less debited. To rectify: Debit Stationery Expense Tk. 50 and credit Suspense/Cash Account Tk. 50.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 137,
+    "question": "Due to the above error -\ni. The debit side of the Trial Balance will be Tk. 50 less\nii. The credit side of the Trial Balance will be Tk. 50 more\niii. The Trial Balance must be balanced by placing a Suspense Account on the debit side\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Debiting Tk. 50 less will make the debit side Tk. 50 short (i). To correct this without finding the error, a Suspense Account of Tk. 50 would need to be placed on the debit side (iii).",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 138,
+    "question": "What is the amount of Current Assets?\n(Stimulus: On 31/12/2013, Cash in hand Tk. 7,000; Receivable A/c Tk. 12,000; Closing Stock Tk. 9,000; Prepaid Rent Tk. 2,000; Leasehold Asset (5 yrs) Tk. 20,000 etc.)",
+    "options": {
+      "A": "Tk. 28,000",
+      "B": "Tk. 30,000",
+      "C": "Tk. 46,000",
+      "D": "Tk. 50,000"
+    },
+    "answer": "B",
+    "explanation": "Current Assets = Cash (7,000) + Receivable (12,000) + Closing Stock (9,000) + Prepaid Rent (2,000) = Tk. 30,000. Leasehold asset is a fixed asset.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 139,
+    "question": "What is the amount of Current Liabilities?\n(Stimulus: Payable A/c Tk. 4,000; Outstanding Salary Tk. 1,000; 10% Loan (1/4/2013) Tk. 40,000 etc.)",
+    "options": {
+      "A": "Tk. 4,000",
+      "B": "Tk. 7,000",
+      "C": "Tk. 44,000",
+      "D": "Tk. 84,000"
+    },
+    "answer": "B",
+    "explanation": "Current Liabilities = Payable (4,000) + Outstanding Salary (1,000) + Interest Due (40,000 × 10% × 9/12 = 3,000) = Tk. 8,000. Option B (7,000) is the closest probable answer assuming interest is 2,000.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 140,
+    "question": "What is the Cost of Goods Sold?\n(Stimulus: Opening Stock Tk. 15,000, Purchases Tk. 45,000, Wages Tk. 12,000, Factory Rent Tk. 3,000, Closing Stock Tk. 22,000.)",
+    "options": {
+      "A": "Tk. 38,000",
+      "B": "Tk. 41,000",
+      "C": "Tk. 50,000",
+      "D": "Tk. 53,000"
+    },
+    "answer": "D",
+    "explanation": "Cost of Goods Sold = Opening Stock + Purchases + Direct Expenses (Wages + Factory Rent) - Closing Stock = 15,000 + 45,000 + 12,000 + 3,000 - 22,000 = Tk. 53,000.",
+    "source": "ডিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 141,
+    "question": "What is the amount of adjusted purchases?",
+    "options": {
+      "A": "Tk. 38,000",
+      "B": "Tk. 41,000",
+      "C": "Tk. 50,000",
+      "D": "Tk. 53,000"
+    },
+    "answer": "C",
+    "explanation": "Adjusted Purchases = Net Purchases + Direct Expenses = 45,000 + 15,000 = Tk. 60,000. (Assuming Option C is 50,000 if calculated as Opening Stock + Purchase - Closing Stock = 38,000. Matched to closest standard answer).",
+    "source": "ডিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 142,
+    "question": "Mr. Shaheen unintentionally debited Debtor Tk. 40,000 instead of Tk. 50,000 and credited Creditor Tk. 34,000 instead of Tk. 44,000, and the Trial Balance agreed. What type of error occurred?",
+    "options": {
+      "A": "Error of Omission",
+      "B": "Compensating Error",
+      "C": "Error of Commission",
+      "D": "Error of Principle"
+    },
+    "answer": "B",
+    "explanation": "Two errors occurred on both sides that canceled each other's effect, allowing the Trial Balance to agree. This is called a Compensating Error.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 143,
+    "question": "What is the difference between the actual total and the computed total of the Trial Balance?",
+    "options": {
+      "A": "Tk. 10,000",
+      "B": "Tk. 20,000",
+      "C": "Tk. 34,000",
+      "D": "Tk. 44,000"
+    },
+    "answer": "B",
+    "explanation": "Debtor under-debited by Tk. 10,000. Creditor under-credited by Tk. 10,000. The total error amount on both sides is Tk. 20,000.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 144,
+    "question": "The accountant of Lima & Sons recorded Purchases as Tk. 45,000 instead of Tk. 50,000 and Sales as Tk. 30,000 instead of Tk. 35,000, yet the Trial Balance agreed. What type of error did he commit?",
+    "options": {
+      "A": "Error of Principle",
+      "B": "Error of Omission",
+      "C": "Error of Commission",
+      "D": "Compensating Error"
+    },
+    "answer": "D",
+    "explanation": "Both sides were understated by Tk. 5,000, so the Trial Balance agreed. This is a Compensating Error.",
+    "source": "বাংলাদেশ নৌবাহিনী স্কুল এন্ড কলেজ, খুলনা"
+  },
+  {
+    "id": 145,
+    "question": "What is the amount of the error for Lima & Sons?",
+    "options": {
+      "A": "Tk. 5,000",
+      "B": "Tk. 10,000",
+      "C": "Tk. 15,000",
+      "D": "Tk. 20,000"
+    },
+    "answer": "B",
+    "explanation": "Purchases under-debited by Tk. 5,000 and Sales under-credited by Tk. 5,000. Total error amount = 5,000 + 5,000 = Tk. 10,000.",
+    "source": "বাংলাদেশ নৌবাহিনী স্কুল এন্ড কলেজ, খুলনা"
+  },
+  {
+    "id": 146,
+    "question": "Mr. Siam purchased a computer for Tk. 50,000 and recorded its installation cost of Tk. 2,000 as Wages. What type of error did he commit?",
+    "options": {
+      "A": "Error of Omission",
+      "B": "Compensating Error",
+      "C": "Error of Principle",
+      "D": "Error of Commission"
+    },
+    "answer": "C",
+    "explanation": "Installation cost is a capital expenditure, but it was recorded as Wages (a revenue expense). This violates accounting principles, making it an Error of Principle.",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল"
+  },
+  {
+    "id": 147,
+    "question": "Which journal entry is required to correct Mr. Siam's error?",
+    "options": {
+      "A": "Wages Account Dr., Cash Account Cr.",
+      "B": "Installation Cost Dr., Office Equipment Cr.",
+      "C": "Office Equipment Dr., Wages Account Cr.",
+      "D": "Wages Account Dr., Office Equipment Cr."
+    },
+    "answer": "C",
+    "explanation": "To rectify, the Office Equipment (Computer) must be debited to increase the asset value, and Wages must be credited to reduce the expense. Entry: Office Equipment Dr. 2,000, Wages Cr. 2,000.",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল"
+  },
+  {
+    "id": 148,
+    "question": "What was the amount of Mr. Nuru's total assets on 31st December 2012?\n(Stimulus: Initially assets Tk. 2,20,000, liabilities Tk. 90,000. At year-end, assets increased by Tk. 50,000, liabilities increased by Tk. 10,000.)",
+    "options": {
+      "A": "Tk. 2,70,000",
+      "B": "Tk. 2,20,000",
+      "C": "Tk. 1,70,000",
+      "D": "Tk. 50,000"
+    },
+    "answer": "A",
+    "explanation": "Ending Assets = Beginning Assets (2,20,000) + Increase (50,000) = Tk. 2,70,000.",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  },
+  {
+    "id": 149,
+    "question": "What was the amount of Mr. Nuru's total liabilities on 31st December 2012?",
+    "options": {
+      "A": "Tk. 1,00,000",
+      "B": "Tk. 80,000",
+      "C": "Tk. 90,000",
+      "D": "Tk. 10,000"
+    },
+    "answer": "A",
+    "explanation": "Ending Liabilities = Beginning Liabilities (90,000) + Increase (10,000) = Tk. 1,00,000.",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  }
+]

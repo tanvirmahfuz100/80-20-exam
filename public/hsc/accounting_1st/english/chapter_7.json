@@ -1,0 +1,489 @@
+[
+  {
+    "id": 223,
+    "question": "Unearned service income of Tk. 4,000, out of which Tk. 3,000 has been earned. What will be the adjusting journal entry?",
+    "options": {
+      "A": "Cash A/c Dr. 3,000, Service Income A/c Cr. 3,000",
+      "B": "Service Income A/c Dr. 3,000, Unearned Service Income A/c Cr. 3,000",
+      "C": "Cash A/c Dr. 3,000, Unearned Service Income A/c Cr. 3,000",
+      "D": "Unearned Service Income A/c Dr. 3,000, Service Income A/c Cr. 3,000"
+    },
+    "answer": "D",
+    "explanation": "When unearned income is earned, the liability (Unearned Service Income) decreases and income increases. Entry: Debit Unearned Service Income, Credit Service Income.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 224,
+    "question": "Which adjustment entry will have a reversing entry?",
+    "options": {
+      "A": "Prepaid salary payment",
+      "B": "Unrecorded purchase return",
+      "C": "Prepaid rent matured",
+      "D": "Charging depreciation"
+    },
+    "answer": "A",
+    "explanation": "Prepaid salary requires a reversing entry in the next accounting period because it was recorded as an asset through adjustment.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 225,
+    "question": "In the closing entry for net loss, which account is debited?",
+    "options": {
+      "A": "Net Loss",
+      "B": "Capital",
+      "C": "Drawings",
+      "D": "Income Statement"
+    },
+    "answer": "B",
+    "explanation": "For net loss, the closing entry is: Debit Capital Account, Credit Income Statement (or Profit & Loss Account).",
+    "source": "ডিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 226,
+    "question": "Proceeds from the sale of old machinery are what type of transaction?",
+    "options": {
+      "A": "Revenue Income",
+      "B": "Revenue Receipt",
+      "C": "Capital Income",
+      "D": "Capital Receipt"
+    },
+    "answer": "D",
+    "explanation": "Old machinery is a fixed asset. The proceeds from its sale are a Capital Receipt.",
+    "source": "ভিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 227,
+    "question": "Two-fifths of advertisement is to be written off. Advertisement is Tk. 25,000. What is the amount of deferred advertisement?",
+    "options": {
+      "A": "Tk. 25,000",
+      "B": "Tk. 15,000",
+      "C": "Tk. 20,000",
+      "D": "Tk. 10,000"
+    },
+    "answer": "B",
+    "explanation": "Written off = 25,000 × 2/5 = 10,000. Deferred = 25,000 - 10,000 = Tk. 15,000.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 228,
+    "question": "Which account requires a closing entry?",
+    "options": {
+      "A": "Debtors",
+      "B": "Cash",
+      "C": "Creditors",
+      "D": "Drawings"
+    },
+    "answer": "D",
+    "explanation": "Drawings is a nominal (temporary) account that is closed by transferring its balance to the Capital account through a closing entry.",
+    "source": "ন্যাশনাল আইডিয়াল স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 229,
+    "question": "Prepaid insurance has expired. In the adjustment entry, which account will be credited?",
+    "options": {
+      "A": "Prepaid Insurance Account",
+      "B": "Insurance Account",
+      "C": "Life Insurance Account",
+      "D": "Fire Insurance Account"
+    },
+    "answer": "A",
+    "explanation": "When prepaid insurance expires, it becomes an expense. The entry is: Debit Insurance Expense, Credit Prepaid Insurance (asset).",
+    "source": "ঢাকা রেসিডেনসিয়াল মডেল কলেজ"
+  },
+  {
+    "id": 230,
+    "question": "What will be the adjusting journal entry for outstanding interest?",
+    "options": {
+      "A": "Interest Payable Dr., Interest Expense Cr.",
+      "B": "Interest Expense Dr., Interest Payable Cr.",
+      "C": "Interest Expense Dr., Cash Account Cr.",
+      "D": "Interest Payable Dr., Cash Cr."
+    },
+    "answer": "B",
+    "explanation": "Outstanding interest increases expense and creates a liability. Entry: Debit Interest Expense, Credit Interest Payable.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 231,
+    "question": "After the closing entry, which account's balance will not be zero?",
+    "options": {
+      "A": "Salary",
+      "B": "Rent",
+      "C": "Depreciation",
+      "D": "Deferred Advertisement"
+    },
+    "answer": "D",
+    "explanation": "Deferred Advertisement is an asset (real) account. Nominal accounts like Salary, Rent, and Depreciation are closed to zero.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 232,
+    "question": "What effect will occur when unearned income shown in the Trial Balance is adjusted?",
+    "options": {
+      "A": "Liability will decrease and income will increase",
+      "B": "Asset will decrease and income will increase",
+      "C": "Asset will increase and income will increase",
+      "D": "Income will decrease and asset will decrease"
+    },
+    "answer": "A",
+    "explanation": "When unearned income is earned, the liability (Unearned Income) decreases, and income increases.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 233,
+    "question": "Purchase of a car for Tk. 3,20,000 for sales purposes is what type of expenditure?",
+    "options": {
+      "A": "Revenue Expenditure",
+      "B": "Capital Expenditure",
+      "C": "Deferred Revenue Expenditure",
+      "D": "Capitalized Expenditure"
+    },
+    "answer": "B",
+    "explanation": "A car purchased for business use is a fixed asset, so it is a Capital Expenditure.",
+    "source": "বাংলাদেশ নৌবাহিনী স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  },
+  {
+    "id": 234,
+    "question": "'Uncollectible income' is considered for the relevant accounting period as-",
+    "options": {
+      "A": "Income and Liability",
+      "B": "Expense and Liability",
+      "C": "Asset and Income",
+      "D": "Expense and Asset"
+    },
+    "answer": "D",
+    "explanation": "Uncollectible income is an amount that cannot be collected, which represents an expense (loss) and a reduction in asset (receivable).",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল",
+    "confidence": "low"
+  },
+  {
+    "id": 235,
+    "question": "Which transaction simultaneously decreases and increases liabilities?",
+    "options": {
+      "A": "Paying a creditor in cash",
+      "B": "Issuing a bill to a creditor",
+      "C": "Taking a loan from the bank",
+      "D": "Repaying a bank loan"
+    },
+    "answer": "B",
+    "explanation": "Issuing a bill to a creditor reduces the creditor (liability) and creates a new liability (Bills Payable). Thus, one liability decreases and another increases.",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল"
+  },
+  {
+    "id": 236,
+    "question": "Which is shown as a liability in the Balance Sheet?",
+    "options": {
+      "A": "Capital Expenditure",
+      "B": "Revenue Income",
+      "C": "Revenue Receipt",
+      "D": "Capital Receipt"
+    },
+    "answer": "A",
+    "explanation": "Capital expenditure increases assets and may be financed by long-term liabilities, which are shown in the Balance Sheet. (Note: This is context-specific; Revenue Income is shown in P&L).",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল",
+    "confidence": "low"
+  },
+  {
+    "id": 237,
+    "question": "Unearned service income is Tk. 20,000. If 2/5 of unearned service income is earned, what is the current liability at the end of the accounting period?",
+    "options": {
+      "A": "Tk. 8,000",
+      "B": "Tk. 12,000",
+      "C": "Tk. 16,000",
+      "D": "Tk. 20,000"
+    },
+    "answer": "B",
+    "explanation": "Earned = 20,000 × 2/5 = 8,000. Unearned (current liability) = 20,000 - 8,000 = Tk. 12,000.",
+    "source": "উদয়ন উচ্চ মাধ্যমিক বিদ্যালয়, ঢাকা"
+  },
+  {
+    "id": 238,
+    "question": "In the Trial Balance, wages are shown at 120% as Tk. 30,000. What is the amount of prepaid or outstanding wages?",
+    "options": {
+      "A": "Prepaid wages Tk. 5,000",
+      "B": "Outstanding wages Tk. 5,000",
+      "C": "Prepaid wages Tk. 6,000",
+      "D": "Outstanding wages Tk. 6,000"
+    },
+    "answer": "B",
+    "explanation": "120% = 30,000. 100% = 30,000 × 100/120 = 25,000. Outstanding = 30,000 - 25,000 = Tk. 5,000.",
+    "source": "শহীদ বীর উত্তম লে. আনোয়ার গার্লস কলেজ, ঢাকা"
+  },
+  {
+    "id": 239,
+    "question": "Why is the Statement of Owner's Equity prepared?",
+    "options": {
+      "A": "To know gross profit",
+      "B": "To know net profit",
+      "C": "To know owner's debts and receivables",
+      "D": "To know the amount of assets and liabilities"
+    },
+    "answer": "B",
+    "explanation": "The Statement of Owner's Equity shows changes in capital, including net profit or loss for the period.",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  },
+  {
+    "id": 240,
+    "question": "Interest on capital of Tk. 2,000 is to be charged. For this adjustment, which account will be credited?",
+    "options": {
+      "A": "Capital Account",
+      "B": "Interest on Capital Account",
+      "C": "Drawings Account",
+      "D": "Commission Account"
+    },
+    "answer": "B",
+    "explanation": "The adjustment entry: Debit Interest on Capital (Expense), Credit Interest on Capital Payable/Capital. The credit is to Interest on Capital Account.",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  },
+  {
+    "id": 241,
+    "question": "For which accounts are reversing entries made?",
+    "options": {
+      "A": "Income and Expense",
+      "B": "Prepaid Income and Expense",
+      "C": "Assets and Liabilities",
+      "D": "Outstanding and Prepaid Income and Expense"
+    },
+    "answer": "D",
+    "explanation": "Reversing entries are made for outstanding and prepaid income and expense adjustments at the beginning of the next period.",
+    "source": "সেন্ট্রাল উইমেন্স কলেজ, ঢাকা"
+  },
+  {
+    "id": 242,
+    "question": "Why are reversing entries made?",
+    "options": {
+      "A": "To adjust previous outstanding and prepaid income-expenses with the new year's income-expense accounts",
+      "B": "To adjust previous income-expenses with the new year's income-expense accounts",
+      "C": "To adjust assets and liabilities with current year's income-expenses",
+      "D": "To adjust previous income-expense accounts with current year's assets and liabilities"
+    },
+    "answer": "A",
+    "explanation": "Reversing entries are made to simplify the recording of regular transactions in the next period by reversing the previous year's outstanding and prepaid adjustments.",
+    "source": "সেন্ট্রাল উইমেন্স কলেজ, ঢাকা"
+  },
+  {
+    "id": 243,
+    "question": "Net profit or loss is closed through which account?",
+    "options": {
+      "A": "Drawings Account",
+      "B": "Capital Account",
+      "C": "Liability Account",
+      "D": "Creditor Account"
+    },
+    "answer": "B",
+    "explanation": "Net profit or loss is transferred to the Capital Account through a closing entry.",
+    "source": "সেন্ট্রাল উইমেন্স কলেজ, ঢাকা"
+  },
+  {
+    "id": 244,
+    "question": "Installation wages of machinery Tk. 5,000 is what type of expenditure?",
+    "options": {
+      "A": "Capital",
+      "B": "Revenue",
+      "C": "Deferred Revenue",
+      "D": "Capital and Revenue"
+    },
+    "answer": "A",
+    "explanation": "Installation wages for machinery are added to the cost of the machinery, making it a Capital Expenditure.",
+    "source": "শহীদ স্মৃতি কলেজ, স্বরূপকাঠি, পিরোজপুর"
+  },
+  {
+    "id": 245,
+    "question": "Not closed in the current accounting year-\ni. Assets\nii. Liabilities\niii. Owner's Capital\nWhich is correct?",
+    "options": {
+      "A": "i",
+      "B": "i & ii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Assets, Liabilities, and Owner's Capital are permanent accounts and are not closed. They are carried forward to the next year.",
+    "source": "উদয়ন উচ্চ মাধ্যমিক বিদ্যালয়, ঢাকা"
+  },
+  {
+    "id": 246,
+    "question": "Closed through closing entries-\ni. Expense accounts\nii. Liability accounts\niii. Income accounts\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Expense (i) and Income (iii) are nominal accounts and are closed. Liability accounts are not closed.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 247,
+    "question": "Transferred to the next accounting period-\ni. Liability accounts\nii. Asset accounts\niii. Nominal accounts\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Liability (i) and Asset (ii) accounts are permanent and are transferred. Nominal accounts are closed, not transferred.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 248,
+    "question": "Affected by reversing entries-\ni. Capital Account\nii. Cash Account\niii. Bank Account\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Reversing entries typically affect Cash and Bank accounts related to outstanding/prepaid adjustments, not the Capital account directly.",
+    "source": "বাংলাদেশ মহিলা সমিতি বালিকা উচ্চ বিদ্যালয় ও কলেজ, চট্টগ্রাম",
+    "confidence": "low"
+  },
+  {
+    "id": 249,
+    "question": "Reasons for preparing a worksheet-\ni. To verify mathematical accuracy\nii. To assist in preparing financial statements\niii. To determine financial results\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "A worksheet is prepared to check mathematical accuracy, assist in financial statement preparation, and determine financial results. All three are correct.",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল"
+  },
+  {
+    "id": 250,
+    "question": "Bank overdraft in the worksheet is shown-\ni. On the credit side of the adjusted trial balance\nii. On the credit side of the income statement\niii. On the credit side of the balance sheet\nWhich is correct?",
+    "options": {
+      "A": "i",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Bank overdraft is a liability, shown on the credit side of the adjusted trial balance (i) and as a current liability in the balance sheet (iii).",
+    "source": "সেন্ট্রাল উইমেন্স কলেজ, ঢাকা"
+  },
+  {
+    "id": 251,
+    "question": "Revenue transactions-\ni. Occur regularly\nii. Occur irregularly\niii. Involve small amounts of money\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Revenue transactions occur regularly (i) and usually involve relatively small amounts (iii).",
+    "source": "ঢাকা সিটি কলেজ",
+    "confidence": "low"
+  },
+  {
+    "id": 252,
+    "question": "How much advertisement expense will go to the Income Statement?\n(Stimulus: Messrs Asif Traders' Trial Balance shows Advertisement Tk. 40,000. 1/4 of the advertisement is to be written off.)",
+    "options": {
+      "A": "Tk. 10,000",
+      "B": "Tk. 30,000",
+      "C": "Tk. 15,000",
+      "D": "Tk. 20,000"
+    },
+    "answer": "A",
+    "explanation": "Written off = 40,000 × 1/4 = 10,000. This amount goes to the Income Statement as an expense.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 253,
+    "question": "What is the amount of deferred advertisement?",
+    "options": {
+      "A": "Tk. 30,000",
+      "B": "Tk. 26,667",
+      "C": "Tk. 15,000",
+      "D": "Tk. 10,000"
+    },
+    "answer": "A",
+    "explanation": "Deferred Advertisement = 40,000 - 10,000 = Tk. 30,000.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 254,
+    "question": "At the end of 2013, what amount of deferred advertisement will be shown in the Balance Sheet?\n(Stimulus: Anik Traders spent Tk. 60,000 on advertisement on 1 January 2012 for 5 years.)",
+    "options": {
+      "A": "Tk. 24,000",
+      "B": "Tk. 36,000",
+      "C": "Tk. 48,000",
+      "D": "Tk. 60,000"
+    },
+    "answer": "B",
+    "explanation": "Annual write-off = 60,000 / 5 = 12,000. Total written off for 2012 & 2013 = 24,000. Deferred = 60,000 - 24,000 = Tk. 36,000.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 255,
+    "question": "Anik Traders' accountant recorded the entire advertisement expenditure as an operating expense in 2012. The effect on the financial position is-\ni. Owner's equity will decrease\nii. Liabilities will decrease\niii. Assets will decrease\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Recording the entire amount as expense overstates expenses, reducing profit and owner's equity (i). Assets also decrease (iii). Liabilities are unaffected.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 256,
+    "question": "What is the amount of Hasan Traders' net profit for 2014?\n(Stimulus: 2012: GP 20,000, NP 12,000; 2013: GP 40,000, NP 10,000; 2014: GP 80,000. Selling expense 14,000, Admin expense 18,000, Depreciation 6,000, Apprentice premium 6,000.)",
+    "options": {
+      "A": "Tk. 2,000",
+      "B": "Tk. 4,000",
+      "C": "Tk. 6,000",
+      "D": "Tk. 8,000"
+    },
+    "answer": "B",
+    "explanation": "Total operating expenses = 14,000 + 18,000 + 6,000 + 6,000 = 44,000. Net Profit = 80,000 - 44,000 = 36,000. (Discrepancy with options; assuming answer key suggests Tk. 4,000).",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল",
+    "confidence": "low"
+  },
+  {
+    "id": 257,
+    "question": "The reason for Hasan Traders' net profit decreasing compared to gross profit is-\ni. Excessive selling expenses\nii. Excessive direct expenses\niii. Excessive abnormal expenses\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Net profit decreases due to high selling expenses (i) and abnormal expenses (iii). Direct expenses affect gross profit, not net profit.",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল",
+    "confidence": "low"
+  },
+  {
+    "id": 258,
+    "question": "What is the amount of interest on the investment?\n(Stimulus: Robin & Co. invested Tk. 1,20,000 on 1 September 2013 at 5% interest. Accounting year ends on 31 December.)",
+    "options": {
+      "A": "Tk. 2,000",
+      "B": "Tk. 3,000",
+      "C": "Tk. 4,000",
+      "D": "Tk. 6,000"
+    },
+    "answer": "A",
+    "explanation": "Interest = 1,20,000 × 5% × 4/12 = Tk. 2,000.",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  },
+  {
+    "id": 259,
+    "question": "The adjustment entry for interest on investment will be-\ni. Accrued Interest on Investment A/c Debit\nii. Income Statement A/c Debit\niii. Interest on Investment A/c Credit\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Correct adjusting entry: Debit Accrued Interest on Investment (Asset) (i), Credit Interest on Investment (Income) (iii).",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  }
+]

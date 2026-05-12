@@ -1,6 +1,133 @@
 {
   "subjects": [
     {
+      "id": "accounting_1st",
+      "name": "Accounting 1st Paper",
+      "icon": "Calculator",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_1.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_1.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_2.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_2.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_3.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_3.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_4",
+          "name": "Chapter 4",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_4.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_4.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_5.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_5.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_6.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_6.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_7",
+          "name": "Chapter 7",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch7",
+              "name": "Chapter 7 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_7.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_7.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_8.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_8.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_9",
+          "name": "Chapter 9",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch9",
+              "name": "Chapter 9 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_9.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_9.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_10",
+          "name": "Chapter 10",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch10",
+              "name": "Chapter 10 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_10.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_10.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "accounting_2nd",
       "name": "Accounting 2nd Paper",
       "icon": "Calculator",
