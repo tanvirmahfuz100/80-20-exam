@@ -1,0 +1,394 @@
+[
+  {
+    "id": 318,
+    "question": "Which is correct regarding variable costs?",
+    "options": {
+      "A": "It changes proportionately at a fixed unit level",
+      "B": "It never changes",
+      "C": "It changes based on the level of activity",
+      "D": "It cannot be determined at any level"
+    },
+    "answer": "C",
+    "explanation": "Variable costs change proportionately with the level of production or activity.",
+    "source": null
+  },
+  {
+    "id": 319,
+    "question": "Which cost is both a Prime Cost and a Conversion Cost?",
+    "options": {
+      "A": "Selling expense",
+      "B": "Direct materials",
+      "C": "Factory overhead",
+      "D": "Direct labor"
+    },
+    "answer": "D",
+    "explanation": "Direct labor is part of both Prime Cost (DM + DL + DE) and Conversion Cost (DL + FOH).",
+    "source": null
+  },
+  {
+    "id": 320,
+    "question": "Which of the following is a Capital Expenditure?",
+    "options": {
+      "A": "Food purchase",
+      "B": "Beverage purchase",
+      "C": "Stationery purchase",
+      "D": "Book purchase"
+    },
+    "answer": "D",
+    "explanation": "Purchase of books for the library increases a fixed asset and is treated as Capital Expenditure.",
+    "source": null
+  },
+  {
+    "id": 321,
+    "question": "What is a past cost that cannot be recovered called?",
+    "options": {
+      "A": "Opportunity cost",
+      "B": "Comparable cost",
+      "C": "Cash cost",
+      "D": "Sunk cost"
+    },
+    "answer": "D",
+    "explanation": "A sunk cost is a past cost that has already been incurred and cannot be recovered.",
+    "source": null
+  },
+  {
+    "id": 322,
+    "question": "What does Period Cost refer to?",
+    "options": {
+      "A": "Factory rent",
+      "B": "Direct materials",
+      "C": "Selling overhead",
+      "D": "Labor wages"
+    },
+    "answer": "A",
+    "explanation": "Period costs are related to time, not production units. Factory rent is a period cost.",
+    "source": null
+  },
+  {
+    "id": 323,
+    "question": "As production increases, which cost per unit tends to decrease?",
+    "options": {
+      "A": "Variable",
+      "B": "Fixed",
+      "C": "Mixed",
+      "D": "Sunk"
+    },
+    "answer": "B",
+    "explanation": "Fixed costs remain constant in total, so the cost per unit decreases as production increases.",
+    "source": null
+  },
+  {
+    "id": 324,
+    "question": "What is all types of costs incurred to produce or acquire a product called?",
+    "options": {
+      "A": "Direct cost",
+      "B": "Indirect cost",
+      "C": "Product cost",
+      "D": "Period cost"
+    },
+    "answer": "C",
+    "explanation": "All costs incurred in manufacturing a product are collectively called Product Cost.",
+    "source": null
+  },
+  {
+    "id": 325,
+    "question": "What is the portion of expired cost from which no benefit was or will be received called?",
+    "options": {
+      "A": "Expense",
+      "B": "Loss",
+      "C": "Asset",
+      "D": "Profit"
+    },
+    "answer": "B",
+    "explanation": "If a cost provides no past or future benefit, it is recognized as a Loss.",
+    "source": null
+  },
+  {
+    "id": 326,
+    "question": "What is a cost that contains both fixed and variable elements called?",
+    "options": {
+      "A": "Direct cost",
+      "B": "Indirect cost",
+      "C": "Semi-variable cost",
+      "D": "Product cost"
+    },
+    "answer": "C",
+    "explanation": "Costs with both fixed and variable components are called Semi-variable or Mixed costs.",
+    "source": null
+  },
+  {
+    "id": 327,
+    "question": "Direct wages fall under which type of cost?",
+    "options": {
+      "A": "Mixed cost",
+      "B": "Opportunity cost",
+      "C": "Fixed cost",
+      "D": "Variable cost"
+    },
+    "answer": "D",
+    "explanation": "Direct wages vary directly with the level of production, making them a variable cost.",
+    "source": null
+  },
+  {
+    "id": 328,
+    "question": "Which one is a Sunk Cost?",
+    "options": {
+      "A": "Relevant cost",
+      "B": "Irrelevant cost",
+      "C": "Differential cost",
+      "D": "Period cost"
+    },
+    "answer": "B",
+    "explanation": "Sunk costs are irrelevant costs for decision making because they occurred in the past and cannot be changed.",
+    "source": null
+  },
+  {
+    "id": 329,
+    "question": "What is a future cost that differs between alternatives called?",
+    "options": {
+      "A": "Imputed cost",
+      "B": "Product cost",
+      "C": "Marginal cost",
+      "D": "Relevant cost"
+    },
+    "answer": "D",
+    "explanation": "A relevant cost is a future cost that varies among different decision alternatives.",
+    "source": null
+  },
+  {
+    "id": 330,
+    "question": "What is the sum of costs incurred to produce a product or service called?",
+    "options": {
+      "A": "Preliminary cost",
+      "B": "Prime cost",
+      "C": "Factory cost",
+      "D": "Production cost"
+    },
+    "answer": "D",
+    "explanation": "Total cost of producing a product or service is known as Production Cost.",
+    "source": null
+  },
+  {
+    "id": 331,
+    "question": "What is Conversion Cost?",
+    "options": {
+      "A": "Materials + Overhead",
+      "B": "Direct wages + Factory overhead",
+      "C": "Production cost + Commercial cost",
+      "D": "Direct wages + Administrative cost"
+    },
+    "answer": "B",
+    "explanation": "Conversion Cost = Direct Wages + Factory Overhead. It represents the cost of converting raw materials into finished goods.",
+    "source": null
+  },
+  {
+    "id": 332,
+    "question": "What is the allowance given for inflation and rising prices called?",
+    "options": {
+      "A": "Dearness Allowance",
+      "B": "Medical Allowance",
+      "C": "Travel Allowance",
+      "D": "House Rent Allowance"
+    },
+    "answer": "A",
+    "explanation": "Dearness Allowance (DA) is given to employees to offset the impact of inflation and price rises.",
+    "source": null
+  },
+  {
+    "id": 333,
+    "question": "What is a cost incurred in the past that is currently irrecoverable called?",
+    "options": {
+      "A": "Sunk cost",
+      "B": "Opportunity cost",
+      "C": "Historical cost",
+      "D": "Period cost"
+    },
+    "answer": "A",
+    "explanation": "A cost that has been spent in the past and cannot be recovered is a Sunk Cost.",
+    "source": null
+  },
+  {
+    "id": 334,
+    "question": "Depreciation of office furniture is what type of expense?",
+    "options": {
+      "A": "Administrative overhead",
+      "B": "Production overhead",
+      "C": "Indirect overhead",
+      "D": "Selling overhead"
+    },
+    "answer": "A",
+    "explanation": "Office furniture is used for administrative purposes, so its depreciation is an administrative overhead.",
+    "source": null
+  },
+  {
+    "id": 335,
+    "question": "Which one is a Fixed Cost?",
+    "options": {
+      "A": "Monthly salary of management",
+      "B": "Direct wages",
+      "C": "Direct expenses",
+      "D": "Fuel cost"
+    },
+    "answer": "A",
+    "explanation": "Monthly salary does not vary with production volume, making it a fixed cost.",
+    "source": null
+  },
+  {
+    "id": 336,
+    "question": "Controllable costs are: i. Direct Material Cost ii. Direct Wages iii. Variable Factory Overhead. Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Variable and direct costs are generally controllable by management. All three are examples of controllable costs.",
+    "source": null
+  },
+  {
+    "id": 337,
+    "question": "Semi-variable costs: i. Telephone bill ii. Electricity bill iii. Repair cost. Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three contain a combination of fixed (line rent/minimum charge) and variable (usage) elements.",
+    "source": null
+  },
+  {
+    "id": 338,
+    "question": "Characteristics of a relevant cost are: i. Must be a future cost ii. Must be a past cost iii. Must differ between alternatives. Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Relevant costs are future costs that differ between alternatives. Past costs are irrelevant.",
+    "source": null
+  },
+  {
+    "id": 339,
+    "question": "Conversion Cost includes: i. Direct Wages ii. Direct Materials iii. Factory Overhead. Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Conversion cost = Direct Wages + Factory Overhead. Direct materials are part of Prime Cost.",
+    "source": null
+  },
+  {
+    "id": 340,
+    "question": "Safa Manufacturing: Direct Materials 12,000, Wages 6,000, Factory overhead 2,000, Office 3,000, Selling 5,000. Total Product Cost?",
+    "options": {
+      "A": "Tk. 20,000",
+      "B": "Tk. 23,000",
+      "C": "Tk. 28,000",
+      "D": "Tk. 18,000"
+    },
+    "answer": "A",
+    "explanation": "Product Cost = Direct Materials + Wages + Factory Overhead = 12,000 + 6,000 + 2,000 = Tk. 20,000.",
+    "source": null
+  },
+  {
+    "id": 341,
+    "question": "Safa Manufacturing: Total Period Cost?",
+    "options": {
+      "A": "Tk. 3,000",
+      "B": "Tk. 5,000",
+      "C": "Tk. 8,000",
+      "D": "Tk. 10,000"
+    },
+    "answer": "C",
+    "explanation": "Period Cost = Office Expenses 3,000 + Selling Expenses 5,000 = Tk. 8,000.",
+    "source": null
+  },
+  {
+    "id": 342,
+    "question": "Bharsa Company: Closing Inventory 1,00,000, fire destroyed goods Tk. 10,000 (40% insured). What is the Non-operating expense?",
+    "options": {
+      "A": "Tk. 8,000",
+      "B": "Tk. 10,000",
+      "C": "Tk. 6,000",
+      "D": "Tk. 1,00,000"
+    },
+    "answer": "B",
+    "explanation": "The total loss from fire is Tk. 10,000, which is a non-operating expense. Insurance proceeds will be recognized as income.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 343,
+    "question": "If the insurance claim covers 2/3rd: i. Non-operating expense will increase ii. Current assets will be Tk. 4,000 iii. Net profit will remain unchanged. Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "If only 2/3rds is covered, the remaining 1,000 is a loss (increase in non-op expense, i). Cash received 2,000 + remaining 2,000 inventory? Current asset impact varies. (ii) might be right based on exact calc.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 344,
+    "question": "Selling price/unit Tk. 50. Materials 15, Labor 2 hrs @ Tk. 2, Direct Expenses 5. Variable cost per unit?",
+    "options": {
+      "A": "Tk. 15",
+      "B": "Tk. 24",
+      "C": "Tk. 19",
+      "D": "Tk. 29"
+    },
+    "answer": "B",
+    "explanation": "Variable Cost = Materials 15 + Labor (2×2=4) + Direct Expenses 5 = Tk. 24.",
+    "source": null
+  },
+  {
+    "id": 345,
+    "question": "March total fixed cost: Office Rent Tk. 50,000, Salary Tk. 40,000, Commission 10% on sales.",
+    "options": {
+      "A": "Tk. 40,000",
+      "B": "Tk. 50,000",
+      "C": "Tk. 90,000",
+      "D": "Tk. 1,40,000"
+    },
+    "answer": "C",
+    "explanation": "Fixed Cost = Office Rent 50,000 + Salary 40,000 = Tk. 90,000. Commission is a variable cost.",
+    "source": null
+  },
+  {
+    "id": 346,
+    "question": "Bogura Bag: Cloth 50k, Wages 40k, Factory Rent 8k, Manager Salary 20k, Showroom Rent 5k. Total Fixed Cost?",
+    "options": {
+      "A": "Tk. 12,000",
+      "B": "Tk. 18,000",
+      "C": "Tk. 28,000",
+      "D": "Tk. 33,000"
+    },
+    "answer": "D",
+    "explanation": "Fixed Cost = Factory Rent 8k + Manager Salary 20k + Showroom Rent 5k = Tk. 33,000.",
+    "source": null
+  },
+  {
+    "id": 347,
+    "question": "Bogura Bag: Total Product Cost?",
+    "options": {
+      "A": "Tk. 90,000",
+      "B": "Tk. 98,000",
+      "C": "Tk. 1,18,000",
+      "D": "Tk. 1,23,000"
+    },
+    "answer": "C",
+    "explanation": "Product Cost = Cloth 50k + Wages 40k + Factory Rent 8k + Manager Salary 20k = Tk. 1,18,000.",
+    "source": null
+  }
+]

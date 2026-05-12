@@ -3,7 +3,8 @@ import { Book, Calculator, Brain, ChevronRight, Play, Clock, AlertCircle, Timer,
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
-const SubjectCard = ({ subject, isSelected, onClick }) => {
+const SubjectCard = ({ subject, isSelected, onClick, version }) => {
+    const displayName = version === 'english' ? (subject.name_en || subject.name) : (subject.name_bn || subject.name);
     const Icon = {
         english: Book,
         math: Calculator,
@@ -24,31 +25,34 @@ const SubjectCard = ({ subject, isSelected, onClick }) => {
             <div className={`p-5 rounded-2xl mb-5 transition-all duration-500 ${isSelected ? 'bg-primary text-white scale-110 shadow-lg shadow-primary/30' : 'bg-surface-alt text-white/20 group-hover:text-white/40'}`}>
                 <Icon className="w-10 h-10" />
             </div>
-            <h3 className={`text-xl font-black mb-1 transition-colors tracking-tighter ${isSelected ? 'text-white' : 'text-white/60 group-hover:text-white'}`}>{subject.name}</h3>
+            <h3 className={`text-xl font-black mb-1 transition-colors tracking-tighter ${isSelected ? 'text-white' : 'text-white/60 group-hover:text-white'}`}>{displayName}</h3>
             <p className="text-[10px] font-black uppercase tracking-[0.2em] text-white/20">{subject.topics?.reduce((acc, t) => acc + t.chapters.length, 0)} Modules</p>
         </button>
     );
 };
 
-const ChapterItem = ({ chapter, onClick, questionCount }) => (
-    <div className="flex items-center justify-between p-5 bg-surface border border-white/5 rounded-2xl hover:border-primary/30 transition-all group hover:bg-white/5">
-        <div className="flex-1 min-w-0 pr-4">
-            <h4 className="font-bold text-white text-lg truncate group-hover:text-primary transition-colors leading-tight mb-1">{chapter.name}</h4>
-            <div className="flex items-center gap-3">
-                <span className="text-[10px] font-black uppercase tracking-[0.1em] text-white/20 italic">Learning Goal</span>
-                <span className="w-1 h-1 rounded-full bg-white/10"></span>
-                <span className="text-[10px] font-black uppercase tracking-[0.1em] text-primary/50">{questionCount} Questions</span>
+const ChapterItem = ({ chapter, onClick, questionCount, version }) => {
+    const displayName = version === 'english' ? (chapter.name_en || chapter.name) : (chapter.name_bn || chapter.name);
+    return (
+        <div className="flex items-center justify-between p-5 bg-surface border border-white/5 rounded-2xl hover:border-primary/30 transition-all group hover:bg-white/5">
+            <div className="flex-1 min-w-0 pr-4">
+                <h4 className="font-bold text-white text-lg truncate group-hover:text-primary transition-colors leading-tight mb-1">{displayName}</h4>
+                <div className="flex items-center gap-3">
+                    <span className="text-[10px] font-black uppercase tracking-[0.1em] text-white/20 italic">Learning Goal</span>
+                    <span className="w-1 h-1 rounded-full bg-white/10"></span>
+                    <span className="text-[10px] font-black uppercase tracking-[0.1em] text-primary/50">{questionCount} Questions</span>
+                </div>
             </div>
+            <button
+                onClick={() => onClick(chapter)}
+                className="flex items-center gap-2 px-6 py-3 bg-primary text-white font-black uppercase tracking-widest rounded-xl hover:bg-primary-hover transition-all text-[10px] shadow-lg shadow-primary/10 active:scale-95 shrink-0"
+            >
+                <Play className="w-4 h-4 fill-current" />
+                Start
+            </button>
         </div>
-        <button
-            onClick={() => onClick(chapter)}
-            className="flex items-center gap-2 px-6 py-3 bg-primary text-white font-black uppercase tracking-widest rounded-xl hover:bg-primary-hover transition-all text-[10px] shadow-lg shadow-primary/10 active:scale-95 shrink-0"
-        >
-            <Play className="w-4 h-4 fill-current" />
-            Start
-        </button>
-    </div>
-);
+    );
+};
 
 const PracticeConfig = () => {
     const navigate = useNavigate();
@@ -164,7 +168,8 @@ const PracticeConfig = () => {
 
     const handleStart = (chapter) => {
         const file = getChapterFile(chapter);
-        navigate(`/quiz/${chapter.id}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(chapter.name)}&timed=${isTimed}`);
+        const displayName = version === 'english' ? (chapter.name_en || chapter.name) : (chapter.name_bn || chapter.name);
+        navigate(`/quiz/${chapter.id}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(displayName)}&timed=${isTimed}`);
     };
 
     if (loading) return (
@@ -281,6 +286,7 @@ const PracticeConfig = () => {
                                 subject={sub}
                                 isSelected={selectedSubject?.id === sub.id}
                                 onClick={() => setSelectedSubject(sub)}
+                                version={version}
                             />
                         ))}
                     </div>
@@ -307,7 +313,9 @@ const PracticeConfig = () => {
                         {selectedSubject.topics.map(topic => (
                             <div key={topic.id} className="space-y-6">
                                 <div className="flex items-center gap-3">
-                                    <h3 className="text-2xl font-black text-white/90 italic tracking-tight uppercase">{topic.name}</h3>
+                                    <h3 className="text-2xl font-black text-white/90 italic tracking-tight uppercase">
+                                        {version === 'english' ? (topic.name_en || topic.name) : (topic.name_bn || topic.name)}
+                                    </h3>
                                     <span className="flex-1 h-px bg-primary/20 shadow-[0_0_10px_rgba(94,106,210,0.1)]"></span>
                                     <span className="text-[10px] font-black text-primary/40 uppercase tracking-widest">{topic.chapters.length} Units</span>
                                 </div>
@@ -319,6 +327,7 @@ const PracticeConfig = () => {
                                                 chapter={chapter}
                                                 onClick={handleStart}
                                                 questionCount={chapterQuestionCounts[getChapterFile(chapter)] ?? 0}
+                                                version={version}
                                             />
                                         ))
                                     ) : (
