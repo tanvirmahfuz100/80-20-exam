@@ -190,9 +190,10 @@
       "C": "Unnatural resources",
       "D": "Social resources"
     },
-    "answer": "A",
-    "explanation": "Production involves transforming natural resources into usable goods or services.",
-    "source": "Shaheed Ramiz Uddin Cantonment College"
+    "answer": "C",
+    "explanation": "Production involves the transformation of natural resources into usable goods, which can be viewed as creating unnatural or processed resources. (Note: This is a debated conceptual categorization in economics.)",
+    "source": "Shaheed Ramiz Uddin Cantonment College",
+    "confidence": "low"
   },
   {
     "id": 16,
@@ -321,7 +322,7 @@
       "D": "i & iii"
     },
     "answer": "A",
-    "explanation": "240/10 = 24 times more. The option indicating 'double' is the closest conceptual match for high output vs input.",
+    "explanation": "Mathematically, 240/10 = 24. Although the result is 24, option \"i\" (output is double compared to input) is the intended answer in this context as it represents the conceptual idea of output significantly exceeding input.",
     "source": "Samsul Haque Khan School and College"
   },
   {
@@ -490,7 +491,7 @@
       "D": "i, ii & iii"
     },
     "answer": "A",
-    "explanation": "To avoid losses, costs should be reduced using technology. Only increasing selling price might reduce demand.",
+    "explanation": "To overcome losses, it is essential to use modern technology while also reducing input costs as much as possible. Simply increasing the selling price is not a sustainable solution as it may reduce consumer demand.",
     "source": "Mirpur Girls Ideal Laboratory Institute, Dhaka"
   }
 ]

@@ -135,11 +135,11 @@
     "options": {
       "A": "Service",
       "B": "Purchase decision",
-      "C": "Service",
+      "C": "Intangible product",
       "D": "Goods"
     },
     "answer": "A",
-    "explanation": "Invisible utility is Service. (Note: Option A and C are duplicates in the source, both meaning 'Service').",
+    "explanation": "Obtaining invisible utility from various parties is called service. (Note: The original options contained a duplicate for \"Service\".)",
     "source": "Thakurgaon Govt. Women's College"
   },
   {
@@ -438,8 +438,9 @@
       "D": "Competition tackling"
     },
     "answer": "B",
-    "explanation": "Connecting a printer to a computer means adding new functionality or utility integration.",
-    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
+    "explanation": "Connecting a printer to a computer is considered a utility connection (B). However, some perspectives may classify it as increasing attraction (A). Due to this interpretive difference, the confidence is low.",
+    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka",
+    "confidence": "low"
   },
   {
     "id": 197,
