@@ -1,0 +1,496 @@
+[
+  {
+    "id": 1,
+    "question": "Making pots and pans from clay falls under which sector of production?",
+    "options": {
+      "A": "Agriculture",
+      "B": "Industry",
+      "C": "Service",
+      "D": "Construction"
+    },
+    "answer": "B",
+    "explanation": "Making pots and pans from clay is a manufacturing process. It does not belong to agriculture or service sectors. It is an industrial activity, hence falls under the Industry sector.",
+    "source": "Govt. Akbar Ali College, Ullapara, Sirajganj"
+  },
+  {
+    "id": 2,
+    "question": "When do people purchase a product?",
+    "options": {
+      "A": "When they have the ability to fulfill the want for the product",
+      "B": "When the price of the product decreases abnormally",
+      "C": "When the supply of the product increases massively",
+      "D": "When the production of the product decreases massively"
+    },
+    "answer": "A",
+    "explanation": "People purchase a product when they feel the want for it and have the ability to fulfill that want. The primary conditions for demand are want and ability.",
+    "source": "BAF Shaheen College, Dhaka"
+  },
+  {
+    "id": 3,
+    "question": "Using the total production value equation, which total factor productivity is determined?",
+    "options": {
+      "A": "Machine productivity",
+      "B": "Raw material productivity",
+      "C": "Capital productivity",
+      "D": "Total productivity"
+    },
+    "answer": "D",
+    "explanation": "Dividing total production value by total input value gives total productivity. This indicates the overall efficiency of input utilization.",
+    "source": "University Laboratory School and College, Dhaka"
+  },
+  {
+    "id": 4,
+    "question": "Which is the synonym of production?",
+    "options": {
+      "A": "Distribution",
+      "B": "Marketing",
+      "C": "Organization",
+      "D": "Creation"
+    },
+    "answer": "D",
+    "explanation": "The synonym of production is creation. In economics, production means creating utility.",
+    "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
+  },
+  {
+    "id": 5,
+    "question": "New product development is aided by—",
+    "options": {
+      "A": "Organizational activities",
+      "B": "Labor utilization",
+      "C": "Capital supply",
+      "D": "Research activities"
+    },
+    "answer": "D",
+    "explanation": "Research activities enable the innovation of new products. Therefore, research aids new product development.",
+    "source": "Hajiganj Model University College"
+  },
+  {
+    "id": 6,
+    "question": "What does utility mean?",
+    "options": {
+      "A": "Ability to produce",
+      "B": "Ability to satisfy wants",
+      "C": "Ability to take risks",
+      "D": "Ability to control inventory"
+    },
+    "answer": "B",
+    "explanation": "Utility is the ability of a good or service to satisfy human wants.",
+    "source": "BAF Shaheen College, Jessore"
+  },
+  {
+    "id": 7,
+    "question": "The scope of production can be determined based on what?",
+    "options": {
+      "A": "Preservation of inputs",
+      "B": "Reorganization of inputs",
+      "C": "Collection of inputs",
+      "D": "Transformation of inputs"
+    },
+    "answer": "D",
+    "explanation": "Products or services are created through the transformation of raw materials or inputs. Hence, the scope of production is determined by the transformation of inputs.",
+    "source": "Cantonment Public School and College, Jahanabad"
+  },
+  {
+    "id": 8,
+    "question": "How does a firm's profit increase?",
+    "options": {
+      "A": "Through production",
+      "B": "Due to productivity",
+      "C": "By changing selling price",
+      "D": "By keeping selling price unchanged"
+    },
+    "answer": "B",
+    "explanation": "Increased productivity allows more output with less cost, thereby increasing the firm's profit.",
+    "source": "Cantonment Public School and College, Jahanabad"
+  },
+  {
+    "id": 9,
+    "question": "Rahman Ahmed invested a lot of capital in his village to establish a fish farm and earns money through physical labor. What will his such activities be called?",
+    "options": {
+      "A": "Distribution",
+      "B": "Production",
+      "C": "Marketing",
+      "D": "Organization"
+    },
+    "answer": "B",
+    "explanation": "Establishing a fish farm to earn money is a production activity because it creates new utility.",
+    "source": "Thakurgaon Govt. Women's College"
+  },
+  {
+    "id": 10,
+    "question": "What is emphasized in the book 'On the Economy of Machinery and Manufacture'?",
+    "options": {
+      "A": "Determining wages based on workers' skills",
+      "B": "Reducing workers' production time",
+      "C": "Developing workers' innovative power",
+      "D": "Changing workers' traditional methods"
+    },
+    "answer": "A",
+    "explanation": "Charles Babbage emphasized determining wages based on skill in his book.",
+    "source": "Syed Ahmed College, Gabtoli, Bogra"
+  },
+  {
+    "id": 11,
+    "question": "Mr. Razzaq's furniture factory makes furniture from wood. What type of utility is created in Mr. Razzaq's factory?",
+    "options": {
+      "A": "Time and Place",
+      "B": "Producer",
+      "C": "Form",
+      "D": "Possession"
+    },
+    "answer": "C",
+    "explanation": "Converting wood into furniture changes the shape and form of the object, which creates Form Utility.",
+    "source": "Dhaka City College"
+  },
+  {
+    "id": 12,
+    "question": "What is the formula for Total Productivity?",
+    "options": {
+      "A": "Input / Output",
+      "B": "Input / Productivity",
+      "C": "Total Output / Total Input",
+      "D": "Total Input / Total Output"
+    },
+    "answer": "C",
+    "explanation": "Total Productivity = Total Output / Total Input.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 13,
+    "question": "Through what type of change in raw materials are products produced?",
+    "options": {
+      "A": "Place",
+      "B": "Temporal",
+      "C": "Form",
+      "D": "Time"
+    },
+    "answer": "C",
+    "explanation": "Products are produced by changing the form or shape of raw materials, known as Form Utility.",
+    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
+  },
+  {
+    "id": 14,
+    "question": "Mangoes grow well in Rajshahi. The mango farmers sell them to fruit traders in Dhaka. What type of utility is created here?",
+    "options": {
+      "A": "Form",
+      "B": "Time",
+      "C": "Place",
+      "D": "Possession"
+    },
+    "answer": "D",
+    "explanation": "Transferring from Rajshahi to Dhaka creates Place Utility, and changing ownership creates Possession Utility. Here, the primary focus of the transaction is the change in ownership.",
+    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
+  },
+  {
+    "id": 15,
+    "question": "What is production?",
+    "options": {
+      "A": "Natural resources",
+      "B": "Marginal resources",
+      "C": "Unnatural resources",
+      "D": "Social resources"
+    },
+    "answer": "A",
+    "explanation": "Production involves transforming natural resources into usable goods or services.",
+    "source": "Shaheed Ramiz Uddin Cantonment College"
+  },
+  {
+    "id": 16,
+    "question": "Through the transformation of what can usable goods or services be produced?",
+    "options": {
+      "A": "Machinery",
+      "B": "Time",
+      "C": "Goods",
+      "D": "Raw materials"
+    },
+    "answer": "D",
+    "explanation": "Usable goods are mainly produced by transforming raw materials.",
+    "source": "Shaheed Ramiz Uddin Cantonment College"
+  },
+  {
+    "id": 17,
+    "question": "From the expenditure perspective, what is the formula for GNP?",
+    "options": {
+      "A": "RW+R+P",
+      "B": "C+I+G+(X-M)",
+      "C": "C+I+G",
+      "D": "GDP-DC"
+    },
+    "answer": "B",
+    "explanation": "From the expenditure perspective, GNP = C (Consumption) + I (Investment) + G (Government spending) + (X-M) (Net exports).",
+    "source": "Mirpur Girls Ideal Laboratory Institute, Dhaka"
+  },
+  {
+    "id": 18,
+    "question": "An organization's 3 employees processed 600 insurance forms last week. They work 5 days a week and 8 hours a day. Which formula is to be used to determine productivity in this case?",
+    "options": {
+      "A": "Total productivity",
+      "B": "Capital productivity",
+      "C": "Machine productivity",
+      "D": "Labor productivity"
+    },
+    "answer": "D",
+    "explanation": "Productivity is measured based on the workers' output, hence it indicates Labor Productivity.",
+    "source": "Bangladesh Navy College, Chittagong"
+  },
+  {
+    "id": 19,
+    "question": "Dividing the value of total product by the value of total factors gives which type of productivity?",
+    "options": {
+      "A": "Overall productivity",
+      "B": "Labor productivity",
+      "C": "Material productivity",
+      "D": "Machine productivity"
+    },
+    "answer": "A",
+    "explanation": "Total product value / Total input value = Overall (Total) Productivity.",
+    "source": "Dhaka College, Dhaka"
+  },
+  {
+    "id": 20,
+    "question": "Mr. Shaheen buys mangoes from Chapainawabganj, brings them to Dhaka by truck, and supplies them to various shopping centers. The utility created by Mr. Shaheen's activities is—",
+    "options": {
+      "A": "i & ii (Place & Time)",
+      "B": "i & iii (Place & Possession)",
+      "C": "ii & iii (Time & Possession)",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Transporting from Chapainawabganj to Dhaka creates Place Utility, and the change of ownership creates Possession Utility. Time utility does not play the main role here.",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 21,
+    "question": "Productivity is important because— (i. Achieving competitive advantage ii. Achieving customer satisfaction iii. Resource utilization) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i ও iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Increased productivity improves competition, customer satisfaction, and resource utilization.",
+    "source": "Dhaka College, Dhaka"
+  },
+  {
+    "id": 22,
+    "question": "Humans can— (i. Change the form of nature-given goods ii. Change the shape iii. Create new utility) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Humans can change the form and shape of natural resources and create new utility. All three statements are correct.",
+    "source": "BAF Shaheen College, Jessore"
+  },
+  {
+    "id": 23,
+    "question": "Form utility is created by— (i. Transferring objects ii. Changing ownership iii. Changing shape) Which is correct?",
+    "options": {
+      "A": "i",
+      "B": "ii",
+      "C": "iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Form utility is created by changing the shape of an object.",
+    "source": "Cantonment Public School and College, Jahanabad"
+  },
+  {
+    "id": 24,
+    "question": "Ways to increase productivity are— (i. Increase output ii. Reduce input iii. Increase input compared to output) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Both increasing output and reducing input are ways to increase productivity.",
+    "source": "Samsul Haque Khan School and College"
+  },
+  {
+    "id": 25,
+    "question": "Productivity = 240/10 Taka indicates— (i. Output is double compared to input ii. Output is less compared to input iii. Input is double compared to output) Which is correct?",
+    "options": {
+      "A": "i",
+      "B": "ii",
+      "C": "iii",
+      "D": "i & iii"
+    },
+    "answer": "A",
+    "explanation": "240/10 = 24 times more. The option indicating 'double' is the closest conceptual match for high output vs input.",
+    "source": "Samsul Haque Khan School and College"
+  },
+  {
+    "id": 26,
+    "question": "Generally, productivity refers to an organization's— (i. Ratio of input to output ii. Ability to create profit iii. Ability to create surplus) Which is correct?",
+    "options": {
+      "A": "i",
+      "B": "ii",
+      "C": "iii",
+      "D": "i & ii"
+    },
+    "answer": "A",
+    "explanation": "Productivity is the ratio of input to output. It is not directly profit.",
+    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
+  },
+  {
+    "id": 27,
+    "question": "General productivity refers to an organization's— (i. Ratio of input to output ii. Ability to create profit iii. Ability to create surplus) Which is correct?",
+    "options": {
+      "A": "i",
+      "B": "ii & iii",
+      "C": "iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Similar to the previous question. Firm productivity is the input-output ratio.",
+    "source": "Bogra Cantonment Public School College"
+  },
+  {
+    "id": 28,
+    "question": "Mr. Shishir buys handicraft clothes from Jamalpur and sells them in front of various schools in Dhaka. The utility created by his activities is— (i. Time ii. Place iii. Possession) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Moving from Jamalpur to Dhaka (Place) and selling to customers (Possession) utility is created.",
+    "source": "Mirpur Pearls Ideal Laboratory Institute, Dhaka"
+  },
+  {
+    "id": 29,
+    "question": "Rahim Miah buys pure cow milk, flour from the village, and sugar from the shop, makes sweets at home, and sells them in the local market. What type of utility has Rahim Miah created?",
+    "options": {
+      "A": "Form",
+      "B": "Service",
+      "C": "Time",
+      "D": "Place"
+    },
+    "answer": "A",
+    "explanation": "Making sweets using milk, flour, and sugar changes the form, so it is Form Utility.",
+    "source": "Sunamganj Govt. College, Sunamganj"
+  },
+  {
+    "id": 30,
+    "question": "Why is such utility creation by Rahim Miah called production?",
+    "options": {
+      "A": "Because it satisfies wants",
+      "B": "He maintains a specific standard",
+      "C": "He produces at home",
+      "D": "It creates added value"
+    },
+    "answer": "A",
+    "explanation": "The main goal of production is to satisfy wants. He is satisfying people's wants by making sweets.",
+    "source": "Sunamganj Govt. College, Sunamganj"
+  },
+  {
+    "id": 31,
+    "question": "Jia is a worker in an organization. He gets Tk 200 as daily wage and produces goods worth Tk 400. Which formula will be used to determine Jia's percentage productivity?",
+    "options": {
+      "A": "Inputs / 100 × Outputs",
+      "B": "Inputs × Outputs × 100",
+      "C": "Inputs × Outputs / 100",
+      "D": "Outputs / Inputs × 100"
+    },
+    "answer": "D",
+    "explanation": "Labor Productivity = (Total output value / Total labor cost) × 100.",
+    "source": "Thakurgaon Govt. Women's College"
+  },
+  {
+    "id": 32,
+    "question": "What is Jia's daily productivity (in times)?",
+    "options": {
+      "A": "600 times",
+      "B": "2 times",
+      "C": "200 times",
+      "D": "0.5 times"
+    },
+    "answer": "B",
+    "explanation": "Output 400 / Input 200 = 2 times.",
+    "source": "Thakurgaon Govt. Women's College"
+  },
+  {
+    "id": 33,
+    "question": "Mr. Himel runs a vegetable transport business in Munshiganj with 10 vans. For 2 years, vegetables were abundant, so another businessman started transporting by truck. Despite lower transport costs, Himel is not as profitable as before. What type of utility is Mr. Himel creating in his business?",
+    "options": {
+      "A": "Service",
+      "B": "Place",
+      "C": "Time",
+      "D": "Form"
+    },
+    "answer": "B",
+    "explanation": "Through transportation, goods are being moved from one place to another, so Place Utility is created.",
+    "source": "Dhaka Commerce College"
+  },
+  {
+    "id": 34,
+    "question": "To overcome Mr. Himel's problem, the steps to be taken are— (i. Increase productivity ii. Improve transport system iii. Supply capital) Which is correct?",
+    "options": {
+      "A": "i",
+      "B": "i & ii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "To survive the competition, productivity and transport system improvement are needed.",
+    "source": "Dhaka Commerce College"
+  },
+  {
+    "id": 35,
+    "question": "Mr. Shahed produces flour and suji in his business. He is as conscious about his business as he is responsible towards his family. His younger brother is a lawyer. What does the business function of Mr. Shahed fall under?",
+    "options": {
+      "A": "Finance",
+      "B": "Marketing",
+      "C": "Commerce",
+      "D": "Production"
+    },
+    "answer": "D",
+    "explanation": "Making flour and suji falls directly under the Production function.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 36,
+    "question": "In the stimulus, the following is/are outside the scope of production— (i. Business of flour and suji ii. Duty towards family iii. Lawyer's service) Which is correct?",
+    "options": {
+      "A": "i",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Production is an economic activity. Duty towards family and legal service (professional) are not included in the concept of production.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 37,
+    "question": "Jamuna Cement Company's losses are increasing day by day. In 2013-2014, the total value of cement produced was about 10 crore taka. The cost of raw materials was 6 crore, wages and salaries 4 crore, and other expenses 2 crore. What was the productivity of the company in 2013?",
+    "options": {
+      "A": "0.8333",
+      "B": "1.20",
+      "C": "1.00",
+      "D": "1.25"
+    },
+    "answer": "A",
+    "explanation": "Total output value 10 crore, Total input cost (6+4+2) = 12 crore. Productivity = 10/12 = 0.8333.",
+    "source": "Mirpur Girls Ideal Laboratory Institute, Dhaka"
+  },
+  {
+    "id": 38,
+    "question": "To overcome the current situation, the steps to take are— (i. Use modern technology ii. Reduce input costs as much as possible iii. Increase product selling price) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "To avoid losses, costs should be reduced using technology. Only increasing selling price might reduce demand.",
+    "source": "Mirpur Girls Ideal Laboratory Institute, Dhaka"
+  }
+]

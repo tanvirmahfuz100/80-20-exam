@@ -1,0 +1,444 @@
+[
+  {
+    "id": 347,
+    "question": "Why is the maximum use of space emphasized in a good layout?",
+    "options": {
+      "A": "Layout looks good in small spaces",
+      "B": "It accelerates sales",
+      "C": "Workers prefer small spaces",
+      "D": "It prevents wastage of space"
+    },
+    "answer": "D",
+    "explanation": "The main goal of a good layout is to ensure maximum use of space and prevent wastage.",
+    "source": "Mazida Khatun Govt. Women's College, Lalmonirhat"
+  },
+  {
+    "id": 348,
+    "question": "If adequate light and air cannot be arranged in the layout, what should be done?",
+    "options": {
+      "A": "Explain the matter to workers",
+      "B": "The layout should be discarded",
+      "C": "Artificial means of light and air should be arranged",
+      "D": "Production activities should be limited"
+    },
+    "answer": "C",
+    "explanation": "If natural arrangements are not possible, artificial means must be arranged.",
+    "source": "Mazida Khatun Govt. Women's College, Lalmonirhat"
+  },
+  {
+    "id": 349,
+    "question": "Mr. Mumin set up a luxury car showroom in Gulshan. What is the reason for this?",
+    "options": {
+      "A": "Good communication system",
+      "B": "Security",
+      "C": "Affluent customers",
+      "D": "Car parking facility"
+    },
+    "answer": "C",
+    "explanation": "The luxury car market depends on affluent customers, which Gulshan has.",
+    "source": "Govt. Akbar Ali College, Ullapara, Sirajganj"
+  },
+  {
+    "id": 350,
+    "question": "Machine layout is part of what?",
+    "options": {
+      "A": "Quality management",
+      "B": "Personnel management",
+      "C": "Product management",
+      "D": "Production management"
+    },
+    "answer": "D",
+    "explanation": "Machine layout is a part of Production Management.",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 351,
+    "question": "What kind of principle is followed in process layout?",
+    "options": {
+      "A": "Product",
+      "B": "Specialization",
+      "C": "Sales",
+      "D": "Distribution"
+    },
+    "answer": "B",
+    "explanation": "In a process layout, departments are grouped based on the type of work or expertise (specialization principle).",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 352,
+    "question": "What is the objective of a layout?",
+    "options": {
+      "A": "Improving external structure of the organization",
+      "B": "Ensuring employee satisfaction",
+      "C": "Optimum use of space",
+      "D": "Adequate capital supply"
+    },
+    "answer": "C",
+    "explanation": "The main objective of a layout or arrangement is the correct and maximum use of space.",
+    "source": "Dr. Mahbubur Rahman Mollah College"
+  },
+  {
+    "id": 353,
+    "question": "An effective layout ensures what?",
+    "options": {
+      "A": "Business location",
+      "B": "Measuring production capacity",
+      "C": "Worker training",
+      "D": "Good supervision"
+    },
+    "answer": "D",
+    "explanation": "An effective layout ensures good supervision.",
+    "source": "Hajiganj Model University College"
+  },
+  {
+    "id": 354,
+    "question": "What is helpful in increasing the beauty or appeal of an object?",
+    "options": {
+      "A": "Layout",
+      "B": "Science",
+      "C": "Output",
+      "D": "In-out"
+    },
+    "answer": "A",
+    "explanation": "A proper layout or arrangement increases the beauty of a space or product.",
+    "source": "Cantonment Public School and College, Jahanabad"
+  },
+  {
+    "id": 355,
+    "question": "Which layout is required for the construction of Padma Bridge?",
+    "options": {
+      "A": "Product",
+      "B": "Process",
+      "C": "Fixed Position",
+      "D": "Office"
+    },
+    "answer": "C",
+    "explanation": "For bridge construction, Fixed Position Layout is applicable.",
+    "source": "Dr. Abdur Razzak Municipal College, Jessore"
+  },
+  {
+    "id": 356,
+    "question": "What type of layout is needed for a hotel or motel business?",
+    "options": {
+      "A": "Service",
+      "B": "Product",
+      "C": "Process",
+      "D": "Fixed Position"
+    },
+    "answer": "A",
+    "explanation": "Hotel business requires Service Layout.",
+    "source": "Dr. Abdur Razzak Municipal College, Jessore"
+  },
+  {
+    "id": 357,
+    "question": "Good layout includes the maximum use of what type of space?",
+    "options": {
+      "A": "Unspecified",
+      "B": "Special",
+      "C": "Crowded",
+      "D": "Allocated"
+    },
+    "answer": "D",
+    "explanation": "The design and maximum use of the allocated space is the task of layout.",
+    "source": "Thakurgaon Govt. Women's College"
+  },
+  {
+    "id": 358,
+    "question": "The layout where work centers or departments are arranged in a line is called—",
+    "options": {
+      "A": "Fixed position layout",
+      "B": "Product layout",
+      "C": "Process layout",
+      "D": "Service layout"
+    },
+    "answer": "B",
+    "explanation": "In product layout, the production flow is arranged in a straight line.",
+    "source": "Dhaka City College"
+  },
+  {
+    "id": 359,
+    "question": "What is the main objective of a layout?",
+    "options": {
+      "A": "Optimum use of inputs",
+      "B": "Keeping inputs close",
+      "C": "Increasing the beauty of the organization",
+      "D": "Running production activities"
+    },
+    "answer": "A",
+    "explanation": "The optimum use of inputs is the main objective of a layout.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 360,
+    "question": "In which concept are management and workers allocated side-by-side spaces?",
+    "options": {
+      "A": "Traditional layout",
+      "B": "Office landscaping",
+      "C": "Activity placement",
+      "D": "Electronic cottage"
+    },
+    "answer": "B",
+    "explanation": "In modern office landscaping, people are seated side-by-side for collaboration.",
+    "source": "Khilgaon Govt. High School, Khilgaon, Dhaka"
+  },
+  {
+    "id": 361,
+    "question": "Arranging similar products in the sequence of operations is called—",
+    "options": {
+      "A": "Process layout",
+      "B": "Fixed position layout",
+      "C": "Product layout",
+      "D": "Retail layout"
+    },
+    "answer": "C",
+    "explanation": "In Product Layout, machinery is arranged according to the product sequence.",
+    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
+  },
+  {
+    "id": 362,
+    "question": "The layout where work centers or departments are arranged in a line is called—",
+    "options": {
+      "A": "Process",
+      "B": "Fixed",
+      "C": "Product",
+      "D": "Mixed"
+    },
+    "answer": "C",
+    "explanation": "This is the definition of Product Layout.",
+    "source": "Bogra Cantonment Public School College"
+  },
+  {
+    "id": 363,
+    "question": "Machine layout is part of what?",
+    "options": {
+      "A": "Quality management",
+      "B": "Product management",
+      "C": "Personnel management",
+      "D": "Production management"
+    },
+    "answer": "D",
+    "explanation": "Machine layout is an important branch of production management.",
+    "source": "Mirpur Pearls Ideal Laboratory Institute, Dhaka"
+  },
+  {
+    "id": 364,
+    "question": "A layout is called a good layout if it— (i. Ensures proper use of space ii. Keeps distance between work centers short iii. Has flexibility) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three are characteristics of a good layout.",
+    "source": "BAF Shaheen College, Dhaka"
+  },
+  {
+    "id": 365,
+    "question": "Systems used in warehouse layout are— (i. A-one ii. Zone iii. Zero-one) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Zone and Zero-one are well-known warehouse layout systems.",
+    "source": "University Laboratory School and College, Dhaka"
+  },
+  {
+    "id": 366,
+    "question": "Product layout is also called— (i. Production Line ii. Assembly Line iii. Product Line) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Product layout is known as Production Line and Assembly Line. Product Line is a different concept.",
+    "source": "Samsul Haque Khan School and College"
+  },
+  {
+    "id": 367,
+    "question": "Suitable for shipbuilding is— (i. Fixed position layout ii. Office layout iii. Warehouse layout) Which is correct?",
+    "options": {
+      "A": "i",
+      "B": "i & ii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Fixed Position layout is suitable for shipbuilding.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 368,
+    "question": "It is possible for the organization to achieve the desired goals— (i. In ideal layout ii. In good layout iii. In well-organized layout) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Any good or ideal layout helps achieve goals.",
+    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
+  },
+  {
+    "id": 369,
+    "question": "It is possible for the organization to achieve the desired goals— (i. Through ideal layout ii. Through good layout iii. Through well-organized layout) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Repetitive question. Same answer.",
+    "source": "Bogra Cantonment Public School College"
+  },
+  {
+    "id": 370,
+    "question": "In retail store layout, the factors considered are— (i. Nature of products ii. Attracting customers iii. Social status of customers) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Product nature and customer attraction are the main considerations. Social status is not.",
+    "source": "Omor Goni MES College, Chittagong"
+  },
+  {
+    "id": 371,
+    "question": "Mr. Tanha is the managing director of Sunmun Properties, a developer company in Uttara. He is constructing a multistoried building. What type of layout will this business fall under?",
+    "options": {
+      "A": "Process layout",
+      "B": "Fixed position layout",
+      "C": "Product layout",
+      "D": "Service layout"
+    },
+    "answer": "B",
+    "explanation": "In building construction, the product is stationary and workers move around, so it is a Fixed Position Layout.",
+    "source": "Dr. Mahbubur Rahman Mollah College"
+  },
+  {
+    "id": 372,
+    "question": "The benefits he will get through this business are— (i. Improvement of production process ii. Cost reduction iii. Assistance in buying and selling) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Benefit of cost reduction and process improvement.",
+    "source": "Dr. Mahbubur Rahman Mollah College"
+  },
+  {
+    "id": 373,
+    "question": "G-K does not sell the produced clothes but displays them. What type of layout does this task of G-K belong to?",
+    "options": {
+      "A": "Product",
+      "B": "Retail",
+      "C": "Warehouse",
+      "D": "Fixed Position"
+    },
+    "answer": "C",
+    "explanation": "Displaying and stocking fall under the Warehouse Layout.",
+    "source": "BCIC College, Dhaka"
+  },
+  {
+    "id": 374,
+    "question": "By establishing a showroom, what type of layout will G-K establish?",
+    "options": {
+      "A": "Product",
+      "B": "Warehouse",
+      "C": "Retail",
+      "D": "Fixed Position"
+    },
+    "answer": "C",
+    "explanation": "A showroom is a retail store, so it is a Retail Layout.",
+    "source": "BCIC College, Dhaka"
+  },
+  {
+    "id": 375,
+    "question": "Mr. Ibrahim is the managing director of Apex Properties, a developer company in Dhanmondi. He is constructing a multistoried building. What type of layout will this business of Mr. Ibrahim fall under?",
+    "options": {
+      "A": "Process layout",
+      "B": "Fixed position layout",
+      "C": "Product layout",
+      "D": "Service layout"
+    },
+    "answer": "B",
+    "explanation": "Construction industry is an example of Fixed Position Layout.",
+    "source": "Dhaka Commerce College"
+  },
+  {
+    "id": 376,
+    "question": "The benefits he will get through this business are— (i. Improvement of production process ii. Cost reduction iii. Product transfer) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "In Fixed Position Layout, the product is not transferred.",
+    "source": "Dhaka Commerce College"
+  },
+  {
+    "id": 377,
+    "question": "Mr. Sahid formulated his office layout plan. He gave special importance to ensuring the layout can be easily changed in the future. Which characteristic of a good layout is highlighted here?",
+    "options": {
+      "A": "Worker safety",
+      "B": "Light and air arrangement",
+      "C": "Maximum use of space",
+      "D": "Flexibility benefit"
+    },
+    "answer": "D",
+    "explanation": "Changeability indicates the characteristic of Flexibility.",
+    "source": "Dhaka City College"
+  },
+  {
+    "id": 378,
+    "question": "By keeping the option to change the layout, what type of benefit will the organization achieve?",
+    "options": {
+      "A": "Meeting future needs",
+      "B": "Increased work efficiency",
+      "C": "Creating training opportunities",
+      "D": "Ensuring worker safety"
+    },
+    "answer": "A",
+    "explanation": "Flexibility helps meet future changing demands.",
+    "source": "Dhaka City College"
+  },
+  {
+    "id": 379,
+    "question": "Aarong has a showroom in Chittagong. They sell their produced goods here at retail. They display shirts, panjabis, bags, nakshikantha, showpieces etc. separately. What is the layout of Aarong's showroom like?",
+    "options": {
+      "A": "Retail",
+      "B": "Product",
+      "C": "Process",
+      "D": "Service"
+    },
+    "answer": "A",
+    "explanation": "For retail sales, the Retail Layout is used.",
+    "source": "Hajera Taju Degree College, Dhaka"
+  },
+  {
+    "id": 380,
+    "question": "The benefits of Aarong's layout are— (i. Easy to find ii. Employment is created iii. Time is saved) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Displaying neatly makes finding easy and saves time. Employment is not a direct benefit of the layout.",
+    "source": "Hajera Taju Degree College, Dhaka"
+  }
+]
