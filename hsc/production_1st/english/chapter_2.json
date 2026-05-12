@@ -1,0 +1,470 @@
+[
+  {
+    "id": 39,
+    "question": "In economics, what are all types of nature-given resources used in production called?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "A",
+    "explanation": "In economics, 'Land' refers to all natural resources.",
+    "source": "BEPZA Public School and College, Chittagong"
+  },
+  {
+    "id": 40,
+    "question": "What is a resource that is used to acquire more resources called?",
+    "options": {
+      "A": "Capital",
+      "B": "Land",
+      "C": "Organization",
+      "D": "Labor"
+    },
+    "answer": "A",
+    "explanation": "Capital is the resource used to produce more wealth.",
+    "source": "BEPZA Public School and College, Chittagong"
+  },
+  {
+    "id": 41,
+    "question": "What is the lifeblood of industry and commerce?",
+    "options": {
+      "A": "Money/Capital",
+      "B": "Organization",
+      "C": "Land",
+      "D": "Labor power"
+    },
+    "answer": "A",
+    "explanation": "Capital or money is the driving force or lifeblood of industry and commerce.",
+    "source": "Anwara University College, Chittagong"
+  },
+  {
+    "id": 42,
+    "question": "What type of factor is machinery?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "C",
+    "explanation": "Machinery is a produced means of production, hence it is Capital.",
+    "source": "Govt. Women's College, Pabna"
+  },
+  {
+    "id": 43,
+    "question": "What does 'Input' mean?",
+    "options": {
+      "A": "Factors of production",
+      "B": "Production process",
+      "C": "Final goods and services",
+      "D": "Production layout"
+    },
+    "answer": "A",
+    "explanation": "Input refers to the factors or ingredients used in production.",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 44,
+    "question": "An organization is generally encouraged by division of labor for what reason?",
+    "options": {
+      "A": "To increase workers' creativity",
+      "B": "To reduce class discrimination",
+      "C": "To prevent physical and moral degradation of workers",
+      "D": "To increase workers' skill and efficiency"
+    },
+    "answer": "D",
+    "explanation": "The main purpose of division of labor is to increase skill and efficiency through specialization.",
+    "source": "BAF Shaheen College, Dhaka"
+  },
+  {
+    "id": 45,
+    "question": "Which characteristic is inconsistent with the characteristics of organization?",
+    "options": {
+      "A": "Formulating production plan",
+      "B": "Collection of factors",
+      "C": "Distribution of duties and responsibilities",
+      "D": "Determining interrelationship"
+    },
+    "answer": "A",
+    "explanation": "Organization is involved in collecting and coordinating factors; production planning is not a direct characteristic of organization.",
+    "source": "BAF Shaheen College, Dhaka"
+  },
+  {
+    "id": 46,
+    "question": "What is the final step of capital formation?",
+    "options": {
+      "A": "Income",
+      "B": "Savings",
+      "C": "Savings collection",
+      "D": "Investment"
+    },
+    "answer": "D",
+    "explanation": "The third and final step of capital formation is converting savings into investment.",
+    "source": "University Laboratory School and College, Dhaka"
+  },
+  {
+    "id": 47,
+    "question": "From the perspective of management, how many factors of production are there?",
+    "options": {
+      "A": "6",
+      "B": "7",
+      "C": "4",
+      "D": "8"
+    },
+    "answer": "A",
+    "explanation": "From the management perspective, there are 6 factors: Man, Machine, Materials, Money, Method, and Market.",
+    "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
+  },
+  {
+    "id": 48,
+    "question": "What is the main reason behind the massive growth of the garments industry in Bangladesh?",
+    "options": {
+      "A": "Port facilities",
+      "B": "Cheap labor",
+      "C": "Export facilities",
+      "D": "Availability of raw materials"
+    },
+    "answer": "B",
+    "explanation": "The main driving force of the garments industry in Bangladesh is cheap and abundant labor.",
+    "source": "Sunamganj Govt. College, Sunamganj"
+  },
+  {
+    "id": 49,
+    "question": "What is the lifeblood of production?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "C",
+    "explanation": "Capital works as the lifeblood or dynamic element of production.",
+    "source": "Cantonment Public School and College, Jahanabad"
+  },
+  {
+    "id": 50,
+    "question": "The formula for labor productivity is—",
+    "options": {
+      "A": "Production Inputs / Total labor hours",
+      "B": "Total labor hours / Total production",
+      "C": "Value of total production / Total labor value",
+      "D": "Units of total production / Total labor hours"
+    },
+    "answer": "D",
+    "explanation": "Labor Productivity = Total units of output / Total labor hours.",
+    "source": "Dr. Abdur Razzak Municipal College, Jessore"
+  },
+  {
+    "id": 51,
+    "question": "Why does variation occur in the productive capacity of land?",
+    "options": {
+      "A": "Natural reasons",
+      "B": "Geographical reasons",
+      "C": "Economic reasons",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Variation in land's productive capacity occurs due to natural, geographical, and economic reasons.",
+    "source": "BCIC College, Dhaka"
+  },
+  {
+    "id": 52,
+    "question": "Mr. Hamid joined an organization as a Junior Executive. Two years later, he was promoted to Senior Executive. Mr. Hamid's promotion falls under which type of labor mobility?",
+    "options": {
+      "A": "Geographical",
+      "B": "Occupational",
+      "C": "Industrial",
+      "D": "Vertical"
+    },
+    "answer": "D",
+    "explanation": "Promotion within the same organization is Vertical Mobility.",
+    "source": "Dhaka Commerce College"
+  },
+  {
+    "id": 53,
+    "question": "What is Organization?",
+    "options": {
+      "A": "Coordination of Land, Labor, and Technology",
+      "B": "Coordination of Product, Price, and Distribution",
+      "C": "Coordination of Land, Labor, and Capital",
+      "D": "Coordination of managerial functions"
+    },
+    "answer": "C",
+    "explanation": "In economics, Organization is the coordination of Land, Labor, and Capital.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 54,
+    "question": "What decreases as a result of increased productivity?",
+    "options": {
+      "A": "Operational cost",
+      "B": "Production cost",
+      "C": "Opportunity cost",
+      "D": "Miscellaneous cost"
+    },
+    "answer": "B",
+    "explanation": "Increased productivity means more output with fewer inputs, so per unit production cost decreases.",
+    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
+  },
+  {
+    "id": 55,
+    "question": "Which law applies in the case of Land?",
+    "options": {
+      "A": "Law of Diminishing Marginal Returns",
+      "B": "Law of Increasing Marginal Returns",
+      "C": "Law of Variable Proportions",
+      "D": "Marginal decrease"
+    },
+    "answer": "A",
+    "explanation": "The Law of Diminishing Marginal Returns applies to Land.",
+    "source": "Bogra Cantonment Public School College"
+  },
+  {
+    "id": 56,
+    "question": "Extra money is needed for— (i. Using improved machinery ii. Training workers iii. Entertainment) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Money is needed for improved machinery and training. Entertainment is personal.",
+    "source": "BEPZA Public School and College, Chittagong"
+  },
+  {
+    "id": 57,
+    "question": "The extent of division of labor depends on— (i. Size of the market ii. Distribution system iii. Production system) Which is correct?",
+    "options": {
+      "A": "i & iii",
+      "B": "i & ii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "The extent of division of labor depends on the size of the market and the production system.",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 58,
+    "question": "The main objective of division of labor is— (i. Achieving expertise ii. Dividing work into various parts iii. Increasing mutual cooperation) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Division of labor increases expertise, divides work, and increases cooperation.",
+    "source": "University Laboratory School and College, Dhaka"
+  },
+  {
+    "id": 59,
+    "question": "Businessmen collect additional capital— (i. Against loans ii. Against assets iii. Against collateral) Which is correct?",
+    "options": {
+      "A": "i & iii",
+      "B": "ii & iii",
+      "C": "i & ii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Businessmen can collect capital against loans, by selling assets, or against collateral.",
+    "source": "BAF Shaheen College, Jessore"
+  },
+  {
+    "id": 60,
+    "question": "Besides food crops, humans use land to produce— (i. Cotton and jute ii. Tea and coffee iii. Livestock) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Cotton, jute, tea, coffee, and livestock are all products of land.",
+    "source": "Syed Ahmed College, Gabtoli, Bogra"
+  },
+  {
+    "id": 61,
+    "question": "Types of division of labor are— (i. Simple division of labor ii. Complex division of labor iii. Compound division of labor) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Division of labor is generally of two types: Simple and Complex.",
+    "source": "Panchagarh Govt. Women's College"
+  },
+  {
+    "id": 62,
+    "question": "The success and failure of organizers is influenced by— (i. Organizers' intelligence ii. Organizers' skill iii. Coordinating capital and labor) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Intelligence, skill, and coordination of factors all influence success.",
+    "source": "Thakurgaon Govt. Women's College"
+  },
+  {
+    "id": 63,
+    "question": "Land fulfills human needs— (i. Food and medical ii. Cloth and education iii. Shelter) Which is correct?",
+    "options": {
+      "A": "i & iii",
+      "B": "ii & iii",
+      "C": "i & ii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Land plays a role in fulfilling food, cloth, shelter, and education needs.",
+    "source": "Govt. Shah Sultan College, Bogra"
+  },
+  {
+    "id": 64,
+    "question": "Besides food crops, humans use land to produce— (i. Cotton and jute ii. Tea and coffee iii. Livestock) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Repeat of Q60. All three are products of land.",
+    "source": "Cantonment Public School and College, Jahanabad"
+  },
+  {
+    "id": 65,
+    "question": "In the Shahid Garments factory in Savar, clothes are made using imported yarn. Despite having capital, labor, and land, full production has not started yet. However, the factory continues to hire skilled workers. What is used as raw material in Shahid Garments Factory?",
+    "options": {
+      "A": "Gas",
+      "B": "Water",
+      "C": "Nylon yarn",
+      "D": "Yarn"
+    },
+    "answer": "D",
+    "explanation": "The stimulus mentions using imported yarn as the raw material.",
+    "source": "Anwara University College, Chittagong"
+  },
+  {
+    "id": 66,
+    "question": "The factor of production that is insufficient in the stimulus is— (i. Land ii. Capital iii. Organization) Which is correct?",
+    "options": {
+      "A": "i",
+      "B": "ii",
+      "C": "iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Having capital, labor, and land but unable to start production indicates a lack of Organization.",
+    "source": "Anwara University College, Chittagong"
+  },
+  {
+    "id": 67,
+    "question": "Mr. Sohan makes Jamdani sarees in Rajshahi. 200 workers work in his factory. His business is expanding rapidly due to making quality sarees. What type of utility is Mr. Sohan creating by making Jamdani sarees?",
+    "options": {
+      "A": "Form utility",
+      "B": "Time utility",
+      "C": "Place utility",
+      "D": "Service utility"
+    },
+    "answer": "A",
+    "explanation": "Making sarees from yarn through weaving is creating Form Utility.",
+    "source": "Govt. Women's College, Pabna"
+  },
+  {
+    "id": 68,
+    "question": "Mr. Sohan's saree making is important because— (i. Employment generation ii. Improvement of living standards iii. Increase in exports) Which is correct?",
+    "options": {
+      "A": "i",
+      "B": "i & ii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The saree industry generates employment, improves living standards, and earns export revenue.",
+    "source": "Govt. Women's College, Pabna"
+  },
+  {
+    "id": 69,
+    "question": "'BSRM Steel Mills' produces 4,00,000 lakh tons of iron per year with a labor cost of 14,000 hours, valued at 200,000 taka. What is the labor productivity of BSRM Steel Mills?",
+    "options": {
+      "A": "1.25 units",
+      "B": "3.58 units",
+      "C": "2.85 units",
+      "D": "1.50 units"
+    },
+    "answer": "C",
+    "explanation": "4,00,000 / 14,000 = 28.57. According to the given options, 2.85 is the stated answer (possibly adjusted for unit measurement).",
+    "source": "Hajiganj Model University College"
+  },
+  {
+    "id": 70,
+    "question": "The reason for determining labor productivity is— (i. Determining 24 hours production ii. Determining production per hour iii. Determining one month's production) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Labor productivity measures output over a specific time (per hour or per month). 24 hours is not a standard timeframe.",
+    "source": "Hajiganj Model University College"
+  },
+  {
+    "id": 71,
+    "question": "Mostafa and his two friends set up a glass factory in Ashulia near Dhaka with a capital of 18 crore taka. The factory employs 105 workers across various branches. At the time of establishment, what type of enterprise was it?",
+    "options": {
+      "A": "Small",
+      "B": "Service",
+      "C": "Medium",
+      "D": "Cooperative"
+    },
+    "answer": "C",
+    "explanation": "Fixed assets between 10-30 crore taka and 100-250 workers define a Medium Enterprise.",
+    "source": "Mirpur Girls Ideal Laboratory Institute, Dhaka"
+  },
+  {
+    "id": 72,
+    "question": "To transform the mentioned establishment into a large enterprise, what is required?— (i. Hire 300 workers ii. Invest additional capital iii. Install new machinery) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "To become large, more workers, capital, and machinery are all needed.",
+    "source": "Mirpur Girls Ideal Laboratory Institute, Dhaka"
+  },
+  {
+    "id": 73,
+    "question": "Mr. Robin sets up a factory in the Chittagong EPZ area considering the availability of workers. He trains his employees hands-on. Which factor does Mr. Robin give maximum importance to?",
+    "options": {
+      "A": "Land",
+      "B": "Capital",
+      "C": "Labor",
+      "D": "Organization"
+    },
+    "answer": "C",
+    "explanation": "Emphasis is on worker availability and training for skill development, so Labor is prioritized.",
+    "source": "Hajera Taju Degree College, Dhaka"
+  },
+  {
+    "id": 74,
+    "question": "The reason for Mr. Robin's business success is— (i. Skilled workers ii. Availability of workers iii. Abundance of capital) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Skill development through training and the availability of workers are the reasons for success. Abundance of capital is not mentioned.",
+    "source": "Hajera Taju Degree College, Dhaka"
+  }
+]

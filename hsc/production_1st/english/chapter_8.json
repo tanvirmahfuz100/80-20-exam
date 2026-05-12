@@ -1,0 +1,444 @@
+[
+  {
+    "id": 286,
+    "question": "What is an important concept of production management?",
+    "options": {
+      "A": "Production",
+      "B": "Production capacity",
+      "C": "Production process",
+      "D": "Production increase"
+    },
+    "answer": "B",
+    "explanation": "Without understanding production capacity, planning cannot be done; hence it is an important concept.",
+    "source": "BEPZA Public School and College, Chittagong"
+  },
+  {
+    "id": 287,
+    "question": "Production capacity is related to—",
+    "options": {
+      "A": "Specific place",
+      "B": "Specific input",
+      "C": "Specific time",
+      "D": "Specific management"
+    },
+    "answer": "C",
+    "explanation": "Production capacity indicates the maximum output within a specified time.",
+    "source": "Anwara University College, Chittagong"
+  },
+  {
+    "id": 288,
+    "question": "If production capacity is determined solely based on machinery capacity, what type of production capacity is it?",
+    "options": {
+      "A": "Maximum",
+      "B": "Practical",
+      "C": "Engineering",
+      "D": "Actual"
+    },
+    "answer": "C",
+    "explanation": "Considering only the machine's capacity gives the Engineering Production Capacity.",
+    "source": "Mazida Khatun Govt. Women's College, Lalmonirhat"
+  },
+  {
+    "id": 289,
+    "question": "What is a cause of reduced production capacity?",
+    "options": {
+      "A": "Inefficiency of workers",
+      "B": "Use of modern machinery",
+      "C": "Efficient management",
+      "D": "Production of underdeveloped products"
+    },
+    "answer": "A",
+    "explanation": "Inefficiency reduces capacity. The others increase it.",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 290,
+    "question": "A company is using 80% of its production capacity. What will be its stored production capacity?",
+    "options": {
+      "A": "5%",
+      "B": "20%",
+      "C": "60%",
+      "D": "25%"
+    },
+    "answer": "B",
+    "explanation": "100% - 80% = 20% stored capacity.",
+    "source": "Dr. Mahbubur Rahman Mollah College"
+  },
+  {
+    "id": 291,
+    "question": "If production capacity is determined solely based on machinery capacity, what type of production capacity is it?",
+    "options": {
+      "A": "Maximum",
+      "B": "Practical",
+      "C": "Engineering",
+      "D": "Actual"
+    },
+    "answer": "C",
+    "explanation": "The capacity written on the machine is the Engineering capacity.",
+    "source": "University Laboratory School and College, Dhaka"
+  },
+  {
+    "id": 292,
+    "question": "What is the economically profitable production capacity called?",
+    "options": {
+      "A": "Maximum",
+      "B": "Practical",
+      "C": "Actual",
+      "D": "Engineering"
+    },
+    "answer": "B",
+    "explanation": "The capacity at which profit is made is Practical Production Capacity.",
+    "source": "Hajiganj Model University College"
+  },
+  {
+    "id": 293,
+    "question": "Generally, who writes the production capacity on the body of the machine after manufacturing it?",
+    "options": {
+      "A": "Industrialists",
+      "B": "Owners",
+      "C": "Manufacturers",
+      "D": "Engineers"
+    },
+    "answer": "C",
+    "explanation": "The machine manufacturing company writes it on the body.",
+    "source": "Cantonment Public School and College, Jahanabad"
+  },
+  {
+    "id": 294,
+    "question": "By which can the actual condition of the factory be known?",
+    "options": {
+      "A": "Maximum production capacity",
+      "B": "Engineering production capacity",
+      "C": "Practical production capacity",
+      "D": "Actual production capacity"
+    },
+    "answer": "D",
+    "explanation": "How much the factory is actually producing is the Actual Production Capacity.",
+    "source": "Panchagarh Govt. Women's College"
+  },
+  {
+    "id": 295,
+    "question": "The process by which the production capacity of an organization can be measured is called—",
+    "options": {
+      "A": "Production process",
+      "B": "Measurement of production capacity",
+      "C": "Actual production",
+      "D": "Production measurement"
+    },
+    "answer": "B",
+    "explanation": "The terminology is Measurement of Production Capacity.",
+    "source": "Thakurgaon Govt. Women's College"
+  },
+  {
+    "id": 296,
+    "question": "How can an organization increase long-term production capacity?",
+    "options": {
+      "A": "By implementing new laws",
+      "B": "By using new technology",
+      "C": "By investing additional capital",
+      "D": "By working harder"
+    },
+    "answer": "B",
+    "explanation": "Technological improvement is a long-term and sustainable solution.",
+    "source": "Syed Ahmed College, Gabtoli, Bogra"
+  },
+  {
+    "id": 297,
+    "question": "How are production capacity decisions generally?",
+    "options": {
+      "A": "Short-term",
+      "B": "Permanent",
+      "C": "Long-term",
+      "D": "Temporary"
+    },
+    "answer": "C",
+    "explanation": "Production capacity is generally a subject of long-term planning.",
+    "source": "BCIC College, Dhaka"
+  },
+  {
+    "id": 298,
+    "question": "If maximum production capacity is determined considering the machine's production capacity, what is it called?",
+    "options": {
+      "A": "Maximum production capacity",
+      "B": "Engineering production capacity",
+      "C": "Practical production capacity",
+      "D": "Actual production capacity"
+    },
+    "answer": "B",
+    "explanation": "This is the definition of Engineering Production Capacity.",
+    "source": "Dhaka Commerce College"
+  },
+  {
+    "id": 299,
+    "question": "Hasan can serve 6 customers per hour. In an 8-hour workday, what is his production capacity?",
+    "options": {
+      "A": "Actual production capacity",
+      "B": "Maximum production capacity",
+      "C": "Practical production capacity",
+      "D": "Production capacity"
+    },
+    "answer": "B",
+    "explanation": "The maximum service possible in an ideal environment is Maximum Production Capacity (6×8 = 48 people).",
+    "source": "Engineering University School and College, Dhaka"
+  },
+  {
+    "id": 300,
+    "question": "Producing goods based on the written capacity of the machine is called—",
+    "options": {
+      "A": "Maximum production capacity",
+      "B": "Engineering production capacity",
+      "C": "Practical production capacity",
+      "D": "Actual production capacity"
+    },
+    "answer": "B",
+    "explanation": "The capacity according to the writing on the machine is Engineering Capacity.",
+    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
+  },
+  {
+    "id": 301,
+    "question": "A bread manufacturing company starts producing biscuits to utilize unused production capacity. What type of strategy is this?",
+    "options": {
+      "A": "Sub-contracting",
+      "B": "Sales increase",
+      "C": "Product diversification",
+      "D": "Leasing"
+    },
+    "answer": "C",
+    "explanation": "Adding a new product to use capacity is Product Diversification.",
+    "source": "Omor Goni MES College, Chittagong"
+  },
+  {
+    "id": 302,
+    "question": "How is the bus in the stimulus measuring production capacity?",
+    "options": {
+      "A": "Input measurement",
+      "B": "Usage measurement",
+      "C": "Output measurement",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "In transport services, capacity is measured through usage.",
+    "source": "Cantonment Public School and College, BUSEAMS"
+  },
+  {
+    "id": 303,
+    "question": "Order-based production capacity is applicable for— (i. Large-scale business ii. Small business iii. Medium business) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Order-based production can be of any size.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 304,
+    "question": "In the case of production capacity— (i. Variable cost is included ii. Fixed cost is included iii. Variable cost is not included) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Fixed cost exists; variable cost changes.",
+    "source": "BEPZA Public School and College, Chittagong"
+  },
+  {
+    "id": 305,
+    "question": "Reasons for low production capacity utilization are— (i. Losing market share ii. Decreased market demand and off-season production iii. Successful marketing) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Successful marketing increases capacity; it does not decrease it.",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 306,
+    "question": "Ways to increase production capacity are— (i. Modernizing the factory ii. Providing training to workers iii. Improving the distribution system) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Modernization and training directly increase production capacity. Distribution is indirect.",
+    "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
+  },
+  {
+    "id": 307,
+    "question": "Issues related to production capacity are— (i. Maximum production capability ii. Presented in numbers iii. Related to specific time) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Time, numbers, and maximum capability are all related.",
+    "source": "Samsul Haque Khan School and College"
+  },
+  {
+    "id": 308,
+    "question": "A production machine's capacity is 5,000 kg. In Year 1 it produced 4,900 kg daily. In Year 2 it produces 4,000 kg daily. In this case— (i. The actual capacity is 4,000 kg ii. Year 1 actual capacity was 4,900 kg iii. Year 2 actual capacity is 4,000 kg) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Currently, how much is being produced is the actual capacity.",
+    "source": "Khilgaon Govt. High School, Khilgaon, Dhaka"
+  },
+  {
+    "id": 309,
+    "question": "Mr. Jahan wants to increase the production volume of his organization hoping to get some facilities. The benefits he will get as a result are— (i. Modern technology and skilled workers ii. Attractive design iii. Product diversification) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Increasing production brings specialization and diversification benefits.",
+    "source": "Bogra Cantonment Public School College"
+  },
+  {
+    "id": 310,
+    "question": "Mr. Rafiq and Mr. Rashed started a production factory. The maximum daily production capacity is one lakh units. Despite increased market demand, production cannot be increased due to scarcity of raw materials and worker inefficiency. What is the production of one lakh units in their factory called?",
+    "options": {
+      "A": "Measurement of production capacity",
+      "B": "Planning of production capacity",
+      "C": "Utilization of production capacity",
+      "D": "Production capacity"
+    },
+    "answer": "D",
+    "explanation": "One lakh units indicates their Maximum Production Capacity.",
+    "source": "Dr. Mahbubur Rahman Mollah College"
+  },
+  {
+    "id": 311,
+    "question": "Production increase in Rafiq and Rashed's factory is not possible due to— (i. Scarcity of raw materials ii. Inability of workers iii. Inability of machinery) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "The stimulus mentions raw material scarcity and inefficiency, not machinery.",
+    "source": "Dr. Mahbubur Rahman Mollah College"
+  },
+  {
+    "id": 312,
+    "question": "Dynamic Corporation got the contract for a 15-storey building in Pilkhana. They gave the work of Thai glass to another company. What is the work of the Thai glass company called?",
+    "options": {
+      "A": "Contracting",
+      "B": "Leasing",
+      "C": "Renting",
+      "D": "Sub-contracting"
+    },
+    "answer": "D",
+    "explanation": "Giving work under the main contractor is Sub-contracting.",
+    "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
+  },
+  {
+    "id": 313,
+    "question": "What did the Thai glass company gain by doing this work?",
+    "options": {
+      "A": "Utilization of production capacity occurred",
+      "B": "Recognition increased",
+      "C": "Got money",
+      "D": "Production capacity was expanded"
+    },
+    "answer": "A",
+    "explanation": "The main purpose of taking sub-contracts is to utilize capacity.",
+    "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
+  },
+  {
+    "id": 314,
+    "question": "Mrs. Lina runs a garments factory in Malibagh, Dhaka. As per the order, the clothes were to be delivered on 10 April 2014. But her factory's production was disrupted due to a fire. She failed to deliver on time. Due to the failure of which strategy did Mrs. Lina fail to deliver?",
+    "options": {
+      "A": "Relationship between production capacity and other decisions",
+      "B": "Stored production capacity",
+      "C": "Time and volume",
+      "D": "Amount of capacity utilization"
+    },
+    "answer": "B",
+    "explanation": "Lack of stored capacity post-fire caused the supply disruption.",
+    "source": "Dhaka Commerce College"
+  },
+  {
+    "id": 315,
+    "question": "Methods for measuring production capacity are— (i. Practical production capacity ii. Based on raw materials used iii. Based on products manufactured) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All are bases for measurement.",
+    "source": "Dhaka Commerce College"
+  },
+  {
+    "id": 316,
+    "question": "Mr. Jamil only considered the machine to determine production capacity. What type of production capacity did Mr. Jamil use?",
+    "options": {
+      "A": "Practical production capacity",
+      "B": "Maximum production capacity",
+      "C": "Actual production capacity",
+      "D": "Engineering production capacity"
+    },
+    "answer": "D",
+    "explanation": "Considering only the machine makes it Engineering Capacity.",
+    "source": "Dhaka City College"
+  },
+  {
+    "id": 317,
+    "question": "What type of capacity does Mr. Jamil's statement in the stimulus (considering facilities and time) indicate?",
+    "options": {
+      "A": "Maximum production capacity",
+      "B": "Actual production capacity",
+      "C": "Engineering production capacity",
+      "D": "Non-engineering production capacity"
+    },
+    "answer": "A",
+    "explanation": "Considering all facilities makes it Maximum Production Capacity.",
+    "source": "Dhaka City College"
+  },
+  {
+    "id": 318,
+    "question": "'Sani Printing House' bought a new machine for printing books. The machine says '100 pages per minute can be printed'. What is producing according to the machine called?",
+    "options": {
+      "A": "Engineering production capacity",
+      "B": "Total production capacity",
+      "C": "Net production capacity",
+      "D": "Practical production capacity"
+    },
+    "answer": "A",
+    "explanation": "Capacity written on the machine is Engineering Capacity.",
+    "source": "Bangladesh Navy College, Chittagong"
+  },
+  {
+    "id": 319,
+    "question": "What will happen if 'Sani Printing House' runs production at this capacity?",
+    "options": {
+      "A": "Production cost will increase",
+      "B": "Machine efficiency will decrease",
+      "C": "Raw materials will be wasted",
+      "D": "Product quality will deteriorate"
+    },
+    "answer": "B",
+    "explanation": "Running continuously at maximum capacity rapidly reduces the machine's efficiency.",
+    "source": "Bangladesh Navy College, Chittagong"
+  }
+]

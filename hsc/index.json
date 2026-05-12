@@ -1,6 +1,155 @@
 {
   "subjects": [
     {
+      "id": "accounting_1st",
+      "name": "Accounting 1st Paper",
+      "icon": "Calculator",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_1.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_1.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 1: হিসাববিজ্ঞান পরিচিতি",
+          "name_en": "Chapter 1: Introduction to Accounting"
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_2.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_2.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 2: হিসাবের বইসমূহ",
+          "name_en": "Chapter 2: Books of Accounts"
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_3.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_3.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 3: ব্যাংক সমন্বয় বিবরণী",
+          "name_en": "Chapter 3: Bank Reconciliation Statement"
+        },
+        {
+          "id": "chapter_4",
+          "name": "Chapter 4",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_4.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_4.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 4: রেওয়ামিল",
+          "name_en": "Chapter 4: Trial Balance"
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_5.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_5.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 5: হিসাববিজ্ঞান নীতিমালা",
+          "name_en": "Chapter 5: Accounting Principles"
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_6.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_6.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 6: প্রাপ্য হিসাবসমূহের হিসাবরক্ষণ",
+          "name_en": "Chapter 6: Accounting for Receivables"
+        },
+        {
+          "id": "chapter_7",
+          "name": "Chapter 7",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch7",
+              "name": "Chapter 7 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_7.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_7.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 7: কার্যপত্র",
+          "name_en": "Chapter 7: Worksheet"
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_8.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_8.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 8: দৃশ্যমান ও অদৃশ্যমান সম্পদের হিসাবরক্ষণ",
+          "name_en": "Chapter 8: Accounting for Tangible and Intangible Assets"
+        },
+        {
+          "id": "chapter_9",
+          "name": "Chapter 9",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch9",
+              "name": "Chapter 9 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_9.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_9.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 9: আর্থিক বিবরণী",
+          "name_en": "Chapter 9: Financial Statements"
+        },
+        {
+          "id": "chapter_10",
+          "name": "Chapter 10",
+          "chapters": [
+            {
+              "id": "hsc_acc1_ch10",
+              "name": "Chapter 10 Questions",
+              "file_bn": "/hsc/accounting_1st/chapter_10.json",
+              "file_en": "/hsc/accounting_1st/english/chapter_10.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 10: একতরফা দাখিলা পদ্ধতি",
+          "name_en": "Chapter 10: Single Entry System"
+        }
+      ],
+      "name_bn": "হিসাববিজ্ঞান ১ম পত্র",
+      "name_en": "Accounting 1st Paper"
+    },
+    {
       "id": "accounting_2nd",
       "name": "Accounting 2nd Paper",
       "icon": "Calculator",
@@ -15,7 +164,9 @@
               "file_bn": "/hsc/accounting_2nd/chapter_1.json",
               "file_en": "/hsc/accounting_2nd/english/chapter_1.json"
             }
-          ]
+          ],
+          "name_bn": "অধ্যায় 1: অব্যবসায়ী প্রতিষ্ঠানের হিসাব",
+          "name_en": "Chapter 1: Accounting for Non-profit Organizations"
         },
         {
           "id": "chapter_2",
@@ -27,7 +178,9 @@
               "file_bn": "/hsc/accounting_2nd/chapter_2.json",
               "file_en": "/hsc/accounting_2nd/english/chapter_2.json"
             }
-          ]
+          ],
+          "name_bn": "অধ্যায় 2: অংশীদারি ব্যবসায়ের হিসাব",
+          "name_en": "Chapter 2: Accounting for Partnership Business"
         },
         {
           "id": "chapter_3",
@@ -39,7 +192,9 @@
               "file_bn": "/hsc/accounting_2nd/chapter_3.json",
               "file_en": "/hsc/accounting_2nd/english/chapter_3.json"
             }
-          ]
+          ],
+          "name_bn": "অধ্যায় 3: নগদ প্রবাহ বিবরণী",
+          "name_en": "Chapter 3: Cash Flow Statement"
         },
         {
           "id": "chapter_4",
@@ -51,7 +206,9 @@
               "file_bn": "/hsc/accounting_2nd/chapter_4.json",
               "file_en": "/hsc/accounting_2nd/english/chapter_4.json"
             }
-          ]
+          ],
+          "name_bn": "অধ্যায় 4: যৌথ মূলধনী কোম্পানির মূলধন",
+          "name_en": "Chapter 4: Capital of Joint Stock Company"
         },
         {
           "id": "chapter_5",
@@ -63,7 +220,9 @@
               "file_bn": "/hsc/accounting_2nd/chapter_5.json",
               "file_en": "/hsc/accounting_2nd/english/chapter_5.json"
             }
-          ]
+          ],
+          "name_bn": "অধ্যায় 5: যৌথ মূলধনী কোম্পানির আর্থিক বিবরণী",
+          "name_en": "Chapter 5: Financial Statements of Joint Stock Company"
         },
         {
           "id": "chapter_6",
@@ -75,7 +234,9 @@
               "file_bn": "/hsc/accounting_2nd/chapter_6.json",
               "file_en": "/hsc/accounting_2nd/english/chapter_6.json"
             }
-          ]
+          ],
+          "name_bn": "অধ্যায় 6: আর্থিক বিবরণী বিশ্লেষণ",
+          "name_en": "Chapter 6: Financial Statement Analysis"
         },
         {
           "id": "chapter_7",
@@ -87,7 +248,9 @@
               "file_bn": "/hsc/accounting_2nd/chapter_7.json",
               "file_en": "/hsc/accounting_2nd/english/chapter_7.json"
             }
-          ]
+          ],
+          "name_bn": "অধ্যায় 7: উৎপাদন ব্যয় হিসাব",
+          "name_en": "Chapter 7: Cost Accounting"
         },
         {
           "id": "chapter_8",
@@ -99,21 +262,190 @@
               "file_bn": "/hsc/accounting_2nd/chapter_8.json",
               "file_en": "/hsc/accounting_2nd/english/chapter_8.json"
             }
-          ]
+          ],
+          "name_bn": "অধ্যায় 8: মজুদ পণ্যের হিসাবরক্ষণ",
+          "name_en": "Chapter 8: Accounting for Inventories"
         },
         {
-          "id": "chapter_9_10",
-          "name": "Chapters 9-10",
+          "id": "chapter_9",
+          "name": "Chapter 9: উৎপাদন ব্যয় হিসাববিজ্ঞান",
           "chapters": [
             {
-              "id": "hsc_accounting_ch9_10",
-              "name": "Chapters 9-10 Questions",
-              "file_bn": "/hsc/accounting_2nd/chapter_9_10.json",
-              "file_en": "/hsc/accounting_2nd/english/chapter_9_10.json"
+              "id": "hsc_accounting_ch9",
+              "name": "Chapter 9 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_9.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_9.json"
             }
-          ]
+          ],
+          "name_bn": "অধ্যায় 9: উৎপাদন ব্যয় হিসাববিজ্ঞান",
+          "name_en": "Chapter 9: Cost Accounting"
+        },
+        {
+          "id": "chapter_10",
+          "name": "Chapter 10: ব্যবস্থাপনা হিসাববিজ্ঞান",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch10",
+              "name": "Chapter 10 Questions",
+              "file_bn": "/hsc/accounting_2nd/chapter_10.json",
+              "file_en": "/hsc/accounting_2nd/english/chapter_10.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 10: ব্যবস্থাপনা হিসাববিজ্ঞান",
+          "name_en": "Chapter 10: Management Accounting"
         }
-      ]
+      ],
+      "name_bn": "হিসাববিজ্ঞান ২য় পত্র",
+      "name_en": "Accounting 2nd Paper"
+    },
+    {
+      "id": "production_1st",
+      "name": "Production 1st Paper",
+      "icon": "Factory",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1: উৎপাদন",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/production_1st/chapter_1.json",
+              "file_en": "/hsc/production_1st/english/chapter_1.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 1: উৎপাদন",
+          "name_en": "Chapter 1: Production"
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2: উৎপাদনের উপকরণ",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/production_1st/chapter_2.json",
+              "file_en": "/hsc/production_1st/english/chapter_2.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 2: উৎপাদনের উপকরণ",
+          "name_en": "Chapter 2: Factors of Production"
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3: উৎপাদনের মাত্রা",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/production_1st/chapter_3.json",
+              "file_en": "/hsc/production_1st/english/chapter_3.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 3: উৎপাদনের মাত্রা",
+          "name_en": "Chapter 3: Scale of Production"
+        },
+        {
+          "id": "chapter_4",
+          "name": "Chapter 4: সামষ্টিক পর্যায় উৎপাদন",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/production_1st/chapter_4.json",
+              "file_en": "/hsc/production_1st/english/chapter_4.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 4: সামষ্টিক পর্যায় উৎপাদন",
+          "name_en": "Chapter 4: Production at Macro Level"
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5: উৎপাদন ব্যবস্থাপনা",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/production_1st/chapter_5.json",
+              "file_en": "/hsc/production_1st/english/chapter_5.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 5: উৎপাদন ব্যবস্থাপনা",
+          "name_en": "Chapter 5: Production Management"
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6: পণ্য ডিজাইন",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/production_1st/chapter_6.json",
+              "file_en": "/hsc/production_1st/english/chapter_6.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 6: পণ্য ডিজাইন",
+          "name_en": "Chapter 6: Product Design"
+        },
+        {
+          "id": "chapter_7",
+          "name": "Chapter 7: মান ব্যবস্থাপনা",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch7",
+              "name": "Chapter 7 Questions",
+              "file_bn": "/hsc/production_1st/chapter_7.json",
+              "file_en": "/hsc/production_1st/english/chapter_7.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 7: মান ব্যবস্থাপনা",
+          "name_en": "Chapter 7: Quality Management"
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8: উৎপাদন ক্ষমতা",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/production_1st/chapter_8.json",
+              "file_en": "/hsc/production_1st/english/chapter_8.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 8: উৎপাদন ক্ষমতা",
+          "name_en": "Chapter 8: Production Capacity"
+        },
+        {
+          "id": "chapter_9",
+          "name": "Chapter 9: ব্যবসায়ের অবস্থান",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch9",
+              "name": "Chapter 9 Questions",
+              "file_bn": "/hsc/production_1st/chapter_9.json",
+              "file_en": "/hsc/production_1st/english/chapter_9.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 9: ব্যবসায়ের অবস্থান",
+          "name_en": "Chapter 9: Business Location"
+        },
+        {
+          "id": "chapter_10",
+          "name": "Chapter 10: লে-আউট",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch10",
+              "name": "Chapter 10 Questions",
+              "file_bn": "/hsc/production_1st/chapter_10.json",
+              "file_en": "/hsc/production_1st/english/chapter_10.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 10: লে-আউট",
+          "name_en": "Chapter 10: Layout"
+        }
+      ],
+      "name_bn": "উৎপাদন ব্যবস্থাপনা ও বিপণন ১ম পত্র",
+      "name_en": "Production 1st Paper"
     }
   ]
 }
