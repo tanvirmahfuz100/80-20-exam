@@ -18,6 +18,7 @@ import Landing from './pages/Landing';
 import Stars from './pages/Stars';
 import { api } from './services/api';
 import { Graduation } from './components/Illustrations';
+import { playSound, preloadSounds } from './utils/sounds';
 
 function App() {
   return (
@@ -155,6 +156,18 @@ const AppContent = () => {
   const location = useLocation();
   const { user, profile } = useAuth();
   const [showOnboarding, setShowOnboarding] = useState(false);
+  const prevPathRef = React.useRef(location.pathname);
+
+  useEffect(() => {
+    preloadSounds();
+  }, []);
+
+  useEffect(() => {
+    if (prevPathRef.current !== location.pathname) {
+      playSound('interface');
+      prevPathRef.current = location.pathname;
+    }
+  }, [location.pathname]);
 
   useEffect(() => {
     if (user && profile) {

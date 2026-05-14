@@ -14,6 +14,7 @@ import {
     getMistakesDueCount, getReviewSession, clearReviewSession
 } from '../services/review';
 import GapFillPassage from '../components/GapFillPassage';
+import { playSound } from '../utils/sounds';
 
 const stripMath = (text) => {
   if (!text) return '';
@@ -318,7 +319,13 @@ const Quiz = () => {
             if (raw) {
                 const currentSession = JSON.parse(raw);
                 const currentXp = currentSession.profile.total_xp || 0;
-                updateProfileFields({ total_xp: currentXp + earnedXp });
+                const currentLevel = Math.floor(currentXp / 100) + 1;
+                const newXp = currentXp + earnedXp;
+                const newLevel = Math.floor(newXp / 100) + 1;
+                updateProfileFields({ total_xp: newXp });
+                if (newLevel > currentLevel) {
+                    playSound('levelUp');
+                }
             }
 
             sessionSavedRef.current = true;
@@ -343,12 +350,28 @@ const Quiz = () => {
                         setIsFinished(true);
                         return 0;
                     }
+                    if (prev <= 10) {
+                        playSound('time');
+                    }
                     return prev - 1;
                 });
             }, 1000);
         }
         return () => clearInterval(timerRef.current);
     }, [isTimedMode, timeLeft, isFinished, loading]);
+
+    const finishSoundPlayedRef = React.useRef(false);
+    useEffect(() => {
+        if (isFinished && questions.length > 0 && !finishSoundPlayedRef.current) {
+            const accuracy = Math.round((score / questions.length) * 100);
+            if (accuracy === 100) {
+                playSound('bonus');
+            } else if (accuracy >= 80) {
+                playSound('rank');
+            }
+            finishSoundPlayedRef.current = true;
+        }
+    }, [isFinished, score, questions.length]);
 
     const formatTime = (seconds) => {
         const m = Math.floor(seconds / 60);
@@ -390,6 +413,7 @@ const Quiz = () => {
 
         if (isCorrect) {
             setScore(s => s + 1);
+            playSound('correctAnswer');
 
             if (currentQ._mistakeId) {
                 advanceStage(currentQ._mistakeId);
@@ -397,6 +421,7 @@ const Quiz = () => {
         }
 
         if (!isCorrect) {
+            playSound('star');
             if (currentQ._mistakeId) {
                 resetStage(currentQ._mistakeId);
             } else {

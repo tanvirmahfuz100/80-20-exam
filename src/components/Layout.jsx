@@ -10,6 +10,7 @@ import { useTheme } from '../context/ThemeContext';
 import ReportModal from './ReportModal';
 import GuideModal from './GuideModal';
 import { getMistakesDueCount } from '../services/review';
+import { playSound } from '../utils/sounds';
 
 const navItems = [
     { icon: LayoutDashboard, label: "Home", path: "/" },
@@ -170,10 +171,17 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
 const NotificationCenter = () => {
     const [show, setShow] = useState(false);
 
+    const handleToggle = () => {
+        if (!show) {
+            playSound('notification');
+        }
+        setShow(!show);
+    };
+
     return (
         <div className="relative">
             <button
-                onClick={() => setShow(!show)}
+                onClick={handleToggle}
                 className="p-3 bg-surface border border-white/5 rounded-2xl text-white/40 hover:text-white hover:border-white/20 transition-all relative"
             >
                 <Bell className="w-5 h-5" />
