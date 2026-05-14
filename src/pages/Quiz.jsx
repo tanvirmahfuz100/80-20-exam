@@ -14,6 +14,26 @@ import {
     getMistakesDueCount, getReviewSession, clearReviewSession
 } from '../services/review';
 
+const stripMath = (text) => {
+  if (!text) return '';
+  return text.replace(/\$/g, '');
+};
+
+const formatExplanation = (text) => {
+  if (!text) return '';
+  return text
+    .replace(/<script.*?>.*?<\/script>/gi, '')
+    .replace(/\$(.*?)\$/g, '<span class="text-primary font-semibold font-mono">$1</span>')
+    .replace(/\\Rightarrow/g, '→')
+    .replace(/\\times/g, '×')
+    .replace(/\\approx/g, '≈')
+    .replace(/\\neq/g, '≠')
+    .replace(/\\ge/g, '≥')
+    .replace(/\\le/g, '≤')
+    .replace(/\*\*(.*?)\*\*/g, '<span class="text-primary font-bold">$1</span>')
+    .replace(/\n/g, '<br/>');
+};
+
 const normalizeQuizQuestions = (payload) => {
     const sourceQuestions = Array.isArray(payload?.questions) ? payload.questions : [];
 
@@ -113,6 +133,7 @@ const Quiz = () => {
     const [balanceGlow, setBalanceGlow] = useState(false);
     const starTargetRef = useRef(null);
 
+    const [userAccuracy, setUserAccuracy] = useState(null);
     const [timeLeft, setTimeLeft] = useState(0);
     const timerRef = useRef(null);
     const sessionSavedRef = useRef(false);
@@ -172,6 +193,9 @@ const Quiz = () => {
             }
         };
         loadQuestions();
+        api.getUserStats(user?.id).then(({ data }) => {
+            if (data?.accuracy != null) setUserAccuracy(data.accuracy);
+        }).catch(() => {});
     }, [file, chapterId, isMock, isReviewMode]);
 
     useEffect(() => {
@@ -465,13 +489,13 @@ const Quiz = () => {
                                         </p>
                                     )}
                                     <p className="text-white/70 text-sm leading-relaxed font-medium whitespace-pre-wrap">
-                                        {currentQ.passage}
+                                        {stripMath(currentQ.passage)}
                                     </p>
                                     {(currentQ.boxWords || []).length > 0 && (
                                         <div className="flex flex-wrap gap-2 pt-1 md:pt-2">
                                             {currentQ.boxWords.map((word) => (
                                                 <span key={word} className="px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-[10px] font-black uppercase tracking-widest">
-                                                    {word}
+                                                    {stripMath(word)}
                                                 </span>
                                             ))}
                                         </div>
@@ -479,15 +503,25 @@ const Quiz = () => {
                                 </div>
                             )}
 
-                            <div className="flex items-center gap-3 mb-6 md:mb-10">
+                            <div className="flex items-center gap-2 md:gap-3 mb-6 md:mb-10 flex-wrap">
                                 <span className={`text-[9px] font-black px-3 py-1 rounded-full uppercase border ${currentQ.difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
                                     currentQ.difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :
                                         'text-emerald-400 border-emerald-400/20 bg-emerald-400/5'
                                     }`}>{currentQ.difficulty}</span>
+                                {currentQ.source && currentQ.source !== 'unknown' && (
+                                    <span className="text-[9px] font-black px-3 py-1 rounded-full border border-white/10 bg-white/5 text-white/40 uppercase tracking-wider">
+                                        {currentQ.source}
+                                    </span>
+                                )}
+                                {currentQ.chapter_tag && (
+                                    <span className="text-[9px] font-black px-3 py-1 rounded-full border border-primary/20 bg-primary/5 text-primary/60 uppercase tracking-wider">
+                                        {currentQ.chapter_tag}
+                                    </span>
+                                )}
                             </div>
 
                             <h3 className="text-lg md:text-2xl lg:text-3xl font-black text-white leading-tight mb-6 md:mb-12 selection:bg-primary/30 tracking-tight">
-                                {currentQ.text}
+                                {stripMath(currentQ.text)}
                             </h3>
 
                             <div className="space-y-3 md:space-y-4">
@@ -521,7 +555,7 @@ const Quiz = () => {
                                                     }`}>
                                                     {String.fromCharCode(65 + idx)}
                                                 </span>
-                                                <span className="font-bold tracking-tight text-sm md:text-lg">{option.text}</span>
+                                                <span className="font-bold tracking-tight text-sm md:text-lg">{stripMath(option.text)}</span>
                                             </div>
                                             {state === 'correct' && <CheckCircle className="w-5 h-5 md:w-6 md:h-6 animate-in zoom-in-0 shrink-0" />}
                                             {state === 'wrong' && <svg className="w-5 h-5 md:w-6 md:h-6 text-yellow-300 animate-in zoom-in-0 shrink-0" viewBox="0 0 24 24" fill="currentColor">
@@ -564,10 +598,7 @@ const Quiz = () => {
                                 <div
                                     className="text-white/80 text-sm leading-relaxed font-medium space-y-4 prose-invert"
                                     dangerouslySetInnerHTML={{
-                                        __html: (currentQ.explanation || 'No textual analysis available.')
-                                            .replace(/<script.*?>.*?<\/script>/gi, '')
-                                            .replace(/\*\*(.*?)\*\*/g, '<span class="text-primary font-bold">$1</span>')
-                                            .replace(/\n/g, '<br/>')
+                                        __html: formatExplanation(currentQ.explanation) || 'No textual analysis available.'
                                     }}
                                 >
                                 </div>
@@ -590,10 +621,10 @@ const Quiz = () => {
                             <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl p-5 md:p-6">
                                 <div className="flex items-center justify-between text-[10px] font-black uppercase tracking-widest text-white/20 mb-3 md:mb-4">
                                     <span className="flex items-center gap-1"><Target className="w-3 h-3" /> Historical Precision</span>
-                                    <span className="text-emerald-500">74%</span>
+                                    <span className="text-emerald-500">{userAccuracy != null ? `${userAccuracy}%` : '--'}</span>
                                 </div>
                                 <div className="h-1.5 md:h-2 bg-white/5 rounded-full overflow-hidden">
-                                    <div className="h-full bg-emerald-500/30 transition-all duration-1000 rounded-full" style={{ width: `74%` }}></div>
+                                    <div className="h-full bg-emerald-500/30 transition-all duration-1000 rounded-full" style={{ width: `${userAccuracy != null ? userAccuracy : 0}%` }}></div>
                                 </div>
                             </div>
                         </div>
