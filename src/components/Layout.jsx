@@ -3,11 +3,10 @@ import { NavLink, useLocation, Link } from 'react-router-dom';
 import {
     LayoutDashboard, BookOpen, Settings, Menu,
     TrendingUp, LogOut, ShieldCheck,
-    MessageSquareWarning, Bell, Target, ClipboardList, Video, Brain, HelpCircle
+    MessageSquareWarning, Bell, Target, ClipboardList, Video, Brain, HelpCircle, Star
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import ReportModal from './ReportModal';
-import MistakeReviewModal from './MistakeReviewModal';
 import GuideModal from './GuideModal';
 import { getMistakesDueCount } from '../services/review';
 
@@ -40,6 +39,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
     ];
 
     const privateItems = [
+        { icon: Star, label: "Star Review", path: "/stars" },
         { icon: TrendingUp, label: "Neural Report", path: "/analytics" },
         { icon: Settings, label: "Calibration", path: "/settings" },
     ];
@@ -234,7 +234,6 @@ const Layout = ({ children }) => {
     const [sidebarOpen, setSidebarOpen] = React.useState(false);
     const [reportOpen, setReportOpen] = React.useState(false);
     const [guideOpen, setGuideOpen] = React.useState(false);
-    const [mistakeModalOpen, setMistakeModalOpen] = useState(false);
     const [globalStarBalance, setGlobalStarBalance] = useState(0);
     const [globalXp, setGlobalXp] = useState(0);
     const { user, profile } = useAuth();
@@ -299,18 +298,16 @@ const Layout = ({ children }) => {
                                     <p className="text-[10px] uppercase font-black tracking-[0.2em] text-white/40">XP</p>
                                     <p className="text-sm font-black text-white">{globalXp}</p>
                                 </div>
-                                <div
-                                    onClick={() => setMistakeModalOpen(true)}
+                                <Link
+                                    to="/stars"
                                     className="bg-white/5 border border-white/10 rounded-2xl px-4 py-3 flex items-center gap-2 cursor-pointer hover:bg-white/10 transition-all"
                                 >
-                                    <svg className="w-4 h-4 text-yellow-300" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                                    </svg>
+                                    <Star className="w-4 h-4 text-yellow-300 fill-yellow-300/30" />
                                     <div>
                                         <p className="text-[10px] uppercase font-black tracking-[0.2em] text-white/40">Stars</p>
                                         <p className="text-sm font-black text-white">{globalStarBalance}</p>
                                     </div>
-                                </div>
+                                </Link>
                             </div>
                             {user && (
                                 <div className="hidden sm:flex items-center gap-4 pl-4 border-l border-white/10">
@@ -335,7 +332,6 @@ const Layout = ({ children }) => {
             {!hideLayout && <MobileBottomNav />}
 
             <ReportModal isOpen={reportOpen} onClose={() => setReportOpen(false)} />
-            <MistakeReviewModal isOpen={mistakeModalOpen} onClose={() => setMistakeModalOpen(false)} />
             <GuideModal isOpen={guideOpen} onClose={() => setGuideOpen(false)} />
 
             {sidebarOpen && (

@@ -16,7 +16,19 @@ import {
 
 const stripMath = (text) => {
   if (!text) return '';
-  return text.replace(/\$/g, '');
+  return text
+    .replace(/\$/g, '')
+    .replace(/\\frac\{([^}]*)\}\{([^}]*)\}/g, '$1/$2')
+    .replace(/\\sqrt\{([^}]*)\}/g, '√$1')
+    .replace(/\\cdot/g, '·')
+    .replace(/\\times/g, '×')
+    .replace(/\\Rightarrow/g, '→')
+    .replace(/\\approx/g, '≈')
+    .replace(/\\neq/g, '≠')
+    .replace(/\\ge/g, '≥')
+    .replace(/\\le/g, '≤')
+    .replace(/\\implies/g, '⇒')
+    .replace(/\\therefore/g, '∴');
 };
 
 const formatExplanation = (text) => {
@@ -24,12 +36,17 @@ const formatExplanation = (text) => {
   return text
     .replace(/<script.*?>.*?<\/script>/gi, '')
     .replace(/\$(.*?)\$/g, '<span class="text-primary font-semibold font-mono">$1</span>')
-    .replace(/\\Rightarrow/g, '→')
-    .replace(/\\times/g, '×')
-    .replace(/\\approx/g, '≈')
-    .replace(/\\neq/g, '≠')
-    .replace(/\\ge/g, '≥')
-    .replace(/\\le/g, '≤')
+    .replace(/\\frac\{([^}]*)\}\{([^}]*)\}/g, '<span class="text-primary font-semibold font-mono">$1</span><span class="text-white/30 mx-0.5">/</span><span class="text-primary font-semibold font-mono">$2</span>')
+    .replace(/\\sqrt\{([^}]*)\}/g, '<span class="text-primary font-semibold font-mono">√$1</span>')
+    .replace(/\\cdot/g, '<span class="text-white/50">·</span>')
+    .replace(/\\Rightarrow/g, '<span class="text-white/50">→</span>')
+    .replace(/\\implies/g, '<span class="text-white/50">⇒</span>')
+    .replace(/\\therefore/g, '<span class="text-white/50">∴</span>')
+    .replace(/\\times/g, '<span class="text-white/50">×</span>')
+    .replace(/\\approx/g, '<span class="text-white/50">≈</span>')
+    .replace(/\\neq/g, '<span class="text-white/50">≠</span>')
+    .replace(/\\ge/g, '<span class="text-white/50">≥</span>')
+    .replace(/\\le/g, '<span class="text-white/50">≤</span>')
     .replace(/\*\*(.*?)\*\*/g, '<span class="text-primary font-bold">$1</span>')
     .replace(/\n/g, '<br/>');
 };

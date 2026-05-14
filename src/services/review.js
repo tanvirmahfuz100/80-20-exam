@@ -122,6 +122,21 @@ export const startReviewSession = (stage) => {
   return reviewQuestions.length;
 };
 
+export const startAllReviewSession = () => {
+  const all = read();
+  const now = new Date();
+  const due = all.filter(m => new Date(m.nextReviewAt) <= now);
+  if (due.length === 0) return 0;
+
+  const reviewQuestions = due.map(m => ({
+    ...m.question,
+    _mistakeId: m.id,
+  }));
+
+  localStorage.setItem(REVIEW_SESSION_KEY, JSON.stringify(reviewQuestions));
+  return reviewQuestions.length;
+};
+
 export const getReviewSession = () => {
   try { return JSON.parse(localStorage.getItem(REVIEW_SESSION_KEY)) || []; }
   catch { return []; }

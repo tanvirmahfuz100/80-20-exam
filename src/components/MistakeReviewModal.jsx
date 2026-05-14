@@ -23,7 +23,7 @@ const MistakeReviewModal = ({ isOpen, onClose }) => {
     const count = startReviewSession(stage);
     if (count > 0) {
       onClose();
-      navigate(`/practice?reviewMode=true&reviewStage=${stage}`);
+      navigate(`/quiz/review?reviewMode=true&reviewStage=${stage}`);
     }
   };
 

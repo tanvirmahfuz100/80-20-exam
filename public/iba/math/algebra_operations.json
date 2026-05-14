@@ -2,5 +2,374 @@
   "subject": "Math",
   "topic": "Algebra",
   "chapter": "Basic Operations",
-  "questions": []
+  "questions": [
+    {
+      "id": "math_alg_ops_1",
+      "question": "The difference between two hundred nine thousand fourteen and ninety three thousand seven hundred nine is",
+      "options": [
+        "116,315",
+        "115,315",
+        "116,305",
+        "115,305",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "$209014 - 93709 = 115305$। সুতরাং সঠিক উত্তর (D)।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "BBA 93-94"
+    },
+    {
+      "id": "math_alg_ops_2",
+      "question": "A club collected exactly Tk 599 from its members. If each member contributed at least Tk 12, what is the greatest number of members the club could have?",
+      "options": [
+        "48",
+        "49",
+        "50",
+        "51",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "মোট $599$ টাকা, প্রতি সদস্য ন্যূনতম $12$ টাকা দিলে সর্বোচ্চ সদস্য সংখ্যা হবে $599 \\div 12 = 49.91$। যেহেতু সদস্য সংখ্যা পূর্ণসংখ্যা এবং $49 \\times 12 = 588$ (বাকি $11$ টাকা, যা বৈধ), কিন্তু $50 \\times 12 = 600 > 599$। তাই সর্বোচ্চ $49$।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "BBA 04-05"
+    },
+    {
+      "id": "math_alg_ops_3",
+      "question": "In Rajshahi 5 adults are unemployed for every 120 adults who have jobs. Out of 2125 adults, how many have jobs?",
+      "options": [
+        "89",
+        "425",
+        "2040",
+        "1896",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "প্রতি $120$ জন চাকরিজীবীর বিপরীতে $5$ জন বেকার, অর্থাৎ মোট $125$ জনে $120$ জন চাকরিজীবী। $2125$ জনে চাকরিজীবী = $\\frac{120}{125} \\times 2125 = 2040$।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "BBA 06-07"
+    },
+    {
+      "id": "math_alg_ops_4",
+      "question": "If a typist can type 125 pages, 36 lines each, 11 words to each line in 5 days, how many pages of 30 lines each and 12 words to each line can he type in 6 days?",
+      "options": [
+        "180",
+        "175",
+        "170",
+        "165",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "মোট শব্দের পরিমাণ একই থাকবে। $125 \\times 36 \\times 11 = 5$ দিনে টাইপ করা শব্দ। $6$ দিনে টাইপ করা শব্দ = $\\frac{125 \\times 36 \\times 11 \\times 6}{5}$। প্রতিটি পৃষ্ঠায় $30 \\times 12$ শব্দ। সুতরাং পৃষ্ঠা সংখ্যা = $\\frac{125 \\times 36 \\times 11 \\times 6}{5 \\times 30 \\times 12} = 165$।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "MBA 96-97"
+    },
+    {
+      "id": "math_alg_ops_5",
+      "question": "If 4 is subtracted from one-fourth of a number, the result is 20. The number is",
+      "options": [
+        "84",
+        "92",
+        "108",
+        "116",
+        "none of these"
+      ],
+      "correct": 4,
+      "explanation": "ধরি সংখ্যা $x$। $\\frac{x}{4} - 4 = 20 \\Rightarrow \\frac{x}{4} = 24 \\Rightarrow x = 96$। $96$ অপশনে নেই, তাই (E) সঠিক।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "MBA 02-03"
+    },
+    {
+      "id": "math_alg_ops_6",
+      "question": "If the product of 3 consecutive integers is 120, then the sum of the integers is",
+      "options": [
+        "9",
+        "12",
+        "14",
+        "15",
+        "18"
+      ],
+      "correct": 3,
+      "explanation": "$120 = 4 \\times 5 \\times 6$। সংখ্যা তিনটি $4,5,6$। যোগফল $4+5+6=15$।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "MBA 03-04"
+    },
+    {
+      "id": "math_alg_ops_7",
+      "question": "What is the total number of integers between 100 and 200 that are divisible by 3?",
+      "options": [
+        "33",
+        "32",
+        "31",
+        "30",
+        "None of these"
+      ],
+      "correct": 0,
+      "explanation": "$100$ ও $200$-এর মধ্যে $3$ দ্বারা বিভাজ্য প্রথম সংখ্যা $102$, শেষ $198$। সংখ্যা = $\\frac{198-102}{3}+1 = \\frac{96}{3}+1 = 32+1=33$।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "MBA 05-06"
+    },
+    {
+      "id": "math_alg_ops_8",
+      "question": "3 and 5 are factors of F. From this information, we can conclude that",
+      "options": [
+        "8 is a factor of F",
+        "F is a multiple of 15",
+        "F = 3 × 5",
+        "15 is a multiple of 15",
+        "3 and 5 are the only factors of F"
+      ],
+      "correct": 1,
+      "explanation": "$3$ ও $5$ যদি $F$-এর উৎপাদক হয়, তাহলে $3 \\times 5 = 15$ ও $F$-এর উৎপাদক। সুতরাং $F$, $15$-এর গুণিতক। অন্য অপশনগুলো সবসময় সত্য নয়।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "BBA 94"
+    },
+    {
+      "id": "math_alg_ops_9",
+      "question": "If the product of $(1+2)$, $(2+3)$ and $(3+4)$ is equal to half the sum of 20 and $x$, then $x =$ ?",
+      "options": [
+        "210",
+        "190",
+        "105",
+        "85",
+        "10"
+      ],
+      "correct": 1,
+      "explanation": "$(1+2) \\times (2+3) \\times (3+4) = 3 \\times 5 \\times 7 = 105$। প্রশ্নমতে $105 = \\frac{1}{2}(20 + x) \\Rightarrow 210 = 20 + x \\Rightarrow x = 190$।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "BBA 96-97"
+    },
+    {
+      "id": "math_alg_ops_10",
+      "question": "A man invested in a life insurance policy. He paid the insurance company an annual premium of Tk. 20 for insurance of every thousand taka. His insurance was for Tk. 4,500. The man died after making 27 annual installments. Total sum paid by the insurance company was Tk. 7,800. By how much did the sum paid by the insurance company exceed the total amount of premium that the man paid to the insurance company?",
+      "options": [
+        "5370",
+        "4750",
+        "4500",
+        "3300",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "প্রতি $1000$ টাকার জন্য বার্ষিক প্রিমিয়াম $20$ টাকা। $4500$ টাকার জন্য বার্ষিক প্রিমিয়াম $\\frac{20 \\times 4500}{1000} = 90$ টাকা। $27$ বছর মোট প্রিমিয়াম $90 \\times 27 = 2430$ টাকা। কোম্পানির প্রদত্ত অর্থ $7800$ টাকা। অতিরিক্ত = $7800 - 2430 = 5370$ টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "BBA 96-97"
+    },
+    {
+      "id": "math_alg_ops_11",
+      "question": "Jubair has Tk. 1,80,000 in his bank account. He made the following transactions: checks were written for Tk 20,000, Tk 13,000, Tk 40,000 and Tk 18,000. Deposits of Tk 60,000 and Tk 103,000 were made in the account. Interest amount added in the balance was Tk 50,000 and service fees charged by the bank was Tk 15,000. What is the final balance of the account?",
+      "options": [
+        "Tk 45,000",
+        "Tk 285,000",
+        "Tk 215,000",
+        "Tk 185,000",
+        "None of these"
+      ],
+      "correct": 4,
+      "explanation": "প্রারম্ভিক ব্যালেন্স $180000$। চেক লেখা (বিয়োগ): $20000+13000+40000+18000=91000$। জমা (যোগ): $60000+103000=163000$। সুদ যোগ $50000$, সার্ভিস চার্জ বিয়োগ $15000$। চূড়ান্ত ব্যালেন্স = $180000 - 91000 + 163000 + 50000 - 15000 = 287000$? আসলে হিসাব: $180000-91000=89000$; $89000+163000=252000$; $252000+50000=302000$; $302000-15000=287000$। $287000$ অপশনে নেই, তাই (E) সঠিক।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "BBA 06-07"
+    },
+    {
+      "id": "math_alg_ops_12",
+      "question": "If $CAC$ multiplied by $DD$ equals to $DDDD$ and if $D=7$, then what is the value of $A$?",
+      "options": [
+        "7",
+        "6",
+        "0",
+        "2",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "$D=7$ হলে $DD=77$, $DDDD=7777$। $CAC \\times 77 = 7777 \\Rightarrow CAC = \\frac{7777}{77} = 101$। সুতরাং $C=1$, $A=0$।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "BBA 09-10"
+    },
+    {
+      "id": "math_alg_ops_13",
+      "question": "Which of the following is the product of two positive integers whose sum is 3?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "explanation": "দুটি ধনাত্মক পূর্ণসংখ্যার যোগফল $3$ হলে তারা $1$ ও $2$। গুণফল $2$।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "MBA 03-04"
+    },
+    {
+      "id": "math_alg_ops_14",
+      "question": "How many positive integers less than 20 are equal to the sum of a positive multiple of 3 and a positive multiple of 4?",
+      "options": [
+        "Eleven",
+        "Five",
+        "Seven",
+        "Ten",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "$3$ ও $4$-এর ধনাত্মক গুণিতক যোগ করে $20$-এর কম সংখ্যা: $3+4=7$, $3+8=11$, $3+12=15$, $3+16=19$, $6+4=10$, $6+8=14$, $6+12=18$, $9+4=13$, $9+8=17$, $12+4=16$, $15+4=19$ (পুনরাবৃত্তি)। অনন্য সংখ্যা: $7,10,11,13,14,15,16,17,18,19$ → মোট $10$টি।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "MBA 03-04"
+    },
+    {
+      "id": "math_alg_ops_15",
+      "question": "Janata Garments Ltd. (JGL) has specific sales targets for all its sales managers. One of the managers Mr. Dhiman has a sales target of taka 50 million per quarter. Accounts show that during the first three quarters he has sold taka 10, 15, and 20 million worth of goods respectively. How much in taka should Mr. Dhiman sell during the fourth quarter in order to maintain the average sales target?",
+      "options": [
+        "10 million",
+        "5 million",
+        "250 million",
+        "155 million",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "চার প্রান্তরের গড় $50$ মিলিয়ন হতে হবে। $\\frac{10+15+20+x}{4}=50 \\Rightarrow 45+x=200 \\Rightarrow x=155$ মিলিয়ন।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "MBA 09-10"
+    },
+    {
+      "id": "math_alg_ops_16",
+      "question": "If an electric typewriter prints one word per second, what is the approximate time required for this typewriter to print a million words?",
+      "options": [
+        "10 hours",
+        "10 days",
+        "10 weeks",
+        "10 months",
+        "10 years"
+      ],
+      "correct": 1,
+      "explanation": "$10^6$ সেকেন্ড = $\\frac{10^6}{60 \\times 60 \\times 24}$ দিন = $\\frac{10^6}{86400} \\approx 11.57$ দিন, যা প্রায় $10$ দিনের কাছাকাছি।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "BBA 94"
+    },
+    {
+      "id": "math_alg_ops_17",
+      "question": "If $\\frac{x}{y} = \\frac{3}{7}$, then which of the following cannot be a possible value of $(y - x)$?",
+      "options": [
+        "4",
+        "21",
+        "24",
+        "84",
+        "None of these"
+      ],
+      "correct": 4,
+      "explanation": "$x = 3k, y = 7k$ ধরলে $y-x = 4k$। $k$ পূর্ণসংখ্যা হতে হবে না, যেকোনো বাস্তব সংখ্যা হতে পারে। সুতরাং $4,21,24,84$ সবগুলোই সম্ভব (যথাক্রমে $k=1, 5.25, 6, 21$)। তাই (E) সঠিক।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "BBA 94-95"
+    },
+    {
+      "id": "math_alg_ops_18",
+      "question": "What is the greatest positive integer $n$ such that $2^n$ is a factor of $12^{10}$?",
+      "options": [
+        "10",
+        "12",
+        "16",
+        "20",
+        "60"
+      ],
+      "correct": 3,
+      "explanation": "$12^{10} = (3 \\times 4)^{10} = 3^{10} \\times (2^2)^{10} = 3^{10} \\times 2^{20}$। সুতরাং $2^{20}$ গুণনীয়ক, তাই সর্বোচ্চ $n=20$।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "BBA 00-01"
+    },
+    {
+      "id": "math_alg_ops_19",
+      "question": "A number when divided by a divisor leaves a remainder of 24. When twice the original number is divided by the same divisor the remainder is 11. What is the value of the divisor?",
+      "options": [
+        "13",
+        "59",
+        "35",
+        "37",
+        "12"
+      ],
+      "correct": 3,
+      "explanation": "ধরি সংখ্যা $N$, ভাজক $d$। $N = dq + 24$। দ্বিগুণ $2N = 2dq + 48$। $2N$ কে $d$ দ্বারা ভাগ করলে ভাগশেষ $11$। $48$ কে $d$ দ্বারা ভাগ করলে ভাগশেষ $11$ হবে, অর্থাৎ $48 = d \\cdot m + 11 \\Rightarrow d \\cdot m = 37$। $37$ মৌলিক, সুতরাং $d=37$ (যেহেতু $d > 24$ ও $d > 11$)।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "BBA 08-09"
+    },
+    {
+      "id": "math_alg_ops_20",
+      "question": "When positive integer $x$ is divided by positive integer $y$, the remainder is 9. If $\\frac{x}{y} = 96.12$, what is the value of $y$?",
+      "options": [
+        "96",
+        "75",
+        "48",
+        "25",
+        "12"
+      ],
+      "correct": 1,
+      "explanation": "$\\frac{x}{y} = 96.12 = 96 + 0.12$। ভাগশেষ $9$ হওয়ায় $0.12 = \\frac{9}{y} \\Rightarrow y = \\frac{9}{0.12} = 75$।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "BBA 08-09"
+    },
+    {
+      "id": "math_alg_ops_21",
+      "question": "Find the smallest number which when divided by 18 and 24 will have a remainder of 4 and 10 respectively?",
+      "options": [
+        "56",
+        "52",
+        "58",
+        "54",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "$18$ ও $24$-এর ল.সা.গু. $72$। $18-4=14$ ও $24-10=14$। সুতরাং সংখ্যাটি $72 - 14 = 58$।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "MBA 96-97"
+    },
+    {
+      "id": "math_alg_ops_22",
+      "question": "If $\\#$ is an operator such that $(4 \\# 2 = 14)$ and $(2 \\# 3 = 6)$, what will be the value of $(5 \\# 2)$?",
+      "options": [
+        "11",
+        "19",
+        "23",
+        "25",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "প্যাটার্ন: $a \\# b = a^b - 2$? $4 \\# 2 = 4^2 - 2 = 16-2=14$; $2 \\# 3 = 2^3 - 2 = 8-2=6$। সুতরাং $5 \\# 2 = 5^2 - 2 = 25-2=23$।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "BBA 14-15"
+    },
+    {
+      "id": "math_alg_ops_23",
+      "question": "If $(a + a + a) = (b + b + b + b)$ and $(a + b) = 7$, then what is the value of $(a^2 - b^2)$?",
+      "options": [
+        "0",
+        "3",
+        "4",
+        "7",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "$3a = 4b \\Rightarrow a = \\frac{4}{3}b$। $a+b=7 \\Rightarrow \\frac{4}{3}b + b = 7 \\Rightarrow \\frac{7}{3}b = 7 \\Rightarrow b=3, a=4$। $a^2 - b^2 = 16 - 9 = 7$।",
+      "difficulty": "medium",
+      "chapter_tag": "Basic operations, Factors, Multiples",
+      "source": "BBA 15-16"
+    }
+  ]
 }

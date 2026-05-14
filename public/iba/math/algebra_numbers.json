@@ -2,5 +2,598 @@
   "subject": "Math",
   "topic": "Algebra",
   "chapter": "Numbers (Integer, Odd/Even, Prime)",
-  "questions": []
+  "questions": [
+    {
+      "id": "math_alg_num_1",
+      "question": "Which of the following must be odd?\nI. Even × Even\nII. Odd × Odd\nIII. Even + Odd",
+      "options": [
+        "None",
+        "I only",
+        "II and III only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "correct": 2,
+      "explanation": "I: even × even = even (যেমন 2×2=4); II: odd × odd = odd (যেমন 3×5=15); III: even + odd = odd (যেমন 2+3=5)। সুতরাং II ও III অবশ্যই বিজোড় হবে।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_num_2",
+      "question": "If $x$ is not a negative number, what is the maximum possible value of $2-3x$?",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1",
+        "None"
+      ],
+      "correct": 2,
+      "explanation": "$x$ ঋণাত্মক না হওয়ায় $x \\ge 0$। $2-3x$-এর মান সর্বোচ্চ হবে যখন $x$ সর্বনিম্ন হবে। $x=0$ হলে মান $2$।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_num_3",
+      "question": "If $x$ and $y$ are both odd integers, which of the following numbers must be an even integer?",
+      "options": [
+        "$x^2+y-1$",
+        "$xy+y^2$",
+        "$x+y+1$",
+        "$xy+2$",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "$x=1, y=3$ ধরি: A: $1+3-1=3$ (বিজোড়), B: $3+9=12$ (জোড়), C: $1+3+1=5$ (বিজোড়), D: $3+2=5$ (বিজোড়)। সুতরাং B জোড়।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 03-04"
+    },
+    {
+      "id": "math_alg_num_4",
+      "question": "The sum of six consecutive odd numbers exceeds twice the largest by 38. Find the sum of the six numbers.",
+      "options": [
+        "43",
+        "50",
+        "64",
+        "72",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "ধরি, তৃতীয় বিজোড় সংখ্যা $x$। তাহলে সংখ্যা ছয়টি: $x-4, x-2, x, x+2, x+4, x+6$। যোগফল $6x+6$। বৃহত্তম $x+6$। শর্ত: $6x+6 = 2(x+6)+38 \\Rightarrow 6x+6=2x+12+38 \\Rightarrow 4x=44 \\Rightarrow x=11$। যোগফল $6(11)+6=72$।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_num_5",
+      "question": "If $n$ and $p$ are both odd numbers, which of the following must be an even number?",
+      "options": [
+        "$n+p+1$",
+        "$np$",
+        "$np+2$",
+        "$n+p$",
+        "$2n+p$"
+      ],
+      "correct": 3,
+      "explanation": "$n=1, p=1$ ধরি: A: $1+1+1=3$ (বিজোড়), B: $1$ (বিজোড়), C: $1+2=3$ (বিজোড়), D: $1+1=2$ (জোড়), E: $2+1=3$ (বিজোড়)। সুতরাং $n+p$ জোড়।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "MBA 98-99"
+    },
+    {
+      "id": "math_alg_num_6",
+      "question": "The average of four consecutive odd positive integers is always",
+      "options": [
+        "An odd number",
+        "Divisible by 4",
+        "An even number",
+        "Both (b) & (c)",
+        "Either (b) & (c)"
+      ],
+      "correct": 2,
+      "explanation": "চারটি ক্রমিক বিজোড় সংখ্যা: $2x+1, 2x+3, 2x+5, 2x+7$। যোগফল $8x+16$। গড় $2x+4$ যা যেকোনো $x$ পূর্ণসংখ্যার জন্য জোড় সংখ্যা। কিন্তু $4$ দ্বারা বিভাজ্য হবে না সবসময় (যেমন $x=3$ হলে গড় $10$ যা $4$ দ্বারা বিভাজ্য নয়)।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 98-99"
+    },
+    {
+      "id": "math_alg_num_7",
+      "question": "If $n$ is an even integer, which of the following must be an odd integer?",
+      "options": [
+        "$7n-2$",
+        "$5(n-2)$",
+        "$\\frac{16n+24}{8}$",
+        "$\\frac{6n+12}{3}$",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "$n=2$ ধরি: A: $14-2=12$, B: $5(0)=0$, C: $\\frac{32+24}{8}=56/8=7$ (বিজোড়), D: $\\frac{12+12}{3}=24/3=8$। আবার $\\frac{16n+24}{8}=2n+3$, যা $n$ জোড় হলে $2n$ জোড়, $2n+3$ বিজোড়। তাই C সবসময় বিজোড়।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 01-02"
+    },
+    {
+      "id": "math_alg_num_8",
+      "question": "If $x$ is an odd integer, for which of the following equations must $y$ be an even integer?",
+      "options": [
+        "$xy = 5$",
+        "$x + y = 8$",
+        "$x + 2y = 7$",
+        "$2x + y = 6$",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "$x=1$ ধরি: A: $1·y=5 \\Rightarrow y=5$ (বিজোড়), B: $1+y=8 \\Rightarrow y=7$ (বিজোড়), C: $1+2y=7 \\Rightarrow 2y=6 \\Rightarrow y=3$ (বিজোড়), D: $2(1)+y=6 \\Rightarrow y=4$ (জোড়)। তাই D-তে $y$ জোড়।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 03-04"
+    },
+    {
+      "id": "math_alg_num_9",
+      "question": "If the 1st number in a series of consecutive odd numbers is 8 less than the last number in the series, how many numbers are there in the series?",
+      "options": [
+        "4",
+        "5",
+        "7",
+        "8",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "ক্রমিক বিজোড় সংখ্যার ব্যবধান $2$। প্রথম ও শেষের পার্থক্য $8$ হলে, $\\frac{8}{2}=4$টি ব্যবধান, অর্থাৎ $4+1=5$টি সংখ্যা। যেমন: $x, x+2, x+4, x+6, x+8$; শেষ $-$ প্রথম $=8$।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 04-05"
+    },
+    {
+      "id": "math_alg_num_10",
+      "question": "If $a$, $b$ and $c$ are 3 consecutive integers and $a>b>c$, which of the following has maximum value?",
+      "options": [
+        "$(a+b)/c$",
+        "$(b+c)/a$",
+        "$(c+b)/a$",
+        "$(c+a)/b$",
+        "$(a+c)/b$"
+      ],
+      "correct": 0,
+      "explanation": "ধরি $a=3, b=2, c=1$: A: $(3+2)/1=5$, B: $(2+1)/3=1$, C: $(1+2)/3=1$, D: $(1+3)/2=2$, E: $(3+1)/2=2$। A-র মান সর্বোচ্চ। ঋণাত্মক মান নিলেও A বড় হয়।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 07-08"
+    },
+    {
+      "id": "math_alg_num_11",
+      "question": "Five consecutive integers are given. If the sum of the first three integers is 24, what is the sum of the last three?",
+      "options": [
+        "27",
+        "28",
+        "29",
+        "30",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "প্রথম তিনটির গড় $24/3=8$, যা দ্বিতীয় সংখ্যা। তাহলে পাঁচটি সংখ্যা: $7,8,9,10,11$। শেষ তিনটির যোগফল $9+10+11=30$।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "MBA 01-02"
+    },
+    {
+      "id": "math_alg_num_12",
+      "question": "If $m$ is an even integer and $n$ is an odd integer and both are positive numbers, which of the following must be even?",
+      "options": [
+        "$m^2+n^2$",
+        "$mn+n^2$",
+        "$m^3+n^2$",
+        "$mn+m^2$",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "$m=2, n=1$ ধরি: A: $4+1=5$ (বিজোড়), B: $2+1=3$ (বিজোড়), C: $8+1=9$ (বিজোড়), D: $2+4=6$ (জোড়)। তাই D জোড়।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "MBA 03-04"
+    },
+    {
+      "id": "math_alg_num_13",
+      "question": "$M$ is a set of 5 consecutive integers whose average is 4. $N$ is a set of 7 consecutive integers whose average is 7. How many members of set $N$ are also members of set $M$?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "$M$: গড় $4$ হওয়ায় সংখ্যাগুলো $2,3,4,5,6$। $N$: গড় $7$ হওয়ায় $4,5,6,7,8,9,10$। সাধারণ সদস্য $4,5,6$ → $3$টি।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "MBA 03-04"
+    },
+    {
+      "id": "math_alg_num_14",
+      "question": "$x$, $y$ & $z$ are consecutive integers. If $0<x<y<z$ and $(x+y+z)$ is an odd integer, which of the following could be the value of $z$?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "$x,y,z$ ক্রমিক। $x=1,y=2,z=3$ যোগফল $6$ (জোড়) → কাজ করে না। $x=2,y=3,z=4$ যোগফল $9$ (বিজোড়) → $z=4$ সম্ভব। $x=3,y=4,z=5$ যোগফল $12$ (জোড়)। সুতরাং $z=4$।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "MBA 01-02"
+    },
+    {
+      "id": "math_alg_num_15",
+      "question": "If $X$ is an odd integer and $Y$ is an even integer, which of the following statements is (are) always true?\n(I) $X+Y$ is odd\n(II) $XY$ is odd\n(III) $2X+Y$ is even",
+      "options": [
+        "I only",
+        "II and III only",
+        "III only",
+        "I and III only",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "$X=1, Y=2$ ধরি: (I) $1+2=3$ (বিজোড়) সত্য; (II) $1·2=2$ (জোড়) → মিথ্যা; (III) $2(1)+2=4$ (জোড়) সত্য। তাই I ও III সত্য।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "MBA 01-02"
+    },
+    {
+      "id": "math_alg_num_16",
+      "question": "The product of two consecutive numbers is 12 more than the square of the smaller number. Find the greater number.",
+      "options": [
+        "9",
+        "11",
+        "12",
+        "13",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "ধরি ছোট সংখ্যা $x$, বড় $x+1$। $x(x+1) = x^2 + 12 \\Rightarrow x^2+x = x^2+12 \\Rightarrow x=12$। বড় সংখ্যা $13$।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "MBA 07-08"
+    },
+    {
+      "id": "math_alg_num_17",
+      "question": "If $x$, $y$ and $z$ are consecutive non-zero integers, and if $x < y < z$, which of the following must be a positive odd integer?",
+      "options": [
+        "$x-z$",
+        "$x+y+1$",
+        "$x+y+z$",
+        "$xz-y$",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "$x=1,y=2,z=3$: A: $1-3=-2$, B: $1+2+1=4$, C: $6$, D: $3-2=1$ (বিজোড়)। $x=2,y=3,z=4$: D: $8-3=5$ (বিজোড়)। $x=-2,y=-1,z=0$: D: $0-(-1)=1$ (বিজোড়)। সব ক্ষেত্রে D বিজোড় ও ধনাত্মক।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "MBA 08-09"
+    },
+    {
+      "id": "math_alg_num_18",
+      "question": "If $\\frac{x}{y} > 0$, which of the following must be true?",
+      "options": [
+        "$x > 0$",
+        "$y > 0$",
+        "$xy > 0$",
+        "$x - y > 0$",
+        "all of these"
+      ],
+      "correct": 2,
+      "explanation": "$\\frac{x}{y}>0$ হলে $x$ ও $y$ সমচিহ্নবিশিষ্ট। তাদের গুণফল $xy>0$। $x$ বা $y$ আলাদাভাবে ধনাত্মক হতে হবে না (উভয় ঋণাত্মকও হতে পারে)।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "MBA 08-09"
+    },
+    {
+      "id": "math_alg_num_19",
+      "question": "If $x$ and $y$ are positive odd integers and $z$ is an even integer, which one of the following statements cannot be true?",
+      "options": [
+        "$(x-z)y^2$ is odd",
+        "$(x-z)^2y$ is even",
+        "$(x-z)y$ is odd",
+        "$(x-y)^2z$ is even",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "$x=1,z=2$: $x-z=-1$ (বিজোড়)। B: $( -1)^2 y = y$ (বিজোড়) → জোড় নয়। তাই B কখনো জোড় হতে পারে না। অন্যগুলো সম্ভব।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_num_20",
+      "question": "If $a$ and $b$ are integers such that $a + b = 5$, which of the following must be true?\nI. The product of $a$ and $b$ is odd.\nII. If $a$ is odd then $b$ must be even.\nIII. If $a$ is negative, then $b$ must be positive.",
+      "options": [
+        "I only",
+        "II only",
+        "I and II only",
+        "II and III only",
+        "I, II and III"
+      ],
+      "correct": 3,
+      "explanation": "$a+b=5$। সম্ভাব্য জোড়া: $(0,5),(1,4),(2,3),(-1,6)$ ইত্যাদি। I: $1×4=4$ জোড় → সর্বদা সত্য নয়। II: $a$ বিজোড় হলে (১) $b=4$ জোড় → সত্য। III: $a$ ঋণাত্মক হলে (যেমন $-1$) $b=6$ ধনাত্মক → সত্য। তাই II ও III সত্য।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "MBA 07-08"
+    },
+    {
+      "id": "math_alg_num_21",
+      "question": "In a certain brick wall, each row of bricks above the bottom row contains one less brick than the row just below it. If there are 5 rows in all and a total of 75 bricks in that wall, how many bricks does the bottom row contain?",
+      "options": [
+        "12",
+        "17",
+        "14",
+        "15",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "ধরি নিচের সারিতে $x$টি ইট। উপরের সারিগুলো $x-1, x-2, x-3, x-4$। যোগফল $5x-10=75 \\Rightarrow 5x=85 \\Rightarrow x=17$।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "MBA 05-06"
+    },
+    {
+      "id": "math_alg_num_22",
+      "question": "If $x$ is a positive even number, then each of the following is odd except:",
+      "options": [
+        "$(x+3)(x+5)$",
+        "$x^2+5$",
+        "$x^2+6x+9$",
+        "$3x^2+4$",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "$x=2$ ধরি: A: $(5)(7)=35$ (বিজোড়), B: $4+5=9$ (বিজোড়), C: $4+12+9=25$ (বিজোড়), D: $12+4=16$ (জোড়)। তাই D ব্যতিক্রম।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "MBA 05-06"
+    },
+    {
+      "id": "math_alg_num_23",
+      "question": "Which of the following must be an integer if $x$ is a positive integer and $\\frac{4}{x} + \\frac{5}{x} + \\frac{6}{x}$ is also an integer?",
+      "options": [
+        "$x/5$",
+        "$5/x$",
+        "$x/30$",
+        "$30/x$",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "$\\frac{4+5+6}{x} = \\frac{15}{x}$ পূর্ণসংখ্যা হতে হবে। সুতরাং $x$ অবশ্যই $15$-এর ভাজক: $1,3,5,15$। এসব $x$-এর জন্য $30/x$ পূর্ণসংখ্যা: $30,10,6,2$। বাকি অপশন সব ক্ষেত্রে পূর্ণসংখ্যা দেয় না।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 04-05"
+    },
+    {
+      "id": "math_alg_num_24",
+      "question": "If $x$ is a non-zero integer which of the following must be a negative integer?\nI. $-(3x^2+4)$\nII. $-(-x)$\nIII. $(-x)^3$",
+      "options": [
+        "None",
+        "I only",
+        "III only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "correct": 1,
+      "explanation": "$x=1$: I: $-(3+4)=-7$ (ঋণাত্মক); II: $-(-1)=1$ (ধনাত্মক); III: $(-1)^3=-1$ (ঋণাত্মক) কিন্তু $x=-1$: III: $(1)^3=1$ (ধনাত্মক)। তাই শুধু I সবসময় ঋণাত্মক।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 08-09"
+    },
+    {
+      "id": "math_alg_num_25",
+      "question": "If $x$ is an odd integer, in which of the following equations must $y$ be an even integer?\nI. $xy = 5$\nII. $x+2y=11$\nIII. $2x+y=12$",
+      "options": [
+        "Only I",
+        "Only II",
+        "Only III",
+        "both II and III",
+        "all of these"
+      ],
+      "correct": 2,
+      "explanation": "$x=1$ ধরি: I: $1·y=5 \\Rightarrow y=5$ (বিজোড়); II: $1+2y=11 \\Rightarrow 2y=10 \\Rightarrow y=5$ (বিজোড়); III: $2(1)+y=12 \\Rightarrow y=10$ (জোড়)। তাই শুধু III-তে $y$ জোড় হতে বাধ্য।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 08-09"
+    },
+    {
+      "id": "math_alg_num_26",
+      "question": "If $x$ and $y$ are integers and $(xy + x)$ is odd, which of the following must be even?",
+      "options": [
+        "$x+y$",
+        "$xy - x$",
+        "$x$",
+        "$y$",
+        "any of these"
+      ],
+      "correct": 3,
+      "explanation": "$x(y+1)$ বিজোড়। বিজোড় সংখ্যা কেবল বিজোড় ও বিজোড়ের গুণফল। তাই $x$ ও $y+1$ উভয়েই বিজোড়। সুতরাং $y$ জোড়।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 08-09"
+    },
+    {
+      "id": "math_alg_num_27",
+      "question": "If $xy < 0$ and $y > 0$ which of the following must be positive?",
+      "options": [
+        "$x-y$",
+        "$2x+3y$",
+        "$\\frac{x+10}{y+2}$",
+        "$\\frac{-y-2}{x}$",
+        "$2y^2+x$"
+      ],
+      "correct": 3,
+      "explanation": "$xy<0$ এবং $y>0$ হলে $x<0$। D: $\\frac{-y-2}{x}$, লব $-(y+2)$ ঋণাত্মক, হর $x$ ঋণাত্মক, ভাগফল ধনাত্মক।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 09-10"
+    },
+    {
+      "id": "math_alg_num_28",
+      "question": "If $m$ is an integer, and $y = (m-1)(m+2) - (m-1)(m-2)$, then which of the following must be true?",
+      "options": [
+        "$y$ is odd only when $m$ is odd",
+        "$y$ is odd only when $m$ is even",
+        "$y$ is even only when $m$ is even",
+        "$y$ is even only when $m$ is odd",
+        "None of these"
+      ],
+      "correct": 4,
+      "explanation": "$y = (m-1)[(m+2)-(m-2)] = (m-1)(4) = 4(m-1)$। $4(m-1)$ সর্বদা জোড় (আসলে $4$ এর গুণিতক)। $m$ যাই হোক $y$ জোড়। তাই কোনো শর্ত সত্য নয়।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 10-11"
+    },
+    {
+      "id": "math_alg_num_29",
+      "question": "If $a$, $b$ and $c$ are odd integers, which of the following expressions must be an even integer?",
+      "options": [
+        "$ab+bc+ca$",
+        "$a(b+c-1)$",
+        "$a^2 b^2 + c^2$",
+        "$3(ac-bc)$",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "$a,b,c$ বিজোড়। $ac$ ও $bc$ বিজোড়, তাদের বিয়োগফল $ac-bc$ জোড়। $3$ গুণ করলে জোড় × বিজোড় = জোড়। বাকিগুলো বিজোড় হতে পারে।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "MBA 13-14"
+    },
+    {
+      "id": "math_alg_num_30",
+      "question": "What is the largest integer, $n$, that satisfies the inequality $n^2+7n-3 < n^2+5n+9$?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "$n^2+7n-3 < n^2+5n+9 \\Rightarrow 7n-5n < 9+3 \\Rightarrow 2n < 12 \\Rightarrow n < 6$। তাই বৃহত্তম পূর্ণসংখ্যা $n=5$।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "MBA 13-14"
+    },
+    {
+      "id": "math_alg_num_31",
+      "question": "What is the next-highest prime number after 67?",
+      "options": [
+        "68",
+        "69",
+        "71",
+        "73",
+        "76"
+      ],
+      "correct": 2,
+      "explanation": "67-এর পরের মৌলিক সংখ্যা 71 (68,69,70 যৌগিক, 71 মৌলিক)।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 15-16"
+    },
+    {
+      "id": "math_alg_num_32",
+      "question": "Which one of the following is the minimum value of the sum of two integers whose product is 36?",
+      "options": [
+        "37",
+        "20",
+        "15",
+        "12",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "গুণফল 36 এমন পূর্ণসংখ্যা জোড়া: (1,36) যোগফল 37; (2,18)→20; (3,12)→15; (4,9)→13; (6,6)→12। সবচেয়ে ছোট যোগফল 12 (6+6) এবং (-6,-6) দিলে যোগফল -12 যা ছোট কিন্তু নেগেটিভ। প্রশ্নে সম্ভবত ধনাত্মক বোঝানো হয়েছে। উত্তর 12।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 15-16"
+    },
+    {
+      "id": "math_alg_num_33",
+      "question": "$2pq5$ is a four digit number divisible by 25. If the number formed from the two digits $pq$ is a multiple of 13. Then $pq =$ ?",
+      "options": [
+        "10",
+        "25",
+        "52",
+        "65",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "সংখ্যা $2pq5$, শেষ দুই অঙ্ক $q5$। 25 দ্বারা বিভাজ্য হলে শেষ দুই অঙ্ক 25, 50, 75 হতে পারে। এখানে শেষ অঙ্ক 5, তাই $q=2$ বা $7$। $q=2$ হলে $pq$ হল $p2$ যা 13-এর গুণিতক: 13,26,39,52,65,... $p2$ মানে 52 (p=5) কাজ করে। $q=7$ হলে $p7$: 13-এর গুণিতকে 7 শেষে নেই। সুতরাং $pq=52$।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 15-16"
+    },
+    {
+      "id": "math_alg_num_34",
+      "question": "If $n$ is an integer divisible by 6 but not by 4, then which of the following CANNOT be an integer?",
+      "options": [
+        "$n/2$",
+        "$n/3$",
+        "$n/12$",
+        "$n/10$",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "$n$ divisible by 6 ⇒ $n=6k$। কিন্তু 4 দ্বারা বিভাজ্য নয়, তাই $n$-এ 2-এর ঘাত মাত্র 1 (অর্থাৎ 2 দ্বারা বিভাজ্য কিন্তু 4 নয়)। $n=6,18,30,...$। $n/12$ পূর্ণসংখ্যা হতে $n$ 12-এর গুণিতক হতে হবে, যা 4 দ্বারা বিভাজ্য, শর্ত ভঙ্গ করে। তাই $n/12$ কখনোই পূর্ণসংখ্যা নয়।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 15-16"
+    },
+    {
+      "id": "math_alg_num_35",
+      "question": "If $x$, $y$ and $z$ are consecutive negative integers and $x>y>z$, which of the following must be a positive odd integer?",
+      "options": [
+        "$xyz$",
+        "$(x-y)(y-z)$",
+        "$x-yz$",
+        "$x(y+z)$",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "$x=-1, y=-2, z=-3$: B: $(-1+2)(-2+3)= (1)(1)=1$ (ধনাত্মক বিজোড়)। A: $(-1)(-2)(-3)=-6$ (ঋণাত্মক জোড়), C: $-1 - (-2)(-3) = -1 -6 = -7$ (ঋণাত্মক বিজোড়), D: $-1(-2-3)= -1(-5)=5$ (ধনাত্মক বিজোড় কিন্তু সবসময় নয়? অন্য মান নিয়ে চেক: $x=-2,y=-3,z=-4$: D: $-2(-3-4)= -2(-7)=14$ জোড়)। তাই শুধু B সবসময় ধনাত্মক বিজোড়।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 16-17"
+    },
+    {
+      "id": "math_alg_num_36",
+      "question": "If $(2x^2+3x+y)$ is an even integer, which of the following must be true?",
+      "options": [
+        "$x$ is even",
+        "$y$ is odd",
+        "$(x+y)$ is even",
+        "$(x+y)$ is odd",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "$2x^2+3x+y = 2x^2+2x + x + y = 2(x^2+x) + (x+y)$। $2(x^2+x)$ জোড়। সমগ্র রাশি জোড় হতে হলে $(x+y)$ জোড় হতে হবে।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 16-17"
+    },
+    {
+      "id": "math_alg_num_37",
+      "question": "Fill in each of the empty spaces between the numbers in the following series with symbols $+$, $-$, $/$, and $\\times$ (use each symbol only once and no parenthesis). What is the least possible value of the result?\n$1 \\_ 3 \\_ 5 \\_ 7 \\_ 9 = ?$",
+      "options": [
+        "-5.29",
+        "57.67",
+        "-61.4",
+        "-2.3",
+        "-3.29"
+      ],
+      "correct": 2,
+      "explanation": "BODMAS অনুযায়ী ভাগ ও গুণের অগ্রাধিকার। সম্ভাব্য সমীকরণ পরীক্ষা করে সবচেয়ে ছোট মান পাওয়া যায় $1 + 3 / 5 - 7 \\times 9 = 1 + 0.6 - 63 = -61.4$।",
+      "difficulty": "medium",
+      "chapter_tag": "Integers",
+      "source": "BBA 19-20"
+    }
+  ]
 }

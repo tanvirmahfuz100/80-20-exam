@@ -15,6 +15,7 @@ import VideoFeed from './pages/VideoFeed';
 import Analytics from './pages/Analytics';
 import Settings from './pages/Settings';
 import Landing from './pages/Landing';
+import Stars from './pages/Stars';
 import { api } from './services/api';
 import { Graduation } from './components/Illustrations';
 
@@ -193,6 +194,11 @@ const AppContent = () => {
           <Route path="/practice" element={
             <motion.div {...pageMotion}>
               <PracticeConfig />
+            </motion.div>
+          } />
+          <Route path="/stars" element={
+            <motion.div {...pageMotion}>
+              <Stars />
             </motion.div>
           } />
           <Route path="/bank" element={

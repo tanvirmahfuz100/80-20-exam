@@ -1,0 +1,295 @@
+{
+  "subject": "Math",
+  "topic": "Algebra",
+  "chapter": "Real Numbers, Absolute Value & Reciprocals",
+  "questions": [
+    {
+      "id": "math_alg_real_1",
+      "question": "Which of the columns below has the greatest value?\nColumn 1: $(-6)^3$\nColumn 2: $(-6)^4$\nColumn 3: $(-6)^5$\nColumn 4: $(-6)^6$",
+      "options": [
+        "Column 1",
+        "Column 2",
+        "Column 3",
+        "Column 4",
+        "All are equal"
+      ],
+      "correct": 3,
+      "explanation": "$(-6)^3 = -216$, $(-6)^4 = 1296$, $(-6)^5 = -7776$, $(-6)^6 = 46656$। সুতরাং Column 4-এর মান সর্বাধিক।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "MBA 09-10"
+    },
+    {
+      "id": "math_alg_real_2",
+      "question": "The sum of a number and its inverse (or reciprocal) is equal to twice the number. What is the number?",
+      "options": [
+        "1",
+        "-1",
+        "$1$ or $-1$",
+        "$-2$",
+        "$2$"
+      ],
+      "correct": 2,
+      "explanation": "ধরি সংখ্যাটি $x$। প্রশ্নমতে, $x + \\frac{1}{x} = 2x \\Rightarrow \\frac{1}{x} = x \\Rightarrow x^2 = 1 \\Rightarrow x = \\pm 1$।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "BBA 94-95"
+    },
+    {
+      "id": "math_alg_real_3",
+      "question": "The reciprocal of $\\frac{p}{n}$ is $\\frac{n}{p}$ and vice versa. Which of the following is the reciprocal of $\\frac{2}{\\sqrt{18}}$?",
+      "options": [
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{2}$",
+        "$\\frac{12}{9}$",
+        "$\\frac{4\\sqrt{3}}{3}$",
+        "None of these"
+      ],
+      "correct": 4,
+      "explanation": "$\\frac{2}{\\sqrt{18}} = \\frac{2}{3\\sqrt{2}} = \\frac{\\sqrt{2}}{3}$। এর বিপরীত $\\frac{3}{\\sqrt{2}} = \\frac{3\\sqrt{2}}{2}$। কোনো অপশনেই নেই।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "BBA 06-07"
+    },
+    {
+      "id": "math_alg_real_4",
+      "question": "If $(x+4)^2 = 9$ and $(y+3)^2 = 25$, then the minimum value of $\\frac{y}{x}$ is",
+      "options": [
+        "$-1$",
+        "$-2$",
+        "$-8$",
+        "$-7$",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "$x+4 = \\pm 3 \\Rightarrow x = -1$ বা $x = -7$। $y+3 = \\pm 5 \\Rightarrow y = 2$ বা $y = -8$। সম্ভাব্য $\\frac{y}{x}$ মান: $\\frac{2}{-1}=-2$, $\\frac{2}{-7}=-\\frac{2}{7}$, $\\frac{-8}{-1}=8$, $\\frac{-8}{-7}=\\frac{8}{7}$। সর্বনিম্ন $-2$।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "MBA 08-09"
+    },
+    {
+      "id": "math_alg_real_5",
+      "question": "If $y$ is between $0$ and $1$, which of the following increases as $y$ increases?\nI. $1-y^2$\nII. $y-1$\nIII. $\\frac{1}{y^2}$",
+      "options": [
+        "I and II",
+        "II and III",
+        "II only",
+        "I, II and III",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "$y=0.25$ ও $y=0.5$ নিয়ে পরীক্ষা: $1-y^2$ কমে ($0.9375$ থেকে $0.75$), $y-1$ বাড়ে ($-0.75$ থেকে $-0.5$), $1/y^2$ কমে ($16$ থেকে $4$)। সুতরাং শুধু II বাড়ে।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "BBA 09-10"
+    },
+    {
+      "id": "math_alg_real_6",
+      "question": "If $X$ is greater than zero, but less than $1$, which of the following is the largest?",
+      "options": [
+        "$X^3$",
+        "$X^2$",
+        "$X$",
+        "$\\frac{1}{X^3}$",
+        "$\\frac{1}{X^2}$"
+      ],
+      "correct": 3,
+      "explanation": "$0<X<1$ হলে, $X^3 < X^2 < X < 1$ এবং $\\frac{1}{X^2} < \\frac{1}{X^3}$। $\\frac{1}{X^3}$ সবচেয়ে বড়।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "MBA 97-98"
+    },
+    {
+      "id": "math_alg_real_7",
+      "question": "If $x$ is between $0$ and $1$, which of the following increases as $x$ increases?\nI. $1-x^2$\nII. $x-1$\nIII. $\\frac{1}{x^2}$",
+      "options": [
+        "I and II",
+        "II and III",
+        "I and III",
+        "II only",
+        "I only"
+      ],
+      "correct": 3,
+      "explanation": "$x$ বাড়লে $1-x^2$ কমে, $x-1$ বাড়ে (যেমন $0.25$ থেকে $0.5$ এ গেলে $-0.75$ থেকে $-0.5$), $1/x^2$ কমে। সুতরাং শুধু II বাড়ে।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "MBA 99-00"
+    },
+    {
+      "id": "math_alg_real_8",
+      "question": "Which is closest to $1$?",
+      "options": [
+        "$\\frac{3}{3+0.03}$",
+        "$\\frac{3}{3+0.3}$",
+        "$\\frac{3}{(3+0.3)^2}$",
+        "$\\frac{3}{3+(0.03)^2}$",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "$\\frac{3}{3+0.03} \\approx 0.99$, $\\frac{3}{3+0.3} \\approx 0.909$, $\\frac{3}{(3+0.3)^2} \\approx 0.275$, $\\frac{3}{3+(0.03)^2} \\approx 0.9997$। সবচেয়ে কাছে $\\frac{3}{3+(0.03)^2}$।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "MBA 05-06"
+    },
+    {
+      "id": "math_alg_real_9",
+      "question": "If $\\frac{2x+4y+6z}{6} = \\frac{x+2y}{2}$, then $z =$ ?",
+      "options": [
+        "$\\frac{x+2y}{6}$",
+        "$\\frac{x+2y}{3}$",
+        "$\\frac{2x+y}{6}$",
+        "$\\frac{2x+y}{3}$",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "$\\frac{2x+4y+6z}{6} = \\frac{x+2y}{2} \\Rightarrow 2x+4y+6z = 3(x+2y) = 3x+6y \\Rightarrow 6z = x+2y \\Rightarrow z = \\frac{x+2y}{6}$।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_real_10",
+      "question": "If $A = \\frac{7C}{B+0.5C}$, then $C =$ ?",
+      "options": [
+        "$\\frac{2AB}{7-0.5A}$",
+        "$AB + \\frac{2A}{7}$",
+        "$\\frac{A(B+0.5)}{7}$",
+        "$\\frac{2AB}{14-A}$",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "$A(B+0.5C)=7C \\Rightarrow AB + 0.5AC = 7C \\Rightarrow AB = C(7-0.5A) \\Rightarrow C = \\frac{AB}{7-0.5A} = \\frac{2AB}{14-A}$।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_real_11",
+      "question": "If $z$ is the sum of $x$ and $y$, and $x < y$, which of the following is equal to $(z-2x)$?",
+      "options": [
+        "$z-x-y$",
+        "$z+x-y$",
+        "$2y-z$",
+        "$2z-x+y$",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "$z = x+y$, তাহলে $z-2x = (x+y)-2x = y-x$। আবার $2y-z = 2y-(x+y)=y-x$। সুতরাং $2y-z$ সমান।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_real_12",
+      "question": "If $\\frac{5}{8}$ of a number is $11$ more than $\\frac{1}{6}$ of the number, what is $\\frac{3}{4}$ of that number?",
+      "options": [
+        "18",
+        "20",
+        "2",
+        "32",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "ধরি সংখ্যাটি $n$। $\\frac{5}{8}n - \\frac{1}{6}n = 11 \\Rightarrow \\frac{15-4}{24}n = 11 \\Rightarrow \\frac{11}{24}n = 11 \\Rightarrow n = 24$। তাহলে $\\frac{3}{4} \\times 24 = 18$।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_real_13",
+      "question": "If $x$ and $y$ are integers and $-9 < x < 9$ and $0 < y < 14$, what is the greatest possible value of $(y-x)$?",
+      "options": [
+        "23",
+        "21",
+        "19",
+        "17",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "$y$-এর সর্বোচ্চ পূর্ণসংখ্যা $13$ (যেহেতু $y<14$), $x$-এর সর্বনিম্ন পূর্ণসংখ্যা $-8$ (যেহেতু $x>-9$)। তাহলে $y-x = 13 - (-8) = 21$।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_real_14",
+      "question": "If $x$ and $y$ are negative and $z$ is positive, which of the following must be true?\nI. $(x-y) < (x-z)$\nII. $\\frac{x}{z} < \\frac{y}{z}$\nIII. $\\frac{1}{y} < \\frac{1}{z}$",
+      "options": [
+        "only I",
+        "only II",
+        "only III",
+        "both II and III",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "$x=-1, y=-2, z=1$ নিয়ে পরীক্ষা: I: $(-1+2)=1 < (-1-1)=-2$ মিথ্যা; II: $-1 < -2$ মিথ্যা; III: $-0.5 < 1$ সত্য। অন্য মান নিলেও III সর্বদা সত্য।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_real_15",
+      "question": "The quantity $2^{55} \\cdot 3^{7} \\cdot 5^{?}$ (likely $2^{55} \\cdot 3^{7} \\cdot 5^{?}$) will end in how many zeroes?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "প্রকৃত রাশিটি $2^{65} \\cdot 3^{7} \\cdot 5^{?}$ হিসেবে পাঠ্যপুস্তকে ছিল। $10^6$ পাওয়ায় শেষে $6$টি শূন্য থাকে।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "BBA 14-15"
+    },
+    {
+      "id": "math_alg_real_16",
+      "question": "The sum of all solutions for $x$ in the equation $x^2 - 8x + 21 = |x-4| + 5$ is equal to:",
+      "options": [
+        "-7",
+        "7",
+        "10",
+        "12",
+        "none of these"
+      ],
+      "correct": 4,
+      "explanation": "সমীকরণটি সমাধান করে $x=4$ ও $x=5$ পাওয়া যায়। যোগফল $9$। কোনো অপশন নেই।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "BBA 15-16"
+    },
+    {
+      "id": "math_alg_real_17",
+      "question": "What is the difference between the sum of the $5$ largest and the $5$ smallest three-digit numbers?",
+      "options": [
+        "4475",
+        "4470",
+        "4485",
+        "4490",
+        "4495"
+      ],
+      "correct": 0,
+      "explanation": "$5$টি বৃহত্তম তিন-অঙ্কের সংখ্যা: $999+998+997+996+995 = 4985$। $5$টি ক্ষুদ্রতম: $100+101+102+103+104 = 510$। পার্থক্য $4985-510 = 4475$।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "BBA 19-20"
+    },
+    {
+      "id": "math_alg_real_18",
+      "question": "If $|x+3| < 5$, then which of the following cannot be true?",
+      "options": [
+        "$x > 1$",
+        "$x = 0$",
+        "$x < -6$",
+        "$x < -9$",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "$|x+3| < 5 \\Rightarrow -5 < x+3 < 5 \\Rightarrow -8 < x < 2$। সুতরাং $x < -9$ কখনোই সত্য নয়।",
+      "difficulty": "medium",
+      "chapter_tag": "Real Numbers, Absolute Value, Reciprocals",
+      "source": "BBA 19-20"
+    }
+  ]
+}
