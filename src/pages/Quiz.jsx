@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { useSearchParams, useNavigate, useParams, Link } from 'react-router-dom';
 import {
     ArrowLeft, CheckCircle, XCircle, ChevronRight,
-    RefreshCw, AlertTriangle, Lightbulb, Timer,
+    RefreshCw, Lightbulb, Timer,
     Trophy, Target, Zap, Clock,
-    BarChart3, BrainCircuit, Video, Star
+    BarChart3, BrainCircuit, Video, Star, Sparkles
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { api } from '../services/api';
@@ -344,10 +344,15 @@ const Quiz = () => {
     );
 
     if (error) return (
-        <div className="max-w-md mx-auto p-10 bg-red-500/5 border border-red-500/20 rounded-3xl text-center">
-            <AlertTriangle className="w-12 h-12 text-red-500 mx-auto mb-4" />
-            <p className="text-white font-bold">{error}</p>
-            <Link to="/practice" className="mt-6 inline-block text-primary text-xs font-black uppercase tracking-widest">Go Back</Link>
+        <div className="max-w-md mx-auto p-10 bg-yellow-500/10 border border-yellow-500/20 rounded-[2rem] text-center shadow-2xl shadow-black/20">
+            <div className="w-16 h-16 mx-auto mb-5 rounded-3xl bg-yellow-500/15 border border-yellow-500/20 flex items-center justify-center">
+                <Sparkles className="w-8 h-8 text-yellow-300" />
+            </div>
+            <h3 className="text-white font-black text-2xl italic tracking-tighter mb-3">Lesson path paused</h3>
+            <p className="text-white/70 font-medium leading-relaxed">{error}</p>
+            <Link to="/practice" className="mt-6 inline-flex items-center justify-center rounded-2xl bg-yellow-500 px-6 py-3 text-xs font-black uppercase tracking-[0.2em] text-black transition-all hover:bg-yellow-400">
+                Back to Practice
+            </Link>
         </div>
     );
 
@@ -439,7 +444,7 @@ const Quiz = () => {
 
                 <div className="flex items-center gap-4">
                     {isTimedMode && (
-                        <div className={`flex items-center gap-2 px-4 py-2 rounded-xl border font-mono font-black text-sm ${timeLeft < 30 ? 'bg-red-500/10 border-red-500/20 text-red-500 animate-pulse' : 'bg-white/5 border-white/5 text-white'}`}>
+                        <div className={`flex items-center gap-2 px-4 py-2 rounded-xl border font-mono font-black text-sm ${timeLeft < 30 ? 'bg-yellow-500/10 border-yellow-500/20 text-yellow-300 animate-pulse' : 'bg-white/5 border-white/5 text-white'}`}>
                             <Clock className="w-4 h-4" />
                             {formatTime(timeLeft)}
                         </div>
@@ -487,7 +492,7 @@ const Quiz = () => {
                             )}
 
                             <div className="flex items-center gap-3 mb-10">
-                                <span className={`text-[9px] font-black px-3 py-1 rounded-full uppercase border ${currentQ.difficulty === 'hard' ? 'text-red-400 border-red-400/20 bg-red-400/5' :
+                                <span className={`text-[9px] font-black px-3 py-1 rounded-full uppercase border ${currentQ.difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
                                     currentQ.difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :
                                         'text-emerald-400 border-emerald-400/20 bg-emerald-400/5'
                                     }`}>{currentQ.difficulty}</span>
@@ -584,7 +589,7 @@ const Quiz = () => {
                                             href={currentQ.explanation_video_url}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex items-center justify-center gap-3 w-full py-4 bg-red-500/10 hover:bg-red-500/20 text-red-500 rounded-2xl border border-red-500/20 transition-all font-black uppercase tracking-widest text-[9px] group"
+                                            className="flex items-center justify-center gap-3 w-full py-4 bg-yellow-500/10 hover:bg-yellow-500/20 text-yellow-300 rounded-2xl border border-yellow-500/20 transition-all font-black uppercase tracking-widest text-[9px] group"
                                         >
                                             <Video className="w-4 h-4 group-hover:scale-110 transition-transform" />
                                             Watch Video Breakdown

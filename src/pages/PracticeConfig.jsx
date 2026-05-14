@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Book, Calculator, Brain, ChevronRight, Play, Clock, AlertCircle, Timer, ShieldCheck, ArrowRight, BookOpen } from 'lucide-react';
+import { Book, Calculator, Brain, ChevronRight, Play, Clock, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles } from 'lucide-react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
@@ -13,15 +13,15 @@ const SubjectCard = ({ subject, isSelected, onClick }) => {
     return (
         <button
             onClick={onClick}
-            className={`flex flex-col items-center justify-center p-8 rounded-3xl border transition-all duration-300 w-full text-center relative overflow-hidden group ${isSelected
-                ? 'bg-primary/10 border-primary shadow-[0_0_40px_rgba(94,106,210,0.15)]'
-                : 'bg-surface border-white/5 hover:border-white/20 hover:bg-white/5'
+            className={`flex flex-col items-center justify-center p-8 rounded-[2rem] border transition-all duration-300 w-full text-center relative overflow-hidden group ${isSelected
+                ? 'bg-primary/12 border-primary shadow-[0_0_40px_rgba(88,199,79,0.18)] -translate-y-1'
+                : 'bg-surface border-white/5 hover:border-primary/30 hover:bg-white/5'
                 }`}
         >
             {isSelected && <div className="absolute top-0 right-0 p-3 bg-primary/20 text-primary rounded-bl-2xl">
                 <ShieldCheck className="w-4 h-4" />
             </div>}
-            <div className={`p-5 rounded-2xl mb-5 transition-all duration-500 ${isSelected ? 'bg-primary text-white scale-110 shadow-lg shadow-primary/30' : 'bg-surface-alt text-white/20 group-hover:text-white/40'}`}>
+            <div className={`p-5 rounded-[1.5rem] mb-5 transition-all duration-500 ${isSelected ? 'bg-primary text-black scale-110 shadow-lg shadow-primary/25' : 'bg-surface-alt text-white/20 group-hover:text-white/40'}`}>
                 <Icon className="w-10 h-10" />
             </div>
             <h3 className={`text-xl font-black mb-1 transition-colors tracking-tighter ${isSelected ? 'text-white' : 'text-white/60 group-hover:text-white'}`}>{subject.name}</h3>
@@ -31,7 +31,7 @@ const SubjectCard = ({ subject, isSelected, onClick }) => {
 };
 
 const ChapterItem = ({ chapter, onClick, questionCount }) => (
-    <div className="flex items-center justify-between p-5 bg-surface border border-white/5 rounded-2xl hover:border-primary/30 transition-all group hover:bg-white/5">
+    <div className="flex items-center justify-between p-5 bg-surface border border-white/5 rounded-[1.6rem] hover:border-primary/30 transition-all group hover:bg-white/5">
         <div className="flex-1 min-w-0 pr-4">
             <h4 className="font-bold text-white text-lg truncate group-hover:text-primary transition-colors leading-tight mb-1">{chapter.name}</h4>
             <div className="flex items-center gap-3">
@@ -42,7 +42,7 @@ const ChapterItem = ({ chapter, onClick, questionCount }) => (
         </div>
         <button
             onClick={() => onClick(chapter)}
-            className="flex items-center gap-2 px-6 py-3 bg-primary text-white font-black uppercase tracking-widest rounded-xl hover:bg-primary-hover transition-all text-[10px] shadow-lg shadow-primary/10 active:scale-95 shrink-0"
+            className="flex items-center gap-2 px-6 py-3 bg-primary text-black font-black uppercase tracking-widest rounded-2xl hover:bg-primary-hover transition-all text-[10px] shadow-lg shadow-primary/10 active:scale-95 shrink-0"
         >
             <Play className="w-4 h-4 fill-current" />
             Start
@@ -181,13 +181,13 @@ const PracticeConfig = () => {
     );
 
     if (error) return (
-        <div className="p-10 bg-red-500/5 border border-red-500/20 rounded-3xl flex flex-col items-center gap-4 text-center">
-            <div className="p-4 bg-red-500/10 rounded-full">
-                <AlertCircle className="w-10 h-10 text-red-500" />
+        <div className="p-10 bg-yellow-500/10 border border-yellow-500/20 rounded-[2rem] flex flex-col items-center gap-4 text-center">
+            <div className="p-4 bg-yellow-500/10 rounded-full">
+                <Sparkles className="w-10 h-10 text-yellow-300" />
             </div>
             <div>
-                <h3 className="text-white font-bold text-lg">Oops! Something went wrong</h3>
-                <p className="text-red-500/60 text-sm max-w-sm mx-auto mt-2 font-medium">{error}. We couldn't load the lessons.</p>
+                <h3 className="text-white font-black text-xl italic tracking-tighter">Path paused for now</h3>
+                <p className="text-yellow-100/70 text-sm max-w-sm mx-auto mt-2 font-medium">{error}. We couldn't load the lessons.</p>
             </div>
         </div>
     );
@@ -211,16 +211,16 @@ const PracticeConfig = () => {
                 </div>
 
                 {/* Timed Toggle */}
-                <div className="bg-surface border border-white/5 p-2 rounded-3xl flex items-center gap-2 shadow-2xl overflow-hidden">
+                <div className="bg-surface border border-white/5 p-2 rounded-[1.8rem] flex items-center gap-2 shadow-2xl overflow-hidden">
                     <button
                         onClick={() => setIsTimed(false)}
-                        className={`flex items-center gap-2 px-6 py-3 rounded-2xl text-[10px] font-black uppercase tracking-widest transition-all ${!isTimed ? 'bg-primary text-white shadow-xl shadow-primary/20' : 'text-white/20 hover:text-white/40'}`}
+                        className={`flex items-center gap-2 px-6 py-3 rounded-[1.5rem] text-[10px] font-black uppercase tracking-widest transition-all ${!isTimed ? 'bg-primary text-black shadow-xl shadow-primary/20' : 'text-white/20 hover:text-white/40'}`}
                     >
                         Untimed
                     </button>
                     <button
                         onClick={() => setIsTimed(true)}
-                        className={`flex items-center gap-2 px-6 py-3 rounded-2xl text-[10px] font-black uppercase tracking-widest transition-all ${isTimed ? 'bg-primary text-white shadow-xl shadow-primary/20' : 'text-white/20 hover:text-white/40'}`}
+                        className={`flex items-center gap-2 px-6 py-3 rounded-[1.5rem] text-[10px] font-black uppercase tracking-widest transition-all ${isTimed ? 'bg-primary text-black shadow-xl shadow-primary/20' : 'text-white/20 hover:text-white/40'}`}
                     >
                         <Timer className="w-4 h-4" />
                         Timed Mode
@@ -229,7 +229,7 @@ const PracticeConfig = () => {
             </div>
 
             {/* Exam Selector */}
-            <div className="space-y-5">
+                <div className="space-y-5">
                 <div className="flex items-center justify-between px-2">
                     <h2 className="text-2xl font-black text-white italic tracking-tighter flex items-center gap-3">
                         <BookOpen className="text-primary w-6 h-6" />
@@ -246,7 +246,7 @@ const PracticeConfig = () => {
                                     setSelectedExam(exam);
                                     setSelectedSubject(exam.subjects?.[0] || null);
                                 }}
-                                className={`text-left rounded-[2rem] p-6 border transition-all bg-surface hover:border-primary/40 ${selectedExam?.id === exam.id ? 'border-primary shadow-[0_0_40px_rgba(94,106,210,0.15)]' : 'border-white/5'}`}
+                                className={`text-left rounded-[2rem] p-6 border transition-all bg-surface hover:border-primary/40 ${selectedExam?.id === exam.id ? 'border-primary shadow-[0_0_40px_rgba(88,199,79,0.15)] -translate-y-1' : 'border-white/5'}`}
                             >
                                 <div className="flex items-start justify-between gap-4 mb-6">
                                     <div>
