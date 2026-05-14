@@ -1,0 +1,485 @@
+[
+  {
+    "id": 45,
+    "question": "What is the environment?",
+    "options": {
+      "A": "The aggregate form of parties, forces, and entities",
+      "B": "Individuals and families",
+      "C": "Buyers and sellers",
+      "D": "Aggregate of buyers"
+    },
+    "answer": "A",
+    "explanation": "The environment refers to the aggregate form of all parties, forces, and entities outside the organization that can influence the organization's activities and success.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 46,
+    "question": "Mr. Nahid, as a marketing manager, performs various coordinating tasks in line with the environment. His work success is related to which of the following?",
+    "options": {
+      "A": "Micro environment",
+      "B": "Macro environment",
+      "C": "Overall environment",
+      "D": "Immediate consumer satisfaction"
+    },
+    "answer": "C",
+    "explanation": "As a marketing manager, Nahid has to work by coordinating with both internal and external, i.e., controllable (micro) and uncontrollable (macro) environments. Therefore, his success depends on working in harmony with the overall marketing environment.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 47,
+    "question": "What is the aggregate of all external and potential forces that influence the marketing of a product or service called?",
+    "options": {
+      "A": "Environment",
+      "B": "Marketing environment",
+      "C": "Marketing component",
+      "D": "Social component"
+    },
+    "answer": "B",
+    "explanation": "The marketing environment refers to the aggregate of all external and uncontrollable forces and factors that directly or indirectly influence the company's marketing activities and decisions.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 48,
+    "question": "What is the full form of CAB?",
+    "options": {
+      "A": "Cable Association of Bangladesh",
+      "B": "Citizen Association of Bangladesh",
+      "C": "Co-operative Association of Bangladesh",
+      "D": "Consumer Association of Bangladesh"
+    },
+    "answer": "D",
+    "explanation": "CAB stands for Consumer Association of Bangladesh. It is a voluntary organization in Bangladesh that works to protect consumer interests and rights.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 49,
+    "question": "In which year was the Trademark Act enacted in Bangladesh?",
+    "options": {
+      "A": "2009",
+      "B": "2001",
+      "C": "1940",
+      "D": "1994"
+    },
+    "answer": "C",
+    "explanation": "The Trademark Act in Bangladesh was enacted in 1940. This law ensures legal protection for a company's or product's symbol, name, or design.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 50,
+    "question": "What is the Bengali translation of the English word 'Micro'?",
+    "options": {
+      "A": "Samastic (Macro)",
+      "B": "Samagrik (Overall)",
+      "C": "Byastic (Micro)",
+      "D": "Deshaj (Indigenous)"
+    },
+    "answer": "C",
+    "explanation": "The English word 'Micro' means very small or microscopic, whose Bengali equivalent is 'Byastic'. In marketing, the micro-environment refers to the immediate and directly influencing factors of a company.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 51,
+    "question": "What is meant by the micro-environment?",
+    "options": {
+      "A": "Parties that indirectly influence marketing",
+      "B": "Uncontrollable parties",
+      "C": "The company's surrounding conditions",
+      "D": "Parties that directly influence marketing activities"
+    },
+    "answer": "D",
+    "explanation": "The micro-environment is the immediate environment of the company, consisting of all parties and factors that directly and actively influence the company's marketing activities. Examples: company, suppliers, intermediaries, customers, competitors, and publics.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 52,
+    "question": "In the micro-environment, a company depends on customers but a single customer does not depend on a single company. What is the reason for this?",
+    "options": {
+      "A": "Customers help the company survive",
+      "B": "The company keeps the customer alive",
+      "C": "Customers are uncontrollable",
+      "D": "Presence of intermediaries"
+    },
+    "answer": "C",
+    "explanation": "The fundamental basis of marketing is the customer. However, the customer is an uncontrollable component of the marketing environment. A single customer is not dependent on any one company; rather, they can purchase from any company according to their wishes, needs, and ability. Conversely, a company's survival depends entirely on customers.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 53,
+    "question": "Who delivers the final product to consumers?",
+    "options": {
+      "A": "Company",
+      "B": "Competitor",
+      "C": "Supplier",
+      "D": "Intermediary"
+    },
+    "answer": "D",
+    "explanation": "Intermediaries perform the function of delivering products to the final consumer through the product distribution channel. They purchase products from producers and deliver them to retailers or directly to consumers.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 54,
+    "question": "Which element can the company control?",
+    "options": {
+      "A": "Competitor",
+      "B": "Publics",
+      "C": "Supplier",
+      "D": "General customers"
+    },
+    "answer": "B",
+    "explanation": "Here, 'publics' refers to the company's internal public or controllable factors. The company can control some elements of the micro-environment. Considering alternatives, competitors, suppliers, and customers are generally uncontrollable; the company controls its own elements through its own policies and management.",
+    "source": "Production Management & Marketing, Chapter-2",
+    "confidence": "low"
+  },
+  {
+    "id": 55,
+    "question": "Which is an uncontrollable element in the marketing environment?",
+    "options": {
+      "A": "Competitor",
+      "B": "Supplier",
+      "C": "Economic",
+      "D": "Cultural"
+    },
+    "answer": "C",
+    "explanation": "The economic environment is a component of the macro-environment, which is completely uncontrollable. Economic factors like inflation, interest rates, national income cannot be changed or controlled by the company.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 56,
+    "question": "Which environment does 'Monetary Policy' belong to?",
+    "options": {
+      "A": "Political",
+      "B": "Legal",
+      "C": "Technological",
+      "D": "Economic"
+    },
+    "answer": "D",
+    "explanation": "Monetary Policy is a policy formulated by the central bank that controls money supply, interest rates, etc. It is an important part of the economic environment.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 57,
+    "question": "There are many educational institutions in Burichang, Cumilla. Therefore, the literacy rate and economic condition of the people in this area are relatively good. Under the influence of which environment has the standard of living improved in Burichang?",
+    "options": {
+      "A": "Cultural",
+      "B": "Natural",
+      "C": "Political",
+      "D": "Economic"
+    },
+    "answer": "D",
+    "explanation": "An increase in the literacy rate improves people's skills and income, which directly improves their economic condition. As a result, the standard of living improves. Hence, this is an effect of the economic environment.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 58,
+    "question": "What element of the environment does the 'Bangladesh Drug Policy 1982' represent?",
+    "options": {
+      "A": "Cultural",
+      "B": "Legal",
+      "C": "Competitor",
+      "D": "Natural"
+    },
+    "answer": "B",
+    "explanation": "Policies, laws, or ordinances enacted by the state fall under the legal component of the marketing environment. The 'Bangladesh Drug Policy 1982' is a state policy, so it is part of the legal environment.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 59,
+    "question": "What is an element of the technological environment?",
+    "options": {
+      "A": "Electricity",
+      "B": "Budget",
+      "C": "Research and Development",
+      "D": "Government control"
+    },
+    "answer": "C",
+    "explanation": "Research and Development (R&D) is the main driving force of the technological environment. New technologies, products, and services are invented through it, which influence the entire marketing environment.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 60,
+    "question": "'Ikra Pharma Limited' sells its medicines worldwide. However, it takes special measures in countries where medicines are likely to spoil due to excessive heat. To which environment does this activity belong?",
+    "options": {
+      "A": "Economic environment",
+      "B": "Demographic environment",
+      "C": "Natural environment",
+      "D": "Technological environment"
+    },
+    "answer": "C",
+    "explanation": "Excessive heat or temperature is an element of the natural environment. Taking special measures to maintain product quality due to natural climatic conditions is a strategy to adapt to the natural environment.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 61,
+    "question": "New technology replaces old technology and new products and services are created in the presence of which environment?",
+    "options": {
+      "A": "Natural environment",
+      "B": "Demographic environment",
+      "C": "Social environment",
+      "D": "Technological environment"
+    },
+    "answer": "D",
+    "explanation": "The main characteristic of the technological environment is change. In this environment, new technologies are constantly being invented, which replaces old technologies and creates opportunities for new products and services.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 62,
+    "question": "Which environment does 'Ethics and Values' belong to?",
+    "options": {
+      "A": "Natural",
+      "B": "Economic",
+      "C": "Historical",
+      "D": "Cultural"
+    },
+    "answer": "D",
+    "explanation": "Ethics and values are integral parts of society's culture. Culture is the aggregate of people's lifestyle, beliefs, code of conduct, and values. Therefore, ethics and values belong to the cultural environment.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 63,
+    "question": "Which market do customers who purchase products for family consumption belong to?",
+    "options": {
+      "A": "Consumer market",
+      "B": "Business market",
+      "C": "Government market",
+      "D": "Producer market"
+    },
+    "answer": "A",
+    "explanation": "The consumer market is the market where individuals and families purchase goods and services for their personal or family consumption.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 64,
+    "question": "Which macro-environment of marketing changes rapidly?",
+    "options": {
+      "A": "Demographic environment",
+      "B": "Political environment",
+      "C": "Technological environment",
+      "D": "Social environment"
+    },
+    "answer": "C",
+    "explanation": "Among the macro-environmental factors, the technological environment changes most rapidly. New inventions and technologies are constantly emerging, intensely influencing the market and consumer behavior.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 65,
+    "question": "The effect of increasing diversity is considered in the light of which environment?",
+    "options": {
+      "A": "Political",
+      "B": "Social",
+      "C": "Demographic",
+      "D": "Natural"
+    },
+    "answer": "C",
+    "explanation": "Changes in population composition, age, ethnic mix, etc., constitute the demographic environment. In the modern world, the mixing or increasing diversity of people of different races, cultures, and ages is a major influence of the demographic environment.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 66,
+    "question": "Which law was enacted to ensure the distribution of adulteration-free products?",
+    "options": {
+      "A": "Trademark Act",
+      "B": "Standards of Weights and Measures Ordinance",
+      "C": "Pure Food Ordinance",
+      "D": "Essential Commodities Ordinance"
+    },
+    "answer": "C",
+    "explanation": "The 'Pure Food Ordinance' was enacted to ensure the distribution of adulteration-free products and protect consumer health. This law plays an effective role in preventing food adulteration.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 67,
+    "question": "Surma Bank has recently introduced online banking in all its branches across the country. This has been made possible due to which environment?",
+    "options": {
+      "A": "Natural",
+      "B": "Social",
+      "C": "Technological",
+      "D": "Economic"
+    },
+    "answer": "C",
+    "explanation": "Online banking is a product of modern information technology. The improvement of internet and computer networking technology has made it possible to introduce this type of service across the country. Hence, it is an influence of the technological environment.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 68,
+    "question": "As the demands of Bangladeshi consumers are constantly changing, what occurs?",
+    "options": {
+      "A": "New product marketing",
+      "B": "Conducting new research",
+      "C": "Facing competition",
+      "D": "Consumer dissatisfaction"
+    },
+    "answer": "A",
+    "explanation": "To meet constantly changing demands, companies are compelled to bring new products and services to the market. Thus, the changing demands of Bangladeshi consumers are a major driver of new product marketing.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 69,
+    "question": "Consumers purchase products- i. For resale ii. For personal use iii. For donating to the poor",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "A consumer is a person who purchases products for their own use or consumption (ii). Purchasing for resale (i) makes a person a trader, and purchasing for donation is a special purpose not considered basic consumer behavior.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 70,
+    "question": "Jahid started a business after long planning. For success, Jahid needs to know- i. Competitors' financial condition ii. Suppliers' location iii. Competitors' strategies",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "For a business to succeed, it is essential to have a clear idea about the competitors' financial condition (i), suppliers' location (ii), and competitors' strategies (iii). These are important components of the micro-environment.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 71,
+    "question": "To make the elements of the marketing environment dynamic, a marketer must- i. Reduce the business distribution channel ii. Conduct analysis iii. Apply maximum efficiency and prudence",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The marketing environment is always dynamic. Deep analysis (ii) and the application of maximum efficiency and prudence (iii) are essential to understand this change. Reducing the distribution channel (i) is a strategic decision rather than making the environment dynamic.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 72,
+    "question": "In controlling suppliers in a business, the consideration is- i. Product quality ii. Regular supply capacity of the product iii. Product price",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three factors are important in selecting the right supplier for a business: product quality (i), regular supply capacity (ii), and product price (iii). Optimal supply is ensured through this tripartite coordination.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 73,
+    "question": "'Rahman & Co.' supplies products to consumers nationwide through intermediaries. The intermediaries of 'Rahman & Co.' could be- i. Distributor ii. Wholesaler iii. Agent",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Intermediaries work at different levels. Distributors (i), wholesalers (ii), and agents (iii) are all essential parts of the distribution channel. 'Rahman & Co.' can supply products through all three types.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 74,
+    "question": "The technological environment is formed by- i. New technology invention ii. Introducing new products iii. Creating market opportunities",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The technological environment is developed through the invention of new technologies (i), introduction of new products (ii), and creating new opportunities in the market (iii). All three collectively form and influence the technological environment.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 75,
+    "question": "The reasons for the decrease in people's purchasing power are- i. Unemployment ii. Tax rate iii. Economic uncertainty",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Unemployment (i) blocks income paths, tax rate (ii) increases reduce disposable income, and economic uncertainty (iii) encourages saving for the future rather than spending. All three reasons are responsible for the decrease in people's purchasing power.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 76,
+    "question": "[Stimulus] 'BD Jobs' provides job-related information online... Which element of the marketing environment will directly affect 'BD Jobs'?",
+    "options": {
+      "A": "Political element",
+      "B": "Technological element",
+      "C": "Publics",
+      "D": "Culture"
+    },
+    "answer": "B",
+    "explanation": "'BD Jobs' is an online-based platform. Its activities are entirely dependent on internet technology. Therefore, the technological environment will most directly affect this organization.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 77,
+    "question": "'BD Jobs' will remain outside the influence of which elements of the marketing environment- i. Supplier ii. Nature iii. Intermediary",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "As BD Jobs is a service-based online platform, it does not need physical raw materials, so suppliers (i) and natural/environmental factors (ii) have minimal or no influence here. However, having no intermediaries (iii) to reach its customers does not apply.",
+    "source": "Production Management & Marketing, Chapter-2",
+    "confidence": "low"
+  },
+  {
+    "id": 78,
+    "question": "[Stimulus] 'Shopno' is a departmental store... Due to Cyclone Mahasen, the store could not bring any raw materials for seven days. As a result, 'Shopno's' marketing activities decreased. Due to the influence of which element of the marketing environment did 'Shopno's' marketing activities decrease?",
+    "options": {
+      "A": "Economic",
+      "B": "Natural",
+      "C": "Political",
+      "D": "Cultural"
+    },
+    "answer": "B",
+    "explanation": "Mahasen is a natural disaster (cyclone). Due to the adverse conditions and communication disruptions caused by it, raw material supply was hampered, which is a perfect example of the influence of the natural environment.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 79,
+    "question": "Due to Cyclone Mahasen, the impact on Shopno was- i. Direct ii. Indirect iii. Adverse",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Due to Cyclone Mahasen, the direct halt of raw material supply had a direct (i) and negative/adverse (iii) impact on marketing activities. It was not an indirect impact but a direct loss.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 80,
+    "question": "[Stimulus] Nidhi Limited uses the letter 'N' on the packaging of all their products. It is legally registered... What is the use of the letter 'N' called?",
+    "options": {
+      "A": "ISO certificate",
+      "B": "Company registration",
+      "C": "Trademark",
+      "D": "Copyright"
+    },
+    "answer": "C",
+    "explanation": "A specific symbol, name, or design used on a company's own product packaging that is legally registered and cannot be used by others is called a trademark.",
+    "source": "Production Management & Marketing, Chapter-2"
+  },
+  {
+    "id": 81,
+    "question": "As a result of Nidhi Limited using the 'N' letter- i. Will be able to maximize profit ii. Will easily attract customers iii. Will increase the company's goodwill",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "A well-known trademark or symbol easily attracts customers' attention to the product (ii) and thereby increases the company's goodwill and brand image (iii). However, just using a trademark does not guarantee maximum profit (i).",
+    "source": "Production Management & Marketing, Chapter-2"
+  }
+]
