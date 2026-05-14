@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useSearchParams, useNavigate, useParams, Link } from 'react-router-dom';
 import {
     ArrowLeft, CheckCircle, XCircle, ChevronRight,
@@ -326,6 +326,9 @@ const Quiz = () => {
             } else {
                 addMistake(questionKey, currentQ, { file, title, chapterId });
             }
+            const rect = event?.currentTarget?.getBoundingClientRect();
+            createFlyingStar(rect, event?.clientX, event?.clientY);
+            setMistakeCount(getMistakesDueCount());
         }
 
         const newResult = {
@@ -435,9 +438,13 @@ const Quiz = () => {
     const totalXpSoFar = results.reduce((acc, r) => acc + (r.isCorrect ? 10 : 0), 0);
     const isReviewSession = isReviewMode;
 
+    const selectedOriginalIdx = isAnswered && selectedOption !== null ? shuffledOptions?.[selectedOption]?.originalIdx : -1;
+    const isCurrentCorrect = selectedOriginalIdx === currentQ?.correct;
+    const correctAnswerText = shuffledOptions?.find(o => o.originalIdx === currentQ?.correct)?.text;
+
     return (
-        <div className="max-w-5xl mx-auto space-y-4 md:space-y-8 pb-24 md:pb-8">
-            <div className="pointer-events-none">
+        <div className="max-w-3xl mx-auto h-dvh flex flex-col overflow-hidden px-4 md:px-0">
+            <div className="pointer-events-none fixed inset-0 z-[60]">
                 {flyingStars.map((star) => (
                     <motion.div
                         key={star.id}
@@ -452,213 +459,229 @@ const Quiz = () => {
                 ))}
             </div>
 
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 md:gap-6">
-                <div className="flex items-center gap-3 md:gap-4">
-                    <button onClick={() => navigate('/practice')} className="p-2.5 md:p-3 bg-white/5 hover:bg-white/10 rounded-xl md:rounded-2xl text-white/40 hover:text-white transition-all border border-white/5 active:scale-95">
+            <div className="flex items-center justify-between gap-4 pt-3 md:pt-4 shrink-0">
+                <div className="flex items-center gap-3 min-w-0">
+                    <button onClick={() => navigate('/practice')} className="p-2 md:p-2.5 bg-white/5 hover:bg-white/10 rounded-xl md:rounded-2xl text-white/40 hover:text-white transition-all border border-white/5 active:scale-95 shrink-0">
                         <ArrowLeft className="w-4 h-4 md:w-5 md:h-5" />
                     </button>
-                    <div>
-                        <h4 className="text-white font-black tracking-tighter text-base md:text-xl uppercase">{title}</h4>
-                        <div className="flex items-center gap-2">
-                            <span className="text-[9px] font-black uppercase tracking-widest text-primary">Learning...</span>
-                            <div className="w-20 md:w-24 h-1 bg-white/5 rounded-full overflow-hidden">
-                                <div className="h-full bg-primary transition-all duration-500" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}></div>
-                            </div>
-                        </div>
-                    </div>
+                    <h4 className="text-white font-black tracking-tighter text-sm md:text-lg uppercase truncate">{title}</h4>
                 </div>
-
-                <div className="flex items-center gap-2 md:gap-4">
+                <div className="flex items-center gap-2 md:gap-3 shrink-0">
                     {isTimedMode && (
-                        <div className={`flex items-center gap-2 px-3 md:px-4 py-2 rounded-xl border font-mono font-black text-xs md:text-sm ${timeLeft < 30 ? 'bg-yellow-500/10 border-yellow-500/20 text-yellow-300' : 'bg-white/5 border-white/5 text-white'}`}>
+                        <div className="px-2.5 md:px-3 py-1.5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-1.5 md:gap-2 font-mono font-black text-xs md:text-sm text-white">
                             <Clock className="w-3 h-3 md:w-4 md:h-4" />
                             {formatTime(timeLeft)}
                         </div>
                     )}
-                    <div className="bg-primary/10 border border-primary/20 px-3 md:px-4 py-2 rounded-xl flex items-center gap-1.5 md:gap-2">
-                        <Zap className="w-3 h-3 md:w-4 md:h-4 text-primary fill-primary" />
-                        <span className="text-primary font-black text-[11px] md:text-sm tracking-tighter">{totalXpSoFar} XP</span>
+                    <div className="px-2.5 md:px-3 py-1.5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-1.5 md:gap-2">
+                        <Zap className="w-3 h-3 md:w-4 md:h-4 text-primary" />
+                        <span className="text-white font-black text-[10px] md:text-sm tracking-tighter">{totalXpSoFar} XP</span>
                     </div>
-                    {isReviewSession && (
-                        <div className="bg-emerald-500/10 border border-emerald-500/20 px-3 md:px-4 py-2 rounded-xl flex items-center gap-1.5 md:gap-2">
+                    {isReviewSession ? (
+                        <div className="px-2.5 md:px-3 py-1.5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-1.5 md:gap-2">
                             <RefreshCw className="w-3 h-3 md:w-4 md:h-4 text-emerald-400" />
-                            <span className="text-emerald-400 font-black text-[11px] md:text-sm tracking-tighter">REVIEW</span>
+                            <span className="text-emerald-400 font-black text-[10px] md:text-sm tracking-tighter">REVIEW</span>
+                        </div>
+                    ) : (
+                        <div ref={starTargetRef} className={`px-2.5 md:px-3 py-1.5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-1.5 md:gap-2 transition-all topbar-star-target ${balanceGlow ? 'ring-2 ring-yellow-400/80' : ''}`}>
+                            <svg className="w-3 h-3 md:w-4 md:h-4 text-yellow-300 topbar-star-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                            </svg>
+                            <span className="text-yellow-300 font-black text-[10px] md:text-sm tracking-tighter">{mistakeCount}</span>
                         </div>
                     )}
-                    <div className={`bg-yellow-500/10 border border-yellow-500/20 px-3 md:px-4 py-2 rounded-xl flex items-center gap-1.5 md:gap-2 transition-all ${balanceGlow ? 'ring-2 ring-yellow-400/80' : ''}`}>
-                        <svg className="w-3 h-3 md:w-4 md:h-4 text-yellow-300" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                        </svg>
-                        <span className="text-yellow-300 font-black text-[11px] md:text-sm tracking-tighter">{mistakeCount}</span>
-                    </div>
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-10 items-start">
-                <div className="lg:col-span-2 space-y-4 md:space-y-6">
-                    <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[40px] p-6 md:p-14 shadow-lg relative overflow-hidden">
-                        <div className="relative z-10">
-                            {currentQ.passage && (
-                                <div className="mb-6 md:mb-10 p-5 md:p-6 rounded-2xl md:rounded-3xl border border-white/5 bg-white/5 space-y-3 md:space-y-4">
-                                    {currentQ.blankId && (
-                                        <p className="text-[10px] font-black uppercase tracking-[0.3em] text-primary/60">
-                                            SSC Gap Filling - Blank ({currentQ.blankId})
-                                        </p>
-                                    )}
-                                    <p className="text-white/70 text-sm leading-relaxed font-medium whitespace-pre-wrap">
-                                        {stripMath(currentQ.passage)}
-                                    </p>
-                                    {(currentQ.boxWords || []).length > 0 && (
-                                        <div className="flex flex-wrap gap-2 pt-1 md:pt-2">
-                                            {currentQ.boxWords.map((word) => (
-                                                <span key={word} className="px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-[10px] font-black uppercase tracking-widest">
-                                                    {stripMath(word)}
-                                                </span>
-                                            ))}
-                                        </div>
-                                    )}
+            <div className="flex items-center gap-3 mt-2 shrink-0">
+                <div className="flex-1 h-1.5 bg-white/5 rounded-full overflow-hidden">
+                    <div className="h-full bg-primary transition-all duration-500 rounded-full" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }} />
+                </div>
+                <span className="text-white/40 font-black text-[11px] md:text-sm tracking-tighter shrink-0">{currentIndex + 1}/{questions.length}</span>
+            </div>
+
+            <div className="flex-1 flex flex-col min-h-0 mt-3 md:mt-4">
+                <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[32px] flex-1 flex flex-col p-4 md:p-5 overflow-hidden">
+                    {currentQ.passage && (
+                        <div className="mb-3 p-3 rounded-xl border border-white/5 bg-white/5 space-y-2 shrink-0 max-h-24 overflow-y-auto">
+                            {currentQ.blankId && (
+                                <p className="text-[9px] font-black uppercase tracking-[0.3em] text-primary/60">
+                                    SSC Gap Filling - Blank ({currentQ.blankId})
+                                </p>
+                            )}
+                            <p className="text-white/70 text-xs leading-relaxed font-medium whitespace-pre-wrap">
+                                {stripMath(currentQ.passage)}
+                            </p>
+                            {(currentQ.boxWords || []).length > 0 && (
+                                <div className="flex flex-wrap gap-1.5 pt-1">
+                                    {currentQ.boxWords.map((word) => (
+                                        <span key={word} className="px-2 py-0.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-[9px] font-black uppercase tracking-widest">
+                                            {stripMath(word)}
+                                        </span>
+                                    ))}
                                 </div>
                             )}
-
-                            <div className="flex items-center gap-2 md:gap-3 mb-6 md:mb-10 flex-wrap">
-                                <span className={`text-[9px] font-black px-3 py-1 rounded-full uppercase border ${currentQ.difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
-                                    currentQ.difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :
-                                        'text-emerald-400 border-emerald-400/20 bg-emerald-400/5'
-                                    }`}>{currentQ.difficulty}</span>
-                                {currentQ.source && currentQ.source !== 'unknown' && (
-                                    <span className="text-[9px] font-black px-3 py-1 rounded-full border border-white/10 bg-white/5 text-white/40 uppercase tracking-wider">
-                                        {currentQ.source}
-                                    </span>
-                                )}
-                                {currentQ.chapter_tag && (
-                                    <span className="text-[9px] font-black px-3 py-1 rounded-full border border-primary/20 bg-primary/5 text-primary/60 uppercase tracking-wider">
-                                        {currentQ.chapter_tag}
-                                    </span>
-                                )}
-                            </div>
-
-                            <h3 className="text-lg md:text-2xl lg:text-3xl font-black text-white leading-tight mb-6 md:mb-12 selection:bg-primary/30 tracking-tight">
-                                {stripMath(currentQ.text)}
-                            </h3>
-
-                            <div className="space-y-3 md:space-y-4">
-                                {shuffledOptions && shuffledOptions.map((option, idx) => {
-                                    let state = 'idle';
-                                    if (isAnswered) {
-                                        if (option.originalIdx === currentQ.correct) state = 'correct';
-                                        else if (idx === selectedOption) state = 'wrong';
-                                        else state = 'dimmed';
-                                    } else if (selectedOption === idx) {
-                                        state = 'selected';
-                                    }
-
-                                    return (
-                                        <button
-                                            key={idx}
-                                            disabled={isAnswered}
-                                            onClick={(e) => handleOptionSelect(idx, e)}
-                                            className={`w-full text-left p-4 md:p-6 rounded-xl md:rounded-2xl border transition-all flex items-center justify-between group/opt active:scale-[0.99] ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-lg shadow-emerald-500/5' :
-                                                state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300 shadow-lg shadow-yellow-500/5' :
-                                                    state === 'selected' ? 'bg-primary/20 border-primary text-white shadow-2xl shadow-primary/20 scale-[1.01]' :
-                                                        state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30 scale-[0.98]' :
-                                                            'bg-white/5 border-white/5 text-white/40 hover:border-white/20 hover:bg-white/10 hover:text-white'
-                                                }`}
-                                        >
-                                            <div className="flex items-center gap-3 md:gap-5">
-                                                <span className={`w-7 h-7 md:w-8 md:h-8 rounded-xl flex items-center justify-center text-[10px] font-black border transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
-                                                    state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
-                                                        state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
-                                                            'bg-black/50 border-white/5 group-hover/opt:border-white/20'
-                                                    }`}>
-                                                    {String.fromCharCode(65 + idx)}
-                                                </span>
-                                                <span className="font-bold tracking-tight text-sm md:text-lg">{stripMath(option.text)}</span>
-                                            </div>
-                                            {state === 'correct' && <CheckCircle className="w-5 h-5 md:w-6 md:h-6 animate-in zoom-in-0 shrink-0" />}
-                                            {state === 'wrong' && <svg className="w-5 h-5 md:w-6 md:h-6 text-yellow-300 animate-in zoom-in-0 shrink-0" viewBox="0 0 24 24" fill="currentColor">
-                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                                            </svg>}
-                                        </button>
-                                    );
-                                })}
-                            </div>
                         </div>
-                    </div>
+                    )}
 
-                    <div className="flex justify-end">
-                        {isAnswered ? (
-                            <button
-                                onClick={handleNext}
-                                className="px-10 md:px-14 py-4 md:py-5 bg-primary text-black hover:bg-primary-hover rounded-xl md:rounded-3xl font-black uppercase tracking-[0.2em] text-[10px] transition-all flex items-center gap-2 md:gap-3 shadow-lg active:scale-95"
-                            >
-                                {currentIndex < questions.length - 1 ? 'Continue' : 'Finish Lesson'}
-                                <ChevronRight className="w-4 h-4" />
-                            </button>
-                        ) : (
-                            <div className="px-6 md:px-14 py-4 md:py-5 bg-white/5 text-white/50 rounded-xl md:rounded-3xl font-black uppercase tracking-[0.2em] text-[10px] flex items-center gap-2 md:gap-3 border border-white/5">
-                                Select an answer to reveal the explanation
-                            </div>
+                    <div className="flex items-center gap-2 mb-2 flex-wrap shrink-0">
+                        <span className={`text-[7px] font-black px-2 py-0.5 rounded-full uppercase border ${currentQ.difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
+                            currentQ.difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :
+                                'text-emerald-400 border-emerald-400/20 bg-emerald-400/5'
+                            }`}>{currentQ.difficulty}</span>
+                        {currentQ.source && currentQ.source !== 'unknown' && (
+                            <span className="text-[7px] font-black px-2 py-0.5 rounded-full border border-white/10 bg-white/5 text-white/30 uppercase tracking-wider">
+                                {currentQ.source}
+                            </span>
+                        )}
+                        {currentQ.chapter_tag && (
+                            <span className="text-[7px] font-black px-2 py-0.5 rounded-full border border-primary/20 bg-primary/5 text-primary/50 uppercase tracking-wider">
+                                {currentQ.chapter_tag}
+                            </span>
                         )}
                     </div>
-                </div>
 
-                <div className="space-y-4 md:space-y-8 sticky top-24 md:top-32">
-                    {isAnswered ? (
-                        <div className="space-y-4 md:space-y-6 animate-in slide-in-from-bottom-6 duration-500">
-                            <div className="bg-surface border border-white/10 rounded-2xl md:rounded-[32px] p-6 md:p-8 shadow-lg relative overflow-hidden">
-                                <div className="absolute top-0 right-0 p-3 bg-yellow-500/10 text-yellow-500 rounded-bl-2xl">
-                                    <Lightbulb className="w-4 h-4" />
-                                </div>
-                                <h4 className="text-[10px] font-black uppercase tracking-widest text-primary mb-3 md:mb-4 flex items-center gap-2">
-                                    Explanation
-                                </h4>
-                                <div
-                                    className="text-white/80 text-sm leading-relaxed font-medium space-y-4 prose-invert"
-                                    dangerouslySetInnerHTML={{
-                                        __html: formatExplanation(currentQ.explanation) || 'No textual analysis available.'
-                                    }}
+                    <h3 className="font-black text-white leading-tight mb-2 selection:bg-primary/30 tracking-tight text-[15px] md:text-lg lg:text-xl line-clamp-2 shrink-0">
+                        {stripMath(currentQ.text)}
+                    </h3>
+
+                    <div className="flex-1 relative overflow-hidden">
+                        <AnimatePresence mode="wait">
+                            {!isAnswered ? (
+                                <motion.div
+                                    key="options"
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    exit={{ opacity: 0, x: -30 }}
+                                    transition={{ duration: 0.2 }}
+                                    className="absolute inset-0 flex flex-col justify-center space-y-2"
                                 >
-                                </div>
+                                    {shuffledOptions && shuffledOptions.map((option, idx) => {
+                                        let state = 'idle';
+                                        if (isAnswered) {
+                                            if (option.originalIdx === currentQ.correct) state = 'correct';
+                                            else if (idx === selectedOption) state = 'wrong';
+                                            else state = 'dimmed';
+                                        } else if (selectedOption === idx) {
+                                            state = 'selected';
+                                        }
 
-                                {currentQ.explanation_video_url && (
-                                    <div className="mt-6 md:mt-8 pt-5 md:pt-6 border-t border-white/5">
-                                        <a
-                                            href={currentQ.explanation_video_url}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="flex items-center justify-center gap-3 w-full py-3 md:py-4 bg-yellow-500/10 hover:bg-yellow-500/20 text-yellow-300 rounded-xl md:rounded-2xl border border-yellow-500/20 transition-all font-black uppercase tracking-widest text-[9px] group active:scale-95"
-                                        >
-                                            <Video className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                                            Watch Video Breakdown
-                                        </a>
-                                    </div>
-                                )}
-                            </div>
+                                        return (
+                                            <button
+                                                key={idx}
+                                                disabled={isAnswered}
+                                                onClick={(e) => handleOptionSelect(idx, e)}
+                                                className={`w-full text-left px-3 md:px-4 py-2.5 md:py-3 rounded-xl md:rounded-2xl border-2 transition-all flex items-center justify-between group/opt active:scale-[0.99] ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-lg shadow-emerald-500/5' :
+                                                    state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300 shadow-lg shadow-yellow-500/5' :
+                                                        state === 'selected' ? 'bg-primary/20 border-primary text-white shadow-2xl shadow-primary/20 scale-[1.01]' :
+                                                            state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30 scale-[0.98]' :
+                                                                'bg-white/[0.07] border-white/10 text-white/60 hover:border-white/30 hover:bg-white/[0.12] hover:text-white hover:shadow-lg hover:shadow-white/5'
+                                                    }`}
+                                            >
+                                                <div className="flex items-center gap-2 md:gap-3">
+                                                    <span className={`w-6 h-6 md:w-7 md:h-7 rounded-lg md:rounded-xl flex items-center justify-center text-[10px] md:text-xs font-black border transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
+                                                        state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
+                                                            state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
+                                                                'bg-black/40 border-white/15 text-white/40 group-hover/opt:border-white/30 group-hover/opt:text-white'
+                                                        }`}>
+                                                        {String.fromCharCode(65 + idx)}
+                                                    </span>
+                                                    <span className="font-bold tracking-tight text-sm md:text-base">{stripMath(option.text)}</span>
+                                                </div>
+                                                {state === 'correct' && <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-emerald-400 animate-in zoom-in-0 shrink-0" />}
+                                                {state === 'wrong' && (
+                                                    <svg className="w-4 h-4 md:w-5 md:h-5 text-yellow-300 animate-in zoom-in-0 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                                    </svg>
+                                                )}
+                                            </button>
+                                        );
+                                    })}
+                                </motion.div>
+                            ) : (
+                                <motion.div
+                                    key="feedback"
+                                    initial={{ opacity: 0, x: 30 }}
+                                    animate={{ opacity: 1, x: 0 }}
+                                    exit={{ opacity: 0, x: 30 }}
+                                    transition={{ duration: 0.2 }}
+                                    className="absolute inset-0 flex flex-col"
+                                >
+                                    {isCurrentCorrect ? (
+                                        <div className="flex-1 flex flex-col bg-emerald-500/10 border border-emerald-500/30 rounded-2xl p-4">
+                                            <div className="flex items-center gap-2 mb-2 shrink-0">
+                                                <CheckCircle className="w-5 h-5 text-emerald-400 shrink-0" />
+                                                <h4 className="text-emerald-400 font-black text-sm uppercase tracking-wider">Correct!</h4>
+                                            </div>
+                                            <div
+                                                className="flex-1 overflow-y-auto text-white/80 text-sm leading-relaxed font-medium min-h-0"
+                                                dangerouslySetInnerHTML={{
+                                                    __html: formatExplanation(currentQ.explanation) || 'Well done!'
+                                                }}
+                                            />
+                                            {currentQ.explanation_video_url && (
+                                                <a
+                                                    href={currentQ.explanation_video_url}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="mt-2 inline-flex items-center gap-1.5 text-emerald-400/70 hover:text-emerald-400 text-[9px] font-black uppercase tracking-widest transition-colors shrink-0"
+                                                >
+                                                    <Video className="w-3 h-3" />
+                                                    Watch Video Breakdown
+                                                </a>
+                                            )}
+                                            <button
+                                                onClick={handleNext}
+                                                className="w-full mt-3 py-3 bg-emerald-500 text-black rounded-xl font-black uppercase tracking-widest text-[10px] shrink-0 active:scale-[0.98] transition-all hover:bg-emerald-400"
+                                            >
+                                                {currentIndex < questions.length - 1 ? 'Continue' : 'Finish Lesson'}
+                                            </button>
+                                        </div>
+                                    ) : (
+                                        <div className="flex-1 flex flex-col bg-yellow-500/10 border border-yellow-500/30 rounded-2xl p-4">
+                                            <div className="flex items-center gap-2 mb-2 shrink-0">
+                                                <motion.div
+                                                    animate={{ scale: [1, 1.2, 1], rotate: [0, 8, -8, 0] }}
+                                                    transition={{ duration: 0.7, repeat: Infinity, repeatDelay: 2 }}
+                                                >
+                                                    <svg className="w-5 h-5 text-yellow-300 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                                    </svg>
+                                                </motion.div>
+                                                <h4 className="text-yellow-300 font-black text-sm uppercase tracking-wider">Keep going!</h4>
+                                            </div>
+                                            <div className="flex-1 overflow-y-auto min-h-0 space-y-2">
+                                                <p className="text-white/80 text-xs font-medium leading-relaxed">
+                                                    Mistakes are opportunities to learn. A star has been added to your balance — review it to collect.
+                                                </p>
+                                                <p className="text-white/90 text-sm font-medium">
+                                                    Correct answer: <span className="font-bold text-yellow-300">{stripMath(correctAnswerText)}</span>
+                                                </p>
+                                                <div
+                                                    className="text-white/70 text-sm leading-relaxed font-medium"
+                                                    dangerouslySetInnerHTML={{
+                                                        __html: formatExplanation(currentQ.explanation) || ''
+                                                    }}
+                                                />
+                                            </div>
+                                            <button
+                                                onClick={handleNext}
+                                                className="w-full mt-3 py-3 bg-yellow-500 text-black rounded-xl font-black uppercase tracking-widest text-[10px] shrink-0 active:scale-[0.98] transition-all hover:bg-yellow-400"
+                                            >
+                                                Got it
+                                            </button>
+                                        </div>
+                                    )}
+                                </motion.div>
+                            )}
+                        </AnimatePresence>
+                    </div>
 
-                            <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl p-5 md:p-6">
-                                <div className="flex items-center justify-between text-[10px] font-black uppercase tracking-widest text-white/20 mb-3 md:mb-4">
-                                    <span className="flex items-center gap-1"><Target className="w-3 h-3" /> Historical Precision</span>
-                                    <span className="text-emerald-500">{userAccuracy != null ? `${userAccuracy}%` : '--'}</span>
-                                </div>
-                                <div className="h-1.5 md:h-2 bg-white/5 rounded-full overflow-hidden">
-                                    <div className="h-full bg-emerald-500/30 transition-all duration-1000 rounded-full" style={{ width: `${userAccuracy != null ? userAccuracy : 0}%` }}></div>
-                                </div>
-                            </div>
-                        </div>
-                    ) : (
-                        <div className="bg-surface-alt/20 border border-dashed border-white/5 rounded-2xl md:rounded-[32px] p-8 md:p-12 text-center space-y-4 md:space-y-6">
-                            <div className="w-12 h-12 md:w-14 md:h-14 bg-white/5 rounded-xl md:rounded-2xl flex items-center justify-center mx-auto border border-white/5">
-                                <svg className="w-5 h-6 md:w-6 text-yellow-300" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                                </svg>
-                            </div>
-                            <div className="space-y-1 md:space-y-2">
-                                <h4 className="text-white/20 font-black uppercase tracking-widest text-[9px]">Tap an answer</h4>
-                                <p className="text-white/10 text-[10px] leading-relaxed font-medium">Select any option to check your knowledge.</p>
-                            </div>
-                            <div className="bg-yellow-500/10 border border-yellow-500/20 rounded-2xl md:rounded-3xl p-3 md:p-4 text-[10px] text-yellow-100 font-black uppercase tracking-[0.2em]">
-                                Wrong answers are saved for spaced repetition review.
-                            </div>
+                    {!isAnswered && (
+                        <div className="mt-2 pt-2 border-t border-white/5 shrink-0">
+                            <p className="text-[8px] text-white/20 font-medium text-center">
+                                Wrong answers are saved for spaced repetition review
+                            </p>
                         </div>
                     )}
                 </div>

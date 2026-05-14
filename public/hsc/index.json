@@ -595,6 +595,46 @@
       ],
       "name_bn": "উৎপাদন ব্যবস্থাপনা ও বিপণন ২য় পত্র",
       "name_en": "Production 2nd Paper"
+    },
+    {
+      "id": "english_2nd",
+      "name": "English 2nd Paper",
+      "icon": "Book",
+      "topics": [
+        {
+          "id": "articles",
+          "name": "Articles",
+          "chapters": [
+            {
+              "id": "hsc_eng2_articles",
+              "name": "Use of Article",
+              "file": "/hsc/english_2nd/all_articles_merged.json"
+            }
+          ],
+          "name_bn": "Articles",
+          "name_en": "Articles"
+        },
+        {
+          "id": "prepositions",
+          "name": "Prepositions",
+          "chapters": [
+            {
+              "id": "hsc_eng2_prep_1_10",
+              "name": "Preposition (1-10)",
+              "file": "/hsc/english_2nd/preposition_1-10.json"
+            },
+            {
+              "id": "hsc_eng2_prep_11_20",
+              "name": "Preposition (11-20)",
+              "file": "/hsc/english_2nd/preposition_11-20.json"
+            }
+          ],
+          "name_bn": "Prepositions",
+          "name_en": "Prepositions"
+        }
+      ],
+      "name_bn": "ইংরেজি ২য় পত্র",
+      "name_en": "English 2nd Paper"
     }
   ]
 }

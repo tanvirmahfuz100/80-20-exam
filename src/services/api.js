@@ -100,9 +100,15 @@ const toQuestionRecord = (questionFile, chapter) => {
     const exam_category = (parts[0] || 'IBA').toUpperCase();
     const exam_type = chapter?.topic || chapter?.subject || 'General';
 
-    return (questionFile.questions || []).map((q) => ({
+    const sourceQuestions = Array.isArray(questionFile.questions)
+        ? questionFile.questions
+        : Array.isArray(questionFile.passages)
+            ? questionFile.passages
+            : [];
+
+    return sourceQuestions.map((q) => ({
         id: q.id,
-        question_text: q.text,
+        question_text: q.text || q.passage_text || q.title || '',
         difficulty: q.difficulty || 'medium',
         exam_category,
         exam_type,
@@ -137,7 +143,10 @@ const getAllJsonQuestions = async () => {
         for (const subject of indexJson.subjects || []) {
             for (const topic of subject.topics || []) {
                 for (const chapter of topic.chapters || []) {
-                    chapterFiles.push({ file: chapter.file, subject: subject.name, topic: topic.name, chapter: chapter.name });
+                    const chapterFile = chapter.file || chapter.file_bn || chapter.file_en;
+                    if (chapterFile) {
+                        chapterFiles.push({ file: chapterFile, subject: subject.name, topic: topic.name, chapter: chapter.name });
+                    }
                 }
             }
         }
