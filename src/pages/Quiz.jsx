@@ -93,8 +93,9 @@ const normalizeQuizQuestions = (payload) => {
 
     return sourceQuestions.flatMap((question) => {
         if (Array.isArray(question.blanks) && question.blanks.length > 0) {
+            const qId = question.id || question.question_id || 'q';
             return question.blanks.map((blank, blankIndex) => {
-                const blankId = blank.blankId || blank.id || String(blankIndex + 1);
+                const blankId = blank.blankId || blank.blank_id || blank.id || String(blankIndex + 1);
                 const options = Array.isArray(blank.options)
                     ? blank.options.map((option) => (typeof option === 'string' ? option : option?.text || ''))
                     : [];
@@ -113,7 +114,7 @@ const normalizeQuizQuestions = (payload) => {
                 }
 
                 return {
-                    id: `${question.id}_${blankId}`,
+                    id: `${qId}_${blankId}`,
                     text: `Choose the correct word for blank (${blankId})`,
                     passage: question.passage || question.passage_text || '',
                     boxWords: question.boxWords || [],
@@ -149,15 +150,23 @@ const normalizeQuizQuestions = (payload) => {
             options = (question.options || []).map((option) => option.text || option);
         }
 
+        if (question.correct_tag !== undefined) {
+            const found = options.findIndex(
+                (opt) => String(opt).trim().toLowerCase() === String(question.correct_tag).trim().toLowerCase()
+            );
+            if (found !== -1) correct = found;
+            else correct = 0;
+        }
+
         return [{
-            id: question.id,
-            text: question.question || question.text || question.passage || 'Question',
+            id: question.id || question.question_id || question._id || String(Math.random()),
+            text: question.question || question.text || question.statement || question.passage || 'Question',
             passage: question.passage || '',
             boxWords: question.boxWords || [],
             blankId: question.blankId || null,
             options,
             correct,
-            explanation: question.explanation || '',
+            explanation: question.explanation_bn || question.explanation || '',
             difficulty: question.difficulty || 'medium'
         }];
     });

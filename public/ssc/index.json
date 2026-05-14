@@ -18,6 +18,21 @@
               "id": "ssc_changing_sentences",
               "name": "Changing Sentences",
               "file": "/ssc/english/changing_sentences.json"
+            },
+            {
+              "id": "ssc_prepositions",
+              "name": "Gap Filling with Prepositions",
+              "file": "/ssc/english/prepositions.json"
+            },
+            {
+              "id": "ssc_suffix_prefix",
+              "name": "Suffixes and Prefixes",
+              "file": "/ssc/english/suffix_prefix.json"
+            },
+            {
+              "id": "ssc_tag_questions",
+              "name": "Tag Questions",
+              "file": "/ssc/english/tag_questions.json"
             }
           ]
         }

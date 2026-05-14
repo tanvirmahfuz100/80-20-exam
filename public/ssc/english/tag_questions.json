@@ -1,0 +1,1502 @@
+[
+  {
+    "question_id": "1a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2024",
+    "statement": "Many people hanker after money, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "do they", "doesn't it", "aren't they"],
+    "explanation_en": "The subject 'Many people' is plural. In present indefinite tense without an auxiliary, we use 'do' for positive tags (negative statement would use 'don't'). The statement is positive, so tag is negative: 'don't they'.",
+    "explanation_bn": "Subject 'Many people' বহুবচন। Present indefinite tense-এ auxiliary না থাকলে positive tag-এর জন্য 'do' বসে (negative statement-এ 'don't')। বিবৃতিটি positive, তাই tag negative: 'don't they'।"
+  },
+  {
+    "question_id": "1b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2024",
+    "statement": "But money is not as valuable as morality, _________ ?",
+    "correct_tag": "is it",
+    "options": ["is it", "isn't it", "does it", "doesn't it"],
+    "explanation_en": "The statement is negative ('is not'), so the tag must be positive. 'Money' is singular, so use 'is it'.",
+    "explanation_bn": "বিবৃতিটি negative ('is not'), তাই tag positive হবে। 'Money' singular, তাই 'is it' বসে।"
+  },
+  {
+    "question_id": "1c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2024",
+    "statement": "Let us always keep this truth in mind, _________ ?",
+    "correct_tag": "shall we",
+    "options": ["shall we", "will you", "shan't we", "won't you"],
+    "explanation_en": "For imperative sentences starting with 'Let us' or 'Let's', the tag is 'shall we'. It invites agreement or suggestion.",
+    "explanation_bn": "'Let us' বা 'Let's' দিয়ে শুরু imperative বাক্যের tag 'shall we' হয়। এটি সম্মতি বা পরামর্শ বোঝায়।"
+  },
+  {
+    "question_id": "1d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2024",
+    "statement": "Money can hardly bring happiness, _________ ?",
+    "correct_tag": "can it",
+    "options": ["can it", "can't it", "does it", "doesn't it"],
+    "explanation_en": "The word 'hardly' has a negative meaning, so the statement is negative. Therefore the tag is positive. The modal 'can' is used: 'can it'.",
+    "explanation_bn": "'hardly' শব্দটি negative অর্থ বহন করে, তাই বিবৃতিটি negative। ফলে tag positive হবে। Modal 'can' ব্যবহৃত: 'can it'।"
+  },
+  {
+    "question_id": "1e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2024",
+    "statement": "So, we should never have greed for money, _________ ?",
+    "correct_tag": "should we",
+    "options": ["should we", "shouldn't we", "do we", "don't we"],
+    "explanation_en": "The statement contains 'never', which makes it negative. So tag is positive: 'should we'.",
+    "explanation_bn": "বিবৃতিতে 'never' থাকায় এটি negative। তাই tag positive: 'should we'।"
+  },
+  {
+    "question_id": "2a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2024",
+    "statement": "Bangladesh came into being at the cost of a bloody war, _________ ?",
+    "correct_tag": "didn't she",
+    "options": ["didn't she", "didn't it", "did she", "wasn't she"],
+    "explanation_en": "Past indefinite tense, no auxiliary → use 'did'. Statement positive, tag negative. 'Bangladesh' is often personified as feminine ('she') in poetic/literary contexts, so 'didn't she'.",
+    "explanation_bn": "Past indefinite tense, auxiliary নেই → 'did' ব্যবহার। বিবৃতি positive, tag negative। 'Bangladesh' কে প্রায়ই স্ত্রী বাচক ('she') ধরা হয়, তাই 'didn't she'।"
+  },
+  {
+    "question_id": "2b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2024",
+    "statement": "So, everyone has some duties and responsibilities to this country, _________ ?",
+    "correct_tag": "haven't they / don't they",
+    "options": ["haven't they", "don't they", "hasn't he", "doesn't he"],
+    "explanation_en": "Both 'haven't they' and 'don't they' are accepted. 'Everyone' takes plural pronoun 'they'. 'Has' can be treated as auxiliary (have + past participle) or main verb. Answer sheet accepts both.",
+    "explanation_bn": "'haven't they' এবং 'don't they' উভয়ই গ্রহণযোগ্য। 'Everyone' এর জন্য plural pronoun 'they' বসে। 'Has' auxiliary বা main verb হতে পারে – উত্তরপত্রে উভয়ই স্বীকৃত।"
+  },
+  {
+    "question_id": "2c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2024",
+    "statement": "As a citizen of this country, we can hardly forget our duties, _________ ?",
+    "correct_tag": "can we",
+    "options": ["can we", "can't we", "do we", "don't we"],
+    "explanation_en": "'Hardly' makes the statement negative, so tag positive. Modal 'can' is used: 'can we'.",
+    "explanation_bn": "'Hardly' বিবৃতিকে negative করে, তাই tag positive। Modal 'can' বসে: 'can we'।"
+  },
+  {
+    "question_id": "2d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2024",
+    "statement": "I am proud to be a citizen of this country, _________ ?",
+    "correct_tag": "aren't I",
+    "options": ["aren't I", "am I not", "amn't I", "am I"],
+    "explanation_en": "For 'I am', the tag is 'aren't I' (or 'am I not' in very formal English). 'Aren't I' is standard.",
+    "explanation_bn": "'I am' এর জন্য tag 'aren't I' হয় (বা অতি আনুষ্ঠানিক 'am I not')। 'Aren't I' প্রচলিত মানক রূপ।"
+  },
+  {
+    "question_id": "2e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2024",
+    "statement": "Let us work together to build up our country, _________ ?",
+    "correct_tag": "shall we",
+    "options": ["shall we", "will you", "shall not we", "won't you"],
+    "explanation_en": "Same as 1c – 'Let us' takes 'shall we'.",
+    "explanation_bn": "1c এর মতো – 'Let us' এর tag 'shall we'।"
+  },
+  {
+    "question_id": "3a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2024",
+    "statement": "Patriotism persuades a man to do everything just, _________ ?",
+    "correct_tag": "doesn't it",
+    "options": ["doesn't it", "don't they", "isn't it", "does it"],
+    "explanation_en": "Subject 'Patriotism' is singular (it). Present indefinite, no auxiliary → 'does'. Statement positive → tag negative: 'doesn't it'.",
+    "explanation_bn": "Subject 'Patriotism' singular (it)। Present indefinite, auxiliary নেই → 'does'। বিবৃতি positive → tag negative: 'doesn't it'।"
+  },
+  {
+    "question_id": "3b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2024",
+    "statement": "A patriot hardly fears anybody, _________ ?",
+    "correct_tag": "does he",
+    "options": ["does he", "doesn't he", "is he", "isn't he"],
+    "explanation_en": "'Hardly' makes the statement negative, so tag positive. Subject 'A patriot' is singular masculine → 'does he' (present indefinite).",
+    "explanation_bn": "'Hardly' বিবৃতিকে negative করে, তাই tag positive। Subject 'A patriot' singular পুংলিঙ্গ → 'does he' (present indefinite)।"
+  },
+  {
+    "question_id": "3c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2024",
+    "statement": "Everybody respects a patriot, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "doesn't he", "do they", "does he"],
+    "explanation_en": "'Everybody' takes plural pronoun 'they' in tags. Statement positive → tag negative: 'don't they'.",
+    "explanation_bn": "'Everybody' tag-এ plural pronoun 'they' নেয়। বিবৃতি positive → tag negative: 'don't they'।"
+  },
+  {
+    "question_id": "3d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2024",
+    "statement": "What an outstanding quality it is! _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Exclamatory sentence. Convert to assertive: 'It is an outstanding quality.' Then tag: 'isn't it'.",
+    "explanation_bn": "Exclamatory বাক্য। Assertive করুন: 'It is an outstanding quality.' তাহলে tag: 'isn't it'।"
+  },
+  {
+    "question_id": "3e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2024",
+    "statement": "Let's be patriots, _________ ?",
+    "correct_tag": "shall we",
+    "options": ["shall we", "will you", "shan't we", "won't you"],
+    "explanation_en": "'Let's' is contraction of 'Let us', so tag 'shall we'.",
+    "explanation_bn": "'Let's' হলো 'Let us' এর সংক্ষিপ্ত রূপ, তাই tag 'shall we'।"
+  },
+  {
+    "question_id": "4a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2024",
+    "statement": "Slow and steady wins the race, _________ ?",
+    "correct_tag": "doesn't it",
+    "options": ["doesn't it", "don't they", "isn't it", "does it"],
+    "explanation_en": "The phrase 'Slow and steady' is considered a singular concept (one idea), so pronoun 'it'. Present indefinite positive → tag negative: 'doesn't it'.",
+    "explanation_bn": "'Slow and steady' phraseটিকে একক ধারণা ধরা হয়, তাই pronoun 'it'। Present indefinite positive → tag negative: 'doesn't it'।"
+  },
+  {
+    "question_id": "4b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2024",
+    "statement": "The mother has risen in her to see the orphan, _________ ?",
+    "correct_tag": "hasn't it",
+    "options": ["hasn't it", "hasn't she", "didn't it", "doesn't it"],
+    "explanation_en": "Here 'the mother' is an abstract quality (motherly feeling) that rose in her. Abstract nouns take 'it'. Present perfect positive → tag negative: 'hasn't it'.",
+    "explanation_bn": "এখানে 'the mother' একটি গুণবাচক ধারণা (মাতৃত্ব) যা তার মধ্যে জেগেছে। Abstract noun 'it' নেয়। Present perfect positive → tag negative: 'hasn't it'।"
+  },
+  {
+    "question_id": "4c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2024",
+    "statement": "He hardly cast a vote for me, _________ ?",
+    "correct_tag": "did he",
+    "options": ["did he", "didn't he", "does he", "doesn't he"],
+    "explanation_en": "'Hardly' makes negative, so tag positive. Past tense ('cast' is past form) → auxiliary 'did': 'did he'.",
+    "explanation_bn": "'Hardly' negative করে, তাই tag positive। Past tense ('cast' past form) → auxiliary 'did': 'did he'।"
+  },
+  {
+    "question_id": "4d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2024",
+    "statement": "Kindly do me a favour, _________ ?",
+    "correct_tag": "will you",
+    "options": ["will you", "won't you", "can you", "shall we"],
+    "explanation_en": "Imperative sentence (polite request). Standard tag for imperatives is 'will you'.",
+    "explanation_bn": "Imperative বাক্য (নম্র অনুরোধ)। Imperative-এর জন্য সাধারণ tag 'will you'।"
+  },
+  {
+    "question_id": "4e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2024",
+    "statement": "I need not go there, _________ ?",
+    "correct_tag": "need I",
+    "options": ["need I", "don't I", "do I", "needn't I"],
+    "explanation_en": "'Need' here is a modal auxiliary (negative form 'need not'), so tag uses 'need' in positive form: 'need I'.",
+    "explanation_bn": "এখানে 'need' modal auxiliary (negative 'need not'), তাই tag-এ 'need' positive রূপে: 'need I'।"
+  },
+  {
+    "question_id": "5a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "SSC (Combined)",
+    "statement": "Everybody believes this truth, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "doesn't he", "do they", "does he"],
+    "explanation_en": "Same as 3c – 'everybody' → 'they', positive statement → negative tag: 'don't they'.",
+    "explanation_bn": "3c এর মতো – 'everybody' → 'they', positive বিবৃতি → negative tag: 'don't they'।"
+  },
+  {
+    "question_id": "5b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "SSC (Combined)",
+    "statement": "We hardly forget the golden past, _________ ?",
+    "correct_tag": "do we",
+    "options": ["do we", "don't we", "can we", "could we"],
+    "explanation_en": "'Hardly' negative, tag positive. Present indefinite, auxiliary 'do': 'do we'.",
+    "explanation_bn": "'Hardly' negative, tag positive। Present indefinite, auxiliary 'do': 'do we'।"
+  },
+  {
+    "question_id": "5c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "SSC (Combined)",
+    "statement": "Nothing was said, _________ ?",
+    "correct_tag": "was it",
+    "options": ["was it", "wasn't it", "did it", "didn't it"],
+    "explanation_en": "'Nothing' is negative (means 'not anything'), so tag positive. Past tense, 'was' used: 'was it'.",
+    "explanation_bn": "'Nothing' negative (অর্থ 'কিছুই না'), তাই tag positive। Past tense, 'was' ব্যবহৃত: 'was it'।"
+  },
+  {
+    "question_id": "5d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "SSC (Combined)",
+    "statement": "Don't disturb me, _________ ?",
+    "correct_tag": "will you",
+    "options": ["will you", "won't you", "don't you", "do you"],
+    "explanation_en": "Negative imperative (Don't + verb). Tag is 'will you' (positive) for all imperatives.",
+    "explanation_bn": "Negative imperative (Don't + verb)। সব imperative-এর tag 'will you' (positive)।"
+  },
+  {
+    "question_id": "5e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "SSC (Combined)",
+    "statement": "Let's be sincere in our life, _________ ?",
+    "correct_tag": "shall we",
+    "options": ["shall we", "will you", "shan't we", "won't you"],
+    "explanation_en": "'Let's' → 'shall we'.",
+    "explanation_bn": "'Let's' → 'shall we'।"
+  },
+  {
+    "question_id": "6a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Chattogram Board 2024",
+    "statement": "At present extended families are found in rural areas, _________ ?",
+    "correct_tag": "aren't they",
+    "options": ["aren't they", "are they", "don't they", "isn't it"],
+    "explanation_en": "Subject 'extended families' plural. Present tense 'are' → tag negative: 'aren't they'.",
+    "explanation_bn": "Subject 'extended families' plural। Present tense 'are' → tag negative: 'aren't they'।"
+  },
+  {
+    "question_id": "6b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Chattogram Board 2024",
+    "statement": "There're many members in extended families, _________ ?",
+    "correct_tag": "aren't there",
+    "options": ["aren't there", "are there", "isn't there", "don't they"],
+    "explanation_en": "'There are' (contracted There're) → tag 'aren't there'.",
+    "explanation_bn": "'There are' (সংক্ষেপ There're) → tag 'aren't there'।"
+  },
+  {
+    "question_id": "6c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Chattogram Board 2024",
+    "statement": "The house is always full of guests, _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "aren't they"],
+    "explanation_en": "Subject 'The house' singular (it). Positive statement → tag negative: 'isn't it'.",
+    "explanation_bn": "Subject 'The house' singular (it)। Positive বিবৃতি → tag negative: 'isn't it'।"
+  },
+  {
+    "question_id": "6d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Chattogram Board 2024",
+    "statement": "It becomes very difficult for one to study, _________ ?",
+    "correct_tag": "doesn't it",
+    "options": ["doesn't it", "does it", "isn't it", "is it"],
+    "explanation_en": "Subject 'It', verb 'becomes' (present indefinite) → auxiliary 'does'. Positive → tag negative: 'doesn't it'.",
+    "explanation_bn": "Subject 'It', verb 'becomes' (present indefinite) → auxiliary 'does'। Positive → tag negative: 'doesn't it'।"
+  },
+  {
+    "question_id": "6e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Sylhet Board 2024",
+    "statement": "In the same room children are found reading, gossiping and sleeping, _________ ?",
+    "correct_tag": "aren't they",
+    "options": ["aren't they", "are they", "don't they", "isn't it"],
+    "explanation_en": "Subject 'children' plural. Present tense 'are' → tag negative: 'aren't they'.",
+    "explanation_bn": "Subject 'children' plural। Present tense 'are' → tag negative: 'aren't they'।"
+  },
+  {
+    "question_id": "7a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Barishal Board 2024; Dinajpur Board 2022",
+    "statement": "Industry is the key to success, _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Subject 'Industry' singular, verb 'is' → tag negative: 'isn't it'.",
+    "explanation_bn": "Subject 'Industry' singular, verb 'is' → tag negative: 'isn't it'।"
+  },
+  {
+    "question_id": "7b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Barishal Board 2024; Dinajpur Board 2022",
+    "statement": "The industrious are prosperous, _________ ?",
+    "correct_tag": "aren't they",
+    "options": ["aren't they", "are they", "don't they", "isn't it"],
+    "explanation_en": "Subject 'The industrious' (plural adjective as noun) → 'they'. Positive → tag negative: 'aren't they'.",
+    "explanation_bn": "Subject 'The industrious' (বহুবচন বিশেষণ বিশেষ্যরূপে) → 'they'। Positive → tag negative: 'aren't they'।"
+  },
+  {
+    "question_id": "7c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Barishal Board 2024; Dinajpur Board 2022",
+    "statement": "They hardly suffer from poverty, _________ ?",
+    "correct_tag": "do they",
+    "options": ["do they", "don't they", "are they", "aren't they"],
+    "explanation_en": "'Hardly' negative → tag positive. Present indefinite → 'do they'.",
+    "explanation_bn": "'Hardly' negative → tag positive। Present indefinite → 'do they'।"
+  },
+  {
+    "question_id": "7d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Barishal Board 2024; Dinajpur Board 2022",
+    "statement": "On the other hand, idleness is a curse, _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Subject 'idleness' singular, verb 'is' → tag negative: 'isn't it'.",
+    "explanation_bn": "Subject 'idleness' singular, verb 'is' → tag negative: 'isn't it'।"
+  },
+  {
+    "question_id": "7e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Barishal Board 2024; Dinajpur Board 2022",
+    "statement": "The idle seldom prosper, _________ ?",
+    "correct_tag": "do they",
+    "options": ["do they", "don't they", "are they", "aren't they"],
+    "explanation_en": "'Seldom' has negative meaning → tag positive. Subject 'The idle' plural → 'they'. Present indefinite → 'do they'.",
+    "explanation_bn": "'Seldom' negative অর্থ বহন করে → tag positive। Subject 'The idle' plural → 'they'। Present indefinite → 'do they'।"
+  },
+  {
+    "question_id": "8a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dinajpur Board 2024",
+    "statement": "None can solve this problem, _________ ?",
+    "correct_tag": "can they",
+    "options": ["can they", "can't they", "do they", "don't they"],
+    "explanation_en": "'None' is negative, so tag positive. Modal 'can' → 'can they'.",
+    "explanation_bn": "'None' negative, তাই tag positive। Modal 'can' → 'can they'।"
+  },
+  {
+    "question_id": "8b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dinajpur Board 2024",
+    "statement": "Everybody hates them, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "doesn't he", "do they", "does he"],
+    "explanation_en": "Same as 3c, 5a – 'everybody' → 'they', positive → negative tag: 'don't they'.",
+    "explanation_bn": "3c, 5a এর মতো – 'everybody' → 'they', positive → negative tag: 'don't they'।"
+  },
+  {
+    "question_id": "8c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dinajpur Board 2024",
+    "statement": "Let's do the work, _________ ?",
+    "correct_tag": "shall we",
+    "options": ["shall we", "will you", "shan't we", "won't you"],
+    "explanation_en": "'Let's' → 'shall we'.",
+    "explanation_bn": "'Let's' → 'shall we'।"
+  },
+  {
+    "question_id": "8d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dinajpur Board 2024",
+    "statement": "Telling lies is a great sin, _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Gerund phrase 'Telling lies' as subject → singular (it). Verb 'is' → tag negative: 'isn't it'.",
+    "explanation_bn": "Gerund phrase 'Telling lies' subject হিসেবে → singular (it)। Verb 'is' → tag negative: 'isn't it'।"
+  },
+  {
+    "question_id": "8e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dinajpur Board 2024",
+    "statement": "How nice the bird is! _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Exclamatory → assertive: 'The bird is very nice.' Tag: 'isn't it'.",
+    "explanation_bn": "Exclamatory → assertive: 'The bird is very nice.' Tag: 'isn't it'।"
+  },
+  {
+    "question_id": "9a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Mymensingh Board 2024",
+    "statement": "Patriotism is a noble virtue, _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Subject 'Patriotism' singular, verb 'is' → tag negative: 'isn't it'.",
+    "explanation_bn": "Subject 'Patriotism' singular, verb 'is' → tag negative: 'isn't it'।"
+  },
+  {
+    "question_id": "9b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Mymensingh Board 2024",
+    "statement": "Wise people teach us to love our own country, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "do they", "aren't they", "isn't it"],
+    "explanation_en": "Subject 'Wise people' plural, present indefinite (teach) → auxiliary 'do'. Positive → tag negative: 'don't they'.",
+    "explanation_bn": "Subject 'Wise people' plural, present indefinite (teach) → auxiliary 'do'। Positive → tag negative: 'don't they'।"
+  },
+  {
+    "question_id": "9c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Mymensingh Board 2024",
+    "statement": "We should remember that motherland is above everything, _________ ?",
+    "correct_tag": "shouldn't we",
+    "options": ["shouldn't we", "should we", "don't we", "can we"],
+    "explanation_en": "Modal 'should' in positive statement → tag negative: 'shouldn't we'.",
+    "explanation_bn": "Modal 'should' positive বিবৃতিতে → tag negative: 'shouldn't we'।"
+  },
+  {
+    "question_id": "9d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Mymensingh Board 2024",
+    "statement": "Some people forget it, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "do they", "aren't they", "isn't it"],
+    "explanation_en": "Subject 'Some people' plural, present indefinite (forget) → 'do'. Positive → negative tag: 'don't they'.",
+    "explanation_bn": "Subject 'Some people' plural, present indefinite (forget) → 'do'। Positive → negative tag: 'don't they'।"
+  },
+  {
+    "question_id": "9e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Mymensingh Board 2024",
+    "statement": "We hope that everybody will love his motherland, _________ ?",
+    "correct_tag": "won't they",
+    "options": ["won't they", "will they", "don't we", "doesn't he"],
+    "explanation_en": "The main clause is 'We hope' but the tag question usually follows the that-clause when the main verb expresses opinion/hope? Actually rule: with 'hope', tag follows the that-clause. 'Everybody will love' → 'everybody' → 'they', positive 'will' → negative tag 'won't they'.",
+    "explanation_bn": "মূল clause 'We hope' কিন্তু tag প্রশ্ন সাধারণত that-clause অনুসরণ করে যখন main verb আশা/মত প্রকাশ করে। 'Everybody will love' → 'everybody' → 'they', positive 'will' → negative tag 'won't they'।"
+  },
+  {
+    "question_id": "10a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2023",
+    "statement": "Modesty is a great virtue, _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Same as 9a.",
+    "explanation_bn": "9a এর মতো।"
+  },
+  {
+    "question_id": "10b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2023",
+    "statement": "The modest always respect their superiors, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "do they", "aren't they", "isn't it"],
+    "explanation_en": "'The modest' (plural) → 'they'. Present indefinite positive → negative tag: 'don't they'.",
+    "explanation_bn": "'The modest' (plural) → 'they'। Present indefinite positive → negative tag: 'don't they'।"
+  },
+  {
+    "question_id": "10c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2023",
+    "statement": "Everybody likes a modest person, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "doesn't he", "do they", "does he"],
+    "explanation_en": "'Everybody' → 'they' (plural tag), positive → negative: 'don't they'.",
+    "explanation_bn": "'Everybody' → 'they' (বহুবচন tag), positive → negative: 'don't they'।"
+  },
+  {
+    "question_id": "10d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2023",
+    "statement": "A modest student hardly fails to reach his goal, _________ ?",
+    "correct_tag": "does he",
+    "options": ["does he", "doesn't he", "is he", "isn't he"],
+    "explanation_en": "'Hardly' negative → tag positive. Subject 'A modest student' singular masculine → 'does he' (present indefinite).",
+    "explanation_bn": "'Hardly' negative → tag positive। Subject 'A modest student' singular পুংলিঙ্গ → 'does he' (present indefinite)।"
+  },
+  {
+    "question_id": "10e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2023",
+    "statement": "Let's try to be modest in our way of life, _________ ?",
+    "correct_tag": "shall we",
+    "options": ["shall we", "will you", "shan't we", "won't you"],
+    "explanation_en": "'Let's' → 'shall we'.",
+    "explanation_bn": "'Let's' → 'shall we'।"
+  },
+  {
+    "question_id": "11a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2023",
+    "statement": "War is a curse of human civilization, _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Subject 'War' singular, verb 'is' → tag negative: 'isn't it'.",
+    "explanation_bn": "Subject 'War' singular, verb 'is' → tag negative: 'isn't it'।"
+  },
+  {
+    "question_id": "11b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2023",
+    "statement": "Everybody suffers from it, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "doesn't he", "do they", "does he"],
+    "explanation_en": "'Everybody' → 'they', positive → negative tag: 'don't they'.",
+    "explanation_bn": "'Everybody' → 'they', positive → negative tag: 'don't they'।"
+  },
+  {
+    "question_id": "11c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2023",
+    "statement": "Massive destruction is found everywhere, _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Subject 'Massive destruction' singular → 'it', verb 'is' → tag negative: 'isn't it'.",
+    "explanation_bn": "Subject 'Massive destruction' singular → 'it', verb 'is' → tag negative: 'isn't it'।"
+  },
+  {
+    "question_id": "11d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2023",
+    "statement": "None can escape from the bombings of the enemy, _________ ?",
+    "correct_tag": "can they",
+    "options": ["can they", "can't they", "do they", "don't they"],
+    "explanation_en": "'None' negative → tag positive. Modal 'can' → 'can they'.",
+    "explanation_bn": "'None' negative → tag positive। Modal 'can' → 'can they'।"
+  },
+  {
+    "question_id": "11e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2023",
+    "statement": "Women and children are the worst sufferers, _________ ?",
+    "correct_tag": "aren't they",
+    "options": ["aren't they", "are they", "don't they", "isn't it"],
+    "explanation_en": "Subject plural, verb 'are' → tag negative: 'aren't they'.",
+    "explanation_bn": "Subject plural, verb 'are' → tag negative: 'aren't they'।"
+  },
+  {
+    "question_id": "12a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2023",
+    "statement": "The habit of reading is good, _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Subject 'The habit of reading' singular → 'it', verb 'is' → tag negative: 'isn't it'.",
+    "explanation_bn": "Subject 'The habit of reading' singular → 'it', verb 'is' → tag negative: 'isn't it'।"
+  },
+  {
+    "question_id": "12b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2023",
+    "statement": "But we hardly find it in us, _________ ?",
+    "correct_tag": "do we",
+    "options": ["do we", "don't we", "can we", "could we"],
+    "explanation_en": "'Hardly' negative → tag positive. Subject 'we', present indefinite → 'do we'.",
+    "explanation_bn": "'Hardly' negative → tag positive। Subject 'we', present indefinite → 'do we'।"
+  },
+  {
+    "question_id": "12c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2023",
+    "statement": "Everybody loves a studious student, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "doesn't he", "do they", "does he"],
+    "explanation_en": "'Everybody' → 'they', positive → negative tag: 'don't they'.",
+    "explanation_bn": "'Everybody' → 'they', positive → negative tag: 'don't they'।"
+  },
+  {
+    "question_id": "12d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2023",
+    "statement": "We ought to give him books, _________ ?",
+    "correct_tag": "oughtn't we",
+    "options": ["oughtn't we", "shouldn't we", "ought we", "should we"],
+    "explanation_en": "'Ought to' is a modal. Positive statement → negative tag: 'oughtn't we'. 'Shouldn't we' is also accepted in modern usage, but answer sheet says 'oughtn't we'.",
+    "explanation_bn": "'Ought to' একটি modal। Positive বিবৃতি → negative tag: 'oughtn't we'। আধুনিক ব্যবহারে 'shouldn't we' গ্রহণযোগ্য, কিন্তু উত্তরপত্রে 'oughtn't we' দেওয়া আছে।"
+  },
+  {
+    "question_id": "12e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2023",
+    "statement": "Books give us knowledge, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "do they", "aren't they", "isn't it"],
+    "explanation_en": "Subject 'Books' plural, present indefinite (give) → 'do'. Positive → tag negative: 'don't they'.",
+    "explanation_bn": "Subject 'Books' plural, present indefinite (give) → 'do'। Positive → tag negative: 'don't they'।"
+  },
+  {
+    "question_id": "13a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2023",
+    "statement": "At present, everybody likes cricket, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "doesn't he", "do they", "does he"],
+    "explanation_en": "'Everybody' → 'they', positive → negative tag: 'don't they'.",
+    "explanation_bn": "'Everybody' → 'they', positive → negative tag: 'don't they'।"
+  },
+  {
+    "question_id": "13b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2023",
+    "statement": "Students hardly miss watching this game, _________ ?",
+    "correct_tag": "do they",
+    "options": ["do they", "don't they", "are they", "aren't they"],
+    "explanation_en": "'Hardly' negative → tag positive. Subject 'Students' plural, present indefinite → 'do they'.",
+    "explanation_bn": "'Hardly' negative → tag positive। Subject 'Students' plural, present indefinite → 'do they'।"
+  },
+  {
+    "question_id": "13c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2023",
+    "statement": "Nothing is more enjoyable to them than cricket, _________ ?",
+    "correct_tag": "is it",
+    "options": ["is it", "isn't it", "does it", "doesn't it"],
+    "explanation_en": "'Nothing' is negative → tag positive. Verb 'is' → 'is it'.",
+    "explanation_bn": "'Nothing' negative → tag positive। Verb 'is' → 'is it'।"
+  },
+  {
+    "question_id": "13d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2023",
+    "statement": "How exciting the game is! _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Exclamatory → assertive: 'The game is very exciting.' Tag: 'isn't it'.",
+    "explanation_bn": "Exclamatory → assertive: 'The game is very exciting.' Tag: 'isn't it'।"
+  },
+  {
+    "question_id": "13e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2023",
+    "statement": "Let's play this game, _________ ?",
+    "correct_tag": "shall we",
+    "options": ["shall we", "will you", "shan't we", "won't you"],
+    "explanation_en": "'Let's' → 'shall we'.",
+    "explanation_bn": "'Let's' → 'shall we'।"
+  },
+  {
+    "question_id": "14a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Chattogram Board 2023",
+    "statement": "Nobody trusts a liar, _________ ?",
+    "correct_tag": "do they",
+    "options": ["do they", "don't they", "does he", "doesn't he"],
+    "explanation_en": "'Nobody' negative → tag positive. Subject 'Nobody' takes plural pronoun 'they' in tag. Present indefinite → 'do they'.",
+    "explanation_bn": "'Nobody' negative → tag positive। Subject 'Nobody' tag-এ plural pronoun 'they' নেয়। Present indefinite → 'do they'।"
+  },
+  {
+    "question_id": "14b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Chattogram Board 2023",
+    "statement": "A liar has to lead a miserable life, _________ ?",
+    "correct_tag": "doesn't he",
+    "options": ["doesn't he", "does he", "hasn't he", "has he"],
+    "explanation_en": "'Has to' is a main verb (obligation). So tag uses 'does' for present indefinite. Subject 'A liar' singular masculine → 'doesn't he' (positive statement → negative tag).",
+    "explanation_bn": "'Has to' একটি main verb (বাধ্যবাধকতা)। তাই tag-এ present indefinite-এর জন্য 'does' ব্যবহার। Subject 'A liar' singular পুংলিঙ্গ → 'doesn't he' (positive বিবৃতি → negative tag)।"
+  },
+  {
+    "question_id": "14c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Chattogram Board 2023",
+    "statement": "Speaking the truth is a good exercise, _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Gerund phrase subject → singular 'it', verb 'is' → tag negative: 'isn't it'.",
+    "explanation_bn": "Gerund phrase subject → singular 'it', verb 'is' → tag negative: 'isn't it'।"
+  },
+  {
+    "question_id": "14d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Chattogram Board 2023",
+    "statement": "Everybody should have the habit of speaking the truth, _________ ?",
+    "correct_tag": "shouldn't they",
+    "options": ["shouldn't they", "should they", "don't they", "doesn't he"],
+    "explanation_en": "'Everybody' → 'they', modal 'should' positive → negative tag: 'shouldn't they'.",
+    "explanation_bn": "'Everybody' → 'they', modal 'should' positive → negative tag: 'shouldn't they'।"
+  },
+  {
+    "question_id": "14e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Chattogram Board 2023",
+    "statement": "Many are often found telling a lie out of fun, _________ ?",
+    "correct_tag": "aren't they",
+    "options": ["aren't they", "are they", "don't they", "do they"],
+    "explanation_en": "Subject 'Many' (meaning many people) → plural 'they'. Passive voice 'are found' → tag negative: 'aren't they'.",
+    "explanation_bn": "Subject 'Many' (অর্থ অনেক লোক) → plural 'they'। Passive voice 'are found' → tag negative: 'aren't they'।"
+  },
+  {
+    "question_id": "15a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Sylhet Board 2023",
+    "statement": "Fishes can swim, _________ ?",
+    "correct_tag": "can't they",
+    "options": ["can't they", "can they", "don't they", "do they"],
+    "explanation_en": "Subject 'Fishes' plural, modal 'can' positive → tag negative: 'can't they'.",
+    "explanation_bn": "Subject 'Fishes' plural, modal 'can' positive → tag negative: 'can't they'।"
+  },
+  {
+    "question_id": "15b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Sylhet Board 2023",
+    "statement": "Help the helpless, _________ ?",
+    "correct_tag": "will you",
+    "options": ["will you", "won't you", "can you", "shall we"],
+    "explanation_en": "Imperative (command/advice) → tag 'will you'.",
+    "explanation_bn": "Imperative (আদেশ/উপদেশ) → tag 'will you'।"
+  },
+  {
+    "question_id": "15c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Sylhet Board 2023",
+    "statement": "'She' is a pronoun, _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "isn't she", "is it", "doesn't it"],
+    "explanation_en": "The word 'She' (quoted) is being referred to as a word/letter. So singular 'it'. Verb 'is' → tag negative: 'isn't it'.",
+    "explanation_bn": "'She' শব্দটি (উদ্ধৃত) একটি শব্দ/অক্ষর হিসেবে নির্দেশিত। তাই singular 'it'। Verb 'is' → tag negative: 'isn't it'।"
+  },
+  {
+    "question_id": "15d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Sylhet Board 2023",
+    "statement": "He put the bag here, _________ ?",
+    "correct_tag": "didn't he",
+    "options": ["didn't he", "did he", "doesn't he", "does he"],
+    "explanation_en": "Past indefinite (put – past form) → auxiliary 'did'. Positive → tag negative: 'didn't he'.",
+    "explanation_bn": "Past indefinite (put – past form) → auxiliary 'did'। Positive → tag negative: 'didn't he'।"
+  },
+  {
+    "question_id": "15e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Sylhet Board 2023",
+    "statement": "They seldom come to me, _________ ?",
+    "correct_tag": "do they",
+    "options": ["do they", "don't they", "are they", "aren't they"],
+    "explanation_en": "'Seldom' negative → tag positive. Present indefinite → 'do they'.",
+    "explanation_bn": "'Seldom' negative → tag positive। Present indefinite → 'do they'।"
+  },
+  {
+    "question_id": "16a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Barishal Board 2023",
+    "statement": "SSC Examination is the first public examination in our country, _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Subject 'SSC Examination' singular → 'it', verb 'is' → tag negative: 'isn't it'.",
+    "explanation_bn": "Subject 'SSC Examination' singular → 'it', verb 'is' → tag negative: 'isn't it'।"
+  },
+  {
+    "question_id": "16b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Barishal Board 2023",
+    "statement": "Every student takes the examination seriously, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "doesn't he", "do they", "does he"],
+    "explanation_en": "'Every student' → 'they' (plural tag), present indefinite positive → negative tag: 'don't they'.",
+    "explanation_bn": "'Every student' → 'they' (বহুবচন tag), present indefinite positive → negative tag: 'don't they'।"
+  },
+  {
+    "question_id": "16c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Barishal Board 2023",
+    "statement": "Its result allows one to enter the next level, _________ ?",
+    "correct_tag": "doesn't it",
+    "options": ["doesn't it", "does it", "isn't it", "is it"],
+    "explanation_en": "Subject 'Its result' singular (it), present indefinite (allows) → 'does'. Positive → tag negative: 'doesn't it'.",
+    "explanation_bn": "Subject 'Its result' singular (it), present indefinite (allows) → 'does'। Positive → tag negative: 'doesn't it'।"
+  },
+  {
+    "question_id": "16d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Barishal Board 2023",
+    "statement": "So, it is not less important than one's life, _________ ?",
+    "correct_tag": "is it",
+    "options": ["is it", "isn't it", "does it", "doesn't it"],
+    "explanation_en": "Statement is negative ('is not') → tag positive: 'is it'.",
+    "explanation_bn": "বিবৃতি negative ('is not') → tag positive: 'is it'।"
+  },
+  {
+    "question_id": "16e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Barishal Board 2023",
+    "statement": "A student needs to take a good preparation for it, _________ ?",
+    "correct_tag": "doesn't he",
+    "options": ["doesn't he", "does he", "needn't he", "needs he"],
+    "explanation_en": "'Needs' is main verb (present indefinite). Subject 'A student' singular masculine → 'doesn't he'.",
+    "explanation_bn": "'Needs' main verb (present indefinite)। Subject 'A student' singular পুংলিঙ্গ → 'doesn't he'।"
+  },
+  {
+    "question_id": "17a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dinajpur Board 2023",
+    "statement": "What he said was true, _________ ?",
+    "correct_tag": "wasn't it",
+    "options": ["wasn't it", "was it", "didn't it", "did it"],
+    "explanation_en": "The noun clause 'What he said' is singular (it). Past tense 'was' positive → tag negative: 'wasn't it'.",
+    "explanation_bn": "Noun clause 'What he said' singular (it)। Past tense 'was' positive → tag negative: 'wasn't it'।"
+  },
+  {
+    "question_id": "17b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dinajpur Board 2023",
+    "statement": "Don't forget me, _________ ?",
+    "correct_tag": "will you",
+    "options": ["will you", "won't you", "don't you", "do you"],
+    "explanation_en": "Negative imperative → tag 'will you' (positive).",
+    "explanation_bn": "Negative imperative → tag 'will you' (positive)।"
+  },
+  {
+    "question_id": "17c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dinajpur Board 2023",
+    "statement": "How exciting the game is, _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Exclamatory → assertive: 'The game is very exciting.' Tag: 'isn't it'.",
+    "explanation_bn": "Exclamatory → assertive: 'The game is very exciting.' Tag: 'isn't it'।"
+  },
+  {
+    "question_id": "17d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dinajpur Board 2023",
+    "statement": "Let's try to make him understand the importance of literacy, _________ ?",
+    "correct_tag": "shall we",
+    "options": ["shall we", "will you", "shan't we", "won't you"],
+    "explanation_en": "'Let's' → 'shall we'.",
+    "explanation_bn": "'Let's' → 'shall we'।"
+  },
+  {
+    "question_id": "17e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dinajpur Board 2023",
+    "statement": "You, he and I did the work, _________ ?",
+    "correct_tag": "didn't we",
+    "options": ["didn't we", "did we", "didn't they", "did they"],
+    "explanation_en": "Compound subject 'You, he and I' = 'we'. Past indefinite (did) positive → tag negative: 'didn't we'.",
+    "explanation_bn": "যৌগিক subject 'You, he and I' = 'we'। Past indefinite (did) positive → tag negative: 'didn't we'।"
+  },
+  {
+    "question_id": "18a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Mymensingh Board 2023",
+    "statement": "The unfed should be fed, _________ ?",
+    "correct_tag": "shouldn't they",
+    "options": ["shouldn't they", "should they", "aren't they", "don't they"],
+    "explanation_en": "Subject 'The unfed' (plural adjective as noun) → 'they'. Modal 'should' positive → tag negative: 'shouldn't they'.",
+    "explanation_bn": "Subject 'The unfed' (বহুবচন বিশেষণ বিশেষ্যরূপে) → 'they'। Modal 'should' positive → tag negative: 'shouldn't they'।"
+  },
+  {
+    "question_id": "18b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Mymensingh Board 2023",
+    "statement": "He let me do the work, _________ ?",
+    "correct_tag": "didn't he",
+    "options": ["didn't he", "did he", "let he", "letted he"],
+    "explanation_en": "'Let' here is past tense (let – past form). Past indefinite → auxiliary 'did'. Positive → tag negative: 'didn't he'.",
+    "explanation_bn": "এখানে 'let' past tense (let – past form)। Past indefinite → auxiliary 'did'। Positive → tag negative: 'didn't he'।"
+  },
+  {
+    "question_id": "18c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Mymensingh Board 2023",
+    "statement": "The Titanic sank on its first voyage, _________ ?",
+    "correct_tag": "didn't it",
+    "options": ["didn't it", "did it", "wasn't it", "was it"],
+    "explanation_en": "Past indefinite (sank) → auxiliary 'did'. Subject 'The Titanic' singular (it). Positive → tag negative: 'didn't it'.",
+    "explanation_bn": "Past indefinite (sank) → auxiliary 'did'। Subject 'The Titanic' singular (it)। Positive → tag negative: 'didn't it'।"
+  },
+  {
+    "question_id": "18d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Mymensingh Board 2023",
+    "statement": "There is no school in our village, _________ ?",
+    "correct_tag": "is there",
+    "options": ["is there", "isn't there", "are there", "aren't there"],
+    "explanation_en": "Introductory 'There is' negative ('no') → tag positive: 'is there'.",
+    "explanation_bn": "Introductory 'There is' negative ('no') → tag positive: 'is there'।"
+  },
+  {
+    "question_id": "18e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Mymensingh Board 2023",
+    "statement": "The father rose in him, _________ ?",
+    "correct_tag": "didn't it",
+    "options": ["didn't it", "didn't he", "did it", "did he"],
+    "explanation_en": "'The father' here means fatherly feeling (abstract). Use 'it'. Past indefinite → 'didn't it'.",
+    "explanation_bn": "এখানে 'the father' মানে পিতৃত্ববোধ (abstract)। 'it' ব্যবহার করবেন। Past indefinite → 'didn't it'।"
+  },
+  {
+    "question_id": "19a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2022",
+    "statement": "Everybody wants to lead a better life, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "doesn't he", "do they", "does he"],
+    "explanation_en": "'Everybody' → 'they', positive → negative tag: 'don't they'.",
+    "explanation_bn": "'Everybody' → 'they', positive → negative tag: 'don't they'।"
+  },
+  {
+    "question_id": "19b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2022",
+    "statement": "A better life seldom comes without hard work, _________ ?",
+    "correct_tag": "does it",
+    "options": ["does it", "doesn't it", "is it", "isn't it"],
+    "explanation_en": "'Seldom' negative → tag positive. Subject 'A better life' singular → 'it', present indefinite → 'does it'.",
+    "explanation_bn": "'Seldom' negative → tag positive। Subject 'A better life' singular → 'it', present indefinite → 'does it'।"
+  },
+  {
+    "question_id": "19c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2022",
+    "statement": "We have to work hard for this, _________ ?",
+    "correct_tag": "don't we",
+    "options": ["don't we", "do we", "haven't we", "have we"],
+    "explanation_en": "'Have to' as main verb → tag uses 'do'. Positive → negative tag: 'don't we'.",
+    "explanation_bn": "'Have to' main verb হিসেবে → tag-এ 'do' ব্যবহার। Positive → negative tag: 'don't we'।"
+  },
+  {
+    "question_id": "19d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2022",
+    "statement": "But most of us can hardly do the job, _________ ?",
+    "correct_tag": "can we",
+    "options": ["can we", "can't we", "do we", "don't we"],
+    "explanation_en": "'Hardly' negative → tag positive. Modal 'can' → 'can we'.",
+    "explanation_bn": "'Hardly' negative → tag positive। Modal 'can' → 'can we'।"
+  },
+  {
+    "question_id": "19e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2022",
+    "statement": "Actually, life is not a bed of roses, _________ ?",
+    "correct_tag": "is it",
+    "options": ["is it", "isn't it", "does it", "doesn't it"],
+    "explanation_en": "Statement negative ('is not') → tag positive: 'is it'.",
+    "explanation_bn": "বিবৃতি negative ('is not') → tag positive: 'is it'।"
+  },
+  {
+    "question_id": "20a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2022",
+    "statement": "He let me do it, _________ ?",
+    "correct_tag": "didn't he",
+    "options": ["didn't he", "did he", "let he", "letted he"],
+    "explanation_en": "Same as 18b – past tense 'let' → 'didn't he'.",
+    "explanation_bn": "18b এর মতো – past tense 'let' → 'didn't he'।"
+  },
+  {
+    "question_id": "20b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2022",
+    "statement": "Let's be sincere in our life, _________ ?",
+    "correct_tag": "shall we",
+    "options": ["shall we", "will you", "shan't we", "won't you"],
+    "explanation_en": "'Let's' → 'shall we'.",
+    "explanation_bn": "'Let's' → 'shall we'।"
+  },
+  {
+    "question_id": "20c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2022",
+    "statement": "Everybody respects the freedom fighters, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "doesn't he", "do they", "does he"],
+    "explanation_en": "'Everybody' → 'they', positive → negative tag: 'don't they'.",
+    "explanation_bn": "'Everybody' → 'they', positive → negative tag: 'don't they'।"
+  },
+  {
+    "question_id": "20d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2022",
+    "statement": "Success cannot be achieved without efforts, _________ ?",
+    "correct_tag": "can it",
+    "options": ["can it", "can't it", "does it", "doesn't it"],
+    "explanation_en": "Statement negative ('cannot') → tag positive. Modal 'can' → 'can it'.",
+    "explanation_bn": "বিবৃতি negative ('cannot') → tag positive। Modal 'can' → 'can it'।"
+  },
+  {
+    "question_id": "20e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2022",
+    "statement": "He has to lead a miserable life, _________ ?",
+    "correct_tag": "doesn't he",
+    "options": ["doesn't he", "does he", "hasn't he", "has he"],
+    "explanation_en": "Same as 14b – 'has to' main verb → 'doesn't he'.",
+    "explanation_bn": "14b এর মতো – 'has to' main verb → 'doesn't he'।"
+  },
+  {
+    "question_id": "21a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2022",
+    "statement": "Everyone is nostalgic in life, _________ ?",
+    "correct_tag": "aren't they",
+    "options": ["aren't they", "isn't he", "are they", "is he"],
+    "explanation_en": "'Everyone' → 'they', verb 'is' (but tag uses 'are' because of 'they'): 'aren't they'.",
+    "explanation_bn": "'Everyone' → 'they', verb 'is' (কিন্তু tag-এ 'are' ব্যবহার কারণ 'they'): 'aren't they'।"
+  },
+  {
+    "question_id": "21b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2022",
+    "statement": "We hardly forget the golden past, _________ ?",
+    "correct_tag": "do we",
+    "options": ["do we", "don't we", "can we", "could we"],
+    "explanation_en": "'Hardly' negative → tag positive: 'do we'.",
+    "explanation_bn": "'Hardly' negative → tag positive: 'do we'।"
+  },
+  {
+    "question_id": "21c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2022",
+    "statement": "The memories of childhood are always haunting us, _________ ?",
+    "correct_tag": "aren't they",
+    "options": ["aren't they", "are they", "don't they", "do they"],
+    "explanation_en": "Subject 'The memories of childhood' plural → 'they', verb 'are' positive → tag negative: 'aren't they'.",
+    "explanation_bn": "Subject 'The memories of childhood' plural → 'they', verb 'are' positive → tag negative: 'aren't they'।"
+  },
+  {
+    "question_id": "21d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2022",
+    "statement": "The sweetest memories of childhood are colourful, _________ ?",
+    "correct_tag": "aren't they",
+    "options": ["aren't they", "are they", "don't they", "do they"],
+    "explanation_en": "Same as 21c.",
+    "explanation_bn": "21c এর মতো।"
+  },
+  {
+    "question_id": "21e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2022",
+    "statement": "Who forgets these memories, _________ ?",
+    "correct_tag": "do they",
+    "options": ["do they", "don't they", "does he", "doesn't he"],
+    "explanation_en": "Interrogative 'Who' is turned into assertive 'Nobody forgets', which is negative. So tag positive. 'Nobody' takes 'they': 'do they'.",
+    "explanation_bn": "Interrogative 'Who' কে assertive করুন 'Nobody forgets', যা negative। তাই tag positive। 'Nobody' 'they' নেয়: 'do they'।"
+  },
+  {
+    "question_id": "22a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2022",
+    "statement": "Good health means the health free from all kinds of diseases, _________ ?",
+    "correct_tag": "doesn't it",
+    "options": ["doesn't it", "does it", "isn't it", "is it"],
+    "explanation_en": "Subject 'Good health' singular (it), verb 'means' present indefinite → 'does'. Positive → tag negative: 'doesn't it'.",
+    "explanation_bn": "Subject 'Good health' singular (it), verb 'means' present indefinite → 'does'। Positive → tag negative: 'doesn't it'।"
+  },
+  {
+    "question_id": "22b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2022",
+    "statement": "One can keep good health by following certain rules, _________ ?",
+    "correct_tag": "can't one / can't they",
+    "options": ["can't one", "can't they", "can one", "can they"],
+    "explanation_en": "Subject 'One' can take tag 'one' or 'they' (both accepted). Modal 'can' positive → tag negative: 'can't one/they'.",
+    "explanation_bn": "Subject 'One' tag-এ 'one' বা 'they' নিতে পারে (উভয়ই গ্রহণযোগ্য)। Modal 'can' positive → tag negative: 'can't one/they'।"
+  },
+  {
+    "question_id": "22c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2022",
+    "statement": "He is to eat a balanced diet, _________ ?",
+    "correct_tag": "isn't he",
+    "options": ["isn't he", "is he", "doesn't he", "does he"],
+    "explanation_en": "Verb 'is' (is to = obligation). Positive → tag negative: 'isn't he'.",
+    "explanation_bn": "Verb 'is' (is to = বাধ্যবাধকতা)। Positive → tag negative: 'isn't he'।"
+  },
+  {
+    "question_id": "22d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2022",
+    "statement": "He has to take regular physical exercise, _________ ?",
+    "correct_tag": "doesn't he",
+    "options": ["doesn't he", "does he", "hasn't he", "has he"],
+    "explanation_en": "'Has to' main verb → 'doesn't he' (as 14b).",
+    "explanation_bn": "'Has to' main verb → 'doesn't he' (14b এর মতো)।"
+  },
+  {
+    "question_id": "22e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2022",
+    "statement": "He must enjoy sound sleep, _________ ?",
+    "correct_tag": "mustn't he",
+    "options": ["mustn't he", "must he", "doesn't he", "needn't he"],
+    "explanation_en": "Modal 'must' positive → negative tag: 'mustn't he' (though in some contexts 'needn't' is possible, standard is 'mustn't').",
+    "explanation_bn": "Modal 'must' positive → negative tag: 'mustn't he' (কিছু ক্ষেত্রে 'needn't' সম্ভব, কিন্তু প্রমিত 'mustn't')।"
+  },
+  {
+    "question_id": "23a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Chattogram Board 2022",
+    "statement": "Time and tide wait for none, _________ ?",
+    "correct_tag": "do they",
+    "options": ["do they", "don't they", "does it", "doesn't it"],
+    "explanation_en": "Proverb 'Time and tide' considered plural? Actually 'wait' is plural verb. Statement positive → tag negative? But answer sheet says 'do they' (positive tag). Let's check: 'Time and tide wait for none' – 'none' makes it implicitly negative? No, 'wait for none' means 'do not wait for anyone', so the statement is negative. Therefore tag positive: 'do they'.",
+    "explanation_bn": "'Time and tide wait for none' – 'none' শব্দটি negative অর্থ দেয় (কারো জন্য অপেক্ষা করে না)। তাই বিবৃতি negative। ফলে tag positive: 'do they'।"
+  },
+  {
+    "question_id": "23b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Chattogram Board 2022",
+    "statement": "Unfortunately, many of us waste our time, _________ ?",
+    "correct_tag": "don't we",
+    "options": ["don't we", "do we", "aren't we", "are we"],
+    "explanation_en": "Subject 'many of us' → 'we'. Present indefinite positive → tag negative: 'don't we'.",
+    "explanation_bn": "Subject 'many of us' → 'we'। Present indefinite positive → tag negative: 'don't we'।"
+  },
+  {
+    "question_id": "23c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Chattogram Board 2022",
+    "statement": "None can prosper in life without utilizing time properly, _________ ?",
+    "correct_tag": "can they",
+    "options": ["can they", "can't they", "do they", "don't they"],
+    "explanation_en": "'None' negative → tag positive. Modal 'can' → 'can they'.",
+    "explanation_bn": "'None' negative → tag positive। Modal 'can' → 'can they'।"
+  },
+  {
+    "question_id": "23d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Chattogram Board 2022",
+    "statement": "So, everybody should realize this truth, _________ ?",
+    "correct_tag": "shouldn't they",
+    "options": ["shouldn't they", "should they", "don't they", "doesn't he"],
+    "explanation_en": "'Everybody' → 'they', modal 'should' positive → tag negative: 'shouldn't they'.",
+    "explanation_bn": "'Everybody' → 'they', modal 'should' positive → tag negative: 'shouldn't they'।"
+  },
+  {
+    "question_id": "23e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Chattogram Board 2022",
+    "statement": "Let's make the best use of time, _________ ?",
+    "correct_tag": "shall we",
+    "options": ["shall we", "will you", "shan't we", "won't you"],
+    "explanation_en": "'Let's' → 'shall we'.",
+    "explanation_bn": "'Let's' → 'shall we'।"
+  },
+  {
+    "question_id": "24a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Sylhet Board 2022",
+    "statement": "Nobody was present yesterday, _________ ?",
+    "correct_tag": "were they",
+    "options": ["were they", "weren't they", "was he", "wasn't he"],
+    "explanation_en": "'Nobody' negative → tag positive. Past tense 'was' but 'nobody' takes plural 'they' in tag, so 'were they'.",
+    "explanation_bn": "'Nobody' negative → tag positive। Past tense 'was' কিন্তু 'nobody' tag-এ plural 'they' নেয়, তাই 'were they'।"
+  },
+  {
+    "question_id": "24b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Sylhet Board 2022",
+    "statement": "I am an SSC examinee, _________ ?",
+    "correct_tag": "aren't I",
+    "options": ["aren't I", "am I not", "amn't I", "am I"],
+    "explanation_en": "'I am' → 'aren't I'.",
+    "explanation_bn": "'I am' → 'aren't I'।"
+  },
+  {
+    "question_id": "24c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Sylhet Board 2022",
+    "statement": "Don't tell a lie, _________ ?",
+    "correct_tag": "will you",
+    "options": ["will you", "won't you", "don't you", "do you"],
+    "explanation_en": "Negative imperative → 'will you'.",
+    "explanation_bn": "Negative imperative → 'will you'।"
+  },
+  {
+    "question_id": "24d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Sylhet Board 2022",
+    "statement": "The widower shut the door, _________ ?",
+    "correct_tag": "didn't he",
+    "options": ["didn't he", "did he", "doesn't he", "does he"],
+    "explanation_en": "Past indefinite (shut – past) → 'didn't he'.",
+    "explanation_bn": "Past indefinite (shut – past) → 'didn't he'।"
+  },
+  {
+    "question_id": "24e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Sylhet Board 2022",
+    "statement": "The idle can do little for society, _________ ?",
+    "correct_tag": "can they",
+    "options": ["can they", "can't they", "do they", "don't they"],
+    "explanation_en": "'Little' has negative meaning (almost nothing). So statement negative → tag positive. Modal 'can' → 'can they'.",
+    "explanation_bn": "'Little' negative অর্থ বহন করে (প্রায় কিছুই না)। তাই বিবৃতি negative → tag positive। Modal 'can' → 'can they'।"
+  },
+  {
+    "question_id": "25a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Barishal Board 2022",
+    "statement": "Truthfulness is a great virtue, _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Same as 9a, 10a, etc.",
+    "explanation_bn": "9a, 10a ইত্যাদির মতো।"
+  },
+  {
+    "question_id": "25b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Barishal Board 2022",
+    "statement": "Nothing is better than this quality, _________ ?",
+    "correct_tag": "is it",
+    "options": ["is it", "isn't it", "does it", "doesn't it"],
+    "explanation_en": "'Nothing' negative → tag positive: 'is it'.",
+    "explanation_bn": "'Nothing' negative → tag positive: 'is it'।"
+  },
+  {
+    "question_id": "25c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Barishal Board 2022",
+    "statement": "Everybody loves a truthful man, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "doesn't he", "do they", "does he"],
+    "explanation_en": "'Everybody' → 'they', positive → negative tag: 'don't they'.",
+    "explanation_bn": "'Everybody' → 'they', positive → negative tag: 'don't they'।"
+  },
+  {
+    "question_id": "25d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Barishal Board 2022",
+    "statement": "Follow the footprints of truthful persons, _________ ?",
+    "correct_tag": "will you",
+    "options": ["will you", "won't you", "shall we", "can you"],
+    "explanation_en": "Imperative (advice) → 'will you'.",
+    "explanation_bn": "Imperative (উপদেশ) → 'will you'।"
+  },
+  {
+    "question_id": "25e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Barishal Board 2022",
+    "statement": "Let us try to be truthful, _________ ?",
+    "correct_tag": "shall we",
+    "options": ["shall we", "will you", "shan't we", "won't you"],
+    "explanation_en": "'Let us' → 'shall we'.",
+    "explanation_bn": "'Let us' → 'shall we'।"
+  },
+  {
+    "question_id": "26a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Mymensingh Board 2022",
+    "statement": "Reading books is a good habit, _________ ?",
+    "correct_tag": "isn't it",
+    "options": ["isn't it", "is it", "doesn't it", "does it"],
+    "explanation_en": "Gerund subject singular → 'it', verb 'is' → tag negative: 'isn't it'.",
+    "explanation_bn": "Gerund subject singular → 'it', verb 'is' → tag negative: 'isn't it'।"
+  },
+  {
+    "question_id": "26b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Mymensingh Board 2022",
+    "statement": "One should read books to acquire knowledge, _________ ?",
+    "correct_tag": "shouldn't one / shouldn't they",
+    "options": ["shouldn't one", "shouldn't they", "should one", "should they"],
+    "explanation_en": "Subject 'One' → tag 'one' or 'they'. Modal 'should' positive → negative tag: 'shouldn't one/they'.",
+    "explanation_bn": "Subject 'One' → tag 'one' বা 'they'। Modal 'should' positive → negative tag: 'shouldn't one/they'।"
+  },
+  {
+    "question_id": "26c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Mymensingh Board 2022",
+    "statement": "Reading books never goes in vain, _________ ?",
+    "correct_tag": "does it",
+    "options": ["does it", "doesn't it", "is it", "isn't it"],
+    "explanation_en": "'Never' negative → tag positive. Subject 'Reading books' singular (it), verb 'goes' → 'does it'.",
+    "explanation_bn": "'Never' negative → tag positive। Subject 'Reading books' singular (it), verb 'goes' → 'does it'।"
+  },
+  {
+    "question_id": "26d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Mymensingh Board 2022",
+    "statement": "There is a saying, 'The more you read, the more you learn', _________ ?",
+    "correct_tag": "isn't there",
+    "options": ["isn't there", "is there", "doesn't it", "does it"],
+    "explanation_en": "Introductory 'There is' positive → tag negative: 'isn't there'.",
+    "explanation_bn": "Introductory 'There is' positive → tag negative: 'isn't there'।"
+  },
+  {
+    "question_id": "26e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Mymensingh Board 2022",
+    "statement": "So, a student should form the habit of reading books, _________ ?",
+    "correct_tag": "shouldn't he/she",
+    "options": ["shouldn't he", "shouldn't she", "should he", "should she"],
+    "explanation_en": "Subject 'A student' singular → tag 'he' or 'she' (generic). Modal 'should' positive → negative tag: 'shouldn't he/she'.",
+    "explanation_bn": "Subject 'A student' singular → tag 'he' বা 'she' (সাধারণভাবে)। Modal 'should' positive → negative tag: 'shouldn't he/she'।"
+  },
+  {
+    "question_id": "27a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2020",
+    "statement": "Let's have a walk outside the farm, _________ ?",
+    "correct_tag": "shall we",
+    "options": ["shall we", "will you", "shan't we", "won't you"],
+    "explanation_en": "'Let's' → 'shall we'.",
+    "explanation_bn": "'Let's' → 'shall we'।"
+  },
+  {
+    "question_id": "27b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2020",
+    "statement": "I am in the habit of walking every morning, _________ ?",
+    "correct_tag": "aren't I",
+    "options": ["aren't I", "am I not", "amn't I", "am I"],
+    "explanation_en": "'I am' → 'aren't I'.",
+    "explanation_bn": "'I am' → 'aren't I'।"
+  },
+  {
+    "question_id": "27c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2020",
+    "statement": "Morning entertains us with fresh air, _________ ?",
+    "correct_tag": "doesn't it",
+    "options": ["doesn't it", "does it", "isn't it", "is it"],
+    "explanation_en": "Subject 'Morning' singular (it), present indefinite (entertains) → 'does'. Positive → tag negative: 'doesn't it'.",
+    "explanation_bn": "Subject 'Morning' singular (it), present indefinite (entertains) → 'does'। Positive → tag negative: 'doesn't it'।"
+  },
+  {
+    "question_id": "27d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2020",
+    "statement": "No one should miss this opportunity, _________ ?",
+    "correct_tag": "should they",
+    "options": ["should they", "shouldn't they", "do they", "don't they"],
+    "explanation_en": "'No one' negative → tag positive. Modal 'should' → 'should they'.",
+    "explanation_bn": "'No one' negative → tag positive। Modal 'should' → 'should they'।"
+  },
+  {
+    "question_id": "27e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Dhaka Board 2020",
+    "statement": "Have a try to form this habit of morning walk, _________ ?",
+    "correct_tag": "will you",
+    "options": ["will you", "won't you", "shall we", "can you"],
+    "explanation_en": "Imperative (advice) → 'will you'.",
+    "explanation_bn": "Imperative (উপদেশ) → 'will you'।"
+  },
+  {
+    "question_id": "28a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2020",
+    "statement": "You surely fail if you fail to plan, _________ ?",
+    "correct_tag": "don't you",
+    "options": ["don't you", "do you", "won't you", "will you"],
+    "explanation_en": "Main clause 'You fail' (present indefinite). Positive → tag negative: 'don't you'.",
+    "explanation_bn": "মূল clause 'You fail' (present indefinite)। Positive → tag negative: 'don't you'।"
+  },
+  {
+    "question_id": "28b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2020",
+    "statement": "A good plan scarcely lets you fail, _________ ?",
+    "correct_tag": "does it",
+    "options": ["does it", "doesn't it", "is it", "isn't it"],
+    "explanation_en": "'Scarcely' negative → tag positive. Subject 'A good plan' singular (it), present indefinite (lets) → 'does it'.",
+    "explanation_bn": "'Scarcely' negative → tag positive। Subject 'A good plan' singular (it), present indefinite (lets) → 'does it'।"
+  },
+  {
+    "question_id": "28c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2020",
+    "statement": "Great people could do nothing without a plan of action, _________ ?",
+    "correct_tag": "could they",
+    "options": ["could they", "couldn't they", "did they", "didn't they"],
+    "explanation_en": "'Nothing' makes the statement negative → tag positive. Modal 'could' → 'could they'.",
+    "explanation_bn": "'Nothing' বিবৃতিকে negative করে → tag positive। Modal 'could' → 'could they'।"
+  },
+  {
+    "question_id": "28d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2020",
+    "statement": "Future also dare not fail a well-planned effort, _________ ?",
+    "correct_tag": "dare it",
+    "options": ["dare it", "dares it", "does it", "doesn't it"],
+    "explanation_en": "'Dare not' – here 'dare' is used as a modal auxiliary (negative form). So tag uses 'dare' in positive: 'dare it'.",
+    "explanation_bn": "'Dare not' – এখানে 'dare' modal auxiliary হিসেবে ব্যবহৃত (negative form)। তাই tag-এ positive 'dare' বসে: 'dare it'।"
+  },
+  {
+    "question_id": "28e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Rajshahi Board 2020",
+    "statement": "So, plan before proceed, _________ ?",
+    "correct_tag": "will you",
+    "options": ["will you", "won't you", "shall we", "can you"],
+    "explanation_en": "Imperative (advice) → 'will you'.",
+    "explanation_bn": "Imperative (উপদেশ) → 'will you'।"
+  },
+  {
+    "question_id": "29a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2020",
+    "statement": "Everybody respects freedom fighters, _________ ?",
+    "correct_tag": "don't they",
+    "options": ["don't they", "doesn't he", "do they", "does he"],
+    "explanation_en": "'Everybody' → 'they', positive → negative tag: 'don't they'.",
+    "explanation_bn": "'Everybody' → 'they', positive → negative tag: 'don't they'।"
+  },
+  {
+    "question_id": "29b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2020",
+    "statement": "They fought for the independence of our country, _________ ?",
+    "correct_tag": "didn't they",
+    "options": ["didn't they", "did they", "weren't they", "were they"],
+    "explanation_en": "Past indefinite positive → tag negative: 'didn't they'.",
+    "explanation_bn": "Past indefinite positive → tag negative: 'didn't they'।"
+  },
+  {
+    "question_id": "29c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2020",
+    "statement": "Their sacrifice has given us freedom in every sphere of life, _________ ?",
+    "correct_tag": "hasn't it",
+    "options": ["hasn't it", "has it", "didn't it", "did it"],
+    "explanation_en": "Subject 'Their sacrifice' singular (it), present perfect positive ('has given') → tag negative: 'hasn't it'.",
+    "explanation_bn": "Subject 'Their sacrifice' singular (it), present perfect positive ('has given') → tag negative: 'hasn't it'।"
+  },
+  {
+    "question_id": "29d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2020",
+    "statement": "Their names are written in golden letters, _________ ?",
+    "correct_tag": "aren't they",
+    "options": ["aren't they", "are they", "don't they", "do they"],
+    "explanation_en": "Subject 'Their names' plural, present passive 'are written' → tag negative: 'aren't they'.",
+    "explanation_bn": "Subject 'Their names' plural, present passive 'are written' → tag negative: 'aren't they'।"
+  },
+  {
+    "question_id": "29e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Jashore Board 2020",
+    "statement": "We should never forget them, _________ ?",
+    "correct_tag": "should we",
+    "options": ["should we", "shouldn't we", "do we", "don't we"],
+    "explanation_en": "'Never' negative → tag positive. Modal 'should' → 'should we'.",
+    "explanation_bn": "'Never' negative → tag positive। Modal 'should' → 'should we'।"
+  },
+  {
+    "question_id": "30a",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2020",
+    "statement": "The freedom fighters are the real heroes, _________ ?",
+    "correct_tag": "aren't they",
+    "options": ["aren't they", "are they", "don't they", "do they"],
+    "explanation_en": "Subject plural, verb 'are' → tag negative: 'aren't they'.",
+    "explanation_bn": "Subject plural, verb 'are' → tag negative: 'aren't they'।"
+  },
+  {
+    "question_id": "30b",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2020",
+    "statement": "Nothing is greater than their sacrifice, _________ ?",
+    "correct_tag": "is it",
+    "options": ["is it", "isn't it", "does it", "doesn't it"],
+    "explanation_en": "'Nothing' negative → tag positive: 'is it'.",
+    "explanation_bn": "'Nothing' negative → tag positive: 'is it'।"
+  },
+  {
+    "question_id": "30c",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2020",
+    "statement": "Their contribution for our country will always be remembered, _________ ?",
+    "correct_tag": "won't it",
+    "options": ["won't it", "will it", "doesn't it", "does it"],
+    "explanation_en": "Subject 'Their contribution' singular (it), future tense 'will be' positive → tag negative: 'won't it'.",
+    "explanation_bn": "Subject 'Their contribution' singular (it), future tense 'will be' positive → tag negative: 'won't it'।"
+  },
+  {
+    "question_id": "30d",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2020",
+    "statement": "We should never neglect them, _________ ?",
+    "correct_tag": "should we",
+    "options": ["should we", "shouldn't we", "do we", "don't we"],
+    "explanation_en": "'Never' negative → tag positive: 'should we'.",
+    "explanation_bn": "'Never' negative → tag positive: 'should we'।"
+  },
+  {
+    "question_id": "30e",
+    "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
+    "exam_appearance": "Cumilla Board 2020",
+    "statement": "Every citizen of Bangladesh must have due respect for them, _________ ?",
+    "correct_tag": "mustn't they",
+    "options": ["mustn't they", "must they", "don't they", "doesn't he"],
+    "explanation_en": "'Every citizen' → 'they' in tag. Modal 'must' positive → tag negative: 'mustn't they'.",
+    "explanation_bn": "'Every citizen' → tag-এ 'they'। Modal 'must' positive → tag negative: 'mustn't they'।"
+  }
+]
