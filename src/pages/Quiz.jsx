@@ -13,6 +13,7 @@ import {
     addMistake, advanceStage, resetStage,
     getMistakesDueCount, getReviewSession, clearReviewSession
 } from '../services/review';
+import GapFillPassage from '../components/GapFillPassage';
 
 const stripMath = (text) => {
   if (!text) return '';
@@ -201,6 +202,46 @@ const Quiz = () => {
             [opts[i], opts[j]] = [opts[j], opts[i]];
         }
         return opts;
+    }, [questions, currentIndex]);
+
+    const gapFillGroup = useMemo(() => {
+        const q = questions[currentIndex];
+        if (!q?.passage || !q?.blankId) return null;
+
+        const blanks = [];
+        let endIdx = currentIndex;
+
+        for (let i = currentIndex; i < questions.length; i++) {
+            const qi = questions[i];
+            if (!qi.blankId || qi.passage !== q.passage) break;
+            blanks.push({
+                blankId: qi.blankId,
+                id: qi.blankId,
+                correct: qi.options?.[qi.correct] || '',
+                correct_answer: qi.options?.[qi.correct] || '',
+                explanation_bn: qi.explanation || '',
+                explanation_en: qi.explanation_en || '',
+                options: (qi.options || []).map((opt, idx) => ({
+                    text: opt,
+                    isCorrect: idx === qi.correct,
+                    explanationBn: qi.explanation || '',
+                    explanationEn: qi.explanation_en || '',
+                })),
+                correctText: qi.options?.[qi.correct] || '',
+            });
+            endIdx = i;
+        }
+
+        if (blanks.length === 0) return null;
+
+        return {
+            passage: q.passage,
+            boxWords: q.boxWords || [],
+            difficulty: q.difficulty || 'medium',
+            blanks,
+            startIndex: currentIndex,
+            endIndex: endIdx,
+        };
     }, [questions, currentIndex]);
 
     const { chapterId } = useParams();
@@ -538,192 +579,250 @@ const Quiz = () => {
 
             <div className="flex-1 flex flex-col min-h-0 mt-3 md:mt-4">
                 <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[32px] flex-1 flex flex-col p-4 md:p-5 overflow-hidden">
-                    {currentQ.passage && (
-                        <div className="mb-3 p-3 rounded-xl border border-white/5 bg-white/5 space-y-2 shrink-0 max-h-24 overflow-y-auto">
-                            {currentQ.blankId && (
-                                <p className="text-[9px] font-black uppercase tracking-[0.3em] text-primary/60">
-                                    SSC Gap Filling - Blank ({currentQ.blankId})
-                                </p>
-                            )}
-                            <p className="text-white/70 text-xs leading-relaxed font-medium whitespace-pre-wrap">
-                                {stripMath(currentQ.passage)}
-                            </p>
-                            {(currentQ.boxWords || []).length > 0 && (
-                                <div className="flex flex-wrap gap-1.5 pt-1">
-                                    {currentQ.boxWords.map((word) => (
-                                        <span key={word} className="px-2 py-0.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-[9px] font-black uppercase tracking-widest">
-                                            {stripMath(word)}
-                                        </span>
-                                    ))}
-                                </div>
-                            )}
-                        </div>
-                    )}
+                    {gapFillGroup ? (
+                        <GapFillPassage
+                            passage={gapFillGroup.passage}
+                            blanks={gapFillGroup.blanks}
+                            boxWords={gapFillGroup.boxWords}
+                            difficulty={gapFillGroup.difficulty}
+                            onBlankAnswer={(blankId, isCorrect, selectedText) => {
+                                if (isCorrect) setScore(s => s + 1);
 
-                    <div className="flex items-center gap-2 mb-2 flex-wrap shrink-0">
-                        <span className={`text-[7px] font-black px-2 py-0.5 rounded-full uppercase border ${currentQ.difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
-                            currentQ.difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :
-                                'text-emerald-400 border-emerald-400/20 bg-emerald-400/5'
-                            }`}>{currentQ.difficulty}</span>
-                        {currentQ.source && currentQ.source !== 'unknown' && (
-                            <span className="text-[7px] font-black px-2 py-0.5 rounded-full border border-white/10 bg-white/5 text-white/30 uppercase tracking-wider">
-                                {currentQ.source}
-                            </span>
-                        )}
-                        {currentQ.chapter_tag && (
-                            <span className="text-[7px] font-black px-2 py-0.5 rounded-full border border-primary/20 bg-primary/5 text-primary/50 uppercase tracking-wider">
-                                {currentQ.chapter_tag}
-                            </span>
-                        )}
-                    </div>
+                                const blankIdx = gapFillGroup.blanks.findIndex(b => b.blankId === blankId);
+                                if (blankIdx < 0) return;
+                                const actualQ = questions[gapFillGroup.startIndex + blankIdx];
+                                if (!actualQ) return;
 
-                    <h3 className="font-black text-white leading-tight mb-2 selection:bg-primary/30 tracking-tight text-[15px] md:text-lg lg:text-xl max-h-[25vh] overflow-y-auto">
-                        {stripMath(currentQ.text)}
-                    </h3>
+                                if (!isCorrect) {
+                                    if (actualQ._mistakeId) {
+                                        resetStage(actualQ._mistakeId);
+                                    } else {
+                                        addMistake(actualQ.id || blankId, actualQ, { file, title, chapterId });
+                                    }
+                                    setMistakeCount(getMistakesDueCount());
+                                }
 
-                    <div className="flex-1 relative overflow-hidden">
-                        <AnimatePresence mode="wait">
-                            {!isAnswered ? (
-                                <motion.div
-                                    key="options"
-                                    initial={{ opacity: 0 }}
-                                    animate={{ opacity: 1 }}
-                                    exit={{ opacity: 0, x: -30 }}
-                                    transition={{ duration: 0.2 }}
-                                    className={`absolute inset-0 flex flex-col justify-center ${isManyOptions ? 'space-y-1.5' : 'space-y-2'}`}
-                                >
-                                    {shuffledOptions && shuffledOptions.map((option, idx) => {
-                                        let state = 'idle';
-                                        if (isAnswered) {
-                                            if (option.originalIdx === currentQ.correct) state = 'correct';
-                                            else if (idx === selectedOption) state = 'wrong';
-                                            else state = 'dimmed';
-                                        } else if (selectedOption === idx) {
-                                            state = 'selected';
-                                        }
+                                setResults(prev => [...prev, {
+                                    id: actualQ.id,
+                                    isCorrect,
+                                    selected: selectedText,
+                                    time_spent: 0,
+                                }]);
 
-                                        return (
-                                            <button
-                                                key={idx}
-                                                disabled={isAnswered}
-                                                onClick={(e) => handleOptionSelect(idx, e)}
-                                                className={`w-full text-left ${isManyOptions ? 'px-2 md:px-3 py-1.5 md:py-2' : 'px-3 md:px-4 py-2.5 md:py-3'} rounded-xl md:rounded-2xl border-2 transition-all flex items-center justify-between group/opt active:scale-[0.99] ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-lg shadow-emerald-500/5' :
-                                                    state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300 shadow-lg shadow-yellow-500/5' :
-                                                        state === 'selected' ? 'bg-primary/20 border-primary text-white shadow-2xl shadow-primary/20 scale-[1.01]' :
-                                                            state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30 scale-[0.98]' :
-                                                                'bg-white/[0.07] border-white/10 text-white/60 hover:border-white/30 hover:bg-white/[0.12] hover:text-white hover:shadow-lg hover:shadow-white/5'
-                                                    }`}
-                                            >
-                                                <div className={`flex items-center ${isManyOptions ? 'gap-1.5 md:gap-2' : 'gap-2 md:gap-3'}`}>
-                                                    <span className={`w-6 h-6 md:w-7 md:h-7 rounded-lg md:rounded-xl flex items-center justify-center text-[10px] md:text-xs font-black border transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
-                                                        state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
-                                                            state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
-                                                                'bg-black/40 border-white/15 text-white/40 group-hover/opt:border-white/30 group-hover/opt:text-white'
-                                                        }`}>
-                                                        {String.fromCharCode(65 + idx)}
-                                                    </span>
-                                                    <span className="font-bold tracking-tight text-sm md:text-base">{stripMath(option.text)}</span>
-                                                </div>
-                                                {state === 'correct' && <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-emerald-400 animate-in zoom-in-0 shrink-0" />}
-                                                {state === 'wrong' && (
-                                                    <svg className="w-4 h-4 md:w-5 md:h-5 text-yellow-300 animate-in zoom-in-0 shrink-0" viewBox="0 0 24 24" fill="currentColor">
-                                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                                                    </svg>
-                                                )}
-                                            </button>
-                                        );
-                                    })}
-                                </motion.div>
-                            ) : (
-                                <motion.div
-                                    key="feedback"
-                                    initial={{ opacity: 0, x: 30 }}
-                                    animate={{ opacity: 1, x: 0 }}
-                                    exit={{ opacity: 0, x: 30 }}
-                                    transition={{ duration: 0.2 }}
-                                    className="absolute inset-0 flex flex-col"
-                                >
-                                    {isCurrentCorrect ? (
-                                        <div className="flex-1 flex flex-col bg-emerald-500/[0.07] border border-emerald-500/20 rounded-2xl p-4 gap-3">
-                                            <div className="flex items-center gap-2 shrink-0">
-                                                <CheckCircle className="w-5 h-5 text-emerald-400 shrink-0" />
-                                                <h4 className="text-emerald-400 font-black text-sm uppercase tracking-wider">Correct!</h4>
-                                            </div>
-                                            <div
-                                                className="flex-1 overflow-y-auto min-h-0 space-y-1 -mx-1 px-1"
-                                                dangerouslySetInnerHTML={{
-                                                    __html: formatExplanation(currentQ.explanation) || '<p class="text-white/60 text-sm">Well done!</p>'
-                                                }}
-                                            />
-                                            {currentQ.explanation_video_url && (
-                                                <a
-                                                    href={currentQ.explanation_video_url}
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                    className="inline-flex items-center gap-1.5 text-emerald-400/70 hover:text-emerald-400 text-[9px] font-black uppercase tracking-widest transition-colors shrink-0"
-                                                >
-                                                    <Video className="w-3 h-3" />
-                                                    Watch Video Breakdown
-                                                </a>
-                                            )}
-                                            <button
-                                                onClick={handleNext}
-                                                className="w-full py-3 bg-emerald-500 text-black rounded-xl font-black uppercase tracking-widest text-[10px] shrink-0 active:scale-[0.98] transition-all hover:bg-emerald-400"
-                                            >
-                                                {currentIndex < questions.length - 1 ? 'Continue' : 'Finish Lesson'}
-                                            </button>
-                                        </div>
-                                    ) : (
-                                        <div className="flex-1 flex flex-col bg-yellow-500/[0.07] border border-yellow-500/20 rounded-2xl p-4 gap-3">
-                                            <div className="flex items-center gap-2 shrink-0">
-                                                <motion.div
-                                                    animate={{ scale: [1, 1.2, 1], rotate: [0, 8, -8, 0] }}
-                                                    transition={{ duration: 0.7, repeat: Infinity, repeatDelay: 2 }}
-                                                >
-                                                    <svg className="w-5 h-5 text-yellow-300 shrink-0" viewBox="0 0 24 24" fill="currentColor">
-                                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                                                    </svg>
-                                                </motion.div>
-                                                <h4 className="text-yellow-300 font-black text-sm uppercase tracking-wider">Keep going!</h4>
-                                            </div>
-
-                                            <div className="flex flex-wrap items-center gap-2 shrink-0">
-                                                <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-yellow-500/15 border border-yellow-500/25">
-                                                    <CheckCircle className="w-3 h-3 text-yellow-300 shrink-0" />
-                                                    <span className="text-[9px] font-black uppercase tracking-wider text-yellow-300/60">Correct answer:</span>
-                                                    <span className="math-font text-yellow-300 font-bold text-sm">{stripMath(correctAnswerText)}</span>
-                                                </div>
-                                            </div>
-
-                                            <p className="text-white/60 text-xs font-medium leading-relaxed shrink-0">
-                                                Mistakes are opportunities to learn. A star has been added to your balance — review it to collect.
-                                            </p>
-
-                                            <div className="flex-1 overflow-y-auto min-h-0 space-y-1 -mx-1 px-1"
-                                                dangerouslySetInnerHTML={{
-                                                    __html: formatExplanation(currentQ.explanation) || ''
-                                                }}
-                                            />
-
-                                            <button
-                                                onClick={handleNext}
-                                                className="w-full py-3 bg-yellow-500 text-black rounded-xl font-black uppercase tracking-widest text-[10px] shrink-0 active:scale-[0.98] transition-all hover:bg-yellow-400"
-                                            >
-                                                Got it
-                                            </button>
+                                api.saveResponse({
+                                    user_id: user.id,
+                                    question_id: actualQ.id,
+                                    chapter_id: chapterId,
+                                    chapter_title: title,
+                                    source_file: file,
+                                    question_text: actualQ.text,
+                                    selected_option_text: selectedText,
+                                    correct_option_text: actualQ.options?.[actualQ.correct] || '',
+                                    is_correct: isCorrect,
+                                    time_spent: 0,
+                                });
+                            }}
+                            onContinue={() => {
+                                const nextIndex = gapFillGroup.endIndex + 1;
+                                if (nextIndex < questions.length) {
+                                    setCurrentIndex(nextIndex);
+                                    setSelectedOption(null);
+                                    setIsAnswered(false);
+                                } else {
+                                    setIsFinished(true);
+                                }
+                            }}
+                        />
+                    ) : (
+                        <>
+                            {currentQ.passage && (
+                                <div className="mb-3 p-3 rounded-xl border border-white/5 bg-white/5 space-y-2 shrink-0 max-h-24 overflow-y-auto">
+                                    {currentQ.blankId && (
+                                        <p className="text-[9px] font-black uppercase tracking-[0.3em] text-primary/60">
+                                            SSC Gap Filling - Blank ({currentQ.blankId})
+                                        </p>
+                                    )}
+                                    <p className="text-white/70 text-xs leading-relaxed font-medium whitespace-pre-wrap">
+                                        {stripMath(currentQ.passage)}
+                                    </p>
+                                    {(currentQ.boxWords || []).length > 0 && (
+                                        <div className="flex flex-wrap gap-1.5 pt-1">
+                                            {currentQ.boxWords.map((word) => (
+                                                <span key={word} className="px-2 py-0.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-[9px] font-black uppercase tracking-widest">
+                                                    {stripMath(word)}
+                                                </span>
+                                            ))}
                                         </div>
                                     )}
-                                </motion.div>
+                                </div>
                             )}
-                        </AnimatePresence>
-                    </div>
 
-                    {!isAnswered && (
-                        <div className="mt-2 pt-2 border-t border-white/5 shrink-0">
-                            <p className="text-[8px] text-white/20 font-medium text-center">
-                                Wrong answers are saved for spaced repetition review
-                            </p>
-                        </div>
+                            <div className="flex items-center gap-2 mb-2 flex-wrap shrink-0">
+                                <span className={`text-[7px] font-black px-2 py-0.5 rounded-full uppercase border ${currentQ.difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
+                                    currentQ.difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :
+                                        'text-emerald-400 border-emerald-400/20 bg-emerald-400/5'
+                                    }`}>{currentQ.difficulty}</span>
+                                {currentQ.source && currentQ.source !== 'unknown' && (
+                                    <span className="text-[7px] font-black px-2 py-0.5 rounded-full border border-white/10 bg-white/5 text-white/30 uppercase tracking-wider">
+                                        {currentQ.source}
+                                    </span>
+                                )}
+                                {currentQ.chapter_tag && (
+                                    <span className="text-[7px] font-black px-2 py-0.5 rounded-full border border-primary/20 bg-primary/5 text-primary/50 uppercase tracking-wider">
+                                        {currentQ.chapter_tag}
+                                    </span>
+                                )}
+                            </div>
+
+                            <h3 className="font-black text-white leading-tight mb-2 selection:bg-primary/30 tracking-tight text-[15px] md:text-lg lg:text-xl max-h-[25vh] overflow-y-auto">
+                                {stripMath(currentQ.text)}
+                            </h3>
+
+                            <div className="flex-1 relative overflow-hidden">
+                                <AnimatePresence mode="wait">
+                                    {!isAnswered ? (
+                                        <motion.div
+                                            key="options"
+                                            initial={{ opacity: 0 }}
+                                            animate={{ opacity: 1 }}
+                                            exit={{ opacity: 0, x: -30 }}
+                                            transition={{ duration: 0.2 }}
+                                            className={`absolute inset-0 flex flex-col justify-center ${isManyOptions ? 'space-y-1.5' : 'space-y-2'}`}
+                                        >
+                                            {shuffledOptions && shuffledOptions.map((option, idx) => {
+                                                let state = 'idle';
+                                                if (isAnswered) {
+                                                    if (option.originalIdx === currentQ.correct) state = 'correct';
+                                                    else if (idx === selectedOption) state = 'wrong';
+                                                    else state = 'dimmed';
+                                                } else if (selectedOption === idx) {
+                                                    state = 'selected';
+                                                }
+
+                                                return (
+                                                    <button
+                                                        key={idx}
+                                                        disabled={isAnswered}
+                                                        onClick={(e) => handleOptionSelect(idx, e)}
+                                                        className={`w-full text-left ${isManyOptions ? 'px-2 md:px-3 py-1.5 md:py-2' : 'px-3 md:px-4 py-2.5 md:py-3'} rounded-xl md:rounded-2xl border-2 transition-all flex items-center justify-between group/opt active:scale-[0.99] ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-lg shadow-emerald-500/5' :
+                                                            state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300 shadow-lg shadow-yellow-500/5' :
+                                                                state === 'selected' ? 'bg-primary/20 border-primary text-white shadow-2xl shadow-primary/20 scale-[1.01]' :
+                                                                    state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30 scale-[0.98]' :
+                                                                        'bg-white/[0.07] border-white/10 text-white/60 hover:border-white/30 hover:bg-white/[0.12] hover:text-white hover:shadow-lg hover:shadow-white/5'
+                                                            }`}
+                                                    >
+                                                        <div className={`flex items-center ${isManyOptions ? 'gap-1.5 md:gap-2' : 'gap-2 md:gap-3'}`}>
+                                                            <span className={`w-6 h-6 md:w-7 md:h-7 rounded-lg md:rounded-xl flex items-center justify-center text-[10px] md:text-xs font-black border transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
+                                                                state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
+                                                                    state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
+                                                                        'bg-black/40 border-white/15 text-white/40 group-hover/opt:border-white/30 group-hover/opt:text-white'
+                                                                }`}>
+                                                                {String.fromCharCode(65 + idx)}
+                                                            </span>
+                                                            <span className="font-bold tracking-tight text-sm md:text-base">{stripMath(option.text)}</span>
+                                                        </div>
+                                                        {state === 'correct' && <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-emerald-400 animate-in zoom-in-0 shrink-0" />}
+                                                        {state === 'wrong' && (
+                                                            <svg className="w-4 h-4 md:w-5 md:h-5 text-yellow-300 animate-in zoom-in-0 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                                            </svg>
+                                                        )}
+                                                    </button>
+                                                );
+                                            })}
+                                        </motion.div>
+                                    ) : (
+                                        <motion.div
+                                            key="feedback"
+                                            initial={{ opacity: 0, x: 30 }}
+                                            animate={{ opacity: 1, x: 0 }}
+                                            exit={{ opacity: 0, x: 30 }}
+                                            transition={{ duration: 0.2 }}
+                                            className="absolute inset-0 flex flex-col"
+                                        >
+                                            {isCurrentCorrect ? (
+                                                <div className="flex-1 flex flex-col bg-emerald-500/[0.07] border border-emerald-500/20 rounded-2xl p-4 gap-3">
+                                                    <div className="flex items-center gap-2 shrink-0">
+                                                        <CheckCircle className="w-5 h-5 text-emerald-400 shrink-0" />
+                                                        <h4 className="text-emerald-400 font-black text-sm uppercase tracking-wider">Correct!</h4>
+                                                    </div>
+                                                    <div
+                                                        className="flex-1 overflow-y-auto min-h-0 space-y-1 -mx-1 px-1"
+                                                        dangerouslySetInnerHTML={{
+                                                            __html: formatExplanation(currentQ.explanation) || '<p class="text-white/60 text-sm">Well done!</p>'
+                                                        }}
+                                                    />
+                                                    {currentQ.explanation_video_url && (
+                                                        <a
+                                                            href={currentQ.explanation_video_url}
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            className="inline-flex items-center gap-1.5 text-emerald-400/70 hover:text-emerald-400 text-[9px] font-black uppercase tracking-widest transition-colors shrink-0"
+                                                        >
+                                                            <Video className="w-3 h-3" />
+                                                            Watch Video Breakdown
+                                                        </a>
+                                                    )}
+                                                    <button
+                                                        onClick={handleNext}
+                                                        className="w-full py-3 bg-emerald-500 text-black rounded-xl font-black uppercase tracking-widest text-[10px] shrink-0 active:scale-[0.98] transition-all hover:bg-emerald-400"
+                                                    >
+                                                        {currentIndex < questions.length - 1 ? 'Continue' : 'Finish Lesson'}
+                                                    </button>
+                                                </div>
+                                            ) : (
+                                                <div className="flex-1 flex flex-col bg-yellow-500/[0.07] border border-yellow-500/20 rounded-2xl p-4 gap-3">
+                                                    <div className="flex items-center gap-2 shrink-0">
+                                                        <motion.div
+                                                            animate={{ scale: [1, 1.2, 1], rotate: [0, 8, -8, 0] }}
+                                                            transition={{ duration: 0.7, repeat: Infinity, repeatDelay: 2 }}
+                                                        >
+                                                            <svg className="w-5 h-5 text-yellow-300 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                                            </svg>
+                                                        </motion.div>
+                                                        <h4 className="text-yellow-300 font-black text-sm uppercase tracking-wider">Keep going!</h4>
+                                                    </div>
+
+                                                    <div className="flex flex-wrap items-center gap-2 shrink-0">
+                                                        <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-yellow-500/15 border border-yellow-500/25">
+                                                            <CheckCircle className="w-3 h-3 text-yellow-300 shrink-0" />
+                                                            <span className="text-[9px] font-black uppercase tracking-wider text-yellow-300/60">Correct answer:</span>
+                                                            <span className="math-font text-yellow-300 font-bold text-sm">{stripMath(correctAnswerText)}</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <p className="text-white/60 text-xs font-medium leading-relaxed shrink-0">
+                                                        Mistakes are opportunities to learn. A star has been added to your balance — review it to collect.
+                                                    </p>
+
+                                                    <div className="flex-1 overflow-y-auto min-h-0 space-y-1 -mx-1 px-1"
+                                                        dangerouslySetInnerHTML={{
+                                                            __html: formatExplanation(currentQ.explanation) || ''
+                                                        }}
+                                                    />
+
+                                                    <button
+                                                        onClick={handleNext}
+                                                        className="w-full py-3 bg-yellow-500 text-black rounded-xl font-black uppercase tracking-widest text-[10px] shrink-0 active:scale-[0.98] transition-all hover:bg-yellow-400"
+                                                    >
+                                                        Got it
+                                                    </button>
+                                                </div>
+                                            )}
+                                        </motion.div>
+                                    )}
+                                </AnimatePresence>
+                            </div>
+
+                            {!isAnswered && (
+                                <div className="mt-2 pt-2 border-t border-white/5 shrink-0">
+                                    <p className="text-[8px] text-white/20 font-medium text-center">
+                                        Wrong answers are saved for spaced repetition review
+                                    </p>
+                                </div>
+                            )}
+                        </>
                     )}
                 </div>
             </div>
