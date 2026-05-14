@@ -25,6 +25,11 @@
               "file": "/ssc/english/prepositions.json"
             },
             {
+              "id": "ssc_connectors",
+              "name": "Connectors",
+              "file": "/ssc/english/connectors.json"
+            },
+            {
               "id": "ssc_suffix_prefix",
               "name": "Suffixes and Prefixes",
               "file": "/ssc/english/suffix_prefix.json"
