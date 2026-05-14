@@ -310,7 +310,8 @@
             {
               "id": "hsc_fin1_ch1",
               "name": "Chapter 1 Questions",
-              "file_bn": "/hsc/finance_1st/chapter_1.json"
+              "file_bn": "/hsc/finance_1st/chapter_1.json",
+              "file_en": "/hsc/finance_1st/english/chapter_1.json"
             }
           ],
           "name_bn": "অধ্যায় 1: অর্থায়ন পরিচিতি",
@@ -323,7 +324,8 @@
             {
               "id": "hsc_fin1_ch2",
               "name": "Chapter 2 Questions",
-              "file_bn": "/hsc/finance_1st/chapter_2.json"
+              "file_bn": "/hsc/finance_1st/chapter_2.json",
+              "file_en": "/hsc/finance_1st/english/chapter_2.json"
             }
           ],
           "name_bn": "অধ্যায় 2: আর্থিক বাজারের আইনগত দিকসমূহ",
@@ -336,7 +338,8 @@
             {
               "id": "hsc_fin1_ch3",
               "name": "Chapter 3 Questions",
-              "file_bn": "/hsc/finance_1st/chapter_3.json"
+              "file_bn": "/hsc/finance_1st/chapter_3.json",
+              "file_en": "/hsc/finance_1st/english/chapter_3.json"
             }
           ],
           "name_bn": "অধ্যায় 3: অর্থের সময়মূল্য",
@@ -349,7 +352,8 @@
             {
               "id": "hsc_fin1_ch4",
               "name": "Chapter 4 Questions",
-              "file_bn": "/hsc/finance_1st/chapter_4.json"
+              "file_bn": "/hsc/finance_1st/chapter_4.json",
+              "file_en": "/hsc/finance_1st/english/chapter_4.json"
             }
           ],
           "name_bn": "অধ্যায় 4: আর্থিক বিশ্লেষণ",
@@ -362,7 +366,8 @@
             {
               "id": "hsc_fin1_ch5",
               "name": "Chapter 5 Questions",
-              "file_bn": "/hsc/finance_1st/chapter_5.json"
+              "file_bn": "/hsc/finance_1st/chapter_5.json",
+              "file_en": "/hsc/finance_1st/english/chapter_5.json"
             }
           ],
           "name_bn": "অধ্যায় 5: স্বল্প ও মধ্যমেয়াদি অর্থায়ন",
@@ -375,7 +380,8 @@
             {
               "id": "hsc_fin1_ch6",
               "name": "Chapter 6 Questions",
-              "file_bn": "/hsc/finance_1st/chapter_6.json"
+              "file_bn": "/hsc/finance_1st/chapter_6.json",
+              "file_en": "/hsc/finance_1st/english/chapter_6.json"
             }
           ],
           "name_bn": "অধ্যায় 6: দীর্ঘমেয়াদি অর্থায়ন",
@@ -388,7 +394,8 @@
             {
               "id": "hsc_fin1_ch7",
               "name": "Chapter 7 Questions",
-              "file_bn": "/hsc/finance_1st/chapter_7.json"
+              "file_bn": "/hsc/finance_1st/chapter_7.json",
+              "file_en": "/hsc/finance_1st/english/chapter_7.json"
             }
           ],
           "name_bn": "অধ্যায় 7: মূলধন ব্যয়",
@@ -401,7 +408,8 @@
             {
               "id": "hsc_fin1_ch8",
               "name": "Chapter 8 Questions",
-              "file_bn": "/hsc/finance_1st/chapter_8.json"
+              "file_bn": "/hsc/finance_1st/chapter_8.json",
+              "file_en": "/hsc/finance_1st/english/chapter_8.json"
             }
           ],
           "name_bn": "অধ্যায় 8: মূলধন বাজেটিং ও বিনিয়োগ সিদ্ধান্ত",
@@ -414,7 +422,8 @@
             {
               "id": "hsc_fin1_ch9",
               "name": "Chapter 9 Questions",
-              "file_bn": "/hsc/finance_1st/chapter_9.json"
+              "file_bn": "/hsc/finance_1st/chapter_9.json",
+              "file_en": "/hsc/finance_1st/english/chapter_9.json"
             }
           ],
           "name_bn": "অধ্যায় 9: ঝুঁকি ও মুনাফার হার",

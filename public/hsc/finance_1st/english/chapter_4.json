@@ -1,0 +1,561 @@
+[
+  {
+    "id": 145,
+    "question": "How many methods of financial statement analysis are there?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "B",
+    "explanation": "The main methods of financial statement analysis are three: 1. Comparative financial statement analysis, 2. Ratio analysis, and 3. Break-even point analysis. Cash flow analysis is another important method.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 146,
+    "question": "What happens in short-term financing?",
+    "options": {
+      "A": "The organization has no control",
+      "B": "Creditors have partial control",
+      "C": "The organization has full control",
+      "D": "The organization has partial control"
+    },
+    "answer": "B",
+    "explanation": "In short-term financing, creditors have partial control. They may impose some controls as loan conditions, but not full control as in long-term financing.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 147,
+    "question": "Mr. Akbar compares financial analyses of different years to identify changes in the current year's financial position and their causes. Which method of financial analysis does he use?",
+    "options": {
+      "A": "Index number time series",
+      "B": "Comparative financial statement",
+      "C": "Cooperative financial statement",
+      "D": "Ratio analysis"
+    },
+    "answer": "B",
+    "explanation": "Mr. Akbar is comparing financial data of different years and identifying changes and their causes, which is characteristic of comparative financial statement analysis.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 148,
+    "question": "At which point are income and expenditure equal?",
+    "options": {
+      "A": "Break-even point",
+      "B": "Income-expenditure statement",
+      "C": "Balance sheet",
+      "D": "Equity statement"
+    },
+    "answer": "A",
+    "explanation": "At the break-even point, total income and total expenditure are equal. At this point, the organization has neither profit nor loss.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 149,
+    "question": "What is the distance from the break-even point to actual sales called?",
+    "options": {
+      "A": "Margin of safety",
+      "B": "Income distance",
+      "C": "Cost distance",
+      "D": "Surplus distance"
+    },
+    "answer": "A",
+    "explanation": "The distance from the break-even point to actual sales is called the margin of safety. It indicates how secure the organization is and how much sales can decrease before it becomes unprofitable.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 150,
+    "question": "A firm's net profit is Tk 1,00,000 and depreciation is Tk 50,000. The firm purchased furniture of Tk 1,00,000 and raw materials of Tk 20,000. The firm has to pay Tk 20,000 in interest. What is the free cash flow of the firm?",
+    "options": {
+      "A": "Tk 10,000",
+      "B": "Tk 20,000",
+      "C": "Tk 30,000",
+      "D": "Tk 20,000"
+    },
+    "answer": "A",
+    "explanation": "FCF = Net profit + Depreciation - Investment in fixed assets - Investment in current assets = 1,00,000 + 50,000 - 1,00,000 - 20,000 = 30,000. Then minus interest = 30,000 - 20,000 = Tk 10,000.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 151,
+    "question": "What is it called when cash comes into a business?",
+    "options": {
+      "A": "Income",
+      "B": "Cash fund",
+      "C": "Cash outflow",
+      "D": "Cash inflow"
+    },
+    "answer": "D",
+    "explanation": "When cash comes into a business, it is called cash inflow. When cash goes out, it is called cash outflow.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 152,
+    "question": "B2F Ltd.'s earnings before interest and tax is Tk 2,00,000, depreciation is Tk 50,000, and tax rate is 30%. According to the financing method, what will be the net operating cash flow?",
+    "options": {
+      "A": "Tk 1,05,000",
+      "B": "Tk 1,90,000",
+      "C": "Tk 2,10,000",
+      "D": "Tk 2,75,000"
+    },
+    "answer": "B",
+    "explanation": "Net operating cash flow = EBIT×(1-tax rate) + Depreciation = 2,00,000×(1-0.30) + 50,000 = 2,00,000×0.70 + 50,000 = 1,40,000 + 50,000 = Tk 1,90,000.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 153,
+    "question": "Profit from the sale of fixed assets is included in which type of activity in the cash flow statement?",
+    "options": {
+      "A": "Operating",
+      "B": "Investing",
+      "C": "Financing",
+      "D": "Production"
+    },
+    "answer": "B",
+    "explanation": "Profit from the sale of fixed assets is included in investing activities in the cash flow statement. All transactions related to the purchase and sale of fixed assets are part of investing activities.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 154,
+    "question": "What is the formula for determining free cash flow?",
+    "options": {
+      "A": "Operating cash flow - Net investment in fixed assets - Net investment in current assets",
+      "B": "Operating cash flow - Net investment in fixed assets + Net investment in current assets",
+      "C": "Operating cash flow - Investment in current assets",
+      "D": "Operating cash flow - Dividend"
+    },
+    "answer": "A",
+    "explanation": "The formula for determining Free Cash Flow is: FCF = Operating cash flow - Net investment in fixed assets - Net investment in current assets.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 155,
+    "question": "Bata Shoe Ltd.'s selling price per unit is Tk 50. Variable cost per unit is Tk 30. The company's fixed operating cost is Tk 20,000. What will be Bata Shoe Ltd.'s break-even point in units?",
+    "options": {
+      "A": "1,000 units",
+      "B": "2,000 units",
+      "C": "3,000 units",
+      "D": "4,000 units"
+    },
+    "answer": "A",
+    "explanation": "Contribution margin = Selling price - Variable cost = 50 - 30 = Tk 20. BEP (units) = Fixed cost / Contribution margin = 20,000 / 20 = 1,000 units.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 156,
+    "question": "What are sundry debtors called?",
+    "options": {
+      "A": "Current liability",
+      "B": "Fixed asset",
+      "C": "Current asset",
+      "D": "Long-term liability"
+    },
+    "answer": "C",
+    "explanation": "Sundry debtors (Accounts Receivable) are current assets. They are amounts owed to the organization that are likely to be collected within one year.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 157,
+    "question": "What are activities related to the purchase and sale of long-term assets called?",
+    "options": {
+      "A": "Operating",
+      "B": "Investing",
+      "C": "Financing",
+      "D": "Dividend"
+    },
+    "answer": "B",
+    "explanation": "Activities related to the purchase and sale of long-term assets are called investing activities. This is an important part of the cash flow statement.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 158,
+    "question": "Changes in current assets are included in which of the following?",
+    "options": {
+      "A": "Operating",
+      "B": "Financing",
+      "C": "Investing",
+      "D": "Dividend"
+    },
+    "answer": "A",
+    "explanation": "Changes in current assets are included in operating activities. Changes in current assets resulting from daily business activities are shown in operating cash flow.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 159,
+    "question": "New share issuance is included in which type of activity?",
+    "options": {
+      "A": "Operating",
+      "B": "Investing",
+      "C": "Financing",
+      "D": "Dividend"
+    },
+    "answer": "C",
+    "explanation": "New share issuance is included in financing activities. Through this, the company raises capital from the market, which is a financing-related transaction.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 160,
+    "question": "Which of the following is considered in the cash cycle?",
+    "options": {
+      "A": "Collection time",
+      "B": "Cash money",
+      "C": "Bank deposit",
+      "D": "Average receivable period"
+    },
+    "answer": "D",
+    "explanation": "In the cash cycle, the average receivable period is considered. The cash cycle is the period from cash payment for raw material purchase to cash receipt from product sales.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 161,
+    "question": "Which of the following is a profit planning technique?",
+    "options": {
+      "A": "Break-even point",
+      "B": "Internal rate of return",
+      "C": "Cash flow statement",
+      "D": "Net present value"
+    },
+    "answer": "A",
+    "explanation": "Break-even point analysis is an important profit planning technique. It shows at what sales volume income and expenditure will be equal and when profit will begin.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 162,
+    "question": "Through which of the following is the company's activity ratio or efficiency verification ratio done?",
+    "options": {
+      "A": "Average collection period ratio",
+      "B": "Net profit ratio",
+      "C": "Asset productivity ratio",
+      "D": "Interest earning ratio"
+    },
+    "answer": "A",
+    "explanation": "The average collection period ratio is used to verify the company's activity or efficiency. It measures how quickly receivables are being collected.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 163,
+    "question": "Which of the following is included in operating cash flow?",
+    "options": {
+      "A": "Dividend payment",
+      "B": "Increase in receivables",
+      "C": "Dividend receipt",
+      "D": "Bond increase"
+    },
+    "answer": "C",
+    "explanation": "Dividend receipt is included in operating cash flow. On the other hand, dividend payment is part of financing activities. Increase in receivables is a change in current assets.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 164,
+    "question": "If the average debt collection period is 60 days considering a 360-day year, how many times is the accounts receivable turnover?",
+    "options": {
+      "A": "6 times",
+      "B": "10 times",
+      "C": "36 times",
+      "D": "60 times"
+    },
+    "answer": "A",
+    "explanation": "Accounts receivable turnover = 360 days / Average collection period = 360 / 60 = 6 times. That is, accounts receivable turns over 6 times a year.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 165,
+    "question": "Working Capital = ?",
+    "options": {
+      "A": "Current assets - Current liabilities",
+      "B": "Current assets - Fixed liabilities",
+      "C": "Fixed assets - Current liabilities",
+      "D": "Fixed assets - Fixed liabilities"
+    },
+    "answer": "A",
+    "explanation": "Working Capital = Current assets - Current liabilities. It is an important indicator for measuring the short-term financial solvency of an organization.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 166,
+    "question": "An organization's opening retained earnings is Tk 10,000, closing retained earnings is Tk 20,000, and dividend paid is Tk 3,000. What is the net income for the current year?",
+    "options": {
+      "A": "Tk 7,000",
+      "B": "Tk 10,000",
+      "C": "Tk 13,000",
+      "D": "Tk 20,000"
+    },
+    "answer": "C",
+    "explanation": "Net income = Closing retained earnings - Opening retained earnings + Dividend paid = 20,000 - 10,000 + 3,000 = Tk 13,000.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 167,
+    "question": "If a firm's total profit for a 1-year accounting period is divided by sales, what will be obtained?",
+    "options": {
+      "A": "Total asset turnover rate",
+      "B": "Gross profit ratio",
+      "C": "Total assets",
+      "D": "Total profit"
+    },
+    "answer": "B",
+    "explanation": "Gross profit / Net sales = Gross profit ratio. This indicates the percentage rate of gross profit on sales.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 168,
+    "question": "Through which of the following can it be known how much money a company's shareholders own?",
+    "options": {
+      "A": "Income statement",
+      "B": "Balance sheet",
+      "C": "Cash flow statement",
+      "D": "Statement of shareholders' equity"
+    },
+    "answer": "D",
+    "explanation": "From the Statement of Shareholders' Equity, it can be known how much money shareholders own in the company. It shows the change in ownership equity.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 169,
+    "question": "What is it called when cash comes into a business?",
+    "options": {
+      "A": "Cash flow",
+      "B": "Income",
+      "C": "Outflow",
+      "D": "Cash inflow"
+    },
+    "answer": "D",
+    "explanation": "The arrival of cash in a business is called cash inflow. It indicates the amount of cash coming into the business.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 170,
+    "question": "The factors influencing break-even point determination are- i. Fixed cost ii. Variable cost iii. Opportunity cost",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Fixed cost and variable cost influence break-even point determination. Opportunity cost is not a consideration here. BEP = Fixed cost / (Selling price - Variable cost).",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 171,
+    "question": "The formula for determining fixed cost is- i. Grants received - Profit ii. Total cost - Variable cost iii. Grants received + Variable cost",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "The formula for determining fixed cost: Total cost - Variable cost (ii). Also, fixed cost = Grants received + Variable cost (iii). Formula i is not correct.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 172,
+    "question": "Various methods or techniques of financial analysis are- i. Comparative financial statement analysis ii. Break-even analysis iii. Cash flow analysis",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The main techniques of financial analysis include comparative financial statement analysis, break-even analysis, and cash flow analysis. Ratio analysis is also included.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 173,
+    "question": "Components of financing activities are- i. Share issuance ii. Bond issuance iii. Dividend payment",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Components of financing activities include share issuance (capital raising), bond issuance (debt raising), and dividend payment (profit distribution).",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 174,
+    "question": "External analysis is done by- i. Investors ii. Banks iii. Debtors",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Investors, banks, and debtors all conduct external analysis. As parties outside the organization, they make decisions by analyzing financial statements.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 175,
+    "question": "Mr. Sujoy is working as a financial manager of Joya Financing Ltd... the aspects he needs to analyze are- i. Cash forecast ii. Change in financial position iii. Break-even analysis",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "As a financial manager, Mr. Sujoy needs to conduct cash forecasting, change in financial position analysis, and break-even analysis. These are important parts of financial analysis.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 176,
+    "question": "Working capital is used- i. To purchase raw materials ii. To pay wages and salaries iii. To purchase machinery",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Working capital is used for daily operating expenses like purchasing raw materials and paying wages and salaries. Machinery purchase falls under fixed capital.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 177,
+    "question": "Financial analysis is necessary for the financial manager because- i. It helps in making investment decisions ii. It helps in making financing decisions iii. It helps in making dividend-related decisions",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Financial analysis assists the financial manager in all areas: investment decisions, financing decisions, and dividend decisions. It is the foundation for making informed decisions.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 178,
+    "question": "Financial analysis is needed- i. In investment decisions ii. In financing decisions iii. In dividend decisions",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Financial analysis is needed in the three fundamental decisions of finance: investment, financing, and dividend decisions. It ensures data-driven decision making.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 179,
+    "question": "The cash flow statement shows- i. Assets ii. Liabilities iii. Income and expenditure",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "The cash flow statement shows changes in assets and income and expenditure. It explains the reasons for the inflow and outflow of cash. Changes in liabilities are also shown, but not separately in the same way.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 180,
+    "question": "The factors influencing break-even point determination are- i. Fixed cost ii. Variable cost iii. Opportunity cost",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Fixed cost and variable cost play an important role in break-even point determination. Opportunity cost is not a direct element in determining the break-even point.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 181,
+    "question": "Break-even point assumptions include- i. General price level will not change ii. Workers' efficiency will not change iii. New technology will not be used",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "The assumptions of break-even point analysis are: the general price level will not change and workers' efficiency will not change. Not using new technology is not an included assumption.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 182,
+    "question": "[Stimulus] XYZ Company Ltd. produces and sells ballpoint pens. The selling price of each ballpoint pen is Tk 5 and variable cost is Tk 3. Fixed cost is Tk 20,000. How many pens must be sold to cover total costs?",
+    "options": {
+      "A": "5,000",
+      "B": "10,000",
+      "C": "50,000",
+      "D": "20,000"
+    },
+    "answer": "B",
+    "explanation": "BEP (units) = Fixed cost / (Selling price - Variable cost) = 20,000 / (5 - 3) = 20,000 / 2 = 10,000 units.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 183,
+    "question": "What is the break-even sales amount in Taka?",
+    "options": {
+      "A": "Tk 20,000",
+      "B": "Tk 30,000",
+      "C": "Tk 40,000",
+      "D": "Tk 50,000"
+    },
+    "answer": "D",
+    "explanation": "BEP (Taka) = BEP units × Selling price = 10,000 × 5 = Tk 50,000.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 184,
+    "question": "[Stimulus] Mr. Rafiq is about to start a manufacturing company... selling price per unit is Tk 100... fixed cost is Tk 2,00,000, variable cost per unit is Tk 60. To achieve Mr. Rafiq's initial objective, how many units of the product must be sold?",
+    "options": {
+      "A": "1,250",
+      "B": "2,000",
+      "C": "5,000",
+      "D": "10,000"
+    },
+    "answer": "C",
+    "explanation": "BEP (units) = Fixed cost / (Selling price - Variable cost) = 2,00,000 / (100 - 60) = 2,00,000 / 40 = 5,000 units.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 185,
+    "question": "If the product's selling price increases by 10%- i. Variable cost will decrease ii. Break-even sales units will decrease iii. Contribution margin will increase",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "If the selling price increases, the contribution margin increases (iii) and break-even sales units decrease (ii). However, variable cost remains unchanged, it does not decrease (i is wrong).",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 186,
+    "question": "[Stimulus] Mr. Zaman is the proprietor of Zaman Properties Ltd... For Zaman Properties Ltd., what type of party will Mr. Hasan Properties Ltd. be considered?",
+    "options": {
+      "A": "Internal party",
+      "B": "Middle party",
+      "C": "External party",
+      "D": "Business party"
+    },
+    "answer": "C",
+    "explanation": "Mr. Hasan Properties Ltd. is an external party. Because it is a different organization with which Zaman Properties Ltd. is merging.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 187,
+    "question": "In the case of merger, Mr. Zaman will verify the following aspects of financial statement analysis- i. Cash flow ii. Debt and ownership ratio iii. Total asset turnover",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "In a merger, cash flow, debt and ownership ratio, and total asset turnover are all important aspects of analysis. These indicate the financial health and efficiency of the organization.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  }
+]

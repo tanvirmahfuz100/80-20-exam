@@ -1,0 +1,639 @@
+[
+  {
+    "id": 43,
+    "question": "Which is the most acceptable medium of exchange?",
+    "options": {
+      "A": "Money",
+      "B": "Cheque",
+      "C": "ATM card",
+      "D": "Debit card"
+    },
+    "answer": "A",
+    "explanation": "Money (currency) is the universal and most acceptable medium of exchange. It can be used to buy any product or service. Cheques, ATM cards, or debit cards are alternative media but are not directly accepted everywhere.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 44,
+    "question": "What is the full form of IPO?",
+    "options": {
+      "A": "Initial Republic Offering",
+      "B": "Initial Public Offering",
+      "C": "International Public Offer",
+      "D": "Initial Public Offering"
+    },
+    "answer": "B",
+    "explanation": "IPO stands for Initial Public Offering. When a company first raises capital by selling shares to the general public, it is called an IPO.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 45,
+    "question": "Which is the regulatory body of the capital market?",
+    "options": {
+      "A": "Bangladesh Bank",
+      "B": "BSEC",
+      "C": "DSE",
+      "D": "CSE"
+    },
+    "answer": "B",
+    "explanation": "BSEC (Bangladesh Securities and Exchange Commission) is the main regulatory body of Bangladesh's capital market. It regulates the stock market, stock exchanges, and other securities-related activities.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 46,
+    "question": "Which is a capital market instrument?",
+    "options": {
+      "A": "Treasury bill",
+      "B": "Repurchase agreement",
+      "C": "Commercial paper",
+      "D": "Common share"
+    },
+    "answer": "D",
+    "explanation": "Common shares are an important capital market instrument. They are a medium for long-term fund collection. Treasury bills and commercial papers, on the other hand, are money market (short-term) instruments.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 47,
+    "question": "In which year was Bangladesh Bank established?",
+    "options": {
+      "A": "16 December 1971",
+      "B": "16 December 1972",
+      "C": "16 December 1973",
+      "D": "16 December 1974"
+    },
+    "answer": "A",
+    "explanation": "Bangladesh Bank was established on 16 December 1971. It is the central bank of Bangladesh, which formulates and implements the country's monetary policy and regulates the banking sector.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 48,
+    "question": "What percentage of total deposits do banks other than scheduled banks hold in cash?",
+    "options": {
+      "A": "2%",
+      "B": "5%",
+      "C": "9%",
+      "D": "10%"
+    },
+    "answer": "B",
+    "explanation": "Banks other than scheduled banks must maintain 5% of their total deposits as cash reserve (Cash Reserve Ratio) with Bangladesh Bank. This is a tool for controlling liquidity in the banking sector.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 49,
+    "question": "Which is the regulatory body for microcredit?",
+    "options": {
+      "A": "SEC",
+      "B": "MRA",
+      "C": "DSE",
+      "D": "CSE"
+    },
+    "answer": "B",
+    "explanation": "MRA (Microcredit Regulatory Authority) is the regulatory body for microcredit activities in Bangladesh. It regulates and supervises the activities of microcredit-providing institutions (NGO-MFIs).",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 50,
+    "question": "Who controls the money market?",
+    "options": {
+      "A": "BSEC",
+      "B": "Bangladesh Bank",
+      "C": "DSE",
+      "D": "IDRA"
+    },
+    "answer": "B",
+    "explanation": "Bangladesh Bank is the main regulator of the country's money market. It performs the duties of monetary policy formulation, banking sector regulation, and money supply management.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 51,
+    "question": "Who can buy and sell shares on the stock exchange?",
+    "options": {
+      "A": "Broker house",
+      "B": "Security house",
+      "C": "Any buyer-seller",
+      "D": "SEC"
+    },
+    "answer": "A",
+    "explanation": "Only registered broker houses or stock brokers can buy and sell shares on the stock exchange. General investors must conduct transactions through brokers.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 52,
+    "question": "Which is the highest regulatory institution of Bangladesh's capital market?",
+    "options": {
+      "A": "Bank",
+      "B": "Insurance",
+      "C": "Insurance",
+      "D": "BSEC"
+    },
+    "answer": "D",
+    "explanation": "BSEC (Bangladesh Securities and Exchange Commission) is the highest regulatory institution of Bangladesh's capital market. It is an independent commission formed under the Securities Act.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 53,
+    "question": "Which is the regulatory body in the capital market?",
+    "options": {
+      "A": "Bangladesh Bank",
+      "B": "BSEC",
+      "C": "DSE",
+      "D": "CSE"
+    },
+    "answer": "B",
+    "explanation": "The regulatory body of the capital market is BSEC. Bangladesh Bank regulates the money market, while BSEC regulates the stock market and related institutions.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 54,
+    "question": "What is the maximum tenure of commercial paper?",
+    "options": {
+      "A": "40 days",
+      "B": "60 days",
+      "C": "90 days",
+      "D": "270 days"
+    },
+    "answer": "D",
+    "explanation": "The maximum tenure of commercial paper can be up to 270 days or 9 months. It is a short-term fund collection instrument used in the money market.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 55,
+    "question": "Who is the regulatory body of the capital market?",
+    "options": {
+      "A": "Securities and Exchange Commission",
+      "B": "Bangladesh Bank",
+      "C": "Sonali Bank",
+      "D": "Dhaka Stock Exchange"
+    },
+    "answer": "A",
+    "explanation": "The Securities and Exchange Commission (BSEC) is the main regulatory body of the capital market. It supervises the activities of the stock market, mutual funds, merchant banks, etc.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 56,
+    "question": "Which is a risk-free investment?",
+    "options": {
+      "A": "Share",
+      "B": "Debenture",
+      "C": "Bond",
+      "D": "Treasury bill"
+    },
+    "answer": "D",
+    "explanation": "Treasury bills are short-term debt securities issued by the government, considered nearly risk-free investments. The government never goes bankrupt and guarantees timely payment.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 57,
+    "question": "Which is NOT a negotiable instrument?",
+    "options": {
+      "A": "Cheque",
+      "B": "Bill of exchange",
+      "C": "Promissory note",
+      "D": "Registration certificate"
+    },
+    "answer": "D",
+    "explanation": "A registration certificate is not a negotiable instrument. Negotiable instruments include cheques, bills of exchange, promissory notes, bills receivable, etc., which can be easily transferred from one person to another.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 58,
+    "question": "Who is an external user of financial statements?",
+    "options": {
+      "A": "Shareholder",
+      "B": "Financial manager",
+      "C": "Investor",
+      "D": "Manager"
+    },
+    "answer": "C",
+    "explanation": "An investor is an external user of financial statements. They are outside the company and use financial information to make investment decisions. Shareholders and managers are internal users.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 59,
+    "question": "What is the market where financial documents are bought and sold called?",
+    "options": {
+      "A": "Capital market",
+      "B": "Money market",
+      "C": "Financial market",
+      "D": "Capital market"
+    },
+    "answer": "C",
+    "explanation": "A financial market is a market where various types of financial documents or securities (shares, bonds, debentures, treasury bills, etc.) are bought and sold. The capital market and money market are part of it.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 60,
+    "question": "At which stage of the money laundering process does the sale of property purchased with illegal money occur?",
+    "options": {
+      "A": "Integration",
+      "B": "Placement",
+      "C": "Layering",
+      "D": "Money laundering"
+    },
+    "answer": "A",
+    "explanation": "Integration is the third and final stage of the money laundering process, where property purchased with illegal money is legally sold to make the money appear as legitimate income. Placement is the first step and layering the second step.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 61,
+    "question": "Which law is applicable for operating leasing companies in Bangladesh?",
+    "options": {
+      "A": "Banking Company Act-1991",
+      "B": "Companies Act-1994",
+      "C": "Financial Institutions Act-1993",
+      "D": "Insurance Act-2010"
+    },
+    "answer": "C",
+    "explanation": "The Financial Institutions Act-1993 is applicable for operating leasing companies in Bangladesh. Under this law, leasing companies and other financial institutions are registered and regulated.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 62,
+    "question": "What is determined first in government finance?",
+    "options": {
+      "A": "Amount of income",
+      "B": "Amount of profit",
+      "C": "Amount of expenditure",
+      "D": "Amount of risk"
+    },
+    "answer": "C",
+    "explanation": "In government finance, the amount of expenditure is determined first, then the income (revenue) target is set accordingly. That is, how much money needs to be spent is determined first, then the plan for collecting that money is made.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 63,
+    "question": "What is the market where a company first issues shares called?",
+    "options": {
+      "A": "Primary market",
+      "B": "Money market",
+      "C": "Secondary market",
+      "D": "Capital market"
+    },
+    "answer": "A",
+    "explanation": "The primary market is where a company first issues shares to raise capital from the public. Here, shares are sold through an IPO.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 64,
+    "question": "What is the main basis of a partnership business?",
+    "options": {
+      "A": "Partnership",
+      "B": "Agreement",
+      "C": "Money",
+      "D": "Good faith relationship"
+    },
+    "answer": "B",
+    "explanation": "The main basis of a partnership business is the agreement. Partners form and operate a business through an agreement. This agreement specifies profit-loss sharing, capital, responsibilities, etc.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 65,
+    "question": "What is the liability of shareholders in a limited company?",
+    "options": {
+      "A": "Unlimited",
+      "B": "Limited",
+      "C": "Voluntary",
+      "D": "Indefinite"
+    },
+    "answer": "B",
+    "explanation": "In a limited company, the liability of shareholders is limited. That is, the personal assets of a shareholder are not liable for the company's debts. They are only liable up to the value of their purchased shares.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 66,
+    "question": "How many types of insurance are there generally?",
+    "options": {
+      "A": "2 types",
+      "B": "3 types",
+      "C": "4 types",
+      "D": "5 types"
+    },
+    "answer": "A",
+    "explanation": "Insurance is generally of two types: Life Insurance and General Insurance (or Marine Insurance). Life insurance deals with human life, while general insurance deals with property and liability.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 67,
+    "question": "Which is the second stock market of Bangladesh?",
+    "options": {
+      "A": "Chittagong Stock Exchange",
+      "B": "Dhaka Stock Exchange",
+      "C": "Bangladesh Bank",
+      "D": "Bangladesh Securities and Exchange Commission"
+    },
+    "answer": "A",
+    "explanation": "The second stock market of Bangladesh is the Chittagong Stock Exchange (CSE). The first and main stock market is the Dhaka Stock Exchange (DSE). Currently, these two stock exchanges are operational in the country.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 68,
+    "question": "In which year was the Money Laundering Prevention Act enacted?",
+    "options": {
+      "A": "2010",
+      "B": "2002",
+      "C": "2011",
+      "D": "2013"
+    },
+    "answer": "A",
+    "explanation": "The Money Laundering Prevention Act was enacted in Bangladesh in 2010. It is an important law for preventing illegal money laundering and money laundering.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 69,
+    "question": "In which year was the Money Laundering Prevention Act enacted?",
+    "options": {
+      "A": "2010",
+      "B": "2002",
+      "C": "2011",
+      "D": "2013"
+    },
+    "answer": "A",
+    "explanation": "The Money Laundering Prevention Act was enacted in 2010. This law contains strict provisions for preventing money laundering and terrorist financing.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 70,
+    "question": "How many members form a partnership business?",
+    "options": {
+      "A": "5-10 members",
+      "B": "2-20 members",
+      "C": "10-15 members",
+      "D": "15-20 members"
+    },
+    "answer": "B",
+    "explanation": "A partnership business can be formed with a minimum of 2 and a maximum of 20 members. For banking business, the maximum number of members is 10.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 71,
+    "question": "Which market does BSEC regulate?",
+    "options": {
+      "A": "Gold",
+      "B": "Silver",
+      "C": "Money",
+      "D": "Capital"
+    },
+    "answer": "D",
+    "explanation": "BSEC (Bangladesh Securities and Exchange Commission) regulates the capital market. It supervises the trading of securities like the stock market, bonds, debentures, etc.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 72,
+    "question": "What is done first in government finance?",
+    "options": {
+      "A": "Determining income amount",
+      "B": "Determining profit",
+      "C": "Determining expenditure amount",
+      "D": "Determining risk"
+    },
+    "answer": "C",
+    "explanation": "In government finance, the amount of expenditure is determined first. When preparing the budget, first how much will be spent on different sectors is determined, then the revenue income target is set accordingly.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 73,
+    "question": "In which year was BSEC formed?",
+    "options": {
+      "A": "1991",
+      "B": "1992",
+      "C": "1993",
+      "D": "1994"
+    },
+    "answer": "C",
+    "explanation": "BSEC (Bangladesh Securities and Exchange Commission) was established on 8 June 1993. It was formed under the Securities and Exchange Ordinance 1969.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 74,
+    "question": "What year is the Insurance Act of Bangladesh?",
+    "options": {
+      "A": "2003",
+      "B": "2007",
+      "C": "2010",
+      "D": "2012"
+    },
+    "answer": "C",
+    "explanation": "The Insurance Act was enacted in Bangladesh in 2010. This law created a legal framework for the regulation and supervision of the insurance sector.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 75,
+    "question": "How many types of insurance are there generally?",
+    "options": {
+      "A": "2 types",
+      "B": "3 types",
+      "C": "4 types",
+      "D": "5 types"
+    },
+    "answer": "A",
+    "explanation": "Insurance is generally of two types: Life Insurance and General Insurance. Life insurance covers the risk of a person's life, while general insurance covers the risk of property and goods.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 76,
+    "question": "Which is a risk-free investment?",
+    "options": {
+      "A": "Share",
+      "B": "Bond",
+      "C": "Debenture",
+      "D": "Treasury bill"
+    },
+    "answer": "D",
+    "explanation": "Treasury bills are short-term debt securities issued by the government. They are considered risk-free investments because there is no possibility of the government going bankrupt and the money is guaranteed to be returned on time.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 77,
+    "question": "Who issues treasury bills?",
+    "options": {
+      "A": "Commerce Minister",
+      "B": "Finance Minister",
+      "C": "Finance Secretary",
+      "D": "Government"
+    },
+    "answer": "D",
+    "explanation": "The government issues treasury bills. Bangladesh Bank performs the duty of issuing and selling treasury bills on behalf of the government. It is a medium of short-term borrowing for the government.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 78,
+    "question": "To list a new company on the stock market, which organization's approval is required?",
+    "options": {
+      "A": "SEC",
+      "B": "IDRA",
+      "C": "MRA",
+      "D": "DSE"
+    },
+    "answer": "A",
+    "explanation": "To list a new company on the stock market (to issue an IPO), SEC or BSEC's approval is required. BSEC grants approval after verifying the company's financial condition, business plan, etc.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 79,
+    "question": "What was the previous name of the Negotiable Instruments Act?",
+    "options": {
+      "A": "Transferable Document",
+      "B": "Returnable Document",
+      "C": "Final Document",
+      "D": "Bill of Exchange"
+    },
+    "answer": "A",
+    "explanation": "The previous name of the Negotiable Instruments Act was the 'Transferable Documents Act.' It determines the legal aspects of transferable documents like cheques, bills of exchange, and promissory notes.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 80,
+    "question": "Which institution works to maintain the economic stability of a country?",
+    "options": {
+      "A": "Money market",
+      "B": "Securities and Exchange Commission",
+      "C": "Central bank",
+      "D": "Commercial bank"
+    },
+    "answer": "C",
+    "explanation": "The central bank plays a key role in maintaining the economic stability of a country. Bangladesh Bank maintains economic stability by formulating monetary policy, controlling inflation, and maintaining the stability of the banking sector.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 81,
+    "question": "For what reason is additional capital demand felt in a business organization?",
+    "options": {
+      "A": "Efficient currency management",
+      "B": "Management",
+      "C": "Business expansion",
+      "D": "Planning formulation"
+    },
+    "answer": "C",
+    "explanation": "Additional capital is needed for business expansion. Opening new branches, producing new products, expanding markets, etc., creates demand for additional funds.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 82,
+    "question": "Which is a negotiable instrument?",
+    "options": {
+      "A": "Debit card",
+      "B": "Credit card",
+      "C": "Cheque",
+      "D": "Visa card"
+    },
+    "answer": "C",
+    "explanation": "A cheque is a negotiable instrument. It can be easily transferred from one person to another and guarantees payment through it.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 83,
+    "question": "What is the main basis of a partnership business?",
+    "options": {
+      "A": "Multiple objectives",
+      "B": "Loan collection",
+      "C": "Execution of agreement",
+      "D": "Accepting new partner"
+    },
+    "answer": "C",
+    "explanation": "The main basis of a partnership business is the execution of an agreement. Partners determine their business relationship, profit-loss distribution, amount of capital, etc., through an agreement.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 84,
+    "question": "Government bonds are bought by- i. Commercial banks ii. Financial institutions iii. Individual investors",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Government bonds (Treasury bonds) can be bought by commercial banks, financial institutions, and individual investors. It is a safe investment medium.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 85,
+    "question": "Characteristics of the stock market are- i. It is a primary market ii. It is a secondary market iii. It is an organized market",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "The stock market or stock exchange is a secondary market and an organized market. In the primary market, shares are first issued, while in the stock market, old shares are bought and sold.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 86,
+    "question": "Financial risk depends on- i. Amount of debt capital ii. Tax rate iii. Sales volume",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Financial risk mainly depends on the amount of debt capital and tax rate. More debt increases the pressure of interest payment, which increases financial risk. The tax rate also affects financial risk.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 87,
+    "question": "Bond issuing authorities in Bangladesh are- i. Investors ii. Companies iii. Government",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Bond issuing authorities in Bangladesh are companies (corporate bonds) and the government (treasury bonds/savings certificates). Investors buy bonds, they do not issue them.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 88,
+    "question": "Functions of Bangladesh Bank are- i. Circulation of notes and coins ii. Controlling credit iii. Acting as banker to the government",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The main functions of Bangladesh Bank include the circulation of notes and coins, controlling credit, and acting as banker to the government. Additionally, it formulates monetary policy and preserves foreign currency reserves.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 89,
+    "question": "Special powers of the Special Judge under the Money Laundering Act are- i. Further investigation ii. Attachment iii. Property confiscation order",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The special powers of the Special Judge under the Money Laundering Act include ordering further investigation, attaching property, and ordering property confiscation. These powers are important in preventing illegal money laundering.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 90,
+    "question": "[Stimulus] Mr. Rauf is a director of ABC Bank. Out of his 1 lakh shares, he tries to sell 30,000 shares to his friend and 40,000 shares to his daughter. He succeeds in selling shares to his friend but fails to sell shares to his daughter due to legal barriers. Due to which law did Mr. Rauf fail to sell shares to his daughter?",
+    "options": {
+      "A": "Companies Act 1994",
+      "B": "Financial Institutions Act 1993",
+      "C": "Bank Company Act 1991",
+      "D": "Partnership Act 1932"
+    },
+    "answer": "C",
+    "explanation": "According to the Bank Company Act 1991, a bank director cannot sell shares to their close relatives. This is a provision to avoid conflict of interest. Hence, selling to his daughter was legally barred.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 91,
+    "question": "In the stimulus, which is a money market instrument?",
+    "options": {
+      "A": "Preference share",
+      "B": "Common share",
+      "C": "Commercial paper",
+      "D": "Debenture"
+    },
+    "answer": "B",
+    "explanation": "Common shares are an important capital market (capital market) instrument. Since the stimulus refers to share selling, this refers to common shares.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  }
+]
