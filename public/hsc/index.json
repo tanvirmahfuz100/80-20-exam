@@ -391,8 +391,21 @@
               "file_bn": "/hsc/finance_1st/chapter_7.json"
             }
           ],
-          "name_bn": "অধ্যায় 7: মূলধন বাজেটিং ও বিনিয়োগ সিদ্ধান্ত",
-          "name_en": "Chapter 7: Capital Budgeting and Investment Decision"
+          "name_bn": "অধ্যায় 7: মূলধন ব্যয়",
+          "name_en": "Chapter 7: Cost of Capital"
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8",
+          "chapters": [
+            {
+              "id": "hsc_fin1_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/finance_1st/chapter_8.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 8: মূলধন বাজেটিং ও বিনিয়োগ সিদ্ধান্ত",
+          "name_en": "Chapter 8: Capital Budgeting and Investment Decision"
         },
         {
           "id": "chapter_9",
