@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Play, Lock, Clock, User, CheckCircle, Search } from 'lucide-react';
+import { Play, Lock, User } from 'lucide-react';
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
+import { Books } from '../components/Illustrations';
 
 const Courses = () => {
-    const { user, profile } = useAuth();
+    const { profile } = useAuth();
     const [courses, setCourses] = useState([]);
     const [loading, setLoading] = useState(true);
     const [filter, setFilter] = useState('All');
@@ -32,25 +33,24 @@ const Courses = () => {
     );
 
     return (
-        <div className="max-w-7xl mx-auto space-y-12">
-            {/* Header */}
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
+        <div className="max-w-7xl mx-auto space-y-8 md:space-y-12">
+            <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 md:gap-8">
                 <div>
-                    <h1 className="text-5xl md:text-6xl font-black text-white italic tracking-tighter mb-4">
-                        MASTER <span className="text-primary not-italic uppercase">EVERYTHING.</span>
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter mb-3 md:mb-4">
+                        MASTER <span className="text-primary uppercase">EVERYTHING.</span>
                     </h1>
                     <p className="text-white/30 font-bold uppercase tracking-widest text-[10px]">
                         Video lessons from the best instructors
                     </p>
                 </div>
 
-                {/* Categories */}
-                <div className="bg-surface border border-white/5 p-1.5 rounded-2xl flex gap-1 shadow-2xl overflow-x-auto no-scrollbar">
+                <div className="bg-surface border border-white/5 p-1.5 rounded-xl md:rounded-2xl flex gap-1 shadow-lg overflow-x-auto no-scrollbar">
                     {categories.map(cat => (
                         <button
                             key={cat}
                             onClick={() => setFilter(cat)}
-                            className={`px-5 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all shrink-0 ${filter === cat ? 'bg-primary text-white shadow-lg' : 'text-white/20 hover:text-white/40'}`}
+                            className={`px-4 md:px-5 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all shrink-0 ${filter === cat ? 'bg-primary text-white shadow-lg' : 'text-white/20 hover:text-white/40'
+                                }`}
                         >
                             {cat}
                         </button>
@@ -58,32 +58,31 @@ const Courses = () => {
                 </div>
             </div>
 
-            {/* Courses Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
                 {filteredCourses.length > 0 ? filteredCourses.map((course) => (
-                    <div key={course.id} className="bg-surface border border-white/5 rounded-[2.5rem] overflow-hidden group hover:border-primary/30 transition-all shadow-2xl flex flex-col">
+                    <div key={course.id} className="bg-surface border border-white/5 rounded-2xl md:rounded-[2.5rem] overflow-hidden group hover:border-primary/30 transition-all shadow-lg flex flex-col">
                         <div className="relative aspect-video overflow-hidden">
                             <img
                                 src={course.cover_image_url || 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80'}
                                 alt={course.title}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-60 group-hover:opacity-80"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent"></div>
+                            <div className="absolute inset-0 bg-black/40"></div>
                             {course.is_premium && (
-                                <div className="absolute top-4 right-4 px-3 py-1 bg-yellow-500 text-black text-[9px] font-black uppercase tracking-widest rounded-full shadow-lg">
+                                <div className="absolute top-4 right-4 px-3 py-1 bg-reward text-black text-[9px] font-black uppercase tracking-widest rounded-full shadow-lg">
                                     Premium
                                 </div>
                             )}
                         </div>
 
-                        <div className="p-8 flex-1 flex flex-col space-y-4">
+                        <div className="p-6 md:p-8 flex-1 flex flex-col space-y-4">
                             <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-primary/60">
                                 <span>{course.exam_category}</span>
                                 <span className="w-1 h-1 bg-white/10 rounded-full"></span>
                                 <span>{course.lessons?.length || 0} Lessons</span>
                             </div>
 
-                            <h3 className="text-2xl font-black text-white italic tracking-tight group-hover:text-primary transition-colors leading-tight">
+                            <h3 className="text-xl md:text-2xl font-black text-white tracking-tight group-hover:text-primary transition-colors leading-tight">
                                 {course.title}
                             </h3>
 
@@ -102,9 +101,9 @@ const Courses = () => {
 
                             <button
                                 disabled={course.is_premium && profile?.plan_type !== 'premium'}
-                                className={`w-full py-4 rounded-2xl font-black uppercase tracking-widest text-[10px] transition-all flex items-center justify-center gap-2 ${course.is_premium && profile?.plan_type !== 'premium'
+                                className={`w-full py-3 md:py-4 rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] ${course.is_premium && profile?.plan_type !== 'premium'
                                         ? 'bg-white/5 text-white/20 cursor-not-allowed'
-                                        : 'bg-primary hover:bg-primary-hover text-white shadow-xl shadow-primary/20 active:scale-95'
+                                        : 'bg-primary hover:bg-primary-hover text-white shadow-lg shadow-primary/20'
                                     }`}
                             >
                                 {course.is_premium && profile?.plan_type !== 'premium' ? (
@@ -116,7 +115,8 @@ const Courses = () => {
                         </div>
                     </div>
                 )) : (
-                    <div className="col-span-full py-20 text-center border-2 border-dashed border-white/5 rounded-[3rem]">
+                    <div className="col-span-full py-16 md:py-20 text-center border-2 border-dashed border-white/5 rounded-2xl md:rounded-[3rem] flex flex-col items-center gap-4">
+                        <Books className="w-20 h-20 md:w-28 md:h-28 opacity-15" />
                         <p className="text-white/10 font-black uppercase tracking-widest">More Courses Coming Soon!</p>
                     </div>
                 )}

@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Target, TrendingUp, AlertTriangle, CheckCircle2, BarChart3, Brain, Activity, Clock, Download } from 'lucide-react';
+import { Target, TrendingUp, AlertTriangle, CheckCircle2, Brain, Activity, Download } from 'lucide-react';
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
+import { ChartUp, Trophy } from '../components/Illustrations';
 
 const Analytics = () => {
     const { user, profile } = useAuth();
@@ -110,106 +111,105 @@ const Analytics = () => {
     const readinessScore = stats ? Math.min(Math.round((stats.accuracy / 100) * 85 + (stats.totalPracticed / 500) * 15), 100) : 0;
 
     return (
-        <div className="max-w-7xl mx-auto space-y-12">
-            {/* Intel Header */}
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
+        <div className="max-w-7xl mx-auto space-y-8 md:space-y-12">
+            <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 md:gap-8">
                 <div>
-                    <h1 className="text-5xl md:text-6xl font-black text-white italic tracking-tighter mb-4 uppercase">
-                        NEURAL <span className="text-primary not-italic">REPORT.</span>
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter mb-3 md:mb-4 uppercase">
+                        NEURAL <span className="text-primary">REPORT.</span>
                     </h1>
                     <p className="text-white/30 font-bold uppercase tracking-widest text-[10px] flex items-center gap-2">
                         <Activity className="w-3 h-3 text-emerald-500" /> Live Data Synchronization Active
                     </p>
                 </div>
 
-                <div className="bg-surface border border-white/5 p-6 rounded-[2rem] flex items-center gap-6 shadow-2xl">
+                <div className="bg-surface border border-white/5 p-5 md:p-6 rounded-2xl md:rounded-[2rem] flex items-center gap-4 md:gap-6 shadow-lg">
                     <div className="text-right">
                         <p className="text-[10px] font-black uppercase tracking-widest text-white/30 mb-1">Overall Readiness</p>
-                        <h3 className="text-3xl font-black text-white italic tracking-tighter">{readinessScore}%</h3>
+                        <h3 className="text-2xl md:text-3xl font-black text-white tracking-tighter">{readinessScore}%</h3>
                     </div>
-                    <div className="w-16 h-16 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center relative">
-                        <svg className="w-12 h-12 -rotate-90">
+                    <div className="w-14 h-14 md:w-16 md:h-16 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center relative">
+                        <svg className="w-10 h-10 md:w-12 md:h-12 -rotate-90">
                             <circle cx="24" cy="24" r="20" fill="transparent" stroke="currentColor" strokeWidth="4" className="text-white/5" />
                             <circle cx="24" cy="24" r="20" fill="transparent" stroke="currentColor" strokeWidth="4" className="text-primary" strokeDasharray={126} strokeDashoffset={126 - (126 * readinessScore) / 100} strokeLinecap="round" />
                         </svg>
-                        <Target className="absolute inset-0 m-auto w-4 h-4 text-primary" />
+                        <Target className="absolute inset-0 m-auto w-3 h-3 md:w-4 md:h-4 text-primary" />
                     </div>
                 </div>
 
-                <div className="flex flex-wrap gap-3">
+                <div className="flex flex-wrap gap-2 md:gap-3">
                     <button
                         onClick={handleExportJson}
-                        className="px-5 py-3 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 text-white text-[10px] font-black uppercase tracking-widest flex items-center gap-2"
+                        className="px-4 md:px-5 py-3 rounded-xl md:rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 text-white text-[10px] font-black uppercase tracking-widest flex items-center gap-2 transition-all active:scale-95"
                     >
                         <Download className="w-4 h-4" />
-                        Export JSON
+                        <span className="hidden sm:inline">Export JSON</span>
+                        <span className="sm:hidden">JSON</span>
                     </button>
                     <button
                         onClick={handleExportCsv}
-                        className="px-5 py-3 rounded-2xl border border-primary/30 bg-primary/10 hover:bg-primary/20 text-primary text-[10px] font-black uppercase tracking-widest flex items-center gap-2"
+                        className="px-4 md:px-5 py-3 rounded-xl md:rounded-2xl border border-primary/30 bg-primary/10 hover:bg-primary/20 text-primary text-[10px] font-black uppercase tracking-widest flex items-center gap-2 transition-all active:scale-95"
                     >
                         <Download className="w-4 h-4" />
-                        Export CSV
+                        <span className="hidden sm:inline">Export CSV</span>
+                        <span className="sm:hidden">CSV</span>
                     </button>
                 </div>
             </div>
 
-            {/* Performance Matrix */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div className="bg-surface border border-white/5 rounded-[2.5rem] p-8 space-y-6">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-8">
+                <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                    <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[2.5rem] p-6 md:p-8 space-y-5">
                         <div className="flex items-center justify-between">
-                            <div className="p-3 bg-blue-500/10 rounded-2xl border border-blue-500/20">
+                            <div className="p-3 bg-blue-500/10 rounded-xl md:rounded-2xl border border-blue-500/20">
                                 <Activity className="w-5 h-5 text-blue-500" />
                             </div>
                             <span className="text-[10px] font-black text-white/20 uppercase tracking-widest">Time Efficiency</span>
                         </div>
                         <div>
-                            <h4 className="text-white font-black italic tracking-tighter text-4xl mb-1">{stats?.totalTimeInMinutes || 0}m</h4>
+                            <h4 className="text-white font-black tracking-tighter text-3xl md:text-4xl mb-1">{stats?.totalTimeInMinutes || 0}m</h4>
                             <p className="text-[10px] text-white/30 font-bold uppercase tracking-widest">Total Active Learning</p>
                         </div>
-                        <div className="h-24 flex items-end gap-2">
+                        <div className="h-20 md:h-24 flex items-end gap-1.5 md:gap-2">
                             {[40, 70, 45, 90, 65, 80, 55].map((h, i) => (
-                                <div key={i} className="flex-1 bg-primary/10 rounded-full relative group transition-all hover:bg-primary/30 cursor-pointer">
+                                <div key={i} className="flex-1 bg-primary/5 rounded-full relative group transition-all hover:bg-primary/20 cursor-pointer">
                                     <div className="absolute bottom-0 w-full bg-primary rounded-full transition-all duration-1000" style={{ height: `${h}%` }}></div>
                                 </div>
                             ))}
                         </div>
                     </div>
 
-                    <div className="bg-surface border border-white/5 rounded-[2.5rem] p-8 space-y-6">
+                    <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[2.5rem] p-6 md:p-8 space-y-5">
                         <div className="flex items-center justify-between">
-                            <div className="p-3 bg-emerald-500/10 rounded-2xl border border-emerald-500/20">
+                            <div className="p-3 bg-emerald-500/10 rounded-xl md:rounded-2xl border border-emerald-500/20">
                                 <CheckCircle2 className="w-5 h-5 text-emerald-500" />
                             </div>
                             <span className="text-[10px] font-black text-white/20 uppercase tracking-widest">Consistency</span>
                         </div>
                         <div>
-                            <h4 className="text-white font-black italic tracking-tighter text-4xl mb-1">
+                            <h4 className="text-white font-black tracking-tighter text-3xl md:text-4xl mb-1">
                                 {stats?.totalPracticed || 0}
                             </h4>
                             <p className="text-[10px] text-white/30 font-bold uppercase tracking-widest">Solved Challenges</p>
                         </div>
-                        <div className="grid grid-cols-7 gap-2">
+                        <div className="grid grid-cols-7 gap-1.5 md:gap-2">
                             {Array.from({ length: 28 }).map((_, i) => (
-                                <div key={i} className={`aspect-square rounded-[4px] border ${i < 12 ? 'bg-emerald-500/20 border-emerald-500/40' : 'bg-white/5 border-white/5 opactiy-20'}`}></div>
+                                <div key={i} className={`aspect-square rounded-[3px] md:rounded-[4px] border ${i < 12 ? 'bg-emerald-500/20 border-emerald-500/40' : 'bg-white/5 border-white/5'}`}></div>
                             ))}
                         </div>
                     </div>
                 </div>
 
-                {/* ML Diagnosis Sidebar */}
-                <div className="bg-surface border border-white/5 rounded-[2.5rem] p-8 space-y-8 relative overflow-hidden">
-                    <div className="absolute top-0 right-0 p-8 opacity-[0.02] pointer-events-none">
+                <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[2.5rem] p-6 md:p-8 space-y-6 md:space-y-8 relative overflow-hidden">
+                    <div className="absolute -right-8 -top-8 opacity-[0.03] pointer-events-none hidden md:block">
                         <Brain size={120} />
                     </div>
 
                     <div>
-                        <h3 className="text-xl font-black text-white italic truncate uppercase">Neural Diagnostics</h3>
+                        <h3 className="text-lg md:text-xl font-black text-white uppercase">Neural Diagnostics</h3>
                         <p className="text-[10px] font-bold text-white/20 uppercase tracking-widest mt-1">AI-Powered weak area detection</p>
                     </div>
 
-                    <div className="space-y-6">
+                    <div className="space-y-5">
                         <div>
                             <div className="flex items-center justify-between text-[10px] font-black uppercase tracking-widest mb-3">
                                 <span className="text-emerald-500 flex items-center gap-2"><TrendingUp className="w-3 h-3" /> Core Strengths</span>
@@ -237,42 +237,41 @@ const Analytics = () => {
                         </div>
                     </div>
 
-                    <div className="p-6 bg-primary/5 rounded-2xl border border-primary/20 space-y-3">
-                        <h5 className="text-[10px] font-black uppercase tracking-widest text-primary italic">Smart Recommendation</h5>
-                        <p className="text-[11px] text-white/60 font-medium leading-relaxed italic">
-                            "Your accuracy in Geometry is 22% lower than your average. Suggest focusing on <span className="text-white border-b border-primary/40">Circle Properties</span> today."
+                    <div className="p-5 md:p-6 bg-primary/5 rounded-xl md:rounded-2xl border border-primary/20 space-y-2">
+                        <h5 className="text-[10px] font-black uppercase tracking-widest text-primary">Smart Recommendation</h5>
+                        <p className="text-[11px] text-white/60 font-medium leading-relaxed">
+                            &ldquo;Your accuracy in Geometry is 22% lower than your average. Suggest focusing on <span className="text-white border-b border-primary/40">Circle Properties</span> today.&rdquo;
                         </p>
                     </div>
                 </div>
             </div>
 
-            {/* Platform Comparison */}
-            <div className="bg-surface border border-white/5 rounded-[3rem] p-10 md:p-14 shadow-2xl space-y-10">
+            <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[3rem] p-6 md:p-14 shadow-lg space-y-8">
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
                     <div>
-                        <h2 className="text-3xl font-black text-white italic tracking-tighter uppercase mb-2">Platform Rank</h2>
+                        <h2 className="text-2xl md:text-3xl font-black text-white tracking-tighter uppercase mb-1">Platform Rank</h2>
                         <p className="text-[10px] font-bold text-white/30 uppercase tracking-widest">How you compare to the global cohort</p>
                     </div>
-                    <div className="flex gap-4">
-                        <div className="bg-white/5 px-6 py-4 rounded-2xl border border-white/5 text-center">
+                    <div className="flex gap-3 md:gap-4">
+                        <div className="bg-white/5 px-5 md:px-6 py-3 md:py-4 rounded-xl md:rounded-2xl border border-white/5 text-center">
                             <p className="text-[10px] font-black text-white/20 uppercase tracking-widest mb-1">Batch Avg</p>
-                            <p className="text-xl font-black text-white italic">45%</p>
+                            <p className="text-lg md:text-xl font-black text-white">45%</p>
                         </div>
-                        <div className="bg-primary/10 px-6 py-4 rounded-2xl border border-primary/20 text-center">
+                        <div className="bg-primary/10 px-5 md:px-6 py-3 md:py-4 rounded-xl md:rounded-2xl border border-primary/20 text-center">
                             <p className="text-[10px] font-black text-primary uppercase tracking-widest mb-1">Your Score</p>
-                            <p className="text-xl font-black text-primary italic">{stats?.accuracy || 0}%</p>
+                            <p className="text-lg md:text-xl font-black text-primary">{stats?.accuracy || 0}%</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="h-1 lg:h-1.5 w-full bg-white/5 rounded-full overflow-hidden flex gap-0.5">
-                    <div className="h-full bg-red-500/50" style={{ width: '20%' }}></div>
-                    <div className="h-full bg-yellow-500/50" style={{ width: '30%' }}></div>
-                    <div className="h-full bg-primary shadow-[0_0_20px_#5e6ad2]" style={{ width: `${stats?.accuracy || 0}%` }}></div>
-                    <div className="h-full bg-emerald-500/50" style={{ width: `${100 - (stats?.accuracy || 0) - 20 - 30}%` }}></div>
+                <div className="h-1.5 md:h-2 w-full bg-white/5 rounded-full overflow-hidden flex gap-0.5">
+                    <div className="h-full bg-red-500/50 rounded-full" style={{ width: '20%' }}></div>
+                    <div className="h-full bg-yellow-500/50 rounded-full" style={{ width: '30%' }}></div>
+                    <div className="h-full bg-primary rounded-full shadow-[0_0_10px_rgba(94,106,210,0.5)]" style={{ width: `${stats?.accuracy || 0}%` }}></div>
+                    <div className="h-full bg-emerald-500/50 rounded-full" style={{ width: `${Math.max(0, 100 - (stats?.accuracy || 0) - 20 - 30)}%` }}></div>
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
                     {[
                         { label: 'Beginner', color: 'bg-red-500' },
                         { label: 'Intermediate', color: 'bg-yellow-500' },

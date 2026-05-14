@@ -18,7 +18,6 @@ const normalizeQuizQuestions = (payload) => {
     const sourceQuestions = Array.isArray(payload?.questions) ? payload.questions : [];
 
     return sourceQuestions.flatMap((question) => {
-        // Handle gap-filling format (with blanks)
         if (Array.isArray(question.blanks) && question.blanks.length > 0) {
             return question.blanks.map((blank, blankIndex) => {
                 const blankId = blank.blankId || blank.id || String(blankIndex + 1);
@@ -53,7 +52,6 @@ const normalizeQuizQuestions = (payload) => {
             });
         }
 
-        // Handle changing sentences format (with subQuestions)
         if (Array.isArray(question.subQuestions) && question.subQuestions.length > 0) {
             return question.subQuestions.map((subQ) => ({
                 id: subQ.id,
@@ -66,7 +64,6 @@ const normalizeQuizQuestions = (payload) => {
             }));
         }
 
-        // Handle options as object {A: "text", B: "text", ...}
         let options = [];
         let correct = question.correct || 0;
         if (question.options && typeof question.options === 'object' && !Array.isArray(question.options)) {
@@ -78,7 +75,6 @@ const normalizeQuizQuestions = (payload) => {
             options = (question.options || []).map((option) => option.text || option);
         }
 
-        // Fallback for generic format
         return [{
             id: question.id,
             text: question.question || question.text || question.passage || 'Question',
@@ -117,20 +113,16 @@ const Quiz = () => {
     const [balanceGlow, setBalanceGlow] = useState(false);
     const starTargetRef = useRef(null);
 
-    // Timer state
     const [timeLeft, setTimeLeft] = useState(0);
     const timerRef = useRef(null);
     const sessionSavedRef = useRef(false);
 
-    // Shuffle options locally
     const shuffledOptions = useMemo(() => {
         if (!questions[currentIndex]) return null;
         const q = questions[currentIndex];
 
-        // Map options to objects with original index to track correctness
         const opts = (q.options || []).map((text, idx) => ({ text, originalIdx: idx }));
 
-        // Shuffle
         for (let i = opts.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [opts[i], opts[j]] = [opts[j], opts[i]];
@@ -225,7 +217,6 @@ const Quiz = () => {
         return () => window.removeEventListener('mistakeReviewUpdated', refresh);
     }, []);
 
-    // Timer Logic
     useEffect(() => {
         if (isTimedMode && timeLeft > 0 && !isFinished && !loading) {
             timerRef.current = setInterval(() => {
@@ -340,13 +331,13 @@ const Quiz = () => {
     );
 
     if (error) return (
-        <div className="max-w-md mx-auto p-10 bg-yellow-500/10 border border-yellow-500/20 rounded-[2rem] text-center shadow-2xl shadow-black/20">
-            <div className="w-16 h-16 mx-auto mb-5 rounded-3xl bg-yellow-500/15 border border-yellow-500/20 flex items-center justify-center">
-                <Sparkles className="w-8 h-8 text-yellow-300" />
+        <div className="max-w-md mx-auto p-6 md:p-10 bg-yellow-500/10 border border-yellow-500/20 rounded-2xl md:rounded-[2rem] text-center shadow-lg">
+            <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-4 md:mb-5 rounded-2xl md:rounded-3xl bg-yellow-500/15 border border-yellow-500/20 flex items-center justify-center">
+                <Sparkles className="w-6 h-6 md:w-8 md:h-8 text-yellow-300" />
             </div>
-            <h3 className="text-white font-black text-2xl italic tracking-tighter mb-3">Lesson path paused</h3>
+            <h3 className="text-white font-black text-xl md:text-2xl tracking-tighter mb-3">Lesson path paused</h3>
             <p className="text-white/70 font-medium leading-relaxed">{error}</p>
-            <Link to="/practice" className="mt-6 inline-flex items-center justify-center rounded-2xl bg-yellow-500 px-6 py-3 text-xs font-black uppercase tracking-[0.2em] text-black transition-all hover:bg-yellow-400">
+            <Link to="/practice" className="mt-5 md:mt-6 inline-flex items-center justify-center rounded-xl md:rounded-2xl bg-yellow-500 px-5 md:px-6 py-3 text-xs font-black uppercase tracking-[0.2em] text-black transition-all hover:bg-yellow-400 active:scale-95">
                 Back to Practice
             </Link>
         </div>
@@ -357,41 +348,39 @@ const Quiz = () => {
 
         return (
             <div className="max-w-3xl mx-auto animate-in zoom-in-95 duration-500">
-                <div className="bg-surface border border-white/5 rounded-3xl p-10 shadow-2xl relative overflow-hidden">
-                    <div className="absolute -top-24 -right-24 w-64 h-64 bg-primary/20 blur-[100px] rounded-full"></div>
-
-                    <div className="relative z-10 text-center space-y-8">
-                        <div className="inline-flex p-5 bg-primary/10 rounded-full border border-primary/20 mb-2">
-                            <Trophy className="w-12 h-12 text-primary" />
+                <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl p-6 md:p-10 shadow-lg relative overflow-hidden">
+                    <div className="relative z-10 text-center space-y-6 md:space-y-8">
+                        <div className="inline-flex p-4 md:p-5 bg-primary/10 rounded-full border border-primary/20 mb-1 md:mb-2">
+                            <Trophy className="w-8 h-8 md:w-12 md:h-12 text-primary" />
                         </div>
 
                         <div>
-                            <h2 className="text-4xl font-black text-white italic tracking-tighter mb-2 uppercase">Practice Complete!</h2>
-                            <p className="text-white/30 font-bold uppercase tracking-widest text-xs">{title}</p>
+                            <h2 className="text-2xl md:text-4xl font-black text-white tracking-tighter mb-1 uppercase">Practice Complete!</h2>
+                            <p className="text-white/30 font-bold uppercase tracking-widest text-[10px] md:text-xs">{title}</p>
                         </div>
 
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <div className="bg-surface-alt p-6 rounded-2xl border border-white/5">
-                                <div className="text-primary font-black text-3xl mb-1">{accuracy}%</div>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6">
+                            <div className="bg-surface-alt p-5 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
+                                <div className="text-primary font-black text-2xl md:text-3xl mb-1">{accuracy}%</div>
                                 <div className="text-[10px] text-white/30 font-black uppercase tracking-widest">Accuracy</div>
                             </div>
-                            <div className="bg-surface-alt p-6 rounded-2xl border border-white/5">
-                                <div className="text-emerald-500 font-black text-3xl mb-1">{score}/{questions.length}</div>
+                            <div className="bg-surface-alt p-5 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
+                                <div className="text-emerald-500 font-black text-2xl md:text-3xl mb-1">{score}/{questions.length}</div>
                                 <div className="text-[10px] text-white/30 font-black uppercase tracking-widest">Correct Answers</div>
                             </div>
-                            <div className="bg-surface-alt p-6 rounded-2xl border border-white/5">
-                                <div className="text-yellow-500 font-black text-xl mb-1 italic uppercase tracking-tighter">
+                            <div className="bg-surface-alt p-5 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
+                                <div className="text-yellow-500 font-black text-lg md:text-xl mb-1 uppercase tracking-tighter">
                                     {accuracy >= 80 ? 'Expert' : accuracy >= 50 ? 'Learner' : 'Beginner'}
                                 </div>
                                 <div className="text-[10px] text-white/30 font-black uppercase tracking-widest">Title Earned</div>
                             </div>
                         </div>
 
-                        <div className="flex flex-col sm:flex-row gap-4 pt-6">
-                            <button onClick={() => navigate('/practice')} className="flex-1 py-4 bg-white/5 hover:bg-white/10 text-white rounded-2xl font-black uppercase tracking-widest text-[10px] border border-white/5 transition-all">
+                        <div className="flex flex-col sm:flex-row gap-3 md:gap-4 pt-4 md:pt-6">
+                            <button onClick={() => navigate('/practice')} className="flex-1 py-3 md:py-4 bg-white/5 hover:bg-white/10 text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] border border-white/5 transition-all active:scale-[0.98]">
                                 Back Home
                             </button>
-                            <button onClick={() => window.location.reload()} className="flex-1 py-4 bg-primary hover:bg-primary-hover text-white rounded-2xl font-black uppercase tracking-widest text-[10px] shadow-xl shadow-primary/20 transition-all flex items-center justify-center gap-2">
+                            <button onClick={() => window.location.reload()} className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] shadow-lg shadow-primary/20 transition-all flex items-center justify-center gap-2 active:scale-[0.98]">
                                 <RefreshCw className="w-4 h-4" /> Try Again
                             </button>
                         </div>
@@ -406,7 +395,7 @@ const Quiz = () => {
     const isReviewSession = isReviewMode;
 
     return (
-        <div className="max-w-5xl mx-auto space-y-8 pb-32">
+        <div className="max-w-5xl mx-auto space-y-4 md:space-y-8 pb-24 md:pb-8">
             <div className="pointer-events-none">
                 {flyingStars.map((star) => (
                     <motion.div
@@ -421,58 +410,55 @@ const Quiz = () => {
                     </motion.div>
                 ))}
             </div>
-            {/* Simulation Header */}
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
-                <div className="flex items-center gap-4">
-                    <button onClick={() => navigate('/practice')} className="p-3 bg-white/5 hover:bg-white/10 rounded-2xl text-white/40 hover:text-white transition-all border border-white/5">
-                        <ArrowLeft className="w-5 h-5" />
+
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 md:gap-6">
+                <div className="flex items-center gap-3 md:gap-4">
+                    <button onClick={() => navigate('/practice')} className="p-2.5 md:p-3 bg-white/5 hover:bg-white/10 rounded-xl md:rounded-2xl text-white/40 hover:text-white transition-all border border-white/5 active:scale-95">
+                        <ArrowLeft className="w-4 h-4 md:w-5 md:h-5" />
                     </button>
                     <div>
-                        <h4 className="text-white font-black italic tracking-tighter text-xl uppercase">{title}</h4>
+                        <h4 className="text-white font-black tracking-tighter text-base md:text-xl uppercase">{title}</h4>
                         <div className="flex items-center gap-2">
                             <span className="text-[9px] font-black uppercase tracking-widest text-primary">Learning...</span>
-                            <div className="w-24 h-1 bg-white/5 rounded-full overflow-hidden">
-                                <div className="h-full bg-primary transition-all duration-500 shadow-[0_0_10px_#5e6ad2]" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}></div>
+                            <div className="w-20 md:w-24 h-1 bg-white/5 rounded-full overflow-hidden">
+                                <div className="h-full bg-primary transition-all duration-500" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}></div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2 md:gap-4">
                     {isTimedMode && (
-                        <div className={`flex items-center gap-2 px-4 py-2 rounded-xl border font-mono font-black text-sm ${timeLeft < 30 ? 'bg-yellow-500/10 border-yellow-500/20 text-yellow-300 animate-pulse' : 'bg-white/5 border-white/5 text-white'}`}>
-                            <Clock className="w-4 h-4" />
+                        <div className={`flex items-center gap-2 px-3 md:px-4 py-2 rounded-xl border font-mono font-black text-xs md:text-sm ${timeLeft < 30 ? 'bg-yellow-500/10 border-yellow-500/20 text-yellow-300' : 'bg-white/5 border-white/5 text-white'}`}>
+                            <Clock className="w-3 h-3 md:w-4 md:h-4" />
                             {formatTime(timeLeft)}
                         </div>
                     )}
-                    <div className="bg-primary/10 border border-primary/20 px-4 py-2 rounded-xl flex items-center gap-2">
-                        <Zap className="w-4 h-4 text-primary fill-primary" />
-                        <span className="text-primary font-black text-sm tracking-tighter">{totalXpSoFar} POINTS</span>
+                    <div className="bg-primary/10 border border-primary/20 px-3 md:px-4 py-2 rounded-xl flex items-center gap-1.5 md:gap-2">
+                        <Zap className="w-3 h-3 md:w-4 md:h-4 text-primary fill-primary" />
+                        <span className="text-primary font-black text-[11px] md:text-sm tracking-tighter">{totalXpSoFar} XP</span>
                     </div>
                     {isReviewSession && (
-                        <div className="bg-emerald-500/10 border border-emerald-500/20 px-4 py-2 rounded-xl flex items-center gap-2">
-                            <RefreshCw className="w-4 h-4 text-emerald-400" />
-                            <span className="text-emerald-400 font-black text-sm tracking-tighter">REVIEW</span>
+                        <div className="bg-emerald-500/10 border border-emerald-500/20 px-3 md:px-4 py-2 rounded-xl flex items-center gap-1.5 md:gap-2">
+                            <RefreshCw className="w-3 h-3 md:w-4 md:h-4 text-emerald-400" />
+                            <span className="text-emerald-400 font-black text-[11px] md:text-sm tracking-tighter">REVIEW</span>
                         </div>
                     )}
-                    <div className={`bg-yellow-500/10 border border-yellow-500/20 px-4 py-2 rounded-xl flex items-center gap-2 transition-all ${balanceGlow ? 'ring-2 ring-yellow-400/80 shadow-[0_0_20px_rgba(245,158,11,0.35)]' : ''}`}>
-                        <Star className="w-4 h-4 text-yellow-300" />
-                        <span className="text-yellow-300 font-black text-sm tracking-tighter">{mistakeCount}</span>
+                    <div className={`bg-yellow-500/10 border border-yellow-500/20 px-3 md:px-4 py-2 rounded-xl flex items-center gap-1.5 md:gap-2 transition-all ${balanceGlow ? 'ring-2 ring-yellow-400/80' : ''}`}>
+                        <svg className="w-3 h-3 md:w-4 md:h-4 text-yellow-300" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <span className="text-yellow-300 font-black text-[11px] md:text-sm tracking-tighter">{mistakeCount}</span>
                     </div>
                 </div>
             </div>
 
-            {/* Core Interaction Grid */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
-                <div className="lg:col-span-2 space-y-6">
-                    <div className="bg-surface border border-white/5 rounded-[40px] p-8 md:p-14 shadow-2xl relative overflow-hidden group">
-                        <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity pointer-events-none">
-                            <span className="text-8xl font-black italic tracking-tighter">{currentIndex + 1}</span>
-                        </div>
-
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-10 items-start">
+                <div className="lg:col-span-2 space-y-4 md:space-y-6">
+                    <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[40px] p-6 md:p-14 shadow-lg relative overflow-hidden">
                         <div className="relative z-10">
                             {currentQ.passage && (
-                                <div className="mb-10 p-6 rounded-3xl border border-white/5 bg-white/5 space-y-4">
+                                <div className="mb-6 md:mb-10 p-5 md:p-6 rounded-2xl md:rounded-3xl border border-white/5 bg-white/5 space-y-3 md:space-y-4">
                                     {currentQ.blankId && (
                                         <p className="text-[10px] font-black uppercase tracking-[0.3em] text-primary/60">
                                             SSC Gap Filling - Blank ({currentQ.blankId})
@@ -482,7 +468,7 @@ const Quiz = () => {
                                         {currentQ.passage}
                                     </p>
                                     {(currentQ.boxWords || []).length > 0 && (
-                                        <div className="flex flex-wrap gap-2 pt-2">
+                                        <div className="flex flex-wrap gap-2 pt-1 md:pt-2">
                                             {currentQ.boxWords.map((word) => (
                                                 <span key={word} className="px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-[10px] font-black uppercase tracking-widest">
                                                     {word}
@@ -493,18 +479,18 @@ const Quiz = () => {
                                 </div>
                             )}
 
-                            <div className="flex items-center gap-3 mb-10">
+                            <div className="flex items-center gap-3 mb-6 md:mb-10">
                                 <span className={`text-[9px] font-black px-3 py-1 rounded-full uppercase border ${currentQ.difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
                                     currentQ.difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :
                                         'text-emerald-400 border-emerald-400/20 bg-emerald-400/5'
                                     }`}>{currentQ.difficulty}</span>
                             </div>
 
-                            <h3 className="text-2xl md:text-3xl font-black text-white leading-tight mb-12 selection:bg-primary/30 tracking-tight">
+                            <h3 className="text-lg md:text-2xl lg:text-3xl font-black text-white leading-tight mb-6 md:mb-12 selection:bg-primary/30 tracking-tight">
                                 {currentQ.text}
                             </h3>
 
-                            <div className="space-y-4">
+                            <div className="space-y-3 md:space-y-4">
                                 {shuffledOptions && shuffledOptions.map((option, idx) => {
                                     let state = 'idle';
                                     if (isAnswered) {
@@ -520,25 +506,27 @@ const Quiz = () => {
                                             key={idx}
                                             disabled={isAnswered}
                                             onClick={(e) => handleOptionSelect(idx, e)}
-                                            className={`w-full text-left p-6 rounded-2xl border transition-all flex items-center justify-between group/opt ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-xl shadow-emerald-500/5' :
-                                                state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300 shadow-xl shadow-yellow-500/5' :
-                                                    state === 'selected' ? 'bg-primary/20 border-primary text-white shadow-2xl shadow-primary/20 scale-[1.02]' :
+                                            className={`w-full text-left p-4 md:p-6 rounded-xl md:rounded-2xl border transition-all flex items-center justify-between group/opt active:scale-[0.99] ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-lg shadow-emerald-500/5' :
+                                                state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300 shadow-lg shadow-yellow-500/5' :
+                                                    state === 'selected' ? 'bg-primary/20 border-primary text-white shadow-2xl shadow-primary/20 scale-[1.01]' :
                                                         state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30 scale-[0.98]' :
                                                             'bg-white/5 border-white/5 text-white/40 hover:border-white/20 hover:bg-white/10 hover:text-white'
                                                 }`}
                                         >
-                                            <div className="flex items-center gap-5">
-                                                <span className={`w-8 h-8 rounded-xl flex items-center justify-center text-[10px] font-black border transition-all ${state === 'selected' ? 'bg-primary text-white border-primary' :
+                                            <div className="flex items-center gap-3 md:gap-5">
+                                                <span className={`w-7 h-7 md:w-8 md:h-8 rounded-xl flex items-center justify-center text-[10px] font-black border transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
                                                     state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
                                                         state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
                                                             'bg-black/50 border-white/5 group-hover/opt:border-white/20'
                                                     }`}>
                                                     {String.fromCharCode(65 + idx)}
                                                 </span>
-                                                <span className="font-bold tracking-tight text-lg">{option.text}</span>
+                                                <span className="font-bold tracking-tight text-sm md:text-lg">{option.text}</span>
                                             </div>
-                                            {state === 'correct' && <CheckCircle className="w-6 h-6 animate-in zoom-in-0" />}
-                                            {state === 'wrong' && <Star className="w-6 h-6 text-yellow-300 animate-in zoom-in-0" />}
+                                            {state === 'correct' && <CheckCircle className="w-5 h-5 md:w-6 md:h-6 animate-in zoom-in-0 shrink-0" />}
+                                            {state === 'wrong' && <svg className="w-5 h-5 md:w-6 md:h-6 text-yellow-300 animate-in zoom-in-0 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                            </svg>}
                                         </button>
                                     );
                                 })}
@@ -546,32 +534,31 @@ const Quiz = () => {
                         </div>
                     </div>
 
-                    <div className="flex justify-end pt-6">
+                    <div className="flex justify-end">
                         {isAnswered ? (
                             <button
                                 onClick={handleNext}
-                                className="px-14 py-5 bg-white text-black hover:bg-white/90 rounded-3xl font-black uppercase tracking-[0.2em] text-[10px] transition-all flex items-center gap-3 shadow-2xl shadow-white/5 active:scale-95"
+                                className="px-10 md:px-14 py-4 md:py-5 bg-white text-black hover:bg-white/90 rounded-xl md:rounded-3xl font-black uppercase tracking-[0.2em] text-[10px] transition-all flex items-center gap-2 md:gap-3 shadow-lg active:scale-95"
                             >
                                 {currentIndex < questions.length - 1 ? 'Continue' : 'Finish Lesson'}
                                 <ChevronRight className="w-4 h-4" />
                             </button>
                         ) : (
-                            <div className="px-14 py-5 bg-white/5 text-white/50 rounded-3xl font-black uppercase tracking-[0.2em] text-[10px] transition-all flex items-center gap-3 shadow-inner border border-white/5">
+                            <div className="px-6 md:px-14 py-4 md:py-5 bg-white/5 text-white/50 rounded-xl md:rounded-3xl font-black uppercase tracking-[0.2em] text-[10px] flex items-center gap-2 md:gap-3 border border-white/5">
                                 Select an answer to reveal the explanation
                             </div>
                         )}
                     </div>
                 </div>
 
-                {/* Sidebar Intelligence */}
-                <div className="space-y-8 sticky top-32">
+                <div className="space-y-4 md:space-y-8 sticky top-24 md:top-32">
                     {isAnswered ? (
-                        <div className="space-y-6 animate-in slide-in-from-bottom-6 duration-500">
-                            <div className="bg-surface border border-white/10 rounded-[32px] p-8 shadow-2xl relative overflow-hidden">
+                        <div className="space-y-4 md:space-y-6 animate-in slide-in-from-bottom-6 duration-500">
+                            <div className="bg-surface border border-white/10 rounded-2xl md:rounded-[32px] p-6 md:p-8 shadow-lg relative overflow-hidden">
                                 <div className="absolute top-0 right-0 p-3 bg-yellow-500/10 text-yellow-500 rounded-bl-2xl">
                                     <Lightbulb className="w-4 h-4" />
                                 </div>
-                                <h4 className="text-[10px] font-black uppercase tracking-widest text-primary mb-4 flex items-center gap-2">
+                                <h4 className="text-[10px] font-black uppercase tracking-widest text-primary mb-3 md:mb-4 flex items-center gap-2">
                                     Explanation
                                 </h4>
                                 <div
@@ -586,12 +573,12 @@ const Quiz = () => {
                                 </div>
 
                                 {currentQ.explanation_video_url && (
-                                    <div className="mt-8 pt-6 border-t border-white/5">
+                                    <div className="mt-6 md:mt-8 pt-5 md:pt-6 border-t border-white/5">
                                         <a
                                             href={currentQ.explanation_video_url}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex items-center justify-center gap-3 w-full py-4 bg-yellow-500/10 hover:bg-yellow-500/20 text-yellow-300 rounded-2xl border border-yellow-500/20 transition-all font-black uppercase tracking-widest text-[9px] group"
+                                            className="flex items-center justify-center gap-3 w-full py-3 md:py-4 bg-yellow-500/10 hover:bg-yellow-500/20 text-yellow-300 rounded-xl md:rounded-2xl border border-yellow-500/20 transition-all font-black uppercase tracking-widest text-[9px] group active:scale-95"
                                         >
                                             <Video className="w-4 h-4 group-hover:scale-110 transition-transform" />
                                             Watch Video Breakdown
@@ -600,26 +587,28 @@ const Quiz = () => {
                                 )}
                             </div>
 
-                            <div className="bg-surface border border-white/5 rounded-3xl p-6">
-                                <div className="flex items-center justify-between text-[10px] font-black uppercase tracking-widest text-white/20 mb-4">
+                            <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl p-5 md:p-6">
+                                <div className="flex items-center justify-between text-[10px] font-black uppercase tracking-widest text-white/20 mb-3 md:mb-4">
                                     <span className="flex items-center gap-1"><Target className="w-3 h-3" /> Historical Precision</span>
                                     <span className="text-emerald-500">74%</span>
                                 </div>
-                                <div className="h-2 bg-white/5 rounded-full overflow-hidden">
-                                    <div className="h-full bg-emerald-500/30 transition-all duration-1000" style={{ width: `74%` }}></div>
+                                <div className="h-1.5 md:h-2 bg-white/5 rounded-full overflow-hidden">
+                                    <div className="h-full bg-emerald-500/30 transition-all duration-1000 rounded-full" style={{ width: `74%` }}></div>
                                 </div>
                             </div>
                         </div>
                     ) : (
-                        <div className="bg-surface-alt/20 border border-dashed border-white/5 rounded-[32px] p-12 text-center space-y-6">
-                            <div className="w-14 h-14 bg-white/5 rounded-2xl flex items-center justify-center mx-auto border border-white/5">
-                                <Star className="w-6 h-6 text-yellow-300" />
+                        <div className="bg-surface-alt/20 border border-dashed border-white/5 rounded-2xl md:rounded-[32px] p-8 md:p-12 text-center space-y-4 md:space-y-6">
+                            <div className="w-12 h-12 md:w-14 md:h-14 bg-white/5 rounded-xl md:rounded-2xl flex items-center justify-center mx-auto border border-white/5">
+                                <svg className="w-5 h-6 md:w-6 text-yellow-300" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                </svg>
                             </div>
-                            <div className="space-y-2">
+                            <div className="space-y-1 md:space-y-2">
                                 <h4 className="text-white/20 font-black uppercase tracking-widest text-[9px]">Tap an answer</h4>
-                                <p className="text-white/10 text-[10px] leading-relaxed italic font-medium">Select any option to check your knowledge.</p>
+                                <p className="text-white/10 text-[10px] leading-relaxed font-medium">Select any option to check your knowledge.</p>
                             </div>
-                            <div className="bg-yellow-500/10 border border-yellow-500/20 rounded-3xl p-4 text-[10px] text-yellow-100 font-black uppercase tracking-[0.2em]">
+                            <div className="bg-yellow-500/10 border border-yellow-500/20 rounded-2xl md:rounded-3xl p-3 md:p-4 text-[10px] text-yellow-100 font-black uppercase tracking-[0.2em]">
                                 Wrong answers are saved for spaced repetition review.
                             </div>
                         </div>
