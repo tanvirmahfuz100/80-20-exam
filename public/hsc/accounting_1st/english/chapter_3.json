@@ -1,0 +1,357 @@
+[
+  {
+    "id": 85,
+    "question": "What does the document 'DM' used by the bank mean?",
+    "options": {
+      "A": "Debit Memorandum",
+      "B": "Direct Material",
+      "C": "Direct Manager",
+      "D": "District Manager"
+    },
+    "answer": "A",
+    "explanation": "DM stands for Debit Memorandum. The bank issues a debit memorandum to inform the customer of any deduction or charge applied to the customer's account.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 86,
+    "question": "Which transaction reduces the amount of a bank overdraft?",
+    "options": {
+      "A": "Dishonor of a deposited check",
+      "B": "Collection of a check",
+      "C": "Payment of a check",
+      "D": "Bank interest charged"
+    },
+    "answer": "B",
+    "explanation": "A bank overdraft is a credit balance. When a check is collected (deposited), the bank balance increases, reducing the overdraft amount.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 87,
+    "question": "For which of the following does a journal entry need to be made in the Cash Book?",
+    "options": {
+      "A": "Deposits in Transit",
+      "B": "Outstanding Checks",
+      "C": "Bank Errors",
+      "D": "Dishonored Checks"
+    },
+    "answer": "D",
+    "explanation": "A journal entry is required in the Cash Book for a dishonored check (re-debiting the customer/debtor's account and crediting the bank account). Outstanding checks and deposits in transit are only reconciled.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 88,
+    "question": "A bill receivable of Tk. 5,000 was discounted for Tk. 4,750, but the full value of the bill was recorded in the Cash Book. What should be done when starting the reconciliation from the Cash Book bank balance?",
+    "options": {
+      "A": "Deduct Tk. 250",
+      "B": "Add Tk. 5,000",
+      "C": "Add Tk. 250",
+      "D": "Deduct Tk. 5,000"
+    },
+    "answer": "A",
+    "explanation": "The Cash Book recorded the full Tk. 5,000, but the actual amount deposited in the bank was Tk. 4,750. Therefore, the Cash Book bank balance is overstated by Tk. 250. To get the correct balance, Tk. 250 must be deducted.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 89,
+    "question": "Which of the following is not a Debit Memorandum?",
+    "options": {
+      "A": "Bank Service Charge",
+      "B": "Check Printing Cost",
+      "C": "Interest Earned",
+      "D": "Non-Sufficient Funds (NSF) Check"
+    },
+    "answer": "C",
+    "explanation": "For interest earned, the bank issues a Credit Memorandum because it adds money to the customer's account. Service charges, check printing costs, and NSF checks fall under Debit Memorandums.",
+    "source": "ঢাকা রেসিডেনসিয়াল মডেল কলেজ"
+  },
+  {
+    "id": 90,
+    "question": "If the bank statement at the end of the month shows a balance of Tk. 36,000, outstanding checks are Tk. 12,000, deposits in transit at month-end are Tk. 4,000, and the bank debited our account by mistake for Tk. 500 (a check of another account), what is the true bank balance at month-end?",
+    "options": {
+      "A": "Tk. 27,500",
+      "B": "Tk. 52,000",
+      "C": "Tk. 28,500",
+      "D": "Tk. 52,500"
+    },
+    "answer": "C",
+    "explanation": "Reconciling from the bank statement: Statement Balance 36,000 - Outstanding Checks 12,000 + Deposits in Transit 4,000 + Wrong Debit 500 = Tk. 28,500.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 91,
+    "question": "For which of the following will the bank provide a Credit Memorandum?",
+    "options": {
+      "A": "Bank Service Charge",
+      "B": "Non-Sufficient Funds (NSF) Check",
+      "C": "Collection of a Bill Receivable by the Bank",
+      "D": "Check Printing Cost"
+    },
+    "answer": "C",
+    "explanation": "When a bank collects a bill receivable, money is credited to the customer's account. The bank issues a Credit Memorandum to inform the customer. The other options are covered by Debit Memorandums.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 92,
+    "question": "A check belonging to another account was mistakenly credited to our account by the bank for Tk. 1,200. What will be the amount of difference between the Cash Book balance and the Bank Statement balance?",
+    "options": {
+      "A": "Tk. 600",
+      "B": "Tk. 1,200",
+      "C": "Tk. 1,800",
+      "D": "Tk. 2,400"
+    },
+    "answer": "B",
+    "explanation": "As the bank mistakenly credited Tk. 1,200 to our account, the Bank Statement will show Tk. 1,200 more than our Cash Book. Hence, the difference is Tk. 1,200.",
+    "source": "সরকারি সিটি কলেজ, ঢাকা"
+  },
+  {
+    "id": 93,
+    "question": "How is 'Check in Transit' adjusted in a Bank Reconciliation Statement?",
+    "options": {
+      "A": "Deducted from the Cash Book balance",
+      "B": "Added to the Cash Book balance",
+      "C": "Added to the Bank Statement balance",
+      "D": "Deducted from the Bank Statement balance"
+    },
+    "answer": "C",
+    "explanation": "A check in transit (or deposit in transit) has been deposited but has not yet appeared on the Bank Statement. Therefore, it should be added to the Bank Statement balance.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 94,
+    "question": "What is the main function of a bank?",
+    "options": {
+      "A": "Issuing Shares",
+      "B": "Buying and Selling Securities",
+      "C": "Preparing Financial Statements",
+      "D": "Accepting Deposits and Granting Loans"
+    },
+    "answer": "D",
+    "explanation": "The primary function of a bank is to accept deposits from the public and grant loans. This is the foundation of the banking business.",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  },
+  {
+    "id": 95,
+    "question": "Who prepares the Bank Reconciliation Statement?",
+    "options": {
+      "A": "Banker",
+      "B": "Investor",
+      "C": "Depositor",
+      "D": "Lender"
+    },
+    "answer": "C",
+    "explanation": "The Bank Reconciliation Statement is prepared by the depositor (customer). It identifies the reasons for the difference between the Bank Statement balance and the Cash Book balance.",
+    "source": "আগ্রণী বিদ্যালয় ও মহাবিদ্যালয়, রাজশাহী"
+  },
+  {
+    "id": 96,
+    "question": "Which of the following is a function of a bank?",
+    "options": {
+      "A": "Creation of Medium of Exchange",
+      "B": "Selling Goods",
+      "C": "Selling Services",
+      "D": "Producing Goods"
+    },
+    "answer": "A",
+    "explanation": "Banks create a medium of exchange through instruments like checks and drafts. This is an important function of a bank.",
+    "source": "ইস্পাহানী পাবলিক স্কুল ও কলেজ, চট্টগ্রাম"
+  },
+  {
+    "id": 97,
+    "question": "What does a credit balance in the Bank column indicate?",
+    "options": {
+      "A": "Bank Overdraft",
+      "B": "Withdrawal",
+      "C": "Bank Deposit Balance",
+      "D": "Cash Receipt"
+    },
+    "answer": "A",
+    "explanation": "A credit balance in the Bank column of the Cash Book means money has been withdrawn in excess of the deposit, indicating a Bank Overdraft.",
+    "source": "ইস্পাহানী পাবলিক স্কুল ও কলেজ, চট্টগ্রাম"
+  },
+  {
+    "id": 98,
+    "question": "Where is a dishonored issued check recorded in the Cash Book?",
+    "options": {
+      "A": "Debit side, Cash column",
+      "B": "Debit side, Bank column",
+      "C": "Credit side, Cash column",
+      "D": "Credit side, Bank column"
+    },
+    "answer": "B",
+    "explanation": "When an issued check is dishonored, it reverses the previous reduction in the bank balance. It is recorded on the debit side of the Bank column in the Cash Book.",
+    "source": "বরিশাল সরকারি কলেজ",
+    "confidence": "low"
+  },
+  {
+    "id": 99,
+    "question": "What does a credit balance in the Pass Book indicate for the depositor's account?",
+    "options": {
+      "A": "Money deposited in the Bank",
+      "B": "Bank Overdraft",
+      "C": "Borrowed Money",
+      "D": "Current Liability"
+    },
+    "answer": "A",
+    "explanation": "A credit balance in the Pass Book means the customer has money deposited in the account. From the depositor's perspective, it indicates a deposit held by the bank.",
+    "source": "বরিশাল সরকারি কলেজ"
+  },
+  {
+    "id": 100,
+    "question": "Which transaction will the bank debit in the Bank Statement?",
+    "options": {
+      "A": "When a debtor deposits money in the bank",
+      "B": "When bank interest is granted",
+      "C": "When a check is paid",
+      "D": "When an issued check is dishonored"
+    },
+    "answer": "C",
+    "explanation": "From the bank's perspective, the customer's account is a liability (credit). When the bank pays a check, the bank's liability decreases, so it is recorded as a debit in the Bank Statement.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 101,
+    "question": "Which transaction reduces the amount of a bank overdraft?",
+    "options": {
+      "A": "Dishonor of a deposited check",
+      "B": "Collection of a check",
+      "C": "Payment of a check",
+      "D": "Bank interest charged"
+    },
+    "answer": "B",
+    "explanation": "To reduce a bank overdraft (credit balance), money must be deposited in the bank. Collection of a check (deposit) increases the bank balance, thus reducing the overdraft.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 102,
+    "question": "Who keeps the Pass Book?",
+    "options": {
+      "A": "Bank",
+      "B": "Manager",
+      "C": "Depositor",
+      "D": "Debtor"
+    },
+    "answer": "C",
+    "explanation": "The Pass Book is kept by the depositor, who sends it to the bank to get the transactions updated when needed.",
+    "source": "নিউ গভ. ডিগ্রি কলেজ, রাজশাহী"
+  },
+  {
+    "id": 103,
+    "question": "What does a debit balance in the Pass Book indicate?",
+    "options": {
+      "A": "Deposit in Bank",
+      "B": "Cash in Hand",
+      "C": "Bank Overdraft",
+      "D": "Bank Deposit Balance"
+    },
+    "answer": "C",
+    "explanation": "A debit balance in the Pass Book means the customer has withdrawn more than the deposited amount, indicating a Bank Overdraft.",
+    "source": "নিউ গভ. ডিগ্রি কলেজ, রাজশাহী"
+  },
+  {
+    "id": 104,
+    "question": "According to double entry, the Bank Statement balance is reconciled with -\ni. Deposits in Process\nii. Outstanding Checks\niii. Dishonored Checks\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "When reconciling from the Bank Statement balance, deposits in process (i) are added and outstanding checks (ii) are deducted. Dishonored checks require an entry in the Cash Book, not just reconciliation.",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  },
+  {
+    "id": 105,
+    "question": "At the depositor's instruction, the bank directly collects -\ni. Interest on Investment\nii. Compensation from an Insurance Company\niii. Money from Debtors\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "At the customer's instruction, the bank can collect interest on investment, insurance compensation, and money from debtors. All three fall under direct collection by the bank.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 106,
+    "question": "Reasons for disagreement between the Cash Book and Bank Statement balances are -\ni. Issued checks not presented\nii. Deposited checks not collected\niii. Interest granted by the bank\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Outstanding checks (i), deposits in transit/uncollected (ii), and bank interest granted (iii) are all valid reasons for differences between the Cash Book and Bank Statement.",
+    "source": "খুলনা সরকারি মহিলা কলেজ"
+  },
+  {
+    "id": 107,
+    "question": "Credit Memorandum is issued for -\ni. Service Charges\nii. Interest Granted\niii. Collection of Notes Receivable\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "When interest is granted (ii) and notes receivable are collected (iii), the bank adds money to the customer's account, issuing a Credit Memorandum. Service charges (i) result in a Debit Memorandum.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 108,
+    "question": "A note receivable of Tk. 4,000 was collected through the bank. In recording this transaction in the depositor's books -\ni. Bank Account will be debited\nii. Notes Receivable Account will be credited\niii. Bank Account will be credited\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "The correct entry in the customer's books is: Debit Bank Account (i) and Credit Notes Receivable Account (ii). The Bank Account will not be credited.",
+    "source": "ঢাকা রেসিডেনসিয়াল মডেল কলেজ"
+  },
+  {
+    "id": 109,
+    "question": "As per the Cash Book, the bank deposit balance is Tk. 17,700. Issued checks of Tk. 5,000 have not been presented at the bank. The correct application in the Bank Reconciliation Statement is -\ni. Added to the Pass Book balance\nii. Added to the Cash Book balance\niii. Deducted from the Pass Book balance\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Outstanding checks must be deducted from the Pass Book balance (iii), or if reconciling from the Cash Book balance, they must be added (ii). Hence, ii & iii are correct.",
+    "source": "শহীদ স্মৃতি কলেজ, স্বরূপকাঠি, পিরোজপুর",
+    "confidence": "low"
+  },
+  {
+    "id": 110,
+    "question": "What is the total amount of outstanding checks?\n(Stimulus: Three checks issued for Tk. 1,080, Tk. 2,000 and Tk. 3,000; the first two were not presented. Three checks received Tk. 5,000, Tk. 6,000 and Tk. 7,000; the first and third checks were not collected.)",
+    "options": {
+      "A": "Tk. 12,000",
+      "B": "Tk. 13,000",
+      "C": "Tk. 3,080",
+      "D": "Tk. 5,000"
+    },
+    "answer": "C",
+    "explanation": "Total outstanding checks = First check (1,080) + Second check (2,000) = Tk. 3,080. The third check (Tk. 3,000) was presented.",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  },
+  {
+    "id": 111,
+    "question": "What is the total amount of deposits in transit?\n(Stimulus: Three checks issued for Tk. 1,080, Tk. 2,000 and Tk. 3,000; the first two were not presented. Three checks received Tk. 5,000, Tk. 6,000 and Tk. 7,000; the first and third checks were not collected.)",
+    "options": {
+      "A": "Tk. 12,000",
+      "B": "Tk. 6,000",
+      "C": "Tk. 5,000",
+      "D": "Tk. 7,000"
+    },
+    "answer": "A",
+    "explanation": "Deposits in transit = First check (5,000) + Third check (7,000) = Tk. 12,000. The second check (Tk. 6,000) was collected.",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  }
+]

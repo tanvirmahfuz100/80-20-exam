@@ -1,0 +1,383 @@
+[
+  {
+    "id": 1,
+    "question": "To whom is the original copy of a cash memo given?",
+    "options": {
+      "A": "Owner",
+      "B": "Creditor",
+      "C": "Buyer",
+      "D": "Seller"
+    },
+    "answer": "C",
+    "explanation": "A cash memo is a proof of cash sale of goods. The original copy is given to the buyer so that the buyer can use it as evidence for future returns or warranty claims.",
+    "source": "ডিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following events is not a transaction?",
+    "options": {
+      "A": "Starting a business with Tk. 5,00,000",
+      "B": "Purchasing furniture for Tk. 10,000",
+      "C": "Receiving an order to supply goods worth Tk. 25,000",
+      "D": "Paying salary Tk. 10,000 to the manager"
+    },
+    "answer": "C",
+    "explanation": "Receiving an order is only a future promise. It does not involve any exchange of monetary value yet, so it is not a transaction. A transaction must cause a financial change.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 3,
+    "question": "'Owner's personal loan paid from the business Tk. 10,000'. Which elements of the accounting equation will change?",
+    "options": {
+      "A": "Decrease in Assets and decrease in Liabilities",
+      "B": "Decrease in Assets and decrease in Owner's Equity",
+      "C": "Decrease in Liabilities and increase in Owner's Equity",
+      "D": "Increase in Liabilities and decrease in Owner's Equity"
+    },
+    "answer": "A",
+    "explanation": "Paying the owner's personal loan from business assets (cash) decreases the assets (A) and at the same time decreases the liability (L) because the enterprise is using its resources to settle a liability.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 4,
+    "question": "The origin of accounting is considered to be the work of whom?",
+    "options": {
+      "A": "Columbus",
+      "B": "Luca Pacioli",
+      "C": "Kaizo",
+      "D": "Larson"
+    },
+    "answer": "B",
+    "explanation": "In 1494, Luca Pacioli introduced the concept of double-entry bookkeeping in his famous book 'Summa'. For this groundbreaking contribution, he is called the father of modern accounting.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is not income?",
+    "options": {
+      "A": "Sales of goods",
+      "B": "Sale of a promissory note",
+      "C": "Service revenue",
+      "D": "Rent received"
+    },
+    "answer": "B",
+    "explanation": "Income is the increase in owner's equity from selling goods or services. Sale of a promissory note is a financial transaction that creates a liability or converts assets, but it is not a direct source of income. It is part of financing or capital raising.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 6,
+    "question": "Which event is not considered a transaction?",
+    "options": {
+      "A": "Carriage expense Tk. 50 on goods",
+      "B": "Charged depreciation @10% on machinery",
+      "C": "Sold goods on credit Tk. 500",
+      "D": "Placed an order to purchase goods of Tk. 200"
+    },
+    "answer": "D",
+    "explanation": "Placing a purchase order is just an order. It does not involve any exchange of money or goods. Therefore it is not an actual transaction. The other events involve financial changes.",
+    "source": "ঢাকা সিটি কলেজ"
+  },
+  {
+    "id": 7,
+    "question": "When did modern accounting begin?",
+    "options": {
+      "A": "Ancient times",
+      "B": "Modern era",
+      "C": "Middle Ages",
+      "D": "Dawn of civilization"
+    },
+    "answer": "C",
+    "explanation": "Modern accounting started in the Middle Ages in commercial cities like Venice and Genoa in Italy. Its formal journey began with the publication of Luca Pacioli's 'Summa' in 1494.",
+    "source": "বাংলাদেশ নৌবাহিনী স্কুল এন্ড কলেজ, খুলনা"
+  },
+  {
+    "id": 8,
+    "question": "What is accounting called?",
+    "options": {
+      "A": "Accounting system",
+      "B": "Auditing system",
+      "C": "Information system",
+      "D": "Reporting system"
+    },
+    "answer": "C",
+    "explanation": "Accounting is an information system. It identifies, records, stores, classifies, and analyzes financial transactions to provide necessary information for users' decision-making.",
+    "source": "বাংলাদেশ মহিলা সমিতি বালিকা উচ্চ বিদ্যালয় ও কলেজ, চট্টগ্রাম"
+  },
+  {
+    "id": 9,
+    "question": "'Researcher' is which type of user of accounting information?",
+    "options": {
+      "A": "Not applicable",
+      "B": "External",
+      "C": "Internal",
+      "D": "Other"
+    },
+    "answer": "B",
+    "explanation": "Researchers are outsiders who analyze financial information for research purposes. They are not directly involved in managing the business. Hence they are external users.",
+    "source": "উদয়ন উচ্চ মাধ্যমিক বিদ্যালয়, ঢাকা; আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  },
+  {
+    "id": 10,
+    "question": "What is Value Added Tax abbreviated in Bengali?",
+    "options": {
+      "A": "মূসক",
+      "B": "বাপসু",
+      "C": "ডাকসু",
+      "D": "রাজউক"
+    },
+    "answer": "A",
+    "explanation": "The Bengali term for Value Added Tax (VAT) is 'মূল্য সংযোজন কর' and its abbreviation is 'মূসক'.",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  },
+  {
+    "id": 11,
+    "question": "In which year was VAT introduced in Bangladesh?",
+    "options": {
+      "A": "1990",
+      "B": "1991",
+      "C": "1992",
+      "D": "1994"
+    },
+    "answer": "B",
+    "explanation": "The Value Added Tax (VAT) Act was enacted in Bangladesh in 1991 and was experimentally launched on July 2 of the same year.",
+    "source": "শহীদ স্মৃতি কলেজ, স্বরূপকাঠি, পিরোজপুর"
+  },
+  {
+    "id": 12,
+    "question": "In which year was the Securities and Exchange Commission (USA) established?",
+    "options": {
+      "A": "1349",
+      "B": "1493",
+      "C": "1934",
+      "D": "1943"
+    },
+    "answer": "C",
+    "explanation": "The U.S. Securities and Exchange Commission (SEC) was established in 1934 under the Securities Exchange Act.",
+    "source": "ঢাকা রেসিডেন্সিয়াল মডেল কলেজ"
+  },
+  {
+    "id": 13,
+    "question": "Which condition can occur due to a transaction?",
+    "options": {
+      "A": "Assets decrease, expenses decrease",
+      "B": "Income increase, liabilities increase",
+      "C": "Expenses increase, liabilities increase",
+      "D": "Assets increase, income decrease"
+    },
+    "answer": "C",
+    "explanation": "When an expense is incurred on credit, expenses increase and liabilities (creditors) increase. Example: advertising expense on credit. This is a normal effect of the accounting equation.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 14,
+    "question": "Classification is which step of the accounting cycle?",
+    "options": {
+      "A": "First step",
+      "B": "Second step",
+      "C": "Third step",
+      "D": "Fourth step"
+    },
+    "answer": "C",
+    "explanation": "The steps of the accounting cycle are: (1) Identifying transactions, (2) Recording in the journal, (3) Classifying in the ledger, (4) Preparing the trial balance. Thus, classification is the third step.",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা"
+  },
+  {
+    "id": 15,
+    "question": "Which is the fundamental accounting equation?",
+    "options": {
+      "A": "A-L=E",
+      "B": "A-E=L",
+      "C": "L+E=A",
+      "D": "A=L+OE"
+    },
+    "answer": "D",
+    "explanation": "The fundamental accounting equation is: Total Assets = Total Liabilities + Owner's Equity. In short, A = L + OE.",
+    "source": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল, ঢাকা"
+  },
+  {
+    "id": 16,
+    "question": "Where is an error in calculating ledger balances detected?",
+    "options": {
+      "A": "Final accounts",
+      "B": "Double entry",
+      "C": "Profit and loss account",
+      "D": "Trial balance"
+    },
+    "answer": "D",
+    "explanation": "A trial balance is a list of the balances of all ledger accounts and is prepared to verify mathematical accuracy. If there is a mistake in calculating or posting a ledger balance, the debit and credit columns of the trial balance will not agree, revealing the error.",
+    "source": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল, ঢাকা"
+  },
+  {
+    "id": 17,
+    "question": "When does a nominal account normally become a personal account?",
+    "options": {
+      "A": "When the words outstanding or prepaid are attached to the nominal account",
+      "B": "When the words asset or liability are attached",
+      "C": "When the words cash or cheque are attached",
+      "D": "When the words received or paid are attached"
+    },
+    "answer": "A",
+    "explanation": "Nominal accounts are for incomes and expenses. But when 'outstanding' or 'prepaid' is added, it creates a debtor-creditor relationship. For example, 'outstanding salary' is a liability (personal account), 'prepaid rent' is an asset (like a personal account).",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  },
+  {
+    "id": 18,
+    "question": "What is accounting called?",
+    "options": {
+      "A": "Driving force of business",
+      "B": "Terminology of business",
+      "C": "Tool of business",
+      "D": "Language of business"
+    },
+    "answer": "D",
+    "explanation": "Accounting is called the 'Language of Business' because it communicates the financial activities and results of a business.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 19,
+    "question": "Final proof of a transaction is -\ni. Cash memo\nii. Challan\niii. Voucher\nWhich is correct?",
+    "options": {
+      "A": "i",
+      "B": "iii",
+      "C": "i & ii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "A voucher is a written document that serves as the conclusive proof of a transaction. Cash memo (proof of cash purchase/sale) and challan (proof of goods dispatch) are both included in vouchers and serve as evidence of transactions.",
+    "source": "বাংলাদেশ মহিলা সমিতি বালিকা উচ্চ বিদ্যালয় ও কলেজ, চট্টগ্রাম"
+  },
+  {
+    "id": 20,
+    "question": "Characteristics of a transaction are -\ni. Self-contained and independent\nii. Always visible\niii. Measurable in monetary terms\nWhich is correct?",
+    "options": {
+      "A": "i",
+      "B": "i & ii",
+      "C": "i & iii",
+      "D": "ii & iii"
+    },
+    "answer": "C",
+    "explanation": "A transaction is self-contained and independent, and measurable in monetary terms. However, transactions are not always visible, e.g., charging depreciation, creating provisions for bad debts.",
+    "source": "বাংলাদেশ মহিলা সমিতি বালিকা উচ্চ বিদ্যালয় ও কলেজ, চট্টগ্রাম"
+  },
+  {
+    "id": 21,
+    "question": "External users of accounting information -\ni. Management\nii. Government\niii. Employees\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Government is an external user (tax, regulation). Employees are often considered external users in many textbooks as they are not part of management. Management is an internal user. Hence ii & iii are correct.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 22,
+    "question": "Owner's equity will increase due to -\ni. Purchase return Tk. 2,000\nii. Commission received Tk. 7,000\niii. Discount received Tk. 1,500\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Commission received and discount received are direct income, thus increase owner's equity. Purchase return reduces the cost of goods sold, thereby increasing net profit and owner's equity. Therefore all three increase owner's equity.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 23,
+    "question": "If the business earns income or profit -\ni. Owner's equity increases\nii. Liabilities decrease\niii. Assets increase\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Earning profit increases owner's equity (OE) and according to the accounting equation (A = L + OE), assets (A) increase. Profit does not directly affect liabilities (L).",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা"
+  },
+  {
+    "id": 24,
+    "question": "The principles of the double-entry system are -\ni. There are two parties: giver and receiver\nii. The giver's account is debited and the receiver's account is credited\niii. The debit amount is always equal to the credit amount\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Fundamental principles of double-entry: each transaction has two parties (i) and the debit and credit amounts are equal (iii). Statement (ii) (debit the giver, credit the receiver) is a rule for personal accounts, not a universal principle.",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 25,
+    "question": "Mr. Sajid purchased furniture for resale for Tk. 10,000. This transaction results in -\ni. Increase in expense\nii. Decrease in asset\niii. Increase in liability\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Buying furniture increases goods (asset) but payment reduces cash (asset), so asset decreases (ii). Since it is purchased for resale, it is an expense (i). Liabilities remain unchanged.",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 26,
+    "question": "Capital receipts are -\ni. Freight on goods\nii. Proceeds from sale of fixed assets\niii. Bank loan taken\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Money from the sale of a fixed asset is a capital receipt (ii) and a bank loan increases the capital fund (iii). Freight on goods is a revenue expense. Thus ii & iii are correct.",
+    "source": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল, ঢাকা"
+  },
+  {
+    "id": 27,
+    "question": "What effect does taking a bank loan of Tk. 50,000 have on the accounting equation?",
+    "options": {
+      "A": "Increase in Assets and Owner's Equity",
+      "B": "Increase in Assets and Liabilities",
+      "C": "Increase in Owner's Equity and Liabilities",
+      "D": "Decrease in Assets and Liabilities"
+    },
+    "answer": "B",
+    "explanation": "Taking a bank loan increases cash (Asset) and simultaneously increases the bank loan (Liability). Equation: A = L + OE; both A and L increase.",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা"
+  },
+  {
+    "id": 28,
+    "question": "What is the amount of Mr. Abir's capital? (On 1 January 2013, Mr. Abir started a business with cash Tk. 2,00,000, goods worth Tk. 50,000 and a loan of Tk. 50,000.)",
+    "options": {
+      "A": "Tk. 2,00,000",
+      "B": "Tk. 2,50,000",
+      "C": "Tk. 3,00,000",
+      "D": "Tk. 3,50,000"
+    },
+    "answer": "B",
+    "explanation": "Total assets = Cash 2,00,000 (invested) + Goods 50,000 + Cash from loan 50,000 = Tk. 3,00,000. Liabilities = Tk. 50,000. A = L + OE → 3,00,000 = 50,000 + OE. Owner's equity (capital) = Tk. 2,50,000.",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা"
+  },
+  {
+    "id": 29,
+    "question": "As a result of taking a loan, the business of Mr. Abir will increase -\ni. Income\nii. Liabilities\niii. Assets\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Taking a loan increases cash (assets) and simultaneously creates an obligation to repay (liabilities). It does not increase income; it is a source of funds. So ii & iii are correct.",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা"
+  }
+]
