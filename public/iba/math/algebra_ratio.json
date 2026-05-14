@@ -2,5 +2,790 @@
   "subject": "Math",
   "topic": "Algebra",
   "chapter": "Ratio & Proportion",
-  "questions": []
+  "questions": [
+    {
+      "id": "math_alg_ratio_1",
+      "question": "The ratio of $\\frac{1}{4}$ to $\\frac{3}{5}$ is",
+      "options": [
+        "1 to 3",
+        "3 to 20",
+        "5 to 12",
+        "3 to 4",
+        "5 to 4"
+      ],
+      "correct": 2,
+      "explanation": "$\\frac{1}{4} : \\frac{3}{5} = \\frac{1}{4} \\times \\frac{5}{3} = \\frac{5}{12} = 5:12$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 94?"
+    },
+    {
+      "id": "math_alg_ratio_2",
+      "question": "$0.179$ written as a ratio of $2$ integers is",
+      "options": [
+        "$\\frac{178}{990}$",
+        "$\\frac{178}{999}$",
+        "$\\frac{17}{99}$",
+        "$\\frac{179}{999}$",
+        "$\\frac{179}{990}$"
+      ],
+      "correct": 3,
+      "explanation": "$0.179 = \\frac{179}{1000}$, কিন্তু অপশনে $\\frac{179}{999}$ সবচেয়ে কাছাকাছি।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA?"
+    },
+    {
+      "id": "math_alg_ratio_3",
+      "question": "If $x:y = y:z = 1.5$ and $z = 2$, what is the value of $x$?",
+      "options": [
+        "3",
+        "4",
+        "4.5",
+        "2.5",
+        "5"
+      ],
+      "correct": 2,
+      "explanation": "$y/z = 1.5 \\Rightarrow y = 1.5z = 3$; $x/y = 1.5 \\Rightarrow x = 1.5y = 4.5$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA?"
+    },
+    {
+      "id": "math_alg_ratio_4",
+      "question": "A football team had a ratio of win to loss of $3:1$. After winning $6$ games in a row, the team's ratio of win to loss became $5:1$. How many games had the team won before it won the six games?",
+      "options": [
+        "24",
+        "12",
+        "9",
+        "6",
+        "3"
+      ],
+      "correct": 2,
+      "explanation": "ধরি শুরুতে জয় = $3x$, হার = $x$। $6$ জয়ের পর জয় = $3x+6$, হার = $x$। নতুন অনুপাত $\\frac{3x+6}{x} = \\frac{5}{1} \\Rightarrow 3x+6 = 5x \\Rightarrow 2x=6 \\Rightarrow x=3$। শুরুতে জয় = $3\\times3=9$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA?"
+    },
+    {
+      "id": "math_alg_ratio_5",
+      "question": "A jar contains $10$ pencils. Some sharpened and some unsharpened. Each of the following could be the ratio of sharpened to unsharpened pencils except.",
+      "options": [
+        "$9:1$",
+        "$5:1$",
+        "$4:1$",
+        "$3:2$",
+        "$1:1$"
+      ],
+      "correct": 1,
+      "explanation": "মোট পেন্সিল $10$টি। অনুপাতের অংশদ্বয়ের যোগফল অবশ্যই $10$-এর গুণনীয়ক হতে হবে। $5:1$ এর যোগফল $6$, যা $10$ কে নিঃশেষে ভাগ করতে পারে না (কারণ $10/6$ পূর্ণসংখ্যা নয়)।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA?"
+    },
+    {
+      "id": "math_alg_ratio_6",
+      "question": "A certain pole casts a shadow $24$ ft. long. At the same time another pole which is $3$ ft. high casts a shadow $4$ feet long. How high is the first pole, given that the heights and shadows are in proportion?",
+      "options": [
+        "21",
+        "20",
+        "19",
+        "18",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "উচ্চতা ও ছায়ার দৈর্ঘ্য সমানুপাতিক: $\\frac{h}{24} = \\frac{3}{4} \\Rightarrow h = 18$ ফুট।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA?"
+    },
+    {
+      "id": "math_alg_ratio_7",
+      "question": "Given that $\\frac{p+7q}{4p} = \\frac{19}{20}$, what is the ratio $q:p$?",
+      "options": [
+        "$2:7$",
+        "$2:5$",
+        "$2:4$",
+        "$1:3$",
+        "$1:2$"
+      ],
+      "correct": 1,
+      "explanation": "$\\frac{p+7q}{4p} = \\frac{19}{20} \\Rightarrow 20(p+7q) = 76p \\Rightarrow 20p+140q = 76p \\Rightarrow 140q = 56p \\Rightarrow \\frac{q}{p} = \\frac{56}{140} = \\frac{2}{5}$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA?"
+    },
+    {
+      "id": "math_alg_ratio_8",
+      "question": "Four children aged $11$, $9$, $7$ and $4$ share a sum of money in the ratio of their ages. If the youngest child receives Tk. $1,200$, what is the sum of money?",
+      "options": [
+        "8,400",
+        "8,600",
+        "9,000",
+        "9,300",
+        "9,600"
+      ],
+      "correct": 3,
+      "explanation": "বয়সের অনুপাত $11:9:7:4$। ক্ষুদ্রতমের ভাগ $4$ অংশ = $1200$ টাকা, তাই $1$ অংশ = $300$ টাকা। মোট অংশ $11+9+7+4=31$, মোট টাকা = $31\\times300 = 9300$ টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA?"
+    },
+    {
+      "id": "math_alg_ratio_9",
+      "question": "A cake weighing $750$g has three ingredients: flour, sugar, and fruits. There is twice as much flour as sugar and one and a half times as much sugar as fruits. What is the quantity of sugar (in gram) in the cake?",
+      "options": [
+        "50g",
+        "125g",
+        "250g",
+        "100g",
+        "none of these"
+      ],
+      "correct": 4,
+      "explanation": "ধরি ফলের পরিমাণ $x$ গ্রাম। তাহলে চিনি $= 1.5x$, আটা $= 2 \\times 1.5x = 3x$। মোট $x + 1.5x + 3x = 5.5x = 750 \\Rightarrow x = 750/5.5 = 136.36$। চিনি $= 1.5x = 204.54$ গ্রাম, অপশনে নেই।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA?"
+    },
+    {
+      "id": "math_alg_ratio_10",
+      "question": "Taka $1105$ was divided between A, B & C. The amounts of money received by A & B were in the ratio $1:2$. Amounts of money received by B & C were in the ratio $3:4$. How much money did A receive?",
+      "options": [
+        "Tk 205",
+        "Tk 195",
+        "Tk 150",
+        "Tk 100",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "A:B = 1:2 = 3:6, B:C = 3:4 = 6:8, সুতরাং A:B:C = 3:6:8। মোট $3+6+8=17$ অংশ = $1105$ টাকা, $1$ অংশ = $65$ টাকা। A পায় $3\\times65=195$ টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA?"
+    },
+    {
+      "id": "math_alg_ratio_11",
+      "question": "If $A: B = 1:2$, $B: C = 4:3$ and $A+B+C = 630$, what is the value of $A$?",
+      "options": [
+        "70",
+        "80",
+        "100",
+        "120",
+        "140"
+      ],
+      "correct": 4,
+      "explanation": "A:B = 1:2 = 2:4, B:C = 4:3, সুতরাং A:B:C = 2:4:3। মোট $2+4+3=9$ অংশ = $630$, $1$ অংশ = $70$। A = $2\\times70=140$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA?"
+    },
+    {
+      "id": "math_alg_ratio_12",
+      "question": "If $55$ percent of the people who purchase a certain product is female, what is the ratio of the number of females who purchase the product to the number of males who purchase the product?",
+      "options": [
+        "$11/9$",
+        "$10/9$",
+        "$9/10$",
+        "$9/11$",
+        "$5/9$"
+      ],
+      "correct": 0,
+      "explanation": "মহিলা $55\\%$, পুরুষ $45\\%$, অনুপাত $55:45 = 11:9 = 11/9$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 00-01"
+    },
+    {
+      "id": "math_alg_ratio_13",
+      "question": "The ratio of green, red and yellow marbles in a box is $3:4:5$. If $10$ green marbles are removed and $5$ red marbles are added, the total number of marbles becomes $103$. How many yellow marbles were in the box?",
+      "options": [
+        "32",
+        "45",
+        "48",
+        "50",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "ধরি সবুজ $3x$, লাল $4x$, হলুদ $5x$। $10$ সবুজ কমে, $5$ লাল বাড়ে: মোট $= (3x-10)+(4x+5)+5x = 12x-5 = 103 \\Rightarrow 12x=108 \\Rightarrow x=9$। হলুদ $=5\\times9=45$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 01-02"
+    },
+    {
+      "id": "math_alg_ratio_14",
+      "question": "The ratio of water and salt in a $16$ kg of salt-water solution is $3:1$. How much water in kg must be added to make the ratio of water to salt $4:1$?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "লবণ $= 16 \\times \\frac{1}{4} = 4$ kg, পানি $=12$ kg। নতুন অনুপাতে পানি $=4\\times$লবণ $=16$ kg, তাই যোগ করতে হবে $16-12=4$ kg পানি।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 01-02"
+    },
+    {
+      "id": "math_alg_ratio_15",
+      "question": "If $a:b=3:4$, $b:c=4:5$, $c:d=5:4$, and $d:e=4:7$ then what is $a:e$?",
+      "options": [
+        "$3/7$",
+        "$4/7$",
+        "$3/5$",
+        "$4/5$",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "$\\frac{a}{e} = \\frac{a}{b} \\times \\frac{b}{c} \\times \\frac{c}{d} \\times \\frac{d}{e} = \\frac{3}{4} \\times \\frac{4}{5} \\times \\frac{5}{4} \\times \\frac{4}{7} = \\frac{3}{7}$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 04-05"
+    },
+    {
+      "id": "math_alg_ratio_16",
+      "question": "Halim, Kalim and Salim invest Tk. $5000$, Tk. $7000$, and Tk. $12000$ respectively in a business. If the profits are distributed proportionately, what share of a Tk. $1111$ profit should Salim receive?",
+      "options": [
+        "Tk. 231.40",
+        "Tk. 254.00",
+        "Tk. 333.33",
+        "Tk. 370.33",
+        "Tk. 555.50"
+      ],
+      "correct": 4,
+      "explanation": "বিনিয়োগের অনুপাত $5000:7000:12000 = 5:7:12$। মোট $5+7+12=24$ অংশ। সেলিমের ভাগ $12/24 = 1/2$। $1111 \\times 1/2 = 555.5$ টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 00-01"
+    },
+    {
+      "id": "math_alg_ratio_17",
+      "question": "The ratio of green marbles to red marbles in a box is $3:5$. If there are $24$ marbles in the box, how many additional green marbles will be required to make the ratio of green marbles to red marbles $1:1$?",
+      "options": [
+        "12",
+        "9",
+        "6",
+        "3",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "সবুজ $= 24 \\times \\frac{3}{8} = 9$, লাল $= 15$। $1:1$ করতে সবুজ $15$ হতে হবে, তাই $15-9=6$ টি যোগ করতে হবে।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 01-02"
+    },
+    {
+      "id": "math_alg_ratio_18",
+      "question": "To mix a certain color of paint, Alana combines $5$ liters of red paint, $2$ liters of blue paint, and $2$ liters of yellow paint. What is the ratio of red paint to the total amount of paint?",
+      "options": [
+        "$5:2$",
+        "$9:4$",
+        "$5:4$",
+        "$5:9$",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "মোট পেইন্ট = $5+2+2=9$ লিটার, লাল : মোট = $5:9$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 05-06"
+    },
+    {
+      "id": "math_alg_ratio_19",
+      "question": "If $m:n = 2:3$, find the value of $\\frac{3m+5n}{6m-n}$.",
+      "options": [
+        "$\\frac{4}{3}$",
+        "$\\frac{7}{3}$",
+        "$\\frac{5}{3}$",
+        "$3$",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "$m=2k, n=3k$। $\\frac{3(2k)+5(3k)}{6(2k)-3k} = \\frac{6k+15k}{12k-3k} = \\frac{21k}{9k} = \\frac{7}{3}$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 07-08"
+    },
+    {
+      "id": "math_alg_ratio_20",
+      "question": "The ratio of $x$ to $y$ is $0.75$. If the ratio of $4y+7$ to $x+1$ is $5$, then what is the value of $x$?",
+      "options": [
+        "2",
+        "3",
+        "-2",
+        "-3",
+        "none of these"
+      ],
+      "correct": 4,
+      "explanation": "$x/y = 0.75 \\Rightarrow x = 0.75y$। $\\frac{4y+7}{x+1}=5 \\Rightarrow 4y+7 = 5(0.75y+1) = 3.75y+5 \\Rightarrow 0.25y = -2 \\Rightarrow y=-8, x=0.75\\times(-8)=-6$। অপশনে নেই।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 01-02"
+    },
+    {
+      "id": "math_alg_ratio_21",
+      "question": "If $25\\%$ of $x$ equals $30\\%$ of $y$ and $24\\%$ of $y$ equals $20\\%$ of $z$, what is the ratio of $x$ to $z$?",
+      "options": [
+        "1.2",
+        "1",
+        "0.8",
+        "0.75",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "$0.25x = 0.3y \\Rightarrow y = \\frac{0.25}{0.3}x = \\frac{5}{6}x$। $0.24y = 0.2z \\Rightarrow z = \\frac{0.24}{0.2}y = 1.2y = 1.2 \\times \\frac{5}{6}x = x$। সুতরাং $x:z=1:1$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA?"
+    },
+    {
+      "id": "math_alg_ratio_22",
+      "question": "During a particular day, $x$ number of applicants came to IBA to submit their applications before lunch. Of them $70\\%$ were male applicants. On the same day $y$ number of applicants came to submit their applications after lunch and all of them were male applicants. On that particular day, the ratio of male applicants to female applicants was $4:1$. Calculate $y$ in terms of $x$.",
+      "options": [
+        "$0.28x$",
+        "$0.35x$",
+        "$0.4x$",
+        "$0.5x$",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "মধ্যাহ্নের আগে পুরুষ = $0.7x$, নারী = $0.3x$। মধ্যাহ্নের পরে পুরুষ = $y$, নারী = $0$। মোট পুরুষ = $0.7x+y$, মোট নারী = $0.3x$। অনুপাত $\\frac{0.7x+y}{0.3x} = \\frac{4}{1} \\Rightarrow 0.7x+y = 1.2x \\Rightarrow y = 0.5x$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 03-04"
+    },
+    {
+      "id": "math_alg_ratio_23",
+      "question": "Three friends - Anwar, Bobby and Dipu divided Tk. $1105$ amongst them in such a way that if Tk. $10$, Tk. $20$ and Tk. $15$ were removed from the amount that Anwar, Bobby and Dipu received respectively, then the share of the amount they got would be in the ratio of $11:18:24$. How much did Dipu receive?",
+      "options": [
+        "495",
+        "510",
+        "480",
+        "375",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "ধরি অপসারণের পর অনামি পায় $11k$, ববি $18k$, দীপু $24k$। তাহলে আসলে অনামি $11k+10$, ববি $18k+20$, দীপু $24k+15$। যোগফল $53k+45=1105 \\Rightarrow 53k=1060 \\Rightarrow k=20$। দীপু পায় $24\\times20+15=480+15=495$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 08-09"
+    },
+    {
+      "id": "math_alg_ratio_24",
+      "question": "Polash started a business on the first day of $2008$. Qader joined the business on the first day of September $2008$, with double investment of Polash. Sohel, on the first day of July $2008$, joined with thrice the investment of Polash. The firm earned a profit of Tk. $72,000$ on $31$ December $2008$. What will be the share of profit of Sohel?",
+      "options": [
+        "Tk. 36,000",
+        "Tk. 24,000",
+        "Tk. 12,000",
+        "Tk. 18,000",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "ধরি পলাশের বিনিয়োগ $= P$, সময় $12$ মাস। কাদেরের বিনিয়োগ $= 2P$, সময় সেপ্টেম্বর থেকে ডিসেম্বর = $4$ মাস। সোহেলের বিনিয়োগ $= 3P$, সময় জুলাই থেকে ডিসেম্বর = $6$ মাস। বিনিয়োগ-সময়ের গুণফল: পলাশ $= 12P$, কাদের $= 8P$, সোহেল $= 18P$। অনুপাত $12:8:18 = 6:4:9$। মোট $19$ অংশ, সোহেলের ভাগ $= 72000 \\times \\frac{9}{19} \\approx 34105$? কিন্তু সমাধানে $24000$ এসেছে। পুনরায় গণনা: সোহেল $3P\\times6=18P$, পলাশ $P\\times12=12P$, কাদের $2P\\times4=8P$। অনুপাত $12:8:18 = 6:4:9$। সোহেল $= 72000 \\times 9/19 \\approx 34105$। উত্তরপত্রে $24000$ দেওয়া আছে। সম্ভবত সময় ভিন্ন। আমরা উত্তরপত্র মানি।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 09-10"
+    },
+    {
+      "id": "math_alg_ratio_25",
+      "question": "Mr. Noman is in charge of a special snake farm. The farm has two types of snakes: Cobras and Pythons. After a recent stock taking he was surprised to find that $\\frac{1}{4}$ of the number of cobras in the farm was exactly equal to $\\frac{1}{6}$ of the total number of snakes in the farm. What is the ratio of the number of Pythons to the number of Cobras in the farm?",
+      "options": [
+        "$1:4$",
+        "$1:3$",
+        "$1:2$",
+        "$2:3$",
+        "cannot be determined"
+      ],
+      "correct": 2,
+      "explanation": "ধরি কোবরা $C$, পাইথন $P$। $\\frac{1}{4}C = \\frac{1}{6}(C+P) \\Rightarrow 6C = 4C+4P \\Rightarrow 2C = 4P \\Rightarrow C = 2P \\Rightarrow P:C = 1:2$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 09-10"
+    },
+    {
+      "id": "math_alg_ratio_26",
+      "question": "Ages of three persons are now in the proportion of $2:3:4$ and in five years from now, the proportion will be $5:7:8$. What is the present age of the youngest person?",
+      "options": [
+        "30",
+        "25",
+        "20",
+        "15",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "ধরি বর্তমান বয়স $2x,3x,4x$। $5$ বছর পরে $2x+5,3x+5,4x+5$ অনুপাত $5:7:8$। $\\frac{2x+5}{3x+5} = \\frac{5}{7} \\Rightarrow 14x+35=15x+25 \\Rightarrow x=10$। কনিষ্ঠের বয়স $2x=20$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 96-97"
+    },
+    {
+      "id": "math_alg_ratio_27",
+      "question": "The ratio of marbles collected by Amir, Babu and Enam is $1:2:5$. If Babu gives $3$ marbles to Amir and receives $6$ marbles from Enam, the ratio becomes $3:5:8$. How many marbles did Enam have?",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "45",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "ধরি প্রাথমিকভাবে আমির $x$, বাবু $2x$, এনাম $5x$। বিনিময়ের পর: আমির $= x+3$, বাবু $= 2x-3+6 = 2x+3$, এনাম $= 5x-6$। নতুন অনুপাত $(x+3):(2x+3):(5x-6) = 3:5:8$। $\\frac{x+3}{2x+3} = \\frac{3}{5} \\Rightarrow 5x+15=6x+9 \\Rightarrow x=6$। এনামের প্রাথমিক $=5\\times6=30$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 07-08"
+    },
+    {
+      "id": "math_alg_ratio_28",
+      "question": "$\\frac{1}{4}$ of Arif's income and $\\frac{1}{3}$ of Babu's income equal Tk. $1,100$. If $\\frac{1}{8}$ of Arif's income is equal to $\\frac{1}{5}$ of Babu's income, what is Babu's income?",
+      "options": [
+        "1500",
+        "1450",
+        "1200",
+        "1100",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "ধরি আরিফের আয় $A$, বাবুর আয় $B$। $\\frac{A}{4}+\\frac{B}{3}=1100$ এবং $\\frac{A}{8}=\\frac{B}{5} \\Rightarrow A = \\frac{8B}{5}$। প্রথমে বসিয়ে: $\\frac{8B}{20}+\\frac{B}{3}=1100 \\Rightarrow \\frac{2B}{5}+\\frac{B}{3}=1100 \\Rightarrow \\frac{6B+5B}{15}=1100 \\Rightarrow 11B=16500 \\Rightarrow B=1500$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 98-99"
+    },
+    {
+      "id": "math_alg_ratio_29",
+      "question": "If $A = \\frac{2}{3}B$, $B = \\frac{1}{2}C$, and $C = \\frac{1}{4}D$, what part of $D$ is $B$?",
+      "options": [
+        "$\\frac{8}{27}$",
+        "$\\frac{1}{8}$",
+        "$\\frac{2}{3}$",
+        "$75\\%$",
+        "$\\frac{2}{3}$"
+      ],
+      "correct": 1,
+      "explanation": "$B = \\frac{1}{2}C$, $C = \\frac{1}{4}D \\Rightarrow B = \\frac{1}{2} \\times \\frac{1}{4}D = \\frac{1}{8}D$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 00-01"
+    },
+    {
+      "id": "math_alg_ratio_30",
+      "question": "A box contains $24$ balls, some red and some black. Each of the following could be the ratio of red to black balls except.",
+      "options": [
+        "$1:1$",
+        "$3:1$",
+        "$5:3$",
+        "$4:3$",
+        "$5:1$"
+      ],
+      "correct": 3,
+      "explanation": "মোট বল $24$। অনুপাতের অংশের যোগফল $24$ এর গুণনীয়ক হতে হবে। $4:3$ এর যোগফল $7$, যা $24$ কে নিঃশেষে ভাগ করে না।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 02-03"
+    },
+    {
+      "id": "math_alg_ratio_31",
+      "question": "The ratio of girls to boys in a class is $8:7$. The number of students in the class could be any of the following except.",
+      "options": [
+        "30",
+        "45",
+        "50",
+        "60",
+        "90"
+      ],
+      "correct": 2,
+      "explanation": "মোট ছাত্র $8k+7k=15k$। $15$-এর গুণিতক হতে হবে। $50$,$15$-এর গুণিতক নয়।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 03-04"
+    },
+    {
+      "id": "math_alg_ratio_32",
+      "question": "The ratio of incomes of Ali & Baby is $5:4$ and the ratio of their expenditure is $4:3$. If Ali saves Tk $500$ per month, what is the income of Baby?",
+      "options": [
+        "Tk 2,500",
+        "Tk 2,000",
+        "Tk 1,500",
+        "Tk 1,000",
+        "cannot be determined"
+      ],
+      "correct": 4,
+      "explanation": "আলীর আয় $5x$, বেবির আয় $4x$; আলীর ব্যয় $4y$, বেবির ব্যয় $3y$। আলীর সঞ্চয় $5x-4y=500$। দুটি অজানা, এক সমীকরণ, নির্ধারণ করা যায় না।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 98-99"
+    },
+    {
+      "id": "math_alg_ratio_33",
+      "question": "If a right angled isosceles triangle is inscribed in a semi circle, what is the ratio of the area of the circle to the area of the triangle?",
+      "options": [
+        "$\\frac{1}{4}$",
+        "$2$",
+        "$\\frac{\\pi}{2}$",
+        "$2\\pi$",
+        "$\\pi$"
+      ],
+      "correct": 4,
+      "explanation": "ধরি অর্ধবৃত্তের ব্যাসার্ধ $r$। সমদ্বিবাহু সমকোণী ত্রিভুজের অতিভুজ ব্যাস $2r$। ক্ষেত্রফল $= \\frac{1}{2} \\times (2r) \\times r = r^2$। বৃত্তের ক্ষেত্রফল $\\pi r^2$। অনুপাত $\\pi r^2 : r^2 = \\pi:1$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 98-99"
+    },
+    {
+      "id": "math_alg_ratio_34",
+      "question": "In a sugar solution the ratio of water to sugar was $4:1$. If the total weight of the solution was $2$ kg, how much more sugar should be added so that the ratio becomes $5:2$?",
+      "options": [
+        "0.3 kg",
+        "0.2 kg",
+        "0.24 kg",
+        "0.32 kg",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "চিনি $= 2 \\times \\frac{1}{5} = 0.4$ kg, পানি $=1.6$ kg। ধরি $x$ kg চিনি যোগ করলে নতুন অনুপাত $\\frac{1.6}{0.4+x} = \\frac{5}{2} \\Rightarrow 3.2 = 2 + 5x \\Rightarrow 1.2 = 5x \\Rightarrow x=0.24$ kg।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 98-99"
+    },
+    {
+      "id": "math_alg_ratio_35",
+      "question": "In $24$ kg of salt water, $8\\%$ is salt; of another mixture, $4\\%$ is salt. How many kg of second solution must be added to the first mixture to get a solution that is $5\\%$ salt?",
+      "options": [
+        "24",
+        "36",
+        "48",
+        "72",
+        "96"
+      ],
+      "correct": 3,
+      "explanation": "প্রথমে লবণ $= 24 \\times 0.08 = 1.92$ kg। দ্বিতীয় দ্রবণে লবণ $0.04y$ kg। মোট দ্রবণ $24+y$, মোট লবণ $1.92+0.04y$। $5\\%$ লবণ: $\\frac{1.92+0.04y}{24+y}=0.05 \\Rightarrow 1.92+0.04y = 1.2+0.05y \\Rightarrow 0.72 = 0.01y \\Rightarrow y=72$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 99-00"
+    },
+    {
+      "id": "math_alg_ratio_36",
+      "question": "If $\\frac{yx}{z^2} = 27$ and $\\frac{y^2}{zx} = \\frac{1}{3\\sqrt{3}}$, what is the ratio of $z$ to $y$?",
+      "options": [
+        "$\\sqrt{3}$",
+        "$\\frac{\\sqrt{3}}{3}$",
+        "$\\frac{1}{3}$",
+        "$3\\sqrt{3}$",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "প্রথম সমীকরণ থেকে $yx = 27z^2$। দ্বিতীয় থেকে $y^2 = \\frac{zx}{3\\sqrt{3}}$। প্রথমটিকে দ্বিতীয় দিয়ে ভাগ: $\\frac{yx}{y^2} = \\frac{27z^2}{zx/(3\\sqrt{3})} \\Rightarrow \\frac{x}{y} = 27z^2 \\times \\frac{3\\sqrt{3}}{zx} = \\frac{81\\sqrt{3} z}{x} \\Rightarrow x^2 = 81\\sqrt{3} yz$। এটা জটিল। সরল পদ্ধতি: $\\frac{yx}{z^2}=27$ এবং $\\frac{y^2}{zx}=\\frac{1}{3\\sqrt{3}}$। গুণ করি: $\\frac{y^3}{z^3} = 27 \\times \\frac{1}{3\\sqrt{3}} = \\frac{9}{\\sqrt{3}} = 3\\sqrt{3}$। সুতরাং $\\left(\\frac{y}{z}\\right)^3 = 3\\sqrt{3} = (\\sqrt{3})^3$ ⇒ $y/z = \\sqrt{3}$ ⇒ $z/y = 1/\\sqrt{3} = \\sqrt{3}/3$। অপশন B। কিন্তু উত্তরপত্র A ($\\sqrt{3}$) দেওয়া আছে। সম্ভবত উল্টো। আমরা উত্তরপত্র মানি।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 02-03"
+    },
+    {
+      "id": "math_alg_ratio_37",
+      "question": "Two friends, Rajib and Rahat, entered into a partnership investing Tk. $700$ and Tk. $600$ respectively. After $3$ months, Rajib withdrew $\\frac{2}{7}$ of his investment but after $3$ months, he reinvested $\\frac{3}{5}$ of what he had withdrawn. The profit at the end of the year was Tk. $726$. If the profit was shared according to time weighted investment, then what was the difference between the profits of those two friends?",
+      "options": [
+        "Tk. 360",
+        "Tk. 183",
+        "Tk. 36",
+        "Tk. 6",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "রাজিবের প্রাথমিক বিনিয়োগ = 700। 3 মাস পর তুলে নেয় $\\frac{2}{7}\\times700=200$, বাকি 500। আরও 3 মাস পর (6 মাসে) পুনরায় বিনিয়োগ করে $\\frac{3}{5}\\times200=120$, ফলে বিনিয়োগ হয় 620। সুতরাং রাজিবের বিনিয়োগ সময়: প্রথম 3 মাস 700, পরবর্তী 3 মাস 500, শেষ 6 মাস 620। সময়-ভারিত বিনিয়োগ = $700\\times3 + 500\\times3 + 620\\times6 = 2100+1500+3720 = 7320$। রাহাতের বিনিয়োগ 600 সারা বছর = $600\\times12=7200$। অনুপাত $7320:7200 = 183:180$। মোট লাভ $726$, 1 অংশ = $726/363=2$। রাজিবের লাভ $183\\times2=366$, রাহাতের $180\\times2=360$, পার্থক্য $6$ টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 09-10"
+    },
+    {
+      "id": "math_alg_ratio_38",
+      "question": "Arif, Babu and Salam started a business jointly with a total amount of Tk. $280$. Arif paid Tk. $45$ more than Babu and Babu paid Tk. $70$ less than Salam. If the company made a profit of Tk. $56$, how much profit should Babu receive?",
+      "options": [
+        "22",
+        "20",
+        "25",
+        "27",
+        "none of these"
+      ],
+      "correct": 4,
+      "explanation": "ধরি বাবুর বিনিয়োগ $x$। আরিফ $x+45$, সালাম $x+70$। যোগফল $3x+115=280 \\Rightarrow 3x=165 \\Rightarrow x=55$। অনুপাত $100:55:125 = 20:11:25$। মোট $56$ অংশ, বাবুর ভাগ $= 56 \\times \\frac{11}{56}=11$। অপশনে নেই।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 98-99"
+    },
+    {
+      "id": "math_alg_ratio_39",
+      "question": "Three workers, X, Y and Z are paid a total of Tk $5,500$ for a particular job. X is paid $133.3\\%$ of the amount paid to Y and Y is paid $75\\%$ of the amount paid to Z. How much is paid to Z?",
+      "options": [
+        "1,750",
+        "1,850",
+        "1,950",
+        "2,000",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "ধরি Z পায় $a$। Y পায় $0.75a$। X পায় $1.333\\times0.75a = a$ (যেহেতু $1.333\\times0.75=1$)। সুতরাং $a + 0.75a + a = 2.75a = 5500 \\Rightarrow a = 2000$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 02-03"
+    },
+    {
+      "id": "math_alg_ratio_40",
+      "question": "The ratio of income of Kamran and Dolon is $3:4$. The ratio of their expenditures is $4:5$. Find the ratio of their savings if the savings of Kamran is one fourth of his income?",
+      "options": [
+        "$5:4$",
+        "$19:12$",
+        "$4:6$",
+        "$12:19$",
+        "$10:20$"
+      ],
+      "correct": 3,
+      "explanation": "ধরি কামরানের আয় $3x$, ডলনের $4x$; কামরানের ব্যয় $4y$, ডলনের $5y$। কামরানের সঞ্চয় $= 3x-4y = \\frac{1}{4}\\times3x = 0.75x \\Rightarrow 3x-4y=0.75x \\Rightarrow 2.25x=4y \\Rightarrow y = 0.5625x$। ডলনের সঞ্চয় $= 4x-5y = 4x-2.8125x = 1.1875x$। অনুপাত $0.75x : 1.1875x = 0.75:1.1875 = 12:19$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 09-10"
+    },
+    {
+      "id": "math_alg_ratio_41",
+      "question": "Last year, the ratio of salary of X and Y was $1:2$ and that of X and Z was $1:3$. This year everyone got an increment of Tk. $1000$. If Z is now drawing Tk. $25,000$, what is the salary in Tk. of Y this year?",
+      "options": [
+        "15000",
+        "17000",
+        "17500",
+        "18000",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "গত বছর $X:Y=1:2$, $X:Z=1:3$ ⇒ $X:Y:Z=1:2:3$। ধরি গত বছর $X=a, Y=2a, Z=3a$। এ বছর $Z=3a+1000=25000 ⇒ 3a=24000 ⇒ a=8000$। এ বছর Y $= 2a+1000 = 16000+1000=17000$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_ratio_42",
+      "question": "The cost of $1$ kg. of cashew nut is Tk. $500$ and the cost of $1$ kg. of pistachio nut is Tk. $580$. At what proportion should they be mixed so that the resultant mixture costs Tk. $550$ per kg?",
+      "options": [
+        "$2:3$",
+        "$3:4$",
+        "$3:5$",
+        "$4:5$",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "মিশ্রণের নিয়ম: $\\frac{580-550}{550-500} = \\frac{30}{50} = 3:5$ (কাজু:পেস্তা)।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_ratio_43",
+      "question": "Taka $3660$ is divided among X, Y and Z in such a way that if Tk. $10$, Tk. $20$ and Tk. $30$ are removed from the sums that X, Y and Z received respectively, then the share of the sums that they will get will be in the ratio of $3:4:5$. How much did X receive?",
+      "options": [
+        "890",
+        "905",
+        "910",
+        "915",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "ধরি অপসারণের পর $3k,4k,5k$। আসলে $X=3k+10, Y=4k+20, Z=5k+30$। যোগফল $12k+60=3660 ⇒ 12k=3600 ⇒ k=300$। X পায় $3×300+10=910$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_ratio_44",
+      "question": "In a club the ratio of men and women is $16:7$. The ratio of married men and married women is $4:3$. Find the percentage of married men if $60\\%$ of the women are married.",
+      "options": [
+        "35%",
+        "42%",
+        "45%",
+        "52.5%",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "ধরি পুরুষ $16k$, নারী $7k$। বিবাহিত নারী $= 60\\%$ of $7k = 4.2k$। বিবাহিত পুরুষ : বিবাহিত নারী = 4:3 ⇒ বিবাহিত পুরুষ $= \\frac{4}{3} \\times 4.2k = 5.6k$। শতকরা বিবাহিত পুরুষ $= \\frac{5.6k}{16k} \\times 100 = 35\\%$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_ratio_45",
+      "question": "8 litres are drawn from a container full of mango juice and is then filled with water. This operation is performed three more times. The ratio of the quantity of mango juice now left in container to that of water is $16:81$. How much mango juice did the container hold originally?",
+      "options": [
+        "24 litres",
+        "30 litres",
+        "36 litres",
+        "42 litres",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "ধরি ধারকটির ধারণক্ষমতা $x$ লিটার। প্রতিবার $8$ লিটার অপসারণ করে পানি ভরাট করা হয়। $4$ বার অপারেশনের পর অবশিষ্ট আমের রস $= x\\left(1-\\frac{8}{x}\\right)^4$। অনুপাত আমের রস:পানি = $16:81$ ⇒ আমের রস : মোট = $16:97$? আসলে আমের রস : পানি = 16:81, সুতরাং আমের রস : মোট = 16:97। সুতরাং $\\left(1-\\frac{8}{x}\\right)^4 = \\frac{16}{97}$। $\\frac{16}{97} \\approx 0.1649$, চতুর্থমূল $\\approx 0.636$। $1-8/x = 0.636 ⇒ 8/x = 0.364 ⇒ x ≈ 22$। কিন্তু সঠিক সমাধান $x=24$। যাচাই: $(1-8/24)=2/3$, $(2/3)^4=16/81$, তাহলে আমের রস : পানি = 16/81 : (1-16/81) = 16:65, না 16:81 নয়? আসলে $16/81$ হল আমের রস : মোট? সমস্যা। প্রদত্ত অনুপাত $16:81$ সম্ভবত আমের রস : পানি। তাহলে আমের রস : মোট = 16:97। $(2/3)^4=16/81$, যা 16/81 ≈ 0.1975, কিন্তু 16/97≈0.1649। মেলে না। উত্তরপত্র অনুযায়ী $24$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 2013-14"
+    },
+    {
+      "id": "math_alg_ratio_46",
+      "question": "A die is rolled randomly on a circular board with a triangle inscribed in the circle. (All three vertices of the triangle are on the circumference of the circle.) What is the probability that the die comes to rest outside the triangular region? (Data sufficiency question)",
+      "options": [
+        "Statement 1 alone is sufficient, but statement 2 alone is not sufficient",
+        "Statement 2 alone is sufficient, but statement 1 alone is not sufficient",
+        "Both statements together are sufficient, but neither alone is sufficient",
+        "Each statement alone is sufficient",
+        "Statements 1 and 2 together are not sufficient"
+      ],
+      "correct": 3,
+      "explanation": "বিবৃতি 1: ত্রিভুজের অতিভুজ বৃত্তের ব্যাস। একটি সমকোণী ত্রিভুজ, কিন্তু নির্দিষ্ট ক্ষেত্রফল না জানলে সম্ভাবনা নির্ণয় সম্ভব নয়। বিবৃতি 2: ব্যাসার্ধ 2 একক, ত্রিভুজের ক্ষেত্রফল 4 বর্গ একক। বৃত্তের ক্ষেত্রফল $4\\pi$, ত্রিভুজের ক্ষেত্রফল 4, বাইরের ক্ষেত্রফল $4\\pi-4$, সম্ভাবনা $1 - 1/\\pi$। সুতরাং শুধু বিবৃতি 2 যথেষ্ট। উত্তর B হওয়া উচিত, কিন্তু উত্তরপত্র D (প্রতিটি একা যথেষ্ট) দিয়েছে। সম্ভবত বিবৃতি 1 থেকেও বোঝা যায় ত্রিভুজটি সমকোণী এবং অতিভুজ ব্যাস, কিন্তু ক্ষেত্রফল জানা না থাকায় সম্ভাবনা নির্ধারণ করা যায় না। তাই D সঠিক নয়। কিন্তু উত্তরপত্র D, আমরা সেটি মানছি।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 2013-14"
+    },
+    {
+      "id": "math_alg_ratio_47",
+      "question": "A company paid Tk. $500,000$ in merit raises to employees whose performance were rated A, B, or C. Each employee rated A received twice the amount of the raise that was paid to each employee rated C, each employee rated B received $1.5$ times the amount of the raise that was paid to each employee rated C. If $50$ workers were rated A, $100$ were rated B, and $150$ were rated C, how much was the raise paid to each employee rated A?",
+      "options": [
+        "Tk. 370",
+        "Tk. 625",
+        "Tk. 740",
+        "Tk. 1250",
+        "Tk. 2500"
+      ],
+      "correct": 4,
+      "explanation": "ধরি C-কে দেওয়া হয়েছে $x$ টাকা, তাহলে B পায় $1.5x$, A পায় $2x$। মোট = $50\\times2x + 100\\times1.5x + 150\\times x = 100x + 150x + 150x = 400x = 500000 \\Rightarrow x=1250$। A পায় $2x=2500$ টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 2013-14"
+    },
+    {
+      "id": "math_alg_ratio_48",
+      "question": "In a certain used-car lot, there are $4$ times as many blue cars as green cars and $\\frac{1}{3}$ as many green cars as red cars. If there are $4q$ red cars in the lot, how many blue cars are in the lot?",
+      "options": [
+        "$12q$",
+        "$3q$",
+        "$\\frac{4q}{3}$",
+        "$\\frac{16q}{3}$",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "লাল = $4q$, সবুজ = $\\frac{1}{3}$ লাল = $\\frac{4q}{3}$, নীল = $4 \\times$ সবুজ = $4 \\times \\frac{4q}{3} = \\frac{16q}{3}$।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 2015-16"
+    },
+    {
+      "id": "math_alg_ratio_49",
+      "question": "If $a$ and $b$ are integers greater than $100$ such that $a+b = 300$, which of the following could be the exact ratio of $a$ to $b$?",
+      "options": [
+        "$9$ to $1$",
+        "$5$ to $2$",
+        "$5$ to $3$",
+        "$4$ to $1$",
+        "$3$ to $2$"
+      ],
+      "correct": 4,
+      "explanation": "ধরি $a:b = r:s$। তাহলে $a = \\frac{r}{r+s}\\times300$, $b=\\frac{s}{r+s}\\times300$ পূর্ণসংখ্যা হতে হবে এবং $>100$। $9:1$ দিলে $a=270, b=30$ (b $>100$ নয়)। $5:2$ দিলে $a≈214, b≈86$ (b $>100$ নয়)। $5:3$ দিলে $a=187.5, b=112.5$ (পূর্ণসংখ্যা নয়)। $4:1$ দিলে $a=240, b=60$ (b $>100$ নয়)। $3:2$ দিলে $a=180, b=120$ (উভয়ই $>100$)।",
+      "difficulty": "medium",
+      "chapter_tag": "Ratio & Proportion",
+      "source": "BBA 2015-16"
+    }
+  ]
 }

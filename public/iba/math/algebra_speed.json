@@ -2,5 +2,934 @@
   "subject": "Math",
   "topic": "Algebra",
   "chapter": "Distance, Time & Speed",
-  "questions": []
+  "questions": [
+    {
+      "id": "math_alg_speed_1",
+      "question": "A motorcyclist rode to work at an average speed of 15 miles per hour and returned home along the same route at an average speed of 45 miles per hour. If his entire traveling time was 1 hour, what was the total number of miles in the round trip?",
+      "options": [
+        "15",
+        "$22\\frac{1}{2}$",
+        "30",
+        "$36\\frac{2}{3}$",
+        "45"
+      ],
+      "correct": 1,
+      "explanation": "যেহেতু যাওয়া ও ফেরার দূরত্ব সমান, গড় গতি $\\frac{2xy}{x+y} = \\frac{2\\times15\\times45}{15+45} = \\frac{1350}{60} = 22.5$ mph। মোট সময় 1 ঘন্টা, তাই মোট দূরত্ব = $22.5$ মাইল।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 93"
+    },
+    {
+      "id": "math_alg_speed_2",
+      "question": "A plane traveling at 600 miles per hour is heading for Chittagong Airport. At 3:58 pm., it is 30 miles from the airport. At what time will it arrive at the airport?",
+      "options": [
+        "3:59 pm",
+        "4:00 pm",
+        "4:01 pm",
+        "4:02 pm",
+        "4:03 pm"
+      ],
+      "correct": 2,
+      "explanation": "গতি 600 mph, দূরত্ব 30 মাইল। সময় = $\\frac{30}{600} = 0.05$ ঘন্টা = 3 মিনিট। 3:58 + 3 মিনিট = 4:01 pm।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 93"
+    },
+    {
+      "id": "math_alg_speed_3",
+      "question": "Ali starts from his home at 5 a.m. and travels towards Chittagong at an average speed of 30 km/hr. Belal starts from the same home at 7 a.m. and travels along the same route towards Chittagong, overtaking Ali at exactly 11 a.m. At what speed, in km/hr, was Belal travelling?",
+      "options": [
+        "35",
+        "40",
+        "45",
+        "48",
+        "50"
+      ],
+      "correct": 2,
+      "explanation": "আলি 6 ঘন্টায় যায় $6\\times30=180$ কিমি। বেলাল 4 ঘন্টায় 180 কিমি যায়, তাই গতি $\\frac{180}{4}=45$ কিমি/ঘন্টা।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 94-95"
+    },
+    {
+      "id": "math_alg_speed_4",
+      "question": "Hasan can run 10 miles per hour, while Jack can run only 8 miles per hour. If they start at the same time from a point, and run in opposite direction, how far apart (to the nearest mile) will they be after 10 minutes?",
+      "options": [
+        "1 mile",
+        "2 miles",
+        "3 miles",
+        "4 miles",
+        "5 miles"
+      ],
+      "correct": 2,
+      "explanation": "আপেক্ষিক গতি = $10+8=18$ mph। 10 মিনিট = $\\frac{1}{6}$ ঘন্টা। দূরত্ব = $18 \\times \\frac{1}{6}=3$ মাইল।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 95-96"
+    },
+    {
+      "id": "math_alg_speed_5",
+      "question": "A certain 90-mile trip took 2 hours. Exactly 1/3 of the distance traveled was by rail, and this part of the trip took 1/5 of the travel time. What was the average rate, in miles per hour, of the rail portion of the trip?",
+      "options": [
+        "12 mph",
+        "30 mph",
+        "45 mph",
+        "60 mph",
+        "75 mph"
+      ],
+      "correct": 4,
+      "explanation": "রেলে দূরত্ব = $90 \\times \\frac{1}{3}=30$ মাইল। সময় = $2 \\times \\frac{1}{5}=0.4$ ঘন্টা। গতি = $30/0.4=75$ mph।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 95-96"
+    },
+    {
+      "id": "math_alg_speed_6",
+      "question": "Sharif ran a 2 mile race at an average speed of 8 miles per hour. If Arif ran the same race at an average speed of 6 miles per hour, how many minutes longer than Sharif did Arif take to complete the race?",
+      "options": [
+        "20",
+        "15",
+        "12",
+        "9",
+        "5"
+      ],
+      "correct": 4,
+      "explanation": "শরিফের সময় = $2/8 = 0.25$ ঘন্টা = 15 মিনিট। আরিফের সময় = $2/6 = 1/3$ ঘন্টা = 20 মিনিট। পার্থক্য = 5 মিনিট।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 96-97"
+    },
+    {
+      "id": "math_alg_speed_7",
+      "question": "Two trains are running on the same route at the rate of 25 and 30 miles per hour. If the first train starts out an hour earlier, how long will it take the second train to catch up with it?",
+      "options": [
+        "5 hrs",
+        "4 hrs",
+        "3 hrs",
+        "2 hrs",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "ধরি দ্বিতীয় ট্রেন $x$ ঘন্টা পরে ধরে। $25(x+1)=30x \\Rightarrow 25x+25=30x \\Rightarrow 5x=25 \\Rightarrow x=5$ ঘন্টা।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 97-98"
+    },
+    {
+      "id": "math_alg_speed_8",
+      "question": "A man travels a certain distance at a rate of 20 miles an hour and returns at the rate of 30 miles an hour. What is his average speed?",
+      "options": [
+        "26",
+        "25",
+        "25.5",
+        "24",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "গড় গতি $= \\frac{2\\times20\\times30}{20+30} = \\frac{1200}{50}=24$ mph।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 97-98"
+    },
+    {
+      "id": "math_alg_speed_9",
+      "question": "A boat sailing against the current takes 8 hours to travel 32 km. If it had been sailing with the current the time taken would have been only 4 hours. What is the speed of current?",
+      "options": [
+        "3 km/hr",
+        "2.5 km/hr",
+        "2 km/hr",
+        "1 km/hr",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "প্রতিকূলে গতি = $32/8=4$ কিমি/ঘন্টা, অনুকূলে $32/4=8$ কিমি/ঘন্টা। নৌকার গতি = $(8+4)/2=6$, স্রোতের গতি = $(8-4)/2=2$ কিমি/ঘন্টা।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 98-99"
+    },
+    {
+      "id": "math_alg_speed_10",
+      "question": "Mr. Karim traveled to his office from his home at speed of 3 km/hr. If his total traveling time was 5 hours, what is the distance in kms, of his office from his home?",
+      "options": [
+        "15",
+        "5",
+        "6",
+        "9",
+        "None of these"
+      ],
+      "correct": 0,
+      "explanation": "দূরত্ব = গতি × সময় = $3\\times5=15$ কিমি।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 98-99"
+    },
+    {
+      "id": "math_alg_speed_11",
+      "question": "Two cars start towards each other from points 200 km apart. One car travels at 40 km/hr and the other travels at 35 km/hr. How far apart will the two cars be after four hours of continuous traveling?",
+      "options": [
+        "100 km",
+        "75 km",
+        "40 km",
+        "20 km",
+        "160 km"
+      ],
+      "correct": 0,
+      "explanation": "4 ঘন্টায় গাড়ি দুটি মোট অতিক্রম করে = $4\\times(40+35)=300$ কিমি, যা 200 কিমি অতিক্রম করে আরও 100 কিমি এগিয়ে যাবে। তাই তাদের মধ্যে দূরত্ব 100 কিমি।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 98-99"
+    },
+    {
+      "id": "math_alg_speed_12",
+      "question": "A man travels from A to B at 20 km/hr. He makes the return journey at 30 km/hr. What was his avg speed?",
+      "options": [
+        "20",
+        "22",
+        "23",
+        "25",
+        "none of these"
+      ],
+      "correct": 4,
+      "explanation": "গড় গতি $= \\frac{2\\times20\\times30}{20+30} = \\frac{1200}{50}=24$ কিমি/ঘন্টা, অপশনে নেই।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 98-99"
+    },
+    {
+      "id": "math_alg_speed_13",
+      "question": "Mr. Karim traveled from A to B at a speed of 3 km/hr and returned from B to A at a speed of 5 km/hr. If the round trip required 8 hours, what was the distance between A and B in km?",
+      "options": [
+        "9",
+        "12",
+        "15",
+        "18",
+        "20"
+      ],
+      "correct": 2,
+      "explanation": "ধরি দূরত্ব $d$। $\\frac{d}{3}+\\frac{d}{5}=8 \\Rightarrow \\frac{5d+3d}{15}=8 \\Rightarrow 8d=120 \\Rightarrow d=15$ কিমি।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 99-00"
+    },
+    {
+      "id": "math_alg_speed_14",
+      "question": "Two cars start towards the same destination at the same time. One car is 5 km behind the other. If the speed of the car at the front is 750 m/minute and that of the other car is 1000 m/minute, after how many minutes will the two cars meet?",
+      "options": [
+        "20",
+        "24",
+        "25",
+        "30",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "আপেক্ষিক গতি = $(1000-750)=250$ মি/মিনিট। দূরত্ব 5 কিমি = 5000 মি। সময় = $5000/250=20$ মিনিট।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 99-00"
+    },
+    {
+      "id": "math_alg_speed_15",
+      "question": "A motorist travels x miles in y hours and z minutes. What is his average speed in miles per hour?",
+      "options": [
+        "$\\frac{x}{y+60z}$",
+        "$\\frac{60y+z}{x}$",
+        "$\\frac{60x}{y+z}$",
+        "$\\frac{60x}{60y+z}$",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "মোট সময় = $y + \\frac{z}{60}$ ঘন্টা = $\\frac{60y+z}{60}$ ঘন্টা। গড় গতি = $\\frac{x}{(60y+z)/60} = \\frac{60x}{60y+z}$।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 03-04"
+    },
+    {
+      "id": "math_alg_speed_16",
+      "question": "Sonia travels to IBA from Uttara by car at a speed of 40 km per hour and returns to Uttara at a speed of 30 km per hour by an auto rickshaw. What is her average speed in the entire journey in km/hour?",
+      "options": [
+        "35",
+        "34.3",
+        "37.5",
+        "35.3",
+        "36"
+      ],
+      "correct": 1,
+      "explanation": "গড় গতি $= \\frac{2\\times40\\times30}{40+30} = \\frac{2400}{70} \\approx 34.3$ কিমি/ঘন্টা।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 09-10"
+    },
+    {
+      "id": "math_alg_speed_17",
+      "question": "Mr. X starts from his house at 9:10 am towards IBA which is 10 miles away from his house. He must reach IBA by 9:30 am. If he covers half the distance at a speed of 20 miles per hour, his speed for the remainder of the distance must be (in miles per hour)?",
+      "options": [
+        "50",
+        "60",
+        "45",
+        "55",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "অর্ধেক দূরত্ব = 5 মাইল। $20$ mph এ সময় লাগে $5/20=0.25$ ঘন্টা = 15 মিনিট। বাকি 5 মাইল যেতে সময় বাকি 5 মিনিট = $5/60$ ঘন্টা। গতি = $5 / (5/60) = 60$ mph।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 96-97"
+    },
+    {
+      "id": "math_alg_speed_18",
+      "question": "A truck driver must complete a 180-km trip in 4 hours. If he averages 50 km an hour for the first three hours of his trip, how fast must he travel in the final hour?",
+      "options": [
+        "50 km",
+        "45 km",
+        "40 km",
+        "35 km",
+        "30 km"
+      ],
+      "correct": 4,
+      "explanation": "প্রথম 3 ঘন্টায় দূরত্ব = $50\\times3=150$ কিমি। বাকি = 30 কিমি। শেষ ঘন্টায় গতি = 30 কিমি/ঘন্টা।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 98-99"
+    },
+    {
+      "id": "math_alg_speed_19",
+      "question": "A bus uses one liter of diesel to travel 15 km. After an engine tune-up, the bus travels 15% farther on one liter. How many liters of diesel (to the nearest tenth) will it take the bus to travel 150 km after a tune-up?",
+      "options": [
+        "8.5",
+        "8.7",
+        "8.9",
+        "9.0",
+        "10.0"
+      ],
+      "correct": 1,
+      "explanation": "টিউন-আপের পর 1 লিটারে যায় $15 \\times 1.15 = 17.25$ কিমি। 150 কিমি যেতে লাগবে $150/17.25 \\approx 8.7$ লিটার।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 00-01"
+    },
+    {
+      "id": "math_alg_speed_20",
+      "question": "Arif travels 1/3 of the distance at an average speed of 5 km/hr, 2/5 of the distance at an average speed of 4 km/hr and the rest 12 miles in 2 hours. What is the total distance traveled by Arif?",
+      "options": [
+        "45",
+        "48",
+        "52",
+        "54",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "ধরি মোট দূরত্ব $x$ কিমি (12 মাইল = 12×1.609 ≈ 19.3 কিমি? কিন্তু সমস্যা: 12 miles দেওয়া আছে। সম্ভবত প্রশ্নে সব একক কিমি। সমাধান: বাকি অংশ = $1 - (1/3+2/5)=1 - (5/15+6/15)=4/15$ অংশ = 12 কিমি। সুতরাং $x = 12 \\times 15/4 = 45$ কিমি।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 01-02"
+    },
+    {
+      "id": "math_alg_speed_21",
+      "question": "A car is traveling on a highway. At 10 A.M., it passes a truck traveling in the same direction. The truck continues on the highway traveling at 50 mph while the car travels at 65 mph. How far apart are the car and the truck at 2 P.M?",
+      "options": [
+        "15 Miles",
+        "30 Miles",
+        "60 Miles",
+        "200 Miles",
+        "260 Miles"
+      ],
+      "correct": 2,
+      "explanation": "সকাল 10 থেকে 2pm পর্যন্ত 4 ঘন্টা। আপেক্ষিক গতি = 65-50=15 mph। দূরত্ব = 15×4=60 মাইল।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 03-04"
+    },
+    {
+      "id": "math_alg_speed_22",
+      "question": "If two planes leave the same airport at 1:00 PM, how many miles apart will they be at 3:00 PM if one travels directly north at 150 mph and the other travels directly west at 200 mph?",
+      "options": [
+        "50 miles",
+        "100 miles",
+        "500 miles",
+        "400 miles",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "2 ঘন্টায় উত্তর দিকে দূরত্ব = 150×2=300 মাইল, পশ্চিমে = 200×2=400 মাইল। তাদের মধ্যবর্তী দূরত্ব = $\\sqrt{300^2+400^2}=500$ মাইল।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 10-11"
+    },
+    {
+      "id": "math_alg_speed_23",
+      "question": "A man started at 8 am from his home, walked at the rate of 3 km/hr and reached his office 45 minutes late. The next day, he started at the same time and walked at the rate of 5 km/hr and reached his office 15 minutes earlier than the scheduled time. What was the distance between his office and home?",
+      "options": [
+        "6 km",
+        "7.5 km",
+        "9 km",
+        "12 km",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "ধরি নির্ধারিত সময় $t$ ঘন্টা, দূরত্ব $d$ কিমি। $d/3 = t+45/60$, $d/5 = t-15/60$। বিয়োগ করে: $d/3 - d/5 = 1$ ⇒ $d(5-3)/15=1$ ⇒ $2d=15$ ⇒ $d=7.5$ কিমি।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 99-00"
+    },
+    {
+      "id": "math_alg_speed_24",
+      "question": "A man traveled one-fourth of the total distance of his trip by car. He traveled the remaining distance on foot. The ratio of his walking time to driving time was 5:1. Calculate the ratio of his driving speed to his walking speed.",
+      "options": [
+        "5:2",
+        "5:1",
+        "1:5",
+        "2:5",
+        "25:1"
+      ],
+      "correct": 1,
+      "explanation": "ধরি মোট দূরত্ব $4d$। গাড়িতে $d$, হেঁটে $3d$। সময়ের অনুপাত $t_w : t_d = 5:1$। গাড়ির গতি $v_d = d/t_d$, হাঁটার গতি $v_w = 3d/t_w = 3d/(5t_d)$। সুতরাং $v_d/v_w = (d/t_d) / (3d/(5t_d)) = 5/3$। কিন্তু অপশনে 5:1 নেই। প্রকৃত সমাধান: $v_d/v_w = 5:1$? আসলে $v_d/v_w = \\frac{d/t_d}{3d/5t_d} = 5/3$ ≈ 1.67, 5:3? অপশনে 5:1 আছে। সম্ভবত প্রশ্নে ভিন্ন। উত্তরপত্র অনুযায়ী B।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 02-03"
+    },
+    {
+      "id": "math_alg_speed_25",
+      "question": "A train left Dhaka for Chittagong at 62 km per hour and at the same time another train left Chittagong for Dhaka at 48 km per hour on the same route. How far apart were the two trains one hour before they met?",
+      "options": [
+        "80",
+        "92",
+        "100",
+        "110",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "তারা মিলিত হওয়ার 1 ঘন্টা আগে তাদের মধ্যে দূরত্ব = $(62+48)=110$ কিমি।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 02-03"
+    },
+    {
+      "id": "math_alg_speed_26",
+      "question": "Mr. X and Mr. Y started from point A and reached point B in 10 minutes and 9 minutes respectively. If the traveling speed of Mr. X was 2 km/hr less than that of Mr. Y, what was the distance between A and B in kms?",
+      "options": [
+        "6",
+        "4.5",
+        "4",
+        "3",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "ধরি দূরত্ব $d$ কিমি। $v_X = d/(10/60)=6d$, $v_Y = d/(9/60)=20d/3$। $v_Y - v_X = 2$ ⇒ $20d/3 - 6d = 2$ ⇒ $(20d-18d)/3=2$ ⇒ $2d/3=2$ ⇒ $d=3$ কিমি।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 98-99"
+    },
+    {
+      "id": "math_alg_speed_27",
+      "question": "A train covers the distance x between two cities in y hours, arriving 2 hours late. What rate would permit the train to arrive on schedule?",
+      "options": [
+        "$\\frac{x}{y-2}$",
+        "$\\frac{x}{y-2}$",
+        "$xy-2$",
+        "$\\frac{x}{y+2}$",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "নির্ধারিত সময় $y-2$ ঘন্টা। নির্ণেয় গতি = $\\frac{x}{y-2}$।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 01-02"
+    },
+    {
+      "id": "math_alg_speed_28",
+      "question": "Anwar usually walks to his office from his house at a speed of 8 km per hour. It takes him 10 minutes longer to walk the same distance at 6 km per hour. What is the distance (in km) between his house and office?",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "4",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "ধরি দূরত্ব $d$ কিমি। $d/6 - d/8 = 10/60 = 1/6$ ⇒ $\\frac{4d-3d}{24}=1/6$ ⇒ $d/24=1/6$ ⇒ $d=4$ কিমি।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA?"
+    },
+    {
+      "id": "math_alg_speed_29",
+      "question": "A train travels a distance of 80 km at a speed of 40 km/hr for the first 60 km and the remaining distance at a speed of 20 km/hr. What is the average speed (in km/hr) of the train on the journey?",
+      "options": [
+        "24",
+        "25",
+        "30",
+        "32",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "প্রথম 60 কিমি সময় = $60/40=1.5$ ঘন্টা, বাকি 20 কিমি সময় = $20/20=1$ ঘন্টা। মোট সময় 2.5 ঘন্টা, গড় গতি = $80/2.5 = 32$ কিমি/ঘন্টা।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 08-09"
+    },
+    {
+      "id": "math_alg_speed_30",
+      "question": "Two cyclists start hiking from the starting point of a trail 3 hours apart. The second cyclist travels at 10 miles per hour and starts 3 hours after the first cyclist who is traveling at 6 miles per hour. How much time will pass before the second cyclist catches up with the first from the time the second cyclist started hiking?",
+      "options": [
+        "2 hours",
+        "$4\\frac{1}{2}$ hours",
+        "$2\\frac{3}{4}$ hours",
+        "6 hours",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "প্রথম সাইকেল আরোহী 3 ঘন্টা এগিয়ে $3\\times6=18$ মাইল। আপেক্ষিক গতি = $10-6=4$ mph। সময় = $18/4 = 4.5$ ঘন্টা।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 10-11"
+    },
+    {
+      "id": "math_alg_speed_31",
+      "question": "A man had traveled 1/3 of the total distance of his trip when his car broke down. He finished the journey on foot, spending twenty times as long walking as he had spent driving. How many times faster was his driving speed than his walking speed?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "20",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "ধরি মোট দূরত্ব $3d$। গাড়িতে $d$, হেঁটে $2d$। গাড়িতে সময় $t$, হাঁটার সময় $20t$। গাড়ির গতি $v_d = d/t$, হাঁটার গতি $v_w = 2d/(20t)= d/(10t)$। সুতরাং $v_d/v_w = 10$।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 01-02"
+    },
+    {
+      "id": "math_alg_speed_32",
+      "question": "A ferry can travel twice as fast when empty as when it is full. It travels 20 miles with full load, spends 1 hour for unloading and returns to its original port empty. It took 11 hours to complete the journey. What is the speed when the ferry was empty?",
+      "options": [
+        "6",
+        "5.5",
+        "5",
+        "4.5",
+        "4"
+      ],
+      "correct": 0,
+      "explanation": "ধরি পূর্ণ বোঝাই অবস্থায় গতি $x$ mph, খালি অবস্থায় $2x$ mph। সময়: $20/x + 1 + 20/(2x) = 11$ ⇒ $20/x + 10/x = 10$ ⇒ $30/x = 10$ ⇒ $x=3$। খালি গতি $2x=6$ mph।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 97-98"
+    },
+    {
+      "id": "math_alg_speed_33",
+      "question": "A man intends to run a certain distance in 1/4 less time than he usually takes. By what percent must he increase his running speed to accomplish his goal?",
+      "options": [
+        "25%",
+        "27.5%",
+        "33.33%",
+        "35%",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "ধরি স্বাভাবিক সময় $t$, গতি $v$। নতুন সময় $3t/4$। দূরত্ব একই, সুতরাং $v \\times t = v' \\times (3t/4) \\Rightarrow v' = (4/3)v$। শতকরা বৃদ্ধি = $(1/3)\\times100=33.33\\%$।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 98-99"
+    },
+    {
+      "id": "math_alg_speed_34",
+      "question": "A father and a son started for a shop at the same time. In one minute, the son moved 20 steps forward and in the same time, the father moved 30 steps forward. In one step the son covered 1 ft. and the father covered 1.5 ft. If the son reached the store 10 minutes after his father, what was the distance of the store in ft.?",
+      "options": [
+        "280",
+        "240",
+        "360",
+        "320",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "পুত্রের গতি = $20\\times1=20$ ফুট/মিনিট, পিতার গতি = $30\\times1.5=45$ ফুট/মিনিট। ধরি দূরত্ব $d$ ফুট। $d/20 - d/45 = 10$ ⇒ $\\frac{9d-4d}{180}=10$ ⇒ $5d=1800$ ⇒ $d=360$ ফুট।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 98-99"
+    },
+    {
+      "id": "math_alg_speed_35",
+      "question": "A car traveled 75% of the way from town A to town B at an average speed of 50 miles/hour. The car travels at an average speed of S miles/hour for the remaining part of the trip. The average speed for the entire trip was 40 miles/hour. What is S?",
+      "options": [
+        "10",
+        "20",
+        "25",
+        "30",
+        "37.5"
+      ],
+      "correct": 2,
+      "explanation": "ধরি মোট দূরত্ব $4d$। প্রথম $3d$ গতিতে 50, সময় = $3d/50$। বাকি $d$ গতিতে S, সময় = $d/S$। মোট সময় = $3d/50 + d/S$। গড় গতি = $4d / (3d/50 + d/S) = 40$ ⇒ $4 / (3/50 + 1/S) = 40$ ⇒ $3/50 + 1/S = 4/40 = 0.1$ ⇒ $1/S = 0.1 - 0.06 = 0.04$ ⇒ $S=25$।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 04-05"
+    },
+    {
+      "id": "math_alg_speed_36",
+      "question": "A train normally travels 60 miles at a certain speed. On a day, due to mechanical problem, the train's speed is reduced by 10 mph so that the journey takes 3 hours longer. What is the normal speed of the train?",
+      "options": [
+        "20",
+        "25",
+        "32",
+        "45",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "ধরি স্বাভাবিক গতি $x$ mph। $\\frac{60}{x-10} - \\frac{60}{x} = 3$ ⇒ $60\\left(\\frac{x - (x-10)}{x(x-10)}\\right) = 3$ ⇒ $\\frac{600}{x(x-10)} = 3$ ⇒ $x(x-10)=200$ ⇒ $x^2-10x-200=0$ ⇒ $(x-20)(x+10)=0$ ⇒ $x=20$।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 07-08"
+    },
+    {
+      "id": "math_alg_speed_37",
+      "question": "On a certain day X drives his car from his home at the rate of 20 Km/hr and reaches his office 10 minutes late. The next day he drives at 30 Km/hr and reaches his office 5 minutes early. Calculate the distance between X's home and office in Km.",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "17.5",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "ধরি দূরত্ব $d$ কিমি, নির্ধারিত সময় $t$ ঘন্টা। $d/20 = t + 10/60$, $d/30 = t - 5/60$। বিয়োগ করে: $d/20 - d/30 = 15/60 = 1/4$ ⇒ $d(3-2)/60 = 1/4$ ⇒ $d/60 = 1/4$ ⇒ $d=15$ কিমি।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_speed_38",
+      "question": "At 9:00 a.m. train A left the Airport Railway Station and two hours later train B left the same station on a parallel track. If train A averaged 60 kilometers per hour and train B averaged 75 kilometers per hour until B passed A, at what time did B pass A?",
+      "options": [
+        "2:00 p.m.",
+        "5:00 p.m.",
+        "6:00 p.m.",
+        "7:00 p.m.",
+        "9:00 p.m."
+      ],
+      "correct": 3,
+      "explanation": "Train A সকাল 9am এ ছেড়ে যায়। Train B সকাল 11am এ ছেড়ে যায়। 2 ঘন্টায় A এগিয়ে 120 কিমি। আপেক্ষিক গতি = 15 কিমি/ঘন্টা। সময় = 120/15 = 8 ঘন্টা। 11am + 8 ঘন্টা = 7pm।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 13-14"
+    },
+    {
+      "id": "math_alg_speed_39",
+      "question": "The mile meter of a highway bus misses every 11th mile being travelled. After a certain time, the meter shows that 1,251 miles were travelled. How many miles were actually travelled?",
+      "options": [
+        "1360 miles",
+        "1460 miles",
+        "1386 miles",
+        "1376 miles",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "প্রতি 11 মাইলে 1 মাইল বাদ যায়, অর্থাৎ প্রতি 10 মাইল পর 1 মাইল কম গণনা করে। 1251 মাইল দেখালে, বাদ পড়া মাইল = 1251/10 = 125.1 ≈ 125 মাইল। প্রকৃত দূরত্ব = 1251+125 = 1376 মাইল।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 13-14"
+    },
+    {
+      "id": "math_alg_speed_40",
+      "question": "Two boats on the opposite shores of a river start moving towards each other. When they pass each other they are 750 yards from one shoreline. They each continue to the opposite shore, immediately turn around and start back. When they meet again they are 250 yards from the other shoreline. Each boat maintains a constant speed throughout. How wide is the river?",
+      "options": [
+        "2400 yards",
+        "3000 yards",
+        "2000 yards",
+        "4000 yards",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "প্রথম সাক্ষাতে, দূরত্ব = প্রস্থ। দ্বিতীয় সাক্ষাতে, তারা মোট 3 প্রস্থ অতিক্রম করে। একটি নৌকা প্রথম সাক্ষাতে 750 গজ যায়, দ্বিতীয় সাক্ষাতে 3×750 = 2250 গজ যায়। এটির অতিক্রান্ত দূরত্ব = প্রস্থ + 250। সুতরাং প্রস্থ + 250 = 2250 ⇒ প্রস্থ = 2000 গজ।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 13-14"
+    },
+    {
+      "id": "math_alg_speed_41",
+      "question": "A group of hikers is planning a trip that will take them up a mountain using one route and back down using another route. They plan to travel down the mountain at a rate of one and a half times the rate they will use on the way up, but the time each route will take is the same. If they will go up the mountain at a rate of 4 miles per day and it will take them two days, how many miles long is the route down the mountain?",
+      "options": [
+        "8",
+        "6",
+        "12",
+        "16",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "উপরে গতি 4 mph, সময় 2 দিন = 48 ঘন্টা? আসলে 'rate of 4 miles per day' এবং 'take two days' মানে উপরে দূরত্ব = 4×2 = 8 মাইল। নিচে নামার গতি = 1.5×4 = 6 মাইল প্রতি দিন, সময় একই 2 দিন, তাই দূরত্ব = 6×2 = 12 মাইল।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 13-14"
+    },
+    {
+      "id": "math_alg_speed_42",
+      "question": "Ajit, Bilash and Chinu start at the same time in the same direction to run around a circular stadium. Ajit completes a round in 252 seconds, Bilash in 308 seconds and Chinu in 198 seconds, all starting at the same point. After what time will they all be again at the starting point?",
+      "options": [
+        "26 minutes and 18 seconds",
+        "42 minutes and 36 seconds",
+        "45 minutes and 38 seconds",
+        "46 minutes and 12 seconds",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "ল.সা.গু. নির্ণয়: 252=2²×3²×7, 308=2²×7×11, 198=2×3²×11। ল.সা.গু. = 2²×3²×7×11 = 2772 সেকেন্ড = 46 মিনিট 12 সেকেন্ড।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 13-14"
+    },
+    {
+      "id": "math_alg_speed_43",
+      "question": "On a 300-mile trip, a car went 30 miles per hour for the first 100 miles, 50 miles per hour for the second 100 miles, and 60 miles per hour for the third 100 miles. For what fractional part of the time taken for the entire 300-mile trip was the car going 30 miles per hour?",
+      "options": [
+        "1/10",
+        "1/3",
+        "10/21",
+        "11/21",
+        "3/14"
+      ],
+      "correct": 2,
+      "explanation": "প্রথম 100 মাইলে সময় = 100/30 = 10/3 ঘন্টা। দ্বিতীয় = 100/50 = 2 ঘন্টা। তৃতীয় = 100/60 = 5/3 ঘন্টা। মোট সময় = 10/3 + 2 + 5/3 = (10+6+5)/3 = 21/3 = 7 ঘন্টা। 30 mph-এ সময়ের ভগ্নাংশ = (10/3)/7 = 10/21।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 13-14"
+    },
+    {
+      "id": "math_alg_speed_44",
+      "question": "Ishtiaque completes a journey in 10 hours. He travels first half of the journey at the rate of 21 km/hr and second half at the rate of 24 km/hr. Find the total journey in km.",
+      "options": [
+        "121 km",
+        "242 km",
+        "112 km",
+        "224 km",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "ধরি মোট দূরত্ব $2d$ কিমি। $d/21 + d/24 = 10$ ⇒ $d(1/21+1/24)=10$ ⇒ $d( (8+7)/168 )=10$ ⇒ $15d/168=10$ ⇒ $d=112$। মোট = $2d=224$ কিমি।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 15-16"
+    },
+    {
+      "id": "math_alg_speed_45",
+      "question": "An ambulance travels 10 miles at a speed of 75 miles per hour. How fast must the ambulance travel on the return trip if the round-trip travel time is to be 20 minutes?",
+      "options": [
+        "50 mph",
+        "55 mph",
+        "60 mph",
+        "65 mph",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "যাওয়ার সময় = 10/75 = 2/15 ঘন্টা = 8 মিনিট। বাকি সময় = 20-8=12 মিনিট = 0.2 ঘন্টা। ফেরার গতি = 10/0.2 = 50 mph।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 15-16"
+    },
+    {
+      "id": "math_alg_speed_46",
+      "question": "Asif, riding his bike at 24 km/h reaches his office 5 minutes late. If he would have reached the office 4 minutes earlier than the scheduled time by traveling 25% faster, how far is his office from his house in kms?",
+      "options": [
+        "18",
+        "24",
+        "36",
+        "40",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "ধরি দূরত্ব $d$ কিমি, নির্ধারিত সময় $t$ ঘন্টা। $d/24 = t + 5/60$, এবং $d/(24×1.25)= d/30 = t - 4/60$। বিয়োগ করে: $d/24 - d/30 = 9/60 = 3/20$ ⇒ $d(5-4)/120 = 3/20$ ⇒ $d/120 = 3/20$ ⇒ $d=18$ কিমি।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "BBA 16-17"
+    },
+    {
+      "id": "math_alg_speed_47",
+      "question": "An UberX car charges Tk 40 as base fare, Tk 3.6 for each 0.2 of a kilometer and Tk 180/hour as the travelling time charge. What will be the fare for a 6 kilometer trip if the travelling time is 110 minutes?",
+      "options": [
+        "230",
+        "340",
+        "460",
+        "478",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "ভিত্তি ভাড়া 40 টাকা। দূরত্ব ভাড়া: প্রতি 0.2 কিমিতে 3.6 টাকা, তাই প্রতি কিমিতে = 3.6×5=18 টাকা। 6 কিমির জন্য = 6×18=108 টাকা। সময় ভাড়া: 180 টাকা/ঘন্টা, 110 মিনিট = 110/60 = 11/6 ঘন্টা, ভাড়া = 180 × 11/6 = 330 টাকা। মোট = 40+108+330 = 478 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_speed_48",
+      "question": "A hiker walked for two days. On the second day the hiker walked four hours longer and at a speed 2 miles per hour faster than that of the first day. If during the two days he walked a total of 104 miles and spent a total of 20 hours, what was his average speed (miles/hour) on the first day?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "8",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "ধরি প্রথম দিনে সময় $t$ ঘন্টা, গতি $v$ mph। দ্বিতীয় দিনে সময় $t+4$, গতি $v+2$। মোট সময় $t+(t+4)=20 ⇒ 2t=16 ⇒ t=8$। মোট দূরত্ব $8v + 12(v+2)=104 ⇒ 8v+12v+24=104 ⇒ 20v=80 ⇒ v=4$ mph।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_speed_49",
+      "question": "A car traveling at a certain constant speed takes 2 seconds longer to travel 1 kilometer than it would take to travel 1 kilometer at 75 kilometers per hour. At what speed, in kilometers per hour, is the car traveling?",
+      "options": [
+        "71.5",
+        "72",
+        "72.5",
+        "73",
+        "73.5"
+      ],
+      "correct": 1,
+      "explanation": "75 km/h গতিতে 1 কিমি যেতে সময় = 1/75 ঘন্টা = 3600/75 = 48 সেকেন্ড। ধরি গাড়ির গতি v km/h, সময় = 3600/v সেকেন্ড। পার্থক্য = 3600/v - 48 = 2 ⇒ 3600/v = 50 ⇒ v = 3600/50 = 72 km/h।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_speed_50",
+      "question": "The speed of a motor boat itself is 20 km/h and the rate of flow of the river is 4 km/h. Moving with the stream the boat went 120 km. What distance will the boat cover during the same time going against the stream?",
+      "options": [
+        "80",
+        "100",
+        "120",
+        "150",
+        "180"
+      ],
+      "correct": 0,
+      "explanation": "অনুকূলে গতি = 20+4=24 km/h, সময় = 120/24 = 5 ঘন্টা। প্রতিকূলে গতি = 20-4=16 km/h, দূরত্ব = 16×5 = 80 km।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_speed_51",
+      "question": "A runs 25% faster than B and is able to give him a start of 7 meters to end a race in a tie. What is the length of the race?",
+      "options": [
+        "10 m",
+        "25 m",
+        "45 m",
+        "15 m",
+        "35 m"
+      ],
+      "correct": 4,
+      "explanation": "A-এর গতি B-এর 125% বা 5/4 গুণ। একই সময়ে A যে দূরত্ব যায়, B যায় তার 4/5 অংশ। A-কে B-কে 7 মিটার এগিয়ে দিতে হবে। ধরি রেসের দৈর্ঘ্য L মিটার। A L মিটার যায়, B (L-7) মিটার যায়, সময় সমান: L/(5v) = (L-7)/(4v) ⇒ 4L = 5(L-7) ⇒ 4L=5L-35 ⇒ L=35 মিটার।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_speed_52",
+      "question": "A bus travels at 54 km/h while moving but after accounting for stopping time, to let passengers on and off the coach, it averages a speed of 45 km/h. How many minutes does the bus stop for each hour?",
+      "options": [
+        "5 mins",
+        "8 mins",
+        "10 mins",
+        "12 mins",
+        "16 mins"
+      ],
+      "correct": 2,
+      "explanation": "1 ঘন্টায় বাস চলন্ত অবস্থায় 54 কিমি যায়, কিন্তু গড় গতি 45 কিমি/ঘন্টা মানে 1 ঘন্টায় প্রকৃত অতিক্রান্ত দূরত্ব 45 কিমি। তাই 54-45=9 কিমি কম যায়। 54 কিমি যেতে সময় লাগে 1 ঘন্টা, তাহলে 9 কিমি যেতে সময় লাগে (9/54)×60 = 10 মিনিট। এই 10 মিনিট থামে।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_speed_53",
+      "question": "A man can row 50 km upstream and 72 km downstream in 9 hours. He can also row 70 km upstream and 90 km downstream in 12 hours. Find the rate of current.",
+      "options": [
+        "2 km/hr",
+        "4 km/hr",
+        "6 km/hr",
+        "8 km/hr",
+        "3 km/hr"
+      ],
+      "correct": 1,
+      "explanation": "ধরি স্রোতের গতি $c$, নৌকার গতি $u$। প্রতিকূলে গতি = $u-c$, অনুকূলে = $u+c$। সমীকরণ: $\\frac{50}{u-c} + \\frac{72}{u+c}=9$ এবং $\\frac{70}{u-c} + \\frac{90}{u+c}=12$। ধরা $x=1/(u-c)$, $y=1/(u+c)$। সমাধান করে $x=1/10$, $y=1/18$ ⇒ $u-c=10$, $u+c=18$ ⇒ $c=4$ km/h।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_speed_54",
+      "question": "A train 100 meters long is moving at a speed of 70 km/hr. How long will it take to cross a dog running in the same direction at a speed of 10 km/hr?",
+      "options": [
+        "6.5 sec",
+        "6.67 sec",
+        "6 sec",
+        "7 sec",
+        "Cannot be determined"
+      ],
+      "correct": 2,
+      "explanation": "আপেক্ষিক গতি = 70-10=60 km/h = $60\\times\\frac{5}{18}= \\frac{50}{3}$ m/s। দূরত্ব = ট্রেনের দৈর্ঘ্য = 100 মিটার। সময় = $100 / (50/3) = 6$ সেকেন্ড।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_speed_55",
+      "question": "Two trains of equal length are running on parallel lines in the same direction at the rate of 46 km/hr and 36 km/hr. The faster train passes the slower train in 36 seconds. What is the length of the trains?",
+      "options": [
+        "100 m",
+        "80 m",
+        "50 m",
+        "35 m",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "আপেক্ষিক গতি = 46-36=10 km/h = $10\\times\\frac{5}{18}=\\frac{25}{9}$ m/s। সময় 36 সেকেন্ডে অতিক্রান্ত দূরত্ব = $\\frac{25}{9}\\times36 = 100$ মিটার। এই দূরত্ব দুইটি ট্রেনের দৈর্ঘ্যের সমষ্টি। যেহেতু ট্রেনদুটির দৈর্ঘ্য সমান, প্রতিটি ট্রেনের দৈর্ঘ্য = $100/2 = 50$ মিটার।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_speed_56",
+      "question": "A train 100 meters long moving at a speed of 50 km/hr crosses a train 120 meters long coming from opposite direction in 6 seconds. What is the speed of the second train?",
+      "options": [
+        "132 km/hr",
+        "82 km/hr",
+        "66 km/hr",
+        "58 km/hr",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "মোট দৈর্ঘ্য = 100+120=220 মিটার। সময় = 6 সেকেন্ড। আপেক্ষিক গতি = $220/6 = 110/3$ m/s = $(110/3)\\times(18/5)=132$ km/h। দ্বিতীয় ট্রেনের গতি = 132 - 50 = 82 km/h।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_speed_57",
+      "question": "A man was standing on Kamalapur rail station which is 180 meters long. He finds that a train crosses the platform in 20 seconds and crosses him in 8 seconds. How fast was the train travelling?",
+      "options": [
+        "10 m/s",
+        "12 m/s",
+        "13.5 m/s",
+        "15 m/s",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "ধরি ট্রেনের দৈর্ঘ্য $L$ মিটার, গতি $v$ m/s। লোককে অতিক্রম করতে $L/v = 8$ ⇒ $L=8v$। প্ল্যাটফর্ম অতিক্রম করতে $(L+180)/v = 20$ ⇒ $8v+180 = 20v$ ⇒ $180=12v$ ⇒ $v=15$ m/s।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_speed_58",
+      "question": "Two trains going from A to B in parallel tracks are moving with speeds 50 km/hr and 30 km/hr respectively. The faster train crosses a man sitting in the slower train in 18 seconds. What is the length of the faster train?",
+      "options": [
+        "170 m",
+        "150 m",
+        "120 m",
+        "100 m",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "আপেক্ষিক গতি = 50-30=20 km/h = $20\\times\\frac{5}{18}= \\frac{50}{9}$ m/s। সময় 18 সেকেন্ডে অতিক্রান্ত দূরত্ব = $\\frac{50}{9}\\times18 = 100$ মিটার। এই দূরত্ব দ্রুত ট্রেনের দৈর্ঘ্যের সমান (যেহেতু লোকটি ধীর ট্রেনের মধ্যে বসে আছে)।",
+      "difficulty": "medium",
+      "chapter_tag": "Time & Distance",
+      "source": "Unknown"
+    }
+  ]
 }

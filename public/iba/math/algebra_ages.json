@@ -4,7 +4,7 @@
   "chapter": "Ages",
   "questions": [
     {
-      "id": "math_alg_ages_1",
+      "id": "math_alg_age_1",
       "question": "If a man was $r$ years old $s$ years ago, how many years old will he be $t$ years from now?",
       "options": [
         "$s+r+t$",
@@ -20,7 +20,7 @@
       "source": "MBA 01-02"
     },
     {
-      "id": "math_alg_ages_2",
+      "id": "math_alg_age_2",
       "question": "Mr. Rahim who is 28 years of age has a son who is 4 years old. In how many years will Mr. Rahim be 4 times as old as his son?",
       "options": [
         "1",
@@ -36,7 +36,7 @@
       "source": "MBA 02-03"
     },
     {
-      "id": "math_alg_ages_3",
+      "id": "math_alg_age_3",
       "question": "After 30 years, Zaman will be four times as old as he is now. Find out his present age.",
       "options": [
         "10",
@@ -52,7 +52,7 @@
       "source": "BBA 96-97"
     },
     {
-      "id": "math_alg_ages_4",
+      "id": "math_alg_age_4",
       "question": "Lima is 6 years older than her sister Sharmin, and Jamal is 5 years older than Lima. If the total of their ages is 41, how old is Jamal?",
       "options": [
         "8",
@@ -68,7 +68,7 @@
       "source": "BBA 08-09"
     },
     {
-      "id": "math_alg_ages_5",
+      "id": "math_alg_age_5",
       "question": "Arif has a brother one third of his age and a sister three times his age. If the combined age of all three children is five less than twice the oldest, how old is Arif?",
       "options": [
         "12",
@@ -84,7 +84,7 @@
       "source": "MBA 97-98"
     },
     {
-      "id": "math_alg_ages_6",
+      "id": "math_alg_age_6",
       "question": "Dina is 10 years younger than Mimi. If in 5 years, Mimi will be twice as old as Dina, how old will Dina be in 3 years?",
       "options": [
         "10",
@@ -100,7 +100,7 @@
       "source": "MBA 98-99"
     },
     {
-      "id": "math_alg_ages_7",
+      "id": "math_alg_age_7",
       "question": "Six years from now, Sumi's age will be the square of her age six years ago. What is Sumi's age?",
       "options": [
         "8",
@@ -116,7 +116,7 @@
       "source": "BBA 01-02"
     },
     {
-      "id": "math_alg_ages_8",
+      "id": "math_alg_age_8",
       "question": "Rahim is 10 years older than his brother Shabbir. However, $P$ years ago Rahim was twice as old as Shabbir. If Shabbir is now $N$ years old and $N > P$; find the value of $N-P$.",
       "options": [
         "10",
@@ -132,7 +132,7 @@
       "source": "BBA 93"
     },
     {
-      "id": "math_alg_ages_9",
+      "id": "math_alg_age_9",
       "question": "Nishi is two years older than Mishi, who is twice as old as Rishi. If the ages of the 3 total 27 years, how old is Mishi?",
       "options": [
         "12 years",
@@ -148,7 +148,7 @@
       "source": "BBA 98-99"
     },
     {
-      "id": "math_alg_ages_10",
+      "id": "math_alg_age_10",
       "question": "Today Jim is twice as old as Fred and Sam is 2 years younger than Fred. Four years ago, Jim was 4 times as old as Sam. How old is Jim now?",
       "options": [
         "8",
@@ -164,7 +164,7 @@
       "source": "BBA 06-07"
     },
     {
-      "id": "math_alg_ages_11",
+      "id": "math_alg_age_11",
       "question": "Harun is three times as old as Tamim. In eight years, he will be twice as old as Tamim. How old was Harun 3 years ago?",
       "options": [
         "27",
@@ -180,7 +180,7 @@
       "source": "BBA 07-08"
     },
     {
-      "id": "math_alg_ages_12",
+      "id": "math_alg_age_12",
       "question": "Shabbir has a brother one-fourth of his age and a sister two times of his age. If the combined age of all the three siblings is twenty more than thrice the age of the youngest, how old is Shabbir's sister?",
       "options": [
         "2",
@@ -196,7 +196,7 @@
       "source": "BBA 09-10"
     },
     {
-      "id": "math_alg_ages_13",
+      "id": "math_alg_age_13",
       "question": "A woman was thirty years old when her daughter was born. Her age is now 6 years more than three times her daughter's age. How old will be the daughter in 5 years?",
       "options": [
         "19",
@@ -212,7 +212,7 @@
       "source": "MBA 97-98"
     },
     {
-      "id": "math_alg_ages_14",
+      "id": "math_alg_age_14",
       "question": "The present ages of A and B are in the ratio of $6:4$. Five years ago their ages were in the ratio of $5:3$. How old is A now?",
       "options": [
         "42",
@@ -228,7 +228,7 @@
       "source": "MBA 08-09"
     },
     {
-      "id": "math_alg_ages_15",
+      "id": "math_alg_age_15",
       "question": "$Y$ is four times as old as $X$. After 6 years, the sum of half of $X$'s age and a fourth of $Y$'s age will be the same as three times the present age of $X$. How old will $X$ be after 6 years?",
       "options": [
         "3",
@@ -244,7 +244,7 @@
       "source": "BBA 94-95"
     },
     {
-      "id": "math_alg_ages_16",
+      "id": "math_alg_age_16",
       "question": "The age of the father of two children is twice that of the elder one added to four times that of the youngest one. If the arithmetic mean and product of the ages of the two children is 8 years and 48 years respectively, then what is the age of the father?",
       "options": [
         "48 years",
@@ -260,7 +260,7 @@
       "source": "BBA 10-11"
     },
     {
-      "id": "math_alg_ages_17",
+      "id": "math_alg_age_17",
       "question": "In 5 years, the ratio of Mr. X's age to his brother will be $1:2$. 5 years ago the ratio was $1:4$. How old is Mr. X?",
       "options": [
         "20",
@@ -276,7 +276,7 @@
       "source": "MBA 97-98"
     },
     {
-      "id": "math_alg_ages_18",
+      "id": "math_alg_age_18",
       "question": "Age of the father is equal to the sum of ages of his three sons. If in 19 years, one third of father's age will be equal to one fifth the sum of the ages of the sons. What is the age of the father?",
       "options": [
         "28",
@@ -292,7 +292,7 @@
       "source": "MBA 07-08"
     },
     {
-      "id": "math_alg_ages_19",
+      "id": "math_alg_age_19",
       "question": "Hoshem and Joshem currently have an average age of 25. In five years, they will have an average age of 30. Joshem is older than Hoshem. How old was Hoshem 2 years ago?",
       "options": [
         "15",
@@ -308,7 +308,7 @@
       "source": "Unknown"
     },
     {
-      "id": "math_alg_ages_20",
+      "id": "math_alg_age_20",
       "question": "The average age of 3 brothers was 15. 5 years later, the oldest brother died and the average age of the remaining brothers became 19.5. What was the age of the oldest brother when he died?",
       "options": [
         "11",
@@ -324,7 +324,7 @@
       "source": "Unknown"
     },
     {
-      "id": "math_alg_ages_21",
+      "id": "math_alg_age_21",
       "question": "The ratio of the current ages of Momen and his brother is $15:14$. The ratio of the ages of Momen and his sister in 6 years will be $18:19$. The gap between Momen's age and his sister is the same as the gap between Momen's age and his brother. What is Momen's current age?",
       "options": [
         "26",
@@ -340,7 +340,7 @@
       "source": "Unknown"
     },
     {
-      "id": "math_alg_ages_22",
+      "id": "math_alg_age_22",
       "question": "Shomi is now thrice as old as her first child. After one year, she will be thrice as old as the average of both her children. Her children have an age gap of 2 years. How old is Shomi now?",
       "options": [
         "30",
@@ -356,7 +356,7 @@
       "source": "Unknown"
     },
     {
-      "id": "math_alg_ages_23",
+      "id": "math_alg_age_23",
       "question": "There are 3 siblings, the younger two of which are twins. In 2 years, the average age of the siblings will be equal to the age of the oldest sibling now. What is the age difference between the oldest and youngest sibling?",
       "options": [
         "1",
