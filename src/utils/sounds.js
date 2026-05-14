@@ -1,3 +1,16 @@
+let userInteracted = false;
+
+if (typeof window !== 'undefined') {
+    const unlockAudio = () => {
+        userInteracted = true;
+        Object.values(sounds).forEach(s => {
+            s.play().catch(() => {}).then(() => s.pause());
+        });
+    };
+    window.addEventListener('click', unlockAudio, { once: true });
+    window.addEventListener('keydown', unlockAudio, { once: true });
+}
+
 const base = import.meta.env.BASE_URL || '/';
 
 const sounds = {
@@ -15,7 +28,7 @@ export const playSound = (soundName) => {
     const sound = sounds[soundName];
     if (sound) {
         sound.currentTime = 0;
-        sound.play().catch(() => {});
+        sound.play().catch(e => console.log('Sound error:', e.message));
     }
 };
 
