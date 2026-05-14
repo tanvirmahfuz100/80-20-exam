@@ -44,6 +44,33 @@ const rankFromAccuracy = (accuracy) => {
     return 'Bronze';
 };
 
+const subjectFromPath = (filePath) => {
+    if (!filePath) return 'General';
+    const parts = filePath.split('/');
+    const subjectPart = parts[2] || '';
+    const map = {
+        'english': 'English',
+        'math': 'Math',
+        'analytical': 'Analytical Ability',
+    };
+    return map[subjectPart] || subjectPart.charAt(0).toUpperCase() + subjectPart.slice(1);
+};
+
+const timeAgo = (dateStr) => {
+    const now = new Date();
+    const date = new Date(dateStr);
+    const diffMs = now - date;
+    const diffMins = Math.floor(diffMs / 60000);
+    const diffHours = Math.floor(diffMins / 60);
+    const diffDays = Math.floor(diffHours / 24);
+    if (diffMins < 1) return 'Just now';
+    if (diffMins < 60) return `${diffMins}m ago`;
+    if (diffHours < 24) return `${diffHours}h ago`;
+    if (diffDays < 2) return 'Yesterday';
+    if (diffDays < 7) return `${diffDays}d ago`;
+    return date.toLocaleDateString();
+};
+
 const Dashboard = () => {
     const { user, profile } = useAuth();
     const [availableExams, setAvailableExams] = React.useState([]);
@@ -52,6 +79,8 @@ const Dashboard = () => {
         accuracy: 0,
         totalTimeInMinutes: 0
     });
+    const [practiceSessions, setPracticeSessions] = React.useState([]);
+    const [focusAreas, setFocusAreas] = React.useState([]);
     const [loading, setLoading] = React.useState(true);
 
     React.useEffect(() => {
@@ -61,6 +90,42 @@ const Dashboard = () => {
             setLoading(false);
         };
         fetchStats();
+    }, [user]);
+
+    React.useEffect(() => {
+        const fetchSessions = async () => {
+            const { data } = await api.getUserPracticeSessions(user.id);
+            setPracticeSessions(data || []);
+        };
+        fetchSessions();
+    }, [user]);
+
+    React.useEffect(() => {
+        const fetchFocusAreas = async () => {
+            const { data: responses } = await api.getUserResponses(user.id);
+            if (responses && responses.length > 0) {
+                const grouped = {};
+                responses.forEach((r) => {
+                    const subject = subjectFromPath(r.source_file);
+                    if (!grouped[subject]) grouped[subject] = { correct: 0, total: 0 };
+                    grouped[subject].total++;
+                    if (r.is_correct) grouped[subject].correct++;
+                });
+                const areas = Object.entries(grouped)
+                    .map(([label, { correct, total }]) => {
+                        const accuracy = (correct / total) * 100;
+                        let status, color, tone;
+                        if (accuracy >= 80) { status = 'Strong streak'; color = 'bg-accent'; tone = 'text-accent'; }
+                        else if (accuracy >= 50) { status = 'Building pace'; color = 'bg-primary'; tone = 'text-primary'; }
+                        else { status = 'Needs more stars'; color = 'bg-reward'; tone = 'text-reward'; }
+                        return { label, status, val: Math.round(accuracy), color, tone };
+                    })
+                    .sort((a, b) => b.val - a.val)
+                    .slice(0, 4);
+                setFocusAreas(areas);
+            }
+        };
+        fetchFocusAreas();
     }, [user]);
 
     React.useEffect(() => {
@@ -102,12 +167,6 @@ const Dashboard = () => {
         { icon: Brain, title: 'Question Bank', desc: 'Search 50,000+ questions by topic, difficulty, or exam.', path: '/bank' },
         { icon: BookOpen, title: 'Video Courses', desc: 'Watch lessons from top instructors. Filter by exam.', path: '/courses' },
         { icon: TrendingUp, title: 'Track Progress', desc: 'View your accuracy, consistency, and weak areas.', path: '/analytics' },
-    ];
-
-    const recentActivity = [
-        { id: 1, topic: 'Algebra Basics', subject: 'Math', score: 8, total: 10, time: '2h ago', xp: 80 },
-        { id: 2, topic: 'Sentence Correction', subject: 'English', score: 12, total: 15, time: '5h ago', xp: 120 },
-        { id: 3, topic: 'Critical Reasoning', subject: 'Analytical', score: 5, total: 5, time: 'Yesterday', xp: 50 },
     ];
 
     const highlightTiles = [
@@ -274,26 +333,30 @@ const Dashboard = () => {
                         </h2>
                     </div>
                     <div className="overflow-hidden rounded-2xl md:rounded-3xl border border-white/5 bg-surface shadow-lg">
-                        {recentActivity.length > 0 ? recentActivity.map((item, idx) => (
+                        {practiceSessions.length > 0 ? practiceSessions.slice(0, 10).map((item, idx) => {
+                            const subject = subjectFromPath(item.source_file);
+                            const xp = item.correct_answers * 10;
+                            return (
                             <div
                                 key={item.id}
-                                className={`flex items-center justify-between gap-4 p-4 md:p-6 transition-colors hover:bg-white/5 ${idx !== recentActivity.length - 1 ? 'border-b border-white/5' : ''}`}
+                                className={`flex items-center justify-between gap-4 p-4 md:p-6 transition-colors hover:bg-white/5 ${idx !== Math.min(practiceSessions.length, 10) - 1 ? 'border-b border-white/5' : ''}`}
                             >
                                 <div className="flex min-w-0 items-center gap-4 md:gap-5">
                                     <div className="flex h-12 w-12 md:h-14 md:w-14 shrink-0 items-center justify-center rounded-xl md:rounded-2xl border border-white/5 bg-white/5 text-lg md:text-xl font-black tracking-tighter text-primary">
-                                        {item.subject[0]}
+                                        {subject[0]}
                                     </div>
                                     <div className="min-w-0">
-                                        <h4 className="truncate text-base md:text-xl font-black tracking-tight text-white">{item.topic}</h4>
-                                        <p className="text-[10px] font-black uppercase tracking-[0.2em] text-white/20">{item.subject} &bull; {item.time}</p>
+                                        <h4 className="truncate text-base md:text-xl font-black tracking-tight text-white">{item.chapter_title}</h4>
+                                        <p className="text-[10px] font-black uppercase tracking-[0.2em] text-white/20">{subject} &bull; {timeAgo(item.created_at)}</p>
                                     </div>
                                 </div>
                                 <div className="shrink-0 text-right">
-                                    <span className="block text-lg md:text-2xl font-black tracking-tighter text-white">{item.score}/{item.total}</span>
-                                    <span className="text-[9px] font-black uppercase tracking-[0.2em] text-reward">+{item.xp} XP</span>
+                                    <span className="block text-lg md:text-2xl font-black tracking-tighter text-white">{item.correct_answers}/{item.total_questions}</span>
+                                    <span className="text-[9px] font-black uppercase tracking-[0.2em] text-reward">+{xp} XP</span>
                                 </div>
                             </div>
-                        )) : (
+                            );
+                        }) : (
                             <div className="flex flex-col items-center justify-center py-12 md:py-16 px-6">
                                 <CheckList className="w-24 h-24 md:w-32 md:h-32 opacity-30 mb-4" />
                                 <p className="text-white/15 font-black uppercase tracking-widest text-xs text-center">No lessons yet. Start practicing!</p>
@@ -308,11 +371,11 @@ const Dashboard = () => {
                         Study focus
                     </h2>
                     <div className="relative space-y-4 md:space-y-5 rounded-2xl md:rounded-3xl border border-white/5 bg-surface p-5 md:p-7 shadow-lg">
-                        {[
+                        {(focusAreas.length > 0 ? focusAreas : [
                             { label: 'Vocabulary', status: 'Needs more stars', val: 32, color: 'bg-reward', tone: 'text-reward' },
                             { label: 'Geometry', status: 'Building pace', val: 54, color: 'bg-primary', tone: 'text-primary' },
                             { label: 'Analytical', status: 'Strong streak', val: 88, color: 'bg-accent', tone: 'text-accent' },
-                        ].map((area) => (
+                        ]).map((area) => (
                             <div key={area.label}>
                                 <div className="mb-2 flex items-center justify-between text-[10px] font-black uppercase tracking-[0.3em]">
                                     <span className="text-white/40">{area.label}</span>
