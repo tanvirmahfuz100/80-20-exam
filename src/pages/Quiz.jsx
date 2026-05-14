@@ -589,7 +589,7 @@ const Quiz = () => {
                         {isAnswered ? (
                             <button
                                 onClick={handleNext}
-                                className="px-10 md:px-14 py-4 md:py-5 bg-white text-black hover:bg-white/90 rounded-xl md:rounded-3xl font-black uppercase tracking-[0.2em] text-[10px] transition-all flex items-center gap-2 md:gap-3 shadow-lg active:scale-95"
+                                className="px-10 md:px-14 py-4 md:py-5 bg-primary text-black hover:bg-primary-hover rounded-xl md:rounded-3xl font-black uppercase tracking-[0.2em] text-[10px] transition-all flex items-center gap-2 md:gap-3 shadow-lg active:scale-95"
                             >
                                 {currentIndex < questions.length - 1 ? 'Continue' : 'Finish Lesson'}
                                 <ChevronRight className="w-4 h-4" />

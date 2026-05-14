@@ -171,7 +171,7 @@ const MockTests = () => {
                         </p>
                     </div>
                 </div>
-                <button className="w-full md:w-auto rounded-xl md:rounded-[1.4rem] bg-white px-8 md:px-10 py-3 md:py-4 text-[10px] font-black uppercase tracking-widest text-black shadow-lg transition-all active:scale-95 hover:scale-[1.02]">
+                <button className="w-full md:w-auto rounded-xl md:rounded-[1.4rem] bg-primary px-8 md:px-10 py-3 md:py-4 text-[10px] font-black uppercase tracking-widest text-black shadow-lg transition-all active:scale-95 hover:bg-primary-hover">
                     Register for Event
                 </button>
             </div>

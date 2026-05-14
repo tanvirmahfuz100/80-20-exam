@@ -95,7 +95,7 @@ const MetricPill = ({ icon: Icon, label, value, color }) => (
 const QuickActionCard = ({ icon: Icon, title, desc, path }) => (
     <Link
         to={path}
-        className="group flex items-center gap-3 md:gap-4 rounded-xl border border-white/5 bg-surface p-3.5 md:p-5 transition-all hover:-translate-y-0.5 hover:border-white/10 active:scale-[0.98]"
+        className="group flex items-center gap-3 md:gap-4 rounded-xl bg-surface p-3.5 md:p-5 transition-all hover:-translate-y-0.5 hover:bg-surface-hover active:scale-[0.98]"
     >
         <div className="flex h-10 w-10 md:h-12 md:w-12 shrink-0 items-center justify-center rounded-xl bg-primary/10 transition-transform group-hover:scale-110">
             <Icon className="w-5 h-5 md:w-6 md:h-6 text-primary" />
@@ -260,19 +260,19 @@ const Dashboard = () => {
                             <div className="flex flex-col sm:flex-row items-center gap-6 md:gap-10">
                                 <CircularProgress value={Math.round(Number(statsData.accuracy))} size={130} strokeWidth={9} className="shrink-0" />
                                 <div className="grid grid-cols-2 gap-3 w-full">
-                                    <div className="rounded-xl border border-white/5 bg-white/[0.02] p-3.5 md:p-4 text-center">
+                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-3.5 md:p-4 text-center">
                                         <p className="text-2xl md:text-3xl font-black text-white tracking-tighter">{statsData.totalPracticed}</p>
                                         <p className="text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Questions</p>
                                     </div>
-                                    <div className="rounded-xl border border-white/5 bg-white/[0.02] p-3.5 md:p-4 text-center">
+                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-3.5 md:p-4 text-center">
                                         <p className="text-2xl md:text-3xl font-black text-emerald-400 tracking-tighter">{statsData.correctOnes}</p>
                                         <p className="text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Correct</p>
                                     </div>
-                                    <div className="rounded-xl border border-white/5 bg-white/[0.02] p-3.5 md:p-4 text-center">
+                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-3.5 md:p-4 text-center">
                                         <p className="text-2xl md:text-3xl font-black text-red-400 tracking-tighter">{statsData.wrongOnes}</p>
                                         <p className="text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Wrong</p>
                                     </div>
-                                    <div className="rounded-xl border border-white/5 bg-white/[0.02] p-3.5 md:p-4 text-center">
+                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-3.5 md:p-4 text-center">
                                         <p className="text-2xl md:text-3xl font-black text-cyan-400 tracking-tighter">{statsData.totalTimeInMinutes}m</p>
                                         <p className="text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Time spent</p>
                                     </div>
@@ -318,7 +318,7 @@ const Dashboard = () => {
                             </button>
 
                             {showExplanations && (
-                                <div className="mt-4 p-4 md:p-5 rounded-xl border border-white/5 bg-white/[0.02] space-y-3">
+                                <div className="mt-4 p-4 md:p-5 rounded-xl border border-white/10 bg-surface-alt space-y-3">
                                     <p className="text-[9px] font-black uppercase tracking-[0.2em] text-white/20 mb-3">Metric definitions</p>
                                     {[
                                         { metric: 'Accuracy', formula: '(Correct answers ÷ Total questions) × 100', detail: 'Your overall accuracy across all subjects and exams.' },

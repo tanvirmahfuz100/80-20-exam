@@ -3,9 +3,10 @@ import { NavLink, useLocation, Link } from 'react-router-dom';
 import {
     LayoutDashboard, BookOpen, Settings, Menu,
     TrendingUp, LogOut, ShieldCheck,
-    MessageSquareWarning, Bell, Target, ClipboardList, Video, Brain, HelpCircle, Star
+    MessageSquareWarning, Bell, Target, ClipboardList, Video, Brain, HelpCircle, Star, Sun, Moon
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
+import { useTheme } from '../context/ThemeContext';
 import ReportModal from './ReportModal';
 import GuideModal from './GuideModal';
 import { getMistakesDueCount } from '../services/review';
@@ -47,9 +48,9 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
     const isAdmin = currentRole === 'super_admin' || currentRole === 'content_admin';
 
     return (
-        <aside className={`fixed top-0 left-0 z-40 w-64 h-screen transition-transform transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 bg-sidebar border-r border-border shadow-2xl transition-all duration-300`}>
+        <aside className={`fixed top-0 left-0 z-40 w-64 h-screen transition-transform transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 bg-sidebar shadow-2xl transition-all duration-300`}>
             <div className="flex flex-col h-full">
-                <div className="h-16 flex items-center px-6 border-b border-border">
+                <div className="h-16 flex items-center px-6 border-b border-white/5">
                     <span className="text-xl font-black text-white tracking-tighter uppercase">
                         80/20 EXAM
                     </span>
@@ -133,7 +134,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                 </nav>
 
                 <div className="px-4 py-4 space-y-4">
-                    <div className="bg-surface-alt/50 border border-white/5 rounded-2xl p-4 transition-all hover:border-white/10 group">
+                    <div className="bg-surface-alt/50 rounded-2xl p-4 transition-all group">
                         <div className="flex items-center gap-3 mb-3">
                             <div className="w-2 h-2 rounded-full bg-emerald-500"></div>
                             <span className="text-[10px] font-black uppercase tracking-widest text-white/20">Ready to Learn!</span>
@@ -148,8 +149,8 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                     </div>
                 </div>
 
-                <div className="p-4 border-t border-border space-y-3 bg-black/20 backdrop-blur-xl">
-                    <div className="bg-surface-active p-3 rounded-xl border border-white/10">
+                <div className="p-4 border-t border-white/5 space-y-3 bg-black/20 backdrop-blur-xl">
+                    <div className="bg-surface-active p-3 rounded-xl">
                         <p className="text-[10px] uppercase font-bold tracking-widest text-white/30 mb-0.5">{currentRole === 'super_admin' ? 'Admin Mode' : 'Testing as'}</p>
                         <p className="text-sm font-black text-white tracking-tight truncate uppercase">{user.user_metadata?.username || user.email || 'Student'}</p>
                     </div>
@@ -236,6 +237,7 @@ const Layout = ({ children }) => {
     const [guideOpen, setGuideOpen] = React.useState(false);
     const [globalStarBalance, setGlobalStarBalance] = useState(0);
     const [globalXp, setGlobalXp] = useState(0);
+    const { toggleTheme, isDark } = useTheme();
     const { user, profile } = useAuth();
     const location = useLocation();
 
@@ -284,6 +286,13 @@ const Layout = ({ children }) => {
                         </div>
 
                         <div className="flex items-center gap-2 md:gap-4">
+                            <button
+                                onClick={toggleTheme}
+                                className="p-3 bg-surface border border-white/5 rounded-2xl text-white/30 hover:text-white hover:border-white/20 transition-all hidden md:flex items-center gap-2"
+                                title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
+                            >
+                                {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+                            </button>
                             <button
                                 onClick={() => setGuideOpen(true)}
                                 className="p-3 bg-surface border border-white/5 rounded-2xl text-white/30 hover:text-white hover:border-white/20 transition-all hidden md:flex items-center gap-2"

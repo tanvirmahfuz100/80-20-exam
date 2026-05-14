@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { api } from '../services/api';
+import { useTheme } from '../context/ThemeContext';
 import {
     User, Mail, Phone, GraduationCap, CheckCircle2,
-    Save, AlertCircle, Loader2, ShieldCheck
+    Save, AlertCircle, Loader2, ShieldCheck, Sun, Moon
 } from 'lucide-react';
 import { StudyDesk } from '../components/Illustrations';
 
 const Settings = () => {
     const { user, profile, loading: authLoading, updateProfileFields } = useAuth();
+    const { theme, setTheme, isDark } = useTheme();
     const [loading, setLoading] = useState(false);
     const [message, setMessage] = useState({ type: '', text: '' });
 
@@ -102,7 +104,7 @@ const Settings = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8">
                 <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[2.5rem] p-6 md:p-10 space-y-6 md:space-y-8 relative overflow-hidden group">
                     <div className="relative">
-                        <h3 className="text-lg md:text-xl font-black text-white tracking-tight uppercase mb-6 md:mb-8 flex items-center gap-3">
+                        <h3 className="text-lg md:text-xl font-black text-text tracking-tight uppercase mb-6 md:mb-8 flex items-center gap-3">
                             <User className="text-primary w-5 h-5" />
                             Identity
                         </h3>
@@ -154,7 +156,7 @@ const Settings = () => {
 
                 <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[2.5rem] p-6 md:p-10 space-y-6 md:space-y-8 relative overflow-hidden group">
                     <div className="relative space-y-6 md:space-y-8">
-                        <h3 className="text-lg md:text-xl font-black text-white tracking-tight uppercase flex items-center gap-3">
+                        <h3 className="text-lg md:text-xl font-black text-text tracking-tight uppercase flex items-center gap-3">
                             <GraduationCap className="text-emerald-500 w-5 h-5" />
                             Study Tracks
                         </h3>
@@ -191,6 +193,49 @@ const Settings = () => {
                                         {version === 'bangla' ? 'Bangla' : 'English'}
                                     </button>
                                 ))}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[2.5rem] p-6 md:p-10 space-y-6 md:space-y-8 relative overflow-hidden group">
+                    <div className="relative space-y-6">
+                        <h3 className="text-lg md:text-xl font-black text-text tracking-tight uppercase flex items-center gap-3">
+                            {isDark ? <Moon className="text-primary w-5 h-5" /> : <Sun className="text-primary w-5 h-5" />}
+                            Appearance
+                        </h3>
+
+                        <div className="space-y-4">
+                            <p className="text-text-muted text-sm font-medium">Choose your preferred theme</p>
+
+                            <div className="grid grid-cols-2 gap-3">
+                                <button
+                                    type="button"
+                                    onClick={() => setTheme('dark')}
+                                    className={`p-5 rounded-2xl border text-left transition-all active:scale-[0.98] ${
+                                        isDark
+                                            ? 'bg-primary/10 border-primary shadow-lg shadow-primary/10'
+                                            : 'bg-background border-white/5 hover:border-white/20'
+                                    }`}
+                                >
+                                    <Moon className={`w-6 h-6 mb-3 ${isDark ? 'text-primary' : 'text-text-muted'}`} />
+                                    <p className={`text-sm font-black uppercase tracking-tight ${isDark ? 'text-primary' : 'text-text'}`}>Dark</p>
+                                    <p className="text-[10px] text-text-muted font-medium mt-1">Easy on the eyes</p>
+                                </button>
+
+                                <button
+                                    type="button"
+                                    onClick={() => setTheme('light')}
+                                    className={`p-5 rounded-2xl border text-left transition-all active:scale-[0.98] ${
+                                        !isDark
+                                            ? 'bg-primary/10 border-primary shadow-lg shadow-primary/10'
+                                            : 'bg-background border-white/5 hover:border-white/20'
+                                    }`}
+                                >
+                                    <Sun className={`w-6 h-6 mb-3 ${!isDark ? 'text-primary' : 'text-text-muted'}`} />
+                                    <p className={`text-sm font-black uppercase tracking-tight ${!isDark ? 'text-primary' : 'text-text'}`}>Light</p>
+                                    <p className="text-[10px] text-text-muted font-medium mt-1">Bright & clean</p>
+                                </button>
                             </div>
                         </div>
                     </div>
