@@ -7,6 +7,8 @@ import {
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import ReportModal from './ReportModal';
+import MistakeReviewModal from './MistakeReviewModal';
+import { getMistakesDueCount } from '../services/review';
 
 const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
     const { user, signOut, role } = useAuth();
@@ -174,6 +176,7 @@ const NotificationCenter = () => {
 const Layout = ({ children }) => {
     const [sidebarOpen, setSidebarOpen] = React.useState(false);
     const [reportOpen, setReportOpen] = React.useState(false);
+    const [mistakeModalOpen, setMistakeModalOpen] = useState(false);
     const [globalStarBalance, setGlobalStarBalance] = useState(0);
     const [globalXp, setGlobalXp] = useState(0);
     const { user, profile } = useAuth();
@@ -185,13 +188,17 @@ const Layout = ({ children }) => {
 
     useEffect(() => {
         const refreshBalances = () => {
-            setGlobalStarBalance(Number(localStorage.getItem('quiz_star_balance') || 0));
+            setGlobalStarBalance(getMistakesDueCount());
             setGlobalXp(profile?.total_xp || 0);
         };
 
         refreshBalances();
         window.addEventListener('quizBalanceUpdated', refreshBalances);
-        return () => window.removeEventListener('quizBalanceUpdated', refreshBalances);
+        window.addEventListener('mistakeReviewUpdated', refreshBalances);
+        return () => {
+            window.removeEventListener('quizBalanceUpdated', refreshBalances);
+            window.removeEventListener('mistakeReviewUpdated', refreshBalances);
+        };
     }, [profile]);
 
     return (
@@ -219,7 +226,10 @@ const Layout = ({ children }) => {
                                     <p className="text-[10px] uppercase font-black tracking-[0.2em] text-white/40">XP</p>
                                     <p className="text-sm font-black text-white">{globalXp}</p>
                                 </div>
-                                <div className="topbar-star-target bg-white/5 border border-white/10 rounded-2xl px-4 py-3 flex items-center gap-2">
+                                <div
+                                    onClick={() => setMistakeModalOpen(true)}
+                                    className="topbar-star-target bg-white/5 border border-white/10 rounded-2xl px-4 py-3 flex items-center gap-2 cursor-pointer hover:bg-white/10 transition-all"
+                                >
                                     <Star className="topbar-star-icon w-4 h-4 text-yellow-300" />
                                     <div>
                                         <p className="text-[10px] uppercase font-black tracking-[0.2em] text-white/40">Stars</p>
@@ -248,6 +258,7 @@ const Layout = ({ children }) => {
             </div>
 
             <ReportModal isOpen={reportOpen} onClose={() => setReportOpen(false)} />
+            <MistakeReviewModal isOpen={mistakeModalOpen} onClose={() => setMistakeModalOpen(false)} />
 
             {/* Overlay for mobile sidebar */}
             {sidebarOpen && (

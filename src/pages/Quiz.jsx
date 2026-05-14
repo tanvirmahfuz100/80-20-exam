@@ -9,6 +9,10 @@ import {
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { api } from '../services/api';
+import {
+    addMistake, advanceStage, resetStage,
+    getMistakesDueCount, getReviewSession, clearReviewSession
+} from '../services/review';
 
 const normalizeQuizQuestions = (payload) => {
     const sourceQuestions = Array.isArray(payload?.questions) ? payload.questions : [];
@@ -90,12 +94,13 @@ const normalizeQuizQuestions = (payload) => {
 };
 
 const Quiz = () => {
-    const { user } = useAuth();
+    const { user, updateProfileFields } = useAuth();
     const [searchParams] = useSearchParams();
     const navigate = useNavigate();
     const file = searchParams.get('file');
     const title = searchParams.get('title');
     const isTimedMode = searchParams.get('timed') === 'true';
+    const isReviewMode = searchParams.get('reviewMode') === 'true';
 
     const [questions, setQuestions] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -107,8 +112,7 @@ const Quiz = () => {
     const [score, setScore] = useState(0);
     const [isFinished, setIsFinished] = useState(false);
     const [results, setResults] = useState([]);
-    const [starBalance, setStarBalance] = useState(0);
-    const [pendingStars, setPendingStars] = useState({});
+    const [mistakeCount, setMistakeCount] = useState(0);
     const [flyingStars, setFlyingStars] = useState([]);
     const [balanceGlow, setBalanceGlow] = useState(false);
     const starTargetRef = useRef(null);
@@ -142,12 +146,17 @@ const Quiz = () => {
             setLoading(true);
             sessionSavedRef.current = false;
             try {
-                if (isMock && chapterId) {
-                    // Fetch Mock Test Questions from DB
+                if (isReviewMode) {
+                    const reviewQuestions = getReviewSession();
+                    if (reviewQuestions.length > 0) {
+                        setQuestions(reviewQuestions);
+                    } else {
+                        setError('No review questions found.');
+                    }
+                } else if (isMock && chapterId) {
                     const { data } = await api.getMockTestQuestions(chapterId);
                     setQuestions(data || []);
                 } else if (file) {
-                    // Legacy JSON support
                     let fileUrl = file || '';
                     if (fileUrl.startsWith('/')) {
                         const base = import.meta.env.BASE_URL || '/';
@@ -156,10 +165,6 @@ const Quiz = () => {
                     const res = await fetch(fileUrl);
                     const data = await res.json();
 
-                    // Support multiple legacy JSON shapes:
-                    // - Array of questions
-                    // - { questions: [...] }
-                    // - { passages: [...] } (articles/reading passages)
                     let questionArray = [];
                     if (Array.isArray(data)) questionArray = data;
                     else if (Array.isArray(data.questions)) questionArray = data.questions;
@@ -175,7 +180,7 @@ const Quiz = () => {
             }
         };
         loadQuestions();
-    }, [file, chapterId, isMock]);
+    }, [file, chapterId, isMock, isReviewMode]);
 
     useEffect(() => {
         const persistPracticeSession = async () => {
@@ -194,33 +199,31 @@ const Quiz = () => {
             };
 
             await api.savePracticeSession(payload);
+
+            if (isReviewMode) {
+                clearReviewSession();
+            }
+
+            const earnedXp = score * 10;
+            const raw = localStorage.getItem('exam_local_auth');
+            if (raw) {
+                const currentSession = JSON.parse(raw);
+                const currentXp = currentSession.profile.total_xp || 0;
+                updateProfileFields({ total_xp: currentXp + earnedXp });
+            }
+
             sessionSavedRef.current = true;
         };
 
         persistPracticeSession();
-    }, [isFinished, user, questions, score, chapterId, title, file, isTimedMode]);
+    }, [isFinished, user, questions, score, chapterId, title, file, isTimedMode, isReviewMode]);
 
     useEffect(() => {
-        const storedStarBalance = localStorage.getItem('quiz_star_balance');
-        const storedPending = localStorage.getItem('quiz_pending_stars');
-        if (storedStarBalance) setStarBalance(Number(storedStarBalance));
-        if (storedPending) {
-            try {
-                setPendingStars(JSON.parse(storedPending));
-            } catch (err) {
-                setPendingStars({});
-            }
-        }
+        const refresh = () => setMistakeCount(getMistakesDueCount());
+        refresh();
+        window.addEventListener('mistakeReviewUpdated', refresh);
+        return () => window.removeEventListener('mistakeReviewUpdated', refresh);
     }, []);
-
-    useEffect(() => {
-        localStorage.setItem('quiz_star_balance', String(starBalance));
-        window.dispatchEvent(new Event('quizBalanceUpdated'));
-    }, [starBalance]);
-
-    useEffect(() => {
-        localStorage.setItem('quiz_pending_stars', JSON.stringify(pendingStars));
-    }, [pendingStars]);
 
     // Timer Logic
     useEffect(() => {
@@ -273,31 +276,24 @@ const Quiz = () => {
         const selectedOriginalIdx = selectedObj?.originalIdx ?? -1;
         const isCorrect = selectedOriginalIdx === currentQ.correct;
         const questionKey = getQuestionKey(currentQ);
-        const alreadyPending = !!pendingStars[questionKey];
-
-        if (!isCorrect && !alreadyPending) {
-            const buttonRect = event.currentTarget?.getBoundingClientRect();
-            createFlyingStar(buttonRect, event.clientX, event.clientY);
-        }
 
         setSelectedOption(index);
         setIsAnswered(true);
 
         if (isCorrect) {
             setScore(s => s + 1);
+
+            if (currentQ._mistakeId) {
+                advanceStage(currentQ._mistakeId);
+            }
         }
 
-        if (!isCorrect && !alreadyPending) {
-            setPendingStars(prev => ({ ...prev, [questionKey]: true }));
-        }
-
-        if (isCorrect && alreadyPending) {
-            setStarBalance(s => s + 1);
-            setPendingStars(prev => {
-                const next = { ...prev };
-                delete next[questionKey];
-                return next;
-            });
+        if (!isCorrect) {
+            if (currentQ._mistakeId) {
+                resetStage(currentQ._mistakeId);
+            } else {
+                addMistake(questionKey, currentQ, { file, title, chapterId });
+            }
         }
 
         const newResult = {
@@ -407,7 +403,7 @@ const Quiz = () => {
 
     const currentQ = questions[currentIndex];
     const totalXpSoFar = results.reduce((acc, r) => acc + (r.isCorrect ? 10 : 0), 0);
-    const pendingStarsCount = Object.keys(pendingStars).length;
+    const isReviewSession = isReviewMode;
 
     return (
         <div className="max-w-5xl mx-auto space-y-8 pb-32">
@@ -453,9 +449,15 @@ const Quiz = () => {
                         <Zap className="w-4 h-4 text-primary fill-primary" />
                         <span className="text-primary font-black text-sm tracking-tighter">{totalXpSoFar} POINTS</span>
                     </div>
+                    {isReviewSession && (
+                        <div className="bg-emerald-500/10 border border-emerald-500/20 px-4 py-2 rounded-xl flex items-center gap-2">
+                            <RefreshCw className="w-4 h-4 text-emerald-400" />
+                            <span className="text-emerald-400 font-black text-sm tracking-tighter">REVIEW</span>
+                        </div>
+                    )}
                     <div className={`bg-yellow-500/10 border border-yellow-500/20 px-4 py-2 rounded-xl flex items-center gap-2 transition-all ${balanceGlow ? 'ring-2 ring-yellow-400/80 shadow-[0_0_20px_rgba(245,158,11,0.35)]' : ''}`}>
                         <Star className="w-4 h-4 text-yellow-300" />
-                        <span className="text-yellow-300 font-black text-sm tracking-tighter">{starBalance} STARS</span>
+                        <span className="text-yellow-300 font-black text-sm tracking-tighter">{mistakeCount}</span>
                     </div>
                 </div>
             </div>
@@ -615,13 +617,10 @@ const Quiz = () => {
                             </div>
                             <div className="space-y-2">
                                 <h4 className="text-white/20 font-black uppercase tracking-widest text-[9px]">Tap an answer</h4>
-                                <p className="text-white/10 text-[10px] leading-relaxed italic font-medium">Select any option to reveal the explanation and track stars.</p>
+                                <p className="text-white/10 text-[10px] leading-relaxed italic font-medium">Select any option to check your knowledge.</p>
                             </div>
                             <div className="bg-yellow-500/10 border border-yellow-500/20 rounded-3xl p-4 text-[10px] text-yellow-100 font-black uppercase tracking-[0.2em]">
-                                Wrong answers turn into pending stars until you reattempt them correctly.
-                            </div>
-                            <div className="bg-white/5 border border-white/10 rounded-3xl p-4 text-[10px] text-white/80 font-black uppercase tracking-[0.2em]">
-                                Pending stars: {pendingStarsCount}
+                                Wrong answers are saved for spaced repetition review.
                             </div>
                         </div>
                     )}

@@ -2,6 +2,7 @@ import React from 'react';
 import { Flame, Star, Target, Clock, ArrowRight, TrendingUp, Brain, Zap, BookOpen, Coins, Crown, Sparkles, BadgeCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import { getMistakesDueCount } from '../services/review';
 
 import { api } from '../services/api';
 
@@ -40,6 +41,13 @@ const Dashboard = () => {
         totalTimeInMinutes: 0
     });
     const [loading, setLoading] = React.useState(true);
+    const [refreshKey, setRefreshKey] = React.useState(0);
+
+    React.useEffect(() => {
+        const refresh = () => setRefreshKey(k => k + 1);
+        window.addEventListener('mistakeReviewUpdated', refresh);
+        return () => window.removeEventListener('mistakeReviewUpdated', refresh);
+    }, []);
 
     React.useEffect(() => {
         const fetchStats = async () => {
@@ -73,7 +81,7 @@ const Dashboard = () => {
 
     const totalXp = Number(profile?.total_xp || 0);
     const level = Math.max(1, Math.floor(totalXp / 100) + 1);
-    const coins = Number(localStorage.getItem('quiz_star_balance') || 0) + Math.max(0, Math.floor(statsData.totalPracticed / 2));
+    const coins = getMistakesDueCount() + Math.max(0, Math.floor(statsData.totalPracticed / 2));
     const streak = Number(localStorage.getItem('exam_streak_days') || Math.max(1, Math.min(31, Math.floor(statsData.totalPracticed / 4) + 1)));
     const rankLabel = rankFromAccuracy(statsData.accuracy);
 
