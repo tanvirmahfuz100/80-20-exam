@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Book, Calculator, Brain, ChevronRight, Play, Clock, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles } from 'lucide-react';
+import { Book, Calculator, Brain, ChevronRight, Play, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles, Check } from 'lucide-react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { Target, CheckList } from '../components/Illustrations';
@@ -15,7 +15,7 @@ const SubjectCard = ({ subject, isSelected, onClick }) => {
         <button
             onClick={onClick}
             className={`flex flex-col items-center justify-center p-6 md:p-8 rounded-2xl border transition-all duration-300 w-full text-center relative overflow-hidden group ${isSelected
-                ? 'bg-primary/12 border-primary shadow-lg -translate-y-0.5'
+                ? 'bg-primary/12 border-primary shadow-lg shadow-primary/10 -translate-y-0.5 ring-2 ring-primary/30'
                 : 'bg-surface border-white/5 hover:border-primary/30 hover:bg-white/5'
                 }`}
         >
@@ -31,25 +31,34 @@ const SubjectCard = ({ subject, isSelected, onClick }) => {
     );
 };
 
-const ChapterItem = ({ chapter, onClick, questionCount }) => (
-    <div className="flex items-center justify-between p-4 md:p-5 bg-surface border border-white/5 rounded-xl md:rounded-[1.6rem] hover:border-primary/30 transition-all group hover:bg-white/5 active:scale-[0.99]">
-        <div className="flex-1 min-w-0 pr-3 md:pr-4">
-            <h4 className="font-bold text-white text-sm md:text-lg truncate group-hover:text-primary transition-colors leading-tight mb-1">{chapter.name}</h4>
-            <div className="flex items-center gap-2 md:gap-3">
-                <span className="text-[10px] font-black uppercase tracking-[0.1em] text-white/20">Learning Goal</span>
-                <span className="w-1 h-1 rounded-full bg-white/10"></span>
-                <span className="text-[10px] font-black uppercase tracking-[0.1em] text-primary/50">{questionCount} Questions</span>
+const ChapterItem = ({ chapter, onClick, questionCount }) => {
+    const hasQuestions = questionCount > 0;
+    return (
+        <div className="flex items-center justify-between p-4 md:p-5 bg-surface border border-white/5 rounded-xl md:rounded-[1.6rem] hover:border-primary/30 transition-all group hover:bg-white/5 active:scale-[0.99]">
+            <div className="flex-1 min-w-0 pr-3 md:pr-4">
+                <h4 className="font-bold text-white text-sm md:text-lg truncate group-hover:text-primary transition-colors leading-tight mb-1">{chapter.name}</h4>
+                <div className="flex items-center gap-2 md:gap-3">
+                    <span className="text-[10px] font-black uppercase tracking-[0.1em] text-white/20">Learning Goal</span>
+                    <span className="w-1 h-1 rounded-full bg-white/10"></span>
+                    {hasQuestions ? (
+                        <span className="text-[10px] font-black uppercase tracking-[0.1em] text-primary/50">{questionCount} Questions</span>
+                    ) : (
+                        <span className="text-[10px] font-black uppercase tracking-[0.1em] text-white/15">Coming Soon</span>
+                    )}
+                </div>
             </div>
+            {hasQuestions && (
+                <button
+                    onClick={() => onClick(chapter)}
+                    className="flex items-center gap-2 px-5 md:px-6 py-3 md:py-3 bg-primary text-black font-black uppercase tracking-widest rounded-xl md:rounded-2xl hover:bg-primary-hover transition-all text-[10px] shadow-lg shadow-primary/10 active:scale-95 shrink-0"
+                >
+                    <Play className="w-3 h-3 md:w-4 md:h-4 fill-current" />
+                    Start
+                </button>
+            )}
         </div>
-        <button
-            onClick={() => onClick(chapter)}
-            className="flex items-center gap-2 px-5 md:px-6 py-3 md:py-3 bg-primary text-black font-black uppercase tracking-widest rounded-xl md:rounded-2xl hover:bg-primary-hover transition-all text-[10px] shadow-lg shadow-primary/10 active:scale-95 shrink-0"
-        >
-            <Play className="w-3 h-3 md:w-4 md:h-4 fill-current" />
-            Start
-        </button>
-    </div>
-);
+    );
+};
 
 const PracticeConfig = () => {
     const navigate = useNavigate();
@@ -160,7 +169,7 @@ const PracticeConfig = () => {
             }
 
             const pairs = await Promise.all(
-                chapterEntries.map(async ({ chapter, file }) => [file, await countChapterQuestions(file)])
+                chapterEntries.map(async ({ file }) => [file, await countChapterQuestions(file)])
             );
 
             setChapterQuestionCounts(Object.fromEntries(pairs));
@@ -227,6 +236,27 @@ const PracticeConfig = () => {
                         Timed Mode
                     </button>
                 </div>
+            </div>
+
+            <div className="flex items-center gap-2 md:gap-3 text-[10px] font-black uppercase tracking-[0.2em]">
+                {[
+                    { step: 1, label: 'Exam', active: selectedExam != null },
+                    { step: 2, label: 'Subject', active: selectedSubject != null },
+                    { step: 3, label: 'Lessons', active: selectedSubject != null },
+                ].map((s, i) => (
+                    <React.Fragment key={s.step}>
+                        {i > 0 && (
+                            <ChevronRight className={`w-3 h-3 ${s.active ? 'text-primary/50' : 'text-white/10'}`} />
+                        )}
+                        <span className={`flex items-center gap-1 ${s.active ? 'text-primary' : 'text-white/20'}`}>
+                            {s.active && <Check className="w-2.5 h-2.5" />}
+                            {s.label}
+                        </span>
+                    </React.Fragment>
+                ))}
+                {selectedSubject && (
+                    <span className="text-white/30 ml-1 hidden sm:inline">· {selectedExam?.label} · {selectedSubject.name}</span>
+                )}
             </div>
 
             <div className="space-y-4 md:space-y-5">
@@ -301,21 +331,23 @@ const PracticeConfig = () => {
 
             {selectedSubject && (
                 <div className="space-y-6 md:space-y-10 animate-in slide-in-from-bottom-4 duration-500">
-                    <div className="flex items-center gap-3 md:gap-4">
-                        <div className="h-px flex-1 bg-white/5"></div>
-                        <div className="px-4 md:px-6 py-2 bg-white/5 rounded-full border border-white/5">
-                            <span className="text-[10px] font-black uppercase tracking-[0.3em] text-white/30">Choose a Lesson</span>
-                        </div>
-                        <div className="h-px flex-1 bg-white/5"></div>
+                    <div className="flex items-center gap-3 px-4 md:px-6 py-3 md:py-4 bg-primary/8 border border-primary/15 rounded-xl md:rounded-2xl">
+                        <div className="w-1 h-8 bg-primary rounded-full shrink-0"></div>
+                        <p className="text-sm md:text-base font-bold text-white/80">
+                            <span className="text-primary font-black">{selectedSubject.name}</span>
+                            {' '}·{' '}
+                            {selectedSubject.topics.map(t => t.name).join(', ')}
+                        </p>
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 md:gap-12">
                         {selectedSubject.topics.map(topic => (
                             <div key={topic.id} className="space-y-4 md:space-y-6">
-                                <div className="flex items-center gap-3">
-                                    <h3 className="text-lg md:text-2xl font-black text-white/90 tracking-tight uppercase">{topic.name}</h3>
-                                    <span className="flex-1 h-px bg-primary/20"></span>
-                                    <span className="text-[10px] font-black text-primary/40 uppercase tracking-widest">{topic.chapters.length} Units</span>
+                                <div className="flex items-center gap-4 px-4 py-3 md:px-5 md:py-4 bg-white/[0.02] border border-white/[0.04] rounded-xl md:rounded-2xl">
+                                    <div className="w-1.5 h-8 md:h-10 bg-primary rounded-full shrink-0"></div>
+                                    <h3 className="text-lg md:text-2xl font-black text-white tracking-tight uppercase">{topic.name}</h3>
+                                    <div className="flex-1"></div>
+                                    <span className="text-[10px] font-black text-primary/40 uppercase tracking-widest shrink-0">{topic.chapters.length} Units</span>
                                 </div>
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                                     {topic.chapters.length > 0 ? (
