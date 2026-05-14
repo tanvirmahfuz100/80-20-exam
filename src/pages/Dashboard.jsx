@@ -1,14 +1,29 @@
 import React from 'react';
-import { Flame, Target, ArrowRight, TrendingUp, Brain, BookOpen, Coins, Crown, BadgeCheck } from 'lucide-react';
+import { Flame, Target, ArrowRight, TrendingUp, Brain, BookOpen, Coins, Crown, BadgeCheck, HelpCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { getMistakesDueCount } from '../services/review';
 import { api } from '../services/api';
-import { Rocket, ChartUp, CheckList } from '../components/Illustrations';
+import { Rocket, ChartUp, CheckList, Graduation, Trophy } from '../components/Illustrations';
+
+const QuickStartCard = ({ icon: Icon, title, desc, path, accent }) => (
+    <Link
+        to={path}
+        className={`flex items-start gap-4 p-4 rounded-2xl border border-white/5 bg-surface hover:bg-white/5 transition-all group active:scale-[0.98] ${accent}`}
+    >
+        <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
+            <Icon className="w-5 h-5 text-primary" />
+        </div>
+        <div className="min-w-0">
+            <h4 className="text-sm font-black text-white group-hover:text-primary transition-colors">{title}</h4>
+            <p className="text-xs text-white/40 mt-0.5 leading-relaxed">{desc}</p>
+        </div>
+        <ArrowRight className="w-4 h-4 text-white/20 shrink-0 mt-2 group-hover:text-primary transition-colors" />
+    </Link>
+);
 
 const StatCard = ({ title, value, subtitle, icon: Icon, accentColor }) => (
     <div className="group relative overflow-hidden rounded-2xl border border-white/5 bg-surface p-5 shadow-lg transition-all hover:-translate-y-0.5 hover:border-white/10 active:scale-[0.98]">
-        <div className={`absolute inset-x-0 top-0 h-1 ${accentColor}`} />
         <div className="flex items-start justify-between gap-4">
             <div>
                 <p className="text-[10px] font-black uppercase tracking-[0.3em] text-white/30">{title}</p>
@@ -82,6 +97,13 @@ const Dashboard = () => {
         { title: 'Rank', value: rankLabel, subtitle: `${statsData.accuracy}% accuracy`, icon: BadgeCheck, accentColor: 'text-emerald-400' },
     ];
 
+    const quickStarts = [
+        { icon: Target, title: 'Start Practicing', desc: 'Pick an exam & subject. Answer questions, get instant feedback.', path: '/practice' },
+        { icon: Brain, title: 'Question Bank', desc: 'Search 50,000+ questions by topic, difficulty, or exam.', path: '/bank' },
+        { icon: BookOpen, title: 'Video Courses', desc: 'Watch lessons from top instructors. Filter by exam.', path: '/courses' },
+        { icon: TrendingUp, title: 'Track Progress', desc: 'View your accuracy, consistency, and weak areas.', path: '/analytics' },
+    ];
+
     const recentActivity = [
         { id: 1, topic: 'Algebra Basics', subject: 'Math', score: 8, total: 10, time: '2h ago', xp: 80 },
         { id: 2, topic: 'Sentence Correction', subject: 'English', score: 12, total: 15, time: '5h ago', xp: 120 },
@@ -115,7 +137,7 @@ const Dashboard = () => {
                                     Keep the streak <span className="text-primary">moving</span>.
                                 </h1>
                                 <p className="max-w-xl text-sm font-medium leading-relaxed text-white/55 md:text-base">
-                                    {user.user_metadata?.username || user.email} is building momentum across practice, mock tests, and ranked sessions.
+                                    {user.user_metadata?.username || user.email || 'Student'} is building momentum across practice, mock tests, and ranked sessions.
                                 </p>
                             </div>
 
@@ -143,6 +165,57 @@ const Dashboard = () => {
                     {stats.slice(0, 4).map((stat) => (
                         <StatCard key={stat.title} {...stat} />
                     ))}
+                </div>
+            </div>
+
+            <div className="grid gap-4 md:gap-6 xl:grid-cols-[1.4fr_0.9fr]">
+                <div className="space-y-3">
+                    <h2 className="flex items-center gap-2 text-base md:text-lg font-black tracking-tighter text-white px-1">
+                        <HelpCircle className="w-5 h-5 text-primary" />
+                        Quick Start Guide
+                    </h2>
+                    <div className="grid gap-2">
+                        {quickStarts.map((item) => (
+                            <QuickStartCard key={item.title} {...item} />
+                        ))}
+                    </div>
+                </div>
+
+                <div className="space-y-3">
+                    <h2 className="flex items-center gap-2 text-base md:text-lg font-black tracking-tighter text-white px-1">
+                        <Trophy className="w-5 h-5 text-reward/60" />
+                        How to Succeed
+                    </h2>
+                    <div className="rounded-2xl border border-white/5 bg-surface p-5 md:p-6 shadow-lg space-y-4">
+                        <div className="flex items-start gap-3">
+                            <div className="w-7 h-7 rounded-lg bg-primary/10 flex items-center justify-center text-xs font-black text-primary shrink-0 mt-0.5">1</div>
+                            <div>
+                                <h4 className="text-xs font-black text-white">Practice daily</h4>
+                                <p className="text-[11px] text-white/40 leading-relaxed mt-0.5">Consistency beats intensity. Do 10-15 questions every day.</p>
+                            </div>
+                        </div>
+                        <div className="flex items-start gap-3">
+                            <div className="w-7 h-7 rounded-lg bg-primary/10 flex items-center justify-center text-xs font-black text-primary shrink-0 mt-0.5">2</div>
+                            <div>
+                                <h4 className="text-xs font-black text-white">Review mistakes</h4>
+                                <p className="text-[11px] text-white/40 leading-relaxed mt-0.5">Wrong answers = growth. Review them using the star icon above.</p>
+                            </div>
+                        </div>
+                        <div className="flex items-start gap-3">
+                            <div className="w-7 h-7 rounded-lg bg-primary/10 flex items-center justify-center text-xs font-black text-primary shrink-0 mt-0.5">3</div>
+                            <div>
+                                <h4 className="text-xs font-black text-white">Take mock tests</h4>
+                                <p className="text-[11px] text-white/40 leading-relaxed mt-0.5">Simulate real exam conditions to build speed and confidence.</p>
+                            </div>
+                        </div>
+                        <div className="flex items-start gap-3">
+                            <div className="w-7 h-7 rounded-lg bg-primary/10 flex items-center justify-center text-xs font-black text-primary shrink-0 mt-0.5">4</div>
+                            <div>
+                                <h4 className="text-xs font-black text-white">Track analytics</h4>
+                                <p className="text-[11px] text-white/40 leading-relaxed mt-0.5">Use the Neural Report to find weak areas and improve them.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -234,10 +307,7 @@ const Dashboard = () => {
                         <Brain className="h-5 w-5 md:h-6 md:w-6 text-primary" />
                         Study focus
                     </h2>
-                    <div className="space-y-4 md:space-y-5 rounded-2xl md:rounded-3xl border border-white/5 bg-surface p-5 md:p-7 shadow-lg">
-                        <div className="absolute -right-4 -top-4 opacity-[0.03] pointer-events-none hidden md:block">
-                            <ChartUp className="w-32 h-32" />
-                        </div>
+                    <div className="relative space-y-4 md:space-y-5 rounded-2xl md:rounded-3xl border border-white/5 bg-surface p-5 md:p-7 shadow-lg">
                         {[
                             { label: 'Vocabulary', status: 'Needs more stars', val: 32, color: 'bg-reward', tone: 'text-reward' },
                             { label: 'Geometry', status: 'Building pace', val: 54, color: 'bg-primary', tone: 'text-primary' },

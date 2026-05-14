@@ -3,11 +3,12 @@ import { NavLink, useLocation, Link } from 'react-router-dom';
 import {
     LayoutDashboard, BookOpen, Settings, Menu,
     TrendingUp, LogOut, ShieldCheck,
-    MessageSquareWarning, Bell, Target, ClipboardList, Video, Brain
+    MessageSquareWarning, Bell, Target, ClipboardList, Video, Brain, HelpCircle
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import ReportModal from './ReportModal';
 import MistakeReviewModal from './MistakeReviewModal';
+import GuideModal from './GuideModal';
 import { getMistakesDueCount } from '../services/review';
 
 const navItems = [
@@ -16,6 +17,12 @@ const navItems = [
     { icon: BookOpen, label: "Courses", path: "/courses" },
     { icon: TrendingUp, label: "Analytics", path: "/analytics" },
     { icon: Settings, label: "Settings", path: "/settings" },
+];
+
+const sidebarTips = [
+    { icon: Target, text: 'Pick an exam and start practising', path: '/practice' },
+    { icon: TrendingUp, text: 'Track your accuracy & progress', path: '/analytics' },
+    { icon: Brain, text: 'Review your mistakes regularly', path: '/' },
 ];
 
 const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
@@ -43,7 +50,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
         <aside className={`fixed top-0 left-0 z-40 w-64 h-screen transition-transform transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 bg-sidebar border-r border-border shadow-2xl transition-all duration-300`}>
             <div className="flex flex-col h-full">
                 <div className="h-16 flex items-center px-6 border-b border-border">
-                    <span className="text-xl font-black text-white italic tracking-tighter uppercase">
+                    <span className="text-xl font-black text-white tracking-tighter uppercase">
                         80/20 EXAM
                     </span>
                     <div className="ml-auto md:hidden">
@@ -109,12 +116,26 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                             </NavLink>
                         </div>
                     )}
+
+                    <div className="space-y-1 pt-4">
+                        <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-white/10 mb-4">Quick Tips</p>
+                        {sidebarTips.map((tip) => (
+                            <Link
+                                key={tip.text}
+                                to={tip.path}
+                                className="flex items-center gap-3 px-3 py-2 rounded-xl text-xs font-medium text-white/25 hover:text-white/50 hover:bg-white/5 transition-all border border-transparent"
+                            >
+                                <tip.icon className="w-4 h-4 shrink-0" />
+                                {tip.text}
+                            </Link>
+                        ))}
+                    </div>
                 </nav>
 
                 <div className="px-4 py-4 space-y-4">
                     <div className="bg-surface-alt/50 border border-white/5 rounded-2xl p-4 transition-all hover:border-white/10 group">
                         <div className="flex items-center gap-3 mb-3">
-                            <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></div>
+                            <div className="w-2 h-2 rounded-full bg-emerald-500"></div>
                             <span className="text-[10px] font-black uppercase tracking-widest text-white/20">Ready to Learn!</span>
                         </div>
                         <button
@@ -129,8 +150,8 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
 
                 <div className="p-4 border-t border-border space-y-3 bg-black/20 backdrop-blur-xl">
                     <div className="bg-surface-active p-3 rounded-xl border border-white/10">
-                        <p className="text-[10px] uppercase font-bold tracking-widest text-white/30 mb-0.5">Testing as,</p>
-                        <p className="text-sm font-black text-white tracking-tight truncate uppercase">{user.user_metadata?.username || user.email}</p>
+                        <p className="text-[10px] uppercase font-bold tracking-widest text-white/30 mb-0.5">{currentRole === 'super_admin' ? 'Admin Mode' : 'Testing as'}</p>
+                        <p className="text-sm font-black text-white tracking-tight truncate uppercase">{user.user_metadata?.username || user.email || 'Student'}</p>
                     </div>
                     <button
                         onClick={() => signOut()}
@@ -162,7 +183,7 @@ const NotificationCenter = () => {
                 <div className="absolute right-0 mt-4 w-80 bg-surface border border-white/10 rounded-[32px] shadow-2xl p-6 z-50 animate-in zoom-in-95 duration-200">
                     <div className="flex items-center justify-between mb-4">
                         <h4 className="text-[10px] font-black uppercase tracking-widest text-white">Latest News</h4>
-                        <span className="text-[9px] font-bold text-primary italic">1 New</span>
+                        <span className="text-[9px] font-bold text-primary">1 New</span>
                     </div>
                     <div className="space-y-4">
                         <div className="p-4 bg-white/5 rounded-2xl border border-white/5">
@@ -177,7 +198,6 @@ const NotificationCenter = () => {
 };
 
 const MobileBottomNav = () => {
-
     return (
         <nav className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-surface/95 backdrop-blur-xl border-t border-white/10 safe-bottom">
             <div className="flex items-center justify-around py-2 px-2">
@@ -213,6 +233,7 @@ const MobileBottomNav = () => {
 const Layout = ({ children }) => {
     const [sidebarOpen, setSidebarOpen] = React.useState(false);
     const [reportOpen, setReportOpen] = React.useState(false);
+    const [guideOpen, setGuideOpen] = React.useState(false);
     const [mistakeModalOpen, setMistakeModalOpen] = useState(false);
     const [globalStarBalance, setGlobalStarBalance] = useState(0);
     const [globalXp, setGlobalXp] = useState(0);
@@ -264,6 +285,14 @@ const Layout = ({ children }) => {
                         </div>
 
                         <div className="flex items-center gap-2 md:gap-4">
+                            <button
+                                onClick={() => setGuideOpen(true)}
+                                className="p-3 bg-surface border border-white/5 rounded-2xl text-white/30 hover:text-white hover:border-white/20 transition-all hidden md:flex items-center gap-2"
+                                title="How to use this app"
+                            >
+                                <HelpCircle className="w-5 h-5" />
+                                <span className="text-[10px] font-black uppercase tracking-widest">Help</span>
+                            </button>
                             <NotificationCenter />
                             <div className="hidden sm:flex items-center gap-3">
                                 <div className="bg-white/5 border border-white/10 rounded-2xl px-4 py-3 text-right">
@@ -289,7 +318,7 @@ const Layout = ({ children }) => {
                                         <p className="text-[9px] font-black text-primary uppercase tracking-tighter">Level 1</p>
                                         <p className="text-[10px] font-black text-white/40 uppercase tracking-widest">Beginner</p>
                                     </div>
-                                    <div className="w-10 h-10 bg-primary/20 rounded-xl border border-primary/30 flex items-center justify-center font-black text-primary italic uppercase cursor-pointer">
+                                    <div className="w-10 h-10 bg-primary/20 rounded-xl border border-primary/30 flex items-center justify-center font-black text-primary uppercase cursor-pointer">
                                         {user.user_metadata?.username?.[0]?.toUpperCase() || 'U'}
                                     </div>
                                 </div>
@@ -307,6 +336,7 @@ const Layout = ({ children }) => {
 
             <ReportModal isOpen={reportOpen} onClose={() => setReportOpen(false)} />
             <MistakeReviewModal isOpen={mistakeModalOpen} onClose={() => setMistakeModalOpen(false)} />
+            <GuideModal isOpen={guideOpen} onClose={() => setGuideOpen(false)} />
 
             {sidebarOpen && (
                 <div
