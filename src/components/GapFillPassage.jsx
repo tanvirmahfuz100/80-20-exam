@@ -56,6 +56,10 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
     setExplanationPanel(null);
   }, [answers]);
 
+  const closeExplanationPanel = useCallback(() => {
+    setExplanationPanel(null);
+  }, []);
+
   const handleOptionSelect = useCallback((blankId, optionText, isCorrect, explanationBn, explanationEn) => {
     const blankData = getBlankData(blankId);
     if (!blankData) return;
@@ -263,6 +267,17 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
             transition={{ duration: 0.2 }}
             className="bg-surface/98 backdrop-blur-md border border-white/20 rounded-2xl shadow-2xl shadow-black/60 p-4 space-y-3"
           >
+            <div className="flex items-start justify-between gap-3">
+              <div className="flex-1" />
+              <button
+                type="button"
+                onClick={closeExplanationPanel}
+                className="shrink-0 px-3 py-1.5 rounded-full bg-white/10 hover:bg-white/15 text-[10px] font-black uppercase tracking-[0.2em] text-white/70 hover:text-white transition-colors"
+              >
+                Got it
+              </button>
+            </div>
+
             {explanationPanel.explanationBn && (
               <div>
                 <p className="font-bold text-blue-400 uppercase tracking-wider text-[9px] mb-1.5">বাংলা ব্যাখ্যা</p>
