@@ -89,7 +89,11 @@ const formatExplanation = (text) => {
 };
 
 const normalizeQuizQuestions = (payload) => {
-    const sourceQuestions = Array.isArray(payload?.questions) ? payload.questions : [];
+    const sourceQuestions = Array.isArray(payload)
+        ? payload
+        : Array.isArray(payload?.questions)
+            ? payload.questions
+            : [];
 
     return sourceQuestions.flatMap((question) => {
         if (Array.isArray(question.blanks) && question.blanks.length > 0) {
@@ -140,14 +144,23 @@ const normalizeQuizQuestions = (payload) => {
         }
 
         let options = [];
-        let correct = question.correct || 0;
+        let correct = typeof question.correct === 'number' ? question.correct : 0;
         if (question.options && typeof question.options === 'object' && !Array.isArray(question.options)) {
             options = Object.values(question.options);
             if (question.answer) {
                 correct = ['A', 'B', 'C', 'D'].indexOf(question.answer.toUpperCase());
             }
         } else {
-            options = (question.options || []).map((option) => option.text || option);
+            options = (question.options || []).map((option) => (
+                typeof option === 'string' ? option : option.text || option.option_text || ''
+            ));
+        }
+
+        if (question.correct_answer !== undefined && options.length > 0) {
+            const found = options.findIndex(
+                (opt) => String(opt).trim().toLowerCase() === String(question.correct_answer).trim().toLowerCase()
+            );
+            if (found !== -1) correct = found;
         }
 
         if (question.correct_tag !== undefined) {
@@ -160,13 +173,20 @@ const normalizeQuizQuestions = (payload) => {
 
         return [{
             id: question.id || question.question_id || question._id || String(Math.random()),
-            text: question.question || question.text || question.statement || question.passage || 'Question',
+            text: question.question || question.text || question.statement || question.stem || question.passage || 'Question',
             passage: question.passage || '',
             boxWords: question.boxWords || [],
             blankId: question.blankId || null,
             options,
             correct,
-            explanation: question.explanation_bn || question.explanation || '',
+            explanation: (() => {
+                const explanationBn = question.explanation_bn || question.explanationBn || '';
+                const explanationEn = question.explanation_en || question.explanationEn || '';
+                if (explanationBn && explanationEn) {
+                    return `বাংলা ব্যাখ্যা:\n${explanationBn}\n\nEnglish Explanation:\n${explanationEn}`;
+                }
+                return explanationBn || explanationEn || question.explanation || '';
+            })(),
             difficulty: question.difficulty || 'medium'
         }];
     });

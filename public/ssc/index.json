@@ -33,6 +33,11 @@
               "id": "ssc_tag_questions",
               "name": "Tag Questions",
               "file": "/ssc/english/tag_questions.json"
+            },
+            {
+              "id": "ssc_substitution_table",
+              "name": "Substitution Table",
+              "file": "/ssc/english/substitution_table.json"
             }
           ]
         }

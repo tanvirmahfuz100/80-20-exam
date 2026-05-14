@@ -100,23 +100,56 @@ const toQuestionRecord = (questionFile, chapter) => {
     const exam_category = (parts[0] || 'IBA').toUpperCase();
     const exam_type = chapter?.topic || chapter?.subject || 'General';
 
-    const sourceQuestions = Array.isArray(questionFile.questions)
-        ? questionFile.questions
-        : Array.isArray(questionFile.passages)
-            ? questionFile.passages
-            : [];
+    const sourceQuestions = Array.isArray(questionFile)
+        ? questionFile
+        : Array.isArray(questionFile.questions)
+            ? questionFile.questions
+            : Array.isArray(questionFile.passages)
+                ? questionFile.passages
+                : [];
 
     return sourceQuestions.map((q) => ({
-        id: q.id,
-        question_text: q.text || q.passage_text || q.title || '',
+        id: q.id || q.question_id || q._id,
+        question_text: q.text || q.question || q.statement || q.stem || q.passage_text || q.title || '',
         difficulty: q.difficulty || 'medium',
         exam_category,
         exam_type,
-        options: (q.options || []).map((optionText, idx) => ({
-            id: `${q.id}_${idx}`,
-            option_text: optionText,
-            is_correct: idx === q.correct
-        })),
+        options: (() => {
+            const optionTexts = (q.options || []).map((option) => (
+                typeof option === 'string' ? option : option.text || option.option_text || ''
+            ));
+
+            let correctIndex = typeof q.correct === 'number' ? q.correct : -1;
+            if (q.correct_answer !== undefined) {
+                correctIndex = optionTexts.findIndex(
+                    (optionText) => String(optionText).trim().toLowerCase() === String(q.correct_answer).trim().toLowerCase()
+                );
+            }
+            if (correctIndex === -1 && q.correct_tag !== undefined) {
+                correctIndex = optionTexts.findIndex(
+                    (optionText) => String(optionText).trim().toLowerCase() === String(q.correct_tag).trim().toLowerCase()
+                );
+            }
+            if (correctIndex === -1 && optionTexts.length > 0) correctIndex = 0;
+
+            return optionTexts.map((optionText, idx) => ({
+                id: `${q.id || q.question_id || q._id || 'q'}_${idx}`,
+                text: optionText,
+                option_text: optionText,
+                isCorrect: idx === correctIndex,
+                is_correct: idx === correctIndex
+            }));
+        })(),
+        explanation_bn: q.explanation_bn || q.explanationBn || '',
+        explanation_en: q.explanation_en || q.explanationEn || '',
+        explanation: (() => {
+            const explanationBn = q.explanation_bn || q.explanationBn || '';
+            const explanationEn = q.explanation_en || q.explanationEn || '';
+            if (explanationBn && explanationEn) {
+                return `বাংলা ব্যাখ্যা:\n${explanationBn}\n\nEnglish Explanation:\n${explanationEn}`;
+            }
+            return explanationBn || explanationEn || q.explanation || '';
+        })(),
         source_tags: [questionFile.subject, questionFile.topic, questionFile.chapter].filter(Boolean)
     }));
 };
