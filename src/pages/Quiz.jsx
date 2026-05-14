@@ -31,24 +31,59 @@ const stripMath = (text) => {
     .replace(/\\therefore/g, '∴');
 };
 
+const formatMath = (text) => {
+  return text
+    .replace(/\$(.*?)\$/g, '<span class="inline-flex items-center px-1.5 py-0.5 bg-primary/10 border border-primary/20 rounded-md math-font text-primary font-bold text-sm leading-relaxed">$1</span>')
+    .replace(/\\frac\{([^}]*)\}\{([^}]*)\}/g, '<span class="math-font text-primary font-semibold">$1</span><span class="text-white/30 mx-0.5">/</span><span class="math-font text-primary font-semibold">$2</span>')
+    .replace(/\\sqrt\{([^}]*)\}/g, '<span class="math-font text-primary font-semibold">√$1</span>')
+    .replace(/\\cdot/g, '<span class="text-white/40">·</span>')
+    .replace(/\\Rightarrow/g, '<span class="text-primary/60 font-bold mx-1">→</span>')
+    .replace(/\\implies/g, '<span class="text-primary/60 font-bold mx-1">⇒</span>')
+    .replace(/\\therefore/g, '<span class="text-primary/60 mx-1">∴</span>')
+    .replace(/\\times/g, '<span class="text-white/40 mx-0.5">×</span>')
+    .replace(/\\approx/g, '<span class="text-white/40 mx-0.5">≈</span>')
+    .replace(/\\neq/g, '<span class="text-white/40 mx-0.5">≠</span>')
+    .replace(/\\ge/g, '<span class="text-white/40 mx-0.5">≥</span>')
+    .replace(/\\le/g, '<span class="text-white/40 mx-0.5">≤</span>')
+    .replace(/\*\*(.*?)\*\*/g, '<span class="text-primary font-bold">$1</span>');
+};
+
 const formatExplanation = (text) => {
   if (!text) return '';
-  return text
-    .replace(/<script.*?>.*?<\/script>/gi, '')
-    .replace(/\$(.*?)\$/g, '<span class="text-primary font-semibold font-mono">$1</span>')
-    .replace(/\\frac\{([^}]*)\}\{([^}]*)\}/g, '<span class="text-primary font-semibold font-mono">$1</span><span class="text-white/30 mx-0.5">/</span><span class="text-primary font-semibold font-mono">$2</span>')
-    .replace(/\\sqrt\{([^}]*)\}/g, '<span class="text-primary font-semibold font-mono">√$1</span>')
-    .replace(/\\cdot/g, '<span class="text-white/50">·</span>')
-    .replace(/\\Rightarrow/g, '<span class="text-white/50">→</span>')
-    .replace(/\\implies/g, '<span class="text-white/50">⇒</span>')
-    .replace(/\\therefore/g, '<span class="text-white/50">∴</span>')
-    .replace(/\\times/g, '<span class="text-white/50">×</span>')
-    .replace(/\\approx/g, '<span class="text-white/50">≈</span>')
-    .replace(/\\neq/g, '<span class="text-white/50">≠</span>')
-    .replace(/\\ge/g, '<span class="text-white/50">≥</span>')
-    .replace(/\\le/g, '<span class="text-white/50">≤</span>')
-    .replace(/\*\*(.*?)\*\*/g, '<span class="text-primary font-bold">$1</span>')
-    .replace(/\n/g, '<br/>');
+
+  const clean = text.replace(/<script.*?>.*?<\/script>/gi, '');
+  if (!clean.trim()) return '';
+
+  const rawSteps = clean.split(/(\\Rightarrow|\\implies|⇒|→|\\n|\n)/g);
+
+  const segments = [];
+  for (let i = 0; i < rawSteps.length; i++) {
+    if (i % 2 === 0) {
+      const t = rawSteps[i].trim();
+      if (t) segments.push(t);
+    } else {
+      const sep = rawSteps[i];
+      const next = (rawSteps[i + 1] || '').trim();
+      if (next || segments.length > 0) {
+        segments.push(sep + ' ' + next);
+        i++;
+      } else {
+        segments.push(sep);
+      }
+    }
+  }
+
+  return segments
+    .map((seg, idx) => {
+      let formatted = formatMath(seg).trim();
+      if (!formatted) return '';
+      return `<div class="flex items-start gap-2.5 py-2 ${idx > 0 ? 'border-t border-white/5' : ''}">
+        <span class="inline-flex items-center justify-center w-5 h-5 rounded-md bg-primary/15 text-primary math-font text-[10px] font-black shrink-0 mt-0.5 select-none">${idx + 1}</span>
+        <span class="bn-text text-white/80 text-sm leading-relaxed min-w-0 flex-1">${formatted}</span>
+      </div>`;
+    })
+    .filter(Boolean)
+    .join('');
 };
 
 const normalizeQuizQuestions = (payload) => {
@@ -495,10 +530,10 @@ const Quiz = () => {
             </div>
 
             <div className="flex items-center gap-3 mt-2 shrink-0">
-                <div className="flex-1 h-1.5 bg-white/5 rounded-full overflow-hidden">
-                    <div className="h-full bg-primary transition-all duration-500 rounded-full" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }} />
+                <div className="flex-1 h-3 bg-white/10 rounded-full overflow-hidden shadow-inner ring-1 ring-white/5">
+                    <div className="h-full bg-gradient-to-r from-primary to-primary/70 transition-all duration-500 rounded-full shadow-lg shadow-primary/20" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }} />
                 </div>
-                <span className="text-white/40 font-black text-[11px] md:text-sm tracking-tighter shrink-0">{currentIndex + 1}/{questions.length}</span>
+                <span className="text-white/60 font-black text-xs md:text-sm tracking-tighter shrink-0 tabular-nums">{currentIndex + 1}/{questions.length}</span>
             </div>
 
             <div className="flex-1 flex flex-col min-h-0 mt-3 md:mt-4">
@@ -609,15 +644,15 @@ const Quiz = () => {
                                     className="absolute inset-0 flex flex-col"
                                 >
                                     {isCurrentCorrect ? (
-                                        <div className="flex-1 flex flex-col bg-emerald-500/10 border border-emerald-500/30 rounded-2xl p-4">
-                                            <div className="flex items-center gap-2 mb-2 shrink-0">
+                                        <div className="flex-1 flex flex-col bg-emerald-500/[0.07] border border-emerald-500/20 rounded-2xl p-4 gap-3">
+                                            <div className="flex items-center gap-2 shrink-0">
                                                 <CheckCircle className="w-5 h-5 text-emerald-400 shrink-0" />
                                                 <h4 className="text-emerald-400 font-black text-sm uppercase tracking-wider">Correct!</h4>
                                             </div>
                                             <div
-                                                className="flex-1 overflow-y-auto text-white/80 text-sm leading-relaxed font-medium min-h-0"
+                                                className="flex-1 overflow-y-auto min-h-0 space-y-1 -mx-1 px-1"
                                                 dangerouslySetInnerHTML={{
-                                                    __html: formatExplanation(currentQ.explanation) || 'Well done!'
+                                                    __html: formatExplanation(currentQ.explanation) || '<p class="text-white/60 text-sm">Well done!</p>'
                                                 }}
                                             />
                                             {currentQ.explanation_video_url && (
@@ -625,7 +660,7 @@ const Quiz = () => {
                                                     href={currentQ.explanation_video_url}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="mt-2 inline-flex items-center gap-1.5 text-emerald-400/70 hover:text-emerald-400 text-[9px] font-black uppercase tracking-widest transition-colors shrink-0"
+                                                    className="inline-flex items-center gap-1.5 text-emerald-400/70 hover:text-emerald-400 text-[9px] font-black uppercase tracking-widest transition-colors shrink-0"
                                                 >
                                                     <Video className="w-3 h-3" />
                                                     Watch Video Breakdown
@@ -633,14 +668,14 @@ const Quiz = () => {
                                             )}
                                             <button
                                                 onClick={handleNext}
-                                                className="w-full mt-3 py-3 bg-emerald-500 text-black rounded-xl font-black uppercase tracking-widest text-[10px] shrink-0 active:scale-[0.98] transition-all hover:bg-emerald-400"
+                                                className="w-full py-3 bg-emerald-500 text-black rounded-xl font-black uppercase tracking-widest text-[10px] shrink-0 active:scale-[0.98] transition-all hover:bg-emerald-400"
                                             >
                                                 {currentIndex < questions.length - 1 ? 'Continue' : 'Finish Lesson'}
                                             </button>
                                         </div>
                                     ) : (
-                                        <div className="flex-1 flex flex-col bg-yellow-500/10 border border-yellow-500/30 rounded-2xl p-4">
-                                            <div className="flex items-center gap-2 mb-2 shrink-0">
+                                        <div className="flex-1 flex flex-col bg-yellow-500/[0.07] border border-yellow-500/20 rounded-2xl p-4 gap-3">
+                                            <div className="flex items-center gap-2 shrink-0">
                                                 <motion.div
                                                     animate={{ scale: [1, 1.2, 1], rotate: [0, 8, -8, 0] }}
                                                     transition={{ duration: 0.7, repeat: Infinity, repeatDelay: 2 }}
@@ -651,23 +686,28 @@ const Quiz = () => {
                                                 </motion.div>
                                                 <h4 className="text-yellow-300 font-black text-sm uppercase tracking-wider">Keep going!</h4>
                                             </div>
-                                            <div className="flex-1 overflow-y-auto min-h-0 space-y-2">
-                                                <p className="text-white/80 text-xs font-medium leading-relaxed">
-                                                    Mistakes are opportunities to learn. A star has been added to your balance — review it to collect.
-                                                </p>
-                                                <p className="text-white/90 text-sm font-medium">
-                                                    Correct answer: <span className="font-bold text-yellow-300">{stripMath(correctAnswerText)}</span>
-                                                </p>
-                                                <div
-                                                    className="text-white/70 text-sm leading-relaxed font-medium"
-                                                    dangerouslySetInnerHTML={{
-                                                        __html: formatExplanation(currentQ.explanation) || ''
-                                                    }}
-                                                />
+
+                                            <div className="flex flex-wrap items-center gap-2 shrink-0">
+                                                <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-yellow-500/15 border border-yellow-500/25">
+                                                    <CheckCircle className="w-3 h-3 text-yellow-300 shrink-0" />
+                                                    <span className="text-[9px] font-black uppercase tracking-wider text-yellow-300/60">Correct answer:</span>
+                                                    <span className="math-font text-yellow-300 font-bold text-sm">{stripMath(correctAnswerText)}</span>
+                                                </div>
                                             </div>
+
+                                            <p className="text-white/60 text-xs font-medium leading-relaxed shrink-0">
+                                                Mistakes are opportunities to learn. A star has been added to your balance — review it to collect.
+                                            </p>
+
+                                            <div className="flex-1 overflow-y-auto min-h-0 space-y-1 -mx-1 px-1"
+                                                dangerouslySetInnerHTML={{
+                                                    __html: formatExplanation(currentQ.explanation) || ''
+                                                }}
+                                            />
+
                                             <button
                                                 onClick={handleNext}
-                                                className="w-full mt-3 py-3 bg-yellow-500 text-black rounded-xl font-black uppercase tracking-widest text-[10px] shrink-0 active:scale-[0.98] transition-all hover:bg-yellow-400"
+                                                className="w-full py-3 bg-yellow-500 text-black rounded-xl font-black uppercase tracking-widest text-[10px] shrink-0 active:scale-[0.98] transition-all hover:bg-yellow-400"
                                             >
                                                 Got it
                                             </button>
