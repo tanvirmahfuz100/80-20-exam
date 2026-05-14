@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import AnimatedTextCycle from '@/components/ui/animated-text-cycle.jsx';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Star, ShieldCheck, Zap, BookOpen, GraduationCap, Users } from 'lucide-react';
 const Landing = () => {
@@ -12,7 +13,7 @@ const Landing = () => {
                         Master Any Competitive Exam
                     </div>
                     <h1 className="text-6xl md:text-8xl font-black italic tracking-tighter leading-[0.9] uppercase">
-                        The free, fun, and <span className="text-primary not-italic">effective</span> way to ace competitive exams!
+                        The free, fun, and <span className="text-primary not-italic">effective</span> way to ace competitive <span className="inline-block align-middle"><AnimatedTextCycle words={["exams","assessments","tests","quizzes"]} interval={3000} className="text-primary"/></span>!
                     </h1>
                     <p className="text-white/40 text-lg md:text-2xl font-medium leading-relaxed max-w-3xl mx-auto">
                         Join thousands of students preparing for IBA, BCS, SSC, SAT, GRE, and more with our bite-sized lessons and <span className="text-white font-bold">50,000+ practice questions</span> covering Math, English, and Analytical reasoning.
