@@ -441,6 +441,7 @@ const Quiz = () => {
     const selectedOriginalIdx = isAnswered && selectedOption !== null ? shuffledOptions?.[selectedOption]?.originalIdx : -1;
     const isCurrentCorrect = selectedOriginalIdx === currentQ?.correct;
     const correctAnswerText = shuffledOptions?.find(o => o.originalIdx === currentQ?.correct)?.text;
+    const isManyOptions = (shuffledOptions?.length || 0) >= 5;
 
     return (
         <div className="max-w-3xl mx-auto h-dvh flex flex-col overflow-hidden px-4 md:px-0">
@@ -541,7 +542,7 @@ const Quiz = () => {
                         )}
                     </div>
 
-                    <h3 className="font-black text-white leading-tight mb-2 selection:bg-primary/30 tracking-tight text-[15px] md:text-lg lg:text-xl line-clamp-2 shrink-0">
+                    <h3 className="font-black text-white leading-tight mb-2 selection:bg-primary/30 tracking-tight text-[15px] md:text-lg lg:text-xl max-h-[25vh] overflow-y-auto">
                         {stripMath(currentQ.text)}
                     </h3>
 
@@ -554,7 +555,7 @@ const Quiz = () => {
                                     animate={{ opacity: 1 }}
                                     exit={{ opacity: 0, x: -30 }}
                                     transition={{ duration: 0.2 }}
-                                    className="absolute inset-0 flex flex-col justify-center space-y-2"
+                                    className={`absolute inset-0 flex flex-col justify-center ${isManyOptions ? 'space-y-1.5' : 'space-y-2'}`}
                                 >
                                     {shuffledOptions && shuffledOptions.map((option, idx) => {
                                         let state = 'idle';
@@ -571,14 +572,14 @@ const Quiz = () => {
                                                 key={idx}
                                                 disabled={isAnswered}
                                                 onClick={(e) => handleOptionSelect(idx, e)}
-                                                className={`w-full text-left px-3 md:px-4 py-2.5 md:py-3 rounded-xl md:rounded-2xl border-2 transition-all flex items-center justify-between group/opt active:scale-[0.99] ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-lg shadow-emerald-500/5' :
+                                                className={`w-full text-left ${isManyOptions ? 'px-2 md:px-3 py-1.5 md:py-2' : 'px-3 md:px-4 py-2.5 md:py-3'} rounded-xl md:rounded-2xl border-2 transition-all flex items-center justify-between group/opt active:scale-[0.99] ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-lg shadow-emerald-500/5' :
                                                     state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300 shadow-lg shadow-yellow-500/5' :
                                                         state === 'selected' ? 'bg-primary/20 border-primary text-white shadow-2xl shadow-primary/20 scale-[1.01]' :
                                                             state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30 scale-[0.98]' :
                                                                 'bg-white/[0.07] border-white/10 text-white/60 hover:border-white/30 hover:bg-white/[0.12] hover:text-white hover:shadow-lg hover:shadow-white/5'
                                                     }`}
                                             >
-                                                <div className="flex items-center gap-2 md:gap-3">
+                                                <div className={`flex items-center ${isManyOptions ? 'gap-1.5 md:gap-2' : 'gap-2 md:gap-3'}`}>
                                                     <span className={`w-6 h-6 md:w-7 md:h-7 rounded-lg md:rounded-xl flex items-center justify-center text-[10px] md:text-xs font-black border transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
                                                         state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
                                                             state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
