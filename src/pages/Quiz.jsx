@@ -757,7 +757,7 @@ const Quiz = () => {
                                 )}
                             </div>
 
-                            <h3 className="font-black text-white leading-tight mb-1.5 selection:bg-primary/30 tracking-tight text-sm md:text-lg lg:text-xl max-h-[15vh] md:max-h-[25vh] overflow-y-auto">
+                            <h3 className="font-black text-white leading-tight mb-1.5 selection:bg-primary/30 tracking-tight text-sm md:text-lg lg:text-xl max-h-[20vh] md:max-h-[25vh] overflow-y-auto">
                                 {stripMath(currentQ.text)}
                             </h3>
 
@@ -829,7 +829,7 @@ const Quiz = () => {
                                                         <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-emerald-400 shrink-0" />
                                                         <h4 className="text-emerald-400 font-black text-xs md:text-sm uppercase tracking-wider">Correct!</h4>
                                                     </div>
-                                                     <div className="flex-1 overflow-y-auto min-h-0 space-y-2 -mx-1 px-1 text-xs md:text-sm">
+                                                    <div className="flex-1 overflow-y-auto min-h-0 space-y-2 -mx-1 px-1 text-xs md:text-sm">
                                                           {currentQ.explanation_bn && (
                                                               <div>
                                                                   <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
