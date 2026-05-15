@@ -44,33 +44,33 @@ const QuestionBank = () => {
 
     return (
         <div className="max-w-7xl mx-auto space-y-6 md:space-y-10">
-            <div className="bg-surface border border-white/5 p-6 md:p-12 rounded-2xl md:rounded-[3rem] shadow-lg relative overflow-hidden">
-                <div className="relative z-10 max-w-3xl space-y-6 md:space-y-8">
+            <div className="bg-surface border border-white/5 p-4 md:p-12 rounded-2xl md:rounded-[3rem] shadow-lg relative overflow-hidden">
+                <div className="relative z-10 max-w-3xl space-y-4 md:space-y-8">
                     <div>
-                        <h1 className="text-3xl md:text-5xl font-black text-white tracking-tighter">BRAIN <span className="text-primary uppercase">SEARCH.</span></h1>
-                        <p className="text-white/30 font-bold uppercase tracking-widest text-[10px] mt-2">Explore 50,000+ archived questions with deep insights</p>
+                        <h1 className="text-2xl md:text-5xl font-black text-white tracking-tighter">BRAIN <span className="text-primary uppercase">SEARCH.</span></h1>
+                        <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-[10px] mt-1 md:mt-2">Explore 50,000+ archived questions with deep insights</p>
                     </div>
 
-                    <div className="flex flex-col md:flex-row gap-3 md:gap-4">
+                    <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
                         <div className="flex-1 relative group">
-                            <Search className="absolute left-4 md:left-5 top-1/2 -translate-y-1/2 w-4 h-4 md:w-5 md:h-5 text-white/20 group-focus-within:text-primary transition-colors" />
+                            <Search className="absolute left-3 md:left-5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 md:w-5 md:h-5 text-white/20 group-focus-within:text-primary transition-colors" />
                             <input
                                 type="text"
                                 placeholder="Search by keywords, years, or topics..."
                                 value={searchTerm}
                                 onChange={(e) => setSearchTerm(e.target.value)}
-                                className="w-full bg-background border border-white/5 pl-10 md:pl-14 pr-4 md:pr-6 py-4 md:py-5 rounded-xl md:rounded-2xl text-white outline-none focus:border-primary/50 transition-all font-medium text-sm"
+                                className="w-full bg-background border border-white/5 pl-9 md:pl-14 pr-3 md:pr-6 py-3 md:py-5 rounded-lg md:rounded-2xl text-white outline-none focus:border-primary/50 transition-all font-medium text-sm"
                             />
                         </div>
-                        <button className="px-6 md:px-8 py-4 md:py-5 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] shadow-lg shadow-primary/20 transition-all flex items-center justify-center gap-2 active:scale-95 shrink-0">
+                        <button className="px-4 md:px-8 py-3 md:py-5 bg-primary hover:bg-primary-hover text-white rounded-lg md:rounded-2xl font-black uppercase tracking-widest text-[10px] shadow-lg shadow-primary/20 transition-all flex items-center justify-center gap-2 active:scale-95 shrink-0">
                             Search Now
                         </button>
                     </div>
 
-                    <div className="flex flex-wrap gap-2 md:gap-3">
+                    <div className="flex flex-wrap gap-1.5 md:gap-3">
                         {['Exam Category', 'Difficulty', 'Subject', 'Topic', 'Year'].map(label => (
-                            <button key={label} className="px-3 md:px-4 py-2 bg-white/5 border border-white/5 rounded-xl text-[9px] font-black uppercase tracking-widest text-white/40 hover:text-white hover:border-white/20 transition-all flex items-center gap-2">
-                                <Filter className="w-3 h-3" /> {label}
+                            <button key={label} className="px-2.5 md:px-4 py-1.5 md:py-2 bg-white/5 border border-white/5 rounded-lg md:rounded-xl text-[8px] md:text-[9px] font-black uppercase tracking-widest text-white/40 hover:text-white hover:border-white/20 transition-all flex items-center gap-1.5 md:gap-2">
+                                <Filter className="w-2.5 h-2.5 md:w-3 md:h-3" /> {label}
                             </button>
                         ))}
                     </div>

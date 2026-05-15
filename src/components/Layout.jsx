@@ -209,13 +209,13 @@ const NotificationCenter = () => {
 const MobileBottomNav = () => {
     return (
         <nav className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-surface/95 backdrop-blur-xl border-t border-white/10 safe-bottom">
-            <div className="flex items-center justify-around py-2 px-2">
+            <div className="flex items-center justify-around py-2 px-1 max-w-full mx-auto">
                 {navItems.map((item) => (
                     <NavLink
                         key={item.path}
                         to={item.path}
                         className={({ isActive }) =>
-                            `flex flex-col items-center gap-0.5 px-3 py-1.5 rounded-xl transition-all relative ${isActive
+                            `flex flex-col items-center gap-0.5 px-1.5 py-1.5 rounded-xl transition-all relative ${isActive
                                 ? 'text-primary'
                                 : 'text-white/30'
                             }`
@@ -223,12 +223,12 @@ const MobileBottomNav = () => {
                     >
                         {({ isActive }) => (
                             <>
-                                <div className={`p-1.5 rounded-lg transition-all ${isActive ? 'bg-primary/15' : ''}`}>
-                                    <item.icon className={`w-5 h-5 transition-all ${isActive ? 'fill-primary/10' : ''}`} />
+                                <div className={`p-1 rounded-lg transition-all ${isActive ? 'bg-primary/15' : ''}`}>
+                                    <item.icon className={`w-4 h-5 transition-all ${isActive ? 'fill-primary/10' : ''}`} />
                                 </div>
-                                <span className="text-[9px] font-black uppercase tracking-wider">{item.label}</span>
+                                <span className="text-[8px] font-black uppercase tracking-tight">{item.label}</span>
                                 {isActive && (
-                                    <span className="absolute -top-0.5 left-1/2 -translate-x-1/2 w-8 h-0.5 bg-primary rounded-full" />
+                                    <span className="absolute -top-0.5 left-1/2 -translate-x-1/2 w-6 h-0.5 bg-primary rounded-full" />
                                 )}
                             </>
                         )}
@@ -277,19 +277,19 @@ const Layout = ({ children }) => {
     })();
 
     return (
-        <div className="min-h-screen bg-background text-text selection:bg-primary/30 pb-16 md:pb-0">
+        <div className="min-h-screen bg-background text-text selection:bg-primary/30 pb-16 md:pb-0 overflow-x-hidden max-w-full">
             {!hideLayout && <Sidebar isOpen={sidebarOpen} toggle={() => setSidebarOpen(!sidebarOpen)} onOpenReport={() => setReportOpen(true)} />}
 
             <div className={`${!hideLayout ? 'md:ml-64' : ''} flex flex-col min-h-screen transition-all duration-500`}>
                 {!hideLayout && !isQuizPage && (
                     <header className="h-16 md:h-20 flex items-center justify-between px-4 md:px-10 border-b border-white/5 bg-background sticky top-0 z-30">
-                        <div className="flex items-center gap-3">
-                            <button onClick={() => setSidebarOpen(!sidebarOpen)} className="p-2.5 md:hidden text-white/40 hover:text-white bg-white/5 rounded-xl">
+                        <div className="flex items-center gap-3 min-w-0 flex-1">
+                            <button onClick={() => setSidebarOpen(!sidebarOpen)} className="p-2.5 md:hidden text-white/40 hover:text-white bg-white/5 rounded-xl shrink-0">
                                 <Menu className="w-5 h-5" />
                             </button>
-                            <div>
+                            <div className="min-w-0">
                                 <p className="hidden md:block text-[10px] font-black uppercase tracking-[0.3em] text-white/10">Now Learning</p>
-                                <h2 className="text-sm md:text-base font-black text-white tracking-tighter uppercase">{pageTitle}</h2>
+                                <h2 className="text-sm md:text-base font-black text-white tracking-tighter uppercase truncate">{pageTitle}</h2>
                             </div>
                         </div>
 
@@ -341,7 +341,7 @@ const Layout = ({ children }) => {
                     </header>
                 )}
 
-                <main className={`max-w-7xl mx-auto w-full flex-1 ${!hideLayout && !isQuizPage ? 'p-4 md:p-10' : ''} ${!hideLayout && isQuizPage ? 'p-4 md:p-6' : ''} ${isAuthPage ? 'flex items-center justify-center p-4 md:p-10' : ''}`}>
+                <main className={`max-w-7xl mx-auto w-full flex-1 ${!hideLayout && !isQuizPage ? 'p-4 md:p-10' : ''} ${!hideLayout && isQuizPage ? 'p-4 md:p-6' : ''} ${isAuthPage ? 'flex items-center justify-center p-4 md:p-6' : ''}`}>
                     {children}
                 </main>
             </div>

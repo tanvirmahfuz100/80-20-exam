@@ -44,12 +44,12 @@ const Courses = () => {
                     </p>
                 </div>
 
-                <div className="bg-surface border border-white/5 p-1.5 rounded-xl md:rounded-2xl flex gap-1 shadow-lg overflow-x-auto no-scrollbar">
+                <div className="bg-surface border border-white/5 p-1 rounded-xl md:rounded-2xl flex gap-1 shadow-lg overflow-x-auto no-scrollbar -mx-4 md:mx-0 px-4 md:px-0">
                     {categories.map(cat => (
                         <button
                             key={cat}
                             onClick={() => setFilter(cat)}
-                            className={`px-4 md:px-5 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all shrink-0 ${filter === cat ? 'bg-primary text-white shadow-lg' : 'text-white/20 hover:text-white/40'
+                            className={`px-3 md:px-5 py-1.5 md:py-2 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all shrink-0 ${filter === cat ? 'bg-primary text-white shadow-lg' : 'text-white/20 hover:text-white/40'
                                 }`}
                         >
                             {cat}
@@ -75,7 +75,7 @@ const Courses = () => {
                             )}
                         </div>
 
-                        <div className="p-6 md:p-8 flex-1 flex flex-col space-y-4">
+                        <div className="p-4 md:p-8 flex-1 flex flex-col space-y-3 md:space-y-4">
                             <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-primary/60">
                                 <span>{course.exam_category}</span>
                                 <span className="w-1 h-1 bg-white/10 rounded-full"></span>

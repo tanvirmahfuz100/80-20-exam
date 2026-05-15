@@ -41,9 +41,29 @@
   }
 
   body {
-    @apply bg-background text-text antialiased;
+    @apply bg-background text-text antialiased overflow-x-hidden;
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
     font-family: 'Nunito Sans', 'Noto Sans Bengali', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    width: 100%;
+    max-width: 100vw;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #root {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  img, video, svg, canvas, iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
+  * {
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
 
   ::selection {
@@ -112,5 +132,18 @@
 
   input:focus, select:focus, textarea:focus {
     @apply outline-none;
+  }
+}
+
+@layer utilities {
+  .max-w-screen-safe {
+    max-width: 100vw;
+  }
+  .overflow-x-safe {
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+  .text-balance {
+    text-wrap: balance;
   }
 }

@@ -185,7 +185,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
           <div className="flex flex-wrap items-center gap-1.5">
             <span className="text-[8px] font-black uppercase tracking-[0.2em] text-text-dim mr-0.5">Box:</span>
             {boxWords.map((word) => (
-              <span key={word} className="px-2 py-0.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-[9px] font-black uppercase tracking-widest">
+              <span key={word} className="px-1.5 md:px-2 py-0.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-[8px] md:text-[9px] font-black uppercase tracking-widest">
                 {word}
               </span>
             ))}

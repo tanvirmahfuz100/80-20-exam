@@ -98,14 +98,12 @@ const ChapterItem = ({ chapter, onClick, questionCount, completedCount }) => {
         <div className="flex flex-col gap-2.5 p-4 bg-surface border border-white/5 rounded-xl hover:border-primary/30 transition-all hover:bg-white/5 active:scale-[0.99]">
             <div className="flex items-center justify-between">
                 <div className="flex-1 min-w-0 pr-3">
-                    <h4 className="font-bold text-white text-sm truncate leading-tight mb-1">{chapter.name}</h4>
-                    <div className="flex items-center gap-2">
-                        <span className="text-[9px] font-black uppercase tracking-[0.1em] text-white/20">Learning Goal</span>
-                        <span className="w-1 h-1 rounded-full bg-white/10"></span>
+                    <h4 className="font-bold text-white text-sm truncate leading-tight">{chapter.name}</h4>
+                    <div className="flex items-center gap-1.5 mt-0.5">
                         {hasQuestions ? (
-                            <span className="text-[9px] font-black uppercase tracking-[0.1em] text-primary/50">{questionCount} Questions</span>
+                            <span className="text-[9px] font-bold text-primary/50">{questionCount} Questions</span>
                         ) : (
-                            <span className="text-[9px] font-black uppercase tracking-[0.1em] text-white/15">Coming Soon</span>
+                            <span className="text-[9px] font-bold text-white/15">Coming Soon</span>
                         )}
                     </div>
                 </div>
@@ -312,32 +310,32 @@ const PracticeConfig = () => {
 
     return (
         <div className="max-w-4xl mx-auto space-y-6">
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
-                <div>
-                    <h1 className="text-3xl md:text-5xl font-black text-white tracking-tighter mb-2">
+            <div className="flex flex-col md:flex-row md:items-end justify-between gap-3">
+                <div className="min-w-0 flex-1">
+                    <h1 className="text-2xl md:text-5xl font-black text-white tracking-tighter mb-1 md:mb-2">
                         LET'S <span className="text-primary">PRACTICE!</span>
                     </h1>
-                    <p className="text-white/30 font-bold uppercase tracking-widest text-[10px]">
+                    <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-[10px]">
                         Your progress is being saved locally for testing.
                     </p>
                     {selectedExam && (
-                        <p className="mt-1.5 text-[10px] font-black uppercase tracking-[0.3em] text-primary/70">
+                        <p className="mt-1 text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-primary/70 truncate">
                             Exam: {selectedExam.label} &bull; Version: {versionLabel}
                         </p>
                     )}
                 </div>
-                <div className="bg-surface border border-white/5 p-1 rounded-xl flex items-center gap-1 shadow-lg">
-                    <button onClick={() => setIsTimed(false)} className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${!isTimed ? 'bg-primary text-black shadow-lg shadow-primary/20' : 'text-white/20 hover:text-white/40'}`}>
+                <div className="bg-surface border border-white/5 p-0.5 md:p-1 rounded-lg md:rounded-xl flex items-center gap-0.5 md:gap-1 shadow-lg self-start md:self-end shrink-0">
+                    <button onClick={() => setIsTimed(false)} className={`flex items-center gap-1 md:gap-2 px-2.5 md:px-4 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${!isTimed ? 'bg-primary text-black shadow-lg shadow-primary/20' : 'text-white/20 hover:text-white/40'}`}>
                         Untimed
                     </button>
-                    <button onClick={() => setIsTimed(true)} className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${isTimed ? 'bg-primary text-black shadow-lg shadow-primary/20' : 'text-white/20 hover:text-white/40'}`}>
+                    <button onClick={() => setIsTimed(true)} className={`flex items-center gap-1 md:gap-2 px-2.5 md:px-4 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${isTimed ? 'bg-primary text-black shadow-lg shadow-primary/20' : 'text-white/20 hover:text-white/40'}`}>
                         <Timer className="w-3 h-3" />
-                        Timed Mode
+                        Timed
                     </button>
                 </div>
             </div>
 
-            <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.15em] py-3 px-4 bg-surface border border-white/5 rounded-xl">
+            <div className="flex items-center gap-1 md:gap-2 text-[10px] font-black uppercase tracking-[0.15em] py-2.5 md:py-3 px-3 md:px-4 bg-surface border border-white/5 rounded-xl overflow-x-auto no-scrollbar">
                 {steps.map((s, i) => (
                     <React.Fragment key={s.key}>
                         {i > 0 && <ChevronRight className="w-3 h-3 text-white/15" />}
@@ -357,7 +355,7 @@ const PracticeConfig = () => {
                     </React.Fragment>
                 ))}
                 {selectedSubject && (
-                    <span className="text-white/20 ml-auto hidden sm:inline text-[9px]">
+                    <span className="text-white/20 ml-auto hidden sm:inline text-[9px] truncate max-w-[120px] md:max-w-[200px]">
                         {selectedExam?.label} · {selectedSubject.name}
                     </span>
                 )}
@@ -426,14 +424,6 @@ const PracticeConfig = () => {
 
             {step === 2 && selectedSubject && (
                 <div className="space-y-4 animate-in slide-in-from-bottom-4 duration-500">
-                    <div className="flex items-center gap-3 px-4 py-3 bg-primary/8 border border-primary/15 rounded-xl">
-                        <div className="w-1 h-6 bg-primary rounded-full shrink-0"></div>
-                        <p className="text-sm font-bold text-white/80">
-                            <span className="text-primary">{selectedSubject.name}</span>
-                            {' · '}
-                            {selectedSubject.topics.map(t => t.name).join(', ')}
-                        </p>
-                    </div>
 
                     <div className="grid grid-cols-1 gap-6">
                         {selectedSubject.topics.map(topic => (
@@ -441,8 +431,6 @@ const PracticeConfig = () => {
                                 <div className="flex items-center gap-3 px-4 py-3 bg-white/[0.02] border border-white/[0.04] rounded-xl">
                                     <div className="w-1 h-6 bg-primary rounded-full shrink-0"></div>
                                     <h3 className="text-base font-black text-white tracking-tight uppercase">{topic.name}</h3>
-                                    <div className="flex-1"></div>
-                                    <span className="text-[9px] font-black text-primary/40 uppercase tracking-widest shrink-0">{topic.chapters.length} Units</span>
                                 </div>
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                                     {topic.chapters.length > 0 ? (

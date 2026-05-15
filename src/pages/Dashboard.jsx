@@ -95,16 +95,16 @@ const MetricPill = ({ icon: Icon, label, value, color }) => (
 const QuickActionCard = ({ icon: Icon, title, desc, path }) => (
     <Link
         to={path}
-        className="group flex items-center gap-3 md:gap-4 rounded-xl bg-surface p-3.5 md:p-5 transition-all hover:-translate-y-0.5 hover:bg-surface-hover active:scale-[0.98]"
+        className="group flex items-center gap-2 md:gap-4 rounded-xl bg-surface p-3 md:p-5 transition-all hover:-translate-y-0.5 hover:bg-surface-hover active:scale-[0.98]"
     >
-        <div className="flex h-10 w-10 md:h-12 md:w-12 shrink-0 items-center justify-center rounded-xl bg-primary/10 transition-transform group-hover:scale-110">
-            <Icon className="w-5 h-5 md:w-6 md:h-6 text-primary" />
+        <div className="flex h-9 w-9 md:h-12 md:w-12 shrink-0 items-center justify-center rounded-lg md:rounded-xl bg-primary/10 transition-transform group-hover:scale-110">
+            <Icon className="w-4 h-4 md:w-6 md:h-6 text-primary" />
         </div>
         <div className="min-w-0 flex-1">
-            <h4 className="text-xs md:text-sm font-black text-white group-hover:text-primary transition-colors">{title}</h4>
-            <p className="text-[10px] md:text-xs text-white/40 mt-0.5 leading-relaxed">{desc}</p>
+            <h4 className="text-[13px] md:text-sm font-black text-white group-hover:text-primary transition-colors truncate">{title}</h4>
+            <p className="text-[10px] md:text-xs text-white/40 mt-0.5 leading-relaxed truncate">{desc}</p>
         </div>
-        <ArrowRight className="w-4 h-4 text-white/20 shrink-0 group-hover:text-primary transition-colors" />
+        <ArrowRight className="w-3.5 h-3.5 md:w-4 md:h-4 text-white/20 shrink-0 group-hover:text-primary transition-colors" />
     </Link>
 );
 
@@ -221,12 +221,12 @@ const Dashboard = () => {
 
     return (
         <div className="space-y-5 md:space-y-8 pb-6 md:pb-10">
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-                <div>
-                    <h1 className="text-xl md:text-3xl font-black text-white tracking-tighter">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+                <div className="min-w-0 flex-1">
+                    <h1 className="text-lg md:text-3xl font-black text-white tracking-tighter">
                         {new Date().getHours() < 12 ? 'Good morning' : new Date().getHours() < 18 ? 'Good afternoon' : 'Good evening'}, <span className="text-primary">{username}</span>
                     </h1>
-                    <p className="text-xs md:text-sm text-white/40 font-medium mt-1">
+                    <p className="text-[11px] md:text-sm text-white/40 font-medium mt-0.5">
                         {hasEnoughData
                             ? 'Here\'s your performance overview. Keep the momentum going.'
                             : 'Start practicing to unlock your personalized dashboard.'}
@@ -234,10 +234,10 @@ const Dashboard = () => {
                 </div>
                 <Link
                     to="/practice"
-                    className="inline-flex items-center gap-2 self-start rounded-xl bg-primary px-5 py-3 text-[10px] font-black uppercase tracking-[0.2em] text-black transition-all hover:bg-primary-hover active:scale-95 shadow-lg shadow-primary/20 shrink-0"
+                    className="inline-flex items-center gap-2 self-start rounded-xl bg-primary px-4 py-2.5 md:px-5 md:py-3 text-[10px] font-black uppercase tracking-[0.2em] text-black transition-all hover:bg-primary-hover active:scale-95 shadow-lg shadow-primary/20 shrink-0"
                 >
                     Start Practice
-                    <ArrowRight className="w-3.5 h-3.5" />
+                    <ArrowRight className="w-3 h-3 md:w-3.5 md:h-3.5" />
                 </Link>
             </div>
 
@@ -257,24 +257,24 @@ const Dashboard = () => {
                         </h2>
 
                         <div className="rounded-2xl border border-white/5 bg-surface p-5 md:p-7 shadow-lg">
-                            <div className="flex flex-col sm:flex-row items-center gap-6 md:gap-10">
-                                <CircularProgress value={Math.round(Number(statsData.accuracy))} size={130} strokeWidth={9} className="shrink-0" />
-                                <div className="grid grid-cols-2 gap-3 w-full">
-                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-3.5 md:p-4 text-center">
-                                        <p className="text-2xl md:text-3xl font-black text-white tracking-tighter">{statsData.totalPracticed}</p>
-                                        <p className="text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Questions</p>
+                            <div className="flex flex-col sm:flex-row items-center gap-4 md:gap-10">
+                                <CircularProgress value={Math.round(Number(statsData.accuracy))} size={100} strokeWidth={8} className="shrink-0 md:size-[130px]" />
+                                <div className="grid grid-cols-2 gap-2 md:gap-3 w-full">
+                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-2.5 md:p-4 text-center">
+                                        <p className="text-lg md:text-3xl font-black text-white tracking-tighter">{statsData.totalPracticed}</p>
+                                        <p className="text-[8px] md:text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Questions</p>
                                     </div>
-                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-3.5 md:p-4 text-center">
-                                        <p className="text-2xl md:text-3xl font-black text-emerald-400 tracking-tighter">{statsData.correctOnes}</p>
-                                        <p className="text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Correct</p>
+                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-2.5 md:p-4 text-center">
+                                        <p className="text-lg md:text-3xl font-black text-emerald-400 tracking-tighter">{statsData.correctOnes}</p>
+                                        <p className="text-[8px] md:text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Correct</p>
                                     </div>
-                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-3.5 md:p-4 text-center">
-                                        <p className="text-2xl md:text-3xl font-black text-red-400 tracking-tighter">{statsData.wrongOnes}</p>
-                                        <p className="text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Wrong</p>
+                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-2.5 md:p-4 text-center">
+                                        <p className="text-lg md:text-3xl font-black text-red-400 tracking-tighter">{statsData.wrongOnes}</p>
+                                        <p className="text-[8px] md:text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Wrong</p>
                                     </div>
-                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-3.5 md:p-4 text-center">
-                                        <p className="text-2xl md:text-3xl font-black text-cyan-400 tracking-tighter">{statsData.totalTimeInMinutes}m</p>
-                                        <p className="text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Time spent</p>
+                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-2.5 md:p-4 text-center">
+                                        <p className="text-lg md:text-3xl font-black text-cyan-400 tracking-tighter">{statsData.totalTimeInMinutes}m</p>
+                                        <p className="text-[8px] md:text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Time spent</p>
                                     </div>
                                 </div>
                             </div>
@@ -354,19 +354,19 @@ const Dashboard = () => {
                                         const subject = subjectFromPath(item.source_file);
                                         const xp = item.correct_answers * 10;
                                         return (
-                                            <div key={item.id} className="flex items-center justify-between gap-3 p-4 md:p-5 transition-colors hover:bg-white/[0.02]">
-                                                <div className="flex min-w-0 items-center gap-3 md:gap-4">
-                                                    <div className="flex h-10 w-10 md:h-12 md:w-12 shrink-0 items-center justify-center rounded-xl border border-white/5 bg-white/5 text-sm md:text-lg font-black tracking-tighter text-primary">
+                                            <div key={item.id} className="flex items-center justify-between gap-2 p-3 md:p-5 transition-colors hover:bg-white/[0.02]">
+                                                <div className="flex min-w-0 items-center gap-2 md:gap-4">
+                                                    <div className="flex h-8 w-8 md:h-12 md:w-12 shrink-0 items-center justify-center rounded-lg md:rounded-xl border border-white/5 bg-white/5 text-xs md:text-lg font-black tracking-tighter text-primary">
                                                         {subject[0]}
                                                     </div>
                                                     <div className="min-w-0">
-                                                        <h4 className="truncate text-sm md:text-base font-black text-white tracking-tight">{item.chapter_title}</h4>
-                                                        <p className="text-[9px] font-black uppercase tracking-[0.15em] text-white/20">{subject} &bull; {timeAgo(item.created_at)}</p>
+                                                        <h4 className="truncate text-xs md:text-base font-black text-white tracking-tight">{item.chapter_title}</h4>
+                                                        <p className="text-[8px] md:text-[9px] font-black uppercase tracking-[0.15em] text-white/20 truncate">{subject} &bull; {timeAgo(item.created_at)}</p>
                                                     </div>
                                                 </div>
                                                 <div className="shrink-0 text-right">
-                                                    <span className="block text-base md:text-xl font-black tracking-tighter text-white">{item.correct_answers}/{item.total_questions}</span>
-                                                    <span className="text-[8px] font-black uppercase tracking-[0.15em] text-reward">+{xp} XP</span>
+                                                    <span className="block text-sm md:text-xl font-black tracking-tighter text-white">{item.correct_answers}/{item.total_questions}</span>
+                                                    <span className="text-[7px] md:text-[8px] font-black uppercase tracking-[0.15em] text-reward">+{xp} XP</span>
                                                 </div>
                                             </div>
                                         );

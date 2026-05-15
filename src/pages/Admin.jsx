@@ -61,10 +61,10 @@ const Admin = () => {
     };
 
     return (
-        <div className="max-w-5xl mx-auto space-y-6 md:space-y-8">
+        <div className="max-w-5xl mx-auto space-y-4 md:space-y-8">
             <div>
-                <h1 className="text-2xl md:text-4xl font-black text-white tracking-tighter uppercase">Local Admin Studio</h1>
-                <p className="text-white/30 font-bold uppercase tracking-widest text-[10px] mt-2">Testing mode: all writes go to browser localStorage</p>
+                <h1 className="text-xl md:text-4xl font-black text-white tracking-tighter uppercase">Local Admin Studio</h1>
+                <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-[10px] mt-1 md:mt-2">Testing mode: all writes go to browser localStorage</p>
             </div>
 
             {message.text && (

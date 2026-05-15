@@ -64,7 +64,7 @@ const MockTests = () => {
                     </div>
                 </div>
 
-                <div className="relative z-10 w-full md:min-w-[280px] md:max-w-xs rounded-2xl border border-white/5 bg-surface/80 p-6 md:p-8 shadow-lg">
+                <div className="relative z-10 w-full md:min-w-[240px] md:max-w-xs rounded-2xl border border-white/5 bg-surface/80 p-4 md:p-8 shadow-lg">
                     <div className="mb-6 flex items-center justify-between">
                         <TrendingUp className="h-6 w-6 md:h-8 md:w-8 text-primary" />
                         <span className="text-[9px] font-black uppercase tracking-widest text-white/20">Global Rank</span>

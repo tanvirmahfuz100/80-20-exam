@@ -76,17 +76,17 @@ const Settings = () => {
 
     return (
         <div className="max-w-4xl mx-auto space-y-8 md:space-y-12">
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 md:gap-6">
-                <div>
-                    <h1 className="text-2xl md:text-4xl font-black text-white tracking-tighter uppercase mb-1">Profile Studio</h1>
-                    <p className="text-white/30 font-bold uppercase tracking-widest text-[10px]">Customize your learning experience</p>
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 md:gap-6">
+                <div className="min-w-0 flex-1">
+                    <h1 className="text-xl md:text-4xl font-black text-white tracking-tighter uppercase mb-1">Profile Studio</h1>
+                    <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-[10px]">Customize your learning experience</p>
                 </div>
                 <button
                     onClick={handleSave}
                     disabled={loading}
-                    className="inline-flex items-center gap-3 px-6 md:px-8 py-3 md:py-4 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-xl md:rounded-2xl font-black text-[10px] uppercase tracking-widest transition-all shadow-lg shadow-primary/20 active:scale-95"
+                    className="inline-flex items-center gap-2 md:gap-3 px-4 md:px-8 py-2.5 md:py-4 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-lg md:rounded-2xl font-black text-[10px] uppercase tracking-widest transition-all shadow-lg shadow-primary/20 active:scale-95 shrink-0"
                 >
-                    {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Save className="w-4 h-4" />}
+                    {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Save className="w-3.5 h-3.5 md:w-4 md:h-4" />}
                     Save Changes
                 </button>
             </div>

@@ -112,44 +112,44 @@ const Analytics = () => {
 
     return (
         <div className="max-w-7xl mx-auto space-y-8 md:space-y-12">
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 md:gap-8">
-                <div>
-                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter mb-3 md:mb-4 uppercase">
+            <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 md:gap-8">
+                <div className="min-w-0 flex-1">
+                    <h1 className="text-2xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter mb-2 md:mb-4 uppercase">
                         NEURAL <span className="text-primary">REPORT.</span>
                     </h1>
-                    <p className="text-white/30 font-bold uppercase tracking-widest text-[10px] flex items-center gap-2">
-                        <Activity className="w-3 h-3 text-emerald-500" /> Live Data Synchronization Active
+                    <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-[10px] flex items-center gap-2">
+                        <Activity className="w-3 h-3 text-emerald-500 shrink-0" /> Live Data Sync Active
                     </p>
                 </div>
 
-                <div className="bg-surface border border-white/5 p-5 md:p-6 rounded-2xl md:rounded-[2rem] flex items-center gap-4 md:gap-6 shadow-lg">
+                <div className="bg-surface border border-white/5 p-3 md:p-6 rounded-2xl md:rounded-[2rem] flex items-center gap-3 md:gap-6 shadow-lg shrink-0">
                     <div className="text-right">
-                        <p className="text-[10px] font-black uppercase tracking-widest text-white/30 mb-1">Overall Readiness</p>
-                        <h3 className="text-2xl md:text-3xl font-black text-white tracking-tighter">{readinessScore}%</h3>
+                        <p className="text-[9px] md:text-[10px] font-black uppercase tracking-widest text-white/30 mb-0.5">Readiness</p>
+                        <h3 className="text-xl md:text-3xl font-black text-white tracking-tighter">{readinessScore}%</h3>
                     </div>
-                    <div className="w-14 h-14 md:w-16 md:h-16 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center relative">
-                        <svg className="w-10 h-10 md:w-12 md:h-12 -rotate-90">
+                    <div className="w-10 h-10 md:w-16 md:h-16 rounded-xl md:rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center relative shrink-0">
+                        <svg className="w-7 h-7 md:w-12 md:h-12 -rotate-90">
                             <circle cx="24" cy="24" r="20" fill="transparent" stroke="currentColor" strokeWidth="4" className="text-white/5" />
                             <circle cx="24" cy="24" r="20" fill="transparent" stroke="currentColor" strokeWidth="4" className="text-primary" strokeDasharray={126} strokeDashoffset={126 - (126 * readinessScore) / 100} strokeLinecap="round" />
                         </svg>
-                        <Target className="absolute inset-0 m-auto w-3 h-3 md:w-4 md:h-4 text-primary" />
+                        <Target className="absolute inset-0 m-auto w-2.5 h-2.5 md:w-4 md:h-4 text-primary" />
                     </div>
                 </div>
 
-                <div className="flex flex-wrap gap-2 md:gap-3">
+                <div className="flex gap-2 md:gap-3 shrink-0">
                     <button
                         onClick={handleExportJson}
-                        className="px-4 md:px-5 py-3 rounded-xl md:rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 text-white text-[10px] font-black uppercase tracking-widest flex items-center gap-2 transition-all active:scale-95"
+                        className="px-3 md:px-5 py-2.5 md:py-3 rounded-lg md:rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 text-white text-[9px] md:text-[10px] font-black uppercase tracking-widest flex items-center gap-1.5 md:gap-2 transition-all active:scale-95"
                     >
-                        <Download className="w-4 h-4" />
+                        <Download className="w-3.5 h-3.5 md:w-4 md:h-4" />
                         <span className="hidden sm:inline">Export JSON</span>
                         <span className="sm:hidden">JSON</span>
                     </button>
                     <button
                         onClick={handleExportCsv}
-                        className="px-4 md:px-5 py-3 rounded-xl md:rounded-2xl border border-primary/30 bg-primary/10 hover:bg-primary/20 text-primary text-[10px] font-black uppercase tracking-widest flex items-center gap-2 transition-all active:scale-95"
+                        className="px-3 md:px-5 py-2.5 md:py-3 rounded-lg md:rounded-2xl border border-primary/30 bg-primary/10 hover:bg-primary/20 text-primary text-[9px] md:text-[10px] font-black uppercase tracking-widest flex items-center gap-1.5 md:gap-2 transition-all active:scale-95"
                     >
-                        <Download className="w-4 h-4" />
+                        <Download className="w-3.5 h-3.5 md:w-4 md:h-4" />
                         <span className="hidden sm:inline">Export CSV</span>
                         <span className="sm:hidden">CSV</span>
                     </button>
