@@ -1,6 +1,7 @@
 import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { createPortal } from 'react-dom';
+import { CheckCircle, XCircle, X } from 'lucide-react';
 
 const BLANK_REGEX = /_*\(([a-z])\)\s*_+|\(([a-z])\)\s*_+/g;
 
@@ -40,21 +41,24 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
     const blankData = getBlankData(blankId);
     if (!blankData) return;
     const currentAnswer = answers[blankId];
-    // Prevent clicks if already answered correctly
     if (currentAnswer?.isCorrect) return;
     const rect = event.currentTarget.getBoundingClientRect();
-    const popoverWidth = 200;
-    const popoverHeight = 160;
-    let top = rect.bottom + 8;
-    let left = rect.left + rect.width / 2;
-    if (top + popoverHeight > window.innerHeight - 20) {
-      top = Math.max(8, rect.top - popoverHeight - 8);
+    const gap = 8;
+    const padding = 16;
+    const popoverWidth = Math.min(220, window.innerWidth - padding * 2);
+    const maxHeight = Math.min(200, window.innerHeight - gap * 2);
+    const optCount = blankData.options?.length || 1;
+    const popoverHeight = Math.min(maxHeight, optCount * 44 + 16);
+    const centerX = rect.left + rect.width / 2;
+    const halfWidth = popoverWidth / 2;
+    let top = rect.bottom + gap;
+    let left = Math.max(halfWidth + padding, Math.min(centerX, window.innerWidth - halfWidth - padding));
+    if (top + popoverHeight > window.innerHeight - gap) {
+      top = Math.max(gap, rect.top - popoverHeight - gap);
     }
-    left = Math.max(popoverWidth / 2 + 12, Math.min(left, window.innerWidth - popoverWidth / 2 - 12));
-    setActivePopover(prev => prev?.blankId === blankId ? null : { blankId, top, left });
-    // Close explanation panel when opening blank popover
+    setActivePopover(prev => prev?.blankId === blankId ? null : { blankId, top, left, width: popoverWidth });
     setExplanationPanel(null);
-  }, [answers]);
+  }, [answers, getBlankData]);
 
   const closeExplanationPanel = useCallback(() => {
     setExplanationPanel(null);
@@ -222,15 +226,14 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
             initial={{ opacity: 0, y: -6, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ duration: 0.12 }}
-            className="bg-surface border border-white/10 rounded-2xl shadow-2xl shadow-black/40 p-1.5 min-w-[200px] overflow-hidden"
+            className="-translate-x-1/2 bg-surface border border-white/10 rounded-2xl shadow-2xl shadow-black/40 p-1.5 overflow-hidden"
+            style={{ width: activePopover.width || 'auto', minWidth: 180 }}
           >
             <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-2.5 h-2.5 bg-surface border-t border-l border-white/10 rotate-45" />
             <div className="relative pt-1">
               {activeBlankData.options.map((opt, idx) => {
-                // Handle both object and string option formats
                 const optionText = typeof opt === 'string' ? opt : opt.text;
                 const isCorrect = typeof opt === 'string' ? optionText === activeBlankData.correct_answer : opt.isCorrect;
-                // Handle both camelCase and snake_case explanation fields
                 const explanationBn = opt?.explanationBn || opt?.explanation_bn || '';
                 const explanationEn = opt?.explanationEn || opt?.explanation_en || '';
                 
@@ -251,52 +254,72 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
       )}
 
       {explanationPanel && createPortal(
-        <div
-          ref={explanationRef}
-          className="fixed z-[99]"
-          style={{ 
-            top: explanationPanel.top, 
-            left: Math.max(8, explanationPanel.left - 50),
-            maxWidth: 'calc(100vw - 16px)',
-            width: Math.min(600, Math.max(300, explanationPanel.width + 100))
-          }}
-        >
+        <AnimatePresence>
           <motion.div
-            initial={{ opacity: 0, y: -8, scale: 0.95 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ duration: 0.2 }}
-            className="bg-surface/98 backdrop-blur-md border border-white/20 rounded-2xl shadow-2xl shadow-black/60 p-4 space-y-3"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.15 }}
+            className="fixed inset-0 z-[100] flex items-center justify-center p-6"
+            onClick={() => setExplanationPanel(null)}
           >
-            <div className="flex items-start justify-between gap-3">
-              <div className="flex-1" />
+            <div className="absolute inset-0 bg-black/60" />
+            <motion.div
+              ref={explanationRef}
+              initial={{ opacity: 0, y: 40, scale: 0.92 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: 20, scale: 0.95 }}
+              transition={{ duration: 0.2, ease: 'easeOut' }}
+              className="relative w-full max-w-sm bg-surface rounded-2xl p-6 shadow-xl"
+              onClick={(e) => e.stopPropagation()}
+            >
               <button
-                type="button"
-                onClick={closeExplanationPanel}
-                className="shrink-0 px-3 py-1.5 rounded-full bg-white/10 hover:bg-white/15 text-[10px] font-black uppercase tracking-[0.2em] text-white/70 hover:text-white transition-colors"
+                onClick={() => setExplanationPanel(null)}
+                className="absolute top-3 right-3 p-1 rounded-full text-text-dim hover:text-text hover:bg-white/10 transition-colors"
               >
-                Got it
+                <X size={18} />
               </button>
-            </div>
 
-            {explanationPanel.explanationBn && (
-              <div>
-                <p className="font-bold text-blue-400 uppercase tracking-wider text-[9px] mb-1.5">বাংলা ব্যাখ্যা</p>
-                <p className="text-text leading-relaxed text-sm">{explanationPanel.explanationBn}</p>
+              <div className="flex flex-col items-center text-center gap-1 mb-4">
+                {explanationPanel.isCorrect ? (
+                  <CheckCircle size={40} className="text-emerald-400" />
+                ) : (
+                  <XCircle size={40} className="text-rose-400" />
+                )}
+                <span className={`text-lg font-black uppercase tracking-wider ${explanationPanel.isCorrect ? 'text-emerald-400' : 'text-rose-400'}`}>
+                  {explanationPanel.isCorrect ? 'Correct' : 'Incorrect'}
+                </span>
               </div>
-            )}
-            
-            {explanationPanel.explanationEn && (
-              <div className="pt-2 border-t border-white/10">
-                <p className="font-bold text-orange-400 uppercase tracking-wider text-[9px] mb-1.5">English Explanation</p>
-                <p className="text-text leading-relaxed text-sm">{explanationPanel.explanationEn}</p>
-              </div>
-            )}
 
-            {!explanationPanel.explanationBn && !explanationPanel.explanationEn && (
-              <p className="text-text-dim italic text-xs">No explanation available.</p>
-            )}
+              <div className="space-y-3 max-h-[40vh] overflow-y-auto">
+                {explanationPanel.explanationBn && (
+                  <div>
+                    <p className="font-bold text-text-dim uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
+                    <p className="text-text leading-relaxed text-sm">{explanationPanel.explanationBn}</p>
+                  </div>
+                )}
+                
+                {explanationPanel.explanationEn && (
+                  <div>
+                    <p className="font-bold text-text-dim uppercase tracking-wider text-[10px] mb-1">English Explanation</p>
+                    <p className="text-text leading-relaxed text-sm">{explanationPanel.explanationEn}</p>
+                  </div>
+                )}
+
+                {!explanationPanel.explanationBn && !explanationPanel.explanationEn && (
+                  <p className="text-text-dim italic text-xs">No explanation available.</p>
+                )}
+              </div>
+
+              <button
+                onClick={() => setExplanationPanel(null)}
+                className="w-full mt-5 py-3 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[11px] transition-all active:scale-[0.97]"
+              >
+                Got it!
+              </button>
+            </motion.div>
           </motion.div>
-        </div>,
+        </AnimatePresence>,
         document.body
       )}
     </div>
