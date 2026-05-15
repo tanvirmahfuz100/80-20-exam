@@ -635,6 +635,7 @@ const Quiz = () => {
                 <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[32px] flex-1 flex flex-col p-4 md:p-5 overflow-hidden">
                     {gapFillGroup ? (
                         <GapFillPassage
+                            key={gapFillGroup.startIndex}
                             passage={gapFillGroup.passage}
                             blanks={gapFillGroup.blanks}
                             boxWords={gapFillGroup.boxWords}
