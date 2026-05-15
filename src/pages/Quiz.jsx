@@ -304,8 +304,31 @@ const Quiz = () => {
                     const data = await res.json();
 
                     let questionArray = [];
-                    if (Array.isArray(data)) questionArray = data;
-                    else if (Array.isArray(data.questions)) questionArray = data.questions;
+                    if (Array.isArray(data)) {
+                        if (data.length > 0 && Array.isArray(data[0].items)) {
+                            questionArray = data.flatMap(set =>
+                                (set.items || []).map((item) => {
+                                    const options = item.options || [];
+                                    const correctAnswer = item.correct_answer || '';
+                                    const correctIndex = options.indexOf(correctAnswer);
+                                    return {
+                                        id: item.id || `${set.id}_${item.item}`,
+                                        text: [item.context, item.question_text].filter(Boolean).join(' '),
+                                        options,
+                                        correct: correctIndex >= 0 ? correctIndex : 0,
+                                        explanation_bn: item.explanation_bn || '',
+                                        explanation_en: item.explanation_en || '',
+                                        difficulty: 'medium',
+                                        source: set.source || '',
+                                        year: set.year || '',
+                                        item: item.item,
+                                    };
+                                })
+                            );
+                        } else {
+                            questionArray = data;
+                        }
+                    } else if (Array.isArray(data.questions)) questionArray = data.questions;
                     else if (Array.isArray(data.passages)) questionArray = data.passages;
                     else if (Array.isArray(data.items)) questionArray = data.items;
 

@@ -95,6 +95,25 @@ const ensureSeed = () => {
 
 ensureSeed();
 
+const flattenSetItems = (data) => {
+    if (Array.isArray(data) && data.length > 0 && Array.isArray(data[0].items)) {
+        return data.flatMap(set =>
+            (set.items || []).map((item) => {
+                const options = item.options || [];
+                const correctAnswer = item.correct_answer || '';
+                return {
+                    id: item.id || `${set.id}_${item.item}`,
+                    text: [item.context, item.question_text].filter(Boolean).join(' '),
+                    options,
+                    correct: options.indexOf(correctAnswer),
+                    difficulty: 'medium',
+                };
+            })
+        );
+    }
+    return null;
+};
+
 const toQuestionRecord = (questionFile, chapter) => {
     const parts = (chapter?.file || '').split('/').filter(Boolean);
     const exam_category = (parts[0] || 'IBA').toUpperCase();
@@ -106,7 +125,7 @@ const toQuestionRecord = (questionFile, chapter) => {
             ? questionFile.questions
             : Array.isArray(questionFile.passages)
                 ? questionFile.passages
-                : [];
+                : flattenSetItems(questionFile) || [];
 
     return sourceQuestions.map((q) => ({
         id: q.id || q.question_id || q._id,

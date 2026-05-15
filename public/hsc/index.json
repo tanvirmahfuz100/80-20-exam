@@ -644,6 +644,19 @@
           ],
           "name_bn": "Phrases and Words",
           "name_en": "Phrases and Words"
+        },
+        {
+          "id": "clauses_and_phrases",
+          "name": "Clauses & Phrases",
+          "chapters": [
+            {
+              "id": "hsc_eng2_clauses_phrases_04",
+              "name": "Clauses & Phrases (Set 1-80)",
+              "file": "/hsc/clauses-phrases-04.json"
+            }
+          ],
+          "name_bn": "Clauses & Phrases",
+          "name_en": "Clauses & Phrases"
         }
       ],
       "name_bn": "ইংরেজি ২য় পত্র",
