@@ -200,7 +200,9 @@ const PracticeConfig = () => {
                         : Array.isArray(payload?.passages)
                             ? payload.passages
                             : [];
-
+                if (Array.isArray(sourceQuestions) && sourceQuestions.length > 0 && Array.isArray(sourceQuestions[0].items)) {
+                    return sourceQuestions.reduce((total, set) => total + (set.items?.length || 0), 0);
+                }
                 return sourceQuestions.reduce((total, question) => {
                     if (Array.isArray(question.blanks) && question.blanks.length > 0) {
                         return total + question.blanks.length;
