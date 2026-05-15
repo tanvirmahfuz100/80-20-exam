@@ -757,7 +757,7 @@ const Quiz = () => {
                                 )}
                             </div>
 
-                            <h3 className="font-black text-white leading-tight mb-1.5 selection:bg-primary/30 tracking-tight text-sm md:text-lg lg:text-xl max-h-[20vh] md:max-h-[25vh] overflow-y-auto">
+                            <h3 className="font-black text-white leading-tight mb-1.5 selection:bg-primary/30 tracking-tight text-sm md:text-lg lg:text-xl max-h-[15vh] md:max-h-[25vh] overflow-y-auto">
                                 {stripMath(currentQ.text)}
                             </h3>
 
