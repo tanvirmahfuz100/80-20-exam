@@ -189,6 +189,7 @@ const normalizeQuizQuestions = (payload) => {
             })(),
             explanation_bn: question.explanation_bn || question.explanationBn || '',
             explanation_en: question.explanation_en || question.explanationEn || '',
+            explanation_distractors: question.explanation_distractors || [],
             difficulty: question.difficulty || 'medium'
         }];
     });
@@ -318,6 +319,7 @@ const Quiz = () => {
                                         correct: correctIndex >= 0 ? correctIndex : 0,
                                         explanation_bn: item.explanation_bn || '',
                                         explanation_en: item.explanation_en || '',
+                                        explanation_distractors: item.explanation_distractors || [],
                                         difficulty: 'medium',
                                         source: set.source || '',
                                         year: set.year || '',
@@ -826,23 +828,34 @@ const Quiz = () => {
                                                         <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-emerald-400 shrink-0" />
                                                         <h4 className="text-emerald-400 font-black text-xs md:text-sm uppercase tracking-wider">Correct!</h4>
                                                     </div>
-                                                    <div className="flex-1 overflow-y-auto min-h-0 space-y-2 -mx-1 px-1 text-xs md:text-sm">
-                                                         {currentQ.explanation_bn && (
-                                                             <div>
-                                                                 <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
-                                                                 <p className="text-white/80 leading-relaxed">{currentQ.explanation_bn}</p>
-                                                             </div>
-                                                         )}
-                                                         {currentQ.explanation_en && (
-                                                             <div>
-                                                                 <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1">English Explanation</p>
-                                                                 <p className="text-white/80 leading-relaxed">{currentQ.explanation_en}</p>
-                                                             </div>
-                                                         )}
-                                                         {!currentQ.explanation_bn && !currentQ.explanation_en && (
-                                                             <p className="text-white/60 text-sm">Well done!</p>
-                                                         )}
-                                                     </div>
+                                                     <div className="flex-1 overflow-y-auto min-h-0 space-y-2 -mx-1 px-1 text-xs md:text-sm">
+                                                          {currentQ.explanation_bn && (
+                                                              <div>
+                                                                  <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
+                                                                  <p className="text-white/80 leading-relaxed">{currentQ.explanation_bn}</p>
+                                                              </div>
+                                                          )}
+                                                          {currentQ.explanation_en && (
+                                                              <div>
+                                                                  <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1">English Explanation</p>
+                                                                  <p className="text-white/80 leading-relaxed">{currentQ.explanation_en}</p>
+                                                              </div>
+                                                          )}
+                                                          {!currentQ.explanation_bn && !currentQ.explanation_en && (
+                                                              <p className="text-white/60 text-sm">Well done!</p>
+                                                          )}
+                                                          {currentQ.explanation_distractors && currentQ.explanation_distractors.length > 0 && (
+                                                              <div className="border-t border-emerald-500/15 pt-2 mt-2">
+                                                                  <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1.5">Why the other options are wrong</p>
+                                                                  {currentQ.explanation_distractors.map((d, i) => (
+                                                                      <div key={i} className="mb-1.5 last:mb-0">
+                                                                          <p className="text-white/90 text-[11px] font-medium mb-0.5">"{d.option}"</p>
+                                                                          <p className="text-white/50 text-[10px] leading-relaxed pl-2 border-l border-emerald-500/20">{d.reason}</p>
+                                                                      </div>
+                                                                  ))}
+                                                              </div>
+                                                          )}
+                                                      </div>
                                                     {currentQ.explanation_video_url && (
                                                         <a
                                                             href={currentQ.explanation_video_url}
@@ -888,19 +901,30 @@ const Quiz = () => {
                                                     </p>
 
                                                     <div className="flex-1 overflow-y-auto min-h-0 space-y-2 -mx-1 px-1 text-xs md:text-sm">
-                                                         {currentQ.explanation_bn && (
-                                                             <div>
-                                                                 <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
-                                                                 <p className="text-white/80 leading-relaxed">{currentQ.explanation_bn}</p>
-                                                             </div>
-                                                         )}
-                                                         {currentQ.explanation_en && (
-                                                             <div>
-                                                                 <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1">English Explanation</p>
-                                                                 <p className="text-white/80 leading-relaxed">{currentQ.explanation_en}</p>
-                                                             </div>
-                                                         )}
-                                                     </div>
+                                                          {currentQ.explanation_bn && (
+                                                              <div>
+                                                                  <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
+                                                                  <p className="text-white/80 leading-relaxed">{currentQ.explanation_bn}</p>
+                                                              </div>
+                                                          )}
+                                                          {currentQ.explanation_en && (
+                                                              <div>
+                                                                  <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1">English Explanation</p>
+                                                                  <p className="text-white/80 leading-relaxed">{currentQ.explanation_en}</p>
+                                                              </div>
+                                                          )}
+                                                          {currentQ.explanation_distractors && currentQ.explanation_distractors.length > 0 && (
+                                                              <div className="border-t border-yellow-500/15 pt-2 mt-2">
+                                                                  <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1.5">Why the other options are wrong</p>
+                                                                  {currentQ.explanation_distractors.map((d, i) => (
+                                                                      <div key={i} className="mb-1.5 last:mb-0">
+                                                                          <p className="text-white/90 text-[11px] font-medium mb-0.5">"{d.option}"</p>
+                                                                          <p className="text-white/50 text-[10px] leading-relaxed pl-2 border-l border-yellow-500/20">{d.reason}</p>
+                                                                      </div>
+                                                                  ))}
+                                                              </div>
+                                                          )}
+                                                      </div>
 
                                                     <button
                                                         onClick={handleNext}
