@@ -187,6 +187,8 @@ const normalizeQuizQuestions = (payload) => {
                 }
                 return explanationBn || explanationEn || question.explanation || '';
             })(),
+            explanation_bn: question.explanation_bn || question.explanationBn || '',
+            explanation_en: question.explanation_en || question.explanationEn || '',
             difficulty: question.difficulty || 'medium'
         }];
     });
@@ -729,20 +731,20 @@ const Quiz = () => {
                                 )}
                             </div>
 
-                            <h3 className="font-black text-white leading-tight mb-1.5 selection:bg-primary/30 tracking-tight text-sm md:text-lg lg:text-xl max-h-[20vh] md:max-h-[25vh] overflow-y-auto">
+                            <h3 className="font-black text-white leading-tight mb-1.5 selection:bg-primary/30 tracking-tight text-sm md:text-lg lg:text-xl max-h-[15vh] md:max-h-[25vh] overflow-y-auto">
                                 {stripMath(currentQ.text)}
                             </h3>
 
-                            <div className="flex-1 relative overflow-hidden">
-                                <AnimatePresence mode="wait">
-                                    {!isAnswered ? (
-                                        <motion.div
-                                            key="options"
-                                            initial={{ opacity: 0 }}
-                                            animate={{ opacity: 1 }}
-                                            exit={{ opacity: 0, x: -30 }}
-                                            transition={{ duration: 0.2 }}
-                                            className={`absolute inset-0 flex flex-col justify-center ${isManyOptions ? 'space-y-1.5' : 'space-y-2'}`}
+                            <div className="min-h-0">
+                                 <AnimatePresence mode="wait">
+                                     {!isAnswered ? (
+                                         <motion.div
+                                             key="options"
+                                             initial={{ opacity: 0 }}
+                                             animate={{ opacity: 1 }}
+                                             exit={{ opacity: 0, x: -30 }}
+                                             transition={{ duration: 0.2 }}
+                                             className={`${isManyOptions ? 'grid grid-cols-2 gap-1.5 md:gap-2' : 'flex flex-col space-y-2'}`}
                                         >
                                             {shuffledOptions && shuffledOptions.map((option, idx) => {
                                                 let state = 'idle';
@@ -774,7 +776,7 @@ const Quiz = () => {
                                                                 }`}>
                                                                 {String.fromCharCode(65 + idx)}
                                                             </span>
-                                                            <span className="font-bold tracking-tight text-[13px] md:text-base truncate">{stripMath(option.text)}</span>
+                                                            <span className={`font-bold tracking-tight ${isManyOptions ? 'text-[12px] md:text-sm truncate' : 'text-[13px] md:text-base truncate'}`}>{stripMath(option.text)}</span>
                                                         </div>
                                                         {state === 'correct' && <CheckCircle className="w-3.5 h-3.5 md:w-5 md:h-5 text-emerald-400 animate-in zoom-in-0 shrink-0" />}
                                                         {state === 'wrong' && (
@@ -788,25 +790,36 @@ const Quiz = () => {
                                         </motion.div>
                                     ) : (
                                         <motion.div
-                                            key="feedback"
-                                            initial={{ opacity: 0, x: 30 }}
-                                            animate={{ opacity: 1, x: 0 }}
-                                            exit={{ opacity: 0, x: 30 }}
-                                            transition={{ duration: 0.2 }}
-                                            className="absolute inset-0 flex flex-col"
-                                        >
+                                             key="feedback"
+                                             initial={{ opacity: 0, x: 30 }}
+                                             animate={{ opacity: 1, x: 0 }}
+                                             exit={{ opacity: 0, x: 30 }}
+                                             transition={{ duration: 0.2 }}
+                                             className="flex flex-col"
+                                         >
                                             {isCurrentCorrect ? (
                                                 <div className="flex-1 flex flex-col bg-emerald-500/[0.07] border border-emerald-500/20 rounded-xl md:rounded-2xl p-3 md:p-4 gap-2 md:gap-3">
                                                     <div className="flex items-center gap-2 shrink-0">
                                                         <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-emerald-400 shrink-0" />
                                                         <h4 className="text-emerald-400 font-black text-xs md:text-sm uppercase tracking-wider">Correct!</h4>
                                                     </div>
-                                                    <div
-                                                        className="flex-1 overflow-y-auto min-h-0 space-y-1 -mx-1 px-1 text-xs md:text-sm"
-                                                        dangerouslySetInnerHTML={{
-                                                            __html: formatExplanation(currentQ.explanation) || '<p class="text-white/60 text-sm">Well done!</p>'
-                                                        }}
-                                                    />
+                                                    <div className="flex-1 overflow-y-auto min-h-0 space-y-2 -mx-1 px-1 text-xs md:text-sm">
+                                                         {currentQ.explanation_bn && (
+                                                             <div>
+                                                                 <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
+                                                                 <p className="text-white/80 leading-relaxed">{currentQ.explanation_bn}</p>
+                                                             </div>
+                                                         )}
+                                                         {currentQ.explanation_en && (
+                                                             <div>
+                                                                 <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1">English Explanation</p>
+                                                                 <p className="text-white/80 leading-relaxed">{currentQ.explanation_en}</p>
+                                                             </div>
+                                                         )}
+                                                         {!currentQ.explanation_bn && !currentQ.explanation_en && (
+                                                             <p className="text-white/60 text-sm">Well done!</p>
+                                                         )}
+                                                     </div>
                                                     {currentQ.explanation_video_url && (
                                                         <a
                                                             href={currentQ.explanation_video_url}
@@ -851,11 +864,20 @@ const Quiz = () => {
                                                         Mistakes are opportunities to learn. A star has been added to your balance — review it to collect.
                                                     </p>
 
-                                                    <div className="flex-1 overflow-y-auto min-h-0 space-y-1 -mx-1 px-1 text-xs md:text-sm"
-                                                        dangerouslySetInnerHTML={{
-                                                            __html: formatExplanation(currentQ.explanation) || ''
-                                                        }}
-                                                    />
+                                                    <div className="flex-1 overflow-y-auto min-h-0 space-y-2 -mx-1 px-1 text-xs md:text-sm">
+                                                         {currentQ.explanation_bn && (
+                                                             <div>
+                                                                 <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
+                                                                 <p className="text-white/80 leading-relaxed">{currentQ.explanation_bn}</p>
+                                                             </div>
+                                                         )}
+                                                         {currentQ.explanation_en && (
+                                                             <div>
+                                                                 <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1">English Explanation</p>
+                                                                 <p className="text-white/80 leading-relaxed">{currentQ.explanation_en}</p>
+                                                             </div>
+                                                         )}
+                                                     </div>
 
                                                     <button
                                                         onClick={handleNext}
