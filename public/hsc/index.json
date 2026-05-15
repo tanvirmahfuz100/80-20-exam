@@ -631,6 +631,19 @@
           ],
           "name_bn": "Prepositions",
           "name_en": "Prepositions"
+        },
+        {
+          "id": "phrases_and_words",
+          "name": "Phrases and Words",
+          "chapters": [
+            {
+              "id": "hsc_eng2_phrases_words",
+              "name": "Phrases and Words",
+              "file": "/hsc/phrases-and-words.json"
+            }
+          ],
+          "name_bn": "Phrases and Words",
+          "name_en": "Phrases and Words"
         }
       ],
       "name_bn": "ইংরেজি ২য় পত্র",
