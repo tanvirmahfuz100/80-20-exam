@@ -214,11 +214,10 @@ const QuestionBank = () => {
     return (
         <div className="max-w-5xl mx-auto space-y-4 md:space-y-6">
             <div className="bg-surface border border-white/5 p-4 md:p-8 rounded-2xl md:rounded-[2rem] shadow-lg relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-24 h-24 md:w-36 md:h-36 opacity-[0.05] pointer-events-none">
+                <div className="absolute -right-8 -top-8 w-[200px] h-[200px] md:w-[260px] md:h-[260px] opacity-20 pointer-events-none z-0">
                     <LottieAnimation src={searchAnimation} className="w-full h-full" pingPong />
                 </div>
-
-                <div className="relative z-10 flex items-start gap-4 mb-4 md:mb-5">
+                <div className="relative z-10 flex items-start gap-4 mb-3 md:mb-4">
                     <div className="flex-1 min-w-0">
                         <h1 className="text-xl md:text-3xl font-black text-white tracking-tighter">
                             BRAIN <span className="text-primary uppercase">SEARCH.</span>
@@ -226,9 +225,6 @@ const QuestionBank = () => {
                         <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] mt-0.5">
                             {loading ? loadProgress || 'Loading...' : `${allQuestions.length} questions indexed`}
                         </p>
-                    </div>
-                    <div className="w-10 h-10 md:w-14 md:h-14 shrink-0 opacity-60">
-                        <LottieAnimation src={searchAnimation} className="w-full h-full" pingPong />
                     </div>
                 </div>
 
@@ -254,7 +250,7 @@ const QuestionBank = () => {
                     </button>
                 </div>
 
-                <div className="relative z-10 flex flex-wrap items-center gap-2 mt-4">
+                <div className="relative z-10 flex flex-wrap items-center gap-2">
                     <div className="flex flex-wrap items-center gap-1.5 flex-1">
                         {Object.entries(availableFilters).map(([key, options]) => (
                             <select
