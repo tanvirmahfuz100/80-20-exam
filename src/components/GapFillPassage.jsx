@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { createPortal } from 'react-dom';
-import { CheckCircle, XCircle, X } from 'lucide-react';
+import { CheckCircle, Star, X } from 'lucide-react';
 
 const BLANK_REGEX = /_*\(([a-z])\)\s*_+|\(([a-z])\)\s*_+/g;
 
@@ -332,142 +332,88 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
         document.body
       )}
 
-      {/* Desktop explanation */}
-      {explanationPanel && !explanationPanel.isMobile && createPortal(
+      {/* Unified explanation modal */}
+      {explanationPanel && createPortal(
         <AnimatePresence>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.15 }}
-            className="fixed inset-0 z-[100] flex items-center justify-center p-6"
+            className="fixed inset-0 z-[100] flex items-center justify-center p-4"
             onClick={() => setExplanationPanel(null)}
             role="dialog"
             aria-modal="true"
             aria-label="Explanation"
           >
-            <div className="absolute inset-0 bg-black/60" aria-hidden="true" />
+            <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" aria-hidden="true" />
+
             <motion.div
               ref={explanationRef}
               initial={{ opacity: 0, y: 40, scale: 0.92 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 20, scale: 0.95 }}
-              transition={{ duration: 0.2, ease: 'easeOut' }}
-              className="relative w-full max-w-sm bg-surface rounded-2xl p-6 shadow-xl"
+              transition={{ duration: 0.25, ease: 'easeOut' }}
+              className={`relative w-full max-w-sm md:max-w-md bg-surface rounded-2xl p-6 shadow-2xl ${
+                explanationPanel.isCorrect ? 'border border-emerald-500/20 shadow-emerald-500/5' : ''
+              }`}
               onClick={(e) => e.stopPropagation()}
             >
+              {explanationPanel.isCorrect && (
+                <div className="absolute -top-20 -right-20 w-40 h-40 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+              )}
+
               <button
                 onClick={() => setExplanationPanel(null)}
-                className="absolute top-3 right-3 p-2 rounded-full text-text-dim hover:text-text hover:bg-white/10 transition-colors"
+                className="absolute top-3 right-3 p-1.5 rounded-full text-text-dim hover:text-text hover:bg-white/10 transition-colors z-10"
                 aria-label="Close explanation"
               >
-                <X size={18} />
+                <X size={16} />
               </button>
 
-              <div className="flex flex-col items-center text-center gap-1 mb-4">
+              <div className="flex flex-col items-center text-center gap-2 mb-5">
                 {explanationPanel.isCorrect ? (
                   <CheckCircle size={40} className="text-emerald-400" aria-hidden="true" />
                 ) : (
-                  <XCircle size={40} className="text-rose-400" aria-hidden="true" />
+                  <Star size={40} className="text-yellow-300 fill-yellow-300" aria-hidden="true" />
                 )}
-                <span className={`text-lg font-black uppercase tracking-wider ${explanationPanel.isCorrect ? 'text-emerald-400' : 'text-rose-400'}`}>
-                  {explanationPanel.isCorrect ? 'Correct' : 'Incorrect'}
-                </span>
+                <div>
+                  <span className={`text-lg font-black uppercase tracking-wider ${explanationPanel.isCorrect ? 'text-emerald-400' : 'text-yellow-300'}`}>
+                    {explanationPanel.isCorrect ? 'Good job!' : 'Star collected!'}
+                  </span>
+                  {!explanationPanel.isCorrect && (
+                    <p className="text-3xs text-text-dim font-medium mt-0.5">Review your mistakes to earn it back</p>
+                  )}
+                </div>
               </div>
 
-              <div className="space-y-3 max-h-[40vh] overflow-y-auto">
+              <div className="space-y-3 max-h-[35vh] overflow-y-auto">
                 {explanationPanel.explanationBn && (
                   <div>
-                    <p className="font-bold text-text-dim uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
+                    <p className="font-bold text-text-dim uppercase tracking-wider text-2xs mb-1">বাংলা ব্যাখ্যা</p>
                     <p className="text-text leading-relaxed text-sm">{explanationPanel.explanationBn}</p>
                   </div>
                 )}
                 
                 {explanationPanel.explanationEn && (
                   <div>
-                    <p className="font-bold text-text-dim uppercase tracking-wider text-[10px] mb-1">English Explanation</p>
+                    <p className="font-bold text-text-dim uppercase tracking-wider text-2xs mb-1">English Explanation</p>
                     <p className="text-text leading-relaxed text-sm">{explanationPanel.explanationEn}</p>
                   </div>
                 )}
 
                 {!explanationPanel.explanationBn && !explanationPanel.explanationEn && (
-                  <p className="text-text-dim italic text-xs">No explanation available.</p>
+                  <p className="text-text-dim italic text-xs text-center">No explanation available.</p>
                 )}
               </div>
 
               <button
                 onClick={() => setExplanationPanel(null)}
-                className="w-full mt-5 py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-xs transition-all active:scale-[0.97] min-h-touch"
+                className="w-full mt-5 py-3 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-xs transition-all active:scale-[0.97]"
               >
-                Got it!
+                {explanationPanel.isCorrect ? 'Continue' : 'Got it!'}
               </button>
             </motion.div>
-          </motion.div>
-        </AnimatePresence>,
-        document.body
-      )}
-
-      {/* Mobile full-screen explanation */}
-      {explanationPanel && explanationPanel.isMobile && createPortal(
-        <AnimatePresence>
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[100] flex flex-col bg-background safe-top safe-bottom"
-            role="dialog"
-            aria-modal="true"
-            aria-label="Explanation"
-          >
-            <div className="flex items-center justify-between px-4 py-3 border-b border-white/5 shrink-0">
-              <span className={`text-sm font-black uppercase tracking-wider ${explanationPanel.isCorrect ? 'text-emerald-400' : 'text-rose-400'}`}>
-                {explanationPanel.isCorrect ? 'Correct!' : 'Keep going!'}
-              </span>
-              <button
-                onClick={() => setExplanationPanel(null)}
-                className="p-2 text-white/40 hover:text-white"
-                aria-label="Close explanation"
-              >
-                <X className="w-5 h-5" />
-              </button>
-            </div>
-
-            <div className="flex-1 overflow-y-auto p-4 space-y-4">
-              <div className="flex flex-col items-center gap-2 py-4">
-                {explanationPanel.isCorrect ? (
-                  <CheckCircle size={48} className="text-emerald-400" aria-hidden="true" />
-                ) : (
-                  <XCircle size={48} className="text-rose-400" aria-hidden="true" />
-                )}
-              </div>
-
-              {explanationPanel.explanationBn && (
-                <div className="bg-surface rounded-xl p-4 border border-white/5">
-                  <p className="font-bold text-text-dim uppercase tracking-wider text-2xs mb-1.5">বাংলা ব্যাখ্যা</p>
-                  <p className="text-text leading-relaxed text-sm">{explanationPanel.explanationBn}</p>
-                </div>
-              )}
-              
-              {explanationPanel.explanationEn && (
-                <div className="bg-surface rounded-xl p-4 border border-white/5">
-                  <p className="font-bold text-text-dim uppercase tracking-wider text-2xs mb-1.5">English Explanation</p>
-                  <p className="text-text leading-relaxed text-sm">{explanationPanel.explanationEn}</p>
-                </div>
-              )}
-
-              {!explanationPanel.explanationBn && !explanationPanel.explanationEn && (
-                <p className="text-text-dim italic text-sm text-center">No explanation available.</p>
-              )}
-            </div>
-
-            <div className="p-4 border-t border-white/5 shrink-0 safe-bottom">
-              <button
-                onClick={() => setExplanationPanel(null)}
-                className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-xs transition-all active:scale-[0.97] min-h-touch"
-              >
-                Got it!
-              </button>
-            </div>
           </motion.div>
         </AnimatePresence>,
         document.body

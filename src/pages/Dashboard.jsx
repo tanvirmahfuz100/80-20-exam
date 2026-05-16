@@ -6,9 +6,10 @@ import { api } from '../services/api';
 import { Rocket, CheckList } from '../components/Illustrations';
 import LottieAnimation from '../components/LottieAnimation';
 import gameControllerAnimation from '../assets/game-controller.json';
+import speedometerAnimation from '../assets/speedometer.json';
 import {
   Target, Brain, BookOpen, TrendingUp, ArrowRight,
-  Crown, Flame, BadgeCheck, Clock, Zap, BarChart3,
+  Crown, Flame, BadgeCheck, Clock, Zap,
   Star, Gamepad, Gauge, Trophy, Layers, Book, GraduationCap, Library, ScrollText
 } from 'lucide-react';
 
@@ -278,17 +279,24 @@ const Dashboard = () => {
       {hasEnoughData ? (
         <Motion.div variants={itemVariants} className="space-y-4">
           {/* Performance */}
-          <div className="rounded-2xl border border-white/[0.05] bg-surface p-5 md:p-6">
-            <h2 className="flex items-center gap-2 text-xs md:text-sm font-black tracking-tighter text-white mb-4">
-              <BarChart3 className="w-4 h-4 text-primary" />
-              Performance
-            </h2>
+          <div className="relative overflow-hidden rounded-2xl border border-white/[0.05] bg-surface p-5 md:p-6">
+            <div className="absolute -top-10 -right-10 w-44 h-44 opacity-[0.06] pointer-events-none">
+              <LottieAnimation src={speedometerAnimation} className="w-full h-full" pingPong />
+            </div>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-8 h-8 shrink-0">
+                <LottieAnimation src={speedometerAnimation} className="w-full h-full" pingPong />
+              </div>
+              <h2 className="text-xs md:text-sm font-black tracking-tighter text-white">
+                Performance
+              </h2>
+            </div>
             <div className="flex flex-col sm:flex-row items-center gap-5">
               <CircularProgress value={Math.round(Number(statsData.accuracy))} size={96} strokeWidth={7} />
               <div className="grid grid-cols-3 gap-2 w-full">
                 <StatBox label="Questions" value={statsData.totalPracticed} />
                 <StatBox label="Correct" value={statsData.correctOnes} accent="text-emerald-400" />
-                <StatBox label="Wrong" value={statsData.wrongOnes} accent="text-red-400" />
+                <StatBox label="Wrong" value={statsData.wrongOnes} accent="text-yellow-300" />
               </div>
             </div>
             {focusAreas.length > 0 && (
@@ -359,21 +367,24 @@ const Dashboard = () => {
       ) : (
         <Motion.div variants={itemVariants} className="space-y-4">
           {/* Gamify Banner */}
-          <div className="relative overflow-hidden rounded-2xl border border-primary/20 bg-surface p-5 md:p-6">
-            <div className="absolute -top-8 -right-8 w-36 h-36 opacity-[0.07] pointer-events-none">
+          <div className="relative overflow-hidden rounded-3xl bg-surface p-6 shadow-2xl shadow-black/30">
+            <div className="absolute top-0 right-0 w-48 h-48 bg-primary/[0.03] rounded-full blur-3xl pointer-events-none" />
+            <div className="absolute -top-8 -right-8 w-36 h-36 opacity-[0.08] pointer-events-none">
               <LottieAnimation src={gameControllerAnimation} className="w-full h-full" pingPong />
             </div>
-            <div className="flex items-center gap-4">
-              <div className="w-16 h-16 md:w-20 md:h-20 shrink-0 hidden sm:block">
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 shrink-0 hidden sm:block">
                 <LottieAnimation src={gameControllerAnimation} className="w-full h-full" pingPong />
               </div>
-              <div className="min-w-0 flex-1">
-                <div className="flex items-center gap-1.5 mb-1">
-                  <Gamepad className="w-3.5 h-3.5 text-primary" />
+              <div className="min-w-0 flex-1 space-y-2">
+                <div className="flex items-center gap-1.5">
+                  <div className="w-5 h-5 rounded-md bg-primary/20 flex items-center justify-center">
+                    <Gamepad className="w-3 h-3 text-primary" />
+                  </div>
                   <span className="text-3xs font-black uppercase tracking-[0.2em] text-primary">New here?</span>
                 </div>
-                <h2 className="text-base md:text-xl font-black text-white tracking-tighter">Gamify your experience. Earn XP and collect stars.</h2>
-                <p className="text-xs text-white/40 font-medium mt-1 leading-relaxed">
+                <h2 className="text-base md:text-lg font-black text-white tracking-tighter">Gamify your experience. Earn XP and collect stars.</h2>
+                <p className="text-xs text-white/40 font-medium leading-relaxed max-w-lg">
                   Complete questions to earn XP, build streaks, collect stars. Every correct answer gets you closer to the next level.
                 </p>
               </div>
@@ -381,29 +392,33 @@ const Dashboard = () => {
           </div>
 
           {/* Launch CTA */}
-          <div className="rounded-2xl border border-primary/20 bg-surface p-5 md:p-6">
+          <div className="relative overflow-hidden rounded-3xl bg-surface p-6 shadow-2xl shadow-black/30">
+            <div className="absolute top-0 right-0 w-48 h-48 bg-primary/[0.03] rounded-full blur-3xl pointer-events-none" />
+            <div className="absolute -top-8 -right-8 w-36 h-36 opacity-[0.06] pointer-events-none">
+              <LottieAnimation src={speedometerAnimation} className="w-full h-full" pingPong />
+            </div>
             <div className="flex items-start gap-4">
-              <div className="hidden sm:flex w-12 h-12 rounded-xl bg-primary/15 border border-primary/20 items-center justify-center shrink-0 mt-0.5">
-                <Rocket className="w-6 h-6 text-primary" />
+              <div className="w-12 h-12 shrink-0 hidden sm:block">
+                <LottieAnimation src={speedometerAnimation} className="w-full h-full" pingPong />
               </div>
-              <div className="min-w-0 flex-1">
+              <div className="min-w-0 flex-1 space-y-2">
                 <h2 className="text-base md:text-lg font-black text-white tracking-tighter">Your dashboard is ready to launch</h2>
-                <p className="text-xs text-white/40 font-medium mt-1 max-w-lg leading-relaxed">
+                <p className="text-xs text-white/40 font-medium leading-relaxed max-w-lg">
                   Complete <span className="text-primary font-black">20 questions</span> to unlock reports, accuracy tracking, and weak spot analysis.
                 </p>
-                <div className="flex flex-wrap gap-1.5 mt-3">
+                <div className="flex flex-wrap gap-1.5">
                   {['Accuracy', 'Analysis', 'Weak spots', 'Consistency'].map((tag) => (
-                    <span key={tag} className="px-2 py-0.5 rounded-md bg-white/[0.03] border border-white/[0.06] text-3xs font-black uppercase tracking-wider text-white/25">
+                    <span key={tag} className="px-2.5 py-1 rounded-lg bg-white/[0.04] text-3xs font-black uppercase tracking-wider text-white/30">
                       {tag}
                     </span>
                   ))}
                 </div>
-                <div className="flex flex-col xs:flex-row items-start xs:items-center gap-2.5 mt-3">
+                <div className="flex flex-col xs:flex-row items-start xs:items-center gap-3">
                   <Link
                     to="/practice"
-                    className="inline-flex items-center gap-2 rounded-xl bg-primary hover:bg-primary-hover px-5 py-2.5 text-2xs font-black uppercase tracking-[0.2em] text-black transition-all active:scale-95 shadow-lg shadow-primary/20"
+                    className="inline-flex items-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-6 py-3 text-2xs font-black uppercase tracking-[0.2em] text-black transition-all active:scale-95 shadow-lg shadow-primary/25"
                   >
-                    Start Your First Practice <ArrowRight className="w-3 h-3" />
+                    Start Your First Practice <ArrowRight className="w-3.5 h-3.5" />
                   </Link>
                   <p className="text-3xs text-white/20 font-medium">
                     {statsData.totalPracticed > 0

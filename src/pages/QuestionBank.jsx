@@ -3,6 +3,8 @@ import { Search, Filter, BookOpen, Save, Share2, MoreHorizontal, ChevronLeft, Ch
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { Books, EmptyState } from '../components/Illustrations';
+import LottieAnimation from '../components/LottieAnimation';
+import searchAnimation from '../assets/search.json';
 
 const QuestionBank = () => {
     const { user } = useAuth();
@@ -45,10 +47,18 @@ const QuestionBank = () => {
     return (
         <div className="max-w-7xl mx-auto space-y-6 md:space-y-10">
             <div className="bg-surface border border-white/5 p-4 md:p-12 rounded-2xl md:rounded-[3rem] shadow-lg relative overflow-hidden">
+                <div className="absolute -bottom-10 -right-10 w-52 h-52 opacity-[0.06] pointer-events-none">
+                    <LottieAnimation src={searchAnimation} className="w-full h-full" pingPong />
+                </div>
                 <div className="relative z-10 max-w-3xl space-y-4 md:space-y-8">
-                    <div>
-                        <h1 className="text-2xl md:text-5xl font-black text-white tracking-tighter">BRAIN <span className="text-primary uppercase">SEARCH.</span></h1>
-                        <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-[10px] mt-1 md:mt-2">Explore 50,000+ archived questions with deep insights</p>
+                    <div className="flex items-start gap-4">
+                        <div className="w-10 h-10 md:w-14 md:h-14 shrink-0 hidden sm:block">
+                            <LottieAnimation src={searchAnimation} className="w-full h-full" pingPong />
+                        </div>
+                        <div>
+                            <h1 className="text-2xl md:text-5xl font-black text-white tracking-tighter">BRAIN <span className="text-primary uppercase">SEARCH.</span></h1>
+                            <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-[10px] mt-1 md:mt-2">Explore 50,000+ archived questions with deep insights</p>
+                        </div>
                     </div>
 
                     <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
