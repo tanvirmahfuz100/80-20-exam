@@ -4,6 +4,9 @@ import { Book, Calculator, Brain, ChevronRight, Play, Timer, ShieldCheck, ArrowR
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { Target, CheckList } from '../components/Illustrations';
+import LottieAnimation from '../components/LottieAnimation';
+import targetAnimation from '../assets/target.json';
+import meditatingBrainAnimation from '../assets/meditating-brain.json';
 import { api } from '../services/api';
 
 const icons = {
@@ -380,9 +383,12 @@ const PracticeConfig = () => {
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3 }}
-                className="flex flex-col md:flex-row md:items-end justify-between gap-3"
+                className="relative overflow-hidden rounded-3xl bg-surface p-6 shadow-2xl shadow-black/30 flex flex-col md:flex-row md:items-end justify-between gap-3"
             >
-                <div className="min-w-0 flex-1">
+                <div className="absolute -top-8 -right-8 w-36 h-36 opacity-[0.06] pointer-events-none">
+                    <LottieAnimation src={targetAnimation} className="w-full h-full" pingPong />
+                </div>
+                <div className="min-w-0 flex-1 relative z-10">
                     <motion.h1
                         initial={{ opacity: 0, x: -12 }}
                         animate={{ opacity: 1, x: 0 }}
@@ -414,7 +420,7 @@ const PracticeConfig = () => {
                     initial={{ opacity: 0, scale: 0.92 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.15 }}
-                    className="bg-surface border border-white/5 p-0.5 md:p-1 rounded-lg md:rounded-xl flex items-center gap-0.5 md:gap-1 shadow-lg self-start md:self-end shrink-0"
+                    className="bg-surface border border-white/5 p-0.5 md:p-1 rounded-lg md:rounded-xl flex items-center gap-0.5 md:gap-1 shadow-lg self-start md:self-end shrink-0 relative z-10"
                 >
                     <button onClick={() => setIsTimed(false)} className={`flex items-center gap-1 md:gap-2 px-2.5 md:px-4 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${!isTimed ? 'bg-primary text-black shadow-lg shadow-primary/20' : 'text-white/20 hover:text-white/40'}`}>
                         Untimed
@@ -522,7 +528,9 @@ const PracticeConfig = () => {
                         </motion.div>
                         {selectedExam.subjects.length === 0 && (
                             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.15 }} className="p-6 rounded-2xl border border-white/5 bg-surface text-center flex flex-col items-center gap-4">
-                                <Target className="w-12 h-12 opacity-20" />
+                                <div className="w-12 h-12 opacity-40">
+                                    <LottieAnimation src={targetAnimation} className="w-full h-full" pingPong />
+                                </div>
                                 <p className="text-white/50 text-sm font-medium">No questions are available for this exam yet.</p>
                             </motion.div>
                         )}
@@ -573,7 +581,9 @@ const PracticeConfig = () => {
                                                     transition={{ delay: 0.15 }}
                                                     className="col-span-2 py-8 text-center border-2 border-dashed border-white/5 rounded-2xl flex flex-col items-center gap-3"
                                                 >
-                                                    <CheckList className="w-12 h-12 opacity-20" />
+                                                    <div className="w-12 h-12 opacity-40">
+                                                        <LottieAnimation src={meditatingBrainAnimation} className="w-full h-full" pingPong />
+                                                    </div>
                                                     <p className="text-xs text-white/10 font-black uppercase tracking-widest">Chapters Coming Soon!</p>
                                                 </motion.div>
                                             )}

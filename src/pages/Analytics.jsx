@@ -3,6 +3,8 @@ import { Target, TrendingUp, AlertTriangle, CheckCircle2, Brain, Activity, Downl
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { ChartUp, Trophy } from '../components/Illustrations';
+import LottieAnimation from '../components/LottieAnimation';
+import dataAnalyticsAnimation from '../assets/data-analytics.json';
 
 const Analytics = () => {
     const { user, profile } = useAuth();
@@ -200,13 +202,18 @@ const Analytics = () => {
                 </div>
 
                 <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[2.5rem] p-6 md:p-8 space-y-6 md:space-y-8 relative overflow-hidden">
-                    <div className="absolute -right-8 -top-8 opacity-[0.03] pointer-events-none hidden md:block">
-                        <Brain size={120} />
+                    <div className="absolute -right-8 -top-8 w-40 h-40 opacity-[0.06] pointer-events-none hidden md:block">
+                        <LottieAnimation src={dataAnalyticsAnimation} className="w-full h-full" pingPong />
                     </div>
 
-                    <div>
-                        <h3 className="text-lg md:text-xl font-black text-white uppercase">Neural Diagnostics</h3>
-                        <p className="text-[10px] font-bold text-white/20 uppercase tracking-widest mt-1">AI-Powered weak area detection</p>
+                    <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 shrink-0 hidden sm:block">
+                            <LottieAnimation src={dataAnalyticsAnimation} className="w-full h-full" pingPong />
+                        </div>
+                        <div>
+                            <h3 className="text-lg md:text-xl font-black text-white uppercase">Neural Diagnostics</h3>
+                            <p className="text-[10px] font-bold text-white/20 uppercase tracking-widest mt-1">AI-Powered weak area detection</p>
+                        </div>
                     </div>
 
                     <div className="space-y-5">

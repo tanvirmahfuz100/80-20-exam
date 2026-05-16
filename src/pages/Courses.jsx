@@ -3,6 +3,8 @@ import { Play, Lock, User } from 'lucide-react';
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { Books } from '../components/Illustrations';
+import LottieAnimation from '../components/LottieAnimation';
+import booksAnimation from '../assets/books.json';
 
 const Courses = () => {
     const { profile } = useAuth();
@@ -34,8 +36,11 @@ const Courses = () => {
 
     return (
         <div className="max-w-7xl mx-auto space-y-8 md:space-y-12">
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 md:gap-8">
-                <div>
+            <div className="relative overflow-hidden rounded-3xl bg-surface p-6 md:p-8 shadow-2xl shadow-black/30 flex flex-col md:flex-row md:items-end justify-between gap-6 md:gap-8">
+                <div className="absolute -bottom-8 -right-8 w-44 h-44 opacity-[0.06] pointer-events-none">
+                    <LottieAnimation src={booksAnimation} className="w-full h-full" pingPong />
+                </div>
+                <div className="relative z-10">
                     <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter mb-3 md:mb-4">
                         MASTER <span className="text-primary uppercase">EVERYTHING.</span>
                     </h1>
@@ -116,7 +121,9 @@ const Courses = () => {
                     </div>
                 )) : (
                     <div className="col-span-full py-16 md:py-20 text-center border-2 border-dashed border-white/5 rounded-2xl md:rounded-[3rem] flex flex-col items-center gap-4">
-                        <Books className="w-20 h-20 md:w-28 md:h-28 opacity-15" />
+                        <div className="w-20 h-20 md:w-28 md:h-28 opacity-30">
+                            <LottieAnimation src={booksAnimation} className="w-full h-full" pingPong />
+                        </div>
                         <p className="text-white/10 font-black uppercase tracking-widest">More Courses Coming Soon!</p>
                     </div>
                 )}
