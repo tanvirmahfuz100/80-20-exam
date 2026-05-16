@@ -183,30 +183,62 @@ const SubjectCard = ({ subject, isSelected, onClick, progress }) => {
     );
 };
 
-const ChapterItem = ({ chapter, onClick, questionCount, completedCount }) => {
+const ChapterItem = ({ chapter, onClick, questionCount, completedCount, index }) => {
     const hasQuestions = questionCount > 0;
+    const cleanName = chapter.name.replace(/ Questions$/, '');
+    const padIndex = String(index + 1).padStart(2, '0');
+    const pct = questionCount > 0 ? Math.min(Math.round((completedCount / questionCount) * 100), 100) : 0;
+
     return (
-        <div className="flex flex-col gap-2.5 p-4 bg-surface border border-white/5 rounded-xl hover:border-primary/30 transition-all hover:bg-white/5 active:scale-[0.99]">
-            <div className="flex items-center justify-between">
-                <div className="flex-1 min-w-0 pr-3">
-                    <h4 className="font-bold text-white text-sm truncate leading-tight">{chapter.name}</h4>
-                    <div className="flex items-center gap-1.5 mt-0.5">
-                        {hasQuestions ? (
-                            <span className="text-[9px] font-bold text-primary/50">{questionCount} Questions</span>
-                        ) : (
-                            <span className="text-[9px] font-bold text-white/15">Coming Soon</span>
-                        )}
-                    </div>
+        <motion.div
+            className={`relative rounded-xl border transition-all ${
+                hasQuestions
+                    ? 'bg-surface border-white/5 hover:border-primary/30 hover:bg-white/[0.03]'
+                    : 'bg-surface/50 border-white/[0.04] opacity-50'
+            }`}
+        >
+            <div className="grid grid-cols-[auto_1fr_auto] items-center gap-3 p-4">
+                <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 font-black text-sm ${
+                    hasQuestions ? 'bg-primary/15 text-primary' : 'bg-white/[0.04] text-white/15'
+                }`}>
+                    {padIndex}
                 </div>
+
+                <div className="min-w-0">
+                    <h4 className={`font-black tracking-tight text-sm leading-tight truncate ${
+                        hasQuestions ? 'text-white' : 'text-white/40'
+                    }`}>{cleanName}</h4>
+                    {hasQuestions ? (
+                        <p className="text-[10px] font-bold text-primary/60 mt-0.5">{questionCount} Questions</p>
+                    ) : (
+                        <p className="text-[10px] font-bold text-white/15 mt-0.5">Coming Soon</p>
+                    )}
+                    {hasQuestions && (
+                        <div className="flex items-center gap-2 mt-2">
+                            <div className="flex-1 h-1.5 bg-white/10 rounded-full overflow-hidden max-w-[7rem]">
+                                <motion.div
+                                    className="h-full rounded-full bg-primary"
+                                    initial={{ width: 0 }}
+                                    animate={{ width: `${pct}%` }}
+                                    transition={{ duration: 0.6, ease: 'easeOut' }}
+                                />
+                            </div>
+                            <span className="text-[10px] font-black tabular-nums text-primary/60 w-7 text-right shrink-0">{pct}%</span>
+                        </div>
+                    )}
+                </div>
+
                 {hasQuestions && (
-                    <button onClick={() => onClick(chapter)} className="flex items-center gap-2 px-4 py-2.5 bg-primary text-black font-black uppercase tracking-widest rounded-xl hover:bg-primary-hover transition-all text-[9px] shadow-lg shadow-primary/10 active:scale-95 shrink-0">
+                    <button
+                        onClick={() => onClick(chapter)}
+                        className="flex items-center gap-1.5 px-4 py-2.5 bg-primary text-black font-black uppercase tracking-widest rounded-xl hover:bg-primary-hover transition-all text-[9px] shadow-lg shadow-primary/10 active:scale-95 shrink-0"
+                    >
                         <Play className="w-3 h-3 fill-current" />
                         Start
                     </button>
                 )}
             </div>
-            {hasQuestions && <ProgressBar completed={completedCount} total={questionCount} />}
-        </div>
+        </motion.div>
     );
 };
 
@@ -574,14 +606,30 @@ const PracticeConfig = () => {
                 {step === 2 && selectedSubject && (
                     <motion.div key="step-chapters" variants={fadeUp} initial="initial" animate="animate" exit="exit" transition={{ duration: 0.25 }} className="space-y-4">
 
-                        <motion.div variants={stagger} initial="initial" animate="animate" className="grid grid-cols-1 gap-6">
-                            {selectedSubject.topics.map((topic, ti) => (
-                                <motion.div key={topic.id} variants={cardSlide}>
-                                    <div className="space-y-3">
-                                        <div className="flex items-center gap-3 px-4 py-3 bg-white/[0.02] border border-white/[0.04] rounded-xl">
-                                            <div className="w-1 h-6 bg-primary rounded-full shrink-0"></div>
-                                            <h3 className="text-base font-black text-white tracking-tight uppercase">{topic.name}</h3>
-                                        </div>
+                        <motion.div
+                            initial={{ opacity: 0, x: -12 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ delay: 0.05 }}
+                            className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.2em]"
+                        >
+                            <span className="text-white/30">{selectedExam.label}</span>
+                            <span className="text-white/10">/</span>
+                            <span className="text-primary">{selectedSubject.name}</span>
+                        </motion.div>
+
+                        <motion.div variants={stagger} initial="initial" animate="animate" className="space-y-4">
+                            {selectedSubject.topics.map((topic, ti) => {
+                                const allEmpty = topic.chapters.every(ch => (chapterQuestionCounts[getChapterFile(ch)] ?? 0) === 0);
+                                if (allEmpty && topic.chapters.length > 0) return null;
+
+                                return (
+                                    <motion.div key={topic.id} variants={cardSlide}>
+                                        {topic.chapters.length > 1 && (
+                                            <div className="flex items-center gap-2 pb-1.5">
+                                                <div className="w-0.5 h-3 bg-primary/40 rounded-full shrink-0" />
+                                                <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/20">{topic.name}</span>
+                                            </div>
+                                        )}
                                         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                                             {topic.chapters.length > 0 ? (
                                                 topic.chapters.map((chapter, ci) => (
@@ -593,6 +641,7 @@ const PracticeConfig = () => {
                                                     >
                                                         <ChapterItem
                                                             chapter={chapter}
+                                                            index={ci}
                                                             onClick={handleStart}
                                                             questionCount={chapterQuestionCounts[getChapterFile(chapter)] ?? 0}
                                                             completedCount={chapterCompletedCounts[getChapterFile(chapter)] ?? 0}
@@ -613,9 +662,9 @@ const PracticeConfig = () => {
                                                 </motion.div>
                                             )}
                                         </div>
-                                    </div>
-                                </motion.div>
-                            ))}
+                                    </motion.div>
+                                );
+                            })}
                         </motion.div>
 
                         <motion.div
