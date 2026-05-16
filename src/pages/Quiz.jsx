@@ -190,6 +190,7 @@ const normalizeQuizQuestions = (payload) => {
             explanation_bn: question.explanation_bn || question.explanationBn || '',
             explanation_en: question.explanation_en || question.explanationEn || '',
             explanation_distractors: question.explanation_distractors || [],
+            source: question.source || question.exam_appearance || '',
             difficulty: question.difficulty || 'medium'
         }];
     });

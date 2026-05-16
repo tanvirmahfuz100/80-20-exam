@@ -33,6 +33,20 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
     return parts;
   }, [passage]);
 
+  const shuffledOptionsMap = useMemo(() => {
+    const map = {};
+    blanks.forEach(blank => {
+      const id = blank.blankId || blank.id;
+      const opts = [...(blank.options || [])];
+      for (let i = opts.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [opts[i], opts[j]] = [opts[j], opts[i]];
+      }
+      map[id] = opts;
+    });
+    return map;
+  }, [blanks]);
+
   const getBlankData = useCallback((blankId) => {
     return blanks.find(b => b.blankId === blankId || b.id === blankId);
   }, [blanks]);
@@ -231,7 +245,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
           >
             <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-2.5 h-2.5 bg-surface border-t border-l border-white/10 rotate-45" />
             <div className="relative pt-1">
-              {activeBlankData.options.map((opt, idx) => {
+              {(shuffledOptionsMap[activeBlankData.blankId || activeBlankData.id] || activeBlankData.options).map((opt, idx) => {
                 const optionText = typeof opt === 'string' ? opt : opt.text;
                 const isCorrect = typeof opt === 'string' ? optionText === activeBlankData.correct_answer : opt.isCorrect;
                 const explanationBn = opt?.explanationBn || opt?.explanation_bn || '';
