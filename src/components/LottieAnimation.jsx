@@ -1,7 +1,7 @@
 import React, { useRef, useCallback, useEffect } from 'react';
 import Lottie from 'lottie-react';
 
-const LottieAnimation = ({ src, className = 'w-48 h-48', loop = true, autoplay = true, pingPong = false, delay = 2500 }) => {
+const LottieAnimation = ({ src, className = 'w-48 h-48', lottieStyle, loop = true, autoplay = true, pingPong = false, delay = 2500 }) => {
   const lottieRef = useRef();
   const directionRef = useRef(1);
   const timerRef = useRef(null);
@@ -43,12 +43,13 @@ const LottieAnimation = ({ src, className = 'w-48 h-48', loop = true, autoplay =
           loop={false}
           autoplay={true}
           onComplete={handleComplete}
+          style={lottieStyle}
         />
       </div>
     );
   }
 
-  return <div className={className}><Lottie animationData={src} loop={loop} autoplay={autoplay} /></div>;
+  return <div className={className}><Lottie animationData={src} loop={loop} autoplay={autoplay} style={lottieStyle} /></div>;
 };
 
 export default LottieAnimation;

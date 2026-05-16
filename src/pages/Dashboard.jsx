@@ -370,11 +370,11 @@ const Dashboard = () => {
           <div className="relative overflow-hidden rounded-3xl bg-surface p-6 shadow-2xl shadow-black/30">
             <div className="absolute top-0 right-0 w-48 h-48 bg-primary/[0.03] rounded-full blur-3xl pointer-events-none" />
             <div className="absolute -top-8 -right-8 w-36 h-36 opacity-[0.08] pointer-events-none">
-              <LottieAnimation src={gameControllerAnimation} className="w-full h-full" pingPong />
+              <LottieAnimation src={gameControllerAnimation} className="w-full h-full" lottieStyle={{ transform: 'scale(1.5)', transformOrigin: 'center center' }} pingPong />
             </div>
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 shrink-0 hidden sm:block">
-                <LottieAnimation src={gameControllerAnimation} className="w-full h-full" pingPong />
+              <div className="w-12 h-12 shrink-0 hidden sm:block overflow-hidden flex items-center justify-center">
+                <LottieAnimation src={gameControllerAnimation} className="w-full h-full" lottieStyle={{ transform: 'scale(1.5)', transformOrigin: 'center center' }} pingPong />
               </div>
               <div className="min-w-0 flex-1 space-y-2">
                 <div className="flex items-center gap-1.5">
