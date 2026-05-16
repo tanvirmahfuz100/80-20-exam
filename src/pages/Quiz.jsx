@@ -660,7 +660,7 @@ const Quiz = () => {
             </div>
 
             <div className="flex-1 flex flex-col min-h-0 mt-3 md:mt-4">
-                <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[32px] flex-1 flex flex-col p-4 md:p-5 overflow-hidden">
+                    <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[32px] flex-1 flex flex-col p-4 md:p-5 overflow-hidden quiz-card" style={{ maxHeight: 'calc(100vh - 160px)' }}>
                     {gapFillGroup ? (
                         <GapFillPassage
                             key={gapFillGroup.startIndex}
@@ -757,7 +757,7 @@ const Quiz = () => {
                                 )}
                             </div>
 
-                            <h3 className="font-black text-white leading-tight mb-1.5 selection:bg-primary/30 tracking-tight text-sm md:text-lg lg:text-xl max-h-[15vh] md:max-h-[25vh] overflow-y-auto">
+                            <h3 className="font-black text-white leading-tight mb-1.5 selection:bg-primary/30 tracking-tight text-sm md:text-lg lg:text-xl">
                                 {stripMath(currentQ.text)}
                             </h3>
 
@@ -802,7 +802,7 @@ const Quiz = () => {
                                                                 }`}>
                                                                 {String.fromCharCode(65 + idx)}
                                                             </span>
-                                                            <span className={`font-bold tracking-tight ${isManyOptions ? 'text-[12px] md:text-sm truncate' : 'text-[13px] md:text-base truncate'}`}>{stripMath(option.text)}</span>
+                                                            <span className={`font-bold tracking-tight ${isManyOptions ? 'text-[12px] md:text-sm md:truncate' : 'text-[13px] md:text-base md:truncate'}`}>{stripMath(option.text)}</span>
                                                         </div>
                                                         {state === 'correct' && <CheckCircle className="w-3.5 h-3.5 md:w-5 md:h-5 text-emerald-400 animate-in zoom-in-0 shrink-0" />}
                                                         {state === 'wrong' && (

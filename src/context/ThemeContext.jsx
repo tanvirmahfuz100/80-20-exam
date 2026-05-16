@@ -3,6 +3,13 @@ import React, { createContext, useContext, useState, useEffect, useCallback } fr
 const THEME_KEY = '80-20-exam-theme';
 const DARK = 'dark';
 const LIGHT = 'light';
+const FONT_SIZE_KEY = '80-20-exam-font-size';
+
+const FONT_SIZE_MAP = {
+  small: '14px',
+  normal: '16px',
+  large: '18px'
+};
 
 const ThemeContext = createContext();
 
@@ -24,6 +31,14 @@ const getInitialTheme = () => {
   return getSystemPreference();
 };
 
+const getInitialFontSize = () => {
+  try {
+    const stored = localStorage.getItem(FONT_SIZE_KEY);
+    if (stored && FONT_SIZE_MAP[stored]) return stored;
+  } catch {}
+  return 'normal';
+};
+
 const applyTheme = (theme) => {
   if (typeof document === 'undefined') return;
   if (theme === LIGHT) {
@@ -33,8 +48,15 @@ const applyTheme = (theme) => {
   }
 };
 
+const applyFontSize = (sizeKey) => {
+  if (typeof document === 'undefined') return;
+  const v = FONT_SIZE_MAP[sizeKey] || FONT_SIZE_MAP.normal;
+  document.documentElement.style.setProperty('--app-font-size', v);
+};
+
 export const ThemeProvider = ({ children }) => {
   const [theme, setThemeState] = useState(() => getInitialTheme());
+  const [fontSize, setFontSizeState] = useState(() => getInitialFontSize());
 
   useEffect(() => {
     applyTheme(theme);
@@ -42,6 +64,13 @@ export const ThemeProvider = ({ children }) => {
       localStorage.setItem(THEME_KEY, theme);
     } catch {}
   }, [theme]);
+
+  useEffect(() => {
+    applyFontSize(fontSize);
+    try {
+      localStorage.setItem(FONT_SIZE_KEY, fontSize);
+    } catch {}
+  }, [fontSize]);
 
   useEffect(() => {
     let mq;
@@ -72,10 +101,15 @@ export const ThemeProvider = ({ children }) => {
     setThemeState((prev) => (prev === DARK ? LIGHT : DARK));
   }, []);
 
+  const setFontSize = useCallback((sizeKey) => {
+    if (!FONT_SIZE_MAP[sizeKey]) return;
+    setFontSizeState(sizeKey);
+  }, []);
+
   const isDark = theme === DARK;
 
   return (
-    <ThemeContext.Provider value={{ theme, setTheme, toggleTheme, isDark }}>
+    <ThemeContext.Provider value={{ theme, setTheme, toggleTheme, isDark, fontSize, setFontSize }}>
       {children}
     </ThemeContext.Provider>
   );

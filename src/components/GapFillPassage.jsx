@@ -59,7 +59,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
     const rect = event.currentTarget.getBoundingClientRect();
     const gap = 8;
     const padding = 16;
-    const popoverWidth = Math.min(220, window.innerWidth - padding * 2);
+    const popoverWidth = Math.min(180, window.innerWidth - padding * 2);
     const maxHeight = Math.min(200, window.innerHeight - gap * 2);
     const optCount = blankData.options?.length || 1;
     const popoverHeight = Math.min(maxHeight, optCount * 44 + 16);
@@ -146,8 +146,8 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
   const activeBlankData = activePopover ? getBlankData(activePopover.blankId) : null;
 
   return (
-    <div className="flex-1 flex flex-col min-h-0 gap-4">
-      <div className="flex-1 overflow-y-auto min-h-0 space-y-4">
+    <div className="flex-1 flex flex-col min-h-0 gap-3">
+      <div className="flex-1 overflow-y-auto min-h-0 space-y-3" style={{ WebkitOverflowScrolling: 'touch' }}>
         <p className="text-text text-sm md:text-base leading-relaxed font-medium whitespace-pre-wrap">
           {segments.map((seg, i) => {
             if (seg.type === 'text') {
@@ -166,8 +166,8 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
                 onClick={hasData ? (e) => handleBlankClick(seg.blankId, e) : undefined}
                 className={`
                   relative inline-flex items-center gap-1 mx-0.5 px-2 py-0.5
-                  min-w-[60px] justify-center
-                  font-bold text-sm md:text-base leading-relaxed
+                  min-w-[48px] md:min-w-[60px] justify-center
+                  font-bold text-[12px] md:text-base leading-relaxed
                   transition-all duration-200 select-none
                   border-b-[3px]
                   ${hasData && (!isAnswered || !answer.isCorrect) ? 'cursor-pointer' : 'cursor-default'}
@@ -190,7 +190,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
                     </span>
                   )
                 ) : (
-                  <span className={`text-[10px] font-black uppercase tracking-wider ${hasData ? '' : 'opacity-40'}`}>
+                  <span className={`text-[10px] md:text-[11px] font-black uppercase tracking-wider ${hasData ? '' : 'opacity-40'}`}>
                     ({seg.blankId})
                   </span>
                 )}
@@ -201,7 +201,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
 
         {boxWords?.length > 0 && (
           <div className="flex flex-wrap items-center gap-1.5">
-            <span className="text-[8px] font-black uppercase tracking-[0.2em] text-text-dim mr-0.5">Box:</span>
+            <span className="text-[8px] md:text-[9px] font-black uppercase tracking-[0.2em] text-text-dim mr-0.5">Box:</span>
             {boxWords.map((word) => (
               <span key={word} className="px-1.5 md:px-2 py-0.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-[8px] md:text-[9px] font-black uppercase tracking-widest">
                 {word}
@@ -221,10 +221,10 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
         </div>
       </div>
 
-      <div className="shrink-0">
+      <div className="shrink-0 sticky bottom-3 px-0 safe-bottom">
         <button
           onClick={onContinue}
-          className="w-full py-3 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.98]"
+          className="w-full py-3 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[11px] md:text-[10px] transition-all active:scale-[0.98]"
         >
           {answeredCount > 0 ? `Continue (${answeredCount}/${totalBlanks})` : 'Skip'}
         </button>

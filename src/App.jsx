@@ -8,6 +8,7 @@ import Quiz from './pages/Quiz';
 import Login from './pages/Login';
 import Admin from './pages/Admin';
 import { AuthProvider, useAuth } from './context/AuthContext';
+import { useTheme } from './context/ThemeContext';
 import Courses from './pages/Courses';
 import QuestionBank from './pages/QuestionBank';
 import MockTests from './pages/MockTests';
@@ -42,13 +43,20 @@ const OnboardingModal = ({ onComplete }) => {
   const [step, setStep] = useState(0);
   const [username, setUsername] = useState(profile?.username || user?.user_metadata?.username || '');
   const [version, setVersion] = useState('bangla');
+  const { setTheme, setFontSize } = useTheme();
+  const [themeChoice, setThemeChoice] = useState(profile?.theme || 'dark');
+  const [fontSizeChoice, setFontSizeChoice] = useState(profile?.fontSize || 'normal');
   const [saving, setSaving] = useState(false);
 
   const handleFinish = async () => {
     setSaving(true);
     const name = username.trim() || 'Student';
-    updateProfileFields({ username: name, question_version: version });
-    await api.updateProfile(user.id, { username: name, question_version: version });
+    updateProfileFields({ username: name, question_version: version, theme: themeChoice, fontSize: fontSizeChoice });
+    // persist to profiles store as well
+    await api.updateProfile(user.id, { username: name, question_version: version, theme: themeChoice, fontSize: fontSizeChoice });
+    // apply theme + font size immediately
+    try { setTheme(themeChoice); } catch {}
+    try { setFontSize(fontSizeChoice); } catch {}
     setSaving(false);
     onComplete();
   };
@@ -130,6 +138,41 @@ const OnboardingModal = ({ onComplete }) => {
               ))}
             </div>
 
+            <div className="mt-3 space-y-3">
+              <div>
+                <p className="text-[10px] md:text-sm font-black uppercase tracking-wider text-white/40 mb-2">Theme</p>
+                <div className="flex gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setThemeChoice('dark')}
+                    className={`flex-1 rounded-xl py-2 ${themeChoice === 'dark' ? 'bg-primary/15 border-primary' : 'bg-white/5 border-white/10'}`}>
+                    Dark
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setThemeChoice('light')}
+                    className={`flex-1 rounded-xl py-2 ${themeChoice === 'light' ? 'bg-primary/15 border-primary' : 'bg-white/5 border-white/10'}`}>
+                    Light
+                  </button>
+                </div>
+              </div>
+
+              <div>
+                <p className="text-[10px] md:text-sm font-black uppercase tracking-wider text-white/40 mb-2">Text Size</p>
+                <div className="flex gap-2">
+                  {['small','normal','large'].map(sz => (
+                    <button
+                      key={sz}
+                      type="button"
+                      onClick={() => setFontSizeChoice(sz)}
+                      className={`flex-1 rounded-xl py-2 ${fontSizeChoice === sz ? 'bg-primary/15 border-primary' : 'bg-white/5 border-white/10'}`}>
+                      {sz === 'small' ? 'Small' : sz === 'normal' ? 'Normal' : 'Large'}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
+
             <button
               onClick={handleFinish}
               disabled={saving}
@@ -155,6 +198,7 @@ const ProtectedRoute = ({ children, allowedRole }) => {
 const AppContent = () => {
   const location = useLocation();
   const { user, profile } = useAuth();
+  const { setTheme, setFontSize } = useTheme();
   const [showOnboarding, setShowOnboarding] = useState(false);
   const prevPathRef = React.useRef(location.pathname);
 
@@ -177,6 +221,17 @@ const AppContent = () => {
       setShowOnboarding(false);
     }
   }, [user, profile]);
+
+  // Apply saved appearance settings from profile (if present)
+  useEffect(() => {
+    if (!profile) return;
+    try {
+      if (profile.theme) setTheme(profile.theme);
+    } catch {}
+    try {
+      if (profile.fontSize) setFontSize(profile.fontSize);
+    } catch {}
+  }, [profile, setTheme, setFontSize]);
 
   const handleOnboardingComplete = () => {
     setShowOnboarding(false);

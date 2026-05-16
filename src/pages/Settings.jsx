@@ -10,7 +10,7 @@ import { StudyDesk } from '../components/Illustrations';
 
 const Settings = () => {
     const { user, profile, loading: authLoading, updateProfileFields } = useAuth();
-    const { theme, setTheme, isDark } = useTheme();
+    const { theme, setTheme, isDark, fontSize, setFontSize } = useTheme();
     const [loading, setLoading] = useState(false);
     const [message, setMessage] = useState({ type: '', text: '' });
 
@@ -55,11 +55,13 @@ const Settings = () => {
                 phone_number: formData.phone_number,
                 target_exams: formData.target_exams,
                 question_version: formData.question_version,
+                theme,
+                fontSize: fontSize,
                 updated_at: new Date().toISOString()
             });
 
             if (!error) {
-                updateProfileFields({ question_version: formData.question_version });
+                updateProfileFields({ question_version: formData.question_version, theme, fontSize });
             }
 
             if (error) throw error;
@@ -236,6 +238,20 @@ const Settings = () => {
                                     <p className={`text-sm font-black uppercase tracking-tight ${!isDark ? 'text-primary' : 'text-text'}`}>Light</p>
                                     <p className="text-[10px] text-text-muted font-medium mt-1">Bright & clean</p>
                                 </button>
+                            </div>
+                            <div className="mt-4">
+                                <p className="text-text-muted text-sm font-medium">Text Size</p>
+                                <div className="flex gap-2 mt-2">
+                                    {['small', 'normal', 'large'].map((sz) => (
+                                        <button
+                                            key={sz}
+                                            type="button"
+                                            onClick={() => setFontSize(sz)}
+                                            className={`flex-1 p-3 rounded-xl border text-center text-[13px] font-black uppercase ${fontSize === sz ? 'bg-primary/10 border-primary' : 'bg-background border-white/5'}`}>
+                                            {sz === 'small' ? 'Small' : sz === 'normal' ? 'Normal' : 'Large'}
+                                        </button>
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     </div>

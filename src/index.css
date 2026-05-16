@@ -6,6 +6,7 @@
 
 @layer base {
   :root {
+    --app-font-size: 16px;
     --color-background: 0 0 0;
     --color-sidebar: 8 8 8;
     --color-surface: 12 12 13;
@@ -36,6 +37,7 @@
   }
 
   html {
+    font-size: var(--app-font-size);
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
   }
@@ -69,6 +71,26 @@
   ::selection {
     background: rgba(94, 106, 210, 0.4);
     color: #ffffff;
+  }
+}
+
+@media (max-width: 380px) and (max-height: 700px) {
+  :root {
+    --app-font-size: 13px;
+  }
+
+  .quiz-card {
+    padding: 8px !important;
+    border-radius: 12px !important;
+  }
+
+  .quiz-card .mb-3, .quiz-card .mt-2, .quiz-card .mt-3 {
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+  }
+
+  .quiz-card h3, .quiz-card h4, .quiz-card p {
+    line-height: 1.05;
   }
 }
 
