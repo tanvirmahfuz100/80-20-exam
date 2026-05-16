@@ -8,7 +8,15 @@ const FONT_SIZE_KEY = '80-20-exam-font-size';
 const FONT_SIZE_MAP = {
   small: '14px',
   normal: '16px',
-  large: '18px'
+  large: '18px',
+  xlarge: '21px',
+};
+
+const FONT_SIZE_LABELS = {
+  small: 'Small (14px)',
+  normal: 'Normal (16px)',
+  large: 'Large (18px)',
+  xlarge: 'X-Large (21px)',
 };
 
 const ThemeContext = createContext();
@@ -45,6 +53,11 @@ const applyTheme = (theme) => {
     document.documentElement.setAttribute('data-theme', LIGHT);
   } else {
     document.documentElement.removeAttribute('data-theme');
+  }
+  // Update theme-color meta
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) {
+    meta.content = theme === LIGHT ? '#f0f0f4' : '#000000';
   }
 };
 
@@ -109,7 +122,16 @@ export const ThemeProvider = ({ children }) => {
   const isDark = theme === DARK;
 
   return (
-    <ThemeContext.Provider value={{ theme, setTheme, toggleTheme, isDark, fontSize, setFontSize }}>
+    <ThemeContext.Provider value={{
+      theme, setTheme, toggleTheme, isDark,
+      fontSize, setFontSize,
+      fontSizeValue: FONT_SIZE_MAP[fontSize] || FONT_SIZE_MAP.normal,
+      fontSizeOptions: Object.entries(FONT_SIZE_MAP).map(([key, val]) => ({
+        key,
+        label: FONT_SIZE_LABELS[key] || key,
+        value: val,
+      })),
+    }}>
       {children}
     </ThemeContext.Provider>
   );

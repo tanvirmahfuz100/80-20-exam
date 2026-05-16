@@ -6,6 +6,39 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: '375px',
+        '3xl': '1920px',
+        '4k': '2560px',
+        tv: '3840px',
+      },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: '1rem',
+          sm: '1.25rem',
+          md: '1.5rem',
+          lg: '2rem',
+          xl: '3rem',
+          '2xl': '4rem',
+        },
+      },
+      spacing: {
+        'safe-bottom': 'env(safe-area-inset-bottom, 0px)',
+        'safe-top': 'env(safe-area-inset-top, 0px)',
+        'safe-left': 'env(safe-area-inset-left, 0px)',
+        'safe-right': 'env(safe-area-inset-right, 0px)',
+      },
+      minHeight: {
+        touch: '44px',
+      },
+      minWidth: {
+        touch: '44px',
+      },
+      fontSize: {
+        '2xs': ['0.625rem', { lineHeight: '0.875rem' }],
+        '3xs': ['0.5rem', { lineHeight: '0.75rem' }],
+      },
       colors: {
         background: 'rgb(var(--color-background) / <alpha-value>)',
         sidebar: 'rgb(var(--color-sidebar) / <alpha-value>)',
@@ -27,7 +60,10 @@ export default {
       },
       fontFamily: {
         sans: ['Nunito Sans', 'Noto Sans Bengali', 'system-ui', 'sans-serif'],
-      }
+      },
+      animation: {
+        'pulse-soft': 'pulse 3s ease-in-out infinite',
+      },
     },
   },
   plugins: [],
