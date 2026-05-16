@@ -12,8 +12,8 @@ const VideoFeed = () => {
         const fetchVideos = async () => {
             const { data } = await api.getShortVideos();
             setVideos(data || [
-                { id: '1', title: 'IBA Math Shortcut #01', video_url: 'https://cdn.pixabay.com/video/2021/04/12/70860-537443831_large.mp4', likes_count: 1240, saves_count: 450, thumbnail_url: '' },
-                { id: '2', title: 'English Vocabulary Hack', video_url: 'https://cdn.pixabay.com/video/2020/07/28/45749-445851412_large.mp4', likes_count: 890, saves_count: 230, thumbnail_url: '' }
+                { id: '1', title: 'IBA Math Shortcut #01', video_url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4', likes_count: 1240, saves_count: 450, thumbnail_url: '' },
+                { id: '2', title: 'English Vocabulary Hack', video_url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4', likes_count: 890, saves_count: 230, thumbnail_url: '' }
             ]);
             setLoading(false);
         };

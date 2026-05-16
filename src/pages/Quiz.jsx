@@ -624,7 +624,7 @@ const Quiz = () => {
     const isManyOptions = (shuffledOptions?.length || 0) >= 5;
 
     return (
-        <div className="quiz-content h-dvh flex flex-col overflow-hidden px-2 xs:px-3 md:px-0 w-full safe-bottom" role="main" aria-label="Quiz session">
+        <div className="h-dvh flex flex-col overflow-hidden px-0 w-full safe-bottom" role="main" aria-label="Quiz session">
             <div className="pointer-events-none fixed inset-0 z-[60] motion-safe-only">
                 {flyingStars.map((star) => (
                     <motion.div
@@ -640,70 +640,79 @@ const Quiz = () => {
                 ))}
             </div>
 
-            <div className="flex items-center justify-between gap-2 pt-2 md:pt-4 shrink-0 safe-top">
-                <div className="flex items-center gap-2 min-w-0">
-                    <button onClick={() => navigate('/practice')} className="p-2 md:p-2.5 bg-white/5 hover:bg-white/10 rounded-xl md:rounded-2xl text-white/40 hover:text-white transition-all border border-white/5 active:scale-95 shrink-0 touch-target flex items-center justify-center" aria-label="Back to practice">
-                        <ArrowLeft className="w-4 h-4 md:w-5 md:h-5" />
+            <div className="flex items-center justify-between gap-2 px-3 md:px-4 pt-1 md:pt-3 shrink-0 safe-top">
+                <div className="flex items-center gap-2 min-w-0 flex-1">
+                    <button
+                        onClick={() => navigate('/practice')}
+                        className="p-2 bg-white/5 hover:bg-white/10 rounded-xl text-white/40 hover:text-white transition-all border border-white/5 active:scale-95 shrink-0 flex items-center justify-center"
+                        style={{ minWidth: 40, minHeight: 40 }}
+                        aria-label="Back to practice"
+                    >
+                        <ArrowLeft className="w-4 h-4" />
                     </button>
-                    <h4 className="text-white font-black tracking-tighter text-sm md:text-lg lg:text-xl uppercase truncate">{title}</h4>
+                    <div className="min-w-0 flex-1 max-w-[160px] xs:max-w-[200px]">
+                        <div className="flex items-center justify-between gap-1.5 mb-0.5">
+                            <span className="text-white/90 font-bold text-[13px] tabular-nums leading-none">{currentIndex + 1}</span>
+                            <span className="text-white/30 text-[10px] font-bold leading-none">/ {questions.length}</span>
+                        </div>
+                        <div className="h-1.5 bg-white/10 rounded-full overflow-hidden">
+                            <motion.div
+                                className="h-full bg-gradient-to-r from-primary to-primary/70 rounded-full"
+                                initial={{ width: 0 }}
+                                animate={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}
+                                transition={{ duration: 0.4, ease: 'easeOut' }}
+                            />
+                        </div>
+                    </div>
                 </div>
-                <div className="flex items-center gap-1.5 md:gap-3 shrink-0">
-                    <div className="flex items-center gap-1 px-2 md:px-3 py-1 rounded-xl bg-white/5 border border-white/10">
+                <div className="flex items-center gap-1 shrink-0">
+                    <div className="flex items-center gap-0.5 px-1.5 py-1 rounded-lg bg-white/5 border border-white/10">
                         <button
                             onClick={() => setQuizFontSize(s => Math.max(12, s - 2))}
-                            className="text-white/60 hover:text-white transition-colors p-1.5 touch-target flex items-center justify-center"
-                            title="Decrease font size"
+                            className="text-white/50 hover:text-white transition-colors p-1 flex items-center justify-center"
+                            style={{ minWidth: 28, minHeight: 28 }}
                             aria-label="Decrease font size"
                         >
-                            <span className="text-sm md:text-base font-black leading-none">A−</span>
+                            <span className="text-[11px] font-black leading-none">A−</span>
                         </button>
-                        <span className="w-px h-4 bg-white/10" aria-hidden="true" />
-                        <span className="text-[10px] md:text-xs font-bold text-white/40 min-w-[20px] text-center leading-none tabular-nums">{quizFontSize}</span>
-                        <span className="w-px h-4 bg-white/10" aria-hidden="true" />
+                        <span className="w-px h-3 bg-white/10" aria-hidden="true" />
                         <button
                             onClick={() => setQuizFontSize(s => Math.min(24, s + 2))}
-                            className="text-white/60 hover:text-white transition-colors p-1.5 touch-target flex items-center justify-center"
-                            title="Increase font size"
+                            className="text-white/50 hover:text-white transition-colors p-1 flex items-center justify-center"
+                            style={{ minWidth: 28, minHeight: 28 }}
                             aria-label="Increase font size"
                         >
-                            <span className="text-sm md:text-base font-black leading-none">A+</span>
+                            <span className="text-[11px] font-black leading-none">A+</span>
                         </button>
                     </div>
                     {isTimedMode && (
-                        <div className="px-2 md:px-3 py-1 rounded-xl bg-white/5 border border-white/10 flex items-center gap-1 md:gap-2 font-mono font-black text-[11px] md:text-sm text-white">
-                            <Clock className="w-3 h-3 md:w-4 md:h-4" />
+                        <div className="px-2 py-1 rounded-lg bg-white/5 border border-white/10 flex items-center gap-1 font-mono font-black text-[11px] text-white">
+                            <Clock className="w-3 h-3" />
                             {formatTime(timeLeft)}
                         </div>
                     )}
-                    <div className="px-2 md:px-3 py-1 rounded-xl bg-white/5 border border-white/10 flex items-center gap-1 md:gap-2">
-                        <Zap className="w-3 h-3 md:w-4 md:h-4 text-primary" />
-                        <span className="text-white font-black text-[10px] md:text-sm tracking-tighter">{totalXpSoFar} XP</span>
+                    <div className="hidden xs:flex items-center gap-1 px-2 py-1 rounded-lg bg-white/5 border border-white/10">
+                        <Zap className="w-3 h-3 text-primary" />
+                        <span className="text-white font-black text-[10px] tabular-nums">{totalXpSoFar}</span>
                     </div>
                     {isReviewSession ? (
-                        <div className="px-2 md:px-3 py-1 rounded-xl bg-white/5 border border-white/10 flex items-center gap-1 md:gap-2">
-                            <RefreshCw className="w-3 h-3 md:w-4 md:h-4 text-emerald-400" />
-                            <span className="text-emerald-400 font-black text-[9px] md:text-sm tracking-tighter">REVIEW</span>
+                        <div className="px-2 py-1 rounded-lg bg-white/5 border border-white/10 flex items-center gap-1">
+                            <RefreshCw className="w-3 h-3 text-emerald-400" />
+                            <span className="text-emerald-400 font-black text-[9px] leading-none">RVW</span>
                         </div>
                     ) : (
-                        <div ref={starTargetRef} className={`px-2 md:px-3 py-1 rounded-xl bg-white/5 border border-white/10 flex items-center gap-1 md:gap-2 transition-all topbar-star-target ${balanceGlow ? 'ring-2 ring-yellow-400/80' : ''}`}>
-                            <svg className="w-3 h-3 md:w-4 md:h-4 text-yellow-300 topbar-star-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <div ref={starTargetRef} className={`px-2 py-1 rounded-lg bg-white/5 border border-white/10 flex items-center gap-1 transition-all topbar-star-target ${balanceGlow ? 'ring-2 ring-yellow-400/80' : ''}`}>
+                            <svg className="w-3 h-3 text-yellow-300 topbar-star-icon" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
                             </svg>
-                            <span className="text-yellow-300 font-black text-[10px] md:text-sm tracking-tighter">{mistakeCount}</span>
+                            <span className="text-yellow-300 font-black text-[10px] tabular-nums">{mistakeCount}</span>
                         </div>
                     )}
                 </div>
             </div>
 
-            <div className="flex items-center gap-3 mt-2 shrink-0">
-                <div className="flex-1 h-3 bg-white/10 rounded-full overflow-hidden shadow-inner ring-1 ring-white/5">
-                    <div className="h-full bg-gradient-to-r from-primary to-primary/70 transition-all duration-500 rounded-full shadow-lg shadow-primary/20" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }} />
-                </div>
-                <span className="text-white/60 font-black text-xs md:text-sm tracking-tighter shrink-0 tabular-nums">{currentIndex + 1}/{questions.length}</span>
-            </div>
-
-            <div className="flex-1 flex flex-col min-h-0 mt-2 xs:mt-3 md:mt-4">
-                    <div className="bg-surface border border-white/5 rounded-2xl md:rounded-[32px] flex-1 flex flex-col p-3 xs:p-4 md:p-5 lg:p-6 overflow-hidden quiz-card" style={{ maxHeight: 'calc(var(--app-available-height, 100vh) - 180px)' }}>
+            <div className="flex-1 flex flex-col min-h-0 px-3 md:px-4 pb-2 md:pb-3 mt-1.5">
+                <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl flex-1 flex flex-col p-3 md:p-5 overflow-hidden quiz-card" style={{ maxHeight: 'calc(var(--app-available-height, 100vh) - 112px)' }}>
                     {gapFillGroup ? (
                         <GapFillPassage
                             key={gapFillGroup.startIndex}
@@ -768,7 +777,7 @@ const Quiz = () => {
                                             SSC Gap Filling - Blank ({currentQ.blankId})
                                         </p>
                                     )}
-                                        <p className="text-white/70 leading-relaxed font-medium whitespace-pre-wrap" style={{ fontSize: `${quizFontSize}px` }}>
+                                    <p className="text-white/70 leading-relaxed font-medium whitespace-pre-wrap" style={{ fontSize: `${quizFontSize}px` }}>
                                         {stripMath(currentQ.passage)}
                                     </p>
                                     {(currentQ.boxWords || []).length > 0 && (
@@ -783,37 +792,42 @@ const Quiz = () => {
                                 </div>
                             )}
 
-                            <div className="flex items-center gap-1.5 mb-2 flex-wrap shrink-0">
-                                <span className={`text-[9px] xs:text-[8px] md:text-[7px] font-black px-2 py-1 xs:py-0.5 rounded-full uppercase border min-h-touch flex items-center ${currentQ.difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
+                            <div className="flex items-center gap-1.5 mb-2.5 flex-wrap shrink-0">
+                                <span className={`text-[9px] md:text-[8px] font-black px-2.5 py-1 rounded-full uppercase border ${currentQ.difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
                                     currentQ.difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :
                                         'text-emerald-400 border-emerald-400/20 bg-emerald-400/5'
                                     }`}>{currentQ.difficulty}</span>
                                 {currentQ.source && currentQ.source !== 'unknown' && (
-                                    <span className="text-[9px] xs:text-[8px] md:text-[7px] font-black px-2 py-1 xs:py-0.5 rounded-full border border-white/10 bg-white/5 text-white/30 uppercase tracking-wider min-h-touch flex items-center">
+                                    <span className="text-[9px] md:text-[8px] font-black px-2.5 py-1 rounded-full border border-white/10 bg-white/5 text-white/30 uppercase tracking-wider">
                                         {currentQ.source}
                                     </span>
                                 )}
                                 {currentQ.chapter_tag && (
-                                    <span className="text-[9px] xs:text-[8px] md:text-[7px] font-black px-2 py-1 xs:py-0.5 rounded-full border border-primary/20 bg-primary/5 text-primary/50 uppercase tracking-wider min-h-touch flex items-center">
+                                    <span className="text-[9px] md:text-[8px] font-black px-2.5 py-1 rounded-full border border-primary/20 bg-primary/5 text-primary/50 uppercase tracking-wider">
                                         {currentQ.chapter_tag}
                                     </span>
                                 )}
                             </div>
 
-                            <h3 className="font-black text-white leading-tight mb-1.5 selection:bg-primary/30 tracking-tight" style={{ fontSize: `${quizFontSize}px` }}>
-                                {stripMath(currentQ.text)}
-                            </h3>
+                            <div className="mb-3 shrink-0">
+                                <div className="bg-white/[0.04] border border-white/[0.06] rounded-xl p-3 md:p-4">
+                                    <p className="text-white/40 text-[9px] font-black uppercase tracking-[0.15em] mb-1.5">Question</p>
+                                    <h3 className="font-black text-white leading-snug selection:bg-primary/30" style={{ fontSize: `${quizFontSize}px` }}>
+                                        {stripMath(currentQ.text)}
+                                    </h3>
+                                </div>
+                            </div>
 
-                            <div className="min-h-0">
-                                 <AnimatePresence mode="wait">
-                                     {!isAnswered ? (
-                                         <motion.div
-                                             key="options"
-                                             initial={{ opacity: 0 }}
-                                             animate={{ opacity: 1 }}
-                                             exit={{ opacity: 0, x: -30 }}
-                                             transition={{ duration: 0.2 }}
-                                             className={`${isManyOptions ? 'grid grid-cols-1 sm:grid-cols-2 gap-2 md:gap-2.5' : 'flex flex-col space-y-2.5 md:space-y-2'}`}
+                            <div className="flex-1 min-h-0 overflow-y-auto no-scrollbar -mx-1 px-1">
+                                <AnimatePresence mode="wait">
+                                    {!isAnswered ? (
+                                        <motion.div
+                                            key="options"
+                                            initial={{ opacity: 0 }}
+                                            animate={{ opacity: 1 }}
+                                            exit={{ opacity: 0, x: -30 }}
+                                            transition={{ duration: 0.2 }}
+                                            className={`${isManyOptions ? 'grid grid-cols-1 sm:grid-cols-2 gap-2' : 'space-y-2'}`}
                                         >
                                             {shuffledOptions && shuffledOptions.map((option, idx) => {
                                                 let state = 'idle';
@@ -826,13 +840,14 @@ const Quiz = () => {
                                                 }
 
                                                 return (
-                                                    <button
+                                                    <motion.button
                                                         key={idx}
+                                                        whileTap={!isAnswered ? { scale: 0.98 } : undefined}
                                                         disabled={isAnswered}
                                                         onClick={(e) => handleOptionSelect(idx, e)}
-                                                        className={`w-full text-left min-h-touch ${isManyOptions ? 'px-2.5 md:px-3 py-2 md:py-2.5' : 'px-3 md:px-4 py-2.5 md:py-3'} rounded-xl md:rounded-2xl border-2 transition-all flex items-center justify-between group/opt active:scale-[0.99] ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-lg shadow-emerald-500/5' :
+                                                        className={`w-full text-left min-h-[52px] md:min-h-[56px] px-4 py-3.5 rounded-xl border-2 transition-all flex items-center gap-3 group/opt ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-lg shadow-emerald-500/5' :
                                                             state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300 shadow-lg shadow-yellow-500/5' :
-                                                                state === 'selected' ? 'bg-primary/20 border-primary text-white shadow-2xl shadow-primary/20 scale-[1.01]' :
+                                                                state === 'selected' ? 'bg-primary/20 border-primary text-white shadow-lg shadow-primary/20 scale-[1.01]' :
                                                                     state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30 scale-[0.98]' :
                                                                         'bg-white/[0.07] border-white/10 text-white/60 hover:border-white/30 hover:bg-white/[0.12] hover:text-white hover:shadow-lg hover:shadow-white/5'
                                                             }`}
@@ -840,41 +855,69 @@ const Quiz = () => {
                                                         aria-checked={selectedOption === idx}
                                                         tabIndex={isAnswered ? -1 : 0}
                                                     >
-                                                        <div className={`flex items-center min-w-0 ${isManyOptions ? 'gap-1.5 md:gap-2' : 'gap-2.5 md:gap-3'}`}>
-                                                            <span className={`w-6 h-6 md:w-7 md:h-7 rounded-lg md:rounded-xl flex items-center justify-center text-[9px] md:text-xs font-black border transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
-                                                                state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
-                                                                    state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
-                                                                        'bg-black/40 border-white/15 text-white/40 group-hover/opt:border-white/30 group-hover/opt:text-white'
-                                                                }`}>
-                                                                {String.fromCharCode(65 + idx)}
-                                                            </span>
-                                                            <span className="font-bold tracking-tight md:truncate leading-snug" style={{ fontSize: `${quizFontSize}px` }}>{stripMath(option.text)}</span>
-                                                        </div>
-                                                        {state === 'correct' && <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-emerald-400 animate-in zoom-in-0 shrink-0" aria-hidden="true" />}
+                                                        <span className={`w-8 h-8 md:w-9 md:h-9 rounded-xl flex items-center justify-center text-xs font-black border transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
+                                                            state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
+                                                                state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
+                                                                    'bg-black/40 border-white/15 text-white/40 group-hover/opt:border-white/30 group-hover/opt:text-white'
+                                                            }`}>
+                                                            {String.fromCharCode(65 + idx)}
+                                                        </span>
+                                                        <span className="font-bold leading-snug flex-1" style={{ fontSize: `${quizFontSize}px` }}>
+                                                            {stripMath(option.text)}
+                                                        </span>
+                                                        {state === 'correct' && <CheckCircle className="w-5 h-5 text-emerald-400 animate-in zoom-in-0 shrink-0" aria-hidden="true" />}
                                                         {state === 'wrong' && (
-                                                            <svg className="w-4 h-4 md:w-5 md:h-5 text-yellow-300 animate-in zoom-in-0 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                                            <svg className="w-5 h-5 text-yellow-300 animate-in zoom-in-0 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                                                                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
                                                             </svg>
                                                         )}
-                                                    </button>
+                                                    </motion.button>
                                                 );
                                             })}
                                         </motion.div>
                                     ) : (
                                         <motion.div
-                                             key="feedback"
-                                             initial={{ opacity: 0, x: 30 }}
-                                             animate={{ opacity: 1, x: 0 }}
-                                             exit={{ opacity: 0, x: 30 }}
-                                             transition={{ duration: 0.2 }}
-                                             className="flex flex-col"
-                                         >
+                                            key="feedback"
+                                            initial={{ opacity: 0, x: 30 }}
+                                            animate={{ opacity: 1, x: 0 }}
+                                            exit={{ opacity: 0, x: 30 }}
+                                            transition={{ duration: 0.2 }}
+                                            className="flex flex-col h-full"
+                                        >
                                             {isCurrentCorrect ? (
-                                                <div className="flex-1 flex flex-col bg-emerald-500/[0.07] border border-emerald-500/20 rounded-xl md:rounded-2xl p-3 md:p-4 gap-2 md:gap-3">
+                                                <div className="flex-1 flex flex-col bg-emerald-500/[0.07] border border-emerald-500/20 rounded-xl p-4 gap-3">
                                                     <div className="flex items-center gap-2 shrink-0">
-                                                        <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-emerald-400 shrink-0" />
-                                                        <h4 className="text-emerald-400 font-black text-xs md:text-sm uppercase tracking-wider">Correct!</h4>
+                                                        <CheckCircle className="w-5 h-5 text-emerald-400 shrink-0" />
+                                                        <h4 className="text-emerald-400 font-black text-xs uppercase tracking-wider">Correct!</h4>
                                                     </div>
+                                                    <div className="flex-1 overflow-y-auto min-h-0 space-y-2 text-xs md:text-sm">
+                                                        {currentQ.explanation_bn && (
+                                                            <div>
+                                                                <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
+                                                                <p className="text-white/80 leading-relaxed">{currentQ.explanation_bn}</p>
+                                                            </div>
+                                                        )}
+                                                        {currentQ.explanation_en && (
+                                                            <div>
+                                                                <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1">English Explanation</p>
+                                                                <p className="text-white/80 leading-relaxed">{currentQ.explanation_en}</p>
+                                                            </div>
+                                                        )}
+                                                        {!currentQ.explanation_bn && !currentQ.explanation_en && (
+                                                            <p className="text-white/60 text-sm">Well done!</p>
+                                                        )}
+                                                        {currentQ.explanation_distractors && currentQ.explanation_distractors.length > 0 && (
+                                                            <div className="border-t border-emerald-500/15 pt-2 mt-2">
+                                                                <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1.5">Why the other options are wrong</p>
+                                                                {currentQ.explanation_distractors.map((d, i) => (
+                                                                    <div key={i} className="mb-1.5 last:mb-0">
+                                                                        <p className="text-white/90 text-[11px] font-medium mb-0.5">"{d.option}"</p>
+                                                                        <p className="text-white/50 text-[10px] leading-relaxed pl-2 border-l border-emerald-500/20">{d.reason}</p>
+                                                                    </div>
+                                                                ))}
+                                                            </div>
+                                                        )}
+                                                     </div>
                                                     <div className="flex-1 overflow-y-auto min-h-0 space-y-2 -mx-1 px-1 text-xs md:text-sm">
                                                           {currentQ.explanation_bn && (
                                                               <div>
@@ -903,6 +946,7 @@ const Quiz = () => {
                                                               </div>
                                                           )}
                                                       </div>
+
                                                     {currentQ.explanation_video_url && (
                                                         <a
                                                             href={currentQ.explanation_video_url}
@@ -916,28 +960,28 @@ const Quiz = () => {
                                                     )}
                                                     <button
                                                         onClick={handleNext}
-                                                        className="w-full py-3 md:py-3.5 bg-emerald-500 text-black rounded-xl md:rounded-xl font-black uppercase tracking-widest text-[11px] md:text-[10px] shrink-0 active:scale-[0.98] transition-all hover:bg-emerald-400 min-h-touch"
+                                                        className="w-full py-3.5 bg-emerald-500 text-black rounded-xl font-black uppercase tracking-widest text-[11px] shrink-0 active:scale-[0.98] transition-all hover:bg-emerald-400 min-h-touch"
                                                     >
                                                         {currentIndex < questions.length - 1 ? 'Continue' : 'Finish Lesson'}
                                                     </button>
                                                 </div>
                                             ) : (
-                                                <div className="flex-1 flex flex-col bg-yellow-500/[0.07] border border-yellow-500/20 rounded-xl md:rounded-2xl p-3 md:p-4 gap-2 md:gap-3">
+                                                <div className="flex-1 flex flex-col bg-yellow-500/[0.07] border border-yellow-500/20 rounded-xl p-4 gap-3">
                                                     <div className="flex items-center gap-2 shrink-0">
                                                         <motion.div
                                                             animate={{ scale: [1, 1.2, 1], rotate: [0, 8, -8, 0] }}
                                                             transition={{ duration: 0.7, repeat: Infinity, repeatDelay: 2 }}
                                                         >
-                                                            <svg className="w-4 h-4 md:w-5 md:h-5 text-yellow-300 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                                                            <svg className="w-5 h-5 text-yellow-300 shrink-0" viewBox="0 0 24 24" fill="currentColor">
                                                                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
                                                             </svg>
                                                         </motion.div>
-                                                        <h4 className="text-yellow-300 font-black text-xs md:text-sm uppercase tracking-wider">Keep going!</h4>
+                                                        <h4 className="text-yellow-300 font-black text-xs uppercase tracking-wider">Keep going!</h4>
                                                     </div>
 
                                                     <div className="flex flex-wrap items-center gap-1.5 shrink-0">
                                                         <div className="inline-flex items-center gap-1 px-2 py-1 rounded-lg bg-yellow-500/15 border border-yellow-500/25">
-                                                            <CheckCircle className="w-2.5 h-2.5 md:w-3 md:h-3 text-yellow-300 shrink-0" />
+                                                            <CheckCircle className="w-3 h-3 text-yellow-300 shrink-0" />
                                                             <span className="text-[8px] md:text-[9px] font-black uppercase tracking-wider text-yellow-300/60">Correct answer:</span>
                                                             <span className="math-font text-yellow-300 font-bold text-xs md:text-sm">{stripMath(correctAnswerText)}</span>
                                                         </div>
@@ -947,35 +991,35 @@ const Quiz = () => {
                                                         Mistakes are opportunities to learn. A star has been added to your balance — review it to collect.
                                                     </p>
 
-                                                    <div className="flex-1 overflow-y-auto min-h-0 space-y-2 -mx-1 px-1 text-xs md:text-sm">
-                                                          {currentQ.explanation_bn && (
-                                                              <div>
-                                                                  <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
-                                                                  <p className="text-white/80 leading-relaxed">{currentQ.explanation_bn}</p>
-                                                              </div>
-                                                          )}
-                                                          {currentQ.explanation_en && (
-                                                              <div>
-                                                                  <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1">English Explanation</p>
-                                                                  <p className="text-white/80 leading-relaxed">{currentQ.explanation_en}</p>
-                                                              </div>
-                                                          )}
-                                                          {currentQ.explanation_distractors && currentQ.explanation_distractors.length > 0 && (
-                                                              <div className="border-t border-yellow-500/15 pt-2 mt-2">
-                                                                  <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1.5">Why the other options are wrong</p>
-                                                                  {currentQ.explanation_distractors.map((d, i) => (
-                                                                      <div key={i} className="mb-1.5 last:mb-0">
-                                                                          <p className="text-white/90 text-[11px] font-medium mb-0.5">"{d.option}"</p>
-                                                                          <p className="text-white/50 text-[10px] leading-relaxed pl-2 border-l border-yellow-500/20">{d.reason}</p>
-                                                                      </div>
-                                                                  ))}
-                                                              </div>
-                                                          )}
-                                                      </div>
+                                                    <div className="flex-1 overflow-y-auto min-h-0 space-y-2 text-xs md:text-sm">
+                                                        {currentQ.explanation_bn && (
+                                                            <div>
+                                                                <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
+                                                                <p className="text-white/80 leading-relaxed">{currentQ.explanation_bn}</p>
+                                                            </div>
+                                                        )}
+                                                        {currentQ.explanation_en && (
+                                                            <div>
+                                                                <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1">English Explanation</p>
+                                                                <p className="text-white/80 leading-relaxed">{currentQ.explanation_en}</p>
+                                                            </div>
+                                                        )}
+                                                        {currentQ.explanation_distractors && currentQ.explanation_distractors.length > 0 && (
+                                                            <div className="border-t border-yellow-500/15 pt-2 mt-2">
+                                                                <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1.5">Why the other options are wrong</p>
+                                                                {currentQ.explanation_distractors.map((d, i) => (
+                                                                    <div key={i} className="mb-1.5 last:mb-0">
+                                                                        <p className="text-white/90 text-[11px] font-medium mb-0.5">"{d.option}"</p>
+                                                                        <p className="text-white/50 text-[10px] leading-relaxed pl-2 border-l border-yellow-500/20">{d.reason}</p>
+                                                                    </div>
+                                                                ))}
+                                                            </div>
+                                                        )}
+                                                    </div>
 
                                                     <button
                                                         onClick={handleNext}
-                                                        className="w-full py-3 md:py-3.5 bg-yellow-500 text-black rounded-xl md:rounded-xl font-black uppercase tracking-widest text-[11px] md:text-[10px] shrink-0 active:scale-[0.98] transition-all hover:bg-yellow-400 min-h-touch"
+                                                        className="w-full py-3.5 bg-yellow-500 text-black rounded-xl font-black uppercase tracking-widest text-[11px] shrink-0 active:scale-[0.98] transition-all hover:bg-yellow-400 min-h-touch"
                                                     >
                                                         Got it
                                                     </button>

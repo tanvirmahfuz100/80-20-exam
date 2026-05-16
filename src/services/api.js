@@ -59,7 +59,7 @@ const defaultVideos = [
     {
         id: 'v_1',
         title: 'Math Shortcut Sprint',
-        video_url: 'https://cdn.pixabay.com/video/2021/04/12/70860-537443831_large.mp4',
+        video_url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
         likes_count: 1240,
         saves_count: 450,
         created_at: new Date().toISOString()
@@ -67,7 +67,7 @@ const defaultVideos = [
     {
         id: 'v_2',
         title: 'Vocabulary in 60 Seconds',
-        video_url: 'https://cdn.pixabay.com/video/2020/07/28/45749-445851412_large.mp4',
+        video_url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
         likes_count: 890,
         saves_count: 230,
         created_at: new Date().toISOString()

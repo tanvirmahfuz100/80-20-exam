@@ -482,7 +482,7 @@ const Layout = ({ children }) => {
                 </main>
             </div>
 
-            {!hideLayout && <MobileBottomNav />}
+            {!hideLayout && !isQuizPage && <MobileBottomNav />}
 
             <ReportModal isOpen={reportOpen} onClose={() => setReportOpen(false)} />
             <GuideModal isOpen={guideOpen} onClose={() => setGuideOpen(false)} />

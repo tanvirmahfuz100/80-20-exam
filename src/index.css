@@ -281,6 +281,17 @@
     margin-right: auto;
   }
 
+  /* Smooth bounce for correct/wrong icons */
+  .quiz-option-bounce {
+    animation: quizBounce 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  @keyframes quizBounce {
+    0% { transform: scale(0.3); opacity: 0; }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(1); opacity: 1; }
+  }
+
   /* Grid for many-options (5+) */
   .options-grid {
     @apply grid grid-cols-1 gap-2;
