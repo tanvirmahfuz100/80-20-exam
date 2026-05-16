@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Book, Calculator, Brain, ChevronRight, Play, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles, Check } from 'lucide-react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
@@ -11,58 +12,120 @@ const icons = {
     analytical: Brain,
 };
 
+const examColors = {
+    ssc: { accent: '#10b981', bg: 'rgba(16,185,129,0.08)', label: 'SSC' },
+    hsc: { accent: '#0ea5e9', bg: 'rgba(14,165,233,0.08)', label: 'HSC' },
+    iba: { accent: '#8b5cf6', bg: 'rgba(139,92,246,0.08)', label: 'IBA' },
+    bcs: { accent: '#f59e0b', bg: 'rgba(245,158,11,0.08)', label: 'BCS' },
+};
+
+const fadeUp = {
+    initial: { opacity: 0, y: 24 },
+    animate: { opacity: 1, y: 0 },
+    exit: { opacity: 0, y: -16 }
+};
+
+const stagger = {
+    animate: { transition: { staggerChildren: 0.07 } }
+};
+
+const cardSlide = {
+    initial: { opacity: 0, y: 16, scale: 0.97 },
+    animate: { opacity: 1, y: 0, scale: 1 }
+};
+
 const steps = [
     { key: 'exam', label: 'Exam' },
     { key: 'subject', label: 'Subject' },
     { key: 'lessons', label: 'Chapters' },
 ];
 
-const ProgressBar = ({ completed, total }) => {
+const ProgressBar = ({ completed, total, color }) => {
     if (total === 0) return null;
     const pct = Math.min(Math.round((completed / total) * 100), 100);
+    const barColor = color || '#5e6ad2';
     return (
-        <div className="flex items-center gap-2.5 w-full">
-            <div className="flex-1 h-1.5 bg-white/5 rounded-full overflow-hidden">
-                <div className="h-full bg-primary rounded-full transition-all duration-500" style={{ width: `${pct}%` }} />
+        <div className="flex items-center gap-2 w-full">
+            <div className="flex-1 h-2 bg-white/10 rounded-full overflow-hidden">
+                <motion.div
+                    className="h-full rounded-full"
+                    initial={{ width: 0 }}
+                    animate={{ width: `${pct}%` }}
+                    transition={{ duration: 0.6, ease: 'easeOut' }}
+                    style={{ backgroundColor: barColor }}
+                />
             </div>
-            <span className="text-[9px] font-bold text-white/30 whitespace-nowrap tabular-nums">{completed}/{total}</span>
+            <span className="text-[11px] font-black tabular-nums whitespace-nowrap" style={{ color: barColor }}>{pct}%</span>
         </div>
     );
 };
 
-const ExamCard = ({ exam, isSelected, onClick, progress }) => (
-    <button onClick={onClick} className={`relative flex flex-col gap-3 px-5 py-4 rounded-xl border transition-all text-left ${isSelected
-        ? 'bg-primary/12 border-primary shadow-lg shadow-primary/10 ring-2 ring-primary/30'
-        : 'bg-surface border-white/5 hover:border-primary/30 hover:bg-white/5'
-        }`}>
-        <div className="flex items-center gap-4">
-            <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-2 mb-0.5">
-                    <span className={`text-xs font-black uppercase tracking-[0.2em] ${isSelected ? 'text-primary/60' : 'text-white/20'}`}>
-                        {isSelected ? 'Selected' : 'Select'}
-                    </span>
-                    {isSelected && <ShieldCheck className="w-3 h-3 text-primary" />}
-                </div>
-                <h3 className="text-xl font-black text-white tracking-tight">{exam.label}</h3>
-                <p className="text-xs text-white/30 font-medium mt-0.5">{exam.note}</p>
-            </div>
-            <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 ${isSelected ? 'bg-primary text-black' : 'bg-white/5 text-white/20'}`}>
-                <ArrowRight className="w-4 h-4" />
-            </div>
-        </div>
-        <ProgressBar completed={progress.completed} total={progress.total} />
-    </button>
-);
+const ExamCard = ({ exam, isSelected, onClick, progress }) => {
+    const colors = examColors[exam.id] || examColors.ssc;
+    const pct = progress.total > 0 ? Math.min(Math.round((progress.completed / progress.total) * 100), 100) : 0;
+    const inProgress = progress.completed > 0;
 
-const InactiveExam = ({ exam }) => (
-    <div className="flex items-center gap-4 px-5 py-4 rounded-xl border border-white/5 bg-surface opacity-50 cursor-not-allowed">
-        <div className="flex-1 min-w-0">
-            <span className="text-xs font-black uppercase tracking-[0.2em] text-white/20">Coming soon</span>
-            <h3 className="text-xl font-black text-white tracking-tight">{exam.label}</h3>
-            <p className="text-xs text-white/20 font-medium mt-0.5">{exam.note}</p>
+    return (
+        <motion.button
+            onClick={onClick}
+            whileTap={{ scale: 0.98 }}
+            className="relative flex items-center gap-3 p-3.5 rounded-xl border transition-all text-left w-full group"
+            style={{
+                backgroundColor: isSelected ? colors.bg : 'rgba(255,255,255,0.03)',
+                borderColor: isSelected ? colors.accent : 'rgba(255,255,255,0.06)',
+            }}
+        >
+            <div className="absolute left-0 top-2.5 bottom-2.5 w-[3px] rounded-full transition-all" style={{ backgroundColor: isSelected ? colors.accent : 'rgba(255,255,255,0.08)' }} />
+
+            <div className="flex-1 min-w-0 pl-3">
+                <div className="flex items-center gap-2 flex-wrap">
+                    <h3 className="text-xl md:text-2xl font-black text-white tracking-tight leading-none">{exam.label}</h3>
+                    {inProgress && (
+                        <span className="text-[7px] font-black uppercase tracking-[0.2em] px-1.5 py-0.5 rounded" style={{ color: colors.accent, backgroundColor: colors.bg }}>
+                            Active
+                        </span>
+                    )}
+                </div>
+                <p className="text-[11px] text-white/30 font-medium mt-0.5 leading-tight">{exam.note}</p>
+
+                <div className="mt-2.5">
+                    <ProgressBar completed={progress.completed} total={progress.total} color={colors.accent} />
+                </div>
+            </div>
+
+            <div className="flex flex-col items-center gap-1 shrink-0">
+                <div
+                    className="w-9 h-9 rounded-xl flex items-center justify-center transition-all"
+                    style={{
+                        backgroundColor: isSelected ? colors.accent : 'rgba(255,255,255,0.05)',
+                        color: isSelected ? '#000' : 'rgba(255,255,255,0.25)',
+                    }}
+                >
+                    <ArrowRight className="w-4 h-4" />
+                </div>
+                <span className="text-[7px] font-black uppercase tracking-widest transition-all" style={{ color: isSelected ? colors.accent : 'rgba(255,255,255,0.15)' }}>
+                    {isSelected ? 'Open' : 'Start'}
+                </span>
+            </div>
+        </motion.button>
+    );
+};
+
+const InactiveExam = ({ exam }) => {
+    const colors = examColors[exam.id] || examColors.ssc;
+    return (
+        <div className="relative flex items-center gap-3 p-3.5 rounded-xl border border-white/[0.06] opacity-40 cursor-not-allowed bg-white/[0.02]">
+            <div className="absolute left-0 top-2.5 bottom-2.5 w-[3px] rounded-full" style={{ backgroundColor: 'rgba(255,255,255,0.06)' }} />
+            <div className="flex-1 min-w-0 pl-3">
+                <div className="flex items-center gap-2">
+                    <h3 className="text-xl md:text-2xl font-black text-white/50 tracking-tight leading-none">{exam.label}</h3>
+                    <span className="text-[7px] font-black uppercase tracking-[0.2em] px-1.5 py-0.5 rounded bg-white/5 text-white/15">Soon</span>
+                </div>
+                <p className="text-[11px] text-white/15 font-medium mt-0.5">{exam.note}</p>
+            </div>
         </div>
-    </div>
-);
+    );
+};
 
 const SubjectCard = ({ subject, isSelected, onClick, progress }) => {
     const Icon = icons[subject.id] || Book;
@@ -312,22 +375,47 @@ const PracticeConfig = () => {
     );
 
     return (
-        <div className="max-w-4xl mx-auto space-y-6">
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-3">
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3 }} className="max-w-3xl mx-auto space-y-6">
+            <motion.div
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3 }}
+                className="flex flex-col md:flex-row md:items-end justify-between gap-3"
+            >
                 <div className="min-w-0 flex-1">
-                    <h1 className="text-2xl md:text-5xl font-black text-white tracking-tighter mb-1 md:mb-2">
+                    <motion.h1
+                        initial={{ opacity: 0, x: -12 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.05, duration: 0.3 }}
+                        className="text-2xl md:text-5xl font-black text-white tracking-tighter mb-1 md:mb-2"
+                    >
                         LET'S <span className="text-primary">PRACTICE!</span>
-                    </h1>
-                    <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-[10px]">
+                    </motion.h1>
+                    <motion.p
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 0.12 }}
+                        className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-[10px]"
+                    >
                         Your progress is being saved locally for testing.
-                    </p>
+                    </motion.p>
                     {selectedExam && (
-                        <p className="mt-1 text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-primary/70 truncate">
+                        <motion.p
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 0.18 }}
+                            className="mt-1 text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-primary/70 truncate"
+                        >
                             Exam: {selectedExam.label} &bull; Version: {versionLabel}
-                        </p>
+                        </motion.p>
                     )}
                 </div>
-                <div className="bg-surface border border-white/5 p-0.5 md:p-1 rounded-lg md:rounded-xl flex items-center gap-0.5 md:gap-1 shadow-lg self-start md:self-end shrink-0">
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.92 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: 0.15 }}
+                    className="bg-surface border border-white/5 p-0.5 md:p-1 rounded-lg md:rounded-xl flex items-center gap-0.5 md:gap-1 shadow-lg self-start md:self-end shrink-0"
+                >
                     <button onClick={() => setIsTimed(false)} className={`flex items-center gap-1 md:gap-2 px-2.5 md:px-4 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${!isTimed ? 'bg-primary text-black shadow-lg shadow-primary/20' : 'text-white/20 hover:text-white/40'}`}>
                         Untimed
                     </button>
@@ -335,14 +423,22 @@ const PracticeConfig = () => {
                         <Timer className="w-3 h-3" />
                         Timed
                     </button>
-                </div>
-            </div>
+                </motion.div>
+            </motion.div>
 
-            <div className="flex items-center gap-1 md:gap-2 text-[10px] font-black uppercase tracking-[0.15em] py-2.5 md:py-3 px-3 md:px-4 bg-surface border border-white/5 rounded-xl overflow-x-auto no-scrollbar">
+            <motion.div
+                initial={{ opacity: 0, y: -8 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.1, duration: 0.25 }}
+                className="flex items-center gap-1 md:gap-2 text-[10px] font-black uppercase tracking-[0.15em] py-2.5 md:py-3 px-3 md:px-4 bg-surface border border-white/5 rounded-xl overflow-x-auto no-scrollbar"
+            >
                 {steps.map((s, i) => (
                     <React.Fragment key={s.key}>
                         {i > 0 && <ChevronRight className="w-3 h-3 text-white/15" />}
-                        <button
+                        <motion.button
+                            initial={{ opacity: 0, scale: 0.9 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            transition={{ delay: 0.15 + i * 0.06 }}
                             onClick={() => goToStep(i)}
                             disabled={i > step}
                             className={`flex items-center gap-1.5 transition-all px-2 py-1 rounded-lg ${i === step
@@ -354,7 +450,7 @@ const PracticeConfig = () => {
                         >
                             {i < step && <Check className="w-2.5 h-2.5" />}
                             {s.label}
-                        </button>
+                        </motion.button>
                     </React.Fragment>
                 ))}
                 {selectedSubject && (
@@ -362,112 +458,148 @@ const PracticeConfig = () => {
                         {selectedExam?.label} · {selectedSubject.name}
                     </span>
                 )}
-            </div>
+            </motion.div>
 
-            {step === 0 && (
-                <div className="space-y-3">
-                    <h2 className="text-sm font-black text-white/40 uppercase tracking-[0.2em] flex items-center gap-2">
-                        <BookOpen className="text-primary w-4 h-4" />
-                        SELECT EXAM
-                    </h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                        {(data.exams || []).map(exam =>
-                            exam.active ? (
-                                <ExamCard
-                                    key={exam.id}
-                                    exam={exam}
-                                    isSelected={selectedExam?.id === exam.id}
-                                    onClick={() => {
-                                        setSelectedExam(exam);
-                                        setSelectedSubject(null);
-                                    }}
-                                    progress={getExamProgress(exam)}
-                                />
-                            ) : (
-                                <InactiveExam key={exam.id} exam={exam} />
-                            )
-                        )}
-                    </div>
-                </div>
-            )}
-
-            {step === 1 && selectedExam && (
-                <div className="space-y-3">
-                    <div className="flex items-center justify-between">
-                        <h2 className="text-sm font-black text-white/40 uppercase tracking-[0.2em] flex items-center gap-2">
-                            <BookOpen className="text-primary w-4 h-4" />
-                            {selectedExam.label} SUBJECTS
-                        </h2>
-                        <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/20">{selectedExam.subjects?.length || 0} subjects</span>
-                    </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
-                        {selectedExam.subjects.map(sub => (
-                            <SubjectCard
-                                key={`${selectedExam.id}_${sub.id}`}
-                                subject={sub}
-                                isSelected={selectedSubject?.id === sub.id}
-                                onClick={() => setSelectedSubject(sub)}
-                                progress={getSubjectProgress(sub)}
-                            />
-                        ))}
-                    </div>
-                    {selectedExam.subjects.length === 0 && (
-                        <div className="p-6 rounded-2xl border border-white/5 bg-surface text-center flex flex-col items-center gap-4">
-                            <Target className="w-12 h-12 opacity-20" />
-                            <p className="text-white/50 text-sm font-medium">No questions are available for this exam yet.</p>
-                        </div>
-                    )}
-                    {step === 1 && (
-                        <button onClick={() => goToStep(0)} className="text-[10px] font-black uppercase tracking-[0.2em] text-white/20 hover:text-white/40 transition-colors mt-2">
-                            ← Back to exams
-                        </button>
-                    )}
-                </div>
-            )}
-
-            {step === 2 && selectedSubject && (
-                <div className="space-y-4 animate-in slide-in-from-bottom-4 duration-500">
-
-                    <div className="grid grid-cols-1 gap-6">
-                        {selectedSubject.topics.map(topic => (
-                            <div key={topic.id} className="space-y-3">
-                                <div className="flex items-center gap-3 px-4 py-3 bg-white/[0.02] border border-white/[0.04] rounded-xl">
-                                    <div className="w-1 h-6 bg-primary rounded-full shrink-0"></div>
-                                    <h3 className="text-base font-black text-white tracking-tight uppercase">{topic.name}</h3>
-                                </div>
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                                    {topic.chapters.length > 0 ? (
-                                        topic.chapters.map(chapter => (
-                                            <ChapterItem
-                                                key={chapter.id}
-                                                chapter={chapter}
-                                                onClick={handleStart}
-                                                questionCount={chapterQuestionCounts[getChapterFile(chapter)] ?? 0}
-                                                completedCount={chapterCompletedCounts[getChapterFile(chapter)] ?? 0}
-                                            />
-                                        ))
-                                    ) : (
-                                        <div className="col-span-2 py-8 text-center border-2 border-dashed border-white/5 rounded-2xl flex flex-col items-center gap-3">
-                                            <CheckList className="w-12 h-12 opacity-20" />
-                                            <p className="text-xs text-white/10 font-black uppercase tracking-widest">Chapters Coming Soon!</p>
-                                        </div>
-                                    )}
-                                </div>
+            <AnimatePresence mode="wait">
+                {step === 0 && (
+                    <motion.div key="step-exam" variants={fadeUp} initial="initial" animate="animate" exit="exit" transition={{ duration: 0.25 }} className="space-y-4">
+                        <div className="flex items-center justify-between">
+                            <div>
+                                <h2 className="text-sm font-black text-white/50 uppercase tracking-[0.2em] flex items-center gap-2">
+                                    <BookOpen className="text-primary w-4 h-4" />
+                                    Choose Your Exam
+                                </h2>
+                                <p className="text-[10px] text-white/20 font-medium mt-0.5">Pick an exam to start practicing</p>
                             </div>
-                        ))}
-                    </div>
+                            <span className="text-[10px] font-black uppercase tracking-[0.15em] text-white/20 bg-white/5 px-2.5 py-1 rounded-lg">{data.exams.filter(e => e.active).length} Active</span>
+                        </div>
+                        <motion.div variants={stagger} initial="initial" animate="animate" className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                            {(data.exams || []).map(exam =>
+                                exam.active ? (
+                                    <motion.div key={exam.id} variants={cardSlide}>
+                                        <ExamCard
+                                            exam={exam}
+                                            isSelected={selectedExam?.id === exam.id}
+                                            onClick={() => {
+                                                setSelectedExam(exam);
+                                                setSelectedSubject(null);
+                                            }}
+                                            progress={getExamProgress(exam)}
+                                        />
+                                    </motion.div>
+                                ) : (
+                                    <motion.div key={exam.id} variants={cardSlide}>
+                                        <InactiveExam exam={exam} />
+                                    </motion.div>
+                                )
+                            )}
+                        </motion.div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
 
-                    <div className="flex items-center gap-3 pt-2">
-                        <button onClick={() => goToStep(1)} className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.15em] text-white/25 hover:text-white/50 transition-colors px-3 py-2 rounded-lg hover:bg-white/5">
-                            ← Subjects
-                        </button>
-                        <button onClick={() => goToStep(0)} className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.15em] text-white/25 hover:text-white/50 transition-colors px-3 py-2 rounded-lg hover:bg-white/5">
-                            ← Exams
-                        </button>
-                    </div>
-                </div>
-            )}
-        </div>
+            <AnimatePresence mode="wait">
+                {step === 1 && selectedExam && (
+                    <motion.div key="step-subject" variants={fadeUp} initial="initial" animate="animate" exit="exit" transition={{ duration: 0.25 }} className="space-y-3">
+                        <motion.div initial={{ opacity: 0, x: -12 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="flex items-center justify-between">
+                            <h2 className="text-sm font-black text-white/40 uppercase tracking-[0.2em] flex items-center gap-2">
+                                <BookOpen className="text-primary w-4 h-4" />
+                                {selectedExam.label} SUBJECTS
+                            </h2>
+                            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/20">{selectedExam.subjects?.length || 0} subjects</span>
+                        </motion.div>
+                        <motion.div variants={stagger} initial="initial" animate="animate" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                            {selectedExam.subjects.map(sub => (
+                                <motion.div key={`${selectedExam.id}_${sub.id}`} variants={cardSlide}>
+                                    <SubjectCard
+                                        subject={sub}
+                                        isSelected={selectedSubject?.id === sub.id}
+                                        onClick={() => setSelectedSubject(sub)}
+                                        progress={getSubjectProgress(sub)}
+                                    />
+                                </motion.div>
+                            ))}
+                        </motion.div>
+                        {selectedExam.subjects.length === 0 && (
+                            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.15 }} className="p-6 rounded-2xl border border-white/5 bg-surface text-center flex flex-col items-center gap-4">
+                                <Target className="w-12 h-12 opacity-20" />
+                                <p className="text-white/50 text-sm font-medium">No questions are available for this exam yet.</p>
+                            </motion.div>
+                        )}
+                        {step === 1 && (
+                            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }}>
+                                <button onClick={() => goToStep(0)} className="text-[10px] font-black uppercase tracking-[0.2em] text-white/20 hover:text-white/40 transition-colors mt-2">
+                                    ← Back to exams
+                                </button>
+                            </motion.div>
+                        )}
+                    </motion.div>
+                )}
+            </AnimatePresence>
+
+            <AnimatePresence mode="wait">
+                {step === 2 && selectedSubject && (
+                    <motion.div key="step-chapters" variants={fadeUp} initial="initial" animate="animate" exit="exit" transition={{ duration: 0.25 }} className="space-y-4">
+
+                        <motion.div variants={stagger} initial="initial" animate="animate" className="grid grid-cols-1 gap-6">
+                            {selectedSubject.topics.map((topic, ti) => (
+                                <motion.div key={topic.id} variants={cardSlide}>
+                                    <div className="space-y-3">
+                                        <div className="flex items-center gap-3 px-4 py-3 bg-white/[0.02] border border-white/[0.04] rounded-xl">
+                                            <div className="w-1 h-6 bg-primary rounded-full shrink-0"></div>
+                                            <h3 className="text-base font-black text-white tracking-tight uppercase">{topic.name}</h3>
+                                        </div>
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                                            {topic.chapters.length > 0 ? (
+                                                topic.chapters.map((chapter, ci) => (
+                                                    <motion.div
+                                                        key={chapter.id}
+                                                        initial={{ opacity: 0, x: -12 }}
+                                                        animate={{ opacity: 1, x: 0 }}
+                                                        transition={{ delay: 0.1 + (ti * 0.05) + (ci * 0.03) }}
+                                                    >
+                                                        <ChapterItem
+                                                            chapter={chapter}
+                                                            onClick={handleStart}
+                                                            questionCount={chapterQuestionCounts[getChapterFile(chapter)] ?? 0}
+                                                            completedCount={chapterCompletedCounts[getChapterFile(chapter)] ?? 0}
+                                                        />
+                                                    </motion.div>
+                                                ))
+                                            ) : (
+                                                <motion.div
+                                                    initial={{ opacity: 0 }}
+                                                    animate={{ opacity: 1 }}
+                                                    transition={{ delay: 0.15 }}
+                                                    className="col-span-2 py-8 text-center border-2 border-dashed border-white/5 rounded-2xl flex flex-col items-center gap-3"
+                                                >
+                                                    <CheckList className="w-12 h-12 opacity-20" />
+                                                    <p className="text-xs text-white/10 font-black uppercase tracking-widest">Chapters Coming Soon!</p>
+                                                </motion.div>
+                                            )}
+                                        </div>
+                                    </div>
+                                </motion.div>
+                            ))}
+                        </motion.div>
+
+                        <motion.div
+                            initial={{ opacity: 0, y: 10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: 0.3 }}
+                            className="flex items-center gap-3 pt-2"
+                        >
+                            <button onClick={() => goToStep(1)} className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.15em] text-white/25 hover:text-white/50 transition-colors px-3 py-2 rounded-lg hover:bg-white/5">
+                                ← Subjects
+                            </button>
+                            <button onClick={() => goToStep(0)} className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.15em] text-white/25 hover:text-white/50 transition-colors px-3 py-2 rounded-lg hover:bg-white/5">
+                                ← Exams
+                            </button>
+                        </motion.div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+        </motion.div>
     );
 };
 
