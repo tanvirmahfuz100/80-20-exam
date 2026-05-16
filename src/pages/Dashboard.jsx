@@ -1,481 +1,545 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { motion as Motion } from 'framer-motion';
 import { useAuth } from '../context/AuthContext';
 import { api } from '../services/api';
 import { Rocket, CheckList } from '../components/Illustrations';
+import LottieAnimation from '../components/LottieAnimation';
+import gameControllerAnimation from '../assets/game-controller.json';
 import {
-    Target, Brain, BookOpen, TrendingUp, ArrowRight,
-    Crown, Flame, BadgeCheck, Clock, HelpCircle, Zap, BarChart3, Info
+  Target, Brain, BookOpen, TrendingUp, ArrowRight,
+  Crown, Flame, BadgeCheck, Clock, Zap, BarChart3,
+  Star, Gamepad, Gauge, Trophy, Layers, Book, GraduationCap, Library, ScrollText
 } from 'lucide-react';
 
 const rankFromAccuracy = (accuracy) => {
-    if (accuracy >= 95) return 'Diamond';
-    if (accuracy >= 85) return 'Gold';
-    if (accuracy >= 70) return 'Silver';
-    return 'Bronze';
+  if (accuracy >= 95) return 'Diamond';
+  if (accuracy >= 85) return 'Gold';
+  if (accuracy >= 70) return 'Silver';
+  return 'Bronze';
 };
 
 const subjectFromPath = (filePath) => {
-    if (!filePath) return 'General';
-    const parts = filePath.split('/');
-    const subjectPart = parts[2] || '';
-    const map = {
-        'english': 'English',
-        'math': 'Math',
-        'analytical': 'Analytical Ability',
-    };
-    return map[subjectPart] || subjectPart.charAt(0).toUpperCase() + subjectPart.slice(1);
+  if (!filePath) return 'General';
+  const parts = filePath.split('/');
+  const subjectPart = parts[2] || '';
+  const map = {
+    english: 'English',
+    math: 'Math',
+    analytical: 'Analytical Ability',
+  };
+  return map[subjectPart] || subjectPart.charAt(0).toUpperCase() + subjectPart.slice(1);
 };
 
 const timeAgo = (dateStr) => {
-    const now = new Date();
-    const date = new Date(dateStr);
-    const diffMs = now - date;
-    const diffMins = Math.floor(diffMs / 60000);
-    const diffHours = Math.floor(diffMins / 60);
-    const diffDays = Math.floor(diffHours / 24);
-    if (diffMins < 1) return 'Just now';
-    if (diffMins < 60) return `${diffMins}m ago`;
-    if (diffHours < 24) return `${diffHours}h ago`;
-    if (diffDays < 2) return 'Yesterday';
-    if (diffDays < 7) return `${diffDays}d ago`;
-    return date.toLocaleDateString();
+  const now = new Date();
+  const date = new Date(dateStr);
+  const diffMs = now - date;
+  const diffMins = Math.floor(diffMs / 60000);
+  const diffHours = Math.floor(diffMins / 60);
+  const diffDays = Math.floor(diffHours / 24);
+  if (diffMins < 1) return 'Just now';
+  if (diffMins < 60) return `${diffMins}m ago`;
+  if (diffHours < 24) return `${diffHours}h ago`;
+  if (diffDays < 2) return 'Yesterday';
+  if (diffDays < 7) return `${diffDays}d ago`;
+  return date.toLocaleDateString();
 };
 
-const CircularProgress = ({ value, size = 120, strokeWidth = 8, className = '' }) => {
-    const radius = (size - strokeWidth) / 2;
-    const circumference = radius * 2 * Math.PI;
-    const offset = circumference - (value / 100) * circumference;
-
-    return (
-        <div className={`relative inline-flex items-center justify-center ${className}`}>
-            <svg width={size} height={size} className="-rotate-90">
-                <circle
-                    cx={size / 2}
-                    cy={size / 2}
-                    r={radius}
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={strokeWidth}
-                    className="text-white/5"
-                />
-                <circle
-                    cx={size / 2}
-                    cy={size / 2}
-                    r={radius}
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={strokeWidth}
-                    strokeDasharray={circumference}
-                    strokeDashoffset={offset}
-                    strokeLinecap="round"
-                    className="text-primary transition-all duration-1000 ease-out"
-                />
-            </svg>
-            <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <span className="text-2xl md:text-3xl font-black text-white tracking-tighter">{value}%</span>
-                <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/30 mt-0.5">Accuracy</span>
-            </div>
-        </div>
-    );
+const rankColorMap = {
+  Bronze: { bg: 'bg-amber-500/10', text: 'text-amber-400', icon: 'text-amber-500' },
+  Silver: { bg: 'bg-slate-300/10', text: 'text-slate-300', icon: 'text-slate-400' },
+  Gold: { bg: 'bg-yellow-400/10', text: 'text-yellow-400', icon: 'text-yellow-500' },
+  Diamond: { bg: 'bg-cyan-300/10', text: 'text-cyan-300', icon: 'text-cyan-400' },
 };
 
-const MetricPill = ({ icon: Icon, label, value, color }) => (
-    <div className="flex items-center gap-2.5 rounded-xl border border-white/5 bg-surface px-3.5 py-2.5 md:px-4 md:py-3">
-        <div className={`rounded-lg p-1.5 ${color} shrink-0`}>
-            <Icon className="w-3.5 h-3.5 md:w-4 md:h-4" />
-        </div>
-        <div className="min-w-0">
-            <p className="text-[9px] font-black uppercase tracking-[0.2em] text-white/30">{label}</p>
-            <p className="text-sm md:text-base font-black text-white tracking-tight truncate">{value}</p>
-        </div>
-    </div>
-);
+const containerVariants = {
+  hidden: { opacity: 0 },
+  show: { opacity: 1, transition: { staggerChildren: 0.06 } },
+};
 
-const QuickActionCard = ({ icon: Icon, title, desc, path }) => (
-    <Link
-        to={path}
-        className="group flex items-center gap-2 md:gap-4 rounded-xl bg-surface p-3 md:p-5 transition-all hover:-translate-y-0.5 hover:bg-surface-hover active:scale-[0.98]"
-    >
-        <div className="flex h-9 w-9 md:h-12 md:w-12 shrink-0 items-center justify-center rounded-lg md:rounded-xl bg-primary/10 transition-transform group-hover:scale-110">
-            <Icon className="w-4 h-4 md:w-6 md:h-6 text-primary" />
-        </div>
-        <div className="min-w-0 flex-1">
-            <h4 className="text-[13px] md:text-sm font-black text-white group-hover:text-primary transition-colors truncate">{title}</h4>
-            <p className="text-[10px] md:text-xs text-white/40 mt-0.5 leading-relaxed truncate">{desc}</p>
-        </div>
-        <ArrowRight className="w-3.5 h-3.5 md:w-4 md:h-4 text-white/20 shrink-0 group-hover:text-primary transition-colors" />
-    </Link>
-);
+const itemVariants = {
+  hidden: { opacity: 0, y: 16 },
+  show: { opacity: 1, y: 0, transition: { type: 'spring', stiffness: 260, damping: 24 } },
+};
 
 const Dashboard = () => {
-    const { user, profile } = useAuth();
-    const [availableExams, setAvailableExams] = React.useState([]);
-    const [statsData, setStatsData] = React.useState({
-        totalPracticed: 0,
-        accuracy: 0,
-        totalTimeInMinutes: 0,
-        correctOnes: 0,
-        wrongOnes: 0,
-    });
-    const [practiceSessions, setPracticeSessions] = React.useState([]);
-    const [focusAreas, setFocusAreas] = React.useState([]);
-    const [showExplanations, setShowExplanations] = React.useState(false);
-    const [loading, setLoading] = React.useState(true);
+  const { user, profile } = useAuth();
+  const [availableExams, setAvailableExams] = React.useState([]);
+  const [statsData, setStatsData] = React.useState({
+    totalPracticed: 0, accuracy: 0, totalTimeInMinutes: 0, correctOnes: 0, wrongOnes: 0,
+  });
+  const [practiceSessions, setPracticeSessions] = React.useState([]);
+  const [focusAreas, setFocusAreas] = React.useState([]);
+  const [loading, setLoading] = React.useState(true);
 
-    React.useEffect(() => {
-        const fetchStats = async () => {
-            const { data } = await api.getUserStats(user.id);
-            if (data) setStatsData(data);
-            setLoading(false);
-        };
-        fetchStats();
-    }, [user]);
+  React.useEffect(() => {
+    api.getUserStats(user.id).then(({ data }) => { if (data) setStatsData(data); setLoading(false); });
+  }, [user]);
 
-    React.useEffect(() => {
-        const fetchSessions = async () => {
-            const { data } = await api.getUserPracticeSessions(user.id);
-            setPracticeSessions(data || []);
-        };
-        fetchSessions();
-    }, [user]);
+  React.useEffect(() => {
+    api.getUserPracticeSessions(user.id).then(({ data }) => setPracticeSessions(data || []));
+  }, [user]);
 
-    React.useEffect(() => {
-        const fetchFocusAreas = async () => {
-            const { data: responses } = await api.getUserResponses(user.id);
-            if (responses && responses.length > 0) {
-                const grouped = {};
-                responses.forEach((r) => {
-                    const subject = subjectFromPath(r.source_file);
-                    if (!grouped[subject]) grouped[subject] = { correct: 0, total: 0 };
-                    grouped[subject].total++;
-                    if (r.is_correct) grouped[subject].correct++;
-                });
-                const areas = Object.entries(grouped)
-                    .map(([label, { correct, total }]) => {
-                        const accuracy = (correct / total) * 100;
-                        let status, color, tone;
-                        if (accuracy >= 80) { status = 'Strong'; color = 'bg-accent'; tone = 'text-accent'; }
-                        else if (accuracy >= 50) { status = 'Building'; color = 'bg-primary'; tone = 'text-primary'; }
-                        else { status = 'Needs work'; color = 'bg-reward'; tone = 'text-reward'; }
-                        return { label, status, val: Math.round(accuracy), color, tone };
-                    })
-                    .sort((a, b) => b.val - a.val)
-                    .slice(0, 4);
-                setFocusAreas(areas);
-            }
-        };
-        fetchFocusAreas();
-    }, [user]);
-
-    React.useEffect(() => {
-        const base = import.meta.env.BASE_URL || '/';
-        const exams = [
-            { id: 'ssc', label: 'SSC', note: 'NCTB English 1st and 2nd Paper' },
-            { id: 'hsc', label: 'HSC', note: 'NCTB English 1st and 2nd Paper' },
-            { id: 'iba', label: 'IBA', note: 'Admission English, Math, Analytical' },
-            { id: 'bcs', label: 'BCS', note: 'Competitive exam practice' }
-        ];
-
-        Promise.all(exams.map(async (exam) => {
-            try {
-                const res = await fetch(`${base}${exam.id}/index.json`);
-                if (!res.ok) return { ...exam, active: false };
-                const json = await res.json();
-                return { ...exam, active: Array.isArray(json.subjects) && json.subjects.length > 0 };
-            } catch {
-                return { ...exam, active: false };
-            }
-        })).then(setAvailableExams);
-    }, []);
-
-    const totalXp = Number(profile?.total_xp || 0);
-    const level = Math.max(1, Math.floor(totalXp / 100) + 1);
-    const streak = statsData.totalPracticed > 0
-        ? Number(localStorage.getItem('exam_streak_days')) || Math.max(1, Math.min(31, Math.floor(statsData.totalPracticed / 4) + 1))
-        : 0;
-    const rankLabel = rankFromAccuracy(Number(statsData.accuracy));
-
-    const hasEnoughData = statsData.totalPracticed >= 20;
-    const username = user?.user_metadata?.username || user?.email || 'Student';
-
-    const quickActions = [
-        { icon: Target, title: 'Start Practicing', desc: 'Pick an exam and subject', path: '/practice' },
-        { icon: Brain, title: 'Question Bank', desc: 'Search 50,000+ questions', path: '/bank' },
-        { icon: BookOpen, title: 'Video Courses', desc: 'Watch from top instructors', path: '/courses' },
-        { icon: TrendingUp, title: 'Track Progress', desc: 'View accuracy & weak areas', path: '/analytics' },
-    ];
-
-    const recentSessions = practiceSessions.slice(0, 5);
-
-    if (loading) {
-        return (
-            <div className="flex items-center justify-center py-24">
-                <div className="flex flex-col items-center gap-3">
-                    <div className="w-6 h-6 border-2 border-primary/30 border-t-primary rounded-full animate-spin" />
-                    <p className="text-xs font-black uppercase tracking-widest text-white/20">Loading dashboard...</p>
-                </div>
-            </div>
+  React.useEffect(() => {
+    api.getUserResponses(user.id).then(({ data: responses }) => {
+      if (responses?.length > 0) {
+        const grouped = {};
+        responses.forEach((r) => {
+          const s = subjectFromPath(r.source_file);
+          if (!grouped[s]) grouped[s] = { correct: 0, total: 0 };
+          grouped[s].total++;
+          if (r.is_correct) grouped[s].correct++;
+        });
+        setFocusAreas(
+          Object.entries(grouped)
+            .map(([label, { correct, total }]) => {
+              const val = Math.round((correct / total) * 100);
+              let status, color, tone;
+              if (val >= 80) { status = 'Strong'; color = 'bg-accent'; tone = 'text-accent'; }
+              else if (val >= 50) { status = 'Building'; color = 'bg-primary'; tone = 'text-primary'; }
+              else { status = 'Needs work'; color = 'bg-reward'; tone = 'text-reward'; }
+              return { label, status, val, color, tone };
+            })
+            .sort((a, b) => b.val - a.val)
+            .slice(0, 4)
         );
-    }
+      }
+    });
+  }, [user]);
 
+  React.useEffect(() => {
+    const base = import.meta.env.BASE_URL || '/';
+    const exams = [
+      { id: 'ssc', label: 'SSC', note: 'NCTB English 1st & 2nd Paper' },
+      { id: 'hsc', label: 'HSC', note: 'NCTB English 1st & 2nd Paper' },
+      { id: 'iba', label: 'IBA', note: 'Admission English, Math, Analytical' },
+      { id: 'bcs', label: 'BCS', note: 'Competitive exam practice' },
+    ];
+    Promise.all(
+      exams.map(async (exam) => {
+        try {
+          const res = await fetch(`${base}${exam.id}/index.json`);
+          if (!res.ok) return { ...exam, active: false };
+          const json = await res.json();
+          return { ...exam, active: Array.isArray(json.subjects) && json.subjects.length > 0 };
+        } catch { return { ...exam, active: false }; }
+      })
+    ).then(setAvailableExams);
+  }, []);
+
+  const totalXp = Number(profile?.total_xp || 0);
+  const level = Math.max(1, Math.floor(totalXp / 100) + 1);
+  const streak = statsData.totalPracticed > 0
+    ? Number(localStorage.getItem('exam_streak_days')) || Math.max(1, Math.min(31, Math.floor(statsData.totalPracticed / 4) + 1))
+    : 0;
+  const rankLabel = rankFromAccuracy(Number(statsData.accuracy));
+  const rankTheme = rankColorMap[rankLabel] || rankColorMap.Bronze;
+  const hasEnoughData = statsData.totalPracticed >= 20;
+  const username = user?.user_metadata?.username || user?.email || 'Student';
+  const recentSessions = practiceSessions.slice(0, 5);
+  const progressTo20 = Math.min(statsData.totalPracticed, 20);
+  const nextLevelXp = level * 100;
+  const xpInLevel = totalXp - (level - 1) * 100;
+
+  if (loading) {
     return (
-        <div className="space-y-5 md:space-y-8 pb-6 md:pb-10">
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-                <div className="min-w-0 flex-1">
-                    <h1 className="text-lg md:text-3xl font-black text-white tracking-tighter">
-                        {new Date().getHours() < 12 ? 'Good morning' : new Date().getHours() < 18 ? 'Good afternoon' : 'Good evening'}, <span className="text-primary">{username}</span>
-                    </h1>
-                    <p className="text-[11px] md:text-sm text-white/40 font-medium mt-0.5">
-                        {hasEnoughData
-                            ? 'Here\'s your performance overview. Keep the momentum going.'
-                            : 'Start practicing to unlock your personalized dashboard.'}
-                    </p>
-                </div>
-                <Link
-                    to="/practice"
-                    className="inline-flex items-center gap-2 self-start rounded-xl bg-primary px-4 py-2.5 md:px-5 md:py-3 text-[10px] font-black uppercase tracking-[0.2em] text-black transition-all hover:bg-primary-hover active:scale-95 shadow-lg shadow-primary/20 shrink-0"
-                >
-                    Start Practice
-                    <ArrowRight className="w-3 h-3 md:w-3.5 md:h-3.5" />
-                </Link>
-            </div>
-
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 md:gap-3">
-                <MetricPill icon={Crown} label="Level" value={`${level}`} color="bg-yellow-400/10 text-yellow-400" />
-                <MetricPill icon={Flame} label="Streak" value={`${streak}d`} color="bg-orange-400/10 text-orange-400" />
-                <MetricPill icon={Zap} label="XP" value={`${totalXp}`} color="bg-primary/10 text-primary" />
-                <MetricPill icon={BadgeCheck} label="Rank" value={rankLabel} color="bg-emerald-400/10 text-emerald-400" />
-            </div>
-
-            {hasEnoughData ? (
-                <div className="grid gap-5 md:gap-6 lg:grid-cols-[1.3fr_0.9fr]">
-                    <div className="space-y-4 md:space-y-5">
-                        <h2 className="flex items-center gap-2 text-sm md:text-lg font-black tracking-tighter text-white px-0.5">
-                            <BarChart3 className="w-4 h-4 md:w-5 md:h-5 text-primary" />
-                            Performance Report
-                        </h2>
-
-                        <div className="rounded-2xl border border-white/5 bg-surface p-5 md:p-7 shadow-lg">
-                            <div className="flex flex-col sm:flex-row items-center gap-4 md:gap-10">
-                                <CircularProgress value={Math.round(Number(statsData.accuracy))} size={100} strokeWidth={8} className="shrink-0 md:size-[130px]" />
-                                <div className="grid grid-cols-2 gap-2 md:gap-3 w-full">
-                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-2.5 md:p-4 text-center">
-                                        <p className="text-lg md:text-3xl font-black text-white tracking-tighter">{statsData.totalPracticed}</p>
-                                        <p className="text-[8px] md:text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Questions</p>
-                                    </div>
-                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-2.5 md:p-4 text-center">
-                                        <p className="text-lg md:text-3xl font-black text-emerald-400 tracking-tighter">{statsData.correctOnes}</p>
-                                        <p className="text-[8px] md:text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Correct</p>
-                                    </div>
-                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-2.5 md:p-4 text-center">
-                                        <p className="text-lg md:text-3xl font-black text-red-400 tracking-tighter">{statsData.wrongOnes}</p>
-                                        <p className="text-[8px] md:text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Wrong</p>
-                                    </div>
-                                    <div className="rounded-xl border border-white/10 bg-surface-alt p-2.5 md:p-4 text-center">
-                                        <p className="text-lg md:text-3xl font-black text-cyan-400 tracking-tighter">{statsData.totalTimeInMinutes}m</p>
-                                        <p className="text-[8px] md:text-[9px] font-black uppercase tracking-[0.2em] text-white/30">Time spent</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {focusAreas.length > 0 && (
-                                <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-white/5">
-                                    <h3 className="text-[10px] font-black uppercase tracking-[0.25em] text-white/30 mb-4">Accuracy by subject</h3>
-                                    <div className="space-y-3.5 md:space-y-4">
-                                        {focusAreas.map((area) => (
-                                            <div key={area.label}>
-                                                <div className="flex items-center justify-between mb-1.5">
-                                                    <span className="text-xs font-bold text-white/60">{area.label}</span>
-                                                    <span className={`text-[10px] font-black uppercase tracking-[0.15em] ${area.tone}`}>{area.status} &bull; {area.val}%</span>
-                                                </div>
-                                                <div className="h-2 md:h-2.5 overflow-hidden rounded-full bg-white/5">
-                                                    <div
-                                                        className={`h-full rounded-full ${area.color} transition-all duration-1000 ease-out`}
-                                                        style={{ width: `${area.val}%` }}
-                                                    />
-                                                </div>
-                                            </div>
-                                        ))}
-                                    </div>
-                                </div>
-                            )}
-
-                            <Link
-                                to="/analytics"
-                                className="mt-5 md:mt-6 flex items-center justify-center gap-2 rounded-xl border border-primary/20 bg-primary/10 py-3.5 text-[10px] font-black uppercase tracking-[0.2em] text-primary transition-all hover:bg-primary hover:text-black active:scale-[0.98]"
-                            >
-                                View Full Report
-                                <ArrowRight className="w-3.5 h-3.5" />
-                            </Link>
-
-                            <button
-                                onClick={() => setShowExplanations(!showExplanations)}
-                                className="mt-3 flex items-center justify-center gap-2 w-full py-2.5 text-[9px] font-black uppercase tracking-[0.2em] text-white/25 hover:text-white/40 transition-colors"
-                            >
-                                <Info className="w-3 h-3" />
-                                {showExplanations ? 'Hide calculations' : 'How it\'s calculated'}
-                            </button>
-
-                            {showExplanations && (
-                                <div className="mt-4 p-4 md:p-5 rounded-xl border border-white/10 bg-surface-alt space-y-3">
-                                    <p className="text-[9px] font-black uppercase tracking-[0.2em] text-white/20 mb-3">Metric definitions</p>
-                                    {[
-                                        { metric: 'Accuracy', formula: '(Correct answers ÷ Total questions) × 100', detail: 'Your overall accuracy across all subjects and exams.' },
-                                        { metric: 'Level', formula: 'floor(Total XP ÷ 100) + 1', detail: 'You gain 1 level for every 100 XP earned. XP is awarded for correct answers and practice completion.' },
-                                        { metric: 'Streak', formula: 'Consecutive days with at least 1 practice session', detail: 'Tracked daily. Practice at least once per day to keep your streak alive.' },
-                                        { metric: 'Rank', formula: 'Bronze / Silver / Gold / Diamond', detail: 'Bronze (<70%), Silver (70-84%), Gold (85-94%), Diamond (95%+). Based on overall accuracy.' },
-                                        { metric: 'Subject accuracy', formula: '(Correct in subject ÷ Total in subject) × 100', detail: 'Filtered by subject type (e.g. Math, English, Analytical). Shows your strongest and weakest areas.' },
-                                    ].map((item) => (
-                                        <div key={item.metric} className="flex items-start gap-3 pb-3 border-b border-white/5 last:border-0 last:pb-0">
-                                            <div className="w-1.5 h-1.5 rounded-full bg-primary/50 mt-1.5 shrink-0" />
-                                            <div>
-                                                <h4 className="text-xs font-black text-white">{item.metric}</h4>
-                                                <p className="text-[10px] text-white/30 font-mono mt-0.5">{item.formula}</p>
-                                                <p className="text-[10px] text-white/20 mt-0.5 leading-relaxed">{item.detail}</p>
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                            )}
-                        </div>
-                    </div>
-
-                    <div className="space-y-4 md:space-y-5">
-                        <h2 className="flex items-center gap-2 text-sm md:text-lg font-black tracking-tighter text-white px-0.5">
-                            <Clock className="w-4 h-4 md:w-5 md:h-5 text-primary" />
-                            Recent Activity
-                        </h2>
-
-                        <div className="rounded-2xl border border-white/5 bg-surface shadow-lg">
-                            {recentSessions.length > 0 ? (
-                                <div className="divide-y divide-white/5">
-                                    {recentSessions.map((item) => {
-                                        const subject = subjectFromPath(item.source_file);
-                                        const xp = item.correct_answers * 10;
-                                        return (
-                                            <div key={item.id} className="flex items-center justify-between gap-2 p-3 md:p-5 transition-colors hover:bg-white/[0.02]">
-                                                <div className="flex min-w-0 items-center gap-2 md:gap-4">
-                                                    <div className="flex h-8 w-8 md:h-12 md:w-12 shrink-0 items-center justify-center rounded-lg md:rounded-xl border border-white/5 bg-white/5 text-xs md:text-lg font-black tracking-tighter text-primary">
-                                                        {subject[0]}
-                                                    </div>
-                                                    <div className="min-w-0">
-                                                        <h4 className="truncate text-xs md:text-base font-black text-white tracking-tight">{item.chapter_title}</h4>
-                                                        <p className="text-[8px] md:text-[9px] font-black uppercase tracking-[0.15em] text-white/20 truncate">{subject} &bull; {timeAgo(item.created_at)}</p>
-                                                    </div>
-                                                </div>
-                                                <div className="shrink-0 text-right">
-                                                    <span className="block text-sm md:text-xl font-black tracking-tighter text-white">{item.correct_answers}/{item.total_questions}</span>
-                                                    <span className="text-[7px] md:text-[8px] font-black uppercase tracking-[0.15em] text-reward">+{xp} XP</span>
-                                                </div>
-                                            </div>
-                                        );
-                                    })}
-                                </div>
-                            ) : (
-                                <div className="flex flex-col items-center justify-center py-10 md:py-14 px-6">
-                                    <CheckList className="w-20 h-20 md:w-24 md:h-24 opacity-25 mb-3" />
-                                    <p className="text-white/15 font-black uppercase tracking-widest text-[10px] text-center">No sessions recorded</p>
-                                </div>
-                            )}
-                        </div>
-                    </div>
-                </div>
-            ) : (
-                <div className="rounded-2xl border border-white/5 bg-surface p-6 md:p-10 shadow-lg">
-                    <div className="flex flex-col lg:flex-row items-center gap-6 md:gap-10">
-                        <div className="shrink-0 opacity-[0.06]">
-                            <Rocket className="w-36 h-36 md:w-48 md:h-48" />
-                        </div>
-                        <div className="text-center lg:text-left">
-                            <h2 className="text-xl md:text-2xl font-black text-white tracking-tighter">Your dashboard is ready to launch</h2>
-                            <p className="text-sm text-white/40 font-medium mt-2 max-w-lg leading-relaxed">
-                                Complete at least <span className="text-primary font-black">20 questions</span> to unlock your personalized performance report. Track accuracy by subject, review weak areas, and watch your progress grow.
-                            </p>
-
-                            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 md:gap-4 mt-6 md:mt-8">
-                                {[
-                                    { label: 'Accuracy tracking', color: 'text-accent' },
-                                    { label: 'Subject analysis', color: 'text-primary' },
-                                    { label: 'Weak area detection', color: 'text-reward' },
-                                    { label: 'Consistency scores', color: 'text-emerald-400' },
-                                ].map((item) => (
-                                    <div key={item.label} className="rounded-xl border border-white/5 bg-white/[0.02] p-3.5 md:p-4 text-center">
-                                        <p className={`text-lg font-black ${item.color}`}>✓</p>
-                                        <p className="text-[9px] font-black uppercase tracking-[0.1em] text-white/30 mt-1 leading-tight">{item.label}</p>
-                                    </div>
-                                ))}
-                            </div>
-
-                            <div className="flex flex-col sm:flex-row items-center gap-3 mt-6 md:mt-8">
-                                <Link
-                                    to="/practice"
-                                    className="inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3.5 text-[10px] font-black uppercase tracking-[0.2em] text-black transition-all hover:bg-primary-hover active:scale-95 shadow-lg shadow-primary/20"
-                                >
-                                    Start Your First Practice
-                                    <ArrowRight className="w-3.5 h-3.5" />
-                                </Link>
-                                <p className="text-[10px] text-white/20 font-medium">
-                                    {statsData.totalPracticed > 0
-                                        ? `${statsData.totalPracticed} question${statsData.totalPracticed !== 1 ? 's' : ''} completed so far`
-                                        : 'No questions attempted yet'}
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            )}
-
-            <div>
-                <h2 className="flex items-center gap-2 text-sm md:text-lg font-black tracking-tighter text-white mb-3 md:mb-4 px-0.5">
-                    <HelpCircle className="w-4 h-4 md:w-5 md:h-5 text-primary" />
-                    Quick Actions
-                </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-3">
-                    {quickActions.map((item) => (
-                        <QuickActionCard key={item.title} {...item} />
-                    ))}
-                </div>
-            </div>
-
-            {availableExams.some(e => e.active) && (
-                <div>
-                    <h2 className="flex items-center gap-2 text-sm md:text-lg font-black tracking-tighter text-white mb-3 md:mb-4 px-0.5">
-                        <BookOpen className="w-4 h-4 md:w-5 md:h-5 text-primary" />
-                        Exam Paths
-                    </h2>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-3">
-                        {availableExams.map((exam, index) => {
-                            const accentColor = [
-                                'border-l-primary',
-                                'border-l-reward',
-                                'border-l-accent',
-                                'border-l-fuchsia-400',
-                            ][index % 4];
-
-                            return exam.active ? (
-                                <Link
-                                    key={exam.id}
-                                    to={`/practice?exam=${exam.id}`}
-                                    className={`group rounded-xl border border-white/5 border-l-4 ${accentColor} bg-surface p-4 md:p-5 transition-all hover:-translate-y-0.5 hover:border-l-primary/80 active:scale-[0.98]`}
-                                >
-                                    <p className="text-[8px] font-black uppercase tracking-[0.25em] text-white/25">Available</p>
-                                    <h3 className="mt-1 text-xl md:text-2xl font-black tracking-tighter text-white">{exam.label}</h3>
-                                    <p className="mt-2 text-[10px] md:text-xs font-medium text-white/30 leading-relaxed line-clamp-2">{exam.note}</p>
-                                </Link>
-                            ) : (
-                                <div key={exam.id} className="rounded-xl border border-white/5 bg-surface p-4 md:p-5 opacity-60">
-                                    <p className="text-[8px] font-black uppercase tracking-[0.25em] text-white/20">Coming soon</p>
-                                    <h3 className="mt-1 text-xl md:text-2xl font-black tracking-tighter text-white">{exam.label}</h3>
-                                    <p className="mt-2 text-[10px] md:text-xs font-medium text-white/20">{exam.note}</p>
-                                </div>
-                            );
-                        })}
-                    </div>
-                </div>
-            )}
+      <div className="flex items-center justify-center min-h-[60vh]">
+        <div className="flex flex-col items-center gap-3">
+          <div className="w-7 h-7 border-2 border-primary/30 border-t-primary rounded-full animate-spin" />
+          <p className="text-xs font-black uppercase tracking-widest text-white/20">Loading dashboard...</p>
         </div>
+      </div>
     );
+  }
+
+  return (
+    <Motion.div variants={containerVariants} initial="hidden" animate="show" className="space-y-3 pb-20 md:pb-10 max-w-4xl mx-auto">
+
+      {/* ─── Hero Card ─── */}
+      <Motion.div variants={itemVariants} className="relative overflow-hidden rounded-2xl border border-white/[0.06] bg-surface p-4 md:p-7">
+        <div className="absolute top-0 right-0 w-40 h-40 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
+
+        <div className="flex items-start justify-between gap-3 mb-4">
+          <div className="min-w-0 flex-1">
+            <p className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-1">
+              {new Date().getHours() < 12 ? 'Good morning' : new Date().getHours() < 18 ? 'Good afternoon' : 'Good evening'}
+            </p>
+            <h1 className="text-xl md:text-3xl font-black text-white tracking-tighter truncate">
+              {username} <span className="text-primary">· Lv.{level}</span>
+            </h1>
+          </div>
+          <div className={`shrink-0 px-3 py-1.5 rounded-full border border-white/[0.06] ${rankTheme.bg}`}>
+            <div className="flex items-center gap-1.5">
+              <Trophy className={`w-3.5 h-3.5 ${rankTheme.icon}`} />
+              <span className={`text-2xs font-black uppercase tracking-wider ${rankTheme.text}`}>{rankLabel}</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-3 md:gap-5 mb-3">
+          <div className="flex items-center gap-1.5">
+            <Flame className="w-3.5 h-3.5 text-orange-400 shrink-0" />
+            <div>
+              <p className="text-3xs font-black uppercase tracking-widest text-white/25 leading-none mb-0.5">{streak}d streak</p>
+              <p className="text-sm md:text-base font-black text-white leading-none">{totalXp} <span className="text-3xs font-bold text-white/40">XP</span></p>
+            </div>
+          </div>
+          <div className="w-px h-7 bg-white/5" />
+          <div className="flex items-center gap-1.5">
+            <Gauge className="w-3.5 h-3.5 text-accent shrink-0" />
+            <div>
+              <p className="text-3xs font-black uppercase tracking-widest text-white/25 leading-none mb-0.5">Accuracy</p>
+              <p className="text-sm md:text-base font-black text-white leading-none">{Math.round(Number(statsData.accuracy))}%</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+          <Link
+            to="/practice"
+            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-black transition-all active:scale-[0.97] shadow-lg shadow-primary/25"
+          >
+            Start Practice
+            <ArrowRight className="w-3.5 h-3.5" />
+          </Link>
+          <Link
+            to="/bank"
+            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl border border-white/[0.08] bg-white/[0.04] hover:bg-white/[0.08] px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-white/60 hover:text-white transition-all active:scale-[0.97]"
+          >
+            Question Bank
+            <Layers className="w-3.5 h-3.5" />
+          </Link>
+        </div>
+
+        {/* ─── Level Progress ─── */}
+        <div className="mt-4 pt-3 border-t border-white/[0.04]">
+          <div className="flex items-center justify-between mb-1.5">
+            <span className="text-3xs font-black uppercase tracking-widest text-white/20">Level {level} · {nextLevelXp} XP target</span>
+            <span className="text-3xs font-black text-primary">{xpInLevel}/{nextLevelXp - (level - 1) * 100} XP</span>
+          </div>
+          <div className="h-1.5 rounded-full bg-white/[0.06] overflow-hidden">
+            <Motion.div
+              className="h-full rounded-full bg-primary"
+              initial={{ width: 0 }}
+              animate={{ width: `${(xpInLevel / (nextLevelXp - (level - 1) * 100)) * 100}%` }}
+              transition={{ duration: 1, ease: 'easeOut' }}
+            />
+          </div>
+        </div>
+      </Motion.div>
+
+      {/* ─── Progress to 20 (new users) ─── */}
+      {!hasEnoughData && (
+        <Motion.div variants={itemVariants} className="rounded-xl border border-white/[0.05] bg-surface p-4">
+          <div className="flex items-center justify-between gap-3 mb-2">
+            <div className="flex items-center gap-2 min-w-0">
+              <Rocket className="w-4 h-4 text-primary shrink-0" />
+              <span className="text-2xs font-black uppercase tracking-wider text-white/40 truncate">Unlock full dashboard</span>
+            </div>
+            <span className="text-xs font-black text-primary shrink-0">{progressTo20}/20</span>
+          </div>
+          <div className="h-2 rounded-full bg-white/[0.06] overflow-hidden">
+            <Motion.div
+              className="h-full rounded-full bg-primary"
+              initial={{ width: 0 }}
+              animate={{ width: `${(progressTo20 / 20) * 100}%` }}
+              transition={{ duration: 0.8, ease: 'easeOut' }}
+            />
+          </div>
+          {statsData.totalPracticed > 0 && (
+            <p className="text-3xs font-medium text-white/20 mt-2">
+              {20 - statsData.totalPracticed} more questions to unlock performance reports
+            </p>
+          )}
+        </Motion.div>
+      )}
+
+      {/* ─── Stats Grid ─── */}
+      <Motion.div variants={itemVariants} className="grid grid-cols-2 md:grid-cols-4 gap-2.5">
+        <StatCard Icon={Crown} label="Level" value={`${level}`} bgClass="bg-yellow-400/10" iconColor="text-yellow-400" />
+        <StatCard Icon={Flame} label="Streak" value={`${streak}d`} bgClass="bg-orange-400/10" iconColor="text-orange-400" />
+        <StatCard Icon={Zap} label="XP Earned" value={`${totalXp}`} bgClass="bg-primary/10" iconColor="text-primary" />
+        <StatCard Icon={BadgeCheck} label="Rank" value={rankLabel} bgClass={rankTheme.bg} iconColor={rankTheme.icon} />
+      </Motion.div>
+
+      {/* ─── Quick Actions ─── */}
+      <Motion.div variants={itemVariants}>
+        <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-3">Quick Actions</h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5">
+          <ActionCard Icon={Target} title="Practice" desc="Pick an exam & subject" path="/practice" />
+          <ActionCard Icon={Brain} title="Question Bank" desc="Search 50,000+" path="/bank" />
+          <ActionCard Icon={BookOpen} title="Courses" desc="Video lessons" path="/courses" />
+          <ActionCard Icon={TrendingUp} title="Analytics" desc="Track progress" path="/analytics" />
+        </div>
+      </Motion.div>
+
+      {/* ─── Main Content ─── */}
+      {hasEnoughData ? (
+        <Motion.div variants={itemVariants} className="space-y-4">
+          {/* Performance */}
+          <div className="rounded-2xl border border-white/[0.05] bg-surface p-5 md:p-6">
+            <h2 className="flex items-center gap-2 text-xs md:text-sm font-black tracking-tighter text-white mb-4">
+              <BarChart3 className="w-4 h-4 text-primary" />
+              Performance
+            </h2>
+            <div className="flex flex-col sm:flex-row items-center gap-5">
+              <CircularProgress value={Math.round(Number(statsData.accuracy))} size={96} strokeWidth={7} />
+              <div className="grid grid-cols-3 gap-2 w-full">
+                <StatBox label="Questions" value={statsData.totalPracticed} />
+                <StatBox label="Correct" value={statsData.correctOnes} accent="text-emerald-400" />
+                <StatBox label="Wrong" value={statsData.wrongOnes} accent="text-red-400" />
+              </div>
+            </div>
+            {focusAreas.length > 0 && (
+              <div className="mt-5 pt-4 border-t border-white/[0.04] space-y-3">
+                <p className="text-3xs font-black uppercase tracking-[0.25em] text-white/20">Accuracy by subject</p>
+                {focusAreas.map((area) => (
+                  <div key={area.label}>
+                    <div className="flex items-center justify-between mb-1">
+                      <span className="text-2xs font-bold text-white/50">{area.label}</span>
+                      <span className={`text-3xs font-black uppercase tracking-wider ${area.tone}`}>{area.status} · {area.val}%</span>
+                    </div>
+                    <div className="h-1.5 rounded-full bg-white/[0.05] overflow-hidden">
+                      <Motion.div
+                        className={`h-full rounded-full ${area.color}`}
+                        initial={{ width: 0 }}
+                        animate={{ width: `${area.val}%` }}
+                        transition={{ duration: 1, delay: 0.2, ease: 'easeOut' }}
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+            <Link
+              to="/analytics"
+              className="mt-4 flex items-center justify-center gap-2 rounded-xl border border-primary/20 bg-primary/[0.06] py-3 text-2xs font-black uppercase tracking-[0.2em] text-primary transition-all hover:bg-primary hover:text-black active:scale-[0.98]"
+            >
+              Full Report <ArrowRight className="w-3 h-3" />
+            </Link>
+          </div>
+
+          {/* Recent Activity */}
+          <div className="rounded-2xl border border-white/[0.05] bg-surface p-5 md:p-6">
+            <h2 className="flex items-center gap-2 text-xs md:text-sm font-black tracking-tighter text-white mb-3">
+              <Clock className="w-4 h-4 text-primary" />
+              Recent Activity
+            </h2>
+            {recentSessions.length > 0 ? (
+              <div className="divide-y divide-white/[0.04] -mx-1">
+                {recentSessions.map((item) => {
+                  const subject = subjectFromPath(item.source_file);
+                  const xp = item.correct_answers * 10;
+                  return (
+                    <div key={item.id} className="flex items-center gap-3 px-1 py-3">
+                      <div className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center text-xs font-black text-primary shrink-0">
+                        {subject[0]}
+                      </div>
+                      <div className="min-w-0 flex-1">
+                        <p className="text-xs font-black text-white truncate">{item.chapter_title}</p>
+                        <p className="text-3xs font-black uppercase tracking-wider text-white/20">{subject} · {timeAgo(item.created_at)}</p>
+                      </div>
+                      <div className="text-right shrink-0">
+                        <p className="text-sm font-black text-white">{item.correct_answers}/{item.total_questions}</p>
+                        <p className="text-3xs font-black uppercase text-reward">+{xp} XP</p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              <div className="flex flex-col items-center py-6">
+                <CheckList className="w-12 h-12 opacity-20 mb-2" />
+                <p className="text-2xs font-black uppercase tracking-wider text-white/15">No sessions yet</p>
+              </div>
+            )}
+          </div>
+        </Motion.div>
+      ) : (
+        <Motion.div variants={itemVariants} className="space-y-4">
+          {/* Gamify Banner */}
+          <div className="relative overflow-hidden rounded-2xl border border-primary/20 bg-surface p-5 md:p-6">
+            <div className="absolute -top-8 -right-8 w-36 h-36 opacity-[0.07] pointer-events-none">
+              <LottieAnimation src={gameControllerAnimation} className="w-full h-full" pingPong />
+            </div>
+            <div className="flex items-center gap-4">
+              <div className="w-16 h-16 md:w-20 md:h-20 shrink-0 hidden sm:block">
+                <LottieAnimation src={gameControllerAnimation} className="w-full h-full" pingPong />
+              </div>
+              <div className="min-w-0 flex-1">
+                <div className="flex items-center gap-1.5 mb-1">
+                  <Gamepad className="w-3.5 h-3.5 text-primary" />
+                  <span className="text-3xs font-black uppercase tracking-[0.2em] text-primary">New here?</span>
+                </div>
+                <h2 className="text-base md:text-xl font-black text-white tracking-tighter">Gamify your experience. Earn XP and collect stars.</h2>
+                <p className="text-xs text-white/40 font-medium mt-1 leading-relaxed">
+                  Complete questions to earn XP, build streaks, collect stars. Every correct answer gets you closer to the next level.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Launch CTA */}
+          <div className="rounded-2xl border border-primary/20 bg-surface p-5 md:p-6">
+            <div className="flex items-start gap-4">
+              <div className="hidden sm:flex w-12 h-12 rounded-xl bg-primary/15 border border-primary/20 items-center justify-center shrink-0 mt-0.5">
+                <Rocket className="w-6 h-6 text-primary" />
+              </div>
+              <div className="min-w-0 flex-1">
+                <h2 className="text-base md:text-lg font-black text-white tracking-tighter">Your dashboard is ready to launch</h2>
+                <p className="text-xs text-white/40 font-medium mt-1 max-w-lg leading-relaxed">
+                  Complete <span className="text-primary font-black">20 questions</span> to unlock reports, accuracy tracking, and weak spot analysis.
+                </p>
+                <div className="flex flex-wrap gap-1.5 mt-3">
+                  {['Accuracy', 'Analysis', 'Weak spots', 'Consistency'].map((tag) => (
+                    <span key={tag} className="px-2 py-0.5 rounded-md bg-white/[0.03] border border-white/[0.06] text-3xs font-black uppercase tracking-wider text-white/25">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <div className="flex flex-col xs:flex-row items-start xs:items-center gap-2.5 mt-3">
+                  <Link
+                    to="/practice"
+                    className="inline-flex items-center gap-2 rounded-xl bg-primary hover:bg-primary-hover px-5 py-2.5 text-2xs font-black uppercase tracking-[0.2em] text-black transition-all active:scale-95 shadow-lg shadow-primary/20"
+                  >
+                    Start Your First Practice <ArrowRight className="w-3 h-3" />
+                  </Link>
+                  <p className="text-3xs text-white/20 font-medium">
+                    {statsData.totalPracticed > 0
+                      ? `${statsData.totalPracticed} question${statsData.totalPracticed !== 1 ? 's' : ''} completed`
+                      : 'No questions attempted yet'}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Motion.div>
+      )}
+
+      {/* ─── Exam Paths ─── */}
+      {availableExams.some((e) => e.active) && (
+        <Motion.div variants={itemVariants}>
+          <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-3">Available Exams</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+            {availableExams.map((exam, i) => {
+              const themes = [
+                { border: 'border-l-primary', accent: 'text-primary', badge: 'bg-primary/20 text-primary', icon: Book },
+                { border: 'border-l-reward', accent: 'text-reward', badge: 'bg-reward/20 text-reward', icon: GraduationCap },
+                { border: 'border-l-accent', accent: 'text-accent', badge: 'bg-accent/20 text-accent', icon: Library },
+                { border: 'border-l-fuchsia-500', accent: 'text-fuchsia-400', badge: 'bg-fuchsia-500/20 text-fuchsia-400', icon: ScrollText },
+              ];
+              const t = themes[i % themes.length];
+              const IconComp = t.icon;
+              return exam.active ? (
+                <Link
+                  key={exam.id}
+                  to={`/practice?exam=${exam.id}`}
+                  className={`group relative rounded-xl border border-white/[0.05] bg-surface ${t.border} border-l-4 p-4 transition-all hover:-translate-y-0.5 hover:shadow-lg active:scale-[0.97] overflow-hidden`}
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-center gap-2.5 mb-1.5">
+                        <div className={`w-8 h-8 rounded-lg bg-white/[0.04] border border-white/[0.06] flex items-center justify-center ${t.accent}`}>
+                          <IconComp className="w-4 h-4" />
+                        </div>
+                        <h3 className="text-xl md:text-2xl font-black tracking-tighter text-white">{exam.label}</h3>
+                      </div>
+                      <p className="text-2xs font-medium text-white/40 leading-relaxed line-clamp-2">{exam.note}</p>
+                    </div>
+                    <span className={`shrink-0 px-2 py-0.5 rounded-md text-3xs font-black uppercase tracking-wider ${t.badge}`}>
+                      Open
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-1.5 mt-3 pt-3 border-t border-white/[0.04]">
+                    <span className="text-3xs text-white/20 font-medium">{exam.label.toLowerCase()} questions ready</span>
+                    <ArrowRight className={`w-3 h-3 ${t.accent} ml-auto transition-transform group-hover:translate-x-0.5`} />
+                  </div>
+                </Link>
+              ) : (
+                <div key={exam.id} className="relative rounded-xl border border-white/[0.04] bg-surface p-4 opacity-50 pointer-events-none">
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-center gap-2.5 mb-1.5">
+                        <div className="w-8 h-8 rounded-lg bg-white/[0.03] border border-white/[0.04] flex items-center justify-center text-white/20">
+                          <IconComp className="w-4 h-4" />
+                        </div>
+                        <h3 className="text-xl md:text-2xl font-black tracking-tighter text-white/50">{exam.label}</h3>
+                      </div>
+                      <p className="text-2xs font-medium text-white/20 leading-relaxed">{exam.note}</p>
+                    </div>
+                    <span className="shrink-0 px-2 py-0.5 rounded-md bg-white/[0.04] text-3xs font-black uppercase tracking-wider text-white/20">
+                      Soon
+                    </span>
+                  </div>
+                  <div className="mt-3 pt-3 border-t border-white/[0.04]">
+                    <span className="text-3xs text-white/10 font-medium">Coming soon</span>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </Motion.div>
+      )}
+    </Motion.div>
+  );
 };
+
+const CircularProgress = ({ value, size = 96, strokeWidth = 7, className = '' }) => {
+  const radius = (size - strokeWidth) / 2;
+  const circumference = radius * 2 * Math.PI;
+  const offset = circumference - (value / 100) * circumference;
+  return (
+    <div className={`relative inline-flex items-center justify-center shrink-0 ${className}`}>
+      <svg width={size} height={size} className="-rotate-90">
+        <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke="currentColor" strokeWidth={strokeWidth} className="text-white/[0.05]" />
+        <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke="currentColor" strokeWidth={strokeWidth}
+          strokeDasharray={circumference} strokeDashoffset={offset} strokeLinecap="round"
+          className="text-primary transition-all duration-1000 ease-out"
+        />
+      </svg>
+      <div className="absolute inset-0 flex flex-col items-center justify-center">
+        <span className="text-xl md:text-2xl font-black text-white tracking-tighter">{value}%</span>
+        <span className="text-3xs font-black uppercase tracking-[0.15em] text-white/25">Accuracy</span>
+      </div>
+    </div>
+  );
+};
+
+// eslint-disable-next-line no-unused-vars -- used as JSX component
+const StatCard = ({ Icon, label, value, bgClass, iconColor }) => (
+  <div className="rounded-xl border border-white/[0.05] bg-surface p-3.5 md:p-4 transition-all hover:-translate-y-0.5 active:scale-[0.97]">
+    <div className="flex items-center gap-2.5">
+      <div className={`rounded-lg p-2 ${bgClass} border border-white/[0.04]`}>
+        <Icon className={`w-4 h-4 ${iconColor}`} />
+      </div>
+      <div className="min-w-0">
+        <p className="text-3xs font-black uppercase tracking-[0.15em] text-white/25">{label}</p>
+        <p className="text-sm md:text-base font-black text-white tracking-tight truncate">{value}</p>
+      </div>
+    </div>
+  </div>
+);
+
+// eslint-disable-next-line no-unused-vars -- used as JSX component
+const ActionCard = ({ Icon, title, desc, path }) => (
+  <Link
+    to={path}
+    className="rounded-xl border border-white/[0.06] bg-surface p-4 transition-all hover:-translate-y-1 hover:border-primary/30 hover:shadow-xl active:scale-[0.97] group"
+  >
+    <div className="w-10 h-10 rounded-xl bg-white/[0.04] border border-white/[0.06] flex items-center justify-center mb-3 transition-transform group-hover:scale-110">
+      <Icon className="w-5 h-5 text-white/70" />
+    </div>
+    <h4 className="text-xs font-black text-white group-hover:text-primary transition-colors">{title}</h4>
+    <p className="text-2xs text-white/30 mt-0.5 leading-relaxed">{desc}</p>
+  </Link>
+);
+
+const StatBox = ({ label, value, accent = 'text-white' }) => (
+  <div className="rounded-xl border border-white/[0.06] bg-white/[0.02] p-3 text-center">
+    <p className={`text-lg md:text-xl font-black tracking-tighter ${accent}`}>{value}</p>
+    <p className="text-3xs font-black uppercase tracking-[0.15em] text-white/25 mt-0.5">{label}</p>
+  </div>
+);
 
 export default Dashboard;
