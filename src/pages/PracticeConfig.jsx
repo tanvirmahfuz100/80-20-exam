@@ -133,28 +133,53 @@ const InactiveExam = ({ exam }) => {
 const SubjectCard = ({ subject, isSelected, onClick, progress }) => {
     const Icon = icons[subject.id] || Book;
     const moduleCount = subject.topics?.reduce((acc, t) => acc + t.chapters.length, 0) || 0;
+    const pct = progress.total > 0 ? Math.min(Math.round((progress.completed / progress.total) * 100), 100) : 0;
 
     return (
-        <button onClick={onClick} className={`flex flex-col gap-3 px-5 py-4 rounded-xl border transition-all text-left relative ${isSelected
-            ? 'bg-primary/12 border-primary shadow-lg shadow-primary/10 ring-2 ring-primary/30'
-            : 'bg-surface border-white/5 hover:border-primary/30 hover:bg-white/5'
-            }`}>
+        <motion.button
+            onClick={onClick}
+            whileTap={{ scale: 0.98 }}
+            className={`relative w-full text-left rounded-xl border transition-all group ${
+                isSelected
+                    ? 'bg-primary/12 border-primary shadow-lg shadow-primary/10 ring-2 ring-primary/30'
+                    : 'bg-surface border-white/5 hover:border-primary/30 hover:bg-white/[0.03]'
+            }`}
+        >
             {isSelected && (
-                <div className="absolute top-0 right-0 p-2 bg-primary/20 text-primary rounded-bl-xl">
+                <div className="absolute top-0 right-0 p-2 bg-primary/20 text-primary rounded-bl-xl z-10">
                     <ShieldCheck className="w-3 h-3" />
                 </div>
             )}
-            <div className="flex items-center gap-4">
-                <div className={`p-3 rounded-xl shrink-0 transition-all ${isSelected ? 'bg-primary text-black' : 'bg-surface-alt text-white/30'}`}>
+
+            <div className="grid grid-cols-[auto_minmax(0,1fr)_7rem] items-center gap-3 p-4">
+                <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-all ${
+                    isSelected ? 'bg-primary text-black' : 'bg-surface-alt text-white/30 group-hover:text-white/50'
+                }`}>
                     <Icon className="w-5 h-5" />
                 </div>
-                <div className="flex-1 min-w-0">
-                    <h3 className={`font-black tracking-tight ${isSelected ? 'text-white' : 'text-white/60'}`}>{subject.name}</h3>
-                    <p className="text-[10px] font-black uppercase tracking-[0.15em] text-white/20 mt-0.5">{moduleCount} Modules</p>
+
+                <div className="min-w-0">
+                    <h3 className={`font-black tracking-tight text-sm leading-tight ${
+                        isSelected ? 'text-white' : 'text-white/60 group-hover:text-white/80'
+                    }`}>{subject.name}</h3>
+                    <p className="text-[10px] font-black uppercase tracking-[0.15em] text-white/20 mt-0.5">{moduleCount} MODULES</p>
+                </div>
+
+                <div className="flex items-center justify-end">
+                    <div className="flex items-center gap-1.5 w-full max-w-[5.5rem]">
+                        <div className="flex-1 h-1.5 bg-white/10 rounded-full overflow-hidden">
+                            <motion.div
+                                className="h-full rounded-full bg-primary"
+                                initial={{ width: 0 }}
+                                animate={{ width: `${pct}%` }}
+                                transition={{ duration: 0.6, ease: 'easeOut' }}
+                            />
+                        </div>
+                        <span className="text-[10px] font-black tabular-nums text-primary/80 w-8 text-right shrink-0">{pct}%</span>
+                    </div>
                 </div>
             </div>
-            <ProgressBar completed={progress.completed} total={progress.total} />
-        </button>
+        </motion.button>
     );
 };
 
