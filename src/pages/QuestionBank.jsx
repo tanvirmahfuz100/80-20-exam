@@ -212,125 +212,136 @@ const QuestionBank = () => {
     const anyFilterActive = Object.values(filters).some(v => v !== 'All') || searchTerm;
 
     return (
-        <div className="max-w-5xl mx-auto space-y-4 md:space-y-6">
-            <div className="bg-surface border border-white/5 p-4 md:p-8 rounded-2xl md:rounded-[2rem] shadow-lg relative overflow-hidden">
+        <div className="max-w-5xl mx-auto space-y-6 md:space-y-8">
+            <div className="bg-surface border border-white/5 p-5 md:p-10 rounded-2xl md:rounded-[2rem] shadow-lg relative overflow-hidden">
                 <div className="absolute -right-8 -top-8 w-[200px] h-[200px] md:w-[260px] md:h-[260px] opacity-20 pointer-events-none z-0">
                     <LottieAnimation src={searchAnimation} className="w-full h-full" pingPong />
                 </div>
-                <div className="relative z-10 flex items-start gap-4 mb-3 md:mb-4">
-                    <div className="flex-1 min-w-0">
-                        <h1 className="text-xl md:text-3xl font-black text-white tracking-tighter">
-                            BRAIN <span className="text-primary uppercase">SEARCH.</span>
-                        </h1>
-                        <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] mt-0.5">
-                            {loading ? loadProgress || 'Loading...' : `${allQuestions.length} questions indexed`}
-                        </p>
-                    </div>
+
+                <div className="relative z-10">
+                    <h1 className="text-2xl md:text-4xl font-black text-white tracking-tighter mb-1">
+                        BRAIN <span className="text-primary">SEARCH.</span>
+                    </h1>
+                    <p className="text-white/25 font-bold uppercase tracking-widest text-[10px] md:text-[11px]">
+                        {loading ? loadProgress || 'Loading...' : `${allQuestions.length.toLocaleString()} questions indexed`}
+                    </p>
                 </div>
 
-                <div className="relative z-10 flex flex-col sm:flex-row gap-2 md:gap-3">
+                <div className="relative z-10 flex flex-col sm:flex-row gap-3 md:gap-4 mt-5 md:mt-6">
                     <div className="flex-1 relative group">
-                        <Search className="absolute left-3 md:left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/20 group-focus-within:text-primary transition-colors" />
+                        <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/20 group-focus-within:text-primary transition-colors" />
                         <input
                             ref={inputRef}
                             type="text"
                             placeholder="Search questions across SSC, HSC, IBA..."
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
-                            className="w-full bg-background border border-white/5 pl-10 md:pl-12 pr-3 py-3 rounded-xl text-white outline-none focus:border-primary/50 transition-all font-medium text-sm"
+                            className="w-full bg-background border border-white/5 pl-11 pr-4 py-4 rounded-xl text-white outline-none focus:border-primary/50 transition-all font-medium text-sm placeholder:text-white/15"
                             disabled={loading}
                         />
                     </div>
                     <button
                         onClick={() => inputRef.current?.focus()}
-                        className="px-5 py-3 bg-primary hover:bg-primary-hover text-black rounded-xl font-black uppercase tracking-widest text-[10px] shadow-lg shadow-primary/20 transition-all active:scale-95 shrink-0 flex items-center justify-center gap-2"
+                        className="px-6 py-4 bg-primary hover:bg-primary-hover text-black rounded-xl font-black uppercase tracking-widest text-[11px] shadow-lg shadow-primary/20 transition-all active:scale-[0.97] shrink-0 flex items-center justify-center gap-2.5"
                     >
-                        {loading ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Search className="w-3.5 h-3.5" />}
+                        {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Search className="w-4 h-4" />}
                         {loading ? 'Indexing' : 'Search'}
                     </button>
                 </div>
 
-                <div className="relative z-10 flex flex-wrap items-center gap-2">
-                    <div className="flex flex-wrap items-center gap-1.5 flex-1">
-                        {Object.entries(availableFilters).map(([key, options]) => (
-                            <select
-                                key={key}
-                                value={filters[key]}
-                                onChange={(e) => setFilters(f => ({ ...f, [key]: e.target.value }))}
-                                className="bg-background border border-white/5 rounded-lg px-2.5 py-1.5 text-[9px] font-black uppercase tracking-widest text-white/40 focus:text-white outline-none focus:border-primary/30 transition-all appearance-none cursor-pointer"
-                            >
-                                {options.map(o => (
-                                    <option key={o} value={o}>{o === 'All' ? `All ${key}s` : o}</option>
-                                ))}
-                            </select>
-                        ))}
+                <div className="relative z-10 mt-5 md:mt-6 pt-5 md:pt-6 border-t border-white/[0.04]">
+                    <div className="flex items-center gap-2 mb-3">
+                        <Filter className="w-3 h-3 text-white/15" />
+                        <span className="text-[9px] font-black uppercase tracking-widest text-white/15">Filter by</span>
                     </div>
-                    <button
-                        onClick={() => setExactMatch(p => !p)}
-                        className={`px-2.5 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest border transition-all shrink-0 ${exactMatch
-                            ? 'bg-primary/15 text-primary border-primary/30'
-                            : 'bg-white/5 text-white/20 border-white/5 hover:text-white/40'
+                    <div className="flex flex-wrap items-center gap-2">
+                        {Object.entries(availableFilters).map(([key, options]) => (
+                            <div key={key} className="flex items-center gap-1.5 bg-background border border-white/5 rounded-lg px-3 py-2 hover:border-white/20 transition-colors">
+                                <span className="text-[8px] font-black uppercase tracking-widest text-white/20 shrink-0">{key}</span>
+                                <select
+                                    value={filters[key]}
+                                    onChange={(e) => setFilters(f => ({ ...f, [key]: e.target.value }))}
+                                    className="bg-transparent text-[10px] font-bold text-white/60 focus:text-white outline-none appearance-none cursor-pointer pr-2"
+                                >
+                                    {options.map(o => (
+                                        <option key={o} value={o}>{o === 'All' ? 'All' : o}</option>
+                                    ))}
+                                </select>
+                            </div>
+                        ))}
+                        <button
+                            onClick={() => setExactMatch(p => !p)}
+                            className={`px-3 py-2 rounded-lg text-[9px] font-black uppercase tracking-widest border transition-all shrink-0 ${
+                                exactMatch
+                                    ? 'bg-primary/15 text-primary border-primary/30'
+                                    : 'bg-background text-white/20 border-white/5 hover:text-white/40 hover:border-white/20'
                             }`}
-                    >
-                        Exact
-                    </button>
+                        >
+                            Exact
+                        </button>
+                    </div>
                 </div>
             </div>
 
             {loading && results.length === 0 && (
-                <div className="flex flex-col items-center justify-center py-16 gap-3">
-                    <Loader2 className="w-6 h-6 text-primary animate-spin" />
-                    <p className="text-white/20 font-black uppercase tracking-[0.3em] text-[10px]">{loadProgress || 'Loading questions...'}</p>
+                <div className="flex flex-col items-center justify-center py-20 gap-4">
+                    <Loader2 className="w-7 h-7 text-primary animate-spin" />
+                    <p className="text-white/20 font-black uppercase tracking-[0.3em] text-[11px]">{loadProgress || 'Loading questions...'}</p>
                 </div>
             )}
 
             {!loading && (
                 <>
-                    <div className="flex items-center justify-between px-1">
-                        <p className="text-[10px] font-bold text-white/30">
+                    <div className="flex items-center justify-between">
+                        <p className="text-[11px] font-bold text-white/30">
                             {results.length > 0
-                                ? `${results.length} result${results.length !== 1 ? 's' : ''} found in ${(searchTime / 1000).toFixed(2)}s`
+                                ? `${results.length.toLocaleString()} result${results.length !== 1 ? 's' : ''} found in ${(searchTime / 1000).toFixed(2)}s`
                                 : 'No results'}
                         </p>
                         {anyFilterActive && (
-                            <button onClick={clearAll} className="flex items-center gap-1 text-[9px] font-black uppercase tracking-widest text-primary/60 hover:text-primary transition-colors">
-                                <X className="w-2.5 h-2.5" /> Clear
+                            <button onClick={clearAll} className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest text-primary/50 hover:text-primary transition-colors px-3 py-1.5 rounded-lg hover:bg-primary/5">
+                                <X className="w-3 h-3" /> Clear
                             </button>
                         )}
                     </div>
 
-                    <div className="space-y-2">
+                    <div className="space-y-3">
                         {paginated.map((q, i) => (
-                            <div key={`${q.id}-${i}`} className="bg-surface border border-white/5 rounded-xl p-4 hover:border-white/10 transition-all group">
-                                <div className="flex items-start gap-2 mb-2">
-                                    <span className="text-[9px] font-black text-white/10 tabular-nums mt-0.5 shrink-0">{(page - 1) * perPage + i + 1}.</span>
+                            <div key={`${q.id}-${i}`} className="bg-surface border border-white/5 rounded-xl p-5 hover:border-white/10 transition-all group">
+                                <div className="flex items-start gap-3 mb-3">
+                                    <span className="text-[10px] font-black text-white/10 tabular-nums mt-0.5 shrink-0 w-6 text-right">{(page - 1) * perPage + i + 1}.</span>
                                     <h3
-                                        className="text-sm font-bold text-white/80 leading-relaxed tracking-tight group-hover:text-white transition-colors"
+                                        className="text-sm md:text-base font-bold text-white/80 leading-relaxed tracking-tight group-hover:text-white transition-colors"
                                         dangerouslySetInnerHTML={{ __html: highlightText(q.text, debouncedSearch) }}
                                     />
                                 </div>
-                                <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[9px] font-bold text-white/20 uppercase tracking-widest">
-                                    <span className={`px-1.5 py-0.5 rounded text-[8px] font-black ${q.difficulty === 'hard' ? 'bg-red-500/10 text-red-400' :
+                                <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-[10px] font-bold text-white/20 uppercase tracking-widest ml-9">
+                                    <span className={`px-1.5 py-0.5 rounded text-[9px] font-black ${
+                                        q.difficulty === 'hard' ? 'bg-red-500/10 text-red-400' :
                                         q.difficulty === 'medium' ? 'bg-yellow-500/10 text-yellow-400' :
-                                            q.difficulty === 'easy' ? 'bg-emerald-500/10 text-emerald-400' :
-                                                'bg-white/5 text-white/20'
-                                        }`}>{q.difficulty}</span>
-                                    <span>{q.exam}</span>
+                                        q.difficulty === 'easy' ? 'bg-emerald-500/10 text-emerald-400' :
+                                        'bg-white/5 text-white/20'
+                                    }`}>{q.difficulty}</span>
+                                    <span className="text-white/30">{q.exam}</span>
                                     <span className="text-white/10">·</span>
-                                    <span>{q.subject}</span>
+                                    <span className="text-white/30">{q.subject}</span>
                                     <span className="text-white/10">·</span>
-                                    <span>{q.topic}</span>
+                                    <span className="text-white/30">{q.topic}</span>
                                     {q.year && (
                                         <>
                                             <span className="text-white/10">·</span>
-                                            <span>{q.year}</span>
+                                            <span className="text-white/30">{q.year}</span>
                                         </>
                                     )}
-                                    <div className="ml-auto flex items-center gap-2 text-white/10">
-                                        <Target className="w-2.5 h-2.5" />
-                                        <span className="text-emerald-500/40">68%</span>
-                                        <Clock className="w-2.5 h-2.5" />
-                                        <span className="text-blue-500/40">45s</span>
+                                    <div className="ml-auto flex items-center gap-3 text-white/10">
+                                        <div className="flex items-center gap-1.5">
+                                            <Target className="w-3 h-3" />
+                                            <span className="text-emerald-500/50 font-black">68%</span>
+                                        </div>
+                                        <div className="flex items-center gap-1.5">
+                                            <Clock className="w-3 h-3" />
+                                            <span className="text-blue-500/50 font-black">45s</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -338,35 +349,35 @@ const QuestionBank = () => {
                     </div>
 
                     {results.length === 0 && !loading && (
-                        <div className="py-12 text-center border-2 border-dashed border-white/5 rounded-2xl flex flex-col items-center gap-3">
-                            <div className="w-16 h-16 opacity-20">
+                        <div className="py-16 text-center border-2 border-dashed border-white/5 rounded-2xl flex flex-col items-center gap-4">
+                            <div className="w-20 h-20 opacity-15">
                                 <LottieAnimation src={searchAnimation} className="w-full h-full" pingPong />
                             </div>
-                            <p className="text-white/10 font-black uppercase tracking-widest text-[11px]">
-                                {anyFilterActive ? 'No questions match your criteria' : 'Start typing to search'}
+                            <p className="text-white/10 font-black uppercase tracking-widest text-xs">
+                                {anyFilterActive ? 'No questions match your criteria' : 'Type something to search'}
                             </p>
                             {anyFilterActive && (
-                                <button onClick={clearAll} className="text-primary font-black uppercase tracking-widest text-[9px] hover:underline">Clear All Filters</button>
+                                <button onClick={clearAll} className="text-primary font-black uppercase tracking-widest text-[10px] hover:underline">Clear All Filters</button>
                             )}
                         </div>
                     )}
 
                     {totalPages > 1 && (
-                        <div className="flex items-center justify-center gap-2 pt-2">
+                        <div className="flex items-center justify-center gap-3 pt-4">
                             <button
                                 disabled={page === 1}
                                 onClick={() => setPage(p => p - 1)}
-                                className="p-2 bg-white/5 rounded-xl text-white/40 hover:text-white disabled:opacity-20 border border-white/5 active:scale-95"
+                                className="p-2.5 bg-white/5 rounded-xl text-white/40 hover:text-white disabled:opacity-20 border border-white/5 active:scale-95 transition-all"
                             >
                                 <ChevronLeft className="w-4 h-4" />
                             </button>
-                            <div className="px-4 py-2 bg-white/5 rounded-xl border border-white/5 text-[10px] font-black uppercase tracking-widest text-primary">
+                            <div className="px-5 py-2.5 bg-white/5 rounded-xl border border-white/5 text-[11px] font-black uppercase tracking-widest text-primary tabular-nums">
                                 Page {page} of {totalPages}
                             </div>
                             <button
                                 disabled={page === totalPages}
                                 onClick={() => setPage(p => p + 1)}
-                                className="p-2 bg-white/5 rounded-xl text-white/40 hover:text-white disabled:opacity-20 border border-white/5 active:scale-95"
+                                className="p-2.5 bg-white/5 rounded-xl text-white/40 hover:text-white disabled:opacity-20 border border-white/5 active:scale-95 transition-all"
                             >
                                 <ChevronRight className="w-4 h-4" />
                             </button>
