@@ -1,0 +1,574 @@
+[
+  {
+    "id": 276,
+    "question": "What is it called when capital is allocated based on project priority?",
+    "options": {
+      "A": "Capital budgeting",
+      "B": "Capital control",
+      "C": "Cost control",
+      "D": "Income analysis"
+    },
+    "answer": "A",
+    "explanation": "Allocating capital based on project priority is called capital budgeting. It is the process of long-term investment planning and decision-making.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 277,
+    "question": "Which of the following is related to capital budgeting?",
+    "options": {
+      "A": "Raw material purchase",
+      "B": "Paying employee salaries",
+      "C": "Advertising expenses",
+      "D": "Fixed asset purchase"
+    },
+    "answer": "D",
+    "explanation": "Capital budgeting is related to the purchase of fixed assets (such as machinery, land, buildings). Raw materials, salaries, and advertising are operating expenses.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 278,
+    "question": "A project's initial cost is Tk 1,00,000 and the present value of cash inflows is Tk 80,000. How should the project be considered?",
+    "options": {
+      "A": "Acceptable",
+      "B": "Rejectable",
+      "C": "Profitable",
+      "D": "Risk-free"
+    },
+    "answer": "B",
+    "explanation": "NPV = Present value of cash flows - Initial investment = 80,000 - 1,00,000 = -20,000 Taka. Since NPV is negative, the project should be rejected.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 279,
+    "question": "A project's investment amount is Tk 50,000. If the annual cash inflow for the next 5 years is Tk 20,000, what is the payback period?",
+    "options": {
+      "A": "2 years",
+      "B": "2.5 years",
+      "C": "3 years",
+      "D": "3.5 years"
+    },
+    "answer": "B",
+    "explanation": "Payback period = Initial investment / Annual cash flow = 50,000 / 20,000 = 2.5 years.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 280,
+    "question": "What is a problem of capital budgeting?",
+    "options": {
+      "A": "Uncertain future",
+      "B": "Risk",
+      "C": "Sufficient information",
+      "D": "Scarcity of capital"
+    },
+    "answer": "A",
+    "explanation": "The main problem of capital budgeting is the uncertain future. Future cash flows, interest rates, market conditions, etc. cannot be known with certainty.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 281,
+    "question": "For purchasing a machine, an initial investment of Tk 14,000 is required and it will generate annual cash inflows of Tk 3,000 for the next 7 years. What is the payback period of the machine?",
+    "options": {
+      "A": "4.67 years",
+      "B": "4.91 years",
+      "C": "5.25 years",
+      "D": "5.78 years"
+    },
+    "answer": "A",
+    "explanation": "PBP = 14,000 / 3,000 = 4.67 years.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 282,
+    "question": "A project has a life of 20 years. The project's average net profit is Tk 20,000 and average investment is Tk 50,000. What is the average rate of return?",
+    "options": {
+      "A": "20%",
+      "B": "40%",
+      "C": "50%",
+      "D": "60%"
+    },
+    "answer": "B",
+    "explanation": "ARR = (Average net profit / Average investment) × 100 = (20,000 / 50,000) × 100 = 40%.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 283,
+    "question": "What is the condition for PBP?",
+    "options": {
+      "A": "Shorter payback period is better",
+      "B": "Longer PBP is better",
+      "C": "Equal PBP is better",
+      "D": "No PBP"
+    },
+    "answer": "A",
+    "explanation": "The condition for PBP (Payback Period) is that the shorter the payback period, the more acceptable the project. Getting the investment back in less time is safer.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 284,
+    "question": "What is the last step of capital budgeting?",
+    "options": {
+      "A": "Project formulation",
+      "B": "Project re-evaluation",
+      "C": "Project implementation and control",
+      "D": "Project selection"
+    },
+    "answer": "B",
+    "explanation": "The last step of the capital budgeting process is project re-evaluation (Follow-up/Review). After implementation, results are reviewed to learn lessons for the future.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 285,
+    "question": "Mr. Apurba evaluates investments in his factory using the payback period method. This falls under which category?",
+    "options": {
+      "A": "Traditional method",
+      "B": "Modern method",
+      "C": "General method",
+      "D": "Complex method"
+    },
+    "answer": "A",
+    "explanation": "The payback period method (PBP) is a traditional or conventional capital budgeting method. It does not consider the time value of money. Modern methods include NPV and IRR.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 286,
+    "question": "Which is a project evaluation technique?",
+    "options": {
+      "A": "Internal rate of return",
+      "B": "Net income method",
+      "C": "Net operating income method",
+      "D": "Hamada model"
+    },
+    "answer": "A",
+    "explanation": "IRR (Internal Rate of Return) is an important project evaluation technique. It is the rate at which NPV becomes zero.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 287,
+    "question": "What does the Capital Asset Pricing Model (CAPM) express?",
+    "options": {
+      "A": "Relationship between profit and loss",
+      "B": "Relationship between return and risk",
+      "C": "Relationship between investment and profit",
+      "D": "Relationship of income"
+    },
+    "answer": "B",
+    "explanation": "CAPM expresses the relationship between return and risk. It shows how the expected return of an asset depends on its systematic risk (beta).",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 288,
+    "question": "Mr. Abid, Chief Executive of Abid Company... divides total profit by 5 and total investment by 2. Which method does Mr. Abid follow?",
+    "options": {
+      "A": "Average rate of return",
+      "B": "Net present value",
+      "C": "Internal rate of return",
+      "D": "Payback period"
+    },
+    "answer": "A",
+    "explanation": "Mr. Abid is using the Average Rate of Return (ARR) method. In this method, average annual profit (total profit/5) and average investment (total investment/2) are determined.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 289,
+    "question": "Which capital budgeting technique does NOT consider the time value of money?",
+    "options": {
+      "A": "NPV",
+      "B": "ARR",
+      "C": "PI",
+      "D": "IRR"
+    },
+    "answer": "B",
+    "explanation": "ARR (Average Rate of Return) method does not consider the time value of money. It makes decisions based only on average profit and average investment.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 290,
+    "question": "Which capital budgeting technique has time as its unit?",
+    "options": {
+      "A": "NPV",
+      "B": "PBP",
+      "C": "ARR",
+      "D": "IRR"
+    },
+    "answer": "B",
+    "explanation": "The unit of PBP (Payback Period) is time (years, months, etc.). It measures how long it will take to recover the invested money.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 291,
+    "question": "Which source has the lowest cost?",
+    "options": {
+      "A": "Common share",
+      "B": "Debenture",
+      "C": "Preference share",
+      "D": "Investment policy"
+    },
+    "answer": "B",
+    "explanation": "The cost of debentures or debt capital is the lowest because its interest provides tax-free benefits and lenders expect lower returns due to lower risk.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 292,
+    "question": "By forming a portfolio, which risk can be reduced?",
+    "options": {
+      "A": "Market risk",
+      "B": "Company risk",
+      "C": "Unique risk",
+      "D": "Interest rate risk"
+    },
+    "answer": "C",
+    "explanation": "Through portfolio formation, unique or unsystematic risk can be reduced. Market or systematic risk cannot be reduced.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 293,
+    "question": "At what rate, when cash flows are discounted, does their NPV become zero?",
+    "options": {
+      "A": "ARR",
+      "B": "IRR",
+      "C": "PBP",
+      "D": "NPV"
+    },
+    "answer": "B",
+    "explanation": "IRR (Internal Rate of Return) is the discount rate at which the present value of a project's cash flows equals the initial investment, i.e., NPV becomes zero.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 294,
+    "question": "Which project is acceptable?",
+    "options": {
+      "A": "The project with the lowest IRR",
+      "B": "The project with the lowest ARR",
+      "C": "The project with the lowest PBP",
+      "D": "The project with the lowest NPV"
+    },
+    "answer": "C",
+    "explanation": "If PBP is the lowest, the project will return the investment most quickly, so it is acceptable. On the other hand, a project is acceptable when IRR, ARR, and NPV are highest.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 295,
+    "question": "What is the formula for determining PBP?",
+    "options": {
+      "A": "PBP = A + (CF - C)/D",
+      "B": "PBP = A + (C - CF)/D",
+      "C": "PBP = A + (CF + C)/D",
+      "D": "PBP = A + C/(CF - 1)"
+    },
+    "answer": "B",
+    "explanation": "PBP = A + (C - CF)/D, where A = previous year, C = initial investment, CF = cumulative cash flow, D = next year's cash flow.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 296,
+    "question": "A project's initial investment is Tk 1,50,000 and annual cash flow is Tk 60,000. What is the project's PBP in years?",
+    "options": {
+      "A": "2.25 years",
+      "B": "2.50 years",
+      "C": "2.75 years",
+      "D": "3.00 years"
+    },
+    "answer": "B",
+    "explanation": "PBP = 1,50,000 / 60,000 = 2.50 years.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 297,
+    "question": "What type of loan enables proper control in business management?",
+    "options": {
+      "A": "Short-term loan",
+      "B": "Long-term loan",
+      "C": "Easy method",
+      "D": "Security"
+    },
+    "answer": "A",
+    "explanation": "Taking short-term loans creates regular repayment pressure, which helps maintain proper control and discipline in business management.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 298,
+    "question": "Which is NOT a project evaluation technique?",
+    "options": {
+      "A": "ARR",
+      "B": "NPV",
+      "C": "IRR",
+      "D": "PBP"
+    },
+    "answer": "D",
+    "explanation": "PBP (Payback Period) is a traditional or conventional technique that does not consider the time value of money. ARR, NPV, and IRR are modern and scientific project evaluation techniques. However, PBP is also an evaluation technique. Note that the question excludes PBP because it does not consider time value.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 299,
+    "question": "What is determined through the payback period?",
+    "options": {
+      "A": "Amount of money",
+      "B": "Time",
+      "C": "Amount of investment",
+      "D": "Amount of risk"
+    },
+    "answer": "B",
+    "explanation": "Through the payback period (PBP) method, how much time it will take to recover the initial investment is determined. Its unit is time.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 300,
+    "question": "X Company Ltd. started a business with Tk 10,000, from which it receives Tk 4,000 per year. What is its payback period in years?",
+    "options": {
+      "A": "1.6 years",
+      "B": "2.5 years",
+      "C": "3.1 years",
+      "D": "4.3 years"
+    },
+    "answer": "B",
+    "explanation": "PBP = 10,000 / 4,000 = 2.5 years.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 301,
+    "question": "An organization's average after-tax income is Tk 7,000 and average investment is Tk 16,500. What is the ARR?",
+    "options": {
+      "A": "42%",
+      "B": "36%",
+      "C": "48%",
+      "D": "52%"
+    },
+    "answer": "A",
+    "explanation": "ARR = (Average income / Average investment) × 100 = (7,000 / 16,500) × 100 = 42.42% ≈ 42%.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 302,
+    "question": "What is considered in determining the payback period?",
+    "options": {
+      "A": "Cash flow",
+      "B": "Depreciation",
+      "C": "Net cash flow",
+      "D": "Annual net profit"
+    },
+    "answer": "C",
+    "explanation": "Net cash flow is considered in determining the payback period (PBP). Net cash flow is determined by adding depreciation to after-tax net profit.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 303,
+    "question": "Mili Company Ltd. started a business with Tk 10,000, from which it will receive Tk 4,000 per year for the next 5 years. What is the payback period in years?",
+    "options": {
+      "A": "1.6 years",
+      "B": "2.5 years",
+      "C": "3.1 years",
+      "D": "4.3 years"
+    },
+    "answer": "B",
+    "explanation": "PBP = 10,000 / 4,000 = 2.5 years.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 304,
+    "question": "At what discount rate does the present value of cash flows equal the initial investment?",
+    "options": {
+      "A": "ARR",
+      "B": "NPV",
+      "C": "IRR",
+      "D": "PBP"
+    },
+    "answer": "C",
+    "explanation": "IRR (Internal Rate of Return) is the discount rate at which the present value of all project cash flows equals the initial investment. That is, NPV = 0.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 305,
+    "question": "Through which is the maximum use of capital ensured?",
+    "options": {
+      "A": "Capital rationing",
+      "B": "Capital structure",
+      "C": "Capital budgeting",
+      "D": "Capital investment"
+    },
+    "answer": "C",
+    "explanation": "Through capital budgeting, the maximum use of limited capital is ensured. It helps make decisions to invest in the most profitable projects.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 306,
+    "question": "When the net cash inflows equal the initial investment at a discount rate, what is it called?",
+    "options": {
+      "A": "Average rate of return",
+      "B": "Net present value",
+      "C": "Internal rate of return",
+      "D": "Payback period"
+    },
+    "answer": "C",
+    "explanation": "When the present value of net cash flows equals the initial investment at a discount rate, it is called the Internal Rate of Return (IRR).",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 307,
+    "question": "According to IRR, when is a project accepted?",
+    "options": {
+      "A": "When IRR is positive",
+      "B": "When the discount rate is higher",
+      "C": "When IRR is higher than the cost of capital",
+      "D": "When the discount rate is higher than the dividend rate"
+    },
+    "answer": "C",
+    "explanation": "According to the IRR method, a project should be accepted when its IRR is higher than the cost of capital.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 308,
+    "question": "The steps of capital budgeting are- i. Project generation ii. Project evaluation iii. Project selection",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The steps of the capital budgeting process include project generation, project evaluation, and project selection. Implementation and re-evaluation are also included.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 309,
+    "question": "Project selection methods are- i. Internal rate of return ii. Net present value iii. Payback method",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Internal Rate of Return (IRR), Net Present Value (NPV), and Payback Method (PBP) can all be used for project selection.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 310,
+    "question": "Discounted methods of capital budgeting are- i. NPV ii. PI iii. ARR",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Discounted methods include NPV (Net Present Value) and PI (Profitability Index). ARR is not a discounted method because it does not consider the time value of money.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 311,
+    "question": "Discounted techniques in the capital budgeting process are- i. Net present value ii. Internal rate of return iii. Market value of profit",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Discounted techniques include Net Present Value (NPV) and Internal Rate of Return (IRR). The market value of profit is not a discounted technique.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 312,
+    "question": "[Stimulus] Mr. Rayhan, financial manager of Jharna Company... divides total profit by 5 and total investment by 2. Which method does Mr. Rayhan follow?",
+    "options": {
+      "A": "Average rate of return",
+      "B": "Payback period",
+      "C": "Net present value",
+      "D": "Internal rate of return"
+    },
+    "answer": "A",
+    "explanation": "Mr. Rayhan is using the Average Rate of Return (ARR) method. This method determines average annual profit (total profit/5) and average investment (total investment/2).",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 313,
+    "question": "The limitations of the method described in the stimulus are- i. Time value of money is ignored ii. All cash flows are given equal value iii. Profit and investment are divided by different numbers",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Limitations of the ARR method: it does not consider the time value of money (i), gives equal value to all cash flows (ii), and determines profit and investment on different bases (iii).",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 314,
+    "question": "[Stimulus] ABC Pharmaceuticals Company is thinking about investing in a new project... Mr. Taher has been assigned to evaluate the investment project... he said the invested capital will be recovered within the next 5 years. Which method does Mr. Taher follow?",
+    "options": {
+      "A": "Average rate of return",
+      "B": "Payback period",
+      "C": "Internal rate of return",
+      "D": "Net present value"
+    },
+    "answer": "B",
+    "explanation": "Mr. Taher said the investment will be recovered in 5 years, which is characteristic of the payback period (PBP) method. It tells how long it will take to recover the initial investment.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 315,
+    "question": "The limitations of the method indicated in the stimulus are- i. Time value of money is ignored ii. All cash flows are given equal value iii. The rate of return is unknown",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "The PBP method ignores the time value of money (i) and gives equal importance to all cash flows (ii). However, not knowing the rate of return (iii) is a limitation of ARR.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 316,
+    "question": "[Stimulus] Md. Saiful is going to start a small business by investing Tk 80,000... the present value of cash inflows is Tk 92,000. What is the net present value of the business?",
+    "options": {
+      "A": "Tk 92,000",
+      "B": "Tk 80,000",
+      "C": "Tk 12,000",
+      "D": "Tk 1,72,000"
+    },
+    "answer": "C",
+    "explanation": "NPV = Present value of cash flows - Initial investment = 92,000 - 80,000 = Tk 12,000. NPV is positive, so the project is profitable.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 317,
+    "question": "Regarding the proposal to start the business, what should Mr. Saiful do?",
+    "options": {
+      "A": "Reject it",
+      "B": "Make no decision",
+      "C": "Accept it",
+      "D": "Delay it"
+    },
+    "answer": "C",
+    "explanation": "NPV is positive (Tk 12,000), meaning the project will yield profit. Therefore, Mr. Saiful should accept the proposal.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 318,
+    "question": "[Stimulus] Super Star Company will invest Tk 1,80,000 in a project, from which annual cash inflows of Tk 45,000 will be received for the next 7 years. What is Super Star Company's Payback Period?",
+    "options": {
+      "A": "5 years",
+      "B": "4 years",
+      "C": "6 years",
+      "D": "2 years"
+    },
+    "answer": "B",
+    "explanation": "PBP = 1,80,000 / 45,000 = 4 years.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 319,
+    "question": "In the case of capital budgeting decisions, which method will Super Star Company adopt?",
+    "options": {
+      "A": "Payback Period",
+      "B": "Net Present Value",
+      "C": "Average Rate of Return",
+      "D": "Internal Rate of Return"
+    },
+    "answer": "A",
+    "explanation": "The stimulus mentions calculating PBP (4 years), so this is the Payback Period method.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  }
+]

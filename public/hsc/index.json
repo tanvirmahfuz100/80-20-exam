@@ -299,6 +299,332 @@
       "name_en": "Accounting 2nd Paper"
     },
     {
+      "id": "finance_1st",
+      "name": "Finance 1st Paper",
+      "icon": "TrendingUp",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1",
+          "chapters": [
+            {
+              "id": "hsc_fin1_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/finance_1st/chapter_1.json",
+              "file_en": "/hsc/finance_1st/english/chapter_1.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 1: অর্থায়ন পরিচিতি",
+          "name_en": "Chapter 1: Introduction to Finance"
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2",
+          "chapters": [
+            {
+              "id": "hsc_fin1_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/finance_1st/chapter_2.json",
+              "file_en": "/hsc/finance_1st/english/chapter_2.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 2: আর্থিক বাজারের আইনগত দিকসমূহ",
+          "name_en": "Chapter 2: Legal Aspects of Financial Markets"
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3",
+          "chapters": [
+            {
+              "id": "hsc_fin1_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/finance_1st/chapter_3.json",
+              "file_en": "/hsc/finance_1st/english/chapter_3.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 3: অর্থের সময়মূল্য",
+          "name_en": "Chapter 3: Time Value of Money"
+        },
+        {
+          "id": "chapter_4",
+          "name": "Chapter 4",
+          "chapters": [
+            {
+              "id": "hsc_fin1_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/finance_1st/chapter_4.json",
+              "file_en": "/hsc/finance_1st/english/chapter_4.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 4: আর্থিক বিশ্লেষণ",
+          "name_en": "Chapter 4: Financial Analysis"
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5",
+          "chapters": [
+            {
+              "id": "hsc_fin1_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/finance_1st/chapter_5.json",
+              "file_en": "/hsc/finance_1st/english/chapter_5.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 5: স্বল্প ও মধ্যমেয়াদি অর্থায়ন",
+          "name_en": "Chapter 5: Short and Mid-term Financing"
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6",
+          "chapters": [
+            {
+              "id": "hsc_fin1_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/finance_1st/chapter_6.json",
+              "file_en": "/hsc/finance_1st/english/chapter_6.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 6: দীর্ঘমেয়াদি অর্থায়ন",
+          "name_en": "Chapter 6: Long-term Financing"
+        },
+        {
+          "id": "chapter_7",
+          "name": "Chapter 7",
+          "chapters": [
+            {
+              "id": "hsc_fin1_ch7",
+              "name": "Chapter 7 Questions",
+              "file_bn": "/hsc/finance_1st/chapter_7.json",
+              "file_en": "/hsc/finance_1st/english/chapter_7.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 7: মূলধন ব্যয়",
+          "name_en": "Chapter 7: Cost of Capital"
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8",
+          "chapters": [
+            {
+              "id": "hsc_fin1_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/finance_1st/chapter_8.json",
+              "file_en": "/hsc/finance_1st/english/chapter_8.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 8: মূলধন বাজেটিং ও বিনিয়োগ সিদ্ধান্ত",
+          "name_en": "Chapter 8: Capital Budgeting and Investment Decision"
+        },
+        {
+          "id": "chapter_9",
+          "name": "Chapter 9",
+          "chapters": [
+            {
+              "id": "hsc_fin1_ch9",
+              "name": "Chapter 9 Questions",
+              "file_bn": "/hsc/finance_1st/chapter_9.json",
+              "file_en": "/hsc/finance_1st/english/chapter_9.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 9: ঝুঁকি ও মুনাফার হার",
+          "name_en": "Chapter 9: Risk and Return"
+        }
+      ],
+      "name_bn": "ফিন্যান্স, ব্যাংকিং ও বিমা ১ম পত্র",
+      "name_en": "Finance 1st Paper"
+    },
+    {
+      "id": "finance_2nd",
+      "name": "Finance 2nd Paper",
+      "icon": "TrendingUp",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1",
+          "chapters": [
+            {
+              "id": "hsc_fin2_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/finance_2nd/chapter_1.json",
+              "file_en": "/hsc/finance_2nd/english/chapter_1.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১: ব্যাংক ব্যবস্থার প্রাথমিক ধারণা",
+          "name_en": "Chapter 1: Basic Concept of Banking System"
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2",
+          "chapters": [
+            {
+              "id": "hsc_fin2_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/finance_2nd/chapter_2.json",
+              "file_en": "/hsc/finance_2nd/english/chapter_2.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ২: কেন্দ্রীয় ব্যাংক",
+          "name_en": "Chapter 2: Central Bank"
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3",
+          "chapters": [
+            {
+              "id": "hsc_fin2_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/finance_2nd/chapter_3.json",
+              "file_en": "/hsc/finance_2nd/english/chapter_3.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৩: বাণিজ্যিক ব্যাংক",
+          "name_en": "Chapter 3: Commercial Bank"
+        },
+        {
+          "id": "chapter_4",
+          "name": "Chapter 4",
+          "chapters": [
+            {
+              "id": "hsc_fin2_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/finance_2nd/chapter_4.json",
+              "file_en": "/hsc/finance_2nd/english/chapter_4.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৪: ব্যাংক হিসাব",
+          "name_en": "Chapter 4: Bank Account"
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5",
+          "chapters": [
+            {
+              "id": "hsc_fin2_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/finance_2nd/chapter_5.json",
+              "file_en": "/hsc/finance_2nd/english/chapter_5.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৫: হস্তান্তরযোগ্য ঋণের দলিল",
+          "name_en": "Chapter 5: Negotiable Instruments"
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6",
+          "chapters": [
+            {
+              "id": "hsc_fin2_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/finance_2nd/chapter_6.json",
+              "file_en": "/hsc/finance_2nd/english/chapter_6.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৬: চেক, বিল অব এক্সচেঞ্জ ও প্রমিসরি নোট",
+          "name_en": "Chapter 6: Cheque, Bill of Exchange and Promissory Note"
+        },
+        {
+          "id": "chapter_7",
+          "name": "Chapter 7",
+          "chapters": [
+            {
+              "id": "hsc_fin2_ch7",
+              "name": "Chapter 7 Questions",
+              "file_bn": "/hsc/finance_2nd/chapter_7.json",
+              "file_en": "/hsc/finance_2nd/english/chapter_7.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৭: ব্যাংক তহবিলের উৎস ও ব্যবহার",
+          "name_en": "Chapter 7: Sources and Uses of Bank Funds"
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8",
+          "chapters": [
+            {
+              "id": "hsc_fin2_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/finance_2nd/chapter_8.json",
+              "file_en": "/hsc/finance_2nd/english/chapter_8.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৮: বৈদেশিক বিনিময় ও বৈদেশিক মুদ্রা",
+          "name_en": "Chapter 8: Foreign Exchange and Foreign Currency"
+        },
+        {
+          "id": "chapter_9",
+          "name": "Chapter 9",
+          "chapters": [
+            {
+              "id": "hsc_fin2_ch9",
+              "name": "Chapter 9 Questions",
+              "file_bn": "/hsc/finance_2nd/chapter_9.json",
+              "file_en": "/hsc/finance_2nd/english/chapter_9.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৯: ইলেকট্রনিক ও আধুনিক ব্যাংকিং",
+          "name_en": "Chapter 9: Electronic and Modern Banking"
+        },
+        {
+          "id": "chapter_10",
+          "name": "Chapter 10",
+          "chapters": [
+            {
+              "id": "hsc_fin2_ch10",
+              "name": "Chapter 10 Questions",
+              "file_bn": "/hsc/finance_2nd/chapter_10.json",
+              "file_en": "/hsc/finance_2nd/english/chapter_10.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১০: বিমা সম্পর্কে মৌলিক ধারণা",
+          "name_en": "Chapter 10: Basic Concept of Insurance"
+        },
+        {
+          "id": "chapter_11",
+          "name": "Chapter 11",
+          "chapters": [
+            {
+              "id": "hsc_fin2_ch11",
+              "name": "Chapter 11 Questions",
+              "file_bn": "/hsc/finance_2nd/chapter_11.json",
+              "file_en": "/hsc/finance_2nd/english/chapter_11.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১১: জীবন বিমা",
+          "name_en": "Chapter 11: Life Insurance"
+        },
+        {
+          "id": "chapter_12",
+          "name": "Chapter 12",
+          "chapters": [
+            {
+              "id": "hsc_fin2_ch12",
+              "name": "Chapter 12 Questions",
+              "file_bn": "/hsc/finance_2nd/chapter_12.json",
+              "file_en": "/hsc/finance_2nd/english/chapter_12.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১২: নৌ বিমা",
+          "name_en": "Chapter 12: Marine Insurance"
+        },
+        {
+          "id": "chapter_13",
+          "name": "Chapter 13",
+          "chapters": [
+            {
+              "id": "hsc_fin2_ch13",
+              "name": "Chapter 13 Questions",
+              "file_bn": "/hsc/finance_2nd/chapter_13.json",
+              "file_en": "/hsc/finance_2nd/english/chapter_13.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১৩: অগ্নি বিমা",
+          "name_en": "Chapter 13: Fire Insurance"
+        }
+      ],
+      "name_bn": "ফিন্যান্স, ব্যাংকিং ও বিমা ২য় পত্র",
+      "name_en": "Finance 2nd Paper"
+    },
+    {
       "id": "production_1st",
       "name": "Production 1st Paper",
       "icon": "Factory",
