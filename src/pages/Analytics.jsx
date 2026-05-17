@@ -6,6 +6,8 @@ import {
 } from 'lucide-react';
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
+import LottieAnimation from '../components/LottieAnimation';
+import dataAnalyticsAnimation from '../assets/data-analytics.json';
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -195,8 +197,8 @@ const Analytics = () => {
       className="max-w-5xl mx-auto space-y-5 md:space-y-6"
     >
       {/* ── Header ── */}
-      <motion.div variants={itemVariants} className="flex items-center justify-between gap-3">
-        <div>
+      <motion.div variants={itemVariants} className="flex items-center gap-3">
+        <div className="min-w-0 flex-1">
           <h1 className="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tighter uppercase leading-none">
             Analytics
           </h1>
@@ -204,7 +206,10 @@ const Analytics = () => {
             {profile?.username || user?.email || 'Student'} &middot; {practiceSessions.length} sessions
           </p>
         </div>
-        <div className="flex gap-1.5">
+        <div className="w-16 h-16 opacity-[0.15] shrink-0">
+          <LottieAnimation src={dataAnalyticsAnimation} className="w-full h-full" pingPong />
+        </div>
+        <div className="flex gap-1.5 shrink-0">
           <button
             onClick={handleExportJson}
             className="px-2.5 py-1.5 rounded-lg bg-white/5 border border-white/10 text-white/40 hover:text-white text-[8px] font-black uppercase tracking-widest transition-colors"
