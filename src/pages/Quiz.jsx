@@ -220,6 +220,9 @@ const Quiz = () => {
     const [balanceGlow, setBalanceGlow] = useState(false);
     const starTargetRef = useRef(null);
 
+    const [historicalAnswered, setHistoricalAnswered] = useState(0);
+    const [totalQuestionCount, setTotalQuestionCount] = useState(0);
+
     const [quizFontSize, setQuizFontSize] = useState(() => {
         try { return parseInt(localStorage.getItem('quiz-font-size')) || 16; } catch { return 16; }
     });
@@ -353,6 +356,8 @@ const Quiz = () => {
                             .filter(Boolean)
                     );
                     const fresh = normalized.filter(q => !answeredIds.has(q.id));
+                    setTotalQuestionCount(normalized.length);
+                    setHistoricalAnswered(answeredIds.size);
                     if (fresh.length === 0 && normalized.length > 0) {
                         setError('You have already answered all questions in this chapter.');
                     }
@@ -663,7 +668,9 @@ const Quiz = () => {
                             <motion.div
                                 className="h-full bg-gradient-to-r from-primary to-primary/70 rounded-full"
                                 initial={{ width: 0 }}
-                                animate={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}
+                                animate={{
+                                    width: `${Math.min(((historicalAnswered + currentIndex + 1) / (totalQuestionCount || questions.length)) * 100, 100)}%`
+                                }}
                                 transition={{ duration: 0.4, ease: 'easeOut' }}
                             />
                         </div>
@@ -816,26 +823,26 @@ const Quiz = () => {
                                 </div>
                             )}
 
-                            <div className="flex items-center gap-1.5 mb-2.5 flex-wrap shrink-0">
-                                <span className={`text-[9px] md:text-[8px] font-black px-2.5 py-1 rounded-full uppercase border ${currentQ.difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
+                            <div className="flex items-center gap-1.5 mb-1.5 flex-wrap shrink-0">
+                                <span className={`text-[8px] font-black px-2 py-0.5 rounded-full uppercase border ${currentQ.difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
                                     currentQ.difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :
                                         'text-emerald-400 border-emerald-400/20 bg-emerald-400/5'
                                     }`}>{currentQ.difficulty}</span>
                                 {currentQ.source && currentQ.source !== 'unknown' && (
-                                    <span className="text-[9px] md:text-[8px] font-black px-2.5 py-1 rounded-full border border-white/10 bg-white/5 text-white/30 uppercase tracking-wider">
+                                    <span className="text-[8px] font-black px-2 py-0.5 rounded-full border border-white/10 bg-white/5 text-white/30 uppercase tracking-wider">
                                         {currentQ.source}
                                     </span>
                                 )}
                                 {currentQ.chapter_tag && (
-                                    <span className="text-[9px] md:text-[8px] font-black px-2.5 py-1 rounded-full border border-primary/20 bg-primary/5 text-primary/50 uppercase tracking-wider">
+                                    <span className="text-[8px] font-black px-2 py-0.5 rounded-full border border-primary/20 bg-primary/5 text-primary/50 uppercase tracking-wider">
                                         {currentQ.chapter_tag}
                                     </span>
                                 )}
                             </div>
 
-                            <div className="mb-3 shrink-0">
-                                <div className="bg-white/[0.04] border border-white/[0.06] rounded-xl p-3 md:p-4">
-                                    <p className="text-white/40 text-[9px] font-black uppercase tracking-[0.15em] mb-1.5">Question</p>
+                            <div className="mb-2 shrink-0">
+                                <div className="bg-white/[0.04] border border-white/[0.06] rounded-xl p-2.5 md:p-3">
+                                    <p className="text-white/40 text-[8px] font-black uppercase tracking-[0.15em] mb-1">Question</p>
                                     <h3 className="font-black text-white leading-snug selection:bg-primary/30" style={{ fontSize: `${quizFontSize}px` }}>
                                         {stripMath(currentQ.text)}
                                     </h3>
@@ -869,7 +876,7 @@ const Quiz = () => {
                                                         whileTap={!isAnswered ? { scale: 0.98 } : undefined}
                                                         disabled={isAnswered}
                                                         onClick={(e) => handleOptionSelect(idx, e)}
-                                                        className={`w-full text-left min-h-[52px] md:min-h-[56px] px-4 py-3.5 rounded-xl border-2 transition-all flex items-center gap-3 group/opt ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-lg shadow-emerald-500/5' :
+                                                        className={`w-full text-left min-h-[44px] md:min-h-[48px] px-3 py-2.5 rounded-xl border-2 transition-all flex items-center gap-2.5 group/opt ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-lg shadow-emerald-500/5' :
                                                             state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300 shadow-lg shadow-yellow-500/5' :
                                                                 state === 'selected' ? 'bg-primary/20 border-primary text-white shadow-lg shadow-primary/20 scale-[1.01]' :
                                                                     state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30 scale-[0.98]' :
@@ -879,7 +886,7 @@ const Quiz = () => {
                                                         aria-checked={selectedOption === idx}
                                                         tabIndex={isAnswered ? -1 : 0}
                                                     >
-                                                        <span className={`w-8 h-8 md:w-9 md:h-9 rounded-xl flex items-center justify-center text-xs font-black border transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
+                                                        <span className={`w-7 h-7 md:w-8 md:h-8 rounded-xl flex items-center justify-center text-[11px] font-black border transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
                                                             state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
                                                                 state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
                                                                     'bg-black/40 border-white/15 text-white/40 group-hover/opt:border-white/30 group-hover/opt:text-white'
