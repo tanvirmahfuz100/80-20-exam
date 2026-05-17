@@ -948,7 +948,8 @@
             {
               "id": "hsc_soc1_ch1",
               "name": "Chapter 1 Questions",
-              "file_bn": "/hsc/social_1st/chapter_1.json"
+              "file_bn": "/hsc/social_1st/chapter_1.json",
+              "file_en": "/hsc/social_1st/english/chapter_1.json"
             }
           ],
           "name_bn": "অধ্যায় ১",
@@ -961,7 +962,8 @@
             {
               "id": "hsc_soc1_ch2",
               "name": "Chapter 2 Questions",
-              "file_bn": "/hsc/social_1st/chapter_2.json"
+              "file_bn": "/hsc/social_1st/chapter_2.json",
+              "file_en": "/hsc/social_1st/english/chapter_2.json"
             }
           ],
           "name_bn": "অধ্যায় ২",
@@ -974,7 +976,8 @@
             {
               "id": "hsc_soc1_ch3",
               "name": "Chapter 3 Questions",
-              "file_bn": "/hsc/social_1st/chapter_3.json"
+              "file_bn": "/hsc/social_1st/chapter_3.json",
+              "file_en": "/hsc/social_1st/english/chapter_3.json"
             }
           ],
           "name_bn": "অধ্যায় ৩",
@@ -987,7 +990,8 @@
             {
               "id": "hsc_soc1_ch4",
               "name": "Chapter 4 Questions",
-              "file_bn": "/hsc/social_1st/chapter_4.json"
+              "file_bn": "/hsc/social_1st/chapter_4.json",
+              "file_en": "/hsc/social_1st/english/chapter_4.json"
             }
           ],
           "name_bn": "অধ্যায় ৪",
@@ -1000,7 +1004,8 @@
             {
               "id": "hsc_soc1_ch5",
               "name": "Chapter 5 Questions",
-              "file_bn": "/hsc/social_1st/chapter_5.json"
+              "file_bn": "/hsc/social_1st/chapter_5.json",
+              "file_en": "/hsc/social_1st/english/chapter_5.json"
             }
           ],
           "name_bn": "অধ্যায় ৫",
@@ -1013,7 +1018,8 @@
             {
               "id": "hsc_soc1_ch6",
               "name": "Chapter 6 Questions",
-              "file_bn": "/hsc/social_1st/chapter_6.json"
+              "file_bn": "/hsc/social_1st/chapter_6.json",
+              "file_en": "/hsc/social_1st/english/chapter_6.json"
             }
           ],
           "name_bn": "অধ্যায় ৬",
@@ -1026,7 +1032,8 @@
             {
               "id": "hsc_soc1_ch7",
               "name": "Chapter 7 Questions",
-              "file_bn": "/hsc/social_1st/chapter_7.json"
+              "file_bn": "/hsc/social_1st/chapter_7.json",
+              "file_en": "/hsc/social_1st/english/chapter_7.json"
             }
           ],
           "name_bn": "অধ্যায় ৭",
@@ -1039,7 +1046,8 @@
             {
               "id": "hsc_soc1_ch8",
               "name": "Chapter 8 Questions",
-              "file_bn": "/hsc/social_1st/chapter_8.json"
+              "file_bn": "/hsc/social_1st/chapter_8.json",
+              "file_en": "/hsc/social_1st/english/chapter_8.json"
             }
           ],
           "name_bn": "অধ্যায় ৮",
@@ -1052,7 +1060,8 @@
             {
               "id": "hsc_soc1_ch9",
               "name": "Chapter 9 Questions",
-              "file_bn": "/hsc/social_1st/chapter_9.json"
+              "file_bn": "/hsc/social_1st/chapter_9.json",
+              "file_en": "/hsc/social_1st/english/chapter_9.json"
             }
           ],
           "name_bn": "অধ্যায় ৯",

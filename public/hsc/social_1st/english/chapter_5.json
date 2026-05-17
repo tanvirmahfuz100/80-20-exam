@@ -1,0 +1,1302 @@
+﻿[
+    {
+        "id":  201,
+        "question":  "The word \u0027Sociology\u0027 is derived from which two language words?",
+        "options":  {
+                        "A":  "Greek + Hebrew",
+                        "B":  "German + Greek",
+                        "C":  "Hebrew + Spanish",
+                        "D":  "Latin + Greek"
+                    },
+        "answer":  "D",
+        "explanation":  "The word Sociology is derived from the Latin word \u0027Socius\u0027 (companion) and the Greek word \u0027Logos\u0027 (knowledge).",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  202,
+        "question":  "What does social science discuss?",
+        "options":  {
+                        "A":  "Different aspects of social relations",
+                        "B":  "Different aspects of poverty alleviation",
+                        "C":  "Area of human resource development",
+                        "D":  "Different aspects of human life"
+                    },
+        "answer":  "A",
+        "explanation":  "Social science deals with various aspects of social relations.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  203,
+        "question":  "Who said \u0027Social science is the science of social institutions\u0027?",
+        "options":  {
+                        "A":  "Walter A. Friedlander",
+                        "B":  "Emile Durtheim",
+                        "C":  "Thomas Moore",
+                        "D":  "August corner"
+                    },
+        "answer":  "D",
+        "explanation":  "Auguste Comte made this statement. He is called the father of sociology.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  204,
+        "question":  "\u0027Sociology is the science of human emotional connection\u0027 - whose quote?",
+        "options":  {
+                        "A":  "Franklin Giddings",
+                        "B":  "Auguste Comte",
+                        "C":  "E.A. Hoebel",
+                        "D":  "M. Jacob and B.J. Stem"
+                    },
+        "answer":  "A",
+        "explanation":  "Franklin Giddings called sociology the science of human emotional connections.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  205,
+        "question":  "\u0027There is no real separate entity in the social sciences\u0027 - who said this?",
+        "options":  {
+                        "A":  "Max Weber",
+                        "B":  "RM McIver",
+                        "C":  "Herbert Spencer",
+                        "D":  "Various sociologists"
+                    },
+        "answer":  "B",
+        "explanation":  "R. M. R.M. MacIver made this statement.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  206,
+        "question":  "Why is there variation in the definition of sociology given?",
+        "options":  {
+                        "A":  "Due to attitudinal differences",
+                        "B":  "Due to research differences",
+                        "C":  "Due to environmental differences",
+                        "D":  "Due to time difference"
+                    },
+        "answer":  "A",
+        "explanation":  "Differences in the definition of sociology can be observed due to differences in perspective.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  207,
+        "question":  "Richard T Schaefer was a professor at which university?",
+        "options":  {
+                        "A":  "Harvard University",
+                        "B":  "University of Waterloo",
+                        "C":  "Western Illinois University",
+                        "D":  "University of Tokyo"
+                    },
+        "answer":  "C",
+        "explanation":  "Richard T Schaefer was a professor at Western Illinois University.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  208,
+        "question":  "While writing the definition of sociology in Sharmin exam book he termed sociology as the disciplined and objective study of social behavior and society. Which philosopher wrote the given definition?",
+        "options":  {
+                        "A":  "Richard T Schaefer",
+                        "B":  "David Popenoe",
+                        "C":  "Neil J. Smelser",
+                        "D":  "Emile Dukheim"
+                    },
+        "answer":  "B",
+        "explanation":  "David Popenoe defines sociology as the objective study of social behavior and society.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  209,
+        "question":  "\u0027Sociology is a science whose purpose is to explain the effective relationship between social functions.\u0027- Whose quote?",
+        "options":  {
+                        "A":  "by Kingsley Davies",
+                        "B":  "McIver\u0027s",
+                        "C":  "Max Weber\u0027s",
+                        "D":  "of Bottomor"
+                    },
+        "answer":  "A",
+        "explanation":  "Kingsley Davis made this quote.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  210,
+        "question":  "\u0027Collecting information about human organization and explaining these is the main goal of sociology, but the improvement of people\u0027s living conditions is the ultimate goal of sociology.\u0027-whose quote?",
+        "options":  {
+                        "A":  "by RM McIver",
+                        "B":  "T B Bottommore",
+                        "C":  "of Samuel Koenig",
+                        "D":  "by Kimble Young"
+                    },
+        "answer":  "B",
+        "explanation":  "T. B. T.B. Bottomore made this statement.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  211,
+        "question":  "Basic principles of social welfare-",
+        "options":  {
+                        "A":  "Welfare of people in society",
+                        "B":  "Dealing with the problems of the troubled person",
+                        "C":  "Troubleshooting",
+                        "D":  "Problem identification"
+                    },
+        "answer":  "A",
+        "explanation":  "The main theme of social welfare is to achieve the welfare of the people in the society.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  212,
+        "question":  "Which sociologist while defining sociology said that \u0027Sociology is the study of social action\u0027?",
+        "options":  {
+                        "A":  "Kovalevsky",
+                        "B":  "Max Weber",
+                        "C":  "David Popenoe",
+                        "D":  "Neil J. Skelser"
+                    },
+        "answer":  "A",
+        "explanation":  "Kovalevsky defines sociology as the study of social activities or functions.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  213,
+        "question":  "Richard T Schaefer\u0027s definition of sociology emphasizes on- i. Human groups ii. Social action iii. social behavior",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Richard T. Schaefer emphasizes all three in his definition—human group, social action, and social behavior.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  214,
+        "question":  "The subjective difference between sociology and social work is- i. Basic Social Science and Applied Social Science ii. Subjective knowledge base is own and knowledge base is dependent on other subjects iii. The content discussed is social structure and research topics only",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "A",
+        "explanation":  "Sociology is basic science and social work is practical science. Knowledge of sociology is independent and knowledge of social work is dependent on other subjects.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  215,
+        "question":  "Social functions can be realized through- i. Human behavior ii. Social relations iii. social processes",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Human behavior, social relations, and social processes—all three—can be understood through social functions.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  216,
+        "question":  "[motivational] A branch of social science which gives complete and objective knowledge about society by analyzing social structure, social relations, social institutions, social functions etc. Which branch of social science is mentioned in Uddeep?",
+        "options":  {
+                        "A":  "Social work",
+                        "B":  "Sociology",
+                        "C":  "Psychology",
+                        "D":  "Anthropology"
+                    },
+        "answer":  "B",
+        "explanation":  "Uddeep is referred to as sociology. It analyzes social structures, relationships, institutions and functions.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  217,
+        "question":  "The content of the said matter is- i. Human behavior ii. Social structure iii. social relations",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Sociology includes all three topics as subject matter.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  218,
+        "question":  "\u0027Anthropologists have combined the biological and social sciences of man in the same subject\u0027 - Whose quote?",
+        "options":  {
+                        "A":  "Bills and Hozer\u0027s",
+                        "B":  "of Jacob and Stem",
+                        "C":  "of Harris and Hoebel",
+                        "D":  "of Malinowski and Degaluner"
+                    },
+        "answer":  "B",
+        "explanation":  "Jacob and Stem make this statement.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  219,
+        "question":  "\u0027Anthropology is the study of primitive and modern mankind and their life systems\u0027 - Whose quote?",
+        "options":  {
+                        "A":  "of Bottomor",
+                        "B":  "of Sorokin",
+                        "C":  "of Ogburn",
+                        "D":  "by Marvin Harris"
+                    },
+        "answer":  "D",
+        "explanation":  "Marvin Harris gives this definition of anthropology.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  220,
+        "question":  "From which word does the word \u0027Anthropology\u0027 originate?",
+        "options":  {
+                        "A":  "Greek Enthros and Logs",
+                        "B":  "Greek Anthropos and Logia",
+                        "C":  "Latin Enthrops and Logia",
+                        "D":  "Latin Antrics and Logos"
+                    },
+        "answer":  "B",
+        "explanation":  "The word Anthropology comes from Greek \u0027Anthropos\u0027 (man) and \u0027Logia\u0027 (knowledge/study).",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  221,
+        "question":  "What is the meaning of the Greek word \u0027Anthropos\u0027?",
+        "options":  {
+                        "A":  "Mind or soul",
+                        "B":  "People",
+                        "C":  "Text",
+                        "D":  "Society"
+                    },
+        "answer":  "B",
+        "explanation":  "Greek word \u0027Anthropos\u0027 means man.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  222,
+        "question":  "Abed Chowdhury, a teacher of Anthropology Department of Dhaka University. If he is going to research the nature and characteristics of people, what subject should he master?",
+        "options":  {
+                        "A":  "Cultural Anthropology",
+                        "B":  "Physical Anthropology",
+                        "C":  "Linguistics",
+                        "D":  "Sociology"
+                    },
+        "answer":  "B",
+        "explanation":  "The study of human nature and characteristics requires expertise in physical anthropology.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  223,
+        "question":  "Which of the following guides social workers in analyzing and solving social problems?",
+        "options":  {
+                        "A":  "Physical Anthropology",
+                        "B":  "Cultural Anthropology",
+                        "C":  "Linguistics",
+                        "D":  "Applied Anthropology"
+                    },
+        "answer":  "D",
+        "explanation":  "Applied Anthropology guides social workers in analyzing and solving social problems.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  224,
+        "question":  "Which scientist compares the common and exceptional features of ancient and modern cultural worlds?",
+        "options":  {
+                        "A":  "Physical anthropologist",
+                        "B":  "Linguists",
+                        "C":  "Cultural anthropologist",
+                        "D":  "Sociologist"
+                    },
+        "answer":  "C",
+        "explanation":  "Cultural Anthropologist presents a comparative picture of ancient and modern cultural worlds.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  225,
+        "question":  "\u0027The Anthropologist is the Astronomer of the Social Science\u0027 - the saying of which organization?",
+        "options":  {
+                        "A":  "UNESCO",
+                        "B":  "UNICEF",
+                        "C":  "UNFPA",
+                        "D":  "UNHCR"
+                    },
+        "answer":  "A",
+        "explanation":  "UNESCO made this statement. The anthropologist has been called the astronomer of the social sciences.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  226,
+        "question":  "Rashid Talukder is researching the characteristics and nature of people of small ethnic groups existing in Bangladesh. What can he say?",
+        "options":  {
+                        "A":  "Anthropologist",
+                        "B":  "Sociologist",
+                        "C":  "Political scientist",
+                        "D":  "Anthropologist"
+                    },
+        "answer":  "A",
+        "explanation":  "Rashid Talukder can be called an anthropologist as he is researching the characteristics and nature of people of small ethnic groups.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  227,
+        "question":  "\u0027Comparative discussion of the lifestyles of primitive and civilized people, discussion of the evolution of marriage and family\u0027 - subject of which branch of social science?",
+        "options":  {
+                        "A":  "Political Science",
+                        "B":  "Anthropology",
+                        "C":  "Social History",
+                        "D":  "Psychology"
+                    },
+        "answer":  "B",
+        "explanation":  "The evolution of lifestyles, marriage and family among primitive and civilized people is the subject of anthropology.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  228,
+        "question":  "Why does social work adopt an anthropological approach to problem solving?",
+        "options":  {
+                        "A":  "for analyzing human behavior",
+                        "B":  "In analyzing the daily activities of people",
+                        "C":  "To solve problems of urbanization",
+                        "D":  "Collecting objective data to solve problems"
+                    },
+        "answer":  "D",
+        "explanation":  "Social work adopts ethnographic methods to collect objective data to solve problems.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  229,
+        "question":  "To study the subject of Anthropology one must know- i. ii. About human body structure iii. About human culture",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "C",
+        "explanation":  "The study of anthropology involves the study of human body structure and culture. State location is not the core of anthropology.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  230,
+        "question":  "Anthropology as a social organism discusses- i. About Human Evolution ii. About human culture iii. About linguistic pronunciation",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Anthropology as a social organism deals with all three. Development, culture and language all come under its purview.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  231,
+        "question":  "[Stimulating] The subject Arib is doing Honors in is a helping profession based on the scientific method. It strives to make the beneficiaries self-reliant by utilizing the resources and inherent strengths of individuals, groups and collectives in society. Uddip Arib is studying honors in what subject?",
+        "options":  {
+                        "A":  "Sociology",
+                        "B":  "Anthropology",
+                        "C":  "Social work",
+                        "D":  "Political Science"
+                    },
+        "answer":  "C",
+        "explanation":  "Uddip has described the characteristics of social work. It is a scientific method based helping profession.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  232,
+        "question":  "It can be said about the said subject- i. Scientific process of problem solving ii. Topic Economic functions iii. service process",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "B",
+        "explanation":  "Scientific and service oriented process of social work problem solving. Economic activities are not its main focus.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  233,
+        "question":  "Who is the author of the book The Cultural Background of Personality?",
+        "options":  {
+                        "A":  "Crider",
+                        "B":  "John Sirach",
+                        "C":  "John L. Vogel",
+                        "D":  "R Linton"
+                    },
+        "answer":  "D",
+        "explanation":  "Ralph Linton (Ralph Linton) author of the book The Cultural Background of Personality.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  234,
+        "question":  "Which of the following emphasizes the interaction between humans and the environment?",
+        "options":  {
+                        "A":  "Social work",
+                        "B":  "Biology",
+                        "C":  "Psychology",
+                        "D":  "Political Science"
+                    },
+        "answer":  "A",
+        "explanation":  "Social work emphasizes the interaction of people and the environment. It believes in the concept of \u0027Person-in-Environment\u0027.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  235,
+        "question":  "Which science investigates the inner driving force behind human behavior by analyzing the external behavior of humans?",
+        "options":  {
+                        "A":  "Sociology",
+                        "B":  "Psychology",
+                        "C":  "Anthropology",
+                        "D":  "Political Science"
+                    },
+        "answer":  "B",
+        "explanation":  "Psychology explores the inner driving force behind human external behavior.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  236,
+        "question":  "\u0027To understand the external behavior and social relations of man, it is necessary to analyze his mental faculties and nature\u0027 - whose quote?",
+        "options":  {
+                        "A":  "by EA Hoebel",
+                        "B":  "of Bottomor",
+                        "C":  "of McIver",
+                        "D":  "by John Stuart Mill"
+                    },
+        "answer":  "C",
+        "explanation":  "R. M. R.M. MacIver made this statement.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  237,
+        "question":  "Which subject is called the science of human and animal mind and behavior?",
+        "options":  {
+                        "A":  "Anthropology",
+                        "B":  "Sociology",
+                        "C":  "Psychology",
+                        "D":  "Biology"
+                    },
+        "answer":  "C",
+        "explanation":  "Psychology is called the science of human and animal mind and behavior.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  238,
+        "question":  "Which branch of knowledge investigates the inner forces behind the outward behavior of humans?",
+        "options":  {
+                        "A":  "Psychology",
+                        "B":  "Biology",
+                        "C":  "Sociology",
+                        "D":  "Social work"
+                    },
+        "answer":  "A",
+        "explanation":  "Psychology investigates the inner forces behind human outward behavior.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  239,
+        "question":  "The systematic problem solving process of modern social work is particularly dependent on which branch of psychology?",
+        "options":  {
+                        "A":  "Medical Psychology",
+                        "B":  "Child Psychology",
+                        "C":  "Art and Educational Psychology",
+                        "D":  "Social Psychology"
+                    },
+        "answer":  "D",
+        "explanation":  "The systematic problem solving process of social work is especially dependent on social psychology.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  240,
+        "question":  "\u0027The science which studies the interrelationship of mental and physical action, especially that which affects personality, is called psychology.\u0027- What does the statement refer to?",
+        "options":  {
+                        "A":  "in Encyclopedia",
+                        "B":  "in Dictionary of Sociology",
+                        "C":  "in Oxford Dictionaries",
+                        "D":  "in Social Work Dictionary"
+                    },
+        "answer":  "A",
+        "explanation":  "Encyclopaedia mentions this definition of psychology.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  241,
+        "question":  "Which is the Bengali synonym of \u0027Psychology\u0027?",
+        "options":  {
+                        "A":  "Psychology",
+                        "B":  "Political Science",
+                        "C":  "Anthropology",
+                        "D":  "Sociology"
+                    },
+        "answer":  "A",
+        "explanation":  "Bengali synonym of Psychology is প্ন্গ্যান.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  242,
+        "question":  "In what sense is urbanism the science of behavior and activities of citizens living in city-states?",
+        "options":  {
+                        "A":  "in a broad sense",
+                        "B":  "in the literal sense",
+                        "C":  "in the narrow sense",
+                        "D":  "in the original sense"
+                    },
+        "answer":  "D",
+        "explanation":  "Urbanism in its original sense is the science of the behavior and activities of the citizens of the city-state.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  243,
+        "question":  "Who said \u0027Education of civics and good governance is the only safeguard of civilization\u0027?",
+        "options":  {
+                        "A":  "Bertrand Russell",
+                        "B":  "George Bernard Shaw",
+                        "C":  "Adam Smith",
+                        "D":  "Marshall"
+                    },
+        "answer":  "A",
+        "explanation":  "Bertrand Russell made this statement.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  244,
+        "question":  "The concept of good governance sheds light on the various elements necessary for effective management of – Which organization?",
+        "options":  {
+                        "A":  "World Bank",
+                        "B":  "Asian Development Bank",
+                        "C":  "Islamic Development Bank",
+                        "D":  "Hindustan Bank"
+                    },
+        "answer":  "A",
+        "explanation":  "The World Bank has made this statement about the concept of good governance.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  245,
+        "question":  "\u0027Policy is that essential branch of knowledge-which deals with the past, present and future of the citizen and every matter connected with local, national and humanity.\u0027-Whose quote?",
+        "options":  {
+                        "A":  "by EM White",
+                        "B":  "of FI Glaude",
+                        "C":  "by RM McIver",
+                        "D":  "E.A. Hobel\u0027s"
+                    },
+        "answer":  "A",
+        "explanation":  "e. M. E.M. White made this statement about urbanism.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  246,
+        "question":  "Who called municipal policy a valuable branch of knowledge?",
+        "options":  {
+                        "A":  "EM White",
+                        "B":  "John Locke",
+                        "C":  "John Mills",
+                        "D":  "Foster"
+                    },
+        "answer":  "A",
+        "explanation":  "e. M. White (E.M. White) called politics a valuable branch of knowledge.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  247,
+        "question":  "Urban policy deals with human behavior and activities from which point of view?",
+        "options":  {
+                        "A":  "Social perspective",
+                        "B":  "Economic perspective",
+                        "C":  "Geographical perspective",
+                        "D":  "Aspects of citizenship"
+                    },
+        "answer":  "D",
+        "explanation":  "Urbanism deals with human behavior and activities from the perspective of citizenship.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  248,
+        "question":  "What aspect of citizenship is revealed in the discussion of citizens and municipalities in municipal policy?",
+        "options":  {
+                        "A":  "Local aspect",
+                        "B":  "Social aspects",
+                        "C":  "National aspect",
+                        "D":  "International aspects"
+                    },
+        "answer":  "A",
+        "explanation":  "The local aspect of citizenship is revealed in the discussion of citizens and municipalities.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  249,
+        "question":  "How does municipal policy lead to the development of society?",
+        "options":  {
+                        "A":  "By providing civic education",
+                        "B":  "By establishing marital relations",
+                        "C":  "By discussing topics related to economics",
+                        "D":  "By discussing matters related to politics"
+                    },
+        "answer":  "A",
+        "explanation":  "Municipal policy improves society by providing civic education.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  250,
+        "question":  "Jatin Mandal believes in the overall welfare of the society. In this case, which of the following is not useful for him?",
+        "options":  {
+                        "A":  "Economic relations",
+                        "B":  "Human Relations",
+                        "C":  "Political Relations",
+                        "D":  "Social relations"
+                    },
+        "answer":  "C",
+        "explanation":  "Political relations are least useful to a person who believes in the overall welfare of society. Social work emphasizes social and human relations, not political.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  251,
+        "question":  "The word \u0027Sociology\u0027 comes from which two language words?",
+        "options":  {
+                        "A":  "Greek+Hebrew",
+                        "B":  "German + Greek",
+                        "C":  "Hebrew + Spanish",
+                        "D":  "Latin + Greek"
+                    },
+        "answer":  "D",
+        "explanation":  "The word Sociology is derived from the Latin word \u0027Socius\u0027 (companion) and the Greek word \u0027Logos\u0027 (knowledge).",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  252,
+        "question":  "What does social science deal with?",
+        "options":  {
+                        "A":  "Different aspects of social relations",
+                        "B":  "Different aspects of poverty alleviation",
+                        "C":  "Area of Human Resource Development",
+                        "D":  "Different aspects of human life"
+                    },
+        "answer":  "A",
+        "explanation":  "Social science deals with various aspects of social relations.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  253,
+        "question":  "Who said \u0027Social science is the science of social institutions\u0027?",
+        "options":  {
+                        "A":  "Walter A. Friedlander",
+                        "B":  "Emile Durtheim",
+                        "C":  "Thomas Moore",
+                        "D":  "August Kont"
+                    },
+        "answer":  "D",
+        "explanation":  "Auguste Comte made this statement. He is called the father of sociology.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  254,
+        "question":  "\u0027Sociology is the science of human emotional connection\u0027 - Whose quote?",
+        "options":  {
+                        "A":  "Franklin Giddings",
+                        "B":  "Auguste Comte",
+                        "C":  "E.A. Hoebel",
+                        "D":  "M. Jacob and B.J. Stem"
+                    },
+        "answer":  "A",
+        "explanation":  "Franklin Giddings called sociology the science of human emotional connections.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  255,
+        "question":  "\u0027There is no real separate entity in the social sciences\u0027 - who said this?",
+        "options":  {
+                        "A":  "Max Weber",
+                        "B":  "RM McIver",
+                        "C":  "Herbert Spencer",
+                        "D":  "Various sociologists"
+                    },
+        "answer":  "B",
+        "explanation":  "R. M. R.M. MacIver made this statement.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  256,
+        "question":  "Why is there variation in the definition of sociology given?",
+        "options":  {
+                        "A":  "due to attitudinal differences",
+                        "B":  "due to research differences",
+                        "C":  "due to environmental differences",
+                        "D":  "due to temporal differences"
+                    },
+        "answer":  "A",
+        "explanation":  "Variations in definitions of sociology can be observed due to differences in perspective.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  257,
+        "question":  "Richard T Schaeffer was a professor at which university?",
+        "options":  {
+                        "A":  "Harvard University",
+                        "B":  "University of Waterloo",
+                        "C":  "Western Illinois University",
+                        "D":  "University of Tokyo"
+                    },
+        "answer":  "C",
+        "explanation":  "Richard T Schaeffer was a professor at Western Illinois University.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  258,
+        "question":  "While writing the definition of sociology in Sharmin Exam Book, he defines sociology as the disciplined and objective study of social behavior and society. Which philosopher wrote the given definition?",
+        "options":  {
+                        "A":  "Richard T Schaeffer",
+                        "B":  "David Popenoe",
+                        "C":  "Neil J. Smelser",
+                        "D":  "Emile Dukheim"
+                    },
+        "answer":  "B",
+        "explanation":  "David Popenoe defines sociology as the objective study of social behavior and society.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  259,
+        "question":  "\u0027Sociology is a science whose aim is to explain the effective relationship between social functions.\u0027- Whose quote?",
+        "options":  {
+                        "A":  "by Kingsley Davies",
+                        "B":  "of McIver",
+                        "C":  "of Max Weber",
+                        "D":  "of Bottomor"
+                    },
+        "answer":  "A",
+        "explanation":  "Kingsley Davis made this quote.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  260,
+        "question":  "\u0027Collecting information about human organization and explaining these is the main goal of sociology, but the improvement of people\u0027s living conditions is the ultimate goal of sociology.\u0027-whose quote?",
+        "options":  {
+                        "A":  "by RM McIver",
+                        "B":  "of T. B. Bottommore",
+                        "C":  "of Samuel Koenig",
+                        "D":  "by Kimble Young"
+                    },
+        "answer":  "B",
+        "explanation":  "T. B. T.B. Bottomore made this statement.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  261,
+        "question":  "Basic principles of social welfare-",
+        "options":  {
+                        "A":  "Welfare of people in society",
+                        "B":  "Dealing with a troubled person\u0027s problems",
+                        "C":  "Problem solving",
+                        "D":  "Problem identification"
+                    },
+        "answer":  "A",
+        "explanation":  "The main theme of social welfare is to achieve the welfare of the people in the society.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  262,
+        "question":  "Which sociologist, while defining sociology, said that \u0027Sociology is the study of social action\u0027?",
+        "options":  {
+                        "A":  "Kovalevsky",
+                        "B":  "Max Weber",
+                        "C":  "David Popenoe",
+                        "D":  "Neil J. Skelser"
+                    },
+        "answer":  "A",
+        "explanation":  "Kovalevsky defines sociology as the study of social action or tasks.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  263,
+        "question":  "Richard T Schaeffer\u0027s definition of sociology emphasizes on- i. Human groups ii. Social action iii. social behavior",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Richard T Schaefer emphasizes all three in his definition—human groups, social action, and social behavior.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  264,
+        "question":  "The subjective difference between sociology and social work is- i. Basic Social Science and Applied Social Science ii. Subjective knowledge base is own and knowledge base is dependent on other subjects iii. The content discussed is social structure and research topics only",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "A",
+        "explanation":  "Sociology is the basic science and social work is the applied science. Knowledge of sociology is independent and knowledge of social work is dependent on other subjects.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  265,
+        "question":  "Social functions can be realized through- i. Human behavior ii. Social relations iii. social processes",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Human behavior, social relations, and social processes—all three—can be understood through social functions.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  266,
+        "question":  "[motivational] A branch of social science which gives complete and objective knowledge about society by analyzing social structure, social relations, social institutions, social functions etc. Which branch of social science is mentioned in Uddeep?",
+        "options":  {
+                        "A":  "Social work",
+                        "B":  "Sociology",
+                        "C":  "Psychology",
+                        "D":  "Anthropology"
+                    },
+        "answer":  "B",
+        "explanation":  "Uddeep is said to be a sociologist. It analyzes social structures, relationships, institutions and functions.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  267,
+        "question":  "The content of the said matter is- i. Human behavior ii. Social structure iii. social relations",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Sociology includes all three topics as topics of discussion.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  268,
+        "question":  "\u0027Anthropologists have combined the biological and social sciences of man in the same subject\u0027 - Whose quote?",
+        "options":  {
+                        "A":  "of Bills and Hozer",
+                        "B":  "of Jacob and Stem",
+                        "C":  "of Harris and Hoebel",
+                        "D":  "of Malinowski and Degaluner"
+                    },
+        "answer":  "B",
+        "explanation":  "Jacob and Stem make this statement.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  269,
+        "question":  "\u0027Anthropology is the study of primitive and modern mankind and their life systems\u0027 - Whose quote?",
+        "options":  {
+                        "A":  "of Bottomor",
+                        "B":  "of Sorokin",
+                        "C":  "of Ogburn",
+                        "D":  "by Marvin Harris"
+                    },
+        "answer":  "D",
+        "explanation":  "Marvin Harris gives this definition of anthropology.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  270,
+        "question":  "The word \u0027Anthropology\u0027 is derived from which word?",
+        "options":  {
+                        "A":  "Greek Enthros and Logs",
+                        "B":  "Greek Anthropos and Logia",
+                        "C":  "Latin Enthrops and Logia",
+                        "D":  "Latin Antrics and Logos"
+                    },
+        "answer":  "B",
+        "explanation":  "The word Anthropology comes from the Greek \u0027Anthropos\u0027 (man) and \u0027Logia\u0027 (knowledge/study).",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  271,
+        "question":  "What is the meaning of the Greek word \u0027Anthropos\u0027?",
+        "options":  {
+                        "A":  "Mind or Soul",
+                        "B":  "People",
+                        "C":  "lesson",
+                        "D":  "Society"
+                    },
+        "answer":  "B",
+        "explanation":  "Greek word \u0027Anthropos\u0027 means man.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  272,
+        "question":  "Abed Chowdhury, teacher of Anthropology Department of Dhaka University. If he is going to research the nature and characteristics of people, what subject should he master?",
+        "options":  {
+                        "A":  "Cultural Anthropology",
+                        "B":  "Physical Anthropology",
+                        "C":  "Linguistics",
+                        "D":  "Sociology"
+                    },
+        "answer":  "B",
+        "explanation":  "The study of human nature and characteristics requires expertise in physical anthropology.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  273,
+        "question":  "Which of the following guides social workers in analyzing and solving social problems?",
+        "options":  {
+                        "A":  "Physical Anthropology",
+                        "B":  "Cultural Anthropology",
+                        "C":  "Linguistics",
+                        "D":  "Applied Anthropology"
+                    },
+        "answer":  "D",
+        "explanation":  "Applied Anthropology guides social workers in analyzing and solving social problems.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  274,
+        "question":  "Which scientist compares the common and exceptional features of ancient and modern cultural worlds?",
+        "options":  {
+                        "A":  "Physical anthropologist",
+                        "B":  "Linguists",
+                        "C":  "Cultural anthropologist",
+                        "D":  "Sociologist"
+                    },
+        "answer":  "C",
+        "explanation":  "Cultural anthropologist presents a comparative picture of ancient and modern cultural worlds.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  275,
+        "question":  "\u0027The Anthropologist is the Astronomer of the Social Science\u0027 - the saying of which organization?",
+        "options":  {
+                        "A":  "UNESCO",
+                        "B":  "UNICEF",
+                        "C":  "UNFPA",
+                        "D":  "UNHCR"
+                    },
+        "answer":  "A",
+        "explanation":  "UNESCO made this statement. The anthropologist has been called the astronomer of the social sciences.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  276,
+        "question":  "Rashid Talukder is researching the characteristics and nature of people of small ethnic groups existing in Bangladesh. What can he say?",
+        "options":  {
+                        "A":  "Anthropologist",
+                        "B":  "Sociologist",
+                        "C":  "Political scientist",
+                        "D":  "Anthropologist"
+                    },
+        "answer":  "A",
+        "explanation":  "Rashid Talukder can be called an anthropologist as he is researching the characteristics and nature of people of small ethnic groups.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  277,
+        "question":  "\u0027Comparative discussion of the lifestyles of primitive and civilized people, discussion of the evolution of marriage and family\u0027 - subject of which branch of social science?",
+        "options":  {
+                        "A":  "Political Science",
+                        "B":  "Anthropology",
+                        "C":  "Social History",
+                        "D":  "Psychology"
+                    },
+        "answer":  "B",
+        "explanation":  "The evolution of lifestyles, marriage and family among primitive and civilized people is the subject of anthropology.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  278,
+        "question":  "Why does social work adopt an anthropological approach to problem solving?",
+        "options":  {
+                        "A":  "for analyzing human behavior",
+                        "B":  "In analyzing the daily activities of people",
+                        "C":  "To solve problems of urbanization",
+                        "D":  "In gathering objective data to solve problems"
+                    },
+        "answer":  "D",
+        "explanation":  "Social work adopts ethnographic methods to collect objective data to solve problems.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  279,
+        "question":  "To study the subject of Anthropology one must know- i. ii. About human body structure iii. About human culture",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "C",
+        "explanation":  "The study of anthropology involves the study of human anatomy and culture. State location is not the core of anthropology.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  280,
+        "question":  "Anthropology as a social organism discusses- i. About Human Evolution ii. About human culture iii. About linguistic pronunciation",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Anthropology as a social organism deals with all three. Development, culture and language all come under its purview.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  281,
+        "question":  "[Stimulating] The subject Arib is doing Honors in is a helping profession based on the scientific method. It strives to make the beneficiaries self-reliant by utilizing the resources and inherent strengths of individuals, groups and collectives in society. Uddip Arib is studying honors in what subject?",
+        "options":  {
+                        "A":  "Sociology",
+                        "B":  "Anthropology",
+                        "C":  "Social work",
+                        "D":  "Political Science"
+                    },
+        "answer":  "C",
+        "explanation":  "Uddip is described as a characteristic of social work. It is a scientific method based helping profession.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  282,
+        "question":  "It can be said about the said subject- i. Scientific process of problem solving ii. Topic Economic functions iii. service process",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "B",
+        "explanation":  "Scientific and service oriented process of social work problem solving. Economic activities are not its main focus.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  283,
+        "question":  "Who is the author of the book The Cultural Background of Personality?",
+        "options":  {
+                        "A":  "Crider",
+                        "B":  "John Sirach",
+                        "C":  "John L. Vogel",
+                        "D":  "R. Linton"
+                    },
+        "answer":  "D",
+        "explanation":  "Ralph Linton (Ralph Linton) author of the book The Cultural Background of Personality.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  284,
+        "question":  "Which of the following emphasizes the interaction between humans and the environment?",
+        "options":  {
+                        "A":  "Social work",
+                        "B":  "Biology",
+                        "C":  "Psychology",
+                        "D":  "Political Science"
+                    },
+        "answer":  "A",
+        "explanation":  "Social work emphasizes the interaction of people and the environment. It believes in the concept of \u0027Person-in-Environment\u0027.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  285,
+        "question":  "Which science investigates the inner driving force behind human behavior by analyzing the external behavior of humans?",
+        "options":  {
+                        "A":  "Sociology",
+                        "B":  "Psychology",
+                        "C":  "Anthropology",
+                        "D":  "Political Science"
+                    },
+        "answer":  "B",
+        "explanation":  "Psychology explores the inner driving force behind human external behavior.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  286,
+        "question":  "\u0027To understand the external behavior and social relations of man, it is necessary to analyze his mental faculties and nature\u0027 - whose quote?",
+        "options":  {
+                        "A":  "by EA Hoebel",
+                        "B":  "of Bottomor",
+                        "C":  "of McIver",
+                        "D":  "by John Stuart Mill"
+                    },
+        "answer":  "C",
+        "explanation":  "R. M. R.M. MacIver made this statement.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  287,
+        "question":  "Which subject is called the science of human and animal mind and behavior?",
+        "options":  {
+                        "A":  "Anthropology",
+                        "B":  "Sociology",
+                        "C":  "Psychology",
+                        "D":  "Biology"
+                    },
+        "answer":  "C",
+        "explanation":  "Psychology is called the science of human and animal mind and behavior.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  288,
+        "question":  "Which branch of knowledge investigates the inner forces behind the outward behavior of humans?",
+        "options":  {
+                        "A":  "Psychology",
+                        "B":  "Biology",
+                        "C":  "Sociology",
+                        "D":  "Social work"
+                    },
+        "answer":  "A",
+        "explanation":  "Psychology investigates the inner forces behind human outward behavior.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  289,
+        "question":  "The systematic problem-solving process of modern social work is particularly dependent on which branch of psychology?",
+        "options":  {
+                        "A":  "Clinical Psychology",
+                        "B":  "Child Psychology",
+                        "C":  "Art and Educational Psychology",
+                        "D":  "Social Psychology"
+                    },
+        "answer":  "D",
+        "explanation":  "The systematic problem solving process of social work is particularly dependent on social psychology.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  290,
+        "question":  "\u0027The science which studies the interrelationship of mental and physical action, especially that which affects personality, is called psychology.\u0027- What does the statement refer to?",
+        "options":  {
+                        "A":  "in Encyclopedia",
+                        "B":  "in Dictionary of Sociology",
+                        "C":  "in Oxford Dictionaries",
+                        "D":  "in Social Work Dictionary"
+                    },
+        "answer":  "A",
+        "explanation":  "Encyclopaedia mentions this definition of psychology.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  291,
+        "question":  "Which is the Bengali synonym of \u0027Psychology\u0027?",
+        "options":  {
+                        "A":  "Psychology",
+                        "B":  "Political Science",
+                        "C":  "Anthropology",
+                        "D":  "Sociology"
+                    },
+        "answer":  "A",
+        "explanation":  "Bengali synonym of Psychology is প্ন্গ্যান.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  292,
+        "question":  "In what sense is urbanism the science of behavior and activities of citizens living in city-states?",
+        "options":  {
+                        "A":  "in a broad sense",
+                        "B":  "in the literal sense",
+                        "C":  "in the narrow sense",
+                        "D":  "in the original sense"
+                    },
+        "answer":  "D",
+        "explanation":  "Urbanism in its original sense is the science of the behavior and activities of the citizens of the city-state.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  293,
+        "question":  "Who said \u0027Education of civics and good governance is the only safeguard of civilization\u0027",
+        "options":  {
+                        "A":  "Bertrand Russell",
+                        "B":  "George Bernard Shaw",
+                        "C":  "Adam Smith",
+                        "D":  "Marshall"
+                    },
+        "answer":  "A",
+        "explanation":  "Bertrand Russell made this statement.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  294,
+        "question":  "The concept of good governance sheds light on the various elements necessary for effective management of – Which organization?",
+        "options":  {
+                        "A":  "World Bank",
+                        "B":  "Asian Development Bank",
+                        "C":  "Islamic Development Bank",
+                        "D":  "Hindustan Bank"
+                    },
+        "answer":  "A",
+        "explanation":  "The World Bank has made this statement about the concept of good governance.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  295,
+        "question":  "\u0027Policy is that necessary branch of knowledge-which deals with the past, present and future of the citizen and every matter connected with local, national and humanity.\u0027-Whose quote?",
+        "options":  {
+                        "A":  "by EM White",
+                        "B":  "of FI Glaude",
+                        "C":  "by RM McIver",
+                        "D":  "E.A. Hobel\u0027s"
+                    },
+        "answer":  "A",
+        "explanation":  "e. M. E.M. White made this statement about urbanism.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  296,
+        "question":  "Who called municipal policy a valuable branch of knowledge?",
+        "options":  {
+                        "A":  "EM White",
+                        "B":  "John Locke",
+                        "C":  "John Mills",
+                        "D":  "Foster"
+                    },
+        "answer":  "A",
+        "explanation":  "e. M. White (E.M. White) called politics a valuable branch of knowledge.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  297,
+        "question":  "Urban policy deals with human behavior and activities from which point of view?",
+        "options":  {
+                        "A":  "Social perspective",
+                        "B":  "Economic perspective",
+                        "C":  "Geographical perspective",
+                        "D":  "Aspects of citizenship"
+                    },
+        "answer":  "D",
+        "explanation":  "Urbanism deals with human behavior and activities from the perspective of citizenship.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  298,
+        "question":  "What aspect of citizenship is revealed in the discussion of citizens and municipalities in municipal policy?",
+        "options":  {
+                        "A":  "Local aspects",
+                        "B":  "Social aspects",
+                        "C":  "National aspects",
+                        "D":  "International aspects"
+                    },
+        "answer":  "A",
+        "explanation":  "The local aspect of citizenship is revealed in the discussion of citizens and municipalities.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  299,
+        "question":  "How does municipal policy lead to the development of society?",
+        "options":  {
+                        "A":  "by providing civic education",
+                        "B":  "by establishing marital relations",
+                        "C":  "By discussing topics related to economics",
+                        "D":  "By discussing matters related to politics"
+                    },
+        "answer":  "A",
+        "explanation":  "Municipal policy improves society by providing civic education.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    },
+    {
+        "id":  300,
+        "question":  "Jatin Mandal believes in the overall welfare of the society. In this case, which of the following is not useful for him?",
+        "options":  {
+                        "A":  "Economic relations",
+                        "B":  "Human Relations",
+                        "C":  "Political Relations",
+                        "D":  "Social relations"
+                    },
+        "answer":  "C",
+        "explanation":  "Political relations are least useful to a person who believes in the overall welfare of society. Social work emphasizes social and human relations, not political.",
+        "source":  "সমাজকর্ম, অধ্যায়-৫"
+    }
+]
