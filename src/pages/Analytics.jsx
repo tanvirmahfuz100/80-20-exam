@@ -69,8 +69,8 @@ const AccentBar = ({ pct, color }) => (
 );
 
 const Chip = ({ label, color, icon: Icon }) => (
-  <span className={`px-2.5 py-1 rounded-lg border text-[9px] font-black uppercase tracking-wider leading-none flex items-center gap-1 ${color}`}>
-    {Icon && <Icon className="w-2.5 h-2.5" />}
+  <span className={`px-2 py-0.5 rounded-lg border text-[8px] font-black uppercase tracking-wider leading-none flex items-center gap-1 ${color}`}>
+    {Icon && <Icon className="w-2 h-2" />}
     {label}
   </span>
 );
@@ -203,7 +203,7 @@ const Analytics = () => {
             Analytics
           </h1>
           <p className="text-[9px] font-bold text-white/30 uppercase tracking-widest mt-1">
-            {profile?.username || user?.email || 'Student'} &middot; {practiceSessions.length} sessions
+            {profile?.username || user?.email || 'Student'} &middot; {totalPracticed} question{totalPracticed !== 1 ? 's' : ''}
           </p>
         </div>
         <div className="w-16 h-16 opacity-[0.15] shrink-0">
@@ -309,7 +309,7 @@ const Analytics = () => {
             <TrendingUp className="w-3.5 h-3.5 text-emerald-500" />
             <span className="text-[9px] font-black uppercase tracking-widest text-emerald-500">Strengths</span>
           </div>
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-wrap gap-1.5 items-start">
             {['Vocabulary', 'Algebra', 'Puzzles'].map(s => (
               <Chip key={s} label={s} color="bg-emerald-500/15 border-emerald-500/25 text-emerald-400" />
             ))}
@@ -321,7 +321,7 @@ const Analytics = () => {
             <AlertTriangle className="w-3.5 h-3.5 text-red-500" />
             <span className="text-[9px] font-black uppercase tracking-widest text-red-500">Vulnerable Areas</span>
           </div>
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-wrap gap-1.5 items-start">
             {['Geometry', 'Grammar Basics', 'Critical Reasoning'].map(s => (
               <Chip key={s} label={s} color="bg-red-500/15 border-red-500/25 text-red-400" />
             ))}
@@ -330,34 +330,35 @@ const Analytics = () => {
       </div>
 
       {/* ── Smart Recommendation ── */}
-      <motion.div variants={itemVariants} className="relative bg-gradient-to-r from-primary/[0.07] to-transparent rounded-xl border border-primary/20 p-4 space-y-2 overflow-hidden">
-        <div className="absolute inset-y-0 left-0 w-0.5 bg-primary rounded-full" />
-        <div className="flex items-center gap-1.5">
-          <Sparkles className="w-3 h-3 text-primary" />
-          <span className="text-[9px] font-black uppercase tracking-widest text-primary">Recommendation</span>
+      <motion.div variants={itemVariants} className="relative bg-gradient-to-r from-primary/[0.12] to-primary/[0.02] rounded-xl border border-primary/30 p-5 md:p-6 space-y-3 overflow-hidden shadow-lg shadow-primary/5">
+        <div className="absolute inset-y-0 left-0 w-1 bg-primary rounded-full shadow-lg shadow-primary/40" />
+        <div className="absolute -top-6 -right-6 w-32 h-32 bg-primary/[0.04] rounded-full blur-3xl" />
+        <div className="flex items-center gap-2">
+          <div className="p-1.5 rounded-lg bg-primary/10 border border-primary/20">
+            <Sparkles className="w-4 h-4 text-primary" />
+          </div>
+          <span className="text-[10px] font-black uppercase tracking-widest text-primary">Smart Recommendation</span>
         </div>
-        <p className="text-xs text-white/70 font-medium leading-relaxed">
+        <p className="text-sm md:text-base text-white/80 font-semibold leading-relaxed italic">
           &ldquo;Your accuracy in Geometry is 22% lower than your average. Try focusing on{' '}
-          <span className="text-white border-b border-primary/40 font-semibold">Circle Properties</span> today.&rdquo;
+          <span className="text-white border-b-2 border-primary font-bold not-italic">Circle Properties</span> today.&rdquo;
         </p>
       </motion.div>
 
       {/* ── Platform Rank ── */}
       <motion.div variants={itemVariants} className="bg-surface border border-white/5 rounded-xl p-4 md:p-5 space-y-4">
-        <div className="flex items-center justify-between gap-3">
-          <div>
-            <h2 className="text-sm md:text-base font-black text-white tracking-tighter uppercase">Platform Rank</h2>
-            <p className="text-[8px] font-bold text-white/30 uppercase tracking-widest mt-0.5">How you compare to others</p>
+        <div>
+          <h2 className="text-sm md:text-base font-black text-white tracking-tighter uppercase">Platform Rank</h2>
+          <p className="text-[8px] font-bold text-white/30 uppercase tracking-widest mt-0.5">How you compare to others</p>
+        </div>
+        <div className="flex gap-3">
+          <div className="flex-1 bg-white/5 rounded-xl px-4 py-3 text-center border border-white/5">
+            <p className="text-[9px] font-black text-white/20 uppercase tracking-widest">Platform Avg</p>
+            <p className="text-xl md:text-2xl font-black text-white/50 mt-1">45%</p>
           </div>
-          <div className="flex gap-2">
-            <div className="bg-white/5 px-3 py-2 rounded-lg border border-white/5 text-center min-w-[70px]">
-              <p className="text-[7px] font-black text-white/20 uppercase tracking-widest leading-none mb-0.5">Avg</p>
-              <p className="text-base md:text-lg font-black text-white leading-none">45%</p>
-            </div>
-            <div className="bg-primary/10 px-3 py-2 rounded-lg border border-primary/20 text-center min-w-[70px]">
-              <p className="text-[7px] font-black text-primary uppercase tracking-widest leading-none mb-0.5">You</p>
-              <p className="text-base md:text-lg font-black text-primary leading-none">{accuracy}%</p>
-            </div>
+          <div className="flex-1 bg-primary/10 rounded-xl px-4 py-3 text-center border border-primary/20">
+            <p className="text-[9px] font-black text-primary/60 uppercase tracking-widest">Your Score</p>
+            <p className="text-xl md:text-2xl font-black text-primary mt-1">{accuracy}%</p>
           </div>
         </div>
 
@@ -370,11 +371,11 @@ const Analytics = () => {
             { label: 'You', color: 'bg-primary', value: `${accuracy}%` },
             { label: 'Elite', color: 'bg-emerald-500', value: `${Math.max(0, 100 - accuracy - 50)}%` }
           ].map(l => (
-            <div key={l.label} className="flex items-center gap-2">
-              <div className={`w-2 h-2 rounded-full ${l.color} shrink-0`} />
+            <div key={l.label} className="flex items-center gap-2.5">
+              <div className={`w-3 h-3 rounded-full ${l.color} shrink-0`} />
               <div className="min-w-0">
-                <p className="text-[8px] font-black text-white/30 uppercase tracking-widest truncate leading-none">{l.label}</p>
-                <p className="text-[7px] font-bold text-white/20">{l.value}</p>
+                <p className="text-[9px] font-black text-white/40 uppercase tracking-widest leading-none">{l.label}</p>
+                <p className="text-[8px] font-bold text-white/20 mt-0.5">{l.value}</p>
               </div>
             </div>
           ))}
