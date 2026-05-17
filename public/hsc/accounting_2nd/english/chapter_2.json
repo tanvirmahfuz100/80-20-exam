@@ -213,7 +213,7 @@
       "D": "Tk. 36,000"
     },
     "answer": "A",
-    "explanation": "Ratio 2 : 1/4 : 1/4 = 8/4 : 1/4 : 1/4 = 8:1:1. Total = 10. G's share = (1/10)*30,000 = 3,000. Options don't match perfectly, likely misprint in ratio. Assuming ratio 3:2:1 standard, G=5,000. Not matching. If ratio 2:1/2:1/2 maybe? Actually 2:0.25:0.25 is 8:1:1 = 3000. None of the options match 3000.",
+    "explanation": "Ratio 2 : 1/4 : 1/4 = 8/4 : 1/4 : 1/4 = 8:1:1. Total = 10. G's share = (1/10)*30,000 = 3,000. Options don't match perfectly, likely misprint in ratio. Assuming ratio is 3:2:1 standard, G=5,000. Not matching. If ratio 2:1/2:1/2 maybe? Actually 2:0.25:0.25 is 8:1:1 = 3000. None of the options match 3000.",
     "source": null,
     "confidence": "low"
   },
