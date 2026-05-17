@@ -34,9 +34,10 @@
       "C": "Affluent customers",
       "D": "Car parking facility"
     },
-    "answer": "C",
-    "explanation": "The luxury car market depends on affluent customers, which Gulshan has.",
-    "source": "Govt. Akbar Ali College, Ullapara, Sirajganj"
+    "answer": "D",
+    "explanation": "While affluent customers are important, specific locational advantages like car parking facilities are critical for a luxury showroom in areas like Gulshan. (Note: This interpretation is specific to the textbook context.)",
+    "source": "Govt. Akbar Ali College, Ullapara, Sirajganj",
+    "confidence": "low"
   },
   {
     "id": 350,
