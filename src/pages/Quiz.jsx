@@ -651,11 +651,7 @@ const Quiz = () => {
                         <ArrowLeft className="w-4 h-4" />
                     </button>
                     <div className="min-w-0 flex-1 max-w-[160px] xs:max-w-[200px]">
-                        <div className="flex items-center justify-between gap-1.5 mb-0.5">
-                            <span className="text-white/90 font-bold text-[13px] tabular-nums leading-none">{currentIndex + 1}</span>
-                            <span className="text-white/30 text-[10px] font-bold leading-none">/ {questions.length}</span>
-                        </div>
-                        <div className="h-1.5 bg-white/10 rounded-full overflow-hidden">
+                        <div className="h-1 bg-white/10 rounded-full overflow-hidden mt-1">
                             <motion.div
                                 className="h-full bg-gradient-to-r from-primary to-primary/70 rounded-full"
                                 initial={{ width: 0 }}

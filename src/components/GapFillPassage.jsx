@@ -166,8 +166,17 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
 
   return (
     <div className="flex-1 flex flex-col min-h-0 gap-3" role="group" aria-label="Fill in the blanks exercise">
-      <div className="flex-1 overflow-y-auto min-h-0 space-y-3">
-        <p className="text-text text-sm xs:text-base md:text-lg leading-relaxed font-medium whitespace-pre-wrap">
+      <div className="flex-1 overflow-y-auto min-h-0 space-y-4">
+        <div className="flex items-center gap-2 shrink-0">
+          <span className={`text-[9px] font-black px-2.5 py-1 rounded-full uppercase border ${
+            difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
+            difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :
+            'text-emerald-400 border-emerald-400/20 bg-emerald-400/5'
+          }`}>
+            {difficulty}
+          </span>
+        </div>
+        <p className="text-text text-sm xs:text-base md:text-lg leading-loose font-medium whitespace-pre-wrap">
           {segments.map((seg, i) => {
             if (seg.type === 'text') {
               return <span key={i}>{seg.content}</span>;
@@ -176,6 +185,8 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
             const blankData = getBlankData(seg.blankId);
             const isAnswered = !!answer;
             const hasData = !!blankData;
+
+            const isActive = activePopover?.blankId === seg.blankId;
 
             return (
               <span
@@ -187,19 +198,21 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
                 tabIndex={hasData ? 0 : undefined}
                 aria-label={hasData ? `Blank ${seg.blankId}${isAnswered ? `, selected: ${answer.selected}` : ', not answered'}` : undefined}
                 className={`
-                  relative inline-flex items-center gap-1 mx-0.5 px-2.5 py-1
-                  min-w-[48px] md:min-w-[64px] min-h-touch justify-center
+                  relative inline-flex items-center gap-1 mx-0.5 px-2 py-0.5
+                  min-w-[48px] md:min-w-[64px] min-h-[32px] justify-center
                   font-bold text-sm md:text-base leading-relaxed
                   transition-all duration-200 select-none
-                  border-b-[3px]
+                  border-b-2
                   ${hasData && (!isAnswered || !answer.isCorrect) ? 'cursor-pointer' : 'cursor-default'}
                   ${isAnswered
                     ? answer.isCorrect
-                      ? 'border-emerald-500 text-emerald-400 bg-emerald-500/[0.08] rounded-md'
-                      : 'border-amber-500 text-amber-400 bg-amber-500/[0.08] rounded-md'
-                    : hasData
-                      ? 'border-white/40 text-text-muted hover:border-white hover:text-text bg-white/[0.02] rounded-md hover:bg-white/[0.06]'
-                      : 'border-white/10 text-text-dim/30 bg-transparent'
+                      ? 'border-emerald-500/70 text-emerald-400'
+                      : 'border-amber-500/70 text-amber-400'
+                    : hasData && isActive
+                      ? 'border-white text-text bg-white/[0.06] rounded-t-sm'
+                      : hasData
+                        ? 'border-dashed border-white/30 text-text-muted hover:border-white/60'
+                        : 'border-white/10 text-text-dim/30'
                   }
                 `}
               >
@@ -222,34 +235,35 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
         </p>
 
         {boxWords?.length > 0 && (
-          <div className="flex flex-wrap items-center gap-1.5" aria-label="Available words">
-            <span className="text-[9px] md:text-[9px] font-black uppercase tracking-[0.2em] text-text-dim mr-0.5">Box:</span>
+          <div className="flex flex-wrap items-center gap-2.5 pt-1" aria-label="Available words">
             {boxWords.map((word) => (
-              <span key={word} className="px-1.5 md:px-2 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-[9px] md:text-[9px] font-black uppercase tracking-widest">
+              <span key={word} className="px-3 py-1.5 rounded-xl bg-primary/10 border border-primary/25 text-primary text-[10px] font-black uppercase tracking-widest shadow-sm">
                 {word}
               </span>
             ))}
           </div>
         )}
 
-        <div className="flex items-center gap-2">
-          <span className={`text-[8px] md:text-[7px] font-black px-2 py-1 rounded-full uppercase border ${
-            difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
-            difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :
-            'text-emerald-400 border-emerald-400/20 bg-emerald-400/5'
-          }`}>
-            {difficulty}
-          </span>
-        </div>
       </div>
 
       <div className="shrink-0 sticky bottom-3 px-0 safe-bottom">
-        <button
-          onClick={onContinue}
-          className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-xs md:text-[10px] transition-all active:scale-[0.98] min-h-touch"
-        >
-          {answeredCount > 0 ? `Continue (${answeredCount}/${totalBlanks})` : 'Skip'}
-        </button>
+        {answeredCount > 0 ? (
+          <button
+            onClick={onContinue}
+            className="w-full py-3.5 px-6 bg-[#2F80ED] hover:bg-[#2F80ED]/90 text-white font-black rounded-xl text-sm uppercase tracking-widest transition-all active:scale-[0.97] shadow-lg shadow-[#2F80ED]/20"
+          >
+            Continue ({answeredCount}/{totalBlanks})
+          </button>
+        ) : (
+          <div className="flex justify-center">
+            <button
+              onClick={onContinue}
+              className="px-4 py-2 text-white/40 hover:text-white/70 font-medium text-xs transition-colors active:scale-[0.97]"
+            >
+              Skip
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Desktop popover */}
