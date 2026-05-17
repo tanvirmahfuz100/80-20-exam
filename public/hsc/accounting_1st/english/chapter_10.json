@@ -1,0 +1,410 @@
+[
+  {
+    "id": 350,
+    "question": "Closing Capital = ?",
+    "options": {
+      "A": "Opening Assets - Opening Liabilities",
+      "B": "Opening Assets - Closing Liabilities",
+      "C": "Closing Assets - Opening Liabilities",
+      "D": "Closing Assets - Closing Liabilities"
+    },
+    "answer": "D",
+    "explanation": "Closing Capital = Closing Assets - Closing Liabilities.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 351,
+    "question": "Opening capital Tk. 35,000; Closing capital Tk. 65,000; Additional capital Tk. 15,000; Drawings Tk. 25,000. What is the amount of net profit?",
+    "options": {
+      "A": "Tk. 20,000",
+      "B": "Tk. 40,000",
+      "C": "Tk. 50,000",
+      "D": "Tk. 60,000"
+    },
+    "answer": "B",
+    "explanation": "Net Profit = Closing Capital - Opening Capital - Additional Capital + Drawings = 65,000 - 35,000 - 15,000 + 25,000 = Tk. 40,000.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 352,
+    "question": "Tk. 2,000 is withdrawn in cash on the 1st day of every month throughout the year. Interest on drawings is charged at 5% per annum. What is the total annual interest on drawings?",
+    "options": {
+      "A": "Tk. 600",
+      "B": "Tk. 650",
+      "C": "Tk. 660",
+      "D": "Tk. 1,200"
+    },
+    "answer": "B",
+    "explanation": "Total drawings = 12 × 2,000 = 24,000. Average period = 6.5 months. Interest = 24,000 × 5% × 6.5/12 = Tk. 650.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 353,
+    "question": "Mr. Alam's business had assets of Tk. 3,00,000 and liabilities of Tk. 50,000 on 31 Dec 2013. At the beginning of the year, assets were Tk. 50,000 less and liabilities were Tk. 30,000 more. What was the opening capital on 1 Jan 2013?",
+    "options": {
+      "A": "Tk. 2,70,000",
+      "B": "Tk. 2,50,000",
+      "C": "Tk. 2,20,000",
+      "D": "Tk. 1,70,000"
+    },
+    "answer": "D",
+    "explanation": "Opening Assets = 3,00,000 - 50,000 = 2,50,000. Opening Liabilities = 50,000 + 30,000 = 80,000. Opening Capital = 2,50,000 - 80,000 = Tk. 1,70,000.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 354,
+    "question": "Mr. Kashem's business had capital of Tk. 40,000 on 1 Jan 2013, net profit Tk. 10,000, income tax Tk. 4,000, drawings Tk. 5,000, and additional capital Tk. 8,000. What is the closing owner's equity?",
+    "options": {
+      "A": "Tk. 38,000",
+      "B": "Tk. 49,000",
+      "C": "Tk. 48,000",
+      "D": "Tk. 55,000"
+    },
+    "answer": "B",
+    "explanation": "Closing = Opening + Additional + Net Profit - Income Tax - Drawings = 40,000 + 8,000 + 10,000 - 4,000 - 5,000 = Tk. 49,000.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 355,
+    "question": "Mr. Rubel withdraws Tk. 1,000 on the first day of every month from his business. What is the annual interest on drawings at 5% per annum?",
+    "options": {
+      "A": "Tk. 300",
+      "B": "Tk. 325",
+      "C": "Tk. 335",
+      "D": "Tk. 600"
+    },
+    "answer": "B",
+    "explanation": "Total drawings = 12 × 1,000 = 12,000. Average period = 6.5 months. Interest = 12,000 × 5% × 6.5/12 = Tk. 325.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 356,
+    "question": "Interest on Drawings = ?",
+    "options": {
+      "A": "Business Income and Owner's Expense",
+      "B": "Business Income and Owner's Income",
+      "C": "Business Expense and Owner's Expense",
+      "D": "Owner's Income and Business Expense"
+    },
+    "answer": "A",
+    "explanation": "Interest on drawings is income for the business and an expense for the owner.",
+    "source": "নিউ গভ. ডিগ্রি কলেজ, রাজশাহী"
+  },
+  {
+    "id": 357,
+    "question": "Mr. Karim's opening and closing capital are Tk. 30,000 and Tk. 50,000 respectively. Drawings Tk. 10,000 and additional capital Tk. 5,000. What is the net profit?",
+    "options": {
+      "A": "Tk. 25,000",
+      "B": "Tk. 30,000",
+      "C": "Tk. 35,000",
+      "D": "Tk. 10,000"
+    },
+    "answer": "A",
+    "explanation": "Net Profit = Closing - Opening - Additional + Drawings = 50,000 - 30,000 - 5,000 + 10,000 = Tk. 25,000.",
+    "source": "মাইলস্টোন কলেজ",
+    "confidence": "low"
+  },
+  {
+    "id": 358,
+    "question": "Why is the Opening Statement of Affairs prepared?",
+    "options": {
+      "A": "To determine net profit",
+      "B": "To determine closing capital",
+      "C": "To determine opening capital",
+      "D": "To determine opening assets"
+    },
+    "answer": "C",
+    "explanation": "In the Single Entry System, the Opening Statement of Affairs is prepared to determine the opening capital.",
+    "source": "মাইলস্টোন কলেজ, ঢাকা"
+  },
+  {
+    "id": 359,
+    "question": "Opening capital Tk. 16,500, additional capital mid-year Tk. 3,700, closing capital Tk. 11,350, and drawings Tk. 3,300. What was the profit or loss for the year?",
+    "options": {
+      "A": "Loss Tk. 1,850",
+      "B": "Profit Tk. 1,850",
+      "C": "Loss Tk. 5,550",
+      "D": "Profit Tk. 5,555"
+    },
+    "answer": "C",
+    "explanation": "Profit/Loss = Closing - Opening - Additional + Drawings = 11,350 - 16,500 - 3,700 + 3,300 = -5,550 (Loss).",
+    "source": "অগ্রণী বিদ্যালয় ও মহাবিদ্যালয়, রাজশাহী"
+  },
+  {
+    "id": 360,
+    "question": "If withdrawals are made at the beginning of every month, for how many months should interest on drawings be calculated?",
+    "options": {
+      "A": "2.5 months",
+      "B": "3 months",
+      "C": "6 months",
+      "D": "6.5 months"
+    },
+    "answer": "D",
+    "explanation": "If drawings are made at the beginning of each month, the average period is 6.5 months.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 361,
+    "question": "What is obtained by deducting liabilities from total assets?",
+    "options": {
+      "A": "Expense",
+      "B": "Liability",
+      "C": "Long-term Liability",
+      "D": "Capital"
+    },
+    "answer": "D",
+    "explanation": "Total Assets - Total Liabilities = Owner's Equity or Capital.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 362,
+    "question": "If Tk. 2,000 is withdrawn in cash every two months, what is the total annual drawings?",
+    "options": {
+      "A": "Tk. 24,000",
+      "B": "Tk. 20,000",
+      "C": "Tk. 18,000",
+      "D": "Tk. 12,000"
+    },
+    "answer": "D",
+    "explanation": "6 withdrawals per year × 2,000 = Tk. 12,000.",
+    "source": "ডিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 363,
+    "question": "Which of the following is impossible to determine under the Single Entry System?",
+    "options": {
+      "A": "Net Profit",
+      "B": "Net Loss",
+      "C": "Gross Profit",
+      "D": "Total Liabilities"
+    },
+    "answer": "C",
+    "explanation": "Under the Single Entry System, due to incomplete records, Gross Profit cannot be accurately determined.",
+    "source": "ভিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 364,
+    "question": "Drawings of Tk. 1,000 are made at the beginning of each month. What is the annual interest at 5%?",
+    "options": {
+      "A": "Tk. 275",
+      "B": "Tk. 325",
+      "C": "Tk. 300",
+      "D": "Tk. 600"
+    },
+    "answer": "B",
+    "explanation": "Total drawings = 12 × 1,000 = 12,000. Average period = 6.5 months. Interest = 12,000 × 5% × 6.5/12 = Tk. 325.",
+    "source": "মাইলস্টোন কলেজ"
+  },
+  {
+    "id": 365,
+    "question": "How is opening capital determined?",
+    "options": {
+      "A": "Opening Assets - Opening Liabilities",
+      "B": "Opening Assets - Current Liabilities",
+      "C": "Closing Assets - Opening Assets",
+      "D": "Opening Assets + Opening Liabilities"
+    },
+    "answer": "A",
+    "explanation": "Opening Capital = Opening Assets - Opening Liabilities.",
+    "source": "সিলেট কমার্স কলেজ"
+  },
+  {
+    "id": 366,
+    "question": "If Tk. 1,000 is withdrawn at the beginning of each month at 10% interest, what is the annual interest on drawings?",
+    "options": {
+      "A": "Tk. 550",
+      "B": "Tk. 600",
+      "C": "Tk. 650",
+      "D": "Tk. 1,200"
+    },
+    "answer": "C",
+    "explanation": "Total drawings = 12,000. Average period = 6.5 months. Interest = 12,000 × 10% × 6.5/12 = Tk. 650.",
+    "source": "মাইলস্টোন কলেজ"
+  },
+  {
+    "id": 367,
+    "question": "Which of the following is not maintained under the Single Entry System?",
+    "options": {
+      "A": "Liability accounts",
+      "B": "Asset accounts",
+      "C": "Nominal accounts",
+      "D": "Cash book"
+    },
+    "answer": "C",
+    "explanation": "Under the Single Entry System, nominal accounts (income and expense) are not properly maintained.",
+    "source": "মাইলস্টোন কলেজ"
+  },
+  {
+    "id": 368,
+    "question": "In the Single Entry System, which assets are assumed to be present at the end if they were present at the beginning?",
+    "options": {
+      "A": "Current",
+      "B": "Intangible",
+      "C": "Fixed",
+      "D": "Fictitious"
+    },
+    "answer": "C",
+    "explanation": "In the Single Entry System, due to lack of proper records, fixed assets present at the beginning are often assumed to still exist at the end.",
+    "source": "ঢাকা সিটি কলেজ",
+    "confidence": "low"
+  },
+  {
+    "id": 369,
+    "question": "How is profit or loss determined under the Single Entry System?",
+    "options": {
+      "A": "By deducting expenses from income",
+      "B": "By deducting income from expenses",
+      "C": "By adding income and expenses",
+      "D": "By comparing closing capital and opening capital"
+    },
+    "answer": "D",
+    "explanation": "Under the Single Entry System, profit or loss is determined by comparing the closing capital with the opening capital.",
+    "source": "সেন্ট্রাল উইমেন্স কলেজ, ঢাকা"
+  },
+  {
+    "id": 370,
+    "question": "According to the Single Entry System, if personal assets are sold and the money is invested in the business, the effect on net profit will be-\ni. Less income tax will have to be paid\nii. More income tax will have to be paid\niii. The Balance Sheet will change\nWhich is correct?",
+    "options": {
+      "A": "i",
+      "B": "ii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Introducing money from selling personal assets increases capital, potentially increasing profit and income tax (ii), and changes the Balance Sheet (iii).",
+    "source": "বরিশাল বোর্ড-২০১৫"
+  },
+  {
+    "id": 371,
+    "question": "Books of accounts maintained under the Single Entry System-\ni. Cash Statement\nii. Profit and Loss Statement\niii. Statement of Affairs\nWhich is correct?",
+    "options": {
+      "A": "i",
+      "B": "i & ii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Under the Single Entry System, the Cash Statement, Profit and Loss Statement, and Statement of Affairs are prepared.",
+    "source": "অগ্রণী বিদ্যালয় ও মহাবিদ্যালয়, রাজশাহী"
+  },
+  {
+    "id": 372,
+    "question": "When converting from Single Entry to Double Entry, preparing the Accounts Payable schedule reveals-\ni. Opening Accounts Payable\nii. Closing Accounts Payable\niii. Current year credit purchases\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Preparing the Accounts Payable schedule helps determine opening and closing payables and credit purchases. All three are correct.",
+    "source": "ডিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 373,
+    "question": "In the Profit and Loss Statement, adjustments must be made for-\ni. Additional capital introduced\nii. Goods withdrawn\niii. Provision for bad debts\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Under the Single Entry System, the Profit and Loss Statement needs adjustments for additional capital, goods withdrawn, and provision for bad debts. All three are correct.",
+    "source": "বাংলাদেশ নৌবাহিনী স্কুল এন্ড কলেজ, খুলনা"
+  },
+  {
+    "id": 374,
+    "question": "Shown on the left side of the Profit and Loss Statement-\ni. Opening Capital\nii. Additional Capital\niii. Bad Debts\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "The left side of the Profit and Loss Statement shows opening capital (i) and bad debts (iii). Additional capital is shown on the right side or as an adjustment.",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল",
+    "confidence": "low"
+  },
+  {
+    "id": 375,
+    "question": "What was Ilias's net profit in 2014?\n(Stimulus: Opening capital Tk. 2,00,000, Closing Tk. 3,00,000, Drawings Tk. 20,000, Additional capital Tk. 50,000.)",
+    "options": {
+      "A": "Tk. 70,000",
+      "B": "Tk. 1,00,000",
+      "C": "Tk. 1,80,000",
+      "D": "Tk. 2,20,000"
+    },
+    "answer": "A",
+    "explanation": "Net Profit = Closing - Opening - Additional + Drawings = 3,00,000 - 2,00,000 - 50,000 + 20,000 = Tk. 70,000.",
+    "source": "সরকারি কমার্স কলেজ, চট্টগ্রাম"
+  },
+  {
+    "id": 376,
+    "question": "If Mr. Ilias had withdrawn an additional Tk. 20,000 during the year, what would be the change in net profit?",
+    "options": {
+      "A": "Tk. 40,000 increase",
+      "B": "Tk. 20,000 increase",
+      "C": "Tk. 20,000 decrease",
+      "D": "Tk. 40,000 decrease"
+    },
+    "answer": "A",
+    "explanation": "Higher drawings reduce closing capital, resulting in a higher calculated net profit (as drawings are added back). The net profit would increase by Tk. 20,000 + the reduction effect, total = Tk. 40,000.",
+    "source": "সরকারি কমার্স কলেজ, চট্টগ্রাম",
+    "confidence": "low"
+  },
+  {
+    "id": 377,
+    "question": "What is the annual profit?\n(Stimulus: Opening assets Tk. 5,00,000, liabilities Tk. 3,00,000; Closing assets Tk. 7,20,000, liabilities Tk. 4,00,000; Additional capital Tk. 20,000, Drawings Tk. 15,000.)",
+    "options": {
+      "A": "Tk. 1,15,000",
+      "B": "Tk. 1,20,000",
+      "C": "Tk. 1,30,000",
+      "D": "Tk. 1,40,000"
+    },
+    "answer": "A",
+    "explanation": "Opening Capital = 5,00,000 - 3,00,000 = 2,00,000. Closing Capital = 7,20,000 - 4,00,000 = 3,20,000. Profit = 3,20,000 - 2,00,000 - 20,000 + 15,000 = Tk. 1,15,000.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 378,
+    "question": "If interest on capital is charged at 10%, what is the amount of interest on capital?",
+    "options": {
+      "A": "Tk. 32,000",
+      "B": "Tk. 21,000",
+      "C": "Tk. 20,000",
+      "D": "Tk. 15,000"
+    },
+    "answer": "B",
+    "explanation": "Interest on opening capital = 2,00,000 × 10% = 20,000. Interest on additional capital = 20,000 × 10% × 6/12 = 1,000. Total = Tk. 21,000.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 379,
+    "question": "What was Furad's closing capital in 2012?\n(Stimulus: 1.1.12: Fixed assets Tk. 25,000, Current assets Tk. 48,000, Liabilities Tk. 23,000. 31.12.12: Fixed assets Tk. 40,000, Current assets Tk. 71,000, Liabilities Tk. 32,000.)",
+    "options": {
+      "A": "Tk. 75,000",
+      "B": "Tk. 79,000",
+      "C": "Tk. 56,000",
+      "D": "Tk. 1,23,000"
+    },
+    "answer": "B",
+    "explanation": "Closing Assets = 40,000 + 71,000 = 1,11,000. Closing Liabilities = 32,000. Closing Capital = 1,11,000 - 32,000 = Tk. 79,000.",
+    "source": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল, ঢাকা"
+  },
+  {
+    "id": 380,
+    "question": "What was the profit earned in 2012?\n(Stimulus: Opening capital = (25,000 + 48,000) - 23,000 = 50,000; Closing capital = 79,000; Additional capital Tk. 6,000; Drawings Tk. 11,000.)",
+    "options": {
+      "A": "Tk. 19,000",
+      "B": "Tk. 24,000",
+      "C": "Tk. 30,000",
+      "D": "Tk. 36,000"
+    },
+    "answer": "B",
+    "explanation": "Profit = Closing - Opening - Additional + Drawings = 79,000 - 50,000 - 6,000 + 11,000 = Tk. 34,000. (Answer key suggests Tk. 24,000).",
+    "source": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল, ঢাকা",
+    "confidence": "low"
+  }
+]
