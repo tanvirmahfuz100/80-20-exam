@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation, Link } from 'react-router-dom';
 import {
     LayoutDashboard, BookOpen, Settings, Menu,
     TrendingUp, LogOut, ShieldCheck,
-    MessageSquareWarning, Bell, Target, ClipboardList, Video, Brain
+    MessageSquareWarning, Bell, Target, ClipboardList, Video, Brain, Star
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import ReportModal from './ReportModal';
@@ -174,12 +174,25 @@ const NotificationCenter = () => {
 const Layout = ({ children }) => {
     const [sidebarOpen, setSidebarOpen] = React.useState(false);
     const [reportOpen, setReportOpen] = React.useState(false);
-    const { user } = useAuth();
+    const [globalStarBalance, setGlobalStarBalance] = useState(0);
+    const [globalXp, setGlobalXp] = useState(0);
+    const { user, profile } = useAuth();
     const location = useLocation();
 
     const isAuthPage = location.pathname === '/login' || location.pathname === '/register';
     const isLandingPage = location.pathname === '/welcome';
     const hideLayout = isAuthPage || isLandingPage;
+
+    useEffect(() => {
+        const refreshBalances = () => {
+            setGlobalStarBalance(Number(localStorage.getItem('quiz_star_balance') || 0));
+            setGlobalXp(profile?.total_xp || 0);
+        };
+
+        refreshBalances();
+        window.addEventListener('quizBalanceUpdated', refreshBalances);
+        return () => window.removeEventListener('quizBalanceUpdated', refreshBalances);
+    }, [profile]);
 
     return (
         <div className="min-h-screen bg-background text-text selection:bg-primary/30">
@@ -201,6 +214,19 @@ const Layout = ({ children }) => {
 
                         <div className="flex items-center gap-4">
                             <NotificationCenter />
+                            <div className="hidden sm:flex items-center gap-3">
+                                <div className="bg-white/5 border border-white/10 rounded-2xl px-4 py-3 text-right">
+                                    <p className="text-[10px] uppercase font-black tracking-[0.2em] text-white/40">XP</p>
+                                    <p className="text-sm font-black text-white">{globalXp}</p>
+                                </div>
+                                <div className="topbar-star-target bg-white/5 border border-white/10 rounded-2xl px-4 py-3 flex items-center gap-2">
+                                    <Star className="topbar-star-icon w-4 h-4 text-yellow-300" />
+                                    <div>
+                                        <p className="text-[10px] uppercase font-black tracking-[0.2em] text-white/40">Stars</p>
+                                        <p className="text-sm font-black text-white">{globalStarBalance}</p>
+                                    </div>
+                                </div>
+                            </div>
                             {user && (
                                 <div className="hidden sm:flex items-center gap-4 pl-4 border-l border-white/10">
                                     <div className="text-right">
