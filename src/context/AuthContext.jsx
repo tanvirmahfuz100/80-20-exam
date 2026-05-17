@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import { supabase } from '../supabase';
+import Loading from '../components/Loading';
 
 const AuthContext = createContext({});
 
@@ -118,7 +119,7 @@ export const AuthProvider = ({ children }) => {
 
     return (
         <AuthContext.Provider value={value}>
-            {!loading && children}
+            {loading ? <Loading message="Initializing session..." /> : children}
         </AuthContext.Provider>
     );
 };
