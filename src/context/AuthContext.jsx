@@ -8,7 +8,7 @@ export const AuthProvider = ({ children }) => {
     const [profile, setProfile] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    const fetchProfile = async (userId, email) => {
+    const fetchProfile = async (userId, email, userAuth) => {
         try {
             // 1. Try to get existing profile
             let { data, error } = await supabase
@@ -24,8 +24,8 @@ export const AuthProvider = ({ children }) => {
                     .insert([{
                         id: userId,
                         role: email === 'tanvirmahfuz100@gmail.com' ? 'super_admin' : 'student',
-                        phone_number: user?.user_metadata?.phone_number || null,
-                        target_exams: user?.user_metadata?.target_exams || []
+                        phone_number: userAuth?.user_metadata?.phone_number || null,
+                        target_exams: userAuth?.user_metadata?.target_exams || []
                     }])
                     .select()
                     .single();
@@ -45,7 +45,7 @@ export const AuthProvider = ({ children }) => {
                 const { data: { session } } = await supabase.auth.getSession();
                 if (session?.user) {
                     setUser(session.user);
-                    await fetchProfile(session.user.id, session.user.email);
+                    await fetchProfile(session.user.id, session.user.email, session.user);
                 }
             } catch (err) {
                 console.error("Auth session error:", err);
@@ -59,7 +59,7 @@ export const AuthProvider = ({ children }) => {
         const { data: { subscription } } = supabase.auth.onAuthStateChange(async (_event, session) => {
             if (session?.user) {
                 setUser(session.user);
-                await fetchProfile(session.user.id, session.user.email);
+                await fetchProfile(session.user.id, session.user.email, session.user);
             } else {
                 setUser(null);
                 setProfile(null);
