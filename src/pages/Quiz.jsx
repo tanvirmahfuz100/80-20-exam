@@ -251,8 +251,6 @@ const Quiz = () => {
     const timerRef = useRef(null);
     const questionStartRef = useRef(Date.now());
     const sessionSavedRef = useRef(false);
-    const normalizedRef = useRef([]);
-
     const shuffledOptions = useMemo(() => {
         if (!questions[currentIndex]) return null;
         const q = questions[currentIndex];
@@ -270,33 +268,28 @@ const Quiz = () => {
         const q = questions[currentIndex];
         if (!q?.passage || !q?.blankId) return null;
 
-        const allNormalized = normalizedRef.current;
         const blanks = [];
         let endIdx = currentIndex;
 
-        for (let i = 0; i < allNormalized.length; i++) {
-            const ni = allNormalized[i];
-            if (!ni.blankId || ni.passage !== q.passage) continue;
+        for (let i = currentIndex; i < questions.length; i++) {
+            const ni = questions[i];
+            if (!ni.blankId || ni.passage !== q.passage) break;
             blanks.push({
                 blankId: ni.blankId,
                 id: ni.blankId,
                 questionId: ni.id,
                 correct: ni.options?.[ni.correct] || '',
                 correct_answer: ni.options?.[ni.correct] || '',
-                explanation_bn: ni.explanation || '',
+                explanation_bn: ni.explanation_bn || ni.explanation || '',
                 explanation_en: ni.explanation_en || '',
                 options: (ni.options || []).map((opt, idx) => ({
                     text: opt,
                     isCorrect: idx === ni.correct,
-                    explanationBn: ni.explanation || '',
+                    explanationBn: ni.explanation_bn || ni.explanation || '',
                     explanationEn: ni.explanation_en || '',
                 })),
                 correctText: ni.options?.[ni.correct] || '',
             });
-        }
-
-        for (let i = currentIndex; i < questions.length; i++) {
-            if (!questions[i].blankId || questions[i].passage !== q.passage) break;
             endIdx = i;
         }
 
@@ -370,7 +363,6 @@ const Quiz = () => {
                     else if (Array.isArray(data.items)) questionArray = data.items;
 
                     const normalized = normalizeQuizQuestions({ questions: questionArray });
-                    normalizedRef.current = normalized;
 
                     const existing = await api.getUserResponses(user?.id);
                     const answeredIds = new Set(
@@ -379,7 +371,7 @@ const Quiz = () => {
                             .map(r => r.question_id)
                             .filter(Boolean)
                     );
-                    const fresh = normalized.filter(q => !answeredIds.has(q.id));
+                    const fresh = normalized.filter(q => !answeredIds.has(q.id) || q.blankId);
                     setTotalQuestionCount(normalized.length);
                     setHistoricalAnswered(answeredIds.size);
                     if (fresh.length === 0 && normalized.length > 0) {
@@ -801,6 +793,7 @@ const Quiz = () => {
                             blanks={gapFillGroup.blanks}
                             boxWords={gapFillGroup.boxWords}
                             difficulty={gapFillGroup.difficulty}
+                            fontSize={quizFontSize}
                             onBlankAnswer={(blankId, isCorrect, selectedText, explanationBn, explanationEn) => {
                                 if (isCorrect) setScore(s => s + 1);
 

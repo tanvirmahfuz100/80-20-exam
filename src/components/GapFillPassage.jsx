@@ -5,42 +5,8 @@ import { CheckCircle, Star, X } from 'lucide-react';
 
 const BLANK_REGEX = /_*\(([a-z])\)\s*_+|\(([a-z])\)\s*_+/g;
 
-const loadSavedAnswers = (blanks) => {
-  try {
-    const raw = localStorage.getItem('exam_user_responses');
-    if (!raw) return {};
-    const allResponses = JSON.parse(raw);
-
-    const authRaw = localStorage.getItem('exam_local_auth');
-    if (!authRaw) return {};
-    const userId = JSON.parse(authRaw).user?.id;
-    if (!userId) return {};
-
-    const userResponses = allResponses.filter(r => r.user_id === userId);
-    const loaded = {};
-
-    for (const blank of blanks) {
-      const qId = blank.questionId;
-      if (!qId) continue;
-      const response = userResponses.find(r => r.question_id === qId);
-      if (!response) continue;
-      const blankId = blank.blankId || blank.id;
-      loaded[blankId] = {
-        selected: response.selected_option_text || '',
-        isCorrect: !!response.is_correct,
-        explanationBn: response.explanation_bn || blank.explanation_bn || '',
-        explanationEn: response.explanation_en || blank.explanation_en || '',
-      };
-    }
-
-    return loaded;
-  } catch {
-    return {};
-  }
-};
-
-const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, onContinue }) => {
-  const [answers, setAnswers] = useState(() => loadSavedAnswers(blanks));
+const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, onContinue, fontSize = 16 }) => {
+  const [answers, setAnswers] = useState({});
   const [activePopover, setActivePopover] = useState(null);
   const [explanationPanel, setExplanationPanel] = useState(null);
   const blankRefs = useRef({});
@@ -235,8 +201,8 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
   const activeBlankData = activePopover ? getBlankData(activePopover.blankId) : null;
 
   return (
-    <div className="flex-1 flex flex-col min-h-0 gap-3" role="group" aria-label="Fill in the blanks exercise">
-      <div className="flex-1 overflow-y-auto min-h-0 space-y-4">
+    <div className="flex-1 flex flex-col min-h-0 gap-4" role="group" aria-label="Fill in the blanks exercise">
+      <div className="flex-1 overflow-y-auto min-h-0 space-y-5 px-0.5">
         <div className="flex items-center gap-2 shrink-0">
           <span className={`text-[9px] font-black px-2.5 py-1 rounded-full uppercase border ${
             difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
@@ -246,7 +212,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
             {difficulty}
           </span>
         </div>
-        <p className="text-text text-sm xs:text-base md:text-lg leading-loose font-medium whitespace-pre-wrap">
+        <p className="text-text leading-loose font-medium whitespace-pre-wrap" style={{ fontSize: `${fontSize}px` }}>
           {segments.map((seg, i) => {
             if (seg.type === 'text') {
               return <span key={i}>{seg.content}</span>;
@@ -270,7 +236,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
                 className={`
                   relative inline-flex items-center gap-1 mx-0.5 px-2 py-0.5
                   min-w-[48px] md:min-w-[64px] min-h-[32px] justify-center
-                  font-bold text-sm md:text-base leading-relaxed
+                  font-bold leading-relaxed
                   transition-all duration-200 select-none
                   border-b-2
                   cursor-pointer
@@ -295,7 +261,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
                       </span>
                     )
                 ) : (
-                  <span className={`text-[10px] md:text-[11px] font-black uppercase tracking-wider ${hasData ? '' : 'opacity-40'}`}>
+                  <span className="font-black uppercase tracking-wider" style={{ fontSize: `${Math.max(9, fontSize * 0.65)}px`, opacity: hasData ? 1 : 0.4 }}>
                     ({seg.blankId})
                   </span>
                 )}
@@ -305,9 +271,9 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
         </p>
 
         {boxWords?.length > 0 && (
-          <div className="flex flex-wrap items-center gap-2.5 pt-1" aria-label="Available words">
+          <div className="flex flex-wrap items-center gap-2.5 pt-2 pb-1" aria-label="Available words">
             {boxWords.map((word) => (
-              <span key={word} className="px-3 py-1.5 rounded-xl bg-primary/10 border border-primary/25 text-primary text-[10px] font-black uppercase tracking-widest shadow-sm">
+              <span key={word} className="px-4 py-2 rounded-xl bg-primary/10 border border-primary/25 text-primary text-[11px] font-black uppercase tracking-widest shadow-sm">
                 {word}
               </span>
             ))}
@@ -316,7 +282,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
 
       </div>
 
-      <div className="shrink-0 sticky bottom-3 px-0 safe-bottom">
+      <div className="shrink-0 sticky bottom-3 px-0 safe-bottom pt-0.5">
         {answeredCount > 0 ? (
           <button
             onClick={() => onContinue(answeredCount, totalBlanks)}
