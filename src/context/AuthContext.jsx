@@ -17,7 +17,8 @@ const createDefaultSession = () => ({
         role: 'super_admin',
         plan_type: 'premium',
         total_xp: 0,
-        target_exams: ['IBA', 'BCS']
+        target_exams: ['IBA', 'BCS'],
+        question_version: null
     }
 });
 
@@ -47,8 +48,19 @@ export const AuthProvider = ({ children }) => {
         session.user.email = email || session.user.email;
         session.user.user_metadata.username = email ? email.split('@')[0] : session.user.user_metadata.username;
         session.profile.username = session.user.user_metadata.username;
+        session.profile.question_version = session.profile.question_version || null;
         updateSession(session);
         return { data: session, error: null };
+    };
+
+    const updateProfileFields = (profileUpdate) => {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        const currentSession = raw ? JSON.parse(raw) : createDefaultSession();
+        const nextProfile = { ...currentSession.profile, ...profileUpdate };
+        const nextSession = { ...currentSession, profile: nextProfile };
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(nextSession));
+        setUser(nextSession.user);
+        setProfile(nextProfile);
     };
 
     const signUp = async () => {
@@ -70,6 +82,7 @@ export const AuthProvider = ({ children }) => {
         signUp,
         signIn,
         signOut,
+        updateProfileFields,
         user,
         profile,
         role,
