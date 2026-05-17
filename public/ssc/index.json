@@ -10,8 +10,8 @@
           "name": "Grammar",
           "chapters": [
             {
-              "id": "ssc_gap_fill_paper_11",
-              "name": "Gap Filling With Clues - Paper 11",
+              "id": "ssc_gap_filling",
+              "name": "Gap Filling With Clues",
               "file": "/ssc/english/gap_filling_with_clues_paper_11.json"
             }
           ]
