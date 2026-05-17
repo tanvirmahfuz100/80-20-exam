@@ -176,7 +176,7 @@ const PracticeConfig = () => {
     );
 
     return (
-        <div className="max-w-6xl mx-auto space-y-12 animate-in fade-in duration-700">
+        <div className="max-w-6xl mx-auto space-y-12">
             {/* Header Section */}
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
                 <div>

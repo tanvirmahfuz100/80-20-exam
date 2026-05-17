@@ -81,7 +81,7 @@ const Dashboard = () => {
     ];
 
     return (
-        <div className="space-y-12 animate-in fade-in duration-1000">
+        <div className="space-y-12">
             {/* Welcome Section */}
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-8 bg-surface-alt/20 p-8 md:p-12 rounded-[2.5rem] border border-white/5 shadow-2xl relative overflow-hidden group">
                 <div className="absolute -top-24 -right-24 w-96 h-96 bg-primary/5 blur-[120px] rounded-full group-hover:bg-primary/10 transition-all duration-700"></div>
