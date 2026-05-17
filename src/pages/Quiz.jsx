@@ -121,6 +121,12 @@ const normalizeQuizQuestions = (payload) => {
                     correct = 0;
                 }
 
+                const correctOption = Array.isArray(blank.options)
+                    ? blank.options.find((option) => option?.isCorrect)
+                    : undefined;
+                const explanation_bn = correctOption?.explanationBn || correctOption?.explanation_bn || blank.explanation_bn || '';
+                const explanation_en = correctOption?.explanationEn || correctOption?.explanation_en || blank.explanation_en || '';
+
                 return {
                     id: `${qId}_${blankId}`,
                     text: `Choose the correct word for blank (${blankId})`,
@@ -129,7 +135,9 @@ const normalizeQuizQuestions = (payload) => {
                     blankId,
                     options,
                     correct,
-                    explanation: blank.explanation_bn || (blank.options || []).find((option) => option?.isCorrect)?.explanationBn || '',
+                    explanation: explanation_bn,
+                    explanation_bn,
+                    explanation_en,
                     difficulty: question.difficulty || 'medium'
                 };
             });
@@ -270,6 +278,7 @@ const Quiz = () => {
             blanks.push({
                 blankId: qi.blankId,
                 id: qi.blankId,
+                questionId: qi.id,
                 correct: qi.options?.[qi.correct] || '',
                 correct_answer: qi.options?.[qi.correct] || '',
                 explanation_bn: qi.explanation || '',
@@ -296,40 +305,6 @@ const Quiz = () => {
             endIndex: endIdx,
         };
     }, [questions, currentIndex]);
-
-    const gapFillSavedAnswers = useMemo(() => {
-        if (!gapFillGroup || !user?.id) return {};
-
-        const raw = localStorage.getItem('exam_user_responses');
-        if (!raw) return {};
-
-        let userResponses;
-        try {
-            const all = JSON.parse(raw);
-            userResponses = all.filter(r => r.user_id === user.id);
-        } catch {
-            return {};
-        }
-
-        const saved = {};
-        gapFillGroup.blanks.forEach((blank, idx) => {
-            const blankId = blank.blankId || blank.id;
-            const actualQ = questions[gapFillGroup.startIndex + idx];
-            if (!actualQ) return;
-
-            const response = userResponses.find(r => r.question_id === actualQ.id);
-            if (!response) return;
-
-            saved[blankId] = {
-                selected: response.selected_option_text || '',
-                isCorrect: !!response.is_correct,
-                explanationBn: blank.explanation_bn || '',
-                explanationEn: blank.explanation_en || '',
-            };
-        });
-
-        return saved;
-    }, [gapFillGroup, user, questions]);
 
     const { chapterId } = useParams();
     const isMock = searchParams.get('isMock') === 'true';
@@ -819,7 +794,6 @@ const Quiz = () => {
                             blanks={gapFillGroup.blanks}
                             boxWords={gapFillGroup.boxWords}
                             difficulty={gapFillGroup.difficulty}
-                            savedAnswers={gapFillSavedAnswers}
                             onBlankAnswer={(blankId, isCorrect, selectedText) => {
                                 if (isCorrect) setScore(s => s + 1);
 

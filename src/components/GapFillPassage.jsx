@@ -5,8 +5,65 @@ import { CheckCircle, Star, X } from 'lucide-react';
 
 const BLANK_REGEX = /_*\(([a-z])\)\s*_+|\(([a-z])\)\s*_+/g;
 
-const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, onContinue, savedAnswers = {} }) => {
-  const [answers, setAnswers] = useState(savedAnswers);
+const loadSavedAnswers = (blanks, passage) => {
+  try {
+    const raw = localStorage.getItem('exam_user_responses');
+    if (!raw) return {};
+    const allResponses = JSON.parse(raw);
+
+    const authRaw = localStorage.getItem('exam_local_auth');
+    if (!authRaw) return {};
+    const userId = JSON.parse(authRaw).user?.id;
+    if (!userId) return {};
+
+    const userResponses = allResponses.filter(r => r.user_id === userId);
+    const loaded = {};
+
+    for (const blank of blanks) {
+      const qId = blank.questionId;
+      if (!qId) continue;
+      const response = userResponses.find(r => r.question_id === qId);
+      if (!response) continue;
+      const blankId = blank.blankId || blank.id;
+      loaded[blankId] = {
+        selected: response.selected_option_text || '',
+        isCorrect: !!response.is_correct,
+        explanationBn: blank.explanation_bn || '',
+        explanationEn: blank.explanation_en || '',
+      };
+    }
+
+    if (passage && blanks.length > 0) {
+      const baseId = blanks[0].questionId?.replace(/_[a-z]$/, '');
+      if (baseId) {
+        const regex = /\(([a-z])\)/g;
+        let match;
+        while ((match = regex.exec(passage)) !== null) {
+          const bid = match[1];
+          if (bid && !loaded[bid]) {
+            const fullId = `${baseId}_${bid}`;
+            const response = userResponses.find(r => r.question_id === fullId);
+            if (response) {
+              loaded[bid] = {
+                selected: response.selected_option_text || '',
+                isCorrect: !!response.is_correct,
+                explanationBn: '',
+                explanationEn: '',
+              };
+            }
+          }
+        }
+      }
+    }
+
+    return loaded;
+  } catch {
+    return {};
+  }
+};
+
+const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, onContinue }) => {
+  const [answers, setAnswers] = useState(() => loadSavedAnswers(blanks, passage));
   const [activePopover, setActivePopover] = useState(null);
   const [explanationPanel, setExplanationPanel] = useState(null);
   const blankRefs = useRef({});
@@ -74,7 +131,6 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
 
   const handleBlankClick = useCallback((blankId, event) => {
     const blankData = getBlankData(blankId);
-    if (!blankData) return;
     const currentAnswer = answers[blankId];
 
     if (currentAnswer) {
@@ -103,8 +159,10 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
       return;
     }
 
+    if (!blankData) return;
+
     if (isMobile) {
-      setActivePopover(prev => prev?.blankId === blankId ? null : { blankId, isMobile: true });
+      setActivePopover({ blankId, isMobile: true });
       setExplanationPanel(null);
       return;
     }
@@ -162,7 +220,6 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
         isCorrect
       });
     } else {
-      // On mobile, show full-screen explanation
       setExplanationPanel({
         blankId,
         isMobile: true,
@@ -229,19 +286,19 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
             return (
               <span
                 key={i}
-                ref={el => { if (hasData) blankRefs.current[seg.blankId] = el; }}
-                onClick={hasData ? (e) => handleBlankClick(seg.blankId, e) : undefined}
-                onKeyDown={hasData ? (e) => { if (e.key === 'Enter' || e.key === ' ') handleBlankClick(seg.blankId, e); } : undefined}
-                role={hasData ? 'button' : undefined}
-                tabIndex={hasData ? 0 : undefined}
-                aria-label={hasData ? `Blank ${seg.blankId}${isAnswered ? `, selected: ${answer.selected}` : ', not answered'}` : undefined}
+                ref={el => { blankRefs.current[seg.blankId] = el; }}
+                onClick={(e) => handleBlankClick(seg.blankId, e)}
+                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') handleBlankClick(seg.blankId, e); }}
+                role="button"
+                tabIndex={0}
+                aria-label={`Blank ${seg.blankId}${isAnswered ? `, selected: ${answer.selected}` : ', not answered'}`}
                 className={`
                   relative inline-flex items-center gap-1 mx-0.5 px-2 py-0.5
                   min-w-[48px] md:min-w-[64px] min-h-[32px] justify-center
                   font-bold text-sm md:text-base leading-relaxed
                   transition-all duration-200 select-none
                   border-b-2
-                  ${hasData ? 'cursor-pointer' : 'cursor-default'}
+                  cursor-pointer
                   ${isAnswered
                     ? answer.isCorrect
                       ? 'border-emerald-500/70 text-emerald-400'
@@ -254,14 +311,14 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
                   }
                 `}
               >
-                {isAnswered ? (
-                  answer.isCorrect ? (
-                    <span className="text-emerald-400 font-bold">{blankData?.correct || blankData?.correct_answer}</span>
-                  ) : (
-                    <span className="text-amber-400 font-bold line-through decoration-amber-400/70">
-                      {answer.selected}
-                    </span>
-                  )
+                  {isAnswered ? (
+                    answer.isCorrect ? (
+                      <span className="text-emerald-400 font-bold">{blankData?.correct || blankData?.correct_answer || answer.selected || `(${seg.blankId})`}</span>
+                    ) : (
+                      <span className="text-amber-400 font-bold line-through decoration-amber-400/70">
+                        {answer.selected || `(${seg.blankId})`}
+                      </span>
+                    )
                 ) : (
                   <span className={`text-[10px] md:text-[11px] font-black uppercase tracking-wider ${hasData ? '' : 'opacity-40'}`}>
                     ({seg.blankId})
@@ -326,52 +383,56 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
                 const explanationBn = opt?.explanationBn || opt?.explanation_bn || '';
                 const explanationEn = opt?.explanationEn || opt?.explanation_en || '';
                 
-                return (
-                  <button
-                    key={idx}
-                    onClick={() => handleOptionSelect(activePopover.blankId, optionText, isCorrect, explanationBn, explanationEn)}
-                    className="w-full text-left px-3 py-3 rounded-xl text-sm font-bold text-text-muted hover:text-text hover:bg-white/10 transition-colors min-h-touch"
-                  >
-                    {optionText}
-                  </button>
-                );
-              })}
-            </div>
-          </motion.div>
-        </div>,
-        document.body
-      )}
+                  return (
+                    <button
+                      key={idx}
+                      onClick={(e) => {
+                        handleOptionSelect(activePopover.blankId, optionText, isCorrect, explanationBn, explanationEn);
+                      }}
+                      className="w-full text-left px-3 py-3 rounded-xl text-sm font-bold text-text-muted hover:text-text hover:bg-white/10 transition-colors min-h-touch"
+                    >
+                      {optionText}
+                    </button>
+                  );
+                })}
+              </div>
+            </motion.div>
+          </div>,
+          document.body
+        )}
 
-      {/* Mobile bottom sheet */}
-      {activePopover && activeBlankData && activePopover.isMobile && createPortal(
-        <div className="fixed inset-0 z-[100]">
-          <div className="absolute inset-0 bg-black/60" onClick={closePopover} aria-hidden="true" />
-          <motion.div
-            initial={{ y: '100%' }}
-            animate={{ y: 0 }}
-            exit={{ y: '100%' }}
-            transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-            className="absolute bottom-0 left-0 right-0 bg-surface rounded-t-3xl shadow-2xl p-5 safe-bottom max-h-[60vh] flex flex-col"
-          >
-            <div className="flex items-center justify-between mb-4 shrink-0">
-              <span className="text-xs font-black uppercase tracking-widest text-white/40">
-                Blank ({activePopover.blankId})
-              </span>
-              <button onClick={closePopover} className="p-1.5 text-white/40 hover:text-white" aria-label="Close">
-                <X className="w-5 h-5" />
-              </button>
-            </div>
-            <div className="flex-1 overflow-y-auto -mx-1 px-1">
-              {getDisplayOptions(activeBlankData).map((opt, idx) => {
-                const optionText = typeof opt === 'string' ? opt : opt.text;
-                const isCorrect = typeof opt === 'string' ? optionText === activeBlankData.correct_answer : opt.isCorrect;
-                const explanationBn = opt?.explanationBn || opt?.explanation_bn || '';
-                const explanationEn = opt?.explanationEn || opt?.explanation_en || '';
-                
-                return (
-                  <button
-                    key={idx}
-                    onClick={() => handleOptionSelect(activePopover.blankId, optionText, isCorrect, explanationBn, explanationEn)}
+        {/* Mobile bottom sheet */}
+        {activePopover && activeBlankData && activePopover.isMobile && createPortal(
+          <div className="fixed inset-0 z-[100]">
+            <div className="absolute inset-0 bg-black/60" onClick={closePopover} aria-hidden="true" />
+            <motion.div
+              initial={{ y: '100%' }}
+              animate={{ y: 0 }}
+              exit={{ y: '100%' }}
+              transition={{ type: 'spring', damping: 25, stiffness: 300 }}
+              className="absolute bottom-0 left-0 right-0 bg-surface rounded-t-3xl shadow-2xl p-5 safe-bottom max-h-[60vh] flex flex-col"
+            >
+              <div className="flex items-center justify-between mb-4 shrink-0">
+                <span className="text-xs font-black uppercase tracking-widest text-white/40">
+                  Blank ({activePopover.blankId})
+                </span>
+                <button onClick={closePopover} className="p-1.5 text-white/40 hover:text-white" aria-label="Close">
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+              <div className="flex-1 overflow-y-auto -mx-1 px-1">
+                {getDisplayOptions(activeBlankData).map((opt, idx) => {
+                  const optionText = typeof opt === 'string' ? opt : opt.text;
+                  const isCorrect = typeof opt === 'string' ? optionText === activeBlankData.correct_answer : opt.isCorrect;
+                  const explanationBn = opt?.explanationBn || opt?.explanation_bn || '';
+                  const explanationEn = opt?.explanationEn || opt?.explanation_en || '';
+                  
+                  return (
+                    <button
+                      key={idx}
+                      onClick={(e) => {
+                        handleOptionSelect(activePopover.blankId, optionText, isCorrect, explanationBn, explanationEn);
+                      }}
                     className="w-full text-left px-4 py-3.5 rounded-xl text-base font-bold text-text-muted hover:text-text hover:bg-white/10 transition-colors min-h-touch border border-white/5 mb-1.5"
                   >
                     {optionText}
@@ -474,4 +535,4 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
   );
 };
 
-export default GapFillPassage;
+export default React.memo(GapFillPassage);
