@@ -14,6 +14,7 @@ import {
     getMistakesDueCount, getReviewSession, clearReviewSession
 } from '../services/review';
 import GapFillPassage from '../components/GapFillPassage';
+import SubstitutionTableExercise from '../components/SubstitutionTableExercise';
 import { playSound } from '../utils/sounds';
 
 const stripMath = (text) => {
@@ -96,6 +97,9 @@ const normalizeQuizQuestions = (payload) => {
             : [];
 
     return sourceQuestions.flatMap((question) => {
+        if (question._type === 'substitution_table') {
+            return [question];
+        }
         if (Array.isArray(question.blanks) && question.blanks.length > 0) {
             const qId = question.id || question.question_id || 'q';
             return question.blanks.map((blank, blankIndex) => {
@@ -745,7 +749,30 @@ const Quiz = () => {
 
             <div className="flex-1 flex flex-col min-h-0 px-3 md:px-4 pb-2 md:pb-3 mt-1.5">
                 <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl flex-1 flex flex-col p-3 md:p-5 overflow-hidden quiz-card" style={{ maxHeight: 'calc(var(--app-available-height, 100vh) - 112px)' }}>
-                    {gapFillGroup ? (
+                    {currentQ?._type === 'substitution_table' ? (
+                        <SubstitutionTableExercise
+                            key={currentQ.id}
+                            exercise={currentQ.exercise}
+                            onContinue={(found, total) => {
+                                setScore(s => s + found);
+                                setResults(prev => [...prev, {
+                                    id: currentQ.id,
+                                    isCorrect: found > 0,
+                                    time_spent: 0,
+                                    status: found === total ? 'answered' : 'partial',
+                                }]);
+                                const idx = questions.findIndex(q => q.id === currentQ.id);
+                                if (idx >= 0 && idx < questions.length - 1) {
+                                    setCurrentIndex(idx + 1);
+                                    setSelectedOption(null);
+                                    setIsAnswered(false);
+                                    questionStartRef.current = Date.now();
+                                } else {
+                                    setIsFinished(true);
+                                }
+                            }}
+                        />
+                    ) : gapFillGroup ? (
                         <GapFillPassage
                             key={gapFillGroup.startIndex}
                             passage={gapFillGroup.passage}

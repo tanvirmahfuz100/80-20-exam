@@ -1,0 +1,932 @@
+{
+  "testId": "class7_punctuation",
+  "title": "Punctuation & Capitalization - Class 7 English",
+  "description": "Use appropriate punctuation marks and capital letters where necessary.",
+  "questions": [
+    {
+      "mainQuestionId": 1,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "1",
+          "sentence": "where do you like to go sir said the ticket officer to the passenger i want to go to chattogram said the passenger how many tickets do you need i need five tickets here are the tickets they will cost one thousand taka said the officer.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "\"Where do you like to go, sir?\" said the ticket officer to the passenger. \"I want to go to Chattogram,\" said the passenger. \"How many tickets do you need?\" \"I need five tickets.\" \"Here are the tickets. They will cost one thousand taka,\" said the officer.",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: প্রতিটি বাক্যের শুরুতে capital letter, direct speech-এর জন্য quotation marks, 'sir'-এর আগে কমা, প্রশ্নবোধক বাক্যের পরে প্রশ্নচিহ্ন, 'said'-এর আগে কমা এবং উদ্ধৃতি সমাপ্তি, এবং 'Chattogram' নামটির প্রথম letter capital হতে হবে।",
+              "explanationEn": "Correct punctuation requires: capital letter at start of each sentence, quotation marks for direct speech, comma before 'sir', period after 'sir' within quotes, question mark after questions, comma before closing quote when followed by 'said', and capitalizing proper noun 'Chattogram'."
+            },
+            {
+              "text": "\"Where do you like to go sir?\" said the ticket officer to the passenger. \"I want to go to Chattogram\" said the passenger. \"How many tickets do you need?\" \"I need five tickets.\" \"Here are the tickets they will cost one thousand taka\" said the officer.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: প্রতিটি বাক্যের শুরুতে capital letter, direct speech-এর জন্য quotation marks, 'sir'-এর আগে কমা, প্রশ্নবোধক বাক্যের পরে প্রশ্নচিহ্ন, 'said'-এর আগে কমা এবং উদ্ধৃতি সমাপ্তি, এবং 'Chattogram' নামটির প্রথম letter capital হতে হবে।",
+              "explanationEn": "Correct punctuation requires: capital letter at start of each sentence, quotation marks for direct speech, comma before 'sir', period after 'sir' within quotes, question mark after questions, comma before closing quote when followed by 'said', and capitalizing proper noun 'Chattogram'."
+            },
+            {
+              "text": "Where do you like to go sir said the ticket officer to the passenger. I want to go to chattogram said the passenger. How many tickets do you need? I need five tickets. Here are the tickets they will cost one thousand taka said the officer.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: প্রতিটি বাক্যের শুরুতে capital letter, direct speech-এর জন্য quotation marks, 'sir'-এর আগে কমা, প্রশ্নবোধক বাক্যের পরে প্রশ্নচিহ্ন, 'said'-এর আগে কমা এবং উদ্ধৃতি সমাপ্তি, এবং 'Chattogram' নামটির প্রথম letter capital হতে হবে।",
+              "explanationEn": "Correct punctuation requires: capital letter at start of each sentence, quotation marks for direct speech, comma before 'sir', period after 'sir' within quotes, question mark after questions, comma before closing quote when followed by 'said', and capitalizing proper noun 'Chattogram'."
+            },
+            {
+              "text": "\"Where do you like to go, Sir?\" said the Ticket Officer to the passenger. \"I want to go to Chattogram\" said the Passenger. \"How many tickets do you need?\" \"I need five tickets.\" \"Here are the tickets, they will cost one thousand taka\" said the Officer.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: প্রতিটি বাক্যের শুরুতে capital letter, direct speech-এর জন্য quotation marks, 'sir'-এর আগে কমা, প্রশ্নবোধক বাক্যের পরে প্রশ্নচিহ্ন, 'said'-এর আগে কমা এবং উদ্ধৃতি সমাপ্তি, এবং 'Chattogram' নামটির প্রথম letter capital হতে হবে।",
+              "explanationEn": "Correct punctuation requires: capital letter at start of each sentence, quotation marks for direct speech, comma before 'sir', period after 'sir' within quotes, question mark after questions, comma before closing quote when followed by 'said', and capitalizing proper noun 'Chattogram'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 2,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "2",
+          "sentence": "why are you putting food in your pocket sir why don't you eat said the nobleman. I am doing the right thing. My dress deserves these rich dishes replied Sheikh Saadi",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "\"Why are you putting food in your pocket, sir? Why don't you eat?\" said the nobleman. \"I am doing the right thing. My dress deserves these rich dishes,\" replied Sheikh Saadi.",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotation marks, 'Why'-এর জন্য capital 'W', 'sir'-এর আগে কমা, উভয় প্রশ্নের পরে প্রশ্নচিহ্ন, 'eat'-এর পরে closing quotes, 'nobleman'-এর পরে দাঁড়ি, উত্তরের জন্য opening quotes, 'dishes'-এর পরে কমা ও closing quotes, এবং 'replied'-এর জন্য capital 'R'।",
+              "explanationEn": "Correct punctuation requires: opening quotation marks, capital 'W' for 'Why', comma before 'sir', question marks after both questions, closing quotes after 'eat', period after 'nobleman', opening quotes for reply, comma before closing quotes after 'dishes', and capital 'R' for 'replied' (after period)."
+            },
+            {
+              "text": "\"Why are you putting food in your pocket sir? Why don't you eat?\" said the nobleman. \"I am doing the right thing. My dress deserves these rich dishes\" replied Sheikh Saadi.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotation marks, 'Why'-এর জন্য capital 'W', 'sir'-এর আগে কমা, উভয় প্রশ্নের পরে প্রশ্নচিহ্ন, 'eat'-এর পরে closing quotes, 'nobleman'-এর পরে দাঁড়ি, উত্তরের জন্য opening quotes, 'dishes'-এর পরে কমা ও closing quotes, এবং 'replied'-এর জন্য capital 'R'।",
+              "explanationEn": "Correct punctuation requires: opening quotation marks, capital 'W' for 'Why', comma before 'sir', question marks after both questions, closing quotes after 'eat', period after 'nobleman', opening quotes for reply, comma before closing quotes after 'dishes', and capital 'R' for 'replied' (after period)."
+            },
+            {
+              "text": "\"Why are you putting food in your pocket, sir? why don't you eat?\" said the Nobleman. \"I am doing the right thing. My dress deserves these rich dishes,\" replied sheikh saadi.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotation marks, 'Why'-এর জন্য capital 'W', 'sir'-এর আগে কমা, উভয় প্রশ্নের পরে প্রশ্নচিহ্ন, 'eat'-এর পরে closing quotes, 'nobleman'-এর পরে দাঁড়ি, উত্তরের জন্য opening quotes, 'dishes'-এর পরে কমা ও closing quotes, এবং 'replied'-এর জন্য capital 'R'।",
+              "explanationEn": "Correct punctuation requires: opening quotation marks, capital 'W' for 'Why', comma before 'sir', question marks after both questions, closing quotes after 'eat', period after 'nobleman', opening quotes for reply, comma before closing quotes after 'dishes', and capital 'R' for 'replied' (after period)."
+            },
+            {
+              "text": "Why are you putting food in your pocket sir why don't you eat said the nobleman. I am doing the right thing. My dress deserves these rich dishes replied Sheikh Saadi.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotation marks, 'Why'-এর জন্য capital 'W', 'sir'-এর আগে কমা, উভয় প্রশ্নের পরে প্রশ্নচিহ্ন, 'eat'-এর পরে closing quotes, 'nobleman'-এর পরে দাঁড়ি, উত্তরের জন্য opening quotes, 'dishes'-এর পরে কমা ও closing quotes, এবং 'replied'-এর জন্য capital 'R'।",
+              "explanationEn": "Correct punctuation requires: opening quotation marks, capital 'W' for 'Why', comma before 'sir', question marks after both questions, closing quotes after 'eat', period after 'nobleman', opening quotes for reply, comma before closing quotes after 'dishes', and capital 'R' for 'replied' (after period)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 3,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "3",
+          "sentence": "Crime is not the subject to think on or not only criminals are responsible for increasing the crime we the people of society are also responsible for it as we are used to watch the crime happening against our eyes and we just watch it like a dumb audience",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "Crime is not the subject to think on or not. Only criminals are not responsible for increasing the crime. We, the people of society, are also responsible for it. As we are used to watch the crime happening against our eyes, we just watch it like a dumb audience.",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: চলমান বাক্য ভাঙতে 'not'-এর পরে দাঁড়ি, 'Only'-এর জন্য capital 'O', appositive হিসেবে 'the people of society'-এর আগে ও পরে কমা, 'As'-এর আগে দাঁড়ি, এবং 'eyes'-এর পরে 'we'-এর আগে কমা।",
+              "explanationEn": "Correct punctuation requires: period after 'not' to break the run-on sentence, capital 'O' for 'Only', commas around 'the people of society' as an appositive, period before 'As', and comma after 'eyes' before 'we'."
+            },
+            {
+              "text": "Crime is not the subject to think on or not only criminals are responsible for increasing the crime we the people of society are also responsible for it as we are used to watch the crime happening against our eyes and we just watch it like a dumb audience.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: চলমান বাক্য ভাঙতে 'not'-এর পরে দাঁড়ি, 'Only'-এর জন্য capital 'O', appositive হিসেবে 'the people of society'-এর আগে ও পরে কমা, 'As'-এর আগে দাঁড়ি, এবং 'eyes'-এর পরে 'we'-এর আগে কমা।",
+              "explanationEn": "Correct punctuation requires: period after 'not' to break the run-on sentence, capital 'O' for 'Only', commas around 'the people of society' as an appositive, period before 'As', and comma after 'eyes' before 'we'."
+            },
+            {
+              "text": "Crime is not the subject to think on or not. Only criminals are not responsible for increasing the crime. We the people of society are also responsible for it. As we are used to watch the crime happening against our eyes, we just watch it like a dumb audience.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: চলমান বাক্য ভাঙতে 'not'-এর পরে দাঁড়ি, 'Only'-এর জন্য capital 'O', appositive হিসেবে 'the people of society'-এর আগে ও পরে কমা, 'As'-এর আগে দাঁড়ি, এবং 'eyes'-এর পরে 'we'-এর আগে কমা।",
+              "explanationEn": "Correct punctuation requires: period after 'not' to break the run-on sentence, capital 'O' for 'Only', commas around 'the people of society' as an appositive, period before 'As', and comma after 'eyes' before 'we'."
+            },
+            {
+              "text": "Crime is not the subject to think on or not. Only criminals are not responsible for increasing the crime. We, the people of society, are also responsible for it. As we are used to watch the crime happening against our eyes we just watch it like a dumb audience.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: চলমান বাক্য ভাঙতে 'not'-এর পরে দাঁড়ি, 'Only'-এর জন্য capital 'O', appositive হিসেবে 'the people of society'-এর আগে ও পরে কমা, 'As'-এর আগে দাঁড়ি, এবং 'eyes'-এর পরে 'we'-এর আগে কমা।",
+              "explanationEn": "Correct punctuation requires: period after 'not' to break the run-on sentence, capital 'O' for 'Only', commas around 'the people of society' as an appositive, period before 'As', and comma after 'eyes' before 'we'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 4,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "4",
+          "sentence": "mina farhana and puja went to ms hague their english teacher with a view to learning a word ms hague greets them saying good morning dear students what can I do for you.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "Mina, Farhana and Puja went to Ms. Haque, their English teacher, with a view to learning a word. Ms. Haque greets them saying, \"Good morning, dear students! What can I do for you?\"",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: তালিকায় নাম আলাদা করতে কমা, নামের প্রথম letter capital (Mina, Farhana, Puja, Ms. Haque), 'Ms.'-এর পরে দাঁড়ি, appositive হিসেবে 'their English teacher'-এর আগে ও পরে কমা, 'word'-এর পরে দাঁড়ি, 'saying'-এর আগে কমা, কথিত বাক্যের জন্য quotation marks, 'students'-এর পরে বিস্ময়চিহ্ন, এবং শেষে প্রশ্নচিহ্ন।",
+              "explanationEn": "Correct punctuation requires: commas to separate names in a list, capital letters for proper names (Mina, Farhana, Puja, Ms. Haque), 'Ms.' with a period, commas around 'their English teacher' as an appositive, period after 'word', comma before 'saying', quotation marks around spoken words, exclamation after 'students', and question mark at the end."
+            },
+            {
+              "text": "Mina Farhana and Puja went to Ms Haque their English teacher with a view to learning a word. Ms Haque greets them saying Good morning dear students what can I do for you?",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: তালিকায় নাম আলাদা করতে কমা, নামের প্রথম letter capital (Mina, Farhana, Puja, Ms. Haque), 'Ms.'-এর পরে দাঁড়ি, appositive হিসেবে 'their English teacher'-এর আগে ও পরে কমা, 'word'-এর পরে দাঁড়ি, 'saying'-এর আগে কমা, কথিত বাক্যের জন্য quotation marks, 'students'-এর পরে বিস্ময়চিহ্ন, এবং শেষে প্রশ্নচিহ্ন।",
+              "explanationEn": "Correct punctuation requires: commas to separate names in a list, capital letters for proper names (Mina, Farhana, Puja, Ms. Haque), 'Ms.' with a period, commas around 'their English teacher' as an appositive, period after 'word', comma before 'saying', quotation marks around spoken words, exclamation after 'students', and question mark at the end."
+            },
+            {
+              "text": "Mina, Farhana and Puja went to Ms. Haque their English teacher with a view to learning a word. Ms. Haque greets them saying, \"Good morning dear students what can I do for you?\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: তালিকায় নাম আলাদা করতে কমা, নামের প্রথম letter capital (Mina, Farhana, Puja, Ms. Haque), 'Ms.'-এর পরে দাঁড়ি, appositive হিসেবে 'their English teacher'-এর আগে ও পরে কমা, 'word'-এর পরে দাঁড়ি, 'saying'-এর আগে কমা, কথিত বাক্যের জন্য quotation marks, 'students'-এর পরে বিস্ময়চিহ্ন, এবং শেষে প্রশ্নচিহ্ন।",
+              "explanationEn": "Correct punctuation requires: commas to separate names in a list, capital letters for proper names (Mina, Farhana, Puja, Ms. Haque), 'Ms.' with a period, commas around 'their English teacher' as an appositive, period after 'word', comma before 'saying', quotation marks around spoken words, exclamation after 'students', and question mark at the end."
+            },
+            {
+              "text": "mina, farhana and puja went to ms. haque, their english teacher, with a view to learning a word. ms. haque greets them saying \"good morning, dear students! what can I do for you?\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: তালিকায় নাম আলাদা করতে কমা, নামের প্রথম letter capital (Mina, Farhana, Puja, Ms. Haque), 'Ms.'-এর পরে দাঁড়ি, appositive হিসেবে 'their English teacher'-এর আগে ও পরে কমা, 'word'-এর পরে দাঁড়ি, 'saying'-এর আগে কমা, কথিত বাক্যের জন্য quotation marks, 'students'-এর পরে বিস্ময়চিহ্ন, এবং শেষে প্রশ্নচিহ্ন।",
+              "explanationEn": "Correct punctuation requires: commas to separate names in a list, capital letters for proper names (Mina, Farhana, Puja, Ms. Haque), 'Ms.' with a period, commas around 'their English teacher' as an appositive, period after 'word', comma before 'saying', quotation marks around spoken words, exclamation after 'students', and question mark at the end."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 5,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "5",
+          "sentence": "how is your father bilkis said mr rahman he is very well thank you bilkis replid i am glad to hear that he is in good health said mr rahman.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "\"How is your father, Bilkis?\" said Mr. Rahman. \"He is very well, thank you,\" replied Bilkis. \"I am glad to hear that he is in good health,\" said Mr. Rahman.",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotation marks, 'How'-এর জন্য capital 'H', 'Bilkis'-এর আগে কমা, প্রশ্নচিহ্ন, closing quotes, 'Rahman'-এর পরে দাঁড়ি ('Mr.'-এর সাথে দাঁড়ি), 'He'-এর জন্য capital 'H', 'you'-এর পরে কমা, 'you'-এর পরে closing quotes, 'Bilkis'-এর পরে দাঁড়ি, এবং 'I am'-এর জন্য capital 'I'।",
+              "explanationEn": "Correct punctuation requires: opening quotation marks, capital 'H' for 'How', comma before 'Bilkis', question mark, closing quotes, period after 'Rahman' (Mr. with a period), capital 'H' for 'He', comma after 'you', closing quotes after 'you', period after 'Bilkis', and capital 'I' for 'I am'."
+            },
+            {
+              "text": "\"How is your father Bilkis?\" said Mr Rahman. \"He is very well thank you\" replied Bilkis. \"I am glad to hear that he is in good health\" said Mr Rahman.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotation marks, 'How'-এর জন্য capital 'H', 'Bilkis'-এর আগে কমা, প্রশ্নচিহ্ন, closing quotes, 'Rahman'-এর পরে দাঁড়ি ('Mr.'-এর সাথে দাঁড়ি), 'He'-এর জন্য capital 'H', 'you'-এর পরে কমা, 'you'-এর পরে closing quotes, 'Bilkis'-এর পরে দাঁড়ি, এবং 'I am'-এর জন্য capital 'I'।",
+              "explanationEn": "Correct punctuation requires: opening quotation marks, capital 'H' for 'How', comma before 'Bilkis', question mark, closing quotes, period after 'Rahman' (Mr. with a period), capital 'H' for 'He', comma after 'you', closing quotes after 'you', period after 'Bilkis', and capital 'I' for 'I am'."
+            },
+            {
+              "text": "\"how is your father, Bilkis?\" said Mr. Rahman. \"he is very well, thank you,\" replied Bilkis. \"i am glad to hear that he is in good health,\" said Mr. Rahman.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotation marks, 'How'-এর জন্য capital 'H', 'Bilkis'-এর আগে কমা, প্রশ্নচিহ্ন, closing quotes, 'Rahman'-এর পরে দাঁড়ি ('Mr.'-এর সাথে দাঁড়ি), 'He'-এর জন্য capital 'H', 'you'-এর পরে কমা, 'you'-এর পরে closing quotes, 'Bilkis'-এর পরে দাঁড়ি, এবং 'I am'-এর জন্য capital 'I'।",
+              "explanationEn": "Correct punctuation requires: opening quotation marks, capital 'H' for 'How', comma before 'Bilkis', question mark, closing quotes, period after 'Rahman' (Mr. with a period), capital 'H' for 'He', comma after 'you', closing quotes after 'you', period after 'Bilkis', and capital 'I' for 'I am'."
+            },
+            {
+              "text": "\"How is your father, Bilkis?\" said mr. rahman. \"He is very well, thank you,\" replied bilkis. \"I am glad to hear that he is in good health,\" said mr. rahman.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotation marks, 'How'-এর জন্য capital 'H', 'Bilkis'-এর আগে কমা, প্রশ্নচিহ্ন, closing quotes, 'Rahman'-এর পরে দাঁড়ি ('Mr.'-এর সাথে দাঁড়ি), 'He'-এর জন্য capital 'H', 'you'-এর পরে কমা, 'you'-এর পরে closing quotes, 'Bilkis'-এর পরে দাঁড়ি, এবং 'I am'-এর জন্য capital 'I'।",
+              "explanationEn": "Correct punctuation requires: opening quotation marks, capital 'H' for 'How', comma before 'Bilkis', question mark, closing quotes, period after 'Rahman' (Mr. with a period), capital 'H' for 'He', comma after 'you', closing quotes after 'you', period after 'Bilkis', and capital 'I' for 'I am'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 6,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "6",
+          "sentence": "the scientist shouted that he had done it addressing the scientist as sir the assistant congratulated him on what he had done the scientist replied that he had done something new.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "The scientist shouted that he had done it. Addressing the scientist as sir, the assistant congratulated him on what he had done. The scientist replied that he had done something new.",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: শুরুতে capital 'T', প্রথম বাক্য আলাদা করতে 'done it'-এর পরে দাঁড়ি, 'sir'-এর পরে কমা (কারণ 'addressing...' একটি participial phrase), দ্বিতীয় বাক্য আলাদা করতে 'done'-এর পরে দাঁড়ি, এবং শেষ বাক্যের জন্য 'The scientist'-এ capital 'T'।",
+              "explanationEn": "Correct punctuation requires: capital 'T' at the beginning, period after 'done it' to separate the first sentence, comma after 'sir' because 'addressing...' is a participial phrase, period after 'done' to separate the second sentence, and capital 'T' for 'The scientist' in the last sentence."
+            },
+            {
+              "text": "The scientist shouted that he had done it addressing the scientist as sir the assistant congratulated him on what he had done the scientist replied that he had done something new.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: শুরুতে capital 'T', প্রথম বাক্য আলাদা করতে 'done it'-এর পরে দাঁড়ি, 'sir'-এর পরে কমা (কারণ 'addressing...' একটি participial phrase), দ্বিতীয় বাক্য আলাদা করতে 'done'-এর পরে দাঁড়ি, এবং শেষ বাক্যের জন্য 'The scientist'-এ capital 'T'।",
+              "explanationEn": "Correct punctuation requires: capital 'T' at the beginning, period after 'done it' to separate the first sentence, comma after 'sir' because 'addressing...' is a participial phrase, period after 'done' to separate the second sentence, and capital 'T' for 'The scientist' in the last sentence."
+            },
+            {
+              "text": "The scientist shouted that he had done it. Addressing the scientist as Sir, the assistant congratulated him on what he had done. The scientist replied that he had done something new.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: শুরুতে capital 'T', প্রথম বাক্য আলাদা করতে 'done it'-এর পরে দাঁড়ি, 'sir'-এর পরে কমা (কারণ 'addressing...' একটি participial phrase), দ্বিতীয় বাক্য আলাদা করতে 'done'-এর পরে দাঁড়ি, এবং শেষ বাক্যের জন্য 'The scientist'-এ capital 'T'।",
+              "explanationEn": "Correct punctuation requires: capital 'T' at the beginning, period after 'done it' to separate the first sentence, comma after 'sir' because 'addressing...' is a participial phrase, period after 'done' to separate the second sentence, and capital 'T' for 'The scientist' in the last sentence."
+            },
+            {
+              "text": "The scientist shouted that he had done it. Addressing the scientist as sir the assistant congratulated him on what he had done. The scientist replied that he had done something new.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: শুরুতে capital 'T', প্রথম বাক্য আলাদা করতে 'done it'-এর পরে দাঁড়ি, 'sir'-এর পরে কমা (কারণ 'addressing...' একটি participial phrase), দ্বিতীয় বাক্য আলাদা করতে 'done'-এর পরে দাঁড়ি, এবং শেষ বাক্যের জন্য 'The scientist'-এ capital 'T'।",
+              "explanationEn": "Correct punctuation requires: capital 'T' at the beginning, period after 'done it' to separate the first sentence, comma after 'sir' because 'addressing...' is a participial phrase, period after 'done' to separate the second sentence, and capital 'T' for 'The scientist' in the last sentence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 7,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "7",
+          "sentence": "william shakespeare the monarch of english literature was born on april 12 1564 in the stratford of avon his mother was mary arden and his father was john shakespeare he was not much educated he had little knowledge of grammar.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "William Shakespeare, the monarch of English literature, was born on April 12, 1564 in the Stratford of Avon. His mother was Mary Arden and his father was John Shakespeare. He was not much educated. He had little knowledge of grammar.",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: William-এর জন্য capital 'W', appositive হিসেবে 'the monarch of English literature'-এর আগে ও পরে কমা, April-এর জন্য capital 'A', '12'-এর পরে কমা, Stratford-এর জন্য capital 'S', 'Avon'-এর পরে দাঁড়ি, His-এর জন্য capital 'H', John-এর জন্য capital 'J', Shakespeare-এর জন্য capital 'S', 'educated'-এর পরে দাঁড়ি, এবং He-এর জন্য capital 'H'।",
+              "explanationEn": "Correct punctuation requires: capital 'W' for William, commas around 'the monarch of English literature' as an appositive, capital 'A' for April, comma after '12', capital 'S' for Stratford, period after 'Avon', capital 'H' for His, capital 'J' for John, capital 'S' for Shakespeare, period after 'educated', and capital 'H' for He."
+            },
+            {
+              "text": "William Shakespeare the monarch of English literature was born on April 12, 1564 in the Stratford of Avon. His mother was Mary Arden and his father was John Shakespeare. He was not much educated he had little knowledge of grammar.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: William-এর জন্য capital 'W', appositive হিসেবে 'the monarch of English literature'-এর আগে ও পরে কমা, April-এর জন্য capital 'A', '12'-এর পরে কমা, Stratford-এর জন্য capital 'S', 'Avon'-এর পরে দাঁড়ি, His-এর জন্য capital 'H', John-এর জন্য capital 'J', Shakespeare-এর জন্য capital 'S', 'educated'-এর পরে দাঁড়ি, এবং He-এর জন্য capital 'H'।",
+              "explanationEn": "Correct punctuation requires: capital 'W' for William, commas around 'the monarch of English literature' as an appositive, capital 'A' for April, comma after '12', capital 'S' for Stratford, period after 'Avon', capital 'H' for His, capital 'J' for John, capital 'S' for Shakespeare, period after 'educated', and capital 'H' for He."
+            },
+            {
+              "text": "william shakespeare, the monarch of english literature, was born on april 12, 1564 in the stratford of avon. his mother was mary arden and his father was john shakespeare. he was not much educated. he had little knowledge of grammar.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: William-এর জন্য capital 'W', appositive হিসেবে 'the monarch of English literature'-এর আগে ও পরে কমা, April-এর জন্য capital 'A', '12'-এর পরে কমা, Stratford-এর জন্য capital 'S', 'Avon'-এর পরে দাঁড়ি, His-এর জন্য capital 'H', John-এর জন্য capital 'J', Shakespeare-এর জন্য capital 'S', 'educated'-এর পরে দাঁড়ি, এবং He-এর জন্য capital 'H'।",
+              "explanationEn": "Correct punctuation requires: capital 'W' for William, commas around 'the monarch of English literature' as an appositive, capital 'A' for April, comma after '12', capital 'S' for Stratford, period after 'Avon', capital 'H' for His, capital 'J' for John, capital 'S' for Shakespeare, period after 'educated', and capital 'H' for He."
+            },
+            {
+              "text": "William Shakespeare, the monarch of English literature was born on April 12 1564 in the Stratford of Avon. His mother was Mary Arden and his father was John Shakespeare. He was not much educated, he had little knowledge of grammar.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: William-এর জন্য capital 'W', appositive হিসেবে 'the monarch of English literature'-এর আগে ও পরে কমা, April-এর জন্য capital 'A', '12'-এর পরে কমা, Stratford-এর জন্য capital 'S', 'Avon'-এর পরে দাঁড়ি, His-এর জন্য capital 'H', John-এর জন্য capital 'J', Shakespeare-এর জন্য capital 'S', 'educated'-এর পরে দাঁড়ি, এবং He-এর জন্য capital 'H'।",
+              "explanationEn": "Correct punctuation requires: capital 'W' for William, commas around 'the monarch of English literature' as an appositive, capital 'A' for April, comma after '12', capital 'S' for Stratford, period after 'Avon', capital 'H' for His, capital 'J' for John, capital 'S' for Shakespeare, period after 'educated', and capital 'H' for He."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 8,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "8",
+          "sentence": "help me out he called to the magician my dear boy the man replied you had better first give me the lamp and lighten your load it is not the lamp that weighs me down answered aladin but lend me a hand as soon as i reach the ground i will give it to you",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "\"Help me out,\" he called to the magician. \"My dear boy,\" the man replied, \"you had better first give me the lamp and lighten your load.\" \"It is not the lamp that weighs me down,\" answered Aladin, \"but lend me a hand. As soon as I reach the ground, I will give it to you.\"",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'out'-এর পরে কমা ও closing quotes, 'magician'-এর পরে দাঁড়ি, 'My dear boy'-এর জন্য opening quotes, 'boy'-এর পরে কমা, 'replied'-এর পরে কমা, 'load'-এর পরে closing quotes, 'It'-এর জন্য capital 'I', 'down'-এর পরে কমা, closing quotes, 'Aladin'-এর জন্য capital 'A', 'Aladin'-এর পরে কমা, 'hand'-এর পরে দাঁড়ি, 'As'-এর জন্য capital 'A', 'ground'-এর পরে কমা, এবং 'you'-এর পরে closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, comma after 'out' before closing quotes, period after 'magician', opening quotes for 'My dear boy', comma after 'boy', comma after 'replied', closing quotes after 'load', capital 'I' for 'It', comma after 'down', closing quotes, capital 'A' for 'Aladin', comma after 'Aladin', period after 'hand', capital 'A' for 'As', comma after 'ground', and closing quotes after 'you'."
+            },
+            {
+              "text": "\"Help me out\" he called to the magician. \"My dear boy\" the man replied \"you had better first give me the lamp and lighten your load.\" \"It is not the lamp that weighs me down\" answered Aladin \"but lend me a hand as soon as I reach the ground I will give it to you.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'out'-এর পরে কমা ও closing quotes, 'magician'-এর পরে দাঁড়ি, 'My dear boy'-এর জন্য opening quotes, 'boy'-এর পরে কমা, 'replied'-এর পরে কমা, 'load'-এর পরে closing quotes, 'It'-এর জন্য capital 'I', 'down'-এর পরে কমা, closing quotes, 'Aladin'-এর জন্য capital 'A', 'Aladin'-এর পরে কমা, 'hand'-এর পরে দাঁড়ি, 'As'-এর জন্য capital 'A', 'ground'-এর পরে কমা, এবং 'you'-এর পরে closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, comma after 'out' before closing quotes, period after 'magician', opening quotes for 'My dear boy', comma after 'boy', comma after 'replied', closing quotes after 'load', capital 'I' for 'It', comma after 'down', closing quotes, capital 'A' for 'Aladin', comma after 'Aladin', period after 'hand', capital 'A' for 'As', comma after 'ground', and closing quotes after 'you'."
+            },
+            {
+              "text": "\"Help me out,\" he called to the Magician. \"My dear boy,\" the man replied, \"You had better first give me the lamp and lighten your load.\" \"It is not the lamp that weighs me down,\" answered Aladin, \"But lend me a hand. As soon as I reach the ground, I will give it to you.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'out'-এর পরে কমা ও closing quotes, 'magician'-এর পরে দাঁড়ি, 'My dear boy'-এর জন্য opening quotes, 'boy'-এর পরে কমা, 'replied'-এর পরে কমা, 'load'-এর পরে closing quotes, 'It'-এর জন্য capital 'I', 'down'-এর পরে কমা, closing quotes, 'Aladin'-এর জন্য capital 'A', 'Aladin'-এর পরে কমা, 'hand'-এর পরে দাঁড়ি, 'As'-এর জন্য capital 'A', 'ground'-এর পরে কমা, এবং 'you'-এর পরে closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, comma after 'out' before closing quotes, period after 'magician', opening quotes for 'My dear boy', comma after 'boy', comma after 'replied', closing quotes after 'load', capital 'I' for 'It', comma after 'down', closing quotes, capital 'A' for 'Aladin', comma after 'Aladin', period after 'hand', capital 'A' for 'As', comma after 'ground', and closing quotes after 'you'."
+            },
+            {
+              "text": "Help me out he called to the magician. My dear boy the man replied you had better first give me the lamp and lighten your load. It is not the lamp that weighs me down answered Aladin but lend me a hand as soon as I reach the ground I will give it to you.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'out'-এর পরে কমা ও closing quotes, 'magician'-এর পরে দাঁড়ি, 'My dear boy'-এর জন্য opening quotes, 'boy'-এর পরে কমা, 'replied'-এর পরে কমা, 'load'-এর পরে closing quotes, 'It'-এর জন্য capital 'I', 'down'-এর পরে কমা, closing quotes, 'Aladin'-এর জন্য capital 'A', 'Aladin'-এর পরে কমা, 'hand'-এর পরে দাঁড়ি, 'As'-এর জন্য capital 'A', 'ground'-এর পরে কমা, এবং 'you'-এর পরে closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, comma after 'out' before closing quotes, period after 'magician', opening quotes for 'My dear boy', comma after 'boy', comma after 'replied', closing quotes after 'load', capital 'I' for 'It', comma after 'down', closing quotes, capital 'A' for 'Aladin', comma after 'Aladin', period after 'hand', capital 'A' for 'As', comma after 'ground', and closing quotes after 'you'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 9,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "9",
+          "sentence": "in spite of his illness rahul went to college he seemed to be very tired and worried his teacher Mr. Wahed advised him to leave college at once.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "In spite of his illness, Rahul went to college. He seemed to be very tired and worried. His teacher, Mr. Wahed, advised him to leave college at once.",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'In'-এর জন্য capital 'I', introductory phrase-এর জন্য 'illness'-এর পরে কমা, 'Rahul'-এর জন্য capital 'R', বাক্য আলাদা করতে 'college'-এর পরে দাঁড়ি, 'He'-এর জন্য capital 'H', 'worried'-এর পরে দাঁড়ি, 'His'-এর জন্য capital 'H', appositive হিসেবে 'Mr. Wahed'-এর আগে ও পরে কমা, এবং শেষে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'I' for 'In', comma after 'illness' (introductory phrase), capital 'R' for 'Rahul', period after 'college' to separate sentences, capital 'H' for 'He', period after 'worried', capital 'H' for 'His', commas around 'Mr. Wahed' as an appositive, and period at the end."
+            },
+            {
+              "text": "In spite of his illness Rahul went to college. He seemed to be very tired and worried. His teacher Mr. Wahed advised him to leave college at once.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'In'-এর জন্য capital 'I', introductory phrase-এর জন্য 'illness'-এর পরে কমা, 'Rahul'-এর জন্য capital 'R', বাক্য আলাদা করতে 'college'-এর পরে দাঁড়ি, 'He'-এর জন্য capital 'H', 'worried'-এর পরে দাঁড়ি, 'His'-এর জন্য capital 'H', appositive হিসেবে 'Mr. Wahed'-এর আগে ও পরে কমা, এবং শেষে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'I' for 'In', comma after 'illness' (introductory phrase), capital 'R' for 'Rahul', period after 'college' to separate sentences, capital 'H' for 'He', period after 'worried', capital 'H' for 'His', commas around 'Mr. Wahed' as an appositive, and period at the end."
+            },
+            {
+              "text": "In spite of his illness, Rahul went to college he seemed to be very tired and worried his teacher, Mr. Wahed, advised him to leave college at once.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'In'-এর জন্য capital 'I', introductory phrase-এর জন্য 'illness'-এর পরে কমা, 'Rahul'-এর জন্য capital 'R', বাক্য আলাদা করতে 'college'-এর পরে দাঁড়ি, 'He'-এর জন্য capital 'H', 'worried'-এর পরে দাঁড়ি, 'His'-এর জন্য capital 'H', appositive হিসেবে 'Mr. Wahed'-এর আগে ও পরে কমা, এবং শেষে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'I' for 'In', comma after 'illness' (introductory phrase), capital 'R' for 'Rahul', period after 'college' to separate sentences, capital 'H' for 'He', period after 'worried', capital 'H' for 'His', commas around 'Mr. Wahed' as an appositive, and period at the end."
+            },
+            {
+              "text": "in spite of his illness, rahul went to college. he seemed to be very tired and worried. his teacher, mr. wahed, advised him to leave college at once.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'In'-এর জন্য capital 'I', introductory phrase-এর জন্য 'illness'-এর পরে কমা, 'Rahul'-এর জন্য capital 'R', বাক্য আলাদা করতে 'college'-এর পরে দাঁড়ি, 'He'-এর জন্য capital 'H', 'worried'-এর পরে দাঁড়ি, 'His'-এর জন্য capital 'H', appositive হিসেবে 'Mr. Wahed'-এর আগে ও পরে কমা, এবং শেষে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'I' for 'In', comma after 'illness' (introductory phrase), capital 'R' for 'Rahul', period after 'college' to separate sentences, capital 'H' for 'He', period after 'worried', capital 'H' for 'His', commas around 'Mr. Wahed' as an appositive, and period at the end."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 10,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "10",
+          "sentence": "i have one word to say to you said the lawyer either take my advice or walk out of my chamber thank you said the client i am leaving your chamber.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "\"I have one word to say to you,\" said the lawyer, \"either take my advice or walk out of my chamber.\" \"Thank you,\" said the client. \"I am leaving your chamber.\"",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, capital 'I', 'you'-এর পরে কমা, closing quotes, 'lawyer'-এর পরে কমা, continuation-এর জন্য opening quotes, 'chamber'-এর পরে দাঁড়ি ও closing quotes, 'Thank you'-এর জন্য opening quotes, 'you'-এর পরে কমা, closing quotes, 'client'-এর পরে দাঁড়ি, opening quotes, 'I am'-এর জন্য capital 'I', 'chamber'-এর পরে দাঁড়ি ও closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'I', comma after 'you', closing quotes, comma after 'lawyer', opening quotes for continuation, period after 'chamber' inside quotes, closing quotes, opening quotes for 'Thank you', comma after 'you', closing quotes, period after 'client', opening quotes, capital 'I' for 'I am', period after 'chamber' inside quotes, and closing quotes."
+            },
+            {
+              "text": "\"I have one word to say to you\" said the lawyer \"either take my advice or walk out of my chamber.\" \"Thank you\" said the client \"I am leaving your chamber.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, capital 'I', 'you'-এর পরে কমা, closing quotes, 'lawyer'-এর পরে কমা, continuation-এর জন্য opening quotes, 'chamber'-এর পরে দাঁড়ি ও closing quotes, 'Thank you'-এর জন্য opening quotes, 'you'-এর পরে কমা, closing quotes, 'client'-এর পরে দাঁড়ি, opening quotes, 'I am'-এর জন্য capital 'I', 'chamber'-এর পরে দাঁড়ি ও closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'I', comma after 'you', closing quotes, comma after 'lawyer', opening quotes for continuation, period after 'chamber' inside quotes, closing quotes, opening quotes for 'Thank you', comma after 'you', closing quotes, period after 'client', opening quotes, capital 'I' for 'I am', period after 'chamber' inside quotes, and closing quotes."
+            },
+            {
+              "text": "\"i have one word to say to you,\" said the lawyer, \"either take my advice or walk out of my chamber.\" \"thank you,\" said the client. \"i am leaving your chamber.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, capital 'I', 'you'-এর পরে কমা, closing quotes, 'lawyer'-এর পরে কমা, continuation-এর জন্য opening quotes, 'chamber'-এর পরে দাঁড়ি ও closing quotes, 'Thank you'-এর জন্য opening quotes, 'you'-এর পরে কমা, closing quotes, 'client'-এর পরে দাঁড়ি, opening quotes, 'I am'-এর জন্য capital 'I', 'chamber'-এর পরে দাঁড়ি ও closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'I', comma after 'you', closing quotes, comma after 'lawyer', opening quotes for continuation, period after 'chamber' inside quotes, closing quotes, opening quotes for 'Thank you', comma after 'you', closing quotes, period after 'client', opening quotes, capital 'I' for 'I am', period after 'chamber' inside quotes, and closing quotes."
+            },
+            {
+              "text": "\"I have one word to say to you,\" said the Lawyer, \"either take my advice or walk out of my chamber.\" \"Thank you,\" said the Client. \"I am leaving your chamber.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, capital 'I', 'you'-এর পরে কমা, closing quotes, 'lawyer'-এর পরে কমা, continuation-এর জন্য opening quotes, 'chamber'-এর পরে দাঁড়ি ও closing quotes, 'Thank you'-এর জন্য opening quotes, 'you'-এর পরে কমা, closing quotes, 'client'-এর পরে দাঁড়ি, opening quotes, 'I am'-এর জন্য capital 'I', 'chamber'-এর পরে দাঁড়ি ও closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'I', comma after 'you', closing quotes, comma after 'lawyer', opening quotes for continuation, period after 'chamber' inside quotes, closing quotes, opening quotes for 'Thank you', comma after 'you', closing quotes, period after 'client', opening quotes, capital 'I' for 'I am', period after 'chamber' inside quotes, and closing quotes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 11,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "11",
+          "sentence": "are you brothers the mistress of the house said turning to the dervishes no by allah they said were poor wanderers who met by mere chance we pray for allahs pardon",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "\"Are you brothers?\" the mistress of the house said, turning to the dervishes. \"No, by Allah!\" they said. \"We are poor wanderers who met by mere chance. We pray for Allah's pardon.\"",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Are'-এর জন্য capital 'A', প্রশ্নচিহ্ন ও closing quotes, 'said'-এর পরে কমা, 'dervishes'-এর পরে কমা ও দাঁড়ি, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা, 'Allah'-এর পরে বিস্ময়চিহ্ন ও closing quotes, 'said'-এর পরে দাঁড়ি, opening quotes, 'We'-এর জন্য capital 'W', 'chance'-এর পরে দাঁড়ি, 'We'-এর জন্য capital 'W', 'Allah's'-এ apostrophe, এবং closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'A' for 'Are', question mark inside quotes, closing quotes, comma after 'said', comma after 'dervishes', period after 'dervishes', opening quotes, capital 'N' for 'No', comma after 'No', exclamation after 'Allah', closing quotes, period after 'said', opening quotes, capital 'W' for 'We', period after 'chance', capital 'W' for 'We', apostrophe in 'Allah's', and closing quotes."
+            },
+            {
+              "text": "\"Are you brothers?\" the mistress of the house said turning to the dervishes. \"No, by Allah!\" they said. \"We are poor wanderers who met by mere chance. We pray for Allah's pardon.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Are'-এর জন্য capital 'A', প্রশ্নচিহ্ন ও closing quotes, 'said'-এর পরে কমা, 'dervishes'-এর পরে কমা ও দাঁড়ি, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা, 'Allah'-এর পরে বিস্ময়চিহ্ন ও closing quotes, 'said'-এর পরে দাঁড়ি, opening quotes, 'We'-এর জন্য capital 'W', 'chance'-এর পরে দাঁড়ি, 'We'-এর জন্য capital 'W', 'Allah's'-এ apostrophe, এবং closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'A' for 'Are', question mark inside quotes, closing quotes, comma after 'said', comma after 'dervishes', period after 'dervishes', opening quotes, capital 'N' for 'No', comma after 'No', exclamation after 'Allah', closing quotes, period after 'said', opening quotes, capital 'W' for 'We', period after 'chance', capital 'W' for 'We', apostrophe in 'Allah's', and closing quotes."
+            },
+            {
+              "text": "\"are you brothers?\" the mistress of the house said, turning to the dervishes. \"no, by allah!\" they said. \"we are poor wanderers who met by mere chance. we pray for allah's pardon.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Are'-এর জন্য capital 'A', প্রশ্নচিহ্ন ও closing quotes, 'said'-এর পরে কমা, 'dervishes'-এর পরে কমা ও দাঁড়ি, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা, 'Allah'-এর পরে বিস্ময়চিহ্ন ও closing quotes, 'said'-এর পরে দাঁড়ি, opening quotes, 'We'-এর জন্য capital 'W', 'chance'-এর পরে দাঁড়ি, 'We'-এর জন্য capital 'W', 'Allah's'-এ apostrophe, এবং closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'A' for 'Are', question mark inside quotes, closing quotes, comma after 'said', comma after 'dervishes', period after 'dervishes', opening quotes, capital 'N' for 'No', comma after 'No', exclamation after 'Allah', closing quotes, period after 'said', opening quotes, capital 'W' for 'We', period after 'chance', capital 'W' for 'We', apostrophe in 'Allah's', and closing quotes."
+            },
+            {
+              "text": "\"Are you brothers\" the mistress of the house said, turning to the dervishes. \"No by Allah\" they said. \"We are poor wanderers who met by mere chance we pray for Allah's pardon.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Are'-এর জন্য capital 'A', প্রশ্নচিহ্ন ও closing quotes, 'said'-এর পরে কমা, 'dervishes'-এর পরে কমা ও দাঁড়ি, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা, 'Allah'-এর পরে বিস্ময়চিহ্ন ও closing quotes, 'said'-এর পরে দাঁড়ি, opening quotes, 'We'-এর জন্য capital 'W', 'chance'-এর পরে দাঁড়ি, 'We'-এর জন্য capital 'W', 'Allah's'-এ apostrophe, এবং closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'A' for 'Are', question mark inside quotes, closing quotes, comma after 'said', comma after 'dervishes', period after 'dervishes', opening quotes, capital 'N' for 'No', comma after 'No', exclamation after 'Allah', closing quotes, period after 'said', opening quotes, capital 'W' for 'We', period after 'chance', capital 'W' for 'We', apostrophe in 'Allah's', and closing quotes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 12,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "12",
+          "sentence": "what kind of stories did aesop tell said anwar fables replied mrs. amin do you know what fables are no replied anwar well continued mrs amin fables are stories with a message or a moral.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "\"What kind of stories did Aesop tell?\" said Anwar. \"Fables,\" replied Mrs. Amin. \"Do you know what fables are?\" \"No,\" replied Anwar. \"Well,\" continued Mrs. Amin, \"fables are stories with a message or a moral.\"",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'What'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, 'Anwar'-এর পরে দাঁড়ি, opening quotes, 'Fables'-এর জন্য capital 'F', 'Fables'-এর পরে কমা ও closing quotes, 'Amin'-এর পরে দাঁড়ি ('Mrs.'-এর সাথে দাঁড়ি), opening quotes, 'Do'-এর জন্য capital 'D', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা ও closing quotes, 'Anwar'-এর পরে দাঁড়ি, opening quotes, 'Well'-এর জন্য capital 'W', 'Well'-এর পরে কমা ও closing quotes, 'Amin'-এর পরে কমা, opening quotes, এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'What', question mark inside quotes, closing quotes, period after 'Anwar', opening quotes, capital 'F' for 'Fables', comma after 'Fables', closing quotes, period after 'Amin' (Mrs. with a period), opening quotes, capital 'D' for 'Do', question mark inside quotes, closing quotes, opening quotes, capital 'N' for 'No', comma after 'No', closing quotes, period after 'Anwar', opening quotes, capital 'W' for 'Well', comma after 'Well', closing quotes, comma after 'Amin', opening quotes, and period inside closing quotes."
+            },
+            {
+              "text": "\"What kind of stories did Aesop tell?\" said Anwar. \"Fables\" replied Mrs. Amin. \"Do you know what fables are?\" \"No\" replied Anwar. \"Well\" continued Mrs. Amin \"fables are stories with a message or a moral.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'What'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, 'Anwar'-এর পরে দাঁড়ি, opening quotes, 'Fables'-এর জন্য capital 'F', 'Fables'-এর পরে কমা ও closing quotes, 'Amin'-এর পরে দাঁড়ি ('Mrs.'-এর সাথে দাঁড়ি), opening quotes, 'Do'-এর জন্য capital 'D', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা ও closing quotes, 'Anwar'-এর পরে দাঁড়ি, opening quotes, 'Well'-এর জন্য capital 'W', 'Well'-এর পরে কমা ও closing quotes, 'Amin'-এর পরে কমা, opening quotes, এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'What', question mark inside quotes, closing quotes, period after 'Anwar', opening quotes, capital 'F' for 'Fables', comma after 'Fables', closing quotes, period after 'Amin' (Mrs. with a period), opening quotes, capital 'D' for 'Do', question mark inside quotes, closing quotes, opening quotes, capital 'N' for 'No', comma after 'No', closing quotes, period after 'Anwar', opening quotes, capital 'W' for 'Well', comma after 'Well', closing quotes, comma after 'Amin', opening quotes, and period inside closing quotes."
+            },
+            {
+              "text": "\"what kind of stories did aesop tell?\" said anwar. \"fables,\" replied mrs. amin. \"do you know what fables are?\" \"no,\" replied anwar. \"well,\" continued mrs. amin, \"fables are stories with a message or a moral.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'What'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, 'Anwar'-এর পরে দাঁড়ি, opening quotes, 'Fables'-এর জন্য capital 'F', 'Fables'-এর পরে কমা ও closing quotes, 'Amin'-এর পরে দাঁড়ি ('Mrs.'-এর সাথে দাঁড়ি), opening quotes, 'Do'-এর জন্য capital 'D', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা ও closing quotes, 'Anwar'-এর পরে দাঁড়ি, opening quotes, 'Well'-এর জন্য capital 'W', 'Well'-এর পরে কমা ও closing quotes, 'Amin'-এর পরে কমা, opening quotes, এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'What', question mark inside quotes, closing quotes, period after 'Anwar', opening quotes, capital 'F' for 'Fables', comma after 'Fables', closing quotes, period after 'Amin' (Mrs. with a period), opening quotes, capital 'D' for 'Do', question mark inside quotes, closing quotes, opening quotes, capital 'N' for 'No', comma after 'No', closing quotes, period after 'Anwar', opening quotes, capital 'W' for 'Well', comma after 'Well', closing quotes, comma after 'Amin', opening quotes, and period inside closing quotes."
+            },
+            {
+              "text": "\"What kind of stories did Aesop tell?\" said Anwar. \"Fables,\" replied Mrs Amin. \"Do you know what fables are?\" \"No,\" replied Anwar. \"Well,\" continued Mrs Amin, \"fables are stories with a message or a moral\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'What'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, 'Anwar'-এর পরে দাঁড়ি, opening quotes, 'Fables'-এর জন্য capital 'F', 'Fables'-এর পরে কমা ও closing quotes, 'Amin'-এর পরে দাঁড়ি ('Mrs.'-এর সাথে দাঁড়ি), opening quotes, 'Do'-এর জন্য capital 'D', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা ও closing quotes, 'Anwar'-এর পরে দাঁড়ি, opening quotes, 'Well'-এর জন্য capital 'W', 'Well'-এর পরে কমা ও closing quotes, 'Amin'-এর পরে কমা, opening quotes, এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'What', question mark inside quotes, closing quotes, period after 'Anwar', opening quotes, capital 'F' for 'Fables', comma after 'Fables', closing quotes, period after 'Amin' (Mrs. with a period), opening quotes, capital 'D' for 'Do', question mark inside quotes, closing quotes, opening quotes, capital 'N' for 'No', comma after 'No', closing quotes, period after 'Anwar', opening quotes, capital 'W' for 'Well', comma after 'Well', closing quotes, comma after 'Amin', opening quotes, and period inside closing quotes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 13,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "13",
+          "sentence": "i never eat anything for luncheon she said no don't that i answered generously i never eat more than one thing.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "\"I never eat anything for luncheon,\" she said. \"No, don't say that,\" I answered generously. \"I never eat more than one thing.\"",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, capital 'I', 'luncheon'-এর পরে কমা ও closing quotes, 'said'-এর পরে দাঁড়ি, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা, 'don't'-এ apostrophe, 'that'-এর পরে কমা ও closing quotes, 'generously'-এর পরে দাঁড়ি, opening quotes, capital 'I', 'thing'-এর পরে দাঁড়ি ও closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'I', comma after 'luncheon' inside quotes, closing quotes, period after 'said', opening quotes, capital 'N' for 'No', comma after 'No', apostrophe in 'don't', comma after 'that' inside quotes, closing quotes, period after 'generously', opening quotes, capital 'I', period after 'thing' inside quotes, and closing quotes."
+            },
+            {
+              "text": "\"I never eat anything for luncheon\" she said. \"No don't say that\" I answered generously. \"I never eat more than one thing.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, capital 'I', 'luncheon'-এর পরে কমা ও closing quotes, 'said'-এর পরে দাঁড়ি, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা, 'don't'-এ apostrophe, 'that'-এর পরে কমা ও closing quotes, 'generously'-এর পরে দাঁড়ি, opening quotes, capital 'I', 'thing'-এর পরে দাঁড়ি ও closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'I', comma after 'luncheon' inside quotes, closing quotes, period after 'said', opening quotes, capital 'N' for 'No', comma after 'No', apostrophe in 'don't', comma after 'that' inside quotes, closing quotes, period after 'generously', opening quotes, capital 'I', period after 'thing' inside quotes, and closing quotes."
+            },
+            {
+              "text": "\"i never eat anything for luncheon,\" she said. \"no, don't say that,\" i answered generously. \"i never eat more than one thing.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, capital 'I', 'luncheon'-এর পরে কমা ও closing quotes, 'said'-এর পরে দাঁড়ি, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা, 'don't'-এ apostrophe, 'that'-এর পরে কমা ও closing quotes, 'generously'-এর পরে দাঁড়ি, opening quotes, capital 'I', 'thing'-এর পরে দাঁড়ি ও closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'I', comma after 'luncheon' inside quotes, closing quotes, period after 'said', opening quotes, capital 'N' for 'No', comma after 'No', apostrophe in 'don't', comma after 'that' inside quotes, closing quotes, period after 'generously', opening quotes, capital 'I', period after 'thing' inside quotes, and closing quotes."
+            },
+            {
+              "text": "\"I never eat anything for luncheon,\" She said. \"No, don't say that,\" I answered generously. \"I never eat more than one thing\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, capital 'I', 'luncheon'-এর পরে কমা ও closing quotes, 'said'-এর পরে দাঁড়ি, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা, 'don't'-এ apostrophe, 'that'-এর পরে কমা ও closing quotes, 'generously'-এর পরে দাঁড়ি, opening quotes, capital 'I', 'thing'-এর পরে দাঁড়ি ও closing quotes।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'I', comma after 'luncheon' inside quotes, closing quotes, period after 'said', opening quotes, capital 'N' for 'No', comma after 'No', apostrophe in 'don't', comma after 'that' inside quotes, closing quotes, period after 'generously', opening quotes, capital 'I', period after 'thing' inside quotes, and closing quotes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 14,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "14",
+          "sentence": "how much do you want said the mayor a thousand guilders said the pied piper all right said the mayor we will pay you thousand guilders when will you set to work now replied the pied piper.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "\"How much do you want?\" said the Mayor. \"A thousand guilders,\" said the Pied Piper. \"All right,\" said the Mayor. \"We will pay you thousand guilders. When will you set to work?\" \"Now,\" replied the Pied Piper.",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'How'-এর জন্য capital 'H', প্রশ্নচিহ্ন ও closing quotes, 'Mayor'-এর পরে দাঁড়ি (capital M), opening quotes, 'A'-এর জন্য capital 'A', 'guilders'-এর পরে কমা ও closing quotes, 'Piper'-এর পরে দাঁড়ি (Pied Piper-এর জন্য capital P), opening quotes, 'All'-এর জন্য capital 'A', 'right'-এর পরে কমা ও closing quotes, 'Mayor'-এর পরে দাঁড়ি, opening quotes, 'We'-এর জন্য capital 'W', 'guilders'-এর পরে দাঁড়ি, 'When'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Now'-এর জন্য capital 'N', 'Now'-এর পরে কমা ও closing quotes, এবং 'Piper'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'H' for 'How', question mark inside quotes, closing quotes, period after 'Mayor' (capital M), opening quotes, capital 'A' for 'A', comma after 'guilders', closing quotes, period after 'Piper' (capital P for Pied Piper), opening quotes, capital 'A' for 'All', comma after 'right', closing quotes, period after 'Mayor', opening quotes, capital 'W' for 'We', period after 'guilders', capital 'W' for 'When', question mark, closing quotes, opening quotes, capital 'N' for 'Now', comma after 'Now', closing quotes, and period after 'Piper'."
+            },
+            {
+              "text": "\"How much do you want?\" said the Mayor. \"A thousand guilders\" said the Pied Piper. \"All right\" said the Mayor. \"We will pay you thousand guilders. When will you set to work?\" \"Now\" replied the Pied Piper.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'How'-এর জন্য capital 'H', প্রশ্নচিহ্ন ও closing quotes, 'Mayor'-এর পরে দাঁড়ি (capital M), opening quotes, 'A'-এর জন্য capital 'A', 'guilders'-এর পরে কমা ও closing quotes, 'Piper'-এর পরে দাঁড়ি (Pied Piper-এর জন্য capital P), opening quotes, 'All'-এর জন্য capital 'A', 'right'-এর পরে কমা ও closing quotes, 'Mayor'-এর পরে দাঁড়ি, opening quotes, 'We'-এর জন্য capital 'W', 'guilders'-এর পরে দাঁড়ি, 'When'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Now'-এর জন্য capital 'N', 'Now'-এর পরে কমা ও closing quotes, এবং 'Piper'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'H' for 'How', question mark inside quotes, closing quotes, period after 'Mayor' (capital M), opening quotes, capital 'A' for 'A', comma after 'guilders', closing quotes, period after 'Piper' (capital P for Pied Piper), opening quotes, capital 'A' for 'All', comma after 'right', closing quotes, period after 'Mayor', opening quotes, capital 'W' for 'We', period after 'guilders', capital 'W' for 'When', question mark, closing quotes, opening quotes, capital 'N' for 'Now', comma after 'Now', closing quotes, and period after 'Piper'."
+            },
+            {
+              "text": "\"how much do you want?\" said the mayor. \"a thousand guilders,\" said the pied piper. \"all right,\" said the mayor. \"we will pay you thousand guilders. when will you set to work?\" \"now,\" replied the pied piper.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'How'-এর জন্য capital 'H', প্রশ্নচিহ্ন ও closing quotes, 'Mayor'-এর পরে দাঁড়ি (capital M), opening quotes, 'A'-এর জন্য capital 'A', 'guilders'-এর পরে কমা ও closing quotes, 'Piper'-এর পরে দাঁড়ি (Pied Piper-এর জন্য capital P), opening quotes, 'All'-এর জন্য capital 'A', 'right'-এর পরে কমা ও closing quotes, 'Mayor'-এর পরে দাঁড়ি, opening quotes, 'We'-এর জন্য capital 'W', 'guilders'-এর পরে দাঁড়ি, 'When'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Now'-এর জন্য capital 'N', 'Now'-এর পরে কমা ও closing quotes, এবং 'Piper'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'H' for 'How', question mark inside quotes, closing quotes, period after 'Mayor' (capital M), opening quotes, capital 'A' for 'A', comma after 'guilders', closing quotes, period after 'Piper' (capital P for Pied Piper), opening quotes, capital 'A' for 'All', comma after 'right', closing quotes, period after 'Mayor', opening quotes, capital 'W' for 'We', period after 'guilders', capital 'W' for 'When', question mark, closing quotes, opening quotes, capital 'N' for 'Now', comma after 'Now', closing quotes, and period after 'Piper'."
+            },
+            {
+              "text": "\"How much do you want?\" said the Mayor. \"A thousand guilders,\" said the Pied Piper. \"All right,\" said the Mayor. \"We will pay you thousand guilders when will you set to work?\" \"Now,\" replied the Pied Piper.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'How'-এর জন্য capital 'H', প্রশ্নচিহ্ন ও closing quotes, 'Mayor'-এর পরে দাঁড়ি (capital M), opening quotes, 'A'-এর জন্য capital 'A', 'guilders'-এর পরে কমা ও closing quotes, 'Piper'-এর পরে দাঁড়ি (Pied Piper-এর জন্য capital P), opening quotes, 'All'-এর জন্য capital 'A', 'right'-এর পরে কমা ও closing quotes, 'Mayor'-এর পরে দাঁড়ি, opening quotes, 'We'-এর জন্য capital 'W', 'guilders'-এর পরে দাঁড়ি, 'When'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Now'-এর জন্য capital 'N', 'Now'-এর পরে কমা ও closing quotes, এবং 'Piper'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'H' for 'How', question mark inside quotes, closing quotes, period after 'Mayor' (capital M), opening quotes, capital 'A' for 'A', comma after 'guilders', closing quotes, period after 'Piper' (capital P for Pied Piper), opening quotes, capital 'A' for 'All', comma after 'right', closing quotes, period after 'Mayor', opening quotes, capital 'W' for 'We', period after 'guilders', capital 'W' for 'When', question mark, closing quotes, opening quotes, capital 'N' for 'Now', comma after 'Now', closing quotes, and period after 'Piper'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 15,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "15",
+          "sentence": "mr. Anik Akash a doctor has come to join the Upazila health Complex. After joining he has started working. Suddenly a patient has come. The patient says, Ive a pain in my stomach.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "Mr. Anik Akash, a doctor, has come to join the Upazila Health Complex. After joining, he has started working. Suddenly a patient has come. The patient says, \"I've a pain in my stomach.\"",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'Mr.'-এ দাঁড়ি ও capital M, appositive হিসেবে 'a doctor'-এর আগে ও পরে কমা, 'Health'-এর জন্য capital 'H' এবং 'Complex'-এর জন্য capital 'C', introductory phrase-এর জন্য 'joining'-এর পরে কমা, বাক্যের শুরুতে 'Suddenly'-এর জন্য capital 'S', রোগীর কথার জন্য quotation marks, 'I've'-এ apostrophe, এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: 'Mr.' with a period and capital M, commas around 'a doctor' as an appositive, capital 'H' for 'Health' and capital 'C' for 'Complex', comma after 'joining' (introductory phrase), capital 'S' for 'Suddenly' (start of sentence), quotation marks around patient's words, 'I've' with apostrophe, period inside closing quotes."
+            },
+            {
+              "text": "Mr. Anik Akash a doctor has come to join the Upazila Health Complex. After joining he has started working. Suddenly a patient has come. The patient says, \"I've a pain in my stomach.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'Mr.'-এ দাঁড়ি ও capital M, appositive হিসেবে 'a doctor'-এর আগে ও পরে কমা, 'Health'-এর জন্য capital 'H' এবং 'Complex'-এর জন্য capital 'C', introductory phrase-এর জন্য 'joining'-এর পরে কমা, বাক্যের শুরুতে 'Suddenly'-এর জন্য capital 'S', রোগীর কথার জন্য quotation marks, 'I've'-এ apostrophe, এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: 'Mr.' with a period and capital M, commas around 'a doctor' as an appositive, capital 'H' for 'Health' and capital 'C' for 'Complex', comma after 'joining' (introductory phrase), capital 'S' for 'Suddenly' (start of sentence), quotation marks around patient's words, 'I've' with apostrophe, period inside closing quotes."
+            },
+            {
+              "text": "Mr. Anik Akash, a doctor, has come to join the Upazila health complex. After joining, he has started working. Suddenly a patient has come. The patient says, \"Ive a pain in my stomach.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'Mr.'-এ দাঁড়ি ও capital M, appositive হিসেবে 'a doctor'-এর আগে ও পরে কমা, 'Health'-এর জন্য capital 'H' এবং 'Complex'-এর জন্য capital 'C', introductory phrase-এর জন্য 'joining'-এর পরে কমা, বাক্যের শুরুতে 'Suddenly'-এর জন্য capital 'S', রোগীর কথার জন্য quotation marks, 'I've'-এ apostrophe, এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: 'Mr.' with a period and capital M, commas around 'a doctor' as an appositive, capital 'H' for 'Health' and capital 'C' for 'Complex', comma after 'joining' (introductory phrase), capital 'S' for 'Suddenly' (start of sentence), quotation marks around patient's words, 'I've' with apostrophe, period inside closing quotes."
+            },
+            {
+              "text": "mr. anik akash, a doctor, has come to join the Upazila Health Complex. After joining, he has started working. suddenly a patient has come. The patient says, \"I've a pain in my stomach\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'Mr.'-এ দাঁড়ি ও capital M, appositive হিসেবে 'a doctor'-এর আগে ও পরে কমা, 'Health'-এর জন্য capital 'H' এবং 'Complex'-এর জন্য capital 'C', introductory phrase-এর জন্য 'joining'-এর পরে কমা, বাক্যের শুরুতে 'Suddenly'-এর জন্য capital 'S', রোগীর কথার জন্য quotation marks, 'I've'-এ apostrophe, এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: 'Mr.' with a period and capital M, commas around 'a doctor' as an appositive, capital 'H' for 'Health' and capital 'C' for 'Complex', comma after 'joining' (introductory phrase), capital 'S' for 'Suddenly' (start of sentence), quotation marks around patient's words, 'I've' with apostrophe, period inside closing quotes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 16,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "16",
+          "sentence": "have you heard the name of Aesop asked the teacher no sir who was he read the lesson attentively and then you will be able to know about him how interesting and instructive his fables are said the teacher.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "\"Have you heard the name of Aesop?\" asked the teacher. \"No, sir. Who was he?\" \"Read the lesson attentively and then you will be able to know about him.\" \"How interesting and instructive his fables are!\" said the teacher.",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Have'-এর জন্য capital 'H', প্রশ্নচিহ্ন ও closing quotes, 'teacher'-এর পরে দাঁড়ি, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা, 'sir'-এর পরে দাঁড়ি, 'Who'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Read'-এর জন্য capital 'R', 'him'-এর পরে দাঁড়ি ও closing quotes, opening quotes, 'How'-এর জন্য capital 'H', 'are'-এর পরে বিস্ময়চিহ্ন ও closing quotes, এবং 'teacher'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'H' for 'Have', question mark, closing quotes, period after 'teacher', opening quotes, capital 'N' for 'No', comma after 'No', period after 'sir', capital 'W' for 'Who', question mark, closing quotes, opening quotes, capital 'R' for 'Read', period after 'him', closing quotes, opening quotes, capital 'H' for 'How', exclamation mark after 'are', closing quotes, period after 'teacher'."
+            },
+            {
+              "text": "\"Have you heard the name of Aesop?\" asked the teacher. \"No sir. Who was he?\" \"Read the lesson attentively and then you will be able to know about him.\" \"How interesting and instructive his fables are\" said the teacher.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Have'-এর জন্য capital 'H', প্রশ্নচিহ্ন ও closing quotes, 'teacher'-এর পরে দাঁড়ি, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা, 'sir'-এর পরে দাঁড়ি, 'Who'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Read'-এর জন্য capital 'R', 'him'-এর পরে দাঁড়ি ও closing quotes, opening quotes, 'How'-এর জন্য capital 'H', 'are'-এর পরে বিস্ময়চিহ্ন ও closing quotes, এবং 'teacher'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'H' for 'Have', question mark, closing quotes, period after 'teacher', opening quotes, capital 'N' for 'No', comma after 'No', period after 'sir', capital 'W' for 'Who', question mark, closing quotes, opening quotes, capital 'R' for 'Read', period after 'him', closing quotes, opening quotes, capital 'H' for 'How', exclamation mark after 'are', closing quotes, period after 'teacher'."
+            },
+            {
+              "text": "\"have you heard the name of aesop?\" asked the teacher. \"no, sir. who was he?\" \"read the lesson attentively and then you will be able to know about him.\" \"how interesting and instructive his fables are!\" said the teacher.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Have'-এর জন্য capital 'H', প্রশ্নচিহ্ন ও closing quotes, 'teacher'-এর পরে দাঁড়ি, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা, 'sir'-এর পরে দাঁড়ি, 'Who'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Read'-এর জন্য capital 'R', 'him'-এর পরে দাঁড়ি ও closing quotes, opening quotes, 'How'-এর জন্য capital 'H', 'are'-এর পরে বিস্ময়চিহ্ন ও closing quotes, এবং 'teacher'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'H' for 'Have', question mark, closing quotes, period after 'teacher', opening quotes, capital 'N' for 'No', comma after 'No', period after 'sir', capital 'W' for 'Who', question mark, closing quotes, opening quotes, capital 'R' for 'Read', period after 'him', closing quotes, opening quotes, capital 'H' for 'How', exclamation mark after 'are', closing quotes, period after 'teacher'."
+            },
+            {
+              "text": "\"Have you heard the name of Aesop?\" asked the Teacher. \"No, sir. Who was he?\" \"Read the lesson attentively and then you will be able to know about him\" \"How interesting and instructive his fables are!\" said the teacher.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Have'-এর জন্য capital 'H', প্রশ্নচিহ্ন ও closing quotes, 'teacher'-এর পরে দাঁড়ি, opening quotes, 'No'-এর জন্য capital 'N', 'No'-এর পরে কমা, 'sir'-এর পরে দাঁড়ি, 'Who'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Read'-এর জন্য capital 'R', 'him'-এর পরে দাঁড়ি ও closing quotes, opening quotes, 'How'-এর জন্য capital 'H', 'are'-এর পরে বিস্ময়চিহ্ন ও closing quotes, এবং 'teacher'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'H' for 'Have', question mark, closing quotes, period after 'teacher', opening quotes, capital 'N' for 'No', comma after 'No', period after 'sir', capital 'W' for 'Who', question mark, closing quotes, opening quotes, capital 'R' for 'Read', period after 'him', closing quotes, opening quotes, capital 'H' for 'How', exclamation mark after 'are', closing quotes, period after 'teacher'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 17,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "17",
+          "sentence": "oh my lord please do not kill the child said the woman let her have him the king said now everything is clear to me pointing to the woman he said to the servant give her the child she is the mother of the baby.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "\"Oh, my lord, please do not kill the child,\" said the woman. \"Let her have him.\" The king said, \"Now everything is clear to me.\" Pointing to the woman, he said to the servant, \"Give her the child. She is the mother of the baby.\"",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Oh'-এর জন্য capital 'O', 'Oh'-এর পরে কমা, 'lord'-এর পরে কমা, closing quotes-এর আগে কমা, 'woman'-এর পরে দাঁড়ি, opening quotes, 'Let'-এর জন্য capital 'L', 'him'-এর পরে দাঁড়ি ও closing quotes, 'The'-এর জন্য capital 'T', 'said'-এর পরে কমা, opening quotes, 'Now'-এর জন্য capital 'N', দাঁড়ি ও closing quotes, 'Pointing'-এর জন্য capital 'P', 'woman'-এর পরে কমা, 'servant'-এর পরে কমা, opening quotes, 'Give'-এর জন্য capital 'G', 'child'-এর পরে দাঁড়ি, 'She'-এর জন্য capital 'S', এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'O' for 'Oh', comma after 'Oh', comma after 'lord', comma before closing quotes, period after 'woman', opening quotes, capital 'L' for 'Let', period after 'him' inside quotes, closing quotes, capital 'T' for 'The', comma after 'said', opening quotes, capital 'N' for 'Now', period inside quotes, closing quotes, capital 'P' for 'Pointing', comma after 'woman', comma after 'servant', opening quotes, capital 'G' for 'Give', period after 'child', capital 'S' for 'She', and period inside closing quotes."
+            },
+            {
+              "text": "\"Oh my lord please do not kill the child,\" said the woman. \"Let her have him.\" The king said \"Now everything is clear to me.\" Pointing to the woman he said to the servant \"Give her the child. She is the mother of the baby.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Oh'-এর জন্য capital 'O', 'Oh'-এর পরে কমা, 'lord'-এর পরে কমা, closing quotes-এর আগে কমা, 'woman'-এর পরে দাঁড়ি, opening quotes, 'Let'-এর জন্য capital 'L', 'him'-এর পরে দাঁড়ি ও closing quotes, 'The'-এর জন্য capital 'T', 'said'-এর পরে কমা, opening quotes, 'Now'-এর জন্য capital 'N', দাঁড়ি ও closing quotes, 'Pointing'-এর জন্য capital 'P', 'woman'-এর পরে কমা, 'servant'-এর পরে কমা, opening quotes, 'Give'-এর জন্য capital 'G', 'child'-এর পরে দাঁড়ি, 'She'-এর জন্য capital 'S', এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'O' for 'Oh', comma after 'Oh', comma after 'lord', comma before closing quotes, period after 'woman', opening quotes, capital 'L' for 'Let', period after 'him' inside quotes, closing quotes, capital 'T' for 'The', comma after 'said', opening quotes, capital 'N' for 'Now', period inside quotes, closing quotes, capital 'P' for 'Pointing', comma after 'woman', comma after 'servant', opening quotes, capital 'G' for 'Give', period after 'child', capital 'S' for 'She', and period inside closing quotes."
+            },
+            {
+              "text": "\"oh, my lord, please do not kill the child,\" said the woman. \"let her have him.\" The king said, \"now everything is clear to me.\" Pointing to the woman, he said to the servant, \"give her the child. she is the mother of the baby.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Oh'-এর জন্য capital 'O', 'Oh'-এর পরে কমা, 'lord'-এর পরে কমা, closing quotes-এর আগে কমা, 'woman'-এর পরে দাঁড়ি, opening quotes, 'Let'-এর জন্য capital 'L', 'him'-এর পরে দাঁড়ি ও closing quotes, 'The'-এর জন্য capital 'T', 'said'-এর পরে কমা, opening quotes, 'Now'-এর জন্য capital 'N', দাঁড়ি ও closing quotes, 'Pointing'-এর জন্য capital 'P', 'woman'-এর পরে কমা, 'servant'-এর পরে কমা, opening quotes, 'Give'-এর জন্য capital 'G', 'child'-এর পরে দাঁড়ি, 'She'-এর জন্য capital 'S', এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'O' for 'Oh', comma after 'Oh', comma after 'lord', comma before closing quotes, period after 'woman', opening quotes, capital 'L' for 'Let', period after 'him' inside quotes, closing quotes, capital 'T' for 'The', comma after 'said', opening quotes, capital 'N' for 'Now', period inside quotes, closing quotes, capital 'P' for 'Pointing', comma after 'woman', comma after 'servant', opening quotes, capital 'G' for 'Give', period after 'child', capital 'S' for 'She', and period inside closing quotes."
+            },
+            {
+              "text": "\"Oh, my lord, please do not kill the child\" said the woman. \"Let her have him\" The king said \"Now everything is clear to me\" Pointing to the woman he said to the servant \"Give her the child she is the mother of the baby\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Oh'-এর জন্য capital 'O', 'Oh'-এর পরে কমা, 'lord'-এর পরে কমা, closing quotes-এর আগে কমা, 'woman'-এর পরে দাঁড়ি, opening quotes, 'Let'-এর জন্য capital 'L', 'him'-এর পরে দাঁড়ি ও closing quotes, 'The'-এর জন্য capital 'T', 'said'-এর পরে কমা, opening quotes, 'Now'-এর জন্য capital 'N', দাঁড়ি ও closing quotes, 'Pointing'-এর জন্য capital 'P', 'woman'-এর পরে কমা, 'servant'-এর পরে কমা, opening quotes, 'Give'-এর জন্য capital 'G', 'child'-এর পরে দাঁড়ি, 'She'-এর জন্য capital 'S', এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'O' for 'Oh', comma after 'Oh', comma after 'lord', comma before closing quotes, period after 'woman', opening quotes, capital 'L' for 'Let', period after 'him' inside quotes, closing quotes, capital 'T' for 'The', comma after 'said', opening quotes, capital 'N' for 'Now', period inside quotes, closing quotes, capital 'P' for 'Pointing', comma after 'woman', comma after 'servant', opening quotes, capital 'G' for 'Give', period after 'child', capital 'S' for 'She', and period inside closing quotes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 18,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "18",
+          "sentence": "dhaka is the capital of bangladesh it has its own attraction it is specially famous for its mosques, once its name was jahangirnagar and it was famous for muslin cloth.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "Dhaka is the capital of Bangladesh. It has its own attractions. It is specially famous for its mosques. Once its name was Jahangirnagar and it was famous for muslin cloth.",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'Dhaka'-এর জন্য capital 'D', 'Bangladesh'-এর জন্য capital 'B', 'Bangladesh'-এর পরে দাঁড়ি, 'It'-এর জন্য capital 'I', 'attraction'-এর জায়গায় 'attractions' (বহুবচন বেশি উপযোগী), 'attractions'-এর পরে দাঁড়ি, 'It'-এর জন্য capital 'I', 'mosques'-এর পরে দাঁড়ি, 'Once'-এর জন্য capital 'O', 'Jahangirnagar'-এর জন্য capital 'J', এবং শেষে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'D' for 'Dhaka', capital 'B' for 'Bangladesh', period after 'Bangladesh', capital 'I' for 'It', 'attractions' (plural is more appropriate), period after 'attractions', capital 'I' for 'It', period after 'mosques', capital 'O' for 'Once', capital 'J' for 'Jahangirnagar', and period at the end."
+            },
+            {
+              "text": "Dhaka is the capital of Bangladesh, it has its own attraction, it is specially famous for its mosques, once its name was Jahangirnagar and it was famous for muslin cloth.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'Dhaka'-এর জন্য capital 'D', 'Bangladesh'-এর জন্য capital 'B', 'Bangladesh'-এর পরে দাঁড়ি, 'It'-এর জন্য capital 'I', 'attraction'-এর জায়গায় 'attractions' (বহুবচন বেশি উপযোগী), 'attractions'-এর পরে দাঁড়ি, 'It'-এর জন্য capital 'I', 'mosques'-এর পরে দাঁড়ি, 'Once'-এর জন্য capital 'O', 'Jahangirnagar'-এর জন্য capital 'J', এবং শেষে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'D' for 'Dhaka', capital 'B' for 'Bangladesh', period after 'Bangladesh', capital 'I' for 'It', 'attractions' (plural is more appropriate), period after 'attractions', capital 'I' for 'It', period after 'mosques', capital 'O' for 'Once', capital 'J' for 'Jahangirnagar', and period at the end."
+            },
+            {
+              "text": "dhaka is the capital of bangladesh. it has its own attraction. it is specially famous for its mosques. once its name was jahangirnagar and it was famous for muslin cloth.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'Dhaka'-এর জন্য capital 'D', 'Bangladesh'-এর জন্য capital 'B', 'Bangladesh'-এর পরে দাঁড়ি, 'It'-এর জন্য capital 'I', 'attraction'-এর জায়গায় 'attractions' (বহুবচন বেশি উপযোগী), 'attractions'-এর পরে দাঁড়ি, 'It'-এর জন্য capital 'I', 'mosques'-এর পরে দাঁড়ি, 'Once'-এর জন্য capital 'O', 'Jahangirnagar'-এর জন্য capital 'J', এবং শেষে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'D' for 'Dhaka', capital 'B' for 'Bangladesh', period after 'Bangladesh', capital 'I' for 'It', 'attractions' (plural is more appropriate), period after 'attractions', capital 'I' for 'It', period after 'mosques', capital 'O' for 'Once', capital 'J' for 'Jahangirnagar', and period at the end."
+            },
+            {
+              "text": "Dhaka is the capital of Bangladesh. It has its own attraction. It is specially famous for its mosques, once its name was Jahangirnagar and it was famous for Muslin cloth.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'Dhaka'-এর জন্য capital 'D', 'Bangladesh'-এর জন্য capital 'B', 'Bangladesh'-এর পরে দাঁড়ি, 'It'-এর জন্য capital 'I', 'attraction'-এর জায়গায় 'attractions' (বহুবচন বেশি উপযোগী), 'attractions'-এর পরে দাঁড়ি, 'It'-এর জন্য capital 'I', 'mosques'-এর পরে দাঁড়ি, 'Once'-এর জন্য capital 'O', 'Jahangirnagar'-এর জন্য capital 'J', এবং শেষে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'D' for 'Dhaka', capital 'B' for 'Bangladesh', period after 'Bangladesh', capital 'I' for 'It', 'attractions' (plural is more appropriate), period after 'attractions', capital 'I' for 'It', period after 'mosques', capital 'O' for 'Once', capital 'J' for 'Jahangirnagar', and period at the end."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 19,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "19",
+          "sentence": "what can I teach you asked nasiruddin we dont know replied the students your are students but you dont know anything so I cant teach you anything said nasiruddin.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "\"What can I teach you?\" asked Nasiruddin. \"We don't know,\" replied the students. \"You are students but you don't know anything. So, I can't teach you anything,\" said Nasiruddin.",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'What'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, 'Nasiruddin'-এর পরে দাঁড়ি (capital N), opening quotes, 'We'-এর জন্য capital 'W', 'don't'-এ apostrophe, 'know'-এর পরে কমা ও closing quotes, 'students'-এর পরে দাঁড়ি, opening quotes, 'You'-এর জন্য capital 'Y', 'anything'-এর পরে দাঁড়ি, 'So'-এর জন্য capital 'S', 'So'-এর পরে কমা, 'can't'-এ apostrophe, 'anything'-এর পরে কমা ও closing quotes, এবং 'Nasiruddin'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'What', question mark, closing quotes, period after 'Nasiruddin' (capital N), opening quotes, capital 'W' for 'We', apostrophe in 'don't', comma after 'know', closing quotes, period after 'students', opening quotes, capital 'Y' for 'You', period after 'anything', capital 'S' for 'So', comma after 'So', apostrophe in 'can't', comma after 'anything' inside quotes, closing quotes, and period after 'Nasiruddin'."
+            },
+            {
+              "text": "\"What can I teach you?\" asked Nasiruddin. \"We dont know\" replied the students. \"You are students but you dont know anything so I cant teach you anything\" said Nasiruddin.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'What'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, 'Nasiruddin'-এর পরে দাঁড়ি (capital N), opening quotes, 'We'-এর জন্য capital 'W', 'don't'-এ apostrophe, 'know'-এর পরে কমা ও closing quotes, 'students'-এর পরে দাঁড়ি, opening quotes, 'You'-এর জন্য capital 'Y', 'anything'-এর পরে দাঁড়ি, 'So'-এর জন্য capital 'S', 'So'-এর পরে কমা, 'can't'-এ apostrophe, 'anything'-এর পরে কমা ও closing quotes, এবং 'Nasiruddin'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'What', question mark, closing quotes, period after 'Nasiruddin' (capital N), opening quotes, capital 'W' for 'We', apostrophe in 'don't', comma after 'know', closing quotes, period after 'students', opening quotes, capital 'Y' for 'You', period after 'anything', capital 'S' for 'So', comma after 'So', apostrophe in 'can't', comma after 'anything' inside quotes, closing quotes, and period after 'Nasiruddin'."
+            },
+            {
+              "text": "\"what can I teach you?\" asked nasiruddin. \"we don't know,\" replied the students. \"you are students but you don't know anything. so, I can't teach you anything,\" said nasiruddin.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'What'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, 'Nasiruddin'-এর পরে দাঁড়ি (capital N), opening quotes, 'We'-এর জন্য capital 'W', 'don't'-এ apostrophe, 'know'-এর পরে কমা ও closing quotes, 'students'-এর পরে দাঁড়ি, opening quotes, 'You'-এর জন্য capital 'Y', 'anything'-এর পরে দাঁড়ি, 'So'-এর জন্য capital 'S', 'So'-এর পরে কমা, 'can't'-এ apostrophe, 'anything'-এর পরে কমা ও closing quotes, এবং 'Nasiruddin'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'What', question mark, closing quotes, period after 'Nasiruddin' (capital N), opening quotes, capital 'W' for 'We', apostrophe in 'don't', comma after 'know', closing quotes, period after 'students', opening quotes, capital 'Y' for 'You', period after 'anything', capital 'S' for 'So', comma after 'So', apostrophe in 'can't', comma after 'anything' inside quotes, closing quotes, and period after 'Nasiruddin'."
+            },
+            {
+              "text": "\"What can I teach you?\" asked Nasiruddin. \"We don't know,\" replied the Students. \"You are students but you don't know anything. So, I can't teach you anything\" said Nasiruddin.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'What'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, 'Nasiruddin'-এর পরে দাঁড়ি (capital N), opening quotes, 'We'-এর জন্য capital 'W', 'don't'-এ apostrophe, 'know'-এর পরে কমা ও closing quotes, 'students'-এর পরে দাঁড়ি, opening quotes, 'You'-এর জন্য capital 'Y', 'anything'-এর পরে দাঁড়ি, 'So'-এর জন্য capital 'S', 'So'-এর পরে কমা, 'can't'-এ apostrophe, 'anything'-এর পরে কমা ও closing quotes, এবং 'Nasiruddin'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'What', question mark, closing quotes, period after 'Nasiruddin' (capital N), opening quotes, capital 'W' for 'We', apostrophe in 'don't', comma after 'know', closing quotes, period after 'students', opening quotes, capital 'Y' for 'You', period after 'anything', capital 'S' for 'So', comma after 'So', apostrophe in 'can't', comma after 'anything' inside quotes, closing quotes, and period after 'Nasiruddin'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 20,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "20",
+          "sentence": "what part of india do you come from m reddy from madras though i was born and educated in hydrabad is this your first visit in delhi mr reddy asked tom i quite often come there on official business",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "\"What part of India do you come from, Mr. Reddy?\" \"From Madras, though I was born and educated in Hyderabad.\" \"Is this your first visit to Delhi?\" Mr. Reddy asked Tom. \"I quite often come here on official business.\"",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'What'-এর জন্য capital 'W', 'India'-এর জন্য capital 'I', 'Mr.'-এর আগে কমা, 'Mr.'-এর সাথে দাঁড়ি, প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'From'-এর জন্য capital 'F', 'Madras'-এর পরে কমা, 'I'-এর জন্য capital 'I', 'Hyderabad'-এর জন্য capital 'H' (সঠিক বানান), দাঁড়ি ও closing quotes, opening quotes, 'Is'-এর জন্য capital 'I', 'in Delhi' নয় বরং 'to Delhi', প্রশ্নচিহ্ন ও closing quotes, 'Tom'-এর পরে দাঁড়ি, opening quotes, 'I'-এর জন্য capital 'I', 'there' নয় বরং 'here', এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'What', capital 'I' for 'India', comma before 'Mr.', 'Mr.' with period, question mark, closing quotes, opening quotes, capital 'F' for 'From', comma after 'Madras', capital 'I' for 'I', capital 'H' for 'Hyderabad' (correct spelling), period, closing quotes, opening quotes, capital 'I' for 'Is', 'to Delhi' (not 'in Delhi'), question mark, closing quotes, period after 'Tom', opening quotes, capital 'I' for 'I', 'here' (not 'there'), period inside closing quotes."
+            },
+            {
+              "text": "\"What part of India do you come from Mr. Reddy?\" \"From Madras though I was born and educated in Hyderabad.\" \"Is this your first visit in Delhi?\" Mr. Reddy asked Tom. \"I quite often come there on official business.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'What'-এর জন্য capital 'W', 'India'-এর জন্য capital 'I', 'Mr.'-এর আগে কমা, 'Mr.'-এর সাথে দাঁড়ি, প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'From'-এর জন্য capital 'F', 'Madras'-এর পরে কমা, 'I'-এর জন্য capital 'I', 'Hyderabad'-এর জন্য capital 'H' (সঠিক বানান), দাঁড়ি ও closing quotes, opening quotes, 'Is'-এর জন্য capital 'I', 'in Delhi' নয় বরং 'to Delhi', প্রশ্নচিহ্ন ও closing quotes, 'Tom'-এর পরে দাঁড়ি, opening quotes, 'I'-এর জন্য capital 'I', 'there' নয় বরং 'here', এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'What', capital 'I' for 'India', comma before 'Mr.', 'Mr.' with period, question mark, closing quotes, opening quotes, capital 'F' for 'From', comma after 'Madras', capital 'I' for 'I', capital 'H' for 'Hyderabad' (correct spelling), period, closing quotes, opening quotes, capital 'I' for 'Is', 'to Delhi' (not 'in Delhi'), question mark, closing quotes, period after 'Tom', opening quotes, capital 'I' for 'I', 'here' (not 'there'), period inside closing quotes."
+            },
+            {
+              "text": "\"what part of india do you come from, mr. reddy?\" \"from madras, though i was born and educated in hyderabad.\" \"is this your first visit to delhi?\" mr. reddy asked tom. \"i quite often come here on official business.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'What'-এর জন্য capital 'W', 'India'-এর জন্য capital 'I', 'Mr.'-এর আগে কমা, 'Mr.'-এর সাথে দাঁড়ি, প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'From'-এর জন্য capital 'F', 'Madras'-এর পরে কমা, 'I'-এর জন্য capital 'I', 'Hyderabad'-এর জন্য capital 'H' (সঠিক বানান), দাঁড়ি ও closing quotes, opening quotes, 'Is'-এর জন্য capital 'I', 'in Delhi' নয় বরং 'to Delhi', প্রশ্নচিহ্ন ও closing quotes, 'Tom'-এর পরে দাঁড়ি, opening quotes, 'I'-এর জন্য capital 'I', 'there' নয় বরং 'here', এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'What', capital 'I' for 'India', comma before 'Mr.', 'Mr.' with period, question mark, closing quotes, opening quotes, capital 'F' for 'From', comma after 'Madras', capital 'I' for 'I', capital 'H' for 'Hyderabad' (correct spelling), period, closing quotes, opening quotes, capital 'I' for 'Is', 'to Delhi' (not 'in Delhi'), question mark, closing quotes, period after 'Tom', opening quotes, capital 'I' for 'I', 'here' (not 'there'), period inside closing quotes."
+            },
+            {
+              "text": "\"What part of India do you come from, Mr. Reddy?\" \"From Madras, though I was born and educated in Hydrabad.\" \"Is this your first visit to Delhi?\" Mr Reddy asked Tom. \"I quite often come here on official business\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'What'-এর জন্য capital 'W', 'India'-এর জন্য capital 'I', 'Mr.'-এর আগে কমা, 'Mr.'-এর সাথে দাঁড়ি, প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'From'-এর জন্য capital 'F', 'Madras'-এর পরে কমা, 'I'-এর জন্য capital 'I', 'Hyderabad'-এর জন্য capital 'H' (সঠিক বানান), দাঁড়ি ও closing quotes, opening quotes, 'Is'-এর জন্য capital 'I', 'in Delhi' নয় বরং 'to Delhi', প্রশ্নচিহ্ন ও closing quotes, 'Tom'-এর পরে দাঁড়ি, opening quotes, 'I'-এর জন্য capital 'I', 'there' নয় বরং 'here', এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'What', capital 'I' for 'India', comma before 'Mr.', 'Mr.' with period, question mark, closing quotes, opening quotes, capital 'F' for 'From', comma after 'Madras', capital 'I' for 'I', capital 'H' for 'Hyderabad' (correct spelling), period, closing quotes, opening quotes, capital 'I' for 'Is', 'to Delhi' (not 'in Delhi'), question mark, closing quotes, period after 'Tom', opening quotes, capital 'I' for 'I', 'here' (not 'there'), period inside closing quotes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 21,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "21",
+          "sentence": "once I asked a sweet little girl what is your mothers name she replied cleverly I know my mothers name but I won't tell you that I said what clever girl you are I don't tell my mothers name to anybody whom I don't know she spoke with an air of confidence",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "Once I asked a sweet little girl, \"What is your mother's name?\" She replied cleverly, \"I know my mother's name but I won't tell you that.\" I said, \"What a clever girl you are!\" \"I don't tell my mother's name to anybody whom I don't know,\" she spoke with an air of confidence.",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'Once'-এর জন্য capital 'O', 'girl'-এর পরে কমা, opening quotes, 'What'-এর জন্য capital 'W', 'mother's'-এ apostrophe, প্রশ্নচিহ্ন ও closing quotes, 'cleverly'-এর পরে দাঁড়ি, opening quotes, 'I'-এর জন্য capital 'I', 'mother's' এবং 'won't'-এ apostrophe, দাঁড়ি ও closing quotes, 'I'-এর জন্য capital 'I', 'said'-এর পরে কমা, opening quotes, 'What'-এর জন্য capital 'W', 'are'-এর পরে বিস্ময়চিহ্ন ও closing quotes, opening quotes, 'I'-এর জন্য capital 'I', 'don't' ও 'mother's'-এ apostrophe, 'know'-এর পরে কমা ও closing quotes, এবং শেষে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'O' for 'Once', comma after 'girl', opening quotes, capital 'W' for 'What', apostrophe in 'mother's', question mark, closing quotes, period after 'cleverly', opening quotes, capital 'I' for 'I', apostrophes in 'mother's' and 'won't', period inside quotes, closing quotes, capital 'I' for 'I', comma after 'said', opening quotes, capital 'W' for 'What', exclamation after 'are', closing quotes, opening quotes, capital 'I' for 'I', apostrophes in 'don't' and 'mother's', comma after 'know' inside quotes, closing quotes, and period at the end."
+            },
+            {
+              "text": "Once I asked a sweet little girl \"What is your mother's name?\" She replied cleverly \"I know my mother's name but I won't tell you that.\" I said \"What a clever girl you are!\" \"I don't tell my mother's name to anybody whom I don't know\" she spoke with an air of confidence.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'Once'-এর জন্য capital 'O', 'girl'-এর পরে কমা, opening quotes, 'What'-এর জন্য capital 'W', 'mother's'-এ apostrophe, প্রশ্নচিহ্ন ও closing quotes, 'cleverly'-এর পরে দাঁড়ি, opening quotes, 'I'-এর জন্য capital 'I', 'mother's' এবং 'won't'-এ apostrophe, দাঁড়ি ও closing quotes, 'I'-এর জন্য capital 'I', 'said'-এর পরে কমা, opening quotes, 'What'-এর জন্য capital 'W', 'are'-এর পরে বিস্ময়চিহ্ন ও closing quotes, opening quotes, 'I'-এর জন্য capital 'I', 'don't' ও 'mother's'-এ apostrophe, 'know'-এর পরে কমা ও closing quotes, এবং শেষে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'O' for 'Once', comma after 'girl', opening quotes, capital 'W' for 'What', apostrophe in 'mother's', question mark, closing quotes, period after 'cleverly', opening quotes, capital 'I' for 'I', apostrophes in 'mother's' and 'won't', period inside quotes, closing quotes, capital 'I' for 'I', comma after 'said', opening quotes, capital 'W' for 'What', exclamation after 'are', closing quotes, opening quotes, capital 'I' for 'I', apostrophes in 'don't' and 'mother's', comma after 'know' inside quotes, closing quotes, and period at the end."
+            },
+            {
+              "text": "once i asked a sweet little girl, \"what is your mothers name?\" she replied cleverly, \"i know my mothers name but i won't tell you that.\" i said, \"what a clever girl you are!\" \"i don't tell my mothers name to anybody whom i don't know,\" she spoke with an air of confidence.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'Once'-এর জন্য capital 'O', 'girl'-এর পরে কমা, opening quotes, 'What'-এর জন্য capital 'W', 'mother's'-এ apostrophe, প্রশ্নচিহ্ন ও closing quotes, 'cleverly'-এর পরে দাঁড়ি, opening quotes, 'I'-এর জন্য capital 'I', 'mother's' এবং 'won't'-এ apostrophe, দাঁড়ি ও closing quotes, 'I'-এর জন্য capital 'I', 'said'-এর পরে কমা, opening quotes, 'What'-এর জন্য capital 'W', 'are'-এর পরে বিস্ময়চিহ্ন ও closing quotes, opening quotes, 'I'-এর জন্য capital 'I', 'don't' ও 'mother's'-এ apostrophe, 'know'-এর পরে কমা ও closing quotes, এবং শেষে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'O' for 'Once', comma after 'girl', opening quotes, capital 'W' for 'What', apostrophe in 'mother's', question mark, closing quotes, period after 'cleverly', opening quotes, capital 'I' for 'I', apostrophes in 'mother's' and 'won't', period inside quotes, closing quotes, capital 'I' for 'I', comma after 'said', opening quotes, capital 'W' for 'What', exclamation after 'are', closing quotes, opening quotes, capital 'I' for 'I', apostrophes in 'don't' and 'mother's', comma after 'know' inside quotes, closing quotes, and period at the end."
+            },
+            {
+              "text": "Once I asked a sweet little girl, \"What is your mother's name?\" She replied cleverly, \"I know my mother's name but I won't tell you that\" I said, \"What a clever girl you are\" \"I don't tell my mother's name to anybody whom I don't know\" she spoke with an air of confidence.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'Once'-এর জন্য capital 'O', 'girl'-এর পরে কমা, opening quotes, 'What'-এর জন্য capital 'W', 'mother's'-এ apostrophe, প্রশ্নচিহ্ন ও closing quotes, 'cleverly'-এর পরে দাঁড়ি, opening quotes, 'I'-এর জন্য capital 'I', 'mother's' এবং 'won't'-এ apostrophe, দাঁড়ি ও closing quotes, 'I'-এর জন্য capital 'I', 'said'-এর পরে কমা, opening quotes, 'What'-এর জন্য capital 'W', 'are'-এর পরে বিস্ময়চিহ্ন ও closing quotes, opening quotes, 'I'-এর জন্য capital 'I', 'don't' ও 'mother's'-এ apostrophe, 'know'-এর পরে কমা ও closing quotes, এবং শেষে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'O' for 'Once', comma after 'girl', opening quotes, capital 'W' for 'What', apostrophe in 'mother's', question mark, closing quotes, period after 'cleverly', opening quotes, capital 'I' for 'I', apostrophes in 'mother's' and 'won't', period inside quotes, closing quotes, capital 'I' for 'I', comma after 'said', opening quotes, capital 'W' for 'What', exclamation after 'are', closing quotes, opening quotes, capital 'I' for 'I', apostrophes in 'don't' and 'mother's', comma after 'know' inside quotes, closing quotes, and period at the end."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 22,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "22",
+          "sentence": "the traveller said can you tell me the way to the nearest inn yes said the peasant do you want one in which you can spend the night",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "The traveller said, \"Can you tell me the way to the nearest inn?\" \"Yes,\" said the peasant. \"Do you want one in which you can spend the night?\"",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'The'-এর জন্য capital 'T', 'said'-এর পরে কমা, opening quotes, 'Can'-এর জন্য capital 'C', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Yes'-এর জন্য capital 'Y', 'Yes'-এর পরে কমা ও closing quotes, 'peasant'-এর পরে দাঁড়ি, opening quotes, 'Do'-এর জন্য capital 'D', প্রশ্নচিহ্ন ও closing quotes।",
+              "explanationEn": "Correct punctuation requires: capital 'T' for 'The', comma after 'said', opening quotes, capital 'C' for 'Can', question mark inside quotes, closing quotes, opening quotes, capital 'Y' for 'Yes', comma after 'Yes', closing quotes, period after 'peasant', opening quotes, capital 'D' for 'Do', question mark inside quotes, and closing quotes."
+            },
+            {
+              "text": "The traveller said \"Can you tell me the way to the nearest inn?\" \"Yes\" said the peasant. \"Do you want one in which you can spend the night?\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'The'-এর জন্য capital 'T', 'said'-এর পরে কমা, opening quotes, 'Can'-এর জন্য capital 'C', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Yes'-এর জন্য capital 'Y', 'Yes'-এর পরে কমা ও closing quotes, 'peasant'-এর পরে দাঁড়ি, opening quotes, 'Do'-এর জন্য capital 'D', প্রশ্নচিহ্ন ও closing quotes।",
+              "explanationEn": "Correct punctuation requires: capital 'T' for 'The', comma after 'said', opening quotes, capital 'C' for 'Can', question mark inside quotes, closing quotes, opening quotes, capital 'Y' for 'Yes', comma after 'Yes', closing quotes, period after 'peasant', opening quotes, capital 'D' for 'Do', question mark inside quotes, and closing quotes."
+            },
+            {
+              "text": "the traveller said, \"can you tell me the way to the nearest inn?\" \"yes,\" said the peasant. \"do you want one in which you can spend the night?\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'The'-এর জন্য capital 'T', 'said'-এর পরে কমা, opening quotes, 'Can'-এর জন্য capital 'C', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Yes'-এর জন্য capital 'Y', 'Yes'-এর পরে কমা ও closing quotes, 'peasant'-এর পরে দাঁড়ি, opening quotes, 'Do'-এর জন্য capital 'D', প্রশ্নচিহ্ন ও closing quotes।",
+              "explanationEn": "Correct punctuation requires: capital 'T' for 'The', comma after 'said', opening quotes, capital 'C' for 'Can', question mark inside quotes, closing quotes, opening quotes, capital 'Y' for 'Yes', comma after 'Yes', closing quotes, period after 'peasant', opening quotes, capital 'D' for 'Do', question mark inside quotes, and closing quotes."
+            },
+            {
+              "text": "The traveller said, \"Can you tell me the way to the nearest inn?\" \"Yes,\" said the Peasant. \"Do you want one in which you can spend the night\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'The'-এর জন্য capital 'T', 'said'-এর পরে কমা, opening quotes, 'Can'-এর জন্য capital 'C', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Yes'-এর জন্য capital 'Y', 'Yes'-এর পরে কমা ও closing quotes, 'peasant'-এর পরে দাঁড়ি, opening quotes, 'Do'-এর জন্য capital 'D', প্রশ্নচিহ্ন ও closing quotes।",
+              "explanationEn": "Correct punctuation requires: capital 'T' for 'The', comma after 'said', opening quotes, capital 'C' for 'Can', question mark inside quotes, closing quotes, opening quotes, capital 'Y' for 'Yes', comma after 'Yes', closing quotes, period after 'peasant', opening quotes, capital 'D' for 'Do', question mark inside quotes, and closing quotes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 23,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "23",
+          "sentence": "will you come to my house to morrow i asked the boy we can discuss the terms ind conditions then i said i shall be very happy to meet you at your house thank you so much he replied",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "\"Will you come to my house tomorrow?\" I asked the boy. \"We can discuss the terms and conditions then,\" I said. \"I shall be very happy to meet you at your house. Thank you so much,\" he replied.",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Will'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, 'I'-এর জন্য capital 'I', 'boy'-এর পরে দাঁড়ি, opening quotes, 'We'-এর জন্য capital 'W', 'then'-এর পরে কমা ও closing quotes, 'I'-এর জন্য capital 'I', 'said'-এর পরে দাঁড়ি, opening quotes, 'I'-এর জন্য capital 'I', 'house'-এর পরে দাঁড়ি, 'Thank'-এর জন্য capital 'T', 'much'-এর পরে কমা ও closing quotes, এবং 'replied'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'Will', question mark, closing quotes, capital 'I' for 'I', period after 'boy', opening quotes, capital 'W' for 'We', comma after 'then' inside quotes, closing quotes, capital 'I' for 'I', period after 'said', opening quotes, capital 'I' for 'I', period after 'house', capital 'T' for 'Thank', comma after 'much' inside quotes, closing quotes, and period after 'replied'."
+            },
+            {
+              "text": "\"Will you come to my house tomorrow?\" i asked the boy. \"We can discuss the terms and conditions then\" i said. \"I shall be very happy to meet you at your house. Thank you so much\" he replied.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Will'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, 'I'-এর জন্য capital 'I', 'boy'-এর পরে দাঁড়ি, opening quotes, 'We'-এর জন্য capital 'W', 'then'-এর পরে কমা ও closing quotes, 'I'-এর জন্য capital 'I', 'said'-এর পরে দাঁড়ি, opening quotes, 'I'-এর জন্য capital 'I', 'house'-এর পরে দাঁড়ি, 'Thank'-এর জন্য capital 'T', 'much'-এর পরে কমা ও closing quotes, এবং 'replied'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'Will', question mark, closing quotes, capital 'I' for 'I', period after 'boy', opening quotes, capital 'W' for 'We', comma after 'then' inside quotes, closing quotes, capital 'I' for 'I', period after 'said', opening quotes, capital 'I' for 'I', period after 'house', capital 'T' for 'Thank', comma after 'much' inside quotes, closing quotes, and period after 'replied'."
+            },
+            {
+              "text": "\"will you come to my house to morrow?\" I asked the boy. \"we can discuss the terms ind conditions then,\" I said. \"i shall be very happy to meet you at your house. thank you so much,\" he replied.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Will'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, 'I'-এর জন্য capital 'I', 'boy'-এর পরে দাঁড়ি, opening quotes, 'We'-এর জন্য capital 'W', 'then'-এর পরে কমা ও closing quotes, 'I'-এর জন্য capital 'I', 'said'-এর পরে দাঁড়ি, opening quotes, 'I'-এর জন্য capital 'I', 'house'-এর পরে দাঁড়ি, 'Thank'-এর জন্য capital 'T', 'much'-এর পরে কমা ও closing quotes, এবং 'replied'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'Will', question mark, closing quotes, capital 'I' for 'I', period after 'boy', opening quotes, capital 'W' for 'We', comma after 'then' inside quotes, closing quotes, capital 'I' for 'I', period after 'said', opening quotes, capital 'I' for 'I', period after 'house', capital 'T' for 'Thank', comma after 'much' inside quotes, closing quotes, and period after 'replied'."
+            },
+            {
+              "text": "\"Will you come to my house tomorrow?\" I asked the Boy. \"We can discuss the terms and conditions then,\" I said. \"I shall be very happy to meet you at your house Thank you so much,\" he replied.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'Will'-এর জন্য capital 'W', প্রশ্নচিহ্ন ও closing quotes, 'I'-এর জন্য capital 'I', 'boy'-এর পরে দাঁড়ি, opening quotes, 'We'-এর জন্য capital 'W', 'then'-এর পরে কমা ও closing quotes, 'I'-এর জন্য capital 'I', 'said'-এর পরে দাঁড়ি, opening quotes, 'I'-এর জন্য capital 'I', 'house'-এর পরে দাঁড়ি, 'Thank'-এর জন্য capital 'T', 'much'-এর পরে কমা ও closing quotes, এবং 'replied'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'W' for 'Will', question mark, closing quotes, capital 'I' for 'I', period after 'boy', opening quotes, capital 'W' for 'We', comma after 'then' inside quotes, closing quotes, capital 'I' for 'I', period after 'said', opening quotes, capital 'I' for 'I', period after 'house', capital 'T' for 'Thank', comma after 'much' inside quotes, closing quotes, and period after 'replied'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 24,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "24",
+          "sentence": "he said to the shoe maker you are a big blockhead you have done the reverse of what i desired you told you to make one of the shoes larger than the other and instead of that you have made one of them smaller than the other.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "He said to the shoemaker, \"You are a big blockhead. You have done the reverse of what I desired. I told you to make one of the shoes larger than the other, and instead of that, you have made one of them smaller than the other.\"",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'He'-এর জন্য capital 'H', 'shoemaker' এক কথায়, 'shoemaker'-এর পরে কমা, opening quotes, 'You'-এর জন্য capital 'Y', 'blockhead'-এর পরে দাঁড়ি, 'You'-এর জন্য capital 'Y', 'I'-এর জন্য capital 'I', 'desired'-এর পরে দাঁড়ি, 'I'-এর জন্য capital 'I', 'other'-এর পরে কমা, 'that'-এর পরে কমা, এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'H' for 'He', 'shoemaker' as one word, comma after 'shoemaker', opening quotes, capital 'Y' for 'You', period after 'blockhead', capital 'Y' for 'You', capital 'I' for 'I', period after 'desired', capital 'I' for 'I', comma after 'other', comma after 'that', period inside closing quotes."
+            },
+            {
+              "text": "He said to the shoe maker \"You are a big blockhead you have done the reverse of what I desired you told you to make one of the shoes larger than the other and instead of that you have made one of them smaller than the other.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'He'-এর জন্য capital 'H', 'shoemaker' এক কথায়, 'shoemaker'-এর পরে কমা, opening quotes, 'You'-এর জন্য capital 'Y', 'blockhead'-এর পরে দাঁড়ি, 'You'-এর জন্য capital 'Y', 'I'-এর জন্য capital 'I', 'desired'-এর পরে দাঁড়ি, 'I'-এর জন্য capital 'I', 'other'-এর পরে কমা, 'that'-এর পরে কমা, এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'H' for 'He', 'shoemaker' as one word, comma after 'shoemaker', opening quotes, capital 'Y' for 'You', period after 'blockhead', capital 'Y' for 'You', capital 'I' for 'I', period after 'desired', capital 'I' for 'I', comma after 'other', comma after 'that', period inside closing quotes."
+            },
+            {
+              "text": "he said to the shoemaker, \"you are a big blockhead. you have done the reverse of what i desired. i told you to make one of the shoes larger than the other, and instead of that, you have made one of them smaller than the other.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'He'-এর জন্য capital 'H', 'shoemaker' এক কথায়, 'shoemaker'-এর পরে কমা, opening quotes, 'You'-এর জন্য capital 'Y', 'blockhead'-এর পরে দাঁড়ি, 'You'-এর জন্য capital 'Y', 'I'-এর জন্য capital 'I', 'desired'-এর পরে দাঁড়ি, 'I'-এর জন্য capital 'I', 'other'-এর পরে কমা, 'that'-এর পরে কমা, এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'H' for 'He', 'shoemaker' as one word, comma after 'shoemaker', opening quotes, capital 'Y' for 'You', period after 'blockhead', capital 'Y' for 'You', capital 'I' for 'I', period after 'desired', capital 'I' for 'I', comma after 'other', comma after 'that', period inside closing quotes."
+            },
+            {
+              "text": "He said to the shoemaker, \"You are a big blockhead. You have done the reverse of what I desired. I told you to make one of the shoes larger than the other and instead of that you have made one of them smaller than the other.\"",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: 'He'-এর জন্য capital 'H', 'shoemaker' এক কথায়, 'shoemaker'-এর পরে কমা, opening quotes, 'You'-এর জন্য capital 'Y', 'blockhead'-এর পরে দাঁড়ি, 'You'-এর জন্য capital 'Y', 'I'-এর জন্য capital 'I', 'desired'-এর পরে দাঁড়ি, 'I'-এর জন্য capital 'I', 'other'-এর পরে কমা, 'that'-এর পরে কমা, এবং closing quotes-এর ভিতরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: capital 'H' for 'He', 'shoemaker' as one word, comma after 'shoemaker', opening quotes, capital 'Y' for 'You', period after 'blockhead', capital 'Y' for 'You', capital 'I' for 'I', period after 'desired', capital 'I' for 'I', comma after 'other', comma after 'that', period inside closing quotes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 25,
+      "text": "Use appropriate punctuation marks and capital letters where necessary.",
+      "subQuestions": [
+        {
+          "id": "25",
+          "sentence": "how can you do the work in two days nobody agrees to do it less than four i said to the boy i am confident i shall finish it as i have told you he replied.",
+          "instruction": "Punctuation & Capitalization",
+          "options": [
+            {
+              "text": "\"How can you do the work in two days?\" \"Nobody agrees to do it in less than four,\" I said to the boy. \"I am confident, I shall finish it as I have told you,\" he replied.",
+              "isCorrect": true,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'How'-এর জন্য capital 'H', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Nobody'-এর জন্য capital 'N', 'in less than four' ('in' যোগ করতে হবে), 'four'-এর পরে কমা ও closing quotes, 'I'-এর জন্য capital 'I', 'boy'-এর পরে দাঁড়ি, opening quotes, 'I am'-এর জন্য capital 'I', 'confident'-এর পরে কমা, 'I'-এর জন্য capital 'I', 'you'-এর পরে কমা ও closing quotes, এবং 'replied'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'H' for 'How', question mark, closing quotes, opening quotes, capital 'N' for 'Nobody', 'in less than four' (add 'in'), comma after 'four', closing quotes, capital 'I' for 'I', period after 'boy', opening quotes, capital 'I' for 'I am', comma after 'confident', capital 'I' for 'I', comma after 'you' inside quotes, closing quotes, and period after 'replied'."
+            },
+            {
+              "text": "\"How can you do the work in two days?\" \"Nobody agrees to do it less than four\" I said to the boy. \"I am confident I shall finish it as I have told you\" he replied.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'How'-এর জন্য capital 'H', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Nobody'-এর জন্য capital 'N', 'in less than four' ('in' যোগ করতে হবে), 'four'-এর পরে কমা ও closing quotes, 'I'-এর জন্য capital 'I', 'boy'-এর পরে দাঁড়ি, opening quotes, 'I am'-এর জন্য capital 'I', 'confident'-এর পরে কমা, 'I'-এর জন্য capital 'I', 'you'-এর পরে কমা ও closing quotes, এবং 'replied'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'H' for 'How', question mark, closing quotes, opening quotes, capital 'N' for 'Nobody', 'in less than four' (add 'in'), comma after 'four', closing quotes, capital 'I' for 'I', period after 'boy', opening quotes, capital 'I' for 'I am', comma after 'confident', capital 'I' for 'I', comma after 'you' inside quotes, closing quotes, and period after 'replied'."
+            },
+            {
+              "text": "\"how can you do the work in two days?\" \"nobody agrees to do it in less than four,\" i said to the boy. \"i am confident, i shall finish it as i have told you,\" he replied.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'How'-এর জন্য capital 'H', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Nobody'-এর জন্য capital 'N', 'in less than four' ('in' যোগ করতে হবে), 'four'-এর পরে কমা ও closing quotes, 'I'-এর জন্য capital 'I', 'boy'-এর পরে দাঁড়ি, opening quotes, 'I am'-এর জন্য capital 'I', 'confident'-এর পরে কমা, 'I'-এর জন্য capital 'I', 'you'-এর পরে কমা ও closing quotes, এবং 'replied'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'H' for 'How', question mark, closing quotes, opening quotes, capital 'N' for 'Nobody', 'in less than four' (add 'in'), comma after 'four', closing quotes, capital 'I' for 'I', period after 'boy', opening quotes, capital 'I' for 'I am', comma after 'confident', capital 'I' for 'I', comma after 'you' inside quotes, closing quotes, and period after 'replied'."
+            },
+            {
+              "text": "\"How can you do the work in two days?\" \"Nobody agrees to do it in less than four,\" I said to the Boy. \"I am confident, I shall finish it as I have told you,\" He replied.",
+              "isCorrect": false,
+              "explanationBn": "সঠিক punctuation-এর জন্য প্রয়োজন: opening quotes, 'How'-এর জন্য capital 'H', প্রশ্নচিহ্ন ও closing quotes, opening quotes, 'Nobody'-এর জন্য capital 'N', 'in less than four' ('in' যোগ করতে হবে), 'four'-এর পরে কমা ও closing quotes, 'I'-এর জন্য capital 'I', 'boy'-এর পরে দাঁড়ি, opening quotes, 'I am'-এর জন্য capital 'I', 'confident'-এর পরে কমা, 'I'-এর জন্য capital 'I', 'you'-এর পরে কমা ও closing quotes, এবং 'replied'-এর পরে দাঁড়ি।",
+              "explanationEn": "Correct punctuation requires: opening quotes, capital 'H' for 'How', question mark, closing quotes, opening quotes, capital 'N' for 'Nobody', 'in less than four' (add 'in'), comma after 'four', closing quotes, capital 'I' for 'I', period after 'boy', opening quotes, capital 'I' for 'I am', comma after 'confident', capital 'I' for 'I', comma after 'you' inside quotes, closing quotes, and period after 'replied'."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

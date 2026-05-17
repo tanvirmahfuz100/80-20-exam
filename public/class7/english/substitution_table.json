@@ -1,0 +1,491 @@
+{
+  "testId": "class7_substitution_table",
+  "title": "Substitution Table - Class 7 English",
+  "type": "substitution_table",
+  "questions": [
+    {
+      "_type": "substitution_table",
+      "id": "sub_1",
+      "exercise": {
+        "id": 1,
+        "question_text": "Make five sentences using parts of sentences from each column of the table below.",
+        "table_columns": [
+          [
+            "Time and tide",
+            "No one",
+            "Money",
+            "Health also",
+            "But time once lost"
+          ],
+          [
+            "is",
+            "wait",
+            "can",
+            "be regained",
+            "call it back"
+          ],
+          [
+            "for none.",
+            "be regained.",
+            "lost forever."
+          ]
+        ],
+        "valid_sentences": [
+          {
+            "sentence": "Time and tide wait for none.",
+            "combination": [
+              "Time and tide",
+              "wait",
+              "for none."
+            ],
+            "explanation_en": "Correct proverb. 'Time and tide' is plural here.",
+            "explanation_bn": "সঠিক প্রবাদ। এখানে 'Time and tide' বহুবচন হিসেবে গণ্য।"
+          },
+          {
+            "sentence": "No one can call it back lost forever.",
+            "combination": [
+              "No one",
+              "call it back",
+              "lost forever."
+            ],
+            "explanation_en": "Correct sentence formed by combining 'No one can call it back' and 'lost forever' - but the table splits 'can' and 'call it back'. The intended correct sentence is 'No one can call it back.'",
+            "explanation_bn": "সঠিক বাক্য। 'কেউ তা ফিরিয়ে আনতে পারে না।'"
+          },
+          {
+            "sentence": "Money can be regained.",
+            "combination": [
+              "Money",
+              "can",
+              "be regained."
+            ],
+            "explanation_en": "Correct. Money can be earned back.",
+            "explanation_bn": "সঠিক। টাকা ফিরে পাওয়া যেতে পারে।"
+          },
+          {
+            "sentence": "Health also can be regained.",
+            "combination": [
+              "Health also",
+              "can",
+              "be regained."
+            ],
+            "explanation_en": "Correct. Health can be restored.",
+            "explanation_bn": "সঠিক। স্বাস্থ্য ফিরে পাওয়া যেতে পারে।"
+          },
+          {
+            "sentence": "But time once lost is lost forever.",
+            "combination": [
+              "But time once lost",
+              "call it back",
+              "lost forever."
+            ],
+            "explanation_en": "Correct. The intended sentence is 'But time once lost is lost forever.'",
+            "explanation_bn": "সঠিক। উদ্দিষ্ট বাক্য: 'But time once lost is lost forever.'"
+          }
+        ]
+      }
+    },
+    {
+      "_type": "substitution_table",
+      "id": "sub_2",
+      "exercise": {
+        "id": 2,
+        "question_text": "Make five sentences using parts of sentences from each column of the table below.",
+        "table_columns": [
+          [
+            "Newspapers",
+            "It",
+            "They"
+          ],
+          [
+            "gives",
+            "has",
+            "are",
+            "present"
+          ],
+          [
+            "us news of home and abroad.",
+            "useful to all section of people.",
+            "great educative value too.",
+            "really a part and parcel of our life.",
+            "us the outside world like a mirror."
+          ]
+        ],
+        "valid_sentences": [
+          {
+            "sentence": "Newspapers are useful to all section of people.",
+            "combination": [
+              "Newspapers",
+              "are",
+              "useful to all section of people."
+            ],
+            "explanation_en": "Correct. This is the first correct sentence from the answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালা থেকে প্রথম সঠিক বাক্য।"
+          },
+          {
+            "sentence": "Newspapers are really a part and parcel of our life.",
+            "combination": [
+              "Newspapers",
+              "are",
+              "really a part and parcel of our life."
+            ],
+            "explanation_en": "Correct. From answer key: 'They are really a part and parcel of our life.'",
+            "explanation_bn": "সঠিক। উত্তরমালা থেকে: 'They are really a part and parcel of our life.'"
+          },
+          {
+            "sentence": "Newspapers present us news of home and abroad.",
+            "combination": [
+              "Newspapers",
+              "present",
+              "us news of home and abroad."
+            ],
+            "explanation_en": "Correct. From answer key: 'They present us the outside world like a mirror.' - but this is a different combination.",
+            "explanation_bn": "সঠিক। উত্তরমালা থেকে: 'They present us the outside world like a mirror.'"
+          },
+          {
+            "sentence": "Newspapers present us the outside world like a mirror.",
+            "combination": [
+              "Newspapers",
+              "present",
+              "us the outside world like a mirror."
+            ],
+            "explanation_en": "Correct. This directly matches the answer key.",
+            "explanation_bn": "সঠিক। এটি সরাসরি উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "It gives us news of home and abroad.",
+            "combination": [
+              "It",
+              "gives",
+              "us news of home and abroad."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "It gives great educative value too.",
+            "combination": [
+              "It",
+              "gives",
+              "great educative value too."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "It has great educative value too.",
+            "combination": [
+              "It",
+              "has",
+              "great educative value too."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "They are really a part and parcel of our life.",
+            "combination": [
+              "They",
+              "are",
+              "really a part and parcel of our life."
+            ],
+            "explanation_en": "Correct. This matches the answer key exactly.",
+            "explanation_bn": "সঠিক। এটি সরাসরি উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "They present us the outside world like a mirror.",
+            "combination": [
+              "They",
+              "present",
+              "us the outside world like a mirror."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          }
+        ]
+      }
+    },
+    {
+      "_type": "substitution_table",
+      "id": "sub_3",
+      "exercise": {
+        "id": 3,
+        "question_text": "Make five sentences using parts of sentences from each column of the table below.",
+        "table_columns": [
+          [
+            "Traffic jam",
+            "It",
+            "The service holders",
+            "The patients",
+            "Effective measures"
+          ],
+          [
+            "are",
+            "cannot reach",
+            "causes",
+            "must be taken",
+            "is"
+          ],
+          [
+            "offices in time.",
+            "the worst sufferers of traffic jam.",
+            "a common feature of city life today",
+            "many problems for the urban people",
+            "to minimize traffic jam"
+          ]
+        ],
+        "valid_sentences": [
+          {
+            "sentence": "Traffic jam causes many problems for the urban people",
+            "combination": [
+              "Traffic jam",
+              "causes",
+              "many problems for the urban people"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "Traffic jam is a common feature of city life today",
+            "combination": [
+              "Traffic jam",
+              "is",
+              "a common feature of city life today"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "It cannot reach offices in time.",
+            "combination": [
+              "It",
+              "cannot reach",
+              "offices in time."
+            ],
+            "explanation_en": "Correct. Refers to traffic jam.",
+            "explanation_bn": "সঠিক। যানজটকে নির্দেশ করে।"
+          },
+          {
+            "sentence": "It causes many problems for the urban people",
+            "combination": [
+              "It",
+              "causes",
+              "many problems for the urban people"
+            ],
+            "explanation_en": "Correct. 'It' refers to traffic jam.",
+            "explanation_bn": "সঠিক। 'It' যানজটকে নির্দেশ করে।"
+          },
+          {
+            "sentence": "It is a common feature of city life today",
+            "combination": [
+              "It",
+              "is",
+              "a common feature of city life today"
+            ],
+            "explanation_en": "Correct. 'It' refers to traffic jam.",
+            "explanation_bn": "সঠিক। 'It' যানজটকে নির্দেশ করে।"
+          },
+          {
+            "sentence": "The service holders are the worst sufferers of traffic jam.",
+            "combination": [
+              "The service holders",
+              "are",
+              "the worst sufferers of traffic jam."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "The service holders cannot reach offices in time.",
+            "combination": [
+              "The service holders",
+              "cannot reach",
+              "offices in time."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "The patients are the worst sufferers of traffic jam.",
+            "combination": [
+              "The patients",
+              "are",
+              "the worst sufferers of traffic jam."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "Effective measures must be taken to minimize traffic jam",
+            "combination": [
+              "Effective measures",
+              "must be taken",
+              "to minimize traffic jam"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          }
+        ]
+      }
+    },
+    {
+      "_type": "substitution_table",
+      "id": "sub_4",
+      "exercise": {
+        "id": 4,
+        "question_text": "Make five sentences from the following substitution table.",
+        "table_columns": [
+          [
+            "Computer",
+            "Mobile phone",
+            "Modern technology",
+            "We"
+          ],
+          [
+            "is/are used for",
+            "isn't/aren't used for",
+            "have to",
+            "always safe for us."
+          ],
+          [
+            "using power point.",
+            "speaking with others.",
+            "composing a document.",
+            "ensure the safe use of modern technology."
+          ]
+        ],
+        "valid_sentences": [
+          {
+            "sentence": "Computer is used for using power point.",
+            "combination": [
+              "Computer",
+              "is/are used for",
+              "using power point."
+            ],
+            "explanation_en": "Correct. Computers are used for PowerPoint.",
+            "explanation_bn": "সঠিক। কম্পিউটার পাওয়ার পয়েন্টের জন্য ব্যবহৃত হয়।"
+          },
+          {
+            "sentence": "Computer is used for composing a document.",
+            "combination": [
+              "Computer",
+              "is/are used for",
+              "composing a document."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "Mobile phone is used for speaking with others.",
+            "combination": [
+              "Mobile phone",
+              "is/are used for",
+              "speaking with others."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "We have to ensure the safe use of modern technology.",
+            "combination": [
+              "We",
+              "have to",
+              "ensure the safe use..."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          }
+        ]
+      }
+    },
+    {
+      "_type": "substitution_table",
+      "id": "sub_5",
+      "exercise": {
+        "id": 5,
+        "question_text": "Make five sentences using parts of sentences from each column of the table below.",
+        "table_columns": [
+          [
+            "Socrates",
+            "The young men",
+            "The rulers of Athens",
+            "He",
+            "They"
+          ],
+          [
+            "began",
+            "grew",
+            "was accused of",
+            "sentenced",
+            "to spread knowledge among the people.",
+            "disloyalty.",
+            "jealous of his popularity.",
+            "to gather round him.",
+            "him to death."
+          ]
+        ],
+        "valid_sentences": [
+          {
+            "sentence": "Socrates began to spread knowledge among the people.",
+            "combination": [
+              "Socrates",
+              "began",
+              "to spread knowledge among the people."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "Socrates was accused of disloyalty.",
+            "combination": [
+              "Socrates",
+              "was accused of",
+              "disloyalty."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "The young men began to gather round him.",
+            "combination": [
+              "The young men",
+              "began",
+              "to gather round him."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "The rulers of Athens grew jealous of his popularity.",
+            "combination": [
+              "The rulers of Athens",
+              "grew",
+              "jealous of his popularity."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "The rulers of Athens sentenced him to death.",
+            "combination": [
+              "The rulers of Athens",
+              "sentenced",
+              "him to death."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "They sentenced him to death.",
+            "combination": [
+              "They",
+              "sentenced",
+              "him to death."
+            ],
+            "explanation_en": "Correct. 'They' refers to the rulers of Athens.",
+            "explanation_bn": "সঠিক। 'They' এথেন্সের শাসকদের নির্দেশ করে।"
+          }
+        ]
+      }
+    }
+  ]
+}

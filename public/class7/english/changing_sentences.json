@@ -1,0 +1,932 @@
+{
+  "testId": "class7_changing_sentences",
+  "title": "Changing Sentences - Class 7 English",
+  "description": "Read the following text and change the sentences as directed. For each question, choose the correct transformed sentence.",
+  "questions": [
+    {
+      "mainQuestionId": 1,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "1",
+          "sentence": "Hazi Mohammad Mohsin was a kind man.",
+          "instruction": "Negative to Affirmative (Make it negative)",
+          "options": [
+            {
+              "text": "Hazi Mohammad Mohsin was not an unkind man.",
+              "isCorrect": true,
+              "explanationBn": "মূল বাক্যটি ছিল ইতিবাচক। নেতিবাচক করতে গিয়ে অর্থ অপরিবর্তিত রাখতে 'was not an unkind man' ব্যবহার করা হয়েছে (দ্বি-নেতিবাচক ইতিবাচক অর্থ দেয়)। 'Unkind' হলো 'kind' এর বিপরীতার্থক শব্দ।",
+              "explanationEn": "The original sentence 'was a kind man' is affirmative. To make it negative without changing meaning, we use 'was not an unkind man' (double negative makes affirmative). 'Unkind' is the antonym of 'kind'."
+            },
+            {
+              "text": "Hazi Mohammad Mohsin was not a kind man.",
+              "isCorrect": false,
+              "explanationBn": "মূল বাক্যটি ছিল ইতিবাচক। নেতিবাচক করতে গিয়ে অর্থ অপরিবর্তিত রাখতে 'was not an unkind man' ব্যবহার করা হয়েছে (দ্বি-নেতিবাচক ইতিবাচক অর্থ দেয়)। 'Unkind' হলো 'kind' এর বিপরীতার্থক শব্দ।",
+              "explanationEn": "The original sentence 'was a kind man' is affirmative. To make it negative without changing meaning, we use 'was not an unkind man' (double negative makes affirmative). 'Unkind' is the antonym of 'kind'."
+            },
+            {
+              "text": "Hazi Mohammad Mohsin was a cruel man.",
+              "isCorrect": false,
+              "explanationBn": "মূল বাক্যটি ছিল ইতিবাচক। নেতিবাচক করতে গিয়ে অর্থ অপরিবর্তিত রাখতে 'was not an unkind man' ব্যবহার করা হয়েছে (দ্বি-নেতিবাচক ইতিবাচক অর্থ দেয়)। 'Unkind' হলো 'kind' এর বিপরীতার্থক শব্দ।",
+              "explanationEn": "The original sentence 'was a kind man' is affirmative. To make it negative without changing meaning, we use 'was not an unkind man' (double negative makes affirmative). 'Unkind' is the antonym of 'kind'."
+            },
+            {
+              "text": "Hazi Mohammad Mohsin was an unkind man.",
+              "isCorrect": false,
+              "explanationBn": "মূল বাক্যটি ছিল ইতিবাচক। নেতিবাচক করতে গিয়ে অর্থ অপরিবর্তিত রাখতে 'was not an unkind man' ব্যবহার করা হয়েছে (দ্বি-নেতিবাচক ইতিবাচক অর্থ দেয়)। 'Unkind' হলো 'kind' এর বিপরীতার্থক শব্দ।",
+              "explanationEn": "The original sentence 'was a kind man' is affirmative. To make it negative without changing meaning, we use 'was not an unkind man' (double negative makes affirmative). 'Unkind' is the antonym of 'kind'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 2,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "2",
+          "sentence": "He inherited vast property from his father and sister.",
+          "instruction": "Active to Passive (Make it passive)",
+          "options": [
+            {
+              "text": "Vast property is inherited by him from his father and sister.",
+              "isCorrect": false,
+              "explanationBn": "মূল বাক্যটি past simple tense-এ ছিল। Passive voice-এ past simple tense-এর গঠন 'was/were + past participle'। 'Vast property' singular হওয়ায় 'was' বসবে। কর্তা 'him' 'by' এর পরে বসে।",
+              "explanationEn": "The original sentence is in past simple tense (inherited). The passive form for past simple is 'was/were + past participle'. 'Vast property' is singular, so 'was' is correct. The doer 'him' comes after 'by'."
+            },
+            {
+              "text": "Vast property was inherited by him from his father and sister.",
+              "isCorrect": true,
+              "explanationBn": "মূল বাক্যটি past simple tense-এ ছিল। Passive voice-এ past simple tense-এর গঠন 'was/were + past participle'। 'Vast property' singular হওয়ায় 'was' বসবে। কর্তা 'him' 'by' এর পরে বসে।",
+              "explanationEn": "The original sentence is in past simple tense (inherited). The passive form for past simple is 'was/were + past participle'. 'Vast property' is singular, so 'was' is correct. The doer 'him' comes after 'by'."
+            },
+            {
+              "text": "Vast property has been inherited by him from his father and sister.",
+              "isCorrect": false,
+              "explanationBn": "মূল বাক্যটি past simple tense-এ ছিল। Passive voice-এ past simple tense-এর গঠন 'was/were + past participle'। 'Vast property' singular হওয়ায় 'was' বসবে। কর্তা 'him' 'by' এর পরে বসে।",
+              "explanationEn": "The original sentence is in past simple tense (inherited). The passive form for past simple is 'was/were + past participle'. 'Vast property' is singular, so 'was' is correct. The doer 'him' comes after 'by'."
+            },
+            {
+              "text": "Vast property were inherited by him from his father and sister.",
+              "isCorrect": false,
+              "explanationBn": "মূল বাক্যটি past simple tense-এ ছিল। Passive voice-এ past simple tense-এর গঠন 'was/were + past participle'। 'Vast property' singular হওয়ায় 'was' বসবে। কর্তা 'him' 'by' এর পরে বসে।",
+              "explanationEn": "The original sentence is in past simple tense (inherited). The passive form for past simple is 'was/were + past participle'. 'Vast property' is singular, so 'was' is correct. The doer 'him' comes after 'by'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 3,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "3",
+          "sentence": "He did not marry.",
+          "instruction": "Negative to Affirmative (Make it affirmative)",
+          "options": [
+            {
+              "text": "He was unmarried.",
+              "isCorrect": true,
+              "explanationBn": "'He did not marry' বাক্যটি নেতিবাচক। ইতিবাচক করতে আমরা বলি 'He was unmarried' (অর্থাৎ সে বিবাহ করেনি)। 'He married' বললে অর্থ পুরোপুরি বদলে যাবে।",
+              "explanationEn": "The sentence 'He did not marry' is negative. To make it affirmative, we say 'He was unmarried' (meaning he never married). 'He married' would change the meaning completely."
+            },
+            {
+              "text": "He married.",
+              "isCorrect": false,
+              "explanationBn": "'He did not marry' বাক্যটি নেতিবাচক। ইতিবাচক করতে আমরা বলি 'He was unmarried' (অর্থাৎ সে বিবাহ করেনি)। 'He married' বললে অর্থ পুরোপুরি বদলে যাবে।",
+              "explanationEn": "The sentence 'He did not marry' is negative. To make it affirmative, we say 'He was unmarried' (meaning he never married). 'He married' would change the meaning completely."
+            },
+            {
+              "text": "He was married.",
+              "isCorrect": false,
+              "explanationBn": "'He did not marry' বাক্যটি নেতিবাচক। ইতিবাচক করতে আমরা বলি 'He was unmarried' (অর্থাৎ সে বিবাহ করেনি)। 'He married' বললে অর্থ পুরোপুরি বদলে যাবে।",
+              "explanationEn": "The sentence 'He did not marry' is negative. To make it affirmative, we say 'He was unmarried' (meaning he never married). 'He married' would change the meaning completely."
+            },
+            {
+              "text": "He did marry.",
+              "isCorrect": false,
+              "explanationBn": "'He did not marry' বাক্যটি নেতিবাচক। ইতিবাচক করতে আমরা বলি 'He was unmarried' (অর্থাৎ সে বিবাহ করেনি)। 'He married' বললে অর্থ পুরোপুরি বদলে যাবে।",
+              "explanationEn": "The sentence 'He did not marry' is negative. To make it affirmative, we say 'He was unmarried' (meaning he never married). 'He married' would change the meaning completely."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 4,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "4",
+          "sentence": "During his lifetime he spent money lavishly.",
+          "instruction": "Assertive to Interrogative (Make it interrogative)",
+          "options": [
+            {
+              "text": "Did he spend money lavishly during his lifetime?",
+              "isCorrect": false,
+              "explanationBn": "একটি ইতিবাচক বাক্যকে যে interrogative-এ পরিবর্তন করে সম্মতি বোঝানো হয়, সেটি নেতিবাচক প্রশ্ন আকারে হয়। যেহেতু বাক্যটি ইতিবাচক, interrogative হবে নেতিবাচক: 'Didn't he spend...?'",
+              "explanationEn": "To change an assertive sentence into an interrogative that implies agreement, use the negative question form. Since the sentence is affirmative, the interrogative will be negative: 'Didn't he spend...?'"
+            },
+            {
+              "text": "Didn't he spend money lavishly during his lifetime?",
+              "isCorrect": true,
+              "explanationBn": "একটি ইতিবাচক বাক্যকে যে interrogative-এ পরিবর্তন করে সম্মতি বোঝানো হয়, সেটি নেতিবাচক প্রশ্ন আকারে হয়। যেহেতু বাক্যটি ইতিবাচক, interrogative হবে নেতিবাচক: 'Didn't he spend...?'",
+              "explanationEn": "To change an assertive sentence into an interrogative that implies agreement, use the negative question form. Since the sentence is affirmative, the interrogative will be negative: 'Didn't he spend...?'"
+            },
+            {
+              "text": "He didn't spend money lavishly during his lifetime?",
+              "isCorrect": false,
+              "explanationBn": "একটি ইতিবাচক বাক্যকে যে interrogative-এ পরিবর্তন করে সম্মতি বোঝানো হয়, সেটি নেতিবাচক প্রশ্ন আকারে হয়। যেহেতু বাক্যটি ইতিবাচক, interrogative হবে নেতিবাচক: 'Didn't he spend...?'",
+              "explanationEn": "To change an assertive sentence into an interrogative that implies agreement, use the negative question form. Since the sentence is affirmative, the interrogative will be negative: 'Didn't he spend...?'"
+            },
+            {
+              "text": "Was he spending money lavishly during his lifetime?",
+              "isCorrect": false,
+              "explanationBn": "একটি ইতিবাচক বাক্যকে যে interrogative-এ পরিবর্তন করে সম্মতি বোঝানো হয়, সেটি নেতিবাচক প্রশ্ন আকারে হয়। যেহেতু বাক্যটি ইতিবাচক, interrogative হবে নেতিবাচক: 'Didn't he spend...?'",
+              "explanationEn": "To change an assertive sentence into an interrogative that implies agreement, use the negative question form. Since the sentence is affirmative, the interrogative will be negative: 'Didn't he spend...?'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 5,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "5",
+          "sentence": "We all should follow Mohammad Mohsin.",
+          "instruction": "Assertive to Imperative (Imperative)",
+          "options": [
+            {
+              "text": "We should follow Mohammad Mohsin.",
+              "isCorrect": false,
+              "explanationBn": "Imperative sentence কোন আদেশ, উপদেশ বা পরামর্শ দেয়। ইতিবাচক বাক্যকে imperative করতে 'Let's' (let us) ব্যবহার করা হয় যখন তা পরামর্শ বোঝায়।",
+              "explanationEn": "An imperative sentence gives a command, advice, or suggestion. 'Let's' (let us) is used to transform assertive sentences expressing suggestion into imperative mood."
+            },
+            {
+              "text": "Let's follow Mohammad Mohsin.",
+              "isCorrect": true,
+              "explanationBn": "Imperative sentence কোন আদেশ, উপদেশ বা পরামর্শ দেয়। ইতিবাচক বাক্যকে imperative করতে 'Let's' (let us) ব্যবহার করা হয় যখন তা পরামর্শ বোঝায়।",
+              "explanationEn": "An imperative sentence gives a command, advice, or suggestion. 'Let's' (let us) is used to transform assertive sentences expressing suggestion into imperative mood."
+            },
+            {
+              "text": "Let us all follow Mohammad Mohsin, shall we?",
+              "isCorrect": false,
+              "explanationBn": "Imperative sentence কোন আদেশ, উপদেশ বা পরামর্শ দেয়। ইতিবাচক বাক্যকে imperative করতে 'Let's' (let us) ব্যবহার করা হয় যখন তা পরামর্শ বোঝায়।",
+              "explanationEn": "An imperative sentence gives a command, advice, or suggestion. 'Let's' (let us) is used to transform assertive sentences expressing suggestion into imperative mood."
+            },
+            {
+              "text": "You should follow Mohammad Mohsin.",
+              "isCorrect": false,
+              "explanationBn": "Imperative sentence কোন আদেশ, উপদেশ বা পরামর্শ দেয়। ইতিবাচক বাক্যকে imperative করতে 'Let's' (let us) ব্যবহার করা হয় যখন তা পরামর্শ বোঝায়।",
+              "explanationEn": "An imperative sentence gives a command, advice, or suggestion. 'Let's' (let us) is used to transform assertive sentences expressing suggestion into imperative mood."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 6,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "6",
+          "sentence": "Who does not know a postman?",
+          "instruction": "Active to Passive (Passive)",
+          "options": [
+            {
+              "text": "To whom is a postman not known?",
+              "isCorrect": true,
+              "explanationBn": "Active interrogative 'Who does not know a postman?' -এর passive হয় 'To whom is a postman not known?'। এখানে object 'postman' subject হয় এবং subject 'who' 'to whom' -এ রূপান্তরিত হয়।",
+              "explanationEn": "The active interrogative 'Who does not know a postman?' changes to passive as 'To whom is a postman not known?' The object 'postman' becomes subject, and the subject 'who' becomes 'to whom' after 'by' (implied)."
+            },
+            {
+              "text": "Whom is a postman known to?",
+              "isCorrect": false,
+              "explanationBn": "Active interrogative 'Who does not know a postman?' -এর passive হয় 'To whom is a postman not known?'। এখানে object 'postman' subject হয় এবং subject 'who' 'to whom' -এ রূপান্তরিত হয়।",
+              "explanationEn": "The active interrogative 'Who does not know a postman?' changes to passive as 'To whom is a postman not known?' The object 'postman' becomes subject, and the subject 'who' becomes 'to whom' after 'by' (implied)."
+            },
+            {
+              "text": "By whom is a postman known?",
+              "isCorrect": false,
+              "explanationBn": "Active interrogative 'Who does not know a postman?' -এর passive হয় 'To whom is a postman not known?'। এখানে object 'postman' subject হয় এবং subject 'who' 'to whom' -এ রূপান্তরিত হয়।",
+              "explanationEn": "The active interrogative 'Who does not know a postman?' changes to passive as 'To whom is a postman not known?' The object 'postman' becomes subject, and the subject 'who' becomes 'to whom' after 'by' (implied)."
+            },
+            {
+              "text": "To whom does a postman not known?",
+              "isCorrect": false,
+              "explanationBn": "Active interrogative 'Who does not know a postman?' -এর passive হয় 'To whom is a postman not known?'। এখানে object 'postman' subject হয় এবং subject 'who' 'to whom' -এ রূপান্তরিত হয়।",
+              "explanationEn": "The active interrogative 'Who does not know a postman?' changes to passive as 'To whom is a postman not known?' The object 'postman' becomes subject, and the subject 'who' becomes 'to whom' after 'by' (implied)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 7,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "7",
+          "sentence": "He is a familiar figure.",
+          "instruction": "Affirmative to Negative (Negative)",
+          "options": [
+            {
+              "text": "He is not an unfamiliar figure.",
+              "isCorrect": true,
+              "explanationBn": "'He is a familiar figure' -কে অর্থ অপরিবর্তিত রেখে নেতিবাচক করতে বিপরীত শব্দ 'unfamiliar' এবং নেতিবাচক 'not' ব্যবহার করুন: 'He is not an unfamiliar figure'।",
+              "explanationEn": "To make 'He is a familiar figure' negative without changing meaning, use the antonym 'unfamiliar' with a negative: 'He is not an unfamiliar figure' (double negative = affirmative)."
+            },
+            {
+              "text": "He is an unfamiliar figure.",
+              "isCorrect": false,
+              "explanationBn": "'He is a familiar figure' -কে অর্থ অপরিবর্তিত রেখে নেতিবাচক করতে বিপরীত শব্দ 'unfamiliar' এবং নেতিবাচক 'not' ব্যবহার করুন: 'He is not an unfamiliar figure'।",
+              "explanationEn": "To make 'He is a familiar figure' negative without changing meaning, use the antonym 'unfamiliar' with a negative: 'He is not an unfamiliar figure' (double negative = affirmative)."
+            },
+            {
+              "text": "He is not a familiar figure.",
+              "isCorrect": false,
+              "explanationBn": "'He is a familiar figure' -কে অর্থ অপরিবর্তিত রেখে নেতিবাচক করতে বিপরীত শব্দ 'unfamiliar' এবং নেতিবাচক 'not' ব্যবহার করুন: 'He is not an unfamiliar figure'।",
+              "explanationEn": "To make 'He is a familiar figure' negative without changing meaning, use the antonym 'unfamiliar' with a negative: 'He is not an unfamiliar figure' (double negative = affirmative)."
+            },
+            {
+              "text": "He is a known figure.",
+              "isCorrect": false,
+              "explanationBn": "'He is a familiar figure' -কে অর্থ অপরিবর্তিত রেখে নেতিবাচক করতে বিপরীত শব্দ 'unfamiliar' এবং নেতিবাচক 'not' ব্যবহার করুন: 'He is not an unfamiliar figure'।",
+              "explanationEn": "To make 'He is a familiar figure' negative without changing meaning, use the antonym 'unfamiliar' with a negative: 'He is not an unfamiliar figure' (double negative = affirmative)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 8,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "8",
+          "sentence": "His responsibility is not insignificant.",
+          "instruction": "Negative to Affirmative (Affirmative)",
+          "options": [
+            {
+              "text": "His responsibility is significant.",
+              "isCorrect": true,
+              "explanationBn": "নেতিবাচক বাক্যটি 'not insignificant' (দুটি নেতিবাচক) ব্যবহার করেছে। উভয় নেতিবাচক অপসারণ করলে ইতিবাচক বাক্য পাই: 'His responsibility is significant.' 'Significant' হলো 'insignificant' -এর বিপরীত।",
+              "explanationEn": "The negative sentence uses 'not insignificant' (two negatives). Removing both negatives gives the affirmative: 'His responsibility is significant.' 'Significant' is a direct antonym of 'insignificant'."
+            },
+            {
+              "text": "His responsibility is insignificant.",
+              "isCorrect": false,
+              "explanationBn": "নেতিবাচক বাক্যটি 'not insignificant' (দুটি নেতিবাচক) ব্যবহার করেছে। উভয় নেতিবাচক অপসারণ করলে ইতিবাচক বাক্য পাই: 'His responsibility is significant.' 'Significant' হলো 'insignificant' -এর বিপরীত।",
+              "explanationEn": "The negative sentence uses 'not insignificant' (two negatives). Removing both negatives gives the affirmative: 'His responsibility is significant.' 'Significant' is a direct antonym of 'insignificant'."
+            },
+            {
+              "text": "His responsibility is not significant.",
+              "isCorrect": false,
+              "explanationBn": "নেতিবাচক বাক্যটি 'not insignificant' (দুটি নেতিবাচক) ব্যবহার করেছে। উভয় নেতিবাচক অপসারণ করলে ইতিবাচক বাক্য পাই: 'His responsibility is significant.' 'Significant' হলো 'insignificant' -এর বিপরীত।",
+              "explanationEn": "The negative sentence uses 'not insignificant' (two negatives). Removing both negatives gives the affirmative: 'His responsibility is significant.' 'Significant' is a direct antonym of 'insignificant'."
+            },
+            {
+              "text": "His responsibility is important.",
+              "isCorrect": false,
+              "explanationBn": "নেতিবাচক বাক্যটি 'not insignificant' (দুটি নেতিবাচক) ব্যবহার করেছে। উভয় নেতিবাচক অপসারণ করলে ইতিবাচক বাক্য পাই: 'His responsibility is significant.' 'Significant' হলো 'insignificant' -এর বিপরীত।",
+              "explanationEn": "The negative sentence uses 'not insignificant' (two negatives). Removing both negatives gives the affirmative: 'His responsibility is significant.' 'Significant' is a direct antonym of 'insignificant'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 9,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "9",
+          "sentence": "He is a low paid employee.",
+          "instruction": "Assertive to Interrogative (Interrogative)",
+          "options": [
+            {
+              "text": "Is he a low paid employee?",
+              "isCorrect": false,
+              "explanationBn": "একটি ইতিবাচক assertive বাক্যকে এমন interrogative-এ পরিবর্তন করতে যা 'হ্যাঁ' সূচক উত্তর আশা করে, নেতিবাচক interrogative ফর্ম ব্যবহার করুন: 'Isn't he a low paid employee?'",
+              "explanationEn": "To change an affirmative assertive sentence into an interrogative that expects a 'yes' answer, use the negative interrogative form: 'Isn't he a low paid employee?'"
+            },
+            {
+              "text": "Isn't he a low paid employee?",
+              "isCorrect": true,
+              "explanationBn": "একটি ইতিবাচক assertive বাক্যকে এমন interrogative-এ পরিবর্তন করতে যা 'হ্যাঁ' সূচক উত্তর আশা করে, নেতিবাচক interrogative ফর্ম ব্যবহার করুন: 'Isn't he a low paid employee?'",
+              "explanationEn": "To change an affirmative assertive sentence into an interrogative that expects a 'yes' answer, use the negative interrogative form: 'Isn't he a low paid employee?'"
+            },
+            {
+              "text": "Is he not a low paid employee?",
+              "isCorrect": false,
+              "explanationBn": "একটি ইতিবাচক assertive বাক্যকে এমন interrogative-এ পরিবর্তন করতে যা 'হ্যাঁ' সূচক উত্তর আশা করে, নেতিবাচক interrogative ফর্ম ব্যবহার করুন: 'Isn't he a low paid employee?'",
+              "explanationEn": "To change an affirmative assertive sentence into an interrogative that expects a 'yes' answer, use the negative interrogative form: 'Isn't he a low paid employee?'"
+            },
+            {
+              "text": "Is he a high paid employee?",
+              "isCorrect": false,
+              "explanationBn": "একটি ইতিবাচক assertive বাক্যকে এমন interrogative-এ পরিবর্তন করতে যা 'হ্যাঁ' সূচক উত্তর আশা করে, নেতিবাচক interrogative ফর্ম ব্যবহার করুন: 'Isn't he a low paid employee?'",
+              "explanationEn": "To change an affirmative assertive sentence into an interrogative that expects a 'yes' answer, use the negative interrogative form: 'Isn't he a low paid employee?'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 10,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "10",
+          "sentence": "I wish that Allah bless them.",
+          "instruction": "Assertive to Optative (Optative)",
+          "options": [
+            {
+              "text": "May Allah bless them.",
+              "isCorrect": true,
+              "explanationBn": "Optative sentence ইচ্ছা, প্রার্থনা বা আশীর্বাদ প্রকাশ করে। 'I wish that Allah bless them' -এর রূপান্তর 'May Allah bless them' – এটি 'May' দিয়ে শুরু হওয়া আদর্শ optative গঠন।",
+              "explanationEn": "An optative sentence expresses wish, prayer, or blessing. 'I wish that Allah bless them' transforms to 'May Allah bless them' – the standard optative structure starting with 'May'."
+            },
+            {
+              "text": "Allah bless them.",
+              "isCorrect": false,
+              "explanationBn": "Optative sentence ইচ্ছা, প্রার্থনা বা আশীর্বাদ প্রকাশ করে। 'I wish that Allah bless them' -এর রূপান্তর 'May Allah bless them' – এটি 'May' দিয়ে শুরু হওয়া আদর্শ optative গঠন।",
+              "explanationEn": "An optative sentence expresses wish, prayer, or blessing. 'I wish that Allah bless them' transforms to 'May Allah bless them' – the standard optative structure starting with 'May'."
+            },
+            {
+              "text": "I pray that Allah blesses them.",
+              "isCorrect": false,
+              "explanationBn": "Optative sentence ইচ্ছা, প্রার্থনা বা আশীর্বাদ প্রকাশ করে। 'I wish that Allah bless them' -এর রূপান্তর 'May Allah bless them' – এটি 'May' দিয়ে শুরু হওয়া আদর্শ optative গঠন।",
+              "explanationEn": "An optative sentence expresses wish, prayer, or blessing. 'I wish that Allah bless them' transforms to 'May Allah bless them' – the standard optative structure starting with 'May'."
+            },
+            {
+              "text": "Let Allah bless them.",
+              "isCorrect": false,
+              "explanationBn": "Optative sentence ইচ্ছা, প্রার্থনা বা আশীর্বাদ প্রকাশ করে। 'I wish that Allah bless them' -এর রূপান্তর 'May Allah bless them' – এটি 'May' দিয়ে শুরু হওয়া আদর্শ optative গঠন।",
+              "explanationEn": "An optative sentence expresses wish, prayer, or blessing. 'I wish that Allah bless them' transforms to 'May Allah bless them' – the standard optative structure starting with 'May'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 11,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "11",
+          "sentence": "The causes of traffic jam are many.",
+          "instruction": "Affirmative to Negative (Negative)",
+          "options": [
+            {
+              "text": "The causes of traffic jam are not a few.",
+              "isCorrect": true,
+              "explanationBn": "'The causes are many' -কে অর্থ অপরিবর্তিত রেখে নেতিবাচক করতে 'not a few' ব্যবহার করুন (যার অর্থ many)। 'Few' মানে প্রায় কিছুই না, কিন্তু 'a few' মানে কিছু। 'Not a few' = many।",
+              "explanationEn": "To make 'The causes are many' negative without changing meaning, use 'not a few' (which means many). 'Few' means almost none, while 'a few' means some. 'Not a few' = many."
+            },
+            {
+              "text": "The causes of traffic jam are not many.",
+              "isCorrect": false,
+              "explanationBn": "'The causes are many' -কে অর্থ অপরিবর্তিত রেখে নেতিবাচক করতে 'not a few' ব্যবহার করুন (যার অর্থ many)। 'Few' মানে প্রায় কিছুই না, কিন্তু 'a few' মানে কিছু। 'Not a few' = many।",
+              "explanationEn": "To make 'The causes are many' negative without changing meaning, use 'not a few' (which means many). 'Few' means almost none, while 'a few' means some. 'Not a few' = many."
+            },
+            {
+              "text": "The causes of traffic jam are few.",
+              "isCorrect": false,
+              "explanationBn": "'The causes are many' -কে অর্থ অপরিবর্তিত রেখে নেতিবাচক করতে 'not a few' ব্যবহার করুন (যার অর্থ many)। 'Few' মানে প্রায় কিছুই না, কিন্তু 'a few' মানে কিছু। 'Not a few' = many।",
+              "explanationEn": "To make 'The causes are many' negative without changing meaning, use 'not a few' (which means many). 'Few' means almost none, while 'a few' means some. 'Not a few' = many."
+            },
+            {
+              "text": "The causes of traffic jam are not numerous.",
+              "isCorrect": false,
+              "explanationBn": "'The causes are many' -কে অর্থ অপরিবর্তিত রেখে নেতিবাচক করতে 'not a few' ব্যবহার করুন (যার অর্থ many)। 'Few' মানে প্রায় কিছুই না, কিন্তু 'a few' মানে কিছু। 'Not a few' = many।",
+              "explanationEn": "To make 'The causes are many' negative without changing meaning, use 'not a few' (which means many). 'Few' means almost none, while 'a few' means some. 'Not a few' = many."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 12,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "12",
+          "sentence": "The drivers don't obey traffic rules.",
+          "instruction": "Negative to Affirmative (Affirmative)",
+          "options": [
+            {
+              "text": "The drivers disobey traffic rules.",
+              "isCorrect": true,
+              "explanationBn": "নেতিবাচক 'don't obey' -কে ইতিবাচকে রূপান্তর করতে বিপরীত শব্দ 'disobey' ব্যবহার করুন। 'Disobey' মানে obey-এর বিপরীত, তাই 'The drivers disobey traffic rules' মূল অর্থ রাখে।",
+              "explanationEn": "The negative 'don't obey' is transformed to affirmative by using the antonym 'disobey'. 'Disobey' means the opposite of obey, so 'The drivers disobey traffic rules' keeps the original meaning."
+            },
+            {
+              "text": "The drivers obey traffic rules.",
+              "isCorrect": false,
+              "explanationBn": "নেতিবাচক 'don't obey' -কে ইতিবাচকে রূপান্তর করতে বিপরীত শব্দ 'disobey' ব্যবহার করুন। 'Disobey' মানে obey-এর বিপরীত, তাই 'The drivers disobey traffic rules' মূল অর্থ রাখে।",
+              "explanationEn": "The negative 'don't obey' is transformed to affirmative by using the antonym 'disobey'. 'Disobey' means the opposite of obey, so 'The drivers disobey traffic rules' keeps the original meaning."
+            },
+            {
+              "text": "The drivers don't follow traffic rules.",
+              "isCorrect": false,
+              "explanationBn": "নেতিবাচক 'don't obey' -কে ইতিবাচকে রূপান্তর করতে বিপরীত শব্দ 'disobey' ব্যবহার করুন। 'Disobey' মানে obey-এর বিপরীত, তাই 'The drivers disobey traffic rules' মূল অর্থ রাখে।",
+              "explanationEn": "The negative 'don't obey' is transformed to affirmative by using the antonym 'disobey'. 'Disobey' means the opposite of obey, so 'The drivers disobey traffic rules' keeps the original meaning."
+            },
+            {
+              "text": "The drivers are disobedient to traffic rules.",
+              "isCorrect": false,
+              "explanationBn": "নেতিবাচক 'don't obey' -কে ইতিবাচকে রূপান্তর করতে বিপরীত শব্দ 'disobey' ব্যবহার করুন। 'Disobey' মানে obey-এর বিপরীত, তাই 'The drivers disobey traffic rules' মূল অর্থ রাখে।",
+              "explanationEn": "The negative 'don't obey' is transformed to affirmative by using the antonym 'disobey'. 'Disobey' means the opposite of obey, so 'The drivers disobey traffic rules' keeps the original meaning."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 13,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "13",
+          "sentence": "Overtaking tendency also causes traffic jam.",
+          "instruction": "Assertive to Interrogative (Interrogative)",
+          "options": [
+            {
+              "text": "Doesn't overtaking tendency also cause traffic jam?",
+              "isCorrect": true,
+              "explanationBn": "একটি ইতিবাচক বাক্যের জন্য নেতিবাচক প্রশ্ন (doesn't) ব্যবহার করে interrogative করলে তা সম্মতি বা জোর বোঝায়। মনে রাখবেন 'doesn't' -এর পরে মূল verb 'cause' বসে, 'causes' নয়।",
+              "explanationEn": "For an affirmative sentence, the interrogative form using a negative question (doesn't) implies agreement or emphasis. Note that after 'doesn't', the base verb 'cause' is used, not 'causes'."
+            },
+            {
+              "text": "Does overtaking tendency also cause traffic jam?",
+              "isCorrect": false,
+              "explanationBn": "একটি ইতিবাচক বাক্যের জন্য নেতিবাচক প্রশ্ন (doesn't) ব্যবহার করে interrogative করলে তা সম্মতি বা জোর বোঝায়। মনে রাখবেন 'doesn't' -এর পরে মূল verb 'cause' বসে, 'causes' নয়।",
+              "explanationEn": "For an affirmative sentence, the interrogative form using a negative question (doesn't) implies agreement or emphasis. Note that after 'doesn't', the base verb 'cause' is used, not 'causes'."
+            },
+            {
+              "text": "Doesn't overtaking tendency also causes traffic jam?",
+              "isCorrect": false,
+              "explanationBn": "একটি ইতিবাচক বাক্যের জন্য নেতিবাচক প্রশ্ন (doesn't) ব্যবহার করে interrogative করলে তা সম্মতি বা জোর বোঝায়। মনে রাখবেন 'doesn't' -এর পরে মূল verb 'cause' বসে, 'causes' নয়।",
+              "explanationEn": "For an affirmative sentence, the interrogative form using a negative question (doesn't) implies agreement or emphasis. Note that after 'doesn't', the base verb 'cause' is used, not 'causes'."
+            },
+            {
+              "text": "Does overtaking tendency also not cause traffic jam?",
+              "isCorrect": false,
+              "explanationBn": "একটি ইতিবাচক বাক্যের জন্য নেতিবাচক প্রশ্ন (doesn't) ব্যবহার করে interrogative করলে তা সম্মতি বা জোর বোঝায়। মনে রাখবেন 'doesn't' -এর পরে মূল verb 'cause' বসে, 'causes' নয়।",
+              "explanationEn": "For an affirmative sentence, the interrogative form using a negative question (doesn't) implies agreement or emphasis. Note that after 'doesn't', the base verb 'cause' is used, not 'causes'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 14,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "14",
+          "sentence": "The govt. should construct spacious roads.",
+          "instruction": "Active to Passive (Passive voice)",
+          "options": [
+            {
+              "text": "Spacious roads should be constructed by the govt.",
+              "isCorrect": true,
+              "explanationBn": "Active বাক্যটিতে modal verb 'should' আছে। Modal-এর জন্য passive গঠন: modal + be + past participle. তাই 'should construct' হবে 'should be constructed'।",
+              "explanationEn": "The active sentence has modal verb 'should'. The passive structure for modals is: modal + be + past participle. So 'should construct' becomes 'should be constructed'."
+            },
+            {
+              "text": "Spacious roads should be construct by the govt.",
+              "isCorrect": false,
+              "explanationBn": "Active বাক্যটিতে modal verb 'should' আছে। Modal-এর জন্য passive গঠন: modal + be + past participle. তাই 'should construct' হবে 'should be constructed'।",
+              "explanationEn": "The active sentence has modal verb 'should'. The passive structure for modals is: modal + be + past participle. So 'should construct' becomes 'should be constructed'."
+            },
+            {
+              "text": "Spacious roads should been constructed by the govt.",
+              "isCorrect": false,
+              "explanationBn": "Active বাক্যটিতে modal verb 'should' আছে। Modal-এর জন্য passive গঠন: modal + be + past participle. তাই 'should construct' হবে 'should be constructed'।",
+              "explanationEn": "The active sentence has modal verb 'should'. The passive structure for modals is: modal + be + past participle. So 'should construct' becomes 'should be constructed'."
+            },
+            {
+              "text": "Spacious roads are constructed by the govt.",
+              "isCorrect": false,
+              "explanationBn": "Active বাক্যটিতে modal verb 'should' আছে। Modal-এর জন্য passive গঠন: modal + be + past participle. তাই 'should construct' হবে 'should be constructed'।",
+              "explanationEn": "The active sentence has modal verb 'should'. The passive structure for modals is: modal + be + past participle. So 'should construct' becomes 'should be constructed'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 15,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "15",
+          "sentence": "We all must work together to reduce traffic jams.",
+          "instruction": "Assertive to Imperative (Imperative)",
+          "options": [
+            {
+              "text": "Let's all work together to reduce traffic jams.",
+              "isCorrect": true,
+              "explanationBn": "পরামর্শ প্রকাশক একটি assertive বাক্যকে imperative-এ রূপান্তর করতে 'Let's' (let us) ব্যবহার করুন। 'Let's all work together' সঠিক imperative রূপ। 'Let we' ব্যাকরণগতভাবে ভুল।",
+              "explanationEn": "To transform an assertive sentence expressing suggestion into an imperative, use 'Let's' (let us). 'Let's all work together' is the correct imperative form. 'Let we' is grammatically incorrect."
+            },
+            {
+              "text": "We work together to reduce traffic jams.",
+              "isCorrect": false,
+              "explanationBn": "পরামর্শ প্রকাশক একটি assertive বাক্যকে imperative-এ রূপান্তর করতে 'Let's' (let us) ব্যবহার করুন। 'Let's all work together' সঠিক imperative রূপ। 'Let we' ব্যাকরণগতভাবে ভুল।",
+              "explanationEn": "To transform an assertive sentence expressing suggestion into an imperative, use 'Let's' (let us). 'Let's all work together' is the correct imperative form. 'Let we' is grammatically incorrect."
+            },
+            {
+              "text": "You all must work together to reduce traffic jams.",
+              "isCorrect": false,
+              "explanationBn": "পরামর্শ প্রকাশক একটি assertive বাক্যকে imperative-এ রূপান্তর করতে 'Let's' (let us) ব্যবহার করুন। 'Let's all work together' সঠিক imperative রূপ। 'Let we' ব্যাকরণগতভাবে ভুল।",
+              "explanationEn": "To transform an assertive sentence expressing suggestion into an imperative, use 'Let's' (let us). 'Let's all work together' is the correct imperative form. 'Let we' is grammatically incorrect."
+            },
+            {
+              "text": "Let we all work together to reduce traffic jams.",
+              "isCorrect": false,
+              "explanationBn": "পরামর্শ প্রকাশক একটি assertive বাক্যকে imperative-এ রূপান্তর করতে 'Let's' (let us) ব্যবহার করুন। 'Let's all work together' সঠিক imperative রূপ। 'Let we' ব্যাকরণগতভাবে ভুল।",
+              "explanationEn": "To transform an assertive sentence expressing suggestion into an imperative, use 'Let's' (let us). 'Let's all work together' is the correct imperative form. 'Let we' is grammatically incorrect."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 16,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "16",
+          "sentence": "English is a very important language.",
+          "instruction": "Assertive to Exclamatory (Make it exclamatory)",
+          "options": [
+            {
+              "text": "What an important language English is!",
+              "isCorrect": true,
+              "explanationBn": "Exclamatory বাক্য তীব্র আবেগ প্রকাশ করে। Noun phrase ('a very important language') -এর জন্য 'What + a/an + adjective + noun + subject + verb!' ব্যবহার করুন। 'What an important language English is!' সঠিক।",
+              "explanationEn": "Exclamatory sentences express strong emotion. For a noun phrase ('a very important language'), use 'What + a/an + adjective + noun + subject + verb!' 'What an important language English is!' is correct."
+            },
+            {
+              "text": "How important English is!",
+              "isCorrect": false,
+              "explanationBn": "Exclamatory বাক্য তীব্র আবেগ প্রকাশ করে। Noun phrase ('a very important language') -এর জন্য 'What + a/an + adjective + noun + subject + verb!' ব্যবহার করুন। 'What an important language English is!' সঠিক।",
+              "explanationEn": "Exclamatory sentences express strong emotion. For a noun phrase ('a very important language'), use 'What + a/an + adjective + noun + subject + verb!' 'What an important language English is!' is correct."
+            },
+            {
+              "text": "What a important language English is!",
+              "isCorrect": false,
+              "explanationBn": "Exclamatory বাক্য তীব্র আবেগ প্রকাশ করে। Noun phrase ('a very important language') -এর জন্য 'What + a/an + adjective + noun + subject + verb!' ব্যবহার করুন। 'What an important language English is!' সঠিক।",
+              "explanationEn": "Exclamatory sentences express strong emotion. For a noun phrase ('a very important language'), use 'What + a/an + adjective + noun + subject + verb!' 'What an important language English is!' is correct."
+            },
+            {
+              "text": "How an important language English is!",
+              "isCorrect": false,
+              "explanationBn": "Exclamatory বাক্য তীব্র আবেগ প্রকাশ করে। Noun phrase ('a very important language') -এর জন্য 'What + a/an + adjective + noun + subject + verb!' ব্যবহার করুন। 'What an important language English is!' সঠিক।",
+              "explanationEn": "Exclamatory sentences express strong emotion. For a noun phrase ('a very important language'), use 'What + a/an + adjective + noun + subject + verb!' 'What an important language English is!' is correct."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 17,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "17",
+          "sentence": "Isn't it an international language?",
+          "instruction": "Interrogative to Assertive (Make it Assertive)",
+          "options": [
+            {
+              "text": "It is an international language.",
+              "isCorrect": true,
+              "explanationBn": "একটি নেতিবাচক interrogative প্রশ্ন ('Isn't it...') একটি ইতিবাচক assertion নির্দেশ করে। Assertive রূপটি হলো সরল ইতিবাচক বিবৃতি: 'It is an international language.'",
+              "explanationEn": "A negative interrogative question ('Isn't it...') implies a positive assertion. The assertive form is simply the positive statement: 'It is an international language.'"
+            },
+            {
+              "text": "It is not an international language.",
+              "isCorrect": false,
+              "explanationBn": "একটি নেতিবাচক interrogative প্রশ্ন ('Isn't it...') একটি ইতিবাচক assertion নির্দেশ করে। Assertive রূপটি হলো সরল ইতিবাচক বিবৃতি: 'It is an international language.'",
+              "explanationEn": "A negative interrogative question ('Isn't it...') implies a positive assertion. The assertive form is simply the positive statement: 'It is an international language.'"
+            },
+            {
+              "text": "Is it an international language?",
+              "isCorrect": false,
+              "explanationBn": "একটি নেতিবাচক interrogative প্রশ্ন ('Isn't it...') একটি ইতিবাচক assertion নির্দেশ করে। Assertive রূপটি হলো সরল ইতিবাচক বিবৃতি: 'It is an international language.'",
+              "explanationEn": "A negative interrogative question ('Isn't it...') implies a positive assertion. The assertive form is simply the positive statement: 'It is an international language.'"
+            },
+            {
+              "text": "It is an international language, isn't it?",
+              "isCorrect": false,
+              "explanationBn": "একটি নেতিবাচক interrogative প্রশ্ন ('Isn't it...') একটি ইতিবাচক assertion নির্দেশ করে। Assertive রূপটি হলো সরল ইতিবাচক বিবৃতি: 'It is an international language.'",
+              "explanationEn": "A negative interrogative question ('Isn't it...') implies a positive assertion. The assertive form is simply the positive statement: 'It is an international language.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 18,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "18",
+          "sentence": "We should learn it.",
+          "instruction": "Active to Passive (Make it passive)",
+          "options": [
+            {
+              "text": "It should be learned by us.",
+              "isCorrect": true,
+              "explanationBn": "Active-এ modal 'should' passive-এ 'should be' + past participle হয়। 'Learn' একটি অনিয়মিত verb: past participle 'learned' (বা 'learnt')। 'It should be learned by us' সঠিক।",
+              "explanationEn": "The modal 'should' in active becomes 'should be' + past participle in passive. 'Learn' is an irregular verb: past participle is 'learned' (or 'learnt'). 'It should be learned by us' is correct."
+            },
+            {
+              "text": "It should be learn by us.",
+              "isCorrect": false,
+              "explanationBn": "Active-এ modal 'should' passive-এ 'should be' + past participle হয়। 'Learn' একটি অনিয়মিত verb: past participle 'learned' (বা 'learnt')। 'It should be learned by us' সঠিক।",
+              "explanationEn": "The modal 'should' in active becomes 'should be' + past participle in passive. 'Learn' is an irregular verb: past participle is 'learned' (or 'learnt'). 'It should be learned by us' is correct."
+            },
+            {
+              "text": "It should been learned by us.",
+              "isCorrect": false,
+              "explanationBn": "Active-এ modal 'should' passive-এ 'should be' + past participle হয়। 'Learn' একটি অনিয়মিত verb: past participle 'learned' (বা 'learnt')। 'It should be learned by us' সঠিক।",
+              "explanationEn": "The modal 'should' in active becomes 'should be' + past participle in passive. 'Learn' is an irregular verb: past participle is 'learned' (or 'learnt'). 'It should be learned by us' is correct."
+            },
+            {
+              "text": "It is learned by us.",
+              "isCorrect": false,
+              "explanationBn": "Active-এ modal 'should' passive-এ 'should be' + past participle হয়। 'Learn' একটি অনিয়মিত verb: past participle 'learned' (বা 'learnt')। 'It should be learned by us' সঠিক।",
+              "explanationEn": "The modal 'should' in active becomes 'should be' + past participle in passive. 'Learn' is an irregular verb: past participle is 'learned' (or 'learnt'). 'It should be learned by us' is correct."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 19,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "19",
+          "sentence": "It is a necessary language.",
+          "instruction": "Affirmative to Negative (Make it negative)",
+          "options": [
+            {
+              "text": "It is not an unnecessary language.",
+              "isCorrect": true,
+              "explanationBn": "'necessary' -কে অর্থ অপরিবর্তিত রেখে নেতিবাচক করতে এর বিপরীত শব্দ 'unnecessary' এবং একটি নেতিবাচক ব্যবহার করুন: 'not unnecessary' = necessary। এটি একটি সাধারণ রূপান্তর কৌশল।",
+              "explanationEn": "To negate 'necessary' without changing meaning, use its antonym 'unnecessary' with a negative: 'not unnecessary' = necessary. This is a common transformation technique."
+            },
+            {
+              "text": "It is not a necessary language.",
+              "isCorrect": false,
+              "explanationBn": "'necessary' -কে অর্থ অপরিবর্তিত রেখে নেতিবাচক করতে এর বিপরীত শব্দ 'unnecessary' এবং একটি নেতিবাচক ব্যবহার করুন: 'not unnecessary' = necessary। এটি একটি সাধারণ রূপান্তর কৌশল।",
+              "explanationEn": "To negate 'necessary' without changing meaning, use its antonym 'unnecessary' with a negative: 'not unnecessary' = necessary. This is a common transformation technique."
+            },
+            {
+              "text": "It is an unnecessary language.",
+              "isCorrect": false,
+              "explanationBn": "'necessary' -কে অর্থ অপরিবর্তিত রেখে নেতিবাচক করতে এর বিপরীত শব্দ 'unnecessary' এবং একটি নেতিবাচক ব্যবহার করুন: 'not unnecessary' = necessary। এটি একটি সাধারণ রূপান্তর কৌশল।",
+              "explanationEn": "To negate 'necessary' without changing meaning, use its antonym 'unnecessary' with a negative: 'not unnecessary' = necessary. This is a common transformation technique."
+            },
+            {
+              "text": "It is not a required language.",
+              "isCorrect": false,
+              "explanationBn": "'necessary' -কে অর্থ অপরিবর্তিত রেখে নেতিবাচক করতে এর বিপরীত শব্দ 'unnecessary' এবং একটি নেতিবাচক ব্যবহার করুন: 'not unnecessary' = necessary। এটি একটি সাধারণ রূপান্তর কৌশল।",
+              "explanationEn": "To negate 'necessary' without changing meaning, use its antonym 'unnecessary' with a negative: 'not unnecessary' = necessary. This is a common transformation technique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 20,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "20",
+          "sentence": "You should learn the language to be competent.",
+          "instruction": "Assertive to Imperative (make it imperative)",
+          "options": [
+            {
+              "text": "Learn the language to be competent.",
+              "isCorrect": true,
+              "explanationBn": "Imperative বাক্য প্রায়ই মূল verb দিয়ে শুরু হয়। 'you' subject এবং 'should' modal সরিয়ে দিলে পাওয়া যায় 'Learn the language to be competent.' এটি সরাসরি আদেশ বা উপদেশ দেয়।",
+              "explanationEn": "An imperative sentence often starts with the base verb. Remove the subject 'you' and the modal 'should' to get 'Learn the language to be competent.' This gives a direct command or advice."
+            },
+            {
+              "text": "You learn the language to be competent.",
+              "isCorrect": false,
+              "explanationBn": "Imperative বাক্য প্রায়ই মূল verb দিয়ে শুরু হয়। 'you' subject এবং 'should' modal সরিয়ে দিলে পাওয়া যায় 'Learn the language to be competent.' এটি সরাসরি আদেশ বা উপদেশ দেয়।",
+              "explanationEn": "An imperative sentence often starts with the base verb. Remove the subject 'you' and the modal 'should' to get 'Learn the language to be competent.' This gives a direct command or advice."
+            },
+            {
+              "text": "Let you learn the language to be competent.",
+              "isCorrect": false,
+              "explanationBn": "Imperative বাক্য প্রায়ই মূল verb দিয়ে শুরু হয়। 'you' subject এবং 'should' modal সরিয়ে দিলে পাওয়া যায় 'Learn the language to be competent.' এটি সরাসরি আদেশ বা উপদেশ দেয়।",
+              "explanationEn": "An imperative sentence often starts with the base verb. Remove the subject 'you' and the modal 'should' to get 'Learn the language to be competent.' This gives a direct command or advice."
+            },
+            {
+              "text": "Learning the language to be competent.",
+              "isCorrect": false,
+              "explanationBn": "Imperative বাক্য প্রায়ই মূল verb দিয়ে শুরু হয়। 'you' subject এবং 'should' modal সরিয়ে দিলে পাওয়া যায় 'Learn the language to be competent.' এটি সরাসরি আদেশ বা উপদেশ দেয়।",
+              "explanationEn": "An imperative sentence often starts with the base verb. Remove the subject 'you' and the modal 'should' to get 'Learn the language to be competent.' This gives a direct command or advice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 21,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "21",
+          "sentence": "Pasteur was a famous scientist.",
+          "instruction": "Assertive to Interrogative (Interrogative)",
+          "options": [
+            {
+              "text": "Wasn't Pasteur a famous scientist?",
+              "isCorrect": true,
+              "explanationBn": "একটি ইতিবাচক বাক্যকে এমন interrogative-এ পরিবর্তন করতে যা সম্মতি আশা করে, নেতিবাচক রূপ ব্যবহার করুন: 'Wasn't Pasteur a famous scientist?' Subject-verb inversion 'wasn't' contraction-এর মাধ্যমেই হয়েছে।",
+              "explanationEn": "To change an affirmative sentence into an interrogative that expects agreement, use the negative form: 'Wasn't Pasteur a famous scientist?' The subject-verb inversion is already handled by the contraction 'wasn't'."
+            },
+            {
+              "text": "Was Pasteur a famous scientist?",
+              "isCorrect": false,
+              "explanationBn": "একটি ইতিবাচক বাক্যকে এমন interrogative-এ পরিবর্তন করতে যা সম্মতি আশা করে, নেতিবাচক রূপ ব্যবহার করুন: 'Wasn't Pasteur a famous scientist?' Subject-verb inversion 'wasn't' contraction-এর মাধ্যমেই হয়েছে।",
+              "explanationEn": "To change an affirmative sentence into an interrogative that expects agreement, use the negative form: 'Wasn't Pasteur a famous scientist?' The subject-verb inversion is already handled by the contraction 'wasn't'."
+            },
+            {
+              "text": "Was Pasteur not a famous scientist?",
+              "isCorrect": false,
+              "explanationBn": "একটি ইতিবাচক বাক্যকে এমন interrogative-এ পরিবর্তন করতে যা সম্মতি আশা করে, নেতিবাচক রূপ ব্যবহার করুন: 'Wasn't Pasteur a famous scientist?' Subject-verb inversion 'wasn't' contraction-এর মাধ্যমেই হয়েছে।",
+              "explanationEn": "To change an affirmative sentence into an interrogative that expects agreement, use the negative form: 'Wasn't Pasteur a famous scientist?' The subject-verb inversion is already handled by the contraction 'wasn't'."
+            },
+            {
+              "text": "Is Pasteur a famous scientist?",
+              "isCorrect": false,
+              "explanationBn": "একটি ইতিবাচক বাক্যকে এমন interrogative-এ পরিবর্তন করতে যা সম্মতি আশা করে, নেতিবাচক রূপ ব্যবহার করুন: 'Wasn't Pasteur a famous scientist?' Subject-verb inversion 'wasn't' contraction-এর মাধ্যমেই হয়েছে।",
+              "explanationEn": "To change an affirmative sentence into an interrogative that expects agreement, use the negative form: 'Wasn't Pasteur a famous scientist?' The subject-verb inversion is already handled by the contraction 'wasn't'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 22,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "22",
+          "sentence": "He found cures for several of them.",
+          "instruction": "Affirmative to Negative (Negative)",
+          "options": [
+            {
+              "text": "He did not find cures for many of them.",
+              "isCorrect": true,
+              "explanationBn": "ইতিবাচক বাক্যটি বলে 'found cures for several'। অনুরূপ অর্থ রেখে নেতিবাচক করতে 'several' (যার অর্থ অনেক কিন্তু সব নয়) -কে 'not... many' -এ পরিবর্তন করুন: 'He did not find cures for many of them.'",
+              "explanationEn": "The affirmative says 'found cures for several'. To make it negative while keeping similar meaning, change 'several' (which means many but not all) to 'not... many' = 'He did not find cures for many of them.'"
+            },
+            {
+              "text": "He did not find cures for any of them.",
+              "isCorrect": false,
+              "explanationBn": "ইতিবাচক বাক্যটি বলে 'found cures for several'। অনুরূপ অর্থ রেখে নেতিবাচক করতে 'several' (যার অর্থ অনেক কিন্তু সব নয়) -কে 'not... many' -এ পরিবর্তন করুন: 'He did not find cures for many of them.'",
+              "explanationEn": "The affirmative says 'found cures for several'. To make it negative while keeping similar meaning, change 'several' (which means many but not all) to 'not... many' = 'He did not find cures for many of them.'"
+            },
+            {
+              "text": "He found no cures for them.",
+              "isCorrect": false,
+              "explanationBn": "ইতিবাচক বাক্যটি বলে 'found cures for several'। অনুরূপ অর্থ রেখে নেতিবাচক করতে 'several' (যার অর্থ অনেক কিন্তু সব নয়) -কে 'not... many' -এ পরিবর্তন করুন: 'He did not find cures for many of them.'",
+              "explanationEn": "The affirmative says 'found cures for several'. To make it negative while keeping similar meaning, change 'several' (which means many but not all) to 'not... many' = 'He did not find cures for many of them.'"
+            },
+            {
+              "text": "He didn't find cures for several of them.",
+              "isCorrect": false,
+              "explanationBn": "ইতিবাচক বাক্যটি বলে 'found cures for several'। অনুরূপ অর্থ রেখে নেতিবাচক করতে 'several' (যার অর্থ অনেক কিন্তু সব নয়) -কে 'not... many' -এ পরিবর্তন করুন: 'He did not find cures for many of them.'",
+              "explanationEn": "The affirmative says 'found cures for several'. To make it negative while keeping similar meaning, change 'several' (which means many but not all) to 'not... many' = 'He did not find cures for many of them.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 23,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "23",
+          "sentence": "At first, he treated only animals.",
+          "instruction": "Active to Passive (Passive)",
+          "options": [
+            {
+              "text": "At first, only animals were treated by him.",
+              "isCorrect": true,
+              "explanationBn": "Active বাক্যটি past simple tense-এ ('treated') আছে। Passive: object ('only animals') subject হবে, 'were treated' (plural subject), এবং কর্তা 'by him'। 'Only animals were treated by him' সঠিক।",
+              "explanationEn": "The active is in past simple tense ('treated'). Passive: object ('only animals') becomes subject, 'were treated' (plural subject), and the doer 'by him'. 'Only animals were treated by him' is correct."
+            },
+            {
+              "text": "At first, only animals was treated by him.",
+              "isCorrect": false,
+              "explanationBn": "Active বাক্যটি past simple tense-এ ('treated') আছে। Passive: object ('only animals') subject হবে, 'were treated' (plural subject), এবং কর্তা 'by him'। 'Only animals were treated by him' সঠিক।",
+              "explanationEn": "The active is in past simple tense ('treated'). Passive: object ('only animals') becomes subject, 'were treated' (plural subject), and the doer 'by him'. 'Only animals were treated by him' is correct."
+            },
+            {
+              "text": "At first, only animals are treated by him.",
+              "isCorrect": false,
+              "explanationBn": "Active বাক্যটি past simple tense-এ ('treated') আছে। Passive: object ('only animals') subject হবে, 'were treated' (plural subject), এবং কর্তা 'by him'। 'Only animals were treated by him' সঠিক।",
+              "explanationEn": "The active is in past simple tense ('treated'). Passive: object ('only animals') becomes subject, 'were treated' (plural subject), and the doer 'by him'. 'Only animals were treated by him' is correct."
+            },
+            {
+              "text": "At first, he was treated only animals.",
+              "isCorrect": false,
+              "explanationBn": "Active বাক্যটি past simple tense-এ ('treated') আছে। Passive: object ('only animals') subject হবে, 'were treated' (plural subject), এবং কর্তা 'by him'। 'Only animals were treated by him' সঠিক।",
+              "explanationEn": "The active is in past simple tense ('treated'). Passive: object ('only animals') becomes subject, 'were treated' (plural subject), and the doer 'by him'. 'Only animals were treated by him' is correct."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 24,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "24",
+          "sentence": "He found a mad dog and injected some germs of the diseases into its blood.",
+          "instruction": "Assertive to Interrogative (Interrogative)",
+          "options": [
+            {
+              "text": "Didn't he find a mad dog and inject some germs of the diseases into its blood?",
+              "isCorrect": true,
+              "explanationBn": "Past simple-এ ইতিবাচক বাক্যের জন্য নেতিবাচক interrogative 'Didn't' + base verb ব্যবহার করে। 'Didn't' -এর পরে 'find' এবং 'inject' (base form) বসবে, 'found' বা 'injected' নয়।",
+              "explanationEn": "For an affirmative sentence in past simple, the negative interrogative uses 'Didn't' + base verb. After 'Didn't', use 'find' and 'inject' (base forms), not 'found' or 'injected'."
+            },
+            {
+              "text": "Did he find a mad dog and inject some germs of the diseases into its blood?",
+              "isCorrect": false,
+              "explanationBn": "Past simple-এ ইতিবাচক বাক্যের জন্য নেতিবাচক interrogative 'Didn't' + base verb ব্যবহার করে। 'Didn't' -এর পরে 'find' এবং 'inject' (base form) বসবে, 'found' বা 'injected' নয়।",
+              "explanationEn": "For an affirmative sentence in past simple, the negative interrogative uses 'Didn't' + base verb. After 'Didn't', use 'find' and 'inject' (base forms), not 'found' or 'injected'."
+            },
+            {
+              "text": "Didn't he found a mad dog and injected some germs?",
+              "isCorrect": false,
+              "explanationBn": "Past simple-এ ইতিবাচক বাক্যের জন্য নেতিবাচক interrogative 'Didn't' + base verb ব্যবহার করে। 'Didn't' -এর পরে 'find' এবং 'inject' (base form) বসবে, 'found' বা 'injected' নয়।",
+              "explanationEn": "For an affirmative sentence in past simple, the negative interrogative uses 'Didn't' + base verb. After 'Didn't', use 'find' and 'inject' (base forms), not 'found' or 'injected'."
+            },
+            {
+              "text": "Did he not found a mad dog and inject some germs?",
+              "isCorrect": false,
+              "explanationBn": "Past simple-এ ইতিবাচক বাক্যের জন্য নেতিবাচক interrogative 'Didn't' + base verb ব্যবহার করে। 'Didn't' -এর পরে 'find' এবং 'inject' (base form) বসবে, 'found' বা 'injected' নয়।",
+              "explanationEn": "For an affirmative sentence in past simple, the negative interrogative uses 'Didn't' + base verb. After 'Didn't', use 'find' and 'inject' (base forms), not 'found' or 'injected'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 25,
+      "text": "Transform the following sentence as directed.",
+      "subQuestions": [
+        {
+          "id": "25",
+          "sentence": "May our medical science develop more and more.",
+          "instruction": "Optative to Assertive (Assertive)",
+          "options": [
+            {
+              "text": "I wish our medical science would develop more and more.",
+              "isCorrect": true,
+              "explanationBn": "Optative বাক্য ('May' দিয়ে শুরু) ইচ্ছা প্রকাশ করে। একে assertive করতে 'I wish that...' বা 'I hope that...' এবং তারপর clause বসে। 'I wish our medical science would develop more and more' সঠিক।",
+              "explanationEn": "An optative sentence (starting with 'May') expresses a wish. To make it assertive, use 'I wish that...' or 'I hope that...' followed by the clause. 'I wish our medical science would develop more and more' is correct."
+            },
+            {
+              "text": "Our medical science develops more and more.",
+              "isCorrect": false,
+              "explanationBn": "Optative বাক্য ('May' দিয়ে শুরু) ইচ্ছা প্রকাশ করে। একে assertive করতে 'I wish that...' বা 'I hope that...' এবং তারপর clause বসে। 'I wish our medical science would develop more and more' সঠিক।",
+              "explanationEn": "An optative sentence (starting with 'May') expresses a wish. To make it assertive, use 'I wish that...' or 'I hope that...' followed by the clause. 'I wish our medical science would develop more and more' is correct."
+            },
+            {
+              "text": "Let our medical science develop more and more.",
+              "isCorrect": false,
+              "explanationBn": "Optative বাক্য ('May' দিয়ে শুরু) ইচ্ছা প্রকাশ করে। একে assertive করতে 'I wish that...' বা 'I hope that...' এবং তারপর clause বসে। 'I wish our medical science would develop more and more' সঠিক।",
+              "explanationEn": "An optative sentence (starting with 'May') expresses a wish. To make it assertive, use 'I wish that...' or 'I hope that...' followed by the clause. 'I wish our medical science would develop more and more' is correct."
+            },
+            {
+              "text": "We wish our medical science may develop more and more.",
+              "isCorrect": false,
+              "explanationBn": "Optative বাক্য ('May' দিয়ে শুরু) ইচ্ছা প্রকাশ করে। একে assertive করতে 'I wish that...' বা 'I hope that...' এবং তারপর clause বসে। 'I wish our medical science would develop more and more' সঠিক।",
+              "explanationEn": "An optative sentence (starting with 'May') expresses a wish. To make it assertive, use 'I wish that...' or 'I hope that...' followed by the clause. 'I wish our medical science would develop more and more' is correct."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
