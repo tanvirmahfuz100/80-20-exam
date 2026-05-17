@@ -478,6 +478,275 @@
           }
         ]
       }
+    },
+    {
+      "_type": "substitution_table",
+      "id": "sub_6",
+      "exercise": {
+        "id": 1,
+        "question_text": "Make five meaningful sentences from the following substitution table.",
+        "table_columns": [
+          [
+            "The town of Hamlin in Germany",
+            "The people of the town",
+            "They",
+            "The Mayor",
+            "The councilors"
+          ],
+          [
+            "was faced",
+            "discussed",
+            "came",
+            "said",
+            "called a meeting of the councilors"
+          ],
+          [
+            "with a great problem",
+            "to the Town Hall",
+            "to the Mayor to do something about rats",
+            "various solutions",
+            "with a great problem"
+          ]
+        ],
+        "valid_sentences": [
+          {
+            "sentence": "The town of Hamlin in Germany was faced with a great problem.",
+            "combination": [
+              "The town of Hamlin in Germany",
+              "was faced",
+              "with a great problem"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "The people of the town came to the Town Hall.",
+            "combination": [
+              "The people of the town",
+              "came",
+              "to the Town Hall"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "The people of the town said to the Mayor to do something about rats.",
+            "combination": [
+              "The people of the town",
+              "said",
+              "to the Mayor to do something about rats"
+            ],
+            "explanation_en": "Correct. Matches answer key (They said to the Mayor...).",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে (They said to the Mayor...)।"
+          },
+          {
+            "sentence": "They came to the Town Hall.",
+            "combination": [
+              "They",
+              "came",
+              "to the Town Hall"
+            ],
+            "explanation_en": "Correct. 'They' refers to 'the people'.",
+            "explanation_bn": "সঠিক। 'They' 'the people'-কে নির্দেশ করে।"
+          },
+          {
+            "sentence": "They said to the Mayor to do something about rats.",
+            "combination": [
+              "They",
+              "said",
+              "to the Mayor to do something about rats"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "The Mayor called a meeting of the councilors with a great problem.",
+            "combination": [
+              "The Mayor",
+              "called a meeting of the councilors",
+              "with a great problem"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "The councilors discussed various solutions.",
+            "combination": [
+              "The councilors",
+              "discussed",
+              "various solutions"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          }
+        ]
+      }
+    },
+    {
+      "_type": "substitution_table",
+      "id": "sub_7",
+      "exercise": {
+        "id": 2,
+        "question_text": "Make five meaningful sentences from the following substitution table.",
+        "table_columns": [
+          [
+            "Refugee crisis",
+            "Migrants from Middle-East, Africa and Asia",
+            "Vast poverty, political conflict etc",
+            "The photograph of a drowning child named Aynal",
+            "Sustainable development and global peace"
+          ],
+          [
+            "becomes",
+            "can reduce",
+            "undertake",
+            "has stirred",
+            "are responsible for"
+          ],
+          [
+            "a burning question at present world",
+            "this problem",
+            "a risky journey by sea for a safe abode",
+            "the values of global community",
+            "this problem"
+          ]
+        ],
+        "valid_sentences": [
+          {
+            "sentence": "Refugee crisis becomes a burning question at present world.",
+            "combination": [
+              "Refugee crisis",
+              "becomes",
+              "a burning question at present world"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "Migrants from Middle-East, Africa and Asia undertake a risky journey by sea for a safe abode.",
+            "combination": [
+              "Migrants from Middle-East, Africa and Asia",
+              "undertake",
+              "a risky journey..."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "Vast poverty, political conflict etc are responsible for this problem.",
+            "combination": [
+              "Vast poverty, political conflict etc",
+              "are responsible for",
+              "this problem"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "The photograph has stirred the values of global community.",
+            "combination": [
+              "The photograph of a drowning child named Aynal",
+              "has stirred",
+              "the values of global community"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "Sustainable development and global peace can reduce this problem.",
+            "combination": [
+              "Sustainable development and global peace",
+              "can reduce",
+              "this problem"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          }
+        ]
+      }
+    },
+    {
+      "_type": "substitution_table",
+      "id": "sub_8",
+      "exercise": {
+        "id": 3,
+        "question_text": "Make five meaningful sentences from the following substitution table.",
+        "table_columns": [
+          [
+            "Education",
+            "Illiteracy",
+            "Majority",
+            "Nobody",
+            "An educated person"
+          ],
+          [
+            "is",
+            "helps",
+            "are",
+            "can play",
+            "can succeed"
+          ],
+          [
+            "still dominant in our country",
+            "us ennoble our mind and refine our sensibility",
+            "still illiterate",
+            "a role to remove illiteracy",
+            "in life without education"
+          ]
+        ],
+        "valid_sentences": [
+          {
+            "sentence": "Education helps us ennoble our mind and refine our sensibility.",
+            "combination": [
+              "Education",
+              "helps",
+              "us ennoble our mind..."
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "Illiteracy is still dominant in our country.",
+            "combination": [
+              "Illiteracy",
+              "is",
+              "still dominant in our country"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "Majority are still illiterate.",
+            "combination": [
+              "Majority",
+              "are",
+              "still illiterate"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "Nobody can succeed in life without education.",
+            "combination": [
+              "Nobody",
+              "can succeed",
+              "in life without education"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          },
+          {
+            "sentence": "An educated person can play a role to remove illiteracy.",
+            "combination": [
+              "An educated person",
+              "can play",
+              "a role to remove illiteracy"
+            ],
+            "explanation_en": "Correct. Matches answer key.",
+            "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
+          }
+        ]
+      }
     }
   ]
 }

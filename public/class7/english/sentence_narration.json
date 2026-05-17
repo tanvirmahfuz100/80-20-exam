@@ -612,7 +612,7 @@
             },
             {
               "text": "The man said that the dengue outbreak in Dhaka the previous year had been very concerning.",
-              "isCorrect": false,
+              "isCorrect": true,
               "explanationBn": "এটি Simple Past tense ('was')-এ একটি বক্তব্য। Reported speech-এ Simple Past সাধারণত Past Perfect ('had been')-এ পরিবর্তিত হয়। 'Last year' পরিবর্তিত হয়ে 'the previous year' হয়।",
               "explanationEn": "This is a statement in Simple Past tense ('was'). In reported speech, Simple Past usually changes to Past Perfect ('had been'). 'Last year' changes to 'the previous year'."
             },
@@ -4808,6 +4808,1264 @@
               "isCorrect": false,
               "explanationBn": "Optative (প্রার্থনা)। 'May' -> 'might'। 'Prayed' ব্যবহার করা হয়।",
               "explanationEn": "Optative (prayer). 'May' -> 'might'. 'Prayed' is used."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 131,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "131",
+          "sentence": "The teacher said to the students, \"The sun sets in the west.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The teacher told the students that the sun set in the west.",
+              "isCorrect": false,
+              "explanationBn": "এটি একটি চিরন্তন সত্য। চিরন্তন সত্য reported speech-এ তাদের tense পরিবর্তন করে না। 'Said to' পরিবর্তিত হয়ে 'told' হয়।",
+              "explanationEn": "This is a universal truth. Universal truths do NOT change their tense in reported speech. 'Said to' changes to 'told'."
+            },
+            {
+              "text": "The teacher said to the students that the sun sets in the west.",
+              "isCorrect": false,
+              "explanationBn": "এটি একটি চিরন্তন সত্য। চিরন্তন সত্য reported speech-এ তাদের tense পরিবর্তন করে না। 'Said to' পরিবর্তিত হয়ে 'told' হয়।",
+              "explanationEn": "This is a universal truth. Universal truths do NOT change their tense in reported speech. 'Said to' changes to 'told'."
+            },
+            {
+              "text": "The teacher told the students that the sun sets in the west.",
+              "isCorrect": true,
+              "explanationBn": "এটি একটি চিরন্তন সত্য। চিরন্তন সত্য reported speech-এ তাদের tense পরিবর্তন করে না। 'Said to' পরিবর্তিত হয়ে 'told' হয়।",
+              "explanationEn": "This is a universal truth. Universal truths do NOT change their tense in reported speech. 'Said to' changes to 'told'."
+            },
+            {
+              "text": "The teacher told the students that the sun is setting in the west.",
+              "isCorrect": false,
+              "explanationBn": "এটি একটি চিরন্তন সত্য। চিরন্তন সত্য reported speech-এ তাদের tense পরিবর্তন করে না। 'Said to' পরিবর্তিত হয়ে 'told' হয়।",
+              "explanationEn": "This is a universal truth. Universal truths do NOT change their tense in reported speech. 'Said to' changes to 'told'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 132,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "132",
+          "sentence": "The beggar said to the woman, \"Can you give me some food?\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The beggar asked the woman if she could give him some food.",
+              "isCorrect": true,
+              "explanationBn": "Modal 'Can' যুক্ত interrogative sentence। 'Said to' → 'asked'। Conjunction 'if' ব্যবহার। 'Can' → 'could'। 'Me' → 'him'। 'You' → 'she'।",
+              "explanationEn": "Interrogative sentence with modal 'Can'. 'Said to' → 'asked'. 'If' is used as conjunction. 'Can' → 'could'. 'Me' → 'him'. 'You' → 'she'."
+            },
+            {
+              "text": "The beggar said to the woman if she can give him some food.",
+              "isCorrect": false,
+              "explanationBn": "Modal 'Can' যুক্ত interrogative sentence। 'Said to' → 'asked'। Conjunction 'if' ব্যবহার। 'Can' → 'could'। 'Me' → 'him'। 'You' → 'she'।",
+              "explanationEn": "Interrogative sentence with modal 'Can'. 'Said to' → 'asked'. 'If' is used as conjunction. 'Can' → 'could'. 'Me' → 'him'. 'You' → 'she'."
+            },
+            {
+              "text": "The beggar asked the woman that can you give me some food.",
+              "isCorrect": false,
+              "explanationBn": "Modal 'Can' যুক্ত interrogative sentence। 'Said to' → 'asked'। Conjunction 'if' ব্যবহার। 'Can' → 'could'। 'Me' → 'him'। 'You' → 'she'।",
+              "explanationEn": "Interrogative sentence with modal 'Can'. 'Said to' → 'asked'. 'If' is used as conjunction. 'Can' → 'could'. 'Me' → 'him'. 'You' → 'she'."
+            },
+            {
+              "text": "The beggar told the woman to give him some food.",
+              "isCorrect": false,
+              "explanationBn": "Modal 'Can' যুক্ত interrogative sentence। 'Said to' → 'asked'। Conjunction 'if' ব্যবহার। 'Can' → 'could'। 'Me' → 'him'। 'You' → 'she'।",
+              "explanationEn": "Interrogative sentence with modal 'Can'. 'Said to' → 'asked'. 'If' is used as conjunction. 'Can' → 'could'. 'Me' → 'him'. 'You' → 'she'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 133,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "133",
+          "sentence": "Father said to the son, \"Speak the truth.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "Father told the son to speak the truth.",
+              "isCorrect": false,
+              "explanationBn": "উপদেশমূলক imperative sentence। নৈতিক উপদেশের জন্য 'advised' সবচেয়ে উপযুক্ত। 'Said to' → 'advised'। গঠন: advised + object + to + verb.",
+              "explanationEn": "Imperative sentence giving advice. 'Advised' is most appropriate for moral advice. 'Said to' → 'advised'. Structure: advised + object + to + verb."
+            },
+            {
+              "text": "Father ordered the son to speak the truth.",
+              "isCorrect": false,
+              "explanationBn": "উপদেশমূলক imperative sentence। নৈতিক উপদেশের জন্য 'advised' সবচেয়ে উপযুক্ত। 'Said to' → 'advised'। গঠন: advised + object + to + verb.",
+              "explanationEn": "Imperative sentence giving advice. 'Advised' is most appropriate for moral advice. 'Said to' → 'advised'. Structure: advised + object + to + verb."
+            },
+            {
+              "text": "Father advised the son to speak the truth.",
+              "isCorrect": true,
+              "explanationBn": "উপদেশমূলক imperative sentence। নৈতিক উপদেশের জন্য 'advised' সবচেয়ে উপযুক্ত। 'Said to' → 'advised'। গঠন: advised + object + to + verb.",
+              "explanationEn": "Imperative sentence giving advice. 'Advised' is most appropriate for moral advice. 'Said to' → 'advised'. Structure: advised + object + to + verb."
+            },
+            {
+              "text": "Father said to the son to speak the truth.",
+              "isCorrect": false,
+              "explanationBn": "উপদেশমূলক imperative sentence। নৈতিক উপদেশের জন্য 'advised' সবচেয়ে উপযুক্ত। 'Said to' → 'advised'। গঠন: advised + object + to + verb.",
+              "explanationEn": "Imperative sentence giving advice. 'Advised' is most appropriate for moral advice. 'Said to' → 'advised'. Structure: advised + object + to + verb."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 134,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "134",
+          "sentence": "The passerby said, \"How sweetly the bird sings!\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The passerby said that the bird sings very sweetly.",
+              "isCorrect": false,
+              "explanationBn": "'How' যুক্ত exclamatory sentence যা আনন্দ প্রকাশ করে। 'Said' → 'exclaimed with joy'। 'How sweetly' → 'very sweetly'। 'Sings' (present) → 'sang' (past)।",
+              "explanationEn": "Exclamatory sentence with 'How' expressing joy. 'Said' → 'exclaimed with joy'. 'How sweetly' → 'very sweetly'. 'Sings' (present) → 'sang' (past)."
+            },
+            {
+              "text": "The passerby exclaimed with joy that the bird sang very sweetly.",
+              "isCorrect": true,
+              "explanationBn": "'How' যুক্ত exclamatory sentence যা আনন্দ প্রকাশ করে। 'Said' → 'exclaimed with joy'। 'How sweetly' → 'very sweetly'। 'Sings' (present) → 'sang' (past)।",
+              "explanationEn": "Exclamatory sentence with 'How' expressing joy. 'Said' → 'exclaimed with joy'. 'How sweetly' → 'very sweetly'. 'Sings' (present) → 'sang' (past)."
+            },
+            {
+              "text": "The passerby told that the bird sings sweetly.",
+              "isCorrect": false,
+              "explanationBn": "'How' যুক্ত exclamatory sentence যা আনন্দ প্রকাশ করে। 'Said' → 'exclaimed with joy'। 'How sweetly' → 'very sweetly'। 'Sings' (present) → 'sang' (past)।",
+              "explanationEn": "Exclamatory sentence with 'How' expressing joy. 'Said' → 'exclaimed with joy'. 'How sweetly' → 'very sweetly'. 'Sings' (present) → 'sang' (past)."
+            },
+            {
+              "text": "The passerby exclaimed that the bird sings very sweetly.",
+              "isCorrect": false,
+              "explanationBn": "'How' যুক্ত exclamatory sentence যা আনন্দ প্রকাশ করে। 'Said' → 'exclaimed with joy'। 'How sweetly' → 'very sweetly'। 'Sings' (present) → 'sang' (past)।",
+              "explanationEn": "Exclamatory sentence with 'How' expressing joy. 'Said' → 'exclaimed with joy'. 'How sweetly' → 'very sweetly'. 'Sings' (present) → 'sang' (past)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 135,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "135",
+          "sentence": "Mother said to us, \"May you be happy.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "Mother said that we may be happy.",
+              "isCorrect": false,
+              "explanationBn": "'May' যুক্ত optative sentence। 'Said to' → 'wished'। 'May' → 'might'। 'You' → 'we'।",
+              "explanationEn": "Optative sentence with 'May'. 'Said to' → 'wished'. 'May' → 'might'. 'You' → 'we'."
+            },
+            {
+              "text": "Mother wished that we might be happy.",
+              "isCorrect": true,
+              "explanationBn": "'May' যুক্ত optative sentence। 'Said to' → 'wished'। 'May' → 'might'। 'You' → 'we'।",
+              "explanationEn": "Optative sentence with 'May'. 'Said to' → 'wished'. 'May' → 'might'. 'You' → 'we'."
+            },
+            {
+              "text": "Mother prayed that we may be happy.",
+              "isCorrect": false,
+              "explanationBn": "'May' যুক্ত optative sentence। 'Said to' → 'wished'। 'May' → 'might'। 'You' → 'we'।",
+              "explanationEn": "Optative sentence with 'May'. 'Said to' → 'wished'. 'May' → 'might'. 'You' → 'we'."
+            },
+            {
+              "text": "Mother told us to be happy.",
+              "isCorrect": false,
+              "explanationBn": "'May' যুক্ত optative sentence। 'Said to' → 'wished'। 'May' → 'might'। 'You' → 'we'।",
+              "explanationEn": "Optative sentence with 'May'. 'Said to' → 'wished'. 'May' → 'might'. 'You' → 'we'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 136,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "136",
+          "sentence": "Neha said to him, \"Why have you come here?\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "Neha asked him why he had come there.",
+              "isCorrect": false,
+              "explanationBn": "'Why' যুক্ত wh-question। 'Said to' → 'asked'। Present Perfect ('have come') → Past Perfect ('had gone')। 'Here' → 'there'। 'You' → 'he'।",
+              "explanationEn": "Wh-question with 'Why'. 'Said to' → 'asked'. Present Perfect ('have come') → Past Perfect ('had gone'). 'Here' → 'there'. 'You' → 'he'."
+            },
+            {
+              "text": "Neha asked him why he had gone there.",
+              "isCorrect": true,
+              "explanationBn": "'Why' যুক্ত wh-question। 'Said to' → 'asked'। Present Perfect ('have come') → Past Perfect ('had gone')। 'Here' → 'there'। 'You' → 'he'।",
+              "explanationEn": "Wh-question with 'Why'. 'Said to' → 'asked'. Present Perfect ('have come') → Past Perfect ('had gone'). 'Here' → 'there'. 'You' → 'he'."
+            },
+            {
+              "text": "Neha said to him why he had come here.",
+              "isCorrect": false,
+              "explanationBn": "'Why' যুক্ত wh-question। 'Said to' → 'asked'। Present Perfect ('have come') → Past Perfect ('had gone')। 'Here' → 'there'। 'You' → 'he'।",
+              "explanationEn": "Wh-question with 'Why'. 'Said to' → 'asked'. Present Perfect ('have come') → Past Perfect ('had gone'). 'Here' → 'there'. 'You' → 'he'."
+            },
+            {
+              "text": "Neha told him why he came there.",
+              "isCorrect": false,
+              "explanationBn": "'Why' যুক্ত wh-question। 'Said to' → 'asked'। Present Perfect ('have come') → Past Perfect ('had gone')। 'Here' → 'there'। 'You' → 'he'।",
+              "explanationEn": "Wh-question with 'Why'. 'Said to' → 'asked'. Present Perfect ('have come') → Past Perfect ('had gone'). 'Here' → 'there'. 'You' → 'he'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 137,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "137",
+          "sentence": "Shahin said to me, \"I was ill.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "Shahin told me that he was ill.",
+              "isCorrect": false,
+              "explanationBn": "Simple Past ('was') → Past Perfect ('had been')। 'Said to' → 'told'। 'I' → 'he'।",
+              "explanationEn": "Simple Past ('was') → Past Perfect ('had been'). 'Said to' → 'told'. 'I' → 'he'."
+            },
+            {
+              "text": "Shahin told me that he had been ill.",
+              "isCorrect": true,
+              "explanationBn": "Simple Past ('was') → Past Perfect ('had been')। 'Said to' → 'told'। 'I' → 'he'।",
+              "explanationEn": "Simple Past ('was') → Past Perfect ('had been'). 'Said to' → 'told'. 'I' → 'he'."
+            },
+            {
+              "text": "Shahin said to me that I was ill.",
+              "isCorrect": false,
+              "explanationBn": "Simple Past ('was') → Past Perfect ('had been')। 'Said to' → 'told'। 'I' → 'he'।",
+              "explanationEn": "Simple Past ('was') → Past Perfect ('had been'). 'Said to' → 'told'. 'I' → 'he'."
+            },
+            {
+              "text": "Shahin said me that he had been ill.",
+              "isCorrect": false,
+              "explanationBn": "Simple Past ('was') → Past Perfect ('had been')। 'Said to' → 'told'। 'I' → 'he'।",
+              "explanationEn": "Simple Past ('was') → Past Perfect ('had been'). 'Said to' → 'told'. 'I' → 'he'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 138,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "138",
+          "sentence": "She said, \"I have done my duty.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "She said that she has done her duty.",
+              "isCorrect": false,
+              "explanationBn": "Present Perfect ('have done') → Past Perfect ('had done')। 'I' → 'she'। 'My' → 'her'।",
+              "explanationEn": "Present Perfect ('have done') → Past Perfect ('had done'). 'I' → 'she'. 'My' → 'her'."
+            },
+            {
+              "text": "She said that she had done her duty.",
+              "isCorrect": true,
+              "explanationBn": "Present Perfect ('have done') → Past Perfect ('had done')। 'I' → 'she'। 'My' → 'her'।",
+              "explanationEn": "Present Perfect ('have done') → Past Perfect ('had done'). 'I' → 'she'. 'My' → 'her'."
+            },
+            {
+              "text": "She told that she had done her duty.",
+              "isCorrect": false,
+              "explanationBn": "Present Perfect ('have done') → Past Perfect ('had done')। 'I' → 'she'। 'My' → 'her'।",
+              "explanationEn": "Present Perfect ('have done') → Past Perfect ('had done'). 'I' → 'she'. 'My' → 'her'."
+            },
+            {
+              "text": "She said that I have done my duty.",
+              "isCorrect": false,
+              "explanationBn": "Present Perfect ('have done') → Past Perfect ('had done')। 'I' → 'she'। 'My' → 'her'।",
+              "explanationEn": "Present Perfect ('have done') → Past Perfect ('had done'). 'I' → 'she'. 'My' → 'her'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 139,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "139",
+          "sentence": "The teacher said to the students, \"I will help you to solve your problems.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The teacher told the students that he will help them to solve their problems.",
+              "isCorrect": false,
+              "explanationBn": "Future Indefinite ('will help') → 'would help'। 'I' → 'he'। 'You' → 'them'। 'Your' → 'their'।",
+              "explanationEn": "Future Indefinite ('will help') → 'would help'. 'I' → 'he'. 'You' → 'them'. 'Your' → 'their'."
+            },
+            {
+              "text": "The teacher told the students that he would help them to solve their problems.",
+              "isCorrect": true,
+              "explanationBn": "Future Indefinite ('will help') → 'would help'। 'I' → 'he'। 'You' → 'them'। 'Your' → 'their'।",
+              "explanationEn": "Future Indefinite ('will help') → 'would help'. 'I' → 'he'. 'You' → 'them'. 'Your' → 'their'."
+            },
+            {
+              "text": "The teacher said to the students that I would help you to solve your problems.",
+              "isCorrect": false,
+              "explanationBn": "Future Indefinite ('will help') → 'would help'। 'I' → 'he'। 'You' → 'them'। 'Your' → 'their'।",
+              "explanationEn": "Future Indefinite ('will help') → 'would help'. 'I' → 'he'. 'You' → 'them'. 'Your' → 'their'."
+            },
+            {
+              "text": "The teacher told the students that he would help you to solve your problems.",
+              "isCorrect": false,
+              "explanationBn": "Future Indefinite ('will help') → 'would help'। 'I' → 'he'। 'You' → 'them'। 'Your' → 'their'।",
+              "explanationEn": "Future Indefinite ('will help') → 'would help'. 'I' → 'he'. 'You' → 'them'. 'Your' → 'their'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 140,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "140",
+          "sentence": "\"Health is wealth,\" said the wise man.",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The wise man said that health was wealth.",
+              "isCorrect": false,
+              "explanationBn": "এটি একটি প্রবাদ/চিরন্তন সত্য। Tense পরিবর্তন হবে না।",
+              "explanationEn": "This is a proverb/universal truth. No tense change."
+            },
+            {
+              "text": "The wise man told that health is wealth.",
+              "isCorrect": false,
+              "explanationBn": "এটি একটি প্রবাদ/চিরন্তন সত্য। Tense পরিবর্তন হবে না।",
+              "explanationEn": "This is a proverb/universal truth. No tense change."
+            },
+            {
+              "text": "The wise man said that health is wealth.",
+              "isCorrect": true,
+              "explanationBn": "এটি একটি প্রবাদ/চিরন্তন সত্য। Tense পরিবর্তন হবে না।",
+              "explanationEn": "This is a proverb/universal truth. No tense change."
+            },
+            {
+              "text": "The wise man said that health has been wealth.",
+              "isCorrect": false,
+              "explanationBn": "এটি একটি প্রবাদ/চিরন্তন সত্য। Tense পরিবর্তন হবে না।",
+              "explanationEn": "This is a proverb/universal truth. No tense change."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 141,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "141",
+          "sentence": "He said to her, \"I shall return your book tomorrow.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "He told her that he would return her book the next day.",
+              "isCorrect": true,
+              "explanationBn": "Future Indefinite ('shall return') → 'would return'। 'I' → 'he'। 'Your' → 'her'। 'Tomorrow' → 'the next day'।",
+              "explanationEn": "Future Indefinite ('shall return') → 'would return'. 'I' → 'he'. 'Your' → 'her'. 'Tomorrow' → 'the next day'."
+            },
+            {
+              "text": "He said to her that he would return your book tomorrow.",
+              "isCorrect": false,
+              "explanationBn": "Future Indefinite ('shall return') → 'would return'। 'I' → 'he'। 'Your' → 'her'। 'Tomorrow' → 'the next day'।",
+              "explanationEn": "Future Indefinite ('shall return') → 'would return'. 'I' → 'he'. 'Your' → 'her'. 'Tomorrow' → 'the next day'."
+            },
+            {
+              "text": "He told her that he shall return her book the next day.",
+              "isCorrect": false,
+              "explanationBn": "Future Indefinite ('shall return') → 'would return'। 'I' → 'he'। 'Your' → 'her'। 'Tomorrow' → 'the next day'।",
+              "explanationEn": "Future Indefinite ('shall return') → 'would return'. 'I' → 'he'. 'Your' → 'her'. 'Tomorrow' → 'the next day'."
+            },
+            {
+              "text": "He told her that he would return her book tomorrow.",
+              "isCorrect": false,
+              "explanationBn": "Future Indefinite ('shall return') → 'would return'। 'I' → 'he'। 'Your' → 'her'। 'Tomorrow' → 'the next day'।",
+              "explanationEn": "Future Indefinite ('shall return') → 'would return'. 'I' → 'he'. 'Your' → 'her'. 'Tomorrow' → 'the next day'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 142,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "142",
+          "sentence": "Silvia said to Shakil, \"Do you need any room where you can stay?\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "Silvia asked Shakil if he needed any room where he could stay.",
+              "isCorrect": true,
+              "explanationBn": "'Do' যুক্ত interrogative। 'Said to' → 'asked'। 'If' ব্যবহার। Present tense ('need', 'can') → past ('needed', 'could')। 'You' → 'he'।",
+              "explanationEn": "Interrogative with 'Do'. 'Said to' → 'asked'. 'If' used. Present tense ('need', 'can') → past ('needed', 'could'). 'You' → 'he'."
+            },
+            {
+              "text": "Silvia said to Shakil if he needed any room where he could stay.",
+              "isCorrect": false,
+              "explanationBn": "'Do' যুক্ত interrogative। 'Said to' → 'asked'। 'If' ব্যবহার। Present tense ('need', 'can') → past ('needed', 'could')। 'You' → 'he'।",
+              "explanationEn": "Interrogative with 'Do'. 'Said to' → 'asked'. 'If' used. Present tense ('need', 'can') → past ('needed', 'could'). 'You' → 'he'."
+            },
+            {
+              "text": "Silvia asked Shakil if he needs any room where he can stay.",
+              "isCorrect": false,
+              "explanationBn": "'Do' যুক্ত interrogative। 'Said to' → 'asked'। 'If' ব্যবহার। Present tense ('need', 'can') → past ('needed', 'could')। 'You' → 'he'।",
+              "explanationEn": "Interrogative with 'Do'. 'Said to' → 'asked'. 'If' used. Present tense ('need', 'can') → past ('needed', 'could'). 'You' → 'he'."
+            },
+            {
+              "text": "Silvia asked Shakil that do you need any room.",
+              "isCorrect": false,
+              "explanationBn": "'Do' যুক্ত interrogative। 'Said to' → 'asked'। 'If' ব্যবহার। Present tense ('need', 'can') → past ('needed', 'could')। 'You' → 'he'।",
+              "explanationEn": "Interrogative with 'Do'. 'Said to' → 'asked'. 'If' used. Present tense ('need', 'can') → past ('needed', 'could'). 'You' → 'he'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 143,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "143",
+          "sentence": "Mother has said to me, \"I'm going to office.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "Mother has told me that she is going to office.",
+              "isCorrect": true,
+              "explanationBn": "Reporting verb 'has said' (Present Perfect) → tense পরিবর্তন হবে না। 'Said to' → 'told'। 'I'm' → 'she is'।",
+              "explanationEn": "Reporting verb 'has said' (Present Perfect) → no tense change. 'Said to' → 'told'. 'I'm' → 'she is'."
+            },
+            {
+              "text": "Mother has said to me that she is going to office.",
+              "isCorrect": false,
+              "explanationBn": "Reporting verb 'has said' (Present Perfect) → tense পরিবর্তন হবে না। 'Said to' → 'told'। 'I'm' → 'she is'।",
+              "explanationEn": "Reporting verb 'has said' (Present Perfect) → no tense change. 'Said to' → 'told'. 'I'm' → 'she is'."
+            },
+            {
+              "text": "Mother told me that she was going to office.",
+              "isCorrect": false,
+              "explanationBn": "Reporting verb 'has said' (Present Perfect) → tense পরিবর্তন হবে না। 'Said to' → 'told'। 'I'm' → 'she is'।",
+              "explanationEn": "Reporting verb 'has said' (Present Perfect) → no tense change. 'Said to' → 'told'. 'I'm' → 'she is'."
+            },
+            {
+              "text": "Mother has told me that I am going to office.",
+              "isCorrect": false,
+              "explanationBn": "Reporting verb 'has said' (Present Perfect) → tense পরিবর্তন হবে না। 'Said to' → 'told'। 'I'm' → 'she is'।",
+              "explanationEn": "Reporting verb 'has said' (Present Perfect) → no tense change. 'Said to' → 'told'. 'I'm' → 'she is'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 144,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "144",
+          "sentence": "Tarek said to Upoma, \"I saw your mother yesterday.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "Tarek told Upoma that he had seen her mother the previous day.",
+              "isCorrect": true,
+              "explanationBn": "Simple Past ('saw') → Past Perfect ('had seen')। 'I' → 'he'। 'Your' → 'her'। 'Yesterday' → 'the previous day'।",
+              "explanationEn": "Simple Past ('saw') → Past Perfect ('had seen'). 'I' → 'he'. 'Your' → 'her'. 'Yesterday' → 'the previous day'."
+            },
+            {
+              "text": "Tarek said to Upoma that he saw her mother yesterday.",
+              "isCorrect": false,
+              "explanationBn": "Simple Past ('saw') → Past Perfect ('had seen')। 'I' → 'he'। 'Your' → 'her'। 'Yesterday' → 'the previous day'।",
+              "explanationEn": "Simple Past ('saw') → Past Perfect ('had seen'). 'I' → 'he'. 'Your' → 'her'. 'Yesterday' → 'the previous day'."
+            },
+            {
+              "text": "Tarek told Upoma that I saw your mother yesterday.",
+              "isCorrect": false,
+              "explanationBn": "Simple Past ('saw') → Past Perfect ('had seen')। 'I' → 'he'। 'Your' → 'her'। 'Yesterday' → 'the previous day'।",
+              "explanationEn": "Simple Past ('saw') → Past Perfect ('had seen'). 'I' → 'he'. 'Your' → 'her'. 'Yesterday' → 'the previous day'."
+            },
+            {
+              "text": "Tarek told Upoma that he had seen your mother the previous day.",
+              "isCorrect": false,
+              "explanationBn": "Simple Past ('saw') → Past Perfect ('had seen')। 'I' → 'he'। 'Your' → 'her'। 'Yesterday' → 'the previous day'।",
+              "explanationEn": "Simple Past ('saw') → Past Perfect ('had seen'). 'I' → 'he'. 'Your' → 'her'. 'Yesterday' → 'the previous day'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 145,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "145",
+          "sentence": "The teacher said to Rana, \"Why didn't you come to school yesterday with your brother?\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The teacher asked Rana why he did not come to school yesterday with his brother.",
+              "isCorrect": false,
+              "explanationBn": "'Why' যুক্ত wh-question। Simple Past Negative ('didn't come') → Past Perfect Negative ('had not come')। 'You' → 'he'। 'Your' → 'his'। 'Yesterday' → 'the previous day'।",
+              "explanationEn": "Wh-question with 'Why'. Simple Past Negative ('didn't come') → Past Perfect Negative ('had not come'). 'You' → 'he'. 'Your' → 'his'. 'Yesterday' → 'the previous day'."
+            },
+            {
+              "text": "The teacher asked Rana why he had not come to school the previous day with his brother.",
+              "isCorrect": true,
+              "explanationBn": "'Why' যুক্ত wh-question। Simple Past Negative ('didn't come') → Past Perfect Negative ('had not come')। 'You' → 'he'। 'Your' → 'his'। 'Yesterday' → 'the previous day'।",
+              "explanationEn": "Wh-question with 'Why'. Simple Past Negative ('didn't come') → Past Perfect Negative ('had not come'). 'You' → 'he'. 'Your' → 'his'. 'Yesterday' → 'the previous day'."
+            },
+            {
+              "text": "The teacher said to Rana why he had not come to school the previous day with his brother.",
+              "isCorrect": false,
+              "explanationBn": "'Why' যুক্ত wh-question। Simple Past Negative ('didn't come') → Past Perfect Negative ('had not come')। 'You' → 'he'। 'Your' → 'his'। 'Yesterday' → 'the previous day'।",
+              "explanationEn": "Wh-question with 'Why'. Simple Past Negative ('didn't come') → Past Perfect Negative ('had not come'). 'You' → 'he'. 'Your' → 'his'. 'Yesterday' → 'the previous day'."
+            },
+            {
+              "text": "The teacher asked Rana why he had not gone to school the previous day with his brother.",
+              "isCorrect": false,
+              "explanationBn": "'Why' যুক্ত wh-question। Simple Past Negative ('didn't come') → Past Perfect Negative ('had not come')। 'You' → 'he'। 'Your' → 'his'। 'Yesterday' → 'the previous day'।",
+              "explanationEn": "Wh-question with 'Why'. Simple Past Negative ('didn't come') → Past Perfect Negative ('had not come'). 'You' → 'he'. 'Your' → 'his'. 'Yesterday' → 'the previous day'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 146,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "146",
+          "sentence": "The man said to her, \"What is your name?\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The man asked her what her name was.",
+              "isCorrect": true,
+              "explanationBn": "'What' যুক্ত wh-question। 'Said to' → 'asked'। Present tense ('is') → past ('was')। 'Your' → 'her'।",
+              "explanationEn": "Wh-question with 'What'. 'Said to' → 'asked'. Present tense ('is') → past ('was'). 'Your' → 'her'."
+            },
+            {
+              "text": "The man asked her what is your name.",
+              "isCorrect": false,
+              "explanationBn": "'What' যুক্ত wh-question। 'Said to' → 'asked'। Present tense ('is') → past ('was')। 'Your' → 'her'।",
+              "explanationEn": "Wh-question with 'What'. 'Said to' → 'asked'. Present tense ('is') → past ('was'). 'Your' → 'her'."
+            },
+            {
+              "text": "The man said to her what her name was.",
+              "isCorrect": false,
+              "explanationBn": "'What' যুক্ত wh-question। 'Said to' → 'asked'। Present tense ('is') → past ('was')। 'Your' → 'her'।",
+              "explanationEn": "Wh-question with 'What'. 'Said to' → 'asked'. Present tense ('is') → past ('was'). 'Your' → 'her'."
+            },
+            {
+              "text": "The man told her what her name is.",
+              "isCorrect": false,
+              "explanationBn": "'What' যুক্ত wh-question। 'Said to' → 'asked'। Present tense ('is') → past ('was')। 'Your' → 'her'।",
+              "explanationEn": "Wh-question with 'What'. 'Said to' → 'asked'. Present tense ('is') → past ('was'). 'Your' → 'her'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 147,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "147",
+          "sentence": "He said to me, \"I will come to meet you tomorrow with my friends.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "He told me that he would come to meet me the next day with his friends.",
+              "isCorrect": true,
+              "explanationBn": "Future Indefinite ('will come') → 'would come'। 'I' → 'he'। 'You' → 'me'। 'My' → 'his'। 'Tomorrow' → 'the next day'।",
+              "explanationEn": "Future Indefinite ('will come') → 'would come'. 'I' → 'he'. 'You' → 'me'. 'My' → 'his'. 'Tomorrow' → 'the next day'."
+            },
+            {
+              "text": "He said to me that he will come to meet you tomorrow with my friends.",
+              "isCorrect": false,
+              "explanationBn": "Future Indefinite ('will come') → 'would come'। 'I' → 'he'। 'You' → 'me'। 'My' → 'his'। 'Tomorrow' → 'the next day'।",
+              "explanationEn": "Future Indefinite ('will come') → 'would come'. 'I' → 'he'. 'You' → 'me'. 'My' → 'his'. 'Tomorrow' → 'the next day'."
+            },
+            {
+              "text": "He told me that I would come to meet him the next day with his friends.",
+              "isCorrect": false,
+              "explanationBn": "Future Indefinite ('will come') → 'would come'। 'I' → 'he'। 'You' → 'me'। 'My' → 'his'। 'Tomorrow' → 'the next day'।",
+              "explanationEn": "Future Indefinite ('will come') → 'would come'. 'I' → 'he'. 'You' → 'me'. 'My' → 'his'. 'Tomorrow' → 'the next day'."
+            },
+            {
+              "text": "He told me that he would go to meet me the next day with his friends.",
+              "isCorrect": false,
+              "explanationBn": "Future Indefinite ('will come') → 'would come'। 'I' → 'he'। 'You' → 'me'। 'My' → 'his'। 'Tomorrow' → 'the next day'।",
+              "explanationEn": "Future Indefinite ('will come') → 'would come'. 'I' → 'he'. 'You' → 'me'. 'My' → 'his'. 'Tomorrow' → 'the next day'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 148,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "148",
+          "sentence": "The old man said to me, \"May your parents live long.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The old man wished that my parents might live long.",
+              "isCorrect": true,
+              "explanationBn": "'May' যুক্ত optative। 'Said to' → 'wished'। 'May' → 'might'। 'Your' → 'my'।",
+              "explanationEn": "Optative with 'May'. 'Said to' → 'wished'. 'May' → 'might'. 'Your' → 'my'."
+            },
+            {
+              "text": "The old man said that my parents may live long.",
+              "isCorrect": false,
+              "explanationBn": "'May' যুক্ত optative। 'Said to' → 'wished'। 'May' → 'might'। 'Your' → 'my'।",
+              "explanationEn": "Optative with 'May'. 'Said to' → 'wished'. 'May' → 'might'. 'Your' → 'my'."
+            },
+            {
+              "text": "The old man prayed that your parents might live long.",
+              "isCorrect": false,
+              "explanationBn": "'May' যুক্ত optative। 'Said to' → 'wished'। 'May' → 'might'। 'Your' → 'my'।",
+              "explanationEn": "Optative with 'May'. 'Said to' → 'wished'. 'May' → 'might'. 'Your' → 'my'."
+            },
+            {
+              "text": "The old man wished that my parents may live long.",
+              "isCorrect": false,
+              "explanationBn": "'May' যুক্ত optative। 'Said to' → 'wished'। 'May' → 'might'। 'Your' → 'my'।",
+              "explanationEn": "Optative with 'May'. 'Said to' → 'wished'. 'May' → 'might'. 'Your' → 'my'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 149,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "149",
+          "sentence": "Dr. Yunus has said to us, \"Let's work hard to develop Bangladesh.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "Dr. Yunus has proposed to us that we should work hard to develop Bangladesh.",
+              "isCorrect": true,
+              "explanationBn": "'Let's' একটি প্রস্তাব প্রকাশ করে। 'Has proposed' reporting verb-এর Present Perfect tense বজায় রাখে। 'Let's work' → 'that we should work'।",
+              "explanationEn": "'Let's' expresses a proposal. 'Has proposed' maintains the Present Perfect tense of the reporting verb. 'Let's work' → 'that we should work'."
+            },
+            {
+              "text": "Dr. Yunus has said to us that let us work hard to develop Bangladesh.",
+              "isCorrect": false,
+              "explanationBn": "'Let's' একটি প্রস্তাব প্রকাশ করে। 'Has proposed' reporting verb-এর Present Perfect tense বজায় রাখে। 'Let's work' → 'that we should work'।",
+              "explanationEn": "'Let's' expresses a proposal. 'Has proposed' maintains the Present Perfect tense of the reporting verb. 'Let's work' → 'that we should work'."
+            },
+            {
+              "text": "Dr. Yunus proposed to us that we should work hard to develop Bangladesh.",
+              "isCorrect": false,
+              "explanationBn": "'Let's' একটি প্রস্তাব প্রকাশ করে। 'Has proposed' reporting verb-এর Present Perfect tense বজায় রাখে। 'Let's work' → 'that we should work'।",
+              "explanationEn": "'Let's' expresses a proposal. 'Has proposed' maintains the Present Perfect tense of the reporting verb. 'Let's work' → 'that we should work'."
+            },
+            {
+              "text": "Dr. Yunus has told us to work hard to develop Bangladesh.",
+              "isCorrect": false,
+              "explanationBn": "'Let's' একটি প্রস্তাব প্রকাশ করে। 'Has proposed' reporting verb-এর Present Perfect tense বজায় রাখে। 'Let's work' → 'that we should work'।",
+              "explanationEn": "'Let's' expresses a proposal. 'Has proposed' maintains the Present Perfect tense of the reporting verb. 'Let's work' → 'that we should work'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 150,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "150",
+          "sentence": "Hamid said to me, \"Sir, please, help me to learn English.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "Hamid requested me to help him to learn English.",
+              "isCorrect": false,
+              "explanationBn": "'Sir' এবং 'please' দ্বারা বিনয়ী অনুরোধ নির্দেশিত। 'Politely requested' ব্যবহার করা হয়। 'Me' → 'him'।",
+              "explanationEn": "Polite request indicated by 'Sir' and 'please'. 'Politely requested' is used. 'Me' → 'him'."
+            },
+            {
+              "text": "Hamid politely requested me to help him to learn English.",
+              "isCorrect": true,
+              "explanationBn": "'Sir' এবং 'please' দ্বারা বিনয়ী অনুরোধ নির্দেশিত। 'Politely requested' ব্যবহার করা হয়। 'Me' → 'him'।",
+              "explanationEn": "Polite request indicated by 'Sir' and 'please'. 'Politely requested' is used. 'Me' → 'him'."
+            },
+            {
+              "text": "Hamid said to me to help him to learn English.",
+              "isCorrect": false,
+              "explanationBn": "'Sir' এবং 'please' দ্বারা বিনয়ী অনুরোধ নির্দেশিত। 'Politely requested' ব্যবহার করা হয়। 'Me' → 'him'।",
+              "explanationEn": "Polite request indicated by 'Sir' and 'please'. 'Politely requested' is used. 'Me' → 'him'."
+            },
+            {
+              "text": "Hamid told me to help him to learn English.",
+              "isCorrect": false,
+              "explanationBn": "'Sir' এবং 'please' দ্বারা বিনয়ী অনুরোধ নির্দেশিত। 'Politely requested' ব্যবহার করা হয়। 'Me' → 'him'।",
+              "explanationEn": "Polite request indicated by 'Sir' and 'please'. 'Politely requested' is used. 'Me' → 'him'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 151,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "151",
+          "sentence": "She said to Robin, \"What a nice idea you have given me about this problem!\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "She exclaimed to Robin that he had given her a very nice idea about that problem.",
+              "isCorrect": true,
+              "explanationBn": "'What a' যুক্ত exclamatory। 'Said to' → 'exclaimed to'। 'What a nice idea' → 'a very nice idea'। Present Perfect ('have given') → Past Perfect ('had given')। 'You' → 'he'। 'Me' → 'her'। 'This' → 'that'।",
+              "explanationEn": "Exclamatory with 'What a'. 'Said to' → 'exclaimed to'. 'What a nice idea' → 'a very nice idea'. Present Perfect ('have given') → Past Perfect ('had given'). 'You' → 'he'. 'Me' → 'her'. 'This' → 'that'."
+            },
+            {
+              "text": "She said to Robin that he had given her a very nice idea about this problem.",
+              "isCorrect": false,
+              "explanationBn": "'What a' যুক্ত exclamatory। 'Said to' → 'exclaimed to'। 'What a nice idea' → 'a very nice idea'। Present Perfect ('have given') → Past Perfect ('had given')। 'You' → 'he'। 'Me' → 'her'। 'This' → 'that'।",
+              "explanationEn": "Exclamatory with 'What a'. 'Said to' → 'exclaimed to'. 'What a nice idea' → 'a very nice idea'. Present Perfect ('have given') → Past Perfect ('had given'). 'You' → 'he'. 'Me' → 'her'. 'This' → 'that'."
+            },
+            {
+              "text": "She exclaimed to Robin what a nice idea you have given me.",
+              "isCorrect": false,
+              "explanationBn": "'What a' যুক্ত exclamatory। 'Said to' → 'exclaimed to'। 'What a nice idea' → 'a very nice idea'। Present Perfect ('have given') → Past Perfect ('had given')। 'You' → 'he'। 'Me' → 'her'। 'This' → 'that'।",
+              "explanationEn": "Exclamatory with 'What a'. 'Said to' → 'exclaimed to'. 'What a nice idea' → 'a very nice idea'. Present Perfect ('have given') → Past Perfect ('had given'). 'You' → 'he'. 'Me' → 'her'. 'This' → 'that'."
+            },
+            {
+              "text": "She told Robin that he gave her a very nice idea.",
+              "isCorrect": false,
+              "explanationBn": "'What a' যুক্ত exclamatory। 'Said to' → 'exclaimed to'। 'What a nice idea' → 'a very nice idea'। Present Perfect ('have given') → Past Perfect ('had given')। 'You' → 'he'। 'Me' → 'her'। 'This' → 'that'।",
+              "explanationEn": "Exclamatory with 'What a'. 'Said to' → 'exclaimed to'. 'What a nice idea' → 'a very nice idea'. Present Perfect ('have given') → Past Perfect ('had given'). 'You' → 'he'. 'Me' → 'her'. 'This' → 'that'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 152,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "152",
+          "sentence": "\"How can I make a bright result in the exam?\" Harun has said to me.",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "Harun has asked me how he can make a bright result in the exam.",
+              "isCorrect": true,
+              "explanationBn": "Reporting verb 'has said' (Present Perfect) → 'has asked'। Reporting verb Present Perfect থাকায় modal 'can' পরিবর্তিত হয় না। 'I' → 'he'।",
+              "explanationEn": "Reporting verb 'has said' (Present Perfect) → 'has asked'. Modal 'can' does NOT change because the reporting verb is in Present Perfect. 'I' → 'he'."
+            },
+            {
+              "text": "Harun asked me how he could make a bright result in the exam.",
+              "isCorrect": false,
+              "explanationBn": "Reporting verb 'has said' (Present Perfect) → 'has asked'। Reporting verb Present Perfect থাকায় modal 'can' পরিবর্তিত হয় না। 'I' → 'he'।",
+              "explanationEn": "Reporting verb 'has said' (Present Perfect) → 'has asked'. Modal 'can' does NOT change because the reporting verb is in Present Perfect. 'I' → 'he'."
+            },
+            {
+              "text": "Harun has said to me how he can make a bright result.",
+              "isCorrect": false,
+              "explanationBn": "Reporting verb 'has said' (Present Perfect) → 'has asked'। Reporting verb Present Perfect থাকায় modal 'can' পরিবর্তিত হয় না। 'I' → 'he'।",
+              "explanationEn": "Reporting verb 'has said' (Present Perfect) → 'has asked'. Modal 'can' does NOT change because the reporting verb is in Present Perfect. 'I' → 'he'."
+            },
+            {
+              "text": "Harun has asked me how can I make a bright result.",
+              "isCorrect": false,
+              "explanationBn": "Reporting verb 'has said' (Present Perfect) → 'has asked'। Reporting verb Present Perfect থাকায় modal 'can' পরিবর্তিত হয় না। 'I' → 'he'।",
+              "explanationEn": "Reporting verb 'has said' (Present Perfect) → 'has asked'. Modal 'can' does NOT change because the reporting verb is in Present Perfect. 'I' → 'he'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 153,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "153",
+          "sentence": "The teacher said, \"The July Revolution of 2024 changed the image of Bangladesh.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The teacher said that the July Revolution of 2024 changed the image of Bangladesh.",
+              "isCorrect": false,
+              "explanationBn": "Simple Past ('changed') reported speech-এ Past Perfect ('had changed') -এ পরিবর্তিত হয় বোর্ড পরীক্ষার মান অনুযায়ী।",
+              "explanationEn": "Simple Past ('changed') → Past Perfect ('had changed') in reported speech as per board exam standards."
+            },
+            {
+              "text": "The teacher said that the July Revolution of 2024 had changed the image of Bangladesh.",
+              "isCorrect": true,
+              "explanationBn": "Simple Past ('changed') reported speech-এ Past Perfect ('had changed') -এ পরিবর্তিত হয় বোর্ড পরীক্ষার মান অনুযায়ী।",
+              "explanationEn": "Simple Past ('changed') → Past Perfect ('had changed') in reported speech as per board exam standards."
+            },
+            {
+              "text": "The teacher told that the July Revolution of 2024 changed the image.",
+              "isCorrect": false,
+              "explanationBn": "Simple Past ('changed') reported speech-এ Past Perfect ('had changed') -এ পরিবর্তিত হয় বোর্ড পরীক্ষার মান অনুযায়ী।",
+              "explanationEn": "Simple Past ('changed') → Past Perfect ('had changed') in reported speech as per board exam standards."
+            },
+            {
+              "text": "The teacher said that the July Revolution has changed the image.",
+              "isCorrect": false,
+              "explanationBn": "Simple Past ('changed') reported speech-এ Past Perfect ('had changed') -এ পরিবর্তিত হয় বোর্ড পরীক্ষার মান অনুযায়ী।",
+              "explanationEn": "Simple Past ('changed') → Past Perfect ('had changed') in reported speech as per board exam standards."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 154,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "154",
+          "sentence": "\"I am a student,\" the girl says.",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The girl said that she was a student.",
+              "isCorrect": false,
+              "explanationBn": "Reporting verb 'says' (present) → tense পরিবর্তন হবে না। 'I' → 'she'।",
+              "explanationEn": "Reporting verb 'says' (present) → no tense change. 'I' → 'she'."
+            },
+            {
+              "text": "The girl says that she is a student.",
+              "isCorrect": true,
+              "explanationBn": "Reporting verb 'says' (present) → tense পরিবর্তন হবে না। 'I' → 'she'।",
+              "explanationEn": "Reporting verb 'says' (present) → no tense change. 'I' → 'she'."
+            },
+            {
+              "text": "The girl says that I am a student.",
+              "isCorrect": false,
+              "explanationBn": "Reporting verb 'says' (present) → tense পরিবর্তন হবে না। 'I' → 'she'।",
+              "explanationEn": "Reporting verb 'says' (present) → no tense change. 'I' → 'she'."
+            },
+            {
+              "text": "The girl told that she is a student.",
+              "isCorrect": false,
+              "explanationBn": "Reporting verb 'says' (present) → tense পরিবর্তন হবে না। 'I' → 'she'।",
+              "explanationEn": "Reporting verb 'says' (present) → no tense change. 'I' → 'she'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 155,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "155",
+          "sentence": "The man said, \"Abu Sayeed was a student activist during July Revolution.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The man said that Abu Sayeed was a student activist during July Revolution.",
+              "isCorrect": false,
+              "explanationBn": "Simple Past ('was') → Past Perfect ('had been')।",
+              "explanationEn": "Simple Past ('was') → Past Perfect ('had been')."
+            },
+            {
+              "text": "The man said that Abu Sayeed had been a student activist during July Revolution.",
+              "isCorrect": true,
+              "explanationBn": "Simple Past ('was') → Past Perfect ('had been')।",
+              "explanationEn": "Simple Past ('was') → Past Perfect ('had been')."
+            },
+            {
+              "text": "The man told that Abu Sayeed was a student activist.",
+              "isCorrect": false,
+              "explanationBn": "Simple Past ('was') → Past Perfect ('had been')।",
+              "explanationEn": "Simple Past ('was') → Past Perfect ('had been')."
+            },
+            {
+              "text": "The man said that Abu Sayeed is a student activist.",
+              "isCorrect": false,
+              "explanationBn": "Simple Past ('was') → Past Perfect ('had been')।",
+              "explanationEn": "Simple Past ('was') → Past Perfect ('had been')."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 156,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "156",
+          "sentence": "The teacher said, \"Make sure to bring your raincoats today.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The teacher told us to bring our raincoats today.",
+              "isCorrect": false,
+              "explanationBn": "'Make sure' একটি স্মরণ করিয়ে দেয়। 'Reminded' উপযুক্ত। 'Your' → 'our'। 'Today' → 'that day'।",
+              "explanationEn": "'Make sure' indicates a reminder. 'Reminded' is appropriate. 'Your' → 'our'. 'Today' → 'that day'."
+            },
+            {
+              "text": "The teacher reminded us to bring our raincoats that day.",
+              "isCorrect": true,
+              "explanationBn": "'Make sure' একটি স্মরণ করিয়ে দেয়। 'Reminded' উপযুক্ত। 'Your' → 'our'। 'Today' → 'that day'।",
+              "explanationEn": "'Make sure' indicates a reminder. 'Reminded' is appropriate. 'Your' → 'our'. 'Today' → 'that day'."
+            },
+            {
+              "text": "The teacher said to us to bring your raincoats today.",
+              "isCorrect": false,
+              "explanationBn": "'Make sure' একটি স্মরণ করিয়ে দেয়। 'Reminded' উপযুক্ত। 'Your' → 'our'। 'Today' → 'that day'।",
+              "explanationEn": "'Make sure' indicates a reminder. 'Reminded' is appropriate. 'Your' → 'our'. 'Today' → 'that day'."
+            },
+            {
+              "text": "The teacher advised us to bring raincoats.",
+              "isCorrect": false,
+              "explanationBn": "'Make sure' একটি স্মরণ করিয়ে দেয়। 'Reminded' উপযুক্ত। 'Your' → 'our'। 'Today' → 'that day'।",
+              "explanationEn": "'Make sure' indicates a reminder. 'Reminded' is appropriate. 'Your' → 'our'. 'Today' → 'that day'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 157,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "157",
+          "sentence": "The girl said, \"I have never eaten hilsa before.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The girl said that she has never eaten hilsa before.",
+              "isCorrect": false,
+              "explanationBn": "Present Perfect Negative ('have never eaten') → Past Perfect Negative ('had never eaten')। 'I' → 'she'।",
+              "explanationEn": "Present Perfect Negative ('have never eaten') → Past Perfect Negative ('had never eaten'). 'I' → 'she'."
+            },
+            {
+              "text": "The girl said that she had never eaten hilsa before.",
+              "isCorrect": true,
+              "explanationBn": "Present Perfect Negative ('have never eaten') → Past Perfect Negative ('had never eaten')। 'I' → 'she'।",
+              "explanationEn": "Present Perfect Negative ('have never eaten') → Past Perfect Negative ('had never eaten'). 'I' → 'she'."
+            },
+            {
+              "text": "The girl told that she never ate hilsa before.",
+              "isCorrect": false,
+              "explanationBn": "Present Perfect Negative ('have never eaten') → Past Perfect Negative ('had never eaten')। 'I' → 'she'।",
+              "explanationEn": "Present Perfect Negative ('have never eaten') → Past Perfect Negative ('had never eaten'). 'I' → 'she'."
+            },
+            {
+              "text": "The girl said that I have never eaten hilsa before.",
+              "isCorrect": false,
+              "explanationBn": "Present Perfect Negative ('have never eaten') → Past Perfect Negative ('had never eaten')। 'I' → 'she'।",
+              "explanationEn": "Present Perfect Negative ('have never eaten') → Past Perfect Negative ('had never eaten'). 'I' → 'she'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 158,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "158",
+          "sentence": "The man said, \"What a beautiful sunset!\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The man said that the sunset was beautiful.",
+              "isCorrect": false,
+              "explanationBn": "'What a' যুক্ত exclamatory। 'Exclaimed' ব্যবহার। 'What a beautiful sunset' → 'a very beautiful sunset'।",
+              "explanationEn": "Exclamatory with 'What a'. 'Exclaimed' used. 'What a beautiful sunset' → 'a very beautiful sunset'."
+            },
+            {
+              "text": "The man exclaimed that it was a very beautiful sunset.",
+              "isCorrect": true,
+              "explanationBn": "'What a' যুক্ত exclamatory। 'Exclaimed' ব্যবহার। 'What a beautiful sunset' → 'a very beautiful sunset'।",
+              "explanationEn": "Exclamatory with 'What a'. 'Exclaimed' used. 'What a beautiful sunset' → 'a very beautiful sunset'."
+            },
+            {
+              "text": "The man exclaimed what a beautiful sunset it is.",
+              "isCorrect": false,
+              "explanationBn": "'What a' যুক্ত exclamatory। 'Exclaimed' ব্যবহার। 'What a beautiful sunset' → 'a very beautiful sunset'।",
+              "explanationEn": "Exclamatory with 'What a'. 'Exclaimed' used. 'What a beautiful sunset' → 'a very beautiful sunset'."
+            },
+            {
+              "text": "The man told that the sunset is beautiful.",
+              "isCorrect": false,
+              "explanationBn": "'What a' যুক্ত exclamatory। 'Exclaimed' ব্যবহার। 'What a beautiful sunset' → 'a very beautiful sunset'।",
+              "explanationEn": "Exclamatory with 'What a'. 'Exclaimed' used. 'What a beautiful sunset' → 'a very beautiful sunset'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 159,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "159",
+          "sentence": "Liza said to Riaz, \"Good morning, Riaz.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "Liza said good morning to Riaz.",
+              "isCorrect": false,
+              "explanationBn": "অভিবাদন। 'Said to' → 'wished'। গঠন: wished + object + good morning।",
+              "explanationEn": "Greeting. 'Said to' → 'wished'. Structure: wished + object + good morning."
+            },
+            {
+              "text": "Liza told Riaz good morning.",
+              "isCorrect": false,
+              "explanationBn": "অভিবাদন। 'Said to' → 'wished'। গঠন: wished + object + good morning।",
+              "explanationEn": "Greeting. 'Said to' → 'wished'. Structure: wished + object + good morning."
+            },
+            {
+              "text": "Liza wished Riaz good morning.",
+              "isCorrect": true,
+              "explanationBn": "অভিবাদন। 'Said to' → 'wished'। গঠন: wished + object + good morning।",
+              "explanationEn": "Greeting. 'Said to' → 'wished'. Structure: wished + object + good morning."
+            },
+            {
+              "text": "Liza greeted Riaz good morning.",
+              "isCorrect": false,
+              "explanationBn": "অভিবাদন। 'Said to' → 'wished'। গঠন: wished + object + good morning।",
+              "explanationEn": "Greeting. 'Said to' → 'wished'. Structure: wished + object + good morning."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 160,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "160",
+          "sentence": "He has said to me, \"Can you sing a song for us?\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "He has asked me if I can sing a song for them.",
+              "isCorrect": true,
+              "explanationBn": "Reporting verb 'has said' (Present Perfect) → 'has asked'। Modal 'can' পরিবর্তিত হয় না। 'You' → 'I'। 'Us' → 'them'।",
+              "explanationEn": "Reporting verb 'has said' (Present Perfect) → 'has asked'. Modal 'can' does NOT change. 'You' → 'I'. 'Us' → 'them'."
+            },
+            {
+              "text": "He has said to me if I can sing a song for us.",
+              "isCorrect": false,
+              "explanationBn": "Reporting verb 'has said' (Present Perfect) → 'has asked'। Modal 'can' পরিবর্তিত হয় না। 'You' → 'I'। 'Us' → 'them'।",
+              "explanationEn": "Reporting verb 'has said' (Present Perfect) → 'has asked'. Modal 'can' does NOT change. 'You' → 'I'. 'Us' → 'them'."
+            },
+            {
+              "text": "He asked me if I could sing a song for them.",
+              "isCorrect": false,
+              "explanationBn": "Reporting verb 'has said' (Present Perfect) → 'has asked'। Modal 'can' পরিবর্তিত হয় না। 'You' → 'I'। 'Us' → 'them'।",
+              "explanationEn": "Reporting verb 'has said' (Present Perfect) → 'has asked'. Modal 'can' does NOT change. 'You' → 'I'. 'Us' → 'them'."
+            },
+            {
+              "text": "He has told me to sing a song for us.",
+              "isCorrect": false,
+              "explanationBn": "Reporting verb 'has said' (Present Perfect) → 'has asked'। Modal 'can' পরিবর্তিত হয় না। 'You' → 'I'। 'Us' → 'them'।",
+              "explanationEn": "Reporting verb 'has said' (Present Perfect) → 'has asked'. Modal 'can' does NOT change. 'You' → 'I'. 'Us' → 'them'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 161,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "161",
+          "sentence": "The boy said, \"Please give me some water.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The boy told me to give him some water.",
+              "isCorrect": false,
+              "explanationBn": "'Please' একটি অনুরোধ নির্দেশ করে। 'Said' → 'requested'। 'Me' → 'him'।",
+              "explanationEn": "'Please' indicates a request. 'Said' → 'requested'. 'Me' → 'him'."
+            },
+            {
+              "text": "The boy requested me to give him some water.",
+              "isCorrect": true,
+              "explanationBn": "'Please' একটি অনুরোধ নির্দেশ করে। 'Said' → 'requested'। 'Me' → 'him'।",
+              "explanationEn": "'Please' indicates a request. 'Said' → 'requested'. 'Me' → 'him'."
+            },
+            {
+              "text": "The boy said me to give some water.",
+              "isCorrect": false,
+              "explanationBn": "'Please' একটি অনুরোধ নির্দেশ করে। 'Said' → 'requested'। 'Me' → 'him'।",
+              "explanationEn": "'Please' indicates a request. 'Said' → 'requested'. 'Me' → 'him'."
+            },
+            {
+              "text": "The boy asked me to give some water.",
+              "isCorrect": false,
+              "explanationBn": "'Please' একটি অনুরোধ নির্দেশ করে। 'Said' → 'requested'। 'Me' → 'him'।",
+              "explanationEn": "'Please' indicates a request. 'Said' → 'requested'. 'Me' → 'him'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 162,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "162",
+          "sentence": "He said to her, \"Good night, sleep well.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "He wished her good night and asked her to sleep well.",
+              "isCorrect": true,
+              "explanationBn": "দুটি অংশ: অভিবাদন এবং imperative। অভিবাদন → 'wished'। Imperative → 'asked to'। 'and' দিয়ে যুক্ত করুন।",
+              "explanationEn": "Two parts: greeting and imperative. Greeting → 'wished'. Imperative → 'asked to'. Join with 'and'."
+            },
+            {
+              "text": "He said good night to her and told her to sleep well.",
+              "isCorrect": false,
+              "explanationBn": "দুটি অংশ: অভিবাদন এবং imperative। অভিবাদন → 'wished'। Imperative → 'asked to'। 'and' দিয়ে যুক্ত করুন।",
+              "explanationEn": "Two parts: greeting and imperative. Greeting → 'wished'. Imperative → 'asked to'. Join with 'and'."
+            },
+            {
+              "text": "He wished her good night and told her to sleep well.",
+              "isCorrect": false,
+              "explanationBn": "দুটি অংশ: অভিবাদন এবং imperative। অভিবাদন → 'wished'। Imperative → 'asked to'। 'and' দিয়ে যুক্ত করুন।",
+              "explanationEn": "Two parts: greeting and imperative. Greeting → 'wished'. Imperative → 'asked to'. Join with 'and'."
+            },
+            {
+              "text": "He bade her good night and requested her to sleep well.",
+              "isCorrect": false,
+              "explanationBn": "দুটি অংশ: অভিবাদন এবং imperative। অভিবাদন → 'wished'। Imperative → 'asked to'। 'and' দিয়ে যুক্ত করুন।",
+              "explanationEn": "Two parts: greeting and imperative. Greeting → 'wished'. Imperative → 'asked to'. Join with 'and'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 163,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "163",
+          "sentence": "The boy said, \"Graffiti in Dhaka during the July Revolution expressed the people's anger.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The boy said that graffiti in Dhaka during the July Revolution expressed the people's anger.",
+              "isCorrect": false,
+              "explanationBn": "Simple Past ('expressed') → Past Perfect ('had expressed')।",
+              "explanationEn": "Simple Past ('expressed') → Past Perfect ('had expressed')."
+            },
+            {
+              "text": "The boy said that graffiti in Dhaka during the July Revolution had expressed the people's anger.",
+              "isCorrect": true,
+              "explanationBn": "Simple Past ('expressed') → Past Perfect ('had expressed')।",
+              "explanationEn": "Simple Past ('expressed') → Past Perfect ('had expressed')."
+            },
+            {
+              "text": "The boy told that graffiti expressed the people's anger.",
+              "isCorrect": false,
+              "explanationBn": "Simple Past ('expressed') → Past Perfect ('had expressed')।",
+              "explanationEn": "Simple Past ('expressed') → Past Perfect ('had expressed')."
+            },
+            {
+              "text": "The boy said that graffiti has expressed the people's anger.",
+              "isCorrect": false,
+              "explanationBn": "Simple Past ('expressed') → Past Perfect ('had expressed')।",
+              "explanationEn": "Simple Past ('expressed') → Past Perfect ('had expressed')."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainQuestionId": 164,
+      "text": "Change the narration of the following sentence.",
+      "subQuestions": [
+        {
+          "id": "164",
+          "sentence": "The boy said, \"Wow! That's a huge watermelon.\"",
+          "instruction": "Change the narrative style",
+          "options": [
+            {
+              "text": "The boy said that it was a huge watermelon.",
+              "isCorrect": false,
+              "explanationBn": "'Wow!' (বিস্ময়) যুক্ত exclamatory। 'Said' → 'exclaimed'। 'That's' → 'it was'।",
+              "explanationEn": "Exclamatory with 'Wow!' (surprise). 'Said' → 'exclaimed'. 'That's' → 'it was'."
+            },
+            {
+              "text": "The boy exclaimed that it was a huge watermelon.",
+              "isCorrect": true,
+              "explanationBn": "'Wow!' (বিস্ময়) যুক্ত exclamatory। 'Said' → 'exclaimed'। 'That's' → 'it was'।",
+              "explanationEn": "Exclamatory with 'Wow!' (surprise). 'Said' → 'exclaimed'. 'That's' → 'it was'."
+            },
+            {
+              "text": "The boy exclaimed wow that it is a huge watermelon.",
+              "isCorrect": false,
+              "explanationBn": "'Wow!' (বিস্ময়) যুক্ত exclamatory। 'Said' → 'exclaimed'। 'That's' → 'it was'।",
+              "explanationEn": "Exclamatory with 'Wow!' (surprise). 'Said' → 'exclaimed'. 'That's' → 'it was'."
+            },
+            {
+              "text": "The boy told that it was a huge watermelon.",
+              "isCorrect": false,
+              "explanationBn": "'Wow!' (বিস্ময়) যুক্ত exclamatory। 'Said' → 'exclaimed'। 'That's' → 'it was'।",
+              "explanationEn": "Exclamatory with 'Wow!' (surprise). 'Said' → 'exclaimed'. 'That's' → 'it was'."
             }
           ]
         }
