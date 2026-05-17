@@ -5,7 +5,7 @@ import {
     ArrowLeft, CheckCircle, XCircle, ChevronRight,
     RefreshCw, Lightbulb, Timer, Flag,
     Trophy, Target, Zap, Clock,
-    BarChart3, BrainCircuit, Video, Star, Sparkles
+    BarChart3, BrainCircuit, Video, Star, Sparkles, AlertTriangle
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { api } from '../services/api';
@@ -235,6 +235,7 @@ const Quiz = () => {
     const [showReportModal, setShowReportModal] = useState(false);
     const [reportReason, setReportReason] = useState('');
     const [reportDetails, setReportDetails] = useState('');
+    const [showExitConfirm, setShowExitConfirm] = useState(false);
 
     const [historicalAnswered, setHistoricalAnswered] = useState(0);
     const [totalQuestionCount, setTotalQuestionCount] = useState(0);
@@ -464,6 +465,25 @@ const Quiz = () => {
         };
     }, []);
 
+    useEffect(() => {
+        const handler = (e) => {
+            if (!isFinished && questions.length > 0) {
+                e.preventDefault();
+                e.returnValue = '';
+            }
+        };
+        window.addEventListener('beforeunload', handler);
+        return () => window.removeEventListener('beforeunload', handler);
+    }, [isFinished, questions.length]);
+
+    const handleBackWithConfirm = () => {
+        if (questions.length > 0 && !isFinished) {
+            setShowExitConfirm(true);
+        } else {
+            navigate('/practice');
+        }
+    };
+
     const finishSoundPlayedRef = React.useRef(false);
     useEffect(() => {
         if (isFinished && questions.length > 0 && !finishSoundPlayedRef.current) {
@@ -681,7 +701,7 @@ const Quiz = () => {
             <div className="flex items-center justify-between gap-2 px-3 md:px-4 pt-1 md:pt-3 shrink-0 safe-top">
                 <div className="flex items-center gap-2 min-w-0 flex-1">
                     <button
-                        onClick={() => navigate('/practice')}
+                        onClick={handleBackWithConfirm}
                         className="p-2 bg-white/5 hover:bg-white/10 rounded-xl text-white/40 hover:text-white transition-all border border-white/5 active:scale-95 shrink-0 flex items-center justify-center"
                         style={{ minWidth: 40, minHeight: 40 }}
                         aria-label="Back to practice"
@@ -761,13 +781,14 @@ const Quiz = () => {
                         <SubstitutionTableExercise
                             key={currentQ.id}
                             exercise={currentQ.exercise}
+                            fontSize={quizFontSize}
                             onWrongAttempt={() => {
                                 playSound('star');
                                 addMistake(currentQ.id || 'sub_table', currentQ, { file, title, chapterId });
                                 createFlyingStar(null, window.innerWidth / 2, window.innerHeight / 2);
                                 setMistakeCount(getMistakesDueCount());
                             }}
-                            onContinue={(found, total, wrongAttempts) => {
+                            onContinue={(found, total) => {
                                 setScore(s => s + found);
                                 setResults(prev => [...prev, {
                                     id: currentQ.id,
@@ -1136,6 +1157,46 @@ const Quiz = () => {
                     )}
                 </div>
             </div>
+
+            {showExitConfirm && (
+                <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
+                    <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setShowExitConfirm(false)} />
+                    <motion.div
+                        initial={{ opacity: 0, y: 40 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: 40 }}
+                        transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+                        className="relative w-full sm:max-w-sm bg-surface border border-white/10 rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
+                        onClick={e => e.stopPropagation()}
+                    >
+                        <div className="flex items-start gap-3">
+                            <div className="p-2 rounded-xl bg-yellow-500/15 shrink-0">
+                                <AlertTriangle className="w-5 h-5 text-yellow-400" />
+                            </div>
+                            <div className="min-w-0 flex-1">
+                                <h3 className="text-sm font-black text-white uppercase tracking-wider">Are you sure?</h3>
+                                <p className="text-[11px] text-white/50 font-medium mt-1 leading-relaxed">
+                                    You'll lose your progress on this lesson if you leave. Your answers so far are saved.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="flex gap-2">
+                            <button
+                                onClick={() => setShowExitConfirm(false)}
+                                className="flex-1 py-3 bg-white/5 hover:bg-white/10 text-white/70 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] border border-white/10"
+                            >
+                                Stay
+                            </button>
+                            <button
+                                onClick={() => { setShowExitConfirm(false); navigate('/practice'); }}
+                                className="flex-1 py-3 bg-yellow-500 text-black hover:bg-yellow-400 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97]"
+                            >
+                                Leave
+                            </button>
+                        </div>
+                    </motion.div>
+                </div>
+            )}
 
             {showReportModal && (
                 <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
