@@ -5,7 +5,7 @@ import { CheckCircle, Star, X } from 'lucide-react';
 
 const BLANK_REGEX = /_*\(([a-z])\)\s*_+|\(([a-z])\)\s*_+/g;
 
-const loadSavedAnswers = (blanks, passage) => {
+const loadSavedAnswers = (blanks) => {
   try {
     const raw = localStorage.getItem('exam_user_responses');
     if (!raw) return {};
@@ -28,32 +28,9 @@ const loadSavedAnswers = (blanks, passage) => {
       loaded[blankId] = {
         selected: response.selected_option_text || '',
         isCorrect: !!response.is_correct,
-        explanationBn: blank.explanation_bn || '',
-        explanationEn: blank.explanation_en || '',
+        explanationBn: response.explanation_bn || blank.explanation_bn || '',
+        explanationEn: response.explanation_en || blank.explanation_en || '',
       };
-    }
-
-    if (passage && blanks.length > 0) {
-      const baseId = blanks[0].questionId?.replace(/_[a-z]$/, '');
-      if (baseId) {
-        const regex = /\(([a-z])\)/g;
-        let match;
-        while ((match = regex.exec(passage)) !== null) {
-          const bid = match[1];
-          if (bid && !loaded[bid]) {
-            const fullId = `${baseId}_${bid}`;
-            const response = userResponses.find(r => r.question_id === fullId);
-            if (response) {
-              loaded[bid] = {
-                selected: response.selected_option_text || '',
-                isCorrect: !!response.is_correct,
-                explanationBn: '',
-                explanationEn: '',
-              };
-            }
-          }
-        }
-      }
     }
 
     return loaded;
@@ -63,7 +40,7 @@ const loadSavedAnswers = (blanks, passage) => {
 };
 
 const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, onContinue }) => {
-  const [answers, setAnswers] = useState(() => loadSavedAnswers(blanks, passage));
+  const [answers, setAnswers] = useState(() => loadSavedAnswers(blanks));
   const [activePopover, setActivePopover] = useState(null);
   const [explanationPanel, setExplanationPanel] = useState(null);
   const blankRefs = useRef({});
@@ -133,7 +110,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
     const blankData = getBlankData(blankId);
     const currentAnswer = answers[blankId];
 
-    if (currentAnswer) {
+    if (currentAnswer?.isCorrect) {
       const blankEl = blankRefs.current[blankId];
       const rect = blankEl?.getBoundingClientRect();
       if (rect && !isMobile) {
@@ -231,9 +208,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
     
     setActivePopover(null);
     
-    if (isCorrect) {
-      onBlankAnswer?.(blankId, true, optionText);
-    }
+    onBlankAnswer?.(blankId, isCorrect, optionText, finalExplanationBn, finalExplanationEn);
   }, [getBlankData, onBlankAnswer, isMobile]);
 
   const closePopover = useCallback(() => setActivePopover(null), []);

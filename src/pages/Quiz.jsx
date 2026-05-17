@@ -251,6 +251,7 @@ const Quiz = () => {
     const timerRef = useRef(null);
     const questionStartRef = useRef(Date.now());
     const sessionSavedRef = useRef(false);
+    const normalizedRef = useRef([]);
 
     const shuffledOptions = useMemo(() => {
         if (!questions[currentIndex]) return null;
@@ -269,28 +270,33 @@ const Quiz = () => {
         const q = questions[currentIndex];
         if (!q?.passage || !q?.blankId) return null;
 
+        const allNormalized = normalizedRef.current;
         const blanks = [];
         let endIdx = currentIndex;
 
-        for (let i = currentIndex; i < questions.length; i++) {
-            const qi = questions[i];
-            if (!qi.blankId || qi.passage !== q.passage) break;
+        for (let i = 0; i < allNormalized.length; i++) {
+            const ni = allNormalized[i];
+            if (!ni.blankId || ni.passage !== q.passage) continue;
             blanks.push({
-                blankId: qi.blankId,
-                id: qi.blankId,
-                questionId: qi.id,
-                correct: qi.options?.[qi.correct] || '',
-                correct_answer: qi.options?.[qi.correct] || '',
-                explanation_bn: qi.explanation || '',
-                explanation_en: qi.explanation_en || '',
-                options: (qi.options || []).map((opt, idx) => ({
+                blankId: ni.blankId,
+                id: ni.blankId,
+                questionId: ni.id,
+                correct: ni.options?.[ni.correct] || '',
+                correct_answer: ni.options?.[ni.correct] || '',
+                explanation_bn: ni.explanation || '',
+                explanation_en: ni.explanation_en || '',
+                options: (ni.options || []).map((opt, idx) => ({
                     text: opt,
-                    isCorrect: idx === qi.correct,
-                    explanationBn: qi.explanation || '',
-                    explanationEn: qi.explanation_en || '',
+                    isCorrect: idx === ni.correct,
+                    explanationBn: ni.explanation || '',
+                    explanationEn: ni.explanation_en || '',
                 })),
-                correctText: qi.options?.[qi.correct] || '',
+                correctText: ni.options?.[ni.correct] || '',
             });
+        }
+
+        for (let i = currentIndex; i < questions.length; i++) {
+            if (!questions[i].blankId || questions[i].passage !== q.passage) break;
             endIdx = i;
         }
 
@@ -364,6 +370,7 @@ const Quiz = () => {
                     else if (Array.isArray(data.items)) questionArray = data.items;
 
                     const normalized = normalizeQuizQuestions({ questions: questionArray });
+                    normalizedRef.current = normalized;
 
                     const existing = await api.getUserResponses(user?.id);
                     const answeredIds = new Set(
@@ -794,7 +801,7 @@ const Quiz = () => {
                             blanks={gapFillGroup.blanks}
                             boxWords={gapFillGroup.boxWords}
                             difficulty={gapFillGroup.difficulty}
-                            onBlankAnswer={(blankId, isCorrect, selectedText) => {
+                            onBlankAnswer={(blankId, isCorrect, selectedText, explanationBn, explanationEn) => {
                                 if (isCorrect) setScore(s => s + 1);
 
                                 const blankIdx = gapFillGroup.blanks.findIndex(b => b.blankId === blankId);
@@ -831,6 +838,8 @@ const Quiz = () => {
                                     selected_option_text: selectedText,
                                     correct_option_text: actualQ.options?.[actualQ.correct] || '',
                                     is_correct: isCorrect,
+                                    explanation_bn: explanationBn || '',
+                                    explanation_en: explanationEn || '',
                                     time_spent: blankTime,
                                     status: 'answered',
                                 });
