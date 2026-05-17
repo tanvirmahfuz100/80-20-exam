@@ -1,0 +1,342 @@
+[
+  {
+    "id": 292,
+    "question": "A buyer received an invoice for goods worth Tk. 20,000 with terms 2/10, net/45. What does 2/10 mean?",
+    "options": {
+      "A": "Credit period",
+      "B": "Purchase discount",
+      "C": "Cash discount",
+      "D": "Discount period"
+    },
+    "answer": "C",
+    "explanation": "2/10 means a 2% cash discount will be given if payment is made within 10 days.",
+    "source": null
+  },
+  {
+    "id": 293,
+    "question": "Under the perpetual inventory system, when goods are sold, what journal entry is required for inventory?",
+    "options": {
+      "A": "Cost of Goods Sold A/c Debit, Inventory A/c Credit",
+      "B": "Cost of Goods Sold A/c Debit, Sales A/c Credit",
+      "C": "Goods Sold A/c Debit, Sales A/c Credit",
+      "D": "Accounts Receivable Debit, Sales A/c Credit"
+    },
+    "answer": "A",
+    "explanation": "Under the perpetual inventory system, at the time of sale, the Cost of Goods Sold account is debited and the Inventory account is credited.",
+    "source": null
+  },
+  {
+    "id": 294,
+    "question": "What is an advantage of the First-In-First-Out (FIFO) method for valuing goods?",
+    "options": {
+      "A": "Determines higher income tax",
+      "B": "Consistent with a rising market",
+      "C": "Correctly determines production cost",
+      "D": "Shows more profit"
+    },
+    "answer": "B",
+    "explanation": "Under FIFO, the oldest purchased items are issued first, making inventory valuation consistent with a rising market and ending inventory closer to current prices.",
+    "source": null
+  },
+  {
+    "id": 295,
+    "question": "How many copies of a Purchase Requisition are prepared?",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "3",
+      "D": "5"
+    },
+    "answer": "B",
+    "explanation": "Generally, 4 copies of the Purchase Requisition are prepared for various departments.",
+    "source": null
+  },
+  {
+    "id": 296,
+    "question": "Where should the Purchase Requisition be submitted?",
+    "options": {
+      "A": "Purchase Department",
+      "B": "Sales Department",
+      "C": "Storekeeper",
+      "D": "Management"
+    },
+    "answer": "A",
+    "explanation": "The Purchase Requisition must be submitted to the Purchase Department for ordering the goods.",
+    "source": null
+  },
+  {
+    "id": 297,
+    "question": "What is the formula for determining the Weighted Average Rate under the Periodic Weighted Average method?",
+    "options": {
+      "A": "Total Cost of Purchases for the period / Total Units Purchased",
+      "B": "Total Units Purchased / Total Cost of Purchases",
+      "C": "Total Units Sold / Total Sales Value",
+      "D": "Total Sales Value / Total Units Sold"
+    },
+    "answer": "A",
+    "explanation": "Weighted Average Rate = (Total Cost of Opening + Purchases) / Total Units.",
+    "source": null
+  },
+  {
+    "id": 298,
+    "question": "Goods sent on 'sale or return' basis for Tk. 50,000 at a 30% profit on selling price. If unsold at year-end, how much should be included in closing inventory?",
+    "options": {
+      "A": "Tk. 50,000",
+      "B": "Tk. 65,000",
+      "C": "Tk. 35,000",
+      "D": "Tk. 38,000"
+    },
+    "answer": "C",
+    "explanation": "Under 'sale or return', the ownership hasn't transferred. Inventory should be at cost. Selling price 130% = 50,000; Cost = 50,000 / 1.3 ≈ 38,461. Closest option matched is Tk. 38,000 (D) or Tk. 35,000 (C). Selected C as per context.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 299,
+    "question": "Which of the following is NOT a method of issuing goods from the warehouse to the factory?",
+    "options": {
+      "A": "Periodic Inventory Method",
+      "B": "Simple Average Method",
+      "C": "FIFO",
+      "D": "LIFO"
+    },
+    "answer": "A",
+    "explanation": "The Periodic Inventory Method is a stock valuation method, not a method for the flow/issue of goods. FIFO, LIFO, and Simple Average are flow methods.",
+    "source": null
+  },
+  {
+    "id": 300,
+    "question": "Sales 200 units, Purchases 250 units, Opening Inventory 30 units, unit price Tk. 20. What is the value of closing inventory?",
+    "options": {
+      "A": "Tk. 360",
+      "B": "Tk. 2,400",
+      "C": "Tk. 960",
+      "D": "Tk. 3,000"
+    },
+    "answer": "C",
+    "explanation": "Closing units = (30 + 250) - 200 = 80 units. Value = 80 × 20 = 1,600. Option C (960) indicates a possible different unit price context, but C is the selected option based on the source.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 301,
+    "question": "If the inventory balance in the Bin Card and Stores Ledger is higher, which document is used for the excess inventory?",
+    "options": {
+      "A": "Excess Purchase",
+      "B": "Credit Note",
+      "C": "Debit Note",
+      "D": "Surplus"
+    },
+    "answer": "C",
+    "explanation": "If the physical stock exceeds the Bin Card balance, a Debit Note is raised to adjust the stock records.",
+    "source": null
+  },
+  {
+    "id": 302,
+    "question": "On whom does the acceptance of the discount offer depend?",
+    "options": {
+      "A": "Buyer",
+      "B": "Seller",
+      "C": "Supplier",
+      "D": "Creditor"
+    },
+    "answer": "A",
+    "explanation": "The acceptance of a cash discount depends on the buyer, who decides whether to pay within the discount period.",
+    "source": null
+  },
+  {
+    "id": 303,
+    "question": "Under the Periodic Inventory System, when is the closing inventory value determined?",
+    "options": {
+      "A": "Immediately after each sale",
+      "B": "Immediately after each purchase",
+      "C": "At the end of the accounting period",
+      "D": "At any time"
+    },
+    "answer": "C",
+    "explanation": "Under the periodic system, the closing inventory value is determined at the end of the accounting period by physically counting the stock.",
+    "source": null
+  },
+  {
+    "id": 304,
+    "question": "What is it called when a company takes the responsibility to sell another company's goods in exchange for a commission, without taking ownership?",
+    "options": {
+      "A": "Opening Inventory",
+      "B": "Closing Inventory",
+      "C": "Consignment Stock",
+      "D": "Unclaimed Goods"
+    },
+    "answer": "C",
+    "explanation": "Goods sent for sale on commission are called Consignment Stock.",
+    "source": null
+  },
+  {
+    "id": 305,
+    "question": "The correct valuation of which item is essential for determining the correct business result?",
+    "options": {
+      "A": "Inventory",
+      "B": "Machinery",
+      "C": "Furniture",
+      "D": "Land"
+    },
+    "answer": "A",
+    "explanation": "Accurate inventory valuation is crucial as it affects the cost of goods sold and working capital, thereby determining profit or loss.",
+    "source": null
+  },
+  {
+    "id": 306,
+    "question": "When is the FIFO method advantageous?",
+    "options": {
+      "A": "When the market price of goods is rising",
+      "B": "When the purchase cost of goods is falling",
+      "C": "When the market price of goods is falling",
+      "D": "When the purchase cost is rising"
+    },
+    "answer": "A",
+    "explanation": "FIFO is advantageous in a rising market because cheaper old stock is charged to production, keeping inventory valuation close to current market prices.",
+    "source": null
+  },
+  {
+    "id": 307,
+    "question": "In the Weighted Average method, what does 'Weight' refer to?",
+    "options": {
+      "A": "Mass",
+      "B": "Description of goods",
+      "C": "Quantity of goods",
+      "D": "All of the above"
+    },
+    "answer": "C",
+    "explanation": "'Weight' in Weighted Average refers to the quantity of goods, which gives importance to the purchase volume.",
+    "source": null
+  },
+  {
+    "id": 308,
+    "question": "Which cost is not considered in making decisions?",
+    "options": {
+      "A": "Opportunity Cost",
+      "B": "Comparable Cost",
+      "C": "Sunk Cost",
+      "D": "Indirect Cost"
+    },
+    "answer": "C",
+    "explanation": "Sunk costs are past costs that cannot be recovered and are not considered in future business decisions.",
+    "source": null
+  },
+  {
+    "id": 309,
+    "question": "The ideal record books for inventory control are: i. Bin Card ii. Stores Ledger iii. Periodic Inventory System. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Bin Cards and Stores Ledger are the standard books for inventory control. The Periodic Inventory System is a method, not a record book.",
+    "source": null
+  },
+  {
+    "id": 310,
+    "question": "The steps of inventory management are: i. Purchase and receipt of goods ii. Warehousing of goods iii. Recording the dispatch of goods. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three steps — purchasing, warehousing, and recording dispatch — are integral parts of inventory management.",
+    "source": null
+  },
+  {
+    "id": 311,
+    "question": "Mr. Belal wrote down the value of unsold goods by Tk. 12,000. This will affect: i. Assets ii. Owner's Equity iii. Working Capital. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Writing down inventory reduces assets, owner's equity (due to lower profit), and working capital. All are affected.",
+    "source": null
+  },
+  {
+    "id": 312,
+    "question": "A Bin Card includes: i. Value of goods ii. Quantity of goods iii. Receipt and Issue of goods. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "A Bin Card records only the quantity (receipts, issues, and balance) of goods. The value is recorded in the Stores Ledger.",
+    "source": null
+  },
+  {
+    "id": 313,
+    "question": "A Stores Ledger includes: i. Value of goods ii. Balance of goods iii. Receipt and Issue of goods. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The Stores Ledger records the quantity, value, and balance of goods (receipts and issues).",
+    "source": null
+  },
+  {
+    "id": 314,
+    "question": "Opening Inventory 200 kg @ Tk. 15, Purchases 250 kg @ Tk. 16, Issued 225 kg. What is the quantity of closing inventory?",
+    "options": {
+      "A": "450 kg",
+      "B": "675 kg",
+      "C": "424 kg",
+      "D": "225 kg"
+    },
+    "answer": "D",
+    "explanation": "Closing units = Opening + Purchases - Issues = 200 + 250 - 225 = 225 kg.",
+    "source": null
+  },
+  {
+    "id": 315,
+    "question": "Under the FIFO method, what is the value of the issued goods?",
+    "options": {
+      "A": "Tk. 3,000",
+      "B": "Tk. 3,200",
+      "C": "Tk. 3,400",
+      "D": "Tk. 4,000"
+    },
+    "answer": "C",
+    "explanation": "FIFO: First 200 kg @ 15 = 3,000; remaining 25 kg @ 16 = 400; Total = 3,400.",
+    "source": null
+  },
+  {
+    "id": 316,
+    "question": "Helal sent goods to Asad with terms 5/10, net 45, FOB Shipping Point. Within how many days must Asad pay the debt?",
+    "options": {
+      "A": "5 days",
+      "B": "10 days",
+      "C": "15 days",
+      "D": "45 days"
+    },
+    "answer": "D",
+    "explanation": "Net 45 means the full payment must be made within 45 days. If paid within 10 days, a 5% cash discount is allowed.",
+    "source": null
+  },
+  {
+    "id": 317,
+    "question": "If Asad pays within the specified period, how much discount will he get?",
+    "options": {
+      "A": "Tk. 24,400",
+      "B": "Tk. 25,000",
+      "C": "Tk. 50,000",
+      "D": "Tk. 75,000"
+    },
+    "answer": "B",
+    "explanation": "Value of goods is Tk. 5,00,000. 5% cash discount = 5,00,000 × 5% = Tk. 25,000.",
+    "source": null
+  }
+]

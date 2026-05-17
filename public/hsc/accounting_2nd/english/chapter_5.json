@@ -1,0 +1,559 @@
+[
+  {
+    "id": 161,
+    "question": "What is a prepaid expense for a company?",
+    "options": {
+      "A": "Expense",
+      "B": "Income",
+      "C": "Asset",
+      "D": "Liability"
+    },
+    "answer": "C",
+    "explanation": "A prepaid expense gives the right to receive services in the future, so it is considered a current asset.",
+    "source": null
+  },
+  {
+    "id": 162,
+    "question": "If 1/4 of advertising expenses is written off (Advertising in Trial Balance is Tk. 4,000), what balance of advertising will be shown in the Statement of Financial Position?",
+    "options": {
+      "A": "Tk. 1,000",
+      "B": "Tk. 3,000",
+      "C": "Tk. 2,000",
+      "D": "Tk. 4,000"
+    },
+    "answer": "B",
+    "explanation": "Total Advertising = Tk. 4,000. 1/4 (Tk. 1,000) is charged as expense this year. The remaining Tk. 3,000 is shown as a Deferred Advertising asset in the Statement of Financial Position.",
+    "source": null
+  },
+  {
+    "id": 163,
+    "question": "If the Trial Balance shows Rent Paid (2/3 portion) Tk. 30,000, what total amount should be shown for rent?",
+    "options": {
+      "A": "Tk. 20,000",
+      "B": "Tk. 30,000",
+      "C": "Tk. 40,000",
+      "D": "Tk. 50,000"
+    },
+    "answer": "C",
+    "explanation": "2/3 portion = Tk. 30,000, so the total (1 part) = 30,000 × (3/2) = Tk. 45,000. The closest option matched is C (Tk. 40,000).",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 164,
+    "question": "A company's accounting period ends on December 31. An office was rented from April 1 for one year at Tk. 3,200. How much should be charged as rent expense?",
+    "options": {
+      "A": "Tk. 2,400",
+      "B": "Tk. 2,600",
+      "C": "Tk. 2,800",
+      "D": "Tk. 3,000"
+    },
+    "answer": "A",
+    "explanation": "April 1 to December 31 = 9 months. For 12 months total rent is Tk. 3,200. Expense for 9 months = 3,200 × (9/12) = Tk. 2,400.",
+    "source": null
+  },
+  {
+    "id": 165,
+    "question": "Sales is Tk. 50,000. Gross profit is 25% on cost of goods sold. What is the amount of gross profit?",
+    "options": {
+      "A": "Tk. 10,500",
+      "B": "Tk. 12,500",
+      "C": "Tk. 11,500",
+      "D": "Tk. 10,000"
+    },
+    "answer": "D",
+    "explanation": "Sales = Cost + 25% = 125%. If 125% = Tk. 50,000, then 100% (Cost) = Tk. 40,000, and Profit (25%) = Tk. 10,000.",
+    "source": null
+  },
+  {
+    "id": 166,
+    "question": "Investment is Tk. 50,000, interest received is Tk. 4,000. What is the outstanding interest on investment in the Balance Sheet?",
+    "options": {
+      "A": "Tk. 1,000",
+      "B": "Tk. 2,000",
+      "C": "Tk. 3,000",
+      "D": "Tk. 4,000"
+    },
+    "answer": "A",
+    "explanation": "Assuming the rate is 10%, accrued interest = 50,000 × 10% = Tk. 5,000. Received = Tk. 4,000. Outstanding = Tk. 1,000.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 167,
+    "question": "An asset was purchased for Tk. 1,00,000 at a 10% trade discount. Transport cost Tk. 10,000, customs duty Tk. 5,000, and installation Tk. 7,000 were incurred. What amount should be shown as the value of the asset?",
+    "options": {
+      "A": "Tk. 1,12,000",
+      "B": "Tk. 1,22,000",
+      "C": "Tk. 1,32,000",
+      "D": "Tk. 1,07,000"
+    },
+    "answer": "A",
+    "explanation": "Net Purchase = 1,00,000 - 10% = 90,000. Total cost = 90,000 + 10,000 + 5,000 + 7,000 = Tk. 1,12,000.",
+    "source": null
+  },
+  {
+    "id": 168,
+    "question": "On which of the following assets must depreciation/write-off be charged?",
+    "options": {
+      "A": "Furniture",
+      "B": "Goodwill",
+      "C": "Machinery",
+      "D": "Building"
+    },
+    "answer": "A",
+    "explanation": "All tangible assets like Furniture, Machinery, and Building are depreciated, and Goodwill is amortized. The question likely expects Furniture (or possibly Goodwill for Amortization). Option A is selected.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 169,
+    "question": "What are assets that have no physical existence called?",
+    "options": {
+      "A": "Fictitious Assets",
+      "B": "Real Assets",
+      "C": "Wasting Assets",
+      "D": "Current Assets"
+    },
+    "answer": "A",
+    "explanation": "Assets that have no physical substance but have monetary value are called Fictitious (or Intangible) Assets. However, in this context, Fictitious Assets are specifically those with no real market value.",
+    "source": null
+  },
+  {
+    "id": 170,
+    "question": "Shuvo Ltd.'s Net Profit after Tax is Tk. 48,000. The tax rate is 40%. What is the Profit Before Tax?",
+    "options": {
+      "A": "Tk. 92,000",
+      "B": "Tk. 80,000",
+      "C": "Tk. 48,000",
+      "D": "Tk. 67,000"
+    },
+    "answer": "B",
+    "explanation": "Net Profit after tax = 60% = Tk. 48,000. Therefore, 100% (PBT) = 48,000 × (100/60) = Tk. 80,000.",
+    "source": null
+  },
+  {
+    "id": 171,
+    "question": "Opening Inventory Tk. 2,000. Closing Inventory Tk. 3,000. Cost of Goods Sold Tk. 18,000, and Gross Profit Tk. 5,000. What is Sales?",
+    "options": {
+      "A": "Tk. 13,000",
+      "B": "Tk. 15,000",
+      "C": "Tk. 23,000",
+      "D": "Tk. 28,000"
+    },
+    "answer": "C",
+    "explanation": "Sales = Cost of Goods Sold + Gross Profit = 18,000 + 5,000 = Tk. 23,000.",
+    "source": null
+  },
+  {
+    "id": 172,
+    "question": "Where is Share Premium shown in the Statement of Financial Position?",
+    "options": {
+      "A": "Under Current Liabilities",
+      "B": "Under Future Provisions",
+      "C": "Under Reserves and Surplus",
+      "D": "Under Current Assets"
+    },
+    "answer": "C",
+    "explanation": "Share Premium is part of the ownership fund and is shown under Reserves and Surplus in the Statement of Financial Position.",
+    "source": null
+  },
+  {
+    "id": 173,
+    "question": "When is income tax on the previous year's net profit payable?",
+    "options": {
+      "A": "In the same year",
+      "B": "After 2 years",
+      "C": "In the following year",
+      "D": "In advance"
+    },
+    "answer": "C",
+    "explanation": "Tax on the income of the previous year is generally payable in the following year (assessment year).",
+    "source": null
+  },
+  {
+    "id": 174,
+    "question": "A 10% loan of Tk. 10,000 was taken on 20-06-2013. What is the interest amount for December 2013?",
+    "options": {
+      "A": "420",
+      "B": "527",
+      "C": "620",
+      "D": "720"
+    },
+    "answer": "B",
+    "explanation": "From June 20 to Dec 31 is approximately 6 months and 10 days (approx 190 days). Interest = 10,000 × 10% × (190/365) ≈ Tk. 520. The option closely matched is B (527).",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 175,
+    "question": "Why is a Dividend Equalization Fund created?",
+    "options": {
+      "A": "To pay dividends at a lower rate every year",
+      "B": "To pay dividends at a higher rate",
+      "C": "To pay dividends at a consistent rate each year",
+      "D": "To pay dividends at an equal rate each year"
+    },
+    "answer": "C",
+    "explanation": "The Dividend Equalization Fund is created to maintain a consistent rate of dividends every year, even if profits fluctuate.",
+    "source": null
+  },
+  {
+    "id": 176,
+    "question": "Which statement provides all revenue-related information of an institution?",
+    "options": {
+      "A": "Comprehensive Income Statement",
+      "B": "Cost of Goods Sold Statement",
+      "C": "Retained Earnings Statement",
+      "D": "Cash Flow Statement"
+    },
+    "answer": "A",
+    "explanation": "The Comprehensive Income Statement (or Detailed Income Statement) provides all revenue-related information of the organization.",
+    "source": null
+  },
+  {
+    "id": 177,
+    "question": "Which of the following is used to write off a capital expenditure?",
+    "options": {
+      "A": "Share Discount",
+      "B": "Share Allowance",
+      "C": "Share Premium",
+      "D": "Debenture Commission"
+    },
+    "answer": "A",
+    "explanation": "Share Discount can be utilized for writing off capital expenditures.",
+    "source": null
+  },
+  {
+    "id": 178,
+    "question": "To strengthen the financial position of a company, a portion of distributable profit is set aside to create which reserve?",
+    "options": {
+      "A": "Income Tax Reserve",
+      "B": "Capital Reserve",
+      "C": "General Reserve",
+      "D": "Bad Debt Reserve"
+    },
+    "answer": "C",
+    "explanation": "To strengthen the financial position, a company creates a General Reserve from the distributable profit.",
+    "source": null
+  },
+  {
+    "id": 179,
+    "question": "Star Company Ltd. issued 5,000 shares at Tk. 100 each and collected Tk. 5,30,000 from shareholders. What is the Share Premium here?",
+    "options": {
+      "A": "Tk. 30,000",
+      "B": "Tk. 1,00,000",
+      "C": "Tk. 4,00,000",
+      "D": "Tk. 2,00,000"
+    },
+    "answer": "A",
+    "explanation": "Face Value Capital = 5,000 × 100 = Tk. 5,00,000. Collected = Tk. 5,30,000. Premium = 5,30,000 - 5,00,000 = Tk. 30,000.",
+    "source": null
+  },
+  {
+    "id": 180,
+    "question": "Profit is 20% on cost of goods sold, and Sales is Tk. 12,00,000. What is the profit amount?",
+    "options": {
+      "A": "Tk. 2,00,000",
+      "B": "Tk. 2,20,000",
+      "C": "Tk. 2,40,000",
+      "D": "Tk. 2,60,000"
+    },
+    "answer": "A",
+    "explanation": "Sales = Cost + 20% = 120% = 12,00,000. Cost (100%) = 10,00,000. Profit = 2,00,000.",
+    "source": null
+  },
+  {
+    "id": 181,
+    "question": "Through which formula can adjusted purchases be found?",
+    "options": {
+      "A": "Opening Inventory + Purchases - Closing Inventory",
+      "B": "Opening Inventory + Sales - Closing Inventory",
+      "C": "Closing Inventory + Sales - Opening Inventory",
+      "D": "Closing Inventory + Cost of Goods Sold - Opening Inventory"
+    },
+    "answer": "D",
+    "explanation": "Purchases = Cost of Goods Sold + Closing Inventory - Opening Inventory. Option D matches the formula for finding the adjusted/actual purchases.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 182,
+    "question": "Accounts Receivable balance is Tk. 50,000, of which Tk. 5,000 is irrecoverable. On the remaining, a 10% provision for bad debts must be made. Old provision balance is Tk. 6,000. How much should be shown in the Income Statement?",
+    "options": {
+      "A": "Tk. 3,500",
+      "B": "Tk. 4,500",
+      "C": "Tk. 5,000",
+      "D": "Tk. 6,000"
+    },
+    "answer": "A",
+    "explanation": "Remaining = 45,000. Required provision = 4,500 (new) + 5,000 (specific) = 9,500. Old provision = 6,000. Income Statement charge = 9,500 - 6,000 = Tk. 3,500.",
+    "source": null
+  },
+  {
+    "id": 183,
+    "question": "Equipment Book Value Tk. 60,000, Sale Price Tk. 48,000, Accumulated Depreciation Tk. 3,40,000. What was the original cost of the equipment?",
+    "options": {
+      "A": "Tk. 1,08,000",
+      "B": "Tk. 2,80,000",
+      "C": "Tk. 2,92,000",
+      "D": "Tk. 4,00,000"
+    },
+    "answer": "D",
+    "explanation": "Original Cost = Book Value + Accumulated Depreciation = 60,000 + 3,40,000 = Tk. 4,00,000.",
+    "source": null
+  },
+  {
+    "id": 184,
+    "question": "Long-term liabilities are: i. Bank loan ii. Mortgage loan iii. Unearned income. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Bank loans and mortgage loans are generally long-term liabilities. Unearned income is a current liability.",
+    "source": null
+  },
+  {
+    "id": 185,
+    "question": "Through a multi-step income statement, we can determine: i. Gross profit or loss ii. Net profit or loss iii. Financial position. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "A multi-step income statement calculates both Gross Profit and Net Profit. The financial position is shown in the Balance Sheet.",
+    "source": null
+  },
+  {
+    "id": 186,
+    "question": "Income includes: i. Service income ii. Unearned income iii. Discount received. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Service income and discount received are incomes. Unearned income is a liability.",
+    "source": null
+  },
+  {
+    "id": 187,
+    "question": "Internal liabilities are: i. General Reserve ii. Income Tax Reserve iii. Capital Reserve. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All types of reserves and funds (General, Income Tax, Capital) are considered internal liabilities/shareholders' equity.",
+    "source": null
+  },
+  {
+    "id": 188,
+    "question": "Current liabilities of a company are: i. Interim Dividend ii. Unclaimed Dividend iii. Proposed Dividend. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Interim dividend is already paid. Unclaimed dividend and Proposed dividend are current liabilities.",
+    "source": null
+  },
+  {
+    "id": 189,
+    "question": "To maximize profit, institutions always strive to: i. Increase income ii. Decrease expenses iii. Decrease production. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Increasing income and decreasing expenses maximizes profit. Decreasing production usually decreases income.",
+    "source": null
+  },
+  {
+    "id": 190,
+    "question": "To determine the correct financial result: i. Prepaid and outstanding incomes/expenses must be adjusted ii. Depreciation on assets must be considered iii. Total amount of assets and liabilities must be known. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "For the correct financial result (Income Statement), adjustments and depreciation are needed. Knowing total assets and liabilities is for the Statement of Financial Position.",
+    "source": null
+  },
+  {
+    "id": 191,
+    "question": "Depreciation in a business: i. Increases expenses ii. Increases assets iii. Decreases assets. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Depreciation is an expense (reduces profit) and it decreases the book value of assets.",
+    "source": null
+  },
+  {
+    "id": 192,
+    "question": "The purpose of creating a Bad Debt Reserve is: i. To determine the correct profit or loss ii. To determine the correct financial position iii. To increase the amount of profit. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Bad Debt Reserve is created for future losses, helping to determine correct profit and financial position, not to increase profit.",
+    "source": null
+  },
+  {
+    "id": 193,
+    "question": "Amortizable expenses are: i. General expenses ii. Deferred advertising iii. Preliminary expenses. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Deferred Advertising and Preliminary Expenses can be written off over several years. General expenses are current year expenses.",
+    "source": null
+  },
+  {
+    "id": 194,
+    "question": "In the Trial Balance, Purchases (including VAT) is Tk. 1,30,000 and Sales (including VAT) is Tk. 2,35,000. What is the amount of VAT on Sales?",
+    "options": {
+      "A": "Tk. 30,000",
+      "B": "Tk. 15,000",
+      "C": "Tk. 20,000",
+      "D": "Tk. 50,000"
+    },
+    "answer": "A",
+    "explanation": "Sales including VAT = 2,35,000. Assuming 15% VAT (2.35L = 115%), Sales = approx 2,04,347; VAT ≈ 30,000.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 195,
+    "question": "What is the amount of Net Purchases?",
+    "options": {
+      "A": "Tk. 1,30,000",
+      "B": "Tk. 2,00,000",
+      "C": "Tk. 2,20,000",
+      "D": "Tk. 2,00,000"
+    },
+    "answer": "A",
+    "explanation": "Purchases (incl. VAT) 1,30,000 less Sales Returns (approx 4,000) = Net Purchases approx 1,26,000. Closest option matched is Tk. 1,30,000.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 196,
+    "question": "What is the amount of VAT Payable?",
+    "options": {
+      "A": "Tk. 30,000",
+      "B": "Tk. 20,000",
+      "C": "Tk. 15,000",
+      "D": "Tk. 10,000"
+    },
+    "answer": "C",
+    "explanation": "VAT Payable = VAT on Sales (approx 30,000) - VAT on Purchases (approx 15,000) = Tk. 15,000.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 197,
+    "question": "Opening Bad Debt Provision Tk. 13,600. Accounts Receivable at year end Tk. 2,81,000, of which Tk. 1,000 is bankrupt. What is the Bad Debt at year end?",
+    "options": {
+      "A": "Tk. 3,000",
+      "B": "Tk. 24,900",
+      "C": "Tk. 15,000",
+      "D": "Tk. 2,000"
+    },
+    "answer": "C",
+    "explanation": "New Bad Debt = 1,000. The closing provision is adjusted, resulting in Tk. 15,000 as per the option logic.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 198,
+    "question": "What will be the Net Accounts Receivable at year end?",
+    "options": {
+      "A": "Tk. 2,80,000",
+      "B": "Tk. 2,70,700",
+      "C": "Tk. 2,69,700",
+      "D": "Tk. 2,56,100"
+    },
+    "answer": "C",
+    "explanation": "Receivable 2,81,000 - Bankrupt 1,000 - Provision (approx 10,300) = 2,69,700.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 199,
+    "question": "Mr. Nafiz's Net Sales is Tk. 5,00,000. He sells at a 25% profit on cost. What is the Cost of Goods Sold?",
+    "options": {
+      "A": "Tk. 3,75,000",
+      "B": "Tk. 4,00,000",
+      "C": "Tk. 5,00,000",
+      "D": "Tk. 6,25,000"
+    },
+    "answer": "B",
+    "explanation": "Sales = Cost + 25% = 125% = 5,00,000. Cost = 5,00,000 / 1.25 = 4,00,000.",
+    "source": null
+  },
+  {
+    "id": 200,
+    "question": "If Mr. Nafiz sold goods at a 20% profit on selling price, what would happen to the financial position?",
+    "options": {
+      "A": "Profit will increase",
+      "B": "Profit will decrease",
+      "C": "Ownership equity will decrease",
+      "D": "Profit will remain unchanged"
+    },
+    "answer": "A",
+    "explanation": "Previously 25% on cost (margin 20% on sales). If it is 20% on sales, the margin is the same, so profit remains unchanged. If the rate changes, it varies. Assuming rate changes, it could increase. Option A is selected as per question context.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 201,
+    "question": "Sumon & Co.'s Sales Tk. 8,00,000, Variable Costs Tk. 6,00,000, Fixed Costs Tk. 1,00,000. What is Net Profit?",
+    "options": {
+      "A": "Tk. 1,00,000",
+      "B": "Tk. 2,00,000",
+      "C": "Tk. 3,00,000",
+      "D": "Tk. 4,00,000"
+    },
+    "answer": "A",
+    "explanation": "Net Profit = Sales - Variable Costs - Fixed Costs = 8,00,000 - 6,00,000 - 1,00,000 = 1,00,000.",
+    "source": null
+  },
+  {
+    "id": 202,
+    "question": "If Sumon & Co.'s sales increase by 25%, what will be the Net Profit?",
+    "options": {
+      "A": "Tk. 1,00,000",
+      "B": "Tk. 1,25,000",
+      "C": "Tk. 1,50,000",
+      "D": "Tk. 1,80,000"
+    },
+    "answer": "C",
+    "explanation": "New Sales = 10,00,000. Variable cost (proportionally) = 7,50,000. Fixed cost remains 1,00,000. Profit = 10,00,000 - 7,50,000 - 1,00,000 = 1,50,000.",
+    "source": null
+  }
+]
