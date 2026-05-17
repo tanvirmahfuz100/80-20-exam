@@ -15,12 +15,12 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
     const currentRole = role || 'student';
 
     const publicItems = [
-        { icon: LayoutDashboard, label: "Dashboard", path: "/" },
+        { icon: LayoutDashboard, label: "Home", path: "/" },
         { icon: BookOpen, label: "Practice", path: "/practice" },
     ];
 
     const privateItems = [
-        { icon: TrendingUp, label: "Analytics", path: "/analytics" },
+        { icon: TrendingUp, label: "Stats", path: "/analytics" },
         { icon: Settings, label: "Settings", path: "/settings" },
     ];
 
@@ -44,7 +44,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                 {/* Nav */}
                 <nav className="flex-1 px-4 py-8 space-y-8 overflow-y-auto no-scrollbar">
                     <div className="space-y-1">
-                        <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-white/10 mb-4">Core Modules</p>
+                        <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-white/10 mb-4">Lessons</p>
                         {publicItems.map((item) => (
                             <NavLink
                                 key={item.path}
@@ -63,7 +63,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                     </div>
 
                     <div className="space-y-1">
-                        <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-white/10 mb-4">Personal Lab</p>
+                        <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-white/10 mb-4">Your Progress</p>
                         {privateItems.map((item) => (
                             <NavLink
                                 key={item.path}
@@ -85,7 +85,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
 
                     {isAdmin && (
                         <div className="space-y-1 animate-in slide-in-from-left-4">
-                            <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-emerald-500/30 mb-4">System Administration</p>
+                            <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-emerald-500/30 mb-4">Admin Hub</p>
                             <NavLink
                                 to="/admin"
                                 className={({ isActive }) =>
@@ -96,7 +96,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                                 }
                             >
                                 <ShieldCheck className="w-5 h-5" />
-                                Command Base
+                                Content Studio
                             </NavLink>
                         </div>
                     )}
@@ -107,14 +107,14 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                     <div className="bg-surface-alt/50 border border-white/5 rounded-2xl p-4 transition-all hover:border-white/10 group">
                         <div className="flex items-center gap-3 mb-3">
                             <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></div>
-                            <span className="text-[10px] font-black uppercase tracking-widest text-white/20">All Systems Operational</span>
+                            <span className="text-[10px] font-black uppercase tracking-widest text-white/20">Ready to Learn!</span>
                         </div>
                         <button
                             onClick={onOpenReport}
                             className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-primary hover:text-white transition-colors"
                         >
                             <MessageSquareWarning className="w-4 h-4" />
-                            Incident Report
+                            Report a Problem
                         </button>
                     </div>
                 </div>
@@ -124,7 +124,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                     {user ? (
                         <>
                             <div className="bg-surface-active p-3 rounded-xl border border-white/10">
-                                <p className="text-[10px] uppercase font-bold tracking-widest text-white/30 mb-0.5">Active Operator</p>
+                                <p className="text-[10px] uppercase font-bold tracking-widest text-white/30 mb-0.5">Welcome back,</p>
                                 <p className="text-sm font-black text-white tracking-tight truncate uppercase">{user.user_metadata?.username || user.email}</p>
                             </div>
                             <button
@@ -132,7 +132,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                                 className="w-full flex items-center gap-3 px-3 py-3 rounded-xl text-sm font-bold text-red-400 hover:bg-red-500/10 transition-all border border-transparent hover:border-red-500/20"
                             >
                                 <LogOut className="w-5 h-5" />
-                                Terminate Session
+                                Sign Out
                             </button>
                         </>
                     ) : (
@@ -141,7 +141,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                             className="w-full flex items-center justify-center gap-3 px-3 py-4 rounded-xl text-[10px] font-black uppercase tracking-[0.2em] text-white bg-primary hover:bg-primary-hover transition-all shadow-xl shadow-primary/20 animate-pulse hover:animate-none"
                         >
                             <LogIn className="w-4 h-4" />
-                            Initialize Authentication
+                            Sign in to start
                         </Link>
                     )}
                 </div>
@@ -166,13 +166,13 @@ const NotificationCenter = () => {
             {show && (
                 <div className="absolute right-0 mt-4 w-80 bg-surface border border-white/10 rounded-[32px] shadow-2xl p-6 z-50 animate-in zoom-in-95 duration-200">
                     <div className="flex items-center justify-between mb-4">
-                        <h4 className="text-[10px] font-black uppercase tracking-widest text-white">Transmission Center</h4>
-                        <span className="text-[9px] font-bold text-primary italic">1 Active</span>
+                        <h4 className="text-[10px] font-black uppercase tracking-widest text-white">Latest News</h4>
+                        <span className="text-[9px] font-bold text-primary italic">1 New</span>
                     </div>
                     <div className="space-y-4">
                         <div className="p-4 bg-white/5 rounded-2xl border border-white/5">
-                            <p className="text-xs text-white/70 font-medium leading-relaxed">Neural library update finalized. 50 new BCS questions indexed.</p>
-                            <span className="text-[9px] text-white/10 font-bold mt-2 block uppercase">10:00 AM • System Intelligence</span>
+                            <p className="text-xs text-white/70 font-medium leading-relaxed">New BCS questions are ready for you! Go check them out.</p>
+                            <span className="text-[9px] text-white/10 font-bold mt-2 block uppercase">Just now • Study Guide</span>
                         </div>
                     </div>
                 </div>
@@ -188,22 +188,24 @@ const Layout = ({ children }) => {
     const location = useLocation();
 
     const isAuthPage = location.pathname === '/login' || location.pathname === '/register';
+    const isLandingPage = location.pathname === '/' && !user;
+    const hideLayout = isAuthPage || isLandingPage;
 
     return (
         <div className="min-h-screen bg-background text-text selection:bg-primary/30">
-            {!isAuthPage && <Sidebar isOpen={sidebarOpen} toggle={() => setSidebarOpen(!sidebarOpen)} onOpenReport={() => setReportOpen(true)} />}
+            {!hideLayout && <Sidebar isOpen={sidebarOpen} toggle={() => setSidebarOpen(!sidebarOpen)} onOpenReport={() => setReportOpen(true)} />}
 
-            <div className={`${!isAuthPage ? 'md:ml-64' : ''} flex flex-col min-h-screen transition-all duration-500`}>
+            <div className={`${!hideLayout ? 'md:ml-64' : ''} flex flex-col min-h-screen transition-all duration-500`}>
                 {/* Global Topbar */}
-                {!isAuthPage && (
+                {!hideLayout && (
                     <header className="h-20 flex items-center justify-between px-6 md:px-10 border-b border-white/5 bg-background/50 backdrop-blur-xl sticky top-0 z-30">
                         <div className="flex items-center gap-4">
                             <button onClick={() => setSidebarOpen(!sidebarOpen)} className="p-3 md:hidden text-white/40 hover:text-white bg-white/5 rounded-2xl">
                                 <Menu className="w-5 h-5" />
                             </button>
                             <div className="hidden md:block">
-                                <p className="text-[10px] font-black uppercase tracking-[0.3em] text-white/10">Neural Interface</p>
-                                <h2 className="text-sm font-black text-white italic tracking-tighter uppercase">{location.pathname === '/' ? 'Dashboard' : location.pathname.substring(1).replace('/', ' / ')}</h2>
+                                <p className="text-[10px] font-black uppercase tracking-[0.3em] text-white/10">Now Learning</p>
+                                <h2 className="text-sm font-black text-white italic tracking-tighter uppercase">{location.pathname === '/' ? 'Home' : location.pathname.substring(1).replace('/', ' / ')}</h2>
                             </div>
                         </div>
 
@@ -213,7 +215,7 @@ const Layout = ({ children }) => {
                                 <div className="hidden sm:flex items-center gap-4 pl-4 border-l border-white/10">
                                     <div className="text-right">
                                         <p className="text-[9px] font-black text-primary uppercase tracking-tighter">Level 1</p>
-                                        <p className="text-[10px] font-black text-white/40 uppercase tracking-widest tracking-tighter">Initiate</p>
+                                        <p className="text-[10px] font-black text-white/40 uppercase tracking-widest tracking-tighter">Beginner</p>
                                     </div>
                                     <div className="w-10 h-10 bg-primary/20 rounded-xl border border-primary/30 flex items-center justify-center font-black text-primary italic uppercase group-hover:scale-110 transition-transform cursor-pointer">
                                         {user.user_metadata?.username?.[0]?.toUpperCase() || 'U'}
@@ -224,7 +226,7 @@ const Layout = ({ children }) => {
                     </header>
                 )}
 
-                <main className={`p-6 md:p-10 max-w-7xl mx-auto w-full flex-1 ${isAuthPage ? 'flex items-center justify-center' : ''}`}>
+                <main className={`max-w-7xl mx-auto w-full flex-1 ${!hideLayout ? 'p-6 md:p-10' : ''} ${isAuthPage ? 'flex items-center justify-center p-6 md:p-10' : ''}`}>
                     {children}
                 </main>
             </div>

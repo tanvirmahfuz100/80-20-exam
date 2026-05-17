@@ -43,8 +43,8 @@ const Register = () => {
                 <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-primary/10 blur-[100px] rounded-full"></div>
 
                 <div className="relative text-center">
-                    <h2 className="text-3xl font-black text-white italic tracking-tighter mb-2">OPERATOR REGISTRY</h2>
-                    <p className="text-white/30 font-bold uppercase tracking-widest text-xs">Create your profile to join the network</p>
+                    <h2 className="text-3xl font-black text-white italic tracking-tighter mb-2">Join the Club!</h2>
+                    <p className="text-white/30 font-bold uppercase tracking-widest text-xs">Create a profile to access 50,000+ questions</p>
                 </div>
 
                 <form onSubmit={handleSubmit} className="mt-8 space-y-6 relative">
@@ -88,7 +88,7 @@ const Register = () => {
                                 value={password}
                                 onChange={(e) => setPassword(e.target.value)}
                                 className="w-full bg-background border border-white/5 pl-12 pr-4 py-4 rounded-2xl text-white outline-none focus:border-primary/50 transition-all font-medium"
-                                placeholder="Security Key (Min 6 chars)"
+                                placeholder="Password (Min 6 chars)"
                             />
                         </div>
                     </div>
@@ -99,12 +99,12 @@ const Register = () => {
                         className="w-full py-4 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-2xl font-black uppercase tracking-[0.2em] text-[10px] shadow-xl shadow-primary/20 transition-all flex items-center justify-center gap-3"
                     >
                         {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : <UserPlus className="w-5 h-5" />}
-                        Register Personnel
+                        Create Account
                     </button>
 
                     <div className="text-center pt-4">
                         <p className="text-white/30 text-xs font-bold uppercase tracking-widest">
-                            Already registered? <Link to="/login" className="text-primary hover:underline ml-2">Secure Login</Link>
+                            Already have an account? <Link to="/login" className="text-primary hover:underline ml-2">Sign In</Link>
                         </p>
                     </div>
                 </form>

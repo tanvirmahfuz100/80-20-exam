@@ -112,7 +112,7 @@ const Admin = () => {
             .eq('id', userId);
 
         if (!error) {
-            setMessage({ type: 'success', text: 'Operational level updated.' });
+            setMessage({ type: 'success', text: 'User role updated successfully!' });
             fetchUsers();
         }
     };
@@ -122,19 +122,19 @@ const Admin = () => {
             {/* Header */}
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
                 <div>
-                    <h1 className="text-4xl font-black text-white italic tracking-tighter">COMMAND <span className="text-primary not-italic">BASE</span></h1>
+                    <h1 className="text-4xl font-black text-white italic tracking-tighter">ADMIN <span className="text-primary not-italic">STUDIO</span></h1>
                     <p className="text-white/30 font-bold uppercase tracking-widest text-[10px] mt-1">
-                        Authorization Level: <span className="text-primary">{role?.replace('_', ' ') || 'Authenticating...'}</span>
+                        Access Level: <span className="text-primary">{role?.replace('_', ' ') || 'Authenticating...'}</span>
                     </p>
                 </div>
 
                 {/* Tabs */}
                 <div className="bg-surface border border-white/5 p-1.5 rounded-2xl flex gap-1 shadow-2xl overflow-x-auto no-scrollbar">
                     {[
-                        { id: 'injector', icon: Plus, label: 'Single Injection' },
-                        { id: 'bulk', icon: Upload, label: 'Bulk Stream' },
-                        { id: 'logs', icon: History, label: 'Audit Logs' },
-                        { id: 'users', icon: Users, label: 'Personnel', superOnly: true }
+                        { id: 'injector', icon: Plus, label: 'Add Question' },
+                        { id: 'bulk', icon: Upload, label: 'Bulk Upload' },
+                        { id: 'logs', icon: History, label: 'History' },
+                        { id: 'users', icon: Users, label: 'Users', superOnly: true }
                     ].map(tab => (
                         (tab.superOnly && role !== 'super_admin') ? null : (
                             <button
@@ -165,7 +165,7 @@ const Admin = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 animate-in fade-in duration-500">
                         {/* Use the previous Single Injection Form UI here - omitted for brevity but logic remains */}
                         <div className="lg:col-span-2 bg-surface-alt/10 border-2 border-dashed border-white/5 rounded-[40px] flex items-center justify-center p-20 text-center">
-                            <p className="text-white/20 font-black italic uppercase tracking-tighter">Manual Injection Interface Ready</p>
+                            <p className="text-white/20 font-black italic uppercase tracking-tighter">Ready to add new questions!</p>
                         </div>
                     </div>
                 )}
@@ -177,9 +177,9 @@ const Admin = () => {
                                 <Upload className="w-10 h-10 text-primary" />
                             </div>
                             <div className="space-y-4">
-                                <h2 className="text-3xl font-black text-white italic tracking-tighter uppercase">Mass Data Stream</h2>
+                                <h2 className="text-3xl font-black text-white italic tracking-tighter uppercase">Upload Questions</h2>
                                 <p className="text-white/30 text-sm font-medium leading-relaxed max-w-sm mx-auto">
-                                    Upload a CSV file containing your refined OCR questions. Ensure column headers match the protocol.
+                                    Upload a spreadsheet (.csv) with your questions. Make sure the headers match our template.
                                 </p>
                             </div>
 
@@ -187,18 +187,18 @@ const Admin = () => {
                                 <label className="w-full py-6 bg-white/5 hover:bg-white/10 rounded-2xl border-2 border-dashed border-white/10 cursor-pointer transition-all hover:border-primary/50 text-white/40 hover:text-white font-black uppercase text-[10px] tracking-widest flex items-center justify-center gap-3">
                                     <input type="file" accept=".csv" onChange={handleBulkUpload} className="hidden" />
                                     {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : <Search className="w-5 h-5" />}
-                                    Choose Neural Source (.csv)
+                                    Select File (.csv)
                                 </label>
 
                                 <button className="text-[9px] font-black uppercase tracking-widest text-primary hover:text-white transition-colors flex items-center justify-center gap-2">
-                                    <Download className="w-3 h-3" /> Download Protocol Template
+                                    <Download className="w-3 h-3" /> Download CSV Template
                                 </button>
                             </div>
                         </div>
 
                         <div className="bg-emerald-500/5 border border-emerald-500/10 rounded-3xl p-6">
                             <h4 className="text-emerald-500 font-black uppercase tracking-widest text-[10px] mb-3 flex items-center gap-2">
-                                <CheckCircle2 className="w-4 h-4" /> CSV Protocol Specification
+                                <CheckCircle2 className="w-4 h-4" /> Required Columns
                             </h4>
                             <code className="text-[10px] text-emerald-500/60 font-mono">
                                 question_text, option_a, option_b, option_c, option_d, correct (A/B/C/D), exam_category, tags
@@ -210,7 +210,7 @@ const Admin = () => {
                 {activeTab === 'logs' && (
                     <div className="space-y-6 animate-in fade-in duration-500">
                         <div className="flex items-center justify-between">
-                            <h3 className="text-xl font-black text-white italic truncate">Audit History <span className="text-white/10 not-italic ml-2">(Last 50 Entries)</span></h3>
+                            <h3 className="text-xl font-black text-white italic truncate">Recent Actions <span className="text-white/10 not-italic ml-2">(Last 50 Entries)</span></h3>
                             <button onClick={fetchLogs} className="p-2 bg-white/5 rounded-lg hover:bg-white/10 transition-all">
                                 <History className="w-4 h-4 text-white/40" />
                             </button>
@@ -220,9 +220,9 @@ const Admin = () => {
                                 <thead className="bg-white/5 border-b border-white/5">
                                     <tr>
                                         <th className="px-6 py-4 text-[10px] font-black uppercase tracking-widest text-white/30">Timestamp</th>
-                                        <th className="px-6 py-4 text-[10px] font-black uppercase tracking-widest text-white/30">Admin Personnel</th>
-                                        <th className="px-6 py-4 text-[10px] font-black uppercase tracking-widest text-white/30">Operation</th>
-                                        <th className="px-6 py-4 text-[10px] font-black uppercase tracking-widest text-white/30">Target Entity</th>
+                                        <th className="px-6 py-4 text-[10px] font-black uppercase tracking-widest text-white/30">Admin Name</th>
+                                        <th className="px-6 py-4 text-[10px] font-black uppercase tracking-widest text-white/30">Action</th>
+                                        <th className="px-6 py-4 text-[10px] font-black uppercase tracking-widest text-white/30">Item Changed</th>
                                     </tr>
                                 </thead>
                                 <tbody className="divide-y divide-white/5">
