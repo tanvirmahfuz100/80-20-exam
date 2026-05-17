@@ -2,7 +2,7 @@
 
 ## System Overview
 
-This is a React-based exam preparation platform built with Vite, Tailwind CSS, and Supabase backend. It serves as a comprehensive learning management system for students preparing for various competitive exams (IBA, BCS, Bank Jobs, Medical, Engineering).
+This is a React-based exam preparation platform built with Vite, Tailwind CSS, and Supabase backend. It serves as a comprehensive learning management system for students preparing for competitive exams including IBA, BCS, SSC, SAT, GRE, GMAT, and more with 50,000+ practice questions across multiple subjects.
 
 ### Technology Stack
 
