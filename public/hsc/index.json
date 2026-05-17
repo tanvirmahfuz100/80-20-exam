@@ -1,0 +1,22 @@
+{
+  "subjects": [
+    {
+      "id": "accounting_2nd",
+      "name": "Accounting 2nd Paper",
+      "icon": "Calculator",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1: Introduction to Non-Trading Organizations",
+          "chapters": [
+            {
+              "id": "hsc_accounting_ch1",
+              "name": "Chapter 1 Questions",
+              "file": "/hsc/accounting_2nd/chapter_1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

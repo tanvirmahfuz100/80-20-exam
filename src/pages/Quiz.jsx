@@ -27,14 +27,26 @@ const normalizeQuizQuestions = (payload) => {
             }));
         }
 
+        // Handle options as object {A: "text", B: "text", ...}
+        let options = [];
+        let correct = question.correct || 0;
+        if (question.options && typeof question.options === 'object' && !Array.isArray(question.options)) {
+            options = Object.values(question.options);
+            if (question.answer) {
+                correct = ['A', 'B', 'C', 'D'].indexOf(question.answer.toUpperCase());
+            }
+        } else {
+            options = (question.options || []).map((option) => option.text || option);
+        }
+
         return [{
             id: question.id,
-            text: question.text || question.passage || 'Question',
+            text: question.question || question.text || question.passage || 'Question',
             passage: question.passage || '',
             boxWords: question.boxWords || [],
             blankId: question.blankId || null,
-            options: (question.options || []).map((option) => option.text || option),
-            correct: typeof question.correct === 'number' ? question.correct : 0,
+            options,
+            correct,
             explanation: question.explanation || '',
             difficulty: question.difficulty || 'medium'
         }];
@@ -102,7 +114,7 @@ const Quiz = () => {
                     }
                     const res = await fetch(fileUrl);
                     const data = await res.json();
-                    setQuestions(normalizeQuizQuestions(data));
+                    setQuestions(normalizeQuizQuestions({ questions: data }));
                 }
             } catch (err) {
                 setError(err.message);
