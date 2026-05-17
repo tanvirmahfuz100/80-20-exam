@@ -75,9 +75,30 @@ const Landing = () => {
                 <h2 className="text-5xl md:text-6xl font-black italic tracking-tight uppercase leading-none">
                     Start Your Exam Prep Today!
                 </h2>
-                <p className="text-white/40 text-xl font-medium">
-                    Local testing mode is active. You can explore every feature without registration.
-                </p>
+                {/* Exams Selector */}
+                <div className="max-w-7xl mx-auto px-6 py-24">
+                    <h3 className="text-3xl font-black text-white mb-6 uppercase">Choose Your Exam</h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                        {[
+                            { id: 'ssc', name: 'SSC' },
+                            { id: 'hsc', name: 'HSC' },
+                            { id: 'iba', name: 'IBA' },
+                            { id: 'bcs', name: 'BCS' }
+                        ].map(exam => (
+                            <Link key={exam.id} to={`/practice?category=${exam.id.toUpperCase()}`} className="p-6 rounded-2xl bg-surface border border-white/5 hover:border-primary transition-all flex items-center justify-between">
+                                <div>
+                                    <h4 className="text-xl font-black">{exam.name}</h4>
+                                    <p className="text-xs text-white/30 uppercase tracking-widest mt-1">Start practicing {exam.name} lessons</p>
+                                </div>
+                                <div className="flex items-center justify-center w-12 h-12 bg-primary/10 rounded-full">
+                                    <ArrowRight className="w-5 h-5 text-primary" />
+                                </div>
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+
+                {/* Footer Minimal */}
                 <div className="flex justify-center pt-8">
                     <Link
                         to="/login"

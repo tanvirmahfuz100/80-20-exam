@@ -115,7 +115,8 @@ const toQuestionRecord = (questionFile, chapter) => {
 };
 
 const getAllJsonQuestions = async () => {
-    const indexPaths = ['/iba/index.json', '/ssc/index.json'];
+    const base = import.meta.env.BASE_URL || '/';
+    const indexPaths = ['iba/index.json', 'ssc/index.json'].map(p => `${base}${p}`);
     const indexJsons = [];
 
     for (const p of indexPaths) {
@@ -123,14 +124,15 @@ const getAllJsonQuestions = async () => {
             const res = await fetch(p);
             if (!res.ok) continue;
             const j = await res.json();
-            indexJsons.push(j);
+            indexJsons.push({ json: j, path: p });
         } catch {
             // ignore
         }
     }
 
     const chapterFiles = [];
-    for (const indexJson of indexJsons) {
+    for (const bundle of indexJsons) {
+        const indexJson = bundle.json;
         for (const subject of indexJson.subjects || []) {
             for (const topic of subject.topics || []) {
                 for (const chapter of topic.chapters || []) {
@@ -143,7 +145,8 @@ const getAllJsonQuestions = async () => {
     const loadedSets = await Promise.all(
         chapterFiles.map(async (entry) => {
             try {
-                const res = await fetch(entry.file);
+                const path = entry.file.replace(/^\//, '');
+                const res = await fetch(`${base}${path}`);
                 if (!res.ok) return [];
                 const chapterJson = await res.json();
                 return toQuestionRecord(chapterJson, entry);

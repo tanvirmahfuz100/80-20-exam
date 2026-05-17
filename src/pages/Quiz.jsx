@@ -61,9 +61,14 @@ const Quiz = () => {
                     setQuestions(data || []);
                 } else if (file) {
                     // Legacy JSON support
-                    const res = await fetch(file);
-                    const data = await res.json();
-                    setQuestions(data.questions || []);
+                        let fileUrl = file || '';
+                        if (fileUrl.startsWith('/')) {
+                            const base = import.meta.env.BASE_URL || '/';
+                            fileUrl = `${base}${fileUrl.replace(/^\//, '')}`;
+                        }
+                        const res = await fetch(fileUrl);
+                        const data = await res.json();
+                        setQuestions(data.questions || []);
                 }
             } catch (err) {
                 setError(err.message);
