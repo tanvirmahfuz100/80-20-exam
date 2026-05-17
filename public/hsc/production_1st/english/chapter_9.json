@@ -1,0 +1,353 @@
+[
+  {
+    "id": 320,
+    "question": "For the smooth operation of the production and distribution functions of a business, what is needed?",
+    "options": {
+      "A": "Correct location",
+      "B": "Adequate capital",
+      "C": "Profit",
+      "D": "Skilled workers"
+    },
+    "answer": "A",
+    "explanation": "Without the right location, the production and distribution of the business are hampered.",
+    "source": "BEPZA Public School and College, Chittagong"
+  },
+  {
+    "id": 321,
+    "question": "'Education insurance' belongs to which environment?",
+    "options": {
+      "A": "Natural",
+      "B": "Political",
+      "C": "Social",
+      "D": "Economic"
+    },
+    "answer": "C",
+    "explanation": "Education and insurance are part of social awareness or structure.",
+    "source": "Anwara University College, Chittagong"
+  },
+  {
+    "id": 322,
+    "question": "'Education' belongs to which environment?",
+    "options": {
+      "A": "Natural",
+      "B": "International",
+      "C": "Legal",
+      "D": "Social"
+    },
+    "answer": "D",
+    "explanation": "Education is an element of the social environment.",
+    "source": "Anwara University College, Chittagong"
+  },
+  {
+    "id": 323,
+    "question": "An organization's production capacity can be measured based on which factor used in the organization?",
+    "options": {
+      "A": "Industrial products",
+      "B": "Inventory products",
+      "C": "Raw materials",
+      "D": "Finished goods inventory"
+    },
+    "answer": "C",
+    "explanation": "Production capacity is measured by the amount of raw materials used.",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 324,
+    "question": "What is the reason for the development of heavy industries in Chittagong?",
+    "options": {
+      "A": "Proximity to port",
+      "B": "Political stability",
+      "C": "Tax rebate facility",
+      "D": "Availability of raw materials"
+    },
+    "answer": "A",
+    "explanation": "Having a port makes import and export of raw materials and goods easy, so heavy industries have developed.",
+    "source": "University Laboratory School and College, Dhaka"
+  },
+  {
+    "id": 325,
+    "question": "Which is an industrial enterprise under the government of Bangladesh?",
+    "options": {
+      "A": "Bangladesh Corporation",
+      "B": "Bangladesh Textile Mills Corporation",
+      "C": "Bangladesh Sugar Industries Corporation",
+      "D": "Bangladesh Mineral Corporation"
+    },
+    "answer": "B",
+    "explanation": "This is a state-owned enterprise.",
+    "source": "BAF Shaheen College, Jessore"
+  },
+  {
+    "id": 326,
+    "question": "When many industrial establishments get an advantage in collecting information, it is called—",
+    "options": {
+      "A": "Localization economies of scale",
+      "B": "Information-related economies of scale",
+      "C": "Advertising economies of scale",
+      "D": "Specialization economies of scale"
+    },
+    "answer": "A",
+    "explanation": "When industries cluster in one area, information exchange becomes easy, which is Localization Economies of Scale.",
+    "source": "Syed Ahmed College, Gabtoli, Bogra"
+  },
+  {
+    "id": 327,
+    "question": "Which is a complex problem of factory location?",
+    "options": {
+      "A": "Communication",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Profit"
+    },
+    "answer": "A",
+    "explanation": "Communication infrastructure is a complex issue.",
+    "source": "BCIC College, Dhaka"
+  },
+  {
+    "id": 328,
+    "question": "Often, due to government policy, which aspect of business has to be changed?",
+    "options": {
+      "A": "Market",
+      "B": "Technology",
+      "C": "Business location",
+      "D": "Product quality"
+    },
+    "answer": "C",
+    "explanation": "Government bans or incentives may make changing the location necessary.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 329,
+    "question": "Managers of production establishments must have a clear understanding of—",
+    "options": {
+      "A": "Profit",
+      "B": "Production cost",
+      "C": "Maximum production capacity",
+      "D": "Availability of raw materials"
+    },
+    "answer": "C",
+    "explanation": "Without knowing the maximum production capacity, planning cannot be done.",
+    "source": "Khilgaon Govt. High School, Khilgaon, Dhaka"
+  },
+  {
+    "id": 330,
+    "question": "How to select a suitable location for a business?",
+    "options": {
+      "A": "By thinking and analysis",
+      "B": "By looking at the area's literacy rate",
+      "C": "By looking at workers' skills",
+      "D": "According to business structure"
+    },
+    "answer": "A",
+    "explanation": "Suitable location is selected through market survey and analysis.",
+    "source": "Hajera Taju Degree College, Dhaka"
+  },
+  {
+    "id": 331,
+    "question": "The concentration of a specific industry in a specific location is called—",
+    "options": {
+      "A": "Area determination",
+      "B": "Localization of business",
+      "C": "Decentralization",
+      "D": "Industrial unit"
+    },
+    "answer": "B",
+    "explanation": "Accumulation of the same type of industry in one place is called Localization.",
+    "source": "Bangladesh Navy College, Chittagong"
+  },
+  {
+    "id": 332,
+    "question": "Factors considered in determining business location are— (i. Participation in national production ii. Proximity to market iii. Good communication system) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Market proximity and communication are the main considerations for location determination.",
+    "source": "BAF Shaheen College, Dhaka"
+  },
+  {
+    "id": 333,
+    "question": "Factors considered in determining business location are— (i. Participation in national production ii. Proximity to market iii. Good communication system) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Repeat of the previous question.",
+    "source": "University Laboratory School and College, Dhaka"
+  },
+  {
+    "id": 334,
+    "question": "Factors considered in determining business location are— (i. Participation in national production ii. Proximity to market iii. Good communication system) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Again the same answer.",
+    "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
+  },
+  {
+    "id": 335,
+    "question": "For efficient performance, all departments, machinery, and work centers need to be arranged— (i. Sequentially ii. Horizontally iii. Methodically) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Sequential and methodical arrangement is needed. Not horizontal.",
+    "source": "Thakurgaon Govt. Women's College"
+  },
+  {
+    "id": 336,
+    "question": "Mr. Arif is a retailer of car spare parts. He set up shop in Dholaipar, Dhaka because many customers gather and there are many similar shops. What influenced Mr. Arif in determining the business location in Dholaipar?— (i. Availability of workers ii. Presence of similar and supportive businesses iii. Political considerations) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Presence of similar businesses and availability of workers are important. Politics is not.",
+    "source": "Samsul Haque Khan School and College"
+  },
+  {
+    "id": 337,
+    "question": "Bangladesh's EPZs have developed based on— (i. Cheap labor and duty benefits ii. Infrastructural advantages iii. Easy access to capital) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "EPZs developed due to all these advantages.",
+    "source": "Dhaka Commerce College"
+  },
+  {
+    "id": 338,
+    "question": "In establishing a large retail business, the following are considered— (i. Adequacy and demand of customers ii. Adequate land and raw materials iii. Financial solvency of customers) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three are considerations.",
+    "source": "Shaheed Ramiz Uddin Cantonment College"
+  },
+  {
+    "id": 339,
+    "question": "In the Nahar Cement Factory in Gazipur, cement is produced using clinker imported from abroad. What is mentioned as being used as raw material in the Nahar Cement Factory?",
+    "options": {
+      "A": "Gas",
+      "B": "Clinker",
+      "C": "Limestone",
+      "D": "Soil"
+    },
+    "answer": "B",
+    "explanation": "The stimulus mentions importing clinker.",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 340,
+    "question": "The factor of production that is insufficient in the stimulus is— (i. Land ii. Capital and labor iii. Organization) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Despite having land, labor, and capital there is a problem, meaning Organization is lacking.",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 341,
+    "question": "Mr. Monir decided to set up a handloom saree factory in Ghatail, Tangail. How are handloom sarees woven?",
+    "options": {
+      "A": "By hand",
+      "B": "By air",
+      "C": "With machines",
+      "D": "A + B"
+    },
+    "answer": "D",
+    "explanation": "Handloom sarees are woven both by hand and by machine.",
+    "source": "Govt. Shah Sultan College, Bogra"
+  },
+  {
+    "id": 342,
+    "question": "Reasons for Mr. Monir to set up a factory in Tangail are— (i. Skilled workers ii. Easy communication iii. Availability of raw materials) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Tangail is famous for handloom sarees, so all three advantages exist.",
+    "source": "Govt. Shah Sultan College, Bogra"
+  },
+  {
+    "id": 343,
+    "question": "Mr. Kamran, a keen businessman, wants to set up a ceramic factory in the labor-abundant Savar area. What kind of benefit can Mr. Kamran get from the government for setting up a new business?",
+    "options": {
+      "A": "Tax holiday",
+      "B": "Reduced land price",
+      "C": "Loan facility",
+      "D": "New technology"
+    },
+    "answer": "A",
+    "explanation": "The government provides tax holiday facilities for establishing new industries.",
+    "source": "Rangpur Govt. College, Rangpur"
+  },
+  {
+    "id": 344,
+    "question": "The reasons for Mr. Kamran to set up a factory in that area are— (i. Low capital ii. Easy availability of workers iii. High profit) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Workers are easily available and cheap, so business can be started with low capital.",
+    "source": "Rangpur Govt. College, Rangpur"
+  },
+  {
+    "id": 345,
+    "question": "Masud is an unemployed youth. But he knows that setting up an industry in the village provides tax holiday facilities. Where is the tax holiday facility available if an industry is set up?",
+    "options": {
+      "A": "City",
+      "B": "Village",
+      "C": "Industrial area",
+      "D": "Residential area"
+    },
+    "answer": "B",
+    "explanation": "Tax holidays are given for setting up new industries in villages.",
+    "source": "Bangladesh Navy College, Chittagong"
+  },
+  {
+    "id": 346,
+    "question": "The government provides new industrial establishments with— (i. Financial benefits ii. Tax holidays iii. Commuting benefits) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The government encourages industrialization by providing various benefits.",
+    "source": "Bangladesh Navy College, Chittagong"
+  }
+]

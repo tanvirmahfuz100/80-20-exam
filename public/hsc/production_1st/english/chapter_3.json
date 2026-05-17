@@ -1,0 +1,535 @@
+[
+  {
+    "id": 75,
+    "question": "What is the main indicator of a country's economic condition and standard of living?",
+    "options": {
+      "A": "National Income",
+      "B": "Personal Income",
+      "C": "Aggregate Income",
+      "D": "Per Capita Income"
+    },
+    "answer": "D",
+    "explanation": "Per Capita Income indicates the average income of people in a country, which is the main indicator of economic development and standard of living.",
+    "source": "BEPZA Public School and College, Chittagong"
+  },
+  {
+    "id": 76,
+    "question": "What is the competitive capacity of small and medium enterprises?",
+    "options": {
+      "A": "High capacity",
+      "B": "Low capacity",
+      "C": "Depends on situation",
+      "D": "No capacity"
+    },
+    "answer": "A",
+    "explanation": "SMEs are flexible and can make quick decisions, enabling them to compete effectively.",
+    "source": "Anwara University College, Chittagong"
+  },
+  {
+    "id": 77,
+    "question": "Which is a factor determining the scale of production?",
+    "options": {
+      "A": "Amount of capital",
+      "B": "Production capacity",
+      "C": "Managerial competence",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Capital, capacity, and managerial competence all determine the scale of production.",
+    "source": "Govt. Women's College, Pabna"
+  },
+  {
+    "id": 78,
+    "question": "What is a disadvantage of small and medium enterprises?",
+    "options": {
+      "A": "Management inefficiency",
+      "B": "Complexity of laws",
+      "C": "Limitation of capital",
+      "D": "Difficulty in quick decision making"
+    },
+    "answer": "C",
+    "explanation": "The main problem for small and medium enterprises is the shortage of capital.",
+    "source": "Govt. Akbar Ali College, Ullapara, Sirajganj"
+  },
+  {
+    "id": 79,
+    "question": "What does 'Scale of Production' refer to the total amount of?",
+    "options": {
+      "A": "Resources",
+      "B": "Marketing",
+      "C": "Raw materials",
+      "D": "Production"
+    },
+    "answer": "D",
+    "explanation": "Scale of production refers to the total volume of production in a specific period.",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 80,
+    "question": "The concept of economies of scale points to which level of operation?",
+    "options": {
+      "A": "Low level",
+      "B": "Optimum level",
+      "C": "Maximum level",
+      "D": "Medium level"
+    },
+    "answer": "B",
+    "explanation": "Economies of scale work up to the optimum production level.",
+    "source": "Dr. Mahbubur Rahman Mollah College"
+  },
+  {
+    "id": 81,
+    "question": "What is the optimum scale of production?",
+    "options": {
+      "A": "Maximum production",
+      "B": "Maximum average cost",
+      "C": "Minimum average cost",
+      "D": "Minimum production"
+    },
+    "answer": "C",
+    "explanation": "The optimum scale of production is where the average production cost is minimum.",
+    "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
+  },
+  {
+    "id": 82,
+    "question": "The shares of which company are freely transferable?",
+    "options": {
+      "A": "Private Ltd.",
+      "B": "Public Ltd.",
+      "C": "Sole proprietorship",
+      "D": "Partnership"
+    },
+    "answer": "B",
+    "explanation": "Shares of a Public Limited Company are freely transferable on the stock exchange.",
+    "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
+  },
+  {
+    "id": 83,
+    "question": "If the value of fixed assets (excluding land and building) is 5 crore taka, what type of industry will it be?",
+    "options": {
+      "A": "Small industry",
+      "B": "Medium industry",
+      "C": "Large industry",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "Fixed assets between 50 lakh and 10 crore fall under Small Industry.",
+    "source": "Dhaka College, Dhaka"
+  },
+  {
+    "id": 84,
+    "question": "If the value of fixed assets (excluding land and building) is 50 crore taka, what type of industry will it be considered?",
+    "options": {
+      "A": "Small industry",
+      "B": "Medium industry",
+      "C": "Large industry",
+      "D": "None of the above"
+    },
+    "answer": "C",
+    "explanation": "More than 30 crore in fixed assets is considered a Large Industry.",
+    "source": "Dhaka College, Dhaka"
+  },
+  {
+    "id": 85,
+    "question": "Many products manufactured in small and medium enterprises can be exported after meeting which demand?",
+    "options": {
+      "A": "Through foreign exchange",
+      "B": "Maintaining purchasing power parity",
+      "C": "Through bank orders",
+      "D": "Meeting domestic demand"
+    },
+    "answer": "D",
+    "explanation": "SMEs first meet the country's demand and then export the surplus.",
+    "source": "Cantonment Public School and College, Jahanabad"
+  },
+  {
+    "id": 86,
+    "question": "Mr. Monir Hossain supplies products considering the existing demand in the market. Which importance of the scale of production is reflected here?",
+    "options": {
+      "A": "Controlling the market",
+      "B": "Optimal use of machinery",
+      "C": "Balancing demand and supply",
+      "D": "Reducing wastage of raw materials"
+    },
+    "answer": "C",
+    "explanation": "Producing according to demand enables balancing supply and demand.",
+    "source": "Samsul Haque Khan School and College"
+  },
+  {
+    "id": 87,
+    "question": "Mr. Sumon is the owner of a small manufacturing firm. Whether production occurs or not, there is a cost that must be incurred. What is this type of cost called?",
+    "options": {
+      "A": "Variable cost",
+      "B": "Short-term cost",
+      "C": "Current cost",
+      "D": "Fixed cost"
+    },
+    "answer": "D",
+    "explanation": "Costs incurred even without production (like rent) are Fixed Costs.",
+    "source": "Samsul Haque Khan School and College"
+  },
+  {
+    "id": 88,
+    "question": "The value of jute was included in GNP after production. When those jute are used to make sacks, the value of the sacks is again included in GNP. What is this type of problem in calculating GNP or NI called?",
+    "options": {
+      "A": "Problem of estimating monetary value",
+      "B": "Lack of accurate data",
+      "C": "Double counting problem",
+      "D": "Problem of determining transfer payments"
+    },
+    "answer": "C",
+    "explanation": "Counting the same product twice is called the Double Counting problem.",
+    "source": "Samsul Haque Khan School and College"
+  },
+  {
+    "id": 89,
+    "question": "The business community understands the trends of the country's production, consumption, investment etc. and makes various decisions and plans. Which one contributes to providing information on this?",
+    "options": {
+      "A": "Productivity",
+      "B": "Volume of production",
+      "C": "Measurement of National Income",
+      "D": "BSTI"
+    },
+    "answer": "C",
+    "explanation": "Measurement of National Income provides information about the economic trends.",
+    "source": "Samsul Haque Khan School and College"
+  },
+  {
+    "id": 90,
+    "question": "If a company's fixed assets are more than 30 crore taka and workers are more than 100, what type of enterprise is it called?",
+    "options": {
+      "A": "Small industry",
+      "B": "Medium industry",
+      "C": "Large industry",
+      "D": "Cottage industry"
+    },
+    "answer": "C",
+    "explanation": "More than 30 crore in fixed assets and 100+ workers is the criterion for a Large Industry.",
+    "source": "Engineering University School and College, Dhaka"
+  },
+  {
+    "id": 91,
+    "question": "Which is an industrial enterprise under the government of Bangladesh?",
+    "options": {
+      "A": "Bangladesh Corporation",
+      "B": "Bangladesh Textile Mills Corporation",
+      "C": "Bangladesh Sugar Industries Corporation",
+      "D": "Bangladesh Mineral Corporation"
+    },
+    "answer": "B",
+    "explanation": "The Bangladesh Textile Mills Corporation is a state-owned enterprise.",
+    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
+  },
+  {
+    "id": 92,
+    "question": "When long-run average cost increases with the increase in production, it is called—",
+    "options": {
+      "A": "Economies of scale",
+      "B": "Optimum production scale",
+      "C": "Economies of scope",
+      "D": "Diseconomies of scale"
+    },
+    "answer": "D",
+    "explanation": "If cost rises with increasing production, it is Diseconomies of Scale.",
+    "source": "Shaheed Ramiz Uddin Cantonment College"
+  },
+  {
+    "id": 93,
+    "question": "Which is an advantage of Small and Medium Enterprises?",
+    "options": {
+      "A": "Personal supervision",
+      "B": "Division of labor",
+      "C": "Efficient use of machinery",
+      "D": "Economies of scale in fixed costs"
+    },
+    "answer": "A",
+    "explanation": "In small enterprises, direct supervision by the owner is easy.",
+    "source": "Rangpur Govt. College, Rangpur"
+  },
+  {
+    "id": 94,
+    "question": "Large-scale enterprises requiring 30 crore taka working capital belong to which type of organization?",
+    "options": {
+      "A": "Goods-oriented large enterprise",
+      "B": "Production-oriented large enterprise",
+      "C": "Service-oriented large enterprise",
+      "D": "Income-oriented large enterprise"
+    },
+    "answer": "B",
+    "explanation": "Needing large capital for production defines a Production-oriented Large Enterprise.",
+    "source": "Bogra Cantonment Public School College"
+  },
+  {
+    "id": 95,
+    "question": "In the service sector, which one will be considered a medium industry?",
+    "options": {
+      "A": "90 workers",
+      "B": "30 workers",
+      "C": "200 workers",
+      "D": "500 workers"
+    },
+    "answer": "A",
+    "explanation": "In the service sector, 50 to 100 workers is the range for a Medium enterprise.",
+    "source": "Cantonment Public School and College, BUSEAMS, Parbatipur, Dinajpur"
+  },
+  {
+    "id": 96,
+    "question": "If an enterprise falls under 'small' in one criterion and 'medium' in another, what type of industry is it?",
+    "options": {
+      "A": "Large",
+      "B": "Medium",
+      "C": "Small",
+      "D": "None"
+    },
+    "answer": "B",
+    "explanation": "Usually, the higher category is applied, so it is considered a Medium Industry.",
+    "source": "Omor Goni MES College, Chittagong"
+  },
+  {
+    "id": 97,
+    "question": "If the average production cost increases beyond a specific scale of production, what is that production scale called?",
+    "options": {
+      "A": "Economies of scale",
+      "B": "Diseconomies of scale",
+      "C": "Maximum",
+      "D": "Minimum"
+    },
+    "answer": "B",
+    "explanation": "Increasing average cost implies Diseconomies of Scale.",
+    "source": "Hajera Taju Degree College, Dhaka"
+  },
+  {
+    "id": 98,
+    "question": "The way to calculate a country's GDP is— (i. Total consumption expenditure ii. Investment expenditure iii. Adding government expenditure and net exports) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "GDP = C + I + G + (X-M), so all are required.",
+    "source": "BEPZA Public School and College, Chittagong"
+  },
+  {
+    "id": 99,
+    "question": "In the production sector, a small industry is— (i. Fixed assets ex-land/building 50 lakh to 10 crore ii. Fixed assets ex-land/building 10 crore to 30 crore iii. Workers 25 to 99) Which is correct?",
+    "options": {
+      "A": "i & iii",
+      "B": "ii & iii",
+      "C": "i & ii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "In manufacturing, Small Industry defined as: Assets 50 lakh-10 crore, Workers 25-99.",
+    "source": "Dhaka College, Dhaka"
+  },
+  {
+    "id": 100,
+    "question": "Subjects included in GDP are— (i. Total consumption expenditure ii. Total investment iii. Total government expenditure) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "GDP = C + I + G, so all three are included.",
+    "source": "BCIC College, Dhaka"
+  },
+  {
+    "id": 101,
+    "question": "The concept of reducing per-unit production cost by increasing production is called— (i. Economies of scale concept ii. Scale efficiency concept iii. Optimum scale of production) Which is correct?",
+    "options": {
+      "A": "i",
+      "B": "ii",
+      "C": "iii",
+      "D": "i & ii"
+    },
+    "answer": "D",
+    "explanation": "Both Economies of Scale and Scale Efficiency represent the concept of cost reduction.",
+    "source": "Samsul Haque Khan School and College"
+  },
+  {
+    "id": 102,
+    "question": "For small enterprises, the applicable benefit is— (i. Increased production ii. Increased cost iii. Easy control) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "iii"
+    },
+    "answer": "D",
+    "explanation": "The key feature of small-scale is Easy Control. Cost increase is not a feature.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 103,
+    "question": "A firm that produces at a small and medium scale is mainly—",
+    "options": {
+      "A": "Large",
+      "B": "Medium",
+      "C": "Small",
+      "D": "None"
+    },
+    "answer": "B",
+    "explanation": "As a combination of small and medium, it is classified as Medium.",
+    "source": "Shaheed Ramiz Uddin Cantonment College"
+  },
+  {
+    "id": 104,
+    "question": "In determining the scale of production, emphasis must be given to— (i. Advertising ii. Skilled workers iii. Raw materials) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Skilled workers and adequate raw materials are crucial for determining scale.",
+    "source": "Bangladesh Navy College, Chittagong"
+  },
+  {
+    "id": 105,
+    "question": "Gross National Product is generally the sum of market prices of how many years?",
+    "options": {
+      "A": "1 year",
+      "B": "2 years",
+      "C": "4 years",
+      "D": "5 years"
+    },
+    "answer": "A",
+    "explanation": "National income is usually calculated for a specific fiscal year (1 year).",
+    "source": "BEPZA Public School and College, Chittagong"
+  },
+  {
+    "id": 106,
+    "question": "National income can be measured— (i. From the income side ii. From the expenditure side iii. From the perspective of personal income) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "National income is measured using the Income method and Expenditure method. Personal income is a different concept.",
+    "source": "BEPZA Public School and College, Chittagong"
+  },
+  {
+    "id": 107,
+    "question": "Onik and Akash, two brothers, set up a sugar mill together. The number of workers is about seven hundred. They are able to run the operations maintaining the optimum scale of production. What type of business is this?",
+    "options": {
+      "A": "Small",
+      "B": "Medium",
+      "C": "Large",
+      "D": "State"
+    },
+    "answer": "C",
+    "explanation": "A sugar mill with 700 workers is a Large-scale industrial enterprise.",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 108,
+    "question": "The benefits of the scale of production are— (i. Increased productivity ii. Adequate capital iii. Proper use of machinery) Which is correct?",
+    "options": {
+      "A": "i",
+      "B": "i & ii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "With the right scale, all three benefits are achieved.",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 109,
+    "question": "Mr. Rayhan hires skilled workers, adds advanced technology, and improves the factory environment to strengthen his factory's production management. For what purpose does Mr. Rayhan hire skilled workers?",
+    "options": {
+      "A": "Short-term objective",
+      "B": "Long-term objective",
+      "C": "To strengthen production management",
+      "D": "To intensify promotion system"
+    },
+    "answer": "C",
+    "explanation": "The goal is explicitly to strengthen production management.",
+    "source": "Dr. Mahbubur Rahman Mollah College"
+  },
+  {
+    "id": 110,
+    "question": "To build strong production management, it is necessary to— (i. Hire skilled workers ii. Add advanced technology and improve factory environment iii. Provide training to workers) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All are required for strong production management.",
+    "source": "Dr. Mahbubur Rahman Mollah College"
+  },
+  {
+    "id": 111,
+    "question": "Roni & Co. Ltd. is a furniture manufacturing company. He determines how much furniture to produce for the company to profit. What is the determination of the amount of furniture preparation called?",
+    "options": {
+      "A": "Purchase scale",
+      "B": "Scale of production",
+      "C": "Sales scale",
+      "D": "Profit scale"
+    },
+    "answer": "B",
+    "explanation": "Determining how much to produce for profit is defining the Scale of Production.",
+    "source": "BAF Shaheen College, Jessore"
+  },
+  {
+    "id": 112,
+    "question": "For Roni & Co., the applicable production scales are— (i. Small and medium scale production ii. Large scale production iii. Optimum production) Which is correct?",
+    "options": {
+      "A": "i",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Depending on the situation, all these three types of scale can be applicable for any firm.",
+    "source": "BAF Shaheen College, Jessore"
+  },
+  {
+    "id": 113,
+    "question": "By determining the scale of production, Roni & Co. can benefit— (i. By reducing costs ii. By ensuring proper use of machinery iii. By developing the business sector) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Right scale leads to lower costs, better machine use, and sectoral development.",
+    "source": "BAF Shaheen College, Jessore"
+  },
+  {
+    "id": 114,
+    "question": "Mr. Siddiqui established a production-oriented business in Mirpur Benarasi Palli. He is careful about maximizing the use of workers and machinery from the start. He regularly advises workers. What business did Mr. Siddiqui establish?",
+    "options": {
+      "A": "Loom business",
+      "B": "Jute goods business",
+      "C": "Raw material business",
+      "D": "Weaving cloth production business"
+    },
+    "answer": "D",
+    "explanation": "Benarasi Palli is famous for weaving cloth production.",
+    "source": "Dr. Abdur Razzak Municipal College, Jessore"
+  },
+  {
+    "id": 115,
+    "question": "Mr. Siddiqui regularly advises the workers. Why?",
+    "options": {
+      "A": "For more income",
+      "B": "For the profit of the organization",
+      "C": "For maximum production",
+      "D": "For maximum sales"
+    },
+    "answer": "C",
+    "explanation": "His main goal is to ensure maximum output through maximum utilization of workers and machinery.",
+    "source": "Dr. Abdur Razzak Municipal College, Jessore"
+  }
+]
