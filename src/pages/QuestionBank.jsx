@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
-import { Search, Filter, ChevronLeft, ChevronRight, Loader2, Clock, Target, X } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Search, Filter, ChevronDown, ChevronLeft, ChevronRight, Loader2, Clock, Target, X } from 'lucide-react';
 import LottieAnimation from '../components/LottieAnimation';
 import searchAnimation from '../assets/search.json';
 
@@ -82,6 +83,121 @@ function parseYear(str) {
     return m ? m[1] : '';
 }
 
+function FilterDropdown({ label, options, value, onChange }) {
+    const [open, setOpen] = useState(false);
+    const [isMobile, setIsMobile] = useState(false);
+    const ref = useRef(null);
+
+    useEffect(() => {
+        const check = () => setIsMobile(window.innerWidth < 768);
+        check();
+        window.addEventListener('resize', check);
+        return () => window.removeEventListener('resize', check);
+    }, []);
+
+    useEffect(() => {
+        if (!open) return;
+        const handler = (e) => { if (ref.current && !ref.current.contains(e.target)) setOpen(false); };
+        document.addEventListener('mousedown', handler);
+        return () => document.removeEventListener('mousedown', handler);
+    }, [open]);
+
+    useEffect(() => {
+        if (!open) return;
+        const handler = (e) => { if (e.key === 'Escape') setOpen(false); };
+        document.addEventListener('keydown', handler);
+        return () => document.removeEventListener('keydown', handler);
+    }, [open]);
+
+    return (
+        <div ref={ref} className={`relative ${open ? 'z-50' : ''}`}>
+            <button
+                onClick={() => setOpen(p => !p)}
+                className="flex items-center gap-1 bg-background border border-white/5 rounded-lg px-3 py-2 hover:border-white/20 transition-colors text-[9px] font-black uppercase tracking-widest min-w-0 w-full"
+            >
+                <span className="text-white/30 truncate">{label}</span>
+                {value !== 'All' && (
+                    <span className="bg-primary/15 text-primary px-1.5 py-0.5 rounded text-[8px] leading-none truncate max-w-[64px] shrink-0">
+                        {value}
+                    </span>
+                )}
+                <ChevronDown className={`w-3 h-3 text-white/20 transition-transform shrink-0 ${open ? 'rotate-180' : ''}`} />
+            </button>
+
+            <AnimatePresence>
+                {open && isMobile && (
+                    <motion.div
+                        className="fixed inset-0 z-50 flex items-end"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.2 }}
+                    >
+                        <div className="fixed inset-0 bg-black/60" onClick={() => setOpen(false)} />
+                        <motion.div
+                            className="relative w-full bg-zinc-900 border-t border-white/10 rounded-t-3xl shadow-2xl flex flex-col"
+                            initial={{ y: '100%' }}
+                            animate={{ y: 0 }}
+                            exit={{ y: '100%' }}
+                            transition={{ type: 'spring', damping: 30, stiffness: 300 }}
+                            style={{ maxHeight: '70vh' }}
+                        >
+                            <div className="shrink-0 pt-2 pb-1 flex items-center justify-center">
+                                <div className="w-8 h-1 bg-white/20 rounded-full" />
+                            </div>
+                            <div className="overflow-y-auto p-2 flex-1 min-h-0" style={{ paddingBottom: 'calc(env(safe-area-inset-bottom, 0px) + 1rem)' }}>
+                                {options.map(opt => (
+                                    <button
+                                        key={opt}
+                                        onClick={() => { onChange(opt); setOpen(false); }}
+                                        className={`w-full text-left px-4 py-3 rounded-xl text-sm font-bold transition-all flex items-center min-h-[48px] gap-3 hover:bg-white/5 ${
+                                            opt === value
+                                                ? 'text-primary bg-primary/8'
+                                                : 'text-white/50'
+                                        }`}
+                                    >
+                                        <span className={`w-4 shrink-0 ${opt === value ? 'text-primary' : 'text-transparent'}`}>
+                                            {opt === value && '✓'}
+                                        </span>
+                                        <span className="truncate">{opt === 'All' ? 'All' : opt}</span>
+                                    </button>
+                                ))}
+                            </div>
+                        </motion.div>
+                    </motion.div>
+                )}
+
+                {open && !isMobile && (
+                    <motion.div
+                        className="absolute top-full left-0 mt-1.5 w-56 bg-zinc-900 border border-white/10 rounded-xl shadow-2xl p-1.5 z-50 max-h-[50vh] overflow-y-auto"
+                        initial={{ opacity: 0, y: -8, scale: 0.97 }}
+                        animate={{ opacity: 1, y: 0, scale: 1 }}
+                        exit={{ opacity: 0, y: -8, scale: 0.97 }}
+                        transition={{ duration: 0.15 }}
+                    >
+                        {options.map(opt => (
+                            <button
+                                key={opt}
+                                onClick={() => { onChange(opt); setOpen(false); }}
+                                className={`w-full text-left px-3.5 py-3 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all min-h-[44px] flex items-center gap-2.5 hover:bg-white/5 ${
+                                    opt === value
+                                        ? 'text-primary bg-primary/8'
+                                        : 'text-white/40'
+                                }`}
+                            >
+                                <span className={`w-3.5 shrink-0 ${opt === value ? 'text-primary' : 'text-transparent'}`}>
+                                    {opt === value && '✓'}
+                                </span>
+                                <span className="truncate">{opt === 'All' ? 'All' : opt}</span>
+                            </button>
+                        ))}
+                    </motion.div>
+                )}
+            </AnimatePresence>
+        </div>
+    );
+}
+
 const QuestionBank = () => {
     const [allQuestions, setAllQuestions] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -158,7 +274,9 @@ const QuestionBank = () => {
     useEffect(() => { setPage(1); }, [debouncedSearch, filters]);
 
     const availableFilters = useMemo(() => {
-        const cats = new Set(); const diffs = new Set(); const subs = new Set(); const tops = new Set(); const yrs = new Set();
+        const cats = new Set(['SSC', 'HSC', 'IBA']);
+        const diffs = new Set(['easy', 'medium', 'hard']);
+        const subs = new Set(); const tops = new Set(); const yrs = new Set();
         allQuestions.forEach(q => {
             cats.add(q.exam); diffs.add(q.difficulty); subs.add(q.subject); tops.add(q.topic);
             if (q.year) yrs.add(q.year);
@@ -213,7 +331,7 @@ const QuestionBank = () => {
 
     return (
         <div className="max-w-5xl mx-auto space-y-6 md:space-y-8">
-            <div className="bg-surface border border-white/5 p-5 md:p-10 rounded-2xl md:rounded-[2rem] shadow-lg relative overflow-hidden">
+            <div className="bg-surface border border-white/5 p-5 md:p-10 rounded-2xl md:rounded-[2rem] shadow-lg relative">
                 <div className="absolute -right-8 -top-8 w-[200px] h-[200px] md:w-[260px] md:h-[260px] opacity-20 pointer-events-none z-0">
                     <LottieAnimation src={searchAnimation} className="w-full h-full" pingPong />
                 </div>
@@ -250,28 +368,28 @@ const QuestionBank = () => {
                 </div>
 
                 <div className="relative z-10 mt-5 md:mt-6 pt-5 md:pt-6 border-t border-white/[0.04]">
-                    <div className="flex items-center gap-2 mb-3">
+                    <div className="flex items-center gap-1.5 mb-2 md:mb-3">
                         <Filter className="w-3 h-3 text-white/15" />
-                        <span className="text-[9px] font-black uppercase tracking-widest text-white/15">Filter by</span>
+                        <span className="text-[9px] font-black uppercase tracking-widest text-white/15">Filters</span>
+                        {anyFilterActive && (
+                            <button onClick={clearAll} className="ml-auto text-[8px] font-black uppercase tracking-widest text-primary/50 hover:text-primary transition-colors">
+                                Clear all
+                            </button>
+                        )}
                     </div>
-                    <div className="flex flex-wrap items-center gap-2">
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-1.5 md:gap-2">
                         {Object.entries(availableFilters).map(([key, options]) => (
-                            <div key={key} className="flex items-center gap-1.5 bg-background border border-white/5 rounded-lg px-3 py-2 hover:border-white/20 transition-colors">
-                                <span className="text-[8px] font-black uppercase tracking-widest text-white/20 shrink-0">{key}</span>
-                                <select
-                                    value={filters[key]}
-                                    onChange={(e) => setFilters(f => ({ ...f, [key]: e.target.value }))}
-                                    className="bg-transparent text-[10px] font-bold text-white/60 focus:text-white outline-none appearance-none cursor-pointer pr-2"
-                                >
-                                    {options.map(o => (
-                                        <option key={o} value={o}>{o === 'All' ? 'All' : o}</option>
-                                    ))}
-                                </select>
-                            </div>
+                            <FilterDropdown
+                                key={key}
+                                label={key.charAt(0).toUpperCase() + key.slice(1)}
+                                options={options}
+                                value={filters[key]}
+                                onChange={(v) => setFilters(f => ({ ...f, [key]: v }))}
+                            />
                         ))}
                         <button
                             onClick={() => setExactMatch(p => !p)}
-                            className={`px-3 py-2 rounded-lg text-[9px] font-black uppercase tracking-widest border transition-all shrink-0 ${
+                            className={`px-2.5 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest border transition-all w-full ${
                                 exactMatch
                                     ? 'bg-primary/15 text-primary border-primary/30'
                                     : 'bg-background text-white/20 border-white/5 hover:text-white/40 hover:border-white/20'
