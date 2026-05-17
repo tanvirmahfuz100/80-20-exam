@@ -1,7 +1,7 @@
 {
   "testId": "ssc_gap_filling",
   "title": "Gap Filling With Clues - SSC English",
-  "description": "প্রতিটি প্রশ্নে একটি প্যাসেজ ও একটি শব্দবক্স দেওয়া আছে। সঠিক শব্দের রূপ ব্যবহার করে শূন্যস্থান পূরণ করুন। প্রতিটি অপশনের জন্য বাংলায় ব্যাখ্যা দেওয়া আছে।",
+  "description": "প্রতিটি প্রশ্নে একটি প্যাসেজ ও একটি শব্দবক্স দেওয়া আছে। সঠিক শব্দের রূপ ব্যবহার করে শূন্যস্থান পূরণ করুন। প্রয়োজনে শব্দের আগে un-, in-, im- ইত্যাদি উপসর্গ (prefix) বা পরে -ly, -ing, -ed, -ness ইত্যাদি প্রত্যয় (suffix) যোগ করতে হবে। একই শব্দ একাধিক শূন্যস্থানে ব্যবহার করা যেতে পারে। প্রতিটি অপশনের জন্য বাংলায় ব্যাখ্যা দেওয়া আছে।",
   "questions": [
     {
       "id": 1,
@@ -297,7 +297,7 @@
     {
       "id": 4,
       "passage": "Adolescence or puberty is a period after childhood. During this period physical and mental (a) _____ of boys and girls is so (b) _____ that they need proper amount of (c) _____ food. But many boys and girls are not (d) _____ of this fact. So often they suffer from (e) _____ which hampers their (f) _____ growth. Even some parents do not have the (g) _____ to provide their children with the (h) _____ they need. Sometimes it happens (i) _____ to the parents' reluctance, unawareness or (j) _____.",
-      "boxWords": ["nutrition", "normal", "illiterate", "grow", "ability", "malnutrition", "due", "rapid", "aware", "nutrition"],
+      "boxWords": ["nutrition", "normal", "illiterate", "grow", "ability", "malnutrition", "due", "rapid", "aware", "poverty"],
       "blanks": [
         {
           "blankId": "a",
@@ -833,7 +833,7 @@
           "blankId": "f",
           "correct": "especially",
           "options": [
-            { "text": "especially", "isCorrect": true, "explanationBn": "'specially in villages' — বিশেষ করে গ্রামে। 'specially' adverb (প্রদত্ত 'special' থেকে -ly যোগে)।" },
+            { "text": "especially", "isCorrect": true, "explanationBn": "'especially in villages' — বিশেষ করে গ্রামে। 'special' থেকে '-ly' যোগ করে 'especially' হয়েছে (বানানের সামান্য পরিবর্তন সহ)।" },
             { "text": "special", "isCorrect": false, "explanationBn": "Adjective, কিন্তু adverb দরকার।" },
             { "text": "specifically", "isCorrect": false, "explanationBn": "প্রদত্ত শব্দ 'special' থেকে 'specially' তৈরি হয়েছে।" }
           ]
@@ -1170,7 +1170,7 @@
     {
       "id": 13,
       "passage": "The development of a nation is not (a) _____ easy task. It depends on the willingness (b) _____ sacrificing attitude of the valiant sons and (c) _____ of the soil. They don't work for (d) _____ appreciation or reward for themselves. Their vision (e) _____ to make the world a better place (f) _____ live in. They are always proud of (g) _____ selfless ventures. Their mission is to serve (h) _____ greater interest of humanity. They spend their life (i) _____ the welfare of people, the society (j) _____ the country as a whole.",
-      "boxWords": ["daughter", "to", "any", "an", "and", "for", "such", "be", "the", "and"],
+      "boxWords": ["daughter", "to", "any", "an", "and", "for", "such", "be", "the", "is"],
       "blanks": [
         {
           "blankId": "a",
@@ -2332,7 +2332,7 @@
     {
       "id": 25,
       "passage": "Festivals have always been integral parts of our tradition and culture. We have a (a) _____ of festivals which we celebrate (b) _____ the year. Some of our (c) _____ festivals are related to our (d) _____ of Independence and Language Movement, (e) _____ are related to our religions and the (f) _____ are related to our art and (g) _____. Whatever may be (h) _____ occasion, people from all (i) _____ of the society take part in these festivals spontaneously. We should continue the (j) _____ of our festivals.",
-      "boxWords": ["number", "throughout", "nation", "history", "some", "rests", "culture", "the", "walks", "tradition"],
+      "boxWords": ["number", "throughout", "nation", "history", "some", "rest", "culture", "the", "walks", "tradition"],
       "blanks": [
         {
           "blankId": "a",
