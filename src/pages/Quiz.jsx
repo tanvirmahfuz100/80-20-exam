@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useSearchParams, useNavigate, useParams, Link } from 'react-router-dom';
 import {
     ArrowLeft, CheckCircle, XCircle, ChevronRight,
-    RefreshCw, Lightbulb, Timer,
+    RefreshCw, Lightbulb, Timer, Flag,
     Trophy, Target, Zap, Clock,
     BarChart3, BrainCircuit, Video, Star, Sparkles
 } from 'lucide-react';
@@ -219,6 +219,10 @@ const Quiz = () => {
     const [flyingStars, setFlyingStars] = useState([]);
     const [balanceGlow, setBalanceGlow] = useState(false);
     const starTargetRef = useRef(null);
+
+    const [showReportModal, setShowReportModal] = useState(false);
+    const [reportReason, setReportReason] = useState('');
+    const [reportDetails, setReportDetails] = useState('');
 
     const [historicalAnswered, setHistoricalAnswered] = useState(0);
     const [totalQuestionCount, setTotalQuestionCount] = useState(0);
@@ -549,6 +553,15 @@ const Quiz = () => {
         });
     };
 
+    const handleSubmitReport = () => {
+        const currentQ = questions[currentIndex];
+        const text = `Report:%0A%0AReason: ${reportReason}%0A%0AQuestion: ${currentQ?.text || 'N/A'}%0AFile: ${file || 'N/A'}%0ADetails: ${reportDetails || 'N/A'}`;
+        window.open(`https://wa.me/8801884581816?text=${text}`, '_blank');
+        setShowReportModal(false);
+        setReportReason('');
+        setReportDetails('');
+    };
+
     const handleNext = () => {
         if (currentIndex < questions.length - 1) {
             setCurrentIndex(c => c + 1);
@@ -677,6 +690,14 @@ const Quiz = () => {
                     </div>
                 </div>
                 <div className="flex items-center gap-1 shrink-0">
+                    <button
+                        onClick={() => setShowReportModal(true)}
+                        className="p-1.5 rounded-lg text-white/30 hover:text-yellow-400 hover:bg-yellow-500/10 transition-all"
+                        aria-label="Report a problem"
+                        title="Report a problem"
+                    >
+                        <Flag className="w-3.5 h-3.5" />
+                    </button>
                     <div className="flex items-center gap-0.5 px-1.5 py-1 rounded-lg bg-white/5 border border-white/10">
                         <button
                             onClick={() => setQuizFontSize(s => Math.max(12, s - 2))}
@@ -801,20 +822,20 @@ const Quiz = () => {
                         />
                     ) : (
                         <>
-                            {currentQ.passage && (
-                                <div className="mb-3 p-3 rounded-xl border border-white/5 bg-white/5 space-y-2 shrink-0 max-h-24 overflow-y-auto">
+                            {currentQ.passage && !currentQ.text?.includes(currentQ.passage) && (
+                                <div className="mb-2 p-2.5 rounded-xl border border-white/5 bg-white/5 space-y-2 shrink-0 max-h-20 overflow-y-auto">
                                     {currentQ.blankId && (
-                                        <p className="text-[9px] font-black uppercase tracking-[0.3em] text-primary/60">
+                                        <p className="text-[8px] font-black uppercase tracking-[0.3em] text-primary/60">
                                             SSC Gap Filling - Blank ({currentQ.blankId})
                                         </p>
                                     )}
-                                    <p className="text-white/70 leading-relaxed font-medium whitespace-pre-wrap" style={{ fontSize: `${quizFontSize}px` }}>
+                                    <p className="text-white/70 leading-relaxed font-medium whitespace-pre-wrap" style={{ fontSize: `${quizFontSize - 2}px` }}>
                                         {stripMath(currentQ.passage)}
                                     </p>
                                     {(currentQ.boxWords || []).length > 0 && (
                                         <div className="flex flex-wrap gap-1.5 pt-1">
                                             {currentQ.boxWords.map((word) => (
-                                                <span key={word} className="px-2 py-0.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-[9px] font-black uppercase tracking-widest">
+                                                <span key={word} className="px-2 py-0.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-[8px] font-black uppercase tracking-widest">
                                                     {stripMath(word)}
                                                 </span>
                                             ))}
@@ -840,9 +861,8 @@ const Quiz = () => {
                                 )}
                             </div>
 
-                            <div className="mb-2 shrink-0">
-                                <div className="bg-white/[0.04] border border-white/[0.06] rounded-xl p-2.5 md:p-3">
-                                    <p className="text-white/40 text-[8px] font-black uppercase tracking-[0.15em] mb-1">Question</p>
+                            <div className="mb-1.5 shrink-0">
+                                <div className="bg-white/[0.04] border border-white/[0.06] rounded-lg p-2">
                                     <h3 className="font-black text-white leading-snug selection:bg-primary/30" style={{ fontSize: `${quizFontSize}px` }}>
                                         {stripMath(currentQ.text)}
                                     </h3>
@@ -876,7 +896,7 @@ const Quiz = () => {
                                                         whileTap={!isAnswered ? { scale: 0.98 } : undefined}
                                                         disabled={isAnswered}
                                                         onClick={(e) => handleOptionSelect(idx, e)}
-                                                        className={`w-full text-left min-h-[44px] md:min-h-[48px] px-3 py-2.5 rounded-xl border-2 transition-all flex items-center gap-2.5 group/opt ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-lg shadow-emerald-500/5' :
+                                                        className={`w-full text-left min-h-[40px] md:min-h-[44px] px-3 py-2 rounded-xl border-2 transition-all flex items-center gap-2 group/opt ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-lg shadow-emerald-500/5' :
                                                             state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300 shadow-lg shadow-yellow-500/5' :
                                                                 state === 'selected' ? 'bg-primary/20 border-primary text-white shadow-lg shadow-primary/20 scale-[1.01]' :
                                                                     state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30 scale-[0.98]' :
@@ -886,7 +906,7 @@ const Quiz = () => {
                                                         aria-checked={selectedOption === idx}
                                                         tabIndex={isAnswered ? -1 : 0}
                                                     >
-                                                        <span className={`w-7 h-7 md:w-8 md:h-8 rounded-xl flex items-center justify-center text-[11px] font-black border transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
+                                                        <span className={`w-6 h-6 md:w-7 md:h-7 rounded-lg flex items-center justify-center text-[10px] font-black border transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
                                                             state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
                                                                 state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
                                                                     'bg-black/40 border-white/15 text-white/40 group-hover/opt:border-white/30 group-hover/opt:text-white'
@@ -1072,6 +1092,61 @@ const Quiz = () => {
                     )}
                 </div>
             </div>
+
+            {showReportModal && (
+                <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
+                    <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setShowReportModal(false)} />
+                    <motion.div
+                        initial={{ opacity: 0, y: 40 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: 40 }}
+                        transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
+                        className="relative w-full sm:max-w-sm bg-surface border border-white/10 rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
+                        onClick={e => e.stopPropagation()}
+                    >
+                        <div className="flex items-center justify-between">
+                            <h3 className="text-sm font-black text-white uppercase tracking-wider">Report a Problem</h3>
+                            <button onClick={() => setShowReportModal(false)} className="text-white/30 hover:text-white transition-colors p-1">
+                                <XCircle className="w-5 h-5" />
+                            </button>
+                        </div>
+                        <p className="text-[10px] text-white/40 font-medium">What's wrong with this question?</p>
+                        <div className="space-y-1.5">
+                            {['Wrong answer', 'Typo', 'Confusing question', 'Other'].map(reason => (
+                                <button
+                                    key={reason}
+                                    onClick={() => setReportReason(reason)}
+                                    className={`w-full text-left px-3 py-2.5 rounded-xl border text-xs font-bold transition-all ${
+                                        reportReason === reason
+                                            ? 'bg-yellow-500/10 border-yellow-500/40 text-yellow-400'
+                                            : 'bg-white/5 border-white/10 text-white/60 hover:border-white/30'
+                                    }`}
+                                >
+                                    {reason}
+                                </button>
+                            ))}
+                        </div>
+                        <textarea
+                            value={reportDetails}
+                            onChange={e => setReportDetails(e.target.value)}
+                            placeholder="Optional details..."
+                            rows={2}
+                            className="w-full bg-white/5 border border-white/10 rounded-xl px-3 py-2 text-xs text-white placeholder-white/20 resize-none outline-none focus:border-primary/40 transition-colors"
+                        />
+                        <button
+                            onClick={handleSubmitReport}
+                            disabled={!reportReason}
+                            className={`w-full py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] ${
+                                reportReason
+                                    ? 'bg-yellow-500 text-black hover:bg-yellow-400'
+                                    : 'bg-white/5 text-white/20 cursor-not-allowed'
+                            }`}
+                        >
+                            Send via WhatsApp
+                        </button>
+                    </motion.div>
+                </div>
+            )}
         </div>
     );
 };
