@@ -1044,6 +1044,19 @@
           ],
           "name_bn": "অধ্যায় ৮",
           "name_en": "Chapter 8"
+        },
+        {
+          "id": "chapter_9",
+          "name": "Chapter 9",
+          "chapters": [
+            {
+              "id": "hsc_soc1_ch9",
+              "name": "Chapter 9 Questions",
+              "file_bn": "/hsc/social_1st/chapter_9.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৯",
+          "name_en": "Chapter 9"
         }
       ],
       "name_bn": "সমাজকর্ম ১ম পত্র",
