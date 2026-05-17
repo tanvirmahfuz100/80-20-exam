@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flame, Star, Target, Clock, ArrowRight, TrendingUp, Brain, Zap } from 'lucide-react';
+import { Flame, Star, Target, Clock, ArrowRight, TrendingUp, Brain, Zap, BookOpen } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
@@ -29,6 +29,7 @@ const StatCard = ({ title, value, subtitle, icon: Icon, color }) => (
 
 const Dashboard = () => {
     const { user, profile } = useAuth();
+    const [availableExams, setAvailableExams] = React.useState([]);
     const [statsData, setStatsData] = React.useState({
         totalPracticed: 0,
         accuracy: 0,
@@ -44,6 +45,27 @@ const Dashboard = () => {
         };
         fetchStats();
     }, [user]);
+
+    React.useEffect(() => {
+        const base = import.meta.env.BASE_URL || '/';
+        const exams = [
+            { id: 'ssc', label: 'SSC', note: 'NCTB English 1st and 2nd Paper' },
+            { id: 'hsc', label: 'HSC', note: 'NCTB English 1st and 2nd Paper' },
+            { id: 'iba', label: 'IBA', note: 'Admission English, Math, Analytical' },
+            { id: 'bcs', label: 'BCS', note: 'Competitive exam practice' }
+        ];
+
+        Promise.all(exams.map(async (exam) => {
+            try {
+                const res = await fetch(`${base}${exam.id}/index.json`);
+                if (!res.ok) return { ...exam, active: false };
+                const json = await res.json();
+                return { ...exam, active: Array.isArray(json.subjects) && json.subjects.length > 0 };
+            } catch {
+                return { ...exam, active: false };
+            }
+        })).then(setAvailableExams);
+    }, []);
 
     const stats = [
         { title: "Questions Practiced", value: statsData.totalPracticed, subtitle: "Getting stronger!", icon: Brain, color: "bg-orange-500 text-orange-500" },
@@ -69,13 +91,56 @@ const Dashboard = () => {
                         KEEP IT <span className="text-primary not-italic">GOING!</span>
                     </h1>
                     <p className="text-white/30 font-bold uppercase tracking-widest text-[10px] flex items-center gap-2">
-                        <>STUDENT: {user.user_metadata?.username || user.email} • PATH: IBA ADMISSION</>
+                        <>STUDENT: {user.user_metadata?.username || user.email} • PICK YOUR EXAM BELOW</>
                     </p>
                 </div>
                 <Link to="/practice" className="relative z-10 inline-flex items-center gap-3 px-10 py-5 bg-primary hover:bg-primary-hover text-white rounded-2xl font-black text-xs uppercase tracking-[0.2em] transition-all hover:scale-[1.05] active:scale-95 shadow-[0_20px_50px_rgba(94,106,210,0.3)]">
-                    Resume Practice
+                    Open Practice Hub
                     <ArrowRight className="w-5 h-5" />
                 </Link>
+            </div>
+
+            {/* Exam Launcher */}
+            <div className="space-y-6">
+                <div className="flex items-center justify-between px-2">
+                    <h2 className="text-2xl font-black text-white italic tracking-tighter flex items-center gap-3">
+                        <BookOpen className="text-primary w-6 h-6" />
+                        EXAM SECTIONS
+                    </h2>
+                    <p className="text-[10px] font-black uppercase tracking-[0.3em] text-white/20">SSC, HSC, IBA, BCS</p>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+                    {availableExams.map((exam) => (
+                        exam.active ? (
+                            <Link
+                                key={exam.id}
+                                to={`/practice?exam=${exam.id}`}
+                                className="bg-surface border border-white/5 rounded-[2rem] p-6 hover:border-primary/40 transition-all group shadow-2xl hover:translate-y-[-2px]"
+                            >
+                                <div className="flex items-start justify-between gap-4 mb-8">
+                                    <div>
+                                        <p className="text-[10px] font-black uppercase tracking-[0.3em] text-primary/60 mb-2">Available</p>
+                                        <h3 className="text-3xl font-black text-white italic tracking-tighter">{exam.label}</h3>
+                                    </div>
+                                    <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+                                        <ArrowRight className="w-5 h-5" />
+                                    </div>
+                                </div>
+                                <p className="text-white/30 text-sm leading-relaxed font-medium">{exam.note}</p>
+                            </Link>
+                        ) : (
+                            <div key={exam.id} className="bg-surface border border-white/5 rounded-[2rem] p-6 opacity-60">
+                                <div className="flex items-start justify-between gap-4 mb-8">
+                                    <div>
+                                        <p className="text-[10px] font-black uppercase tracking-[0.3em] text-white/20 mb-2">Coming soon</p>
+                                        <h3 className="text-3xl font-black text-white italic tracking-tighter">{exam.label}</h3>
+                                    </div>
+                                </div>
+                                <p className="text-white/20 text-sm leading-relaxed font-medium">{exam.note}</p>
+                            </div>
+                        )
+                    ))}
+                </div>
             </div>
 
             {/* Stats Grid */}

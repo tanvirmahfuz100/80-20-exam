@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Book, Calculator, Brain, ChevronRight, Play, Clock, AlertCircle, Timer, ShieldCheck } from 'lucide-react';
+import { Book, Calculator, Brain, ChevronRight, Play, Clock, AlertCircle, Timer, ShieldCheck, ArrowRight, BookOpen } from 'lucide-react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
@@ -53,43 +53,48 @@ const ChapterItem = ({ chapter, onClick }) => (
 const PracticeConfig = () => {
     const navigate = useNavigate();
     const { user } = useAuth();
-    const [data, setData] = useState({ subjects: [] });
+    const [data, setData] = useState({ exams: [] });
     const [selectedSubject, setSelectedSubject] = useState(null);
+    const [selectedExam, setSelectedExam] = useState(null);
     const [isTimed, setIsTimed] = useState(false);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
     const [searchParams] = useSearchParams();
-    const categoryFilter = searchParams.get('category');
+    const categoryFilter = (searchParams.get('exam') || searchParams.get('category') || '').toLowerCase();
 
     useEffect(() => {
         const base = import.meta.env.BASE_URL || '/';
-        const paths = ['iba/index.json', 'ssc/index.json'].map(p => `${base}${p}`);
-        Promise.all(paths.map(p =>
-            fetch(p)
-                .then(r => r.ok ? r.json().then(j => ({ json: j, path: p })) : null)
+        const examCatalog = [
+            { id: 'ssc', label: 'SSC', note: 'NCTB English 1st and 2nd Paper' },
+            { id: 'hsc', label: 'HSC', note: 'NCTB English 1st and 2nd Paper' },
+            { id: 'iba', label: 'IBA', note: 'Admission English, Math, Analytical' },
+            { id: 'bcs', label: 'BCS', note: 'Competitive exam practice' }
+        ];
+
+        Promise.all(examCatalog.map(exam =>
+            fetch(`${base}${exam.id}/index.json`)
+                .then(r => r.ok ? r.json().then(j => ({ exam, json: j })) : null)
                 .catch(() => null)
         ))
             .then(results => {
-                const subjects = [];
-                for (const res of results.filter(Boolean)) {
-                    const rel = (res.path || '').replace(base, '');
-                    const src = rel.split('/')[0] || 'IBA';
-                    const examCat = src.toUpperCase();
-                    for (const sub of res.json.subjects || []) {
-                        subjects.push({ ...sub, exam_category: examCat });
-                    }
-                }
+                const exams = results.filter(Boolean).map(({ exam, json }) => {
+                    const subjects = (json.subjects || []).map(sub => ({ ...sub, exam_category: exam.id.toUpperCase() }));
+                    return { ...exam, active: true, subjects };
+                });
 
-                let filtered = subjects;
-                if (categoryFilter) {
-                    const wanted = categoryFilter.toUpperCase();
-                    filtered = subjects.filter(s => (s.exam_category || '').toUpperCase() === wanted);
-                }
+                const inactiveExams = examCatalog
+                    .filter(exam => !exams.some(e => e.id === exam.id))
+                    .map(exam => ({ ...exam, active: false, subjects: [] }));
 
-                const merged = { subjects: filtered };
-                setData(merged);
-                if (filtered.length > 0) setSelectedSubject(filtered[0]);
+                const allExams = [...exams, ...inactiveExams];
+                setData({ exams: allExams });
+
+                const availableExams = allExams.filter(exam => exam.active);
+                const requested = allExams.find(exam => exam.id === categoryFilter && exam.active);
+                const initialExam = requested || availableExams[0] || null;
+                setSelectedExam(initialExam);
+                setSelectedSubject(initialExam?.subjects?.[0] || null);
                 setLoading(false);
             })
             .catch(err => {
@@ -133,6 +138,11 @@ const PracticeConfig = () => {
                     <p className="text-white/30 font-bold uppercase tracking-widest text-[10px] flex items-center gap-2">
                         Your progress is being saved locally for testing.
                     </p>
+                    {selectedExam && (
+                        <p className="mt-3 text-[10px] font-black uppercase tracking-[0.3em] text-primary/70">
+                            Exam: {selectedExam.label}
+                        </p>
+                    )}
                 </div>
 
                 {/* Timed Toggle */}
@@ -153,17 +163,75 @@ const PracticeConfig = () => {
                 </div>
             </div>
 
-            {/* Subject Selector */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                {(data.subjects || []).map(sub => (
-                    <SubjectCard
-                        key={sub.id}
-                        subject={sub}
-                        isSelected={selectedSubject?.id === sub.id}
-                        onClick={() => setSelectedSubject(sub)}
-                    />
-                ))}
+            {/* Exam Selector */}
+            <div className="space-y-5">
+                <div className="flex items-center justify-between px-2">
+                    <h2 className="text-2xl font-black text-white italic tracking-tighter flex items-center gap-3">
+                        <BookOpen className="text-primary w-6 h-6" />
+                        PICK AN EXAM
+                    </h2>
+                    <p className="text-[10px] font-black uppercase tracking-[0.3em] text-white/20">SSC / HSC / IBA / BCS</p>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5">
+                    {(data.exams || []).map(exam => (
+                        exam.active ? (
+                            <button
+                                key={exam.id}
+                                onClick={() => {
+                                    setSelectedExam(exam);
+                                    setSelectedSubject(exam.subjects?.[0] || null);
+                                }}
+                                className={`text-left rounded-[2rem] p-6 border transition-all bg-surface hover:border-primary/40 ${selectedExam?.id === exam.id ? 'border-primary shadow-[0_0_40px_rgba(94,106,210,0.15)]' : 'border-white/5'}`}
+                            >
+                                <div className="flex items-start justify-between gap-4 mb-6">
+                                    <div>
+                                        <p className="text-[10px] font-black uppercase tracking-[0.3em] text-primary/60 mb-2">Active</p>
+                                        <h3 className="text-3xl font-black text-white italic tracking-tighter">{exam.label}</h3>
+                                    </div>
+                                    <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary">
+                                        <ArrowRight className="w-5 h-5" />
+                                    </div>
+                                </div>
+                                <p className="text-white/30 text-sm leading-relaxed font-medium">{exam.note}</p>
+                            </button>
+                        ) : (
+                            <div key={exam.id} className="rounded-[2rem] p-6 border border-white/5 bg-surface opacity-60">
+                                <p className="text-[10px] font-black uppercase tracking-[0.3em] text-white/20 mb-2">Coming soon</p>
+                                <h3 className="text-3xl font-black text-white italic tracking-tighter mb-4">{exam.label}</h3>
+                                <p className="text-white/20 text-sm leading-relaxed font-medium">{exam.note}</p>
+                            </div>
+                        )
+                    ))}
+                </div>
             </div>
+
+            {/* Subject Selector */}
+            {selectedExam && (
+                <div className="space-y-5">
+                    <div className="flex items-center justify-between px-2">
+                        <h2 className="text-2xl font-black text-white italic tracking-tighter flex items-center gap-3">
+                            <BookOpen className="text-primary w-6 h-6" />
+                            {selectedExam.label} SUBJECTS
+                        </h2>
+                        <p className="text-[10px] font-black uppercase tracking-[0.3em] text-white/20">{selectedExam.subjects?.length || 0} subjects</p>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        {selectedExam.subjects.map(sub => (
+                            <SubjectCard
+                                key={`${selectedExam.id}_${sub.id}`}
+                                subject={sub}
+                                isSelected={selectedSubject?.id === sub.id}
+                                onClick={() => setSelectedSubject(sub)}
+                            />
+                        ))}
+                    </div>
+                    {selectedExam.subjects.length === 0 && (
+                        <div className="p-8 rounded-3xl border border-white/5 bg-surface text-center">
+                            <p className="text-white/50 text-sm font-medium">No questions are available for this exam yet.</p>
+                        </div>
+                    )}
+                </div>
+            )}
 
             {/* Chapters Grid */}
             {selectedSubject && (
