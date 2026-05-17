@@ -459,7 +459,8 @@
             {
               "id": "hsc_prod2_ch1",
               "name": "Chapter 1 Questions",
-              "file_bn": "/hsc/production_2nd/chapter_1.json"
+              "file_bn": "/hsc/production_2nd/chapter_1.json",
+              "file_en": "/hsc/production_2nd/english/chapter_1.json"
             }
           ],
           "name_bn": "অধ্যায় 1: বিপণন পরিচিতি",
@@ -472,7 +473,8 @@
             {
               "id": "hsc_prod2_ch2",
               "name": "Chapter 2 Questions",
-              "file_bn": "/hsc/production_2nd/chapter_2.json"
+              "file_bn": "/hsc/production_2nd/chapter_2.json",
+              "file_en": "/hsc/production_2nd/english/chapter_2.json"
             }
           ],
           "name_bn": "অধ্যায় 2: বিপণন পরিবেশ",
@@ -485,7 +487,8 @@
             {
               "id": "hsc_prod2_ch3",
               "name": "Chapter 3 Questions",
-              "file_bn": "/hsc/production_2nd/chapter_3.json"
+              "file_bn": "/hsc/production_2nd/chapter_3.json",
+              "file_en": "/hsc/production_2nd/english/chapter_3.json"
             }
           ],
           "name_bn": "অধ্যায় 3: বিপণন কার্যাবলী",
@@ -498,7 +501,8 @@
             {
               "id": "hsc_prod2_ch4",
               "name": "Chapter 4 Questions",
-              "file_bn": "/hsc/production_2nd/chapter_4.json"
+              "file_bn": "/hsc/production_2nd/chapter_4.json",
+              "file_en": "/hsc/production_2nd/english/chapter_4.json"
             }
           ],
           "name_bn": "অধ্যায় 4: বাজার বিভক্তিকরণ ও বিপণন মিশ্রণ",
@@ -511,7 +515,8 @@
             {
               "id": "hsc_prod2_ch5",
               "name": "Chapter 5 Questions",
-              "file_bn": "/hsc/production_2nd/chapter_5.json"
+              "file_bn": "/hsc/production_2nd/chapter_5.json",
+              "file_en": "/hsc/production_2nd/english/chapter_5.json"
             }
           ],
           "name_bn": "অধ্যায় 5: পণ্য ও পণ্যের মূল্য নির্ধারণ",
@@ -524,7 +529,8 @@
             {
               "id": "hsc_prod2_ch6",
               "name": "Chapter 6 Questions",
-              "file_bn": "/hsc/production_2nd/chapter_6.json"
+              "file_bn": "/hsc/production_2nd/chapter_6.json",
+              "file_en": "/hsc/production_2nd/english/chapter_6.json"
             }
           ],
           "name_bn": "অধ্যায় 6: পণ্য বণ্টন প্রণালি",
@@ -537,7 +543,8 @@
             {
               "id": "hsc_prod2_ch7",
               "name": "Chapter 7 Questions",
-              "file_bn": "/hsc/production_2nd/chapter_7.json"
+              "file_bn": "/hsc/production_2nd/chapter_7.json",
+              "file_en": "/hsc/production_2nd/english/chapter_7.json"
             }
           ],
           "name_bn": "অধ্যায় 7: পাইকারি ও খুচরা ব্যবসায়",
@@ -550,7 +557,8 @@
             {
               "id": "hsc_prod2_ch8",
               "name": "Chapter 8 Questions",
-              "file_bn": "/hsc/production_2nd/chapter_8.json"
+              "file_bn": "/hsc/production_2nd/chapter_8.json",
+              "file_en": "/hsc/production_2nd/english/chapter_8.json"
             }
           ],
           "name_bn": "অধ্যায় 8: বিক্রয় প্রসার ও বিজ্ঞাপন",
@@ -563,7 +571,8 @@
             {
               "id": "hsc_prod2_ch9",
               "name": "Chapter 9 Questions",
-              "file_bn": "/hsc/production_2nd/chapter_9.json"
+              "file_bn": "/hsc/production_2nd/chapter_9.json",
+              "file_en": "/hsc/production_2nd/english/chapter_9.json"
             }
           ],
           "name_bn": "অধ্যায় 9: ব্যক্তিক বিক্রয় ও বিক্রয়িকতা",
@@ -576,7 +585,8 @@
             {
               "id": "hsc_prod2_ch10",
               "name": "Chapter 10 Questions",
-              "file_bn": "/hsc/production_2nd/chapter_10.json"
+              "file_bn": "/hsc/production_2nd/chapter_10.json",
+              "file_en": "/hsc/production_2nd/english/chapter_10.json"
             }
           ],
           "name_bn": "অধ্যায় 10: বিপণনের সমসাময়িক বিষয়সমূহ",

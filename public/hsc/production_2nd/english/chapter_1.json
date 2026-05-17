@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "question": "What is marketing?",
+    "options": {
+      "A": "Satisfying consumers in a profitable way",
+      "B": "Producing products for consumers in a profitable way",
+      "C": "Distributing products to consumers in a profitable way",
+      "D": "Developing products for consumers in a profitable way"
+    },
+    "answer": "A",
+    "explanation": "Marketing is a social and managerial process whose primary goal is to satisfy consumers by fulfilling their needs in a profitable manner. Simply producing, distributing, or developing products is not marketing; consumer satisfaction is the ultimate objective.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 2,
+    "question": "Who is called the father of marketing?",
+    "options": {
+      "A": "Philip Kotler",
+      "B": "E. Jerome McCarthy",
+      "C": "W.J. Stanton",
+      "D": "Courtland L. Bovee"
+    },
+    "answer": "A",
+    "explanation": "Philip Kotler is known as the father of modern marketing thought. He is called the 'Father of Marketing' for his outstanding contributions to the field.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 3,
+    "question": "Through which of the following is place utility created?",
+    "options": {
+      "A": "Standardization",
+      "B": "Advertising",
+      "C": "Transportation",
+      "D": "Warehousing"
+    },
+    "answer": "C",
+    "explanation": "Through transportation, products are moved from the production site to markets near consumers. As a result, the product becomes accessible to consumers and creates place utility.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is the medium for creating relationships between buyers and sellers?",
+    "options": {
+      "A": "Market",
+      "B": "Marketing",
+      "C": "Purchase",
+      "D": "Production"
+    },
+    "answer": "B",
+    "explanation": "Marketing is not limited to product exchange; it is an ongoing process. Through it, long-term relationships are created between buyers and sellers based on value, satisfaction, and trust.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 5,
+    "question": "What does marketing create for customers?",
+    "options": {
+      "A": "Goods",
+      "B": "Services",
+      "C": "Value",
+      "D": "Cost"
+    },
+    "answer": "C",
+    "explanation": "The primary goal of marketing is to create value for customers. Value is the difference between the benefits received from a product or service and the cost incurred to obtain it. Customers always seek maximum value.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is called a process-oriented task?",
+    "options": {
+      "A": "Value creation",
+      "B": "Market",
+      "C": "Marketing",
+      "D": "Supply"
+    },
+    "answer": "C",
+    "explanation": "Marketing is a continuous process-oriented task. It is an integrated process of fulfilling customer needs through product planning, pricing, distribution, and promotion.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 7,
+    "question": "What does marketing create for customers?",
+    "options": {
+      "A": "Demand",
+      "B": "Value",
+      "C": "Transaction",
+      "D": "Exchange"
+    },
+    "answer": "B",
+    "explanation": "Marketing creates value for customers. Value refers to the benefits received in exchange for the price paid by the customer. All marketing activities are related to creating and delivering this value.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 8,
+    "question": "What is value?",
+    "options": {
+      "A": "Benefits received from a product",
+      "B": "Feelings of pleasure and disappointment",
+      "C": "Receiving something by giving something",
+      "D": "Establishing good relationships with various parties"
+    },
+    "answer": "A",
+    "explanation": "Value or customer value is the difference between the total benefits received from a product or service and the total cost incurred by the customer. It is essentially an overall assessment of the benefits received from the product.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 9,
+    "question": "Which characteristic of marketing does the philosophy 'Consumer is King' highlight?",
+    "options": {
+      "A": "Marketing is a managerial process",
+      "B": "Marketing is a social process",
+      "C": "Marketing is an integrated process",
+      "D": "Marketing is a consumer-oriented process"
+    },
+    "answer": "D",
+    "explanation": "The 'Consumer is King' philosophy indicates the most important characteristic of marketing: being a 'consumer-oriented process'. This means that the consumer is at the center of all marketing decisions and activities, and their needs and satisfaction are given the highest priority.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 10,
+    "question": "What is the desire, ability, and authority to spend money to acquire a product called?",
+    "options": {
+      "A": "Demand",
+      "B": "Need",
+      "C": "Want",
+      "D": "Value"
+    },
+    "answer": "A",
+    "explanation": "Demand is the desire for a specific product that is supported by purchasing power (ability) and the authority (willingness) to spend money. Even if there is a want or need, it does not become demand without the ability and authority to purchase.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 11,
+    "question": "Which one is demand?",
+    "options": {
+      "A": "Benefit",
+      "B": "Cost",
+      "C": "Cost + Benefit",
+      "D": "Benefit + Cost"
+    },
+    "answer": "C",
+    "explanation": "Here demand refers to the concept of value. Value = Benefit / Cost or Benefit - Cost. That is, the combination of the benefits a customer receives and the costs or sacrifices they make is the basis of demand. The 'Cost + Benefit' option indicates the value concept.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 12,
+    "question": "When hungry, we Bangladeshis want to eat rice, but Chinese people want to eat noodles. Which fundamental marketing concept does this represent?",
+    "options": {
+      "A": "Experience",
+      "B": "Demand",
+      "C": "Want",
+      "D": "Need"
+    },
+    "answer": "B",
+    "explanation": "Hunger is a general want or need. But due to culture and personal preferences, Bangladeshis want rice and Chinese people want noodles, indicating demand for a specific product. Demand is a culturally and personally influenced form of fulfilling a need.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 13,
+    "question": "In addition to the ability to fulfill a want, what else is required for demand?",
+    "options": {
+      "A": "Maximum product service",
+      "B": "Relationship-based marketing",
+      "C": "Experience",
+      "D": "Willingness to spend money"
+    },
+    "answer": "D",
+    "explanation": "For a want to become demand, two things are required: 1. Ability to fulfill the want (purchasing power) and 2. Willingness or authority to spend money. Without the willingness to spend, demand does not arise even if the ability exists.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 14,
+    "question": "Which of the following is correct regarding the experience of a marketing offer?",
+    "options": {
+      "A": "Experience = Activities + product",
+      "B": "Experience = Activities + Knowledge",
+      "C": "Experience = Product + Benefit",
+      "D": "Experience = Activities + Benefit"
+    },
+    "answer": "D",
+    "explanation": "In marketing, experience is the result of past purchases and usage, which influences future purchase decisions. It is composed of the benefits received and the activities performed.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 15,
+    "question": "Regarding the fundamentals of marketing, which of the following is related to market?",
+    "options": {
+      "A": "Market = Competitors' customers + Future customers",
+      "B": "Market = Past customers + Potential customers",
+      "C": "Market = Current customers + Permanent customers",
+      "D": "Market = Current customers + Potential customers"
+    },
+    "answer": "D",
+    "explanation": "From a marketing perspective, a market refers to the aggregate of actual (current) and potential customers for a specific product or service. Potential customers are those who have a need, ability, and desire but have not yet purchased.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 16,
+    "question": "Raju's father told Raju, 'There was a time when marketing was such that the more products one could exchange, the more profitable they were thought to be.' Which era does this concept align with?",
+    "options": {
+      "A": "Exchange era",
+      "B": "Production era",
+      "C": "Marketing era",
+      "D": "Sales era"
+    },
+    "answer": "B",
+    "explanation": "The core concept of the Production era was 'Production is everything.' In this era, it was believed that good products would sell themselves and the more one produced, the more profit one would make. The idea of profiting through product exchange reflects this production-centered thinking.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 17,
+    "question": "Besides buying and selling, what type of utility is created in marketing?",
+    "options": {
+      "A": "Place utility",
+      "B": "Form utility",
+      "C": "Ownership utility",
+      "D": "Time utility"
+    },
+    "answer": "C",
+    "explanation": "Through buying and selling, ownership of the product is transferred from the seller to the buyer. The utility created as a result is called ownership utility. Other utilities (form, place, time) can be created without buying and selling.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 18,
+    "question": "What is the place of buying and selling generally called?",
+    "options": {
+      "A": "Exchange place",
+      "B": "Market",
+      "C": "Handover place",
+      "D": "Intermediary place"
+    },
+    "answer": "B",
+    "explanation": "In general terms, the specific place where buyers and sellers gather to buy and sell goods and services is called a market. However, in the broader sense of marketing, a market is the aggregate of buyers and sellers.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 19,
+    "question": "What is offered to satisfy consumers called?",
+    "options": {
+      "A": "Demand",
+      "B": "Want",
+      "C": "Need",
+      "D": "Marketing offer"
+    },
+    "answer": "D",
+    "explanation": "A marketing offer is a combination of products, services, information, or experiences offered in the market to satisfy consumer needs or wants.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 20,
+    "question": "What occurs as a result of balancing demand and supply?",
+    "options": {
+      "A": "Increase in production",
+      "B": "Stability of price levels",
+      "C": "Improvement in living standards",
+      "D": "Diversification of consumption"
+    },
+    "answer": "B",
+    "explanation": "An important function of marketing is to balance or equalize demand and supply. When demand and supply are equal, the market experiences price stability without excessive increases or decreases.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 21,
+    "question": "What is the ability to satisfy a want called in marketing?",
+    "options": {
+      "A": "Sale",
+      "B": "Marketing",
+      "C": "Customer value",
+      "D": "Utility"
+    },
+    "answer": "D",
+    "explanation": "The capacity of a good or service to satisfy a want is called utility. Marketing creates form, place, time, and ownership utilities in products to satisfy wants.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 22,
+    "question": "Whose demand does marketing fulfill?",
+    "options": {
+      "A": "Customer",
+      "B": "Seller",
+      "C": "Retailer",
+      "D": "Intermediary"
+    },
+    "answer": "A",
+    "explanation": "The primary goal of marketing is to identify customer or consumer needs and satisfy them profitably. Therefore, marketing always revolves around customer needs.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 23,
+    "question": "Who does the term 'buyer' refer to?",
+    "options": {
+      "A": "One who supplies products",
+      "B": "One who produces products",
+      "C": "One who consumes products",
+      "D": "One who purchases products"
+    },
+    "answer": "D",
+    "explanation": "A buyer is one who purchases a product or service by paying a price in exchange. The person who consumes the product is called a consumer. The buyer and consumer may or may not be the same person.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 24,
+    "question": "Who occupies the last position in the distribution channel?",
+    "options": {
+      "A": "Retailer",
+      "B": "Marketer",
+      "C": "Wholesaler",
+      "D": "Consumer"
+    },
+    "answer": "D",
+    "explanation": "The consumer is at the end of the product distribution channel. Starting from the producer, through wholesalers and retailers, the product finally reaches the consumer, who uses or consumes it.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 25,
+    "question": "What type of economy does Bangladesh have?",
+    "options": {
+      "A": "Developed",
+      "B": "Underdeveloped",
+      "C": "Developing",
+      "D": "Industrialized"
+    },
+    "answer": "C",
+    "explanation": "Bangladesh is currently classified as a developing country. Its economy is progressively moving towards the industrial and service sectors, and per capita income is increasing.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 26,
+    "question": "What type of products are made in EPZs?",
+    "options": {
+      "A": "Suitable for general people",
+      "B": "Only for the wealthy",
+      "C": "For domestic customers",
+      "D": "Export-oriented"
+    },
+    "answer": "D",
+    "explanation": "EPZ or Export Processing Zone is a special industrial area within the country where products are made primarily for export to foreign countries.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 27,
+    "question": "The utilities created through marketing are- i. Form ii. Time iii. Place",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Multiple utilities of products are created through marketing activities. Form utility (production), time utility (warehousing), and place utility (transportation) are all integral parts of marketing.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 28,
+    "question": "Marketing does- i. Product classification ii. Warehousing iii. Delivers to consumers",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The functions of marketing are multifaceted. It includes product grading and classification, warehousing for storage, and ultimately delivering the product to the final consumer.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 29,
+    "question": "The essential conditions for a market are- i. A number of people must have wants and needs ii. Buyers must have purchasing power iii. Must have the right to purchase products",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "For a market to exist, three essential conditions must be met: 1. There must be a want or need for the product, 2. There must be the ability or purchasing power to fulfill that want, and 3. There must be the legal and psychological right to purchase the product.",
+    "source": "Production Management & Marketing, Chapter-1"
+  },
+  {
+    "id": 30,
+    "question": "From a marketing perspective, a product is- i. Anything that can satisfy a need ii. Capable of attracting market attention iii. A tangible or intangible object presented for consumption",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "From a marketing perspective, a product is anything (tangible or intangible) that can be offered to a market, attract customer attention, and provide satisfaction through consumption or use.",
+    "source": "Production Management & Marketing, Chapter-1"
+  }
+]

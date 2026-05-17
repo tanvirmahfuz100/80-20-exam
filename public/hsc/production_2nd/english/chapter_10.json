@@ -1,0 +1,418 @@
+[
+  {
+    "id": 349,
+    "question": "What type of direct response advertising is this?",
+    "options": {
+      "A": "Selling through online ordering",
+      "B": "Telemarketing",
+      "C": "Direct product presentation",
+      "D": "Giving a few minutes of advertisement on TV"
+    },
+    "answer": "A",
+    "explanation": "Direct response advertising is a method where the customer sees the advertisement and can respond directly to order or purchase instantly online.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 350,
+    "question": "Considering the scope of work, which one has a broader scope?",
+    "options": {
+      "A": "E-business",
+      "B": "E-retailing",
+      "C": "E-commerce",
+      "D": "E-marketing"
+    },
+    "answer": "A",
+    "explanation": "E-business is the broadest concept. It covers not only buying and selling but all activities of a business conducted electronically (customer service, supply chain, collaboration).",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 351,
+    "question": "Considering customers and consumers, e-retailing is which of the following?",
+    "options": {
+      "A": "B2B",
+      "B": "B2C",
+      "C": "B2E",
+      "D": "B2G"
+    },
+    "answer": "B",
+    "explanation": "E-retailing is the process of online retail selling, delivering products directly to the consumer. This is called the B2C (Business to Consumer) model.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 352,
+    "question": "What is telemarketing?",
+    "options": {
+      "A": "Selling products to distant customers",
+      "B": "Selling products to customers via telephone",
+      "C": "Selling products by showing pictures",
+      "D": "Selling products everywhere"
+    },
+    "answer": "B",
+    "explanation": "Telemarketing is the process of selling products or services by directly contacting potential customers using the telephone.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 353,
+    "question": "What is the full form of E-mail?",
+    "options": {
+      "A": "Elective Mail",
+      "B": "Electronic Mail",
+      "C": "Evaluation Mail",
+      "D": "Elucrdate Mail"
+    },
+    "answer": "B",
+    "explanation": "E-mail is the abbreviated form of Electronic Mail, a medium for exchanging messages and files via the internet or other networks.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 354,
+    "question": "What is the biggest disadvantage of online marketing?",
+    "options": {
+      "A": "Expensive",
+      "B": "Lack of knowledge in many cases",
+      "C": "Not possible everywhere",
+      "D": "Time-consuming"
+    },
+    "answer": "B",
+    "explanation": "The main barrier to online marketing is the lack of technological knowledge. Many consumers and traders are still not fully aware of the process, security, and operational procedures of online transactions.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 355,
+    "question": "Mr. Jamir is a simple farmer. What type of problem will he face in purchasing products through online marketing?",
+    "options": {
+      "A": "Inefficiency in technology",
+      "B": "Lack of flexibility",
+      "C": "Receiving comparative information",
+      "D": "Privacy control"
+    },
+    "answer": "A",
+    "explanation": "As a simple farmer, Mr. Jamir is most likely to have limited skills in using modern technology, the internet, or smartphones. This inefficiency will be the biggest problem for him in online purchasing.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 356,
+    "question": "What is the reason for customers getting shopping convenience in a planned shopping center?",
+    "options": {
+      "A": "Low price of products",
+      "B": "Intense competition",
+      "C": "Preference for choice",
+      "D": "Tax benefits"
+    },
+    "answer": "C",
+    "explanation": "In a planned shopping center, various types of shops and products are gathered under one roof. As a result, the customer can buy any product of their choice in the same place, providing shopping convenience.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 357,
+    "question": "What type of business organization is a chain store?",
+    "options": {
+      "A": "Retail",
+      "B": "Wholesale",
+      "C": "Cooperative",
+      "D": "Producer"
+    },
+    "answer": "A",
+    "explanation": "A chain store or multiple shop is a group of retail outlets under central control. They sell products directly to the consumer.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 358,
+    "question": "What is the full form of 3R?",
+    "options": {
+      "A": "Reduce, Re-use, Rest",
+      "B": "Reduce, Race, Re-cycle",
+      "C": "Reduce, Re-use, Re-cycle",
+      "D": "Race, Re-use, Re-cycle"
+    },
+    "answer": "C",
+    "explanation": "The mantra of eco-friendly behavior and green marketing is 3R: Reduce, Re-use, and Re-cycle.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 359,
+    "question": "Why are chain stores popular with customers?",
+    "options": {
+      "A": "Opportunity to buy the same type of products",
+      "B": "Opportunity to buy products at a lower price",
+      "C": "Facility to buy products on credit",
+      "D": "Facility to buy quality products"
+    },
+    "answer": "A",
+    "explanation": "The same type or specific nature of products is available in each branch of a chain store. As a result, the customer can easily find their preferred and familiar product at any branch.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 360,
+    "question": "Where was the departmental store first introduced?",
+    "options": {
+      "A": "United Kingdom",
+      "B": "France",
+      "C": "Italy",
+      "D": "Japan"
+    },
+    "answer": "B",
+    "explanation": "The concept of the departmental store first started in France (Bon Marché). It is a large-scale retail business where separate products are sold in separate departments.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 361,
+    "question": "Which of the following operates through many self-contained departments under one roof?",
+    "options": {
+      "A": "Chain store",
+      "B": "Departmental store",
+      "C": "Supermarket",
+      "D": "Convenience store"
+    },
+    "answer": "B",
+    "explanation": "A departmental store consists of multiple separate departments in a large building, where each department independently sells different types of products.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 362,
+    "question": "Where did the supermarket concept first emerge?",
+    "options": {
+      "A": "United Kingdom",
+      "B": "Japan",
+      "C": "United States",
+      "D": "France"
+    },
+    "answer": "C",
+    "explanation": "The supermarket concept first became popular in the United States in the 1930s. It is a self-service large-scale retail store where customers choose products themselves.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 363,
+    "question": "What is self-service-based marketing called?",
+    "options": {
+      "A": "Supermarket",
+      "B": "Chain store",
+      "C": "Departmental store",
+      "D": "Planned shopping center"
+    },
+    "answer": "A",
+    "explanation": "In a supermarket, customers choose the required products themselves and pay at the counter. No salesperson hands over or persuades customers to buy products. Hence, it is called self-service-based marketing.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 364,
+    "question": "Which law was enacted in 2003?",
+    "options": {
+      "A": "Tree Plantation Act",
+      "B": "Polythene Ban Act",
+      "C": "Green Marketing Act",
+      "D": "Save Environment Act"
+    },
+    "answer": "B",
+    "explanation": "In Bangladesh, to prevent environmental pollution, the 'Polythene Ban Act' was enacted in 2003, prohibiting the use of polythene shopping bags, which is related to the green marketing concept.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 365,
+    "question": "What is another name for Green Marketing?",
+    "options": {
+      "A": "Biological Marketing",
+      "B": "Ecological Marketing",
+      "C": "Societal Marketing",
+      "D": "Electronic Marketing"
+    },
+    "answer": "B",
+    "explanation": "Green Marketing is also called Ecological Marketing. It is a marketing process that has minimal negative impact on the environment.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 366,
+    "question": "What type of benefit does an organization get from obtaining ISO 14000 certification?",
+    "options": {
+      "A": "Profit increase",
+      "B": "Sales increase",
+      "C": "Goodwill increase",
+      "D": "Goodwill decrease"
+    },
+    "answer": "C",
+    "explanation": "ISO 14000 is an international standard for environmental management. Obtaining this certification means the organization is environmentally friendly, which increases the organization's image and goodwill among consumers.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 367,
+    "question": "Why is Green Marketing necessary?",
+    "options": {
+      "A": "Product recognition",
+      "B": "Protecting a healthy environment",
+      "C": "Direct sales",
+      "D": "Industrialization"
+    },
+    "answer": "B",
+    "explanation": "In the era of climate change and pollution, the need for Green Marketing arises from the urgency to protect a healthy and sustainable environment. It encourages eco-friendly products and processes.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 368,
+    "question": "The subjects included in E-commerce are- i. Internet marketing ii. Electronic fund transfer iii. Inventory management system",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "E-commerce is a broad concept that covers internet marketing (i), electronic fund transfer (ii), and electronic inventory management (iii).",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 369,
+    "question": "The tools of direct marketing are- i. Green marketing ii. Online marketing iii. Kiosk marketing",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "The modern tools of direct marketing include online marketing (ii) and kiosk marketing (iii). Green marketing (i) is a separate philosophy, not a tool of direct marketing.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 370,
+    "question": "Each branch of a chain store- i. Sells the same type of products ii. Follows the central sales policy iii. Sets product prices independently",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Each branch of a chain store sells the same type of products (i) and follows the central sales policy (ii). However, product prices are centrally determined; they do not set prices independently (iii).",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 371,
+    "question": "The reason for lower product prices in a supermarket is- i. Absence of salespeople ii. The owner produces some products themselves iii. Decentralized purchasing",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "In a supermarket, labor costs are saved by not having salespeople (i), and sometimes prices are lower because they produce their own brand products (ii). However, purchasing in a supermarket is usually centralized (not iii), not decentralized.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 372,
+    "question": "Green Marketing is- i. Using jute bags ii. Using CFC gas iii. Converting cars to CNG",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Green Marketing is the marketing of eco-friendly products. Using jute bags (i) and converting cars to CNG (iii) are examples of Green Marketing. CFC gas (ii) is harmful to the environment, so it is not Green Marketing.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 373,
+    "question": "[Stimulus] Customers of the world-famous organization 'Wal-mart' no longer have to come to the store... What is this type of selling by 'Wal-mart' called?",
+    "options": {
+      "A": "E-business",
+      "B": "E-marketing",
+      "C": "E-commerce",
+      "D": "E-retailing"
+    },
+    "answer": "D",
+    "explanation": "The process of selling retail products directly to consumers online is called e-retailing or e-tailing. Walmart's method of taking orders online indicates this.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 374,
+    "question": "The benefits that customers have gained from this type of selling are- i. Their time has been saved ii. The opportunity to buy products on credit has been created iii. Can place orders 24 hours a day",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Online shopping saves the customer's time (i) and allows them to order 24 hours a day beyond the store's specified hours (iii). Generally, buying on credit (ii) is not always available online.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 375,
+    "question": "[Stimulus] Niaz has learned that the discoveries of science and technology are becoming deeply involved in product marketing... What is the best aspect of marketing through information technology?",
+    "options": {
+      "A": "Low cost",
+      "B": "Can be done very quickly",
+      "C": "Permanent marketing",
+      "D": "Good product marketing happens"
+    },
+    "answer": "B",
+    "explanation": "The biggest advantage of information technology-based marketing is speed. It is possible to deliver product information and complete transactions to customers anywhere in the world within moments.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 376,
+    "question": "Why are technology-based media able to drive out old marketing media?",
+    "options": {
+      "A": "Extent of popularity",
+      "B": "Global world",
+      "C": "Expansion of technology",
+      "D": "Easy marketing"
+    },
+    "answer": "B",
+    "explanation": "Modern technology has turned the world into a global village. Because of this global world concept, internet and technology-based media are rapidly replacing old, local, and slow media.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 377,
+    "question": "[Stimulus] There is a super shop called 'Best Buy' next to Mr. Siddique's house. He buys various domestic and foreign branded products from this shop. What type of organization is 'Best Buy'?",
+    "options": {
+      "A": "Planned",
+      "B": "Medium",
+      "C": "Large-scale",
+      "D": "Self-service"
+    },
+    "answer": "A",
+    "explanation": "'Best Buy' is a super shop where various domestic and foreign branded products are available. Such a well-planned shopping center is a planned shopping center.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 378,
+    "question": "The reasons for Mr. Siddique buying products from Best Buy are- i. Product comparison opportunity ii. Quality products iii. Parking facility",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "In a planned shopping center, customers are attracted because of the opportunity to compare products under one roof (i), quality products (ii), and improved facilities like parking (iii).",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 379,
+    "question": "[Stimulus] Mr. Iftekhar, Director of 'Akash Travels Limited', recently attended an international seminar titled 'Necessity of Green Marketing'... What possible step taken by Mr. Iftekhar is consistent with the stimulus?",
+    "options": {
+      "A": "Greening airplanes",
+      "B": "Introducing green tickets",
+      "C": "Introducing a green debit card",
+      "D": "Changing business"
+    },
+    "answer": "A",
+    "explanation": "As a travel agency, 'Akash Travels' can take steps to use fuel-efficient aircraft or reduce aircraft pollution as part of green marketing. 'Greening' steps to reduce plane carbon emissions are logical.",
+    "source": "Production Management & Marketing, Chapter-10"
+  },
+  {
+    "id": 380,
+    "question": "According to the seminar, the necessity of Green Marketing exists- i. In all areas of marketing ii. In improving the environment iii. In economic growth",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The necessity of Green Marketing exists in all areas of marketing (i), in environmental improvement (ii), and in long-term economic growth (iii).",
+    "source": "Production Management & Marketing, Chapter-10"
+  }
+]

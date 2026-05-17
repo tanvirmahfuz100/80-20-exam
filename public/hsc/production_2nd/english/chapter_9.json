@@ -1,0 +1,301 @@
+[
+  {
+    "id": 311,
+    "question": "Who plays the main role in personal selling?",
+    "options": {
+      "A": "Sales presenter",
+      "B": "Director",
+      "C": "Sales consultant",
+      "D": "Product carrier"
+    },
+    "answer": "A",
+    "explanation": "In personal selling, the salesperson or sales presenter directly communicates with the customer, presents the product, and performs all necessary activities for the sale. Therefore, they play the main role.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 312,
+    "question": "Which of the following is a strategy for resolving customer complaints?",
+    "options": {
+      "A": "Advertising",
+      "B": "Personal selling",
+      "C": "Sales promotion",
+      "D": "Public relations"
+    },
+    "answer": "B",
+    "explanation": "Resolving customer complaints requires two-way communication. Since personal selling allows direct conversation, customer complaints can be heard and resolved instantly.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 313,
+    "question": "What is the direct sale of a product or service by a seller called?",
+    "options": {
+      "A": "Advertising",
+      "B": "Personal selling",
+      "C": "Auxiliary activities",
+      "D": "Publicity"
+    },
+    "answer": "B",
+    "explanation": "Personal selling is a process where the seller directly meets the customer face-to-face, provides an idea about the product or service, and completes the sales activity.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 314,
+    "question": "What type of sales method is personal selling?",
+    "options": {
+      "A": "Promotional",
+      "B": "Forceful",
+      "C": "Persuasive",
+      "D": "Service-oriented"
+    },
+    "answer": "C",
+    "explanation": "Personal selling is a persuasive process. Here, the seller understands the customer's needs and persuades or convinces them to buy the product using logic, information, and emotion.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 315,
+    "question": "What is the main characteristic of personal selling?",
+    "options": {
+      "A": "Direct conversation between buyer and seller",
+      "B": "Extensive promotion in electronic media",
+      "C": "It is a one-way communication system",
+      "D": "It is a long-term activity"
+    },
+    "answer": "A",
+    "explanation": "The main and unique characteristic of personal selling is that it is a two-way and direct conversation process where the buyer and seller discuss face-to-face.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 316,
+    "question": "Which of the following acts as a communication bridge between the organization and customers?",
+    "options": {
+      "A": "Marketing manager",
+      "B": "Customer representative",
+      "C": "Sales representative",
+      "D": "Senior officer"
+    },
+    "answer": "C",
+    "explanation": "The sales representative maintains direct contact with customers in the field. They act as a bridge by informing the organization about customer needs, complaints, and reactions on behalf of the company.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 317,
+    "question": "What is the advantage of being proficient as a salesperson?",
+    "options": {
+      "A": "Can spend according to income",
+      "B": "Easier to keep family accounts",
+      "C": "Reduces wastage of money",
+      "D": "Easier to convince the customer"
+    },
+    "answer": "D",
+    "explanation": "A proficient salesperson can correctly present the qualities and benefits of the product, remove the customer's doubts, and easily persuade them to buy.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 333,
+    "question": "For whom is advertising primarily broadcast?",
+    "options": {
+      "A": "The general public",
+      "B": "The government",
+      "C": "The managers",
+      "D": "Specific customers"
+    },
+    "answer": "A",
+    "explanation": "Advertising is a mass media-based promotional strategy that broadcasts the same message to a vast number of the general public. It is not for a specific individual.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 334,
+    "question": "APEX Company is interested in communicating indirectly with customers. Which of the following can be considered as this communication medium?",
+    "options": {
+      "A": "Personal selling",
+      "B": "Public relations",
+      "C": "Marketing",
+      "D": "Advertising"
+    },
+    "answer": "D",
+    "explanation": "Advertising is an indirect communication medium. Here, instead of direct conversation with a specific customer, the message is sent through newspapers, TV, etc.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 335,
+    "question": "Why is salesmanship considered innate?",
+    "options": {
+      "A": "A mix of personal qualities",
+      "B": "A mix of experience",
+      "C": "A social quality",
+      "D": "Lack of impersonal elements"
+    },
+    "answer": "A",
+    "explanation": "Many qualities required for salesmanship, such as self-confidence, patience, and eloquence, are innate parts of a person's personality. This mix of innate personal qualities makes salesmanship natural.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 336,
+    "question": "Personal marketing techniques are- i. Advertising ii. Salesmanship iii. Personal selling",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "The two main elements of personal marketing are salesmanship (ii), or the technique of persuading the customer, and personal selling (iii). Advertising (i) is an impersonal and mass-based promotion.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 337,
+    "question": "As a profession, personal selling is- i. Attractive ii. Challenging iii. Flexible",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Personal selling is an attractive (i) profession because it offers creative opportunities. It is challenging (ii) because sales targets must be achieved, and it requires flexibility (iii) to adapt to market changes.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 338,
+    "question": "From the producer's perspective, the need for personal selling is- i. Creating demand ii. Personal appeal iii. Decision-making",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "For the producer, personal selling is needed to create new demand (i), deliver a personal appeal to the customer (ii), and assist the customer in making a purchase decision (iii).",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 339,
+    "question": "When production increases- i. Consumption increases ii. Investment increases iii. Employment decreases",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "When production increases, the abundance of products in the market increases, so consumption (i) increases, and investment (ii) must also increase for increased production. However, employment (iii) does not decrease when production increases; rather, it increases.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 340,
+    "question": "The psychological qualities of a salesperson are- i. Perseverance ii. Imagination iii. Truthfulness",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Among the psychological qualities of a successful salesperson, perseverance (i), imagination (ii), and truthfulness (iii) are essential. These reflect the seller's personality and mental attitude towards work.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 341,
+    "question": "The response to advertising is- i. Immediate ii. Slow iii. Time-consuming",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Since advertising is an indirect and one-way communication medium, its response is generally not immediate (i), but rather slow (ii) and time-consuming (iii).",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 342,
+    "question": "Advertising is a promotional tool that is- i. Paid ii. Impersonal iii. Direct",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "The two main characteristics of advertising are that it is paid (i) and impersonal (ii). It is not a direct (iii) communication medium, but an indirect one.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 343,
+    "question": "[Stimulus] 'Pran Agro Limited' has appointed some salespeople to sell their new product 'Pran Mango Juice'. These workers try to sell the product by establishing two-way communication with customers. What is this two-way communication establishment by the workers of 'Pran Agro Limited' called?",
+    "options": {
+      "A": "Two-way sale",
+      "B": "Direct advertising",
+      "C": "Sales promotion",
+      "D": "Personal selling"
+    },
+    "answer": "D",
+    "explanation": "The process of selling products by directly discussing with customers through two-way communication as mentioned in the stimulus is personal selling.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 344,
+    "question": "The tasks of 'Pran Agro Limited's' workers are- i. Selling products ii. Creating customers iii. Knowing customer reactions about the product",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The main tasks of salespeople are to sell products (i), create new customers (ii), and know the customer's opinions or reactions about the product (iii).",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 345,
+    "question": "[Stimulus] The salespeople of 'Asad Foods Limited' are always attentive to customer needs... What type of service do the salespeople of 'Asad Foods Limited' provide to customers?",
+    "options": {
+      "A": "Personal",
+      "B": "Mutual",
+      "C": "Product-related",
+      "D": "Demand-related"
+    },
+    "answer": "A",
+    "explanation": "The relationship created through direct communication with customers, understanding their needs, and persuading them is a personal service.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 346,
+    "question": "The purpose of the salespeople of 'Asad Foods Limited' building personal relationships with customers is- i. Bringing dynamism to product sales ii. Identifying customer needs iii. Achieving mutual benefits",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Building personal relationships makes sales dynamic (i), helps identify the real needs of the customer (ii), and creates a mutually beneficial situation (iii).",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 347,
+    "question": "[Stimulus] Maggi Noodles arranged attractive advertisements on various channels for sales promotion... The workers involved in Maggi Noodles' personal selling are searching for what?",
+    "options": {
+      "A": "Product demand",
+      "B": "Product price",
+      "C": "Product quality",
+      "D": "Product effectiveness"
+    },
+    "answer": "A",
+    "explanation": "The stimulus mentions that the appointed workers are 'searching for product demand'. This means they are collecting field-level information about the product's acceptance and consumer demand.",
+    "source": "Production Management & Marketing, Chapter-9"
+  },
+  {
+    "id": 348,
+    "question": "The promotional activity of Maggi Noodles includes- i. Personal selling ii. Advertising iii. Decentralized selling",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "The stimulus mentions advertising (ii) and the work of appointed workers for free sample distribution and feedback collection (personal selling, i). Decentralized selling (iii) is not mentioned here.",
+    "source": "Production Management & Marketing, Chapter-9"
+  }
+]

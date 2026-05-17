@@ -1,0 +1,497 @@
+[
+  {
+    "id": 161,
+    "question": "Which of the following is a consumer product?",
+    "options": {
+      "A": "Raw materials",
+      "B": "Yarn",
+      "C": "Machinery",
+      "D": "Soap"
+    },
+    "answer": "D",
+    "explanation": "A consumer product is a product that the final consumer purchases for their own use or consumption. Soap is an essential consumer product. On the other hand, raw materials, yarn, and machinery are examples of industrial products.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 162,
+    "question": "Mr. Pobon purchased 1 dozen soaps for family use. What type of product is Mr. Pobon's purchased product?",
+    "options": {
+      "A": "Shopping product",
+      "B": "Convenience product",
+      "C": "Specialty product",
+      "D": "Unsought product"
+    },
+    "answer": "B",
+    "explanation": "Soap is a daily necessity and low-priced product that the buyer purchases frequently from a nearby shop with minimal thought and effort. It is a convenience product.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 163,
+    "question": "Which of the following is an industrial product?",
+    "options": {
+      "A": "Accounting",
+      "B": "Capital",
+      "C": "Land",
+      "D": "Business services"
+    },
+    "answer": "D",
+    "explanation": "Industrial products are those goods and services used in producing other products or operating a business. Business services (e.g., legal services, accounting services) fall under industrial products.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 164,
+    "question": "According to the source, what type of product is salt?",
+    "options": {
+      "A": "Standard product",
+      "B": "Processed product",
+      "C": "Agricultural product",
+      "D": "Mineral product"
+    },
+    "answer": "D",
+    "explanation": "Salt is a mineral extracted from nature. It is obtained from seawater or mines, so according to its source, it is classified as a mineral product.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 165,
+    "question": "Which of the following is an agricultural product?",
+    "options": {
+      "A": "Sugar",
+      "B": "Flour",
+      "C": "Rice",
+      "D": "Potato"
+    },
+    "answer": "D",
+    "explanation": "Potato is an agricultural product directly produced from the land. On the other hand, sugar and flour are made through processing, and rice is obtained by processing paddy.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 166,
+    "question": "Which of the following is an impulse good?",
+    "options": {
+      "A": "Ice cream",
+      "B": "Umbrella",
+      "C": "Toy",
+      "D": "Shoes"
+    },
+    "answer": "A",
+    "explanation": "Impulse goods are products that a customer wants to buy spontaneously without prior planning. Ice cream is a product that is often purchased on impulse.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 167,
+    "question": "Which of the following is an emergency good?",
+    "options": {
+      "A": "Smallpox vaccine",
+      "B": "Television",
+      "C": "Umbrella",
+      "D": "Motorcycle"
+    },
+    "answer": "A",
+    "explanation": "Emergency goods are products purchased for immediate need, where not buying them can cause danger. Vaccines or medicine needed during illness are examples of emergency goods.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 168,
+    "question": "Which of the following is a specialty product?",
+    "options": {
+      "A": "Fuchka (street food)",
+      "B": "Soap",
+      "C": "BMW car",
+      "D": "Atap rice"
+    },
+    "answer": "C",
+    "explanation": "Specialty goods are unique, high-priced products for which the buyer makes a special effort to purchase and remains brand loyal. A BMW car is a perfect example of a specialty product.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 169,
+    "question": "What is the break-even point?",
+    "options": {
+      "A": "The point where income is more but costs are less",
+      "B": "The point where income is less but costs are more",
+      "C": "The point where income and costs are equal",
+      "D": "The point where income and costs are high"
+    },
+    "answer": "C",
+    "explanation": "The break-even point is the level of production where the total revenue and total cost of the company are equal, meaning there is neither profit nor loss at this point.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 170,
+    "question": "Which type of product is used in production activities?",
+    "options": {
+      "A": "Industrial product",
+      "B": "Consumer product",
+      "C": "Unsought product",
+      "D": "Specialty product"
+    },
+    "answer": "A",
+    "explanation": "Industrial goods are products used as raw materials or machinery in the production or reprocessing of other products.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 171,
+    "question": "Which of the following is a capital item?",
+    "options": {
+      "A": "Yarn",
+      "B": "Floppy disk",
+      "C": "Tire",
+      "D": "Engine"
+    },
+    "answer": "D",
+    "explanation": "Capital items are fixed assets that assist in the production process over a long period. An engine is a capital machinery used to run other machines.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 172,
+    "question": "Rafiqul Islam guarantees after-sales service for each product he sells. For which type of product is after-sales service most needed?",
+    "options": {
+      "A": "Consumer product",
+      "B": "Industrial product",
+      "C": "Specialty product",
+      "D": "Unsought product"
+    },
+    "answer": "B",
+    "explanation": "Industrial products (e.g., machinery) are usually complex, expensive, and durable. After-sales service is extremely essential for the repair, maintenance, and parts supply of these products.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 173,
+    "question": "For which product is a limited market essential?",
+    "options": {
+      "A": "Consumer product",
+      "B": "Industrial product",
+      "C": "Emergency product",
+      "D": "Staple product"
+    },
+    "answer": "B",
+    "explanation": "The number of buyers for industrial products is relatively small and concentrated in specific areas. Therefore, instead of a broad market like consumer products, a limited and targeted market is essential for industrial products.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 174,
+    "question": "What is the first stage of the product life cycle?",
+    "options": {
+      "A": "Product development",
+      "B": "Growth",
+      "C": "Maturity",
+      "D": "Introduction"
+    },
+    "answer": "A",
+    "explanation": "The first stage of the Product Life Cycle is Product Development. At this stage, the company invents and develops the product, but sales have not yet started in the market.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 175,
+    "question": "At which stage does sales volume reach its peak?",
+    "options": {
+      "A": "Introduction stage",
+      "B": "Growth stage",
+      "C": "Maturity stage",
+      "D": "Decline stage"
+    },
+    "answer": "C",
+    "explanation": "In the Maturity stage, product demand reaches its peak and most potential buyers in the market have adopted the product. Sales volume peaks at this stage.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 176,
+    "question": "At which stage of the life cycle do sales increase rapidly?",
+    "options": {
+      "A": "Introduction stage",
+      "B": "Growth stage",
+      "C": "Maturity stage",
+      "D": "Decline stage"
+    },
+    "answer": "B",
+    "explanation": "In the Growth stage, the product gains recognition in the market and the number of buyers increases rapidly, resulting in a sharp increase in sales volume.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 177,
+    "question": "What does the term 'product' mean?",
+    "options": {
+      "A": "Accounting",
+      "B": "Capital",
+      "C": "Land",
+      "D": "Goods"
+    },
+    "answer": "D",
+    "explanation": "In general terms, a product refers to tangible goods. In marketing, a product can be anything tangible or intangible that is capable of satisfying a consumer's want.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 178,
+    "question": "What is the formula for determining the price of a product?",
+    "options": {
+      "A": "Price = The money the seller receives",
+      "B": "Price = The money the buyer pays",
+      "C": "Price = Profit / Discount",
+      "D": "Price = Selling price / Discount"
+    },
+    "answer": "B",
+    "explanation": "The price of a product is the amount of money or other valuables the buyer must give up to obtain a product or service. The money the buyer pays is the price of that product.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 179,
+    "question": "Total revenue and total cost are equal in which pricing method?",
+    "options": {
+      "A": "Cost-plus pricing",
+      "B": "Break-even pricing",
+      "C": "Value-based pricing",
+      "D": "Competition-based pricing"
+    },
+    "answer": "B",
+    "explanation": "In the break-even point pricing method, the quantity produced and sold makes total revenue and total cost equal to each other.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 180,
+    "question": "What is determined through bargaining?",
+    "options": {
+      "A": "Product marketing",
+      "B": "Product price",
+      "C": "Product budget",
+      "D": "Product appeal"
+    },
+    "answer": "B",
+    "explanation": "Bargaining is a process of determining the final price of a product between the buyer and seller. Both parties arrive at an agreed price through discussion.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 181,
+    "question": "Which type of cost does 'VAT' belong to?",
+    "options": {
+      "A": "Total fixed",
+      "B": "Capital",
+      "C": "Variable",
+      "D": "Direct"
+    },
+    "answer": "C",
+    "explanation": "VAT (Value Added Tax) varies with the amount of production and sales. Therefore, it is considered a variable cost.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 182,
+    "question": "What does the term 'Discount' mean?",
+    "options": {
+      "A": "Price",
+      "B": "Price reduction",
+      "C": "Price increase",
+      "D": "Notification"
+    },
+    "answer": "B",
+    "explanation": "A discount is a specific amount or percentage reduction on the listed price of a product. In other words, it is a form of price reduction.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 183,
+    "question": "The characteristics of a product are- i. Tangible ii. Intangible iii. Immutable",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "A product can be both tangible (i) and intangible (ii). Services are examples of intangible products. A product is not always immutable (iii); rather, it changes with technology and demand.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 184,
+    "question": "The characteristics of perishable products are- i. Low price ii. Low demand iii. Short durability",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Perishable products like vegetables and milk are characterized by generally low prices (i) and short durability, meaning they spoil quickly (iii). Their demand is not low but rather essential.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 185,
+    "question": "The reasons for intense competition in the consumer goods market are- i. Presence of alternative products ii. Presence of homogeneous products iii. Emergence of new competitors",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "In the consumer goods market, the presence of numerous alternative products (i), an abundance of homogeneous products (ii), and the constant arrival of new competitors (iii) are all responsible for creating intense competition.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 186,
+    "question": "In the case of consumer products, the applicable features are- i. Broad market ii. Long distribution channel iii. Low price",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Consumer products require a broad market (i) because of a large number of buyers. A long distribution channel (ii) is needed to reach everyone, and the unit price of these products is generally low (iii).",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 187,
+    "question": "The objectives of pricing are- i. Maximizing current profit ii. Maximizing market share iii. Product quality leadership",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Companies set prices to achieve objectives like maximizing current profit (i), maximizing market share (ii), and leading in product quality (iii).",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 188,
+    "question": "Competitive pricing methods are- i. Going-rate pricing ii. Sealed-bid pricing iii. Break-even pricing",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "The two main methods of competitive pricing are going-rate pricing (i) and sealed-bid pricing (ii). Break-even pricing (iii) is a cost-based method, not a competitive one.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 189,
+    "question": "Russell has been working at Ashuganj Fertilizer Factory for 10 years. Through this, he has gained- i. Skill ii. Experience iii. Price-related knowledge",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Working in the same job for a long time allows a person to gain skill (i) and experience (ii). However, price-related knowledge (iii) may not necessarily be gained through this, depending on the nature of the job. According to the question, skill and experience are primary.",
+    "source": "Production Management & Marketing, Chapter-5",
+    "confidence": "medium"
+  },
+  {
+    "id": 190,
+    "question": "[Stimulus] Rampura Kacha Bazar is a very popular market. But suddenly, due to a price increase... customers became interested in buying from basket sellers. What attitude of customers towards the product is observed due to the price increase in Rampura Bazar?",
+    "options": {
+      "A": "Lost interest in the product",
+      "B": "Product demand has decreased",
+      "C": "Reduced interest in purchasing from that market",
+      "D": "Product demand has increased"
+    },
+    "answer": "C",
+    "explanation": "The stimulus shows that customers are leaving the market and buying from alternative sources (basket sellers). This means their product or demand has not changed, but their interest in purchasing from the specific Rampura market has decreased due to the price increase.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 191,
+    "question": "The characteristic prevalent among the customers of Rampura Bazar is- i. Sensitivity ii. Frugality iii. Miserliness",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Bangladeshi customers are extremely price-sensitive (i). When prices rise, they look for cheaper alternatives, indicating a frugal (ii) mindset. Miserliness (iii) is a negative trait; here, a realistic thrifty attitude is shown.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 192,
+    "question": "[Stimulus] Mehedi is a young entrepreneur. He imports lubricants and mobile-type products from abroad... What type of products are Mehedi's imported goods?",
+    "options": {
+      "A": "Consumer product",
+      "B": "Industrial product",
+      "C": "Shopping product",
+      "D": "Unsought product"
+    },
+    "answer": "B",
+    "explanation": "Lubricants and mobile are tools or supplies used for machinery maintenance and operation in industrial factories. Since they are used in producing other products, they are industrial products.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 193,
+    "question": "In the case of Mehedi's marketed products, the true statements are- i. Its market is limited ii. Its unit price is higher iii. It is used in reproduction",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Industrial products generally have a limited market (i), a higher unit price (ii), and are used in reproduction or production activities (iii). These characteristics apply to Mehedi's products as well.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 194,
+    "question": "[Stimulus] Hasan and Milon are two renowned businessmen. The product Hasan markets is limited to a specific area. Milon's product market is spread nationwide. The demand for Hasan's product depends on the demand for Milon's product. What type of product does Hasan market?",
+    "options": {
+      "A": "Industrial product",
+      "B": "Consumer product",
+      "C": "Emergency product",
+      "D": "Staple product"
+    },
+    "answer": "A",
+    "explanation": "Hasan's product market is limited and depends on the demand for Milon's product (which is nationwide). This proves Hasan markets an industrial product, whose demand is derived from the demand for a consumer product (Milon's product).",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 195,
+    "question": "What type of product does Milon trade in?",
+    "options": {
+      "A": "Industrial product",
+      "B": "Consumer product",
+      "C": "Raw material",
+      "D": "Unsought product"
+    },
+    "answer": "B",
+    "explanation": "Milon's product market is nationwide and the demand for Hasan's product depends on it. This is a characteristic of consumer products, whose broad market and demand influence the demand for industrial products.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 196,
+    "question": "If the demand for Milon's product increases, what will happen in the case of Hasan's product- i. Demand will increase ii. Sales will increase iii. Price will decrease",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "If the demand for Milon's consumer product increases, both the demand (i) and sales (ii) of Hasan's industrial product will increase to produce it. When demand for an industrial product increases, the price generally does not decrease but may increase.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 197,
+    "question": "[Stimulus] 'ABC Ltd.' produces goods worth Tk 5,000 at a unit cost of Tk 10. When production is increased to Tk 15,000, the unit production cost becomes Tk 7. What is the tendency of 'ABC Ltd.'s production cost decreasing called?",
+    "options": {
+      "A": "Cost line",
+      "B": "Experience curve",
+      "C": "Production line",
+      "D": "Improvement line"
+    },
+    "answer": "B",
+    "explanation": "The Experience Curve is the concept where unit production costs decrease as production volume increases due to increased efficiency.",
+    "source": "Production Management & Marketing, Chapter-5"
+  },
+  {
+    "id": 198,
+    "question": "'ABC Ltd.'s average cost decreases through- i. Increased production ii. Increased sales iii. Increased purchases",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Through increased production (i), fixed costs are spread out, and through increased sales (ii), products cycle back quickly, reducing average costs. Increased purchases (iii) may refer to buying more raw materials, which could increase the average cost.",
+    "source": "Production Management & Marketing, Chapter-5"
+  }
+]
