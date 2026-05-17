@@ -116,6 +116,7 @@ const Dashboard = () => {
       { id: 'hsc', label: 'HSC', note: 'NCTB English 1st & 2nd Paper' },
       { id: 'iba', label: 'IBA', note: 'Admission English, Math, Analytical' },
       { id: 'bcs', label: 'BCS', note: 'Competitive exam practice' },
+      { id: 'class7', label: 'Class 7', note: 'English Grammar' },
     ];
     Promise.all(
       exams.map(async (exam) => {

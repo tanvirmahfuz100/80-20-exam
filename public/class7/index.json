@@ -1,0 +1,22 @@
+{
+  "subjects": [
+    {
+      "id": "english",
+      "name": "English",
+      "icon": "Book",
+      "topics": [
+        {
+          "id": "grammar",
+          "name": "Grammar",
+          "chapters": [
+            {
+              "id": "class7_gap_filling",
+              "name": "Gap Filling With Clues",
+              "file": "/class7/english/gap_filling_with_clues.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

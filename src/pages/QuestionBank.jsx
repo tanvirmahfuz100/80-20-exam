@@ -217,6 +217,7 @@ const QuestionBank = () => {
             { id: 'ssc', label: 'SSC' },
             { id: 'hsc', label: 'HSC' },
             { id: 'iba', label: 'IBA' },
+            { id: 'class7', label: 'Class 7' },
         ];
 
         (async () => {

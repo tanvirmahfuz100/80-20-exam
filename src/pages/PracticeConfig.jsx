@@ -20,6 +20,7 @@ const examColors = {
     hsc: { accent: '#0ea5e9', bg: 'rgba(14,165,233,0.08)', label: 'HSC' },
     iba: { accent: '#8b5cf6', bg: 'rgba(139,92,246,0.08)', label: 'IBA' },
     bcs: { accent: '#f59e0b', bg: 'rgba(245,158,11,0.08)', label: 'BCS' },
+    class7: { accent: '#f43f5e', bg: 'rgba(244,63,94,0.08)', label: 'Class 7' },
 };
 
 const fadeUp = {
@@ -272,7 +273,8 @@ const PracticeConfig = () => {
             { id: 'ssc', label: 'SSC', note: 'NCTB English 1st and 2nd Paper' },
             { id: 'hsc', label: 'HSC', note: 'NCTB English 1st and 2nd Paper' },
             { id: 'iba', label: 'IBA', note: 'Admission English, Math, Analytical' },
-            { id: 'bcs', label: 'BCS', note: 'Competitive exam practice' }
+            { id: 'bcs', label: 'BCS', note: 'Competitive exam practice' },
+            { id: 'class7', label: 'Class 7', note: 'English Grammar' }
         ];
 
         Promise.all(examCatalog.map(exam =>
