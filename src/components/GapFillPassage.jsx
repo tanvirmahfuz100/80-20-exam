@@ -59,6 +59,19 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
     return blanks.find(b => b.blankId === blankId || b.id === blankId);
   }, [blanks]);
 
+  const getDisplayOptions = useCallback((blankData) => {
+    if (!blankData) return [];
+    const id = blankData.blankId || blankData.id;
+    const fromMap = shuffledOptionsMap[id];
+    if (fromMap) return fromMap;
+    const opts = [...(blankData.options || [])];
+    for (let i = opts.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [opts[i], opts[j]] = [opts[j], opts[i]];
+    }
+    return opts;
+  }, [shuffledOptionsMap]);
+
   const handleBlankClick = useCallback((blankId, event) => {
     const blankData = getBlankData(blankId);
     if (!blankData) return;
@@ -249,7 +262,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
       <div className="shrink-0 sticky bottom-3 px-0 safe-bottom">
         {answeredCount > 0 ? (
           <button
-            onClick={onContinue}
+            onClick={() => onContinue(answeredCount, totalBlanks)}
             className="w-full py-3.5 px-6 bg-[#2F80ED] hover:bg-[#2F80ED]/90 text-white font-black rounded-xl text-sm uppercase tracking-widest transition-all active:scale-[0.97] shadow-lg shadow-[#2F80ED]/20"
           >
             Continue ({answeredCount}/{totalBlanks})
@@ -257,7 +270,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
         ) : (
           <div className="flex justify-center">
             <button
-              onClick={onContinue}
+              onClick={() => onContinue(0, totalBlanks)}
               className="px-4 py-2 text-white/40 hover:text-white/70 font-medium text-xs transition-colors active:scale-[0.97]"
             >
               Skip
@@ -282,7 +295,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
           >
             <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-2.5 h-2.5 bg-surface border-t border-l border-white/10 rotate-45" aria-hidden="true" />
             <div className="relative pt-1">
-              {(shuffledOptionsMap[activeBlankData.blankId || activeBlankData.id] || activeBlankData.options).map((opt, idx) => {
+              {getDisplayOptions(activeBlankData).map((opt, idx) => {
                 const optionText = typeof opt === 'string' ? opt : opt.text;
                 const isCorrect = typeof opt === 'string' ? optionText === activeBlankData.correct_answer : opt.isCorrect;
                 const explanationBn = opt?.explanationBn || opt?.explanation_bn || '';
@@ -324,7 +337,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
               </button>
             </div>
             <div className="flex-1 overflow-y-auto -mx-1 px-1">
-              {(shuffledOptionsMap[activeBlankData.blankId || activeBlankData.id] || activeBlankData.options).map((opt, idx) => {
+              {getDisplayOptions(activeBlankData).map((opt, idx) => {
                 const optionText = typeof opt === 'string' ? opt : opt.text;
                 const isCorrect = typeof opt === 'string' ? optionText === activeBlankData.correct_answer : opt.isCorrect;
                 const explanationBn = opt?.explanationBn || opt?.explanation_bn || '';

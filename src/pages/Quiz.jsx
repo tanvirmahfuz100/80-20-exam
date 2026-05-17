@@ -344,7 +344,19 @@ const Quiz = () => {
                     else if (Array.isArray(data.items)) questionArray = data.items;
 
                     const normalized = normalizeQuizQuestions({ questions: questionArray });
-                    setQuestions(normalized);
+
+                    const existing = await api.getUserResponses(user?.id);
+                    const answeredIds = new Set(
+                        (existing.data || [])
+                            .filter(r => r.chapter_id === chapterId || r.source_file === file)
+                            .map(r => r.question_id)
+                            .filter(Boolean)
+                    );
+                    const fresh = normalized.filter(q => !answeredIds.has(q.id));
+                    if (fresh.length === 0 && normalized.length > 0) {
+                        setError('You have already answered all questions in this chapter.');
+                    }
+                    setQuestions(fresh.length > 0 ? fresh : normalized);
                 }
             } catch (err) {
                 setError(err.message);
@@ -528,6 +540,7 @@ const Quiz = () => {
             correct_option_text: (currentQ.options || [])[currentQ.correct] || null,
             is_correct: isCorrect,
             time_spent: questionTime,
+            status: 'answered',
         });
     };
 
@@ -735,6 +748,7 @@ const Quiz = () => {
                                     isCorrect,
                                     selected: selectedText,
                                     time_spent: blankTime,
+                                    status: 'answered',
                                 }]);
 
                                 api.saveResponse({
@@ -748,9 +762,25 @@ const Quiz = () => {
                                     correct_option_text: actualQ.options?.[actualQ.correct] || '',
                                     is_correct: isCorrect,
                                     time_spent: blankTime,
+                                    status: 'answered',
                                 });
                             }}
-                            onContinue={() => {
+                            onContinue={(answeredCount, totalBlanks) => {
+                                const blanksDone = answeredCount || 0;
+                                const status = blanksDone === 0 ? 'skipped' : blanksDone < totalBlanks ? 'partial' : 'answered';
+                                api.saveResponse({
+                                    user_id: user.id,
+                                    chapter_id: chapterId,
+                                    chapter_title: title,
+                                    source_file: file,
+                                    question_id: gapFillGroup.passage,
+                                    question_text: gapFillGroup.passage,
+                                    is_correct: status === 'answered',
+                                    time_spent: Math.round((Date.now() - questionStartRef.current) / 1000),
+                                    status,
+                                    blanks_answered: blanksDone,
+                                    blanks_total: totalBlanks,
+                                });
                                 const nextIndex = gapFillGroup.endIndex + 1;
                                 if (nextIndex < questions.length) {
                                     setCurrentIndex(nextIndex);
