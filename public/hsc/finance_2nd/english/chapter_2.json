@@ -1,0 +1,353 @@
+[
+  {
+    "id": 22,
+    "question": "What is the name of the world's first central bank?",
+    "options": {
+      "A": "Federal Reserve System",
+      "B": "Bank of England",
+      "C": "Bank of France",
+      "D": "Riksbank of Sweden"
+    },
+    "answer": "D",
+    "explanation": "The Riksbank of Sweden (Sveriges Riksbank) is the world's first central bank, established in 1668. The Bank of England was established in 1694.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 23,
+    "question": "How can currency value be kept stable?",
+    "options": {
+      "A": "By keeping money supply at an optimal level in the market",
+      "B": "By supplying excess money in the market",
+      "C": "By supplying less money in the market compared to demand",
+      "D": "By supplying money twice a year in the market"
+    },
+    "answer": "A",
+    "explanation": "Currency value can be kept stable by keeping money supply at an optimal level in the market. Excess money supply causes inflation, while less supply causes deflation.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 24,
+    "question": "Where was the first central bank of Asia established?",
+    "options": {
+      "A": "Japan",
+      "B": "China",
+      "C": "Malaysia",
+      "D": "Singapore"
+    },
+    "answer": "A",
+    "explanation": "Asia's first central bank was established in Japan (Bank of Japan) in 1882.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 25,
+    "question": "Under which ordinance did Bangladesh Bank begin its operations?",
+    "options": {
+      "A": "Bangladesh Bank Ordinance, 1972",
+      "B": "Central Bank Ordinance, 1972",
+      "C": "Bangladesh Bank Ordinance, 1973",
+      "D": "Central Bank Ordinance, 1973"
+    },
+    "answer": "A",
+    "explanation": "Bangladesh Bank began its operations under the Bangladesh Bank Ordinance, 1972 (President's Order No. 127). It was established on December 16, 1971.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 26,
+    "question": "Mr. Rahman is interested in opening a new commercial bank. From whom must Mr. Rahman obtain permission?",
+    "options": {
+      "A": "Local Member of Parliament",
+      "B": "Ministry of Finance",
+      "C": "Central Bank",
+      "D": "Bank Owners' Association"
+    },
+    "answer": "C",
+    "explanation": "Permission must be obtained from the Central Bank (Bangladesh Bank) to establish a new commercial bank. The central bank grants banking licenses and regulates banking activities.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 27,
+    "question": "Who was the first Governor of Bangladesh Bank?",
+    "options": {
+      "A": "A. K. N. Ahmed",
+      "B": "A. N. M. Hamidullah",
+      "C": "M. Nurul Islam",
+      "D": "Dr. M. Mahbubul Haq Hakim"
+    },
+    "answer": "A",
+    "explanation": "A. K. N. Ahmed was the first Governor of Bangladesh Bank. He served from 1972 to 1975.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 28,
+    "question": "What must be deposited as CRR?",
+    "options": {
+      "A": "A specified portion of deposits",
+      "B": "A specified portion of capital",
+      "C": "A specified portion of assets",
+      "D": "A specified portion of investments"
+    },
+    "answer": "A",
+    "explanation": "As CRR (Cash Reserve Ratio), commercial banks must keep a specified portion of their deposits with the central bank. This is a tool for controlling money supply.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 29,
+    "question": "What is the minimum paid-up capital and reserve fund of banks?",
+    "options": {
+      "A": "Tk 400 crore",
+      "B": "Tk 450 crore",
+      "C": "Tk 500 crore",
+      "D": "Tk 600 crore"
+    },
+    "answer": "C",
+    "explanation": "The minimum paid-up capital and reserve fund of commercial banks in Bangladesh is Tk 500 crore. This has been determined as part of Basel-3 implementation.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 30,
+    "question": "What is the liquidity reserve ratio for banks operating according to Islamic Shariah?",
+    "options": {
+      "A": "10%",
+      "B": "12%",
+      "C": "12.5%",
+      "D": "15%"
+    },
+    "answer": "C",
+    "explanation": "The liquidity reserve ratio (SLR) for banks operating according to Islamic Shariah is 12.5%. It may differ for conventional banks.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 31,
+    "question": "Cash Reserve Ratio (CRR) is related to which method of credit control?",
+    "options": {
+      "A": "Bank rate policy",
+      "B": "Open market policy",
+      "C": "Reserve requirement change policy",
+      "D": "Margin requirement change policy"
+    },
+    "answer": "C",
+    "explanation": "The Cash Reserve Ratio (CRR) is related to the reserve requirement change policy. The central bank controls the lending capacity of commercial banks by increasing or decreasing CRR.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 32,
+    "question": "When does deflation occur?",
+    "options": {
+      "A": "When money supply decreases at an excessive rate",
+      "B": "When the purchasing power of money decreases",
+      "C": "When money supply increases",
+      "D": "When the price level increases"
+    },
+    "answer": "A",
+    "explanation": "Deflation occurs when the money supply in the market decreases at an excessive rate. In this situation, commodity prices fall and the purchasing power of money increases.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 33,
+    "question": "When is it logical to buy bonds from the open market?",
+    "options": {
+      "A": "When the amount of credit increases in the market",
+      "B": "When the amount of money increases in the market",
+      "C": "When the amount of credit decreases in the market",
+      "D": "When inflation occurs"
+    },
+    "answer": "D",
+    "explanation": "When inflation occurs, it is logical to buy bonds from the open market (i.e., the central bank sells bonds). This withdraws excess money from the market and controls inflation.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 34,
+    "question": "What will happen if the reserve ratio is increased?",
+    "options": {
+      "A": "Less money will flow to the central bank",
+      "B": "The lending capacity of commercial banks will decrease",
+      "C": "The amount of credit in the market will increase",
+      "D": "Inflation will occur"
+    },
+    "answer": "B",
+    "explanation": "If the reserve ratio (CRR/SLR) is increased, the lending capacity of commercial banks will decrease. Banks must keep more money with the central bank, reducing funds available for lending.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 35,
+    "question": "If the exchange rate changes from $1 = BDT 82 to $1 = BDT 80, what change will occur in the amount of foreign currency in the money market?",
+    "options": {
+      "A": "Increase",
+      "B": "Remain stable",
+      "C": "Decrease",
+      "D": "Remain unchanged"
+    },
+    "answer": "C",
+    "explanation": "When the exchange rate falls (Taka strengthens against the Dollar), the amount of foreign currency will decrease. As exports decrease and imports increase, the demand for foreign currency rises and supply decreases.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 36,
+    "question": "In how many districts does Bangladesh Bank operate clearing activities?",
+    "options": {
+      "A": "14",
+      "B": "16",
+      "C": "17",
+      "D": "18"
+    },
+    "answer": "A",
+    "explanation": "Bangladesh Bank operates clearing activities in 14 districts. Interbank debts and credits are settled through the clearing house.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 37,
+    "question": "Who is the originator of the clearing house concept?",
+    "options": {
+      "A": "Arvil Phiziomi",
+      "B": "U. E. Crowther",
+      "C": "Lawrence Gitman",
+      "D": "Harry Markowitz"
+    },
+    "answer": "B",
+    "explanation": "U. E. Crowther is the originator of the clearing house concept. He first introduced this method of settling interbank debts and credits.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 38,
+    "question": "As banker to the government, the central bank- i. Preserves government funds ii. Settles interbank debts and credits iii. Preserves government income-expenditure accounts",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "As banker to the government, the central bank preserves government funds and maintains government income-expenditure accounts. Settling interbank debts and credits is part of its role as banker to other banks.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 39,
+    "question": "The central bank advises the government- i. In implementing monetary policy ii. In infrastructure development iii. In budget formulation",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "The central bank advises the government in implementing monetary policy and budget formulation. Infrastructure development is not directly an area of central bank advice.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 40,
+    "question": "As a result of credit control, the following remain at optimal levels- i. Credit supply ii. Money supply iii. Capital market situation",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "As a result of credit control, credit supply and money supply remain at optimal levels. This is used to address inflation or deflation situations. The capital market situation is a different matter.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 41,
+    "question": "The effectiveness of open market policy depends on- i. People's propensity to save ii. Investment opportunities iii. The fund situation of commercial banks",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The effectiveness of open market policy depends on people's savings propensity, investment opportunities, and the fund situation of commercial banks. All three factors influence it.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 42,
+    "question": "The clearing house- i. Is a place for proper accounting ii. Is a place for settling interbank debts and credits iii. Is operated by the central bank",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The clearing house is a place for settling interbank debts and credits, operated by the central bank, where proper accounting is maintained. All three statements are correct.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 43,
+    "question": "[Stimulus] Cheques of Bank W were presented at Bank L. Cheques of Bank M were presented at Bank W. Cheques of Bank L were presented at Bank M. The three banks gathered under the supervision of Bank C to settle these transactions. What is the process of settling these transactions called?",
+    "options": {
+      "A": "Accounting house",
+      "B": "Clearing house",
+      "C": "Publishing house",
+      "D": "Audit house"
+    },
+    "answer": "B",
+    "explanation": "The process of settling debts and credits between different banks through cheques is called clearing, and the place where this is done is called a clearing house. It is operated under the supervision of Bank C (the central bank).",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 44,
+    "question": "Under which type of functions of Bank C does the above activity fall?",
+    "options": {
+      "A": "General functions",
+      "B": "Functions as banker to the government",
+      "C": "Functions as banker to other banks",
+      "D": "Developmental functions"
+    },
+    "answer": "C",
+    "explanation": "Operating the clearing house falls under the central bank's functions as 'banker to other banks'. This is an important part of providing interbank services.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 45,
+    "question": "[Stimulus] Bangladesh Bank, as the central bank of Bangladesh, assists other banks within the country in their formation, deposit and loan collection, clearing, and account auditing... However, in 2008, it did not provide such assistance to Noakhali Co-operative Bank. Which role of Bangladesh Bank is mentioned in the stimulus?",
+    "options": {
+      "A": "Banker to other banks",
+      "B": "Chief and central bank of the country",
+      "C": "Lender of last resort",
+      "D": "Banker to the government"
+    },
+    "answer": "A",
+    "explanation": "The stimulus mentions assistance in the formation, deposits, loans, clearing, and auditing of other banks, which falls under the central bank's role as 'banker to other banks'.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 46,
+    "question": "Bangladesh Bank may not have assisted Noakhali Co-operative Bank because- i. It is a non-scheduled bank ii. It is a cooperative bank iii. It is not under Bangladesh Bank's jurisdiction",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Noakhali Co-operative Bank is a cooperative bank that is not scheduled with Bangladesh Bank and is not directly operated under Bangladesh Bank. Hence, Bangladesh Bank did not provide assistance.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 47,
+    "question": "[Stimulus] Due to excessive inflation, Riconland's economy almost collapsed. In this situation, the government of Riconland directed Blue Bank to improve the economic condition as much as possible. Which method would be logical for Blue Bank to follow?",
+    "options": {
+      "A": "Reducing the bank rate",
+      "B": "Buying securities from the open market",
+      "C": "Increasing the bank rate",
+      "D": "Buying bonds from the open market"
+    },
+    "answer": "D",
+    "explanation": "To control excessive inflation, buying bonds from the open market is logical. This returns excess money from the market to the central bank, reducing money supply and inflation.",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  },
+  {
+    "id": 48,
+    "question": "If Blue Bank increases the reserve ratio- i. The lending capacity of commercial banks will increase ii. Inflation will decrease iii. The purchasing power of money will increase",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Increasing the reserve ratio (CRR/SLR) decreases the lending capacity of commercial banks (i is wrong), decreases inflation (ii is correct), and increases the purchasing power of money (iii is correct).",
+    "source": "Finance, Banking & Insurance, Chapter-2"
+  }
+]

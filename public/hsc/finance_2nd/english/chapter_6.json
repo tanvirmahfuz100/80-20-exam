@@ -1,0 +1,431 @@
+[
+  {
+    "id": 120,
+    "question": "What is the modern form of a withdrawal slip?",
+    "options": {
+      "A": "Bank draft",
+      "B": "Bank cheque",
+      "C": "ATM card",
+      "D": "Bank bill"
+    },
+    "answer": "C",
+    "explanation": "The modern form of a withdrawal slip is the ATM card. Using it, customers can withdraw money directly from a machine without visiting the bank counter.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 121,
+    "question": "Which is extensively used for settling transactions in foreign trade?",
+    "options": {
+      "A": "Promissory note",
+      "B": "Bill of Exchange",
+      "C": "Letter of Credit",
+      "D": "Money"
+    },
+    "answer": "B",
+    "explanation": "A Bill of Exchange is extensively used for settling transactions in foreign trade. It is an important financial document in import-export trade.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 122,
+    "question": "A cheque must be signed by whom?",
+    "options": {
+      "A": "Deposit receiver",
+      "B": "Depositor",
+      "C": "Money depositor",
+      "D": "Money withdrawer"
+    },
+    "answer": "B",
+    "explanation": "A cheque must be signed by the depositor (account holder). The signature is the primary basis of a cheque's validity. Without a signature, the bank does not pay the cheque.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 123,
+    "question": "Which is accepted in court as proof of debt?",
+    "options": {
+      "A": "Investment letter",
+      "B": "Document",
+      "C": "Promissory note",
+      "D": "Cheque"
+    },
+    "answer": "C",
+    "explanation": "A Promissory Note is accepted in court as proof of debt. It is a written promise by which the borrower undertakes to pay a specified amount at a specified time.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 124,
+    "question": "Two parallel lines drawn across are found in which type of cheque?",
+    "options": {
+      "A": "Bearer cheque",
+      "B": "Crossed cheque",
+      "C": "Order cheque",
+      "D": "Special cheque"
+    },
+    "answer": "B",
+    "explanation": "In a crossed cheque, two parallel lines are drawn across the face. This cheque is not paid in cash but only through a bank account.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 125,
+    "question": "For the convenience of travelers, which type of cheque does the payee bank issue for transferring money?",
+    "options": {
+      "A": "Special cheque",
+      "B": "Traveler's cheque",
+      "C": "Crossed cheque",
+      "D": "Gift cheque"
+    },
+    "answer": "B",
+    "explanation": "A Traveler's Cheque is issued for transferring money for the convenience of travelers. It is an alternative medium for carrying money safely during foreign travel.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 126,
+    "question": "In which type of cheque is there a possibility of winning prizes through draws at regular intervals?",
+    "options": {
+      "A": "Blank cheque",
+      "B": "Gift cheque",
+      "C": "Traveler's cheque",
+      "D": "Market cheque"
+    },
+    "answer": "B",
+    "explanation": "A Gift Cheque offers the possibility of winning prizes through draws (lottery) at regular intervals. Banks introduce such cheques to attract customers.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 127,
+    "question": "In the modern banking world, what are the widely used Debit Card and Credit Card known as?",
+    "options": {
+      "A": "Market cheque",
+      "B": "Gift cheque",
+      "C": "Traveler's cheque",
+      "D": "Approved cheque"
+    },
+    "answer": "A",
+    "explanation": "In the modern banking world, debit cards and credit cards are known as 'Market Cheques'. They are modern media for paperless transactions.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 128,
+    "question": "What is the maker of a cheque called?",
+    "options": {
+      "A": "Payee",
+      "B": "Drawer",
+      "C": "Endorser",
+      "D": "Drawee"
+    },
+    "answer": "B",
+    "explanation": "The maker of a cheque is called the Drawer. The drawer is the person who signs the cheque and instructs the bank to pay the money.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 129,
+    "question": "In which type of cheque is there no system for detecting theft or forgery?",
+    "options": {
+      "A": "Order cheque",
+      "B": "Stale cheque",
+      "C": "Bearer cheque",
+      "D": "Blank cheque"
+    },
+    "answer": "C",
+    "explanation": "In a Bearer Cheque, there is no system for detecting theft or forgery. This is because anyone holding this cheque can withdraw money from the bank without identity verification.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 130,
+    "question": "Mr. Hamid's cheque has been stolen. The cheque has no crossing, yet no one else can withdraw the money. What type of cheque could Mr. Hamid's cheque be?",
+    "options": {
+      "A": "Bearer cheque",
+      "B": "Order cheque",
+      "C": "Stale cheque",
+      "D": "Blank cheque"
+    },
+    "answer": "B",
+    "explanation": "In an Order Cheque, the words 'or bearer' are struck out and 'or order' is written. Only the specified person or their endorsee can receive payment from this cheque, so even if stolen, others cannot withdraw money.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 131,
+    "question": "Which type of cheque cannot be converted into a bearer cheque except by the maker of the cheque?",
+    "options": {
+      "A": "Bearer cheque",
+      "B": "Order cheque",
+      "C": "Stale cheque",
+      "D": "Advance cheque"
+    },
+    "answer": "B",
+    "explanation": "An Order Cheque cannot be converted into a bearer cheque except by the maker of the cheque. Only the drawer can convert an order cheque into a bearer cheque.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 132,
+    "question": "What is the bank's safeguard against forgery and fraud?",
+    "options": {
+      "A": "Specimen signature of the drawer",
+      "B": "Approved cheque",
+      "C": "KYC form",
+      "D": "Crossing on the cheque"
+    },
+    "answer": "A",
+    "explanation": "The specimen signature of the drawer is the bank's main safeguard against forgery and fraud. The bank matches the cheque signature with the specimen signature before making payment.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 133,
+    "question": "On what can a court impose a prohibition?",
+    "options": {
+      "A": "Payment from the account of any person or institution",
+      "B": "Any specific account",
+      "C": "Deposit acceptance of the depositor",
+      "D": "On a person's account"
+    },
+    "answer": "A",
+    "explanation": "A court can impose a prohibition on payment from the account of any person or institution through a Garnishee Order. This is a special court order.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 134,
+    "question": "Who can be the endorser of an order cheque?",
+    "options": {
+      "A": "Drawer",
+      "B": "Payee",
+      "C": "Drawee",
+      "D": "Maker"
+    },
+    "answer": "B",
+    "explanation": "The endorser of an order cheque can be the Payee. The payee endorses the cheque by signing on the back and can transfer it to another person.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 135,
+    "question": "Who can dishonor a cheque?",
+    "options": {
+      "A": "When the court declares the drawer's account closed",
+      "B": "When the cheque is transferred",
+      "C": "Bank",
+      "D": "Drawer"
+    },
+    "answer": "C",
+    "explanation": "The bank can dishonor a cheque, for example, due to insufficient funds, signature mismatch, or the cheque being stale. The bank may refuse payment on these grounds.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 136,
+    "question": "For what reason can a cheque be dishonored?",
+    "options": {
+      "A": "If the cheque is presented by the genuine payee",
+      "B": "If the drawee becomes insane",
+      "C": "To the bank",
+      "D": "To the payee"
+    },
+    "answer": "B",
+    "explanation": "If the drawee (the bank's customer) becomes insane or mentally unsound, the cheque may be dishonored. Legally, money cannot be paid from the account of an insane person.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 137,
+    "question": "If a cheque is lost, whom should the maker or holder of the cheque first inform immediately?",
+    "options": {
+      "A": "Depositor",
+      "B": "Drawer",
+      "C": "Payee",
+      "D": "Holder"
+    },
+    "answer": "B",
+    "explanation": "If a cheque is lost, the maker or holder should first inform the drawer (the account holder who issued the cheque), who can then instruct the bank to stop payment. The bank needs instruction from the drawer to stop payment.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 138,
+    "question": "For what is a bill of exchange generally used?",
+    "options": {
+      "A": "Cash purchase and sale",
+      "B": "Credit purchase and sale of goods",
+      "C": "Purchase and sale by cheque",
+      "D": "Advance sale"
+    },
+    "answer": "B",
+    "explanation": "A bill of exchange is generally used for credit purchase and sale of goods. The seller draws a bill of exchange on the buyer to collect money after a specified period.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 139,
+    "question": "What can be reduced by using a bill of exchange?",
+    "options": {
+      "A": "Risk of credit sales",
+      "B": "Risk of cash transactions",
+      "C": "Risk of transactions",
+      "D": "Risk of business"
+    },
+    "answer": "A",
+    "explanation": "Using a bill of exchange can reduce the risk of credit sales (Credit Risk). It provides the seller with legal assurance of receiving payment after a specified period.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 140,
+    "question": "A crossed cheque can be- i. General crossing ii. Complete crossing iii. Special crossing",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "A crossed cheque is of two types: General Crossing and Special Crossing. Complete crossing is not a separate category.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 141,
+    "question": "In the modern banking world, the following are widely used- i. Debit card ii. Punch card iii. Credit card",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "In the modern banking world, debit cards and credit cards are widely used. Punch cards are now an obsolete technology.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 142,
+    "question": "Advantages of an order cheque are- i. Comparatively more secure ii. Large amounts can be transacted iii. This cheque can be transferred without endorsement",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Advantages of an order cheque: it is comparatively more secure and suitable for large transactions. However, an order cheque cannot be transferred without endorsement (iii is wrong).",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 143,
+    "question": "Safeguards against cheque forgery and fraud are- i. Properly matching specimen signatures ii. Determining the authenticity of the payee iii. Verifying the correctness of the cheque",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three are safeguards against forgery and fraud: matching specimen signatures, determining payee authenticity, and verifying cheque correctness. All are important.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 144,
+    "question": "Causes of a dishonored cheque are- i. If the amount is not mentioned on the cheque ii. If the amount in words and figures differs iii. If the amount is written only in words or only in figures on the cheque",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Causes of a dishonored cheque: not mentioning the amount, difference between words and figures, and writing the amount only in words or only in figures. A cheque can be dishonored for all three reasons.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 145,
+    "question": "A bill of exchange can be issued- i. On a specific person ii. On a specific institution iii. On a specific transaction",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "A bill of exchange can be issued on a specific person, a specific institution, or a specific transaction. It is a versatile financial document.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 146,
+    "question": "[Stimulus] Mr. Asif received a cheque for Tk 10,000. The cheque had 'to or order' written on it. When he went to deposit it in his account, the bank informed him that the cheque must be deposited in his account at Northern Bank. What type of cheque did Mr. Asif receive?",
+    "options": {
+      "A": "Endorsed",
+      "B": "Order cheque",
+      "C": "Generally crossed cheque",
+      "D": "Specially crossed cheque"
+    },
+    "answer": "D",
+    "explanation": "Mr. Asif's cheque is a Specially Crossed Cheque, because the bank specified that it must be deposited only in a specific bank (Northern Bank). This is characteristic of special crossing.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 147,
+    "question": "[Stimulus] Mr. Kiran received a Tk 50,000 cheque of Diganta Bank Ltd. from Mr. Himel. He gave the cheque to his manager Mr. Hasan to collect the money. In this cheque, what party is Hasan considered?",
+    "options": {
+      "A": "Drawee",
+      "B": "Endorser",
+      "C": "Drawer",
+      "D": "Holder"
+    },
+    "answer": "D",
+    "explanation": "Mr. Hasan will be considered the Holder of this cheque. Mr. Kiran entrusted the cheque to him, so he is now the lawful holder of the cheque.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 148,
+    "question": "How can the money from the cheque be collected through Mr. Kiran's bank account?",
+    "options": {
+      "A": "Endorsement of the cheque",
+      "B": "Encashment of the cheque",
+      "C": "Dishonor of the cheque",
+      "D": "Crossing of the cheque"
+    },
+    "answer": "A",
+    "explanation": "To collect the money from the cheque through Mr. Kiran's bank account, the cheque must be endorsed. As the payee, he will sign on the back of the cheque to endorse it.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 149,
+    "question": "[Stimulus] Mrs. Tuli is a working woman... the bank rejected the cheque because it was torn... Why did the bank reject Mrs. Tuli's cheque?",
+    "options": {
+      "A": "To prevent forgery and fraud",
+      "B": "For security",
+      "C": "Due to a court injunction",
+      "D": "In the bank's interest"
+    },
+    "answer": "A",
+    "explanation": "A torn cheque raises suspicion of forgery and fraud. Therefore, the bank rejected the cheque to prevent forgery and fraud.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 150,
+    "question": "In the case of general crossing, how does Mrs. Tuli collect the money?",
+    "options": {
+      "A": "By depositing the cheque into her bank account",
+      "B": "By depositing the cheque into the depositor's account",
+      "C": "By depositing the cheque into the bank's specific account",
+      "D": "By depositing the cheque through a specific bank"
+    },
+    "answer": "A",
+    "explanation": "In the case of a generally crossed (General Crossing) cheque, Mrs. Tuli can collect the money by depositing the cheque into her own bank account. This is the rule of general crossing.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 151,
+    "question": "[Stimulus] Mr. Hasan, to keep his business transactions running, purchased goods and acknowledged the liability to pay, issuing a negotiable credit instrument with a promise. What is the name of the document promising payment issued by Mr. Hasan?",
+    "options": {
+      "A": "Promissory note",
+      "B": "Testimonial",
+      "C": "Bill of Exchange",
+      "D": "Debenture"
+    },
+    "answer": "A",
+    "explanation": "Mr. Hasan purchased goods and acknowledged the liability to pay, issuing a promissory note. It is a written document acknowledging a debt.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 152,
+    "question": "What can be ensured through the promissory document issued by Mr. Hasan?",
+    "options": {
+      "A": "Maximum risk reduction in settling debts and credits",
+      "B": "Payment for purchases",
+      "C": "Business transactions",
+      "D": "Receipt of sales money"
+    },
+    "answer": "A",
+    "explanation": "Through a promissory note, maximum risk in settling debts and credits can be reduced. It serves as legal proof of debt and is admissible in court.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  }
+]

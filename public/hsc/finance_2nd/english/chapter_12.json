@@ -1,0 +1,379 @@
+[
+  {
+    "id": 298,
+    "question": "Which insurance plays a significant role in the expansion of international trade?",
+    "options": {
+      "A": "Life insurance",
+      "B": "Crop insurance",
+      "C": "Marine insurance",
+      "D": "Fire insurance"
+    },
+    "answer": "C",
+    "explanation": "Marine insurance plays a significant role in the expansion of international trade. It is essential for mitigating the risks of transporting goods by sea.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 299,
+    "question": "Where did marine insurance first originate?",
+    "options": {
+      "A": "England",
+      "B": "Italy",
+      "C": "Canada",
+      "D": "America"
+    },
+    "answer": "B",
+    "explanation": "Marine insurance first originated in Italy. The first marine insurance activities began in the Lombardy region of Italy in the 12th century.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 300,
+    "question": "In the case of international business and commerce, which insurance is most used?",
+    "options": {
+      "A": "Marine insurance",
+      "B": "Life insurance",
+      "C": "Fire insurance",
+      "D": "General insurance"
+    },
+    "answer": "A",
+    "explanation": "In international business and commerce, marine insurance is the most used. It is essential for import-export trade by sea.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 301,
+    "question": "What is the insurance taken to protect compensation for ship freight called?",
+    "options": {
+      "A": "Freight insurance",
+      "B": "Marine liability insurance",
+      "C": "Cargo insurance",
+      "D": "Ship insurance"
+    },
+    "answer": "A",
+    "explanation": "The insurance taken to protect compensation for ship freight is called freight insurance. Ship freight is an important financial interest.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 302,
+    "question": "Under which type of insurance does cargo transportation insurance fall?",
+    "options": {
+      "A": "Marine insurance",
+      "B": "Shipping insurance",
+      "C": "Marine liability insurance",
+      "D": "Freight insurance"
+    },
+    "answer": "A",
+    "explanation": "Cargo transportation insurance falls under marine insurance. It provides compensation for losses occurring during the transportation of goods by sea.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 303,
+    "question": "What is another name for an express warranty in marine insurance?",
+    "options": {
+      "A": "Implied",
+      "B": "Expressed",
+      "C": "Undisclosed",
+      "D": "Written"
+    },
+    "answer": "B",
+    "explanation": "Another name for an express warranty in marine insurance is an expressed warranty. It is clearly stated in the policy.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 304,
+    "question": "What is an implied warranty in a marine insurance contract?",
+    "options": {
+      "A": "Date of the sea voyage",
+      "B": "Legality of the insured assets",
+      "C": "Keeping a convoy with",
+      "D": "Seaworthiness of the ship"
+    },
+    "answer": "D",
+    "explanation": "The seaworthiness of the ship is an implied warranty in a marine insurance contract. If the ship is not fit for a sea voyage, the insurance contract may be voided.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 305,
+    "question": "Which is a natural peril?",
+    "options": {
+      "A": "Jettison",
+      "B": "Sea storm",
+      "C": "Pirates",
+      "D": "War ship"
+    },
+    "answer": "B",
+    "explanation": "A sea storm is a natural peril. It is caused by natural forces beyond human control. Jettison and pirates are unnatural perils.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 306,
+    "question": "In the course of a sea voyage, what is the main subject matter in the insurance policy?",
+    "options": {
+      "A": "Route",
+      "B": "Direction of voyage",
+      "C": "Voyage equipment",
+      "D": "Voyage time"
+    },
+    "answer": "A",
+    "explanation": "In the course of a sea voyage, the main subject matter in the insurance policy is the route. The policy specifies which route the ship will follow, and deviating from it may void the contract.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 307,
+    "question": "Loss caused by natural or unnatural causes is called?",
+    "options": {
+      "A": "Marine peril",
+      "B": "Marine loss",
+      "C": "Geographical loss",
+      "D": "Road loss"
+    },
+    "answer": "B",
+    "explanation": "Loss caused by natural or unnatural causes is called marine loss. This is the main type of loss covered under marine insurance.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 308,
+    "question": "Whether marine loss is partial or total, who is obliged to compensate?",
+    "options": {
+      "A": "Insurance company",
+      "B": "Exporter",
+      "C": "Importer",
+      "D": "Ship owner"
+    },
+    "answer": "A",
+    "explanation": "Whether the marine loss is partial or total, the insurance company is obliged to compensate, provided the loss falls within the insurance contract.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 309,
+    "question": "Actual and constructive total loss fall under which insurance?",
+    "options": {
+      "A": "Crop insurance",
+      "B": "Life insurance",
+      "C": "Fire insurance",
+      "D": "Marine insurance"
+    },
+    "answer": "D",
+    "explanation": "Actual and constructive total loss fall under marine insurance. This is a major classification of marine loss.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 310,
+    "question": "In which case is a 'Notice of Abandonment' applicable?",
+    "options": {
+      "A": "Partial loss",
+      "B": "Actual total loss",
+      "C": "Salvage charges",
+      "D": "Constructive total loss"
+    },
+    "answer": "D",
+    "explanation": "A 'Notice of Abandonment' is applicable in the case of constructive total loss. Through this, the insured proposes to abandon the damaged property to the insurer.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 311,
+    "question": "What is another name for jettison?",
+    "options": {
+      "A": "Sacrifice",
+      "B": "Marine peril",
+      "C": "Saving life",
+      "D": "Risk reduction"
+    },
+    "answer": "A",
+    "explanation": "Another name for jettison is sacrifice. It refers to deliberately throwing goods overboard to save the ship.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 312,
+    "question": "What can be the purpose of sacrifice (jettison)?",
+    "options": {
+      "A": "Saving the ship",
+      "B": "Saving time",
+      "C": "Protecting the owner",
+      "D": "Increasing risk"
+    },
+    "answer": "A",
+    "explanation": "The purpose of sacrifice (jettison) is to save the ship. Some goods are deliberately thrown into the sea to save the ship and remaining goods.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 313,
+    "question": "Who compensates for particular partial loss of freight?",
+    "options": {
+      "A": "Ship owner",
+      "B": "Exporter",
+      "C": "Importer",
+      "D": "Insurer"
+    },
+    "answer": "D",
+    "explanation": "The insurer compensates for particular partial loss of freight. This type of loss is covered under the marine insurance contract.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 314,
+    "question": "What is the value of salvaged items like?",
+    "options": {
+      "A": "Low",
+      "B": "High",
+      "C": "Negligible",
+      "D": "Moderate"
+    },
+    "answer": "A",
+    "explanation": "The value of salvaged items is low because they are in a damaged or used condition. The amount obtained from selling salvaged property is deducted from the insurance claim.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 315,
+    "question": "For resolving which type of loss must specific rules be followed?",
+    "options": {
+      "A": "Partial loss",
+      "B": "Particular loss",
+      "C": "General loss",
+      "D": "Marine loss"
+    },
+    "answer": "A",
+    "explanation": "For resolving partial loss, specific rules must be followed. There are specific rules for settling partial loss in marine insurance.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 316,
+    "question": "What is the importance of considering the policy in determining the amount of total loss?",
+    "options": {
+      "A": "The policy mentions the contract terms",
+      "B": "Loss determination becomes faster",
+      "C": "Loss is reduced",
+      "D": "Insurance claim is settled"
+    },
+    "answer": "A",
+    "explanation": "In determining the amount of total loss, it is important that the policy mentions the contract terms, as compensation is determined according to the contract terms.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 317,
+    "question": "The formula called 'combined proportional loss' is a formula for which type of policy?",
+    "options": {
+      "A": "Valued",
+      "B": "Shipping",
+      "C": "Unvalued",
+      "D": "Nominal"
+    },
+    "answer": "C",
+    "explanation": "The 'combined proportional loss' formula is a formula for an unvalued policy. In this policy, the amount of loss is determined proportionally.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 318,
+    "question": "Interests involved in a sea voyage are- i. The ship's ii. The owner of the goods on the ship's iii. The transport businessman's",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three have interests involved in a sea voyage: the ship, the owners of goods on the ship, and the transport businessman. Therefore, all need marine insurance.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 219,
+    "question": "Causes of unnatural perils are- i. Dishonesty of the captain ii. Carelessness of employees iii. Negligence of the ship owner",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Causes of unnatural perils include the captain's dishonesty, employees' carelessness, and the ship owner's negligence. These are all man-made perils.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 320,
+    "question": "Actual total loss means- i. The subject matter being completely destroyed ii. The insured completely losing ownership of the subject matter iii. Being able to identify part of the subject matter and subsequently recover it",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Actual total loss means the subject matter being completely destroyed or the insured completely losing ownership. If part can be recovered, it is not a total loss.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 321,
+    "question": "Benefits of jettison can be- i. Lightening the ship ii. Saving the ship from sinking iii. Reducing loss of goods",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Benefits of jettison: lightening the ship, saving it from sinking, and reducing the overall loss of goods. All three benefits are correct.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 322,
+    "question": "A ship is valued at Tk 60,00,000, cargo at Tk 40,00,000, and freight at Tk 20,00,000. The proportional rate of the ship, cargo, and freight values will be- i. Ship: Cargo: Freight ii. 52: 1 iii. 3: 2: 1",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "The proportional rate of ship, cargo, and freight is 60:40:20 = 3:2:1. Thus, i & iii are correct. 52:1 is wrong.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 323,
+    "question": "Methods of determining loss in marine insurance are- i. Determining total loss ii. Determining partial loss iii. Determining particular loss",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three methods are used to determine loss in marine insurance: total loss, partial loss, and particular loss.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 324,
+    "question": "[Stimulus] Mr. Ruhul exports tea. He insures the exported tea... the ship was detained by the police at the port due to some illegal goods... the insurer refused to bear the contract liability. Mr. Ruhul's confirmation of the legality of his goods is what type of warranty?",
+    "options": {
+      "A": "Express",
+      "B": "Implied",
+      "C": "Written",
+      "D": "Oral"
+    },
+    "answer": "B",
+    "explanation": "Confirmation of the legality of goods is an implied warranty. The legality of goods is an unwritten but essential condition in a marine insurance contract.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 325,
+    "question": "[Stimulus] A ship worth Tk 50,000,000 started its voyage loaded with Tk 30,000,000 of goods... All goods were jettisoned into the sea to save the ship. What type of loss does the jettison of the ship create?",
+    "options": {
+      "A": "Total",
+      "B": "Partial",
+      "C": "General average",
+      "D": "Particular"
+    },
+    "answer": "C",
+    "explanation": "When goods are intentionally jettisoned to save the ship, it is known as general average loss. In this case, all parties bear the loss proportionately.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  },
+  {
+    "id": 326,
+    "question": "In the stimulus, what will be the amount of the ship's general average loss?",
+    "options": {
+      "A": "Tk 60,000,000",
+      "B": "Tk 50,000,000",
+      "C": "Tk 30,000,000",
+      "D": "Tk 20,000,000"
+    },
+    "answer": "C",
+    "explanation": "The value of the goods jettisoned completely is Tk 30,000,000. This will be considered a general average loss and will be borne proportionately by the ship owner, cargo owner, and freight owner.",
+    "source": "Finance, Banking & Insurance, Chapter-12"
+  }
+]

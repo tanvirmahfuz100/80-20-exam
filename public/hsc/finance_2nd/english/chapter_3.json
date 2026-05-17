@@ -1,0 +1,288 @@
+[
+  {
+    "id": 49,
+    "question": "Who is the author of 'Banker to the Poor'?",
+    "options": {
+      "A": "Alan Jonia",
+      "B": "Dr. Muhammad Yunus",
+      "C": "Michael Callis",
+      "D": "Saleh Uddin Ahmed"
+    },
+    "answer": "B",
+    "explanation": "Dr. Muhammad Yunus is the author of 'Banker to the Poor'. It is an autobiographical book describing the Grameen Bank and microcredit program.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 50,
+    "question": "How many state-owned commercial banks are there in Bangladesh?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "answer": "C",
+    "explanation": "There are 6 state-owned commercial banks in Bangladesh: Sonali, Janata, Agrani, Rupali, Bangladesh Development Bank (BDBL), and Basic Bank.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 51,
+    "question": "What is the ability to pay dues on demand called?",
+    "options": {
+      "A": "Liquidity policy",
+      "B": "Solvency policy",
+      "C": "Honesty policy",
+      "D": "Service policy"
+    },
+    "answer": "A",
+    "explanation": "The ability to pay dues on demand is called liquidity. A bank's liquidity policy ensures that money can be paid to customers whenever demanded.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 52,
+    "question": "What is the current liquidity ratio of commercial banks?",
+    "options": {
+      "A": "17%",
+      "B": "18.5%",
+      "C": "19%",
+      "D": "20%"
+    },
+    "answer": "C",
+    "explanation": "Currently, the statutory liquidity ratio (SLR) of commercial banks is 19%. Of this, CRR is 4% and the remaining 15% must be invested in various approved securities.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 53,
+    "question": "What type of asset is goodwill?",
+    "options": {
+      "A": "Tangible",
+      "B": "Fixed",
+      "C": "Intangible",
+      "D": "Current"
+    },
+    "answer": "C",
+    "explanation": "Goodwill is an intangible asset. It is the difference between an institution's market value and net asset value, which cannot be seen or touched.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 54,
+    "question": "What does every loan create?",
+    "options": {
+      "A": "Interest",
+      "B": "Deposit",
+      "C": "Profit",
+      "D": "Investment"
+    },
+    "answer": "B",
+    "explanation": "Every loan creates a deposit. When a bank gives a loan, a new deposit is created in the borrower's account. This is the core of the 'credit creation' theory of banking.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 55,
+    "question": "Which is a commercial credit document?",
+    "options": {
+      "A": "Cheque",
+      "B": "Letter of Credit",
+      "C": "Bill of Exchange",
+      "D": "Draft"
+    },
+    "answer": "B",
+    "explanation": "A Letter of Credit (L/C) is a commercial credit document. It is used in international trade where the bank guarantees payment to the exporter on behalf of the importer.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 56,
+    "question": "How many parties are involved with a bank draft?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "C",
+    "explanation": "Three parties are involved in a bank draft: 1. Issuing bank (Drawer), 2. Payee (Recipient), and 3. Paying bank (Drawee). It is a type of secure payment medium issued by a bank.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 57,
+    "question": "What does PIN mean?",
+    "options": {
+      "A": "Private Informational Number",
+      "B": "Proportion of Identification Number",
+      "C": "Personal Information Number",
+      "D": "Personal Identification Number"
+    },
+    "answer": "D",
+    "explanation": "PIN stands for Personal Identification Number. It is a secret number that ensures security when using ATM, debit, and credit cards.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 58,
+    "question": "What does a commercial bank provide for conducting business and commerce?",
+    "options": {
+      "A": "Short-term loans",
+      "B": "Dividends",
+      "C": "Money from share sales",
+      "D": "Loan interest"
+    },
+    "answer": "A",
+    "explanation": "A commercial bank provides short-term loans for conducting business and commerce. Overdrafts, cash credit, etc. are examples of short-term loans.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 59,
+    "question": "Why is a commercial bank called the hub of the money market?",
+    "options": {
+      "A": "This bank works as the main bank of a country",
+      "B": "The country's economy revolves around this bank",
+      "C": "This bank creates easy exchange media",
+      "D": "This bank helps in buying and selling shares"
+    },
+    "answer": "C",
+    "explanation": "A commercial bank creates easy exchange media (through cheques, drafts, pay orders, etc.), so it is called the hub of the money market.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 60,
+    "question": "How does a commercial bank provide patronage support to the industrial sector?",
+    "options": {
+      "A": "Product selection",
+      "B": "Product quality improvement",
+      "C": "Creating entrepreneurs",
+      "D": "Entrepreneur training"
+    },
+    "answer": "C",
+    "explanation": "A commercial bank provides patronage support to the industrial sector by creating entrepreneurs. Through loans, it helps create new industrialists and contributes to industrialization.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 61,
+    "question": "The strategy of a commercial bank in creating credit deposits is- i. Bill discounting ii. Investment iii. Credit control",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "A commercial bank creates credit deposits through bill discounting and investment. Credit control is the central bank's function, not the commercial bank's.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 62,
+    "question": "A commercial bank can receive payment for issued traveler's cheques from- i. Commercial bank branches ii. ATM booths under the commercial bank iii. Commercial bank representatives",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Payment for traveler's cheques can be received from bank branches, ATM booths, and bank representatives. Money can be obtained through all three channels.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 63,
+    "question": "In a pay order, the same branch of the bank involves- i. Drawer ii. Payee iii. Maker",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "In a pay order, the drawer and payee belong to the same branch of the bank. The maker is a different party. A pay order is a medium for transferring money within the same branch.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 64,
+    "question": "The modern services provided by commercial banks are- i. Locker rental ii. ATM booths iii. Online banking",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Modern commercial bank services include locker rental, ATM booths, and online banking. All are part of customer service.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 65,
+    "question": "[Stimulus] Mr. Rahmat is a goldsmith. He stores people's gold ornaments and provides them a specific amount of money as a loan in exchange, and returns the gold ornaments on demand after a specified time. Which type of institution's activities does Mr. Rahmat's work resemble?",
+    "options": {
+      "A": "Commercial bank",
+      "B": "Government bank",
+      "C": "Central bank",
+      "D": "Insurance company"
+    },
+    "answer": "A",
+    "explanation": "Mr. Rahmat's activities (storing valuables and providing loans) resemble the original activities of a commercial bank. In ancient times, goldsmiths provided banking services.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 66,
+    "question": "People of the class like Mr. Rahmat influenced the formation of commercial banks- i. Through keeping deposits ii. Through providing loans iii. Through adopting controlling activities in providing loans",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Goldsmiths laid the foundation of the modern banking system by keeping deposits and providing loans. Controlling activities came later through the central bank.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 67,
+    "question": "[Stimulus] Prominent businessman Shahadat always transacts through a bank. He is thinking of contacting another bank for investment purposes. What type of bank does Mr. Shahadat transact with?",
+    "options": {
+      "A": "Specialized bank",
+      "B": "Merchant bank",
+      "C": "Commercial bank",
+      "D": "Mixed bank"
+    },
+    "answer": "C",
+    "explanation": "Mr. Shahadat transacts with a commercial bank, as daily transactions, deposits, and loan services are the main functions of a commercial bank.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 68,
+    "question": "For investment purposes, what type of bank can Mr. Shahadat benefit from?",
+    "options": {
+      "A": "Commercial bank",
+      "B": "Cooperative bank",
+      "C": "Merchant bank",
+      "D": "Specialized bank"
+    },
+    "answer": "C",
+    "explanation": "For investment purposes, Mr. Shahadat can benefit from a merchant bank. Merchant banks provide share market, portfolio management, and investment advisory services.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 69,
+    "question": "[Stimulus] Mr. Polok is a businessman... To reduce the risk of carrying cash, he takes assistance from 'K' Bank... Despite other banks being available, why did Mr. Polok seek refuge in 'K' Bank?",
+    "options": {
+      "A": "The bank's system being very efficient",
+      "B": "Creating enthusiasm in business",
+      "C": "Credit control business being good",
+      "D": "Having more reputation compared to other banks"
+    },
+    "answer": "B",
+    "explanation": "Mr. Polok sought refuge in 'K' Bank because it creates enthusiasm in business. The bank not only transfers money but also provides loans and advice for business expansion.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 70,
+    "question": "'K' Bank provides the following type of assistance to Mr. Polok for business expansion- i. Safe money transfer ii. Improvement in living standards iii. Information and advice",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "The bank assists Mr. Polok in business expansion by safely transferring money and providing information and advice. Improvement in living standards is not direct assistance.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  }
+]

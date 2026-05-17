@@ -1,0 +1,535 @@
+[
+  {
+    "id": 171,
+    "question": "What is the primary objective of foreign exchange control?",
+    "options": {
+      "A": "Reducing imports",
+      "B": "Maintaining the value of domestic currency",
+      "C": "Preventing exports",
+      "D": "Helping other countries"
+    },
+    "answer": "B",
+    "explanation": "The primary objective of foreign exchange control is to maintain the value of domestic currency. Through this, the central bank prevents excessive fluctuation of the domestic currency in the international market.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 172,
+    "question": "In which method of foreign trade financing does the bank provide 100% financing to the exporter?",
+    "options": {
+      "A": "Factoring",
+      "B": "Forfaiting",
+      "C": "Leasing",
+      "D": "Bond"
+    },
+    "answer": "B",
+    "explanation": "In forfaiting, the bank (forfaiter) provides 100% financing to the exporter by purchasing the export bills without recourse.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 173,
+    "question": "What is the full form of SWIFT?",
+    "options": {
+      "A": "Society for Worldwide International Financial Telecommunication",
+      "B": "Society for Worldwide Interbank Financial Telecommunication",
+      "C": "System for Worldwide Interbank Financial Telecommunication",
+      "D": "Society for Worldwide Internal Financial Telecommunication"
+    },
+    "answer": "B",
+    "explanation": "SWIFT stands for Society for Worldwide Interbank Financial Telecommunication. It is a secure global messaging network for financial institutions.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 174,
+    "question": "Which of the following is considered an invisible export?",
+    "options": {
+      "A": "Garments",
+      "B": "Jute products",
+      "C": "Tourism services",
+      "D": "Frozen fish"
+    },
+    "answer": "C",
+    "explanation": "Tourism services are considered invisible exports because they earn foreign currency through services rather than physical goods.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 175,
+    "question": "Who is the primary authority for controlling foreign exchange in Bangladesh?",
+    "options": {
+      "A": "Ministry of Commerce",
+      "B": "Ministry of Finance",
+      "C": "Bangladesh Bank",
+      "D": "Export Promotion Bureau"
+    },
+    "answer": "C",
+    "explanation": "Bangladesh Bank, as the central bank, is the primary authority for controlling and managing foreign exchange in Bangladesh.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 176,
+    "question": "What is 'Devaluation' of currency?",
+    "options": {
+      "A": "Increasing the value of domestic currency compared to foreign currency",
+      "B": "Reducing the value of domestic currency compared to foreign currency",
+      "C": "Keeping the currency value stable",
+      "D": "Abolishing the currency"
+    },
+    "answer": "B",
+    "explanation": "Devaluation is the intentional reduction of the value of domestic currency compared to foreign currency by the government. It is often done to increase exports.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 177,
+    "question": "What is the main objective of a Letter of Credit (L/C)?",
+    "options": {
+      "A": "Granting loan to importer",
+      "B": "Guaranteeing payment to exporter",
+      "C": "Reducing tax",
+      "D": "Controlling market"
+    },
+    "answer": "B",
+    "explanation": "The main objective of a Letter of Credit (L/C) is to guarantee payment to the exporter. The importer's bank provides this guarantee to the exporter.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 178,
+    "question": "Which L/C can be canceled by the issuing bank at any time without prior notice to the exporter?",
+    "options": {
+      "A": "Irrevocable L/C",
+      "B": "Revocable L/C",
+      "C": "Confirmed L/C",
+      "D": "Transferable L/C"
+    },
+    "answer": "B",
+    "explanation": "A Revocable L/C can be canceled or amended by the issuing bank at any time without prior notice to the exporter. It is less secure for the exporter.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 179,
+    "question": "What is a 'Bill of Lading'?",
+    "options": {
+      "A": "Document for claiming insurance",
+      "B": "Document for receiving goods from the ship",
+      "C": "Document for clearing customs",
+      "D": "Document for bank loan"
+    },
+    "answer": "B",
+    "explanation": "A Bill of Lading is a document issued by the carrier (shipping company) to the exporter, which acts as a receipt of goods and a document of title to the goods.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 180,
+    "question": "In which country was the first L/C introduced?",
+    "options": {
+      "A": "England",
+      "B": "United States",
+      "C": "France",
+      "D": "Italy"
+    },
+    "answer": "D",
+    "explanation": "The first concept of Letter of Credit (L/C) is believed to have originated in Italy during the Middle Ages to facilitate trade between different cities.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 181,
+    "question": "Foreign exchange rate depends on- i. Demand for foreign currency ii. Supply of foreign currency iii. Political situation",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The foreign exchange rate depends on the demand and supply of foreign currency as well as the political and economic situation of the country.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 182,
+    "question": "Visible imports include- i. Machinery ii. Raw materials iii. Consultancy services",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Machinery and raw materials are visible imports as they are physical goods. Consultancy services are invisible imports.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 183,
+    "question": "Methods of foreign exchange control are- i. Quantitative method ii. Qualitative method iii. Mixed method",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Foreign exchange control can be done through quantitative, qualitative, and mixed methods. These methods help in managing the country's foreign exchange reserves.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 184,
+    "question": "[Stimulus] Mr. Rahim wants to import cars from Japan. He applied to a bank to open an L/C. The bank asked him for some documents... Which of the following is not required for opening an L/C?",
+    "options": {
+      "A": "Import license",
+      "B": "Proforma invoice",
+      "C": "Insurance cover note",
+      "D": "Birth certificate"
+    },
+    "answer": "D",
+    "explanation": "A birth certificate is not required for opening a commercial L/C. Import license, proforma invoice, and insurance cover note are mandatory documents.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 185,
+    "question": "Which party provides the guarantee in an L/C?",
+    "options": {
+      "A": "Importer",
+      "B": "Exporter",
+      "C": "Issuing Bank",
+      "D": "Advising Bank"
+    },
+    "answer": "C",
+    "explanation": "The Issuing Bank (importer's bank) provides the guarantee of payment to the exporter in an L/C.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 186,
+    "question": "What is the full form of LIBOR?",
+    "options": {
+      "A": "London Interbank Offered Rate",
+      "B": "London International Offered Rate",
+      "C": "London Internal Offered Rate",
+      "D": "London Investment Offered Rate"
+    },
+    "answer": "A",
+    "explanation": "LIBOR stands for London Interbank Offered Rate. It is a benchmark interest rate at which major global banks lend to one another.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 187,
+    "question": "Currency 'Convertibility' means- i. Freedom to convert domestic currency into foreign currency ii. Freedom to convert foreign currency into domestic currency iii. Restriction on currency exchange",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Currency convertibility means the freedom to convert domestic currency into foreign currency and vice versa for various transactions.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 188,
+    "question": "Factors affecting the exchange rate are- i. Inflation ii. Interest rate iii. Balance of trade",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Inflation, interest rates, and the balance of trade are all major factors that influence the foreign exchange rate of a country's currency.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 189,
+    "question": "Which bank was established to promote international trade and financial stability?",
+    "options": {
+      "A": "World Bank",
+      "B": "IMF",
+      "C": "ADB",
+      "D": "IDB"
+    },
+    "answer": "B",
+    "explanation": "The IMF (International Monetary Fund) was established to promote international monetary cooperation, exchange stability, and orderly exchange arrangements.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 190,
+    "question": "What is 'Arbitrage'?",
+    "options": {
+      "A": "Buying and selling of currency in different markets to profit from price differences",
+      "B": "Controlling the exchange rate",
+      "C": "Lending to foreign countries",
+      "D": "Insuring foreign trade"
+    },
+    "answer": "A",
+    "explanation": "Arbitrage is the practice of simultaneously buying and selling a currency in different markets to take advantage of price differences and earn profit.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 191,
+    "question": "The currency of Japan is called-",
+    "options": {
+      "A": "Yuan",
+      "B": "Yen",
+      "C": "Won",
+      "D": "Rial"
+    },
+    "answer": "B",
+    "explanation": "The official currency of Japan is the Yen (JPY). Yuan is Chinese, Won is Korean, and Rial is used by several Middle Eastern countries.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 192,
+    "question": "Exchange rate can be determined by- i. Purchasing Power Parity Theory ii. Balance of Payments Theory iii. Mint Parity Theory",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Purchasing Power Parity, Balance of Payments, and Mint Parity are all established theories for determining the exchange rate between currencies.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 193,
+    "question": "In which city is the headquarters of SWIFT located?",
+    "options": {
+      "A": "London",
+      "B": "New York",
+      "C": "La Hulpe (Belgium)",
+      "D": "Zurich"
+    },
+    "answer": "C",
+    "explanation": "The headquarters of SWIFT is located in La Hulpe, Belgium, near Brussels.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 194,
+    "question": "A 'Clean L/C' is an L/C where-",
+    "options": {
+      "A": "Payment is made against shipping documents",
+      "B": "Payment is made without any shipping documents",
+      "C": "Payment is made only in cash",
+      "D": "Payment is made after one year"
+    },
+    "answer": "B",
+    "explanation": "A Clean L/C is one where the bank pays the exporter against a simple draft without requiring any shipping documents. It is based on high trust.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 195,
+    "question": "What is the full form of ACU?",
+    "options": {
+      "A": "Asian Currency Unit",
+      "B": "Asian Clearing Union",
+      "C": "Asian Common Union",
+      "D": "Asian Credit Union"
+    },
+    "answer": "B",
+    "explanation": "ACU stands for Asian Clearing Union. It is a regional payment arrangement for settling transactions among member central banks in Asia.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 196,
+    "question": "Reasons for exchange rate fluctuation are- i. Changes in bank rate ii. Changes in political situation iii. Changes in gold price",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Changes in bank rates, political situation, and gold prices are all factors that cause fluctuations in the foreign exchange rate.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 197,
+    "question": "Foreign exchange control can be implemented through- i. Direct method ii. Indirect method iii. Mixed method",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The central bank can implement foreign exchange control through direct, indirect, or mixed methods. All three approaches are used depending on the situation.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 198,
+    "question": "As a result of inflation- i. The value of domestic currency increases ii. The supply of money increases iii. The price of export goods decreases",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "As a result of inflation, the supply of money increases (ii) and the price of export goods decreases (iii). However, the value of domestic currency does not increase, rather it decreases (i is wrong).",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 199,
+    "question": "Characteristics of factoring are- i. Period of 180 days ii. Provided against receivables iii. Specified amount of money",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Characteristics of factoring: a period of 180 days, provided against receivables, and a specified amount of money. All three characteristics are correct.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 200,
+    "question": "Benefits for the exporter through forfaiting are- i. 100% financing ii. Guarantee of receiving the product price iii. Increased liquidity opportunity",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Through forfaiting, the exporter gets 100% financing, guarantee of receiving the product price, and increased liquidity. All three benefits are correct.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 201,
+    "question": "[Stimulus] Mr. Sujan, as an exporter, received a letter of credit from a bank as a guarantee of bill acceptance and payment... Which of the following is consistent with this L/C- i. This L/C cannot be canceled before maturity ii. It guarantees acceptance and payment of the exporter's bill iii. This L/C can be canceled before maturity",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "An Irrevocable L/C cannot be canceled before maturity (i) and it guarantees payment to the exporter (ii). i & ii are correct, iii is wrong.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 202,
+    "question": "In a red clause advance L/C, advance money can be taken for- i. Freight ii. Insurance iii. Shipping expenses",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "In a Red Clause L/C, advance money can be taken for freight, insurance, and shipping expenses. This is a special facility for the exporter.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 203,
+    "question": "Remittances come to Bangladesh from various countries. As a result of remittances, the following are affected- i. National economy ii. Rural economy iii. Global economy",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Remittances affect the national economy and rural economy. There is no direct impact on the global economy.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 204,
+    "question": "[Stimulus] Rakib learned from his textbook that the exchange rate is determined based on the surplus of debts and credits between Bangladesh and America... Which method of exchange rate determination does the method mentioned in Rakib's textbook resemble?",
+    "options": {
+      "A": "Balance of Payments Theory",
+      "B": "Purchasing Power Parity Theory",
+      "C": "Paper Currency Standard Method",
+      "D": "Gold Standard Method"
+    },
+    "answer": "A",
+    "explanation": "Determining the exchange rate based on the surplus of debts and credits resembles the Balance of Payments Theory.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 205,
+    "question": "Through his textbook, Rakib learned about the following difficulties in determining the exchange rate between Bangladesh and America- i. Adversity of surplus ii. Equality of demand and supply iii. Increase and decrease of demand and supply",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "The difficulties of the Balance of Payments Theory are the adversity of surplus and the increase and decrease of demand and supply. Equality of demand and supply (ii) is the basic foundation of this method, not a difficulty.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 206,
+    "question": "[Stimulus] Shahadat is engaged in import-export business. A new exporter is not getting assurance of selling goods to Shahadat... In this situation, which document does Shahadat need?",
+    "options": {
+      "A": "Letter of credit",
+      "B": "Pay order",
+      "C": "Bank draft",
+      "D": "Bank guarantee"
+    },
+    "answer": "A",
+    "explanation": "In this situation, Shahadat needs a Letter of Credit (L/C). Through it, the bank guarantees payment to the exporter on behalf of the importer.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 207,
+    "question": "Characteristics of the document used by Shahadat are- i. Guarantee of payment ii. Non-transferable iii. Provision of collateral",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "A letter of credit provides a guarantee of payment (i) and is used as collateral (iii). However, it is transferable (ii is wrong).",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 208,
+    "question": "[Stimulus] Saif accepted a letter of credit that guarantees and acknowledges payment of the exporter's bill... What type of L/C did Saif accept?",
+    "options": {
+      "A": "Confirmed L/C",
+      "B": "Unconfirmed L/C",
+      "C": "Open L/C",
+      "D": "Fixed L/C"
+    },
+    "answer": "A",
+    "explanation": "Saif accepted a Confirmed L/C, which guarantees the exporter's bill and acknowledges payment.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 209,
+    "question": "Characteristics of the L/C accepted by Akash are- i. Has a general promise ii. The guarantee of the L/C can be canceled iii. Transferable",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Characteristics of an Unconfirmed L/C: the guarantee can be canceled (ii) and it is transferable (iii). It does not have a general promise.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 210,
+    "question": "[Stimulus] Mizan's brother deposited money including fees into a bank to cover Mizan's study expenses abroad. The bank gave a secret code number... By what method was the money sent to Mizan?",
+    "options": {
+      "A": "Telegraphic transfer",
+      "B": "Postal transfer",
+      "C": "E-mail",
+      "D": "SWIFT"
+    },
+    "answer": "D",
+    "explanation": "The money was sent to Mizan via the SWIFT method. The secret code number and rapid transfer of money are characteristics of SWIFT.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  },
+  {
+    "id": 211,
+    "question": "How can Mizan receive the money without showing documents?",
+    "options": {
+      "A": "By opening a bank account",
+      "B": "By e-mail",
+      "C": "By keeping good relations",
+      "D": "By requesting a bank in Bangladesh"
+    },
+    "answer": "A",
+    "explanation": "Mizan can receive the money sent through SWIFT without showing documents by opening a bank account.",
+    "source": "Finance, Banking & Insurance, Chapter-8"
+  }
+]

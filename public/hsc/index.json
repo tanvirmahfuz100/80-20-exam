@@ -619,6 +619,20 @@
           ],
           "name_bn": "অধ্যায় ১৩: অগ্নি বিমা",
           "name_en": "Chapter 13: Fire Insurance"
+        },
+        {
+          "id": "chapter_14",
+          "name": "Chapter 14",
+          "chapters": [
+            {
+              "id": "hsc_fin2_ch14",
+              "name": "Chapter 14 Questions",
+              "file_bn": "/hsc/finance_2nd/chapter_14.json",
+              "file_en": "/hsc/finance_2nd/english/chapter_14.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১৪: বিবিধ বিমা",
+          "name_en": "Chapter 14: Miscellaneous Insurance"
         }
       ],
       "name_bn": "ফিন্যান্স, ব্যাংকিং ও বিমা ২য় পত্র",

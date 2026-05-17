@@ -1,0 +1,288 @@
+[
+  {
+    "id": 71,
+    "question": "What does the bank do when a depositor deposits money?",
+    "options": {
+      "A": "Debit",
+      "B": "Credit",
+      "C": "Preserve the account",
+      "D": "Write down the amount"
+    },
+    "answer": "B",
+    "explanation": "When a depositor deposits money in the bank, the bank credits their account. According to banking rules, deposited money is recorded as credit and withdrawal as debit.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 72,
+    "question": "What is the validity period of a cheque?",
+    "options": {
+      "A": "30 days",
+      "B": "90 days",
+      "C": "120 days",
+      "D": "180 days"
+    },
+    "answer": "D",
+    "explanation": "A cheque is valid for 180 days (6 months). If a cheque is not presented within 180 days from the date of issue, it becomes a stale cheque and the bank may refuse payment.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 73,
+    "question": "Through which account can a businessman deposit and withdraw money as many times as desired?",
+    "options": {
+      "A": "Current account",
+      "B": "Savings account",
+      "C": "Fixed account",
+      "D": "Special current account"
+    },
+    "answer": "A",
+    "explanation": "Through a current account, a businessman can deposit and withdraw money as many times as desired. This account does not pay interest and has no transaction limit.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 74,
+    "question": "After collecting specimen signatures, what must the depositor deposit with the bank?",
+    "options": {
+      "A": "Minimum amount of money",
+      "B": "Documents",
+      "C": "Specimen signature card",
+      "D": "Photograph"
+    },
+    "answer": "A",
+    "explanation": "After submitting the specimen signature card, the depositor must open the account by depositing a minimum amount of money with the bank. Each account type has a specific minimum deposit requirement.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 75,
+    "question": "What does KYC mean?",
+    "options": {
+      "A": "Know your consumer",
+      "B": "Know your customer",
+      "C": "Knock your customer",
+      "D": "Knock your consumer"
+    },
+    "answer": "B",
+    "explanation": "KYC stands for Know Your Customer. It is a process through which the bank determines the customer's identity, financial condition, and risk profile.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 76,
+    "question": "How is withdrawn money treated in the depositor's account?",
+    "options": {
+      "A": "Debited",
+      "B": "Credited",
+      "C": "Deducted",
+      "D": "Preserved"
+    },
+    "answer": "A",
+    "explanation": "Withdrawn money is debited from the depositor's account. According to bank accounting rules, withdrawing money reduces the credit balance, which is recorded as debit.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 77,
+    "question": "Above what amount of withdrawal from a current account requires advance notice?",
+    "options": {
+      "A": "10 lakh",
+      "B": "4 lakh",
+      "C": "5 lakh",
+      "D": "No notice required"
+    },
+    "answer": "D",
+    "explanation": "No advance notice is required for withdrawing any amount from a current account. This is a special advantage of the current account, making it suitable for daily business transactions.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 78,
+    "question": "Which account allows unlimited deposits and withdrawals on a working day?",
+    "options": {
+      "A": "Current account",
+      "B": "Fixed account",
+      "C": "Savings account",
+      "D": "Loan deposit account"
+    },
+    "answer": "A",
+    "explanation": "The current account allows unlimited deposits and withdrawals on a working day. This account is particularly suitable for businessmen.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 79,
+    "question": "For whom are bank branches opened in industrial areas?",
+    "options": {
+      "A": "Workers",
+      "B": "Women",
+      "C": "Housewives",
+      "D": "Students"
+    },
+    "answer": "A",
+    "explanation": "Bank branches are opened in industrial areas for workers. These branches are established for the convenience of their salary deposits, savings, and financial transactions.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 80,
+    "question": "Mr. Shafiq is a retired government officer. He opened a fixed account with Jamuna Bank with Tk 10,00,000 of his pension. Due to business needs, he requires a loan and will receive up to 80% loan facility. How much can Mr. Shafiq borrow?",
+    "options": {
+      "A": "Tk 4,00,000",
+      "B": "Tk 6,00,000",
+      "C": "Tk 8,00,000",
+      "D": "Tk 7,00,000"
+    },
+    "answer": "C",
+    "explanation": "Mr. Shafiq can borrow 80% of Tk 10,00,000, which is Tk 8,00,000. Against the collateral of a fixed deposit account, generally up to 80% loan facility is available.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 81,
+    "question": "What type of relationship exists between the bank and the client?",
+    "options": {
+      "A": "Trust",
+      "B": "Confidential",
+      "C": "Compensation",
+      "D": "Transactional"
+    },
+    "answer": "A",
+    "explanation": "A fiduciary or trust-based relationship exists between the bank and the client. The client entrusts money to the bank, and the bank is obliged to honor that trust.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 82,
+    "question": "Documents used in international trade are- i. Bill of exchange ii. Letter of credit iii. Insurance policy",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "In international trade, bills of exchange, letters of credit (L/C), and insurance policies are all used. These documents ensure the security and reliability of international transactions.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 83,
+    "question": "If the applicant is an individual, the following must be submitted with the application- i. Passport size photograph ii. Photocopy of national ID card iii. Cheque book",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "To open an individual account, a passport size photograph and a photocopy of the national ID card must be submitted with the application. A cheque book is provided after the account is opened.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 84,
+    "question": "Through the KYC form, accounts can be classified as- i. Risky accounts ii. Less risky accounts iii. Risk-free accounts",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Through the KYC form, accounts can be classified into three categories: risky, less risky, and risk-free. This is determined based on the customer's financial transactions and profile.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 85,
+    "question": "At the time of closing an account, the depositor must submit to the bank- i. Pass book ii. Cheque book iii. Money deposit receipts",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "At the time of closing an account, the depositor must submit the pass book, unused cheque book, and money deposit receipts to the bank. All are necessary for account closure.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 86,
+    "question": "Factors to consider when selecting a bank account are- i. Interest amount ii. Full withdrawal of money iii. Loan facility",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "When selecting a bank account, the interest amount, the facility to withdraw all money, and loan facilities must be considered. These factors gain importance according to the customer's needs.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 87,
+    "question": "[Stimulus] Mr. Ahmed is a government employee. Upon retirement, he received a lump sum of money, which he wants to deposit in a bank for his family members. Which account is most suitable for Mr. Ahmed?",
+    "options": {
+      "A": "Current account",
+      "B": "Savings account",
+      "C": "Fixed account",
+      "D": "Special current account"
+    },
+    "answer": "C",
+    "explanation": "Mr. Ahmed wants to keep money for a long term, so a Fixed Deposit Account is suitable for him. It offers comparatively higher interest.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 88,
+    "question": "One of the main reasons for Mr. Ahmed to keep money in a fixed account is- i. Income opportunity ii. Loan facility iii. Capital growth",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Reasons for keeping money in a fixed account include: income opportunity (high interest), loan facility (use as collateral), and capital growth. All are advantages of this account.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 89,
+    "question": "[Stimulus] Mr. Masud went to open an institutional account. The bank told him he must open a current account. For this, a memorandum of association must also be submitted along with other documents. What type of institution is Mr. Masud's?",
+    "options": {
+      "A": "Sole proprietorship",
+      "B": "Partnership",
+      "C": "Company",
+      "D": "Non-business"
+    },
+    "answer": "C",
+    "explanation": "A Memorandum of Association must be submitted when opening a company account. Therefore, Mr. Masud's institution is a company.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 90,
+    "question": "To open this account, the documents Masud must submit are- i. Copy of resolution ii. Articles of association iii. Trade license",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "To open a company account, a copy of the resolution (Board Resolution), Articles of Association, and Trade License must be submitted. All are necessary documents.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 91,
+    "question": "[Stimulus] Mr. Jamal Hossain opened an account in a bank hoping to receive banking services. From this account, he receives various services. These services are not available from other accounts. What is the name of Mr. Jamal's account?",
+    "options": {
+      "A": "Current account",
+      "B": "Fixed account",
+      "C": "Savings account",
+      "D": "Special current account"
+    },
+    "answer": "A",
+    "explanation": "Mr. Jamal is using a current account, which provides the maximum services. Services like bill payment, fund collection, and L/C issuance are available in a current account.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  },
+  {
+    "id": 92,
+    "question": "The services Mr. Jamal Hossain receives are- i. Bill payment ii. Fund collection iii. Letter of credit issuance",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Through the current account, Mr. Jamal receives various services including bill payment, fund collection, and letter of credit issuance. The current account is best for business transactions.",
+    "source": "Finance, Banking & Insurance, Chapter-4"
+  }
+]
