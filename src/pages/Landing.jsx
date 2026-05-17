@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Star, ShieldCheck, Zap, BookOpen, GraduationCap, Users } from 'lucide-react';
 const Landing = () => {
@@ -78,24 +78,7 @@ const Landing = () => {
                 {/* Exams Selector */}
                 <div className="max-w-7xl mx-auto px-6 py-24">
                     <h3 className="text-3xl font-black text-white mb-6 uppercase">Choose Your Exam</h3>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-                        {[
-                            { id: 'ssc', name: 'SSC' },
-                            { id: 'hsc', name: 'HSC' },
-                            { id: 'iba', name: 'IBA' },
-                            { id: 'bcs', name: 'BCS' }
-                        ].map(exam => (
-                            <Link key={exam.id} to={`/practice?category=${exam.id.toUpperCase()}`} className="p-6 rounded-2xl bg-surface border border-white/5 hover:border-primary transition-all flex items-center justify-between">
-                                <div>
-                                    <h4 className="text-xl font-black">{exam.name}</h4>
-                                    <p className="text-xs text-white/30 uppercase tracking-widest mt-1">Start practicing {exam.name} lessons</p>
-                                </div>
-                                <div className="flex items-center justify-center w-12 h-12 bg-primary/10 rounded-full">
-                                    <ArrowRight className="w-5 h-5 text-primary" />
-                                </div>
-                            </Link>
-                        ))}
-                    </div>
+                    <ExamTiles />
                 </div>
 
                 {/* Footer Minimal */}
@@ -118,3 +101,42 @@ const Landing = () => {
 };
 
 export default Landing;
+
+const ExamTiles = () => {
+    const [exams, setExams] = useState([]);
+
+    useEffect(() => {
+        const base = import.meta.env.BASE_URL || '/';
+        const candidates = ['ssc', 'iba', 'gmat', 'gre', 'sat', 'hsc', 'bcs'];
+
+        Promise.all(candidates.map(id => {
+            const url = `${base}${id}/index.json`.replace(/\/\/+/, '/');
+            return fetch(url)
+                .then(r => r.ok ? { id, name: id.toUpperCase(), url } : null)
+                .catch(() => null);
+        })).then(results => {
+            const available = results.filter(Boolean);
+            setExams(available);
+        });
+    }, []);
+
+    if (exams.length === 0) return (
+        <div className="text-white/40">No exams available yet.</div>
+    );
+
+    return (
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            {exams.map(exam => (
+                <Link key={exam.id} to={`/practice?category=${exam.id.toUpperCase()}`} className="p-6 rounded-2xl bg-surface border border-white/5 hover:border-primary transition-all flex items-center justify-between">
+                    <div>
+                        <h4 className="text-xl font-black">{exam.name}</h4>
+                        <p className="text-xs text-white/30 uppercase tracking-widest mt-1">Start practicing {exam.name} lessons</p>
+                    </div>
+                    <div className="flex items-center justify-center w-12 h-12 bg-primary/10 rounded-full">
+                        <ArrowRight className="w-5 h-5 text-primary" />
+                    </div>
+                </Link>
+            ))}
+        </div>
+    );
+};
