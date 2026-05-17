@@ -241,6 +241,123 @@
           ]
         }
       ]
+    },
+    {
+      "id": "production_1st",
+      "name": "Production 1st Paper",
+      "icon": "Factory",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1: উৎপাদন",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/production_1st/chapter_1.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2: উৎপাদনের উপকরণ",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/production_1st/chapter_2.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3: উৎপাদনের মাত্রা",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/production_1st/chapter_3.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_4",
+          "name": "Chapter 4: সামষ্টিক পর্যায় উৎপাদন",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/production_1st/chapter_4.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5: উৎপাদন ব্যবস্থাপনা",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/production_1st/chapter_5.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6: পণ্য ডিজাইন",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/production_1st/chapter_6.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_7",
+          "name": "Chapter 7: মান ব্যবস্থাপনা",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch7",
+              "name": "Chapter 7 Questions",
+              "file_bn": "/hsc/production_1st/chapter_7.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8: উৎপাদন ক্ষমতা",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/production_1st/chapter_8.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_9",
+          "name": "Chapter 9: ব্যবসায়ের অবস্থান",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch9",
+              "name": "Chapter 9 Questions",
+              "file_bn": "/hsc/production_1st/chapter_9.json"
+            }
+          ]
+        },
+        {
+          "id": "chapter_10",
+          "name": "Chapter 10: লে-আউট",
+          "chapters": [
+            {
+              "id": "hsc_prod1_ch10",
+              "name": "Chapter 10 Questions",
+              "file_bn": "/hsc/production_1st/chapter_10.json"
+            }
+          ]
+        }
+      ]
     }
   ]
-}
+}
