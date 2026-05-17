@@ -446,6 +446,145 @@
       ],
       "name_bn": "উৎপাদন ব্যবস্থাপনা ও বিপণন ১ম পত্র",
       "name_en": "Production 1st Paper"
+    },
+    {
+      "id": "production_2nd",
+      "name": "Production 2nd Paper",
+      "icon": "Factory",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1: বিপণন পরিচিতি",
+          "chapters": [
+            {
+              "id": "hsc_prod2_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/production_2nd/chapter_1.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 1: বিপণন পরিচিতি",
+          "name_en": "Chapter 1: Introduction to Marketing"
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2: বিপণন পরিবেশ",
+          "chapters": [
+            {
+              "id": "hsc_prod2_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/production_2nd/chapter_2.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 2: বিপণন পরিবেশ",
+          "name_en": "Chapter 2: Marketing Environment"
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3: বিপণন কার্যাবলী",
+          "chapters": [
+            {
+              "id": "hsc_prod2_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/production_2nd/chapter_3.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 3: বিপণন কার্যাবলী",
+          "name_en": "Chapter 3: Marketing Functions"
+        },
+        {
+          "id": "chapter_4",
+          "name": "Chapter 4: বাজার বিভক্তিকরণ ও বিপণন মিশ্রণ",
+          "chapters": [
+            {
+              "id": "hsc_prod2_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/production_2nd/chapter_4.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 4: বাজার বিভক্তিকরণ ও বিপণন মিশ্রণ",
+          "name_en": "Chapter 4: Market Segmentation and Marketing Mix"
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5: পণ্য ও পণ্যের মূল্য নির্ধারণ",
+          "chapters": [
+            {
+              "id": "hsc_prod2_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/production_2nd/chapter_5.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 5: পণ্য ও পণ্যের মূল্য নির্ধারণ",
+          "name_en": "Chapter 5: Product and Pricing"
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6: পণ্য বণ্টন প্রণালি",
+          "chapters": [
+            {
+              "id": "hsc_prod2_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/production_2nd/chapter_6.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 6: পণ্য বণ্টন প্রণালি",
+          "name_en": "Chapter 6: Channels of Distribution"
+        },
+        {
+          "id": "chapter_7",
+          "name": "Chapter 7: পাইকারি ও খুচরা ব্যবসায়",
+          "chapters": [
+            {
+              "id": "hsc_prod2_ch7",
+              "name": "Chapter 7 Questions",
+              "file_bn": "/hsc/production_2nd/chapter_7.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 7: পাইকারি ও খুচরা ব্যবসায়",
+          "name_en": "Chapter 7: Wholesale and Retail Business"
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8: বিক্রয় প্রসার ও বিজ্ঞাপন",
+          "chapters": [
+            {
+              "id": "hsc_prod2_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/production_2nd/chapter_8.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 8: বিক্রয় প্রসার ও বিজ্ঞাপন",
+          "name_en": "Chapter 8: Sales Promotion and Advertising"
+        },
+        {
+          "id": "chapter_9",
+          "name": "Chapter 9: ব্যক্তিক বিক্রয় ও বিক্রয়িকতা",
+          "chapters": [
+            {
+              "id": "hsc_prod2_ch9",
+              "name": "Chapter 9 Questions",
+              "file_bn": "/hsc/production_2nd/chapter_9.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 9: ব্যক্তিক বিক্রয় ও বিক্রয়িকতা",
+          "name_en": "Chapter 9: Personal Selling and Salesmanship"
+        },
+        {
+          "id": "chapter_10",
+          "name": "Chapter 10: বিপণনের সমসাময়িক বিষয়সমূহ",
+          "chapters": [
+            {
+              "id": "hsc_prod2_ch10",
+              "name": "Chapter 10 Questions",
+              "file_bn": "/hsc/production_2nd/chapter_10.json"
+            }
+          ],
+          "name_bn": "অধ্যায় 10: বিপণনের সমসাময়িক বিষয়সমূহ",
+          "name_en": "Chapter 10: Contemporary Issues in Marketing"
+        }
+      ],
+      "name_bn": "উৎপাদন ব্যবস্থাপনা ও বিপণন ২য় পত্র",
+      "name_en": "Production 2nd Paper"
     }
   ]
 }
