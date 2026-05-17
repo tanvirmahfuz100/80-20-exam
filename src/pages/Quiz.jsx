@@ -228,8 +228,9 @@ const Quiz = () => {
     }, [quizFontSize]);
 
     const [userAccuracy, setUserAccuracy] = useState(null);
-    const [timeLeft, setTimeLeft] = useState(0);
+    const [elapsed, setElapsed] = useState(0);
     const timerRef = useRef(null);
+    const questionStartRef = useRef(Date.now());
     const sessionSavedRef = useRef(false);
 
     const shuffledOptions = useMemo(() => {
@@ -342,7 +343,8 @@ const Quiz = () => {
                     else if (Array.isArray(data.passages)) questionArray = data.passages;
                     else if (Array.isArray(data.items)) questionArray = data.items;
 
-                    setQuestions(normalizeQuizQuestions({ questions: questionArray }));
+                    const normalized = normalizeQuizQuestions({ questions: questionArray });
+                    setQuestions(normalized);
                 }
             } catch (err) {
                 setError(err.message);
@@ -406,23 +408,13 @@ const Quiz = () => {
     }, []);
 
     useEffect(() => {
-        if (isTimedMode && timeLeft > 0 && !isFinished && !loading) {
-            timerRef.current = setInterval(() => {
-                setTimeLeft(prev => {
-                    if (prev <= 1) {
-                        clearInterval(timerRef.current);
-                        setIsFinished(true);
-                        return 0;
-                    }
-                    if (prev <= 10) {
-                        playSound('time');
-                    }
-                    return prev - 1;
-                });
-            }, 1000);
-        }
+        if (loading || questions.length === 0) return;
+        questionStartRef.current = Date.now();
+        timerRef.current = setInterval(() => {
+            setElapsed(prev => prev + 1);
+        }, 1000);
         return () => clearInterval(timerRef.current);
-    }, [isTimedMode, timeLeft, isFinished, loading]);
+    }, [loading, questions.length]);
 
     // Track actual viewport height (handles mobile browser chrome)
     useEffect(() => {
@@ -511,12 +503,14 @@ const Quiz = () => {
             setMistakeCount(getMistakesDueCount());
         }
 
+        const questionTime = Math.round((Date.now() - questionStartRef.current) / 1000);
+
         const newResult = {
             id: currentQ.id,
             isCorrect,
             selected: index,
             selectedOriginalIdx,
-            time_spent: 0
+            time_spent: questionTime,
         };
 
         setResults(prev => [...prev, newResult]);
@@ -533,7 +527,7 @@ const Quiz = () => {
             correct_option_index: currentQ.correct,
             correct_option_text: (currentQ.options || [])[currentQ.correct] || null,
             is_correct: isCorrect,
-            time_spent: 0
+            time_spent: questionTime,
         });
     };
 
@@ -542,6 +536,7 @@ const Quiz = () => {
             setCurrentIndex(c => c + 1);
             setSelectedOption(null);
             setIsAnswered(false);
+            questionStartRef.current = Date.now();
         } else {
             setIsFinished(true);
         }
@@ -683,8 +678,8 @@ const Quiz = () => {
                     </div>
                     {isTimedMode && (
                         <div className="px-2 py-1 rounded-lg bg-white/5 border border-white/10 flex items-center gap-1 font-mono font-black text-[11px] text-white">
-                            <Clock className="w-3 h-3" />
-                            {formatTime(timeLeft)}
+                            <Clock className="w-3 h-3 text-primary" />
+                            <span>{formatTime(elapsed)}</span>
                         </div>
                     )}
                     <div className="hidden xs:flex items-center gap-1 px-2 py-1 rounded-lg bg-white/5 border border-white/10">
@@ -733,11 +728,13 @@ const Quiz = () => {
                                     setMistakeCount(getMistakesDueCount());
                                 }
 
+                                const blankTime = Math.round((Date.now() - questionStartRef.current) / 1000);
+
                                 setResults(prev => [...prev, {
                                     id: actualQ.id,
                                     isCorrect,
                                     selected: selectedText,
-                                    time_spent: 0,
+                                    time_spent: blankTime,
                                 }]);
 
                                 api.saveResponse({
@@ -750,7 +747,7 @@ const Quiz = () => {
                                     selected_option_text: selectedText,
                                     correct_option_text: actualQ.options?.[actualQ.correct] || '',
                                     is_correct: isCorrect,
-                                    time_spent: 0,
+                                    time_spent: blankTime,
                                 });
                             }}
                             onContinue={() => {
@@ -759,6 +756,7 @@ const Quiz = () => {
                                     setCurrentIndex(nextIndex);
                                     setSelectedOption(null);
                                     setIsAnswered(false);
+                                    questionStartRef.current = Date.now();
                                 } else {
                                     setIsFinished(true);
                                 }
