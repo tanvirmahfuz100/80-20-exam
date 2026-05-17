@@ -753,7 +753,13 @@ const Quiz = () => {
                         <SubstitutionTableExercise
                             key={currentQ.id}
                             exercise={currentQ.exercise}
-                            onContinue={(found, total) => {
+                            onWrongAttempt={() => {
+                                playSound('star');
+                                addMistake(currentQ.id || 'sub_table', currentQ, { file, title, chapterId });
+                                createFlyingStar(null, window.innerWidth / 2, window.innerHeight / 2);
+                                setMistakeCount(getMistakesDueCount());
+                            }}
+                            onContinue={(found, total, wrongAttempts) => {
                                 setScore(s => s + found);
                                 setResults(prev => [...prev, {
                                     id: currentQ.id,

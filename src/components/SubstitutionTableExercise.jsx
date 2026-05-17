@@ -1,8 +1,8 @@
 import React, { useState, useCallback, useMemo } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { CheckCircle, XCircle, ArrowRight } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { X } from 'lucide-react';
 
-const SubstitutionTableExercise = ({ exercise, onContinue }) => {
+const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt }) => {
   const { table_columns: columns, valid_sentences: validSentences, question_text: questionText } = exercise;
   const numCols = columns.length;
 
@@ -10,9 +10,11 @@ const SubstitutionTableExercise = ({ exercise, onContinue }) => {
   const [checked, setChecked] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [foundCount, setFoundCount] = useState(0);
+  const [wrongAttempts, setWrongAttempts] = useState(0);
   const [attemptedCombos, setAttemptedCombos] = useState(new Set());
   const [lastExplanation, setLastExplanation] = useState('');
   const [finished, setFinished] = useState(false);
+  const [foundSet, setFoundSet] = useState(new Set());
 
   const validSet = useMemo(() => {
     const set = new Set();
@@ -20,22 +22,45 @@ const SubstitutionTableExercise = ({ exercise, onContinue }) => {
     return set;
   }, [validSentences]);
 
+  const colLabels = useMemo(() => {
+    const defaults = ['Subject', 'Verb/Word', 'Object'];
+    return columns.map((_, i) => defaults[i] || `Column ${i + 1}`);
+  }, [columns]);
+
   const handleSelect = (colIdx, rowIdx) => {
     if (checked || finished) return;
     setSelections(prev => {
       const next = [...prev];
-      next[colIdx] = rowIdx;
+      if (next[colIdx] === rowIdx) {
+        next[colIdx] = null;
+      } else {
+        next[colIdx] = rowIdx;
+      }
       return next;
     });
+    if (checked) {
+      setChecked(false);
+      setIsCorrect(false);
+      setLastExplanation('');
+    }
   };
+
+  const handleClear = useCallback(() => {
+    setSelections(Array(numCols).fill(null));
+    setChecked(false);
+    setIsCorrect(false);
+    setLastExplanation('');
+  }, [numCols]);
 
   const formedSentence = useMemo(() => {
     if (selections.some(s => s === null)) return '';
     return selections.map((rowIdx, colIdx) => columns[colIdx][rowIdx]).join(' ').replace(/\s+/g, ' ').trim();
   }, [selections, columns]);
 
+  const allSelected = selections.every(s => s !== null);
+
   const handleCheck = useCallback(() => {
-    if (selections.some(s => s === null)) return;
+    if (!allSelected) return;
     const key = selections.join('|');
     if (attemptedCombos.has(key)) return;
 
@@ -45,7 +70,6 @@ const SubstitutionTableExercise = ({ exercise, onContinue }) => {
     setIsCorrect(correct);
     setChecked(true);
 
-    const comboKey = [...selections].sort().join(',');
     const newAttempted = new Set(attemptedCombos);
     newAttempted.add(key);
     setAttemptedCombos(newAttempted);
@@ -53,38 +77,51 @@ const SubstitutionTableExercise = ({ exercise, onContinue }) => {
     if (correct) {
       const match = validSentences.find(v => v.sentence.trim().toLowerCase() === sentenceLower);
       setLastExplanation(match?.explanation_bn || match?.explanation_en || 'Correct!');
-      setFoundCount(prev => prev + 1);
+      if (!foundSet.has(sentenceLower)) {
+        setFoundSet(prev => new Set(prev).add(sentenceLower));
+        setFoundCount(prev => prev + 1);
+      }
     } else {
+      setWrongAttempts(prev => prev + 1);
       setLastExplanation('This combination does not form a correct sentence. Try a different combination.');
+      onWrongAttempt?.();
     }
-  }, [selections, formedSentence, attemptedCombos, validSet, validSentences]);
+  }, [selections, formedSentence, attemptedCombos, validSet, validSentences, allSelected, foundSet, onWrongAttempt]);
 
   const handleNext = useCallback(() => {
-    setSelections(Array(numCols).fill(null));
-    setChecked(false);
-    setIsCorrect(false);
-    setLastExplanation('');
-  }, [numCols]);
+    handleClear();
+  }, [handleClear]);
 
   const handleContinue = useCallback(() => {
     setFinished(true);
-    onContinue?.(foundCount, validSentences.length);
-  }, [foundCount, validSentences.length, onContinue]);
+    onContinue?.(foundCount, validSentences.length, wrongAttempts);
+  }, [foundCount, validSentences.length, wrongAttempts, onContinue]);
 
-  const allCombinationsAttempted = attemptedCombos.size >= validSentences.length;
+  const allFound = foundCount >= validSentences.length;
 
   return (
     <div className="flex-1 flex flex-col min-h-0 gap-3">
       <div className="flex-1 overflow-y-auto min-h-0 space-y-3">
-        <p className="text-[10px] md:text-xs text-white/70 font-medium leading-relaxed">
-          {questionText || 'Select one item from each column to form a correct sentence.'}
-        </p>
+        <div className="flex items-start justify-between gap-2">
+          <p className="text-[10px] md:text-xs text-white/70 font-medium leading-relaxed flex-1">
+            {questionText || 'Select one item from each column to form a correct sentence.'}
+          </p>
+          {selections.some(s => s !== null) && !finished && (
+            <button
+              onClick={handleClear}
+              className="shrink-0 p-1 rounded-lg text-white/30 hover:text-white hover:bg-white/10 transition-all"
+              aria-label="Clear all selections"
+            >
+              <X className="w-3.5 h-3.5" />
+            </button>
+          )}
+        </div>
 
         <div className="grid gap-2" style={{ gridTemplateColumns: `repeat(${numCols}, 1fr)` }}>
           {columns.map((col, colIdx) => (
             <div key={colIdx} className="space-y-1">
               <p className="text-[8px] font-black text-white/20 uppercase tracking-widest text-center">
-                {['Subject', 'Verb/Word', 'Object'][colIdx] || `Column ${colIdx + 1}`}
+                {colLabels[colIdx]}
               </p>
               <div className="space-y-1">
                 {col.map((item, rowIdx) => {
@@ -140,13 +177,16 @@ const SubstitutionTableExercise = ({ exercise, onContinue }) => {
 
         <div className="text-center">
           <p className="text-[9px] font-bold text-white/30">
-            Found {foundCount}/{validSentences.length} correct sentence{validSentences.length !== 1 ? 's' : ''}
+            {allFound
+              ? `✓ All ${foundCount} correct sentence${foundCount !== 1 ? 's' : ''} found!`
+              : `Found ${foundCount}/${validSentences.length} correct sentence${validSentences.length !== 1 ? 's' : ''}`
+            }
           </p>
         </div>
       </div>
 
       <div className="shrink-0 sticky bottom-0 space-y-2">
-        {checked && !allCombinationsAttempted && (
+        {checked && !allFound && (
           <button
             onClick={handleNext}
             className="w-full py-3 bg-white/10 hover:bg-white/15 text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97]"
@@ -156,9 +196,9 @@ const SubstitutionTableExercise = ({ exercise, onContinue }) => {
         )}
         <button
           onClick={checked ? handleContinue : handleCheck}
-          disabled={!checked && selections.some(s => s === null)}
+          disabled={!allSelected}
           className={`w-full py-3.5 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] ${
-            selections.some(s => s === null) && !checked
+            !allSelected
               ? 'bg-white/5 text-white/20 cursor-not-allowed'
               : checked
                 ? 'bg-[#2F80ED] hover:bg-[#2F80ED]/90 text-white shadow-lg shadow-[#2F80ED]/20'
