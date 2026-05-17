@@ -42,16 +42,6 @@
             "explanation_bn": "সঠিক প্রবাদ। এখানে 'Time and tide' বহুবচন হিসেবে গণ্য।"
           },
           {
-            "sentence": "No one can call it back lost forever.",
-            "combination": [
-              "No one",
-              "call it back",
-              "lost forever."
-            ],
-            "explanation_en": "Correct sentence formed by combining 'No one can call it back' and 'lost forever' - but the table splits 'can' and 'call it back'. The intended correct sentence is 'No one can call it back.'",
-            "explanation_bn": "সঠিক বাক্য। 'কেউ তা ফিরিয়ে আনতে পারে না।'"
-          },
-          {
             "sentence": "Money can be regained.",
             "combination": [
               "Money",
@@ -75,11 +65,11 @@
             "sentence": "But time once lost is lost forever.",
             "combination": [
               "But time once lost",
-              "call it back",
+              "is",
               "lost forever."
             ],
-            "explanation_en": "Correct. The intended sentence is 'But time once lost is lost forever.'",
-            "explanation_bn": "সঠিক। উদ্দিষ্ট বাক্য: 'But time once lost is lost forever.'"
+            "explanation_en": "Correct. The proverb means that once time is lost, it cannot be recovered.",
+            "explanation_bn": "সঠিক। প্রবাদটির অর্থ হল সময় একবার নষ্ট হয়ে গেলে তা ফিরিয়ে আনা যায় না।"
           }
         ]
       }
@@ -389,7 +379,7 @@
             "combination": [
               "We",
               "have to",
-              "ensure the safe use..."
+              "ensure the safe use of modern technology."
             ],
             "explanation_en": "Correct. Matches answer key.",
             "explanation_bn": "সঠিক। উত্তরমালার সাথে মেলে।"
@@ -415,7 +405,9 @@
             "began",
             "grew",
             "was accused of",
-            "sentenced",
+            "sentenced"
+          ],
+          [
             "to spread knowledge among the people.",
             "disloyalty.",
             "jealous of his popularity.",
