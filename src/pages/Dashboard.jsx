@@ -1,7 +1,9 @@
 import React from 'react';
-import { Flame, Star, Target, Clock, ArrowRight, TrendingUp, Brain, Lock, UserPlus } from 'lucide-react';
+import { Flame, Star, Target, Clock, ArrowRight, TrendingUp, Brain, Lock, UserPlus, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+
+import { api } from '../services/api';
 
 const StatCard = ({ title, value, subtitle, icon: Icon, color, isLocked }) => (
     <div className={`bg-surface border border-white/5 rounded-3xl p-6 transition-all group relative overflow-hidden shadow-xl ${isLocked ? 'grayscale' : 'hover:border-white/10'}`}>
@@ -31,20 +33,38 @@ const StatCard = ({ title, value, subtitle, icon: Icon, color, isLocked }) => (
 );
 
 const Dashboard = () => {
-    const { user } = useAuth();
+    const { user, profile } = useAuth();
+    const [statsData, setStatsData] = React.useState({
+        totalPracticed: 0,
+        accuracy: 0,
+        totalTimeInMinutes: 0
+    });
+    const [loading, setLoading] = React.useState(true);
 
-    // Mock data - in real app fetched from user_responses
-    const recentActivity = [
-        { id: 1, subject: "English", topic: "Noun", score: 8, total: 10, time: "2 hours ago", xp: 120 },
-        { id: 2, subject: "Math", topic: "Algebra Basics", score: 12, total: 20, time: "Yesterday", xp: 240 },
-        { id: 3, subject: "Analytical", topic: "Puzzle", score: 4, total: 5, time: "Yesterday", xp: 90 },
-    ];
+    React.useEffect(() => {
+        if (user) {
+            const fetchStats = async () => {
+                const { data, error } = await api.getUserStats(user.id);
+                if (data) setStatsData(data);
+                setLoading(false);
+            };
+            fetchStats();
+        } else {
+            setLoading(false);
+        }
+    }, [user]);
 
     const stats = [
-        { title: "Current Streak", value: user ? "5 Days" : "0 Days", subtitle: "Don't break it!", icon: Flame, color: "bg-orange-500 text-orange-500" },
-        { title: "Total XP", value: user ? "1,450" : "0", subtitle: "Points earned", icon: Star, color: "bg-yellow-500 text-yellow-500" },
-        { title: "Success Rate", value: user ? "82%" : "??%", subtitle: "You're doing great!", icon: Target, color: "bg-emerald-500 text-emerald-500" },
-        { title: "Learning Time", value: user ? "12h 30m" : "0h 0m", subtitle: "Time well spent", icon: Clock, color: "bg-blue-500 text-blue-500" },
+        { title: "Questions Practiced", value: user ? statsData.totalPracticed : "0", subtitle: "Getting stronger!", icon: Brain, color: "bg-orange-500 text-orange-500" },
+        { title: "Total XP", value: profile?.total_xp ?? "0", subtitle: "Points earned", icon: Star, color: "bg-yellow-500 text-yellow-500" },
+        { title: "Accuracy Rate", value: user ? `${statsData.accuracy}%` : "0%", subtitle: "Focus on precision!", icon: Target, color: "bg-emerald-500 text-emerald-500" },
+        { title: "Learning Time", value: user ? `${statsData.totalTimeInMinutes}m` : "0m", subtitle: "Time well spent", icon: Clock, color: "bg-blue-500 text-blue-500" },
+    ];
+
+    const recentActivity = [
+        { id: 1, topic: 'Algebra Basics', subject: 'Math', score: 8, total: 10, time: '2h ago', xp: 80 },
+        { id: 2, topic: 'Sentence Correction', subject: 'English', score: 12, total: 15, time: '5h ago', xp: 120 },
+        { id: 3, topic: 'Critical Reasoning', subject: 'Analytical', score: 5, total: 5, time: 'Yesterday', xp: 50 },
     ];
 
     return (

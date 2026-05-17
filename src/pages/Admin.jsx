@@ -11,15 +11,27 @@ import {
 
 const Admin = () => {
     const { role, user } = useAuth();
-    const [activeTab, setActiveTab] = useState('injector'); // injector, bulk, logs, users
+    const [activeTab, setActiveTab] = useState('injector'); // injector, courses, videos, mocks, users
     const [loading, setLoading] = useState(false);
     const [message, setMessage] = useState({ type: '', text: '' });
 
-    // Injector State
+    // Injector States
     const [formData, setFormData] = useState({
         exam_category: 'BCS', exam_type: '', question_text: '',
         image_url: '', difficulty: 'medium', source_tags: '',
         explanation_text: '', explanation_video_url: ''
+    });
+
+    const [courseData, setCourseData] = useState({
+        title: '', description: '', instructor_name: '', category: 'IBA', is_premium: false
+    });
+
+    const [videoData, setVideoData] = useState({
+        title: '', video_url: '', thumbnail_url: ''
+    });
+
+    const [mockData, setMockData] = useState({
+        title: '', duration: 60, questions: 100, category: 'IBA'
     });
     const [options, setOptions] = useState([
         { text: '', is_correct: true }, { text: '', is_correct: false },
@@ -117,12 +129,44 @@ const Admin = () => {
         }
     };
 
+    const saveCourse = async () => {
+        setLoading(true);
+        const { error } = await supabase.from('courses').insert([{
+            title: courseData.title,
+            description: courseData.description,
+            instructor_name: courseData.instructor_name,
+            exam_category: courseData.category,
+            is_premium: courseData.is_premium
+        }]);
+        if (!error) setMessage({ type: 'success', text: 'Course published!' });
+        setLoading(false);
+    };
+
+    const saveVideo = async () => {
+        setLoading(true);
+        const { error } = await supabase.from('short_videos').insert([videoData]);
+        if (!error) setMessage({ type: 'success', text: 'Video uploaded!' });
+        setLoading(false);
+    };
+
+    const saveMock = async () => {
+        setLoading(true);
+        const { error } = await supabase.from('mock_tests').insert([{
+            title: mockData.title,
+            duration_minutes: mockData.duration,
+            total_questions: mockData.questions,
+            exam_category: mockData.category
+        }]);
+        if (!error) setMessage({ type: 'success', text: 'Mock test created!' });
+        setLoading(false);
+    };
+
     return (
         <div className="max-w-7xl mx-auto space-y-10 animate-in fade-in duration-700">
             {/* Header */}
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
                 <div>
-                    <h1 className="text-4xl font-black text-white italic tracking-tighter">ADMIN <span className="text-primary not-italic">STUDIO</span></h1>
+                    <h1 className="text-4xl font-black text-white italic tracking-tighter uppercase whitespace-nowrap">ADMIN <span className="text-primary not-italic">COMMAND.</span></h1>
                     <p className="text-white/30 font-bold uppercase tracking-widest text-[10px] mt-1">
                         Access Level: <span className="text-primary">{role?.replace('_', ' ') || 'Authenticating...'}</span>
                     </p>
@@ -131,9 +175,12 @@ const Admin = () => {
                 {/* Tabs */}
                 <div className="bg-surface border border-white/5 p-1.5 rounded-2xl flex gap-1 shadow-2xl overflow-x-auto no-scrollbar">
                     {[
-                        { id: 'injector', icon: Plus, label: 'Add Question' },
-                        { id: 'bulk', icon: Upload, label: 'Bulk Upload' },
-                        { id: 'logs', icon: History, label: 'History' },
+                        { id: 'injector', icon: Plus, label: 'Questions' },
+                        { id: 'courses', icon: BookOpen, label: 'Courses' },
+                        { id: 'videos', icon: Video, label: 'Shorts' },
+                        { id: 'mocks', icon: ClipboardList, label: 'Mocks' },
+                        { id: 'bulk', icon: Upload, label: 'Bulk' },
+                        { id: 'logs', icon: History, label: 'Logs' },
                         { id: 'users', icon: Users, label: 'Users', superOnly: true }
                     ].map(tab => (
                         (tab.superOnly && role !== 'super_admin') ? null : (
@@ -159,13 +206,191 @@ const Admin = () => {
                 </div>
             )}
 
-            {/* Injected Content */}
+            {/* Injected Content Area */}
             <div className="min-h-[60vh]">
                 {activeTab === 'injector' && (
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 animate-in fade-in duration-500">
-                        {/* Use the previous Single Injection Form UI here - omitted for brevity but logic remains */}
-                        <div className="lg:col-span-2 bg-surface-alt/10 border-2 border-dashed border-white/5 rounded-[40px] flex items-center justify-center p-20 text-center">
-                            <p className="text-white/20 font-black italic uppercase tracking-tighter">Ready to add new questions!</p>
+                        <div className="lg:col-span-2 space-y-6">
+                            <div className="bg-surface border border-white/5 rounded-[2.5rem] p-10 space-y-6">
+                                <div className="grid grid-cols-2 gap-4">
+                                    <input
+                                        placeholder="Exam Category (e.g. IBA)"
+                                        className="bg-background border border-white/5 rounded-xl p-4 text-white font-bold"
+                                        value={formData.exam_category}
+                                        onChange={e => setFormData({ ...formData, exam_category: e.target.value })}
+                                    />
+                                    <input
+                                        placeholder="Sub-Type (e.g. MBA)"
+                                        className="bg-background border border-white/5 rounded-xl p-4 text-white font-bold"
+                                        value={formData.exam_type}
+                                        onChange={e => setFormData({ ...formData, exam_type: e.target.value })}
+                                    />
+                                </div>
+                                <textarea
+                                    placeholder="Question Text..."
+                                    rows={4}
+                                    className="w-full bg-background border border-white/5 rounded-xl p-6 text-white font-bold outline-none focus:border-primary/40 transition-all"
+                                    value={formData.question_text}
+                                    onChange={e => setFormData({ ...formData, question_text: e.target.value })}
+                                />
+                                <div className="grid grid-cols-2 gap-4">
+                                    {options.map((opt, i) => (
+                                        <div key={i} className="relative group">
+                                            <input
+                                                placeholder={`Option ${String.fromCharCode(65 + i)}`}
+                                                className={`w-full bg-background border rounded-xl p-4 pl-12 text-white font-bold ${opt.is_correct ? 'border-emerald-500/50' : 'border-white/5'}`}
+                                                value={opt.text}
+                                                onChange={e => {
+                                                    const newOpts = [...options];
+                                                    newOpts[i].text = e.target.value;
+                                                    setOptions(newOpts);
+                                                }}
+                                            />
+                                            <button
+                                                onClick={() => {
+                                                    const newOpts = options.map((o, idx) => ({ ...o, is_correct: idx === i }));
+                                                    setOptions(newOpts);
+                                                }}
+                                                className={`absolute left-3 top-1/2 -translate-y-1/2 w-6 h-6 rounded-lg text-[10px] font-black border flex items-center justify-center transition-all ${opt.is_correct ? 'bg-emerald-500 text-black border-emerald-500' : 'bg-white/5 text-white/20 border-white/10'}`}
+                                            >
+                                                {String.fromCharCode(65 + i)}
+                                            </button>
+                                        </div>
+                                    ))}
+                                </div>
+                                <button className="w-full py-5 bg-primary text-white rounded-2xl font-black uppercase tracking-widest text-[10px] shadow-2xl shadow-primary/20">
+                                    Publish Question
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                )}
+
+                {activeTab === 'courses' && (
+                    <div className="max-w-2xl mx-auto space-y-8 animate-in slide-in-from-bottom-6 duration-500">
+                        <div className="bg-surface border border-white/5 rounded-[2.5rem] p-10 space-y-6">
+                            <h3 className="text-xl font-black text-white italic truncate uppercase">Create New Course</h3>
+                            <div className="space-y-4">
+                                <input
+                                    placeholder="Course Title"
+                                    className="w-full bg-background border border-white/5 rounded-xl p-4 text-white font-bold"
+                                    value={courseData.title}
+                                    onChange={e => setCourseData({ ...courseData, title: e.target.value })}
+                                />
+                                <textarea
+                                    placeholder="Description"
+                                    className="w-full bg-background border border-white/5 rounded-xl p-4 text-white font-bold"
+                                    value={courseData.description}
+                                    onChange={e => setCourseData({ ...courseData, description: e.target.value })}
+                                />
+                                <div className="grid grid-cols-2 gap-4">
+                                    <input
+                                        placeholder="Instructor Name"
+                                        className="bg-background border border-white/5 rounded-xl p-4 text-white font-bold"
+                                        value={courseData.instructor_name}
+                                        onChange={e => setCourseData({ ...courseData, instructor_name: e.target.value })}
+                                    />
+                                    <select
+                                        className="bg-background border border-white/5 rounded-xl p-4 text-white font-bold"
+                                        value={courseData.category}
+                                        onChange={e => setCourseData({ ...courseData, category: e.target.value })}
+                                    >
+                                        <option>IBA</option>
+                                        <option>BCS</option>
+                                        <option>Bank</option>
+                                    </select>
+                                </div>
+                                <div className="flex items-center gap-3 p-4 bg-white/5 rounded-xl border border-white/5">
+                                    <input
+                                        type="checkbox"
+                                        checked={courseData.is_premium}
+                                        onChange={e => setCourseData({ ...courseData, is_premium: e.target.checked })}
+                                        className="w-5 h-5 accent-primary"
+                                    />
+                                    <span className="text-xs font-bold text-white/60">Premium Access Required</span>
+                                </div>
+                                <button
+                                    onClick={saveCourse}
+                                    className="w-full py-5 bg-primary text-white rounded-2xl font-black uppercase tracking-widest text-[10px] shadow-2xl shadow-primary/20"
+                                >
+                                    Publish Course
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                )}
+
+                {activeTab === 'videos' && (
+                    <div className="max-w-2xl mx-auto space-y-8 animate-in slide-in-from-bottom-6 duration-500">
+                        <div className="bg-surface border border-white/5 rounded-[2.5rem] p-10 space-y-6">
+                            <h3 className="text-xl font-black text-white italic truncate uppercase">Upload Short Video</h3>
+                            <div className="space-y-4">
+                                <input
+                                    placeholder="Video Title"
+                                    className="w-full bg-background border border-white/5 rounded-xl p-4 text-white font-bold"
+                                    value={videoData.title}
+                                    onChange={e => setVideoData({ ...videoData, title: e.target.value })}
+                                />
+                                <input
+                                    placeholder="Direct Video URL (MP4)"
+                                    className="w-full bg-background border border-white/5 rounded-xl p-4 text-white font-bold"
+                                    value={videoData.video_url}
+                                    onChange={e => setVideoData({ ...videoData, video_url: e.target.value })}
+                                />
+                                <button
+                                    onClick={saveVideo}
+                                    className="w-full py-5 bg-primary text-white rounded-2xl font-black uppercase tracking-widest text-[10px] shadow-2xl shadow-primary/20"
+                                >
+                                    Finish Upload
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                )}
+
+                {activeTab === 'mocks' && (
+                    <div className="max-w-2xl mx-auto space-y-8 animate-in slide-in-from-bottom-6 duration-500">
+                        <div className="bg-surface border border-white/5 rounded-[2.5rem] p-10 space-y-6">
+                            <h3 className="text-xl font-black text-white italic truncate uppercase">Create Mock Test</h3>
+                            <div className="space-y-4">
+                                <input
+                                    placeholder="Exam Title"
+                                    className="w-full bg-background border border-white/5 rounded-xl p-4 text-white font-bold"
+                                    value={mockData.title}
+                                    onChange={e => setMockData({ ...mockData, title: e.target.value })}
+                                />
+                                <div className="grid grid-cols-2 gap-4">
+                                    <input
+                                        type="number"
+                                        placeholder="Duration (Mins)"
+                                        className="bg-background border border-white/5 rounded-xl p-4 text-white font-bold"
+                                        value={mockData.duration}
+                                        onChange={e => setMockData({ ...mockData, duration: e.target.value })}
+                                    />
+                                    <input
+                                        type="number"
+                                        placeholder="Total Questions"
+                                        className="bg-background border border-white/5 rounded-xl p-4 text-white font-bold"
+                                        value={mockData.questions}
+                                        onChange={e => setMockData({ ...mockData, questions: e.target.value })}
+                                    />
+                                </div>
+                                <select
+                                    className="w-full bg-background border border-white/5 rounded-xl p-4 text-white font-bold"
+                                    value={mockData.category}
+                                    onChange={e => setMockData({ ...mockData, category: e.target.value })}
+                                >
+                                    <option>IBA</option>
+                                    <option>BCS</option>
+                                    <option>Bank</option>
+                                </select>
+                                <button
+                                    onClick={saveMock}
+                                    className="w-full py-5 bg-primary text-white rounded-2xl font-black uppercase tracking-widest text-[10px] shadow-2xl shadow-primary/20"
+                                >
+                                    Create Live Mock
+                                </button>
+                            </div>
                         </div>
                     </div>
                 )}

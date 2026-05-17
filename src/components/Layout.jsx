@@ -3,7 +3,7 @@ import { NavLink, useLocation, Link } from 'react-router-dom';
 import {
     LayoutDashboard, BookOpen, Settings, Menu,
     TrendingUp, LogOut, ShieldCheck, LogIn,
-    MessageSquareWarning, Bell
+    MessageSquareWarning, Bell, Target, ClipboardList, Video, Brain
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import ReportModal from './ReportModal';
@@ -16,12 +16,16 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
 
     const publicItems = [
         { icon: LayoutDashboard, label: "Home", path: "/" },
-        { icon: BookOpen, label: "Practice", path: "/practice" },
+        { icon: BookOpen, label: "Courses", path: "/courses" },
+        { icon: Target, label: "Question Bank", path: "/bank" },
+        { icon: ClipboardList, label: "Mock Tests", path: "/mock-tests" },
+        { icon: Video, label: "Short Bits", path: "/shorts" },
+        { icon: Brain, label: "Daily Rituals", path: "/practice" },
     ];
 
     const privateItems = [
-        { icon: TrendingUp, label: "Stats", path: "/analytics" },
-        { icon: Settings, label: "Settings", path: "/settings" },
+        { icon: TrendingUp, label: "Neural Report", path: "/analytics" },
+        { icon: Settings, label: "Calibration", path: "/settings" },
     ];
 
     const isAdmin = currentRole === 'super_admin' || currentRole === 'content_admin';
