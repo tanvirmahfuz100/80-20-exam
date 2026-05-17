@@ -5,8 +5,8 @@ import { CheckCircle, Star, X } from 'lucide-react';
 
 const BLANK_REGEX = /_*\(([a-z])\)\s*_+|\(([a-z])\)\s*_+/g;
 
-const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, onContinue }) => {
-  const [answers, setAnswers] = useState({});
+const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, onContinue, savedAnswers = {} }) => {
+  const [answers, setAnswers] = useState(savedAnswers);
   const [activePopover, setActivePopover] = useState(null);
   const [explanationPanel, setExplanationPanel] = useState(null);
   const blankRefs = useRef({});
@@ -76,7 +76,32 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
     const blankData = getBlankData(blankId);
     if (!blankData) return;
     const currentAnswer = answers[blankId];
-    if (currentAnswer?.isCorrect) return;
+
+    if (currentAnswer) {
+      const blankEl = blankRefs.current[blankId];
+      const rect = blankEl?.getBoundingClientRect();
+      if (rect && !isMobile) {
+        setExplanationPanel({
+          blankId,
+          top: rect.bottom + 4,
+          left: rect.left,
+          width: rect.width,
+          explanationBn: currentAnswer.explanationBn || blankData?.explanation_bn || '',
+          explanationEn: currentAnswer.explanationEn || blankData?.explanation_en || '',
+          isCorrect: currentAnswer.isCorrect
+        });
+      } else {
+        setExplanationPanel({
+          blankId,
+          isMobile: true,
+          explanationBn: currentAnswer.explanationBn || blankData?.explanation_bn || '',
+          explanationEn: currentAnswer.explanationEn || blankData?.explanation_en || '',
+          isCorrect: currentAnswer.isCorrect
+        });
+      }
+      setActivePopover(null);
+      return;
+    }
 
     if (isMobile) {
       setActivePopover(prev => prev?.blankId === blankId ? null : { blankId, isMobile: true });
@@ -216,7 +241,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
                   font-bold text-sm md:text-base leading-relaxed
                   transition-all duration-200 select-none
                   border-b-2
-                  ${hasData && (!isAnswered || !answer.isCorrect) ? 'cursor-pointer' : 'cursor-default'}
+                  ${hasData ? 'cursor-pointer' : 'cursor-default'}
                   ${isAnswered
                     ? answer.isCorrect
                       ? 'border-emerald-500/70 text-emerald-400'
