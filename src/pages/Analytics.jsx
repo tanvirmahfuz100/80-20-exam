@@ -1,23 +1,104 @@
 import React, { useState, useEffect } from 'react';
-import { Target, TrendingUp, AlertTriangle, CheckCircle2, BarChart3, Brain, Activity, Clock } from 'lucide-react';
+import { Target, TrendingUp, AlertTriangle, CheckCircle2, BarChart3, Brain, Activity, Clock, Download } from 'lucide-react';
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 
 const Analytics = () => {
     const { user, profile } = useAuth();
     const [stats, setStats] = useState(null);
+    const [responses, setResponses] = useState([]);
+    const [practiceSessions, setPracticeSessions] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchStats = async () => {
             if (user) {
-                const { data } = await api.getUserStats(user.id);
-                setStats(data);
+                const [{ data: statsData }, { data: responseRows }, { data: sessionRows }] = await Promise.all([
+                    api.getUserStats(user.id),
+                    api.getUserResponses(user.id),
+                    api.getUserPracticeSessions(user.id)
+                ]);
+
+                setStats(statsData);
+                setResponses(responseRows || []);
+                setPracticeSessions(sessionRows || []);
             }
             setLoading(false);
         };
         fetchStats();
     }, [user]);
+
+    const buildProgressReport = () => {
+        const reportGeneratedAt = new Date().toISOString();
+
+        return {
+            reportGeneratedAt,
+            student: {
+                userId: user?.id || null,
+                username: profile?.username || user?.user_metadata?.username || null,
+                email: user?.email || null
+            },
+            summary: {
+                totalAttempted: stats?.totalPracticed || 0,
+                correctAnswers: stats?.correctOnes || 0,
+                wrongAnswers: stats?.wrongOnes || 0,
+                accuracyPercent: Number(stats?.accuracy || 0),
+                totalTimeInMinutes: stats?.totalTimeInMinutes || 0,
+                sessionsCount: practiceSessions.length
+            },
+            sessions: practiceSessions,
+            attempts: responses
+        };
+    };
+
+    const downloadFile = (filename, content, mimeType) => {
+        const blob = new Blob([content], { type: mimeType });
+        const url = URL.createObjectURL(blob);
+        const anchor = document.createElement('a');
+        anchor.href = url;
+        anchor.download = filename;
+        anchor.click();
+        URL.revokeObjectURL(url);
+    };
+
+    const handleExportJson = () => {
+        const report = buildProgressReport();
+        const stamp = new Date().toISOString().replace(/[:.]/g, '-');
+        downloadFile(`progress-report-${stamp}.json`, JSON.stringify(report, null, 2), 'application/json');
+    };
+
+    const handleExportCsv = () => {
+        const headers = [
+            'created_at',
+            'chapter_title',
+            'question_id',
+            'question_text',
+            'selected_option_text',
+            'correct_option_text',
+            'is_correct',
+            'time_spent'
+        ];
+
+        const escapeCell = (value) => {
+            const text = String(value ?? '').replace(/"/g, '""');
+            return `"${text}"`;
+        };
+
+        const rows = responses.map((row) => [
+            row.created_at,
+            row.chapter_title,
+            row.question_id,
+            row.question_text,
+            row.selected_option_text,
+            row.correct_option_text,
+            row.is_correct,
+            row.time_spent
+        ]);
+
+        const csv = [headers, ...rows].map((cols) => cols.map(escapeCell).join(',')).join('\n');
+        const stamp = new Date().toISOString().replace(/[:.]/g, '-');
+        downloadFile(`progress-attempts-${stamp}.csv`, csv, 'text/csv;charset=utf-8');
+    };
 
     if (loading) return (
         <div className="flex flex-col items-center justify-center p-20 space-y-4">
@@ -53,6 +134,23 @@ const Analytics = () => {
                         </svg>
                         <Target className="absolute inset-0 m-auto w-4 h-4 text-primary" />
                     </div>
+                </div>
+
+                <div className="flex flex-wrap gap-3">
+                    <button
+                        onClick={handleExportJson}
+                        className="px-5 py-3 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 text-white text-[10px] font-black uppercase tracking-widest flex items-center gap-2"
+                    >
+                        <Download className="w-4 h-4" />
+                        Export JSON
+                    </button>
+                    <button
+                        onClick={handleExportCsv}
+                        className="px-5 py-3 rounded-2xl border border-primary/30 bg-primary/10 hover:bg-primary/20 text-primary text-[10px] font-black uppercase tracking-widest flex items-center gap-2"
+                    >
+                        <Download className="w-4 h-4" />
+                        Export CSV
+                    </button>
                 </div>
             </div>
 

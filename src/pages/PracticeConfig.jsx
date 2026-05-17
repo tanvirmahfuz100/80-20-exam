@@ -30,14 +30,14 @@ const SubjectCard = ({ subject, isSelected, onClick }) => {
     );
 };
 
-const ChapterItem = ({ chapter, onClick }) => (
+const ChapterItem = ({ chapter, onClick, questionCount }) => (
     <div className="flex items-center justify-between p-5 bg-surface border border-white/5 rounded-2xl hover:border-primary/30 transition-all group hover:bg-white/5">
         <div className="flex-1 min-w-0 pr-4">
             <h4 className="font-bold text-white text-lg truncate group-hover:text-primary transition-colors leading-tight mb-1">{chapter.name}</h4>
             <div className="flex items-center gap-3">
                 <span className="text-[10px] font-black uppercase tracking-[0.1em] text-white/20 italic">Learning Goal</span>
                 <span className="w-1 h-1 rounded-full bg-white/10"></span>
-                <span className="text-[10px] font-black uppercase tracking-[0.1em] text-primary/50">15 Questions</span>
+                <span className="text-[10px] font-black uppercase tracking-[0.1em] text-primary/50">{questionCount} Questions</span>
             </div>
         </div>
         <button
@@ -59,6 +59,7 @@ const PracticeConfig = () => {
     const [isTimed, setIsTimed] = useState(false);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const [chapterQuestionCounts, setChapterQuestionCounts] = useState({});
 
     const [searchParams] = useSearchParams();
     const categoryFilter = (searchParams.get('exam') || searchParams.get('category') || '').toLowerCase();
@@ -103,6 +104,53 @@ const PracticeConfig = () => {
                 setLoading(false);
             });
     }, [categoryFilter]);
+
+    useEffect(() => {
+        const base = import.meta.env.BASE_URL || '/';
+
+        const countChapterQuestions = async (chapterFile) => {
+            if (!chapterFile) return 0;
+
+            try {
+                const path = chapterFile.startsWith('/') ? `${base}${chapterFile.slice(1)}` : chapterFile;
+                const res = await fetch(path);
+                if (!res.ok) return 0;
+
+                const payload = await res.json();
+                const sourceQuestions = payload?.questions || [];
+
+                return sourceQuestions.reduce((total, question) => {
+                    if (Array.isArray(question.blanks) && question.blanks.length > 0) {
+                        return total + question.blanks.length;
+                    }
+                    return total + 1;
+                }, 0);
+            } catch {
+                return 0;
+            }
+        };
+
+        const hydrateChapterCounts = async () => {
+            const chapterEntries = (data.exams || [])
+                .flatMap((exam) => exam.subjects || [])
+                .flatMap((subject) => subject.topics || [])
+                .flatMap((topic) => topic.chapters || [])
+                .filter((chapter) => Boolean(chapter.file));
+
+            if (chapterEntries.length === 0) {
+                setChapterQuestionCounts({});
+                return;
+            }
+
+            const pairs = await Promise.all(
+                chapterEntries.map(async (chapter) => [chapter.file, await countChapterQuestions(chapter.file)])
+            );
+
+            setChapterQuestionCounts(Object.fromEntries(pairs));
+        };
+
+        hydrateChapterCounts();
+    }, [data]);
 
     const handleStart = (chapter) => {
         navigate(`/quiz/${chapter.id}?file=${encodeURIComponent(chapter.file)}&title=${encodeURIComponent(chapter.name)}&timed=${isTimed}`);
@@ -255,7 +303,12 @@ const PracticeConfig = () => {
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                     {topic.chapters.length > 0 ? (
                                         topic.chapters.map(chapter => (
-                                            <ChapterItem key={chapter.id} chapter={chapter} onClick={handleStart} />
+                                            <ChapterItem
+                                                key={chapter.id}
+                                                chapter={chapter}
+                                                onClick={handleStart}
+                                                questionCount={chapterQuestionCounts[chapter.file] ?? 0}
+                                            />
                                         ))
                                     ) : (
                                         <div className="col-span-2 py-10 text-center border-2 border-dashed border-white/5 rounded-3xl">

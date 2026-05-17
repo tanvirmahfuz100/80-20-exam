@@ -1,6 +1,7 @@
 const STORAGE_KEYS = {
     profiles: 'exam_profiles',
     responses: 'exam_user_responses',
+    practiceSessions: 'exam_practice_sessions',
     courseProgress: 'exam_course_progress',
     mockResults: 'exam_mock_results',
     videos: 'exam_short_videos',
@@ -223,18 +224,44 @@ export const api = {
         const responses = readStorage(STORAGE_KEYS.responses, []).filter((r) => r.user_id === userId);
         const totalPracticed = responses.length;
         const correctOnes = responses.filter((r) => r.is_correct).length;
+        const wrongOnes = totalPracticed - correctOnes;
         const accuracy = totalPracticed > 0 ? (correctOnes / totalPracticed) * 100 : 0;
         const totalTime = responses.reduce((acc, curr) => acc + (curr.time_spent || 0), 0);
 
         return {
             data: {
                 totalPracticed,
+                correctOnes,
+                wrongOnes,
                 accuracy: accuracy.toFixed(1),
                 totalTimeInMinutes: Math.round(totalTime / 60),
                 raw: responses
             },
             error: null
         };
+    },
+
+    getUserResponses: async (userId) => {
+        const responses = readStorage(STORAGE_KEYS.responses, [])
+            .filter((r) => r.user_id === userId)
+            .sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+
+        return { data: responses, error: null };
+    },
+
+    savePracticeSession: async (session) => {
+        const sessions = readStorage(STORAGE_KEYS.practiceSessions, []);
+        sessions.push({ id: crypto.randomUUID(), ...session, created_at: new Date().toISOString() });
+        writeStorage(STORAGE_KEYS.practiceSessions, sessions);
+        return { data: true, error: null };
+    },
+
+    getUserPracticeSessions: async (userId) => {
+        const sessions = readStorage(STORAGE_KEYS.practiceSessions, [])
+            .filter((s) => s.user_id === userId)
+            .sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+
+        return { data: sessions, error: null };
     },
 
     getMockTests: async (category) => {
