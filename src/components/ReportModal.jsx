@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { X, Send, Camera, AlertCircle, Loader2, CheckCircle2 } from 'lucide-react';
-import { supabase } from '../supabase';
 import { useAuth } from '../context/AuthContext';
+import { api } from '../services/api';
 
 const ReportModal = ({ isOpen, onClose }) => {
     const { user } = useAuth();
@@ -18,13 +18,13 @@ const ReportModal = ({ isOpen, onClose }) => {
         setLoading(true);
 
         try {
-            const { error } = await supabase.from('reports').insert([{
+            const { error } = await api.saveReport({
                 user_id: user?.id,
                 email: user?.email || 'guest@anonymous.com',
                 subject: formData.subject,
                 description: formData.description,
                 image_url: formData.image_url
-            }]);
+            });
 
             if (error) throw error;
             setSuccess(true);

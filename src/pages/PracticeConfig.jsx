@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Book, Calculator, Brain, ChevronRight, Play, Clock, AlertCircle, Timer, ShieldCheck, Lock, UserPlus } from 'lucide-react';
-import { useNavigate, Link } from 'react-router-dom';
+import { Book, Calculator, Brain, ChevronRight, Play, Clock, AlertCircle, Timer, ShieldCheck } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
 const SubjectCard = ({ subject, isSelected, onClick }) => {
@@ -60,14 +60,13 @@ const PracticeConfig = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch('/iba/index.json')
-            .then(res => {
-                if (!res.ok) throw new Error("Failed to load question index");
-                return res.json();
-            })
-            .then(data => {
-                setData(data);
-                if (data.subjects.length > 0) setSelectedSubject(data.subjects[0]);
+        const paths = ['/iba/index.json', '/ssc/index.json'];
+        Promise.all(paths.map(p => fetch(p).then(r => r.ok ? r.json() : null).catch(() => null)))
+            .then(results => {
+                const subjects = results.filter(Boolean).flatMap(r => r.subjects || []);
+                const merged = { subjects };
+                setData(merged);
+                if (subjects.length > 0) setSelectedSubject(subjects[0]);
                 setLoading(false);
             })
             .catch(err => {
@@ -109,7 +108,7 @@ const PracticeConfig = () => {
                         LET'S <span className="text-primary not-italic uppercase">PRACTICE!</span>
                     </h1>
                     <p className="text-white/30 font-bold uppercase tracking-widest text-[10px] flex items-center gap-2">
-                        {user ? 'Your progress is being saved!' : 'Guest Mode - Your score won\'t be saved'}
+                        Your progress is being saved locally for testing.
                     </p>
                 </div>
 
@@ -130,23 +129,6 @@ const PracticeConfig = () => {
                     </button>
                 </div>
             </div>
-
-            {!user && (
-                <div className="bg-primary/5 border border-dashed border-primary/20 rounded-[2rem] p-8 flex flex-col md:flex-row items-center justify-between gap-6">
-                    <div className="flex items-center gap-5 text-center md:text-left">
-                        <div className="w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center border border-primary/20 shrink-0">
-                            <Lock className="w-5 h-5 text-primary" />
-                        </div>
-                        <div>
-                            <h4 className="text-white font-black uppercase tracking-widest text-xs mb-1 italic">Don't miss out!</h4>
-                            <p className="text-white/30 text-[10px] font-medium leading-relaxed max-w-md uppercase tracking-tight">Sign up to unlock 50,000+ questions and track your progress. It only takes a second!</p>
-                        </div>
-                    </div>
-                    <Link to="/register" className="px-8 py-4 bg-white text-black rounded-2xl font-black uppercase tracking-widest text-[10px] hover:scale-105 active:scale-95 transition-all flex items-center gap-2 shadow-2xl">
-                        <UserPlus className="w-4 h-4" /> Create Account
-                    </Link>
-                </div>
-            )}
 
             {/* Subject Selector */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

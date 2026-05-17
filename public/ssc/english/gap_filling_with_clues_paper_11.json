@@ -1,0 +1,104 @@
+{
+  "testId": "gap_filling_paper_11",
+  "title": "Gap Filling With Clues - Paper 11 (Parts of Speech & Articles)",
+  "description": "প্রতিটি প্রশ্নে একটি প্যাসেজ ও একটি শব্দবক্স দেওয়া আছে। সঠিক শব্দের রূপ ব্যবহার করে শূন্যস্থান পূরণ করুন। প্রতিটি অপশনের জন্য বাংলায় ব্যাখ্যা দেওয়া আছে।",
+  "questions": [
+    {
+      "id": 1,
+      "passage": "The Kaptai Lake is located in the hilly district of Rangamati. This is the (a) _____ lake in Bangladesh. The (b) _____ beauty of this lake is well-known to all. This huge lake stretches for miles touching different parts (c) _____ Rangamati district. There are rows of high mountains all around. Between the hills flows the lake water in a zigzag (d) _____. The bottoms of the (e) _____ are submerged in water. When we look at them from a distance, it seems that (f) _____ hills are floating on water. Being attracted (g) _____ its captivating natural beauty, every year a great number of nature lovers (h) _____ it. There is an arrangement for boat journey as well. A number (i) _____ colourful boats are ready to welcome the tourists. A (j) _____ breeze is always blowing. It cools the tourists and soothes their minds.",
+      "boxWords": ["gentle", "big", "by", "the", "way", "of", "visit", "hills", "nature"],
+      "blanks": [
+        {
+          "blankId": "a",
+          "correct": "biggest",
+          "options": [
+            { "text": "biggest", "isCorrect": true, "explanationBn": "সুপারলেটিভ ডিগ্রি 'the' দিয়ে নির্দেশ করে যে এটি সবচেয়ে বড়। 'big' থেকে '-est' যোগে superlative হয়েছে।" },
+            { "text": "big", "isCorrect": false, "explanationBn": "'big' শুধু বড় বোঝায়, কিন্তু এখানে 'সবচেয়ে বড়' বুঝাতে superlative 'biggest' প্রয়োজন।" },
+            { "text": "bigger", "isCorrect": false, "explanationBn": "'bigger' তুলনামূলক অর্থ দেয় (দুটির মধ্যে বড়)। এখানে একক লেকের কথা, তাই 'biggest' সঠিক।" }
+          ]
+        },
+        {
+          "blankId": "b",
+          "correct": "natural",
+          "options": [
+            { "text": "natural", "isCorrect": true, "explanationBn": "'nature' (বিশেষ্য) থেকে 'natural' (বিশেষণ) হয়েছে, যা 'beauty' নাম্বার গুণ বোঝায়।" },
+            { "text": "nature", "isCorrect": false, "explanationBn": "'nature' বিশেষ্য, কিন্তু এখানে বিশেষণ হিসেবে 'beauty' কে modify করতে হবে। তাই 'natural' লাগবে।" },
+            { "text": "naturally", "isCorrect": false, "explanationBn": "'naturally' ক্রিয়া বিশেষণ, adjective 'beauty' কে modify করতে পারে না।" }
+          ]
+        },
+        {
+          "blankId": "c",
+          "correct": "of",
+          "options": [
+            { "text": "of", "isCorrect": true, "explanationBn": "'different parts of Rangamati' — 'of' দিয়ে সম্পর্ক প্রকাশ করে, অর্থ 'রাঙ্গামাটির বিভিন্ন অংশ'।" },
+            { "text": "by", "isCorrect": false, "explanationBn": "'by' দিয়ে সাধারণত পদ্ধতি বা কর্তা বোঝায়, এখানে মানায় না।" },
+            { "text": "from", "isCorrect": false, "explanationBn": "'from' দিয়ে উৎস বা দূরত্ব বোঝায়, এখানে অধিকার বাচক 'of' প্রয়োজন।" }
+          ]
+        },
+        {
+          "blankId": "d",
+          "correct": "way",
+          "options": [
+            { "text": "way", "isCorrect": true, "explanationBn": "'in a zigzag way' অর্থ বাঁকা পথে। 'way' মানে পথ বা ধারা।" },
+            { "text": "hill", "isCorrect": false, "explanationBn": "'hill' পাহাড়, এখানে পানির প্রবাহ পথ বোঝাতে 'way' সঠিক।" },
+            { "text": "nature", "isCorrect": false, "explanationBn": "'nature' প্রকৃতি, বাঁকা পথের সাথে সম্পর্কহীন।" }
+          ]
+        },
+        {
+          "blankId": "e",
+          "correct": "hills",
+          "options": [
+            { "text": "hills", "isCorrect": true, "explanationBn": "এখানে 'the bottoms of the hills' — পাহাড়ের তলদেশ। 'hills' বহুবচন, কারণ অনেক পাহাড়।" },
+            { "text": "hill", "isCorrect": false, "explanationBn": "'hill' একবচন, কিন্তু এখানে অনেক পাহাড় বোঝাচ্ছে, তাই বহুবচন 'hills' লাগবে।" },
+            { "text": "mountain", "isCorrect": false, "explanationBn": "প্যাসেজে 'high mountains' আছে, তবে বক্সে 'hills' ছিল। প্রদত্ত শব্দ থেকেই উত্তর দিতে হবে।" }
+          ]
+        },
+        {
+          "blankId": "f",
+          "correct": "the",
+          "options": [
+            { "text": "the", "isCorrect": true, "explanationBn": "নির্দিষ্ট পাহাড়গুলোকে বোঝাতে Definite article 'the' বসে। পূর্বে উল্লেখিত hills-কে নির্দেশ করছে।" },
+            { "text": "a", "isCorrect": false, "explanationBn": "'a' অনির্দিষ্ট, কিন্তু এখানে নির্দিষ্ট পাহাড়ের কথা বলছে, তাই 'the' হবে।" },
+            { "text": "those", "isCorrect": false, "explanationBn": "'those' নির্দেশক সর্বনাম, কিন্তু এখানে article 'the' বসানো Grammar সম্মত।" }
+          ]
+        },
+        {
+          "blankId": "g",
+          "correct": "by",
+          "options": [
+            { "text": "by", "isCorrect": true, "explanationBn": "'attracted by' — 'দ্বারা আকৃষ্ট'। Passive অর্থে 'by' ব্যবহার হয়।" },
+            { "text": "to", "isCorrect": false, "explanationBn": "'attracted to' সাধারণত ব্যক্তির প্রতি আকর্ষণ বুঝায়, এখানে প্রকৃতির সৌন্দর্য, তাই 'by' ভালো।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'attracted with' ভুল প্রয়োগ। সঠিক preposition 'by'।" }
+          ]
+        },
+        {
+          "blankId": "h",
+          "correct": "visit",
+          "options": [
+            { "text": "visit", "isCorrect": true, "explanationBn": "প্রতি বছর প্রকৃতিপ্রেমীরা 'ভিজিট' করে — ক্রিয়া হিসেবে 'visit' বসেছে।" },
+            { "text": "visiting", "isCorrect": false, "explanationBn": "'visiting' gerund বা participle, কিন্তু এখানে main verb হিসেবে simple present 'visit' লাগবে।" },
+            { "text": "visits", "isCorrect": false, "explanationBn": "subject 'a great number of nature lovers' বহুবচন, তাই 'visit' হবে, 'visits' নয়।" }
+          ]
+        },
+        {
+          "blankId": "i",
+          "correct": "of",
+          "options": [
+            { "text": "of", "isCorrect": true, "explanationBn": "'A number of colourful boats' — 'of' দিয়ে সম্পর্ক স্থাপন করে, অর্থ 'রঙিন নৌকার একটি সংখ্যা'।" },
+            { "text": "for", "isCorrect": false, "explanationBn": "'for' উদ্দেশ্য বোঝায়, এখানে অধিকার বা সম্পর্ক বোঝাতে 'of' প্রয়োজন।" },
+            { "text": "with", "isCorrect": false, "explanationBn": "'with' সহযোগিতা বা সঙ্গে বোঝায়, এখানে সঠিক নয়।" }
+          ]
+        },
+        {
+          "blankId": "j",
+          "correct": "gentle",
+          "options": [
+            { "text": "gentle", "isCorrect": true, "explanationBn": "'gentle breeze' — মৃদু বাতাস। এখানে adjective 'gentle' 'breeze' কে বিশেষিত করছে।" },
+            { "text": "gently", "isCorrect": false, "explanationBn": "'gently' ক্রিয়া বিশেষণ, কিন্তু এখানে বিশেষণ হিসেবে noun এর পূর্বে বসবে।" },
+            { "text": "gentleness", "isCorrect": false, "explanationBn": "'gentleness' বিশেষ্য (কোমলতা), adjective নয়।" }
+          ]
+        }
+      ]
+    }
+  ]
+}

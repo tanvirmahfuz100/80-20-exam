@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
-import { supabase } from '../supabase';
+import { api } from '../services/api';
 import {
     User, Mail, Phone, GraduationCap, CheckCircle2,
     Save, AlertCircle, Loader2, ShieldCheck
@@ -45,15 +45,12 @@ const Settings = () => {
         setMessage({ type: '', text: '' });
 
         try {
-            const { error } = await supabase
-                .from('profiles')
-                .update({
-                    username: formData.username,
-                    phone_number: formData.phone_number,
-                    target_exams: formData.target_exams,
-                    updated_at: new Date()
-                })
-                .eq('id', user.id);
+            const { error } = await api.updateProfile(user.id, {
+                username: formData.username,
+                phone_number: formData.phone_number,
+                target_exams: formData.target_exams,
+                updated_at: new Date().toISOString()
+            });
 
             if (error) throw error;
             setMessage({ type: 'success', text: 'Profile updated successfully!' });
