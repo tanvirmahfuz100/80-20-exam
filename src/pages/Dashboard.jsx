@@ -7,11 +7,11 @@ import { Rocket, CheckList } from '../components/Illustrations';
 import LottieAnimation from '../components/LottieAnimation';
 import gameControllerAnimation from '../assets/game-controller.json';
 import speedometerAnimation from '../assets/speedometer.json';
-import { getChallengeState, getDailyChallengeKey, getWeeklyChallengeKey, getUserStats } from '../services/levels';
+import { getChallengeState, getDailyChallengeKey, getWeeklyChallengeKey, getDailyChallengesForExam, getWeeklyChallengeForExam, getDailyChallengeExpiry, getWeeklyChallengeExpiry, getUserStats } from '../services/levels';
 import {
   Target, Brain, BookOpen, TrendingUp, ArrowRight,
   Crown, Flame, BadgeCheck, Clock, Zap,
-  Star, Gamepad, Gauge, Trophy, Layers, Book, GraduationCap, Library, ScrollText, Sparkles, Calendar
+  Star, Gamepad, Gauge, Trophy, Layers, Book, GraduationCap, Library, ScrollText, Sparkles, Calendar, Timer
 } from 'lucide-react';
 
 const rankFromAccuracy = (accuracy) => {
@@ -75,12 +75,26 @@ const Dashboard = () => {
   const [focusAreas, setFocusAreas] = React.useState([]);
   const [loading, setLoading] = React.useState(true);
 
-  const [challengeState, setChallengeState] = useState({ daily: null, weekly: null });
+  const [dailyChallenges, setDailyChallenges] = useState([]);
+  const [weeklyChallenge, setWeeklyChallengeState] = useState(null);
   const [userGameStats, setUserGameStats] = useState({ total_xp: 0, total_stars: 0 });
+  const [countdown, setCountdown] = useState({ daily: { hours: 0, minutes: 0 }, weekly: { days: 0, hours: 0 } });
 
   useEffect(() => {
-    setChallengeState(getChallengeState());
     if (user?.id) setUserGameStats(getUserStats(user.id));
+    const examId = 'ssc';
+    setDailyChallenges(getDailyChallengesForExam(examId));
+    setWeeklyChallengeState(getWeeklyChallengeForExam(examId));
+
+    const tick = () => {
+      setCountdown({
+        daily: getDailyChallengeExpiry(),
+        weekly: getWeeklyChallengeExpiry(),
+      });
+    };
+    tick();
+    const interval = setInterval(tick, 60000);
+    return () => clearInterval(interval);
   }, [user]);
 
   React.useEffect(() => {
@@ -293,72 +307,102 @@ const Dashboard = () => {
         </div>
       </Motion.div>
 
-      {/* ─── Challenges ─── */}
-      <Motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-2 gap-3">
-        <Link to="/practice" className="relative overflow-hidden rounded-2xl border border-primary/15 bg-primary/[0.04] p-4 md:p-5 hover:bg-primary/[0.07] transition-all group">
-          <div className="flex items-start justify-between mb-2">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-primary/15 flex items-center justify-center">
-                <Sparkles className="w-4 h-4 text-primary" />
-              </div>
-              <div>
-                <h3 className="text-xs font-black text-white tracking-tight">Daily Challenge</h3>
-                <p className="text-[10px] text-white/40 font-medium">
-                  {challengeState.daily?.date === getDailyChallengeKey()
-                    ? challengeState.daily.completed
-                      ? 'Completed today'
-                      : 'In progress'
-                    : 'Start a challenge'}
-                </p>
-              </div>
-            </div>
-            <div className={`px-2 py-0.5 rounded-full text-[8px] font-black uppercase tracking-wider ${
-              challengeState.daily?.date === getDailyChallengeKey() && challengeState.daily.completed
-                ? 'bg-emerald-500/15 text-emerald-400'
-                : 'bg-primary/10 text-primary'
-            }`}>
-              {challengeState.daily?.date === getDailyChallengeKey() && challengeState.daily.completed ? 'Done' : '+50 XP'}
-            </div>
+      {/* ─── Daily Challenges ─── */}
+      {dailyChallenges.length > 0 && (
+        <Motion.div variants={itemVariants}>
+          <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-3 flex items-center gap-2">
+            <Sparkles className="w-3.5 h-3.5 text-primary" />
+            Daily Missions
+            <span className="text-[9px] font-medium text-white/20 normal-case flex items-center gap-1 ml-auto">
+              <Timer className="w-3 h-3" />
+              {countdown.daily.hours}h {countdown.daily.minutes}m left
+            </span>
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-2.5">
+            {dailyChallenges.map((ch) => (
+              <Link
+                key={ch.id}
+                to={`/levels?file=${encodeURIComponent(ch.file)}&title=${encodeURIComponent(ch.label)}&chapterId=${ch.chapterId}`}
+                className={`relative overflow-hidden rounded-2xl border p-4 transition-all group ${
+                  ch.completed
+                    ? 'border-emerald-500/20 bg-emerald-500/[0.05]'
+                    : 'border-white/5 bg-surface hover:border-primary/30 hover:bg-white/[0.03]'
+                }`}
+              >
+                <div className="flex items-start justify-between mb-2">
+                  <div>
+                    <h3 className="text-xs font-black text-white tracking-tight">{ch.label}</h3>
+                    <p className="text-[10px] text-white/30 font-medium mt-0.5">Level {ch.levelNumber}</p>
+                  </div>
+                  {ch.completed ? (
+                    <BadgeCheck className="w-5 h-5 text-emerald-400 shrink-0" />
+                  ) : (
+                    <Sparkles className="w-4 h-4 text-primary/40" />
+                  )}
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className={`px-2 py-0.5 rounded-full text-[8px] font-black uppercase tracking-wider ${
+                    ch.completed
+                      ? 'bg-emerald-500/15 text-emerald-400'
+                      : 'bg-primary/10 text-primary'
+                  }`}>
+                    {ch.completed ? 'Done' : `+${ch.bonusXp} XP`}
+                  </div>
+                  {!ch.completed && (
+                    <span className="text-[9px] text-white/20 font-medium">Start →</span>
+                  )}
+                </div>
+              </Link>
+            ))}
           </div>
-          <div className="flex items-center gap-1 text-[10px] text-white/30 font-medium">
-            <Calendar className="w-3 h-3" />
-            <span>Resets at midnight (UTC+6)</span>
-          </div>
-          <ArrowRight className="absolute bottom-3 right-3 w-4 h-4 text-primary/30 group-hover:text-primary/60 transition-all group-hover:translate-x-0.5" />
-        </Link>
+        </Motion.div>
+      )}
 
-        <Link to="/practice" className="relative overflow-hidden rounded-2xl border border-yellow-500/15 bg-yellow-500/[0.04] p-4 md:p-5 hover:bg-yellow-500/[0.07] transition-all group">
-          <div className="flex items-start justify-between mb-2">
+      {/* ─── Weekly Challenge ─── */}
+      {weeklyChallenge && (
+        <Motion.div variants={itemVariants}>
+          <Link
+            to="/practice"
+            className="relative overflow-hidden rounded-2xl border border-yellow-500/15 bg-yellow-500/[0.04] p-4 md:p-5 hover:bg-yellow-500/[0.07] transition-all group block"
+          >
+            <div className="flex items-start justify-between mb-3">
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 rounded-lg bg-yellow-500/15 flex items-center justify-center">
+                  <Flame className="w-4 h-4 text-yellow-400" />
+                </div>
+                <div>
+                  <h3 className="text-xs font-black text-white tracking-tight">Weekly: {weeklyChallenge.label}</h3>
+                  <p className="text-[10px] text-white/40 font-medium flex items-center gap-1">
+                    <Timer className="w-3 h-3" />
+                    {countdown.weekly.days}d {countdown.weekly.hours}h remaining
+                  </p>
+                </div>
+              </div>
+              <div className={`px-2 py-0.5 rounded-full text-[8px] font-black uppercase tracking-wider ${
+                weeklyChallenge.completed ? 'bg-emerald-500/15 text-emerald-400' : 'bg-yellow-500/10 text-yellow-400'
+              }`}>
+                {weeklyChallenge.completed ? 'Done' : `+${weeklyChallenge.bonusXp} XP`}
+              </div>
+            </div>
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-yellow-500/15 flex items-center justify-center">
-                <Flame className="w-4 h-4 text-yellow-400" />
+              <div className="flex-1 h-1.5 bg-white/10 rounded-full overflow-hidden">
+                <Motion.div
+                  className="h-full rounded-full bg-yellow-400"
+                  initial={{ width: 0 }}
+                  animate={{ width: `${(weeklyChallenge.completedLevels?.length || 0) / weeklyChallenge.totalLevels * 100}%` }}
+                  transition={{ duration: 0.6 }}
+                />
               </div>
-              <div>
-                <h3 className="text-xs font-black text-white tracking-tight">Weekly Challenge</h3>
-                <p className="text-[10px] text-white/40 font-medium">
-                  {challengeState.weekly?.weekStart === getWeeklyChallengeKey()
-                    ? challengeState.weekly.completed
-                      ? 'Completed this week'
-                      : `${challengeState.weekly.completedLevels?.length || 0}/${challengeState.weekly.totalLevels || '?'} levels done`
-                    : 'Complete a full section'}
-                </p>
-              </div>
+              <span className="text-[10px] font-black tabular-nums text-yellow-400/70 whitespace-nowrap">
+                {weeklyChallenge.completedLevels?.length || 0}/{weeklyChallenge.totalLevels}
+              </span>
             </div>
-            <div className={`px-2 py-0.5 rounded-full text-[8px] font-black uppercase tracking-wider ${
-              challengeState.weekly?.weekStart === getWeeklyChallengeKey() && challengeState.weekly.completed
-                ? 'bg-emerald-500/15 text-emerald-400'
-                : 'bg-yellow-500/10 text-yellow-400'
-            }`}>
-              +200 XP
-            </div>
-          </div>
-          <div className="flex items-center gap-1 text-[10px] text-white/30 font-medium">
-            <Calendar className="w-3 h-3" />
-            <span>Resets Sunday midnight (UTC+6)</span>
-          </div>
-          <ArrowRight className="absolute bottom-3 right-3 w-4 h-4 text-yellow-500/30 group-hover:text-yellow-500/60 transition-all group-hover:translate-x-0.5" />
-        </Link>
-      </Motion.div>
+            {!weeklyChallenge.completed && (
+              <ArrowRight className="absolute bottom-3 right-3 w-4 h-4 text-yellow-500/30 group-hover:text-yellow-500/60 transition-all group-hover:translate-x-0.5" />
+            )}
+          </Link>
+        </Motion.div>
+      )}
 
       {/* ─── Main Content ─── */}
       {hasEnoughData ? (

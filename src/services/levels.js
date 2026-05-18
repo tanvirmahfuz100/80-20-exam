@@ -113,13 +113,23 @@ export function addStars(userId, amount) {
 }
 
 export function getChallengeState() {
-  return readStorage(CHALLENGES_KEY, { daily: null, weekly: null });
+  return readStorage(CHALLENGES_KEY, { daily: [], weekly: null });
 }
 
 export function getDailyChallengeKey() {
   const now = new Date();
   const utc6 = new Date(now.getTime() + 6 * 60 * 60 * 1000);
   return utc6.toISOString().split('T')[0];
+}
+
+export function getDailyChallengeExpiry() {
+  const now = new Date();
+  const utc6 = new Date(now.getTime() + 6 * 60 * 60 * 1000);
+  const midnight = new Date(Date.UTC(utc6.getUTCFullYear(), utc6.getUTCMonth(), utc6.getUTCDate() + 1));
+  const diffMs = midnight.getTime() - utc6.getTime();
+  const hours = Math.floor(diffMs / 3600000);
+  const minutes = Math.floor((diffMs % 3600000) / 60000);
+  return { hours, minutes, totalMs: diffMs };
 }
 
 export function getWeeklyChallengeKey() {
@@ -131,37 +141,117 @@ export function getWeeklyChallengeKey() {
   return sunday.toISOString().split('T')[0];
 }
 
-export function setDailyChallenge(config) {
-  const challenges = getChallengeState();
-  challenges.daily = { date: getDailyChallengeKey(), ...config };
-  writeStorage(CHALLENGES_KEY, challenges);
+export function getWeeklyChallengeExpiry() {
+  const now = new Date();
+  const utc6 = new Date(now.getTime() + 6 * 60 * 60 * 1000);
+  const day = utc6.getUTCDay();
+  const nextSunday = new Date(Date.UTC(utc6.getUTCFullYear(), utc6.getUTCMonth(), utc6.getUTCDate() + (7 - day)));
+  const diffMs = nextSunday.getTime() - utc6.getTime();
+  const days = Math.floor(diffMs / 86400000);
+  const hours = Math.floor((diffMs % 86400000) / 3600000);
+  return { days, hours, totalMs: diffMs };
 }
 
-export function setWeeklyChallenge(config) {
+export function getDailyChallengesForExam(examId) {
   const challenges = getChallengeState();
-  challenges.weekly = { weekStart: getWeeklyChallengeKey(), ...config };
-  writeStorage(CHALLENGES_KEY, challenges);
-}
+  const today = getDailyChallengeKey();
+  const active = (challenges.daily || []).filter(c => c.date === today);
+  if (active.length > 0) return active;
 
-export function completeDailyChallenge(userId) {
-  const challenges = getChallengeState();
-  if (challenges.daily && challenges.daily.date === getDailyChallengeKey() && !challenges.daily.completed) {
-    challenges.daily.completed = true;
-    addXp(userId, 50);
-    writeStorage(CHALLENGES_KEY, challenges);
+  const sections = getExamSections(examId);
+  if (sections.length === 0) return [];
+
+  const selected = [];
+  const shuffled = [...sections].sort(() => Math.random() - 0.5);
+  const count = Math.min(3, shuffled.length);
+
+  for (let i = 0; i < count; i++) {
+    const section = shuffled[i];
+    selected.push({
+      date: today,
+      id: `daily_${examId}_${i}`,
+      label: section.label,
+      file: section.file,
+      chapterId: section.chapterId,
+      levelNumber: 1,
+      completed: false,
+      bonusXp: 50,
+    });
   }
+
+  challenges.daily = [...(challenges.daily || []), ...selected];
+  writeStorage(CHALLENGES_KEY, challenges);
+  return selected;
 }
 
-export function advanceWeeklyChallenge(userId, sectionId) {
+export function getExamSections(examId) {
+  const allChapters = {
+    ssc: [
+      { label: 'Gap Filling', file: 'ssc/english/gap_filling_with_clues_paper_11.json', chapterId: 'ssc_gap_filling' },
+      { label: 'Changing Sentences', file: 'ssc/english/changing_sentences.json', chapterId: 'ssc_changing_sentences' },
+      { label: 'Completing Sentences', file: 'ssc/english/completing_sentences.json', chapterId: 'ssc_completing_sentences' },
+      { label: 'Substitution Table', file: 'ssc/english/substitution_table.json', chapterId: 'ssc_substitution_table' },
+      { label: 'Narrative Style', file: 'ssc/english/right_form_of_verbs_and_narrative.json', chapterId: 'ssc_narrative' },
+    ],
+    hsc: [
+      { label: 'Gap Filling', file: 'hsc/english/gap_filling.json', chapterId: 'hsc_gap_filling' },
+      { label: 'Changing Sentences', file: 'hsc/english/changing_sentences.json', chapterId: 'hsc_changing_sentences' },
+      { label: 'Completing Sentences', file: 'hsc/english/completing_sentences.json', chapterId: 'hsc_completing_sentences' },
+      { label: 'Substitution Table', file: 'hsc/english/substitution_table.json', chapterId: 'hsc_substitution_table' },
+    ],
+    iba: [
+      { label: 'English', file: 'iba/english/vocabulary.json', chapterId: 'iba_english' },
+      { label: 'Math', file: 'iba/math/arithmetic.json', chapterId: 'iba_math' },
+      { label: 'Analytical', file: 'iba/analytical/analytical.json', chapterId: 'iba_analytical' },
+    ],
+  };
+  return allChapters[examId] || [];
+}
+
+export function completeDailyChallengeById(userId, challengeId) {
+  const challenges = getChallengeState();
+  const today = getDailyChallengeKey();
+  const idx = (challenges.daily || []).findIndex(c => c.id === challengeId && c.date === today && !c.completed);
+  if (idx !== -1) {
+    challenges.daily[idx].completed = true;
+    addXp(userId, challenges.daily[idx].bonusXp || 50);
+    writeStorage(CHALLENGES_KEY, challenges);
+    return true;
+  }
+  return false;
+}
+
+export function getWeeklyChallengeForExam(examId) {
+  const challenges = getChallengeState();
+  const weekStart = getWeeklyChallengeKey();
+  if (challenges.weekly?.weekStart === weekStart) return challenges.weekly;
+
+  const sections = getExamSections(examId);
+  if (sections.length === 0) return null;
+
+  const weekly = {
+    weekStart,
+    examId,
+    label: `Full ${examId.toUpperCase()} Practice`,
+    totalLevels: sections.length,
+    completedLevels: [],
+    completed: false,
+    bonusXp: 200,
+  };
+  challenges.weekly = weekly;
+  writeStorage(CHALLENGES_KEY, challenges);
+  return weekly;
+}
+
+export function advanceWeeklyChallenge(userId, chapterId) {
   const challenges = getChallengeState();
   if (challenges.weekly && challenges.weekly.weekStart === getWeeklyChallengeKey()) {
     if (!challenges.weekly.completedLevels) challenges.weekly.completedLevels = [];
-    if (!challenges.weekly.completedLevels.includes(sectionId)) {
-      challenges.weekly.completedLevels.push(sectionId);
-      const totalLevels = challenges.weekly.totalLevels || 1;
-      if (challenges.weekly.completedLevels.length >= totalLevels) {
+    if (!challenges.weekly.completedLevels.includes(chapterId)) {
+      challenges.weekly.completedLevels.push(chapterId);
+      if (challenges.weekly.completedLevels.length >= challenges.weekly.totalLevels) {
         challenges.weekly.completed = true;
-        addXp(userId, 200);
+        addXp(userId, challenges.weekly.bonusXp || 200);
       }
       writeStorage(CHALLENGES_KEY, challenges);
     }

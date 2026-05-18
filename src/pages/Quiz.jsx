@@ -16,7 +16,7 @@ import {
 import GapFillPassage from '../components/GapFillPassage';
 import SubstitutionTableExercise from '../components/SubstitutionTableExercise';
 import { playSound } from '../utils/sounds';
-import { computeLevels, saveLevelProgress, addXp, addStars, completeDailyChallenge, advanceWeeklyChallenge } from '../services/levels';
+import { computeLevels, saveLevelProgress, addXp, addStars, completeDailyChallengeById, advanceWeeklyChallenge } from '../services/levels';
 
 const stripMath = (text) => {
   if (!text) return '';
@@ -194,6 +194,7 @@ const Quiz = () => {
     const [currentLevel, setCurrentLevel] = useState(null);
     const [levelSessionSaved, setLevelSessionSaved] = useState(false);
     const [wrongAttempts, setWrongAttempts] = useState(0);
+    const scoredIdsRef = useRef(new Set());
     const levelRef = useRef(null);
 
     const [quizFontSize, setQuizFontSize] = useState(() => {
@@ -273,6 +274,7 @@ const Quiz = () => {
             setIsFinished(false);
             setResults([]);
             setWrongAttempts(0);
+            scoredIdsRef.current = new Set();
             sessionSavedRef.current = false;
             setLevelSessionSaved(false);
             finishSoundPlayedRef.current = false;
@@ -397,18 +399,19 @@ const Quiz = () => {
 
             if (currentLevel && chapterId && !levelSessionSaved) {
                 const accuracy = questions.length > 0 ? Math.round((score / questions.length) * 100) : 0;
-                const stars = questions.length - score;
+                const levelStars = wrongAttempts;
                 saveLevelProgress(user.id, chapterId, currentLevel, {
                     completed: true,
                     accuracy,
                     xpEarned: earnedXp,
-                    starsEarned: stars,
+                    starsEarned: levelStars,
                 });
                 addXp(user.id, earnedXp);
-                if (stars > 0) addStars(user.id, stars);
+                if (levelStars > 0) addStars(user.id, levelStars);
 
                 if (isChallenge && challengeType === 'daily') {
-                    completeDailyChallenge(user.id);
+                    const challengeId = `daily_${challengeType}_${chapterId}`;
+                    completeDailyChallengeById(user.id, challengeId);
                 }
                 if (isChallenge && challengeType === 'weekly') {
                     advanceWeeklyChallenge(user.id, chapterId);
@@ -900,21 +903,25 @@ const Quiz = () => {
                             difficulty={gapFillGroup.difficulty}
                             fontSize={quizFontSize}
                             onBlankAnswer={(blankId, isCorrect, selectedText, explanationBn, explanationEn) => {
-                                if (isCorrect) setScore(s => s + 1);
-
                                 const blankIdx = gapFillGroup.blanks.findIndex(b => b.blankId === blankId);
                                 if (blankIdx < 0) return;
                                 const actualQ = questions[gapFillGroup.startIndex + blankIdx];
                                 if (!actualQ) return;
 
-                                if (!isCorrect) {
-                                    setWrongAttempts(w => w + 1);
-                                    if (actualQ._mistakeId) {
-                                        resetStage(actualQ._mistakeId);
+                                const isFirstAttempt = !scoredIdsRef.current.has(actualQ.id);
+                                if (isFirstAttempt) {
+                                    scoredIdsRef.current.add(actualQ.id);
+                                    if (isCorrect) {
+                                        setScore(s => s + 1);
                                     } else {
-                                        addMistake(actualQ.id || blankId, actualQ, { file, title, chapterId });
+                                        setWrongAttempts(w => w + 1);
+                                        if (actualQ._mistakeId) {
+                                            resetStage(actualQ._mistakeId);
+                                        } else {
+                                            addMistake(actualQ.id || blankId, actualQ, { file, title, chapterId });
+                                        }
+                                        setMistakeCount(getMistakesDueCount());
                                     }
-                                    setMistakeCount(getMistakesDueCount());
                                 }
 
                                 const blankTime = Math.round((Date.now() - questionStartRef.current) / 1000);

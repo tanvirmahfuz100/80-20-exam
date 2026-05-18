@@ -4,9 +4,9 @@ import {
   addXp as _addXp,
   addStars as _addStars,
   getChallengeState as _getChallengeState,
-  setDailyChallenge as _setDailyChallenge,
-  setWeeklyChallenge as _setWeeklyChallenge,
-  completeDailyChallenge as _completeDailyChallenge,
+  getDailyChallengesForExam as _getDailyChallengesForExam,
+  getWeeklyChallengeForExam as _getWeeklyChallengeForExam,
+  completeDailyChallengeById as _completeDailyChallengeById,
   advanceWeeklyChallenge as _advanceWeeklyChallenge
 } from './levels';
 
@@ -452,18 +452,16 @@ export const api = {
         return { data: _getChallengeState(), error: null };
     },
 
-    setDailyChallenge: async (config) => {
-        _setDailyChallenge(config);
-        return { data: true, error: null };
+    getDailyChallengesForExam: async (examId) => {
+        return { data: _getDailyChallengesForExam(examId), error: null };
     },
 
-    setWeeklyChallenge: async (config) => {
-        _setWeeklyChallenge(config);
-        return { data: true, error: null };
+    getWeeklyChallengeForExam: async (examId) => {
+        return { data: _getWeeklyChallengeForExam(examId), error: null };
     },
 
-    completeDailyChallenge: async (userId) => {
-        _completeDailyChallenge(userId);
+    completeDailyChallengeById: async (userId, challengeId) => {
+        _completeDailyChallengeById(userId, challengeId);
         return { data: true, error: null };
     },
 
