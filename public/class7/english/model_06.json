@@ -1,0 +1,515 @@
+{
+  "_type": "model_test",
+  "modelId": "m06",
+  "title": "Model Test 06 - English 1st Paper",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Passage & Comprehension",
+      "type": "passage_mcq",
+      "content": {
+        "passage": "Two friends were walking through a desert. After a while they had a quarrel, and one friend slapped the other. The friend who got slapped was hurt. But without saying anything he wrote in the sand: 'Today my best friend slapped me in the face.' They kept walking until they found an oasis. There they decided to take a bath. The one who was slapped before got stuck in the quicksand and started going down. But his friend saved him. After he was saved, he wrote on a stone: 'Today my best friend saved my life.' The friend who slapped and saved his best friend asked, 'After I hurt you, you wrote in the sand and now you write on a stone. Why?' The other friend replied, 'When someone hurts us, we should write it down in the sand. The wind can erase it away. But when someone does something good for us, we should engrave it on stone so no wind can erase it.' 'Do you know the moral of the story?' Flora asked. Farabi nodded and smiled, 'Yes, we should forget our hurts, but remember our good deeds forever.'",
+        "translation_bn": "দুই বন্ধু এক মরুভূমির মধ্য দিয়ে হাঁটছিল। কিছুক্ষণ পরে তাদের মধ্যে ঝগড়া বাধল এবং এক বন্ধু অপর জনকে চড় বসিয়ে দিল। যে বন্ধুটি চড় খেল সে কষ্ট পেলো। কিন্তু কোনো কিছুই না বলে সে বালিতে লিখল: আজ আমার সবচেয়ে ভালো বন্ধু আমার গালে চড় দিল। তারা হাঁটতে থাকল যতক্ষণ না তারা একটি মরুদ্যান পেল। তারা সেখানে গোসল করার সিদ্ধান্ত নিল। যে পূর্বে চড় খেয়েছিল সে চোরাবালিতে আটকে গেল এবং তলিয়ে যেতে লাগল। কিন্তু তার বন্ধু তাকে বাঁচাল। বেঁচে যাওয়ার পর সে পাথরে লিখল: আজ আমার সবচেয়ে ভালো বন্ধু আমার জীবন বাঁচাল। যে বন্ধু চড় দিয়েছিল এবং তার সবচেয়ে ভালো বন্ধুর জীবন বাঁচিয়েছিল সে জিজ্ঞেস করলো, 'আমি তোমাকে আঘাত করার পর তুমি বালিতে লিখেছিলে আর এখন তুমি পাথরের ওপর লিখলে। কেন?' অপর বন্ধু জবাব দিল, 'যখন কেউ আমাদেরকে কষ্ট দেয়, তা আমাদের বালিতে লিখে রাখা উচিত। বাতাস তা মুছে ফেলতে পারে। কিন্তু যখন কেউ আমাদের জন্য ভালো কিছু করে, তখন তা আমাদের পাথরে খোদাই করে রাখা উচিত যাতে কোনো বাতাসই তা মুছতে না পারে।' 'তুমি কি এই গল্পটির নীতিকথা জানো?' ফ্লোরা জিজ্ঞাসা করলো। ফারাবি মাথা নাড়ল এবং হাসল, 'হ্যাঁ, আমাদের আঘাতগুলো ভুলে যাওয়া উচিত, কিন্তু ভালো কাজগুলো চিরদিন মনে রাখা উচিত।'",
+        "vocabulary": [
+          { "word": "desert", "pos": "n", "meaning_en": "a barren land with sand", "meaning_bn": "মরুভূমি", "synonym": "wasteland", "antonym": "greenery" },
+          { "word": "quarrel", "pos": "n", "meaning_en": "an argument", "meaning_bn": "ঝগড়া", "synonym": "discord", "antonym": "concord" },
+          { "word": "slap", "pos": "v", "meaning_en": "to strike with open hand", "meaning_bn": "চড় দেওয়া", "synonym": "smack", "antonym": "caress" },
+          { "word": "quicksand", "pos": "n", "meaning_en": "loose wet sand", "meaning_bn": "চোরাবালি", "synonym": "quicksand", "antonym": "" },
+          { "word": "oasis", "pos": "n", "meaning_en": "a fertile area in desert", "meaning_bn": "মরুদ্যান", "synonym": "spring", "antonym": "desert" },
+          { "word": "engrave", "pos": "v", "meaning_en": "to carve on hard surface", "meaning_bn": "খোদাই করা", "synonym": "carve", "antonym": "erase" },
+          { "word": "erase", "pos": "v", "meaning_en": "to rub out", "meaning_bn": "মুছে ফেলা", "synonym": "remove", "antonym": "restore" },
+          { "word": "moral", "pos": "n", "meaning_en": "a lesson from a story", "meaning_bn": "নীতিকথা", "synonym": "lesson", "antonym": "" }
+        ],
+        "questions": [
+          {
+            "id": "1i",
+            "question": "Who hurt Farabi?",
+            "options": ["Flora", "One of his cousins", "Harun", "His teammates"],
+            "correct": 2,
+            "explanation_bn": "ফারাবিকে তার বন্ধু হারুন কষ্ট দিয়েছিল।",
+            "explanation_en": "Farabi was hurt by his friend Harun."
+          },
+          {
+            "id": "1ii",
+            "question": "Flora tells Farabi a story to --- him.",
+            "options": ["console", "appreciate", "insult", "cheer"],
+            "correct": 0,
+            "explanation_bn": "ফ্লোরা ফারাবিকে সান্ত্বনা দেওয়ার জন্য একটি গল্প বলে।",
+            "explanation_en": "Flora tells Farabi a story to console him."
+          },
+          {
+            "id": "1iii",
+            "question": "What was the story about?",
+            "options": ["revenge", "anger", "sorrow", "friendship"],
+            "correct": 3,
+            "explanation_bn": "গল্পটি বন্ধুত্ব সম্পর্কে।",
+            "explanation_en": "The story was about friendship."
+          },
+          {
+            "id": "1iv",
+            "question": "One of the friends was going to drown in the ---",
+            "options": ["sand", "sea", "pond", "quicksand"],
+            "correct": 3,
+            "explanation_bn": "এক বন্ধু চোরাবালিতে ডুবে যাচ্ছিল।",
+            "explanation_en": "One friend was drowning in the quicksand."
+          },
+          {
+            "id": "1v",
+            "question": "Farabi --- the moral of the story.",
+            "options": ["understood", "disagreed", "ignored", "denied"],
+            "correct": 0,
+            "explanation_bn": "ফারাবি গল্পের নীতিকথা বুঝতে পেরেছিল।",
+            "explanation_en": "Farabi understood the moral of the story."
+          },
+          {
+            "id": "1vi",
+            "question": "Who is the listener of the story?",
+            "options": ["Flora", "Harun", "Farabi", "The two friends"],
+            "correct": 2,
+            "explanation_bn": "ফারাবি গল্পটির শ্রোতা।",
+            "explanation_en": "Farabi is the listener of the story."
+          },
+          {
+            "id": "1vii",
+            "question": "We should keep our --- in mind and disregard our hurts.",
+            "options": ["hurts", "good deeds", "both a & b", "none of them"],
+            "correct": 1,
+            "explanation_bn": "আমাদের ভালো কাজগুলো মনে রাখা উচিত এবং আঘাতগুলো ভুলে যাওয়া উচিত।",
+            "explanation_en": "We should remember good deeds and forget hurts."
+          },
+          {
+            "id": "1viii",
+            "question": "\"...don't think seriously about what your friend, Harun did.\" Here the word 'seriously' is a/an ---",
+            "options": ["noun", "preposition", "adjective", "adverb"],
+            "correct": 3,
+            "explanation_bn": "'Seriously' শব্দটি একটি ক্রিয়াবিশেষণ (adverb)।",
+            "explanation_en": "'Seriously' is an adverb."
+          },
+          {
+            "id": "1ix",
+            "question": "\"Don't be sad, Farabi.\" Here sad means ---",
+            "options": ["upset", "happy", "jolly", "glad"],
+            "correct": 0,
+            "explanation_bn": "'Sad' শব্দের অর্থ 'upset' (দুঃখিত)।",
+            "explanation_en": "'Sad' means upset."
+          },
+          {
+            "id": "1x",
+            "question": "\"...we should engrave it on stone.\" The meaning of the word 'engrave' is ---",
+            "options": ["write", "put", "hit", "blow"],
+            "correct": 0,
+            "explanation_bn": "'Engrave' অর্থ খোদাই করা বা লেখা।",
+            "explanation_en": "'Engrave' means to write or carve."
+          },
+          {
+            "id": "1xi",
+            "question": "\"...remember our good deeds forever.\" What does 'remember' mean?",
+            "options": ["recollect", "forget", "overlook", "avoid"],
+            "correct": 0,
+            "explanation_bn": "'Remember' অর্থ স্মরণ করা বা recollect।",
+            "explanation_en": "'Remember' means to recollect."
+          },
+          {
+            "id": "1xii",
+            "question": "What does 'writing in the sand' refer to?",
+            "options": ["giving high importance", "giving less importance", "forgiveness", "kindness"],
+            "correct": 1,
+            "explanation_bn": "বালিতে লেখা কম গুরুত্ব দেওয়ার প্রতীক।",
+            "explanation_en": "Writing in sand refers to giving less importance."
+          },
+          {
+            "id": "1xiii",
+            "question": "\"...... and one friend slapped the other.\" Here slap means ---",
+            "options": ["hit", "embrace", "accept", "reject"],
+            "correct": 0,
+            "explanation_bn": "'Slap' অর্থ আঘাত করা বা hit।",
+            "explanation_en": "'Slap' means to hit."
+          },
+          {
+            "id": "1xiv",
+            "question": "\"They kept walking until they found an oasis.\" The word 'oasis' means ---",
+            "options": ["spring", "mountain", "sky", "sea beach"],
+            "correct": 0,
+            "explanation_bn": "'Oasis' অর্থ মরুদ্যান বা spring।",
+            "explanation_en": "'Oasis' means a spring in the desert."
+          },
+          {
+            "id": "1xv",
+            "question": "\"Two friends were walking through a desert.\" What does 'desert' mean?",
+            "options": ["sand", "forest", "valley", "barren region"],
+            "correct": 3,
+            "explanation_bn": "'Desert' অর্থ অনুর্বর অঞ্চল বা barren region।",
+            "explanation_en": "'Desert' means a barren region."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2",
+      "name": "Gap Fill & Vocabulary",
+      "type": "gap_fill_vocab",
+      "content": {
+        "gapFill": {
+          "passage": "Farabi is very (a) ______ because his friend Harun, their school football team leader, has just (b) ______ his name from the Interclass Football Tournament. Though Farabi wanted to know the reason, Harun was not interested in (c) ______ to him and explaining anything. Farabi did not (d) ______ what to do. Flora asked if she could do (e) ______ to help.",
+          "boxWords": ["sad", "dropped", "coming", "know", "anything", "happy", "included", "going", "forget", "nothing"],
+          "blanks": [
+            {
+              "blankId": "a",
+              "correct": "sad",
+              "options": [
+                { "text": "sad", "isCorrect": true, "explanationBn": "Farabi দুঃখিত (sad) কারণ তার বন্ধু হারুন তাকে ফুটবল দল থেকে বাদ দিয়েছে।", "explanationEn": "Farabi is sad because his friend Harun dropped him from the football team." },
+                { "text": "happy", "isCorrect": false, "explanationBn": "Farabi দুঃখিত, খুশি নয়।", "explanationEn": "Farabi is sad, not happy." },
+                { "text": "excited", "isCorrect": false, "explanationBn": "Farabi উত্তেজিত নয়, তিনি দুঃখিত।", "explanationEn": "Farabi is not excited, he is sad." }
+              ]
+            },
+            {
+              "blankId": "b",
+              "correct": "dropped",
+              "options": [
+                { "text": "dropped", "isCorrect": true, "explanationBn": "হারুন ফারাবির নাম তালিকা থেকে বাদ (dropped) দিয়েছে।", "explanationEn": "Harun dropped Farabi's name from the list." },
+                { "text": "included", "isCorrect": false, "explanationBn": "এটি 'dropped'-এর বিপরীত।", "explanationEn": "This is the opposite of 'dropped'." },
+                { "text": "added", "isCorrect": false, "explanationBn": "হারুন নাম যোগ করেনি, বরং বাদ দিয়েছে।", "explanationEn": "Harun did not add his name, he dropped it." }
+              ]
+            },
+            {
+              "blankId": "c",
+              "correct": "coming",
+              "options": [
+                { "text": "coming", "isCorrect": true, "explanationBn": "হারুন ফারাবির কাছে এসে (coming) কিছু ব্যাখ্যা করতে আগ্রহী ছিল না।", "explanationEn": "Harun was not interested in coming to Farabi to explain." },
+                { "text": "going", "isCorrect": false, "explanationBn": "'Coming' এখানে উপযুক্ত, 'going' নয়।", "explanationEn": "'Coming' is appropriate here, not 'going'." },
+                { "text": "running", "isCorrect": false, "explanationBn": "এটি এখানে প্রাসঙ্গিক নয়।", "explanationEn": "This is not relevant here." }
+              ]
+            },
+            {
+              "blankId": "d",
+              "correct": "know",
+              "options": [
+                { "text": "know", "isCorrect": true, "explanationBn": "ফারাবি কী করতে হবে তা জানত (know) না।", "explanationEn": "Farabi did not know what to do." },
+                { "text": "forget", "isCorrect": false, "explanationBn": "এটি 'know'-এর বিপরীত।", "explanationEn": "This is the opposite of 'know'." },
+                { "text": "think", "isCorrect": false, "explanationBn": "তিনি কী করতে হবে তা ভাবতে পারেন, কিন্তু 'know' এখানে বেশি উপযুক্ত।", "explanationEn": "He could think, but 'know' is more appropriate." }
+              ]
+            },
+            {
+              "blankId": "e",
+              "correct": "anything",
+              "options": [
+                { "text": "anything", "isCorrect": true, "explanationBn": "ফ্লোরা জিজ্ঞেস করল সে কিছু (anything) করতে পারে কিনা।", "explanationEn": "Flora asked if she could do anything to help." },
+                { "text": "nothing", "isCorrect": false, "explanationBn": "এটি 'anything'-এর বিপরীত।", "explanationEn": "This is the opposite of 'anything'." },
+                { "text": "everything", "isCorrect": false, "explanationBn": "'Everything' এখানে অর্থগতভাবে সঠিক নয়।", "explanationEn": "'Everything' is not semantically correct here." }
+              ]
+            }
+          ]
+        },
+        "vocabQuestions": [
+          {
+            "id": "4a",
+            "question": "What is the antonym of 'pain'?",
+            "options": ["pleasure", "suffering", "ache", "sorrow"],
+            "correct": 0,
+            "explanation_bn": "'Pain'-এর বিপরীত শব্দ 'pleasure' (আনন্দ)।",
+            "explanation_en": "The antonym of 'pain' is 'pleasure'."
+          },
+          {
+            "id": "4b",
+            "question": "What is the synonym of 'become'?",
+            "options": ["lose", "get", "remain", "stay"],
+            "correct": 1,
+            "explanation_bn": "'Become'-এর সমার্থক শব্দ 'get' (হওয়া)।",
+            "explanation_en": "The synonym of 'become' is 'get'."
+          },
+          {
+            "id": "4c",
+            "question": "What is the antonym of 'lighter'?",
+            "options": ["softer", "brighter", "heavier", "sadder"],
+            "correct": 2,
+            "explanation_bn": "'Lighter'-এর বিপরীত শব্দ 'heavier' (ভারীতর)।",
+            "explanation_en": "The antonym of 'lighter' is 'heavier'."
+          },
+          {
+            "id": "4d",
+            "question": "What is the antonym of 'down'?",
+            "options": ["below", "under", "upright", "bent"],
+            "correct": 2,
+            "explanation_bn": "'Down'-এর বিপরীত শব্দ 'upright' (সোজা/ঊর্ধ্বমুখী)।",
+            "explanation_en": "The antonym of 'down' is 'upright'."
+          },
+          {
+            "id": "4e",
+            "question": "What is the synonym of 'sorrow'?",
+            "options": ["joy", "grief", "smile", "laughter"],
+            "correct": 1,
+            "explanation_bn": "'Sorrow'-এর সমার্থক শব্দ 'grief' (দুঃখ)।",
+            "explanation_en": "The synonym of 'sorrow' is 'grief'."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch3",
+      "name": "Biographical Passage & Summary",
+      "type": "passage_summary",
+      "content": {
+        "passage": "Rabindranath Tagore was one of the most leading poets in the history of world literature. He was a poet, a novelist, a dramatist, a philosopher and a musician all at the same time. He was born in the renowned Tagore family in March 1861. After the completion of his home education, he was sent to school. But he did not like institutional education. So arrangements were made at home for his proper education. In his thirteenth year, Rabindranath along with his father, went to visit the Himalayas. At the age of seventeen, he was sent to London to study law. But he studied literature with Professor Henry Morley only for a few months and then returned home. Only at the age of eight he started composing poems. He wrote his poetic novel 'Banaphul' at the age of fifteen. When he was sixteen, his poems and essays were published in journals. After returning from England, he began to write tirelessly in all branches of literature. Rabindranath Tagore got the Nobel Prize in Literature in 1913. He died at the age of eighty.",
+        "translation_bn": "বিশ্বসাহিত্যের ইতিহাসে রবীন্দ্রনাথ ঠাকুর ছিলেন প্রথম সারির অন্যতম কবি। তিনি একসঙ্গে একজন কবি, ঔপন্যাসিক, নাট্যকার, দার্শনিক এবং সুরকার ছিলেন। তিনি ১৮৬১ সালের মার্চ মাসে বিখ্যাত ঠাকুর পরিবারে জন্মগ্রহণ করেন। গৃহশিক্ষা শেষ করার পর, তাঁকে বিদ্যালয়ে প্রেরণ করা হয়।但他 প্রাতিষ্ঠানিক শিক্ষা পছন্দ করতেন না। সুতরাং, তাঁর যথাযথ শিক্ষা গ্রহণের জন্য বাসায় আয়োজন করা হয়। তেরো বছর বয়সে রবীন্দ্রনাথ তাঁর বাবার সাথে হিমালয় ভ্রমণে যান। সতেরো বছর বয়সে আইন শাস্ত্রে পড়াশোনা করার জন্য তাকে বিলেত পাঠানো হয়。但 তিনি কয়েক মাসের জন্য অধ্যাপক হেনরি মোরলীর কাছে সাহিত্যে পড়াশোনা করেন এবং এরপর দেশে ফিরে যান। মাত্র আট বছর বয়সে তিনি কবিতা লেখা শুরু করেন। তিনি পনেরো বছর বয়সে 'বনফুল' নামক কাব্য উপন্যাস লেখেন। ষোলো বছর বয়সে, তাঁর কবিতা এবং প্রবন্ধ পত্রিকায় প্রকাশিত হয়। ইংল্যান্ড থেকে ফিরে এসে তিনি ক্লান্তিহীনভাবে সাহিত্যের সকল শাখায় লেখালেখি করেন। রবীন্দ্রনাথ ঠাকুর ১৯১৩ সালে সাহিত্যে নোবেল পুরস্কার লাভ করেন। তিনি আশি বছর বয়সে মারা যান।",
+        "vocabulary": [
+          { "word": "renowned", "pos": "adj", "meaning_en": "famous", "meaning_bn": "বিখ্যাত", "synonym": "famous", "antonym": "unknown" },
+          { "word": "arrangement", "pos": "n", "meaning_en": "a plan or preparation", "meaning_bn": "ব্যবস্থা", "synonym": "disposition", "antonym": "disorder" },
+          { "word": "compose", "pos": "v", "meaning_en": "to write", "meaning_bn": "রচনা করা", "synonym": "write, create", "antonym": "erase" },
+          { "word": "dramatist", "pos": "n", "meaning_en": "a playwright", "meaning_bn": "নাট্যকার", "synonym": "playwright", "antonym": "" },
+          { "word": "tirelessly", "pos": "adv", "meaning_en": "without stopping", "meaning_bn": "ক্লান্তিহীনভাবে", "synonym": "diligently", "antonym": "lazily" }
+        ],
+        "mcqQuestions": [
+          {
+            "id": "5i",
+            "question": "In which year was Rabindranath Tagore born?",
+            "options": ["1861", "1878", "1880", "1891"],
+            "correct": 0,
+            "explanation_bn": "রবীন্দ্রনাথ ঠাকুর ১৮৬১ সালে জন্মগ্রহণ করেন।",
+            "explanation_en": "Rabindranath Tagore was born in 1861."
+          },
+          {
+            "id": "5ii",
+            "question": "What was arranged at home for Tagore?",
+            "options": ["proper education", "medical treatment", "music lessons", "dance classes"],
+            "correct": 0,
+            "explanation_bn": "তাঁর যথাযথ শিক্ষা গ্রহণের জন্য বাসায় আয়োজন করা হয়েছিল।",
+            "explanation_en": "Arrangements for his proper education were made at home."
+          },
+          {
+            "id": "5iii",
+            "question": "Where did Rabindranath go with his father in his thirteenth year?",
+            "options": ["London", "The Himalayas", "Kolkata", "Delhi"],
+            "correct": 1,
+            "explanation_bn": "তেরো বছর বয়সে তিনি তাঁর বাবার সাথে হিমালয় ভ্রমণে যান।",
+            "explanation_en": "He went to the Himalayas with his father at thirteen."
+          },
+          {
+            "id": "5iv",
+            "question": "In which year was Tagore sent to London?",
+            "options": ["1875", "1878", "1880", "1885"],
+            "correct": 1,
+            "explanation_bn": "সতেরো বছর বয়সে (১৮৭৮ সালে) তাকে লন্ডনে পাঠানো হয়।",
+            "explanation_en": "He was sent to London at the age of seventeen (in 1878)."
+          },
+          {
+            "id": "5v",
+            "question": "In which year did Rabindranath Tagore die?",
+            "options": ["1939", "1941", "1945", "1950"],
+            "correct": 1,
+            "explanation_bn": "রবীন্দ্রনাথ ঠাকুর ১৯৪১ সালে আশি বছর বয়সে মারা যান।",
+            "explanation_en": "Rabindranath Tagore died in 1941 at the age of eighty."
+          }
+        ],
+        "trueFalseQuestions": [
+          {
+            "id": "6a",
+            "question": "Rabindranath Tagore is the most prominent poet in English literature.",
+            "options": [
+              "True",
+              "False. Rabindranath Tagore is one of the most prominent poets in world literature.",
+              "False. Rabindranath Tagore was not a poet.",
+              "False. He was the most prominent poet in Bengali literature."
+            ],
+            "correct": 1,
+            "explanation_bn": "তিনি বিশ্বসাহিত্যের অন্যতম প্রধান কবি, ইংরেজি সাহিত্যের নন।",
+            "explanation_en": "He is one of the most prominent poets in world literature, not English literature."
+          },
+          {
+            "id": "6b",
+            "question": "Rabindranath Tagore was indifferent to institutional education.",
+            "options": ["True", "False. He loved institutional education.", "False. He only studied at home.", "False. He was a teacher."],
+            "correct": 0,
+            "explanation_bn": "হ্যাঁ, তিনি প্রাতিষ্ঠানিক শিক্ষা পছন্দ করতেন না।",
+            "explanation_en": "Yes, he did not like institutional education."
+          },
+          {
+            "id": "6c",
+            "question": "Rabindranath Tagore composed his poetic novel 'Banaphul' at the age of fifteen.",
+            "options": ["True", "False. He wrote it at sixteen.", "False. He wrote it at eighteen.", "False. He never wrote Banaphul."],
+            "correct": 0,
+            "explanation_bn": "হ্যাঁ, তিনি পনেরো বছর বয়সে 'বনফুল' রচনা করেন।",
+            "explanation_en": "Yes, he wrote 'Banaphul' at the age of fifteen."
+          },
+          {
+            "id": "6d",
+            "question": "Professor Henry Morley was the teacher of Bengali literature.",
+            "options": [
+              "True",
+              "False. Professor Henry Morley was the teacher of English literature.",
+              "False. Henry Morley was not a teacher.",
+              "False. He taught Science."
+            ],
+            "correct": 1,
+            "explanation_bn": "প্রফেসর হেনরি মোরলী ছিলেন ইংরেজি সাহিত্যের শিক্ষক।",
+            "explanation_en": "Professor Henry Morley was the teacher of English literature."
+          },
+          {
+            "id": "6e",
+            "question": "After returning from England, Rabindranath Tagore sat idle.",
+            "options": [
+              "True",
+              "False. After returning from England, he began to write tirelessly.",
+              "False. He went back to England.",
+              "False. He stopped writing."
+            ],
+            "correct": 1,
+            "explanation_bn": "ইংল্যান্ড থেকে ফিরে তিনি ক্লান্তিহীনভাবে লিখতে শুরু করেন।",
+            "explanation_en": "After returning from England, he began to write tirelessly."
+          }
+        ],
+        "summary": "The text is about the great poet and versatile genius Rabindranath Tagore. He was born in March 1861 in the Tagore family. He disliked school education and so was educated at home. He visited the Himalayas at thirteen and went to London at seventeen to study law but focused on literature. He started writing in all genres. He got the Nobel Prize in Literature in 1913. He died at eighty."
+      }
+    },
+    {
+      "id": "ch4",
+      "name": "Sentence Making",
+      "type": "sentence_matching",
+      "content": {
+        "exercise": {
+          "id": 1,
+          "question_text": "Match the parts of sentences from Column A and Column B to make five complete sentences.",
+          "table_columns": [
+            [
+              "Man cannot",
+              "He wants people",
+              "But everybody with whom we mix and converse",
+              "Some gather round us only in our",
+              "But when we are in trouble,"
+            ],
+            [
+              "prosperity for their self-interest.",
+              "live alone.",
+              "with whom he can mix and converse freely.",
+              "they desert us altogether.",
+              "is not a friend in the true sense of the term."
+            ]
+          ],
+          "valid_sentences": [
+            {
+              "sentence": "Man cannot live alone.",
+              "combination": ["Man cannot", "live alone."],
+              "explanation_en": "This sentence states that humans cannot live in isolation.",
+              "explanation_bn": "এই বাক্যটি বলে যে মানুষ একা থাকতে পারে না।"
+            },
+            {
+              "sentence": "He wants people with whom he can mix and converse freely.",
+              "combination": ["He wants people", "with whom he can mix and converse freely."],
+              "explanation_en": "This shows man's need for companionship.",
+              "explanation_bn": "এটি মানুষের সঙ্গপ্রিয়তার প্রয়োজনীয়তা দেখায়।"
+            },
+            {
+              "sentence": "But everybody with whom we mix and converse is not a friend in the true sense of the term.",
+              "combination": ["But everybody with whom we mix and converse", "is not a friend in the true sense of the term."],
+              "explanation_en": "This explains that not all acquaintances are true friends.",
+              "explanation_bn": "এটি ব্যাখ্যা করে যে সকল পরিচিতজন প্রকৃত বন্ধু নয়।"
+            },
+            {
+              "sentence": "Some gather round us only in our prosperity for their self-interest.",
+              "combination": ["Some gather round us only in our", "prosperity for their self-interest."],
+              "explanation_en": "This shows that some people only stay during good times.",
+              "explanation_bn": "এটি দেখায় যে কিছু লোক কেবল ভালো সময়ে থাকে।"
+            },
+            {
+              "sentence": "But when we are in trouble, they desert us altogether.",
+              "combination": ["But when we are in trouble,", "they desert us altogether."],
+              "explanation_en": "This describes how false friends leave during hard times.",
+              "explanation_bn": "এটি বর্ণনা করে কিভাবে মিথ্যা বন্ধুরা কঠিন সময়ে ছেড়ে চলে যায়।"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch5",
+      "name": "Rearranging",
+      "type": "rearrangement",
+      "content": {
+        "sentences": [
+          { "id": "a", "text": "He became very annoyed." },
+          { "id": "b", "text": "So, he procured a heavy stone." },
+          { "id": "c", "text": "During his stay he received an unpaid letter from his friend." },
+          { "id": "d", "text": "An English poet was staying in Italy for the benefit of his health." },
+          { "id": "e", "text": "He packed it up in a fine box." },
+          { "id": "f", "text": "He wanted to teach his friend a good lesson." },
+          { "id": "g", "text": "The poet had to pay double postage." },
+          { "id": "h", "text": "The letter contained nothing but some words." }
+        ],
+        "correctOrder": ["d", "c", "g", "h", "a", "f", "b", "e"],
+        "reconstructedParagraph": "An English poet was staying in Italy for the benefit of his health. During his stay he received an unpaid letter from his friend. The poet had to pay double postage. The letter contained nothing but some words. He became very annoyed. He wanted to teach his friend a good lesson. So, he procured a heavy stone. He packed it up in a fine box."
+      }
+    },
+    {
+      "id": "ch6",
+      "name": "Poetry MCQ",
+      "type": "poetry_mcq",
+      "content": {
+        "questions": [
+          {
+            "id": "10a",
+            "question": "According to the poem 'Whose Child Is This?', what do both the parent and the teacher do jointly?",
+            "options": ["They ignore the child", "They love and teach the child", "They punish the child", "They leave the child alone"],
+            "correct": 1,
+            "explanation_bn": "কবিতা অনুসারে, পিতামাতা এবং শিক্ষক উভয়েই শিশুকে ভালোবাসেন এবং শিক্ষা দেন।",
+            "explanation_en": "According to the poem, both the parent and the teacher love and teach the child jointly."
+          },
+          {
+            "id": "10b",
+            "question": "Where do the parent and the teacher take care of the child as mentioned in the poem 'Whose Child Is This?'?",
+            "options": ["At home and at school respectively", "Only at home", "Only at school", "In the playground"],
+            "correct": 0,
+            "explanation_bn": "পিতামাতা বাসায় এবং শিক্ষক বিদ্যালয়ে শিশুর যত্ন নেন।",
+            "explanation_en": "The parent takes care at home and the teacher at school respectively."
+          },
+          {
+            "id": "10c",
+            "question": "Who answered the question in stanzas 1, 2 and 3 in the poem 'Whose Child Is This?'?",
+            "options": ["The parent answered all stanzas", "The teacher answered all stanzas", "The speaker answered his own question", "The child answered"],
+            "correct": 2,
+            "explanation_bn": "কবিতার স্তবকগুলোতে বক্তা নিজেই তার নিজের প্রশ্নের উত্তর দিয়েছেন।",
+            "explanation_en": "The speaker answered his own question in the stanzas."
+          },
+          {
+            "id": "10d",
+            "question": "According to the poem 'Leisure', what would we see if we had time to stare?",
+            "options": ["The beauty of nature", "Only buildings", "Only roads", "Nothing special"],
+            "correct": 0,
+            "explanation_bn": "সময় থাকলে আমরা প্রকৃতির সৌন্দর্য দেখতে পেতাম।",
+            "explanation_en": "If we had time, we would see the beauty of nature."
+          },
+          {
+            "id": "10e",
+            "question": "According to the poem 'Leisure', what do we not have time to do?",
+            "options": ["Work", "Enjoy the beauty of nature", "Sleep", "Eat"],
+            "correct": 1,
+            "explanation_bn": "আমাদের প্রকৃতির সৌন্দর্য উপভোগ করার সময় নেই।",
+            "explanation_en": "We do not have time to enjoy the beauty of nature."
+          },
+          {
+            "id": "10f",
+            "question": "When can we see the squirrels hiding their nuts according to the poem 'Leisure'?",
+            "options": ["While passing the woods", "At midnight", "In the ocean", "In the sky"],
+            "correct": 0,
+            "explanation_bn": "অরণ্যের পাশ দিয়ে যাওয়ার সময় আমরা কাঠবিড়ালিদের বাদাম লুকাতে দেখতে পাই।",
+            "explanation_en": "While passing the woods, we can see squirrels hiding their nuts."
+          },
+          {
+            "id": "10g",
+            "question": "In the poem 'From a Railway Carriage', what does the expression 'as thick as driving rain' indicate?",
+            "options": ["The rain was very heavy", "The sights outside the train were coming very fast", "The train was slow", "The passengers were wet"],
+            "correct": 1,
+            "explanation_bn": "বৃষ্টির মতো ঘন ও দ্রুত বাইরের দৃশ্যগুলো চলে যাচ্ছিল।",
+            "explanation_en": "The sights outside the train were coming at the poet very fast."
+          },
+          {
+            "id": "10h",
+            "question": "In the poem 'From a Railway Carriage', why does the poet think the sights are flying?",
+            "options": ["Because the sights are visible only for a very short period", "Because birds are flying", "Because the train is stationary", "Because it is night time"],
+            "correct": 0,
+            "explanation_bn": "ট্রেনের উচ্চগতির কারণে দৃশ্যগুলো খুব অল্প সময়ের জন্য দেখা যায়।",
+            "explanation_en": "The sights are visible only for a very short period due to the train's high speed."
+          }
+        ]
+      }
+    }
+  ]
+}

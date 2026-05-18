@@ -15,6 +15,7 @@ import {
 } from '../services/review';
 import GapFillPassage from '../components/GapFillPassage';
 import SubstitutionTableExercise from '../components/SubstitutionTableExercise';
+import ModelTest from '../components/ModelTest';
 import { playSound } from '../utils/sounds';
 import { computeLevels, saveLevelProgress, addXp, addStars, completeDailyChallengeById, advanceWeeklyChallenge } from '../services/levels';
 
@@ -864,7 +865,37 @@ const Quiz = () => {
 
             <div className="flex-1 flex flex-col min-h-0 px-3 md:px-4 pb-2 md:pb-3 mt-1.5">
                 <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl flex-1 flex flex-col p-3 md:p-5 overflow-hidden quiz-card" style={{ maxHeight: 'calc(var(--app-available-height, 100vh) - 112px)' }}>
-                    {currentQ?._type === 'substitution_table' ? (
+                    {currentQ?._type === 'model_test' ? (
+                        <ModelTest
+                            key={currentQ.modelId}
+                            chapters={currentQ.chapters}
+                            fontSize={quizFontSize}
+                            onWrongAttempt={() => {
+                                playSound('star');
+                                addMistake(currentQ.id || currentQ.modelId, currentQ, { file, title, chapterId });
+                                createFlyingStar(null, window.innerWidth / 2, window.innerHeight / 2);
+                                setMistakeCount(getMistakesDueCount());
+                            }}
+                            onContinue={(found, total) => {
+                                setScore(s => s + found);
+                                setResults(prev => [...prev, {
+                                    id: currentQ.id || currentQ.modelId,
+                                    isCorrect: found > 0,
+                                    time_spent: 0,
+                                    status: found === total ? 'answered' : 'partial',
+                                }]);
+                                const idx = questions.findIndex(q => q.id === currentQ.id);
+                                if (idx >= 0 && idx < questions.length - 1) {
+                                    setCurrentIndex(idx + 1);
+                                    setSelectedOption(null);
+                                    setIsAnswered(false);
+                                    questionStartRef.current = Date.now();
+                                } else {
+                                    setIsFinished(true);
+                                }
+                            }}
+                        />
+                    ) : currentQ?._type === 'substitution_table' ? (
                         <SubstitutionTableExercise
                             key={currentQ.id}
                             exercise={currentQ.exercise}

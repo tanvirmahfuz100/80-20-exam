@@ -1,0 +1,510 @@
+{
+  "_type": "model_test",
+  "modelId": "m07",
+  "title": "Model Test 07 - English 1st Paper",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Passage & Comprehension",
+      "type": "passage_mcq",
+      "content": {
+        "passage": "Shahana's husband, Mr. Zamil Huda works in a company office. His firm has a vacant position. For several days he told Shahana, 'I want you to apply for the post.' But Shahana said, 'Please don't insist. I'm joining the local high school as a teacher.' 'What do you find in a teaching job, Shahana? I don't want you to do it.' Her in-laws were also on his side. Yet Shahana joined the school against the will of the family. Weeks and months went by. Every day Shahana helps with the household work. Every day she works hard to prepare her lessons. Every day she goes to school, teaches her students and helps both weak and bright ones. They often come to her in the teachers' room, in the corridor and even on the road, and talk to her about any academic or personal problems. Within a year Shahana becomes a very good teacher. Students give her salam wherever they see her. Teachers, even the Head Teacher, admire her. Parents and other people in the community come to see her at home and at the school and pay her great respect. One day her husband said, 'You've opened my eyes, Shahana. Teaching is more than a job. I didn't know it. Congratulations!' 'Thank you,' she smiled. 'Tell me, Shahana, how you could be such a great teacher!' Zamil wanted to know. 'I don't only teach my subject, I care for my students. I love them. I myself demonstrate good behaviour and inspire them to be good. That's all I do,' replied Shahana.",
+        "translation_bn": "শাহানার স্বামী জনাব জামিল হুদা একটি সংস্থার কার্যালয়ে কাজ করেন। তার প্রতিষ্ঠানে একটি শূন্য পদ আছে। বেশ কয়েকদিনই তিনি শাহানাকে বলেছিলেন, 'আমি চাই তুমি পদটির জন্য আবেদন করো।' কিন্তু শাহানা বলেছিলেন, 'দয়া করে জোর করো না। আমি স্থানীয় উচ্চ বিদ্যালয়ে শিক্ষিকা হিসেবে যোগ দিচ্ছি।' 'তুমি শিক্ষকতা পেশায় কী খুঁজে পাও, শাহানা? আমি চাই না তুমি এটা করো।' তার শ্বশুরবাড়ির লোকেরাও তার স্বামীর পক্ষে ছিল। তবু শাহানা পরিবারের ইচ্ছার বিরুদ্ধে বিদ্যালয়ে যোগদান করেন। সপ্তাহ এবং মাস অতিবাহিত হলো। প্রতিদিন শাহানা গৃহকর্মে সাহায্য করেন। প্রতিদিন তিনি কঠোর পরিশ্রম করে তাঁর পাঠ প্রস্তুত করেন। প্রতিদিন তিনি বিদ্যালয়ে যান, ছাত্রছাত্রীদের পড়ান এবং দুর্বল ও মেধাবী সবাইকেই সাহায্য করেন। তারা প্রায়ই শিক্ষকদের কক্ষে, বারান্দায় এবং এমনকি রাস্তায়ও তাঁর কাছে এসে শিক্ষা সংক্রান্ত অথবা ব্যক্তিগত সমস্যা নিয়ে কথা বলে। এক বছরের মধ্যে শাহানা একজন ভালো শিক্ষক হয়ে উঠেন। ছাত্র-ছাত্রীরা যেখানেই তাঁকে দেখে সেখানেই তাঁকে সালাম দেয়। শিক্ষকগণ, এমনকি প্রধান শিক্ষকও তাঁর প্রশংসা করেন। মা-বাবারা এবং সমাজের অন্যান্য লোকেরা তাঁর বাড়িতে এবং বিদ্যালয়ে তাঁর সাথে দেখা করতে আসেন এবং তাঁকে অনেক সম্মান করেন। একদিন তাঁর স্বামী বললেন, 'তুমি আমার চোখ খুলে দিয়েছো, শাহানা। শিক্ষকতা চাকরির চেয়ে অনেক বেশি কিছু। আমি এটি জানতাম না। তোমাকে অভিনন্দন!' 'তোমাকে ধন্যবাদ,' তিনি হাসলেন। 'আমাকে বলো, শাহানা, তুমি কীভাবে এত চমৎকার শিক্ষিকা হলে!' জামিল জানতে চাইলেন। 'আমি শুধু আমার বিষয়টাকেই পড়াই না, আমি আমার ছাত্রছাত্রীদের যত্ন নেই। আমি তাদের ভালোবাসি। আমি নিজে ভালো আচরণ করে দেখাই এবং তাদেরকে ভালো হতে অনুপ্রাণিত করি। এগুলোই আমি করে থাকি,' শাহানা উত্তর দিলেন।",
+        "vocabulary": [
+          { "word": "vacant", "pos": "adj", "meaning_en": "empty, not occupied", "meaning_bn": "খালি", "synonym": "empty", "antonym": "occupied" },
+          { "word": "insist", "pos": "v", "meaning_en": "to demand forcefully", "meaning_bn": "জোর করা", "synonym": "force", "antonym": "agree" },
+          { "word": "against", "pos": "prep", "meaning_en": "opposed to", "meaning_bn": "বিরুদ্ধে", "synonym": "opposed to", "antonym": "in favour of" },
+          { "word": "admire", "pos": "v", "meaning_en": "to regard with high esteem", "meaning_bn": "শ্রদ্ধা করা", "synonym": "appreciate", "antonym": "disdain" },
+          { "word": "demonstrate", "pos": "v", "meaning_en": "to show clearly", "meaning_bn": "প্রদর্শন করা", "synonym": "exhibit", "antonym": "conceal" },
+          { "word": "inspire", "pos": "v", "meaning_en": "to encourage", "meaning_bn": "উৎসাহিত করা", "synonym": "encourage", "antonym": "discourage" },
+          { "word": "corridor", "pos": "n", "meaning_en": "a passageway", "meaning_bn": "বারান্দা", "synonym": "passageway", "antonym": "" },
+          { "word": "community", "pos": "n", "meaning_en": "a group of people", "meaning_bn": "সম্প্রদায়", "synonym": "society", "antonym": "individual" }
+        ],
+        "questions": [
+          {
+            "id": "1i",
+            "question": "Shahana's family --- her decision.",
+            "options": ["was against", "supported", "agreed with", "in favour of her"],
+            "correct": 0,
+            "explanation_bn": "শাহানার পরিবার তার সিদ্ধান্তের বিরুদ্ধে ছিল।",
+            "explanation_en": "Shahana's family was against her decision."
+          },
+          {
+            "id": "1ii",
+            "question": "What is Mrs. Zamil?",
+            "options": ["company officer", "school teacher", "housewife", "entrepreneur"],
+            "correct": 1,
+            "explanation_bn": "শাহানা একজন স্কুল শিক্ষিকা।",
+            "explanation_en": "Shahana is a school teacher."
+          },
+          {
+            "id": "1iii",
+            "question": "Which of the followings describes Shahana best?",
+            "options": ["Homemaker", "Teacher", "Ideal Teacher", "Officer"],
+            "correct": 2,
+            "explanation_bn": "শাহানাকে সবচেয়ে ভালোভাবে 'আদর্শ শিক্ষিকা' হিসেবে বর্ণনা করা যায়।",
+            "explanation_en": "Shahana is best described as an Ideal Teacher."
+          },
+          {
+            "id": "1iv",
+            "question": "Shahana is --- to her profession.",
+            "options": ["dedicated", "indifferent", "not interested", "not serious"],
+            "correct": 0,
+            "explanation_bn": "শাহানা তার পেশায় নিবেদিতপ্রাণ (dedicated)।",
+            "explanation_en": "Shahana is dedicated to her profession."
+          },
+          {
+            "id": "1v",
+            "question": "Which of the followings is correct?",
+            "options": ["Shahana's husband supported her", "Shahana was willing to join the office", "Shahana is popular among her students", "Shahana discourages her students"],
+            "correct": 2,
+            "explanation_bn": "শাহানা তার ছাত্রছাত্রীদের মধ্যে জনপ্রিয়।",
+            "explanation_en": "Shahana is popular among her students."
+          },
+          {
+            "id": "1vi",
+            "question": "\"Yet Shahana joined the school against the will of the family.\" The underlined word means ---",
+            "options": ["wish", "dislike", "decree", "determination"],
+            "correct": 0,
+            "explanation_bn": "'Will' শব্দের অর্থ এখানে 'wish' (ইচ্ছা)।",
+            "explanation_en": "Here 'will' means wish."
+          },
+          {
+            "id": "1vii",
+            "question": "--- congratulate(s) Shahana.",
+            "options": ["Mr. Zamil", "The Head Teacher", "The students", "The guardians"],
+            "correct": 0,
+            "explanation_bn": "জনাব জামিল শাহানাকে অভিনন্দন জানান।",
+            "explanation_en": "Mr. Zamil congratulates Shahana."
+          },
+          {
+            "id": "1viii",
+            "question": "At the beginning, Zamil was ---",
+            "options": ["in favour of his wife's decision", "against his wife's decision", "on behalf of his wife's decision", "curious about his wife's decision"],
+            "correct": 1,
+            "explanation_bn": "শুরুতে জামিল তার স্ত্রীর সিদ্ধান্তের বিরুদ্ধে ছিলেন।",
+            "explanation_en": "At first, Zamil was against his wife's decision."
+          },
+          {
+            "id": "1ix",
+            "question": "Shahana did not get any support from ---",
+            "options": ["students", "in-laws", "Head Teacher", "teachers"],
+            "correct": 1,
+            "explanation_bn": "শাহানা তার শ্বশুরবাড়ি থেকে সমর্থন পাননি।",
+            "explanation_en": "Shahana did not get support from her in-laws."
+          },
+          {
+            "id": "1x",
+            "question": "\"They often come to her in the teachers' room, in the corridor...\" Here 'corridor' means ---",
+            "options": ["passage", "room", "field", "market"],
+            "correct": 0,
+            "explanation_bn": "'Corridor' অর্থ বারান্দা বা passage।",
+            "explanation_en": "'Corridor' means a passage."
+          },
+          {
+            "id": "1xi",
+            "question": "Shahana became a good teacher because ---",
+            "options": ["she took care of the students", "she was very strict", "she was powerful", "she earned a lot of money"],
+            "correct": 0,
+            "explanation_bn": "শাহানা ছাত্রছাত্রীদের যত্ন নেওয়ার কারণে একজন ভালো শিক্ষিকা হয়েছিলেন।",
+            "explanation_en": "Shahana became a good teacher because she took care of the students."
+          },
+          {
+            "id": "1xii",
+            "question": "\"His firm has a vacant position.\" The word 'firm' in this context means ---",
+            "options": ["school", "company", "steady", "business"],
+            "correct": 1,
+            "explanation_bn": "এখানে 'firm' অর্থ 'company' (প্রতিষ্ঠান)।",
+            "explanation_en": "Here 'firm' means company."
+          },
+          {
+            "id": "1xiii",
+            "question": "Zamil congratulated his wife later because ---",
+            "options": ["Shahana earned a lot", "Shahana gave him salam", "everyone respected Shahana", "students came to see her"],
+            "correct": 2,
+            "explanation_bn": "পরে জামিল শাহানাকে অভিনন্দন জানান কারণ সবাই শাহানাকে সম্মান করত।",
+            "explanation_en": "Zamil congratulated Shahana because everyone respected her."
+          },
+          {
+            "id": "1xiv",
+            "question": "Which of the following words has a similar meaning of 'vacant'?",
+            "options": ["new", "full", "occupied", "empty"],
+            "correct": 3,
+            "explanation_bn": "'Vacant'-এর সমার্থক 'empty' (খালি)।",
+            "explanation_en": "A synonym of 'vacant' is 'empty'."
+          },
+          {
+            "id": "1xv",
+            "question": "\"Her in-laws were also on his side.\" What does 'in-laws' mean?",
+            "options": ["husband", "neighbours", "relatives by marriage", "distant family members"],
+            "correct": 2,
+            "explanation_bn": "'In-laws' অর্থ বৈবাহিক সূত্রে আত্মীয়।",
+            "explanation_en": "'In-laws' means relatives by marriage."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2",
+      "name": "Gap Fill & Vocabulary",
+      "type": "gap_fill_vocab",
+      "content": {
+        "gapFill": {
+          "passage": "When singers from earlier generations were (a) ______ to use music as a form of protest, the artists of new (b) ______ like Shezan and Hannan have courageously spoken out. Their rap songs became (c) ______ of the July (d) ______ in 2024. The new generation is no longer afraid; they are (e) ______ and different.",
+          "boxWords": ["afraid", "generation", "anthems", "Uprising", "brave", "confident", "era", "songs", "Revolution", "cowardly"],
+          "blanks": [
+            {
+              "blankId": "a",
+              "correct": "afraid",
+              "options": [
+                { "text": "afraid", "isCorrect": true, "explanationBn": "পূর্ববর্তী প্রজন্মের গায়করা প্রতিবাদ জানাতে সঙ্গীত ব্যবহার করতে ভীত (afraid) ছিলেন।", "explanationEn": "Singers from earlier generations were afraid to use music for protest." },
+                { "text": "confident", "isCorrect": false, "explanationBn": "তারা ভীত ছিলেন, আত্মবিশ্বাসী নন।", "explanationEn": "They were afraid, not confident." },
+                { "text": "ready", "isCorrect": false, "explanationBn": "তারা প্রস্তুত ছিলেন না, বরং ভীত ছিলেন।", "explanationEn": "They were not ready, they were afraid." }
+              ]
+            },
+            {
+              "blankId": "b",
+              "correct": "generation",
+              "options": [
+                { "text": "generation", "isCorrect": true, "explanationBn": "নতুন প্রজন্মের (generation) শিল্পীরা সাহসিকতার সাথে কথা বলেছেন।", "explanationEn": "Artists of the new generation have spoken out courageously." },
+                { "text": "era", "isCorrect": false, "explanationBn": "'Generation' এখানে 'era-এর চেয়ে বেশি উপযুক্ত।", "explanationEn": "'Generation' is more appropriate than 'era' here." },
+                { "text": "country", "isCorrect": false, "explanationBn": "এটি 'generation'-এর সমার্থক নয়।", "explanationEn": "This is not a synonym of 'generation'." }
+              ]
+            },
+            {
+              "blankId": "c",
+              "correct": "anthems",
+              "options": [
+                { "text": "anthems", "isCorrect": true, "explanationBn": "র‍্যাপ গানগুলো ২০২৪ সালের জুলাই অভ্যুত্থানের সঙ্গীতে (anthems) পরিণত হয়।", "explanationEn": "Their rap songs became anthems of the July Uprising." },
+                { "text": "songs", "isCorrect": false, "explanationBn": "'Anthems' এখানে 'songs'-এর চেয়ে বেশি অর্থবহ।", "explanationEn": "'Anthems' is more meaningful here than 'songs'." },
+                { "text": "rhymes", "isCorrect": false, "explanationBn": "'Anthems' এখানে সঠিক শব্দ।", "explanationEn": "'Anthems' is the correct word here." }
+              ]
+            },
+            {
+              "blankId": "d",
+              "correct": "Uprising",
+              "options": [
+                { "text": "Uprising", "isCorrect": true, "explanationBn": "২০২৪ সালের জুলাই অভ্যুত্থান (Uprising)।", "explanationEn": "The July Uprising of 2024." },
+                { "text": "Revolution", "isCorrect": false, "explanationBn": "'Uprising' এখানে 'Revolution'-এর চেয়ে উপযুক্ত।", "explanationEn": "'Uprising' is more appropriate here than 'Revolution'." },
+                { "text": "Movement", "isCorrect": false, "explanationBn": "এটি 'Uprising'-এর চেয়ে দুর্বল।", "explanationEn": "This is weaker than 'Uprising'." }
+              ]
+            },
+            {
+              "blankId": "e",
+              "correct": "brave",
+              "options": [
+                { "text": "brave", "isCorrect": true, "explanationBn": "নতুন প্রজন্ম আর ভীত নয় - তারা সাহসী (brave) এবং ভিন্ন।", "explanationEn": "The new generation is no longer afraid - they are brave and different." },
+                { "text": "cowardly", "isCorrect": false, "explanationBn": "এটি 'brave'-এর বিপরীত।", "explanationEn": "This is the opposite of 'brave'." },
+                { "text": "weak", "isCorrect": false, "explanationBn": "নতুন প্রজন্ম দুর্বল নয়, তারা সাহসী।", "explanationEn": "The new generation is not weak, they are brave." }
+              ]
+            }
+          ]
+        },
+        "vocabQuestions": [
+          {
+            "id": "4a",
+            "question": "What is the antonym of 'adept'?",
+            "options": ["skilled", "inept", "expert", "competent"],
+            "correct": 1,
+            "explanation_bn": "'Adept'-এর বিপরীত শব্দ 'inept' (অদক্ষ)।",
+            "explanation_en": "The antonym of 'adept' is 'inept'."
+          },
+          {
+            "id": "4b",
+            "question": "What is the synonym of 'genocide'?",
+            "options": ["peace", "massacre", "birth", "creation"],
+            "correct": 1,
+            "explanation_bn": "'Genocide'-এর সমার্থক শব্দ 'massacre' (গণহত্যা)।",
+            "explanation_en": "The synonym of 'genocide' is 'massacre'."
+          },
+          {
+            "id": "4c",
+            "question": "What is the antonym of 'protest'?",
+            "options": ["objection", "support", "opposition", "resistance"],
+            "correct": 1,
+            "explanation_bn": "'Protest'-এর বিপরীত শব্দ 'support' (সমর্থন)।",
+            "explanation_en": "The antonym of 'protest' is 'support'."
+          },
+          {
+            "id": "4d",
+            "question": "What is the synonym of 'eventually'?",
+            "options": ["initially", "finally", "immediately", "suddenly"],
+            "correct": 1,
+            "explanation_bn": "'Eventually'-এর সমার্থক শব্দ 'finally' (অবশেষে)।",
+            "explanation_en": "The synonym of 'eventually' is 'finally'."
+          },
+          {
+            "id": "4e",
+            "question": "What is the synonym of 'aftermath'?",
+            "options": ["cause", "consequence", "origin", "reason"],
+            "correct": 1,
+            "explanation_bn": "'Aftermath'-এর সমার্থক শব্দ 'consequence' (পরিণতি)।",
+            "explanation_en": "The synonym of 'aftermath' is 'consequence'."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch3",
+      "name": "Biographical Passage & Summary",
+      "type": "passage_summary",
+      "content": {
+        "passage": "According to the number of people killed by a cyclone, we can mention top 10 killer cyclones in the history. The cyclone that hit Bangladesh in 1991, killed 1,38,866 people. It holds the top position among the world's most violent killer cyclones. The second position is held by a cyclone in Myanmar. In 2008, this violent cyclone killed 1,38,366 people in Myanmar. Again in Bangladesh, 15,000 people were killed by a forceful cyclone in 1985. The fourth most violent killer cyclone hit Honduras in 1998. It killed 14,600 people. In 1999, a violent cyclone hit India and took away 9,843 lives. In 1991, a dangerous cyclone hit Philippines and killed 5,956 people. Once again in Bangladesh, 4,234 people were killed in 2007 by a violent cyclone. In Vietnam, in 1997, 3,682 people; in Nicaragua, in 1998, 3,332 people and in the same year again in India 2,871 people were killed by the violent killer cyclones.",
+        "translation_bn": "ঘূর্ণিঝড়ে মৃত মানুষের সংখ্যানুসারে আমরা ইতিহাসের দশটি ঘাতক ঘূর্ণিঝড়কে উল্লেখ করতে পারি। ১৯৯১ সালে যে ঘূর্ণিঝড়টি বাংলাদেশে আঘাত হেনেছিল, সেটি ১,৩৮,৮৬৬ জন মানুষের প্রাণ কেড়ে নিয়েছিল। এটি বিশ্বের দশটি সবচেয়ে ভয়ংকর ঘাতক ঘূর্ণিঝড়ের মধ্যে শীর্ষস্থানীয়। দ্বিতীয় স্থানটি মায়ানমারে আঘাতকারী একটি ঘূর্ণিঝড়। ২০০৮ সালে সংঘটিত এই প্রলয়ংকারী ঘূর্ণিঝড়ে মায়ানমারে ১,৩৮,৩৬৬ জন মানুষের মৃত্যু হয়েছিল। আবার বাংলাদেশে ১৯৮৫ সালে একটি শক্তিশালী ঘূর্ণিঝড়ে ১৫,০০০ মানুষের মৃত্যু হয়। চতুর্থ শক্তিশালী ঘূর্ণিঝড়টি হোন্ডুরাসে ১৯৯৮ সালে আঘাত হানে। এটা ১৪,৬০০ মানুষকে হত্যা করে। ১৯৯৯ সালে ভারতে এক মারাত্মক ঘূর্ণিঝড় আঘাত হানে এবং ৯,৮৪৩ জন মানুষের প্রাণ কেড়ে নেয়। ১৯৯১ সালে এক ভয়ানক ঘূর্ণিঝড় ফিলিপাইনে আঘাত হানে এবং এতে ৫,৯৫৬ জন মানুষের মৃত্যু হয়। আরও একবার বাংলাদেশে, ২০০৭ সালের এক ভয়ংকর ঘূর্ণিঝড়ে ৪,২৩৪ জন মানুষের নির্মম মৃত্যু হয়। ১৯৯৭ সালে, ভিয়েতনামে ৩,৬৮২ জন; ১৯৯৮তে নিকারাগুয়াতে ৩,৩৩২ জন এবং একই বছরে ভারতে ২৮৭১ জন মানুষ ঘূর্ণিঝড়ে প্রাণ হারিয়েছিল।",
+        "vocabulary": [
+          { "word": "cyclone", "pos": "n", "meaning_en": "a violent storm", "meaning_bn": "ঘূর্ণিঝড়", "synonym": "typhoon", "antonym": "anticyclone" },
+          { "word": "violent", "pos": "adj", "meaning_en": "very strong", "meaning_bn": "তীব্র", "synonym": "deadly", "antonym": "mild" },
+          { "word": "forceful", "pos": "adj", "meaning_en": "powerful", "meaning_bn": "প্রবল", "synonym": "powerful", "antonym": "weak" },
+          { "word": "position", "pos": "n", "meaning_en": "rank", "meaning_bn": "স্থান", "synonym": "rank", "antonym": "" },
+          { "word": "dangerous", "pos": "adj", "meaning_en": "perilous", "meaning_bn": "বিপজ্জনক", "synonym": "risky", "antonym": "safe" }
+        ],
+        "mcqQuestions": [
+          {
+            "id": "5i",
+            "question": "How many people were killed in Honduras in 1998?",
+            "options": ["15,000", "9,843", "14,600", "1,38,866"],
+            "correct": 2,
+            "explanation_bn": "হোন্ডুরাসে ১৯৯৮ সালে ১৪,৬০০ মানুষ নিহত হয়।",
+            "explanation_en": "14,600 people were killed in Honduras in 1998."
+          },
+          {
+            "id": "5ii",
+            "question": "In which year did the worst cyclone hit Bangladesh according to the passage?",
+            "options": ["1985", "1991", "2007", "1999"],
+            "correct": 1,
+            "explanation_bn": "১৯৯১ সালে বাংলাদেশে সবচেয়ে ভয়াবহ ঘূর্ণিঝড় আঘাত হানে।",
+            "explanation_en": "The worst cyclone hit Bangladesh in 1991."
+          },
+          {
+            "id": "5iii",
+            "question": "In which year did a violent cyclone hit India killing 9,843 people?",
+            "options": ["1991", "1998", "1999", "2007"],
+            "correct": 2,
+            "explanation_bn": "১৯৯৯ সালে ভারতে এক মারাত্মক ঘূর্ণিঝড়ে ৯,৮৪৩ মানুষ নিহত হয়।",
+            "explanation_en": "In 1999, a cyclone in India killed 9,843 people."
+          },
+          {
+            "id": "5iv",
+            "question": "Which country faced a cyclone in 2008 killing 1,38,366 people?",
+            "options": ["Bangladesh", "India", "Myanmar", "Philippines"],
+            "correct": 2,
+            "explanation_bn": "২০০৮ সালে মায়ানমারে ঘূর্ণিঝড়ে ১,৩৮,৩৬৬ মানুষ মারা যায়।",
+            "explanation_en": "Myanmar faced a cyclone in 2008 that killed 1,38,366 people."
+          },
+          {
+            "id": "5v",
+            "question": "In which country were 3,682 people killed in 1997?",
+            "options": ["Bangladesh", "Vietnam", "Nicaragua", "India"],
+            "correct": 1,
+            "explanation_bn": "১৯৯৭ সালে ভিয়েতনামে ৩,৬৮২ মানুষ ঘূর্ণিঝড়ে মারা যায়।",
+            "explanation_en": "In Vietnam, 3,682 people were killed in 1997."
+          }
+        ],
+        "trueFalseQuestions": [
+          {
+            "id": "6a",
+            "question": "Bangladesh is a cyclone prone country.",
+            "options": ["True", "False", "Not mentioned in the passage", "Bangladesh never faces cyclones"],
+            "correct": 0,
+            "explanation_bn": "হ্যাঁ, বাংলাদেশ বারবার ঘূর্ণিঝড়ের শিকার হয়েছে।",
+            "explanation_en": "Yes, Bangladesh has been hit by cyclones multiple times."
+          },
+          {
+            "id": "6b",
+            "question": "In 1991, Philippines faced the most mighty dangerous killer cyclone.",
+            "options": [
+              "True",
+              "False. In 1991, Bangladesh faced the most mighty dangerous killer cyclone.",
+              "False. Philippines never faced cyclones.",
+              "False. It was India that faced the cyclone."
+            ],
+            "correct": 1,
+            "explanation_bn": "১৯৯১ সালে বাংলাদেশ সবচেয়ে ভয়ংকর ঘূর্ণিঝড়ের মুখোমুখি হয়েছিল।",
+            "explanation_en": "In 1991, Bangladesh faced the most dangerous cyclone, not Philippines."
+          },
+          {
+            "id": "6c",
+            "question": "India has been affected by cyclones several times.",
+            "options": ["True", "False", "Not mentioned", "India never faced cyclones"],
+            "correct": 0,
+            "explanation_bn": "ভারতে একাধিকবার ঘূর্ণিঝড় আঘাত হেনেছে।",
+            "explanation_en": "India has been affected by cyclones several times."
+          },
+          {
+            "id": "6d",
+            "question": "Cyclones pose threat to many countries.",
+            "options": ["True", "False", "Not mentioned", "Only Bangladesh is affected"],
+            "correct": 0,
+            "explanation_bn": "ঘূর্ণিঝড় বহু দেশের জন্য হুমকি।",
+            "explanation_en": "Cyclones pose threat to many countries."
+          },
+          {
+            "id": "6e",
+            "question": "Cyclone has become a profitable matter in Bangladesh.",
+            "options": [
+              "True",
+              "False. Cyclone has become a disastrous matter in Bangladesh.",
+              "False. Cyclones are good for Bangladesh.",
+              "Not mentioned."
+            ],
+            "correct": 1,
+            "explanation_bn": "ঘূর্ণিঝড় বাংলাদেশের জন্য দুর্যোগ, লাভজনক নয়।",
+            "explanation_en": "Cyclones have become a disastrous matter in Bangladesh, not profitable."
+          }
+        ],
+        "summary": "There are the ten deadliest cyclones in history. The worst cyclone hit Bangladesh in 1991, killing 138,866 people. In 2008, Myanmar faced a cyclone that caused 138,366 deaths. Another cyclone in Bangladesh in 1985 killed 15,000 people. In 1998, Honduras lost 14,600 lives. A cyclone in India in 1999 killed 9,843 people. Other deadly cyclones hit the Philippines, Vietnam, Nicaragua, and India in 1997 and 1998, causing thousands of deaths."
+      }
+    },
+    {
+      "id": "ch4",
+      "name": "Sentence Making",
+      "type": "sentence_matching",
+      "content": {
+        "exercise": {
+          "id": 1,
+          "question_text": "Match the parts of sentences from Column A and Column B to make five complete sentences.",
+          "table_columns": [
+            [
+              "A library is a place",
+              "It is very useful because",
+              "It is very essential",
+              "We can also",
+              "A library is also known"
+            ],
+            [
+              "borrow books from here if we wish.",
+              "as a store house of knowledge.",
+              "where various types of books are found.",
+              "to enrich our knowledge.",
+              "we can read many kinds of books here."
+            ]
+          ],
+          "valid_sentences": [
+            {
+              "sentence": "A library is a place where various types of books are found.",
+              "combination": ["A library is a place", "where various types of books are found."],
+              "explanation_en": "This sentence defines what a library is.",
+              "explanation_bn": "এই বাক্যটি গ্রন্থাগার কী তা সংজ্ঞায়িত করে।"
+            },
+            {
+              "sentence": "It is very useful because we can read many kinds of books here.",
+              "combination": ["It is very useful because", "we can read many kinds of books here."],
+              "explanation_en": "This describes the usefulness of a library.",
+              "explanation_bn": "এটি গ্রন্থাগারের কার্যকারিতা বর্ণনা করে।"
+            },
+            {
+              "sentence": "It is very essential to enrich our knowledge.",
+              "combination": ["It is very essential", "to enrich our knowledge."],
+              "explanation_en": "This shows why a library is essential.",
+              "explanation_bn": "এটি দেখায় কেন গ্রন্থাগার অপরিহার্য।"
+            },
+            {
+              "sentence": "We can also borrow books from here if we wish.",
+              "combination": ["We can also", "borrow books from here if we wish."],
+              "explanation_en": "This explains a service provided by libraries.",
+              "explanation_bn": "এটি গ্রন্থাগার দ্বারা প্রদত্ত একটি সেবা ব্যাখ্যা করে।"
+            },
+            {
+              "sentence": "A library is also known as a store house of knowledge.",
+              "combination": ["A library is also known", "as a store house of knowledge."],
+              "explanation_en": "This is another description of the library.",
+              "explanation_bn": "এটি গ্রন্থাগারের আরেকটি বর্ণনা।"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch5",
+      "name": "Rearranging",
+      "type": "rearrangement",
+      "content": {
+        "sentences": [
+          { "id": "a", "text": "Suddenly there was slight trembling sound from below." },
+          { "id": "b", "text": "The noise had been so faint that no one thought the ship had been damaged." },
+          { "id": "c", "text": "At that time, however she was not only the largest ship that had been ever built." },
+          { "id": "d", "text": "She was carrying 1316 passengers and crew of 891." },
+          { "id": "e", "text": "But also she was regarded as unsinkable for she had 16 water tight compartments." },
+          { "id": "f", "text": "After the alarm had been given, the great ship turned sharply to avoid a collision." },
+          { "id": "g", "text": "Four days after setting out, while the Titanic was sailing across the icy water of the North Atlantic, a huge iceberg was suddenly spotted by a look out." },
+          { "id": "h", "text": "The great ship Titanic sailed for New York from Southampton on April 10, 1912." }
+        ],
+        "correctOrder": ["h", "d", "c", "e", "g", "f", "a", "b"],
+        "reconstructedParagraph": "The great ship Titanic sailed for New York from Southampton on April 10, 1912. She was carrying 1316 passengers and crew of 891. At that time, however she was not only the largest ship that had been ever built. But also she was regarded as unsinkable for she had 16 water tight compartments. Four days after setting out, while the Titanic was sailing across the icy water of the North Atlantic, a huge iceberg was suddenly spotted by a look out. After the alarm had been given, the great ship turned sharply to avoid a collision. Suddenly there was slight trembling sound from below. The noise had been so faint that no one thought the ship had been damaged."
+      }
+    },
+    {
+      "id": "ch6",
+      "name": "Poetry MCQ",
+      "type": "poetry_mcq",
+      "content": {
+        "questions": [
+          {
+            "id": "10a",
+            "question": "According to the poem 'From a Railway Carriage', what is the child doing?",
+            "options": ["Sleeping by the roadside", "Climbing and scrambling, gathering brambles", "Running after the train", "Sitting in the train"],
+            "correct": 1,
+            "explanation_bn": "কবিতা অনুসারে, শিশুটি রাস্তার পাশে কাঁটাগাছ সংগ্রহ করে আরোহণ করছে।",
+            "explanation_en": "According to the poem, the child is climbing and scrambling, gathering brambles by the roadside."
+          },
+          {
+            "id": "10b",
+            "question": "In the poem 'From a Railway Carriage', why is the cart described as 'lumping along'?",
+            "options": ["Because it is new", "Because the cart has become heavy with man and load", "Because the cart is broken", "Because the road is smooth"],
+            "correct": 1,
+            "explanation_bn": "গাড়িটি মানুষ এবং বোঝায় ভারী হওয়ায় এটি ধীরে চলছে।",
+            "explanation_en": "The cart is lumping along because it is heavy with man and load."
+          },
+          {
+            "id": "10c",
+            "question": "What is the poem 'From a Railway Carriage' about?",
+            "options": ["A slow-moving cart", "A fast-moving train and the things seen from it", "A journey on foot", "The life of a farmer"],
+            "correct": 1,
+            "explanation_bn": "কবিতাটি একটি দ্রুতগামী ট্রেন এবং তা থেকে দেখা মানুষ, স্থান ও জিনিস সম্পর্কে।",
+            "explanation_en": "The poem is about a fast-moving train and the people, places, and things seen from it."
+          },
+          {
+            "id": "10d",
+            "question": "In the poem 'Leisure', what does the poet mean by 'full of care'?",
+            "options": ["Full of happiness", "Full of worries and anxieties", "Full of free time", "Full of love"],
+            "correct": 1,
+            "explanation_bn": "কবি 'full of care' বলতে চিন্তা ও উদ্বেগে পূর্ণ জীবন বোঝাতে চেয়েছেন।",
+            "explanation_en": "By 'full of care', the poet means our life is full of worries and anxieties."
+          },
+          {
+            "id": "10e",
+            "question": "What have been compared to 'skies at night' in the poem 'Leisure'?",
+            "options": ["The woods", "The meadows", "Streams", "The mountains"],
+            "correct": 2,
+            "explanation_bn": "স্রোতস্বিনীকে 'রাতের আকাশের' সাথে তুলনা করা হয়েছে।",
+            "explanation_en": "Streams have been compared to 'skies at night' in the poem."
+          },
+          {
+            "id": "10f",
+            "question": "According to the poem 'Whose Child Is This?', how does a parent take care of a child?",
+            "options": ["By giving money", "By washing, combing, telling what to wear and loving", "By sending to school only", "By ignoring the child"],
+            "correct": 1,
+            "explanation_bn": "পিতামাতা শিশুকে গোসল করিয়ে, চুল আঁচড়ে, কী পরতে হবে বলে এবং ভালোবেসে যত্ন নেন।",
+            "explanation_en": "A parent takes care of a child by washing, combing, telling what to wear, and loving him."
+          },
+          {
+            "id": "10g",
+            "question": "In the poem 'Whose Child Is This?', when the speaker asked the question for the last time, what was the child doing?",
+            "options": ["Playing in the garden", "Entering the door", "Sleeping", "Going to school"],
+            "correct": 1,
+            "explanation_bn": "শেষবার প্রশ্ন করার সময় শিশুটি দরজা দিয়ে প্রবেশ করছিল।",
+            "explanation_en": "When the speaker asked the question for the last time, the child was entering the door."
+          },
+          {
+            "id": "10h",
+            "question": "Who asked the question 'Whose Child Is This?' in the poem?",
+            "options": ["The teacher", "The parent", "The speaker of the poem", "The child"],
+            "correct": 2,
+            "explanation_bn": "কবিতার বক্তা 'এটি কার সন্তান?' প্রশ্নটি জিজ্ঞাসা করেছেন।",
+            "explanation_en": "The speaker of the poem asked the question 'Whose Child Is This?'."
+          }
+        ]
+      }
+    }
+  ]
+}

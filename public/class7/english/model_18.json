@@ -1,0 +1,558 @@
+{
+  "_type": "model_test",
+  "modelId": "m18",
+  "title": "Model Test 18 - English 1st Paper",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Passage & Comprehension",
+      "type": "passage_mcq",
+      "content": {
+        "passage": "The family gathering in the yard carried on with laughter and conversations. At one point, the children asked their grandfather to tell them a story. So, he began to tell the tale of a selfish giant who had a beautiful garden. The Selfish Giant: Every afternoon, as they were coming from school, the children used to go and play in the Giant's garden. It was a large lovely garden, with soft green grass. Here and there over the grass stood beautiful flowers. All around the garden were trees filled with sweet fruit. The birds sat on the trees and sang so sweetly that the children used to stop their games in order to listen to them. 'How happy we are here!' they cried to each other. One day the Giant came back. He had been to visit his friend in a distant land, and had stayed with him for seven years. When he arrived, he saw the children playing in his garden. 'What are you doing here?' cried the Giant in a very gruff voice. The children ran away in fear. 'My own garden is my own garden,' said the Giant. 'I will allow nobody to play in it but myself.' So, he built a high wall all round the garden, and put up a notice: TRESPASSERS WILL BE PUNISHED.",
+        "translation_bn": "উঠানে জড়ো হওয়া পরিবারটির নিজেদের মধ্যে হাসিঠাট্টা এবং কথোপকথন চলতে থাকে। এক পর্যায়ে শিশুরা তাদের দাদাকে একটি গল্প বলতে বলে। তাই তিনি একটি স্বার্থপর দৈত্যের গল্প বলতে শুরু করেন, যার একটি সুন্দর বাগান ছিল। স্বার্থপর দৈত্য: প্রত্যেক বিকেলে শিশুরা স্কুল থেকে ফেরার সময় দৈত্যের বাগানে যেত এবং খেলাধুলা করত। এটি একটি বড় সুন্দর বাগান, যেখানে নরম সবুজ ঘাস ছিল। ঘাসের ওপর এখানে সেখানে সুন্দর সুন্দর ফুল ফুটেছিল। সমস্ত বাগানটি সুস্বাদু ফলের গাছে পরিপূর্ণ ছিল। পাখিরা গাছে এসে বসত এবং এত মিষ্টি সুরে গান করত যে শিশুরা তাদের গান শোনার জন্য খেলা থামিয়ে দিত। তারা চিৎকার করে একে অপরকে বলত, 'আমরা এখানে কত খুশি!' একদিন দৈত্যটি ফিরে এলো। সে দূরদেশে তার এক বন্ধুকে দেখতে গিয়েছিল এবং সাত বছর তার কাছেই ছিল। যখন সে পৌঁছল, তার বাগানে সে শিশুদের খেলতে দেখল। 'তোমরা এখানে কী করছ?' দৈত্যটি খুব কর্কশকণ্ঠে চিৎকার করে বলল। শিশুরা ভয়ে পালিয়ে গেল। 'আমার নিজের বাগান শুধু আমারই', দৈত্যটি বলল। 'আমি নিজেকে ছাড়া অন্য কাউকে এখানে খেলতে দিব না।' তাই, সে বাগানের চারিদিকে একটি উঁচু প্রাচীর তৈরি করল এবং একটি নোটিশ টাঙিয়ে দিল: অনধিকার-প্রবেশকারীদের শাস্তি দেওয়া হবে।",
+        "vocabulary": [
+          { "word": "gathering", "pos": "n", "meaning_en": "a meeting or assembly", "meaning_bn": "সমাবেশ", "synonym": "assembly", "antonym": "dispersal" },
+          { "word": "distant", "pos": "adj", "meaning_en": "far away", "meaning_bn": "দূরবর্তী", "synonym": "remote", "antonym": "nearby" },
+          { "word": "gruff", "pos": "adj", "meaning_en": "rough or harsh in manner", "meaning_bn": "কর্কশ", "synonym": "harsh", "antonym": "gentle" },
+          { "word": "allow", "pos": "v", "meaning_en": "to give permission", "meaning_bn": "অনুমতি দেওয়া", "synonym": "permit", "antonym": "forbid" },
+          { "word": "notice", "pos": "n", "meaning_en": "a written warning or information", "meaning_bn": "নোটিশ", "synonym": "announcement", "antonym": "concealment" },
+          { "word": "trespasser", "pos": "n", "meaning_en": "a person who enters without permission", "meaning_bn": "অনধিকার-প্রবেশকারী", "synonym": "intruder", "antonym": "owner" },
+          { "word": "punish", "pos": "v", "meaning_en": "to cause to suffer for wrongdoing", "meaning_bn": "শাস্তি দেওয়া", "synonym": "penalize", "antonym": "reward" },
+          { "word": "arrive", "pos": "v", "meaning_en": "to reach a destination", "meaning_bn": "পৌঁছানো", "synonym": "appear", "antonym": "depart" },
+          { "word": "lovely", "pos": "adj", "meaning_en": "very beautiful", "meaning_bn": "সুন্দর", "synonym": "beautiful", "antonym": "ugly" }
+        ],
+        "questions": [
+          {
+            "id": "1i",
+            "question": "How was the environment of the family gathering?",
+            "options": ["gloomy", "annoying", "joyful", "boring"],
+            "correct": 2,
+            "explanation_bn": "পারিবারিক সমাবেশটি হাসি ও কথোপকথনে ভরপুর ছিল, তাই এটি আনন্দময় ছিল।",
+            "explanation_en": "The family gathering was filled with laughter and conversations, so it was joyful."
+          },
+          {
+            "id": "1ii",
+            "question": "Who told the story at the family gathering?",
+            "options": ["Father", "Uncle", "Aunt", "Grandfather"],
+            "correct": 3,
+            "explanation_bn": "শিশুরা তাদের দাদাকে গল্প বলতে বলেছিল এবং তিনি গল্প বলতে শুরু করেছিলেন।",
+            "explanation_en": "The children asked their grandfather to tell them a story, and he began to tell it."
+          },
+          {
+            "id": "1iii",
+            "question": "Children used to go to the Giant's garden ---",
+            "options": ["everyday", "in the morning", "after school", "in the afternoon"],
+            "correct": 2,
+            "explanation_bn": "শিশুরা স্কুল থেকে ফেরার সময় দৈত্যের বাগানে যেত।",
+            "explanation_en": "The children used to go to the Giant's garden after coming from school."
+          },
+          {
+            "id": "1iv",
+            "question": "How was the garden?",
+            "options": ["wonderful", "bushy", "dark", "barren"],
+            "correct": 0,
+            "explanation_bn": "বাগানটি বড়, সুন্দর, নরম সবুজ ঘাস, সুন্দর ফুল ও মিষ্টি ফলের গাছে ভরা ছিল।",
+            "explanation_en": "The garden was large, lovely, with soft green grass, beautiful flowers, and sweet fruit trees."
+          },
+          {
+            "id": "1v",
+            "question": "The giant was --- about his garden.",
+            "options": ["upset", "possessive", "indifferent", "careless"],
+            "correct": 1,
+            "explanation_bn": "দৈত্য তার বাগান সম্পর্কে অত্যন্ত মালিকানাসুলভ আচরণ করেছিল এবং কাউকে খেলতে দিত না।",
+            "explanation_en": "The giant was very possessive about his garden and would not let anyone play in it."
+          },
+          {
+            "id": "1vi",
+            "question": "\"One day the Giant came back\". Here, 'come back' means ---",
+            "options": ["arrive", "return", "go", "reach"],
+            "correct": 1,
+            "explanation_bn": "এখানে 'come back' অর্থ ফিরে আসা বা return।",
+            "explanation_en": "Here 'come back' means to return."
+          },
+          {
+            "id": "1vii",
+            "question": "'What are you doing here?' asked the Giant in a very gruff voice. Here, the word 'gruff' refers to ---",
+            "options": ["mild", "low", "soft", "harsh"],
+            "correct": 3,
+            "explanation_bn": "'Gruff' অর্থ কর্কশ বা harsh।",
+            "explanation_en": "'Gruff' means harsh or rough in manner."
+          },
+          {
+            "id": "1viii",
+            "question": "\"Trespassers will be punished.\" What does 'trespasser' mean?",
+            "options": ["intruder", "helper", "visitor", "guest"],
+            "correct": 0,
+            "explanation_bn": "'Trespasser' অর্থ অনধিকার-প্রবেশকারী বা intruder।",
+            "explanation_en": "'Trespasser' means a person who enters without permission."
+          },
+          {
+            "id": "1ix",
+            "question": "The Giant had been to visit his friend in a --- land.",
+            "options": ["nearby", "distant", "local", "neighbouring"],
+            "correct": 1,
+            "explanation_bn": "দৈত্যটি দূরদেশে তার বন্ধুকে দেখতে গিয়েছিল।",
+            "explanation_en": "The Giant had been to visit his friend in a distant land."
+          },
+          {
+            "id": "1x",
+            "question": "The children used to stop their games to ---",
+            "options": ["listen to bird's song", "talk to the Giant", "eat sweet fruits", "gossip"],
+            "correct": 0,
+            "explanation_bn": "পাখিদের গান শোনার জন্য শিশুরা তাদের খেলা থামিয়ে দিত।",
+            "explanation_en": "The children used to stop their games to listen to the birds' songs."
+          },
+          {
+            "id": "1xi",
+            "question": "The children ran away because they ---",
+            "options": ["got frightened", "wanted to talk to the Giant", "saw their parents", "were nervous"],
+            "correct": 0,
+            "explanation_bn": "দৈত্যের কর্কশ কণ্ঠে চিৎকার শুনে শিশুরা ভয়ে পালিয়ে গিয়েছিল।",
+            "explanation_en": "The children ran away because they were frightened by the Giant's gruff voice."
+          },
+          {
+            "id": "1xii",
+            "question": "Every afternoon, children used to play in ---",
+            "options": ["school playground", "village fair", "their house", "the Giant's garden"],
+            "correct": 3,
+            "explanation_bn": "প্রত্যেক বিকেলে শিশুরা দৈত্যের বাগানে খেলতে যেত।",
+            "explanation_en": "Every afternoon the children used to play in the Giant's garden."
+          },
+          {
+            "id": "1xiii",
+            "question": "\"It was a large lovely garden.\" Which of the following words has opposite meaning to 'lovely'?",
+            "options": ["ugly", "nice", "beautiful", "loving"],
+            "correct": 0,
+            "explanation_bn": "'Lovely'-এর বিপরীত শব্দ 'ugly' (কুশ্রী)।",
+            "explanation_en": "The antonym of 'lovely' is 'ugly'."
+          },
+          {
+            "id": "1xiv",
+            "question": "\"I will allow nobody to play in it but myself.\" Here, the word 'allow' means ---",
+            "options": ["want", "prevent", "prohibit", "permit"],
+            "correct": 3,
+            "explanation_bn": "'Allow' অর্থ অনুমতি দেওয়া বা permit।",
+            "explanation_en": "'Allow' means to permit."
+          },
+          {
+            "id": "1xv",
+            "question": "\"He had been to visit his friend in a distant land.\" Which of the following is not an antonym of the word 'distant'?",
+            "options": ["close", "nearby", "remote", "adjoining"],
+            "correct": 2,
+            "explanation_bn": "'Remote' হল 'distant'-এর সমার্থক, বিপরীত নয়।",
+            "explanation_en": "'Remote' is a synonym of 'distant', not an antonym."
+          },
+          {
+            "id": "2a",
+            "question": "Why did the children used to stop their games?",
+            "options": ["To listen to the birds singing sweetly", "To talk to the Giant", "To eat fruits", "To play with flowers"],
+            "correct": 0,
+            "explanation_bn": "পাখিরা এত মিষ্টি সুরে গান করত যে শিশুরা খেলা থামিয়ে তাদের গান শুনত।",
+            "explanation_en": "The birds sang so sweetly that the children used to stop their games to listen to them."
+          },
+          {
+            "id": "2b",
+            "question": "From where did the Giant come back?",
+            "options": ["From a market", "From visiting his friend in a distant land", "From a war", "From a castle"],
+            "correct": 1,
+            "explanation_bn": "দৈত্যটি তার বন্ধুর কাছ থেকে ফিরে এসেছিল, যে দূরদেশে বাস করত।",
+            "explanation_en": "The Giant came back from visiting his friend in a distant land."
+          },
+          {
+            "id": "2c",
+            "question": "Why did the children run away?",
+            "options": ["They were tired", "They were frightened by the Giant's gruff voice", "They were going home", "They were hungry"],
+            "correct": 1,
+            "explanation_bn": "দৈত্যের কর্কশ চিৎকারে শিশুরা ভয় পেয়ে পালিয়ে গিয়েছিল।",
+            "explanation_en": "The children ran away because the Giant cried at them in a gruff voice."
+          },
+          {
+            "id": "2d",
+            "question": "When did the children play in the Giant's garden?",
+            "options": ["In the morning", "After school in the afternoon", "At night", "On weekends"],
+            "correct": 1,
+            "explanation_bn": "প্রত্যেক বিকেলে স্কুল থেকে ফেরার সময় শিশুরা দৈত্যের বাগানে খেলত।",
+            "explanation_en": "Every afternoon after coming from school, the children played in the Giant's garden."
+          },
+          {
+            "id": "2e",
+            "question": "How was the garden?",
+            "options": ["Small and dirty", "Large and lovely with green grass, flowers, and birds", "Dark and scary", "Barren and dry"],
+            "correct": 1,
+            "explanation_bn": "বাগানটি বড়, সুন্দর, নরম সবুজ ঘাস, ফুল, ফল এবং পাখিতে ভরা ছিল।",
+            "explanation_en": "The garden was large and lovely with soft green grass, beautiful flowers, sweet fruit, and singing birds."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2",
+      "name": "Gap Fill & Vocabulary",
+      "type": "gap_fill_vocab",
+      "content": {
+        "gapFill": {
+          "passage": "Helen Keller worked as a (a) ______. The sick, injured and disabled people were deeply (b) ______ by her. People with (c) ______ have problems that affect their body or mind. The problems also make it harder for (d) ______ to do things. Helen spent her life (e) ______ them.",
+          "dialogPassage": "Anne Sullivan worked hard to enable Helen to communicate. Helen learnt Braille, which was a new technique for reading. She also learnt how to type. Anne Sullivan was always with Helen. She sat with Helen in class and helped her by interpreting lectures and texts. In 1904 Helen received her BA degree with Honours from Radcliffe College.",
+          "boxWords": ["humanitarian", "cared", "disabilities", "them", "helping", "ignored", "abilities", "herself", "hurting", "sickness"],
+          "blanks": [
+            {
+              "blankId": "a",
+              "correct": "humanitarian",
+              "options": [
+                { "text": "humanitarian", "isCorrect": true, "explanationBn": "হেলেন কেলার একজন মানবহিতৈষী হিসেবে কাজ করেছিলেন।", "explanationEn": "Helen Keller worked as a humanitarian." },
+                { "text": "doctor", "isCorrect": false, "explanationBn": "তিনি ডাক্তার ছিলেন না।", "explanationEn": "She was not a doctor." },
+                { "text": "teacher", "isCorrect": false, "explanationBn": "হেলেন একজন শিক্ষিকা হিসেবে পরিচিত নন, বরং মানবহিতৈষী।", "explanationEn": "Helen is not primarily known as a teacher, but as a humanitarian." }
+              ]
+            },
+            {
+              "blankId": "b",
+              "correct": "cared",
+              "options": [
+                { "text": "cared", "isCorrect": true, "explanationBn": "তিনি অসুস্থ ও অক্ষম ব্যক্তিদের গভীরভাবে যত্ন করতেন।", "explanationEn": "She deeply cared for the sick and disabled people." },
+                { "text": "ignored", "isCorrect": false, "explanationBn": "তিনি তাদের উপেক্ষা করতেন না।", "explanationEn": "She did not ignore them." },
+                { "text": "hurt", "isCorrect": false, "explanationBn": "তিনি তাদের কষ্ট দিতেন না।", "explanationEn": "She did not hurt them." }
+              ]
+            },
+            {
+              "blankId": "c",
+              "correct": "disabilities",
+              "options": [
+                { "text": "disabilities", "isCorrect": true, "explanationBn": "অক্ষম ব্যক্তিদের শারীরিক বা মানসিক সমস্যা থাকে।", "explanationEn": "People with disabilities have physical or mental problems." },
+                { "text": "abilities", "isCorrect": false, "explanationBn": "এটি 'disabilities'-এর বিপরীত।", "explanationEn": "This is the opposite of 'disabilities'." },
+                { "text": "sickness", "isCorrect": false, "explanationBn": "এটি অক্ষমতার চেয়ে অসুস্থতা বোঝায়।", "explanationEn": "This refers to illness rather than disability." }
+              ]
+            },
+            {
+              "blankId": "d",
+              "correct": "them",
+              "options": [
+                { "text": "them", "isCorrect": true, "explanationBn": "সমস্যাগুলো তাদের জন্য কাজ করা কঠিন করে তোলে।", "explanationEn": "The problems make it harder for them to do things." },
+                { "text": "herself", "isCorrect": false, "explanationBn": "এটি 'them' শব্দটির উপযুক্ত নয়।", "explanationEn": "This is not appropriate here." },
+                { "text": "everyone", "isCorrect": false, "explanationBn": "এটি নির্দিষ্টভাবে অক্ষম ব্যক্তিদের বোঝায় না।", "explanationEn": "This does not specifically refer to disabled people." }
+              ]
+            },
+            {
+              "blankId": "e",
+              "correct": "helping",
+              "options": [
+                { "text": "helping", "isCorrect": true, "explanationBn": "হেলেন তার জীবন অক্ষম ব্যক্তিদের সাহায্য করার জন্য ব্যয় করেছিলেন।", "explanationEn": "Helen spent her life helping disabled people." },
+                { "text": "hurting", "isCorrect": false, "explanationBn": "এটি 'helping'-এর বিপরীত।", "explanationEn": "This is the opposite of 'helping'." },
+                { "text": "teaching", "isCorrect": false, "explanationBn": "সাহায্য করার মধ্যে শিক্ষা দেওয়াও অন্তর্ভুক্ত ছিল, কিন্তু মূল কাজ ছিল সাহায্য করা।", "explanationEn": "Helping includes teaching, but the main focus was helping." }
+              ]
+            }
+          ]
+        },
+        "vocabQuestions": [
+          {
+            "id": "4a",
+            "question": "What is the antonym of \"disabled\"?",
+            "options": ["able-bodied", "philanthropic", "expenditure", "explain"],
+            "correct": 0,
+            "explanation_bn": "'Disabled'-এর বিপরীত শব্দ 'able-bodied' (সক্ষম)।",
+            "explanation_en": "The antonym of 'disabled' is 'able-bodied'."
+          },
+          {
+            "id": "4b",
+            "question": "What is the synonym of \"humanitarian\"?",
+            "options": ["philanthropic", "disabled", "income", "hard"],
+            "correct": 0,
+            "explanation_bn": "'Humanitarian'-এর সমার্থক শব্দ 'philanthropic' (মানবহিতৈষী)।",
+            "explanation_en": "The synonym of 'humanitarian' is 'philanthropic'."
+          },
+          {
+            "id": "4c",
+            "question": "What is the antonym of \"income\"?",
+            "options": ["revenue", "profit", "expenditure", "earning"],
+            "correct": 2,
+            "explanation_bn": "'Income'-এর বিপরীত শব্দ 'expenditure' (ব্যয়)।",
+            "explanation_en": "The antonym of 'income' is 'expenditure'."
+          },
+          {
+            "id": "4d",
+            "question": "What is the synonym of \"hard\" (as in work hard)?",
+            "options": ["lazily", "diligently", "slowly", "carelessly"],
+            "correct": 1,
+            "explanation_bn": "'Hard'-এর সমার্থক শব্দ 'diligently' (পরিশ্রমের সাথে)।",
+            "explanation_en": "The synonym of 'hard' in this context is 'diligently'."
+          },
+          {
+            "id": "4e",
+            "question": "What is the synonym of \"interpret\"?",
+            "options": ["confuse", "explain", "hide", "ignore"],
+            "correct": 1,
+            "explanation_bn": "'Interpret'-এর সমার্থক শব্দ 'explain' (ব্যাখ্যা করা)।",
+            "explanation_en": "The synonym of 'interpret' is 'explain'."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch3",
+      "name": "Biographical Passage & Summary",
+      "type": "passage_summary",
+      "content": {
+        "passage": "Charles Babbage was an English Mathematician. He was also a Mechanical Engineer who is well-known for originating the concept of computer. He was born on 26 October, 1791 in London. He entered Trinity College in October 1810. He was transferred to Peter House, Cambridge. He was the top mathematician there. He received an Honours Degree without examination in 1814. He was elected a fellow of Royal Society in 1816. From 1828 to 1839 Babbage was Lucasian Professor of Mathematics at Cambridge University. Babbage is famous for inventing the first Mechanical Computer in 1822 and that eventually led to today's computer. He died at his home in London on 18 October 1871.",
+        "translation_bn": "চার্লস ব্যাবেজ ছিলেন একজন ইংরেজ গণিতবিদ। তিনি একজন যান্ত্রিক প্রকৌশলীও ছিলেন যিনি কম্পিউটারের মূল ধারণা প্রবর্তনের জন্য পরিচিত। তিনি ১৭৯১ সালের ২৬ অক্টোবর লন্ডনে জন্মগ্রহণ করেন। তিনি ১৮১০ সালের অক্টোবরে ট্রিনিটি কলেজে প্রবেশ করেন। তাঁকে ক্যামব্রিজের পিটারহাউজে পাঠানো হয়। তিনি সেখানকার শীর্ষ গণিতবিদ ছিলেন। তিনি ১৮১৪ সালে কোনো পরীক্ষা ছাড়াই অনার্স ডিগ্রি অর্জন করেন। তিনি ১৮১৬ সালে রয়েল সোসাইটির একজন ফেলো নির্বাচিত হন। ১৮২৮ থেকে ১৮৩৯ সাল পর্যন্ত তিনি ক্যামব্রিজ বিশ্ববিদ্যালয়ের গণিতের একজন লুকসিয়ান অধ্যাপক ছিলেন। ব্যাবেজ ১৮২২ সালে প্রথম যান্ত্রিক কম্পিউটার আবিষ্কারের জন্য বিখ্যাত যা বর্তমান কম্পিউটারের জন্ম দেয়। তিনি ১৮৭১ সালের ১৮ অক্টোবর লন্ডনে নিজ বাড়িতে মৃত্যুবরণ করেন।",
+        "vocabulary": [
+          { "word": "mathematician", "pos": "n", "meaning_bn": "গণিতবিদ", "meaning_en": "expert in mathematics", "synonym": "arithmetician", "antonym": "" },
+          { "word": "mechanical", "pos": "adj", "meaning_bn": "যান্ত্রিক", "meaning_en": "relating to machines", "synonym": "machine-like", "antonym": "manual" },
+          { "word": "well-known", "pos": "adj", "meaning_bn": "সুপরিচিত", "meaning_en": "famous", "synonym": "renowned", "antonym": "unknown" },
+          { "word": "originate", "pos": "v", "meaning_bn": "উদ্ভাবন করা", "meaning_en": "to create or invent", "synonym": "invent", "antonym": "terminate" },
+          { "word": "fellow", "pos": "n", "meaning_bn": "সহকর্মী", "meaning_en": "a member of a learned society", "synonym": "associate", "antonym": "" },
+          { "word": "eventually", "pos": "adv", "meaning_bn": "অবশেষে", "meaning_en": "finally", "synonym": "finally", "antonym": "immediately" }
+        ],
+        "mcqQuestions": [
+          {
+            "id": "5i",
+            "question": "Where was Charles Babbage born?",
+            "options": ["In Cambridge", "In London", "In Paris", "In New York"],
+            "correct": 1,
+            "explanation_bn": "চার্লস ব্যাবেজ ১৭৯১ সালের ২৬ অক্টোবর লন্ডনে জন্মগ্রহণ করেন।",
+            "explanation_en": "Charles Babbage was born in London on 26 October 1791."
+          },
+          {
+            "id": "5ii",
+            "question": "What degree did Charles Babbage receive in 1814?",
+            "options": ["Master's Degree", "PhD", "Honours Degree", "Bachelor's Degree"],
+            "correct": 2,
+            "explanation_bn": "তিনি ১৮১৪ সালে কোনো পরীক্ষা ছাড়াই অনার্স ডিগ্রি অর্জন করেন।",
+            "explanation_en": "He received an Honours Degree without examination in 1814."
+          },
+          {
+            "id": "5iii",
+            "question": "In which year was Babbage elected a fellow of the Royal Society?",
+            "options": ["1814", "1816", "1822", "1828"],
+            "correct": 1,
+            "explanation_bn": "তিনি ১৮১৬ সালে রয়েল সোসাইটির ফেলো নির্বাচিত হন।",
+            "explanation_en": "He was elected a fellow of the Royal Society in 1816."
+          },
+          {
+            "id": "5iv",
+            "question": "What was Babbage's position at Cambridge University from 1828 to 1839?",
+            "options": ["Student", "Professor of Physics", "Lucasian Professor of Mathematics", "Research Fellow"],
+            "correct": 2,
+            "explanation_bn": "তিনি ১৮২৮ থেকে ১৮৩৯ সাল পর্যন্ত ক্যামব্রিজ বিশ্ববিদ্যালয়ের গণিতের লুকসিয়ান অধ্যাপক ছিলেন।",
+            "explanation_en": "He served as Lucasian Professor of Mathematics at Cambridge University from 1828 to 1839."
+          },
+          {
+            "id": "5v",
+            "question": "When did Charles Babbage die?",
+            "options": ["In 1822", "In 1839", "In 1871", "In 1791"],
+            "correct": 2,
+            "explanation_bn": "তিনি ১৮৭১ সালের ১৮ অক্টোবর লন্ডনে মৃত্যুবরণ করেন।",
+            "explanation_en": "Charles Babbage died on 18 October 1871."
+          }
+        ],
+        "trueFalseQuestions": [
+          {
+            "id": "6a",
+            "question": "Charles Babbage was a philosopher.",
+            "options": [
+              "True",
+              "False. He was a mathematician and engineer.",
+              "False. He was a poet.",
+              "False. He was a doctor."
+            ],
+            "correct": 1,
+            "explanation_bn": "চার্লস ব্যাবেজ ছিলেন একজন গণিতবিদ এবং যান্ত্রিক প্রকৌশলী।",
+            "explanation_en": "Charles Babbage was a mathematician and mechanical engineer."
+          },
+          {
+            "id": "6b",
+            "question": "He originated the idea of computer.",
+            "options": ["True", "False", "Not mentioned", "He invented the telephone"],
+            "correct": 0,
+            "explanation_bn": "তিনি কম্পিউটারের ধারণা প্রবর্তনের জন্য বিখ্যাত।",
+            "explanation_en": "He is well-known for originating the concept of the computer."
+          },
+          {
+            "id": "6c",
+            "question": "He is an American.",
+            "options": [
+              "True",
+              "False. He is English.",
+              "False. He is French.",
+              "False. He is German."
+            ],
+            "correct": 1,
+            "explanation_bn": "চার্লস ব্যাবেজ একজন ইংরেজ ছিলেন।",
+            "explanation_en": "Charles Babbage was English."
+          },
+          {
+            "id": "6d",
+            "question": "He got his Honours Degree after passing the exam with credit.",
+            "options": [
+              "True",
+              "False. He received his Honours Degree without any examination.",
+              "False. He never received any degree.",
+              "False. He failed his exams."
+            ],
+            "correct": 1,
+            "explanation_bn": "তিনি কোনো পরীক্ষা ছাড়াই অনার্স ডিগ্রি অর্জন করেন।",
+            "explanation_en": "He received his Honours Degree without any examination."
+          },
+          {
+            "id": "6e",
+            "question": "The first Mechanical Computer was invented in 1822.",
+            "options": ["True", "False", "Not mentioned", "It was invented in 1814"],
+            "correct": 0,
+            "explanation_bn": "ব্যাবেজ ১৮২২ সালে প্রথম যান্ত্রিক কম্পিউটার আবিষ্কার করেন।",
+            "explanation_en": "Babbage invented the first Mechanical Computer in 1822."
+          }
+        ],
+        "summary": "Charles Babbage was an English mathematician and mechanical engineer, born in London in 1791. He studied at Cambridge and became the top mathematician. He received an Honours Degree in 1814 and was elected a fellow of the Royal Society in 1816. He served as Lucasian Professor of Mathematics at Cambridge. He is famous for inventing the first Mechanical Computer in 1822, which paved the way for modern computers. He died in London in 1871."
+      }
+    },
+    {
+      "id": "ch4",
+      "name": "Sentence Making",
+      "type": "sentence_matching",
+      "content": {
+        "exercise": {
+          "id": 1,
+          "question_text": "Match the parts of sentences from Column A and Column B to make five complete sentences.",
+          "table_columns": [
+            [
+              "Once, on a hot summer day, a crow felt",
+              "It was",
+              "But it did not",
+              "At last, it found",
+              "The pitcher had"
+            ],
+            [
+              "flying to and fro looking for water.",
+              "some water, but it was beyond the reach of the crow.",
+              "a pitcher of water at some distance.",
+              "very thirsty.",
+              "find water anywhere."
+            ]
+          ],
+          "valid_sentences": [
+            {
+              "sentence": "Once, on a hot summer day, a crow felt very thirsty.",
+              "combination": ["Once, on a hot summer day, a crow felt", "very thirsty."],
+              "explanation_en": "This introduces the thirsty crow in the story.",
+              "explanation_bn": "এটি গল্পের তৃষ্ণার্ত কাকের পরিচয় দেয়।"
+            },
+            {
+              "sentence": "It was flying to and fro looking for water.",
+              "combination": ["It was", "flying to and fro looking for water."],
+              "explanation_en": "This describes what the crow did to find water.",
+              "explanation_bn": "এটি পানি খোঁজার জন্য কাক কী করেছিল তা বর্ণনা করে।"
+            },
+            {
+              "sentence": "But it did not find water anywhere.",
+              "combination": ["But it did not", "find water anywhere."],
+              "explanation_en": "This shows the crow's failure to find water.",
+              "explanation_bn": "এটি পানি না পাওয়ার ব্যর্থতা দেখায়।"
+            },
+            {
+              "sentence": "At last, it found a pitcher of water at some distance.",
+              "combination": ["At last, it found", "a pitcher of water at some distance."],
+              "explanation_en": "This shows the crow finally finding water.",
+              "explanation_bn": "এটি শেষ পর্যন্ত পানি পাওয়ার ঘটনা দেখায়।"
+            },
+            {
+              "sentence": "The pitcher had some water, but it was beyond the reach of the crow.",
+              "combination": ["The pitcher had", "some water, but it was beyond the reach of the crow."],
+              "explanation_en": "This describes the problem the crow faced.",
+              "explanation_bn": "এটি কাকের সমস্যা বর্ণনা করে।"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch5",
+      "name": "Rearranging",
+      "type": "rearrangement",
+      "content": {
+        "sentences": [
+          { "id": "a", "text": "The Angel was impressed by the man's honesty." },
+          { "id": "b", "text": "The poor woodcutter made a good search in the water but could not find it." },
+          { "id": "c", "text": "The Angel dived into the river and came up carrying a golden axe but the woodcutter did not accept it and said that his axe was made of iron." },
+          { "id": "d", "text": "He presented him with the golden and silver axes in recognition of his truthful nature." },
+          { "id": "e", "text": "The Angel once again plunged into the river and soon reappeared carrying the axe of the woodcutter and the poor man greeted the angel with words of profuse thanks and great joy." },
+          { "id": "f", "text": "One day a woodcutter's axe accidentally fell into a river." },
+          { "id": "g", "text": "Suddenly an Angel appeared before him." },
+          { "id": "h", "text": "The Angel disappeared and soon returned with a silver axe and this time the woodcutter again denied that it was his axe." }
+        ],
+        "correctOrder": ["f", "b", "g", "c", "h", "e", "a", "d"],
+        "reconstructedParagraph": "One day a woodcutter's axe accidentally fell into a river. The poor woodcutter made a good search in the water but could not find it. Suddenly an Angel appeared before him. The Angel dived into the river and came up carrying a golden axe but the woodcutter did not accept it and said that his axe was made of iron. The Angel disappeared and soon returned with a silver axe and this time the woodcutter again denied that it was his axe. The Angel once again plunged into the river and soon reappeared carrying the axe of the woodcutter and the poor man greeted the angel with words of profuse thanks and great joy. The Angel was impressed by the man's honesty. He presented him with the golden and silver axes in recognition of his truthful nature."
+      }
+    },
+    {
+      "id": "ch6",
+      "name": "Poetry MCQ",
+      "type": "poetry_mcq",
+      "content": {
+        "questions": [
+          {
+            "id": "10a",
+            "question": "In the poem \"Whose Child Is This?\", what was the child doing when the speaker saw him first?",
+            "options": ["Sleeping", "Playing", "Crying", "Studying"],
+            "correct": 1,
+            "explanation_bn": "কবিতায় বক্তা প্রথম শিশুটিকে খেলতে দেখেছিলেন।",
+            "explanation_en": "In the poem, the child was playing when the speaker saw him first."
+          },
+          {
+            "id": "10b",
+            "question": "According to the poem \"Whose Child Is This?\", what are the responsibilities of a teacher?",
+            "options": ["To teach good behavior and guide the child's mind", "To punish the child", "To ignore the child", "To feed the child"],
+            "correct": 0,
+            "explanation_bn": "শিক্ষকের দায়িত্ব হল শিশুকে ভালো আচরণ শেখানো, তার মনকে পথ দেখানো এবং নিয়ম মেনে চলতে সাহায্য করা।",
+            "explanation_en": "The teacher's responsibilities are to teach good behavior, guide the child's mind, and help him follow rules."
+          },
+          {
+            "id": "10c",
+            "question": "Who asked the question \"Whose Child Is This?\" in the poem?",
+            "options": ["The parent", "The teacher", "The speaker of the poem", "The child"],
+            "correct": 2,
+            "explanation_bn": "কবিতায় বক্তাই 'এই শিশু কার?' প্রশ্নটি করেছিলেন।",
+            "explanation_en": "The speaker of the poem asked the question 'Whose Child Is This?'"
+          },
+          {
+            "id": "10d",
+            "question": "Why is there no time to see the beauty of nature according to the poem \"Leisure\"?",
+            "options": ["Because we are lazy", "Because our lives are full of responsibilities and worries", "Because we don't like nature", "Because we are always sleeping"],
+            "correct": 1,
+            "explanation_bn": "কবির মতে, আমাদের জীবন দায়িত্ব ও দুশ্চিন্তায় পূর্ণ, তাই প্রকৃতির সৌন্দর্য দেখার সময় নেই।",
+            "explanation_en": "According to the poet, our lives are full of responsibilities and worries, leaving no time to enjoy nature."
+          },
+          {
+            "id": "10e",
+            "question": "According to the poem \"Leisure\", what would we see if we had time to stare?",
+            "options": ["Only darkness", "Where the squirrels hide their nuts and streams full of stars", "Nothing special", "Only buildings"],
+            "correct": 1,
+            "explanation_bn": "সময় পেলে আমরা দেখতাম কাঠবিড়ালিরা ঘাসে বাদাম লুকিয়ে রাখে এবং স্রোতধারা তারায় পূর্ণ।",
+            "explanation_en": "If we had time to stare, we would see squirrels hiding their nuts in the grass and streams full of stars."
+          },
+          {
+            "id": "10f",
+            "question": "Do you think people often do not have time to enjoy the beauty of nature?",
+            "options": ["Yes, because we are busy with work and worries", "No, everyone has enough time", "Only children have time", "Only old people have time"],
+            "correct": 0,
+            "explanation_bn": "হ্যাঁ, আমরা দৈনন্দিন কাজে এত ব্যস্ত থাকি যে প্রকৃতি উপভোগ করার সময় নেই।",
+            "explanation_en": "Yes, we remain so busy with daily work that we find no time to enjoy natural beauty."
+          },
+          {
+            "id": "10g",
+            "question": "What is the poem \"From a Railway Carriage\" about?",
+            "options": ["A sea voyage", "A fast-moving train and the sights seen from it", "A horse ride", "A city market"],
+            "correct": 1,
+            "explanation_bn": "কবিতাটি একটি দ্রুতগামী ট্রেন এবং তা থেকে দেখা দৃশ্য সম্পর্কে।",
+            "explanation_en": "The poem is about a fast-moving train and the people, places, and things seen from it."
+          },
+          {
+            "id": "10h",
+            "question": "In the poem \"From a Railway Carriage\", who is a tramp and what is he doing?",
+            "options": ["A homeless person watching the passing train", "A passenger sleeping", "A driver driving the train", "A child playing"],
+            "correct": 0,
+            "explanation_bn": "ট্রাম্প হলেন একজন গৃহহীন ব্যক্তি যিনি দাঁড়িয়ে ট্রেনটি যেতে দেখছেন।",
+            "explanation_en": "A tramp is a homeless and jobless person watching the passing train."
+          }
+        ]
+      }
+    }
+  ]
+}

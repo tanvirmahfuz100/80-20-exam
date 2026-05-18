@@ -1,0 +1,515 @@
+{
+  "_type": "model_test",
+  "modelId": "m08",
+  "title": "Model Test 08 - English 1st Paper",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Passage & Comprehension",
+      "type": "passage_mcq",
+      "content": {
+        "passage": "Have you heard the song 'Kotha Ko' by Shezan? While singers from earlier generations were often too afraid to use music as a form of protest, artists like Shezan and Hannan have courageously spoken out. Their rap songs became anthems of the July Uprising in 2024. The new generation is no longer afraid; they are brave and different. But how do we make sense of the difference? What defines different generations? And what are the connections that link them across time? Although generational labels are rooted in Western ideas and may not universally apply, they can sometimes offer a useful framework for understanding changing social dynamics. The idea of naming generations started in the early 20th century with the 'Lost Generation'. This referred to those who suffered the aftermath of World War I and the Great Depression. The naming practice continued with Generation X and then Millennials, eventually reaching Generation Z. Generation Z is a group that grew up entirely in the digital age-the first to zoom into the internet. Growing up with social media, a mobile internet, and a lot of information, Gen Z experiences a paradox: hyper connected yet often isolated, digitally adept but frequently anxious, free yet persistently stressed. They have also witnessed transformative global events---climate crises, political turmoils like the Ukraine-Russia war and the genocide in Palestine that shape the world they are supposed to inherit.",
+        "translation_bn": "তুমি কি শেজানের 'কথা কও' গানটি শুনেছো? যখন পূর্ববর্তী প্রজন্মের গায়করা সংগীতকে প্রতিবাদের একটি মাধ্যম হিসেবে ব্যবহার করতে ভয় পেতেন, শেজান এবং হান্নানের মতো শিল্পীরা সাহসিকতার সাথে মুখ খুলেছেন। তাদের র‍্যাপ গানগুলো ২০২৪ সালের জুলাই অভ্যুত্থানের সংগীতে পরিণত হয়েছিল। নতুন প্রজন্ম আর ভীত নয়; তারা সাহসী এবং ভিন্ন। কিন্তু কীভাবে আমরা এই পার্থক্যটি বুঝতে পারি? ভিন্ন প্রজন্ম বলতে কী বুঝায়? আর এই সংযোগগুলো কী যা তাদের সময়ের সাথে সংযুক্ত করে? যদিও প্রজন্মের স্তরগুলো পশ্চিমা ধারণার মধ্যে নিহিত এবং সর্বজনীনভাবে প্রযোজ্য নাও হতে পারে, এগুলো কখনো কখনো পরিবর্তনশীল সামাজিক গতিবিদ্যা বোঝার জন্য দরকারী কাঠামো প্রদান করতে পারে। প্রজন্মের নামকরণের ধারণাটি ২০ শতকের গোড়ার দিকে 'লস্ট জেনারেশন' দিয়ে শুরু হয়েছিল। এটি তাদেরকে বুঝায় যারা প্রথম বিশ্বযুদ্ধ এবং গ্রেট ডিপ্রেশনের শোচনীয় পরিণতি ভোগ করেছিল। নামকরণের এই চর্চা জেনারেশন এক্স থেকে শুরু হয়ে মিলেনিয়াল হয়ে অবশেষে জেনারেশন জেড-এ পৌঁছায়। জেনারেশন জেড হলো এমন একটি গোষ্ঠী যারা সম্পূর্ণ ডিজিটাল যুগে বেড়ে উঠেছে- ইন্টারনেটে প্রথম প্রবেশকারী হিসেবে। সামাজিক মাধ্যম, মোবাইল ইন্টারনেট এবং প্রচুর তথ্যের সাথে বেড়ে ওঠায়, জেন-জেড একটি প্যারাডক্স অনুভব করে: অত্যাধিক সংযুক্ত কিন্তু প্রায়শই বিচ্ছিন্ন, ডিজিটাল দৃষ্টিকোণে দক্ষ কিন্তু বারংবার উদ্বিগ্ন, মুক্ত কিন্তু ক্রমাগত চাপগ্রস্ত। তারা প্রত্যক্ষ করেছে রূপান্তরমূলক বৈশ্বিক ঘটনা- জলবায়ু সংকট, ইউক্রেন-রাশিয়া যুদ্ধের মতো রাজনৈতিক অস্থিরতা এবং ফিলিস্তিনের গণহত্যা যেগুলো উত্তরাধিকার হিসেবে প্রাপ্ত পৃথিবীর রূপ দিয়েছে।",
+        "vocabulary": [
+          { "word": "protest", "pos": "n", "meaning_en": "an act of resistance", "meaning_bn": "প্রতিবাদ", "synonym": "objection", "antonym": "support" },
+          { "word": "courageously", "pos": "adv", "meaning_en": "in a brave manner", "meaning_bn": "সাহসিকতার সাথে", "synonym": "bravely", "antonym": "fearfully" },
+          { "word": "generation", "pos": "n", "meaning_en": "a group of people born around same time", "meaning_bn": "প্রজন্ম", "synonym": "cohort", "antonym": "" },
+          { "word": "aftermath", "pos": "n", "meaning_en": "consequence", "meaning_bn": "পরিণতি", "synonym": "consequence", "antonym": "cause" },
+          { "word": "paradox", "pos": "n", "meaning_en": "a contradiction", "meaning_bn": "প্যারাডক্স", "synonym": "contradiction", "antonym": "certainty" },
+          { "word": "isolated", "pos": "adj", "meaning_en": "separated", "meaning_bn": "বিচ্ছিন্ন", "synonym": "alone", "antonym": "connected" },
+          { "word": "adept", "pos": "adj", "meaning_en": "skilled", "meaning_bn": "দক্ষ", "synonym": "expert", "antonym": "inept" },
+          { "word": "inherited", "pos": "v", "meaning_en": "received from ancestors", "meaning_bn": "উত্তরাধিকার", "synonym": "acquired", "antonym": "forfeited" }
+        ],
+        "questions": [
+          {
+            "id": "1i",
+            "question": "The idea of generation has originated from ---",
+            "options": ["Eastern ideas", "Western ideas", "European ideas", "Southern ideas"],
+            "correct": 1,
+            "explanation_bn": "প্রজন্মের ধারণা পশ্চিমা (Western) ধারণা থেকে উদ্ভূত।",
+            "explanation_en": "The idea of generations originated from Western ideas."
+          },
+          {
+            "id": "1ii",
+            "question": "How was the first generation named?",
+            "options": ["Great Depression", "Lost Generation", "Millennial", "Generation X"],
+            "correct": 1,
+            "explanation_bn": "প্রথম প্রজন্মের নাম 'লস্ট জেনারেশন' (Lost Generation)।",
+            "explanation_en": "The first generation was named 'Lost Generation'."
+          },
+          {
+            "id": "1iii",
+            "question": "Which of the followings left a lasting impact on the Lost Generation?",
+            "options": ["World War I", "Great Depression", "Ukraine-Russia War", "Both a & b"],
+            "correct": 3,
+            "explanation_bn": "প্রথম বিশ্বযুদ্ধ এবং গ্রেট ডিপ্রেশন উভয়ই লস্ট জেনারেশন-এ প্রভাব ফেলেছিল।",
+            "explanation_en": "Both World War I and the Great Depression impacted the Lost Generation."
+          },
+          {
+            "id": "1iv",
+            "question": "Gen Z has to experience ---",
+            "options": ["isolation", "anxiety", "stress", "all of them"],
+            "correct": 3,
+            "explanation_bn": "জেন-জেড বিচ্ছিন্নতা, উদ্বেগ এবং চাপ সবকিছুই অনুভব করে।",
+            "explanation_en": "Gen Z experiences isolation, anxiety, and stress."
+          },
+          {
+            "id": "1v",
+            "question": "Gen Z witnessed everything except ---",
+            "options": ["climate crisis", "political turmoil", "genocide", "depression"],
+            "correct": 3,
+            "explanation_bn": "জেন-জেড হতাশা (depression) ছাড়া সবকিছুই প্রত্যক্ষ করেছে।",
+            "explanation_en": "Gen Z witnessed everything except depression."
+          },
+          {
+            "id": "1vi",
+            "question": "\"Their rap songs became anthems of the July Uprising in 2024.\" Here, the meaning of the word 'uprising' is ---",
+            "options": ["chaos", "riot", "revolution", "anarchy"],
+            "correct": 2,
+            "explanation_bn": "'Uprising' অর্থ 'revolution' (অভ্যুত্থান)।",
+            "explanation_en": "'Uprising' means revolution."
+          },
+          {
+            "id": "1vii",
+            "question": "\"This referred to those who suffered the aftermath of World War I...\" Which word is a synonym of 'aftermath'?",
+            "options": ["cause", "consequence", "origin", "reason"],
+            "correct": 1,
+            "explanation_bn": "'Aftermath'-এর সমার্থক 'consequence' (পরিণতি)।",
+            "explanation_en": "A synonym of 'aftermath' is 'consequence'."
+          },
+          {
+            "id": "1viii",
+            "question": "\"Gen Z experiences a paradox.\" Here, the word 'paradox' means ---",
+            "options": ["contradiction", "similarity", "certainty", "confidence"],
+            "correct": 0,
+            "explanation_bn": "'Paradox' অর্থ 'contradiction' (বিরোধাভাস)।",
+            "explanation_en": "'Paradox' means contradiction."
+          },
+          {
+            "id": "1ix",
+            "question": "Which of the following is the characteristic of Gen Z?",
+            "options": ["afraid and different", "connected but unskilled", "free but stressed", "free and happy"],
+            "correct": 2,
+            "explanation_bn": "জেন-জেডের বৈশিষ্ট্য হলো মুক্ত কিন্তু চাপগ্রস্ত (free but stressed)।",
+            "explanation_en": "A characteristic of Gen Z is free but stressed."
+          },
+          {
+            "id": "1x",
+            "question": "The 'Lost Generation' had to suffer because ---",
+            "options": ["they went missing", "they lost everything", "digitalization process started", "World War I took place"],
+            "correct": 3,
+            "explanation_bn": "প্রথম বিশ্বযুদ্ধের কারণে লস্ট জেনারেশনকে কষ্ট ভোগ করতে হয়েছিল।",
+            "explanation_en": "The Lost Generation suffered because World War I took place."
+          },
+          {
+            "id": "1xi",
+            "question": "Which generation came after Generation X?",
+            "options": ["Millennial", "Gen Z", "Gen Alpha", "Lost Generation"],
+            "correct": 0,
+            "explanation_bn": "জেনারেশন এক্স-এর পর মিলেনিয়াল প্রজন্ম আসে।",
+            "explanation_en": "Millennial generation came after Generation X."
+          },
+          {
+            "id": "1xii",
+            "question": "Which songs were the anthems of the July Uprising?",
+            "options": ["folk songs", "rap songs", "rebel songs", "mass songs"],
+            "correct": 1,
+            "explanation_bn": "র‍্যাপ গানগুলো (rap songs) জুলাই অভ্যুত্থানের সঙ্গীত ছিল।",
+            "explanation_en": "Rap songs were the anthems of the July Uprising."
+          },
+          {
+            "id": "1xiii",
+            "question": "\"...digitally adept but frequently anxious.\" Which word has the opposite meaning of 'adept'?",
+            "options": ["expert", "skilled", "inept", "competent"],
+            "correct": 2,
+            "explanation_bn": "'Adept'-এর বিপরীত 'inept' (অদক্ষ)।",
+            "explanation_en": "The opposite of 'adept' is 'inept'."
+          },
+          {
+            "id": "1xiv",
+            "question": "\"...free yet persistently stressed.\" Which word is NOT a synonym of 'persistently'?",
+            "options": ["continuously", "constantly", "always", "occasionally"],
+            "correct": 3,
+            "explanation_bn": "'Occasionally' (মাঝে মাঝে) 'persistently'-এর সমার্থক নয়।",
+            "explanation_en": "'Occasionally' is not a synonym of 'persistently'."
+          },
+          {
+            "id": "1xv",
+            "question": "\"...that shape the world they are supposed to inherit.\" Here, 'inherit' means ---",
+            "options": ["control", "take over", "forfeit", "come into"],
+            "correct": 1,
+            "explanation_bn": "'Inherit' অর্থ 'take over' (উত্তরাধিকারী হওয়া)।",
+            "explanation_en": "'Inherit' means to take over."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2",
+      "name": "Gap Fill & Vocabulary",
+      "type": "gap_fill_vocab",
+      "content": {
+        "gapFill": {
+          "passage": "Mr Zamil Huda (a) ______ in a company office. He (b) ______ his wife Shahana to (c) ______ for a vacant position at his firm. But Shahana is not (d) ______ in the office job. She is rather joining the (e) ______ high school as a teacher.",
+          "boxWords": ["works", "insists", "apply", "interested", "local", "plays", "allows", "reject", "bored", "national"],
+          "blanks": [
+            {
+              "blankId": "a",
+              "correct": "works",
+              "options": [
+                { "text": "works", "isCorrect": true, "explanationBn": "জনাব জামিল হুদা একটি কোম্পানির অফিসে কাজ করেন (works)।", "explanationEn": "Mr. Zamil Huda works in a company office." },
+                { "text": "plays", "isCorrect": false, "explanationBn": "তিনি কাজ করেন, খেলেন না।", "explanationEn": "He works, not plays." },
+                { "text": "stays", "isCorrect": false, "explanationBn": "'Works' এখানে সঠিক, 'stays' নয়।", "explanationEn": "'Works' is correct here, not 'stays'." }
+              ]
+            },
+            {
+              "blankId": "b",
+              "correct": "insists",
+              "options": [
+                { "text": "insists", "isCorrect": true, "explanationBn": "তিনি শাহানাকে আবেদন করতে জোর (insists) দেন।", "explanationEn": "He insists Shahana to apply." },
+                { "text": "allows", "isCorrect": false, "explanationBn": "তিনি জোর দিচ্ছেন, অনুমতি দিচ্ছেন না।", "explanationEn": "He insists, not allows." },
+                { "text": "requests", "isCorrect": false, "explanationBn": "'Insists' (জোর করা) 'requests'-এর চেয়ে শক্তিশালী।", "explanationEn": "'Insists' is stronger than 'requests'." }
+              ]
+            },
+            {
+              "blankId": "c",
+              "correct": "apply",
+              "options": [
+                { "text": "apply", "isCorrect": true, "explanationBn": "শাহানাকে পদটির জন্য আবেদন (apply) করতে বলা হয়।", "explanationEn": "He wants Shahana to apply for the post." },
+                { "text": "reject", "isCorrect": false, "explanationBn": "এটি 'apply'-এর বিপরীত।", "explanationEn": "This is the opposite of 'apply'." },
+                { "text": "leave", "isCorrect": false, "explanationBn": "তাকে আবেদন করতে বলা হয়, চলে যেতে নয়।", "explanationEn": "He asks her to apply, not leave." }
+              ]
+            },
+            {
+              "blankId": "d",
+              "correct": "interested",
+              "options": [
+                { "text": "interested", "isCorrect": true, "explanationBn": "শাহানা অফিসের কাজে আগ্রহী (interested) নন।", "explanationEn": "Shahana is not interested in the office job." },
+                { "text": "bored", "isCorrect": false, "explanationBn": "তিনি আগ্রহী নন, বিরক্ত নন।", "explanationEn": "She is not interested, not bored." },
+                { "text": "happy", "isCorrect": false, "explanationBn": "তিনি অফিসের কাজে খুশি নন কারণ তিনি আগ্রহী নন।", "explanationEn": "She is not happy with the office job because she is not interested." }
+              ]
+            },
+            {
+              "blankId": "e",
+              "correct": "local",
+              "options": [
+                { "text": "local", "isCorrect": true, "explanationBn": "তিনি স্থানীয় (local) উচ্চ বিদ্যালয়ে যোগ দিচ্ছেন।", "explanationEn": "She is joining the local high school." },
+                { "text": "national", "isCorrect": false, "explanationBn": "বিদ্যালয়টি স্থানীয়, জাতীয় নয়।", "explanationEn": "The school is local, not national." },
+                { "text": "private", "isCorrect": false, "explanationBn": "পাঠ্যে 'local' বলা হয়েছে, 'private' নয়।", "explanationEn": "The text says 'local', not 'private'." }
+              ]
+            }
+          ]
+        },
+        "vocabQuestions": [
+          {
+            "id": "4a",
+            "question": "What is the antonym of 'respect'?",
+            "options": ["honour", "disrespect", "admire", "appreciate"],
+            "correct": 1,
+            "explanation_bn": "'Respect'-এর বিপরীত 'disrespect' (অসম্মান)।",
+            "explanation_en": "The antonym of 'respect' is 'disrespect'."
+          },
+          {
+            "id": "4b",
+            "question": "What is the synonym of 'will'?",
+            "options": ["intention", "dislike", "hatred", "aversion"],
+            "correct": 0,
+            "explanation_bn": "'Will'-এর সমার্থক 'intention' (ইচ্ছা)।",
+            "explanation_en": "The synonym of 'will' is 'intention'."
+          },
+          {
+            "id": "4c",
+            "question": "What is the synonym of 'teacher'?",
+            "options": ["tutor", "student", "pupil", "learner"],
+            "correct": 0,
+            "explanation_bn": "'Teacher'-এর সমার্থক 'tutor' (শিক্ষক)।",
+            "explanation_en": "The synonym of 'teacher' is 'tutor'."
+          },
+          {
+            "id": "4d",
+            "question": "What is the synonym of 'prepare'?",
+            "options": ["destroy", "make", "ruin", "break"],
+            "correct": 1,
+            "explanation_bn": "'Prepare'-এর সমার্থক 'make' (প্রস্তুত করা)।",
+            "explanation_en": "The synonym of 'prepare' is 'make'."
+          },
+          {
+            "id": "4e",
+            "question": "What is the antonym of 'inspire'?",
+            "options": ["encourage", "motivate", "discourage", "stimulate"],
+            "correct": 2,
+            "explanation_bn": "'Inspire'-এর বিপরীত 'discourage' (অনুৎসাহিত করা)।",
+            "explanation_en": "The antonym of 'inspire' is 'discourage'."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch3",
+      "name": "Biographical Passage & Summary",
+      "type": "passage_summary",
+      "content": {
+        "passage": "John Donne was born in 1573 in London. His father was a rich merchant. He had a name and fame in his circle. But he died in 1576. Donne was at first educated at Catholic institutions. He entered Oxford in 1584 and left it in 1587. Then he studied at Cambridge for three years. He returned to London in 1591. He then entered Lincoln's Inn to study law in 1592. When Donne came of age, he had a considerable fortune. Donne travelled Italy, Spain and on the continent between 1594 to 1597. He joined Essex Expedition to Cabiz in 1596. During this time he wrote several poems. His lyrical poetry was mainly the outcome of these years. In 1609 he began to compose his great prose work 'Pseudo Martyr'. It was printed in 1610. In 1611 he wrote a satirical prose piece.",
+        "translation_bn": "জন ডান ১৫৭৩ সালে লন্ডনে জন্মগ্রহণ করেন। তাঁর বাবা ছিলেন একজন ধনী ব্যবসায়ী। তাঁর বলয়ে তাঁর নাম এবং খ্যাতি ছিল। কিন্তু তিনি ১৫৭৬ সালে মৃত্যুবরণ করেন। ডান সর্বপ্রথম ক্যাথলিক প্রতিষ্ঠানে শিক্ষাগ্রহণ করেন। তিনি ১৫৮৪ সালে অক্সফোর্ডে প্রবেশ করেন এবং ১৫৮৭ সালে তা ত্যাগ করেন। এরপর তিনি ক্যামব্রিজে তিন বছর পড়াশোনা করেন। ১৫৯১ সালে তিনি লন্ডনে ফিরে আসেন। তারপর ১৫৯২ সালে আইন বিষয়ক পড়াশোনা করতে লিংকন ইন-এ প্রবেশ করেন। যখন ডান পূর্ণ বয়স্ক হয়ে ওঠেন, তখন তাঁর ভাগ্য সুপ্রসন্ন হয়। ডান ১৫৯৪ এবং ১৫৯৭ এর মধ্যকার সময়ে ইটালি, স্পেন এবং মহাদেশ ভ্রমণ করেন। ১৫৯৬ সালে তিনি এসেক্স ক্যাবিজের উদ্দেশ্যে অভিযাত্রায় যোগদান করেন। এই সময় তিনি কয়েকটি কবিতা লেখেন। তাঁর গীতিধর্মী কবিতা এ বছরগুলোরই কীর্তি। ১৬০৯ সালে তিনি তাঁর বিশাল গদ্য কর্ম 'সিউডো মার্টার' রচনা শুরু করেন। এটি ১৬১০ সালে মুদ্রিত হয়। ১৬১১ সালে তিনি একটি বিদ্রুপাত্মক গদ্য রচনা করেন।",
+        "vocabulary": [
+          { "word": "merchant", "pos": "n", "meaning_en": "a trader", "meaning_bn": "ব্যবসায়ী", "synonym": "trader", "antonym": "customer" },
+          { "word": "fortune", "pos": "n", "meaning_en": "wealth", "meaning_bn": "ধনসম্পদ", "synonym": "wealth", "antonym": "poverty" },
+          { "word": "enter", "pos": "v", "meaning_en": "to join", "meaning_bn": "প্রবেশ করা", "synonym": "join", "antonym": "leave" },
+          { "word": "lyrical", "pos": "adj", "meaning_en": "musical, poetic", "meaning_bn": "সঙ্গীতময়", "synonym": "musical", "antonym": "discordant" },
+          { "word": "satirical", "pos": "adj", "meaning_en": "ironic", "meaning_bn": "বিদ্রূপাত্মক", "synonym": "ironic", "antonym": "complimentary" }
+        ],
+        "mcqQuestions": [
+          {
+            "id": "5i",
+            "question": "Which university did John Donne enter in 1584?",
+            "options": ["Cambridge", "Oxford", "Lincoln's Inn", "London University"],
+            "correct": 1,
+            "explanation_bn": "জন ডান ১৫৮৪ সালে অক্সফোর্ডে প্রবেশ করেন।",
+            "explanation_en": "John Donne entered Oxford in 1584."
+          },
+          {
+            "id": "5ii",
+            "question": "When did John Donne return to London?",
+            "options": ["In 1587", "In 1591", "In 1592", "In 1594"],
+            "correct": 1,
+            "explanation_bn": "জন ডান ১৫৯১ সালে লন্ডনে ফিরে আসেন।",
+            "explanation_en": "John Donne returned to London in 1591."
+          },
+          {
+            "id": "5iii",
+            "question": "Which institution did Donne enter to study law in 1592?",
+            "options": ["Oxford University", "Cambridge University", "Lincoln's Inn", "Essex Expedition"],
+            "correct": 2,
+            "explanation_bn": "তিনি ১৫৯২ সালে আইন পড়তে লিংকন ইন-এ প্রবেশ করেন।",
+            "explanation_en": "He entered Lincoln's Inn to study law in 1592."
+          },
+          {
+            "id": "5iv",
+            "question": "Who travelled Italy, Spain and the continent between 1594 to 1597?",
+            "options": ["Alfred Nobel", "William Shakespeare", "John Donne", "Henry Morley"],
+            "correct": 2,
+            "explanation_bn": "জন ডান ১৫৯৪-১৫৯৭ সালের মধ্যে ইটালি, স্পেন ও মহাদেশ ভ্রমণ করেন।",
+            "explanation_en": "John Donne travelled Italy, Spain and the continent between 1594 to 1597."
+          },
+          {
+            "id": "5v",
+            "question": "Which expedition did John Donne join in 1596?",
+            "options": ["Lincoln's Expedition", "Essex Expedition to Cabiz", "Spanish Expedition", "Cambridge Expedition"],
+            "correct": 1,
+            "explanation_bn": "জন ডান ১৫৯৬ সালে এসেক্স ক্যাবিজ অভিযানে যোগদান করেন।",
+            "explanation_en": "John Donne joined the Essex Expedition to Cabiz in 1596."
+          }
+        ],
+        "trueFalseQuestions": [
+          {
+            "id": "6a",
+            "question": "John Donne had studied at Oxford for three years.",
+            "options": ["True", "False. He studied at Oxford from 1584 to 1587.", "False. He never studied at Oxford.", "False. He studied at Cambridge only."],
+            "correct": 0,
+            "explanation_bn": "তিনি ১৫৮৪-১৫৮৭ সাল পর্যন্ত অক্সফোর্ডে অধ্যয়ন করেন।",
+            "explanation_en": "He studied at Oxford from 1584 to 1587."
+          },
+          {
+            "id": "6b",
+            "question": "He was born in Oxford.",
+            "options": [
+              "True",
+              "False. He was born in London.",
+              "False. He was born in Cambridge.",
+              "False. He was born in Italy."
+            ],
+            "correct": 1,
+            "explanation_bn": "জন ডান লন্ডনে জন্মগ্রহণ করেন, অক্সফোর্ডে নয়।",
+            "explanation_en": "John Donne was born in London, not Oxford."
+          },
+          {
+            "id": "6c",
+            "question": "He was the son of a teacher.",
+            "options": [
+              "True",
+              "False. He was the son of a merchant.",
+              "False. He was the son of a farmer.",
+              "False. He was the son of a king."
+            ],
+            "correct": 1,
+            "explanation_bn": "জন ডানের বাবা একজন ধনী ব্যবসায়ী (merchant) ছিলেন।",
+            "explanation_en": "John Donne's father was a rich merchant, not a teacher."
+          },
+          {
+            "id": "6d",
+            "question": "John Donne's father was famous beyond his circle.",
+            "options": [
+              "True",
+              "False. John Donne's father was famous in his circle.",
+              "False. He was not famous at all.",
+              "False. He was unknown."
+            ],
+            "correct": 1,
+            "explanation_bn": "জন ডানের বাবা তাঁর বলয়ে বিখ্যাত ছিলেন, এর বাইরে নন।",
+            "explanation_en": "John Donne's father was famous in his circle, not beyond."
+          },
+          {
+            "id": "6e",
+            "question": "His father breathed his last in 1576.",
+            "options": ["True", "False. He died in 1591.", "False. He died in 1587.", "False. He died in 1573."],
+            "correct": 0,
+            "explanation_bn": "তাঁর বাবা ১৫৭৬ সালে মারা যান।",
+            "explanation_en": "His father died in 1576."
+          }
+        ],
+        "summary": "John Donne was born in London in 1573 to a wealthy merchant father. He received his early education at Catholic institutions and later studied at Oxford and Cambridge. Donne traveled to Italy, Spain, and other places from 1594 to 1597 and took part in the Essex Expedition to Cabiz in 1596. During this time, he wrote many poems. In 1609, he began his prose work, 'Pseudo Martyr'. It was printed in 1610. In 1611, he wrote a satirical prose piece."
+      }
+    },
+    {
+      "id": "ch4",
+      "name": "Sentence Making",
+      "type": "sentence_matching",
+      "content": {
+        "exercise": {
+          "id": 1,
+          "question_text": "Match the parts of sentences from Column A and Column B to make five complete sentences.",
+          "table_columns": [
+            [
+              "Smoking is",
+              "In fact, there is",
+              "It is simply taking poison",
+              "Habit of smoking is",
+              "Evil companions influence"
+            ],
+            [
+              "not a matter of a day.",
+              "a very dangerous habit.",
+              "a youth to smoke.",
+              "nothing good with it.",
+              "consciously or unconsciously."
+            ]
+          ],
+          "valid_sentences": [
+            {
+              "sentence": "Smoking is a very dangerous habit.",
+              "combination": ["Smoking is", "a very dangerous habit."],
+              "explanation_en": "This states that smoking is a dangerous habit.",
+              "explanation_bn": "এটি বলে যে ধূমপান একটি বিপজ্জনক অভ্যাস।"
+            },
+            {
+              "sentence": "In fact, there is nothing good with it.",
+              "combination": ["In fact, there is", "nothing good with it."],
+              "explanation_en": "This states that there is nothing positive about smoking.",
+              "explanation_bn": "এটি বলে যে ধূমপানের সম্পর্কে ইতিবাচক কিছু নেই।"
+            },
+            {
+              "sentence": "It is simply taking poison consciously or unconsciously.",
+              "combination": ["It is simply taking poison", "consciously or unconsciously."],
+              "explanation_en": "This compares smoking to taking poison.",
+              "explanation_bn": "এটি ধূমপানকে বিষ খাওয়ার সাথে তুলনা করে।"
+            },
+            {
+              "sentence": "Habit of smoking is not a matter of a day.",
+              "combination": ["Habit of smoking is", "not a matter of a day."],
+              "explanation_en": "This means smoking addiction takes time to develop.",
+              "explanation_bn": "এর অর্থ ধূমপানের আসক্তি একদিনে তৈরি হয় না।"
+            },
+            {
+              "sentence": "Evil companions influence a youth to smoke.",
+              "combination": ["Evil companions influence", "a youth to smoke."],
+              "explanation_en": "This shows how peer pressure leads to smoking.",
+              "explanation_bn": "এটি দেখায় কীভাবে খারাপ সঙ্গ যুবকদের ধূমপানে প্রভাবিত করে।"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch5",
+      "name": "Rearranging",
+      "type": "rearrangement",
+      "content": {
+        "sentences": [
+          { "id": "a", "text": "\"But I can assure you that I have greatly enjoyed the walk,\" said Einstein." },
+          { "id": "b", "text": "Understandably they failed to find him out because he was shabby in his dress." },
+          { "id": "c", "text": "Being invited by the queen of Belgium, Einstein, the great scientist, travelled to Brussels by train and got down at the station." },
+          { "id": "d", "text": "\"I didn't think that anybody would send a car for me,\" replied the great scientist with a smile." },
+          { "id": "e", "text": "When he reached the destination, the queen said to him, \"I sent a car for you, Dr. Einstein.\"" },
+          { "id": "f", "text": "So, they went back to the queen and informed her that Einstein had not come by train." },
+          { "id": "g", "text": "Many gorgeously dressed officials were sent to receive him at the station." },
+          { "id": "h", "text": "Einstein, however, walked the whole way with a suitcase in one hand and a violin in the other hand." }
+        ],
+        "correctOrder": ["c", "g", "b", "f", "h", "e", "d", "a"],
+        "reconstructedParagraph": "Being invited by the queen of Belgium, Einstein, the great scientist, travelled to Brussels by train and got down at the station. Many gorgeously dressed officials were sent to receive him at the station. Understandably they failed to find him out because he was shabby in his dress. So, they went back to the queen and informed her that Einstein had not come by train. Einstein, however, walked the whole way with a suitcase in one hand and a violin in the other hand. When he reached the destination, the queen said to him, \"I sent a car for you, Dr. Einstein.\" \"I didn't think that anybody would send a car for me,\" replied the great scientist with a smile. \"But I can assure you that I have greatly enjoyed the walk,\" said Einstein."
+      }
+    },
+    {
+      "id": "ch6",
+      "name": "Poetry MCQ",
+      "type": "poetry_mcq",
+      "content": {
+        "questions": [
+          {
+            "id": "10a",
+            "question": "Who wrote the poem 'Whose Child Is This?'?",
+            "options": ["William Wordsworth", "Robert Louis Stevenson", "An anonymous poet", "Rabindranath Tagore"],
+            "correct": 2,
+            "explanation_bn": "কবিতাটি একজন অজ্ঞাতনামা কবি (anonymous poet) লিখেছেন।",
+            "explanation_en": "An anonymous poet wrote the poem 'Whose Child Is This?'."
+          },
+          {
+            "id": "10b",
+            "question": "What did the parent and the teacher do at the end of the poem 'Whose Child Is This?'?",
+            "options": ["They left the child alone", "They held the child's hand and promised to love and train together", "They argued about the child", "They sent the child away"],
+            "correct": 1,
+            "explanation_bn": "শেষে পিতামাতা ও শিক্ষক শিশুর হাত ধরে একসঙ্গে ভালোবাসতে ও শেখানোর প্রতিশ্রুতি দেন।",
+            "explanation_en": "At the end, both held the child's hand and promised to love and train together."
+          },
+          {
+            "id": "10c",
+            "question": "In the poem 'Whose Child Is This?', why did the parent and the teacher say 'Ours' instead of 'Mine'?",
+            "options": ["Because they both love and take care of the child", "Because they were confused", "Because the child belonged to both", "Because they were playing a game"],
+            "correct": 0,
+            "explanation_bn": "তারা 'Ours' বলেন কারণ উভয়েই শিশুকে ভালোবাসেন এবং যত্ন নেন।",
+            "explanation_en": "They said 'Ours' because they both love and take care of the child."
+          },
+          {
+            "id": "10d",
+            "question": "In the poem 'Leisure', what does the poet mean by 'full of care'?",
+            "options": ["Full of happiness", "Full of worries and anxieties", "Full of free time", "Full of love"],
+            "correct": 1,
+            "explanation_bn": "'Full of care' বলতে কবি চিন্তা ও উদ্বেগে পূর্ণ জীবন বোঝাতে চেয়েছেন।",
+            "explanation_en": "By 'full of care', the poet means life full of worries and anxieties."
+          },
+          {
+            "id": "10e",
+            "question": "In the poem 'Leisure', what does the poet wish to do during leisure?",
+            "options": ["Sleep all day", "Enjoy life and observe nature", "Work more", "Watch television"],
+            "correct": 1,
+            "explanation_bn": "কবি অবসরে জীবন উপভোগ ও প্রকৃতি পর্যবেক্ষণ করতে চান।",
+            "explanation_en": "The poet wishes to enjoy life and observe nature during leisure."
+          },
+          {
+            "id": "10f",
+            "question": "Do people often have time to enjoy the beauty of nature according to the poem 'Leisure'?",
+            "options": ["Yes, always", "No, they are too busy in daily work", "Yes, on weekends", "Only at night"],
+            "correct": 1,
+            "explanation_bn": "লোকেরা দৈনন্দিন কাজে এত ব্যস্ত যে প্রকৃতির সৌন্দর্য উপভোগ করার সময় পায় না।",
+            "explanation_en": "People are so busy in daily work that they have no time to enjoy nature."
+          },
+          {
+            "id": "10g",
+            "question": "In the poem 'From a Railway Carriage', who is a tramp and what is he doing?",
+            "options": ["A worker building the railway", "A homeless person watching the passing train", "A passenger on the train", "A driver of the train"],
+            "correct": 1,
+            "explanation_bn": "ট্রাম্প হলেন একজন গৃহহীন ব্যক্তি যিনি দাঁড়িয়ে ট্রেনটি দেখছেন।",
+            "explanation_en": "A tramp is a homeless person watching the passing train."
+          },
+          {
+            "id": "10h",
+            "question": "According to the poem 'From a Railway Carriage', what can the speed of the train be compared to?",
+            "options": ["A slow-moving cart", "The passage of time", "A flying bird", "A flowing river"],
+            "correct": 1,
+            "explanation_bn": "ট্রেনের গতিকে সময়ের গতির সাথে তুলনা করা হয়েছে।",
+            "explanation_en": "The speed of the train can be compared to the passage of time."
+          }
+        ]
+      }
+    }
+  ]
+}

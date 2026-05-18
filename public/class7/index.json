@@ -40,6 +40,34 @@
               "file": "/class7/english/punctuation.json"
             }
           ]
+        },
+        {
+          "id": "model_tests",
+          "name": "Model Tests",
+          "chapters": [
+            { "id": "class7_model_01", "name": "Model Test 01", "file": "/class7/english/model_01.json", "_type": "model_test" },
+            { "id": "class7_model_02", "name": "Model Test 02", "file": "/class7/english/model_02.json", "_type": "model_test" },
+            { "id": "class7_model_03", "name": "Model Test 03", "file": "/class7/english/model_03.json", "_type": "model_test" },
+            { "id": "class7_model_04", "name": "Model Test 04", "file": "/class7/english/model_04.json", "_type": "model_test" },
+            { "id": "class7_model_05", "name": "Model Test 05", "file": "/class7/english/model_05.json", "_type": "model_test" },
+            { "id": "class7_model_06", "name": "Model Test 06", "file": "/class7/english/model_06.json", "_type": "model_test" },
+            { "id": "class7_model_07", "name": "Model Test 07", "file": "/class7/english/model_07.json", "_type": "model_test" },
+            { "id": "class7_model_08", "name": "Model Test 08", "file": "/class7/english/model_08.json", "_type": "model_test" },
+            { "id": "class7_model_09", "name": "Model Test 09", "file": "/class7/english/model_09.json", "_type": "model_test" },
+            { "id": "class7_model_10", "name": "Model Test 10", "file": "/class7/english/model_10.json", "_type": "model_test" },
+            { "id": "class7_model_11", "name": "Model Test 11", "file": "/class7/english/model_11.json", "_type": "model_test" },
+            { "id": "class7_model_12", "name": "Model Test 12", "file": "/class7/english/model_12.json", "_type": "model_test" },
+            { "id": "class7_model_13", "name": "Model Test 13", "file": "/class7/english/model_13.json", "_type": "model_test" },
+            { "id": "class7_model_14", "name": "Model Test 14", "file": "/class7/english/model_14.json", "_type": "model_test" },
+            { "id": "class7_model_15", "name": "Model Test 15", "file": "/class7/english/model_15.json", "_type": "model_test" },
+            { "id": "class7_model_16", "name": "Model Test 16", "file": "/class7/english/model_16.json", "_type": "model_test" },
+            { "id": "class7_model_17", "name": "Model Test 17", "file": "/class7/english/model_17.json", "_type": "model_test" },
+            { "id": "class7_model_18", "name": "Model Test 18", "file": "/class7/english/model_18.json", "_type": "model_test" },
+            { "id": "class7_model_19", "name": "Model Test 19", "file": "/class7/english/model_19.json", "_type": "model_test" },
+            { "id": "class7_model_20", "name": "Model Test 20", "file": "/class7/english/model_20.json", "_type": "model_test" },
+            { "id": "class7_model_21", "name": "Model Test 21", "file": "/class7/english/model_21.json", "_type": "model_test" },
+            { "id": "class7_model_22", "name": "Model Test 22", "file": "/class7/english/model_22.json", "_type": "model_test" }
+          ]
         }
       ]
     }

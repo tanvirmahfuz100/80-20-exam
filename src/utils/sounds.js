@@ -3,9 +3,16 @@ let userInteracted = false;
 if (typeof window !== 'undefined') {
     const unlockAudio = () => {
         userInteracted = true;
-        Object.values(sounds).forEach(s => {
-            s.play().catch(() => {}).then(() => s.pause());
-        });
+        try {
+            const ctx = new (window.AudioContext || window.webkitAudioContext)();
+            const osc = ctx.createOscillator();
+            const gain = ctx.createGain();
+            gain.gain.value = 0;
+            osc.connect(gain);
+            gain.connect(ctx.destination);
+            osc.start(0);
+            osc.stop(0.001);
+        } catch {}
     };
     window.addEventListener('click', unlockAudio, { once: true });
     window.addEventListener('keydown', unlockAudio, { once: true });
