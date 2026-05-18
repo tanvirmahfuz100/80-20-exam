@@ -152,14 +152,14 @@ const SubjectCard = ({ subject, isSelected, onClick, progress }) => {
                 </div>
             )}
 
-            <div className="grid grid-cols-[auto_minmax(0,1fr)_7rem] items-center gap-3 p-4">
+            <div className="grid grid-cols-[auto_1fr_auto] items-center gap-3 p-4">
                 <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-all ${
                     isSelected ? 'bg-primary text-black' : 'bg-surface-alt text-white/30 group-hover:text-white/50'
                 }`}>
                     <Icon className="w-5 h-5" />
                 </div>
 
-                <div className="min-w-0">
+                <div className="min-w-0 break-words">
                     <h3 className={`font-black tracking-tight text-sm leading-tight ${
                         isSelected ? 'text-white' : 'text-white/60 group-hover:text-white/80'
                     }`}>{subject.name}</h3>
