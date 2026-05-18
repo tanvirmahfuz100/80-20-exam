@@ -328,6 +328,18 @@ const PracticeConfig = () => {
                 const res = await fetch(path);
                 if (!res.ok) return 0;
                 const payload = await res.json();
+                if (Array.isArray(payload?.chapters)) {
+                    return payload.chapters.reduce((total, ch) => {
+                        const c = ch.content || {};
+                        if (Array.isArray(c.questions)) return total + c.questions.length;
+                        if (Array.isArray(c.mcqQuestions)) return total + c.mcqQuestions.length;
+                        if (Array.isArray(c.valid_sentences)) return total + c.valid_sentences.length;
+                        if (Array.isArray(c.sentences)) return total + c.sentences.length;
+                        if (c.gapFill?.blanks) return total + c.gapFill.blanks.length + (c.vocabQuestions?.length || 0);
+                        if (Array.isArray(c.vocabQuestions)) return total + c.vocabQuestions.length;
+                        return total;
+                    }, 0);
+                }
                 const sourceQuestions = Array.isArray(payload)
                     ? payload
                     : Array.isArray(payload?.questions)
@@ -424,7 +436,11 @@ const PracticeConfig = () => {
 
     const handleStart = (chapter, displayName) => {
         const file = getChapterFile(chapter);
-        navigate(`/levels?file=${encodeURIComponent(file)}&title=${encodeURIComponent(displayName || chapter.name)}&chapterId=${chapter.id}`);
+        if (chapter._type === 'model_test') {
+            navigate(`/quiz/${chapter.id}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(displayName || chapter.name)}&chapterId=${chapter.id}`);
+        } else {
+            navigate(`/levels?file=${encodeURIComponent(file)}&title=${encodeURIComponent(displayName || chapter.name)}&chapterId=${chapter.id}`);
+        }
     };
 
     if (loading) return (

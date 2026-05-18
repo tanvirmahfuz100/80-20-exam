@@ -46,7 +46,7 @@ export const normalizeQuizQuestions = (payload) => {
             : [];
 
     return sourceQuestions.flatMap((question) => {
-        if (question._type === 'substitution_table') {
+        if (question._type === 'substitution_table' || question._type === 'model_test') {
             return [question];
         }
         if (Array.isArray(question.blanks) && question.blanks.length > 0) {
@@ -328,6 +328,16 @@ const Quiz = () => {
                     } else if (Array.isArray(data.questions)) questionArray = data.questions;
                     else if (Array.isArray(data.passages)) questionArray = data.passages;
                     else if (Array.isArray(data.items)) questionArray = data.items;
+
+                    if (data._type === 'model_test') {
+                        questionArray = [{
+                            _type: 'model_test',
+                            id: data.modelId || file,
+                            modelId: data.modelId || file,
+                            name: data.title || 'Model Test',
+                            chapters: data.chapters || [],
+                        }];
+                    }
 
                     const normalized = normalizeQuizQuestions({ questions: questionArray });
 
