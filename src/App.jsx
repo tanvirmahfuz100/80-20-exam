@@ -18,6 +18,7 @@ import Analytics from './pages/Analytics';
 import Settings from './pages/Settings';
 import Landing from './pages/Landing';
 import Stars from './pages/Stars';
+import CreativeQuestionView from './pages/CreativeQuestionView';
 import { useLowEndDevice } from './hooks';
 import { api } from './services/api';
 import { Graduation } from './components/Illustrations';
@@ -295,6 +296,12 @@ const AppContent = () => {
           <Route path="/quiz/:chapterId" element={
             <motion.div {...pageMotion}>
               <Quiz />
+            </motion.div>
+          } />
+
+          <Route path="/creative-view" element={
+            <motion.div {...pageMotion}>
+              <CreativeQuestionView />
             </motion.div>
           } />
 

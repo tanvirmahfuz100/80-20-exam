@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Book, Calculator, Brain, ChevronRight, Play, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles, Check } from 'lucide-react';
+import { Book, Calculator, Brain, Briefcase, ChevronRight, Play, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles, Check } from 'lucide-react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { Target, CheckList } from '../components/Illustrations';
@@ -13,6 +13,7 @@ const icons = {
     english: Book,
     math: Calculator,
     analytical: Brain,
+    business_entrepreneurship: Briefcase,
 };
 
 const examColors = {
@@ -438,6 +439,8 @@ const PracticeConfig = () => {
         const file = getChapterFile(chapter);
         if (chapter._type === 'model_test') {
             navigate(`/quiz/${chapter.id}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(displayName || chapter.name)}&chapterId=${chapter.id}`);
+        } else if (chapter._type === 'creative') {
+            navigate(`/creative-view?file=${encodeURIComponent(file)}&title=${encodeURIComponent(displayName || chapter.name)}`);
         } else {
             navigate(`/levels?file=${encodeURIComponent(file)}&title=${encodeURIComponent(displayName || chapter.name)}&chapterId=${chapter.id}`);
         }

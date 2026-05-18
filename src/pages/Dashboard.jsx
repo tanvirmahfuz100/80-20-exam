@@ -37,6 +37,7 @@ const subjectFromPath = (filePath) => {
     finance_1st: 'Finance 1st Paper', finance_2nd: 'Finance 2nd Paper',
     production_1st: 'Production 1st Paper', production_2nd: 'Production 2nd Paper',
     english_2nd: 'English 2nd Paper',
+    business_entrepreneurship: 'Business Entrepreneurship',
   };
 
   const examSlug = segments[0];

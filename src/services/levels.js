@@ -192,6 +192,8 @@ export function getExamSections(examId) {
       { label: 'Completing Sentences', file: 'ssc/english/completing_sentences.json', chapterId: 'ssc_completing_sentences' },
       { label: 'Substitution Table', file: 'ssc/english/substitution_table.json', chapterId: 'ssc_substitution_table' },
       { label: 'Narrative Style', file: 'ssc/english/right_form_of_verbs_and_narrative.json', chapterId: 'ssc_narrative' },
+      { label: 'BE Chapter 1 MCQ', file: 'ssc/business_entrepreneurship/chapter_1_mcq.json', chapterId: 'ssc_be_ch1_mcq' },
+      { label: 'BE Chapter 2 MCQ', file: 'ssc/business_entrepreneurship/chapter_2_mcq.json', chapterId: 'ssc_be_ch2_mcq' },
     ],
     hsc: [
       { label: 'Gap Filling', file: 'hsc/english/gap_filling.json', chapterId: 'hsc_gap_filling' },
