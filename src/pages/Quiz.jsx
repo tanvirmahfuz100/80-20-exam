@@ -195,6 +195,7 @@ const Quiz = () => {
     const [currentLevel, setCurrentLevel] = useState(null);
     const [levelSessionSaved, setLevelSessionSaved] = useState(false);
     const [wrongAttempts, setWrongAttempts] = useState(0);
+    const [modelTestTotal, setModelTestTotal] = useState(0);
     const scoredIdsRef = useRef(new Set());
     const levelRef = useRef(null);
 
@@ -386,10 +387,10 @@ const Quiz = () => {
                 chapter_id: chapterId || file || 'unknown_chapter',
                 chapter_title: title || 'Practice Session',
                 source_file: file || null,
-                total_questions: questions.length,
+                total_questions: modelTestTotal || questions.length,
                 correct_answers: score,
-                wrong_answers: questions.length - score,
-                accuracy: questions.length > 0 ? Number(((score / questions.length) * 100).toFixed(2)) : 0,
+                wrong_answers: (modelTestTotal || questions.length) - score,
+                accuracy: (modelTestTotal || questions.length) > 0 ? Number(((score / (modelTestTotal || questions.length)) * 100).toFixed(2)) : 0,
                 mode: isTimedMode ? 'timed' : 'untimed'
             };
 
@@ -409,7 +410,8 @@ const Quiz = () => {
             }
 
             if (currentLevel && chapterId && !levelSessionSaved) {
-                const accuracy = questions.length > 0 ? Math.round((score / questions.length) * 100) : 0;
+                const totalQ = modelTestTotal || questions.length;
+                const accuracy = totalQ > 0 ? Math.round((score / totalQ) * 100) : 0;
                 const levelStars = wrongAttempts;
                 saveLevelProgress(user.id, chapterId, currentLevel, {
                     completed: true,
@@ -489,7 +491,8 @@ const Quiz = () => {
     const finishSoundPlayedRef = React.useRef(false);
     useEffect(() => {
         if (isFinished && questions.length > 0 && !finishSoundPlayedRef.current) {
-            const accuracy = Math.round((score / questions.length) * 100);
+            const totalQ = modelTestTotal || questions.length;
+            const accuracy = Math.round((score / totalQ) * 100);
             if (accuracy === 100) {
                 playSound('bonus');
             } else if (accuracy >= 80) {
@@ -629,7 +632,8 @@ const Quiz = () => {
     );
 
     if (isFinished) {
-        const accuracy = Math.round((score / questions.length) * 100) || 0;
+        const totalQ = modelTestTotal || questions.length;
+        const accuracy = Math.round((score / totalQ) * 100) || 0;
         const earnedXp = score * 10;
         const earnedStars = wrongAttempts;
 
@@ -653,7 +657,7 @@ const Quiz = () => {
                                     <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Accuracy</div>
                                 </div>
                                 <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
-                                    <div className="text-emerald-500 font-black text-lg md:text-3xl mb-0.5">{score}/{questions.length}</div>
+                                    <div className="text-emerald-500 font-black text-lg md:text-3xl mb-0.5">{score}/{modelTestTotal || questions.length}</div>
                                     <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Correct</div>
                                 </div>
                             </div>
@@ -725,7 +729,7 @@ const Quiz = () => {
                                 <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Accuracy</div>
                             </div>
                             <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
-                                <div className="text-emerald-500 font-black text-lg md:text-3xl mb-0.5">{score}/{questions.length}</div>
+                                <div className="text-emerald-500 font-black text-lg md:text-3xl mb-0.5">{score}/{modelTestTotal || questions.length}</div>
                                 <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Correct</div>
                             </div>
                             <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
@@ -889,6 +893,7 @@ const Quiz = () => {
                             }}
                             onContinue={(found, total) => {
                                 setScore(s => s + found);
+                                setModelTestTotal(total);
                                 setResults(prev => [...prev, {
                                     id: currentQ.id || currentQ.modelId,
                                     isCorrect: found > 0,

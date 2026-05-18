@@ -61,6 +61,7 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
   const [wrongAttempts, setWrongAttempts] = useState(0);
   const [attemptedCombos, setAttemptedCombos] = useState(new Set());
   const [lastExplanation, setLastExplanation] = useState('');
+  const [alreadyTried, setAlreadyTried] = useState(false);
   const [finished, setFinished] = useState(false);
   const [foundSet, setFoundSet] = useState(new Set());
   const [showContinueConfirm, setShowContinueConfirm] = useState(false);
@@ -91,6 +92,7 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
       setChecked(false);
       setIsCorrect(false);
       setLastExplanation('');
+      setAlreadyTried(false);
     }
   };
 
@@ -99,6 +101,7 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
     setChecked(false);
     setIsCorrect(false);
     setLastExplanation('');
+    setAlreadyTried(false);
   }, [numCols]);
 
   const formedSentence = useMemo(() => {
@@ -111,7 +114,13 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
   const handleCheck = useCallback(() => {
     if (!allSelected) return;
     const key = selections.join('|');
-    if (attemptedCombos.has(key)) return;
+    if (attemptedCombos.has(key)) {
+      setAlreadyTried(true);
+      setChecked(true);
+      setIsCorrect(false);
+      setLastExplanation('You already tried this combination. Try a different one.');
+      return;
+    }
 
     const sentenceLower = formedSentence.trim().toLowerCase();
     const correct = validSet.has(sentenceLower);
