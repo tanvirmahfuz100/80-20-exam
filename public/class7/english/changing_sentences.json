@@ -10,7 +10,7 @@
         {
           "id": "1",
           "sentence": "Hazi Mohammad Mohsin was a kind man.",
-          "instruction": "Negative to Affirmative (Make it negative)",
+          "instruction": "Affirmative to Negative (Make it negative)",
           "options": [
             {
               "text": "Hazi Mohammad Mohsin was not an unkind man.",

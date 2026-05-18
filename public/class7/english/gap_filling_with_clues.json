@@ -162,7 +162,7 @@
               "explanationEn": "(e) 'In' - in every area of life."
             },
             {
-              "text": "in",
+              "text": "of",
               "isCorrect": false,
               "explanationBn": "(e) 'In' - জীবনের প্রতিটি ক্ষেত্রে।",
               "explanationEn": "(e) 'In' - in every area of life."
@@ -3373,7 +3373,7 @@
               "explanationEn": "(f) 'An' - before vowel sound 'honest'."
             },
             {
-              "text": "an",
+              "text": "any",
               "isCorrect": false,
               "explanationBn": "(f) 'An' - স্বরবর্ণের আগে 'an'।",
               "explanationEn": "(f) 'An' - before vowel sound 'honest'."
@@ -5116,19 +5116,19 @@
               "explanationEn": "(a) 'in' - a stitch in time."
             },
             {
-              "text": "—",
+              "text": "of",
               "isCorrect": false,
               "explanationBn": "(a) 'in' - সময়মত একটি সেলাই।",
               "explanationEn": "(a) 'in' - a stitch in time."
             },
             {
-              "text": "—",
+              "text": "with",
               "isCorrect": false,
               "explanationBn": "(a) 'in' - সময়মত একটি সেলাই।",
               "explanationEn": "(a) 'in' - a stitch in time."
             },
             {
-              "text": "—",
+              "text": "at",
               "isCorrect": false,
               "explanationBn": "(a) 'in' - সময়মত একটি সেলাই।",
               "explanationEn": "(a) 'in' - a stitch in time."
@@ -5146,19 +5146,19 @@
               "explanationEn": "(b) 'a' - a very well-known proverb."
             },
             {
-              "text": "—",
+              "text": "an",
               "isCorrect": false,
               "explanationBn": "(b) 'a' - একটি খুব বিখ্যাত প্রবাদ।",
               "explanationEn": "(b) 'a' - a very well-known proverb."
             },
             {
-              "text": "—",
+              "text": "the",
               "isCorrect": false,
               "explanationBn": "(b) 'a' - একটি খুব বিখ্যাত প্রবাদ।",
               "explanationEn": "(b) 'a' - a very well-known proverb."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(b) 'a' - একটি খুব বিখ্যাত প্রবাদ।",
               "explanationEn": "(b) 'a' - a very well-known proverb."
@@ -5176,19 +5176,19 @@
               "explanationEn": "(c) 'anything' - don't care for anything."
             },
             {
-              "text": "—",
+              "text": "useful",
               "isCorrect": false,
               "explanationBn": "(c) 'anything' - কিছু বিষয়ে যত্ন নেয় না।",
               "explanationEn": "(c) 'anything' - don't care for anything."
             },
             {
-              "text": "—",
+              "text": "woman",
               "isCorrect": false,
               "explanationBn": "(c) 'anything' - কিছু বিষয়ে যত্ন নেয় না।",
               "explanationEn": "(c) 'anything' - don't care for anything."
             },
             {
-              "text": "—",
+              "text": "world",
               "isCorrect": false,
               "explanationBn": "(c) 'anything' - কিছু বিষয়ে যত্ন নেয় না।",
               "explanationEn": "(c) 'anything' - don't care for anything."
@@ -5206,19 +5206,19 @@
               "explanationEn": "(d) 'put' - put off (postpone)."
             },
             {
-              "text": "—",
+              "text": "need",
               "isCorrect": false,
               "explanationBn": "(d) 'put' - পরে করার জন্য রাখে।",
               "explanationEn": "(d) 'put' - put off (postpone)."
             },
             {
-              "text": "—",
+              "text": "small",
               "isCorrect": false,
               "explanationBn": "(d) 'put' - পরে করার জন্য রাখে।",
               "explanationEn": "(d) 'put' - put off (postpone)."
             },
             {
-              "text": "—",
+              "text": "new",
               "isCorrect": false,
               "explanationBn": "(d) 'put' - পরে করার জন্য রাখে।",
               "explanationEn": "(d) 'put' - put off (postpone)."
@@ -5236,19 +5236,19 @@
               "explanationEn": "(e) 'for' - for tomorrow."
             },
             {
-              "text": "—",
+              "text": "through",
               "isCorrect": false,
               "explanationBn": "(e) 'for' - আগামীকালের জন্য।",
               "explanationEn": "(e) 'for' - for tomorrow."
             },
             {
-              "text": "—",
+              "text": "into",
               "isCorrect": false,
               "explanationBn": "(e) 'for' - আগামীকালের জন্য।",
               "explanationEn": "(e) 'for' - for tomorrow."
             },
             {
-              "text": "—",
+              "text": "over",
               "isCorrect": false,
               "explanationBn": "(e) 'for' - আগামীকালের জন্য।",
               "explanationEn": "(e) 'for' - for tomorrow."
@@ -5266,19 +5266,19 @@
               "explanationEn": "(f) 'sure' - not sure."
             },
             {
-              "text": "—",
+              "text": "want",
               "isCorrect": false,
               "explanationBn": "(f) 'sure' - নিশ্চিত নয়।",
               "explanationEn": "(f) 'sure' - not sure."
             },
             {
-              "text": "—",
+              "text": "take",
               "isCorrect": false,
               "explanationBn": "(f) 'sure' - নিশ্চিত নয়।",
               "explanationEn": "(f) 'sure' - not sure."
             },
             {
-              "text": "—",
+              "text": "great",
               "isCorrect": false,
               "explanationBn": "(f) 'sure' - নিশ্চিত নয়।",
               "explanationEn": "(f) 'sure' - not sure."
@@ -5296,19 +5296,19 @@
               "explanationEn": "(g) 'need' - when they need it."
             },
             {
-              "text": "—",
+              "text": "necessary",
               "isCorrect": false,
               "explanationBn": "(g) 'need' - যখন প্রয়োজন হয়।",
               "explanationEn": "(g) 'need' - when they need it."
             },
             {
-              "text": "—",
+              "text": "see",
               "isCorrect": false,
               "explanationBn": "(g) 'need' - যখন প্রয়োজন হয়।",
               "explanationEn": "(g) 'need' - when they need it."
             },
             {
-              "text": "—",
+              "text": "way",
               "isCorrect": false,
               "explanationBn": "(g) 'need' - যখন প্রয়োজন হয়।",
               "explanationEn": "(g) 'need' - when they need it."
@@ -5326,19 +5326,19 @@
               "explanationEn": "(h) 'careless' - not careful."
             },
             {
-              "text": "—",
+              "text": "man",
               "isCorrect": false,
               "explanationBn": "(h) 'careless' - অসতর্ক/উদাসীন।",
               "explanationEn": "(h) 'careless' - not careful."
             },
             {
-              "text": "—",
+              "text": "woman",
               "isCorrect": false,
               "explanationBn": "(h) 'careless' - অসতর্ক/উদাসীন।",
               "explanationEn": "(h) 'careless' - not careful."
             },
             {
-              "text": "—",
+              "text": "house",
               "isCorrect": false,
               "explanationBn": "(h) 'careless' - অসতর্ক/উদাসীন।",
               "explanationEn": "(h) 'careless' - not careful."
@@ -5356,19 +5356,19 @@
               "explanationEn": "(i) 'of' - a lot of time."
             },
             {
-              "text": "—",
+              "text": "among",
               "isCorrect": false,
               "explanationBn": "(i) 'of' - প্রচুর সময়।",
               "explanationEn": "(i) 'of' - a lot of time."
             },
             {
-              "text": "—",
+              "text": "without",
               "isCorrect": false,
               "explanationBn": "(i) 'of' - প্রচুর সময়।",
               "explanationEn": "(i) 'of' - a lot of time."
             },
             {
-              "text": "—",
+              "text": "through",
               "isCorrect": false,
               "explanationBn": "(i) 'of' - প্রচুর সময়।",
               "explanationEn": "(i) 'of' - a lot of time."
@@ -5386,19 +5386,19 @@
               "explanationEn": "(j) 'successful' - achieving goals."
             },
             {
-              "text": "—",
+              "text": "keep",
               "isCorrect": false,
               "explanationBn": "(j) 'successful' - সফল হতাম।",
               "explanationEn": "(j) 'successful' - achieving goals."
             },
             {
-              "text": "—",
+              "text": "start",
               "isCorrect": false,
               "explanationBn": "(j) 'successful' - সফল হতাম।",
               "explanationEn": "(j) 'successful' - achieving goals."
             },
             {
-              "text": "—",
+              "text": "house",
               "isCorrect": false,
               "explanationBn": "(j) 'successful' - সফল হতাম।",
               "explanationEn": "(j) 'successful' - achieving goals."
@@ -5424,19 +5424,19 @@
               "explanationEn": "(a) 'in' - live in society."
             },
             {
-              "text": "—",
+              "text": "through",
               "isCorrect": false,
               "explanationBn": "(a) 'in' - সমাজে বাস করি।",
               "explanationEn": "(a) 'in' - live in society."
             },
             {
-              "text": "—",
+              "text": "beside",
               "isCorrect": false,
               "explanationBn": "(a) 'in' - সমাজে বাস করি।",
               "explanationEn": "(a) 'in' - live in society."
             },
             {
-              "text": "—",
+              "text": "without",
               "isCorrect": false,
               "explanationBn": "(a) 'in' - সমাজে বাস করি।",
               "explanationEn": "(a) 'in' - live in society."
@@ -5454,19 +5454,19 @@
               "explanationEn": "(b) 'to' - how to live."
             },
             {
-              "text": "—",
+              "text": "through",
               "isCorrect": false,
               "explanationBn": "(b) 'to' - কীভাবে বসবাস করতে হয়।",
               "explanationEn": "(b) 'to' - how to live."
             },
             {
-              "text": "—",
+              "text": "of",
               "isCorrect": false,
               "explanationBn": "(b) 'to' - কীভাবে বসবাস করতে হয়।",
               "explanationEn": "(b) 'to' - how to live."
             },
             {
-              "text": "—",
+              "text": "by",
               "isCorrect": false,
               "explanationBn": "(b) 'to' - কীভাবে বসবাস করতে হয়।",
               "explanationEn": "(b) 'to' - how to live."
@@ -5484,19 +5484,19 @@
               "explanationEn": "(c) 'with' - with others."
             },
             {
-              "text": "—",
+              "text": "through",
               "isCorrect": false,
               "explanationBn": "(c) 'with' - অন্যদের সাথে।",
               "explanationEn": "(c) 'with' - with others."
             },
             {
-              "text": "—",
+              "text": "to",
               "isCorrect": false,
               "explanationBn": "(c) 'with' - অন্যদের সাথে।",
               "explanationEn": "(c) 'with' - with others."
             },
             {
-              "text": "—",
+              "text": "among",
               "isCorrect": false,
               "explanationBn": "(c) 'with' - অন্যদের সাথে।",
               "explanationEn": "(c) 'with' - with others."
@@ -5514,19 +5514,19 @@
               "explanationEn": "(d) 'likes' - things one enjoys."
             },
             {
-              "text": "—",
+              "text": "thing",
               "isCorrect": false,
               "explanationBn": "(d) 'likes' - পছন্দ।",
               "explanationEn": "(d) 'likes' - things one enjoys."
             },
             {
-              "text": "—",
+              "text": "come",
               "isCorrect": false,
               "explanationBn": "(d) 'likes' - পছন্দ।",
               "explanationEn": "(d) 'likes' - things one enjoys."
             },
             {
-              "text": "—",
+              "text": "day",
               "isCorrect": false,
               "explanationBn": "(d) 'likes' - পছন্দ।",
               "explanationEn": "(d) 'likes' - things one enjoys."
@@ -5544,19 +5544,19 @@
               "explanationEn": "(e) 'dislikes' - things one does not enjoy."
             },
             {
-              "text": "—",
+              "text": "leave",
               "isCorrect": false,
               "explanationBn": "(e) 'dislikes' - অপছন্দ।",
               "explanationEn": "(e) 'dislikes' - things one does not enjoy."
             },
             {
-              "text": "—",
+              "text": "world",
               "isCorrect": false,
               "explanationBn": "(e) 'dislikes' - অপছন্দ।",
               "explanationEn": "(e) 'dislikes' - things one does not enjoy."
             },
             {
-              "text": "—",
+              "text": "little",
               "isCorrect": false,
               "explanationBn": "(e) 'dislikes' - অপছন্দ।",
               "explanationEn": "(e) 'dislikes' - things one does not enjoy."
@@ -5574,19 +5574,19 @@
               "explanationEn": "(f) 'a' - a lot of duties."
             },
             {
-              "text": "—",
+              "text": "some",
               "isCorrect": false,
               "explanationBn": "(f) 'a' - অনেক কর্তব্য।",
               "explanationEn": "(f) 'a' - a lot of duties."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(f) 'a' - অনেক কর্তব্য।",
               "explanationEn": "(f) 'a' - a lot of duties."
             },
             {
-              "text": "—",
+              "text": "any",
               "isCorrect": false,
               "explanationBn": "(f) 'a' - অনেক কর্তব্য।",
               "explanationEn": "(f) 'a' - a lot of duties."
@@ -5604,19 +5604,19 @@
               "explanationEn": "(g) 'to' - responsibilities to society."
             },
             {
-              "text": "—",
+              "text": "without",
               "isCorrect": false,
               "explanationBn": "(g) 'to' - সমাজের প্রতি।",
               "explanationEn": "(g) 'to' - responsibilities to society."
             },
             {
-              "text": "—",
+              "text": "under",
               "isCorrect": false,
               "explanationBn": "(g) 'to' - সমাজের প্রতি।",
               "explanationEn": "(g) 'to' - responsibilities to society."
             },
             {
-              "text": "—",
+              "text": "in",
               "isCorrect": false,
               "explanationBn": "(g) 'to' - সমাজের প্রতি।",
               "explanationEn": "(g) 'to' - responsibilities to society."
@@ -5634,19 +5634,19 @@
               "explanationEn": "(h) 'at' - aim at."
             },
             {
-              "text": "—",
+              "text": "to",
               "isCorrect": false,
               "explanationBn": "(h) 'at' - লক্ষ্য করা।",
               "explanationEn": "(h) 'at' - aim at."
             },
             {
-              "text": "—",
+              "text": "into",
               "isCorrect": false,
               "explanationBn": "(h) 'at' - লক্ষ্য করা।",
               "explanationEn": "(h) 'at' - aim at."
             },
             {
-              "text": "—",
+              "text": "over",
               "isCorrect": false,
               "explanationBn": "(h) 'at' - লক্ষ্য করা।",
               "explanationEn": "(h) 'at' - aim at."
@@ -5664,19 +5664,19 @@
               "explanationEn": "(i) 'of' - aware of."
             },
             {
-              "text": "—",
+              "text": "on",
               "isCorrect": false,
               "explanationBn": "(i) 'of' - সচেতন করা।",
               "explanationEn": "(i) 'of' - aware of."
             },
             {
-              "text": "—",
+              "text": "by",
               "isCorrect": false,
               "explanationBn": "(i) 'of' - সচেতন করা।",
               "explanationEn": "(i) 'of' - aware of."
             },
             {
-              "text": "—",
+              "text": "from",
               "isCorrect": false,
               "explanationBn": "(i) 'of' - সচেতন করা।",
               "explanationEn": "(i) 'of' - aware of."
@@ -5694,19 +5694,19 @@
               "explanationEn": "(j) 'the' - earn the bread (livelihood)."
             },
             {
-              "text": "—",
+              "text": "a",
               "isCorrect": false,
               "explanationBn": "(j) 'the' - রুটি উপার্জন (জীবিকা নির্বাহ)।",
               "explanationEn": "(j) 'the' - earn the bread (livelihood)."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(j) 'the' - রুটি উপার্জন (জীবিকা নির্বাহ)।",
               "explanationEn": "(j) 'the' - earn the bread (livelihood)."
             },
             {
-              "text": "—",
+              "text": "any",
               "isCorrect": false,
               "explanationBn": "(j) 'the' - রুটি উপার্জন (জীবিকা নির্বাহ)।",
               "explanationEn": "(j) 'the' - earn the bread (livelihood)."
@@ -5732,19 +5732,19 @@
               "explanationEn": "(a) 'habit' - regular practice."
             },
             {
-              "text": "—",
+              "text": "leave",
               "isCorrect": false,
               "explanationBn": "(a) 'habit' - অভ্যাস।",
               "explanationEn": "(a) 'habit' - regular practice."
             },
             {
-              "text": "—",
+              "text": "see",
               "isCorrect": false,
               "explanationBn": "(a) 'habit' - অভ্যাস।",
               "explanationEn": "(a) 'habit' - regular practice."
             },
             {
-              "text": "—",
+              "text": "go",
               "isCorrect": false,
               "explanationBn": "(a) 'habit' - অভ্যাস।",
               "explanationEn": "(a) 'habit' - regular practice."
@@ -5762,19 +5762,19 @@
               "explanationEn": "(b) 'to' - not detrimental to health."
             },
             {
-              "text": "—",
+              "text": "about",
               "isCorrect": false,
               "explanationBn": "(b) 'to' - স্বাস্থ্যের জন্য ক্ষতিকর নয়।",
               "explanationEn": "(b) 'to' - not detrimental to health."
             },
             {
-              "text": "—",
+              "text": "at",
               "isCorrect": false,
               "explanationBn": "(b) 'to' - স্বাস্থ্যের জন্য ক্ষতিকর নয়।",
               "explanationEn": "(b) 'to' - not detrimental to health."
             },
             {
-              "text": "—",
+              "text": "without",
               "isCorrect": false,
               "explanationBn": "(b) 'to' - স্বাস্থ্যের জন্য ক্ষতিকর নয়।",
               "explanationEn": "(b) 'to' - not detrimental to health."
@@ -5792,19 +5792,19 @@
               "explanationEn": "(c) 'on' - effect on body and mind."
             },
             {
-              "text": "—",
+              "text": "from",
               "isCorrect": false,
               "explanationBn": "(c) 'on' - শরীর ও মনের উপর প্রভাব ফেলে।",
               "explanationEn": "(c) 'on' - effect on body and mind."
             },
             {
-              "text": "—",
+              "text": "into",
               "isCorrect": false,
               "explanationBn": "(c) 'on' - শরীর ও মনের উপর প্রভাব ফেলে।",
               "explanationEn": "(c) 'on' - effect on body and mind."
             },
             {
-              "text": "—",
+              "text": "with",
               "isCorrect": false,
               "explanationBn": "(c) 'on' - শরীর ও মনের উপর প্রভাব ফেলে।",
               "explanationEn": "(c) 'on' - effect on body and mind."
@@ -5822,19 +5822,19 @@
               "explanationEn": "(d) 'an' - an opportunity."
             },
             {
-              "text": "—",
+              "text": "a",
               "isCorrect": false,
               "explanationBn": "(d) 'an' - একটি সুযোগ।",
               "explanationEn": "(d) 'an' - an opportunity."
             },
             {
-              "text": "—",
+              "text": "the",
               "isCorrect": false,
               "explanationBn": "(d) 'an' - একটি সুযোগ।",
               "explanationEn": "(d) 'an' - an opportunity."
             },
             {
-              "text": "—",
+              "text": "any",
               "isCorrect": false,
               "explanationBn": "(d) 'an' - একটি সুযোগ।",
               "explanationEn": "(d) 'an' - an opportunity."
@@ -5852,19 +5852,19 @@
               "explanationEn": "(e) 'enjoy' - take pleasure in."
             },
             {
-              "text": "—",
+              "text": "see",
               "isCorrect": false,
               "explanationBn": "(e) 'enjoy' - উপভোগ করা।",
               "explanationEn": "(e) 'enjoy' - take pleasure in."
             },
             {
-              "text": "—",
+              "text": "woman",
               "isCorrect": false,
               "explanationBn": "(e) 'enjoy' - উপভোগ করা।",
               "explanationEn": "(e) 'enjoy' - take pleasure in."
             },
             {
-              "text": "—",
+              "text": "want",
               "isCorrect": false,
               "explanationBn": "(e) 'enjoy' - উপভোগ করা।",
               "explanationEn": "(e) 'enjoy' - take pleasure in."
@@ -5882,19 +5882,19 @@
               "explanationEn": "(f) 'beautiful' - pleasing to see."
             },
             {
-              "text": "—",
+              "text": "child",
               "isCorrect": false,
               "explanationBn": "(f) 'beautiful' - সুন্দর।",
               "explanationEn": "(f) 'beautiful' - pleasing to see."
             },
             {
-              "text": "—",
+              "text": "take",
               "isCorrect": false,
               "explanationBn": "(f) 'beautiful' - সুন্দর।",
               "explanationEn": "(f) 'beautiful' - pleasing to see."
             },
             {
-              "text": "—",
+              "text": "good",
               "isCorrect": false,
               "explanationBn": "(f) 'beautiful' - সুন্দর।",
               "explanationEn": "(f) 'beautiful' - pleasing to see."
@@ -5912,19 +5912,19 @@
               "explanationEn": "(g) 'the' - the superb beauty."
             },
             {
-              "text": "—",
+              "text": "some",
               "isCorrect": false,
               "explanationBn": "(g) 'the' - সূর্যোদয়ের অসাধারণ সৌন্দর্য।",
               "explanationEn": "(g) 'the' - the superb beauty."
             },
             {
-              "text": "—",
+              "text": "an",
               "isCorrect": false,
               "explanationBn": "(g) 'the' - সূর্যোদয়ের অসাধারণ সৌন্দর্য।",
               "explanationEn": "(g) 'the' - the superb beauty."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(g) 'the' - সূর্যোদয়ের অসাধারণ সৌন্দর্য।",
               "explanationEn": "(g) 'the' - the superb beauty."
@@ -5942,19 +5942,19 @@
               "explanationEn": "(h) 'a' - a cheerful mind."
             },
             {
-              "text": "—",
+              "text": "the",
               "isCorrect": false,
               "explanationBn": "(h) 'a' - একটি প্রফুল্ল মন।",
               "explanationEn": "(h) 'a' - a cheerful mind."
             },
             {
-              "text": "—",
+              "text": "some",
               "isCorrect": false,
               "explanationBn": "(h) 'a' - একটি প্রফুল্ল মন।",
               "explanationEn": "(h) 'a' - a cheerful mind."
             },
             {
-              "text": "—",
+              "text": "an",
               "isCorrect": false,
               "explanationBn": "(h) 'a' - একটি প্রফুল্ল মন।",
               "explanationEn": "(h) 'a' - a cheerful mind."
@@ -5972,19 +5972,19 @@
               "explanationEn": "(i) 'with' - with great relish."
             },
             {
-              "text": "—",
+              "text": "about",
               "isCorrect": false,
               "explanationBn": "(i) 'with' - খুব আগ্রহের সাথে।",
               "explanationEn": "(i) 'with' - with great relish."
             },
             {
-              "text": "—",
+              "text": "by",
               "isCorrect": false,
               "explanationBn": "(i) 'with' - খুব আগ্রহের সাথে।",
               "explanationEn": "(i) 'with' - with great relish."
             },
             {
-              "text": "—",
+              "text": "without",
               "isCorrect": false,
               "explanationBn": "(i) 'with' - খুব আগ্রহের সাথে।",
               "explanationEn": "(i) 'with' - with great relish."
@@ -6002,19 +6002,19 @@
               "explanationEn": "(j) 'health' - conducive to health."
             },
             {
-              "text": "—",
+              "text": "bad",
               "isCorrect": false,
               "explanationBn": "(j) 'health' - স্বাস্থ্যের জন্য সহায়ক।",
               "explanationEn": "(j) 'health' - conducive to health."
             },
             {
-              "text": "—",
+              "text": "thing",
               "isCorrect": false,
               "explanationBn": "(j) 'health' - স্বাস্থ্যের জন্য সহায়ক।",
               "explanationEn": "(j) 'health' - conducive to health."
             },
             {
-              "text": "—",
+              "text": "old",
               "isCorrect": false,
               "explanationBn": "(j) 'health' - স্বাস্থ্যের জন্য সহায়ক।",
               "explanationEn": "(j) 'health' - conducive to health."
@@ -6040,19 +6040,19 @@
               "explanationEn": "(a) 'a' - a must (necessity)."
             },
             {
-              "text": "—",
+              "text": "an",
               "isCorrect": false,
               "explanationBn": "(a) 'a' - একটি আবশ্যক।",
               "explanationEn": "(a) 'a' - a must (necessity)."
             },
             {
-              "text": "—",
+              "text": "the",
               "isCorrect": false,
               "explanationBn": "(a) 'a' - একটি আবশ্যক।",
               "explanationEn": "(a) 'a' - a must (necessity)."
             },
             {
-              "text": "—",
+              "text": "any",
               "isCorrect": false,
               "explanationBn": "(a) 'a' - একটি আবশ্যক।",
               "explanationEn": "(a) 'a' - a must (necessity)."
@@ -6070,19 +6070,19 @@
               "explanationEn": "(b) 'bring' - to bring happiness."
             },
             {
-              "text": "—",
+              "text": "little",
               "isCorrect": false,
               "explanationBn": "(b) 'bring' - সুখ আনা।",
               "explanationEn": "(b) 'bring' - to bring happiness."
             },
             {
-              "text": "—",
+              "text": "successful",
               "isCorrect": false,
               "explanationBn": "(b) 'bring' - সুখ আনা।",
               "explanationEn": "(b) 'bring' - to bring happiness."
             },
             {
-              "text": "—",
+              "text": "leave",
               "isCorrect": false,
               "explanationBn": "(b) 'bring' - সুখ আনা।",
               "explanationEn": "(b) 'bring' - to bring happiness."
@@ -6100,19 +6100,19 @@
               "explanationEn": "(c) 'absolutely' - completely."
             },
             {
-              "text": "—",
+              "text": "suddenly",
               "isCorrect": false,
               "explanationBn": "(c) 'absolutely' - সম্পূর্ণভাবে।",
               "explanationEn": "(c) 'absolutely' - completely."
             },
             {
-              "text": "—",
+              "text": "already",
               "isCorrect": false,
               "explanationBn": "(c) 'absolutely' - সম্পূর্ণভাবে।",
               "explanationEn": "(c) 'absolutely' - completely."
             },
             {
-              "text": "—",
+              "text": "surely",
               "isCorrect": false,
               "explanationBn": "(c) 'absolutely' - সম্পূর্ণভাবে।",
               "explanationEn": "(c) 'absolutely' - completely."
@@ -6130,19 +6130,19 @@
               "explanationEn": "(d) 'name' - the name of a feeling."
             },
             {
-              "text": "—",
+              "text": "new",
               "isCorrect": false,
               "explanationBn": "(d) 'name' - অনুভূতির নাম।",
               "explanationEn": "(d) 'name' - the name of a feeling."
             },
             {
-              "text": "—",
+              "text": "people",
               "isCorrect": false,
               "explanationBn": "(d) 'name' - অনুভূতির নাম।",
               "explanationEn": "(d) 'name' - the name of a feeling."
             },
             {
-              "text": "—",
+              "text": "successful",
               "isCorrect": false,
               "explanationBn": "(d) 'name' - অনুভূতির নাম।",
               "explanationEn": "(d) 'name' - the name of a feeling."
@@ -6160,19 +6160,19 @@
               "explanationEn": "(e) 'the' - the contentment of mind."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(e) 'the' - মনের তৃপ্তি।",
               "explanationEn": "(e) 'the' - the contentment of mind."
             },
             {
-              "text": "—",
+              "text": "a",
               "isCorrect": false,
               "explanationBn": "(e) 'the' - মনের তৃপ্তি।",
               "explanationEn": "(e) 'the' - the contentment of mind."
             },
             {
-              "text": "—",
+              "text": "any",
               "isCorrect": false,
               "explanationBn": "(e) 'the' - মনের তৃপ্তি।",
               "explanationEn": "(e) 'the' - the contentment of mind."
@@ -6190,19 +6190,19 @@
               "explanationEn": "(f) 'with' - satisfied with what he gets."
             },
             {
-              "text": "—",
+              "text": "into",
               "isCorrect": false,
               "explanationBn": "(f) 'with' - যা পায় তাতে সন্তুষ্ট।",
               "explanationEn": "(f) 'with' - satisfied with what he gets."
             },
             {
-              "text": "—",
+              "text": "by",
               "isCorrect": false,
               "explanationBn": "(f) 'with' - যা পায় তাতে সন্তুষ্ট।",
               "explanationEn": "(f) 'with' - satisfied with what he gets."
             },
             {
-              "text": "—",
+              "text": "on",
               "isCorrect": false,
               "explanationBn": "(f) 'with' - যা পায় তাতে সন্তুষ্ট।",
               "explanationEn": "(f) 'with' - satisfied with what he gets."
@@ -6220,19 +6220,19 @@
               "explanationEn": "(g) 'with' - content with his life."
             },
             {
-              "text": "—",
+              "text": "into",
               "isCorrect": false,
               "explanationBn": "(g) 'with' - তার জীবনে সন্তুষ্ট।",
               "explanationEn": "(g) 'with' - content with his life."
             },
             {
-              "text": "—",
+              "text": "to",
               "isCorrect": false,
               "explanationBn": "(g) 'with' - তার জীবনে সন্তুষ্ট।",
               "explanationEn": "(g) 'with' - content with his life."
             },
             {
-              "text": "—",
+              "text": "under",
               "isCorrect": false,
               "explanationBn": "(g) 'with' - তার জীবনে সন্তুষ্ট।",
               "explanationEn": "(g) 'with' - content with his life."
@@ -6250,19 +6250,19 @@
               "explanationEn": "(h) 'happy' - joyful."
             },
             {
-              "text": "—",
+              "text": "place",
               "isCorrect": false,
               "explanationBn": "(h) 'happy' - সুখী।",
               "explanationEn": "(h) 'happy' - joyful."
             },
             {
-              "text": "—",
+              "text": "use",
               "isCorrect": false,
               "explanationBn": "(h) 'happy' - সুখী।",
               "explanationEn": "(h) 'happy' - joyful."
             },
             {
-              "text": "—",
+              "text": "come",
               "isCorrect": false,
               "explanationBn": "(h) 'happy' - সুখী।",
               "explanationEn": "(h) 'happy' - joyful."
@@ -6280,19 +6280,19 @@
               "explanationEn": "(i) 'doubt' - no doubt."
             },
             {
-              "text": "—",
+              "text": "new",
               "isCorrect": false,
               "explanationBn": "(i) 'doubt' - কোনো সন্দেহ নেই।",
               "explanationEn": "(i) 'doubt' - no doubt."
             },
             {
-              "text": "—",
+              "text": "give",
               "isCorrect": false,
               "explanationBn": "(i) 'doubt' - কোনো সন্দেহ নেই।",
               "explanationEn": "(i) 'doubt' - no doubt."
             },
             {
-              "text": "—",
+              "text": "help",
               "isCorrect": false,
               "explanationBn": "(i) 'doubt' - কোনো সন্দেহ নেই।",
               "explanationEn": "(i) 'doubt' - no doubt."
@@ -6310,19 +6310,19 @@
               "explanationEn": "(j) 'to' - something to do with."
             },
             {
-              "text": "—",
+              "text": "over",
               "isCorrect": false,
               "explanationBn": "(j) 'to' - সুখের সাথে কিছু সম্পর্ক আছে।",
               "explanationEn": "(j) 'to' - something to do with."
             },
             {
-              "text": "—",
+              "text": "without",
               "isCorrect": false,
               "explanationBn": "(j) 'to' - সুখের সাথে কিছু সম্পর্ক আছে।",
               "explanationEn": "(j) 'to' - something to do with."
             },
             {
-              "text": "—",
+              "text": "between",
               "isCorrect": false,
               "explanationBn": "(j) 'to' - সুখের সাথে কিছু সম্পর্ক আছে।",
               "explanationEn": "(j) 'to' - something to do with."
@@ -6348,19 +6348,19 @@
               "explanationEn": "(a) 'a' - a way."
             },
             {
-              "text": "—",
+              "text": "an",
               "isCorrect": false,
               "explanationBn": "(a) 'a' - একটি পথ।",
               "explanationEn": "(a) 'a' - a way."
             },
             {
-              "text": "—",
+              "text": "any",
               "isCorrect": false,
               "explanationBn": "(a) 'a' - একটি পথ।",
               "explanationEn": "(a) 'a' - a way."
             },
             {
-              "text": "—",
+              "text": "some",
               "isCorrect": false,
               "explanationBn": "(a) 'a' - একটি পথ।",
               "explanationEn": "(a) 'a' - a way."
@@ -6378,19 +6378,19 @@
               "explanationEn": "(b) 'true' - correct/factual."
             },
             {
-              "text": "—",
+              "text": "see",
               "isCorrect": false,
               "explanationBn": "(b) 'true' - সত্য।",
               "explanationEn": "(b) 'true' - correct/factual."
             },
             {
-              "text": "—",
+              "text": "come",
               "isCorrect": false,
               "explanationBn": "(b) 'true' - সত্য।",
               "explanationEn": "(b) 'true' - correct/factual."
             },
             {
-              "text": "—",
+              "text": "good",
               "isCorrect": false,
               "explanationBn": "(b) 'true' - সত্য।",
               "explanationEn": "(b) 'true' - correct/factual."
@@ -6408,19 +6408,19 @@
               "explanationEn": "(c) 'when' - at the time that."
             },
             {
-              "text": "—",
+              "text": "while",
               "isCorrect": false,
               "explanationBn": "(c) 'when' - যখন।",
               "explanationEn": "(c) 'when' - at the time that."
             },
             {
-              "text": "—",
+              "text": "but",
               "isCorrect": false,
               "explanationBn": "(c) 'when' - যখন।",
               "explanationEn": "(c) 'when' - at the time that."
             },
             {
-              "text": "—",
+              "text": "if",
               "isCorrect": false,
               "explanationBn": "(c) 'when' - যখন।",
               "explanationEn": "(c) 'when' - at the time that."
@@ -6438,19 +6438,19 @@
               "explanationEn": "(d) 'their' - belonging to them."
             },
             {
-              "text": "—",
+              "text": "take",
               "isCorrect": false,
               "explanationBn": "(d) 'their' - তাদের ইচ্ছা।",
               "explanationEn": "(d) 'their' - belonging to them."
             },
             {
-              "text": "—",
+              "text": "big",
               "isCorrect": false,
               "explanationBn": "(d) 'their' - তাদের ইচ্ছা।",
               "explanationEn": "(d) 'their' - belonging to them."
             },
             {
-              "text": "—",
+              "text": "make",
               "isCorrect": false,
               "explanationBn": "(d) 'their' - তাদের ইচ্ছা।",
               "explanationEn": "(d) 'their' - belonging to them."
@@ -6468,19 +6468,19 @@
               "explanationEn": "(e) 'for' - for the purpose of."
             },
             {
-              "text": "—",
+              "text": "over",
               "isCorrect": false,
               "explanationBn": "(e) 'for' - ভবিষ্যত গঠনের জন্য।",
               "explanationEn": "(e) 'for' - for the purpose of."
             },
             {
-              "text": "—",
+              "text": "to",
               "isCorrect": false,
               "explanationBn": "(e) 'for' - ভবিষ্যত গঠনের জন্য।",
               "explanationEn": "(e) 'for' - for the purpose of."
             },
             {
-              "text": "—",
+              "text": "on",
               "isCorrect": false,
               "explanationBn": "(e) 'for' - ভবিষ্যত গঠনের জন্য।",
               "explanationEn": "(e) 'for' - for the purpose of."
@@ -6498,19 +6498,19 @@
               "explanationEn": "(f) 'surely/definitely' - without doubt."
             },
             {
-              "text": "—",
+              "text": "too",
               "isCorrect": false,
               "explanationBn": "(f) 'surely/definitely' - নিশ্চয়ই।",
               "explanationEn": "(f) 'surely/definitely' - without doubt."
             },
             {
-              "text": "—",
+              "text": "suddenly",
               "isCorrect": false,
               "explanationBn": "(f) 'surely/definitely' - নিশ্চয়ই।",
               "explanationEn": "(f) 'surely/definitely' - without doubt."
             },
             {
-              "text": "—",
+              "text": "often",
               "isCorrect": false,
               "explanationBn": "(f) 'surely/definitely' - নিশ্চয়ই।",
               "explanationEn": "(f) 'surely/definitely' - without doubt."
@@ -6528,19 +6528,19 @@
               "explanationEn": "(g) 'of' - the magic of hard work."
             },
             {
-              "text": "—",
+              "text": "beside",
               "isCorrect": false,
               "explanationBn": "(g) 'of' - কঠোর পরিশ্রমের জাদু।",
               "explanationEn": "(g) 'of' - the magic of hard work."
             },
             {
-              "text": "—",
+              "text": "through",
               "isCorrect": false,
               "explanationBn": "(g) 'of' - কঠোর পরিশ্রমের জাদু।",
               "explanationEn": "(g) 'of' - the magic of hard work."
             },
             {
-              "text": "—",
+              "text": "to",
               "isCorrect": false,
               "explanationBn": "(g) 'of' - কঠোর পরিশ্রমের জাদু।",
               "explanationEn": "(g) 'of' - the magic of hard work."
@@ -6558,19 +6558,19 @@
               "explanationEn": "(h) 'The' - specific unlucky people."
             },
             {
-              "text": "—",
+              "text": "Once",
               "isCorrect": false,
               "explanationBn": "(h) 'The' - যারা ভাগ্যকে দোষ দেয়।",
               "explanationEn": "(h) 'The' - specific unlucky people."
             },
             {
-              "text": "—",
+              "text": "Then",
               "isCorrect": false,
               "explanationBn": "(h) 'The' - যারা ভাগ্যকে দোষ দেয়।",
               "explanationEn": "(h) 'The' - specific unlucky people."
             },
             {
-              "text": "—",
+              "text": "That",
               "isCorrect": false,
               "explanationBn": "(h) 'The' - যারা ভাগ্যকে দোষ দেয়।",
               "explanationEn": "(h) 'The' - specific unlucky people."
@@ -6588,19 +6588,19 @@
               "explanationEn": "(i) 'people' - human beings."
             },
             {
-              "text": "—",
+              "text": "thing",
               "isCorrect": false,
               "explanationBn": "(i) 'people' - মানুষ।",
               "explanationEn": "(i) 'people' - human beings."
             },
             {
-              "text": "—",
+              "text": "home",
               "isCorrect": false,
               "explanationBn": "(i) 'people' - মানুষ।",
               "explanationEn": "(i) 'people' - human beings."
             },
             {
-              "text": "—",
+              "text": "careful",
               "isCorrect": false,
               "explanationBn": "(i) 'people' - মানুষ।",
               "explanationEn": "(i) 'people' - human beings."
@@ -6618,19 +6618,19 @@
               "explanationEn": "(j) 'to' - alternative to hard work."
             },
             {
-              "text": "—",
+              "text": "from",
               "isCorrect": false,
               "explanationBn": "(j) 'to' - কঠোর পরিশ্রমের বিকল্প নেই।",
               "explanationEn": "(j) 'to' - alternative to hard work."
             },
             {
-              "text": "—",
+              "text": "of",
               "isCorrect": false,
               "explanationBn": "(j) 'to' - কঠোর পরিশ্রমের বিকল্প নেই।",
               "explanationEn": "(j) 'to' - alternative to hard work."
             },
             {
-              "text": "—",
+              "text": "in",
               "isCorrect": false,
               "explanationBn": "(j) 'to' - কঠোর পরিশ্রমের বিকল্প নেই।",
               "explanationEn": "(j) 'to' - alternative to hard work."
@@ -6656,19 +6656,19 @@
               "explanationEn": "(a) 'but' - shows contrast (poor but honest)."
             },
             {
-              "text": "—",
+              "text": "if",
               "isCorrect": false,
               "explanationBn": "(a) 'but' - একজন দরিদ্র কিন্তু সৎ কৃষক।",
               "explanationEn": "(a) 'but' - shows contrast (poor but honest)."
             },
             {
-              "text": "—",
+              "text": "or",
               "isCorrect": false,
               "explanationBn": "(a) 'but' - একজন দরিদ্র কিন্তু সৎ কৃষক।",
               "explanationEn": "(a) 'but' - shows contrast (poor but honest)."
             },
             {
-              "text": "—",
+              "text": "so",
               "isCorrect": false,
               "explanationBn": "(a) 'but' - একজন দরিদ্র কিন্তু সৎ কৃষক।",
               "explanationEn": "(a) 'but' - shows contrast (poor but honest)."
@@ -6686,19 +6686,19 @@
               "explanationEn": "(b) 'a' - a very simple life."
             },
             {
-              "text": "—",
+              "text": "an",
               "isCorrect": false,
               "explanationBn": "(b) 'a' - একটি খুব সাধারণ জীবন।",
               "explanationEn": "(b) 'a' - a very simple life."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(b) 'a' - একটি খুব সাধারণ জীবন।",
               "explanationEn": "(b) 'a' - a very simple life."
             },
             {
-              "text": "—",
+              "text": "the",
               "isCorrect": false,
               "explanationBn": "(b) 'a' - একটি খুব সাধারণ জীবন।",
               "explanationEn": "(b) 'a' - a very simple life."
@@ -6716,19 +6716,19 @@
               "explanationEn": "(c) 'with' - along with."
             },
             {
-              "text": "—",
+              "text": "over",
               "isCorrect": false,
               "explanationBn": "(c) 'with' - তার স্ত্রী ও তিন সন্তানের সাথে।",
               "explanationEn": "(c) 'with' - along with."
             },
             {
-              "text": "—",
+              "text": "among",
               "isCorrect": false,
               "explanationBn": "(c) 'with' - তার স্ত্রী ও তিন সন্তানের সাথে।",
               "explanationEn": "(c) 'with' - along with."
             },
             {
-              "text": "—",
+              "text": "from",
               "isCorrect": false,
               "explanationBn": "(c) 'with' - তার স্ত্রী ও তিন সন্তানের সাথে।",
               "explanationEn": "(c) 'with' - along with."
@@ -6746,19 +6746,19 @@
               "explanationEn": "(d) 'children' - young sons/daughters."
             },
             {
-              "text": "—",
+              "text": "place",
               "isCorrect": false,
               "explanationBn": "(d) 'children' - সন্তান।",
               "explanationEn": "(d) 'children' - young sons/daughters."
             },
             {
-              "text": "—",
+              "text": "important",
               "isCorrect": false,
               "explanationBn": "(d) 'children' - সন্তান।",
               "explanationEn": "(d) 'children' - young sons/daughters."
             },
             {
-              "text": "—",
+              "text": "life",
               "isCorrect": false,
               "explanationBn": "(d) 'children' - সন্তান।",
               "explanationEn": "(d) 'children' - young sons/daughters."
@@ -6776,19 +6776,19 @@
               "explanationEn": "(e) 'from' - starting point."
             },
             {
-              "text": "—",
+              "text": "into",
               "isCorrect": false,
               "explanationBn": "(e) 'from' - ভোর থেকে সন্ধ্যা পর্যন্ত।",
               "explanationEn": "(e) 'from' - starting point."
             },
             {
-              "text": "—",
+              "text": "under",
               "isCorrect": false,
               "explanationBn": "(e) 'from' - ভোর থেকে সন্ধ্যা পর্যন্ত।",
               "explanationEn": "(e) 'from' - starting point."
             },
             {
-              "text": "—",
+              "text": "through",
               "isCorrect": false,
               "explanationBn": "(e) 'from' - ভোর থেকে সন্ধ্যা পর্যন্ত।",
               "explanationEn": "(e) 'from' - starting point."
@@ -6806,19 +6806,19 @@
               "explanationEn": "(f) 'while' - during the time that."
             },
             {
-              "text": "—",
+              "text": "and",
               "isCorrect": false,
               "explanationBn": "(f) 'while' - যখন।",
               "explanationEn": "(f) 'while' - during the time that."
             },
             {
-              "text": "—",
+              "text": "though",
               "isCorrect": false,
               "explanationBn": "(f) 'while' - যখন।",
               "explanationEn": "(f) 'while' - during the time that."
             },
             {
-              "text": "—",
+              "text": "until",
               "isCorrect": false,
               "explanationBn": "(f) 'while' - যখন।",
               "explanationEn": "(f) 'while' - during the time that."
@@ -6836,19 +6836,19 @@
               "explanationEn": "(g) 'suddenly' - unexpectedly."
             },
             {
-              "text": "—",
+              "text": "always",
               "isCorrect": false,
               "explanationBn": "(g) 'suddenly' - হঠাৎ।",
               "explanationEn": "(g) 'suddenly' - unexpectedly."
             },
             {
-              "text": "—",
+              "text": "so",
               "isCorrect": false,
               "explanationBn": "(g) 'suddenly' - হঠাৎ।",
               "explanationEn": "(g) 'suddenly' - unexpectedly."
             },
             {
-              "text": "—",
+              "text": "just",
               "isCorrect": false,
               "explanationBn": "(g) 'suddenly' - হঠাৎ।",
               "explanationEn": "(g) 'suddenly' - unexpectedly."
@@ -6866,19 +6866,19 @@
               "explanationEn": "(h) 'the' - on the road."
             },
             {
-              "text": "—",
+              "text": "an",
               "isCorrect": false,
               "explanationBn": "(h) 'the' - রাস্তায়।",
               "explanationEn": "(h) 'the' - on the road."
             },
             {
-              "text": "—",
+              "text": "a",
               "isCorrect": false,
               "explanationBn": "(h) 'the' - রাস্তায়।",
               "explanationEn": "(h) 'the' - on the road."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(h) 'the' - রাস্তায়।",
               "explanationEn": "(h) 'the' - on the road."
@@ -6896,19 +6896,19 @@
               "explanationEn": "(i) 'could' - was able to."
             },
             {
-              "text": "—",
+              "text": "start",
               "isCorrect": false,
               "explanationBn": "(i) 'could' - পারা।",
               "explanationEn": "(i) 'could' - was able to."
             },
             {
-              "text": "—",
+              "text": "world",
               "isCorrect": false,
               "explanationBn": "(i) 'could' - পারা।",
               "explanationEn": "(i) 'could' - was able to."
             },
             {
-              "text": "—",
+              "text": "old",
               "isCorrect": false,
               "explanationBn": "(i) 'could' - পারা।",
               "explanationEn": "(i) 'could' - was able to."
@@ -6926,19 +6926,19 @@
               "explanationEn": "(j) 'to' - show it to his wife."
             },
             {
-              "text": "—",
+              "text": "into",
               "isCorrect": false,
               "explanationBn": "(j) 'to' - তার স্ত্রী ও সন্তানদের দেখানো।",
               "explanationEn": "(j) 'to' - show it to his wife."
             },
             {
-              "text": "—",
+              "text": "by",
               "isCorrect": false,
               "explanationBn": "(j) 'to' - তার স্ত্রী ও সন্তানদের দেখানো।",
               "explanationEn": "(j) 'to' - show it to his wife."
             },
             {
-              "text": "—",
+              "text": "in",
               "isCorrect": false,
               "explanationBn": "(j) 'to' - তার স্ত্রী ও সন্তানদের দেখানো।",
               "explanationEn": "(j) 'to' - show it to his wife."
@@ -6964,19 +6964,19 @@
               "explanationEn": "(a) 'an' - before vowel sound 'extremely'."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(a) 'an' - 'extremely' স্বরবর্ণ দিয়ে শুরু তাই 'an'।",
               "explanationEn": "(a) 'an' - before vowel sound 'extremely'."
             },
             {
-              "text": "—",
+              "text": "a",
               "isCorrect": false,
               "explanationBn": "(a) 'an' - 'extremely' স্বরবর্ণ দিয়ে শুরু তাই 'an'।",
               "explanationEn": "(a) 'an' - before vowel sound 'extremely'."
             },
             {
-              "text": "—",
+              "text": "some",
               "isCorrect": false,
               "explanationBn": "(a) 'an' - 'extremely' স্বরবর্ণ দিয়ে শুরু তাই 'an'।",
               "explanationEn": "(a) 'an' - before vowel sound 'extremely'."
@@ -6994,19 +6994,19 @@
               "explanationEn": "(b) 'to' - addicted to."
             },
             {
-              "text": "—",
+              "text": "about",
               "isCorrect": false,
               "explanationBn": "(b) 'to' - আসক্ত।",
               "explanationEn": "(b) 'to' - addicted to."
             },
             {
-              "text": "—",
+              "text": "on",
               "isCorrect": false,
               "explanationBn": "(b) 'to' - আসক্ত।",
               "explanationEn": "(b) 'to' - addicted to."
             },
             {
-              "text": "—",
+              "text": "through",
               "isCorrect": false,
               "explanationBn": "(b) 'to' - আসক্ত।",
               "explanationEn": "(b) 'to' - addicted to."
@@ -7024,19 +7024,19 @@
               "explanationEn": "(c) 'into' - fall into problems."
             },
             {
-              "text": "—",
+              "text": "over",
               "isCorrect": false,
               "explanationBn": "(c) 'into' - সমস্যায় পড়ে।",
               "explanationEn": "(c) 'into' - fall into problems."
             },
             {
-              "text": "—",
+              "text": "at",
               "isCorrect": false,
               "explanationBn": "(c) 'into' - সমস্যায় পড়ে।",
               "explanationEn": "(c) 'into' - fall into problems."
             },
             {
-              "text": "—",
+              "text": "through",
               "isCorrect": false,
               "explanationBn": "(c) 'into' - সমস্যায় পড়ে।",
               "explanationEn": "(c) 'into' - fall into problems."
@@ -7054,19 +7054,19 @@
               "explanationEn": "(d) 'various' - many different types."
             },
             {
-              "text": "—",
+              "text": "leave",
               "isCorrect": false,
               "explanationBn": "(d) 'various' - নানা ধরনের।",
               "explanationEn": "(d) 'various' - many different types."
             },
             {
-              "text": "—",
+              "text": "make",
               "isCorrect": false,
               "explanationBn": "(d) 'various' - নানা ধরনের।",
               "explanationEn": "(d) 'various' - many different types."
             },
             {
-              "text": "—",
+              "text": "important",
               "isCorrect": false,
               "explanationBn": "(d) 'various' - নানা ধরনের।",
               "explanationEn": "(d) 'various' - many different types."
@@ -7084,19 +7084,19 @@
               "explanationEn": "(e) 'in' - on a large scale."
             },
             {
-              "text": "—",
+              "text": "to",
               "isCorrect": false,
               "explanationBn": "(e) 'in' - ব্যাপক আকারে।",
               "explanationEn": "(e) 'in' - on a large scale."
             },
             {
-              "text": "—",
+              "text": "by",
               "isCorrect": false,
               "explanationBn": "(e) 'in' - ব্যাপক আকারে।",
               "explanationEn": "(e) 'in' - on a large scale."
             },
             {
-              "text": "—",
+              "text": "from",
               "isCorrect": false,
               "explanationBn": "(e) 'in' - ব্যাপক আকারে।",
               "explanationEn": "(e) 'in' - on a large scale."
@@ -7114,19 +7114,19 @@
               "explanationEn": "(f) 'the' - the bad habit."
             },
             {
-              "text": "—",
+              "text": "some",
               "isCorrect": false,
               "explanationBn": "(f) 'the' - সেই খারাপ অভ্যাস।",
               "explanationEn": "(f) 'the' - the bad habit."
             },
             {
-              "text": "—",
+              "text": "a",
               "isCorrect": false,
               "explanationBn": "(f) 'the' - সেই খারাপ অভ্যাস।",
               "explanationEn": "(f) 'the' - the bad habit."
             },
             {
-              "text": "—",
+              "text": "an",
               "isCorrect": false,
               "explanationBn": "(f) 'the' - সেই খারাপ অভ্যাস।",
               "explanationEn": "(f) 'the' - the bad habit."
@@ -7144,19 +7144,19 @@
               "explanationEn": "(g) 'a' - a waste."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(g) 'a' - একটি অপচয়।",
               "explanationEn": "(g) 'a' - a waste."
             },
             {
-              "text": "—",
+              "text": "some",
               "isCorrect": false,
               "explanationBn": "(g) 'a' - একটি অপচয়।",
               "explanationEn": "(g) 'a' - a waste."
             },
             {
-              "text": "—",
+              "text": "any",
               "isCorrect": false,
               "explanationBn": "(g) 'a' - একটি অপচয়।",
               "explanationEn": "(g) 'a' - a waste."
@@ -7174,19 +7174,19 @@
               "explanationEn": "(h) 'in' - keep in mind."
             },
             {
-              "text": "—",
+              "text": "with",
               "isCorrect": false,
               "explanationBn": "(h) 'in' - মনে রাখা।",
               "explanationEn": "(h) 'in' - keep in mind."
             },
             {
-              "text": "—",
+              "text": "by",
               "isCorrect": false,
               "explanationBn": "(h) 'in' - মনে রাখা।",
               "explanationEn": "(h) 'in' - keep in mind."
             },
             {
-              "text": "—",
+              "text": "without",
               "isCorrect": false,
               "explanationBn": "(h) 'in' - মনে রাখা।",
               "explanationEn": "(h) 'in' - keep in mind."
@@ -7204,19 +7204,19 @@
               "explanationEn": "(i) 'non-smokers' - people who don't smoke."
             },
             {
-              "text": "—",
+              "text": "child",
               "isCorrect": false,
               "explanationBn": "(i) 'non-smokers' - অধূমপায়ীদের।",
               "explanationEn": "(i) 'non-smokers' - people who don't smoke."
             },
             {
-              "text": "—",
+              "text": "help",
               "isCorrect": false,
               "explanationBn": "(i) 'non-smokers' - অধূমপায়ীদের।",
               "explanationEn": "(i) 'non-smokers' - people who don't smoke."
             },
             {
-              "text": "—",
+              "text": "keep",
               "isCorrect": false,
               "explanationBn": "(i) 'non-smokers' - অধূমপায়ীদের।",
               "explanationEn": "(i) 'non-smokers' - people who don't smoke."
@@ -7234,19 +7234,19 @@
               "explanationEn": "(j) 'of' - get rid of."
             },
             {
-              "text": "—",
+              "text": "beside",
               "isCorrect": false,
               "explanationBn": "(j) 'of' - মুক্তি পাওয়া।",
               "explanationEn": "(j) 'of' - get rid of."
             },
             {
-              "text": "—",
+              "text": "over",
               "isCorrect": false,
               "explanationBn": "(j) 'of' - মুক্তি পাওয়া।",
               "explanationEn": "(j) 'of' - get rid of."
             },
             {
-              "text": "—",
+              "text": "through",
               "isCorrect": false,
               "explanationBn": "(j) 'of' - মুক্তি পাওয়া।",
               "explanationEn": "(j) 'of' - get rid of."
@@ -7272,19 +7272,19 @@
               "explanationEn": "(a) 'from' - suffering from."
             },
             {
-              "text": "—",
+              "text": "among",
               "isCorrect": false,
               "explanationBn": "(a) 'from' - রোগে ভোগা।",
               "explanationEn": "(a) 'from' - suffering from."
             },
             {
-              "text": "—",
+              "text": "at",
               "isCorrect": false,
               "explanationBn": "(a) 'from' - রোগে ভোগা।",
               "explanationEn": "(a) 'from' - suffering from."
             },
             {
-              "text": "—",
+              "text": "over",
               "isCorrect": false,
               "explanationBn": "(a) 'from' - রোগে ভোগা।",
               "explanationEn": "(a) 'from' - suffering from."
@@ -7302,19 +7302,19 @@
               "explanationEn": "(b) 'fatal' - causing death."
             },
             {
-              "text": "—",
+              "text": "make",
               "isCorrect": false,
               "explanationBn": "(b) 'fatal' - মারাত্মক।",
               "explanationEn": "(b) 'fatal' - causing death."
             },
             {
-              "text": "—",
+              "text": "bring",
               "isCorrect": false,
               "explanationBn": "(b) 'fatal' - মারাত্মক।",
               "explanationEn": "(b) 'fatal' - causing death."
             },
             {
-              "text": "—",
+              "text": "do",
               "isCorrect": false,
               "explanationBn": "(b) 'fatal' - মারাত্মক।",
               "explanationEn": "(b) 'fatal' - causing death."
@@ -7332,19 +7332,19 @@
               "explanationEn": "(c) 'to' - subject to."
             },
             {
-              "text": "—",
+              "text": "for",
               "isCorrect": false,
               "explanationBn": "(c) 'to' - সাপেক্ষ।",
               "explanationEn": "(c) 'to' - subject to."
             },
             {
-              "text": "—",
+              "text": "about",
               "isCorrect": false,
               "explanationBn": "(c) 'to' - সাপেক্ষ।",
               "explanationEn": "(c) 'to' - subject to."
             },
             {
-              "text": "—",
+              "text": "through",
               "isCorrect": false,
               "explanationBn": "(c) 'to' - সাপেক্ষ।",
               "explanationEn": "(c) 'to' - subject to."
@@ -7362,19 +7362,19 @@
               "explanationEn": "(d) 'from' - depart from."
             },
             {
-              "text": "—",
+              "text": "under",
               "isCorrect": false,
               "explanationBn": "(d) 'from' - পৃথিবী থেকে চলে যাবে।",
               "explanationEn": "(d) 'from' - depart from."
             },
             {
-              "text": "—",
+              "text": "for",
               "isCorrect": false,
               "explanationBn": "(d) 'from' - পৃথিবী থেকে চলে যাবে।",
               "explanationEn": "(d) 'from' - depart from."
             },
             {
-              "text": "—",
+              "text": "without",
               "isCorrect": false,
               "explanationBn": "(d) 'from' - পৃথিবী থেকে চলে যাবে।",
               "explanationEn": "(d) 'from' - depart from."
@@ -7392,19 +7392,19 @@
               "explanationEn": "(e) 'a' - a long time."
             },
             {
-              "text": "—",
+              "text": "an",
               "isCorrect": false,
               "explanationBn": "(e) 'a' - দীর্ঘ সময়।",
               "explanationEn": "(e) 'a' - a long time."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(e) 'a' - দীর্ঘ সময়।",
               "explanationEn": "(e) 'a' - a long time."
             },
             {
-              "text": "—",
+              "text": "any",
               "isCorrect": false,
               "explanationBn": "(e) 'a' - দীর্ঘ সময়।",
               "explanationEn": "(e) 'a' - a long time."
@@ -7422,19 +7422,19 @@
               "explanationEn": "(f) 'the' - in the memory."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(f) 'the' - মানুষের স্মৃতিতে।",
               "explanationEn": "(f) 'the' - in the memory."
             },
             {
-              "text": "—",
+              "text": "some",
               "isCorrect": false,
               "explanationBn": "(f) 'the' - মানুষের স্মৃতিতে।",
               "explanationEn": "(f) 'the' - in the memory."
             },
             {
-              "text": "—",
+              "text": "any",
               "isCorrect": false,
               "explanationBn": "(f) 'the' - মানুষের স্মৃতিতে।",
               "explanationEn": "(f) 'the' - in the memory."
@@ -7452,19 +7452,19 @@
               "explanationEn": "(g) 'work' - through his work/deeds."
             },
             {
-              "text": "—",
+              "text": "use",
               "isCorrect": false,
               "explanationBn": "(g) 'work' - কাজের মাধ্যমে।",
               "explanationEn": "(g) 'work' - through his work/deeds."
             },
             {
-              "text": "—",
+              "text": "world",
               "isCorrect": false,
               "explanationBn": "(g) 'work' - কাজের মাধ্যমে।",
               "explanationEn": "(g) 'work' - through his work/deeds."
             },
             {
-              "text": "—",
+              "text": "sure",
               "isCorrect": false,
               "explanationBn": "(g) 'work' - কাজের মাধ্যমে।",
               "explanationEn": "(g) 'work' - through his work/deeds."
@@ -7482,19 +7482,19 @@
               "explanationEn": "(h) 'in' - do things in our life."
             },
             {
-              "text": "—",
+              "text": "on",
               "isCorrect": false,
               "explanationBn": "(h) 'in' - জীবনে কাজ করা।",
               "explanationEn": "(h) 'in' - do things in our life."
             },
             {
-              "text": "—",
+              "text": "at",
               "isCorrect": false,
               "explanationBn": "(h) 'in' - জীবনে কাজ করা।",
               "explanationEn": "(h) 'in' - do things in our life."
             },
             {
-              "text": "—",
+              "text": "into",
               "isCorrect": false,
               "explanationBn": "(h) 'in' - জীবনে কাজ করা।",
               "explanationEn": "(h) 'in' - do things in our life."
@@ -7512,19 +7512,19 @@
               "explanationEn": "(i) 'remain/stay' - continue to exist."
             },
             {
-              "text": "—",
+              "text": "house",
               "isCorrect": false,
               "explanationBn": "(i) 'remain/stay' - থাকা।",
               "explanationEn": "(i) 'remain/stay' - continue to exist."
             },
             {
-              "text": "—",
+              "text": "sure",
               "isCorrect": false,
               "explanationBn": "(i) 'remain/stay' - থাকা।",
               "explanationEn": "(i) 'remain/stay' - continue to exist."
             },
             {
-              "text": "—",
+              "text": "want",
               "isCorrect": false,
               "explanationBn": "(i) 'remain/stay' - থাকা।",
               "explanationEn": "(i) 'remain/stay' - continue to exist."
@@ -7542,19 +7542,19 @@
               "explanationEn": "(j) 'through' - by means of our works."
             },
             {
-              "text": "—",
+              "text": "on",
               "isCorrect": false,
               "explanationBn": "(j) 'through' - আমাদের কাজের মাধ্যমে।",
               "explanationEn": "(j) 'through' - by means of our works."
             },
             {
-              "text": "—",
+              "text": "in",
               "isCorrect": false,
               "explanationBn": "(j) 'through' - আমাদের কাজের মাধ্যমে।",
               "explanationEn": "(j) 'through' - by means of our works."
             },
             {
-              "text": "—",
+              "text": "beside",
               "isCorrect": false,
               "explanationBn": "(j) 'through' - আমাদের কাজের মাধ্যমে।",
               "explanationEn": "(j) 'through' - by means of our works."
@@ -7580,19 +7580,19 @@
               "explanationEn": "(a) 'without' - cannot live without."
             },
             {
-              "text": "—",
+              "text": "between",
               "isCorrect": false,
               "explanationBn": "(a) 'without' - ছাড়া বাঁচতে পারে না।",
               "explanationEn": "(a) 'without' - cannot live without."
             },
             {
-              "text": "—",
+              "text": "in",
               "isCorrect": false,
               "explanationBn": "(a) 'without' - ছাড়া বাঁচতে পারে না।",
               "explanationEn": "(a) 'without' - cannot live without."
             },
             {
-              "text": "—",
+              "text": "from",
               "isCorrect": false,
               "explanationBn": "(a) 'without' - ছাড়া বাঁচতে পারে না।",
               "explanationEn": "(a) 'without' - cannot live without."
@@ -7610,19 +7610,19 @@
               "explanationEn": "(b) 'In' - in fact."
             },
             {
-              "text": "—",
+              "text": "That",
               "isCorrect": false,
               "explanationBn": "(b) 'In' - আসলে।",
               "explanationEn": "(b) 'In' - in fact."
             },
             {
-              "text": "—",
+              "text": "Then",
               "isCorrect": false,
               "explanationBn": "(b) 'In' - আসলে।",
               "explanationEn": "(b) 'In' - in fact."
             },
             {
-              "text": "—",
+              "text": "These",
               "isCorrect": false,
               "explanationBn": "(b) 'In' - আসলে।",
               "explanationEn": "(b) 'In' - in fact."
@@ -7640,19 +7640,19 @@
               "explanationEn": "(c) 'plants' - living things like trees/flowers."
             },
             {
-              "text": "—",
+              "text": "do",
               "isCorrect": false,
               "explanationBn": "(c) 'plants' - উদ্ভিদ।",
               "explanationEn": "(c) 'plants' - living things like trees/flowers."
             },
             {
-              "text": "—",
+              "text": "get",
               "isCorrect": false,
               "explanationBn": "(c) 'plants' - উদ্ভিদ।",
               "explanationEn": "(c) 'plants' - living things like trees/flowers."
             },
             {
-              "text": "—",
+              "text": "little",
               "isCorrect": false,
               "explanationBn": "(c) 'plants' - উদ্ভিদ।",
               "explanationEn": "(c) 'plants' - living things like trees/flowers."
@@ -7670,19 +7670,19 @@
               "explanationEn": "(d) 'of' - collection of food."
             },
             {
-              "text": "—",
+              "text": "from",
               "isCorrect": false,
               "explanationBn": "(d) 'of' - খাদ্য সংগ্রহ।",
               "explanationEn": "(d) 'of' - collection of food."
             },
             {
-              "text": "—",
+              "text": "to",
               "isCorrect": false,
               "explanationBn": "(d) 'of' - খাদ্য সংগ্রহ।",
               "explanationEn": "(d) 'of' - collection of food."
             },
             {
-              "text": "—",
+              "text": "between",
               "isCorrect": false,
               "explanationBn": "(d) 'of' - খাদ্য সংগ্রহ।",
               "explanationEn": "(d) 'of' - collection of food."
@@ -7700,19 +7700,19 @@
               "explanationEn": "(e) 'to' - in order to hunt."
             },
             {
-              "text": "—",
+              "text": "for",
               "isCorrect": false,
               "explanationBn": "(e) 'to' - শিকার করার জন্য।",
               "explanationEn": "(e) 'to' - in order to hunt."
             },
             {
-              "text": "—",
+              "text": "in",
               "isCorrect": false,
               "explanationBn": "(e) 'to' - শিকার করার জন্য।",
               "explanationEn": "(e) 'to' - in order to hunt."
             },
             {
-              "text": "—",
+              "text": "at",
               "isCorrect": false,
               "explanationBn": "(e) 'to' - শিকার করার জন্য।",
               "explanationEn": "(e) 'to' - in order to hunt."
@@ -7730,19 +7730,19 @@
               "explanationEn": "(f) 'to' - how to grow plants."
             },
             {
-              "text": "—",
+              "text": "through",
               "isCorrect": false,
               "explanationBn": "(f) 'to' - কীভাবে উদ্ভিদ জন্মাতে হয়।",
               "explanationEn": "(f) 'to' - how to grow plants."
             },
             {
-              "text": "—",
+              "text": "into",
               "isCorrect": false,
               "explanationBn": "(f) 'to' - কীভাবে উদ্ভিদ জন্মাতে হয়।",
               "explanationEn": "(f) 'to' - how to grow plants."
             },
             {
-              "text": "—",
+              "text": "without",
               "isCorrect": false,
               "explanationBn": "(f) 'to' - কীভাবে উদ্ভিদ জন্মাতে হয়।",
               "explanationEn": "(f) 'to' - how to grow plants."
@@ -7760,19 +7760,19 @@
               "explanationEn": "(g) 'agriculture' - farming."
             },
             {
-              "text": "—",
+              "text": "see",
               "isCorrect": false,
               "explanationBn": "(g) 'agriculture' - কৃষি।",
               "explanationEn": "(g) 'agriculture' - farming."
             },
             {
-              "text": "—",
+              "text": "necessary",
               "isCorrect": false,
               "explanationBn": "(g) 'agriculture' - কৃষি।",
               "explanationEn": "(g) 'agriculture' - farming."
             },
             {
-              "text": "—",
+              "text": "get",
               "isCorrect": false,
               "explanationBn": "(g) 'agriculture' - কৃষি।",
               "explanationEn": "(g) 'agriculture' - farming."
@@ -7790,19 +7790,19 @@
               "explanationEn": "(h) 'beside' - next to his cornfields."
             },
             {
-              "text": "—",
+              "text": "in",
               "isCorrect": false,
               "explanationBn": "(h) 'beside' - তার ধানের ক্ষেতের পাশে।",
               "explanationEn": "(h) 'beside' - next to his cornfields."
             },
             {
-              "text": "—",
+              "text": "to",
               "isCorrect": false,
               "explanationBn": "(h) 'beside' - তার ধানের ক্ষেতের পাশে।",
               "explanationEn": "(h) 'beside' - next to his cornfields."
             },
             {
-              "text": "—",
+              "text": "with",
               "isCorrect": false,
               "explanationBn": "(h) 'beside' - তার ধানের ক্ষেতের পাশে।",
               "explanationEn": "(h) 'beside' - next to his cornfields."
@@ -7820,19 +7820,19 @@
               "explanationEn": "(i) 'with' - engaged with/in."
             },
             {
-              "text": "—",
+              "text": "of",
               "isCorrect": false,
               "explanationBn": "(i) 'with' - খাদ্যে ভেজালের সাথে জড়িত।",
               "explanationEn": "(i) 'with' - engaged with/in."
             },
             {
-              "text": "—",
+              "text": "from",
               "isCorrect": false,
               "explanationBn": "(i) 'with' - খাদ্যে ভেজালের সাথে জড়িত।",
               "explanationEn": "(i) 'with' - engaged with/in."
             },
             {
-              "text": "—",
+              "text": "about",
               "isCorrect": false,
               "explanationBn": "(i) 'with' - খাদ্যে ভেজালের সাথে জড়িত।",
               "explanationEn": "(i) 'with' - engaged with/in."
@@ -7850,19 +7850,19 @@
               "explanationEn": "(j) 'an' - an outside food item."
             },
             {
-              "text": "—",
+              "text": "some",
               "isCorrect": false,
               "explanationBn": "(j) 'an' - বাইরের খাবার।",
               "explanationEn": "(j) 'an' - an outside food item."
             },
             {
-              "text": "—",
+              "text": "any",
               "isCorrect": false,
               "explanationBn": "(j) 'an' - বাইরের খাবার।",
               "explanationEn": "(j) 'an' - an outside food item."
             },
             {
-              "text": "—",
+              "text": "a",
               "isCorrect": false,
               "explanationBn": "(j) 'an' - বাইরের খাবার।",
               "explanationEn": "(j) 'an' - an outside food item."
@@ -7888,19 +7888,19 @@
               "explanationEn": "(a) 'carefully' - with caution."
             },
             {
-              "text": "—",
+              "text": "just",
               "isCorrect": false,
               "explanationBn": "(a) 'carefully' - সাবধানে।",
               "explanationEn": "(a) 'carefully' - with caution."
             },
             {
-              "text": "—",
+              "text": "so",
               "isCorrect": false,
               "explanationBn": "(a) 'carefully' - সাবধানে।",
               "explanationEn": "(a) 'carefully' - with caution."
             },
             {
-              "text": "—",
+              "text": "often",
               "isCorrect": false,
               "explanationBn": "(a) 'carefully' - সাবধানে।",
               "explanationEn": "(a) 'carefully' - with caution."
@@ -7918,19 +7918,19 @@
               "explanationEn": "(b) 'at' - at great speed."
             },
             {
-              "text": "—",
+              "text": "under",
               "isCorrect": false,
               "explanationBn": "(b) 'at' - দ্রুত গতিতে।",
               "explanationEn": "(b) 'at' - at great speed."
             },
             {
-              "text": "—",
+              "text": "among",
               "isCorrect": false,
               "explanationBn": "(b) 'at' - দ্রুত গতিতে।",
               "explanationEn": "(b) 'at' - at great speed."
             },
             {
-              "text": "—",
+              "text": "into",
               "isCorrect": false,
               "explanationBn": "(b) 'at' - দ্রুত গতিতে।",
               "explanationEn": "(b) 'at' - at great speed."
@@ -7948,19 +7948,19 @@
               "explanationEn": "(c) 'for' - waited for the signal."
             },
             {
-              "text": "—",
+              "text": "to",
               "isCorrect": false,
               "explanationBn": "(c) 'for' - সিগন্যালের জন্য অপেক্ষা।",
               "explanationEn": "(c) 'for' - waited for the signal."
             },
             {
-              "text": "—",
+              "text": "beside",
               "isCorrect": false,
               "explanationBn": "(c) 'for' - সিগন্যালের জন্য অপেক্ষা।",
               "explanationEn": "(c) 'for' - waited for the signal."
             },
             {
-              "text": "—",
+              "text": "in",
               "isCorrect": false,
               "explanationBn": "(c) 'for' - সিগন্যালের জন্য অপেক্ষা।",
               "explanationEn": "(c) 'for' - waited for the signal."
@@ -7978,19 +7978,19 @@
               "explanationEn": "(d) 'at' - at the corner."
             },
             {
-              "text": "—",
+              "text": "to",
               "isCorrect": false,
               "explanationBn": "(d) 'at' - মোড়ে।",
               "explanationEn": "(d) 'at' - at the corner."
             },
             {
-              "text": "—",
+              "text": "for",
               "isCorrect": false,
               "explanationBn": "(d) 'at' - মোড়ে।",
               "explanationEn": "(d) 'at' - at the corner."
             },
             {
-              "text": "—",
+              "text": "into",
               "isCorrect": false,
               "explanationBn": "(d) 'at' - মোড়ে।",
               "explanationEn": "(d) 'at' - at the corner."
@@ -8008,19 +8008,19 @@
               "explanationEn": "(e) 'an' - before vowel sound 'orange'."
             },
             {
-              "text": "—",
+              "text": "some",
               "isCorrect": false,
               "explanationBn": "(e) 'an' - কমলা রঙের ইউনিফর্ম।",
               "explanationEn": "(e) 'an' - before vowel sound 'orange'."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(e) 'an' - কমলা রঙের ইউনিফর্ম।",
               "explanationEn": "(e) 'an' - before vowel sound 'orange'."
             },
             {
-              "text": "—",
+              "text": "a",
               "isCorrect": false,
               "explanationBn": "(e) 'an' - কমলা রঙের ইউনিফর্ম।",
               "explanationEn": "(e) 'an' - before vowel sound 'orange'."
@@ -8038,19 +8038,19 @@
               "explanationEn": "(f) 'walking' - moving on foot."
             },
             {
-              "text": "—",
+              "text": "successful",
               "isCorrect": false,
               "explanationBn": "(f) 'walking' - হাঁটছিল।",
               "explanationEn": "(f) 'walking' - moving on foot."
             },
             {
-              "text": "—",
+              "text": "home",
               "isCorrect": false,
               "explanationBn": "(f) 'walking' - হাঁটছিল।",
               "explanationEn": "(f) 'walking' - moving on foot."
             },
             {
-              "text": "—",
+              "text": "woman",
               "isCorrect": false,
               "explanationBn": "(f) 'walking' - হাঁটছিল।",
               "explanationEn": "(f) 'walking' - moving on foot."
@@ -8068,19 +8068,19 @@
               "explanationEn": "(g) 'reach' - get to/catch the bus."
             },
             {
-              "text": "—",
+              "text": "see",
               "isCorrect": false,
               "explanationBn": "(g) 'reach' - বাসে পৌঁছানো।",
               "explanationEn": "(g) 'reach' - get to/catch the bus."
             },
             {
-              "text": "—",
+              "text": "happy",
               "isCorrect": false,
               "explanationBn": "(g) 'reach' - বাসে পৌঁছানো।",
               "explanationEn": "(g) 'reach' - get to/catch the bus."
             },
             {
-              "text": "—",
+              "text": "start",
               "isCorrect": false,
               "explanationBn": "(g) 'reach' - বাসে পৌঁছানো।",
               "explanationEn": "(g) 'reach' - get to/catch the bus."
@@ -8098,19 +8098,19 @@
               "explanationEn": "(h) 'an' - an old man."
             },
             {
-              "text": "—",
+              "text": "the",
               "isCorrect": false,
               "explanationBn": "(h) 'an' - একজন বৃদ্ধ।",
               "explanationEn": "(h) 'an' - an old man."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(h) 'an' - একজন বৃদ্ধ।",
               "explanationEn": "(h) 'an' - an old man."
             },
             {
-              "text": "—",
+              "text": "some",
               "isCorrect": false,
               "explanationBn": "(h) 'an' - একজন বৃদ্ধ।",
               "explanationEn": "(h) 'an' - an old man."
@@ -8128,19 +8128,19 @@
               "explanationEn": "(i) 'a' - a busy morning."
             },
             {
-              "text": "—",
+              "text": "an",
               "isCorrect": false,
               "explanationBn": "(i) 'a' - একটি ব্যস্ত সকাল।",
               "explanationEn": "(i) 'a' - a busy morning."
             },
             {
-              "text": "—",
+              "text": "the",
               "isCorrect": false,
               "explanationBn": "(i) 'a' - একটি ব্যস্ত সকাল।",
               "explanationEn": "(i) 'a' - a busy morning."
             },
             {
-              "text": "—",
+              "text": "any",
               "isCorrect": false,
               "explanationBn": "(i) 'a' - একটি ব্যস্ত সকাল।",
               "explanationEn": "(i) 'a' - a busy morning."
@@ -8158,19 +8158,19 @@
               "explanationEn": "(j) 'Finally' - at last/eventually."
             },
             {
-              "text": "—",
+              "text": "That",
               "isCorrect": false,
               "explanationBn": "(j) 'Finally' - অবশেষে।",
               "explanationEn": "(j) 'Finally' - at last/eventually."
             },
             {
-              "text": "—",
+              "text": "Once",
               "isCorrect": false,
               "explanationBn": "(j) 'Finally' - অবশেষে।",
               "explanationEn": "(j) 'Finally' - at last/eventually."
             },
             {
-              "text": "—",
+              "text": "These",
               "isCorrect": false,
               "explanationBn": "(j) 'Finally' - অবশেষে।",
               "explanationEn": "(j) 'Finally' - at last/eventually."
@@ -8196,19 +8196,19 @@
               "explanationEn": "(a) 'for' - looking for food."
             },
             {
-              "text": "—",
+              "text": "through",
               "isCorrect": false,
               "explanationBn": "(a) 'for' - খাবারের সন্ধানে।",
               "explanationEn": "(a) 'for' - looking for food."
             },
             {
-              "text": "—",
+              "text": "at",
               "isCorrect": false,
               "explanationBn": "(a) 'for' - খাবারের সন্ধানে।",
               "explanationEn": "(a) 'for' - looking for food."
             },
             {
-              "text": "—",
+              "text": "over",
               "isCorrect": false,
               "explanationBn": "(a) 'for' - খাবারের সন্ধানে।",
               "explanationEn": "(a) 'for' - looking for food."
@@ -8226,19 +8226,19 @@
               "explanationEn": "(b) 'saw' - noticed with eyes."
             },
             {
-              "text": "—",
+              "text": "house",
               "isCorrect": false,
               "explanationBn": "(b) 'saw' - দেখল।",
               "explanationEn": "(b) 'saw' - noticed with eyes."
             },
             {
-              "text": "—",
+              "text": "need",
               "isCorrect": false,
               "explanationBn": "(b) 'saw' - দেখল।",
               "explanationEn": "(b) 'saw' - noticed with eyes."
             },
             {
-              "text": "—",
+              "text": "sad",
               "isCorrect": false,
               "explanationBn": "(b) 'saw' - দেখল।",
               "explanationEn": "(b) 'saw' - noticed with eyes."
@@ -8256,19 +8256,19 @@
               "explanationEn": "(c) 'on' - on a tree."
             },
             {
-              "text": "—",
+              "text": "by",
               "isCorrect": false,
               "explanationBn": "(c) 'on' - গাছে।",
               "explanationEn": "(c) 'on' - on a tree."
             },
             {
-              "text": "—",
+              "text": "at",
               "isCorrect": false,
               "explanationBn": "(c) 'on' - গাছে।",
               "explanationEn": "(c) 'on' - on a tree."
             },
             {
-              "text": "—",
+              "text": "into",
               "isCorrect": false,
               "explanationBn": "(c) 'on' - গাছে।",
               "explanationEn": "(c) 'on' - on a tree."
@@ -8286,19 +8286,19 @@
               "explanationEn": "(d) 'juicy' - full of juice."
             },
             {
-              "text": "—",
+              "text": "new",
               "isCorrect": false,
               "explanationBn": "(d) 'juicy' - রসালো।",
               "explanationEn": "(d) 'juicy' - full of juice."
             },
             {
-              "text": "—",
+              "text": "day",
               "isCorrect": false,
               "explanationBn": "(d) 'juicy' - রসালো।",
               "explanationEn": "(d) 'juicy' - full of juice."
             },
             {
-              "text": "—",
+              "text": "need",
               "isCorrect": false,
               "explanationBn": "(d) 'juicy' - রসালো।",
               "explanationEn": "(d) 'juicy' - full of juice."
@@ -8316,19 +8316,19 @@
               "explanationEn": "(e) 'but' - shows contrast."
             },
             {
-              "text": "—",
+              "text": "as",
               "isCorrect": false,
               "explanationBn": "(e) 'but' - কিন্তু।",
               "explanationEn": "(e) 'but' - shows contrast."
             },
             {
-              "text": "—",
+              "text": "while",
               "isCorrect": false,
               "explanationBn": "(e) 'but' - কিন্তু।",
               "explanationEn": "(e) 'but' - shows contrast."
             },
             {
-              "text": "—",
+              "text": "when",
               "isCorrect": false,
               "explanationBn": "(e) 'but' - কিন্তু।",
               "explanationEn": "(e) 'but' - shows contrast."
@@ -8346,19 +8346,19 @@
               "explanationEn": "(f) 'again' - once more."
             },
             {
-              "text": "—",
+              "text": "way",
               "isCorrect": false,
               "explanationBn": "(f) 'again' - আবার।",
               "explanationEn": "(f) 'again' - once more."
             },
             {
-              "text": "—",
+              "text": "find",
               "isCorrect": false,
               "explanationBn": "(f) 'again' - আবার।",
               "explanationEn": "(f) 'again' - once more."
             },
             {
-              "text": "—",
+              "text": "man",
               "isCorrect": false,
               "explanationBn": "(f) 'again' - আবার।",
               "explanationEn": "(f) 'again' - once more."
@@ -8376,19 +8376,19 @@
               "explanationEn": "(g) 'These' - plural of this."
             },
             {
-              "text": "—",
+              "text": "An",
               "isCorrect": false,
               "explanationBn": "(g) 'These' - এইগুলো।",
               "explanationEn": "(g) 'These' - plural of this."
             },
             {
-              "text": "—",
+              "text": "Finally",
               "isCorrect": false,
               "explanationBn": "(g) 'These' - এইগুলো।",
               "explanationEn": "(g) 'These' - plural of this."
             },
             {
-              "text": "—",
+              "text": "This",
               "isCorrect": false,
               "explanationBn": "(g) 'These' - এইগুলো।",
               "explanationEn": "(g) 'These' - plural of this."
@@ -8406,19 +8406,19 @@
               "explanationEn": "(h) 'away' - walked off/left."
             },
             {
-              "text": "—",
+              "text": "home",
               "isCorrect": false,
               "explanationBn": "(h) 'away' - চলে গেল।",
               "explanationEn": "(h) 'away' - walked off/left."
             },
             {
-              "text": "—",
+              "text": "want",
               "isCorrect": false,
               "explanationBn": "(h) 'away' - চলে গেল।",
               "explanationEn": "(h) 'away' - walked off/left."
             },
             {
-              "text": "—",
+              "text": "beautiful",
               "isCorrect": false,
               "explanationBn": "(h) 'away' - চলে গেল।",
               "explanationEn": "(h) 'away' - walked off/left."
@@ -8436,19 +8436,19 @@
               "explanationEn": "(i) 'a' - one lesson."
             },
             {
-              "text": "—",
+              "text": "the",
               "isCorrect": false,
               "explanationBn": "(i) 'a' - একটি শিক্ষা।",
               "explanationEn": "(i) 'a' - one lesson."
             },
             {
-              "text": "—",
+              "text": "any",
               "isCorrect": false,
               "explanationBn": "(i) 'a' - একটি শিক্ষা।",
               "explanationEn": "(i) 'a' - one lesson."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(i) 'a' - একটি শিক্ষা।",
               "explanationEn": "(i) 'a' - one lesson."
@@ -8466,19 +8466,19 @@
               "explanationEn": "(j) 'should' - advice (should not give up)."
             },
             {
-              "text": "—",
+              "text": "house",
               "isCorrect": false,
               "explanationBn": "(j) 'should' - উচিত নয়।",
               "explanationEn": "(j) 'should' - advice (should not give up)."
             },
             {
-              "text": "—",
+              "text": "big",
               "isCorrect": false,
               "explanationBn": "(j) 'should' - উচিত নয়।",
               "explanationEn": "(j) 'should' - advice (should not give up)."
             },
             {
-              "text": "—",
+              "text": "old",
               "isCorrect": false,
               "explanationBn": "(j) 'should' - উচিত নয়।",
               "explanationEn": "(j) 'should' - advice (should not give up)."
@@ -8504,19 +8504,19 @@
               "explanationEn": "(a) 'visited' - went to see."
             },
             {
-              "text": "—",
+              "text": "find",
               "isCorrect": false,
               "explanationBn": "(a) 'visited' - পরিদর্শন করলাম।",
               "explanationEn": "(a) 'visited' - went to see."
             },
             {
-              "text": "—",
+              "text": "way",
               "isCorrect": false,
               "explanationBn": "(a) 'visited' - পরিদর্শন করলাম।",
               "explanationEn": "(a) 'visited' - went to see."
             },
             {
-              "text": "—",
+              "text": "happy",
               "isCorrect": false,
               "explanationBn": "(a) 'visited' - পরিদর্শন করলাম।",
               "explanationEn": "(a) 'visited' - went to see."
@@ -8534,19 +8534,19 @@
               "explanationEn": "(b) 'of' - full of people."
             },
             {
-              "text": "—",
+              "text": "into",
               "isCorrect": false,
               "explanationBn": "(b) 'of' - লোকেদের ভিড়।",
               "explanationEn": "(b) 'of' - full of people."
             },
             {
-              "text": "—",
+              "text": "by",
               "isCorrect": false,
               "explanationBn": "(b) 'of' - লোকেদের ভিড়।",
               "explanationEn": "(b) 'of' - full of people."
             },
             {
-              "text": "—",
+              "text": "under",
               "isCorrect": false,
               "explanationBn": "(b) 'of' - লোকেদের ভিড়।",
               "explanationEn": "(b) 'of' - full of people."
@@ -8564,19 +8564,19 @@
               "explanationEn": "(c) 'a' - a big Ferris wheel."
             },
             {
-              "text": "—",
+              "text": "an",
               "isCorrect": false,
               "explanationBn": "(c) 'a' - একটি বড় নাগরদোলা।",
               "explanationEn": "(c) 'a' - a big Ferris wheel."
             },
             {
-              "text": "—",
+              "text": "some",
               "isCorrect": false,
               "explanationBn": "(c) 'a' - একটি বড় নাগরদোলা।",
               "explanationEn": "(c) 'a' - a big Ferris wheel."
             },
             {
-              "text": "—",
+              "text": "any",
               "isCorrect": false,
               "explanationBn": "(c) 'a' - একটি বড় নাগরদোলা।",
               "explanationEn": "(c) 'a' - a big Ferris wheel."
@@ -8594,19 +8594,19 @@
               "explanationEn": "(d) 'with' - together with."
             },
             {
-              "text": "—",
+              "text": "by",
               "isCorrect": false,
               "explanationBn": "(d) 'with' - বন্ধুদের সাথে।",
               "explanationEn": "(d) 'with' - together with."
             },
             {
-              "text": "—",
+              "text": "under",
               "isCorrect": false,
               "explanationBn": "(d) 'with' - বন্ধুদের সাথে।",
               "explanationEn": "(d) 'with' - together with."
             },
             {
-              "text": "—",
+              "text": "in",
               "isCorrect": false,
               "explanationBn": "(d) 'with' - বন্ধুদের সাথে।",
               "explanationEn": "(d) 'with' - together with."
@@ -8624,19 +8624,19 @@
               "explanationEn": "(e) 'delicious' - tasty."
             },
             {
-              "text": "—",
+              "text": "way",
               "isCorrect": false,
               "explanationBn": "(e) 'delicious' - সুস্বাদু।",
               "explanationEn": "(e) 'delicious' - tasty."
             },
             {
-              "text": "—",
+              "text": "find",
               "isCorrect": false,
               "explanationBn": "(e) 'delicious' - সুস্বাদু।",
               "explanationEn": "(e) 'delicious' - tasty."
             },
             {
-              "text": "—",
+              "text": "beautiful",
               "isCorrect": false,
               "explanationBn": "(e) 'delicious' - সুস্বাদু।",
               "explanationEn": "(e) 'delicious' - tasty."
@@ -8654,19 +8654,19 @@
               "explanationEn": "(f) 'ate' - consumed."
             },
             {
-              "text": "—",
+              "text": "go",
               "isCorrect": false,
               "explanationBn": "(f) 'ate' - খেলাম।",
               "explanationEn": "(f) 'ate' - consumed."
             },
             {
-              "text": "—",
+              "text": "come",
               "isCorrect": false,
               "explanationBn": "(f) 'ate' - খেলাম।",
               "explanationEn": "(f) 'ate' - consumed."
             },
             {
-              "text": "—",
+              "text": "way",
               "isCorrect": false,
               "explanationBn": "(f) 'ate' - খেলাম।",
               "explanationEn": "(f) 'ate' - consumed."
@@ -8684,19 +8684,19 @@
               "explanationEn": "(g) 'very' - extremely."
             },
             {
-              "text": "—",
+              "text": "life",
               "isCorrect": false,
               "explanationBn": "(g) 'very' - খুব মিষ্টি।",
               "explanationEn": "(g) 'very' - extremely."
             },
             {
-              "text": "—",
+              "text": "sad",
               "isCorrect": false,
               "explanationBn": "(g) 'very' - খুব মিষ্টি।",
               "explanationEn": "(g) 'very' - extremely."
             },
             {
-              "text": "—",
+              "text": "time",
               "isCorrect": false,
               "explanationBn": "(g) 'very' - খুব মিষ্টি।",
               "explanationEn": "(g) 'very' - extremely."
@@ -8714,19 +8714,19 @@
               "explanationEn": "(h) 'bought' - purchased."
             },
             {
-              "text": "—",
+              "text": "start",
               "isCorrect": false,
               "explanationBn": "(h) 'bought' - কিনলেন।",
               "explanationEn": "(h) 'bought' - purchased."
             },
             {
-              "text": "—",
+              "text": "keep",
               "isCorrect": false,
               "explanationBn": "(h) 'bought' - কিনলেন।",
               "explanationEn": "(h) 'bought' - purchased."
             },
             {
-              "text": "—",
+              "text": "sure",
               "isCorrect": false,
               "explanationBn": "(h) 'bought' - কিনলেন।",
               "explanationEn": "(h) 'bought' - purchased."
@@ -8744,19 +8744,19 @@
               "explanationEn": "(i) 'a' - a joyful day."
             },
             {
-              "text": "—",
+              "text": "the",
               "isCorrect": false,
               "explanationBn": "(i) 'a' - একটি আনন্দের দিন।",
               "explanationEn": "(i) 'a' - a joyful day."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(i) 'a' - একটি আনন্দের দিন।",
               "explanationEn": "(i) 'a' - a joyful day."
             },
             {
-              "text": "—",
+              "text": "an",
               "isCorrect": false,
               "explanationBn": "(i) 'a' - একটি আনন্দের দিন।",
               "explanationEn": "(i) 'a' - a joyful day."
@@ -8774,19 +8774,19 @@
               "explanationEn": "(j) 'very' - very much."
             },
             {
-              "text": "—",
+              "text": "small",
               "isCorrect": false,
               "explanationBn": "(j) 'very' - খুব বেশি।",
               "explanationEn": "(j) 'very' - very much."
             },
             {
-              "text": "—",
+              "text": "see",
               "isCorrect": false,
               "explanationBn": "(j) 'very' - খুব বেশি।",
               "explanationEn": "(j) 'very' - very much."
             },
             {
-              "text": "—",
+              "text": "new",
               "isCorrect": false,
               "explanationBn": "(j) 'very' - খুব বেশি।",
               "explanationEn": "(j) 'very' - very much."
@@ -8812,19 +8812,19 @@
               "explanationEn": "(a) 'in' - in the morning."
             },
             {
-              "text": "—",
+              "text": "on",
               "isCorrect": false,
               "explanationBn": "(a) 'in' - সকালে।",
               "explanationEn": "(a) 'in' - in the morning."
             },
             {
-              "text": "—",
+              "text": "beside",
               "isCorrect": false,
               "explanationBn": "(a) 'in' - সকালে।",
               "explanationEn": "(a) 'in' - in the morning."
             },
             {
-              "text": "—",
+              "text": "about",
               "isCorrect": false,
               "explanationBn": "(a) 'in' - সকালে।",
               "explanationEn": "(a) 'in' - in the morning."
@@ -8842,19 +8842,19 @@
               "explanationEn": "(b) 'walk' - a stroll."
             },
             {
-              "text": "—",
+              "text": "important",
               "isCorrect": false,
               "explanationBn": "(b) 'walk' - হাঁটতে যাই।",
               "explanationEn": "(b) 'walk' - a stroll."
             },
             {
-              "text": "—",
+              "text": "day",
               "isCorrect": false,
               "explanationBn": "(b) 'walk' - হাঁটতে যাই।",
               "explanationEn": "(b) 'walk' - a stroll."
             },
             {
-              "text": "—",
+              "text": "world",
               "isCorrect": false,
               "explanationBn": "(b) 'walk' - হাঁটতে যাই।",
               "explanationEn": "(b) 'walk' - a stroll."
@@ -8872,19 +8872,19 @@
               "explanationEn": "(c) 'cool' - pleasantly cold."
             },
             {
-              "text": "—",
+              "text": "useful",
               "isCorrect": false,
               "explanationBn": "(c) 'cool' - ঠান্ডা।",
               "explanationEn": "(c) 'cool' - pleasantly cold."
             },
             {
-              "text": "—",
+              "text": "give",
               "isCorrect": false,
               "explanationBn": "(c) 'cool' - ঠান্ডা।",
               "explanationEn": "(c) 'cool' - pleasantly cold."
             },
             {
-              "text": "—",
+              "text": "good",
               "isCorrect": false,
               "explanationBn": "(c) 'cool' - ঠান্ডা।",
               "explanationEn": "(c) 'cool' - pleasantly cold."
@@ -8902,19 +8902,19 @@
               "explanationEn": "(d) 'on' - on the trees."
             },
             {
-              "text": "—",
+              "text": "under",
               "isCorrect": false,
               "explanationBn": "(d) 'on' - গাছে।",
               "explanationEn": "(d) 'on' - on the trees."
             },
             {
-              "text": "—",
+              "text": "by",
               "isCorrect": false,
               "explanationBn": "(d) 'on' - গাছে।",
               "explanationEn": "(d) 'on' - on the trees."
             },
             {
-              "text": "—",
+              "text": "of",
               "isCorrect": false,
               "explanationBn": "(d) 'on' - গাছে।",
               "explanationEn": "(d) 'on' - on the trees."
@@ -8932,19 +8932,19 @@
               "explanationEn": "(e) 'for' - duration of time."
             },
             {
-              "text": "—",
+              "text": "over",
               "isCorrect": false,
               "explanationBn": "(e) 'for' - ত্রিশ মিনিট ধরে।",
               "explanationEn": "(e) 'for' - duration of time."
             },
             {
-              "text": "—",
+              "text": "by",
               "isCorrect": false,
               "explanationBn": "(e) 'for' - ত্রিশ মিনিট ধরে।",
               "explanationEn": "(e) 'for' - duration of time."
             },
             {
-              "text": "—",
+              "text": "beside",
               "isCorrect": false,
               "explanationBn": "(e) 'for' - ত্রিশ মিনিট ধরে।",
               "explanationEn": "(e) 'for' - duration of time."
@@ -8962,19 +8962,19 @@
               "explanationEn": "(f) 'walks' - takes a walk."
             },
             {
-              "text": "—",
+              "text": "help",
               "isCorrect": false,
               "explanationBn": "(f) 'walks' - হাঁটেন।",
               "explanationEn": "(f) 'walks' - takes a walk."
             },
             {
-              "text": "—",
+              "text": "take",
               "isCorrect": false,
               "explanationBn": "(f) 'walks' - হাঁটেন।",
               "explanationEn": "(f) 'walks' - takes a walk."
             },
             {
-              "text": "—",
+              "text": "make",
               "isCorrect": false,
               "explanationBn": "(f) 'walks' - হাঁটেন।",
               "explanationEn": "(f) 'walks' - takes a walk."
@@ -8992,19 +8992,19 @@
               "explanationEn": "(g) 'stories' - narratives/tales."
             },
             {
-              "text": "—",
+              "text": "take",
               "isCorrect": false,
               "explanationBn": "(g) 'stories' - গল্প।",
               "explanationEn": "(g) 'stories' - narratives/tales."
             },
             {
-              "text": "—",
+              "text": "make",
               "isCorrect": false,
               "explanationBn": "(g) 'stories' - গল্প।",
               "explanationEn": "(g) 'stories' - narratives/tales."
             },
             {
-              "text": "—",
+              "text": "leave",
               "isCorrect": false,
               "explanationBn": "(g) 'stories' - গল্প।",
               "explanationEn": "(g) 'stories' - narratives/tales."
@@ -9022,19 +9022,19 @@
               "explanationEn": "(h) 'healthy' - fit and well."
             },
             {
-              "text": "—",
+              "text": "live",
               "isCorrect": false,
               "explanationBn": "(h) 'healthy' - সুস্থ।",
               "explanationEn": "(h) 'healthy' - fit and well."
             },
             {
-              "text": "—",
+              "text": "bad",
               "isCorrect": false,
               "explanationBn": "(h) 'healthy' - সুস্থ।",
               "explanationEn": "(h) 'healthy' - fit and well."
             },
             {
-              "text": "—",
+              "text": "happy",
               "isCorrect": false,
               "explanationBn": "(h) 'healthy' - সুস্থ।",
               "explanationEn": "(h) 'healthy' - fit and well."
@@ -9052,19 +9052,19 @@
               "explanationEn": "(i) 'very' - extremely happy."
             },
             {
-              "text": "—",
+              "text": "take",
               "isCorrect": false,
               "explanationBn": "(i) 'very' - খুব খুশি।",
               "explanationEn": "(i) 'very' - extremely happy."
             },
             {
-              "text": "—",
+              "text": "make",
               "isCorrect": false,
               "explanationBn": "(i) 'very' - খুব খুশি।",
               "explanationEn": "(i) 'very' - extremely happy."
             },
             {
-              "text": "—",
+              "text": "necessary",
               "isCorrect": false,
               "explanationBn": "(i) 'very' - খুব খুশি।",
               "explanationEn": "(i) 'very' - extremely happy."
@@ -9082,19 +9082,19 @@
               "explanationEn": "(j) 'a' - a good habit."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(j) 'a' - একটি ভালো অভ্যাস।",
               "explanationEn": "(j) 'a' - a good habit."
             },
             {
-              "text": "—",
+              "text": "an",
               "isCorrect": false,
               "explanationBn": "(j) 'a' - একটি ভালো অভ্যাস।",
               "explanationEn": "(j) 'a' - a good habit."
             },
             {
-              "text": "—",
+              "text": "the",
               "isCorrect": false,
               "explanationBn": "(j) 'a' - একটি ভালো অভ্যাস।",
               "explanationEn": "(j) 'a' - a good habit."
@@ -9120,19 +9120,19 @@
               "explanationEn": "(a) 'virtue' - good quality."
             },
             {
-              "text": "—",
+              "text": "need",
               "isCorrect": false,
               "explanationBn": "(a) 'virtue' - গুণ।",
               "explanationEn": "(a) 'virtue' - good quality."
             },
             {
-              "text": "—",
+              "text": "start",
               "isCorrect": false,
               "explanationBn": "(a) 'virtue' - গুণ।",
               "explanationEn": "(a) 'virtue' - good quality."
             },
             {
-              "text": "—",
+              "text": "get",
               "isCorrect": false,
               "explanationBn": "(a) 'virtue' - গুণ।",
               "explanationEn": "(a) 'virtue' - good quality."
@@ -9150,19 +9150,19 @@
               "explanationEn": "(b) 'is' - present tense verb."
             },
             {
-              "text": "—",
+              "text": "time",
               "isCorrect": false,
               "explanationBn": "(b) 'is' - হয়।",
               "explanationEn": "(b) 'is' - present tense verb."
             },
             {
-              "text": "—",
+              "text": "way",
               "isCorrect": false,
               "explanationBn": "(b) 'is' - হয়।",
               "explanationEn": "(b) 'is' - present tense verb."
             },
             {
-              "text": "—",
+              "text": "get",
               "isCorrect": false,
               "explanationBn": "(b) 'is' - হয়।",
               "explanationEn": "(b) 'is' - present tense verb."
@@ -9180,19 +9180,19 @@
               "explanationEn": "(c) 'adopts' - uses/takes up."
             },
             {
-              "text": "—",
+              "text": "want",
               "isCorrect": false,
               "explanationBn": "(c) 'adopts' - গ্রহণ করে।",
               "explanationEn": "(c) 'adopts' - uses/takes up."
             },
             {
-              "text": "—",
+              "text": "man",
               "isCorrect": false,
               "explanationBn": "(c) 'adopts' - গ্রহণ করে।",
               "explanationEn": "(c) 'adopts' - uses/takes up."
             },
             {
-              "text": "—",
+              "text": "start",
               "isCorrect": false,
               "explanationBn": "(c) 'adopts' - গ্রহণ করে।",
               "explanationEn": "(c) 'adopts' - uses/takes up."
@@ -9210,19 +9210,19 @@
               "explanationEn": "(d) 'achieving' - reaching a goal."
             },
             {
-              "text": "—",
+              "text": "old",
               "isCorrect": false,
               "explanationBn": "(d) 'achieving' - অর্জন করা।",
               "explanationEn": "(d) 'achieving' - reaching a goal."
             },
             {
-              "text": "—",
+              "text": "get",
               "isCorrect": false,
               "explanationBn": "(d) 'achieving' - অর্জন করা।",
               "explanationEn": "(d) 'achieving' - reaching a goal."
             },
             {
-              "text": "—",
+              "text": "find",
               "isCorrect": false,
               "explanationBn": "(d) 'achieving' - অর্জন করা।",
               "explanationEn": "(d) 'achieving' - reaching a goal."
@@ -9240,19 +9240,19 @@
               "explanationEn": "(e) 'In' - preposition of place."
             },
             {
-              "text": "—",
+              "text": "Finally",
               "isCorrect": false,
               "explanationBn": "(e) 'In' - মধ্যে।",
               "explanationEn": "(e) 'In' - preposition of place."
             },
             {
-              "text": "—",
+              "text": "An",
               "isCorrect": false,
               "explanationBn": "(e) 'In' - মধ্যে।",
               "explanationEn": "(e) 'In' - preposition of place."
             },
             {
-              "text": "—",
+              "text": "The",
               "isCorrect": false,
               "explanationBn": "(e) 'In' - মধ্যে।",
               "explanationEn": "(e) 'In' - preposition of place."
@@ -9270,19 +9270,19 @@
               "explanationEn": "(f) 'a' - indefinite article."
             },
             {
-              "text": "—",
+              "text": "some",
               "isCorrect": false,
               "explanationBn": "(f) 'a' - একটি।",
               "explanationEn": "(f) 'a' - indefinite article."
             },
             {
-              "text": "—",
+              "text": "the",
               "isCorrect": false,
               "explanationBn": "(f) 'a' - একটি।",
               "explanationEn": "(f) 'a' - indefinite article."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(f) 'a' - একটি।",
               "explanationEn": "(f) 'a' - indefinite article."
@@ -9300,19 +9300,19 @@
               "explanationEn": "(g) 'An' - used before 'honest' (vowel sound)."
             },
             {
-              "text": "—",
+              "text": "Finally",
               "isCorrect": false,
               "explanationBn": "(g) 'An' - একজন (স্বরবর্ণের আগে)।",
               "explanationEn": "(g) 'An' - used before 'honest' (vowel sound)."
             },
             {
-              "text": "—",
+              "text": "These",
               "isCorrect": false,
               "explanationBn": "(g) 'An' - একজন (স্বরবর্ণের আগে)।",
               "explanationEn": "(g) 'An' - used before 'honest' (vowel sound)."
             },
             {
-              "text": "—",
+              "text": "Once",
               "isCorrect": false,
               "explanationBn": "(g) 'An' - একজন (স্বরবর্ণের আগে)।",
               "explanationEn": "(g) 'An' - used before 'honest' (vowel sound)."
@@ -9330,19 +9330,19 @@
               "explanationEn": "(h) 'but' - contrast conjunction."
             },
             {
-              "text": "—",
+              "text": "while",
               "isCorrect": false,
               "explanationBn": "(h) 'but' - কিন্তু।",
               "explanationEn": "(h) 'but' - contrast conjunction."
             },
             {
-              "text": "—",
+              "text": "and",
               "isCorrect": false,
               "explanationBn": "(h) 'but' - কিন্তু।",
               "explanationEn": "(h) 'but' - contrast conjunction."
             },
             {
-              "text": "—",
+              "text": "when",
               "isCorrect": false,
               "explanationBn": "(h) 'but' - কিন্তু।",
               "explanationEn": "(h) 'but' - contrast conjunction."
@@ -9360,19 +9360,19 @@
               "explanationEn": "(i) 'try' - attempt."
             },
             {
-              "text": "—",
+              "text": "day",
               "isCorrect": false,
               "explanationBn": "(i) 'try' - চেষ্টা করা।",
               "explanationEn": "(i) 'try' - attempt."
             },
             {
-              "text": "—",
+              "text": "bad",
               "isCorrect": false,
               "explanationBn": "(i) 'try' - চেষ্টা করা।",
               "explanationEn": "(i) 'try' - attempt."
             },
             {
-              "text": "—",
+              "text": "small",
               "isCorrect": false,
               "explanationBn": "(i) 'try' - চেষ্টা করা।",
               "explanationEn": "(i) 'try' - attempt."
@@ -9390,19 +9390,19 @@
               "explanationEn": "(j) 'means' - methods."
             },
             {
-              "text": "—",
+              "text": "successful",
               "isCorrect": false,
               "explanationBn": "(j) 'means' - উপায়।",
               "explanationEn": "(j) 'means' - methods."
             },
             {
-              "text": "—",
+              "text": "give",
               "isCorrect": false,
               "explanationBn": "(j) 'means' - উপায়।",
               "explanationEn": "(j) 'means' - methods."
             },
             {
-              "text": "—",
+              "text": "do",
               "isCorrect": false,
               "explanationBn": "(j) 'means' - উপায়।",
               "explanationEn": "(j) 'means' - methods."
@@ -9428,19 +9428,19 @@
               "explanationEn": "(a) 'stole' - took without permission."
             },
             {
-              "text": "—",
+              "text": "give",
               "isCorrect": false,
               "explanationBn": "(a) 'stole' - চুরি করল।",
               "explanationEn": "(a) 'stole' - took without permission."
             },
             {
-              "text": "—",
+              "text": "use",
               "isCorrect": false,
               "explanationBn": "(a) 'stole' - চুরি করল।",
               "explanationEn": "(a) 'stole' - took without permission."
             },
             {
-              "text": "—",
+              "text": "way",
               "isCorrect": false,
               "explanationBn": "(a) 'stole' - চুরি করল।",
               "explanationEn": "(a) 'stole' - took without permission."
@@ -9458,19 +9458,19 @@
               "explanationEn": "(b) 'of' - share of the cake."
             },
             {
-              "text": "—",
+              "text": "by",
               "isCorrect": false,
               "explanationBn": "(b) 'of' - কেকের অংশ।",
               "explanationEn": "(b) 'of' - share of the cake."
             },
             {
-              "text": "—",
+              "text": "under",
               "isCorrect": false,
               "explanationBn": "(b) 'of' - কেকের অংশ।",
               "explanationEn": "(b) 'of' - share of the cake."
             },
             {
-              "text": "—",
+              "text": "without",
               "isCorrect": false,
               "explanationBn": "(b) 'of' - কেকের অংশ।",
               "explanationEn": "(b) 'of' - share of the cake."
@@ -9488,19 +9488,19 @@
               "explanationEn": "(c) 'agreed' - said yes to."
             },
             {
-              "text": "—",
+              "text": "life",
               "isCorrect": false,
               "explanationBn": "(c) 'agreed' - রাজি হলো।",
               "explanationEn": "(c) 'agreed' - said yes to."
             },
             {
-              "text": "—",
+              "text": "find",
               "isCorrect": false,
               "explanationBn": "(c) 'agreed' - রাজি হলো।",
               "explanationEn": "(c) 'agreed' - said yes to."
             },
             {
-              "text": "—",
+              "text": "make",
               "isCorrect": false,
               "explanationBn": "(c) 'agreed' - রাজি হলো।",
               "explanationEn": "(c) 'agreed' - said yes to."
@@ -9518,19 +9518,19 @@
               "explanationEn": "(d) 'decided' - made a choice."
             },
             {
-              "text": "—",
+              "text": "make",
               "isCorrect": false,
               "explanationBn": "(d) 'decided' - সিদ্ধান্ত নিল।",
               "explanationEn": "(d) 'decided' - made a choice."
             },
             {
-              "text": "—",
+              "text": "do",
               "isCorrect": false,
               "explanationBn": "(d) 'decided' - সিদ্ধান্ত নিল।",
               "explanationEn": "(d) 'decided' - made a choice."
             },
             {
-              "text": "—",
+              "text": "need",
               "isCorrect": false,
               "explanationBn": "(d) 'decided' - সিদ্ধান্ত নিল।",
               "explanationEn": "(d) 'decided' - made a choice."
@@ -9548,19 +9548,19 @@
               "explanationEn": "(e) 'the' - the specific monkey."
             },
             {
-              "text": "—",
+              "text": "an",
               "isCorrect": false,
               "explanationBn": "(e) 'the' - নির্দিষ্ট বানরের কাছে।",
               "explanationEn": "(e) 'the' - the specific monkey."
             },
             {
-              "text": "—",
+              "text": "a",
               "isCorrect": false,
               "explanationBn": "(e) 'the' - নির্দিষ্ট বানরের কাছে।",
               "explanationEn": "(e) 'the' - the specific monkey."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(e) 'the' - নির্দিষ্ট বানরের কাছে।",
               "explanationEn": "(e) 'the' - the specific monkey."
@@ -9578,19 +9578,19 @@
               "explanationEn": "(f) 'a' - one scale."
             },
             {
-              "text": "—",
+              "text": "any",
               "isCorrect": false,
               "explanationBn": "(f) 'a' - একটি দাঁড়িপাল্লা।",
               "explanationEn": "(f) 'a' - one scale."
             },
             {
-              "text": "—",
+              "text": "the",
               "isCorrect": false,
               "explanationBn": "(f) 'a' - একটি দাঁড়িপাল্লা।",
               "explanationEn": "(f) 'a' - one scale."
             },
             {
-              "text": "—",
+              "text": "no",
               "isCorrect": false,
               "explanationBn": "(f) 'a' - একটি দাঁড়িপাল্লা।",
               "explanationEn": "(f) 'a' - one scale."
@@ -9608,19 +9608,19 @@
               "explanationEn": "(g) 'equally' - in equal parts."
             },
             {
-              "text": "—",
+              "text": "very",
               "isCorrect": false,
               "explanationBn": "(g) 'equally' - সমানভাবে।",
               "explanationEn": "(g) 'equally' - in equal parts."
             },
             {
-              "text": "—",
+              "text": "suddenly",
               "isCorrect": false,
               "explanationBn": "(g) 'equally' - সমানভাবে।",
               "explanationEn": "(g) 'equally' - in equal parts."
             },
             {
-              "text": "—",
+              "text": "always",
               "isCorrect": false,
               "explanationBn": "(g) 'equally' - সমানভাবে।",
               "explanationEn": "(g) 'equally' - in equal parts."
@@ -9638,19 +9638,19 @@
               "explanationEn": "(h) 'broken' - separated into pieces."
             },
             {
-              "text": "—",
+              "text": "man",
               "isCorrect": false,
               "explanationBn": "(h) 'broken' - ভাঙা হলো।",
               "explanationEn": "(h) 'broken' - separated into pieces."
             },
             {
-              "text": "—",
+              "text": "big",
               "isCorrect": false,
               "explanationBn": "(h) 'broken' - ভাঙা হলো।",
               "explanationEn": "(h) 'broken' - separated into pieces."
             },
             {
-              "text": "—",
+              "text": "house",
               "isCorrect": false,
               "explanationBn": "(h) 'broken' - ভাঙা হলো।",
               "explanationEn": "(h) 'broken' - separated into pieces."
@@ -9668,19 +9668,19 @@
               "explanationEn": "(i) 'Then' - next/after that."
             },
             {
-              "text": "—",
+              "text": "These",
               "isCorrect": false,
               "explanationBn": "(i) 'Then' - তারপর।",
               "explanationEn": "(i) 'Then' - next/after that."
             },
             {
-              "text": "—",
+              "text": "This",
               "isCorrect": false,
               "explanationBn": "(i) 'Then' - তারপর।",
               "explanationEn": "(i) 'Then' - next/after that."
             },
             {
-              "text": "—",
+              "text": "That",
               "isCorrect": false,
               "explanationBn": "(i) 'Then' - তারপর।",
               "explanationEn": "(i) 'Then' - next/after that."
@@ -9698,19 +9698,19 @@
               "explanationEn": "(j) 'on' - placed on the scales."
             },
             {
-              "text": "—",
+              "text": "in",
               "isCorrect": false,
               "explanationBn": "(j) 'on' - দাঁড়িপাল্লার উপর।",
               "explanationEn": "(j) 'on' - placed on the scales."
             },
             {
-              "text": "—",
+              "text": "by",
               "isCorrect": false,
               "explanationBn": "(j) 'on' - দাঁড়িপাল্লার উপর।",
               "explanationEn": "(j) 'on' - placed on the scales."
             },
             {
-              "text": "—",
+              "text": "for",
               "isCorrect": false,
               "explanationBn": "(j) 'on' - দাঁড়িপাল্লার উপর।",
               "explanationEn": "(j) 'on' - placed on the scales."
@@ -10744,7 +10744,7 @@
               "explanationEn": "(a) 'the' - definite role. (b) 'important' - significant. (c) 'educated' - having received education. (d) 'the' - specific darkness of ignorance. (e) 'of' - indicates relation. (f) 'speaking' - while talking. (g) 'able' - capable. (h) 'attention' - focus. (i) 'speaker' - one who speaks. (j) 'before' - in front of."
             },
             {
-              "text": "Important",
+              "text": "essential",
               "isCorrect": false,
               "explanationBn": "(a) the - নির্দিষ্ট ভূমিকা। (b) important - গুরুত্বপূর্ণ। (c) educated - শিক্ষিত। (d) the - নির্দিষ্ট অন্ধকার। (e) of - সম্পর্ক। (f) speaking - কথা বলার সময়। (g) able - সক্ষম। (h) attention - মনোযোগ। (i) speaker - বক্তা। (j) before - সামনে/সম্মুখে।",
               "explanationEn": "(a) 'the' - definite role. (b) 'important' - significant. (c) 'educated' - having received education. (d) 'the' - specific darkness of ignorance. (e) 'of' - indicates relation. (f) 'speaking' - while talking. (g) 'able' - capable. (h) 'attention' - focus. (i) 'speaker' - one who speaks. (j) 'before' - in front of."
@@ -13184,7 +13184,7 @@
         "and",
         "generally",
         "of",
-        "A"
+        "the"
       ],
       "blanks": [
         {
@@ -14046,7 +14046,7 @@
               "explanationEn": "(a) 'an' is used before 'alarming' (vowel sound). (b) 'polluted' means contaminated. (c) 'the' is definite article. (d) 'throw' means to discard. (e) 'in' indicates location. (f) 'with' indicates mixing. (g) 'through' indicates via. (h) 'All' means every one of. (i) 'for' indicates responsibility. (j) 'aware of' is the correct phrase."
             },
             {
-              "text": "all",
+              "text": "the",
               "isCorrect": false,
               "explanationBn": "(a) an alarming - একটি উদ্বেগজনক। (b) polluted - দূষিত। (c) the mills - নির্দিষ্ট কলকারখানা। (d) throw waste - বর্জ্য ফেলা। (e) in crops - ফসলে। (f) mix with water - পানির সাথে মেশা। (g) leaked through launches - লঞ্চের মাধ্যমে নির্গত। (h) All reasons - সব কারণ। (i) responsible for - জন্য দায়ী। (j) aware of - সচেতন।",
               "explanationEn": "(a) 'an' is used before 'alarming' (vowel sound). (b) 'polluted' means contaminated. (c) 'the' is definite article. (d) 'throw' means to discard. (e) 'in' indicates location. (f) 'with' indicates mixing. (g) 'through' indicates via. (h) 'All' means every one of. (i) 'for' indicates responsibility. (j) 'aware of' is the correct phrase."
@@ -17238,7 +17238,7 @@
         "a",
         "with",
         "neat",
-        "of",
+        "to",
         "night",
         "time",
         "blessing"
@@ -17557,7 +17557,7 @@
         "likes",
         "dislikes",
         "a",
-        "to",
+        "for",
         "at",
         "of",
         "the"
@@ -18165,7 +18165,7 @@
         "name",
         "the",
         "with",
-        "with",
+        "by",
         "happy",
         "doubt",
         "to"
@@ -19407,7 +19407,7 @@
         "from",
         "fatal",
         "to",
-        "from",
+        "by",
         "a",
         "the",
         "work",
@@ -19728,10 +19728,10 @@
         "plants",
         "of",
         "to",
-        "to",
+        "at",
         "agriculture",
         "beside",
-        "in",
+        "on",
         "an"
       ],
       "blanks": [
@@ -20045,12 +20045,12 @@
         "carefully:",
         "at",
         "for",
-        "at",
+        "on",
         "an",
         "walking",
         "reach",
-        "an",
         "a",
+        "the",
         "Finally"
       ],
       "blanks": [
@@ -20688,8 +20688,8 @@
         "ate",
         "very",
         "bought",
-        "a",
-        "very"
+        "an",
+        "so"
       ],
       "blanks": [
         {
@@ -21002,12 +21002,12 @@
         "to",
         "a",
         "on",
-        "on",
+        "in",
         "e",
         "an",
         "over",
         "quiet",
-        "a",
+        "the",
         "again"
       ],
       "blanks": [
@@ -22248,10 +22248,10 @@
         "to",
         "a",
         "under",
-        "a",
+        "the",
         "in",
         "on",
-        "a",
+        "the",
         "bought",
         "bright",
         "again"
@@ -23207,7 +23207,7 @@
         "agreed",
         "decided",
         "a",
-        "a",
+        "an",
         "equally",
         "cut",
         "Then",
