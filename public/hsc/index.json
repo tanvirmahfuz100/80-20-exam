@@ -945,14 +945,9 @@
           "name": "Prepositions",
           "chapters": [
             {
-              "id": "hsc_eng2_prep_1_10",
-              "name": "Preposition (1-10)",
-              "file": "/hsc/english_2nd/preposition_1-10.json"
-            },
-            {
-              "id": "hsc_eng2_prep_11_20",
-              "name": "Preposition (11-20)",
-              "file": "/hsc/english_2nd/preposition_11-20.json"
+              "id": "hsc_eng2_prepositions",
+              "name": "Prepositions (All)",
+              "file": "/hsc/english_2nd/prepositions.json"
             }
           ],
           "name_bn": "Prepositions",
