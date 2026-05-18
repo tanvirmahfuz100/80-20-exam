@@ -18,11 +18,13 @@ import Analytics from './pages/Analytics';
 import Settings from './pages/Settings';
 import Landing from './pages/Landing';
 import Stars from './pages/Stars';
+import { useLowEndDevice } from './hooks';
 import { api } from './services/api';
 import { Graduation } from './components/Illustrations';
 import { playSound, preloadSounds } from './utils/sounds';
 
 function App() {
+  useLowEndDevice();
   return (
     <Router>
       <AuthProvider>
