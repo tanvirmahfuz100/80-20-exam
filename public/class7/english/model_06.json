@@ -79,16 +79,16 @@
         "questions": [
           {
             "id": "1i",
-            "question": "What did one friend leave in the sand after hurting his friend?",
+            "question": "Who hurt Farabi?",
             "options": [
-              "A slap",
-              "A gift",
-              "A message",
-              "A stone"
+              "Flora",
+              "One of his cousins",
+              "Harun",
+              "His teammates"
             ],
-            "correct": 0,
-            "explanation_bn": "এক বন্ধু অপর বন্ধুকে আঘাত করার পর বালিতে একটি চিহ্ন রেখেছিল — একটি চপেটাঘাত।",
-            "explanation_en": "After hurting his friend, one friend left a mark in the sand — a slap."
+            "correct": 2,
+            "explanation_bn": "ফারাবিকে তার বন্ধু হারুন কষ্ট দিয়েছিল।",
+            "explanation_en": "Farabi was hurt by his friend Harun."
           },
           {
             "id": "1ii",

@@ -133,9 +133,9 @@
               "words",
               "sentences"
             ],
-            "correct": 2,
-            "explanation_bn": "অভিধানে শব্দগুলোকে বর্ণমালার ক্রমানুসারে সাজানো হয়।",
-            "explanation_en": "In a dictionary, words are arranged in alphabetical order."
+            "correct": 1,
+            "explanation_bn": "অভিধানে শব্দগুলো বর্ণানুক্রমে সাজানো থাকে।",
+            "explanation_en": "In a dictionary, words are arranged alphabetically."
           },
           {
             "id": "1v",
