@@ -143,7 +143,7 @@
     },
     {
       "id": "nctb_sample_03_g",
-      "text": "______ living in Hawaiian style? You seem to be very happy with your life in Hawaii.",
+      "text": "______ living in Hawaiian style ______? You seem to be very happy with your life in Hawaii.",
       "options": [
         "There",
         "have to",
@@ -1099,7 +1099,7 @@
         "unless",
         "lest"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "জনগণের সমাজ থেকে দুর্নীতি দমনের এখনই উপযুক্ত সময়।",
       "explanation_en": "It is high time people stopped corruption from society.",
@@ -1122,7 +1122,7 @@
         "unless",
         "lest"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "নদীতে সাঁতার কাটতে কেমন? প্রথম বারের মতো, সবার জন্য একটি নতুন অভিজ্ঞতা বলে মনে হয়।",
       "explanation_en": "What's it like swimming in the river? For the first time, it seems new experience for all.",
@@ -2737,7 +2737,7 @@
         "there",
         "what's it like"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "তোমাকে খুব ফ্যাকাশে দেখাচ্ছে। তুমি একজন চিকিৎসকের সাথে পরামর্শ করলে কেমন হয়।",
       "explanation_en": "You look very pale. What if you consulted with a doctor?",
@@ -7063,7 +7063,7 @@
         "would rather",
         "was born"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "এক অসুখী তরুণী বাস করতো। তার মার মৃত্যু হয়েছিল এবং তার বাবা দুই কন্যাসহ এক বিধবাকে বিবাহ করেছিলেন।",
       "explanation_en": "There lived an unhappy young girl. Her mother was dead and her father had married a widow with two daughters.",
@@ -7109,7 +7109,7 @@
         "would rather",
         "was born"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "A: আপনি অনুগ্রহ করে আমাকে খুব সকালে ঘুম থেকে জাগিয়ে দিবেন কী? B: ওহ্, অবশ্যই। আমি আপনাকে ডাক দেব।",
       "explanation_en": "A: Would you mind walking me up early in the morning? B: Oh, sure, I'll call you up.",
@@ -7155,7 +7155,7 @@
         "would rather",
         "was born"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "বাসটি থামলো। যাত্রীরা বাসটি দেখতে না দেখতেই এর দিকে দৌড় দিল।",
       "explanation_en": "No sooner had the passengers seen the bus than they ran to it.",
@@ -9156,7 +9156,7 @@
         "as if",
         "had better"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "অন্যদের কাছ থেকে শুনলে কেমন হয়? তুমি অন্যদের সাথে কথা বলতে চাও না।",
       "explanation_en": "What's it like listening to others?",
@@ -9202,7 +9202,7 @@
         "as if",
         "had better"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "এটা সম্পর্কে মনে হয় না কোনো সন্দেহ আছে। এটা বিস্ময়কর।",
       "explanation_en": "There seemed to be no doubt about it.",
@@ -9718,7 +9718,7 @@
     },
     {
       "id": "sgc_48_b",
-      "text": "There is a foul smell in the room. ______ opening the window?",
+      "text": "There is a foul smell in the room. ______ opening the window ______?",
       "options": [
         "what does .... look like",
         "let alone",
