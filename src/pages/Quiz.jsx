@@ -880,6 +880,7 @@ const Quiz = () => {
                             key={currentQ.modelId}
                             chapters={currentQ.chapters}
                             fontSize={quizFontSize}
+                            onCorrectAttempt={() => playSound('correctAnswer')}
                             onWrongAttempt={() => {
                                 playSound('star');
                                 addMistake(currentQ.id || currentQ.modelId, currentQ, { file, title, chapterId });

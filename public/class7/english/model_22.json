@@ -314,7 +314,7 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "One morning, the Giant was in (a) when he heard beautiful music. It was so lovely that he thought it must be the (b) musicians. But it was just a little bird (c) outside his window. Then the cold north wind stopped, and a sweet (d) came through the window which was open. \"I think spring has finally arrived,\" said the Giant. He (e) got out of bed and looked outside.",
+          "passage": "One morning, the Giant was in (a) when he heard beautiful music. It was so lovely that he thought it must be the (b) musicians. But it was just a little bird (c) outside his window.\n\nThen the cold north wind stopped, and a sweet (d) came through the window which was open. \"I think spring has finally arrived,\" said the Giant. He (e) got out of bed and looked outside.",
           "dialogPassage": "",
           "boxWords": [
             "bed",

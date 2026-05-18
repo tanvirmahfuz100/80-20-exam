@@ -346,7 +346,7 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "Flora has come to (a) ______ Farabi. They are talking. Flora wants to know about the prize-giving ceremony of Farabi's school. Farabi says that the (b) ______ day was their school prize-giving day. The ceremony started just at 4 pm. After giving a short speech, the chief guest gave away the (c) ______ among the students for their outstanding activities. Farabi also says that he has (d) ______ two prizes: one for regular attendance and the other for good results in the (e) ______ annual exams.",
+          "passage": "Flora has come to (a) ______ Farabi. They are talking. Flora wants to know about the prize-giving ceremony of Farabi's school.\n\nFarabi says that the (b) ______ day was their school prize-giving day. The ceremony started just at 4 pm. After giving a short speech, the chief guest gave away the (c) ______ among the students for their outstanding activities.\n\nFarabi also says that he has (d) ______ two prizes: one for regular attendance and the other for good results in the (e) ______ annual exams.",
           "dialogPassage": "",
           "boxWords": [
             "visit",

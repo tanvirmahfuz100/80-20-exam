@@ -314,7 +314,7 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "Every afternoon, after school, the children would go to (a) in the Giant's garden. It was not only a big but also a beautiful (b) with soft green grass. Colorful flowers (c) all over the grass. There were trees around the garden (d) of sweet fruit. The birds sang so sweetly from the trees that the children would stop playing to listen. \"How (e) we are here!\" they said to each other.",
+          "passage": "Every afternoon, after school, the children would go to (a) in the Giant's garden. It was not only a big but also a beautiful (b) with soft green grass. Colorful flowers (c) all over the grass.\n\nThere were trees around the garden (d) of sweet fruit. The birds sang so sweetly from the trees that the children would stop playing to listen. \"How (e) we are here!\" they said to each other.",
           "dialogPassage": "",
           "boxWords": [
             "play",

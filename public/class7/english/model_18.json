@@ -354,7 +354,7 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "Helen Keller worked as a (a) ______. The sick, injured and disabled people were deeply (b) ______ by her. People with (c) ______ have problems that affect their body or mind. The problems also make it harder for (d) ______ to do things. Helen spent her life (e) ______ them.",
+          "passage": "Helen Keller worked as a (a) ______. The sick, injured and disabled people were deeply (b) ______ by her. People with (c) ______ have problems that affect their body or mind.\n\nThe problems also make it harder for (d) ______ to do things. Helen spent her life (e) ______ them.",
           "dialogPassage": "Anne Sullivan worked hard to enable Helen to communicate. Helen learnt Braille, which was a new technique for reading. She also learnt how to type. Anne Sullivan was always with Helen. She sat with Helen in class and helped her by interpreting lectures and texts. In 1904 Helen received her BA degree with Honours from Radcliffe College.",
           "boxWords": [
             "humanitarian",

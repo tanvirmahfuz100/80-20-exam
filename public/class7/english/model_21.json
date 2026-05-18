@@ -314,7 +314,7 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "At last, the spring came, and flowers and birds appeared everywhere (a) in the Giant's garden. In his garden, it was (b) winter with snow, frost, and the cold wind. No birds sang and no flowers (c). The Giant (d) out from his castle and wondered why spring was so late. He (e) the weather would change soon.",
+          "passage": "At last, the spring came, and flowers and birds appeared everywhere (a) in the Giant's garden. In his garden, it was (b) winter with snow, frost, and the cold wind. No birds sang and no flowers (c).\n\nThe Giant (d) out from his castle and wondered why spring was so late. He (e) the weather would change soon.",
           "dialogPassage": "",
           "boxWords": [
             "except",

@@ -79,7 +79,7 @@ const VocabChip = ({ vocab, onClick }) => (
   </button>
 );
 
-const ModelTest = ({ chapters, fontSize, onWrongAttempt, onContinue }) => {
+const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onContinue }) => {
   const [currentIdx, setCurrentIdx] = useState(0);
   const [completedSet, setCompletedSet] = useState(new Set());
   const [phase, setPhase] = useState(() => getInitialPhase(chapters[0]?.type));
@@ -119,10 +119,17 @@ const ModelTest = ({ chapters, fontSize, onWrongAttempt, onContinue }) => {
 
   const advanceToNextChapter = useCallback(() => {
     if (!isLast) {
-      setCurrentIdx(prev => prev + 1);
+      const nextIdx = currentIdx + 1;
+      const nextChapter = chapters[nextIdx];
+      setCurrentIdx(nextIdx);
+      setPhase(getInitialPhase(nextChapter?.type));
+      setMcqIndex(0);
+      setSelectedOption(null);
+      setIsAnswered(false);
+      setActiveVocab(null);
+      setShowPassage(false);
     }
-    resetChapter();
-  }, [isLast, resetChapter]);
+  }, [isLast, currentIdx, chapters]);
 
   const completeChapter = useCallback((chapterQCount) => {
     const newSet = new Set(completedSet);
@@ -133,10 +140,17 @@ const ModelTest = ({ chapters, fontSize, onWrongAttempt, onContinue }) => {
     if (isLast) {
       onContinue?.(scoreRef.current, questionsRef.current);
     } else {
-      setCurrentIdx(prev => prev + 1);
-      resetChapter();
+      const nextIdx = currentIdx + 1;
+      const nextChapter = chapters[nextIdx];
+      setCurrentIdx(nextIdx);
+      setPhase(getInitialPhase(nextChapter?.type));
+      setMcqIndex(0);
+      setSelectedOption(null);
+      setIsAnswered(false);
+      setActiveVocab(null);
+      setShowPassage(false);
     }
-  }, [currentIdx, isLast, completedSet, onContinue, resetChapter]);
+  }, [currentIdx, isLast, chapters, completedSet, onContinue]);
 
   const passageContent = chapter?.type === 'passage_mcq' ? chapter.content : null;
   const summaryContent = chapter?.type === 'passage_summary' ? chapter.content : null;
@@ -151,6 +165,7 @@ const ModelTest = ({ chapters, fontSize, onWrongAttempt, onContinue }) => {
     if (chapter?.type === 'passage_mcq') return chapter.content?.questions || [];
     if (chapter?.type === 'passage_summary') return [...(chapter.content?.mcqQuestions || []), ...(chapter.content?.trueFalseQuestions || [])];
     if (chapter?.type === 'poetry_mcq') return chapter.content?.questions || [];
+    if (chapter?.type === 'gap_fill_vocab') return chapter.content?.vocabQuestions || [];
     return [];
   }, [chapter]);
 
@@ -164,11 +179,12 @@ const ModelTest = ({ chapters, fontSize, onWrongAttempt, onContinue }) => {
       if (optIdx === q.correct) {
         scoreRef.current += 1;
         rerender();
+        onCorrectAttempt?.();
       } else {
         onWrongAttempt?.();
       }
     }
-  }, [isAnswered, allQuestions, mcqIndex, onWrongAttempt, rerender]);
+  }, [isAnswered, allQuestions, mcqIndex, onWrongAttempt, onCorrectAttempt, rerender]);
 
   const handleMCQNext = useCallback(() => {
     if (mcqIndex < allQuestions.length - 1) {
@@ -212,11 +228,12 @@ const ModelTest = ({ chapters, fontSize, onWrongAttempt, onContinue }) => {
       if (isCorrect) {
         scoreRef.current += 1;
         rerender();
+        onCorrectAttempt?.();
       } else {
         onWrongAttempt?.();
       }
     }
-  }, [currentIdx, onWrongAttempt, rerender]);
+  }, [currentIdx, onWrongAttempt, onCorrectAttempt, rerender]);
 
   const handleGapFillContinue = useCallback(() => {
     setPhase('vocabQuestions');

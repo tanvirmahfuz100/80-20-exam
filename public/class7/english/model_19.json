@@ -314,7 +314,7 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "Zishan was at his grandparents' house in the village. The night sky was clear and the full (a) was shining brightly. After a (b) supper, the family sat in the yard. Zishan's cousins, Jahid and Shima, were excited and (c) at a same school. They all sat on a bamboo mat and (d) relaxed. Jahid told everyone about his school's (e) tournament.",
+          "passage": "Zishan was at his grandparents' house in the village. The night sky was clear and the full (a) was shining brightly. After a (b) supper, the family sat in the yard.\n\nZishan's cousins, Jahid and Shima, were excited and (c) at a same school. They all sat on a bamboo mat and (d) relaxed. Jahid told everyone about his school's (e) tournament.",
           "dialogPassage": "",
           "boxWords": [
             "moon",

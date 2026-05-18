@@ -346,7 +346,7 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "Flora can remember exactly about her (a) ______ day at school. She was then 6 years old. One day her mother told Flora that she was going to start her (b) ______ the next day. She was very excited. She was always (c) ______ about the school, the teachers and the students of their school. She couldn't even sleep well that night. The next (d) ______ she started for the school with her mother. As the school was very (e) ______ to their home, they walked all the way.",
+          "passage": "Flora can remember exactly about her (a) ______ day at school. She was then 6 years old. One day her mother told Flora that she was going to start her (b) ______ the next day.\n\nShe was very excited. She was always (c) ______ about the school, the teachers and the students of their school. She couldn't even sleep well that night.\n\nThe next (d) ______ she started for the school with her mother. As the school was very (e) ______ to their home, they walked all the way.",
           "dialogPassage": "",
           "boxWords": [
             "first",

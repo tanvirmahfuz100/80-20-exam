@@ -281,7 +281,7 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "Today's young generation born around 2000, carries the struggle for (a) ______ forward. The 2018 road safety protests and the brutal crackdown (b) ______ a significant shift in Gen Z's consciousness, sharpening their political awareness. Finally, the 2024 uprising was (c) ______ by this generation, who realized the fruitlessness of (d) ______ establishments. To support Gen Z's ambitions, we must (e) ______ concrete steps, as political rhetoric has failed them.",
+          "passage": "Today's young generation born around 2000, carries the struggle for (a) ______ forward. The 2018 road safety protests and the brutal crackdown (b) ______ a significant shift in Gen Z's consciousness, sharpening their political awareness. Finally, the 2024 uprising was (c) ______ by this generation, who realized the fruitlessness of (d) ______ establishments.\n\nTo support Gen Z's ambitions, we must (e) ______ concrete steps, as political rhetoric has failed them.",
           "boxWords": [
             "democracy",
             "marked",

@@ -281,7 +281,7 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "Mitu and Nitu are (a) ______. Their father Mr. Joynul Ali is a (b) ______ and their mother Mrs. Nazma is a housewife. She does all the works at (c) ______ from morning to night. She also (d) ______ Mitu and Nitu Bangla and English alphabets and some numbers. They are not (e) ______ to school.",
+          "passage": "Mitu and Nitu are (a) ______. Their father Mr. Joynul Ali is a (b) ______ and their mother Mrs.\n\nNazma is a housewife. She does all the works at (c) ______ from morning to night. She also (d) ______ Mitu and Nitu Bangla and English alphabets and some numbers.\n\nThey are not (e) ______ to school.",
           "boxWords": [
             "sisters",
             "carpenter",

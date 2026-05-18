@@ -281,7 +281,7 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "Mr Zamil Huda (a) ______ in a company office. He (b) ______ his wife Shahana to (c) ______ for a vacant position at his firm. But Shahana is not (d) ______ in the office job. She is rather joining the (e) ______ high school as a teacher.",
+          "passage": "Mr Zamil Huda (a) ______ in a company office. He (b) ______ his wife Shahana to (c) ______ for a vacant position at his firm. But Shahana is not (d) ______ in the office job.\n\nShe is rather joining the (e) ______ high school as a teacher.",
           "boxWords": [
             "works",
             "insists",

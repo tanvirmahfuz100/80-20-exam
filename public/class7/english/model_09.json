@@ -281,7 +281,7 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "Ms Shahana is giving idea of a new kind of shop. It will be a (a) ______ shop. So, students need not (b) ______ over prices of any item. Students can buy any (c) ______ items from the shop. They can also buy food items as well as several other (d) ______ things. Clothes will be (e) ______ in the shop.",
+          "passage": "Ms Shahana is giving idea of a new kind of shop. It will be a (a) ______ shop. So, students need not (b) ______ over prices of any item.\n\nStudents can buy any (c) ______ items from the shop. They can also buy food items as well as several other (d) ______ things. Clothes will be (e) ______ in the shop.",
           "boxWords": [
             "fixed-price",
             "bargain",

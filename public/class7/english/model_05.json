@@ -346,7 +346,7 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "Flora's mother (a) ______ her to the Head Teacher. He asked her a few questions and she answered them intelligently. The Head Teacher was very pleased. He (b) ______ that she was a highly intelligent child. The Head Teacher called a teacher and (c) ______ her to take Flora to the class. Ms Laila took her to the class. All the students in the (d) ______ were staring at her. She felt a bit nervous to see all the new faces. But (e) ______ she felt easy.",
+          "passage": "Flora's mother (a) ______ her to the Head Teacher. He asked her a few questions and she answered them intelligently. The Head Teacher was very pleased.\n\nHe (b) ______ that she was a highly intelligent child. The Head Teacher called a teacher and (c) ______ her to take Flora to the class. Ms Laila took her to the class.\n\nAll the students in the (d) ______ were staring at her. She felt a bit nervous to see all the new faces. But (e) ______ she felt easy.",
           "dialogPassage": "",
           "boxWords": [
             "took",

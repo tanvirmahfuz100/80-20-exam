@@ -338,7 +338,7 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "Zishan, Julie, (a) ______ with their parents, Mr. and Mrs. Arif Khan, got into a first-class compartment at Kamalapur Railway Station. They were (b) ______ on the Tista Express to Dewanganj. Zishan looked at the big timetable and saw that the train was supposed to (c) ______ at 7:30 am, but it left at 8 o'clock. The train was moving (d) ______. The children sat by the window (e) ______ to their parents. The compartment was only half full.",
+          "passage": "Zishan, Julie, (a) ______ with their parents, Mr. and Mrs. Arif Khan, got into a first-class compartment at Kamalapur Railway Station. They were (b) ______ on the Tista Express to Dewanganj.\n\nZishan looked at the big timetable and saw that the train was supposed to (c) ______ at 7:30 am, but it left at 8 o'clock. The train was moving (d) ______. The children sat by the window (e) ______ to their parents.\n\nThe compartment was only half full.",
           "dialogPassage": "Zishan, Julie and their parents Mr. and Mrs. Arif Khan got into a 1st class compartment at Kamalapur Railway Station. It was the Dewanganj-bound Tista Express. Zishan saw that the departure time on the big time table of the station was 7:30 am, but the train left at 8 o'clock. However, the train was running quite fast. The children sat by the window beside their parents. The compartment was half empty.",
           "boxWords": [
             "along",

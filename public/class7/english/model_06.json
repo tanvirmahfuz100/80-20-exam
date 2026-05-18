@@ -281,7 +281,7 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "Farabi is very (a) ______ because his friend Harun, their school football team leader, has just (b) ______ his name from the Interclass Football Tournament. Though Farabi wanted to know the reason, Harun was not interested in (c) ______ to him and explaining anything. Farabi did not (d) ______ what to do. Flora asked if she could do (e) ______ to help.",
+          "passage": "Farabi is very (a) ______ because his friend Harun, their school football team leader, has just (b) ______ his name from the Interclass Football Tournament. Though Farabi wanted to know the reason, Harun was not interested in (c) ______ to him and explaining anything. Farabi did not (d) ______ what to do.\n\nFlora asked if she could do (e) ______ to help.",
           "boxWords": [
             "sad",
             "dropped",

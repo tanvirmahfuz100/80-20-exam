@@ -281,7 +281,7 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "In the new kind of shop, there will be no shopkeeper. There will be a (a) ______ tag on every item. By putting the same amount of money (b) ______ on the tag, one can take the item. If anyone takes anything (c) ______ paying, it will be (d) ______. One's (e) ______ will prevent one from stealing.",
+          "passage": "In the new kind of shop, there will be no shopkeeper. There will be a (a) ______ tag on every item. By putting the same amount of money (b) ______ on the tag, one can take the item.\n\nIf anyone takes anything (c) ______ paying, it will be (d) ______. One's (e) ______ will prevent one from stealing.",
           "boxWords": [
             "price",
             "written",
