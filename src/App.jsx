@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import Dashboard from './pages/Dashboard';
 import PracticeConfig from './pages/PracticeConfig';
 import Quiz from './pages/Quiz';
+import LevelSelect from './pages/LevelSelect';
 import Login from './pages/Login';
 import Admin from './pages/Admin';
 import { AuthProvider, useAuth } from './context/AuthContext';
@@ -282,6 +283,11 @@ const AppContent = () => {
           <Route path="/shorts" element={
             <motion.div {...pageMotion}>
               <VideoFeed />
+            </motion.div>
+          } />
+          <Route path="/levels" element={
+            <motion.div {...pageMotion}>
+              <LevelSelect />
             </motion.div>
           } />
           <Route path="/quiz/:chapterId" element={

@@ -414,7 +414,7 @@ const PracticeConfig = () => {
 
     const handleStart = (chapter) => {
         const file = getChapterFile(chapter);
-        navigate(`/quiz/${chapter.id}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(chapter.name)}&timed=${isTimed}`);
+        navigate(`/levels?file=${encodeURIComponent(file)}&title=${encodeURIComponent(chapter.name)}&chapterId=${chapter.id}`);
     };
 
     if (loading) return (

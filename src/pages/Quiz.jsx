@@ -16,6 +16,7 @@ import {
 import GapFillPassage from '../components/GapFillPassage';
 import SubstitutionTableExercise from '../components/SubstitutionTableExercise';
 import { playSound } from '../utils/sounds';
+import { computeLevels, saveLevelProgress, addXp, addStars, completeDailyChallenge, advanceWeeklyChallenge } from '../services/levels';
 
 const stripMath = (text) => {
   if (!text) return '';
@@ -34,62 +35,9 @@ const stripMath = (text) => {
     .replace(/\\therefore/g, '∴');
 };
 
-const formatMath = (text) => {
-  return text
-    .replace(/\$(.*?)\$/g, '<span class="inline-flex items-center px-1.5 py-0.5 bg-primary/10 border border-primary/20 rounded-md math-font text-primary font-bold text-sm leading-relaxed">$1</span>')
-    .replace(/\\frac\{([^}]*)\}\{([^}]*)\}/g, '<span class="math-font text-primary font-semibold">$1</span><span class="text-white/30 mx-0.5">/</span><span class="math-font text-primary font-semibold">$2</span>')
-    .replace(/\\sqrt\{([^}]*)\}/g, '<span class="math-font text-primary font-semibold">√$1</span>')
-    .replace(/\\cdot/g, '<span class="text-white/40">·</span>')
-    .replace(/\\Rightarrow/g, '<span class="text-primary/60 font-bold mx-1">→</span>')
-    .replace(/\\implies/g, '<span class="text-primary/60 font-bold mx-1">⇒</span>')
-    .replace(/\\therefore/g, '<span class="text-primary/60 mx-1">∴</span>')
-    .replace(/\\times/g, '<span class="text-white/40 mx-0.5">×</span>')
-    .replace(/\\approx/g, '<span class="text-white/40 mx-0.5">≈</span>')
-    .replace(/\\neq/g, '<span class="text-white/40 mx-0.5">≠</span>')
-    .replace(/\\ge/g, '<span class="text-white/40 mx-0.5">≥</span>')
-    .replace(/\\le/g, '<span class="text-white/40 mx-0.5">≤</span>')
-    .replace(/\*\*(.*?)\*\*/g, '<span class="text-primary font-bold">$1</span>');
-};
 
-const formatExplanation = (text) => {
-  if (!text) return '';
 
-  const clean = text.replace(/<script.*?>.*?<\/script>/gi, '');
-  if (!clean.trim()) return '';
-
-  const rawSteps = clean.split(/(\\Rightarrow|\\implies|⇒|→|\\n|\n)/g);
-
-  const segments = [];
-  for (let i = 0; i < rawSteps.length; i++) {
-    if (i % 2 === 0) {
-      const t = rawSteps[i].trim();
-      if (t) segments.push(t);
-    } else {
-      const sep = rawSteps[i];
-      const next = (rawSteps[i + 1] || '').trim();
-      if (next || segments.length > 0) {
-        segments.push(sep + ' ' + next);
-        i++;
-      } else {
-        segments.push(sep);
-      }
-    }
-  }
-
-  return segments
-    .map((seg, idx) => {
-      let formatted = formatMath(seg).trim();
-      if (!formatted) return '';
-      return `<div class="flex items-start gap-2.5 py-2 ${idx > 0 ? 'border-t border-white/5' : ''}">
-        <span class="inline-flex items-center justify-center w-5 h-5 rounded-md bg-primary/15 text-primary math-font text-[10px] font-black shrink-0 mt-0.5 select-none">${idx + 1}</span>
-        <span class="bn-text text-white/80 text-sm leading-relaxed min-w-0 flex-1">${formatted}</span>
-      </div>`;
-    })
-    .filter(Boolean)
-    .join('');
-};
-
-const normalizeQuizQuestions = (payload) => {
+export const normalizeQuizQuestions = (payload) => {
     const sourceQuestions = Array.isArray(payload)
         ? payload
         : Array.isArray(payload?.questions)
@@ -216,6 +164,9 @@ const Quiz = () => {
     const title = searchParams.get('title');
     const isTimedMode = searchParams.get('timed') === 'true';
     const isReviewMode = searchParams.get('reviewMode') === 'true';
+    const levelParam = searchParams.get('level');
+    const isChallenge = searchParams.get('challenge') === 'daily' || searchParams.get('challenge') === 'weekly';
+    const challengeType = searchParams.get('challenge');
 
     const [questions, setQuestions] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -240,14 +191,16 @@ const Quiz = () => {
     const [historicalAnswered, setHistoricalAnswered] = useState(0);
     const [totalQuestionCount, setTotalQuestionCount] = useState(0);
 
+    const [currentLevel, setCurrentLevel] = useState(null);
+    const [levelSessionSaved, setLevelSessionSaved] = useState(false);
+    const levelRef = useRef(null);
+
     const [quizFontSize, setQuizFontSize] = useState(() => {
         try { return parseInt(localStorage.getItem('quiz-font-size')) || 16; } catch { return 16; }
     });
     useEffect(() => {
-        try { localStorage.setItem('quiz-font-size', String(quizFontSize)); } catch {}
+        try { localStorage.setItem('quiz-font-size', String(quizFontSize)); } catch { /* ignore */ }
     }, [quizFontSize]);
-
-    const [userAccuracy, setUserAccuracy] = useState(null);
     const [elapsed, setElapsed] = useState(0);
     const timerRef = useRef(null);
     const questionStartRef = useRef(Date.now());
@@ -312,7 +265,15 @@ const Quiz = () => {
     useEffect(() => {
         const loadQuestions = async () => {
             setLoading(true);
+            setCurrentIndex(0);
+            setSelectedOption(null);
+            setIsAnswered(false);
+            setScore(0);
+            setIsFinished(false);
+            setResults([]);
             sessionSavedRef.current = false;
+            setLevelSessionSaved(false);
+            finishSoundPlayedRef.current = false;
             try {
                 if (isReviewMode) {
                     const reviewQuestions = getReviewSession();
@@ -375,10 +336,22 @@ const Quiz = () => {
                     const fresh = normalized.filter(q => !answeredIds.has(q.id) || q.blankId);
                     setTotalQuestionCount(normalized.length);
                     setHistoricalAnswered(answeredIds.size);
-                    if (fresh.length === 0 && normalized.length > 0) {
-                        setError('You have already answered all questions in this chapter.');
+
+                    const target = fresh.length > 0 ? fresh : normalized;
+
+                    if (levelParam) {
+                        const computed = computeLevels(target);
+                        const levelNum = parseInt(levelParam, 10);
+                        const matchedLevel = computed.find(l => l.levelNumber === levelNum);
+                        if (matchedLevel) {
+                            setCurrentLevel(levelNum);
+                            setQuestions(matchedLevel.questions);
+                        } else {
+                            setQuestions(target);
+                        }
+                    } else {
+                        setQuestions(target);
                     }
-                    setQuestions(fresh.length > 0 ? fresh : normalized);
                 }
             } catch (err) {
                 setError(err.message);
@@ -387,10 +360,7 @@ const Quiz = () => {
             }
         };
         loadQuestions();
-        api.getUserStats(user?.id).then(({ data }) => {
-            if (data?.accuracy != null) setUserAccuracy(data.accuracy);
-        }).catch(() => {});
-    }, [file, chapterId, isMock, isReviewMode]);
+    }, [file, chapterId, isMock, isReviewMode, levelParam]);
 
     useEffect(() => {
         const persistPracticeSession = async () => {
@@ -419,20 +389,36 @@ const Quiz = () => {
             if (raw) {
                 const currentSession = JSON.parse(raw);
                 const currentXp = currentSession.profile.total_xp || 0;
-                const currentLevel = Math.floor(currentXp / 100) + 1;
                 const newXp = currentXp + earnedXp;
-                const newLevel = Math.floor(newXp / 100) + 1;
                 updateProfileFields({ total_xp: newXp });
-                if (newLevel > currentLevel) {
-                    playSound('levelUp');
+            }
+
+            if (currentLevel && chapterId && !levelSessionSaved) {
+                const accuracy = questions.length > 0 ? Math.round((score / questions.length) * 100) : 0;
+                const stars = questions.length - score;
+                saveLevelProgress(user.id, chapterId, currentLevel, {
+                    completed: true,
+                    accuracy,
+                    xpEarned: earnedXp,
+                    starsEarned: stars,
+                });
+                addXp(user.id, earnedXp);
+                if (stars > 0) addStars(user.id, stars);
+
+                if (isChallenge && challengeType === 'daily') {
+                    completeDailyChallenge(user.id);
                 }
+                if (isChallenge && challengeType === 'weekly') {
+                    advanceWeeklyChallenge(user.id, chapterId);
+                }
+                setLevelSessionSaved(true);
             }
 
             sessionSavedRef.current = true;
         };
 
         persistPracticeSession();
-    }, [isFinished, user, questions, score, chapterId, title, file, isTimedMode, isReviewMode]);
+    }, [isFinished, user, questions, score, chapterId, title, file, isTimedMode, isReviewMode, currentLevel, levelSessionSaved, isChallenge, challengeType]);
 
     useEffect(() => {
         const refresh = () => setMistakeCount(getMistakesDueCount());
@@ -627,6 +613,81 @@ const Quiz = () => {
 
     if (isFinished) {
         const accuracy = Math.round((score / questions.length) * 100) || 0;
+        const earnedXp = score * 10;
+        const earnedStars = questions.length - score;
+
+        if (currentLevel) {
+            return (
+                <div className="max-w-3xl mx-auto animate-in zoom-in-95 duration-500">
+                    <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl p-4 md:p-10 shadow-lg relative overflow-hidden">
+                        <div className="relative z-10 text-center space-y-4 md:space-y-8">
+                            <div className="inline-flex p-3 md:p-5 bg-primary/10 rounded-full border border-primary/20 mb-1 md:mb-2">
+                                <Trophy className="w-6 h-6 md:w-12 md:h-12 text-primary" />
+                            </div>
+
+                            <div>
+                                <h2 className="text-xl md:text-3xl font-black text-white tracking-tighter mb-1 uppercase">Level {currentLevel} Complete!</h2>
+                                <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-xs truncate px-2">{title}</p>
+                            </div>
+
+                            <div className="grid grid-cols-2 gap-2 md:gap-4">
+                                <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
+                                    <div className={`font-black text-lg md:text-3xl mb-0.5 ${accuracy >= 80 ? 'text-emerald-400' : accuracy >= 50 ? 'text-yellow-400' : 'text-white/50'}`}>{accuracy}%</div>
+                                    <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Accuracy</div>
+                                </div>
+                                <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
+                                    <div className="text-emerald-500 font-black text-lg md:text-3xl mb-0.5">{score}/{questions.length}</div>
+                                    <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Correct</div>
+                                </div>
+                            </div>
+
+                            <div className="grid grid-cols-2 gap-2 md:gap-4">
+                                <div className="bg-primary/10 p-3 md:p-6 rounded-xl md:rounded-2xl border border-primary/20">
+                                    <div className="flex items-center justify-center gap-1.5">
+                                        <Zap className="w-4 h-4 md:w-6 md:h-6 text-primary" />
+                                        <span className="text-primary font-black text-lg md:text-3xl">+{earnedXp}</span>
+                                    </div>
+                                    <div className="text-[8px] md:text-[10px] text-primary/50 font-black uppercase tracking-widest mt-0.5">XP Earned</div>
+                                </div>
+                                <div className="bg-yellow-500/10 p-3 md:p-6 rounded-xl md:rounded-2xl border border-yellow-500/20">
+                                    <div className="flex items-center justify-center gap-1.5">
+                                        <Star className="w-4 h-4 md:w-6 md:h-6 text-yellow-400" />
+                                        <span className="text-yellow-400 font-black text-lg md:text-3xl">+{earnedStars}</span>
+                                    </div>
+                                    <div className="text-[8px] md:text-[10px] text-yellow-400/50 font-black uppercase tracking-widest mt-0.5">Stars Earned</div>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 pt-2 md:pt-6">
+                                <button
+                                    onClick={() => navigate('/practice')}
+                                    className="flex-1 py-3 md:py-4 bg-white/5 hover:bg-white/10 text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border border-white/5 transition-all active:scale-[0.98] min-h-touch"
+                                >
+                                    Go Home
+                                </button>
+                                <button
+                                    onClick={() => window.location.reload()}
+                                    className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] shadow-lg shadow-primary/20 transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
+                                >
+                                    <RefreshCw className="w-4 h-4" aria-hidden="true" /> Practice Again
+                                </button>
+                                {accuracy >= 80 && (
+                                <button
+                                    onClick={() => {
+                                        const nextLevel = currentLevel + 1;
+                                        navigate(`/quiz/${chapterId}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(title)}&level=${nextLevel}`);
+                                    }}
+                                    className="flex-1 py-3 md:py-4 bg-emerald-500 hover:bg-emerald-400 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] shadow-lg shadow-emerald-500/20 transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
+                                >
+                                    <Trophy className="w-4 h-4" /> Next Level
+                                </button>
+                                )}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        }
 
         return (
             <div className="max-w-3xl mx-auto animate-in zoom-in-95 duration-500">
@@ -709,16 +770,36 @@ const Quiz = () => {
                         <ArrowLeft className="w-4 h-4" />
                     </button>
                     <div className="min-w-0 flex-1 max-w-[160px] xs:max-w-[200px]">
-                        <div className="h-1 bg-white/10 rounded-full overflow-hidden mt-1">
-                            <motion.div
-                                className="h-full bg-gradient-to-r from-primary to-primary/70 rounded-full"
-                                initial={{ width: 0 }}
-                                animate={{
-                                    width: `${Math.min(((historicalAnswered + currentIndex + 1) / (totalQuestionCount || questions.length)) * 100, 100)}%`
-                                }}
-                                transition={{ duration: 0.4, ease: 'easeOut' }}
-                            />
-                        </div>
+                        {currentLevel ? (
+                            <>
+                                <div className="flex items-center gap-1.5 mb-0.5">
+                                    <span className="text-[8px] font-black text-primary uppercase tracking-wider">Level {currentLevel}</span>
+                                    <span className="text-[8px] text-white/20">·</span>
+                                    <span className="text-[8px] font-medium text-white/40">Question {currentIndex + 1} of {questions.length}</span>
+                                </div>
+                                <div className="h-1 bg-white/10 rounded-full overflow-hidden">
+                                    <motion.div
+                                        className="h-full bg-gradient-to-r from-primary to-primary/70 rounded-full"
+                                        initial={{ width: 0 }}
+                                        animate={{
+                                            width: `${((currentIndex + 1) / questions.length) * 100}%`
+                                        }}
+                                        transition={{ duration: 0.4, ease: 'easeOut' }}
+                                    />
+                                </div>
+                            </>
+                        ) : (
+                            <div className="h-1 bg-white/10 rounded-full overflow-hidden mt-1">
+                                <motion.div
+                                    className="h-full bg-gradient-to-r from-primary to-primary/70 rounded-full"
+                                    initial={{ width: 0 }}
+                                    animate={{
+                                        width: `${Math.min(((historicalAnswered + currentIndex + 1) / (totalQuestionCount || questions.length)) * 100, 100)}%`
+                                    }}
+                                    transition={{ duration: 0.4, ease: 'easeOut' }}
+                                />
+                            </div>
+                        )}
                     </div>
                 </div>
                 <div className="flex items-center gap-1 shrink-0">

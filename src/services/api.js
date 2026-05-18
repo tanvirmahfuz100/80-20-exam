@@ -1,3 +1,15 @@
+import {
+  getLevelProgress as _getLevelProgress,
+  saveLevelProgress as _saveLevelProgress,
+  addXp as _addXp,
+  addStars as _addStars,
+  getChallengeState as _getChallengeState,
+  setDailyChallenge as _setDailyChallenge,
+  setWeeklyChallenge as _setWeeklyChallenge,
+  completeDailyChallenge as _completeDailyChallenge,
+  advanceWeeklyChallenge as _advanceWeeklyChallenge
+} from './levels';
+
 const STORAGE_KEYS = {
     profiles: 'exam_profiles',
     responses: 'exam_user_responses',
@@ -417,5 +429,46 @@ export const api = {
         mocks.push(payload);
         writeStorage(STORAGE_KEYS.mockTests, mocks);
         return { data: payload, error: null };
+    },
+
+    getLevelProgress: async (userId, chapterId) => {
+        return { data: _getLevelProgress(userId, chapterId), error: null };
+    },
+
+    saveLevelProgress: async (userId, chapterId, levelNumber, data) => {
+        _saveLevelProgress(userId, chapterId, levelNumber, data);
+        return { data: true, error: null };
+    },
+
+    addXp: async (userId, amount) => {
+        return { data: _addXp(userId, amount), error: null };
+    },
+
+    addStars: async (userId, amount) => {
+        return { data: _addStars(userId, amount), error: null };
+    },
+
+    getChallengeState: async () => {
+        return { data: _getChallengeState(), error: null };
+    },
+
+    setDailyChallenge: async (config) => {
+        _setDailyChallenge(config);
+        return { data: true, error: null };
+    },
+
+    setWeeklyChallenge: async (config) => {
+        _setWeeklyChallenge(config);
+        return { data: true, error: null };
+    },
+
+    completeDailyChallenge: async (userId) => {
+        _completeDailyChallenge(userId);
+        return { data: true, error: null };
+    },
+
+    advanceWeeklyChallenge: async (userId, sectionId) => {
+        _advanceWeeklyChallenge(userId, sectionId);
+        return { data: true, error: null };
     }
 };
