@@ -340,7 +340,7 @@
         "what does....look like",
         "have to"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "যদি না তুমি কঠিন পরিশ্রম করো তাহলে তুমি একটি ভালো ফলাফল করতে পারবে না।",
       "explanation_en": "Unless you work hard, you will not make a good result.",
@@ -455,7 +455,7 @@
         "what does....look like",
         "have to"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "রাস্তায় শোরগোল হচ্ছে। অবশ্যই কিছু ঘটেছে।",
       "explanation_en": "There is a hue and cry on the road. Something must have happened.",
@@ -478,7 +478,7 @@
         "was born",
         "as if"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "আমাদের বসন্তকাল খুব মনোমুগ্ধকর। বসন্তকালে বিভিন্ন ধরনের ফুল ফোটে। এটি প্রতীয়মান হয় যে সব কিছু নতুন জীবন লাভ করেছে।",
       "explanation_en": "Our spring is very charming. During spring various kinds of flowers bloom. It seems that everything has got a new life.",
@@ -570,7 +570,7 @@
         "was born",
         "as if"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "মঙ্গল গ্রহে জীবনের কোনো অস্তিত্ব নেই।",
       "explanation_en": "There exists no life on Mars.",
@@ -593,7 +593,7 @@
         "was born",
         "as if"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "আপনি অনুগ্রহ করে আমার সাথে এককাপ চা খাবেন কি?",
       "explanation_en": "Would you mind taking tea with me?",
@@ -662,7 +662,7 @@
         "was born",
         "as if"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "আমরা স্টেশনে পৌঁছামাত্র গাড়ি ছেড়ে দিল।",
       "explanation_en": "As soon as we reached the station, the train started.",
@@ -731,7 +731,7 @@
         "there",
         "have to"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "রবার্ট ব্রুস নামে এক রাজা ছিলেন। তিনি খুব বিখ্যাত ছিলেন।",
       "explanation_en": "There was a king named Robert Bruce. He was very famous.",
@@ -1283,7 +1283,7 @@
         "as if",
         "it"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "আমার সময় সীমিত। যদি ট্রেন দেরি করে তাহলে কেমন হয়?",
       "explanation_en": "I'm in short of time. What if the train is late?",
@@ -1352,7 +1352,7 @@
         "as if",
         "it"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "এটি দুর্ভাগ্যজনক যে অনেক শিক্ষার্থী ফেইসবুক ব্যবহার করে তাদের মূল্যবান সময় নষ্ট করে ফেলছে।",
       "explanation_en": "It is unfortunate that many students spoil their time by using facebook.",
@@ -1471,7 +1471,7 @@
         "blow one's own trumpet",
         "needn't have"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "দশটা বেজে গেছে দিবা এখনো বিছানায় রয়েছে। তার বরং এখন উঠা শ্রেয়।",
       "explanation_en": "It's well past 10 and Diba is still in bed. It is about time she got up.",
@@ -1776,7 +1776,7 @@
         "had to",
         "let alone"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "এটি ছিল ভয়ানক জাহাজ। ঐ মৃত জাহাজে কোনো নাবিক ছিল না।",
       "explanation_en": "It was a terrible ship. There was no crew in that ship of death.",
@@ -1893,7 +1893,7 @@
         "what does.....look like",
         "what's it like"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "আমি কখনো কুয়াকাটা পরিদর্শন করিনি। আসন্ন গ্রীষ্মের ছুটিতে এই স্থানটি পরিদর্শন করলে কেমন হয়?",
       "explanation_en": "I have never visited Kuakata. What if visiting this place in the coming summer vacation?",
@@ -1941,7 +1941,7 @@
         "what does.....look like",
         "what's it like"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "আমাদের দেশে আমের মূল্য খুব বেশি। আমরা যদি এই দেশটাকে আম বাগানে পরিণত করি তাহলে কেমন হয়?",
       "explanation_en": "The price of mango is high in our country. What if we turn this land into a mango orchard?",
@@ -2223,7 +2223,7 @@
         "was born",
         "what if"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "আজ প্রচণ্ড গরম। বিদ্যুৎ বিভ্রাট পরিস্থিতিকে অধিকতর খারাপ করছে।",
       "explanation_en": "It is very hot today. Load shedding is aggravating the situation.",
@@ -2269,7 +2269,7 @@
         "was born",
         "what if"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "আমাদের বাড়ির চতুর্দিকে অনেক আমগাছ আছে। তারা আমাদেরকে খুব মিষ্টি আম দেয়।",
       "explanation_en": "There are many mango trees around our home. They give us very sweet mangoes.",
@@ -2315,7 +2315,7 @@
         "was born",
         "what if"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "নদীটি শান্ত। আমরা যদি নদীতে সাঁতার কাটি তাহলে কী হবে? নদীতে সাঁতার কাটা একটি সুন্দর অভিজ্ঞতা।",
       "explanation_en": "The river is calm. What if we swim in the river? To swim in the river is a nice experience.",
@@ -2384,7 +2384,7 @@
         "would rather",
         "there"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "মোটর সাইকেল চালানোর সময় হেলমেট ব্যবহার করা উচিত। যদি তুমি তোমার বাইক চালানোর সময় মারাত্মক দুর্ঘটনা ঘটতো তাহলে কেমন হতো?",
       "explanation_en": "Helmet should be used while driving a motorcycle. What if you were driving your bike and met a serious accident?",
@@ -2453,7 +2453,7 @@
         "would rather",
         "there"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "রোম একদিনে নির্মিত হয়নি, এই নগরী নির্মাণে দীর্ঘ সময় ও কঠোর পরিশ্রম লেগেছিল।",
       "explanation_en": "Rome was not built in a day. It took a long time and hard labour to build this city.",
@@ -2923,7 +2923,7 @@
         "so that",
         "as soon as"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "আমাদের প্রথম সাক্ষাতের পর থেকে অনেক বছর অতিবাহিত হয়েছে। কীভাবে সময় চলে যায়।",
       "explanation_en": "It is many years since we first met. How time does fly!",
@@ -2992,7 +2992,7 @@
         "so that",
         "as soon as"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "যখন আমি বাইরে যেতে উদ্যত হলাম, তখন প্রচণ্ড ঝড় শুরু হলো। আমি যদি বাইরে থাকতাম তাহলে কী হতো?",
       "explanation_en": "There started a heavy storm when I was about to go out. What if I had been out there?",
@@ -3038,7 +3038,7 @@
         "what does....look like",
         "would you mind"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "তাকে অপরিচিত বলে মনে হয়। সে আমার নাম বলতে পারে না, আমার ঠিকানাতো বলাই বাহুল্য।",
       "explanation_en": "He seems to be a stranger. He cannot tell my name let alone my address.",
@@ -3176,7 +3176,7 @@
         "what does....look like",
         "would you mind"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "তিনি এমনভাবে কাজ করেন যেন তিনি জ্ঞান অর্জন করতে পারেন। কিন্তু এটি তাই।",
       "explanation_en": "He works as if he gained knowledge. But it is so.",
@@ -3222,7 +3222,7 @@
         "what does....look like",
         "would you mind"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "দরজায় একজন বালক ছিল। সে আমার সাথে কথা বলতে চেয়েছিল।",
       "explanation_en": "There was a boy at the door. He wanted to talk to me.",
@@ -3245,7 +3245,7 @@
         "what does....look like",
         "would you mind"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "আপনি সামুদ্রিক মাছ খাবেন কি? আমার মনে হয় আপনি অনেক মজা পাবেন।",
       "explanation_en": "Would you mind eating sea fish? I think you will enjoy a lot.",
@@ -3337,7 +3337,7 @@
         "would rather",
         "be born"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "ছোট বালিকাটি হঠাৎ রাস্তা অতিক্রম করছিল। একটি বাস নিকট দিয়ে যাচ্ছিল। যেহেতু এটি বালিকাটির কাছে এলো, চালক এটি থামিয়ে দিল, যদি সে বাসটি থামাতে না পারতো তাহলে কী হতো?",
       "explanation_en": "The little girl was suddenly crossing the road. A bus was passing by. As it came near the girl, the driver halted it. What if he wouldn't have stopped the bus?",
@@ -3728,7 +3728,7 @@
         "no sooner had",
         "as long as"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "কামরার মধ্যে বাজে গন্ধ। জানালা খুললে আপনি কিছু মনে করবেন কী?",
       "explanation_en": "There is foul smell in the room. Would you mind opening the windows?",
@@ -4004,7 +4004,7 @@
         "what's it like",
         "would rather"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "বাংলাদেশে বসবাস কেমন? তোমার জীবন নিয়ে বাংলাদেশে তুমি খুব সুখী বোধ করবে।",
       "explanation_en": "What's it like living in Bangladesh? You seem to be very happy with your life in Bangladesh.",
@@ -4142,7 +4142,7 @@
         "what's it like",
         "would rather"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "ঢাকা বিশ্ববিদ্যালয় কর্তৃপক্ষ পাকিস্তানের সাথে বন্ধন ছিন্ন করে। বাংলাদেশের সরকার যদি পাকিস্তানের সাথে কূটনৈতিক সম্পর্ক ছিন্ন করার উদ্যোগ নিতো তাহলে কী হতো?",
       "explanation_en": "The authority of Dhaka University cut ties with Pakistan. What if the government of Bangladesh takes initiatives to cut off diplomatic relation with Pakistan?",
@@ -4188,7 +4188,7 @@
         "it",
         "would rather"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "কক্ষটি শ্বাসরোধী মনে হচ্ছে, জানালাগুলো খুলে দিলে আপনি কিছু মনে করবেন কী?",
       "explanation_en": "The room appears to be suffocating. Would you mind opening the windows?",
@@ -4257,7 +4257,7 @@
         "it",
         "would rather"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "এক জ্ঞানী লোক বাস করতেন কিন্তু তিন সবার কাছে সুপরিচিত ছিলেন না।",
       "explanation_en": "There lived a wise man but he was not well known to all.",
@@ -4280,7 +4280,7 @@
         "it",
         "would rather"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "তোমাকে ক্লান্ত দেখাচ্ছে। আমার কাছে মনে হচ্ছে যে তুমি কঠোর পরিশ্রম করেছ।",
       "explanation_en": "You look tired. It appears to me that you have worked hard.",
@@ -4464,7 +4464,7 @@
         "have to",
         "what's like"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "এমন আচরণ করো না যেন তুমি সবকিছু জানতে। এখানে অন্য সবার কথা স্মরণ রেখো, তারা তোমার চেয়ে জ্যেষ্ঠ।",
       "explanation_en": "Don't behave as if you knew everything. Remember all others here are senior to you.",
@@ -4510,7 +4510,7 @@
         "have to",
         "what's like"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "তার সাথে সাক্ষাৎ মাত্র তাকে সুসংবাদটি দাও।",
       "explanation_en": "Give him the good news as soon as you meet him.",
@@ -4533,7 +4533,7 @@
         "have to",
         "what's like"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "বাংলাদেশে অনেক নদনদী আছে। নদীগুলো প্রচুর মাছে পরিপূর্ণ।",
       "explanation_en": "There are many rivers in Bangladesh. The rivers abound with plenty of fishes.",
@@ -4671,7 +4671,7 @@
         "would rather",
         "as if"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "প্রাতঃভ্রমণ একটি ভালো ধারণা। কেউ একে শারীরিক ব্যায়ামের ধরন হিসেবে গ্রহণ করতে পারে, কারণ এটি শরীর ও মন উভয়কেই সতেজ করে।",
       "explanation_en": "It is a good idea to walk in the morning. One can take it as an important form of physical exercises.",
@@ -4763,7 +4763,7 @@
         "would rather",
         "as if"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "যখন আমি আমার বাবাকে আসতে দেখি, তখন আমার মন আনন্দে ভরে যায়। আমি আমার বাবাকে খুব ভালোবাসি।",
       "explanation_en": "As soon as I see my father coming my heart fills up with joy. I am very much fond of my father.",
@@ -4832,7 +4832,7 @@
         "would rather",
         "as if"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "রবির অর্থনৈতিক অবস্থা খুব গরিব। সে প্রতিদিন একবার খাবারের সংস্থান করতে পারে না, উদরপূর্তি করে খাওয়ার কথাতো বলাই বাহুল্য।",
       "explanation_en": "The economic condition of Robi is very poor. He cannot afford one meal per day let alone square meals.",
@@ -4901,7 +4901,7 @@
         "had better",
         "the older...the more"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "মানব জাতি নিয়মিতভাবে শতশত ভাষায় কথা বলে। কিন্তু বিশ্বের সর্বত্র লোকে ইংরেজিতে কথা বলে।",
       "explanation_en": "There are hundreds of languages spoken regularly by human beings. But everywhere of the world people speak English.",
@@ -4924,7 +4924,7 @@
         "had better",
         "the older...the more"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "তারা এ বছর ছুটি উপভোগ করবে না। আমরাও করবো না।",
       "explanation_en": "A: They won't be enjoying a holiday this year. B: Neither will we.",
@@ -4993,7 +4993,7 @@
         "had better",
         "the older...the more"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "আমি বাক্সটি আমার পিঠে বহন করতে পারছি না। আপনি বাক্সটি কক্ষের মধ্যে নিতে কিছু মনে করবেন কী?",
       "explanation_en": "I cannot carry the box on my back. Would you mind taking the box into the room?",
@@ -5016,7 +5016,7 @@
         "had better",
         "the older...the more"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "বাংলা ও ইংরেজিতে ভালো গ্রেড পাওয়া খুব কঠিন।",
       "explanation_en": "It is very difficult to get good grade in Bengali and English.",
@@ -5154,7 +5154,7 @@
         "let alone",
         "there"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "পান্না ছিল একজন অপরাধী। তাই সে সর্বদা সতর্ক ছিল। যখন সে পুলিশকে দেখলো, তখন সে নিজেকে লুকিয়ে রাখলো।",
       "explanation_en": "Whenever he saw the police, he hid himself.",
@@ -5200,7 +5200,7 @@
         "let alone",
         "there"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "আমাদের বাড়ির ঠিক পিছনে একটি সুন্দর বাগান আছে। তাই আমরা সেখান থেকে টাটকা সব্জি পাই।",
       "explanation_en": "There is a nice kitchen garden just behind our house. So we can get fresh vegetables from there.",
@@ -5361,7 +5361,7 @@
         "had better",
         "what's the matter"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "ডায়মন্ড টেবিলের উপর লাফ দিতে না দিতেই, জ্বলন্ত মোমবাতিটি কাগজের উপর পড়ে গেল।",
       "explanation_en": "No sooner had Diamond jumped upon the table than the lighted candle fell on the papers.",
@@ -5430,7 +5430,7 @@
         "had better",
         "what's the matter"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "এক অপরাহ্নে আমি মাথা যন্ত্রণায় গভীর আর্তনাদ করতে করতে বাড়ি ফিরলাম। আমার মা আমাকে জিজ্ঞাসা করলেন, 'তোমার কি হয়েছে? তোমাকে এত বিষণ্ণ দেখাচ্ছে কেন?'",
       "explanation_en": "One evening I returned home groaning with a bad headache. My mother asked me, 'What's the matter with you? Why do you look so pale?'",
@@ -5476,7 +5476,7 @@
         "had better",
         "what's the matter"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "তুমি কি বুঝাতে চাও? একটি রশি কিভাবে একজন মানুষকে কামড়াতে পারে? এটি সম্পূর্ণ অবিশ্বাস্য।",
       "explanation_en": "What do you mean? How can a rope bite a man? It is quite unbelievable.",
@@ -5522,7 +5522,7 @@
         "had better",
         "what's the matter"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "প্রাতঃভ্রমণ একটি ভালো ধারণা। সকালে হাঁটা খুব স্বাস্থ্যকর।",
       "explanation_en": "It is a good idea to walk in the morning. Morning walk is very healthful.",
@@ -5637,7 +5637,7 @@
         "what does ... look like",
         "had better"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "কক্সবাজার একটি জনপ্রিয় পর্যটন কেন্দ্র। সেখানে পর্যটকদের জন্য অনেক সুন্দর হোটেল আছে।",
       "explanation_en": "Cox's Bazar is a popular tourist hub. There are many nice hotels there for tourists.",
@@ -5706,7 +5706,7 @@
         "what does ... look like",
         "had better"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "ঢাকা শহরে যানজট একটি সাধারণ ব্যাপার। এটি যেকোনো স্থানে যে কোনো সময় ঘটতে পারে।",
       "explanation_en": "In Dhaka city, traffic jam is very common. It may occur anywhere anytime.",
@@ -5890,7 +5890,7 @@
         "would rather",
         "as soon as"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "আমি যেইমাত্র স্টেশনে পৌঁছলাম, তখনি ট্রেন ছেড়ে দিল। সত্যিই আমি ভাগ্যবান ছিলাম।",
       "explanation_en": "As soon as I reached the station, the train left. Really I was lucky.",
@@ -5982,7 +5982,7 @@
         "would rather",
         "as soon as"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "দরজায় একজন বালক আছে। সে আমার সাথে কথা বলতে চেয়েছিল।",
       "explanation_en": "There was a boy at the door. He wanted to talk to me.",
@@ -6097,7 +6097,7 @@
         "there",
         "what if"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "এক গ্রামে এক বৃদ্ধ লোক বাস করতেন। তিনি ছিলেন খুব জ্ঞানী।",
       "explanation_en": "There lived an old man in a village. He was very wise.",
@@ -6189,7 +6189,7 @@
         "there",
         "what if"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "সময়নিষ্ঠতা হলো যথাসময়ে কোনো কিছু করার অভ্যাস। এটি অবশ্য একটি ভালো অভ্যাস।",
       "explanation_en": "Punctuality is the habit of doing things exactly in time. It is, of course, a good habit.",
@@ -6235,7 +6235,7 @@
         "there",
         "what if"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "রিনা: আমরা যদি বাসটি না ধরতে পারি তাহলে কী হবে? মিনা: তখন আমরা একটা ট্যাক্সি নেব।",
       "explanation_en": "Rina: What if we miss the bus? Mina: We will take a taxi then.",
@@ -6258,7 +6258,7 @@
         "as long as",
         "as soon as"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "তার মতো বালকের পরীক্ষায় ফেল করা সত্যিই দুর্ভাগ্যজনক।",
       "explanation_en": "It is really unfortunate for a boy like him to fail in the exam.",
@@ -6350,7 +6350,7 @@
         "as long as",
         "as soon as"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "তোমার কলমটি যদি হারিয়ে ফেল তাহলে কী হবে?",
       "explanation_en": "What if you lose your pen?",
@@ -6534,7 +6534,7 @@
         "it",
         "what's it like"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "চলো সিনেমায় যাই। আর দেরি করার সময় নেই।",
       "explanation_en": "Let's go to the cinema. It is not worth waiting any longer.",
@@ -6672,7 +6672,7 @@
         "it",
         "what's it like"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "এখানে কোনো মাছ নেই। এটি একটি সাঁতার কাটার জলাশয়।",
       "explanation_en": "There is no fish here. It is a swimming pool.",
@@ -6695,7 +6695,7 @@
         "it",
         "what's it like"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "আমি তার সাথে সাক্ষাৎ করতে গিয়েছিলাম। যেইমাত্র আমি তাকে দেখলাম, তখনি আমি তার সাথে কথা বলতে ছুটে গেলাম।",
       "explanation_en": "I went there to meet with him. As soon as I saw him, I rushed to talk to him.",
@@ -6718,7 +6718,7 @@
         "had better",
         "was born"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "বালকটি ভিড়ের মধ্যে তার মাকে হারিয়ে ফেললো। সে তার মাকে দেখা মাত্রই সে কান্নায় ফেটে পড়লো।",
       "explanation_en": "No sooner had he seen his mother than he burst into tears.",
@@ -6856,7 +6856,7 @@
         "had better",
         "was born"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "তুমি যদি এই পরীক্ষায় খারাপ গ্রেড পাও তাহলে কী হবে? তোমাকে চূড়ান্ত পরীক্ষায় এটি কভার করার সময় আছে।",
       "explanation_en": "What if you get a poor grade in this exam? You have time to cover it up in the final exam.",
@@ -6902,7 +6902,7 @@
         "had better",
         "was born"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "নিশুতি রাতে আতঙ্ক সৃষ্টিকর চলচ্চিত্র দেখতে কেমন?",
       "explanation_en": "What is it like watching horror movie at dead of night?",
@@ -7293,7 +7293,7 @@
         "am used to",
         "what if"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "আমি আজ তোমার সাথে সাক্ষাৎ করতে অসমর্থ। যদি আজ অপরাহ্ণের পরিবর্তে তুমি আগামীকাল আস তাহলে কী হবে?",
       "explanation_en": "I am not able to meet you today. What if you come tomorrow instead of the afternoon?",
@@ -7316,7 +7316,7 @@
         "am used to",
         "what if"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "রিনার ভাই গতরাতে মারা গেছেন। যেইমাত্র তার পিতামাতা সংবাদটি শুনতে পেলেন, তারা কান্নায় ভেঙে পড়লেন।",
       "explanation_en": "As soon as her parents heard the news, they burst into tears.",
@@ -7615,7 +7615,7 @@
         "what's it like",
         "was born"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "সামুদ্রিক মাছ খেতে কেমন? আমার মনে হয় বেশ মজা পাবে।",
       "explanation_en": "What's it like eating a sea fish? I think you will enjoy a lot.",
@@ -7799,7 +7799,7 @@
         "used to",
         "lest"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "লোকটি স্টেশনে প্রবেশ করা মাত্রই ট্রেন ছেড়ে দিল। সে ট্রেনে উঠার জন্য যত দ্রুত পারলো দৌড় দিল কিন্তু বৃথা।",
       "explanation_en": "As soon as the man entered the station, the train left.",
@@ -8144,7 +8144,7 @@
         "there",
         "it"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "সোলোমন নামে এক রাজা ছিলেন। তিনি ছিলেন ক্ষমতাশালী ও বুদ্ধিমান।",
       "explanation_en": "There was a king named Solomon. He was powerful and intelligent.",
@@ -8190,7 +8190,7 @@
         "there",
         "it"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "ইংরেজি স্টাইলে জীবনযাপন কেমন? লন্ডনে তোমার জীবন খুব সুখী মনে হয়।",
       "explanation_en": "What's it like living in English style? You seem to be happy with your life in London.",
@@ -8351,7 +8351,7 @@
         "it",
         "what's it like"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "গাছ খুব উপকারী। তারা আমাদেরকে অক্সিজেন দেয়। আমরা যদি নির্বিচারে গাছ কাটি তাহলে কী হবে?",
       "explanation_en": "Trees are very useful. They give us oxygen. What if we cut down trees at random?",
@@ -8374,7 +8374,7 @@
         "it",
         "what's it like"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "এখন রাত ১১টা। আমি তোমার সাথে আর কথা বলতে পারছি না। আমার ঘুম পাচ্ছে।",
       "explanation_en": "It is 11 pm. I cannot talk to you anymore. I feel sleepy.",
@@ -8397,7 +8397,7 @@
         "it",
         "what's it like"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "আমাদের দেশে অনেক সুন্দর সুন্দর জায়গা রয়েছে। দেশি বিদেশি পর্যটকগণ এই স্থানগুলো পরিদর্শন করতে আসে।",
       "explanation_en": "There are many beautiful places in our country. Tourists from home and abroad come to visit these places.",
@@ -8420,7 +8420,7 @@
         "it",
         "what's it like"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "পাহাড়ে উঠতে কেমন লাগে? এটি আমার কাছে উত্তেজনাকর মনে হয়।",
       "explanation_en": "What's it like going up the hill? It seems very exciting to me.",
@@ -8719,7 +8719,7 @@
         "has to",
         "had better"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "সমগ্র এলাকা ইতিপূর্বে বৃষ্টির পানিতে ভরে গিয়েছিল। আবার যদি বৃষ্টি হয় তাহলে কী হবে?",
       "explanation_en": "The whole area is already covered by rain water. What if it rains again?",
@@ -9317,7 +9317,7 @@
         "would rather",
         "what's it like"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "প্রধান অতিথি আসা মাত্রই শ্রোতৃমণ্ডলী নীরব রইলো।",
       "explanation_en": "As soon as the chief guest came, the audience kept silent.",
@@ -9524,7 +9524,7 @@
         "as if",
         "what does....look like"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "আজ টেলিফোনে অসংখ্য কথা বলা হয়েছে। এ মাসে টেলিফোন বিল খুব বেশি হবে।",
       "explanation_en": "There have been a number of telephone calls today.",
@@ -9685,7 +9685,7 @@
         "as if",
         "what does....look like"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "নৌকা ভ্রমণ কেমন? এটি ধীর গতিসম্পন্ন কিন্তু আনন্দদায়ক।",
       "explanation_en": "What's it like travelling by a boat? It's slow but interesting.",
@@ -10007,7 +10007,7 @@
         "let alone",
         "would rather"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "রাস্তাটি আজ ভিড়ে ঠাসাঠাসি। রিকশা ছেড়ে হেঁটে বাড়ি গেলে কেমন হয়?",
       "explanation_en": "The road is jam-packed today. What if we leave the rickshaw and walk home?",
@@ -10145,7 +10145,7 @@
         "let alone",
         "would rather"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "আমাকে কিছুটা ভুল মনে হচ্ছে। আমাকে বিষয়টির উপর পুনরায় ভাবতে হবে।",
       "explanation_en": "There seems to be something wrong.",
@@ -10191,7 +10191,7 @@
         "used to",
         "there"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "শিকারি একটি পাখির দিকে তার তীর লক্ষ্যস্থির করলো। সে ধনুকের দড়ি টান দিতেই পাখিটি পালিয়ে গেল।",
       "explanation_en": "As soon as he pulled the string of the bow, it flew away.",
@@ -10214,7 +10214,7 @@
         "used to",
         "there"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "বটগাছটির নিচে একটি চায়ের দোকান অবস্থান করছিল।",
       "explanation_en": "There stood a tea stall under the banyan tree.",
@@ -10375,7 +10375,7 @@
         "used to",
         "there"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "প্রাতঃভ্রমণে অভ্যস্ত হও। সুস্বাস্থ্য বজায় রাখতে হাঁটা খুব গুরুত্বপূর্ণ।",
       "explanation_en": "Get used to walking in the morning. Walking is very important to keep a sound health.",
@@ -10536,7 +10536,7 @@
         "bear",
         "at stake"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "যেইমাত্র প্রভু খেতে বসলেন, তখনি তিনি নিরুদ্দিষ্ট পাটি লক্ষ করলেন।",
       "explanation_en": "As soon as the master sat down to eat, he noticed the missing leg.",
@@ -10674,7 +10674,7 @@
         "have to",
         "it"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "চীন দেশেই সম্ভবত প্রায় ১০০০ বছর পূর্বে বনসাই শিল্প উদ্ভূত হয়েছিল।",
       "explanation_en": "It was in China that the art of Bonsai originated perhaps more than 1000 years ago.",
@@ -10973,7 +10973,7 @@
         "would rather",
         "but for"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "তুমি ছাতা ছাড়া বাইরে যাচ্ছ। যদি বৃষ্টি নামে তাহলে কী হবে?",
       "explanation_en": "You are going out without an umbrella. What if it starts raining?",
@@ -10996,7 +10996,7 @@
         "would rather",
         "but for"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "তোমার সাহায্য ছাড়া, আমি বিপদে পড়তাম।",
       "explanation_en": "But for your help, I would have been in danger.",
@@ -11019,7 +11019,7 @@
         "would rather",
         "but for"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "আমি কখনো ঘূর্ণায়মান রোলার-কোস্টারে চড়িনি। এটায় চড়তে কেমন?",
       "explanation_en": "I have never ridden on a roller-coaster. What's it like riding on it?",
@@ -11111,7 +11111,7 @@
         "what's it like",
         "let alone"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "ভারি বর্ষণ হচ্ছে। বাস না আসলে কী হবে?",
       "explanation_en": "It is raining heavily. What if the bus doesn't come?",
@@ -11157,7 +11157,7 @@
         "what's it like",
         "let alone"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "আপনি এখন ক্ষুধার্ত। আপনি অনুগ্রহ করে স্যান্ডউইচ নিবেন কী?",
       "explanation_en": "You are hungry now. Would you mind taking a sandwich?",
@@ -11180,7 +11180,7 @@
         "what's it like",
         "let alone"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "প্রান্ত বিদেশ যেতে পছন্দ করে। সে বিমানবন্দরে পৌঁছতে না পৌঁছতেই বিমান অবতরণ করলো।",
       "explanation_en": "No sooner had he arrived at the airport than the airliner landed.",
@@ -11203,7 +11203,7 @@
         "what's it like",
         "let alone"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "তোমার সাহায্য ছাড়া, আমি সত্যিকার ঝামেলায় পড়তাম। আমি তোমার প্রতি কৃতজ্ঞ।",
       "explanation_en": "But for your help, I would have been in real trouble.",
@@ -11226,7 +11226,7 @@
         "what's it like",
         "let alone"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "বনে বাস করতে কেমন? আফ্রিকার অনেক মানুষ বনে বাস করে।",
       "explanation_en": "What's it like living in a forest?",
@@ -11387,7 +11387,7 @@
         "as soon as",
         "what...look like"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "মনে হচ্ছে যে এখানে দুর্ঘটনা ঘটেছে।",
       "explanation_en": "It appears that there has been an accident.",
@@ -11433,7 +11433,7 @@
         "as soon as",
         "what...look like"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "ট্রেন ভ্রমণ বিরক্তিকর, আমরা বাসে গেলে কী হবে?",
       "explanation_en": "Train journey is tiresome. What if we go by bus?",
@@ -11456,7 +11456,7 @@
         "as soon as",
         "what...look like"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "এটি ছিল একটি ছোটো গাড়ি। গাড়ির মধ্যে বেশি জায়গা ছিল না।",
       "explanation_en": "It was a tiny car. There wasn't much room inside the car.",
@@ -11525,7 +11525,7 @@
         "as soon as",
         "what...look like"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "রাস্তায় বাইসাইকেল চালাতে কেমন? তোমাকে খুব উত্তেজিত মনে হচ্ছে।",
       "explanation_en": "What's it like riding bicycle in the road?",
@@ -11755,7 +11755,7 @@
         "hardly had",
         "as far as"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "যতদূর আমি জানি, তিনি একজন খুবই সরল মানুষ।",
       "explanation_en": "As far as I know, he is a very simple man.",
@@ -11801,7 +11801,7 @@
         "but for",
         "provided that"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "তুমি রাস্তা পার হচ্ছো। যদি একটি বাস তোমাকে আঘাত করে তাহলে কী হবে?",
       "explanation_en": "You are crossing the road. What if a bus hits you?",
@@ -11824,7 +11824,7 @@
         "but for",
         "provided that"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "তোমার ধারণা ছাড়া, আমার পরিকল্পনা সম্পূর্ণ ব্যর্থ হতো।",
       "explanation_en": "But for your idea, my plan would have been a complete failure.",
@@ -11870,7 +11870,7 @@
         "but for",
         "provided that"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "তোমার পিকনিকটা কেমন ছিলো? আশা করি তুমি এটি বেশ উপভোগ করেছো।",
       "explanation_en": "What about your picnic? I hope you enjoyed it a lot.",
@@ -11893,7 +11893,7 @@
         "but for",
         "provided that"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "বিমান ভ্রমণ একটি আনন্দদায়ক অভিজ্ঞতা। নৌকায় ভ্রমণ করতে কেমন?",
       "explanation_en": "Travelling by air is a pleasant experience. What's it like travelling by boat?",
@@ -11939,7 +11939,7 @@
         "but for",
         "provided that"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "পরীক্ষায় তুমি পাস করবে তার কোনো নিশ্চয়তা নেই। যদি তুমি পরীক্ষায় পাস না করো তাহলে কী হবে?",
       "explanation_en": "There is no guarantee that you will pass the exam. What if you do not pass the exam?",
@@ -11962,7 +11962,7 @@
         "but for",
         "provided that"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "যদি বৃষ্টি হয়, তাহলে আমরা বাড়িতে থাকবো।",
       "explanation_en": "Provided that it rains, we will stay at home.",
@@ -12054,7 +12054,7 @@
         "what if",
         "it"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "আপনি কি অ্যাসাইনমেন্টে আমাকে সাহায্য করবেন? এটি জরুরি।",
       "explanation_en": "Would you mind helping me with the assignment? It's urgent.",
@@ -12100,7 +12100,7 @@
         "what if",
         "it"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "সাবমেরিনে ভ্রমণ করতে কেমন লাগে?",
       "explanation_en": "What's it like travelling in a submarine?",
@@ -12146,7 +12146,7 @@
         "what if",
         "it"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "তোমার সময়োপযোগী সাহায্য ছাড়া, আমি ধ্বংস হয়ে যেতাম।",
       "explanation_en": "But for your timely help, I would have been ruined.",
@@ -12192,7 +12192,7 @@
         "what if",
         "it"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "তাজা শাকসবজি খাওয়া একটি ভালো ধারণা।",
       "explanation_en": "It is a good idea to eat fresh vegetables.",
@@ -12238,7 +12238,7 @@
         "what's it like",
         "had better"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "নতুন শপিং মলটি দেখতে কেমন?",
       "explanation_en": "What's it like visiting the new shopping mall?",
@@ -12307,7 +12307,7 @@
         "what's it like",
         "had better"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "আমি একজন আশাবাদী। যতদূর জানি, তারা ফিরে আসবে।",
       "explanation_en": "I am an optimist. As far as I know, they will come round.",
@@ -12330,7 +12330,7 @@
         "what's it like",
         "had better"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "এটি একটি দীর্ঘ ভ্রমণ ছিল। তুমি ক্লান্ত দেখাচ্ছো।",
       "explanation_en": "It was a long journey. You look tired.",
@@ -12376,7 +12376,7 @@
         "what's it like",
         "had better"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "আমরা যদি তাড়াতাড়ি শুরু করি, তাহলে কি ঠিক হবে?",
       "explanation_en": "What if we start early, will it be okay?",
@@ -12445,7 +12445,7 @@
         "what's it like",
         "had better"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "সিলেট থেকে ঢাকা অনেক বড় দূরত্ব।",
       "explanation_en": "There is a great distance from Sylhet to Dhaka.",
@@ -12491,7 +12491,7 @@
         "would you mind",
         "in order to"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "তোমার বিশেষজ্ঞ মতামত ছাড়া, আমাদের কোম্পানি দেউলিয়া হয়ে যেত।",
       "explanation_en": "But for your expert opinion, our company would have gone bankrupt.",
@@ -12560,7 +12560,7 @@
         "would you mind",
         "in order to"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "দরজাটি খুলবেন কি? এখানে খুব গরম।",
       "explanation_en": "Would you mind opening the door? It's very hot here.",
@@ -12583,7 +12583,7 @@
         "would you mind",
         "in order to"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "সে যদি আমাকে প্রস্তাব দেয়, তবুও আমি তাকে বিয়ে করবো না।",
       "explanation_en": "What if he proposes me, I won't marry him.",
@@ -12629,7 +12629,7 @@
         "would you mind",
         "in order to"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "একবার হারিয়ে গেলে ভালো স্বাস্থ্য ফিরে পাওয়া কঠিন।",
       "explanation_en": "It is difficult to acquire good health once lost.",
@@ -12675,7 +12675,7 @@
         "would you mind",
         "in order to"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "আগামীকাল ছুটির দিন। আমরা পার্কে পিকনিক উপভোগ করি, কেমন হবে?",
       "explanation_en": "Tomorrow is holiday. What about we enjoy a picnic in the park?",
@@ -12698,7 +12698,7 @@
         "would rather",
         "but for"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "রাস্তায় অনেক লোকের সমাগম। ব্যাপার কী?",
       "explanation_en": "There a large crowd on the street. What is the matter?",
@@ -12744,7 +12744,7 @@
         "would rather",
         "but for"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "আমাদের ক্লাসের প্রতিটি শিক্ষার্থী পরীক্ষায় ভালো করে। যদি রাহাত ফেল করে তাহলে কী হবে?",
       "explanation_en": "Every student of our class does well in the examination. What if Rahat fails?",
@@ -12882,7 +12882,7 @@
         "would rather",
         "but for"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "পানি ছাড়া বেঁচে থাকা মোটেও সম্ভব না।",
       "explanation_en": "It is not possible to live without water at all.",
@@ -12951,7 +12951,7 @@
         "no sooner had",
         "but for"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "যতদূর আমি জানি, সে মিথ্যাবাদী।",
       "explanation_en": "As far as I know, he is a liar.",
@@ -13020,7 +13020,7 @@
         "no sooner had",
         "but for"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "এই মুহূর্তে লাইব্রেরিতে যাওয়া কেমন হবে?",
       "explanation_en": "What about going to the library at this moment?",
@@ -13066,7 +13066,7 @@
         "no sooner had",
         "but for"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "সেখানে একটি ভালো সিনেমা আছে।",
       "explanation_en": "There there, there is a good cinema.",
@@ -13135,7 +13135,7 @@
         "no sooner had",
         "but for"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "আমরা যদি ট্রেন মিস করি, তাহলে আমরা কী করবো?",
       "explanation_en": "What if we miss the train, what shall we do then?",
@@ -13158,7 +13158,7 @@
         "rather than",
         "would rather"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "তোমার সময়োপযোগী হস্তক্ষেপ ছাড়া, আমি নিহত হতাম।",
       "explanation_en": "But for your timely intervention, I would have been killed.",
@@ -13227,7 +13227,7 @@
         "rather than",
         "would rather"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "বাড়িতে পড়াশোনা না করে, সে কোচিংয়ে যায়।",
       "explanation_en": "Rather than studying at home, he goes to coaching.",
@@ -13250,7 +13250,7 @@
         "rather than",
         "would rather"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "আমি উড়তে চাই। পাখির মতো উড়তে কেমন লাগে?",
       "explanation_en": "I want to fly. What's it like flying like a bird?",
@@ -13342,7 +13342,7 @@
         "rather than",
         "would rather"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "লোকটি অত্যন্ত কৃপণ। সে তার মেয়েকে বিয়ে দিতে পারে না। যদি সে না দেয় তাহলে কী হবে?",
       "explanation_en": "The man is extremely miserly. He cannot give his daughter in marriage. What if he does?",
@@ -13365,7 +13365,7 @@
         "rather than",
         "would rather"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "তোমার বাড়ি থেকে কলেজ পর্যন্ত অনেক দীর্ঘ পথ।",
       "explanation_en": "It is a long way from your home to the college.",
@@ -13388,7 +13388,7 @@
         "in order to",
         "would you mind"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "আমাদের সাথে বাজারে যাওয়া কেমন হবে?",
       "explanation_en": "What about going to the market with us?",
@@ -13411,7 +13411,7 @@
         "in order to",
         "would you mind"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "তোমার আন্তরিক সাহায্য ছাড়া, আমি গন্তব্যে পৌঁছাতে পারতাম না।",
       "explanation_en": "But for your cordial help, I would not have reached the destination.",
@@ -13526,7 +13526,7 @@
         "in order to",
         "would you mind"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "এটি একটি বিজ্ঞ উক্তি যে স্বাস্থ্যই সম্পদ।",
       "explanation_en": "It is a wise saying that health is wealth.",
@@ -13549,7 +13549,7 @@
         "in order to",
         "would you mind"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "বিরক্ত না হয়ে, বরং সে কলেজে গেল।",
       "explanation_en": "Rather than being upset, he went to college.",
@@ -13595,7 +13595,7 @@
         "in order to",
         "would you mind"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "বিশ্রাম নেওয়া কেমন হবে? তুমি ক্লান্ত দেখাচ্ছে।",
       "explanation_en": "What about taking rest? You look tired.",
@@ -13664,7 +13664,7 @@
         "in case",
         "hardly ever"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "তোমার সহায়তা ছাড়া, আমি ভীষণ সমস্যায় পড়তাম।",
       "explanation_en": "But for your assistance, I would have been in great trouble.",
@@ -13687,7 +13687,7 @@
         "in case",
         "hardly ever"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "আবহাওয়া চমৎকার। পার্কে যাওয়া কেমন হবে?",
       "explanation_en": "The weather is fine. What about going to the park?",
@@ -13733,7 +13733,7 @@
         "in case",
         "hardly ever"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "আমাদের গ্রামের বাজারের সামনে একটি পুকুর আছে।",
       "explanation_en": "There a pond in front of our village market.",
@@ -13779,7 +13779,7 @@
         "in case",
         "hardly ever"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "যদি আমরা ট্রেন মিস করি? তাহলে আমাদের অনেকক্ষণ অপেক্ষা করতে হবে।",
       "explanation_en": "What if we miss the train? We will have to wait for a long time.",
@@ -13802,7 +13802,7 @@
         "in case",
         "hardly ever"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "একটি মূর্খের সাথে তর্ক করা বোকামি।",
       "explanation_en": "It is absurd to argue with a fool.",
@@ -13848,7 +13848,7 @@
         "hardly had",
         "in case"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "আমাদের কলেজে একটি ক্যান্টিন আছে।",
       "explanation_en": "There a canteen in our college.",
@@ -13917,7 +13917,7 @@
         "hardly had",
         "in case"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "ঢাকা থেকে কক্সবাজার অনেক দীর্ঘ পথ।",
       "explanation_en": "It is a long way to Cox's Bazar from Dhaka.",
@@ -13940,7 +13940,7 @@
         "hardly had",
         "in case"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "ডাক্তার না হয়ে, সে একজন শিক্ষকও।",
       "explanation_en": "Rather than being a doctor, he is a teacher too.",
@@ -14032,7 +14032,7 @@
         "hardly had",
         "in case"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "আমি ভ্রমণ পছন্দ করি। বিমানে ভ্রমণ করতে কেমন লাগে?",
       "explanation_en": "I like traveling. What's it like traveling by plane?",
@@ -14055,7 +14055,7 @@
         "hardly had",
         "in case"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "স্টেশনে পৌঁছাতে না পৌঁছাতেই ট্রেন ছেড়ে দিল।",
       "explanation_en": "Hardly had he reached the station than the train left.",
@@ -14078,7 +14078,7 @@
         "what about",
         "rather than"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "শিক্ষিকা না হয়ে, তিনি একজন সমাজকর্মীও বটে।",
       "explanation_en": "Rather than being a teacher, she is a social worker.",
@@ -14147,7 +14147,7 @@
         "what about",
         "rather than"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "একটি উচ্চ শব্দ। ব্যাপার কী?",
       "explanation_en": "There a loud noise. What is the matter?",
@@ -14193,7 +14193,7 @@
         "what about",
         "rather than"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "আজ বিকেলে বাজারে যেতে কেমন হবে?",
       "explanation_en": "What about going to the market this afternoon?",
@@ -14262,7 +14262,7 @@
         "what about",
         "rather than"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "তুমি যদি আমাকে সাহায্য করতে, আমি এটি করতে পারতাম।",
       "explanation_en": "But for you helped me, I could have done it.",
@@ -14377,7 +14377,7 @@
         "it",
         "hardly ever"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "তোমার সাহায্য ছাড়া, আমি শেষ হয়ে যেতাম।",
       "explanation_en": "But for your help, I would have been finished.",
@@ -14400,7 +14400,7 @@
         "it",
         "hardly ever"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "যদি আমি একটি পাখি হতাম! তাহলে আমি উড়তে পারতাম।",
       "explanation_en": "What if I were a bird! I could fly then.",
@@ -14446,7 +14446,7 @@
         "it",
         "hardly ever"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "তোমার বাড়ি থেকে কলেজ পর্যন্ত অনেক দীর্ঘ পথ।",
       "explanation_en": "It is a long way from your home to the college.",
@@ -14492,7 +14492,7 @@
         "it",
         "hardly ever"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "ক্লাসে অনেক ভালো সংখ্যক শিক্ষার্থী আছে।",
       "explanation_en": "There a good number of students in the class.",
@@ -14538,7 +14538,7 @@
         "hardly ever",
         "in order to"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "রাস্তায় অনেক লোকের সমাগম। ব্যাপার কী?",
       "explanation_en": "There a large crowd on the street. What is the matter?",
@@ -14561,7 +14561,7 @@
         "hardly ever",
         "in order to"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "সিনেমা দেখতে যাওয়া কেমন হবে?",
       "explanation_en": "What about going to the cinema?",
@@ -14676,7 +14676,7 @@
         "hardly ever",
         "in order to"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "তার সাহায্য ছাড়া, সে নিহত হতো।",
       "explanation_en": "But for her help, she would have been killed.",
@@ -14699,7 +14699,7 @@
         "hardly ever",
         "in order to"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "শিক্ষক ছাড়া ইংরেজি শেখা খুবই কঠিন।",
       "explanation_en": "It is very difficult to learn English without a teacher.",
@@ -14768,7 +14768,7 @@
         "in order to",
         "rather than"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "আমাদের এলাকায় একটি বড় পুকুর আছে।",
       "explanation_en": "There a large pond in our locality.",
@@ -14906,7 +14906,7 @@
         "in order to",
         "rather than"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "যদি সে বাস মিস করে, তাহলে সে দেরি করবে।",
       "explanation_en": "What if she misses the bus, she will be late.",
@@ -14929,7 +14929,7 @@
         "in order to",
         "rather than"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "উত্তম যোগাযোগের জন্য ইংরেজি শেখা গুরুত্বপূর্ণ।",
       "explanation_en": "It is important to learn English for better communication.",
@@ -14952,7 +14952,7 @@
         "in order to",
         "rather than"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "তার সময়োপযোগী সাহায্য ছাড়া, আমি ব্যর্থ হতাম।",
       "explanation_en": "But for his timely help, I would have failed.",
@@ -14975,7 +14975,7 @@
         "in order to",
         "rather than"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "দুর্ঘটনায় মৃত্যুবরণ না করে, সে স্বাভাবিক মৃত্যুতে মারা গেছে।",
       "explanation_en": "Rather than dying in an accident, he died a natural death.",
@@ -15021,7 +15021,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "চা খাওয়া কেমন হবে? আমরা খুব পিপাসার্ত।",
       "explanation_en": "What about taking tea? We are very thirsty.",
@@ -15113,7 +15113,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "যদি আমরা চূড়ান্ত পরীক্ষায় ফেল করি তাহলে কী হবে?",
       "explanation_en": "What if we fail in the final examination?",
@@ -15136,7 +15136,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "পিকনিকে যাওয়া কেমন হবে?",
       "explanation_en": "What about going on a picnic?",
@@ -15159,7 +15159,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "তোমার সময়োপযোগী সাহায্য ছাড়া, এটি আমার পক্ষে অসম্ভব হতো।",
       "explanation_en": "But for your timely help, it would be impossible for me.",
@@ -15182,7 +15182,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "মসজিদের সামনে একটি পুকুর আছে।",
       "explanation_en": "There a pond in front of the mosque.",
@@ -15205,7 +15205,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "তোমার বাড়ি থেকে আমার বাড়ি পর্যন্ত অনেক দীর্ঘ পথ।",
       "explanation_en": "It is a long way from your home to my house.",
@@ -15251,7 +15251,7 @@
         "had better",
         "in order to"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "গ্রামের মাঝখানে একটি বড় মাঠ আছে।",
       "explanation_en": "There a big field in the middle of the village.",
@@ -15366,7 +15366,7 @@
         "had better",
         "in order to"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "যদি তুমি আমাকে সাহায্য করো, আমি তোমার প্রতি কৃতজ্ঞ হবো।",
       "explanation_en": "What if you help me, I would be grateful to you.",
@@ -15389,7 +15389,7 @@
         "had better",
         "in order to"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "আমার বাড়ি থেকে কলেজ পর্যন্ত অনেক দীর্ঘ পথ।",
       "explanation_en": "It is a long way from my house to the college.",
@@ -15435,7 +15435,7 @@
         "had better",
         "in order to"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "ট্যাক্সি নেওয়ার পরিবর্তে হাঁটা কেমন হবে?",
       "explanation_en": "What about walking instead of taking a taxi?",
@@ -15458,7 +15458,7 @@
         "hardly ever",
         "but for"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "তোমার সময়োপযোগী সাহায্য ছাড়া, আমি পরীক্ষায় ব্যর্থ হতাম।",
       "explanation_en": "But for your timely help, I would have failed in the examination.",
@@ -15481,7 +15481,7 @@
         "hardly ever",
         "but for"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "কলেজের পাশে একটি বড় মসজিদ আছে।",
       "explanation_en": "There a big mosque beside the college.",
@@ -15619,7 +15619,7 @@
         "hardly ever",
         "but for"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "যদি বাড়ির মালিক আসে তাহলে কী হবে?",
       "explanation_en": "What if the owner of the house comes?",
@@ -15642,7 +15642,7 @@
         "hardly ever",
         "but for"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "চাকরি না করে, সে ব্যবসা চালায়।",
       "explanation_en": "Rather than doing a job, he runs a business.",
@@ -15665,7 +15665,7 @@
         "hardly ever",
         "but for"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "এখনই লাইব্রেরিতে যাওয়া কেমন হবে?",
       "explanation_en": "What about going to the library right now?",
@@ -15688,7 +15688,7 @@
         "but for",
         "in case"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "তোমার উদ্যোগ ছাড়া, আমরা সফল হতাম না।",
       "explanation_en": "But for your initiative, we wouldn't have succeeded.",
@@ -15734,7 +15734,7 @@
         "but for",
         "in case"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "আবহাওয়া খুব চমৎকার। মাঠে খেলতে যাওয়া কেমন হবে?",
       "explanation_en": "The weather is very fine. What about going to the field to play?",
@@ -15803,7 +15803,7 @@
         "but for",
         "in case"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "যদি আমরা সেখানে না যাই তাহলে কী হবে?",
       "explanation_en": "What if we don't go there what will happen?",
@@ -15826,7 +15826,7 @@
         "but for",
         "in case"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "আজ রাতে টিভিতে একটি খুব ভালো সিনেমা আছে।",
       "explanation_en": "There is a very good film on TV tonight.",
@@ -15872,7 +15872,7 @@
         "but for",
         "in case"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "জীবনে সময়ানুবর্তী হওয়া খুবই গুরুত্বপূর্ণ।",
       "explanation_en": "It is very important to be punctual in life.",
@@ -15964,7 +15964,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "তোমার সময়োপযোগী সাহায্য ছাড়া, আমি বিপদে পড়তাম।",
       "explanation_en": "But for your timely help, I would have been in danger.",
@@ -16010,7 +16010,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "আমাদের এলাকায় একটি উচ্চ বিদ্যালয় আছে।",
       "explanation_en": "There is a high school in our locality.",
@@ -16033,7 +16033,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "বেড়াতে যাওয়া কেমন হবে?",
       "explanation_en": "What about going out for a walk?",
@@ -16079,7 +16079,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "যদি আমরা ট্রেন ধরতে না পারি তাহলে কী হবে?",
       "explanation_en": "What if we cannot catch the train?",
@@ -16102,7 +16102,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "সকালে হাঁটা স্বাস্থ্যের জন্য ভালো।",
       "explanation_en": "It is good for health to walk in the morning.",
@@ -16171,7 +16171,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "দিনটি খুব গরম। নদীতে যাওয়া কেমন হবে?",
       "explanation_en": "The day is very hot. What about going to the river?",
@@ -16240,7 +16240,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "গ্রামের কাছে একটি বড় মাঠ আছে।",
       "explanation_en": "There a big field near the village.",
@@ -16263,7 +16263,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "তোমার সময়োপযোগী সাহায্য ছাড়া, আমি সমস্যায় পড়তাম।",
       "explanation_en": "But for your timely help, I would be in trouble.",
@@ -16286,7 +16286,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "স্নাতক শেষে ভালো চাকরি পাওয়া সম্ভব।",
       "explanation_en": "It is possible to get a good job after graduation.",
@@ -16332,7 +16332,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "যদি আমরা এখন শুরু করি, আমরা সময়মতো সেখানে পৌঁছে যাবো।",
       "explanation_en": "What if we start now, we will reach there in time.",
@@ -16355,7 +16355,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "ডাক্তার না হয়ে, তিনি একজন সমাজকর্মী।",
       "explanation_en": "Rather than being a doctor, he is a social worker.",
@@ -16470,7 +16470,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "কলেজের সামনে একটি সুন্দর বাগান আছে।",
       "explanation_en": "There a beautiful garden in front of the college.",
@@ -16493,7 +16493,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "তোমার সময়োপযোগী সাহায্য ছাড়া, আমি বিপদে পড়তাম।",
       "explanation_en": "But for your timely help, I would have been in danger.",
@@ -16516,7 +16516,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "যদি তারা প্রস্তাব প্রত্যাখ্যান করে তাহলে কী হবে? আমাদের আবার ভাবতে হবে।",
       "explanation_en": "What if they reject the proposal? We will have to think again.",
@@ -16539,7 +16539,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "ডাক্তার না হয়ে, তিনি একজন কবি।",
       "explanation_en": "Rather than being a doctor, he is a poet.",
@@ -16562,7 +16562,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "খেলার জন্য মাঠে যাওয়া কেমন হবে?",
       "explanation_en": "What about going to the field to play?",
@@ -16585,7 +16585,7 @@
         "it",
         "in case"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "জীবনে সৎ হওয়া খুবই গুরুত্বপূর্ণ।",
       "explanation_en": "It is very important to be honest in life.",
@@ -16608,7 +16608,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "একা একা কাজটি করা সম্ভব নয়।",
       "explanation_en": "It is not possible to do the task all alone.",
@@ -16677,7 +16677,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "তোমার সময়োপযোগী সাহায্য ছাড়া, আমি ডুবে যেতাম।",
       "explanation_en": "But for your timely help, I would have sunk.",
@@ -16700,7 +16700,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "কলেজে একটি বড় লাইব্রেরি আছে।",
       "explanation_en": "There a big library in the college.",
@@ -16723,7 +16723,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "বিকেলে বাজারে যাওয়া কেমন হবে?",
       "explanation_en": "What about going to the market in the afternoon?",
@@ -16769,7 +16769,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "যদি সে ফেল করে, জীবন তার জন্য নরক হবে।",
       "explanation_en": "What if he fails, life will be a hell for him.",
@@ -16815,7 +16815,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "সেখানে না গিয়ে, সে অলস বসে থাকে।",
       "explanation_en": "Rather than going there, he sits idle.",
@@ -16838,7 +16838,7 @@
         "in case",
         "rather than"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "তোমার সহযোগিতা ছাড়া, আমি ব্যর্থ হতাম।",
       "explanation_en": "But for your cooperation, I would have failed.",
@@ -16930,7 +16930,7 @@
         "in case",
         "rather than"
       ],
-      "correct": 0,
+      "correct": 9,
       "difficulty": "medium",
       "explanation_bn": "বক্তৃতা না দিয়ে, সে একটি গান গাইলো।",
       "explanation_en": "Rather than giving a lecture, he sang a song.",
@@ -16953,7 +16953,7 @@
         "in case",
         "rather than"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "শহরের কেন্দ্রে একটি বড় পার্ক আছে।",
       "explanation_en": "There a big park in the centre of the town.",
@@ -16976,7 +16976,7 @@
         "in case",
         "rather than"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "এখন মাঠে যাওয়া কেমন হবে? আমরা অনেক দেরি করেছি।",
       "explanation_en": "What about going to the field now? We are very late.",
@@ -16999,7 +16999,7 @@
         "in case",
         "rather than"
       ],
-      "correct": 0,
+      "correct": 7,
       "difficulty": "medium",
       "explanation_bn": "বিশুদ্ধ বাতাস ছাড়া বেঁচে থাকা খুব কঠিন।",
       "explanation_en": "It is very difficult to live without pure air.",
@@ -17045,7 +17045,7 @@
         "in case",
         "rather than"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation_bn": "যদি তুমি দেরি করো তাহলে কী হবে? তোমাকে শাস্তি দেওয়া হবে।",
       "explanation_en": "What if you are late? You will be punished.",
@@ -17068,7 +17068,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 8,
       "difficulty": "medium",
       "explanation_bn": "সিনেমায় যাওয়া কেমন হবে? আমি একটি সিনেমা দেখতে চাই।",
       "explanation_en": "What about going to the cinema? I want to see a film.",
@@ -17114,7 +17114,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation_bn": "যদি সে চাকরি পেতে ব্যর্থ হয় তাহলে কী হবে? সে দুর্ভাগা হবে।",
       "explanation_en": "What if he fails to get the job? He will be miserable.",
@@ -17160,7 +17160,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 6,
       "difficulty": "medium",
       "explanation_bn": "মেডিসিন না পড়ে, সে ইঞ্জিনিয়ারিং পড়ে।",
       "explanation_en": "Rather than studying medicine, he studies engineering.",
@@ -17183,7 +17183,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 4,
       "difficulty": "medium",
       "explanation_bn": "টেবিলের উপর একটি বই আছে।",
       "explanation_en": "There a book on the table.",
@@ -17206,7 +17206,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 5,
       "difficulty": "medium",
       "explanation_bn": "ব্যবসা শুরু করা একটি ভালো ধারণা।",
       "explanation_en": "It is a good idea to start a business.",
@@ -17275,7 +17275,7 @@
         "what about",
         "in case"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation_bn": "তোমার সময়োপযোগী সাহায্য ছাড়া, আমি মৃত হতাম।",
       "explanation_en": "But for your timely help, I would have been dead.",

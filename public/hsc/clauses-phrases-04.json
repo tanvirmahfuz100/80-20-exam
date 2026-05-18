@@ -4168,8 +4168,8 @@
       },
       {
         "item": "f",
-        "context": "The boy was playing when ________.",
-        "question_text": "He stopped his playing at once.",
+        "context": "He stopped his playing at once.",
+        "question_text": "The boy was playing when ________.",
         "options": [
           "the rain started",
           "it started raining",
@@ -5765,8 +5765,8 @@
       },
       {
         "item": "c",
-        "context": "Sanjida was writing quite well in the exam when suddenly she ________.",
-        "question_text": "As a result, she could not finish the exam with satisfaction.",
+        "context": "As a result, she could not finish the exam with satisfaction.",
+        "question_text": "Sanjida was writing quite well in the exam when suddenly she ________.",
         "options": [
           "heard the final bell",
           "the time was over",
@@ -6502,8 +6502,8 @@
       },
       {
         "item": "d",
-        "context": "Though the pen writes well, ________.",
-        "question_text": "I can't afford to use it.",
+        "context": "I can't afford to use it.",
+        "question_text": "Though the pen writes well, ________.",
         "options": [
           "it is highly expensive",
           "it is too costly",
@@ -7070,8 +7070,8 @@
       },
       {
         "item": "h",
-        "context": "Whenever I go to visit the factory, I ________.",
-        "question_text": "He must account for his absence.",
+        "context": "He must account for his absence.",
+        "question_text": "Whenever I go to visit the factory, I ________.",
         "options": [
           "inform my friend",
           "must inform my friend",
@@ -8452,8 +8452,8 @@
       },
       {
         "item": "f",
-        "context": "My father is going to build ________.",
-        "question_text": "I must help him.",
+        "context": "I must help him.",
+        "question_text": "My father is going to build ________.",
         "options": [
           "a new house",
           "a building",
@@ -8928,8 +8928,8 @@
       },
       {
         "item": "f",
-        "context": "As it is a difficult task, ________.",
-        "question_text": "He is not very skilled in doing such work.",
+        "context": "He is not very skilled in doing such work.",
+        "question_text": "As it is a difficult task, ________.",
         "options": [
           "he cannot do it",
           "he is unable to do it",
@@ -10164,8 +10164,8 @@
       },
       {
         "item": "h",
-        "context": "Despite the rain, ________.",
-        "question_text": "He was in a hurry as usual.",
+        "context": "He was in a hurry as usual.",
+        "question_text": "Despite the rain, ________.",
         "options": [
           "he completed his daily activities",
           "he went out",
@@ -11546,8 +11546,8 @@
       },
       {
         "item": "f",
-        "context": "The poem was too difficult for us to understand.",
-        "question_text": "The teacher told us to listen to him very carefully.",
+        "context": "The teacher told us to listen to him very carefully.",
+        "question_text": "The poem was too difficult for us ________.",
         "options": [
           "to understand",
           "for us",
@@ -12690,8 +12690,8 @@
       },
       {
         "item": "d",
-        "context": "Our country is not only beautiful ________.",
-        "question_text": "We are proud of it.",
+        "context": "We are proud of it.",
+        "question_text": "Our country is not only beautiful ________.",
         "options": [
           "but also rich in natural resources",
           "but also resourceful",

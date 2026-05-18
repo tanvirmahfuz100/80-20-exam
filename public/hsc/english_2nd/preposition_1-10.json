@@ -1,22 +1,122 @@
 {
   "chapter": "Prepositions",
-  "total_passages": 98,
+  "total_passages": 10,
   "passages": [
     {
       "id": 1,
       "title": "Dhaka Board-2019",
       "passage_text": "Mr. Reza works _____(a)_____ a clerk in a local school. He is poor but honest. His honesty is known _____(b)_____ everyone in his locality. He often suffers _____(c)_____ hunger. He is deprived _____(d)_____ comfort and many other things. Nevertheless, he does not long _____(e)_____ wealth. He never hankers _____(f)_____ name and fame. He leads his life _____(g)_____ honest means. He is satisfied _____(h)_____ what he has. But sometimes he runs into debt and poverty is responsible _____(i)_____ this debt. However, he does not like to depend _____(j)_____ others.",
       "blanks": [
-        {"id": "a", "correct_answer": "as", "options": ["as", "like", "for", "in"], "explanation_bn": "ক্লার্ক হিসেবে কাজ করেন - 'as' বসে।"},
-        {"id": "b", "correct_answer": "to", "options": ["to", "by", "for", "with"], "explanation_bn": "সকলের কাছে পরিচিত - 'known to' বসে।"},
-        {"id": "c", "correct_answer": "from", "options": ["from", "with", "by", "of"], "explanation_bn": "ক্ষুধায় কষ্ট পাওয়া - 'suffer from' বসে।"},
-        {"id": "d", "correct_answer": "of", "options": ["of", "from", "by", "to"], "explanation_bn": "বঞ্চিত হওয়া - 'deprived of' বসে।"},
-        {"id": "e", "correct_answer": "for", "options": ["for", "after", "to", "at"], "explanation_bn": "কামনা করা - 'long for' বসে।"},
-        {"id": "f", "correct_answer": "after", "options": ["after", "for", "to", "at"], "explanation_bn": "লালায়িত হওয়া - 'hanker after' বসে।"},
-        {"id": "g", "correct_answer": "by", "options": ["by", "with", "from", "in"], "explanation_bn": "সৎ উপায়ে - 'by honest means' বসে।"},
-        {"id": "h", "correct_answer": "with", "options": ["with", "in", "at", "for"], "explanation_bn": "সন্তুষ্ট থাকা - 'satisfied with' বসে।"},
-        {"id": "i", "correct_answer": "for", "options": ["for", "of", "to", "at"], "explanation_bn": "দায়ী হওয়া - 'responsible for' বসে।"},
-        {"id": "j", "correct_answer": "on", "options": ["on", "upon", "at", "in"], "explanation_bn": "নির্ভর করা - 'depend on/upon' বসে।"}
+        {
+          "id": "a",
+          "correct_answer": "as",
+          "options": [
+            "as",
+            "like",
+            "for",
+            "in"
+          ],
+          "explanation_bn": "ক্লার্ক হিসেবে কাজ করেন - 'as' বসে।"
+        },
+        {
+          "id": "b",
+          "correct_answer": "to",
+          "options": [
+            "to",
+            "by",
+            "for",
+            "with"
+          ],
+          "explanation_bn": "সকলের কাছে পরিচিত - 'known to' বসে।"
+        },
+        {
+          "id": "c",
+          "correct_answer": "from",
+          "options": [
+            "from",
+            "with",
+            "by",
+            "of"
+          ],
+          "explanation_bn": "ক্ষুধায় কষ্ট পাওয়া - 'suffer from' বসে।"
+        },
+        {
+          "id": "d",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "from",
+            "by",
+            "to"
+          ],
+          "explanation_bn": "বঞ্চিত হওয়া - 'deprived of' বসে।"
+        },
+        {
+          "id": "e",
+          "correct_answer": "for",
+          "options": [
+            "for",
+            "after",
+            "to",
+            "at"
+          ],
+          "explanation_bn": "কামনা করা - 'long for' বসে।"
+        },
+        {
+          "id": "f",
+          "correct_answer": "after",
+          "options": [
+            "after",
+            "for",
+            "to",
+            "at"
+          ],
+          "explanation_bn": "লালায়িত হওয়া - 'hanker after' বসে।"
+        },
+        {
+          "id": "g",
+          "correct_answer": "by",
+          "options": [
+            "by",
+            "with",
+            "from",
+            "in"
+          ],
+          "explanation_bn": "সৎ উপায়ে - 'by honest means' বসে।"
+        },
+        {
+          "id": "h",
+          "correct_answer": "with",
+          "options": [
+            "with",
+            "in",
+            "at",
+            "for"
+          ],
+          "explanation_bn": "সন্তুষ্ট থাকা - 'satisfied with' বসে।"
+        },
+        {
+          "id": "i",
+          "correct_answer": "for",
+          "options": [
+            "for",
+            "of",
+            "to",
+            "at"
+          ],
+          "explanation_bn": "দায়ী হওয়া - 'responsible for' বসে।"
+        },
+        {
+          "id": "j",
+          "correct_answer": "on",
+          "options": [
+            "on",
+            "upon",
+            "at",
+            "in"
+          ],
+          "explanation_bn": "নির্ভর করা - 'depend on/upon' বসে।"
+        }
       ]
     },
     {
@@ -24,16 +124,116 @@
       "title": "Rajshahi Board-2019",
       "passage_text": "When the sun was setting _____(a)_____ the treetops, the jailor came _____(b)_____ the room of Socrates to bid him prepare _____(c)_____ death. In those days, people were sentenced to death by giving a cup _____(d)_____ poison in Athens. Socrates knew this and he nodded _____(e)_____ the jailor. Bursting _____(f)_____ tears the jailor went out of the room and returned _____(g)_____ a cup of hemlock. Socrates lifted the cup to his lips. His pupils tried to keep back their tears but soon the room was filled _____(h)_____ the sound of weeping. With the cup of poison _____(i)_____ hand, Socrates said, \"What is the strange sound? I have heard that a man should die _____(j)_____ peace. So be silent and have patience.\"",
       "blanks": [
-        {"id": "a", "correct_answer": "behind", "options": ["behind", "under", "over", "below"], "explanation_bn": "গাছের মাথার নিচে/পিছনে - 'behind/under/over' বসতে পারে।"},
-        {"id": "b", "correct_answer": "into", "options": ["into", "to", "inside", "at"], "explanation_bn": "কক্ষে প্রবেশ করা - 'came into' বসে।"},
-        {"id": "c", "correct_answer": "for", "options": ["for", "to", "of", "from"], "explanation_bn": "মৃত্যুর জন্য প্রস্তুত - 'prepare for' বসে।"},
-        {"id": "d", "correct_answer": "of", "options": ["of", "off", "from", "with"], "explanation_bn": "এক কাপ বিষ - 'a cup of poison'।"},
-        {"id": "e", "correct_answer": "to", "options": ["to", "at", "towards", "for"], "explanation_bn": "সম্মতি জানানো - 'nodded to' বসে।"},
-        {"id": "f", "correct_answer": "into", "options": ["into", "in", "with", "to"], "explanation_bn": "অশ্রু বিসর্জন - 'bursting into tears'।"},
-        {"id": "g", "correct_answer": "with", "options": ["with", "by", "from", "of"], "explanation_bn": "সাথে নিয়ে ফিরল - 'returned with' বসে।"},
-        {"id": "h", "correct_answer": "with", "options": ["with", "of", "by", "in"], "explanation_bn": "পরিপূর্ণ হওয়া - 'filled with' বসে।"},
-        {"id": "i", "correct_answer": "in", "options": ["in", "on", "at", "by"], "explanation_bn": "হাতে - 'in hand' বসে।"},
-        {"id": "j", "correct_answer": "in", "options": ["in", "with", "at", "for"], "explanation_bn": "শান্তিতে মরা - 'die in peace'।"}
+        {
+          "id": "a",
+          "correct_answer": "behind",
+          "options": [
+            "behind",
+            "under",
+            "over",
+            "below"
+          ],
+          "explanation_bn": "গাছের মাথার নিচে/পিছনে - 'behind/under/over' বসতে পারে।"
+        },
+        {
+          "id": "b",
+          "correct_answer": "into",
+          "options": [
+            "into",
+            "to",
+            "inside",
+            "at"
+          ],
+          "explanation_bn": "কক্ষে প্রবেশ করা - 'came into' বসে।"
+        },
+        {
+          "id": "c",
+          "correct_answer": "for",
+          "options": [
+            "for",
+            "to",
+            "of",
+            "from"
+          ],
+          "explanation_bn": "মৃত্যুর জন্য প্রস্তুত - 'prepare for' বসে।"
+        },
+        {
+          "id": "d",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "off",
+            "from",
+            "with"
+          ],
+          "explanation_bn": "এক কাপ বিষ - 'a cup of poison'।"
+        },
+        {
+          "id": "e",
+          "correct_answer": "to",
+          "options": [
+            "to",
+            "at",
+            "towards",
+            "for"
+          ],
+          "explanation_bn": "সম্মতি জানানো - 'nodded to' বসে।"
+        },
+        {
+          "id": "f",
+          "correct_answer": "into",
+          "options": [
+            "into",
+            "in",
+            "with",
+            "to"
+          ],
+          "explanation_bn": "অশ্রু বিসর্জন - 'bursting into tears'।"
+        },
+        {
+          "id": "g",
+          "correct_answer": "with",
+          "options": [
+            "with",
+            "by",
+            "from",
+            "of"
+          ],
+          "explanation_bn": "সাথে নিয়ে ফিরল - 'returned with' বসে।"
+        },
+        {
+          "id": "h",
+          "correct_answer": "with",
+          "options": [
+            "with",
+            "of",
+            "by",
+            "in"
+          ],
+          "explanation_bn": "পরিপূর্ণ হওয়া - 'filled with' বসে।"
+        },
+        {
+          "id": "i",
+          "correct_answer": "in",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "by"
+          ],
+          "explanation_bn": "হাতে - 'in hand' বসে।"
+        },
+        {
+          "id": "j",
+          "correct_answer": "in",
+          "options": [
+            "in",
+            "with",
+            "at",
+            "for"
+          ],
+          "explanation_bn": "শান্তিতে মরা - 'die in peace'।"
+        }
       ]
     },
     {
@@ -41,16 +241,116 @@
       "title": "Jashore Board-2019",
       "passage_text": "Patriotism is the quality inherent _____(a)_____ a man. This is why, he feels a natural attachment _____(b)_____ his native land. Love _____(c)_____ motherland is necessary for the betterment of a nation. The people who are patriotic are noted _____(d)_____ their patriotism. They are different _____(e)_____ other people. Their contribution does not sink _____(f)_____ oblivion. They are worthy _____(g)_____ praise. They lay down their lives for the good of the country. They are not unaware _____(h)_____ their status in the society. They are celebrated _____(i)_____ their patriotism. They should not be looked down _____(j)_____ in any way.",
       "blanks": [
-        {"id": "a", "correct_answer": "in", "options": ["in", "to", "with", "for"], "explanation_bn": "সহজাত গুণ - 'inherent in' বসে।"},
-        {"id": "b", "correct_answer": "to", "options": ["to", "for", "with", "towards"], "explanation_bn": "প্রতি অনুগত - 'attachment to' বসে।"},
-        {"id": "c", "correct_answer": "for", "options": ["for", "of", "to", "with"], "explanation_bn": "ভালোবাসা - 'love for' বসে।"},
-        {"id": "d", "correct_answer": "for", "options": ["for", "by", "with", "of"], "explanation_bn": "জন্য বিখ্যাত - 'noted for' বসে।"},
-        {"id": "e", "correct_answer": "from", "options": ["from", "than", "to", "with"], "explanation_bn": "থেকে আলাদা - 'different from' বসে।"},
-        {"id": "f", "correct_answer": "into", "options": ["into", "in", "to", "under"], "explanation_bn": "ভুলে যাওয়া - 'sink into oblivion'।"},
-        {"id": "g", "correct_answer": "of", "options": ["of", "for", "to", "with"], "explanation_bn": "যোগ্য - 'worthy of' বসে।"},
-        {"id": "h", "correct_answer": "of", "options": ["of", "about", "from", "to"], "explanation_bn": "অবগত না - 'unaware of' বসে।"},
-        {"id": "i", "correct_answer": "for", "options": ["for", "by", "with", "of"], "explanation_bn": "জন্য বিখ্যাত - 'celebrated for' বসে।"},
-        {"id": "j", "correct_answer": "upon", "options": ["upon", "on", "at", "over"], "explanation_bn": "ঘৃণা করা - 'looked down upon'।"}
+        {
+          "id": "a",
+          "correct_answer": "in",
+          "options": [
+            "in",
+            "to",
+            "with",
+            "for"
+          ],
+          "explanation_bn": "সহজাত গুণ - 'inherent in' বসে।"
+        },
+        {
+          "id": "b",
+          "correct_answer": "to",
+          "options": [
+            "to",
+            "for",
+            "with",
+            "towards"
+          ],
+          "explanation_bn": "প্রতি অনুগত - 'attachment to' বসে।"
+        },
+        {
+          "id": "c",
+          "correct_answer": "for",
+          "options": [
+            "for",
+            "of",
+            "to",
+            "with"
+          ],
+          "explanation_bn": "ভালোবাসা - 'love for' বসে।"
+        },
+        {
+          "id": "d",
+          "correct_answer": "for",
+          "options": [
+            "for",
+            "by",
+            "with",
+            "of"
+          ],
+          "explanation_bn": "জন্য বিখ্যাত - 'noted for' বসে।"
+        },
+        {
+          "id": "e",
+          "correct_answer": "from",
+          "options": [
+            "from",
+            "than",
+            "to",
+            "with"
+          ],
+          "explanation_bn": "থেকে আলাদা - 'different from' বসে।"
+        },
+        {
+          "id": "f",
+          "correct_answer": "into",
+          "options": [
+            "into",
+            "in",
+            "to",
+            "under"
+          ],
+          "explanation_bn": "ভুলে যাওয়া - 'sink into oblivion'।"
+        },
+        {
+          "id": "g",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "for",
+            "to",
+            "with"
+          ],
+          "explanation_bn": "যোগ্য - 'worthy of' বসে।"
+        },
+        {
+          "id": "h",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "about",
+            "from",
+            "to"
+          ],
+          "explanation_bn": "অবগত না - 'unaware of' বসে।"
+        },
+        {
+          "id": "i",
+          "correct_answer": "for",
+          "options": [
+            "for",
+            "by",
+            "with",
+            "of"
+          ],
+          "explanation_bn": "জন্য বিখ্যাত - 'celebrated for' বসে।"
+        },
+        {
+          "id": "j",
+          "correct_answer": "upon",
+          "options": [
+            "upon",
+            "on",
+            "at",
+            "over"
+          ],
+          "explanation_bn": "ঘৃণা করা - 'looked down upon'।"
+        }
       ]
     },
     {
@@ -58,16 +358,116 @@
       "title": "Cumilla Board-2019 | Holy Cross College, Dhaka-15 etc.",
       "passage_text": "Preposition connects all type _____(a)_____ words together and supports them make better sense _____(b)_____ the readers. They help us to understand the relationship _____(c)_____ objects. _____(d)_____ example, the book and the table are _____(e)_____ the kitchen. This ensures you a basic understanding. If we add another preposition, it makes it even clearer. This book is _____(f)_____ top of the table _____(g)_____ the kitchen. We have a clear picture _____(h)_____ our mind _____(i)_____ the relation of those two objects and their relationship _____(j)_____ each other.",
       "blanks": [
-        {"id": "a", "correct_answer": "of", "options": ["of", "from", "with", "by"], "explanation_bn": "সব ধরনের - 'all types of' বসে।"},
-        {"id": "b", "correct_answer": "to", "options": ["to", "for", "with", "at"], "explanation_bn": "পাঠকের কাছে - 'sense to the readers'।"},
-        {"id": "c", "correct_answer": "among", "options": ["among", "with", "between", "of"], "explanation_bn": "মধ্যে সম্পর্ক - 'relationship among' বসে।"},
-        {"id": "d", "correct_answer": "For", "options": ["For", "Like", "As", "By"], "explanation_bn": "উদাহরণস্বরূপ - 'For example' (বাক্যের শুরুতে বড় হাতের অক্ষর)।"},
-        {"id": "e", "correct_answer": "in", "options": ["in", "inside", "at", "within"], "explanation_bn": "মধ্যে অবস্থান - 'are in the kitchen'।"},
-        {"id": "f", "correct_answer": "on", "options": ["on", "at", "upon", "over"], "explanation_bn": "উপরে - 'on top of' বসে।"},
-        {"id": "g", "correct_answer": "in", "options": ["in", "inside", "at", "within"], "explanation_bn": "রান্নাঘরে - 'in the kitchen'।"},
-        {"id": "h", "correct_answer": "in", "options": ["in", "on", "within", "inside"], "explanation_bn": "মনের মধ্যে - 'in our mind'।"},
-        {"id": "i", "correct_answer": "about", "options": ["about", "regarding", "concerning", "of"], "explanation_bn": "সম্পর্কে - 'about the relation'।"},
-        {"id": "j", "correct_answer": "with", "options": ["with", "between", "among", "to"], "explanation_bn": "একে অপরের সাথে - 'relationship with each other'।"}
+        {
+          "id": "a",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "from",
+            "with",
+            "by"
+          ],
+          "explanation_bn": "সব ধরনের - 'all types of' বসে।"
+        },
+        {
+          "id": "b",
+          "correct_answer": "to",
+          "options": [
+            "to",
+            "for",
+            "with",
+            "at"
+          ],
+          "explanation_bn": "পাঠকের কাছে - 'sense to the readers'।"
+        },
+        {
+          "id": "c",
+          "correct_answer": "among",
+          "options": [
+            "among",
+            "with",
+            "between",
+            "of"
+          ],
+          "explanation_bn": "মধ্যে সম্পর্ক - 'relationship among' বসে।"
+        },
+        {
+          "id": "d",
+          "correct_answer": "For",
+          "options": [
+            "For",
+            "Like",
+            "As",
+            "By"
+          ],
+          "explanation_bn": "উদাহরণস্বরূপ - 'For example' (বাক্যের শুরুতে বড় হাতের অক্ষর)।"
+        },
+        {
+          "id": "e",
+          "correct_answer": "in",
+          "options": [
+            "in",
+            "inside",
+            "at",
+            "within"
+          ],
+          "explanation_bn": "মধ্যে অবস্থান - 'are in the kitchen'।"
+        },
+        {
+          "id": "f",
+          "correct_answer": "on",
+          "options": [
+            "on",
+            "at",
+            "upon",
+            "over"
+          ],
+          "explanation_bn": "উপরে - 'on top of' বসে।"
+        },
+        {
+          "id": "g",
+          "correct_answer": "in",
+          "options": [
+            "in",
+            "inside",
+            "at",
+            "within"
+          ],
+          "explanation_bn": "রান্নাঘরে - 'in the kitchen'।"
+        },
+        {
+          "id": "h",
+          "correct_answer": "in",
+          "options": [
+            "in",
+            "on",
+            "within",
+            "inside"
+          ],
+          "explanation_bn": "মনের মধ্যে - 'in our mind'।"
+        },
+        {
+          "id": "i",
+          "correct_answer": "about",
+          "options": [
+            "about",
+            "regarding",
+            "concerning",
+            "of"
+          ],
+          "explanation_bn": "সম্পর্কে - 'about the relation'।"
+        },
+        {
+          "id": "j",
+          "correct_answer": "with",
+          "options": [
+            "with",
+            "between",
+            "among",
+            "to"
+          ],
+          "explanation_bn": "একে অপরের সাথে - 'relationship with each other'।"
+        }
       ]
     },
     {
@@ -75,16 +475,116 @@
       "title": "Chattogram Board-2019",
       "passage_text": "What are the qualities of a good student? A good student is always attentive _____(a)_____ his studies. He is never indifferent _____(b)_____ his studies. He does not learn things _____(c)_____ note. He is always curious and innovative. He does not hunt only _____(d)_____ traditional guide books. His thirst _____(e)_____ knowledge knows no bounds. He does not confine himself _____(f)_____ the traditional studies. He is aware _____(g)_____ the current affairs _____(h)_____ the world. He listens _____(i)_____ his teachers and abides _____(j)_____ their advice.",
       "blanks": [
-        {"id": "a", "correct_answer": "to", "options": ["to", "towards", "for", "at"], "explanation_bn": "মনোযোগী - 'attentive to' বসে।"},
-        {"id": "b", "correct_answer": "to", "options": ["to", "towards", "for", "in"], "explanation_bn": "উদাসীন - 'indifferent to' বসে।"},
-        {"id": "c", "correct_answer": "from", "options": ["from", "by", "with", "of"], "explanation_bn": "মুখস্থ না করে - 'learn things from note' নয়, বরং 'not from note'।"},
-        {"id": "d", "correct_answer": "for", "options": ["for", "after", "at", "to"], "explanation_bn": "অনুসরণ করা - 'hunt for' বসে।"},
-        {"id": "e", "correct_answer": "for", "options": ["for", "of", "to", "after"], "explanation_bn": "তৃষ্ণা - 'thirst for' বসে।"},
-        {"id": "f", "correct_answer": "to", "options": ["to", "in", "within", "into"], "explanation_bn": "সীমাবদ্ধ রাখা - 'confine oneself to'।"},
-        {"id": "g", "correct_answer": "of", "options": ["of", "about", "with", "for"], "explanation_bn": "সচেতন - 'aware of' বসে।"},
-        {"id": "h", "correct_answer": "of", "options": ["of", "in", "around", "about"], "explanation_bn": "বিশ্বের - 'of the world'।"},
-        {"id": "i", "correct_answer": "to", "options": ["to", "at", "for", "with"], "explanation_bn": "শোনা - 'listens to' বসে।"},
-        {"id": "j", "correct_answer": "by", "options": ["by", "to", "with", "at"], "explanation_bn": "মেনে চলা - 'abides by' বসে।"}
+        {
+          "id": "a",
+          "correct_answer": "to",
+          "options": [
+            "to",
+            "towards",
+            "for",
+            "at"
+          ],
+          "explanation_bn": "মনোযোগী - 'attentive to' বসে।"
+        },
+        {
+          "id": "b",
+          "correct_answer": "to",
+          "options": [
+            "to",
+            "towards",
+            "for",
+            "in"
+          ],
+          "explanation_bn": "উদাসীন - 'indifferent to' বসে।"
+        },
+        {
+          "id": "c",
+          "correct_answer": "from",
+          "options": [
+            "from",
+            "by",
+            "with",
+            "of"
+          ],
+          "explanation_bn": "মুখস্থ না করে - 'learn things from note' নয়, বরং 'not from note'।"
+        },
+        {
+          "id": "d",
+          "correct_answer": "for",
+          "options": [
+            "for",
+            "after",
+            "at",
+            "to"
+          ],
+          "explanation_bn": "অনুসরণ করা - 'hunt for' বসে।"
+        },
+        {
+          "id": "e",
+          "correct_answer": "for",
+          "options": [
+            "for",
+            "of",
+            "to",
+            "after"
+          ],
+          "explanation_bn": "তৃষ্ণা - 'thirst for' বসে।"
+        },
+        {
+          "id": "f",
+          "correct_answer": "to",
+          "options": [
+            "to",
+            "in",
+            "within",
+            "into"
+          ],
+          "explanation_bn": "সীমাবদ্ধ রাখা - 'confine oneself to'।"
+        },
+        {
+          "id": "g",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "about",
+            "with",
+            "for"
+          ],
+          "explanation_bn": "সচেতন - 'aware of' বসে।"
+        },
+        {
+          "id": "h",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "in",
+            "around",
+            "about"
+          ],
+          "explanation_bn": "বিশ্বের - 'of the world'।"
+        },
+        {
+          "id": "i",
+          "correct_answer": "to",
+          "options": [
+            "to",
+            "at",
+            "for",
+            "with"
+          ],
+          "explanation_bn": "শোনা - 'listens to' বসে।"
+        },
+        {
+          "id": "j",
+          "correct_answer": "by",
+          "options": [
+            "by",
+            "to",
+            "with",
+            "at"
+          ],
+          "explanation_bn": "মেনে চলা - 'abides by' বসে।"
+        }
       ]
     },
     {
@@ -92,16 +592,116 @@
       "title": "Sylhet Board-2019",
       "passage_text": "Luna's cat was missing. So she started looking around _____(a)_____ it. She opened her closet and looked _____(b)_____. Then she went to the bedroom crawling _____(c)_____ the floor to look _____(d)_____ the bed. The cat was not there. In fact, it was nowhere inside the house. Therefore, Luna decided to go _____(e)_____ to look for it. Just as she was _____(f)_____ to open the door, the door bell rang. It was her neighbour, Mrs. Haq. \"Look, Luna! Your cat is _____(g)_____ the sunshade!\" said Mrs. Haq pointing _____(h)_____ a tall building opposite _____(i)_____ her house. Luna smiled and thanked her friendly neighbour, saying that _____(j)_____ her help she would not be able to find out her cat.",
       "blanks": [
-        {"id": "a", "correct_answer": "for", "options": ["for", "at", "to", "after"], "explanation_bn": "খোঁজা - 'looking for' বসে।"},
-        {"id": "b", "correct_answer": "in", "options": ["in", "inside", "into", "at"], "explanation_bn": "ভিতরে তাকাল - 'looked in' বসে।"},
-        {"id": "c", "correct_answer": "on", "options": ["on", "over", "across", "along"], "explanation_bn": "মেঝেতে হামাগুড়ি - 'crawling on the floor'।"},
-        {"id": "d", "correct_answer": "under", "options": ["under", "below", "beneath", "down"], "explanation_bn": "নিচে দেখা - 'look under the bed'।"},
-        {"id": "e", "correct_answer": "out", "options": ["out", "outside", "away", "off"], "explanation_bn": "বাইরে যাওয়া - 'go out' বসে।"},
-        {"id": "f", "correct_answer": "about", "options": ["about", "ready", "going", "just"], "explanation_bn": "উদ্যত হওয়া - 'was about to' বসে।"},
-        {"id": "g", "correct_answer": "on", "options": ["on", "under", "below", "at"], "explanation_bn": "উপরে - 'on the sunshade'।"},
-        {"id": "h", "correct_answer": "at", "options": ["at", "towards", "to", "on"], "explanation_bn": "দিকে নির্দেশ - 'pointing at/towards'।"},
-        {"id": "i", "correct_answer": "to", "options": ["to", "of", "from", "against"], "explanation_bn": "বিপরীতে - 'opposite to' বসে।"},
-        {"id": "j", "correct_answer": "without", "options": ["without", "besides", "except", "beyond"], "explanation_bn": "ছাড়া - 'without her help'।"}
+        {
+          "id": "a",
+          "correct_answer": "for",
+          "options": [
+            "for",
+            "at",
+            "to",
+            "after"
+          ],
+          "explanation_bn": "খোঁজা - 'looking for' বসে।"
+        },
+        {
+          "id": "b",
+          "correct_answer": "in",
+          "options": [
+            "in",
+            "inside",
+            "into",
+            "at"
+          ],
+          "explanation_bn": "ভিতরে তাকাল - 'looked in' বসে।"
+        },
+        {
+          "id": "c",
+          "correct_answer": "on",
+          "options": [
+            "on",
+            "over",
+            "across",
+            "along"
+          ],
+          "explanation_bn": "মেঝেতে হামাগুড়ি - 'crawling on the floor'।"
+        },
+        {
+          "id": "d",
+          "correct_answer": "under",
+          "options": [
+            "under",
+            "below",
+            "beneath",
+            "down"
+          ],
+          "explanation_bn": "নিচে দেখা - 'look under the bed'।"
+        },
+        {
+          "id": "e",
+          "correct_answer": "out",
+          "options": [
+            "out",
+            "outside",
+            "away",
+            "off"
+          ],
+          "explanation_bn": "বাইরে যাওয়া - 'go out' বসে।"
+        },
+        {
+          "id": "f",
+          "correct_answer": "about",
+          "options": [
+            "about",
+            "ready",
+            "going",
+            "just"
+          ],
+          "explanation_bn": "উদ্যত হওয়া - 'was about to' বসে।"
+        },
+        {
+          "id": "g",
+          "correct_answer": "on",
+          "options": [
+            "on",
+            "under",
+            "below",
+            "at"
+          ],
+          "explanation_bn": "উপরে - 'on the sunshade'।"
+        },
+        {
+          "id": "h",
+          "correct_answer": "at",
+          "options": [
+            "at",
+            "towards",
+            "to",
+            "on"
+          ],
+          "explanation_bn": "দিকে নির্দেশ - 'pointing at/towards'।"
+        },
+        {
+          "id": "i",
+          "correct_answer": "to",
+          "options": [
+            "to",
+            "of",
+            "from",
+            "against"
+          ],
+          "explanation_bn": "বিপরীতে - 'opposite to' বসে।"
+        },
+        {
+          "id": "j",
+          "correct_answer": "without",
+          "options": [
+            "without",
+            "besides",
+            "except",
+            "beyond"
+          ],
+          "explanation_bn": "ছাড়া - 'without her help'।"
+        }
       ]
     },
     {
@@ -109,16 +709,116 @@
       "title": "Barishal Board-2019",
       "passage_text": "The old grey bearded sailor sat _____(a)_____ a stone _____(b)_____ the church. The sailor watched the people walking _____(c)_____ him. The marriage guest listened _____(d)_____ him. He had a strange mad look _____(e)_____ his eyes. The old man told him _____(f)_____ his last journey _____(g)_____ the sea. They had sailed away _____(h)_____ the south _____(i)_____ they arrived _____(j)_____ cold grey seas.",
       "blanks": [
-        {"id": "a", "correct_answer": "on", "options": ["on", "upon", "at", "by"], "explanation_bn": "পাথরের উপর - 'sat on a stone'।"},
-        {"id": "b", "correct_answer": "before", "options": ["before", "in front of", "near", "outside"], "explanation_bn": "গির্জার সামনে - 'before the church'।"},
-        {"id": "c", "correct_answer": "past", "options": ["past", "by", "towards", "to"], "explanation_bn": "পাশ দিয়ে হাঁটা - 'walking past him'।"},
-        {"id": "d", "correct_answer": "to", "options": ["to", "at", "for", "with"], "explanation_bn": "শোনা - 'listened to' বসে।"},
-        {"id": "e", "correct_answer": "in", "options": ["in", "on", "within", "inside"], "explanation_bn": "চোখে - 'in his eyes'।"},
-        {"id": "f", "correct_answer": "about", "options": ["about", "of", "regarding", "concerning"], "explanation_bn": "সম্পর্কে বলা - 'told him about'।"},
-        {"id": "g", "correct_answer": "on", "options": ["on", "in", "at", "upon"], "explanation_bn": "সমুদ্রে ভ্রমণ - 'journey on the sea'।"},
-        {"id": "h", "correct_answer": "to", "options": ["to", "towards", "for", "into"], "explanation_bn": "দিকে যাত্রা - 'sailed to the south'।"},
-        {"id": "i", "correct_answer": "until", "options": ["until", "till", "when", "before"], "explanation_bn": "যতক্ষণ না - 'until they arrived'।"},
-        {"id": "j", "correct_answer": "in", "options": ["in", "at", "into", "on"], "explanation_bn": "পৌঁছানো - 'arrived in' বসে (স্থানের ক্ষেত্রে)।"}
+        {
+          "id": "a",
+          "correct_answer": "on",
+          "options": [
+            "on",
+            "upon",
+            "at",
+            "by"
+          ],
+          "explanation_bn": "পাথরের উপর - 'sat on a stone'।"
+        },
+        {
+          "id": "b",
+          "correct_answer": "before",
+          "options": [
+            "before",
+            "in front of",
+            "near",
+            "outside"
+          ],
+          "explanation_bn": "গির্জার সামনে - 'before the church'।"
+        },
+        {
+          "id": "c",
+          "correct_answer": "past",
+          "options": [
+            "past",
+            "by",
+            "towards",
+            "to"
+          ],
+          "explanation_bn": "পাশ দিয়ে হাঁটা - 'walking past him'।"
+        },
+        {
+          "id": "d",
+          "correct_answer": "to",
+          "options": [
+            "to",
+            "at",
+            "for",
+            "with"
+          ],
+          "explanation_bn": "শোনা - 'listened to' বসে।"
+        },
+        {
+          "id": "e",
+          "correct_answer": "in",
+          "options": [
+            "in",
+            "on",
+            "within",
+            "inside"
+          ],
+          "explanation_bn": "চোখে - 'in his eyes'।"
+        },
+        {
+          "id": "f",
+          "correct_answer": "about",
+          "options": [
+            "about",
+            "of",
+            "regarding",
+            "concerning"
+          ],
+          "explanation_bn": "সম্পর্কে বলা - 'told him about'।"
+        },
+        {
+          "id": "g",
+          "correct_answer": "on",
+          "options": [
+            "on",
+            "in",
+            "at",
+            "upon"
+          ],
+          "explanation_bn": "সমুদ্রে ভ্রমণ - 'journey on the sea'।"
+        },
+        {
+          "id": "h",
+          "correct_answer": "to",
+          "options": [
+            "to",
+            "towards",
+            "for",
+            "into"
+          ],
+          "explanation_bn": "দিকে যাত্রা - 'sailed to the south'।"
+        },
+        {
+          "id": "i",
+          "correct_answer": "until",
+          "options": [
+            "until",
+            "till",
+            "when",
+            "before"
+          ],
+          "explanation_bn": "যতক্ষণ না - 'until they arrived'।"
+        },
+        {
+          "id": "j",
+          "correct_answer": "in",
+          "options": [
+            "in",
+            "at",
+            "into",
+            "on"
+          ],
+          "explanation_bn": "পৌঁছানো - 'arrived in' বসে (স্থানের ক্ষেত্রে)।"
+        }
       ]
     },
     {
@@ -126,16 +826,116 @@
       "title": "Dinajpur Board-2019",
       "passage_text": "A craftwork in an applied form _____(a)_____ art, a social and cultural product reflecting the inclusive nature _____(b)_____ folk imagination. A craftwork, which usually doesn't bear the signature of its maker, retains a personal touch. When we look _____(c)_____ a thirty-year old nakshikantha, we wonder _____(d)_____ its motifs and designs that point _____(e)_____ the artistic ingenuity and the presence of the maker _____(f)_____ it. The fact that we don't know her name or any other details _____(g)_____ her doesn't take anything _____(h)_____ from our appreciation _____(i)_____ the artist. Indeed, the intimate nature _____(j)_____ the kantha and the tactile feeling in it generates animate the work and make it very inviting.",
       "blanks": [
-        {"id": "a", "correct_answer": "of", "options": ["of", "in", "from", "with"], "explanation_bn": "কলার রূপ - 'form of art'।"},
-        {"id": "b", "correct_answer": "of", "options": ["of", "in", "for", "to"], "explanation_bn": "প্রকৃতি - 'nature of' বসে।"},
-        {"id": "c", "correct_answer": "at", "options": ["at", "to", "on", "towards"], "explanation_bn": "দিকে তাকানো - 'look at' বসে।"},
-        {"id": "d", "correct_answer": "at", "options": ["at", "on", "about", "over"], "explanation_bn": "বিস্মিত হওয়া - 'wonder at' বসে।"},
-        {"id": "e", "correct_answer": "to", "options": ["to", "towards", "at", "for"], "explanation_bn": "নির্দেশ করা - 'point to' বসে।"},
-        {"id": "f", "correct_answer": "in", "options": ["in", "of", "within", "inside"], "explanation_bn": "মধ্যে উপস্থিতি - 'presence in it'।"},
-        {"id": "g", "correct_answer": "about", "options": ["about", "of", "regarding", "concerning"], "explanation_bn": "সম্পর্কে - 'details about her'।"},
-        {"id": "h", "correct_answer": "away", "options": ["away", "off", "out", "back"], "explanation_bn": "কিছু কেড়ে নেয় না - 'take away'।"},
-        {"id": "i", "correct_answer": "of", "options": ["of", "for", "to", "towards"], "explanation_bn": "প্রশংসা - 'appreciation of' বসে।"},
-        {"id": "j", "correct_answer": "of", "options": ["of", "in", "for", "with"], "explanation_bn": "প্রকৃতি - 'nature of the kantha'।"}
+        {
+          "id": "a",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "in",
+            "from",
+            "with"
+          ],
+          "explanation_bn": "কলার রূপ - 'form of art'।"
+        },
+        {
+          "id": "b",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "in",
+            "for",
+            "to"
+          ],
+          "explanation_bn": "প্রকৃতি - 'nature of' বসে।"
+        },
+        {
+          "id": "c",
+          "correct_answer": "at",
+          "options": [
+            "at",
+            "to",
+            "on",
+            "towards"
+          ],
+          "explanation_bn": "দিকে তাকানো - 'look at' বসে।"
+        },
+        {
+          "id": "d",
+          "correct_answer": "at",
+          "options": [
+            "at",
+            "on",
+            "about",
+            "over"
+          ],
+          "explanation_bn": "বিস্মিত হওয়া - 'wonder at' বসে।"
+        },
+        {
+          "id": "e",
+          "correct_answer": "to",
+          "options": [
+            "to",
+            "towards",
+            "at",
+            "for"
+          ],
+          "explanation_bn": "নির্দেশ করা - 'point to' বসে।"
+        },
+        {
+          "id": "f",
+          "correct_answer": "in",
+          "options": [
+            "in",
+            "of",
+            "within",
+            "inside"
+          ],
+          "explanation_bn": "মধ্যে উপস্থিতি - 'presence in it'।"
+        },
+        {
+          "id": "g",
+          "correct_answer": "about",
+          "options": [
+            "about",
+            "of",
+            "regarding",
+            "concerning"
+          ],
+          "explanation_bn": "সম্পর্কে - 'details about her'।"
+        },
+        {
+          "id": "h",
+          "correct_answer": "away",
+          "options": [
+            "away",
+            "off",
+            "out",
+            "back"
+          ],
+          "explanation_bn": "কিছু কেড়ে নেয় না - 'take away'।"
+        },
+        {
+          "id": "i",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "for",
+            "to",
+            "towards"
+          ],
+          "explanation_bn": "প্রশংসা - 'appreciation of' বসে।"
+        },
+        {
+          "id": "j",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "in",
+            "for",
+            "with"
+          ],
+          "explanation_bn": "প্রকৃতি - 'nature of the kantha'।"
+        }
       ]
     },
     {
@@ -143,16 +943,116 @@
       "title": "Allm Exam 2019",
       "passage_text": "Truthfulness is the greatest _____(a)_____ all virtues which makes a man really great. If we do not cultivate the habit _____(b)_____ speaking the truth we cannot command the confidence _____(c)_____ others. The man whom nobody believes can never be famous _____(d)_____ life. It may be that we may succeed once or twice _____(e)_____ telling a lie, but it never brings _____(f)_____ a good result. A lie never lies hidden. Today or tomorrow it comes _____(g)_____ light. Then the real character _____(h)_____ the liar is revealed and nobody believes him. All hate him and speak ill _____(i)_____ him _____(j)_____ his back.",
       "blanks": [
-        {"id": "a", "correct_answer": "of", "options": ["of", "among", "in", "from"], "explanation_bn": "সকল গুণের মধ্যে - 'greatest of all virtues'।"},
-        {"id": "b", "correct_answer": "of", "options": ["of", "for", "to", "in"], "explanation_bn": "অভ্যাস - 'habit of' বসে।"},
-        {"id": "c", "correct_answer": "of", "options": ["of", "from", "with", "in"], "explanation_bn": "আস্থা - 'confidence of others'।"},
-        {"id": "d", "correct_answer": "in", "options": ["in", "during", "throughout", "for"], "explanation_bn": "জীবনে - 'famous in life'।"},
-        {"id": "e", "correct_answer": "by", "options": ["by", "with", "through", "of"], "explanation_bn": "মাধ্যমে - 'by telling a lie'।"},
-        {"id": "f", "correct_answer": "about", "options": ["about", "out", "forth", "in"], "explanation_bn": "আনে না - 'brings about' বসে।"},
-        {"id": "g", "correct_answer": "to", "options": ["to", "in", "into", "at"], "explanation_bn": "আলোতে আসা - 'comes to light'।"},
-        {"id": "h", "correct_answer": "of", "options": ["of", "about", "for", "from"], "explanation_bn": "চরিত্র - 'character of' বসে।"},
-        {"id": "i", "correct_answer": "of", "options": ["of", "about", "against", "for"], "explanation_bn": "মন্দ বলা - 'speak ill of' বসে।"},
-        {"id": "j", "correct_answer": "behind", "options": ["behind", "on", "at", "upon"], "explanation_bn": "পিঠে/পশ্চাতে - 'on/behind his back'।"}
+        {
+          "id": "a",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "among",
+            "in",
+            "from"
+          ],
+          "explanation_bn": "সকল গুণের মধ্যে - 'greatest of all virtues'।"
+        },
+        {
+          "id": "b",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "for",
+            "to",
+            "in"
+          ],
+          "explanation_bn": "অভ্যাস - 'habit of' বসে।"
+        },
+        {
+          "id": "c",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "from",
+            "with",
+            "in"
+          ],
+          "explanation_bn": "আস্থা - 'confidence of others'।"
+        },
+        {
+          "id": "d",
+          "correct_answer": "in",
+          "options": [
+            "in",
+            "during",
+            "throughout",
+            "for"
+          ],
+          "explanation_bn": "জীবনে - 'famous in life'।"
+        },
+        {
+          "id": "e",
+          "correct_answer": "by",
+          "options": [
+            "by",
+            "with",
+            "through",
+            "of"
+          ],
+          "explanation_bn": "মাধ্যমে - 'by telling a lie'।"
+        },
+        {
+          "id": "f",
+          "correct_answer": "about",
+          "options": [
+            "about",
+            "out",
+            "forth",
+            "in"
+          ],
+          "explanation_bn": "আনে না - 'brings about' বসে।"
+        },
+        {
+          "id": "g",
+          "correct_answer": "to",
+          "options": [
+            "to",
+            "in",
+            "into",
+            "at"
+          ],
+          "explanation_bn": "আলোতে আসা - 'comes to light'।"
+        },
+        {
+          "id": "h",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "about",
+            "for",
+            "from"
+          ],
+          "explanation_bn": "চরিত্র - 'character of' বসে।"
+        },
+        {
+          "id": "i",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "about",
+            "against",
+            "for"
+          ],
+          "explanation_bn": "মন্দ বলা - 'speak ill of' বসে।"
+        },
+        {
+          "id": "j",
+          "correct_answer": "behind",
+          "options": [
+            "behind",
+            "on",
+            "at",
+            "upon"
+          ],
+          "explanation_bn": "পিঠে/পশ্চাতে - 'on/behind his back'।"
+        }
       ]
     },
     {
@@ -160,16 +1060,116 @@
       "title": "HSC Exam 18 - Ka Set | Govt. Haji Mohammad Mohsin College, Chattogram-18",
       "passage_text": "Trees are very useful _____(a)_____ man. They are highly essential _____(b)_____ our existence. They protect the rich top soil _____(c)_____ getting washed away _____(d)_____ rain water and floods. We can see trees being grown along the mountain slopes _____(e)_____ the road sides _____(f)_____ the parks and gardens. They add beauty _____(g)_____ our lives. They provide us _____(h)_____ food, wood, shade, shelter and so on. They take _____(i)_____ carbon di-oxide and produce oxygen. So we should take care _____(j)_____ trees.",
       "blanks": [
-        {"id": "a", "correct_answer": "to", "options": ["to", "for", "with", "of"], "explanation_bn": "মানুষের জন্য উপকারী - 'useful to man'।"},
-        {"id": "b", "correct_answer": "for", "options": ["for", "to", "with", "in"], "explanation_bn": "জন্য প্রয়োজনীয় - 'essential for' বসে।"},
-        {"id": "c", "correct_answer": "from", "options": ["from", "of", "by", "against"], "explanation_bn": "থেকে রক্ষা - 'protect from' বসে।"},
-        {"id": "d", "correct_answer": "by", "options": ["by", "with", "through", "of"], "explanation_bn": "দ্বারা - 'washed away by rainwater'।"},
-        {"id": "e", "correct_answer": "by", "options": ["by", "on", "along", "beside"], "explanation_bn": "পাশে - 'by the road sides'।"},
-        {"id": "f", "correct_answer": "in", "options": ["in", "inside", "within", "at"], "explanation_bn": "মধ্যে - 'in the parks'।"},
-        {"id": "g", "correct_answer": "to", "options": ["to", "in", "at", "for"], "explanation_bn": "সৌন্দর্য বৃদ্ধি - 'add beauty to'।"},
-        {"id": "h", "correct_answer": "with", "options": ["with", "by", "of", "for"], "explanation_bn": "সরবরাহ করা - 'provide with' বসে।"},
-        {"id": "i", "correct_answer": "in", "options": ["in", "up", "on", "over"], "explanation_bn": "গ্রহণ করা - 'take in'।"},
-        {"id": "j", "correct_answer": "of", "options": ["of", "for", "after", "about"], "explanation_bn": "যত্ন নেওয়া - 'take care of'।"}
+        {
+          "id": "a",
+          "correct_answer": "to",
+          "options": [
+            "to",
+            "for",
+            "with",
+            "of"
+          ],
+          "explanation_bn": "মানুষের জন্য উপকারী - 'useful to man'।"
+        },
+        {
+          "id": "b",
+          "correct_answer": "for",
+          "options": [
+            "for",
+            "to",
+            "with",
+            "in"
+          ],
+          "explanation_bn": "জন্য প্রয়োজনীয় - 'essential for' বসে।"
+        },
+        {
+          "id": "c",
+          "correct_answer": "from",
+          "options": [
+            "from",
+            "of",
+            "by",
+            "against"
+          ],
+          "explanation_bn": "থেকে রক্ষা - 'protect from' বসে।"
+        },
+        {
+          "id": "d",
+          "correct_answer": "by",
+          "options": [
+            "by",
+            "with",
+            "through",
+            "of"
+          ],
+          "explanation_bn": "দ্বারা - 'washed away by rainwater'।"
+        },
+        {
+          "id": "e",
+          "correct_answer": "by",
+          "options": [
+            "by",
+            "on",
+            "along",
+            "beside"
+          ],
+          "explanation_bn": "পাশে - 'by the road sides'।"
+        },
+        {
+          "id": "f",
+          "correct_answer": "in",
+          "options": [
+            "in",
+            "inside",
+            "within",
+            "at"
+          ],
+          "explanation_bn": "মধ্যে - 'in the parks'।"
+        },
+        {
+          "id": "g",
+          "correct_answer": "to",
+          "options": [
+            "to",
+            "in",
+            "at",
+            "for"
+          ],
+          "explanation_bn": "সৌন্দর্য বৃদ্ধি - 'add beauty to'।"
+        },
+        {
+          "id": "h",
+          "correct_answer": "with",
+          "options": [
+            "with",
+            "by",
+            "of",
+            "for"
+          ],
+          "explanation_bn": "সরবরাহ করা - 'provide with' বসে।"
+        },
+        {
+          "id": "i",
+          "correct_answer": "in",
+          "options": [
+            "in",
+            "up",
+            "on",
+            "over"
+          ],
+          "explanation_bn": "গ্রহণ করা - 'take in'।"
+        },
+        {
+          "id": "j",
+          "correct_answer": "of",
+          "options": [
+            "of",
+            "for",
+            "after",
+            "about"
+          ],
+          "explanation_bn": "যত্ন নেওয়া - 'take care of'।"
+        }
       ]
     }
   ]
