@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion as Motion } from 'framer-motion';
 import { useAuth } from '../context/AuthContext';
@@ -7,10 +7,11 @@ import { Rocket, CheckList } from '../components/Illustrations';
 import LottieAnimation from '../components/LottieAnimation';
 import gameControllerAnimation from '../assets/game-controller.json';
 import speedometerAnimation from '../assets/speedometer.json';
+import { getChallengeState, getDailyChallengeKey, getWeeklyChallengeKey, getUserStats } from '../services/levels';
 import {
   Target, Brain, BookOpen, TrendingUp, ArrowRight,
   Crown, Flame, BadgeCheck, Clock, Zap,
-  Star, Gamepad, Gauge, Trophy, Layers, Book, GraduationCap, Library, ScrollText
+  Star, Gamepad, Gauge, Trophy, Layers, Book, GraduationCap, Library, ScrollText, Sparkles, Calendar
 } from 'lucide-react';
 
 const rankFromAccuracy = (accuracy) => {
@@ -73,6 +74,14 @@ const Dashboard = () => {
   const [practiceSessions, setPracticeSessions] = React.useState([]);
   const [focusAreas, setFocusAreas] = React.useState([]);
   const [loading, setLoading] = React.useState(true);
+
+  const [challengeState, setChallengeState] = useState({ daily: null, weekly: null });
+  const [userGameStats, setUserGameStats] = useState({ total_xp: 0, total_stars: 0 });
+
+  useEffect(() => {
+    setChallengeState(getChallengeState());
+    if (user?.id) setUserGameStats(getUserStats(user.id));
+  }, [user]);
 
   React.useEffect(() => {
     api.getUserStats(user.id).then(({ data }) => { if (data) setStatsData(data); setLoading(false); });
@@ -189,6 +198,14 @@ const Dashboard = () => {
           </div>
           <div className="w-px h-7 bg-white/5" />
           <div className="flex items-center gap-1.5">
+            <Star className="w-3.5 h-3.5 text-yellow-400 shrink-0" />
+            <div>
+              <p className="text-3xs font-black uppercase tracking-widest text-white/25 leading-none mb-0.5">Stars</p>
+              <p className="text-sm md:text-base font-black text-yellow-400 leading-none">{userGameStats.total_stars}</p>
+            </div>
+          </div>
+          <div className="w-px h-7 bg-white/5" />
+          <div className="flex items-center gap-1.5">
             <Gauge className="w-3.5 h-3.5 text-accent shrink-0" />
             <div>
               <p className="text-3xs font-black uppercase tracking-widest text-white/25 leading-none mb-0.5">Accuracy</p>
@@ -274,6 +291,73 @@ const Dashboard = () => {
           <ActionCard Icon={BookOpen} title="Courses" desc="Video lessons" path="/courses" />
           <ActionCard Icon={TrendingUp} title="Analytics" desc="Track progress" path="/analytics" />
         </div>
+      </Motion.div>
+
+      {/* ─── Challenges ─── */}
+      <Motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <Link to="/practice" className="relative overflow-hidden rounded-2xl border border-primary/15 bg-primary/[0.04] p-4 md:p-5 hover:bg-primary/[0.07] transition-all group">
+          <div className="flex items-start justify-between mb-2">
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 rounded-lg bg-primary/15 flex items-center justify-center">
+                <Sparkles className="w-4 h-4 text-primary" />
+              </div>
+              <div>
+                <h3 className="text-xs font-black text-white tracking-tight">Daily Challenge</h3>
+                <p className="text-[10px] text-white/40 font-medium">
+                  {challengeState.daily?.date === getDailyChallengeKey()
+                    ? challengeState.daily.completed
+                      ? 'Completed today'
+                      : 'In progress'
+                    : 'Start a challenge'}
+                </p>
+              </div>
+            </div>
+            <div className={`px-2 py-0.5 rounded-full text-[8px] font-black uppercase tracking-wider ${
+              challengeState.daily?.date === getDailyChallengeKey() && challengeState.daily.completed
+                ? 'bg-emerald-500/15 text-emerald-400'
+                : 'bg-primary/10 text-primary'
+            }`}>
+              {challengeState.daily?.date === getDailyChallengeKey() && challengeState.daily.completed ? 'Done' : '+50 XP'}
+            </div>
+          </div>
+          <div className="flex items-center gap-1 text-[10px] text-white/30 font-medium">
+            <Calendar className="w-3 h-3" />
+            <span>Resets at midnight (UTC+6)</span>
+          </div>
+          <ArrowRight className="absolute bottom-3 right-3 w-4 h-4 text-primary/30 group-hover:text-primary/60 transition-all group-hover:translate-x-0.5" />
+        </Link>
+
+        <Link to="/practice" className="relative overflow-hidden rounded-2xl border border-yellow-500/15 bg-yellow-500/[0.04] p-4 md:p-5 hover:bg-yellow-500/[0.07] transition-all group">
+          <div className="flex items-start justify-between mb-2">
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 rounded-lg bg-yellow-500/15 flex items-center justify-center">
+                <Flame className="w-4 h-4 text-yellow-400" />
+              </div>
+              <div>
+                <h3 className="text-xs font-black text-white tracking-tight">Weekly Challenge</h3>
+                <p className="text-[10px] text-white/40 font-medium">
+                  {challengeState.weekly?.weekStart === getWeeklyChallengeKey()
+                    ? challengeState.weekly.completed
+                      ? 'Completed this week'
+                      : `${challengeState.weekly.completedLevels?.length || 0}/${challengeState.weekly.totalLevels || '?'} levels done`
+                    : 'Complete a full section'}
+                </p>
+              </div>
+            </div>
+            <div className={`px-2 py-0.5 rounded-full text-[8px] font-black uppercase tracking-wider ${
+              challengeState.weekly?.weekStart === getWeeklyChallengeKey() && challengeState.weekly.completed
+                ? 'bg-emerald-500/15 text-emerald-400'
+                : 'bg-yellow-500/10 text-yellow-400'
+            }`}>
+              +200 XP
+            </div>
+          </div>
+          <div className="flex items-center gap-1 text-[10px] text-white/30 font-medium">
+            <Calendar className="w-3 h-3" />
+            <span>Resets Sunday midnight (UTC+6)</span>
+          </div>
+          <ArrowRight className="absolute bottom-3 right-3 w-4 h-4 text-yellow-500/30 group-hover:text-yellow-500/60 transition-all group-hover:translate-x-0.5" />
+        </Link>
       </Motion.div>
 
       {/* ─── Main Content ─── */}

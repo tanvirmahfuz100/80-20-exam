@@ -2,6 +2,7 @@ import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion';
 import { createPortal } from 'react-dom';
 import { CheckCircle, Star, X } from 'lucide-react';
+import { playSound } from '../utils/sounds';
 
 const BLANK_REGEX = /_*\(([a-z])\)\s*_+|\(([a-z])\)\s*_+/g;
 
@@ -173,6 +174,12 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
     }
     
     setActivePopover(null);
+
+    if (isCorrect) {
+      playSound('correctAnswer');
+    } else {
+      playSound('star');
+    }
     
     onBlankAnswer?.(blankId, isCorrect, optionText, finalExplanationBn, finalExplanationEn);
   }, [getBlankData, onBlankAnswer, isMobile]);
@@ -202,7 +209,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
 
   return (
     <div className="flex-1 flex flex-col min-h-0 gap-4" role="group" aria-label="Fill in the blanks exercise">
-      <div className="flex-1 overflow-y-auto min-h-0 space-y-5 px-0.5">
+      <div className="flex-1 overflow-y-auto min-h-0 space-y-3 px-0.5">
         <div className="flex items-center gap-2 shrink-0">
           <span className={`text-[9px] font-black px-2.5 py-1 rounded-full uppercase border ${
             difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
@@ -212,6 +219,17 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
             {difficulty}
           </span>
         </div>
+
+        {boxWords?.length > 0 && (
+          <div className="flex flex-wrap items-center gap-2.5 pt-1 pb-1" aria-label="Available words">
+            {boxWords.map((word) => (
+              <span key={word} className="px-4 py-2 rounded-xl bg-primary/10 border border-primary/25 text-primary text-[11px] font-black uppercase tracking-widest shadow-sm">
+                {word}
+              </span>
+            ))}
+          </div>
+        )}
+
         <p className="text-text leading-loose font-medium whitespace-pre-wrap" style={{ fontSize: `${fontSize}px` }}>
           {segments.map((seg, i) => {
             if (seg.type === 'text') {
@@ -269,16 +287,6 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
             );
           })}
         </p>
-
-        {boxWords?.length > 0 && (
-          <div className="flex flex-wrap items-center gap-2.5 pt-2 pb-1" aria-label="Available words">
-            {boxWords.map((word) => (
-              <span key={word} className="px-4 py-2 rounded-xl bg-primary/10 border border-primary/25 text-primary text-[11px] font-black uppercase tracking-widest shadow-sm">
-                {word}
-              </span>
-            ))}
-          </div>
-        )}
 
       </div>
 

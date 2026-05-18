@@ -193,6 +193,7 @@ const Quiz = () => {
 
     const [currentLevel, setCurrentLevel] = useState(null);
     const [levelSessionSaved, setLevelSessionSaved] = useState(false);
+    const [wrongAttempts, setWrongAttempts] = useState(0);
     const levelRef = useRef(null);
 
     const [quizFontSize, setQuizFontSize] = useState(() => {
@@ -271,6 +272,7 @@ const Quiz = () => {
             setScore(0);
             setIsFinished(false);
             setResults([]);
+            setWrongAttempts(0);
             sessionSavedRef.current = false;
             setLevelSessionSaved(false);
             finishSoundPlayedRef.current = false;
@@ -532,6 +534,7 @@ const Quiz = () => {
 
         if (!isCorrect) {
             playSound('star');
+            setWrongAttempts(w => w + 1);
             if (currentQ._mistakeId) {
                 resetStage(currentQ._mistakeId);
             } else {
@@ -614,7 +617,7 @@ const Quiz = () => {
     if (isFinished) {
         const accuracy = Math.round((score / questions.length) * 100) || 0;
         const earnedXp = score * 10;
-        const earnedStars = questions.length - score;
+        const earnedStars = wrongAttempts;
 
         if (currentLevel) {
             return (
@@ -905,6 +908,7 @@ const Quiz = () => {
                                 if (!actualQ) return;
 
                                 if (!isCorrect) {
+                                    setWrongAttempts(w => w + 1);
                                     if (actualQ._mistakeId) {
                                         resetStage(actualQ._mistakeId);
                                     } else {
@@ -1088,10 +1092,10 @@ const Quiz = () => {
                                                         <h4 className="text-emerald-400 font-black text-xs uppercase tracking-wider">Correct!</h4>
                                                     </div>
                                                     <div className="flex-1 overflow-y-auto min-h-0 space-y-2 text-xs md:text-sm">
-                                                        {currentQ.explanation_bn && (
+                                                        {(currentQ.explanation_bn || currentQ.explanation) && (
                                                             <div>
                                                                 <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
-                                                                <p className="text-white/80 leading-relaxed">{currentQ.explanation_bn}</p>
+                                                                <p className="text-white/80 leading-relaxed">{currentQ.explanation_bn || currentQ.explanation}</p>
                                                             </div>
                                                         )}
                                                         {currentQ.explanation_en && (
@@ -1100,7 +1104,7 @@ const Quiz = () => {
                                                                 <p className="text-white/80 leading-relaxed">{currentQ.explanation_en}</p>
                                                             </div>
                                                         )}
-                                                        {!currentQ.explanation_bn && !currentQ.explanation_en && (
+                                                        {!currentQ.explanation_bn && !currentQ.explanation_en && !currentQ.explanation && (
                                                             <p className="text-white/60 text-sm">Well done!</p>
                                                         )}
                                                         {currentQ.explanation_distractors && currentQ.explanation_distractors.length > 0 && (
@@ -1115,34 +1119,6 @@ const Quiz = () => {
                                                             </div>
                                                         )}
                                                      </div>
-                                                    <div className="flex-1 overflow-y-auto min-h-0 space-y-2 -mx-1 px-1 text-xs md:text-sm">
-                                                          {currentQ.explanation_bn && (
-                                                              <div>
-                                                                  <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
-                                                                  <p className="text-white/80 leading-relaxed">{currentQ.explanation_bn}</p>
-                                                              </div>
-                                                          )}
-                                                          {currentQ.explanation_en && (
-                                                              <div>
-                                                                  <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1">English Explanation</p>
-                                                                  <p className="text-white/80 leading-relaxed">{currentQ.explanation_en}</p>
-                                                              </div>
-                                                          )}
-                                                          {!currentQ.explanation_bn && !currentQ.explanation_en && (
-                                                              <p className="text-white/60 text-sm">Well done!</p>
-                                                          )}
-                                                          {currentQ.explanation_distractors && currentQ.explanation_distractors.length > 0 && (
-                                                              <div className="border-t border-emerald-500/15 pt-2 mt-2">
-                                                                  <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1.5">Why the other options are wrong</p>
-                                                                  {currentQ.explanation_distractors.map((d, i) => (
-                                                                      <div key={i} className="mb-1.5 last:mb-0">
-                                                                          <p className="text-white/90 text-[11px] font-medium mb-0.5">"{d.option}"</p>
-                                                                          <p className="text-white/50 text-[10px] leading-relaxed pl-2 border-l border-emerald-500/20">{d.reason}</p>
-                                                                      </div>
-                                                                  ))}
-                                                              </div>
-                                                          )}
-                                                      </div>
 
                                                     {currentQ.explanation_video_url && (
                                                         <a
@@ -1189,10 +1165,10 @@ const Quiz = () => {
                                                     </p>
 
                                                     <div className="flex-1 overflow-y-auto min-h-0 space-y-2 text-xs md:text-sm">
-                                                        {currentQ.explanation_bn && (
+                                                        {(currentQ.explanation_bn || currentQ.explanation) && (
                                                             <div>
                                                                 <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
-                                                                <p className="text-white/80 leading-relaxed">{currentQ.explanation_bn}</p>
+                                                                <p className="text-white/80 leading-relaxed">{currentQ.explanation_bn || currentQ.explanation}</p>
                                                             </div>
                                                         )}
                                                         {currentQ.explanation_en && (
