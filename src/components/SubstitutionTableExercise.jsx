@@ -1,4 +1,5 @@
 import React, { useState, useCallback, useMemo } from 'react';
+import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Check, RefreshCcw, ArrowRight, AlertTriangle } from 'lucide-react';
 
@@ -241,19 +242,23 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
               !allSelected
                 ? 'bg-white/[0.03] border-dashed border-white/10'
                 : checked
-                  ? isCorrect
-                    ? 'bg-emerald-500/10 border-emerald-500/30'
-                    : 'bg-red-500/10 border-red-500/30'
+                  ? alreadyTried
+                    ? 'bg-white/[0.03] border-dashed border-white/10'
+                    : isCorrect
+                      ? 'bg-emerald-500/10 border-emerald-500/30'
+                      : 'bg-red-500/10 border-red-500/30'
                   : 'bg-white/5 border-white/10'
             }`}
           >
             <div className="flex items-center justify-between mb-1">
               <p className={`text-[8px] font-black uppercase tracking-widest ${
                 checked
-                  ? isCorrect ? 'text-emerald-400' : 'text-red-400'
+                  ? alreadyTried
+                    ? 'text-white/20'
+                    : isCorrect ? 'text-emerald-400' : 'text-red-400'
                   : allSelected ? 'text-primary' : 'text-white/20'
               }`}>
-                {checked ? (isCorrect ? 'Correct sentence' : 'Incorrect') : allSelected ? 'Sentence preview' : 'Building...'}
+                {checked ? (alreadyTried ? 'Already tried' : isCorrect ? 'Correct sentence' : 'Incorrect') : allSelected ? 'Sentence preview' : 'Building...'}
               </p>
               {allSelected && !checked && (
                 <span className="text-[8px] font-bold text-white/20 uppercase tracking-wider">Tap Check below</span>
@@ -261,7 +266,9 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
             </div>
             <p className={`font-bold leading-relaxed ${
               checked
-                ? isCorrect ? 'text-emerald-300' : 'text-red-300'
+                ? alreadyTried
+                  ? 'text-white/40'
+                  : isCorrect ? 'text-emerald-300' : 'text-red-300'
                 : 'text-white/80'
             }`} style={{ fontSize: `${fontSize}px` }}>
               {allSelected || selections.some(s => s !== null) ? formedSentence || 'Select items from each column...' : ''}
@@ -269,16 +276,62 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
           </motion.div>
         )}
 
-        {checked && lastExplanation && (
-          <motion.div
-            initial={{ opacity: 0, y: 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="p-3 rounded-xl bg-white/5 border border-white/10"
-          >
-            <p className="text-[8px] font-black uppercase tracking-widest mb-1 text-white/30">Explanation</p>
-            <p className="text-white/60 font-medium leading-relaxed" style={{ fontSize: `${fontSize - 1}px` }}>{lastExplanation}</p>
-          </motion.div>
-        )}
+        {checked && lastExplanation && (() => {
+          const isBangla = /[\u0980-\u09FF]/.test(lastExplanation);
+          return createPortal(
+            <AnimatePresence>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.15 }}
+                className="fixed inset-0 z-[100] flex items-center justify-center p-4"
+                onClick={() => setLastExplanation('')}
+                role="dialog"
+                aria-modal="true"
+                aria-label="Explanation"
+              >
+                <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" aria-hidden="true" />
+                <motion.div
+                  initial={{ opacity: 0, y: 40, scale: 0.92 }}
+                  animate={{ opacity: 1, y: 0, scale: 1 }}
+                  exit={{ opacity: 0, y: 20, scale: 0.95 }}
+                  transition={{ duration: 0.25, ease: 'easeOut' }}
+                  className={`relative w-full max-w-sm bg-surface rounded-2xl p-6 shadow-2xl ${isCorrect && !alreadyTried ? 'border border-emerald-500/30' : alreadyTried ? 'border border-white/10' : 'border border-yellow-500/30'}`}
+                  onClick={e => e.stopPropagation()}
+                >
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className={`p-2 rounded-xl ${isCorrect && !alreadyTried ? 'bg-emerald-500/15' : alreadyTried ? 'bg-white/10' : 'bg-yellow-500/15'}`}>
+                      {isCorrect && !alreadyTried ? (
+                        <Check className="w-5 h-5 text-emerald-400" />
+                      ) : alreadyTried ? (
+                        <X className="w-5 h-5 text-white/40" />
+                      ) : (
+                        <X className="w-5 h-5 text-yellow-400" />
+                      )}
+                    </div>
+                    <div>
+                      <p className={`font-black uppercase tracking-wider text-[10px] ${isCorrect && !alreadyTried ? 'text-emerald-400' : alreadyTried ? 'text-white/40' : 'text-yellow-400'}`}>
+                        {alreadyTried ? 'Already Tried' : isCorrect ? 'Correct!' : 'Incorrect'}
+                      </p>
+                      <p className="text-[8px] text-white/30 font-black uppercase tracking-widest mt-0.5">Explanation</p>
+                    </div>
+                  </div>
+                  <p className={`font-medium leading-relaxed ${isBangla ? 'text-white/90' : 'text-white/70'}`} style={{ fontSize: isBangla ? '15px' : '13px' }}>
+                    {lastExplanation}
+                  </p>
+                  <button
+                    onClick={() => setLastExplanation('')}
+                    className="w-full mt-4 py-3 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97]"
+                  >
+                    Got it!
+                  </button>
+                </motion.div>
+              </motion.div>
+            </AnimatePresence>,
+            document.body
+          );
+        })()}
 
         <div className="flex items-center justify-center gap-2 py-1">
           <div className="flex items-center gap-1">

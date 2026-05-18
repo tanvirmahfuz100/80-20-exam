@@ -611,6 +611,15 @@ const Quiz = () => {
         }
     };
 
+    const nextModelFile = useMemo(() => {
+        if (!file) return null;
+        const match = file.match(/model_(\d+)\.json$/);
+        if (!match) return null;
+        const num = parseInt(match[1], 10);
+        const next = String(num + 1).padStart(match[1].length, '0');
+        return file.replace(/model_\d+\.json$/, `model_${next}.json`);
+    }, [file]);
+
     if (loading) return (
         <div className="min-h-[60vh] flex flex-col items-center justify-center space-y-4">
             <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
@@ -747,7 +756,26 @@ const Quiz = () => {
                             <button onClick={() => window.location.reload()} className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] shadow-lg shadow-primary/20 transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch">
                                 <RefreshCw className="w-4 h-4 md:w-4 md:h-4" aria-hidden="true" /> Try Again
                             </button>
+                            {nextModelFile && (
+                                <button
+                                    onClick={() => {
+                                        const nextTitle = title?.replace(/Model Test \d+/, m => {
+                                            const n = parseInt(m.match(/\d+/)?.[0] || '0', 10) + 1;
+                                            return `Model Test ${String(n).padStart(2, '0')}`;
+                                        });
+                                        navigate(`/quiz/${chapterId}?file=${encodeURIComponent(nextModelFile)}&title=${encodeURIComponent(nextTitle || title)}&chapterId=${chapterId}`);
+                                    }}
+                                    className="flex-1 py-3 md:py-4 bg-emerald-500 hover:bg-emerald-400 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] shadow-lg shadow-emerald-500/20 transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
+                                >
+                                    Next Model
+                                </button>
+                            )}
                         </div>
+                        {file?.includes('model_') && (
+                            <button onClick={() => navigate('/practice')} className="text-[9px] font-bold text-white/20 hover:text-white/40 transition-colors mt-2">
+                                ← All Model Tests
+                            </button>
+                        )}
                     </div>
                 </div>
             </div>
