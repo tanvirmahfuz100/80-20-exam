@@ -56,8 +56,8 @@
     "statement": "Bangladesh came into being at the cost of a bloody war, _________ ?",
     "correct_tag": "didn't she",
     "options": ["didn't she", "didn't it", "did she", "wasn't she"],
-    "explanation_en": "Past indefinite tense, no auxiliary → use 'did'. Statement positive, tag negative. 'Bangladesh' is often personified as feminine ('she') in poetic/literary contexts, so 'didn't she'.",
-    "explanation_bn": "Past indefinite tense, auxiliary নেই → 'did' ব্যবহার। বিবৃতি positive, tag negative। 'Bangladesh' কে প্রায়ই স্ত্রী বাচক ('she') ধরা হয়, তাই 'didn't she'।"
+    "explanation_en": "Past indefinite tense, no auxiliary → use 'did'. Statement positive, tag negative. 'Bangladesh' is personified as feminine ('she') in literary contexts; in modern usage 'didn't it' is also accepted.",
+    "explanation_bn": "Past indefinite tense, auxiliary নেই → 'did' ব্যবহার। বিবৃতি positive, tag negative। 'Bangladesh' কে স্ত্রী বাচক ('she') ধরা হয়; আধুনিক ব্যবহারে 'didn't it'-ও গ্রহণযোগ্য।"
   },
   {
     "question_id": "2b",

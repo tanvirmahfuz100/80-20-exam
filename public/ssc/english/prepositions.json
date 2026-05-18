@@ -519,7 +519,7 @@
     "question_id": 13,
     "source": "An Exercise Book on English for Today Classes 9-10 (SSC Exam Preparation)",
     "exam_appearance": "SSC Gap Filling with Preposition",
-    "passage": "Reading textbook is essential (a) _____ all the students. A student cannot expect to make a good result until he or she reads textbooks. In the textbooks all the topics are designed as per students' grade that ensures a complete sense. In case of not reading those texts a student will miss topics needed for him or her. Moreover, textbooks are written and edited (b) _____ highly experienced educationists. Some students ignore to read textbooks rather they prefer guide books. But merely reading guide books keeps the students ignoble (c) _____ the subject-matter as they are written focusing (d) _____ exam result while a textbook covers all the details for holistic nourishment (e) _____ a student.",
+    "passage": "Reading textbook is essential (a) _____ all the students. A student cannot expect to make a good result until he or she reads textbooks. In the textbooks all the topics are designed as per students' grade that ensures a complete sense. In case of not reading those texts a student will miss topics needed for him or her. Moreover, textbooks are written and edited (b) _____ highly experienced educationists. Some students ignore to read textbooks rather they prefer guide books. But merely reading guide books keeps the students ignorant (c) _____ the subject-matter as they are written focusing (d) _____ exam result while a textbook covers all the details for holistic nourishment (e) _____ a student.",
     "blanks": [
       {
         "blank_id": "a",
@@ -539,8 +539,8 @@
         "blank_id": "c",
         "correct_answer": "of",
         "options": ["of", "to", "from", "in"],
-        "explanation_en": "Ignoble 'of' the subject-matter? Actually 'ignoble' is an adjective, but here 'keeps the students ignoble of' is unusual. However the answer given is 'of'. Could be 'ignorant of'? But text says 'ignoble' – possible misprint. We follow answer sheet: 'of'.",
-        "explanation_bn": "এখানে 'keeps the students ignoble of' – অস্বাভাবিক। উত্তরপত্র অনুযায়ী 'of'। সম্ভবত 'ignorant of' হবে।"
+        "explanation_en": "'Ignorant of' means 'unaware of'. The correct preposition after 'ignorant' is 'of'.",
+        "explanation_bn": "'Ignorant of' অর্থ 'অজ্ঞ'। 'Ignorant'-এর সঠিক preposition হলো 'of'।"
       },
       {
         "blank_id": "d",

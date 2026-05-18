@@ -696,8 +696,8 @@
       {
         "blank_id": "a",
         "correct_answer": "resourceful",
-        "options": ["resourceful", "resource", "resourceful", "resourceful"],
-        "explanation_en": "Adjective 'resourceful' means having many resources. 'Resource' is noun; 'resourced' is past participle.",
+        "options": ["resourceful", "resource", "resourced", "resourcefulness"],
+        "explanation_en": "Adjective 'resourceful' means having many resources. 'Resource' is noun; 'resourced' is past participle; 'resourcefulness' is noun.",
         "explanation_bn": "Adjective 'resourceful' অর্থ 'সম্পদশালী'। 'Resource' noun; 'resourced' past participle।"
       },
       {
@@ -1040,7 +1040,7 @@
       {
         "blank_id": "a",
         "correct_answer": "recently",
-        "options": ["recently", "recent", "recentness", "recently"],
+        "options": ["recently", "recent", "recentness", "lately"],
         "explanation_en": "Adverb 'recently' (have recently become). 'Recent' is adjective; 'recentness' is noun.",
         "explanation_bn": "Adverb 'recently' (recently become)। 'Recent' adjective; 'recentness' noun।"
       },
@@ -1182,9 +1182,9 @@
       },
       {
         "blank_id": "c",
-        "correct_answer": "unparallel",
-        "options": ["unparallel", "parallel", "paralleled", "unparalleled"],
-        "explanation_en": "The answer sheet says 'unparallel' meaning 'not having equal'. 'Unparalleled' is more common but 'unparallel' is accepted. 'Parallel' is opposite.",
+        "correct_answer": "unparalleled",
+        "options": ["unparalleled", "parallel", "paralleled", "unparallel"],
+        "explanation_en": "'Unparalleled' means 'having no equal'. 'Unparallel' is non-standard; 'Parallel' is opposite; 'paralleled' is past participle.",
         "explanation_bn": "উত্তরপত্রে 'unparallel' দেওয়া আছে যার অর্থ 'অতুলনীয়'। 'Unparalleled' বেশি প্রচলিত কিন্তু 'unparallel' গ্রহণযোগ্য। 'Parallel' সমান্তরাল/সমান।"
       },
       {
