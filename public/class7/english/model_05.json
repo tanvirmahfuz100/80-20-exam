@@ -8,23 +8,84 @@
       "name": "Passage & Comprehension",
       "type": "passage_mcq",
       "content": {
-        "passage": "Farabi was sitting with his head down. He looked sad. His hair was untidy and ruffled. It was clear he did not brush it at all. \"I'm so shocked, Flora. I don't want to talk,\" said Farabi. \"What happened, Farabi? Are you okay?\" asked Flora. \"But you have to. Any pain or sorrow is like a load in the mind. If you tell or share it with your parents or friends, it will be lighter. On the other hand, if you don't share it, the load will become heavier and more painful. So, please tell me what's wrong,\" Flora insisted. Farabi looked at Flora and said, \"One of my friends Harun is our school football team leader. Yesterday he just dropped my name from the coming Interclass Football Tournament. I wanted to know why, but he didn't even talk to me about it.\"",
+        "passage": "Farabi was sitting with his head down. He looked sad. His hair was untidy and ruffled.\n\nIt was clear he did not brush it at all. \"I'm so shocked, Flora. I don't want to talk,\" said Farabi.\n\n\"What happened, Farabi? Are you okay?\" asked Flora. \"But you have to.\n\nAny pain or sorrow is like a load in the mind. If you tell or share it with your parents or friends, it will be lighter. On the other hand, if you don't share it, the load will become heavier and more painful.\n\nSo, please tell me what's wrong,\" Flora insisted. Farabi looked at Flora and said, \"One of my friends Harun is our school football team leader. Yesterday he just dropped my name from the coming Interclass Football Tournament.\n\nI wanted to know why, but he didn't even talk to me about it.\"",
         "translation_bn": "ফারাবি মাথা নিচু করে বসেছিল। তাকে বিষণ্ণ দেখাচ্ছিল। তার চুল ছিল অপরিচ্ছন্ন এবং এলোমেলো। স্পষ্ট বোঝা যাচ্ছিল যে, সে মোটেই চুল আঁচড়ায়নি। \"আমি খুবই মর্মাহত, ফ্লোরা। আমি কথা বলতে চাই না,\" ফারাবি বলল। \"কী হয়েছে, ফারাবি? তুমি ঠিক আছ?\" ফ্লোরা জিজ্ঞাসা করলো। \"কিন্তু তোমাকে বলতে হবে। যে কোনো ব্যথা কিংবা দুঃখ মনে একটি বোঝার মতো। যদি তুমি তা বলো অথবা তোমার পিতামাতা বা বন্ধুদের সাথে শেয়ার করে নাও, তবে তা হাল্কা হয়ে যাবে। অপরদিকে, যদি তুমি এটি অন্যের সাথে শেয়ার না করো, তবে বোঝা আরও ভারি ও যন্ত্রণাদায়ক হবে। সুতরাং, অনুগ্রহ করে আমাকে বলো সমস্যাটা কী,\" ফ্লোরা জোরাজুরি করলো। ফারাবি ফ্লোরার দিকে তাকাল এবং বলল, \"আমার বন্ধুদের একজন হারুন হলো আমাদের বিদ্যালয়ের ফুটবল দলের অধিনায়ক। গতকাল সে আমার নাম আসন্ন আন্তঃশ্রেণি ফুটবল প্রতিযোগিতা থেকে বাদ দিয়েছে। আমি জানতে চেয়েছিলাম কেন সে এটা করেছে, কিন্তু সে এ ব্যাপারে আমার সাথে কথা পর্যন্ত বলেনি।\"",
         "vocabulary": [
-          { "word": "ruffled", "pos": "adj", "meaning_en": "messy, not tidy", "meaning_bn": "এলোমেলো", "synonym": "messy", "antonym": "neat" },
-          { "word": "shocked", "pos": "adj", "meaning_en": "struck with sorrow or grief", "meaning_bn": "শোকাহত", "synonym": "upset", "antonym": "happy" },
-          { "word": "sorrow", "pos": "n", "meaning_en": "a feeling of deep distress", "meaning_bn": "দুঃখ", "synonym": "grief", "antonym": "joy" },
-          { "word": "load", "pos": "n", "meaning_en": "something that causes worry or grief", "meaning_bn": "বোঝা", "synonym": "burden", "antonym": "relief" },
-          { "word": "insist", "pos": "v", "meaning_en": "to demand forcefully", "meaning_bn": "জিদ করা", "synonym": "urge", "antonym": "agree" },
-          { "word": "drop", "pos": "v", "meaning_en": "to discard or exclude", "meaning_bn": "বাদ দেওয়া", "synonym": "exclude", "antonym": "include" },
-          { "word": "happen", "pos": "v", "meaning_en": "to occur", "meaning_bn": "ঘটা", "synonym": "occur", "antonym": "" },
-          { "word": "painful", "pos": "adj", "meaning_en": "causing pain", "meaning_bn": "বেদনাদায়ক", "synonym": "troublesome", "antonym": "pleasant" }
+          {
+            "word": "ruffled",
+            "pos": "adj",
+            "meaning_en": "messy, not tidy",
+            "meaning_bn": "এলোমেলো",
+            "synonym": "messy",
+            "antonym": "neat"
+          },
+          {
+            "word": "shocked",
+            "pos": "adj",
+            "meaning_en": "struck with sorrow or grief",
+            "meaning_bn": "শোকাহত",
+            "synonym": "upset",
+            "antonym": "happy"
+          },
+          {
+            "word": "sorrow",
+            "pos": "n",
+            "meaning_en": "a feeling of deep distress",
+            "meaning_bn": "দুঃখ",
+            "synonym": "grief",
+            "antonym": "joy"
+          },
+          {
+            "word": "load",
+            "pos": "n",
+            "meaning_en": "something that causes worry or grief",
+            "meaning_bn": "বোঝা",
+            "synonym": "burden",
+            "antonym": "relief"
+          },
+          {
+            "word": "insist",
+            "pos": "v",
+            "meaning_en": "to demand forcefully",
+            "meaning_bn": "জিদ করা",
+            "synonym": "urge",
+            "antonym": "agree"
+          },
+          {
+            "word": "drop",
+            "pos": "v",
+            "meaning_en": "to discard or exclude",
+            "meaning_bn": "বাদ দেওয়া",
+            "synonym": "exclude",
+            "antonym": "include"
+          },
+          {
+            "word": "happen",
+            "pos": "v",
+            "meaning_en": "to occur",
+            "meaning_bn": "ঘটা",
+            "synonym": "occur",
+            "antonym": ""
+          },
+          {
+            "word": "painful",
+            "pos": "adj",
+            "meaning_en": "causing pain",
+            "meaning_bn": "বেদনাদায়ক",
+            "synonym": "troublesome",
+            "antonym": "pleasant"
+          }
         ],
         "questions": [
           {
             "id": "1i",
             "question": "Which of the following sentences is incorrect?",
-            "options": ["Farabi looked upset", "Flora consoled him", "Farabi knew the reason for being dropped out", "Farabi was not willing to talk"],
+            "options": [
+              "Farabi looked upset",
+              "Flora consoled him",
+              "Farabi knew the reason for being dropped out",
+              "Farabi was not willing to talk"
+            ],
             "correct": 2,
             "explanation_bn": "ফারাবি জানত না কেন তাকে বাদ দেওয়া হয়েছে, কারণ হারুন তার সাথে কথা বলেনি।",
             "explanation_en": "Farabi did not know the reason for being dropped out, because Harun didn't talk to him about it."
@@ -32,7 +93,12 @@
           {
             "id": "1ii",
             "question": "What is the relation between Farabi and Harun?",
-            "options": ["Siblings", "Classmates", "Friends", "Both classmates and friends"],
+            "options": [
+              "Siblings",
+              "Classmates",
+              "Friends",
+              "Both classmates and friends"
+            ],
             "correct": 3,
             "explanation_bn": "ফারাবি ও হারুন সহপাঠী এবং বন্ধু।",
             "explanation_en": "Farabi and Harun are both classmates and friends."
@@ -40,7 +106,12 @@
           {
             "id": "1iii",
             "question": "Who is the captain of the football team?",
-            "options": ["Farabi", "Harun", "Flora", "None of them"],
+            "options": [
+              "Farabi",
+              "Harun",
+              "Flora",
+              "None of them"
+            ],
             "correct": 1,
             "explanation_bn": "হারুন ফুটবল দলের অধিনায়ক (captain)।",
             "explanation_en": "Harun is the football team leader (captain)."
@@ -48,7 +119,12 @@
           {
             "id": "1iv",
             "question": "Now, Farabi --- the football team.",
-            "options": ["is the member of", "is not in", "is the leader", "is the coach"],
+            "options": [
+              "is the member of",
+              "is not in",
+              "is the leader",
+              "is the coach"
+            ],
             "correct": 1,
             "explanation_bn": "হারুন ফারাবির নাম বাদ দেওয়ায় সে এখন ফুটবল দলে নেই।",
             "explanation_en": "Farabi is not in the football team now because his name was dropped."
@@ -56,7 +132,12 @@
           {
             "id": "1v",
             "question": "Our sorrow --- when we share with others.",
-            "options": ["increases", "becomes heavier", "removes", "decreases"],
+            "options": [
+              "increases",
+              "becomes heavier",
+              "removes",
+              "decreases"
+            ],
             "correct": 3,
             "explanation_bn": "যখন আমরা অন্যের সাথে দুঃখ ভাগাভাগি করি, তখন তা কমে যায়।",
             "explanation_en": "When we share our sorrow with others, it decreases."
@@ -64,7 +145,12 @@
           {
             "id": "1vi",
             "question": "'It was clear he did not brush it at all.' Here 'brush' means ---",
-            "options": ["erase", "unclean", "efface", "comb"],
+            "options": [
+              "erase",
+              "unclean",
+              "efface",
+              "comb"
+            ],
             "correct": 3,
             "explanation_bn": "এখানে 'brush' অর্থ চুল আঁচড়ানো বা comb।",
             "explanation_en": "Here 'brush' means to comb one's hair."
@@ -72,7 +158,12 @@
           {
             "id": "1vii",
             "question": "'...he just dropped my name from the coming Interclass Football Tournament.' Here 'drop' means ---",
-            "options": ["cut out", "stop", "decline", "seep"],
+            "options": [
+              "cut out",
+              "stop",
+              "decline",
+              "seep"
+            ],
             "correct": 0,
             "explanation_bn": "'Drop' অর্থ বাদ দেওয়া বা cut out।",
             "explanation_en": "'Drop' here means to cut out or exclude."
@@ -80,7 +171,12 @@
           {
             "id": "1viii",
             "question": "Farabi didn't want to talk because he was ---",
-            "options": ["busy with his study", "sick", "very shocked", "angry"],
+            "options": [
+              "busy with his study",
+              "sick",
+              "very shocked",
+              "angry"
+            ],
             "correct": 2,
             "explanation_bn": "ফারাবি বন্ধুর আচরণে খুব মর্মাহত (shocked) ছিল বলেই কথা বলতে চায়নি।",
             "explanation_en": "Farabi didn't want to talk because he was very shocked at his friend's behavior."
@@ -88,7 +184,12 @@
           {
             "id": "1ix",
             "question": "Why do we share pain or sorrow?",
-            "options": ["To make it heavier", "To make it lighter", "To make it enjoyable", "To make it painful"],
+            "options": [
+              "To make it heavier",
+              "To make it lighter",
+              "To make it enjoyable",
+              "To make it painful"
+            ],
             "correct": 1,
             "explanation_bn": "দুঃখ ভাগাভাগি করলে তা হালকা হয়।",
             "explanation_en": "We share pain or sorrow to make it lighter."
@@ -96,7 +197,12 @@
           {
             "id": "1x",
             "question": "'...he did not brush it at all'. The underlined word is a/an ---",
-            "options": ["noun", "verb", "adjective", "adverb"],
+            "options": [
+              "noun",
+              "verb",
+              "adjective",
+              "adverb"
+            ],
             "correct": 1,
             "explanation_bn": "'Brush' এখানে একটি ক্রিয়াপদ (verb)।",
             "explanation_en": "'Brush' here is a verb."
@@ -104,7 +210,12 @@
           {
             "id": "1xi",
             "question": "What was wrong with Farabi?",
-            "options": ["He was hungry", "He was talking a lot", "He was excited", "He was upset"],
+            "options": [
+              "He was hungry",
+              "He was talking a lot",
+              "He was excited",
+              "He was upset"
+            ],
             "correct": 3,
             "explanation_bn": "ফারাবি মন খারাপ করে বসেছিল কারণ তাকে ফুটবল দল থেকে বাদ দেওয়া হয়েছিল।",
             "explanation_en": "Farabi was upset because he was dropped from the football team."
@@ -112,7 +223,12 @@
           {
             "id": "1xii",
             "question": "Which one of the following words has a similar meaning of 'talk'?",
-            "options": ["utter", "chat", "speak", "discuss"],
+            "options": [
+              "utter",
+              "chat",
+              "speak",
+              "discuss"
+            ],
             "correct": 2,
             "explanation_bn": "'Talk'-এর সমার্থক শব্দ 'speak' (কথা বলা)।",
             "explanation_en": "The synonym of 'talk' is 'speak'."
@@ -120,7 +236,12 @@
           {
             "id": "1xiii",
             "question": "'So please tell me what's wrong,' Flora insisted. What does 'insist' mean?",
-            "options": ["persist", "request", "order", "command"],
+            "options": [
+              "persist",
+              "request",
+              "order",
+              "command"
+            ],
             "correct": 0,
             "explanation_bn": "'Insist' অর্থ জোরাজুরি করা বা persist।",
             "explanation_en": "'Insist' means to persist or urge forcefully."
@@ -128,7 +249,12 @@
           {
             "id": "1xiv",
             "question": "Why was Farabi sitting bending his head down?",
-            "options": ["His mother scolded him", "He was unwell", "He did not do well in the exam", "He was upset being dropped"],
+            "options": [
+              "His mother scolded him",
+              "He was unwell",
+              "He did not do well in the exam",
+              "He was upset being dropped"
+            ],
             "correct": 3,
             "explanation_bn": "তাকে ফুটবল টুর্নামেন্ট থেকে বাদ দেওয়ায় সে মন খারাপ করে বসেছিল।",
             "explanation_en": "Farabi was upset because he was dropped from the football tournament."
@@ -136,7 +262,12 @@
           {
             "id": "1xv",
             "question": "He looked sad. What does 'sad' mean?",
-            "options": ["unhappy", "cheerful", "happy", "not unhappy"],
+            "options": [
+              "unhappy",
+              "cheerful",
+              "happy",
+              "not unhappy"
+            ],
             "correct": 0,
             "explanation_bn": "'Sad' অর্থ unhappy বা দুঃখিত।",
             "explanation_en": "'Sad' means unhappy."
@@ -144,7 +275,12 @@
           {
             "id": "2a",
             "question": "How could Flora feel that Farabi is upset?",
-            "options": ["Farabi was laughing", "Farabi was sitting with his head down, looking sad with untidy hair", "Farabi was singing", "Farabi was eating"],
+            "options": [
+              "Farabi was laughing",
+              "Farabi was sitting with his head down, looking sad with untidy hair",
+              "Farabi was singing",
+              "Farabi was eating"
+            ],
             "correct": 1,
             "explanation_bn": "ফারাবি মাথা নিচু করে বসেছিল, তাকে বিষণ্ণ দেখাচ্ছিল এবং তার চুল এলোমেলো ছিল।",
             "explanation_en": "Farabi was sitting with his head down, looking sad with untidy hair."
@@ -152,7 +288,12 @@
           {
             "id": "2b",
             "question": "Why did Flora insist Farabi talk?",
-            "options": ["She was curious", "Sharing pain or sorrow makes it lighter", "She wanted to gossip", "She was bored"],
+            "options": [
+              "She was curious",
+              "Sharing pain or sorrow makes it lighter",
+              "She wanted to gossip",
+              "She was bored"
+            ],
             "correct": 1,
             "explanation_bn": "ফ্লোরা জোরাজুরি করে কারণ দুঃখ ভাগাভাগি করলে তা হালকা হয়।",
             "explanation_en": "Flora insisted because sharing pain or sorrow makes it lighter."
@@ -160,7 +301,12 @@
           {
             "id": "2c",
             "question": "What happens when we don't share our sorrows with others?",
-            "options": ["It disappears", "The load becomes heavier and more painful", "It becomes lighter", "Nothing happens"],
+            "options": [
+              "It disappears",
+              "The load becomes heavier and more painful",
+              "It becomes lighter",
+              "Nothing happens"
+            ],
             "correct": 1,
             "explanation_bn": "দুঃখ না বললে বোঝা আরও ভারি ও যন্ত্রণাদায়ক হয়।",
             "explanation_en": "When we don't share sorrows, the load becomes heavier and more painful."
@@ -168,7 +314,12 @@
           {
             "id": "2d",
             "question": "What happens when we share our pain or sorrow with others?",
-            "options": ["Our mind becomes heavier", "Our mind becomes lighter", "We forget everything", "We become angry"],
+            "options": [
+              "Our mind becomes heavier",
+              "Our mind becomes lighter",
+              "We forget everything",
+              "We become angry"
+            ],
             "correct": 1,
             "explanation_bn": "দুঃখ ভাগাভাগি করলে মনের বোঝা হালকা হয়।",
             "explanation_en": "When we share our pain, our mind becomes lighter."
@@ -176,7 +327,12 @@
           {
             "id": "2e",
             "question": "Why was Farabi upset?",
-            "options": ["He failed in the exam", "Harun dropped his name from the football tournament", "He lost his book", "His mother was sick"],
+            "options": [
+              "He failed in the exam",
+              "Harun dropped his name from the football tournament",
+              "He lost his book",
+              "His mother was sick"
+            ],
             "correct": 1,
             "explanation_bn": "হারুন ফারাবির নাম ফুটবল টুর্নামেন্ট থেকে বাদ দেওয়ায় সে মন খারাপ করেছিল।",
             "explanation_en": "Farabi was upset because Harun dropped his name from the football tournament."
@@ -192,51 +348,137 @@
         "gapFill": {
           "passage": "Flora's mother (a) ______ her to the Head Teacher. He asked her a few questions and she answered them intelligently. The Head Teacher was very pleased. He (b) ______ that she was a highly intelligent child. The Head Teacher called a teacher and (c) ______ her to take Flora to the class. Ms Laila took her to the class. All the students in the (d) ______ were staring at her. She felt a bit nervous to see all the new faces. But (e) ______ she felt easy.",
           "dialogPassage": "",
-          "boxWords": ["took", "commented", "told", "class", "soon", "asked", "said", "school", "then", "later"],
+          "boxWords": [
+            "took",
+            "commented",
+            "told",
+            "class",
+            "soon",
+            "asked",
+            "said",
+            "school",
+            "then",
+            "later"
+          ],
           "blanks": [
             {
               "blankId": "a",
               "correct": "took",
               "options": [
-                { "text": "took", "isCorrect": true, "explanationBn": "ফ্লোরার মা তাকে প্রধান শিক্ষকের কাছে নিয়ে যান।", "explanationEn": "Flora's mother took her to the Head Teacher." },
-                { "text": "asked", "isCorrect": false, "explanationBn": "নিয়ে যাওয়া বোঝাতে 'took' সঠিক শব্দ।", "explanationEn": "'Took' is the correct word for bringing someone somewhere." },
-                { "text": "sent", "isCorrect": false, "explanationBn": "'Took' এখানে সঠিক শব্দ।", "explanationEn": "'Took' is the correct word here." }
+                {
+                  "text": "took",
+                  "isCorrect": true,
+                  "explanationBn": "ফ্লোরার মা তাকে প্রধান শিক্ষকের কাছে নিয়ে যান।",
+                  "explanationEn": "Flora's mother took her to the Head Teacher."
+                },
+                {
+                  "text": "asked",
+                  "isCorrect": false,
+                  "explanationBn": "নিয়ে যাওয়া বোঝাতে 'took' সঠিক শব্দ।",
+                  "explanationEn": "'Took' is the correct word for bringing someone somewhere."
+                },
+                {
+                  "text": "sent",
+                  "isCorrect": false,
+                  "explanationBn": "'Took' এখানে সঠিক শব্দ।",
+                  "explanationEn": "'Took' is the correct word here."
+                }
               ]
             },
             {
               "blankId": "b",
               "correct": "commented",
               "options": [
-                { "text": "commented", "isCorrect": true, "explanationBn": "প্রধান শিক্ষক মন্তব্য করেন যে ফ্লোরা একজন মেধাবী শিশু।", "explanationEn": "The Head Teacher commented that she was a highly intelligent child." },
-                { "text": "said", "isCorrect": false, "explanationBn": "'Commented' এবং 'said' উভয়ই সম্ভব, কিন্তু 'commented' দেওয়া আছে।", "explanationEn": "Both 'commented' and 'said' work, but 'commented' is the given answer." },
-                { "text": "asked", "isCorrect": false, "explanationBn": "'Commented' এখানে সঠিক শব্দ।", "explanationEn": "'Commented' is the correct word here." }
+                {
+                  "text": "commented",
+                  "isCorrect": true,
+                  "explanationBn": "প্রধান শিক্ষক মন্তব্য করেন যে ফ্লোরা একজন মেধাবী শিশু।",
+                  "explanationEn": "The Head Teacher commented that she was a highly intelligent child."
+                },
+                {
+                  "text": "said",
+                  "isCorrect": false,
+                  "explanationBn": "'Commented' এবং 'said' উভয়ই সম্ভব, কিন্তু 'commented' দেওয়া আছে।",
+                  "explanationEn": "Both 'commented' and 'said' work, but 'commented' is the given answer."
+                },
+                {
+                  "text": "asked",
+                  "isCorrect": false,
+                  "explanationBn": "'Commented' এখানে সঠিক শব্দ।",
+                  "explanationEn": "'Commented' is the correct word here."
+                }
               ]
             },
             {
               "blankId": "c",
               "correct": "told",
               "options": [
-                { "text": "told", "isCorrect": true, "explanationBn": "প্রধান শিক্ষক মিজ লায়লাকে ফ্লোরাকে ক্লাসে নিতে বলেন।", "explanationEn": "The Head Teacher told Ms Laila to take Flora to the class." },
-                { "text": "asked", "isCorrect": false, "explanationBn": "'Told' এবং 'asked' উভয়ই সম্ভব, কিন্তু 'told' দেওয়া আছে।", "explanationEn": "Both 'told' and 'asked' work, but 'told' is the given answer." },
-                { "text": "called", "isCorrect": false, "explanationBn": "'Told' এখানে সঠিক শব্দ।", "explanationEn": "'Told' is the correct word here." }
+                {
+                  "text": "told",
+                  "isCorrect": true,
+                  "explanationBn": "প্রধান শিক্ষক মিজ লায়লাকে ফ্লোরাকে ক্লাসে নিতে বলেন।",
+                  "explanationEn": "The Head Teacher told Ms Laila to take Flora to the class."
+                },
+                {
+                  "text": "asked",
+                  "isCorrect": false,
+                  "explanationBn": "'Told' এবং 'asked' উভয়ই সম্ভব, কিন্তু 'told' দেওয়া আছে।",
+                  "explanationEn": "Both 'told' and 'asked' work, but 'told' is the given answer."
+                },
+                {
+                  "text": "called",
+                  "isCorrect": false,
+                  "explanationBn": "'Told' এখানে সঠিক শব্দ।",
+                  "explanationEn": "'Told' is the correct word here."
+                }
               ]
             },
             {
               "blankId": "d",
               "correct": "class",
               "options": [
-                { "text": "class", "isCorrect": true, "explanationBn": "শ্রেণিকক্ষের সব শিক্ষার্থী তার দিকে তাকিয়ে ছিল।", "explanationEn": "All the students in the class were staring at her." },
-                { "text": "school", "isCorrect": false, "explanationBn": "ক্লাসের, সমগ্র স্কুলের নয়।", "explanationEn": "In the class, not the whole school." },
-                { "text": "room", "isCorrect": false, "explanationBn": "'Class' এখানে সঠিক শব্দ।", "explanationEn": "'Class' is the correct word." }
+                {
+                  "text": "class",
+                  "isCorrect": true,
+                  "explanationBn": "শ্রেণিকক্ষের সব শিক্ষার্থী তার দিকে তাকিয়ে ছিল।",
+                  "explanationEn": "All the students in the class were staring at her."
+                },
+                {
+                  "text": "school",
+                  "isCorrect": false,
+                  "explanationBn": "ক্লাসের, সমগ্র স্কুলের নয়।",
+                  "explanationEn": "In the class, not the whole school."
+                },
+                {
+                  "text": "room",
+                  "isCorrect": false,
+                  "explanationBn": "'Class' এখানে সঠিক শব্দ।",
+                  "explanationEn": "'Class' is the correct word."
+                }
               ]
             },
             {
               "blankId": "e",
               "correct": "soon",
               "options": [
-                { "text": "soon", "isCorrect": true, "explanationBn": "কিন্তু শীঘ্রই সে স্বাচ্ছন্দ্য বোধ করে।", "explanationEn": "But soon she felt easy." },
-                { "text": "then", "isCorrect": false, "explanationBn": "'Soon' অর্থ শীঘ্রই।", "explanationEn": "'Soon' means shortly after." },
-                { "text": "later", "isCorrect": false, "explanationBn": "'Soon' এখানে সঠিক শব্দ।", "explanationEn": "'Soon' is the correct word." }
+                {
+                  "text": "soon",
+                  "isCorrect": true,
+                  "explanationBn": "কিন্তু শীঘ্রই সে স্বাচ্ছন্দ্য বোধ করে।",
+                  "explanationEn": "But soon she felt easy."
+                },
+                {
+                  "text": "then",
+                  "isCorrect": false,
+                  "explanationBn": "'Soon' অর্থ শীঘ্রই।",
+                  "explanationEn": "'Soon' means shortly after."
+                },
+                {
+                  "text": "later",
+                  "isCorrect": false,
+                  "explanationBn": "'Soon' এখানে সঠিক শব্দ।",
+                  "explanationEn": "'Soon' is the correct word."
+                }
               ]
             }
           ]
@@ -245,7 +487,12 @@
           {
             "id": "4a",
             "question": "What is the synonym of 'afraid'?",
-            "options": ["brave", "frightened", "calm", "fearless"],
+            "options": [
+              "brave",
+              "frightened",
+              "calm",
+              "fearless"
+            ],
             "correct": 1,
             "explanation_bn": "'Afraid'-এর সমার্থক শব্দ 'frightened' বা 'scared' (ভীত)।",
             "explanation_en": "The synonym of 'afraid' is 'frightened' or 'scared'."
@@ -253,7 +500,12 @@
           {
             "id": "4b",
             "question": "What is the antonym of 'pleased'?",
-            "options": ["satisfied", "happy", "displeased", "glad"],
+            "options": [
+              "satisfied",
+              "happy",
+              "displeased",
+              "glad"
+            ],
             "correct": 2,
             "explanation_bn": "'Pleased'-এর বিপরীত শব্দ 'displeased' বা 'dissatisfied' (অসন্তুষ্ট)।",
             "explanation_en": "The antonym of 'pleased' is 'displeased' or 'dissatisfied'."
@@ -261,7 +513,12 @@
           {
             "id": "4c",
             "question": "What is the synonym of 'student'?",
-            "options": ["teacher", "pupil", "guardian", "principal"],
+            "options": [
+              "teacher",
+              "pupil",
+              "guardian",
+              "principal"
+            ],
             "correct": 1,
             "explanation_bn": "'Student'-এর সমার্থক শব্দ 'pupil' বা 'learner' (শিক্ষার্থী)।",
             "explanation_en": "The synonym of 'student' is 'pupil' or 'learner'."
@@ -269,7 +526,12 @@
           {
             "id": "4d",
             "question": "What is the antonym of 'friend'?",
-            "options": ["companion", "ally", "enemy", "buddy"],
+            "options": [
+              "companion",
+              "ally",
+              "enemy",
+              "buddy"
+            ],
             "correct": 2,
             "explanation_bn": "'Friend'-এর বিপরীত শব্দ 'enemy' বা 'foe' (শত্রু)।",
             "explanation_en": "The antonym of 'friend' is 'enemy' or 'foe'."
@@ -277,7 +539,12 @@
           {
             "id": "4e",
             "question": "What is the synonym of 'intelligent'?",
-            "options": ["dull", "foolish", "brilliant", "slow"],
+            "options": [
+              "dull",
+              "foolish",
+              "brilliant",
+              "slow"
+            ],
             "correct": 2,
             "explanation_bn": "'Intelligent'-এর সমার্থক শব্দ 'brilliant' (মেধাবী)।",
             "explanation_en": "The synonym of 'intelligent' is 'brilliant' or 'bright'."
@@ -290,21 +557,68 @@
       "name": "Biographical Passage & Summary",
       "type": "passage_summary",
       "content": {
-        "passage": "Satyajit Ray, the world famous film director, was born on May 2, 1921. His father Sukumar Ray was a famous poet in children's literature and his mother Suprabha Devi was a pious lady. The name of the new-born baby was Prasad but afterwards he was named Satyajit. His nickname was Manik and really he was a jewel among so many Indian pebbles. His father died a premature death at the age of about 36. He was admitted to class VI in Ballygunge Govt. High School in 1932 and passed Matriculation Examination in 1936. He passed BA Exam from Presidency College in 1940. Satyajit Ray was a man of versatile genius. He got art education at Santiniketan in 1940. A good number of memorable films were released under his direction. Among them Pather Panchali was released in 1955 and awarded President's Gold Medal and 12 international awards. The other two of the trilogy Aparajita and Apur Sangsar were released in 1956 and 1959 respectively. Mahanagar was released in 1963, Charulata in 1964, Gupi Gain Bagha Bain in 1969, Ashani Sanket in 1972 and Sonar Kella in 1974. His last film Agantuk was released in 1991. He was honoured with so many awards in his native country and abroad. He was awarded 'Padma Bhushan' in 1965 and 'Magsaysay' in 1967. He was awarded 'Lajiyan de Nar' by Mitterrand, the President of France. The highest award of the film world 'OSCAR' was awarded by the Academy of Motion Pictures, USA in 1992. He obtained 'Bharat Ratna' in the same year. He breathed his last on the 23 April in 1992.",
+        "passage": "Satyajit Ray, the world famous film director, was born on May 2, 1921. His father Sukumar Ray was a famous poet in children's literature and his mother Suprabha Devi was a pious lady. The name of the new-born baby was Prasad but afterwards he was named Satyajit.\n\nHis nickname was Manik and really he was a jewel among so many Indian pebbles. His father died a premature death at the age of about 36. He was admitted to class VI in Ballygunge Govt.\n\nHigh School in 1932 and passed Matriculation Examination in 1936. He passed BA Exam from Presidency College in 1940. Satyajit Ray was a man of versatile genius.\n\nHe got art education at Santiniketan in 1940. A good number of memorable films were released under his direction. Among them Pather Panchali was released in 1955 and awarded President's Gold Medal and 12 international awards.\n\nThe other two of the trilogy Aparajita and Apur Sangsar were released in 1956 and 1959 respectively. Mahanagar was released in 1963, Charulata in 1964, Gupi Gain Bagha Bain in 1969, Ashani Sanket in 1972 and Sonar Kella in 1974. His last film Agantuk was released in 1991.\n\nHe was honoured with so many awards in his native country and abroad. He was awarded 'Padma Bhushan' in 1965 and 'Magsaysay' in 1967. He was awarded 'Lajiyan de Nar' by Mitterrand, the President of France.\n\nThe highest award of the film world 'OSCAR' was awarded by the Academy of Motion Pictures, USA in 1992. He obtained 'Bharat Ratna' in the same year. He breathed his last on the 23 April in 1992.",
         "translation_bn": "বিশ্ব বিখ্যাত চলচ্চিত্র পরিচালক সত্যজিৎ রায় ১৯২১ সালের ২ মে জন্মগ্রহণ করেন। তাঁর বাবা সুকুমার রায় ছিলেন একজন বিখ্যাত শিশু সাহিত্যিক এবং তাঁর মা সুপ্রভা দেবী ছিলেন ধার্মিক ভদ্রমহিলা। নবজাতক শিশুটির নাম ছিল প্রসাদ কিন্তু পরবর্তী সময়ে তাঁর নাম রাখা হয় সত্যজিৎ। তাঁর ডাক নাম ছিল মানিক এবং ভারতের অনেক নুড়ি পাথরের মাঝে সত্যিই তিনি ছিলেন রত্ন। তাঁর বাবা প্রায় ৩৬ বছর বয়সে অকাল মৃত্যুবরণ করেন। ১৯৩২ সালে তাঁকে বালিগঞ্জ সরকারি উচ্চ বিদ্যালয়ে ৬ষ্ঠ শ্রেণিতে ভর্তি করা হয় এবং ১৯৩৬ সালে তিনি মাধ্যমিক পরীক্ষা পাস করেন। ১৯৪০ সালে তিনি প্রেসিডেন্সি কলেজ থেকে বিএ পরীক্ষায় পাস করেন। সত্যজিৎ রায় ছিলেন বহুমুখী প্রতিভার অধিকারী। ১৯৪০ সালে তিনি শান্তি নিকেতনে শিল্পকলা শিক্ষা নেন। তাঁর পরিচালনায় অনেক অবিস্মরণীয় চলচ্চিত্র মুক্তি পেয়েছে। সেগুলোর মাঝে পথের পাঁচালী ১৯৫৫ সালে মুক্তি পেয়েছিল এবং রাষ্ট্রপতি স্বর্ণপদক ও ১২টি আন্তর্জাতিক পুরস্কারে ভূষিত হয়েছিল। তিনটি যুক্ত কাহিনীর বাকি দুটি অপরাজিতা এবং অপুর সংসার যথাক্রমে ১৯৫৬ এবং ১৯৫৯ সালে মুক্তি পেয়েছিল। মহানগর ১৯৬৩ সালে, চারুলতা ১৯৬৪ সালে, গুপী গাইন বাঘা বাইন ১৯৬৯ সালে, অশনি সংকেত ১৯৭২ সালে এবং সোনার কেল্লা ১৯৭৪ সালে মুক্তি পেয়েছিল। তাঁর শেষ চলচ্চিত্র আগন্তুক ১৯৯১ সালে মুক্তি পেয়েছিল। তিনি তাঁর নিজ দেশে এবং দেশের বাইরে বহু পুরস্কার দ্বারা সম্মানিত হয়েছেন। তিনি ১৯৬৫ সালে 'পদ্মভূষণ' এবং ১৯৬৭ সালে 'ম্যাগসেসাই' পুরস্কারে ভূষিত হন। ফ্রান্সের রাষ্ট্রপতি মিতেরান্ড কর্তৃক তিনি 'লাজিয়ান দি নার' পুরস্কারে ভূষিত হন। ১৯৯২ সালে একাডেমি অভ মোশন পিকচারস, যুক্তরাষ্ট্র কর্তৃক চলচ্চিত্র জগতের সর্বোচ্চ পুরস্কার 'অস্কার' পুরস্কারে ভূষিত হন। তিনি একই বছর 'ভারত রত্ন' পুরস্কার অর্জন করেন। ১৯৯২ সালের ২৩শে এপ্রিল তিনি শেষ নিঃশ্বাস ত্যাগ করেন।",
         "vocabulary": [
-          { "word": "versatile", "pos": "adj", "meaning_en": "multi-talented", "meaning_bn": "বহুমুখী প্রতিভার অধিকারী", "synonym": "multitalented", "antonym": "limited" },
-          { "word": "genius", "pos": "n", "meaning_en": "exceptional intelligence", "meaning_bn": "প্রতিভা", "synonym": "brilliance", "antonym": "" },
-          { "word": "memorable", "pos": "adj", "meaning_en": "unforgettable", "meaning_bn": "স্মরণীয়", "synonym": "unforgettable", "antonym": "forgettable" },
-          { "word": "premature", "pos": "adj", "meaning_en": "untimely", "meaning_bn": "অকাল", "synonym": "untimely", "antonym": "timely" },
-          { "word": "honour", "pos": "v", "meaning_en": "to give recognition", "meaning_bn": "সম্মানিত করা", "synonym": "recognize", "antonym": "disgrace" },
-          { "word": "release", "pos": "v", "meaning_en": "to make available to the public", "meaning_bn": "মুক্তি দেওয়া", "synonym": "publish, launch", "antonym": "withhold" }
+          {
+            "word": "versatile",
+            "pos": "adj",
+            "meaning_en": "multi-talented",
+            "meaning_bn": "বহুমুখী প্রতিভার অধিকারী",
+            "synonym": "multitalented",
+            "antonym": "limited"
+          },
+          {
+            "word": "genius",
+            "pos": "n",
+            "meaning_en": "exceptional intelligence",
+            "meaning_bn": "প্রতিভা",
+            "synonym": "brilliance",
+            "antonym": ""
+          },
+          {
+            "word": "memorable",
+            "pos": "adj",
+            "meaning_en": "unforgettable",
+            "meaning_bn": "স্মরণীয়",
+            "synonym": "unforgettable",
+            "antonym": "forgettable"
+          },
+          {
+            "word": "premature",
+            "pos": "adj",
+            "meaning_en": "untimely",
+            "meaning_bn": "অকাল",
+            "synonym": "untimely",
+            "antonym": "timely"
+          },
+          {
+            "word": "honour",
+            "pos": "v",
+            "meaning_en": "to give recognition",
+            "meaning_bn": "সম্মানিত করা",
+            "synonym": "recognize",
+            "antonym": "disgrace"
+          },
+          {
+            "word": "release",
+            "pos": "v",
+            "meaning_en": "to make available to the public",
+            "meaning_bn": "মুক্তি দেওয়া",
+            "synonym": "publish, launch",
+            "antonym": "withhold"
+          }
         ],
         "mcqQuestions": [
           {
             "id": "5i",
             "question": "Which award did Pather Panchali win?",
-            "options": ["Padma Bhushan", "President's Gold Medal and 12 international awards", "OSCAR", "Magsaysay"],
+            "options": [
+              "Padma Bhushan",
+              "President's Gold Medal and 12 international awards",
+              "OSCAR",
+              "Magsaysay"
+            ],
             "correct": 1,
             "explanation_bn": "পথের পাঁচালী রাষ্ট্রপতি স্বর্ণপদক এবং ১২টি আন্তর্জাতিক পুরস্কার লাভ করে।",
             "explanation_en": "Pather Panchali won the President's Gold Medal and 12 international awards."
@@ -312,7 +626,12 @@
           {
             "id": "5ii",
             "question": "Which film of the Apu trilogy was released in 1956?",
-            "options": ["Pather Panchali", "Aparajita", "Apur Sangsar", "Mahanagar"],
+            "options": [
+              "Pather Panchali",
+              "Aparajita",
+              "Apur Sangsar",
+              "Mahanagar"
+            ],
             "correct": 1,
             "explanation_bn": "অপরাজিতা ১৯৫৬ সালে মুক্তি পায়।",
             "explanation_en": "Aparajita was released in 1956."
@@ -320,7 +639,12 @@
           {
             "id": "5iii",
             "question": "Which award did Satyajit Ray receive in 1967?",
-            "options": ["Padma Bhushan", "OSCAR", "Bharat Ratna", "Magsaysay"],
+            "options": [
+              "Padma Bhushan",
+              "OSCAR",
+              "Bharat Ratna",
+              "Magsaysay"
+            ],
             "correct": 3,
             "explanation_bn": "সত্যজিৎ রায় ১৯৬৭ সালে 'ম্যাগসেসাই' পুরস্কার লাভ করেন।",
             "explanation_en": "Satyajit Ray was awarded the Magsaysay Award in 1967."
@@ -328,7 +652,12 @@
           {
             "id": "5iv",
             "question": "In which year did Satyajit Ray receive the Oscar award?",
-            "options": ["1965", "1967", "1992", "1972"],
+            "options": [
+              "1965",
+              "1967",
+              "1992",
+              "1972"
+            ],
             "correct": 2,
             "explanation_bn": "তিনি ১৯৯২ সালে অস্কার পুরস্কার লাভ করেন।",
             "explanation_en": "He received the Oscar (Academy Honorary Award) in 1992."
@@ -336,7 +665,12 @@
           {
             "id": "5v",
             "question": "In which year was the film 'Gupi Gain Bagha Bain' released?",
-            "options": ["1964", "1972", "1969", "1974"],
+            "options": [
+              "1964",
+              "1972",
+              "1969",
+              "1974"
+            ],
             "correct": 2,
             "explanation_bn": "গুপী গাইন বাঘা বাইন ১৯৬৯ সালে মুক্তি পায়।",
             "explanation_en": "Gupi Gain Bagha Bain was released in 1969."
@@ -359,7 +693,12 @@
           {
             "id": "6b",
             "question": "Satyajit Ray passed the Matriculation Examination in 1936.",
-            "options": ["True", "False", "He passed in 1932", "He never passed Matriculation"],
+            "options": [
+              "True",
+              "False",
+              "He passed in 1932",
+              "He never passed Matriculation"
+            ],
             "correct": 0,
             "explanation_bn": "হ্যাঁ, তিনি ১৯৩৬ সালে মাধ্যমিক পরীক্ষা পাস করেন।",
             "explanation_en": "Yes, he passed the Matriculation Examination in 1936."
@@ -367,7 +706,12 @@
           {
             "id": "6c",
             "question": "Satyajit Ray got art education at Santiniketan.",
-            "options": ["True", "False", "He studied at Oxford", "He was self-taught in art"],
+            "options": [
+              "True",
+              "False",
+              "He studied at Oxford",
+              "He was self-taught in art"
+            ],
             "correct": 0,
             "explanation_bn": "হ্যাঁ, তিনি শান্তি নিকেতনে শিল্পকলা শিক্ষা লাভ করেন।",
             "explanation_en": "Yes, he received art education at Santiniketan."
@@ -388,7 +732,12 @@
           {
             "id": "6e",
             "question": "Satyajit Ray breathed his last on April 23, 1992.",
-            "options": ["True", "False", "He died in 1965", "He died in 1972"],
+            "options": [
+              "True",
+              "False",
+              "He died in 1965",
+              "He died in 1972"
+            ],
             "correct": 0,
             "explanation_bn": "হ্যাঁ, সত্যজিৎ রায় ১৯৯২ সালের ২৩ এপ্রিল শেষ নিঃশ্বাস ত্যাগ করেন।",
             "explanation_en": "Yes, Satyajit Ray passed away on April 23, 1992."
@@ -422,25 +771,37 @@
           "valid_sentences": [
             {
               "sentence": "There lived two friends in a certain village. They promised that they would help each other at the time of danger.",
-              "combination": ["There lived two friends in a certain village. They promised that they would", "help each other at the time of danger."],
+              "combination": [
+                "There lived two friends in a certain village. They promised that they would",
+                "help each other at the time of danger."
+              ],
               "explanation_en": "This introduces the two friends and their promise.",
               "explanation_bn": "এটি দুই বন্ধু এবং তাদের প্রতিশ্রুতি পরিচয় করিয়ে দেয়।"
             },
             {
               "sentence": "One day, they were passing through a deep forest.",
-              "combination": ["One day, they were", "passing through a deep forest."],
+              "combination": [
+                "One day, they were",
+                "passing through a deep forest."
+              ],
               "explanation_en": "This describes the setting where the event took place.",
               "explanation_bn": "এটি ঘটনার স্থান বর্ণনা করে।"
             },
             {
               "sentence": "Suddenly, they saw a bear coming towards them.",
-              "combination": ["Suddenly, they saw", "a bear coming towards them."],
+              "combination": [
+                "Suddenly, they saw",
+                "a bear coming towards them."
+              ],
               "explanation_en": "This introduces the danger they faced.",
               "explanation_bn": "এটি তারা যে বিপদের সম্মুখীন হয়েছিল তা পরিচয় করিয়ে দেয়।"
             },
             {
               "sentence": "One of them climbed up a tree without thinking about his friend.",
-              "combination": ["One of them climbed up a tree", "without thinking about his friend."],
+              "combination": [
+                "One of them climbed up a tree",
+                "without thinking about his friend."
+              ],
               "explanation_en": "This shows how one friend reacted selfishly.",
               "explanation_bn": "এটি দেখায় কীভাবে একজন বন্ধু স্বার্থপরভাবে প্রতিক্রিয়া দেখিয়েছিল।"
             }
@@ -454,16 +815,49 @@
       "type": "rearrangement",
       "content": {
         "sentences": [
-          { "id": "a", "text": "The king was charmed by the words of the small boy." },
-          { "id": "b", "text": "The boy said, 'I want to go to my country because I didn't see my mother for a long time.'" },
-          { "id": "c", "text": "One day he saw that an English boy was making a small boat." },
-          { "id": "d", "text": "The boy said, 'I shall cross the sea by this boat.'" },
-          { "id": "f", "text": "Then the boy was very happy to go to his country and meet his mother." },
-          { "id": "g", "text": "He made all arrangements to send him to his country." },
-          { "id": "h", "text": "Napoleon, the king of France, was a great hero who won many battles and conquered many countries of Europe." },
-          { "id": "s", "text": "Napoleon asked him why he was making such a small boat." }
+          {
+            "id": "a",
+            "text": "The king was charmed by the words of the small boy."
+          },
+          {
+            "id": "b",
+            "text": "The boy said, 'I want to go to my country because I didn't see my mother for a long time.'"
+          },
+          {
+            "id": "c",
+            "text": "One day he saw that an English boy was making a small boat."
+          },
+          {
+            "id": "d",
+            "text": "The boy said, 'I shall cross the sea by this boat.'"
+          },
+          {
+            "id": "f",
+            "text": "Then the boy was very happy to go to his country and meet his mother."
+          },
+          {
+            "id": "g",
+            "text": "He made all arrangements to send him to his country."
+          },
+          {
+            "id": "h",
+            "text": "Napoleon, the king of France, was a great hero who won many battles and conquered many countries of Europe."
+          },
+          {
+            "id": "s",
+            "text": "Napoleon asked him why he was making such a small boat."
+          }
         ],
-        "correctOrder": ["h", "c", "s", "d", "b", "a", "g", "f"],
+        "correctOrder": [
+          "h",
+          "c",
+          "s",
+          "d",
+          "b",
+          "a",
+          "g",
+          "f"
+        ],
         "reconstructedParagraph": "Napoleon, the king of France, was a great hero who won many battles and conquered many countries of Europe. One day he saw that an English boy was making a small boat. Napoleon asked him why he was making such a small boat. The boy said, 'I shall cross the sea by this boat.' The boy said, 'I want to go to my country because I didn't see my mother for a long time.' The king was charmed by the words of the small boy. He made all arrangements to send him to his country. Then the boy was very happy to go to his country and meet his mother."
       }
     },
@@ -476,7 +870,12 @@
           {
             "id": "10a",
             "question": "In the poem 'From a Railway Carriage', what does the expression 'as thick as driving rain' indicate?",
-            "options": ["The rain was falling slowly", "The sights outside were coming very fast like heavy rain", "The train was moving slowly", "The sky was cloudy"],
+            "options": [
+              "The rain was falling slowly",
+              "The sights outside were coming very fast like heavy rain",
+              "The train was moving slowly",
+              "The sky was cloudy"
+            ],
             "correct": 1,
             "explanation_bn": "ভারী বৃষ্টির মতো দৃশ্যগুলো খুব দ্রুত আসছিল এবং ধরা কঠিন ছিল।",
             "explanation_en": "Like hard rain, the sights outside were coming at the poet very fast and were hard to catch."
@@ -484,7 +883,12 @@
           {
             "id": "10b",
             "question": "According to the poem 'From a Railway Carriage', what is the child doing by the side of the road?",
-            "options": ["Sleeping", "Playing with a ball", "Climbing and scrambling, gathering brambles", "Reading a book"],
+            "options": [
+              "Sleeping",
+              "Playing with a ball",
+              "Climbing and scrambling, gathering brambles",
+              "Reading a book"
+            ],
             "correct": 2,
             "explanation_bn": "শিশুটি রাস্তার পাশে আরোহণ করছে এবং বেড়া জড়ো করছে।",
             "explanation_en": "The child is climbing and scrambling, gathering brambles by the side of the road."
@@ -492,7 +896,12 @@
           {
             "id": "10c",
             "question": "According to the poem 'Leisure', which animals can relax and admire nature without worries?",
-            "options": ["Dogs and cats", "Sheep and cows", "Horses and donkeys", "Birds and fish"],
+            "options": [
+              "Dogs and cats",
+              "Sheep and cows",
+              "Horses and donkeys",
+              "Birds and fish"
+            ],
             "correct": 1,
             "explanation_bn": "'Leisure' কবিতা অনুসারে, ভেড়া ও গরু চিন্তামুক্ত হয়ে প্রকৃতি উপভোগ করতে পারে।",
             "explanation_en": "According to 'Leisure', sheep and cows can relax and admire nature without worries."
@@ -500,7 +909,12 @@
           {
             "id": "10d",
             "question": "What have streams been compared to in the poem 'Leisure'?",
-            "options": ["Green fields", "Skies at night", "Golden sand", "Silver rivers"],
+            "options": [
+              "Green fields",
+              "Skies at night",
+              "Golden sand",
+              "Silver rivers"
+            ],
             "correct": 1,
             "explanation_bn": "স্রোতধারাকে 'রাতের আকাশের' সাথে তুলনা করা হয়েছে কারণ পানিতে তারার প্রতিফলন দেখা যায়।",
             "explanation_en": "Streams have been compared to 'skies at night' because water reflects light like stars."
@@ -508,7 +922,12 @@
           {
             "id": "10e",
             "question": "In the poem 'Leisure', what does the poet wish to do during leisure?",
-            "options": ["Sleep and rest", "Enjoy life, observe nature, and appreciate its beauty", "Work hard", "Read books"],
+            "options": [
+              "Sleep and rest",
+              "Enjoy life, observe nature, and appreciate its beauty",
+              "Work hard",
+              "Read books"
+            ],
             "correct": 1,
             "explanation_bn": "কবি অবসরে জীবন উপভোগ করতে, প্রকৃতি পর্যবেক্ষণ করতে এবং তার সৌন্দর্যের প্রশংসা করতে চান।",
             "explanation_en": "The poet wishes to enjoy life, observe nature, and appreciate its beauty during leisure."
@@ -516,7 +935,12 @@
           {
             "id": "10f",
             "question": "According to the poem 'Whose Child Is This?', it is a --- task to love and teach a child.",
-            "options": ["easy and simple", "noble and divine", "difficult and painful", "useless and wasteful"],
+            "options": [
+              "easy and simple",
+              "noble and divine",
+              "difficult and painful",
+              "useless and wasteful"
+            ],
             "correct": 1,
             "explanation_bn": "কবিতা অনুসারে, একটি শিশুকে ভালোবাসা এবং শেখানো একটি মহৎ ও পবিত্র কাজ।",
             "explanation_en": "According to the poem, it is a noble and divine task to love and teach a child."
@@ -524,7 +948,12 @@
           {
             "id": "10g",
             "question": "In the poem 'Whose Child Is This?', why did the teacher reply 'Mine'?",
-            "options": ["Because the teacher owned the child", "Because a child remains under the teacher's care at school", "Because the teacher was the parent", "Because the teacher wanted to take the child home"],
+            "options": [
+              "Because the teacher owned the child",
+              "Because a child remains under the teacher's care at school",
+              "Because the teacher was the parent",
+              "Because the teacher wanted to take the child home"
+            ],
             "correct": 1,
             "explanation_bn": "শিক্ষক 'আমার' বলেছেন কারণ শিশুটি স্কুলে শিক্ষকের যত্নে থাকে। শিক্ষক তাকে ভালোবেসে শিক্ষা দেন।",
             "explanation_en": "The teacher replied 'Mine' because the child is under the teacher's care at school."
@@ -532,7 +961,12 @@
           {
             "id": "10h",
             "question": "At the end of the poem 'Whose Child Is This?', what did the parent and the teacher do?",
-            "options": ["They argued with each other", "They held the child's hand and promised to love and train the child together", "They left the child alone", "They sent the child away"],
+            "options": [
+              "They argued with each other",
+              "They held the child's hand and promised to love and train the child together",
+              "They left the child alone",
+              "They sent the child away"
+            ],
             "correct": 1,
             "explanation_bn": "কবিতার শেষে পিতামাতা এবং শিক্ষক শিশুটির হাত ধরে একসাথে ভালোবাসতে ও শিক্ষা দিতে প্রতিশ্রুতি দেন।",
             "explanation_en": "At the end, both held the child's hand and promised to love and train the child together."

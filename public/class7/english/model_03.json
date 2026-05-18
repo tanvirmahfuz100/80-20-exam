@@ -8,23 +8,84 @@
       "name": "Passage & Comprehension",
       "type": "passage_mcq",
       "content": {
-        "passage": "Next week Farabi comes to visit Flora in her house. They are having a chat. \"Can you remember your first day at school, Flora?\" Farabi asks. \"Oh, yes, I can,\" Flora says. \"I can recall exactly what happened. Would you like to hear it?\" \"I'd love to,\" says Farabi. \"Please, tell me.\" \"Okay,\" says Flora. \"It was 2006. I was then 6 years old.\" One day my mother said, \"Flora, you're going to start your school tomorrow.\" I was very excited. I couldn't think of anything else. I was always thinking about the school, the teachers and the students of our school. I couldn't even sleep well that night. The next morning my mother woke me up early in the morning. I had a bath and put on my best clothes. Then I had breakfast and started for the school with my mother. The school was not very far from our home. So, we walked all the way.",
+        "passage": "Next week Farabi comes to visit Flora in her house. They are having a chat. \"Can you remember your first day at school, Flora?\" Farabi asks.\n\n\"Oh, yes, I can,\" Flora says. \"I can recall exactly what happened. Would you like to hear it?\" \"I'd love to,\" says Farabi.\n\n\"Please, tell me.\" \"Okay,\" says Flora. \"It was 2006. I was then 6 years old.\" One day my mother said, \"Flora, you're going to start your school tomorrow.\" I was very excited.\n\nI couldn't think of anything else. I was always thinking about the school, the teachers and the students of our school. I couldn't even sleep well that night.\n\nThe next morning my mother woke me up early in the morning. I had a bath and put on my best clothes. Then I had breakfast and started for the school with my mother.\n\nThe school was not very far from our home. So, we walked all the way.",
         "translation_bn": "পরের সপ্তাহে ফারাবি ফ্লোরাদের বাড়িতে বেড়াতে আসে। তারা আলাপ করছে। \"তুমি কি বিদ্যালয়ে তোমার প্রথম দিনের কথা মনে করতে পারো, ফ্লোরা?\" ফারাবি জিজ্ঞাসা করে। \"ওহ, হ্যাঁ, আমি পারি,\" ফ্লোরা বলে। \"যা ঘটেছিল তা আমি হুবহু স্মরণ করতে পারি। তুমি কি তা শুনতে চাও?\" \"শুনতে আমার ভালো লাগবে,\" ফারাবি বলে। \"দয়া করে আমাকে বলো।\" \"ঠিক আছে,\" ফ্লোরা বলে। \"এটি ছিল ২০০৬ সাল। তখন আমার বয়স ছিল ৬ বছর।\" একদিন আমার মা বললেন, \"ফ্লোরা, তুমি আগামীকাল থেকে বিদ্যালয়ে যাওয়া শুরু করছো।\" আমি খুবই উৎফুল্ল হলাম। আমি আর অন্য কিছু ভাবতে পারছিলাম না। আমি সারাক্ষণ আমাদের বিদ্যালয়, শিক্ষকবৃন্দ এবং শিক্ষার্থীদের কথা ভাবছিলাম। এমনকী আমি সেই রাতে ঠিকমতো ঘুমাতেও পারিনি। পরদিন সকালে মা আমাকে খুব সকালে জাগিয়ে দেন। আমি গোসল করে আমার সবচেয়ে ভালো কাপড় পরে নিই। তারপর আমি নাস্তা খেয়ে আমার মায়ের সাথে বিদ্যালয়ের উদ্দেশ্যে রওনা হই। বিদ্যালয়টি আমাদের বাড়ি থেকে খুব বেশি দূরে ছিল না। তাই আমরা সারা রাস্তা হেঁটে গিয়েছিলাম।",
         "vocabulary": [
-          { "word": "chat", "pos": "n", "meaning_en": "to talk informally", "meaning_bn": "আলাপ", "synonym": "talk", "antonym": "silence" },
-          { "word": "recall", "pos": "v", "meaning_en": "to remember", "meaning_bn": "স্মরণ করা", "synonym": "remember", "antonym": "forget" },
-          { "word": "excited", "pos": "adj", "meaning_en": "very enthusiastic", "meaning_bn": "উৎফুল্ল", "synonym": "enthusiastic", "antonym": "indifferent" },
-          { "word": "far", "pos": "adv", "meaning_en": "at a distance", "meaning_bn": "দূরে", "synonym": "afar", "antonym": "near" },
-          { "word": "exactly", "pos": "adv", "meaning_en": "accurately", "meaning_bn": "যথাযথভাবে", "synonym": "precisely", "antonym": "approximately" },
-          { "word": "happen", "pos": "v", "meaning_en": "to occur", "meaning_bn": "ঘটা", "synonym": "occur", "antonym": "" },
-          { "word": "remember", "pos": "v", "meaning_en": "to bring to mind", "meaning_bn": "মনে করা", "synonym": "recall", "antonym": "forget" },
-          { "word": "start", "pos": "v", "meaning_en": "to begin", "meaning_bn": "শুরু করা", "synonym": "begin", "antonym": "finish" }
+          {
+            "word": "chat",
+            "pos": "n",
+            "meaning_en": "to talk informally",
+            "meaning_bn": "আলাপ",
+            "synonym": "talk",
+            "antonym": "silence"
+          },
+          {
+            "word": "recall",
+            "pos": "v",
+            "meaning_en": "to remember",
+            "meaning_bn": "স্মরণ করা",
+            "synonym": "remember",
+            "antonym": "forget"
+          },
+          {
+            "word": "excited",
+            "pos": "adj",
+            "meaning_en": "very enthusiastic",
+            "meaning_bn": "উৎফুল্ল",
+            "synonym": "enthusiastic",
+            "antonym": "indifferent"
+          },
+          {
+            "word": "far",
+            "pos": "adv",
+            "meaning_en": "at a distance",
+            "meaning_bn": "দূরে",
+            "synonym": "afar",
+            "antonym": "near"
+          },
+          {
+            "word": "exactly",
+            "pos": "adv",
+            "meaning_en": "accurately",
+            "meaning_bn": "যথাযথভাবে",
+            "synonym": "precisely",
+            "antonym": "approximately"
+          },
+          {
+            "word": "happen",
+            "pos": "v",
+            "meaning_en": "to occur",
+            "meaning_bn": "ঘটা",
+            "synonym": "occur",
+            "antonym": ""
+          },
+          {
+            "word": "remember",
+            "pos": "v",
+            "meaning_en": "to bring to mind",
+            "meaning_bn": "মনে করা",
+            "synonym": "recall",
+            "antonym": "forget"
+          },
+          {
+            "word": "start",
+            "pos": "v",
+            "meaning_en": "to begin",
+            "meaning_bn": "শুরু করা",
+            "synonym": "begin",
+            "antonym": "finish"
+          }
         ],
         "questions": [
           {
             "id": "1i",
             "question": "Flora was born in ---",
-            "options": ["2006", "2001", "2000", "2012"],
+            "options": [
+              "2006",
+              "2001",
+              "2000",
+              "2012"
+            ],
             "correct": 2,
             "explanation_bn": "ফ্লোরা ২০০০ সালে জন্মগ্রহণ করে, কারণ ২০০৬ সালে তার বয়স ছিল ৬ বছর।",
             "explanation_en": "Flora was born in 2000, as she was 6 years old in 2006."
@@ -32,7 +93,12 @@
           {
             "id": "1ii",
             "question": "At the age of six, Flora --- school.",
-            "options": ["changed", "switched", "left", "joined"],
+            "options": [
+              "changed",
+              "switched",
+              "left",
+              "joined"
+            ],
             "correct": 3,
             "explanation_bn": "ছয় বছর বয়সে ফ্লোরা প্রথমবার বিদ্যালয়ে যোগ দেয়।",
             "explanation_en": "At age six, Flora joined school for the first time."
@@ -40,7 +106,12 @@
           {
             "id": "1iii",
             "question": "How did Flora go to school?",
-            "options": ["By bus", "By rickshaw", "On foot", "By school van"],
+            "options": [
+              "By bus",
+              "By rickshaw",
+              "On foot",
+              "By school van"
+            ],
             "correct": 2,
             "explanation_bn": "বিদ্যালয়টি বাড়ির কাছেই ছিল, তাই তারা হেঁটে গিয়েছিল।",
             "explanation_en": "The school was near their home, so they walked."
@@ -48,7 +119,12 @@
           {
             "id": "1iv",
             "question": "What did Flora wear on her first day at school?",
-            "options": ["Uniform", "School dress", "Her best clothes", "Fancy dress"],
+            "options": [
+              "Uniform",
+              "School dress",
+              "Her best clothes",
+              "Fancy dress"
+            ],
             "correct": 2,
             "explanation_bn": "ফ্লোরা তার সবচেয়ে ভালো জামা পরে বিদ্যালয়ে গিয়েছিল।",
             "explanation_en": "Flora put on her best clothes on her first day at school."
@@ -56,7 +132,12 @@
           {
             "id": "1v",
             "question": "Which of the followings is incorrect?",
-            "options": ["Flora started her school in 2006", "Flora was restless at night", "Flora went to school alone", "The school was near her home"],
+            "options": [
+              "Flora started her school in 2006",
+              "Flora was restless at night",
+              "Flora went to school alone",
+              "The school was near her home"
+            ],
             "correct": 2,
             "explanation_bn": "ফ্লোরা তার মায়ের সাথে বিদ্যালয়ে গিয়েছিল, একা নয়।",
             "explanation_en": "Flora went to school with her mother, not alone."
@@ -64,7 +145,12 @@
           {
             "id": "1vi",
             "question": "Which one of the following words has a similar meaning of 'tomorrow'?",
-            "options": ["the previous day", "the next day", "day after tomorrow", "today"],
+            "options": [
+              "the previous day",
+              "the next day",
+              "day after tomorrow",
+              "today"
+            ],
             "correct": 1,
             "explanation_bn": "'Tomorrow'-এর সমার্থক শব্দ 'the next day' (পরের দিন)।",
             "explanation_en": "The synonym of 'tomorrow' is 'the next day'."
@@ -72,7 +158,12 @@
           {
             "id": "1vii",
             "question": "In the text, 'Please' refers to a/an ---",
-            "options": ["request", "order", "advice", "command"],
+            "options": [
+              "request",
+              "order",
+              "advice",
+              "command"
+            ],
             "correct": 0,
             "explanation_bn": "'Please' একটি অনুরোধ বোঝাতে ব্যবহৃত হয়।",
             "explanation_en": "'Please' is used to express a request."
@@ -80,7 +171,12 @@
           {
             "id": "1viii",
             "question": "'I had a bath and put on my best clothes.' What does the phrase 'put on' mean?",
-            "options": ["keep", "choose", "select", "wear"],
+            "options": [
+              "keep",
+              "choose",
+              "select",
+              "wear"
+            ],
             "correct": 3,
             "explanation_bn": "'Put on' অর্থ পরা বা wear।",
             "explanation_en": "'Put on' means to wear."
@@ -88,7 +184,12 @@
           {
             "id": "1ix",
             "question": "'I was very excited.' According to the context of the passage, the underlined word means ---",
-            "options": ["overjoyed", "agitated", "upset", "bored"],
+            "options": [
+              "overjoyed",
+              "agitated",
+              "upset",
+              "bored"
+            ],
             "correct": 0,
             "explanation_bn": "'Excited' অর্থ উৎফুল্ল বা overjoyed।",
             "explanation_en": "'Excited' means overjoyed or very enthusiastic."
@@ -96,7 +197,12 @@
           {
             "id": "1x",
             "question": "When Flora's mother told her that she was going to start school the next day, Flora was ---",
-            "options": ["sad", "thrilled", "frightened", "worried"],
+            "options": [
+              "sad",
+              "thrilled",
+              "frightened",
+              "worried"
+            ],
             "correct": 1,
             "explanation_bn": "ফ্লোরা খুবই উৎফুল্ল (thrilled) হয়েছিল।",
             "explanation_en": "Flora was thrilled when she heard the news."
@@ -104,7 +210,12 @@
           {
             "id": "1xi",
             "question": "Flora's school was --- her home.",
-            "options": ["far away from", "adjacent to", "close to", "in a walking distance from"],
+            "options": [
+              "far away from",
+              "adjacent to",
+              "close to",
+              "in a walking distance from"
+            ],
             "correct": 3,
             "explanation_bn": "বিদ্যালয়টি বাড়ি থেকে হাঁটার দূরত্বে ছিল।",
             "explanation_en": "The school was within walking distance from her home."
@@ -112,7 +223,12 @@
           {
             "id": "1xii",
             "question": "Flora could not sleep well the night before her first school day because ---",
-            "options": ["she was thrilled", "of her anxiety", "she had fever", "her mother was sick"],
+            "options": [
+              "she was thrilled",
+              "of her anxiety",
+              "she had fever",
+              "her mother was sick"
+            ],
             "correct": 0,
             "explanation_bn": "ফ্লোরা উৎফুল্ল ছিল বলেই সে রাতে ভালো ঘুমাতে পারেনি।",
             "explanation_en": "Flora could not sleep well because she was thrilled."
@@ -120,7 +236,12 @@
           {
             "id": "1xiii",
             "question": "'They are having a chat.' Here, 'chat' is synonymous to ---",
-            "options": ["forget", "talk", "call", "seat"],
+            "options": [
+              "forget",
+              "talk",
+              "call",
+              "seat"
+            ],
             "correct": 1,
             "explanation_bn": "'Chat' অর্থ আলাপ বা talk।",
             "explanation_en": "'Chat' means to talk informally."
@@ -128,7 +249,12 @@
           {
             "id": "1xiv",
             "question": "Flora went to school with her ---",
-            "options": ["father", "mother", "teacher", "Farabi"],
+            "options": [
+              "father",
+              "mother",
+              "teacher",
+              "Farabi"
+            ],
             "correct": 1,
             "explanation_bn": "ফ্লোরা তার মায়ের সাথে বিদ্যালয়ে গিয়েছিল।",
             "explanation_en": "Flora went to school with her mother."
@@ -136,7 +262,12 @@
           {
             "id": "1xv",
             "question": "'Flora, you're going to start your school tomorrow.' Here, 'start' means ---",
-            "options": ["create", "found", "begin", "inaugurate"],
+            "options": [
+              "create",
+              "found",
+              "begin",
+              "inaugurate"
+            ],
             "correct": 2,
             "explanation_bn": "'Start' অর্থ begin বা শুরু করা।",
             "explanation_en": "'Start' means to begin."
@@ -144,7 +275,12 @@
           {
             "id": "2a",
             "question": "What did Farabi want to hear from Flora?",
-            "options": ["About her exam results", "About her first day at school", "About her family", "About her teacher"],
+            "options": [
+              "About her exam results",
+              "About her first day at school",
+              "About her family",
+              "About her teacher"
+            ],
             "correct": 1,
             "explanation_bn": "ফারাবি ফ্লোরার বিদ্যালয়ের প্রথম দিনের কথা শুনতে চেয়েছিল।",
             "explanation_en": "Farabi wanted to hear about Flora's first day at school."
@@ -152,7 +288,12 @@
           {
             "id": "2b",
             "question": "Why was Flora excited?",
-            "options": ["Because she got a prize", "Because she was going to start her school the next day", "Because Farabi visited her", "Because her mother bought new clothes"],
+            "options": [
+              "Because she got a prize",
+              "Because she was going to start her school the next day",
+              "Because Farabi visited her",
+              "Because her mother bought new clothes"
+            ],
             "correct": 1,
             "explanation_bn": "ফ্লোরা উত্তেজিত ছিল কারণ পরের দিন সে প্রথমবার বিদ্যালয়ে যাচ্ছিল।",
             "explanation_en": "Flora was excited because she was starting school the next day."
@@ -160,7 +301,12 @@
           {
             "id": "2c",
             "question": "What did Flora do to prepare herself for school?",
-            "options": ["She bought new books", "She had a bath, put on best clothes, had breakfast", "She called her friends", "She packed her bag"],
+            "options": [
+              "She bought new books",
+              "She had a bath, put on best clothes, had breakfast",
+              "She called her friends",
+              "She packed her bag"
+            ],
             "correct": 1,
             "explanation_bn": "ফ্লোরা গোসল করে, ভালো কাপড় পরে ও নাস্তা খেয়ে প্রস্তুত হয়েছিল।",
             "explanation_en": "She had a bath, put on her best clothes, and had breakfast."
@@ -168,7 +314,12 @@
           {
             "id": "2d",
             "question": "What is Flora and Farabi talking about?",
-            "options": ["About their football team", "About Farabi's prize-giving ceremony", "About Flora's first day at school", "About their teachers"],
+            "options": [
+              "About their football team",
+              "About Farabi's prize-giving ceremony",
+              "About Flora's first day at school",
+              "About their teachers"
+            ],
             "correct": 2,
             "explanation_bn": "তারা ফ্লোরার বিদ্যালয়ের প্রথম দিন সম্পর্কে কথা বলছে।",
             "explanation_en": "They are talking about Flora's first day at school."
@@ -176,7 +327,12 @@
           {
             "id": "2e",
             "question": "How did Flora and her mother reach the school? Why?",
-            "options": ["By rickshaw because it was far", "By bus because they were late", "They walked because the school was not far", "By car because her father drove"],
+            "options": [
+              "By rickshaw because it was far",
+              "By bus because they were late",
+              "They walked because the school was not far",
+              "By car because her father drove"
+            ],
             "correct": 2,
             "explanation_bn": "বিদ্যালয়টি কাছে ছিল বলে তারা হেঁটে গিয়েছিল।",
             "explanation_en": "They walked because the school was not far from their home."
@@ -192,51 +348,137 @@
         "gapFill": {
           "passage": "Flora has come to (a) ______ Farabi. They are talking. Flora wants to know about the prize-giving ceremony of Farabi's school. Farabi says that the (b) ______ day was their school prize-giving day. The ceremony started just at 4 pm. After giving a short speech, the chief guest gave away the (c) ______ among the students for their outstanding activities. Farabi also says that he has (d) ______ two prizes: one for regular attendance and the other for good results in the (e) ______ annual exams.",
           "dialogPassage": "",
-          "boxWords": ["visit", "previous", "prizes", "got", "last", "first", "won", "next", "school", "gifts"],
+          "boxWords": [
+            "visit",
+            "previous",
+            "prizes",
+            "got",
+            "last",
+            "first",
+            "won",
+            "next",
+            "school",
+            "gifts"
+          ],
           "blanks": [
             {
               "blankId": "a",
               "correct": "visit",
               "options": [
-                { "text": "visit", "isCorrect": true, "explanationBn": "ফ্লোরা ফারাবিকে দেখতে এসেছে।", "explanationEn": "Flora has come to visit Farabi." },
-                { "text": "school", "isCorrect": false, "explanationBn": "স্কুল নয়, ফ্লোরা ফারাবিকে দেখতে এসেছে।", "explanationEn": "Not school, Flora came to visit Farabi." },
-                { "text": "call", "isCorrect": false, "explanationBn": "'Visit' এখানে উপযুক্ত শব্দ।", "explanationEn": "'Visit' is the appropriate word here." }
+                {
+                  "text": "visit",
+                  "isCorrect": true,
+                  "explanationBn": "ফ্লোরা ফারাবিকে দেখতে এসেছে।",
+                  "explanationEn": "Flora has come to visit Farabi."
+                },
+                {
+                  "text": "school",
+                  "isCorrect": false,
+                  "explanationBn": "স্কুল নয়, ফ্লোরা ফারাবিকে দেখতে এসেছে।",
+                  "explanationEn": "Not school, Flora came to visit Farabi."
+                },
+                {
+                  "text": "call",
+                  "isCorrect": false,
+                  "explanationBn": "'Visit' এখানে উপযুক্ত শব্দ।",
+                  "explanationEn": "'Visit' is the appropriate word here."
+                }
               ]
             },
             {
               "blankId": "b",
               "correct": "previous",
               "options": [
-                { "text": "previous", "isCorrect": true, "explanationBn": "'Previous day' অর্থ আগের দিন।", "explanationEn": "'Previous day' means the day before." },
-                { "text": "next", "isCorrect": false, "explanationBn": "এটি 'previous' নয়, 'previous day' সঠিক।", "explanationEn": "It is the day before, not the next day." },
-                { "text": "first", "isCorrect": false, "explanationBn": "'Previous' এখানে সঠিক শব্দ।", "explanationEn": "'Previous' is the correct word here." }
+                {
+                  "text": "previous",
+                  "isCorrect": true,
+                  "explanationBn": "'Previous day' অর্থ আগের দিন।",
+                  "explanationEn": "'Previous day' means the day before."
+                },
+                {
+                  "text": "next",
+                  "isCorrect": false,
+                  "explanationBn": "এটি 'previous' নয়, 'previous day' সঠিক।",
+                  "explanationEn": "It is the day before, not the next day."
+                },
+                {
+                  "text": "first",
+                  "isCorrect": false,
+                  "explanationBn": "'Previous' এখানে সঠিক শব্দ।",
+                  "explanationEn": "'Previous' is the correct word here."
+                }
               ]
             },
             {
               "blankId": "c",
               "correct": "prizes",
               "options": [
-                { "text": "prizes", "isCorrect": true, "explanationBn": "প্রধান অতিথি শিক্ষার্থীদের মাঝে পুরস্কার বিতরণ করেন।", "explanationEn": "The chief guest gave away prizes among the students." },
-                { "text": "gifts", "isCorrect": false, "explanationBn": "পুরস্কার বিতরণী অনুষ্ঠানে 'prizes' দেওয়া হয়।", "explanationEn": "'Prizes' are given at a prize-giving ceremony." },
-                { "text": "medals", "isCorrect": false, "explanationBn": "এখানে 'prizes' সঠিক শব্দ।", "explanationEn": "'Prizes' is the correct word." }
+                {
+                  "text": "prizes",
+                  "isCorrect": true,
+                  "explanationBn": "প্রধান অতিথি শিক্ষার্থীদের মাঝে পুরস্কার বিতরণ করেন।",
+                  "explanationEn": "The chief guest gave away prizes among the students."
+                },
+                {
+                  "text": "gifts",
+                  "isCorrect": false,
+                  "explanationBn": "পুরস্কার বিতরণী অনুষ্ঠানে 'prizes' দেওয়া হয়।",
+                  "explanationEn": "'Prizes' are given at a prize-giving ceremony."
+                },
+                {
+                  "text": "medals",
+                  "isCorrect": false,
+                  "explanationBn": "এখানে 'prizes' সঠিক শব্দ।",
+                  "explanationEn": "'Prizes' is the correct word."
+                }
               ]
             },
             {
               "blankId": "d",
               "correct": "got",
               "options": [
-                { "text": "got", "isCorrect": true, "explanationBn": "ফারাবি দুটি পুরস্কার পেয়েছে।", "explanationEn": "Farabi has got two prizes." },
-                { "text": "won", "isCorrect": false, "explanationBn": "'Got' এবং 'won' উভয়ই সম্ভব, কিন্তু 'got' দেওয়া আছে।", "explanationEn": "Both 'got' and 'won' are possible, but 'got' is given." },
-                { "text": "took", "isCorrect": false, "explanationBn": "'Got' এখানে সঠিক শব্দ।", "explanationEn": "'Got' is the correct word here." }
+                {
+                  "text": "got",
+                  "isCorrect": true,
+                  "explanationBn": "ফারাবি দুটি পুরস্কার পেয়েছে।",
+                  "explanationEn": "Farabi has got two prizes."
+                },
+                {
+                  "text": "won",
+                  "isCorrect": false,
+                  "explanationBn": "'Got' এবং 'won' উভয়ই সম্ভব, কিন্তু 'got' দেওয়া আছে।",
+                  "explanationEn": "Both 'got' and 'won' are possible, but 'got' is given."
+                },
+                {
+                  "text": "took",
+                  "isCorrect": false,
+                  "explanationBn": "'Got' এখানে সঠিক শব্দ।",
+                  "explanationEn": "'Got' is the correct word here."
+                }
               ]
             },
             {
               "blankId": "e",
               "correct": "last",
               "options": [
-                { "text": "last", "isCorrect": true, "explanationBn": "'Last annual exams' অর্থ শেষ বার্ষিক পরীক্ষা।", "explanationEn": "'Last annual exams' refers to the most recent annual exams." },
-                { "text": "next", "isCorrect": false, "explanationBn": "'Last' অর্থ শেষ বা গত।", "explanationEn": "'Last' means the most recent one." },
-                { "text": "first", "isCorrect": false, "explanationBn": "গত বার্ষিক পরীক্ষার কথা বলা হয়েছে।", "explanationEn": "It refers to the previous annual exams." }
+                {
+                  "text": "last",
+                  "isCorrect": true,
+                  "explanationBn": "'Last annual exams' অর্থ শেষ বার্ষিক পরীক্ষা।",
+                  "explanationEn": "'Last annual exams' refers to the most recent annual exams."
+                },
+                {
+                  "text": "next",
+                  "isCorrect": false,
+                  "explanationBn": "'Last' অর্থ শেষ বা গত।",
+                  "explanationEn": "'Last' means the most recent one."
+                },
+                {
+                  "text": "first",
+                  "isCorrect": false,
+                  "explanationBn": "গত বার্ষিক পরীক্ষার কথা বলা হয়েছে।",
+                  "explanationEn": "It refers to the previous annual exams."
+                }
               ]
             }
           ]
@@ -245,7 +487,12 @@
           {
             "id": "4a",
             "question": "What is the antonym of 'different'?",
-            "options": ["same", "varied", "distinct", "separate"],
+            "options": [
+              "same",
+              "varied",
+              "distinct",
+              "separate"
+            ],
             "correct": 0,
             "explanation_bn": "'Different'-এর বিপরীত শব্দ 'same' (একই)।",
             "explanation_en": "The antonym of 'different' is 'same'."
@@ -253,7 +500,12 @@
           {
             "id": "4b",
             "question": "What is the synonym of 'enquire'?",
-            "options": ["answer", "reply", "ask", "ignore"],
+            "options": [
+              "answer",
+              "reply",
+              "ask",
+              "ignore"
+            ],
             "correct": 2,
             "explanation_bn": "'Enquire'-এর সমার্থক শব্দ 'ask' (জিজ্ঞাসা করা)।",
             "explanation_en": "The synonym of 'enquire' is 'ask'."
@@ -261,7 +513,12 @@
           {
             "id": "4c",
             "question": "What is the synonym of 'eminent'?",
-            "options": ["minor", "notorious", "famous", "negligible"],
+            "options": [
+              "minor",
+              "notorious",
+              "famous",
+              "negligible"
+            ],
             "correct": 2,
             "explanation_bn": "'Eminent'-এর সমার্থক শব্দ 'famous' বা 'renowned' (বিশিষ্ট)।",
             "explanation_en": "The synonym of 'eminent' is 'famous' or 'renowned'."
@@ -269,7 +526,12 @@
           {
             "id": "4d",
             "question": "What is the antonym of 'start'?",
-            "options": ["begin", "commence", "end", "initiate"],
+            "options": [
+              "begin",
+              "commence",
+              "end",
+              "initiate"
+            ],
             "correct": 2,
             "explanation_bn": "'Start'-এর বিপরীত শব্দ 'end' বা 'finish' (শেষ করা)।",
             "explanation_en": "The antonym of 'start' is 'end' or 'finish'."
@@ -277,7 +539,12 @@
           {
             "id": "4e",
             "question": "What is the antonym of 'praise'?",
-            "options": ["applaud", "admire", "criticize", "compliment"],
+            "options": [
+              "applaud",
+              "admire",
+              "criticize",
+              "compliment"
+            ],
             "correct": 2,
             "explanation_bn": "'Praise'-এর বিপরীত শব্দ 'criticize' বা 'censure' (সমালোচনা করা)।",
             "explanation_en": "The antonym of 'praise' is 'criticize' or 'censure'."
@@ -290,21 +557,68 @@
       "name": "Biographical Passage & Summary",
       "type": "passage_summary",
       "content": {
-        "passage": "Captain Mohiuddin Jahangir was an officer in the Bangladesh Army during the 1971 Liberation War. He was born on 7 March 1949 at Rahimganj village under Babuganj Upazilla in Barishal district. He finished his HSC from the Barishal BM College. In 1967 he took admission in the department of statistics at the University of Dhaka. On 5 October 1967 he joined as a cadet at the Pakistan Military Academy. He obtained Commissioned rank in the Engineering Corps in 1968. He was promoted to the rank of captain on 30 August 1970. He was an officer in Sector 7 of the Mukti Bahini. He was given the responsibility to fight at the Chapainawabganj border sector in Rajshahi district. On 14 December, he was killed in an attempt to break through enemy defenses on the bank of the Mohananda river. He was buried near Shona Masjid premises. In recognition of his valour and sacrifice in the War of Liberation, Mohiuddin Jahangir was awarded the highest state honour of Birsreshtha.",
+        "passage": "Captain Mohiuddin Jahangir was an officer in the Bangladesh Army during the 1971 Liberation War. He was born on 7 March 1949 at Rahimganj village under Babuganj Upazilla in Barishal district. He finished his HSC from the Barishal BM College.\n\nIn 1967 he took admission in the department of statistics at the University of Dhaka. On 5 October 1967 he joined as a cadet at the Pakistan Military Academy. He obtained Commissioned rank in the Engineering Corps in 1968.\n\nHe was promoted to the rank of captain on 30 August 1970. He was an officer in Sector 7 of the Mukti Bahini. He was given the responsibility to fight at the Chapainawabganj border sector in Rajshahi district.\n\nOn 14 December, he was killed in an attempt to break through enemy defenses on the bank of the Mohananda river. He was buried near Shona Masjid premises. In recognition of his valour and sacrifice in the War of Liberation, Mohiuddin Jahangir was awarded the highest state honour of Birsreshtha.",
         "translation_bn": "ক্যাপ্টেন মহিউদ্দিন জাহাঙ্গীর ১৯৭১ সালের স্বাধীনতা যুদ্ধের সময় বাংলাদেশ সেনাবাহিনীর একজন অফিসার ছিলেন। তিনি ১৯৪৯ সালের ৭ই মার্চ বরিশাল জেলার বাবুগঞ্জ উপজেলার রহিমগঞ্জ গ্রামে জন্মগ্রহণ করেন। তিনি বরিশাল বি.এম কলেজ থেকে এইচ.এস.সি সমাপ্ত করেন। ১৯৬৭ সালে তিনি ঢাকা বিশ্ববিদ্যালয়ের পরিসংখ্যান বিভাগে ভর্তি হন। ১৯৬৭ সালের ৫ অক্টোবর তিনি পাকিস্তান মিলিটারি একাডেমিতে ক্যাডেট হিসেবে যোগদান করেন। ১৯৬৮ সালে তিনি ইঞ্জিনিয়ারিং কোর-এ কমিশন লাভ করেন। তিনি ১৯৭০ সালের ৩০ আগস্ট ক্যাপ্টেন পদে পদোন্নতি লাভ করেন। তিনি মুক্তি বাহিনীর সেক্টর ৭ এর একজন অফিসার ছিলেন। তাঁকে রাজশাহী জেলার চাঁপাইনবাবগঞ্জ সীমান্তে যুদ্ধের দায়িত্ব দেওয়া হয়। মহানন্দা নদীর তীরে শত্রুদের প্রতিরক্ষা ব্যবস্থা ভাঙার চেষ্টা করতে গিয়ে ১৪ই ডিসেম্বর তিনি নিহত হন। তাঁকে সোনা মসজিদ প্রাঙ্গণে সমাহিত করা হয়। মুক্তিযুদ্ধে তাঁর বীরত্ব ও আত্মত্যাগের স্বীকৃতিস্বরূপ মহিউদ্দীন জাহাঙ্গীরকে সর্বোচ্চ রাষ্ট্রীয় পুরস্কার বীরশ্রেষ্ঠ ভূষিত করা হয়।",
         "vocabulary": [
-          { "word": "liberation", "pos": "n", "meaning_en": "freedom", "meaning_bn": "মুক্তি", "synonym": "freedom", "antonym": "oppression" },
-          { "word": "commissioned", "pos": "adj", "meaning_en": "officer rank", "meaning_bn": "কমিশনপ্রাপ্ত", "synonym": "appointed", "antonym": "non-commissioned" },
-          { "word": "defense", "pos": "n", "meaning_en": "protection", "meaning_bn": "প্রতিরক্ষা", "synonym": "protection", "antonym": "attack" },
-          { "word": "valour", "pos": "n", "meaning_en": "courage", "meaning_bn": "সাহস", "synonym": "bravery", "antonym": "cowardice" },
-          { "word": "sacrifice", "pos": "n", "meaning_en": "giving up something", "meaning_bn": "আত্মত্যাগ", "synonym": "devotion", "antonym": "selfishness" },
-          { "word": "recognition", "pos": "n", "meaning_en": "appreciation", "meaning_bn": "স্বীকৃতি", "synonym": "acknowledgement", "antonym": "disregard" }
+          {
+            "word": "liberation",
+            "pos": "n",
+            "meaning_en": "freedom",
+            "meaning_bn": "মুক্তি",
+            "synonym": "freedom",
+            "antonym": "oppression"
+          },
+          {
+            "word": "commissioned",
+            "pos": "adj",
+            "meaning_en": "officer rank",
+            "meaning_bn": "কমিশনপ্রাপ্ত",
+            "synonym": "appointed",
+            "antonym": "non-commissioned"
+          },
+          {
+            "word": "defense",
+            "pos": "n",
+            "meaning_en": "protection",
+            "meaning_bn": "প্রতিরক্ষা",
+            "synonym": "protection",
+            "antonym": "attack"
+          },
+          {
+            "word": "valour",
+            "pos": "n",
+            "meaning_en": "courage",
+            "meaning_bn": "সাহস",
+            "synonym": "bravery",
+            "antonym": "cowardice"
+          },
+          {
+            "word": "sacrifice",
+            "pos": "n",
+            "meaning_en": "giving up something",
+            "meaning_bn": "আত্মত্যাগ",
+            "synonym": "devotion",
+            "antonym": "selfishness"
+          },
+          {
+            "word": "recognition",
+            "pos": "n",
+            "meaning_en": "appreciation",
+            "meaning_bn": "স্বীকৃতি",
+            "synonym": "acknowledgement",
+            "antonym": "disregard"
+          }
         ],
         "mcqQuestions": [
           {
             "id": "5i",
             "question": "Where was Captain Mohiuddin Jahangir born?",
-            "options": ["In Dhaka city", "At Rahimganj village under Babuganj Upazilla in Barishal district", "In Chittagong district", "In Sylhet town"],
+            "options": [
+              "In Dhaka city",
+              "At Rahimganj village under Babuganj Upazilla in Barishal district",
+              "In Chittagong district",
+              "In Sylhet town"
+            ],
             "correct": 1,
             "explanation_bn": "ক্যাপ্টেন মহিউদ্দিন জাহাঙ্গীর বরিশাল জেলার বাবুগঞ্জ উপজেলার রহিমগঞ্জ গ্রামে জন্মগ্রহণ করেন।",
             "explanation_en": "He was born at Rahimganj village under Babuganj Upazilla in Barishal district."
@@ -312,7 +626,12 @@
           {
             "id": "5ii",
             "question": "Which exam did Captain Mohiuddin Jahangir finish from Barishal BM College?",
-            "options": ["SSC", "HSC", "BA", "MA"],
+            "options": [
+              "SSC",
+              "HSC",
+              "BA",
+              "MA"
+            ],
             "correct": 1,
             "explanation_bn": "তিনি বরিশাল বি.এম কলেজ থেকে এইচ.এস.সি সমাপ্ত করেন।",
             "explanation_en": "He finished his HSC from Barishal BM College."
@@ -320,7 +639,12 @@
           {
             "id": "5iii",
             "question": "When did he join as a cadet at the Pakistan Military Academy?",
-            "options": ["5 October 1967", "7 March 1949", "30 August 1970", "14 December 1971"],
+            "options": [
+              "5 October 1967",
+              "7 March 1949",
+              "30 August 1970",
+              "14 December 1971"
+            ],
             "correct": 0,
             "explanation_bn": "১৯৬৭ সালের ৫ অক্টোবর তিনি পাকিস্তান মিলিটারি একাডেমিতে ক্যাডেট হিসেবে যোগদান করেন।",
             "explanation_en": "He joined as a cadet on 5 October 1967."
@@ -328,7 +652,12 @@
           {
             "id": "5iv",
             "question": "What responsibility was given to him during the Liberation War?",
-            "options": ["To guard Dhaka city", "To fight at the Chapainawabganj border sector", "To lead the Navy", "To serve as a doctor"],
+            "options": [
+              "To guard Dhaka city",
+              "To fight at the Chapainawabganj border sector",
+              "To lead the Navy",
+              "To serve as a doctor"
+            ],
             "correct": 1,
             "explanation_bn": "তাঁকে রাজশাহী জেলার চাঁপাইনবাবগঞ্জ সীমান্তে যুদ্ধের দায়িত্ব দেওয়া হয়।",
             "explanation_en": "He was given the responsibility to fight at the Chapainawabganj border sector."
@@ -336,7 +665,12 @@
           {
             "id": "5v",
             "question": "Where was Captain Mohiuddin Jahangir killed?",
-            "options": ["In Dhaka", "On the bank of the Mohananda river", "In Chittagong", "In Sylhet"],
+            "options": [
+              "In Dhaka",
+              "On the bank of the Mohananda river",
+              "In Chittagong",
+              "In Sylhet"
+            ],
             "correct": 1,
             "explanation_bn": "মহানন্দা নদীর তীরে শত্রুদের প্রতিরক্ষা ব্যবস্থা ভাঙার চেষ্টা করতে গিয়ে তিনি নিহত হন।",
             "explanation_en": "He was killed on the bank of the Mohananda river."
@@ -439,31 +773,46 @@
           "valid_sentences": [
             {
               "sentence": "Early rising is a good habit.",
-              "combination": ["Early rising", "is a good habit."],
+              "combination": [
+                "Early rising",
+                "is a good habit."
+              ],
               "explanation_en": "This sentence introduces the topic of early rising.",
               "explanation_bn": "এই বাক্যটি সকালে ওঠার বিষয়টি পরিচয় করিয়ে দেয়।"
             },
             {
               "sentence": "It makes our health free from diseases.",
-              "combination": ["It makes", "our health free from diseases."],
+              "combination": [
+                "It makes",
+                "our health free from diseases."
+              ],
               "explanation_en": "This describes the health benefits of early rising.",
               "explanation_bn": "এটি সকালে ওঠার স্বাস্থ্য উপকারিতা বর্ণনা করে।"
             },
             {
               "sentence": "It helps the person who is not able to finish his work in time.",
-              "combination": ["It helps", "the person who is not able to finish his work in time."],
+              "combination": [
+                "It helps",
+                "the person who is not able to finish his work in time."
+              ],
               "explanation_en": "This shows how early rising helps those who struggle with time.",
               "explanation_bn": "এটি দেখায় কীভাবে সকালে ওঠা সময়মতো কাজ শেষ করতে সহায়তা করে।"
             },
             {
               "sentence": "An early riser gets enough time to perform his tasks.",
-              "combination": ["An early riser", "gets enough time to perform his tasks."],
+              "combination": [
+                "An early riser",
+                "gets enough time to perform his tasks."
+              ],
               "explanation_en": "This explains the advantage of being an early riser.",
               "explanation_bn": "এটি সকালে ওঠার সুবিধা ব্যাখ্যা করে।"
             },
             {
               "sentence": "We should get up early from bed.",
-              "combination": ["We should", "get up early from bed."],
+              "combination": [
+                "We should",
+                "get up early from bed."
+              ],
               "explanation_en": "This gives a recommendation to wake up early.",
               "explanation_bn": "এটি সকালে ওঠার সুপারিশ করে।"
             }
@@ -477,16 +826,49 @@
       "type": "rearrangement",
       "content": {
         "sentences": [
-          { "id": "a", "text": "Soon he gave up medicine for literature." },
-          { "id": "b", "text": "This brought for him a good name." },
-          { "id": "c", "text": "He was born in 1874 in Paris." },
-          { "id": "d", "text": "William Somerset Maugham is one of the greatest short story writers of modern time." },
-          { "id": "e", "text": "Then he took to writing plays." },
-          { "id": "f", "text": "He qualified as a doctor and this life had no charms for him." },
-          { "id": "g", "text": "Some of his well-known plays are Mrs. Candle, Lady Frederick etc." },
-          { "id": "h", "text": "He made his first appearance in literature by writing Liza of Lambeth, his first novel." }
+          {
+            "id": "a",
+            "text": "Soon he gave up medicine for literature."
+          },
+          {
+            "id": "b",
+            "text": "This brought for him a good name."
+          },
+          {
+            "id": "c",
+            "text": "He was born in 1874 in Paris."
+          },
+          {
+            "id": "d",
+            "text": "William Somerset Maugham is one of the greatest short story writers of modern time."
+          },
+          {
+            "id": "e",
+            "text": "Then he took to writing plays."
+          },
+          {
+            "id": "f",
+            "text": "He qualified as a doctor and this life had no charms for him."
+          },
+          {
+            "id": "g",
+            "text": "Some of his well-known plays are Mrs. Candle, Lady Frederick etc."
+          },
+          {
+            "id": "h",
+            "text": "He made his first appearance in literature by writing Liza of Lambeth, his first novel."
+          }
         ],
-        "correctOrder": ["d", "c", "f", "a", "h", "b", "e", "g"],
+        "correctOrder": [
+          "d",
+          "c",
+          "f",
+          "a",
+          "h",
+          "b",
+          "e",
+          "g"
+        ],
         "reconstructedParagraph": "William Somerset Maugham is one of the greatest short story writers of modern time. He was born in 1874 in Paris. He qualified as a doctor and this life had no charms for him. Soon he gave up medicine for literature. He made his first appearance in literature by writing Liza of Lambeth, his first novel. This brought for him a good name. Then he took to writing plays. Some of his well-known plays are Mrs. Candle, Lady Frederick etc."
       }
     },
@@ -499,7 +881,12 @@
           {
             "id": "10a",
             "question": "According to the poem 'Whose Child Is This?', what are the responsibilities of a teacher?",
-            "options": ["To punish the child", "To teach good behavior, guide his mind, help him follow rules, and help him learn at school", "To feed the child", "To buy books for the child"],
+            "options": [
+              "To punish the child",
+              "To teach good behavior, guide his mind, help him follow rules, and help him learn at school",
+              "To feed the child",
+              "To buy books for the child"
+            ],
             "correct": 1,
             "explanation_bn": "শিক্ষকের দায়িত্ব হল শিশুকে ভালো আচরণ শেখানো, তার মনকে পথ দেখানো, নিয়ম মেনে চলতে সাহায্য করা এবং স্কুলে শিখতে সাহায্য করা।",
             "explanation_en": "A teacher's responsibilities are to teach good behavior, guide the mind, help follow rules, and help learn at school."
@@ -507,7 +894,12 @@
           {
             "id": "10b",
             "question": "In the poem 'Whose Child Is This?', what was the child doing when the speaker asked the question for the last time?",
-            "options": ["The child was sleeping", "The child was entering the door", "The child was playing outside", "The child was eating"],
+            "options": [
+              "The child was sleeping",
+              "The child was entering the door",
+              "The child was playing outside",
+              "The child was eating"
+            ],
             "correct": 1,
             "explanation_bn": "শেষবার প্রশ্ন করার সময় শিশুটি দরজা দিয়ে প্রবেশ করছিল।",
             "explanation_en": "When the speaker asked the question for the last time, the child was entering the door."
@@ -515,7 +907,12 @@
           {
             "id": "10c",
             "question": "Who asked the question 'Whose Child Is This?' in the poem?",
-            "options": ["The parent", "The teacher", "The speaker of the poem", "The child"],
+            "options": [
+              "The parent",
+              "The teacher",
+              "The speaker of the poem",
+              "The child"
+            ],
             "correct": 2,
             "explanation_bn": "কবিতার বক্তা প্রশ্নটি জিজ্ঞাসা করেছেন।",
             "explanation_en": "The speaker of the poem asked the question."
@@ -523,7 +920,12 @@
           {
             "id": "10d",
             "question": "Who wrote the poem 'Leisure'?",
-            "options": ["Robert Louis Stevenson", "William Wordsworth", "William Henry Davies", "Rabindranath Tagore"],
+            "options": [
+              "Robert Louis Stevenson",
+              "William Wordsworth",
+              "William Henry Davies",
+              "Rabindranath Tagore"
+            ],
             "correct": 2,
             "explanation_bn": "\"Leisure\" কবিতাটি William Henry Davies লিখেছেন।",
             "explanation_en": "The poem 'Leisure' was written by William Henry Davies."
@@ -531,7 +933,12 @@
           {
             "id": "10e",
             "question": "What do we not have time to enjoy according to the poem 'Leisure'?",
-            "options": ["Watching television", "Playing games", "The beauty of nature", "Eating food"],
+            "options": [
+              "Watching television",
+              "Playing games",
+              "The beauty of nature",
+              "Eating food"
+            ],
             "correct": 2,
             "explanation_bn": "'Leisure' কবিতা অনুসারে, আমাদের প্রকৃতির সৌন্দর্য উপভোগ করার সময় নেই।",
             "explanation_en": "According to the poem 'Leisure', we do not have time to enjoy the beauty of nature."
@@ -539,7 +946,12 @@
           {
             "id": "10f",
             "question": "Where do the squirrels hide their nuts in the poem 'Leisure'?",
-            "options": ["In the trees", "In the grass", "In the holes", "In the water"],
+            "options": [
+              "In the trees",
+              "In the grass",
+              "In the holes",
+              "In the water"
+            ],
             "correct": 1,
             "explanation_bn": "'Leisure' কবিতায় কাঠবিড়ালিরা ঘাসে তাদের বাদাম লুকিয়ে রাখে।",
             "explanation_en": "In the poem 'Leisure', the squirrels hide their nuts in the grass."
@@ -547,7 +959,12 @@
           {
             "id": "10g",
             "question": "What is faster than fairies and witches according to the poem 'From a Railway Carriage'?",
-            "options": ["The wind", "The train", "The horse", "The bird"],
+            "options": [
+              "The wind",
+              "The train",
+              "The horse",
+              "The bird"
+            ],
             "correct": 1,
             "explanation_bn": "কবিতা অনুসারে, ট্রেনটি পরী ও ডাইনির চেয়েও দ্রুত।",
             "explanation_en": "According to the poem, the train is faster than fairies and witches."
@@ -555,7 +972,12 @@
           {
             "id": "10h",
             "question": "According to the poem 'From a Railway Carriage', where are the bridges, houses, hedges and ditches that the poet can see from the train?",
-            "options": ["In the city", "Along the railway track", "Near the sea", "In the mountains"],
+            "options": [
+              "In the city",
+              "Along the railway track",
+              "Near the sea",
+              "In the mountains"
+            ],
             "correct": 1,
             "explanation_bn": "কবি রেললাইন বরাবর সেতু, বাড়ি, হেজ এবং খাল দেখতে পান।",
             "explanation_en": "The bridges, houses, hedges and ditches are along the railway track."

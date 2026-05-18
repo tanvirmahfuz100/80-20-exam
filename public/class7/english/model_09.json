@@ -8,23 +8,84 @@
       "name": "Passage & Comprehension",
       "type": "passage_mcq",
       "content": {
-        "passage": "In Bangladesh, the struggle for progress has long been a part of each generation. If the freedom fighters of 1971-largely part of the Baby Boomer generation-helped liberate the country, their struggle laid the groundwork for the 1980s' fight for democracy against autocracy. Today's young generation born around 2000, carries this legacy forward. The 2018 road safety protests and the brutal crackdown that followed marked a significant shift in Gen Z's consciousness, sharpening their political awareness and reshaping the role of media in their world. Consequently, the 2024 uprising was led by this generation, who realized the ineffectiveness of political establishments and grew increasingly frustrated with the status quo. The July Uprising of 2024 signals an urgent call for adaptation. Outdated methods can no longer meet the challenges of today's world. To support Gen Z's ambitions truly, we need concrete steps as political rhetoric has made them failed. Only with this commitment to support the vision and energy of this generation can be achieved.",
+        "passage": "In Bangladesh, the struggle for progress has long been a part of each generation. If the freedom fighters of 1971-largely part of the Baby Boomer generation-helped liberate the country, their struggle laid the groundwork for the 1980s' fight for democracy against autocracy. Today's young generation born around 2000, carries this legacy forward.\n\nThe 2018 road safety protests and the brutal crackdown that followed marked a significant shift in Gen Z's consciousness, sharpening their political awareness and reshaping the role of media in their world. Consequently, the 2024 uprising was led by this generation, who realized the ineffectiveness of political establishments and grew increasingly frustrated with the status quo. The July Uprising of 2024 signals an urgent call for adaptation.\n\nOutdated methods can no longer meet the challenges of today's world. To support Gen Z's ambitions truly, we need concrete steps as political rhetoric has made them failed. Only with this commitment to support the vision and energy of this generation can be achieved.",
         "translation_bn": "বাংলাদেশে, প্রগতির লড়াই দীর্ঘকাল ধরে প্রতিটি প্রজন্মের একটি অংশ। যদি ১৯৭১-এর মুক্তিযোদ্ধারা (যারা মূলত বেবি বুমার প্রজন্মের অংশ) দেশকে স্বাধীন করতে সাহায্য করে থাকে, তবে তাদের সংগ্রামই ১৯৮০-এর দশকে স্বৈরাচারের বিরুদ্ধে গণতন্ত্রের লড়াইয়ের ভিত্তি স্থাপন করেছিল। ২০০০ সালের দিকে জন্ম নেওয়া আজকের তরুণ প্রজন্ম এই উত্তরাধিকারকে এগিয়ে নিয়ে যাচ্ছে। ২০১৮ সালের সড়ক নিরাপত্তা বিক্ষোভ এবং এর পরের নৃশংস শাস্তির ব্যবস্থা জেন জেডের চেতনায় একটি উল্লেখযোগ্য পরিবর্তন চিহ্নিত করেছে, তাদের রাজনৈতিক সচেতনতাকে তীক্ষ্ণ করেছে এবং তাদের জগতে গণমাধ্যমের ভূমিকাকে নতুন আকার দিয়েছে। ফলস্বরূপ, ২০২৪ সালের গণঅভ্যুত্থানের নেতৃত্বে ছিল এই প্রজন্ম, যারা রাজনৈতিক প্রতিষ্ঠানের অকার্যকারিতা উপলব্ধি করে এবং স্থিতাবস্থায় ক্রমশ হতাশ হয়ে পড়েছিল। ২০২৪ সালের জুলাই গণঅভ্যুত্থান একটি জরুরি অভিযোজনের আহ্বান জানায়। আজকের বিশ্বের চ্যালেঞ্জগুলো পুরোনো পদ্ধতি আর মোকাবিলা করতে পারে না। জেন জেডের আকাঙ্ক্ষাকে সত্যিকার অর্থে সমর্থন করার জন্য, আমাদের দৃঢ় পদক্ষেপের প্রয়োজন, কারণ রাজনৈতিক বক্তৃতা তাদেরকে ব্যর্থ করেছে। শুধু এই সমর্থনের প্রতিশ্রুতি দিয়েই এই প্রজন্মের লক্ষ্য এবং শক্তি অর্জিত হতে পারে।",
         "vocabulary": [
-          { "word": "liberate", "pos": "v", "meaning_en": "to set free", "meaning_bn": "স্বাধীন করা", "synonym": "free", "antonym": "enslave" },
-          { "word": "legacy", "pos": "n", "meaning_en": "long-lasting impact", "meaning_bn": "উত্তরাধিকার", "synonym": "heritage", "antonym": "" },
-          { "word": "crackdown", "pos": "n", "meaning_en": "strong official action", "meaning_bn": "কঠোর ব্যবস্থা", "synonym": "suppression", "antonym": "liberty" },
-          { "word": "consciousness", "pos": "n", "meaning_en": "awareness", "meaning_bn": "সচেতনতা", "synonym": "awareness", "antonym": "ignorance" },
-          { "word": "concrete", "pos": "adj", "meaning_en": "tangible, specific", "meaning_bn": "সুনির্দিষ্ট", "synonym": "tangible", "antonym": "abstract" },
-          { "word": "rhetoric", "pos": "n", "meaning_en": "persuasive speech", "meaning_bn": "বাগাড়ম্ব", "synonym": "oratory", "antonym": "reticence" },
-          { "word": "status quo", "pos": "phr", "meaning_en": "existing state of affairs", "meaning_bn": "বিদ্যমান অবস্থা", "synonym": "current state", "antonym": "change" },
-          { "word": "establishment", "pos": "n", "meaning_en": "formal organization", "meaning_bn": "প্রতিষ্ঠা", "synonym": "set-up", "antonym": "abolition" }
+          {
+            "word": "liberate",
+            "pos": "v",
+            "meaning_en": "to set free",
+            "meaning_bn": "স্বাধীন করা",
+            "synonym": "free",
+            "antonym": "enslave"
+          },
+          {
+            "word": "legacy",
+            "pos": "n",
+            "meaning_en": "long-lasting impact",
+            "meaning_bn": "উত্তরাধিকার",
+            "synonym": "heritage",
+            "antonym": ""
+          },
+          {
+            "word": "crackdown",
+            "pos": "n",
+            "meaning_en": "strong official action",
+            "meaning_bn": "কঠোর ব্যবস্থা",
+            "synonym": "suppression",
+            "antonym": "liberty"
+          },
+          {
+            "word": "consciousness",
+            "pos": "n",
+            "meaning_en": "awareness",
+            "meaning_bn": "সচেতনতা",
+            "synonym": "awareness",
+            "antonym": "ignorance"
+          },
+          {
+            "word": "concrete",
+            "pos": "adj",
+            "meaning_en": "tangible, specific",
+            "meaning_bn": "সুনির্দিষ্ট",
+            "synonym": "tangible",
+            "antonym": "abstract"
+          },
+          {
+            "word": "rhetoric",
+            "pos": "n",
+            "meaning_en": "persuasive speech",
+            "meaning_bn": "বাগাড়ম্ব",
+            "synonym": "oratory",
+            "antonym": "reticence"
+          },
+          {
+            "word": "status quo",
+            "pos": "phr",
+            "meaning_en": "existing state of affairs",
+            "meaning_bn": "বিদ্যমান অবস্থা",
+            "synonym": "current state",
+            "antonym": "change"
+          },
+          {
+            "word": "establishment",
+            "pos": "n",
+            "meaning_en": "formal organization",
+            "meaning_bn": "প্রতিষ্ঠা",
+            "synonym": "set-up",
+            "antonym": "abolition"
+          }
         ],
         "questions": [
           {
             "id": "1i",
             "question": "Freedom fighters fought in the ---",
-            "options": ["liberation war", "democratic movement", "road safety protest", "July uprising"],
+            "options": [
+              "liberation war",
+              "democratic movement",
+              "road safety protest",
+              "July uprising"
+            ],
             "correct": 0,
             "explanation_bn": "মুক্তিযোদ্ধারা ১৯৭১ সালের মুক্তিযুদ্ধে লড়েছিলেন।",
             "explanation_en": "Freedom fighters fought in the liberation war of 1971."
@@ -32,7 +93,12 @@
           {
             "id": "1ii",
             "question": "Which generation is born around 2000?",
-            "options": ["Baby Boomer", "Gen Z", "Millennials", "Gen Alpha"],
+            "options": [
+              "Baby Boomer",
+              "Gen Z",
+              "Millennials",
+              "Gen Alpha"
+            ],
             "correct": 1,
             "explanation_bn": "২০০০ সালের দিকে জন্ম নেওয়া প্রজন্ম হলো জেনারেশন জেড (Gen Z)।",
             "explanation_en": "The generation born around 2000 is Gen Z."
@@ -40,7 +106,12 @@
           {
             "id": "1iii",
             "question": "Which of the following generations led the 2024 Uprising?",
-            "options": ["Baby Boomer", "Gen Z", "Millennials", "Generation X"],
+            "options": [
+              "Baby Boomer",
+              "Gen Z",
+              "Millennials",
+              "Generation X"
+            ],
             "correct": 1,
             "explanation_bn": "২০২৪ সালের অভ্যুত্থানের নেতৃত্ব দেয় জেনারেশন জেড (Gen Z)।",
             "explanation_en": "Gen Z led the 2024 Uprising."
@@ -48,7 +119,12 @@
           {
             "id": "1iv",
             "question": "What is the demand of Gen Z?",
-            "options": ["concrete steps", "outdated method", "political rhetoric", "media role"],
+            "options": [
+              "concrete steps",
+              "outdated method",
+              "political rhetoric",
+              "media role"
+            ],
             "correct": 0,
             "explanation_bn": "জেন জেডের দাবি হলো দৃঢ় পদক্ষেপ (concrete steps)।",
             "explanation_en": "Gen Z demands concrete steps."
@@ -56,7 +132,12 @@
           {
             "id": "1v",
             "question": "Which of the followings inspired the democratic movement of the 1980s?",
-            "options": ["political awareness", "road safety protest", "frustration", "freedom fight"],
+            "options": [
+              "political awareness",
+              "road safety protest",
+              "frustration",
+              "freedom fight"
+            ],
             "correct": 3,
             "explanation_bn": "১৯৭১ সালের মুক্তিযুদ্ধ ১৯৮০-এর দশকের গণতান্ত্রিক আন্দোলনকে অনুপ্রাণিত করেছিল।",
             "explanation_en": "The freedom fight of 1971 inspired the 1980s democratic movement."
@@ -64,7 +145,12 @@
           {
             "id": "1vi",
             "question": "\"If the freedom fighters of 1971... helped liberate the country...\" Here, 'liberate' is similar to ---",
-            "options": ["fight", "free", "enslave", "untie"],
+            "options": [
+              "fight",
+              "free",
+              "enslave",
+              "untie"
+            ],
             "correct": 1,
             "explanation_bn": "'Liberate' অর্থ 'free' (স্বাধীন করা)।",
             "explanation_en": "'Liberate' means to free."
@@ -72,7 +158,12 @@
           {
             "id": "1vii",
             "question": "\"Their struggle laid the groundwork for the 1980s' fight...\" What does 'lay the groundwork' mean?",
-            "options": ["to provide the right conditions", "to prepare for struggle", "to start an activity", "to follow the principles"],
+            "options": [
+              "to provide the right conditions",
+              "to prepare for struggle",
+              "to start an activity",
+              "to follow the principles"
+            ],
             "correct": 0,
             "explanation_bn": "'Lay the groundwork' অর্থ সঠিক পরিস্থিতি তৈরি করা।",
             "explanation_en": "'Lay the groundwork' means to provide the right conditions."
@@ -80,7 +171,12 @@
           {
             "id": "1viii",
             "question": "\"Today's young generation... carries this legacy forward.\" Here, 'legacy' means ---",
-            "options": ["birthright", "repercussion", "heirloom", "settlement"],
+            "options": [
+              "birthright",
+              "repercussion",
+              "heirloom",
+              "settlement"
+            ],
             "correct": 2,
             "explanation_bn": "'Legacy' অর্থ 'heirloom' (উত্তরাধিকার)।",
             "explanation_en": "'Legacy' means heirloom."
@@ -88,7 +184,12 @@
           {
             "id": "1ix",
             "question": "The young generation participated in road safety protests in ---",
-            "options": ["1980", "2000", "2018", "2024"],
+            "options": [
+              "1980",
+              "2000",
+              "2018",
+              "2024"
+            ],
             "correct": 2,
             "explanation_bn": "২০১৮ সালে তরুণ প্রজন্ম সড়ক নিরাপত্তা বিক্ষোভে অংশ নেয়।",
             "explanation_en": "The young generation participated in road safety protests in 2018."
@@ -96,7 +197,12 @@
           {
             "id": "1x",
             "question": "To meet the challenges, the methods need to be modified because ---",
-            "options": ["they are creating conflict", "they are no longer relevant", "they are not neutral", "they are not popular"],
+            "options": [
+              "they are creating conflict",
+              "they are no longer relevant",
+              "they are not neutral",
+              "they are not popular"
+            ],
             "correct": 1,
             "explanation_bn": "পুরোনো পদ্ধতিগুলো আর প্রাসঙ্গিক নয় (no longer relevant) বলে পরিবর্তন প্রয়োজন।",
             "explanation_en": "Methods need modification because they are no longer relevant."
@@ -104,7 +210,12 @@
           {
             "id": "1xi",
             "question": "The 2024 uprising took place as a result of people ---",
-            "options": ["adopting concrete steps", "using outdated methods", "applying political rhetoric", "becoming politically aware"],
+            "options": [
+              "adopting concrete steps",
+              "using outdated methods",
+              "applying political rhetoric",
+              "becoming politically aware"
+            ],
             "correct": 3,
             "explanation_bn": "রাজনৈতিক সচেতনতা বৃদ্ধির ফলে ২০২৪ সালের অভ্যুত্থান সংঘটিত হয়।",
             "explanation_en": "The 2024 uprising happened as a result of people becoming politically aware."
@@ -112,7 +223,12 @@
           {
             "id": "1xii",
             "question": "Which generation took part in the Liberation War of Bangladesh?",
-            "options": ["Baby Boomers", "Zoomers", "Millennials", "Gen Z"],
+            "options": [
+              "Baby Boomers",
+              "Zoomers",
+              "Millennials",
+              "Gen Z"
+            ],
             "correct": 0,
             "explanation_bn": "বেবি বুমার প্রজন্ম বাংলাদেশের মুক্তিযুদ্ধে অংশ নেয়।",
             "explanation_en": "The Baby Boomer generation took part in the Liberation War."
@@ -120,7 +236,12 @@
           {
             "id": "1xiii",
             "question": "\"...the brutal crackdown that followed...\" Which word is NOT a synonym of 'crackdown'?",
-            "options": ["repression", "suppression", "elimination", "salvation"],
+            "options": [
+              "repression",
+              "suppression",
+              "elimination",
+              "salvation"
+            ],
             "correct": 3,
             "explanation_bn": "'Salvation' (মুক্তি) 'crackdown'-এর সমার্থক নয়।",
             "explanation_en": "'Salvation' is not a synonym of 'crackdown'."
@@ -128,7 +249,12 @@
           {
             "id": "1xiv",
             "question": "\"...grew increasingly frustrated with the status quo.\" Here, 'status quo' means ---",
-            "options": ["way of life", "financial status", "state of affairs", "net worth"],
+            "options": [
+              "way of life",
+              "financial status",
+              "state of affairs",
+              "net worth"
+            ],
             "correct": 2,
             "explanation_bn": "'Status quo' অর্থ 'state of affairs' (বিদ্যমান অবস্থা)।",
             "explanation_en": "'Status quo' means the existing state of affairs."
@@ -136,7 +262,12 @@
           {
             "id": "1xv",
             "question": "\"...we need concrete steps as political rhetoric has made them failed.\" Which word has opposite meaning to 'rhetoric'?",
-            "options": ["eloquence", "oratory", "reticence", "diction"],
+            "options": [
+              "eloquence",
+              "oratory",
+              "reticence",
+              "diction"
+            ],
             "correct": 2,
             "explanation_bn": "'Rhetoric'-এর বিপরীত 'reticence' (মৌনতা/সংযম)।",
             "explanation_en": "The opposite of 'rhetoric' is 'reticence'."
@@ -151,51 +282,137 @@
       "content": {
         "gapFill": {
           "passage": "Ms Shahana is giving idea of a new kind of shop. It will be a (a) ______ shop. So, students need not (b) ______ over prices of any item. Students can buy any (c) ______ items from the shop. They can also buy food items as well as several other (d) ______ things. Clothes will be (e) ______ in the shop.",
-          "boxWords": ["fixed-price", "bargain", "stationery", "necessary", "sold", "variable-price", "agree", "furniture", "optional", "bought"],
+          "boxWords": [
+            "fixed-price",
+            "bargain",
+            "stationery",
+            "necessary",
+            "sold",
+            "variable-price",
+            "agree",
+            "furniture",
+            "optional",
+            "bought"
+          ],
           "blanks": [
             {
               "blankId": "a",
               "correct": "fixed-price",
               "options": [
-                { "text": "fixed-price", "isCorrect": true, "explanationBn": "এটি একটি নির্ধারিত মূল্যের (fixed-price) দোকান হবে।", "explanationEn": "It will be a fixed-price shop." },
-                { "text": "variable-price", "isCorrect": false, "explanationBn": "এটি নির্ধারিত মূল্যের দোকান, পরিবর্তনশীল মূল্যের নয়।", "explanationEn": "It is a fixed-price, not a variable-price shop." },
-                { "text": "cheap", "isCorrect": false, "explanationBn": "দোকানটি নির্ধারিত মূল্যের, সস্তা নয়।", "explanationEn": "The shop is fixed-price, not cheap." }
+                {
+                  "text": "fixed-price",
+                  "isCorrect": true,
+                  "explanationBn": "এটি একটি নির্ধারিত মূল্যের (fixed-price) দোকান হবে।",
+                  "explanationEn": "It will be a fixed-price shop."
+                },
+                {
+                  "text": "variable-price",
+                  "isCorrect": false,
+                  "explanationBn": "এটি নির্ধারিত মূল্যের দোকান, পরিবর্তনশীল মূল্যের নয়।",
+                  "explanationEn": "It is a fixed-price, not a variable-price shop."
+                },
+                {
+                  "text": "cheap",
+                  "isCorrect": false,
+                  "explanationBn": "দোকানটি নির্ধারিত মূল্যের, সস্তা নয়।",
+                  "explanationEn": "The shop is fixed-price, not cheap."
+                }
               ]
             },
             {
               "blankId": "b",
               "correct": "bargain",
               "options": [
-                { "text": "bargain", "isCorrect": true, "explanationBn": "ছাত্রছাত্রীদের দাম নিয়ে দরাদরি (bargain) করতে হবে না।", "explanationEn": "Students need not bargain over prices." },
-                { "text": "agree", "isCorrect": false, "explanationBn": "তাদের দরাদরি (bargain) করতে হবে না, একমত হতে হবে না।", "explanationEn": "They need not bargain, not agree." },
-                { "text": "fight", "isCorrect": false, "explanationBn": "'Bargain' এখানে সঠিক, 'fight' নয়।", "explanationEn": "'Bargain' is correct here, not 'fight'." }
+                {
+                  "text": "bargain",
+                  "isCorrect": true,
+                  "explanationBn": "ছাত্রছাত্রীদের দাম নিয়ে দরাদরি (bargain) করতে হবে না।",
+                  "explanationEn": "Students need not bargain over prices."
+                },
+                {
+                  "text": "agree",
+                  "isCorrect": false,
+                  "explanationBn": "তাদের দরাদরি (bargain) করতে হবে না, একমত হতে হবে না।",
+                  "explanationEn": "They need not bargain, not agree."
+                },
+                {
+                  "text": "fight",
+                  "isCorrect": false,
+                  "explanationBn": "'Bargain' এখানে সঠিক, 'fight' নয়।",
+                  "explanationEn": "'Bargain' is correct here, not 'fight'."
+                }
               ]
             },
             {
               "blankId": "c",
               "correct": "stationery",
               "options": [
-                { "text": "stationery", "isCorrect": true, "explanationBn": "শিক্ষার্থীরা স্টেশনারি (stationery) জিনিস কিনতে পারবে।", "explanationEn": "Students can buy stationery items." },
-                { "text": "furniture", "isCorrect": false, "explanationBn": "এটি একটি স্টেশনারি দোকান, আসবাবপত্রের দোকান নয়।", "explanationEn": "This is a stationery shop, not a furniture shop." },
-                { "text": "clothing", "isCorrect": false, "explanationBn": "স্টেশনারি জিনিস এখানে পাওয়া যাবে।", "explanationEn": "Stationery items are available here." }
+                {
+                  "text": "stationery",
+                  "isCorrect": true,
+                  "explanationBn": "শিক্ষার্থীরা স্টেশনারি (stationery) জিনিস কিনতে পারবে।",
+                  "explanationEn": "Students can buy stationery items."
+                },
+                {
+                  "text": "furniture",
+                  "isCorrect": false,
+                  "explanationBn": "এটি একটি স্টেশনারি দোকান, আসবাবপত্রের দোকান নয়।",
+                  "explanationEn": "This is a stationery shop, not a furniture shop."
+                },
+                {
+                  "text": "clothing",
+                  "isCorrect": false,
+                  "explanationBn": "স্টেশনারি জিনিস এখানে পাওয়া যাবে।",
+                  "explanationEn": "Stationery items are available here."
+                }
               ]
             },
             {
               "blankId": "d",
               "correct": "necessary",
               "options": [
-                { "text": "necessary", "isCorrect": true, "explanationBn": "অন্যান্য প্রয়োজনীয় (necessary) জিনিসও পাওয়া যাবে।", "explanationEn": "Several other necessary things are also available." },
-                { "text": "optional", "isCorrect": false, "explanationBn": "এটি 'necessary'-এর বিপরীত।", "explanationEn": "This is the opposite of 'necessary'." },
-                { "text": "luxury", "isCorrect": false, "explanationBn": "প্রয়োজনীয় (necessary) জিনিস, বিলাসী নয়।", "explanationEn": "Necessary things, not luxury." }
+                {
+                  "text": "necessary",
+                  "isCorrect": true,
+                  "explanationBn": "অন্যান্য প্রয়োজনীয় (necessary) জিনিসও পাওয়া যাবে।",
+                  "explanationEn": "Several other necessary things are also available."
+                },
+                {
+                  "text": "optional",
+                  "isCorrect": false,
+                  "explanationBn": "এটি 'necessary'-এর বিপরীত।",
+                  "explanationEn": "This is the opposite of 'necessary'."
+                },
+                {
+                  "text": "luxury",
+                  "isCorrect": false,
+                  "explanationBn": "প্রয়োজনীয় (necessary) জিনিস, বিলাসী নয়।",
+                  "explanationEn": "Necessary things, not luxury."
+                }
               ]
             },
             {
               "blankId": "e",
               "correct": "sold",
               "options": [
-                { "text": "sold", "isCorrect": true, "explanationBn": "দোকানে কাপড় বিক্রি (sold) হবে।", "explanationEn": "Clothes will be sold in the shop." },
-                { "text": "bought", "isCorrect": false, "explanationBn": "জিনিস বিক্রি (sold) হবে, কেনা (bought) নয়।", "explanationEn": "Items will be sold, not bought." },
-                { "text": "free", "isCorrect": false, "explanationBn": "কাপড় বিনামূল্যে নয়, বিক্রি হবে।", "explanationEn": "Clothes are not free, they will be sold." }
+                {
+                  "text": "sold",
+                  "isCorrect": true,
+                  "explanationBn": "দোকানে কাপড় বিক্রি (sold) হবে।",
+                  "explanationEn": "Clothes will be sold in the shop."
+                },
+                {
+                  "text": "bought",
+                  "isCorrect": false,
+                  "explanationBn": "জিনিস বিক্রি (sold) হবে, কেনা (bought) নয়।",
+                  "explanationEn": "Items will be sold, not bought."
+                },
+                {
+                  "text": "free",
+                  "isCorrect": false,
+                  "explanationBn": "কাপড় বিনামূল্যে নয়, বিক্রি হবে।",
+                  "explanationEn": "Clothes are not free, they will be sold."
+                }
               ]
             }
           ]
@@ -204,7 +421,12 @@
           {
             "id": "4a",
             "question": "What is the synonym of 'shop'?",
-            "options": ["store", "home", "school", "office"],
+            "options": [
+              "store",
+              "home",
+              "school",
+              "office"
+            ],
             "correct": 0,
             "explanation_bn": "'Shop'-এর সমার্থক 'store' (দোকান)।",
             "explanation_en": "The synonym of 'shop' is 'store'."
@@ -212,7 +434,12 @@
           {
             "id": "4b",
             "question": "What is the antonym of 'agree'?",
-            "options": ["accept", "consent", "disagree", "approve"],
+            "options": [
+              "accept",
+              "consent",
+              "disagree",
+              "approve"
+            ],
             "correct": 2,
             "explanation_bn": "'Agree'-এর বিপরীত 'disagree' (অসম্মত হওয়া)।",
             "explanation_en": "The antonym of 'agree' is 'disagree'."
@@ -220,7 +447,12 @@
           {
             "id": "4c",
             "question": "What is the synonym of 'need'?",
-            "options": ["reject", "require", "refuse", "ignore"],
+            "options": [
+              "reject",
+              "require",
+              "refuse",
+              "ignore"
+            ],
             "correct": 1,
             "explanation_bn": "'Need'-এর সমার্থক 'require' (প্রয়োজন হওয়া)।",
             "explanation_en": "The synonym of 'need' is 'require'."
@@ -228,7 +460,12 @@
           {
             "id": "4d",
             "question": "What is the antonym of 'loss'?",
-            "options": ["damage", "profit", "harm", "injury"],
+            "options": [
+              "damage",
+              "profit",
+              "harm",
+              "injury"
+            ],
             "correct": 1,
             "explanation_bn": "'Loss'-এর বিপরীত 'profit' (লাভ)।",
             "explanation_en": "The antonym of 'loss' is 'profit'."
@@ -236,7 +473,12 @@
           {
             "id": "4e",
             "question": "What is the synonym of 'buy'?",
-            "options": ["sell", "purchase", "borrow", "lend"],
+            "options": [
+              "sell",
+              "purchase",
+              "borrow",
+              "lend"
+            ],
             "correct": 1,
             "explanation_bn": "'Buy'-এর সমার্থক 'purchase' (ক্রয় করা)।",
             "explanation_en": "The synonym of 'buy' is 'purchase'."
@@ -249,20 +491,60 @@
       "name": "Biographical Passage & Summary",
       "type": "passage_summary",
       "content": {
-        "passage": "The Nobel Prize is the world's most prestigious and important prize. It has been being given since 1901. The prize is given to persons with outstanding contributions to physics, chemistry, literature, medicine, peace and economics. Economics was added to the list in 1969 for the first time. The Nobel Prize was instituted by a man who was the inventor of dynamite. This scientist was Alfred Bernard Nobel. He was born in Stockholm, Sweden on October 21, 1833 and died in 1896. Though he was a citizen of Sweden, he was educated in Russia. He earned a huge sum of money by selling dynamite. At the time of his death in 1896, Nobel left behind a huge amount of money. He also left a will indicating that the interest on this money should be given as prizes to persons for their outstanding contributions to physics, chemistry, literature, medicine and peace. This prize was named as Nobel Prize. The first Nobel Prize was given to Rontgen on 10th December, 1901 for his invention of X-rays.",
+        "passage": "The Nobel Prize is the world's most prestigious and important prize. It has been being given since 1901. The prize is given to persons with outstanding contributions to physics, chemistry, literature, medicine, peace and economics.\n\nEconomics was added to the list in 1969 for the first time. The Nobel Prize was instituted by a man who was the inventor of dynamite. This scientist was Alfred Bernard Nobel.\n\nHe was born in Stockholm, Sweden on October 21, 1833 and died in 1896. Though he was a citizen of Sweden, he was educated in Russia. He earned a huge sum of money by selling dynamite.\n\nAt the time of his death in 1896, Nobel left behind a huge amount of money. He also left a will indicating that the interest on this money should be given as prizes to persons for their outstanding contributions to physics, chemistry, literature, medicine and peace. This prize was named as Nobel Prize.\n\nThe first Nobel Prize was given to Rontgen on 10th December, 1901 for his invention of X-rays.",
         "translation_bn": "নোবেল পুরস্কার বিশ্বের সবচেয়ে সম্মানজনক ও গুরুত্বপূর্ণ পুরস্কার। এটা ১৯০১ সাল থেকে দেওয়া হচ্ছে। পুরস্কারটি পদার্থবিদ্যা, রসায়নবিদ্যা, সাহিত্য, চিকিৎসা, শান্তি ও অর্থনীতিতে অতুলনীয় অবদানের জন্য প্রদান করা হয়। ১৯৬৯ সালে প্রথমবারের মতো অর্থনীতিতে পুরস্কারটি যুক্ত করা হয়। নোবেল পুরস্কার প্রবর্তিত হয় এমন একজন ব্যক্তি কর্তৃক যিনি ছিলেন ডিনামাইটের আবিষ্কারক। এই বিজ্ঞানী হলেন আলফ্রেড বার্নাড নোবেল। তিনি সুইডেনের স্টকহোমে ২১ অক্টোবর ১৮৩৩ সালে জন্মগ্রহণ করেন এবং ১৮৯৬ সালে মারা যান। যদিও তিনি সুইডেনের নাগরিক ছিলেন, তিনি রাশিয়ায় শিক্ষালাভ করেন। তিনি ডিনামাইট বিক্রি করে প্রচুর অর্থ উপার্জন করেন। ১৮৯৬ সালে মৃত্যুর সময় নোবেল প্রচুর অর্থ রেখে যান। তিনি একটি উইলও (দানপত্র) রেখে যান যেখানে নির্দেশ ছিল যে এই অর্থের সুদ পদার্থবিদ্যা, রসায়নবিদ্যা, সাহিত্য, চিকিৎসা ও শান্তিতে অতুলনীয় অবদান রাখার জন্য পুরস্কার হিসেবে প্রদান করা হবে। এই পুরস্কারকে নোবেল পুরস্কার হিসেবে নামকরণ করা হয়। ১৯০১ সালের ১০ই ডিসেম্বর প্রথম নোবেল পুরস্কারটি রঞ্জেনকে প্রদান করা হয় তাঁর এক্স-রে আবিষ্কারের জন্য।",
         "vocabulary": [
-          { "word": "prestigious", "pos": "adj", "meaning_en": "highly respected", "meaning_bn": "মর্যাদাপূর্ণ", "synonym": "esteemed", "antonym": "disreputable" },
-          { "word": "outstanding", "pos": "adj", "meaning_en": "exceptional", "meaning_bn": "অসাধারণ", "synonym": "remarkable", "antonym": "ordinary" },
-          { "word": "contribution", "pos": "n", "meaning_en": "an effort or benefit", "meaning_bn": "অবদান", "synonym": "participation", "antonym": "withdrawal" },
-          { "word": "institute", "pos": "v", "meaning_en": "to establish", "meaning_bn": "প্রবর্তন করা", "synonym": "found", "antonym": "abolish" },
-          { "word": "dynamite", "pos": "n", "meaning_en": "a powerful explosive", "meaning_bn": "ডিনামাইট", "synonym": "explosive", "antonym": "" }
+          {
+            "word": "prestigious",
+            "pos": "adj",
+            "meaning_en": "highly respected",
+            "meaning_bn": "মর্যাদাপূর্ণ",
+            "synonym": "esteemed",
+            "antonym": "disreputable"
+          },
+          {
+            "word": "outstanding",
+            "pos": "adj",
+            "meaning_en": "exceptional",
+            "meaning_bn": "অসাধারণ",
+            "synonym": "remarkable",
+            "antonym": "ordinary"
+          },
+          {
+            "word": "contribution",
+            "pos": "n",
+            "meaning_en": "an effort or benefit",
+            "meaning_bn": "অবদান",
+            "synonym": "participation",
+            "antonym": "withdrawal"
+          },
+          {
+            "word": "institute",
+            "pos": "v",
+            "meaning_en": "to establish",
+            "meaning_bn": "প্রবর্তন করা",
+            "synonym": "found",
+            "antonym": "abolish"
+          },
+          {
+            "word": "dynamite",
+            "pos": "n",
+            "meaning_en": "a powerful explosive",
+            "meaning_bn": "ডিনামাইট",
+            "synonym": "explosive",
+            "antonym": ""
+          }
         ],
         "mcqQuestions": [
           {
             "id": "5i",
             "question": "Where was Alfred Nobel born?",
-            "options": ["Stockholm", "Russia", "London", "Paris"],
+            "options": [
+              "Stockholm",
+              "Russia",
+              "London",
+              "Paris"
+            ],
             "correct": 0,
             "explanation_bn": "আলফ্রেড নোবেল সুইডেনের স্টকহোমে জন্মগ্রহণ করেন।",
             "explanation_en": "Alfred Nobel was born in Stockholm, Sweden."
@@ -270,7 +552,12 @@
           {
             "id": "5ii",
             "question": "Which subject was added to the Nobel Prize list in 1969?",
-            "options": ["Physics", "Chemistry", "Economics", "Peace"],
+            "options": [
+              "Physics",
+              "Chemistry",
+              "Economics",
+              "Peace"
+            ],
             "correct": 2,
             "explanation_bn": "১৯৬৯ সালে অর্থনীতি (Economics) নোবেল পুরস্কারের তালিকায় যুক্ত হয়।",
             "explanation_en": "Economics was added to the Nobel Prize list in 1969."
@@ -278,7 +565,12 @@
           {
             "id": "5iii",
             "question": "Where was Alfred Nobel educated?",
-            "options": ["Sweden", "Russia", "Germany", "France"],
+            "options": [
+              "Sweden",
+              "Russia",
+              "Germany",
+              "France"
+            ],
             "correct": 1,
             "explanation_bn": "আলফ্রেড নোবেল রাশিয়ায় শিক্ষালাভ করেন।",
             "explanation_en": "Alfred Nobel was educated in Russia."
@@ -286,7 +578,12 @@
           {
             "id": "5iv",
             "question": "What did Nobel leave behind at the time of his death?",
-            "options": ["A small amount of money", "Nothing", "A huge amount of money", "Only his house"],
+            "options": [
+              "A small amount of money",
+              "Nothing",
+              "A huge amount of money",
+              "Only his house"
+            ],
             "correct": 2,
             "explanation_bn": "মৃত্যুর সময় নোবেল প্রচুর অর্থ (a huge amount of money) রেখে যান।",
             "explanation_en": "At his death, Nobel left behind a huge amount of money."
@@ -294,7 +591,12 @@
           {
             "id": "5v",
             "question": "Who died in 1896?",
-            "options": ["Rontgen", "Alfred Nobel", "Einstein", "Henry Morley"],
+            "options": [
+              "Rontgen",
+              "Alfred Nobel",
+              "Einstein",
+              "Henry Morley"
+            ],
             "correct": 1,
             "explanation_bn": "আলফ্রেড নোবেল ১৮৯৬ সালে মারা যান।",
             "explanation_en": "Alfred Nobel died in 1896."
@@ -330,7 +632,12 @@
           {
             "id": "6c",
             "question": "The source of prize money is the Nobel's deposited money.",
-            "options": ["True", "False. The government provides the money.", "False. It comes from donations.", "Not mentioned."],
+            "options": [
+              "True",
+              "False. The government provides the money.",
+              "False. It comes from donations.",
+              "Not mentioned."
+            ],
             "correct": 0,
             "explanation_bn": "পুরস্কারের অর্থ নোবেলের জমাকৃত অর্থ থেকে আসে।",
             "explanation_en": "The prize money comes from Nobel's deposited money."
@@ -338,7 +645,12 @@
           {
             "id": "6d",
             "question": "From the very beginning Nobel Prize has been given in five fields.",
-            "options": ["True", "False. It was given in six fields.", "False. It was given in four fields.", "False. It was given in three fields."],
+            "options": [
+              "True",
+              "False. It was given in six fields.",
+              "False. It was given in four fields.",
+              "False. It was given in three fields."
+            ],
             "correct": 0,
             "explanation_bn": "শুরু থেকে নোবেল পুরস্কার পাঁচটি ক্ষেত্রে দেওয়া হত।",
             "explanation_en": "From the beginning, Nobel Prize was given in five fields."
@@ -387,31 +699,46 @@
           "valid_sentences": [
             {
               "sentence": "There is no denying the fact that honesty is the custodian of a good civilization.",
-              "combination": ["There is no denying the fact that", "honesty is the custodian of a good civilization."],
+              "combination": [
+                "There is no denying the fact that",
+                "honesty is the custodian of a good civilization."
+              ],
               "explanation_en": "This states that honesty protects a good civilization.",
               "explanation_bn": "এটি বলে যে সততা একটি সুসভ্যতার রক্ষক।"
             },
             {
               "sentence": "Without having honesty in us, our civilization can never reach the pinnacle of success.",
-              "combination": ["Without having honesty in us,", "our civilization can never reach the pinnacle of success."],
+              "combination": [
+                "Without having honesty in us,",
+                "our civilization can never reach the pinnacle of success."
+              ],
               "explanation_en": "This shows the necessity of honesty for success.",
               "explanation_bn": "এটি সাফল্যের জন্য সততার প্রয়োজনীয়তা দেখায়।"
             },
             {
               "sentence": "So, it is imperative to achieve honesty and integrity.",
-              "combination": ["So, it is imperative to achieve", "honesty and integrity."],
+              "combination": [
+                "So, it is imperative to achieve",
+                "honesty and integrity."
+              ],
               "explanation_en": "This emphasizes the need to achieve honesty.",
               "explanation_bn": "এটি সততা ও নৈতিকতা অর্জনের প্রয়োজনীয়তার ওপর জোর দেয়।"
             },
             {
               "sentence": "It has a noble and sterling value.",
-              "combination": ["It has a", "noble and sterling value."],
+              "combination": [
+                "It has a",
+                "noble and sterling value."
+              ],
               "explanation_en": "This describes the high value of honesty.",
               "explanation_bn": "এটি সততার উচ্চ মূল্য বর্ণনা করে।"
             },
             {
               "sentence": "It is just like an ornament of human character.",
-              "combination": ["It is just like an", "ornament of human character."],
+              "combination": [
+                "It is just like an",
+                "ornament of human character."
+              ],
               "explanation_en": "This compares honesty to an ornament of character.",
               "explanation_bn": "এটি সততাকে মানব চরিত্রের অলঙ্কারের সাথে তুলনা করে।"
             }
@@ -425,16 +752,49 @@
       "type": "rearrangement",
       "content": {
         "sentences": [
-          { "id": "a", "text": "One said, \"I have lost my husband.\" Another said, \"Our youngest child died last year.\"" },
-          { "id": "b", "text": "The holy man was touched at the great sorrow of the woman." },
-          { "id": "c", "text": "Buddha told her affectionately that she must not think much of her own grief." },
-          { "id": "d", "text": "A poor woman came to Buddha and asked him whether he could give her dead child to life." },
-          { "id": "e", "text": "She returned with a heavy heart to the great teacher and told him the result of her tiring search." },
-          { "id": "f", "text": "The sorrowful mother moved from door to door seeking the mustard seeds but she got the same reply in every house." },
-          { "id": "g", "text": "He told her that there was only one medicine that could revive her son to life." },
-          { "id": "h", "text": "He told her to bring a handful of mustard seeds from a house where death had never entered." }
+          {
+            "id": "a",
+            "text": "One said, \"I have lost my husband.\" Another said, \"Our youngest child died last year.\""
+          },
+          {
+            "id": "b",
+            "text": "The holy man was touched at the great sorrow of the woman."
+          },
+          {
+            "id": "c",
+            "text": "Buddha told her affectionately that she must not think much of her own grief."
+          },
+          {
+            "id": "d",
+            "text": "A poor woman came to Buddha and asked him whether he could give her dead child to life."
+          },
+          {
+            "id": "e",
+            "text": "She returned with a heavy heart to the great teacher and told him the result of her tiring search."
+          },
+          {
+            "id": "f",
+            "text": "The sorrowful mother moved from door to door seeking the mustard seeds but she got the same reply in every house."
+          },
+          {
+            "id": "g",
+            "text": "He told her that there was only one medicine that could revive her son to life."
+          },
+          {
+            "id": "h",
+            "text": "He told her to bring a handful of mustard seeds from a house where death had never entered."
+          }
         ],
-        "correctOrder": ["d", "b", "g", "h", "f", "a", "e", "c"],
+        "correctOrder": [
+          "d",
+          "b",
+          "g",
+          "h",
+          "f",
+          "a",
+          "e",
+          "c"
+        ],
         "reconstructedParagraph": "A poor woman came to Buddha and asked him whether he could give her dead child to life. The holy man was touched at the great sorrow of the woman. He told her that there was only one medicine that could revive her son to life. He told her to bring a handful of mustard seeds from a house where death had never entered. The sorrowful mother moved from door to door seeking the mustard seeds but she got the same reply in every house. One said, \"I have lost my husband.\" Another said, \"Our youngest child died last year.\" She returned with a heavy heart to the great teacher and told him the result of her tiring search. Buddha told her affectionately that she must not think much of her own grief."
       }
     },
@@ -447,7 +807,12 @@
           {
             "id": "10a",
             "question": "In the poem 'From a Railway Carriage', by the line 'Each a glimpse and gone forever!', what does the poet imply?",
-            "options": ["The journey is very long", "All sights are just for a moment and disappear forever", "The train is slow", "The passengers are sleeping"],
+            "options": [
+              "The journey is very long",
+              "All sights are just for a moment and disappear forever",
+              "The train is slow",
+              "The passengers are sleeping"
+            ],
             "correct": 1,
             "explanation_bn": "কবি বোঝাতে চেয়েছেন যে দৃশ্যগুলো শুধু এক পলকের জন্য দেখা যায় এবং হারিয়ে যায়।",
             "explanation_en": "The poet implies that all sights are just for a moment and disappear forever."
@@ -455,7 +820,12 @@
           {
             "id": "10b",
             "question": "What does the expression 'as thick as driving rain' indicate in the poem 'From a Railway Carriage'?",
-            "options": ["The rain was very beautiful", "The sights outside were coming very fast like hard rain", "The train was moving slowly", "The sky was cloudy"],
+            "options": [
+              "The rain was very beautiful",
+              "The sights outside were coming very fast like hard rain",
+              "The train was moving slowly",
+              "The sky was cloudy"
+            ],
             "correct": 1,
             "explanation_bn": "বৃষ্টির মতো ঘন ও দ্রুত বাইরের দৃশ্যগুলো চলে যাচ্ছিল।",
             "explanation_en": "The sights outside the train were coming very fast like driving rain."
@@ -463,7 +833,12 @@
           {
             "id": "10c",
             "question": "According to the poem 'From a Railway Carriage', what can the speed of the train be compared to?",
-            "options": ["A flying bird", "The passage of time", "A flowing river", "A walking man"],
+            "options": [
+              "A flying bird",
+              "The passage of time",
+              "A flowing river",
+              "A walking man"
+            ],
             "correct": 1,
             "explanation_bn": "ট্রেনের গতিকে সময়ের গতির সাথে তুলনা করা যায়।",
             "explanation_en": "The speed of the train can be compared to the passage of time."
@@ -471,7 +846,12 @@
           {
             "id": "10d",
             "question": "Why does the poet in the poem 'Leisure' think that we have no time to stand and stare?",
-            "options": ["Because our life is full of responsibilities", "Because we are lazy", "Because we don't like nature", "Because we are always sleeping"],
+            "options": [
+              "Because our life is full of responsibilities",
+              "Because we are lazy",
+              "Because we don't like nature",
+              "Because we are always sleeping"
+            ],
             "correct": 0,
             "explanation_bn": "আমাদের জীবন দায়িত্বপূর্ণ হওয়ায় প্রকৃতি উপভোগ করার সময় নেই।",
             "explanation_en": "Our life is full of responsibilities, leaving no time to stand and stare."
@@ -479,7 +859,12 @@
           {
             "id": "10e",
             "question": "According to the poem 'Leisure', when can people see 'streams full of stars'?",
-            "options": ["At midnight", "During the day", "At sunset", "At dawn"],
+            "options": [
+              "At midnight",
+              "During the day",
+              "At sunset",
+              "At dawn"
+            ],
             "correct": 1,
             "explanation_bn": "'Leisure' কবিতা অনুসারে, দিনের বেলায় মানুষ 'নক্ষত্রে পরিপূর্ণ স্রোতস্বিনী' দেখতে পায়।",
             "explanation_en": "According to the poem 'Leisure', people can see 'streams full of stars' during the day."
@@ -487,7 +872,12 @@
           {
             "id": "10f",
             "question": "According to the poem 'Leisure', what do we not have time for?",
-            "options": ["Working", "Sleeping", "Enjoying the beauty of nature", "Eating"],
+            "options": [
+              "Working",
+              "Sleeping",
+              "Enjoying the beauty of nature",
+              "Eating"
+            ],
             "correct": 2,
             "explanation_bn": "আমাদের প্রকৃতির সৌন্দর্য উপভোগ করার সময় নেই।",
             "explanation_en": "We do not have time for enjoying the beauty of nature."
@@ -495,7 +885,12 @@
           {
             "id": "10g",
             "question": "In the poem 'Whose Child Is This?', what does the line 'To help him live by every rule' mean?",
-            "options": ["To help a child follow the rules everywhere", "To punish a child", "To make rules for a child", "To ignore rules"],
+            "options": [
+              "To help a child follow the rules everywhere",
+              "To punish a child",
+              "To make rules for a child",
+              "To ignore rules"
+            ],
             "correct": 0,
             "explanation_bn": "এই পংক্তিটির অর্থ হলো শিশুকে সর্বত্র নিয়ম মেনে চলতে সাহায্য করা।",
             "explanation_en": "The line means to help a child follow the rules everywhere."
@@ -503,7 +898,12 @@
           {
             "id": "10h",
             "question": "As mentioned in the poem 'Whose Child Is This?', where do the parent and the teacher take care of the child?",
-            "options": ["At home and at school respectively", "Only at home", "Only at school", "In the park"],
+            "options": [
+              "At home and at school respectively",
+              "Only at home",
+              "Only at school",
+              "In the park"
+            ],
             "correct": 0,
             "explanation_bn": "পিতামাতা বাসায় এবং শিক্ষক বিদ্যালয়ে শিশুর যত্ন নেন।",
             "explanation_en": "The parent takes care at home and the teacher at school respectively."

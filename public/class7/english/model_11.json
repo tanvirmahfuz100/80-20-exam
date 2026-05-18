@@ -8,23 +8,84 @@
       "name": "Passage & Comprehension",
       "type": "passage_mcq",
       "content": {
-        "passage": "One day, Joynul looked for work in his village and in the next village. But his luck did not favour him. He was angry - angry with everybody. When he was back home, Nazma failed to serve his meal. That made him shout at Nazma. 'I had a severe headache and a fever,' said Nazma. Joynul was trembling in anger. 'The cooking is almost done. Wash your hands and feet. I'll bring the food soon,' she said. 'Soon! It will take ages!' Joynul shouted wildly. 'What do you do the whole day at home? I work and earn money to run the family. You can't even cook my meals in time!' 'I don't earn money, but I also run the family. I do all the work at home - cooking, cleaning, washing, husking, taking care of the children - everything,' said Nazma. 'Remember, you work for money but my work in the home can make the family stick together and make it happy. So both types of work are equally important.' Never before has Joynul thought about these things. He feels guilty. Never before has he looked at Nazma with so much admiration and gratitude.",
+        "passage": "One day, Joynul looked for work in his village and in the next village. But his luck did not favour him. He was angry - angry with everybody.\n\nWhen he was back home, Nazma failed to serve his meal. That made him shout at Nazma. 'I had a severe headache and a fever,' said Nazma.\n\nJoynul was trembling in anger. 'The cooking is almost done. Wash your hands and feet.\n\nI'll bring the food soon,' she said. 'Soon! It will take ages!' Joynul shouted wildly.\n\n'What do you do the whole day at home? I work and earn money to run the family. You can't even cook my meals in time!' 'I don't earn money, but I also run the family.\n\nI do all the work at home - cooking, cleaning, washing, husking, taking care of the children - everything,' said Nazma. 'Remember, you work for money but my work in the home can make the family stick together and make it happy. So both types of work are equally important.' Never before has Joynul thought about these things.\n\nHe feels guilty. Never before has he looked at Nazma with so much admiration and gratitude.",
         "translation_bn": "একদিন জয়নুল তার নিজ গ্রাম এবং পার্শ্ববর্তী গ্রামে কাজ খুঁজতে গেলেন। কিন্তু ভাগ্য তার সহায় ছিল না। তিনি ক্রুদ্ধ ছিলেন - প্রত্যেকের ওপর রেগে ছিলেন। যখন তিনি বাড়ি ফিরলেন, নাজমা তার খাবার দিতে ব্যর্থ হলেন। সেই কারণে তিনি নাজমার সাথে চেঁচামেচি করলেন। 'আমার প্রচন্ড মাথাব্যথা ও জ্বর ছিল,' নাজমা বললেন। জয়নুল ক্রোধে কাঁপতে লাগলেন। 'রান্না প্রায় শেষ। হাত-পা ধুয়ে নাও। আমি শীঘ্রই খাবার দিচ্ছি,' তিনি বললেন। 'শীঘ্রই! অনন্তকাল লেগে যাবে!' জয়নুল ক্রুদ্ধভাবে চেঁচিয়ে উঠলেন। 'সারাদিন বাড়িতে তুমি কী করো? আমি কাজ করে সংসার চালানোর জন্য অর্থ উপার্জন করি। তুমি আমার খাবারটুকুও সময়মতো রাঁধতে পারো না।' 'আমি অর্থ উপার্জন করি না, কিন্তু আমিও সংসার চালাই। আমি বাড়িতে সমস্ত কাজ করি - রান্না, ঘরবাড়ি পরিষ্কার করা, কাপড়-চোপড় ধোয়া, ধানভানা, বাচ্চাদের দেখাশোনা করা - সমস্ত কিছু,' নাজমা বললেন। 'মনে রেখো, তুমি অর্থ উপার্জন করো কিন্তু আমার গৃহস্থালির কাজ পরিবারকে একসাথে বেঁধে রাখতে এবং এটিকে সুখী করে তুলতে পারে। তাই দুই ধরনের কাজই সমান গুরুত্বপূর্ণ।' জয়নুল পূর্বে কখনও এ ব্যাপারগুলো নিয়ে ভাবেননি। তিনি অপরাধ বোধ করেন। তিনি এর আগে কখনও নাজমার দিকে এত শ্রদ্ধা ও কৃতজ্ঞতার সাথে তাকাননি।",
         "vocabulary": [
-          { "word": "admiration", "pos": "n", "meaning_en": "a feeling of great respect", "meaning_bn": "শ্রদ্ধা বা প্রশংসা", "synonym": "appreciation", "antonym": "disgust" },
-          { "word": "anger", "pos": "n", "meaning_en": "a strong feeling of displeasure", "meaning_bn": "ক্রোধ", "synonym": "fury", "antonym": "calm" },
-          { "word": "favour", "pos": "v", "meaning_en": "to prefer or support", "meaning_bn": "অনুকূল হওয়া", "synonym": "support", "antonym": "oppose" },
-          { "word": "gratitude", "pos": "n", "meaning_en": "the feeling of being grateful", "meaning_bn": "কৃতজ্ঞতা", "synonym": "thankfulness", "antonym": "ingratitude" },
-          { "word": "guilty", "pos": "adj", "meaning_en": "feeling responsible for wrongdoing", "meaning_bn": "অপরাধী", "synonym": "responsible", "antonym": "innocent" },
-          { "word": "severe", "pos": "adj", "meaning_en": "very bad or serious", "meaning_bn": "গুরুতর", "synonym": "acute", "antonym": "mild" },
-          { "word": "tremble", "pos": "v", "meaning_en": "to shake with quick movements", "meaning_bn": "কম্পিত হওয়া", "synonym": "shake", "antonym": "steady" },
-          { "word": "wildly", "pos": "adv", "meaning_en": "in a wild or angry manner", "meaning_bn": "ক্রুদ্ধভাবে", "synonym": "angrily", "antonym": "calmly" }
+          {
+            "word": "admiration",
+            "pos": "n",
+            "meaning_en": "a feeling of great respect",
+            "meaning_bn": "শ্রদ্ধা বা প্রশংসা",
+            "synonym": "appreciation",
+            "antonym": "disgust"
+          },
+          {
+            "word": "anger",
+            "pos": "n",
+            "meaning_en": "a strong feeling of displeasure",
+            "meaning_bn": "ক্রোধ",
+            "synonym": "fury",
+            "antonym": "calm"
+          },
+          {
+            "word": "favour",
+            "pos": "v",
+            "meaning_en": "to prefer or support",
+            "meaning_bn": "অনুকূল হওয়া",
+            "synonym": "support",
+            "antonym": "oppose"
+          },
+          {
+            "word": "gratitude",
+            "pos": "n",
+            "meaning_en": "the feeling of being grateful",
+            "meaning_bn": "কৃতজ্ঞতা",
+            "synonym": "thankfulness",
+            "antonym": "ingratitude"
+          },
+          {
+            "word": "guilty",
+            "pos": "adj",
+            "meaning_en": "feeling responsible for wrongdoing",
+            "meaning_bn": "অপরাধী",
+            "synonym": "responsible",
+            "antonym": "innocent"
+          },
+          {
+            "word": "severe",
+            "pos": "adj",
+            "meaning_en": "very bad or serious",
+            "meaning_bn": "গুরুতর",
+            "synonym": "acute",
+            "antonym": "mild"
+          },
+          {
+            "word": "tremble",
+            "pos": "v",
+            "meaning_en": "to shake with quick movements",
+            "meaning_bn": "কম্পিত হওয়া",
+            "synonym": "shake",
+            "antonym": "steady"
+          },
+          {
+            "word": "wildly",
+            "pos": "adv",
+            "meaning_en": "in a wild or angry manner",
+            "meaning_bn": "ক্রুদ্ধভাবে",
+            "synonym": "angrily",
+            "antonym": "calmly"
+          }
         ],
         "questions": [
           {
             "id": "1i",
             "question": "Nazma does everything in the family except ---",
-            "options": ["cooking", "cleaning", "husking", "earning money"],
+            "options": [
+              "cooking",
+              "cleaning",
+              "husking",
+              "earning money"
+            ],
             "correct": 3,
             "explanation_bn": "নাজমা রান্না, পরিষ্কার, ধানভানা সব করেন কিন্তু অর্থ উপার্জন করেন না।",
             "explanation_en": "Nazma does cooking, cleaning, husking but does not earn money."
@@ -32,7 +93,12 @@
           {
             "id": "1ii",
             "question": "Joynul and Nazma contribute to the family ---",
-            "options": ["partially", "differently", "equally", "unevenly"],
+            "options": [
+              "partially",
+              "differently",
+              "equally",
+              "unevenly"
+            ],
             "correct": 1,
             "explanation_bn": "জয়নুল অর্থ উপার্জন করেন এবং নাজমা গৃহস্থালির কাজ করেন - তারা ভিন্নভাবে অবদান রাখেন।",
             "explanation_en": "Joynul earns money and Nazma does household work - they contribute differently."
@@ -40,7 +106,12 @@
           {
             "id": "1iii",
             "question": "It was a --- day for Joynul.",
-            "options": ["rough", "smooth", "pleasant", "good"],
+            "options": [
+              "rough",
+              "smooth",
+              "pleasant",
+              "good"
+            ],
             "correct": 0,
             "explanation_bn": "জয়নুলের জন্য দিনটি খারাপ ছিল কারণ তিনি কাজ পাননি।",
             "explanation_en": "It was a rough day for Joynul because he did not get any work."
@@ -48,7 +119,12 @@
           {
             "id": "1iv",
             "question": "Previously, Joynul was --- about his wife's contribution to the family.",
-            "options": ["indifferent", "careful", "aware", "conscious"],
+            "options": [
+              "indifferent",
+              "careful",
+              "aware",
+              "conscious"
+            ],
             "correct": 0,
             "explanation_bn": "পূর্বে জয়নুল তার স্ত্রীর অবদান সম্পর্কে উদাসীন ছিল।",
             "explanation_en": "Previously Joynul was indifferent about his wife's contribution."
@@ -56,7 +132,12 @@
           {
             "id": "1v",
             "question": "What makes a happy family?",
-            "options": ["Money only", "Husband's contribution only", "Wife's contribution only", "Equal contribution of both husband and wife"],
+            "options": [
+              "Money only",
+              "Husband's contribution only",
+              "Wife's contribution only",
+              "Equal contribution of both husband and wife"
+            ],
             "correct": 3,
             "explanation_bn": "স্বামী ও স্ত্রী উভয়ের সমান অবদানই পরিবারকে সুখী করে।",
             "explanation_en": "Equal contribution of both husband and wife makes a happy family."
@@ -64,7 +145,12 @@
           {
             "id": "1vi",
             "question": "Nazma is a ---",
-            "options": ["homemaker", "worker", "bread earner", "cook"],
+            "options": [
+              "homemaker",
+              "worker",
+              "bread earner",
+              "cook"
+            ],
             "correct": 0,
             "explanation_bn": "নাজমা গৃহিণী (homemaker)।",
             "explanation_en": "Nazma is a homemaker."
@@ -72,7 +158,12 @@
           {
             "id": "1vii",
             "question": "'I also run the family.' Here the word 'run' means ---",
-            "options": ["manage", "move quickly", "pass", "go"],
+            "options": [
+              "manage",
+              "move quickly",
+              "pass",
+              "go"
+            ],
             "correct": 0,
             "explanation_bn": "এখানে 'run' অর্থ পরিচালনা করা (manage)।",
             "explanation_en": "Here 'run' means manage."
@@ -80,7 +171,12 @@
           {
             "id": "1viii",
             "question": "'So both types of work are equally important.' The word 'equally' does not mean ---",
-            "options": ["equivalently", "evenly", "hardly", "in the same way"],
+            "options": [
+              "equivalently",
+              "evenly",
+              "hardly",
+              "in the same way"
+            ],
             "correct": 2,
             "explanation_bn": "'Equally'-এর অর্থ 'hardly' নয়।",
             "explanation_en": "'Equally' does not mean 'hardly'."
@@ -88,7 +184,12 @@
           {
             "id": "1ix",
             "question": "'One day Joynul looked for work in his village...' Here 'look for' means ---",
-            "options": ["search", "remember", "ask", "see"],
+            "options": [
+              "search",
+              "remember",
+              "ask",
+              "see"
+            ],
             "correct": 0,
             "explanation_bn": "'Look for' অর্থ খোঁজা (search)।",
             "explanation_en": "'Look for' means search."
@@ -96,7 +197,12 @@
           {
             "id": "1x",
             "question": "Joynul shouted loudly at Nazma because ---",
-            "options": ["she could not give him food in time", "she had a bad headache", "she forgot to cook food", "she was angry with Joynul"],
+            "options": [
+              "she could not give him food in time",
+              "she had a bad headache",
+              "she forgot to cook food",
+              "she was angry with Joynul"
+            ],
             "correct": 0,
             "explanation_bn": "নাজমা সময়মতো খাবার দিতে না পারায় জয়নুল চিৎকার করে।",
             "explanation_en": "Joynul shouted at Nazma because she could not give him food in time."
@@ -104,7 +210,12 @@
           {
             "id": "1xi",
             "question": "'I had a severe headache and a fever,' said Nazma. What does 'severe' mean?",
-            "options": ["simple", "intense", "gentle", "mild"],
+            "options": [
+              "simple",
+              "intense",
+              "gentle",
+              "mild"
+            ],
             "correct": 1,
             "explanation_bn": "'Severe' অর্থ তীব্র বা গুরুতর (intense)।",
             "explanation_en": "'Severe' means intense or serious."
@@ -112,7 +223,12 @@
           {
             "id": "1xii",
             "question": "'But his luck did not favour him.' What does 'favour' mean here?",
-            "options": ["discard", "reject", "deny", "help"],
+            "options": [
+              "discard",
+              "reject",
+              "deny",
+              "help"
+            ],
             "correct": 3,
             "explanation_bn": "এখানে 'favour' অর্থ সহায়তা বা অনুকূল হওয়া (help)।",
             "explanation_en": "Here 'favour' means help or support."
@@ -120,7 +236,12 @@
           {
             "id": "1xiii",
             "question": "'Joynul was trembling in anger.' Here, the word 'trembling' means ---",
-            "options": ["shivering", "shouting", "speaking", "earning"],
+            "options": [
+              "shivering",
+              "shouting",
+              "speaking",
+              "earning"
+            ],
             "correct": 0,
             "explanation_bn": "'Trembling' অর্থ কাঁপা (shivering)।",
             "explanation_en": "'Trembling' means shivering."
@@ -128,7 +249,12 @@
           {
             "id": "1xiv",
             "question": "'He feels guilty.' The word 'guilty' means ---",
-            "options": ["accountable", "innocent", "simple", "pure"],
+            "options": [
+              "accountable",
+              "innocent",
+              "simple",
+              "pure"
+            ],
             "correct": 0,
             "explanation_bn": "'Guilty' অর্থ দায়ী বা অপরাধী (accountable)।",
             "explanation_en": "'Guilty' means accountable or responsible."
@@ -136,7 +262,12 @@
           {
             "id": "1xv",
             "question": "'It will take ages!' The underlined words mean ---",
-            "options": ["Nazma is suffering from old age", "a very long time will be needed", "Joynul is willing to wait long", "a very short time will be needed"],
+            "options": [
+              "Nazma is suffering from old age",
+              "a very long time will be needed",
+              "Joynul is willing to wait long",
+              "a very short time will be needed"
+            ],
             "correct": 1,
             "explanation_bn": "'Take ages' অর্থ অনেক সময় লাগবে।",
             "explanation_en": "'Take ages' means a very long time will be needed."
@@ -151,51 +282,137 @@
       "content": {
         "gapFill": {
           "passage": "In the new kind of shop, there will be no shopkeeper. There will be a (a) ______ tag on every item. By putting the same amount of money (b) ______ on the tag, one can take the item. If anyone takes anything (c) ______ paying, it will be (d) ______. One's (e) ______ will prevent one from stealing.",
-          "boxWords": ["price", "written", "without", "stealing", "conscience", "free", "unwritten", "with", "giving", "morality"],
+          "boxWords": [
+            "price",
+            "written",
+            "without",
+            "stealing",
+            "conscience",
+            "free",
+            "unwritten",
+            "with",
+            "giving",
+            "morality"
+          ],
           "blanks": [
             {
               "blankId": "a",
               "correct": "price",
               "options": [
-                { "text": "price", "isCorrect": true, "explanationBn": "প্রত্যেক জিনিসের ওপর মূল্যের ট্যাগ থাকবে।", "explanationEn": "Every item will have a price tag." },
-                { "text": "free", "isCorrect": false, "explanationBn": "এটি 'price'-এর সমার্থক নয়।", "explanationEn": "This is not a synonym of 'price'." },
-                { "text": "quality", "isCorrect": false, "explanationBn": "দাম নয়, গুণগত মান উল্লেখ নেই।", "explanationEn": "Not about quality but price." }
+                {
+                  "text": "price",
+                  "isCorrect": true,
+                  "explanationBn": "প্রত্যেক জিনিসের ওপর মূল্যের ট্যাগ থাকবে।",
+                  "explanationEn": "Every item will have a price tag."
+                },
+                {
+                  "text": "free",
+                  "isCorrect": false,
+                  "explanationBn": "এটি 'price'-এর সমার্থক নয়।",
+                  "explanationEn": "This is not a synonym of 'price'."
+                },
+                {
+                  "text": "quality",
+                  "isCorrect": false,
+                  "explanationBn": "দাম নয়, গুণগত মান উল্লেখ নেই।",
+                  "explanationEn": "Not about quality but price."
+                }
               ]
             },
             {
               "blankId": "b",
               "correct": "written",
               "options": [
-                { "text": "written", "isCorrect": true, "explanationBn": "ট্যাগের ওপর লেখা মূল্যের সমান অর্থ রেখে জিনিস নেওয়া যাবে।", "explanationEn": "By putting the written amount of money, one can take the item." },
-                { "text": "unwritten", "isCorrect": false, "explanationBn": "মূল্য লেখা থাকতে হবে।", "explanationEn": "The price must be written." },
-                { "text": "spoken", "isCorrect": false, "explanationBn": "মূল্য লেখা থাকবে, বলা নয়।", "explanationEn": "The price will be written, not spoken." }
+                {
+                  "text": "written",
+                  "isCorrect": true,
+                  "explanationBn": "ট্যাগের ওপর লেখা মূল্যের সমান অর্থ রেখে জিনিস নেওয়া যাবে।",
+                  "explanationEn": "By putting the written amount of money, one can take the item."
+                },
+                {
+                  "text": "unwritten",
+                  "isCorrect": false,
+                  "explanationBn": "মূল্য লেখা থাকতে হবে।",
+                  "explanationEn": "The price must be written."
+                },
+                {
+                  "text": "spoken",
+                  "isCorrect": false,
+                  "explanationBn": "মূল্য লেখা থাকবে, বলা নয়।",
+                  "explanationEn": "The price will be written, not spoken."
+                }
               ]
             },
             {
               "blankId": "c",
               "correct": "without",
               "options": [
-                { "text": "without", "isCorrect": true, "explanationBn": "কেউ যদি মূল্য না দিয়ে জিনিস নেয়, তবে তা চুরি হবে।", "explanationEn": "If anyone takes anything without paying, it will be stealing." },
-                { "text": "with", "isCorrect": false, "explanationBn": "মূল্য দিয়ে নিলে তা চুরি নয়।", "explanationEn": "Paying means it is not stealing." },
-                { "text": "before", "isCorrect": false, "explanationBn": "এটি এখানে প্রাসঙ্গিক নয়।", "explanationEn": "This is not relevant here." }
+                {
+                  "text": "without",
+                  "isCorrect": true,
+                  "explanationBn": "কেউ যদি মূল্য না দিয়ে জিনিস নেয়, তবে তা চুরি হবে।",
+                  "explanationEn": "If anyone takes anything without paying, it will be stealing."
+                },
+                {
+                  "text": "with",
+                  "isCorrect": false,
+                  "explanationBn": "মূল্য দিয়ে নিলে তা চুরি নয়।",
+                  "explanationEn": "Paying means it is not stealing."
+                },
+                {
+                  "text": "before",
+                  "isCorrect": false,
+                  "explanationBn": "এটি এখানে প্রাসঙ্গিক নয়।",
+                  "explanationEn": "This is not relevant here."
+                }
               ]
             },
             {
               "blankId": "d",
               "correct": "stealing",
               "options": [
-                { "text": "stealing", "isCorrect": true, "explanationBn": "মূল্য না দিয়ে কিছু নেওয়া চুরি হবে।", "explanationEn": "Taking without paying is stealing." },
-                { "text": "giving", "isCorrect": false, "explanationBn": "এটি 'stealing'-এর বিপরীত।", "explanationEn": "This is the opposite of 'stealing'." },
-                { "text": "buying", "isCorrect": false, "explanationBn": "মূল্য না দিয়ে নেওয়া কেনা নয়।", "explanationEn": "Taking without paying is not buying." }
+                {
+                  "text": "stealing",
+                  "isCorrect": true,
+                  "explanationBn": "মূল্য না দিয়ে কিছু নেওয়া চুরি হবে।",
+                  "explanationEn": "Taking without paying is stealing."
+                },
+                {
+                  "text": "giving",
+                  "isCorrect": false,
+                  "explanationBn": "এটি 'stealing'-এর বিপরীত।",
+                  "explanationEn": "This is the opposite of 'stealing'."
+                },
+                {
+                  "text": "buying",
+                  "isCorrect": false,
+                  "explanationBn": "মূল্য না দিয়ে নেওয়া কেনা নয়।",
+                  "explanationEn": "Taking without paying is not buying."
+                }
               ]
             },
             {
               "blankId": "e",
               "correct": "conscience",
               "options": [
-                { "text": "conscience", "isCorrect": true, "explanationBn": "বিবেক একজনকে চুরি করা থেকে বিরত রাখবে।", "explanationEn": "One's conscience will prevent one from stealing." },
-                { "text": "morality", "isCorrect": false, "explanationBn": "'Conscience'-এর সমার্থক 'morality' হলেও এখানে 'conscience' বেশি মানানসই।", "explanationEn": "'Conscience' is more appropriate here." },
-                { "text": "ignorance", "isCorrect": false, "explanationBn": "অজ্ঞতা চুরি থেকে বিরত রাখে না।", "explanationEn": "Ignorance does not prevent stealing." }
+                {
+                  "text": "conscience",
+                  "isCorrect": true,
+                  "explanationBn": "বিবেক একজনকে চুরি করা থেকে বিরত রাখবে।",
+                  "explanationEn": "One's conscience will prevent one from stealing."
+                },
+                {
+                  "text": "morality",
+                  "isCorrect": false,
+                  "explanationBn": "'Conscience'-এর সমার্থক 'morality' হলেও এখানে 'conscience' বেশি মানানসই।",
+                  "explanationEn": "'Conscience' is more appropriate here."
+                },
+                {
+                  "text": "ignorance",
+                  "isCorrect": false,
+                  "explanationBn": "অজ্ঞতা চুরি থেকে বিরত রাখে না।",
+                  "explanationEn": "Ignorance does not prevent stealing."
+                }
               ]
             }
           ]
@@ -204,7 +421,12 @@
           {
             "id": "4a",
             "question": "What is the synonym of 'tag'?",
-            "options": ["label", "remove", "tear", "hide"],
+            "options": [
+              "label",
+              "remove",
+              "tear",
+              "hide"
+            ],
             "correct": 0,
             "explanation_bn": "'Tag'-এর সমার্থক শব্দ 'label' (লেবেল)।",
             "explanation_en": "The synonym of 'tag' is 'label'."
@@ -212,7 +434,12 @@
           {
             "id": "4b",
             "question": "What is the antonym of 'never'?",
-            "options": ["seldom", "sometimes", "always", "rarely"],
+            "options": [
+              "seldom",
+              "sometimes",
+              "always",
+              "rarely"
+            ],
             "correct": 2,
             "explanation_bn": "'Never'-এর বিপরীত শব্দ 'always' (সর্বদা)।",
             "explanation_en": "The antonym of 'never' is 'always'."
@@ -220,7 +447,12 @@
           {
             "id": "4c",
             "question": "What is the synonym of 'conscience'?",
-            "options": ["ignorance", "immorality", "morality", "carelessness"],
+            "options": [
+              "ignorance",
+              "immorality",
+              "morality",
+              "carelessness"
+            ],
             "correct": 2,
             "explanation_bn": "'Conscience'-এর সমার্থক শব্দ 'morality' (নৈতিকতা)।",
             "explanation_en": "The synonym of 'conscience' is 'morality'."
@@ -228,7 +460,12 @@
           {
             "id": "4d",
             "question": "What is the antonym of 'peace'?",
-            "options": ["calm", "distress", "harmony", "tranquility"],
+            "options": [
+              "calm",
+              "distress",
+              "harmony",
+              "tranquility"
+            ],
             "correct": 1,
             "explanation_bn": "'Peace'-এর বিপরীত শব্দ 'distress' (উদ্বেগ/কষ্ট)।",
             "explanation_en": "The antonym of 'peace' is 'distress'."
@@ -236,7 +473,12 @@
           {
             "id": "4e",
             "question": "What is the synonym of 'action'?",
-            "options": ["inactivity", "laziness", "activity", "rest"],
+            "options": [
+              "inactivity",
+              "laziness",
+              "activity",
+              "rest"
+            ],
             "correct": 2,
             "explanation_bn": "'Action'-এর সমার্থক শব্দ 'activity' (কাজ/ক্রিয়াকলাপ)।",
             "explanation_en": "The synonym of 'action' is 'activity'."
@@ -249,20 +491,60 @@
       "name": "Biographical Passage & Summary",
       "type": "passage_summary",
       "content": {
-        "passage": "Samuel Taylor Coleridge was born in 1772 in Devonshire. From there at six he attended a 'dame' school. When he was nine, his father died. At ten, he was sent to the charity school of Christ's Hospital, London. He was pessimistic in nature but studied a lot. He had read more books than a professor before he entered Cambridge as a charity student at his nineteen. He remained there for nearly three years. He left Cambridge in 1794 without taking any degree. 'The Rime of the Ancient Mariner' is Coleridge's chief contribution to the 'Lyrical Ballads' published in 1798, one of the world's masterpieces. His collected 'Lectures on Shakespeare' came out in 1849. 'Aids to Recollection' was published in 1825. Coleridge died in 1834 and was buried in St. Michael's Church, Highgate.",
+        "passage": "Samuel Taylor Coleridge was born in 1772 in Devonshire. From there at six he attended a 'dame' school. When he was nine, his father died.\n\nAt ten, he was sent to the charity school of Christ's Hospital, London. He was pessimistic in nature but studied a lot. He had read more books than a professor before he entered Cambridge as a charity student at his nineteen.\n\nHe remained there for nearly three years. He left Cambridge in 1794 without taking any degree. 'The Rime of the Ancient Mariner' is Coleridge's chief contribution to the 'Lyrical Ballads' published in 1798, one of the world's masterpieces.\n\nHis collected 'Lectures on Shakespeare' came out in 1849. 'Aids to Recollection' was published in 1825. Coleridge died in 1834 and was buried in St.\n\nMichael's Church, Highgate.",
         "translation_bn": "স্যামুয়েল টেইলর কলরিজ ১৭৭২ সালে ডেভনশায়ারে জন্মগ্রহণ করেন। সেখান থেকে ৬ বছর বয়সে তিনি একটি 'ডেম' স্কুলে ভর্তি হন। যখন তার বয়স ৯ বছর তখন তাঁর বাবা মারা যান। ১০ বছর বয়সে লন্ডনের ক্রাইস্ট হাসপাতালের চ্যারিটি স্কুলে তাঁকে পাঠানো হয়। তিনি স্বভাবে হতাশাবাদী ছিলেন কিন্তু প্রচুর পড়াশোনা করতেন। তিনি ১৯ বছর বয়সে কেমব্রিজে একজন অবৈতনিক ছাত্র হিসেবে ভর্তি হওয়ার আগে একজন অধ্যাপকের চেয়ে বেশি বই পড়েছিলেন। তিনি প্রায় তিন বছর সেখানে ছিলেন। ১৭৯৪ সালে কোনো ডিগ্রি না নিয়েই তিনি কেমব্রিজ ত্যাগ করেন। 'দ্য রাইম অফ দি অ্যানশিয়েন্ট মেরিনার' কলরিজের প্রধান অবদান যা ১৭৯৮ সালে 'লিরিক্যাল ব্যালাডস'-এ প্রকাশিত হয়, এটি বিশ্বের শ্রেষ্ঠ সাহিত্যকর্মগুলোর একটি। তাঁর সংগৃহীত 'লেকচারস অন শেক্সপিয়ার' ১৮৪৯ সালে প্রকাশিত হয়। 'এইডস টু রিকালেকশন' ১৮২৫ সালে প্রকাশিত হয়। কলরিজ ১৮৩৪ সালে মারা যান এবং হাইগেটের সেন্ট মাইকেলস চার্চে সমাহিত হন।",
         "vocabulary": [
-          { "word": "charity", "pos": "n", "meaning_bn": "দানশীলতা", "meaning_en": "generous help for the needy", "synonym": "benevolence", "antonym": "selfishness" },
-          { "word": "pessimistic", "pos": "adj", "meaning_bn": "হতাশাবাদী", "meaning_en": "tending to see the worst aspect", "synonym": "hopeless", "antonym": "optimistic" },
-          { "word": "dame school", "pos": "phr", "meaning_bn": "গৃহভিত্তিক প্রাথমিক বিদ্যালয়", "meaning_en": "a home-based primary school", "synonym": "home school", "antonym": "" },
-          { "word": "masterpiece", "pos": "n", "meaning_bn": "শ্রেষ্ঠ কর্ম", "meaning_en": "an outstanding work of art", "synonym": "great work", "antonym": "poor work" },
-          { "word": "remain", "pos": "v", "meaning_bn": "থাকা", "meaning_en": "stay in the same place", "synonym": "stay", "antonym": "leave" }
+          {
+            "word": "charity",
+            "pos": "n",
+            "meaning_bn": "দানশীলতা",
+            "meaning_en": "generous help for the needy",
+            "synonym": "benevolence",
+            "antonym": "selfishness"
+          },
+          {
+            "word": "pessimistic",
+            "pos": "adj",
+            "meaning_bn": "হতাশাবাদী",
+            "meaning_en": "tending to see the worst aspect",
+            "synonym": "hopeless",
+            "antonym": "optimistic"
+          },
+          {
+            "word": "dame school",
+            "pos": "phr",
+            "meaning_bn": "গৃহভিত্তিক প্রাথমিক বিদ্যালয়",
+            "meaning_en": "a home-based primary school",
+            "synonym": "home school",
+            "antonym": ""
+          },
+          {
+            "word": "masterpiece",
+            "pos": "n",
+            "meaning_bn": "শ্রেষ্ঠ কর্ম",
+            "meaning_en": "an outstanding work of art",
+            "synonym": "great work",
+            "antonym": "poor work"
+          },
+          {
+            "word": "remain",
+            "pos": "v",
+            "meaning_bn": "থাকা",
+            "meaning_en": "stay in the same place",
+            "synonym": "stay",
+            "antonym": "leave"
+          }
         ],
         "mcqQuestions": [
           {
             "id": "5i",
             "question": "In which year did Coleridge join the charity school of Christ's Hospital?",
-            "options": ["1772", "1778", "1782", "1791"],
+            "options": [
+              "1772",
+              "1778",
+              "1782",
+              "1791"
+            ],
             "correct": 2,
             "explanation_bn": "কলরিজ ১০ বছর বয়সে ১৭৮২ সালে ক্রাইস্ট হাসপাতালের চ্যারিটি স্কুলে ভর্তি হন।",
             "explanation_en": "Coleridge joined the charity school of Christ's Hospital at age 10 in 1782."
@@ -270,7 +552,12 @@
           {
             "id": "5ii",
             "question": "What did Coleridge do at the age of 6?",
-            "options": ["Joined Cambridge", "Attended a 'dame' school", "Lost his father", "Published his first poem"],
+            "options": [
+              "Joined Cambridge",
+              "Attended a 'dame' school",
+              "Lost his father",
+              "Published his first poem"
+            ],
             "correct": 1,
             "explanation_bn": "৬ বছর বয়সে তিনি একটি 'ডেম' স্কুলে পড়াশোনা করেন।",
             "explanation_en": "At age 6, he attended a 'dame' school."
@@ -278,7 +565,12 @@
           {
             "id": "5iii",
             "question": "At what age did Coleridge publish his best writing 'The Rime of the Ancient Mariner'?",
-            "options": ["19", "22", "26", "32"],
+            "options": [
+              "19",
+              "22",
+              "26",
+              "32"
+            ],
             "correct": 2,
             "explanation_bn": "১৭৯৮ সালে ২৬ বছর বয়সে তাঁর শ্রেষ্ঠ লেখা প্রকাশিত হয়।",
             "explanation_en": "His best writing was published in 1798 at the age of 26."
@@ -286,7 +578,12 @@
           {
             "id": "5iv",
             "question": "What did Coleridge do in 1791?",
-            "options": ["Left Cambridge", "Joined Cambridge as a charity student", "Published 'Lyrical Ballads'", "Started a 'dame' school"],
+            "options": [
+              "Left Cambridge",
+              "Joined Cambridge as a charity student",
+              "Published 'Lyrical Ballads'",
+              "Started a 'dame' school"
+            ],
             "correct": 1,
             "explanation_bn": "১৭৯১ সালে ১৯ বছর বয়সে তিনি কেমব্রিজে একজন অবৈতনিক ছাত্র হিসেবে ভর্তি হন।",
             "explanation_en": "In 1791, Coleridge joined Cambridge as a charity student."
@@ -294,7 +591,12 @@
           {
             "id": "5v",
             "question": "How long did Coleridge stay at Cambridge?",
-            "options": ["1791 to 1794", "1772 to 1794", "1782 to 1791", "1794 to 1798"],
+            "options": [
+              "1791 to 1794",
+              "1772 to 1794",
+              "1782 to 1791",
+              "1794 to 1798"
+            ],
             "correct": 0,
             "explanation_bn": "কলরিজ ১৭৯১ থেকে ১৭৯৪ সাল পর্যন্ত কেমব্রিজে অবস্থান করেন।",
             "explanation_en": "Coleridge stayed at Cambridge from 1791 to 1794."
@@ -304,7 +606,12 @@
           {
             "id": "6a",
             "question": "Samuel Taylor Coleridge started his education from a charity school.",
-            "options": ["True", "False. He started from a 'dame' school.", "False. He never went to school.", "False. He started from Cambridge."],
+            "options": [
+              "True",
+              "False. He started from a 'dame' school.",
+              "False. He never went to school.",
+              "False. He started from Cambridge."
+            ],
             "correct": 1,
             "explanation_bn": "কলরিজ একটি 'ডেম' স্কুলে তাঁর শিক্ষা শুরু করেন, চ্যারিটি স্কুলে নয়।",
             "explanation_en": "Coleridge started his education at a 'dame' school, not a charity school."
@@ -312,7 +619,12 @@
           {
             "id": "6b",
             "question": "Coleridge was an optimistic person.",
-            "options": ["True", "False. He was a pessimistic person.", "False. He was a cheerful person.", "Not mentioned"],
+            "options": [
+              "True",
+              "False. He was a pessimistic person.",
+              "False. He was a cheerful person.",
+              "Not mentioned"
+            ],
             "correct": 1,
             "explanation_bn": "কলরিজ স্বভাবে হতাশাবাদী (pessimistic) ছিলেন।",
             "explanation_en": "Coleridge was a pessimistic person."
@@ -320,7 +632,12 @@
           {
             "id": "6c",
             "question": "Coleridge had read more books than a professor before entering Cambridge.",
-            "options": ["True", "False. He read fewer books.", "False. He read only textbooks.", "Not mentioned"],
+            "options": [
+              "True",
+              "False. He read fewer books.",
+              "False. He read only textbooks.",
+              "Not mentioned"
+            ],
             "correct": 0,
             "explanation_bn": "কেমব্রিজে ভর্তির আগে তিনি একজন অধ্যাপকের চেয়ে বেশি বই পড়েছিলেন।",
             "explanation_en": "He had read more books than a professor before entering Cambridge."
@@ -328,7 +645,12 @@
           {
             "id": "6d",
             "question": "Coleridge studied at Cambridge University but left it without any degree.",
-            "options": ["True", "False. He earned a degree.", "False. He never joined Cambridge.", "False. He graduated with honours."],
+            "options": [
+              "True",
+              "False. He earned a degree.",
+              "False. He never joined Cambridge.",
+              "False. He graduated with honours."
+            ],
             "correct": 0,
             "explanation_bn": "কলরিজ ১৭৯৪ সালে কোনো ডিগ্রি ছাড়াই কেমব্রিজ ত্যাগ করেন।",
             "explanation_en": "Coleridge left Cambridge in 1794 without taking any degree."
@@ -336,7 +658,12 @@
           {
             "id": "6e",
             "question": "'Lectures on Shakespeare' was the chief contribution of Coleridge.",
-            "options": ["True", "False. 'The Rime of the Ancient Mariner' was his chief contribution.", "False. He wrote no books.", "False. 'Aids to Recollection' was his chief contribution."],
+            "options": [
+              "True",
+              "False. 'The Rime of the Ancient Mariner' was his chief contribution.",
+              "False. He wrote no books.",
+              "False. 'Aids to Recollection' was his chief contribution."
+            ],
             "correct": 1,
             "explanation_bn": "কলরিজের প্রধান অবদান হলো 'The Rime of the Ancient Mariner'।",
             "explanation_en": "'The Rime of the Ancient Mariner' was Coleridge's chief contribution."
@@ -372,31 +699,46 @@
           "valid_sentences": [
             {
               "sentence": "Hason Raja was born in 1854 in a wealthy landlord's family in Sylhet.",
-              "combination": ["Hason Raja was", "born in 1854 in a wealthy landlord's family in Sylhet."],
+              "combination": [
+                "Hason Raja was",
+                "born in 1854 in a wealthy landlord's family in Sylhet."
+              ],
               "explanation_en": "This introduces Hason Raja's birth and family background.",
               "explanation_bn": "এটি হাসন রাজার জন্ম ও পারিবারিক পটভূমি পরিচয় করিয়ে দেয়।"
             },
             {
               "sentence": "He did not receive much formal education.",
-              "combination": ["He did not", "receive much formal education."],
+              "combination": [
+                "He did not",
+                "receive much formal education."
+              ],
               "explanation_en": "This shows his lack of formal education.",
               "explanation_bn": "এটি তার প্রাতিষ্ঠানিক শিক্ষার অভাব দেখায়।"
             },
             {
               "sentence": "In his youth, he led a life of luxury.",
-              "combination": ["In his youth, he led", "a life of luxury."],
+              "combination": [
+                "In his youth, he led",
+                "a life of luxury."
+              ],
               "explanation_en": "This describes his youthful lifestyle.",
               "explanation_bn": "এটি তার যৌবনের বিলাসবহুল জীবনযাত্রা বর্ণনা করে।"
             },
             {
               "sentence": "He did not lack anything - money, comfort, pleasure.",
-              "combination": ["He did not", "lack anything - money, comfort, pleasure."],
+              "combination": [
+                "He did not",
+                "lack anything - money, comfort, pleasure."
+              ],
               "explanation_en": "This shows he had everything he wanted.",
               "explanation_bn": "এটি দেখায় তার যা প্রয়োজন তার সবকিছু ছিল।"
             },
             {
               "sentence": "But gradually, he started to find all these comforts and joys meaningless.",
-              "combination": ["But gradually, he started", "to find all these comforts and joys meaningless."],
+              "combination": [
+                "But gradually, he started",
+                "to find all these comforts and joys meaningless."
+              ],
               "explanation_en": "This shows his changing perspective on life.",
               "explanation_bn": "এটি জীবনের প্রতি তার পরিবর্তিত দৃষ্টিভঙ্গি দেখায়।"
             }
@@ -410,16 +752,49 @@
       "type": "rearrangement",
       "content": {
         "sentences": [
-          { "id": "a", "text": "So, they wanted to buy a new sheep skin for making a new coat." },
-          { "id": "b", "text": "So, he lived with his wife Martina in the hut of a farmer in the village." },
-          { "id": "c", "text": "It was winter season then." },
-          { "id": "d", "text": "Once there lived a poor cobbler named Simon." },
-          { "id": "e", "text": "They thought that they would be able to make a new leather coat with that money." },
-          { "id": "f", "text": "They had only one leather coat to wear." },
-          { "id": "g", "text": "His wife had managed to save three rubles and the villagers owed him another five." },
-          { "id": "h", "text": "He did not have a house of his own to live in." }
+          {
+            "id": "a",
+            "text": "So, they wanted to buy a new sheep skin for making a new coat."
+          },
+          {
+            "id": "b",
+            "text": "So, he lived with his wife Martina in the hut of a farmer in the village."
+          },
+          {
+            "id": "c",
+            "text": "It was winter season then."
+          },
+          {
+            "id": "d",
+            "text": "Once there lived a poor cobbler named Simon."
+          },
+          {
+            "id": "e",
+            "text": "They thought that they would be able to make a new leather coat with that money."
+          },
+          {
+            "id": "f",
+            "text": "They had only one leather coat to wear."
+          },
+          {
+            "id": "g",
+            "text": "His wife had managed to save three rubles and the villagers owed him another five."
+          },
+          {
+            "id": "h",
+            "text": "He did not have a house of his own to live in."
+          }
         ],
-        "correctOrder": ["d", "h", "b", "c", "f", "a", "g", "e"],
+        "correctOrder": [
+          "d",
+          "h",
+          "b",
+          "c",
+          "f",
+          "a",
+          "g",
+          "e"
+        ],
         "reconstructedParagraph": "Once there lived a poor cobbler named Simon. He did not have a house of his own to live in. So, he lived with his wife Martina in the hut of a farmer in the village. It was winter season then. They had only one leather coat to wear. So, they wanted to buy a new sheep skin for making a new coat. His wife had managed to save three rubles and the villagers owed him another five. They thought that they would be able to make a new leather coat with that money."
       }
     },
@@ -432,7 +807,12 @@
           {
             "id": "10a",
             "question": "Whom did the speaker ask the same question repeatedly in the poem 'Whose Child Is This?'?",
-            "options": ["The parent only", "The teacher only", "The parent and the teacher", "The child"],
+            "options": [
+              "The parent only",
+              "The teacher only",
+              "The parent and the teacher",
+              "The child"
+            ],
             "correct": 2,
             "explanation_bn": "বক্তা শিশুটির পিতামাতা এবং শিক্ষক উভয়কেই বারবার প্রশ্নটি করেছেন।",
             "explanation_en": "The speaker asked the child's parent and teacher the same question repeatedly."
@@ -440,7 +820,12 @@
           {
             "id": "10b",
             "question": "In the poem 'Whose Child Is This?', what was the child doing when the speaker saw him first?",
-            "options": ["Sleeping", "Playing", "Crying", "Studying"],
+            "options": [
+              "Sleeping",
+              "Playing",
+              "Crying",
+              "Studying"
+            ],
             "correct": 1,
             "explanation_bn": "বক্তা প্রথম শিশুটিকে খেলতে দেখেছিলেন।",
             "explanation_en": "The child was playing when the speaker saw him first."
@@ -448,7 +833,12 @@
           {
             "id": "10c",
             "question": "According to the poem 'Whose Child Is This?', how long do the parent and the teacher keep the child?",
-            "options": ["For a long period of time", "For a short period of time", "Forever", "Only during school hours"],
+            "options": [
+              "For a long period of time",
+              "For a short period of time",
+              "Forever",
+              "Only during school hours"
+            ],
             "correct": 1,
             "explanation_bn": "পিতামাতা এবং শিক্ষক উভয়েই শিশুটিকে অল্প সময়ের জন্য রাখেন।",
             "explanation_en": "Both the parent and the teacher keep the child for a short period of time."
@@ -456,7 +846,12 @@
           {
             "id": "10d",
             "question": "What is the poem 'Leisure' about?",
-            "options": ["The beauty of the ocean", "The availability of time for enjoying various aspects of life", "The life of a farmer", "The importance of work"],
+            "options": [
+              "The beauty of the ocean",
+              "The availability of time for enjoying various aspects of life",
+              "The life of a farmer",
+              "The importance of work"
+            ],
             "correct": 1,
             "explanation_bn": "'Leisure' কবিতাটি জীবনের বিভিন্ন দিক উপভোগ করার সময়ের প্রাপ্যতা নিয়ে।",
             "explanation_en": "The poem 'Leisure' is about the availability of time for enjoying various aspects of life."
@@ -464,7 +859,12 @@
           {
             "id": "10e",
             "question": "According to the poem 'Leisure', what would we see if we had time to stare?",
-            "options": ["Only the sky", "The beauty of nature such as squirrels hiding nuts and streams full of stars", "Only the city buildings", "Nothing special"],
+            "options": [
+              "Only the sky",
+              "The beauty of nature such as squirrels hiding nuts and streams full of stars",
+              "Only the city buildings",
+              "Nothing special"
+            ],
             "correct": 1,
             "explanation_bn": "সময় পেলে আমরা প্রকৃতির সৌন্দর্য দেখতে পেতাম, যেমন কাঠবিড়ালি বাদাম লুকায় এবং স্রোত তারা পূর্ণ থাকে।",
             "explanation_en": "We would see the beauty of nature such as squirrels hiding nuts and streams full of stars."
@@ -472,7 +872,12 @@
           {
             "id": "10f",
             "question": "In the poem 'Leisure', what does the expression 'to stand and stare' indicate?",
-            "options": ["To run quickly", "To take time to pause and enjoy the beauty of nature", "To work hard", "To sleep"],
+            "options": [
+              "To run quickly",
+              "To take time to pause and enjoy the beauty of nature",
+              "To work hard",
+              "To sleep"
+            ],
             "correct": 1,
             "explanation_bn": "'To stand and stare' অর্থ থামা এবং প্রকৃতির সৌন্দর্য উপভোগ করা।",
             "explanation_en": "'To stand and stare' means to take time to pause and enjoy the beauty of nature."
@@ -480,7 +885,12 @@
           {
             "id": "10g",
             "question": "In the poem 'From a Railway Carriage', why is the cart described as 'lumping along'?",
-            "options": ["Because it is empty", "Because it has become heavy with man and load, moving slowly", "Because it is broken", "Because it is going downhill"],
+            "options": [
+              "Because it is empty",
+              "Because it has become heavy with man and load, moving slowly",
+              "Because it is broken",
+              "Because it is going downhill"
+            ],
             "correct": 1,
             "explanation_bn": "গাড়িটি মানুষ ও বোঝায় ভারী হয়ে ধীরে চলছে বলে 'lumping along' বলা হয়েছে।",
             "explanation_en": "The cart is 'lumping along' because it is heavy with man and load, moving slowly."
@@ -488,7 +898,12 @@
           {
             "id": "10h",
             "question": "Why does the poet compare the train to the troops in a battle in the poem 'From a Railway Carriage'?",
-            "options": ["Because the train is fighting", "To show how fast the train is moving", "Because the train has soldiers", "Because the train is dangerous"],
+            "options": [
+              "Because the train is fighting",
+              "To show how fast the train is moving",
+              "Because the train has soldiers",
+              "Because the train is dangerous"
+            ],
             "correct": 1,
             "explanation_bn": "কবি ট্রেনের দ্রুতগতি বোঝাতে ট্রেনকে যুদ্ধে সৈন্যদের সাথে তুলনা করেছেন।",
             "explanation_en": "The poet compares the train to troops in a battle to show how fast the train is moving."

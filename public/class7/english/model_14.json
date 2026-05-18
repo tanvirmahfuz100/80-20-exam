@@ -8,24 +8,92 @@
       "name": "Passage & Comprehension",
       "type": "passage_mcq",
       "content": {
-        "passage": "Begum Rokeya (1880-1932) was a famous writer and a social worker. She lived in undivided Bengal in the early 20th century. She believed that women should have the same rights and opportunities as men have in the society. So, she fought for their cause throughout her life. Begum Rokeya was born in a village called Pairabondh, Rangpur in 1880. Her father Jahiruddin Muhammad Abu Ali Haider Saber was an educated landlord. Rokeya was married to Syed Sakhawat Hussain in 1897. Her husband was the Deputy Magistrate of Bhagalpur, now a district in the Indian state of Bihar. He was very cooperative, and always encouraged Rokeya to go on with her activities. Many upper-class Muslims of Bengal at that time learnt Arabic and Persian as a medium of education and communication. But Rokeya had great love for her mother tongue. She learnt Bangla and English from her eldest brother Ibrahim.",
+        "passage": "Begum Rokeya (1880-1932) was a famous writer and a social worker. She lived in undivided Bengal in the early 20th century. She believed that women should have the same rights and opportunities as men have in the society.\n\nSo, she fought for their cause throughout her life. Begum Rokeya was born in a village called Pairabondh, Rangpur in 1880. Her father Jahiruddin Muhammad Abu Ali Haider Saber was an educated landlord.\n\nRokeya was married to Syed Sakhawat Hussain in 1897. Her husband was the Deputy Magistrate of Bhagalpur, now a district in the Indian state of Bihar. He was very cooperative, and always encouraged Rokeya to go on with her activities.\n\nMany upper-class Muslims of Bengal at that time learnt Arabic and Persian as a medium of education and communication. But Rokeya had great love for her mother tongue. She learnt Bangla and English from her eldest brother Ibrahim.",
         "translation_bn": "বেগম রোকেয়া (১৮৮০-১৯৩২) একজন খ্যাতনামা লেখিকা এবং সমাজকর্মী ছিলেন। তিনি বিংশ শতাব্দীর শুরুতে অবিভক্ত বাংলায় বাস করতেন। তিনি বিশ্বাস করতেন যে, সমাজে পুরুষের ন্যায় নারীদেরও সমান অধিকার ও সুযোগ থাকা উচিত। তাই তিনি জীবনভর তাদের জন্য সংগ্রাম করেছেন। বেগম রোকেয়া ১৮৮০ সালে রংপুর জেলার পায়রাবন্দ নামক গ্রামে জন্মগ্রহণ করেন। তাঁর পিতা জহিরুদ্দিন মোহাম্মদ আবু আলী হায়দার সাবের ছিলেন একজন শিক্ষিত জমিদার। ১৮৯৭ সালে রোকেয়া সৈয়দ সাখাওয়াত হোসেনের সঙ্গে বিবাহবন্ধনে আবদ্ধ হন। তাঁর স্বামী ছিলেন ভাগলপুরের ডেপুটি ম্যাজিস্ট্রেট, এখন এটি ভারতীয় প্রদেশ বিহারের একটি জেলা। তিনি অত্যন্ত সহযোগী মনোভাবসম্পন্ন ছিলেন এবং সবসময় রোকেয়াকে তাঁর কার্যক্রম চালিয়ে যাওয়ার অনুপ্রেরণা দিতেন। বাংলার অনেক উচ্চবিত্ত মুসলমান তৎকালীন সময়ে শিক্ষা এবং যোগাযোগের মাধ্যম হিসেবে আরবি এবং ফারসি ভাষা শিখতেন। কিন্তু মাতৃভাষার প্রতি ছিল রোকেয়ার অগাধ ভালোবাসা। তিনি তাঁর বড় ভাই ইব্রাহিমের কাছ থেকে বাংলা এবং ইংরেজি শিখেছিলেন।",
         "vocabulary": [
-          { "word": "century", "pos": "n", "meaning_en": "a period of a hundred consecutive years", "meaning_bn": "শতাব্দী", "synonym": "a hundred years", "antonym": "" },
-          { "word": "communication", "pos": "n", "meaning_en": "the exchange of information", "meaning_bn": "যোগাযোগ", "synonym": "contact", "antonym": "silence" },
-          { "word": "cooperative", "pos": "adj", "meaning_en": "willing to assist or give aid", "meaning_bn": "সহযোগিতা করে এমন", "synonym": "supportive, helpful", "antonym": "unsupportive" },
-          { "word": "educated", "pos": "adj", "meaning_en": "having knowledge", "meaning_bn": "শিক্ষিত", "synonym": "learned, knowledgeable", "antonym": "uneducated" },
-          { "word": "encourage", "pos": "v", "meaning_en": "to give support, hope", "meaning_bn": "অনুপ্রাণিত করা", "synonym": "inspire", "antonym": "discourage" },
-          { "word": "landlord", "pos": "n", "meaning_en": "the owner of huge lands", "meaning_bn": "জমিদার", "synonym": "proprietor", "antonym": "tenant" },
-          { "word": "medium", "pos": "n", "meaning_en": "any means of doing something", "meaning_bn": "মাধ্যম", "synonym": "mode", "antonym": "" },
-          { "word": "opportunity", "pos": "n", "meaning_en": "a circumstance to do something", "meaning_bn": "সুযোগ", "synonym": "chance, luck", "antonym": "" },
-          { "word": "undivided", "pos": "adj", "meaning_en": "not divided", "meaning_bn": "অবিভক্ত", "synonym": "united", "antonym": "divided" }
+          {
+            "word": "century",
+            "pos": "n",
+            "meaning_en": "a period of a hundred consecutive years",
+            "meaning_bn": "শতাব্দী",
+            "synonym": "a hundred years",
+            "antonym": ""
+          },
+          {
+            "word": "communication",
+            "pos": "n",
+            "meaning_en": "the exchange of information",
+            "meaning_bn": "যোগাযোগ",
+            "synonym": "contact",
+            "antonym": "silence"
+          },
+          {
+            "word": "cooperative",
+            "pos": "adj",
+            "meaning_en": "willing to assist or give aid",
+            "meaning_bn": "সহযোগিতা করে এমন",
+            "synonym": "supportive, helpful",
+            "antonym": "unsupportive"
+          },
+          {
+            "word": "educated",
+            "pos": "adj",
+            "meaning_en": "having knowledge",
+            "meaning_bn": "শিক্ষিত",
+            "synonym": "learned, knowledgeable",
+            "antonym": "uneducated"
+          },
+          {
+            "word": "encourage",
+            "pos": "v",
+            "meaning_en": "to give support, hope",
+            "meaning_bn": "অনুপ্রাণিত করা",
+            "synonym": "inspire",
+            "antonym": "discourage"
+          },
+          {
+            "word": "landlord",
+            "pos": "n",
+            "meaning_en": "the owner of huge lands",
+            "meaning_bn": "জমিদার",
+            "synonym": "proprietor",
+            "antonym": "tenant"
+          },
+          {
+            "word": "medium",
+            "pos": "n",
+            "meaning_en": "any means of doing something",
+            "meaning_bn": "মাধ্যম",
+            "synonym": "mode",
+            "antonym": ""
+          },
+          {
+            "word": "opportunity",
+            "pos": "n",
+            "meaning_en": "a circumstance to do something",
+            "meaning_bn": "সুযোগ",
+            "synonym": "chance, luck",
+            "antonym": ""
+          },
+          {
+            "word": "undivided",
+            "pos": "adj",
+            "meaning_en": "not divided",
+            "meaning_bn": "অবিভক্ত",
+            "synonym": "united",
+            "antonym": "divided"
+          }
         ],
         "questions": [
           {
             "id": "1i",
             "question": "Which of the followings is not true about Begum Rokeya?",
-            "options": ["conservative", "literate", "feminist", "reformer"],
+            "options": [
+              "conservative",
+              "literate",
+              "feminist",
+              "reformer"
+            ],
             "correct": 0,
             "explanation_bn": "বেগম রোকেয়া রক্ষণশীল ছিলেন না বরং তিনি নারী শিক্ষা ও অধিকারের জন্য সংগ্রাম করেছেন।",
             "explanation_en": "Begum Rokeya was not conservative; she fought for women's education and rights."
@@ -33,7 +101,12 @@
           {
             "id": "1ii",
             "question": "Which of the following persons is Begum Rokeya's sibling?",
-            "options": ["Muhammad Abu Ali", "Haider Saber", "Sakhawat Hussain", "Ibrahim"],
+            "options": [
+              "Muhammad Abu Ali",
+              "Haider Saber",
+              "Sakhawat Hussain",
+              "Ibrahim"
+            ],
             "correct": 3,
             "explanation_bn": "ইব্রাহিম ছিলেন বেগম রোকেয়ার বড় ভাই।",
             "explanation_en": "Ibrahim was Begum Rokeya's eldest brother."
@@ -41,7 +114,12 @@
           {
             "id": "1iii",
             "question": "Begum Rokeya's husband was a/an ---",
-            "options": ["peasant", "administrator", "tenant", "social worker"],
+            "options": [
+              "peasant",
+              "administrator",
+              "tenant",
+              "social worker"
+            ],
             "correct": 1,
             "explanation_bn": "তাঁর স্বামী ছিলেন ভাগলপুরের ডেপুটি ম্যাজিস্ট্রেট, একজন প্রশাসক।",
             "explanation_en": "Her husband was the Deputy Magistrate of Bhagalpur, an administrator."
@@ -49,7 +127,12 @@
           {
             "id": "1iv",
             "question": "Begum Rokeya was born in a/an --- family",
-            "options": ["conservative", "landlord", "aristocratic", "poor"],
+            "options": [
+              "conservative",
+              "landlord",
+              "aristocratic",
+              "poor"
+            ],
             "correct": 1,
             "explanation_bn": "তিনি একজন শিক্ষিত জমিদার পরিবারে জন্মগ্রহণ করেন।",
             "explanation_en": "She was born into an educated landlord family."
@@ -57,7 +140,12 @@
           {
             "id": "1v",
             "question": "Begum Rokeya didn't know ---",
-            "options": ["Arabic", "French", "Persian", "English"],
+            "options": [
+              "Arabic",
+              "French",
+              "Persian",
+              "English"
+            ],
             "correct": 1,
             "explanation_bn": "বেগম রোকেয়া ফরাসি ভাষা জানতেন না।",
             "explanation_en": "Begum Rokeya did not know French."
@@ -65,7 +153,12 @@
           {
             "id": "1vi",
             "question": "Begum Rokeya was not in favour of ---",
-            "options": ["women's rights", "female education", "human rights", "gender discrimination"],
+            "options": [
+              "women's rights",
+              "female education",
+              "human rights",
+              "gender discrimination"
+            ],
             "correct": 3,
             "explanation_bn": "তিনি লিঙ্গ বৈষম্যের পক্ষে ছিলেন না, বরং নারীর অধিকারের পক্ষে ছিলেন।",
             "explanation_en": "She was not in favour of gender discrimination; she supported women's rights."
@@ -73,7 +166,12 @@
           {
             "id": "1vii",
             "question": "She fought for their cause throughout her life. What does this statement mean?",
-            "options": ["Rokeya fought for independence", "Rokeya fought for women's rights", "Rokeya had no cause for fighting", "Rokeya was a freedom fighter"],
+            "options": [
+              "Rokeya fought for independence",
+              "Rokeya fought for women's rights",
+              "Rokeya had no cause for fighting",
+              "Rokeya was a freedom fighter"
+            ],
             "correct": 1,
             "explanation_bn": "বেগম রোকেয়া সারা জীবন নারীদের অধিকারের জন্য সংগ্রাম করেছেন।",
             "explanation_en": "Begum Rokeya fought for women's rights throughout her life."
@@ -81,7 +179,12 @@
           {
             "id": "1viii",
             "question": "Rokeya's husband was --- to her.",
-            "options": ["disobliging", "supportive", "awkward", "obstinate"],
+            "options": [
+              "disobliging",
+              "supportive",
+              "awkward",
+              "obstinate"
+            ],
             "correct": 1,
             "explanation_bn": "তাঁর স্বামী সবসময় রোকেয়াকে তাঁর কার্যক্রম চালিয়ে যেতে সহযোগিতা ও উৎসাহ দিতেন।",
             "explanation_en": "Her husband was always cooperative and encouraged Rokeya to continue her activities."
@@ -89,7 +192,12 @@
           {
             "id": "1ix",
             "question": "She believed that women should have the same rights... Here 'rights' means ---",
-            "options": ["correct", "true", "accurate", "privileges"],
+            "options": [
+              "correct",
+              "true",
+              "accurate",
+              "privileges"
+            ],
             "correct": 3,
             "explanation_bn": "এখানে 'rights' অর্থ বিশেষ অধিকার বা সুযোগ-সুবিধা।",
             "explanation_en": "Here 'rights' means privileges or entitlements."
@@ -97,7 +205,12 @@
           {
             "id": "1x",
             "question": "So she fought for their cause throughout her life. What does 'fought' mean?",
-            "options": ["struggled", "combated", "contested", "clashed"],
+            "options": [
+              "struggled",
+              "combated",
+              "contested",
+              "clashed"
+            ],
             "correct": 0,
             "explanation_bn": "'Fought' অর্থ সংগ্রাম করা।",
             "explanation_en": "'Fought' means struggled."
@@ -105,7 +218,12 @@
           {
             "id": "1xi",
             "question": "He was very cooperative and... The word 'cooperative' means ---",
-            "options": ["accommodating", "supportive", "collective", "mutual"],
+            "options": [
+              "accommodating",
+              "supportive",
+              "collective",
+              "mutual"
+            ],
             "correct": 1,
             "explanation_bn": "'Cooperative' অর্থ সহযোগী।",
             "explanation_en": "'Cooperative' means supportive."
@@ -113,7 +231,12 @@
           {
             "id": "1xii",
             "question": "Begum Rokeya was born in the ---",
-            "options": ["18th Century", "19th Century", "20th Century", "early 20th Century"],
+            "options": [
+              "18th Century",
+              "19th Century",
+              "20th Century",
+              "early 20th Century"
+            ],
             "correct": 1,
             "explanation_bn": "বেগম রোকেয়া ১৮৮০ সালে জন্মগ্রহণ করেন, যা ১৯শ শতাব্দী।",
             "explanation_en": "Begum Rokeya was born in 1880, which is in the 19th century."
@@ -121,7 +244,12 @@
           {
             "id": "1xiii",
             "question": "Begum Rokeya was a famous writer and a social worker. Here 'famous' means ---",
-            "options": ["notorious", "mysterious", "unfamiliar", "renowned"],
+            "options": [
+              "notorious",
+              "mysterious",
+              "unfamiliar",
+              "renowned"
+            ],
             "correct": 3,
             "explanation_bn": "'Famous' অর্থ বিখ্যাত বা renowned।",
             "explanation_en": "'Famous' means renowned."
@@ -129,7 +257,12 @@
           {
             "id": "1xiv",
             "question": "She lived in undivided Bengal in the early 20th century. What does 'undivided' mean?",
-            "options": ["complete", "united", "partial", "divided"],
+            "options": [
+              "complete",
+              "united",
+              "partial",
+              "divided"
+            ],
             "correct": 1,
             "explanation_bn": "'Undivided' অর্থ অবিভক্ত বা একত্রিত।",
             "explanation_en": "'Undivided' means united or not divided."
@@ -137,7 +270,12 @@
           {
             "id": "1xv",
             "question": "What is the meaning of the word 'early'?",
-            "options": ["near the beginning", "late", "timely", "not on time"],
+            "options": [
+              "near the beginning",
+              "late",
+              "timely",
+              "not on time"
+            ],
             "correct": 0,
             "explanation_bn": "'Early' অর্থ শুরুর দিকে বা first part-এ।",
             "explanation_en": "'Early' means near the beginning."
@@ -145,7 +283,12 @@
           {
             "id": "2a",
             "question": "What did Begum Rokeya believe?",
-            "options": ["Women should stay at home", "Women should have the same rights and opportunities as men", "Women should not be educated", "Women should only learn Arabic"],
+            "options": [
+              "Women should stay at home",
+              "Women should have the same rights and opportunities as men",
+              "Women should not be educated",
+              "Women should only learn Arabic"
+            ],
             "correct": 1,
             "explanation_bn": "বেগম রোকেয়া বিশ্বাস করতেন নারীদেরও পুরুষের মতো সমান অধিকার ও সুযোগ থাকা উচিত।",
             "explanation_en": "Begum Rokeya believed that women should have the same rights and opportunities as men."
@@ -153,7 +296,12 @@
           {
             "id": "2b",
             "question": "Write about Begum Rokeya's language literacy.",
-            "options": ["She only knew Arabic", "She learnt Arabic, Persian, Bangla and English", "She only knew Bangla", "She knew French and English"],
+            "options": [
+              "She only knew Arabic",
+              "She learnt Arabic, Persian, Bangla and English",
+              "She only knew Bangla",
+              "She knew French and English"
+            ],
             "correct": 1,
             "explanation_bn": "তিনি আরবি, ফারসি, বাংলা ও ইংরেজি ভাষা জানতেন।",
             "explanation_en": "She knew Arabic, Persian, Bangla, and English."
@@ -161,7 +309,12 @@
           {
             "id": "2c",
             "question": "Who was Syed Sakhawat Hussain?",
-            "options": ["Begum Rokeya's brother", "Begum Rokeya's father", "Begum Rokeya's husband", "Begum Rokeya's teacher"],
+            "options": [
+              "Begum Rokeya's brother",
+              "Begum Rokeya's father",
+              "Begum Rokeya's husband",
+              "Begum Rokeya's teacher"
+            ],
             "correct": 2,
             "explanation_bn": "সৈয়দ সাখাওয়াত হোসেন ছিলেন বেগম রোকেয়ার স্বামী এবং ভাগলপুরের ডেপুটি ম্যাজিস্ট্রেট।",
             "explanation_en": "Syed Sakhawat Hussain was Begum Rokeya's husband and the Deputy Magistrate of Bhagalpur."
@@ -169,7 +322,12 @@
           {
             "id": "2d",
             "question": "What kind of family did Begum Rokeya come from?",
-            "options": ["A poor family", "An educated landlord family", "A royal family", "A business family"],
+            "options": [
+              "A poor family",
+              "An educated landlord family",
+              "A royal family",
+              "A business family"
+            ],
             "correct": 1,
             "explanation_bn": "তিনি একজন শিক্ষিত জমিদার পরিবার থেকে এসেছিলেন।",
             "explanation_en": "She came from an educated landlord family."
@@ -177,7 +335,12 @@
           {
             "id": "2e",
             "question": "Was her husband supportive of her work?",
-            "options": ["No, he was against it", "Yes, he was very cooperative and encouraged her", "He was indifferent", "He did not care"],
+            "options": [
+              "No, he was against it",
+              "Yes, he was very cooperative and encouraged her",
+              "He was indifferent",
+              "He did not care"
+            ],
             "correct": 1,
             "explanation_bn": "হ্যাঁ, তাঁর স্বামী অত্যন্ত সহযোগী ছিলেন এবং সবসময় তাঁকে উৎসাহিত করতেন।",
             "explanation_en": "Yes, her husband was very cooperative and always encouraged her."
@@ -193,51 +356,137 @@
         "gapFill": {
           "passage": "Riah could not still believe that there could be a (a) ______ without a shopkeeper. She talked about it with her relatives, (b) ______ and her teacher, Miss Nishat. Everybody was surprised. Miss Nishat (c) ______ about it to their Headteacher. He was quite positive to (d) ______ up such a shop. He formed a committee with Miss Nishat and some senior students to make a plan for opening a (e) ______ shop in their school.",
           "dialogPassage": "Dear Hridoy, Thank you for your letter of 1 May. It gives us such an exciting piece of news! I cannot still believe that there could be a shop without a shopkeeper. I talked about it with my relatives, friends, classmates and, of course, my teacher, Miss Nishat. Everybody was surprised. Miss Nishat liked the idea so much that she immediately talked about it to our Headteacher. We had a meeting in our school with teachers and students. At the beginning of the meeting, the Headteacher asked me to talk about the Morality Shop in your school. At first I read out part of your letter and then I explained how such a shop in your school is greatly helping you - the students, teachers and the community at large. The Headteacher was quite positive about the usefulness of such a shop. He formed a committee with Miss Nishat and two other teachers and some senior students to draw up a plan for opening a morality shop in our school. Isn't it great? You will be glad to know that I am on the committee too. All the best. I'm coming to see your Morality Shop with a friend of mine next weekend. See you then. Give my regards to Aunt and Uncle. - Riah",
-          "boxWords": ["shop", "classmates", "talked", "set", "morality", "shopkeeper", "relatives", "teacher", "committee", "plan"],
+          "boxWords": [
+            "shop",
+            "classmates",
+            "talked",
+            "set",
+            "morality",
+            "shopkeeper",
+            "relatives",
+            "teacher",
+            "committee",
+            "plan"
+          ],
           "blanks": [
             {
               "blankId": "a",
               "correct": "shop",
               "options": [
-                { "text": "shop", "isCorrect": true, "explanationBn": "Riah একটি দোকানের কথা বলছে যেখানে দোকানি নেই।", "explanationEn": "Riah is talking about a shop without a shopkeeper." },
-                { "text": "shopkeeper", "isCorrect": false, "explanationBn": "এটি দোকানিকে বোঝায়, দোকানকে নয়।", "explanationEn": "This refers to a shopkeeper, not the shop." },
-                { "text": "school", "isCorrect": false, "explanationBn": "এটি বিদ্যালয়, দোকান নয়।", "explanationEn": "This is a school, not a shop." }
+                {
+                  "text": "shop",
+                  "isCorrect": true,
+                  "explanationBn": "Riah একটি দোকানের কথা বলছে যেখানে দোকানি নেই।",
+                  "explanationEn": "Riah is talking about a shop without a shopkeeper."
+                },
+                {
+                  "text": "shopkeeper",
+                  "isCorrect": false,
+                  "explanationBn": "এটি দোকানিকে বোঝায়, দোকানকে নয়।",
+                  "explanationEn": "This refers to a shopkeeper, not the shop."
+                },
+                {
+                  "text": "school",
+                  "isCorrect": false,
+                  "explanationBn": "এটি বিদ্যালয়, দোকান নয়।",
+                  "explanationEn": "This is a school, not a shop."
+                }
               ]
             },
             {
               "blankId": "b",
               "correct": "classmates",
               "options": [
-                { "text": "classmates", "isCorrect": true, "explanationBn": "Riah তার সহপাঠীদের সাথে বিষয়টি নিয়ে আলোচনা করেছিল।", "explanationEn": "Riah discussed it with her classmates." },
-                { "text": "relatives", "isCorrect": false, "explanationBn": "এটি 'classmates'-এর পরিবর্তে অন্য শব্দ।", "explanationEn": "This substitutes 'classmates' with a different word." },
-                { "text": "teachers", "isCorrect": false, "explanationBn": "এখানে সহপাঠীদের কথা বলা হয়েছে, শিক্ষকদের নয়।", "explanationEn": "This refers to classmates, not teachers." }
+                {
+                  "text": "classmates",
+                  "isCorrect": true,
+                  "explanationBn": "Riah তার সহপাঠীদের সাথে বিষয়টি নিয়ে আলোচনা করেছিল।",
+                  "explanationEn": "Riah discussed it with her classmates."
+                },
+                {
+                  "text": "relatives",
+                  "isCorrect": false,
+                  "explanationBn": "এটি 'classmates'-এর পরিবর্তে অন্য শব্দ।",
+                  "explanationEn": "This substitutes 'classmates' with a different word."
+                },
+                {
+                  "text": "teachers",
+                  "isCorrect": false,
+                  "explanationBn": "এখানে সহপাঠীদের কথা বলা হয়েছে, শিক্ষকদের নয়।",
+                  "explanationEn": "This refers to classmates, not teachers."
+                }
               ]
             },
             {
               "blankId": "c",
               "correct": "talked",
               "options": [
-                { "text": "talked", "isCorrect": true, "explanationBn": "মিস নিশাত প্রধান শিক্ষকের সাথে বিষয়টি নিয়ে কথা বলেছিলেন।", "explanationEn": "Miss Nishat talked about it to the Headteacher." },
-                { "text": "whispered", "isCorrect": false, "explanationBn": "তিনি ফিসফিস করে নন, বরং কথা বলেছিলেন।", "explanationEn": "She talked, not whispered." },
-                { "text": "asked", "isCorrect": false, "explanationBn": "তিনি জিজ্ঞাসা করেননি, বরং জানিয়েছিলেন।", "explanationEn": "She informed, not asked." }
+                {
+                  "text": "talked",
+                  "isCorrect": true,
+                  "explanationBn": "মিস নিশাত প্রধান শিক্ষকের সাথে বিষয়টি নিয়ে কথা বলেছিলেন।",
+                  "explanationEn": "Miss Nishat talked about it to the Headteacher."
+                },
+                {
+                  "text": "whispered",
+                  "isCorrect": false,
+                  "explanationBn": "তিনি ফিসফিস করে নন, বরং কথা বলেছিলেন।",
+                  "explanationEn": "She talked, not whispered."
+                },
+                {
+                  "text": "asked",
+                  "isCorrect": false,
+                  "explanationBn": "তিনি জিজ্ঞাসা করেননি, বরং জানিয়েছিলেন।",
+                  "explanationEn": "She informed, not asked."
+                }
               ]
             },
             {
               "blankId": "d",
               "correct": "set",
               "options": [
-                { "text": "set", "isCorrect": true, "explanationBn": "তিনি এই ধরনের দোকান স্থাপনে ইতিবাচক ছিলেন।", "explanationEn": "He was positive about setting up such a shop." },
-                { "text": "make", "isCorrect": false, "explanationBn": "'Set up' অর্থ প্রতিষ্ঠা করা।", "explanationEn": "'Set up' means to establish." },
-                { "text": "give", "isCorrect": false, "explanationBn": "এটি উপযুক্ত নয়।", "explanationEn": "This is not appropriate." }
+                {
+                  "text": "set",
+                  "isCorrect": true,
+                  "explanationBn": "তিনি এই ধরনের দোকান স্থাপনে ইতিবাচক ছিলেন।",
+                  "explanationEn": "He was positive about setting up such a shop."
+                },
+                {
+                  "text": "make",
+                  "isCorrect": false,
+                  "explanationBn": "'Set up' অর্থ প্রতিষ্ঠা করা।",
+                  "explanationEn": "'Set up' means to establish."
+                },
+                {
+                  "text": "give",
+                  "isCorrect": false,
+                  "explanationBn": "এটি উপযুক্ত নয়।",
+                  "explanationEn": "This is not appropriate."
+                }
               ]
             },
             {
               "blankId": "e",
               "correct": "morality",
               "options": [
-                { "text": "morality", "isCorrect": true, "explanationBn": "এটি একটি নৈতিকতার দোকান স্থাপনের পরিকল্পনা।", "explanationEn": "It is a plan for opening a morality shop." },
-                { "text": "book", "isCorrect": false, "explanationBn": "এটি নৈতিকতার দোকান, বইয়ের দোকান নয়।", "explanationEn": "It is a morality shop, not a bookshop." },
-                { "text": "stationery", "isCorrect": false, "explanationBn": "এটি নৈতিকতার দোকান, স্টেশনারি দোকান নয়।", "explanationEn": "It is a morality shop, not a stationery shop." }
+                {
+                  "text": "morality",
+                  "isCorrect": true,
+                  "explanationBn": "এটি একটি নৈতিকতার দোকান স্থাপনের পরিকল্পনা।",
+                  "explanationEn": "It is a plan for opening a morality shop."
+                },
+                {
+                  "text": "book",
+                  "isCorrect": false,
+                  "explanationBn": "এটি নৈতিকতার দোকান, বইয়ের দোকান নয়।",
+                  "explanationEn": "It is a morality shop, not a bookshop."
+                },
+                {
+                  "text": "stationery",
+                  "isCorrect": false,
+                  "explanationBn": "এটি নৈতিকতার দোকান, স্টেশনারি দোকান নয়।",
+                  "explanationEn": "It is a morality shop, not a stationery shop."
+                }
               ]
             }
           ]
@@ -246,7 +495,12 @@
           {
             "id": "4a",
             "question": "What is the antonym of 'immediately'?",
-            "options": ["later/afterward", "soon", "quickly", "instantly"],
+            "options": [
+              "later/afterward",
+              "soon",
+              "quickly",
+              "instantly"
+            ],
             "correct": 0,
             "explanation_bn": "'Immediately'-এর বিপরীত শব্দ 'later' বা 'afterward' (পরে)।",
             "explanation_en": "The antonym of 'immediately' is 'later' or 'afterward'."
@@ -254,7 +508,12 @@
           {
             "id": "4b",
             "question": "What is the synonym of 'exciting'?",
-            "options": ["boring", "inspiring/thrilling", "dull", "ordinary"],
+            "options": [
+              "boring",
+              "inspiring/thrilling",
+              "dull",
+              "ordinary"
+            ],
             "correct": 1,
             "explanation_bn": "'Exciting'-এর সমার্থক শব্দ 'inspiring' বা 'thrilling' (উত্তেজনাপূর্ণ)।",
             "explanation_en": "The synonym of 'exciting' is 'inspiring' or 'thrilling'."
@@ -262,7 +521,12 @@
           {
             "id": "4c",
             "question": "What is the antonym of 'believe'?",
-            "options": ["trust", "accept", "disbelieve/doubt", "agree"],
+            "options": [
+              "trust",
+              "accept",
+              "disbelieve/doubt",
+              "agree"
+            ],
             "correct": 2,
             "explanation_bn": "'Believe'-এর বিপরীত শব্দ 'disbelieve' বা 'doubt' (অবিশ্বাস করা)।",
             "explanation_en": "The antonym of 'believe' is 'disbelieve' or 'doubt'."
@@ -270,7 +534,12 @@
           {
             "id": "4d",
             "question": "What is the synonym of 'form'?",
-            "options": ["break", "destroy", "make/create", "remove"],
+            "options": [
+              "break",
+              "destroy",
+              "make/create",
+              "remove"
+            ],
             "correct": 2,
             "explanation_bn": "'Form'-এর সমার্থক শব্দ 'make' বা 'create' (গঠন করা)।",
             "explanation_en": "The synonym of 'form' is 'make' or 'create'."
@@ -278,7 +547,12 @@
           {
             "id": "4e",
             "question": "What is the antonym of 'great'?",
-            "options": ["excellent", "wonderful", "trivial/trifling", "massive"],
+            "options": [
+              "excellent",
+              "wonderful",
+              "trivial/trifling",
+              "massive"
+            ],
             "correct": 2,
             "explanation_bn": "'Great'-এর বিপরীত শব্দ 'trivial' বা 'trifling' (তুচ্ছ)।",
             "explanation_en": "The antonym of 'great' is 'trivial' or 'trifling'."
@@ -291,22 +565,76 @@
       "name": "Biographical Passage & Summary",
       "type": "passage_summary",
       "content": {
-        "passage": "Dr. Khan's academic career was not very bright in his early life but he finished it with a shining excellence. He presently works at a renowned hospital in Dhaka as the chief cardiac surgeon and heart specialist. He was a student of Selim Nazir High School, Pabna. He was an SSC, science candidate in 1978 but did not appear in the exam out of fear that he might fail. However, he passed it in the next year under Rajshahi Board with a poor first division. Then he got admitted himself in Haji Muhammad Muhsin College, Khulna. Appearing in the exam in science in 1981 under Jashore board, he passed it with the same result. In the same year, he got admitted himself in Dhaka Medical College under Dhaka University and studied there for seven years and completed his MBBS. Then he went to England and obtained MS (CTS) in cardiology from Cardiff University School of Medicine, England. Now, he is a world class cardiac surgeon serving the nation.",
+        "passage": "Dr. Khan's academic career was not very bright in his early life but he finished it with a shining excellence. He presently works at a renowned hospital in Dhaka as the chief cardiac surgeon and heart specialist.\n\nHe was a student of Selim Nazir High School, Pabna. He was an SSC, science candidate in 1978 but did not appear in the exam out of fear that he might fail. However, he passed it in the next year under Rajshahi Board with a poor first division.\n\nThen he got admitted himself in Haji Muhammad Muhsin College, Khulna. Appearing in the exam in science in 1981 under Jashore board, he passed it with the same result. In the same year, he got admitted himself in Dhaka Medical College under Dhaka University and studied there for seven years and completed his MBBS.\n\nThen he went to England and obtained MS (CTS) in cardiology from Cardiff University School of Medicine, England. Now, he is a world class cardiac surgeon serving the nation.",
         "translation_bn": "ডা. খান-এর শিক্ষাজীবনের শুরুটা খুব উজ্জ্বল ছিল না কিন্তু তিনি এটা অতুলনীয় উজ্জ্বল্যের মধ্যে দিয়ে সম্পন্ন করেন। বর্তমানে তিনি ঢাকার একটি নামধন্য হাসপাতালের প্রধান কার্ডিয়াক সার্জন ও হৃৎপিণ্ড বিশেষজ্ঞ হিসেবে কর্মরত। তিনি পাবনা সেলিম নাজির উচ্চ বিদ্যালয়ের ছাত্র ছিলেন। তিনি ১৯৭৮ সালে এসএসসি বিজ্ঞানের একজন পরীক্ষার্থী ছিলেন কিন্তু পরীক্ষায় অকৃতকার্য হওয়ার ভয়ে তিনি পরীক্ষা দেননি। যাহোক, তিনি পরের বছর রাজশাহী বোর্ডের অধীনে ন্যূনতম প্রথম বিভাগে এসএসসি পাস করেন। অতপর তিনি খুলনা হাজী মুহম্মদ মুহসিন কলেজে ভর্তি হন। ১৯৮১ সালে এইচএসসি বিজ্ঞান বিভাগে যশোর বোর্ডের অধীনে পরীক্ষা দিয়ে তিনি একই ফলাফল করলেন। এরপর তিনি ঢাকা বিশ্ববিদ্যালয়ের অধীনে ঢাকা মেডিকেল কলেজে ভর্তি হন এবং সেখানে সাত বছর অধ্যয়ন করে এমবিবিএস পাস করেন। এরপর তিনি ইংল্যান্ডে যান এবং ইংল্যান্ডের কার্ডিফ ইউনিভার্সিটি স্কুল অফ মেডিসিন থেকে এমএস (সিটিএস) অর্জন করেন। এখন তিনি জাতির সেবায় নিয়োজিত একজন বিশ্বমানের কার্ডিয়াক সার্জন।",
         "vocabulary": [
-          { "word": "academic", "pos": "adj", "meaning_bn": "শিক্ষাবিষয়ক", "meaning_en": "of or relating to education", "synonym": "educational", "antonym": "non-academic" },
-          { "word": "appear", "pos": "v", "meaning_bn": "পরীক্ষায় অংশগ্রহণ করা", "meaning_en": "to take part in an exam", "synonym": "take part", "antonym": "absent" },
-          { "word": "cardiac", "pos": "adj", "meaning_bn": "হৃদযন্ত্রসংক্রান্ত", "meaning_en": "heart-related", "synonym": "heart-related", "antonym": "" },
-          { "word": "cardiology", "pos": "n", "meaning_bn": "হৃদরোগবিদ্যা", "meaning_en": "study of the heart", "synonym": "heart study", "antonym": "" },
-          { "word": "excellence", "pos": "n", "meaning_bn": "শ্রেষ্ঠত্ব", "meaning_en": "superiority", "synonym": "superiority", "antonym": "mediocrity" },
-          { "word": "renowned", "pos": "adj", "meaning_bn": "বিখ্যাত", "meaning_en": "famous", "synonym": "famous", "antonym": "unknown" },
-          { "word": "surgeon", "pos": "n", "meaning_bn": "শল্যচিকিৎসক", "meaning_en": "a medical specialist who performs surgery", "synonym": "doctor", "antonym": "" }
+          {
+            "word": "academic",
+            "pos": "adj",
+            "meaning_bn": "শিক্ষাবিষয়ক",
+            "meaning_en": "of or relating to education",
+            "synonym": "educational",
+            "antonym": "non-academic"
+          },
+          {
+            "word": "appear",
+            "pos": "v",
+            "meaning_bn": "পরীক্ষায় অংশগ্রহণ করা",
+            "meaning_en": "to take part in an exam",
+            "synonym": "take part",
+            "antonym": "absent"
+          },
+          {
+            "word": "cardiac",
+            "pos": "adj",
+            "meaning_bn": "হৃদযন্ত্রসংক্রান্ত",
+            "meaning_en": "heart-related",
+            "synonym": "heart-related",
+            "antonym": ""
+          },
+          {
+            "word": "cardiology",
+            "pos": "n",
+            "meaning_bn": "হৃদরোগবিদ্যা",
+            "meaning_en": "study of the heart",
+            "synonym": "heart study",
+            "antonym": ""
+          },
+          {
+            "word": "excellence",
+            "pos": "n",
+            "meaning_bn": "শ্রেষ্ঠত্ব",
+            "meaning_en": "superiority",
+            "synonym": "superiority",
+            "antonym": "mediocrity"
+          },
+          {
+            "word": "renowned",
+            "pos": "adj",
+            "meaning_bn": "বিখ্যাত",
+            "meaning_en": "famous",
+            "synonym": "famous",
+            "antonym": "unknown"
+          },
+          {
+            "word": "surgeon",
+            "pos": "n",
+            "meaning_bn": "শল্যচিকিৎসক",
+            "meaning_en": "a medical specialist who performs surgery",
+            "synonym": "doctor",
+            "antonym": ""
+          }
         ],
         "mcqQuestions": [
           {
             "id": "5i",
             "question": "In which year did Dr. Khan pass his SSC?",
-            "options": ["1978", "1979", "1981", "1988"],
+            "options": [
+              "1978",
+              "1979",
+              "1981",
+              "1988"
+            ],
             "correct": 1,
             "explanation_bn": "ডা. খান ১৯৭৯ সালে রাজশাহী বোর্ডের অধীনে এসএসসি পাস করেন।",
             "explanation_en": "Dr. Khan passed his SSC in 1979 under Rajshahi Board."
@@ -314,7 +642,12 @@
           {
             "id": "5ii",
             "question": "What was Dr. Khan's group in SSC?",
-            "options": ["Arts", "Science", "Commerce", "Humanities"],
+            "options": [
+              "Arts",
+              "Science",
+              "Commerce",
+              "Humanities"
+            ],
             "correct": 1,
             "explanation_bn": "তিনি এসএসসিতে বিজ্ঞান বিভাগের ছাত্র ছিলেন।",
             "explanation_en": "He was a Science candidate in SSC."
@@ -322,7 +655,12 @@
           {
             "id": "5iii",
             "question": "In which year did Dr. Khan join Dhaka Medical College?",
-            "options": ["1979", "1980", "1981", "1988"],
+            "options": [
+              "1979",
+              "1980",
+              "1981",
+              "1988"
+            ],
             "correct": 2,
             "explanation_bn": "১৯৮১ সালে তিনি ঢাকা মেডিকেল কলেজে ভর্তি হন।",
             "explanation_en": "In 1981, he joined Dhaka Medical College."
@@ -330,7 +668,12 @@
           {
             "id": "5iv",
             "question": "What result did Dr. Khan obtain in HSC?",
-            "options": ["First division", "Second division", "Third division", "Fail"],
+            "options": [
+              "First division",
+              "Second division",
+              "Third division",
+              "Fail"
+            ],
             "correct": 0,
             "explanation_bn": "তিনি এইচএসসিতে প্রথম বিভাগ পেয়েছিলেন।",
             "explanation_en": "He obtained first division in HSC."
@@ -338,7 +681,12 @@
           {
             "id": "5v",
             "question": "From where did Dr. Khan obtain MS (CTS) in cardiology?",
-            "options": ["Dhaka Medical College", "Rajshahi Board", "Cardiff University School of Medicine, England", "Jashore Board"],
+            "options": [
+              "Dhaka Medical College",
+              "Rajshahi Board",
+              "Cardiff University School of Medicine, England",
+              "Jashore Board"
+            ],
             "correct": 2,
             "explanation_bn": "তিনি ইংল্যান্ডের কার্ডিফ ইউনিভার্সিটি থেকে এমএস (সিটিএস) অর্জন করেন।",
             "explanation_en": "He obtained MS (CTS) from Cardiff University School of Medicine, England."
@@ -348,7 +696,12 @@
           {
             "id": "6a",
             "question": "Dr. Khan was a candidate for SSC in 1978 but did not appear in the exam.",
-            "options": ["True", "False. He appeared in 1978.", "False. He passed in 1978.", "False. He failed in 1978."],
+            "options": [
+              "True",
+              "False. He appeared in 1978.",
+              "False. He passed in 1978.",
+              "False. He failed in 1978."
+            ],
             "correct": 0,
             "explanation_bn": "সত্য। তিনি ১৯৭৮ সালে পরীক্ষা না দিয়ে ভয়ে সরে যান।",
             "explanation_en": "True. He did not appear in 1978 out of fear."
@@ -356,7 +709,12 @@
           {
             "id": "6b",
             "question": "In the early life Dr. Khan was afraid of exams.",
-            "options": ["True", "False", "Not mentioned", "He was confident"],
+            "options": [
+              "True",
+              "False",
+              "Not mentioned",
+              "He was confident"
+            ],
             "correct": 0,
             "explanation_bn": "সত্য। তিনি ভয়ে ১৯৭৮ সালে পরীক্ষা দেননি।",
             "explanation_en": "True. He did not appear in 1978 out of fear of failure."
@@ -364,7 +722,12 @@
           {
             "id": "6c",
             "question": "Dr. Khan passed his SSC and HSC under the same board with the same results.",
-            "options": ["True", "False. He passed under different boards but with the same results.", "False. He passed under different boards with different results.", "False. He passed under the same board with different results."],
+            "options": [
+              "True",
+              "False. He passed under different boards but with the same results.",
+              "False. He passed under different boards with different results.",
+              "False. He passed under the same board with different results."
+            ],
             "correct": 1,
             "explanation_bn": "তিনি ভিন্ন বোর্ডের অধীনে একই ফলাফল অর্জন করেন।",
             "explanation_en": "He passed under different boards (Rajshahi and Jashore) but with the same results."
@@ -372,7 +735,12 @@
           {
             "id": "6d",
             "question": "Dr. Khan obtained his higher degree in cardiology from Dhaka Medical College.",
-            "options": ["True", "False. He obtained it from Cardiff University School of Medicine, England.", "False. He obtained it from Rajshahi Board.", "False. He obtained it from Jashore Board."],
+            "options": [
+              "True",
+              "False. He obtained it from Cardiff University School of Medicine, England.",
+              "False. He obtained it from Rajshahi Board.",
+              "False. He obtained it from Jashore Board."
+            ],
             "correct": 1,
             "explanation_bn": "তিনি ইংল্যান্ডের কার্ডিফ ইউনিভার্সিটি থেকে কার্ডিওলজিতে উচ্চতর ডিগ্রি অর্জন করেন।",
             "explanation_en": "He obtained his higher degree in cardiology from Cardiff University, England."
@@ -380,7 +748,12 @@
           {
             "id": "6e",
             "question": "Dr. Khan is a world class cardiac surgeon serving the nation.",
-            "options": ["True", "False", "Not mentioned", "He is a teacher"],
+            "options": [
+              "True",
+              "False",
+              "Not mentioned",
+              "He is a teacher"
+            ],
             "correct": 0,
             "explanation_bn": "সত্য। তিনি এখন একজন বিশ্বমানের কার্ডিয়াক সার্জন হিসেবে জাতির সেবা করছেন।",
             "explanation_en": "True. He is now a world-class cardiac surgeon serving the nation."
@@ -416,31 +789,46 @@
           "valid_sentences": [
             {
               "sentence": "A railway station is a place where train stops and starts from.",
-              "combination": ["A railway station is", "a place where train stops and starts from."],
+              "combination": [
+                "A railway station is",
+                "a place where train stops and starts from."
+              ],
               "explanation_en": "This defines a railway station as a place for trains.",
               "explanation_bn": "এটি রেলওয়ে স্টেশনকে ট্রেন থামার ও ছাড়ার স্থান হিসেবে সংজ্ঞায়িত করে।"
             },
             {
               "sentence": "It is a very important place as it contributes a lot to our communication system.",
-              "combination": ["It is", "a very important place as it contributes a lot to our communication system."],
+              "combination": [
+                "It is",
+                "a very important place as it contributes a lot to our communication system."
+              ],
               "explanation_en": "This explains the importance of a railway station.",
               "explanation_bn": "এটি রেলওয়ে স্টেশনের গুরুত্ব ব্যাখ্যা করে।"
             },
             {
               "sentence": "The place becomes busy and crowded when trains arrive.",
-              "combination": ["The place becomes", "busy and crowded when trains arrive."],
+              "combination": [
+                "The place becomes",
+                "busy and crowded when trains arrive."
+              ],
               "explanation_en": "This describes the station when trains arrive.",
               "explanation_bn": "ট্রেন আসলে স্টেশনটি ব্যস্ত ও জনাকীর্ণ হয়ে ওঠে।"
             },
             {
               "sentence": "Again, it becomes deserted when trains leave.",
-              "combination": ["Again, it becomes", "deserted when trains leave."],
+              "combination": [
+                "Again, it becomes",
+                "deserted when trains leave."
+              ],
               "explanation_en": "This describes the station when trains leave.",
               "explanation_bn": "ট্রেন ছেড়ে গেলে স্টেশনটি আবার ফাঁকা হয়ে যায়।"
             },
             {
               "sentence": "Porters and hawkers are found busy in the station.",
-              "combination": ["Porters and hawkers are", "found busy in the station."],
+              "combination": [
+                "Porters and hawkers are",
+                "found busy in the station."
+              ],
               "explanation_en": "This describes the people found at a station.",
               "explanation_bn": "স্টেশনে কুলি ও ফেরিওয়ালাদের ব্যস্ত দেখা যায়।"
             }
@@ -454,16 +842,49 @@
       "type": "rearrangement",
       "content": {
         "sentences": [
-          { "id": "a", "text": "The Mayor called a meeting of the councilors." },
-          { "id": "b", "text": "It became full of rats and so the people of the town came to the Town Hall." },
-          { "id": "c", "text": "At that moment there was a knock at the door." },
-          { "id": "d", "text": "They said to the Mayor to do something about the rats." },
-          { "id": "e", "text": "The Mayor and the councilors talked about the problem." },
-          { "id": "f", "text": "A long time ago the town of Hamelin in Germany was faced with a great problem." },
-          { "id": "g", "text": "The Mayor said, \"Come in,\" and a stranger entered the hall." },
-          { "id": "h", "text": "But they could not find a way out." }
+          {
+            "id": "a",
+            "text": "The Mayor called a meeting of the councilors."
+          },
+          {
+            "id": "b",
+            "text": "It became full of rats and so the people of the town came to the Town Hall."
+          },
+          {
+            "id": "c",
+            "text": "At that moment there was a knock at the door."
+          },
+          {
+            "id": "d",
+            "text": "They said to the Mayor to do something about the rats."
+          },
+          {
+            "id": "e",
+            "text": "The Mayor and the councilors talked about the problem."
+          },
+          {
+            "id": "f",
+            "text": "A long time ago the town of Hamelin in Germany was faced with a great problem."
+          },
+          {
+            "id": "g",
+            "text": "The Mayor said, \"Come in,\" and a stranger entered the hall."
+          },
+          {
+            "id": "h",
+            "text": "But they could not find a way out."
+          }
         ],
-        "correctOrder": ["f", "b", "d", "a", "e", "h", "c", "g"],
+        "correctOrder": [
+          "f",
+          "b",
+          "d",
+          "a",
+          "e",
+          "h",
+          "c",
+          "g"
+        ],
         "reconstructedParagraph": "A long time ago the town of Hamelin in Germany was faced with a great problem. It became full of rats and so the people of the town came to the Town Hall. They said to the Mayor to do something about the rats. The Mayor called a meeting of the councilors. The Mayor and the councilors talked about the problem. But they could not find a way out. At that moment there was a knock at the door. The Mayor said, \"Come in,\" and a stranger entered the hall."
       }
     },
@@ -476,7 +897,12 @@
           {
             "id": "10a",
             "question": "In the poem 'Whose Child Is This?', what was the child doing when the speaker saw him first?",
-            "options": ["Sleeping", "Playing", "Crying", "Reading"],
+            "options": [
+              "Sleeping",
+              "Playing",
+              "Crying",
+              "Reading"
+            ],
             "correct": 1,
             "explanation_bn": "কবিতায় শিশুটিকে প্রথম দেখার সময় সে খেলছিল।",
             "explanation_en": "In the poem, the child was playing when the speaker saw him first."
@@ -484,7 +910,12 @@
           {
             "id": "10b",
             "question": "According to the poem 'Whose Child Is This?', whose job is it to take care of a child?",
-            "options": ["Only the parent", "Only the teacher", "Both the parent and the teacher", "The child himself"],
+            "options": [
+              "Only the parent",
+              "Only the teacher",
+              "Both the parent and the teacher",
+              "The child himself"
+            ],
             "correct": 2,
             "explanation_bn": "কবিতা অনুসারে, একটি শিশুর যত্ন নেওয়া পিতামাতা এবং শিক্ষক উভয়ের কাজ।",
             "explanation_en": "According to the poem, it is the job of both the parent and the teacher to take care of a child."
@@ -492,7 +923,12 @@
           {
             "id": "10c",
             "question": "According to the poem 'Whose Child Is This?', it is a noble and divine task to ---",
-            "options": ["punish a child", "love and teach a child", "ignore a child", "scold a child"],
+            "options": [
+              "punish a child",
+              "love and teach a child",
+              "ignore a child",
+              "scold a child"
+            ],
             "correct": 1,
             "explanation_bn": "একটি শিশুকে ভালোবাসা ও শিক্ষা দেওয়া একটি মহৎ ও পবিত্র কাজ।",
             "explanation_en": "It is a noble and divine task to love and teach a child."
@@ -500,7 +936,12 @@
           {
             "id": "10d",
             "question": "According to the poem 'Leisure', there is no time to see the beauty of nature, because ---",
-            "options": ["we are lazy", "life is full of responsibilities and worries", "we don't like nature", "we are always sleeping"],
+            "options": [
+              "we are lazy",
+              "life is full of responsibilities and worries",
+              "we don't like nature",
+              "we are always sleeping"
+            ],
             "correct": 1,
             "explanation_bn": "জীবন দায়িত্ব ও দুশ্চিন্তায় পূর্ণ বলে প্রকৃতির সৌন্দর্য দেখার সময় নেই।",
             "explanation_en": "There is no time to see the beauty of nature because life is full of responsibilities and worries."
@@ -508,7 +949,12 @@
           {
             "id": "10e",
             "question": "According to the poem 'Leisure', people can see 'streams full of stars' during the ---",
-            "options": ["night", "day", "evening", "morning"],
+            "options": [
+              "night",
+              "day",
+              "evening",
+              "morning"
+            ],
             "correct": 1,
             "explanation_bn": "কবিতা অনুসারে, দিনের বেলায় মানুষ 'তারাভরা স্রোত' দেখতে পায়।",
             "explanation_en": "According to the poem, people can see 'streams full of stars' during the day."
@@ -516,7 +962,12 @@
           {
             "id": "10f",
             "question": "What is the poem 'From a Railway Carriage' about?",
-            "options": ["A sea voyage", "A fast-moving train and the things seen from it", "A village fair", "A mountain journey"],
+            "options": [
+              "A sea voyage",
+              "A fast-moving train and the things seen from it",
+              "A village fair",
+              "A mountain journey"
+            ],
             "correct": 1,
             "explanation_bn": "কবিতাটি একটি দ্রুতগামী ট্রেন এবং এটি থেকে দেখা জিনিসগুলি নিয়ে।",
             "explanation_en": "The poem is about a fast-moving train and the people, places and things seen from it."
@@ -524,7 +975,12 @@
           {
             "id": "10g",
             "question": "In the poem 'From a Railway Carriage', the expression 'as thick as driving rain' indicates ---",
-            "options": ["that the rain was heavy", "that the sights outside were coming very fast", "that the train was slow", "that the passengers were wet"],
+            "options": [
+              "that the rain was heavy",
+              "that the sights outside were coming very fast",
+              "that the train was slow",
+              "that the passengers were wet"
+            ],
             "correct": 1,
             "explanation_bn": "বৃষ্টির মতো ঘন ও দ্রুতগতিতে দৃশ্যগুলো চলে যাচ্ছিল।",
             "explanation_en": "Like driving rain, the sights outside were coming at the poet very fast."
@@ -532,7 +988,12 @@
           {
             "id": "10h",
             "question": "Do you think people often do not have time to enjoy the beauty of nature? Give reasons.",
-            "options": ["No, they have plenty of time", "Yes, because we remain so busy in daily work that we find no time", "Only on holidays", "Only in old age"],
+            "options": [
+              "No, they have plenty of time",
+              "Yes, because we remain so busy in daily work that we find no time",
+              "Only on holidays",
+              "Only in old age"
+            ],
             "correct": 1,
             "explanation_bn": "আমরা দৈনন্দিন কাজে এত ব্যস্ত থাকি যে প্রকৃতির সৌন্দর্য উপভোগ করার সময় পাই না।",
             "explanation_en": "Yes, we remain so busy in our daily work that we find no time to enjoy the natural beauty around us."
