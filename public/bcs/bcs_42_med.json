@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "A major sign of cardiac tamponade is",
+    "options": {
+      "A": "Bradycardia",
+      "B": "Ventricular dilatation",
+      "C": "3rd degree heart block",
+      "D": "Pulsus paradoxus"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "question": "Causes of short stature include following except",
+    "options": {
+      "A": "Psychosocial deprivation",
+      "B": "Hypothyroidism",
+      "C": "Growth hormone deficiency",
+      "D": "Klinefelter syndrome"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "Bleeding time is Prolonged in",
+    "options": {
+      "A": "ITP",
+      "B": "Von Willibrand disease",
+      "C": "Haemophilia-A",
+      "D": "Haemophilia-B"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "A stretch reflex is",
+    "options": {
+      "A": "monosynaptic",
+      "B": "polysynaptic",
+      "C": "initiated by muscle spindle",
+      "D": "transmitted by type II fibre"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "question": "Following cells are involved in Acute inflammation",
+    "options": {
+      "A": "Beta cells",
+      "B": "Lymphocytes",
+      "C": "Epitheloid cells",
+      "D": "Neutrophil"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "question": "Clearance of drug depends on-",
+    "options": {
+      "A": "plasma half life",
+      "B": "bioavailability",
+      "C": "diffusion co-efficient",
+      "D": "rate of absorption"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "question": "Following muscles are involved in forceful respiration",
+    "options": {
+      "A": "Rectus abdominis",
+      "B": "Intercostal muscle",
+      "C": "Scalene",
+      "D": "Soleus"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "question": "Phagocytosis is promoted by",
+    "options": {
+      "A": "Hyaluronidase",
+      "B": "Neuramidase",
+      "C": "Complement",
+      "D": "The Hexose monophosphate shunt"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "question": "Pyramidine bases are catabolised to",
+    "options": {
+      "A": "Orotic acid",
+      "B": "Uric acid",
+      "C": "Valproic acid",
+      "D": "Ammonia"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "question": "In Graves disease, one would least likely expect",
+    "options": {
+      "A": "Goitre",
+      "B": "Increased BMR",
+      "C": "Increased TSH secretion",
+      "D": "Weight loss"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "question": "Linear growth is determined by",
+    "options": {
+      "A": "Calcium",
+      "B": "Phosphate",
+      "C": "Vitamin-D",
+      "D": "IGF-1"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "Contraindication of lumber puncture",
+    "options": {
+      "A": "Coma",
+      "B": "Decerebrate posturing",
+      "C": "Head injury",
+      "D": "mole on the affected site"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "question": "Formation of clot is affected by",
+    "options": {
+      "A": "Zinc",
+      "B": "Factor B",
+      "C": "Factor IX",
+      "D": "Kallikrein"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "question": "Vit K",
+    "options": {
+      "A": "Synthesis in liver",
+      "B": "Synthesis in intestinal epithelium",
+      "C": "Causes haemolytic desease",
+      "D": "Antioxidant"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "question": "Extra articular manifestation of rheumatoid arthritis are",
+    "options": {
+      "A": "AKI",
+      "B": "Bronchiolitis obliterans",
+      "C": "Hepatic failure",
+      "D": "Leukoplakia"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "question": "Organism that can cross placenta",
+    "options": {
+      "A": "Varicella zoster virus",
+      "B": "Toxoplasma gondi",
+      "C": "Hepatitis C virus",
+      "D": "Streptococcus"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "question": "Causes of haematuria include",
+    "options": {
+      "A": "Cardiac failure",
+      "B": "Renal tuberculosis",
+      "C": "Pregnancy",
+      "D": "Nephrotic syndrome"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "question": "Complete destruction of zona glomerulosa result in unable to produce",
+    "options": {
+      "A": "Adrenaline",
+      "B": "Aldosterone",
+      "C": "Cortisol",
+      "D": "Dehydroepinephrine"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "question": "Deep cervical fascia encloses",
+    "options": {
+      "A": "Larynx",
+      "B": "Thyroid gland",
+      "C": "Pineal gland",
+      "D": "Submandibular gland"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "question": "Renal cortisol of acid base balance is a function of",
+    "options": {
+      "A": "Loop of Heale",
+      "B": "Proximal tubule",
+      "C": "Distal tubule",
+      "D": "Glomerulus"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "question": "Sustained elevation of cardiac output occurs in",
+    "options": {
+      "A": "Hypertension",
+      "B": "Anaemia",
+      "C": "Heart block",
+      "D": "Cardiac tamponade"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "question": "Causes of hyperpyrexia",
+    "options": {
+      "A": "Bronchial asthma",
+      "B": "COPD",
+      "C": "Malaria",
+      "D": "Hyperparathyroidism"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "question": "Parasites usually cross lungs during their life cycle",
+    "options": {
+      "A": "Enterobius vermicularis",
+      "B": "Ancylostoma duodenale",
+      "C": "Trichuris Trichiura",
+      "D": "Ascaris lumbricoides"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "question": "Precancerous condition is",
+    "options": {
+      "A": "Leukoplakia",
+      "B": "Fibroadenosis of breast",
+      "C": "Deudenal ulcer",
+      "D": "Cervical erosion"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "question": "Umbilical cord contains",
+    "options": {
+      "A": "one umbilical artery",
+      "B": "One umbilical vein",
+      "C": "Allantois",
+      "D": "Foetal membrane"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "question": "Autosomal reccessive disorder",
+    "options": {
+      "A": "Expressed in heterozygote",
+      "B": "Parents may be normal carrier",
+      "C": "Vertical transmission",
+      "D": "Variable Expressivity"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 27,
+    "question": "DNA viruses are",
+    "options": {
+      "A": "Reovirus",
+      "B": "Picornavirus",
+      "C": "Orthomyxoviruses",
+      "D": "Parvovirus"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "question": "In Addison's desease, there is",
+    "options": {
+      "A": "High blood level of cortisol",
+      "B": "Hypertension",
+      "C": "Hypoglycaemia between meals",
+      "D": "Hypopigmentation"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 29,
+    "question": "In blood  is transported from tissue to lungs mainly as",
+    "options": {
+      "A": "bicarbonate",
+      "B": "carboaminohaemoglobin",
+      "C": "carbonic acid",
+      "D": "dissolved form"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 30,
+    "question": "Testosterone is synthesised from",
+    "options": {
+      "A": "Cholesterol",
+      "B": "Glycine",
+      "C": "Oestrogen",
+      "D": "Tyrosine"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 31,
+    "question": "Which of the following organ is specially vulnerable during haemorrhagic shock",
+    "options": {
+      "A": "Brain",
+      "B": "Heart muscle",
+      "C": "Kidney",
+      "D": "Skeletal muscle"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 32,
+    "question": "Which of the followings are unencapsulated receptor",
+    "options": {
+      "A": "Ruffini's corpuscle",
+      "B": "Merkel's disc",
+      "C": "Pacinian corpuscle",
+      "D": "Meissner's corpuscle"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 33,
+    "question": "In basal condition, most of the energy used by cardiac muscle from metabolism of",
+    "options": {
+      "A": "Fatty acid",
+      "B": "Glucose",
+      "C": "Lactate",
+      "D": "Pyrovate"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 34,
+    "question": "The major function of surfactant is to",
+    "options": {
+      "A": "Alveolar surface tension",
+      "B": "Pulmonary compliance",
+      "C": "Work of breathing",
+      "D": "The tendency of lungs collapsed"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 35,
+    "question": "Spores are killed by",
+    "options": {
+      "A": "",
+      "B": "Gention violet",
+      "C": "Moist heat at 110°C for 30 minutes",
+      "D": "Dry heat"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 36,
+    "question": "In haemolytic anemia",
+    "options": {
+      "A": "Increase heptoglobin",
+      "B": "Increase urinary urobillinogen",
+      "C": "decrease reticulocytes",
+      "D": "decrease LDH"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 37,
+    "question": "Acute renal failure following mismatched blood transfusion is due to",
+    "options": {
+      "A": "Stricture urethra",
+      "B": "Septicemia",
+      "C": "Renal vasoconstriction",
+      "D": "Dehydration"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 38,
+    "question": "The affinity of Hb for  is increased by",
+    "options": {
+      "A": "Metabolic acidosis",
+      "B": "Exercise",
+      "C": "Anaemia",
+      "D": "CO Poisoning"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 39,
+    "question": "In aerobic exercise there is decrease in",
+    "options": {
+      "A": "Circulatory blood volume",
+      "B": "Skin temperature",
+      "C": "Cerebral blood flow",
+      "D": "Mean blood pressure"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 40,
+    "question": "Following predispose to the development of tuberculosis",
+    "options": {
+      "A": "HLA-B27",
+      "B": "Sarcoidosis",
+      "C": "Malnutrition",
+      "D": "Avitaminosis D"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 41,
+    "question": "Complication of typhoid fever is",
+    "options": {
+      "A": "Thyroiditis",
+      "B": "Pericarditis",
+      "C": "Ileal perforation",
+      "D": "Blindness"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 42,
+    "question": "Third aortic arch derivatives",
+    "options": {
+      "A": "pulmonary trunk",
+      "B": "subclavian artery",
+      "C": "external carotid artery",
+      "D": "Pulmonary artery"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 43,
+    "question": "A regurgitant aortic valve in a nonfunctioning heart causes",
+    "options": {
+      "A": "Decrease in diastolic pressure",
+      "B": "Decrease in heart rate",
+      "C": "Systolic murmur",
+      "D": "Decrease in systolic blood pressure"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 44,
+    "question": "Insulin causes",
+    "options": {
+      "A": "glycogenolysis",
+      "B": "breakdown of protein",
+      "C": "lypolysis",
+      "D": "entry of  into the cell"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 45,
+    "question": "Vitamin K is necessary for synthesis of",
+    "options": {
+      "A": "factor-I",
+      "B": "factor-V",
+      "C": "factor-II",
+      "D": "glucocorticoid"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 46,
+    "question": "Causes of high ESR is",
+    "options": {
+      "A": "Polycythemia",
+      "B": "Sickle cell anaemia",
+      "C": "Multiple myeloma",
+      "D": "Spherocytosis"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 47,
+    "question": "Features of aortic stenosis includes",
+    "options": {
+      "A": "irregular pulse",
+      "B": "heaving apex beat",
+      "C": "left parasternal heave",
+      "D": "mid diastolic murmur"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 48,
+    "question": "Polycythemia occurs in",
+    "options": {
+      "A": "hypoxia",
+      "B": "iron deficiency",
+      "C": "vit-c deficiency",
+      "D": "Malnutrition"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 49,
+    "question": "Medial trunk of brachial plexus gives rise to",
+    "options": {
+      "A": "Radial nerve",
+      "B": "Thoracocostal nerve",
+      "C": "Axillary nerve",
+      "D": "Medial cutaneous nerve of forearm"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 50,
+    "question": "Jaundice within 24 hrs. of age",
+    "options": {
+      "A": "ABO incompatibility",
+      "B": "Septicemia",
+      "C": "Hepatitis",
+      "D": "Hereditary spherocytosis"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 51,
+    "question": "Which anti diabetic drug causes weight loss",
+    "options": {
+      "A": "pioglitozone",
+      "B": "liraglutide",
+      "C": "vildagliptin",
+      "D": "Repaglinide"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 52,
+    "question": "Cerebellar lesion causes",
+    "options": {
+      "A": "spasticity",
+      "B": "rigidity",
+      "C": "intension tremor",
+      "D": "slow gait"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 53,
+    "question": "Bence-Jones proteins are",
+    "options": {
+      "A": "heavy chain immunoglobulin",
+      "B": "Found in the urine of multiple myeloma",
+      "C": "Associated with mononuclear antibody",
+      "D": "Precipitate by boiling"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 54,
+    "question": "Axillary nerve supplies the",
+    "options": {
+      "A": "pectoralis muscle (major)",
+      "B": "pectoralis minor",
+      "C": "teres major",
+      "D": "teres minor"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 55,
+    "question": "In secondary hypothyroidism",
+    "options": {
+      "A": "↑TSH, ↑FT4",
+      "B": "↑FT4 normal TSH",
+      "C": "↓TSH ↓FT4",
+      "D": "↓TSH ↑FT4"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 56,
+    "question": "ECG changes in hyperkalaemia",
+    "options": {
+      "A": "ST depression",
+      "B": "short QRS complex",
+      "C": "tall T wave",
+      "D": "level 5.5-7.0 meq/L"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 57,
+    "question": "Killed vaccine are except-",
+    "options": {
+      "A": "Small pox",
+      "B": "Covid-19",
+      "C": "Polio",
+      "D": "Rubella"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 58,
+    "question": "Continuous capillaries are found in",
+    "options": {
+      "A": "Cerebrum",
+      "B": "Liver",
+      "C": "Lungs",
+      "D": "Pituitary gland"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 59,
+    "question": "Antibody present in highest percentage in newborn is",
+    "options": {
+      "A": "Ig A",
+      "B": "Ig E",
+      "C": "Ig G",
+      "D": "Ig M"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 60,
+    "question": "Which of the following hormones exhibits a diurnal rythm in its secretion",
+    "options": {
+      "A": "ACTH",
+      "B": "Adrenaline",
+      "C": "Parathyroid hormone",
+      "D": "Prolactin"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 61,
+    "question": "In an immune mediated response, which of the following leukocytes becomes an activated macrophage.",
+    "options": {
+      "A": "lymphocyte",
+      "B": "basophil",
+      "C": "neurtrophil",
+      "D": "monocyte"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 62,
+    "question": "Which of the following does not have a membrane",
+    "options": {
+      "A": "Ribosome",
+      "B": "Mitochondria",
+      "C": "Nucleus",
+      "D": "Chloroplast"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 63,
+    "question": "The diaphragm is pierced by",
+    "options": {
+      "A": "sympathetic trunk",
+      "B": "lowest intercostal nerves",
+      "C": "Left phrenic nerve",
+      "D": "Pudendal nerve"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 64,
+    "question": "Excitatory cells of nervous system includes",
+    "options": {
+      "A": "anterior horn cells of spinal cord",
+      "B": "ependymal cell",
+      "C": "microglia",
+      "D": "Purkinje cell"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 65,
+    "question": "In which poisoning gastric lavage is contraindicated",
+    "options": {
+      "A": "OPC",
+      "B": "kerosene",
+      "C": "paracetamol",
+      "D": "methanol"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 66,
+    "question": "Following infections are common in immunodeficient patient except",
+    "options": {
+      "A": "Pneumocystis carini",
+      "B": "Diphtheria",
+      "C": "Cytomegalovirus",
+      "D": "Candida albicans"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 67,
+    "question": "ACE inhibitor are contraindicated in",
+    "options": {
+      "A": "Asthma",
+      "B": "Acute heart failure",
+      "C": "Pregnancy",
+      "D": "diabetic nephropathy"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 68,
+    "question": "Retroperitoneal structures include",
+    "options": {
+      "A": "transverse colon",
+      "B": "asscending colon",
+      "C": "inferior vena cava",
+      "D": "vermiform appendix"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 69,
+    "question": "Omega 3 essential fatty acid are",
+    "options": {
+      "A": "Linoleic acid",
+      "B": "Carbonic acid",
+      "C": "Arachodonic acid",
+      "D": "Oleic acid"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 70,
+    "question": "Continuous capillaries gaseous exchange occurs in",
+    "options": {
+      "A": "Thyroid gland",
+      "B": "Lungs",
+      "C": "Spleen",
+      "D": "Bone marrows"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 71,
+    "question": "Commonest tumors of the central nervous system arise from",
+    "options": {
+      "A": "meninges",
+      "B": "Neuroglia",
+      "C": "Blood vessels",
+      "D": "Nerve cells"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 72,
+    "question": "Antigen presenting cell except",
+    "options": {
+      "A": "Macrophage",
+      "B": "Neutrophil",
+      "C": "Langerhan's cell of skin",
+      "D": "Dendritic cell"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 73,
+    "question": "DNA synthesis is inhibited by",
+    "options": {
+      "A": "Prednisolone",
+      "B": "Chloramphenicol",
+      "C": "Azathioprine",
+      "D": "Chlaroquine"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 74,
+    "question": "Common organism for neonatal sepsis",
+    "options": {
+      "A": "Pneumococci",
+      "B": "Pseudomonas",
+      "C": "E Coli",
+      "D": "H. influenza"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 75,
+    "question": "Rickets radiology",
+    "options": {
+      "A": "cupping of epiphysis",
+      "B": "ring shape epiphysis",
+      "C": "widening of epiphysis",
+      "D": "increased calcifications"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 76,
+    "question": "X-linked disorder is",
+    "options": {
+      "A": "polycystic ovarian syndrome",
+      "B": "Down's syndrome",
+      "C": "turners syndrome",
+      "D": "Haemophilia"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 77,
+    "question": "Mood stabilizer is",
+    "options": {
+      "A": "Topiramate",
+      "B": "Lithium",
+      "C": "Dexamethasone",
+      "D": "Diazepam"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 78,
+    "question": "Normal saline is",
+    "options": {
+      "A": "Capable to exert about 300 mosm/L osmotic pressure",
+      "B": "Hypertonic to plasma",
+      "C": "Synonymous with normal saline",
+      "D": "9 gm meq/L solution"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 79,
+    "question": "Pancreatitis causes of elevation of plasma",
+    "options": {
+      "A": "Lipase",
+      "B": "Aldolase",
+      "C": "Acid phosphatase",
+      "D": "Lipoprotein lipase"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 80,
+    "question": "Complete lesion of oculomotor nerve causes",
+    "options": {
+      "A": "ptosis",
+      "B": "blindness",
+      "C": "pupil constriction",
+      "D": "inability to lateral movement"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 81,
+    "question": "Avascular structures include",
+    "options": {
+      "A": "Enamel of the teeth",
+      "B": "Bone marrow",
+      "C": "Periosteum",
+      "D": "Retina"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 82,
+    "question": "Substance that can easily diffuse through",
+    "options": {
+      "A": "Glucose",
+      "B": "Protein",
+      "C": "",
+      "D": "Oxygen"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 83,
+    "question": "Blood brain barrier formed by",
+    "options": {
+      "A": "Endothelial cell",
+      "B": "Ependyma",
+      "C": "Oligodentrocyte",
+      "D": "Epithelial cells"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 84,
+    "question": "Features of CSF in pyogenic meningitis",
+    "options": {
+      "A": "Chronic renal failure",
+      "B": "Diabetes insipidus",
+      "C": "Diabetes mellitus",
+      "D": "Acute glomerulonephritis"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 85,
+    "question": "Major antibody content of the serum is",
+    "options": {
+      "A": "α-I fraction",
+      "B": "α-2 fraction",
+      "C": "γ fraction",
+      "D": "β fraction"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 86,
+    "question": "The followings are mainly intracellular parasites",
+    "options": {
+      "A": "Echinococcus granulosus",
+      "B": "Leishmania donovani",
+      "C": "Trypanosoma gambiense",
+      "D": "Covid RNA virus"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 87,
+    "question": "Following menopause there is increased secretion of",
+    "options": {
+      "A": "FSH",
+      "B": "Oxytocin",
+      "C": "Prolactin",
+      "D": "Oestrogen"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 88,
+    "question": "Biochemical disturbance occurs in fulminating hepatic failure is",
+    "options": {
+      "A": "Metabolic alkalosis",
+      "B": "Hypoglycemia",
+      "C": "High serum albumin",
+      "D": "Prolongation of prothrombine time"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 89,
+    "question": "Which type of epithelium is found in thyroid follicles",
+    "options": {
+      "A": "squamus",
+      "B": "transitional",
+      "C": "cuboidal",
+      "D": "columner"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 90,
+    "question": "Which among the following is protozoal infection",
+    "options": {
+      "A": "Giardiasis",
+      "B": "Schistosomiasis",
+      "C": "Filariasis",
+      "D": "Hydatid disease"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 91,
+    "question": "Ionising radiation-following is true",
+    "options": {
+      "A": "Does not affect age",
+      "B": "Does not affect lungs",
+      "C": "Does not affect skin",
+      "D": "Affects the brain"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 92,
+    "question": "Coomb's test is used for detecting",
+    "options": {
+      "A": "Rheumatoid factor",
+      "B": "Antinuclear factor",
+      "C": "Cold agglutinin",
+      "D": "Anti insulin antibody"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 93,
+    "question": "Content of the broad ligament",
+    "options": {
+      "A": "Testes",
+      "B": "Ovary",
+      "C": "Ureter",
+      "D": "Ovarian artery"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 94,
+    "question": "Myoepithelial cells found in",
+    "options": {
+      "A": "Sweat gland",
+      "B": "Parotid gland",
+      "C": "Adrenal gland",
+      "D": "Lacrimal gland"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 95,
+    "question": "Local blood vessels are dilated due to increased concentration of",
+    "options": {
+      "A": "Endothelin",
+      "B": "Sodium Ions",
+      "C": "Calcium Ions",
+      "D": "Potassium Ions"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 96,
+    "question": "Hemorrhagic lesions may occur",
+    "options": {
+      "A": "Vitamin B deficiencies",
+      "B": "Vitamin C deficiencies",
+      "C": "Retinol deficiency",
+      "D": "Nephrotic syndrome"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 97,
+    "question": "Structure passes through greater sciatic foramen",
+    "options": {
+      "A": "extensor of hip",
+      "B": "gluteal nerve",
+      "C": "flexor of the knee",
+      "D": "adduction of hip"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 98,
+    "question": "Major source of progesterone in early 8 weeks of pregnancy is",
+    "options": {
+      "A": "Corpus luteum",
+      "B": "Meternal liver",
+      "C": "Placental cytotrophoblast",
+      "D": "Placental syncytotrophoblast"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 99,
+    "question": "In emphysema, pulmonary function test shows",
+    "options": {
+      "A": "Decreased residual volume",
+      "B": "Increased",
+      "C": "Increased total lung capacity",
+      "D": "Increased vital capacity"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 100,
+    "question": "Hot air oven is used for sterilization of",
+    "options": {
+      "A": "Scalpel",
+      "B": "Wire loop",
+      "C": "Needle",
+      "D": "Swab stick"
+    },
+    "answer": "",
+    "explanation": ""
+  }
+]
