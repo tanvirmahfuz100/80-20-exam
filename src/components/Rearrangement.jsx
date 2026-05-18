@@ -57,6 +57,7 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
   const [showingAnswer, setShowingAnswer] = useState(false);
   const [finished, setFinished] = useState(false);
   const [showConfirm, setShowConfirm] = useState(false);
+  const [dragIdx, setDragIdx] = useState(null);
 
   const isAllCorrect = useMemo(() => {
     return order.every((id, idx) => id === correctOrder[idx]);
@@ -84,6 +85,35 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
       return next;
     });
   }, [order.length, checked, showingAnswer, finished]);
+
+  const handleDragStart = useCallback((e, idx) => {
+    if (checked || showingAnswer || finished) return;
+    setDragIdx(idx);
+    e.dataTransfer.effectAllowed = 'move';
+    e.dataTransfer.setData('text/plain', String(idx));
+  }, [checked, showingAnswer, finished]);
+
+  const handleDragOver = useCallback((e, idx) => {
+    if (dragIdx === null || dragIdx === idx || checked || showingAnswer || finished) return;
+    e.preventDefault();
+    e.dataTransfer.dropEffect = 'move';
+    setOrder(prev => {
+      const next = [...prev];
+      const [moved] = next.splice(dragIdx, 1);
+      next.splice(idx, 0, moved);
+      return next;
+    });
+    setDragIdx(idx);
+  }, [dragIdx, checked, showingAnswer, finished]);
+
+  const handleDrop = useCallback((e) => {
+    e.preventDefault();
+    setDragIdx(null);
+  }, []);
+
+  const handleDragEnd = useCallback(() => {
+    setDragIdx(null);
+  }, []);
 
   const handleCheck = useCallback(() => {
     setChecked(true);
@@ -173,7 +203,12 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: 20 }}
                 transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-                className={`flex items-center gap-2 p-3 rounded-xl border transition-all ${
+                draggable={!checked && !showingAnswer && !finished}
+                onDragStart={(e) => handleDragStart(e, idx)}
+                onDragOver={(e) => handleDragOver(e, idx)}
+                onDrop={handleDrop}
+                onDragEnd={handleDragEnd}
+                className={`flex items-center gap-2 p-3 rounded-xl border transition-all cursor-grab active:cursor-grabbing ${
                   status === 'correct'
                     ? 'bg-emerald-500/10 border-emerald-500/30'
                     : status === 'wrong'

@@ -4,6 +4,7 @@ import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { Target, Trophy } from '../components/Illustrations';
+import LoadingScreen from '../components/LoadingScreen';
 
 const MockTests = () => {
     const { profile } = useAuth();
@@ -25,14 +26,7 @@ const MockTests = () => {
         navigate(`/quiz/${testId}?isMock=true`);
     };
 
-    if (loading) {
-        return (
-            <div className="flex flex-col items-center justify-center p-20 space-y-4">
-                <div className="h-12 w-12 animate-spin rounded-full border-4 border-primary border-t-transparent" />
-                <p className="text-[10px] font-black uppercase tracking-[0.3em] text-white/20">Preparing exam hall...</p>
-            </div>
-        );
-    }
+    if (loading) return <LoadingScreen message="Preparing exam hall..." />;
 
     return (
         <div className="mx-auto max-w-7xl space-y-8 md:space-y-12">

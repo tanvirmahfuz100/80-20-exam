@@ -8,22 +8,76 @@
       "name": "Passage & Comprehension",
       "type": "passage_mcq",
       "content": {
-        "passage": "It was Zishan's grandparents' house in the village. The night sky was clear. The full moon was shining brightly. All the family members had a delicious supper and sat in the yard. Zishan's cousins, Jahid and Shima, were very excited. They are the same age. They were also studying at a village school. Their grandparents gladly joined them. They were sitting on a bamboo mat. Everybody felt relaxed. They were talking, laughing and joking. The children's voices were the loudest. Jahid described how he played for his school in the Upazila Inter-School Tournament. 'What sports do you take part in, Zishan?' asked Jahid. Zishan could not answer. There was no playground in his school and around his house. Shima also told them how she won the first prize for 100 metre sprint in her school annual sports. She sang a heart-touching Bhawaiya song. Everybody clapped their hands in delight. Julie's aunt Mrs. Jahanara Khan told some funny jokes that made them laugh their heads off. The family gathering went on far into the night.",
+        "passage": "It was Zishan's grandparents' house in the village. The night sky was clear. The full moon was shining brightly.\n\nAll the family members had a delicious supper and sat in the yard. Zishan's cousins, Jahid and Shima, were very excited. They are the same age.\n\nThey were also studying at a village school. Their grandparents gladly joined them. They were sitting on a bamboo mat.\n\nEverybody felt relaxed. They were talking, laughing and joking. The children's voices were the loudest.\n\nJahid described how he played for his school in the Upazila Inter-School Tournament. 'What sports do you take part in, Zishan?' asked Jahid. Zishan could not answer.\n\nThere was no playground in his school and around his house. Shima also told them how she won the first prize for 100 metre sprint in her school annual sports. She sang a heart-touching Bhawaiya song.\n\nEverybody clapped their hands in delight. Julie's aunt Mrs. Jahanara Khan told some funny jokes that made them laugh their heads off.\n\nThe family gathering went on far into the night.",
         "translation_bn": "এটা ছিল জিশানের দাদা-দাদির গ্রামের বাড়ি। রাতের আকাশ ছিল পরিষ্কার। পূর্ণিমার চাঁদ উজ্জ্বলভাবে আলো ছড়াচ্ছিল। পরিবারের সব সদস্য রাতের সুস্বাদু খাবার খেয়ে উঠানে বসলো। জিশানের চাচাতো ভাই-বোন, জাহিদ এবং সীমা, বেশ উৎফুল্ল ছিল। তারা সমবয়সী। তারা গ্রামের একটি বিদ্যালয়ে পড়াশোনাও করছিল। তাদের দাদা-দাদি খুশিমনে তাদের সাথে যোগ দিলেন। তারা একটি বাঁশের চাটাইয়ের উপর বসেছিল। সবাই স্বাচ্ছন্দ্য বোধ করছিল। তারা কথাবার্তা বলছিল, হাসছিল আর কৌতুক করছিল। ছেলেমেয়েদের স্বর সবচেয়ে জোরালো হল। উপজেলা আন্তঃস্কুল ক্রীড়া প্রতিযোগিতায় জাহিদ তার বিদ্যালয়ের হয়ে কেমন খেলেছিল তা সে বর্ণনা করলো। 'তুমি কী কী খেলায় অংশগ্রহণ করো, জিশান?' জাহিদ জিজ্ঞেস করলো। জিশান কোনো উত্তর দিতে পারলো না। তার বিদ্যালয়ে এবং বাড়ির আশেপাশে কোনো খেলার মাঠ ছিল না। সীমাও তার বিদ্যালয়ের বার্ষিক ক্রীড়া প্রতিযোগিতায় কীভাবে ১০০ মিটার দৌড়ে প্রথম স্থান অধিকার করে পুরস্কার পেয়েছিল তা বর্ণনা করলো। সে হৃদয়স্পর্শী একটি ভাওয়াইয়া গান গাইল। সবাই আনন্দে হাততালি দিল। জুলির চাচি মিসেস জাহানারা খান কিছু মজার কৌতুক শোনালেন যা তাদেরকে ভীষণ হাসিতে লুটোপুটি খাইয়ে ছাড়লো। পারিবারিক এই আসর অনেক রাত পর্যন্ত চলল।",
         "vocabulary": [
-          { "word": "delicious", "pos": "adj", "meaning_en": "having a very pleasant taste", "meaning_bn": "সুস্বাদু", "synonym": "tasty", "antonym": "tasteless" },
-          { "word": "excited", "pos": "adj", "meaning_en": "very happy", "meaning_bn": "উৎফুল্ল", "synonym": "thrilled", "antonym": "indifferent" },
-          { "word": "gathering", "pos": "n", "meaning_en": "an assembly or meeting", "meaning_bn": "আসর", "synonym": "get-together", "antonym": "dispersing" },
-          { "word": "gladly", "pos": "adv", "meaning_en": "with joy", "meaning_bn": "সানন্দে", "synonym": "happily", "antonym": "reluctantly" },
-          { "word": "relaxed", "pos": "adj", "meaning_en": "free from care or anxiety", "meaning_bn": "স্বাচ্ছন্দ্যপূর্ণ", "synonym": "stress free", "antonym": "worried" },
-          { "word": "shining", "pos": "v", "meaning_en": "to radiate rays of light", "meaning_bn": "উজ্জ্বলভাবে আলো ছড়ানো", "synonym": "radiate", "antonym": "" },
-          { "word": "tournament", "pos": "n", "meaning_en": "a competition", "meaning_bn": "ক্রীড়া প্রতিযোগিতা", "synonym": "contest", "antonym": "" }
+          {
+            "word": "delicious",
+            "pos": "adj",
+            "meaning_en": "having a very pleasant taste",
+            "meaning_bn": "সুস্বাদু",
+            "synonym": "tasty",
+            "antonym": "tasteless"
+          },
+          {
+            "word": "excited",
+            "pos": "adj",
+            "meaning_en": "very happy",
+            "meaning_bn": "উৎফুল্ল",
+            "synonym": "thrilled",
+            "antonym": "indifferent"
+          },
+          {
+            "word": "gathering",
+            "pos": "n",
+            "meaning_en": "an assembly or meeting",
+            "meaning_bn": "আসর",
+            "synonym": "get-together",
+            "antonym": "dispersing"
+          },
+          {
+            "word": "gladly",
+            "pos": "adv",
+            "meaning_en": "with joy",
+            "meaning_bn": "সানন্দে",
+            "synonym": "happily",
+            "antonym": "reluctantly"
+          },
+          {
+            "word": "relaxed",
+            "pos": "adj",
+            "meaning_en": "free from care or anxiety",
+            "meaning_bn": "স্বাচ্ছন্দ্যপূর্ণ",
+            "synonym": "stress free",
+            "antonym": "worried"
+          },
+          {
+            "word": "shining",
+            "pos": "v",
+            "meaning_en": "to radiate rays of light",
+            "meaning_bn": "উজ্জ্বলভাবে আলো ছড়ানো",
+            "synonym": "radiate",
+            "antonym": ""
+          },
+          {
+            "word": "tournament",
+            "pos": "n",
+            "meaning_en": "a competition",
+            "meaning_bn": "ক্রীড়া প্রতিযোগিতা",
+            "synonym": "contest",
+            "antonym": ""
+          }
         ],
         "questions": [
           {
             "id": "1i",
             "question": "Who was/were talking in loud voice?",
-            "options": ["Grandpa", "Zishan", "The children", "Jahid"],
+            "options": [
+              "Grandpa",
+              "Zishan",
+              "The children",
+              "Jahid"
+            ],
             "correct": 2,
             "explanation_bn": "ছেলেমেয়েদের স্বর সবচেয়ে জোরালো ছিল।",
             "explanation_en": "The children's voices were the loudest."
@@ -31,7 +85,12 @@
           {
             "id": "1ii",
             "question": "Where was the family gathering?",
-            "options": ["Terrace", "Veranda", "Drawing room", "Yard"],
+            "options": [
+              "Terrace",
+              "Veranda",
+              "Drawing room",
+              "Yard"
+            ],
             "correct": 3,
             "explanation_bn": "পরিবারের সবাই রাতের খাবার খেয়ে উঠানে বসেছিল।",
             "explanation_en": "All family members sat in the yard after supper."
@@ -39,7 +98,12 @@
           {
             "id": "1iii",
             "question": "Everybody became delighted hearing ---",
-            "options": ["Grandpa's story", "Shima's song", "Aunt's joke", "Zishan's poem"],
+            "options": [
+              "Grandpa's story",
+              "Shima's song",
+              "Aunt's joke",
+              "Zishan's poem"
+            ],
             "correct": 1,
             "explanation_bn": "সীমার গান শুনে সবাই আনন্দিত হয়েছিল।",
             "explanation_en": "Everybody became delighted hearing Shima's song."
@@ -47,7 +111,12 @@
           {
             "id": "1iv",
             "question": "How long did the family gathering continue?",
-            "options": ["Whole night", "Till the morning", "Late at night", "Till dinner"],
+            "options": [
+              "Whole night",
+              "Till the morning",
+              "Late at night",
+              "Till dinner"
+            ],
             "correct": 2,
             "explanation_bn": "পারিবারিক আসর অনেক রাত পর্যন্ত চলেছিল।",
             "explanation_en": "The family gathering went on far into the night."
@@ -55,7 +124,12 @@
           {
             "id": "1v",
             "question": "Zishan's grandparents live in --- area",
-            "options": ["rural", "urban", "city", "town"],
+            "options": [
+              "rural",
+              "urban",
+              "city",
+              "town"
+            ],
             "correct": 0,
             "explanation_bn": "জিশানের দাদা-দাদি গ্রামে থাকেন, যা গ্রামীণ এলাকা।",
             "explanation_en": "Zishan's grandparents live in a village, which is a rural area."
@@ -63,7 +137,12 @@
           {
             "id": "1vi",
             "question": "It was a --- night.",
-            "options": ["cloudy", "moonlit", "windy", "sunlit"],
+            "options": [
+              "cloudy",
+              "moonlit",
+              "windy",
+              "sunlit"
+            ],
             "correct": 1,
             "explanation_bn": "পূর্ণিমার চাঁদ উজ্জ্বলভাবে আলো ছড়াচ্ছিল, তাই এটি একটি চাঁদনী রাত ছিল।",
             "explanation_en": "The full moon was shining brightly, so it was a moonlit night."
@@ -71,7 +150,12 @@
           {
             "id": "1vii",
             "question": "Mrs. Jahanara Khan told some funny jokes that made them laugh their heads off. What does the underlined phrase mean?",
-            "options": ["to smile quietly", "to tell jokes", "to laugh without control", "to make somebody laugh"],
+            "options": [
+              "to smile quietly",
+              "to tell jokes",
+              "to laugh without control",
+              "to make somebody laugh"
+            ],
             "correct": 2,
             "explanation_bn": "'Laugh their heads off' অর্থ অনিয়ন্ত্রিতভাবে হাসা।",
             "explanation_en": "'Laugh their heads off' means to laugh without control."
@@ -79,7 +163,12 @@
           {
             "id": "1viii",
             "question": "All the family members of Zishan's grandparents' house had delicious ---",
-            "options": ["supper", "dinner", "breakfast", "lunch"],
+            "options": [
+              "supper",
+              "dinner",
+              "breakfast",
+              "lunch"
+            ],
             "correct": 0,
             "explanation_bn": "সব সদস্য রাতের সুস্বাদু খাবার (supper) খেয়েছিল।",
             "explanation_en": "All members had a delicious supper."
@@ -87,7 +176,12 @@
           {
             "id": "1ix",
             "question": "The night sky was clear. Here clear means ---",
-            "options": ["bright", "free", "empty", "transparent"],
+            "options": [
+              "bright",
+              "free",
+              "empty",
+              "transparent"
+            ],
             "correct": 0,
             "explanation_bn": "এখানে 'clear' অর্থ পরিষ্কার বা উজ্জ্বল।",
             "explanation_en": "Here 'clear' means bright."
@@ -95,7 +189,12 @@
           {
             "id": "1x",
             "question": "What does gladly mean?",
-            "options": ["reluctantly", "bitterly", "unwillingly", "cheerfully"],
+            "options": [
+              "reluctantly",
+              "bitterly",
+              "unwillingly",
+              "cheerfully"
+            ],
             "correct": 3,
             "explanation_bn": "'Gladly' অর্থ সানন্দে বা cheerfully।",
             "explanation_en": "'Gladly' means cheerfully."
@@ -103,7 +202,12 @@
           {
             "id": "1xi",
             "question": "All the family members had a delicious supper. What does delicious mean?",
-            "options": ["wonderful", "appetizing", "charming", "boring"],
+            "options": [
+              "wonderful",
+              "appetizing",
+              "charming",
+              "boring"
+            ],
             "correct": 1,
             "explanation_bn": "'Delicious' অর্থ সুস্বাদু বা appetizing।",
             "explanation_en": "'Delicious' means appetizing."
@@ -111,7 +215,12 @@
           {
             "id": "1xii",
             "question": "Jahid played in ---",
-            "options": ["the annual prize giving ceremony", "the District Inter-School Tournament", "the Upazila Inter-School Tournament", "the Divisional Inter-School Tournament"],
+            "options": [
+              "the annual prize giving ceremony",
+              "the District Inter-School Tournament",
+              "the Upazila Inter-School Tournament",
+              "the Divisional Inter-School Tournament"
+            ],
             "correct": 2,
             "explanation_bn": "জাহিদ উপজেলা আন্তঃস্কুল ক্রীড়া প্রতিযোগিতায় খেলেছিল।",
             "explanation_en": "Jahid played in the Upazila Inter-School Tournament."
@@ -119,7 +228,12 @@
           {
             "id": "1xiii",
             "question": "The meaning of the word relaxed is ---",
-            "options": ["comfortable", "tiresome", "disturbed", "casual"],
+            "options": [
+              "comfortable",
+              "tiresome",
+              "disturbed",
+              "casual"
+            ],
             "correct": 0,
             "explanation_bn": "'Relaxed' অর্থ স্বাচ্ছন্দ্যপূর্ণ বা comfortable।",
             "explanation_en": "'Relaxed' means comfortable."
@@ -127,7 +241,12 @@
           {
             "id": "1xiv",
             "question": "What is the closest meaning of take part?",
-            "options": ["join", "be included", "participate", "avoid"],
+            "options": [
+              "join",
+              "be included",
+              "participate",
+              "avoid"
+            ],
             "correct": 2,
             "explanation_bn": "'Take part' অর্থ অংশগ্রহণ করা বা participate।",
             "explanation_en": "'Take part' means participate."
@@ -135,7 +254,12 @@
           {
             "id": "1xv",
             "question": "Zishan's cousins, Jahid and Shima, were very excited. What does excited mean here?",
-            "options": ["agitated", "upset", "energized", "happy"],
+            "options": [
+              "agitated",
+              "upset",
+              "energized",
+              "happy"
+            ],
             "correct": 3,
             "explanation_bn": "'Excited' অর্থ উৎফুল্ল বা happy।",
             "explanation_en": "'Excited' means very happy."
@@ -143,7 +267,12 @@
           {
             "id": "2a",
             "question": "'Zishan could not answer' - explain the line.",
-            "options": ["He was shy", "He didn't know the question", "There was no playground in his school or around his house, so he did not take part in any sports", "He was sleeping"],
+            "options": [
+              "He was shy",
+              "He didn't know the question",
+              "There was no playground in his school or around his house, so he did not take part in any sports",
+              "He was sleeping"
+            ],
             "correct": 2,
             "explanation_bn": "জিশানের স্কুলে বা বাড়ির চারপাশে কোনো খেলার মাঠ ছিল না, তাই সে কোনো খেলায় অংশ নেয়নি।",
             "explanation_en": "There was no playground in his school or around his house, so he did not take part in any sports."
@@ -151,7 +280,12 @@
           {
             "id": "2b",
             "question": "Do you think both Jahid and Shima are good at sports? Why/why not?",
-            "options": ["No, they are not interested", "Yes, because Jahid played in a tournament and Shima won first prize in a 100-metre sprint", "Only Jahid is good", "Only Shima is good"],
+            "options": [
+              "No, they are not interested",
+              "Yes, because Jahid played in a tournament and Shima won first prize in a 100-metre sprint",
+              "Only Jahid is good",
+              "Only Shima is good"
+            ],
             "correct": 1,
             "explanation_bn": "জাহিদ টুর্নামেন্টে খেলেছে এবং সীমা ১০০ মিটার দৌড়ে প্রথম পুরস্কার জিতেছে।",
             "explanation_en": "Yes, because Jahid played in a tournament and Shima won first prize in a 100-metre sprint."
@@ -159,7 +293,12 @@
           {
             "id": "2c",
             "question": "How was the night and family gathering?",
-            "options": ["Dark and gloomy", "The night was clear and moonlit - the family gathering was joyful", "Stormy and scary", "Quiet and boring"],
+            "options": [
+              "Dark and gloomy",
+              "The night was clear and moonlit - the family gathering was joyful",
+              "Stormy and scary",
+              "Quiet and boring"
+            ],
             "correct": 1,
             "explanation_bn": "রাতটি পরিষ্কার ও চাঁদনী ছিল এবং পারিবারিক আসরটি আনন্দময় ছিল।",
             "explanation_en": "The night was clear and moonlit. The family gathering was joyful with talking, laughing, and storytelling."
@@ -167,7 +306,12 @@
           {
             "id": "2d",
             "question": "What did Shima sing?",
-            "options": ["A pop song", "A heart-touching Bhawaiya song", "A nursery rhyme", "A patriotic song"],
+            "options": [
+              "A pop song",
+              "A heart-touching Bhawaiya song",
+              "A nursery rhyme",
+              "A patriotic song"
+            ],
             "correct": 1,
             "explanation_bn": "সীমা একটি হৃদয়স্পর্শী ভাওয়াইয়া গান গেয়েছিল।",
             "explanation_en": "She sang a heart-touching Bhawaiya song."
@@ -175,7 +319,12 @@
           {
             "id": "2e",
             "question": "What were the family members doing in the yard?",
-            "options": ["Sleeping", "Eating", "Talking, laughing, joking, describing sports achievements, singing, and telling funny stories", "Watching TV"],
+            "options": [
+              "Sleeping",
+              "Eating",
+              "Talking, laughing, joking, describing sports achievements, singing, and telling funny stories",
+              "Watching TV"
+            ],
             "correct": 2,
             "explanation_bn": "তারা কথা বলছিল, হাসছিল, কৌতুক করছিল, খেলাধুলার সাফল্য বর্ণনা করছিল, গান গাইছিল এবং মজার গল্প বলছিল।",
             "explanation_en": "They were talking, laughing, joking, describing sports achievements, singing, and telling funny stories."
@@ -189,53 +338,139 @@
       "type": "gap_fill_vocab",
       "content": {
         "gapFill": {
-          "passage": "Zishan, Julie, (a) ______ with their parents, Mr. and Mrs. Arif Khan, got into a first-class compartment at Kamalapur Railway Station. They were (b) ______ on the Tista Express to Dewanganj. Zishan looked at the big timetable and saw that the train was supposed to (c) ______ at 7:30 am, but it left at 8 o'clock. The train was moving (d) ______. The children sat by the window (e) ______ to their parents. The compartment was only half full.",
+          "passage": "Zishan, Julie, (a) ______ with their parents, Mr. and Mrs. Arif Khan, got into a first-class compartment at Kamalapur Railway Station. They were (b) ______ on the Tista Express to Dewanganj.\n\nZishan looked at the big timetable and saw that the train was supposed to (c) ______ at 7:30 am, but it left at 8 o'clock. The train was moving (d) ______. The children sat by the window (e) ______ to their parents.\n\nThe compartment was only half full.",
           "dialogPassage": "Zishan, Julie and their parents Mr. and Mrs. Arif Khan got into a 1st class compartment at Kamalapur Railway Station. It was the Dewanganj-bound Tista Express. Zishan saw that the departure time on the big time table of the station was 7:30 am, but the train left at 8 o'clock. However, the train was running quite fast. The children sat by the window beside their parents. The compartment was half empty.",
-          "boxWords": ["along", "traveling", "leave", "depart", "quickly", "slowly", "next", "beside", "near", "arrive", "journeying", "with"],
+          "boxWords": [
+            "along",
+            "traveling",
+            "leave",
+            "quickly",
+            "slowly",
+            "next",
+            "near",
+            "arrive",
+            "journeying",
+            "with"
+          ],
           "blanks": [
             {
               "blankId": "a",
               "correct": "along",
               "options": [
-                { "text": "along", "isCorrect": true, "explanationBn": "জিশান, জুলি তাদের পিতামাতার সাথে ('along with') ট্রেনে উঠেছিল।", "explanationEn": "Zishan and Julie, along with their parents, got into the train." },
-                { "text": "with", "isCorrect": false, "explanationBn": "'Along with' একটি শব্দগুচ্ছ, শুধু 'with' নয়।", "explanationEn": "'Along with' is the correct phrase." },
-                { "text": "near", "isCorrect": false, "explanationBn": "'Near' অর্থ কাছাকাছি, যা এখানে উপযুক্ত নয়।", "explanationEn": "'Near' means close to, which is not appropriate here." }
+                {
+                  "text": "along",
+                  "isCorrect": true,
+                  "explanationBn": "জিশান, জুলি তাদের পিতামাতার সাথে ('along with') ট্রেনে উঠেছিল।",
+                  "explanationEn": "Zishan and Julie, along with their parents, got into the train."
+                },
+                {
+                  "text": "with",
+                  "isCorrect": false,
+                  "explanationBn": "'Along with' একটি শব্দগুচ্ছ, শুধু 'with' নয়।",
+                  "explanationEn": "'Along with' is the correct phrase."
+                },
+                {
+                  "text": "near",
+                  "isCorrect": false,
+                  "explanationBn": "'Near' অর্থ কাছাকাছি, যা এখানে উপযুক্ত নয়।",
+                  "explanationEn": "'Near' means close to, which is not appropriate here."
+                }
               ]
             },
             {
               "blankId": "b",
               "correct": "traveling",
               "options": [
-                { "text": "traveling", "isCorrect": true, "explanationBn": "তারা তিস্তা এক্সপ্রেসে ভ্রমণ করছিল ('traveling on')।", "explanationEn": "They were traveling on the Tista Express." },
-                { "text": "journeying", "isCorrect": false, "explanationBn": "'Journeying' ব্যবহার করা যেতে পারে, কিন্তু 'traveling' অধিক স্বাভাবিক।", "explanationEn": "'Journeying' is possible, but 'traveling' is more natural." },
-                { "text": "boarding", "isCorrect": false, "explanationBn": "'Boarding' অর্থ ওঠা, যা পূর্ববর্তী বাক্যে ইতিমধ্যে উল্লেখিত।", "explanationEn": "'Boarding' means getting on, already mentioned in the previous sentence." }
+                {
+                  "text": "traveling",
+                  "isCorrect": true,
+                  "explanationBn": "তারা তিস্তা এক্সপ্রেসে ভ্রমণ করছিল ('traveling on')।",
+                  "explanationEn": "They were traveling on the Tista Express."
+                },
+                {
+                  "text": "journeying",
+                  "isCorrect": false,
+                  "explanationBn": "'Journeying' ব্যবহার করা যেতে পারে, কিন্তু 'traveling' অধিক স্বাভাবিক।",
+                  "explanationEn": "'Journeying' is possible, but 'traveling' is more natural."
+                },
+                {
+                  "text": "boarding",
+                  "isCorrect": false,
+                  "explanationBn": "'Boarding' অর্থ ওঠা, যা পূর্ববর্তী বাক্যে ইতিমধ্যে উল্লেখিত।",
+                  "explanationEn": "'Boarding' means getting on, already mentioned in the previous sentence."
+                }
               ]
             },
             {
               "blankId": "c",
               "correct": "leave",
               "options": [
-                { "text": "leave", "isCorrect": true, "explanationBn": "ট্রেনটি সকাল ৭:৩০-এ ছাড়ার ('leave at') কথা ছিল।", "explanationEn": "The train was supposed to leave at 7:30 am." },
-                { "text": "depart", "isCorrect": false, "explanationBn": "'Depart' অর্থও ছাড়া, কিন্তু 'leave' এখানে বেশি উপযুক্ত।", "explanationEn": "'Depart' also means leave, but 'leave' fits better here." },
-                { "text": "arrive", "isCorrect": false, "explanationBn": "'Arrive' অর্থ আসা, যা বিপরীত অর্থ।", "explanationEn": "'Arrive' means to come, which is the opposite meaning." }
+                {
+                  "text": "leave",
+                  "isCorrect": true,
+                  "explanationBn": "ট্রেনটি সকাল ৭:৩০-এ ছাড়ার ('leave at') কথা ছিল।",
+                  "explanationEn": "The train was supposed to leave at 7:30 am."
+                },
+                {
+                  "text": "depart",
+                  "isCorrect": false,
+                  "explanationBn": "'Depart' অর্থও ছাড়া, কিন্তু 'leave' এখানে বেশি উপযুক্ত।",
+                  "explanationEn": "'Depart' also means leave, but 'leave' fits better here."
+                },
+                {
+                  "text": "arrive",
+                  "isCorrect": false,
+                  "explanationBn": "'Arrive' অর্থ আসা, যা বিপরীত অর্থ।",
+                  "explanationEn": "'Arrive' means to come, which is the opposite meaning."
+                }
               ]
             },
             {
               "blankId": "d",
               "correct": "quickly",
               "options": [
-                { "text": "quickly", "isCorrect": true, "explanationBn": "ট্রেনটি দ্রুত ('moving quickly') চলছিল।", "explanationEn": "The train was moving quickly." },
-                { "text": "slowly", "isCorrect": false, "explanationBn": "'Slowly' অর্থ ধীরে, যা ট্রেনের গতির বিপরীত।", "explanationEn": "'Slowly' is the opposite of how the train was moving." },
-                { "text": "carefully", "isCorrect": false, "explanationBn": "'Carefully' অর্থ সাবধানে, গতি বোঝায় না।", "explanationEn": "'Carefully' does not indicate speed." }
+                {
+                  "text": "quickly",
+                  "isCorrect": true,
+                  "explanationBn": "ট্রেনটি দ্রুত ('moving quickly') চলছিল।",
+                  "explanationEn": "The train was moving quickly."
+                },
+                {
+                  "text": "slowly",
+                  "isCorrect": false,
+                  "explanationBn": "'Slowly' অর্থ ধীরে, যা ট্রেনের গতির বিপরীত।",
+                  "explanationEn": "'Slowly' is the opposite of how the train was moving."
+                },
+                {
+                  "text": "carefully",
+                  "isCorrect": false,
+                  "explanationBn": "'Carefully' অর্থ সাবধানে, গতি বোঝায় না।",
+                  "explanationEn": "'Carefully' does not indicate speed."
+                }
               ]
             },
             {
               "blankId": "e",
               "correct": "next",
               "options": [
-                { "text": "next", "isCorrect": true, "explanationBn": "ছেলেমেয়েরা তাদের বাবা-মায়ের পাশে ('next to') বসেছিল।", "explanationEn": "The children sat next to their parents." },
-                { "text": "beside", "isCorrect": false, "explanationBn": "'Beside' অর্থও 'পাশে', কিন্তু 'next to' অধিক সঠিক।", "explanationEn": "'Beside' also means next to, but 'next' fits the structure better." },
-                { "text": "near", "isCorrect": false, "explanationBn": "'Near' অর্থ কাছাকাছি, কিন্তু 'next to' আরও নির্দিষ্ট।", "explanationEn": "'Near' means close, but 'next to' is more specific." }
+                {
+                  "text": "next",
+                  "isCorrect": true,
+                  "explanationBn": "ছেলেমেয়েরা তাদের বাবা-মায়ের পাশে ('next to') বসেছিল।",
+                  "explanationEn": "The children sat next to their parents."
+                },
+                {
+                  "text": "beside",
+                  "isCorrect": false,
+                  "explanationBn": "'Beside' অর্থও 'পাশে', কিন্তু 'next to' অধিক সঠিক।",
+                  "explanationEn": "'Beside' also means next to, but 'next' fits the structure better."
+                },
+                {
+                  "text": "near",
+                  "isCorrect": false,
+                  "explanationBn": "'Near' অর্থ কাছাকাছি, কিন্তু 'next to' আরও নির্দিষ্ট।",
+                  "explanationEn": "'Near' means close, but 'next to' is more specific."
+                }
               ]
             }
           ]
@@ -244,7 +479,12 @@
           {
             "id": "4a",
             "question": "What is the antonym of 'departure'?",
-            "options": ["leaving", "exit", "arrival", "absence"],
+            "options": [
+              "leaving",
+              "exit",
+              "arrival",
+              "absence"
+            ],
             "correct": 2,
             "explanation_bn": "'Departure'-এর বিপরীত শব্দ 'arrival' (আগমন)।",
             "explanation_en": "The antonym of 'departure' is 'arrival'."
@@ -252,7 +492,12 @@
           {
             "id": "4b",
             "question": "What is the synonym of 'beside'?",
-            "options": ["away", "by/next to", "far", "behind"],
+            "options": [
+              "away",
+              "by/next to",
+              "far",
+              "behind"
+            ],
             "correct": 1,
             "explanation_bn": "'Beside'-এর সমার্থক শব্দ 'by' বা 'next to' (পাশে)।",
             "explanation_en": "The synonym of 'beside' is 'by' or 'next to'."
@@ -260,7 +505,12 @@
           {
             "id": "4c",
             "question": "What is the antonym of 'empty'?",
-            "options": ["blank", "vacant", "full", "hollow"],
+            "options": [
+              "blank",
+              "vacant",
+              "full",
+              "hollow"
+            ],
             "correct": 2,
             "explanation_bn": "'Empty'-এর বিপরীত শব্দ 'full' (পূর্ণ)।",
             "explanation_en": "The antonym of 'empty' is 'full'."
@@ -268,7 +518,12 @@
           {
             "id": "4d",
             "question": "What is the synonym of 'fast'?",
-            "options": ["slow", "quickly/rapidly", "late", "gentle"],
+            "options": [
+              "slow",
+              "quickly/rapidly",
+              "late",
+              "gentle"
+            ],
             "correct": 1,
             "explanation_bn": "'Fast'-এর সমার্থক শব্দ 'quickly' বা 'rapidly' (দ্রুত)।",
             "explanation_en": "The synonym of 'fast' is 'quickly' or 'rapidly'."
@@ -276,7 +531,12 @@
           {
             "id": "4e",
             "question": "What is the antonym of 'similarity'?",
-            "options": ["resemblance", "likeness", "dissimilarity/difference", "sameness"],
+            "options": [
+              "resemblance",
+              "likeness",
+              "dissimilarity/difference",
+              "sameness"
+            ],
             "correct": 2,
             "explanation_bn": "'Similarity'-এর বিপরীত শব্দ 'dissimilarity' বা 'difference' (অসাদৃশ্য)।",
             "explanation_en": "The antonym of 'similarity' is 'dissimilarity' or 'difference'."
@@ -289,22 +549,76 @@
       "name": "Biographical Passage & Summary",
       "type": "passage_summary",
       "content": {
-        "passage": "Rahim, 12 years old, works as a porter in a railway station. He has to compete with other adult porters and sometimes gets beaten up by them if he is preferred by the passengers. He lives and sleeps at the station with other little boys like him. He gets half of the amount paid to the adult porter because he cannot carry heavy baggage. Nripen, 10 years old, is a handloom weaver in Nepal. He is kept chained to the loom to prevent him from running away. He works 10 hours a day, six days a week and is allowed only half an hour lunch break. Farida, 8 years old, works as a domestic servant. She makes tea, cuts vegetables, sweeps the floors, runs errands for the whole family. She is not allowed to go out of the house at any time of the day. The family locks her inside the house when they go out. She gets food and clothing and a meager wage but no education or holidays. Shafi, 5 years old, now lives at a Children's Home. He cannot remember his parents because at the age of three, he was kidnapped and sent to the Middle East to be used as a camel jockey. He used to be tied to a camel in camel races so that his terrified screams would make the camel run faster. He was rescued by a Human Rights group and brought back to Bangladesh.",
+        "passage": "Rahim, 12 years old, works as a porter in a railway station. He has to compete with other adult porters and sometimes gets beaten up by them if he is preferred by the passengers. He lives and sleeps at the station with other little boys like him.\n\nHe gets half of the amount paid to the adult porter because he cannot carry heavy baggage. Nripen, 10 years old, is a handloom weaver in Nepal. He is kept chained to the loom to prevent him from running away.\n\nHe works 10 hours a day, six days a week and is allowed only half an hour lunch break. Farida, 8 years old, works as a domestic servant. She makes tea, cuts vegetables, sweeps the floors, runs errands for the whole family.\n\nShe is not allowed to go out of the house at any time of the day. The family locks her inside the house when they go out. She gets food and clothing and a meager wage but no education or holidays.\n\nShafi, 5 years old, now lives at a Children's Home. He cannot remember his parents because at the age of three, he was kidnapped and sent to the Middle East to be used as a camel jockey. He used to be tied to a camel in camel races so that his terrified screams would make the camel run faster.\n\nHe was rescued by a Human Rights group and brought back to Bangladesh.",
         "translation_bn": "রহিম, বয়স ১২ বছর, একটি রেলওয়ে স্টেশনে কুলির কাজ করে। তাকে অন্যান্য বয়স্ক কুলির সাথে প্রতিদ্বন্দ্বিতা করতে হয় এবং যাত্রীদের দ্বারা পছন্দ হলে মাঝে মাঝে তাকে তাদের হাতে মার খেতে হয়। সে তার মতো অন্যান্য ছোট ছেলেদের সাথে রেলওয়ে স্টেশনে থাকে এবং ঘুমায়। বয়স্কদের তুলনায় সে অর্ধেক পরিমাণ মজুরি পেয়ে থাকে কারণ সে খুব ভারি বোঝা বহন করতে পারে না। নৃপেন, বয়স ১০ বছর, নেপালের একজন হস্তচালিত তাঁতশিল্পী। সে যেন পালিয়ে যেতে না পারে সেজন্য তাকে শিকল দিয়ে তাঁতের সাথে বেঁধে রাখা হয়। সে দিনে ১০ ঘণ্টা, সপ্তাহে ৬ দিন কাজ করে এবং তাকে দুপুরে খাবার খাওয়ার জন্য মাত্র আধ ঘণ্টা বিরতি দেওয়া হয়। ফরিদা, বয়স ৮ বছর, গৃহকর্মীর কাজ করে। সে চা বানায়, শাকসবজি কাটে, মেঝে ঝাড়ু দেয় এবং সমস্ত পরিবারের নানা কাজ করে। দিনের কোনো সময়েই তাকে বাড়ির বাইরে যাওয়ার অনুমতি দেওয়া হয় না। বাড়ির লোকজন বাইরে গেলে তাকে তালা দিয়ে ঘরে আটকে রাখে। সে খাবার, পোশাক এবং সামান্য বেতন পেয়ে থাকে কিন্তু কোনো শিক্ষা বা ছুটির দিন পায় না। শফি, বয়স ৫ বছর, এখন একটি শিশু সদনে থাকে। সে তার বাবা-মাকে স্মরণ করতে পারে না, কারণ তিন বছর বয়সে তাকে অপহরণ করা হয়েছিল এবং উটের জকি হিসেবে ব্যবহারের জন্য মধ্যপ্রাচ্যে পাঠানো হয়েছিল। উটের দৌড় প্রতিযোগিতায় তাকে একটি উটের সাথে বেঁধে রাখা হতো যেন তার ভয়ার্ত চিৎকারে উট জোরে দৌড়ায়। একটি মানবাধিকার সংস্থা কর্তৃক তাকে উদ্ধার করা হয় এবং বাংলাদেশে ফিরিয়ে আনা হয়।",
         "vocabulary": [
-          { "word": "baggage", "pos": "n", "meaning_bn": "মালপত্র", "meaning_en": "luggage", "synonym": "luggage", "antonym": "" },
-          { "word": "camel jockey", "pos": "phrase", "meaning_bn": "উট চালক", "meaning_en": "camel rider", "synonym": "camel rider", "antonym": "" },
-          { "word": "domestic servant", "pos": "phrase", "meaning_bn": "গৃহকর্মী", "meaning_en": "maid servant", "synonym": "maid", "antonym": "master" },
-          { "word": "handloom weaver", "pos": "phrase", "meaning_bn": "হস্তচালিত তাঁতশিল্পী", "meaning_en": "a person who weaves on a handloom", "synonym": "weaver", "antonym": "" },
-          { "word": "meager", "pos": "adj", "meaning_bn": "নগণ্য", "meaning_en": "insufficient", "synonym": "insufficient", "antonym": "abundant" },
-          { "word": "porter", "pos": "n", "meaning_bn": "কুলি/বোঝা বহনকারী", "meaning_en": "a person who carries loads", "synonym": "carrier", "antonym": "" },
-          { "word": "terrified", "pos": "adj", "meaning_bn": "আতঙ্কিত", "meaning_en": "very scared", "synonym": "scared", "antonym": "fearless" }
+          {
+            "word": "baggage",
+            "pos": "n",
+            "meaning_bn": "মালপত্র",
+            "meaning_en": "luggage",
+            "synonym": "luggage",
+            "antonym": ""
+          },
+          {
+            "word": "camel jockey",
+            "pos": "phrase",
+            "meaning_bn": "উট চালক",
+            "meaning_en": "camel rider",
+            "synonym": "camel rider",
+            "antonym": ""
+          },
+          {
+            "word": "domestic servant",
+            "pos": "phrase",
+            "meaning_bn": "গৃহকর্মী",
+            "meaning_en": "maid servant",
+            "synonym": "maid",
+            "antonym": "master"
+          },
+          {
+            "word": "handloom weaver",
+            "pos": "phrase",
+            "meaning_bn": "হস্তচালিত তাঁতশিল্পী",
+            "meaning_en": "a person who weaves on a handloom",
+            "synonym": "weaver",
+            "antonym": ""
+          },
+          {
+            "word": "meager",
+            "pos": "adj",
+            "meaning_bn": "নগণ্য",
+            "meaning_en": "insufficient",
+            "synonym": "insufficient",
+            "antonym": "abundant"
+          },
+          {
+            "word": "porter",
+            "pos": "n",
+            "meaning_bn": "কুলি/বোঝা বহনকারী",
+            "meaning_en": "a person who carries loads",
+            "synonym": "carrier",
+            "antonym": ""
+          },
+          {
+            "word": "terrified",
+            "pos": "adj",
+            "meaning_bn": "আতঙ্কিত",
+            "meaning_en": "very scared",
+            "synonym": "scared",
+            "antonym": "fearless"
+          }
         ],
         "mcqQuestions": [
           {
             "id": "5i",
             "question": "What happens to Nripen to prevent him from running away?",
-            "options": ["He is locked in a room", "He is kept chained to the loom", "He is tied to a camel", "He is beaten"],
+            "options": [
+              "He is locked in a room",
+              "He is kept chained to the loom",
+              "He is tied to a camel",
+              "He is beaten"
+            ],
             "correct": 1,
             "explanation_bn": "নৃপেনকে যাতে পালিয়ে যেতে না পারে সেজন্য তাঁতের সাথে শিকল দিয়ে বাঁধা হয়।",
             "explanation_en": "Nripen is kept chained to the loom to prevent him from running away."
@@ -312,7 +626,12 @@
           {
             "id": "5ii",
             "question": "What happened to Shafi at an early age?",
-            "options": ["He was adopted", "He was kidnapped at an early age", "He ran away from home", "He went to school"],
+            "options": [
+              "He was adopted",
+              "He was kidnapped at an early age",
+              "He ran away from home",
+              "He went to school"
+            ],
             "correct": 1,
             "explanation_bn": "শফিকে তিন বছর বয়সে অপহরণ করা হয়েছিল।",
             "explanation_en": "Shafi was kidnapped at the age of three."
@@ -320,7 +639,12 @@
           {
             "id": "5iii",
             "question": "Who gets beaten up if preferred by passengers?",
-            "options": ["Nripen", "Farida", "Rahim", "Shafi"],
+            "options": [
+              "Nripen",
+              "Farida",
+              "Rahim",
+              "Shafi"
+            ],
             "correct": 2,
             "explanation_bn": "রহিমকে যাত্রীদের পছন্দ হলে বয়স্ক কুলিরা মারধর করে।",
             "explanation_en": "Rahim gets beaten up by adult porters if preferred by passengers."
@@ -328,7 +652,12 @@
           {
             "id": "5iv",
             "question": "Who suffers as a camel jockey?",
-            "options": ["Rahim", "Farida", "Nripen", "Shafi"],
+            "options": [
+              "Rahim",
+              "Farida",
+              "Nripen",
+              "Shafi"
+            ],
             "correct": 3,
             "explanation_bn": "শফিকে উটের জকি হিসেবে ব্যবহার করা হতো।",
             "explanation_en": "Shafi suffered as a camel jockey."
@@ -336,7 +665,12 @@
           {
             "id": "5v",
             "question": "Why does Rahim get less payment?",
-            "options": ["Because he is too young", "Because he cannot carry heavy loads", "Because he works less", "Because he is lazy"],
+            "options": [
+              "Because he is too young",
+              "Because he cannot carry heavy loads",
+              "Because he works less",
+              "Because he is lazy"
+            ],
             "correct": 1,
             "explanation_bn": "রহিম ভারি বোঝা বহন করতে না পারায় কম মজুরি পায়।",
             "explanation_en": "Rahim gets less payment because he cannot carry heavy loads."
@@ -346,7 +680,12 @@
           {
             "id": "6a",
             "question": "Nripen is kept chained to the loom.",
-            "options": ["True", "False", "Not mentioned", "He is free to move"],
+            "options": [
+              "True",
+              "False",
+              "Not mentioned",
+              "He is free to move"
+            ],
             "correct": 0,
             "explanation_bn": "নৃপেনকে তাঁতের সাথে শিকল দিয়ে বাঁধা রাখা হয়।",
             "explanation_en": "Nripen is kept chained to the loom."
@@ -354,7 +693,12 @@
           {
             "id": "6b",
             "question": "Nripen is a Bangladeshi.",
-            "options": ["True", "False. Nripen is a Nepalese.", "False. Nripen is an Indian.", "False. Nripen is a Pakistani."],
+            "options": [
+              "True",
+              "False. Nripen is a Nepalese.",
+              "False. Nripen is an Indian.",
+              "False. Nripen is a Pakistani."
+            ],
             "correct": 1,
             "explanation_bn": "নৃপেন নেপালের বাসিন্দা, বাংলাদেশি নয়।",
             "explanation_en": "Nripen is a Nepalese, not a Bangladeshi."
@@ -362,7 +706,12 @@
           {
             "id": "6c",
             "question": "Farida is allowed to go out of the house.",
-            "options": ["True", "False. She is locked inside.", "Not mentioned", "She goes out for education"],
+            "options": [
+              "True",
+              "False. She is locked inside.",
+              "Not mentioned",
+              "She goes out for education"
+            ],
             "correct": 1,
             "explanation_bn": "ফরিদাকে বাড়ির বাইরে যেতে দেওয়া হয় না; তাকে তালা দিয়ে আটকে রাখা হয়।",
             "explanation_en": "Farida is not allowed to go out; she is locked inside the house."
@@ -370,7 +719,12 @@
           {
             "id": "6d",
             "question": "Rahim works as a porter at a railway station.",
-            "options": ["True", "False", "Not mentioned", "He works in a factory"],
+            "options": [
+              "True",
+              "False",
+              "Not mentioned",
+              "He works in a factory"
+            ],
             "correct": 0,
             "explanation_bn": "রহিম একটি রেলওয়ে স্টেশনে কুলির কাজ করে।",
             "explanation_en": "Rahim works as a porter at a railway station."
@@ -378,7 +732,12 @@
           {
             "id": "6e",
             "question": "Shafi suffered as a camel jockey.",
-            "options": ["True", "False. Shafi worked as a servant.", "False. Shafi worked as a weaver.", "False. Shafi was a student."],
+            "options": [
+              "True",
+              "False. Shafi worked as a servant.",
+              "False. Shafi worked as a weaver.",
+              "False. Shafi was a student."
+            ],
             "correct": 0,
             "explanation_bn": "শফি উটের জকি হিসেবে কষ্ট ভোগ করেছিল।",
             "explanation_en": "Shafi suffered as a camel jockey."
@@ -414,31 +773,46 @@
           "valid_sentences": [
             {
               "sentence": "Drug addiction is now a global problem.",
-              "combination": ["Drug addiction is now", "a global problem."],
+              "combination": [
+                "Drug addiction is now",
+                "a global problem."
+              ],
               "explanation_en": "This states that drug addiction is a worldwide issue.",
               "explanation_bn": "এটি মাদকাসক্তিকে বিশ্বব্যাপী সমস্যা হিসেবে চিহ্নিত করে।"
             },
             {
               "sentence": "Frustration is the cause of this addiction.",
-              "combination": ["Frustration is", "the cause of this addiction."],
+              "combination": [
+                "Frustration is",
+                "the cause of this addiction."
+              ],
               "explanation_en": "Frustration leads to drug addiction.",
               "explanation_bn": "হতাশা মাদকাসক্তির কারণ।"
             },
             {
               "sentence": "Drugs bear a terrible effect on the human body and mind.",
-              "combination": ["Drugs bear a terrible effect", "on the human body and mind."],
+              "combination": [
+                "Drugs bear a terrible effect",
+                "on the human body and mind."
+              ],
               "explanation_en": "Drugs have harmful effects on both body and mind.",
               "explanation_bn": "মাদক মানব দেহ ও মনের ওপর ভয়ানক প্রভাব ফেলে।"
             },
             {
               "sentence": "They kill them slowly but surely.",
-              "combination": ["They kill them", "slowly but surely."],
+              "combination": [
+                "They kill them",
+                "slowly but surely."
+              ],
               "explanation_en": "Drugs destroy people gradually but certainly.",
               "explanation_bn": "এগুলো মানুষকে ধীরে কিন্তু নিশ্চিতভাবে হত্যা করে।"
             },
             {
               "sentence": "This curse should not be allowed to go on unchecked.",
-              "combination": ["This curse should not", "be allowed to go on unchecked."],
+              "combination": [
+                "This curse should not",
+                "be allowed to go on unchecked."
+              ],
               "explanation_en": "Drug addiction must be controlled and stopped.",
               "explanation_bn": "এই অভিশাপকে অনিয়ন্ত্রিতভাবে চলতে দেওয়া উচিত নয়।"
             }
@@ -452,16 +826,49 @@
       "type": "rearrangement",
       "content": {
         "sentences": [
-          { "id": "a", "text": "I traveled with my parents and brother, Bashir, to Khulna where my uncle lived." },
-          { "id": "b", "text": "We bought a ticket at the railway station at Rangpur and got into the train." },
-          { "id": "c", "text": "And I thought that the trees, houses, people and stations all went quickly back to Rangpur." },
-          { "id": "d", "text": "A very important event in my life happened last week." },
-          { "id": "e", "text": "The train went very quickly towards Khulna." },
-          { "id": "f", "text": "Then the train started." },
-          { "id": "g", "text": "Suddenly the train blew its whistle and I jumped." },
-          { "id": "h", "text": "I went on my first train journey." }
+          {
+            "id": "a",
+            "text": "I traveled with my parents and brother, Bashir, to Khulna where my uncle lived."
+          },
+          {
+            "id": "b",
+            "text": "We bought a ticket at the railway station at Rangpur and got into the train."
+          },
+          {
+            "id": "c",
+            "text": "And I thought that the trees, houses, people and stations all went quickly back to Rangpur."
+          },
+          {
+            "id": "d",
+            "text": "A very important event in my life happened last week."
+          },
+          {
+            "id": "e",
+            "text": "The train went very quickly towards Khulna."
+          },
+          {
+            "id": "f",
+            "text": "Then the train started."
+          },
+          {
+            "id": "g",
+            "text": "Suddenly the train blew its whistle and I jumped."
+          },
+          {
+            "id": "h",
+            "text": "I went on my first train journey."
+          }
         ],
-        "correctOrder": ["d", "h", "a", "b", "g", "f", "e", "c"],
+        "correctOrder": [
+          "d",
+          "h",
+          "a",
+          "b",
+          "g",
+          "f",
+          "e",
+          "c"
+        ],
         "reconstructedParagraph": "A very important event in my life happened last week. I went on my first train journey. I traveled with my parents and brother, Bashir, to Khulna where my uncle lived. We bought a ticket at the railway station at Rangpur and got into the train. Suddenly the train blew its whistle and I jumped. Then the train started. The train went very quickly towards Khulna. And I thought that the trees, houses, people and stations all went quickly back to Rangpur."
       }
     },
@@ -474,7 +881,12 @@
           {
             "id": "10a",
             "question": "Who wrote the poem 'Whose Child Is This?'?",
-            "options": ["Robert Louis Stevenson", "William Wordsworth", "The poet is unknown", "Rabindranath Tagore"],
+            "options": [
+              "Robert Louis Stevenson",
+              "William Wordsworth",
+              "The poet is unknown",
+              "Rabindranath Tagore"
+            ],
             "correct": 2,
             "explanation_bn": "'Whose Child Is This?' কবিতার রচয়িতা অজানা।",
             "explanation_en": "The writer of the poem 'Whose Child Is This?' is unknown."
@@ -482,7 +894,12 @@
           {
             "id": "10b",
             "question": "According to the poem 'Whose Child Is This?', it is a noble and divine task to ---",
-            "options": ["punish a child", "love and teach a child", "ignore a child", "scold a child"],
+            "options": [
+              "punish a child",
+              "love and teach a child",
+              "ignore a child",
+              "scold a child"
+            ],
             "correct": 1,
             "explanation_bn": "একটি শিশুকে ভালোবাসা ও শিক্ষা দেওয়া একটি মহৎ ও পবিত্র কাজ।",
             "explanation_en": "It is a noble and divine task to love and teach a child."
@@ -490,7 +907,12 @@
           {
             "id": "10c",
             "question": "According to the poem 'Whose Child Is This?', what are the responsibilities of a teacher?",
-            "options": ["To punish the child", "To teach good behavior, guide his mind, help him follow rules and learn at school", "To ignore the child", "To feed the child"],
+            "options": [
+              "To punish the child",
+              "To teach good behavior, guide his mind, help him follow rules and learn at school",
+              "To ignore the child",
+              "To feed the child"
+            ],
             "correct": 1,
             "explanation_bn": "শিক্ষকের দায়িত্ব হল শিশুকে সদাচরণ শেখানো, তার মনকে পরিচালিত করা, নিয়ম মেনে চলতে সাহায্য করা এবং বিদ্যালয়ে শেখানো।",
             "explanation_en": "The responsibilities of a teacher are to teach good behavior, guide his mind, help him follow rules, and help him learn at school."
@@ -498,7 +920,12 @@
           {
             "id": "10d",
             "question": "The poet thinks that we have no time to stand and stare, because ---",
-            "options": ["we are lazy", "our life is full of responsibilities", "we don't like nature", "we are always sleeping"],
+            "options": [
+              "we are lazy",
+              "our life is full of responsibilities",
+              "we don't like nature",
+              "we are always sleeping"
+            ],
             "correct": 1,
             "explanation_bn": "কবি মনে করেন আমাদের জীবন দায়িত্বে পূর্ণ বলে প্রকৃতি উপভোগ করার সময় নেই।",
             "explanation_en": "The poet thinks we have no time to stand and stare because our life is full of responsibilities."
@@ -506,7 +933,12 @@
           {
             "id": "10e",
             "question": "According to the poem 'Leisure', there is no time to see the beauty of nature, because ---",
-            "options": ["we are too busy", "life is full of responsibilities and worries", "we don't like nature", "we are always sleeping"],
+            "options": [
+              "we are too busy",
+              "life is full of responsibilities and worries",
+              "we don't like nature",
+              "we are always sleeping"
+            ],
             "correct": 1,
             "explanation_bn": "জীবন দায়িত্ব ও দুশ্চিন্তায় পূর্ণ বলে প্রকৃতির সৌন্দর্য দেখার সময় নেই।",
             "explanation_en": "There is no time to see the beauty of nature because life is full of responsibilities and worries."
@@ -514,7 +946,12 @@
           {
             "id": "10f",
             "question": "According to the poem 'Leisure', what would we see if we had time to stare?",
-            "options": ["Only the sky", "Where squirrels hide their nuts and how streams shine", "Nothing special", "The city streets"],
+            "options": [
+              "Only the sky",
+              "Where squirrels hide their nuts and how streams shine",
+              "Nothing special",
+              "The city streets"
+            ],
             "correct": 1,
             "explanation_bn": "সময় থাকলে আমরা দেখতে পেতাম কাঠবিড়ালি কোথায় বাদাম লুকায় এবং কীভাবে স্রোতধারা ঝলমল করে।",
             "explanation_en": "We would see where squirrels hide their nuts and how the streams shine."
@@ -522,7 +959,12 @@
           {
             "id": "10g",
             "question": "According to the poem 'From a Railway Carriage', the stations are ---",
-            "options": ["crowded", "painted", "empty", "big"],
+            "options": [
+              "crowded",
+              "painted",
+              "empty",
+              "big"
+            ],
             "correct": 1,
             "explanation_bn": "'From a Railway Carriage' কবিতা অনুসারে স্টেশনগুলো রঙিন।",
             "explanation_en": "According to the poem, the stations are painted."
@@ -530,7 +972,12 @@
           {
             "id": "10h",
             "question": "In the poem 'From a Railway Carriage', what does the phrase 'whistle by' mean?",
-            "options": ["The train stops at stations", "The train moves quickly past the stations", "The train whistles loudly", "The train breaks down"],
+            "options": [
+              "The train stops at stations",
+              "The train moves quickly past the stations",
+              "The train whistles loudly",
+              "The train breaks down"
+            ],
             "correct": 1,
             "explanation_bn": "'Whistle by' অর্থ ট্রেনটি স্টেশন পেরিয়ে দ্রুত চলে যাওয়া।",
             "explanation_en": "'Whistle by' means the train moves quickly past the stations."

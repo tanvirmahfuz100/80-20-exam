@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { useSearchParams, useNavigate, Link } from 'react-router-dom';
+import LoadingScreen from '../components/LoadingScreen';
 import {
   ArrowLeft, Lock, CheckCircle, Zap, Star, Trophy,
   BrainCircuit, TrendingUp, Sparkles
@@ -104,14 +105,7 @@ const LevelSelect = () => {
     navigate(`/quiz/${chapterId}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(title)}&level=${levelNumber}`);
   };
 
-  if (loading) {
-    return (
-      <div className="min-h-[60vh] flex flex-col items-center justify-center space-y-4">
-        <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin" />
-        <p className="text-white/20 font-black uppercase tracking-widest text-[10px]">Loading levels...</p>
-      </div>
-    );
-  }
+  if (loading) return <LoadingScreen message="Loading levels..." />;
 
   if (error) {
     return (

@@ -8,6 +8,7 @@ import LottieAnimation from '../components/LottieAnimation';
 import targetAnimation from '../assets/target.json';
 import meditatingBrainAnimation from '../assets/meditating-brain.json';
 import { api } from '../services/api';
+import LoadingScreen from '../components/LoadingScreen';
 
 const icons = {
     english: Book,
@@ -446,12 +447,7 @@ const PracticeConfig = () => {
         }
     };
 
-    if (loading) return (
-        <div className="flex flex-col items-center justify-center p-20 space-y-4">
-            <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
-            <p className="text-white/20 font-black uppercase tracking-[0.3em] text-[10px]">Getting ready...</p>
-        </div>
-    );
+    if (loading) return <LoadingScreen message="Getting ready..." />;
 
     if (error) return (
         <div className="p-6 md:p-10 bg-yellow-500/10 border border-yellow-500/20 rounded-2xl md:rounded-[2rem] flex flex-col items-center gap-4 text-center">

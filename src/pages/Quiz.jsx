@@ -16,6 +16,7 @@ import {
 import GapFillPassage from '../components/GapFillPassage';
 import SubstitutionTableExercise from '../components/SubstitutionTableExercise';
 import ModelTest from '../components/ModelTest';
+import LoadingScreen from '../components/LoadingScreen';
 import { playSound } from '../utils/sounds';
 import { computeLevels, saveLevelProgress, addXp, addStars, completeDailyChallengeById, advanceWeeklyChallenge } from '../services/levels';
 
@@ -195,6 +196,7 @@ const Quiz = () => {
     const [currentLevel, setCurrentLevel] = useState(null);
     const [levelSessionSaved, setLevelSessionSaved] = useState(false);
     const [wrongAttempts, setWrongAttempts] = useState(0);
+    const [modelTestTotal, setModelTestTotal] = useState(0);
     const scoredIdsRef = useRef(new Set());
     const levelRef = useRef(null);
 
@@ -386,10 +388,10 @@ const Quiz = () => {
                 chapter_id: chapterId || file || 'unknown_chapter',
                 chapter_title: title || 'Practice Session',
                 source_file: file || null,
-                total_questions: questions.length,
+                total_questions: modelTestTotal || questions.length,
                 correct_answers: score,
-                wrong_answers: questions.length - score,
-                accuracy: questions.length > 0 ? Number(((score / questions.length) * 100).toFixed(2)) : 0,
+                wrong_answers: (modelTestTotal || questions.length) - score,
+                accuracy: (modelTestTotal || questions.length) > 0 ? Number(((score / (modelTestTotal || questions.length)) * 100).toFixed(2)) : 0,
                 mode: isTimedMode ? 'timed' : 'untimed'
             };
 
@@ -409,7 +411,8 @@ const Quiz = () => {
             }
 
             if (currentLevel && chapterId && !levelSessionSaved) {
-                const accuracy = questions.length > 0 ? Math.round((score / questions.length) * 100) : 0;
+                const totalQ = modelTestTotal || questions.length;
+                const accuracy = totalQ > 0 ? Math.round((score / totalQ) * 100) : 0;
                 const levelStars = wrongAttempts;
                 saveLevelProgress(user.id, chapterId, currentLevel, {
                     completed: true,
@@ -489,7 +492,8 @@ const Quiz = () => {
     const finishSoundPlayedRef = React.useRef(false);
     useEffect(() => {
         if (isFinished && questions.length > 0 && !finishSoundPlayedRef.current) {
-            const accuracy = Math.round((score / questions.length) * 100);
+            const totalQ = modelTestTotal || questions.length;
+            const accuracy = Math.round((score / totalQ) * 100);
             if (accuracy === 100) {
                 playSound('bonus');
             } else if (accuracy >= 80) {
@@ -608,12 +612,16 @@ const Quiz = () => {
         }
     };
 
-    if (loading) return (
-        <div className="min-h-[60vh] flex flex-col items-center justify-center space-y-4">
-            <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
-            <p className="text-white/20 font-black uppercase tracking-widest text-[10px]">Loading practice session...</p>
-        </div>
-    );
+    const nextModelFile = useMemo(() => {
+        if (!file) return null;
+        const match = file.match(/model_(\d+)\.json$/);
+        if (!match) return null;
+        const num = parseInt(match[1], 10);
+        const next = String(num + 1).padStart(match[1].length, '0');
+        return file.replace(/model_\d+\.json$/, `model_${next}.json`);
+    }, [file]);
+
+    if (loading) return <LoadingScreen message="Loading practice session..." />;
 
     if (error) return (
         <div className="max-w-md mx-auto p-6 md:p-10 bg-yellow-500/10 border border-yellow-500/20 rounded-2xl md:rounded-[2rem] text-center shadow-lg">
@@ -629,7 +637,8 @@ const Quiz = () => {
     );
 
     if (isFinished) {
-        const accuracy = Math.round((score / questions.length) * 100) || 0;
+        const totalQ = modelTestTotal || questions.length;
+        const accuracy = Math.round((score / totalQ) * 100) || 0;
         const earnedXp = score * 10;
         const earnedStars = wrongAttempts;
 
@@ -653,7 +662,7 @@ const Quiz = () => {
                                     <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Accuracy</div>
                                 </div>
                                 <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
-                                    <div className="text-emerald-500 font-black text-lg md:text-3xl mb-0.5">{score}/{questions.length}</div>
+                                    <div className="text-emerald-500 font-black text-lg md:text-3xl mb-0.5">{score}/{modelTestTotal || questions.length}</div>
                                     <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Correct</div>
                                 </div>
                             </div>
@@ -725,7 +734,7 @@ const Quiz = () => {
                                 <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Accuracy</div>
                             </div>
                             <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
-                                <div className="text-emerald-500 font-black text-lg md:text-3xl mb-0.5">{score}/{questions.length}</div>
+                                <div className="text-emerald-500 font-black text-lg md:text-3xl mb-0.5">{score}/{modelTestTotal || questions.length}</div>
                                 <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Correct</div>
                             </div>
                             <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
@@ -743,7 +752,26 @@ const Quiz = () => {
                             <button onClick={() => window.location.reload()} className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] shadow-lg shadow-primary/20 transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch">
                                 <RefreshCw className="w-4 h-4 md:w-4 md:h-4" aria-hidden="true" /> Try Again
                             </button>
+                            {nextModelFile && (
+                                <button
+                                    onClick={() => {
+                                        const nextTitle = title?.replace(/Model Test \d+/, m => {
+                                            const n = parseInt(m.match(/\d+/)?.[0] || '0', 10) + 1;
+                                            return `Model Test ${String(n).padStart(2, '0')}`;
+                                        });
+                                        navigate(`/quiz/${chapterId}?file=${encodeURIComponent(nextModelFile)}&title=${encodeURIComponent(nextTitle || title)}&chapterId=${chapterId}`);
+                                    }}
+                                    className="flex-1 py-3 md:py-4 bg-emerald-500 hover:bg-emerald-400 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] shadow-lg shadow-emerald-500/20 transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
+                                >
+                                    Next Model
+                                </button>
+                            )}
                         </div>
+                        {file?.includes('model_') && (
+                            <button onClick={() => navigate('/practice')} className="text-[9px] font-bold text-white/20 hover:text-white/40 transition-colors mt-2">
+                                ← All Model Tests
+                            </button>
+                        )}
                     </div>
                 </div>
             </div>
@@ -880,6 +908,7 @@ const Quiz = () => {
                             key={currentQ.modelId}
                             chapters={currentQ.chapters}
                             fontSize={quizFontSize}
+                            onCorrectAttempt={() => playSound('correctAnswer')}
                             onWrongAttempt={() => {
                                 playSound('star');
                                 addMistake(currentQ.id || currentQ.modelId, currentQ, { file, title, chapterId });
@@ -888,6 +917,7 @@ const Quiz = () => {
                             }}
                             onContinue={(found, total) => {
                                 setScore(s => s + found);
+                                setModelTestTotal(total);
                                 setResults(prev => [...prev, {
                                     id: currentQ.id || currentQ.modelId,
                                     isCorrect: found > 0,

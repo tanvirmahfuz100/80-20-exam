@@ -5,6 +5,7 @@ import { useAuth } from '../context/AuthContext';
 import { api } from '../services/api';
 import { Rocket, CheckList } from '../components/Illustrations';
 import LottieAnimation from '../components/LottieAnimation';
+import LoadingScreen from '../components/LoadingScreen';
 import gameControllerAnimation from '../assets/game-controller.json';
 import speedometerAnimation from '../assets/speedometer.json';
 import particleWaveAnimation from '../assets/particle-wave.json';
@@ -185,16 +186,7 @@ const Dashboard = () => {
   const nextLevelXp = level * 100;
   const xpInLevel = totalXp - (level - 1) * 100;
 
-  if (loading) {
-    return (
-      <div className="flex items-center justify-center min-h-[60vh]">
-        <div className="flex flex-col items-center gap-3">
-          <div className="w-7 h-7 border-2 border-primary/30 border-t-primary rounded-full animate-spin" />
-          <p className="text-xs font-black uppercase tracking-widest text-white/20">Loading dashboard...</p>
-        </div>
-      </div>
-    );
-  }
+  if (loading) return <LoadingScreen message="Loading dashboard..." />;
 
   return (
     <Motion.div variants={containerVariants} initial="hidden" animate="show" className="space-y-3 pb-20 md:pb-10 max-w-4xl mx-auto">

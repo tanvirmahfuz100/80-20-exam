@@ -5,6 +5,8 @@ import GapFillPassage from './GapFillPassage';
 import SubstitutionTableExercise from './SubstitutionTableExercise';
 import Rearrangement from './Rearrangement';
 
+
+
 const typeConfig = {
   passage_mcq: { icon: BookOpen, color: 'text-blue-400', bg: 'bg-blue-400/10', border: 'border-blue-400/20' },
   gap_fill_vocab: { icon: PenTool, color: 'text-emerald-400', bg: 'bg-emerald-400/10', border: 'border-emerald-400/20' },
@@ -77,7 +79,7 @@ const VocabChip = ({ vocab, onClick }) => (
   </button>
 );
 
-const ModelTest = ({ chapters, fontSize, onWrongAttempt, onContinue }) => {
+const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onContinue }) => {
   const [currentIdx, setCurrentIdx] = useState(0);
   const [completedSet, setCompletedSet] = useState(new Set());
   const [phase, setPhase] = useState(() => getInitialPhase(chapters[0]?.type));
@@ -86,6 +88,7 @@ const ModelTest = ({ chapters, fontSize, onWrongAttempt, onContinue }) => {
   const [mcqIndex, setMcqIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
   const [isAnswered, setIsAnswered] = useState(false);
+  const [showPassage, setShowPassage] = useState(false);
 
   const scoreRef = useRef(0);
   const questionsRef = useRef(0);
@@ -111,14 +114,22 @@ const ModelTest = ({ chapters, fontSize, onWrongAttempt, onContinue }) => {
     setSelectedOption(null);
     setIsAnswered(false);
     setActiveVocab(null);
+    setShowPassage(false);
   }, [chapter?.type]);
 
   const advanceToNextChapter = useCallback(() => {
     if (!isLast) {
-      setCurrentIdx(prev => prev + 1);
+      const nextIdx = currentIdx + 1;
+      const nextChapter = chapters[nextIdx];
+      setCurrentIdx(nextIdx);
+      setPhase(getInitialPhase(nextChapter?.type));
+      setMcqIndex(0);
+      setSelectedOption(null);
+      setIsAnswered(false);
+      setActiveVocab(null);
+      setShowPassage(false);
     }
-    resetChapter();
-  }, [isLast, resetChapter]);
+  }, [isLast, currentIdx, chapters]);
 
   const completeChapter = useCallback((chapterQCount) => {
     const newSet = new Set(completedSet);
@@ -129,10 +140,17 @@ const ModelTest = ({ chapters, fontSize, onWrongAttempt, onContinue }) => {
     if (isLast) {
       onContinue?.(scoreRef.current, questionsRef.current);
     } else {
-      setCurrentIdx(prev => prev + 1);
-      resetChapter();
+      const nextIdx = currentIdx + 1;
+      const nextChapter = chapters[nextIdx];
+      setCurrentIdx(nextIdx);
+      setPhase(getInitialPhase(nextChapter?.type));
+      setMcqIndex(0);
+      setSelectedOption(null);
+      setIsAnswered(false);
+      setActiveVocab(null);
+      setShowPassage(false);
     }
-  }, [currentIdx, isLast, completedSet, onContinue, resetChapter]);
+  }, [currentIdx, isLast, chapters, completedSet, onContinue]);
 
   const passageContent = chapter?.type === 'passage_mcq' ? chapter.content : null;
   const summaryContent = chapter?.type === 'passage_summary' ? chapter.content : null;
@@ -147,6 +165,7 @@ const ModelTest = ({ chapters, fontSize, onWrongAttempt, onContinue }) => {
     if (chapter?.type === 'passage_mcq') return chapter.content?.questions || [];
     if (chapter?.type === 'passage_summary') return [...(chapter.content?.mcqQuestions || []), ...(chapter.content?.trueFalseQuestions || [])];
     if (chapter?.type === 'poetry_mcq') return chapter.content?.questions || [];
+    if (chapter?.type === 'gap_fill_vocab') return chapter.content?.vocabQuestions || [];
     return [];
   }, [chapter]);
 
@@ -160,11 +179,12 @@ const ModelTest = ({ chapters, fontSize, onWrongAttempt, onContinue }) => {
       if (optIdx === q.correct) {
         scoreRef.current += 1;
         rerender();
+        onCorrectAttempt?.();
       } else {
         onWrongAttempt?.();
       }
     }
-  }, [isAnswered, allQuestions, mcqIndex, onWrongAttempt, rerender]);
+  }, [isAnswered, allQuestions, mcqIndex, onWrongAttempt, onCorrectAttempt, rerender]);
 
   const handleMCQNext = useCallback(() => {
     if (mcqIndex < allQuestions.length - 1) {
@@ -208,11 +228,12 @@ const ModelTest = ({ chapters, fontSize, onWrongAttempt, onContinue }) => {
       if (isCorrect) {
         scoreRef.current += 1;
         rerender();
+        onCorrectAttempt?.();
       } else {
         onWrongAttempt?.();
       }
     }
-  }, [currentIdx, onWrongAttempt, rerender]);
+  }, [currentIdx, onWrongAttempt, onCorrectAttempt, rerender]);
 
   const handleGapFillContinue = useCallback(() => {
     setPhase('vocabQuestions');
@@ -284,6 +305,23 @@ const ModelTest = ({ chapters, fontSize, onWrongAttempt, onContinue }) => {
             transition={{ duration: 0.2 }}
             className="space-y-2"
           >
+            <div className="flex items-center justify-between">
+              <span className="text-[9px] font-black text-white/30 uppercase tracking-wider">
+                Question {mcqIndex + 1} of {allQuestions.length}
+              </span>
+              <div className="flex items-center gap-1">
+                <span className="text-[9px] font-black text-emerald-400/60 uppercase tracking-wider">
+                  Done
+                </span>
+                <span className="text-[10px] font-black tabular-nums text-emerald-400">
+                  {mcqIndex + (isAnswered ? 1 : 0)}
+                </span>
+                <span className="text-[9px] text-white/20">/</span>
+                <span className="text-[10px] font-black tabular-nums text-white/40">
+                  {allQuestions.length}
+                </span>
+              </div>
+            </div>
             <div className="bg-white/[0.04] border border-white/[0.06] rounded-xl p-3">
               <p className="font-black text-white leading-snug" style={{ fontSize: `${fontSize}px` }}>
                 {q.question}
@@ -465,9 +503,65 @@ const ModelTest = ({ chapters, fontSize, onWrongAttempt, onContinue }) => {
           </div>
         )}
 
-        {chapter.type === 'passage_mcq' && phase === 'questions' && renderMCQs()}
+        {chapter.type === 'passage_mcq' && phase === 'questions' && (
+          <div className="flex-1 flex flex-col min-h-0">
+            <button
+              onClick={() => setShowPassage(v => !v)}
+              className="shrink-0 self-start mb-2 flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-white/60 hover:text-white/80 transition-all text-[10px] font-bold uppercase tracking-wider"
+            >
+              <BookOpen className="w-3 h-3" />
+              {showPassage ? 'Hide Passage' : 'See Passage'}
+            </button>
+            <AnimatePresence>
+              {showPassage && (
+                <motion.div
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: 'auto' }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.2 }}
+                  className="overflow-hidden shrink-0"
+                >
+                  <div className="mb-3 p-3 rounded-xl bg-white/[0.03] border border-white/10 max-h-48 overflow-y-auto">
+                    <p className="text-white/70 font-medium leading-relaxed whitespace-pre-wrap text-[13px]">
+                      {currentPassage}
+                    </p>
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+            {renderMCQs()}
+          </div>
+        )}
 
-        {chapter.type === 'passage_summary' && phase === 'questions' && renderMCQs()}
+        {chapter.type === 'passage_summary' && phase === 'questions' && (
+          <div className="flex-1 flex flex-col min-h-0">
+            <button
+              onClick={() => setShowPassage(v => !v)}
+              className="shrink-0 self-start mb-2 flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-white/60 hover:text-white/80 transition-all text-[10px] font-bold uppercase tracking-wider"
+            >
+              <BookOpen className="w-3 h-3" />
+              {showPassage ? 'Hide Passage' : 'See Passage'}
+            </button>
+            <AnimatePresence>
+              {showPassage && (
+                <motion.div
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: 'auto' }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.2 }}
+                  className="overflow-hidden shrink-0"
+                >
+                  <div className="mb-3 p-3 rounded-xl bg-white/[0.03] border border-white/10 max-h-48 overflow-y-auto">
+                    <p className="text-white/70 font-medium leading-relaxed whitespace-pre-wrap text-[13px]">
+                      {currentPassage}
+                    </p>
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+            {renderMCQs()}
+          </div>
+        )}
 
         {chapter.type === 'passage_summary' && phase === 'summary' && (
           <div className="flex-1 flex flex-col min-h-0 gap-2.5">

@@ -5,6 +5,7 @@ import { useAuth } from '../context/AuthContext';
 import { Books } from '../components/Illustrations';
 import LottieAnimation from '../components/LottieAnimation';
 import booksAnimation from '../assets/books.json';
+import LoadingScreen from '../components/LoadingScreen';
 
 const Courses = () => {
     const { profile } = useAuth();
@@ -27,12 +28,7 @@ const Courses = () => {
         ? courses
         : courses.filter(c => c.exam_category === filter);
 
-    if (loading) return (
-        <div className="flex flex-col items-center justify-center p-20 space-y-4">
-            <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
-            <p className="text-white/20 font-black uppercase tracking-[0.3em] text-[10px]">Loading Courses...</p>
-        </div>
-    );
+    if (loading) return <LoadingScreen message="Loading Courses..." />;
 
     return (
         <div className="max-w-7xl mx-auto space-y-8 md:space-y-12">

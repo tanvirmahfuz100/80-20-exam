@@ -7,6 +7,7 @@ import {
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import LottieAnimation from '../components/LottieAnimation';
+import LoadingScreen from '../components/LoadingScreen';
 import dataAnalyticsAnimation from '../assets/data-analytics.json';
 
 const containerVariants = {
@@ -179,12 +180,7 @@ const Analytics = () => {
     downloadFile(`progress-attempts-${stamp}.csv`, csv, 'text/csv;charset=utf-8');
   };
 
-  if (loading) return (
-    <div className="flex flex-col items-center justify-center min-h-[60vh] space-y-4">
-      <div className="w-10 h-10 border-[3px] border-primary border-t-transparent rounded-full animate-spin" />
-      <p className="text-white/20 font-black uppercase tracking-[0.3em] text-[10px]">Loading your stats...</p>
-    </div>
-  );
+  if (loading) return <LoadingScreen message="Loading your stats..." />;
 
   const accuracyLabel = getAccuracyLabel();
   const readinessLabel = getReadinessLabel();
