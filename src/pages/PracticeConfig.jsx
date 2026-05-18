@@ -131,7 +131,7 @@ const InactiveExam = ({ exam }) => {
     );
 };
 
-const SubjectCard = ({ subject, isSelected, onClick, progress }) => {
+const SubjectCard = ({ subject, isSelected, onClick, progress, version }) => {
     const Icon = icons[subject.id] || Book;
     const moduleCount = subject.topics?.reduce((acc, t) => acc + t.chapters.length, 0) || 0;
     const pct = progress.total > 0 ? Math.min(Math.round((progress.completed / progress.total) * 100), 100) : 0;
@@ -162,7 +162,7 @@ const SubjectCard = ({ subject, isSelected, onClick, progress }) => {
                 <div className="min-w-0 break-words">
                     <h3 className={`font-black tracking-tight text-sm leading-tight ${
                         isSelected ? 'text-white' : 'text-white/60 group-hover:text-white/80'
-                    }`}>{subject.name}</h3>
+                    }`}>{version === 'english' ? (subject.name_en || subject.name) : (subject.name_bn || subject.name)}</h3>
                     <p className="text-[10px] font-black uppercase tracking-[0.15em] text-white/20 mt-0.5">{moduleCount} MODULES</p>
                 </div>
 
@@ -184,9 +184,19 @@ const SubjectCard = ({ subject, isSelected, onClick, progress }) => {
     );
 };
 
-const ChapterItem = ({ chapter, onClick, questionCount, completedCount, index }) => {
+const getChapterName = (chapter, topic, version) => {
+    if (topic.chapters.length <= 1) {
+        const localized = version === 'english'
+            ? (topic.name_en || topic.name)
+            : (topic.name_bn || topic.name);
+        return localized;
+    }
+    return chapter.name.replace(/ Questions$/, '');
+};
+
+const ChapterItem = ({ chapter, topic, onClick, questionCount, completedCount, index, version }) => {
     const hasQuestions = questionCount > 0;
-    const cleanName = chapter.name.replace(/ Questions$/, '');
+    const cleanName = getChapterName(chapter, topic, version);
     const padIndex = String(index + 1).padStart(2, '0');
     const pct = questionCount > 0 ? Math.min(Math.round((completedCount / questionCount) * 100), 100) : 0;
 
@@ -231,7 +241,7 @@ const ChapterItem = ({ chapter, onClick, questionCount, completedCount, index })
 
                 {hasQuestions && (
                     <button
-                        onClick={() => onClick(chapter)}
+                        onClick={() => onClick(chapter, cleanName)}
                         className="flex items-center gap-1.5 px-4 py-2.5 bg-primary text-black font-black uppercase tracking-widest rounded-xl hover:bg-primary-hover transition-all text-[9px] shadow-lg shadow-primary/10 active:scale-95 shrink-0"
                     >
                         <Play className="w-3 h-3 fill-current" />
@@ -412,9 +422,9 @@ const PracticeConfig = () => {
         else if (s === 1) { setSelectedSubject(null); }
     };
 
-    const handleStart = (chapter) => {
+    const handleStart = (chapter, displayName) => {
         const file = getChapterFile(chapter);
-        navigate(`/levels?file=${encodeURIComponent(file)}&title=${encodeURIComponent(chapter.name)}&chapterId=${chapter.id}`);
+        navigate(`/levels?file=${encodeURIComponent(file)}&title=${encodeURIComponent(displayName || chapter.name)}&chapterId=${chapter.id}`);
     };
 
     if (loading) return (
@@ -520,7 +530,7 @@ const PracticeConfig = () => {
                 ))}
                 {selectedSubject && (
                     <span className="text-white/20 ml-auto hidden sm:inline text-[9px] truncate max-w-[120px] md:max-w-[200px]">
-                        {selectedExam?.label} · {selectedSubject.name}
+                        {selectedExam?.label} · {version === 'english' ? (selectedSubject.name_en || selectedSubject.name) : (selectedSubject.name_bn || selectedSubject.name)}
                     </span>
                 )}
             </motion.div>
@@ -581,6 +591,7 @@ const PracticeConfig = () => {
                                         isSelected={selectedSubject?.id === sub.id}
                                         onClick={() => setSelectedSubject(sub)}
                                         progress={getSubjectProgress(sub)}
+                                        version={version}
                                     />
                                 </motion.div>
                             ))}
@@ -616,7 +627,7 @@ const PracticeConfig = () => {
                         >
                             <span className="text-white/30">{selectedExam.label}</span>
                             <span className="text-white/10">/</span>
-                            <span className="text-primary">{selectedSubject.name}</span>
+                            <span className="text-primary">{version === 'english' ? (selectedSubject.name_en || selectedSubject.name) : (selectedSubject.name_bn || selectedSubject.name)}</span>
                         </motion.div>
 
                         <motion.div variants={stagger} initial="initial" animate="animate" className="space-y-4">
@@ -629,7 +640,7 @@ const PracticeConfig = () => {
                                         {topic.chapters.length > 1 && (
                                             <div className="flex items-center gap-2 pb-1.5">
                                                 <div className="w-0.5 h-3 bg-primary/40 rounded-full shrink-0" />
-                                                <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/20">{topic.name}</span>
+                                                <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/20">{version === 'english' ? (topic.name_en || topic.name) : (topic.name_bn || topic.name)}</span>
                                             </div>
                                         )}
                                         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -643,8 +654,10 @@ const PracticeConfig = () => {
                                                     >
                                                         <ChapterItem
                                                             chapter={chapter}
+                                                            topic={topic}
                                                             index={ci}
                                                             onClick={handleStart}
+                                                            version={version}
                                                             questionCount={chapterQuestionCounts[getChapterFile(chapter)] ?? 0}
                                                             completedCount={chapterCompletedCounts[getChapterFile(chapter)] ?? 0}
                                                         />

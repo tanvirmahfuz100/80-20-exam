@@ -24,14 +24,30 @@ const rankFromAccuracy = (accuracy) => {
 
 const subjectFromPath = (filePath) => {
   if (!filePath) return 'General';
-  const parts = filePath.split('/');
-  const subjectPart = parts[2] || '';
-  const map = {
-    english: 'English',
-    math: 'Math',
-    analytical: 'Analytical Ability',
+  const parts = filePath.split('/').filter(Boolean);
+  const segments = parts.filter(p => !p.endsWith('.json'));
+  if (segments.length === 0) return 'General';
+
+  const examMap = {
+    ssc: 'SSC', hsc: 'HSC', iba: 'IBA', bcs: 'BCS', class7: 'Class 7',
   };
-  return map[subjectPart] || subjectPart.charAt(0).toUpperCase() + subjectPart.slice(1);
+  const subjectMap = {
+    english: 'English', math: 'Math', analytical: 'Analytical Ability',
+    accounting_1st: 'Accounting 1st Paper', accounting_2nd: 'Accounting 2nd Paper',
+    finance_1st: 'Finance 1st Paper', finance_2nd: 'Finance 2nd Paper',
+    production_1st: 'Production 1st Paper', production_2nd: 'Production 2nd Paper',
+    english_2nd: 'English 2nd Paper',
+  };
+
+  const examSlug = segments[0];
+  const subjectSlug = segments.length >= 2 ? segments[1] : null;
+
+  if (subjectSlug && subjectMap[subjectSlug]) return subjectMap[subjectSlug];
+  if (examMap[examSlug]) return examMap[examSlug];
+
+  return subjectSlug
+    ? subjectSlug.charAt(0).toUpperCase() + subjectSlug.slice(1).replace(/-/g, ' ')
+    : (examMap[examSlug] || examSlug.charAt(0).toUpperCase() + examSlug.slice(1));
 };
 
 const timeAgo = (dateStr) => {
@@ -186,8 +202,8 @@ const Dashboard = () => {
       <Motion.div variants={itemVariants} className="relative overflow-hidden rounded-2xl border border-white/[0.06] bg-surface p-4 md:p-7">
         <div className="absolute top-0 right-0 w-40 h-40 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute inset-0 flex items-start justify-center pointer-events-none">
-          <div className="w-full h-40 md:h-56 opacity-[0.12]">
-            <LottieAnimation src={particleWaveAnimation} className="w-full h-full" lottieStyle={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          <div className="w-full h-full opacity-[0.12]">
+            <LottieAnimation src={particleWaveAnimation} className="w-full h-full" lottieStyle={{ width: '100%', height: '100%', objectFit: 'cover' }} renderer="canvas" />
           </div>
         </div>
 
