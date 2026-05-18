@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Heart, Bookmark, Share2, MoreVertical, Music2, Play } from 'lucide-react';
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
+import LoadingScreen from '../components/LoadingScreen';
 
 const VideoFeed = () => {
     const { user } = useAuth();
@@ -25,11 +26,7 @@ const VideoFeed = () => {
         await api.logEngagement(user.id, videoId, action);
     };
 
-    if (loading) return (
-        <div className="h-screen flex items-center justify-center">
-            <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
-        </div>
-    );
+    if (loading) return <LoadingScreen message="Loading videos..." />;
 
     return (
         <div className="max-w-md mx-auto h-[calc(100vh-80px)] md:h-[calc(100vh-120px)] overflow-y-scroll no-scrollbar snap-y snap-mandatory bg-black rounded-2xl md:rounded-[3rem] border border-white/5 shadow-lg relative">

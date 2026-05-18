@@ -16,6 +16,7 @@ import {
 import GapFillPassage from '../components/GapFillPassage';
 import SubstitutionTableExercise from '../components/SubstitutionTableExercise';
 import ModelTest from '../components/ModelTest';
+import LoadingScreen from '../components/LoadingScreen';
 import { playSound } from '../utils/sounds';
 import { computeLevels, saveLevelProgress, addXp, addStars, completeDailyChallengeById, advanceWeeklyChallenge } from '../services/levels';
 
@@ -620,12 +621,7 @@ const Quiz = () => {
         return file.replace(/model_\d+\.json$/, `model_${next}.json`);
     }, [file]);
 
-    if (loading) return (
-        <div className="min-h-[60vh] flex flex-col items-center justify-center space-y-4">
-            <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
-            <p className="text-white/20 font-black uppercase tracking-widest text-[10px]">Loading practice session...</p>
-        </div>
-    );
+    if (loading) return <LoadingScreen message="Loading practice session..." />;
 
     if (error) return (
         <div className="max-w-md mx-auto p-6 md:p-10 bg-yellow-500/10 border border-yellow-500/20 rounded-2xl md:rounded-[2rem] text-center shadow-lg">

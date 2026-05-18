@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { api } from '../services/api';
 import { useTheme } from '../context/ThemeContext';
+import LoadingScreen from '../components/LoadingScreen';
 import {
     User, Mail, Phone, GraduationCap, CheckCircle2,
     Save, AlertCircle, Loader2, ShieldCheck, Sun, Moon
@@ -74,7 +75,7 @@ const Settings = () => {
         }
     };
 
-    if (authLoading) return null;
+    if (authLoading) return <LoadingScreen message="Loading settings..." />;
 
     return (
         <div className="max-w-4xl mx-auto space-y-8 md:space-y-12">
