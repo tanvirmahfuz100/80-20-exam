@@ -354,8 +354,6 @@
             "told",
             "class",
             "soon",
-            "asked",
-            "said",
             "school",
             "then",
             "later"
@@ -759,13 +757,15 @@
               "There lived two friends in a certain village. They promised that they would",
               "One day, they were",
               "Suddenly, they saw",
-              "One of them climbed up a tree"
+              "One of them climbed up a tree",
+              "After the bear left, he came"
             ],
             [
               "a bear coming towards them.",
               "help each other at the time of danger.",
               "without thinking about his friend.",
-              "passing through a deep forest."
+              "passing through a deep forest.",
+              "down from the tree and felt ashamed."
             ]
           ],
           "valid_sentences": [
@@ -804,6 +804,15 @@
               ],
               "explanation_en": "This shows how one friend reacted selfishly.",
               "explanation_bn": "এটি দেখায় কীভাবে একজন বন্ধু স্বার্থপরভাবে প্রতিক্রিয়া দেখিয়েছিল।"
+            },
+            {
+              "sentence": "After the bear left, he came down from the tree and felt ashamed.",
+              "combination": [
+                "After the bear left, he came",
+                "down from the tree and felt ashamed."
+              ],
+              "explanation_en": "The friend who climbed the tree came down after the bear left and felt ashamed for abandoning his friend.",
+              "explanation_bn": "ভালুক চলে যাওয়ার পর যে বন্ধুটি গাছে উঠেছিল সে নেমে এসে লজ্জিত হলো।"
             }
           ]
         }

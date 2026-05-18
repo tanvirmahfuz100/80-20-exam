@@ -1,7 +1,7 @@
 {
   "_type": "model_test",
-  "modelId": "20",
-  "title": "Model Question 20",
+  "modelId": "m20",
+  "title": "Model Test 20 - English 1st Paper",
   "chapters": [
     {
       "id": "ch1",
@@ -13,75 +13,75 @@
         "vocabulary": [
           {
             "word": "awake",
-            "parts_of_speech": "adj.",
-            "english_meaning": "not asleep",
-            "bangla_meaning": "জাগ্রত",
             "synonym": "sleepless",
-            "antonym": "asleep"
+            "antonym": "asleep",
+            "pos": "adj.",
+            "meaning_en": "not asleep",
+            "meaning_bn": "জাগ্রত"
           },
           {
             "word": "delicious",
-            "parts_of_speech": "adj.",
-            "english_meaning": "pleasant to taste or smell",
-            "bangla_meaning": "সুমধুর",
             "synonym": "sweet",
-            "antonym": "disgusting"
+            "antonym": "disgusting",
+            "pos": "adj.",
+            "meaning_en": "pleasant to taste or smell",
+            "meaning_bn": "সুমধুর"
           },
           {
             "word": "perfume",
-            "parts_of_speech": "n.",
-            "english_meaning": "pleasant smell",
-            "bangla_meaning": "সৌরভ",
             "synonym": "fragrance",
-            "antonym": "stench"
+            "antonym": "stench",
+            "pos": "n.",
+            "meaning_en": "pleasant smell",
+            "meaning_bn": "সৌরভ"
           },
           {
             "word": "creep",
-            "parts_of_speech": "v.",
-            "english_meaning": "move slowly and quietly",
-            "bangla_meaning": "হামাগুড়ি দিয়ে চলা",
             "synonym": "crawl",
-            "antonym": "rush"
+            "antonym": "rush",
+            "pos": "v.",
+            "meaning_en": "move slowly and quietly",
+            "meaning_bn": "হামাগুড়ি দিয়ে চলা"
           },
           {
             "word": "blossom",
-            "parts_of_speech": "n.",
-            "english_meaning": "flower",
-            "bangla_meaning": "ফুল",
             "synonym": "bloom",
-            "antonym": "wither"
+            "antonym": "wither",
+            "pos": "n.",
+            "meaning_en": "flower",
+            "meaning_bn": "ফুল"
           },
           {
             "word": "delightfully",
-            "parts_of_speech": "adv.",
-            "english_meaning": "in a delightful manner",
-            "bangla_meaning": "আনন্দে",
             "synonym": "joyfully",
-            "antonym": "sadly"
+            "antonym": "sadly",
+            "pos": "adv.",
+            "meaning_en": "in a delightful manner",
+            "meaning_bn": "আনন্দে"
           },
           {
             "word": "gentle",
-            "parts_of_speech": "adj.",
-            "english_meaning": "soft and kind",
-            "bangla_meaning": "আলতো",
             "synonym": "mild",
-            "antonym": "rough"
+            "antonym": "rough",
+            "pos": "adj.",
+            "meaning_en": "soft and kind",
+            "meaning_bn": "আলতো"
           },
           {
             "word": "wonderful",
-            "parts_of_speech": "adj.",
-            "english_meaning": "extremely good",
-            "bangla_meaning": "চমৎকার",
             "synonym": "marvellous",
-            "antonym": "awful"
+            "antonym": "awful",
+            "pos": "adj.",
+            "meaning_en": "extremely good",
+            "meaning_bn": "চমৎকার"
           },
           {
             "word": "lovely",
-            "parts_of_speech": "adj.",
-            "english_meaning": "beautiful",
-            "bangla_meaning": "সুন্দর",
             "synonym": "sweet",
-            "antonym": "ugly"
+            "antonym": "ugly",
+            "pos": "adj.",
+            "meaning_en": "beautiful",
+            "meaning_bn": "সুন্দর"
           }
         ],
         "questions": [
@@ -283,27 +283,67 @@
           {
             "id": "2a",
             "question": "Why did the Giant think that the King's musicians were passing by?",
-            "answer": "He thought so because he heard some lovely music that was very sweet to his ears."
+            "options": [
+              "Because he heard some lovely music that was very sweet to his ears.",
+              "Because he saw a grand procession outside his window.",
+              "Because the King had sent him a message.",
+              "Because he heard drums and trumpets from the street."
+            ],
+            "correct": 0,
+            "explanation_bn": "দৈত্যটি ভেবেছিল রাজার বাদকদল যাচ্ছে কারণ সে খুব মিষ্টি সুর শুনতে পেয়েছিল।",
+            "explanation_en": "The Giant thought the King's musicians were passing by because he heard some lovely music very sweet to his ears."
           },
           {
             "id": "2b",
             "question": "What made the Giant believe that the spring had come at last?",
-            "answer": "The sweet perfume that came through the open window made him believe that spring had come."
+            "options": [
+              "The sweet perfume that came through the open window made him believe so.",
+              "He saw flowers blooming outside his window.",
+              "He heard children singing in the garden.",
+              "He saw the sun shining brightly in the sky."
+            ],
+            "correct": 0,
+            "explanation_bn": "খোলা জানালা দিয়ে আসা মিষ্টি সুবাস দৈত্যকে বিশ্বাস করিয়েছিল যে বসন্ত এসে গেছে।",
+            "explanation_en": "The sweet perfume that came through the open window made the Giant believe that spring had come at last."
           },
           {
             "id": "2c",
             "question": "Why was there still winter at one corner of the garden?",
-            "answer": "Because a little boy was too small to climb the tree, so the tree remained covered with snow."
+            "options": [
+              "Because a little boy was too small to climb the tree, so the tree remained covered with snow.",
+              "Because the Giant did not allow anyone to enter that corner.",
+              "Because that corner never received sunlight.",
+              "Because the north wind was strongest in that corner."
+            ],
+            "correct": 0,
+            "explanation_bn": "এক কোণে শীত ছিল কারণ একটি ছোট ছেলে গাছে উঠতে পারেনি, তাই গাছটি তুষারে ঢাকা ছিল।",
+            "explanation_en": "There was still winter at one corner because a little boy was too small to climb the tree, so the tree remained covered with snow."
           },
           {
             "id": "2d",
             "question": "What did the Giant do getting the perfume?",
-            "answer": "He jumped out of bed and looked out the window."
+            "options": [
+              "He jumped out of bed and looked out the window.",
+              "He went back to sleep.",
+              "He called for his servants.",
+              "He closed the window and stayed in bed."
+            ],
+            "correct": 0,
+            "explanation_bn": "সুবাস পেয়ে দৈত্যটি বিছানা থেকে লাফিয়ে উঠে জানালা দিয়ে বাইরে তাকিয়েছিল।",
+            "explanation_en": "Getting the perfume, the Giant jumped out of bed and looked out the window."
           },
           {
             "id": "2e",
             "question": "Why did the trees become delighted?",
-            "answer": "They became delighted because the children had come back to play in the garden."
+            "options": [
+              "Because the children had come back to play in the garden.",
+              "Because the spring had finally arrived.",
+              "Because the Giant had watered them.",
+              "Because the snow had melted away."
+            ],
+            "correct": 0,
+            "explanation_bn": "গাছগুলো আনন্দিত হয়েছিল কারণ বাচ্চারা বাগানে খেলতে ফিরে এসেছিল।",
+            "explanation_en": "The trees became delighted because the children had come back to play in the garden."
           }
         ]
       }
@@ -330,22 +370,26 @@
                 {
                   "text": "play",
                   "isCorrect": true,
-                  "explanationBn": "(a) play — খেলা"
+                  "explanationBn": "(a) play — খেলা",
+                  "explanationEn": "Correct answer."
                 },
                 {
                   "text": "sleep",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "eat",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "study",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 }
               ],
               "explanation_bn": "শিশুরা দৈত্যের বাগানে খেলতে যেত।",
@@ -357,22 +401,26 @@
                 {
                   "text": "garden",
                   "isCorrect": true,
-                  "explanationBn": "(b) garden — বাগান"
+                  "explanationBn": "(b) garden — বাগান",
+                  "explanationEn": "Correct answer."
                 },
                 {
                   "text": "house",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "school",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "field",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 }
               ],
               "explanation_bn": "এটি একটি বড় এবং সুন্দর বাগান ছিল।",
@@ -384,22 +432,26 @@
                 {
                   "text": "grew",
                   "isCorrect": true,
-                  "explanationBn": "(c) grew — জন্মাতো/ফুটত"
+                  "explanationBn": "(c) grew — জন্মাতো/ফুটত",
+                  "explanationEn": "Correct answer."
                 },
                 {
                   "text": "fell",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "lay",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "stood",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 }
               ],
               "explanation_bn": "রঙিন ফুল ঘাসের উপর ফুটত।",
@@ -411,22 +463,26 @@
                 {
                   "text": "full",
                   "isCorrect": true,
-                  "explanationBn": "(d) full — পূর্ণ"
+                  "explanationBn": "(d) full — পূর্ণ",
+                  "explanationEn": "Correct answer."
                 },
                 {
                   "text": "empty",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "free",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "fond",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 }
               ],
               "explanation_bn": "গাছগুলো মিষ্টি ফলে পূর্ণ ছিল।",
@@ -438,22 +494,26 @@
                 {
                   "text": "happy",
                   "isCorrect": true,
-                  "explanationBn": "(e) happy — খুশি"
+                  "explanationBn": "(e) happy — খুশি",
+                  "explanationEn": "Correct answer."
                 },
                 {
                   "text": "sad",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "tired",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "angry",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 }
               ],
               "explanation_bn": "তারা বলত, \"আমরা এখানে কত খুশি!\"",
@@ -535,80 +595,79 @@
       "name": "Biographical Passage & Summary",
       "type": "passage_summary",
       "content": {
-        "biography": "Reuter was born in 1816 of Jewish parents in the German city of Cassel. His father died when he was only thirteen years old and he became helpless. So, he had to find work in his uncle's bank at Gottingen. There he met the famous mathematician and physicist, Gauss, and became interested in telegraphy. In 1845 Reuter married a daughter of a banker. Two years later he borrowed money from the bank and with the borrowed money, he became a partner in a firm of booksellers. But selling books was not exciting enough for him. Having been trained in a bank, Reuter knew that if he could provide advance news regarding business, businessmen would gladly pay him for it. In 1849, therefore, he sold his interest in the bookshop and took a small office at Aix-la-Chapelle.",
         "translation_bn": "জার্মানির ক্যাসেল শহরে ইহুদি পিতামাতার ঘরে ১৮১৬ সালে রয়টার জন্মগ্রহণ করেন। ১৩ বছর বয়সে তাঁর বাবা মারা যান এবং তিনি অসহায় হয়ে পড়েন। কাজেই তাঁকে গটিংজেনে তাঁর চাচার ব্যাংকে কাজের সন্ধান করতে হয়। সেখানে তিনি বিখ্যাত গণিত শাস্ত্রবিদ ও পদার্থবিদ গসের দেখা পান এবং তিনি টেলিগ্রাফিতে আগ্রহী হয়ে পড়েন। ১৮৪৫ সালে রয়টার একজন ব্যাংকারের কন্যাকে বিয়ে করেন। দুই বছর পরে তিনি ব্যাংক থেকে টাকা ধার করেন এবং এই অর্থে তিনি বই বিক্রেতাদের একটি প্রতিষ্ঠানের অংশীদার হন। কিন্তু এই যুবকের জন্য বই বিক্রি যথেষ্ট আনন্দের ছিল না। একটি ব্যাংকে প্রশিক্ষণ নেওয়ার পর রয়টার বুঝলেন যে যদি তিনি ব্যবসায়ীদেরকে অগ্রিম সংবাদ এনে দিতে সক্ষম হন তাহলে তারা তাঁকে আনন্দের সাথে এর জন্য অর্থ প্রদান করবেন। তারপর ১৮৪৯ সালে তিনি তাঁর বই-এর দোকানের লভ্যাংশ বিক্রয় করেন এবং এইক্স-লা-চ্যাপেলিতে একটি ছোট অফিস নেন।",
         "vocabulary": [
           {
             "word": "advance",
-            "parts_of_speech": "adj.",
-            "english_meaning": "preliminary",
-            "bangla_meaning": "অগ্রিম",
             "synonym": "preliminary",
-            "antonym": "final"
+            "antonym": "final",
+            "pos": "adj.",
+            "meaning_en": "preliminary",
+            "meaning_bn": "অগ্রিম"
           },
           {
             "word": "bookseller",
-            "parts_of_speech": "n.",
-            "english_meaning": "a person who sells books",
-            "bangla_meaning": "বই বিক্রেতা",
             "synonym": "book merchant",
-            "antonym": "book buyer"
+            "antonym": "book buyer",
+            "pos": "n.",
+            "meaning_en": "a person who sells books",
+            "meaning_bn": "বই বিক্রেতা"
           },
           {
             "word": "borrow",
-            "parts_of_speech": "v.",
-            "english_meaning": "to take a loan",
-            "bangla_meaning": "ধার নেওয়া",
             "synonym": "take loan",
-            "antonym": "lend"
+            "antonym": "lend",
+            "pos": "v.",
+            "meaning_en": "to take a loan",
+            "meaning_bn": "ধার নেওয়া"
           },
           {
             "word": "famous",
-            "parts_of_speech": "adj.",
-            "english_meaning": "well-known",
-            "bangla_meaning": "বিখ্যাত",
             "synonym": "renowned",
-            "antonym": "unknown"
+            "antonym": "unknown",
+            "pos": "adj.",
+            "meaning_en": "well-known",
+            "meaning_bn": "বিখ্যাত"
           },
           {
             "word": "helpless",
-            "parts_of_speech": "adj.",
-            "english_meaning": "vulnerable",
-            "bangla_meaning": "অসহায়",
             "synonym": "vulnerable",
-            "antonym": "powerful"
+            "antonym": "powerful",
+            "pos": "adj.",
+            "meaning_en": "vulnerable",
+            "meaning_bn": "অসহায়"
           },
           {
             "word": "interest",
-            "parts_of_speech": "n.",
-            "english_meaning": "share, profit",
-            "bangla_meaning": "লভ্যাংশ",
             "synonym": "share",
-            "antonym": ""
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "share, profit",
+            "meaning_bn": "লভ্যাংশ"
           },
           {
             "word": "jewish",
-            "parts_of_speech": "adj.",
-            "english_meaning": "of Jewish religion",
-            "bangla_meaning": "ইহুদি",
             "synonym": "Hebrew",
-            "antonym": ""
+            "antonym": "",
+            "pos": "adj.",
+            "meaning_en": "of Jewish religion",
+            "meaning_bn": "ইহুদি"
           },
           {
             "word": "physicist",
-            "parts_of_speech": "n.",
-            "english_meaning": "a person who studies physics",
-            "bangla_meaning": "পদার্থবিদ",
             "synonym": "scientist",
-            "antonym": ""
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "a person who studies physics",
+            "meaning_bn": "পদার্থবিদ"
           },
           {
             "word": "provide",
-            "parts_of_speech": "v.",
-            "english_meaning": "to supply",
-            "bangla_meaning": "প্রদান করা",
             "synonym": "supply",
-            "antonym": "withhold"
+            "antonym": "withhold",
+            "pos": "v.",
+            "meaning_en": "to supply",
+            "meaning_bn": "প্রদান করা"
           }
         ],
         "mcqQuestions": [
@@ -681,36 +740,62 @@
         "trueFalseQuestions": [
           {
             "id": "6a",
-            "statement": "Reuter had to find work because losing his father, he became helpless.",
-            "isTrue": true,
-            "correctedStatement": ""
+            "question": "Reuter had to find work because losing his father, he became helpless.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 0,
+            "explanation_bn": "বাবার মৃত্যুর কারণে রয়টারকে কাজ খুঁজতে হয়েছিল।",
+            "explanation_en": "Reuter had to find work because after losing his father, he became penniless."
           },
           {
             "id": "6b",
-            "statement": "Reuter met a famous mathematician and got interested in mathematics.",
-            "isTrue": false,
-            "correctedStatement": "Reuter met a famous mathematician and got interested in telegraphy."
+            "question": "Reuter met a famous mathematician and got interested in mathematics.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 1,
+            "explanation_bn": "রয়টার বিখ্যাত গণিতবিদের সাথে দেখা করেছিলেন এবং গণিতে আগ্রহী হয়েছিলেন — এটি সত্য।",
+            "explanation_en": "Reuter met a famous mathematician and got interested in mathematics."
           },
           {
             "id": "6c",
-            "statement": "Reuter borrowed money from one of his friends and started a business.",
-            "isTrue": false,
-            "correctedStatement": "Reuter borrowed money from the bank and started a business."
+            "question": "Reuter borrowed money from one of his friends and started a business.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 1,
+            "explanation_bn": "রয়টার বন্ধুর কাছ থেকে টাকা ধার নিয়ে বইয়ের দোকান শুরু করেছিলেন।",
+            "explanation_en": "Reuter borrowed money from a friend and started a bookshop."
           },
           {
             "id": "6d",
-            "statement": "Reuter could realize the importance of advance news for businessmen.",
-            "isTrue": true,
-            "correctedStatement": ""
+            "question": "Reuter could realize the importance of advance news for businessmen.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 0,
+            "explanation_bn": "রয়টার ব্যবসায় উন্নতির জন্য আগাম সংবাদের গুরুত্ব বুঝতে পেরেছিলেন।",
+            "explanation_en": "Reuter could realize the importance of advance news for business progress."
           },
           {
             "id": "6e",
-            "statement": "Reuter took a small office with the money from the bookshop.",
-            "isTrue": false,
-            "correctedStatement": "Reuter took a small office with the money received from the bookshop interest."
+            "question": "Reuter took a small office with the money from the bookshop.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 1,
+            "explanation_bn": "রয়টার বইয়ের দোকানের টাকা দিয়ে নয়, ছোট অফিস নিয়েছিলেন।",
+            "explanation_en": "Reuter took a small office, but not with money from the bookshop."
           }
         ],
-        "summary": "Reuter was born in 1816 in Germany. After his father died when he was 13, he worked at his uncle's bank. There, he met Gauss and got interested in telegraphy. In 1849, he left his bookshop business to offer business news from an office in Aix-la-Chapelle."
+        "summary": "Reuter was born in 1816 in Germany. After his father died when he was 13, he worked at his uncle's bank. There, he met Gauss and got interested in telegraphy. In 1849, he left his bookshop business to offer business news from an office in Aix-la-Chapelle.",
+        "passage": "Reuter was born in 1816 of Jewish parents in the German city of Cassel. His father died when he was only thirteen years old and he became helpless. So, he had to find work in his uncle's bank at Gottingen. There he met the famous mathematician and physicist, Gauss, and became interested in telegraphy. In 1845 Reuter married a daughter of a banker. Two years later he borrowed money from the bank and with the borrowed money, he became a partner in a firm of booksellers. But selling books was not exciting enough for him. Having been trained in a bank, Reuter knew that if he could provide advance news regarding business, businessmen would gladly pay him for it. In 1849, therefore, he sold his interest in the bookshop and took a small office at Aix-la-Chapelle."
       }
     },
     {
@@ -738,11 +823,51 @@
             ]
           ],
           "valid_sentences": [
-            "There is a proverb that 'Health is wealth'.",
-            "To keep healthy is to keep free from diseases and anxiety.",
-            "Good health is proper functioning of all body organs.",
-            "It is also feeling well both in body and in mind.",
-            "People in good health are active, cheerful and happy."
+            {
+              "sentence": "There is a proverb that 'Health is wealth'.",
+              "combination": [
+                "There is a proverb",
+                "that 'Health is wealth'."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "To keep healthy is to keep free from diseases and anxiety.",
+              "combination": [
+                "To keep healthy is",
+                "to keep free from diseases and anxiety."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "Good health is proper functioning of all body organs.",
+              "combination": [
+                "Good health is",
+                "proper functioning of all body organs."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "It is also feeling well both in body and in mind.",
+              "combination": [
+                "It is",
+                "also feeling well both in body and in mind."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "People in good health are active, cheerful and happy.",
+              "combination": [
+                "People in good health are",
+                "active, cheerful and happy."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            }
           ]
         }
       }
@@ -783,7 +908,7 @@
           },
           {
             "id": "h",
-            "text": "She was very pious and taught him many important and religious things."
+            "text": "His mother was very pious and taught him many important and religious things."
           }
         ],
         "correctOrder": [

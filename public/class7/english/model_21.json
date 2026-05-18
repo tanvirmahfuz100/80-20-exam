@@ -1,7 +1,7 @@
 {
   "_type": "model_test",
-  "modelId": "21",
-  "title": "Model Question 21",
+  "modelId": "m21",
+  "title": "Model Test 21 - English 1st Paper",
   "chapters": [
     {
       "id": "ch1",
@@ -13,75 +13,75 @@
         "vocabulary": [
           {
             "word": "axe",
-            "parts_of_speech": "n.",
-            "english_meaning": "a tool used for chopping wood",
-            "bangla_meaning": "কুঠার",
             "synonym": "chopper",
-            "antonym": ""
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "a tool used for chopping wood",
+            "meaning_bn": "কুঠার"
           },
           {
             "word": "feel",
-            "parts_of_speech": "v.",
-            "english_meaning": "to experience something",
-            "bangla_meaning": "অনুভব করা",
             "synonym": "sense",
-            "antonym": ""
+            "antonym": "",
+            "pos": "v.",
+            "meaning_en": "to experience something",
+            "meaning_bn": "অনুভব করা"
           },
           {
             "word": "fling",
-            "parts_of_speech": "v.",
-            "english_meaning": "to throw something",
-            "bangla_meaning": "ছুঁড়ে মারা",
             "synonym": "throw",
-            "antonym": "grasp"
+            "antonym": "grasp",
+            "pos": "v.",
+            "meaning_en": "to throw something",
+            "meaning_bn": "ছুঁড়ে মারা"
           },
           {
             "word": "frightened",
-            "parts_of_speech": "adj.",
-            "english_meaning": "afraid",
-            "bangla_meaning": "ভীত",
             "synonym": "terrified",
-            "antonym": "fearless"
+            "antonym": "fearless",
+            "pos": "adj.",
+            "meaning_en": "afraid",
+            "meaning_bn": "ভীত"
           },
           {
             "word": "gently",
-            "parts_of_speech": "adv.",
-            "english_meaning": "with lightness of action",
-            "bangla_meaning": "আলতোভাবে",
             "synonym": "softly",
-            "antonym": "carelessly"
+            "antonym": "carelessly",
+            "pos": "adv.",
+            "meaning_en": "with lightness of action",
+            "meaning_bn": "আলতোভাবে"
           },
           {
             "word": "knock down",
-            "parts_of_speech": "v.phr.",
-            "english_meaning": "to hit and make fall",
-            "bangla_meaning": "গুঁড়িয়ে দেওয়া",
             "synonym": "strike down",
-            "antonym": ""
+            "antonym": "",
+            "pos": "v.phr.",
+            "meaning_en": "to hit and make fall",
+            "meaning_bn": "গুঁড়িয়ে দেওয়া"
           },
           {
             "word": "quietly",
-            "parts_of_speech": "adv.",
-            "english_meaning": "without making any sound",
-            "bangla_meaning": "নিঃশব্দে",
             "synonym": "silently",
-            "antonym": "loudly"
+            "antonym": "loudly",
+            "pos": "adv.",
+            "meaning_en": "without making any sound",
+            "meaning_bn": "নিঃশব্দে"
           },
           {
             "word": "selfish",
-            "parts_of_speech": "adj.",
-            "english_meaning": "concerned chiefly with own interests",
-            "bangla_meaning": "স্বার্থপর",
             "synonym": "self-centered",
-            "antonym": "altruistic"
+            "antonym": "altruistic",
+            "pos": "adj.",
+            "meaning_en": "concerned chiefly with own interests",
+            "meaning_bn": "স্বার্থপর"
           },
           {
             "word": "wicked",
-            "parts_of_speech": "adj.",
-            "english_meaning": "morally bad, evil",
-            "bangla_meaning": "মন্দ",
             "synonym": "mischievous",
-            "antonym": "virtuous"
+            "antonym": "virtuous",
+            "pos": "adj.",
+            "meaning_en": "morally bad, evil",
+            "meaning_bn": "মন্দ"
           }
         ],
         "questions": [
@@ -283,27 +283,67 @@
           {
             "id": "2a",
             "question": "Why didn't the little boy run?",
-            "answer": "The little boy didn't run because his eyes were full of tears and he did not see the giant coming."
+            "options": [
+              "Because his eyes were full of tears and he did not see the Giant coming.",
+              "Because he was brave and wanted to face the Giant.",
+              "Because he was too tired to run.",
+              "Because his friends had left him behind on purpose."
+            ],
+            "correct": 0,
+            "explanation_bn": "ছোট ছেলেটি দৌড়ায়নি কারণ তার চোখ অশ্রুতে ভরা ছিল এবং সে দৈত্যকে আসতে দেখেনি।",
+            "explanation_en": "The little boy didn't run because his eyes were full of tears and he did not see the Giant coming."
           },
           {
             "id": "2b",
             "question": "Why did the Giant feel sorry?",
-            "answer": "The Giant felt sorry because he realized he had been selfish and that was why spring would not come to his garden."
+            "options": [
+              "Because he realized he had been selfish and that was why spring had not come.",
+              "Because the children had broken his trees.",
+              "Because his garden was destroyed by the storm.",
+              "Because he had no friends to play with."
+            ],
+            "correct": 0,
+            "explanation_bn": "দৈত্যটির খারাপ লাগছিল কারণ সে বুঝতে পেরেছিল সে স্বার্থপর ছিল এবং তাই বসন্ত আসেনি।",
+            "explanation_en": "The Giant felt sorry because he realized he had been selfish and that was why spring had not come."
           },
           {
             "id": "2c",
             "question": "When did the spring come back to the Giant's garden again?",
-            "answer": "The spring came back when the children returned, seeing that the Giant was not wicked any longer."
+            "options": [
+              "When the children returned, seeing that the Giant was not wicked anymore.",
+              "When the winter season ended naturally.",
+              "When the Giant planted new flowers in the garden.",
+              "When the Giant built a new wall around the garden."
+            ],
+            "correct": 0,
+            "explanation_bn": "বসন্ত ফিরে এসেছিল যখন বাচ্চারা ফিরে এলো, বুঝতে পেরে যে দৈত্যটি আর দুষ্ট নয়।",
+            "explanation_en": "Spring came back when the children returned, seeing that the Giant was not wicked anymore."
           },
           {
             "id": "2d",
             "question": "What did the children do when they saw the giant?",
-            "answer": "They were frightened and ran away."
+            "options": [
+              "They were frightened and ran away.",
+              "They greeted the Giant happily.",
+              "They started playing in the garden as before.",
+              "They asked the Giant to play with them."
+            ],
+            "correct": 0,
+            "explanation_bn": "বাচ্চারা দৈত্যকে দেখে ভয় পেয়ে পালিয়ে গিয়েছিল।",
+            "explanation_en": "The children were frightened when they saw the Giant and ran away."
           },
           {
             "id": "2e",
             "question": "How did the children realize that the giant had become good?",
-            "answer": "They saw him gently put the little boy in the tree and saw that he was not wicked any longer."
+            "options": [
+              "They saw him gently put the little boy in the tree and that he was not wicked anymore.",
+              "They heard the Giant apologize to them from his castle.",
+              "The Giant sent them a letter asking them to return.",
+              "They saw the Giant planting flowers in the garden."
+            ],
+            "correct": 0,
+            "explanation_bn": "তারা দৈত্যকে ছোট ছেলেটিকে আলতো করে গাছে তুলতে দেখেছিল এবং বুঝতে পেরেছিল সে আর দুষ্ট নয়।",
+            "explanation_en": "They saw the Giant gently put the little boy in the tree and realized he was not wicked anymore."
           }
         ]
       }
@@ -330,22 +370,26 @@
                 {
                   "text": "except",
                   "isCorrect": true,
-                  "explanationBn": "(a) except — ছাড়া"
+                  "explanationBn": "(a) except — ছাড়া",
+                  "explanationEn": "Correct answer."
                 },
                 {
                   "text": "inside",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "throughout",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "beyond",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 }
               ],
               "explanation_bn": "সর্বত্র ফুল ও পাখি দেখা গেল, কিন্তু দৈত্যের বাগান ছাড়া।",
@@ -357,22 +401,26 @@
                 {
                   "text": "still",
                   "isCorrect": true,
-                  "explanationBn": "(b) still — এখনো"
+                  "explanationBn": "(b) still — এখনো",
+                  "explanationEn": "Correct answer."
                 },
                 {
                   "text": "already",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "never",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "always",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 }
               ],
               "explanation_bn": "দৈত্যের বাগানে তখনো শীত ছিল।",
@@ -384,22 +432,26 @@
                 {
                   "text": "blossomed",
                   "isCorrect": true,
-                  "explanationBn": "(c) blossomed — ফুটেছিল"
+                  "explanationBn": "(c) blossomed — ফুটেছিল",
+                  "explanationEn": "Correct answer."
                 },
                 {
                   "text": "withered",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "grew",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "died",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 }
               ],
               "explanation_bn": "কোনো পাখি গান গাইছিল না এবং কোনো ফুল ফুটছিল না।",
@@ -411,22 +463,26 @@
                 {
                   "text": "looked",
                   "isCorrect": true,
-                  "explanationBn": "(d) looked — তাকাল"
+                  "explanationBn": "(d) looked — তাকাল",
+                  "explanationEn": "Correct answer."
                 },
                 {
                   "text": "ran",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "came",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "went",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 }
               ],
               "explanation_bn": "দৈত্যটি তার দুর্গ থেকে বাইরে তাকাল।",
@@ -438,22 +494,26 @@
                 {
                   "text": "hoped",
                   "isCorrect": true,
-                  "explanationBn": "(e) hoped — আশা করল"
+                  "explanationBn": "(e) hoped — আশা করল",
+                  "explanationEn": "Correct answer."
                 },
                 {
                   "text": "feared",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "knew",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 },
                 {
                   "text": "doubted",
                   "isCorrect": false,
-                  "explanationBn": ""
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
                 }
               ],
               "explanation_bn": "সে আশা করল আবহাওয়া শীঘ্রই পরিবর্তন হবে।",
@@ -535,80 +595,79 @@
       "name": "Biographical Passage & Summary",
       "type": "passage_summary",
       "content": {
-        "biography": "Abraham Lincoln was the 16th president of America. He was born in 1809 in Kentucky, USA in a very poor family. Poverty barred his formal education. When Abraham Lincoln was eight years old, his family moved to Indiana. He spent his early life doing all sorts of jobs as a log chopper, boatman and a postmaster. He used to work all day long in the forest cutting down trees. But he had a strong desire to study. Through study, he made himself self-educated. When he reached the age of twenty one, his father sent him on a journey to New Orleans, Louisiana. New Orleans was two thousand miles away from his home town. Lincoln and one of his friends went on the journey together by boat. New Orleans was very famous for slave business. However, he did not like the place because of this business and moved to Illinois to find a job. Self-educated Lincoln started practicing law there. Later on, he involved himself in politics. He was elected to the legislature of Illinois at the age of twenty five. Then he became the 16th president of USA in 1860. He is one of the three best presidents of the USA.",
         "translation_bn": "আব্রাহাম লিংকন ছিলেন আমেরিকার ১৬তম প্রেসিডেন্ট। তিনি ১৮০৯ সালে আমেরিকার কেন্টাকিতে অত্যন্ত দরিদ্র একটি পরিবারে জন্মগ্রহণ করেন। দরিদ্রতা তাঁর আনুষ্ঠানিক শিক্ষার পথ রুদ্ধ করেছিল। যখন আব্রাহাম লিংকনের বয়স আট বছর ছিল, তাদের পরিবার ইন্ডিয়ানায় চলে যায়। তিনি তাঁর জীবনের প্রথমদিকে সব ধরনের কাজ যেমন—কাঠ কাটা, মাঝি ও গ্রামের ডাকপিয়ন হিসেবে কাজ করেন। তিনি সারাদিন ধরে জঙ্গলে গাছ কাটতেন। কিন্তু তাঁর পড়ালেখা করার তীব্র ইচ্ছা ছিল। পড়ালেখার মাধ্যমে তিনি নিজেকে স্বশিক্ষিত করে তোলেন। যখন তাঁর বয়স একুশ এ পৌঁছায়, তাঁর বাবা তাকে লুইসিয়ানার নিউ অর্লিন্সে একটি ভ্রমণে পাঠান। নিউ অর্লিন্স তার বসবাসরত শহর থেকে দুই হাজার মাইল দূরে ছিল। লিংকন এবং তার বন্ধুদের মধ্যে একজন নৌকায় করে একসাথে ভ্রমণে যান। এটি দাস ব্যবসার জন্য অনেক বিখ্যাত ছিল। যাইহোক এই ব্যবসার কারণে জায়গাটি তিনি পছন্দ করেননি এবং কাজ খুঁজতে ইলিনয়েস চলে যান। স্বশিক্ষিত লিংকন সেখানে আইন চর্চা শুরু করেন। তারপর পরবর্তীকালে তিনি নিজেকে রাজনীতিতে যুক্ত করেন। তিনি পঁচিশ বছর বয়সে ইলিনয়েসের আইনসভার সদস্য নির্বাচিত হন। তারপর তিনি ১৮৬০ সালে আমেরিকার ১৬তম রাষ্ট্রপতি নির্বাচিত হন। তিনি আমেরিকার তিনজন শ্রেষ্ঠ রাষ্ট্রপতির মধ্যে একজন।",
         "vocabulary": [
           {
             "word": "bar",
-            "parts_of_speech": "v.",
-            "english_meaning": "to obstruct",
-            "bangla_meaning": "বাধা দেওয়া",
             "synonym": "obstruct",
-            "antonym": "allow"
+            "antonym": "allow",
+            "pos": "v.",
+            "meaning_en": "to obstruct",
+            "meaning_bn": "বাধা দেওয়া"
           },
           {
             "word": "desire",
-            "parts_of_speech": "n.",
-            "english_meaning": "wish, aspiration",
-            "bangla_meaning": "ইচ্ছা",
             "synonym": "wish",
-            "antonym": "aversion"
+            "antonym": "aversion",
+            "pos": "n.",
+            "meaning_en": "wish, aspiration",
+            "meaning_bn": "ইচ্ছা"
           },
           {
             "word": "elect",
-            "parts_of_speech": "v.",
-            "english_meaning": "to select by vote",
-            "bangla_meaning": "নির্বাচিত হওয়া",
             "synonym": "select",
-            "antonym": "reject"
+            "antonym": "reject",
+            "pos": "v.",
+            "meaning_en": "to select by vote",
+            "meaning_bn": "নির্বাচিত হওয়া"
           },
           {
             "word": "formal",
-            "parts_of_speech": "adj.",
-            "english_meaning": "ceremonial, official",
-            "bangla_meaning": "আনুষ্ঠানিক",
             "synonym": "official",
-            "antonym": "informal"
+            "antonym": "informal",
+            "pos": "adj.",
+            "meaning_en": "ceremonial, official",
+            "meaning_bn": "আনুষ্ঠানিক"
           },
           {
             "word": "legislature",
-            "parts_of_speech": "n.",
-            "english_meaning": "parliament, assembly",
-            "bangla_meaning": "আইনসভা",
             "synonym": "parliament",
-            "antonym": ""
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "parliament, assembly",
+            "meaning_bn": "আইনসভা"
           },
           {
             "word": "log chopper",
-            "parts_of_speech": "phrase",
-            "english_meaning": "woodcutter",
-            "bangla_meaning": "কাঠুরে",
             "synonym": "woodcutter",
-            "antonym": ""
+            "antonym": "",
+            "pos": "phrase",
+            "meaning_en": "woodcutter",
+            "meaning_bn": "কাঠুরে"
           },
           {
             "word": "politics",
-            "parts_of_speech": "n.",
-            "english_meaning": "statecraft",
-            "bangla_meaning": "রাজনীতি",
             "synonym": "statecraft",
-            "antonym": ""
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "statecraft",
+            "meaning_bn": "রাজনীতি"
           },
           {
             "word": "poverty",
-            "parts_of_speech": "n.",
-            "english_meaning": "destitution",
-            "bangla_meaning": "দারিদ্র্য",
             "synonym": "penury",
-            "antonym": "wealth"
+            "antonym": "wealth",
+            "pos": "n.",
+            "meaning_en": "destitution",
+            "meaning_bn": "দারিদ্র্য"
           },
           {
             "word": "self-educated",
-            "parts_of_speech": "adj.",
-            "english_meaning": "self-taught",
-            "bangla_meaning": "স্বশিক্ষিত",
             "synonym": "self-trained",
-            "antonym": ""
+            "antonym": "",
+            "pos": "adj.",
+            "meaning_en": "self-taught",
+            "meaning_bn": "স্বশিক্ষিত"
           }
         ],
         "mcqQuestions": [
@@ -681,36 +740,62 @@
         "trueFalseQuestions": [
           {
             "id": "6a",
-            "statement": "Abraham Lincoln could not get formal education due to his poor financial condition.",
-            "isTrue": true,
-            "correctedStatement": ""
+            "question": "Abraham Lincoln could not get formal education due to his poor financial condition.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 0,
+            "explanation_bn": "আব্রাহাম লিংকন দারিদ্র্যের কারণে আনুষ্ঠানিক শিক্ষা লাভ করতে পারেননি।",
+            "explanation_en": "Abraham Lincoln could not get formal education due to his poverty."
           },
           {
             "id": "6b",
-            "statement": "Lincoln spent luxurious life in his early days.",
-            "isTrue": false,
-            "correctedStatement": "Lincoln spent a poor life in his early days."
+            "question": "Lincoln spent luxurious life in his early days.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 1,
+            "explanation_bn": "লিংকনের শুরুর দিনগুলো বিলাসবহুল ছিল না — তিনি খুব কষ্টে জীবন কাটিয়েছিলেন।",
+            "explanation_en": "Lincoln did not lead a luxurious life in his early days — he lived in poverty."
           },
           {
             "id": "6c",
-            "statement": "Lincoln was very interested to study.",
-            "isTrue": true,
-            "correctedStatement": ""
+            "question": "Lincoln was very interested to study.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 0,
+            "explanation_bn": "লিংকন পড়াশোনায় খুব আগ্রহী ছিলেন।",
+            "explanation_en": "Lincoln was very interested in studying."
           },
           {
             "id": "6d",
-            "statement": "Lincoln preferred slave business.",
-            "isTrue": false,
-            "correctedStatement": "Lincoln hated the slave business."
+            "question": "Lincoln preferred slave business.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 1,
+            "explanation_bn": "লিংকন ক্রীতদাস ব্যবসা পছন্দ করতেন না — তিনি এর বিরোধী ছিলেন।",
+            "explanation_en": "Lincoln did not prefer slave business — he was against it."
           },
           {
             "id": "6e",
-            "statement": "At Illinois, Lincoln started practicing law.",
-            "isTrue": true,
-            "correctedStatement": ""
+            "question": "At Illinois, Lincoln started practicing law.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 0,
+            "explanation_bn": "ইলিনয়ে গিয়ে লিংকন আইন চর্চা শুরু করেছিলেন।",
+            "explanation_en": "At Illinois, Lincoln started practicing law."
           }
         ],
-        "summary": "Abraham Lincoln was the 16th president of the USA. He was born in 1809 in Kentucky. He grew up in poverty with little formal education. He worked various jobs but taught himself through study. At 21, he traveled to New Orleans and disliked its slave trade, so he moved to Illinois. There, he became a lawyer, entered politics, and was elected U.S. president in 1860."
+        "summary": "Abraham Lincoln was the 16th president of the USA. He was born in 1809 in Kentucky. He grew up in poverty with little formal education. He worked various jobs but taught himself through study. At 21, he traveled to New Orleans and disliked its slave trade, so he moved to Illinois. There, he became a lawyer, entered politics, and was elected U.S. president in 1860.",
+        "passage": "Abraham Lincoln was the 16th president of America. He was born in 1809 in Kentucky, USA in a very poor family. Poverty barred his formal education. When Abraham Lincoln was eight years old, his family moved to Indiana. He spent his early life doing all sorts of jobs as a log chopper, boatman and a postmaster. He used to work all day long in the forest cutting down trees. But he had a strong desire to study. Through study, he made himself self-educated. When he reached the age of twenty one, his father sent him on a journey to New Orleans, Louisiana. New Orleans was two thousand miles away from his home town. Lincoln and one of his friends went on the journey together by boat. New Orleans was very famous for slave business. However, he did not like the place because of this business and moved to Illinois to find a job. Self-educated Lincoln started practicing law there. Later on, he involved himself in politics. He was elected to the legislature of Illinois at the age of twenty five. Then he became the 16th president of USA in 1860. He is one of the three best presidents of the USA."
       }
     },
     {
@@ -738,11 +823,51 @@
             ]
           ],
           "valid_sentences": [
-            "Physical exercise means the regular movement of the limbs of our body.",
-            "There lies a close connection between body and mind.",
-            "One should take regular physical exercise.",
-            "Physical exercise is essential for our physical and mental health.",
-            "Walking is the best of all exercises."
+            {
+              "sentence": "Physical exercise means the regular movement of the limbs of our body.",
+              "combination": [
+                "Physical exercise means",
+                "the regular movement of the limbs of our body."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "There lies a close connection between body and mind.",
+              "combination": [
+                "There lies a close connection",
+                "between body and mind."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "One should take regular physical exercise.",
+              "combination": [
+                "One should take",
+                "regular physical exercise."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "Physical exercise is essential for our physical and mental health.",
+              "combination": [
+                "Physical exercise is essential",
+                "for our physical and mental health."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "Walking is the best of all exercises.",
+              "combination": [
+                "Walking is the best",
+                "of all exercises."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            }
           ]
         }
       }

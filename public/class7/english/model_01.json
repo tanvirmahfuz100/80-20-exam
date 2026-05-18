@@ -134,8 +134,8 @@
               "sentences"
             ],
             "correct": 2,
-            "explanation_bn": "অভিধানে শব্দগুলো বর্ণানুক্রমে সাজানো থাকে।",
-            "explanation_en": "In a dictionary, words are arranged alphabetically."
+            "explanation_bn": "অভিধানে শব্দগুলোকে বর্ণমালার ক্রমানুসারে সাজানো হয়।",
+            "explanation_en": "In a dictionary, words are arranged in alphabetical order."
           },
           {
             "id": "1v",
@@ -869,12 +869,12 @@
           "e",
           "i",
           "f",
-          "d",
           "a",
+          "d",
           "h",
           "b"
         ],
-        "reconstructedParagraph": "Robert Bruce was a famous king. Enemies invaded his kingdom. The king fought bravely but lost the battle. He had to flee from his kingdom to save his life. And he took shelter in a remote cave. The king was always in a gloomy state for his unhappy condition. Once he was lying in a cave. Then he saw a spider trying hard to reach the ceiling of the cave."
+        "reconstructedParagraph": "Robert Bruce was a famous king. Enemies invaded his kingdom. The king fought bravely. But lost the battle. He had to flee from his kingdom to save his life. And he took shelter in a remote cave. Once he was lying in a cave. The king was always in a gloomy state for his unhappy condition. Then he saw a spider trying hard to reach the ceiling of the cave."
       }
     },
     {

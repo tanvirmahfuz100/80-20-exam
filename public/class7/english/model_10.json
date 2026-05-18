@@ -110,11 +110,11 @@
               "Issue",
               "Child",
               "Helping hand",
-              "Education"
+              "Higher education"
             ],
             "correct": 3,
-            "explanation_bn": "নাজমা কেবল পঞ্চম শ্রেণি পর্যন্ত পড়েছেন, তাই তার শিক্ষা সম্পূর্ণ নয়।",
-            "explanation_en": "Nazma studied only up to class 5, so she does not have complete education."
+            "explanation_bn": "নাজমা পঞ্চম শ্রেণী পর্যন্ত পড়েছেন, কিন্তু উচ্চশিক্ষা তার নেই।",
+            "explanation_en": "Nazma studied up to class 5, but she does not have higher education."
           },
           {
             "id": "1iv",

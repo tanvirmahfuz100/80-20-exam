@@ -884,19 +884,6 @@
           },
           {
             "id": "10g",
-            "question": "Why does the poet think the sights are flying in the poem 'From a Railway Carriage'?",
-            "options": [
-              "Because he is closing his eyes",
-              "Because the sights are visible only for a very short moment as the train moves quickly",
-              "Because the sights are birds",
-              "Because the window is dirty"
-            ],
-            "correct": 1,
-            "explanation_bn": "ট্রেনের দ্রুতগতির কারণে দৃশ্যগুলো খুব অল্প সময়ের জন্য দেখা যায়, তাই মনে হয় সেগুলো উড়ে যাচ্ছে।",
-            "explanation_en": "The sights are visible for a very short moment as the train moves quickly."
-          },
-          {
-            "id": "10h",
             "question": "According to the poem 'From a Railway Carriage', can the speed of the train be compared to the passage of time?",
             "options": [
               "No, there is no relation",
