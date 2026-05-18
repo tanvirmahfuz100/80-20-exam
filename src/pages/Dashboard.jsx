@@ -7,11 +7,12 @@ import { Rocket, CheckList } from '../components/Illustrations';
 import LottieAnimation from '../components/LottieAnimation';
 import gameControllerAnimation from '../assets/game-controller.json';
 import speedometerAnimation from '../assets/speedometer.json';
+import particleWaveAnimation from '../assets/particle-wave.json';
 import { getChallengeState, getDailyChallengeKey, getWeeklyChallengeKey, getDailyChallengesForExam, getWeeklyChallengeForExam, getDailyChallengeExpiry, getWeeklyChallengeExpiry, getUserStats } from '../services/levels';
 import {
   Target, Brain, BookOpen, TrendingUp, ArrowRight,
   Crown, Flame, BadgeCheck, Clock, Zap,
-  Star, Gamepad, Gauge, Trophy, Layers, Book, GraduationCap, Library, ScrollText, Sparkles, Calendar, Timer
+  Star, Gamepad, Gauge, Trophy, Layers, Book, GraduationCap, Library, ScrollText, Sparkles, Calendar, Timer, Target as TargetIcon, Zap as ZapIcon
 } from 'lucide-react';
 
 const rankFromAccuracy = (accuracy) => {
@@ -184,6 +185,11 @@ const Dashboard = () => {
       {/* ─── Hero Card ─── */}
       <Motion.div variants={itemVariants} className="relative overflow-hidden rounded-2xl border border-white/[0.06] bg-surface p-4 md:p-7">
         <div className="absolute top-0 right-0 w-40 h-40 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <div className="w-72 h-72 md:w-96 md:h-96 opacity-[0.12]">
+            <LottieAnimation src={particleWaveAnimation} className="w-full h-full" pingPong />
+          </div>
+        </div>
 
         <div className="flex items-start justify-between gap-3 mb-4">
           <div className="min-w-0 flex-1">
@@ -311,7 +317,7 @@ const Dashboard = () => {
       {dailyChallenges.length > 0 && (
         <Motion.div variants={itemVariants}>
           <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-3 flex items-center gap-2">
-            <Sparkles className="w-3.5 h-3.5 text-primary" />
+            <ZapIcon className="w-3.5 h-3.5 text-primary" />
             Daily Missions
             <span className="text-[9px] font-medium text-white/20 normal-case flex items-center gap-1 ml-auto">
               <Timer className="w-3 h-3" />
@@ -337,7 +343,7 @@ const Dashboard = () => {
                   {ch.completed ? (
                     <BadgeCheck className="w-5 h-5 text-emerald-400 shrink-0" />
                   ) : (
-                    <Sparkles className="w-4 h-4 text-primary/40" />
+                    <TargetIcon className="w-4 h-4 text-primary/40" />
                   )}
                 </div>
                 <div className="flex items-center gap-2">
