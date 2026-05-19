@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const outDir = path.join(__dirname, 'public', 'bcs');
+const outDir = path.join(__dirname, '..');
 
 // Read a JS/JSON file and extract the object data
 function parseAnswerFile(text) {
@@ -19,7 +19,7 @@ function parseAnswerFile(text) {
 }
 
 function readDataFile(filePath) {
-  const absPath = path.join(__dirname, filePath);
+  const absPath = path.join(__dirname, '../answers', filePath);
   if (!fs.existsSync(absPath)) return null;
   const text = fs.readFileSync(absPath, 'utf-8');
   // Try regex-based parser first (handles all formats)

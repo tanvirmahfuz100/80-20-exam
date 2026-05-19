@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const outDir = path.join(__dirname, 'public', 'bcs');
+const outDir = path.join(__dirname, '..');
 
 // --- Answer key parsing (from merge_bcs_answers.cjs) ---
 function parseAnswerFile(text) {
@@ -40,7 +40,7 @@ function parseAnswerFile(text) {
 }
 
 function loadAnswerKey(fileName) {
-  const absPath = path.join(__dirname, fileName);
+  const absPath = path.join(__dirname, '../answers', fileName);
   if (!fs.existsSync(absPath)) return {};
   const text = fs.readFileSync(absPath, 'utf-8');
   const parsed = parseAnswerFile(text);
@@ -279,7 +279,7 @@ function run() {
   console.log(`Total preserved (bcs_47): ${totalPreserved}`);
 
   // Write report
-  const reportPath = path.join(__dirname, 'fix_bcs_report.json');
+  const reportPath = path.join(__dirname, '../docs/fix_bcs_report.json');
   fs.writeFileSync(reportPath, JSON.stringify(report, null, 2), 'utf-8');
   console.log(`\nReport written to: ${reportPath}`);
 }
