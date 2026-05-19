@@ -242,9 +242,9 @@
           "blankId": "e",
           "correct": "impossible",
           "options": [
-            { "text": "impossible", "isCorrect": true, "explanationBn": "'it is impossible' — এটা অসম্ভব। বক্সে 'possible' থাকলেও form change করে 'im-' prefix যোগ করে 'impossible' করতে হবে।" },
+            { "text": "impossible", "isCorrect": true, "explanationBn": "'it is impossible' — এটা অসম্ভব। 'not possible' এর মত অর্থ। বক্সে 'possible' থাকলেও form change করে 'impossible' করতে হবে।" },
             { "text": "possible", "isCorrect": false, "explanationBn": "'possible' মানে সম্ভব, কিন্তু বক্তব্য হচ্ছে সব ভাষা শেখা অসম্ভব, তাই negative needed।" },
-            { "text": "easy", "isCorrect": false, "explanationBn": "'easy' অর্থ সহজ, কিন্তু এখানে অসম্ভব বোঝাতে 'impossible' সঠিক। বক্সে 'possible' থেকে 'impossible' করা নিয়ম।" }
+            { "text": "not possible", "isCorrect": false, "explanationBn": "'not possible' দুটি শব্দ, কিন্তু বক্সে 'possible' থেকে prefix 'im-' যোগ করাই সঠিক।" }
           ]
         },
         {
@@ -297,11 +297,7 @@
     {
       "id": 4,
       "passage": "Adolescence or puberty is a period after childhood. During this period physical and mental (a) _____ of boys and girls is so (b) _____ that they need proper amount of (c) _____ food. But many boys and girls are not (d) _____ of this fact. So often they suffer from (e) _____ which hampers their (f) _____ growth. Even some parents do not have the (g) _____ to provide their children with the (h) _____ they need. Sometimes it happens (i) _____ to the parents' reluctance, unawareness or (j) _____.",
-<<<<<<< HEAD
       "boxWords": ["nutrition", "normal", "illiterate", "grow", "ability", "malnutrition", "due", "rapid", "aware", "poverty"],
-=======
-      "boxWords": ["nutrition", "normal", "illiterate", "grow", "ability", "malnutrition", "due", "rapid", "aware", "nutritious"],
->>>>>>> a0c97bb190de6fa44287f4297055c5c07b9bc7b0
       "blanks": [
         {
           "blankId": "a",
@@ -653,7 +649,7 @@
           "correct": "no",
           "options": [
             { "text": "no", "isCorrect": true, "explanationBn": "'There is no specific medicine' — কোনো নির্দিষ্ট ওষুধ নেই। 'no' negative determiner।" },
-            { "text": "some", "isCorrect": false, "explanationBn": "'some' ব্যবহার করলে অর্থ হয় 'কিছু নির্দিষ্ট ওষুধ আছে', যা বক্তব্যের বিপরীত।" },
+            { "text": "not any", "isCorrect": false, "explanationBn": "দুই শব্দ, 'no' এক শব্দে কাজ করে।" },
             { "text": "none", "isCorrect": false, "explanationBn": "'none' pronoun, এখানে determiner লাগবে।" }
           ]
         },
