@@ -51,6 +51,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
 
     const isAdmin = currentRole === 'super_admin' || currentRole === 'content_admin';
 
+    // Trap focus when sidebar is open on mobile
     useEffect(() => {
         if (!isOpen) return;
         const handleKeyDown = (e) => {
@@ -378,6 +379,7 @@ const Layout = ({ children }) => {
         };
     }, [profile]);
 
+    // Close sidebar on route change (mobile)
     useEffect(() => {
         setSidebarOpen(false);
     }, [location.pathname]);

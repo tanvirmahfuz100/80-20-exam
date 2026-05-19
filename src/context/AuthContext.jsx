@@ -9,15 +9,15 @@ const createDefaultSession = () => ({
     user: {
         id: 'local-tester',
         email: 'tester@local.app',
-        user_metadata: { username: 'Local Tester' }
+        user_metadata: {}
     },
     profile: {
         id: 'local-tester',
-        username: 'Local Tester',
-        role: 'super_admin',
+        username: '',
+        role: 'student',
         plan_type: 'premium',
         total_xp: 0,
-        target_exams: ['IBA', 'BCS'],
+        target_exams: [],
         question_version: null
     }
 });
@@ -46,9 +46,14 @@ export const AuthProvider = ({ children }) => {
     const signIn = async ({ email }) => {
         const session = createDefaultSession();
         session.user.email = email || session.user.email;
-        session.user.user_metadata.username = email ? email.split('@')[0] : session.user.user_metadata.username;
-        session.profile.username = session.user.user_metadata.username;
-        session.profile.question_version = session.profile.question_version || null;
+        const baseName = email ? email.split('@')[0] : 'student';
+        session.user.user_metadata = { username: baseName };
+        session.profile.username = baseName;
+
+        if (email === 'admin@80-20.test') {
+            session.profile.role = 'super_admin';
+        }
+
         updateSession(session);
         return { data: session, error: null };
     };
@@ -58,6 +63,9 @@ export const AuthProvider = ({ children }) => {
         const currentSession = raw ? JSON.parse(raw) : createDefaultSession();
         const nextProfile = { ...currentSession.profile, ...profileUpdate };
         const nextSession = { ...currentSession, profile: nextProfile };
+        if (profileUpdate.username) {
+            nextSession.user.user_metadata = { ...nextSession.user.user_metadata, username: profileUpdate.username };
+        }
         localStorage.setItem(STORAGE_KEY, JSON.stringify(nextSession));
         setUser(nextSession.user);
         setProfile(nextProfile);
@@ -76,7 +84,7 @@ export const AuthProvider = ({ children }) => {
         return { error: null };
     };
 
-    const role = profile?.role || 'super_admin';
+    const role = profile?.role || 'student';
 
     const value = {
         signUp,

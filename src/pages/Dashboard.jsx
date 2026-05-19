@@ -166,7 +166,7 @@ const Dashboard = () => {
           const res = await fetch(`${base}${exam.id}/index.json`);
           if (!res.ok) return { ...exam, active: false };
           const json = await res.json();
-          return { ...exam, active: Array.isArray(json.subjects) ? json.subjects.length > 0 : Array.isArray(json) && json.length > 0 };
+          return { ...exam, active: Array.isArray(json.subjects) && json.subjects.length > 0 };
         } catch { return { ...exam, active: false }; }
       })
     ).then(setAvailableExams);
