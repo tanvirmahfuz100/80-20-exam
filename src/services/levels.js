@@ -50,11 +50,7 @@ export function computeLevels(normalizedQuestions) {
   }
 
   if (hasCreativeQuestions && !hasPassages && !hasSubTables) {
-    return [{
-      levelNumber: 1,
-      questions: normalizedQuestions,
-      type: 'creative',
-    }];
+    return [];
   }
 
   if (isSingleType) {

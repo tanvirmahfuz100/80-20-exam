@@ -949,7 +949,7 @@ const Quiz = () => {
                                     setIsAnswered(false);
                                     questionStartRef.current = Date.now();
                                 } else {
-                                    setIsFinished(true);
+                                    navigate('/practice');
                                 }
                             }}
                         />

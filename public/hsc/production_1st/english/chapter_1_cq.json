@@ -141,6 +141,62 @@
   },
   {
     "_type": "creative_question",
+    "id": "hsc_prod1_cq_6",
+    "stem": "Mr. Sohel takes some initiatives to increase productivity. For example, he uses modern machinery and technology in production and preserves high-quality raw materials. Additionally, he places special emphasis on creating a good working environment, recruiting skilled human resources, and retaining them. Because when productivity increases, the total production of the establishment increases. When total production increases, the rate of sales and profit is likely to increase.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is productivity?",
+        "model_answer": "The ratio of outputs (goods and services) divided by the inputs (resources)\n\nIn simple terms, productivity is the ratio of produced goods to the inputs used in production. According to Paul S. Samuelson, \"Productivity is a name given to the ratio of output to input.\""
+      },
+      {
+        "label": "b",
+        "question": "Evaluate Mr. Sohel's initiatives as an entrepreneur.",
+        "model_answer": "Mr. Sohel's initiatives are appropriate because he emphasizes modern technology, quality raw materials, skilled human resources, and a good working environment — all of which contribute to increasing productivity."
+      },
+      {
+        "label": "c",
+        "question": "What other steps are needed to increase productivity? Discuss.",
+        "model_answer": "Efficient management, good relations, proper layout, improved production process, research and development, and incentive systems are also needed to increase productivity."
+      },
+      {
+        "label": "d",
+        "question": "What are the disadvantages of low productivity? Evaluate.",
+        "model_answer": "Reduced worker efficiency, decreased machinery effectiveness, increased inventory costs, increased raw material costs, and pressure on capital — these are the disadvantages of low productivity."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_7",
+    "stem": "The productivity of an establishment does not depend on any single specific factor. Many factors influence it. For example, employee efficiency, managerial factors, and the production process are work-related factors. On the other hand, technological factors, finance, and used raw materials are resource-related factors. Additionally, natural factors, factory layout, and work environment fall under environmental factors.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "How many main classes of factors influence productivity?",
+        "model_answer": "Three — work-related, resource-related, and environmental\n\nThe factors influencing productivity can be divided into three main classes: (1) Work-related factors, (2) Resource-related factors, (3) Environmental factors."
+      },
+      {
+        "label": "b",
+        "question": "What is meant by work-related factors? Explain.",
+        "model_answer": "Factors related to employee efficiency, managerial factors, and the production process\n\nWork-related factors include: (1) Employee efficiency — whether employees perform their duties voluntarily with skill, (2) Managerial factors — coordination and sincerity between management and employees, (3) Production process — use of improved and modern production processes."
+      },
+      {
+        "label": "c",
+        "question": "How do technological factors and finance affect productivity? Discuss.",
+        "model_answer": "Using modern technology increases productivity; having adequate financial resources enables the adoption of advanced technology and hiring skilled workers, which increases productivity."
+      },
+      {
+        "label": "d",
+        "question": "How do environmental factors affect productivity? Evaluate.",
+        "model_answer": "Natural factors (climate, mineral resources), factory layout arrangement, and work environment — all three affect productivity. A favorable natural environment, proper factory layout, and a good work environment increase productivity, while unfavorable conditions decrease it."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
     "id": "hsc_prod1_cq_8",
     "stem": "Mr. Rafiq is a furniture businessman in Dhaka. He collects quality wood produced in Chattogram and makes various designed furniture. Due to the quality and attractive design of his furniture, he has gained reputation in this business in a short time. Currently, his furniture is being supplied to consumers in different parts of the country. As a result, he is profiting from the business.",
     "stem_label": "Read the stimulus and answer the following questions",
