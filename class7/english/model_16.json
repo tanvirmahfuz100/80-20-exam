@@ -1,0 +1,968 @@
+{
+  "_type": "model_test",
+  "modelId": "m16",
+  "title": "Model Test 16 - English 1st Paper",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Passage & Comprehension",
+      "type": "passage_mcq",
+      "content": {
+        "passage": "Zishan, Julie and their parents Mr. and Mrs. Arif Khan got into a 1st class compartment at Kamalapur Railway Station. It was the Dewanganj-bound Tista Express.\n\nZishan saw that the departure time on the big time table of the station was 7:30 am, but the train left at 8 o'clock. However, the train was running quite fast. The children sat by the window beside their parents.\n\nThe compartment was half empty. Yesterday Julie downloaded a beautiful poem on a train journey by Robert Louis Stevenson, and printed out a copy of the poem. She took a printout of the poem.\n\nNow while looking out of the windows, she found similarities between the poem and real scenery. She took out the poem and began to read.",
+        "translation_bn": "জিশান, জুলি আর তাদের বাবা-মা জনাব এবং বেগম আরিফ খান কমলাপুর রেলওয়ে স্টেশনে গিয়ে রেলের একটি ১ম শ্রেণির কামরায় চড়ে বসলেন। এটি ছিল দেওয়ানগঞ্জগামী তিস্তা এক্সপ্রেস। জিশান স্টেশনের বড় সময়সূচিতে ট্রেনটির ছাড়ার সময় ৭:৩০ দেখতে পেয়েছিল, কিন্তু ট্রেনটি ৮টায় ছাড়লো। যাহোক, ট্রেনটি বেশ দ্রুতগতিতে ছুটে চলল। ছেলেমেয়েরা তাদের বাবা-মায়ের পাশে জানালার ধারে বসল। কামরাটি অর্ধেক খালি ছিল। গতকাল জুলি রেল ভ্রমণের ওপর লেখা রবার্ট লুই স্টিভেনসনের একটি কবিতা (ইন্টারনেট থেকে) নামিয়েছিল এবং কবিতাটির একটি কপি বের করে নিয়েছিল। সে কবিতাটির একটি ছাপা অনুলিপি নিয়েছিল। এখন জানালা দিয়ে বাইরে তাকিয়ে, সে কবিতা ও বাস্তব দৃশ্যের মধ্যে মিল খুঁজে পেল। সে কবিতাটি বের করলো এবং পড়তে শুরু করলো।",
+        "vocabulary": [
+          {
+            "word": "bound",
+            "pos": "adj",
+            "meaning_en": "going towards a particular place",
+            "meaning_bn": "অভিমুখী",
+            "synonym": "destined",
+            "antonym": ""
+          },
+          {
+            "word": "compartment",
+            "pos": "n",
+            "meaning_en": "a separate section of a train",
+            "meaning_bn": "কামরা",
+            "synonym": "cabin",
+            "antonym": ""
+          },
+          {
+            "word": "departure",
+            "pos": "n",
+            "meaning_en": "the act of leaving a place",
+            "meaning_bn": "প্রস্থান",
+            "synonym": "leaving",
+            "antonym": "arrival"
+          },
+          {
+            "word": "empty",
+            "pos": "adj",
+            "meaning_en": "containing nothing",
+            "meaning_bn": "খালি",
+            "synonym": "blank",
+            "antonym": "full"
+          },
+          {
+            "word": "similarity",
+            "pos": "n",
+            "meaning_en": "the quality of being alike",
+            "meaning_bn": "সাদৃশ্য",
+            "synonym": "resemblance",
+            "antonym": "difference"
+          }
+        ],
+        "questions": [
+          {
+            "id": "1i",
+            "question": "When does Tista Express start from Kamalapur Railway Station?",
+            "options": [
+              "at night",
+              "at noon",
+              "in the morning",
+              "at afternoon"
+            ],
+            "correct": 2,
+            "explanation_bn": "ট্রেনটি সকালে কমলাপুর স্টেশন ছাড়ে।",
+            "explanation_en": "The train leaves Kamalapur Station in the morning."
+          },
+          {
+            "id": "1ii",
+            "question": "When did Julie download the poem?",
+            "options": [
+              "on the day of journey",
+              "the previous day",
+              "that morning",
+              "last week"
+            ],
+            "correct": 1,
+            "explanation_bn": "জুলি আগের দিন কবিতাটি ডাউনলোড করেছিল।",
+            "explanation_en": "Julie downloaded the poem the previous day."
+          },
+          {
+            "id": "1iii",
+            "question": "What is the scheduled time for Tista Express from Kamalapur?",
+            "options": [
+              "7:30 p.m.",
+              "8 p.m.",
+              "7:30 a.m.",
+              "8 a.m."
+            ],
+            "correct": 2,
+            "explanation_bn": "নির্ধারিত সময় সকাল ৭:৩০।",
+            "explanation_en": "The scheduled time is 7:30 a.m."
+          },
+          {
+            "id": "1iv",
+            "question": "Robert Louis Stevenson wrote a poem about ---",
+            "options": [
+              "railway station",
+              "journey",
+              "train journey",
+              "nature"
+            ],
+            "correct": 2,
+            "explanation_bn": "রবার্ট লুই স্টিভেনসন ট্রেন ভ্রমণ নিয়ে একটি কবিতা লিখেছেন।",
+            "explanation_en": "Robert Louis Stevenson wrote a poem about a train journey."
+          },
+          {
+            "id": "1v",
+            "question": "Which of the followings is not true about the poem?",
+            "options": [
+              "Julie downloaded the poem",
+              "Julie composed the poem",
+              "Julie printed the poem",
+              "Julie recited the poem"
+            ],
+            "correct": 1,
+            "explanation_bn": "জুলি কবিতাটি রচনা করেননি, তিনি এটি ডাউনলোড করেছিলেন।",
+            "explanation_en": "Julie did not compose the poem; she downloaded it."
+          },
+          {
+            "id": "1vi",
+            "question": "The word departure means ---",
+            "options": [
+              "deviation",
+              "leaving",
+              "removal",
+              "change"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Departure' অর্থ প্রস্থান বা leaving।",
+            "explanation_en": "'Departure' means leaving."
+          },
+          {
+            "id": "1vii",
+            "question": "The word bound means ---",
+            "options": [
+              "jump",
+              "border",
+              "certain",
+              "destined"
+            ],
+            "correct": 3,
+            "explanation_bn": "'Bound' অর্থ গন্তব্যের দিকে অভিমুখী বা destined।",
+            "explanation_en": "'Bound' means destined or going towards."
+          },
+          {
+            "id": "1viii",
+            "question": "Which one of the following statements is true?",
+            "options": [
+              "The train left in time",
+              "The train missed the scheduled time",
+              "The train left at 7:30 am",
+              "The train left at 9:00 pm"
+            ],
+            "correct": 1,
+            "explanation_bn": "ট্রেনটি নির্ধারিত সময় ৭:৩০-এর পরিবর্তে ৮টায় ছেড়েছিল।",
+            "explanation_en": "The train missed the scheduled time, leaving at 8:00 instead of 7:30."
+          },
+          {
+            "id": "1ix",
+            "question": "The word quite means ---",
+            "options": [
+              "rather",
+              "relatively",
+              "very",
+              "totally"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Quite' এখানে 'very' অর্থে ব্যবহৃত হয়েছে।",
+            "explanation_en": "'Quite' here means 'very'."
+          },
+          {
+            "id": "1x",
+            "question": "There were --- between the poem and the real scenery.",
+            "options": [
+              "differences",
+              "dissimilarities",
+              "disparities",
+              "resemblances"
+            ],
+            "correct": 3,
+            "explanation_bn": "কবিতা এবং বাস্তব দৃশ্যের মধ্যে সাদৃশ্য ছিল।",
+            "explanation_en": "There were resemblances between the poem and the real scenery."
+          },
+          {
+            "id": "1xi",
+            "question": "What did Zishan see on the big time table?",
+            "options": [
+              "the departure time of their train",
+              "the compartment of their train",
+              "their seat numbers",
+              "Tista Express"
+            ],
+            "correct": 0,
+            "explanation_bn": "জিশান স্টেশনের বড় সময়সূচিতে ট্রেনের ছাড়ার সময় দেখেছিল।",
+            "explanation_en": "Zishan saw the departure time of their train on the big timetable."
+          },
+          {
+            "id": "1xii",
+            "question": "The compartment was ---",
+            "options": [
+              "empty",
+              "full",
+              "crowded",
+              "half empty"
+            ],
+            "correct": 3,
+            "explanation_bn": "কামরাটি অর্ধেক খালি ছিল।",
+            "explanation_en": "The compartment was half empty."
+          },
+          {
+            "id": "1xiii",
+            "question": "The word beautiful means ---",
+            "options": [
+              "excellent",
+              "handsome",
+              "gorgeous",
+              "fine-looking"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Beautiful' এর সমার্থক 'excellent' বা চমৎকার।",
+            "explanation_en": "'Beautiful' means excellent or very pleasing."
+          },
+          {
+            "id": "1xiv",
+            "question": "The word fast means ---",
+            "options": [
+              "ahead",
+              "promptly",
+              "suddenly",
+              "speedily"
+            ],
+            "correct": 3,
+            "explanation_bn": "'Fast' অর্থ দ্রুত বা speedily।",
+            "explanation_en": "'Fast' means speedily."
+          },
+          {
+            "id": "1xv",
+            "question": "The word table means ---",
+            "options": [
+              "schedule",
+              "bench",
+              "board",
+              "desk"
+            ],
+            "correct": 0,
+            "explanation_bn": "এখানে 'table' অর্থ সময়সূচি বা schedule।",
+            "explanation_en": "Here 'table' means schedule."
+          },
+          {
+            "id": "2a",
+            "question": "What do you know about Tista Express from the passage?",
+            "options": [
+              "It is a local train",
+              "It is a Dewanganj-bound train that leaves Kamalapur at 8:00 am",
+              "It is an international train",
+              "It is a night train"
+            ],
+            "correct": 1,
+            "explanation_bn": "এটি একটি দেওয়ানগঞ্জগামী ট্রেন যা কমলাপুর ছাড়ে সকাল ৮টায়, নির্ধারিত সময় ৭:৩০ হলেও।",
+            "explanation_en": "It is a Dewanganj-bound train that leaves Kamalapur at 8:00 am, though the scheduled time is 7:30 am."
+          },
+          {
+            "id": "2b",
+            "question": "Write about the poem that Julie had downloaded.",
+            "options": [
+              "It is by William Wordsworth about nature",
+              "It is a beautiful poem by Robert Louis Stevenson about a train journey",
+              "It is a poem about a river",
+              "It is a funny poem"
+            ],
+            "correct": 1,
+            "explanation_bn": "এটি রবার্ট লুই স্টিভেনসনের একটি সুন্দর কবিতা যা ট্রেন ভ্রমণ নিয়ে।",
+            "explanation_en": "It is a beautiful poem by Robert Louis Stevenson about a train journey."
+          },
+          {
+            "id": "2c",
+            "question": "Why did the children sit by the window?",
+            "options": [
+              "To sleep",
+              "To look outside",
+              "To read a book",
+              "To talk to the parents"
+            ],
+            "correct": 1,
+            "explanation_bn": "তারা জানালার পাশে বসেছিল বাইরে দেখার জন্য।",
+            "explanation_en": "They sat by the window to look outside."
+          },
+          {
+            "id": "2d",
+            "question": "Did the train leave Kamalapur Railway Station late or on time?",
+            "options": [
+              "It left on time",
+              "It left early",
+              "It left late, at 8:00 am instead of 7:30 am",
+              "It left at 9:00 am"
+            ],
+            "correct": 2,
+            "explanation_bn": "এটি দেরিতে ছেড়েছিল, ৭:৩০-এর পরিবর্তে ৮টায়।",
+            "explanation_en": "It left late, at 8:00 am instead of 7:30 am."
+          },
+          {
+            "id": "2e",
+            "question": "Describe what Julie did during the journey.",
+            "options": [
+              "She slept all the way",
+              "She talked to the co-passengers",
+              "She looked out, found similarities with the poem, and began to read it",
+              "She ate snacks"
+            ],
+            "correct": 2,
+            "explanation_bn": "সে জানালা দিয়ে বাইরে তাকাল, কবিতার সাথে মিল খুঁজে পেল এবং কবিতাটি পড়তে শুরু করল।",
+            "explanation_en": "She looked out the window, found similarities between the poem and the real scenery, took out the poem, and began to read."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2",
+      "name": "Gap Fill & Vocabulary",
+      "type": "gap_fill_vocab",
+      "content": {
+        "gapFill": {
+          "passage": "Begum Rokeya was a famous writer and a (a) ______ worker. She was born in the village of Pairabondh, Rangpur in 1880. Her father was a (b) ______ landlord.\n\nRokeya learnt Bangla and English from her eldest brother Ibrahim. She believed that women (c) ______ enjoy the same rights and opportunities as men. So she fought for the (d) ______ of women throughout her life.\n\nHer husband was very cooperative, and always encouraged Rokeya to (e) ______ her activities.",
+          "dialogPassage": "Begum Rokeya (1880-1932) was a famous writer and a social worker. She lived in undivided Bengal in the early 20th century. She believed that women should have the same rights and opportunities as men have in the society. So she fought for their cause throughout her life. Begum Rokeya was born in a village called Pairabondh, Rangpur in 1880. Her father Jahiruddin Muhammad Abu Ali Haider Saber was an educated landlord. Rokeya was married to Syed Sakhawat Hussain in 1897. Her husband was the Deputy Magistrate of Bhagalpur, now a district in the Indian state of Bihar. He was very cooperative, and always encouraged Rokeya to go on with her activities. Many upper-class Muslims of Bengal at that time learnt Arabic and Persian as a medium of education and communication. But Rokeya had great love for her mother tongue. She learnt Bangla and English from her eldest brother Ibrahim.",
+          "boxWords": [
+            "social",
+            "learned",
+            "educated",
+            "should",
+            "sake",
+            "welfare",
+            "continue",
+            "run",
+            "carry",
+            "worker",
+            "always",
+            "believed",
+            "fought"
+          ],
+          "blanks": [
+            {
+              "blankId": "a",
+              "correct": "social",
+              "options": [
+                {
+                  "text": "social",
+                  "isCorrect": true,
+                  "explanationBn": "বেগম রোকেয়া একজন সমাজকর্মী ছিলেন।",
+                  "explanationEn": "Begum Rokeya was a social worker."
+                },
+                {
+                  "text": "domestic",
+                  "isCorrect": false,
+                  "explanationBn": "তিনি গৃহকর্মী ছিলেন না।",
+                  "explanationEn": "She was not a domestic worker."
+                },
+                {
+                  "text": "political",
+                  "isCorrect": false,
+                  "explanationBn": "তিনি রাজনৈতিক কর্মী ছিলেন না।",
+                  "explanationEn": "She was not a political worker."
+                }
+              ]
+            },
+            {
+              "blankId": "b",
+              "correct": "learned",
+              "options": [
+                {
+                  "text": "learned",
+                  "isCorrect": true,
+                  "explanationBn": "তার পিতা ছিলেন একজন শিক্ষিত জমিদার।",
+                  "explanationEn": "Her father was a learned landlord."
+                },
+                {
+                  "text": "rich",
+                  "isCorrect": false,
+                  "explanationBn": "এটি শিক্ষিত অর্থে নয়, বরং ধনী বোঝায়।",
+                  "explanationEn": "This means wealthy, not educated."
+                },
+                {
+                  "text": "strict",
+                  "isCorrect": false,
+                  "explanationBn": "তিনি কঠোর জমিদার ছিলেন না।",
+                  "explanationEn": "He was not a strict landlord."
+                }
+              ]
+            },
+            {
+              "blankId": "c",
+              "correct": "should",
+              "options": [
+                {
+                  "text": "should",
+                  "isCorrect": true,
+                  "explanationBn": "তিনি বিশ্বাস করতেন যে নারীদের পুরুষের মতো সমান অধিকার 'উচিত'।",
+                  "explanationEn": "She believed women should enjoy the same rights as men."
+                },
+                {
+                  "text": "must",
+                  "isCorrect": false,
+                  "explanationBn": "'Must' তুলনামূলক জোরালো, কিন্তু এখানে 'should' অধিক উপযুক্ত।",
+                  "explanationEn": "'Must' is stronger, but 'should' fits better here."
+                },
+                {
+                  "text": "can",
+                  "isCorrect": false,
+                  "explanationBn": "'Can' সামর্থ্য বোঝায়, কিন্তু এখানে প্রয়োজনীয়তা বোঝানো হয়েছে।",
+                  "explanationEn": "'Can' indicates ability, but necessity is implied."
+                }
+              ]
+            },
+            {
+              "blankId": "d",
+              "correct": "sake",
+              "options": [
+                {
+                  "text": "sake",
+                  "isCorrect": true,
+                  "explanationBn": "তিনি নারীদের জন্য সংগ্রাম করেছেন।",
+                  "explanationEn": "She fought for the sake of women."
+                },
+                {
+                  "text": "cause",
+                  "isCorrect": false,
+                  "explanationBn": "'Cause' অর্থ উদ্দেশ্য, এখানে 'for the sake of' বাক্যাংশ।",
+                  "explanationEn": "'Cause' means purpose; here it is the phrase 'for the sake of'."
+                },
+                {
+                  "text": "welfare",
+                  "isCorrect": false,
+                  "explanationBn": "'Welfare' অর্থ কল্যাণ, তবে 'সake' অধিক উপযুক্ত।",
+                  "explanationEn": "'Welfare' means well-being, but 'sake' is more appropriate."
+                }
+              ]
+            },
+            {
+              "blankId": "e",
+              "correct": "continue",
+              "options": [
+                {
+                  "text": "continue",
+                  "isCorrect": true,
+                  "explanationBn": "তিনি তার কার্যক্রম চালিয়ে যেতে উৎসাহিত হন।",
+                  "explanationEn": "He encouraged her to continue her activities."
+                },
+                {
+                  "text": "run",
+                  "isCorrect": false,
+                  "explanationBn": "'Run' অর্থ পরিচালনা করা, এখানে 'continue' অধিক উপযুক্ত।",
+                  "explanationEn": "'Run' means to manage; 'continue' fits better."
+                },
+                {
+                  "text": "stop",
+                  "isCorrect": false,
+                  "explanationBn": "'Stop' বিপরীত অর্থ বহন করে।",
+                  "explanationEn": "'Stop' carries the opposite meaning."
+                }
+              ]
+            }
+          ]
+        },
+        "vocabQuestions": [
+          {
+            "id": "4a",
+            "question": "What is the synonym of 'famous'?",
+            "options": [
+              "unknown",
+              "notorious",
+              "renowned/well-known",
+              "ordinary"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Famous'-এর সমার্থক শব্দ 'renowned' বা 'well-known' (বিখ্যাত)।",
+            "explanation_en": "The synonym of 'famous' is 'renowned' or 'well-known'."
+          },
+          {
+            "id": "4b",
+            "question": "What is the synonym of 'writer'?",
+            "options": [
+              "reader",
+              "author",
+              "speaker",
+              "listener"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Writer'-এর সমার্থক শব্দ 'author' (লেখক)।",
+            "explanation_en": "The synonym of 'writer' is 'author'."
+          },
+          {
+            "id": "4c",
+            "question": "What is the antonym of 'cooperative'?",
+            "options": [
+              "supportive",
+              "helpful",
+              "uncooperative/unsupportive",
+              "friendly"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Cooperative'-এর বিপরীত শব্দ 'uncooperative' (অসহযোগী)।",
+            "explanation_en": "The antonym of 'cooperative' is 'uncooperative'."
+          },
+          {
+            "id": "4d",
+            "question": "What is the synonym of 'called'?",
+            "options": [
+              "ignored",
+              "forgotten",
+              "named",
+              "hidden"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Called'-এর সমার্থক শব্দ 'named' (নামকরণ/ডাকা)।",
+            "explanation_en": "The synonym of 'called' is 'named'."
+          },
+          {
+            "id": "4e",
+            "question": "What is the antonym of 'love'?",
+            "options": [
+              "affection",
+              "hatred/contempt",
+              "care",
+              "kindness"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Love'-এর বিপরীত শব্দ 'hatred' বা 'contempt' (ঘৃণা)।",
+            "explanation_en": "The antonym of 'love' is 'hatred' or 'contempt'."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch3",
+      "name": "Biographical Passage & Summary",
+      "type": "passage_summary",
+      "content": {
+        "passage": "Hasan and Sabina are classmates. Hasan lives in a village named Rasulpur. The village is not so big.\n\nAbout fifteen hundred people live here and most of them depend on agriculture. On the other hand, Sabina lives in a village named Nurpur which has a large area with about four thousand people and majority of them are educated and service holders. Hasan's village is beautiful with green fields and bushes.\n\nThere is only a primary school here and so Hasan has to go to school in Sabina's village. There is another high school in that village beside theirs. There is also a primary school there.\n\nRecently, arsenic contamination in water has been found in Hasan's village. The two tubewells of this village are identified for arsenic. People now are to depend on the two big ponds for drinking water.\n\nSo, most often people suffer from many water-borne diseases and have to go to the only health complex for treatment. Though there is no health complex in Sabina's village, they have two private hospitals there. The three deep tubewells, free from arsenic contamination, fulfill the demand of drinking water.",
+        "translation_bn": "হাসান এবং সাবিনা সহপাঠী। হাসান রসুলপুর নামক এক গ্রামে বাস করে। গ্রামটি তেমন বড় নয়। এখানে প্রায় পনেরো শত লোক বাস করে এবং বেশিরভাগ লোকই কৃষির ওপর নির্ভরশীল। অপরপক্ষে সাবিনা বাস করে নূরপুর গ্রামে যার আয়তন অনেক এবং প্রায় চার হাজার লোক এখানে বাস করে এবং তাদের বেশিরভাগই শিক্ষিত ও চাকুরিজীবী। সবুজ মাঠ এবং ঝোপে সমৃদ্ধ হাসানের গ্রামটি বেশ সুন্দর। এখানে শুধুমাত্র একটি প্রাইমারি স্কুল রয়েছে এবং এ কারণে হাসানকে সাবিনাদের গ্রামের স্কুলে যেতে হয়। তাদেরটি ছাড়াও সেই গ্রামে আরও একটি উচ্চ বিদ্যালয় রয়েছে। সেখানে একটি প্রাথমিক বিদ্যালয়ও রয়েছে। সম্প্রতি হাসানের গ্রামের পানিতে আর্সেনিক বিষক্রিয়া পাওয়া গেছে। এ গ্রামের দুটি নলকূপেই আর্সেনিক পাওয়া গেছে। খাবার পানির জন্য মানুষকে এখন দুটি বড় পুকুরের ওপর নির্ভর করতে হয়। বেশিরভাগ সময়ই মানুষকে বিভিন্ন পানিবাহিত রোগে আক্রান্ত হতে হয় এবং চিকিৎসার জন্য একমাত্র স্বাস্থ্য কেন্দ্রটিতে যেতে হয়। যদিও সাবিনার গ্রামে কোনো স্বাস্থ্য কেন্দ্র নেই, তবে তাদের দুটি বেসরকারি হাসপাতাল রয়েছে। তিনটি গভীর নলকূপ যা আর্সেনিকমুক্ত, খাবার পানির চাহিদা মেটায়।",
+        "vocabulary": [
+          {
+            "word": "agriculture",
+            "pos": "n",
+            "meaning_bn": "কৃষি",
+            "meaning_en": "farming",
+            "synonym": "farming",
+            "antonym": ""
+          },
+          {
+            "word": "arsenic",
+            "pos": "n",
+            "meaning_bn": "আর্সেনিক",
+            "meaning_en": "a poisonous substance",
+            "synonym": "poison",
+            "antonym": ""
+          },
+          {
+            "word": "contamination",
+            "pos": "n",
+            "meaning_bn": "দূষণ",
+            "meaning_en": "pollution",
+            "synonym": "pollution",
+            "antonym": "purification"
+          },
+          {
+            "word": "majority",
+            "pos": "n",
+            "meaning_bn": "সংখ্যাগরিষ্ঠ",
+            "meaning_en": "greater number",
+            "synonym": "most",
+            "antonym": "minority"
+          },
+          {
+            "word": "tubewell",
+            "pos": "n",
+            "meaning_bn": "নলকূপ",
+            "meaning_en": "a pipe used to draw water",
+            "synonym": "well",
+            "antonym": ""
+          },
+          {
+            "word": "water-borne",
+            "pos": "adj",
+            "meaning_bn": "পানিবাহিত",
+            "meaning_en": "carried by water",
+            "synonym": "",
+            "antonym": ""
+          }
+        ],
+        "mcqQuestions": [
+          {
+            "id": "5i",
+            "question": "What is the main occupation of the people in Rasulpur?",
+            "options": [
+              "Service",
+              "Business",
+              "Farming",
+              "Teaching"
+            ],
+            "correct": 2,
+            "explanation_bn": "রসুলপুরের অধিকাংশ মানুষ কৃষির ওপর নির্ভরশীল।",
+            "explanation_en": "Most people in Rasulpur depend on agriculture."
+          },
+          {
+            "id": "5ii",
+            "question": "How many people live in Rasulpur?",
+            "options": [
+              "4000",
+              "2000",
+              "1500",
+              "500"
+            ],
+            "correct": 2,
+            "explanation_bn": "রসুলপুরে প্রায় পনেরো শত লোক বাস করে।",
+            "explanation_en": "About fifteen hundred people live in Rasulpur."
+          },
+          {
+            "id": "5iii",
+            "question": "How many health complexes are there in Hasan's village?",
+            "options": [
+              "Two",
+              "Three",
+              "One",
+              "None"
+            ],
+            "correct": 2,
+            "explanation_bn": "হাসানের গ্রামে একটি মাত্র স্বাস্থ্য কমপ্লেক্স আছে।",
+            "explanation_en": "There is one health complex in Hasan's village."
+          },
+          {
+            "id": "5iv",
+            "question": "What is the population of Nurpur?",
+            "options": [
+              "1500",
+              "2000",
+              "3000",
+              "4000"
+            ],
+            "correct": 3,
+            "explanation_bn": "নূরপুরের জনসংখ্যা প্রায় চার হাজার।",
+            "explanation_en": "Nurpur has about four thousand people."
+          },
+          {
+            "id": "5v",
+            "question": "What is the source of drinking water in Sabina's village?",
+            "options": [
+              "Ponds",
+              "Rivers",
+              "Three deep tubewells",
+              "Wells"
+            ],
+            "correct": 2,
+            "explanation_bn": "সাবিনার গ্রামে তিনটি গভীর নলকূপ রয়েছে যা আর্সেনিকমুক্ত পানির যোগান দেয়।",
+            "explanation_en": "Sabina's village has three deep tubewells free from arsenic."
+          }
+        ],
+        "trueFalseQuestions": [
+          {
+            "id": "6a",
+            "question": "Arsenicosis is a water-borne disease.",
+            "options": [
+              "True",
+              "False",
+              "Not mentioned",
+              "Arsenicosis is an air-borne disease"
+            ],
+            "correct": 0,
+            "explanation_bn": "আর্সেনিকোসিস একটি পানিবাহিত রোগ।",
+            "explanation_en": "Arsenicosis is a water-borne disease."
+          },
+          {
+            "id": "6b",
+            "question": "Hasan and Sabina go to the same school.",
+            "options": [
+              "True",
+              "False",
+              "Not mentioned",
+              "They study in different districts"
+            ],
+            "correct": 0,
+            "explanation_bn": "হাসান এবং সাবিনা সহপাঠী, তাই তারা একই স্কুলে যায়।",
+            "explanation_en": "Hasan and Sabina are classmates, so they go to the same school."
+          },
+          {
+            "id": "6c",
+            "question": "Two tubewells of Sabina's village are infected with arsenicosis.",
+            "options": [
+              "True",
+              "False. Two tubewells of Hasan's village are infected with arsenicosis.",
+              "False. All tubewells are safe.",
+              "False. The ponds are infected."
+            ],
+            "correct": 1,
+            "explanation_bn": "হাসানের গ্রামের দুটি নলকূপ আর্সেনিক দ্বারা দূষিত, সাবিনার গ্রামের নয়।",
+            "explanation_en": "Two tubewells of Hasan's village, not Sabina's, are infected with arsenicosis."
+          },
+          {
+            "id": "6d",
+            "question": "There are two private hospitals in Sabina's village.",
+            "options": [
+              "True",
+              "False. There is one.",
+              "False. There are none.",
+              "False. There are three."
+            ],
+            "correct": 0,
+            "explanation_bn": "সাবিনার গ্রামে দুটি বেসরকারি হাসপাতাল রয়েছে।",
+            "explanation_en": "There are two private hospitals in Sabina's village."
+          },
+          {
+            "id": "6e",
+            "question": "The tubewells of Sabina's village are safe for drinking water.",
+            "options": [
+              "True",
+              "False",
+              "Not mentioned",
+              "They are infected"
+            ],
+            "correct": 0,
+            "explanation_bn": "সাবিনার গ্রামের গভীর নলকূপগুলো আর্সেনিকমুক্ত এবং নিরাপদ।",
+            "explanation_en": "The tubewells of Sabina's village are free from arsenic and safe for drinking."
+          }
+        ],
+        "summary": "Two classmates named Hasan and Sabina live in two different villages. Hasan lives in Rasulpur, a small village where most people are farmers and there is only a primary school. Sabina lives in Nurpur, a larger village with educated people and service holders. Recently, arsenic contamination was found in Hasan's village, causing health problems. In contrast, Sabina's village has clean water and private hospitals for better healthcare."
+      }
+    },
+    {
+      "id": "ch4",
+      "name": "Sentence Making",
+      "type": "sentence_matching",
+      "content": {
+        "exercise": {
+          "id": 1,
+          "question_text": "Match the parts of sentences from Column A and Column B to make five complete sentences.",
+          "table_columns": [
+            [
+              "Once, a hungry fox was",
+              "After a while, he came",
+              "He was tempted",
+              "He thought",
+              "Unfortunately, the grapes were"
+            ],
+            [
+              "of having a good meal of the ripe grapes.",
+              "hanging too high for the fox to touch.",
+              "searching for food in the forest.",
+              "to a vineyard.",
+              "by the bunches of ripe grapes there."
+            ]
+          ],
+          "valid_sentences": [
+            {
+              "sentence": "Once, a hungry fox was searching for food in the forest.",
+              "combination": [
+                "Once, a hungry fox was",
+                "searching for food in the forest."
+              ],
+              "explanation_en": "This introduces the story of the hungry fox.",
+              "explanation_bn": "এটি ক্ষুধার্ত শিয়ালের গল্পের সূচনা করে।"
+            },
+            {
+              "sentence": "After a while, he came to a vineyard.",
+              "combination": [
+                "After a while, he came",
+                "to a vineyard."
+              ],
+              "explanation_en": "The fox arrived at a vineyard after searching.",
+              "explanation_bn": "শিয়াল কিছুক্ষণ পর একটি আঙুর বাগানে পৌঁছাল।"
+            },
+            {
+              "sentence": "He was tempted by the bunches of ripe grapes there.",
+              "combination": [
+                "He was tempted",
+                "by the bunches of ripe grapes there."
+              ],
+              "explanation_en": "The ripe grapes tempted the hungry fox.",
+              "explanation_bn": "পাকা আঙুর দেখে শিয়ালটি লোভী হয়ে পড়ল।"
+            },
+            {
+              "sentence": "He thought of having a good meal of the ripe grapes.",
+              "combination": [
+                "He thought",
+                "of having a good meal of the ripe grapes."
+              ],
+              "explanation_en": "The fox planned to eat the grapes.",
+              "explanation_bn": "শিয়াল পাকা আঙুর খাওয়ার কথা ভাবল।"
+            },
+            {
+              "sentence": "Unfortunately, the grapes were hanging too high for the fox to touch.",
+              "combination": [
+                "Unfortunately, the grapes were",
+                "hanging too high for the fox to touch."
+              ],
+              "explanation_en": "The grapes were out of the fox's reach.",
+              "explanation_bn": "দুর্ভাগ্যবশত, আঙুরগুলো শিয়ালের নাগালের বাইরে ছিল।"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch5",
+      "name": "Rearranging",
+      "type": "rearrangement",
+      "content": {
+        "sentences": [
+          {
+            "id": "a",
+            "text": "When he was in the fourth standard, he suffered from a severe attack of dysentery."
+          },
+          {
+            "id": "b",
+            "text": "He started his education in his village school."
+          },
+          {
+            "id": "c",
+            "text": "Ray and his elder brother were admitted to Hare School in 1874."
+          },
+          {
+            "id": "d",
+            "text": "Prafulla Chandra Ray was born in Khulna in 1861."
+          },
+          {
+            "id": "e",
+            "text": "It hampered his health throughout his life."
+          },
+          {
+            "id": "f",
+            "text": "His father Harish Chandra Ray was a land proprietor."
+          },
+          {
+            "id": "g",
+            "text": "In 1879 he passed the Entrance Examination."
+          },
+          {
+            "id": "h",
+            "text": "In 1870 his family migrated to Calcutta."
+          }
+        ],
+        "correctOrder": [
+          "d",
+          "f",
+          "b",
+          "h",
+          "c",
+          "a",
+          "e",
+          "g"
+        ],
+        "reconstructedParagraph": "Prafulla Chandra Ray was born in Khulna in 1861. His father Harish Chandra Ray was a land proprietor. He started his education in his village school. In 1870 his family migrated to Calcutta and both brothers were admitted to Hare School in 1874. When he was in the fourth standard, he suffered from a severe attack of dysentery. It hampered his health throughout his life. In 1879 he passed the Entrance Examination."
+      }
+    },
+    {
+      "id": "ch6",
+      "name": "Poetry MCQ",
+      "type": "poetry_mcq",
+      "content": {
+        "questions": [
+          {
+            "id": "10a",
+            "question": "According to the poem 'Whose Child Is This?', how does a parent advise a child?",
+            "options": [
+              "To be good always and do some right things every day",
+              "To play all day",
+              "To ignore studies",
+              "To be naughty"
+            ],
+            "correct": 0,
+            "explanation_bn": "কবিতা অনুসারে, পিতামাতা শিশুকে সর্বদা ভালো থাকতে এবং প্রতিদিন কিছু সঠিক কাজ করতে উপদেশ দেন।",
+            "explanation_en": "According to the poem, a parent advises a child to be good always and to do some right things every day."
+          },
+          {
+            "id": "10b",
+            "question": "In the poem 'Whose Child Is This?', why did the teacher reply 'Mine'?",
+            "options": [
+              "Because the child belonged to the teacher",
+              "Because a child remains under the care of a teacher at school",
+              "Because the teacher adopted the child",
+              "Because the teacher liked the child"
+            ],
+            "correct": 1,
+            "explanation_bn": "শিক্ষক 'আমার' বলেছিলেন কারণ বিদ্যালয়ে একটি শিশু শিক্ষকের তত্ত্বাবধানে থাকে।",
+            "explanation_en": "The teacher replied 'Mine' because a child remains under the care of a teacher at school."
+          },
+          {
+            "id": "10c",
+            "question": "How many times did he/she ask the question 'Whose Child Is This?'?",
+            "options": [
+              "Once",
+              "Twice",
+              "Three times",
+              "Four times"
+            ],
+            "correct": 2,
+            "explanation_bn": "প্রশ্নটি তিনবার করা হয়েছিল।",
+            "explanation_en": "The question was asked three times."
+          },
+          {
+            "id": "10d",
+            "question": "According to the poem 'Leisure', why do people not have the time to stare as long as sheep or cows?",
+            "options": [
+              "Because they are lazy",
+              "Because they are engaged in fast and busy lives",
+              "Because they don't like nature",
+              "Because they sleep a lot"
+            ],
+            "correct": 1,
+            "explanation_bn": "মানুষ তাদের ব্যস্ত জীবনের কারণে প্রকৃতি উপভোগ করার সময় পায় না।",
+            "explanation_en": "People are so engaged in their fast and busy lives that they forget to enjoy simple pleasures."
+          },
+          {
+            "id": "10e",
+            "question": "In the poem 'Leisure', what does the expression 'to stand and stare' indicate?",
+            "options": [
+              "To rush through the day",
+              "To take time to pause and enjoy the beauty of nature",
+              "To work harder",
+              "To sleep"
+            ],
+            "correct": 1,
+            "explanation_bn": "'To stand and stare' বলতে থেমে প্রকৃতির সৌন্দর্য উপভোগ করাকে বোঝায়।",
+            "explanation_en": "'To stand and stare' indicates the act of taking time to pause and enjoy the beauty of nature."
+          },
+          {
+            "id": "10f",
+            "question": "Do you think people often do not have time to enjoy the beauty of nature? Give reasons.",
+            "options": [
+              "No, they have plenty of time",
+              "Yes, because we remain so busy in daily work that we find no time",
+              "Only on holidays",
+              "Only in old age"
+            ],
+            "correct": 1,
+            "explanation_bn": "আমরা দৈনন্দিন কাজে এত ব্যস্ত থাকি যে প্রকৃতির সৌন্দর্য উপভোগ করার সময় পাই না।",
+            "explanation_en": "Yes, we remain so busy in our daily work that we find no time to enjoy the natural beauty around us."
+          },
+          {
+            "id": "10g",
+            "question": "In the poem 'From a Railway Carriage', what expressions does the poet use to show the amazing speed of the train?",
+            "options": [
+              "Slow and steady",
+              "Faster than fairies, faster than witches",
+              "Like a walking man",
+              "Like a crawling snail"
+            ],
+            "correct": 1,
+            "explanation_bn": "কবি ট্রেনের গতি বোঝাতে 'faster than fairies', 'faster than witches' ইত্যাদি ব্যবহার করেছেন।",
+            "explanation_en": "The poet uses expressions like 'faster than fairies', 'faster than witches' to show the amazing speed."
+          },
+          {
+            "id": "10h",
+            "question": "Where does the poet see the daisies in the poem 'From a Railway Carriage'?",
+            "options": [
+              "In the sky",
+              "In the river",
+              "In the grassy land",
+              "On the mountain"
+            ],
+            "correct": 2,
+            "explanation_bn": "কবি ঘাসে ভরা জমিতে ডেইজি ফুল দেখতে পান।",
+            "explanation_en": "The poet sees the daisies in the grassy land."
+          }
+        ]
+      }
+    }
+  ]
+}

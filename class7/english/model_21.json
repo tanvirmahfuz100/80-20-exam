@@ -1,0 +1,1041 @@
+{
+  "_type": "model_test",
+  "modelId": "m21",
+  "title": "Model Test 21 - English 1st Paper",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Passage & Comprehension",
+      "type": "passage_mcq",
+      "content": {
+        "passage": "The giant felt sorry as he looked out. \"How selfish I have been!\" he said to himself. \"Now I know why the spring would not come here.\"\n\nSo, he quickly went out into the garden.\n\nBut when the children saw him they were so frightened that they all ran away, and the garden had the look of winter again. Only the little boy did not run. For, his eyes were so full of tears that he did not see the giant coming.\n\nThe giant quietly came behind him, took him gently in his hands and put him up in the tree. And the tree at once broke into blossom, and the birds came and sang on it. The little boy stretched out his two arms, flung them round the giant's neck and kissed him.\n\nThe other children saw this. They saw that the giant was not wicked any longer. So, they came back running.\n\nAnd with them came the spring. \"It's your garden now, little children,\" said the giant. Then he took a huge axe and knocked the wall down.\n\nAnd the people passing by found the giant playing with the children in the most beautiful garden in the country.",
+        "translation_bn": "দৈত্য বাইরে তাকিয়ে দুঃখ অনুভব করল। \"আমি কতই না স্বার্থপর হয়েছি!\" সে নিজেকে বলল। \"এখন আমি বুঝতে পারছি কেন বসন্ত এখানে আসে না।\" তাই, সে তাড়াতাড়ি বের হয়ে বাগানে গেল। কিন্তু শিশুরা যখন তাকে দেখল, তখন তারা এতই ভীত হলো যে তারা সকলেই দৌড়ে পালিয়ে গেল এবং বাগান আবার শীতের রূপ ফিরে এল। কেবলমাত্র ছোট বালকটি দৌড়ায়নি কারণ তার চোখ জলে এতই পূর্ণ ছিল যে দৈত্যের আসা সে দেখতে পায়নি। দৈত্যটি ধীরে ধীরে তার পেছনে এল, তার হাতে তাকে আলতোভাবে তুলে নিল এবং গাছের ওপর রাখল। আর সাথে সাথেই গাছটিতে ফুল ফুটে উঠল আর পাখিরা এসে গান শুরু করল। ছোট বালকটি তার দুই হাত প্রসারিত করে দৈত্যটির গলা জড়িয়ে ধরল এবং তাকে চুমু খেল। অন্যান্য শিশুরা এটি দেখল। তারা দেখতে পেল যে দৈত্যটি এখন আর দুষ্টু নয়। তাই, তারা দৌড়ে ফিরে এল। আর তাদের সাথে এলো বসন্ত। \"এটি এখন তোমাদের বাগান, ছোট্ট শিশুরা,\" দৈত্যটি বলল। তারপর সে একটি বিশাল কুঠার নিল এবং দেয়ালটি গুঁড়িয়ে দিল। আর লোকজন পাশ দিয়ে যাওয়ার সময় দেখতে পেল দেশের সবচেয়ে সুন্দর বাগানে দৈত্যটি শিশুদের সাথে খেলা করছে।",
+        "vocabulary": [
+          {
+            "word": "axe",
+            "synonym": "chopper",
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "a tool used for chopping wood",
+            "meaning_bn": "কুঠার"
+          },
+          {
+            "word": "feel",
+            "synonym": "sense",
+            "antonym": "",
+            "pos": "v.",
+            "meaning_en": "to experience something",
+            "meaning_bn": "অনুভব করা"
+          },
+          {
+            "word": "fling",
+            "synonym": "throw",
+            "antonym": "grasp",
+            "pos": "v.",
+            "meaning_en": "to throw something",
+            "meaning_bn": "ছুঁড়ে মারা"
+          },
+          {
+            "word": "frightened",
+            "synonym": "terrified",
+            "antonym": "fearless",
+            "pos": "adj.",
+            "meaning_en": "afraid",
+            "meaning_bn": "ভীত"
+          },
+          {
+            "word": "gently",
+            "synonym": "softly",
+            "antonym": "carelessly",
+            "pos": "adv.",
+            "meaning_en": "with lightness of action",
+            "meaning_bn": "আলতোভাবে"
+          },
+          {
+            "word": "knock down",
+            "synonym": "strike down",
+            "antonym": "",
+            "pos": "v.phr.",
+            "meaning_en": "to hit and make fall",
+            "meaning_bn": "গুঁড়িয়ে দেওয়া"
+          },
+          {
+            "word": "quietly",
+            "synonym": "silently",
+            "antonym": "loudly",
+            "pos": "adv.",
+            "meaning_en": "without making any sound",
+            "meaning_bn": "নিঃশব্দে"
+          },
+          {
+            "word": "selfish",
+            "synonym": "self-centered",
+            "antonym": "altruistic",
+            "pos": "adj.",
+            "meaning_en": "concerned chiefly with own interests",
+            "meaning_bn": "স্বার্থপর"
+          },
+          {
+            "word": "wicked",
+            "synonym": "mischievous",
+            "antonym": "virtuous",
+            "pos": "adj.",
+            "meaning_en": "morally bad, evil",
+            "meaning_bn": "মন্দ"
+          }
+        ],
+        "questions": [
+          {
+            "id": "1i",
+            "question": "Which of the following statements is true?",
+            "options": [
+              "The Giant scolded the little boy.",
+              "The Giant closed his garden again.",
+              "The Giant could realize his fault.",
+              "The Giant remained wicked forever."
+            ],
+            "correct": 2,
+            "explanation_bn": "দৈত্যটি তার ভুল বুঝতে পেরেছিল।",
+            "explanation_en": "The Giant could realize his fault."
+          },
+          {
+            "id": "1ii",
+            "question": "Why did the children get frightened?",
+            "options": [
+              "Seeing the Giant.",
+              "The winter came again.",
+              "The Giant scolded them.",
+              "They got hurt."
+            ],
+            "correct": 0,
+            "explanation_bn": "দৈত্যকে দেখে শিশুরা ভীত হয়ে পড়ে।",
+            "explanation_en": "The children got frightened seeing the Giant."
+          },
+          {
+            "id": "1iii",
+            "question": "Who is/are the owner/s of the garden now?",
+            "options": [
+              "The Giant",
+              "The people",
+              "The little boy",
+              "The children"
+            ],
+            "correct": 3,
+            "explanation_bn": "দৈত্যটি বলেছিল বাগান এখন শিশুদের।",
+            "explanation_en": "The Giant said it was the children's garden now."
+          },
+          {
+            "id": "1iv",
+            "question": "The Giant --- the wall of the garden.",
+            "options": [
+              "broke",
+              "constructed",
+              "repaired",
+              "mended"
+            ],
+            "correct": 0,
+            "explanation_bn": "দৈত্যটি বাগানের দেয়াল ভেঙে ফেলল।",
+            "explanation_en": "The Giant broke the wall."
+          },
+          {
+            "id": "1v",
+            "question": "Now, which of the following qualities is appropriate for the Giant?",
+            "options": [
+              "selfish",
+              "wicked",
+              "cruel",
+              "generous"
+            ],
+            "correct": 3,
+            "explanation_bn": "দৈত্যটি এখন উদার হয়ে গিয়েছিল।",
+            "explanation_en": "The Giant had become generous."
+          },
+          {
+            "id": "1vi",
+            "question": "The phrase 'knocked down' refers to ---",
+            "options": [
+              "shocked",
+              "wounded",
+              "bit",
+              "broke"
+            ],
+            "correct": 3,
+            "explanation_bn": "'Knocked down' অর্থ 'broke' (ভেঙে ফেলা)।",
+            "explanation_en": "Knocked down means broke."
+          },
+          {
+            "id": "1vii",
+            "question": "The Giant felt sorry because he ---",
+            "options": [
+              "became old",
+              "could realize his fault",
+              "found no children",
+              "liked winter"
+            ],
+            "correct": 1,
+            "explanation_bn": "দৈত্যটি নিজের ভুল বুঝতে পেরে দুঃখিত হয়েছিল।",
+            "explanation_en": "The Giant felt sorry because he could realize his fault."
+          },
+          {
+            "id": "1viii",
+            "question": "The word 'gently' means ---",
+            "options": [
+              "softly",
+              "civilly",
+              "calmly",
+              "humbly"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Gently' শব্দের অর্থ 'softly' (আলতোভাবে)।",
+            "explanation_en": "The word 'gently' means softly."
+          },
+          {
+            "id": "1ix",
+            "question": "When the children saw the Giant, they ran away because they were ---",
+            "options": [
+              "afraid",
+              "annoyed",
+              "coward",
+              "happy"
+            ],
+            "correct": 0,
+            "explanation_bn": "শিশুরা ভয় পেয়ে পালিয়ে গিয়েছিল।",
+            "explanation_en": "They were afraid."
+          },
+          {
+            "id": "1x",
+            "question": "What is the meaning of the word 'quickly'?",
+            "options": [
+              "early",
+              "suddenly",
+              "promptly",
+              "slowly"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Quickly' শব্দের অর্থ 'promptly' (দ্রুত)।",
+            "explanation_en": "The meaning of 'quickly' is promptly."
+          },
+          {
+            "id": "1xi",
+            "question": "'Wicked' means ---",
+            "options": [
+              "selfish",
+              "wicked",
+              "unkind",
+              "foolish"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Wicked' শব্দের অর্থ 'unkind' (দুষ্ট)।",
+            "explanation_en": "The word 'wicked' means unkind."
+          },
+          {
+            "id": "1xii",
+            "question": "Which word has the closest meaning to 'frightened'?",
+            "options": [
+              "surprised",
+              "scared",
+              "disinterested",
+              "disappointed"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Frightened' শব্দের সবচেয়ে কাছের অর্থ 'scared' (ভীত)।",
+            "explanation_en": "The closest meaning to 'frightened' is scared."
+          },
+          {
+            "id": "1xiii",
+            "question": "The people passing by found the giant ---",
+            "options": [
+              "playing with the children",
+              "quarrelling with the children",
+              "beating the little child",
+              "crying loudly"
+            ],
+            "correct": 0,
+            "explanation_bn": "লোকজন দৈত্যটিকে শিশুদের সাথে খেলতে দেখল।",
+            "explanation_en": "People found the Giant playing with the children."
+          },
+          {
+            "id": "1xiv",
+            "question": "The little boy did not run because he ---",
+            "options": [
+              "was weak",
+              "could not see the giant",
+              "was frightened",
+              "was coward"
+            ],
+            "correct": 1,
+            "explanation_bn": "ছোট বালকটি দৌড়ায়নি কারণ তার চোখ জলে ভরা ছিল এবং সে দৈত্যকে দেখতে পায়নি।",
+            "explanation_en": "The little boy did not run because he could not see the giant."
+          },
+          {
+            "id": "1xv",
+            "question": "What is the meaning of the word 'arm'?",
+            "options": [
+              "weapon",
+              "upper limb",
+              "instrument",
+              "section"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Arm' শব্দের অর্থ 'upper limb' (হাতের ওপরের অংশ)।",
+            "explanation_en": "The meaning of 'arm' is upper limb."
+          },
+          {
+            "id": "2a",
+            "question": "Why didn't the little boy run?",
+            "options": [
+              "Because his eyes were full of tears and he did not see the Giant coming.",
+              "Because he was brave and wanted to face the Giant.",
+              "Because he was too tired to run.",
+              "Because his friends had left him behind on purpose."
+            ],
+            "correct": 0,
+            "explanation_bn": "ছোট ছেলেটি দৌড়ায়নি কারণ তার চোখ অশ্রুতে ভরা ছিল এবং সে দৈত্যকে আসতে দেখেনি।",
+            "explanation_en": "The little boy didn't run because his eyes were full of tears and he did not see the Giant coming."
+          },
+          {
+            "id": "2b",
+            "question": "Why did the Giant feel sorry?",
+            "options": [
+              "Because he realized he had been selfish and that was why spring had not come.",
+              "Because the children had broken his trees.",
+              "Because his garden was destroyed by the storm.",
+              "Because he had no friends to play with."
+            ],
+            "correct": 0,
+            "explanation_bn": "দৈত্যটির খারাপ লাগছিল কারণ সে বুঝতে পেরেছিল সে স্বার্থপর ছিল এবং তাই বসন্ত আসেনি।",
+            "explanation_en": "The Giant felt sorry because he realized he had been selfish and that was why spring had not come."
+          },
+          {
+            "id": "2c",
+            "question": "When did the spring come back to the Giant's garden again?",
+            "options": [
+              "When the children returned, seeing that the Giant was not wicked anymore.",
+              "When the winter season ended naturally.",
+              "When the Giant planted new flowers in the garden.",
+              "When the Giant built a new wall around the garden."
+            ],
+            "correct": 0,
+            "explanation_bn": "বসন্ত ফিরে এসেছিল যখন বাচ্চারা ফিরে এলো, বুঝতে পেরে যে দৈত্যটি আর দুষ্ট নয়।",
+            "explanation_en": "Spring came back when the children returned, seeing that the Giant was not wicked anymore."
+          },
+          {
+            "id": "2d",
+            "question": "What did the children do when they saw the giant?",
+            "options": [
+              "They were frightened and ran away.",
+              "They greeted the Giant happily.",
+              "They started playing in the garden as before.",
+              "They asked the Giant to play with them."
+            ],
+            "correct": 0,
+            "explanation_bn": "বাচ্চারা দৈত্যকে দেখে ভয় পেয়ে পালিয়ে গিয়েছিল।",
+            "explanation_en": "The children were frightened when they saw the Giant and ran away."
+          },
+          {
+            "id": "2e",
+            "question": "How did the children realize that the giant had become good?",
+            "options": [
+              "They saw him gently put the little boy in the tree and that he was not wicked anymore.",
+              "They heard the Giant apologize to them from his castle.",
+              "The Giant sent them a letter asking them to return.",
+              "They saw the Giant planting flowers in the garden."
+            ],
+            "correct": 0,
+            "explanation_bn": "তারা দৈত্যকে ছোট ছেলেটিকে আলতো করে গাছে তুলতে দেখেছিল এবং বুঝতে পেরেছিল সে আর দুষ্ট নয়।",
+            "explanation_en": "They saw the Giant gently put the little boy in the tree and realized he was not wicked anymore."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2",
+      "name": "Gap Fill & Vocabulary",
+      "type": "gap_fill_vocab",
+      "content": {
+        "gapFill": {
+          "passage": "At last, the spring came, and flowers and birds appeared everywhere (a) in the Giant's garden. In his garden, it was (b) winter with snow, frost, and the cold wind. No birds sang and no flowers (c).\n\nThe Giant (d) out from his castle and wondered why spring was so late. He (e) the weather would change soon.",
+          "dialogPassage": "",
+          "boxWords": [
+            "except",
+            "still",
+            "blossomed",
+            "looked",
+            "hoped"
+          ],
+          "blanks": [
+            {
+              "blankId": "a",
+              "options": [
+                {
+                  "text": "except",
+                  "isCorrect": true,
+                  "explanationBn": "(a) except — ছাড়া",
+                  "explanationEn": "Correct answer."
+                },
+                {
+                  "text": "inside",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "throughout",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "beyond",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                }
+              ],
+              "explanation_bn": "সর্বত্র ফুল ও পাখি দেখা গেল, কিন্তু দৈত্যের বাগান ছাড়া।",
+              "explanation_en": "Flowers and birds appeared everywhere except in the Giant's garden."
+            },
+            {
+              "blankId": "b",
+              "options": [
+                {
+                  "text": "still",
+                  "isCorrect": true,
+                  "explanationBn": "(b) still — এখনো",
+                  "explanationEn": "Correct answer."
+                },
+                {
+                  "text": "already",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "never",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "always",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                }
+              ],
+              "explanation_bn": "দৈত্যের বাগানে তখনো শীত ছিল।",
+              "explanation_en": "It was still winter in his garden."
+            },
+            {
+              "blankId": "c",
+              "options": [
+                {
+                  "text": "blossomed",
+                  "isCorrect": true,
+                  "explanationBn": "(c) blossomed — ফুটেছিল",
+                  "explanationEn": "Correct answer."
+                },
+                {
+                  "text": "withered",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "grew",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "died",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                }
+              ],
+              "explanation_bn": "কোনো পাখি গান গাইছিল না এবং কোনো ফুল ফুটছিল না।",
+              "explanation_en": "No birds sang and no flowers blossomed."
+            },
+            {
+              "blankId": "d",
+              "options": [
+                {
+                  "text": "looked",
+                  "isCorrect": true,
+                  "explanationBn": "(d) looked — তাকাল",
+                  "explanationEn": "Correct answer."
+                },
+                {
+                  "text": "ran",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "came",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "went",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                }
+              ],
+              "explanation_bn": "দৈত্যটি তার দুর্গ থেকে বাইরে তাকাল।",
+              "explanation_en": "The Giant looked out from his castle."
+            },
+            {
+              "blankId": "e",
+              "options": [
+                {
+                  "text": "hoped",
+                  "isCorrect": true,
+                  "explanationBn": "(e) hoped — আশা করল",
+                  "explanationEn": "Correct answer."
+                },
+                {
+                  "text": "feared",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "knew",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "doubted",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                }
+              ],
+              "explanation_bn": "সে আশা করল আবহাওয়া শীঘ্রই পরিবর্তন হবে।",
+              "explanation_en": "He hoped the weather would change soon."
+            }
+          ]
+        },
+        "vocabQuestions": [
+          {
+            "id": "3a",
+            "question": "What is the antonym of 'crowded'?",
+            "options": [
+              "desolate",
+              "packed",
+              "full",
+              "noisy"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Crowded' শব্দের বিপরীত 'desolate' (জনহীন)।",
+            "explanation_en": "The antonym of 'crowded' is desolate."
+          },
+          {
+            "id": "3b",
+            "question": "What is the synonym of 'beautiful'?",
+            "options": [
+              "lovely",
+              "ugly",
+              "plain",
+              "dull"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Beautiful' শব্দের সমার্থক 'lovely' (সুন্দর)।",
+            "explanation_en": "The synonym of 'beautiful' is lovely."
+          },
+          {
+            "id": "3c",
+            "question": "What is the synonym of 'come'?",
+            "options": [
+              "arrive",
+              "leave",
+              "go",
+              "depart"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Come' শব্দের সমার্থক 'arrive' (আসা)।",
+            "explanation_en": "The synonym of 'come' is arrive."
+          },
+          {
+            "id": "3d",
+            "question": "What is the synonym of 'understand'?",
+            "options": [
+              "perceive",
+              "ignore",
+              "miss",
+              "overlook"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Understand' শব্দের সমার্থক 'perceive' (বুঝতে পারা)।",
+            "explanation_en": "The synonym of 'understand' is perceive."
+          },
+          {
+            "id": "3e",
+            "question": "What is the antonym of 'late'?",
+            "options": [
+              "early",
+              "tardy",
+              "delayed",
+              "slow"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Late' শব্দের বিপরীত 'early' (তাড়াতাড়ি)।",
+            "explanation_en": "The antonym of 'late' is early."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch3",
+      "name": "Biographical Passage & Summary",
+      "type": "passage_summary",
+      "content": {
+        "translation_bn": "আব্রাহাম লিংকন ছিলেন আমেরিকার ১৬তম প্রেসিডেন্ট। তিনি ১৮০৯ সালে আমেরিকার কেন্টাকিতে অত্যন্ত দরিদ্র একটি পরিবারে জন্মগ্রহণ করেন। দরিদ্রতা তাঁর আনুষ্ঠানিক শিক্ষার পথ রুদ্ধ করেছিল। যখন আব্রাহাম লিংকনের বয়স আট বছর ছিল, তাদের পরিবার ইন্ডিয়ানায় চলে যায়। তিনি তাঁর জীবনের প্রথমদিকে সব ধরনের কাজ যেমন—কাঠ কাটা, মাঝি ও গ্রামের ডাকপিয়ন হিসেবে কাজ করেন। তিনি সারাদিন ধরে জঙ্গলে গাছ কাটতেন। কিন্তু তাঁর পড়ালেখা করার তীব্র ইচ্ছা ছিল। পড়ালেখার মাধ্যমে তিনি নিজেকে স্বশিক্ষিত করে তোলেন। যখন তাঁর বয়স একুশ এ পৌঁছায়, তাঁর বাবা তাকে লুইসিয়ানার নিউ অর্লিন্সে একটি ভ্রমণে পাঠান। নিউ অর্লিন্স তার বসবাসরত শহর থেকে দুই হাজার মাইল দূরে ছিল। লিংকন এবং তার বন্ধুদের মধ্যে একজন নৌকায় করে একসাথে ভ্রমণে যান। এটি দাস ব্যবসার জন্য অনেক বিখ্যাত ছিল। যাইহোক এই ব্যবসার কারণে জায়গাটি তিনি পছন্দ করেননি এবং কাজ খুঁজতে ইলিনয়েস চলে যান। স্বশিক্ষিত লিংকন সেখানে আইন চর্চা শুরু করেন। তারপর পরবর্তীকালে তিনি নিজেকে রাজনীতিতে যুক্ত করেন। তিনি পঁচিশ বছর বয়সে ইলিনয়েসের আইনসভার সদস্য নির্বাচিত হন। তারপর তিনি ১৮৬০ সালে আমেরিকার ১৬তম রাষ্ট্রপতি নির্বাচিত হন। তিনি আমেরিকার তিনজন শ্রেষ্ঠ রাষ্ট্রপতির মধ্যে একজন।",
+        "vocabulary": [
+          {
+            "word": "bar",
+            "synonym": "obstruct",
+            "antonym": "allow",
+            "pos": "v.",
+            "meaning_en": "to obstruct",
+            "meaning_bn": "বাধা দেওয়া"
+          },
+          {
+            "word": "desire",
+            "synonym": "wish",
+            "antonym": "aversion",
+            "pos": "n.",
+            "meaning_en": "wish, aspiration",
+            "meaning_bn": "ইচ্ছা"
+          },
+          {
+            "word": "elect",
+            "synonym": "select",
+            "antonym": "reject",
+            "pos": "v.",
+            "meaning_en": "to select by vote",
+            "meaning_bn": "নির্বাচিত হওয়া"
+          },
+          {
+            "word": "formal",
+            "synonym": "official",
+            "antonym": "informal",
+            "pos": "adj.",
+            "meaning_en": "ceremonial, official",
+            "meaning_bn": "আনুষ্ঠানিক"
+          },
+          {
+            "word": "legislature",
+            "synonym": "parliament",
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "parliament, assembly",
+            "meaning_bn": "আইনসভা"
+          },
+          {
+            "word": "log chopper",
+            "synonym": "woodcutter",
+            "antonym": "",
+            "pos": "phrase",
+            "meaning_en": "woodcutter",
+            "meaning_bn": "কাঠুরে"
+          },
+          {
+            "word": "politics",
+            "synonym": "statecraft",
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "statecraft",
+            "meaning_bn": "রাজনীতি"
+          },
+          {
+            "word": "poverty",
+            "synonym": "penury",
+            "antonym": "wealth",
+            "pos": "n.",
+            "meaning_en": "destitution",
+            "meaning_bn": "দারিদ্র্য"
+          },
+          {
+            "word": "self-educated",
+            "synonym": "self-trained",
+            "antonym": "",
+            "pos": "adj.",
+            "meaning_en": "self-taught",
+            "meaning_bn": "স্বশিক্ষিত"
+          }
+        ],
+        "mcqQuestions": [
+          {
+            "id": "5a",
+            "question": "When was Abraham Lincoln born?",
+            "options": [
+              "1809",
+              "1817",
+              "1830",
+              "1860"
+            ],
+            "correct": 0,
+            "explanation_bn": "আব্রাহাম লিংকন ১৮০৯ সালে জন্মগ্রহণ করেন।",
+            "explanation_en": "Abraham Lincoln was born in 1809."
+          },
+          {
+            "id": "5b",
+            "question": "What happened in 1817?",
+            "options": [
+              "Lincoln's family moved to Indiana",
+              "Lincoln was born",
+              "He became president",
+              "He went to New Orleans"
+            ],
+            "correct": 0,
+            "explanation_bn": "১৮১৭ সালে লিংকনের পরিবার ইন্ডিয়ানায় চলে যায়।",
+            "explanation_en": "In 1817, Lincoln's family moved to Indiana."
+          },
+          {
+            "id": "5c",
+            "question": "When did Lincoln go on a boat journey to New Orleans?",
+            "options": [
+              "1830",
+              "1809",
+              "1820",
+              "1840"
+            ],
+            "correct": 0,
+            "explanation_bn": "লিংকন ১৮৩০ সালে নিউ অর্লিন্সে ভ্রমণে যান।",
+            "explanation_en": "Lincoln went on a boat journey to New Orleans in 1830."
+          },
+          {
+            "id": "5d",
+            "question": "In which year was Lincoln elected to the legislature of Illinois?",
+            "options": [
+              "1834",
+              "1830",
+              "1809",
+              "1860"
+            ],
+            "correct": 0,
+            "explanation_bn": "১৮৩৪ সালে তিনি ইলিনয়েস আইনসভার সদস্য নির্বাচিত হন।",
+            "explanation_en": "In 1834, he was elected to the legislature."
+          },
+          {
+            "id": "5e",
+            "question": "When did Lincoln become the 16th president of the USA?",
+            "options": [
+              "1860",
+              "1809",
+              "1834",
+              "1817"
+            ],
+            "correct": 0,
+            "explanation_bn": "লিংকন ১৮৬০ সালে মার্কিন যুক্তরাষ্ট্রের ১৬তম রাষ্ট্রপতি হন।",
+            "explanation_en": "Lincoln became the 16th president in 1860."
+          }
+        ],
+        "trueFalseQuestions": [
+          {
+            "id": "6a",
+            "question": "Abraham Lincoln could not get formal education due to his poor financial condition.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 0,
+            "explanation_bn": "আব্রাহাম লিংকন দারিদ্র্যের কারণে আনুষ্ঠানিক শিক্ষা লাভ করতে পারেননি।",
+            "explanation_en": "Abraham Lincoln could not get formal education due to his poverty."
+          },
+          {
+            "id": "6b",
+            "question": "Lincoln spent luxurious life in his early days.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 1,
+            "explanation_bn": "লিংকনের শুরুর দিনগুলো বিলাসবহুল ছিল না — তিনি খুব কষ্টে জীবন কাটিয়েছিলেন।",
+            "explanation_en": "Lincoln did not lead a luxurious life in his early days — he lived in poverty."
+          },
+          {
+            "id": "6c",
+            "question": "Lincoln was very interested to study.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 0,
+            "explanation_bn": "লিংকন পড়াশোনায় খুব আগ্রহী ছিলেন।",
+            "explanation_en": "Lincoln was very interested in studying."
+          },
+          {
+            "id": "6d",
+            "question": "Lincoln preferred slave business.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 1,
+            "explanation_bn": "লিংকন ক্রীতদাস ব্যবসা পছন্দ করতেন না — তিনি এর বিরোধী ছিলেন।",
+            "explanation_en": "Lincoln did not prefer slave business — he was against it."
+          },
+          {
+            "id": "6e",
+            "question": "At Illinois, Lincoln started practicing law.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 0,
+            "explanation_bn": "ইলিনয়ে গিয়ে লিংকন আইন চর্চা শুরু করেছিলেন।",
+            "explanation_en": "At Illinois, Lincoln started practicing law."
+          }
+        ],
+        "summary": "Abraham Lincoln was the 16th president of the USA. He was born in 1809 in Kentucky. He grew up in poverty with little formal education. He worked various jobs but taught himself through study. At 21, he traveled to New Orleans and disliked its slave trade, so he moved to Illinois. There, he became a lawyer, entered politics, and was elected U.S. president in 1860.",
+        "passage": "Abraham Lincoln was the 16th president of America. He was born in 1809 in Kentucky, USA in a very poor family. Poverty barred his formal education. When Abraham Lincoln was eight years old, his family moved to Indiana. He spent his early life doing all sorts of jobs as a log chopper, boatman and a postmaster. He used to work all day long in the forest cutting down trees. But he had a strong desire to study. Through study, he made himself self-educated. When he reached the age of twenty one, his father sent him on a journey to New Orleans, Louisiana. New Orleans was two thousand miles away from his home town. Lincoln and one of his friends went on the journey together by boat. New Orleans was very famous for slave business. However, he did not like the place because of this business and moved to Illinois to find a job. Self-educated Lincoln started practicing law there. Later on, he involved himself in politics. He was elected to the legislature of Illinois at the age of twenty five. Then he became the 16th president of USA in 1860. He is one of the three best presidents of the USA."
+      }
+    },
+    {
+      "id": "ch4",
+      "name": "Sentence Making",
+      "type": "sentence_matching",
+      "content": {
+        "exercise": {
+          "id": 1,
+          "question_text": "Match the parts of sentences from Column A and Column B to make five complete sentences.",
+          "table_columns": [
+            [
+              "Physical exercise means",
+              "There lies a close connection",
+              "One should take",
+              "Physical exercise is essential",
+              "Walking is the best"
+            ],
+            [
+              "of all exercises.",
+              "regular physical exercise.",
+              "between body and mind.",
+              "the regular movement of the limbs of our body.",
+              "for our physical and mental health."
+            ]
+          ],
+          "valid_sentences": [
+            {
+              "sentence": "Physical exercise means the regular movement of the limbs of our body.",
+              "combination": [
+                "Physical exercise means",
+                "the regular movement of the limbs of our body."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "There lies a close connection between body and mind.",
+              "combination": [
+                "There lies a close connection",
+                "between body and mind."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "One should take regular physical exercise.",
+              "combination": [
+                "One should take",
+                "regular physical exercise."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "Physical exercise is essential for our physical and mental health.",
+              "combination": [
+                "Physical exercise is essential",
+                "for our physical and mental health."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "Walking is the best of all exercises.",
+              "combination": [
+                "Walking is the best",
+                "of all exercises."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch5",
+      "name": "Rearranging",
+      "type": "rearrangement",
+      "content": {
+        "sentences": [
+          {
+            "id": "a",
+            "text": "Next day the wise man went to the king and begged seven years."
+          },
+          {
+            "id": "b",
+            "text": "The wise man went home sadly because the king threatened him to kill if he failed."
+          },
+          {
+            "id": "c",
+            "text": "Once there was a foolish king who had a white horse."
+          },
+          {
+            "id": "d",
+            "text": "His daughter advised him to go to the king and beg seven years to teach the horse."
+          },
+          {
+            "id": "e",
+            "text": "The king also had a wise friend whom everyone liked."
+          },
+          {
+            "id": "f",
+            "text": "The king was angry because he wanted people to like him instead of the wise man."
+          },
+          {
+            "id": "g",
+            "text": "One day he called the wise man and asked him to teach his white horse to speak."
+          },
+          {
+            "id": "h",
+            "text": "When he reached home, he told everything to his daughter."
+          }
+        ],
+        "correctOrder": [
+          "c",
+          "e",
+          "f",
+          "g",
+          "b",
+          "h",
+          "d",
+          "a"
+        ],
+        "reconstructedParagraph": "Once there was a foolish king who had a white horse. The king also had a wise friend whom everyone liked. The king was angry because he wanted people to like him instead of the wise man. One day he called the wise man and asked him to teach his white horse to speak. The wise man went home sadly because the king threatened to kill him if he failed. When he reached home, he told everything to his daughter. His daughter advised him to go to the king and beg seven years to teach the horse. Next day the wise man went to the king and begged for seven years."
+      }
+    },
+    {
+      "id": "ch6",
+      "name": "Poetry MCQ",
+      "type": "poetry_mcq",
+      "content": {
+        "questions": [
+          {
+            "id": "10a",
+            "question": "According to the poem 'Whose Child Is This?', how does a parent advise a child?",
+            "options": [
+              "To be good always and do some right things every day",
+              "To be selfish",
+              "To be lazy",
+              "To be naughty"
+            ],
+            "correct": 0,
+            "explanation_bn": "পিতামাতা শিশুকে সর্বদা ভালো থাকতে এবং প্রতিদিন কিছু সঠিক কাজ করতে উপদেশ দেন।",
+            "explanation_en": "To be good always and to do some right things every day."
+          },
+          {
+            "id": "10b",
+            "question": "In the poem 'Whose Child Is This?', how did the parent and the teacher answer?",
+            "options": [
+              "With a tender smile",
+              "With anger",
+              "With sadness",
+              "With indifference"
+            ],
+            "correct": 0,
+            "explanation_bn": "পিতামাতা ও শিক্ষক কোমল হাসি দিয়ে উত্তর দিয়েছিলেন।",
+            "explanation_en": "They answered with a tender smile."
+          },
+          {
+            "id": "10c",
+            "question": "According to the poem 'Whose Child Is This?', what are the responsibilities of a teacher?",
+            "options": [
+              "Teach good behavior, guide mind, help follow rules",
+              "Only give homework",
+              "Only teach math",
+              "Only punish"
+            ],
+            "correct": 0,
+            "explanation_bn": "শিক্ষকের দায়িত্ব ভালো আচরণ শেখানো, মনকে পথ দেখানো, নিয়ম মেনে চলতে সাহায্য করা।",
+            "explanation_en": "Teach good behavior, guide his mind, help him follow rules."
+          },
+          {
+            "id": "10d",
+            "question": "In the poem 'Leisure', what does the poet mean by 'full of care'?",
+            "options": [
+              "Life is full of worries and anxieties",
+              "Life is full of joy",
+              "Life is full of money",
+              "Life is full of friends"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Full of care' অর্থ জীবন দুশ্চিন্তা ও উদ্বেগে পূর্ণ।",
+            "explanation_en": "Life is full of worries and anxieties."
+          },
+          {
+            "id": "10e",
+            "question": "What have been compared to 'skies at night' in the poem 'Leisure'?",
+            "options": [
+              "Streams full of stars",
+              "Mountains",
+              "Trees",
+              "Flowers"
+            ],
+            "correct": 0,
+            "explanation_bn": "তারায় ভরা স্রোতধারাকে রাতের আকাশের সাথে তুলনা করা হয়েছে।",
+            "explanation_en": "Streams full of stars have been compared to skies at night."
+          },
+          {
+            "id": "10f",
+            "question": "When can people see 'streams full of stars' according to the poem 'Leisure'?",
+            "options": [
+              "During the day",
+              "At midnight",
+              "At dawn",
+              "At dusk"
+            ],
+            "correct": 0,
+            "explanation_bn": "দিনের বেলায় মানুষ তারায় ভরা স্রোতধারা দেখতে পায়।",
+            "explanation_en": "People can see it during the day."
+          },
+          {
+            "id": "10g",
+            "question": "According to the poem 'From a Railway Carriage', what is the child doing?",
+            "options": [
+              "Climbing and scrambling, gathering brambles",
+              "Sleeping",
+              "Reading",
+              "Playing football"
+            ],
+            "correct": 0,
+            "explanation_bn": "কবিতা অনুসারে, শিশুটি আরোহণ করছে এবং ঝোপঝাড় সংগ্রহ করছে।",
+            "explanation_en": "The child is climbing and scrambling, gathering brambles."
+          },
+          {
+            "id": "10h",
+            "question": "According to the poem 'From a Railway Carriage', where are the bridges, houses, hedges and ditches?",
+            "options": [
+              "Along the railway track",
+              "In the city",
+              "In the village",
+              "By the sea"
+            ],
+            "correct": 0,
+            "explanation_bn": "সেতু, বাড়ি, হেজ এবং ডিচগুলো রেললাইনের পাশে অবস্থিত।",
+            "explanation_en": "They are along the railway track."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1041 @@
+{
+  "_type": "model_test",
+  "modelId": "m19",
+  "title": "Model Test 19 - English 1st Paper",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Passage & Comprehension",
+      "type": "passage_mcq",
+      "content": {
+        "passage": "The children had now nowhere to play. There were no gardens around and the roads were busy and crowded. After school they used to go round the high wall and talk about the beautiful garden inside.\n\n\"How happy we were there!\" they said to one another. Then came the spring. And all over the country there were flowers and there were birds.\n\nOnly in the garden of the Giant it was still winter. Here no birds were singing and no flowers blossoming. There were only snow and frost and north wind in it.\n\n\"I cannot understand why the spring is so late in coming,\" said the Giant. He was sitting at the window of his big castle and looking out at his cold, dry and lifeless garden. \"I hope there will be a change in the weather.\"\n\nBut neither spring nor summer came to his garden.",
+        "translation_bn": "শিশুদের এখন আর কোথাও খেলার জায়গা রইল না। আশেপাশে কোনো বাগান ছিল না আর রাস্তাগুলো ছিল ব্যস্ত এবং জনাকীর্ণ। বিদ্যালয়ের পরে তারা ঐ উঁচু দেয়ালের চারপাশ দিয়ে ঘুরতো আর ভেতরের সুন্দর বাগানটি নিয়ে কথা বলতো। তারা একে অপরকে বলতো, \"আমরা কতই না সুখী ছিলাম সেখানে!\" এরপর এলো বসন্ত। আর পুরো দেশজুড়ে ছিল পাখি আর ফুল। কেবল ঐ দৈত্যের বাগানটিতে তখনো শীতকাল বিদ্যমান। সেখানে কোনো পাখি গান গাইছিল না এবং কোনো ফুল ফুটছিল না। সেখানে কেবল তুষার, বরফ আর উত্তরের বাতাস ছিল। দৈত্যটি বলল, \"আমি বুঝতে পারছি না বসন্ত আসতে এত দেরি হচ্ছে কেন।\" সে তার বৃহৎ প্রাসাদের জানালার পাশে বসে শীতল, শুকনো এবং প্রাণহীন বাগানটির দিকে তাকিয়ে ছিল। \"আশা করি আবহাওয়ায় পরিবর্তন আসবে।\" কিন্তু তার বাগানে বসন্তও এলো না, গ্রীষ্মও এলো না।",
+        "vocabulary": [
+          {
+            "word": "nowhere",
+            "synonym": "no place",
+            "antonym": "everywhere",
+            "pos": "adv.",
+            "meaning_en": "not in or to any place",
+            "meaning_bn": "কোথাও না"
+          },
+          {
+            "word": "crowded",
+            "synonym": "packed",
+            "antonym": "deserted",
+            "pos": "adj.",
+            "meaning_en": "full of people",
+            "meaning_bn": "জনাকীর্ণ"
+          },
+          {
+            "word": "blossom",
+            "synonym": "bloom",
+            "antonym": "wither",
+            "pos": "v.",
+            "meaning_en": "produce flowers",
+            "meaning_bn": "ফুল ফোটা"
+          },
+          {
+            "word": "castle",
+            "synonym": "palace",
+            "antonym": "cottage",
+            "pos": "n.",
+            "meaning_en": "large building with high walls",
+            "meaning_bn": "প্রাসাদ"
+          },
+          {
+            "word": "frost",
+            "synonym": "cold",
+            "antonym": "heat",
+            "pos": "n.",
+            "meaning_en": "weather condition with low temperatures",
+            "meaning_bn": "হিম"
+          },
+          {
+            "word": "hope",
+            "synonym": "desire",
+            "antonym": "despair",
+            "pos": "v.",
+            "meaning_en": "to want something to happen",
+            "meaning_bn": "আশা করা"
+          },
+          {
+            "word": "lifeless",
+            "synonym": "dull",
+            "antonym": "lively",
+            "pos": "adj.",
+            "meaning_en": "without life",
+            "meaning_bn": "প্রাণহীন"
+          },
+          {
+            "word": "understand",
+            "synonym": "comprehend",
+            "antonym": "misunderstand",
+            "pos": "v.",
+            "meaning_en": "to perceive the cause of",
+            "meaning_bn": "বোঝা"
+          },
+          {
+            "word": "all over",
+            "synonym": "throughout",
+            "antonym": "localized",
+            "pos": "prep.",
+            "meaning_en": "with reference to all parts",
+            "meaning_bn": "সর্বত্র"
+          }
+        ],
+        "questions": [
+          {
+            "id": "1i",
+            "question": "The children couldn't play because ---",
+            "options": [
+              "they are busy at school",
+              "they don't have any time",
+              "they have exams",
+              "they have no place to play"
+            ],
+            "correct": 3,
+            "explanation_bn": "শিশুরা খেলতে পারত না কারণ তাদের খেলার কোনো জায়গা ছিল না।",
+            "explanation_en": "The children couldn't play because they had no place to play."
+          },
+          {
+            "id": "1ii",
+            "question": "Why couldn't the children enter into the garden?",
+            "options": [
+              "They can't cross the road",
+              "The door of the garden was locked",
+              "There's a high wall",
+              "Their parents forbade them"
+            ],
+            "correct": 2,
+            "explanation_bn": "শিশুরা বাগানে ঢুকতে পারত না কারণ উঁচু দেয়াল ছিল।",
+            "explanation_en": "There was a high wall around the garden."
+          },
+          {
+            "id": "1iii",
+            "question": "Which season was prevailing in the country?",
+            "options": [
+              "winter",
+              "summer",
+              "spring",
+              "autumn"
+            ],
+            "correct": 2,
+            "explanation_bn": "সারা দেশে বসন্তকাল বিরাজ করছিল।",
+            "explanation_en": "Spring was prevailing all over the country."
+          },
+          {
+            "id": "1iv",
+            "question": "In Giant's garden, there was/were only ---",
+            "options": [
+              "flowers",
+              "birds",
+              "grass",
+              "frost"
+            ],
+            "correct": 3,
+            "explanation_bn": "দৈত্যের বাগানে কেবল তুষারপাত ছিল।",
+            "explanation_en": "In the Giant's garden, there was only frost."
+          },
+          {
+            "id": "1v",
+            "question": "Which of the followings is incorrect?",
+            "options": [
+              "The Giant wished for spring in his garden",
+              "The garden was full of flowers",
+              "The Giant had a big castle",
+              "The children were sad"
+            ],
+            "correct": 1,
+            "explanation_bn": "বাগান ফুলে ভরা ছিল — এটি ভুল বিবৃতি।",
+            "explanation_en": "The garden was full of flowers — this is incorrect."
+          },
+          {
+            "id": "1vi",
+            "question": "The meaning of the word 'understand' is ---",
+            "options": [
+              "follow",
+              "comprehend",
+              "presume",
+              "assume"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Understand' শব্দের অর্থ 'comprehend' (বুঝতে পারা)।",
+            "explanation_en": "The word 'understand' means comprehend."
+          },
+          {
+            "id": "1vii",
+            "question": "\"I hope there will be a change in the weather.\" Here 'hope' means ---",
+            "options": [
+              "want",
+              "expect",
+              "promise",
+              "look for"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Hope' শব্দের অর্থ 'expect' (আশা করা)।",
+            "explanation_en": "The word 'hope' means expect."
+          },
+          {
+            "id": "1viii",
+            "question": "\"How happy we were there!\" Here 'there' refers to the ---",
+            "options": [
+              "school",
+              "high wall",
+              "roads",
+              "garden"
+            ],
+            "correct": 3,
+            "explanation_bn": "'There' বলতে বাগানকে নির্দেশ করে।",
+            "explanation_en": "'There' refers to the garden."
+          },
+          {
+            "id": "1ix",
+            "question": "What does 'wind' mean in the passage?",
+            "options": [
+              "breeze",
+              "wheel",
+              "storm",
+              "tidings"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Wind' শব্দের অর্থ 'breeze' (বাতাস)।",
+            "explanation_en": "The word 'wind' means breeze."
+          },
+          {
+            "id": "1x",
+            "question": "Cold, dry and lifeless are the symbols of ---",
+            "options": [
+              "summer",
+              "winter",
+              "spring",
+              "summer or spring"
+            ],
+            "correct": 1,
+            "explanation_bn": "শীতল, শুষ্ক ও প্রাণহীন শীতের প্রতীক।",
+            "explanation_en": "Cold, dry and lifeless are symbols of winter."
+          },
+          {
+            "id": "1xi",
+            "question": "Which one of the following indicates the winter?",
+            "options": [
+              "blossoming flowers",
+              "singing birds",
+              "north wind",
+              "new leaves"
+            ],
+            "correct": 2,
+            "explanation_bn": "উত্তরের বাতাস শীতকে নির্দেশ করে।",
+            "explanation_en": "North wind indicates winter."
+          },
+          {
+            "id": "1xii",
+            "question": "The children used to go near the garden ---",
+            "options": [
+              "on the way to school",
+              "before going to school",
+              "after coming from school",
+              "instead of going to school"
+            ],
+            "correct": 2,
+            "explanation_bn": "শিশুরা স্কুল থেকে ফিরে বাগানের কাছে যেত।",
+            "explanation_en": "The children used to go near the garden after coming from school."
+          },
+          {
+            "id": "1xiii",
+            "question": "What does 'castle' mean in the passage?",
+            "options": [
+              "inn",
+              "farmhouse",
+              "palace",
+              "homestead"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Castle' শব্দের অর্থ 'palace' (প্রাসাদ)।",
+            "explanation_en": "The word 'castle' means palace."
+          },
+          {
+            "id": "1xiv",
+            "question": "What does 'crowded' mean in the passage?",
+            "options": [
+              "populous",
+              "close",
+              "noisy",
+              "thick"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Crowded' শব্দের অর্থ 'populous' (জনাকীর্ণ)।",
+            "explanation_en": "The word 'crowded' means populous."
+          },
+          {
+            "id": "1xv",
+            "question": "'Around' in \"There were no gardens around and the roads were busy and crowded.\" means ---",
+            "options": [
+              "forward",
+              "arena",
+              "surrounding",
+              "along"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Around' শব্দের অর্থ 'surrounding' (চারপাশে)।",
+            "explanation_en": "The word 'around' means surrounding."
+          },
+          {
+            "id": "2a",
+            "question": "Why did the children have nowhere to play?",
+            "options": [
+              "Because there were no gardens around, and the roads were busy and crowded.",
+              "Because the Giant chased them away from his garden.",
+              "Because they had to stay home for studies.",
+              "Because their parents did not allow them to play outside."
+            ],
+            "correct": 0,
+            "explanation_bn": "বাচ্চাদের খেলার জায়গা ছিল না কারণ আশেপাশে কোনো বাগান ছিল না এবং রাস্তাগুলো ব্যস্ত ও জনাকীর্ণ ছিল।",
+            "explanation_en": "The children had nowhere to play because there were no gardens around, and the roads were busy and crowded."
+          },
+          {
+            "id": "2b",
+            "question": "\"How happy we were there!\" — explain the line.",
+            "options": [
+              "The children were remembering the beautiful garden where they used to play.",
+              "The children were happy because the Giant was kind to them.",
+              "The children were excited about going to school.",
+              "The children were happy because they found a new playground."
+            ],
+            "correct": 0,
+            "explanation_bn": "বাচ্চারা পুরনো বাগানে খেলার সুন্দর স্মৃতি মনে করে কথাটি বলেছিল।",
+            "explanation_en": "The children said this while remembering the beautiful garden where they used to play."
+          },
+          {
+            "id": "2c",
+            "question": "What are the differences between the country's nature and the Giant's garden?",
+            "options": [
+              "The country had flowers and birds while the Giant's garden remained cold and lifeless.",
+              "The country was hot while the Giant's garden was cool.",
+              "The country had many rivers while the garden had none.",
+              "The country was crowded while the garden was empty."
+            ],
+            "correct": 0,
+            "explanation_bn": "সারা দেশে ফুল ও পাখি ছিল, কিন্তু দৈত্যের বাগানে বসন্ত আসেনি — সেখানে শুধু তুষার ও বরফ ছিল।",
+            "explanation_en": "All over the country there were flowers and birds, but in the Giant's garden spring had not come — only snow and frost remained."
+          },
+          {
+            "id": "2d",
+            "question": "Explain the Giant's wish.",
+            "options": [
+              "He wished for a change in the weather so that spring would come to his garden.",
+              "He wished that the children would never return to his garden.",
+              "He wished to leave his castle and move to a new place.",
+              "He wished to build an even higher wall around his garden."
+            ],
+            "correct": 0,
+            "explanation_bn": "দৈত্যটি আবহাওয়ার পরিবর্তন কামনা করেছিল যাতে তার বাগানে বসন্ত আসে।",
+            "explanation_en": "The Giant wished for a change in the weather so that spring would come to his garden."
+          },
+          {
+            "id": "2e",
+            "question": "What happened to the Giant's garden in the absence of spring?",
+            "options": [
+              "It remained cold, dry, and lifeless with only snow, frost, and north wind.",
+              "It became a beautiful garden full of flowers and birds.",
+              "It was flooded with water from melting snow.",
+              "It became a desert with no plants at all."
+            ],
+            "correct": 0,
+            "explanation_bn": "বসন্তের অভাবে বাগানটি শীতল, শুষ্ক ও প্রাণহীন ছিল — কেবল তুষার, বরফ ও উত্তর বাতাস ছিল।",
+            "explanation_en": "Without spring, the garden remained cold, dry, and lifeless with only snow, frost, and north wind."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2",
+      "name": "Gap Fill & Vocabulary",
+      "type": "gap_fill_vocab",
+      "content": {
+        "gapFill": {
+          "passage": "Zishan was at his grandparents' house in the village. The night sky was clear and the full (a) was shining brightly. After a (b) supper, the family sat in the yard.\n\nZishan's cousins, Jahid and Shima, were excited and (c) at a same school. They all sat on a bamboo mat and (d) relaxed. Jahid told everyone about his school's (e) tournament.",
+          "dialogPassage": "",
+          "boxWords": [
+            "moon",
+            "delicious",
+            "studied",
+            "feeling",
+            "sports"
+          ],
+          "blanks": [
+            {
+              "blankId": "a",
+              "options": [
+                {
+                  "text": "moon",
+                  "isCorrect": true,
+                  "explanationBn": "(a) moon — চাঁদ",
+                  "explanationEn": "Correct answer."
+                },
+                {
+                  "text": "sun",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "star",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "sky",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                }
+              ],
+              "explanation_bn": "আকাশ পরিষ্কার ছিল এবং পূর্ণিমার চাঁদ উজ্জ্বলভাবে জ্বলছিল।",
+              "explanation_en": "The night sky was clear and the full moon was shining brightly."
+            },
+            {
+              "blankId": "b",
+              "options": [
+                {
+                  "text": "delicious",
+                  "isCorrect": true,
+                  "explanationBn": "(b) delicious — সুস্বাদু",
+                  "explanationEn": "Correct answer."
+                },
+                {
+                  "text": "simple",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "small",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "quick",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                }
+              ],
+              "explanation_bn": "পরিবারটি সুস্বাদু রাতের খাবার খেয়েছিল।",
+              "explanation_en": "The family had a delicious supper."
+            },
+            {
+              "blankId": "c",
+              "options": [
+                {
+                  "text": "studied",
+                  "isCorrect": true,
+                  "explanationBn": "(c) studied — পড়াশোনা করত",
+                  "explanationEn": "Correct answer."
+                },
+                {
+                  "text": "played",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "worked",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "lived",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                }
+              ],
+              "explanation_bn": "জাহিদ এবং সীমা একই স্কুলে পড়াশোনা করত।",
+              "explanation_en": "Jahid and Shima studied at the same school."
+            },
+            {
+              "blankId": "d",
+              "options": [
+                {
+                  "text": "feeling",
+                  "isCorrect": true,
+                  "explanationBn": "(d) feeling — অনুভব করা",
+                  "explanationEn": "Correct answer."
+                },
+                {
+                  "text": "looking",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "acting",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "becoming",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                }
+              ],
+              "explanation_bn": "তারা স্বাচ্ছন্দ্য বোধ করছিল।",
+              "explanation_en": "They were feeling relaxed."
+            },
+            {
+              "blankId": "e",
+              "options": [
+                {
+                  "text": "sports",
+                  "isCorrect": true,
+                  "explanationBn": "(e) sports — ক্রীড়া",
+                  "explanationEn": "Correct answer."
+                },
+                {
+                  "text": "music",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "dance",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "debate",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                }
+              ],
+              "explanation_bn": "জাহিদ তার স্কুলের ক্রীড়া প্রতিযোগিতা সম্পর্কে বলছিল।",
+              "explanation_en": "Jahid told everyone about his school's sports tournament."
+            }
+          ]
+        },
+        "vocabQuestions": [
+          {
+            "id": "3a",
+            "question": "What is the synonym of 'village'?",
+            "options": [
+              "hamlet",
+              "city",
+              "town",
+              "country"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Village' শব্দের সমার্থক 'hamlet' (গ্রাম)।",
+            "explanation_en": "The synonym of 'village' is hamlet."
+          },
+          {
+            "id": "3b",
+            "question": "What is the synonym of 'delicious'?",
+            "options": [
+              "tasty",
+              "bitter",
+              "sour",
+              "plain"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Delicious' শব্দের সমার্থক 'tasty' (সুস্বাদু)।",
+            "explanation_en": "The synonym of 'delicious' is tasty."
+          },
+          {
+            "id": "3c",
+            "question": "What is the antonym of 'brightly'?",
+            "options": [
+              "dimly",
+              "clearly",
+              "sharply",
+              "vividly"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Brightly' শব্দের বিপরীত 'dimly' (অস্পষ্টভাবে)।",
+            "explanation_en": "The antonym of 'brightly' is dimly."
+          },
+          {
+            "id": "3d",
+            "question": "What is the synonym of 'describe'?",
+            "options": [
+              "narrate",
+              "hide",
+              "forget",
+              "ignore"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Describe' শব্দের সমার্থক 'narrate' (বর্ণনা করা)।",
+            "explanation_en": "The synonym of 'describe' is narrate."
+          },
+          {
+            "id": "3e",
+            "question": "What is the antonym of 'delight'?",
+            "options": [
+              "sorrow",
+              "joy",
+              "happiness",
+              "pleasure"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Delight' শব্দের বিপরীত 'sorrow' (দুঃখ)।",
+            "explanation_en": "The antonym of 'delight' is sorrow."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch3",
+      "name": "Biographical Passage & Summary",
+      "type": "passage_summary",
+      "content": {
+        "translation_bn": "কুকুর বুদ্ধিমান প্রাণী, তাই এদেরকে প্রশিক্ষণ দেওয়া সহজ। ১৫০ বছর পূর্বে ব্যারি নামক একটি কুকুর সুইজারল্যান্ডের সেইন্ট বার্নার্ড পাসে তুষারে হারিয়ে যাওয়া ৪০ জন ব্যক্তিকে উদ্ধার করেছিল। প্রশিক্ষণপ্রাপ্ত কুকুর অন্ধ ব্যক্তিকে পথ দেখায় এবং তাদের চোখ হিসেবে কাজ করে। সুমেরু অঞ্চলে মানুষজন বরফের ওপর দিয়ে কুকুর দ্বারা চালিত স্লেজগাড়িতে চলাচল করে। ১৯২৫ সালে বাল্টো নামক একটি এস্কিমো কুকুর তুষারঝড়ের মধ্য দিয়ে ৬০০ মাইল পথ পাড়ি দিয়ে ডিপথেরিয়া সিরাম নিয়ে আলাস্কায় পৌঁছেছিল। কিছু প্রশিক্ষণপ্রাপ্ত কুকুর মানুষের সবচেয়ে ভালো বন্ধুর মতো আচরণ করে। রাজা সপ্তম এডওয়ার্ডের একটি পোষা কুকুর ছিল যার নাম ছিল সিজার। এই কুকুরটি তার প্রভুর শবযাত্রায় নেতৃত্ব দিয়েছিল। কুকুর বৈজ্ঞানিক গবেষণার কাজেও সহযোগিতা করেছে। পৃথিবীর প্রথম মহাকাশচারী ছিল লাইকা নামক একটি কুকুর। রাশিয়ার বিজ্ঞানীরা ১৯৫৭ সালে এটিকে কৃত্রিম উপগ্রহের মাধ্যমে মহাকাশে প্রেরণ করেছিল। কুকুর সিনেমায় অভিনয়ও করেছে। লাসি নামক একটি কুকুর আমেরিকার বেশ কয়েকটি সিনেমায় গুরুত্বপূর্ণ ভূমিকায় অভিনয় করেছে।",
+        "vocabulary": [
+          {
+            "word": "artificial",
+            "synonym": "manufactured",
+            "antonym": "natural",
+            "pos": "adj.",
+            "meaning_en": "man-made",
+            "meaning_bn": "কৃত্রিম"
+          },
+          {
+            "word": "funeral procession",
+            "synonym": "burial ceremony",
+            "antonym": "",
+            "pos": "phrase",
+            "meaning_en": "mourning, burial",
+            "meaning_bn": "শবযাত্রা"
+          },
+          {
+            "word": "intelligent",
+            "synonym": "smart",
+            "antonym": "foolish",
+            "pos": "adj.",
+            "meaning_en": "clever",
+            "meaning_bn": "বুদ্ধিমান"
+          },
+          {
+            "word": "rescue",
+            "synonym": "save",
+            "antonym": "abandon",
+            "pos": "v.",
+            "meaning_en": "to save",
+            "meaning_bn": "উদ্ধার করা"
+          },
+          {
+            "word": "research",
+            "synonym": "investigation",
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "experiment, inspection",
+            "meaning_bn": "গবেষণা"
+          },
+          {
+            "word": "sled",
+            "synonym": "sledge",
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "toboggan",
+            "meaning_bn": "স্লেজগাড়ি"
+          },
+          {
+            "word": "snowstorm",
+            "synonym": "blizzard",
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "blizzard",
+            "meaning_bn": "তুষারঝড়"
+          },
+          {
+            "word": "star",
+            "synonym": "performer",
+            "antonym": "nonentity",
+            "pos": "n.",
+            "meaning_en": "film star, celebrity",
+            "meaning_bn": "তারকা"
+          },
+          {
+            "word": "transport",
+            "synonym": "carry",
+            "antonym": "hold",
+            "pos": "v.",
+            "meaning_en": "to carry from one place to another",
+            "meaning_bn": "পরিবহণ করা"
+          }
+        ],
+        "mcqQuestions": [
+          {
+            "id": "5a",
+            "question": "Complete the table: Balto — Eskimo — Alaska — carried diphtheria serum — ?",
+            "options": [
+              "600 miles",
+              "100 miles",
+              "1000 miles",
+              "300 miles"
+            ],
+            "correct": 0,
+            "explanation_bn": "বাল্টো ৬০০ মাইল পথ পাড়ি দিয়েছিল।",
+            "explanation_en": "Balto carried diphtheria serum 600 miles through a snowstorm."
+          },
+          {
+            "id": "5b",
+            "question": "Caesar — England — ?",
+            "options": [
+              "led the funeral procession of its master",
+              "rescued 40 people",
+              "went to space",
+              "acted in films"
+            ],
+            "correct": 0,
+            "explanation_bn": "সিজার তার প্রভুর শবযাত্রায় নেতৃত্ব দিয়েছিল।",
+            "explanation_en": "Caesar led the funeral procession of its master."
+          },
+          {
+            "id": "5c",
+            "question": "Laika — ? — acted as the world's first space traveller",
+            "options": [
+              "Russia",
+              "America",
+              "England",
+              "Switzerland"
+            ],
+            "correct": 0,
+            "explanation_bn": "লাইকা রাশিয়া থেকে মহাকাশে গিয়েছিল।",
+            "explanation_en": "Laika was from Russia."
+          },
+          {
+            "id": "5d",
+            "question": "Lassie — America — ?",
+            "options": [
+              "was a film star",
+              "rescued people",
+              "carried medicine",
+              "led a funeral"
+            ],
+            "correct": 0,
+            "explanation_bn": "লাসি আমেরিকার চলচ্চিত্রে অভিনয় করেছিল।",
+            "explanation_en": "Lassie was a film star."
+          },
+          {
+            "id": "5e",
+            "question": "Barry — Switzerland — ?",
+            "options": [
+              "rescued 40 persons",
+              "went to space",
+              "acted in films",
+              "carried serum"
+            ],
+            "correct": 0,
+            "explanation_bn": "ব্যারি ৪০ জনকে উদ্ধার করেছিল।",
+            "explanation_en": "Barry rescued 40 persons lost in the snow."
+          }
+        ],
+        "trueFalseQuestions": [
+          {
+            "id": "6a",
+            "question": "Dogs are not dull animals to train.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 0,
+            "explanation_bn": "কুকুর প্রশিক্ষণে নিস্তেজ প্রাণী নয় — তারা বুদ্ধিমান ও সহযোগিতাপূর্ণ।",
+            "explanation_en": "Dogs are not dull animals to train — they are intelligent and cooperative."
+          },
+          {
+            "id": "6b",
+            "question": "On the Saint Bernard pass 50 persons were lost.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 1,
+            "explanation_bn": "সেইন্ট বার্নার্ড পাসে ৫০ জন নয়, বরং অনেক বেশি পথিক হারিয়ে গিয়েছিল।",
+            "explanation_en": "On the Saint Bernard pass, not 50 but many more travelers were lost."
+          },
+          {
+            "id": "6c",
+            "question": "People of Arctic regions use sleds pulled by horses as transport.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 1,
+            "explanation_bn": "আর্কটিক অঞ্চলে ঘোড়া নয়, কুকুর দিয়ে স্লেজ টানা হয়।",
+            "explanation_en": "In Arctic regions, sleds are pulled by dogs, not horses."
+          },
+          {
+            "id": "6d",
+            "question": "Caesar was King Edward VII's pet dog.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 0,
+            "explanation_bn": "সিজার ছিল রাজা সপ্তম এডওয়ার্ডের প্রিয় কুকুর।",
+            "explanation_en": "Caesar was King Edward VII's pet dog."
+          },
+          {
+            "id": "6e",
+            "question": "In 1957, American scientists sent Laika to space.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 1,
+            "explanation_bn": "১৯৫৭ সালে আমেরিকান নয়, সোভিয়েত বিজ্ঞানীরা লাইকাকে মহাকাশে পাঠিয়েছিলেন।",
+            "explanation_en": "In 1957, Soviet (not American) scientists sent Laika to space."
+          }
+        ],
+        "summary": "Dogs are smart and easy to train. A dog named Barry saved 40 people in the snow. Trained dogs help blind people and pull sleds in cold regions. Balto carried medicine in a snowstorm in 1925. Some dogs, like Caesar, are loyal companions. Laika was the first dog in space, and Lassie was a famous film star.",
+        "passage": "Dogs are intelligent animals, so it is easy to train them. A dog named Barry rescued 40 persons when they were lost in the snow on the Saint Bernard pass in Switzerland about 150 years ago. Trained dogs lead blind people and act as their eyes. In Arctic regions people are transported across the ice on sleds pulled by dogs. In 1925 Balto, an Eskimo dog carried diphtheria serum 600 miles through a snowstorm in Alaska. Some trained dogs even acted as one of man's best friends. King Edward VII of England had a pet dog named Caesar. It led the funeral procession of its master. Dogs have also helped in scientific research. The world's first space traveller was a dog named Laika. Russian scientists sent it up in an artificial Earth Satellite in 1957. Dogs have been film stars too. A dog called Lassie was the star in a number of American films."
+      }
+    },
+    {
+      "id": "ch4",
+      "name": "Sentence Making",
+      "type": "sentence_matching",
+      "content": {
+        "exercise": {
+          "id": 1,
+          "question_text": "Match the parts of sentences from Column A and Column B to make five complete sentences.",
+          "table_columns": [
+            [
+              "There lived",
+              "He was",
+              "Because the villagers quarrelled",
+              "The man did not",
+              "So, he decided"
+            ],
+            [
+              "not happy living in that village.",
+              "like quarrelling at all.",
+              "a young man in a village.",
+              "with one another all the time.",
+              "to go to the nearby jungle to live by himself."
+            ]
+          ],
+          "valid_sentences": [
+            {
+              "sentence": "There lived a young man in a village.",
+              "combination": [
+                "There lived",
+                "a young man in a village."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "He was not happy living in that village.",
+              "combination": [
+                "He was",
+                "not happy living in that village."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "Because the villagers quarrelled with one another all the time.",
+              "combination": [
+                "Because the villagers quarrelled",
+                "with one another all the time."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "The man did not like quarrelling at all.",
+              "combination": [
+                "The man did not",
+                "like quarrelling at all."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "So, he decided to go to the nearby jungle to live by himself.",
+              "combination": [
+                "So, he decided",
+                "to go to the nearby jungle to live by himself."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch5",
+      "name": "Rearranging",
+      "type": "rearrangement",
+      "content": {
+        "sentences": [
+          {
+            "id": "a",
+            "text": "Applicants were enlisted serially for the competition."
+          },
+          {
+            "id": "b",
+            "text": "A date was fixed for the competition."
+          },
+          {
+            "id": "c",
+            "text": "They were all taken before the king."
+          },
+          {
+            "id": "d",
+            "text": "A king declared a rich prize for the teller of biggest lie."
+          },
+          {
+            "id": "e",
+            "text": "They tried their best to tell bigger lies but failed to win the mind of the king."
+          },
+          {
+            "id": "f",
+            "text": "It was nearly to a close of the competition."
+          },
+          {
+            "id": "g",
+            "text": "He said that the king was a worthless person."
+          },
+          {
+            "id": "h",
+            "text": "A new comer prayed for a chance to try and he was allowed."
+          }
+        ],
+        "correctOrder": [
+          "d",
+          "b",
+          "a",
+          "c",
+          "e",
+          "f",
+          "h",
+          "g"
+        ],
+        "reconstructedParagraph": "A king declared a rich prize for the teller of the biggest lie. A date was fixed for the competition. Applicants were enlisted serially for the competition. They were all taken before the king. They tried their best to tell bigger lies but failed to win the mind of the king. It was nearly the close of the competition. A newcomer prayed for a chance to try and he was allowed. He said that the king was a worthless person."
+      }
+    },
+    {
+      "id": "ch6",
+      "name": "Poetry MCQ",
+      "type": "poetry_mcq",
+      "content": {
+        "questions": [
+          {
+            "id": "10a",
+            "question": "What does the line 'To help him live by every rule' mean in the poem 'Whose Child Is This?'?",
+            "options": [
+              "To help a child follow the rules everywhere",
+              "To punish a child",
+              "To ignore a child",
+              "To make a child study"
+            ],
+            "correct": 0,
+            "explanation_bn": "'To help him live by every rule' মানে হলো শিশুকে সর্বত্র নিয়ম মেনে চলতে সাহায্য করা।",
+            "explanation_en": "To help him live by every rule means to help a child follow the rules everywhere."
+          },
+          {
+            "id": "10b",
+            "question": "Where do the parent and the teacher take care of the child as mentioned in the poem 'Whose Child Is This?'?",
+            "options": [
+              "At home and at school respectively",
+              "Only at home",
+              "Only at school",
+              "In the park"
+            ],
+            "correct": 0,
+            "explanation_bn": "পিতামাতা এবং শিক্ষক যথাক্রমে বাড়ি এবং স্কুলে শিশুর যত্ন নেন।",
+            "explanation_en": "The parent and the teacher take care of the child at home and at school respectively."
+          },
+          {
+            "id": "10c",
+            "question": "Why did the speaker repeatedly ask the question 'Whose child is this?' in the poem 'Whose Child Is This?'?",
+            "options": [
+              "To emphasize that bringing up a child is a noble and difficult task",
+              "Because he forgot",
+              "To make the child cry",
+              "To find the child's parents"
+            ],
+            "correct": 0,
+            "explanation_bn": "বক্তা বারবার প্রশ্নটি করেছিলেন শিশুকে বড় করা একটি মহৎ ও কঠিন কাজ তা বোঝানোর জন্য।",
+            "explanation_en": "To emphasize that bringing up a child is a noble and difficult task."
+          },
+          {
+            "id": "10d",
+            "question": "According to the poem 'Leisure', when can we see the squirrels hiding their nuts?",
+            "options": [
+              "While passing the woods",
+              "At night",
+              "In the morning",
+              "During rain"
+            ],
+            "correct": 0,
+            "explanation_bn": "কবিতা অনুসারে, বনের পাশ দিয়ে যাওয়ার সময় আমরা কাঠবিড়ালিদের বাদাম লুকাতে দেখতে পাই।",
+            "explanation_en": "According to the poem, while passing the woods we can see squirrels hiding their nuts."
+          },
+          {
+            "id": "10e",
+            "question": "According to the poem 'Leisure', what do we not have time for?",
+            "options": [
+              "Enjoying the beauty of nature",
+              "Working",
+              "Sleeping",
+              "Eating"
+            ],
+            "correct": 0,
+            "explanation_bn": "প্রকৃতির সৌন্দর্য উপভোগ করার সময় আমাদের নেই।",
+            "explanation_en": "We do not have time for enjoying the beauty of nature."
+          },
+          {
+            "id": "10f",
+            "question": "What is the poem 'Leisure' about?",
+            "options": [
+              "The availability of time for enjoying various aspects of life",
+              "Hard work",
+              "School",
+              "Sports"
+            ],
+            "correct": 0,
+            "explanation_bn": "কবিতাটি জীবনের বিভিন্ন দিক উপভোগের সময়ের প্রাপ্যতা নিয়ে।",
+            "explanation_en": "The poem is about the availability of time for enjoying various aspects of life."
+          },
+          {
+            "id": "10g",
+            "question": "In the poem 'From a Railway Carriage', what does the poet compare the speed of the train to?",
+            "options": [
+              "Fairies and witches",
+              "Horses",
+              "Cars",
+              "Birds"
+            ],
+            "correct": 0,
+            "explanation_bn": "কবি ট্রেনের গতিকে পরী ও ডাইনির সাথে তুলনা করেছেন।",
+            "explanation_en": "The poet compares the speed of the train to that of fairies and witches."
+          },
+          {
+            "id": "10h",
+            "question": "What is faster than fairies and witches according to the poem 'From a Railway Carriage'?",
+            "options": [
+              "The train",
+              "The cart",
+              "The horse",
+              "The wind"
+            ],
+            "correct": 0,
+            "explanation_bn": "পরী ও ডাইনির চেয়ে ট্রেন বেশি দ্রুতগামী।",
+            "explanation_en": "The train is faster than fairies and witches."
+          }
+        ]
+      }
+    }
+  ]
+}

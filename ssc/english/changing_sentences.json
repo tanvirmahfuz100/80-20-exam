@@ -209,12 +209,11 @@
           "id": "2g",
           "sentence": "It is one of the most beautiful sea-beaches in the world.",
           "instruction": "Make it negative",
-          "correctAnswer": "Isn't it the most beautiful sea-beaches in the world? (Note: answer sheet gives interrogative, but instruction says negative? Actually answer sheet says 'Isn't it the most beautiful...' that is interrogative. But original instruction for 2g is 'Make it negative'? Let me check: On page 663, 2(f) is 'It is the largest... Make interrogative', 2(g) 'It is one of the most beautiful... Make it negative'. But in answer sheet, 2(g) is 'Isn't it the most beautiful sea-beaches in the world?' That's interrogative, not negative. There's inconsistency. I'll follow the answer sheet as provided. But user instruction says 'Make it negative'. I'll create negative: 'It is not the most beautiful sea-beach in the world' would change meaning. Correct negative transformation for superlative: 'No other sea-beach in the world is as beautiful as it.' But answer sheet gave interrogative. I'll assume user wants answer sheet's version. Let me re-read: The question on page 658: \"(g) It is one of the most beautiful sea-beaches in the world. (Make it negative)\" Answer sheet page 663: \"(g) Isn't it the most beautiful sea-beaches in the world?\" That is wrong. The correct negative should be: \"It is not the most beautiful sea-beach in the world\" changes meaning. Better: \"No other sea-beach in the world is as beautiful as it.\" But since answer sheet is provided, I'll stick to it as the 'correct' answer for testing. I'll note discrepancy.\n\nBut to be faithful to the provided answer key, I'll use: \"Isn't it the most beautiful sea-beaches in the world?\" as correct answer, even though it's interrogative. I'll explain in feedback.",
-          "correctAnswer": "Isn't it the most beautiful sea-beaches in the world?",
+          "correctAnswer": "No other sea-beach in the world is as beautiful as it.",
           "options": [
-            { "text": "Isn't it the most beautiful sea-beaches in the world?", "isCorrect": true, "explanationBn": "উত্তরপত্র অনুযায়ী সঠিক উত্তর interrogative আকারে দেওয়া হয়েছে। অর্থ অপরিবর্তিত রাখতে negative interrogative ব্যবহার।" },
+            { "text": "No other sea-beach in the world is as beautiful as it.", "isCorrect": true, "explanationBn": "Superlative 'one of the most' এর negative transformation: 'No other...is as...as'। অর্থ অপরিবর্তিত রেখে negative করা হয়েছে।" },
             { "text": "It is not one of the most beautiful sea-beaches in the world.", "isCorrect": false, "explanationBn": "এটি অর্থ পাল্টে দেয়।" },
-            { "text": "No other sea-beach is as beautiful as it.", "isCorrect": false, "explanationBn": "এটি negative হলেও পরিবর্তিত Superlative থেকে Positive, কিন্তু প্রশ্নের নির্দেশনা negative চেয়েছিল।" },
+            { "text": "Isn't it the most beautiful sea-beach in the world?", "isCorrect": false, "explanationBn": "এটি interrogative, negative নয়।" },
             { "text": "It is the least beautiful sea-beach.", "isCorrect": false, "explanationBn": "অর্থ বিপরীত।" }
           ]
         },
@@ -276,9 +275,9 @@
           "id": "3b",
           "sentence": "Any answer in the exam should not be elaborated.",
           "instruction": "Affirmative",
-          "correctAnswer": "Every answer in the examination should be precised.",
+          "correctAnswer": "Every answer in the examination should be summarized.",
           "options": [
-            { "text": "Every answer in the examination should be precised.", "isCorrect": true, "explanationBn": "Negative 'should not be elaborated' এর affirmative 'should be precised' (সংক্ষিপ্ত)।" },
+            { "text": "Every answer in the examination should be summarized.", "isCorrect": true, "explanationBn": "Negative 'should not be elaborated' এর affirmative 'should be summarized' (সংক্ষিপ্ত)।" },
             { "text": "Any answer in the exam should be elaborated.", "isCorrect": false, "explanationBn": "অর্থ বিপরীত।" },
             { "text": "No answer in the exam should be elaborated.", "isCorrect": false, "explanationBn": "এটি negative-ই আছে।" },
             { "text": "Answers in the exam should be elaborated.", "isCorrect": false, "explanationBn": "অর্থ বিপরীত।" }
@@ -389,7 +388,7 @@
       "subQuestions": [
         {
           "id": "4a",
-          "sentence": "Haji Mohammad Mohsin was generous person.",
+          "sentence": "Haji Mohammad Mohsin was a generous person.",
           "instruction": "Complex",
           "correctAnswer": "Haji Mohammad Mohsin was a person who was generous.",
           "options": [
@@ -403,12 +402,12 @@
           "id": "4b",
           "sentence": "He was born in Hoogly.",
           "instruction": "Interrogative",
-          "correctAnswer": "It is Hoogly where he was born.",
+          "correctAnswer": "Was he born in Hoogly?",
           "options": [
-            { "text": "It is Hoogly where he was born.", "isCorrect": true, "explanationBn": "Interrogative করার নিয়ম অনুযায়ী answer sheet-এ এটি দেওয়া হয়েছে, কিন্তু এটি আসলে assertive। প্রশ্নটা ছিল 'Make Interrogative'? উত্তরপত্রে 'It is Hoogly where he was born.' এটি interrogative নয়। সম্ভবত প্রশ্নটি ছিল 'Complex'? দেখা যাক: Original question 4b: 'He was born in Hoogly. (Interrogative)' উত্তরপত্রে 'It is Hoogly where he was born.' এটি complex. তাহলে এখানে ভুল আছে। আমি answer sheet অনুযায়ী যাব, কিন্তু ব্যাখ্যায় বলব।" },
-            { "text": "Was he born in Hoogly?", "isCorrect": false, "explanationBn": "এটি সঠিক interrogative, কিন্তু উত্তরপত্রে complex দেওয়া আছে। পরীক্ষায় এটিই সঠিক interrogative হবে।" },
-            { "text": "Isn't he born in Hoogly?", "isCorrect": false, "explanationBn": "এটিও interrogative।" },
-            { "text": "Where was he born?", "isCorrect": false, "explanationBn": "প্রশ্নবাচক সরাসরি।" }
+            { "text": "Was he born in Hoogly?", "isCorrect": true, "explanationBn": "Assertive কে interrogative করতে auxiliary 'was' subject-এর আগে বসে। 'Was he born in Hoogly?' — সহজ interrogative।" },
+            { "text": "It is Hoogly where he was born.", "isCorrect": false, "explanationBn": "এটি complex sentence, interrogative নয়।" },
+            { "text": "Isn't he born in Hoogly?", "isCorrect": false, "explanationBn": "এটিও interrogative কিন্তু negative interrogative। সহজ interrogative 'Was he born in Hoogly?' উত্তম।" },
+            { "text": "Where was he born?", "isCorrect": false, "explanationBn": "প্রশ্নবাচক সরাসরি, কিন্তু 'Where' ব্যবহার করায় অর্থ পরিবর্তন হয়।" }
           ]
         },
         {
@@ -439,11 +438,10 @@
           "id": "4e",
           "sentence": "He is called a friend of humanity.",
           "instruction": "Negative",
-          "correctAnswer": "Isn't he called a friend of humanity? (Answer sheet gives interrogative, but instruction says Negative. I'll follow answer sheet as 'correct')",
-          "correctAnswer": "Isn't he called a friend of humanity?",
+          "correctAnswer": "He is not called an enemy of humanity.",
           "options": [
-            { "text": "Isn't he called a friend of humanity?", "isCorrect": true, "explanationBn": "উত্তরপত্রে interrogative দেওয়া আছে, যা negative interrogative form এ অর্থ অপরিবর্তিত রাখে।" },
-            { "text": "He is not called a friend of humanity.", "isCorrect": false, "explanationBn": "অর্থ বিপরীত।" },
+            { "text": "He is not called an enemy of humanity.", "isCorrect": true, "explanationBn": "Affirmative থেকে negative করতে 'called a friend'-এর বিপরীত 'not called an enemy' ব্যবহার করা হয়েছে। অর্থ অপরিবর্তিত।" },
+            { "text": "He is not called a friend of humanity.", "isCorrect": false, "explanationBn": "অর্থ বিপরীত (তাকে friend বলা হয় না বোঝায়)।" },
             { "text": "He is never called a friend of humanity.", "isCorrect": false, "explanationBn": "অর্থ বিপরীত।" },
             { "text": "No one calls him a friend of humanity.", "isCorrect": false, "explanationBn": "অর্থ বিপরীত।" }
           ]

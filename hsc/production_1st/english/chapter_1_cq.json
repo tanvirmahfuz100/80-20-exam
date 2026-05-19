@@ -1,0 +1,310 @@
+[
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_1",
+    "stem": "Mr. Mahbub is the owner of 'Bishwash Company'. He brings mangoes from Rajshahi to Dhaka by truck and stores them initially in a modern warehouse at Karwan Bazar. When mangoes are completely unavailable in the market, he decides to supply the stored mangoes to earn profit.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is utility?",
+        "model_answer": "The capacity of a commodity to satisfy human wants\n\nAccording to Prof. Mayers, \"Utility is the quality or capacity of a goods which enables it to satisfy human wants.\" In simple terms, utility refers to the want-satisfying power of a commodity."
+      },
+      {
+        "label": "b",
+        "question": "What type of utility is created by bringing mangoes from Rajshahi to Dhaka? Explain.",
+        "model_answer": "Place utility — because goods are transferred from one place to another\n\nPlace utility is created by moving goods from one place to another to satisfy wants. By bringing mangoes from Rajshahi to Dhaka, consumers in distant areas get the opportunity to consume mangoes, which is place utility."
+      },
+      {
+        "label": "c",
+        "question": "Storage enables consumers to enjoy mangoes for a long time — analyze in light of the stimulus.",
+        "model_answer": "This is time utility — because products of one time are preserved for consumption at another time"
+      },
+      {
+        "label": "d",
+        "question": "What other types of utility are created in the businessman's activities described in the stimulus? Evaluate.",
+        "model_answer": "Three types of utility — place, time and possession utility are created\n\nThree types of utility are created: (1) Place utility through transportation from Rajshahi to Dhaka, (2) Time utility through warehousing and storage, (3) Possession utility through the change of ownership when mangoes are bought and sold."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_2",
+    "stem": "Mr. Iqbal makes bread and sells it in the market. Besides, he produces various vegetables, pulses and corn and supplies them to the market. On the other hand, Mr. Hasan establishes a separate hospital to ensure healthcare services. Free treatment is provided to helpless patients there.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is meant by the agricultural sector of production?",
+        "model_answer": "The sector involved in producing agricultural products like rice, wheat, vegetables, fruits etc."
+      },
+      {
+        "label": "b",
+        "question": "Under which sector of production does Mr. Iqbal's bread-making activity fall? Explain.",
+        "model_answer": "Industrial sector — because form utility is created from raw materials using technology and machinery"
+      },
+      {
+        "label": "c",
+        "question": "Under which sector does Mr. Hasan's hospital belong? Analyze.",
+        "model_answer": "Service sector — because it satisfies human needs by providing medical services\n\nThe service sector works to fulfill not only basic needs but also expectations for a comfortable life. A hospital provides medical services to satisfy people's healthcare needs, which falls under the service sector."
+      },
+      {
+        "label": "d",
+        "question": "Both Mr. Iqbal and Mr. Hasan's activities play important roles in the country's economy — analyze.",
+        "model_answer": "Both activities are important — Iqbal contributes to production and supply of goods, Hasan contributes to human resource development"
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_3",
+    "stem": "In 2019, the value of products manufactured by 'K Limited' was Tk. 30,00,000. The cost of inputs used by the company was: Raw materials Tk. 5,00,000, Salaries and wages Tk. 2,60,000 and Others Tk. 1,40,000. On the other hand, in 2018, 'Kh Limited' had the same production volume but input costs were: Raw materials Tk. 5,70,000, Salaries Tk. 2,50,000 and Others Tk. 1,80,000.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is productivity?",
+        "model_answer": "The ratio of outputs (goods and services) divided by the inputs (resources)\n\nAccording to Heizer and Render, \"Productivity is the ratio of outputs (goods and services) divided by the inputs (resources).\" In simple terms, productivity is the ratio of goods produced to the inputs used in production."
+      },
+      {
+        "label": "b",
+        "question": "Write the formula for overall productivity.",
+        "model_answer": "Overall productivity = Total output value / Total input cost\n\nOverall (Total) Productivity = Total Value of Output / Total Value of Input. It is also known as total productivity."
+      },
+      {
+        "label": "c",
+        "question": "What was the overall productivity of 'K Limited' in 2019?",
+        "model_answer": "3.33\n\nOverall productivity of 'K Limited' = 30,00,000 / (5,00,000 + 2,60,000 + 1,40,000) = 30,00,000 / 9,00,000 = 3.33 (approx)."
+      },
+      {
+        "label": "d",
+        "question": "Based on 2018 and 2019 data, which company is in a more favorable position? Analyze.",
+        "model_answer": "'K Limited' is in a favorable position because their overall productivity (3.33) is higher than 'Kh Limited' (3.00)"
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_4",
+    "stem": "Bangladesh is lush with greenery. To improve their standard of living and become economically prosperous, the people of this country produce their own necessary raw materials. With this goal, Mr. Foysal established a production-oriented enterprise. Through hard work and proper utilization of factors of production, he also increased the production capacity of the enterprise. As a result, profit increased along with business expansion.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "According to E. S. Buffa, what is production?",
+        "model_answer": "Production is a process by which goods and services are created\n\nAccording to E. S. Buffa, \"Production is a process by which goods and services are created.\""
+      },
+      {
+        "label": "b",
+        "question": "How can the standard of living be improved? Describe in light of the stimulus.",
+        "model_answer": "By creating new goods and services through production, increasing income and consumption levels"
+      },
+      {
+        "label": "c",
+        "question": "\"To increase production capacity, proper utilization of factors of production must be ensured\" — analyze the statement in light of the stimulus.",
+        "model_answer": "Proper combination and optimal use of land, labor, capital and organization can increase production capacity"
+      },
+      {
+        "label": "d",
+        "question": "What steps can be taken to increase the productivity of Mr. Foysal's enterprise? Evaluate.",
+        "model_answer": "Efficient management, modern technology, quality raw materials, skilled human resources, good working environment and incentive systems can increase productivity"
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_5",
+    "stem": "Suppose in 2018, the total production of 'Warsi Company' was 50,00,000 carpets. But in 2019, through technological improvement and increasing employee efficiency, the company produced 70,00,000 carpets.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "According to Norman Gaither and Greg Frazier, what is the definition of productivity?",
+        "model_answer": "Productivity is the amount of products or services produced with the resources used"
+      },
+      {
+        "label": "b",
+        "question": "Explain the reasons for the increase in productivity of 'Warsi Company'.",
+        "model_answer": "Productivity increased due to technological improvement and increased employee efficiency"
+      },
+      {
+        "label": "c",
+        "question": "What are the advantages of increased productivity? Discuss.",
+        "model_answer": "More production, higher quality products, reduced production cost, permanent customers and higher profits are possible"
+      },
+      {
+        "label": "d",
+        "question": "Differentiate between production and productivity.",
+        "model_answer": "Production creates goods, productivity indicates efficiency; scope of production is broad, scope of productivity is relatively narrow; dynamism is low in production, dynamism is high in productivity"
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_6",
+    "stem": "Mr. Sohel takes some initiatives to increase productivity. For example, he uses modern machinery and technology in production and preserves high-quality raw materials. Additionally, he places special emphasis on creating a good working environment, recruiting skilled human resources, and retaining them. Because when productivity increases, the total production of the establishment increases. When total production increases, the rate of sales and profit is likely to increase.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is productivity?",
+        "model_answer": "The ratio of outputs (goods and services) divided by the inputs (resources)\n\nIn simple terms, productivity is the ratio of produced goods to the inputs used in production. According to Paul S. Samuelson, \"Productivity is a name given to the ratio of output to input.\""
+      },
+      {
+        "label": "b",
+        "question": "Evaluate Mr. Sohel's initiatives as an entrepreneur.",
+        "model_answer": "Mr. Sohel's initiatives are appropriate because he emphasizes modern technology, quality raw materials, skilled human resources, and a good working environment — all of which contribute to increasing productivity."
+      },
+      {
+        "label": "c",
+        "question": "What other steps are needed to increase productivity? Discuss.",
+        "model_answer": "Efficient management, good relations, proper layout, improved production process, research and development, and incentive systems are also needed to increase productivity."
+      },
+      {
+        "label": "d",
+        "question": "What are the disadvantages of low productivity? Evaluate.",
+        "model_answer": "Reduced worker efficiency, decreased machinery effectiveness, increased inventory costs, increased raw material costs, and pressure on capital — these are the disadvantages of low productivity."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_7",
+    "stem": "The productivity of an establishment does not depend on any single specific factor. Many factors influence it. For example, employee efficiency, managerial factors, and the production process are work-related factors. On the other hand, technological factors, finance, and used raw materials are resource-related factors. Additionally, natural factors, factory layout, and work environment fall under environmental factors.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "How many main classes of factors influence productivity?",
+        "model_answer": "Three — work-related, resource-related, and environmental\n\nThe factors influencing productivity can be divided into three main classes: (1) Work-related factors, (2) Resource-related factors, (3) Environmental factors."
+      },
+      {
+        "label": "b",
+        "question": "What is meant by work-related factors? Explain.",
+        "model_answer": "Factors related to employee efficiency, managerial factors, and the production process\n\nWork-related factors include: (1) Employee efficiency — whether employees perform their duties voluntarily with skill, (2) Managerial factors — coordination and sincerity between management and employees, (3) Production process — use of improved and modern production processes."
+      },
+      {
+        "label": "c",
+        "question": "How do technological factors and finance affect productivity? Discuss.",
+        "model_answer": "Using modern technology increases productivity; having adequate financial resources enables the adoption of advanced technology and hiring skilled workers, which increases productivity."
+      },
+      {
+        "label": "d",
+        "question": "How do environmental factors affect productivity? Evaluate.",
+        "model_answer": "Natural factors (climate, mineral resources), factory layout arrangement, and work environment — all three affect productivity. A favorable natural environment, proper factory layout, and a good work environment increase productivity, while unfavorable conditions decrease it."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_8",
+    "stem": "Mr. Rafiq is a furniture businessman in Dhaka. He collects quality wood produced in Chattogram and makes various designed furniture. Due to the quality and attractive design of his furniture, he has gained reputation in this business in a short time. Currently, his furniture is being supplied to consumers in different parts of the country. As a result, he is profiting from the business.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is production?",
+        "model_answer": "Creating utility and products using natural resources with human knowledge and intelligence"
+      },
+      {
+        "label": "b",
+        "question": "Productivity helps increase profit — explain.",
+        "model_answer": "When productivity increases, per-unit production cost decreases, sales and profit increase"
+      },
+      {
+        "label": "c",
+        "question": "What type of utility is created through Mr. Rafiq's primary work? Explain.",
+        "model_answer": "Form utility — because he changes the form and shape of wood to make furniture\n\nForm utility is created through Mr. Rafiq's primary work. Changing the form or shape of natural resources to create usable products creates form utility. Mr. Rafiq collects wood as raw material and changes its form and shape to make furniture."
+      },
+      {
+        "label": "d",
+        "question": "\"Creation of place utility is the main reason for the success of the establishment in the stimulus\" — evaluate.",
+        "model_answer": "The statement is correct, because he supplies furniture to different parts of the country, creating customers and increasing sales"
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_9",
+    "stem": "Mr. Mina started a business with an investment of Tk 25 lakh at BSCIC in Cumilla. He bought raw materials worth Tk 5 lakh, machinery worth Tk 15 lakh, factory rent Tk 2 lakh and other resources Tk 2 lakh, and produced thread and nets worth Tk 50 lakh. On the other hand, Mr. Hashem invested Tk 30 lakh and bought raw materials worth Tk 10 lakh, machinery worth Tk 15 lakh, factory rent Tk 2 lakh and other resources Tk 2 lakh, and produced products worth Tk 35 lakh.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is organization?",
+        "model_answer": "The initiative or effort to proportionally collect, combine and employ land, labor and capital for the purpose of production"
+      },
+      {
+        "label": "b",
+        "question": "\"Joint venture markets products globally\" — explain.",
+        "model_answer": "Joint ventures formed by combining two or more domestic and foreign companies have more capital and can supply products globally"
+      },
+      {
+        "label": "c",
+        "question": "Determine the productivity of Mr. Mina's establishment mentioned in the stimulus.",
+        "model_answer": "2.08\n\nMr. Mina's total production = Tk 50,00,000. Total input = (5,00,000+15,00,000+2,00,000+2,00,000) = Tk 24,00,000. Overall productivity = 50,00,000/24,00,000 = 2.08."
+      },
+      {
+        "label": "d",
+        "question": "Considering productivity, which establishment in the stimulus is profitable? Analyze.",
+        "model_answer": "Mr. Mina's establishment, because his productivity (2.08) is higher than Hashem's (1.21)"
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_10",
+    "stem": "During the production season, onion prices are low, but in the off-season, prices increase abnormally. Considering this, 'Ekta Krishak Samity' collects onions during the production season, preserves them using modern technology, and supplies them to consumers at fair prices in the off-season. The members of the Samity perform all activities themselves, so costs are relatively low. They are quite profitable. The members share profits and losses equally. Through employment, their standard of living is improving.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is production?",
+        "model_answer": "The process of changing the form or shape of natural resources to create products usable by humans"
+      },
+      {
+        "label": "b",
+        "question": "\"Production creates employment\" — explain.",
+        "model_answer": "Employment opportunities are created by hiring workers for production work\n\nEmployment opportunities are created by hiring necessary workers for production work. Raw material collection, machine operation, quality control, management — many tasks need to be done continuously, requiring the owner to hire workers."
+      },
+      {
+        "label": "c",
+        "question": "What type of utility is 'Ekta Krishak Samity' creating first in the stimulus? Explain.",
+        "model_answer": "Time utility — because they preserve products from one time for another time\n\n'Ekta Krishak Samity' is first creating time utility. When products from one time are preserved for consumption at another time to satisfy human wants, time utility is created. The Samity collects onions during the production season, preserves them, and supplies them in the off-season."
+      },
+      {
+        "label": "d",
+        "question": "Evaluate the contribution of 'Ekta Krishak Samity' in improving members' standard of living.",
+        "model_answer": "Members doing all work themselves and sharing profits has improved employment, income, and standard of living"
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_11",
+    "stem": "In 2019, Style Zone Ltd.'s produced product value was Tk 10,00,000. The cost of resources used was: raw materials Tk 4,00,000, salaries and wages Tk 2,00,000, and others Tk 1,00,000. In 2018, with the same production quantity, resource costs were: raw materials Tk 4,50,000, salaries and wages Tk 2,00,000, and others Tk 1,50,000.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is utility?",
+        "model_answer": "The capacity of a product or service to satisfy human wants\n\nThe capacity of a product or service to satisfy human wants is called utility."
+      },
+      {
+        "label": "b",
+        "question": "How is material productivity determined through formula?",
+        "model_answer": "Total value of output / Value of materials\n\nMaterial productivity = Total value of output / Value of materials used. It is the ratio of total output value to the value of raw materials used in production."
+      },
+      {
+        "label": "c",
+        "question": "Determine the overall productivity of Style Zone Ltd. for 2019.",
+        "model_answer": "1.43\n\n2019 total output = Tk 10,00,000. Total input = (4,00,000+2,00,000+1,00,000) = Tk 7,00,000. Overall productivity = 10,00,000/7,00,000 = 1.43."
+      },
+      {
+        "label": "d",
+        "question": "Evaluate the overall production situation of the establishment for 2018 in light of the stimulus.",
+        "model_answer": "2018 productivity (1.25) was lower than 2019 (1.43), so the establishment was more efficient in 2019"
+      }
+    ]
+  }
+]
