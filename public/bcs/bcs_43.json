@@ -140,8 +140,8 @@
       "C": "ফ্রান্সে",
       "D": "চীনে"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "লন্ডন, যুক্তরাজ্য",
+    "explanation": "ট্রাফালগার স্কয়ার লন্ডনের বিখ্যাত চত্বর।"
   },
   {
     "id": 13,
@@ -224,8 +224,8 @@
       "C": "মধ্য আফ্রিকায়",
       "D": "মধ্য আমেরিকায়"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "মধ্য আমেরিকা (মেক্সিকো/গুয়াতেমালা অঞ্চলে)",
+    "explanation": "মায়া সভ্যতা ইউকাটান পেনিনসুলায় বিস্তৃত ছিল।"
   },
   {
     "id": 20,
@@ -236,8 +236,8 @@
       "C": "দক্ষিণ আমেরিকায়",
       "D": "দক্ষিণ চীন সাগরে"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "পূর্ব আফ্রিকা (হর্ন অব আফ্রিকা)",
+    "explanation": "জিবুতি লোহিত সাগর ও এডেন উপসাগরের তীরে অবস্থিত।"
   },
   {
     "id": 21,
@@ -380,8 +380,8 @@
       "C": "mRNA",
       "D": "RNA"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "RNA virus (coronavirus)",
+    "explanation": "SARS‑CoV‑2 একটি RNA ভাইরাস।"
   },
   {
     "id": 33,
@@ -536,8 +536,8 @@
       "C": "৩-৬%",
       "D": "১০০%"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "প্রায় ৩-৬%",
+    "explanation": "সাধারণত photosynthetic efficiency 3–6%।"
   },
   {
     "id": 46,
@@ -560,8 +560,8 @@
       "C": "Domain name, IP",
       "D": "Email, IP"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Domain name → IP address",
+    "explanation": "DNS ডোমেইন নেইমকে আইপি অ্যাড্রেসে রূপান্তর করে।"
   },
   {
     "id": 48,
@@ -584,8 +584,8 @@
       "C": "printer",
       "D": "speaker"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Keyboard (ইনপুট ডিভাইস)",
+    "explanation": "প্রিন্টার, মনিটর, স্পিকার আউটপুট; কিবোর্ড ইনপুট।"
   },
   {
     "id": 50,
@@ -632,8 +632,8 @@
       "C": "Virtual Reality",
       "D": "উপরের কোনটিই নয়"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Artificial Intelligence (AI) / Biometrics",
+    "explanation": "Face recognition AI ও image processing-ভিত্তিক।"
   },
   {
     "id": 54,
@@ -656,8 +656,8 @@
       "C": "RAM",
       "D": "Cache memory"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Cache memory",
+    "explanation": "ক্যাশ মেমোরির access time সবচেয়ে কম।"
   },
   {
     "id": 56,
@@ -704,8 +704,8 @@
       "C": "Half duplex",
       "D": "Triplex"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Serial transmission",
+    "explanation": "কিবোর্ড সিরিয়াল কমিউনিকেশন ব্যবহার করে।"
   },
   {
     "id": 60,
@@ -716,8 +716,8 @@
       "C": "List of transactions",
       "D": "উপরের সবগুলো"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Transaction data, hash, previous block hash, timestamp",
+    "explanation": "একটি ব্লকে লেনদেনের তথ্য, নিজের হ্যাশ ও পূর্ববর্তী ব্লকের হ্যাশ থাকে।"
   },
   {
     "id": 61,
@@ -728,7 +728,7 @@
       "C": "15",
       "D": "10"
     },
-    "answer": "",
+    "answer": "সমস্যার বিবরণ প্রয়োজন",
     "explanation": ""
   },
   {
@@ -740,8 +740,8 @@
       "C": "225",
       "D": "155"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "গরুর সংখ্যা 63 (LCM of 3,7,9)",
+    "explanation": "প্রতিবার সমান ভাগে যায় → সংখ্যা 3,7,9 দ্বারা বিভাজ্য, সর্বনিম্ন 63।"
   },
   {
     "id": 63,
@@ -764,8 +764,8 @@
       "C": "৩০",
       "D": "৬০"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "n(n-1)/2 (n লোকসংখ্যা; প্রশ্নে n অনুপস্থিত)",
+    "explanation": "হ্যান্ডশেক সূত্র: nC2 = n(n-1)/2।"
   },
   {
     "id": 65,
@@ -776,7 +776,7 @@
       "C": "",
       "D": "1"
     },
-    "answer": "",
+    "answer": "অপশন ও সমীকরণ প্রয়োজন",
     "explanation": ""
   },
   {
@@ -788,7 +788,7 @@
       "C": "অথবা",
       "D": "এবং"
     },
-    "answer": "",
+    "answer": "অসমতা ও অপশন প্রয়োজন",
     "explanation": ""
   },
   {
@@ -812,8 +812,8 @@
       "C": "১০৪",
       "D": "৯৪"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "মুনাফা ৪৬৪১ টাকা (সুদাসল ১৪৬৪১ টাকা)",
+    "explanation": "r=10% প্রতি অর্ধবছর, n=4; A=10000×(1.1)⁴=14641। মুনাফা 4641।"
   },
   {
     "id": 69,
@@ -836,7 +836,7 @@
       "C": "108°",
       "D": "126°"
     },
-    "answer": "",
+    "answer": "চিত্র প্রয়োজন",
     "explanation": ""
   },
   {
@@ -908,8 +908,8 @@
       "C": "WINDPIPE",
       "D": "INHALE"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Oxygen (Air)",
+    "explanation": "গাড়ি চালাতে লাইসেন্স যেমন প্রয়োজন, শ্বাস নিতে অক্সিজেন/বাতাস প্রয়োজন।"
   },
   {
     "id": 77,
@@ -932,8 +932,8 @@
       "C": "FG",
       "D": "GF"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "GF",
+    "explanation": "পেয়ার অনুযায়ী DC(4,3), DE(4,5), FE(6,5), GF(7,6), HG(8,7), HI(8,9)।"
   },
   {
     "id": 79,
@@ -1136,7 +1136,7 @@
       "C": "'কর্ণফুলি'",
       "D": "'ধানকন্যা'"
     },
-    "answer": "",
+    "answer": "অপশন প্রয়োজন (সম্ভাব্য: তেইশ নম্বর তৈলচিত্র, বিধবাদের কথা ইত্যাদি)",
     "explanation": ""
   },
   {
@@ -1412,7 +1412,7 @@
       "C": "মুহূর্ত",
       "D": "অদ্ভুত"
     },
-    "answer": "",
+    "answer": "অপশন প্রয়োজন",
     "explanation": ""
   },
   {
@@ -1424,8 +1424,8 @@
       "C": "যৌগিক বাক্য",
       "D": "খণ্ড বাক্য"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "জটিল বাক্য",
+    "explanation": "এটি একটি জটিল বাক্য (principal + subordinate clause)।"
   },
   {
     "id": 120,
@@ -1484,7 +1484,7 @@
       "C": "এ",
       "D": "অ্যা"
     },
-    "answer": "",
+    "answer": "অপশন প্রয়োজন (সাধারণত ‘এ’ বা ‘অ্যা’)",
     "explanation": ""
   },
   {
@@ -1568,7 +1568,7 @@
       "C": "ocassion",
       "D": "decision"
     },
-    "answer": "",
+    "answer": "অপশন প্রয়োজন",
     "explanation": ""
   },
   {
@@ -1592,8 +1592,8 @@
       "C": "Once Hundred Years of Solitude",
       "D": "Pride and Prejudice"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Things Fall Apart (Chinua Achebe)",
+    "explanation": "Achebe নাইজেরিয়ান, বাকি লেখকরা ইংরেজ হলে এটি উত্তর।"
   },
   {
     "id": 134,
@@ -1796,8 +1796,8 @@
       "C": "Lord Byron",
       "D": "P. B. Shelley"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Percy Bysshe Shelley",
+    "explanation": "Ode to the West Wind থেকে।"
   },
   {
     "id": 151,
@@ -1832,8 +1832,8 @@
       "C": "S. T. Coleridge",
       "D": "John Keats"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Percy Bysshe Shelley",
+    "explanation": "Shelley রচিত বিখ্যাত সনেট।"
   },
   {
     "id": 154,
@@ -1916,8 +1916,8 @@
       "C": "comedy",
       "D": "historical"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Tragedy",
+    "explanation": "শেকসপিয়রের Julius Caesar একটি ট্র্যাজেডি।"
   },
   {
     "id": 161,
@@ -2000,8 +2000,8 @@
       "C": "নুরুল ইসলাম",
       "D": "রওনক জাহান"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "রেহমান সোবহান",
+    "explanation": "অর্থনীতিবিদ রেহমান সোবহানের আত্মজীবনীমূলক গ্রন্থ।"
   },
   {
     "id": 168,
@@ -2024,8 +2024,8 @@
       "C": "রাঙামাটি-বান্দরবান",
       "D": "সিলেট-হবিগঞ্জ"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "উত্তরবঙ্গ (রংপুর, দিনাজপুর অঞ্চল)",
+    "explanation": "ওরাওঁরা মূলত উত্তরবঙ্গ ও ভারতের ছোটনাগপুর অঞ্চলে বসবাস করে।"
   },
   {
     "id": 170,
@@ -2072,7 +2072,7 @@
       "C": "এম. মনসুর আলী",
       "D": "এ.এইচ.এম. কামরুজ্জামান"
     },
-    "answer": "",
+    "answer": "প্রশ্নটির নির্দিষ্ট উত্তর স্মরণে নেই; সম্ভবত এম.এ.জি. ওসমানী বা অন্য কেউ।",
     "explanation": ""
   },
   {
@@ -2276,8 +2276,8 @@
       "C": "৫টি",
       "D": "৬টি"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "৪টি",
+    "explanation": "ছয় দফার মধ্যে চারটি অর্থনৈতিক ও দুইটি রাজনৈতিক ছিল।"
   },
   {
     "id": 191,

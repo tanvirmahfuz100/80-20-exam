@@ -8,8 +8,8 @@
       "C": "3rd degree heart block",
       "D": "Pulsus paradoxus"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Pulsus paradoxus (an exaggerated drop in systolic blood pressure during inspiration) is a classic sign of cardiac tamponade. Tamponade compresses the heart, reducing filling; bradycardia and heart block are not typical, and ventricular dilatation is prevented by the fluid."
   },
   {
     "id": 2,
@@ -20,8 +20,8 @@
       "C": "Growth hormone deficiency",
       "D": "Klinefelter syndrome"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Klinefelter syndrome (47,XXY) is associated with tall stature and eunuchoid proportions, not short stature. The others are well-known causes of short stature."
   },
   {
     "id": 3,
@@ -32,8 +32,8 @@
       "C": "Haemophilia-A",
       "D": "Haemophilia-B"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Bleeding time is prolonged in disorders of platelets or platelet adhesion. Both ITP (thrombocytopenia) and Von Willebrand disease (defective platelet adhesion) prolong bleeding time. Haemophilia A and B are coagulation factor deficiencies with a normal bleeding time. If only one answer is required, ITP is the classic platelet disorder, though Von Willebrand disease also prolongs BT."
   },
   {
     "id": 4,
@@ -44,8 +44,8 @@
       "C": "initiated by muscle spindle",
       "D": "transmitted by type II fibre"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "The stretch reflex (e.g., knee jerk) is a monosynaptic reflex. It is initiated by muscle spindle stretch and transmitted by type Ia afferent fibres, not type II. 'Monosynaptic' best defines the reflex pathway."
   },
   {
     "id": 5,
@@ -56,8 +56,8 @@
       "C": "Epitheloid cells",
       "D": "Neutrophil"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Neutrophils are the predominant leukocytes in acute inflammation. Lymphocytes and epithelioid cells are more characteristic of chronic inflammation."
   },
   {
     "id": 6,
@@ -68,8 +68,8 @@
       "C": "diffusion co-efficient",
       "D": "rate of absorption"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Clearance (CL) is related to the elimination half-life and volume of distribution by the formula CL = (0.693 × Vd) / t½. Bioavailability, diffusion coefficient, and rate of absorption influence absorption, not clearance."
   },
   {
     "id": 7,
@@ -80,8 +80,8 @@
       "C": "Scalene",
       "D": "Soleus"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Scalene muscles are accessory muscles of inspiration used during forceful breathing. Rectus abdominis aids forced expiration, intercostals act in both quiet and forced respiration, but scalene is a specific accessory muscle."
   },
   {
     "id": 8,
@@ -92,8 +92,8 @@
       "C": "Complement",
       "D": "The Hexose monophosphate shunt"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Complement components, particularly C3b, act as opsonins and enhance phagocytosis. Hyaluronidase is a spreading factor, neuraminidase is viral, and the hexose monophosphate shunt generates NADPH for the respiratory burst but does not directly promote phagocytosis."
   },
   {
     "id": 9,
@@ -104,8 +104,8 @@
       "C": "Valproic acid",
       "D": "Ammonia"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Pyrimidine catabolism produces highly water-soluble end products like β-alanine and β-aminoisobutyrate, along with ammonia and CO₂. Uric acid is the end product of purine catabolism."
   },
   {
     "id": 10,
@@ -116,8 +116,8 @@
       "C": "Increased TSH secretion",
       "D": "Weight loss"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Graves disease is a primary hyperthyroidism with high T3/T4 that suppresses TSH via negative feedback. TSH is low, not increased. Goitre, increased BMR, and weight loss are typical."
   },
   {
     "id": 11,
@@ -128,8 +128,8 @@
       "C": "Vitamin-D",
       "D": "IGF-1"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Linear growth is primarily regulated by the growth hormone (GH)–IGF-1 axis. Calcium, phosphate, and vitamin D are essential for bone mineralization but do not drive linear growth."
   },
   {
     "id": 12,
@@ -140,8 +140,8 @@
       "C": "Head injury",
       "D": "mole on the affected site"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Decerebrate posturing indicates severe brain herniation or increased intracranial pressure. Lumbar puncture in this setting can cause fatal brainstem herniation (coning). Coma without focal signs is not an absolute contraindication. A mole is not an infection, so it is not an absolute contraindication."
   },
   {
     "id": 13,
@@ -152,8 +152,8 @@
       "C": "Factor IX",
       "D": "Kallikrein"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Factor IX is a vitamin K–dependent clotting factor of the intrinsic pathway; its deficiency causes haemophilia B. Factor B is a complement protein, and kallikrein is part of the kinin system."
   },
   {
     "id": 14,
@@ -164,8 +164,8 @@
       "C": "Causes haemolytic desease",
       "D": "Antioxidant"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Vitamin K is a cofactor required for the hepatic synthesis of clotting factors II, VII, IX, and X. It is not synthesised in the liver but in the intestinal flora. High doses in neonates may cause haemolytic anaemia, but the primary association is with hepatic synthesis of coagulation factors."
   },
   {
     "id": 15,
@@ -176,8 +176,8 @@
       "C": "Hepatic failure",
       "D": "Leukoplakia"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Bronchiolitis obliterans is a recognised pulmonary extra-articular manifestation of rheumatoid arthritis. Renal, hepatic failure, and leukoplakia are not typical."
   },
   {
     "id": 16,
@@ -188,8 +188,8 @@
       "C": "Hepatitis C virus",
       "D": "Streptococcus"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Toxoplasma gondii is a classic TORCH organism that crosses the placenta, causing congenital toxoplasmosis. Varicella zoster virus can also cross, but Toxoplasma is the most classic example in standard MCQs."
   },
   {
     "id": 17,
@@ -200,8 +200,8 @@
       "C": "Pregnancy",
       "D": "Nephrotic syndrome"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Renal tuberculosis causes haematuria (often painless). Nephrotic syndrome typically presents with proteinuria, cardiac failure with prerenal changes, and pregnancy-related haematuria is not typical without UTI."
   },
   {
     "id": 18,
@@ -212,8 +212,8 @@
       "C": "Cortisol",
       "D": "Dehydroepinephrine"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "The zona glomerulosa of the adrenal cortex synthesises mineralocorticoids, mainly aldosterone. Cortisol is produced in the zona fasciculata, and adrenaline in the adrenal medulla."
   },
   {
     "id": 19,
@@ -224,8 +224,8 @@
       "C": "Pineal gland",
       "D": "Submandibular gland"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "The pretracheal layer of the deep cervical fascia encloses the thyroid gland, trachea, and oesophagus. The submandibular gland is enclosed by the superficial layer, and the pineal gland is intracranial."
   },
   {
     "id": 20,
@@ -236,8 +236,8 @@
       "C": "Distal tubule",
       "D": "Glomerulus"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "The proximal tubule is the major site for bicarbonate reabsorption, playing a central role in renal acid-base balance. The distal tubule fine-tunes acid secretion, but the bulk occurs proximally."
   },
   {
     "id": 21,
@@ -248,8 +248,8 @@
       "C": "Heart block",
       "D": "Cardiac tamponade"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Chronic anaemia reduces blood viscosity and causes tissue hypoxia, leading to sustained high cardiac output. Hypertension has normal or reduced CO with increased TPR; heart block and tamponade reduce CO."
   },
   {
     "id": 22,
@@ -260,8 +260,8 @@
       "C": "Malaria",
       "D": "Hyperparathyroidism"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Malaria causes high fevers (hyperpyrexia). Asthma, COPD, and hyperparathyroidism are not typically associated with high fever."
   },
   {
     "id": 23,
@@ -272,8 +272,8 @@
       "C": "Trichuris Trichiura",
       "D": "Ascaris lumbricoides"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Ascaris lumbricoides larvae migrate through the lungs (Loeffler syndrome). Ancylostoma (hookworm) also has lung migration, but Ascaris is the classic example in typical MCQs."
   },
   {
     "id": 24,
@@ -284,8 +284,8 @@
       "C": "Deudenal ulcer",
       "D": "Cervical erosion"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Oral leukoplakia is a well-known precancerous condition with risk of malignant transformation. Fibroadenosis and duodenal ulcer are benign; cervical erosion is not precancerous (CIN is)."
   },
   {
     "id": 25,
@@ -296,8 +296,8 @@
       "C": "Allantois",
       "D": "Foetal membrane"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "The normal umbilical cord contains two umbilical arteries and one umbilical vein. The allantois is an embryonic structure that becomes the urachus and is not a normal cord content at term."
   },
   {
     "id": 26,
@@ -308,8 +308,8 @@
       "C": "Vertical transmission",
       "D": "Variable Expressivity"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Autosomal recessive disorders require two mutated alleles; heterozygotes (carriers) are typically asymptomatic. Parents are often unaffected carriers. Vertical transmission is typical of dominant disorders."
   },
   {
     "id": 27,
@@ -320,8 +320,8 @@
       "C": "Orthomyxoviruses",
       "D": "Parvovirus"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Parvovirus is a single-stranded DNA virus. Reovirus and picornavirus are RNA viruses; orthomyxoviruses (influenza) are RNA viruses."
   },
   {
     "id": 28,
@@ -332,8 +332,8 @@
       "C": "Hypoglycaemia between meals",
       "D": "Hypopigmentation"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Addison's disease is primary adrenal insufficiency with low cortisol and aldosterone. Hypoglycaemia between meals occurs due to impaired gluconeogenesis. There is hyperpigmentation, hypotension, and low cortisol."
   },
   {
     "id": 29,
@@ -344,8 +344,8 @@
       "C": "carbonic acid",
       "D": "dissolved form"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "About 70% of CO₂ is transported from tissues to lungs as bicarbonate (HCO₃⁻). The rest is carried as carbamino compounds and dissolved CO₂."
   },
   {
     "id": 30,
@@ -356,8 +356,8 @@
       "C": "Oestrogen",
       "D": "Tyrosine"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "All steroid hormones, including testosterone, are derived from cholesterol. Glycine and tyrosine are amino acid precursors for other molecules."
   },
   {
     "id": 31,
@@ -368,8 +368,8 @@
       "C": "Kidney",
       "D": "Skeletal muscle"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "The kidneys are highly sensitive to ischemia during haemorrhagic shock, often developing acute tubular necrosis. The brain is relatively protected by autoregulation until very late stages."
   },
   {
     "id": 32,
@@ -380,8 +380,8 @@
       "C": "Pacinian corpuscle",
       "D": "Meissner's corpuscle"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Merkel's discs are unencapsulated nerve endings associated with Merkel cells. Ruffini, Pacinian, and Meissner corpuscles are all encapsulated mechanoreceptors."
   },
   {
     "id": 33,
@@ -392,8 +392,8 @@
       "C": "Lactate",
       "D": "Pyrovate"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "At rest, the heart primarily oxidises free fatty acids (60–70% of energy). During ischemia or exercise, glucose and lactate utilization increases."
   },
   {
     "id": 34,
@@ -404,8 +404,8 @@
       "C": "Work of breathing",
       "D": "The tendency of lungs collapsed"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "The major function of pulmonary surfactant is to reduce alveolar surface tension, which increases compliance, reduces work of breathing, and prevents alveolar collapse. The primary direct action is lowering surface tension."
   },
   {
     "id": 35,
@@ -416,8 +416,8 @@
       "C": "Moist heat at 110°C for 30 minutes",
       "D": "Dry heat"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Bacterial spores are highly resistant. Moist heat at 110°C for 30 min is insufficient (autoclaving at 121°C is needed). Dry heat (hot air oven at 160°C for 1–2 hours) effectively kills spores."
   },
   {
     "id": 36,
@@ -428,8 +428,8 @@
       "C": "decrease reticulocytes",
       "D": "decrease LDH"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Haemolytic anaemia leads to increased bilirubin production, resulting in increased urinary urobilinogen. Haptoglobin decreases, reticulocytes increase, and LDH increases."
   },
   {
     "id": 37,
@@ -440,8 +440,8 @@
       "C": "Renal vasoconstriction",
       "D": "Dehydration"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Mismatched blood transfusion causes acute haemolytic reaction, leading to renal vasoconstriction, haemoglobinuria, and acute tubular necrosis."
   },
   {
     "id": 38,
@@ -452,8 +452,8 @@
       "C": "Anaemia",
       "D": "CO Poisoning"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Carbon monoxide shifts the oxygen–haemoglobin dissociation curve to the left, increasing Hb affinity for O₂ and impairing oxygen unloading. Acidosis, exercise, and anaemia decrease affinity."
   },
   {
     "id": 39,
@@ -464,8 +464,8 @@
       "C": "Cerebral blood flow",
       "D": "Mean blood pressure"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "During sustained aerobic exercise, plasma volume decreases due to fluid shifts and sweating, reducing total circulatory blood volume. Cerebral blood flow remains constant, skin temperature rises, and mean BP increases."
   },
   {
     "id": 40,
@@ -476,8 +476,8 @@
       "C": "Malnutrition",
       "D": "Avitaminosis D"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Malnutrition impairs cell-mediated immunity and is a strong predisposing factor for tuberculosis. Sarcoidosis and HLA-B27 are not predisposing factors for TB."
   },
   {
     "id": 41,
@@ -488,8 +488,8 @@
       "C": "Ileal perforation",
       "D": "Blindness"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Ileal perforation due to necrosis of Peyer's patches is a life-threatening complication of typhoid fever, typically occurring in the 3rd week."
   },
   {
     "id": 42,
@@ -500,8 +500,8 @@
       "C": "external carotid artery",
       "D": "Pulmonary artery"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "The third aortic arch forms the common carotid artery and the proximal internal carotid artery. The external carotid is often considered to arise from the third arch region though it buds from the aortic sac. The pulmonary trunk and pulmonary artery derive from the 6th arch, and the subclavian from the 4th arch."
   },
   {
     "id": 43,
@@ -512,8 +512,8 @@
       "C": "Systolic murmur",
       "D": "Decrease in systolic blood pressure"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Aortic regurgitation allows blood to flow back into the left ventricle during diastole, leading to low diastolic pressure and a wide pulse pressure. A systolic murmur may also be present, but the direct haemodynamic effect is decreased diastolic pressure."
   },
   {
     "id": 44,
@@ -524,8 +524,8 @@
       "C": "lypolysis",
       "D": "entry of  into the cell"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Insulin promotes glucose uptake into cells (especially muscle and adipose tissue) via GLUT4 translocation. It inhibits glycogenolysis, proteolysis, and lipolysis."
   },
   {
     "id": 45,
@@ -536,8 +536,8 @@
       "C": "factor-II",
       "D": "glucocorticoid"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Vitamin K is a cofactor for γ-carboxylation of clotting factors II (prothrombin), VII, IX, and X. Factor I (fibrinogen) and factor V are not vitamin K–dependent."
   },
   {
     "id": 46,
@@ -548,8 +548,8 @@
       "C": "Multiple myeloma",
       "D": "Spherocytosis"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Multiple myeloma causes markedly elevated ESR due to high paraprotein levels and rouleaux formation. Polycythaemia, sickle cell disease, and spherocytosis are associated with low ESR."
   },
   {
     "id": 47,
@@ -560,8 +560,8 @@
       "C": "left parasternal heave",
       "D": "mid diastolic murmur"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Aortic stenosis causes left ventricular hypertrophy, producing a sustained heaving apex beat. A left parasternal heave suggests right ventricular hypertrophy. The murmur is systolic, not mid-diastolic, and the pulse is typically slow-rising, not irregular."
   },
   {
     "id": 48,
@@ -572,8 +572,8 @@
       "C": "vit-c deficiency",
       "D": "Malnutrition"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Chronic hypoxia (e.g., high altitude, chronic lung disease) stimulates erythropoietin production, leading to secondary polycythaemia. Iron deficiency and malnutrition cause anaemia."
   },
   {
     "id": 49,
@@ -584,8 +584,8 @@
       "C": "Axillary nerve",
       "D": "Medial cutaneous nerve of forearm"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "The medial cord of the brachial plexus gives off the medial cutaneous nerve of the forearm (medial antebrachial cutaneous), ulnar nerve, and the medial head of the median nerve. The radial and axillary nerves arise from the posterior cord."
   },
   {
     "id": 50,
@@ -596,8 +596,8 @@
       "C": "Hepatitis",
       "D": "Hereditary spherocytosis"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Jaundice appearing within the first 24 hours of life is always pathological and is often due to haemolytic disease of the newborn, such as ABO incompatibility. Septicemia and other causes usually present later."
   },
   {
     "id": 51,
@@ -608,8 +608,8 @@
       "C": "vildagliptin",
       "D": "Repaglinide"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Liraglutide, a GLP-1 receptor agonist, promotes weight loss by delaying gastric emptying and increasing satiety. Pioglitazone and repaglinide often cause weight gain; vildagliptin is weight-neutral."
   },
   {
     "id": 52,
@@ -620,8 +620,8 @@
       "C": "intension tremor",
       "D": "slow gait"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Cerebellar lesions produce intention tremor, ataxia, and dysmetria. Spasticity is an upper motor neuron sign; rigidity is extrapyramidal (basal ganglia)."
   },
   {
     "id": 53,
@@ -632,8 +632,8 @@
       "C": "Associated with mononuclear antibody",
       "D": "Precipitate by boiling"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Bence-Jones proteins are monoclonal light chains (kappa or lambda) found in the urine of patients with multiple myeloma. They precipitate at 45–60°C and redissolve at boiling."
   },
   {
     "id": 54,
@@ -644,8 +644,8 @@
       "C": "teres major",
       "D": "teres minor"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "The axillary nerve (C5–C6) supplies the deltoid and teres minor muscles. Pectoralis muscles are supplied by the medial and lateral pectoral nerves; teres major by the subscapular nerve."
   },
   {
     "id": 55,
@@ -656,8 +656,8 @@
       "C": "↓TSH ↓FT4",
       "D": "↓TSH ↑FT4"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Secondary hypothyroidism is due to pituitary failure, leading to low TSH and consequently low free T4."
   },
   {
     "id": 56,
@@ -668,8 +668,8 @@
       "C": "tall T wave",
       "D": "level 5.5-7.0 meq/L"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "The earliest ECG manifestation of hyperkalaemia is tall, peaked T waves. Severe hyperkalaemia leads to widening of the QRS complex and eventual sine-wave pattern."
   },
   {
     "id": 57,
@@ -680,8 +680,8 @@
       "C": "Polio",
       "D": "Rubella"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Smallpox vaccine is a live attenuated vaccinia virus vaccine. Injectable polio vaccine (Salk) is killed; rubella is live; COVID-19 vaccines include both killed and mRNA types, but smallpox is the classic live vaccine."
   },
   {
     "id": 58,
@@ -692,8 +692,8 @@
       "C": "Lungs",
       "D": "Pituitary gland"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Continuous capillaries with tight junctions are found in the cerebrum (blood–brain barrier). Lungs also have continuous capillaries, but the brain is the classic example. Liver has sinusoidal (discontinuous) capillaries; pituitary has fenestrated capillaries."
   },
   {
     "id": 59,
@@ -704,8 +704,8 @@
       "C": "Ig G",
       "D": "Ig M"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Maternal IgG crosses the placenta and is the predominant antibody in the newborn. IgA, IgE, and IgM do not cross the placenta and are present in low amounts."
   },
   {
     "id": 60,
@@ -716,8 +716,8 @@
       "C": "Parathyroid hormone",
       "D": "Prolactin"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "ACTH (and cortisol) exhibits a marked diurnal rhythm, peaking in the early morning and declining throughout the day. Prolactin increases during sleep but ACTH is the classic example."
   },
   {
     "id": 61,
@@ -728,8 +728,8 @@
       "C": "neurtrophil",
       "D": "monocyte"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Monocytes emigrate from the blood into tissues where they differentiate into macrophages. This process is enhanced during immune responses."
   },
   {
     "id": 62,
@@ -740,8 +740,8 @@
       "C": "Nucleus",
       "D": "Chloroplast"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Ribosomes are non-membrane-bound organelles composed of rRNA and proteins. Mitochondria, nucleus, and chloroplasts are all membrane-bound organelles."
   },
   {
     "id": 63,
@@ -752,8 +752,8 @@
       "C": "Left phrenic nerve",
       "D": "Pudendal nerve"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "The phrenic nerves (C3–5) pierce the diaphragm to supply it from the abdominal surface. The sympathetic trunk passes posterior to the medial arcuate ligament."
   },
   {
     "id": 64,
@@ -764,8 +764,8 @@
       "C": "microglia",
       "D": "Purkinje cell"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Anterior horn cells (alpha motor neurons) are excitatory, releasing acetylcholine at the neuromuscular junction. Purkinje cells are inhibitory (GABAergic); ependymal cells and microglia are glial."
   },
   {
     "id": 65,
@@ -776,8 +776,8 @@
       "C": "paracetamol",
       "D": "methanol"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Kerosene (hydrocarbon) ingestion poses a high risk of aspiration pneumonitis if gastric lavage is performed. Lavage is generally contraindicated or cautiously performed. OPC, paracetamol, and methanol poisonings can be managed with lavage."
   },
   {
     "id": 66,
@@ -788,8 +788,8 @@
       "C": "Cytomegalovirus",
       "D": "Candida albicans"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Pneumocystis carinii (jirovecii), CMV, and Candida are opportunistic infections commonly affecting immunocompromised hosts. Diphtheria is a toxin-mediated disease that occurs primarily in non-immune individuals, not specifically an opportunistic infection."
   },
   {
     "id": 67,
@@ -800,8 +800,8 @@
       "C": "Pregnancy",
       "D": "diabetic nephropathy"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "ACE inhibitors are teratogenic (fetal renal dysgenesis, oligohydramnios) and are contraindicated in pregnancy. They are indicated in diabetic nephropathy and chronic heart failure. Asthma is a contraindication for beta-blockers, not ACE inhibitors."
   },
   {
     "id": 68,
@@ -812,8 +812,8 @@
       "C": "inferior vena cava",
       "D": "vermiform appendix"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "The inferior vena cava is a primary retroperitoneal structure. The ascending colon is secondarily retroperitoneal. Transverse colon and appendix are intraperitoneal. If only one answer is allowed, the IVC is the definitive retroperitoneal organ."
   },
   {
     "id": 69,
@@ -824,8 +824,8 @@
       "C": "Arachodonic acid",
       "D": "Oleic acid"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Note: Alpha-linolenic acid is the true omega-3 essential fatty acid, but it is not listed. Among the given choices, linoleic acid is the essential omega-6 fatty acid. The question likely intends 'essential fatty acid' broadly, making linoleic acid the closest correct option. Arachidonic acid is omega-6, oleic acid is omega-9."
   },
   {
     "id": 70,
@@ -836,8 +836,8 @@
       "C": "Spleen",
       "D": "Bone marrows"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "The lungs contain continuous capillaries with extremely thin walls that are specialised for gas exchange. Thyroid has fenestrated capillaries; spleen and bone marrow have sinusoidal capillaries."
   },
   {
     "id": 71,
@@ -848,8 +848,8 @@
       "C": "Blood vessels",
       "D": "Nerve cells"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Gliomas, arising from neuroglial cells (astrocytes, oligodendrocytes, ependyma), are the most common primary CNS tumours. Meningiomas are next in frequency."
   },
   {
     "id": 72,
@@ -860,8 +860,8 @@
       "C": "Langerhan's cell of skin",
       "D": "Dendritic cell"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Neutrophils are phagocytes but are not professional antigen-presenting cells (APCs). Macrophages, Langerhans cells, and dendritic cells are classic APCs that express MHC class II and activate T cells."
   },
   {
     "id": 73,
@@ -872,8 +872,8 @@
       "C": "Azathioprine",
       "D": "Chlaroquine"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Azathioprine is a purine antimetabolite that inhibits DNA synthesis. Chloramphenicol inhibits bacterial protein synthesis, prednisolone is an anti-inflammatory, and chloroquine interferes with haem detoxification in malaria."
   },
   {
     "id": 74,
@@ -884,8 +884,8 @@
       "C": "E Coli",
       "D": "H. influenza"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "E. coli and Group B Streptococcus are the most common causes of neonatal sepsis. In many settings, E. coli is a leading cause, especially in early-onset sepsis."
   },
   {
     "id": 75,
@@ -896,8 +896,8 @@
       "C": "widening of epiphysis",
       "D": "increased calcifications"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Radiological features of rickets include cupping, fraying, and widening of the metaphysis. Cupping of the epiphysis is a classic and characteristic sign."
   },
   {
     "id": 76,
@@ -908,8 +908,8 @@
       "C": "turners syndrome",
       "D": "Haemophilia"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Haemophilia A and B are X-linked recessive disorders. Down syndrome is trisomy 21, Turner syndrome is 45,XO, and PCOS is not a single-gene disorder."
   },
   {
     "id": 77,
@@ -920,8 +920,8 @@
       "C": "Dexamethasone",
       "D": "Diazepam"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Lithium is a first-line mood stabiliser used in bipolar disorder. Topiramate is an antiepileptic, dexamethasone is a corticosteroid, and diazepam is a benzodiazepine."
   },
   {
     "id": 78,
@@ -932,8 +932,8 @@
       "C": "Synonymous with normal saline",
       "D": "9 gm meq/L solution"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Normal saline (0.9% NaCl) has an osmolarity of approximately 308 mOsm/L, close to plasma osmolarity, making it isotonic. It is the same as 'normal saline' by definition, but option A describes its physiological property."
   },
   {
     "id": 79,
@@ -944,8 +944,8 @@
       "C": "Acid phosphatase",
       "D": "Lipoprotein lipase"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Pancreatic inflammation releases digestive enzymes; serum lipase and amylase are elevated. Lipase is more specific for pancreatitis."
   },
   {
     "id": 80,
@@ -956,8 +956,8 @@
       "C": "pupil constriction",
       "D": "inability to lateral movement"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Oculomotor nerve (CN III) palsy causes ptosis (levator palpebrae paralysis), downward and outward deviation of the eye, and a dilated pupil. Blindness is CN II; lateral movement is CN VI."
   },
   {
     "id": 81,
@@ -968,8 +968,8 @@
       "C": "Periosteum",
       "D": "Retina"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Enamel is avascular and acellular; it cannot regenerate. Bone marrow is highly vascular, periosteum has blood vessels, and the retina has a dual blood supply."
   },
   {
     "id": 82,
@@ -980,8 +980,8 @@
       "C": "",
       "D": "Oxygen"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Oxygen is a small, nonpolar molecule that readily diffuses across cell membranes. Glucose requires transporters, and proteins are too large and polar."
   },
   {
     "id": 83,
@@ -992,8 +992,8 @@
       "C": "Oligodentrocyte",
       "D": "Epithelial cells"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "The blood–brain barrier is formed by tight junctions between endothelial cells of brain capillaries, along with astrocyte foot processes."
   },
   {
     "id": 84,
@@ -1004,8 +1004,8 @@
       "C": "Diabetes mellitus",
       "D": "Acute glomerulonephritis"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Increased pressure, turbid, neutrophilic pleocytosis, low glucose, elevated protein",
+    "explanation": "প্রশ্নের অপশনগুলো ভুল; উপরোক্ত বৈশিষ্ট্যগুলোই standard।"
   },
   {
     "id": 85,
@@ -1016,8 +1016,8 @@
       "C": "γ fraction",
       "D": "β fraction"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Antibodies (immunoglobulins) migrate in the gamma (γ) fraction on serum protein electrophoresis. α and β fractions contain other proteins."
   },
   {
     "id": 86,
@@ -1028,8 +1028,8 @@
       "C": "Trypanosoma gambiense",
       "D": "Covid RNA virus"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Leishmania donovani is an obligate intracellular parasite of the reticuloendothelial system. Trypanosoma gambiense is extracellular in blood; Echinococcus is a tissue cestode; COVID RNA virus is intracellular but the question targets protozoan parasites."
   },
   {
     "id": 87,
@@ -1040,8 +1040,8 @@
       "C": "Prolactin",
       "D": "Oestrogen"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Loss of ovarian oestrogen negative feedback after menopause leads to markedly elevated FSH and LH. Oestrogen decreases."
   },
   {
     "id": 88,
@@ -1052,8 +1052,8 @@
       "C": "High serum albumin",
       "D": "Prolongation of prothrombine time"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Fulminant hepatic failure leads to impaired synthesis of clotting factors, resulting in prolonged prothrombin time. Hypoglycemia also occurs, but PT prolongation is the most consistent laboratory abnormality. Albumin is decreased."
   },
   {
     "id": 89,
@@ -1064,8 +1064,8 @@
       "C": "cuboidal",
       "D": "columner"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Thyroid follicles are lined by simple cuboidal epithelium, which becomes columnar when actively secreting."
   },
   {
     "id": 90,
@@ -1076,8 +1076,8 @@
       "C": "Filariasis",
       "D": "Hydatid disease"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Giardiasis is caused by Giardia lamblia, a protozoan. Schistosomiasis and filariasis are helminthic infections; hydatid disease is caused by a cestode (Echinococcus)."
   },
   {
     "id": 91,
@@ -1088,8 +1088,8 @@
       "C": "Does not affect skin",
       "D": "Affects the brain"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Ionising radiation can damage all tissues, including the brain (radionecrosis). It affects the skin (dermatitis), lungs (pneumonitis), and other organs. The statement 'Affects the brain' is true."
   },
   {
     "id": 92,
@@ -1100,8 +1100,8 @@
       "C": "Cold agglutinin",
       "D": "Anti insulin antibody"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "The Coombs test (direct antiglobulin test) detects antibodies or complement on red blood cells, used in immune haemolytic anaemias, including cold agglutinin disease. Rheumatoid factor and ANA are detected by other serological tests."
   },
   {
     "id": 93,
@@ -1112,8 +1112,8 @@
       "C": "Ureter",
       "D": "Ovarian artery"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "The ovary is located within the broad ligament, attached by the mesovarium. The ureter and ovarian artery are not contents; the ovarian artery runs in the suspensory ligament. Some texts state the ovary is behind the broad ligament, but many MCQs consider the ovary as related to the broad ligament content."
   },
   {
     "id": 94,
@@ -1124,8 +1124,8 @@
       "C": "Adrenal gland",
       "D": "Lacrimal gland"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "Myoepithelial cells are contractile epithelial cells found in sweat glands, salivary glands (parotid), mammary glands, and lacrimal glands. Sweat gland is the classic example often tested."
   },
   {
     "id": 95,
@@ -1136,8 +1136,8 @@
       "C": "Calcium Ions",
       "D": "Potassium Ions"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "Increased extracellular potassium concentration (as in active muscle) causes local vasodilation. Endothelin is a potent vasoconstrictor."
   },
   {
     "id": 96,
@@ -1148,8 +1148,8 @@
       "C": "Retinol deficiency",
       "D": "Nephrotic syndrome"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "Vitamin C (ascorbic acid) deficiency causes scurvy, characterised by defective collagen synthesis and capillary fragility, leading to petechiae and haemorrhagic lesions. Vitamin B and retinol deficiencies do not cause bleeding."
   },
   {
     "id": 97,
@@ -1160,8 +1160,8 @@
       "C": "flexor of the knee",
       "D": "adduction of hip"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "The superior and inferior gluteal nerves pass through the greater sciatic foramen. Muscles are not structures that 'pass through'; they originate/insert. Nerves are the correct structural contents."
   },
   {
     "id": 98,
@@ -1172,8 +1172,8 @@
       "C": "Placental cytotrophoblast",
       "D": "Placental syncytotrophoblast"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "The corpus luteum produces progesterone until the placenta takes over around 10–12 weeks of gestation. Before 8 weeks, the corpus luteum is the main source."
   },
   {
     "id": 99,
@@ -1184,8 +1184,8 @@
       "C": "Increased total lung capacity",
       "D": "Increased vital capacity"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "Emphysema causes air trapping and hyperinflation, leading to increased total lung capacity and residual volume. Vital capacity is typically decreased."
   },
   {
     "id": 100,
@@ -1196,7 +1196,7 @@
       "C": "Needle",
       "D": "Swab stick"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A",
+    "explanation": "A hot air oven (dry heat) is suitable for sterilising metal instruments like scalpels. Wire loops are sterilised by direct flaming (incineration). Swab sticks and some needles are better autoclaved."
   }
 ]

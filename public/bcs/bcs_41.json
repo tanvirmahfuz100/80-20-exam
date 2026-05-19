@@ -560,8 +560,8 @@
       "C": "Wi-Max",
       "D": "Cellular network"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Bluetooth",
+    "explanation": "Bluetooth-এর range সাধারণত 10 মিটার পর্যন্ত, Wi‑Fi ও WiMAX এর চেয়ে কম।"
   },
   {
     "id": 48,
@@ -656,8 +656,8 @@
       "C": "Java",
       "D": "Python"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Machine language",
+    "explanation": "মেশিন ল্যাঙ্গুয়েজ সরাসরি 0 ও 1-এ লেখা হয়।"
   },
   {
     "id": 56,
@@ -716,8 +716,8 @@
       "C": "৯০",
       "D": "৮০"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "110°",
+    "explanation": "∠C = 60°; ∠ACD = 30°; ∆ADC এ ∠A=40°, ∠ACD=30° → ∠CDA=110°।"
   },
   {
     "id": 61,
@@ -740,8 +740,8 @@
       "C": "১১২৯৯",
       "D": "১৪৯৯"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "৪/৩৩",
+    "explanation": "a=0.12, r=0.01; S = a/(1-r) = 0.12/0.99 = 12/99 = 4/33।"
   },
   {
     "id": 63,
@@ -764,8 +764,8 @@
       "C": "১০%",
       "D": "১১১৯"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "১১.১১% (বা ১১ ১/৯%)",
+    "explanation": "% বৃদ্ধি = [10/(100-10)]×100 = (10/90)×100 ≈ 11.11%।"
   },
   {
     "id": 65,
@@ -836,7 +836,7 @@
       "C": "১৬৩১",
       "D": "৪১২"
     },
-    "answer": "",
+    "answer": "প্রশ্নের অপশন ছাড়া নির্ধারণ সম্ভব নয়",
     "explanation": ""
   },
   {
@@ -860,8 +860,8 @@
       "C": "০.২৫% কমেছে",
       "D": "০.৫% কমেছে"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "০.২৫% কমেছে",
+    "explanation": "Net change = -5 +5 + (-5×5)/100 = -0.25%।"
   },
   {
     "id": 73,
@@ -944,7 +944,7 @@
       "C": "৮১",
       "D": "৪৪"
     },
-    "answer": "",
+    "answer": "ছবি ছাড়া উত্তর সম্ভব নয়",
     "explanation": ""
   },
   {
@@ -956,7 +956,7 @@
       "C": "![](https://uttoron.academy/media/Images/Question/41st-bcs/28.jpg)",
       "D": "![](https://uttoron.academy/media/Images/Question/41st-bcs/29.jpg)"
     },
-    "answer": "",
+    "answer": "অপশন প্রয়োজন (সাধারণত NOITƎ⅃AЯ এর কাছাকাছি)",
     "explanation": ""
   },
   {
@@ -1424,8 +1424,8 @@
       "C": "সুদখোর",
       "D": "কৃষিজীবী"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "সুদখোর / মহাজন",
+    "explanation": "কুসীদ = সুদ; কুসীদজীবী = সুদের উপর জীবিকা নির্বাহকারী।"
   },
   {
     "id": 120,
@@ -1628,8 +1628,8 @@
       "C": "participle",
       "D": "verbal noun"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Infinitive (bare infinitive)",
+    "explanation": "let-এর পরে to ছাড়া infinitive বসে।"
   },
   {
     "id": 137,
@@ -1760,8 +1760,8 @@
       "C": "adjective",
       "D": "adverb"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Demonstrative pronoun",
+    "explanation": "এখানে that নির্দিষ্ট ব্যক্তিকে নির্দেশ করছে।"
   },
   {
     "id": 148,
@@ -1784,8 +1784,8 @@
       "C": "As You Like It",
       "D": "Hamlet"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Paradox",
+    "explanation": "এটি একটি আপাতবিরোধী উক্তি যা দার্শনিক সত্য বহন করে।"
   },
   {
     "id": 150,
@@ -1808,8 +1808,8 @@
       "C": "return or to help somebody return to a normal situation.",
       "D": "give somebody mental peace."
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "scold/reprimand someone frankly",
+    "explanation": "কড়া ভাষায় কারও ভুল ধরিয়ে দেওয়া।"
   },
   {
     "id": 152,
@@ -1844,8 +1844,8 @@
       "C": "We tried hard, But did not succeed.",
       "D": "There is no one but likes him."
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "যেখানে but অর্থ 'except' (e.g., Everyone but him was present).",
+    "explanation": "Preposition হিসেবে but ব্যবহৃত হলে তার পরে objective case আসে।"
   },
   {
     "id": 155,
@@ -1976,8 +1976,8 @@
       "C": "৭ম-৮ম শতক",
       "D": "৮ম-৯ম শতক"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "৮ম থেকে ১২শ শতকের অরাজকতাপূর্ণ সময় (পাল বংশের আগে)",
+    "explanation": "মাৎস্যন্যায় অর্থ বড় মাছ ছোট মাছকে খায় — আঞ্চলিক বিশৃঙ্খলা।"
   },
   {
     "id": 166,
@@ -2012,8 +2012,8 @@
       "C": "লিয়াকত আলী খান",
       "D": "মোহাম্মদ আলী জিন্নাহ"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "খাজা নাজিমুদ্দিন",
+    "explanation": "১৯৫২ সালে পাকিস্তানের প্রধানমন্ত্রী ছিলেন খাজা নাজিমুদ্দিন।"
   },
   {
     "id": 169,

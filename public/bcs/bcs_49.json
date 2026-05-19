@@ -176,8 +176,8 @@
       "C": "৯০",
       "D": "৪৫"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "45°, 90°, 45°",
+    "explanation": "A=x, B=2x, C=B-A=x; sum=4x=180 → x=45; angles=45,90,45।"
   },
   {
     "id": 16,
@@ -380,7 +380,7 @@
       "C": "১০",
       "D": "১২"
     },
-    "answer": "",
+    "answer": "সংখ্যাটি স্পষ্ট নয়; সিরিজের নিয়ম প্রয়োজন",
     "explanation": ""
   },
   {
@@ -500,8 +500,8 @@
       "C": "400",
       "D": "500"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "400 টাকা",
+    "explanation": "0.9x + 60 = 1.05x → 0.15x=60 → x=400।"
   },
   {
     "id": 43,
@@ -584,8 +584,8 @@
       "C": "Vanity Fair",
       "D": "Gulliver’s Travels"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Jonathan Swift (Gulliver's Travels)",
+    "explanation": "এটি গালিভারস ট্রাভেলস-এর ইয়াহু প্রসঙ্গে সুইফটের উক্তি।"
   },
   {
     "id": 50,
@@ -668,8 +668,8 @@
       "C": "15",
       "D": "5"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "2.5 কেজি",
+    "explanation": "Torque balance: 10×3 = W×12 → W=2.5 kg।"
   },
   {
     "id": 57,
@@ -716,7 +716,7 @@
       "C": "It’s hard to decide which one is better",
       "D": "He joined the gym to better his health."
     },
-    "answer": "",
+    "answer": "অপশন প্রয়োজন (যেমন: He sings better than before – এখানে better adverb)",
     "explanation": ""
   },
   {
@@ -776,8 +776,8 @@
       "C": "an attractive service",
       "D": "an attractive and essential enhancement"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "an additional benefit to something already good",
+    "explanation": "ইতিমধ্যে ভালো কিছুর সাথে অতিরিক্ত সুবিধা।"
   },
   {
     "id": 66,
@@ -860,8 +860,8 @@
       "C": "বিষয়গত সুনির্দিষ্ট অর্থবোধক শব্দ",
       "D": "ব্যবহারিক প্রয়োজনে নবনির্মিত শব্দ"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "বিশেষ জ্ঞানের ক্ষেত্রে ব্যবহৃত নির্দিষ্ট অর্থবোধক শব্দ (Technical term)",
+    "explanation": "পরিভাষা কোনো বিষয়ের সুনির্দিষ্ট পারিভাষিক শব্দ।"
   },
   {
     "id": 73,
@@ -1040,7 +1040,7 @@
       "C": "The picture was hunged on the wall",
       "D": "The picture had hanged on the wall"
     },
-    "answer": "",
+    "answer": "অপশন প্রয়োজন",
     "explanation": ""
   },
   {
@@ -1052,8 +1052,8 @@
       "C": "২",
       "D": "১২"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "প্রথম পদ 2, সাধারণ অনুপাত 2",
+    "explanation": "ar⁴=32, ar⁷=256 ⇒ r³=8, r=2; a×16=32 ⇒ a=2।"
   },
   {
     "id": 89,

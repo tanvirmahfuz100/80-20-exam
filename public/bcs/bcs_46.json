@@ -20,7 +20,7 @@
       "C": "২ : ৩",
       "D": "৩ : ৫"
     },
-    "answer": "",
+    "answer": "অনেকগুলো সমাধান সম্ভব, নির্দিষ্ট অপশন প্রয়োজন",
     "explanation": ""
   },
   {
@@ -32,7 +32,7 @@
       "C": "16",
       "D": "14"
     },
-    "answer": "",
+    "answer": "সমীকরণ প্রয়োজন",
     "explanation": ""
   },
   {
@@ -68,8 +68,8 @@
       "C": "৩৬π বর্গ সে.মি.",
       "D": "৪৮π বর্গ সে.মি."
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "পৃষ্ঠতলের ক্ষেত্রফল ৩২π বর্গসেমি, আয়তন ২৪π ঘনসেমি",
+    "explanation": "Total surface area = 2πr(r+h) = 2π·2·8 = 32π; Volume = πr²h = π·4·6 = 24π।"
   },
   {
     "id": 7,
@@ -128,7 +128,7 @@
       "C": "৯০",
       "D": "৯২"
     },
-    "answer": "",
+    "answer": "তথ্য প্রয়োজন",
     "explanation": ""
   },
   {
@@ -164,8 +164,8 @@
       "C": "২২৫",
       "D": "১৯৬"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "105",
+    "explanation": "15C2 = 105।"
   },
   {
     "id": 15,
@@ -224,8 +224,8 @@
       "C": "২২",
       "D": "২৪"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "17",
+    "explanation": "ধারাবাহিক ৫টির মধ্যবর্তী=15, তাই সংখ্যাগুলো 13,14,15,16,17 → বড়=17।"
   },
   {
     "id": 20,
@@ -344,8 +344,8 @@
       "C": "ডেকার্ট",
       "D": "প্লেটো"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Plato",
+    "explanation": "প্লেটোর বিখ্যাত রিপাবলিক।"
   },
   {
     "id": 30,
@@ -368,7 +368,7 @@
       "C": "He climed the tree like a cat",
       "D": "Like minded people are necessary to start a business"
     },
-    "answer": "",
+    "answer": "অপশন প্রয়োজন (যে বাক্যে like অর্থ 'similar to')",
     "explanation": ""
   },
   {
@@ -392,8 +392,8 @@
       "C": "adjective phrase",
       "D": "adverbial phrase"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Gerund (writing = gerund)",
+    "explanation": "writing এখানে noun হিসেবে কাজ করছে।"
   },
   {
     "id": 34,
@@ -440,8 +440,8 @@
       "C": "reveal a secret carelessly",
       "D": "take a pre-caucious steps"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "to reveal a secret",
+    "explanation": "গোপন কথা ফাঁস করা।"
   },
   {
     "id": 38,
@@ -488,8 +488,8 @@
       "C": "A man who is corrupt cannot win the respect of others.",
       "D": "A man who can win the respect of others cannot be corrupt."
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "A man who is corrupt cannot win the election.",
+    "explanation": "adjective clause যোগে complex sentence।"
   },
   {
     "id": 42,
@@ -584,7 +584,7 @@
       "C": "He has told me that I would go but you would stay here in Dhaka.",
       "D": "He has told me that he would go but I would stay here in Dhaka."
     },
-    "answer": "",
+    "answer": "অপশন প্রয়োজন",
     "explanation": ""
   },
   {
@@ -788,8 +788,8 @@
       "C": "৩টি",
       "D": "৪টি"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "২টি (ঐ, ঔ)",
+    "explanation": "মৌলিক স্বর ৭টি, যৌগিক ২টি (ঐ, ঔ)।"
   },
   {
     "id": 67,
@@ -860,8 +860,8 @@
       "C": "নিত্য",
       "D": "উপপদ তৎপুরুষ"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "তৎপুরুষ সমাস (অধিকরণ তৎপুরুষ)",
+    "explanation": "নীল যে করে → নীলকর।"
   },
   {
     "id": 73,
@@ -932,8 +932,8 @@
       "C": "বাউল",
       "D": "সহজঘানী বৌদ্ধ"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "বৌদ্ধ সহজিয়া সিদ্ধাচার্য",
+    "explanation": "চর্যার কবিরা বৌদ্ধ সহজিয়া ছিলেন।"
   },
   {
     "id": 79,
@@ -1256,8 +1256,8 @@
       "C": "4 টি",
       "D": "5 টি"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "৪টি (মহাকর্ষ, তড়িৎচুম্বক, সবল নিউক্লীয়, দুর্বল নিউক্লীয়)",
+    "explanation": "Fundamental forces-এর সংখ্যা ৪।"
   },
   {
     "id": 106,
@@ -1352,7 +1352,7 @@
       "C": "Size of Cache Memory",
       "D": "Size of Register"
     },
-    "answer": "",
+    "answer": "অপশন প্রয়োজন (যেমন স্পিকার বা কেসিং)",
     "explanation": ""
   },
   {
@@ -1412,8 +1412,8 @@
       "C": "Encryption",
       "D": "Firewall"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Firewall",
+    "explanation": "ফায়ারওয়াল নেটওয়ার্ক নিরাপত্তা দেয়।"
   },
   {
     "id": 119,
@@ -1676,8 +1676,8 @@
       "C": "কিয়াটো প্রটোকল",
       "D": "প্যারিস চুক্তি"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Cartagena Protocol on Biosafety",
+    "explanation": "জৈব নিরাপত্তা বিষয়ক কার্টাজেনা প্রটোকল।"
   },
   {
     "id": 141,
@@ -1784,8 +1784,8 @@
       "C": "ওজোনস্তর ক্ষয় নিয়ন্ত্রণ বিষয়ক",
       "D": "মরুকরণ প্রক্রিয়া বিষয়ক"
     },
-    "answer": "",
-    "explanation": ""
+    "answer": "Global Stocktake, fossil fuel phase-out, loss and damage fund",
+    "explanation": "COP28-এ জীবাশ্ম জ্বালানি থেকে উত্তরণ ও বৈশ্বিক মূল্যায়ন ছিল।"
   },
   {
     "id": 150,
