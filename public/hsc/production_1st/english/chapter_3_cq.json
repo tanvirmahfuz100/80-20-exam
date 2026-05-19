@@ -2,69 +2,84 @@
   {
     "_type": "creative_question",
     "id": "hsc_prod1_cq_15",
-    "stem": "After finishing his job abroad, Badsha Mia returned to the country. Using his experience, he established a steel factory with an investment of Tk 100 crore and employed 500 workers. His factory has started production at the optimum level.",
+    "stem": "After finishing his job abroad, Badsha Mia returned to the country. Using his experience, he invested Tk 10 crore to establish 'Jhilik Fashion', a ready-made garments factory in Ashulia. His factory employs 90 workers. The garments are delivered to specific shops through their own transportation. Since the garments are of high quality and sold at relatively low prices, he has achieved business success in a short time.",
     "stem_label": "Read the stimulus and answer the following questions",
     "questions": [
       {
         "label": "ক",
         "question": "What is scale of production?",
-        "model_answer": "একটি শিল্পপ্রতিষ্ঠানে সব সুযোগ-সুবিধা ব্যবহার করে যে পরিমাণ দ্রব্য বা সেবা উৎপাদন করা হয় তাকে উৎপাদনের মাত্রা বলে।"
+        "model_answer": "The amount of goods or services produced in an industrial establishment using all available facilities is called the scale of production."
       },
       {
         "label": "খ",
         "question": "\"Optimum scale of production yields maximum profit\" — Explain.",
-        "model_answer": "কাম্য উৎপাদন মাত্রা হলো উৎপাদনের এমন একটি স্তর যেখানে সর্বনিম্ন ব্যয়ে সর্বোচ্চ পরিমাণ পণ্য উৎপাদন করা যায়। এক্ষেত্রে এককপ্রতি পণ্য উৎপাদন ব্যয় সবচেয়ে কম হয়। তাছাড়া কম খরচে পণ্য উৎপাদিত হওয়ায় এর মূল্যও কম নির্ধারণ করা যায়। এতে ক্রেতারা কম মূল্যে পণ্য কিনতে পারে। ফলে পণ্যের বিক্রি এবং প্রতিষ্ঠানের মুনাফা অর্জনের সম্ভাবনা বাড়ে। তাই কাম্য উৎপাদন মাত্রায় সর্বোচ্চ মুনাফা অর্জন সম্ভব হয়।"
+        "model_answer": "Optimum scale of production is a level where maximum output can be produced at minimum cost. At this level, the per-unit production cost is the lowest. Moreover, since products are produced at low cost, their prices can also be kept low. Customers can buy products at lower prices. As a result, product sales and the organization's profit-making potential increase. Therefore, maximum profit can be achieved at the optimum scale of production."
       },
       {
         "label": "গ",
-        "question": "What type of industry is Badsha Mia's factory? Explain.",
-        "model_answer": "মাত্রা বিবেচনায় বাদশা মিয়ার প্রতিষ্ঠানটি হলো একটি ক্ষুদ্র শিল্প। বাংলাদেশে প্রচলিত শিল্পনীতি ২০১৬ অনুযায়ী, ক্ষুদ্র শিল্পের ক্ষেত্রে ভূমি, দালানকোঠা ও অন্যান্য স্থায়ী সম্পত্তির মূল্য ছাড়া মূলধন ৭৫ লক্ষ থেকে ১৫ কোটি টাকা হয়। এছাড়া শ্রমিক সংখ্যা ৩১ থেকে ১২০-এর মধ্যে সীমাবদ্ধ থাকে। বাদশা মিয়া দশ কোটি টাকা বিনিয়োগ করে 'ঝিলিক ফ্যাশন' স্থাপন করেন। তার প্রতিষ্ঠানে ৯০ জন শ্রমিক কাজ করে। মূলধন ও শ্রমিকসংখ্যা বিবেচনায় ক্ষুদ্র শিল্পের সব বৈশিষ্ট্য প্রতিষ্ঠানটির আছে। তাই 'ঝিলিক ফ্যাশন'কে ক্ষুদ্র শিল্প বলা যায়।"
+        "question": "What type of industry is Badsha Mia's factory in terms of scale? Explain.",
+        "model_answer": "In terms of scale, Badsha Mia's factory is a small industry. According to the Industrial Policy 2016 of Bangladesh, for small industries in the manufacturing sector, the capital (excluding land, buildings, and other fixed assets) is between Tk 75 lakh and Tk 15 crore, and the number of workers is between 31 and 120. Badsha Mia invested Tk 10 crore to establish 'Jhilik Fashion' and employs 90 workers. Considering both capital and number of workers, the factory possesses all the characteristics of a small industry. Therefore, 'Jhilik Fashion' can be called a small industry."
       },
       {
         "label": "ঘ",
-        "question": "\"The scale of production used in this factory has both economies and diseconomies\" — Analyze.",
-        "model_answer": "মানসম্মত পণ্য, কম পণ্যমূল্য এবং সঠিক সরবরাহ ব্যবস্থাই 'ঝিলিক ফ্যাশন'-এর সফলতার মূল কারণ। ক্রেতারা সবসময় মানসম্মত পণ্য ন্যায্যমূল্যে কিনতে আগ্রহী হয়। তাছাড়া পণ্য ক্রেতাদের দোরগোড়ায় পৌঁছে দিলে তাদের সময় ও পরিবহন ব্যয় কমে যায়, যা তাদের সন্তুষ্ট করে। বাদশা মিয়ার উৎপাদিত পোশাক দোকানগুলোতে পৌঁছে দেওয়ায় ক্রেতাদের পরিবহন ব্যয় কমেছে। আবার পণ্য মানসম্মত হওয়ায় দোকানগুলো আগ্রহের সাথে এসব পণ্য কিনছে। এর পাশাপাশি পণ্য মূল্য কম হওয়ায় অতিরিক্ত চাহিদা সৃষ্টি হয়েছে। তাই বলা যায়, সঠিক সরবরাহ ব্যবস্থা, উন্নত মানের পণ্য, কম মূল্য ইত্যাদি 'ঝিলিক ফ্যাশন'-এর সফলতার মূল কারণ।"
+        "question": "Analyze the main reasons for the success of the establishment mentioned in the stimulus.",
+        "model_answer": "Quality products, low prices, and proper supply management are the main reasons for 'Jhilik Fashion's' success. Customers always want to buy quality products at fair prices. Moreover, delivering products to customers' doorsteps saves their time and transportation costs, which satisfies them. Since Badsha Mia delivers garments to shops directly, customers' transportation costs have decreased. Again, because the products are of good quality, shops are eager to buy these products. Additionally, due to low prices, excess demand has been created. Therefore, it can be said that proper supply management, quality products, and low prices are the main reasons for 'Jhilik Fashion's' success."
       }
     ]
   },
   {
     "_type": "creative_question",
     "id": "hsc_prod1_cq_16",
-    "stem": "Mr. Enamul established 'Santona Diagnostic' at a cost of Tk 50 lakh. In this center, there are 15 employees including 2 doctors. He provides various health services including pathological tests at low cost compared to the market. Although his establishment is small, he is able to maintain quality.",
+    "stem": "Mr. Enamul established 'Santona Diagnostic', a 5-story diagnostic center, at a cost of Tk 50 lakh. He purchased Tk 1 crore worth of diagnostic equipment. He employed 25 people including officers, nurses, and technicians. Due to increasing patient demand, he decided to expand the center. Mr. Enamul believes that if the number of patients increases, he will be able to reduce diagnostic fees.",
     "stem_label": "Read the stimulus and answer the following questions",
     "questions": [
       {
         "label": "ক",
         "question": "What is scale of production?",
-        "model_answer": "একটি প্রতিষ্ঠানে সব সুযোগ-সুবিধা ব্যবহার করে যে পরিমাণ দ্রব্য বা সেবা উৎপাদন করা যায় তার পরিমাণকে উৎপাদন মাত্রা বলে।"
+        "model_answer": "The amount of goods or services that can be produced in an establishment using all available facilities is called the scale of production."
       },
       {
         "label": "খ",
         "question": "\"Optimum scale of production yields maximum profit\" — Explain.",
-        "model_answer": "কাম্য উৎপাদন মাত্রা হলো উৎপাদনের এমন একটি স্তর, যেখানে সর্বনিম্ন ব্যয়ে সর্বোচ্চ পরিমাণ পণ্য উৎপাদিত হয়। কাম্য উৎপাদন মাত্রায় উৎপাদন বাড়লে এককপ্রতি গড় ব্যয় কমে যায়। তাছাড়া কম খরচে পণ্য উৎপাদন হওয়ায় পণ্যের মূল্যও কম নির্ধারিত হয়। এতে ক্রেতারা কম মূল্যে পণ্য কিনতে পারে। ফলে প্রতিষ্ঠানের বিক্রি ও মুনাফা বেড়ে যায়। সুতরাং, কাম্য উৎপাদন মাত্রায় সর্বোচ্চ মুনাফা অর্জন সম্ভব।"
+        "model_answer": "Optimum scale of production is a level where maximum output is produced at minimum cost. At the optimum scale, as production increases, the average per-unit cost decreases. Moreover, since products are produced at low cost, their prices can also be set low. Customers can buy products at lower prices, which increases the organization's sales and profits. Therefore, maximum profit can be achieved at the optimum scale of production."
       },
       {
         "label": "গ",
-        "question": "What type of industry is Mr. Enamul's 'Santona Diagnostic'? Explain.",
-        "model_answer": "জনাব এনামুলের রোগী বাড়লে নিরীক্ষা ফিস কমানোর চিন্তা-ভাবনাটি যুক্তিসঙ্গত বলে আমি মনে করি। সেবাধর্মী প্রতিষ্ঠানে গ্রাহক সংখ্যা বাড়লে সেবা দেওয়ার খরচ কমতে থাকে। বিষয়টি মিতব্যয়ী উৎপাদন মাত্রার সাথে সামঞ্জস্যপূর্ণ। এক্ষেত্রে উৎপাদনের পরিমাণ বাড়লে এককপ্রতি ব্যয় কমতে থাকে। জনাব এনামুলের ডায়াগনস্টিক সেন্টারে গ্রাহক বাড়ার সাথে সাথে মোট স্থায়ী ব্যয় গ্রাহকপ্রতি ভাগ হয়ে যাবে। এতে একক প্রতি ব্যয় কম হবে। আর একক প্রতি খরচ কমে গেলে এনামুলও রোগীদের জন্য ফিস কমাতে সক্ষম হবেন। এতে ভবিষ্যতে গ্রাহক সংখ্যা আরও বাড়তে পারে। তাই, মিতব্যয়ী উৎপাদন মাত্রার আলোকে জনাব এনামুলের চিন্তা-ভাবনাটি যুক্তিসঙ্গত।\n---"
+        "question": "What type of establishment is Mr. Enamul's diagnostic center in terms of scale? Explain.",
+        "model_answer": "Mr. Enamul's diagnostic center is a small-scale service industry. For such service industries, the capital ranges from Tk 10 lakh to Tk 2 crore and the number of workers is between 16 and 50. Mr. Enamul spent Tk 50 lakh to establish the center, purchased Tk 1 crore worth of equipment, and employed 25 workers. Since his capital is under Tk 2 crore and the number of workers is between 16 and 50, it is a small-scale service industry."
+      },
+      {
+        "label": "ঘ",
+        "question": "Is Mr. Enamul's idea of reducing diagnostic fees if patient numbers increase reasonable? Analyze.",
+        "model_answer": "I believe Mr. Enamul's idea of reducing diagnostic fees if patient numbers increase is reasonable. In service-oriented establishments, when the number of customers increases, the cost of providing service decreases. This is consistent with the concept of economies of scale. In this case, as the scale of operation increases, the per-unit cost decreases. With more patients at Mr. Enamul's diagnostic center, the total fixed cost will be divided among more patients, reducing per-unit cost. Once per-unit cost decreases, Enamul will be able to reduce fees for patients. This may attract even more patients in the future. Therefore, in light of economies of scale, Mr. Enamul's thinking is reasonable."
       }
     ]
   },
   {
     "_type": "creative_question",
     "id": "hsc_prod1_cq_17",
-    "stem": "Mr. Rahim operates a garments factory named 'Rahim Fashion'. There are 30 workers in his factory. His invested capital is Tk 5 crore. He is now thinking of expanding the scale of his business.",
+    "stem": "Mr. Rahim operates a garments factory named 'Rahim Fashion'. Although he started on a limited scale, he now runs his factory in 3 rented five-story buildings. He has invested Tk 51 crore including bank loans. His factory employs a total of 400 workers. Due to large-scale production and marketing, he is making good profits. He plans to expand further by renting 2 more buildings in the future.",
     "stem_label": "Read the stimulus and answer the following questions",
     "questions": [
       {
         "label": "ক",
         "question": "What is a small industry (in terms of manufacturing enterprises)?",
-        "model_answer": "ব্যক্তিগত তত্ত্বাবধানের দিক দিয়ে ক্ষুদ্র শিল্প এবং বৃহদায়তন শিল্পের মধ্যে ব্যাপক পার্থক্য বিদ্যমান। ক্ষুদ্র শিল্পের ক্ষেত্রে প্রতিষ্ঠানের মালিক ব্যবস্থাপনার ক্ষেত্রে স্বাধীনতা ভোগ করতে পারেন, বৃহদায়তন প্রতিষ্ঠানের মালিকরা তেমন স্বাধীনতা ভোগ করতে পারেন না। এছাড়া ক্ষুদ্র শিল্পে শ্রমিক সংখ্যা অপেক্ষাকৃত কম হওয়ায় মালিক এ ধরনের ব্যবসায় সহজে নিয়ন্ত্রণ করতে পারলেও বৃহদায়তন প্রতিষ্ঠানের মালিকরা তা পারেন না।"
+        "model_answer": "For manufacturing industries, if the value of fixed assets (excluding land and factory buildings) is between Tk 75 lakh and Tk 15 crore and the number of workers is between 31 and 120, it is called a small industry."
       },
       {
         "label": "খ",
-        "question": "From the perspective of size, what type of industry is 'Rahim Fashion' mentioned in the stimulus? Explain.",
-        "model_answer": "'বৃহদায়তন উৎপাদন ব্যয় কমাতে সহায়তা করে' উক্তিটি যথাযথ বলে আমি মনে করি। উৎপাদনের পরিমাণ বাড়ানোর ফলে পণ্য বা সেবার এককপ্রতি উৎপাদন ব্যয় কমতে থাকে। কেননা উৎপাদন বাড়লে স্থায়ী ব্যয় এককপ্রতি ব্যয়ে ভাগ হয়ে যায়। এতে করে প্রতি এককের গড় ব্যয় কমে যায় এবং এককপ্রতি পরিবর্তনশীল ব্যয় স্থির থাকে। জনাব রহিমের প্রতিষ্ঠানটি বৃহদায়তন হওয়ায় বেশি পরিমাণ উৎপাদন করতে সক্ষম। আর বেশি পরিমাণ উৎপাদনের ফলে প্রতিষ্ঠানটির উৎপাদন ব্যয়ও কমতে থাকে। উৎপাদনের পরিমাণ বাড়ার সাথে সাথে এককপ্রতি স্থায়ী ব্যয়ও কমতে থাকে। সুতরাং বলা যায়, বৃহদায়তন উৎপাদন একদিকে যেমন ব্যয় কমাতে সাহায্য করে, তেমনি মুনাফা বাড়তেও ভূমিকা রাখে।\n---\n## অনুশীলনী"
+        "question": "Explain the differences between small industry and large industry based on personal supervision.",
+        "model_answer": "Based on personal supervision, there are significant differences between small and large industries. In small industries, the owner can enjoy independence in management, whereas owners of large industries cannot enjoy such independence. Additionally, since the number of workers is relatively small in small industries, the owner can easily control the business, but owners of large industries cannot do so."
+      },
+      {
+        "label": "গ",
+        "question": "From the perspective of size, what type of establishment is 'Rahim Fashion' mentioned in the stimulus? Explain.",
+        "model_answer": "'Rahim Fashion' mentioned in the stimulus is a large-scale establishment in terms of size. According to the Industrial Policy 2016 of Bangladesh, in the manufacturing sector, large industries are those where the replacement cost of fixed assets (excluding land and factory buildings) exceeds Tk 50 crore or where more than 300 workers are employed. Mr. Rahim has invested Tk 51 crore and employs 400 workers. Therefore, 'Rahim Fashion' is a large-scale establishment."
+      },
+      {
+        "label": "ঘ",
+        "question": "'Large-scale production helps reduce costs' — Do you agree with this statement? Discuss with reasons.",
+        "model_answer": "I believe the statement 'Large-scale production helps reduce costs' is appropriate. As the volume of production increases, the per-unit production cost of goods or services decreases. This is because when production increases, the fixed cost is spread over more units, reducing the average cost per unit while the per-unit variable cost remains constant. Since Mr. Rahim's establishment is large-scale, it is capable of producing more. As production increases, the establishment's production cost decreases. As the production volume increases, the per-unit fixed cost also decreases. Therefore, it can be said that large-scale production not only helps reduce costs but also plays a role in increasing profits."
       }
     ]
   }

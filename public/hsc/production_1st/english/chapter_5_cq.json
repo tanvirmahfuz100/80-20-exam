@@ -14,6 +14,16 @@
         "label": "খ",
         "question": "Describe the role of producing quality products in increasing sales.",
         "model_answer": ""
+      },
+      {
+        "label": "গ",
+        "question": "Which concept of production management does the company's product development indicate? Explain.",
+        "model_answer": ""
+      },
+      {
+        "label": "ঘ",
+        "question": "\"Through proper application of production management, the company can produce products at low cost.\" Do you agree? Give arguments in favor.",
+        "model_answer": ""
       }
     ]
   },
@@ -64,6 +74,11 @@
       {
         "label": "গ",
         "question": "Which functions of production management are reflected in Mr. Hasan's activities? Explain.",
+        "model_answer": ""
+      },
+      {
+        "label": "ঘ",
+        "question": "Evaluate the effectiveness of Mr. Hasan's approach to production management.",
         "model_answer": ""
       }
     ]
