@@ -1,0 +1,66 @@
+[
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_12",
+    "stem": "One day a teacher was discussing factors of production in class. He mentioned two such factors: the first has limited supply and is indestructible, and the second is perishable and cannot be stored. He said, although the second factor is abundantly available in Bangladesh, many developed countries face a shortage of it. Even though Bangladesh exports this factor abroad, the government should be more proactive in its export.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is labor mobility?",
+        "model_answer": ""
+      },
+      {
+        "label": "খ",
+        "question": "\"Organization helps achieve objectives\" — Explain.",
+        "model_answer": ""
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_13",
+    "stem": "Mrs. Lucky established a mango juice factory in Natore. She bought a state-of-the-art juice-making machine from Japan for Tk 2 lakh. According to the machine's production capacity, she hired 250 workers. As a result, her organization's success is increasing day by day.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is land?",
+        "model_answer": ""
+      },
+      {
+        "label": "খ",
+        "question": "\"Labor is perishable\" — Explain.",
+        "model_answer": ""
+      },
+      {
+        "label": "গ",
+        "question": "Identify the factor of production that Mrs. Lucky invested the most capital in. Explain.",
+        "model_answer": ""
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_14",
+    "stem": "Mr. Jamil works as a supervisor in a garments factory named 'Zex Fashion'. He works hard and has gained experience over time. As a result, he was promoted from supervisor to senior supervisor. Meanwhile, another person from the same organization left and joined a different organization.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is capital?",
+        "model_answer": ""
+      },
+      {
+        "label": "খ",
+        "question": "\"Land is indestructible\" — Explain.",
+        "model_answer": ""
+      },
+      {
+        "label": "গ",
+        "question": "Mr. Jamil's promotion is which type of labor mobility? Explain.",
+        "model_answer": ""
+      }
+    ]
+  }
+]

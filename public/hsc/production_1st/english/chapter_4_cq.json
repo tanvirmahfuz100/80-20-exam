@@ -1,0 +1,121 @@
+[
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_18",
+    "stem": "The following information about two countries 'A' and 'B' is presented below —\n\n| Information | Country A | Country B |\n|---|---|---|\n| Consumption expenditure | 200 crore | 800 crore |\n| Investment expenditure | 50 crore | 200 crore |\n| Government expenditure | 30 crore | 100 crore |\n| Net export | 20 crore | 100 crore |\n| Depreciation | 10 crore | 40 crore |\n| Population | 5 crore | 10 crore |",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is Net National Income?",
+        "model_answer": ""
+      },
+      {
+        "label": "খ",
+        "question": "\"Disposable income is related to standard of living\" — Explain.",
+        "model_answer": ""
+      },
+      {
+        "label": "গ",
+        "question": "Calculate the GDP of Country A using the expenditure method.",
+        "model_answer": ""
+      },
+      {
+        "label": "ঘ",
+        "question": "\"Country B is more economically developed than Country A\" — Analyze.",
+        "model_answer": ""
+      },
+      {
+        "label": "5",
+        "question": "The aggregate income from all sectors including personal, business, and government is called Net National Income. **Kh.** To determine disposable income, first the national income needs to be known. Then from that income, all taxes, undistributed business profits, and capital depreciation costs are deducted, and transfer payments are added. From this income, people spend on consumption and save. A higher amount of this income means a higher standard of living for the people. Therefore, it can be said that disposable income is related to standard of living.",
+        "model_answer": ""
+      },
+      {
+        "label": "6",
+        "question": "We know, ``` GNP = C + I + G + (X - M) ``` For Country 'A': - C = 3,000 crore USD, I = 3,000 crore USD, G = 2,000 crore USD - X = 3,000 crore USD, M = 2,000 crore USD ``` ∴ GNP = {3,000 + 3,000 + 2,000 + (3,000 - 2,000)} crore USD = 9,000 crore USD ``` ∴ Gross National Product of Country 'A' is 9,000 crore USD.",
+        "model_answer": ""
+      },
+      {
+        "label": "7",
+        "question": "``` Per capita income = Total national income / Total population ``` National income of Country 'A' = (9,000 - 400) = 8,600 crore USD ∴ Per capita income of Country 'A' = 8,600 / 2 = 4,300 USD Gross National Product of Country 'B' = 2,000 + 2,500 + 1,500 + (2,500 - 1,200) = 7,300 crore USD National income of Country 'B' = 7,300 - 300 = 7,000 crore USD ∴ Per capita income of Country 'B' = 7,000 / 2 = 3,500 USD Per capita income of Country 'A' (4,300 USD) > Country 'B' (3,500 USD). Therefore, the standard of living of the people of Country 'A' is higher.",
+        "model_answer": ""
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_19",
+    "stem": "In Country 'X', the national income for the fiscal year 2017-2018 was Tk 2,00,000 crore. Depreciation was Tk 20,000 crore. Indirect tax was Tk 12,000 crore, subsidy was Tk 2,000 crore, and transfer payments were Tk 3,000 crore. The population of the country was 15 crore. In the fiscal year 2018-2019, the national income increased to Tk 2,25,000 crore, and the population increased to 16 crore.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is transfer payment?",
+        "model_answer": ""
+      },
+      {
+        "label": "খ",
+        "question": "How is disposable income calculated? Explain.",
+        "model_answer": ""
+      },
+      {
+        "label": "গ",
+        "question": "Calculate the per capita income of Country X for the fiscal year 2017-2018.",
+        "model_answer": ""
+      },
+      {
+        "label": "ঘ",
+        "question": "Compare the economic condition of Country X between the two fiscal years based on per capita income.",
+        "model_answer": ""
+      },
+      {
+        "label": "5",
+        "question": "``` GDP = C + I + G = (10,000 + 4,000 + 4,000) crore Taka = 18,000 crore Taka ```",
+        "model_answer": ""
+      },
+      {
+        "label": "6",
+        "question": "``` Per capita income of Country X = 2,00,000 crore / 40 crore = 5,000 Taka Per capita income of Country Y = 10,000 Taka ``` Per capita income of Country Y is higher. That is, the economic condition of Country Y is better compared to Country X.",
+        "model_answer": ""
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_20",
+    "stem": "In the fiscal year 2018-19, Country A's total consumption expenditure was Tk 900 crore, total investment expenditure was Tk 300 crore, government expenditure was Tk 250 crore, export was Tk 150 crore, and import was Tk 100 crore. Depreciation was Tk 30 crore and indirect tax-subsidy was Tk 20 crore.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is the full form of NNP?",
+        "model_answer": ""
+      },
+      {
+        "label": "খ",
+        "question": "How is GDP calculated? Explain.",
+        "model_answer": ""
+      },
+      {
+        "label": "গ",
+        "question": "Calculate the GDP of Country A.",
+        "model_answer": ""
+      },
+      {
+        "label": "ঘ",
+        "question": "\"For Country A, the difference between GNP and GDP is not significant\" — Analyze.",
+        "model_answer": ""
+      },
+      {
+        "label": "5",
+        "question": "The full form of NNP is Net National Product. **Kh.** In measuring GDP, the goods and services produced within the borders of a country are determined. This includes the production or income of all citizens, both domestic and foreign, working within the country.",
+        "model_answer": ""
+      },
+      {
+        "label": "6",
+        "question": "``` GNP = C + I + G + (X - M) = {900 + 300 + 350 + (200 - 280)} crore Taka = 1,470 crore Taka ``` **Gh.** The method of measuring the Gross Domestic Product of Country 'A' was not correct. Because this created the problem of double counting. Here, the production of rice and wheat, and the production of bread have been included separately. When farmers produced rice and wheat, flour mills made flour and dough from them. Bakeries later made bread. The same product has been valued twice. Only the final product, i.e., the amount of bread produced, should have been included.",
+        "model_answer": ""
+      }
+    ]
+  }
+]
