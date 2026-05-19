@@ -635,9 +635,15 @@
           "chapters": [
             {
               "id": "hsc_prod1_ch1",
-              "name": "Chapter 1 Questions",
+              "name": "Chapter 1 MCQ",
               "file_bn": "/hsc/production_1st/chapter_1.json",
               "file_en": "/hsc/production_1st/english/chapter_1.json"
+            },
+            {
+              "id": "hsc_prod1_ch1_cq",
+              "name": "Chapter 1 CQ (সৃজনশীল প্রশ্ন)",
+              "file_bn": "/hsc/production_1st/chapter_1_cq.json",
+              "file_en": "/hsc/production_1st/english/chapter_1_cq.json"
             }
           ],
           "name_bn": "অধ্যায় 1: উৎপাদন",

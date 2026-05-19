@@ -1,0 +1,506 @@
+[
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_1",
+    "stem": "Mr. Mahbub is the owner of 'Bishwash Company'. He brings mangoes from Rajshahi to Dhaka by truck and stores them initially in a modern warehouse at Karwan Bazar. When mangoes are completely unavailable in the market, he decides to supply the stored mangoes to earn profit.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is utility?",
+        "options": {
+          "A": "The ability to produce goods",
+          "B": "The capacity of a commodity to satisfy human wants",
+          "C": "The ability to sell products",
+          "D": "The capacity to store goods"
+        },
+        "answer": "B",
+        "explanation": "According to Prof. Mayers, \"Utility is the quality or capacity of a goods which enables it to satisfy human wants.\" In simple terms, utility refers to the want-satisfying power of a commodity."
+      },
+      {
+        "label": "b",
+        "question": "What type of utility is created by bringing mangoes from Rajshahi to Dhaka? Explain.",
+        "options": {
+          "A": "Form utility — because the shape of mangoes has changed",
+          "B": "Time utility — because mangoes reached at a specific time",
+          "C": "Place utility — because goods are transferred from one place to another",
+          "D": "Possession utility — because ownership has changed"
+        },
+        "answer": "C",
+        "explanation": "Place utility is created by moving goods from one place to another to satisfy wants. By bringing mangoes from Rajshahi to Dhaka, consumers in distant areas get the opportunity to consume mangoes, which is place utility."
+      },
+      {
+        "label": "c",
+        "question": "Storage enables consumers to enjoy mangoes for a long time — analyze in light of the stimulus.",
+        "options": {
+          "A": "This is form utility — because the quality of mangoes is preserved",
+          "B": "This is time utility — because products of one time are preserved for consumption at another time",
+          "C": "This is place utility — because mangoes are transferred to storage",
+          "D": "This is service utility — because storage is a service"
+        },
+        "answer": "B",
+        "explanation": "Time utility means having a product available when you want it. By preserving mangoes in storage and supplying them when mangoes are not available in the market, consumers can enjoy mangoes for a longer period."
+      },
+      {
+        "label": "d",
+        "question": "What other types of utility are created in the businessman's activities described in the stimulus? Evaluate.",
+        "options": {
+          "A": "Only form utility is created",
+          "B": "Only time and place utility are created",
+          "C": "Three types of utility — place, time and possession utility are created",
+          "D": "Only service and information utility are created"
+        },
+        "answer": "C",
+        "explanation": "Three types of utility are created: (1) Place utility through transportation from Rajshahi to Dhaka, (2) Time utility through warehousing and storage, (3) Possession utility through the change of ownership when mangoes are bought and sold."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_2",
+    "stem": "Mr. Iqbal makes bread and sells it in the market. Besides, he produces various vegetables, pulses and corn and supplies them to the market. On the other hand, Mr. Hasan establishes a separate hospital to ensure healthcare services. Free treatment is provided to helpless patients there.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is meant by the agricultural sector of production?",
+        "options": {
+          "A": "The sector that uses machinery to produce goods",
+          "B": "The service-oriented sector",
+          "C": "The sector involved in producing agricultural products like rice, wheat, vegetables, fruits etc.",
+          "D": "The sector related to factory production"
+        },
+        "answer": "C",
+        "explanation": "Agriculture is the oldest sector of production. The sector involved in producing agricultural products such as rice, wheat, pulses, corn, vegetables, cotton, jute etc. is called the agricultural sector. Fisheries and livestock are sub-sectors of agriculture."
+      },
+      {
+        "label": "b",
+        "question": "Under which sector of production does Mr. Iqbal's bread-making activity fall? Explain.",
+        "options": {
+          "A": "Agricultural sector — because bread is made from wheat",
+          "B": "Service sector — because selling bread is a service",
+          "C": "Industrial sector — because form utility is created from raw materials using technology and machinery",
+          "D": "Commercial sector — because bread is sold in the market"
+        },
+        "answer": "C",
+        "explanation": "The sector associated with creating form utility from raw materials and other inputs using technology and machinery is called the industrial sector. Making bread from flour is a processing activity that falls under the industrial sector."
+      },
+      {
+        "label": "c",
+        "question": "Under which sector does Mr. Hasan's hospital belong? Analyze.",
+        "options": {
+          "A": "Industrial sector — because a hospital is an institution",
+          "B": "Agricultural sector — because healthcare is part of agriculture",
+          "C": "Construction sector — because the hospital building was constructed",
+          "D": "Service sector — because it satisfies human needs by providing medical services"
+        },
+        "answer": "D",
+        "explanation": "The service sector works to fulfill not only basic needs but also expectations for a comfortable life. A hospital provides medical services to satisfy people's healthcare needs, which falls under the service sector."
+      },
+      {
+        "label": "d",
+        "question": "Both Mr. Iqbal and Mr. Hasan's activities play important roles in the country's economy — analyze.",
+        "options": {
+          "A": "Only Mr. Iqbal's activities contribute to the economy because he produces goods",
+          "B": "Only Mr. Hasan's activities contribute to the economy because he provides free service",
+          "C": "Both activities are important — Iqbal contributes to production and supply of goods, Hasan contributes to human resource development",
+          "D": "Neither activity is important for the economy"
+        },
+        "answer": "C",
+        "explanation": "Mr. Iqbal contributes to GDP growth, employment and food supply by producing goods in agriculture and industry. Mr. Hasan's hospital contributes to human resource development and social welfare through healthcare services. Both activities are vital for economic development."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_3",
+    "stem": "In 2019, the value of products manufactured by 'K Limited' was Tk. 30,00,000. The cost of inputs used by the company was: Raw materials Tk. 5,00,000, Salaries and wages Tk. 2,60,000 and Others Tk. 1,40,000. On the other hand, in 2018, 'Kh Limited' had the same production volume but input costs were: Raw materials Tk. 5,70,000, Salaries Tk. 2,50,000 and Others Tk. 1,80,000.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is productivity?",
+        "options": {
+          "A": "The ratio of total production to total GDP",
+          "B": "The ratio of outputs (goods and services) divided by the inputs (resources)",
+          "C": "The ratio of selling price to cost price",
+          "D": "The ratio of total workers to total production"
+        },
+        "answer": "B",
+        "explanation": "According to Heizer and Render, \"Productivity is the ratio of outputs (goods and services) divided by the inputs (resources).\" In simple terms, productivity is the ratio of goods produced to the inputs used in production."
+      },
+      {
+        "label": "b",
+        "question": "Write the formula for overall productivity.",
+        "options": {
+          "A": "Overall productivity = Total input cost / Total output value",
+          "B": "Overall productivity = Total output value × Total input cost",
+          "C": "Overall productivity = Total output value / Total input cost",
+          "D": "Overall productivity = Total input cost — Total output value"
+        },
+        "answer": "C",
+        "explanation": "Overall (Total) Productivity = Total Value of Output / Total Value of Input. It is also known as total productivity."
+      },
+      {
+        "label": "c",
+        "question": "What was the overall productivity of 'K Limited' in 2019?",
+        "options": {
+          "A": "2.50",
+          "B": "3.00",
+          "C": "3.33",
+          "D": "4.00"
+        },
+        "answer": "C",
+        "explanation": "Overall productivity of 'K Limited' = 30,00,000 / (5,00,000 + 2,60,000 + 1,40,000) = 30,00,000 / 9,00,000 = 3.33 (approx)."
+      },
+      {
+        "label": "d",
+        "question": "Based on 2018 and 2019 data, which company is in a more favorable position? Analyze.",
+        "options": {
+          "A": "'Kh Limited' is in a favorable position because their input cost is lower",
+          "B": "'K Limited' is in a favorable position because their overall productivity (3.33) is higher than 'Kh Limited' (3.00)",
+          "C": "Both companies are in the same favorable position",
+          "D": "Neither is in a favorable position because productivity is below 5"
+        },
+        "answer": "B",
+        "explanation": "Overall productivity of 'Kh Limited' = 30,00,000 / (5,70,000 + 2,50,000 + 1,80,000) = 30,00,000 / 10,00,000 = 3.00. Since 'K Limited's productivity (3.33) is higher than 'Kh Limited's (3.00), 'K Limited' is in a more favorable position as it produces the same output with lower input costs."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_4",
+    "stem": "Bangladesh is lush with greenery. To improve their standard of living and become economically prosperous, the people of this country produce their own necessary raw materials. With this goal, Mr. Foysal established a production-oriented enterprise. Through hard work and proper utilization of factors of production, he also increased the production capacity of the enterprise. As a result, profit increased along with business expansion.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "According to E. S. Buffa, what is production?",
+        "options": {
+          "A": "Production is a process of selling and distributing goods",
+          "B": "Production is a process by which goods and services are created",
+          "C": "Production is only about creating agricultural products",
+          "D": "Production is the process of discovering natural resources"
+        },
+        "answer": "B",
+        "explanation": "According to E. S. Buffa, \"Production is a process by which goods and services are created.\""
+      },
+      {
+        "label": "b",
+        "question": "How can the standard of living be improved? Describe in light of the stimulus.",
+        "options": {
+          "A": "By only storing goods",
+          "B": "Without using natural resources",
+          "C": "By creating new goods and services through production, increasing income and consumption levels",
+          "D": "By only increasing import dependency"
+        },
+        "answer": "C",
+        "explanation": "Production improves people's standard of living. New products add new dimensions to consumption. When people's income increases, their consumption and lifestyle improve positively. Production also creates employment opportunities."
+      },
+      {
+        "label": "c",
+        "question": "\"To increase production capacity, proper utilization of factors of production must be ensured\" — analyze the statement in light of the stimulus.",
+        "options": {
+          "A": "Only using capital can increase production capacity",
+          "B": "Proper combination and optimal use of land, labor, capital and organization can increase production capacity",
+          "C": "Only increasing the number of workers can increase production capacity",
+          "D": "Use of factors has no effect on production capacity"
+        },
+        "answer": "B",
+        "explanation": "The four main factors of production are land, labor, capital and organization. Proper combination and optimal use of these factors is essential for increasing production capacity. This includes proper planning, hiring skilled workers, using modern machinery and using raw materials correctly."
+      },
+      {
+        "label": "d",
+        "question": "What steps can be taken to increase the productivity of Mr. Foysal's enterprise? Evaluate.",
+        "options": {
+          "A": "Only purchasing machinery can increase productivity",
+          "B": "Only increasing worker salaries can increase productivity",
+          "C": "Efficient management, modern technology, quality raw materials, skilled human resources, good working environment and incentive systems can increase productivity",
+          "D": "No steps are needed to increase productivity"
+        },
+        "answer": "C",
+        "explanation": "To increase productivity, the following steps are necessary: efficient management, use of modern technology, quality raw materials, hiring and retaining skilled human resources, maintaining good relations, ensuring good working environment, proper layout, improved production process, research and development, and incentive systems."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_5",
+    "stem": "Suppose in 2018, the total production of 'Warsi Company' was 50,00,000 carpets. But in 2019, through technological improvement and increasing employee efficiency, the company produced 70,00,000 carpets.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "According to Norman Gaither and Greg Frazier, what is the definition of productivity?",
+        "options": {
+          "A": "Productivity is the amount of products or services produced with the resources used",
+          "B": "Productivity is the amount of sales",
+          "C": "Productivity is the ability to earn profit",
+          "D": "Productivity is the amount of work done by labor"
+        },
+        "answer": "A",
+        "explanation": "According to Norman Gaither and Greg Frazier, \"Productivity is amount of products or services produced with the resources used.\""
+      },
+      {
+        "label": "b",
+        "question": "Explain the reasons for the increase in productivity of 'Warsi Company'.",
+        "options": {
+          "A": "Only by reducing the number of employees",
+          "B": "Productivity increased due to technological improvement and increased employee efficiency",
+          "C": "Productivity increased due to increase in product price",
+          "D": "Productivity increased due to change in factory location"
+        },
+        "answer": "B",
+        "explanation": "The stimulus states that 'Warsi Company' increased production from 50,00,000 to 70,00,000 carpets through technological improvement and increased employee efficiency. Technology helps increase production and reduce costs. Skilled workers play an important role in increasing productivity."
+      },
+      {
+        "label": "c",
+        "question": "What are the advantages of increased productivity? Discuss.",
+        "options": {
+          "A": "Only product price increases",
+          "B": "Only profit decreases",
+          "C": "More production, higher quality products, reduced production cost, permanent customers and higher profits are possible",
+          "D": "There are no advantages of increased productivity"
+        },
+        "answer": "C",
+        "explanation": "The advantages of productivity include: (1) More production, (2) Higher quality products, (3) Reduced production cost, (4) Creating permanent customers, (5) Increasing employee efficiency, (6) Achieving more profit, (7) Using new technology, (8) Achieving economic growth."
+      },
+      {
+        "label": "d",
+        "question": "Differentiate between production and productivity.",
+        "options": {
+          "A": "Production and productivity are the same",
+          "B": "Production creates goods, productivity indicates efficiency; scope of production is broad, scope of productivity is relatively narrow; dynamism is low in production, dynamism is high in productivity",
+          "C": "Productivity creates goods, production indicates efficiency",
+          "D": "There is no difference between production and productivity"
+        },
+        "answer": "B",
+        "explanation": "Key differences: Production creates goods, productivity measures input-output ratio. Production creates form utility, productivity does not create any utility. Scope of production is broad, scope of productivity is relatively narrow. Dynamism is low in production, high in productivity. Increased production may not increase productivity, but increased productivity increases production."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_8",
+    "stem": "Mr. Rafiq is a furniture businessman in Dhaka. He collects quality wood produced in Chattogram and makes various designed furniture. Due to the quality and attractive design of his furniture, he has gained reputation in this business in a short time. Currently, his furniture is being supplied to consumers in different parts of the country. As a result, he is profiting from the business.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is production?",
+        "options": {
+          "A": "The process of selling products",
+          "B": "Creating utility and products using natural resources with human knowledge and intelligence",
+          "C": "The process of transporting products",
+          "D": "The process of storing products"
+        },
+        "answer": "B",
+        "explanation": "Production is the process of creating utility and products with the help of natural resources using human technical knowledge and intelligence."
+      },
+      {
+        "label": "b",
+        "question": "Productivity helps increase profit — explain.",
+        "options": {
+          "A": "When productivity increases, product quality decreases, so profit increases",
+          "B": "When productivity increases, per-unit production cost decreases, sales and profit increase",
+          "C": "Productivity has no effect on profit",
+          "D": "When productivity decreases, profit increases"
+        },
+        "answer": "B",
+        "explanation": "When productivity increases, more products can be produced using the same amount of resources. This reduces per-unit production cost. Due to lower product prices, both sales and profit increase."
+      },
+      {
+        "label": "c",
+        "question": "What type of utility is created through Mr. Rafiq's primary work? Explain.",
+        "options": {
+          "A": "Time utility — because he stores products",
+          "B": "Place utility — because he brings wood to Dhaka",
+          "C": "Form utility — because he changes the form and shape of wood to make furniture",
+          "D": "Service utility — because he serves customers"
+        },
+        "answer": "C",
+        "explanation": "Form utility is created through Mr. Rafiq's primary work. Changing the form or shape of natural resources to create usable products creates form utility. Mr. Rafiq collects wood as raw material and changes its form and shape to make furniture."
+      },
+      {
+        "label": "d",
+        "question": "\"Creation of place utility is the main reason for the success of the establishment in the stimulus\" — evaluate.",
+        "options": {
+          "A": "The statement is wrong, because form utility is the main reason for success",
+          "B": "The statement is correct, because he supplies furniture to different parts of the country, creating customers and increasing sales",
+          "C": "The statement is partially true, because time utility is more important",
+          "D": "The statement is completely wrong, because success does not come only from place utility"
+        },
+        "answer": "B",
+        "explanation": "The statement is correct. Place utility is created by transferring products from one place to another. Mr. Rafiq is supplying his furniture to different parts of the country, creating customers outside Dhaka and increasing sales."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_9",
+    "stem": "Mr. Mina started a business with an investment of Tk 25 lakh at BSCIC in Cumilla. He bought raw materials worth Tk 5 lakh, machinery worth Tk 15 lakh, factory rent Tk 2 lakh and other resources Tk 2 lakh, and produced thread and nets worth Tk 50 lakh. On the other hand, Mr. Hashem invested Tk 30 lakh and bought raw materials worth Tk 10 lakh, machinery worth Tk 15 lakh, factory rent Tk 2 lakh and other resources Tk 2 lakh, and produced products worth Tk 35 lakh.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is organization?",
+        "options": {
+          "A": "The process of selling products",
+          "B": "The initiative or effort to proportionally collect, combine and employ land, labor and capital for the purpose of production",
+          "C": "The system of product transportation",
+          "D": "The process of collecting raw materials"
+        },
+        "answer": "B",
+        "explanation": "The initiative or effort to proportionally collect, combine and employ land, labor and capital for the purpose of production is called organization."
+      },
+      {
+        "label": "b",
+        "question": "\"Joint venture markets products globally\" — explain.",
+        "options": {
+          "A": "Joint ventures only sell products in local markets",
+          "B": "Joint ventures formed by combining two or more domestic and foreign companies have more capital and can supply products globally",
+          "C": "Joint ventures have lower profits",
+          "D": "Only domestic companies participate in joint ventures"
+        },
+        "answer": "B",
+        "explanation": "When a business is formed by combining two or more domestic and foreign companies, it is called a joint venture. Due to multiple companies, the organization has more capital and can supply products to different parts of the world."
+      },
+      {
+        "label": "c",
+        "question": "Determine the productivity of Mr. Mina's establishment mentioned in the stimulus.",
+        "options": {
+          "A": "1.50",
+          "B": "2.08",
+          "C": "2.50",
+          "D": "3.00"
+        },
+        "answer": "B",
+        "explanation": "Mr. Mina's total production = Tk 50,00,000. Total input = (5,00,000+15,00,000+2,00,000+2,00,000) = Tk 24,00,000. Overall productivity = 50,00,000/24,00,000 = 2.08."
+      },
+      {
+        "label": "d",
+        "question": "Considering productivity, which establishment in the stimulus is profitable? Analyze.",
+        "options": {
+          "A": "Mr. Hashem's establishment, because his investment is higher",
+          "B": "Mr. Mina's establishment, because his productivity (2.08) is higher than Hashem's (1.21)",
+          "C": "Both establishments are equally profitable",
+          "D": "Neither is profitable"
+        },
+        "answer": "B",
+        "explanation": "Mr. Hashem's productivity = 35,00,000/(10,00,000+15,00,000+2,00,000+2,00,000) = 35,00,000/29,00,000 = 1.21. Mr. Mina's productivity (2.08) is higher than Hashem's (1.21), meaning Mina used fewer resources to produce more."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_10",
+    "stem": "During the production season, onion prices are low, but in the off-season, prices increase abnormally. Considering this, 'Ekta Krishak Samity' collects onions during the production season, preserves them using modern technology, and supplies them to consumers at fair prices in the off-season. The members of the Samity perform all activities themselves, so costs are relatively low. They are quite profitable. The members share profits and losses equally. Through employment, their standard of living is improving.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is production?",
+        "options": {
+          "A": "The process of selling products",
+          "B": "The process of changing the form or shape of natural resources to create products usable by humans",
+          "C": "The process of storing products",
+          "D": "The process of importing products"
+        },
+        "answer": "B",
+        "explanation": "Production is the process of changing the form or shape of natural resources to create products usable by humans."
+      },
+      {
+        "label": "b",
+        "question": "\"Production creates employment\" — explain.",
+        "options": {
+          "A": "Production requires few workers",
+          "B": "Employment opportunities are created by hiring workers for production work",
+          "C": "Production reduces employment",
+          "D": "Production has no relation to employment"
+        },
+        "answer": "B",
+        "explanation": "Employment opportunities are created by hiring necessary workers for production work. Raw material collection, machine operation, quality control, management — many tasks need to be done continuously, requiring the owner to hire workers."
+      },
+      {
+        "label": "c",
+        "question": "What type of utility is 'Ekta Krishak Samity' creating first in the stimulus? Explain.",
+        "options": {
+          "A": "Form utility — because they process onions",
+          "B": "Place utility — because they transport onions",
+          "C": "Time utility — because they preserve products from one time for another time",
+          "D": "Possession utility — because they sell onions"
+        },
+        "answer": "C",
+        "explanation": "'Ekta Krishak Samity' is first creating time utility. When products from one time are preserved for consumption at another time to satisfy human wants, time utility is created. The Samity collects onions during the production season, preserves them, and supplies them in the off-season."
+      },
+      {
+        "label": "d",
+        "question": "Evaluate the contribution of 'Ekta Krishak Samity' in improving members' standard of living.",
+        "options": {
+          "A": "The Samity has no contribution",
+          "B": "The Samity only plays a role in onion preservation",
+          "C": "Members doing all work themselves and sharing profits has improved employment, income, and standard of living",
+          "D": "Reducing onion prices is the Samity's only contribution"
+        },
+        "answer": "C",
+        "explanation": "Through onion collection, preservation, and selling, employment opportunities are created for Samity members. Members do all work themselves, sell onions at fair prices, and share profits equally. This solves unemployment and increases income."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_11",
+    "stem": "In 2019, Style Zone Ltd.'s produced product value was Tk 10,00,000. The cost of resources used was: raw materials Tk 4,00,000, salaries and wages Tk 2,00,000, and others Tk 1,00,000. In 2018, with the same production quantity, resource costs were: raw materials Tk 4,50,000, salaries and wages Tk 2,00,000, and others Tk 1,50,000.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "a",
+        "question": "What is utility?",
+        "options": {
+          "A": "The ability to produce products",
+          "B": "The capacity of a product or service to satisfy human wants",
+          "C": "The ability to sell products",
+          "D": "The ability to store products"
+        },
+        "answer": "B",
+        "explanation": "The capacity of a product or service to satisfy human wants is called utility."
+      },
+      {
+        "label": "b",
+        "question": "How is material productivity determined through formula?",
+        "options": {
+          "A": "Value of materials / Total value of output",
+          "B": "Total value of output / Value of materials",
+          "C": "Quantity of materials × Total production",
+          "D": "Total production / Quantity of materials"
+        },
+        "answer": "B",
+        "explanation": "Material productivity = Total value of output / Value of materials used. It is the ratio of total output value to the value of raw materials used in production."
+      },
+      {
+        "label": "c",
+        "question": "Determine the overall productivity of Style Zone Ltd. for 2019.",
+        "options": {
+          "A": "1.25",
+          "B": "1.43",
+          "C": "2.00",
+          "D": "2.50"
+        },
+        "answer": "B",
+        "explanation": "2019 total output = Tk 10,00,000. Total input = (4,00,000+2,00,000+1,00,000) = Tk 7,00,000. Overall productivity = 10,00,000/7,00,000 = 1.43."
+      },
+      {
+        "label": "d",
+        "question": "Evaluate the overall production situation of the establishment for 2018 in light of the stimulus.",
+        "options": {
+          "A": "2018 was better because production was higher",
+          "B": "2018 productivity (1.25) was lower than 2019 (1.43), so the establishment was more efficient in 2019",
+          "C": "Both years were equal",
+          "D": "No production occurred in 2018"
+        },
+        "answer": "B",
+        "explanation": "2018 overall productivity = 10,00,000/(4,50,000+2,00,000+1,50,000) = 10,00,000/8,00,000 = 1.25. 2019 productivity (1.43) is higher than 2018 (1.25), indicating more efficient resource utilization."
+      }
+    ]
+  }
+]

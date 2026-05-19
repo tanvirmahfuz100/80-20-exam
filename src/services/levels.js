@@ -20,7 +20,8 @@ export function computeLevels(normalizedQuestions) {
 
   const hasPassages = normalizedQuestions.some(q => q.passage && q.blankId);
   const hasSubTables = normalizedQuestions.some(q => q._type === 'substitution_table');
-  const isSingleType = !hasPassages && !hasSubTables;
+  const hasCreativeQuestions = normalizedQuestions.some(q => q._type === 'creative_question');
+  const isSingleType = !hasPassages && !hasSubTables && !hasCreativeQuestions;
 
   if (hasPassages) {
     const groups = [];
@@ -43,6 +44,19 @@ export function computeLevels(normalizedQuestions) {
         questions: slice.flatMap(g => g.questions),
         type: 'passage',
         passageCount: slice.length,
+      });
+    }
+    return levels;
+  }
+
+  if (hasCreativeQuestions && !hasPassages && !hasSubTables) {
+    const GROUP_SIZE = 2;
+    const levels = [];
+    for (let i = 0; i < normalizedQuestions.length; i += GROUP_SIZE) {
+      levels.push({
+        levelNumber: levels.length + 1,
+        questions: normalizedQuestions.slice(i, i + GROUP_SIZE),
+        type: 'creative',
       });
     }
     return levels;
