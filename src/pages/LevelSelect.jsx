@@ -22,6 +22,7 @@ const LevelSelect = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [normalizedQuestions, setNormalizedQuestions] = useState([]);
+  const [redirecting, setRedirecting] = useState(false);
 
   const progress = useMemo(() => {
     if (!user?.id || !chapterId) return { levels: {} };
@@ -91,6 +92,13 @@ const LevelSelect = () => {
         else if (Array.isArray(data.items)) questionArray = data.items;
 
         const normalized = normalizeQuizQuestions({ questions: questionArray });
+        const computed = computeLevels(normalized);
+        // CQ chapters have no levels — skip LevelSelect UI entirely
+        if (computed.length === 0 && normalized.length > 0) {
+          setRedirecting(true);
+          navigate(`/quiz/${chapterId}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(title)}`, { replace: true });
+          return;
+        }
         setNormalizedQuestions(normalized);
       } catch (err) {
         setError(err.message);
@@ -99,13 +107,13 @@ const LevelSelect = () => {
       }
     };
     loadQuestions();
-  }, [file]);
+  }, [file, chapterId, title, navigate]);
 
   const handleStartLevel = (levelNumber) => {
     navigate(`/quiz/${chapterId}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(title)}&level=${levelNumber}`);
   };
 
-  if (loading) return <LoadingScreen message="Loading levels..." />;
+  if (loading || redirecting) return <LoadingScreen message="Loading levels..." />;
 
   if (error) {
     return (

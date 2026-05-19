@@ -16,6 +16,7 @@ import {
 import GapFillPassage from '../components/GapFillPassage';
 import SubstitutionTableExercise from '../components/SubstitutionTableExercise';
 import ModelTest from '../components/ModelTest';
+import CreativeQuestionViewer from '../components/CreativeQuestionViewer';
 import LoadingScreen from '../components/LoadingScreen';
 import { playSound } from '../utils/sounds';
 import { computeLevels, saveLevelProgress, addXp, addStars, completeDailyChallengeById, advanceWeeklyChallenge } from '../services/levels';
@@ -47,7 +48,7 @@ export const normalizeQuizQuestions = (payload) => {
             : [];
 
     return sourceQuestions.flatMap((question) => {
-        if (question._type === 'substitution_table' || question._type === 'model_test') {
+        if (question._type === 'substitution_table' || question._type === 'model_test' || question._type === 'creative_question') {
             return [question];
         }
         if (Array.isArray(question.blanks) && question.blanks.length > 0) {
@@ -932,6 +933,23 @@ const Quiz = () => {
                                     questionStartRef.current = Date.now();
                                 } else {
                                     setIsFinished(true);
+                                }
+                            }}
+                        />
+                    ) : currentQ?._type === 'creative_question' ? (
+                        <CreativeQuestionViewer
+                            key={currentQ.id || currentQ._id || 'cq'}
+                            cq={currentQ}
+                            fontSize={quizFontSize}
+                            onContinue={(found, total) => {
+                                const idx = questions.findIndex(q => q.id === currentQ.id);
+                                if (idx >= 0 && idx < questions.length - 1) {
+                                    setCurrentIndex(idx + 1);
+                                    setSelectedOption(null);
+                                    setIsAnswered(false);
+                                    questionStartRef.current = Date.now();
+                                } else {
+                                    navigate('/practice');
                                 }
                             }}
                         />

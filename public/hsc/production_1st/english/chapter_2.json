@@ -1,6 +1,6 @@
 [
   {
-    "id": 39,
+    "id": 1,
     "question": "In economics, what are all types of nature-given resources used in production called?",
     "options": {
       "A": "Land",
@@ -13,7 +13,7 @@
     "source": "BEPZA Public School and College, Chittagong"
   },
   {
-    "id": 40,
+    "id": 2,
     "question": "What is a resource that is used to acquire more resources called?",
     "options": {
       "A": "Capital",
@@ -26,7 +26,7 @@
     "source": "BEPZA Public School and College, Chittagong"
   },
   {
-    "id": 41,
+    "id": 3,
     "question": "What is the lifeblood of industry and commerce?",
     "options": {
       "A": "Money/Capital",
@@ -39,7 +39,7 @@
     "source": "Anwara University College, Chittagong"
   },
   {
-    "id": 42,
+    "id": 4,
     "question": "What type of factor is machinery?",
     "options": {
       "A": "Land",
@@ -52,7 +52,7 @@
     "source": "Govt. Women's College, Pabna"
   },
   {
-    "id": 43,
+    "id": 5,
     "question": "What does 'Input' mean?",
     "options": {
       "A": "Factors of production",
@@ -65,7 +65,7 @@
     "source": "Govt. Haji Muhammad Mohsin College, Khulna"
   },
   {
-    "id": 44,
+    "id": 6,
     "question": "An organization is generally encouraged by division of labor for what reason?",
     "options": {
       "A": "To increase workers' creativity",
@@ -78,7 +78,7 @@
     "source": "BAF Shaheen College, Dhaka"
   },
   {
-    "id": 45,
+    "id": 7,
     "question": "Which characteristic is inconsistent with the characteristics of organization?",
     "options": {
       "A": "Formulating production plan",
@@ -91,7 +91,7 @@
     "source": "BAF Shaheen College, Dhaka"
   },
   {
-    "id": 46,
+    "id": 8,
     "question": "What is the final step of capital formation?",
     "options": {
       "A": "Income",
@@ -104,7 +104,7 @@
     "source": "University Laboratory School and College, Dhaka"
   },
   {
-    "id": 47,
+    "id": 9,
     "question": "From the perspective of management, how many factors of production are there?",
     "options": {
       "A": "6",
@@ -117,7 +117,7 @@
     "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
   },
   {
-    "id": 48,
+    "id": 10,
     "question": "What is the main reason behind the massive growth of the garments industry in Bangladesh?",
     "options": {
       "A": "Port facilities",
@@ -130,7 +130,7 @@
     "source": "Sunamganj Govt. College, Sunamganj"
   },
   {
-    "id": 49,
+    "id": 11,
     "question": "What is the lifeblood of production?",
     "options": {
       "A": "Land",
@@ -143,7 +143,7 @@
     "source": "Cantonment Public School and College, Jahanabad"
   },
   {
-    "id": 50,
+    "id": 12,
     "question": "The formula for labor productivity is—",
     "options": {
       "A": "Production Inputs / Total labor hours",
@@ -156,7 +156,7 @@
     "source": "Dr. Abdur Razzak Municipal College, Jessore"
   },
   {
-    "id": 51,
+    "id": 13,
     "question": "Why does variation occur in the productive capacity of land?",
     "options": {
       "A": "Natural reasons",
@@ -169,7 +169,7 @@
     "source": "BCIC College, Dhaka"
   },
   {
-    "id": 52,
+    "id": 14,
     "question": "Mr. Hamid joined an organization as a Junior Executive. Two years later, he was promoted to Senior Executive. Mr. Hamid's promotion falls under which type of labor mobility?",
     "options": {
       "A": "Geographical",
@@ -182,7 +182,7 @@
     "source": "Dhaka Commerce College"
   },
   {
-    "id": 53,
+    "id": 15,
     "question": "What is Organization?",
     "options": {
       "A": "Coordination of Land, Labor, and Technology",
@@ -195,7 +195,7 @@
     "source": "Viqarunnisa Noon School and College, Dhaka"
   },
   {
-    "id": 54,
+    "id": 16,
     "question": "What decreases as a result of increased productivity?",
     "options": {
       "A": "Operational cost",
@@ -208,7 +208,7 @@
     "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
   },
   {
-    "id": 55,
+    "id": 17,
     "question": "Which law applies in the case of Land?",
     "options": {
       "A": "Law of Diminishing Marginal Returns",
@@ -221,7 +221,7 @@
     "source": "Bogra Cantonment Public School College"
   },
   {
-    "id": 56,
+    "id": 18,
     "question": "Extra money is needed for— (i. Using improved machinery ii. Training workers iii. Entertainment) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -234,7 +234,7 @@
     "source": "BEPZA Public School and College, Chittagong"
   },
   {
-    "id": 57,
+    "id": 19,
     "question": "The extent of division of labor depends on— (i. Size of the market ii. Distribution system iii. Production system) Which is correct?",
     "options": {
       "A": "i & iii",
@@ -247,7 +247,7 @@
     "source": "Govt. Haji Muhammad Mohsin College, Khulna"
   },
   {
-    "id": 58,
+    "id": 20,
     "question": "The main objective of division of labor is— (i. Achieving expertise ii. Dividing work into various parts iii. Increasing mutual cooperation) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -260,7 +260,7 @@
     "source": "University Laboratory School and College, Dhaka"
   },
   {
-    "id": 59,
+    "id": 21,
     "question": "Businessmen collect additional capital— (i. Against loans ii. Against assets iii. Against collateral) Which is correct?",
     "options": {
       "A": "i & iii",
@@ -273,7 +273,7 @@
     "source": "BAF Shaheen College, Jessore"
   },
   {
-    "id": 60,
+    "id": 22,
     "question": "Besides food crops, humans use land to produce— (i. Cotton and jute ii. Tea and coffee iii. Livestock) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -286,7 +286,7 @@
     "source": "Syed Ahmed College, Gabtoli, Bogra"
   },
   {
-    "id": 61,
+    "id": 23,
     "question": "Types of division of labor are— (i. Simple division of labor ii. Complex division of labor iii. Compound division of labor) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -299,7 +299,7 @@
     "source": "Panchagarh Govt. Women's College"
   },
   {
-    "id": 62,
+    "id": 24,
     "question": "The success and failure of organizers is influenced by— (i. Organizers' intelligence ii. Organizers' skill iii. Coordinating capital and labor) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -312,7 +312,7 @@
     "source": "Thakurgaon Govt. Women's College"
   },
   {
-    "id": 63,
+    "id": 25,
     "question": "Land fulfills human needs— (i. Food and medical ii. Cloth and education iii. Shelter) Which is correct?",
     "options": {
       "A": "i & iii",
@@ -325,7 +325,7 @@
     "source": "Govt. Shah Sultan College, Bogra"
   },
   {
-    "id": 64,
+    "id": 26,
     "question": "Besides food crops, humans use land to produce— (i. Cotton and jute ii. Tea and coffee iii. Livestock) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -338,7 +338,7 @@
     "source": "Cantonment Public School and College, Jahanabad"
   },
   {
-    "id": 65,
+    "id": 27,
     "question": "In the Shahid Garments factory in Savar, clothes are made using imported yarn. Despite having capital, labor, and land, full production has not started yet. However, the factory continues to hire skilled workers. What is used as raw material in Shahid Garments Factory?",
     "options": {
       "A": "Gas",
@@ -351,7 +351,7 @@
     "source": "Anwara University College, Chittagong"
   },
   {
-    "id": 66,
+    "id": 28,
     "question": "The factor of production that is insufficient in the stimulus is— (i. Land ii. Capital iii. Organization) Which is correct?",
     "options": {
       "A": "i",
@@ -364,7 +364,7 @@
     "source": "Anwara University College, Chittagong"
   },
   {
-    "id": 67,
+    "id": 29,
     "question": "Mr. Sohan makes Jamdani sarees in Rajshahi. 200 workers work in his factory. His business is expanding rapidly due to making quality sarees. What type of utility is Mr. Sohan creating by making Jamdani sarees?",
     "options": {
       "A": "Form utility",
@@ -377,7 +377,7 @@
     "source": "Govt. Women's College, Pabna"
   },
   {
-    "id": 68,
+    "id": 30,
     "question": "Mr. Sohan's saree making is important because— (i. Employment generation ii. Improvement of living standards iii. Increase in exports) Which is correct?",
     "options": {
       "A": "i",
@@ -390,7 +390,7 @@
     "source": "Govt. Women's College, Pabna"
   },
   {
-    "id": 69,
+    "id": 31,
     "question": "'BSRM Steel Mills' produces 4,00,000 lakh tons of iron per year with a labor cost of 14,000 hours, valued at 200,000 taka. What is the labor productivity of BSRM Steel Mills?",
     "options": {
       "A": "1.25 units",
@@ -403,7 +403,7 @@
     "source": "Hajiganj Model University College"
   },
   {
-    "id": 70,
+    "id": 32,
     "question": "The reason for determining labor productivity is— (i. Determining 24 hours production ii. Determining production per hour iii. Determining one month's production) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -416,7 +416,7 @@
     "source": "Hajiganj Model University College"
   },
   {
-    "id": 71,
+    "id": 33,
     "question": "Mostafa and his two friends set up a glass factory in Ashulia near Dhaka with a capital of 18 crore taka. The factory employs 105 workers across various branches. At the time of establishment, what type of enterprise was it?",
     "options": {
       "A": "Small",
@@ -429,7 +429,7 @@
     "source": "Mirpur Girls Ideal Laboratory Institute, Dhaka"
   },
   {
-    "id": 72,
+    "id": 34,
     "question": "To transform the mentioned establishment into a large enterprise, what is required?— (i. Hire 300 workers ii. Invest additional capital iii. Install new machinery) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -442,7 +442,7 @@
     "source": "Mirpur Girls Ideal Laboratory Institute, Dhaka"
   },
   {
-    "id": 73,
+    "id": 35,
     "question": "Mr. Robin sets up a factory in the Chittagong EPZ area considering the availability of workers. He trains his employees hands-on. Which factor does Mr. Robin give maximum importance to?",
     "options": {
       "A": "Land",
@@ -455,7 +455,7 @@
     "source": "Hajera Taju Degree College, Dhaka"
   },
   {
-    "id": 74,
+    "id": 36,
     "question": "The reason for Mr. Robin's business success is— (i. Skilled workers ii. Availability of workers iii. Abundance of capital) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -466,5 +466,1448 @@
     "answer": "A",
     "explanation": "Skill development through training and the availability of workers are the reasons for success. Abundance of capital is not mentioned.",
     "source": "Hajera Taju Degree College, Dhaka"
+  },
+  {
+    "id": 37,
+    "question": "What does 'Output' mean?",
+    "options": {
+      "A": "Factors of production",
+      "B": "Capital",
+      "C": "Production process",
+      "D": "Final goods and services"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 38,
+    "question": "Which is the primary factor of production?",
+    "options": {
+      "A": "Organization",
+      "B": "Capital",
+      "C": "Labor",
+      "D": "Land"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 39,
+    "question": "Which one fulfills the basic needs of humans?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 40,
+    "question": "Weather, climate, sunlight, water, etc. are included in which factor?",
+    "options": {
+      "A": "Labor",
+      "B": "Capital",
+      "C": "Land",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 41,
+    "question": "Mineral resources are included in which?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "office"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 42,
+    "question": "What are all kinds of natural resources used in production called?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 43,
+    "question": "Which of the following factors of production is indestructible?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 44,
+    "question": "Which of the following is correct?",
+    "options": {
+      "A": "Land is not a gift of nature",
+      "B": "Humans can create land",
+      "C": "Supply of land is limited",
+      "D": "Supply of land has a price"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 45,
+    "question": "The advice a doctor gives to patients falls under which type of labor?",
+    "options": {
+      "A": "Physical labor",
+      "B": "Mental labor",
+      "C": "Productivity",
+      "D": "Unproductivity"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 46,
+    "question": "CNG driver Manu Mia has been earning his livelihood in this profession for 4 years. What type of labor is he involved in?",
+    "options": {
+      "A": "Mental labor",
+      "B": "Physical labor",
+      "C": "Intellectual labor",
+      "D": "Group/Team"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 47,
+    "question": "The work of a tailor's shop falls under which type of division of labor?",
+    "options": {
+      "A": "Simple",
+      "B": "Complete process-based",
+      "C": "Incomplete process-based",
+      "D": "Geographical"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 48,
+    "question": "A weaver's cloth weaving falls under which type of division of labor?",
+    "options": {
+      "A": "Simple",
+      "B": "Complex",
+      "C": "Complete process-based",
+      "D": "Regional"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 49,
+    "question": "What is the movement of employees from one business organization to another called?",
+    "options": {
+      "A": "Labor turnover",
+      "B": "Labor transfer",
+      "C": "Employee training",
+      "D": "Labor dissatisfaction"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 50,
+    "question": "Which of the following occurs as a result of division of labor?",
+    "options": {
+      "A": "Employment decreases",
+      "B": "Labor mobility decreases",
+      "C": "Class discrimination is created",
+      "D": "Productivity decreases"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 51,
+    "question": "Mr. Masum left his job at Molla Group of Industries and joined Exim Bank. What is this called?",
+    "options": {
+      "A": "Supply of labor",
+      "B": "Variation of labor",
+      "C": "Labor mobility",
+      "D": "Difference of labor"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 52,
+    "question": "A teacher left teaching and started a business. What is this called?",
+    "options": {
+      "A": "Geographical mobility",
+      "B": "Business mobility",
+      "C": "Occupational mobility",
+      "D": "Vertical mobility"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 53,
+    "question": "Where do workers not have the opportunity for labor turnover?",
+    "options": {
+      "A": "In urban areas",
+      "B": "In rural areas",
+      "C": "In low-lying areas",
+      "D": "In industrial areas"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 54,
+    "question": "What is the fundamental basis of production?",
+    "options": {
+      "A": "Capital",
+      "B": "Land",
+      "C": "Organization",
+      "D": "Labor"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 55,
+    "question": "What is the lifeblood of production?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Organization",
+      "D": "Capital"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 56,
+    "question": "Which of the following is included in labor mobility?",
+    "options": {
+      "A": "Geographical mobility",
+      "B": "Social mobility",
+      "C": "Political mobility",
+      "D": "Difference of labor"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 57,
+    "question": "Rokan came from village to city hoping for higher income. What type of labor mobility has occurred here?",
+    "options": {
+      "A": "Industrial",
+      "B": "Occupational",
+      "C": "Vertical",
+      "D": "Geographical"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 58,
+    "question": "Why is capital called a temporary factor of production?",
+    "options": {
+      "A": "Free from depreciation",
+      "B": "Positive supply cost",
+      "C": "Law of large-scale production",
+      "D": "Subject to depreciation"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 59,
+    "question": "What is the formula for capital formation?",
+    "options": {
+      "A": "Total production - Demand",
+      "B": "Total production - Capital",
+      "C": "Total production - Utility",
+      "D": "Total production - Consumption"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 60,
+    "question": "What is the source of capital?",
+    "options": {
+      "A": "Savings",
+      "B": "Exchange",
+      "C": "Land",
+      "D": "Machinery"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 61,
+    "question": "Which is the first stage of capital formation?",
+    "options": {
+      "A": "Expenditure",
+      "B": "Investment",
+      "C": "Savings",
+      "D": "Consumption"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 62,
+    "question": "Which factor influences capital formation?",
+    "options": {
+      "A": "Supply of land",
+      "B": "Investment",
+      "C": "Desire to save",
+      "D": "Consumption"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 63,
+    "question": "Which one makes all resources effective?",
+    "options": {
+      "A": "Land",
+      "B": "Capital",
+      "C": "money",
+      "D": "Human resources"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 64,
+    "question": "How will a businessman activate and make the necessary factors productive in a fish farm?",
+    "options": {
+      "A": "Through factors",
+      "B": "Through capital",
+      "C": "Through organization",
+      "D": "Through labor"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 65,
+    "question": "What is the maximum number of members in a banking partnership business?",
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "2",
+      "D": "50"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 66,
+    "question": "What is the ownership of small or medium enterprises usually like?",
+    "options": {
+      "A": "Sole proprietorship",
+      "B": "Partnership",
+      "C": "Cooperative",
+      "D": "Joint stock company"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 67,
+    "question": "Which type of organization makes quick decisions?",
+    "options": {
+      "A": "Sole proprietorship",
+      "B": "Partnership",
+      "C": "Joint stock company",
+      "D": "Cooperative"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 68,
+    "question": "The factors of production are —",
+    "options": {
+      "A": "i",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 69,
+    "question": "The extent of division of labor depends on —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 70,
+    "question": "The types of division of labor are —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 71,
+    "question": "The main objective of division of labor is —",
+    "options": {
+      "A": "i",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 72,
+    "question": "The disadvantages of division of labor are —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 73,
+    "question": "Labor mobility creates obstacles —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 74,
+    "question": "Included in labor mobility are —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 75,
+    "question": "Capital is needed because —",
+    "options": {
+      "A": "i",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 76,
+    "question": "The problems of capital formation in Bangladesh are —",
+    "options": {
+      "A": "i",
+      "B": "i & ii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 77,
+    "question": "If a country is unable to form capital —",
+    "options": {
+      "A": "i",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 78,
+    "question": "The problems of capital formation in Bangladesh can be solved —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 79,
+    "question": "Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 80,
+    "question": "The advantages of division of labor are —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 81,
+    "question": "As a result of division of labor —",
+    "options": {
+      "A": "i",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 82,
+    "question": "The characteristics of land are —",
+    "options": {
+      "A": "i",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 83,
+    "question": "The elements of land are —",
+    "options": {
+      "A": "i",
+      "B": "i & ii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 84,
+    "question": "Geographical labor mobility is the worker's —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 85,
+    "question": "The financial stage of capital formation is —",
+    "options": {
+      "A": "i",
+      "B": "i & ii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 86,
+    "question": "The characteristics of organization are —",
+    "options": {
+      "A": "i",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 87,
+    "question": "What is Input?",
+    "options": {
+      "A": "Produced goods",
+      "B": "Factors of production",
+      "C": "Production process",
+      "D": "Production arrangement"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 88,
+    "question": "Which is the primary factor of production?",
+    "options": {
+      "A": "Organization",
+      "B": "Capital",
+      "C": "Labor",
+      "D": "Land"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 89,
+    "question": "Which of the factors of production is not mobile?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 90,
+    "question": "How many factors of production are there?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 91,
+    "question": "Which of the following is a factor of production?",
+    "options": {
+      "A": "Land",
+      "B": "Mineral oil",
+      "C": "Coal",
+      "D": "Machinery/Factory"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 92,
+    "question": "Whom does the supply of land depend on?",
+    "options": {
+      "A": "State",
+      "B": "Government",
+      "C": "Nature",
+      "D": "Economic conditions"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 93,
+    "question": "What type of factor of production is raw material?",
+    "options": {
+      "A": "Labor",
+      "B": "Land",
+      "C": "Organization",
+      "D": "Capital"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 94,
+    "question": "From the perspective of economics, which is outside the scope of land?",
+    "options": {
+      "A": "Water",
+      "B": "Air",
+      "C": "Light",
+      "D": "Electricity"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 95,
+    "question": "Which of the following is not included in land?",
+    "options": {
+      "A": "Sunlight",
+      "B": "Water",
+      "C": "Raw materials",
+      "D": "Rainfall"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 96,
+    "question": "Which is a characteristic of land?",
+    "options": {
+      "A": "Supply is unlimited",
+      "B": "Non-transferable/Immobile",
+      "C": "Temporary",
+      "D": "Human"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 97,
+    "question": "Which factor of production has no supply price?",
+    "options": {
+      "A": "Capital",
+      "B": "Labor",
+      "C": "Organization",
+      "D": "Land"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 98,
+    "question": "Which of the following is a characteristic of land?",
+    "options": {
+      "A": "Temporary",
+      "B": "Transferable",
+      "C": "Result of savings",
+      "D": "Gift of nature"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 99,
+    "question": "The climate and soil of Dinajpur are very suitable for lychee cultivation, so improved varieties of lychee yield abundantly. Which factor of production has a direct impact on Mr. Evan's business success?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 100,
+    "question": "The tea industry has developed in Sylhet, Bangladesh. Despite tea being so popular, the tea industry is not developing in Dhaka or Khulna. What is the main reason for the tea industry not developing in Khulna?",
+    "options": {
+      "A": "Lack of capital",
+      "B": "Lack of natural resources",
+      "C": "Lack of skilled workers",
+      "D": "Lack of technology"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 101,
+    "question": "Which of the following is the living factor of production?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 102,
+    "question": "Which is the human factor of production?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 103,
+    "question": "What is the produced factor of production called?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 104,
+    "question": "Which is the dynamic factor of production?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 105,
+    "question": "Which of the following is physical labor?",
+    "options": {
+      "A": "Engineer's work",
+      "B": "Painter's work",
+      "C": "Fisherman's work",
+      "D": "Teacher's work"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 106,
+    "question": "Why can't labor be stored?",
+    "options": {
+      "A": "It is transient",
+      "B": "It is durable",
+      "C": "It has value",
+      "D": "It has no utility"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 107,
+    "question": "Which is a characteristic of labor?",
+    "options": {
+      "A": "Gift of nature",
+      "B": "Coordinated effort",
+      "C": "Human factor",
+      "D": "Result of savings"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 108,
+    "question": "Mr. Tamal has earned substantial profit by establishing a fertilizer factory. This falls under which factor?",
+    "options": {
+      "A": "Distribution",
+      "B": "Organization",
+      "C": "Capital",
+      "D": "Marketing"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 109,
+    "question": "The organization where profit and loss are distributed according to contract is —",
+    "options": {
+      "A": "Sole proprietorship",
+      "B": "Partnership",
+      "C": "Joint stock company",
+      "D": "Joint venture"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 110,
+    "question": "Organization is the coordination of what?",
+    "options": {
+      "A": "Land, Labor, and Capital",
+      "B": "Land, Labor, and Technology",
+      "C": "Product, Price, and Distribution",
+      "D": "Managerial functions"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 111,
+    "question": "Who combines the factors of production?",
+    "options": {
+      "A": "Organizer",
+      "B": "Buyer",
+      "C": "Consumer",
+      "D": "Supplier"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 112,
+    "question": "All human and non-human resources are combined through what?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 113,
+    "question": "What type of organization is BTCL?",
+    "options": {
+      "A": "Sole proprietorship",
+      "B": "State-owned",
+      "C": "Business alliance",
+      "D": "Joint venture"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 114,
+    "question": "What is the business formed by two or more persons under a contract called?",
+    "options": {
+      "A": "Cooperative",
+      "B": "Partnership",
+      "C": "Joint stock company",
+      "D": "Business alliance"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 115,
+    "question": "What is a business organization established and operated by the government called?",
+    "options": {
+      "A": "Joint stock company",
+      "B": "Partnership",
+      "C": "State enterprise",
+      "D": "Business alliance"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 116,
+    "question": "Which of the following organizations has an artificial legal personality?",
+    "options": {
+      "A": "Sole proprietorship",
+      "B": "Partnership",
+      "C": "Joint stock company",
+      "D": "State-owned"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 117,
+    "question": "A fisherman wants to be a member of an organization. Which is suitable for him?",
+    "options": {
+      "A": "State business",
+      "B": "Joint stock company",
+      "C": "Business alliance",
+      "D": "Cooperative society"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 118,
+    "question": "Which of the following happens through capital?",
+    "options": {
+      "A": "Production cost increases",
+      "B": "Production and consumption cost increases",
+      "C": "Supply cost increases",
+      "D": "Coordination between production and distribution"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 119,
+    "question": "How many types of division of labor are there?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 120,
+    "question": "Which of the following occurs as a result of division of labor?",
+    "options": {
+      "A": "Employment decreases",
+      "B": "Labor mobility decreases",
+      "C": "Class discrimination is created",
+      "D": "Productivity decreases"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 121,
+    "question": "If a worker is employed in the same position from one industry to another, what type of labor mobility is it?",
+    "options": {
+      "A": "Vertical",
+      "B": "Horizontal",
+      "C": "Internal",
+      "D": "Vertical"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 122,
+    "question": "What is the remuneration of capital called?",
+    "options": {
+      "A": "Wage",
+      "B": "Rent",
+      "C": "Interest",
+      "D": "Rent/Hire"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 123,
+    "question": "What happens when a person's income increases?",
+    "options": {
+      "A": "Savings and consumption increase",
+      "B": "Consumption and debt increase",
+      "C": "Savings and consumption will remain constant",
+      "D": "Consumption and debt will decrease"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 124,
+    "question": "What is the amount by which a society can increase its capital in a specific time called?",
+    "options": {
+      "A": "Production",
+      "B": "Savings",
+      "C": "Capital formation",
+      "D": "Investment"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 125,
+    "question": "Tax holiday is essential for which type of industry?",
+    "options": {
+      "A": "Old industry",
+      "B": "New industry",
+      "C": "Medium industry",
+      "D": "Large-scale industry"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 126,
+    "question": "Which factor of production is mentioned in the given stimulus?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 127,
+    "question": "The benefits obtained through Express Bangladesh Ltd. are —",
+    "options": {
+      "A": "i",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 128,
+    "question": "What type of business organization is established by Mr. Robin and his friends?",
+    "options": {
+      "A": "Partnership",
+      "B": "State-owned",
+      "C": "Cooperative society",
+      "D": "Joint stock company"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 129,
+    "question": "The characteristics of the organization established by Mr. Robin and his friends are —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 130,
+    "question": "Which factor of production has been mentioned in the stimulus?",
+    "options": {
+      "A": "Labor",
+      "B": "Land",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 131,
+    "question": "As a result of Sumon's work —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 132,
+    "question": "Due to which factor of production could Mr. Rubel not use the normal production capacity of the establishment?",
+    "options": {
+      "A": "Capital",
+      "B": "Labor",
+      "C": "Land",
+      "D": "Method"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 133,
+    "question": "The factors involved in Mr. Rubel's establishment are —",
+    "options": {
+      "A": "i",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 134,
+    "question": "Which factor does Mr. Rajan give maximum importance to in production?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 135,
+    "question": "The reason for Mr. Rajan's business success is —",
+    "options": {
+      "A": "i",
+      "B": "i & ii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 136,
+    "question": "What is it called when employees take jobs in other organizations in the stimulus?",
+    "options": {
+      "A": "Job mobility",
+      "B": "Labor mobility",
+      "C": "Capital mobility",
+      "D": "Organizational mobility"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 137,
+    "question": "The reason for Mr. Kamal's establishment facing losses —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 138,
+    "question": "In the stimulus, Mr. Zaman's work falls under which stage of capital formation?",
+    "options": {
+      "A": "Income",
+      "B": "Savings",
+      "C": "Savings collection",
+      "D": "Investment"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 139,
+    "question": "What should Mr. Anwar do to achieve his expected profit in the stimulus?",
+    "options": {
+      "A": "i",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 140,
+    "question": "What type of obstacle has been created in Mr. Salim's business?",
+    "options": {
+      "A": "Insufficient workers",
+      "B": "Space shortage",
+      "C": "Lack of capital",
+      "D": "Transportation system problem"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 141,
+    "question": "To be successful in Mr. Salim's business —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 142,
+    "question": "Mr. Fardin's bank assistance is known as which factor of production?",
+    "options": {
+      "A": "Labor",
+      "B": "Capital",
+      "C": "Land",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 143,
+    "question": "After including Mr. Munna in the business, what type of organization will Fardin's business be known as?",
+    "options": {
+      "A": "Partnership",
+      "B": "Company",
+      "C": "Cooperative",
+      "D": "Organization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 144,
+    "question": "What type is Mr. Dohar's establishment?",
+    "options": {
+      "A": "Sole proprietorship",
+      "B": "Large",
+      "C": "Non-profit",
+      "D": "Service-oriented"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 145,
+    "question": "The reasons for the failure of Mr. Dohar's business establishment —",
+    "options": {
+      "A": "i",
+      "B": "ii",
+      "C": "iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 146,
+    "question": "Which factor was used in establishing Mr. Sadman's garments factory in Hamidpur, Pabna?",
+    "options": {
+      "A": "Labor",
+      "B": "Land",
+      "C": "Organization",
+      "D": "Capital"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
+  },
+  {
+    "id": 147,
+    "question": "The type of benefits Mr. Sadman will get from division of work —",
+    "options": {
+      "A": "i",
+      "B": "i & ii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook"
   }
 ]

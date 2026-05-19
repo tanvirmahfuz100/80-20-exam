@@ -438,7 +438,8 @@ const PracticeConfig = () => {
 
     const handleStart = (chapter, displayName) => {
         const file = getChapterFile(chapter);
-        if (chapter._type === 'model_test') {
+        const isCq = file && file.includes('_cq.');
+        if (chapter._type === 'model_test' || isCq) {
             navigate(`/quiz/${chapter.id}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(displayName || chapter.name)}&chapterId=${chapter.id}`);
         } else if (chapter._type === 'creative') {
             navigate(`/creative-view?file=${encodeURIComponent(file)}&title=${encodeURIComponent(displayName || chapter.name)}`);

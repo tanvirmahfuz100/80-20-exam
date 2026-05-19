@@ -20,7 +20,8 @@ export function computeLevels(normalizedQuestions) {
 
   const hasPassages = normalizedQuestions.some(q => q.passage && q.blankId);
   const hasSubTables = normalizedQuestions.some(q => q._type === 'substitution_table');
-  const isSingleType = !hasPassages && !hasSubTables;
+  const hasCreativeQuestions = normalizedQuestions.some(q => q._type === 'creative_question');
+  const isSingleType = !hasPassages && !hasSubTables && !hasCreativeQuestions;
 
   if (hasPassages) {
     const groups = [];
@@ -46,6 +47,10 @@ export function computeLevels(normalizedQuestions) {
       });
     }
     return levels;
+  }
+
+  if (hasCreativeQuestions && !hasPassages && !hasSubTables) {
+    return [];
   }
 
   if (isSingleType) {

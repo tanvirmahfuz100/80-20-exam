@@ -1,6 +1,6 @@
 [
   {
-    "id": 163,
+    "id": 1,
     "question": "Treatment provided by a doctor is considered as—",
     "options": {
       "A": "Service",
@@ -13,7 +13,7 @@
     "source": "BEPZA Public School and College, Chittagong"
   },
   {
-    "id": 164,
+    "id": 2,
     "question": "What depends on the nature of the product or service?",
     "options": {
       "A": "Production",
@@ -26,7 +26,7 @@
     "source": "Thakurgaon Govt. College, Thakurgaon"
   },
   {
-    "id": 165,
+    "id": 3,
     "question": "How many principles of scientific management did F.W. Taylor provide?",
     "options": {
       "A": "2",
@@ -39,7 +39,7 @@
     "source": "University Laboratory School and College, Dhaka"
   },
   {
-    "id": 166,
+    "id": 4,
     "question": "Your father takes medicine regularly to control diabetes. What is this?",
     "options": {
       "A": "Service",
@@ -52,7 +52,7 @@
     "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
   },
   {
-    "id": 167,
+    "id": 5,
     "question": "You regularly supply raw materials to Rahman Group for smooth production. What is this called?",
     "options": {
       "A": "Supply Chain Management",
@@ -65,7 +65,7 @@
     "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
   },
   {
-    "id": 168,
+    "id": 6,
     "question": "At the beginning of the Industrial Revolution, in what type of market were goods sold?",
     "options": {
       "A": "Local market",
@@ -78,7 +78,7 @@
     "source": "Dakshin Surma College, Sylhet"
   },
   {
-    "id": 169,
+    "id": 7,
     "question": "A nurse's service is called production, but a mother's service is not. Why?",
     "options": {
       "A": "Its utility is very high",
@@ -91,7 +91,7 @@
     "source": "Sunamganj Govt. College, Sunamganj"
   },
   {
-    "id": 170,
+    "id": 8,
     "question": "How is much work done in Bangladesh?",
     "options": {
       "A": "Through voluntary labor",
@@ -104,7 +104,7 @@
     "source": "Hajiganj Model University College"
   },
   {
-    "id": 171,
+    "id": 9,
     "question": "The demand and supply of goods depend on what?",
     "options": {
       "A": "Objectives of production management",
@@ -117,7 +117,7 @@
     "source": "BAF Shaheen College, Jessore"
   },
   {
-    "id": 172,
+    "id": 10,
     "question": "Focusing on how to improve products is related to—",
     "options": {
       "A": "Production cost",
@@ -130,7 +130,7 @@
     "source": "Cantonment Public School and College, Jahanabad"
   },
   {
-    "id": 173,
+    "id": 11,
     "question": "Receiving invisible utility from different parties is called—",
     "options": {
       "A": "Service",
@@ -143,7 +143,7 @@
     "source": "Thakurgaon Govt. Women's College"
   },
   {
-    "id": 174,
+    "id": 12,
     "question": "Product development is what for production management?",
     "options": {
       "A": "Objective",
@@ -156,7 +156,7 @@
     "source": "Syed Ahmed College, Gabtoli, Bogra"
   },
   {
-    "id": 175,
+    "id": 13,
     "question": "What is the management task related to production called?",
     "options": {
       "A": "Production",
@@ -169,7 +169,7 @@
     "source": "Samsul Haque Khan School and College"
   },
   {
-    "id": 176,
+    "id": 14,
     "question": "Mr. Rajib is the owner of a boutique shop. He assigned his wife Layla the responsibility of planning, designing, and financial activities for making clothes. By producing clothes considering the demand and taste of each customer, his business achieved great success. What is the reason for the success of Mr. Rajib's company?",
     "options": {
       "A": "Nature of business",
@@ -182,7 +182,7 @@
     "source": "Dhaka Commerce College"
   },
   {
-    "id": 177,
+    "id": 15,
     "question": "Mrs. Farjana is a famous boutique designer. She runs showrooms in several important cities under her expert supervision. What type of advantage is mentioned in the stimulus?",
     "options": {
       "A": "Capital mobility",
@@ -195,7 +195,7 @@
     "source": "Dhaka City College"
   },
   {
-    "id": 178,
+    "id": 16,
     "question": "Mr. Shakil could not study much due to financial crisis. He took computer training from the Youth Development Training Academy and opened a computer training center in Mirpur Muktijoddha Market. What was most important in Mr. Shakil's business success?",
     "options": {
       "A": "Location selection",
@@ -208,7 +208,7 @@
     "source": "Dhaka City College"
   },
   {
-    "id": 179,
+    "id": 17,
     "question": "Why does productivity face challenges?",
     "options": {
       "A": "If workers participate spontaneously",
@@ -221,7 +221,7 @@
     "source": "Dhaka City College"
   },
   {
-    "id": 180,
+    "id": 18,
     "question": "How should the plan for establishing a business enterprise be?",
     "options": {
       "A": "Short-term",
@@ -234,7 +234,7 @@
     "source": "Viqarunnisa Noon School and College, Dhaka"
   },
   {
-    "id": 181,
+    "id": 19,
     "question": "What is an advantage of centralization?",
     "options": {
       "A": "Increase in workers' skill",
@@ -247,7 +247,7 @@
     "source": "Viqarunnisa Noon School and College, Dhaka"
   },
   {
-    "id": 182,
+    "id": 20,
     "question": "How can a worker become skilled?",
     "options": {
       "A": "By taking training at a training institute",
@@ -260,7 +260,7 @@
     "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
   },
   {
-    "id": 183,
+    "id": 21,
     "question": "Legal advice, audit, management consultation, advertising agencies are what type of organizations?",
     "options": {
       "A": "Non-business organization",
@@ -273,7 +273,7 @@
     "source": "Rangpur Govt. College, Rangpur"
   },
   {
-    "id": 184,
+    "id": 22,
     "question": "Little-educated Shahbuddin opened a photocopy shop next to a college. Despite little education, his behavior is very good, so the shop is always crowded. Which sector does Shahbuddin's work fall under?",
     "options": {
       "A": "Agriculture",
@@ -286,7 +286,7 @@
     "source": "Mirpur Pearls Ideal Laboratory Institute, Dhaka"
   },
   {
-    "id": 185,
+    "id": 23,
     "question": "What happens if sales exceed the break-even point?",
     "options": {
       "A": "Profit",
@@ -299,7 +299,7 @@
     "source": "Bangladesh Navy College, Chittagong"
   },
   {
-    "id": 186,
+    "id": 24,
     "question": "Production management is involved in performing— (i. Planning and organizing ii. Direction and coordination iii. Control) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -312,7 +312,7 @@
     "source": "BEPZA Public School and College, Chittagong"
   },
   {
-    "id": 187,
+    "id": 25,
     "question": "In the service sector, medium industry refers to— (i. Fixed assets ex-land/building 1 crore to 15 crore ii. Workers 50 to 100 iii. Workers more than 100) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -325,7 +325,7 @@
     "source": "Dhaka College, Dhaka"
   },
   {
-    "id": 188,
+    "id": 26,
     "question": "Through lifecycle determination, evaluation is done for— (i. Whether the product harms during production ii. Whether it harms during use iii. Whether it harms after use) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -338,7 +338,7 @@
     "source": "Dakshin Surma College, Sylhet"
   },
   {
-    "id": 189,
+    "id": 27,
     "question": "The producer of goods is— (i. Exporter ii. Leather industry owner iii. Grocer) Which is correct?",
     "options": {
       "A": "i",
@@ -351,7 +351,7 @@
     "source": "Mokbular Rahman Govt. College, Panchagarh"
   },
   {
-    "id": 190,
+    "id": 28,
     "question": "If the volume of production increases abnormally, the organization faces serious problems. The reasons are— (i. Product price may decrease ii. Product sales may increase massively iii. Inventory cost may increase) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -364,7 +364,7 @@
     "source": "Dhaka City College"
   },
   {
-    "id": 191,
+    "id": 29,
     "question": "In product development, the following are reviewed— (i. Customer taste ii. Customer desire iii. Customer income) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -377,7 +377,7 @@
     "source": "Viqarunnisa Noon School and College, Dhaka"
   },
   {
-    "id": 192,
+    "id": 30,
     "question": "Mridula is a nurse. For her, nursing is a noble profession. Through this she provides services to patients. Nursing is a type of what?",
     "options": {
       "A": "Service",
@@ -390,7 +390,7 @@
     "source": "Mokbular Rahman Govt. College, Panchagarh"
   },
   {
-    "id": 193,
+    "id": 31,
     "question": "Services can be— (i. Variable by customer ii. Perishable goods iii. Heterogeneous) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -403,7 +403,7 @@
     "source": "Mokbular Rahman Govt. College, Panchagarh"
   },
   {
-    "id": 194,
+    "id": 32,
     "question": "Rasel bought a pant from the footpath for 200 Taka. In the market, a quality pant costs more than 2,000 Taka. What is the pricing method for Rasel's purchased shirt?",
     "options": {
       "A": "Cost-based pricing",
@@ -416,7 +416,7 @@
     "source": "Viqarunnisa Noon School and College, Dhaka"
   },
   {
-    "id": 195,
+    "id": 33,
     "question": "The reason for the high price of the market shirt is— (i. Design ii. Quality iii. Standard) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -429,7 +429,7 @@
     "source": "Viqarunnisa Noon School and College, Dhaka"
   },
   {
-    "id": 196,
+    "id": 34,
     "question": "Mr. Mehedi is involved in a production organization. To increase production, he replaced old machines with new modern ones. He also connected a printer to the computer. What is the act of connecting a computer and printer called?",
     "options": {
       "A": "Attraction increase",
@@ -443,7 +443,7 @@
     "confidence": "low"
   },
   {
-    "id": 197,
+    "id": 35,
     "question": "What is the result of replacing old machines with new machines?",
     "options": {
       "A": "Production cost decreases",
@@ -456,7 +456,7 @@
     "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
   },
   {
-    "id": 198,
+    "id": 36,
     "question": "Mr. Islam is the production manager of a garments factory. He always keeps sufficient raw materials in stock to continue production regularly. For what purpose does Mr. Islam keep sufficient raw materials in stock?",
     "options": {
       "A": "To keep production going regularly",
@@ -469,7 +469,7 @@
     "source": "Shaheed Ramiz Uddin Cantonment College"
   },
   {
-    "id": 199,
+    "id": 37,
     "question": "Through worker training, Mr. Islam wants to achieve— (i. Increased production ii. Quality control iii. Market expansion) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -482,7 +482,7 @@
     "source": "Shaheed Ramiz Uddin Cantonment College"
   },
   {
-    "id": 200,
+    "id": 38,
     "question": "Quality control is what type of function in production?",
     "options": {
       "A": "Preparation phase",
@@ -495,7 +495,7 @@
     "source": "Bangladesh Navy College, Chittagong"
   },
   {
-    "id": 201,
+    "id": 39,
     "question": "The tasks of the preparation phase of production are— (i. Product design ii. Production planning iii. Work study) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -506,5 +506,1253 @@
     "answer": "D",
     "explanation": "All: design, planning, and work study are done in the preparation phase.",
     "source": "Bangladesh Navy College, Chittagong"
+  },
+  {
+    "question": "What is a tangible good called?",
+    "options": {
+      "A": "Goods",
+      "B": "Service",
+      "C": "Product",
+      "D": "Commodity"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 40
+  },
+  {
+    "question": "On what basis are products made?",
+    "options": {
+      "A": "Advertisement",
+      "B": "Design",
+      "C": "Production method",
+      "D": "Coordination"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 41
+  },
+  {
+    "question": "What does a buyer get of a product or service by paying the price?",
+    "options": {
+      "A": "Utility",
+      "B": "Ownership",
+      "C": "Production",
+      "D": "Profit"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 42
+  },
+  {
+    "question": "Which is an example of an accessory product?",
+    "options": {
+      "A": "Making sacks from raw jute",
+      "B": "Oil-based substances used in leather industry",
+      "C": "Diesel engine",
+      "D": "Yarn used in making cloth"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 43
+  },
+  {
+    "question": "While driving, Kajol suddenly got a flat tyre and bought a Volvo company tyre. What type of product did Kajol buy?",
+    "options": {
+      "A": "Marketing product",
+      "B": "Luxury product",
+      "C": "Specialty product",
+      "D": "Emergency product"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 44
+  },
+  {
+    "question": "What is a product used in the production of final goods called?",
+    "options": {
+      "A": "Consumer goods",
+      "B": "Emergency goods",
+      "C": "Industrial goods",
+      "D": "Shopping goods"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 45
+  },
+  {
+    "question": "Which is an impulse product?",
+    "options": {
+      "A": "Roshogolla",
+      "B": "Necktie",
+      "C": "Attractive watch",
+      "D": "Jewelry"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 46
+  },
+  {
+    "question": "Rana is a furniture trader. He bought a sofa set for his shop. What type of product is this?",
+    "options": {
+      "A": "Consumer goods",
+      "B": "Luxury product",
+      "C": "Specialty product",
+      "D": "Industrial product"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 47
+  },
+  {
+    "question": "Which is applicable in the case of service?",
+    "options": {
+      "A": "Distribution channel of service is long",
+      "B": "Ownership can be transferred",
+      "C": "Marketing mix has 4 elements",
+      "D": "Personal presence of consumer is required"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 48
+  },
+  {
+    "question": "From whom is service inseparable?",
+    "options": {
+      "A": "Buyer",
+      "B": "Consumer",
+      "C": "Wholesaler",
+      "D": "Producer"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 49
+  },
+  {
+    "question": "Arman went to Dr. Haque. The doctor examined him thoroughly and asked him to come again after two days. After two days, due to a large crowd of patients, he did not receive the same level of service from the doctor as before. Not getting the desired service from the doctor after two days indicates which characteristic of service?",
+    "options": {
+      "A": "Intangibility",
+      "B": "Inseparability",
+      "C": "Heterogeneity",
+      "D": "Perishability"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 50
+  },
+  {
+    "question": "Which of the following is not a characteristic of service?",
+    "options": {
+      "A": "Intangibility",
+      "B": "Inseparability",
+      "C": "Homogeneity",
+      "D": "Perishability"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 51
+  },
+  {
+    "question": "Which of the following is outside the characteristics of service?",
+    "options": {
+      "A": "Intangibility",
+      "B": "Inseparability",
+      "C": "Heterogeneity",
+      "D": "Tangibility"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 52
+  },
+  {
+    "question": "Which characteristic of service is temporary?",
+    "options": {
+      "A": "Tangibility",
+      "B": "Perishability",
+      "C": "Inseparability",
+      "D": "Heterogeneity"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 53
+  },
+  {
+    "question": "In which year did Adam Smith emphasize division of labor?",
+    "options": {
+      "A": "1774",
+      "B": "1775",
+      "C": "1776",
+      "D": "1777"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 54
+  },
+  {
+    "question": "Which period is considered the post-Industrial Revolution era?",
+    "options": {
+      "A": "1550–1650",
+      "B": "1650–1750",
+      "C": "1750–1850",
+      "D": "1850–1950"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 55
+  },
+  {
+    "question": "Who emphasized time study in the workplace?",
+    "options": {
+      "A": "Adam Smith",
+      "B": "Charles Babbage",
+      "C": "Henry L. Gantt",
+      "D": "Walter Shewhart"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 56
+  },
+  {
+    "question": "What is the purpose of creating a Gantt chart?",
+    "options": {
+      "A": "Task monitoring",
+      "B": "Time monitoring",
+      "C": "Quality control",
+      "D": "Production control"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 57
+  },
+  {
+    "question": "In which year was 'The Wealth of Nations' written?",
+    "options": {
+      "A": "1771",
+      "B": "1772",
+      "C": "1776",
+      "D": "1777"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 58
+  },
+  {
+    "question": "Through what can production-related problems be resolved?",
+    "options": {
+      "A": "Distribution management",
+      "B": "Promotion management",
+      "C": "Product management",
+      "D": "Production management"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 59
+  },
+  {
+    "question": "Which party does production management motivate?",
+    "options": {
+      "A": "General customers",
+      "B": "Own departmental staff",
+      "C": "Raw material suppliers",
+      "D": "Successful employees"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 60
+  },
+  {
+    "question": "In which sector is employment opportunity increasing rapidly?",
+    "options": {
+      "A": "Goods",
+      "B": "Research",
+      "C": "Agriculture",
+      "D": "Service"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 61
+  },
+  {
+    "question": "What is the role of the production system in Bangladesh's economy?",
+    "options": {
+      "A": "Creating employment",
+      "B": "Increasing expenditure",
+      "C": "Deteriorating relationships",
+      "D": "Reducing exports"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 62
+  },
+  {
+    "question": "Which is a problem of production management in Bangladesh?",
+    "options": {
+      "A": "Lack of training",
+      "B": "Realistic planning",
+      "C": "Quality control",
+      "D": "Harmonious relationship"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 63
+  },
+  {
+    "question": "Which is a way to solve the problems of production management in Bangladesh?",
+    "options": {
+      "A": "Unrealistic planning",
+      "B": "Use of modern technology",
+      "C": "Unplanned layout",
+      "D": "Inadequate training"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 64
+  },
+  {
+    "question": "What kind of challenge arises when productivity decreases?",
+    "options": {
+      "A": "Increase in workers' wages",
+      "B": "Consuming products at low price",
+      "C": "Reduction in production cost",
+      "D": "Productivity challenge"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 65
+  },
+  {
+    "question": "What is created through production?",
+    "options": {
+      "A": "Goods and commodities",
+      "B": "Service",
+      "C": "Land",
+      "D": "Industry"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 66
+  },
+  {
+    "question": "Why is the customization process implemented?",
+    "options": {
+      "A": "For low-quality customers",
+      "B": "For special class of customers",
+      "C": "For high-quality customers",
+      "D": "For supplying products to the market"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 67
+  },
+  {
+    "question": "A good is —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 68
+  },
+  {
+    "question": "The benefit that goods provide to humans —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 69
+  },
+  {
+    "question": "Based on source of production, products can be classified as —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 70
+  },
+  {
+    "question": "Grameenphone is a service-oriented organization. The characteristics of service are —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 71
+  },
+  {
+    "question": "The characteristic that exists in both goods and services is —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 72
+  },
+  {
+    "question": "What is being fulfilled for people as a result of producing new products?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 73
+  },
+  {
+    "question": "Functions of the production preparation phase —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 74
+  },
+  {
+    "question": "What is recorded in the production budget —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 75
+  },
+  {
+    "question": "The problems of production management in Bangladesh are —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 76
+  },
+  {
+    "question": "The ways production management can play a role in Bangladesh —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 77
+  },
+  {
+    "question": "If sales exceed the break-even quantity —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 78
+  },
+  {
+    "question": "Factors that severely affect productivity —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 79
+  },
+  {
+    "question": "The main reason for customization is —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 80
+  },
+  {
+    "question": "How does 'Robi' ensure its productivity?",
+    "options": {
+      "A": "Through higher capital investment",
+      "B": "By buying improved products",
+      "C": "By increasing consumer satisfaction",
+      "D": "By increasing service delivery efficiency"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 81
+  },
+  {
+    "question": "The characteristics of the service provided by 'Robi' are —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 82
+  },
+  {
+    "question": "Under which management function does Mr. Rahman's current work fall?",
+    "options": {
+      "A": "Human resources",
+      "B": "Production",
+      "C": "Marketing",
+      "D": "Purchasing"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 83
+  },
+  {
+    "question": "What is the reason that Mr. Rahman's decision will increase the organization's efficiency?",
+    "options": {
+      "A": "Job specification",
+      "B": "Inventory control",
+      "C": "Product design",
+      "D": "Taking responsibility of sales himself"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 84
+  },
+  {
+    "question": "What does Mrs. Samad produce?",
+    "options": {
+      "A": "Goods",
+      "B": "Service",
+      "C": "Goods and services",
+      "D": "Benefit"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 85
+  },
+  {
+    "question": "What can the lack of productivity increase in Mrs. Samad's factory be called?",
+    "options": {
+      "A": "Productivity challenge",
+      "B": "Productivity slowdown",
+      "C": "Productivity stagnation",
+      "D": "Productivity decline"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 86
+  },
+  {
+    "question": "What is supplying saline according to WHO's order called?",
+    "options": {
+      "A": "Product supply",
+      "B": "Customization",
+      "C": "Product export",
+      "D": "Business expansion"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 87
+  },
+  {
+    "question": "What will be achieved as a result of Square Pharma's such activities?",
+    "options": {
+      "A": "Achieving customer satisfaction",
+      "B": "Reducing product price",
+      "C": "Improving product quality",
+      "D": "Increasing productivity"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 88
+  },
+  {
+    "question": "What is the current name of production management? (All Boards 18)",
+    "options": {
+      "A": "Personnel management",
+      "B": "Product management",
+      "C": "Operations management",
+      "D": "Quality management"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 89
+  },
+  {
+    "question": "What is that which satisfies human needs and wants called?",
+    "options": {
+      "A": "Production",
+      "B": "Goods",
+      "C": "Utility",
+      "D": "Product quality"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 90
+  },
+  {
+    "question": "Which of the following is a good? (Sylhet Board 19)",
+    "options": {
+      "A": "Education",
+      "B": "Medical treatment",
+      "C": "Electric fan",
+      "D": "Electricity supply"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 91
+  },
+  {
+    "question": "Which is a characteristic of goods? (Barisal Board 17)",
+    "options": {
+      "A": "Goods cannot be seen",
+      "B": "Can be touched",
+      "C": "Cannot be separated from production",
+      "D": "Goods are not identifiable"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 92
+  },
+  {
+    "question": "Which of the following is a good? (Barisal Board 17)",
+    "options": {
+      "A": "Education",
+      "B": "Car",
+      "C": "Transportation",
+      "D": "Healthcare service"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 93
+  },
+  {
+    "question": "Which one is tangible? (All Boards 18)",
+    "options": {
+      "A": "Service",
+      "B": "Reputation",
+      "C": "Relationship",
+      "D": "Goods"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 94
+  },
+  {
+    "question": "All types of luxury goods fall under which type of product?",
+    "options": {
+      "A": "Personal",
+      "B": "Luxury",
+      "C": "Service",
+      "D": "Emergency"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 95
+  },
+  {
+    "question": "Magazines, toys, etc. are examples of which type of product? (Barisal Board 17; Sylhet Board 16)",
+    "options": {
+      "A": "Convenience product",
+      "B": "Impulse product",
+      "C": "Emergency product",
+      "D": "Shopping product"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 96
+  },
+  {
+    "question": "Which of the following is an emergency product? (Barisal Board 16)",
+    "options": {
+      "A": "Shoes",
+      "B": "Lentils",
+      "C": "Oral saline (ORS)",
+      "D": "Soap"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 97
+  },
+  {
+    "question": "Seeing which type of product creates an urge to buy? (Dinajpur Board, Chattogram Board 19)",
+    "options": {
+      "A": "Emergency",
+      "B": "Industrial",
+      "C": "Impulse",
+      "D": "Specialty"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 98
+  },
+  {
+    "question": "Life insurance policy falls under which type of product? (Rajshahi Board 19)",
+    "options": {
+      "A": "Convenience",
+      "B": "Shopping",
+      "C": "Specialty",
+      "D": "Unsought"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 99
+  },
+  {
+    "question": "Which of the following is a characteristic of service? (Rajshahi Board 17)",
+    "options": {
+      "A": "Tangibility",
+      "B": "Separability",
+      "C": "Variability",
+      "D": "Indestructibility"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 100
+  },
+  {
+    "question": "Which is a characteristic of service? (Dhaka Board, Rajshahi Board 16)",
+    "options": {
+      "A": "Tangibility",
+      "B": "Immutability",
+      "C": "Inseparability",
+      "D": "Storability"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 101
+  },
+  {
+    "question": "Hanif Transport's air-conditioned bus regularly carries passengers on the Dhaka-Cox's Bazar route. Yesterday morning, 5 tickets remained unsold, causing a loss to the authority. Which characteristic of service is reflected in the stimulus? (Dhaka Board 16)",
+    "options": {
+      "A": "Inseparability",
+      "B": "Perishability",
+      "C": "Heterogeneity",
+      "D": "Intangibility"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 102
+  },
+  {
+    "question": "Which is a characteristic of service? (Jessore Board 16)",
+    "options": {
+      "A": "Transferable",
+      "B": "Tangible",
+      "C": "Intangible",
+      "D": "Priceless"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 103
+  },
+  {
+    "question": "Which is a service-oriented organization? (Dhaka Board 19)",
+    "options": {
+      "A": "T.T. Housing",
+      "B": "Bata Shoe Ltd.",
+      "C": "Aarong Dairy",
+      "D": "BRTC"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 104
+  },
+  {
+    "question": "Azad passed MA and joined the Postal Department. What type of service provider is the Postal Department? (Dinajpur Board 17)",
+    "options": {
+      "A": "Government",
+      "B": "International",
+      "C": "Non-government",
+      "D": "Private"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 105
+  },
+  {
+    "question": "In what aspect do goods and services have similarity? (Mymensingh Board 19; Rajshahi Board 16)",
+    "options": {
+      "A": "In tangibility",
+      "B": "In storability",
+      "C": "In distribution channel length",
+      "D": "In utility"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 106
+  },
+  {
+    "question": "Where did the first Industrial Revolution take place?",
+    "options": {
+      "A": "England",
+      "B": "France",
+      "C": "Italy",
+      "D": "Germany"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 107
+  },
+  {
+    "question": "What was at the root of the revolution in the modern era of production management? (Jessore Board 17)",
+    "options": {
+      "A": "Customer service",
+      "B": "Information technology",
+      "C": "Mass production",
+      "D": "Higher profit"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 108
+  },
+  {
+    "question": "Who first introduced the concept of division of labor in the history of production management? (Dinajpur Board, Chattogram Board 19; Rajshahi Board, Cumilla Board 16)",
+    "options": {
+      "A": "Adam Smith",
+      "B": "Charles Babbage",
+      "C": "Henry L. Gantt",
+      "D": "Gilbreth couple"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 109
+  },
+  {
+    "question": "Who developed the 'Economic Lot Size' model? (Cumilla Board 16)",
+    "options": {
+      "A": "Walter Shewhart",
+      "B": "F.W. Taylor",
+      "C": "F.W. Harris",
+      "D": "James Stuart"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 110
+  },
+  {
+    "question": "What impact does production have on industry? (Dinajpur Board 17)",
+    "options": {
+      "A": "Employment creation",
+      "B": "Investment creation",
+      "C": "Income increases",
+      "D": "Standard of living increases"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 111
+  },
+  {
+    "question": "Which is a function of production management? (Dhaka Board, Sylhet Board, Jessore Board 17)",
+    "options": {
+      "A": "Product design",
+      "B": "Product marketing",
+      "C": "Worker recruitment",
+      "D": "Product distribution"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 112
+  },
+  {
+    "question": "Which is a function of production management? (All Boards 18)",
+    "options": {
+      "A": "Market design",
+      "B": "Production planning",
+      "C": "Market research",
+      "D": "Sales planning"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 113
+  },
+  {
+    "question": "Which is a function of production management? (Dinajpur Board 16)",
+    "options": {
+      "A": "Increasing efficiency",
+      "B": "Inventory control",
+      "C": "Employee evaluation",
+      "D": "Employee recruitment"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 114
+  },
+  {
+    "question": "What is the reason for facing productivity challenges?",
+    "options": {
+      "A": "Quality control problems",
+      "B": "Defective inventory control",
+      "C": "Production control problems",
+      "D": "Underdeveloped technical factors"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 115
+  },
+  {
+    "question": "What is the full form of PERT? (Rajshahi Board 19)",
+    "options": {
+      "A": "Program Evaluation and Review Technique",
+      "B": "Program Evaluation and Review Technology",
+      "C": "Program Erase and Review Technique",
+      "D": "Program Evaluation and Review Technology"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 116
+  },
+  {
+    "question": "What is the full form of CPM? (Dinajpur Board 16)",
+    "options": {
+      "A": "Critical Policy Maker",
+      "B": "Common Path Method",
+      "C": "Critical Path Method",
+      "D": "Concentrated Path Method"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 117
+  },
+  {
+    "question": "Which is the fundamental aspect of customization? (Chattogram Board 17)",
+    "options": {
+      "A": "Producing quality products",
+      "B": "Modifying products as per customer needs",
+      "C": "Producing products at the time of purchase",
+      "D": "Enhancing product aesthetics"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 118
+  },
+  {
+    "question": "What is it called when special needs of specific customers are fulfilled? (All Boards 18; Jessore Board 16)",
+    "options": {
+      "A": "Centralization",
+      "B": "Customization",
+      "C": "Simulation",
+      "D": "Indirect service"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 119
+  },
+  {
+    "question": "Making products according to customers' orders indicates what? (Barisal Board 16)",
+    "options": {
+      "A": "Customer satisfaction",
+      "B": "Customer adaptation",
+      "C": "Consumer satisfaction",
+      "D": "Consumerization"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 120
+  },
+  {
+    "question": "Goods price — (Barisal Board 19)",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 121
+  },
+  {
+    "question": "Characteristics of products are — (Cumilla Board 16)",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 122
+  },
+  {
+    "question": "Characteristics of services are — (Cumilla Board 17)",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 123
+  },
+  {
+    "question": "Functions of production management are — (Dinajpur Board 16)",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 124
+  },
+  {
+    "question": "Productivity challenges are — (Rajshahi Board 16)",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 125
+  },
+  {
+    "question": "What is the collective name of the production activities of 'Ananda Ltd.'?",
+    "options": {
+      "A": "Production method",
+      "B": "Production management",
+      "C": "Production process",
+      "D": "Production control"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 126
+  },
+  {
+    "question": "The characteristics of the products produced by 'Ananda Ltd.' are —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 127
+  },
+  {
+    "question": "What type of product does Mr. Munir's organization produce?",
+    "options": {
+      "A": "Impulse",
+      "B": "Specialty",
+      "C": "Shopping",
+      "D": "Emergency"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 128
+  },
+  {
+    "question": "The main reason for the success of the organization in the stimulus is —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 129
+  },
+  {
+    "question": "In which type of production sector is Shaon engaged?",
+    "options": {
+      "A": "Agriculture",
+      "B": "Industry",
+      "C": "Unproductive",
+      "D": "Service"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 130
+  },
+  {
+    "question": "In that sector, along with production work —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 131
+  },
+  {
+    "question": "In which management is Mr. Nobel serving?",
+    "options": {
+      "A": "Personnel",
+      "B": "Marketing",
+      "C": "Production",
+      "D": "Finance"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 132
+  },
+  {
+    "question": "What type of product does Mr. Rakib buy in the stimulus?",
+    "options": {
+      "A": "Convenience",
+      "B": "Impulse",
+      "C": "Emergency",
+      "D": "Shopping"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 133
+  },
+  {
+    "question": "The work mentioned in the stimulus falls under which specialized management?",
+    "options": {
+      "A": "Personnel",
+      "B": "Purchasing",
+      "C": "Marketing",
+      "D": "Production"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 134
+  },
+  {
+    "question": "As a result of the activities in the stimulus —",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "",
+    "explanation": "",
+    "source": "Textbook",
+    "id": 135
   }
 ]

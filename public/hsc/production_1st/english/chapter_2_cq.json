@@ -1,0 +1,86 @@
+[
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_12",
+    "stem": "One day a teacher was discussing factors of production in class. He mentioned two such factors: the first has limited supply and is indestructible, and the second is perishable and cannot be stored. He said, although the second factor is abundantly available in Bangladesh, many developed countries face a shortage of it. Even though Bangladesh exports this factor abroad, the government should be more proactive in its export.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is labor mobility?",
+        "model_answer": "Labor mobility refers to the movement of workers from one occupation, place, or industry to another based on their own needs. There are two main types of labor mobility: geographical mobility (movement from one place to another) and occupational mobility (movement from one profession to another)."
+      },
+      {
+        "label": "খ",
+        "question": "\"Organization helps achieve objectives\" — Explain.",
+        "model_answer": "Organization works with a specific objective in mind. It determines how work should be done, how much should be done, and when it should be done. Organization is the process of bringing together the factors of production — land, labor, and capital — and coordinating them to form, operate, and control an enterprise. Without organization, the other factors of production remain scattered and purposeless. Organization sets their goals and shows the path to achieve them. Therefore, it can be said that organization helps achieve objectives."
+      },
+      {
+        "label": "গ",
+        "question": "Which factor of production did the teacher mention first in the stimulus? Explain.",
+        "model_answer": "The teacher first mentioned the factor 'land'. Land is a gift of nature with limited supply that is indestructible. In economics, land refers not only to the surface of the earth but also to all natural resources such as soil, water, light, air, rivers, climate, and minerals. Land is not created by humans — it is a gift from the Creator. Its supply cannot be increased or decreased. Land cannot be destroyed, which is why it is called indestructible. The teacher's description of the first factor (limited supply and indestructible) completely matches the characteristics of land."
+      },
+      {
+        "label": "ঘ",
+        "question": "\"If the second factor mentioned in the stimulus is exported abroad in sufficient quantities, the country's economic development will accelerate\" — Analyze.",
+        "model_answer": "I believe the statement is appropriate. The second factor mentioned in the stimulus is 'labor', which is perishable and cannot be stored. Bangladesh is a populous country with abundant labor resources, while many developed countries face labor shortages. If skilled and unskilled labor from Bangladesh is exported abroad, the country's economic development will accelerate. Workers abroad earn foreign currency and send remittances back home. This increases the country's foreign exchange reserves, raises national income, and helps in poverty alleviation. Additionally, workers gain new skills and experience abroad, which they can utilize upon returning home. Therefore, labor export can accelerate the country's economic development."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_13",
+    "stem": "Mrs. Lucky established a mango juice factory in Natore. She bought a state-of-the-art juice-making machine from Japan for Tk 2 lakh. According to the machine's production capacity, she hired 250 workers. As a result, her organization's success is increasing day by day.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is land?",
+        "model_answer": "In general, land refers to the surface of the earth. But in economics, land refers to all natural resources, such as soil, water, light, air, rivers, seas, climate, minerals, etc. Land is a gift of nature with no production cost. Among the factors of production, land is generally not mobile and its supply is limited."
+      },
+      {
+        "label": "খ",
+        "question": "\"Labor is perishable\" — Explain.",
+        "model_answer": "Labor is perishable or destructible because it cannot be stored. Unlike land and capital, which can be preserved for the future, labor cannot be stored. The utility of labor is obtained only when the worker actually works. If labor is not used within a specific time, it is lost forever. For example, if a worker does not work on a given day, that day's labor power is permanently lost and cannot be recovered. This is why labor is called a perishable or destructible factor."
+      },
+      {
+        "label": "গ",
+        "question": "Which factor of production does Mrs. Lucky's imported machine fall under? Explain.",
+        "model_answer": "Mrs. Lucky's imported machine falls under the factor of production called 'capital'. Capital refers to wealth produced through human effort that is not consumed directly but used for further production. Machinery, equipment, factory buildings, raw materials, and money are examples of capital. Mrs. Lucky bought a state-of-the-art juice-making machine from Japan that is used for production. This machine is a produced means of production that helps in manufacturing goods. Therefore, it is included under capital."
+      },
+      {
+        "label": "ঘ",
+        "question": "To what extent do you think Mrs. Lucky's initiative will play a role in creating employment in the country? Give your opinion.",
+        "model_answer": "I believe Mrs. Lucky's initiative will play a significant role in creating employment in the country. By establishing a juice factory in Natore, she has employed 250 workers. Through a single enterprise, she has created jobs for 250 people. Moreover, the success of her organization is increasing day by day, which will allow her to expand further in the future. Expansion will create employment for even more people. Additionally, through local raw material collection, transportation, and distribution, the factory will indirectly create employment as well. In a developing country like Bangladesh, such initiatives are crucial for reducing unemployment and achieving socio-economic development."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_14",
+    "stem": "Mr. Jamil works as a supervisor in a garments factory named 'Zex Fashion'. After working for three years, he joined 'Hock Fashion', a well-known garments company, in the same position. This company has earned great reputation by exporting their garments abroad. Mr. Jamil noticed that this company is very conscious about workers' skills and regularly provides hands-on training to enhance their efficiency.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is capital?",
+        "model_answer": "Capital refers to wealth produced through human effort that is not consumed directly but used for further production or employed in production activities. Capital is an artificial and produced factor of production. Examples of capital include machinery, equipment, factories, raw materials, money, and transportation. Modern production systems cannot operate effectively without capital."
+      },
+      {
+        "label": "খ",
+        "question": "\"Land is indestructible\" — Explain.",
+        "model_answer": "Land is a gift of nature, original and indestructible. It has an eternal existence. Since land cannot be destroyed or exhausted, it is called an indestructible factor. Although the fertility of agricultural land may decrease (called land degradation), land itself is never completely destroyed. While other factors of production such as capital and labor can deteriorate or be destroyed, land exists permanently. For this reason, land is called an indestructible factor."
+      },
+      {
+        "label": "গ",
+        "question": "Which type of labor mobility has Mr. Jamil created in the stimulus? Explain.",
+        "model_answer": "In the stimulus, Mr. Jamil has created 'industrial mobility' or 'horizontal mobility' of labor. When a worker leaves one industry and joins another industry, it is called industrial mobility of labor. Since Mr. Jamil moved from one garments company to another within the same industry (garments) in the same position (supervisor), this can be identified as horizontal mobility within the same industry. As his position did not change and both organizations belong to the garments industry, this falls under the category of industrial or horizontal labor mobility."
+      },
+      {
+        "label": "ঘ",
+        "question": "Is the factor that 'Hock Fashion' has prioritized to increase labor efficiency sufficient? Analyze.",
+        "model_answer": "'Hock Fashion' has prioritized hands-on training to increase labor efficiency, which is commendable but not sufficient on its own. Training is an important step for enhancing workers' skills. However, several other factors are also necessary to improve labor efficiency. These include: (1) creating a better work environment so workers can work comfortably, (2) providing motivation and incentives to encourage workers, (3) using modern technology and equipment for efficient work, and (4) ensuring proper wages and benefits to retain workers. A combination of training along with these factors can significantly enhance labor efficiency. Therefore, training alone is not enough — a comprehensive management approach is essential for improving labor efficiency."
+      }
+    ]
+  }
+]
