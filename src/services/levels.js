@@ -50,16 +50,11 @@ export function computeLevels(normalizedQuestions) {
   }
 
   if (hasCreativeQuestions && !hasPassages && !hasSubTables) {
-    const GROUP_SIZE = 2;
-    const levels = [];
-    for (let i = 0; i < normalizedQuestions.length; i += GROUP_SIZE) {
-      levels.push({
-        levelNumber: levels.length + 1,
-        questions: normalizedQuestions.slice(i, i + GROUP_SIZE),
-        type: 'creative',
-      });
-    }
-    return levels;
+    return [{
+      levelNumber: 1,
+      questions: normalizedQuestions,
+      type: 'creative',
+    }];
   }
 
   if (isSingleType) {
