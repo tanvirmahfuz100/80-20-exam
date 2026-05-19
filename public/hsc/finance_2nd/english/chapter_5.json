@@ -1,0 +1,353 @@
+[
+  {
+    "id": 93,
+    "question": "By which year's Negotiable Instruments Act are the negotiable instruments of Bangladesh regulated?",
+    "options": {
+      "A": "1781",
+      "B": "1881",
+      "C": "1891",
+      "D": "1981"
+    },
+    "answer": "B",
+    "explanation": "Negotiable instruments in Bangladesh are regulated by the Negotiable Instruments Act of 1881. This is an ancient and important piece of legislation.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 94,
+    "question": "Who prepares a bank draft?",
+    "options": {
+      "A": "Creditor",
+      "B": "Debtor",
+      "C": "Bank",
+      "D": "Central bank"
+    },
+    "answer": "C",
+    "explanation": "A bank draft is prepared by the bank itself. It is a type of payment order issued by one branch of a bank on another branch.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 95,
+    "question": "What is the full form of I.O.U?",
+    "options": {
+      "A": "I offer you",
+      "B": "I am over you",
+      "C": "I am for you",
+      "D": "I owe you"
+    },
+    "answer": "D",
+    "explanation": "I.O.U stands for 'I Owe You'. It is an informal acknowledgment of debt, which is not a negotiable instrument.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 96,
+    "question": "In which type of cheque are the words 'or bearer' written?",
+    "options": {
+      "A": "Bearer cheque",
+      "B": "Payee cheque",
+      "C": "Order cheque",
+      "D": "Crossed cheque"
+    },
+    "answer": "A",
+    "explanation": "In a bearer cheque, the words 'or bearer' are written. The holder or anyone can withdraw money from the bank with this cheque.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 97,
+    "question": "Which of the following is NOT a negotiable instrument of credit?",
+    "options": {
+      "A": "Cheque",
+      "B": "Pay Order",
+      "C": "Bill of Exchange",
+      "D": "Promissory Note"
+    },
+    "answer": "B",
+    "explanation": "A Pay Order is not a negotiable instrument of credit. It cannot be transferred and is issued only for payment to a specific recipient. Cheques, bills of exchange, and promissory notes are negotiable.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 98,
+    "question": "What is a written instruction from a customer to a bank called?",
+    "options": {
+      "A": "Cheque",
+      "B": "Draft",
+      "C": "Pay Order",
+      "D": "Bank Guarantee"
+    },
+    "answer": "A",
+    "explanation": "A cheque is a written instruction from a customer to a bank, through which the customer orders the bank to pay a specific person or institution from their account.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 99,
+    "question": "Who appoints a Notary Public?",
+    "options": {
+      "A": "State",
+      "B": "Government",
+      "C": "President",
+      "D": "Speaker"
+    },
+    "answer": "B",
+    "explanation": "A Notary Public is appointed by the government. They perform the duty of authenticating and witnessing important documents.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 100,
+    "question": "When does a cheque become a legal document?",
+    "options": {
+      "A": "After mentioning the date",
+      "B": "After payment of money",
+      "C": "After being signed by the customer",
+      "D": "After the cheque is presented"
+    },
+    "answer": "C",
+    "explanation": "A cheque becomes a legal document after being signed by the customer. The signature validates the cheque and creates an obligation for the bank to pay.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 101,
+    "question": "Which is the easiest medium of exchange in transactions?",
+    "options": {
+      "A": "Promissory note",
+      "B": "Cheque",
+      "C": "Bill of Exchange",
+      "D": "Bank draft"
+    },
+    "answer": "B",
+    "explanation": "A cheque is the easiest medium of exchange in transactions. It is widely used and easily transferable, acting as a substitute for cash.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 102,
+    "question": "What is the main characteristic of a government note?",
+    "options": {
+      "A": "It is issued by the central bank",
+      "B": "It bears the signature of the Finance Secretary",
+      "C": "Its practical importance is less",
+      "D": "It is a promissory note"
+    },
+    "answer": "A",
+    "explanation": "The main characteristic of a government note is that it is issued by the central bank. The central bank has the exclusive authority to issue notes.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 103,
+    "question": "Which institution issues bank notes?",
+    "options": {
+      "A": "Bangladesh Bank",
+      "B": "Sonali Bank",
+      "C": "World Bank",
+      "D": "Bangladesh Government"
+    },
+    "answer": "A",
+    "explanation": "Bangladesh Bank is the institution that issues bank notes. As the central bank, only it has the authority to issue notes and coins.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 104,
+    "question": "Which of the following is NOT a bank note?",
+    "options": {
+      "A": "Tk 50 note",
+      "B": "Tk 100 note",
+      "C": "Tk 500 note",
+      "D": "Tk 1 note"
+    },
+    "answer": "D",
+    "explanation": "The Tk 1 note is not a bank note; it is issued by the Ministry of Finance, not Bangladesh Bank. It is primarily known as a government or currency note.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 105,
+    "question": "How many types of bank notes does Bangladesh Bank issue?",
+    "options": {
+      "A": "5 types",
+      "B": "6 types",
+      "C": "7 types",
+      "D": "8 types"
+    },
+    "answer": "C",
+    "explanation": "Bangladesh Bank issues 7 types of bank notes: Tk 2, Tk 5, Tk 10, Tk 20, Tk 50, Tk 100, Tk 500, and Tk 1000 (excluding Tk 1 note).",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 106,
+    "question": "What percentage of reserve does the central bank maintain for issuing bank notes?",
+    "options": {
+      "A": "20%",
+      "B": "30%",
+      "C": "40%",
+      "D": "50%"
+    },
+    "answer": "A",
+    "explanation": "For issuing bank notes, the central bank must maintain a 20% reserve (gold, foreign currency, or other assets). This helps keep the currency value stable.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 107,
+    "question": "Whose signature is on a government note?",
+    "options": {
+      "A": "Governor",
+      "B": "Prime Minister",
+      "C": "Finance Minister",
+      "D": "Finance Secretary"
+    },
+    "answer": "D",
+    "explanation": "Government notes (Tk 1 and Tk 2 notes) bear the signature of the Finance Secretary. Bank notes, on the other hand, bear the signature of the Governor of Bangladesh Bank.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 108,
+    "question": "What is the order for safely transferring money from one place to another called?",
+    "options": {
+      "A": "Bank advance",
+      "B": "Bank draft",
+      "C": "Traveler's note",
+      "D": "Traveler's cheque"
+    },
+    "answer": "B",
+    "explanation": "A bank draft is an order used for safely transferring money from one place to another. It is issued by a bank and is a guaranteed payment medium.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 109,
+    "question": "Payment in internationally recognized legal tender is payable- i. For promissory notes ii. For foreign bills of exchange iii. For traveler's cheques",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Promissory notes, foreign bills of exchange, and traveler's cheques are all payable in internationally recognized legal tender. They are used in foreign trade.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 110,
+    "question": "The essential conditions of a negotiable instrument are- i. Mention of date ii. Signature of the maker iii. Specified amount of money",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The three essential conditions of a negotiable instrument are: mention of date, signature of the maker, and specification of a definite amount of money. All are mandatory.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 111,
+    "question": "Through a letter of credit, the bank acts as a bridge- i. With the importer ii. With the producer iii. With the exporter",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Through a letter of credit, the bank acts as a bridge between the importer and the exporter. It builds trust between both parties and ensures transaction security.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 112,
+    "question": "A share warrant mentions- i. Owner's name ii. Nominal value of the share iii. Serial number of the share",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "A share warrant mentions the owner's name, the nominal value of the share, and the serial number of the share. It is a document proving ownership of shares.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 113,
+    "question": "A share certificate is- i. A non-negotiable credit instrument ii. Issued to raise capital iii. A negotiable credit instrument",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "A share certificate is a negotiable credit instrument that is issued to raise capital. It proves the shareholder's ownership and is transferable.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 114,
+    "question": "Characteristics of a bank draft are- i. Used everywhere domestically and internationally ii. Commission rate is relatively higher iii. Universal acceptability",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Characteristics of a bank draft: it is used everywhere domestically and internationally, the commission rate is relatively higher, and its acceptability is universal. All three characteristics are correct.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 115,
+    "question": "The parties to a pay order are- i. Maker ii. Payee iii. Payer",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "A pay order has three parties: the maker (issuing bank), the payee (to whom payment will be made), and the payer (the bank branch that pays the money).",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 116,
+    "question": "[Stimulus] Mr. Mahbub Hasan uses a type of negotiable paper document for settling mutual debts and credits in his financial transactions. What type of negotiable document does Mr. Mahbub Hasan use?",
+    "options": {
+      "A": "Profit document",
+      "B": "Credit document",
+      "C": "Interest document",
+      "D": "Loss document"
+    },
+    "answer": "B",
+    "explanation": "Mr. Mahbub Hasan uses a negotiable credit instrument (Negotiable Instrument) such as a cheque or bill of exchange for settling mutual debts and credits.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 117,
+    "question": "When transferring, Mr. Mahbub Hasan must fulfill the following conditions- i. Must mention the date of preparation ii. Must have the signature of the payee iii. Must specify the amount of money clearly",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "When transferring a negotiable instrument, the date must be mentioned, the payee's signature must be present, and the amount of money must be clearly specified. All three conditions must be fulfilled.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 118,
+    "question": "[Stimulus] Mr. Rahim imports machinery from Saudi Arabia... The exporter wanted a bank guarantee. Through what does the bank guarantee payment to the exporter on behalf of Mr. Karim?",
+    "options": {
+      "A": "Bank draft",
+      "B": "Pay order",
+      "C": "Letter of credit",
+      "D": "Overdraft"
+    },
+    "answer": "C",
+    "explanation": "Through a Letter of Credit (L/C), the bank guarantees payment to the exporter on behalf of the importer. It is an essential document in international trade.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  },
+  {
+    "id": 119,
+    "question": "Beneficiaries of the letter of credit issued by Rupali Bank are- i. Exporter ii. Importer iii. Government",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The exporter (guarantee of payment), the importer (guarantee of receiving goods), and the government (customs and tax collection) all benefit from the issuance of a letter of credit.",
+    "source": "Finance, Banking & Insurance, Chapter-5"
+  }
+]

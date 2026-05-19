@@ -1,0 +1,275 @@
+[
+  {
+    "id": 1,
+    "question": "What type of institution is a bank?",
+    "options": {
+      "A": "Financial",
+      "B": "Social",
+      "C": "Industrial",
+      "D": "Political"
+    },
+    "answer": "A",
+    "explanation": "A bank is a financial institution that provides financial services such as deposit collection, lending, and money transfer. It acts as the lifeblood of the economy.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 2,
+    "question": "Which bank first introduced ATM in the world?",
+    "options": {
+      "A": "American Express",
+      "B": "National City Bank of New York",
+      "C": "Barclays Bank",
+      "D": "Lloyd's Bank"
+    },
+    "answer": "B",
+    "explanation": "National City Bank of New York (now Citibank) introduced the world's first ATM (Automated Teller Machine) in 1967.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 3,
+    "question": "Which of the following acts as a substitute for currency?",
+    "options": {
+      "A": "Bond",
+      "B": "Share",
+      "C": "Pay Order",
+      "D": "Stock"
+    },
+    "answer": "C",
+    "explanation": "A Pay Order acts as a substitute for currency. It is a type of order issued by a bank and is used as a safe medium for transferring money.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 4,
+    "question": "For what need did the banking system emerge?",
+    "options": {
+      "A": "For customary needs",
+      "B": "For currency needs",
+      "C": "For exchange needs",
+      "D": "For security needs"
+    },
+    "answer": "D",
+    "explanation": "The banking system emerged from people's need to keep their wealth and money securely. Later, it began providing more diverse services.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 5,
+    "question": "Which is the most important function of a bank?",
+    "options": {
+      "A": "Money transfer",
+      "B": "Fund preservation",
+      "C": "Foreign currency transactions",
+      "D": "Deposit collection and lending"
+    },
+    "answer": "D",
+    "explanation": "Deposit collection and lending are the most important and fundamental functions of a bank. This is the main source of income for banks and the main driver of money flow in the economy.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 6,
+    "question": "Which role of a bank is considered the most important in foreign trade?",
+    "options": {
+      "A": "Collecting foreign currency",
+      "B": "Issuing letters of credit",
+      "C": "Providing information",
+      "D": "Accepting bills"
+    },
+    "answer": "B",
+    "explanation": "Issuing Letters of Credit (L/C) is the most important role of a bank in foreign trade. Through this, the bank creates a bridge of trust between the importer and exporter.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 7,
+    "question": "What is the lifeblood of a modern economy?",
+    "options": {
+      "A": "Money",
+      "B": "Bank",
+      "C": "Capital",
+      "D": "Investment"
+    },
+    "answer": "B",
+    "explanation": "The bank acts as the lifeblood of the modern economy. It energizes all sectors of the economy by collecting and distributing funds.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 8,
+    "question": "Which banking activities combine to form a mixed banking system?",
+    "options": {
+      "A": "Deposit and investment",
+      "B": "Deposit and savings",
+      "C": "Lending and investment",
+      "D": "Industry and agriculture"
+    },
+    "answer": "C",
+    "explanation": "A mixed banking system is formed by combining lending and investment banking. In this system, the bank simultaneously provides commercial loans and invests in industry.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 9,
+    "question": "In which country was the chain banking system first introduced?",
+    "options": {
+      "A": "England",
+      "B": "United States",
+      "C": "India",
+      "D": "Australia"
+    },
+    "answer": "B",
+    "explanation": "The chain banking system was first introduced in the United States. It is a system composed of multiple banks operated under the same ownership and control.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 10,
+    "question": "Which type of banking system has not yet been established in Bangladesh?",
+    "options": {
+      "A": "Branch banking system",
+      "B": "Private banking system",
+      "C": "Group banking system",
+      "D": "Mixed banking system"
+    },
+    "answer": "C",
+    "explanation": "The group banking system has not yet been established in Bangladesh. However, branch banking, private banking, and mixed banking systems are in operation.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 11,
+    "question": "What is the main objective of a commercial bank?",
+    "options": {
+      "A": "Earning profit",
+      "B": "Taking loans",
+      "C": "Supplying money",
+      "D": "Providing security for money"
+    },
+    "answer": "A",
+    "explanation": "The main objective of a commercial bank is to earn profit. The bank earns profit from the interest margin between deposits collected and loans provided.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 12,
+    "question": "Who is the proponent of Grameen Bank?",
+    "options": {
+      "A": "Dr. Md. Ali",
+      "B": "Dr. Muhammad Yunus",
+      "C": "Shaikh Siraj",
+      "D": "Dr. Mostafizur Rahman"
+    },
+    "answer": "B",
+    "explanation": "Dr. Muhammad Yunus is the proponent and founder of Grameen Bank. He received the Nobel Peace Prize in 2006 for his contribution to microcredit and poverty alleviation.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 13,
+    "question": "Which policy is currently being followed to conduct banking activities?",
+    "options": {
+      "A": "Basel-1",
+      "B": "Basel-2",
+      "C": "Basel-3",
+      "D": "Basel-4"
+    },
+    "answer": "C",
+    "explanation": "Currently, banking activities are conducted following Basel-3 policy. It was formulated to strengthen the capital base of banks after the global financial crisis of 2008.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 14,
+    "question": "What does a bank provide to customers regarding their financial solvency?",
+    "options": {
+      "A": "Letter of Credit",
+      "B": "Draft",
+      "C": "Cheque",
+      "D": "Bond"
+    },
+    "answer": "A",
+    "explanation": "A bank provides a Letter of Credit (L/C) regarding the financial solvency of customers. Through this, the bank guarantees the customer's financial capability.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 15,
+    "question": "How many types of Garnishee Orders are there?",
+    "options": {
+      "A": "5 types",
+      "B": "4 types",
+      "C": "3 types",
+      "D": "2 types"
+    },
+    "answer": "D",
+    "explanation": "There are two types of Garnishee Orders. It is a court order that prevents the bank from paying money from the customer's account.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 16,
+    "question": "A bank is- i. A trader of money ii. A trader of raw materials iii. A trader of loans",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "A bank is a trader of money and a trader of loans. It collects money and distributes it as loans. A bank is not a trader of raw materials.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 17,
+    "question": "Basel-2 is called a landmark of international consensus because- i. It determines minimum capital requirements ii. It conducts supervisory review iii. It determines market discipline",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Basel-2 is based on three pillars: minimum capital requirements, supervisory review, and market discipline. Therefore, it is called a landmark of international consensus.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 18,
+    "question": "A Garnishee Order terminates- i. After ten years pass ii. When money is collected iii. When the court order is withdrawn",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "A Garnishee Order terminates when the money is collected or when the court order is withdrawn. It does not terminate simply by the passage of a specific number of years.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 19,
+    "question": "[Stimulus] Mr. Sumon taught his students about the origin and history of the word 'bank'... According to Mr. Sumon's discussion, the word 'bank' originated from- i. Ancient Latin word ii. Ancient German word iii. Ancient Greek word",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The word 'bank' originated from the ancient Latin word 'Bancus', ancient German word 'Banck', and ancient Greek word 'Banque'. All three sources contributed to the evolution of the word bank.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 20,
+    "question": "[Stimulus] Arif is a bank officer. One day, Rahim came to open an account. But while filling out the customer information form, Rahim tried to hide much information, so Arif refused to open his account. Which customer information form is mentioned in the stimulus?",
+    "options": {
+      "A": "Customer form",
+      "B": "Account opening form",
+      "C": "KYC form",
+      "D": "MNW form"
+    },
+    "answer": "C",
+    "explanation": "The KYC (Know Your Customer) form is the form for collecting customer-related information. It collects information such as the customer's identity, address, occupation, etc., which helps prevent money laundering.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 21,
+    "question": "What is the main reason Arif refused to open Rahim's account?",
+    "options": {
+      "A": "Lack of money",
+      "B": "Lack of proper customer information",
+      "C": "Mutual enmity",
+      "D": "Prohibition by a senior bank officer"
+    },
+    "answer": "B",
+    "explanation": "A bank account cannot be opened without proper customer information. According to KYC policy, opening an account without complete customer information is against banking regulations.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  }
+]

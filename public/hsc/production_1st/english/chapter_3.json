@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 75,
     "question": "What is the main indicator of a country's economic condition and standard of living?",
     "options": {
       "A": "National Income",
@@ -13,7 +13,7 @@
     "source": "BEPZA Public School and College, Chittagong"
   },
   {
-    "id": 2,
+    "id": 76,
     "question": "What is the competitive capacity of small and medium enterprises?",
     "options": {
       "A": "High capacity",
@@ -26,7 +26,7 @@
     "source": "Anwara University College, Chittagong"
   },
   {
-    "id": 3,
+    "id": 77,
     "question": "Which is a factor determining the scale of production?",
     "options": {
       "A": "Amount of capital",
@@ -39,7 +39,7 @@
     "source": "Govt. Women's College, Pabna"
   },
   {
-    "id": 4,
+    "id": 78,
     "question": "What is a disadvantage of small and medium enterprises?",
     "options": {
       "A": "Management inefficiency",
@@ -52,7 +52,7 @@
     "source": "Govt. Akbar Ali College, Ullapara, Sirajganj"
   },
   {
-    "id": 5,
+    "id": 79,
     "question": "What does 'Scale of Production' refer to the total amount of?",
     "options": {
       "A": "Resources",
@@ -65,7 +65,7 @@
     "source": "Govt. Haji Muhammad Mohsin College, Khulna"
   },
   {
-    "id": 6,
+    "id": 80,
     "question": "The concept of economies of scale points to which level of operation?",
     "options": {
       "A": "Low level",
@@ -78,7 +78,7 @@
     "source": "Dr. Mahbubur Rahman Mollah College"
   },
   {
-    "id": 7,
+    "id": 81,
     "question": "What is the optimum scale of production?",
     "options": {
       "A": "Maximum production",
@@ -91,7 +91,7 @@
     "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
   },
   {
-    "id": 8,
+    "id": 82,
     "question": "The shares of which company are freely transferable?",
     "options": {
       "A": "Private Ltd.",
@@ -104,7 +104,7 @@
     "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
   },
   {
-    "id": 9,
+    "id": 83,
     "question": "If the value of fixed assets (excluding land and building) is 5 crore taka, what type of industry will it be?",
     "options": {
       "A": "Small industry",
@@ -117,7 +117,7 @@
     "source": "Dhaka College, Dhaka"
   },
   {
-    "id": 10,
+    "id": 84,
     "question": "If the value of fixed assets (excluding land and building) is 50 crore taka, what type of industry will it be considered?",
     "options": {
       "A": "Small industry",
@@ -130,7 +130,7 @@
     "source": "Dhaka College, Dhaka"
   },
   {
-    "id": 11,
+    "id": 85,
     "question": "Many products manufactured in small and medium enterprises can be exported after meeting which demand?",
     "options": {
       "A": "Through foreign exchange",
@@ -143,7 +143,7 @@
     "source": "Cantonment Public School and College, Jahanabad"
   },
   {
-    "id": 12,
+    "id": 86,
     "question": "Mr. Monir Hossain supplies products considering the existing demand in the market. Which importance of the scale of production is reflected here?",
     "options": {
       "A": "Controlling the market",
@@ -156,7 +156,7 @@
     "source": "Samsul Haque Khan School and College"
   },
   {
-    "id": 13,
+    "id": 87,
     "question": "Mr. Sumon is the owner of a small manufacturing firm. Whether production occurs or not, there is a cost that must be incurred. What is this type of cost called?",
     "options": {
       "A": "Variable cost",
@@ -169,7 +169,7 @@
     "source": "Samsul Haque Khan School and College"
   },
   {
-    "id": 14,
+    "id": 88,
     "question": "The value of jute was included in GNP after production. When those jute are used to make sacks, the value of the sacks is again included in GNP. What is this type of problem in calculating GNP or NI called?",
     "options": {
       "A": "Problem of estimating monetary value",
@@ -182,7 +182,7 @@
     "source": "Samsul Haque Khan School and College"
   },
   {
-    "id": 15,
+    "id": 89,
     "question": "The business community understands the trends of the country's production, consumption, investment etc. and makes various decisions and plans. Which one contributes to providing information on this?",
     "options": {
       "A": "Productivity",
@@ -195,7 +195,7 @@
     "source": "Samsul Haque Khan School and College"
   },
   {
-    "id": 16,
+    "id": 90,
     "question": "If a company's fixed assets are more than 30 crore taka and workers are more than 100, what type of enterprise is it called?",
     "options": {
       "A": "Small industry",
@@ -208,7 +208,7 @@
     "source": "Engineering University School and College, Dhaka"
   },
   {
-    "id": 17,
+    "id": 91,
     "question": "Which is an industrial enterprise under the government of Bangladesh?",
     "options": {
       "A": "Bangladesh Corporation",
@@ -221,7 +221,7 @@
     "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
   },
   {
-    "id": 18,
+    "id": 92,
     "question": "When long-run average cost increases with the increase in production, it is called—",
     "options": {
       "A": "Economies of scale",
@@ -234,7 +234,7 @@
     "source": "Shaheed Ramiz Uddin Cantonment College"
   },
   {
-    "id": 19,
+    "id": 93,
     "question": "Which is an advantage of Small and Medium Enterprises?",
     "options": {
       "A": "Personal supervision",
@@ -247,7 +247,7 @@
     "source": "Rangpur Govt. College, Rangpur"
   },
   {
-    "id": 20,
+    "id": 94,
     "question": "Large-scale enterprises requiring 30 crore taka working capital belong to which type of organization?",
     "options": {
       "A": "Goods-oriented large enterprise",
@@ -260,7 +260,7 @@
     "source": "Bogra Cantonment Public School College"
   },
   {
-    "id": 21,
+    "id": 95,
     "question": "In the service sector, which one will be considered a medium industry?",
     "options": {
       "A": "90 workers",
@@ -273,7 +273,7 @@
     "source": "Cantonment Public School and College, BUSEAMS, Parbatipur, Dinajpur"
   },
   {
-    "id": 22,
+    "id": 96,
     "question": "If an enterprise falls under 'small' in one criterion and 'medium' in another, what type of industry is it?",
     "options": {
       "A": "Large",
@@ -286,7 +286,7 @@
     "source": "Omor Goni MES College, Chittagong"
   },
   {
-    "id": 23,
+    "id": 97,
     "question": "If the average production cost increases beyond a specific scale of production, what is that production scale called?",
     "options": {
       "A": "Economies of scale",
@@ -299,7 +299,7 @@
     "source": "Hajera Taju Degree College, Dhaka"
   },
   {
-    "id": 24,
+    "id": 98,
     "question": "The way to calculate a country's GDP is— (i. Total consumption expenditure ii. Investment expenditure iii. Adding government expenditure and net exports) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -312,7 +312,7 @@
     "source": "BEPZA Public School and College, Chittagong"
   },
   {
-    "id": 25,
+    "id": 99,
     "question": "In the production sector, a small industry is— (i. Fixed assets ex-land/building 50 lakh to 10 crore ii. Fixed assets ex-land/building 10 crore to 30 crore iii. Workers 25 to 99) Which is correct?",
     "options": {
       "A": "i & iii",
@@ -325,7 +325,7 @@
     "source": "Dhaka College, Dhaka"
   },
   {
-    "id": 26,
+    "id": 100,
     "question": "Subjects included in GDP are— (i. Total consumption expenditure ii. Total investment iii. Total government expenditure) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -338,7 +338,7 @@
     "source": "BCIC College, Dhaka"
   },
   {
-    "id": 27,
+    "id": 101,
     "question": "The concept of reducing per-unit production cost by increasing production is called— (i. Economies of scale concept ii. Scale efficiency concept iii. Optimum scale of production) Which is correct?",
     "options": {
       "A": "i",
@@ -351,7 +351,7 @@
     "source": "Samsul Haque Khan School and College"
   },
   {
-    "id": 28,
+    "id": 102,
     "question": "For small enterprises, the applicable benefit is— (i. Increased production ii. Increased cost iii. Easy control) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -364,7 +364,7 @@
     "source": "Viqarunnisa Noon School and College, Dhaka"
   },
   {
-    "id": 29,
+    "id": 103,
     "question": "A firm that produces at a small and medium scale is mainly—",
     "options": {
       "A": "Large",
@@ -377,7 +377,7 @@
     "source": "Shaheed Ramiz Uddin Cantonment College"
   },
   {
-    "id": 30,
+    "id": 104,
     "question": "In determining the scale of production, emphasis must be given to— (i. Advertising ii. Skilled workers iii. Raw materials) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -390,7 +390,7 @@
     "source": "Bangladesh Navy College, Chittagong"
   },
   {
-    "id": 31,
+    "id": 105,
     "question": "Gross National Product is generally the sum of market prices of how many years?",
     "options": {
       "A": "1 year",
@@ -403,7 +403,7 @@
     "source": "BEPZA Public School and College, Chittagong"
   },
   {
-    "id": 32,
+    "id": 106,
     "question": "National income can be measured— (i. From the income side ii. From the expenditure side iii. From the perspective of personal income) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -416,7 +416,7 @@
     "source": "BEPZA Public School and College, Chittagong"
   },
   {
-    "id": 33,
+    "id": 107,
     "question": "Onik and Akash, two brothers, set up a sugar mill together. The number of workers is about seven hundred. They are able to run the operations maintaining the optimum scale of production. What type of business is this?",
     "options": {
       "A": "Small",
@@ -429,7 +429,7 @@
     "source": "Govt. Haji Muhammad Mohsin College, Khulna"
   },
   {
-    "id": 34,
+    "id": 108,
     "question": "The benefits of the scale of production are— (i. Increased productivity ii. Adequate capital iii. Proper use of machinery) Which is correct?",
     "options": {
       "A": "i",
@@ -442,7 +442,7 @@
     "source": "Govt. Haji Muhammad Mohsin College, Khulna"
   },
   {
-    "id": 35,
+    "id": 109,
     "question": "Mr. Rayhan hires skilled workers, adds advanced technology, and improves the factory environment to strengthen his factory's production management. For what purpose does Mr. Rayhan hire skilled workers?",
     "options": {
       "A": "Short-term objective",
@@ -455,7 +455,7 @@
     "source": "Dr. Mahbubur Rahman Mollah College"
   },
   {
-    "id": 36,
+    "id": 110,
     "question": "To build strong production management, it is necessary to— (i. Hire skilled workers ii. Add advanced technology and improve factory environment iii. Provide training to workers) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -468,7 +468,7 @@
     "source": "Dr. Mahbubur Rahman Mollah College"
   },
   {
-    "id": 37,
+    "id": 111,
     "question": "Roni & Co. Ltd. is a furniture manufacturing company. He determines how much furniture to produce for the company to profit. What is the determination of the amount of furniture preparation called?",
     "options": {
       "A": "Purchase scale",
@@ -481,7 +481,7 @@
     "source": "BAF Shaheen College, Jessore"
   },
   {
-    "id": 38,
+    "id": 112,
     "question": "For Roni & Co., the applicable production scales are— (i. Small and medium scale production ii. Large scale production iii. Optimum production) Which is correct?",
     "options": {
       "A": "i",
@@ -494,7 +494,7 @@
     "source": "BAF Shaheen College, Jessore"
   },
   {
-    "id": 39,
+    "id": 113,
     "question": "By determining the scale of production, Roni & Co. can benefit— (i. By reducing costs ii. By ensuring proper use of machinery iii. By developing the business sector) Which is correct?",
     "options": {
       "A": "i & ii",
@@ -507,7 +507,7 @@
     "source": "BAF Shaheen College, Jessore"
   },
   {
-    "id": 40,
+    "id": 114,
     "question": "Mr. Siddiqui established a production-oriented business in Mirpur Benarasi Palli. He is careful about maximizing the use of workers and machinery from the start. He regularly advises workers. What business did Mr. Siddiqui establish?",
     "options": {
       "A": "Loom business",
@@ -520,7 +520,7 @@
     "source": "Dr. Abdur Razzak Municipal College, Jessore"
   },
   {
-    "id": 41,
+    "id": 115,
     "question": "Mr. Siddiqui regularly advises the workers. Why?",
     "options": {
       "A": "For more income",
@@ -531,1058 +531,5 @@
     "answer": "C",
     "explanation": "His main goal is to ensure maximum output through maximum utilization of workers and machinery.",
     "source": "Dr. Abdur Razzak Municipal College, Jessore"
-  },
-  {
-    "question": "What is it called when the production quantity is determined by estimating advantages, disadvantages and market risks?",
-    "options": {
-      "A": "Sales scale",
-      "B": "Production scale",
-      "C": "Cost scale",
-      "D": "Financial scale"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 42
-  },
-  {
-    "question": "Which is a consideration in scale of production?",
-    "options": {
-      "A": "Amount of capital",
-      "B": "Suitable land",
-      "C": "Production cost",
-      "D": "Production technique"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 43
-  },
-  {
-    "question": "Mr. Kollol is the owner of Roshmi Pharmaceutical Company. He invested Tk. 20,00,00,000 in the enterprise. What type of production scale should he determine?",
-    "options": {
-      "A": "Small scale production",
-      "B": "Medium scale production",
-      "C": "Large scale production",
-      "D": "Optimum scale production"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 44
-  },
-  {
-    "question": "Mr. Eman cultivates mushrooms after determining the market demand for his mushroom project. What type of benefit will he enjoy by determining the production scale?",
-    "options": {
-      "A": "Increasing sales",
-      "B": "Increasing reputation",
-      "C": "Increasing product quality",
-      "D": "Meeting competition"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 45
-  },
-  {
-    "question": "What is the main objective of scale of production?",
-    "options": {
-      "A": "Reducing production cost",
-      "B": "Using technology",
-      "C": "Business expansion",
-      "D": "Specialization"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 46
-  },
-  {
-    "question": "The level of institutional success depends on what?",
-    "options": {
-      "A": "Cost reduction scale",
-      "B": "Managerial scale",
-      "C": "Financial scale",
-      "D": "Production scale"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 47
-  },
-  {
-    "question": "Water bill, gas bill and worker wages are what type of cost?",
-    "options": {
-      "A": "Fixed cost",
-      "B": "Variable cost",
-      "C": "Production cost",
-      "D": "Administrative cost"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 48
-  },
-  {
-    "question": "What happens as total production increases?",
-    "options": {
-      "A": "Average cost per unit increases",
-      "B": "Average cost per unit decreases",
-      "C": "Average cost per unit remains constant",
-      "D": "Total cost per unit increases"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 49
-  },
-  {
-    "question": "Which of the following is a fixed cost?",
-    "options": {
-      "A": "Raw material cost",
-      "B": "Factory rent",
-      "C": "Electricity bill",
-      "D": "Wages"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 50
-  },
-  {
-    "question": "Which is an example of fixed cost?",
-    "options": {
-      "A": "Raw materials",
-      "B": "Insurance premium",
-      "C": "Fuel cost",
-      "D": "Wages of workers"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 51
-  },
-  {
-    "question": "The additional cost to produce one more unit of a product is called what?",
-    "options": {
-      "A": "Average cost",
-      "B": "Total cost",
-      "C": "Marginal cost",
-      "D": "Variable cost"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 52
-  },
-  {
-    "question": "According to National Industrial Policy 2016, what is the capital amount for medium manufacturing enterprises (excluding land and buildings)?",
-    "options": {
-      "A": "Up to 1 crore",
-      "B": "1-10 crore",
-      "C": "10-30 crore",
-      "D": "More than 30 crore"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 53
-  },
-  {
-    "question": "For a small manufacturing enterprise, what is the fixed asset value excluding land and buildings?",
-    "options": {
-      "A": "Up to 50 lakh",
-      "B": "Up to 1 crore",
-      "C": "Up to 75 lakh",
-      "D": "Up to 25 lakh"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 54
-  },
-  {
-    "question": "What is the minimum capital for small manufacturing industry?",
-    "options": {
-      "A": "50 lakh",
-      "B": "75 lakh",
-      "C": "25 lakh",
-      "D": "1 crore"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 55
-  },
-  {
-    "question": "If a manufacturing establishment has 50 employees and Tk 4 crore capital, what type is it?",
-    "options": {
-      "A": "Small",
-      "B": "Medium",
-      "C": "Large",
-      "D": "Micro"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 56
-  },
-  {
-    "question": "What is the number of employees in a small service enterprise?",
-    "options": {
-      "A": "Up to 15",
-      "B": "Up to 25",
-      "C": "Up to 50",
-      "D": "Up to 10"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 57
-  },
-  {
-    "question": "What is the minimum capital for small service industry?",
-    "options": {
-      "A": "10 lakh",
-      "B": "25 lakh",
-      "C": "50 lakh",
-      "D": "1 crore"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 58
-  },
-  {
-    "question": "For small manufacturing enterprise, the fixed asset value excluding land and buildings is:",
-    "options": {
-      "A": "50 lakh",
-      "B": "75 lakh",
-      "C": "1 crore",
-      "D": "25 lakh"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 59
-  },
-  {
-    "question": "How many workers in a small manufacturing enterprise?",
-    "options": {
-      "A": "Up to 25",
-      "B": "Up to 50",
-      "C": "Up to 15",
-      "D": "Up to 10"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 60
-  },
-  {
-    "question": "Which is an advantage of a large enterprise?",
-    "options": {
-      "A": "Efficient management",
-      "B": "Quick decision making",
-      "C": "Maintaining secrecy",
-      "D": "Healthy work environment"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 61
-  },
-  {
-    "question": "Who provides the initial capital in small and medium enterprises?",
-    "options": {
-      "A": "Bank",
-      "B": "Government",
-      "C": "Owner",
-      "D": "NGO"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 62
-  },
-  {
-    "question": "Ceteris paribus, if the scale of production is higher, what happens to the per-unit production cost?",
-    "options": {
-      "A": "Decreases",
-      "B": "Increases",
-      "C": "Remains constant",
-      "D": "Remains normal"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 63
-  },
-  {
-    "question": "What type of production scale is it when production is done at minimum cost using maximum efficiency?",
-    "options": {
-      "A": "Diseconomies scale",
-      "B": "Economies scale",
-      "C": "Optimum scale",
-      "D": "Production scale"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 64
-  },
-  {
-    "question": "When does the average production cost keep decreasing up to a certain level?",
-    "options": {
-      "A": "When capital decreases",
-      "B": "When production decreases",
-      "C": "When sales decrease",
-      "D": "When production increases"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 65
-  },
-  {
-    "question": "At which production scale is the profit of an enterprise the highest?",
-    "options": {
-      "A": "Economies scale",
-      "B": "Diseconomies scale",
-      "C": "Optimum scale",
-      "D": "Excessive scale"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 66
-  },
-  {
-    "question": "At what production quantity is average cost the lowest?",
-    "options": {
-      "A": "Large scale",
-      "B": "Small scale",
-      "C": "Optimum scale",
-      "D": "Medium scale"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 67
-  },
-  {
-    "question": "Which of the following is a cause of diseconomies of scale?",
-    "options": {
-      "A": "Low marketing cost",
-      "B": "New technology",
-      "C": "Distribution of fixed construction cost",
-      "D": "Distribution of fixed operating cost"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 68
-  },
-  {
-    "question": "In 1913, mineral resources were discovered in Bhola. To which type of enterprise can the government entrust the responsibility of extracting these resources?",
-    "options": {
-      "A": "Small enterprise",
-      "B": "Medium enterprise",
-      "C": "Large enterprise",
-      "D": "Public Ltd. Company"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 69
-  },
-  {
-    "question": "Which is a characteristic of a large enterprise?",
-    "options": {
-      "A": "Few employees",
-      "B": "Extensive market",
-      "C": "Maintaining secrecy",
-      "D": "Quick decision"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 70
-  },
-  {
-    "question": "Which type of enterprise has greater opportunity to contribute to national development?",
-    "options": {
-      "A": "Small",
-      "B": "Medium",
-      "C": "Large",
-      "D": "Cooperative"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 71
-  },
-  {
-    "question": "What is needed as fuel for establishing an industry?",
-    "options": {
-      "A": "Solar power",
-      "B": "Coal",
-      "C": "Kerosene",
-      "D": "Electricity"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 72
-  },
-  {
-    "question": "Mr. Palash established a leather processing factory. He invested Tk. 20 crore and employed 200 workers. The main problem of the enterprise is raw material collection and transportation. Which of the following is correct?",
-    "options": {
-      "A": "i",
-      "B": "ii",
-      "C": "i & ii",
-      "D": "i, ii & iii"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 73
-  },
-  {
-    "question": "Seven friends established a paper mill named 'Bondhu Papers'. They raised capital by issuing shares in the market. The enterprise was able to earn profit by using the optimum production scale. What type of business is 'Bondhu Papers'?",
-    "options": {
-      "A": "Large",
-      "B": "Small",
-      "C": "Medium",
-      "D": "Cooperative"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 74
-  },
-  {
-    "question": "'Bondhu Papers' - the advantages of the production scale used are -",
-    "options": {
-      "A": ". i",
-      "B": ". ii",
-      "C": ". i, ii & iii",
-      "D": ". i, ii"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 75
-  },
-  {
-    "question": "Mr. Sajal produces 3,000 shirts per month and his average production cost is at the minimum. Currently, to meet the additional demand for his shirts, he decides to produce 4,000 shirts per month. Mr. Sajal's production of 3,000 shirts per month indicates which type of production scale?",
-    "options": {
-      "A": "Small",
-      "B": "Economies scale",
-      "C": "Diseconomies scale",
-      "D": "Optimum"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 76
-  },
-  {
-    "question": "The difficulty that will arise from Mr. Sajal's current decision is-",
-    "options": {
-      "A": "i",
-      "B": "ii",
-      "C": "i & ii",
-      "D": "i, ii & iii"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 77
-  },
-  {
-    "question": "What is scale of production?",
-    "options": {
-      "A": "Cost of produced goods",
-      "B": "Quantity of produced goods",
-      "C": "Quality of produced goods",
-      "D": "Quantity of raw materials used in production"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 78
-  },
-  {
-    "question": "The quantity of what is called 'Scale of Production'?",
-    "options": {
-      "A": "Money",
-      "B": "Goods",
-      "C": "Income",
-      "D": "Profit"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 79
-  },
-  {
-    "question": "Increasing the quantity of what is the main objective of scale of production?",
-    "options": {
-      "A": "Production",
-      "B": "Workers",
-      "C": "Raw materials",
-      "D": "Sales"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 80
-  },
-  {
-    "question": "Which of the following is a fixed cost?",
-    "options": {
-      "A": "Raw material cost",
-      "B": "Factory rent",
-      "C": "Electricity bill",
-      "D": "Wages"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 81
-  },
-  {
-    "question": "The concept of economies of scale points to which level of operation?",
-    "options": {
-      "A": "High level",
-      "B": "Medium level",
-      "C": "Low level",
-      "D": "Optimum level"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 82
-  },
-  {
-    "question": "What happens as a result of economies of scale?",
-    "options": {
-      "A": "Product price increases",
-      "B": "Average cost increases",
-      "C": "Waste increases",
-      "D": "Profit increases"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 83
-  },
-  {
-    "question": "What happens as a result of economies of scale?",
-    "options": {
-      "A": "Per-unit production cost decreases up to a certain level",
-      "B": "Per-unit fixed cost increases",
-      "C": "Per-unit variable cost decreases",
-      "D": "Total profit decreases"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 84
-  },
-  {
-    "question": "Which is an internal economy of scale?",
-    "options": {
-      "A": "Technical economy",
-      "B": "Centralization economy",
-      "C": "Information economy",
-      "D": "Fragmentation economy"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 85
-  },
-  {
-    "question": "With how many types of economies is the concept of economies of scale associated?",
-    "options": {
-      "A": "1",
-      "B": "2",
-      "C": "3",
-      "D": "4"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 86
-  },
-  {
-    "question": "Which of the following is a variable cost?",
-    "options": {
-      "A": "Executive salary",
-      "B": "Raw material cost",
-      "C": "Factory rent",
-      "D": "Depreciation of machinery"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 87
-  },
-  {
-    "question": "Which is an example of fixed cost?",
-    "options": {
-      "A": "Raw materials",
-      "B": "Insurance premium",
-      "C": "Fuel cost",
-      "D": "Wages of workers"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 88
-  },
-  {
-    "question": "The additional cost to produce one more unit of a product is called what?",
-    "options": {
-      "A": "Average cost",
-      "B": "Total cost",
-      "C": "Marginal cost",
-      "D": "Variable cost"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 89
-  },
-  {
-    "question": "The characteristics of economies of scale are-",
-    "options": {
-      "A": "i",
-      "B": "i & ii",
-      "C": "ii & iii",
-      "D": "i, ii & iii"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 90
-  },
-  {
-    "question": "At optimum production scale-",
-    "options": {
-      "A": "i & ii",
-      "B": "i & iii",
-      "C": "ii & iii",
-      "D": "i, ii & iii"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 91
-  },
-  {
-    "question": "At optimum production scale-",
-    "options": {
-      "A": "i",
-      "B": "i & iii",
-      "C": "ii & iii",
-      "D": "i, ii & iii"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 92
-  },
-  {
-    "question": "The advantages of optimum production scale are-",
-    "options": {
-      "A": "i & ii",
-      "B": "i & iii",
-      "C": "ii & iii",
-      "D": "i, ii & iii"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 93
-  },
-  {
-    "question": "In forming a large enterprise-",
-    "options": {
-      "A": "i & ii",
-      "B": "i & iii",
-      "C": "ii & iii",
-      "D": "i, ii & iii"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 94
-  },
-  {
-    "question": "In a large enterprise, there is more-",
-    "options": {
-      "A": "i & ii",
-      "B": "i & iii",
-      "C": "ii & iii",
-      "D": "i, ii & iii"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 95
-  },
-  {
-    "question": "The reason for the lack of expansion of large industries in Bangladesh is-",
-    "options": {
-      "A": "i",
-      "B": "i & ii",
-      "C": "ii & iii",
-      "D": "i, ii & iii"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 96
-  },
-  {
-    "question": "How will the enterprise be affected if production keeps increasing while fixed cost remains the same?",
-    "options": {
-      "A": "i",
-      "B": "i & ii",
-      "C": "i & iii",
-      "D": "i, ii & iii"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 97
-  },
-  {
-    "question": "According to the stimulus, what type of enterprise did Sujan establish?",
-    "options": {
-      "A": "Small",
-      "B": "Medium",
-      "C": "Large",
-      "D": "Autonomous"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 98
-  },
-  {
-    "question": "At the initial stage, what type of industry is Mr. Ruhul's enterprise?",
-    "options": {
-      "A": "Micro",
-      "B": "Small",
-      "C": "Medium",
-      "D": "Large"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 99
-  },
-  {
-    "question": "As a result of investment, what type of industry will Mr. Ruhul's enterprise become?",
-    "options": {
-      "A": "Micro",
-      "B": "Small",
-      "C": "Medium",
-      "D": "Large"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 100
-  },
-  {
-    "question": "What type of enterprise is the pen factory established by Mr. Akash?",
-    "options": {
-      "A": "Micro",
-      "B": "Small",
-      "C": "Medium",
-      "D": "Large"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 101
-  },
-  {
-    "question": "What is the size of the enterprise described in the stimulus?",
-    "options": {
-      "A": "Small",
-      "B": "Medium",
-      "C": "Large",
-      "D": "Small and Medium"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 102
-  },
-  {
-    "question": "What type of industry was the enterprise in the first stage?",
-    "options": {
-      "A": "Cottage",
-      "B": "Small",
-      "C": "Large",
-      "D": "Medium"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 103
-  },
-  {
-    "question": "As a result of subsequent investment and hiring of workers, what type of industry will Suja's enterprise become?",
-    "options": {
-      "A": "Cottage",
-      "B": "Small",
-      "C": "Medium",
-      "D": "Large"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 104
-  },
-  {
-    "question": "What scale of enterprise does Mr. Fahim's establishment belong to?",
-    "options": {
-      "A": "Small",
-      "B": "Medium",
-      "C": "Micro",
-      "D": "Large"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 105
-  },
-  {
-    "question": "The reason for the enterprise's improvement to the current state is-",
-    "options": {
-      "A": "i",
-      "B": "i & ii",
-      "C": "ii & iii",
-      "D": "i, ii & iii"
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 106
-  },
-  {
-    "question": "Explain the concept of scale of production.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 107
-  },
-  {
-    "question": "Discuss the importance of scale of production.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 108
-  },
-  {
-    "question": "What is meant by the concept of economies of scale?",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 109
-  },
-  {
-    "question": "Discuss the economies associated with the concept of economies of scale.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 110
-  },
-  {
-    "question": "What is meant by diseconomies of scale?",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 111
-  },
-  {
-    "question": "Explain the concept of small enterprise.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 112
-  },
-  {
-    "question": "What is meant by medium enterprise?",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 113
-  },
-  {
-    "question": "Write down the characteristics of small and medium enterprises.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 114
-  },
-  {
-    "question": "Write down the importance of small and medium enterprises from an economic perspective.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 115
-  },
-  {
-    "question": "Show five differences between small and medium enterprises.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 116
-  },
-  {
-    "question": "What are the advantages of establishing small and medium enterprises?",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 117
-  },
-  {
-    "question": "Write down the disadvantages of small and medium enterprises.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 118
-  },
-  {
-    "question": "What is meant by large enterprise?",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 119
-  },
-  {
-    "question": "Write down the importance of large enterprises from a business perspective.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 120
-  },
-  {
-    "question": "Show the differences between small and medium enterprises and large enterprises.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 121
-  },
-  {
-    "question": "What are the reasons for large enterprises not expanding in Bangladesh?",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "",
-    "explanation": "",
-    "source": "Textbook",
-    "id": 122
   }
 ]

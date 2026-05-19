@@ -1,0 +1,1302 @@
+﻿[
+    {
+        "id":  251,
+        "question":  "What is social work?",
+        "options":  {
+                        "A":  "The science of planning",
+                        "B":  "The science of discipline",
+                        "C":  "The science of practice",
+                        "D":  "Theoretical Science"
+                    },
+        "answer":  "C",
+        "explanation":  "Social work is called Science of Practice. It is practical application of theoretical knowledge.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  252,
+        "question":  "\u0027Method is a conscious process, a well-planned means of achieving specific goals\u0027 - Whose quote?",
+        "options":  {
+                        "A":  "Dr. Abdul Hakim",
+                        "B":  "Dr. Ali Akbar",
+                        "C":  "HB Trekker",
+                        "D":  "Mary Richmond"
+                    },
+        "answer":  "C",
+        "explanation":  "H. B. H.B. Trecker made this statement about the method.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  253,
+        "question":  "Who wrote the book The Social System?",
+        "options":  {
+                        "A":  "T. person",
+                        "B":  "Nimkopf",
+                        "C":  "Friedlander",
+                        "D":  "Ogburn"
+                    },
+        "answer":  "A",
+        "explanation":  "Talcott Parsons is the author of the book The Social System.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  254,
+        "question":  "What are the methods by which social work knowledge is applied to the practice of the profession?",
+        "options":  {
+                        "A":  "Source of social work",
+                        "B":  "Methods of social work",
+                        "C":  "Nature of social work",
+                        "D":  "Scope of social work"
+                    },
+        "answer":  "B",
+        "explanation":  "The methods of applying knowledge of social work in practice are called methods of social work.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  255,
+        "question":  "Why is social work called a helping method?",
+        "options":  {
+                        "A":  "Practical application of theoretical knowledge",
+                        "B":  "Helps individuals, groups and collectives",
+                        "C":  "As new areas of knowledge are created",
+                        "D":  "Determines the nature of the problem"
+                    },
+        "answer":  "B",
+        "explanation":  "Social work helps individuals, groups and collectives so it is called a helping approach.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  256,
+        "question":  "What are the basic and auxiliary methods of social work?",
+        "options":  {
+                        "A":  "Three",
+                        "B":  "Four",
+                        "C":  "Five",
+                        "D":  "Six"
+                    },
+        "answer":  "D",
+        "explanation":  "There are 6 methods of social work. Of these 3 are basic (individual, group, collective) and 3 are auxiliary (research, administration, social activities).",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  257,
+        "question":  "Social work is a scientific method. What does this prove?",
+        "options":  {
+                        "A":  "There are specific methods of social work",
+                        "B":  "Social work has scope",
+                        "C":  "Have theoretical knowledge",
+                        "D":  "Social work has scientific knowledge"
+                    },
+        "answer":  "A",
+        "explanation":  "Social work has specific methods—this proves that it is a scientific method.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  258,
+        "question":  "Ratan is doing Honors in a subject with emphasis on research, survey etc. Which of the following does the subject refer to?",
+        "options":  {
+                        "A":  "Social work",
+                        "B":  "Psychology",
+                        "C":  "Economy",
+                        "D":  "Political Science"
+                    },
+        "answer":  "A",
+        "explanation":  "Emphasis is placed on research and survey in social work. It is a research based profession.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  259,
+        "question":  "Party social work helps party members- i. In solving personal problems ii. iii. To solve party problems. In collective problem solving",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "A",
+        "explanation":  "Team social work helps team members to solve personal and team problems. Collective problems are under the purview of collective social work.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  260,
+        "question":  "Collective development helps in the overall welfare and development of the people of the collective- i. By people\u0027s resources and efforts ii. Through government resources and efforts iii. Uses the resources and efforts of specialized groups",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "A",
+        "explanation":  "Aggregate development uses people\u0027s own resources and efforts and the resources and efforts of the government. Not a special group effort.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  261,
+        "question":  "In which year was the concept of \u0027case work\u0027 first used?",
+        "options":  {
+                        "A":  "1910",
+                        "B":  "1911",
+                        "C":  "1920",
+                        "D":  "1921"
+                    },
+        "answer":  "B",
+        "explanation":  "Case work concept was first used in 1911.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  262,
+        "question":  "Who gave the definition of individual social work in 1957?",
+        "options":  {
+                        "A":  "Skidmore",
+                        "B":  "Sweden",
+                        "C":  "Bowers",
+                        "D":  "Helen Harris Perlman"
+                    },
+        "answer":  "D",
+        "explanation":  "Helen Harris Perlman defined individual social work in 1957.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  263,
+        "question":  "At what point does the individual become enriched with specific knowledge of social work?",
+        "options":  {
+                        "A":  "Between 1910 and 1920",
+                        "B":  "Between 1920 and 1930",
+                        "C":  "Between 1930 and 1940",
+                        "D":  "Between 1940 and 1950"
+                    },
+        "answer":  "B",
+        "explanation":  "Between 1920 and 1930, individual social work flourished with a specific body of knowledge.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  264,
+        "question":  "According to Mary Richmond, how many years of life does she spend establishing individual social work as a process of social work?",
+        "options":  {
+                        "A":  "20 years",
+                        "B":  "25 years",
+                        "C":  "30 years",
+                        "D":  "35 years"
+                    },
+        "answer":  "B",
+        "explanation":  "Mary Richmond spent 25 years of her life establishing individual social work as a social work process.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  265,
+        "question":  "H. H. What is the name of the book written by Perlman?",
+        "options":  {
+                        "A":  "The Nursery of Human Nature",
+                        "B":  "Social Work Year Book",
+                        "C":  "World Community Social Case Work",
+                        "D":  "A Problem Solving Process"
+                    },
+        "answer":  "D",
+        "explanation":  "H. H. Perlman\u0027s book is called \u0027Social Casework: A Problem Solving Process\u0027.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  266,
+        "question":  "Which one helps the client to rehabilitate?",
+        "options":  {
+                        "A":  "Social Administration",
+                        "B":  "Social Research",
+                        "C":  "Social activities",
+                        "D":  "Individual social work"
+                    },
+        "answer":  "D",
+        "explanation":  "Social casework helps the client in rehabilitation.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  267,
+        "question":  "Who is the author of the proposal for guidelines for individual social work?",
+        "options":  {
+                        "A":  "Dr. Abdul Hakeem Govt",
+                        "B":  "Principal Cairns",
+                        "C":  "Marshall",
+                        "D":  "Abdul Halim"
+                    },
+        "answer":  "A",
+        "explanation":  "Dr. Abdul Hakim Sarkar is the author of the proposal for guidelines for individual social work.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  268,
+        "question":  "Which is the basic unit of social work practice?",
+        "options":  {
+                        "A":  "Individuals",
+                        "B":  "Society",
+                        "C":  "Family",
+                        "D":  "State"
+                    },
+        "answer":  "A",
+        "explanation":  "Individual is the basic unit of social work practice.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  269,
+        "question":  "What are the prerequisites for an individual to become a client in social work?",
+        "options":  {
+                        "A":  "Being a professional representative",
+                        "B":  "Being extremely brave",
+                        "C":  "Being disabled",
+                        "D":  "Being troubled"
+                    },
+        "answer":  "D",
+        "explanation":  "Troubled person is a prerequisite for becoming a client in social work.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  270,
+        "question":  "Individuals and problems What kind of elements of individual social work?",
+        "options":  {
+                        "A":  "own main component",
+                        "B":  "Psychological components",
+                        "C":  "Internal components",
+                        "D":  "External components"
+                    },
+        "answer":  "A",
+        "explanation":  "Individuals and Problems Individuals are their own major components of social work.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  271,
+        "question":  "Who has a significant contribution to the management of the agency, from solving client problems, to formulating and implementing plans and programs?",
+        "options":  {
+                        "A":  "of the client",
+                        "B":  "Of Government Representative",
+                        "C":  "Professional representation",
+                        "D":  "of private representative"
+                    },
+        "answer":  "C",
+        "explanation":  "Professional Representative (Professional Representative) i.e. social worker has a significant contribution in these works.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  272,
+        "question":  "In individual social work client problems are solved according to what?",
+        "options":  {
+                        "A":  "Type of problem",
+                        "B":  "According to social norms",
+                        "C":  "According to the person",
+                        "D":  "As per process"
+                    },
+        "answer":  "D",
+        "explanation":  "In individual social work the client\u0027s problem is solved according to a specific process.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  273,
+        "question":  "Individual social work is a helping process through which troubled individuals- i. Develops latent potential ii. Confronts problems iii. Adapts to the environment",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Through individual social work the troubled person is able to do all three things.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  274,
+        "question":  "Minti Roy is suffering from psychological problems. It is observed in his case- i. Personality disorders ii. Internal conflict of the person iii. Economic disaster",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "A",
+        "explanation":  "Psychological problems include personality disturbances and internal conflicts. Economic disaster is not a direct psychological problem.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  275,
+        "question":  "[Stimulus] Students of a school in a remote area do not come to school. Village people tie up cows there. Again, eveteasers often harass girls in front of a girls\u0027 school in Dhaka city. What methods of social work can be applied to solve the problems of village educational institutions mentioned in Uddeep?",
+        "options":  {
+                        "A":  "Individual social work",
+                        "B":  "Collective Development",
+                        "C":  "Team social work",
+                        "D":  "Aggregate Organization"
+                    },
+        "answer":  "B",
+        "explanation":  "Community Development method can be applied to solve the problems of village educational institutions.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  276,
+        "question":  "Uddeep is the first to solve the problems of both the mentioned schools- i. Assistance of law enforcement may be taken ii. Parents of students can be made aware iii. Respectable people in the society can be made aware",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "C",
+        "explanation":  "First parents of students and respectable people of the society should be made aware. Law enforcement may be needed later.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  277,
+        "question":  "Which principle is applied from the first meeting with the client until getting to know him completely?",
+        "options":  {
+                        "A":  "Heterogeneous policy",
+                        "B":  "Secondary principles",
+                        "C":  "General principles",
+                        "D":  "Acceptance policy"
+                    },
+        "answer":  "D",
+        "explanation":  "Principle of Acceptance is applied from first meeting to full knowledge.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  278,
+        "question":  "According to the nature of the problem, situation and need, problem diagnosis can be divided into how many categories?",
+        "options":  {
+                        "A":  "2",
+                        "B":  "3",
+                        "C":  "4",
+                        "D":  "5"
+                    },
+        "answer":  "B",
+        "explanation":  "Problem diagnosis can be divided into 3 categories: general, natural and causal.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  279,
+        "question":  "The individual social work process is a problem solving process in which methods are systematically and systematically applied. Whose quote?",
+        "options":  {
+                        "A":  "HH Perlman",
+                        "B":  "WA Friedlander",
+                        "C":  "Marry Richmond",
+                        "D":  "HB Tracker"
+                    },
+        "answer":  "A",
+        "explanation":  "Helen Harris Perlman (H.H. Perlman) gave this definition of individual social work process.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  280,
+        "question":  "Protection of privacy, recognition of individual dignity, evaluation of competence, provision of individual liberty—these are the principles of which system?",
+        "options":  {
+                        "A":  "Individual social work",
+                        "B":  "Team Social Work",
+                        "C":  "Aggregate development",
+                        "D":  "of social activities"
+                    },
+        "answer":  "A",
+        "explanation":  "These are the principles of Social Casework.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  281,
+        "question":  "Which is the most important source of data collection?",
+        "options":  {
+                        "A":  "Party",
+                        "B":  "Aggregation",
+                        "C":  "Society",
+                        "D":  "Person"
+                    },
+        "answer":  "D",
+        "explanation":  "The individual (client himself) is the most important source of data collection.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  282,
+        "question":  "Which is the first level of problem solving in individual social work?",
+        "options":  {
+                        "A":  "Problem diagnosis",
+                        "B":  "Realization",
+                        "C":  "Solution",
+                        "D":  "Termination"
+                    },
+        "answer":  "A",
+        "explanation":  "The first level of problem solving in individual social work is assessment/diagnosis.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  283,
+        "question":  "The principle of self-determination of individual social work is-",
+        "options":  {
+                        "A":  "Emphasis on social worker\u0027s own intervention",
+                        "B":  "Recognition of client\u0027s independent choice and decision-making",
+                        "C":  "Development and control of problem solving environment",
+                        "D":  "Regulation of social work policy and strategy implementation policy"
+                    },
+        "answer":  "B",
+        "explanation":  "At the core of the principle of self-determination is the recognition of the client\u0027s independent choice and decision-making.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  284,
+        "question":  "By which method is help in changing the behavior of the individual to develop his inherent abilities?",
+        "options":  {
+                        "A":  "Material assistance scheme",
+                        "B":  "Corrective Procedures",
+                        "C":  "Preventive Procedures",
+                        "D":  "Remedial Procedures"
+                    },
+        "answer":  "D",
+        "explanation":  "Remedial approach helps to change behavior by developing individual\u0027s inherent abilities.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  285,
+        "question":  "Through which level does formal termination of problem solving occur?",
+        "options":  {
+                        "A":  "Problem diagnosis",
+                        "B":  "Realization",
+                        "C":  "Evaluation",
+                        "D":  "Termination"
+                    },
+        "answer":  "D",
+        "explanation":  "Termination is the formal end of problem solving through the Termination stage.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  286,
+        "question":  "Why does social work adopt an anthropological approach to problem solving?",
+        "options":  {
+                        "A":  "for analyzing human behavior",
+                        "B":  "Analysis of daily activities of people",
+                        "C":  "To solve problems of urbanization",
+                        "D":  "Collecting objective data to solve problems"
+                    },
+        "answer":  "D",
+        "explanation":  "Social work adopts ethnographic methods to collect objective data to solve problems.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  287,
+        "question":  "What is meant by holistic view?",
+        "options":  {
+                        "A":  "Service delivery by analyzing problem types",
+                        "B":  "Providing services considering all physical, mental, social and spiritual aspects of the person",
+                        "C":  "Providing service to various groups in the society",
+                        "D":  "None"
+                    },
+        "answer":  "B",
+        "explanation":  "Holistic approach refers to the provision of services by considering all aspects of a person\u0027s physical, mental, social and spiritual aspects. It is a way of looking at the person as a whole.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  288,
+        "question":  "Which principle of individual social work assesses the problems of each individual separately?",
+        "options":  {
+                        "A":  "Communication policy",
+                        "B":  "Acceptance policy",
+                        "C":  "General principles",
+                        "D":  "Privatization of individuals"
+                    },
+        "answer":  "D",
+        "explanation":  "In the principle of Individualization, each person\u0027s problem is evaluated separately.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  289,
+        "question":  "The main steps to be taken to diagnose the problem include- i. Measurement of the problem ii. Relationship between origin and finite state iii. Classification of problem diagnosis",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All three steps are taken to diagnose the problem. Measurement, correlation and classification are all important.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  290,
+        "question":  "Mr. Jewel is a social worker. Jewel Sahib\u0027s aim in establishing relationship with the person is- i. Assist in solving customer problems ii. Collection of all information related to the problem iii. Creating confidence among clients",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All three goals can be achieved through relationship building. Problem solving, information gathering and confidence building.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  291,
+        "question":  "\u0027This relationship may also be through whole person social work processes whose skills influence transitions, reflection, problem diagnosis and resolution.\u0027 Whose quote?",
+        "options":  {
+                        "A":  "Henry S. Mass",
+                        "B":  "Biestek",
+                        "C":  "Gordon Hamilton",
+                        "D":  "Earl Eubank"
+                    },
+        "answer":  "B",
+        "explanation":  "Biestek makes this statement about the importance of rapport.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  292,
+        "question":  "\u0027Rapo is a state of harmony, harmony and empathy in the social work interview which establishes a mutual understanding and effective relationship between the client and the social worker.\u0027-Whose quote?",
+        "options":  {
+                        "A":  "Encyclopedia",
+                        "B":  "Gordon Hamilton",
+                        "C":  "Dictionary of social work",
+                        "D":  "Harry S. Mass"
+                    },
+        "answer":  "C",
+        "explanation":  "This definition of Rapo is given in Social Work Dictionary.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  293,
+        "question":  "What depends on the success of individual social work?",
+        "options":  {
+                        "A":  "Professional relations",
+                        "B":  "Family ties",
+                        "C":  "of social status",
+                        "D":  "of clan status"
+                    },
+        "answer":  "A",
+        "explanation":  "The success of individual social work depends on professional relationship.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  294,
+        "question":  "What is initiated between client and social worker in individual social work through mutual acceptance?",
+        "options":  {
+                        "A":  "of conflict",
+                        "B":  "Sincerity",
+                        "C":  "Professional relations",
+                        "D":  "Monopollution"
+                    },
+        "answer":  "C",
+        "explanation":  "Professional relationship between client and social worker begins with mutual acceptance.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  295,
+        "question":  "How many districts of Bangladesh have correctional programs for correction of crime and juvenile delinquency?",
+        "options":  {
+                        "A":  "12",
+                        "B":  "17",
+                        "C":  "23",
+                        "D":  "27"
+                    },
+        "answer":  "C",
+        "explanation":  "Crime and juvenile delinquency correctional programs are in operation in 23 districts of Bangladesh.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  296,
+        "question":  "The success of Bangladesh\u0027s rural development program largely depends on which?",
+        "options":  {
+                        "A":  "On central leadership",
+                        "B":  "On local rich people",
+                        "C":  "On local leadership",
+                        "D":  "On Local Judiciary"
+                    },
+        "answer":  "C",
+        "explanation":  "The success of rural development programs depends on local leadership.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  297,
+        "question":  "By which method can the problem of drug addiction, moral values ​​and decadence be eliminated?",
+        "options":  {
+                        "A":  "Social groups",
+                        "B":  "Social policy",
+                        "C":  "Collective social work",
+                        "D":  "Individual social work"
+                    },
+        "answer":  "D",
+        "explanation":  "The problem of drug addiction, moral values ​​and degeneration can be eliminated through individual social work.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  298,
+        "question":  "What is the name of the rehabilitation program based on individual social work in Bangladesh?",
+        "options":  {
+                        "A":  "Disability Welfare Programme",
+                        "B":  "Disability Program",
+                        "C":  "Disabled Welfare Programme",
+                        "D":  "Blind Development Programme"
+                    },
+        "answer":  "A",
+        "explanation":  "Disability Welfare Program is running in Bangladesh based on individual social work.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  299,
+        "question":  "Factors specifically involving both the social worker and the client in the RAPO establishment process include- i. Attitude ii. Expectations iii. the message",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Establishing rapo involves all three factors—attitudes, expectations, and motivations of both the social worker and the client.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  300,
+        "question":  "Individual social work plays a role in rural development- i. Choosing the right leader ii. Through leadership development among leaders iii. Establishes linkages between local and central leadership",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Individual social work plays all three roles in rural development. Leader selection, leadership development and networking.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  301,
+        "question":  "What is called social work?",
+        "options":  {
+                        "A":  "The science of planning",
+                        "B":  "The Science of Discipline",
+                        "C":  "The science of practice",
+                        "D":  "Theoretical Science"
+                    },
+        "answer":  "C",
+        "explanation":  "Social work is called Science of Practice. It is practical application of theoretical knowledge.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  302,
+        "question":  "\u0027Method is a conscious process, a well-planned means of achieving specific goals\u0027 - Whose quote?",
+        "options":  {
+                        "A":  "Dr. Abdul Hakim",
+                        "B":  "Dr. Ali Akbar",
+                        "C":  "H B Trekker",
+                        "D":  "Mary Richmond"
+                    },
+        "answer":  "C",
+        "explanation":  "H. B. H.B. Trecker made this statement about the method.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  303,
+        "question":  "Who wrote the book The Social System?",
+        "options":  {
+                        "A":  "T. person",
+                        "B":  "Nimkopf",
+                        "C":  "Friedlander",
+                        "D":  "Ogburn"
+                    },
+        "answer":  "A",
+        "explanation":  "Talcott Parsons is the author of The Social System.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  304,
+        "question":  "What are the methods by which the social work knowledge is applied to the practice of the profession?",
+        "options":  {
+                        "A":  "Source of social work",
+                        "B":  "Methods of social work",
+                        "C":  "Nature of social work",
+                        "D":  "Scope of social work"
+                    },
+        "answer":  "B",
+        "explanation":  "The methods of applying the knowledge of social work in practice are called methods of social work.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  305,
+        "question":  "Why is social work called a helping method?",
+        "options":  {
+                        "A":  "Practical application of theoretical knowledge",
+                        "B":  "Helps individuals, groups and collectives",
+                        "C":  "As new areas of knowledge are created",
+                        "D":  "states the nature of the problem"
+                    },
+        "answer":  "B",
+        "explanation":  "Social work helps individuals, groups and collectives so it is called a helping approach.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  306,
+        "question":  "What are the basic and auxiliary methods of social work?",
+        "options":  {
+                        "A":  "Three",
+                        "B":  "Four",
+                        "C":  "Five",
+                        "D":  "Six"
+                    },
+        "answer":  "D",
+        "explanation":  "There are 6 methods of social work. Of these 3 are basic (individual, group, collective) and 3 are auxiliary (research, administration, social activities).",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  307,
+        "question":  "Social work is a scientific method. What does this prove?",
+        "options":  {
+                        "A":  "There are specific methods of social work",
+                        "B":  "Social work has its application",
+                        "C":  "has theoretical knowledge",
+                        "D":  "Social work has scientific knowledge"
+                    },
+        "answer":  "A",
+        "explanation":  "Social work has specific methods—this proves that it is a scientific method.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  308,
+        "question":  "Ratan is doing Honors in a subject with emphasis on research, survey etc. Which of the following does the subject refer to?",
+        "options":  {
+                        "A":  "Social work",
+                        "B":  "Psychology",
+                        "C":  "Economics",
+                        "D":  "Political Science"
+                    },
+        "answer":  "A",
+        "explanation":  "Emphasis is placed on research and survey in social work. It is a research based profession.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  309,
+        "question":  "Party social work helps party members- i. In solving personal problems ii. iii. To solve party problems. In collective problem solving",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "A",
+        "explanation":  "Team social work helps team members to solve personal and team problems. Collective problems are under the purview of collective social work.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  310,
+        "question":  "Collective development helps in the overall welfare and development of the people of the collective- i. By people\u0027s resources and efforts ii. Through government resources and efforts iii. Uses the resources and efforts of specialized groups",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "A",
+        "explanation":  "Aggregate development uses people\u0027s own resources and efforts and the resources and efforts of the government. Not a special group effort.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  311,
+        "question":  "In which year was the concept of \u0027Case work\u0027 first used?",
+        "options":  {
+                        "A":  "1910",
+                        "B":  "1911",
+                        "C":  "1920",
+                        "D":  "1921"
+                    },
+        "answer":  "B",
+        "explanation":  "The concept of case work was first used in 1911.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  312,
+        "question":  "Who defined individual social work in 1957?",
+        "options":  {
+                        "A":  "Skidmore",
+                        "B":  "Sweden",
+                        "C":  "Bowers",
+                        "D":  "Helen Harris Pearlman"
+                    },
+        "answer":  "D",
+        "explanation":  "Helen Harris Perlman defined individual social work in 1957.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  313,
+        "question":  "At what point does the individual social work become enriched with a specific knowledge base and develops?",
+        "options":  {
+                        "A":  "Between 1910 and 1920",
+                        "B":  "Between 1920 and 1930",
+                        "C":  "between 1930 and 1940",
+                        "D":  "Between 1940 and 1950"
+                    },
+        "answer":  "B",
+        "explanation":  "Between 1920 and 1930, individual social work flourished with a specific body of knowledge.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  314,
+        "question":  "According to Mary Richmond, how many years of life does she spend establishing individual social work as a process of social work?",
+        "options":  {
+                        "A":  "20 years",
+                        "B":  "25 years",
+                        "C":  "30 years",
+                        "D":  "35 years"
+                    },
+        "answer":  "B",
+        "explanation":  "Mary Richmond spent 25 years of her life establishing individual social work as a social work process.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  315,
+        "question":  "H. H. What is the name of the book written by Perlman?",
+        "options":  {
+                        "A":  "The Nursery of Human Nature",
+                        "B":  "Social Work Year Book",
+                        "C":  "World Community Social Case Work",
+                        "D":  "A Problem Solving Process"
+                    },
+        "answer":  "D",
+        "explanation":  "H. H. Perlman\u0027s book is called \u0027Social Casework: A Problem Solving Process\u0027.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  316,
+        "question":  "Which of the following helps the client to rehabilitate?",
+        "options":  {
+                        "A":  "Social Administration",
+                        "B":  "Social Studies",
+                        "C":  "Social activities",
+                        "D":  "Individual social work"
+                    },
+        "answer":  "D",
+        "explanation":  "Social casework helps the client to rehabilitate.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  317,
+        "question":  "Who is the author of the proposal for guidelines for individual social work?",
+        "options":  {
+                        "A":  "Dr. Abdul Hakeem Govt",
+                        "B":  "Principal Cairns",
+                        "C":  "Marshall",
+                        "D":  "Abdul Halim"
+                    },
+        "answer":  "A",
+        "explanation":  "Dr. Abdul Hakim Sarkar is the author of the proposal for guidelines for individual social work.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  318,
+        "question":  "Which is the basic unit of social work practice?",
+        "options":  {
+                        "A":  "Person",
+                        "B":  "Society",
+                        "C":  "Family",
+                        "D":  "State"
+                    },
+        "answer":  "A",
+        "explanation":  "Individual is the basic unit of social work practice.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  319,
+        "question":  "What are the prerequisites for a person to be a client in personal social work?",
+        "options":  {
+                        "A":  "Being a professional representative",
+                        "B":  "Being extremely brave",
+                        "C":  "Being disabled",
+                        "D":  "Being troubled"
+                    },
+        "answer":  "D",
+        "explanation":  "A troubled person is a prerequisite for being a client of social work.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  320,
+        "question":  "Individuals and problems What kind of elements of individual social work?",
+        "options":  {
+                        "A":  "own principal element",
+                        "B":  "Psychological components",
+                        "C":  "Internal components",
+                        "D":  "External components"
+                    },
+        "answer":  "A",
+        "explanation":  "Individuals and Problems Individuals are their own major components of social work.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  321,
+        "question":  "Who has a significant contribution to the management of the agency, from solving client problems, to formulating and implementing plans and programs?",
+        "options":  {
+                        "A":  "of the client",
+                        "B":  "of Government Representative",
+                        "C":  "of professional representative",
+                        "D":  "of private representative"
+                    },
+        "answer":  "C",
+        "explanation":  "Professional Representative (Professional Representative) i.e. social worker has a significant contribution in these works.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  322,
+        "question":  "In individual social work client problems are solved according to what?",
+        "options":  {
+                        "A":  "Type of problem",
+                        "B":  "According to social norms",
+                        "C":  "by person",
+                        "D":  "by process"
+                    },
+        "answer":  "D",
+        "explanation":  "In individual social work the client\u0027s problem is solved according to a specific process.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  323,
+        "question":  "Individual social work is a helping process through which troubled individuals- i. Develops latent potential ii. Confronts problems iii. Adapts to the environment",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Through individual social work the troubled person is able to do all three things.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  324,
+        "question":  "Minti Roy is suffering from psychological problems. It is observed in his case- i. Personality disorders ii. Internal conflict of the person iii. Economic disaster",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "A",
+        "explanation":  "Psychological problems include personality disturbances and internal conflicts. Economic disaster is not a direct psychological problem.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  325,
+        "question":  "[Stimulus] Students of a school in a remote area do not come to school. Village people tie up cows there. Again, eveteasers often harass girls in front of a girls\u0027 school in Dhaka city. What methods of social work can be applied to solve the problems of village educational institutions mentioned in Uddeep?",
+        "options":  {
+                        "A":  "Individual social work",
+                        "B":  "Collective Development",
+                        "C":  "Party social work",
+                        "D":  "collective organization"
+                    },
+        "answer":  "B",
+        "explanation":  "Community Development method can be applied to solve the problems of village educational institutions.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  326,
+        "question":  "Uddeep is the first to solve the problems of both the mentioned schools- i. Assistance of law enforcement may be taken ii. Parents of students can be made aware iii. Respectable people in the society can be made aware",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "C",
+        "explanation":  "First parents of students and respectable people of the society should be made aware. Law enforcement may be needed later.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  327,
+        "question":  "Which principle is applied from the first meeting with the client until getting to know him completely?",
+        "options":  {
+                        "A":  "Heterogeneous policy",
+                        "B":  "Secondary principles",
+                        "C":  "General principles",
+                        "D":  "Acceptance policy"
+                    },
+        "answer":  "D",
+        "explanation":  "Principle of Acceptance is applied from first meeting to full knowledge.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  328,
+        "question":  "According to the nature of the problem, situation and need, problem diagnosis can be divided into how many categories?",
+        "options":  {
+                        "A":  "2",
+                        "B":  "3",
+                        "C":  "4",
+                        "D":  "5"
+                    },
+        "answer":  "B",
+        "explanation":  "Problem diagnosis can be divided into 3 categories: general, natural and causal.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  329,
+        "question":  "The individual social work process is a problem solving process in which methods are applied in an orderly and systematic manner. Whose quote?",
+        "options":  {
+                        "A":  "HH Perlman",
+                        "B":  "WA Friedlander",
+                        "C":  "Marry Richmond",
+                        "D":  "HB Tracker"
+                    },
+        "answer":  "A",
+        "explanation":  "Helen Harris Perlman (H.H. Perlman) gave this definition of individual social work process.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  330,
+        "question":  "Protection of privacy, recognition of individual dignity, evaluation of competence, provision of individual liberty—these are principles of which system?",
+        "options":  {
+                        "A":  "Individual social work",
+                        "B":  "Team Social Work",
+                        "C":  "Aggregate development",
+                        "D":  "of social activities"
+                    },
+        "answer":  "A",
+        "explanation":  "These are the principles of individual social work (Social Casework).",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  331,
+        "question":  "Which is the most important source of data collection?",
+        "options":  {
+                        "A":  "Party",
+                        "B":  "Sum",
+                        "C":  "Society",
+                        "D":  "Person"
+                    },
+        "answer":  "D",
+        "explanation":  "The individual (client himself) is the most important source of data collection.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  332,
+        "question":  "Which is the first level of problem solving in individual social work?",
+        "options":  {
+                        "A":  "Problem diagnosis",
+                        "B":  "perception",
+                        "C":  "Solution",
+                        "D":  "Completion"
+                    },
+        "answer":  "A",
+        "explanation":  "The first level of problem solving in individual social work is assessment/diagnosis.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  333,
+        "question":  "The principle of self-determination of individual social work is-",
+        "options":  {
+                        "A":  "Emphasis on social worker\u0027s own intervention",
+                        "B":  "Recognition of client\u0027s independent choice and decision-making",
+                        "C":  "Development and control of problem solving environment",
+                        "D":  "Regulation of principles and strategies of social work"
+                    },
+        "answer":  "B",
+        "explanation":  "At the core of the principle of self-determination is the recognition of the client\u0027s independent choice and decision-making.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  334,
+        "question":  "Which of the following methods is used to change the behavior of the individual in order to develop his/her inherent abilities?",
+        "options":  {
+                        "A":  "Material assistance scheme",
+                        "B":  "Corrective Procedures",
+                        "C":  "Preventive Procedures",
+                        "D":  "Remedial Procedures"
+                    },
+        "answer":  "D",
+        "explanation":  "Remedial approach helps to change behavior by developing individual\u0027s inherent abilities.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  335,
+        "question":  "Through which level does formal termination of problem solving occur?",
+        "options":  {
+                        "A":  "Diagnosing the problem",
+                        "B":  "perception",
+                        "C":  "Evaluation",
+                        "D":  "Completion"
+                    },
+        "answer":  "D",
+        "explanation":  "Termination is the formal end of problem solving through the Termination stage.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  336,
+        "question":  "Why does social work adopt an anthropological approach to problem solving?",
+        "options":  {
+                        "A":  "for analyzing human behavior",
+                        "B":  "Analysis of daily activities of people",
+                        "C":  "To solve problems of urbanization",
+                        "D":  "In gathering objective data to solve problems"
+                    },
+        "answer":  "D",
+        "explanation":  "Social work adopts ethnographic methods to collect objective data to solve problems.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  337,
+        "question":  "What is meant by holistic view?",
+        "options":  {
+                        "A":  "Service delivery by analyzing problem types",
+                        "B":  "Religion; Service to all irrespective of caste",
+                        "C":  "Providing service to various groups in society",
+                        "D":  "None of these"
+                    },
+        "answer":  "B",
+        "explanation":  "Holistic Approach refers to service to all irrespective of religion, caste.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  338,
+        "question":  "Which principle of individual social work assesses the problems of each individual separately?",
+        "options":  {
+                        "A":  "Communication policy",
+                        "B":  "Acceptance policy",
+                        "C":  "General principles",
+                        "D":  "Privatization of individuals"
+                    },
+        "answer":  "D",
+        "explanation":  "In the principle of Individualization, each person\u0027s problem is evaluated separately.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  339,
+        "question":  "Key steps to be taken to diagnose the problem include- i. Measurement of the problem ii. Relationship between origin and finite state iii. Classification of problem diagnosis",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All three steps are taken to diagnose the problem. Measurement, correlation and classification are all important.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  340,
+        "question":  "Mr. Jewel is a social worker. Jewel Sahib\u0027s aim in establishing relationship with the person is- i. Assist in solving customer problems ii. Collection of all information related to the problem iii. Creating confidence among clients",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All three goals can be achieved through relationship building. Problem solving, information gathering and confidence building.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  341,
+        "question":  "\u0027This relationship may also be through whole-person social work processes whose skills influence transitions, perceptions, problem diagnosis and resolution.\u0027 Whose quote?",
+        "options":  {
+                        "A":  "Henry S. Mass",
+                        "B":  "Biestek",
+                        "C":  "Gordon Hamilton",
+                        "D":  "Earl Eubank"
+                    },
+        "answer":  "B",
+        "explanation":  "Biestek makes this statement about the importance of rapport.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  342,
+        "question":  "\u0027Rapo is a state of harmony, harmony and empathy in the social work interview which establishes a mutual understanding and effective relationship between the client and the social worker.\u0027- Whose quote?",
+        "options":  {
+                        "A":  "Encyclopedia",
+                        "B":  "Gordon Hamilton",
+                        "C":  "Dictionary of social work",
+                        "D":  "Harry S. Mass"
+                    },
+        "answer":  "C",
+        "explanation":  "This definition of Rapo is given in Social Work Dictionary.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  343,
+        "question":  "What depends on the success of individual social work?",
+        "options":  {
+                        "A":  "of professional relations",
+                        "B":  "of family ties",
+                        "C":  "of social status",
+                        "D":  "of clan status"
+                    },
+        "answer":  "A",
+        "explanation":  "The success of individual social work depends on professional relationship.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  344,
+        "question":  "What is initiated between client and social worker in individual social work through mutual acceptance?",
+        "options":  {
+                        "A":  "of conflict",
+                        "B":  "Sincerity",
+                        "C":  "Professional relations",
+                        "D":  "Monopollution"
+                    },
+        "answer":  "C",
+        "explanation":  "Professional relationship between client and social worker begins with mutual acceptance.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  345,
+        "question":  "How many districts of Bangladesh have correctional programs for correction of crime and juvenile delinquency?",
+        "options":  {
+                        "A":  "12",
+                        "B":  "17",
+                        "C":  "23",
+                        "D":  "27"
+                    },
+        "answer":  "C",
+        "explanation":  "Criminal and juvenile delinquency correctional programs are in operation in 23 districts of Bangladesh.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  346,
+        "question":  "The success of Bangladesh\u0027s rural development program largely depends on which?",
+        "options":  {
+                        "A":  "on central leadership",
+                        "B":  "on local rich people",
+                        "C":  "on local leadership",
+                        "D":  "on Local Judiciary"
+                    },
+        "answer":  "C",
+        "explanation":  "The success of rural development programs depends on local leadership.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  347,
+        "question":  "By which method can the problem of drug addiction, moral values ​​and decadence be eliminated?",
+        "options":  {
+                        "A":  "Social groups",
+                        "B":  "Social policy",
+                        "C":  "Collective social work",
+                        "D":  "Individual social work"
+                    },
+        "answer":  "D",
+        "explanation":  "The problem of drug addiction, moral values ​​and degeneration can be eliminated through individual social work.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  348,
+        "question":  "What is the name of rehabilitation program based on individual social work in Bangladesh?",
+        "options":  {
+                        "A":  "Disabled Welfare Programme",
+                        "B":  "Disability Program",
+                        "C":  "Disability Welfare Programme",
+                        "D":  "Blind Development Programme"
+                    },
+        "answer":  "A",
+        "explanation":  "Crippled Welfare Program is running in Bangladesh based on individual social work.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  349,
+        "question":  "Factors specifically involving both the social worker and the client in the rapo setting process include- i. Attitude ii. Expectations iii. the message",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Establishing rapo involves all three factors—attitudes, expectations, and goals—both of the social worker and the client.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    },
+    {
+        "id":  350,
+        "question":  "Individual social work plays a role in rural development- i. Choosing the right leader ii. Through leadership development among leaders iii. Establishes linkages between local and central leadership",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Individual social work plays all three roles in rural development. Leader selection, leadership development and networking.",
+        "source":  "সমাজকর্ম, অধ্যায়-৬"
+    }
+]

@@ -1,0 +1,2210 @@
+[
+  {
+    "id": 1,
+    "question": "বার্ষিক ৫% হারে মুনাফায় ৪০০ টাকা ২ বছরের চক্রবৃদ্ধি মূলধন কত",
+    "options": {
+      "A": "৪৪০ টাকা",
+      "B": "৪৪১ টাকা",
+      "C": "৪৪৫ টাকা",
+      "D": "৪৫০ টাকা"
+    },
+    "answer": "B",
+    "explanation": "চক্রবৃদ্ধি মূলধনের সূত্র, C = P(1 + r)ⁿ। এখানে P = ৪০০, r = ৫% = ০.০৫, n = ২। C = ৪০০(১ + ০.০৫)² = ৪০০(১.০৫)² = ৪০০ × ১.১০২৫ = ৪৪১ টাকা।"
+  },
+  {
+    "id": 2,
+    "question": "১০০ হতে বড় দুইটি পূর্ণসংখ্যার যোগফল ৩০০ হলে, সংখ্যা দুইটির অনুপাত কত?",
+    "options": {
+      "A": "১ : ৯",
+      "B": "২ : ৫",
+      "C": "২ : ৩",
+      "D": "৩ : ৫"
+    },
+    "answer": "অনেকগুলো সমাধান সম্ভব, নির্দিষ্ট অপশন প্রয়োজন",
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "হলে, এর মান-",
+    "options": {
+      "A": "12",
+      "B": "19",
+      "C": "16",
+      "D": "14"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "হলে, এর মান -",
+    "options": {
+      "A": "(2, 5)",
+      "B": "(2, 6)",
+      "C": "(3, 5)",
+      "D": "(3, 6)"
+    },
+    "answer": "D",
+    "explanation": "সমীকরণ দুটি যোগ করে পাই: (3x-y) + (5x+y) = 3+21 => 8x = 24 => x=3। x=3 প্রথম সমীকরণে বসিয়ে পাই: 3(3) - y = 3 => 9 - y = 3 => y = 6। সুতরাং, (x, y) = (3, 6)।"
+  },
+  {
+    "id": 5,
+    "question": "হলে এর মান কত?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "D",
+    "explanation": "৫ ও ৭ দ্বারা বিভাজ্য সংখ্যা হলো তাদের ল.সা.গু. ৩৫ দ্বারা বিভাজ্য। ১৫০ এর নিচে ৩৫ দ্বারা বিভাজ্য সংখ্যাগুলো হলো: ৩৫, ৭০, ১০৫, ১৪০। সুতরাং, A = {35, 70, 105, 140}। A সেটের উপাদান সংখ্যা n=4। শক্তি সেট P(A) এর সদস্য সংখ্যা হবে 2ⁿ = 2⁴ = 16।"
+  },
+  {
+    "id": 6,
+    "question": "একটি সিলিন্ডারের বৃত্তীয় তলের ব্যাসার্ধ ২ সে.মি. এবং উচ্চতা ৬ সে.মি. হলে, উহার তলগুলির মোট ক্ষেত্রফল কত?",
+    "options": {
+      "A": "১৬π বর্গ সে.মি.",
+      "B": "৩২π বর্গ সে.মি.",
+      "C": "৩৬π বর্গ সে.মি.",
+      "D": "৪৮π বর্গ সে.মি."
+    },
+    "answer": "পৃষ্ঠতলের ক্ষেত্রফল ৩২π বর্গসেমি, আয়তন ২৪π ঘনসেমি",
+    "explanation": "Total surface area = 2πr(r+h) = 2π·2·8 = 32π; Volume = πr²h = π·4·6 = 24π।"
+  },
+  {
+    "id": 7,
+    "question": "কোনো একটি ত্রিভুজের দুইটি কোণের পরিমাণ ২৮° ও ৬২°। ত্রিভুজটি কোন ধরনের?",
+    "options": {
+      "A": "সমকোণী",
+      "B": "সূক্ষ্মকোণী",
+      "C": "স্থূলকোণী",
+      "D": "সমদ্বিবাহু সমকোণী"
+    },
+    "answer": "A",
+    "explanation": "ত্রিভুজের তিন কোণের সমষ্টি ১৮০°। তৃতীয় কোণের পরিমাণ = ১৮০° - (২৮° + ৬২°) = ১৮০° - ৯০° = ৯০°। যেহেতু একটি কোণ ৯০°, তাই ত্রিভুজটি একটি সমকোণী ত্রিভুজ।"
+  },
+  {
+    "id": 8,
+    "question": "4 সে.মি. বাহুবিশিষ্ট বর্গক্ষেত্রে পরিলিখিত বৃত্তের ক্ষেত্রফল কত?",
+    "options": {
+      "A": "বর্গ সে.মি.",
+      "B": "বর্গ সে.মি.",
+      "C": "বর্গ সে.মি.",
+      "D": "বর্গ সে.মি."
+    },
+    "answer": "B",
+    "explanation": "সিলিন্ডারের মোট তলের ক্ষেত্রফল = 2πr(r+h)। এখানে, r = ২ সে.মি. এবং h = ৬ সে.মি.। ক্ষেত্রফল = 2π × 2 (2 + 6) = 4π × 8 = 32π বর্গ সে.মি.।"
+  },
+  {
+    "id": 9,
+    "question": "একজন লোক উত্তর-পশ্চিম দিকে মুখ করে আছে। সে ঘড়ির কাঁটার দিকে ৯০° ঘুরে, তারপরে ঘড়ির কাঁটার বিপরীত দিকে ১৮০° ঘুরে এবং তারপর একই দিকে আরো ৯০° ঘুরে। এখন সে কোন দিকে মুখ করে আছে?",
+    "options": {
+      "A": "দক্ষিণ",
+      "B": "দক্ষিণ-পশ্চিম",
+      "C": "দক্ষিণ-পূর্ব",
+      "D": "পূর্ব"
+    },
+    "answer": "C",
+    "explanation": "ঘড়ির কাঁটার দিকে ঘোরাকে (+) এবং বিপরীত দিকে ঘোরাকে (-) ধরলে, মোট ঘূর্ণন = +৯০° - ১৮০° - ৯০° = -১৮০°। অর্থাৎ, সে তার প্রাথমিক অবস্থান (উত্তর-পশ্চিম) থেকে ১৮০° বিপরীত দিকে ঘুরবে। উত্তর-পশ্চিমের ঠিক বিপরীত দিক হলো দক্ষিণ-পূর্ব।"
+  },
+  {
+    "id": 10,
+    "question": "একটি ছবিতে একজন পুরুষের দিকে ইঙ্গিত করে একজন মহিলা বলেন, \"তার ভাইয়ের বাবা আমার দাদার একমাত্র ছেলে।\" ছবির পুরুষের সঙ্গে উক্ত মহিলার সম্পর্ক কী?",
+    "options": {
+      "A": "মা",
+      "B": "খালা",
+      "C": "বোন",
+      "D": "কন্যা"
+    },
+    "answer": "C",
+    "explanation": "মহিলার দাদার একমাত্র ছেলে হলেন মহিলার বাবা। ছবির পুরুষের ভাইয়ের বাবাও হলেন মহিলার বাবা। এর অর্থ, ছবির পুরুষ এবং মহিলা একই বাবার সন্তান, অর্থাৎ তারা ভাই-বোন। মহিলাটি পুরুষের বোন।"
+  },
+  {
+    "id": 11,
+    "question": "যদি এবং হয়, তাহলে",
+    "options": {
+      "A": "৭১",
+      "B": "৮২",
+      "C": "৯০",
+      "D": "৯২"
+    },
+    "answer": "তথ্য প্রয়োজন",
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "নিচের কোন শব্দটি অন্যদের থেকে আলাদা?",
+    "options": {
+      "A": "Kiwi",
+      "B": "Eagle",
+      "C": "Emu",
+      "D": "Ostrich"
+    },
+    "answer": "B",
+    "explanation": "Eagle (ঈগল) উড়তে পারে। অন্যদিকে, Kiwi (কিউই), Emu (এম্যু) এবং Ostrich (উটপাখি) হলো উড়তে অক্ষম পাখি।"
+  },
+  {
+    "id": 13,
+    "question": "একজন মহিলা বলছেন, \"আপনি যদি আমার নিজের বয়সকে উল্টে দেন তাহলে তা আমার স্বামীর বয়সকে নির্দেশ করে। তিনি আমার থেকে বয়সে বড় এবং আমাদের বয়সের পার্থক্য আমাদের মোট বয়সের যোগফলের এগারো ভাগের একভাগ।\" মহিলার বয়স কত?",
+    "options": {
+      "A": "২৩ বছর",
+      "B": "৩৪ বছর",
+      "C": "৪৫ বছর",
+      "D": "কোনোটিই নয়"
+    },
+    "answer": "C",
+    "explanation": "ধরি, মহিলার বয়স ৪৫ বছর। উল্টে দিলে স্বামীর বয়স হয় ৫৪ বছর। বয়সের পার্থক্য = ৫৪ - ৪৫ = ৯ বছর। বয়সের যোগফল = ৫৪ + ৪৫ = ৯৯ বছর। যোগফলের ১১ ভাগের ১ ভাগ = ৯৯/১১ = ৯ বছর। শর্ত মিলে যায়। সুতরাং মহিলার বয়স ৪৫ বছর।"
+  },
+  {
+    "id": 14,
+    "question": "একটি সভায় ১৫ জন লোক রয়েছে এবং তারা সকলেই সভা শেষে একে অপরের সাথে করমর্দন করে। মোট কতটি করমর্দন হবে?",
+    "options": {
+      "A": "২১০",
+      "B": "১০৫",
+      "C": "২২৫",
+      "D": "১৯৬"
+    },
+    "answer": "A",
+    "explanation": "15C2 = 105।"
+  },
+  {
+    "id": 15,
+    "question": "সেই জুটি নির্বাচন করুন যা- \"Children : pediatrician\" জুটির মধ্যে প্রকাশিত সম্পর্কটির মতো একটি সম্পর্ককে সর্বোত্তমভাবে প্রকাশ করে।",
+    "options": {
+      "A": "Adult : Orthopedist",
+      "B": "Kidney : Nephrologist",
+      "C": "Females : Gynecologist",
+      "D": "Skin : Darmatologist"
+    },
+    "answer": "C",
+    "explanation": "Pediatrician বা শিশুরোগ বিশেষজ্ঞ শিশুদের চিকিৎসা করেন। এটি রোগী ও বিশেষজ্ঞ ডাক্তারের সম্পর্ক। একইভাবে, Gynecologist বা স্ত্রীরোগ বিশেষজ্ঞ নারীদের (Females) চিকিৎসা করেন।"
+  },
+  {
+    "id": 16,
+    "question": "সঠিক বানান কোনটি, চিহ্নিত করুন।",
+    "options": {
+      "A": "Consciencious",
+      "B": "Conscienctious",
+      "C": "Consciencitious",
+      "D": "Conscientious"
+    },
+    "answer": "D",
+    "explanation": "'Conscientious' শব্দের অর্থ বিবেকবান বা কর্তব্যনিষ্ঠ। সঠিক বানানটি হলো C-O-N-S-C-I-E-N-T-I-O-U-S।"
+  },
+  {
+    "id": 17,
+    "question": "একটি কমিটিতে পুরুষ এবং মহিলার সংখ্যা একটি অনুপাতে ৩ : ২ হলে এবং মহিলা সংখ্যা ২৫ জন হলে- পুরুষের সংখ্যা কত?",
+    "options": {
+      "A": "৩০",
+      "B": "৩৫",
+      "C": "৪০",
+      "D": "৪৫"
+    },
+    "answer": "C",
+    "explanation": "ধরি, সংখ্যা দুটি x ও y। x > ১০০, y > ১০০ এবং x + y = ৩০০। বিকল্পগুলো যাচাই করি: (গ) অনুপাত ২:৩ হলে, সংখ্যা দুটি হয় (৩০০ × ২/৫) = ১২০ এবং (৩০০ × ৩/৫) = ১৮০। উভয় সংখ্যাই ১০০ থেকে বড় এবং তাদের যোগফল ৩০০। সুতরাং এটিই সঠিক উত্তর।"
+  },
+  {
+    "id": 18,
+    "question": "'Ubiquitous' সমার্থক শব্দ কোনটি চিহ্নিত করুন।",
+    "options": {
+      "A": "Scarce",
+      "B": "Abundant",
+      "C": "Widespread",
+      "D": "Limited"
+    },
+    "answer": "C",
+    "explanation": "'Ubiquitous' অর্থ সর্বব্যাপী বা সর্বত্র বিদ্যমান। 'Widespread' অর্থও বিস্তৃত বা ব্যাপক। তাই এটিই সবচেয়ে উপযুক্ত সমার্থক শব্দ। Abundant অর্থ প্রচুর, যা কাছাকাছি হলেও Widespread এর মত সঠিক নয়।"
+  },
+  {
+    "id": 19,
+    "question": "পাঁচটি ধারাবাহিক পূর্ণসংখ্যার গড় হলো ১৫ সবচেয়ে বড় পূর্ণ সংখ্যা কত?",
+    "options": {
+      "A": "১৮",
+      "B": "২০",
+      "C": "২২",
+      "D": "২৪"
+    },
+    "answer": "A",
+    "explanation": "ধারাবাহিক ৫টির মধ্যবর্তী=15, তাই সংখ্যাগুলো 13,14,15,16,17 → বড়=17।"
+  },
+  {
+    "id": 20,
+    "question": "'Animal Liberation' গ্রন্থটির রচয়িতা কে?",
+    "options": {
+      "A": "হেগেল",
+      "B": "কান্ট",
+      "C": "বেন্হাম",
+      "D": "পিটার সিঙ্গার"
+    },
+    "answer": "D",
+    "explanation": "অস্ট্রেলিয়ান দার্শনিক পিটার সিঙ্গার ১৯৭৫ সালে 'Animal Liberation' গ্রন্থটি রচনা করেন। এই গ্রন্থটি আধুনিক প্রাণী অধিকার আন্দোলনের একটি প্রভাবশালী দলিল হিসেবে বিবেচিত হয়।"
+  },
+  {
+    "id": 21,
+    "question": "কোন শ্রেণির ক্রিয়া নীতিবিদ্যার আলোচ্য বিষয়ের অন্তর্ভুক্ত?",
+    "options": {
+      "A": "নৈতিকতা-নিরপেক্ষ ক্রিয়া",
+      "B": "সামাজিক ক্রিয়া",
+      "C": "ঐচ্ছিক ক্রিয়া",
+      "D": "ইচ্ছা-নিরপেক্ষ ক্রিয়া"
+    },
+    "answer": "C",
+    "explanation": "নীতিবিদ্যা শুধুমাত্র মানুষের ঐচ্ছিক ক্রিয়া (Voluntary Action) নিয়ে আলোচনা করে, কারণ যে কাজ মানুষ ইচ্ছা করে বা বেছে নিয়ে করে, শুধুমাত্র সেই কাজের জন্যই তাকে নৈতিকভাবে দায়ী করা যায়।"
+  },
+  {
+    "id": 22,
+    "question": "বাংলাদেশের 'নব্য-নৈতিকতার' প্রবর্তক হলেন-",
+    "options": {
+      "A": "মোহাম্মদ বরকতুল্লাহ",
+      "B": "জি. সি. দেব",
+      "C": "আরজ আলী মাতুব্বর",
+      "D": "আব্দুল মতীন"
+    },
+    "answer": "C",
+    "explanation": "বরিশালের স্বশিক্ষিত দার্শনিক আরজ আলী মাতুব্বর প্রচলিত ধর্মীয় বিশ্বাস ও কুসংস্কারের পরিবর্তে যুক্তিনির্ভর ও মানবতাবাদী নৈতিকতার কথা বলেছেন। একারণে তাকে 'নব্য-নৈতিকতার' প্রবর্তক হিসেবে আখ্যায়িত করা হয়।"
+  },
+  {
+    "id": 23,
+    "question": "নিচের কোনটি সুশাসনের মূলনীতি?",
+    "options": {
+      "A": "স্বচ্ছতা ও জবাবদিহিতা",
+      "B": "কর্তৃত্ববাদী শাসন",
+      "C": "কেন্দ্রীভূত সিদ্ধান্ত গ্রহণ",
+      "D": "স্বজন প্রীতি ও পক্ষপাতিত্ব"
+    },
+    "answer": "A",
+    "explanation": "সুশাসনের অনেকগুলো মূলনীতির মধ্যে স্বচ্ছতা (Transparency) এবং জবাবদিহিতা (Accountability) সবচেয়ে গুরুত্বপূর্ণ। এগুলো ছাড়া সুশাসন প্রতিষ্ঠা অসম্ভব।"
+  },
+  {
+    "id": 24,
+    "question": "\"মানুষ হও এবং মরে বাঁচ।\" – এটি কার উক্তি?",
+    "options": {
+      "A": "প্লেটো",
+      "B": "হেগেল",
+      "C": "জি. ই. ম্যূর",
+      "D": "রাসেল"
+    },
+    "answer": "D",
+    "explanation": "'রিপাবলিক' হলো গ্রিক দার্শনিক প্লেটোর লেখা একটি বিখ্যাত গ্রন্থ। এতে তিনি একটি আদর্শ রাষ্ট্র, ন্যায়বিচার এবং দর্শনিক রাজার ধারণা নিয়ে আলোচনা করেছেন।"
+  },
+  {
+    "id": 25,
+    "question": "জাতীয় শুদ্ধাচার কৌশল নীতিমালা কত সালে পাশ হয়?",
+    "options": {
+      "A": "২০১০",
+      "B": "২০১১",
+      "C": "২০১২",
+      "D": "২০১৮"
+    },
+    "answer": "C",
+    "explanation": "বাংলাদেশে সুশাসন প্রতিষ্ঠার লক্ষ্যে মন্ত্রিপরিষদ বিভাগ কর্তৃক 'জাতীয় শুদ্ধাচার কৌশল' (National Integrity Strategy) ২০১২ সালে প্রণয়ন ও অনুমোদন করা হয়।"
+  },
+  {
+    "id": 26,
+    "question": "\"দর্শন হচ্ছে ধর্ম ও বিজ্ঞানের মধ্যবর্তী এক অনধিকৃত প্রদেশ।\" – উক্তিটি কে করেছেন?",
+    "options": {
+      "A": "আর. বি. পেরি",
+      "B": "প্লেটো",
+      "C": "সি. ডি. ব্রড",
+      "D": "বার্ট্রান্ড রাসেল"
+    },
+    "answer": "D",
+    "explanation": "ব্রিটিশ দার্শনিক বার্ট্রান্ড রাসেল তার 'A History of Western Philosophy' গ্রন্থে দর্শনকে বিজ্ঞান ও ধর্মতত্ত্বের মধ্যবর্তী একটি 'No Man's Land' বা অনধিকৃত অঞ্চল হিসেবে বর্ণনা করেছেন।"
+  },
+  {
+    "id": 27,
+    "question": "'সুশাসন চারটি স্তম্ভের উপর নির্ভরশীল' – এই অভিমত কোন সংস্থা প্রকাশ করে?",
+    "options": {
+      "A": "জাতিসংঘ",
+      "B": "জাতিসংঘের উন্নয়ন কর্মসূচি",
+      "C": "বিশ্বব্যাংক",
+      "D": "এশিয়া উন্নয়ন ব্যাংক"
+    },
+    "answer": "C",
+    "explanation": "বিশ্বব্যাংক সুশাসনের ধারণাকে জনপ্রিয় করে তোলে এবং তাদের মতে সুশাসন চারটি প্রধান স্তম্ভের উপর নির্ভরশীল: (১) জবাবদিহিতা, (২) স্বচ্ছতা, (৩) আইনি কাঠামো এবং (৪) অংশগ্রহণ।"
+  },
+  {
+    "id": 28,
+    "question": "নিচের কোনটি 'SMART Bangladesh' এর উপাদান?",
+    "options": {
+      "A": "Smart Democracy",
+      "B": "Smart Politics",
+      "C": "Smart Society",
+      "D": "Smart Parliament"
+    },
+    "answer": "C",
+    "explanation": "'স্মার্ট বাংলাদেশ' এর চারটি মূল স্তম্ভ হলো: স্মার্ট নাগরিক (Smart Citizen), স্মার্ট সরকার (Smart Government), স্মার্ট অর্থনীতি (Smart Economy) এবং স্মার্ট সমাজ (Smart Society)।"
+  },
+  {
+    "id": 29,
+    "question": "'Republic' গ্রন্থটির রচয়িতা কে?",
+    "options": {
+      "A": "বার্কলে",
+      "B": "জন লক",
+      "C": "ডেকার্ট",
+      "D": "প্লেটো"
+    },
+    "answer": "A",
+    "explanation": "প্লেটোর বিখ্যাত রিপাবলিক।"
+  },
+  {
+    "id": 30,
+    "question": "Which of the following words can be used as a verb?",
+    "options": {
+      "A": "mobile",
+      "B": "sugar",
+      "C": "media",
+      "D": "sand"
+    },
+    "answer": "CANCELLED",
+    "explanation": "Several of the given words can be used as verbs. For example: 'Please sand the rough edges.' (to make smooth) or 'Don't sugar your speech.' (to make something seem more pleasant). 'Mobile' can also be used as a verb (from mobilize). Due to this ambiguity, the question was cancelled by the PSC."
+  },
+  {
+    "id": 31,
+    "question": "In which sentence 'Like' is used as a preposition?",
+    "options": {
+      "A": "He likes to eat fish",
+      "B": "he laughs like his father does",
+      "C": "He climed the tree like a cat",
+      "D": "Like minded people are necessary to start a business"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 32,
+    "question": "He died the incident The underlined word is a/an--",
+    "options": {
+      "A": "adjective",
+      "B": "adverb",
+      "C": "noun",
+      "D": "preposition"
+    },
+    "answer": "C",
+    "explanation": "A preposition is followed by a noun or pronoun. In sentence (c), 'like' is followed by the noun 'a cat' and shows manner. In (b), 'like' is a conjunction as it's followed by a clause. In (a), 'likes' is a verb. In (d), 'like' is an adjective."
+  },
+  {
+    "id": 33,
+    "question": "is a very good practice to develop the writing skill. The underlined word is a/an--",
+    "options": {
+      "A": "noun phrase",
+      "B": "verbal phrase",
+      "C": "adjective phrase",
+      "D": "adverbial phrase"
+    },
+    "answer": "B",
+    "explanation": "writing এখানে noun হিসেবে কাজ করছে।"
+  },
+  {
+    "id": 34,
+    "question": "Fill in the blank with the correct word. ______ he lay on the ground groaning",
+    "options": {
+      "A": "Injured",
+      "B": "Injuring",
+      "C": "having injured",
+      "D": "Be injured"
+    },
+    "answer": "A",
+    "explanation": "'Injured' here is a participle adjective describing 'he'. The sentence means 'He was injured and lay on the ground groaning.' The other options are grammatically incorrect in this context."
+  },
+  {
+    "id": 35,
+    "question": "Find out the meaning of the following phrase: By and large",
+    "options": {
+      "A": "very large",
+      "B": "on the whole",
+      "C": "far away",
+      "D": "the largest one"
+    },
+    "answer": "B",
+    "explanation": "The idiom 'by and large' means 'in general' or 'on the whole'."
+  },
+  {
+    "id": 36,
+    "question": "Choose the best alternative for the underlined. He on his promise of voting for me",
+    "options": {
+      "A": "withdrew",
+      "B": "forgot",
+      "C": "reinforced",
+      "D": "support"
+    },
+    "answer": "A",
+    "explanation": "The phrasal verb 'to go back on' means to fail to keep a promise. 'Withdrew' is the closest synonym in this context, meaning he took back his promise."
+  },
+  {
+    "id": 37,
+    "question": "'Let the cat out of the bag' means --",
+    "options": {
+      "A": "bring out a cat from a bag",
+      "B": "let a cat move at large",
+      "C": "reveal a secret carelessly",
+      "D": "take a pre-caucious steps"
+    },
+    "answer": "C",
+    "explanation": "গোপন কথা ফাঁস করা।"
+  },
+  {
+    "id": 38,
+    "question": "He is a man . The underlined part is ______ .",
+    "options": {
+      "A": "a noun phrase",
+      "B": "an adjective phrase",
+      "C": "an adverbial phrase",
+      "D": "a prepositional phrase"
+    },
+    "answer": "B",
+    "explanation": "The infinitive phrase 'to depend on' modifies the noun 'man', describing what kind of man he is. A phrase that modifies a noun acts as an adjective phrase."
+  },
+  {
+    "id": 39,
+    "question": "His dream finally came true. The underlined part is ---",
+    "options": {
+      "A": "a noun clause",
+      "B": "an adjective clause",
+      "C": "an independent clause",
+      "D": "a co-ordinate clause"
+    },
+    "answer": "C",
+    "explanation": "The simple sentence is converted into a complex sentence by using an adjective clause ('who is corrupt') to modify the noun 'man'. The meaning remains the same."
+  },
+  {
+    "id": 40,
+    "question": "Which of the following is a correct simple sentence?",
+    "options": {
+      "A": "All that glitters is not gold",
+      "B": "All's well that ends well",
+      "C": "Do or die",
+      "D": "I saw an old man walking past me"
+    },
+    "answer": "B",
+    "explanation": "This is a complex case of direct/indirect speech. If the reporting verb is in present perfect ('has told'), the tense of the reported speech often does not change if it refers to a future event. 'Said to' changes to 'told'. The pronouns change correctly in option (b). The question is somewhat confusing and could have multiple interpretations."
+  },
+  {
+    "id": 41,
+    "question": "Which is the correct complex form of the sentence? 'A corrupt man cannot win the respect of others'",
+    "options": {
+      "A": "A man who is corrupt cannot respect others",
+      "B": "A man does not respect others who are corrupt.",
+      "C": "A man who is corrupt cannot win the respect of others.",
+      "D": "A man who can win the respect of others cannot be corrupt."
+    },
+    "answer": "C",
+    "explanation": "adjective clause যোগে complex sentence।"
+  },
+  {
+    "id": 42,
+    "question": "Find out the correct positive form of the sentence: 'Who else is the better player than Zaman in the team?'",
+    "options": {
+      "A": "Is there any other player in this team who is as good as Zaman?",
+      "B": "Who is the best player than Zaman in this team?",
+      "C": "Is there any other players in this team who is as good as Zaman?",
+      "D": "Are there any other player in this team who are as good as Zaman?"
+    },
+    "answer": "A",
+    "explanation": "The original comparative sentence implies Zaman is very good, but there might be others. The positive degree form uses the 'as...as' structure to ask the same question in a different way, maintaining the singular 'player' and 'is'."
+  },
+  {
+    "id": 43,
+    "question": "The submarine dipped to avoid ______ by the enemy plane.",
+    "options": {
+      "A": "see",
+      "B": "seeing",
+      "C": "being seen",
+      "D": "seen"
+    },
+    "answer": "C",
+    "explanation": "The verb 'avoid' is followed by a gerund. Since the action of 'seeing' is done by the enemy plane (not the submarine), the passive form of the gerund ('being seen') is required."
+  },
+  {
+    "id": 44,
+    "question": "In fear of _____ he escaped elsewhere.",
+    "options": {
+      "A": "arresting",
+      "B": "arrested",
+      "C": "being arrested",
+      "D": "having arrested"
+    },
+    "answer": "C",
+    "explanation": "The preposition 'of' is followed by a gerund. The subject 'he' is the one who would be arrested, so the passive gerund ('being arrested') is the correct form. It means 'in fear of the possibility that he would be arrested'."
+  },
+  {
+    "id": 45,
+    "question": "I didn't follow who passed by me. It____ Shajib.",
+    "options": {
+      "A": "were",
+      "B": "must be",
+      "C": "might be",
+      "D": "was"
+    },
+    "answer": "C",
+    "explanation": "The speaker is uncertain about the identity of the person. 'Might be' expresses possibility or uncertainty, which fits the context of 'I didn't follow who...'."
+  },
+  {
+    "id": 46,
+    "question": "Samin is my colleague. I ___ him for ten years.",
+    "options": {
+      "A": "know",
+      "B": "knew",
+      "C": "have known",
+      "D": "have been known"
+    },
+    "answer": "C",
+    "explanation": "The phrase 'for ten years' indicates a period of time that started in the past and continues to the present. The present perfect tense ('have known') is used for such situations, especially with stative verbs like 'know'."
+  },
+  {
+    "id": 47,
+    "question": "The snow swirls _____ the valley.",
+    "options": {
+      "A": "up",
+      "B": "in",
+      "C": "down",
+      "D": "through"
+    },
+    "answer": "D",
+    "explanation": "'Swirls through' means to move in a twisting or spiraling pattern within an area. While 'down' is possible, 'through' better captures the movement of snow filling and moving within the entire valley."
+  },
+  {
+    "id": 48,
+    "question": "There is a coffee shop ____ the street.",
+    "options": {
+      "A": "at",
+      "B": "on",
+      "C": "before",
+      "D": "across"
+    },
+    "answer": "D",
+    "explanation": "'Across the street' means on the other side of the street. This is the most common and idiomatic way to express this idea."
+  },
+  {
+    "id": 49,
+    "question": "Identify the correct sentences:",
+    "options": {
+      "A": "He has said to me that I will go but you will stay there in Dhaka.",
+      "B": "He has told me that he will go but I will stay here in Dhaka.",
+      "C": "He has told me that I would go but you would stay here in Dhaka.",
+      "D": "He has told me that he would go but I would stay here in Dhaka."
+    },
+    "answer": "অপশন প্রয়োজন",
+    "explanation": ""
+  },
+  {
+    "id": 50,
+    "question": "Identify the correct sentences:",
+    "options": {
+      "A": "The room was darkened by switching off all the lights.",
+      "B": "The room was darkened switching off all the lights.",
+      "C": "The room was darkened to switch off all the lights.",
+      "D": "Switching off all the lights the room was darkened."
+    },
+    "answer": "A",
+    "explanation": "Option (a) correctly uses the preposition 'by' followed by a gerund phrase ('switching off...') to show the method or means by which the action was done. This is the most grammatically sound and clear construction."
+  },
+  {
+    "id": 51,
+    "question": "Identify the correct sentences:",
+    "options": {
+      "A": "Had you been there on time, you could have had the information.",
+      "B": "If you had been there on time, you could have the information.",
+      "C": "If you have been there on time, you might get the information.",
+      "D": "Had been you there, you could have got the information."
+    },
+    "answer": "A",
+    "explanation": "This is a third conditional sentence expressing an unreal past condition. The structure is 'If + past perfect, ...would/could/might + have + past participle'. The inverted form 'Had + subject + past participle...' is also correct. Option (a) uses the inverted structure correctly. 'could have had' is a valid, though slightly unusual, form meaning 'could have obtained'."
+  },
+  {
+    "id": 52,
+    "question": "Identify the correct sentences:",
+    "options": {
+      "A": "There are trees on the both sides of the road.",
+      "B": "There are trees on both the sides of the road.",
+      "C": "There are trees, on the side of the road.",
+      "D": "There are trees on either sides of the road."
+    },
+    "answer": "B",
+    "explanation": "The correct structure is 'on both the sides' or 'on both sides'. 'Either' should be followed by a singular noun ('either side'). 'The both' is incorrect. Option (b) is the most grammatically accepted form among the choices."
+  },
+  {
+    "id": 53,
+    "question": "The antonym of 'boisterous' is --",
+    "options": {
+      "A": "noisy",
+      "B": "quit",
+      "C": "unruly",
+      "D": "cheerful"
+    },
+    "answer": "B",
+    "explanation": "'Boisterous' means noisy, energetic, and cheerful. Its direct opposite is 'quiet' or calm."
+  },
+  {
+    "id": 54,
+    "question": "'Plagiarism' means-",
+    "options": {
+      "A": "the act of using someones else's idea as one's own.",
+      "B": "the act of planning everything beforehand.",
+      "C": "the act of playing a musical instrument.",
+      "D": "the art of dealing with forgery."
+    },
+    "answer": "A",
+    "explanation": "Plagiarism is the practice of taking someone else's work or ideas and passing them off as one's own. It is a form of literary theft."
+  },
+  {
+    "id": 55,
+    "question": "The two cities in are -",
+    "options": {
+      "A": "London and Manchester",
+      "B": "London and Paris",
+      "C": "Paris and New York",
+      "D": "Paris and Geneva"
+    },
+    "answer": "B",
+    "explanation": "Charles Dickens's historical novel 'A Tale of Two Cities' is set in London and Paris before and during the French Revolution."
+  },
+  {
+    "id": 56,
+    "question": "Who of the following compiled an English Dictionary?",
+    "options": {
+      "A": "Samuel Johnson",
+      "B": "T.S. Eliot",
+      "C": "John Dryden",
+      "D": "William Congreve"
+    },
+    "answer": "A",
+    "explanation": "Samuel Johnson, a prominent 18th-century writer, published 'A Dictionary of the English Language' in 1755. It was one of the most influential dictionaries in the history of the English language."
+  },
+  {
+    "id": 57,
+    "question": "Which is not a poetry form?",
+    "options": {
+      "A": "Sonnet",
+      "B": "Ballad",
+      "C": "Tale",
+      "D": "Epic"
+    },
+    "answer": "C",
+    "explanation": "Sonnet, Ballad, and Epic are all specific forms of poetry. A 'tale' is a general term for a story, which can be in either prose or verse, but is not itself a specific poetic form."
+  },
+  {
+    "id": 58,
+    "question": "'I am a man more sinned against than sinning' This is uttered by -",
+    "options": {
+      "A": "Horatio",
+      "B": "Hamlet",
+      "C": "King Lear",
+      "D": "Macbeth"
+    },
+    "answer": "C",
+    "explanation": "This line is spoken by the title character in Shakespeare's tragedy 'King Lear' (Act 3, Scene 2), as he rages against the storm and his own suffering, feeling that the injustices done to him are greater than his own faults."
+  },
+  {
+    "id": 59,
+    "question": "Which event influenced the literature of the Romantic Period?",
+    "options": {
+      "A": "French revolution",
+      "B": "Industrial Revolution",
+      "C": "Russian Revolution",
+      "D": "Hundred Year's War"
+    },
+    "answer": "A",
+    "explanation": "The ideals of liberty, equality, and fraternity from the French Revolution (1789) deeply influenced the Romantic poets, shaping their emphasis on individualism, emotion, and nature."
+  },
+  {
+    "id": 60,
+    "question": "The author of is -",
+    "options": {
+      "A": "Somerset Maugham",
+      "B": "Ernest Hemingway",
+      "C": "D.H. Lawrence",
+      "D": "Jane Austen"
+    },
+    "answer": "B",
+    "explanation": "'A Farewell to Arms' (1929) is a novel by American writer Ernest Hemingway, set during the Italian campaign of World War I."
+  },
+  {
+    "id": 61,
+    "question": "Who is the most famous satirist in English literature?",
+    "options": {
+      "A": "Alexander Pope",
+      "B": "Jonathan Swift",
+      "C": "John Dryden",
+      "D": "William Wordsworth"
+    },
+    "answer": "B",
+    "explanation": "Jonathan Swift is widely regarded as the foremost satirist in English literature, best known for works like 'Gulliver's Travels' and 'A Modest Proposal'."
+  },
+  {
+    "id": 62,
+    "question": "Which period is known as \"The Golden Age of English Literature\"?",
+    "options": {
+      "A": "The Victorian Age",
+      "B": "The Elizabethan Age",
+      "C": "The Eighteen century",
+      "D": "The Restoration period"
+    },
+    "answer": "B",
+    "explanation": "The Elizabethan Age (late 16th to early 17th century), the era of Queen Elizabeth I, is often called the Golden Age because of the flourishing of literature, particularly drama, with figures like William Shakespeare and Christopher Marlowe."
+  },
+  {
+    "id": 63,
+    "question": "বাংলা ভাষায় কোন স্বরধ্বনি উচ্চারণকালে জিহ্বা উচ্চ অবস্থানে থাকে?",
+    "options": {
+      "A": "আ",
+      "B": "এ",
+      "C": "উ",
+      "D": "ও"
+    },
+    "answer": "C",
+    "explanation": "জিহ্বার অবস্থান অনুযায়ী স্বরধ্বনিগুলোকে উচ্চ, মধ্য ও নিম্ন ভাগে ভাগ করা হয়। ই (i) এবং উ (u) হলো উচ্চ স্বরধ্বনি, কারণ এগুলো উচ্চারণের সময় জিহ্বা মুখের তালুর সবচেয়ে কাছাকাছি বা উচ্চ অবস্থানে থাকে।"
+  },
+  {
+    "id": 64,
+    "question": "বাংলা শব্দ ভাণ্ডারে অনার্য জাতির ব্যবহৃত শব্দ-",
+    "options": {
+      "A": "তৎসম",
+      "B": "তদ্ভব",
+      "C": "দেশি",
+      "D": "বিদেশি"
+    },
+    "answer": "C",
+    "explanation": "বাংলাদেশের আদিম অধিবাসী যেমন কোল, মুন্ডা প্রভৃতি অনার্য জাতির ব্যবহৃত শব্দগুলোকে দেশি শব্দ বলা হয়। যেমন: কুলা, গঞ্জ, চোঙ্গা, টোপর, ডাব, ডিঙি ইত্যাদি।"
+  },
+  {
+    "id": 65,
+    "question": "'ধ্বনিবিজ্ঞান ও বাংলা ধ্বনিতত্ত্ব' গ্রন্হের রচয়িতা-",
+    "options": {
+      "A": "মুহম্মদ আবদুল হাই",
+      "B": "মুহম্মদ শহীদুল্লাহ্",
+      "C": "মুনীর চৌধুরী",
+      "D": "মুহম্মদ এনামুল হক"
+    },
+    "answer": "A",
+    "explanation": "'ধ্বনিবিজ্ঞান ও বাংলা ধ্বনিতত্ত্ব' গ্রন্থটি প্রখ্যাত ভাষাবিজ্ঞানী মুহম্মদ আবদুল হাই রচিত। এটি বাংলা ধ্বনিতত্ত্বের উপর একটি গুরুত্বপূর্ণ আকর গ্রন্থ।"
+  },
+  {
+    "id": 66,
+    "question": "বাংলা বর্ণমালায় যৌগিক স্বর কয়টি?",
+    "options": {
+      "A": "১টি",
+      "B": "২টি",
+      "C": "৩টি",
+      "D": "৪টি"
+    },
+    "answer": "B",
+    "explanation": "মৌলিক স্বর ৭টি, যৌগিক ২টি (ঐ, ঔ)।"
+  },
+  {
+    "id": 67,
+    "question": "যোগরূঢ় শব্দ কোনটি?",
+    "options": {
+      "A": "কলম",
+      "B": "মলম",
+      "C": "বাঁশি",
+      "D": "শাখামৃগ"
+    },
+    "answer": "D",
+    "explanation": "যে শব্দ সমাস নিষ্পন্ন হয়েও তার ব্যুৎপত্তিগত অর্থ প্রকাশ না করে একটি বিশেষ অর্থ প্রকাশ করে, তাকে যোগরূঢ় শব্দ বলে। 'শাখামৃগ' এর ব্যুৎপত্তিগত অর্থ 'শাখা বা ডালে বিচরণকারী পশু' হলেও এটি কেবল 'বানর' অর্থে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 68,
+    "question": "উপসর্গযুক্ত শব্দ-",
+    "options": {
+      "A": "বিদ্যা",
+      "B": "বিদ্রোহী",
+      "C": "বিষয়",
+      "D": "বিপুল"
+    },
+    "answer": "B",
+    "explanation": "'বিদ্রোহী' শব্দটি 'বি' উপসর্গযোগে গঠিত হয়েছে (বি + দ্রোহ + ঈ)। অন্য শব্দগুলোতে উপসর্গ নেই।"
+  },
+  {
+    "id": 69,
+    "question": "বিভক্তিযুক্ত শব্দ কোনটি?",
+    "options": {
+      "A": "সরোবরে",
+      "B": "চশমা",
+      "C": "সরোজ",
+      "D": "চম্পক"
+    },
+    "answer": "A",
+    "explanation": "'সরোবরে' শব্দটি 'সরোবর' মূল শব্দের সাথে 'এ' বিভক্তি (অধিকরণ কারকে ৭মী বিভক্তি) যুক্ত হয়ে গঠিত হয়েছে।"
+  },
+  {
+    "id": 70,
+    "question": "কোনটি প্রত্যয়-সাধিত শব্দ?",
+    "options": {
+      "A": "ভাইবোন",
+      "B": "রাজপথ",
+      "C": "বকলম",
+      "D": "ঐকিক"
+    },
+    "answer": "D",
+    "explanation": "'ঐকিক' শব্দটি 'এক' শব্দের সাথে 'ইক' প্রত্যয়যোগে গঠিত হয়েছে (এক + ইক = ঐকিক)। ভাইবোন (দ্বন্দ্ব সমাস), রাজপথ (তৎপুরুষ সমাস), বকলম (ফারসি উপসর্গ)।"
+  },
+  {
+    "id": 71,
+    "question": "'শিরশ্ছেদ' শব্দের সন্ধিবিচ্ছেদ-",
+    "options": {
+      "A": "শির + ছেদ",
+      "B": "শিরঃ + ছেদ",
+      "C": "শিরশ্ + ছেদ",
+      "D": "শির + উচ্ছেদ"
+    },
+    "answer": "B",
+    "explanation": "এটি বিসর্গ সন্ধির একটি নিয়ম। অ-কার কিংবা আ-কারের পরস্থিত বিসর্গের পর চ কিংবা ছ থাকলে বিসর্গের স্থলে শ হয়। যেমন: শিরঃ + ছেদ = শিরশ্ছেদ।"
+  },
+  {
+    "id": 72,
+    "question": "'নীলকর' কোন সমাসের দৃষ্টান্ত?",
+    "options": {
+      "A": "দ্বন্দ্ব",
+      "B": "বহুব্রীহি",
+      "C": "নিত্য",
+      "D": "উপপদ তৎপুরুষ"
+    },
+    "answer": "C",
+    "explanation": "নীল যে করে → নীলকর।"
+  },
+  {
+    "id": 73,
+    "question": "'Pedagogy' শব্দের পরিভাষা-",
+    "options": {
+      "A": "সহশিক্ষা",
+      "B": "নারীশিক্ষা",
+      "C": "শিক্ষাতত্ত্ব",
+      "D": "শিক্ষানীতি"
+    },
+    "answer": "C",
+    "explanation": "'Pedagogy' বলতে শিক্ষাদান পদ্ধতি বা শিক্ষাবিজ্ঞানকে বোঝায়। এর সঠিক বাংলা পরিভাষা হলো 'শিক্ষাতত্ত্ব' বা 'শিক্ষা বিজ্ঞান'।"
+  },
+  {
+    "id": 74,
+    "question": "'বঙ্কিম' এর বিপরীত শব্দ কোনটি?",
+    "options": {
+      "A": "বন্ধুর",
+      "B": "অসম",
+      "C": "সুষম",
+      "D": "ঋজু"
+    },
+    "answer": "D",
+    "explanation": "'বঙ্কিম' অর্থ বাঁকা বা কুটিল। এর বিপরীতার্থক শব্দ হলো 'ঋজু', যার অর্থ সোজা বা সরল।"
+  },
+  {
+    "id": 75,
+    "question": "বাংলা একাডেমির 'প্রমিত বাংলা বানানের নিয়ম' কত সালে প্রণীত হয়?",
+    "options": {
+      "A": "১৯৯০",
+      "B": "১৯৯২",
+      "C": "১৯৯৪",
+      "D": "১৯৯৬"
+    },
+    "answer": "B",
+    "explanation": "বাংলা একাডেমি প্রথম 'প্রমিত বাংলা বানানের নিয়ম' প্রণয়ন করে ১৯৯২ সালে। পরবর্তীতে এর বিভিন্ন সংস্করণ ও পরিমার্জন করা হয়েছে।"
+  },
+  {
+    "id": 76,
+    "question": "কোন বানানটি শুদ্ধ?",
+    "options": {
+      "A": "মুলো",
+      "B": "মুলা",
+      "C": "ধুলি",
+      "D": "ধূলো"
+    },
+    "answer": "B",
+    "explanation": "বাংলা একাডেমির প্রমিত বানানরীতি অনুযায়ী অতৎসম শব্দে উ-কার (ু) ব্যবহৃত হয়। তাই 'মুলা' এবং 'ধুলা' শুদ্ধ বানান। 'ধূলি' একটি তৎসম শব্দ এবং বানানটি শুদ্ধ, কিন্তু 'ধূলো' অতৎসম হওয়ায় 'ধুলো' হবে। প্রদত্ত বিকল্পগুলোর মধ্যে 'মুলা' সবচেয়ে সঠিক।"
+  },
+  {
+    "id": 77,
+    "question": "'নদী'র সমার্থ শব্দ কোনটি?",
+    "options": {
+      "A": "সিন্ধু",
+      "B": "হিল্লোল",
+      "C": "তটিনী",
+      "D": "নির্ঝর"
+    },
+    "answer": "C",
+    "explanation": "'তটিনী' নদীর একটি সমার্থক শব্দ। এছাড়াও নদীর সমার্থক শব্দ হলো স্রোতস্বিনী, প্রবাহিণী, শৈবলিনী ইত্যাদি। সিন্ধু = সাগর, হিল্লোল = ঢেউ, নির্ঝর = ঝর্ণা।"
+  },
+  {
+    "id": 78,
+    "question": "চর্যাপদের কবিরা ছিলেন-",
+    "options": {
+      "A": "মহাঘানী বৌদ্ধ",
+      "B": "বজ্রঘানী বৌদ্ধ",
+      "C": "বাউল",
+      "D": "সহজঘানী বৌদ্ধ"
+    },
+    "answer": "B",
+    "explanation": "চর্যার কবিরা বৌদ্ধ সহজিয়া ছিলেন।"
+  },
+  {
+    "id": 79,
+    "question": "'শূন্যপূরাণের' রচয়িতা-",
+    "options": {
+      "A": "রামাই পন্ডিত",
+      "B": "হলায়ূধ মিশ্র",
+      "C": "কাহ্নপা",
+      "D": ""
+    },
+    "answer": "A",
+    "explanation": "'শূন্যপুরাণ' মধ্যযুগের বাংলা সাহিত্যের একটি গুরুত্বপূর্ণ গ্রন্থ। এর রচয়িতা রামাই পণ্ডিত। এতে বৌদ্ধ ধর্মের শূন্যবাদ এবং লৌকিক ধর্মীয় আচারের মিশ্রণ দেখা যায়।"
+  },
+  {
+    "id": 80,
+    "question": "বাংলা সাহিত্যের ইতিহাসে কাঁকিল্যা গ্রাম কেন উল্লেখযোগ্য?",
+    "options": {
+      "A": "শ্রীচৈতন্যদেবের জন্মস্থান",
+      "B": "বড়ু চণ্ডীদাসের জন্মস্থান",
+      "C": "চর্যাপদের প্রাপ্তিস্থান",
+      "D": "শ্রীকৃষ্ণকীর্ত্তন কাব্যের প্রাপ্তিস্থান"
+    },
+    "answer": "D",
+    "explanation": "বসন্তরঞ্জন রায় বিদ্বদ্বল্লভ ১৯০৯ সালে পশ্চিমবঙ্গের বাঁকুড়া জেলার বিষ্ণুপুরের নিকটবর্তী কাঁকিল্যা গ্রামের এক গৃহস্থের গোয়ালঘর থেকে 'শ্রীকৃষ্ণকীর্তন' কাব্যের পুঁথিটি আবিষ্কার করেন।"
+  },
+  {
+    "id": 81,
+    "question": "'যে সবে বঙ্গেত জন্মি হিংসে বঙ্গবাণী। সে সব কাহার জন্ম নির্ণয় ন জানি।' – কবিতাংশটি কোন কাব্যের অন্তর্গত?",
+    "options": {
+      "A": "নূরনামা",
+      "B": "নসিহতনামা",
+      "C": "মধুমালতী",
+      "D": "ইউসুফ-জুলেখা"
+    },
+    "answer": "A",
+    "explanation": "এই বিখ্যাত উক্তিটি সপ্তদশ শতকের কবি আব্দুল হাকিমের 'নূরনামা' কাব্যগ্রন্থের 'বঙ্গবাণী' কবিতা থেকে নেওয়া হয়েছে। এতে কবির মাতৃভাষার প্রতি গভীর মমত্ববোধ প্রকাশ পেয়েছে।"
+  },
+  {
+    "id": 82,
+    "question": "আলাওল কোন শতাব্দীর কবি?",
+    "options": {
+      "A": "পঞ্চদশ",
+      "B": "ষোড়শ",
+      "C": "সপ্তদশ",
+      "D": "অষ্টাদশ"
+    },
+    "answer": "C",
+    "explanation": "মধ্যযুগের শ্রেষ্ঠ কবিদের অন্যতম মহাকবি আলাওল (আনুমানিক ১৬০৭-১৬৮০) সপ্তদশ শতকে আরাকান রাজসভায় সাহিত্যচর্চা করেন। 'পদ্মাবতী' তার শ্রেষ্ঠ কাব্য।"
+  },
+  {
+    "id": 83,
+    "question": "কোন বাংলা গানকে ইউনেস্কো Heritage of Humanity অভিধায় ভূষিত করেছে?",
+    "options": {
+      "A": "রবীন্দ্র সংগীত",
+      "B": "নজরুল সংগীত",
+      "C": "ভাটিয়ালি গান",
+      "D": "বাউল গান"
+    },
+    "answer": "D",
+    "explanation": "২০০৫ সালে ইউনেস্কো বাংলাদেশের বাউল গানকে 'মানবতার অমূল্য মৌখিক ও বিমূর্ত ঐতিহ্য' (Masterpiece of the Oral and Intangible Heritage of Humanity) হিসেবে স্বীকৃতি দেয়।"
+  },
+  {
+    "id": 84,
+    "question": "চন্ডীচরণ মুন্সী কে?",
+    "options": {
+      "A": "শ্রীরামপুর মিশনের লিপিকর",
+      "B": "ফোর্ট উইলিয়াম কলেজের পণ্ডিত",
+      "C": "কেরী সাহেবের মুন্সী গ্রন্হের রচয়িতা",
+      "D": "সমাচার চন্দ্রিকা পত্রিকার সম্পাদক"
+    },
+    "answer": "B",
+    "explanation": "চন্ডীচরণ মুন্সী ফোর্ট উইলিয়াম কলেজের বাংলা বিভাগের একজন পণ্ডিত বা মুনশি ছিলেন। তার বিখ্যাত গ্রন্থ 'তোতা ইতিহাস' (১৮০৫)।"
+  },
+  {
+    "id": 85,
+    "question": "'রত্নপরীক্ষা' গ্রন্হের রচয়িতা-",
+    "options": {
+      "A": "রামমোহন রায়",
+      "B": "অক্ষরকুমার দত্ত",
+      "C": "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+      "D": "রাধানাথ শিকদার"
+    },
+    "answer": "C",
+    "explanation": "'রত্নপরীক্ষা' (১৮৮৬) গ্রন্থটি ঈশ্বরচন্দ্র বিদ্যাসাগর রচিত একটি ব্যঙ্গাত্মক রচনা। এটি বহুবিবাহ প্রথার বিরুদ্ধে তার আন্দোলনের অংশ হিসেবে লেখা হয়েছিল।"
+  },
+  {
+    "id": 86,
+    "question": "স্বর্ণকুমারী দেবীর পিতার নাম-",
+    "options": {
+      "A": "দ্বারকানাথ ঠাকুর",
+      "B": "দেবেন্দ্রনাথ ঠাকুর",
+      "C": "রথীন্দ্রনাথ ঠাকুর",
+      "D": "প্রমথ চৌধুরী"
+    },
+    "answer": "B",
+    "explanation": "ঔপন্যাসিক, কবি ও সমাজসেবী স্বর্ণকুমারী দেবী (১৮৫৫-১৯৩২) ছিলেন মহর্ষি দেবেন্দ্রনাথ ঠাকুরের কন্যা এবং রবীন্দ্রনাথ ঠাকুরের বড় বোন।"
+  },
+  {
+    "id": 87,
+    "question": "ভীষ্মদেব খোশনবীশ বঙ্কিমচন্দ্র চট্টোপাধ্যায়ের কোন গ্রন্হের চরিত্র?",
+    "options": {
+      "A": "কমলাকান্ত",
+      "B": "লোকরহস্য",
+      "C": "মুচিরাম গুড়ের জীবনচরিত",
+      "D": "যুগলাঙ্গুরীয়"
+    },
+    "answer": "A",
+    "explanation": "বঙ্কিমচন্দ্রের ব্যঙ্গাত্মক প্রবন্ধ সংকলন 'কমলাকান্তের দপ্তর'-এর একটি বিখ্যাত চরিত্র হলো 'ভীষ্মদেব খোশনবীশ'। 'একটি গীত' প্রবন্ধে তিনি এই ছদ্মনামটি ব্যবহার করেন।"
+  },
+  {
+    "id": 88,
+    "question": "দীনবন্ধু মিত্রের 'নীলদর্পণ' নাটকের ইংরেজি অনুবাদক-",
+    "options": {
+      "A": "জশুয়া মার্শম্যান",
+      "B": "ডেভিড হেয়ার",
+      "C": "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+      "D": "মাইকেল মধুসূদন দত্ত"
+    },
+    "answer": "D",
+    "explanation": "দীনবন্ধু মিত্রের 'নীলদর্পণ' নাটকটি মাইকেল মধুসূদন দত্ত 'The Indigo-Planting Mirror' নামে ইংরেজিতে অনুবাদ করেন। তবে এটি রেভারেন্ড জেমস লঙের নামে প্রকাশিত হয়েছিল।"
+  },
+  {
+    "id": 89,
+    "question": "রঞ্জন চরিত্রটি রবীন্দ্রনাথ ঠাকুরের কোন নাটকের?",
+    "options": {
+      "A": "বিসর্জন",
+      "B": "রক্তকরবী",
+      "C": "মুক্তধারা",
+      "D": "ডাকঘর"
+    },
+    "answer": "B",
+    "explanation": "'রক্তকরবী' (১৯২৬) রবীন্দ্রনাথ ঠাকুরের একটি বিখ্যাত সাংকেতিক নাটক। এই নাটকের প্রধান দুটি চরিত্র হলো নন্দিনী ও রঞ্জন। রঞ্জন এখানে যৌবনের প্রতীক।"
+  },
+  {
+    "id": 90,
+    "question": "'তৈল' প্রবন্ধটি লিখেছেন-",
+    "options": {
+      "A": "সুকুমার রায়",
+      "B": "রমেশচন্দ্র মজুমদার",
+      "C": "শিবনারায়ণ রায়",
+      "D": "হরপ্রসাদ শাস্ত্রী"
+    },
+    "answer": "D",
+    "explanation": "'তৈল' বা তেল সম্পর্কিত ব্যঙ্গাত্মক প্রবন্ধটি মহামহোপাধ্যায় হরপ্রসাদ শাস্ত্রী রচিত। এতে তিনি তৈল বা তোষামোদের সামাজিক প্রভাব নিয়ে আলোচনা করেছেন।"
+  },
+  {
+    "id": 91,
+    "question": "\"নাম রেখিছি কোমল গান্ধার\" কাব্যের রচিয়তা-",
+    "options": {
+      "A": "রবীন্দ্রনাথ ঠাকুর",
+      "B": "বিষ্ণু দে",
+      "C": "অমিয় চক্রবর্তী",
+      "D": "প্রেমেন্দ্র মিত্র"
+    },
+    "answer": "B",
+    "explanation": "'নাম রেখেছি কোমল গান্ধার' জ্ঞানপীঠ পুরস্কারপ্রাপ্ত কবি বিষ্ণু দে'র একটি বিখ্যাত কাব্যগ্রন্থ। এটি ১৯৬৫ সালে প্রকাশিত হয়।"
+  },
+  {
+    "id": 92,
+    "question": "'ও মন রমজানের ঐ রোজার শেষে এলো খুশির ঈদ'- গানটির রচয়িতা-",
+    "options": {
+      "A": "কাজী নজরুল ইসলাম",
+      "B": "গোলাম মোস্তফা",
+      "C": "জসীমউদ্‌দীন",
+      "D": "আব্বাস উদ্দীন আহমদ"
+    },
+    "answer": "A",
+    "explanation": "ঈদের চাঁদ দেখার আনন্দ নিয়ে লেখা এই কালজয়ী গানটির গীতিকার ও সুরকার হলেন জাতীয় কবি কাজী নজরুল ইসলাম।"
+  },
+  {
+    "id": 93,
+    "question": "শামসুর রাহমানের রচিত উপন্যাস-",
+    "options": {
+      "A": "পতঙ্গ পিঞ্জর",
+      "B": "প্রেম একটি লাল গোলাপ",
+      "C": "রৌদ্র করোটিতে",
+      "D": "অদ্ভূত আঁধার এক"
+    },
+    "answer": "D",
+    "explanation": "শামসুর রাহমান প্রধানত কবি হলেও তিনি চারটি উপন্যাস রচনা করেছেন। এগুলো হলো: 'অক্টোপাস', 'অদ্ভুত আঁধার এক', 'নিয়ত মন্তাজ' ও 'এলো সে অবেলায়'।"
+  },
+  {
+    "id": 94,
+    "question": "সেলিম আল দীনের নাটকে অনুসৃত শিল্পতত্ত্ব-",
+    "options": {
+      "A": "অস্তিত্ববাদ",
+      "B": "অভিব্যক্তিবাদ",
+      "C": "পরাবাস্তববাদ",
+      "D": "দ্বৈতাদ্বৈতবাদ"
+    },
+    "answer": "D",
+    "explanation": "নাট্যাচার্য সেলিম আল দীন বাংলা নাটকে নিজস্ব এক রীতি প্রতিষ্ঠা করেন, যা 'দ্বৈতাদ্বৈতবাদী শিল্পতত্ত্ব' নামে পরিচিত। এতে তিনি প্রাচ্য ও পাশ্চাত্যের নাট্যরীতির সমন্বয় ঘটান।"
+  },
+  {
+    "id": 95,
+    "question": "'পৃথক পালঙ্ক' কাব্যগ্রন্হের কবি-",
+    "options": {
+      "A": "আল মাহমুদ",
+      "B": "রফিক আজাদ",
+      "C": "আবুল হাসান",
+      "D": "আবুল হোসেন"
+    },
+    "answer": "C",
+    "explanation": "'পৃথক পালঙ্ক' (১৯৭৫) বাংলাদেশের অন্যতম প্রতিভাবান ও অকালপ্রয়াত কবি আবুল হাসানের তৃতীয় এবং শেষ কাব্যগ্রন্থ।"
+  },
+  {
+    "id": 96,
+    "question": "কোন গল্পকারের গল্পে ম্যাজিক রিয়েলিজমের প্রতিফলন ঘটেছে?",
+    "options": {
+      "A": "জ্যোতিপ্রকাশ দত্ত",
+      "B": "রিজিয়া রহমান",
+      "C": "শহীদুল জহির",
+      "D": "দিলারা হাশেম"
+    },
+    "answer": "C",
+    "explanation": "শহীদুল জহির (১৯৫৩-২০০৮) বাংলা কথাসাহিত্যে জাদুবাস্তবতা বা ম্যাজিক রিয়েলিজম প্রয়োগের জন্য বিশেষভাবে পরিচিত। তার গল্প ও উপন্যাসে বাস্তবতার সাথে অবাস্তব ও অলৌকিক ঘটনার শৈল্পিক মিশ্রণ দেখা যায়।"
+  },
+  {
+    "id": 97,
+    "question": "\"একুশ মানে মাথা নত না করা\"- এই অমর পঙ্‌ক্তির রচয়িতা-",
+    "options": {
+      "A": "আবদুল গাফফার চৌধুরী",
+      "B": "আবুল ফজল",
+      "C": "মুনীর চৌধুরী",
+      "D": "সিরাজুল ইসলাম চৌধুরী"
+    },
+    "answer": "CANCELLED",
+    "explanation": "'একুশে ফেব্রুয়ারি' কবিতায় 'একুশ মানে মাথা নত না করা' পঙক্তিটি লিখেছেন কবি আবু জাফর ওবায়দুল্লাহ। প্রদত্ত বিকল্পগুলোতে সঠিক উত্তর না থাকায় প্রশ্নটি বাতিল হতে পারে। তবে অনেক সময় এই উক্তিটি ভুলবশত অন্যদের নামে প্রচলিত থাকে।"
+  },
+  {
+    "id": 98,
+    "question": "নিচের কোনটি গ্রীনহাউজ গ্যাস নয়?",
+    "options": {
+      "A": "জলীয় বাষ্প",
+      "B": "কার্বন ডাইঅক্সাইড",
+      "C": "মিথেন",
+      "D": "নাইট্রিক অক্সাইড"
+    },
+    "answer": "D",
+    "explanation": "প্রধান গ্রিনহাউস গ্যাসগুলো হলো কার্বন ডাইঅক্সাইড (CO₂), মিথেন (CH₄), নাইট্রাস অক্সাইড (N₂O), জলীয় বাষ্প (H₂O) এবং ক্লোরোফ্লুরোকার্বন (CFC)। নাইট্রিক অক্সাইড (NO) একটি বায়ুদূষক এবং ওজোন স্তর ক্ষয়ের জন্য দায়ী, কিন্তু এটি সরাসরি গ্রিনহাউস গ্যাস হিসেবে গণ্য হয় না।"
+  },
+  {
+    "id": 99,
+    "question": "জলীয় দ্রবণে pH এর সর্বোচ্চ মান কোনটি?",
+    "options": {
+      "A": "৭",
+      "B": "১০",
+      "C": "১৪",
+      "D": "২০"
+    },
+    "answer": "C",
+    "explanation": "pH স্কেলের পরিসর ০ থেকে ১৪ পর্যন্ত। ৭ হলো নিরপেক্ষ মান। ৭ এর কম হলে দ্রবণটি অম্লীয় এবং ৭ এর বেশি হলে ক্ষারীয়। ১৪ হলো সর্বোচ্চ ক্ষারীয় মান।"
+  },
+  {
+    "id": 100,
+    "question": "কোন অর্গানেলটি পর্দা দ্বারা আবেষ্টিত থাকে না?",
+    "options": {
+      "A": "রাইবোসোম",
+      "B": "ক্লোরোপ্লাস্ট",
+      "C": "মাইটোকন্ড্রিয়া",
+      "D": "পারোক্সিসোম"
+    },
+    "answer": "A",
+    "explanation": "রাইবোসোম একটি পর্দাবিহীন কোষীয় অঙ্গাণু, যা প্রোটিন সংশ্লেষণে সাহায্য করে। মাইটোকন্ড্রিয়া, ক্লোরোপ্লাস্ট, পারোক্সিসোম ইত্যাদি অঙ্গাণু ঝিল্লি বা পর্দা দ্বারা আবৃত থাকে।"
+  },
+  {
+    "id": 101,
+    "question": "জীববিজ্ঞানে কী ধরনের তথ্য প্রযুক্তি ব্যবহার করা হয়?",
+    "options": {
+      "A": "বায়োইনফরমেটিক্স",
+      "B": "বায়োমেট্রিক্স",
+      "C": "বায়োকেমিস্ট্রি",
+      "D": "কোনটিই নয়"
+    },
+    "answer": "A",
+    "explanation": "বায়োইনফরমেটিক্স বা জৈব তথ্যবিজ্ঞান হলো এমন একটি ক্ষেত্র যেখানে কম্পিউটার বিজ্ঞান, তথ্য প্রযুক্তি ও পরিসংখ্যান ব্যবহার করে বিপুল পরিমাণ জৈবিক ডেটা (যেমন: ডিএনএ, প্রোটিন সিকোয়েন্স) বিশ্লেষণ করা হয়।"
+  },
+  {
+    "id": 102,
+    "question": "গমের মোজাইক ভাইরাস কীভাবে ছড়ায়?",
+    "options": {
+      "A": "ইদুঁরের মাধ্যমে",
+      "B": "মাইটের মাধ্যমে",
+      "C": "বাতাসের মাধ্যমে",
+      "D": "পাখির মাধ্যমে"
+    },
+    "answer": "B",
+    "explanation": "গমের মোজাইক রোগটি Wheat Streak Mosaic Virus (WSMV) দ্বারা সৃষ্ট হয়, যা হুইট কার্ল মাইট (Wheat Curl Mite) নামক এক প্রকার ক্ষুদ্র পোকার মাধ্যমে ছড়ায়।"
+  },
+  {
+    "id": 103,
+    "question": "এন্টিবডি তৈরি করে নিচের কোনটি?",
+    "options": {
+      "A": "Red blood corpuscle",
+      "B": "Thrombocyte",
+      "C": "B Lymphocyte",
+      "D": "Monocyte"
+    },
+    "answer": "C",
+    "explanation": "বি-লিম্ফোসাইট (B Lymphocyte) হলো এক ধরনের শ্বেত রক্তকণিকা যা দেহে কোনো বহিরাগত জীবাণু (অ্যান্টিজেন) প্রবেশ করলে অ্যান্টিবডি তৈরি করে এবং রোগ প্রতিরোধ ব্যবস্থায় ভূমিকা রাখে।"
+  },
+  {
+    "id": 104,
+    "question": "অত্যাবশ্যকীয় অ্যামাইনো এসিড কোনটি?",
+    "options": {
+      "A": "গ্লাইসিন (Glycine)",
+      "B": "সেরিন (Serine)",
+      "C": "সিস্টিন (Cistine)",
+      "D": "ভ্যালিন (Valine)"
+    },
+    "answer": "D",
+    "explanation": "অত্যাবশ্যকীয় অ্যামাইনো অ্যাসিড হলো সেগুলো যা মানবদেহ নিজে তৈরি করতে পারে না এবং অবশ্যই খাবারের মাধ্যমে গ্রহণ করতে হয়। ভ্যালিন, লিউসিন, লাইসিন ইত্যাদি অত্যাবশ্যকীয় অ্যামাইনো অ্যাসিডের উদাহরণ।"
+  },
+  {
+    "id": 105,
+    "question": "প্রকৃতিতে মৌলিক বল কয়টি?",
+    "options": {
+      "A": "2 টি",
+      "B": "3 টি",
+      "C": "4 টি",
+      "D": "5 টি"
+    },
+    "answer": "C",
+    "explanation": "Fundamental forces-এর সংখ্যা ৪।"
+  },
+  {
+    "id": 106,
+    "question": "জেমস্‌ ওয়েব টেলিস্কোপ কোন ধরনের রেডিয়েশন ব্যবহার করে?",
+    "options": {
+      "A": "Ultra-violet",
+      "B": "Infrared",
+      "C": "Visible",
+      "D": "X-ray"
+    },
+    "answer": "B",
+    "explanation": "জেমস ওয়েব স্পেস টেলিস্কোপ (JWST) মূলত অবলোহিত বা ইনফ্রারেড (Infrared) তরঙ্গদৈর্ঘ্যের আলো পর্যবেক্ষণের জন্য ডিজাইন করা হয়েছে। এটি মহাবিশ্বের সবচেয়ে দূরবর্তী ও প্রাচীনতম বস্তুগুলো পর্যবেক্ষণ করতে সক্ষম।"
+  },
+  {
+    "id": 107,
+    "question": "কোনটি আলোর প্রাথমিক রং হিসাবে বিবেচনা করা হয় না?",
+    "options": {
+      "A": "সবুজ",
+      "B": "নীল",
+      "C": "লাল",
+      "D": "হলুদ"
+    },
+    "answer": "D",
+    "explanation": "আলোর মৌলিক বা প্রাথমিক রং তিনটি: লাল, সবুজ ও নীল। এই তিনটি রং বিভিন্ন অনুপাতে মিশিয়ে অন্য সকল রং তৈরি করা যায়। হলুদ একটি যৌগিক রং, যা লাল ও সবুজ আলোর মিশ্রণে তৈরি হয়।"
+  },
+  {
+    "id": 108,
+    "question": "রক্ত জমাট বাঁধার জন্য প্রয়োজনীয় ভিটামিনটি হল-",
+    "options": {
+      "A": "Vitamin K",
+      "B": "Vitamin A",
+      "C": "Vitamin B",
+      "D": "Vitamin C"
+    },
+    "answer": "A",
+    "explanation": "ভিটামিন কে রক্ত জমাট বাঁধার জন্য প্রয়োজনীয় প্রোথ্রোমবিনসহ কয়েকটি ফ্যাক্টর তৈরিতে সাহায্য করে। এর অভাবে রক্তক্ষরণজনিত সমস্যা দেখা দেয়।"
+  },
+  {
+    "id": 109,
+    "question": "দ্বিপদ নামকরণে দ্বিতীয় নামটি নির্দেশ করে-",
+    "options": {
+      "A": "প্রজাতি",
+      "B": "বর্গ",
+      "C": "রাজ্য",
+      "D": "শ্রেণি"
+    },
+    "answer": "A",
+    "explanation": "ক্যারোলাস লিনিয়াস প্রবর্তিত দ্বিপদ নামকরণ পদ্ধতিতে প্রতিটি জীবের দুটি নাম থাকে। প্রথম অংশটি গণ (Genus) এবং দ্বিতীয় অংশটি প্রজাতি (Species) নির্দেশ করে। যেমন, মানুষের বৈজ্ঞানিক নাম Homo sapiens, এখানে Homo হলো গণ এবং sapiens হলো প্রজাতি।"
+  },
+  {
+    "id": 110,
+    "question": "ধাতব কার্বোনেটের সাথে এসিডের বিক্রিয়ায় উৎপন্ন হয়-",
+    "options": {
+      "A": "লবণ",
+      "B": "পানি",
+      "C": "কার্বন ডাইঅক্সাইড",
+      "D": "সবগুলো"
+    },
+    "answer": "D",
+    "explanation": "যেকোনো ধাতব কার্বনেট অ্যাসিডের সাথে বিক্রিয়া করে লবণ, পানি ও কার্বন ডাইঅক্সাইড গ্যাস উৎপন্ন করে। উদাহরণ: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂।"
+  },
+  {
+    "id": 111,
+    "question": "Windows অপারেটিং সিস্টেম সম্পর্কিত নিম্নের কোন তথ্যটি সঠিক?",
+    "options": {
+      "A": "এটি মাল্টি টাস্কিং অপারেটিং সিস্টেম",
+      "B": "এটি Open source অপারেটিং সিস্টেম",
+      "C": "ক এবং খ উভয়ই সত্য",
+      "D": "কোনোটিই সত্য নয়"
+    },
+    "answer": "A",
+    "explanation": "Windows একটি মাল্টিটাস্কিং অপারেটিং সিস্টেম, কারণ এটি একই সাথে একাধিক প্রোগ্রাম বা কাজ চালাতে পারে। তবে এটি ওপেন সোর্স নয়, এটি মাইক্রোসফটের মালিকানাধীন একটি ক্লোজড সোর্স সফটওয়্যার।"
+  },
+  {
+    "id": 112,
+    "question": "নিচের কোনটি কম্পিউটার মেমোরি হিসেবে দ্রুততম?",
+    "options": {
+      "A": "RAM",
+      "B": "Hard Disk",
+      "C": "ROM",
+      "D": "Register"
+    },
+    "answer": "D",
+    "explanation": "কম্পিউটারের মেমোরিগুলোর মধ্যে গতির ক্রম হলো: রেজিস্টার > ক্যাশ মেমোরি > র‍্যাম (RAM) > হার্ড ডিস্ক (HDD/SSD)। রেজিস্টার সরাসরি সিপিইউ-এর অভ্যন্তরে থাকে বলে এটি সবচেয়ে দ্রুতগতির।"
+  },
+  {
+    "id": 113,
+    "question": "নিচের কোনটি কম্পিউটার সিস্টেমের কার্মক্ষমতায় কোনো ভূমিকা রাখে না?",
+    "options": {
+      "A": "Size of RAM",
+      "B": "Size of ROM",
+      "C": "Size of Cache Memory",
+      "D": "Size of Register"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 114,
+    "question": "একটি অপারেটিং সিস্টেম একজন ব্যক্তিকে বিভিন্ন symbols, icon অথবা visual metaphor এর মাধ্যমে কম্পিউটারের সাথে সংযোগ স্থাপনে ভূমিকা পালন করে। নিচের কোনটি এ শ্রেণির কাজকে নির্দেশ করে?",
+    "options": {
+      "A": "Command-Line Interface",
+      "B": "Graphical User Interface",
+      "C": "Block User Interface",
+      "D": "Tap User Interface"
+    },
+    "answer": "B",
+    "explanation": "এটি জার্মান ভাববাদী দার্শনিক Georg Wilhelm Friedrich Hegel-এর একটি বিখ্যাত উক্তি, যা তার দ্বান্দ্বিক দর্শনকে নির্দেশ করে।"
+  },
+  {
+    "id": 115,
+    "question": "নিচের কোন বিবৃতিটি কম্পাইলার সম্পর্কিত সঠিক?",
+    "options": {
+      "A": "এটি Interpreter-এর চেয়ে অনুবাদ করতে বেশি সময় লাগে",
+      "B": "এটি প্রতি লাইন প্রোগ্রাম পড়ে এবং অনুবাদ করে",
+      "C": "এটি একবারে পুরো প্রোগ্রাম অনুবাদ করে",
+      "D": "এটি মেশিন প্রোগ্রামকে সোর্স প্রোগ্রামে রূপান্তর করে?"
+    },
+    "answer": "C",
+    "explanation": "কম্পাইলার একটি অনুবাদক প্রোগ্রাম যা হাই-লেভেল ল্যাঙ্গুয়েজে লেখা সম্পূর্ণ প্রোগ্রামটিকে একবারে মেশিন ল্যাঙ্গুয়েজে রূপান্তর করে। অন্যদিকে, ইন্টারপ্রেটার লাইন বাই লাইন অনুবাদ করে।"
+  },
+  {
+    "id": 116,
+    "question": "নিচের কোনটি সোস্যাল মিডিয়া প্ল্যাটফর্ম নয়?",
+    "options": {
+      "A": "Facebook",
+      "B": "Twitter",
+      "C": "Instagram",
+      "D": "Google"
+    },
+    "answer": "D",
+    "explanation": "Facebook, Instagram, এবং Twitter (বর্তমানে X) হলো সামাজিক যোগাযোগ মাধ্যম বা সোস্যাল মিডিয়া প্ল্যাটফর্ম। Google হলো একটি সার্চ ইঞ্জিন।"
+  },
+  {
+    "id": 117,
+    "question": "Cellular Data Network এর ক্ষেত্রে GPRS বলতে কী বুঝায়?",
+    "options": {
+      "A": "Global Positioning Radio Service",
+      "B": "General Positioning Radio Service",
+      "C": "Global Packet Radio Service",
+      "D": "General Packet Radio Service"
+    },
+    "answer": "D",
+    "explanation": "GPRS এর পূর্ণরূপ হলো General Packet Radio Service। এটি একটি প্যাকেট-ভিত্তিক মোবাইল ডেটা স্ট্যান্ডার্ড যা 2G এবং 3G সেলুলার যোগাযোগ নেটওয়ার্কে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 118,
+    "question": "বাহিরের আক্রমণ থেকে প্রাইভেট নেটওয়ার্ক রক্ষার্থে নিচের কোনটি ব্যবহৃত হয়?",
+    "options": {
+      "A": "Antivirus",
+      "B": "Digital Signature",
+      "C": "Encryption",
+      "D": "Firewall"
+    },
+    "answer": "D",
+    "explanation": "ফায়ারওয়াল নেটওয়ার্ক নিরাপত্তা দেয়।"
+  },
+  {
+    "id": 119,
+    "question": "নিচের কোনটি সার্চ ইঞ্চিন নয়?",
+    "options": {
+      "A": "Bing",
+      "B": "Google",
+      "C": "Yahoo",
+      "D": "Safari"
+    },
+    "answer": "D",
+    "explanation": "Google, Bing, এবং Yahoo হলো জনপ্রিয় সার্চ ইঞ্জিন। Safari হলো Apple Inc. কর্তৃক নির্মিত একটি ওয়েব ব্রাউজার।"
+  },
+  {
+    "id": 120,
+    "question": "ইন্টারনেট জগতে hyper-linked document গুলোর কালেকশানকে কী বলে?",
+    "options": {
+      "A": "HTML",
+      "B": "Email",
+      "C": "WWW",
+      "D": "DWS"
+    },
+    "answer": "C",
+    "explanation": "ওয়ার্ল্ড ওয়াইড ওয়েব (WWW) হলো ইন্টারনেটের মাধ্যমে প্রাপ্তিযোগ্য হাইপারলিঙ্কড ডকুমেন্ট এবং অন্যান্য ওয়েব রিসোর্সের একটি সংগ্রহ। HTML হলো এই ডকুমেন্টগুলো তৈরির জন্য ব্যবহৃত মার্কআপ ভাষা।"
+  },
+  {
+    "id": 121,
+    "question": "গ্রাহকের চাহিদা অনুযায়ী, ইউটিলিটি-ভিত্তিক কম্পিউটিং পরিষেবা প্রদানের জন্য কোন প্রযুক্তিটি Distributed Computing এর একটি দৃষ্টান্ত?",
+    "options": {
+      "A": "Remote Sensing",
+      "B": "Cloud Computing",
+      "C": "Remote Invocation",
+      "D": "Private Computing"
+    },
+    "answer": "B",
+    "explanation": "ক্লাউড কম্পিউটিং হলো ডিস্ট্রিবিউটেড কম্পিউটিং-এর একটি মডেল যেখানে ইন্টারনেটের মাধ্যমে ব্যবহারকারীদের চাহিদা অনুযায়ী কম্পিউটিং রিসোর্স (যেমন সার্ভার, স্টোরেজ, সফটওয়্যার) প্রদান করা হয়।"
+  },
+  {
+    "id": 122,
+    "question": "নিচের কোন নেটওয়ার্কটি সবচেয়ে বেশি জায়গা ব্যাপ্তি হয়?",
+    "options": {
+      "A": "LAN",
+      "B": "WAN",
+      "C": "MAN",
+      "D": "PAN"
+    },
+    "answer": "B",
+    "explanation": "নেটওয়ার্কের ভৌগোলিক ব্যাপ্তির ক্রম হলো: PAN (Personal Area Network) < LAN (Local Area Network) < MAN (Metropolitan Area Network) < WAN (Wide Area Network)। WAN, যেমন ইন্টারনেট, বিশ্বব্যাপী বিস্তৃত হতে পারে।"
+  },
+  {
+    "id": 123,
+    "question": "নিচের কোন প্রযুক্তি Face Recognition সিস্টেমে ব্যবহার করা হয়?",
+    "options": {
+      "A": "Applied AI",
+      "B": "",
+      "C": "Virtual Reality",
+      "D": "কোনোটিই নয়"
+    },
+    "answer": "A",
+    "explanation": "ফেস রিকগনিশন বা চেহারা শনাক্তকরণ প্রযুক্তি প্রায়োগিক কৃত্রিম বুদ্ধিমত্তা (Applied AI) এবং মেশিন লার্নিং অ্যালগরিদম ব্যবহার করে মানুষের মুখ শনাক্ত ও যাচাই করে।"
+  },
+  {
+    "id": 124,
+    "question": "নেটওয়ার্ক ট্রান্সমিশন রেট বোঝাতে ব্যবহৃত 'MbPS' এর পূর্ণরূপ কী?",
+    "options": {
+      "A": "Megabytes per second",
+      "B": "Megabits per second",
+      "C": "Milibits per second",
+      "D": "কোনোটিই নয়"
+    },
+    "answer": "B",
+    "explanation": "নেটওয়ার্কের ডেটা স্থানান্তরের গতি বোঝাতে 'Mbps' ব্যবহৃত হয়, যার পূর্ণরূপ হলো Megabits per second। অন্যদিকে ফাইল সাইজ বোঝাতে 'MBps' বা Megabytes per second ব্যবহৃত হয়। (১ বাইট = ৮ বিট)"
+  },
+  {
+    "id": 125,
+    "question": "কোন দিনটি বিশ্ব শরণার্থী দিবস হিসেবে পালিত হয়?",
+    "options": {
+      "A": "৫ জুন",
+      "B": "১০ জুন",
+      "C": "২০ জুন",
+      "D": "২৫ জুন"
+    },
+    "answer": "C",
+    "explanation": "বিশ্বব্যাপী শরণার্থীদের সম্মান, সাহস ও সহানুভূতির স্বীকৃতি দিতে প্রতি বছর ২০ জুন জাতিসংঘ কর্তৃক 'বিশ্ব শরণার্থী দিবস' পালিত হয়।"
+  },
+  {
+    "id": 126,
+    "question": "জাতিসংঘ মাদক ও অপরাধ সংক্রান্ত সংস্থা UNODC-এর প্রধান কার্যালয় কোথায় অবস্থিত?",
+    "options": {
+      "A": "রোম",
+      "B": "ভিয়েনা",
+      "C": "জেনেভা",
+      "D": "পিটসবার্গ"
+    },
+    "answer": "B",
+    "explanation": "United Nations Office on Drugs and Crime (UNODC) বা জাতিসংঘ মাদক ও অপরাধবিষয়ক অফিসের সদর দপ্তর অস্ট্রিয়ার রাজধানী ভিয়েনায় অবস্থিত।"
+  },
+  {
+    "id": 127,
+    "question": "বাংলাদেশ ভারত স্থল সীমান্ত সম্পর্কিত প্রটোকলটি কত সালে স্বাক্ষরিত হয়?",
+    "options": {
+      "A": "১৯৭৪",
+      "B": "২০১১",
+      "C": "২০১৩",
+      "D": "২০১৫"
+    },
+    "answer": "B",
+    "explanation": "১৯৭৪ সালের স্থল সীমান্ত চুক্তি (মুজিব-ইন্দিরা চুক্তি) বাস্তবায়নের জন্য ২০১১ সালের ৬ সেপ্টেম্বর একটি প্রটোকল স্বাক্ষরিত হয়, যা ছিটমহল বিনিময়ের পথ সুগম করে। এই প্রটোকলটি ২০১৫ সালে ভারতের পার্লামেন্টে অনুমোদিত হয়।"
+  },
+  {
+    "id": 128,
+    "question": "আলেপ্পো শহরটি কোন দেশে অবস্থিত?",
+    "options": {
+      "A": "ইরান",
+      "B": "ইরাক",
+      "C": "জর্ডান",
+      "D": "সিরিয়া"
+    },
+    "answer": "D",
+    "explanation": "আলেপ্পো সিরিয়ার একটি অন্যতম বৃহত্তম ও প্রাচীন শহর। সাম্প্রতিক সময়ে সিরিয়ার গৃহযুদ্ধের কারণে শহরটি ব্যাপকভাবে ক্ষতিগ্রস্ত হয়েছে।"
+  },
+  {
+    "id": 129,
+    "question": "উন্নয়নশীল দেশসমূহের বৈশ্বিক জোট 'জি৭৭' এর বর্তমান সদস্য সংখ্যা কত?",
+    "options": {
+      "A": "১০৫",
+      "B": "১১৫",
+      "C": "১২৫",
+      "D": "১৩৫"
+    },
+    "answer": "D",
+    "explanation": "১৯৬৪ সালে ৭৭টি উন্নয়নশীল দেশ নিয়ে 'গ্রুপ অব ৭৭' (G-77) গঠিত হলেও বর্তমানে এর সদস্য সংখ্যা ১৩৫। এটি জাতিসংঘের বৃহত্তম আন্তঃসরকারি জোট।"
+  },
+  {
+    "id": 130,
+    "question": "\"২০৩০ সালের মধ্যে বিশ্বের দরিদ্র নারী, পুরুষ ও শিশুর সংখ্যা অর্ধেক নামিয়ে আনতে হবে\" – এটি টেকসই উন্নয়ন লক্ষ্যমাত্রায় কোন অভীষ্ট লক্ষ্য?",
+    "options": {
+      "A": "টার্গেট ১.১",
+      "B": "টার্গেট ১.২",
+      "C": "টার্গেট ১.৩",
+      "D": "টার্গেট ১.৪"
+    },
+    "answer": "B",
+    "explanation": "টেকসই উন্নয়ন লক্ষ্যমাত্রা (SDG)-এর প্রথম অভীষ্ট (Goal 1: No Poverty) এর টার্গেট ১.২ এ বলা হয়েছে, '২০৩০ সালের মধ্যে জাতীয় সংজ্ঞা অনুযায়ী সকল মাত্রায় দারিদ্র্যের মধ্যে বসবাসকারী সকল বয়সী পুরুষ, নারী ও শিশুর সংখ্যা অন্তত অর্ধেকে নামিয়ে আনা'।"
+  },
+  {
+    "id": 131,
+    "question": "বৈশ্বিক উন্নয়ন উদ্যোক্তা এর প্রস্তাবক হচ্ছে-",
+    "options": {
+      "A": "চীন",
+      "B": "জাপান",
+      "C": "ডেনমার্ক",
+      "D": "সুইডেন"
+    },
+    "answer": "A",
+    "explanation": "চীনের প্রেসিডেন্ট শি জিনপিং ২০২১ সালে জাতিসংঘে 'বৈশ্বিক উন্নয়ন উদ্যোগ' বা Global Development Initiative (GDI) প্রস্তাব করেন, যার লক্ষ্য হলো আন্তর্জাতিক উন্নয়ন সহযোগিতা বৃদ্ধি করা।"
+  },
+  {
+    "id": 132,
+    "question": "বাংলাদেশ কত সালে আন্তর্জাতিক শ্রম সংস্থার সদস্যপদ লাভ করে?",
+    "options": {
+      "A": "১৯৭২",
+      "B": "১৯৭৩",
+      "C": "১৯৭৪",
+      "D": "১৯৭৫"
+    },
+    "answer": "A",
+    "explanation": "বাংলাদেশ ১৯৭২ সালের ২২ জুন আন্তর্জাতিক শ্রম সংস্থা বা International Labour Organization (ILO)-এর সদস্যপদ লাভ করে।"
+  },
+  {
+    "id": 133,
+    "question": "বাংলাদেশের অভিবাসী নারী শ্রমিকদের সর্বাধিক গন্তব্যস্থল-",
+    "options": {
+      "A": "সৌদি আরব",
+      "B": "কুয়েত",
+      "C": "ওমান",
+      "D": "জর্দান"
+    },
+    "answer": "A",
+    "explanation": "জনশক্তি, কর্মসংস্থান ও প্রশিক্ষণ ব্যুরোর (BMET) তথ্য অনুযায়ী, বাংলাদেশি নারী শ্রমিকদের জন্য সবচেয়ে বড় শ্রমবাজার হলো সৌদি আরব।"
+  },
+  {
+    "id": 134,
+    "question": "কপ ২৮ সম্মেলনটি কী সম্পর্কিত?",
+    "options": {
+      "A": "শরণার্থীর অধিকার",
+      "B": "জ্বালানি নিরাপত্তা",
+      "C": "সমুদ্র সীমানা",
+      "D": "জলবায়ু পরিবর্তন"
+    },
+    "answer": "D",
+    "explanation": "'কপ' বা 'কনফারেন্স অব দ্য পার্টিজ' হলো জাতিসংঘ জলবায়ু পরিবর্তন ফ্রেমওয়ার্ক কনভেনশনের (UNFCCC) বার্ষিক সম্মেলন। ২০২৩ সালে দুবাইতে অনুষ্ঠিত COP28 সম্মেলনটি জলবায়ু পরিবর্তন মোকাবেলা নিয়ে আলোচনার জন্য অনুষ্ঠিত হয়।"
+  },
+  {
+    "id": 135,
+    "question": "বৈশ্বিক সন্ত্রাসবাদ সূচক ২০২৩ অনুযায়ী কোন দেশটি সবচেয়ে বেশি সন্ত্রাসবাদের ঝুঁকির মধ্যে?",
+    "options": {
+      "A": "আফগানিস্তান",
+      "B": "মায়ানমার",
+      "C": "পেরু",
+      "D": "মালি"
+    },
+    "answer": "A",
+    "explanation": "ইনস্টিটিউট ফর ইকোনমিক্স অ্যান্ড পিস (IEP) কর্তৃক প্রকাশিত বৈশ্বিক সন্ত্রাসবাদ সূচক (Global Terrorism Index) ২০২৩ অনুযায়ী, সন্ত্রাসবাদের কারণে সবচেয়ে ক্ষতিগ্রস্ত দেশ হলো আফগানিস্তান।"
+  },
+  {
+    "id": 136,
+    "question": "বৈশ্বিক শান্তিসূচক ২০২৩ অনুযায়ী বিশ্বের সবচেয়ে শান্তিপূর্ণ দেশ হলো-",
+    "options": {
+      "A": "আইসল্যান্ড",
+      "B": "জাপান",
+      "C": "সিংগাপুর",
+      "D": "সুইজারল্যান্ড"
+    },
+    "answer": "A",
+    "explanation": "ইনস্টিটিউট ফর ইকোনমিক্স অ্যান্ড পিস (IEP) কর্তৃক প্রকাশিত বৈশ্বিক শান্তি সূচক (Global Peace Index) ২০২৩ অনুযায়ী, বিশ্বের সবচেয়ে শান্তিপূর্ণ দেশ হলো আইসল্যান্ড।"
+  },
+  {
+    "id": 137,
+    "question": "'বার বিধি' (The Twelve Tables) কী?",
+    "options": {
+      "A": "রোমান আইনের ভিত্তি",
+      "B": "স্থাপত্যের ১২টি নির্দেশনা",
+      "C": "ফুটবল খেলার নিয়মাবলি",
+      "D": "স্থানীয়/ দেশি খেলা"
+    },
+    "answer": "A",
+    "explanation": "'বারো বিধি' বা 'ল অব দ্য টুয়েলভ টেবিলস' ছিল প্রাচীন রোমান প্রজাতন্ত্রের প্রথম লিখিত আইন সংহিতা। এটিই পরবর্তী রোমান আইনের ভিত্তি স্থাপন করে।"
+  },
+  {
+    "id": 138,
+    "question": "সিয়াচেন হিমবার (Siachen Glaciar) কোন দুইটি দেশের মধ্যে অবস্থিত?",
+    "options": {
+      "A": "ভারত ও চীন",
+      "B": "নেপাল ও চীন",
+      "C": "পাকিস্তান ও চীন",
+      "D": "ভারত ও পাকিস্তান"
+    },
+    "answer": "D",
+    "explanation": "সিয়াচেন হিমবাহ কারাকোরাম পর্বতমালার পূর্বাংশে অবস্থিত এবং এটি ভারত ও পাকিস্তানের মধ্যকার একটি বিরোধপূর্ণ অঞ্চল। এটি বিশ্বের সর্বোচ্চ যুদ্ধক্ষেত্র হিসেবে পরিচিত।"
+  },
+  {
+    "id": 139,
+    "question": "টেকসই উন্নয়ন লক্ষ্যমাত্রার (SDG) চতুর্থ লক্ষ্যমাত্রা কোনটি?",
+    "options": {
+      "A": "জলবায়ু কার্যক্রম",
+      "B": "মানসম্মত শিক্ষা",
+      "C": "দারিদ্র বিমোচন",
+      "D": "শান্তি, ন্যায়বিচার ও কার্যকর প্রতিষ্ঠান"
+    },
+    "answer": "B",
+    "explanation": "টেকসই উন্নয়ন লক্ষ্যমাত্রার (SDG) ৪ নম্বর লক্ষ্য হলো 'সকলের জন্য অন্তর্ভুক্তিমূলক ও সমতাভিত্তিক গুণগত শিক্ষা নিশ্চিতকরণ এবং জীবনব্যাপী শিক্ষার সুযোগ সৃষ্টি করা'।"
+  },
+  {
+    "id": 140,
+    "question": "জৈব নিরাপত্তা বিষয়ক (Biosafety to the Convention on Biological Diversity) হচ্ছে-",
+    "options": {
+      "A": "কার্টাগোনা প্রটোকল",
+      "B": "মন্ট্রিল প্রটোকল",
+      "C": "কিয়াটো প্রটোকল",
+      "D": "প্যারিস চুক্তি"
+    },
+    "answer": "A",
+    "explanation": "জৈব নিরাপত্তা বিষয়ক কার্টাজেনা প্রটোকল।"
+  },
+  {
+    "id": 141,
+    "question": "'Friday For Futute' কোন ধরনের আন্দোলন?",
+    "options": {
+      "A": "ধর্মীয় আন্দোলন",
+      "B": "পরিবেশবাদী আন্দোলন",
+      "C": "শান্তিবাদী আন্দোলন",
+      "D": "গণতান্ত্রিক আন্দোলন"
+    },
+    "answer": "B",
+    "explanation": "'ফ্রাইডেস ফর ফিউচার' হলো সুইডিশ পরিবেশকর্মী গ্রেটা থুনবার্গের অনুপ্রেরণায় শুরু হওয়া একটি আন্তর্জাতিক ছাত্র-পরিবেশবাদী আন্দোলন, যা জলবায়ু সংকট মোকাবেলায় কার্যকর পদক্ষেপের দাবি জানায়।"
+  },
+  {
+    "id": 142,
+    "question": "আন্তর্জাতিক আদালতের (International Court of Justice) সভাপতির মেয়াদ কত বৎসর?",
+    "options": {
+      "A": "২ বৎসর",
+      "B": "৩ বৎসর",
+      "C": "৬ বৎসর",
+      "D": "৯ বৎসর"
+    },
+    "answer": "B",
+    "explanation": "আন্তর্জাতিক বিচার আদালতের (ICJ) ১৫ জন বিচারকের মেয়াদ ৯ বছর। তবে এই বিচারকদের মধ্য থেকে প্রতি ৩ বছর পর পর একজন সভাপতি ও একজন সহ-সভাপতি নির্বাচিত হন, যাদের মেয়াদ ৩ বছর।"
+  },
+  {
+    "id": 143,
+    "question": "উত্তর আটলান্টিক চুক্তির কত নম্বর ধারায় যৌথ নিরাপত্তার ধারণাটি ব্যক্ত হয়েছে?",
+    "options": {
+      "A": "আর্টিকেল ২",
+      "B": "আর্টিকেল ৩",
+      "C": "আর্টিকেল ৪",
+      "D": "আর্টিকেল ৫"
+    },
+    "answer": "D",
+    "explanation": "NATO চুক্তির আর্টিকেল ৫-এ সম্মিলিত প্রতিরক্ষা বা যৌথ নিরাপত্তার নীতি উল্লেখ আছে। এই ধারা অনুযায়ী, কোনো সদস্য রাষ্ট্রের ওপর আক্রমণ হলে তা সকল সদস্য রাষ্ট্রের ওপর আক্রমণ হিসেবে গণ্য হবে।"
+  },
+  {
+    "id": 144,
+    "question": "আন্তর্জাতিক সম্পর্কের কোন তত্ত্বটি আন্তর্জাতিক প্রতিষ্ঠানের কার্যকরী ভূমিকার বিষয়ে ইতিবাচক ধারণা প্রদান করে?",
+    "options": {
+      "A": "উদারবাদ",
+      "B": "বাস্তববাদ",
+      "C": "মার্ক্সবাদ",
+      "D": "কোনোটিই নয়"
+    },
+    "answer": "A",
+    "explanation": "উদারবাদ (Liberalism) তত্ত্বে বিশ্বাস করা হয় যে, আন্তর্জাতিক প্রতিষ্ঠান, বাণিজ্য ও সহযোগিতার মাধ্যমে রাষ্ট্রগুলোর মধ্যে শান্তি ও স্থিতিশীলতা প্রতিষ্ঠা করা সম্ভব। বাস্তববাদ রাষ্ট্রীয় ক্ষমতা ও সংঘাতের উপর জোর দেয়।"
+  },
+  {
+    "id": 145,
+    "question": "হিলি স্থল বন্দরটি বাংলাদেশের কোথায় অবস্থিত?",
+    "options": {
+      "A": "বিরামপুর, দিনাজপুর",
+      "B": "ঘোড়াঘাট, দিনাজপুর",
+      "C": "হাকিমপুর, দিনাজপুর",
+      "D": "পাঁচবিবি, জয়পুর হাট"
+    },
+    "answer": "C",
+    "explanation": "হিলি স্থল বন্দরটি দিনাজপুর জেলার হাকিমপুর উপজেলায় অবস্থিত। এটি ভারত ও বাংলাদেশের মধ্যে বাণিজ্যের জন্য একটি গুরুত্বপূর্ণ বন্দর।"
+  },
+  {
+    "id": 146,
+    "question": "ঢাকা থেকে পূর্বদিকে অবস্থিত একটি স্থানের সাথে দ্রাঘিমার পার্থক্য ৪৫°। ঢাকার সময় মধ্যাহ্ন ১২:০০ টা হলে ঐ স্থানটির স্থানীয় সময় হবে-",
+    "options": {
+      "A": "সকাল ০৯:০০ টা",
+      "B": "বিকাল ০৩:০০ টা",
+      "C": "সন্ধ্যা ০৬:০০ টা",
+      "D": "রাত ০৯:০০ টা"
+    },
+    "answer": "B",
+    "explanation": "আমরা জানি, ১° দ্রাঘিমার পার্থক্যের জন্য সময়ের পার্থক্য ৪ মিনিট। সুতরাং, ৪৫° দ্রাঘিমার জন্য সময়ের পার্থক্য = ৪৫ × ৪ = ১৮০ মিনিট = ৩ ঘণ্টা। যেহেতু স্থানটি ঢাকার পূর্বে অবস্থিত, তাই সময় এগিয়ে থাকবে। অতএব, সময় হবে ১২:০০ + ৩:০০ = বিকাল ০৩:০০ টা।"
+  },
+  {
+    "id": 147,
+    "question": "কোন দুটি প্লেটের সংযোগস্থল বরাবর মাউন্ট এভারেস্ট অবস্থিত?",
+    "options": {
+      "A": "ইন্ডিয়ান ও ইউরেশিয়ান",
+      "B": "ইন্ডিয়ান ও বার্মিজ",
+      "C": "ইন্ডিয়ান ও আফ্রিকান",
+      "D": "বার্মিজ ও ইউরেশিয়ান"
+    },
+    "answer": "A",
+    "explanation": "হিমালয় পর্বতমালা এবং মাউন্ট এভারেস্টের সৃষ্টি হয়েছে ইন্ডিয়ান টেকটোনিক প্লেট এবং ইউরেশিয়ান টেকটোনিক প্লেটের সংঘর্ষের ফলে। ইন্ডিয়ান প্লেটটি ইউরেশিয়ান প্লেটের নিচে ঢুকে যাওয়ায় এই বিশাল পর্বতমালা গঠিত হয়েছে।"
+  },
+  {
+    "id": 148,
+    "question": "উচ্চতা বৃদ্ধির সাথে ট্রপোমন্ডলে বায়ুর ক্রমহ্রাসমান তাপমাত্রা হল-",
+    "options": {
+      "A": "৫.৫° সেলসিয়াস/কিলোমিটার",
+      "B": "৬.৫° সেলসিয়াস/কিলোমিটার",
+      "C": "৭.৫° সেলসিয়াস/কিলোমিটার",
+      "D": "৮.৫° সেলসিয়াস/কিলোমিটার"
+    },
+    "answer": "B",
+    "explanation": "বায়ুমণ্ডলের সর্বনিম্ন স্তর ট্রপোমন্ডলে উচ্চতা বৃদ্ধির সাথে সাথে তাপমাত্রা হ্রাস পায়। এই হ্রাসের গড় হারকে স্বাভাবিক তাপমাত্রা হ্রাসের হার (Normal Lapse Rate) বলে, যা প্রতি ১০০০ মিটার বা ১ কিলোমিটার উচ্চতায় প্রায় ৬.৫° সেলসিয়াস।"
+  },
+  {
+    "id": 149,
+    "question": "দুবাইয়ে অনুষ্ঠিত জাতিসংঘ জলবায়ু বিষয়ক সম্মেলন (কপ-২৮) মূল ফোকাস ছিল-",
+    "options": {
+      "A": "জীবাশ্ম জ্বালানির ব্যবহার পর্যায়ক্রমে হ্রাসকরণ",
+      "B": "জীববৈচিত্র সংরক্ষণ বিষয়ক",
+      "C": "ওজোনস্তর ক্ষয় নিয়ন্ত্রণ বিষয়ক",
+      "D": "মরুকরণ প্রক্রিয়া বিষয়ক"
+    },
+    "answer": "Global Stocktake, fossil fuel phase-out, loss and damage fund",
+    "explanation": "COP28-এ জীবাশ্ম জ্বালানি থেকে উত্তরণ ও বৈশ্বিক মূল্যায়ন ছিল।"
+  },
+  {
+    "id": 150,
+    "question": "নিরক্ষীয় তল থেকে উত্তর মেরুর কৌণিক দূরত্ব বা উৎপন্ন কোণ কত?",
+    "options": {
+      "A": "১৮০°",
+      "B": "৩৬০°",
+      "C": "৯০°",
+      "D": "০°"
+    },
+    "answer": "C",
+    "explanation": "নিরক্ষরেখার অক্ষাংশ ০°। পৃথিবীর কেন্দ্র থেকে নিরক্ষীয় তলের সাথে কোনো স্থানের কৌণিক দূরত্বই হলো সেই স্থানের অক্ষাংশ। উত্তর মেরু পৃথিবীর সর্ব উত্তরের বিন্দু হওয়ায় এর অক্ষাংশ বা কৌণিক দূরত্ব ৯০° উত্তর।"
+  },
+  {
+    "id": 151,
+    "question": "জাপানিজ শব্দ 'সুনামি' এর অর্থ কী?",
+    "options": {
+      "A": "বিশালাকৃতির ঢেউ",
+      "B": "সামুদ্রিক ঢেউ",
+      "C": "জলোচ্ছ্বাস",
+      "D": "পোতাশ্রয়ের ঢেউ"
+    },
+    "answer": "D",
+    "explanation": "জাপানি শব্দ 'সুনামি' (津波) দুটি শব্দ দ্বারা গঠিত: 'সু' (津) অর্থ পোতাশ্রয় বা বন্দর এবং 'নামি' (波) অর্থ ঢেউ। সুতরাং, এর আক্ষরিক অর্থ হলো 'পোতাশ্রয়ের ঢেউ'।"
+  },
+  {
+    "id": 152,
+    "question": "বৈশ্বিক উষ্ণায়নের জন্য ঝুঁকিপূর্ণ নয় কোনটি?",
+    "options": {
+      "A": "মরুকরণ",
+      "B": "বন্যা",
+      "C": "সমুদ্র পৃষ্ঠের উচ্চতা বৃদ্ধি",
+      "D": "ভূমিকম্প"
+    },
+    "answer": "D",
+    "explanation": "মরুকরণ, বন্যা এবং সমুদ্র পৃষ্ঠের উচ্চতা বৃদ্ধি—এই সবগুলোই বৈশ্বিক উষ্ণায়ন ও জলবায়ু পরিবর্তনের প্রত্যক্ষ বা পরোক্ষ ফল। অন্যদিকে, ভূমিকম্প সংঘটিত হয় পৃথিবীর ভূ-অভ্যন্তরের টেকটোনিক প্লেটের সঞ্চালনের কারণে, যা বৈশ্বিক উষ্ণায়নের সাথে সম্পর্কিত নয়।"
+  },
+  {
+    "id": 153,
+    "question": "বন্যা নিয়ন্ত্রণে সাধারণ ব্যবস্থাপনার অন্তর্ভুক্ত নয় কোনটি?",
+    "options": {
+      "A": "নদী খননের মাধ্যমে পানি পরিবহন সক্ষমতা বৃদ্ধি করা",
+      "B": "নদী শাসন ব্যবস্থা সুনিশ্চিত করা",
+      "C": "নদীর দুই তীরে বনাঞ্চল সৃষ্টি করা",
+      "D": "বন্যার পূর্বাভাস ও সতর্কীকরণ ব্যবস্থার উন্নয়ন সাধন করা"
+    },
+    "answer": "A",
+    "explanation": "বন্যা নিয়ন্ত্রণে নদী খনন, নদী শাসন, নদীর তীরে বনায়ন—এই সবগুলোই অবকাঠামোগত ব্যবস্থাপনার অংশ। অন্যদিকে, বন্যার পূর্বাভাস ও সতর্কীকরণ ব্যবস্থা হলো অ-অবকাঠামোগত বা সাধারণ ব্যবস্থাপনা। প্রশ্নে 'সাধারণ ব্যবস্থাপনার অন্তর্ভুক্ত নয়' জানতে চাওয়া হয়েছে, যা প্রশ্নটিকে কিছুটা বিভ্রান্তিকর করে। তবে বিকল্পগুলোর মধ্যে নদী খনন একটি প্রত্যক্ষ প্রকৌশলগত সমাধান হওয়ায় এটি সাধারণ ব্যবস্থাপনার চেয়ে অবকাঠামোগত ব্যবস্থাপনার সাথে বেশি সম্পর্কিত।"
+  },
+  {
+    "id": 154,
+    "question": "নিচের কোনটি কৃষি আবহাওয়াজনিত আপদ (Hazard)?",
+    "options": {
+      "A": "ভূমিকম্প",
+      "B": "ভূমিধস",
+      "C": "সুনামি",
+      "D": "খরা"
+    },
+    "answer": "D",
+    "explanation": "খরা হলো দীর্ঘ সময় ধরে বৃষ্টিপাত না হওয়ার ফলে সৃষ্ট একটি আবহাওয়াজনিত আপদ, যা সরাসরি কৃষিখাতকে ক্ষতিগ্রস্ত করে। ভূমিকম্প, ভূমিধস ও সুনামি হলো ভূতাত্ত্বিক আপদ।"
+  },
+  {
+    "id": 155,
+    "question": "পাহাড়পুরের 'সোমপুর মহাবিহার' বাংলার কোন শাসন আমলের স্থাপত্য কীর্তির নিদর্শন?",
+    "options": {
+      "A": "মৌর্য",
+      "B": "পাল",
+      "C": "গুপ্ত",
+      "D": "চন্দ্র"
+    },
+    "answer": "B",
+    "explanation": "নওগাঁ জেলার পাহাড়পুরে অবস্থিত সোমপুর মহাবিহার প্রাচীন বাংলার পাল বংশের দ্বিতীয় রাজা ধর্মপাল কর্তৃক আনুমানিক ৭৮১-৮২১ খ্রিস্টাব্দে স্থাপিত হয়। এটি ছিল তৎকালীন বৌদ্ধ ধর্মচর্চার একটি বিখ্যাত কেন্দ্র এবং ১৯৮৫ সালে ইউনেস্কো এটিকে বিশ্ব ঐতিহ্যবাহী স্থানের মর্যাদা দেয়।"
+  },
+  {
+    "id": 156,
+    "question": "মুজিবনগর সরকারকে গার্ড অব অনার নেতৃত্ব দেন কে?",
+    "options": {
+      "A": "মোহাম্মদ সোলায়মান",
+      "B": "আব্দুল খালেক",
+      "C": "মাহবুব উদ্দিন আহমেদ",
+      "D": "শৈলেন্দ্র কিশোর চৌধুরী"
+    },
+    "answer": "C",
+    "explanation": "১৯৭১ সালের ১৭ এপ্রিল মেহেরপুরের বৈদ্যনাথতলায় (বর্তমান মুজিবনগর) গণপ্রজাতন্ত্রী বাংলাদেশ সরকারের শপথ গ্রহণ অনুষ্ঠানে ভারপ্রাপ্ত রাষ্ট্রপতি সৈয়দ নজরুল ইসলামকে গার্ড অব অনার প্রদান করা হয়। এই দলের নেতৃত্বে ছিলেন তৎকালীন ঝিনাইদহ মহকুমার পুলিশ প্রধান (SDPO) মাহবুব উদ্দিন আহমেদ, বীরবিক্রম।"
+  },
+  {
+    "id": 157,
+    "question": "ঐতিহাসিক ৬-দফা দাবিতে কোন দু'টি বিষয় কেন্দ্রিয় সরকারের হাতে রাখার প্রস্তাব ছিল?",
+    "options": {
+      "A": "বৈদেশিক বাণিজ্য ও প্রতিরক্ষা",
+      "B": "অর্থ ও পররাষ্ট্র",
+      "C": "স্বরাষ্ট্র ও পরিকল্পনা",
+      "D": "প্রতিরক্ষা ও পররাষ্ট্র"
+    },
+    "answer": "D",
+    "explanation": "১৯৬৬ সালে বঙ্গবন্ধু শেখ মুজিবুর রহমান কর্তৃক উত্থাপিত ঐতিহাসিক ছয় দফার দ্বিতীয় দফায় বলা হয়েছিল যে, ফেডারেল বা কেন্দ্রীয় সরকারের এখতিয়ারে কেবলমাত্র দুটি বিষয় থাকবে: প্রতিরক্ষা ও পররাষ্ট্র। অবশিষ্ট সকল বিষয় প্রদেশের হাতে থাকবে।"
+  },
+  {
+    "id": 158,
+    "question": "বাংলার প্রাচীন জনপদ হরিকেল এর বর্তমান নাম কী?",
+    "options": {
+      "A": "সিলেট ও চট্টগ্রাম",
+      "B": "ঢাকা ও ময়মনসিংহ",
+      "C": "কুমিল্লা ও নোয়াখালী",
+      "D": "রাজশাহী ও রংপুর"
+    },
+    "answer": "A",
+    "explanation": "প্রাচীন পূর্ববঙ্গের জনপদ হরিকেল আধুনিক সিলেট, চট্টগ্রাম ও পার্বত্য চট্টগ্রাম অঞ্চল নিয়ে বিস্তৃত ছিল। এর কেন্দ্র ছিল চট্টগ্রাম।"
+  },
+  {
+    "id": 159,
+    "question": "বাংলাদেশের কোন বিভাগে জনসংখ্যার ঘনত্ব সবচেয়ে কম?",
+    "options": {
+      "A": "সিলেট",
+      "B": "খুলনা",
+      "C": "বরিশাল",
+      "D": "চট্রগ্রাম"
+    },
+    "answer": "C",
+    "explanation": "জনশুমারি ও গৃহগণনা-২০২২ এর চূড়ান্ত রিপোর্ট অনুযায়ী, বরিশাল বিভাগে জনসংখ্যার ঘনত্ব সবচেয়ে কম (প্রতি বর্গ কিলোমিটারে ৬৮৮ জন)। সবচেয়ে বেশি ঘনত্ব ঢাকা বিভাগে (প্রতি বর্গ কিলোমিটারে ২১৫৬ জন)।"
+  },
+  {
+    "id": 160,
+    "question": "ট্রেডিং কর্পোরেশন অব বাংলাদেশ কোন মন্ত্রণালয়ের আওতাভুক্ত?",
+    "options": {
+      "A": "পরিকল্পনা",
+      "B": "শিল্প",
+      "C": "বাণিজ্য",
+      "D": "অর্থ"
+    },
+    "answer": "C",
+    "explanation": "ট্রেডিং কর্পোরেশন অব বাংলাদেশ (টিসিবি) বাণিজ্য মন্ত্রণালয়ের অধীন একটি রাষ্ট্রীয় বাণিজ্যিক প্রতিষ্ঠান। এটি নিত্যপ্রয়োজনীয় পণ্যের মূল্য স্থিতিশীল রাখতে এবং সরবরাহ স্বাভাবিক রাখতে কাজ করে।"
+  },
+  {
+    "id": 161,
+    "question": "বাংলাদেশ সরকার কোন উৎস থেকে সর্বোচ্চ রাজস্ব আয় করে?",
+    "options": {
+      "A": "ভূমি রাজস্ব",
+      "B": "মূল্য সংযোজন কর",
+      "C": "আয়কর",
+      "D": "আমদানি শুল্ক"
+    },
+    "answer": "B",
+    "explanation": "বাংলাদেশ সরকারের রাজস্ব আয়ের বৃহত্তম উৎস হলো জাতীয় রাজস্ব বোর্ড (NBR) কর্তৃক সংগৃহীত কর। এর মধ্যে মূল্য সংযোজন কর বা ভ্যাট (VAT) থেকে সবচেয়ে বেশি রাজস্ব আয় হয়।"
+  },
+  {
+    "id": 162,
+    "question": "মারমাদের সবচেয়ে বড় উৎসবের নাম কী?",
+    "options": {
+      "A": "বিজু",
+      "B": "রাশ",
+      "C": "সাংগ্রাই",
+      "D": "বাইশু"
+    },
+    "answer": "C",
+    "explanation": "সাংগ্রাই মারমা সম্প্রদায়ের প্রধান সামাজিক ও ধর্মীয় উৎসব। এটি বাংলা নববর্ষ উপলক্ষে এপ্রিলের মাঝামাঝি সময়ে উদযাপিত হয়। বিজু চাকমাদের, বাইশু ত্রিপুরাদের এবং সাংগ্রাই মারমাদের উৎসবকে একত্রে 'বৈসাবি' বলা হয়।"
+  },
+  {
+    "id": 163,
+    "question": "বিশ্বকাপ ক্রিকেট ২০২৩-এ বাংলাদেশের কোন খেলোয়াড় সর্বোচ্চ রান করেন?",
+    "options": {
+      "A": "লিটন দাস",
+      "B": "মুশফিকুর রহিম",
+      "C": "সাকিব আল হাসান",
+      "D": "মাহমুদুল্লাহ রিয়াদ"
+    },
+    "answer": "D",
+    "explanation": "২০২৩ সালের আইসিসি ক্রিকেট বিশ্বকাপে বাংলাদেশ দলের হয়ে সর্বোচ্চ রান করেন মাহমুদুল্লাহ রিয়াদ। তিনি ৮ ম্যাচে মোট ৩২৮ রান করেন।"
+  },
+  {
+    "id": 164,
+    "question": "বাংলাদেশের পররাষ্ট্র নীতি সংক্রান্ত নির্দেশনা সংবিধানের কত অনুচ্ছেদে উল্লেখ করা হয়েছে?",
+    "options": {
+      "A": "২৫",
+      "B": "২৬",
+      "C": "২৭",
+      "D": "২৮"
+    },
+    "answer": "A",
+    "explanation": "বাংলাদেশ সংবিধানের ২৫ নং অনুচ্ছেদে আন্তর্জাতিক শান্তি, নিরাপত্তা ও সংহতির উন্নয়ন বিষয়ে রাষ্ট্রের পররাষ্ট্র নীতির মূলনীতিসমূহ উল্লেখ করা হয়েছে। এর মূল ভিত্তি হলো 'সকলের সাথে বন্ধুত্ব, কারো সাথে বৈরিতা নয়'।"
+  },
+  {
+    "id": 165,
+    "question": "মাতৃপ্রধান পরিবার ব্যবস্থার প্রচলন কোন জাতীসত্ত্বায় রয়েছে?",
+    "options": {
+      "A": "গারো",
+      "B": "সাওতাল",
+      "C": "মনিপুরি",
+      "D": "চাকমা"
+    },
+    "answer": "A",
+    "explanation": "বাংলাদেশের ক্ষুদ্র নৃ-গোষ্ঠীর মধ্যে গারো এবং খাসিয়াদের পরিবার ব্যবস্থা মাতৃতান্ত্রিক বা মাতৃপ্রধান। এখানে নারীরাই পরিবারের প্রধান এবং সম্পত্তির উত্তরাধিকারী হন।"
+  },
+  {
+    "id": 166,
+    "question": "অ্যাটর্নি জেনারেল রাষ্ট্রের কোন অংশের কর্মকর্তা?",
+    "options": {
+      "A": "প্রধানমন্ত্রীর কার্যালয়",
+      "B": "বিচার বিভাগ",
+      "C": "নির্বাহী বিভাগ",
+      "D": "মন্ত্রীপরিষদ বিভাগ"
+    },
+    "answer": "C",
+    "explanation": "অ্যাটর্নি জেনারেল হলেন রাষ্ট্রের প্রধান আইন কর্মকর্তা। যদিও তিনি বিচারিক কাজে অংশ নেন, তার পদটি নির্বাহী বিভাগের অন্তর্গত। রাষ্ট্রপতি তাকে নিয়োগ দেন এবং তিনি সরকারের আইনগত উপদেষ্টা হিসেবে কাজ করেন।"
+  },
+  {
+    "id": 167,
+    "question": "বাংলাদেশে কোন নদী কার্পজাতীয় মাছের রেণুর প্রধান উৎস?",
+    "options": {
+      "A": "সালদা",
+      "B": "হালদা",
+      "C": "পদ্মা",
+      "D": "কুমার"
+    },
+    "answer": "B",
+    "explanation": "চট্টগ্রামের হালদা নদী রুই, কাতলা, মৃগেল, কালিবাউশ ইত্যাদি কার্প জাতীয় মাছের ডিম ও রেণু সংগ্রহের জন্য বিশ্বের অন্যতম প্রধান প্রাকৃতিক উৎস। এটিকে 'মাছের প্রাকৃতিক জিন ব্যাংক' বলা হয়।"
+  },
+  {
+    "id": 168,
+    "question": "ব-দ্বীপ পরিকল্পনা ২১০০-এ কয়টি ভৌগোলিক হটস্পট নির্ধারণ করা হয়েছে?",
+    "options": {
+      "A": "৬",
+      "B": "৭",
+      "C": "৮",
+      "D": "৯"
+    },
+    "answer": "A",
+    "explanation": "বাংলাদেশ ব-দ্বীপ পরিকল্পনা বা ডেল্টা প্ল্যান ২১০০-তে দুর্যোগ ঝুঁকি ও জলবায়ু পরিবর্তনের প্রভাব বিবেচনা করে দেশকে ৬টি ভৌগোলিক হটস্পটে ভাগ করা হয়েছে।"
+  },
+  {
+    "id": 169,
+    "question": "বাংলাদেশের সংবিধান প্রণয়ন কমিটির একমাত্র নারী সদস্য কে ছিলেন?",
+    "options": {
+      "A": "সাজেদা চৌধুরী",
+      "B": "নুরজাহান মোর্শেদ",
+      "C": "রাফিয়া আক্তার ডলি",
+      "D": "রাজিয়া বানু"
+    },
+    "answer": "D",
+    "explanation": "১৯৭২ সালে গঠিত ৩৪ সদস্যের সংবিধান প্রণয়ন কমিটির একমাত্র নারী সদস্য ছিলেন বেগম রাজিয়া বানু। তিনি তৎকালীন জাতীয় পরিষদের সংরক্ষিত নারী আসনের সদস্য ছিলেন।"
+  },
+  {
+    "id": 170,
+    "question": "কৃষ্ণগহবর নিয়ে কোন বাঙালি বিজ্ঞানী গবেষণা করেছেন?",
+    "options": {
+      "A": "কুদরত-ই-খুদা",
+      "B": "কাজী মোতাহার হোসেন",
+      "C": "জামাল নজরুল ইসলাম",
+      "D": "আব্দুল মতিন চৌধুরী"
+    },
+    "answer": "C",
+    "explanation": "বিশ্ববিখ্যাত পদার্থবিজ্ঞানী ও গণিতবিদ অধ্যাপক জামাল নজরুল ইসলাম মহাবিশ্বের উদ্ভব ও পরিণতি এবং কৃষ্ণগহ্বর (Black Hole) নিয়ে গুরুত্বপূর্ণ গবেষণা করেছেন। তার লেখা 'The Ultimate Fate of the Universe' একটি বিখ্যাত গ্রন্থ।"
+  },
+  {
+    "id": 171,
+    "question": "কোন ক্ষেত্রে অবদানের জন্য প্রধানমন্ত্রী শেখ হাসিনা ২০১৬ সালে প্ল্যানেট ৫০-৫০ চ্যাম্পিয়ন পদক পান?",
+    "options": {
+      "A": "মানবাধিকার",
+      "B": "নারীর ক্ষমতায়ন",
+      "C": "শিশু মৃত্যুহার হ্রাস",
+      "D": "মাতৃ মৃত্যুহার হ্রাস"
+    },
+    "answer": "B",
+    "explanation": "বাংলাদেশে নারীর ক্ষমতায়নে অসামান্য অবদানের স্বীকৃতিস্বরূপ ২০১৬ সালে প্রধানমন্ত্রী শেখ হাসিনা জাতিসংঘের 'প্ল্যানেট ৫০-৫০ চ্যাম্পিয়ন' এবং 'এজেন্ট অব চেঞ্জ অ্যাওয়ার্ড' লাভ করেন।"
+  },
+  {
+    "id": 172,
+    "question": "বাংলাদেশের ২য় প্রেক্ষিত পরিকল্পনার মেয়াদ কবে শেষ হবে?",
+    "options": {
+      "A": "২০৩১",
+      "B": "২০৩৫",
+      "C": "২০৪১",
+      "D": "২০৪৫"
+    },
+    "answer": "C",
+    "explanation": "বাংলাদেশের দ্বিতীয় প্রেক্ষিত পরিকল্পনার (Perspective Plan) মেয়াদ ২০২১ থেকে ২০৪১ সাল পর্যন্ত। এর মূল লক্ষ্য হলো ২০৪১ সালের মধ্যে বাংলাদেশকে একটি উন্নত, সমৃদ্ধ ও স্মার্ট দেশে রূপান্তর করা।"
+  },
+  {
+    "id": 173,
+    "question": "২০২২-২৩ অর্থবছরে বাংলাদেশ কোন দেশ থেকে পণ্য রপ্তানি বাবদ সবচেয়ে বেশি আয় করেছে?",
+    "options": {
+      "A": "যুক্তরাষ্ট্র",
+      "B": "যুক্তরাজ্য",
+      "C": "জার্মানী",
+      "D": "স্পেন"
+    },
+    "answer": "A",
+    "explanation": "বাংলাদেশ একক দেশ হিসেবে সবচেয়ে বেশি পণ্য রপ্তানি করে যুক্তরাষ্ট্রে। ২০২২-২৩ অর্থবছরেও এই ধারা অব্যাহত ছিল। প্রধান রপ্তানি পণ্য হলো তৈরি পোশাক।"
+  },
+  {
+    "id": 174,
+    "question": "বাংলাদেশের নবীনতম নদী কোনটি?",
+    "options": {
+      "A": "পদ্মা",
+      "B": "যমুনা",
+      "C": "জিণ্জিরাম",
+      "D": "মেঘনা"
+    },
+    "answer": "B",
+    "explanation": "ভূতাত্ত্বিকদের মতে, ১৭৮৭ সালের ভয়াবহ ভূমিকম্প ও বন্যার ফলে ব্রহ্মপুত্র নদের গতিপথ পরিবর্তিত হয়ে বর্তমান যমুনা নদীর সৃষ্টি হয়। তাই যমুনাকে বাংলাদেশের সবচেয়ে নবীন বা youngest নদী বলা হয়।"
+  },
+  {
+    "id": 175,
+    "question": "'মুজিব : একটি জাতির রূপকার' চলচ্চিত্রের পরিচালক কে?",
+    "options": {
+      "A": "গুরু দত্ত",
+      "B": "শিবু সিরিল",
+      "C": "শ্যাম বেনেগাল",
+      "D": "বিশাল ভরদ্বাজ"
+    },
+    "answer": "C",
+    "explanation": "বঙ্গবন্ধু শেখ মুজিবুর রহমানের জীবনীর উপর ভিত্তি করে নির্মিত বাংলাদেশ ও ভারত সরকারের যৌথ প্রযোজনার চলচ্চিত্র 'মুজিব: একটি জাতির রূপকার'-এর পরিচালক ভারতের প্রখ্যাত চলচ্চিত্র নির্মাতা শ্যাম বেনেগাল।"
+  },
+  {
+    "id": 176,
+    "question": "বঙ্গবন্ধু শেখ মুজিবুর রহমান জাতিসংঘের সাধারণ পরিষদে ১৯৭৪ সালের কোন মাসে বাংলায় বক্তৃতা দেন?",
+    "options": {
+      "A": "সেপ্টেম্বর",
+      "B": "অক্টোবর",
+      "C": "নভেম্বর",
+      "D": "ডিসেম্বর"
+    },
+    "answer": "A",
+    "explanation": "১৯৭৪ সালের ২৫ সেপ্টেম্বর বঙ্গবন্ধু শেখ মুজিবুর রহমান জাতিসংঘের ২৯তম সাধারণ অধিবেশনে প্রথম বাংলায় ভাষণ প্রদান করেন। এর মাত্র এক সপ্তাহ আগে, ১৭ সেপ্টেম্বর, বাংলাদেশ জাতিসংঘের সদস্যপদ লাভ করে।"
+  },
+  {
+    "id": 177,
+    "question": "The Foreshadowing of Bangladesh গবেষণা গ্রন্থটির লেখক কে?",
+    "options": {
+      "A": "রেহমান সোবহান",
+      "B": "আনিসুর রহমান",
+      "C": "নুরুল ইসলাম",
+      "D": "হারুন-অর-রশিদ"
+    },
+    "answer": "D",
+    "explanation": "'The Foreshadowing of Bangladesh: Bengal's Muslim League and the Quest for a New Nation-State, 1906–47' গবেষণা গ্রন্থটির লেখক অধ্যাপক ড. হারুন-অর-রশিদ।"
+  },
+  {
+    "id": 178,
+    "question": "বাংলাদেশের প্রথম রাষ্ট্রপতি কে?",
+    "options": {
+      "A": "বঙ্গবন্ধু শেখ মুজিবুর রহমান",
+      "B": "সৈয়দ নজরুল ইসলাম",
+      "C": "তাজউদ্দীন আহমেদ",
+      "D": "বিচারপতি আবু সাঈদ চৌধুরী"
+    },
+    "answer": "A",
+    "explanation": "১৯৭১ সালের ১০ এপ্রিল গঠিত মুজিবনগর সরকারের ঘোষণাপত্র অনুযায়ী, বঙ্গবন্ধু শেখ মুজিবুর রহমান ছিলেন গণপ্রজাতন্ত্রী বাংলাদেশের প্রথম রাষ্ট্রপতি। তার অনুপস্থিতিতে উপ-রাষ্ট্রপতি সৈয়দ নজরুল ইসলাম ভারপ্রাপ্ত রাষ্ট্রপতির দায়িত্ব পালন করেন।"
+  },
+  {
+    "id": 179,
+    "question": "দ্বাদশ জাতীয় সংসদ নির্বাচনে ভোটার উপস্থিতির হার কত শতাংশ ছিল?",
+    "options": {
+      "A": "৪০.৮",
+      "B": "৪০.৯",
+      "C": "৪১.৬",
+      "D": "৪১.৮"
+    },
+    "answer": "D",
+    "explanation": "২০২৪ সালের ৭ জানুয়ারি অনুষ্ঠিত দ্বাদশ জাতীয় সংসদ নির্বাচনে নির্বাচন কমিশনের তথ্য অনুযায়ী, মোট ভোটার উপস্থিতির হার ছিল ৪১.৮ শতাংশ।"
+  },
+  {
+    "id": 180,
+    "question": "বাংলাদেশ সংবিধানের কত নম্বর অনুচ্ছেদ অনুযায়ী রাষ্ট্রপতি প্রধান বিচারপতি নিয়োগ দেন?",
+    "options": {
+      "A": "৯৫",
+      "B": "৯৬",
+      "C": "৯৭",
+      "D": "৯৮"
+    },
+    "answer": "A",
+    "explanation": "বাংলাদেশ সংবিধানের ৯৫(১) অনুচ্ছেদ অনুযায়ী, 'প্রধান বিচারপতি রাষ্ট্রপতি কর্তৃক নিযুক্ত হইবেন'।"
+  },
+  {
+    "id": 181,
+    "question": "১৯৫৪ সালের নির্বাচনে যুক্তফ্রন্ট কতটি আসনে জয়লাভ করেছিল?",
+    "options": {
+      "A": "২১৯",
+      "B": "২২১",
+      "C": "২২৩",
+      "D": "২২৫"
+    },
+    "answer": "C",
+    "explanation": "১৯৫৪ সালে পূর্ব বাংলা প্রাদেশিক পরিষদের নির্বাচনে ২৩৭টি মুসলিম আসনের মধ্যে যুক্তফ্রন্ট ২২৩টি আসনে জয়লাভ করে ক্ষমতাসীন মুসলিম লীগকে পরাজিত করে।"
+  },
+  {
+    "id": 182,
+    "question": "বাংলাদেশ সর্বাধিক জনশক্তি রপ্তানি করে কোন দেশে?",
+    "options": {
+      "A": "সংযুক্ত আরব আমিরাত",
+      "B": "সৌদিআরব",
+      "C": "কুয়েত",
+      "D": "মালয়েশিয়া"
+    },
+    "answer": "B",
+    "explanation": "জনশক্তি, কর্মসংস্থান ও প্রশিক্ষণ ব্যুরো (BMET) এর তথ্য অনুযায়ী, বাংলাদেশ থেকে সর্বাধিক জনশক্তি রপ্তানি করা হয় সৌদি আরবে।"
+  },
+  {
+    "id": 183,
+    "question": "কতজন নারী ২০২৩ সালে বেগম রোকেয়া পদক পেয়েছেন?",
+    "options": {
+      "A": "৩",
+      "B": "৪",
+      "C": "৫",
+      "D": "৬"
+    },
+    "answer": "C",
+    "explanation": "২০২৩ সালে নারী শিক্ষায় বিশেষ অবদানের জন্য পাঁচজন বিশিষ্ট নারীকে বেগম রোকেয়া পদক প্রদান করা হয়।"
+  },
+  {
+    "id": 184,
+    "question": "বাংলাদেশ প্রথম ওয়ানডে এবং টেস্ট সিরিজ জয় করে কোন দেশের বিপক্ষে?",
+    "options": {
+      "A": "পাকিস্তান",
+      "B": "দক্ষিণ আফ্রিকা",
+      "C": "ভারত",
+      "D": "জিম্বাবুয়ে"
+    },
+    "answer": "D",
+    "explanation": "বাংলাদেশ ২০০৪ সালে জিম্বাবুয়ের বিপক্ষে প্রথম ওয়ানডে সিরিজ জয় করে এবং ২০০৫ সালে দেশের মাটিতে জিম্বাবুয়ের বিপক্ষেই প্রথম টেস্ট সিরিজ (এবং প্রথম টেস্ট ম্যাচ) জয় লাভ করে।"
+  }
+]

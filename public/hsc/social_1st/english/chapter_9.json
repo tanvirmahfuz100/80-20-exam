@@ -1,0 +1,67 @@
+﻿[
+    {
+        "id":  1,
+        "question":  "What are the types of fieldwork reports? [Kadamtala East Basabo School and College, Dhaka]",
+        "options":  {
+                        "A":  "Two",
+                        "B":  "Three",
+                        "C":  "Four",
+                        "D":  "Five"
+                    },
+        "answer":  "B",
+        "explanation":  "Fieldwork reports are of three types.",
+        "source":  "সমাজকর্ম, অধ্যায়-৯"
+    },
+    {
+        "id":  2,
+        "question":  "What type of information should always be used in the report? [Rajbari Government Adarsh Women\u0027s College, Rajbari]",
+        "options":  {
+                        "A":  "Update",
+                        "B":  "Antiquity",
+                        "C":  "Researchable and enjoyable",
+                        "D":  "Research findings"
+                    },
+        "answer":  "A",
+        "explanation":  "Reports should always use updated information.",
+        "source":  "সমাজকর্ম, অধ্যায়-৯"
+    },
+    {
+        "id":  3,
+        "question":  "How should the report be? [Mohammedpur Preparatory Higher Secondary School, Dhaka]",
+        "options":  {
+                        "A":  "complete",
+                        "B":  "Broad",
+                        "C":  "Incomplete",
+                        "D":  "Scattered"
+                    },
+        "answer":  "A",
+        "explanation":  "The report should be complete.",
+        "source":  "সমাজকর্ম, অধ্যায়-৯"
+    },
+    {
+        "id":  4,
+        "question":  "In which year three months training course on social work was launched in Dhaka? [Chittagong Government Women\u0027s College]",
+        "options":  {
+                        "A":  "In 1952",
+                        "B":  "In 1953",
+                        "C":  "In 1954",
+                        "D":  "In 1955"
+                    },
+        "answer":  "B",
+        "explanation":  "In 1953 three months training course was started in Dhaka.",
+        "source":  "সমাজকর্ম, অধ্যায়-৯"
+    },
+    {
+        "id":  5,
+        "question":  "How many working days field work is required in social work education? [All Boards 2015]",
+        "options":  {
+                        "A":  "60",
+                        "B":  "70",
+                        "C":  "80",
+                        "D":  "90"
+                    },
+        "answer":  "D",
+        "explanation":  "90 working days field work to be done.",
+        "source":  "সমাজকর্ম, অধ্যায়-৯"
+    }
+]

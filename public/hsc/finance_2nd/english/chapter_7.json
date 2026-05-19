@@ -1,0 +1,236 @@
+[
+  {
+    "id": 153,
+    "question": "What is the primary source of bank funds?",
+    "options": {
+      "A": "Owner's capital",
+      "B": "Deposits",
+      "C": "Loans",
+      "D": "Reserves"
+    },
+    "answer": "B",
+    "explanation": "Deposits are the primary and most important source of bank funds. Banks collect small savings from people and use them for lending and investment.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 154,
+    "question": "Which type of deposit can be withdrawn at any time during banking hours?",
+    "options": {
+      "A": "Fixed deposit",
+      "B": "Savings deposit",
+      "C": "Current deposit",
+      "D": "Recurring deposit"
+    },
+    "answer": "C",
+    "explanation": "Money from a Current Deposit can be withdrawn at any time during banking hours without any restriction. This is mostly used by businessmen.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 155,
+    "question": "On which type of deposit does a bank generally not pay any interest?",
+    "options": {
+      "A": "Savings deposit",
+      "B": "Fixed deposit",
+      "C": "Current deposit",
+      "D": "Special deposit"
+    },
+    "answer": "C",
+    "explanation": "Banks generally do not pay any interest on current deposits because the bank must keep the full amount ready for withdrawal at any time.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 156,
+    "question": "Which is the secondary source of bank funds?",
+    "options": {
+      "A": "Deposits",
+      "B": "Borrowing from other banks",
+      "C": "Reserves",
+      "D": "Undistributed profit"
+    },
+    "answer": "B",
+    "explanation": "Borrowing from other banks or the central bank is considered a secondary source of bank funds. Banks use this source when they face a liquidity crisis.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 157,
+    "question": "What is the main objective of using bank funds?",
+    "options": {
+      "A": "Lending",
+      "B": "Profit earning",
+      "C": "Asset preservation",
+      "D": "Helping the government"
+    },
+    "answer": "B",
+    "explanation": "The main objective of using bank funds is to earn profit. Banks earn profit by lending the collected funds at a higher interest rate.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 158,
+    "question": "Which type of loan is provided for a very short period (usually 1-14 days)?",
+    "options": {
+      "A": "Cash credit",
+      "B": "Overdraft",
+      "C": "Call money",
+      "D": "Term loan"
+    },
+    "answer": "C",
+    "explanation": "Call Money is a loan provided for a very short period, usually for one day or up to 14 days. It is mostly transacted between banks.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 159,
+    "question": "What is an Overdraft?",
+    "options": {
+      "A": "Loan against fixed deposit",
+      "B": "Withdrawing more than the account balance",
+      "C": "Loan for purchasing house",
+      "D": "Export credit"
+    },
+    "answer": "B",
+    "explanation": "An Overdraft is the facility of withdrawing more money than the current account balance. This facility is provided to reliable customers for a specific limit.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 160,
+    "question": "What does a bank's 'Liquidity' mean?",
+    "options": {
+      "A": "Total assets of the bank",
+      "B": "Ability to pay cash on demand",
+      "C": "Total profit of the bank",
+      "D": "Total number of branches"
+    },
+    "answer": "B",
+    "explanation": "A bank's liquidity means its ability to pay cash immediately to customers on demand. Maintaining proper liquidity is crucial for maintaining public trust.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 161,
+    "question": "What is the main principle of bank lending?",
+    "options": {
+      "A": "Principle of safety",
+      "B": "Principle of complexity",
+      "C": "Principle of long-term",
+      "D": "Principle of high risk"
+    },
+    "answer": "A",
+    "explanation": "The 'Principle of Safety' is the main principle of bank lending. Before providing a loan, the bank ensures whether the money will be returned safely.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 162,
+    "question": "A loan provided for more than five years is called-",
+    "options": {
+      "A": "Short-term loan",
+      "B": "Mid-term loan",
+      "C": "Long-term loan",
+      "D": "Daily loan"
+    },
+    "answer": "C",
+    "explanation": "A loan provided for more than five years is called a long-term loan. These loans are used for large-scale industrial or infrastructure development.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 163,
+    "question": "Bank funds include- i. Paid-up capital ii. Deposits iii. Reserves",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Bank funds are composed of paid-up capital, deposits, and reserves. All three are important components of bank funds.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 164,
+    "question": "Classification of bank loans is based on- i. Period ii. Security iii. Purpose",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Bank loans are classified based on the period, security, and purpose. This classification helps the bank in effective fund management.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 165,
+    "question": "Before providing a loan, the bank considers- i. Customer's character ii. Customer's capability iii. Customer's capital",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Before providing a loan, the bank considers the customer's character, capability, and capital. These are known as the 3Cs of credit.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 166,
+    "question": "[Stimulus] Mr. Arif opened an account where he deposits Tk 5,000 every month. He will receive a lump sum amount after five years. What type of account did Mr. Arif open?",
+    "options": {
+      "A": "Savings account",
+      "B": "Current account",
+      "C": "Recurring account",
+      "D": "Fixed account"
+    },
+    "answer": "C",
+    "explanation": "Mr. Arif opened a Recurring Account. In this account, a fixed amount must be deposited every month for a specific period, and a lump sum is received at the end.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 167,
+    "question": "What is the main advantage of the above account?",
+    "options": {
+      "A": "Withdrawal facility at any time",
+      "B": "Compulsory savings habit",
+      "C": "Facility to pay electricity bills",
+      "D": "Money transfer facility"
+    },
+    "answer": "B",
+    "explanation": "The main advantage of a recurring account is that it develops a compulsory savings habit in people. This helps in capital formation.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 168,
+    "question": "[Stimulus] A garment factory needed Tk 50 crore to buy new machinery. They applied to a bank for a loan. The bank provided the loan for 7 years against a factory building as security. What type of loan did the bank provide?",
+    "options": {
+      "A": "Short-term loan",
+      "B": "Mid-term loan",
+      "C": "Long-term loan",
+      "D": "Secured loan"
+    },
+    "answer": "C",
+    "explanation": "Since the loan is for 7 years (more than 5 years), it is a long-term loan. It is also a secured loan because it was provided against security.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 169,
+    "question": "What is the primary objective of the bank in providing this loan?",
+    "options": {
+      "A": "Helping the industry",
+      "B": "Social welfare",
+      "C": "Earning interest and profit",
+      "D": "Increasing popularity"
+    },
+    "answer": "C",
+    "explanation": "The primary objective of the bank in providing any loan is to earn interest and profit. Banks conduct their operations through this income.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 170,
+    "question": "A bank's 'Solvency' means- i. Ability to meet long-term liabilities ii. Value of total assets being greater than total liabilities iii. Sufficient cash in hand",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "A bank's solvency means its ability to meet long-term liabilities and its total asset value being greater than its total liabilities. Sufficient cash in hand refers to liquidity.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  }
+]

@@ -619,6 +619,20 @@
           ],
           "name_bn": "অধ্যায় ১৩: অগ্নি বিমা",
           "name_en": "Chapter 13: Fire Insurance"
+        },
+        {
+          "id": "chapter_14",
+          "name": "Chapter 14",
+          "chapters": [
+            {
+              "id": "hsc_fin2_ch14",
+              "name": "Chapter 14 Questions",
+              "file_bn": "/hsc/finance_2nd/chapter_14.json",
+              "file_en": "/hsc/finance_2nd/english/chapter_14.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১৪: বিবিধ বিমা",
+          "name_en": "Chapter 14: Miscellaneous Insurance"
         }
       ],
       "name_bn": "ফিন্যান্স, ব্যাংকিং ও বিমা ২য় পত্র",
@@ -635,15 +649,9 @@
           "chapters": [
             {
               "id": "hsc_prod1_ch1",
-              "name": "Chapter 1 MCQ",
+              "name": "Chapter 1 Questions",
               "file_bn": "/hsc/production_1st/chapter_1.json",
               "file_en": "/hsc/production_1st/english/chapter_1.json"
-            },
-            {
-              "id": "hsc_prod1_ch1_cq",
-              "name": "Chapter 1 CQ (সৃজনশীল প্রশ্ন)",
-              "file_bn": "/hsc/production_1st/chapter_1_cq.json",
-              "file_en": "/hsc/production_1st/english/chapter_1_cq.json"
             }
           ],
           "name_bn": "অধ্যায় 1: উৎপাদন",
@@ -655,15 +663,9 @@
           "chapters": [
             {
               "id": "hsc_prod1_ch2",
-              "name": "Chapter 2 MCQ",
+              "name": "Chapter 2 Questions",
               "file_bn": "/hsc/production_1st/chapter_2.json",
               "file_en": "/hsc/production_1st/english/chapter_2.json"
-            },
-            {
-              "id": "hsc_prod1_ch2_cq",
-              "name": "Chapter 2 CQ (সৃজনশীল প্রশ্ন)",
-              "file_bn": "/hsc/production_1st/chapter_2_cq.json",
-              "file_en": "/hsc/production_1st/english/chapter_2_cq.json"
             }
           ],
           "name_bn": "অধ্যায় 2: উৎপাদনের উপকরণ",
@@ -675,15 +677,9 @@
           "chapters": [
             {
               "id": "hsc_prod1_ch3",
-              "name": "Chapter 3 MCQ",
+              "name": "Chapter 3 Questions",
               "file_bn": "/hsc/production_1st/chapter_3.json",
               "file_en": "/hsc/production_1st/english/chapter_3.json"
-            },
-            {
-              "id": "hsc_prod1_ch3_cq",
-              "name": "Chapter 3 CQ (সৃজনশীল প্রশ্ন)",
-              "file_bn": "/hsc/production_1st/chapter_3_cq.json",
-              "file_en": "/hsc/production_1st/english/chapter_3_cq.json"
             }
           ],
           "name_bn": "অধ্যায় 3: উৎপাদনের মাত্রা",
@@ -695,15 +691,9 @@
           "chapters": [
             {
               "id": "hsc_prod1_ch4",
-              "name": "Chapter 4 MCQ",
+              "name": "Chapter 4 Questions",
               "file_bn": "/hsc/production_1st/chapter_4.json",
               "file_en": "/hsc/production_1st/english/chapter_4.json"
-            },
-            {
-              "id": "hsc_prod1_ch4_cq",
-              "name": "Chapter 4 CQ (সৃজনশীল প্রশ্ন)",
-              "file_bn": "/hsc/production_1st/chapter_4_cq.json",
-              "file_en": "/hsc/production_1st/english/chapter_4_cq.json"
             }
           ],
           "name_bn": "অধ্যায় 4: সামষ্টিক পর্যায় উৎপাদন",
@@ -715,15 +705,9 @@
           "chapters": [
             {
               "id": "hsc_prod1_ch5",
-              "name": "Chapter 5 MCQ",
+              "name": "Chapter 5 Questions",
               "file_bn": "/hsc/production_1st/chapter_5.json",
               "file_en": "/hsc/production_1st/english/chapter_5.json"
-            },
-            {
-              "id": "hsc_prod1_ch5_cq",
-              "name": "Chapter 5 CQ (সৃজনশীল প্রশ্ন)",
-              "file_bn": "/hsc/production_1st/chapter_5_cq.json",
-              "file_en": "/hsc/production_1st/english/chapter_5_cq.json"
             }
           ],
           "name_bn": "অধ্যায় 5: উৎপাদন ব্যবস্থাপনা",
@@ -953,65 +937,139 @@
       "name_en": "Production 2nd Paper"
     },
     {
-      "id": "english_2nd",
-      "name": "English 2nd Paper",
-      "icon": "Book",
+      "id": "social_1st",
+      "name": "Social Work 1st Paper",
+      "icon": "Heart",
       "topics": [
         {
-          "id": "articles",
-          "name": "Articles",
+          "id": "chapter_1",
+          "name": "Chapter 1",
           "chapters": [
             {
-              "id": "hsc_eng2_articles",
-              "name": "Use of Article",
-              "file": "/hsc/english_2nd/all_articles_merged.json"
+              "id": "hsc_soc1_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/social_1st/chapter_1.json",
+              "file_en": "/hsc/social_1st/english/chapter_1.json"
             }
           ],
-          "name_bn": "Articles",
-          "name_en": "Articles"
+          "name_bn": "অধ্যায় ১",
+          "name_en": "Chapter 1"
         },
         {
-          "id": "prepositions",
-          "name": "Prepositions",
+          "id": "chapter_2",
+          "name": "Chapter 2",
           "chapters": [
             {
-              "id": "hsc_eng2_prepositions",
-              "name": "Prepositions (All)",
-              "file": "/hsc/english_2nd/prepositions.json"
+              "id": "hsc_soc1_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/social_1st/chapter_2.json",
+              "file_en": "/hsc/social_1st/english/chapter_2.json"
             }
           ],
-          "name_bn": "Prepositions",
-          "name_en": "Prepositions"
+          "name_bn": "অধ্যায় ২",
+          "name_en": "Chapter 2"
         },
         {
-          "id": "phrases_and_words",
-          "name": "Phrases and Words",
+          "id": "chapter_3",
+          "name": "Chapter 3",
           "chapters": [
             {
-              "id": "hsc_eng2_phrases_words",
-              "name": "Phrases and Words",
-              "file": "/hsc/phrases-and-words.json"
+              "id": "hsc_soc1_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/social_1st/chapter_3.json",
+              "file_en": "/hsc/social_1st/english/chapter_3.json"
             }
           ],
-          "name_bn": "Phrases and Words",
-          "name_en": "Phrases and Words"
+          "name_bn": "অধ্যায় ৩",
+          "name_en": "Chapter 3"
         },
         {
-          "id": "clauses_and_phrases",
-          "name": "Clauses & Phrases",
+          "id": "chapter_4",
+          "name": "Chapter 4",
           "chapters": [
             {
-              "id": "hsc_eng2_clauses_phrases_04",
-              "name": "Clauses & Phrases (Set 1-80)",
-              "file": "/hsc/clauses-phrases-04.json"
+              "id": "hsc_soc1_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/social_1st/chapter_4.json",
+              "file_en": "/hsc/social_1st/english/chapter_4.json"
             }
           ],
-          "name_bn": "Clauses & Phrases",
-          "name_en": "Clauses & Phrases"
+          "name_bn": "অধ্যায় ৪",
+          "name_en": "Chapter 4"
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5",
+          "chapters": [
+            {
+              "id": "hsc_soc1_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/social_1st/chapter_5.json",
+              "file_en": "/hsc/social_1st/english/chapter_5.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৫",
+          "name_en": "Chapter 5"
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6",
+          "chapters": [
+            {
+              "id": "hsc_soc1_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/social_1st/chapter_6.json",
+              "file_en": "/hsc/social_1st/english/chapter_6.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৬",
+          "name_en": "Chapter 6"
+        },
+        {
+          "id": "chapter_7",
+          "name": "Chapter 7",
+          "chapters": [
+            {
+              "id": "hsc_soc1_ch7",
+              "name": "Chapter 7 Questions",
+              "file_bn": "/hsc/social_1st/chapter_7.json",
+              "file_en": "/hsc/social_1st/english/chapter_7.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৭",
+          "name_en": "Chapter 7"
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8",
+          "chapters": [
+            {
+              "id": "hsc_soc1_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/social_1st/chapter_8.json",
+              "file_en": "/hsc/social_1st/english/chapter_8.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৮",
+          "name_en": "Chapter 8"
+        },
+        {
+          "id": "chapter_9",
+          "name": "Chapter 9",
+          "chapters": [
+            {
+              "id": "hsc_soc1_ch9",
+              "name": "Chapter 9 Questions",
+              "file_bn": "/hsc/social_1st/chapter_9.json",
+              "file_en": "/hsc/social_1st/english/chapter_9.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৯",
+          "name_en": "Chapter 9"
         }
       ],
-      "name_bn": "ইংরেজি ২য় পত্র",
-      "name_en": "English 2nd Paper"
+      "name_bn": "সমাজকর্ম ১ম পত্র",
+      "name_en": "Social Work 1st Paper"
     }
   ]
 }
