@@ -32,7 +32,7 @@
       "C": "16",
       "D": "14"
     },
-    "answer": "সমীকরণ প্রয়োজন",
+    "answer": "C",
     "explanation": ""
   },
   {
@@ -164,7 +164,7 @@
       "C": "২২৫",
       "D": "১৯৬"
     },
-    "answer": "105",
+    "answer": "A",
     "explanation": "15C2 = 105।"
   },
   {
@@ -224,7 +224,7 @@
       "C": "২২",
       "D": "২৪"
     },
-    "answer": "17",
+    "answer": "A",
     "explanation": "ধারাবাহিক ৫টির মধ্যবর্তী=15, তাই সংখ্যাগুলো 13,14,15,16,17 → বড়=17।"
   },
   {
@@ -344,7 +344,7 @@
       "C": "ডেকার্ট",
       "D": "প্লেটো"
     },
-    "answer": "Plato",
+    "answer": "A",
     "explanation": "প্লেটোর বিখ্যাত রিপাবলিক।"
   },
   {
@@ -368,7 +368,7 @@
       "C": "He climed the tree like a cat",
       "D": "Like minded people are necessary to start a business"
     },
-    "answer": "অপশন প্রয়োজন (যে বাক্যে like অর্থ 'similar to')",
+    "answer": "B",
     "explanation": ""
   },
   {
@@ -392,7 +392,7 @@
       "C": "adjective phrase",
       "D": "adverbial phrase"
     },
-    "answer": "Gerund (writing = gerund)",
+    "answer": "B",
     "explanation": "writing এখানে noun হিসেবে কাজ করছে।"
   },
   {
@@ -440,7 +440,7 @@
       "C": "reveal a secret carelessly",
       "D": "take a pre-caucious steps"
     },
-    "answer": "to reveal a secret",
+    "answer": "C",
     "explanation": "গোপন কথা ফাঁস করা।"
   },
   {
@@ -488,7 +488,7 @@
       "C": "A man who is corrupt cannot win the respect of others.",
       "D": "A man who can win the respect of others cannot be corrupt."
     },
-    "answer": "A man who is corrupt cannot win the election.",
+    "answer": "C",
     "explanation": "adjective clause যোগে complex sentence।"
   },
   {
@@ -788,7 +788,7 @@
       "C": "৩টি",
       "D": "৪টি"
     },
-    "answer": "২টি (ঐ, ঔ)",
+    "answer": "B",
     "explanation": "মৌলিক স্বর ৭টি, যৌগিক ২টি (ঐ, ঔ)।"
   },
   {
@@ -860,7 +860,7 @@
       "C": "নিত্য",
       "D": "উপপদ তৎপুরুষ"
     },
-    "answer": "তৎপুরুষ সমাস (অধিকরণ তৎপুরুষ)",
+    "answer": "C",
     "explanation": "নীল যে করে → নীলকর।"
   },
   {
@@ -932,7 +932,7 @@
       "C": "বাউল",
       "D": "সহজঘানী বৌদ্ধ"
     },
-    "answer": "বৌদ্ধ সহজিয়া সিদ্ধাচার্য",
+    "answer": "B",
     "explanation": "চর্যার কবিরা বৌদ্ধ সহজিয়া ছিলেন।"
   },
   {
@@ -1256,7 +1256,7 @@
       "C": "4 টি",
       "D": "5 টি"
     },
-    "answer": "৪টি (মহাকর্ষ, তড়িৎচুম্বক, সবল নিউক্লীয়, দুর্বল নিউক্লীয়)",
+    "answer": "C",
     "explanation": "Fundamental forces-এর সংখ্যা ৪।"
   },
   {
@@ -1352,7 +1352,7 @@
       "C": "Size of Cache Memory",
       "D": "Size of Register"
     },
-    "answer": "অপশন প্রয়োজন (যেমন স্পিকার বা কেসিং)",
+    "answer": "C",
     "explanation": ""
   },
   {
@@ -1412,7 +1412,7 @@
       "C": "Encryption",
       "D": "Firewall"
     },
-    "answer": "Firewall",
+    "answer": "D",
     "explanation": "ফায়ারওয়াল নেটওয়ার্ক নিরাপত্তা দেয়।"
   },
   {
@@ -1676,7 +1676,7 @@
       "C": "কিয়াটো প্রটোকল",
       "D": "প্যারিস চুক্তি"
     },
-    "answer": "Cartagena Protocol on Biosafety",
+    "answer": "A",
     "explanation": "জৈব নিরাপত্তা বিষয়ক কার্টাজেনা প্রটোকল।"
   },
   {

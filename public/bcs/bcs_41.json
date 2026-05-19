@@ -560,7 +560,7 @@
       "C": "Wi-Max",
       "D": "Cellular network"
     },
-    "answer": "Bluetooth",
+    "answer": "B",
     "explanation": "Bluetooth-এর range সাধারণত 10 মিটার পর্যন্ত, Wi‑Fi ও WiMAX এর চেয়ে কম।"
   },
   {
@@ -656,7 +656,7 @@
       "C": "Java",
       "D": "Python"
     },
-    "answer": "Machine language",
+    "answer": "A",
     "explanation": "মেশিন ল্যাঙ্গুয়েজ সরাসরি 0 ও 1-এ লেখা হয়।"
   },
   {
@@ -860,7 +860,7 @@
       "C": "০.২৫% কমেছে",
       "D": "০.৫% কমেছে"
     },
-    "answer": "০.২৫% কমেছে",
+    "answer": "C",
     "explanation": "Net change = -5 +5 + (-5×5)/100 = -0.25%।"
   },
   {
@@ -1424,7 +1424,7 @@
       "C": "সুদখোর",
       "D": "কৃষিজীবী"
     },
-    "answer": "সুদখোর / মহাজন",
+    "answer": "B",
     "explanation": "কুসীদ = সুদ; কুসীদজীবী = সুদের উপর জীবিকা নির্বাহকারী।"
   },
   {
@@ -1628,7 +1628,7 @@
       "C": "participle",
       "D": "verbal noun"
     },
-    "answer": "Infinitive (bare infinitive)",
+    "answer": "A",
     "explanation": "let-এর পরে to ছাড়া infinitive বসে।"
   },
   {
@@ -1760,7 +1760,7 @@
       "C": "adjective",
       "D": "adverb"
     },
-    "answer": "Demonstrative pronoun",
+    "answer": "A",
     "explanation": "এখানে that নির্দিষ্ট ব্যক্তিকে নির্দেশ করছে।"
   },
   {
@@ -1784,7 +1784,7 @@
       "C": "As You Like It",
       "D": "Hamlet"
     },
-    "answer": "Paradox",
+    "answer": "A",
     "explanation": "এটি একটি আপাতবিরোধী উক্তি যা দার্শনিক সত্য বহন করে।"
   },
   {
@@ -1808,7 +1808,7 @@
       "C": "return or to help somebody return to a normal situation.",
       "D": "give somebody mental peace."
     },
-    "answer": "scold/reprimand someone frankly",
+    "answer": "B",
     "explanation": "কড়া ভাষায় কারও ভুল ধরিয়ে দেওয়া।"
   },
   {
@@ -1844,7 +1844,7 @@
       "C": "We tried hard, But did not succeed.",
       "D": "There is no one but likes him."
     },
-    "answer": "যেখানে but অর্থ 'except' (e.g., Everyone but him was present).",
+    "answer": "D",
     "explanation": "Preposition হিসেবে but ব্যবহৃত হলে তার পরে objective case আসে।"
   },
   {

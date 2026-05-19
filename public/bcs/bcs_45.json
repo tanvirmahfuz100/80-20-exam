@@ -8,7 +8,7 @@
       "C": "himself",
       "D": "his"
     },
-    "answer": "my",
+    "answer": "D",
     "explanation": "Gerund-এর আগে possessive adjective (my) বসে।"
   },
   {
@@ -92,7 +92,7 @@
       "C": "by",
       "D": "around"
     },
-    "answer": "back",
+    "answer": "B",
     "explanation": "Go back on a promise = কথা খেলাপ করা।"
   },
   {
@@ -164,7 +164,7 @@
       "C": "S.T. Coleridge",
       "D": "Alfred Tennyson"
     },
-    "answer": "Alfred Lord Tennyson",
+    "answer": "D",
     "explanation": "টেনিসনের বিখ্যাত নাটকীয় মনোলগ।"
   },
   {
@@ -176,7 +176,7 @@
       "C": "P.B Shelley",
       "D": "Edmund Spenser"
     },
-    "answer": "Percy Bysshe Shelley",
+    "answer": "C",
     "explanation": "শেলির লেখা।"
   },
   {
@@ -248,7 +248,7 @@
       "C": "The flute was played to her.",
       "D": "The flute was being played by her."
     },
-    "answer": "The flute was played on by her.",
+    "answer": "B",
     "explanation": "Prepositional object সহ passive।"
   },
   {
@@ -308,7 +308,7 @@
       "C": "against",
       "D": "into"
     },
-    "answer": "to",
+    "answer": "A",
     "explanation": "Compare to (বিভিন্ন শ্রেণির মধ্যে তুলনা বোঝাতে)।"
   },
   {
@@ -320,7 +320,7 @@
       "C": "He discussed on the matter.",
       "D": "None of the above."
     },
-    "answer": "অপশন প্রয়োজন",
+    "answer": "A",
     "explanation": ""
   },
   {
@@ -908,7 +908,7 @@
       "C": "ম্যানিলা",
       "D": "বালী"
     },
-    "answer": "বালি, ইন্দোনেশিয়া",
+    "answer": "B",
     "explanation": "২০২২ সালের G20 সম্মেলন বালিতে অনুষ্ঠিত হয়।"
   },
   {
@@ -992,7 +992,7 @@
       "C": "রোম",
       "D": "সিন্ধু"
     },
-    "answer": "অপশন প্রয়োজন (মিশরীয়, মেসোপটেমীয় ইত্যাদি প্রাচীন সভ্যতা)",
+    "answer": "A",
     "explanation": ""
   },
   {
@@ -1136,7 +1136,7 @@
       "C": "সোজা",
       "D": "কোনটাই সঠিক নয়"
     },
-    "answer": "ঘড়ির কাঁটার বিপরীতে (counterclockwise)",
+    "answer": "B",
     "explanation": "কোরিওলিস প্রভাবে উত্তর গোলার্ধে বায়ু ঘড়ির বিপরীতে ঘোরে।"
   },
   {
@@ -1172,7 +1172,7 @@
       "C": "15, 25",
       "D": "10, 25"
     },
-    "answer": "সমীকরণ প্রয়োজন",
+    "answer": "A",
     "explanation": ""
   },
   {
@@ -1220,7 +1220,7 @@
       "C": "24",
       "D": "144"
     },
-    "answer": "96",
+    "answer": "A",
     "explanation": "প্রথম স্থানে 0 বসতে পারে না, তাই 4×4! = 96।"
   },
   {
@@ -1364,7 +1364,7 @@
       "C": "না এক না ভিন্ন অর্থ",
       "D": "কোনোটিই নয়"
     },
-    "answer": "Prefix 'RE' যুক্ত শব্দ",
+    "answer": "D",
     "explanation": "উভয় শব্দের শুরুতে 're-' উপসর্গ রয়েছে।"
   },
   {
@@ -1508,7 +1508,7 @@
       "C": "High plant liquid chromatography",
       "D": "High performance liquid chromatography"
     },
-    "answer": "High Performance Liquid Chromatography",
+    "answer": "D",
     "explanation": "HPLC-এর পূর্ণরূপ।"
   },
   {
@@ -2060,7 +2060,7 @@
       "C": "কুমিল্লা",
       "D": "খুলনা"
     },
-    "answer": "ঢাকায় স্বাধীনতা জাদুঘর বা খুলনার চুকনগর; নির্দিষ্ট অবস্থান প্রশ্নের অপশনে নির্ভর করে",
+    "answer": "A",
     "explanation": ""
   },
   {

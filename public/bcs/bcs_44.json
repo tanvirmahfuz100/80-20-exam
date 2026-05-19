@@ -8,7 +8,7 @@
       "C": "লিবিয়া",
       "D": "সিরিয়া"
     },
-    "answer": "তিউনিসিয়া",
+    "answer": "B",
     "explanation": "২০১০ সালে তিউনিসিয়ায় বিক্ষোভের মাধ্যমে আরব বসন্ত শুরু হয়।"
   },
   {
@@ -80,7 +80,7 @@
       "C": "প্রাচীন রোম",
       "D": "প্রাচীন ভারত"
     },
-    "answer": "গ্রীস (এথেন্স)",
+    "answer": "D",
     "explanation": "প্রাচীন গ্রিসে সর্বপ্রথম গণতন্ত্রের চর্চা শুরু হয়।"
   },
   {
@@ -344,7 +344,7 @@
       "C": "কাছে টানা",
       "D": "কাস্তে"
     },
-    "answer": "গলা টিপে বের করে দেওয়া",
+    "answer": "C",
     "explanation": "অর্ধচন্দ্র দেওয়া = হাত দিয়ে ঘাড় ধাক্কা দিয়ে বের করে দেওয়া।"
   },
   {
@@ -680,7 +680,7 @@
       "C": "novelist",
       "D": "journalist"
     },
-    "answer": "Essayist",
+    "answer": "A",
     "explanation": "Bacon ইংরেজি সাহিত্যের বিখ্যাত প্রবন্ধকার।"
   },
   {
@@ -944,7 +944,7 @@
       "C": "had left",
       "D": "will leave"
     },
-    "answer": "Past perfect (had died/had left)",
+    "answer": "C",
     "explanation": "দুটি অতীত ঘটনার মধ্যে আগেরটি past perfect।"
   },
   {
@@ -956,7 +956,7 @@
       "C": "idiosyncrasy",
       "D": "lexicography"
     },
-    "answer": "অপশন প্রয়োজন",
+    "answer": "A",
     "explanation": ""
   },
   {
@@ -1040,7 +1040,7 @@
       "C": "justify the ways of God to man.",
       "D": "explain why both good and evil are necessary."
     },
-    "answer": "justify the ways of God to men",
+    "answer": "C",
     "explanation": "মিল্টনের ভাষায় 'to justify the ways of God to men'।"
   },
   {
@@ -1076,7 +1076,7 @@
       "C": "adjective",
       "D": "verb"
     },
-    "answer": "Adjective",
+    "answer": "C",
     "explanation": "Vital = অত্যাবশ্যক (adjective)।"
   },
   {
@@ -1112,7 +1112,7 @@
       "C": "১০৮",
       "D": "১৬০"
     },
-    "answer": "চিত্র ও সম্পূর্ণ তথ্য প্রয়োজন",
+    "answer": "C",
     "explanation": ""
   },
   {
@@ -1136,7 +1136,7 @@
       "C": "৩৬",
       "D": "৪"
     },
-    "answer": "36",
+    "answer": "A",
     "explanation": "GM = √(18×72) = √1296 = 36।"
   },
   {
@@ -1160,7 +1160,7 @@
       "C": "২",
       "D": "৩"
     },
-    "answer": "√3 (প্রায় 1.732)",
+    "answer": "B",
     "explanation": "h = (√3/2)×2 = √3।"
   },
   {
@@ -1292,7 +1292,7 @@
       "C": "কনফারেন্স অব দ্য পার্টিস",
       "D": "কনফারেন্স অব দ্য প্রটোকল"
     },
-    "answer": "Conference of the Parties",
+    "answer": "D",
     "explanation": "UNFCCC এর পক্ষসমূহের সম্মেলন।"
   },
   {
@@ -1364,7 +1364,7 @@
       "C": "ভিটামিন বি ১",
       "D": "ভিটামিন বি ৯"
     },
-    "answer": "Vitamin B9",
+    "answer": "C",
     "explanation": "ফলিক এসিড ভিটামিন বি৯ নামেও পরিচিত।"
   },
   {
@@ -1508,7 +1508,7 @@
       "C": "DNS Server",
       "D": "Gateway"
     },
-    "answer": "DNS (Domain Name System)",
+    "answer": "C",
     "explanation": "DNS সার্ভার হোস্টনেম থেকে আইপি রেজলভ করে।"
   },
   {
@@ -1616,7 +1616,7 @@
       "C": "Bluetooth Network",
       "D": "5G Network"
     },
-    "answer": "Bluetooth-ভিত্তিক একটি ছোট নেটওয়ার্ক",
+    "answer": "C",
     "explanation": "একটি পিকোনেটে একাধিক ব্লুটুথ ডিভাইস সংযুক্ত থাকে।"
   },
   {
@@ -2024,7 +2024,7 @@
       "C": "১৯ নভেম্বর ২০০১",
       "D": "২০ নভেম্বর ২০০১"
     },
-    "answer": "১৭ নভেম্বর ১৯৯৯",
+    "answer": "B",
     "explanation": "ইউনেস্কো ১৯৯৯ সালের ১৭ নভেম্বর এই স্বীকৃতি প্রদান করে।"
   },
   {
@@ -2180,7 +2180,7 @@
       "C": "Loop",
       "D": "Castle"
     },
-    "answer": "Love",
+    "answer": "B",
     "explanation": "অক্ষরের অবস্থান: P=16, E=5, A=1, C=3, E=5 → একইভাবে 12=L, 15=O, 22=V, 5=E।"
   },
   {

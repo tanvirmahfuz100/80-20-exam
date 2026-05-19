@@ -140,7 +140,7 @@
       "C": "ফ্রান্সে",
       "D": "চীনে"
     },
-    "answer": "লন্ডন, যুক্তরাজ্য",
+    "answer": "B",
     "explanation": "ট্রাফালগার স্কয়ার লন্ডনের বিখ্যাত চত্বর।"
   },
   {
@@ -224,7 +224,7 @@
       "C": "মধ্য আফ্রিকায়",
       "D": "মধ্য আমেরিকায়"
     },
-    "answer": "মধ্য আমেরিকা (মেক্সিকো/গুয়াতেমালা অঞ্চলে)",
+    "answer": "D",
     "explanation": "মায়া সভ্যতা ইউকাটান পেনিনসুলায় বিস্তৃত ছিল।"
   },
   {
@@ -380,7 +380,7 @@
       "C": "mRNA",
       "D": "RNA"
     },
-    "answer": "RNA virus (coronavirus)",
+    "answer": "D",
     "explanation": "SARS‑CoV‑2 একটি RNA ভাইরাস।"
   },
   {
@@ -536,7 +536,7 @@
       "C": "৩-৬%",
       "D": "১০০%"
     },
-    "answer": "প্রায় ৩-৬%",
+    "answer": "C",
     "explanation": "সাধারণত photosynthetic efficiency 3–6%।"
   },
   {
@@ -560,7 +560,7 @@
       "C": "Domain name, IP",
       "D": "Email, IP"
     },
-    "answer": "Domain name → IP address",
+    "answer": "C",
     "explanation": "DNS ডোমেইন নেইমকে আইপি অ্যাড্রেসে রূপান্তর করে।"
   },
   {
@@ -584,7 +584,7 @@
       "C": "printer",
       "D": "speaker"
     },
-    "answer": "Keyboard (ইনপুট ডিভাইস)",
+    "answer": "B",
     "explanation": "প্রিন্টার, মনিটর, স্পিকার আউটপুট; কিবোর্ড ইনপুট।"
   },
   {
@@ -632,7 +632,7 @@
       "C": "Virtual Reality",
       "D": "উপরের কোনটিই নয়"
     },
-    "answer": "Artificial Intelligence (AI) / Biometrics",
+    "answer": "A",
     "explanation": "Face recognition AI ও image processing-ভিত্তিক।"
   },
   {
@@ -656,7 +656,7 @@
       "C": "RAM",
       "D": "Cache memory"
     },
-    "answer": "Cache memory",
+    "answer": "D",
     "explanation": "ক্যাশ মেমোরির access time সবচেয়ে কম।"
   },
   {
@@ -704,7 +704,7 @@
       "C": "Half duplex",
       "D": "Triplex"
     },
-    "answer": "Serial transmission",
+    "answer": "A",
     "explanation": "কিবোর্ড সিরিয়াল কমিউনিকেশন ব্যবহার করে।"
   },
   {
@@ -716,7 +716,7 @@
       "C": "List of transactions",
       "D": "উপরের সবগুলো"
     },
-    "answer": "Transaction data, hash, previous block hash, timestamp",
+    "answer": "B",
     "explanation": "একটি ব্লকে লেনদেনের তথ্য, নিজের হ্যাশ ও পূর্ববর্তী ব্লকের হ্যাশ থাকে।"
   },
   {
@@ -728,7 +728,7 @@
       "C": "15",
       "D": "10"
     },
-    "answer": "সমস্যার বিবরণ প্রয়োজন",
+    "answer": "A",
     "explanation": ""
   },
   {
@@ -740,7 +740,7 @@
       "C": "225",
       "D": "155"
     },
-    "answer": "গরুর সংখ্যা 63 (LCM of 3,7,9)",
+    "answer": "B",
     "explanation": "প্রতিবার সমান ভাগে যায় → সংখ্যা 3,7,9 দ্বারা বিভাজ্য, সর্বনিম্ন 63।"
   },
   {
@@ -836,7 +836,7 @@
       "C": "108°",
       "D": "126°"
     },
-    "answer": "চিত্র প্রয়োজন",
+    "answer": "C",
     "explanation": ""
   },
   {
@@ -908,7 +908,7 @@
       "C": "WINDPIPE",
       "D": "INHALE"
     },
-    "answer": "Oxygen (Air)",
+    "answer": "A",
     "explanation": "গাড়ি চালাতে লাইসেন্স যেমন প্রয়োজন, শ্বাস নিতে অক্সিজেন/বাতাস প্রয়োজন।"
   },
   {
@@ -932,7 +932,7 @@
       "C": "FG",
       "D": "GF"
     },
-    "answer": "GF",
+    "answer": "D",
     "explanation": "পেয়ার অনুযায়ী DC(4,3), DE(4,5), FE(6,5), GF(7,6), HG(8,7), HI(8,9)।"
   },
   {
@@ -1136,7 +1136,7 @@
       "C": "'কর্ণফুলি'",
       "D": "'ধানকন্যা'"
     },
-    "answer": "অপশন প্রয়োজন (সম্ভাব্য: তেইশ নম্বর তৈলচিত্র, বিধবাদের কথা ইত্যাদি)",
+    "answer": "D",
     "explanation": ""
   },
   {
@@ -1412,7 +1412,7 @@
       "C": "মুহূর্ত",
       "D": "অদ্ভুত"
     },
-    "answer": "অপশন প্রয়োজন",
+    "answer": "B",
     "explanation": ""
   },
   {
@@ -1424,7 +1424,7 @@
       "C": "যৌগিক বাক্য",
       "D": "খণ্ড বাক্য"
     },
-    "answer": "জটিল বাক্য",
+    "answer": "B",
     "explanation": "এটি একটি জটিল বাক্য (principal + subordinate clause)।"
   },
   {
@@ -1484,7 +1484,7 @@
       "C": "এ",
       "D": "অ্যা"
     },
-    "answer": "অপশন প্রয়োজন (সাধারণত ‘এ’ বা ‘অ্যা’)",
+    "answer": "D",
     "explanation": ""
   },
   {
@@ -1568,7 +1568,7 @@
       "C": "ocassion",
       "D": "decision"
     },
-    "answer": "অপশন প্রয়োজন",
+    "answer": "C",
     "explanation": ""
   },
   {
@@ -1592,7 +1592,7 @@
       "C": "Once Hundred Years of Solitude",
       "D": "Pride and Prejudice"
     },
-    "answer": "Things Fall Apart (Chinua Achebe)",
+    "answer": "A",
     "explanation": "Achebe নাইজেরিয়ান, বাকি লেখকরা ইংরেজ হলে এটি উত্তর।"
   },
   {
@@ -1796,7 +1796,7 @@
       "C": "Lord Byron",
       "D": "P. B. Shelley"
     },
-    "answer": "Percy Bysshe Shelley",
+    "answer": "D",
     "explanation": "Ode to the West Wind থেকে।"
   },
   {
@@ -1832,7 +1832,7 @@
       "C": "S. T. Coleridge",
       "D": "John Keats"
     },
-    "answer": "Percy Bysshe Shelley",
+    "answer": "A",
     "explanation": "Shelley রচিত বিখ্যাত সনেট।"
   },
   {
@@ -1916,7 +1916,7 @@
       "C": "comedy",
       "D": "historical"
     },
-    "answer": "Tragedy",
+    "answer": "B",
     "explanation": "শেকসপিয়রের Julius Caesar একটি ট্র্যাজেডি।"
   },
   {
@@ -2000,7 +2000,7 @@
       "C": "নুরুল ইসলাম",
       "D": "রওনক জাহান"
     },
-    "answer": "রেহমান সোবহান",
+    "answer": "B",
     "explanation": "অর্থনীতিবিদ রেহমান সোবহানের আত্মজীবনীমূলক গ্রন্থ।"
   },
   {
@@ -2276,7 +2276,7 @@
       "C": "৫টি",
       "D": "৬টি"
     },
-    "answer": "৪টি",
+    "answer": "B",
     "explanation": "ছয় দফার মধ্যে চারটি অর্থনৈতিক ও দুইটি রাজনৈতিক ছিল।"
   },
   {

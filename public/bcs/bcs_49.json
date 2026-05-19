@@ -176,7 +176,7 @@
       "C": "৯০",
       "D": "৪৫"
     },
-    "answer": "45°, 90°, 45°",
+    "answer": "A",
     "explanation": "A=x, B=2x, C=B-A=x; sum=4x=180 → x=45; angles=45,90,45।"
   },
   {
@@ -380,7 +380,7 @@
       "C": "১০",
       "D": "১২"
     },
-    "answer": "সংখ্যাটি স্পষ্ট নয়; সিরিজের নিয়ম প্রয়োজন",
+    "answer": "D",
     "explanation": ""
   },
   {
@@ -500,7 +500,7 @@
       "C": "400",
       "D": "500"
     },
-    "answer": "400 টাকা",
+    "answer": "C",
     "explanation": "0.9x + 60 = 1.05x → 0.15x=60 → x=400।"
   },
   {
@@ -584,7 +584,7 @@
       "C": "Vanity Fair",
       "D": "Gulliver’s Travels"
     },
-    "answer": "Jonathan Swift (Gulliver's Travels)",
+    "answer": "D",
     "explanation": "এটি গালিভারস ট্রাভেলস-এর ইয়াহু প্রসঙ্গে সুইফটের উক্তি।"
   },
   {
@@ -668,7 +668,7 @@
       "C": "15",
       "D": "5"
     },
-    "answer": "2.5 কেজি",
+    "answer": "D",
     "explanation": "Torque balance: 10×3 = W×12 → W=2.5 kg।"
   },
   {
@@ -716,7 +716,7 @@
       "C": "It’s hard to decide which one is better",
       "D": "He joined the gym to better his health."
     },
-    "answer": "অপশন প্রয়োজন (যেমন: He sings better than before – এখানে better adverb)",
+    "answer": "D",
     "explanation": ""
   },
   {
@@ -776,7 +776,7 @@
       "C": "an attractive service",
       "D": "an attractive and essential enhancement"
     },
-    "answer": "an additional benefit to something already good",
+    "answer": "B",
     "explanation": "ইতিমধ্যে ভালো কিছুর সাথে অতিরিক্ত সুবিধা।"
   },
   {
@@ -860,7 +860,7 @@
       "C": "বিষয়গত সুনির্দিষ্ট অর্থবোধক শব্দ",
       "D": "ব্যবহারিক প্রয়োজনে নবনির্মিত শব্দ"
     },
-    "answer": "বিশেষ জ্ঞানের ক্ষেত্রে ব্যবহৃত নির্দিষ্ট অর্থবোধক শব্দ (Technical term)",
+    "answer": "C",
     "explanation": "পরিভাষা কোনো বিষয়ের সুনির্দিষ্ট পারিভাষিক শব্দ।"
   },
   {
@@ -1040,7 +1040,7 @@
       "C": "The picture was hunged on the wall",
       "D": "The picture had hanged on the wall"
     },
-    "answer": "অপশন প্রয়োজন",
+    "answer": "B",
     "explanation": ""
   },
   {
@@ -1052,7 +1052,7 @@
       "C": "২",
       "D": "১২"
     },
-    "answer": "প্রথম পদ 2, সাধারণ অনুপাত 2",
+    "answer": "A",
     "explanation": "ar⁴=32, ar⁷=256 ⇒ r³=8, r=2; a×16=32 ⇒ a=2।"
   },
   {
