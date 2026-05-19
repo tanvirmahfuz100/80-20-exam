@@ -8,8 +8,8 @@
       "C": "himself",
       "D": "his"
     },
-    "answer": "A",
-    "explanation": "ধ্বনি হলো ভাষার উচ্চারিত রূপ, যা শ্রবণযোগ্য কিন্তু অদৃশ্য। ধ্বনিকে লেখার জন্য যে চিহ্ন বা সংকেত ব্যবহার করা হয়, তাকে বর্ণ বলে। বর্ণই দৃশ্যমান।"
+    "answer": "",
+    "explanation": ""
   },
   {
     "id": 2,
@@ -20,8 +20,8 @@
       "C": "a weak point",
       "D": "a permanent solution"
     },
-    "answer": "B",
-    "explanation": "যে অক্ষরের শেষে স্বরধ্বনি থাকে, তাকে স্বরান্ত বা মুক্তাক্ষর (Open Syllable) বলে। যেমন: 'আ-মা-র' শব্দে 'আ' এবং 'মা' হলো মুক্তাক্ষর।"
+    "answer": "C",
+    "explanation": "An 'Achilles' heel' is a fatal weakness in spite of overall strength, originating from the Greek myth of Achilles."
   },
   {
     "id": 3,
@@ -32,8 +32,8 @@
       "C": "at",
       "D": "to"
     },
-    "answer": "A",
-    "explanation": "'শিরশ্ছেদ' (শিরঃ + ছেদ) বিসর্গ সন্ধির উদাহরণ। 'দরিদ্রতা' একটি শুদ্ধ শব্দ, যদিও 'দারিদ্র্য' বেশি প্রচলিত। 'সমীচীন' অর্থ যথার্থ, এর দুটিই দীর্ঘ ঈ-কার।"
+    "answer": "D",
+    "explanation": "The verb 'adhere' is followed by the preposition 'to', meaning to stick to or follow a rule, belief, or principle."
   },
   {
     "id": 4,
@@ -44,8 +44,8 @@
       "C": "1 million year",
       "D": "1 million year"
     },
-    "answer": "C",
-    "explanation": "আরবি 'ক্বালাম' (قلم) শব্দটি গ্রিক 'কালামোস' (Kalamos) থেকে এসেছে, যার অর্থ নলখাগড়া বা লেখার কলম।"
+    "answer": "B",
+    "explanation": "A millennium is a period of one thousand years. A century is 100 years."
   },
   {
     "id": 5,
@@ -56,8 +56,8 @@
       "C": "By whom this jug has been broken?",
       "D": "Whom has this gug been broken?"
     },
-    "answer": "D",
-    "explanation": "প্রখ্যাত ভাষাবিদ ও সাহিত্য বিশারদ সুকুমার সেন তাঁর 'ভাষার ইতিবৃত্ত' গ্রন্থে এই মন্তব্যটি করেছেন।"
+    "answer": "A",
+    "explanation": "In a passive interrogative sentence, 'Who' becomes 'By whom'. The structure is: By whom + auxiliary verb + subject + been + past participle? This makes option (a) the correct form."
   },
   {
     "id": 6,
@@ -68,11 +68,11 @@
       "C": "William Wordsworth",
       "D": "Matthew Arnold"
     },
-    "answer": "A",
-    "explanation": "পর্তুগিজ পাদ্রি মানোএল দ্য আস্সুম্পসাঁও ১৭৩৪ সালে ঢাকার ভাওয়ালে অবস্থানকালে বাংলা ভাষার প্রথম ব্যাকরণ রচনা করেন। এটি পর্তুগিজ ভাষায় লেখা হয়েছিল এবং ১৭৪৩ সালে লিসবন থেকে প্রকাশিত হয়।"
+    "answer": "C",
+    "explanation": "William Wordsworth was a major poet of the Romantic Period (late 18th to early 19th century). Tennyson, Browning, and Arnold are prominent poets of the Victorian Period (1837-1901)."
   },
   {
-    "id": 8,
+    "id": 7,
     "question": "Identify the correct sentence:",
     "options": {
       "A": "She speaks English like English",
@@ -80,11 +80,11 @@
       "C": "She speaks the English like the English",
       "D": "She speaks English like the English"
     },
-    "answer": "C",
-    "explanation": "তাম্বুলিক অর্থ পান বিক্রেতা। পর্ণকার ও বারুই শব্দ দুটিও একই অর্থ বহন করে। 'তামসিক' অর্থ তমোগুণ সম্পন্ন বা অলস, যা এর সমার্থক নয়।"
+    "answer": "D",
+    "explanation": "'English' refers to the language (no article). 'The English' refers to the people of England. So, the sentence means she speaks the language as the people of England do."
   },
   {
-    "id": 9,
+    "id": 8,
     "question": "When one makes a promise, one must not go ––– on it.",
     "options": {
       "A": "forward",
@@ -92,11 +92,11 @@
       "C": "by",
       "D": "around"
     },
-    "answer": "C",
-    "explanation": "যে সকল অব্যয় বাক্যের অন্য পদের সাথে কোনো সম্পর্ক না রেখে স্বাধীনভাবে ভাব প্রকাশে ব্যবহৃত হয়, তাদের অনন্বয়ী অব্যয় বলে। এখানে 'তো' শব্দটি জোর বা বিস্ময় প্রকাশে ব্যবহৃত হয়েছে।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 11,
+    "id": 9,
     "question": "The poem \"To his Coy Mistress\" Was written by:",
     "options": {
       "A": "Andrew Marvell",
@@ -104,11 +104,11 @@
       "C": "George Herbert",
       "D": "Henry Vaughan"
     },
-    "answer": "C",
-    "explanation": "বাক্যটিতে তিনটি বানান ভুল আছে। সঠিক রূপ: সুনামি (সঠিক: सुनामी), তান্ডব (সঠিক: তাণ্ডব), সর্বশান্ত (সঠিক: সর্বস্বান্ত)।"
+    "answer": "A",
+    "explanation": "'To His Coy Mistress' is a famous metaphysical poem written by Andrew Marvell, a 17th-century English poet."
   },
   {
-    "id": 12,
+    "id": 10,
     "question": "The synonyms of 'altitude' is–––",
     "options": {
       "A": "height",
@@ -117,10 +117,10 @@
       "D": "depth"
     },
     "answer": "A",
-    "explanation": "কৃৎ প্রত্যয় সাধিত পদের (কৃদন্ত পদ) সঙ্গে যে পদের সমাস হয়, তাকে উপপদ বলে। যেমন: 'পকেট মারে যে = পকেটমার'। এখানে 'মার' কৃদন্ত পদের উপপদ হলো 'পকেট'।"
+    "explanation": "'Altitude' refers to the height of an object or point in relation to sea level or ground level."
   },
   {
-    "id": 14,
+    "id": 11,
     "question": "This could have worked if I ____ been more far- sighted.",
     "options": {
       "A": "have",
@@ -128,11 +128,11 @@
       "C": "might",
       "D": "would"
     },
-    "answer": "D",
-    "explanation": "'সরল' এর বিপরীত শব্দ কুটিল, জটিল, বক্র। 'গরল' শব্দের অর্থ বিষ, এর বিপরীত শব্দ অমৃত।"
+    "answer": "B",
+    "explanation": "This is a third conditional sentence expressing an unreal past condition. The structure for the 'if' clause is 'if + subject + past perfect (had + past participle)'."
   },
   {
-    "id": 17,
+    "id": 12,
     "question": "Identify the imperative sentence:",
     "options": {
       "A": "Shut up!",
@@ -140,11 +140,11 @@
       "C": "I shall cook dinner now.",
       "D": "What is your name?"
     },
-    "answer": "B",
-    "explanation": "সংস্কৃত ভাষায় রচিত 'গীতগোবিন্দ' কাব্যের রচয়িতা জয়দেব ছিলেন সেন বংশের শেষ রাজা লক্ষ্মণ সেনের (আনু. ১১৭৮-১২০৬) পঞ্চরত্নের একজন।"
+    "answer": "A",
+    "explanation": "An imperative sentence gives a command, order, or request. 'Shut up!' is a direct command."
   },
   {
-    "id": 18,
+    "id": 13,
     "question": "\"Black Death\" is the name of a ––",
     "options": {
       "A": "fever",
@@ -152,11 +152,11 @@
       "C": "plague pandemic",
       "D": "death of black people"
     },
-    "answer": "A",
-    "explanation": "মধ্যযুগের কবি যশোরাজ খান ছিলেন হোসেন শাহের সেনাপতি। তিনি ব্রজবুলি ভাষায় বৈষ্ণব পদ রচনা করে খ্যাতি লাভ করেন।"
+    "answer": "C",
+    "explanation": "The Black Death was a devastating bubonic plague pandemic that struck Europe and Asia in the mid-14th century."
   },
   {
-    "id": 19,
+    "id": 14,
     "question": "'Ulysses is a poem written by––",
     "options": {
       "A": "Robert Browning",
@@ -164,11 +164,11 @@
       "C": "S.T. Coleridge",
       "D": "Alfred Tennyson"
     },
-    "answer": "D",
-    "explanation": "দৌলত উজির বাহরাম খাঁ ('জঙ্গনামা'), সাবিরিদ খাঁ ('রসুল বিজয়'), এবং সৈয়দ সুলতান ('নবীবংশ', 'রসুল বিজয়') যুদ্ধকাব্য রচনা করেছেন। সৈয়দ নূরুদ্দীন 'দোহাকোষ' রচনা করেন।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 20,
+    "id": 15,
     "question": "Who wrote the poem 'Ozymandias'?",
     "options": {
       "A": "Thomas Hardy",
@@ -176,11 +176,11 @@
       "C": "P.B Shelley",
       "D": "Edmund Spenser"
     },
-    "answer": "A",
-    "explanation": "কবি জৈনুদ্দিনের বিখ্যাত কাব্যগ্রন্থ হলো 'রসুল বিজয়'। তিনি গৌড়ের সুলতান ইউসুফ শাহের সভাকবি ছিলেন।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 21,
+    "id": 16,
     "question": "Clym Yeobringht is the protagonist of the novel––",
     "options": {
       "A": "David Copperfield",
@@ -188,11 +188,11 @@
       "C": "A passage of India",
       "D": "The Return of the Native"
     },
-    "answer": "A",
-    "explanation": "'বিদ্যাসাগর ও বাঙালি সমাজ' নামক গবেষণা গ্রন্থটির রচয়িতা হলেন বিশিষ্ট চিন্তাবিদ ও গবেষক বিনয় ঘোষ।"
+    "answer": "D",
+    "explanation": "Clym Yeobright is the central character in Thomas Hardy's novel 'The Return of the Native' (1878)."
   },
   {
-    "id": 22,
+    "id": 17,
     "question": "The train is running ––– forty miles an hour.",
     "options": {
       "A": "on",
@@ -200,11 +200,11 @@
       "C": "at",
       "D": "for"
     },
-    "answer": "B",
-    "explanation": "যদিও রামমোহন রায় ও ফোর্ট উইলিয়াম কলেজের লেখকরা গদ্য রচনা শুরু করেন, তবে ঈশ্বরচন্দ্র বিদ্যাসাগরই প্রথম বাংলা গদ্যে শিল্পগুণ ও সাহিত্যরস সঞ্চার করেন। তাই তাকে বাংলা সাহিত্যিক গদ্যের জনক বলা হয়।"
+    "answer": "D",
+    "explanation": "A gerund ('leaving') is preceded by a possessive pronoun or noun (here, 'his') to indicate who is performing the action. This is known as a possessive with gerund construction."
   },
   {
-    "id": 23,
+    "id": 18,
     "question": "He divided the money ––– the two children.",
     "options": {
       "A": "between",
@@ -213,10 +213,10 @@
       "D": "in between"
     },
     "answer": "A",
-    "explanation": "বাংলা সাহিত্যের প্রথম উপন্যাস হিসেবে খ্যাত 'আলালের ঘরের দুলাল' প্যারীচাঁদ মিত্র (ছদ্মনাম: টেকচাঁদ ঠাকুর) রচনা করেন। এটি 'মাসিক পত্রিকা'-য় ধারাবাহিকভাবে প্রকাশের পর ১৮৫৮ সালে গ্রন্থাকারে প্রকাশিত হয়।"
+    "explanation": "'Between' is used when referring to two people or things. 'Among' is used for more than two."
   },
   {
-    "id": 24,
+    "id": 19,
     "question": "No one can ––– that he is clever.",
     "options": {
       "A": "defy",
@@ -224,11 +224,11 @@
       "C": "admire",
       "D": "denounce"
     },
-    "answer": "A",
-    "explanation": "শচীশ (শচীন নামে উল্লিখিত), দামিনী, শ্রীবিলাস এবং জ্যাঠামশাই জগমোহন—এই চারটি চরিত্রকে কেন্দ্র করে রবীন্দ্রনাথ ঠাকুর 'চতুরঙ্গ' (১৯১৬) উপন্যাসটি রচনা করেন।"
+    "answer": "B",
+    "explanation": "'Deny' means to state that something is not true. The sentence means no one can say it's untrue that he is clever."
   },
   {
-    "id": 25,
+    "id": 20,
     "question": "Choose the right form of verb: The boy (to lie) on the floor yesterday.",
     "options": {
       "A": "lies",
@@ -236,11 +236,11 @@
       "C": "lay",
       "D": "layed"
     },
-    "answer": "D",
-    "explanation": "উক্তিটি যুগসন্ধিক্ষণের কবি ঈশ্বরচন্দ্র গুপ্তের 'বড়দিন' কবিতা থেকে নেওয়া হয়েছে। এতে সমকালীন বাঙালি সমাজের ইংরেজপ্রীতির প্রতি কটাক্ষ করা হয়েছে।"
+    "answer": "C",
+    "explanation": "The verb 'to lie' (meaning to recline) has the past tense form 'lay'. 'Lied' is the past tense of 'to lie' (meaning to tell an untruth). 'Yesterday' indicates the past tense is needed."
   },
   {
-    "id": 26,
+    "id": 21,
     "question": "She played on the flute. Passive form is –––",
     "options": {
       "A": "The flute was played by ger.",
@@ -248,11 +248,11 @@
       "C": "The flute was played to her.",
       "D": "The flute was being played by her."
     },
-    "answer": "A",
-    "explanation": "মীর মশাররফ হোসেন তার 'গো-জীবন' (১৮৮৯) প্রবন্ধে গরু কোরবানিকে কেন্দ্র করে সৃষ্ট হিন্দু-মুসলিম সাম্প্রদায়িক বিরোধের অবসান চেয়েছিলেন।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 27,
+    "id": 22,
     "question": "Antonym for Adieu–––",
     "options": {
       "A": "Farewell",
@@ -260,11 +260,11 @@
       "C": "Hello",
       "D": "Valediction"
     },
-    "answer": "D",
-    "explanation": "রবীন্দ্রনাথ ঠাকুর ১৬ বছর বয়সে 'ভিখারিণী' (১৮৭৭) ছোটগল্পটি রচনার মাধ্যমে প্রথম ছোটগল্পকার হিসেবে আত্মপ্রকাশ করেন।"
+    "answer": "C",
+    "explanation": "'Adieu' is a French word for 'goodbye', used when parting. Its opposite is a word for greeting, such as 'Hello'. Farewell and Valediction are synonyms of Adieu."
   },
   {
-    "id": 28,
+    "id": 23,
     "question": "'Walk fast lest you should miss the train'. This is a––",
     "options": {
       "A": "Simple sentence",
@@ -272,11 +272,11 @@
       "C": "Complex sentence",
       "D": "Interrogative sentence"
     },
-    "answer": "A",
-    "explanation": "'ইছামতি' বিভূতিভূষণ বন্দ্যোপাধ্যায়ের একটি বিখ্যাত উপন্যাস। মেঘমল্লার, মৌরিফুল ও যাত্রাবদল তার উল্লেখযোগ্য গল্পগ্রন্থ।"
+    "answer": "C",
+    "explanation": "This sentence contains the subordinating conjunction 'lest', which introduces a subordinate clause ('lest you should miss the train'). A sentence with one main clause and at least one subordinate clause is a complex sentence."
   },
   {
-    "id": 29,
+    "id": 24,
     "question": "A number of singers in a church is called––",
     "options": {
       "A": "Choir",
@@ -284,11 +284,11 @@
       "C": "Claque",
       "D": "Clump"
     },
-    "answer": "B",
-    "explanation": "'আমার পথ' প্রবন্ধটি কাজী নজরুল ইসলামের 'রুদ্র-মঙ্গল' (১৯২৬) প্রবন্ধগ্রন্থ থেকে সংকলিত হয়েছে।"
+    "answer": "A",
+    "explanation": "A 'choir' is an organized group of singers, especially one that takes part in church services or performs in public."
   },
   {
-    "id": 30,
+    "id": 25,
     "question": "Put the right word in the blank. \"He reached the ––– of his literary carrer.\"",
     "options": {
       "A": "abattoir",
@@ -296,11 +296,11 @@
       "C": "admonish",
       "D": "abdicate"
     },
-    "answer": "C",
-    "explanation": "'জীবন ও বৃক্ষ' প্রবন্ধে মোতাহের হোসেন চৌধুরী রবীন্দ্রনাথ ঠাকুরের শান্তিনিকেতন প্রতিষ্ঠার প্রয়াস এবং প্রকৃতির প্রতি তার গভীর ভালোবাসার কারণে তাকে 'তপোবন-প্রেমিক' বলে অভিহিত করেছেন।"
+    "answer": "B",
+    "explanation": "'Acme' means the point at which someone or something is best, perfect, or most successful. It fits the context of reaching the peak of a career."
   },
   {
-    "id": 31,
+    "id": 26,
     "question": "Anger may be compared ––– fire.",
     "options": {
       "A": "to",
@@ -308,11 +308,11 @@
       "C": "against",
       "D": "into"
     },
-    "answer": "B",
-    "explanation": "বঙ্গবন্ধু শেখ মুজিবুর রহমানের 'অসমাপ্ত আত্মজীবনী' গ্রন্থে এই উক্তিটি পাওয়া যায়, যেখানে তিনি তার জ্যেষ্ঠ পুত্র শেখ কামালের কথা উল্লেখ করেছেন।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 32,
+    "id": 27,
     "question": "Choose the correct sentence:",
     "options": {
       "A": "He discussed the matter.",
@@ -320,11 +320,11 @@
       "C": "He discussed on the matter.",
       "D": "None of the above."
     },
-    "answer": "A",
-    "explanation": "প্রখ্যাত কথাসাহিত্যিক আখতারুজ্জামান ইলিয়াস ১৯৪৩ সালের ১২ ফেব্রুয়ারি গাইবান্ধা জেলার গোটিয়া গ্রামে তার মামার বাড়িতে জন্মগ্রহণ করেন। তার পৈতৃক নিবাস ছিল বগুড়ায়।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 33,
+    "id": 28,
     "question": "Identify the correct spelt word.",
     "options": {
       "A": "Horroscope",
@@ -333,10 +333,10 @@
       "D": "Embarass"
     },
     "answer": "B",
-    "explanation": "অমিত্রাক্ষর ছন্দ হলো অক্ষরবৃত্ত ছন্দেরই একটি রূপ, যেখানে চরণের শেষে মিল থাকে না (unrhymed), কিন্তু প্রতি চরণে ১৪ মাত্রার বিন্যাস ঠিক থাকে।"
+    "explanation": "The correct spelling is 'Pneumonia'. The others should be 'Horoscope', 'Occasion', and 'Embarrass'."
   },
   {
-    "id": 34,
+    "id": 29,
     "question": "Desdemona is a character in the following Shakespearean play:",
     "options": {
       "A": "Macbeth",
@@ -345,10 +345,10 @@
       "D": "King Lear"
     },
     "answer": "B",
-    "explanation": "'বুক তার বাংলাদেশের হৃদয়' (১৯৮৮) কাব্যগ্রন্থটির রচয়িতা নাগরিক কবি শামসুর রাহমান।"
+    "explanation": "Desdemona is the wife of the titular character in William Shakespeare's tragedy 'Othello'."
   },
   {
-    "id": 35,
+    "id": 30,
     "question": "Meteorology is related to––",
     "options": {
       "A": "concrete slabs",
@@ -356,11 +356,11 @@
       "C": "weather forecasting",
       "D": "motor neurone disease"
     },
-    "answer": "A",
-    "explanation": "'দুর্দিনের দিনলিপি' হলো সাহিত্যিক ও শিক্ষাবিদ আবুল ফজলের লেখা একটি স্মৃতিচারণমূলক গ্রন্থ।"
+    "answer": "C",
+    "explanation": "Meteorology is the branch of science concerned with the processes and phenomena of the atmosphere, especially as a means of forecasting the weather."
   },
   {
-    "id": 36,
+    "id": 31,
     "question": "'ধ্বনি' সম্পর্কে নিচের কোন বাক্যটি সঠিক নয়?",
     "options": {
       "A": "ধ্বনি দৃশ্যমান",
@@ -368,11 +368,11 @@
       "C": "ধ্বনি উচ্চারণীয় ও শ্রবণীয়",
       "D": "অর্থবোধক ধ্বনিগুলোই মানুষের বিভিন্ন ভাষার বাগ্‌ধ্বনি"
     },
-    "answer": "D",
-    "explanation": "A gerund ('leaving') is preceded by a possessive pronoun or noun (here, 'his') to indicate who is performing the action. This is known as a possessive with gerund construction."
+    "answer": "A",
+    "explanation": "ধ্বনি হলো ভাষার উচ্চারিত রূপ, যা শ্রবণযোগ্য কিন্তু অদৃশ্য। ধ্বনিকে লেখার জন্য যে চিহ্ন বা সংকেত ব্যবহার করা হয়, তাকে বর্ণ বলে। বর্ণই দৃশ্যমান।"
   },
   {
-    "id": 37,
+    "id": 32,
     "question": "স্বরাস্ত অক্ষরকে কী বলে?",
     "options": {
       "A": "একাক্ষর",
@@ -380,11 +380,11 @@
       "C": "বদ্ধাক্ষর",
       "D": "যুক্ষাক্তর"
     },
-    "answer": "C",
-    "explanation": "An 'Achilles' heel' is a fatal weakness in spite of overall strength, originating from the Greek myth of Achilles."
+    "answer": "B",
+    "explanation": "যে অক্ষরের শেষে স্বরধ্বনি থাকে, তাকে স্বরান্ত বা মুক্তাক্ষর (Open Syllable) বলে। যেমন: 'আ-মা-র' শব্দে 'আ' এবং 'মা' হলো মুক্তাক্ষর।"
   },
   {
-    "id": 38,
+    "id": 33,
     "question": "শুদ্ধ বানানের গুচ্ছ কোনটি?",
     "options": {
       "A": "শিরশ্ছেদ, দরিদ্রতা, সমীচীন",
@@ -392,11 +392,11 @@
       "C": "শিরঃশ্ছেদ, দরিদ্রতা, সমিচীন",
       "D": "শিরচ্ছেদ, দরিদ্রতা, সমীচীন"
     },
-    "answer": "D",
-    "explanation": "The verb 'adhere' is followed by the preposition 'to', meaning to stick to or follow a rule, belief, or principle."
+    "answer": "A",
+    "explanation": "'শিরশ্ছেদ' (শিরঃ + ছেদ) বিসর্গ সন্ধির উদাহরণ। 'দরিদ্রতা' একটি শুদ্ধ শব্দ, যদিও 'দারিদ্র্য' বেশি প্রচলিত। 'সমীচীন' অর্থ যথার্থ, এর দুটিই দীর্ঘ ঈ-কার।"
   },
   {
-    "id": 39,
+    "id": 34,
     "question": "আরবি 'কলম' শব্দটি 'কলমোস' শব্দ থেকে এসেছে। 'কলমোস' কোন ভাষার শব্দ?",
     "options": {
       "A": "পাঞ্জাবি",
@@ -404,11 +404,11 @@
       "C": "গ্রিক",
       "D": "স্পেনিশ"
     },
-    "answer": "B",
-    "explanation": "A millennium is a period of one thousand years. A century is 100 years."
+    "answer": "C",
+    "explanation": "আরবি 'ক্বালাম' (قلم) শব্দটি গ্রিক 'কালামোস' (Kalamos) থেকে এসেছে, যার অর্থ নলখাগড়া বা লেখার কলম।"
   },
   {
-    "id": 40,
+    "id": 35,
     "question": "'ভাষা চিন্তার শুধু বাহনই নয়, চিন্তার প্রসূতিও'। মন্তব্যটি কোন ভাষা-চিন্তকের?",
     "options": {
       "A": "সুনীতিকুমার চট্টোপাধ্যায়",
@@ -416,11 +416,11 @@
       "C": "মুহম্মদ এনামুল হক",
       "D": "সুকুমার সেন"
     },
-    "answer": "A",
-    "explanation": "In a passive interrogative sentence, 'Who' becomes 'By whom'. The structure is: By whom + auxiliary verb + subject + been + past participle? This makes option (a) the correct form."
+    "answer": "D",
+    "explanation": "প্রখ্যাত ভাষাবিদ ও সাহিত্য বিশারদ সুকুমার সেন তাঁর 'ভাষার ইতিবৃত্ত' গ্রন্থে এই মন্তব্যটি করেছেন।"
   },
   {
-    "id": 41,
+    "id": 36,
     "question": "সর্বপ্রথম বাংলা ভাষার ব্যাকরণ রচনা করেন কে?",
     "options": {
       "A": "মানোএল দ্য আস্‌সুম্পসাঁও",
@@ -428,11 +428,11 @@
       "C": "রামেন্দ্র সুন্দর ত্রিবেদী",
       "D": "নাথানিয়েল ব্রাসি হ্যালহেড"
     },
-    "answer": "C",
-    "explanation": "William Wordsworth was a major poet of the Romantic Period (late 18th to early 19th century). Tennyson, Browning, and Arnold are prominent poets of the Victorian Period (1837-1901)."
+    "answer": "A",
+    "explanation": "পর্তুগিজ পাদ্রি মানোএল দ্য আস্সুম্পসাঁও ১৭৩৪ সালে ঢাকার ভাওয়ালে অবস্থানকালে বাংলা ভাষার প্রথম ব্যাকরণ রচনা করেন। এটি পর্তুগিজ ভাষায় লেখা হয়েছিল এবং ১৭৪৩ সালে লিসবন থেকে প্রকাশিত হয়।"
   },
   {
-    "id": 42,
+    "id": 37,
     "question": "উচ্চারণের রীতি অনুযায়ী নিচের কোনটি উচ্চমধ্য-সম্মুখ স্বরধ্বনি?",
     "options": {
       "A": "অ",
@@ -440,11 +440,11 @@
       "C": "ও",
       "D": "এ"
     },
-    "answer": "A",
-    "explanation": "'Nineteen Eighty-Four' (1984) is a famous dystopian novel by English writer George Orwell. 'Brave New World' was written by Aldous Huxley."
+    "answer": "D",
+    "explanation": "জিহ্বার অবস্থান ও উচ্চতা অনুযায়ী 'এ' (e) ধ্বনিটি একটি উচ্চ-মধ্য সম্মুখ স্বরধ্বনি।"
   },
   {
-    "id": 43,
+    "id": 38,
     "question": "'তাম্বুলিক' শব্দের সমার্থক নয় কোনটি?",
     "options": {
       "A": "পান-ব্যবসায়ী",
@@ -452,11 +452,11 @@
       "C": "তামসিক",
       "D": "বারুই"
     },
-    "answer": "D",
-    "explanation": "'English' refers to the language (no article). 'The English' refers to the people of England. So, the sentence means she speaks the language as the people of England do."
+    "answer": "C",
+    "explanation": "তাম্বুলিক অর্থ পান বিক্রেতা। পর্ণকার ও বারুই শব্দ দুটিও একই অর্থ বহন করে। 'তামসিক' অর্থ তমোগুণ সম্পন্ন বা অলস, যা এর সমার্থক নয়।"
   },
   {
-    "id": 44,
+    "id": 39,
     "question": "'তুমি তো ভারি সুন্দর ছবি আঁক।'– বাক্যটিতে কোন প্রকারের অব্যয় পদ ব্যবহৃত হয়েছে?",
     "options": {
       "A": "পদান্বয়ী অব্যয়",
@@ -464,11 +464,11 @@
       "C": "অনন্বয়ী অব্যয়",
       "D": "অনুকার অব্যয়"
     },
-    "answer": "B",
-    "explanation": "The phrasal verb 'to go back on' means to fail to keep a promise."
+    "answer": "C",
+    "explanation": "যে সকল অব্যয় বাক্যের অন্য পদের সাথে কোনো সম্পর্ক না রেখে স্বাধীনভাবে ভাব প্রকাশে ব্যবহৃত হয়, তাদের অনন্বয়ী অব্যয় বলে। এখানে 'তো' শব্দটি জোর বা বিস্ময় প্রকাশে ব্যবহৃত হয়েছে।"
   },
   {
-    "id": 45,
+    "id": 40,
     "question": "নিচের কোনটি যৌগিক শব্দ?",
     "options": {
       "A": "প্রবীণ",
@@ -476,11 +476,11 @@
       "C": "সরোজ",
       "D": "মিতালি"
     },
-    "answer": "C",
-    "explanation": "The phrasal verb 'to put up with' means to endure or tolerate someone or something unpleasant."
+    "answer": "D",
+    "explanation": "যে সব শব্দের ব্যুৎপত্তিগত অর্থ ও প্রচলিত অর্থ একই, তাদের যৌগিক শব্দ বলে। 'মিতালি' (মিতা + আলি) শব্দের অর্থ মিতার ভাব, যা তার ব্যুৎপত্তিগত অর্থকেই অনুসরণ করে।"
   },
   {
-    "id": 46,
+    "id": 41,
     "question": "'সুনামীর তান্ডবে অনেকেই সর্বশান্ত হয়েছে।'– বাক্যটিতে কয়টি ভুল আছে?",
     "options": {
       "A": "একটি",
@@ -488,11 +488,11 @@
       "C": "তিনটি",
       "D": "ভুল নেই"
     },
-    "answer": "A",
-    "explanation": "'To His Coy Mistress' is a famous metaphysical poem written by Andrew Marvell, a 17th-century English poet."
+    "answer": "C",
+    "explanation": "বাক্যটিতে তিনটি বানান ভুল আছে। সঠিক রূপ: সুনামি (সঠিক: सुनामी), তান্ডব (সঠিক: তাণ্ডব), সর্বশান্ত (সঠিক: সর্বস্বান্ত)।"
   },
   {
-    "id": 47,
+    "id": 42,
     "question": "কৃদন্ত পদের পূর্ববর্তী পদকে কী বলে?",
     "options": {
       "A": "উপপদ",
@@ -501,10 +501,10 @@
       "D": "পূর্বপদ"
     },
     "answer": "A",
-    "explanation": "'Altitude' refers to the height of an object or point in relation to sea level or ground level."
+    "explanation": "কৃৎ প্রত্যয় সাধিত পদের (কৃদন্ত পদ) সঙ্গে যে পদের সমাস হয়, তাকে উপপদ বলে। যেমন: 'পকেট মারে যে = পকেটমার'। এখানে 'মার' কৃদন্ত পদের উপপদ হলো 'পকেট'।"
   },
   {
-    "id": 48,
+    "id": 43,
     "question": "'তোমার নাম কী?'– এখানে 'কী' কোন প্রকারের শব্দ?",
     "options": {
       "A": "প্রশ্নবাচক",
@@ -512,11 +512,11 @@
       "C": "সর্বনাম",
       "D": "বিশেষণ"
     },
-    "answer": "A",
-    "explanation": "Elizabeth Bennet is the protagonist of Jane Austen's famous 1813 novel 'Pride and Prejudice'."
+    "answer": "C",
+    "explanation": "interrogative sentence এ 'কী' যখন উত্তর হ্যাঁ/না বাদে অন্য কিছু হয়, তখন তা সর্বনাম পদ হিসেবে ব্যবহৃত হয়। এখানে 'নাম' জানতে চাওয়া হয়েছে, যা একটি বিশেষ্য। তাই 'কী' একটি প্রশ্নবাচক সর্বনাম।"
   },
   {
-    "id": 49,
+    "id": 44,
     "question": "'সরল' শব্দের বিপরীতার্থক নয় নিচের কোনটি?",
     "options": {
       "A": "কুটিল",
@@ -524,11 +524,11 @@
       "C": "বক্র",
       "D": "গরল"
     },
-    "answer": "B",
-    "explanation": "This is a third conditional sentence expressing an unreal past condition. The structure for the 'if' clause is 'if + subject + past perfect (had + past participle)'."
+    "answer": "D",
+    "explanation": "'সরল' এর বিপরীত শব্দ কুটিল, জটিল, বক্র। 'গরল' শব্দের অর্থ বিষ, এর বিপরীত শব্দ অমৃত।"
   },
   {
-    "id": 50,
+    "id": 45,
     "question": "'Rank' শব্দের বাংলা পরিভাষা কী?",
     "options": {
       "A": "পদ",
@@ -536,11 +536,11 @@
       "C": "মাত্রা",
       "D": "উচ্চতা"
     },
-    "answer": "A",
-    "explanation": "'Arrogant' means having or revealing an exaggerated sense of one's own importance or abilities. In this context, it contrasts with 'courteous' (polite) and is best matched by 'rude' (impolite)."
+    "answer": "B",
+    "explanation": "'Rank' শব্দের উপযুক্ত বাংলা পরিভাষা হলো পদমর্যাদা বা পর্যায়।"
   },
   {
-    "id": 51,
+    "id": 46,
     "question": "চর্যাপদের তিব্বতি অনুবাদ প্রকাশ করেন কে?",
     "options": {
       "A": "প্রবোধচন্দ্র বাগচী",
@@ -548,11 +548,11 @@
       "C": "প্রফুল্ল মোহন বাগচী",
       "D": "প্রণয়ভূষণ বাগচী"
     },
-    "answer": "C",
-    "explanation": "'Don Juan' is a satirical epic poem by the Romantic poet Lord Byron (George Gordon Byron)."
+    "answer": "A",
+    "explanation": "ড. প্রবোধচন্দ্র বাগচী চর্যাপদের তিব্বতি অনুবাদ আবিষ্কার ও প্রকাশ করেন। তিনি কলকাতা বিশ্ববিদ্যালয়ের অধ্যাপক ছিলেন।"
   },
   {
-    "id": 52,
+    "id": 47,
     "question": "'গীতগোবিন্দ' কাব্যের রচয়িতা জয়দেব কার সভাকবি ছিলেন?",
     "options": {
       "A": "শশাঙ্কদেবের",
@@ -560,11 +560,11 @@
       "C": "যশোবর্মনের",
       "D": "হর্ষবর্ধনের"
     },
-    "answer": "A",
-    "explanation": "An imperative sentence gives a command, order, or request. 'Shut up!' is a direct command."
+    "answer": "B",
+    "explanation": "সংস্কৃত ভাষায় রচিত 'গীতগোবিন্দ' কাব্যের রচয়িতা জয়দেব ছিলেন সেন বংশের শেষ রাজা লক্ষ্মণ সেনের (আনু. ১১৭৮-১২০৬) পঞ্চরত্নের একজন।"
   },
   {
-    "id": 53,
+    "id": 48,
     "question": "কবি যশোরাজ খান বৈষ্ণবপদ রচনা করেন কোন ভাষায়?",
     "options": {
       "A": "ব্রজবুলি",
@@ -572,11 +572,11 @@
       "C": "সংস্কৃত",
       "D": "হিন্দি"
     },
-    "answer": "C",
-    "explanation": "The Black Death was a devastating bubonic plague pandemic that struck Europe and Asia in the mid-14th century."
+    "answer": "A",
+    "explanation": "মধ্যযুগের কবি যশোরাজ খান ছিলেন হোসেন শাহের সেনাপতি। তিনি ব্রজবুলি ভাষায় বৈষ্ণব পদ রচনা করে খ্যাতি লাভ করেন।"
   },
   {
-    "id": 54,
+    "id": 49,
     "question": "নিচের কোন জন যুদ্ধকাব্যের রচয়িতা নন?",
     "options": {
       "A": "দৌলত উজির বাহরাম খাঁ",
@@ -585,10 +585,10 @@
       "D": "সৈয়দ নূরুদ্দীন"
     },
     "answer": "D",
-    "explanation": "'Ulysses' is a famous dramatic monologue by the Victorian poet Alfred, Lord Tennyson."
+    "explanation": "দৌলত উজির বাহরাম খাঁ ('জঙ্গনামা'), সাবিরিদ খাঁ ('রসুল বিজয়'), এবং সৈয়দ সুলতান ('নবীবংশ', 'রসুল বিজয়') যুদ্ধকাব্য রচনা করেছেন। সৈয়দ নূরুদ্দীন 'দোহাকোষ' রচনা করেন।"
   },
   {
-    "id": 55,
+    "id": 50,
     "question": "কোনটি কবি জৈনুদ্দিনের কাব্যগ্রন্থ?",
     "options": {
       "A": "রসুল বিজয়",
@@ -596,11 +596,11 @@
       "C": "রসুলচরিত",
       "D": "মক্কানামা"
     },
-    "answer": "C",
-    "explanation": "'Ozymandias' is a famous sonnet by the English Romantic poet Percy Bysshe Shelley, first published in 1818."
+    "answer": "A",
+    "explanation": "কবি জৈনুদ্দিনের বিখ্যাত কাব্যগ্রন্থ হলো 'রসুল বিজয়'। তিনি গৌড়ের সুলতান ইউসুফ শাহের সভাকবি ছিলেন।"
   },
   {
-    "id": 56,
+    "id": 51,
     "question": "\"বিদ্যাসাগর ও বাঙালি সমাজ\" গ্রন্হের রচয়িতা কে?",
     "options": {
       "A": "বিনয় ঘোষ",
@@ -608,11 +608,11 @@
       "C": "বিনয় ভট্টাচার্য",
       "D": "বিনয় বর্মণ"
     },
-    "answer": "D",
-    "explanation": "Clym Yeobright is the central character in Thomas Hardy's novel 'The Return of the Native' (1878)."
+    "answer": "A",
+    "explanation": "'বিদ্যাসাগর ও বাঙালি সমাজ' নামক গবেষণা গ্রন্থটির রচয়িতা হলেন বিশিষ্ট চিন্তাবিদ ও গবেষক বিনয় ঘোষ।"
   },
   {
-    "id": 57,
+    "id": 52,
     "question": "প্রথম সাহিত্যিক গদ্যের স্রষ্টা কে?",
     "options": {
       "A": "রাাজা রামমোহন রায়",
@@ -620,11 +620,11 @@
       "C": "মৃত্যুঞ্জয় বিদ্যালঙ্কার",
       "D": "বঙ্কিমচন্দ্র চট্টোপাধ্যায়"
     },
-    "answer": "C",
-    "explanation": "The preposition 'at' is used to indicate a specific speed, rate, or price."
+    "answer": "B",
+    "explanation": "যদিও রামমোহন রায় ও ফোর্ট উইলিয়াম কলেজের লেখকরা গদ্য রচনা শুরু করেন, তবে ঈশ্বরচন্দ্র বিদ্যাসাগরই প্রথম বাংলা গদ্যে শিল্পগুণ ও সাহিত্যরস সঞ্চার করেন। তাই তাকে বাংলা সাহিত্যিক গদ্যের জনক বলা হয়।"
   },
   {
-    "id": 58,
+    "id": 53,
     "question": "প্যারীচাঁদ মিত্রের 'আলালের ঘরের দুলাল' প্রথম গ্রন্থাকারে প্রকাশিত হয় কত সালে?",
     "options": {
       "A": "১৮৫৮ সালে",
@@ -633,10 +633,10 @@
       "D": "১৮৬৮ সালে"
     },
     "answer": "A",
-    "explanation": "'Between' is used when referring to two people or things. 'Among' is used for more than two."
+    "explanation": "বাংলা সাহিত্যের প্রথম উপন্যাস হিসেবে খ্যাত 'আলালের ঘরের দুলাল' প্যারীচাঁদ মিত্র (ছদ্মনাম: টেকচাঁদ ঠাকুর) রচনা করেন। এটি 'মাসিক পত্রিকা'-য় ধারাবাহিকভাবে প্রকাশের পর ১৮৫৮ সালে গ্রন্থাকারে প্রকাশিত হয়।"
   },
   {
-    "id": 59,
+    "id": 54,
     "question": "শচীন, দামিনী ও শ্রীবিলাস রবীন্দ্রনাথ ঠাকুরের কোন উপন্যাসের চরিত্র?",
     "options": {
       "A": "চতুরঙ্গ",
@@ -644,11 +644,11 @@
       "C": "নৌকাডুবি",
       "D": "ঘরে বাইরে"
     },
-    "answer": "B",
-    "explanation": "'Deny' means to state that something is not true. The sentence means no one can say it's untrue that he is clever."
+    "answer": "A",
+    "explanation": "শচীশ (শচীন নামে উল্লিখিত), দামিনী, শ্রীবিলাস এবং জ্যাঠামশাই জগমোহন—এই চারটি চরিত্রকে কেন্দ্র করে রবীন্দ্রনাথ ঠাকুর 'চতুরঙ্গ' (১৯১৬) উপন্যাসটি রচনা করেন।"
   },
   {
-    "id": 60,
+    "id": 55,
     "question": "'তুমি মা কল্পতরু আমরা সব পোষাগরু'– এই কবিতাংশটির রচয়িতা কে?",
     "options": {
       "A": "রঙ্গলাল বন্দ্যোপাধ্যায়",
@@ -656,11 +656,11 @@
       "C": "হেমচন্দ্র বন্দ্যোপাধ্যায়",
       "D": "ঈশ্বরচন্দ্র গুপ্ত"
     },
-    "answer": "C",
-    "explanation": "The verb 'to lie' (meaning to recline) has the past tense form 'lay'. 'Lied' is the past tense of 'to lie' (meaning to tell an untruth). 'Yesterday' indicates the past tense is needed."
+    "answer": "D",
+    "explanation": "উক্তিটি যুগসন্ধিক্ষণের কবি ঈশ্বরচন্দ্র গুপ্তের 'বড়দিন' কবিতা থেকে নেওয়া হয়েছে। এতে সমকালীন বাঙালি সমাজের ইংরেজপ্রীতির প্রতি কটাক্ষ করা হয়েছে।"
   },
   {
-    "id": 61,
+    "id": 56,
     "question": "মীর মশাররফ হোসেনের কোন গ্রন্হের উপজীব্য হিন্দু মুসলমানের বিরোধ?",
     "options": {
       "A": "গো-জীবন",
@@ -668,11 +668,11 @@
       "C": "এর উপায় কী",
       "D": "বসন্তকুমারী নাটক"
     },
-    "answer": "B",
-    "explanation": "When passivizing a sentence with a phrasal verb ('played on'), the preposition ('on') must be retained after the verb. So, 'The flute' becomes the subject, and the verb becomes 'was played on'."
+    "answer": "A",
+    "explanation": "মীর মশাররফ হোসেন তার 'গো-জীবন' (১৮৮৯) প্রবন্ধে গরু কোরবানিকে কেন্দ্র করে সৃষ্ট হিন্দু-মুসলিম সাম্প্রদায়িক বিরোধের অবসান চেয়েছিলেন।"
   },
   {
-    "id": 62,
+    "id": 57,
     "question": "রবীন্দ্রনাথ ঠাকুর কত বয়সে ছোটগল্পকার হিসেবে আত্মপ্রকাশ করেন?",
     "options": {
       "A": "১০ বছর",
@@ -680,11 +680,11 @@
       "C": "১৪ বছর",
       "D": "১৬ বছর"
     },
-    "answer": "C",
-    "explanation": "'Adieu' is a French word for 'goodbye', used when parting. Its opposite is a word for greeting, such as 'Hello'. Farewell and Valediction are synonyms of Adieu."
+    "answer": "D",
+    "explanation": "রবীন্দ্রনাথ ঠাকুর ১৬ বছর বয়সে 'ভিখারিণী' (১৮৭৭) ছোটগল্পটি রচনার মাধ্যমে প্রথম ছোটগল্পকার হিসেবে আত্মপ্রকাশ করেন।"
   },
   {
-    "id": 63,
+    "id": 58,
     "question": "নিচের কোনটি বিভূতিভূষণ বন্দ্যোপাধ্যায়ের গল্পগ্রন্থ নয়?",
     "options": {
       "A": "ইছামতি",
@@ -692,11 +692,11 @@
       "C": "মৌরিফুল",
       "D": "যাত্রাবদল"
     },
-    "answer": "C",
-    "explanation": "This sentence contains the subordinating conjunction 'lest', which introduces a subordinate clause ('lest you should miss the train'). A sentence with one main clause and at least one subordinate clause is a complex sentence."
+    "answer": "A",
+    "explanation": "'ইছামতি' বিভূতিভূষণ বন্দ্যোপাধ্যায়ের একটি বিখ্যাত উপন্যাস। মেঘমল্লার, মৌরিফুল ও যাত্রাবদল তার উল্লেখযোগ্য গল্পগ্রন্থ।"
   },
   {
-    "id": 64,
+    "id": 59,
     "question": "'আমার পথ' প্রবন্ধটি কাজী নজরুল ইসলামের কোন গ্রন্থ থেকে সংকলিত হয়েছে?",
     "options": {
       "A": "যুগ-বাণী",
@@ -704,11 +704,11 @@
       "C": "দুর্দিনের যাত্রী",
       "D": "রাজবন্দির জবানবন্দি"
     },
-    "answer": "A",
-    "explanation": "A 'choir' is an organized group of singers, especially one that takes part in church services or performs in public."
+    "answer": "B",
+    "explanation": "'আমার পথ' প্রবন্ধটি কাজী নজরুল ইসলামের 'রুদ্র-মঙ্গল' (১৯২৬) প্রবন্ধগ্রন্থ থেকে সংকলিত হয়েছে।"
   },
   {
-    "id": 65,
+    "id": 60,
     "question": "'জীবন ও বৃক্ষ' প্রবন্ধে মোতাহের হোসেন চৌধুরী কাকে তপোবন-প্রেমিক বলেছেন?",
     "options": {
       "A": "বিভূতিভূষণ বন্দ্যোপাধ্যায়কে",
@@ -716,11 +716,11 @@
       "C": "রবীন্দ্রনাথ ঠাকুরকে",
       "D": "শরৎচন্দ্র চট্টোপাধ্যায়কে"
     },
-    "answer": "B",
-    "explanation": "'Acme' means the point at which someone or something is best, perfect, or most successful. It fits the context of reaching the peak of a career."
+    "answer": "C",
+    "explanation": "'জীবন ও বৃক্ষ' প্রবন্ধে মোতাহের হোসেন চৌধুরী রবীন্দ্রনাথ ঠাকুরের শান্তিনিকেতন প্রতিষ্ঠার প্রয়াস এবং প্রকৃতির প্রতি তার গভীর ভালোবাসার কারণে তাকে 'তপোবন-প্রেমিক' বলে অভিহিত করেছেন।"
   },
   {
-    "id": 66,
+    "id": 61,
     "question": "'আমি যখন জেলে যাই তখন ওর বয়স মাত্র কয়েক মাস'– এখানে 'ওর' বলতে শেখ মুজিবুর রহমান কাকে বুঝিয়েছেন?",
     "options": {
       "A": "শেখ নাসেরকে",
@@ -728,11 +728,11 @@
       "C": "শেখ হাসিনাকে",
       "D": "শেখ রেহানাকে"
     },
-    "answer": "A",
-    "explanation": "'Compare to' is used when highlighting similarities between two different types of things (here, an emotion and an element). 'Compare with' is used for similarities and differences between similar types of things."
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 67,
+    "id": 62,
     "question": "আখতারুজ্জামান ইলিয়াস জন্মগ্রহণ করেন কোথায়?",
     "options": {
       "A": "গাইবান্ধায়",
@@ -741,10 +741,10 @@
       "D": "সিরাজগঞ্জে"
     },
     "answer": "A",
-    "explanation": "The verb 'discuss' is a transitive verb, meaning it takes a direct object and does not require a preposition like 'about' or 'on'."
+    "explanation": "প্রখ্যাত কথাসাহিত্যিক আখতারুজ্জামান ইলিয়াস ১৯৪৩ সালের ১২ ফেব্রুয়ারি গাইবান্ধা জেলার গোটিয়া গ্রামে তার মামার বাড়িতে জন্মগ্রহণ করেন। তার পৈতৃক নিবাস ছিল বগুড়ায়।"
   },
   {
-    "id": 68,
+    "id": 63,
     "question": "মাইকেল মধুসূদন দত্ত প্রবর্তিত 'অমিত্রাক্ষর ছন্দ' প্রকৃত পক্ষে বাংলা কোন ছন্দের নব-রুপায়ন?",
     "options": {
       "A": "স্বরবৃত্ত ছন্দ",
@@ -753,10 +753,10 @@
       "D": "গৈরিশ ছন্দ"
     },
     "answer": "B",
-    "explanation": "The correct spelling is 'Pneumonia'. The others should be 'Horoscope', 'Occasion', and 'Embarrass'."
+    "explanation": "অমিত্রাক্ষর ছন্দ হলো অক্ষরবৃত্ত ছন্দেরই একটি রূপ, যেখানে চরণের শেষে মিল থাকে না (unrhymed), কিন্তু প্রতি চরণে ১৪ মাত্রার বিন্যাস ঠিক থাকে।"
   },
   {
-    "id": 69,
+    "id": 64,
     "question": "'বুক তার বাংলাদেশের হৃদয়' কাব্যগ্রন্থের রচয়িতা কে?",
     "options": {
       "A": "সৈয়দ শামসুল হক",
@@ -765,10 +765,10 @@
       "D": "আহসান হাবিব"
     },
     "answer": "B",
-    "explanation": "Desdemona is the wife of the titular character in William Shakespeare's tragedy 'Othello'."
+    "explanation": "'বুক তার বাংলাদেশের হৃদয়' (১৯৮৮) কাব্যগ্রন্থটির রচয়িতা নাগরিক কবি শামসুর রাহমান।"
   },
   {
-    "id": 70,
+    "id": 65,
     "question": "\"দুর্দিনের দিনলিপি\" স্মৃতিগ্রন্থটি কার লেখা?",
     "options": {
       "A": "আবুল ফজল",
@@ -776,11 +776,11 @@
       "C": "জাহানারা ইমাম",
       "D": "মুশতারি শফী"
     },
-    "answer": "C",
-    "explanation": "Meteorology is the branch of science concerned with the processes and phenomena of the atmosphere, especially as a means of forecasting the weather."
+    "answer": "A",
+    "explanation": "'দুর্দিনের দিনলিপি' হলো সাহিত্যিক ও শিক্ষাবিদ আবুল ফজলের লেখা একটি স্মৃতিচারণমূলক গ্রন্থ।"
   },
   {
-    "id": 71,
+    "id": 66,
     "question": "বাংলাদেশ সদস্য নয় :",
     "options": {
       "A": "ILO",
@@ -789,10 +789,10 @@
       "D": "BIMSTEC"
     },
     "answer": "C",
-    "explanation": "আমরা জানি, দুটি রাশির গুণফল তাদের ল.সা.গু. ও গ.সা.গু.-এর গুণফলের সমান।রাশি দুটির গুণফল = (x²y + xy²) × (x² + xy) = xy(x+y) × x(x+y) = x²y(x+y)²।"
+    "explanation": "NATO (North Atlantic Treaty Organization) একটি সামরিক জোট, যার সদস্য মূলত উত্তর আমেরিকা ও ইউরোপের দেশগুলো। Bangladesh ILO, SAARC, BIMSTEC সহ বিভিন্ন আন্তর্জাতিক সংস্থার সদস্য, কিন্তু NATO-র সদস্য নয়।"
   },
   {
-    "id": 72,
+    "id": 67,
     "question": "ফিফা বিশ্বকাপ ফুটবল কখন প্রথম অনুষ্ঠিত হয়?",
     "options": {
       "A": "১৯২৯",
@@ -801,10 +801,10 @@
       "D": "১৯৩২"
     },
     "answer": "B",
-    "explanation": "x : y = 2 : 3 = (2×5) : (3×5) = 10 : 15। y : z = 5 : 7 = (5×3) : (7×3) = 15 : 21। সুতরাং, x : y : z = 10 : 15 : 21।"
+    "explanation": "প্রথম ফিফা বিশ্বকাপ ফুটবল ১৯৩০ সালে উরুগুয়েতে অনুষ্ঠিত হয়। ফাইনালে স্বাগতিক উরুগুয়ে আর্জেন্টিনাকে পরাজিত করে চ্যাম্পিয়ন হয়।"
   },
   {
-    "id": 73,
+    "id": 68,
     "question": "কোন দেশে সমুদ্র বন্দর নাই?",
     "options": {
       "A": "মালদ্বীপ",
@@ -813,10 +813,10 @@
       "D": "ভেনেজুয়েলা"
     },
     "answer": "B",
-    "explanation": "ধরি, প্রাথমিক বেতন ১০০ টাকা। ১০% কমানোর পর বেতন হয় ৯০ টাকা। হ্রাসকৃত বেতন ১০% বাড়ালে নতুন বেতন হয় ৯০ + (৯০ এর ১০%) = ৯০ + ৯ = ৯৯ টাকা। মোট ক্ষতি = ১০০ - ৯৯ = ১ টাকা। শতকরা ক্ষতি = (১/১০০ × ১০০)% = ১%।"
+    "explanation": "নেপাল একটি স্থলবেষ্টিত (landlocked) দেশ, যার চারিদিকে ভারত ও চীন অবস্থিত। তাই নেপালের কোনো সমুদ্র বন্দর নেই।"
   },
   {
-    "id": 74,
+    "id": 69,
     "question": "কোথায় ঐতিহাসিক ট্রয় নগর অবস্থিত?",
     "options": {
       "A": "ইটালী",
@@ -824,11 +824,11 @@
       "C": "তুরস্ক",
       "D": "ফ্রান্স"
     },
-    "answer": "D",
-    "explanation": "(x + 5)² = x² + 2.x.5 + 5² = x² + 10x + 25। প্রদত্ত সমীকরণ x² + bx + c এর সাথে তুলনা করে পাই, b = 10 এবং c = 25।"
+    "answer": "C",
+    "explanation": "হোমারের ইলিয়াড ও ওডিসি মহাকাব্যে বর্ণিত কিংবদন্তীর ট্রয় নগরীর প্রত্নতাত্ত্বিক স্থানটি আধুনিক তুরস্কের আনাতোলিয়া প্রদেশের হিসারলিক নামক স্থানে অবস্থিত।"
   },
   {
-    "id": 75,
+    "id": 70,
     "question": "ক্ষুদ্রতম মহাদেশ :",
     "options": {
       "A": "অস্ট্রেলিয়া",
@@ -836,11 +836,11 @@
       "C": "আফ্রিকা",
       "D": "দক্ষিণ আমেরিকা"
     },
-    "answer": "C",
-    "explanation": "সরলরেখার সাধারণ সমীকরণ হলো ax + by + c = 0, যেখানে x ও y এর ঘাত ১। (গ) x/y = 1/2 বা y = 2x, এটি মূলবিন্দুগামী একটি সরলরেখা। অন্য বিকল্পগুলোতে x বা y এর ঘাত ১ এর বেশি বা তারা গুণ আকারে আছে।"
+    "answer": "A",
+    "explanation": "আয়তন এবং জনসংখ্যা উভয় দিক থেকেই পৃথিবীর ক্ষুদ্রতম মহাদেশ হলো ওশেনিয়া, যা সাধারণত অস্ট্রেলিয়া মহাদেশ নামেই পরিচিত।"
   },
   {
-    "id": 76,
+    "id": 71,
     "question": "কোথায় আন্তর্জাতিক ধান গবেষণা ইনস্টিটিউট অবস্থিত?",
     "options": {
       "A": "টোকিও",
@@ -849,10 +849,10 @@
       "D": "নেপাল"
     },
     "answer": "B",
-    "explanation": "আমরা জানি, 2(p² + q²) = (p+q)² + (p-q)²।=> 2(p² + q²) = 5² + 3² = 25 + 9 = 34।=> p² + q² = 34 / 2 = 17।"
+    "explanation": "আন্তর্জাতিক ধান গবেষণা ইনস্টিটিউট (International Rice Research Institute - IRRI) এর সদর দপ্তর ফিলিপাইনের রাজধানী ম্যানিলার অদূরে লস বানোসে অবস্থিত।"
   },
   {
-    "id": 77,
+    "id": 72,
     "question": "কোথায় ইউরোপীয় কেন্দ্রীয় ব্যাংক অবস্থিত?",
     "options": {
       "A": "লন্ডন",
@@ -860,11 +860,11 @@
       "C": "ব্রাসেলস",
       "D": "ফ্রাঙ্কফুর্ট"
     },
-    "answer": "A",
-    "explanation": "log(a/b) + log(b/a) = log((a/b) × (b/a)) = log(1)।সুতরাং, log(1) = log(a+b)।=> a + b = 1।"
+    "answer": "D",
+    "explanation": "ইউরোপীয় কেন্দ্রীয় ব্যাংক (European Central Bank - ECB) এর সদর দপ্তর জার্মানির ফ্রাঙ্কফুর্ট শহরে অবস্থিত। এটি ইউরোজোনের মুদ্রা নীতি পরিচালনা করে।"
   },
   {
-    "id": 78,
+    "id": 73,
     "question": "যুক্তরাষ্ট্রের ৪৫তম প্রেসিডেন্ট কে ছিলেন?",
     "options": {
       "A": "রিচার্ড নিক্সন",
@@ -872,11 +872,11 @@
       "C": "কেনেডি",
       "D": "ডনাল্ড ট্রাম্প"
     },
-    "answer": "B",
-    "explanation": "2ˣ⁺⁷ = (2²)ˣ⁺² => 2ˣ⁺⁷ = 2²ˣ⁺⁴।ভিত্তি সমান হওয়ায়, x + 7 = 2x + 4 => 2x - x = 7 - 4 => x = 3।"
+    "answer": "D",
+    "explanation": "ডোনাল্ড ট্রাম্প ২০১৭ থেকে ২০২১ সাল পর্যন্ত মার্কিন যুক্তরাষ্ট্রের ৪৫তম প্রেসিডেন্ট হিসেবে দায়িত্ব পালন করেন।"
   },
   {
-    "id": 79,
+    "id": 74,
     "question": "TIFA এর পূর্ণরূপ কী?",
     "options": {
       "A": "Trade for International Finance Agreement.",
@@ -884,11 +884,11 @@
       "C": "Treaty for International Free Area",
       "D": "Trade and Inviestment form America"
     },
-    "answer": "D",
-    "explanation": "এটি একটি গুণোত্তর ধারা। সাধারণ অনুপাত r = (-1) / (1/√3) = -√3।পঞ্চম পদ = ar⁴ = (1/√3) × (-√3)⁴ = (1/√3) × 9 = 9/√3 = (3×3)/√3 = 3√3।"
+    "answer": "B",
+    "explanation": "TIFA-এর পূর্ণরূপ হলো Trade and Investment Framework Agreement। এটি দেশগুলোর মধ্যে বাণিজ্য ও বিনিয়োগ সংক্রান্ত আলোচনা ও সহযোগিতার একটি ফোরাম।"
   },
   {
-    "id": 80,
+    "id": 75,
     "question": "ভারত কর্তৃক সিকিম সংযুক্ত হয়-",
     "options": {
       "A": "১৯৭০",
@@ -897,10 +897,10 @@
       "D": "১৯৭৭"
     },
     "answer": "C",
-    "explanation": "1 + tan²θ = sec²θ।সুতরাং, sec²θ = 4 => secθ = 2 (যেহেতু θ < 90°)।আমরা জানি, sec(60°) = 2। সুতরাং, θ = 60°।"
+    "explanation": "১৯৭৫ সালে একটি গণভোটের মাধ্যমে সিকিম রাজতন্ত্রের অবসান ঘটিয়ে ভারতের ২২তম রাজ্য হিসেবে যোগদান করে।"
   },
   {
-    "id": 81,
+    "id": 76,
     "question": "২০২২ সালে G-20 শীর্ষ বৈঠক কোথায় অনুষ্ঠিত হয়?",
     "options": {
       "A": "সিংগাপুর",
@@ -908,11 +908,11 @@
       "C": "ম্যানিলা",
       "D": "বালী"
     },
-    "answer": "C",
-    "explanation": "ব্যাস = 12 cm, সুতরাং ব্যাসার্ধ (r) = 6 cm।বৃত্তচাপের দৈর্ঘ্য S = (θ/360) × 2πr = (60/360) × 2π × 6 = (1/6) × 12π = 2π cm।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 82,
+    "id": 77,
     "question": "চীন-ভারত যুদ্ধ কত সালে সংঘটিত হয়?",
     "options": {
       "A": "১৯৫৯",
@@ -920,11 +920,11 @@
       "C": "১৯৬২",
       "D": "১৯৬৩"
     },
-    "answer": "D",
-    "explanation": "বাহুগুলো হলো k, 2√2k, এবং 3k। পিথাগোরাসের উপপাদ্য পরীক্ষা করি: (k)² + (2√2k)² = k² + 8k² = 9k² = (3k)²। যেহেতু ক্ষুদ্রতর দুই বাহুর বর্গের যোগফল বৃহত্তম বাহুর বর্গের সমান, এটি একটি সমকোণী ত্রিভুজ। বৃহত্তম কোণটি (অতিভুজের বিপরীত কোণ) ৯০°।"
+    "answer": "C",
+    "explanation": "সীমান্ত বিরোধকে কেন্দ্র করে ১৯৬২ সালের অক্টোবর-নভেম্বর মাসে চীন ও ভারতের মধ্যে একটি সংক্ষিপ্ত কিন্তু তীব্র যুদ্ধ সংঘটিত হয়।"
   },
   {
-    "id": 83,
+    "id": 78,
     "question": "পৃথিবীর গভীরতম স্থান:",
     "options": {
       "A": "ম্যারিয়ানা ট্রেন্চ",
@@ -932,11 +932,11 @@
       "C": "বৈকাল হ্রদ",
       "D": "লোহিত সাগর"
     },
-    "answer": "C",
-    "explanation": "২৯ থেকে ৩৮ পর্যন্ত মোট সংখ্যা আছে (৩৮ - ২৯) + ১ = ১০টি। এর মধ্যে মৌলিক সংখ্যাগুলো হলো ২৯, ৩১, ৩৭ (মোট ৩টি)।সুতরাং, মৌলিক সংখ্যা পাওয়ার সম্ভাবনা = ৩/১০।"
+    "answer": "A",
+    "explanation": "প্রশান্ত মহাসাগরের তলদেশে অবস্থিত মারিয়ানা ট্রেঞ্চ হলো পৃথিবীর সবচেয়ে গভীরতম স্থান। এর গভীরতম বিন্দু চ্যালেঞ্জার ডিপ-এর গভীরতা প্রায় ১১ কিলোমিটার।"
   },
   {
-    "id": 84,
+    "id": 79,
     "question": "'বেল্ট অ্যান্ড রোড' কার্যক্রম শুরু হয়:",
     "options": {
       "A": "২০০০ সাল",
@@ -944,11 +944,11 @@
       "C": "২০১৩ সাল",
       "D": "২০১৬ সাল"
     },
-    "answer": "A",
-    "explanation": "পাঁচ অংকের সংখ্যা গঠনের জন্য প্রথম স্থানে ০ বসতে পারে না। তাই প্রথম স্থানটি ৪ ভাবে (১,২,৩,৪) পূরণ করা যায়। বাকি ৪টি স্থান বাকি ৪টি অংক দ্বারা 4! উপায়ে পূরণ করা যায়।মোট সংখ্যা = ৪ × 4! = ৪ × ২৪ = ৯৬টি।"
+    "answer": "C",
+    "explanation": "চীনের প্রেসিডেন্ট শি জিনপিং ২০১৩ সালে 'বেল্ট অ্যান্ড রোড ইনিশিয়েটিভ' (BRI) নামক বৈশ্বিক অবকাঠামো উন্নয়ন কৌশলটি ঘোষণা করেন।"
   },
   {
-    "id": 85,
+    "id": 80,
     "question": "বান্দা আচেহ কোথায় অবস্থিত?",
     "options": {
       "A": "ইন্দোনেশিয়া",
@@ -956,11 +956,11 @@
       "C": "ফিলিপাইন",
       "D": "কম্বোডিয়া"
     },
-    "answer": "D",
-    "explanation": "x² – 5x – 14 = 0 => x² - 7x + 2x - 14 = 0 => (x-7)(x+2) = 0। সুতরাং, x = 7 অথবা x = -2। যেহেতু x ∈ N (স্বাভাবিক সংখ্যা), তাই x = 7 গ্রহণযোগ্য। অতএব, A = {7}।"
+    "answer": "A",
+    "explanation": "বান্দা আচেহ ইন্দোনেশিয়ার সুমাত্রা দ্বীপের উত্তর প্রান্তে অবস্থিত আচেহ প্রদেশের রাজধানী। ২০০৪ সালের সুনামিতে এটি মারাত্মকভাবে ক্ষতিগ্রস্ত হয়েছিল।"
   },
   {
-    "id": 86,
+    "id": 81,
     "question": "ফেসবুকের সদর দফতর :",
     "options": {
       "A": "সিয়াটল",
@@ -968,11 +968,11 @@
       "C": "ওয়াশিংটন",
       "D": "নিউইয়র্ক"
     },
-    "answer": "A",
-    "explanation": "চার্লসের সূত্র অনুযায়ী, স্থির চাপে নির্দিষ্ট ভরের যেকোনো গ্যাসের আয়তন তার পরম তাপমাত্রার সমানুপাতিক। অর্থাৎ V ∝ T।"
+    "answer": "B",
+    "explanation": "ফেসবুকের (বর্তমান নাম মেটা প্ল্যাটফর্মস) সদর দপ্তর মার্কিন যুক্তরাষ্ট্রের ক্যালিফোর্নিয়া রাজ্যের মেনলো পার্কে অবস্থিত।"
   },
   {
-    "id": 87,
+    "id": 82,
     "question": "'ভিক্টোরিয়া ডিজার্ট' কোথায় অবস্থিত?",
     "options": {
       "A": "কানাডা",
@@ -980,11 +980,11 @@
       "C": "নর্থ আমেরিকা",
       "D": "অস্ট্রেলিয়া"
     },
-    "answer": "A",
-    "explanation": "সোডিয়াম ক্লোরাইড বা খাবার লবণের কেলাস পৃষ্ঠতল-কেন্দ্রিক ঘনকাকৃতির (Face-Centered Cubic, FCC) ল্যাটিস কাঠামো গঠন করে।"
+    "answer": "D",
+    "explanation": "গ্রেট ভিক্টোরিয়া মরুভূমি অস্ট্রেলিয়ার বৃহত্তম মরুভূমি, যা পশ্চিম অস্ট্রেলিয়া ও দক্ষিণ অস্ট্রেলিয়া রাজ্য জুড়ে বিস্তৃত।"
   },
   {
-    "id": 88,
+    "id": 83,
     "question": "কোনটি প্রাচীন সভ্যতা?",
     "options": {
       "A": "গ্রিস",
@@ -992,11 +992,11 @@
       "C": "রোম",
       "D": "সিন্ধু"
     },
-    "answer": "C",
-    "explanation": "যে সকল দূষক সরাসরি উৎস থেকে বায়ুমণ্ডলে নির্গত হয়, তাদের প্রাইমারি দূষক বলে। নাইট্রিক অক্সাইড (NO) যানবাহন ও শিল্পকারখানা থেকে সরাসরি নির্গত হয়। অন্যগুলো সেকেন্ডারি দূষক, যা প্রাইমারি দূষকের রাসায়নিক বিক্রিয়ার ফলে সৃষ্টি হয়।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 89,
+    "id": 84,
     "question": "তিব্বত একটি-",
     "options": {
       "A": "উপত্যকা",
@@ -1004,11 +1004,11 @@
       "C": "দ্বীপ",
       "D": "মরুভুমি"
     },
-    "answer": "D",
-    "explanation": "HPLC-এর পূর্ণরূপ হলো High-Performance Liquid Chromatography। এটি রসায়নে মিশ্রণের উপাদান পৃথকীকরণ, শনাক্তকরণ ও পরিমাণ নির্ণয়ের জন্য ব্যবহৃত একটি শক্তিশালী বিশ্লেষণাত্মক কৌশল।"
+    "answer": "A",
+    "explanation": "তিব্বত একটি বিশাল উঁচু মালভূমি, যা পর্বত দ্বারা বেষ্টিত। তাই একে উপত্যকা হিসেবেও অভিহিত করা যায়। তবে সবচেয়ে সঠিক পরিচয় হলো এটি একটি মালভূমি। প্রদত্ত বিকল্পগুলোর মধ্যে 'উপত্যকা' সবচেয়ে কাছাকাছি।"
   },
   {
-    "id": 90,
+    "id": 85,
     "question": "'Elephant Pass' অবস্থিত?",
     "options": {
       "A": "থাইল্যান্ড",
@@ -1016,11 +1016,11 @@
       "C": "শ্রীলঙ্কা",
       "D": "মালয়শিয়া"
     },
-    "answer": "A",
-    "explanation": "সিরামিক মূলত কাদামাটি, ফেলস্পার এবং সিলিকা বা সিলিকন ডাইঅক্সাইড (SiO₂) এর মিশ্রণ থেকে তৈরি হয়। সিলিকা সিরামিকের কাঠামোগত দৃঢ়তা প্রদান করে।"
+    "answer": "C",
+    "explanation": "এলিফ্যান্ট পাস শ্রীলঙ্কার উত্তরাঞ্চলীয় প্রদেশের একটি গুরুত্বপূর্ণ সংযোগ-পথ, যা জাফনা উপদ্বীপকে মূল ভূখণ্ডের সাথে যুক্ত করেছে।"
   },
   {
-    "id": 91,
+    "id": 86,
     "question": "কোন দেশটি ইউরোপীয় ইউনিয়নের সদস্য নয়?",
     "options": {
       "A": "সাইপ্রাস",
@@ -1029,10 +1029,10 @@
       "D": "মাল্টা"
     },
     "answer": "B",
-    "explanation": "জিঙ্ক অক্সাইড (ZnO) এবং টাইটানিয়াম ডাইঅক্সাইড (TiO₂) এর ন্যানো পার্টিকেল সানস্ক্রিন লোশনে ব্যবহৃত হয়, কারণ এরা সূর্যের ক্ষতিকর অতিবেগুনি (UV) রশ্মি শোষণ ও প্রতিফলন করতে পারে।"
+    "explanation": "আলজেরিয়া উত্তর আফ্রিকার একটি দেশ এবং ইউরোপীয় ইউনিয়নের সদস্য নয়। সাইপ্রাস, এস্তোনিয়া এবং মাল্টা ইউরোপীয় ইউনিয়নের সদস্য রাষ্ট্র।"
   },
   {
-    "id": 92,
+    "id": 87,
     "question": "কোন নদীটির উৎপত্তিস্থান বাংলাদেশে?",
     "options": {
       "A": "কর্ণফুলি",
@@ -1040,11 +1040,11 @@
       "C": "মেঘনা",
       "D": "হালদা"
     },
-    "answer": "C",
-    "explanation": "মানুষের প্রতিটি দেহকোষে ২৩ জোড়া বা ৪৬টি ক্রোমোজোম থাকে। এর মধ্যে ২২ জোড়া অটোজোম এবং ১ জোড়া সেক্স ক্রোমোজোম।"
+    "answer": "D",
+    "explanation": "হালদা নদী বাংলাদেশের খাগড়াছড়ি জেলার বাদনাতলী পর্বতশৃঙ্গ থেকে উৎপন্ন হয়ে চট্টগ্রামের কর্ণফুলী নদীতে পতিত হয়েছে। এটি বাংলাদেশের অভ্যন্তরীণ নদীগুলোর মধ্যে অন্যতম।"
   },
   {
-    "id": 93,
+    "id": 88,
     "question": "পানিতে দ্রবীভূত অক্সিজেন কোথায় অবস্থান করে?",
     "options": {
       "A": "পানির উপরিভাগে",
@@ -1052,11 +1052,11 @@
       "C": "পানির আন্তঃআণবিক স্থানে",
       "D": "পানির তলদেশে"
     },
-    "answer": "A",
-    "explanation": "একটি আদর্শ সুষম খাদ্যের তালিকায় শর্করা, আমিষ এবং স্নেহ বা চর্বি জাতীয় খাদ্যের অনুপাত সাধারণত ৪:১:১ হওয়া উচিত।"
+    "answer": "C",
+    "explanation": "পানিতে দ্রবীভূত অক্সিজেন (Dissolved Oxygen) পানির অণুগুলোর (H₂O) মধ্যবর্তী ফাঁকা স্থানে বা আন্তঃআণবিক স্থানে অবস্থান করে।"
   },
   {
-    "id": 94,
+    "id": 89,
     "question": "গ্রীন হাউস গ্যাসের কোন গ্যাস বর্তমানে বৃদ্ধি পাচ্ছে না?",
     "options": {
       "A": "কার্বন ডাইঅক্সাইড",
@@ -1064,11 +1064,11 @@
       "C": "সিএফসি",
       "D": "নাইট্রাস অক্সাইড"
     },
-    "answer": "A",
-    "explanation": "ABO ব্লাড গ্রুপ সিস্টেম অনুযায়ী মানুষের রক্তের প্রধান গ্রুপ চারটি: A, B, AB, এবং O।"
+    "answer": "C",
+    "explanation": "১৯৮৭ সালের মন্ট্রিল প্রটোকলের মাধ্যমে ওজোন স্তর ক্ষয়কারী সিএফসি (ক্লোরোফ্লুরোকার্বন) গ্যাসের উৎপাদন ও ব্যবহার বিশ্বব্যাপী নিষিদ্ধ করা হয়েছে। ফলে বায়ুমণ্ডলে এর পরিমাণ হ্রাস পাচ্ছে বা স্থিতিশীল রয়েছে, বৃদ্ধি পাচ্ছে না।"
   },
   {
-    "id": 95,
+    "id": 90,
     "question": "বাংলাদেশে সিডর কখন আঘাত হানে?",
     "options": {
       "A": "১৫ নভেম্বর ২০০৭",
@@ -1077,10 +1077,10 @@
       "D": "১৮ নভেম্বর ২০০৭"
     },
     "answer": "A",
-    "explanation": "আর্সেনিক (As) একটি রাসায়নিক মৌল যার পারমাণবিক সংখ্যা বা প্রোটন সংখ্যা হলো ৩৩।"
+    "explanation": "প্রলয়ংকারী ঘূর্ণিঝড় 'সিডর' ২০০৭ সালের ১৫ নভেম্বর সন্ধ্যায় বাংলাদেশের উপকূলীয় অঞ্চলে আঘাত হানে, যার ফলে ব্যাপক প্রাণহানি ও ক্ষয়ক্ষতি হয়।"
   },
   {
-    "id": 96,
+    "id": 91,
     "question": "বাংলাদেশের অর্থনৈতিক সমুদ্রসীমা কত নটিক্যাল মাইল?",
     "options": {
       "A": "১৫০ নটিক্যাল মাইল",
@@ -1088,11 +1088,11 @@
       "C": "২৫০ নটিক্যাল মাইল",
       "D": "৩০০ নটিক্যাল মাইল"
     },
-    "answer": "A",
-    "explanation": "ট্যাকোমিটার হলো এমন একটি যন্ত্র যা কোনো কিছুর ঘূর্ণন গতি (যেমন ইঞ্জিনের RPM) পরিমাপ করে। উড়োজাহাজের ইঞ্জিনের গতি পরিমাপে এটি ব্যবহৃত হয়। অ্যালটিমিটার উচ্চতা মাপে।"
+    "answer": "B",
+    "explanation": "আন্তর্জাতিক সমুদ্র আইন অনুযায়ী, একটি দেশের উপকূল থেকে ২০০ নটিক্যাল মাইল পর্যন্ত এলাকাকে তার একচেটিয়া অর্থনৈতিক অঞ্চল (Exclusive Economic Zone - EEZ) হিসেবে গণ্য করা হয়।"
   },
   {
-    "id": 97,
+    "id": 92,
     "question": "নিচের কোনটি বাংলাদেশের সর্ববৃহৎ গ্যাস ক্ষেত্র?",
     "options": {
       "A": "বাখরাবাদ",
@@ -1100,11 +1100,11 @@
       "C": "তিতাস",
       "D": "হবিগঞ্জ"
     },
-    "answer": "A",
-    "explanation": "টেলিভিশন সম্প্রচারে ছবি ও শব্দ পাঠানোর জন্য বাহক তরঙ্গ হিসেবে বিভিন্ন কম্পাঙ্কের রেডিও ওয়েভ (বেতার তরঙ্গ) ব্যবহার করা হয়।"
+    "answer": "C",
+    "explanation": "ব্রাহ্মণবাড়িয়া জেলায় অবস্থিত তিতাস গ্যাসক্ষেত্রটি মজুদের দিক থেকে বাংলাদেশের সর্ববৃহৎ গ্যাসক্ষেত্র।"
   },
   {
-    "id": 98,
+    "id": 93,
     "question": "ভূমিকম্প সংঘটন বিন্দুর সরাসরি উপরে ভূপৃষ্ঠস্থ বিন্দুকে বলে –",
     "options": {
       "A": "ফোকাস",
@@ -1112,11 +1112,11 @@
       "C": "ফ্রাকচার",
       "D": "ফল্ট"
     },
-    "answer": "D",
-    "explanation": "ওলন্দাজ বিজ্ঞানী অ্যান্টনি ভন লিউয়েনহুক সর্বপ্রথম নিজের তৈরি অণুবীক্ষণ যন্ত্রের মাধ্যমে ব্যাকটেরিয়া ও অন্যান্য অণুজীব পর্যবেক্ষণ করেন, তাই তাকে অণুজীববিজ্ঞানের জনক বলা হয়।"
+    "answer": "B",
+    "explanation": "ভূ-অভ্যন্তরে যে স্থানে ভূমিকম্পের উৎপত্তি হয় তাকে কেন্দ্র বা ফোকাস (Focus) বলে। ফোকাসের ঠিক সোজাসুজি উপরে ভূপৃষ্ঠের বিন্দুটিকে উপকেন্দ্র বা এপিসেন্টার (Epicenter) বলে।"
   },
   {
-    "id": 99,
+    "id": 94,
     "question": "বিশ্বব্যাপী নিচের কোন অর্থনৈতিক খাত থেকে সবচাইতে বেশি গ্রিন হাউজ গ্যাস নির্গত হয়?",
     "options": {
       "A": "পরিবহন",
@@ -1125,10 +1125,10 @@
       "D": "শিল্প"
     },
     "answer": "B",
-    "explanation": "বাতাসে থাকা অক্সিজেন (O₂) অণুর অযুগ্ম ইলেকট্রন থাকায় এটি দুর্বলভাবে চুম্বক ক্ষেত্র দ্বারা আকর্ষিত হয়। এই ধর্মকে প্যারাচুম্বকত্ব বলা হয়। তাই বাতাস একটি প্যারাচুম্বকীয় পদার্থ।"
+    "explanation": "আন্তর্জাতিক শক্তি সংস্থার (IEA) তথ্যমতে, বিদ্যুৎ ও তাপ উৎপাদন খাত বিশ্বব্যাপী গ্রিনহাউস গ্যাস নির্গমনের সবচেয়ে বড় উৎস, কারণ এই খাতে সর্বাধিক জীবাশ্ম জ্বালানি (কয়লা, গ্যাস) পোড়ানো হয়।"
   },
   {
-    "id": 100,
+    "id": 95,
     "question": "উত্তর গোলার্ধে ক্রান্তীয় ঘূর্ণিঝড়ের বায়ু প্রবাহিত হয়-",
     "options": {
       "A": "ঘড়ির কাটার দিকে",
@@ -1136,11 +1136,11 @@
       "C": "সোজা",
       "D": "কোনটাই সঠিক নয়"
     },
-    "answer": "D",
-    "explanation": "দৃশ্যমান বিশ্বব্রহ্মাণ্ডের মোট ভরের প্রায় ৭৫% হলো হাইড্রোজেন। এটিই মহাবিশ্বের সবচেয়ে সহজলভ্য ও فراوانতম মৌল।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 102,
+    "id": 96,
     "question": "যদি ∶∶ এবং ∶∶ হয়, তবে ∶∶",
     "options": {
       "A": "6 : 9 : 14",
@@ -1148,11 +1148,11 @@
       "C": "2 : 5 : 7",
       "D": "3 : 5 : 7"
     },
-    "answer": "A",
-    "explanation": "ALU (Arithmetic Logic Unit) গাণিতিক ও যৌক্তিক কাজ সম্পাদনের পর তার ফলাফল সাময়িকভাবে সংরক্ষণের জন্য অ্যাকুমুলেটর রেজিস্টার (Accumulator Register) ব্যবহার করে।"
+    "answer": "B",
+    "explanation": "x : y = 2 : 3 = (2×5) : (3×5) = 10 : 15। y : z = 5 : 7 = (5×3) : (7×3) = 15 : 21। সুতরাং, x : y : z = 10 : 15 : 21।"
   },
   {
-    "id": 103,
+    "id": 97,
     "question": "জাহিদ সাহেবের বেতন 10% কমানোর পর হ্রাসকৃত বেতন 10% বাড়ানো হলে তার কতটুকু ক্ষতি হল?",
     "options": {
       "A": "0%",
@@ -1160,11 +1160,11 @@
       "C": "5%",
       "D": "10%"
     },
-    "answer": "C",
-    "explanation": "DBMS-এর পূর্ণরূপ হলো Database Management System। এটি ডেটাবেস তৈরি, পরিচালনা, নিয়ন্ত্রণ ও ব্যবহারের জন্য ব্যবহৃত সফটওয়্যার।"
+    "answer": "B",
+    "explanation": "ধরি, প্রাথমিক বেতন ১০০ টাকা। ১০% কমানোর পর বেতন হয় ৯০ টাকা। হ্রাসকৃত বেতন ১০% বাড়ালে নতুন বেতন হয় ৯০ + (৯০ এর ১০%) = ৯০ + ৯ = ৯৯ টাকা। মোট ক্ষতি = ১০০ - ৯৯ = ১ টাকা। শতকরা ক্ষতি = (১/১০০ × ১০০)% = ১%।"
   },
   {
-    "id": 104,
+    "id": 98,
     "question": "সমীকরণে  ও  এর মান কত হলে সমীকরণটি অভেদ হবে?",
     "options": {
       "A": "3,10",
@@ -1172,11 +1172,11 @@
       "C": "15, 25",
       "D": "10, 25"
     },
-    "answer": "B",
-    "explanation": "2 কিলোবাইট = 2 × 1024 বাইট = 2048 বাইট। আমরা জানি, 2¹⁰ = 1024 এবং 2¹¹ = 2048। সুতরাং, 2048টি ভিন্ন মেমোরি লোকেশনকে অ্যাড্রেস করার জন্য 11টি অ্যাড্রেস লাইন প্রয়োজন।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 106,
+    "id": 99,
     "question": "এবং  হলে  এর মান কত?",
     "options": {
       "A": "8",
@@ -1184,11 +1184,11 @@
       "C": "19",
       "D": "34"
     },
-    "answer": "C",
-    "explanation": "এম্বেডেড সিস্টেম (যেমন: স্মার্টফোন, ওয়াশিং মেশিন) সাধারণত কম শক্তি খরচ করে এবং স্থায়ীভাবে ডেটা সংরক্ষণের জন্য ফ্লাশ মেমোরি (যেমন: ROM, EEPROM) ব্যবহার করে। RAM ব্যবহৃত হলেও, প্রধান অপারেটিং সিস্টেম ও প্রোগ্রাম ফ্লাশ মেমোরিতে থাকে।"
+    "answer": "D",
+    "explanation": "বাহুগুলো হলো k, 2√2k, এবং 3k। পিথাগোরাসের উপপাদ্য পরীক্ষা করি: (k)² + (2√2k)² = k² + 8k² = 9k² = (3k)²। যেহেতু ক্ষুদ্রতর দুই বাহুর বর্গের যোগফল বৃহত্তম বাহুর বর্গের সমান, এটি একটি সমকোণী ত্রিভুজ। বৃহত্তম কোণটি (অতিভুজের বিপরীত কোণ) ৯০°।"
   },
   {
-    "id": 108,
+    "id": 100,
     "question": "হলে  এর মান কত?",
     "options": {
       "A": "2",
@@ -1196,11 +1196,11 @@
       "C": "4",
       "D": "6"
     },
-    "answer": "D",
-    "explanation": "গুগলের পাবলিক ডিএনএস (Domain Name System) সার্ভারের প্রাইমারি আইপি অ্যাড্রেস হলো 8.8.8.8 এবং সেকেন্ডারি অ্যাড্রেস হলো 8.8.4.4।"
+    "answer": "B",
+    "explanation": "2ˣ⁺⁷ = (2²)ˣ⁺² => 2ˣ⁺⁷ = 2²ˣ⁺⁴।ভিত্তি সমান হওয়ায়, x + 7 = 2x + 4 => 2x - x = 7 - 4 => x = 3।"
   },
   {
-    "id": 109,
+    "id": 101,
     "question": ",-….. ধারাটির পঞ্চম পদ কত?",
     "options": {
       "A": "",
@@ -1208,11 +1208,11 @@
       "C": "",
       "D": ""
     },
-    "answer": "C",
-    "explanation": "ফায়ারওয়াল একটি নেটওয়ার্ক নিরাপত্তা ব্যবস্থা যা পূর্ব-নির্ধারিত নিরাপত্তা নিয়ম অনুযায়ী একটি বিশ্বস্ত নেটওয়ার্কে আগত ও বহির্গামী ট্র্যাফিক পর্যবেক্ষণ ও নিয়ন্ত্রণ করে অননুমোদিত প্রবেশ রোধ করে।"
+    "answer": "D",
+    "explanation": "এটি একটি গুণোত্তর ধারা। সাধারণ অনুপাত r = (-1) / (1/√3) = -√3।পঞ্চম পদ = ar⁴ = (1/√3) × (-√3)⁴ = (1/√3) × 9 = 9/√3 = (3×3)/√3 = 3√3।"
   },
   {
-    "id": 114,
+    "id": 102,
     "question": "0, 1, 2, 3, 4 অংকগুলি দ্বারা কতগুলি পাঁচ অংকের অর্থপূর্ণ সংখ্যা গঠন করা যাবে?",
     "options": {
       "A": "96",
@@ -1220,11 +1220,11 @@
       "C": "24",
       "D": "144"
     },
-    "answer": "C",
-    "explanation": "NAND এবং NOR গেইটকে সার্বজনীন বা Universal Logic Gate বলা হয়, কারণ শুধুমাত্র NAND বা শুধুমাত্র NOR গেইট ব্যবহার করে অন্য সব মৌলিক গেইট (AND, OR, NOT) বাস্তবায়ন করা যায়।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 116,
+    "id": 103,
     "question": "কোন সংখ্যাটি পরে আসবে? ৮৪২১ ১২ ১৪",
     "options": {
       "A": "১৮",
@@ -1232,11 +1232,11 @@
       "C": "১৫",
       "D": "১৬"
     },
-    "answer": "A",
-    "explanation": "এটি একটি গুণোত্তর ধারা, যেখানে প্রতিটি পদ তার পূর্ববর্তী পদের অর্ধেক (বা ১/২ দ্বারা গুণ)। ৪ এর অর্ধেক ২, ২ এর অর্ধেক ১, ... ১/৪ এর অর্ধেক হবে ১/৮।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 117,
+    "id": 104,
     "question": "কাগজের প্রতি পাতা বিক্রি হয় ২১ পয়সায়। চার পাতা কত পয়সায় বিক্রি হবে?",
     "options": {
       "A": "৪ পয়সা",
@@ -1248,7 +1248,7 @@
     "explanation": "প্রতি পাতা বা ১ পাতার দাম ২১ পয়সা। সুতরাং, ৪ পাতার দাম হবে ২১ × ৪ = ৮৪ পয়সা।"
   },
   {
-    "id": 118,
+    "id": 105,
     "question": "মনে কর প্রথম দুটি উক্তি সত্য। তবে শেষের উক্তিটি-",
     "options": {
       "A": "সত্য",
@@ -1260,7 +1260,7 @@
     "explanation": "এটি একটি অবরোহী যুক্তি (Deductive Reasoning)। প্রথম দুটি আশ্রয়বাক্য (Premise) সত্য হলে সিদ্ধান্তটি (Conclusion) যৌক্তিকভাবে সত্য হতে বাধ্য। যেহেতু সকল মাছ পানিতে ভাসে এবং রুই একটি মাছ, সেহেতু রুই অবশ্যই পানিতে ভাসে।"
   },
   {
-    "id": 119,
+    "id": 106,
     "question": "কোন সংখ্যাটি নিম্নের শ্রেণিতে সবচাইতে স্বল্প পরিমাণ উপস্থাপন করে?",
     "options": {
       "A": "৭",
@@ -1268,11 +1268,11 @@
       "C": ".৩৩",
       "D": ".৩১"
     },
-    "answer": "D",
-    "explanation": "প্রদত্ত সংখ্যাগুলোর মধ্যে ০.৩১ হলো সবচেয়ে ছোট বা স্বল্প পরিমাণ।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 120,
+    "id": 107,
     "question": "যখন প্রতি ফুট দড়ি ১০ টাকায় বিক্রি হয়, তখন ৬০ টাকায় তুমি কত ফুট দড়ি ক্রয় করতে পারবে?",
     "options": {
       "A": "৮ ফুট",
@@ -1284,7 +1284,7 @@
     "explanation": "১০ টাকায় পাওয়া যায় ১ ফুট দড়ি। সুতরাং, ৬০ টাকায় পাওয়া যাবে ৬০ ÷ ১০ = ৬ ফুট দড়ি।"
   },
   {
-    "id": 122,
+    "id": 108,
     "question": "নিম্নলিখিত সংখ্যা শ্রেণির সর্বশেষ সংখ্যার পরের সংখ্যাটি কত হবে? ১ ২ ৪ ৭ ১১ ?",
     "options": {
       "A": "১৪",
@@ -1296,7 +1296,7 @@
     "explanation": "ধারাটির পদগুলোর মধ্যে পার্থক্য ক্রমান্বয়ে বাড়ছে: +১, +২, +৩, +৪। পরবর্তী পার্থক্য হবে +৫। সুতরাং, পরের সংখ্যাটি হবে ১১ + ৫ = ১৬।"
   },
   {
-    "id": 124,
+    "id": 109,
     "question": "নোবেল বিজয়ী নারী কয়জন?",
     "options": {
       "A": "৫০ জন",
@@ -1308,7 +1308,7 @@
     "explanation": "২০২৩ সাল পর্যন্ত নোবেল পুরস্কার বিজয়ী নারীর সংখ্যা ৬৪ জন। সঠিক উত্তর বিকল্পে না থাকায় প্রশ্নটি বাতিলযোগ্য।"
   },
   {
-    "id": 125,
+    "id": 110,
     "question": "যদি চ ৪২ হয় তবে  ট = ?",
     "options": {
       "A": "১২০",
@@ -1320,7 +1320,7 @@
     "explanation": "বাংলা বর্ণমালায় চ-এর অবস্থান ৬ষ্ঠ এবং ইংরেজি বর্ণমালায় G-এর অবস্থান ৭ম। ৬ × ৭ = ৪২। একইভাবে, ইংরেজি J-এর অবস্থান ১০ম এবং বাংলা ট-এর অবস্থান ১১তম। সুতরাং, ১০ × ১১ = ১১০।"
   },
   {
-    "id": 126,
+    "id": 111,
     "question": "ROSE এর আয়নায় প্রতিবিম্ব কোনটি হবে?",
     "options": {
       "A": "",
@@ -1332,7 +1332,7 @@
     "explanation": "আয়নায় প্রতিবিম্ব দেখলে বস্তুর পার্শ্ব পরিবর্তন ঘটে, অর্থাৎ ডান-বাম উল্টে যায়। এই নিয়ম অনুযায়ী 'ROSE' শব্দটির সঠিক প্রতিবিম্ব হবে বিকল্প (গ) তে দেখানো চিত্রটি।"
   },
   {
-    "id": 128,
+    "id": 112,
     "question": "একটি ট্রেন ১৫ সেকেন্ডে চলে ২০ ফুট। একই দ্রুততায় ট্রেনটি ৩ সেকেন্ডে কত ফুট চলবে?",
     "options": {
       "A": "১০০ ফুট",
@@ -1344,7 +1344,7 @@
     "explanation": "ট্রেনটি ১/৫ সেকেন্ডে চলে ২০ ফুট।সুতরাং, ১ সেকেন্ডে চলে ২০ ÷ (১/৫) = ২০ × ৫ = ১০০ ফুট।অতএব, ৩ সেকেন্ডে চলবে ১০০ × ৩ = ৩০০ ফুট।"
   },
   {
-    "id": 129,
+    "id": 113,
     "question": "যাদের বুদ্ধ্যঙ্ক ১৪০ বা তার ঊর্ধ্বে তাদের বলা হয়-",
     "options": {
       "A": "অতিশয় প্রতিভাশালী",
@@ -1356,7 +1356,7 @@
     "explanation": "মনোবিজ্ঞানে ব্যবহৃত বুদ্ধ্যাঙ্ক (IQ) স্কেল অনুযায়ী, ১৪০ বা তার বেশি স্কোরধারীদের Genius বা অতিশয় প্রতিভাশালী হিসেবে বিবেচনা করা হয়।"
   },
   {
-    "id": 130,
+    "id": 114,
     "question": "RESENT, RESERVE- এই শব্দগুলো কী?",
     "options": {
       "A": "একই অর্থে",
@@ -1364,11 +1364,11 @@
       "C": "না এক না ভিন্ন অর্থ",
       "D": "কোনোটিই নয়"
     },
-    "answer": "B",
-    "explanation": "'Resent' অর্থ বিরক্ত বা অসন্তুষ্ট হওয়া। 'Reserve' অর্থ সংরক্ষণ করা বা ধরে রাখা। শব্দ দুটির অর্থ সম্পূর্ণ ভিন্ন এবং প্রায় বিপরীত ভাব প্রকাশ করে।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 131,
+    "id": 115,
     "question": "ভালো-মন্দ কোন ধরনের মূল্যবোধ?",
     "options": {
       "A": "নৈতিক",
@@ -1376,11 +1376,11 @@
       "C": "রাজনৈতিক",
       "D": "সামাজিক"
     },
-    "answer": "D",
-    "explanation": "ব্রিটিশ শাসন অবসানের লক্ষ্যে মহাত্মা গান্ধীর নেতৃত্বে ১৯৪২ সালের আগস্ট মাসে সর্বভারতীয় কংগ্রেস কমিটির বোম্বে অধিবেশনে 'ভারত ছাড়' (Quit India) আন্দোলনের প্রস্তাব গৃহীত হয়।"
+    "answer": "A",
+    "explanation": "নৈতিকতা বা নীতিবিদ্যা ভালো-মন্দ, ন্যায়-অন্যায়, উচিত-অনুচিত ইত্যাদি বিষয় নিয়ে আলোচনা করে। তাই ভালো-মন্দ বিচার নৈতিক মূল্যবোধের অন্তর্ভুক্ত।"
   },
   {
-    "id": 132,
+    "id": 116,
     "question": "সুশাসনের পূর্বশর্ত কী?",
     "options": {
       "A": "নিরপেক্ষ আইন ব্যবস্থা",
@@ -1388,11 +1388,11 @@
       "C": "প্রশাসনের নিরপেক্ষতা",
       "D": "মত প্রকাশের স্বাধীনতা"
     },
-    "answer": "C",
-    "explanation": "১৯৫২ সালের ৩১ জানুয়ারি ঢাকার বার লাইব্রেরিতে মওলানা ভাসানীর সভাপতিত্বে অনুষ্ঠিত এক সভায় 'সর্বদলীয় রাষ্ট্রভাষা সংগ্রাম কমিটি' গঠিত হয়। এর আহ্বায়ক ছিলেন কাজী গোলাম মাহবুব।"
+    "answer": "D",
+    "explanation": "মত প্রকাশের স্বাধীনতা এবং তথ্যের অবাধ প্রবাহ নিশ্চিত হলে সরকার ও প্রশাসনের স্বচ্ছতা ও জবাবদিহিতা বৃদ্ধি পায়, যা সুশাসনের একটি অপরিহার্য পূর্বশর্ত।"
   },
   {
-    "id": 133,
+    "id": 117,
     "question": "'Utilitarianism' গ্রন্হের লেখক কে?",
     "options": {
       "A": "জন স্টুয়ার্ট মিল",
@@ -1401,10 +1401,10 @@
       "D": "জেরেমি বেন্হাম"
     },
     "answer": "A",
-    "explanation": "বাংলাদেশ সংবিধানের ৭২(১) অনুচ্ছেদ অনুযায়ী, মহামান্য রাষ্ট্রপতি সংসদের অধিবেশন আহ্বান, স্থগিত ও ভঙ্গ করার ক্ষমতার অধিকারী।"
+    "explanation": "'Utilitarianism' (উপযোগবাদ) গ্রন্থটি ব্রিটিশ দার্শনিক জন স্টুয়ার্ট মিল ১৮৬৩ সালে রচনা করেন। তিনি এই গ্রন্থে জেরেমি বেন্থামের উপযোগবাদকে আরও পরিমার্জিত রূপ দেন।"
   },
   {
-    "id": 134,
+    "id": 118,
     "question": "সুশাসন প্রত্যয়টির উদ্ভাবক কে?",
     "options": {
       "A": "ইউরোপীয় ইউনিয়ন",
@@ -1412,11 +1412,11 @@
       "C": "বিশ্বব্যাংক",
       "D": "জাতিসংঘ"
     },
-    "answer": "B",
-    "explanation": "বঙ্গবন্ধু ১৯৬৬ সালের ৫-৬ ফেব্রুয়ারি লাহোরে বিরোধী দলগুলোর সম্মেলনে প্রথম ছয় দফা উত্থাপন করেন। পরবর্তীতে ২৩ মার্চ লাহোরে এক সংবাদ সম্মেলনে আনুষ্ঠানিকভাবে তা ঘোষণা করেন।"
+    "answer": "D",
+    "explanation": "বিশ্বের ১৯টি বৃহৎ অর্থনীতির দেশ ও ইউরোপীয় ইউনিয়নের জোট G-20 এর ২০২২ সালের শীর্ষ সম্মেলন ইন্দোনেশিয়ার বালি দ্বীপে অনুষ্ঠিত হয়।"
   },
   {
-    "id": 135,
+    "id": 119,
     "question": "সহস্রাব্দ উন্নয়ন লক্ষ্য অর্জনে সুশাসনের কোন দিকটির উপর গুরুত্ব দেওয়া হয়েছে?",
     "options": {
       "A": "সামাজিক দিক",
@@ -1425,10 +1425,10 @@
       "D": "গণতান্ত্রিক দিক"
     },
     "answer": "B",
-    "explanation": "১৯৪৯ সালের ২৩ জুন ঢাকার রোজ গার্ডেনে প্রতিষ্ঠিত 'পূর্ব পাকিস্তান আওয়ামী মুসলিম লীগ'-এর সভাপতি ছিলেন মওলানা আবদুল হামিদ খান ভাসানী এবং সাধারণ সম্পাদক ছিলেন শামসুল হক।"
+    "explanation": "সহস্রাব্দ উন্নয়ন লক্ষ্যমাত্রা (MDG) মূলত দারিদ্র্য বিমোচন, শিক্ষা, স্বাস্থ্যসেবা ইত্যাদি আর্থ-সামাজিক উন্নয়নের উপর জোর দিয়েছিল। এই লক্ষ্যগুলো অর্জনে সুশাসনকে একটি কার্যকর মাধ্যম হিসেবে দেখা হয়েছিল, বিশেষ করে অর্থনৈতিক ব্যবস্থাপনার স্বচ্ছতা ও জবাবদিহিতার উপর।"
   },
   {
-    "id": 136,
+    "id": 120,
     "question": "'জ্ঞান হয়ে পুণ্য'- এই উক্তিটি কার?",
     "options": {
       "A": "থেলিস",
@@ -1437,10 +1437,10 @@
       "D": "প্লেটো"
     },
     "answer": "B",
-    "explanation": "বাংলাদেশ সংবিধানের প্রথম ভাগের ৩য় অনুচ্ছেদে বলা হয়েছে: 'প্রজাতন্ত্রের রাষ্ট্রভাষা বাংলা'।"
+    "explanation": "গ্রিক দার্শনিক সক্রেটিসের বিখ্যাত উক্তি হলো 'Virtue is knowledge' বা 'সদ্গুণই জ্ঞান'। তিনি বিশ্বাস করতেন যে, মানুষ যদি জানে কোনটি সঠিক, তবে সে সঠিক কাজটিই করবে।"
   },
   {
-    "id": 137,
+    "id": 121,
     "question": "নৈতিকতা ও সততা দ্বারা প্রভাবিত আচরণগত উৎকর্ষকে কী বলে?",
     "options": {
       "A": "শুদ্ধাচার",
@@ -1448,11 +1448,11 @@
       "C": "মানবিকতা",
       "D": "সফলতা"
     },
-    "answer": "B",
-    "explanation": "সংবিধানের পঞ্চদশ সংশোধনীর মাধ্যমে পঞ্চম তফসিলে জাতির পিতা বঙ্গবন্ধু শেখ মুজিবুর রহমানের ১৯৭১ সালের ৭ মার্চের ঐতিহাসিক ভাষণটি অন্তর্ভুক্ত করা হয়েছে।"
+    "answer": "A",
+    "explanation": "শুদ্ধাচার (Integrity) বলতে নৈতিকতা ও সততার নীতির প্রতি দৃঢ় adherence এবং এর দ্বারা প্রভাবিত আচরণগত উৎকর্ষকে বোঝায়।"
   },
   {
-    "id": 138,
+    "id": 122,
     "question": "মূল্যবোধের উৎস কোনটি?",
     "options": {
       "A": "ধর্ম",
@@ -1460,11 +1460,11 @@
       "C": "নৈতিক চেতনা",
       "D": "রাষ্ট্র"
     },
-    "answer": "D",
-    "explanation": "সংবিধানের ১০৪ অনুচ্ছেদ অনুযায়ী, বাংলাদেশের সুপ্রিম কোর্ট একটি 'কোর্ট অব রেকর্ড' (Court of Record) এবং এর অবমাননার জন্য তদন্ত ও দণ্ডদানের ক্ষমতা রয়েছে।"
+    "answer": "C",
+    "explanation": "ধর্ম, সমাজ, রাষ্ট্র ইত্যাদি মূল্যবোধের বাহ্যিক উৎস হলেও, মানুষের অভ্যন্তরীণ বিবেক বা নৈতিক চেতনাই হলো মূল্যবোধের মূল বা মৌলিক উৎস।"
   },
   {
-    "id": 139,
+    "id": 123,
     "question": "'শর্তহীন আদেশ' ধারণাটির প্রবর্তক কে?",
     "options": {
       "A": "অ্যারিস্টটল",
@@ -1472,11 +1472,11 @@
       "C": "হার্বাট স্পেন্সার",
       "D": "ইমানুয়েল কান্ট"
     },
-    "answer": "C",
-    "explanation": "বাংলাদেশ স্বাধীনতার পর থেকে মোট ৮টি পঞ্চবার্ষিক পরিকল্পনা গ্রহণ করেছে। অষ্টম পঞ্চবার্ষিক পরিকল্পনার মেয়াদ হলো জুলাই ২০২০ থেকে জুন ২০২৫।"
+    "answer": "D",
+    "explanation": "জার্মান দার্শনিক ইমানুয়েল কান্ট তার কর্তব্যমূলক নীতিবিদ্যায় 'শর্তহীন আদেশ' বা 'Categorical Imperative'-এর ধারণা দেন, যা কোনো শর্ত বা ফলাফলের উপর নির্ভর না করে নৈতিকভাবে বাধ্যতামূলক।"
   },
   {
-    "id": 140,
+    "id": 124,
     "question": "সুশাসনের মূলভিত্তি-",
     "options": {
       "A": "গণতন্ত্র",
@@ -1484,11 +1484,11 @@
       "C": "আইনের শাসন",
       "D": "মূল্যবোধ"
     },
-    "answer": "B",
-    "explanation": "বাংলাদেশের খুলনা, সাতক্ষীরা, বাগেরহাট, পটুয়াখালী ও বরগুনা—এই ৫টি জেলার সাথে সুন্দরবনের সীমানা রয়েছে।"
+    "answer": "C",
+    "explanation": "আইনের শাসন (Rule of Law) হলো সুশাসনের মূল ভিত্তি। এর অর্থ হলো, সকলেই আইনের অধীন এবং আইনের চোখে সমান। এটি ছাড়া স্বচ্ছতা, জবাবদিহিতা ও গণতন্ত্র অর্থহীন হয়ে পড়ে।"
   },
   {
-    "id": 142,
+    "id": 125,
     "question": "সোডিয়াম ক্লোরাইড  কেলাসের গঠন কীরূপ?",
     "options": {
       "A": "পৃষ্ঠতল কেন্দ্রিক ঘনকাকৃতির",
@@ -1497,10 +1497,10 @@
       "D": "সংঘবদ্ধ ষড়কৌণিক আকার"
     },
     "answer": "A",
-    "explanation": "২০২২ সালের ২ মার্চ তারিখে অনুষ্ঠিত মন্ত্রিসভার বৈঠকে 'জয় বাংলা' কে বাংলাদেশের জাতীয় স্লোগান হিসেবে অনুমোদন দেওয়া হয়।"
+    "explanation": "সোডিয়াম ক্লোরাইড বা খাবার লবণের কেলাস পৃষ্ঠতল-কেন্দ্রিক ঘনকাকৃতির (Face-Centered Cubic, FCC) ল্যাটিস কাঠামো গঠন করে।"
   },
   {
-    "id": 144,
+    "id": 126,
     "question": "HPLC এর পূর্ণরূপ কী?",
     "options": {
       "A": "High pressure liquid chromatography",
@@ -1508,11 +1508,11 @@
       "C": "High plant liquid chromatography",
       "D": "High performance liquid chromatography"
     },
-    "answer": "A",
-    "explanation": "জাতীয় রাজস্ব বোর্ড (NBR) করদাতাদের জন্য ইলেকট্রনিক ট্যাক্স আইডেন্টিফিকেশন নম্বর বা ই-টিআইএন (e-TIN) ব্যবস্থা ২০১৩ সালে চালু করে।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 147,
+    "id": 127,
     "question": "মানুষের দেহকোষে ক্রোমোজমের সংখ্যা-",
     "options": {
       "A": "৪৪টি",
@@ -1521,10 +1521,10 @@
       "D": "৪৮টি"
     },
     "answer": "C",
-    "explanation": "বাংলাদেশ বন গবেষণা ইনস্টিটিউট (BFRI) চট্টগ্রাম শহরের ষোলশহরে অবস্থিত।"
+    "explanation": "মানুষের প্রতিটি দেহকোষে ২৩ জোড়া বা ৪৬টি ক্রোমোজোম থাকে। এর মধ্যে ২২ জোড়া অটোজোম এবং ১ জোড়া সেক্স ক্রোমোজোম।"
   },
   {
-    "id": 148,
+    "id": 128,
     "question": "সুষম খাদ্যে শর্করা, আমিষ ও চর্বিজাতীয় খাদ্যের অনুপাত?",
     "options": {
       "A": "৪ : ১ : ১",
@@ -1532,11 +1532,11 @@
       "C": "৪ : ২ : ৩",
       "D": "৪ : ৩ : ২"
     },
-    "answer": "C",
-    "explanation": "বাংলাদেশ মৎস্য গবেষণা ইনস্টিটিউট (BFRI) এর সদর দপ্তর ময়মনসিংহে অবস্থিত।"
+    "answer": "A",
+    "explanation": "একটি আদর্শ সুষম খাদ্যের তালিকায় শর্করা, আমিষ এবং স্নেহ বা চর্বি জাতীয় খাদ্যের অনুপাত সাধারণত ৪:১:১ হওয়া উচিত।"
   },
   {
-    "id": 149,
+    "id": 129,
     "question": "মানুষের শরীরের রক্তের গ্রুপ কয়টি?",
     "options": {
       "A": "চারটি",
@@ -1544,11 +1544,11 @@
       "C": "তিনটি",
       "D": "দুইটি"
     },
-    "answer": "B",
-    "explanation": "প্রাকৃতিক গ্যাস বাংলাদেশের প্রধান খনিজ সম্পদ এবং শক্তির অন্যতম প্রধান উৎস। দেশের মোট বাণিজ্যিক জ্বালানির একটি বড় অংশ আসে প্রাকৃতিক গ্যাস থেকে।"
+    "answer": "A",
+    "explanation": "ABO ব্লাড গ্রুপ সিস্টেম অনুযায়ী মানুষের রক্তের প্রধান গ্রুপ চারটি: A, B, AB, এবং O।"
   },
   {
-    "id": 150,
+    "id": 130,
     "question": "আর্সেনিকের পারমাণবিক সংখ্যা কত?",
     "options": {
       "A": "৩৩",
@@ -1556,11 +1556,11 @@
       "C": "৩৬",
       "D": "৪৪"
     },
-    "answer": "C",
-    "explanation": "ইউরিয়া সার উৎপাদনের প্রধান কাঁচামাল হলো অ্যামোনিয়া ও কার্বন ডাইঅক্সাইড। অ্যামোনিয়া তৈরি করা হয় প্রাকৃতিক গ্যাস (যার প্রধান উপাদান মিথেন) থেকে। তাই মূল কাঁচামাল হিসেবে প্রাকৃতিক গ্যাস বা মিথেন গ্যাস উভয়ই সঠিক। তবে মিথেন গ্যাস অধিকতর সুনির্দিষ্ট উত্তর।"
+    "answer": "A",
+    "explanation": "আর্সেনিক (As) একটি রাসায়নিক মৌল যার পারমাণবিক সংখ্যা বা প্রোটন সংখ্যা হলো ৩৩।"
   },
   {
-    "id": 151,
+    "id": 131,
     "question": "উড়োজাহাজের গতি নির্ণায়ক যন্ত্রের নাম কী?",
     "options": {
       "A": "ট্যাকোমিটার",
@@ -1568,11 +1568,11 @@
       "C": "ওডোমিটার",
       "D": "অডিওমিটার"
     },
-    "answer": "D",
-    "explanation": "সংবিধান প্রণয়ন বা সংশোধন করা আইনসভার (জাতীয় সংসদ) কাজ। বিচার বিভাগের কাজ হলো আইন ও সংবিধানের ব্যাখ্যা প্রদান এবং আইন প্রয়োগ করা।"
+    "answer": "A",
+    "explanation": "ট্যাকোমিটার হলো এমন একটি যন্ত্র যা কোনো কিছুর ঘূর্ণন গতি (যেমন ইঞ্জিনের RPM) পরিমাপ করে। উড়োজাহাজের ইঞ্জিনের গতি পরিমাপে এটি ব্যবহৃত হয়। অ্যালটিমিটার উচ্চতা মাপে।"
   },
   {
-    "id": 152,
+    "id": 132,
     "question": "টেলিভিশনে যে তরঙ্গ ব্যবহৃত হয় –",
     "options": {
       "A": "রেডিও ওয়েভ",
@@ -1580,11 +1580,11 @@
       "C": "আলট্রা ভায়োলেট",
       "D": "দৃশ্যমান রশ্মি"
     },
-    "answer": "C",
-    "explanation": "বাংলাদেশে পারিবারিক বিষয়াবলি সংক্রান্ত বিরোধ নিষ্পত্তির জন্য 'পারিবারিক আদালত অধ্যাদেশ, ১৯৮৫' জারি করা হয়।"
+    "answer": "A",
+    "explanation": "টেলিভিশন সম্প্রচারে ছবি ও শব্দ পাঠানোর জন্য বাহক তরঙ্গ হিসেবে বিভিন্ন কম্পাঙ্কের রেডিও ওয়েভ (বেতার তরঙ্গ) ব্যবহার করা হয়।"
   },
   {
-    "id": 153,
+    "id": 133,
     "question": "অণুজীব বিজ্ঞানের জনক কে?",
     "options": {
       "A": "রবার্ট কক্‌",
@@ -1593,10 +1593,10 @@
       "D": "এন্টনি ভন লিউয়েনহুক"
     },
     "answer": "D",
-    "explanation": "১৯৭১: গণহত্যা-নির্যাতন আর্কাইভ ও জাদুঘর খুলনায় অবস্থিত। এটি দেশের প্রথম গণহত্যা জাদুঘর, যা ২০১৪ সালে প্রতিষ্ঠিত হয়।"
+    "explanation": "ওলন্দাজ বিজ্ঞানী অ্যান্টনি ভন লিউয়েনহুক সর্বপ্রথম নিজের তৈরি অণুবীক্ষণ যন্ত্রের মাধ্যমে ব্যাকটেরিয়া ও অন্যান্য অণুজীব পর্যবেক্ষণ করেন, তাই তাকে অণুজীববিজ্ঞানের জনক বলা হয়।"
   },
   {
-    "id": 154,
+    "id": 134,
     "question": "বাতাস একটি -",
     "options": {
       "A": "ডায়াচুম্বকীয় পদার্থ",
@@ -1604,11 +1604,11 @@
       "C": "ফেরোচুম্বকীয় পদার্থ",
       "D": "অ্যান্টিফেরোচুম্বকীয় পদার্থ"
     },
-    "answer": "D",
-    "explanation": "নভেরা আহমেদ বাংলাদেশের আধুনিক ভাস্কর্য শিল্পের অন্যতম পথিকৃৎ। তিনি কেন্দ্রীয় শহীদ মিনারের অন্যতম মূল নকশাকার ছিলেন।"
+    "answer": "B",
+    "explanation": "বাতাসে থাকা অক্সিজেন (O₂) অণুর অযুগ্ম ইলেকট্রন থাকায় এটি দুর্বলভাবে চুম্বক ক্ষেত্র দ্বারা আকর্ষিত হয়। এই ধর্মকে প্যারাচুম্বকত্ব বলা হয়। তাই বাতাস একটি প্যারাচুম্বকীয় পদার্থ।"
   },
   {
-    "id": 155,
+    "id": 135,
     "question": "বিশ্ব ব্রহ্মাণ্ডের সবচেয়ে বেশি গ্যাসটি হল-",
     "options": {
       "A": "অক্সিজেন",
@@ -1616,11 +1616,11 @@
       "C": "নাইট্রোজেন",
       "D": "হাইড্রোজেন"
     },
-    "answer": "A",
-    "explanation": "আয়তনের দিক থেকে বাংলাদেশের বৃহত্তম জেলা হলো রাঙ্গামাটি (৬১১৬ বর্গ কিলোমিটার) এবং ক্ষুদ্রতম জেলা হলো নারায়ণগঞ্জ।"
+    "answer": "D",
+    "explanation": "দৃশ্যমান বিশ্বব্রহ্মাণ্ডের মোট ভরের প্রায় ৭৫% হলো হাইড্রোজেন। এটিই মহাবিশ্বের সবচেয়ে সহজলভ্য ও فراوانতম মৌল।"
   },
   {
-    "id": 156,
+    "id": 136,
     "question": "GPU -এর পূর্ণরূপ কী?",
     "options": {
       "A": "Graph Processing Unit",
@@ -1628,11 +1628,11 @@
       "C": "Graphics Processing Unit",
       "D": "Geographical Processing Unit"
     },
-    "answer": "B",
-    "explanation": "জীববৈচিত্র্য, বিশেষ করে প্রবাল ও সামুদ্রিক কাছিম রক্ষার জন্য সরকার সেন্টমার্টিন দ্বীপ ও এর পার্শ্ববর্তী বঙ্গোপসাগরের ১৭৪৩ বর্গ কিলোমিটার এলাকাকে 'মেরিন প্রটেক্টেড এরিয়া' ঘোষণা করেছে।"
+    "answer": "C",
+    "explanation": "GPU-এর পূর্ণরূপ হলো Graphics Processing Unit। এটি কম্পিউটারে গ্রাফিক্স, ইমেজ এবং ভিডিও রেন্ডারিং এর কাজ দ্রুত করার জন্য ব্যবহৃত একটি বিশেষায়িত প্রসেসর।"
   },
   {
-    "id": 157,
+    "id": 137,
     "question": "নিচের কোনটি ALU -এর আউটপুট রাখার জন্য ব্যবহৃত হয়?",
     "options": {
       "A": "Register",
@@ -1640,11 +1640,11 @@
       "C": "Flags",
       "D": "Output Unit"
     },
-    "answer": "C",
-    "explanation": "প্রশ্নটি করার সময় (মে ২০২৩) বাংলাদেশের ভৌগোলিক নির্দেশক (GI) পণ্য ছিল ১১টি। বর্তমানে (২০২৪) এই সংখ্যা আরও বৃদ্ধি পেয়েছে।"
+    "answer": "D",
+    "explanation": "HPLC-এর পূর্ণরূপ হলো High-Performance Liquid Chromatography। এটি রসায়নে মিশ্রণের উপাদান পৃথকীকরণ, শনাক্তকরণ ও পরিমাণ নির্ণয়ের জন্য ব্যবহৃত একটি শক্তিশালী বিশ্লেষণাত্মক কৌশল।"
   },
   {
-    "id": 158,
+    "id": 138,
     "question": "DBMS -এর পূর্ণরূপ কী?",
     "options": {
       "A": "Data Backup Management System",
@@ -1652,11 +1652,11 @@
       "C": "Database Management System",
       "D": "Data of Binary Mangement System"
     },
-    "answer": "B",
-    "explanation": "মণিপুরী নৃ-গোষ্ঠীর মানুষ প্রধানত সিলেট বিভাগে বাস করে। এর মধ্যে মৌলভীবাজার জেলার কমলগঞ্জ উপজেলায় তাদের সর্বাধিক বসবাস।"
+    "answer": "C",
+    "explanation": "DBMS-এর পূর্ণরূপ হলো Database Management System। এটি ডেটাবেস তৈরি, পরিচালনা, নিয়ন্ত্রণ ও ব্যবহারের জন্য ব্যবহৃত সফটওয়্যার।"
   },
   {
-    "id": 159,
+    "id": 139,
     "question": "2 কিলোবাইট মেমোরি address করার জন্য কতটি address লাইন দরকার?",
     "options": {
       "A": "10",
@@ -1665,10 +1665,10 @@
       "D": "14"
     },
     "answer": "B",
-    "explanation": "বাংলাদেশের ষষ্ঠ এবং প্রথম ডিজিটাল 'জনশুমারি ও গৃহগণনা ২০২২' মূল গণনা কার্যক্রম ২০২২ সালের ১৫ জুন থেকে ২১ জুন পর্যন্ত দেশব্যাপী অনুষ্ঠিত হয়।"
+    "explanation": "2 কিলোবাইট = 2 × 1024 বাইট = 2048 বাইট। আমরা জানি, 2¹⁰ = 1024 এবং 2¹¹ = 2048। সুতরাং, 2048টি ভিন্ন মেমোরি লোকেশনকে অ্যাড্রেস করার জন্য 11টি অ্যাড্রেস লাইন প্রয়োজন।"
   },
   {
-    "id": 161,
+    "id": 140,
     "question": "এমবেডেড সিস্টেমে সাধারণত কোন ধরনের মেমোরি ব্যবহৃত হয়?",
     "options": {
       "A": "RAM",
@@ -1677,10 +1677,10 @@
       "D": "অপটিক্যাল ডিস্ক ড্রাইভ"
     },
     "answer": "C",
-    "explanation": "NATO (North Atlantic Treaty Organization) একটি সামরিক জোট, যার সদস্য মূলত উত্তর আমেরিকা ও ইউরোপের দেশগুলো। Bangladesh ILO, SAARC, BIMSTEC সহ বিভিন্ন আন্তর্জাতিক সংস্থার সদস্য, কিন্তু NATO-র সদস্য নয়।"
+    "explanation": "এম্বেডেড সিস্টেম (যেমন: স্মার্টফোন, ওয়াশিং মেশিন) সাধারণত কম শক্তি খরচ করে এবং স্থায়ীভাবে ডেটা সংরক্ষণের জন্য ফ্লাশ মেমোরি (যেমন: ROM, EEPROM) ব্যবহার করে। RAM ব্যবহৃত হলেও, প্রধান অপারেটিং সিস্টেম ও প্রোগ্রাম ফ্লাশ মেমোরিতে থাকে।"
   },
   {
-    "id": 162,
+    "id": 141,
     "question": "নিচের কোনটি Spyware এর উদাহরণ?",
     "options": {
       "A": "Key loggers",
@@ -1688,11 +1688,11 @@
       "C": "Norton",
       "D": "Kasparasky"
     },
-    "answer": "B",
-    "explanation": "প্রথম ফিফা বিশ্বকাপ ফুটবল ১৯৩০ সালে উরুগুয়েতে অনুষ্ঠিত হয়। ফাইনালে স্বাগতিক উরুগুয়ে আর্জেন্টিনাকে পরাজিত করে চ্যাম্পিয়ন হয়।"
+    "answer": "A",
+    "explanation": "স্পাইওয়্যার হলো এক ধরনের ম্যালওয়্যার যা ব্যবহারকারীর অজান্তে তার তথ্য সংগ্রহ করে। কী-লগার (Key logger) একটি স্পাইওয়্যার যা ব্যবহারকারীর কী-স্ট্রোক রেকর্ড করে পাসওয়ার্ড ও অন্যান্য সংবেদনশীল তথ্য চুরি করে। Avast, Norton, Kaspersky হলো অ্যান্টিভাইরাস সফটওয়্যার।"
   },
   {
-    "id": 163,
+    "id": 142,
     "question": "IPv4 -এ নিচের কোনটি Google DNS Server এর IP Adders?",
     "options": {
       "A": "8.8.7.6",
@@ -1700,11 +1700,11 @@
       "C": "8.8.8.6",
       "D": "8.8.8.8"
     },
-    "answer": "B",
-    "explanation": "নেপাল একটি স্থলবেষ্টিত (landlocked) দেশ, যার চারিদিকে ভারত ও চীন অবস্থিত। তাই নেপালের কোনো সমুদ্র বন্দর নেই।"
+    "answer": "D",
+    "explanation": "গুগলের পাবলিক ডিএনএস (Domain Name System) সার্ভারের প্রাইমারি আইপি অ্যাড্রেস হলো 8.8.8.8 এবং সেকেন্ডারি অ্যাড্রেস হলো 8.8.4.4।"
   },
   {
-    "id": 164,
+    "id": 143,
     "question": "ফায়ারওয়ালের প্রাথমিক কাজ কী?",
     "options": {
       "A": "সমস্ত আগত ট্রাফিক নেটওয়ার্কে ঢুকতে না দেওয়া।",
@@ -1713,10 +1713,10 @@
       "D": "সমস্ত নেটওয়ার্ক ট্রাফিক এনক্রিপ্ট করা।"
     },
     "answer": "C",
-    "explanation": "হোমারের ইলিয়াড ও ওডিসি মহাকাব্যে বর্ণিত কিংবদন্তীর ট্রয় নগরীর প্রত্নতাত্ত্বিক স্থানটি আধুনিক তুরস্কের আনাতোলিয়া প্রদেশের হিসারলিক নামক স্থানে অবস্থিত।"
+    "explanation": "ফায়ারওয়াল একটি নেটওয়ার্ক নিরাপত্তা ব্যবস্থা যা পূর্ব-নির্ধারিত নিরাপত্তা নিয়ম অনুযায়ী একটি বিশ্বস্ত নেটওয়ার্কে আগত ও বহির্গামী ট্র্যাফিক পর্যবেক্ষণ ও নিয়ন্ত্রণ করে অননুমোদিত প্রবেশ রোধ করে।"
   },
   {
-    "id": 165,
+    "id": 144,
     "question": "ইন্টারনেটের মাধ্যমে তথ্য আদান-প্রদানের জন্য সর্বাধিক ব্যবহৃত প্রোটোকল কী?",
     "options": {
       "A": "HTTP",
@@ -1724,11 +1724,11 @@
       "C": "DNS",
       "D": "TCP/IP"
     },
-    "answer": "A",
-    "explanation": "আয়তন এবং জনসংখ্যা উভয় দিক থেকেই পৃথিবীর ক্ষুদ্রতম মহাদেশ হলো ওশেনিয়া, যা সাধারণত অস্ট্রেলিয়া মহাদেশ নামেই পরিচিত।"
+    "answer": "D",
+    "explanation": "TCP/IP (Transmission Control Protocol/Internet Protocol) হলো ইন্টারনেটের মৌলিক প্রোটোকল স্যুট, যা সকল প্রকার ডেটা আদান-প্রদান নিয়ন্ত্রণ করে। HTTP, FTP, DNS ইত্যাদি এই TCP/IP এর উপর ভিত্তি করে কাজ করে।"
   },
   {
-    "id": 166,
+    "id": 145,
     "question": "নিচের কোনটি ক্লাউড কম্পিউটিং এর বৈশিষ্ট্য নয়?",
     "options": {
       "A": "On-demand self service",
@@ -1736,11 +1736,11 @@
       "C": "Limited customization",
       "D": "Physical ownership of servers"
     },
-    "answer": "B",
-    "explanation": "আন্তর্জাতিক ধান গবেষণা ইনস্টিটিউট (International Rice Research Institute - IRRI) এর সদর দপ্তর ফিলিপাইনের রাজধানী ম্যানিলার অদূরে লস বানোসে অবস্থিত।"
+    "answer": "D",
+    "explanation": "ক্লাউড কম্পিউটিং-এর মূল ধারণাই হলো ব্যবহারকারীকে সার্ভারের ভৌত মালিকানা ছাড়াই কম্পিউটিং সেবা প্রদান করা। সেবা প্রদানকারী প্রতিষ্ঠান সার্ভারগুলোর মালিক এবং রক্ষণাবেক্ষণ করে। তাই এটি ক্লাউড কম্পিউটিং এর বৈশিষ্ট্য নয়।"
   },
   {
-    "id": 167,
+    "id": 146,
     "question": "একটি কম্পিউটার নেটওয়ার্কে একটি LAN -এর একাধিক ডিভাইসকে একটি WAN -এর সাথে সংযুক্ত করে এমন ডিভাইস কোনটি?",
     "options": {
       "A": "রাউটার",
@@ -1748,11 +1748,11 @@
       "C": "ব্রীজ",
       "D": "হাব"
     },
-    "answer": "D",
-    "explanation": "ইউরোপীয় কেন্দ্রীয় ব্যাংক (European Central Bank - ECB) এর সদর দপ্তর জার্মানির ফ্রাঙ্কফুর্ট শহরে অবস্থিত। এটি ইউরোজোনের মুদ্রা নীতি পরিচালনা করে।"
+    "answer": "A",
+    "explanation": "রাউটার দুটি ভিন্ন নেটওয়ার্ককে (যেমন একটি লোকাল এরিয়া নেটওয়ার্ক বা LAN এবং একটি ওয়াইড এরিয়া নেটওয়ার্ক বা WAN) সংযুক্ত করে এবং তাদের মধ্যে ডেটা প্যাকেট আদান-প্রদান করে।"
   },
   {
-    "id": 168,
+    "id": 147,
     "question": "প্রতারণামূলকভাবে সংবেদনশীল তথ্য যেমন পাসওয়ার্ড ও ক্রেডিট কার্ড নম্বর অর্জন করার জন্য ইন্টারনেট ব্যবহার করার অনুশীলনকে কী বলা হয়?",
     "options": {
       "A": "Phishing",
@@ -1760,11 +1760,11 @@
       "C": "Ransom ware",
       "D": "Sniffing"
     },
-    "answer": "D",
-    "explanation": "ডোনাল্ড ট্রাম্প ২০১৭ থেকে ২০২১ সাল পর্যন্ত মার্কিন যুক্তরাষ্ট্রের ৪৫তম প্রেসিডেন্ট হিসেবে দায়িত্ব পালন করেন।"
+    "answer": "A",
+    "explanation": "ফিশিং (Phishing) হলো এক ধরনের সাইবার আক্রমণ যেখানে আক্রমণকারী বিশ্বস্ত উৎস সেজে ইমেইল বা ওয়েবসাইটের মাধ্যমে ব্যবহারকারীকে প্রতারিত করে তার ব্যক্তিগত ও আর্থিক তথ্য হাতিয়ে নেয়।"
   },
   {
-    "id": 169,
+    "id": 148,
     "question": "চিকিৎসা ক্ষেত্রে কম্পিউটার এর কাজ কোনটি?",
     "options": {
       "A": "তথ্য সংরক্ষণ",
@@ -1772,11 +1772,11 @@
       "C": "রোগী পর্যবেক্ষণ",
       "D": "উপরের সবগুলো"
     },
-    "answer": "B",
-    "explanation": "TIFA-এর পূর্ণরূপ হলো Trade and Investment Framework Agreement। এটি দেশগুলোর মধ্যে বাণিজ্য ও বিনিয়োগ সংক্রান্ত আলোচনা ও সহযোগিতার একটি ফোরাম।"
+    "answer": "D",
+    "explanation": "আধুনিক চিকিৎসা ক্ষেত্রে কম্পিউটার রোগীর তথ্য সংরক্ষণ (EHR), মেডিকেল ইমেজ (CT স্ক্যান, MRI) বিশ্লেষণ এবং রোগীর অবস্থা সার্বক্ষণিক পর্যবেক্ষণে ব্যাপকভাবে ব্যবহৃত হয়।"
   },
   {
-    "id": 170,
+    "id": 149,
     "question": "নিচের কোনটি সার্বজনীন ডিজিটাল লজিক গেইট?",
     "options": {
       "A": "XOR",
@@ -1785,10 +1785,10 @@
       "D": "OR"
     },
     "answer": "C",
-    "explanation": "১৯৭৫ সালে একটি গণভোটের মাধ্যমে সিকিম রাজতন্ত্রের অবসান ঘটিয়ে ভারতের ২২তম রাজ্য হিসেবে যোগদান করে।"
+    "explanation": "NAND এবং NOR গেইটকে সার্বজনীন বা Universal Logic Gate বলা হয়, কারণ শুধুমাত্র NAND বা শুধুমাত্র NOR গেইট ব্যবহার করে অন্য সব মৌলিক গেইট (AND, OR, NOT) বাস্তবায়ন করা যায়।"
   },
   {
-    "id": 171,
+    "id": 150,
     "question": "'ভারত ছাড়' আন্দোলন শুরু হয় -",
     "options": {
       "A": "১৯১৭ সালে",
@@ -1797,10 +1797,10 @@
       "D": "১৯৪২ সালে"
     },
     "answer": "D",
-    "explanation": "বিশ্বের ১৯টি বৃহৎ অর্থনীতির দেশ ও ইউরোপীয় ইউনিয়নের জোট G-20 এর ২০২২ সালের শীর্ষ সম্মেলন ইন্দোনেশিয়ার বালি দ্বীপে অনুষ্ঠিত হয়।"
+    "explanation": "ব্রিটিশ শাসন অবসানের লক্ষ্যে মহাত্মা গান্ধীর নেতৃত্বে ১৯৪২ সালের আগস্ট মাসে সর্বভারতীয় কংগ্রেস কমিটির বোম্বে অধিবেশনে 'ভারত ছাড়' (Quit India) আন্দোলনের প্রস্তাব গৃহীত হয়।"
   },
   {
-    "id": 172,
+    "id": 151,
     "question": "'সর্বদলীয় রাষ্ট্রভাষা সংগ্রাম কমিটি' গঠিত হয়-",
     "options": {
       "A": "১৯৪৮ সালে",
@@ -1809,10 +1809,10 @@
       "D": "১৯৫৪ সালে"
     },
     "answer": "C",
-    "explanation": "সীমান্ত বিরোধকে কেন্দ্র করে ১৯৬২ সালের অক্টোবর-নভেম্বর মাসে চীন ও ভারতের মধ্যে একটি সংক্ষিপ্ত কিন্তু তীব্র যুদ্ধ সংঘটিত হয়।"
+    "explanation": "১৯৫২ সালের ৩১ জানুয়ারি ঢাকার বার লাইব্রেরিতে মওলানা ভাসানীর সভাপতিত্বে অনুষ্ঠিত এক সভায় 'সর্বদলীয় রাষ্ট্রভাষা সংগ্রাম কমিটি' গঠিত হয়। এর আহ্বায়ক ছিলেন কাজী গোলাম মাহবুব।"
   },
   {
-    "id": 173,
+    "id": 152,
     "question": "বাংলাদেশের জাতীয় সংসদের অধিবেশন আহ্বান করেন কে?",
     "options": {
       "A": "রাষ্ট্রপতি",
@@ -1821,10 +1821,10 @@
       "D": "প্রধানমন্ত্রী"
     },
     "answer": "A",
-    "explanation": "প্রশান্ত মহাসাগরের তলদেশে অবস্থিত মারিয়ানা ট্রেঞ্চ হলো পৃথিবীর সবচেয়ে গভীরতম স্থান। এর গভীরতম বিন্দু চ্যালেঞ্জার ডিপ-এর গভীরতা প্রায় ১১ কিলোমিটার।"
+    "explanation": "বাংলাদেশ সংবিধানের ৭২(১) অনুচ্ছেদ অনুযায়ী, মহামান্য রাষ্ট্রপতি সংসদের অধিবেশন আহ্বান, স্থগিত ও ভঙ্গ করার ক্ষমতার অধিকারী।"
   },
   {
-    "id": 174,
+    "id": 153,
     "question": "ঐতিহাসিক 'ছয়-দফা' বঙ্গবন্ধু শেখ মুজিবুর রহমান আনুষ্ঠানিকভাবে ঘোষণা করেন-",
     "options": {
       "A": "৫ ফ্রেব্রুয়ারি ১৯৬৬",
@@ -1832,11 +1832,11 @@
       "C": "২৬ মার্চ ১৯৬৬",
       "D": "৩১ মার্চ ১৯৬৬"
     },
-    "answer": "C",
-    "explanation": "চীনের প্রেসিডেন্ট শি জিনপিং ২০১৩ সালে 'বেল্ট অ্যান্ড রোড ইনিশিয়েটিভ' (BRI) নামক বৈশ্বিক অবকাঠামো উন্নয়ন কৌশলটি ঘোষণা করেন।"
+    "answer": "B",
+    "explanation": "বঙ্গবন্ধু ১৯৬৬ সালের ৫-৬ ফেব্রুয়ারি লাহোরে বিরোধী দলগুলোর সম্মেলনে প্রথম ছয় দফা উত্থাপন করেন। পরবর্তীতে ২৩ মার্চ লাহোরে এক সংবাদ সম্মেলনে আনুষ্ঠানিকভাবে তা ঘোষণা করেন।"
   },
   {
-    "id": 175,
+    "id": 154,
     "question": "'পূর্ব পাকিস্তান আওয়ামী মুসলিম লীগ' প্রতিষ্ঠকালীন সাধারণ সম্পাদক -",
     "options": {
       "A": "শেখ মুজিবুর রহমান",
@@ -1844,11 +1844,11 @@
       "C": "আতাউর রহমান খান",
       "D": "আবুল হাশিম"
     },
-    "answer": "A",
-    "explanation": "বান্দা আচেহ ইন্দোনেশিয়ার সুমাত্রা দ্বীপের উত্তর প্রান্তে অবস্থিত আচেহ প্রদেশের রাজধানী। ২০০৪ সালের সুনামিতে এটি মারাত্মকভাবে ক্ষতিগ্রস্ত হয়েছিল।"
+    "answer": "B",
+    "explanation": "বঙ্গবন্ধু শেখ মুজিবুর রহমানের 'অসমাপ্ত আত্মজীবনী' গ্রন্থে এই উক্তিটি পাওয়া যায়, যেখানে তিনি তার জ্যেষ্ঠ পুত্র শেখ কামালের কথা উল্লেখ করেছেন।"
   },
   {
-    "id": 176,
+    "id": 155,
     "question": "'প্রজাতন্ত্রের রাষ্ট্রভাষা বাংলা' কথাটি সংবিধানের কোন অনুচ্ছেদে বলা হয়েছে?",
     "options": {
       "A": "অনুচ্ছেদ : ২",
@@ -1857,10 +1857,10 @@
       "D": "অনুচ্ছেদ : ৫"
     },
     "answer": "B",
-    "explanation": "ফেসবুকের (বর্তমান নাম মেটা প্ল্যাটফর্মস) সদর দপ্তর মার্কিন যুক্তরাষ্ট্রের ক্যালিফোর্নিয়া রাজ্যের মেনলো পার্কে অবস্থিত।"
+    "explanation": "বাংলাদেশ সংবিধানের প্রথম ভাগের ৩য় অনুচ্ছেদে বলা হয়েছে: 'প্রজাতন্ত্রের রাষ্ট্রভাষা বাংলা'।"
   },
   {
-    "id": 177,
+    "id": 156,
     "question": "ঐতিহাসিক ৭ মার্চের ভাষণ সংবিধানের কোন তফসিলে আছে?",
     "options": {
       "A": "চতুর্থ তফসিল",
@@ -1868,11 +1868,11 @@
       "C": "ষষ্ঠ তফসিল",
       "D": "সপ্তম তফসিল"
     },
-    "answer": "D",
-    "explanation": "গ্রেট ভিক্টোরিয়া মরুভূমি অস্ট্রেলিয়ার বৃহত্তম মরুভূমি, যা পশ্চিম অস্ট্রেলিয়া ও দক্ষিণ অস্ট্রেলিয়া রাজ্য জুড়ে বিস্তৃত।"
+    "answer": "B",
+    "explanation": "সংবিধানের পঞ্চদশ সংশোধনীর মাধ্যমে পঞ্চম তফসিলে জাতির পিতা বঙ্গবন্ধু শেখ মুজিবুর রহমানের ১৯৭১ সালের ৭ মার্চের ঐতিহাসিক ভাষণটি অন্তর্ভুক্ত করা হয়েছে।"
   },
   {
-    "id": 178,
+    "id": 157,
     "question": "বাংলাদেশের সংবিধান অনুযায়ী \"কোর্ট অব রেকর্ড\" হিসাবে গণ্য-",
     "options": {
       "A": "লেবার কোর্ট",
@@ -1880,11 +1880,11 @@
       "C": "হাই কোর্ট",
       "D": "সুপ্রীম কোর্ট"
     },
-    "answer": "B",
-    "explanation": "মেসোপটেমীয় সভ্যতা (বর্তমান ইরাক) বিশ্বের প্রাচীনতম সভ্যতাগুলোর মধ্যে অন্যতম, যা খ্রিস্টপূর্ব প্রায় ৩৫০০ অব্দে গড়ে উঠেছিল। প্রদত্ত বিকল্পগুলোর মধ্যে এটিই সবচেয়ে প্রাচীন।"
+    "answer": "D",
+    "explanation": "সংবিধানের ১০৪ অনুচ্ছেদ অনুযায়ী, বাংলাদেশের সুপ্রিম কোর্ট একটি 'কোর্ট অব রেকর্ড' (Court of Record) এবং এর অবমাননার জন্য তদন্ত ও দণ্ডদানের ক্ষমতা রয়েছে।"
   },
   {
-    "id": 179,
+    "id": 158,
     "question": "বাংলাদেশে মোট কতটি পঞ্চবার্ষিকী পরিকল্পনা গ্রহণ করা হয়েছে?",
     "options": {
       "A": "৬ (ছয়) টি",
@@ -1892,11 +1892,11 @@
       "C": "৮ (আট) টি",
       "D": "৯ (নয়) টি"
     },
-    "answer": "A",
-    "explanation": "তিব্বত একটি বিশাল উঁচু মালভূমি, যা পর্বত দ্বারা বেষ্টিত। তাই একে উপত্যকা হিসেবেও অভিহিত করা যায়। তবে সবচেয়ে সঠিক পরিচয় হলো এটি একটি মালভূমি। প্রদত্ত বিকল্পগুলোর মধ্যে 'উপত্যকা' সবচেয়ে কাছাকাছি।"
+    "answer": "C",
+    "explanation": "২৯ থেকে ৩৮ পর্যন্ত মোট সংখ্যা আছে (৩৮ - ২৯) + ১ = ১০টি। এর মধ্যে মৌলিক সংখ্যাগুলো হলো ২৯, ৩১, ৩৭ (মোট ৩টি)।সুতরাং, মৌলিক সংখ্যা পাওয়ার সম্ভাবনা = ৩/১০।"
   },
   {
-    "id": 180,
+    "id": 159,
     "question": "বাংলাদেশের কয়টি জেলার সাথে 'সুন্দরবন' সংযুক্ত আছে?",
     "options": {
       "A": "৪ (চার) টি",
@@ -1904,11 +1904,11 @@
       "C": "৬ (ছয়) টি",
       "D": "৭ (সাত) টি"
     },
-    "answer": "C",
-    "explanation": "এলিফ্যান্ট পাস শ্রীলঙ্কার উত্তরাঞ্চলীয় প্রদেশের একটি গুরুত্বপূর্ণ সংযোগ-পথ, যা জাফনা উপদ্বীপকে মূল ভূখণ্ডের সাথে যুক্ত করেছে।"
+    "answer": "B",
+    "explanation": "বাংলাদেশের খুলনা, সাতক্ষীরা, বাগেরহাট, পটুয়াখালী ও বরগুনা—এই ৫টি জেলার সাথে সুন্দরবনের সীমানা রয়েছে।"
   },
   {
-    "id": 181,
+    "id": 160,
     "question": "মহান মুক্তিযুদ্ধের সময় ঢাকা শহর কোন সেক্টরের অন্তর্ভুক্ত ছিল?",
     "options": {
       "A": "২ (দুই) নম্বর",
@@ -1916,11 +1916,11 @@
       "C": "৪ (চার) নম্বর",
       "D": "৫ (পাঁচ) নম্বর"
     },
-    "answer": "B",
-    "explanation": "আলজেরিয়া উত্তর আফ্রিকার একটি দেশ এবং ইউরোপীয় ইউনিয়নের সদস্য নয়। সাইপ্রাস, এস্তোনিয়া এবং মাল্টা ইউরোপীয় ইউনিয়নের সদস্য রাষ্ট্র।"
+    "answer": "A",
+    "explanation": "মুক্তিযুদ্ধের সময় ঢাকা শহর ২ নং সেক্টরের অধীনে ছিল। এই সেক্টরের কমান্ডার ছিলেন প্রথমে মেজর খালেদ মোশাররফ ও পরে মেজর এ. টি. এম. হায়দার।"
   },
   {
-    "id": 182,
+    "id": 161,
     "question": "'জয় বাংলা' কে জাতীয় স্লোগান হিসাবে মন্ত্রিসভায় কত তারিখে অনুমোদন করা হয়?",
     "options": {
       "A": "২ মার্চ, ২০২২",
@@ -1928,11 +1928,11 @@
       "C": "৪ মার্চ, ২০২২",
       "D": "৫ মার্চ, ২০২২"
     },
-    "answer": "D",
-    "explanation": "হালদা নদী বাংলাদেশের খাগড়াছড়ি জেলার বাদনাতলী পর্বতশৃঙ্গ থেকে উৎপন্ন হয়ে চট্টগ্রামের কর্ণফুলী নদীতে পতিত হয়েছে। এটি বাংলাদেশের অভ্যন্তরীণ নদীগুলোর মধ্যে অন্যতম।"
+    "answer": "A",
+    "explanation": "২০২২ সালের ২ মার্চ তারিখে অনুষ্ঠিত মন্ত্রিসভার বৈঠকে 'জয় বাংলা' কে বাংলাদেশের জাতীয় স্লোগান হিসেবে অনুমোদন দেওয়া হয়।"
   },
   {
-    "id": 183,
+    "id": 162,
     "question": "বাংলাদেশ সরকারী কর্ম কমিশন কবে গঠিত হয়?",
     "options": {
       "A": "৬ এপ্রিল ১৯৭২",
@@ -1941,10 +1941,10 @@
       "D": "৯ এপ্রিল ১৯৭২"
     },
     "answer": "C",
-    "explanation": "পানিতে দ্রবীভূত অক্সিজেন (Dissolved Oxygen) পানির অণুগুলোর (H₂O) মধ্যবর্তী ফাঁকা স্থানে বা আন্তঃআণবিক স্থানে অবস্থান করে।"
+    "explanation": "১৯৭২ সালের ৮ এপ্রিল রাষ্ট্রপতি আদেশের মাধ্যমে 'বাংলাদেশ পাবলিক সার্ভিস কমিশন' গঠিত হয়।"
   },
   {
-    "id": 184,
+    "id": 163,
     "question": "'e- TIN' চালু করা হয় কত সালে?",
     "options": {
       "A": "২০১৩ সালে",
@@ -1952,11 +1952,11 @@
       "C": "২০১৫ সালে",
       "D": "২০১৬ সালে"
     },
-    "answer": "C",
-    "explanation": "১৯৮৭ সালের মন্ট্রিল প্রটোকলের মাধ্যমে ওজোন স্তর ক্ষয়কারী সিএফসি (ক্লোরোফ্লুরোকার্বন) গ্যাসের উৎপাদন ও ব্যবহার বিশ্বব্যাপী নিষিদ্ধ করা হয়েছে। ফলে বায়ুমণ্ডলে এর পরিমাণ হ্রাস পাচ্ছে বা স্থিতিশীল রয়েছে, বৃদ্ধি পাচ্ছে না।"
+    "answer": "A",
+    "explanation": "জাতীয় রাজস্ব বোর্ড (NBR) করদাতাদের জন্য ইলেকট্রনিক ট্যাক্স আইডেন্টিফিকেশন নম্বর বা ই-টিআইএন (e-TIN) ব্যবস্থা ২০১৩ সালে চালু করে।"
   },
   {
-    "id": 185,
+    "id": 164,
     "question": "কত সালে মানি লন্ডারিং প্রতিরোধ আইনটি প্রবর্তন করা হয়?",
     "options": {
       "A": "২০১১ সালে",
@@ -1964,11 +1964,11 @@
       "C": "২০১৩ সালে",
       "D": "২০১৪ সালে"
     },
-    "answer": "A",
-    "explanation": "প্রলয়ংকারী ঘূর্ণিঝড় 'সিডর' ২০০৭ সালের ১৫ নভেম্বর সন্ধ্যায় বাংলাদেশের উপকূলীয় অঞ্চলে আঘাত হানে, যার ফলে ব্যাপক প্রাণহানি ও ক্ষয়ক্ষতি হয়।"
+    "answer": "D",
+    "explanation": "১৯৭১: গণহত্যা-নির্যাতন আর্কাইভ ও জাদুঘর খুলনায় অবস্থিত। এটি দেশের প্রথম গণহত্যা জাদুঘর, যা ২০১৪ সালে প্রতিষ্ঠিত হয়।"
   },
   {
-    "id": 186,
+    "id": 165,
     "question": "দেশের কোন জেলায় সর্ববৃহৎ সৌরবিদ্যুৎ কেন্দ্র অবস্থিত?",
     "options": {
       "A": "চট্টগ্রাম",
@@ -1976,11 +1976,11 @@
       "C": "নরসিংদী",
       "D": "ময়মনসিংহ"
     },
-    "answer": "B",
-    "explanation": "আন্তর্জাতিক সমুদ্র আইন অনুযায়ী, একটি দেশের উপকূল থেকে ২০০ নটিক্যাল মাইল পর্যন্ত এলাকাকে তার একচেটিয়া অর্থনৈতিক অঞ্চল (Exclusive Economic Zone - EEZ) হিসেবে গণ্য করা হয়।"
+    "answer": "D",
+    "explanation": "ময়মনসিংহ জেলার সদর উপজেলার সুতিয়াখালিতে দেশের সর্ববৃহৎ সৌরবিদ্যুৎ কেন্দ্রটি অবস্থিত, যার উৎপাদন ক্ষমতা ৫০ মেগাওয়াট।"
   },
   {
-    "id": 187,
+    "id": 166,
     "question": "বাংলাদেশে বন গবেষণা কেন্দ্র কোথায় অবস্থিত?",
     "options": {
       "A": "রাজশাহী",
@@ -1989,10 +1989,10 @@
       "D": "গাজীপুর"
     },
     "answer": "C",
-    "explanation": "ব্রাহ্মণবাড়িয়া জেলায় অবস্থিত তিতাস গ্যাসক্ষেত্রটি মজুদের দিক থেকে বাংলাদেশের সর্ববৃহৎ গ্যাসক্ষেত্র।"
+    "explanation": "বাংলাদেশ বন গবেষণা ইনস্টিটিউট (BFRI) চট্টগ্রাম শহরের ষোলশহরে অবস্থিত।"
   },
   {
-    "id": 188,
+    "id": 167,
     "question": "বাংলাদেশের মৎস্য প্রজাতি গবেষণাগার কোথায় অবস্থিত?",
     "options": {
       "A": "চাঁদপুর",
@@ -2000,11 +2000,11 @@
       "C": "ময়মনসিংহ",
       "D": "ভোলা"
     },
-    "answer": "B",
-    "explanation": "ভূ-অভ্যন্তরে যে স্থানে ভূমিকম্পের উৎপত্তি হয় তাকে কেন্দ্র বা ফোকাস (Focus) বলে। ফোকাসের ঠিক সোজাসুজি উপরে ভূপৃষ্ঠের বিন্দুটিকে উপকেন্দ্র বা এপিসেন্টার (Epicenter) বলে।"
+    "answer": "C",
+    "explanation": "বাংলাদেশ মৎস্য গবেষণা ইনস্টিটিউট (BFRI) এর সদর দপ্তর ময়মনসিংহে অবস্থিত।"
   },
   {
-    "id": 189,
+    "id": 168,
     "question": "বাংলাদেশের প্রধান খনিজ সম্পদ কোনটি?",
     "options": {
       "A": "কয়লা",
@@ -2013,10 +2013,10 @@
       "D": "চীনামাটি"
     },
     "answer": "B",
-    "explanation": "আন্তর্জাতিক শক্তি সংস্থার (IEA) তথ্যমতে, বিদ্যুৎ ও তাপ উৎপাদন খাত বিশ্বব্যাপী গ্রিনহাউস গ্যাস নির্গমনের সবচেয়ে বড় উৎস, কারণ এই খাতে সর্বাধিক জীবাশ্ম জ্বালানি (কয়লা, গ্যাস) পোড়ানো হয়।"
+    "explanation": "প্রাকৃতিক গ্যাস বাংলাদেশের প্রধান খনিজ সম্পদ এবং শক্তির অন্যতম প্রধান উৎস। দেশের মোট বাণিজ্যিক জ্বালানির একটি বড় অংশ আসে প্রাকৃতিক গ্যাস থেকে।"
   },
   {
-    "id": 190,
+    "id": 169,
     "question": "ইউরিয়া সারের কাঁচামাল কী?",
     "options": {
       "A": "প্রাকৃতিক গ্যাস",
@@ -2024,11 +2024,11 @@
       "C": "মিথেন গ্যাস",
       "D": "ইলমেনাইট"
     },
-    "answer": "B",
-    "explanation": "করিওলিস বলের প্রভাবে উত্তর গোলার্ধে ঘূর্ণিঝড়ের বায়ু কেন্দ্রের দিকে ঘড়ির কাঁটার বিপরীতে (counter-clockwise) এবং দক্ষিণ গোলার্ধে ঘড়ির কাঁটার দিকে (clockwise) ঘুরতে থাকে।"
+    "answer": "C",
+    "explanation": "ইউরিয়া সার উৎপাদনের প্রধান কাঁচামাল হলো অ্যামোনিয়া ও কার্বন ডাইঅক্সাইড। অ্যামোনিয়া তৈরি করা হয় প্রাকৃতিক গ্যাস (যার প্রধান উপাদান মিথেন) থেকে। তাই মূল কাঁচামাল হিসেবে প্রাকৃতিক গ্যাস বা মিথেন গ্যাস উভয়ই সঠিক। তবে মিথেন গ্যাস অধিকতর সুনির্দিষ্ট উত্তর।"
   },
   {
-    "id": 191,
+    "id": 170,
     "question": "কোনটি বিচার বিভাগের কাজ নয়?",
     "options": {
       "A": "আইনের প্রয়োগ",
@@ -2036,11 +2036,11 @@
       "C": "সংবিধানের ব্যাখ্যা",
       "D": "সংবিধান প্রণয়ন"
     },
-    "answer": "A",
-    "explanation": "নৈতিকতা বা নীতিবিদ্যা ভালো-মন্দ, ন্যায়-অন্যায়, উচিত-অনুচিত ইত্যাদি বিষয় নিয়ে আলোচনা করে। তাই ভালো-মন্দ বিচার নৈতিক মূল্যবোধের অন্তর্ভুক্ত।"
+    "answer": "D",
+    "explanation": "সংবিধান প্রণয়ন বা সংশোধন করা আইনসভার (জাতীয় সংসদ) কাজ। বিচার বিভাগের কাজ হলো আইন ও সংবিধানের ব্যাখ্যা প্রদান এবং আইন প্রয়োগ করা।"
   },
   {
-    "id": 192,
+    "id": 171,
     "question": "পারিবারিক আদালত অধ্যাদেশ কত সালে জারি হয়?",
     "options": {
       "A": "১৯৮০ সালে",
@@ -2048,11 +2048,11 @@
       "C": "১৯৮৫ সালে",
       "D": "১৯৯১ সালে"
     },
-    "answer": "D",
-    "explanation": "মত প্রকাশের স্বাধীনতা এবং তথ্যের অবাধ প্রবাহ নিশ্চিত হলে সরকার ও প্রশাসনের স্বচ্ছতা ও জবাবদিহিতা বৃদ্ধি পায়, যা সুশাসনের একটি অপরিহার্য পূর্বশর্ত।"
+    "answer": "C",
+    "explanation": "বাংলাদেশে পারিবারিক বিষয়াবলি সংক্রান্ত বিরোধ নিষ্পত্তির জন্য 'পারিবারিক আদালত অধ্যাদেশ, ১৯৮৫' জারি করা হয়।"
   },
   {
-    "id": 193,
+    "id": 172,
     "question": "'গণহত্যা যাদুঘর' কোথায় অবস্থিত?",
     "options": {
       "A": "ঢাকা",
@@ -2060,11 +2060,11 @@
       "C": "কুমিল্লা",
       "D": "খুলনা"
     },
-    "answer": "A",
-    "explanation": "'Utilitarianism' (উপযোগবাদ) গ্রন্থটি ব্রিটিশ দার্শনিক জন স্টুয়ার্ট মিল ১৮৬৩ সালে রচনা করেন। তিনি এই গ্রন্থে জেরেমি বেন্থামের উপযোগবাদকে আরও পরিমার্জিত রূপ দেন।"
+    "answer": "",
+    "explanation": ""
   },
   {
-    "id": 194,
+    "id": 173,
     "question": "নভেরা আহমেদের পরিচয় কী হিসাবে?",
     "options": {
       "A": "কবি",
@@ -2072,11 +2072,11 @@
       "C": "কণ্ঠশিল্পী",
       "D": "ভাস্কর"
     },
-    "answer": "C",
-    "explanation": "১৯৮৯ সালে বিশ্বব্যাংক সর্বপ্রথম 'সুশাসন' (Good Governance) প্রত্যয়টি আনুষ্ঠানিকভাবে ব্যবহার করে এবং এর বিভিন্ন উপাদান নির্ধারণ করে।"
+    "answer": "D",
+    "explanation": "নভেরা আহমেদ বাংলাদেশের আধুনিক ভাস্কর্য শিল্পের অন্যতম পথিকৃৎ। তিনি কেন্দ্রীয় শহীদ মিনারের অন্যতম মূল নকশাকার ছিলেন।"
   },
   {
-    "id": 195,
+    "id": 174,
     "question": "আয়তনে বাংলাদেশের সবচেয়ে বড় জেলা কোনটি?",
     "options": {
       "A": "রাঙ্গামাটি",
@@ -2084,11 +2084,11 @@
       "C": "চট্টগ্রাম",
       "D": "ময়মনসিংহ"
     },
-    "answer": "B",
-    "explanation": "সহস্রাব্দ উন্নয়ন লক্ষ্যমাত্রা (MDG) মূলত দারিদ্র্য বিমোচন, শিক্ষা, স্বাস্থ্যসেবা ইত্যাদি আর্থ-সামাজিক উন্নয়নের উপর জোর দিয়েছিল। এই লক্ষ্যগুলো অর্জনে সুশাসনকে একটি কার্যকর মাধ্যম হিসেবে দেখা হয়েছিল, বিশেষ করে অর্থনৈতিক ব্যবস্থাপনার স্বচ্ছতা ও জবাবদিহিতার উপর।"
+    "answer": "A",
+    "explanation": "আয়তনের দিক থেকে বাংলাদেশের বৃহত্তম জেলা হলো রাঙ্গামাটি (৬১১৬ বর্গ কিলোমিটার) এবং ক্ষুদ্রতম জেলা হলো নারায়ণগঞ্জ।"
   },
   {
-    "id": 196,
+    "id": 175,
     "question": "কোন এলাকাকে 'Marine Protected Area' (MPA) ঘোষণা করা হয়েছে?",
     "options": {
       "A": "সেন্টমার্টিন",
@@ -2097,10 +2097,10 @@
       "D": "হিরন পয়েন্ট"
     },
     "answer": "B",
-    "explanation": "গ্রিক দার্শনিক সক্রেটিসের বিখ্যাত উক্তি হলো 'Virtue is knowledge' বা 'সদ্গুণই জ্ঞান'। তিনি বিশ্বাস করতেন যে, মানুষ যদি জানে কোনটি সঠিক, তবে সে সঠিক কাজটিই করবে।"
+    "explanation": "জীববৈচিত্র্য, বিশেষ করে প্রবাল ও সামুদ্রিক কাছিম রক্ষার জন্য সরকার সেন্টমার্টিন দ্বীপ ও এর পার্শ্ববর্তী বঙ্গোপসাগরের ১৭৪৩ বর্গ কিলোমিটার এলাকাকে 'মেরিন প্রটেক্টেড এরিয়া' ঘোষণা করেছে।"
   },
   {
-    "id": 197,
+    "id": 176,
     "question": "বাংলাদেশের ভৌগলিক নির্দেশক পণ্য কয়টি?",
     "options": {
       "A": "৯ (নয়) টি",
@@ -2108,11 +2108,11 @@
       "C": "১১ (এগার) টি",
       "D": "১২ (বার) টি"
     },
-    "answer": "A",
-    "explanation": "শুদ্ধাচার (Integrity) বলতে নৈতিকতা ও সততার নীতির প্রতি দৃঢ় adherence এবং এর দ্বারা প্রভাবিত আচরণগত উৎকর্ষকে বোঝায়।"
+    "answer": "C",
+    "explanation": "প্রশ্নটি করার সময় (মে ২০২৩) বাংলাদেশের ভৌগোলিক নির্দেশক (GI) পণ্য ছিল ১১টি। বর্তমানে (২০২৪) এই সংখ্যা আরও বৃদ্ধি পেয়েছে।"
   },
   {
-    "id": 198,
+    "id": 177,
     "question": "ক্ষুদ্র নৃ-গোষ্ঠী 'মনিপুরী' বাংলাদেশের কোন জেলায় বেশি বসবাস করে?",
     "options": {
       "A": "সিলেট",
@@ -2120,11 +2120,11 @@
       "C": "হবিগঞ্জ",
       "D": "সুনামগঞ্জ"
     },
-    "answer": "C",
-    "explanation": "ধর্ম, সমাজ, রাষ্ট্র ইত্যাদি মূল্যবোধের বাহ্যিক উৎস হলেও, মানুষের অভ্যন্তরীণ বিবেক বা নৈতিক চেতনাই হলো মূল্যবোধের মূল বা মৌলিক উৎস।"
+    "answer": "B",
+    "explanation": "মণিপুরী নৃ-গোষ্ঠীর মানুষ প্রধানত সিলেট বিভাগে বাস করে। এর মধ্যে মৌলভীবাজার জেলার কমলগঞ্জ উপজেলায় তাদের সর্বাধিক বসবাস।"
   },
   {
-    "id": 199,
+    "id": 178,
     "question": "বাংলাদেশের ষষ্ঠ জাতীয় জনশুমারি ও গৃহ গণনা কোন সময়ে অনুষ্ঠিত হয়?",
     "options": {
       "A": "১০ জুন থেকে ১৬ জুন, ২০২২",
@@ -2132,11 +2132,11 @@
       "C": "১৫ জুলাই থেকে ২১ জুলাই, ২০২২",
       "D": "২০ জুলাই থেকে ২৬ জুলাই, ২০২২"
     },
-    "answer": "D",
-    "explanation": "জার্মান দার্শনিক ইমানুয়েল কান্ট তার কর্তব্যমূলক নীতিবিদ্যায় 'শর্তহীন আদেশ' বা 'Categorical Imperative'-এর ধারণা দেন, যা কোনো শর্ত বা ফলাফলের উপর নির্ভর না করে নৈতিকভাবে বাধ্যতামূলক।"
+    "answer": "B",
+    "explanation": "বাংলাদেশের ষষ্ঠ এবং প্রথম ডিজিটাল 'জনশুমারি ও গৃহগণনা ২০২২' মূল গণনা কার্যক্রম ২০২২ সালের ১৫ জুন থেকে ২১ জুন পর্যন্ত দেশব্যাপী অনুষ্ঠিত হয়।"
   },
   {
-    "id": 200,
+    "id": 179,
     "question": "কূটনৈতিক ক্ষেত্রে অবদানের জন্য গত ২০২০ সালে প্রবর্তিত পুরস্কারের নাম কী?",
     "options": {
       "A": "বঙ্গবন্ধু ডিপ্লোমেটিক অ্যাওয়ার্ড ফর এক্সিলেন্স",
@@ -2144,7 +2144,7 @@
       "C": "বাংলাদেশ ডিপ্লোমেটিক অ্যাওয়ার্ড ফর এক্সিলেন্স",
       "D": "বঙ্গবন্ধু ডিপ্লোমেটিক অ্যাওয়ার্ড"
     },
-    "answer": "C",
-    "explanation": "আইনের শাসন (Rule of Law) হলো সুশাসনের মূল ভিত্তি। এর অর্থ হলো, সকলেই আইনের অধীন এবং আইনের চোখে সমান। এটি ছাড়া স্বচ্ছতা, জবাবদিহিতা ও গণতন্ত্র অর্থহীন হয়ে পড়ে।"
+    "answer": "A",
+    "explanation": "দেশি-বিদেশি কূটনীতিকদের উৎসাহিত করার জন্য ২০২০ সাল থেকে 'বঙ্গবন্ধু ডিপ্লোমেটিক অ্যাওয়ার্ড ফর এক্সিলেন্স' পুরস্কার প্রবর্তন করা হয়েছে।"
   }
 ]
