@@ -1,0 +1,1041 @@
+{
+  "_type": "model_test",
+  "modelId": "m22",
+  "title": "Model Test 22 - English 1st Paper",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Passage & Comprehension",
+      "type": "passage_mcq",
+      "content": {
+        "passage": "Every Thursday afternoon Ashish Biswash plays football. He is a striker. He plays for the local Friends Club.\n\nDo you want to know what else he does on other days? This is what Ashish says:\n\n\"Friday and Saturday are my weekends. On Fridays, I go to my village home.\n\nGoing home is really a wonderful experience. My mother waits for me there. In the afternoon, I go cycling with my friends.\n\nSometimes I go for a long walk. Next day I get up a little late. In the afternoon I play kabadi.\n\nIn fact, I was a kabadi player during my school days. From Sunday to Thursday I go to the club at 7 o'clock in the morning. It's the time for our regular practice.\n\nSo, I have to get up by 6 o'clock. Usually on Monday afternoon, the team doctor sees all the players. On Tuesday our coach shows us videos of important matches.\n\nWe learn a lot from them. On Thursdays when we practise, our team manager watches our performance and keeps a record of that. Then he selects the team for the day.\n\nIn the afternoon I go to the club at 1 o'clock. I spend some time with my teammates. At 4 o'clock our match begins.\n\nWe regularly play with other local teams.\"",
+        "translation_bn": "আশীষ বিশ্বাস প্রতি বৃহস্পতিবার বিকালে ফুটবল খেলে। সে আক্রমণ ভাগের খেলোয়াড়। সে স্থানীয় ফ্রেন্ডস ক্লাবের পক্ষে খেলে। তোমরা কি জানতে চাও অন্যান্য দিনে সে আর কী কী করে? আশীষ এ সম্পর্কে যা বলে তা হলো এই; \"শুক্রবার এবং শনিবার আমার সাপ্তাহিক ছুটির দিন। শুক্রবারে আমি আমার গ্রামের বাড়ি যাই। বাড়িতে যাওয়া সত্যিই একটি চমৎকার অভিজ্ঞতা। সেখানে আমার মা আমার অপেক্ষা করেন। বিকালে আমি আমার বন্ধুদের সাথে সাইকেল চালাই। মাঝে মাঝে আমি পায়ে হেঁটে অনেক দূর যাই। পরেরদিন আমি একটু দেরি করে ঘুম থেকে উঠি। বিকালে আমি কাবাডি খেলি। প্রকৃতপক্ষে, বিদ্যালয়ে পড়ার সময় আমি কাবাডি খেলতাম। রবিবার থেকে বৃহস্পতিবার আমি সকাল ৭টায় ক্লাবে যাই। এটি হলো আমাদের নিয়মিত অনুশীলনের সময়। তাই আমাকে ৬টার মধ্যে ঘুম থেকে উঠতে হয়। সাধারণত সোমবার বিকেলে দলের ডাক্তার সকল খেলোয়াড়দের পর্যবেক্ষণ করেন। মঙ্গলবার আমাদের প্রশিক্ষক আমাদের গুরুত্বপূর্ণ খেলার ভিডিও চিত্র দেখান। আমরা সেগুলো থেকে অনেক কিছু শিখতে পারি। বৃহস্পতিবার যখন আমরা অনুশীলন করি, তখন আমাদের দলের ব্যবস্থাপক আমাদের পারদর্শিতা দেখেন এবং তা লিপিবদ্ধ করেন। তারপর তিনি সেই দিনের জন্যে দল নির্বাচন করেন। বিকালে বেলা ১টায় আমি ক্লাবে যাই। আমি সেখানে দলের খেলোয়াড়দের সাথে কিছু সময় কাটাই। ৪টায় আমাদের খেলা শুরু হয়। আমরা অন্যান্য স্থানীয় দলের সাথে নিয়মিত খেলি।\"",
+        "vocabulary": [
+          {
+            "word": "coach",
+            "synonym": "trainer",
+            "antonym": "trainee",
+            "pos": "n.",
+            "meaning_en": "a person who trains players",
+            "meaning_bn": "প্রশিক্ষক"
+          },
+          {
+            "word": "experience",
+            "synonym": "event",
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "an occurrence which leaves an impression",
+            "meaning_bn": "অভিজ্ঞতা"
+          },
+          {
+            "word": "local",
+            "synonym": "regional",
+            "antonym": "foreign",
+            "pos": "adj.",
+            "meaning_en": "relating to a particular area",
+            "meaning_bn": "স্থানীয়"
+          },
+          {
+            "word": "performance",
+            "synonym": "accomplishment",
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "the act of presenting something",
+            "meaning_bn": "কার্যপ্রদর্শন"
+          },
+          {
+            "word": "practice",
+            "synonym": "training",
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "a way of doing something regularly",
+            "meaning_bn": "অনুশীলন"
+          },
+          {
+            "word": "really",
+            "synonym": "actually",
+            "antonym": "doubtfully",
+            "pos": "adv.",
+            "meaning_en": "used to say something is certain",
+            "meaning_bn": "প্রকৃতপক্ষে"
+          },
+          {
+            "word": "record",
+            "synonym": "report",
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "written account of facts",
+            "meaning_bn": "দলিল"
+          },
+          {
+            "word": "regular",
+            "synonym": "systematic",
+            "antonym": "irregular",
+            "pos": "adj.",
+            "meaning_en": "recurring at uniform intervals",
+            "meaning_bn": "নিয়মিত"
+          },
+          {
+            "word": "striker",
+            "synonym": "forward",
+            "antonym": "defender",
+            "pos": "n.",
+            "meaning_en": "a player whose main role is to attack and score goals",
+            "meaning_bn": "আক্রমণভাগের খেলোয়াড়"
+          }
+        ],
+        "questions": [
+          {
+            "id": "1i",
+            "question": "What does Ashish do on Friday afternoon?",
+            "options": [
+              "Plays football",
+              "Goes to village home",
+              "Goes cycling",
+              "Goes for a long walk"
+            ],
+            "correct": 2,
+            "explanation_bn": "শুক্রবার বিকালে আশীষ সাইকেল চালায়।",
+            "explanation_en": "Ashish goes cycling on Friday afternoon."
+          },
+          {
+            "id": "1ii",
+            "question": "Ashish plays Kabadi on ---",
+            "options": [
+              "Friday",
+              "Friday afternoon",
+              "Saturday",
+              "Saturday afternoon"
+            ],
+            "correct": 2,
+            "explanation_bn": "আশীষ শনিবার কাবাডি খেলে।",
+            "explanation_en": "Ashish plays Kabadi on Saturday."
+          },
+          {
+            "id": "1iii",
+            "question": "How many days does Ashish attend the club?",
+            "options": [
+              "Every day",
+              "Only on Friday",
+              "Five days in a week",
+              "On weekends"
+            ],
+            "correct": 2,
+            "explanation_bn": "আশীষ সপ্তাহে পাঁচ দিন ক্লাবে যায়।",
+            "explanation_en": "Ashish attends the club five days a week."
+          },
+          {
+            "id": "1iv",
+            "question": "How many days does the team doctor check the players?",
+            "options": [
+              "Two days",
+              "Once a week",
+              "On weekends",
+              "Everyday"
+            ],
+            "correct": 1,
+            "explanation_bn": "দলের ডাক্তার সপ্তাহে একবার খেলোয়াড়দের পরীক্ষা করেন।",
+            "explanation_en": "The team doctor checks the players once a week."
+          },
+          {
+            "id": "1v",
+            "question": "Who keeps the records of the performances of the players?",
+            "options": [
+              "The team leader",
+              "The doctor",
+              "The player himself",
+              "The team manager"
+            ],
+            "correct": 3,
+            "explanation_bn": "দলের ব্যবস্থাপক খেলোয়াড়দের পারদর্শিতার রেকর্ড রাখেন।",
+            "explanation_en": "The team manager keeps the records."
+          },
+          {
+            "id": "1vi",
+            "question": "Going home is really a wonderful experience. Here 'really' means ---",
+            "options": [
+              "generally",
+              "certainly",
+              "very",
+              "sincerely"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Really' শব্দের অর্থ 'certainly' (নিশ্চিতভাবে)।",
+            "explanation_en": "The word 'really' means certainly."
+          },
+          {
+            "id": "1vii",
+            "question": "Going home is really a wonderful experience. Here 'Going' is a/an ---",
+            "options": [
+              "noun",
+              "adjective",
+              "adverb",
+              "conjunction"
+            ],
+            "correct": 0,
+            "explanation_bn": "এখানে 'Going' একটি noun (বিশেষ্য) হিসেবে ব্যবহৃত হয়েছে।",
+            "explanation_en": "'Going' is a noun here."
+          },
+          {
+            "id": "1viii",
+            "question": "What does the word 'important' mean?",
+            "options": [
+              "negligible",
+              "significant",
+              "trivial",
+              "minor"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Important' শব্দের অর্থ 'significant' (গুরুত্বপূর্ণ)।",
+            "explanation_en": "The word 'important' means significant."
+          },
+          {
+            "id": "1ix",
+            "question": "What does 'performance' mean?",
+            "options": [
+              "programme",
+              "exhibition",
+              "activity",
+              "game"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Performance' শব্দের অর্থ 'activity' (কর্ম/ক্রীড়াকৌশল)।",
+            "explanation_en": "'Performance' means activity."
+          },
+          {
+            "id": "1x",
+            "question": "Who waits for Ashish in the village?",
+            "options": [
+              "Wife",
+              "Brother",
+              "Mother",
+              "Friends"
+            ],
+            "correct": 2,
+            "explanation_bn": "আশীষের মা গ্রামে তার অপেক্ষা করেন।",
+            "explanation_en": "His mother waits for him."
+          },
+          {
+            "id": "1xi",
+            "question": "A striker is a player who plays in the ---",
+            "options": [
+              "midfield",
+              "forward",
+              "right wing",
+              "left wing"
+            ],
+            "correct": 1,
+            "explanation_bn": "আক্রমণভাগের খেলোয়াড় ফরোয়ার্ড পজিশনে খেলে।",
+            "explanation_en": "A striker plays in the forward position."
+          },
+          {
+            "id": "1xii",
+            "question": "Then he selects the team for the day. Here 'he' refers to ---",
+            "options": [
+              "Ashish",
+              "the team doctor",
+              "the coach",
+              "the team manager"
+            ],
+            "correct": 3,
+            "explanation_bn": "'He' বলতে দলের ব্যবস্থাপককে বোঝানো হয়েছে।",
+            "explanation_en": "'He' refers to the team manager."
+          },
+          {
+            "id": "1xiii",
+            "question": "What does 'wonderful' mean?",
+            "options": [
+              "magnificent",
+              "normal",
+              "terrible",
+              "common"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Wonderful' শব্দের অর্থ 'magnificent' (চমৎকার)।",
+            "explanation_en": "'Wonderful' means magnificent."
+          },
+          {
+            "id": "1xiv",
+            "question": "We regularly play with other local teams. What does 'local' mean?",
+            "options": [
+              "general",
+              "regional",
+              "national",
+              "foreign"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Local' শব্দের অর্থ 'regional' (স্থানীয়)।",
+            "explanation_en": "'Local' means regional."
+          },
+          {
+            "id": "1xv",
+            "question": "What does 'friend' mean?",
+            "options": [
+              "companion",
+              "stranger",
+              "foe",
+              "enemy"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Friend' শব্দের অর্থ 'companion' (বন্ধু)।",
+            "explanation_en": "'Friend' means companion."
+          },
+          {
+            "id": "2a",
+            "question": "How does Ashish spend Saturday?",
+            "options": [
+              "He gets up a little late and plays kabadi in the afternoon.",
+              "He goes to the club and practices football all day.",
+              "He visits his village home and meets his mother.",
+              "He watches videos of important matches with his coach."
+            ],
+            "correct": 0,
+            "explanation_bn": "শনিবারে আশিস একটু দেরি করে উঠে এবং বিকালে কাবাডি খেলে।",
+            "explanation_en": "On Saturday, Ashish gets up a little late and plays kabadi in the afternoon."
+          },
+          {
+            "id": "2b",
+            "question": "What does the coach show to the players and why?",
+            "options": [
+              "Videos of important matches so they can learn from them.",
+              "New football techniques to improve their skills.",
+              "The rules of the game before each match.",
+              "Their previous match recordings to find mistakes."
+            ],
+            "correct": 0,
+            "explanation_bn": "কোচ খেলোয়াড়দের গুরুত্বপূর্ণ ম্যাচের ভিডিও দেখান যাতে তারা সেখান থেকে শিখতে পারে।",
+            "explanation_en": "The coach shows the players videos of important matches so they can learn from them."
+          },
+          {
+            "id": "2c",
+            "question": "Do you think Ashish leads a disciplined life? Explain how.",
+            "options": [
+              "Yes, he has a set schedule and wakes up early every day.",
+              "No, he does not follow any routine.",
+              "Yes, but only on weekends he follows a routine.",
+              "No, he plays all day without any schedule."
+            ],
+            "correct": 0,
+            "explanation_bn": "হ্যাঁ, আশিস একটি সুশৃঙ্খল জীবন যাপন করে — তার অনুশীলন, কোচিং ও ম্যাচের নির্দিষ্ট সময়সূচি আছে।",
+            "explanation_en": "Yes, Ashish leads a disciplined life with a set schedule for practice, coaching, and matches."
+          },
+          {
+            "id": "2d",
+            "question": "What is Ashish Biswash?",
+            "options": [
+              "A striker who plays football for the local Friends Club.",
+              "A coach of the local football club.",
+              "A kabadi player for the national team.",
+              "A goalkeeper in the school football team."
+            ],
+            "correct": 0,
+            "explanation_bn": "আশিস বিশ্বাস একজন স্ট্রাইকার যে স্থানীয় ফ্রেন্ডস ক্লাবের হয়ে ফুটবল খেলে।",
+            "explanation_en": "Ashish Biswash is a striker who plays football for the local Friends Club."
+          },
+          {
+            "id": "2e",
+            "question": "Why is going home so wonderful for Ashish?",
+            "options": [
+              "Because his mother lives in the village and waits for him.",
+              "Because he can play kabadi in the village.",
+              "Because he meets all his childhood friends there.",
+              "Because there is a big playground in the village."
+            ],
+            "correct": 0,
+            "explanation_bn": "বাড়ি যাওয়া আশিসের জন্য চমৎকার কারণ তার মা গ্রামে থাকেন এবং তার জন্য অপেক্ষা করেন।",
+            "explanation_en": "Going home is wonderful for Ashish because his mother lives in the village and waits for him."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2",
+      "name": "Gap Fill & Vocabulary",
+      "type": "gap_fill_vocab",
+      "content": {
+        "gapFill": {
+          "passage": "One morning, the Giant was in (a) when he heard beautiful music. It was so lovely that he thought it must be the (b) musicians. But it was just a little bird (c) outside his window.\n\nThen the cold north wind stopped, and a sweet (d) came through the window which was open. \"I think spring has finally arrived,\" said the Giant. He (e) got out of bed and looked outside.",
+          "dialogPassage": "",
+          "boxWords": [
+            "bed",
+            "King's",
+            "singing",
+            "smell",
+            "quickly"
+          ],
+          "blanks": [
+            {
+              "blankId": "a",
+              "options": [
+                {
+                  "text": "bed",
+                  "isCorrect": true,
+                  "explanationBn": "(a) bed — বিছানা",
+                  "explanationEn": "Correct answer."
+                },
+                {
+                  "text": "castle",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "garden",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "room",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                }
+              ],
+              "explanation_bn": "দৈত্য যখন সুন্দর সংগীত শুনতে পেল তখন সে বিছানায় ছিল।",
+              "explanation_en": "The Giant was in bed when he heard beautiful music."
+            },
+            {
+              "blankId": "b",
+              "options": [
+                {
+                  "text": "King's",
+                  "isCorrect": true,
+                  "explanationBn": "(b) King's — রাজার",
+                  "explanationEn": "Correct answer."
+                },
+                {
+                  "text": "Queen's",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "people's",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "children's",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                }
+              ],
+              "explanation_bn": "সে ভেবেছিল এটি রাজার গায়কদল।",
+              "explanation_en": "He thought it must be the King's musicians."
+            },
+            {
+              "blankId": "c",
+              "options": [
+                {
+                  "text": "singing",
+                  "isCorrect": true,
+                  "explanationBn": "(c) singing — গান গাইছিল",
+                  "explanationEn": "Correct answer."
+                },
+                {
+                  "text": "playing",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "dancing",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "talking",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                }
+              ],
+              "explanation_bn": "এটি ছিল একটি ছোট পাখি যা জানালার বাইরে গান গাইছিল।",
+              "explanation_en": "It was just a little bird singing outside his window."
+            },
+            {
+              "blankId": "d",
+              "options": [
+                {
+                  "text": "smell",
+                  "isCorrect": true,
+                  "explanationBn": "(d) smell — গন্ধ",
+                  "explanationEn": "Correct answer."
+                },
+                {
+                  "text": "sound",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "wind",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "light",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                }
+              ],
+              "explanation_bn": "একটি মিষ্টি গন্ধ খোলা জানালা দিয়ে ভেসে এলো।",
+              "explanation_en": "A sweet smell came through the window."
+            },
+            {
+              "blankId": "e",
+              "options": [
+                {
+                  "text": "quickly",
+                  "isCorrect": true,
+                  "explanationBn": "(e) quickly — দ্রুত",
+                  "explanationEn": "Correct answer."
+                },
+                {
+                  "text": "slowly",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "lazily",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                },
+                {
+                  "text": "sadly",
+                  "isCorrect": false,
+                  "explanationBn": "ভুল উত্তর।",
+                  "explanationEn": "Wrong answer."
+                }
+              ],
+              "explanation_bn": "সে দ্রুত বিছানা থেকে বেরিয়ে বাইরে তাকাল।",
+              "explanation_en": "He quickly got out of bed and looked outside."
+            }
+          ]
+        },
+        "vocabQuestions": [
+          {
+            "id": "3a",
+            "question": "What is the antonym of 'awake'?",
+            "options": [
+              "asleep",
+              "alert",
+              "conscious",
+              "active"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Awake' শব্দের বিপরীত 'asleep' (নিদ্রিত)।",
+            "explanation_en": "The antonym of 'awake' is asleep."
+          },
+          {
+            "id": "3b",
+            "question": "What is the synonym of 'sweet'?",
+            "options": [
+              "melodious",
+              "bitter",
+              "sour",
+              "salty"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Sweet' শব্দের সমার্থক 'melodious' (মধুর)।",
+            "explanation_en": "The synonym of 'sweet' is melodious."
+          },
+          {
+            "id": "3c",
+            "question": "What is the synonym of 'perfume'?",
+            "options": [
+              "fragrance",
+              "stench",
+              "smoke",
+              "dust"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Perfume' শব্দের সমার্থক 'fragrance' (সুবাস)।",
+            "explanation_en": "The synonym of 'perfume' is fragrance."
+          },
+          {
+            "id": "3d",
+            "question": "What is the synonym of 'creep'?",
+            "options": [
+              "crawl",
+              "run",
+              "jump",
+              "fly"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Creep' শব্দের সমার্থক 'crawl' (হামাগুড়ি দেওয়া)।",
+            "explanation_en": "The synonym of 'creep' is crawl."
+          },
+          {
+            "id": "3e",
+            "question": "What is the antonym of 'delightfully'?",
+            "options": [
+              "sadly",
+              "joyfully",
+              "happily",
+              "merrily"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Delightfully' শব্দের বিপরীত 'sadly' (দুঃখের সাথে)।",
+            "explanation_en": "The antonym of 'delightfully' is sadly."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch3",
+      "name": "Biographical Passage & Summary",
+      "type": "passage_summary",
+      "content": {
+        "translation_bn": "হেনরি ওয়ার্ডসওয়ার্থ লংফেলো ১৮০৭ সালে মেইনের পোর্টল্যান্ডে জন্মগ্রহণ করেন। তিনি ১৩ বছর বয়সে কবিতা প্রকাশ করা শুরু করেন। বাউডইন কলেজে অধ্যয়নের পর তিনি তাঁর কলেজে আধুনিক ভাষার অধ্যাপকের পদের জন্য নিজেকে প্রস্তুত করতে বিদেশ ভ্রমণ করেন, যে পদটি তিনি ১৮২৯ সালে গ্রহণ করেন। ১৮৩৬ সালে তিনি একই পদে হার্ভার্ডে নিযুক্ত হন এবং আরও ভ্রমণ চলতে থাকে। তিনি ১৮৫৪ সালে অধ্যাপনা থেকে ইস্তফা দেন নিজেকে সম্পূর্ণ কবিতায় নিমগ্ন করতে। তাঁর উল্লেখযোগ্য কাজগুলো হলো: দ্যা পিলগ্রিমেজ বেয়ন্ড দ্যা সী (১৮৩৪-১৮৩৫), ভয়েস অব দ্যা নাইট (১৮৩৯), এভানজেলাইন (১৮৪৭), দ্যা সং অব হায়ওয়াথা (১৮৫৫), দ্যা কোটশিপ অব মাইলস স্ট্যান্ডিশ (১৮৫৮), দ্যা টেলস অব আ ওয়েসাইড ইন (১৮৬৩)। হেনরি লংফেলো ছিলেন একজন সচেতন কবি এবং বিভিন্ন বিষয়ের ওপর রচনা করেছেন। তাঁর গীতি কবিতা অসংখ্য, সুমধুর এবং প্রায়ই অনুভূতির দ্বারা চিহ্নিত। তিনি ১৮৮২ সালে মারা যান।",
+        "vocabulary": [
+          {
+            "word": "abroad",
+            "synonym": "overseas",
+            "antonym": "home",
+            "pos": "adv.",
+            "meaning_en": "overseas",
+            "meaning_bn": "বিদেশ"
+          },
+          {
+            "word": "appoint",
+            "synonym": "assign",
+            "antonym": "dismiss",
+            "pos": "v.",
+            "meaning_en": "to assign",
+            "meaning_bn": "নিয়োগ দেওয়া"
+          },
+          {
+            "word": "devote",
+            "synonym": "commit",
+            "antonym": "neglect",
+            "pos": "v.",
+            "meaning_en": "to dedicate",
+            "meaning_bn": "উৎসর্গ করা"
+          },
+          {
+            "word": "equip",
+            "synonym": "prepare",
+            "antonym": "unprepare",
+            "pos": "v.",
+            "meaning_en": "to prepare",
+            "meaning_bn": "প্রস্তুত করা"
+          },
+          {
+            "word": "melodious",
+            "synonym": "harmonious",
+            "antonym": "tuneless",
+            "pos": "adj.",
+            "meaning_en": "sweet sounding",
+            "meaning_bn": "সুমধুর"
+          },
+          {
+            "word": "notable",
+            "synonym": "remarkable",
+            "antonym": "insignificant",
+            "pos": "adj.",
+            "meaning_en": "remarkable",
+            "meaning_bn": "উল্লেখযোগ্য"
+          },
+          {
+            "word": "numerous",
+            "synonym": "countless",
+            "antonym": "few",
+            "pos": "adj.",
+            "meaning_en": "many",
+            "meaning_bn": "অসংখ্য"
+          },
+          {
+            "word": "professorship",
+            "synonym": "chair",
+            "antonym": "",
+            "pos": "n.",
+            "meaning_en": "position of a professor",
+            "meaning_bn": "অধ্যাপকের পদ"
+          },
+          {
+            "word": "resign",
+            "synonym": "step down",
+            "antonym": "remain",
+            "pos": "v.",
+            "meaning_en": "to quit",
+            "meaning_bn": "পদত্যাগ করা"
+          }
+        ],
+        "mcqQuestions": [
+          {
+            "id": "5a",
+            "question": "Where did Henry Longfellow study?",
+            "options": [
+              "Bowdoin College",
+              "Harvard University",
+              "Oxford University",
+              "Cambridge University"
+            ],
+            "correct": 0,
+            "explanation_bn": "হেনরি লংফেলো বাউডইন কলেজে অধ্যয়ন করেন।",
+            "explanation_en": "He studied at Bowdoin College."
+          },
+          {
+            "id": "5b",
+            "question": "When did he join as a professor at Bowdoin College?",
+            "options": [
+              "1829",
+              "1836",
+              "1807",
+              "1854"
+            ],
+            "correct": 0,
+            "explanation_bn": "তিনি ১৮২৯ সালে বাউডইন কলেজে অধ্যাপক হিসেবে যোগ দেন।",
+            "explanation_en": "He joined as a professor in 1829."
+          },
+          {
+            "id": "5c",
+            "question": "When did he join as a professor at Harvard?",
+            "options": [
+              "1836",
+              "1829",
+              "1854",
+              "1847"
+            ],
+            "correct": 0,
+            "explanation_bn": "তিনি ১৮৩৬ সালে হার্ভার্ডে নিযুক্ত হন।",
+            "explanation_en": "He was appointed at Harvard in 1836."
+          },
+          {
+            "id": "5d",
+            "question": "When did he resign his professorship?",
+            "options": [
+              "1854",
+              "1836",
+              "1829",
+              "1863"
+            ],
+            "correct": 0,
+            "explanation_bn": "তিনি ১৮৫৪ সালে অধ্যাপনা থেকে ইস্তফা দেন।",
+            "explanation_en": "He resigned in 1854."
+          },
+          {
+            "id": "5e",
+            "question": "In what year was 'Voice of the Night' published?",
+            "options": [
+              "1839",
+              "1847",
+              "1855",
+              "1858"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Voice of the Night' ১৮৩৯ সালে প্রকাশিত হয়।",
+            "explanation_en": "'Voice of the Night' was published in 1839."
+          }
+        ],
+        "trueFalseQuestions": [
+          {
+            "id": "6a",
+            "question": "Henry Longfellow was a novelist.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 1,
+            "explanation_bn": "হেনরি ওয়াডসওয়ার্থ লংফেলো ঔপন্যাসিক নন, তিনি ছিলেন কবি।",
+            "explanation_en": "Henry Wadsworth Longfellow was not a novelist, he was a poet."
+          },
+          {
+            "id": "6b",
+            "question": "He joined as a professor at Bowdoin College in 1829.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 0,
+            "explanation_bn": "তিনি ১৮২৯ সালে বোডইন কলেজে অধ্যাপক হিসেবে যোগদান করেছিলেন।",
+            "explanation_en": "He joined as a professor at Bowdoin College in 1829."
+          },
+          {
+            "id": "6c",
+            "question": "He left his job to devote himself to write poetry.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 0,
+            "explanation_bn": "তিনি কবিতা লেখায় নিজেকে উৎসর্গ করতে চাকরি ছেড়েছিলেন।",
+            "explanation_en": "He left his job to devote himself to writing poetry."
+          },
+          {
+            "id": "6d",
+            "question": "'The Tales of a Wayside Inn' was published in 1863.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 0,
+            "explanation_bn": "'The Tales of a Wayside Inn' ১৮৬৩ সালে প্রকাশিত হয়েছিল।",
+            "explanation_en": "'The Tales of a Wayside Inn' was published in 1863."
+          },
+          {
+            "id": "6e",
+            "question": "He was born in 1870.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correct": 1,
+            "explanation_bn": "তিনি ১৮০৭ সালে জন্মগ্রহণ করেছিলেন, ১৮৭০ সালে নয়।",
+            "explanation_en": "He was born in 1807, not 1870."
+          }
+        ],
+        "summary": "Henry Wadsworth Longfellow was born in 1807 at Portland, Maine. He began publishing poetry at 13. After studying at Bowdoin College, he became a professor there in 1829 and later at Harvard in 1836. He resigned in 1854 to focus on poetry. His notable works include Evangeline, The Song of Hiawatha, and The Tales of a Wayside Inn. He died in 1882.",
+        "passage": "Henry Wordsworth Longfellow was born in 1807 at Portland, Maine and came to York. He began publishing poetry when he was 13 years old. After studying at Bowdoin College to equip himself for the work of Professor of Modern Language at his college, a post which he accepted in 1829. In 1836 he was appointed to a similar position at Harvard and more travelling followed. He resigned his professorship in 1854 to devote himself entirely to poetry of which he had already produced a large amount. The most notable of his works are The Pilgrimage Beyond The Sea (1834-1835), Voice of the Night (1839), Evangeline (1847), The Song of Hiawatha (1855), The Courtship of Miles Standish (1858), The Tales of a Wayside Inn (1863). Henry Longfellow was a careful poet and composed over a variety of subjects. His lyrics are numerous, melodious and often marked by the feeling. He died in 1882."
+      }
+    },
+    {
+      "id": "ch4",
+      "name": "Sentence Making",
+      "type": "sentence_matching",
+      "content": {
+        "exercise": {
+          "id": 1,
+          "question_text": "Match the parts of sentences from Column A and Column B to make five complete sentences.",
+          "table_columns": [
+            [
+              "There lived",
+              "One day, he lost",
+              "He felt",
+              "He hit",
+              "The foxes knew"
+            ],
+            [
+              "sad but did not lose his heart.",
+              "his tail in a trap.",
+              "about his intelligence and attended the meeting.",
+              "a very cunning fox in a jungle.",
+              "upon a plan and called a meeting of the foxes in the jungle."
+            ]
+          ],
+          "valid_sentences": [
+            {
+              "sentence": "There lived a very cunning fox in a jungle.",
+              "combination": [
+                "There lived",
+                "a very cunning fox in a jungle."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "One day, he lost his tail in a trap.",
+              "combination": [
+                "One day, he lost",
+                "his tail in a trap."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "He felt sad but did not lose his heart.",
+              "combination": [
+                "He felt",
+                "sad but did not lose his heart."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "He hit upon a plan and called a meeting of the foxes in the jungle.",
+              "combination": [
+                "He hit",
+                "upon a plan and called a meeting of the foxes in the jungle."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            },
+            {
+              "sentence": "The foxes knew about his intelligence and attended the meeting.",
+              "combination": [
+                "The foxes knew",
+                "about his intelligence and attended the meeting."
+              ],
+              "explanation_en": "This is a correct sentence.",
+              "explanation_bn": "এটি একটি সঠিক বাক্য।"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch5",
+      "name": "Rearranging",
+      "type": "rearrangement",
+      "content": {
+        "sentences": [
+          {
+            "id": "a",
+            "text": "And with that he threw it back into the river and watched it swim away."
+          },
+          {
+            "id": "b",
+            "text": "The battle continued."
+          },
+          {
+            "id": "c",
+            "text": "Then the man who caught it said, \"It's very beautiful. Let it go.\""
+          },
+          {
+            "id": "d",
+            "text": "The fish was very large and was fighting harder than before."
+          },
+          {
+            "id": "e",
+            "text": "Its gills opened and closed as if it were tired from the fight."
+          },
+          {
+            "id": "f",
+            "text": "All the men on the bank stared at the fish for a moment."
+          },
+          {
+            "id": "g",
+            "text": "The fisher tried to pull it in, but the fish didn't give up."
+          },
+          {
+            "id": "h",
+            "text": "One day some fishermen were trying to catch the giant bluefish, the talk of the town."
+          }
+        ],
+        "correctOrder": [
+          "h",
+          "g",
+          "b",
+          "d",
+          "f",
+          "e",
+          "c",
+          "a"
+        ],
+        "reconstructedParagraph": "One day some fishermen were trying to catch the giant bluefish, the talk of the town. The fisher tried to pull it in, but the fish didn't give up. The battle continued. The fish was very large and was fighting harder than before. All the men on the bank stared at the fish for a moment. Its gills opened and closed as if it were tired from the fight. Then the man who caught it said, \"It's very beautiful. Let it go.\" And with that he threw it back into the river and watched it swim away."
+      }
+    },
+    {
+      "id": "ch6",
+      "name": "Poetry MCQ",
+      "type": "poetry_mcq",
+      "content": {
+        "questions": [
+          {
+            "id": "10a",
+            "question": "Whom did the speaker ask the same question repeatedly in the poem 'Whose Child Is This'?",
+            "options": [
+              "Parent and teacher",
+              "The child",
+              "The king",
+              "The guard"
+            ],
+            "correct": 0,
+            "explanation_bn": "বক্তা পিতামাতা এবং শিক্ষককে বারবার একই প্রশ্ন করেছিলেন।",
+            "explanation_en": "The speaker asked the parent and the teacher."
+          },
+          {
+            "id": "10b",
+            "question": "In the poem 'Whose Child Is This?', what was the child doing when the speaker saw him first?",
+            "options": [
+              "Playing",
+              "Sleeping",
+              "Crying",
+              "Studying"
+            ],
+            "correct": 0,
+            "explanation_bn": "কবিতায় শিশুটিকে প্রথম দেখা গিয়েছিল খেলতে।",
+            "explanation_en": "The child was playing when the speaker saw him first."
+          },
+          {
+            "id": "10c",
+            "question": "According to the poem 'Whose Child Is This?', whose job is it to take care of a child?",
+            "options": [
+              "Parent and teacher",
+              "Only parent",
+              "Only teacher",
+              "Nobody"
+            ],
+            "correct": 0,
+            "explanation_bn": "পিতামাতা এবং শিক্ষক উভয়েরই শিশুর যত্ন নেওয়ার দায়িত্ব।",
+            "explanation_en": "It is the job of a parent as well as a teacher."
+          },
+          {
+            "id": "10d",
+            "question": "What does the poet mean by 'streams full of stars' in the poem 'Leisure'?",
+            "options": [
+              "Stream water reflecting bright light",
+              "Stars falling in water",
+              "Fishes in water",
+              "Children playing in water"
+            ],
+            "correct": 0,
+            "explanation_bn": "স্রোতের পানি উজ্জ্বল আলো প্রতিফলিত করে তারায় ভরা দেখায়।",
+            "explanation_en": "Stream water reflects bright light, appearing full of stars."
+          },
+          {
+            "id": "10e",
+            "question": "Why is there no time to see the beauty of nature according to the poem 'Leisure'?",
+            "options": [
+              "Life is full of responsibilities and worries",
+              "People are lazy",
+              "Nature is not beautiful",
+              "People sleep all day"
+            ],
+            "correct": 0,
+            "explanation_bn": "জীবন দায়িত্ব ও দুশ্চিন্তায় পূর্ণ, তাই প্রকৃতির সৌন্দর্য দেখার সময় নেই।",
+            "explanation_en": "Life is full of responsibilities and worries."
+          },
+          {
+            "id": "10f",
+            "question": "According to the poem 'Leisure', what would we see if we had time to stare?",
+            "options": [
+              "Squirrels hiding nuts and streams full of stars",
+              "Only darkness",
+              "Nothing special",
+              "Only buildings"
+            ],
+            "correct": 0,
+            "explanation_bn": "সময় পেলে আমরা কাঠবিড়ালিদের বাদাম লুকাতে এবং তারায় ভরা স্রোত দেখতে পেতাম।",
+            "explanation_en": "We would see squirrels hiding nuts and streams full of stars."
+          },
+          {
+            "id": "10g",
+            "question": "What does the poet compare the speed of the train to in the poem 'From a Railway Carriage'?",
+            "options": [
+              "Fairies and witches",
+              "Horses",
+              "Cars",
+              "Birds"
+            ],
+            "correct": 0,
+            "explanation_bn": "কবি ট্রেনের গতিকে পরী ও ডাইনির সাথে তুলনা করেছেন।",
+            "explanation_en": "The poet compares the speed to fairies and witches."
+          },
+          {
+            "id": "10h",
+            "question": "What is faster than fairies and witches according to the poem 'From a Railway Carriage'?",
+            "options": [
+              "The train",
+              "The cart",
+              "The horse",
+              "The wind"
+            ],
+            "correct": 0,
+            "explanation_bn": "পরী ও ডাইনির চেয়ে ট্রেন বেশি দ্রুতগামী।",
+            "explanation_en": "The train is faster than fairies and witches."
+          }
+        ]
+      }
+    }
+  ]
+}

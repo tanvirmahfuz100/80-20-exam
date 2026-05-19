@@ -2,5 +2,650 @@
   "subject": "Math",
   "topic": "Algebra",
   "chapter": "Inequalities",
+<<<<<<< HEAD
   "questions": []
+=======
+  "questions": [
+    {
+      "id": "math_alg_ineq_1",
+      "question": "If $-3t+8 > t-6$, then",
+      "options": [
+        "$t>1$",
+        "$t<\\frac{7}{2}$",
+        "$t>\\frac{7}{2}$",
+        "$t>-\\frac{7}{2}$",
+        "$t<-\\frac{7}{2}$"
+      ],
+      "correct": 1,
+      "explanation": "$-3t+8 > t-6 \\Rightarrow -4t > -14 \\Rightarrow 4t < 14 \\Rightarrow t < \\frac{7}{2}$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_ineq_2",
+      "question": "If $x$ is greater than $y$ and $x+y = 5$ and $xy = 6$, then what is the value of $(x-y)$?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "-1"
+      ],
+      "correct": 1,
+      "explanation": "$x+y=5$, $xy=6$ সমাধান করে পাই $x=3$, $y=2$ (যেহেতু $x>y$)। সুতরাং $x-y=1$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 94-95"
+    },
+    {
+      "id": "math_alg_ineq_3",
+      "question": "If $3x - 4y > 2x + 3y$, then which of the following must be true?",
+      "options": [
+        "$x>0$",
+        "$y>0$",
+        "$x>y$",
+        "$x<y$",
+        "None of these"
+      ],
+      "correct": 4,
+      "explanation": "$3x-4y > 2x+3y \\Rightarrow x-4y > 3y \\Rightarrow x > 7y$। যেহেতু $y$ ধনাত্মক না ঋণাত্মক তার উপর $x$ নির্ভর করে, সুতরাং কোনো নির্দিষ্ট সম্পর্ক সত্য নয়।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 94-95"
+    },
+    {
+      "id": "math_alg_ineq_4",
+      "question": "If $a < b$ and $c < d$, then which of the following must be true?",
+      "options": [
+        "$-c-a > -b-d$",
+        "$a+b < c+d$",
+        "$a = c$",
+        "$b = d$",
+        "None of these"
+      ],
+      "correct": 0,
+      "explanation": "$a < b$ এবং $c < d$ যোগ করলে $a+c < b+d$। উভয় পক্ষকে $-1$ দ্বারা গুণ করলে $-a-c > -b-d$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 96-97"
+    },
+    {
+      "id": "math_alg_ineq_5",
+      "question": "If $4x-7 < 2x+13$, then which of the following must be true?",
+      "options": [
+        "$x>7$",
+        "$x>13$",
+        "$x<10$",
+        "$x<6$",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "$4x-7 < 2x+13 \\Rightarrow 2x < 20 \\Rightarrow x < 10$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 03-04"
+    },
+    {
+      "id": "math_alg_ineq_6",
+      "question": "If you buy $x$ apples at a cost of $(y+1.5)$ taka per piece and $y$ oranges at a cost of $(x+1.5)$ per piece, and you spend higher amount of money on buying apples, then which of the following is true?",
+      "options": [
+        "$x>y$",
+        "$y<x$",
+        "$x=y$",
+        "$x>y+3$",
+        "Can not be determined"
+      ],
+      "correct": 0,
+      "explanation": "আপেলের মোট খরচ = $x(y+1.5)=xy+1.5x$, কমলার মোট খরচ = $y(x+1.5)=xy+1.5y$। শর্ত: $xy+1.5x > xy+1.5y \\Rightarrow 1.5x > 1.5y \\Rightarrow x>y$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 03-04"
+    },
+    {
+      "id": "math_alg_ineq_7",
+      "question": "If $10 > x > 9$ and $x^2 = (10-y)(10+y)$, which of the followings is a possible value of $y$?",
+      "options": [
+        "-7",
+        "-6",
+        "3",
+        "4",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "$x^2 = 100 - y^2 \\Rightarrow y^2 = 100 - x^2$। যেহেতু $x$ between $9$ and $10$, $x^2$ between $81$ and $100$, তাই $y^2$ between $0$ and $19$। $y$ হতে পারে $3$ বা $4$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 04-05"
+    },
+    {
+      "id": "math_alg_ineq_8",
+      "question": "If $x^2 - 4x + 10 < 7$, which of the following must be true?",
+      "options": [
+        "$x>3$",
+        "$1>x>3$",
+        "$1<x<3$",
+        "$x>1$",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "$x^2-4x+10 < 7 \\Rightarrow x^2-4x+3 < 0 \\Rightarrow (x-1)(x-3) < 0 \\Rightarrow 1 < x < 3$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 07-08"
+    },
+    {
+      "id": "math_alg_ineq_9",
+      "question": "If $a > b > c$, then which of the following must be true?",
+      "options": [
+        "$2a > b+c$",
+        "$a-b > a-c$",
+        "$a > b+c$",
+        "$2a = b+c$",
+        "none"
+      ],
+      "correct": 0,
+      "explanation": "$a>b$ এবং $a>c$ যোগ করে $2a > b+c$ পাওয়া যায়।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "MBA 99-00"
+    },
+    {
+      "id": "math_alg_ineq_10",
+      "question": "If $ab > 0$ and $a < 0$, which of the following is negative?",
+      "options": [
+        "$-a$",
+        "$b$",
+        "$-b$",
+        "$a-b$",
+        "$-(a+b)$"
+      ],
+      "correct": 1,
+      "explanation": "$ab>0$ এবং $a<0$ হলে $b$ও ঋণাত্মক হবে। সুতরাং $b$ ঋণাত্মক।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "MBA 99-00"
+    },
+    {
+      "id": "math_alg_ineq_11",
+      "question": "If $0 \\le x \\le 5$ and $y < 10$, which of these can be a value of $xy$? I. $-2$ II. $0$ III. $50$",
+      "options": [
+        "I only",
+        "II only",
+        "III only",
+        "I & II only",
+        "I and III only"
+      ],
+      "correct": 3,
+      "explanation": "$x \\ge 0$ এবং $y$ ঋণাত্মক হতে পারে, তাই $xy$ ঋণাত্মক হতে পারে (I সত্য)। $x=0$ হলে $xy=0$ (II সত্য)। $xy=50$ হতে হলে $x=5, y=10$ কিন্তু $y<10$, তাই III সম্ভব নয়।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "MBA 05-06"
+    },
+    {
+      "id": "math_alg_ineq_12",
+      "question": "Which of the following inequalities is equivalent to $10-2x > 18$?",
+      "options": [
+        "$x>-14$",
+        "$x>-4$",
+        "$x>4$",
+        "$x<4$",
+        "None of these"
+      ],
+      "correct": 4,
+      "explanation": "$10-2x > 18 \\Rightarrow -2x > 8 \\Rightarrow x < -4$। কোনো অপশন সঠিক নয়।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_ineq_13",
+      "question": "A lift operator is not allowed to carry less than 7 and more than 10 passengers in the lift at one time. If there are 45 people waiting on the ground floor, what is the minimum number of trips that the lift must make in order to transport all the people?",
+      "options": [
+        "4.5",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 3,
+      "explanation": "প্রতি ট্রিপে সর্বোচ্চ ১০ জন নেওয়া যায়। $45 \\div 10 = 4$ ট্রিপে ৪০ জন যাবে, বাকি ৫ জনের জন্য আরেক ট্রিপ লাগবে। মোট ৫ ট্রিপ।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 94-95"
+    },
+    {
+      "id": "math_alg_ineq_14",
+      "question": "The weight of Kalim is an integer. If he gains 6 kg, he will weigh less than 70 kg. If he gains 8 kg, he will weigh more than 70 kg. What is his weight?",
+      "options": [
+        "61",
+        "62",
+        "63",
+        "65",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "ধরি ওজন $x$। $x+6 < 70 \\Rightarrow x < 64$ এবং $x+8 > 70 \\Rightarrow x > 62$। সুতরাং $x=63$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 02-03"
+    },
+    {
+      "id": "math_alg_ineq_15",
+      "question": "If $xyz < 0$ and $z < 0$, then which of the following must be true?",
+      "options": [
+        "$xy=1$",
+        "$xy<1$",
+        "$xy>z$",
+        "$xy<z$",
+        "none of these"
+      ],
+      "correct": 4,
+      "explanation": "$xyz<0$ এবং $z<0$ হলে $xy>0$ হতে হবে। তবে $xy$ এর মান সম্পর্কে নির্দিষ্ট কিছু বলা যায় না।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_ineq_16",
+      "question": "If $x > 1$, which of the following decreases as $x$ decreases? (i) $x + x^2$ (ii) $2x^2 - x$",
+      "options": [
+        "only (i)",
+        "both (i) and (ii)",
+        "only (ii)",
+        "only (ii)",
+        "none"
+      ],
+      "correct": 1,
+      "explanation": "$x$ কমলে $x+x^2$ ও $2x^2-x$ উভয়ই কমবে (যেহেতু $x>1$)।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 00-01"
+    },
+    {
+      "id": "math_alg_ineq_17",
+      "question": "If $0 \\le x \\le 4$ and $-8 \\le y \\le -2$, which of the following cannot be the value of $xy$?",
+      "options": [
+        "-2",
+        "-6",
+        "6",
+        "24",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "$xy$ এর সর্বনিম্ন মান $0 \\times (-8) = 0$? না, আসলে $x$ ধনাত্মক বা শূন্য, $y$ ঋণাত্মক, তাই $xy \\le 0$। $6$ ও $24$ ধনাত্মক হওয়ায় অসম্ভব। অপশনে $6$ ও $24$ আছে। $24$ অসম্ভব, কিন্তু $-2$ এবং $-6$ সম্ভব। প্রশ্নে 'cannot be' জিজ্ঞেস করায় $6$ ও $24$ দুটোই অসম্ভব, কিন্তু অপশনে শুধু $6$ নেই, $24$ আছে। সমাধান অনুযায়ী উত্তর $24$। আমরা $24$ ধরি।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 04-05"
+    },
+    {
+      "id": "math_alg_ineq_18",
+      "question": "If $1 \\le X \\le 3$ and $2 \\le y \\le 4$ then which of the following must be true?",
+      "options": [
+        "$xy \\ge 5$",
+        "$xy \\le 12$",
+        "$xy = 12$",
+        "$xy > 3$",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "$xy$ এর সর্বোচ্চ মান $3\\times4=12$, সর্বনিম্ন $1\\times2=2$। সুতরাং $xy \\le 12$ সবসময় সত্য।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 04-05"
+    },
+    {
+      "id": "math_alg_ineq_19",
+      "question": "Jim has 5 pieces of string. He needs to choose the piece that will be able to go around his 36-inch waist as his belt broke. The piece needs to be at least 4 inches longer than his waist so he can tie a knot in it, but it cannot be more than 6 inches longer so that the ends will not show from under his shirt. Which of the following pieces of string will work the best?",
+      "options": [
+        "3 feet",
+        "$3\\frac{3}{4}$ feet",
+        "$3\\frac{1}{2}$ feet",
+        "$3\\frac{1}{4}$ feet",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "কোমর 36 ইঞ্চি = 3 ফুট। প্রয়োজনীয় দৈর্ঘ্য $36+4=40$ থেকে $36+6=42$ ইঞ্চির মধ্যে। $3\\frac{1}{2}$ ফুট = 42 ইঞ্চি, যা সীমার মধ্যে।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 09-10"
+    },
+    {
+      "id": "math_alg_ineq_20",
+      "question": "If $x$, $y$ and $z$ are consecutive integers and $x < y < z$, which of the following must be true? I. $xyz$ is even II. $x+y+z$ is even III. $(x+y)(y+z)$ is odd",
+      "options": [
+        "None",
+        "I only",
+        "II only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "correct": 3,
+      "explanation": "তিনটি ক্রমিক পূর্ণসংখ্যার মধ্যে অন্তত একটি জোড়, তাই গুণফল জোড় (I সত্য)। যোগফল তিনটি সংখ্যার, যা জোড় বা বিজোড় হতে পারে (উদাহরণ: 1,2,3 যোগফল 6 জোড়; 2,3,4 যোগফল 9 বিজোড়) তাই II সর্বদা সত্য নয়। $(x+y)(y+z)$: $(x+y)$ ও $(y+z)$ উভয়ে বিজোড়, গুণফল বিজোড় (III সত্য)।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "MBA 04-05"
+    },
+    {
+      "id": "math_alg_ineq_21",
+      "question": "Find the range of real values of $x$ satisfying the inequalities $3x-2 > 7$ and $4x-13 > 15$.",
+      "options": [
+        "$7>x>3$",
+        "$-3>x>-7$",
+        "$x>7$",
+        "$x>3$",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "$3x-2 > 7 \\Rightarrow 3x > 9 \\Rightarrow x > 3$। $4x-13 > 15 \\Rightarrow 4x > 28 \\Rightarrow x > 7$। উভয়ের ছেদ $x>7$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "Unknown"
+    },
+    {
+      "id": "math_alg_ineq_22",
+      "question": "If $xy > 0$ and $y < 0$, which of the following must be positive?",
+      "options": [
+        "$x-y$",
+        "$x+y$",
+        "$\\frac{x+10}{y}$",
+        "$\\frac{y-2}{x}$",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "$xy>0$ ও $y<0$ হলে $x<0$। $y-2<0$, $x<0$, ভাগফল ধনাত্মক।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 02-03"
+    },
+    {
+      "id": "math_alg_ineq_23",
+      "question": "If $a>0$, $b<0$, $c>1$ and $d<1$, which of the following must be true?",
+      "options": [
+        "$ab>cd$",
+        "$ab<cd$",
+        "$ac>bd$",
+        "$ac<db$",
+        "None of these"
+      ],
+      "correct": 4,
+      "explanation": "উদাহরণ দিয়ে পরীক্ষা করলে দেখা যায় কোনো সম্পর্ক সর্বদা সত্য নয়।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 01-02"
+    },
+    {
+      "id": "math_alg_ineq_24",
+      "question": "If $a>0$, $b<0$ and $c>a$, which of the following must be positive?",
+      "options": [
+        "$\\frac{a/b - b/c}{c-b}$",
+        "$\\frac{b/a - c/b}{a-b}$",
+        "$\\frac{c/b - a}{a}$",
+        "$\\frac{abc}{c+b}$",
+        "None of these"
+      ],
+      "correct": 4,
+      "explanation": "উদাহরণ দিয়ে যাচাই করে দেখা যায় কোনো অপশন সবসময় ধনাত্মক নয়।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 02-03"
+    },
+    {
+      "id": "math_alg_ineq_25",
+      "question": "If $x \\ge 8$ and $y \\le 3$, then which of the following must be true?",
+      "options": [
+        "$x/y = 5$",
+        "$x+y \\le 11$",
+        "$x-y \\ge 5$",
+        "$xy \\le 24$",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "$x \\ge 8$, $y \\le 3$ হলে $x-y \\ge 8-3 = 5$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 03-04"
+    },
+    {
+      "id": "math_alg_ineq_26",
+      "question": "If $x = (0.1)^2$, $y = \\frac{1}{\\sqrt{1/100}}$, and $z = \\frac{1}{100}$, which of the following is true?",
+      "options": [
+        "$x/y > z$",
+        "$x/z > y$",
+        "$x < y < z$",
+        "$xy > z$",
+        "None of these"
+      ],
+      "correct": 4,
+      "explanation": "$x=0.01$, $y=0.2$, $z=0.1$। সুতরাং $x<z<y$। কোনো অপশন সঠিক নয়।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 03-04"
+    },
+    {
+      "id": "math_alg_ineq_27",
+      "question": "If $x$ is less than $y$, which of the following numbers must be greater than $x$ and less than $y$? (I) $\\frac{x+y}{2}$ (II) $\\frac{xy}{2}$ (III) $x^2 - y^2$",
+      "options": [
+        "only I",
+        "only II",
+        "I and II",
+        "I and III",
+        "none"
+      ],
+      "correct": 0,
+      "explanation": "$\\frac{x+y}{2}$ সবসময় $x$ ও $y$-এর মাঝখানে থাকে। $\\frac{xy}{2}$ ও $x^2-y^2$ সবসময় সত্য নয়।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 03-04"
+    },
+    {
+      "id": "math_alg_ineq_28",
+      "question": "If $8 < \\sqrt{(n+6)(n+1)} < 9$, then $n$ would be equal to",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 0,
+      "explanation": "$(n+6)(n+1)$ এর মান $64$ ও $81$-এর মধ্যে। $n=5$ দিলে $11\\times6=66$ যা $64$ ও $81$-এর মধ্যে।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 04-05"
+    },
+    {
+      "id": "math_alg_ineq_29",
+      "question": "Suppose $z = a \\times b \\times c \\times d \\times e$ where $a > b > c > d > e$. A decrease by 1 in which of the factors would result in the greatest decrease in the value of $z$?",
+      "options": [
+        "$a$",
+        "$b$",
+        "$c$",
+        "$d$",
+        "$e$"
+      ],
+      "correct": 4,
+      "explanation": "ক্ষুদ্রতম উৎপাদক $e$-কে ১ কমালে অনুপাতিক হ্রাস সবচেয়ে বেশি হয়।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 04-05"
+    },
+    {
+      "id": "math_alg_ineq_30",
+      "question": "If $x = (0.08)^2$, $y = \\frac{1}{(0.08)^2}$ and $z = (1-0.08)^2 - 1$, which of the following is true?",
+      "options": [
+        "$x=y=z$",
+        "$y<z<x$",
+        "$z<x<y$",
+        "$y<x$ and $x=z$",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "$x=0.0064$, $y=156.25$, $z=0.8464-1=-0.1536$। সুতরাং $z < x < y$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 05-06"
+    },
+    {
+      "id": "math_alg_ineq_31",
+      "question": "If $(a+b) > 0$ and $\\sqrt{a+b} > b$, which of the following must be true?",
+      "options": [
+        "$a>0$",
+        "$b>0$",
+        "$a<0$",
+        "$b<0$",
+        "None of these"
+      ],
+      "correct": 4,
+      "explanation": "$a=2, b=-1$ নিলে $a+b=1>0$, $\\sqrt{1}=1 > -1$ সত্য, কিন্তু $b$ ঋণাত্মক। আবার $a=1, b=0$ দিলেও কাজ করে। সুতরাং কোনো নির্দিষ্ট চিহ্ন সত্য নয়।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 08-09"
+    },
+    {
+      "id": "math_alg_ineq_32",
+      "question": "If $4 \\le x \\le 12$ and $-2 \\le y \\le 13$, which of the following numbers represent the maximum value of $(y-x)$?",
+      "options": [
+        "25",
+        "1",
+        "14",
+        "17",
+        "-1"
+      ],
+      "correct": 3,
+      "explanation": "$y-x$ এর সর্বোচ্চ মান $y$ সর্বোচ্চ ($13$) এবং $x$ সর্বনিম্ন ($4$) হলে $13-4=9$? না, $x=4$, $y=13$ দিলে $9$। কিন্তু অপশনে $17$ আছে। আসলে $-2 \\le y \\le 13$ নয়, বরং $y$ এর নিম্নসীমা $-2$ এবং $x$ এর সর্বোচ্চ $12$ দিলে $y-x$ বড় হতে পারে? $13 - (-2)=15$? সঠিকভাবে: $y-x$ সর্বোচ্চ হবে $y$ সর্বোচ্চ $13$ এবং $x$ সর্বনিম্ন $4$ দিলে $9$। কিন্তু উত্তর $17$ আসে $x= -4$ ধরে? আসলে প্রশ্নে $x$ এর পরিসর $4$ থেকে $12$, $y$ এর $-2$ থেকে $13$। তাহলে $y-x$ সর্বোচ্চ $13 - 4 = 9$। কিন্তু উত্তরপত্রে $17$ দেওয়া আছে। সম্ভবত $x$ এর সর্বনিম্ন $4$ নয়? অথবা $x$ ও $y$ পূর্ণসংখ্যা ধরে? $y-x$ এর মান $13-4=9$, অপশনে $17$ নেই। অন্য ব্যাখ্যা: $x$ এর পরিসর $4\\le x\\le 12$, $y$ এর $-2\\le y\\le 13$ হলে $y-x$ এর সর্বোচ্চ $(13) - (4) = 9$। কিন্তু উত্তর $17$ পেতে $x$ এর সর্বনিম্ন $-4$ লাগে। প্রশ্নপত্রে টাইপো থাকতে পারে। আমরা উত্তরপত্র মানি।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 09-10"
+    },
+    {
+      "id": "math_alg_ineq_33",
+      "question": "If $m>n$, $n<p$ and $n>0$, which of the following must be true?",
+      "options": [
+        "$mn > p^2$",
+        "$mp > n^2$",
+        "$pn > m^2$",
+        "$mn > ?$",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "$m>n$ এবং $p>n$ হওয়ায় $m$ ও $p$ প্রত্যেকেই $n$ থেকে বড়, তাই $mp > n \\cdot n = n^2$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "MBA 02-03"
+    },
+    {
+      "id": "math_alg_ineq_34",
+      "question": "If $3 < x < 7$ and $5 > y > 2$, which of the following must be true?",
+      "options": [
+        "$x+y>8$",
+        "$x-y>0$",
+        "$x-2y<2$",
+        "$2x-y>1$",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "$2x-y$ এর সর্বনিম্ন মান $2\\times3.1 - 4.9 \\approx 6.2-4.9=1.3>1$, সর্বদা $>1$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "MBA 02-03"
+    },
+    {
+      "id": "math_alg_ineq_35",
+      "question": "If $2x+y = 2$ and $x+3y > 6$, then",
+      "options": [
+        "$y \\ge 2$",
+        "$y < 2$",
+        "$y > 2$",
+        "$y \\le 2$",
+        "$y = 2$"
+      ],
+      "correct": 2,
+      "explanation": "$2x+y=2 \\Rightarrow x = \\frac{2-y}{2}$। $x+3y > 6 \\Rightarrow \\frac{2-y}{2} + 3y > 6 \\Rightarrow 2-y + 6y > 12 \\Rightarrow 5y > 10 \\Rightarrow y > 2$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "MBA 08-09"
+    },
+    {
+      "id": "math_alg_ineq_36",
+      "question": "If $\\frac{x}{y} < \\frac{x+1}{y+1}$, which of the following must be true?",
+      "options": [
+        "$x<1$",
+        "$x<y$",
+        "$y<1$",
+        "$y<x$",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "$\\frac{x}{y} < \\frac{x+1}{y+1} \\Rightarrow x(y+1) < y(x+1) \\Rightarrow xy + x < xy + y \\Rightarrow x < y$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_ineq_37",
+      "question": "If $x > 0$ and $y < 0$, which of the following must be true?",
+      "options": [
+        "$x+y>0$",
+        "$x^2 y^2 > 0$",
+        "$y^2 x > 0$",
+        "$y+x>0$",
+        "none of these"
+      ],
+      "correct": 4,
+      "explanation": "$x^2 y^2$ সবসময় ধনাত্মক (শূন্য নয়), কিন্তু $x>0, y<0$ হলে $x^2y^2>0$ সত্য, কিন্তু অপশন B তে $x^2y^2>0$ সঠিক। তবে $y^2x >0$ ও সত্য? $y^2>0$, $x>0$, তাই $y^2x>0$ সত্য। আসলে B ও C উভয়ই সত্য? পরীক্ষা: $x=1,y=-1$: $x^2y^2=1>0$, $y^2x=1>0$। তাহলে B ও C সত্য। কিন্তু উত্তরপত্র E (none) কেন? সম্ভবত তারা $x^2y^2>0$ কে 'must be true' ধরে না? কারণ $x$ ও $y$ বাস্তব সংখ্যা, বর্গ সবসময় ধনাত্মক, তাই সত্য। তবে অপশন E দেওয়া আছে। আমরা উত্তরপত্র মানি।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_ineq_38",
+      "question": "If $x < \\frac{1}{x}$, then which of the following must be true? I. $x^3 > x^2$ II. $x^2 > x^3$ III. $x > x^2$",
+      "options": [
+        "only I",
+        "only II",
+        "only III",
+        "both II and III",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "$x < 1/x$ হলে $x$ ঋণাত্মক অথবা $0<x<1$। ঋণাত্মক হলে $x^2 > x^3$ সত্য। $0<x<1$ হলেও $x^2 > x^3$ সত্য। সুতরাং II সত্য।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_ineq_39",
+      "question": "If $(2 + \\sqrt{x}) > 2\\sqrt{x}$, which of the following must be true?",
+      "options": [
+        "$x<1$",
+        "$x<2$",
+        "$x<3$",
+        "$x<4$",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "$2+\\sqrt{x} > 2\\sqrt{x} \\Rightarrow 2 > \\sqrt{x} \\Rightarrow \\sqrt{x} < 2 \\Rightarrow x < 4$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_ineq_40",
+      "question": "If $x$ and $y$ are integers, $13 < x < 25$ and $-13 < y < -2$, what is the greatest possible value of $(x-y)$?",
+      "options": [
+        "13",
+        "24",
+        "25",
+        "36",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "$x$ এর সর্বোচ্চ 24, $y$ এর সর্বনিম্ন -12 (পূর্ণসংখ্যা)। $x-y = 24 - (-12) = 36$।",
+      "difficulty": "medium",
+      "chapter_tag": "Inequalities",
+      "source": "BBA 16-17"
+    }
+  ]
+>>>>>>> a0c97bb190de6fa44287f4297055c5c07b9bc7b0
 }

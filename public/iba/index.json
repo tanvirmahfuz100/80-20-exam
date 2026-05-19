@@ -214,6 +214,11 @@
                             "file": "/iba/math/algebra_numbers.json"
                         },
                         {
+                            "id": "math_alg_real",
+                            "name": "Real Numbers, Absolute Value & Reciprocals",
+                            "file": "/iba/math/algebra_real_numbers.json"
+                        },
+                        {
                             "id": "math_alg_ops",
                             "name": "Basic Operations",
                             "file": "/iba/math/algebra_operations.json"

@@ -1,0 +1,988 @@
+{
+  "_type": "model_test",
+  "modelId": "m02",
+  "title": "Model Test 02 - English 1st Paper",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Passage & Comprehension",
+      "type": "passage_mcq",
+      "content": {
+        "passage": "Farabi is Flora's best friend. They live in the same area. Also they both are in class 7.\n\nBut they go to different schools. It is a school holiday. Flora has come to visit Farabi.\n\nThey are talking. Flora wants to know about the prize-giving ceremony of Farabi's school. \"Yesterday was our school prize-giving day.\" Farabi says.\n\n\"On this occasion our school auditorium and its dais were brightly decorated. Prizes were also neatly displayed on a separate table on the dais. All the students were present at the function.\n\nAmong others, the guardians and some eminent persons of the locality attended the function,\" Farabi continues. \"The Principal of PN College was the chief guest.\" \"When did the function start?\" Flora asked. \"Oh, it started on time - just at 4 pm,\" Farabi says.\n\n\"Our Head Teacher first read out the annual report. Then the chief guest delivered a short speech. He highly praised the overall performance of the school and its excellent JSC and SSC Exam results.\n\nThen he gave away the prizes among the students for their outstanding activities.\" \"Did you get any prize, Farabi?\" Flora enquires. \"Yes, I did,\" Farabi replies. \"I've got two prizes - one for regular attendance and the other for good results in the last annual exams.\"",
+        "translation_bn": "ফারাবি ফ্লোরার সবচেয়ে ভালো বন্ধু। তারা একই এলাকায় বাস করে। তারা উভয়েই ৭ম শ্রেণিতে পড়ে। কিন্তু তারা আলাদা বিদ্যালয়ে যায়। আজ বিদ্যালয় ছুটির দিন। ফ্লোরা ফারাবির সাথে দেখা করতে এসেছে। তারা কথা বলছে। ফ্লোরা ফারাবির বিদ্যালয়ের পুরস্কার বিতরণী অনুষ্ঠান সম্পর্কে জানতে চায়। \"গতকাল ছিল আমাদের বিদ্যালয়ের পুরস্কার বিতরণী দিবস,\" ফারাবি বলে। \"এ উপলক্ষে আমাদের বিদ্যালয় মিলনায়তন এবং এর মঞ্চ চমৎকারভাবে সাজানো হয়েছিল। পুরস্কারগুলোও মঞ্চে একটি আলাদা টেবিলে সুন্দরভাবে সাজিয়ে রাখা হয়েছিল। সকল শিক্ষার্থী এ অনুষ্ঠানে উপস্থিত ছিল। অন্যান্যদের মধ্যে, অভিভাবক এবং স্থানীয় কিছু বিশিষ্ট ব্যক্তি অনুষ্ঠানে উপস্থিত ছিলেন,\" ফারাবি বলতে থাকে। \"পিএন কলেজের অধ্যক্ষ প্রধান অতিথি ছিলেন।\" ফ্লোরা জিজ্ঞাসা করলো, \"অনুষ্ঠান কখন শুরু হয়েছিল?\" \"ওহ, যথাসময়ে শুরু হয়েছিল-ঠিক বিকাল ৪টায়,\" ফারাবি বলে। \"আমাদের প্রধান শিক্ষক প্রথমে বার্ষিক প্রতিবেদন পাঠ করেন। তারপর প্রধান অতিথি সংক্ষিপ্ত বক্তৃতা দেন। তিনি বিদ্যালয়ের সার্বিক কৃতিত্ব এবং জেএসসি ও এসএসসি পরীক্ষায় চমৎকার ফলাফলের জন্য উচ্ছ্বসিত প্রশংসা করেন। এরপর তিনি শিক্ষার্থীদের মাঝে তাদের অসাধারণ কীর্তির জন্য পুরস্কার বিতরণ করেন।\" \"ফারাবি, তুমি কি কোনো পুরস্কার পেয়েছিলে?\" ফ্লোরা জানতে চায়। \"হ্যাঁ, আমি পেয়েছিলাম,\" ফারাবি উত্তর দেয়। \"আমি দুটি পুরস্কার পেয়েছি- একটি নিয়মিত উপস্থিতি এবং অন্যটি গত বার্ষিক পরীক্ষায় ভালো ফলাফলের জন্যে।\"",
+        "vocabulary": [
+          {
+            "word": "auditorium",
+            "pos": "n",
+            "meaning_en": "a large room for public meetings or performances",
+            "meaning_bn": "মিলনায়তন",
+            "synonym": "hall",
+            "antonym": ""
+          },
+          {
+            "word": "decorate",
+            "pos": "v",
+            "meaning_en": "to adorn or ornament",
+            "meaning_bn": "সাজানো",
+            "synonym": "adorn, beautify",
+            "antonym": "spoil"
+          },
+          {
+            "word": "display",
+            "pos": "v",
+            "meaning_en": "to arrange for viewing",
+            "meaning_bn": "প্রদর্শন করা",
+            "synonym": "exhibit",
+            "antonym": "conceal"
+          },
+          {
+            "word": "eminent",
+            "pos": "adj",
+            "meaning_en": "famous in a particular profession",
+            "meaning_bn": "বিশিষ্ট",
+            "synonym": "important, famous",
+            "antonym": "unimportant"
+          },
+          {
+            "word": "annual",
+            "pos": "adj",
+            "meaning_en": "occurring once every year",
+            "meaning_bn": "বার্ষিক",
+            "synonym": "yearly",
+            "antonym": "monthly"
+          },
+          {
+            "word": "outstanding",
+            "pos": "adj",
+            "meaning_en": "exceptionally good",
+            "meaning_bn": "অসাধারণ",
+            "synonym": "great, unique",
+            "antonym": "ordinary"
+          },
+          {
+            "word": "attendance",
+            "pos": "n",
+            "meaning_en": "the act of being present",
+            "meaning_bn": "উপস্থিতি",
+            "synonym": "presence",
+            "antonym": "absence"
+          },
+          {
+            "word": "separate",
+            "pos": "adj",
+            "meaning_en": "different, distinct",
+            "meaning_bn": "আলাদা",
+            "synonym": "distinct",
+            "antonym": "same"
+          }
+        ],
+        "questions": [
+          {
+            "id": "1i",
+            "question": "Farabi is Flora's --- friend.",
+            "options": [
+              "new",
+              "random",
+              "bosom",
+              "old"
+            ],
+            "correct": 2,
+            "explanation_bn": "ফারাবি ফ্লোরার অন্তরঙ্গ বন্ধু। 'Bosom friend' অর্থ ঘনিষ্ঠ বন্ধু।",
+            "explanation_en": "Farabi is Flora's bosom (close) friend."
+          },
+          {
+            "id": "1ii",
+            "question": "When did the function begin?",
+            "options": [
+              "In the morning",
+              "At noon",
+              "In the afternoon",
+              "In the evening"
+            ],
+            "correct": 2,
+            "explanation_bn": "অনুষ্ঠানটি বিকাল ৪টায় শুরু হয়েছিল, যা afternoon-এর অন্তর্ভুক্ত।",
+            "explanation_en": "The function began at 4 pm, which is in the afternoon."
+          },
+          {
+            "id": "1iii",
+            "question": "Farabi was awarded for ---",
+            "options": [
+              "academic excellence",
+              "good behavior",
+              "sports activities",
+              "cultural activities"
+            ],
+            "correct": 0,
+            "explanation_bn": "ফারাবি নিয়মিত উপস্থিতি এবং বার্ষিক পরীক্ষায় ভালো ফলাফলের জন্য দুটি পুরস্কার পেয়েছিল, যা একাডেমিক উৎকর্ষতা নির্দেশ করে।",
+            "explanation_en": "Farabi got prizes for regular attendance and good results, indicating academic excellence."
+          },
+          {
+            "id": "1iv",
+            "question": "Who presented the annual report?",
+            "options": [
+              "Farabi",
+              "The chief guest",
+              "A student",
+              "Head Teacher"
+            ],
+            "correct": 3,
+            "explanation_bn": "প্রধান শিক্ষক বার্ষিক প্রতিবেদন পাঠ করেন।",
+            "explanation_en": "The Head Teacher read out the annual report."
+          },
+          {
+            "id": "1v",
+            "question": "The chief guest was a/an ---",
+            "options": [
+              "political leader",
+              "educator",
+              "famous singer",
+              "eminent sportsman"
+            ],
+            "correct": 1,
+            "explanation_bn": "প্রধান অতিথি ছিলেন পিএন কলেজের অধ্যক্ষ, যিনি একজন শিক্ষাবিদ।",
+            "explanation_en": "The chief guest was the Principal of PN College, who is an educator."
+          },
+          {
+            "id": "1vi",
+            "question": "Farabi and Flora ---",
+            "options": [
+              "are classmates",
+              "do not live in a different area",
+              "go to the same school",
+              "are talking about the prize-giving ceremony of their schools"
+            ],
+            "correct": 1,
+            "explanation_bn": "ফারাবি এবং ফ্লোরা একই এলাকায় বাস করে, তাই তারা আলাদা এলাকায় বাস করে না।",
+            "explanation_en": "Farabi and Flora live in the same area, so they do not live in a different area."
+          },
+          {
+            "id": "1vii",
+            "question": "But they go to different schools. Here 'different' means ---",
+            "options": [
+              "various",
+              "separate",
+              "alike",
+              "related"
+            ],
+            "correct": 1,
+            "explanation_bn": "এখানে 'different' অর্থ আলাদা বা separate।",
+            "explanation_en": "Here 'different' means separate or distinct."
+          },
+          {
+            "id": "1viii",
+            "question": "'Yesterday was our prize giving day.' Here 'yesterday' is a/an ---",
+            "options": [
+              "noun",
+              "pronoun",
+              "verb",
+              "adverb"
+            ],
+            "correct": 3,
+            "explanation_bn": "'Yesterday' সময় নির্দেশ করে, তাই এটি একটি adverb।",
+            "explanation_en": "'Yesterday' indicates time, so it is an adverb."
+          },
+          {
+            "id": "1ix",
+            "question": "Reading the passage, we get to know that Farabi is a/an --- student.",
+            "options": [
+              "dull",
+              "brilliant",
+              "irregular",
+              "underrated"
+            ],
+            "correct": 1,
+            "explanation_bn": "ফারাবি দুটি পুরস্কার পেয়েছে, তাই সে একজন মেধাবী ছাত্র।",
+            "explanation_en": "Farabi got two prizes, so he is a brilliant student."
+          },
+          {
+            "id": "1x",
+            "question": "Flora and Farabi are ---",
+            "options": [
+              "cousins",
+              "siblings",
+              "buddies",
+              "classmates"
+            ],
+            "correct": 2,
+            "explanation_bn": "ফারাবি এবং ফ্লোরা বন্ধু।",
+            "explanation_en": "Flora and Farabi are friends (buddies)."
+          },
+          {
+            "id": "1xi",
+            "question": "--- gave away the prizes among the students.",
+            "options": [
+              "The Head Teacher",
+              "The Principal of PN College",
+              "The eminent persons",
+              "The teachers of the school"
+            ],
+            "correct": 1,
+            "explanation_bn": "পিএন কলেজের অধ্যক্ষ (প্রধান অতিথি) পুরস্কার বিতরণ করেন।",
+            "explanation_en": "The Principal of PN College (the chief guest) gave away the prizes."
+          },
+          {
+            "id": "1xii",
+            "question": "'Then he gave away the prizes among the students for their outstanding activities.' What does 'outstanding' mean?",
+            "options": [
+              "terrible",
+              "due",
+              "exceptional",
+              "dreadful"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Outstanding' অর্থ অসাধারণ বা exceptional।",
+            "explanation_en": "'Outstanding' means exceptional or extraordinary."
+          },
+          {
+            "id": "1xiii",
+            "question": "'...some eminent persons of the locality attended the function.' What does 'eminent' mean here?",
+            "options": [
+              "minor",
+              "notorious",
+              "renowned",
+              "negligible"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Eminent' অর্থ বিশিষ্ট বা renowned।",
+            "explanation_en": "'Eminent' means famous or renowned."
+          },
+          {
+            "id": "1xiv",
+            "question": "The prize-giving day of a school is a/an --- programme.",
+            "options": [
+              "daily",
+              "weekly",
+              "monthly",
+              "annual"
+            ],
+            "correct": 3,
+            "explanation_bn": "পুরস্কার বিতরণী দিবস একটি বার্ষিক অনুষ্ঠান।",
+            "explanation_en": "The prize-giving day is an annual programme."
+          },
+          {
+            "id": "1xv",
+            "question": "Prizes were also neatly displayed on a separate table on the dais. Here 'dias' means ---",
+            "options": [
+              "desk",
+              "stage",
+              "campus",
+              "floor"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Dias' অর্থ মঞ্চ বা stage।",
+            "explanation_en": "'Dias' means a raised platform or stage."
+          },
+          {
+            "id": "2a",
+            "question": "How was Farabi's school auditorium decorated on prize giving day?",
+            "options": [
+              "It was simply decorated",
+              "It was not decorated at all",
+              "It and its dais were brightly decorated",
+              "Only the stage was decorated"
+            ],
+            "correct": 2,
+            "explanation_bn": "বিদ্যালয়ের মিলনায়তন এবং এর মঞ্চ চমৎকারভাবে সাজানো হয়েছিল।",
+            "explanation_en": "The auditorium and its dais were brightly decorated."
+          },
+          {
+            "id": "2b",
+            "question": "Describe the activities of the chief guest of the function.",
+            "options": [
+              "He sang a song",
+              "He delivered a short speech, praised the school, and gave away prizes",
+              "He read the annual report",
+              "He played games with students"
+            ],
+            "correct": 1,
+            "explanation_bn": "প্রধান অতিথি একটি সংক্ষিপ্ত বক্তৃতা দেন, বিদ্যালয়ের প্রশংসা করেন এবং পুরস্কার বিতরণ করেন।",
+            "explanation_en": "The chief guest delivered a short speech, praised the school, and gave away prizes."
+          },
+          {
+            "id": "2c",
+            "question": "Do you think Farabi is a brilliant student? Why/Why not?",
+            "options": [
+              "No, he got no prizes",
+              "Yes, because he got two prizes for regular attendance and good results",
+              "No, he failed in exams",
+              "Yes, because he is the class captain"
+            ],
+            "correct": 1,
+            "explanation_bn": "ফারাবি দুটি পুরস্কার পেয়েছে- একটি নিয়মিত উপস্থিতি এবং অন্যটি ভালো ফলাফলের জন্য, তাই সে মেধাবী।",
+            "explanation_en": "Yes, because Farabi got two prizes for regular attendance and good results."
+          },
+          {
+            "id": "2d",
+            "question": "What is the relationship between Flora and Farabi?",
+            "options": [
+              "They are siblings",
+              "They are best friends",
+              "They are cousins",
+              "They are classmates"
+            ],
+            "correct": 1,
+            "explanation_bn": "ফারাবি এবং ফ্লোরা সেরা বন্ধু।",
+            "explanation_en": "Flora and Farabi are best friends."
+          },
+          {
+            "id": "2e",
+            "question": "What are they talking about?",
+            "options": [
+              "About their exam results",
+              "About Farabi's school prize-giving ceremony",
+              "About their teachers",
+              "About football tournament"
+            ],
+            "correct": 1,
+            "explanation_bn": "তারা ফারাবির বিদ্যালয়ের পুরস্কার বিতরণী অনুষ্ঠান নিয়ে কথা বলছে।",
+            "explanation_en": "They are talking about Farabi's school prize-giving ceremony."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2",
+      "name": "Gap Fill & Vocabulary",
+      "type": "gap_fill_vocab",
+      "content": {
+        "gapFill": {
+          "passage": "Rupa said that the (a) ______ started with a single letter B and gradually words came below that (b) ______. The teacher thanked Rupa and said that he would show her how the words were (c) ______ one after another like in the alphabet. Then the (d) ______ asked the class to look at the board and ask him if it was (e) ______ or not.",
+          "dialogPassage": "",
+          "boxWords": [
+            "page",
+            "letter",
+            "written",
+            "teacher",
+            "clear",
+            "board",
+            "student",
+            "alphabet",
+            "class"
+          ],
+          "blanks": [
+            {
+              "blankId": "a",
+              "correct": "page",
+              "options": [
+                {
+                  "text": "page",
+                  "isCorrect": true,
+                  "explanationBn": "রূপা বলল যে পৃষ্ঠাটি B অক্ষর দিয়ে শুরু হয়েছে।",
+                  "explanationEn": "Rupa said that the page started with letter B."
+                },
+                {
+                  "text": "board",
+                  "isCorrect": false,
+                  "explanationBn": "বোর্ড নয়, পৃষ্ঠা B দিয়ে শুরু হয়েছে।",
+                  "explanationEn": "Not the board, the page started with B."
+                },
+                {
+                  "text": "class",
+                  "isCorrect": false,
+                  "explanationBn": "ক্লাস নয়, পৃষ্ঠাটি B দিয়ে শুরু হয়েছে।",
+                  "explanationEn": "Not the class, the page started with B."
+                }
+              ]
+            },
+            {
+              "blankId": "b",
+              "correct": "letter",
+              "options": [
+                {
+                  "text": "letter",
+                  "isCorrect": true,
+                  "explanationBn": "শব্দগুলো B অক্ষরটির নিচে এসেছে।",
+                  "explanationEn": "Words came below that letter B."
+                },
+                {
+                  "text": "alphabet",
+                  "isCorrect": false,
+                  "explanationBn": "এটি বর্ণমালা, অক্ষর নয়।",
+                  "explanationEn": "It is the alphabet, not the letter."
+                },
+                {
+                  "text": "word",
+                  "isCorrect": false,
+                  "explanationBn": "এখানে 'letter' অর্থ অক্ষর।",
+                  "explanationEn": "Here 'letter' means the alphabet character."
+                }
+              ]
+            },
+            {
+              "blankId": "c",
+              "correct": "written",
+              "options": [
+                {
+                  "text": "written",
+                  "isCorrect": true,
+                  "explanationBn": "শিক্ষক দেখাতে চেয়েছিলেন কীভাবে শব্দগুলো একের পর এক লেখা হয়।",
+                  "explanationEn": "The teacher wanted to show how words are written one after another."
+                },
+                {
+                  "text": "arranged",
+                  "isCorrect": false,
+                  "explanationBn": "যদিও 'arranged' সম্ভব, উত্তরে 'written' ব্যবহার করা হয়েছে।",
+                  "explanationEn": "Although 'arranged' is possible, 'written' is the given answer."
+                },
+                {
+                  "text": "read",
+                  "isCorrect": false,
+                  "explanationBn": "পড়া নয়, লেখার বিষয়ে বলা হয়েছে।",
+                  "explanationEn": "Not about reading, about writing."
+                }
+              ]
+            },
+            {
+              "blankId": "d",
+              "correct": "teacher",
+              "options": [
+                {
+                  "text": "teacher",
+                  "isCorrect": true,
+                  "explanationBn": "তারপর শিক্ষক ক্লাসকে বোর্ডের দিকে তাকাতে বললেন।",
+                  "explanationEn": "Then the teacher asked the class to look at the board."
+                },
+                {
+                  "text": "student",
+                  "isCorrect": false,
+                  "explanationBn": "শিক্ষক, ছাত্র নয়, ক্লাসকে নির্দেশ দিয়েছেন।",
+                  "explanationEn": "The teacher, not the student, instructed the class."
+                },
+                {
+                  "text": "class",
+                  "isCorrect": false,
+                  "explanationBn": "শিক্ষক ক্লাসকে নির্দেশ দিয়েছেন।",
+                  "explanationEn": "The teacher asked the class."
+                }
+              ]
+            },
+            {
+              "blankId": "e",
+              "correct": "clear",
+              "options": [
+                {
+                  "text": "clear",
+                  "isCorrect": true,
+                  "explanationBn": "শিক্ষক জিজ্ঞাসা করলেন বিষয়টি স্পষ্ট কিনা।",
+                  "explanationEn": "The teacher asked if it was clear or not."
+                },
+                {
+                  "text": "board",
+                  "isCorrect": false,
+                  "explanationBn": "বোর্ড নয়, বিষয়টি বোধগম্য কিনা জিজ্ঞাসা করা হয়েছে।",
+                  "explanationEn": "Not board, whether the matter is understandable."
+                },
+                {
+                  "text": "correct",
+                  "isCorrect": false,
+                  "explanationBn": "'Clear' অর্থ স্পষ্ট বা বোধগম্য।",
+                  "explanationEn": "'Clear' means understandable."
+                }
+              ]
+            }
+          ]
+        },
+        "vocabQuestions": [
+          {
+            "id": "4a",
+            "question": "What is the antonym of 'notice'?",
+            "options": [
+              "observe",
+              "see",
+              "ignore",
+              "watch"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Notice'-এর বিপরীত শব্দ 'ignore' (উপেক্ষা করা)।",
+            "explanation_en": "The antonym of 'notice' is 'ignore'."
+          },
+          {
+            "id": "4b",
+            "question": "What is the synonym of 'below'?",
+            "options": [
+              "above",
+              "under",
+              "over",
+              "beyond"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Below'-এর সমার্থক শব্দ 'under' (নিচে)।",
+            "explanation_en": "The synonym of 'below' is 'under'."
+          },
+          {
+            "id": "4c",
+            "question": "What is the antonym of 'ask'?",
+            "options": [
+              "inquire",
+              "question",
+              "reply",
+              "demand"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Ask'-এর বিপরীত শব্দ 'reply' বা 'answer' (উত্তর দেওয়া)।",
+            "explanation_en": "The antonym of 'ask' is 'reply' or 'answer'."
+          },
+          {
+            "id": "4d",
+            "question": "What is the antonym of 'gradually'?",
+            "options": [
+              "slowly",
+              "progressively",
+              "instantly",
+              "steadily"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Gradually'-এর বিপরীত শব্দ 'instantly' বা 'suddenly' (হঠাৎ)।",
+            "explanation_en": "The antonym of 'gradually' is 'instantly' or 'suddenly'."
+          },
+          {
+            "id": "4e",
+            "question": "What is the synonym of 'if'?",
+            "options": [
+              "whether",
+              "but",
+              "although",
+              "because"
+            ],
+            "correct": 0,
+            "explanation_bn": "'If'-এর সমার্থক শব্দ 'whether' (কিনা)।",
+            "explanation_en": "The synonym of 'if' is 'whether'."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch3",
+      "name": "Biographical Passage & Summary",
+      "type": "passage_summary",
+      "content": {
+        "passage": "Abdul Kadir Molla, a living legend, was born on 8 August 1961 in Panchkandi village, Narsingdi in a poor Muslim family. When he was in class eight, his father, Abdul Mazid Molla, died. Later he gradually lost his mother, Noor Jahan Begum, and his siblings, yet he continued his studies.\n\nIn 1977, he passed the matriculation examination, but because of poverty, he could not sit for the HSC exam. Later, he completed a Marine Diploma and went to Singapore, where he worked hard for five years and saved a handsome amount of money. After returning to Bangladesh, he worked at Titas Gas Transmission and Distribution Company Limited and later started his own business.\n\nTo help others, he established the Mazid Molla Foundation and founded many educational institutions. Some of the institutions he founded include Panchkandi Degree College (1995), Abdul Kadir Molla City College (2006), Nasima Kadir Molla High School and Homes (2008), and Abdul Kadir Molla International School (2013). For his contributions to education, social, and humanitarian work, he received the Mother Teresa Award and was also given the honorary highest title 'Shikshabandhu'.\n\nAdditionally, he was recognized as 'Kar Bahadur' for being one of the top taxpayers in Bangladesh.",
+        "translation_bn": "আবদুল কাদির মোল্লা, একজন জীবন্ত কিংবদন্তি, ১৯৬১ সালের ৮ আগস্ট নরসিংদীর পাঁচকান্দি গ্রামে একটি দরিদ্র মুসলিম পরিবারে জন্মগ্রহণ করেন। অষ্টম শ্রেণিতে পড়ার সময় তাঁর বাবা, আবদুল মজিদ মোল্লা, মারা যান। পরে তিনি ধীরে ধীরে তাঁর মা, নূর জাহান বেগম এবং ভাইবোনদেরও হারান, তবুও তিনি পড়াশোনা চালিয়ে যান। ১৯৭৭ সালে তিনি ম্যাট্রিকুলেশন পরীক্ষায় উত্তীর্ণ হন, কিন্তু দারিদ্র্যের কারণে তিনি এইচএসসি পরীক্ষায় অংশ নিতে পারেননি। পরে, তিনি একটি মেরিন ডিপ্লোমা সম্পন্ন করেন এবং সিঙ্গাপুরে যান, যেখানে তিনি পাঁচ বছর কঠোর পরিশ্রম করে যথেষ্ট অর্থ সঞ্চয় করেন। বাংলাদেশে ফিরে তিনি তিতাস গ্যাস ট্রান্সমিশন এন্ড ডিস্ট্রিবিউশন কোম্পানি লিমিটেডে চাকরি করেন এবং পরে নিজস্ব ব্যবসা শুরু করেন। অন্যদের সাহায্য করার জন্য তিনি মজিদ মোল্লা ফাউন্ডেশন প্রতিষ্ঠা করেন এবং বহু শিক্ষাপ্রতিষ্ঠান স্থাপন করেন। তিনি যেসব প্রতিষ্ঠান স্থাপন করেছেন তার মধ্যে রয়েছে পাঁচকান্দি ডিগ্রি কলেজ (১৯৯৫), আব্দুল কাদির মোল্লা সিটি কলেজ (২০০৬), নাছিমা কাদির মোল্লা হাই স্কুল অ্যান্ড হোমস (২০০৮), এবং আব্দুল কাদির মোল্লা ইন্টারন্যাশনাল স্কুল (২০১৩)। শিক্ষা, সমাজ ও মানবতার ক্ষেত্রে তাঁর অবদানের জন্য তিনি মাদার তেরেসা পুরস্কার এবং 'শিক্ষাবন্ধু' খেতাব লাভ করেন। এছাড়াও, তিনি বাংলাদেশের শীর্ষ করদাতাদের একজন হিসেবে 'কর বাহাদুর' খেতাবেও সম্মানিত হন।",
+        "vocabulary": [
+          {
+            "word": "legend",
+            "pos": "n",
+            "meaning_en": "a famous person",
+            "meaning_bn": "কিংবদন্তি",
+            "synonym": "icon",
+            "antonym": "ordinary person"
+          },
+          {
+            "word": "matriculation",
+            "pos": "n",
+            "meaning_en": "secondary school examination",
+            "meaning_bn": "মেট্রিকুলেশন পরীক্ষা",
+            "synonym": "SSC exam",
+            "antonym": ""
+          },
+          {
+            "word": "poverty",
+            "pos": "n",
+            "meaning_en": "destitution",
+            "meaning_bn": "দারিদ্র্য",
+            "synonym": "penury",
+            "antonym": "affluence"
+          },
+          {
+            "word": "foundation",
+            "pos": "n",
+            "meaning_en": "an organization",
+            "meaning_bn": "প্রতিষ্ঠান",
+            "synonym": "institution",
+            "antonym": ""
+          },
+          {
+            "word": "humanitarian",
+            "pos": "adj",
+            "meaning_en": "philanthropic",
+            "meaning_bn": "মানবহিতৈষী",
+            "synonym": "philanthropic",
+            "antonym": "selfish"
+          },
+          {
+            "word": "honorary",
+            "pos": "adj",
+            "meaning_en": "symbolic title",
+            "meaning_bn": "সম্মানসূচক",
+            "synonym": "emblematic",
+            "antonym": "official"
+          }
+        ],
+        "mcqQuestions": [
+          {
+            "id": "5i",
+            "question": "When and where was Abdul Kadir Molla born?",
+            "options": [
+              "In 1971, Dhaka",
+              "In 1961, Panchkandi village, Narsingdi",
+              "In 1951, Chittagong",
+              "In 1981, Sylhet"
+            ],
+            "correct": 1,
+            "explanation_bn": "আবদুল কাদির মোল্লা ১৯৬১ সালের ৮ আগস্ট নরসিংদীর পাঁচকান্দি গ্রামে জন্মগ্রহণ করেন।",
+            "explanation_en": "Abdul Kadir Molla was born on 8 August 1961 in Panchkandi village, Narsingdi."
+          },
+          {
+            "id": "5ii",
+            "question": "What happened to Abdul Kadir Molla's father when he was in class eight?",
+            "options": [
+              "He got a job",
+              "He died",
+              "He went abroad",
+              "He became ill"
+            ],
+            "correct": 1,
+            "explanation_bn": "যখন আবদুল কাদির মোল্লা অষ্টম শ্রেণিতে পড়ে, তখন তার বাবা মারা যান।",
+            "explanation_en": "When Abdul Kadir Molla was in class eight, his father died."
+          },
+          {
+            "id": "5iii",
+            "question": "Which examination did Abdul Kadir Molla pass in 1977?",
+            "options": [
+              "HSC",
+              "Matriculation (SSC)",
+              "Marine Diploma",
+              "BA"
+            ],
+            "correct": 1,
+            "explanation_bn": "তিনি ১৯৭৭ সালে ম্যাট্রিকুলেশন (এসএসসি) পরীক্ষায় উত্তীর্ণ হন।",
+            "explanation_en": "He passed the Matriculation (SSC) examination in 1977."
+          },
+          {
+            "id": "5iv",
+            "question": "Where did Abdul Kadir Molla work after returning from Singapore?",
+            "options": [
+              "At a bank",
+              "At Titas Gas Company",
+              "At a school",
+              "At a hospital"
+            ],
+            "correct": 1,
+            "explanation_bn": "সিঙ্গাপুর থেকে ফিরে তিনি তিতাস গ্যাস কোম্পানিতে কাজ করেন।",
+            "explanation_en": "After returning from Singapore, he worked at Titas Gas Company."
+          },
+          {
+            "id": "5v",
+            "question": "Which institution did Abdul Kadir Molla establish in 2006?",
+            "options": [
+              "Panchkandi Degree College",
+              "Mazid Molla Foundation",
+              "Abdul Kadir Molla City College",
+              "Nasima Kadir Molla High School"
+            ],
+            "correct": 2,
+            "explanation_bn": "তিনি ২০০৬ সালে আব্দুল কাদির মোল্লা সিটি কলেজ প্রতিষ্ঠা করেন।",
+            "explanation_en": "He established Abdul Kadir Molla City College in 2006."
+          }
+        ],
+        "trueFalseQuestions": [
+          {
+            "id": "6a",
+            "question": "Abdul Kadir Molla is from a wealthy family in Narsingdi.",
+            "options": [
+              "True",
+              "False. He was born in a poor family in Narsingdi.",
+              "False. He was from Dhaka.",
+              "False. He was from a middle-class family."
+            ],
+            "correct": 1,
+            "explanation_bn": "আবদুল কাদির মোল্লা একটি দরিদ্র পরিবারে জন্মগ্রহণ করেন, ধনী পরিবারে নয়।",
+            "explanation_en": "Abdul Kadir Molla was born in a poor family, not a wealthy one."
+          },
+          {
+            "id": "6b",
+            "question": "Abdul Kadir Molla's study did not stop even after losing his parents and siblings.",
+            "options": [
+              "True",
+              "False. He stopped studying after his parents died.",
+              "False. He never went to school.",
+              "False. He only studied after getting a job."
+            ],
+            "correct": 0,
+            "explanation_bn": "বাবা-মা ও ভাইবোন হারানোর পরও তিনি পড়াশোনা চালিয়ে যান।",
+            "explanation_en": "He continued his studies even after losing his parents and siblings."
+          },
+          {
+            "id": "6c",
+            "question": "Abdul Kadir Molla was unable to appear at the SSC Examination because of lack of money.",
+            "options": [
+              "True",
+              "False. He passed the SSC exam but could not sit for the HSC exam due to poverty.",
+              "False. He never appeared in any exam.",
+              "False. He failed the SSC exam."
+            ],
+            "correct": 1,
+            "explanation_bn": "তিনি এসএসসি পাস করেছিলেন কিন্তু দারিদ্র্যের কারণে এইচএসসি পরীক্ষা দিতে পারেননি।",
+            "explanation_en": "He passed SSC but could not sit for HSC due to poverty."
+          },
+          {
+            "id": "6d",
+            "question": "Abdul Kadir Molla City College was set up by Abdul Kadir Molla in 2006.",
+            "options": [
+              "True",
+              "False",
+              "False. It was set up in 1995.",
+              "False. It was set up by the government."
+            ],
+            "correct": 0,
+            "explanation_bn": "হ্যাঁ, আব্দুল কাদির মোল্লা সিটি কলেজ ২০০৬ সালে প্রতিষ্ঠিত হয়।",
+            "explanation_en": "Yes, Abdul Kadir Molla City College was established in 2006."
+          },
+          {
+            "id": "6e",
+            "question": "Mother Teresa Award was awarded to Abdul Mazid Molla.",
+            "options": [
+              "True",
+              "False. The Mother Teresa Award was awarded to Abdul Kadir Molla.",
+              "False. No one got this award.",
+              "False. It was awarded to a different person."
+            ],
+            "correct": 1,
+            "explanation_bn": "মাদার তেরেসা পুরস্কার আবদুল কাদির মোল্লাকে দেওয়া হয়েছিল, তার বাবাকে নয়।",
+            "explanation_en": "The Mother Teresa Award was awarded to Abdul Kadir Molla, not his father."
+          }
+        ],
+        "summary": "Abdul Kadir Molla, a living legend from Narsingdi, was born in a poor family. Despite losing his parents early, he continued his studies. He passed his SSC but couldn't take the HSC exam due to poverty. He worked in Singapore, saved money, and later started a business in Bangladesh. He established many educational institutions and a foundation. For his contributions, he received the Mother Teresa Award and the title 'Shikshabandhu'."
+      }
+    },
+    {
+      "id": "ch4",
+      "name": "Sentence Making",
+      "type": "sentence_matching",
+      "content": {
+        "exercise": {
+          "id": 1,
+          "question_text": "Match the parts of sentences from Column A and Column B to make five complete sentences.",
+          "table_columns": [
+            [
+              "This morning Anwar is",
+              "He is",
+              "Last year, he was",
+              "But in December, his family moved",
+              "Now, it is January and Anwar is"
+            ],
+            [
+              "in Class 6 at Sonapur High School in Rangpur district.",
+              "going to join Class 7 at Nurpur High School.",
+              "going to start a new class at a new school.",
+              "feeling nervous.",
+              "to Nurpur in Chattogram district."
+            ]
+          ],
+          "valid_sentences": [
+            {
+              "sentence": "This morning Anwar is going to start a new class at a new school.",
+              "combination": [
+                "This morning Anwar is",
+                "going to start a new class at a new school."
+              ],
+              "explanation_en": "This sentence introduces Anwar's situation on the current morning.",
+              "explanation_bn": "এই বাক্যটি বর্তমান সকালে আনোয়ারের পরিস্থিতি পরিচয় করিয়ে দেয়।"
+            },
+            {
+              "sentence": "He is feeling nervous.",
+              "combination": [
+                "He is",
+                "feeling nervous."
+              ],
+              "explanation_en": "This describes Anwar's emotional state about the new school.",
+              "explanation_bn": "এটি নতুন বিদ্যালয় সম্পর্কে আনোয়ারের মানসিক অবস্থা বর্ণনা করে।"
+            },
+            {
+              "sentence": "Last year, he was in Class 6 at Sonapur High School in Rangpur district.",
+              "combination": [
+                "Last year, he was",
+                "in Class 6 at Sonapur High School in Rangpur district."
+              ],
+              "explanation_en": "This tells us about his previous school.",
+              "explanation_bn": "এটি তার পূর্ববর্তী বিদ্যালয় সম্পর্কে জানায়।"
+            },
+            {
+              "sentence": "But in December, his family moved to Nurpur in Chattogram district.",
+              "combination": [
+                "But in December, his family moved",
+                "to Nurpur in Chattogram district."
+              ],
+              "explanation_en": "This explains the reason for changing schools.",
+              "explanation_bn": "এটি বিদ্যালয় পরিবর্তনের কারণ ব্যাখ্যা করে।"
+            },
+            {
+              "sentence": "Now, it is January and Anwar is going to join Class 7 at Nurpur High School.",
+              "combination": [
+                "Now, it is January and Anwar is",
+                "going to join Class 7 at Nurpur High School."
+              ],
+              "explanation_en": "This concludes with his new situation.",
+              "explanation_bn": "এটি তার নতুন পরিস্থিতি দিয়ে শেষ হয়।"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch5",
+      "name": "Rearranging",
+      "type": "rearrangement",
+      "content": {
+        "sentences": [
+          {
+            "id": "a",
+            "text": "This scientist was Alfred Bernard Nobel."
+          },
+          {
+            "id": "b",
+            "text": "This prize is given to persons with the most outstanding contribution in six fields."
+          },
+          {
+            "id": "c",
+            "text": "Though he was a citizen of Sweden, he was educated in Russia."
+          },
+          {
+            "id": "d",
+            "text": "For this discovery he not only became famous all over the world but also earned a huge amount of money by selling it."
+          },
+          {
+            "id": "e",
+            "text": "This prize was instituted by a man who was the inventor of the science of destruction."
+          },
+          {
+            "id": "f",
+            "text": "The Nobel Prize is the world's most important prize."
+          },
+          {
+            "id": "g",
+            "text": "He was born in Stockholm on 21st October, 1833 and he died on 10th December, 1896."
+          },
+          {
+            "id": "h",
+            "text": "He invented dynamite which is widely used for breaking rocks, digging petrol wells and in war."
+          }
+        ],
+        "correctOrder": [
+          "f",
+          "e",
+          "a",
+          "g",
+          "c",
+          "h",
+          "d",
+          "b"
+        ],
+        "reconstructedParagraph": "The Nobel Prize is the world's most important prize. This prize was instituted by a man who was the inventor of the science of destruction. This scientist was Alfred Bernard Nobel. He was born in Stockholm on 21st October, 1833 and he died on 10th December, 1896. Though he was a citizen of Sweden, he was educated in Russia. He invented dynamite which is widely used for breaking rocks, digging petrol wells and in war. For this discovery he not only became famous all over the world but also earned a huge amount of money by selling it. This prize is given to persons with the most outstanding contribution in six fields."
+      }
+    },
+    {
+      "id": "ch6",
+      "name": "Poetry MCQ",
+      "type": "poetry_mcq",
+      "content": {
+        "questions": [
+          {
+            "id": "10a",
+            "question": "What does the poet compare the speed of the train to in the poem 'From a Railway Carriage'?",
+            "options": [
+              "Horses and chariots",
+              "Fairies and witches",
+              "Birds and arrows",
+              "Wind and storm"
+            ],
+            "correct": 1,
+            "explanation_bn": "কবি ট্রেনের গতিকে পরী ও ডাইনির সাথে তুলনা করেছেন এবং বলেছেন ট্রেন তাদের চেয়েও দ্রুত।",
+            "explanation_en": "The poet compares the speed of the train to that of fairies and witches."
+          },
+          {
+            "id": "10b",
+            "question": "What does the poet imply by the line 'Each a glimpse and gone forever!' in the poem 'From a Railway Carriage'?",
+            "options": [
+              "The scenes are permanent",
+              "The scenes are fleeting and disappear forever",
+              "The train stops frequently",
+              "The journey is very long"
+            ],
+            "correct": 1,
+            "explanation_bn": "কবি বোঝাতে চেয়েছেন যে দৃশ্যগুলো শুধু এক পলকের জন্য দেখা যায় এবং চিরতরে হারিয়ে যায়।",
+            "explanation_en": "The poet implies that the scenes are just for a moment and disappear forever."
+          },
+          {
+            "id": "10c",
+            "question": "Do you think people often do not have time to enjoy the beauty of nature? Give reasons.",
+            "options": [
+              "No, they have plenty of time",
+              "Yes, because modern life is full of cares and worries",
+              "No, nature is not beautiful",
+              "Yes, because they don't like nature"
+            ],
+            "correct": 1,
+            "explanation_bn": "হ্যাঁ, আধুনিক জীবন চিন্তা ও দায়িত্বে পূর্ণ, তাই প্রকৃতি উপভোগ করার সময় নেই।",
+            "explanation_en": "Yes, because modern life is full of cares and a busy schedule."
+          },
+          {
+            "id": "10d",
+            "question": "What kind of life is this if it's full of care according to the poem 'Leisure'?",
+            "options": [
+              "A rich life",
+              "A happy life",
+              "A poor life",
+              "A peaceful life"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Leisure' কবিতা অনুসারে, চিন্তায় ভরা জীবন একটি দরিদ্র জীবন।",
+            "explanation_en": "According to the poem 'Leisure', a life full of care is a poor life."
+          },
+          {
+            "id": "10e",
+            "question": "What is the poem 'Leisure' about?",
+            "options": [
+              "The joy of working hard",
+              "The lack of time to appreciate nature in our busy lives",
+              "The importance of sleeping",
+              "The beauty of cities"
+            ],
+            "correct": 1,
+            "explanation_bn": "কবিতাটি ব্যস্ত জীবনে প্রকৃতির সৌন্দর্য উপভোগ করার সময় না থাকা নিয়ে।",
+            "explanation_en": "It is about the lack of time to appreciate nature in our busy lives."
+          },
+          {
+            "id": "10f",
+            "question": "How many times did he/she ask the question 'Whose Child Is This?'?",
+            "options": [
+              "Once",
+              "Twice",
+              "Three times",
+              "Four times"
+            ],
+            "correct": 2,
+            "explanation_bn": "বক্তা 'এই শিশুটি কার?' প্রশ্নটি তিনবার জিজ্ঞাসা করেছিলেন।",
+            "explanation_en": "The speaker asked the question 'Whose Child Is This?' three times."
+          },
+          {
+            "id": "10g",
+            "question": "According to the poem 'Whose Child Is This?', whose job is it to take care of a child?",
+            "options": [
+              "Only the parent",
+              "Only the teacher",
+              "Both the parent and the teacher jointly",
+              "Only the babysitter"
+            ],
+            "correct": 2,
+            "explanation_bn": "কবিতা অনুসারে, একটি শিশুর যত্ন নেওয়া পিতামাতা এবং শিক্ষক উভয়ের যৌথ দায়িত্ব।",
+            "explanation_en": "According to the poem, it is the joint responsibility of parents and teachers to care for a child."
+          },
+          {
+            "id": "10h",
+            "question": "What did the parent and the teacher do at the end of the poem 'Whose Child Is This?'?",
+            "options": [
+              "They argued about who should take care",
+              "They decided to share the responsibility and said 'Ours'",
+              "They left the child alone",
+              "They sent the child to a boarding school"
+            ],
+            "correct": 1,
+            "explanation_bn": "কবিতার শেষে পিতামাতা এবং শিক্ষক 'আমাদের' বলে দায়িত্ব ভাগ করে নেওয়ার সিদ্ধান্ত নেন।",
+            "explanation_en": "At the end, they decided to share the responsibility and said 'Ours'."
+          }
+        ]
+      }
+    }
+  ]
+}

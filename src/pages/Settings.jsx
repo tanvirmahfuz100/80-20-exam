@@ -72,7 +72,7 @@ const Settings = () => {
     if (authLoading) return null;
 
     return (
-        <div className="max-w-4xl mx-auto space-y-12 animate-in fade-in duration-500">
+        <div className="max-w-4xl mx-auto space-y-12">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
                 <div>
                     <h1 className="text-4xl font-black text-white italic tracking-tighter uppercase mb-2">Profile Studio</h1>

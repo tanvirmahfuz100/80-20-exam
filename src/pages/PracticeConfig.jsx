@@ -93,7 +93,25 @@ const PracticeConfig = () => {
         ))
             .then(results => {
                 const exams = results.filter(Boolean).map(({ exam, json }) => {
-                    const subjects = (json.subjects || []).map(sub => ({ ...sub, exam_category: exam.id.toUpperCase() }));
+                    let subjects;
+                    if (Array.isArray(json)) {
+                        subjects = json.map(entry => ({
+                            id: entry.id,
+                            name: entry.name,
+                            exam_category: exam.id.toUpperCase(),
+                            topics: [{
+                                id: entry.id,
+                                name: entry.name,
+                                chapters: [{
+                                    id: entry.id,
+                                    name: entry.name,
+                                    file: `${exam.id}/${entry.id}.json`
+                                }]
+                            }]
+                        }));
+                    } else {
+                        subjects = (json.subjects || []).map(sub => ({ ...sub, exam_category: exam.id.toUpperCase() }));
+                    }
                     return { ...exam, active: true, subjects };
                 });
 

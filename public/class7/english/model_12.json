@@ -1,0 +1,902 @@
+{
+  "_type": "model_test",
+  "modelId": "m12",
+  "title": "Model Test 12 - English 1st Paper",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Passage & Comprehension",
+      "type": "passage_mcq",
+      "content": {
+        "passage": "Dear Hridoy, Thank you for your letter of 1 May. It gives us such an exciting piece of news! I cannot still believe that there could be a shop without a shopkeeper.\n\nI talked about it with my relatives, friends, classmates and, of course, my teacher, Miss Nishat. Everybody was surprised. Miss Nishat liked the idea so much that she immediately talked about it to our Headteacher.\n\nWe had a meeting in our school with teachers and students. At the beginning of the meeting, the Headteacher asked me to talk about the Morality Shop in your school. At first, I read out part of your letter and then I explained how such a shop is greatly helping you - the students, teachers and the community at large.\n\nThe Headteacher was quite positive about the usefulness of such a shop. He formed a committee with Miss Nishat and two other teachers and some senior students to draw up a plan for opening a morality shop in our school. Isn't it great?\n\nYou will be glad to know that I am on the committee too. I'm coming to see your Morality Shop with a friend of mine next weekend. See you then.\n\nGive my regards to Aunt and Uncle. All the best. Riah",
+        "translation_bn": "প্রিয় হৃদয়, ১লা মে'র চিঠিটির জন্য তোমাকে ধন্যবাদ। এটি আমাদের এমন এক রোমাঞ্চকর খবর দিয়েছে! আমি এখনো বিশ্বাস করতে পারছি না যে এমন দোকানও থাকতে পারে যেখানে কোনো দোকানি নেই। এ সম্পর্কে আমি আমার আত্মীয়স্বজন, বন্ধু, সহপাঠী এবং অবশ্যই আমার শিক্ষিকা মিস নিশাতের সাথে আলাপ করেছি। প্রত্যেকেই অবাক হয়েছে। মিস নিশাত ধারণাটি এতটাই পছন্দ করেন যে তিনি তৎক্ষণাৎ এ সম্পর্কে আমাদের প্রধান শিক্ষকের সাথে কথা বলেন। আমরা আমাদের বিদ্যালয়ের শিক্ষক-শিক্ষিকা ও ছাত্র-ছাত্রীদের সাথে বৈঠক করেছি। বৈঠকের শুরুতে প্রধান শিক্ষক আমাকে তোমার বিদ্যালয়ের নৈতিকতার দোকান সম্পর্কে বলতে বললেন। প্রথমে আমি তোমার চিঠির একাংশ পাঠ করি এবং তারপর এই ধরনের দোকান কীভাবে তোমাদের - ছাত্র-ছাত্রী, শিক্ষক-শিক্ষিকা এবং সর্বোপরি সমাজকে দারুণভাবে সাহায্য করছে তা ব্যাখ্যা করি। প্রধান শিক্ষক মহোদয় এরূপ দোকানের উপকারিতার ব্যাপারে যথেষ্ট ইতিবাচক ছিলেন। তিনি মিস নিশাতের সাথে আরও দুইজন শিক্ষক এবং কয়েকজন জ্যেষ্ঠ শিক্ষার্থীকে নিয়ে নৈতিকতার দোকান খোলার পরিকল্পনা করার লক্ষ্যে একটি কমিটি গঠন করলেন। এটা কি দারুণ না? তুমি জেনে খুশি হবে যে কমিটিতে আমিও আছি। আগামী সপ্তাহান্তে আমি তোমাদের নৈতিকতার দোকান দেখতে আমার এক বন্ধুসহ আসছি। তখন দেখা হবে। চাচা-চাচিকে আমার শ্রদ্ধা জানিও। শুভেচ্ছা রইল। রিয়াহ",
+        "vocabulary": [
+          {
+            "word": "at large",
+            "pos": "phr",
+            "meaning_en": "in general",
+            "meaning_bn": "সর্বোপরি",
+            "synonym": "in general",
+            "antonym": "in particular"
+          },
+          {
+            "word": "community",
+            "pos": "n",
+            "meaning_en": "a group of people living together",
+            "meaning_bn": "সমাজ",
+            "synonym": "society",
+            "antonym": ""
+          },
+          {
+            "word": "exciting",
+            "pos": "adj",
+            "meaning_en": "causing great enthusiasm",
+            "meaning_bn": "উত্তেজনাপূর্ণ",
+            "synonym": "thrilling",
+            "antonym": "boring"
+          },
+          {
+            "word": "explain",
+            "pos": "v",
+            "meaning_en": "to make clear",
+            "meaning_bn": "ব্যাখ্যা করা",
+            "synonym": "clarify",
+            "antonym": "confuse"
+          },
+          {
+            "word": "form",
+            "pos": "v",
+            "meaning_en": "to bring together for a purpose",
+            "meaning_bn": "গঠন করা",
+            "synonym": "organize",
+            "antonym": "dissolve"
+          },
+          {
+            "word": "immediately",
+            "pos": "adv",
+            "meaning_en": "without delay",
+            "meaning_bn": "তৎক্ষণাৎ",
+            "synonym": "instantly",
+            "antonym": "later"
+          },
+          {
+            "word": "morality",
+            "pos": "n",
+            "meaning_en": "principles of right and wrong",
+            "meaning_bn": "নৈতিকতা",
+            "synonym": "ethics",
+            "antonym": "immorality"
+          },
+          {
+            "word": "usefulness",
+            "pos": "n",
+            "meaning_en": "the quality of being useful",
+            "meaning_bn": "কার্যকারিতা",
+            "synonym": "benefit",
+            "antonym": "uselessness"
+          }
+        ],
+        "questions": [
+          {
+            "id": "1i",
+            "question": "Who is not in the committee?",
+            "options": [
+              "Riah",
+              "Miss Nishat",
+              "Students",
+              "Headteacher"
+            ],
+            "correct": 3,
+            "explanation_bn": "প্রধান শিক্ষক কমিটিতে নেই, তিনি কমিটি গঠন করেছেন।",
+            "explanation_en": "The Headteacher is not in the committee; he formed the committee."
+          },
+          {
+            "id": "1ii",
+            "question": "With whom didn't Riah share the news about the Morality Shop?",
+            "options": [
+              "friends",
+              "classmates",
+              "teacher",
+              "neighbours"
+            ],
+            "correct": 3,
+            "explanation_bn": "রিয়াহ তার প্রতিবেশীদের সাথে খবরটি শেয়ার করেনি।",
+            "explanation_en": "Riah did not share the news with her neighbours."
+          },
+          {
+            "id": "1iii",
+            "question": "Who talked about the Morality Shop with the Headteacher?",
+            "options": [
+              "The committee members",
+              "Senior students",
+              "Miss Nishat",
+              "Riah"
+            ],
+            "correct": 2,
+            "explanation_bn": "মিস নিশাত প্রধান শিক্ষকের সাথে নৈতিকতার দোকান সম্পর্কে কথা বলেন।",
+            "explanation_en": "Miss Nishat talked about the Morality Shop with the Headteacher."
+          },
+          {
+            "id": "1iv",
+            "question": "Everybody was --- hearing the news of the Morality Shop.",
+            "options": [
+              "shocked",
+              "astonished",
+              "confused",
+              "upset"
+            ],
+            "correct": 1,
+            "explanation_bn": "সবাই খবর শুনে বিস্মিত হয়েছিল (astonished)।",
+            "explanation_en": "Everybody was astonished hearing the news."
+          },
+          {
+            "id": "1v",
+            "question": "Which of the followings is not true about the Morality Shop?",
+            "options": [
+              "It has no shopkeeper",
+              "Morality will be practised here",
+              "The shop will help the community at large",
+              "The shop is a useless idea"
+            ],
+            "correct": 3,
+            "explanation_bn": "দোকানটি অকেজো ধারণা নয় বরং এটি সমাজকে সাহায্য করবে।",
+            "explanation_en": "The shop is not a useless idea; it helps the community."
+          },
+          {
+            "id": "1vi",
+            "question": "Riah's school is going to ---",
+            "options": [
+              "form a committee",
+              "open a Morality Shop",
+              "arrange a meeting between teachers and students",
+              "visit Hridoy's Morality Shop next weekend"
+            ],
+            "correct": 1,
+            "explanation_bn": "বিদ্যালয়ে একটি নৈতিকতার দোকান খোলা হবে।",
+            "explanation_en": "Riah's school is going to open a Morality Shop."
+          },
+          {
+            "id": "1vii",
+            "question": "'He formed a committee with Miss Nishat.' Here the word 'form' means ---",
+            "options": [
+              "manner",
+              "system",
+              "document",
+              "make"
+            ],
+            "correct": 3,
+            "explanation_bn": "এখানে 'form' অর্থ গঠন করা বা তৈরি করা (make)।",
+            "explanation_en": "Here 'form' means make or organize."
+          },
+          {
+            "id": "1viii",
+            "question": "Riah talked about the Morality Shop to ---",
+            "options": [
+              "her father, mother and sisters",
+              "her relatives only",
+              "her friends and classmates",
+              "her relatives, friends, classmates and teacher"
+            ],
+            "correct": 3,
+            "explanation_bn": "রিয়াহ তার আত্মীয়, বন্ধু, সহপাঠী এবং শিক্ষকের সাথে কথা বলেছে।",
+            "explanation_en": "Riah talked to her relatives, friends, classmates, and teacher."
+          },
+          {
+            "id": "1ix",
+            "question": "'It gives us such an exciting piece of news!' The word 'exciting' means ---",
+            "options": [
+              "dull",
+              "boring",
+              "thrilling",
+              "tedious"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Exciting' অর্থ উত্তেজনাপূর্ণ (thrilling)।",
+            "explanation_en": "'Exciting' means thrilling."
+          },
+          {
+            "id": "1x",
+            "question": "The word 'community' means ---",
+            "options": [
+              "group",
+              "society",
+              "link",
+              "connection"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Community' অর্থ সমাজ (society)।",
+            "explanation_en": "'Community' means society."
+          },
+          {
+            "id": "1xi",
+            "question": "Morality Shop is a kind of shop where ---",
+            "options": [
+              "there is no customer",
+              "there is no morality",
+              "commodities are limited",
+              "there is no shopkeeper"
+            ],
+            "correct": 3,
+            "explanation_bn": "নৈতিকতার দোকানে কোনো দোকানি নেই।",
+            "explanation_en": "There is no shopkeeper in the Morality Shop."
+          },
+          {
+            "id": "1xii",
+            "question": "The Headteacher --- the idea of a Morality Shop.",
+            "options": [
+              "disregarded",
+              "rejected",
+              "liked",
+              "disliked"
+            ],
+            "correct": 2,
+            "explanation_bn": "প্রধান শিক্ষক ধারণাটি পছন্দ করেছেন (liked)।",
+            "explanation_en": "The Headteacher liked the idea of a Morality Shop."
+          },
+          {
+            "id": "1xiii",
+            "question": "'I cannot still believe that there could be a shop without a shopkeeper.' The word 'believe' means ---",
+            "options": [
+              "doubt",
+              "reject",
+              "accept",
+              "distrust"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Believe' অর্থ বিশ্বাস করা বা মেনে নেওয়া (accept)।",
+            "explanation_en": "'Believe' means accept as true."
+          },
+          {
+            "id": "1xiv",
+            "question": "'Everybody was surprised.' The word 'surprised' means ---",
+            "options": [
+              "wept",
+              "shocked",
+              "astonished",
+              "cried"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Surprised' অর্থ বিস্মিত (astonished)।",
+            "explanation_en": "'Surprised' means astonished."
+          },
+          {
+            "id": "1xv",
+            "question": "Morality Shop runs without a ---",
+            "options": [
+              "plan",
+              "students",
+              "map",
+              "shopkeeper"
+            ],
+            "correct": 3,
+            "explanation_bn": "নৈতিকতার দোকান দোকানি ছাড়া চলে।",
+            "explanation_en": "The Morality Shop runs without a shopkeeper."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2",
+      "name": "Gap Fill & Vocabulary",
+      "type": "gap_fill_vocab",
+      "content": {
+        "gapFill": {
+          "passage": "Mitu and Nitu are (a) ______. Their father Mr. Joynul Ali is a (b) ______ and their mother Mrs.\n\nNazma is a housewife. She does all the works at (c) ______ from morning to night. She also (d) ______ Mitu and Nitu Bangla and English alphabets and some numbers.\n\nThey are not (e) ______ to school.",
+          "boxWords": [
+            "sisters",
+            "carpenter",
+            "home",
+            "teaches",
+            "sent",
+            "brothers",
+            "teacher",
+            "school",
+            "learns",
+            "taken"
+          ],
+          "blanks": [
+            {
+              "blankId": "a",
+              "correct": "sisters",
+              "options": [
+                {
+                  "text": "sisters",
+                  "isCorrect": true,
+                  "explanationBn": "মিতু ও নিতু দুই বোন।",
+                  "explanationEn": "Mitu and Nitu are sisters."
+                },
+                {
+                  "text": "brothers",
+                  "isCorrect": false,
+                  "explanationBn": "এরা মেয়ে হওয়ায় 'brothers' সঠিক নয়।",
+                  "explanationEn": "They are female, so 'brothers' is incorrect."
+                },
+                {
+                  "text": "cousins",
+                  "isCorrect": false,
+                  "explanationBn": "তারা বোন, কাজিন নয়।",
+                  "explanationEn": "They are sisters, not cousins."
+                }
+              ]
+            },
+            {
+              "blankId": "b",
+              "correct": "carpenter",
+              "options": [
+                {
+                  "text": "carpenter",
+                  "isCorrect": true,
+                  "explanationBn": "জনাব জয়নুল আলী একজন কাঠমিস্ত্রি।",
+                  "explanationEn": "Mr. Joynul Ali is a carpenter."
+                },
+                {
+                  "text": "teacher",
+                  "isCorrect": false,
+                  "explanationBn": "তিনি শিক্ষক নন, কাঠমিস্ত্রি।",
+                  "explanationEn": "He is not a teacher but a carpenter."
+                },
+                {
+                  "text": "doctor",
+                  "isCorrect": false,
+                  "explanationBn": "তিনি ডাক্তার নন।",
+                  "explanationEn": "He is not a doctor."
+                }
+              ]
+            },
+            {
+              "blankId": "c",
+              "correct": "home",
+              "options": [
+                {
+                  "text": "home",
+                  "isCorrect": true,
+                  "explanationBn": "নাজমা বাড়িতে সব কাজ করেন।",
+                  "explanationEn": "Nazma does all the work at home."
+                },
+                {
+                  "text": "school",
+                  "isCorrect": false,
+                  "explanationBn": "তিনি স্কুলে কাজ করেন না।",
+                  "explanationEn": "She does not work at school."
+                },
+                {
+                  "text": "office",
+                  "isCorrect": false,
+                  "explanationBn": "তিনি অফিসে কাজ করেন না।",
+                  "explanationEn": "She does not work at an office."
+                }
+              ]
+            },
+            {
+              "blankId": "d",
+              "correct": "teaches",
+              "options": [
+                {
+                  "text": "teaches",
+                  "isCorrect": true,
+                  "explanationBn": "নাজমা মিতু ও নিতুকে বাংলা ও ইংরেজি বর্ণমালা শেখান।",
+                  "explanationEn": "Nazma teaches Mitu and Nitu Bangla and English alphabets."
+                },
+                {
+                  "text": "learns",
+                  "isCorrect": false,
+                  "explanationBn": "তিনি শেখান, শেখেন না।",
+                  "explanationEn": "She teaches, not learns."
+                },
+                {
+                  "text": "punishes",
+                  "isCorrect": false,
+                  "explanationBn": "তিনি শেখান, শাস্তি দেন না।",
+                  "explanationEn": "She teaches, not punishes."
+                }
+              ]
+            },
+            {
+              "blankId": "e",
+              "correct": "sent",
+              "options": [
+                {
+                  "text": "sent",
+                  "isCorrect": true,
+                  "explanationBn": "তাদের স্কুলে পাঠানো হয় না।",
+                  "explanationEn": "They are not sent to school."
+                },
+                {
+                  "text": "taken",
+                  "isCorrect": false,
+                  "explanationBn": "তাদের নেওয়া হয় না, পাঠানো হয় না।",
+                  "explanationEn": "They are not taken, but not sent."
+                },
+                {
+                  "text": "invited",
+                  "isCorrect": false,
+                  "explanationBn": "তাদের আমন্ত্রণ জানানো হয়নি বরং পাঠানো হয় না।",
+                  "explanationEn": "They are not invited but not sent."
+                }
+              ]
+            }
+          ]
+        },
+        "vocabQuestions": [
+          {
+            "id": "4a",
+            "question": "What is the antonym of 'village'?",
+            "options": [
+              "town",
+              "forest",
+              "field",
+              "river"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Village'-এর বিপরীত শব্দ 'town' (শহর)।",
+            "explanation_en": "The antonym of 'village' is 'town'."
+          },
+          {
+            "id": "4b",
+            "question": "What is the synonym of 'carpenter'?",
+            "options": [
+              "woodworker",
+              "farmer",
+              "fisherman",
+              "tailor"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Carpenter'-এর সমার্থক শব্দ 'woodworker' (কাঠমিস্ত্রি)।",
+            "explanation_en": "The synonym of 'carpenter' is 'woodworker'."
+          },
+          {
+            "id": "4c",
+            "question": "What is the synonym of 'hire'?",
+            "options": [
+              "fire",
+              "dismiss",
+              "employ",
+              "reject"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Hire'-এর সমার্থক শব্দ 'employ' (নিযুক্ত করা)।",
+            "explanation_en": "The synonym of 'hire' is 'employ'."
+          },
+          {
+            "id": "4d",
+            "question": "What is the synonym of 'repair'?",
+            "options": [
+              "damage",
+              "break",
+              "mending",
+              "destroy"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Repair'-এর সমার্থক শব্দ 'mending' (মেরামত)।",
+            "explanation_en": "The synonym of 'repair' is 'mending'."
+          },
+          {
+            "id": "4e",
+            "question": "What is the antonym of 'sometimes'?",
+            "options": [
+              "occasionally",
+              "seldom",
+              "always",
+              "rarely"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Sometimes'-এর বিপরীত শব্দ 'always' (সর্বদা)।",
+            "explanation_en": "The antonym of 'sometimes' is 'always'."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch3",
+      "name": "Biographical Passage & Summary",
+      "type": "passage_summary",
+      "content": {
+        "passage": "Stephen Hawking is the greatest physicist after Einstein. He was born in 1942 in an educated family in the U.K. He got married in 1963.\n\nHe was very skilled in mathematics from his boyhood. He got his Ph.D in cosmology from Cambridge University by the time he was 26. He wrote the book 'A Brief History of Time: From the Big Bang to the Present Times'.\n\nHe became famous for his research on the universe's origins. Despite suffering from Gehrig's disease, he continued working using a computer and voice synthesizer. He received the Albert Einstein Award and taught at Cambridge University.\n\nHawking died in 2018.",
+        "translation_bn": "স্টিফেন হকিং আইনস্টাইনের পর সর্বশ্রেষ্ঠ পদার্থবিজ্ঞানী। তিনি ১৯৪২ সালে যুক্তরাজ্যের একটি শিক্ষিত পরিবারে জন্মগ্রহণ করেন। তিনি ১৯৬৩ সালে বিবাহবন্ধনে আবদ্ধ হন। শৈশব থেকেই তিনি গণিতে অত্যন্ত দক্ষ ছিলেন। তিনি ২৬ বছর বয়সে কেমব্রিজ বিশ্ববিদ্যালয় থেকে কসমোলজিতে পিএইচডি ডিগ্রি লাভ করেন। তিনি 'আ ব্রিফ হিস্ট্রি অফ টাইম: ফ্রম দ্য বিগ ব্যাং টু দ্য প্রেজেন্ট টাইমস' বইটি রচনা করেন। তিনি মহাবিশ্বের উৎস নিয়ে গবেষণার জন্য বিখ্যাত হন। গেরিগ রোগে আক্রান্ত হয়েও তিনি কম্পিউটার ও ভয়েস সিন্থেসাইজার ব্যবহার করে কাজ চালিয়ে যান। তিনি অ্যালবার্ট আইনস্টাইন পুরস্কার লাভ করেন এবং কেমব্রিজ বিশ্ববিদ্যালয়ে শিক্ষকতা করেন। হকিং ২০১৮ সালে মৃত্যুবরণ করেন।",
+        "vocabulary": [
+          {
+            "word": "cosmology",
+            "pos": "n",
+            "meaning_bn": "মহাবিশ্বতত্ত্ব",
+            "meaning_en": "the study of the universe",
+            "synonym": "astronomy",
+            "antonym": ""
+          },
+          {
+            "word": "physicist",
+            "pos": "n",
+            "meaning_bn": "পদার্থবিদ",
+            "meaning_en": "an expert in physics",
+            "synonym": "scientist",
+            "antonym": ""
+          },
+          {
+            "word": "synthesizer",
+            "pos": "n",
+            "meaning_bn": "সংশ্লেষক যন্ত্র",
+            "meaning_en": "an electronic device for sound",
+            "synonym": "voice machine",
+            "antonym": ""
+          },
+          {
+            "word": "skilled",
+            "pos": "adj",
+            "meaning_bn": "দক্ষ",
+            "meaning_en": "having ability or expertise",
+            "synonym": "expert",
+            "antonym": "unskilled"
+          },
+          {
+            "word": "origin",
+            "pos": "n",
+            "meaning_bn": "উৎপত্তি",
+            "meaning_en": "the beginning of something",
+            "synonym": "source",
+            "antonym": "end"
+          }
+        ],
+        "mcqQuestions": [
+          {
+            "id": "5i",
+            "question": "What important event happened in Stephen Hawking's life in 1963?",
+            "options": [
+              "He was born",
+              "He got married",
+              "He got his PhD",
+              "He wrote his famous book"
+            ],
+            "correct": 1,
+            "explanation_bn": "স্টিফেন হকিং ১৯৬৩ সালে বিবাহবন্ধনে আবদ্ধ হন।",
+            "explanation_en": "Stephen Hawking got married in 1963."
+          },
+          {
+            "id": "5ii",
+            "question": "In which year did Hawking earn his PhD from Cambridge University?",
+            "options": [
+              "1942",
+              "1963",
+              "1968",
+              "1988"
+            ],
+            "correct": 2,
+            "explanation_bn": "তিনি ২৬ বছর বয়সে (১৯৬৮ সালে) পিএইচডি লাভ করেন।",
+            "explanation_en": "He earned his PhD at age 26 (born 1942, so 1968)."
+          },
+          {
+            "id": "5iii",
+            "question": "What subject was Hawking very skilled in from his boyhood?",
+            "options": [
+              "Physics",
+              "Mathematics",
+              "Cosmology",
+              "Literature"
+            ],
+            "correct": 1,
+            "explanation_bn": "শৈশব থেকেই তিনি গণিতে অত্যন্ত দক্ষ ছিলেন।",
+            "explanation_en": "He was very skilled in mathematics from his boyhood."
+          },
+          {
+            "id": "5iv",
+            "question": "What award did Stephen Hawking receive?",
+            "options": [
+              "Nobel Prize",
+              "Albert Einstein Award",
+              "Oscar Award",
+              "Booker Prize"
+            ],
+            "correct": 1,
+            "explanation_bn": "তিনি অ্যালবার্ট আইনস্টাইন পুরস্কারে ভূষিত হন।",
+            "explanation_en": "He received the Albert Einstein Award."
+          },
+          {
+            "id": "5v",
+            "question": "What was Stephen Hawking's main research area?",
+            "options": [
+              "Biology",
+              "Mathematics",
+              "Cosmology and the universe's origins",
+              "Chemistry"
+            ],
+            "correct": 2,
+            "explanation_bn": "তিনি মহাবিশ্বের উৎস নিয়ে গবেষণার জন্য বিখ্যাত।",
+            "explanation_en": "He became famous for his research on the universe's origins."
+          }
+        ],
+        "trueFalseQuestions": [
+          {
+            "id": "6a",
+            "question": "Scientist Hawking was not very skilled in mathematics from his early age.",
+            "options": [
+              "True",
+              "False. He was very skilled in mathematics from his early age.",
+              "False. He was skilled in physics only.",
+              "Not mentioned"
+            ],
+            "correct": 1,
+            "explanation_bn": "শৈশব থেকেই হকিং গণিতে অত্যন্ত দক্ষ ছিলেন, তাই বিবৃতিটি মিথ্যা।",
+            "explanation_en": "Hawking was very skilled in mathematics from his early age, so the statement is false."
+          },
+          {
+            "id": "6b",
+            "question": "Stephen Hawking wrote the book 'A Brief History of Time'.",
+            "options": [
+              "True",
+              "False. He did not write any book.",
+              "False. It was written by Einstein.",
+              "Not mentioned"
+            ],
+            "correct": 0,
+            "explanation_bn": "হ্যাঁ, তিনি 'আ ব্রিফ হিস্ট্রি অফ টাইম' বইটি লিখেছেন।",
+            "explanation_en": "Yes, he wrote the book 'A Brief History of Time'."
+          },
+          {
+            "id": "6c",
+            "question": "Stephen Hawking taught at Cambridge University.",
+            "options": [
+              "True",
+              "False. He taught at Oxford.",
+              "False. He never taught.",
+              "Not mentioned"
+            ],
+            "correct": 0,
+            "explanation_bn": "হ্যাঁ, তিনি কেমব্রিজ বিশ্ববিদ্যালয়ে শিক্ষকতা করেন।",
+            "explanation_en": "Yes, he taught at Cambridge University."
+          },
+          {
+            "id": "6d",
+            "question": "His physical problems could limit his activities.",
+            "options": [
+              "True",
+              "False. His physical problems could not limit his activities.",
+              "False. He had no physical problems.",
+              "Not mentioned"
+            ],
+            "correct": 1,
+            "explanation_bn": "তার শারীরিক সমস্যা সত্ত্বেও তিনি তার কাজ চালিয়ে যান, তাই এটি তাকে সীমাবদ্ধ করতে পারেনি।",
+            "explanation_en": "His physical problems could not limit his activities despite his condition."
+          },
+          {
+            "id": "6e",
+            "question": "Stephen Hawking died in 2018.",
+            "options": [
+              "True",
+              "False. He died in 2010.",
+              "False. He is still alive.",
+              "Not mentioned"
+            ],
+            "correct": 0,
+            "explanation_bn": "স্টিফেন হকিং ২০১৮ সালে মৃত্যুবরণ করেন।",
+            "explanation_en": "Stephen Hawking died in 2018."
+          }
+        ],
+        "summary": "Stephen Hawking was a great physicist. He was born in 1942 in the U.K. He excelled in mathematics and earned a Ph.D. in cosmology from Cambridge at 26. He wrote the famous book 'A Brief History of Time'. He became famous for his research on the universe's origins. Despite suffering from Gehrig's disease, he continued working using a computer and voice synthesizer. He received the Albert Einstein Award and taught at Cambridge University. Hawking died in 2018."
+      }
+    },
+    {
+      "id": "ch4",
+      "name": "Sentence Making",
+      "type": "sentence_matching",
+      "content": {
+        "exercise": {
+          "id": 1,
+          "question_text": "Match the parts of sentences from Column A and Column B to make five complete sentences.",
+          "table_columns": [
+            [
+              "Once, there lived",
+              "He was",
+              "One day, a famous astrologer happened to",
+              "The king wanted to",
+              "He called"
+            ],
+            [
+              "on him.",
+              "stop at his capital.",
+              "a king in a certain kingdom.",
+              "know about his future from him.",
+              "fond of knowing the future from astrologers."
+            ]
+          ],
+          "valid_sentences": [
+            {
+              "sentence": "Once, there lived a king in a certain kingdom.",
+              "combination": [
+                "Once, there lived",
+                "a king in a certain kingdom."
+              ],
+              "explanation_en": "This introduces the story with a king.",
+              "explanation_bn": "এটি একটি রাজার সাথে গল্পের সূচনা করে।"
+            },
+            {
+              "sentence": "He was fond of knowing the future from astrologers.",
+              "combination": [
+                "He was",
+                "fond of knowing the future from astrologers."
+              ],
+              "explanation_en": "This describes the king's interest.",
+              "explanation_bn": "এটি রাজার আগ্রহ বর্ণনা করে।"
+            },
+            {
+              "sentence": "One day, a famous astrologer happened to stop at his capital.",
+              "combination": [
+                "One day, a famous astrologer happened to",
+                "stop at his capital."
+              ],
+              "explanation_en": "This introduces the astrologer's arrival.",
+              "explanation_bn": "এটি জ্যোতিষীর আগমন বর্ণনা করে।"
+            },
+            {
+              "sentence": "The king wanted to know about his future from him.",
+              "combination": [
+                "The king wanted to",
+                "know about his future from him."
+              ],
+              "explanation_en": "This shows the king's desire to know his future.",
+              "explanation_bn": "এটি রাজার ভবিষ্যৎ জানার ইচ্ছা প্রকাশ করে।"
+            },
+            {
+              "sentence": "He called on him.",
+              "combination": [
+                "He called",
+                "on him."
+              ],
+              "explanation_en": "This shows the king summoning the astrologer.",
+              "explanation_bn": "এটি রাজার জ্যোতিষীকে ডাকার ঘটনা।"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch5",
+      "name": "Rearranging",
+      "type": "rearrangement",
+      "content": {
+        "sentences": [
+          {
+            "id": "a",
+            "text": "He sat on the doorstep of his house looking out on the public streets."
+          },
+          {
+            "id": "b",
+            "text": "At that time some passers-by were walking along the street and they were greatly astonished."
+          },
+          {
+            "id": "c",
+            "text": "Socrates' wife used to lose her temper on the slightest excuse."
+          },
+          {
+            "id": "d",
+            "text": "She went up to him with a bucket full of water and poured the water on him."
+          },
+          {
+            "id": "e",
+            "text": "One day, the woman became more furious than ever and began to insult him."
+          },
+          {
+            "id": "f",
+            "text": "She thought that her husband was not paying the least heed to her and so she always tried to irritate him."
+          },
+          {
+            "id": "g",
+            "text": "This made his wife more furious."
+          },
+          {
+            "id": "h",
+            "text": "Socrates could not tolerate this, so he went out of his room."
+          }
+        ],
+        "correctOrder": [
+          "c",
+          "f",
+          "e",
+          "h",
+          "a",
+          "g",
+          "d",
+          "b"
+        ],
+        "reconstructedParagraph": "Socrates' wife used to lose her temper on the slightest excuse. She thought that her husband was not paying the least heed to her and so she always tried to irritate him. One day, the woman became more furious than ever and began to insult him. Socrates could not tolerate this, so he went out of his room. He sat on the doorstep of his house looking out on the public streets. This made his wife more furious. She went up to him with a bucket full of water and poured the water on him. At that time some passers-by were walking along the street and they were greatly astonished."
+      }
+    },
+    {
+      "id": "ch6",
+      "name": "Poetry MCQ",
+      "type": "poetry_mcq",
+      "content": {
+        "questions": [
+          {
+            "id": "10a",
+            "question": "What is the child doing according to the poem 'From a Railway Carriage'?",
+            "options": [
+              "Sleeping by the roadside",
+              "Climbing and scrambling, gathering brambles",
+              "Reading a book",
+              "Playing with a dog"
+            ],
+            "correct": 1,
+            "explanation_bn": "কবিতা অনুসারে, শিশুটি আরোহণ করছে এবং ঝোপঝাড় থেকে বেরি সংগ্রহ করছে।",
+            "explanation_en": "According to the poem, the child is climbing and scrambling, gathering brambles."
+          },
+          {
+            "id": "10b",
+            "question": "Why does the poet think the sights are flying in the poem 'From a Railway Carriage'?",
+            "options": [
+              "Because the train is stationary",
+              "Because the sights are visible only for a very short period as the train moves at high speed",
+              "Because he is dreaming",
+              "Because the sights are imaginary"
+            ],
+            "correct": 1,
+            "explanation_bn": "ট্রেন দ্রুত চলায় দৃশ্যগুলো খুব অল্প সময়ের জন্য দেখা যায়, তাই মনে হয় যেন সেগুলো উড়ে যাচ্ছে।",
+            "explanation_en": "The sights are visible only for a short period as the train moves at high speed."
+          },
+          {
+            "id": "10c",
+            "question": "What does the poet mean by 'streams full of stars' in the poem 'Leisure'?",
+            "options": [
+              "Stars fell into the streams",
+              "The stream water reflects bright light, making it seem full of stars",
+              "There are star-shaped fish in the stream",
+              "The stream flows through the sky"
+            ],
+            "correct": 1,
+            "explanation_bn": "স্রোতের পানি যখন উজ্জ্বল আলো প্রতিফলিত করে, তখন মনে হয় স্রোত যেন তারা পূর্ণ।",
+            "explanation_en": "When stream water reflects bright light, it seems to be full of stars."
+          },
+          {
+            "id": "10d",
+            "question": "In the poem 'Leisure', what does the poet wish to do during leisure?",
+            "options": [
+              "Sleep",
+              "Work more",
+              "Enjoy life, observe nature, and appreciate beauty around us",
+              "Travel to cities"
+            ],
+            "correct": 2,
+            "explanation_bn": "কবি অবসরে জীবন উপভোগ করতে, প্রকৃতি পর্যবেক্ষণ করতে এবং সৌন্দর্যের প্রশংসা করতে চান।",
+            "explanation_en": "The poet wishes to enjoy life, observe nature, and appreciate beauty during leisure."
+          },
+          {
+            "id": "10e",
+            "question": "According to the poem 'Leisure', which animals can relax and admire nature without worries?",
+            "options": [
+              "Dogs and cats",
+              "Sheep and cows",
+              "Birds and fish",
+              "Lions and tigers"
+            ],
+            "correct": 1,
+            "explanation_bn": "ভেড়া এবং গরু চিন্তামুক্তভাবে প্রকৃতি উপভোগ করতে পারে।",
+            "explanation_en": "Sheep and cows can relax and admire nature without worries."
+          },
+          {
+            "id": "10f",
+            "question": "What is faster than fairies and witches according to the poem 'From a Railway Carriage'?",
+            "options": [
+              "The horse",
+              "The cart",
+              "The train",
+              "The river"
+            ],
+            "correct": 2,
+            "explanation_bn": "কবিতা অনুসারে, ট্রেনটি পরী এবং ডাইনিদের চেয়েও দ্রুত।",
+            "explanation_en": "According to the poem, the train is faster than fairies and witches."
+          },
+          {
+            "id": "10g",
+            "question": "According to the poem 'From a Railway Carriage', can the speed of the train be compared to the passage of time?",
+            "options": [
+              "No, there is no relation",
+              "Yes, the scenes disappearing forever suggests time that is gone forever",
+              "Only if the train is slow",
+              "The poem doesn't mention time"
+            ],
+            "correct": 1,
+            "explanation_bn": "দৃশ্যগুলো চিরতরে হারিয়ে যাওয়ার মাধ্যমে সময়ের চিরস্থায়ী প্রবাহকে বোঝানো হয়েছে।",
+            "explanation_en": "The scenes disappearing forever suggests time that is once gone is gone forever."
+          }
+        ]
+      }
+    }
+  ]
+}

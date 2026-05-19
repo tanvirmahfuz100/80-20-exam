@@ -1,0 +1,989 @@
+{
+  "_type": "model_test",
+  "modelId": "m04",
+  "title": "Model Test 04 - English 1st Paper",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Passage & Comprehension",
+      "type": "passage_mcq",
+      "content": {
+        "passage": "Flora continues her story. It took us half an hour to reach the school. I saw many students on the school campus.\n\nSome were playing and some were talking to each other. I didn't know anyone. So I was a little bit afraid.\n\nMy mother soon took me to the Head Teacher. He asked me a few questions and I answered them intelligently. The Head Teacher was very pleased.\n\nHe put his hand on my shoulder and said, \"Good! You're a highly intelligent child. You know a lot.\n\nI'll take you in my school. I hope you'll be happy here.\" I was admitted to class 1. The Head Teacher was a very nice person.\n\nHe called a teacher and said to her, \"Ms. Laila, this is Flora. She is a new student in class one.\n\nTake her to the class, please.\" Ms. Laila took me to the class. The class teacher welcomed me and gave me a seat.\n\nAll the students in the class were staring at me. I felt a bit nervous to see all the new faces. But soon I felt easy.\n\nI could make friends with two or three students sitting close to me. A new place is a new experience. So my first day at school is a new experience in my life.\n\nI will remember the day as long as I live.",
+        "translation_bn": "ফ্লোরা তার গল্পটি চালিয়ে যায়। বিদ্যালয়ে পৌঁছাতে আমাদের আধ ঘন্টা সময় লাগল। আমি বিদ্যালয় প্রাঙ্গণে অনেক শিক্ষার্থীদের দেখলাম। কেউ খেলছিল আবার কেউ কেউ একে অপরের সাথে কথা বলছিল। আমি কাউকেই চিনতাম না। তাই আমি একটু ভীত হলাম। শীঘ্রই আমার মা আমাকে প্রধান শিক্ষকের নিকট নিয়ে গেলেন। তিনি আমাকে কয়েকটি প্রশ্ন করলেন এবং আমি বুদ্ধিমত্তার সাথে সেগুলোর উত্তর দিলাম। প্রধান শিক্ষক মহোদয় খুব সন্তুষ্ট হলেন। তিনি আমার কাঁধে হাত রাখলেন এবং বললেন, \"ভালো। তুমি খুবই মেধাবী শিশু। তুমি অনেক কিছু জানো। আমি তোমাকে আমার বিদ্যালয়ে নেব। আমি আশা করি তুমি এখানে খুশি থাকবে।\" আমাকে ১ম শ্রেণিতে ভর্তি করানো হলো। প্রধান শিক্ষক মহোদয় অত্যন্ত চমৎকার মানুষ ছিলেন। তিনি একজন শিক্ষিকাকে ডাকলেন এবং তাকে বললেন, \"মিজ লায়লা, এ হলো ফ্লোরা। সে ১ম শ্রেণির একজন নতুন ছাত্রী। অনুগ্রহ করে তাকে শ্রেণিকক্ষে নিয়ে যান।\" মিজ লায়লা আমাকে শ্রেণিকক্ষে নিয়ে গেলেন। শ্রেণি শিক্ষিকা আমাকে স্বাগত জানালেন এবং বসার জন্যে একটি আসন দিলেন। শ্রেণির সব শিক্ষার্থী আমার দিকে এক দৃষ্টিতে তাকিয়ে ছিল। সবগুলো নতুন মুখ দেখে আমি কিছুটা বিচলিত হয়ে পড়লাম। কিন্তু শীঘ্রই আমি স্বাচ্ছন্দ্য বোধ করলাম। আমার কাছাকাছি বসা দুই-তিন জনকে আমি বন্ধু বানাতে পারলাম। একটি নতুন স্থান একটি নতুন অভিজ্ঞতা। সুতরাং বিদ্যালয়ে প্রথম দিন আমার জীবনে একটি নতুন অভিজ্ঞতা। আমি যতদিন বেঁচে থাকবো ততদিন দিনটিকে মনে রাখবো।",
+        "vocabulary": [
+          {
+            "word": "admit",
+            "pos": "v",
+            "meaning_en": "to enroll or welcome",
+            "meaning_bn": "ভর্তি হওয়া",
+            "synonym": "enroll, register",
+            "antonym": "expel"
+          },
+          {
+            "word": "afraid",
+            "pos": "adj",
+            "meaning_en": "feeling fear or anxiety",
+            "meaning_bn": "ভীত",
+            "synonym": "frightened",
+            "antonym": "unafraid"
+          },
+          {
+            "word": "intelligently",
+            "pos": "adv",
+            "meaning_en": "in an intelligent manner",
+            "meaning_bn": "বুদ্ধিদীপ্তভাবে",
+            "synonym": "cleverly",
+            "antonym": "foolishly"
+          },
+          {
+            "word": "pleased",
+            "pos": "adj",
+            "meaning_en": "feeling satisfaction",
+            "meaning_bn": "খুশি",
+            "synonym": "satisfied",
+            "antonym": "displeased"
+          },
+          {
+            "word": "nervous",
+            "pos": "adj",
+            "meaning_en": "worried or anxious",
+            "meaning_bn": "বিচলিত",
+            "synonym": "anxious",
+            "antonym": "relaxed"
+          },
+          {
+            "word": "stare",
+            "pos": "v",
+            "meaning_en": "to look for a long time",
+            "meaning_bn": "এক দৃষ্টিতে তাকিয়ে থাকা",
+            "synonym": "gaze",
+            "antonym": "ignore"
+          },
+          {
+            "word": "experience",
+            "pos": "n",
+            "meaning_en": "an event leaving an impression",
+            "meaning_bn": "অভিজ্ঞতা",
+            "synonym": "incident",
+            "antonym": ""
+          },
+          {
+            "word": "campus",
+            "pos": "n",
+            "meaning_en": "school grounds",
+            "meaning_bn": "বিদ্যালয় প্রাঙ্গণ",
+            "synonym": "grounds",
+            "antonym": ""
+          }
+        ],
+        "questions": [
+          {
+            "id": "1i",
+            "question": "After reaching school, Flora was a little ---",
+            "options": [
+              "excited",
+              "happy",
+              "worried",
+              "sad"
+            ],
+            "correct": 2,
+            "explanation_bn": "ফ্লোরা কাউকে না চিনায় সে একটু ভীত (worried) ছিল।",
+            "explanation_en": "Flora was a little worried because she didn't know anyone."
+          },
+          {
+            "id": "1ii",
+            "question": "At first Flora went to ---",
+            "options": [
+              "the classroom",
+              "meet her classmates",
+              "play with friends",
+              "meet the Head Teacher"
+            ],
+            "correct": 3,
+            "explanation_bn": "ফ্লোরার মা তাকে প্রথমে প্রধান শিক্ষকের কাছে নিয়ে যান।",
+            "explanation_en": "Flora first went to meet the Head Teacher."
+          },
+          {
+            "id": "1iii",
+            "question": "The Head Teacher --- Flora.",
+            "options": [
+              "appreciated",
+              "scolded",
+              "rebuked",
+              "insulted"
+            ],
+            "correct": 0,
+            "explanation_bn": "প্রধান শিক্ষক ফ্লোরার প্রশংসা করেন এবং তাকে মেধাবী শিশু বলেন।",
+            "explanation_en": "The Head Teacher appreciated Flora and called her an intelligent child."
+          },
+          {
+            "id": "1iv",
+            "question": "Who took Flora to the class?",
+            "options": [
+              "Her mother",
+              "The Head Teacher",
+              "Ms. Laila",
+              "Her classmates"
+            ],
+            "correct": 2,
+            "explanation_bn": "মিজ লায়লা ফ্লোরাকে শ্রেণিকক্ষে নিয়ে যান।",
+            "explanation_en": "Ms. Laila took Flora to the class."
+          },
+          {
+            "id": "1v",
+            "question": "Seeing her new classmates, Flora was ---",
+            "options": [
+              "afraid",
+              "happy",
+              "excited",
+              "nervous"
+            ],
+            "correct": 3,
+            "explanation_bn": "সব নতুন মুখ দেখে ফ্লোরা কিছুটা নার্ভাস (বিচলিত) হয়ে পড়ে।",
+            "explanation_en": "Flora felt a bit nervous seeing all the new faces."
+          },
+          {
+            "id": "1vi",
+            "question": "'All the students in the class were staring at me.' The word 'staring' means looking for a long time ---",
+            "options": [
+              "angrily",
+              "surprisingly",
+              "foolishly",
+              "meaningfully"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Staring' অর্থ বিস্ময়ের সাথে এক দৃষ্টিতে তাকিয়ে থাকা।",
+            "explanation_en": "'Staring' means looking for a long time in surprise."
+          },
+          {
+            "id": "1vii",
+            "question": "'I'll take you in my school.' - Whose statement is it?",
+            "options": [
+              "Flora",
+              "Ms. Laila",
+              "The Headmaster",
+              "Flora's mother"
+            ],
+            "correct": 2,
+            "explanation_bn": "প্রধান শিক্ষক (Headmaster) ফ্লোরাকে বলেছিলেন যে তিনি তাকে বিদ্যালয়ে নেবেন।",
+            "explanation_en": "The Headmaster said he would take Flora in his school."
+          },
+          {
+            "id": "1viii",
+            "question": "'So I was a little bit afraid.' What does the word 'afraid' mean?",
+            "options": [
+              "valiant",
+              "nervous",
+              "heroic",
+              "daring"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Afraid' অর্থ nervous বা ভীত।",
+            "explanation_en": "'Afraid' means nervous or frightened."
+          },
+          {
+            "id": "1ix",
+            "question": "'You're a highly intelligent child.' What does 'intelligent' mean?",
+            "options": [
+              "poor",
+              "brilliant",
+              "bad",
+              "defective"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Intelligent' অর্থ brilliant বা মেধাবী।",
+            "explanation_en": "'Intelligent' means brilliant or bright."
+          },
+          {
+            "id": "1x",
+            "question": "You know a lot. The meaning of the phrase 'a lot' is ---",
+            "options": [
+              "slight",
+              "little",
+              "much",
+              "insufficient"
+            ],
+            "correct": 2,
+            "explanation_bn": "'A lot' অর্থ much বা অনেক।",
+            "explanation_en": "'A lot' means much or a great amount."
+          },
+          {
+            "id": "1xi",
+            "question": "'I'll take you in my school.' Here the underlined word 'take' refers to ---",
+            "options": [
+              "admit",
+              "receive",
+              "learn",
+              "teach"
+            ],
+            "correct": 0,
+            "explanation_bn": "এখানে 'take' অর্থ admit বা ভর্তি করা।",
+            "explanation_en": "Here 'take' means admit or enroll."
+          },
+          {
+            "id": "1xii",
+            "question": "The students in the school campus ---",
+            "options": [
+              "were unknown to Flora",
+              "were afraid to see Flora",
+              "played with Flora",
+              "were Flora's classmates"
+            ],
+            "correct": 0,
+            "explanation_bn": "বিদ্যালয় প্রাঙ্গণের শিক্ষার্থীরা ফ্লোরার অপরিচিত ছিল।",
+            "explanation_en": "The students on the campus were unknown to Flora."
+          },
+          {
+            "id": "1xiii",
+            "question": "'Half an hour' indicates ---",
+            "options": [
+              "60 minutes",
+              "10 minutes",
+              "15 minutes",
+              "30 minutes"
+            ],
+            "correct": 3,
+            "explanation_bn": "'Half an hour' অর্থ ৩০ মিনিট।",
+            "explanation_en": "'Half an hour' means 30 minutes."
+          },
+          {
+            "id": "1xiv",
+            "question": "Flora got a little nervous because ---",
+            "options": [
+              "she was little",
+              "she was sad",
+              "she didn't know anyone",
+              "she was not intelligent"
+            ],
+            "correct": 2,
+            "explanation_bn": "ফ্লোরা নার্ভাস হয়েছিল কারণ সে কাউকে চিনত না।",
+            "explanation_en": "Flora felt nervous because she didn't know anyone."
+          },
+          {
+            "id": "1xv",
+            "question": "All the students were staring at Flora because ---",
+            "options": [
+              "she was crying",
+              "she looked odd",
+              "she was intelligent",
+              "she was a newcomer"
+            ],
+            "correct": 3,
+            "explanation_bn": "ফ্লোরা নতুন ছাত্রী ছিল বলেই সবাই তার দিকে তাকিয়ে ছিল।",
+            "explanation_en": "All the students stared at Flora because she was a newcomer."
+          },
+          {
+            "id": "2a",
+            "question": "Describe Flora's feelings after reaching the school campus.",
+            "options": [
+              "She was very happy",
+              "She was a little afraid because she didn't know anyone",
+              "She was angry",
+              "She was excited to play"
+            ],
+            "correct": 1,
+            "explanation_bn": "বিদ্যালয়ে পৌঁছে ফ্লোরা একটু ভীত ছিল কারণ সে কাউকে চিনত না।",
+            "explanation_en": "Flora was a little afraid because she didn't know anyone."
+          },
+          {
+            "id": "2b",
+            "question": "Describe the incidents when Flora met the Head Teacher.",
+            "options": [
+              "He scolded her",
+              "He asked her a few questions and she answered intelligently. He was pleased and praised her",
+              "He sent her home",
+              "He ignored her"
+            ],
+            "correct": 1,
+            "explanation_bn": "প্রধান শিক্ষক ফ্লোরাকে কয়েকটি প্রশ্ন করেছিলেন এবং তিনি বুদ্ধিমত্তার সাথে উত্তর দিয়েছিলেন। তিনি সন্তুষ্ট হয়ে তার প্রশংসা করেন।",
+            "explanation_en": "The Head Teacher asked her questions, she answered intelligently, and he praised her."
+          },
+          {
+            "id": "2c",
+            "question": "Who was Ms. Laila? What did she do?",
+            "options": [
+              "She was a student. She played with Flora",
+              "She was a teacher. She took Flora to the class",
+              "She was Flora's mother. She stayed with Flora",
+              "She was the Head Teacher. She taught Flora"
+            ],
+            "correct": 1,
+            "explanation_bn": "মিজ লায়লা একজন শিক্ষিকা ছিলেন। তিনি ফ্লোরাকে শ্রেণিকক্ষে নিয়ে যান।",
+            "explanation_en": "Ms. Laila was a teacher who took Flora to the class."
+          },
+          {
+            "id": "2d",
+            "question": "How long did it take Flora and her mother to reach the school?",
+            "options": [
+              "10 minutes",
+              "20 minutes",
+              "Half an hour",
+              "One hour"
+            ],
+            "correct": 2,
+            "explanation_bn": "বিদ্যালয়ে পৌঁছাতে ফ্লোরা ও তার মায়ের আধা ঘন্টা সময় লেগেছিল।",
+            "explanation_en": "It took Flora and her mother half an hour to reach the school."
+          },
+          {
+            "id": "2e",
+            "question": "Whom did Flora see on the school campus?",
+            "options": [
+              "Only teachers",
+              "Many students playing and talking",
+              "Her old friends",
+              "Only the Head Teacher"
+            ],
+            "correct": 1,
+            "explanation_bn": "ফ্লোরা বিদ্যালয় প্রাঙ্গণে অনেক শিক্ষার্থীকে খেলতে ও কথা বলতে দেখেছিল।",
+            "explanation_en": "Flora saw many students playing and talking on the school campus."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2",
+      "name": "Gap Fill & Vocabulary",
+      "type": "gap_fill_vocab",
+      "content": {
+        "gapFill": {
+          "passage": "Flora can remember exactly about her (a) ______ day at school. She was then 6 years old. One day her mother told Flora that she was going to start her (b) ______ the next day.\n\nShe was very excited. She was always (c) ______ about the school, the teachers and the students of their school. She couldn't even sleep well that night.\n\nThe next (d) ______ she started for the school with her mother. As the school was very (e) ______ to their home, they walked all the way.",
+          "dialogPassage": "",
+          "boxWords": [
+            "first",
+            "school",
+            "thinking",
+            "morning",
+            "near",
+            "next",
+            "walking",
+            "evening",
+            "worried",
+            "far"
+          ],
+          "blanks": [
+            {
+              "blankId": "a",
+              "correct": "first",
+              "options": [
+                {
+                  "text": "first",
+                  "isCorrect": true,
+                  "explanationBn": "ফ্লোরা তার প্রথম দিনের কথা মনে করতে পারে।",
+                  "explanationEn": "Flora remembers her first day at school."
+                },
+                {
+                  "text": "next",
+                  "isCorrect": false,
+                  "explanationBn": "এটি প্রথম দিন, পরবর্তী দিন নয়।",
+                  "explanationEn": "It is the first day, not the next day."
+                },
+                {
+                  "text": "last",
+                  "isCorrect": false,
+                  "explanationBn": "'First' এখানে সঠিক শব্দ।",
+                  "explanationEn": "'First' is the correct word here."
+                }
+              ]
+            },
+            {
+              "blankId": "b",
+              "correct": "school",
+              "options": [
+                {
+                  "text": "school",
+                  "isCorrect": true,
+                  "explanationBn": "ফ্লোরা তার স্কুল শুরু করতে যাচ্ছিল।",
+                  "explanationEn": "Flora was going to start her school."
+                },
+                {
+                  "text": "class",
+                  "isCorrect": false,
+                  "explanationBn": "স্কুল, ক্লাস নয়, শুরু করতে যাচ্ছিল।",
+                  "explanationEn": "She was starting school, not class."
+                },
+                {
+                  "text": "study",
+                  "isCorrect": false,
+                  "explanationBn": "'School' এখানে সঠিক শব্দ।",
+                  "explanationEn": "'School' is the correct word here."
+                }
+              ]
+            },
+            {
+              "blankId": "c",
+              "correct": "thinking",
+              "options": [
+                {
+                  "text": "thinking",
+                  "isCorrect": true,
+                  "explanationBn": "ফ্লোরা সবসময় স্কুল, শিক্ষক ও শিক্ষার্থীদের কথা ভাবছিল।",
+                  "explanationEn": "She was always thinking about the school, teachers and students."
+                },
+                {
+                  "text": "talking",
+                  "isCorrect": false,
+                  "explanationBn": "ভাবছিল, কথা বলছিল না।",
+                  "explanationEn": "She was thinking, not talking."
+                },
+                {
+                  "text": "worrying",
+                  "isCorrect": false,
+                  "explanationBn": "'Thinking' এখানে সঠিক শব্দ।",
+                  "explanationEn": "'Thinking' is the correct word here."
+                }
+              ]
+            },
+            {
+              "blankId": "d",
+              "correct": "morning",
+              "options": [
+                {
+                  "text": "morning",
+                  "isCorrect": true,
+                  "explanationBn": "পরদিন সকালে সে স্কুলের জন্য রওনা হয়।",
+                  "explanationEn": "The next morning she started for school."
+                },
+                {
+                  "text": "evening",
+                  "isCorrect": false,
+                  "explanationBn": "সকালে, সন্ধ্যায় নয়।",
+                  "explanationEn": "In the morning, not evening."
+                },
+                {
+                  "text": "afternoon",
+                  "isCorrect": false,
+                  "explanationBn": "'Morning' এখানে সঠিক শব্দ।",
+                  "explanationEn": "'Morning' is the correct word."
+                }
+              ]
+            },
+            {
+              "blankId": "e",
+              "correct": "near",
+              "options": [
+                {
+                  "text": "near",
+                  "isCorrect": true,
+                  "explanationBn": "বিদ্যালয়টি বাড়ির কাছে ছিল।",
+                  "explanationEn": "The school was very near to their home."
+                },
+                {
+                  "text": "far",
+                  "isCorrect": false,
+                  "explanationBn": "বিদ্যালয়টি কাছে ছিল, দূরে নয়।",
+                  "explanationEn": "The school was near, not far."
+                },
+                {
+                  "text": "close",
+                  "isCorrect": false,
+                  "explanationBn": "'Near' এখানে সঠিক শব্দ।",
+                  "explanationEn": "'Near' is the correct word here."
+                }
+              ]
+            }
+          ]
+        },
+        "vocabQuestions": [
+          {
+            "id": "4a",
+            "question": "What is the synonym of 'chat'?",
+            "options": [
+              "silence",
+              "talk",
+              "ignore",
+              "avoid"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Chat'-এর সমার্থক শব্দ 'talk' বা 'conversation' (আলাপ)।",
+            "explanation_en": "The synonym of 'chat' is 'talk' or 'conversation'."
+          },
+          {
+            "id": "4b",
+            "question": "What is the antonym of 'far'?",
+            "options": [
+              "distant",
+              "remote",
+              "near",
+              "beyond"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Far'-এর বিপরীত শব্দ 'near' বা 'close' (কাছে)।",
+            "explanation_en": "The antonym of 'far' is 'near' or 'close'."
+          },
+          {
+            "id": "4c",
+            "question": "What is the synonym of 'recall'?",
+            "options": [
+              "forget",
+              "ignore",
+              "remember",
+              "lose"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Recall'-এর সমার্থক শব্দ 'remember' বা 'recollect' (স্মরণ করা)।",
+            "explanation_en": "The synonym of 'recall' is 'remember' or 'recollect'."
+          },
+          {
+            "id": "4d",
+            "question": "What is the antonym of 'excited'?",
+            "options": [
+              "enthusiastic",
+              "thrilled",
+              "unexcited",
+              "eager"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Excited'-এর বিপরীত শব্দ 'unexcited' বা 'indifferent' (অনুৎসাহী)।",
+            "explanation_en": "The antonym of 'excited' is 'unexcited' or 'indifferent'."
+          },
+          {
+            "id": "4e",
+            "question": "What is the antonym of 'next'?",
+            "options": [
+              "following",
+              "subsequent",
+              "previous",
+              "coming"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Next'-এর বিপরীত শব্দ 'previous' (পূর্ববর্তী)।",
+            "explanation_en": "The antonym of 'next' is 'previous'."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch3",
+      "name": "Biographical Passage & Summary",
+      "type": "passage_summary",
+      "content": {
+        "passage": "The great ship Titanic sailed for New York from Southampton on April 10, 1912. She was carrying 1,316 passengers and 891 crew members. At that time, however, she was not only the largest ship that had ever been built, but was regarded as unsinkable, for she had sixteen watertight compartments.\n\nThe tragic sinking of this great liner will always be remembered as she went down on her first voyage with heavy loss of life. Four days after setting out, while the Titanic was sailing across the icy water of the North Atlantic, a huge iceberg was suddenly spotted by a lookout. After the alarm had been given, the great ship turned sharply to avoid a collision.\n\nSuddenly, there was a slight trembling sound from below. The captain went down to see what had happened. The captain realized to his horror that the Titanic was sinking rapidly, for five of her sixteen watertight compartments had already been flooded.",
+        "translation_bn": "বিশাল জাহাজ টাইটানিক ১৯১২ সালের ১০ই এপ্রিল সাউদাম্পটন থেকে নিউ ইয়র্কের উদ্দেশ্যে যাত্রা শুরু করে। এটি ১৩১৬ জন যাত্রী এবং ৮৯১ জন নাবিকদল বহন করছিল। সে সময়, এটি কেবল সর্ববৃহৎ জাহাজই ছিলো না যা তখন পর্যন্ত তৈরি হয়েছিল, বরং ডুবে যাবে না বলে গণ্য করা হত, কেননা এর ছিল ষোলোটি পানিরোধক প্রকোষ্ঠ। এ জাহাজের দুঃখজনক ডুবে যাওয়া সর্বদা স্মরণীয় হয়ে থাকবে এজন্য যে এটি তার প্রথম জলযাত্রায় অনেকগুলো জীবন নিয়ে তলিয়ে যায়। যাত্রার চারদিন পর যখন টাইটানিক উত্তর আটলান্টিকের বরফপূর্ণ জল অতিক্রম করছিল, তখন একটি বিরাট তুষার স্তূপ আকস্মিকভাবে দেখা যায়। বিপদ ঘণ্টা বাজানোর পর বিশাল জাহাজটি সংঘর্ষ এড়াতে sharply মোড় ঘুরে। আকস্মিকভাবে নিচে থেকে একটি ক্ষীণ কম্পিত শব্দ হয়। কী ঘটেছে এটা দেখার জন্য জাহাজের কাপ্তান নিচে গেলেন। জাহাজের কাপ্তান ভয়াবহভাবে অনুধাবন করেন যে টাইটানিকটি খুব শীঘ্রই ডুবতে শুরু করেছে, এজন্য যে ষোলোটির মধ্যে পাঁচটি পানিরোধক প্রকোষ্ঠই ইতোমধ্যে পানিপূর্ণ হয়ে গিয়েছে।",
+        "vocabulary": [
+          {
+            "word": "voyage",
+            "pos": "n",
+            "meaning_en": "a long journey by sea",
+            "meaning_bn": "জলযাত্রা",
+            "synonym": "journey",
+            "antonym": ""
+          },
+          {
+            "word": "unsinkable",
+            "pos": "adj",
+            "meaning_en": "cannot be sunk",
+            "meaning_bn": "ডুবানো যায় না এমন",
+            "synonym": "floatable",
+            "antonym": "sinkable"
+          },
+          {
+            "word": "watertight",
+            "pos": "adj",
+            "meaning_en": "waterproof",
+            "meaning_bn": "জলরোধী",
+            "synonym": "waterproof",
+            "antonym": "permeable"
+          },
+          {
+            "word": "collision",
+            "pos": "n",
+            "meaning_en": "crash",
+            "meaning_bn": "সংঘর্ষ",
+            "synonym": "crash",
+            "antonym": "miss"
+          },
+          {
+            "word": "trembling",
+            "pos": "adj",
+            "meaning_en": "shaking",
+            "meaning_bn": "কম্পিত",
+            "synonym": "shaking",
+            "antonym": "steady"
+          },
+          {
+            "word": "compartment",
+            "pos": "n",
+            "meaning_en": "a section",
+            "meaning_bn": "প্রকোষ্ঠ",
+            "synonym": "chamber",
+            "antonym": ""
+          }
+        ],
+        "mcqQuestions": [
+          {
+            "id": "5i",
+            "question": "Where was the Titanic sailing to on her maiden voyage?",
+            "options": [
+              "Southampton",
+              "New York",
+              "North Atlantic",
+              "London"
+            ],
+            "correct": 1,
+            "explanation_bn": "টাইটানিক তার প্রথম যাত্রায় সাউদাম্পটন থেকে নিউ ইয়র্কের উদ্দেশ্যে রওনা হয়।",
+            "explanation_en": "The Titanic sailed for New York from Southampton on April 10, 1912."
+          },
+          {
+            "id": "5ii",
+            "question": "How many passengers were on board the Titanic?",
+            "options": [
+              "891 passengers",
+              "2,207 passengers",
+              "1,316 passengers",
+              "5,000 passengers"
+            ],
+            "correct": 2,
+            "explanation_bn": "টাইটানিকে ১৩১৬ জন যাত্রী এবং ৮৯১ জন ক্রু সদস্য ছিল।",
+            "explanation_en": "The Titanic was carrying 1,316 passengers and 891 crew members."
+          },
+          {
+            "id": "5iii",
+            "question": "What happened to the Titanic in the North Atlantic?",
+            "options": [
+              "It stopped moving",
+              "It had a collision with an iceberg",
+              "It caught fire",
+              "It was attacked by pirates"
+            ],
+            "correct": 1,
+            "explanation_bn": "উত্তর আটলান্টিকে টাইটানিকের একটি আইসবার্গের সাথে সংঘর্ষ হয়।",
+            "explanation_en": "The Titanic collided with a huge iceberg in the North Atlantic."
+          },
+          {
+            "id": "5iv",
+            "question": "Where did the trembling sound come from?",
+            "options": [
+              "From above the ship",
+              "From the deck",
+              "From below the ship",
+              "From the captain's cabin"
+            ],
+            "correct": 2,
+            "explanation_bn": "ক্ষীণ কম্পিত শব্দটি জাহাজের নিচ থেকে এসেছিল।",
+            "explanation_en": "The trembling sound came from below the ship."
+          },
+          {
+            "id": "5v",
+            "question": "What did the captain realize after going down to investigate?",
+            "options": [
+              "That the ship was undamaged",
+              "That the ship was sinking rapidly with five compartments flooded",
+              "That the iceberg had passed",
+              "That the crew had fixed the problem"
+            ],
+            "correct": 1,
+            "explanation_bn": "কাপ্তান বুঝতে পারেন যে টাইটানিক দ্রুত ডুবছে এবং পাঁচটি প্রকোষ্ঠ প্লাবিত হয়েছে।",
+            "explanation_en": "The captain realized the Titanic was sinking rapidly as five compartments were flooded."
+          }
+        ],
+        "trueFalseQuestions": [
+          {
+            "id": "6a",
+            "question": "The Titanic sailed for New York from Southampton on April 10, 1912.",
+            "options": [
+              "True",
+              "False. It sailed from New York to Southampton.",
+              "False. It sailed on April 14, 1912.",
+              "False. It sailed to London."
+            ],
+            "correct": 0,
+            "explanation_bn": "হ্যাঁ, টাইটানিক ১৯১২ সালের ১০ এপ্রিল সাউদাম্পটন থেকে নিউ ইয়র্কের উদ্দেশ্যে যাত্রা করে।",
+            "explanation_en": "Yes, the Titanic sailed from Southampton to New York on April 10, 1912."
+          },
+          {
+            "id": "6b",
+            "question": "The Titanic collided with a huge iceberg.",
+            "options": [
+              "True",
+              "False. It collided with another ship.",
+              "False. It hit a rock.",
+              "False. It never collided with anything."
+            ],
+            "correct": 0,
+            "explanation_bn": "হ্যাঁ, টাইটানিক উত্তর আটলান্টিকে একটি বিশাল আইসবার্গের সাথে সংঘর্ষে লিপ্ত হয়।",
+            "explanation_en": "Yes, the Titanic collided with a huge iceberg in the North Atlantic."
+          },
+          {
+            "id": "6c",
+            "question": "The Titanic was sailing across the hot water of the Pacific Ocean.",
+            "options": [
+              "True",
+              "False. The Titanic was sailing across the icy water of the North Atlantic.",
+              "False. It was sailing across the Indian Ocean.",
+              "False. It was sailing across the Mediterranean."
+            ],
+            "correct": 1,
+            "explanation_bn": "টাইটানিক উত্তর আটলান্টিকের বরফপূর্ণ জলে যাত্রা করছিল, প্রশান্ত মহাসাগরে নয়।",
+            "explanation_en": "The Titanic was sailing across the icy water of the North Atlantic, not the Pacific."
+          },
+          {
+            "id": "6d",
+            "question": "The noise of the collision with the iceberg was very loud.",
+            "options": [
+              "True",
+              "False. The noise was very faint so no one thought the ship was damaged.",
+              "False. There was no noise at all.",
+              "False. The noise was heard miles away."
+            ],
+            "correct": 1,
+            "explanation_bn": "সংঘর্ষের শব্দ ছিল খুবই ক্ষীণ, তাই কেউ ভাবেনি জাহাজের ক্ষতি হয়েছে।",
+            "explanation_en": "The noise was very faint, so no one thought the ship had been damaged."
+          },
+          {
+            "id": "6e",
+            "question": "The Titanic had 20 watertight compartments.",
+            "options": [
+              "True",
+              "False. The Titanic had 16 watertight compartments.",
+              "False. The Titanic had 10 watertight compartments.",
+              "False. The Titanic had 5 watertight compartments."
+            ],
+            "correct": 1,
+            "explanation_bn": "টাইটানিকের ২০টি নয়, ১৬টি পানিরোধক প্রকোষ্ঠ ছিল।",
+            "explanation_en": "The Titanic had 16 watertight compartments, not 20."
+          }
+        ],
+        "summary": "The Titanic, the largest ship ever built till then, was considered unsinkable. On her first voyage, the Titanic set sail for New York from Southampton on April 10, 1912, carrying 1,316 passengers and 891 crew. People believed it was unsinkable because it had sixteen watertight compartments. Sadly, the ship sank with great loss of life. Four days later, it hit an iceberg in the North Atlantic. The captain discovered that five compartments had already flooded, and the Titanic began sinking quickly."
+      }
+    },
+    {
+      "id": "ch4",
+      "name": "Sentence Making",
+      "type": "sentence_matching",
+      "content": {
+        "exercise": {
+          "id": 1,
+          "question_text": "Match the parts of sentences from Column A and Column B to make five complete sentences.",
+          "table_columns": [
+            [
+              "Once, two rats found",
+              "They couldn't agree",
+              "Because each rat wanted",
+              "So, they decided",
+              "Mr. Monkey was"
+            ],
+            [
+              "a larger piece than the other.",
+              "very wise and clever.",
+              "a piece of bread.",
+              "on how to divide it.",
+              "to go to the monkey for advice."
+            ]
+          ],
+          "valid_sentences": [
+            {
+              "sentence": "Once, two rats found a piece of bread.",
+              "combination": [
+                "Once, two rats found",
+                "a piece of bread."
+              ],
+              "explanation_en": "This introduces the two rats and what they found.",
+              "explanation_bn": "এটি দুই ইঁদুর এবং তারা কী পেয়েছিল তা পরিচয় করিয়ে দেয়।"
+            },
+            {
+              "sentence": "They couldn't agree on how to divide it.",
+              "combination": [
+                "They couldn't agree",
+                "on how to divide it."
+              ],
+              "explanation_en": "This shows the problem the rats faced.",
+              "explanation_bn": "এটি ইঁদুরদের সমস্যা দেখায়।"
+            },
+            {
+              "sentence": "Because each rat wanted a larger piece than the other.",
+              "combination": [
+                "Because each rat wanted",
+                "a larger piece than the other."
+              ],
+              "explanation_en": "This explains why they couldn't agree.",
+              "explanation_bn": "এটি ব্যাখ্যা করে কেন তারা একমত হতে পারেনি।"
+            },
+            {
+              "sentence": "So, they decided to go to the monkey for advice.",
+              "combination": [
+                "So, they decided",
+                "to go to the monkey for advice."
+              ],
+              "explanation_en": "This shows the solution they chose.",
+              "explanation_bn": "এটি তারা যে সমাধান বেছে নিয়েছে তা দেখায়।"
+            },
+            {
+              "sentence": "Mr. Monkey was very wise and clever.",
+              "combination": [
+                "Mr. Monkey was",
+                "very wise and clever."
+              ],
+              "explanation_en": "This describes the character of Mr. Monkey.",
+              "explanation_bn": "এটি মি. বানরের চরিত্র বর্ণনা করে।"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch5",
+      "name": "Rearranging",
+      "type": "rearrangement",
+      "content": {
+        "sentences": [
+          {
+            "id": "a",
+            "text": "These Satellite channels are telecasting programmes all day and night."
+          },
+          {
+            "id": "b",
+            "text": "Particularly young generations are affected very badly."
+          },
+          {
+            "id": "c",
+            "text": "The most familiar channels are Sony Max, Zee Cinema, AXN, Sahara, Zee TV, Star Sports, Star Plus, Star Jalsa, Discovery, National Geographic, etc."
+          },
+          {
+            "id": "d",
+            "text": "We are watching various programmes on Satellite Channels."
+          },
+          {
+            "id": "e",
+            "text": "The recent statistics shows that social violence has increased much more after introducing satellite channels."
+          },
+          {
+            "id": "f",
+            "text": "The television is the most important medium of communication of thoughts and ideas."
+          },
+          {
+            "id": "g",
+            "text": "We are enjoying these channels and gradually they are getting into our culture."
+          },
+          {
+            "id": "h",
+            "text": "But it has some bad effects too."
+          }
+        ],
+        "correctOrder": [
+          "f",
+          "h",
+          "d",
+          "c",
+          "a",
+          "g",
+          "b",
+          "e"
+        ],
+        "reconstructedParagraph": "The television is the most important medium of communication of thoughts and ideas. But it has some bad effects too. We are watching various programmes on Satellite Channels. The most familiar channels are Sony Max, Zee Cinema, AXN, Sahara, Zee TV, Star Sports, Star Plus, Star Jalsa, Discovery, National Geographic, etc. These Satellite channels are telecasting programmes all day and night. We are enjoying these channels and gradually they are getting into our culture. Particularly young generations are affected very badly. The recent statistics shows that social violence has increased much more after introducing satellite channels."
+      }
+    },
+    {
+      "id": "ch6",
+      "name": "Poetry MCQ",
+      "type": "poetry_mcq",
+      "content": {
+        "questions": [
+          {
+            "id": "10a",
+            "question": "In the poem 'Whose Child Is This?', what was the child doing when the speaker saw him first?",
+            "options": [
+              "Sleeping",
+              "Playing",
+              "Studying",
+              "Crying"
+            ],
+            "correct": 1,
+            "explanation_bn": "কবিতায় প্রথমবার শিশুটিকে দেখা গেলে সে খেলছিল।",
+            "explanation_en": "In the poem, the child was playing when the speaker first saw him."
+          },
+          {
+            "id": "10b",
+            "question": "According to the poem 'Whose Child Is This?', how does a parent advise a child?",
+            "options": [
+              "By punishing him",
+              "By telling him to be good always and to do right things every day",
+              "By ignoring him",
+              "By sending him to school"
+            ],
+            "correct": 1,
+            "explanation_bn": "পিতামাতা শিশুকে সবসময় ভালো থাকতে এবং প্রতিদিন সঠিক কাজ করতে উপদেশ দেন।",
+            "explanation_en": "A parent advises a child by telling him to be good always and to do right things every day."
+          },
+          {
+            "id": "10c",
+            "question": "What does the line 'To help him live by every rule' mean in the poem 'Whose Child Is This?'?",
+            "options": [
+              "To make rules for the child",
+              "To help a child follow the rules everywhere",
+              "To punish rule-breakers",
+              "To write rules for the school"
+            ],
+            "correct": 1,
+            "explanation_bn": "লাইনটির অর্থ হল শিশুকে সর্বত্র নিয়ম মেনে চলতে সাহায্য করা।",
+            "explanation_en": "The line means to help a child follow the rules everywhere."
+          },
+          {
+            "id": "10d",
+            "question": "In the poem 'Leisure', what does the expression 'to stand and stare' indicate?",
+            "options": [
+              "Working hard",
+              "Running quickly",
+              "Taking time to pause and enjoy the beauty of nature",
+              "Sleeping"
+            ],
+            "correct": 2,
+            "explanation_bn": "'To stand and stare' বলতে প্রকৃতির সৌন্দর্য উপভোগ করার জন্য থামার কাজ বোঝানো হয়েছে।",
+            "explanation_en": "'To stand and stare' means taking time to pause and enjoy nature's beauty."
+          },
+          {
+            "id": "10e",
+            "question": "According to the poem 'Leisure', which animals can relax and admire nature without worries?",
+            "options": [
+              "Dogs and cats",
+              "Sheep and cows",
+              "Lions and tigers",
+              "Birds and fish"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Leisure' কবিতা অনুসারে, ভেড়া ও গরু চিন্তামুক্ত হয়ে প্রকৃতি উপভোগ করতে পারে।",
+            "explanation_en": "According to 'Leisure', sheep and cows can relax and admire nature without worries."
+          },
+          {
+            "id": "10f",
+            "question": "In the poem 'From a Railway Carriage', who is a tramp and what is he doing?",
+            "options": [
+              "A rich man driving a car",
+              "A homeless person watching the passing train",
+              "A child playing by the track",
+              "A farmer working in the field"
+            ],
+            "correct": 1,
+            "explanation_bn": "একজন ট্রাম্প হল গৃহহীন ও বেকার ব্যক্তি যে দাঁড়িয়ে ট্রেন দেখছে।",
+            "explanation_en": "A tramp is a homeless and jobless person watching the passing train."
+          },
+          {
+            "id": "10g",
+            "question": "How are the stations according to the poem 'From a Railway Carriage'?",
+            "options": [
+              "They are dirty",
+              "They are painted",
+              "They are empty",
+              "They are noisy"
+            ],
+            "correct": 1,
+            "explanation_bn": "কবিতা অনুসারে, স্টেশনগুলো রঙিন।",
+            "explanation_en": "According to the poem, the stations are painted."
+          },
+          {
+            "id": "10h",
+            "question": "What does the phrase 'whistle by' mean in the poem 'From a Railway Carriage'?",
+            "options": [
+              "The train stops at the station",
+              "The train moves quickly past the stations",
+              "The train makes a loud noise",
+              "The train waits for passengers"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Whistle by' অর্থ ট্রেনটি স্টেশনগুলো দ্রুত অতিক্রম করে চলে যায়।",
+            "explanation_en": "'Whistle by' means the train moves quickly past the stations."
+          }
+        ]
+      }
+    }
+  ]
+}

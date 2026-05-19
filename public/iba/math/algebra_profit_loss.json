@@ -2,5 +2,794 @@
   "subject": "Math",
   "topic": "Algebra",
   "chapter": "Profit & Loss",
+<<<<<<< HEAD
   "questions": []
+=======
+  "questions": [
+    {
+      "id": "math_alg_profit_1",
+      "question": "A certain radio costs a shopkeeper Tk. 64. At what price must he sell it if he is to make a profit of 20% on the selling price?",
+      "options": [
+        "Tk. 12.80",
+        "Tk. 76.80",
+        "Tk. 78.00",
+        "Tk. 80.00",
+        "Tk. 84.00"
+      ],
+      "correct": 1,
+      "explanation": "ক্রয়মূল্য = 64 টাকা। বিক্রয়মূল্য যাতে ক্রয়মূল্যের উপর 20% লাভ হয়, বিক্রয়মূল্য = 64 × (100+20)% = 64 × 1.20 = 76.80 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 93"
+    },
+    {
+      "id": "math_alg_profit_2",
+      "question": "A trader incurs a loss of 10% on cost of an item on selling it. If he could sell it at Tk. 1,500 more, he could make a profit of 20% on cost. What was the cost of the item in thousand Taka?",
+      "options": [
+        "7.5",
+        "6",
+        "5",
+        "4.5",
+        "8"
+      ],
+      "correct": 2,
+      "explanation": "ধরি ক্রয়মূল্য = x টাকা। 10% ক্ষতিতে বিক্রয়মূল্য = 0.9x। 20% লাভে বিক্রয়মূল্য = 1.2x। শর্ত: 1.2x - 0.9x = 1500 ⇒ 0.3x = 1500 ⇒ x = 5000 টাকা = 5 হাজার টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 94-95"
+    },
+    {
+      "id": "math_alg_profit_3",
+      "question": "A bicycle originally cost $100 and was discounted 10%. After three months it was sold after being discounted another 15%. How much was the bicycle sold for?",
+      "options": [
+        "$76.50",
+        "$75.00",
+        "$73.50",
+        "$71.00",
+        "$69.50"
+      ],
+      "correct": 0,
+      "explanation": "মূল মূল্য = $100। 10% ছাড়ে দাম = $90। আবার 15% ছাড়ে চূড়ান্ত দাম = $90 × 85% = $76.50।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 94-95"
+    },
+    {
+      "id": "math_alg_profit_4",
+      "question": "A trader incurs a loss of 10% from selling an item. If the selling price was Tk. 200 more, he would have made a profit of 15%. What was the cost of the item?",
+      "options": [
+        "800",
+        "720",
+        "1200",
+        "900",
+        "None of these"
+      ],
+      "correct": 0,
+      "explanation": "ধরি ক্রয়মূল্য = x। 10% ক্ষতিতে বিক্রয়মূল্য = 0.9x। 15% লাভে বিক্রয়মূল্য = 1.15x। শর্ত: 1.15x - 0.9x = 200 ⇒ 0.25x = 200 ⇒ x = 800 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 02-03"
+    },
+    {
+      "id": "math_alg_profit_5",
+      "question": "A man made a loss of 20% on his cost by selling a pen at taka 200. What should be his selling price in taka if he wants to make a profit of 10% on cost?",
+      "options": [
+        "250",
+        "275",
+        "300",
+        "225",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "20% ক্ষতিতে বিক্রয়মূল্য 80% হয়। সুতরাং 200 টাকা = 80% of cost ⇒ cost = 200 / 0.8 = 250 টাকা। 10% লাভে বিক্রয়মূল্য = 250 × 1.1 = 275 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 98-99"
+    },
+    {
+      "id": "math_alg_profit_6",
+      "question": "Asif purchased a radio from a store and sold it to Rahman and made a profit of 20%. After few months Rahman sold the same radio to Fahad and incurred a loss of 15%. If Fahad bought the Radio for Tk. 510 what was the original price of the radio?",
+      "options": [
+        "425",
+        "450",
+        "475",
+        "500",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "ধরি আসল মূল্য = x। আসিফের কাছে বিক্রয়মূল্য = 1.2x। রহমান 15% ক্ষতিতে বিক্রয় করে ফাহাদের কাছে: 1.2x × 0.85 = 1.02x = 510 ⇒ x = 500 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 03-04"
+    },
+    {
+      "id": "math_alg_profit_7",
+      "question": "A manufacturer of TV wants to make a profit of Tk. 3,00,000 on sale of 200 TV sets. It costs Tk. 10,000 each to make the first 100 TV sets and Tk. 7,500 each to make TV set after the first 100 sets. What should be the selling price of each TV sets in taka?",
+      "options": [
+        "10,250",
+        "10,350",
+        "10,500",
+        "10,750",
+        "None of these"
+      ],
+      "correct": 0,
+      "explanation": "প্রথম 100টির মোট খরচ = 100×10000 = 10,00,000 টাকা। পরবর্তী 100টির খরচ = 100×7500 = 7,50,000 টাকা। মোট খরচ = 17,50,000 টাকা। লাভ 3,00,000 টাকা হলে মোট বিক্রয়মূল্য = 20,50,000 টাকা। প্রতিটি টিভির বিক্রয়মূল্য = 20,50,000 / 200 = 10,250 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 03-04"
+    },
+    {
+      "id": "math_alg_profit_8",
+      "question": "If the price of a product is increased by 15% then the seller would get Tk 450 more. If instead, the price were increased by 10% then how much more would he get?",
+      "options": [
+        "150",
+        "200",
+        "300",
+        "325",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "15% বৃদ্ধিতে 450 টাকা বেশি, তাহলে 10% বৃদ্ধিতে বেশি পাবে = (450/15)×10 = 300 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 04-05"
+    },
+    {
+      "id": "math_alg_profit_9",
+      "question": "An article sells at Tk. 60. This price gives a retailer a profit of 20% on its cost. What will be the new retail price, in tk., if he cuts his profit to 12% of the cost?",
+      "options": [
+        "50",
+        "45",
+        "56",
+        "50.50",
+        "55"
+      ],
+      "correct": 2,
+      "explanation": "20% লাভে বিক্রয়মূল্য 60 টাকা হলে ক্রয়মূল্য = 60 / 1.2 = 50 টাকা। 12% লাভে বিক্রয়মূল্য = 50 × 1.12 = 56 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 98-99"
+    },
+    {
+      "id": "math_alg_profit_10",
+      "question": "5% merchandise of a trader was stolen and another 5% was damaged during transportation. At what profit (in %) should he sell the rest of the goods so that he can make an overall profit of 20%?",
+      "options": [
+        "22.25%",
+        "27.5%",
+        "30%",
+        "33.3%",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "ধরি মোট পণ্যের মূল্য 100 টাকা। চুরি ও নষ্ট = 10%, বাকি 90 টাকার পণ্য। মোট 20% লাভ করতে মোট বিক্রয়মূল্য 120 টাকা হতে হবে। সুতরাং 90 টাকার পণ্য বিক্রি করতে হবে 120 টাকায়, লাভ = 30 টাকা। শতকরা লাভ = (30/90)×100 = 33.33%।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 99-00"
+    },
+    {
+      "id": "math_alg_profit_11",
+      "question": "During summer, a store offers 10% discount on some items. But due to a defect, an additional 5% was discounted from the discount price for a particular item. If the list price of the item was Tk. 400, what was the discounted price?",
+      "options": [
+        "338",
+        "340",
+        "342",
+        "345.50",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "400 এর 10% ছাড়ে দাম = 360। আবার 5% ছাড়ে = 360 × 95% = 342 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 99-00"
+    },
+    {
+      "id": "math_alg_profit_12",
+      "question": "A T-shirt marked Tk. 48 is offered at a discount of 25% during Eid sale. At this reduced price the shopkeeper makes a profit of 20% on the cost. The cost to the shopkeeper is",
+      "options": [
+        "Tk. 29",
+        "Tk. 30",
+        "Tk. 32",
+        "Tk. 36",
+        "Tk. 40"
+      ],
+      "correct": 1,
+      "explanation": "25% ছাড়ে বিক্রয়মূল্য = 48 × 0.75 = 36 টাকা। এই মূল্যে 20% লাভ, সুতরাং ক্রয়মূল্য = 36 / 1.2 = 30 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 00-01"
+    },
+    {
+      "id": "math_alg_profit_13",
+      "question": "You buy equal number of two types of chocolates at the rate of Tk. 1/9 and Tk 1/11 respectively. If you now sell them at the rate of Tk. 1/10 what will be your profit/loss?",
+      "options": [
+        "2% loss",
+        "2% profit",
+        "0",
+        "1% loss",
+        "1% Profit"
+      ],
+      "correct": 3,
+      "explanation": "ধরি প্রতিটি প্রকার x টি করে চকলেট কেনা। মোট ক্রয়মূল্য = x/9 + x/11 = (11x+9x)/99 = 20x/99। মোট 2x টি চকলেট বিক্রি করে মূল্য = 2x/10 = x/5। লাভ/ক্ষতি = x/5 - 20x/99 = (99x - 100x)/495 = -x/495, ক্ষতি। শতকরা ক্ষতি = (x/495) / (20x/99) × 100 = (1/495)×(99/20)×100 = (99×100)/(495×20) = (9900)/(9900) = 1%।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 96-97"
+    },
+    {
+      "id": "math_alg_profit_14",
+      "question": "X sells an item to Y at a profit of 28% on his cost and Y sells the same item to Z at a loss of 25% on his cost. If Y has thus sold the item to Z at Tk. 2 less than the cost of the item to X, what is the cost of the item to X in Taka?",
+      "options": [
+        "100",
+        "50",
+        "200",
+        "150",
+        "250"
+      ],
+      "correct": 1,
+      "explanation": "ধরি X-এর ক্রয়মূল্য = x। X-এর কাছে Y ক্রয়মূল্য = 1.28x। Y 25% ক্ষতিতে বিক্রয়মূল্য = 1.28x × 0.75 = 0.96x। শর্ত: 0.96x = x - 2 ⇒ 2 = 0.04x ⇒ x = 50 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 94-95"
+    },
+    {
+      "id": "math_alg_profit_15",
+      "question": "In making a Radio set, the cost of labour and materials are in the ratio of 3:2. A manufacturer sells a set for Tk. 150 to make a gain of 25% on the cost. What is the cost of the materials for the set?",
+      "options": [
+        "Tk. 72",
+        "Tk. 60",
+        "Tk. 54",
+        "Tk. 48",
+        "Tk. 40"
+      ],
+      "correct": 3,
+      "explanation": "25% লাভে বিক্রয়মূল্য 150 টাকা হলে ক্রয়মূল্য = 150 / 1.25 = 120 টাকা। শ্রম: উপকরণ = 3:2, সুতরাং উপকরণের মূল্য = (2/5)×120 = 48 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 94-95"
+    },
+    {
+      "id": "math_alg_profit_16",
+      "question": "Mr. Karim bought 20 mangoes for Tk 55. He found that 10% of the mangoes were damaged and sold the rest at the rate of Taka 54 per dozen. How much profit in Taka did he make?",
+      "options": [
+        "28",
+        "26",
+        "24",
+        "20",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "20টি আমের 10% নষ্ট = 2টি, বাকি 18টি = 1.5 ডজন। বিক্রয়মূল্য = 1.5 × 54 = 81 টাকা। লাভ = 81 - 55 = 26 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 98-99"
+    },
+    {
+      "id": "math_alg_profit_17",
+      "question": "A trader purchases some pen at the rate of Tk. 10 per dozen. If he sells all the pen at a rate of Tk. 120 per hundred pen. What will be his profit in percent?",
+      "options": [
+        "33.33",
+        "44",
+        "45",
+        "48",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "ক্রয়মূল্য: 12টি পেনে 10 টাকা, প্রতি পেন = 10/12 = 5/6 টাকা। বিক্রয়মূল্য: 100টি পেনে 120 টাকা, প্রতি পেন = 1.2 টাকা। লাভ = 1.2 - 5/6 = (7.2-5)/6 = 2.2/6 = 11/30। শতকরা = (11/30) / (5/6) × 100 = (11/30)×(6/5)×100 = (66/150)×100 = 44%।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 00-01"
+    },
+    {
+      "id": "math_alg_profit_18",
+      "question": "The manager of Agora purchased some tomatoes for Tk. 45 per kg. Due to improper handling, 10% of the tomatoes, by weight, were ruined and discarded. At what price per kg should the manager sell the remaining tomatoes if he wishes to make a profit of 12 percent on the cost of the tomatoes?",
+      "options": [
+        "52",
+        "54",
+        "56",
+        "58",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "ধরি x কেজি টমেটো কেনা। মোট খরচ = 45x। 10% নষ্ট, বাকি 0.9x কেজি। 12% লাভে মোট বিক্রয়মূল্য = 45x × 1.12 = 50.4x। প্রতি কেজি বিক্রয়মূল্য = 50.4x / 0.9x = 56 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 04-05"
+    },
+    {
+      "id": "math_alg_profit_19",
+      "question": "A merchant was selling an item at a certain price, then marked it down 20% for a spring sale. During the summer, he marked the item down another 20% from its spring price. If the item is sold at the summer price, then what percent of the original price did it sell for?",
+      "options": [
+        "40%",
+        "60%",
+        "64%",
+        "67%",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "ধরি আসল দাম 100। বসন্তে 20% ছাড় = 80। গ্রীষ্মে আরও 20% ছাড় = 80 × 0.8 = 64। সুতরাং আসল দামের 64%।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 06-07"
+    },
+    {
+      "id": "math_alg_profit_20",
+      "question": "When the per unit production cost of an item is Tk. 80 and other costs per unit is Tk. 20, the producer makes a profit of 15% on his total cost. If the production cost decreases by 20% and the selling price remains the same, calculate the profit in Tk.",
+      "options": [
+        "31",
+        "34",
+        "35",
+        "43",
+        "None of these"
+      ],
+      "correct": 0,
+      "explanation": "মোট খরচ = 80+20 = 100 টাকা। 15% লাভে বিক্রয়মূল্য = 115 টাকা। উৎপাদন খরচ 20% কমলে = 80 × 0.8 = 64 টাকা। নতুন মোট খরচ = 64+20 = 84 টাকা। বিক্রয়মূল্য অপরিবর্তিত 115 টাকা, সুতরাং লাভ = 115-84 = 31 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 07-08"
+    },
+    {
+      "id": "math_alg_profit_21",
+      "question": "A shopkeeper marks an article at such a price that after allowing a discount of 30% on the tag price (including tax) he makes a profit of 40%. If the tag price of the article including tax is Tk. 460, then the cost price of that article is",
+      "options": [
+        "232",
+        "260",
+        "230",
+        "330",
+        "322"
+      ],
+      "correct": 2,
+      "explanation": "ট্যাগ মূল্য 460 টাকা। 30% ছাড়ে বিক্রয়মূল্য = 460 × 0.7 = 322 টাকা। এই মূল্যে 40% লাভ, সুতরাং ক্রয়মূল্য = 322 / 1.4 = 230 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 09-10"
+    },
+    {
+      "id": "math_alg_profit_22",
+      "question": "The potato traders have increased the original price of potatoes by 20% by creating a false shortage of supply. Govt. intervened into the scene and forced the traders to reduce their price by 20% of new price and stick to that. Currently the traders are selling potatoes with a loss/gain of what percentage over the original price?",
+      "options": [
+        "4% loss",
+        "4% gain",
+        "5.5% gain",
+        "6% loss",
+        "Neither gain nor loss"
+      ],
+      "correct": 0,
+      "explanation": "ধরি আসল দাম 100। 20% বৃদ্ধিতে দাম = 120। আবার 20% হ্রাস = 120 × 0.8 = 96। সুতরাং 4% ক্ষতি।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 09-10"
+    },
+    {
+      "id": "math_alg_profit_23",
+      "question": "Hasan purchased 3 products: 100 units of product A @ Tk. x per unit; 300 units of product B @ Tk. 2x per unit and 600 units of product C @ Tk. 3x per unit. If he wants to make a profit of 20%, he should sell these products at an average price of",
+      "options": [
+        "2.4x",
+        "2x",
+        "3x",
+        "2.2x",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "মোট ক্রয়মূল্য = 100x + 300×2x + 600×3x = 100x + 600x + 1800x = 2500x। 20% লাভে মোট বিক্রয়মূল্য = 2500x × 1.2 = 3000x। মোট ইউনিট = 100+300+600 = 1000। গড় বিক্রয়মূল্য = 3000x / 1000 = 3x।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 96-97"
+    },
+    {
+      "id": "math_alg_profit_24",
+      "question": "A pen was sold at 10% loss. If the selling price was Tk. 6 more, then the seller could have made a profit of 5%. What was the purchase price of the pen?",
+      "options": [
+        "45",
+        "40",
+        "30",
+        "25",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "ধরি ক্রয়মূল্য = x। 10% ক্ষতিতে বিক্রয়মূল্য = 0.9x। 5% লাভে বিক্রয়মূল্য = 1.05x। শর্ত: 1.05x - 0.9x = 6 ⇒ 0.15x = 6 ⇒ x = 40 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 98-99"
+    },
+    {
+      "id": "math_alg_profit_25",
+      "question": "A trader, while selling a pen, was asking for such a price that will enable him to offer a 10% discount and still make a profit of 20% on cost. If the cost of the pen was Tk. 30, what was his asking price?",
+      "options": [
+        "42",
+        "40",
+        "36",
+        "32",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "ক্রয়মূল্য 30, 20% লাভে বিক্রয়মূল্য = 36 টাকা। এই বিক্রয়মূল্য 10% ছাড়ের পর পাওয়া যায়। ধরি চাওয়া মূল্য = y, তাহলে y × 0.9 = 36 ⇒ y = 40 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 98-99"
+    },
+    {
+      "id": "math_alg_profit_26",
+      "question": "An item was sold at 6% profit. If the cost was 4% less and the selling price was Tk. 4 more, then the trader would have made a profit of 12.5%. What was the cost of the item?",
+      "options": [
+        "100",
+        "120",
+        "150",
+        "200",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "ধরি ক্রয়মূল্য = x। 6% লাভে বিক্রয়মূল্য = 1.06x। নতুন ক্রয়মূল্য = 0.96x, নতুন বিক্রয়মূল্য = 1.06x+4, লাভ = 12.5%। সুতরাং (1.06x+4) = 1.125 × 0.96x = 1.08x ⇒ 1.06x+4 = 1.08x ⇒ 4 = 0.02x ⇒ x = 200।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 99-00"
+    },
+    {
+      "id": "math_alg_profit_27",
+      "question": "A trader buys eggs for Tk. M per dozen and sells them for Tk. M/6 per piece. What is his profit?",
+      "options": [
+        "20%",
+        "50%",
+        "60%",
+        "100%",
+        "none of these"
+      ],
+      "correct": 3,
+      "explanation": "ক্রয়মূল্য প্রতি ডজন = M টাকা, প্রতি পিস = M/12 টাকা। বিক্রয়মূল্য প্রতি পিস = M/6 টাকা। লাভ = M/6 - M/12 = M/12। শতকরা = (M/12)/(M/12)×100 = 100%? আসলে (M/12)/(M/12)=1 অর্থাৎ 100% লাভ।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 01-02"
+    },
+    {
+      "id": "math_alg_profit_28",
+      "question": "A person bought an article and sold it at a loss of 10%. If he had bought it for 20% less and sold it for Tk. 55 more, he would have made a profit of 40%. What was the cost of the article in taka?",
+      "options": [
+        "350",
+        "300",
+        "250",
+        "150",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "ধরি ক্রয়মূল্য = x। বিক্রয়মূল্য = 0.9x। নতুন ক্রয়মূল্য = 0.8x, নতুন বিক্রয়মূল্য = 0.9x+55, লাভ 40%। সুতরাং 0.9x+55 = 1.4 × 0.8x = 1.12x ⇒ 55 = 0.22x ⇒ x = 250।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 07-08"
+    },
+    {
+      "id": "math_alg_profit_29",
+      "question": "A wholesaler bought 2100 MBA admission guide books for taka 20 each. The wholesaler sold 50 percent of the books for taka 35 each and the rest for taka 18 each. What was the wholesaler's average profit per book?",
+      "options": [
+        "taka 6.5",
+        "taka13",
+        "taka 7",
+        "taka 5",
+        "taka 3.33"
+      ],
+      "correct": 0,
+      "explanation": "মোট বই = 2100, ক্রয়মূল্য = 2100×20 = 42000 টাকা। 50% = 1050টি 35 টাকায় বিক্রি = 36750 টাকা। বাকি 1050টি 18 টাকায় = 18900 টাকা। মোট বিক্রয় = 55650 টাকা। মোট লাভ = 55650-42000 = 13650 টাকা। গড় লাভ = 13650/2100 = 6.5 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 09-10"
+    },
+    {
+      "id": "math_alg_profit_30",
+      "question": "The retail price of a pen is 40 taka. Asif got a discount of 20% over the retail price and he eventually saved taka 240 on his total purchase of the pens. How many pens did he buy?",
+      "options": [
+        "20",
+        "24",
+        "12",
+        "30",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "প্রতি পেনে ছাড় = 40 × 20% = 8 টাকা। মোট ছাড় = 240 টাকা, সুতরাং পেন সংখ্যা = 240/8 = 30টি।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 09-10"
+    },
+    {
+      "id": "math_alg_profit_31",
+      "question": "A trader normally makes a profit of 40% on items he sells. If he reduces the price by 10%, his sales increase by 40%. Let x be the total profit when he does not reduce the price, and y the total profit when he reduces the price. What is the ratio of y to x?",
+      "options": [
+        "1.28",
+        "7.8",
+        "1.11",
+        "0.91",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "ধরি ক্রয়মূল্য 100 টাকা, বিক্রয়মূল্য 140, বিক্রয় সংখ্যা 10 ধরি। লাভ x = (140-100)×10 = 400। দাম 10% কমালে বিক্রয়মূল্য = 126, বিক্রয় সংখ্যা 14 (40% বৃদ্ধি)। লাভ y = (126-100)×14 = 26×14 = 364। অনুপাত y/x = 364/400 = 0.91।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 02-03"
+    },
+    {
+      "id": "math_alg_profit_32",
+      "question": "The cost of 1 dozen apples and 1 dozen mangoes is Tk. 100 and Tk. 120 respectively. If you spend equal amounts of money to buy apples and mangoes and sell them both at Tk. 110 per dozen, what will be your approximate profit or loss?",
+      "options": [
+        "2% profit",
+        "2% loss",
+        "0",
+        "1% profit",
+        "1% loss"
+      ],
+      "correct": 3,
+      "explanation": "ধরি আপেল ও আমের জন্য সমান টাকা = ল.সা.গু. (100,120) = 600 টাকা। আপেল কেনা = 6 ডজন, আম কেনা = 5 ডজন। মোট ক্রয়মূল্য = 1200 টাকা। বিক্রয়মূল্য = (6+5)×110 = 1210 টাকা। লাভ = 10 টাকা, শতকরা = (10/1200)×100 ≈ 0.833% প্রায় 1% লাভ।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 02-03"
+    },
+    {
+      "id": "math_alg_profit_33",
+      "question": "A shirt was sold at 6% profit. If the purchase price were 4% less and the selling price were tk.4 more, the profit would be 12.5%. What was the purchase price of the shirt?",
+      "options": [
+        "240",
+        "220",
+        "200",
+        "180",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "ধরি ক্রয়মূল্য = x। বিক্রয়মূল্য = 1.06x। নতুন ক্রয়মূল্য = 0.96x, নতুন বিক্রয়মূল্য = 1.06x+4, লাভ = 12.5%। সুতরাং 1.06x+4 = 1.125×0.96x = 1.08x ⇒ 4 = 0.02x ⇒ x = 200।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 96-97"
+    },
+    {
+      "id": "math_alg_profit_34",
+      "question": "If you buy equal amount of two types of chocolates at the rate of tk. 1/4 and tk. 1/6 respectively and sell all of them at the rate of tk. 1/5, what will be your profit/loss?",
+      "options": [
+        "1% loss",
+        "2% profit",
+        "2% loss",
+        "4% profit",
+        "4% loss"
+      ],
+      "correct": 4,
+      "explanation": "ধরি প্রতিটি প্রকার 60 টি করে কেনা। মোট ক্রয়মূল্য = 60×(1/4) + 60×(1/6) = 15+10 = 25 টাকা। মোট 120 টি বিক্রয়মূল্য = 120×(1/5) = 24 টাকা। ক্ষতি = 1 টাকা, শতকরা = (1/25)×100 = 4% ক্ষতি।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 96-97"
+    },
+    {
+      "id": "math_alg_profit_35",
+      "question": "Two years ago, the cost of pen A was Tk. 70 more than that of pen B. But due to high demand, the cost of pen A has increased by 100% and that of pen B has increased by Tk. 20. If today you need a total of Tk. 250 to buy one pen of each type, what was the price in Taka of pen B two years ago?",
+      "options": [
+        "30",
+        "40",
+        "50",
+        "70",
+        "None of these"
+      ],
+      "correct": 0,
+      "explanation": "ধরি দুই বছর আগে B-এর দাম = x, A-এর দাম = x+70। বর্তমানে A = 2(x+70), B = x+20। যোগফল = 2x+140 + x+20 = 3x+160 = 250 ⇒ 3x = 90 ⇒ x = 30 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 00-01"
+    },
+    {
+      "id": "math_alg_profit_36",
+      "question": "The price for a TV is 120% of its cost. The TV was sold at a 10% discount on the price. If the profit is Tk. 2,400, what is the cost of the TV in taka?",
+      "options": [
+        "24,000",
+        "27,500",
+        "30,000",
+        "32,000",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "ধরি ক্রয়মূল্য = 100x, দাম = 120x। 10% ছাড়ে বিক্রয়মূল্য = 108x। লাভ = 108x - 100x = 8x = 2400 ⇒ x = 300। ক্রয়মূল্য = 100×300 = 30,000 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 02-03"
+    },
+    {
+      "id": "math_alg_profit_37",
+      "question": "A shop sold a pair of shoes for Tk. 1600.00 and a pair of sandals for Tk. 960.00. It made a profit of 20% on shoes and took a 10% loss on sandals. The shop made a",
+      "options": [
+        "loss of 17.8%",
+        "loss of 15.0%",
+        "gain of 17.8%",
+        "gain of 75.3%",
+        "None of these"
+      ],
+      "correct": 4,
+      "explanation": "জুতার ক্রয়মূল্য = 1600 / 1.2 ≈ 1333.33, স্যান্ডেলের ক্রয়মূল্য = 960 / 0.9 ≈ 1066.67। মোট ক্রয়মূল্য = 2400, মোট বিক্রয়মূল্য = 2560, লাভ = 160, শতকরা = (160/2400)×100 = 6.67%, যা অপশনে নেই।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 03-04"
+    },
+    {
+      "id": "math_alg_profit_38",
+      "question": "In the official exchange, ratio of French Francs to US Dollars is 350:1 and the free exchange ratio is 400:1. How much profit would a man make if he could convert $70 to francs at the free rate and then convert these back to dollars at the official rate?",
+      "options": [
+        "$1",
+        "$10",
+        "$61.25",
+        "$70",
+        "$80"
+      ],
+      "correct": 1,
+      "explanation": "ফ্রি রেটে $70 = 400×70 = 28000 ফ্রাঙ্ক। অফিসিয়াল রেটে 28000 ফ্রাঙ্ক = 28000/350 = 80 ডলার। লাভ = 80-70 = 10 ডলার।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 05-06"
+    },
+    {
+      "id": "math_alg_profit_39",
+      "question": "A man buys eggs at the rate of Tk 35 per 100 pieces and sells them at Tk 7.20 per dozen. If the profit is Tk 30, how many eggs did he buy?",
+      "options": [
+        "60",
+        "120",
+        "180",
+        "210",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "প্রতি ডিমের ক্রয়মূল্য = 35/100 = 0.35 টাকা। প্রতি ডিমের বিক্রয়মূল্য = 7.20/12 = 0.60 টাকা। প্রতি ডিমে লাভ = 0.25 টাকা। মোট লাভ 30 টাকা হলে ডিম সংখ্যা = 30/0.25 = 120টি।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 08-09"
+    },
+    {
+      "id": "math_alg_profit_40",
+      "question": "A merchant buys two articles for Taka 1400. He sells one of them at a profit of 20% and the other at a loss of 8%. He makes no profit or loss in the end. What is the selling price of the article that he sold at a loss?",
+      "options": [
+        "1000",
+        "1200",
+        "800",
+        "900",
+        "none of these"
+      ],
+      "correct": 4,
+      "explanation": "ধরি ক্ষতিতে বিক্রিত দ্রব্যের ক্রয়মূল্য = x, অপরটির = 1400-x। 20% লাভ = 0.2(1400-x), 8% ক্ষতি = 0.08x। লাভ-ক্ষতি সমান: 0.2(1400-x) = 0.08x ⇒ 280 - 0.2x = 0.08x ⇒ 280 = 0.28x ⇒ x = 1000। ক্ষতিতে বিক্রিত দ্রব্যের বিক্রয়মূল্য = 1000 × 0.92 = 920 টাকা (অপশনে নেই)।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 08-09"
+    },
+    {
+      "id": "math_alg_profit_41",
+      "question": "A trader makes a loss of 10% by selling a chair at a discount of 28% on the listed price. What will be his profit/loss if he sells the chair at 90% of its listed price?",
+      "options": [
+        "10%",
+        "12.5%",
+        "13.6%",
+        "15%",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "ধরি তালিকামূল্য = 100। 28% ছাড়ে বিক্রয়মূল্য = 72। এতে 10% ক্ষতি, সুতরাং ক্রয়মূল্য = 72 / 0.9 = 80। 90% তালিকামূল্য = 90। লাভ = 90-80=10, শতকরা = (10/80)×100 = 12.5%।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "MBA 2013"
+    },
+    {
+      "id": "math_alg_profit_42",
+      "question": "For an item the profit is 40% when the discount is 30%. What is the profit when the discount is 40%?",
+      "options": [
+        "10%",
+        "20%",
+        "25%",
+        "30%",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "ধরি ক্রয়মূল্য = 100। 40% লাভে বিক্রয়মূল্য = 140। এটি তালিকামূল্যে 30% ছাড়ের পর প্রাপ্ত। সুতরাং তালিকামূল্য = 140 / 0.7 = 200। 40% ছাড়ে বিক্রয়মূল্য = 200 × 0.6 = 120। লাভ = 120-100=20, শতকরা = 20%।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 14-15"
+    },
+    {
+      "id": "math_alg_profit_43",
+      "question": "Bashir bought an ordinary mobile and a cover for Tk. 2000. Malek bought a smartphone and the same cover for Tk. 2000 more than what Bashir had paid. The price of the cover was one tenth of the combined cost of the two mobiles. What was the cost of the ordinary mobile?",
+      "options": [
+        "Tk. 1000",
+        "Tk. 1200",
+        "Tk. 1500",
+        "Tk. 1600",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "ধরি সাধারণ মোবাইলের দাম = x, কভারের দাম = c। তাহলে x + c = 2000। স্মার্টফোনের দাম = y, y + c = 2000 + 2000 = 4000। কভারের দাম = (x+y)/10। প্রথম দুটি সমীকরণ থেকে c = 2000 - x = 4000 - y ⇒ y = x + 2000। তাহলে (x + x+2000)/10 = 2000 - x ⇒ (2x+2000)/10 = 2000 - x ⇒ 2x+2000 = 20000 - 10x ⇒ 12x = 18000 ⇒ x = 1500 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 14-15"
+    },
+    {
+      "id": "math_alg_profit_44",
+      "question": "A customer came to a shop and asked the shop manager to give a 20% discount on listed price of a pen. Moreover, for every 10 pens purchased he wanted two pens free of cost. The manager agreed to the customer's demand because he could still make a profit of 20% on cost price. If the cost price of a pen is x, what was the list price of the pen?",
+      "options": [
+        "1.75x",
+        "1.8x",
+        "1.9x",
+        "2x",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "ধরি তালিকামূল্য = L। 10 টি পেন কিনলে 2টি ফ্রি, অর্থাৎ 12 টি পেনের জন্য দিতে হবে 10 টি পেনের দাম 20% ছাড়ে। সুতরাং 12 টি পেনের ক্রয়মূল্য = 12x (মুনাফা 20% হলে বিক্রয়মূল্য = 1.2×12x = 14.4x)। আবার 12 টি পেনের বিক্রয়মূল্য = 10 × L × 0.8 = 8L। সমীকরণ: 8L = 14.4x ⇒ L = 1.8x।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 14-15"
+    },
+    {
+      "id": "math_alg_profit_45",
+      "question": "The total income of Mr. Teng in the years 2003, 2004, and 2005 was BDT 36,400. His income had increased by 20% each year. What was his income (BDT) in 2005?",
+      "options": [
+        "5,600",
+        "8,800",
+        "12,000",
+        "14,000",
+        "none of these"
+      ],
+      "correct": 4,
+      "explanation": "ধরি 2003 সালের আয় = a। তাহলে 2004 = 1.2a, 2005 = 1.44a। যোগফল = a + 1.2a + 1.44a = 3.64a = 36400 ⇒ a = 10000। 2005 সালে আয় = 14400 টাকা (অপশনে নেই)।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 15-16"
+    },
+    {
+      "id": "math_alg_profit_46",
+      "question": "Nipu sold 100 pens, of which 50 are red and 50 are black, at Tk. 48 per pen. He made a profit of 20% on the black pens and made a loss of 20% on the red pens. What was the net gain or net loss on this sale?",
+      "options": [
+        "0",
+        "Gain of Tk. 200",
+        "Loss of Tk. 200",
+        "Gain of Tk. 400",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "কালো কলমের ক্রয়মূল্য = 48/1.2 = 40 টাকা, লাভ = 8 টাকা, মোট লাভ = 50×8 = 400 টাকা। লাল কলমের ক্রয়মূল্য = 48/0.8 = 60 টাকা, ক্ষতি = 12 টাকা, মোট ক্ষতি = 50×12 = 600 টাকা। নিট ক্ষতি = 600-400 = 200 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 16-17"
+    },
+    {
+      "id": "math_alg_profit_47",
+      "question": "The sale of TV increased by 30% when the price was reduced by 10%. What will be the percentage change in revenue?",
+      "options": [
+        "+14%",
+        "+15%",
+        "+17%",
+        "+18%",
+        "none of these"
+      ],
+      "correct": 2,
+      "explanation": "ধরি পূর্বে বিক্রয় সংখ্যা = 100, মূল্য = 100, আয় = 10000। নতুন মূল্য = 90, নতুন বিক্রয় সংখ্যা = 130, নতুন আয় = 90×130 = 11700। বৃদ্ধি = 1700, শতকরা = (1700/10000)×100 = 17%।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 16-17"
+    },
+    {
+      "id": "math_alg_profit_48",
+      "question": "A TV and a computer have the same price. If the price of the TV goes up by 20% and that of the computer goes down by 10%, how much more will it cost to buy 4 TVs and 4 computers?",
+      "options": [
+        "5%",
+        "1%",
+        "15%",
+        "20%",
+        "none of these"
+      ],
+      "correct": 0,
+      "explanation": "ধরি প্রতিটির দাম = 100। পূর্বে 4টি টিভি ও 4টি কম্পিউটারের মূল্য = 800। নতুন দাম: টিভি = 120, কম্পিউটার = 90, মোট = 4×120+4×90 = 480+360=840। বৃদ্ধি = 40, শতকরা = (40/800)×100 = 5%।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 16-17"
+    },
+    {
+      "id": "math_alg_profit_49",
+      "question": "Johny bought a book and sold it at a loss of 10%. If he had bought it for 20% less and sold it for Tk 55 more, he would have made a profit of 40%. What was the cost of the book?",
+      "options": [
+        "Tk 150",
+        "Tk 250",
+        "Tk 350",
+        "Tk 450",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "ধরি ক্রয়মূল্য = x। বিক্রয়মূল্য = 0.9x। নতুন ক্রয়মূল্য = 0.8x, নতুন বিক্রয়মূল্য = 0.9x+55, লাভ 40%। সুতরাং 0.9x+55 = 1.4×0.8x = 1.12x ⇒ 55 = 0.22x ⇒ x = 250 টাকা।",
+      "difficulty": "medium",
+      "chapter_tag": "Profit Loss",
+      "source": "BBA 17-18"
+    }
+  ]
+>>>>>>> a0c97bb190de6fa44287f4297055c5c07b9bc7b0
 }
