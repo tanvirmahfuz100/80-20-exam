@@ -1,0 +1,68 @@
+[
+  {
+    "id": "bcs_48_2",
+    "name": "48th BCS (Part-2 Medical)",
+    "code": "",
+    "questionCount": 99
+  },
+  {
+    "id": "bcs_48_1",
+    "name": "48th BCS (Part-1)",
+    "code": "",
+    "questionCount": 95
+  },
+  {
+    "id": "bcs_49",
+    "name": "49th BCS",
+    "code": "",
+    "questionCount": 92
+  },
+  {
+    "id": "bcs_47",
+    "name": "47th BCS",
+    "code": "",
+    "questionCount": 193
+  },
+  {
+    "id": "bcs_46",
+    "name": "46th BCS",
+    "code": "কপোতাক্ষ",
+    "questionCount": 184
+  },
+  {
+    "id": "bcs_45",
+    "name": "45th BCS",
+    "code": "মনপুরা",
+    "questionCount": 179
+  },
+  {
+    "id": "bcs_44",
+    "name": "44th BCS",
+    "code": "হেমন্ত",
+    "questionCount": 189
+  },
+  {
+    "id": "bcs_43",
+    "name": "43rd BCS",
+    "code": "নীলকণ্ঠ",
+    "questionCount": 191
+  },
+  {
+    "id": "bcs_42",
+    "name": "42nd BCS (General)",
+    "code": "সুরমা",
+    "questionCount": 96
+  },
+  {
+    "id": "bcs_42_med",
+    "name": "42nd BCS (Medical)",
+    "code": "০১",
+    "questionCount": 100
+  },
+  {
+    "id": "bcs_41",
+    "name": "41st BCS",
+    "code": "হাসনাহেনা",
+    "questionCount": 192
+  }
+]

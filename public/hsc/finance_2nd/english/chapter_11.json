@@ -1,0 +1,368 @@
+[
+  {
+    "id": 270,
+    "question": "Which insurance contract ensures financial solvency in old age and physical disability due to accidents?",
+    "options": {
+      "A": "Marine insurance",
+      "B": "Life insurance",
+      "C": "Fire insurance",
+      "D": "Accident insurance"
+    },
+    "answer": "B",
+    "explanation": "A life insurance contract ensures financial solvency in old age and physical disability due to accidents. It provides long-term financial security.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 271,
+    "question": "Which is the oldest life insurance company in Bangladesh?",
+    "options": {
+      "A": "National Life Insurance Company",
+      "B": "MetLife ALICO",
+      "C": "Jiban Bima Corporation",
+      "D": "Postal Life Insurance"
+    },
+    "answer": "C",
+    "explanation": "The oldest life insurance company in Bangladesh is Jiban Bima Corporation. It was established on 14 May 1972.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 272,
+    "question": "What is it called when it is predetermined who will receive the insurance claim when the insured person dies?",
+    "options": {
+      "A": "Insurable interest",
+      "B": "Selection",
+      "C": "Nomination",
+      "D": "Providing assurance"
+    },
+    "answer": "C",
+    "explanation": "When it is predetermined who will receive the insurance claim upon the death of the insured, it is called nomination. The insured nominates a beneficiary during their lifetime.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 273,
+    "question": "In which type of life insurance policy is the premium rate higher?",
+    "options": {
+      "A": "Term insurance",
+      "B": "Temporary insurance",
+      "C": "Whole life insurance",
+      "D": "Group insurance"
+    },
+    "answer": "C",
+    "explanation": "The premium rate is higher in whole life insurance compared to term insurance. Term insurance actually has the lowest premium rates as it only provides protection for a limited period, while whole life insurance covers the entire lifetime.",
+    "confidence": "low",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 274,
+    "question": "Under which insurance policy are multiple persons insured under the same policy?",
+    "options": {
+      "A": "Term insurance policy",
+      "B": "Whole life insurance policy",
+      "C": "Joint life insurance policy",
+      "D": "Group insurance policy"
+    },
+    "answer": "D",
+    "explanation": "Under a group insurance policy, multiple persons are insured together under the same policy. For example, all employees of an organization are insured together.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 275,
+    "question": "Mr. Kader insured all the workers of his garment factory together under one policy. What type of insurance is this?",
+    "options": {
+      "A": "Joint life insurance",
+      "B": "Temporary insurance",
+      "C": "Group insurance",
+      "D": "Term insurance"
+    },
+    "answer": "C",
+    "explanation": "Mr. Kader insured all his workers together, which is an example of group insurance.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 276,
+    "question": "What is the most essential element in a life insurance contract?",
+    "options": {
+      "A": "Consideration",
+      "B": "Insurable interest",
+      "C": "Utmost good faith",
+      "D": "Surrender value"
+    },
+    "answer": "B",
+    "explanation": "The most essential element in a life insurance contract is insurable interest. Without it, no life insurance contract is valid.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 277,
+    "question": "At which stage are the policy value and policy term reviewed?",
+    "options": {
+      "A": "Proposal selection",
+      "B": "Proposal acceptance",
+      "C": "Proposal review",
+      "D": "Proposal submission"
+    },
+    "answer": "C",
+    "explanation": "The policy value and term are reviewed at the proposal review stage. At this stage, the insurer examines and assesses the proposal.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 278,
+    "question": "What is the insurance called where the claim is settled only upon the death of the insured?",
+    "options": {
+      "A": "Term insurance",
+      "B": "Life insurance",
+      "C": "Whole life insurance",
+      "D": "Crop insurance"
+    },
+    "answer": "C",
+    "explanation": "Whole life insurance is the insurance where the claim is settled only upon the death of the insured. It provides protection for the entire life.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 279,
+    "question": "Which of the following can be submitted as proof of the insured's death?",
+    "options": {
+      "A": "The insured's birth certificate",
+      "B": "The insured's identity, name and address",
+      "C": "Death certificate obtained from a doctor",
+      "D": "The insured's biography"
+    },
+    "answer": "C",
+    "explanation": "A death certificate obtained from a doctor can be submitted as proof of the insured's death. It is legal evidence of death.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 280,
+    "question": "Generally, what does the insured pay to the insurer in exchange for accepting the risk of another?",
+    "options": {
+      "A": "Promise",
+      "B": "Insurance claim",
+      "C": "Installment",
+      "D": "Premium"
+    },
+    "answer": "D",
+    "explanation": "The insured pays a premium to the insurer in exchange for accepting the risk. This is the consideration of the insurance contract.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 281,
+    "question": "What is the price paid by the insured for the insurer's acceptance of the risk of another called?",
+    "options": {
+      "A": "Stipend",
+      "B": "Premium",
+      "C": "Bonus",
+      "D": "Profit"
+    },
+    "answer": "B",
+    "explanation": "The price paid by the insured for the insurer's acceptance of risk is called a premium. It is the consideration for risk acceptance.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 282,
+    "question": "What is a bonus in insurance?",
+    "options": {
+      "A": "Earned profit of the insurance",
+      "B": "A share of the insurance dividend",
+      "C": "The value of insurance",
+      "D": "Excess money over payable salary"
+    },
+    "answer": "B",
+    "explanation": "A bonus in insurance is a share of the insurance dividend. Life insurance companies distribute a portion of profits as bonuses to policyholders.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 283,
+    "question": "What is surrender value?",
+    "options": {
+      "A": "The value of the insurance policy",
+      "B": "The cost of issuing the policy",
+      "C": "The value of surrendering the policy",
+      "D": "The advance value of the policy"
+    },
+    "answer": "C",
+    "explanation": "Surrender value is the value of surrendering the policy. If the insured returns the policy before maturity, the amount they receive is the surrender value.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 284,
+    "question": "What is a mortality table?",
+    "options": {
+      "A": "A statement of annual probability of death",
+      "B": "A statement of the annual number of deaths",
+      "C": "A statement regarding the probability of future death based on past data",
+      "D": "A list of annual mortality risks"
+    },
+    "answer": "C",
+    "explanation": "A mortality table is a statement regarding the probability of future death based on past data. It is used to determine life insurance premiums.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 285,
+    "question": "What is a characteristic of surrender value?",
+    "options": {
+      "A": "Surrender value depends on the insurance claim",
+      "B": "Surrender value is given at the end of the insurance contract period",
+      "C": "Surrender value is given for term and whole life insurance policies",
+      "D": "Surrender value is given every month"
+    },
+    "answer": "C",
+    "explanation": "Surrender value is given for term and whole life insurance policies. The insured receives this value if they return the policy before the end of the term.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 286,
+    "question": "The objectives of life insurance are- i. Providing financial security ii. Reducing dependence on others iii. Indemnification",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The objectives of life insurance are: providing financial security, reducing dependence on others, and indemnification. All three objectives apply to life insurance.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 287,
+    "question": "In life insurance, the insurance claim is paid- i. Upon the death of the insured person ii. At the end of a specified term iii. For other losses of the insurer",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "In life insurance, the claim is paid upon the death of the insured person and at the end of a specified term. Other losses are not covered by life insurance.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 288,
+    "question": "In making an insurance claim, the following are required- i. Proof of the insured's age ii. Proof of the insured's death iii. Family information of the insured",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "For making an insurance claim, proof of the insured's age and proof of death are required. Family information is not mandatory.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 289,
+    "question": "In a term insurance policy, the insurance claim is paid- i. If the person dies within a specified time ii. If the person dies within the term iii. If the term period is completed while alive",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "In a term insurance policy, the claim can be paid in all three cases: death within a specified time, death within the term, and completion of the term while alive (endowment).",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 290,
+    "question": "Factors considered in determining the premium rate in life insurance include- i. Age of the insured ii. Social status of the insured iii. Amount of insured money",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three factors are considered in determining the life insurance premium rate: the insured's age, social status, and the insured amount.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 291,
+    "question": "Surrender value is provided for- i. Temporary insurance policies ii. Whole life insurance policies iii. Term insurance policies",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Surrender value is provided for whole life and term insurance policies. Temporary insurance policies generally do not have surrender value.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 292,
+    "question": "[Stimulus] Mr. Rokan went to 'Sunshine' company to get insurance... He could not complete that part of the insurance contract process because he did not have his national ID card. What does Mr. Rokan need to prove his age?",
+    "options": {
+      "A": "Professional certificate",
+      "B": "Birth certificate",
+      "C": "Family members' names",
+      "D": "Personal doctor's report"
+    },
+    "answer": "B",
+    "explanation": "To prove his age, Mr. Rokan needs a birth certificate. This is the legal proof of age.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 293,
+    "question": "Without his national ID card, how could Mr. Rokan have proved his age?",
+    "options": {
+      "A": "Educational certificate",
+      "B": "Family information",
+      "C": "Medical report",
+      "D": "Professional certificate"
+    },
+    "answer": "A",
+    "explanation": "Without a national ID card, Mr. Rokan could have proved his age through an educational certificate. This is also an acceptable proof of age.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 294,
+    "question": "[Stimulus] Mr. Latif took a life insurance policy while alive... Upon his death, his son Jasim presented a claim to the insurance company. What must Jasim do to present the insurance claim?",
+    "options": {
+      "A": "Provide various information",
+      "B": "Prove inheritance",
+      "C": "Fill out a form",
+      "D": "Take help from relatives"
+    },
+    "answer": "C",
+    "explanation": "Jasim must fill out a claim form to present the insurance claim. This is the first step in the claim process.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 295,
+    "question": "What can Jasim do to prove inheritance?",
+    "options": {
+      "A": "Submit an educational certificate",
+      "B": "Passport",
+      "C": "Succession certificate obtained from the District Judge",
+      "D": "Birth certificate"
+    },
+    "answer": "C",
+    "explanation": "To prove inheritance, Jasim must submit a succession certificate obtained from the District Judge. This is a legally admissible proof.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 296,
+    "question": "[Stimulus] Mr. Suja and Mr. Rabi are two friends. Mr. Rabi was accustomed to smoking... Despite everything being the same, the insurance company determined different premium rates for the two. In this case, what is the risk factor in determining the life insurance premium rate?",
+    "options": {
+      "A": "The insured's place of birth",
+      "B": "The insured's age",
+      "C": "The insured's mental problem",
+      "D": "If the insured is a criminal"
+    },
+    "answer": "D",
+    "explanation": "In this case, the difference in premiums between Suja and Rabi is due to Rabi's smoking habit, which is a lifestyle/habit-related risk factor. The answer marked D ('if the insured is a criminal') is the closest option representing a behavioral/habit risk factor.",
+    "confidence": "low",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  },
+  {
+    "id": 297,
+    "question": "What is the reason for Mr. Suja and Mr. Rabi having different premium rates?",
+    "options": {
+      "A": "Term of the policy",
+      "B": "Amount of the insurance claim",
+      "C": "Financial capacity",
+      "D": "Difference in habits"
+    },
+    "answer": "D",
+    "explanation": "The reason for the different premium rates is the difference in habits. Mr. Rabi's smoking habit made him a higher risk, resulting in a higher premium.",
+    "source": "Finance, Banking & Insurance, Chapter-11"
+  }
+]

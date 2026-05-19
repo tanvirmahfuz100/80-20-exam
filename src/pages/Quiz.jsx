@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
+import { motion } from 'framer-motion';
 import { useSearchParams, useNavigate, useParams, Link } from 'react-router-dom';
 import {
     ArrowLeft, CheckCircle, XCircle, ChevronRight,
     RefreshCw, AlertTriangle, Lightbulb, Timer,
     Trophy, Target, Zap, Clock,
-    BarChart3, BrainCircuit, Video
+    BarChart3, BrainCircuit, Video, Star
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { api } from '../services/api';
@@ -27,14 +28,26 @@ const normalizeQuizQuestions = (payload) => {
             }));
         }
 
+        // Handle options as object {A: "text", B: "text", ...}
+        let options = [];
+        let correct = question.correct || 0;
+        if (question.options && typeof question.options === 'object' && !Array.isArray(question.options)) {
+            options = Object.values(question.options);
+            if (question.answer) {
+                correct = ['A', 'B', 'C', 'D'].indexOf(question.answer.toUpperCase());
+            }
+        } else {
+            options = (question.options || []).map((option) => option.text || option);
+        }
+
         return [{
             id: question.id,
-            text: question.text || question.passage || 'Question',
+            text: question.question || question.text || question.passage || 'Question',
             passage: question.passage || '',
             boxWords: question.boxWords || [],
             blankId: question.blankId || null,
-            options: (question.options || []).map((option) => option.text || option),
-            correct: typeof question.correct === 'number' ? question.correct : 0,
+            options,
+            correct,
             explanation: question.explanation || '',
             difficulty: question.difficulty || 'medium'
         }];
@@ -59,6 +72,11 @@ const Quiz = () => {
     const [score, setScore] = useState(0);
     const [isFinished, setIsFinished] = useState(false);
     const [results, setResults] = useState([]);
+    const [starBalance, setStarBalance] = useState(0);
+    const [pendingStars, setPendingStars] = useState({});
+    const [flyingStars, setFlyingStars] = useState([]);
+    const [balanceGlow, setBalanceGlow] = useState(false);
+    const starTargetRef = useRef(null);
 
     // Timer state
     const [timeLeft, setTimeLeft] = useState(0);
@@ -102,7 +120,7 @@ const Quiz = () => {
                     }
                     const res = await fetch(fileUrl);
                     const data = await res.json();
-                    setQuestions(normalizeQuizQuestions(data));
+                    setQuestions(normalizeQuizQuestions({ questions: data }));
                 }
             } catch (err) {
                 setError(err.message);
@@ -136,6 +154,28 @@ const Quiz = () => {
         persistPracticeSession();
     }, [isFinished, user, questions, score, chapterId, title, file, isTimedMode]);
 
+    useEffect(() => {
+        const storedStarBalance = localStorage.getItem('quiz_star_balance');
+        const storedPending = localStorage.getItem('quiz_pending_stars');
+        if (storedStarBalance) setStarBalance(Number(storedStarBalance));
+        if (storedPending) {
+            try {
+                setPendingStars(JSON.parse(storedPending));
+            } catch (err) {
+                setPendingStars({});
+            }
+        }
+    }, []);
+
+    useEffect(() => {
+        localStorage.setItem('quiz_star_balance', String(starBalance));
+        window.dispatchEvent(new Event('quizBalanceUpdated'));
+    }, [starBalance]);
+
+    useEffect(() => {
+        localStorage.setItem('quiz_pending_stars', JSON.stringify(pendingStars));
+    }, [pendingStars]);
+
     // Timer Logic
     useEffect(() => {
         if (isTimedMode && timeLeft > 0 && !isFinished && !loading) {
@@ -159,34 +199,70 @@ const Quiz = () => {
         return `${m}:${s.toString().padStart(2, '0')}`;
     };
 
-    const handleOptionSelect = (index) => {
-        if (isAnswered) return;
-        setSelectedOption(index);
+    const getQuestionKey = (question) => question.uuid || question.id || question.text || `question-${currentIndex}`;
+
+    const createFlyingStar = (buttonRect, clickX, clickY) => {
+        const topbarIcon = document.querySelector('.topbar-star-icon');
+        const topbarTarget = document.querySelector('.topbar-star-target');
+        const targetRect = topbarIcon?.getBoundingClientRect() || topbarTarget?.getBoundingClientRect() || starTargetRef.current?.getBoundingClientRect();
+        const starSize = 40;
+        const targetOffset = starSize / 2;
+        const id = `${Date.now()}-${Math.random().toString(36).slice(2, 5)}`;
+        const startX = buttonRect ? buttonRect.left + buttonRect.width / 2 - targetOffset : clickX - targetOffset;
+        const startY = buttonRect ? buttonRect.top + buttonRect.height / 2 - targetOffset : clickY - targetOffset;
+        const endX = targetRect ? targetRect.left + targetRect.width / 2 - targetOffset : startX;
+        const endY = targetRect ? targetRect.top + targetRect.height / 2 - targetOffset : startY;
+
+        setFlyingStars((prev) => [...prev, { id, startX, startY, endX, endY }]);
+        setBalanceGlow(true);
+        window.setTimeout(() => setBalanceGlow(false), 500);
+        window.setTimeout(() => setFlyingStars((prev) => prev.filter((star) => star.id !== id)), 1200);
     };
 
-    const handleSubmitAnswer = async () => {
-        if (selectedOption === null) return;
+    const handleOptionSelect = async (index, event) => {
+        if (isAnswered) return;
 
         const currentQ = questions[currentIndex];
-        const selectedObj = shuffledOptions[selectedOption];
+        const selectedObj = shuffledOptions[index];
         const selectedOriginalIdx = selectedObj?.originalIdx ?? -1;
         const isCorrect = selectedOriginalIdx === currentQ.correct;
+        const questionKey = getQuestionKey(currentQ);
+        const alreadyPending = !!pendingStars[questionKey];
 
+        if (!isCorrect && !alreadyPending) {
+            const buttonRect = event.currentTarget?.getBoundingClientRect();
+            createFlyingStar(buttonRect, event.clientX, event.clientY);
+        }
+
+        setSelectedOption(index);
         setIsAnswered(true);
 
         if (isCorrect) {
             setScore(s => s + 1);
         }
 
+        if (!isCorrect && !alreadyPending) {
+            setPendingStars(prev => ({ ...prev, [questionKey]: true }));
+        }
+
+        if (isCorrect && alreadyPending) {
+            setStarBalance(s => s + 1);
+            setPendingStars(prev => {
+                const next = { ...prev };
+                delete next[questionKey];
+                return next;
+            });
+        }
+
         const newResult = {
             id: currentQ.id,
-            isCorrect: isCorrect,
-            selected: selectedOption,
+            isCorrect,
+            selected: index,
             selectedOriginalIdx,
-            time_spent: 0 // Will implement real timer tracking later
+            time_spent: 0
         };
 
-        setResults([...results, newResult]);
+        setResults(prev => [...prev, newResult]);
 
         await api.saveResponse({
             user_id: user.id,
@@ -280,9 +356,24 @@ const Quiz = () => {
 
     const currentQ = questions[currentIndex];
     const totalXpSoFar = results.reduce((acc, r) => acc + (r.isCorrect ? 10 : 0), 0);
+    const pendingStarsCount = Object.keys(pendingStars).length;
 
     return (
-        <div className="max-w-5xl mx-auto space-y-8 pb-32 animate-in fade-in duration-500">
+        <div className="max-w-5xl mx-auto space-y-8 pb-32">
+            <div className="pointer-events-none">
+                {flyingStars.map((star) => (
+                    <motion.div
+                        key={star.id}
+                        className="fixed z-[60] pointer-events-none"
+                        initial={{ x: star.startX, y: star.startY, opacity: 1, scale: 1 }}
+                        animate={{ x: star.endX, y: star.endY, opacity: 0, scale: 0.35 }}
+                        transition={{ duration: 1.8, ease: [0.25, 0.1, 0.25, 1] }}
+                        style={{ width: 40, height: 40 }}
+                    >
+                        <Star className="w-full h-full text-yellow-300 drop-shadow-xl" />
+                    </motion.div>
+                ))}
+            </div>
             {/* Simulation Header */}
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
                 <div className="flex items-center gap-4">
@@ -310,6 +401,10 @@ const Quiz = () => {
                     <div className="bg-primary/10 border border-primary/20 px-4 py-2 rounded-xl flex items-center gap-2">
                         <Zap className="w-4 h-4 text-primary fill-primary" />
                         <span className="text-primary font-black text-sm tracking-tighter">{totalXpSoFar} POINTS</span>
+                    </div>
+                    <div className={`bg-yellow-500/10 border border-yellow-500/20 px-4 py-2 rounded-xl flex items-center gap-2 transition-all ${balanceGlow ? 'ring-2 ring-yellow-400/80 shadow-[0_0_20px_rgba(245,158,11,0.35)]' : ''}`}>
+                        <Star className="w-4 h-4 text-yellow-300" />
+                        <span className="text-yellow-300 font-black text-sm tracking-tighter">{starBalance} STARS</span>
                     </div>
                 </div>
             </div>
@@ -371,9 +466,9 @@ const Quiz = () => {
                                         <button
                                             key={idx}
                                             disabled={isAnswered}
-                                            onClick={() => handleOptionSelect(idx)}
+                                            onClick={(e) => handleOptionSelect(idx, e)}
                                             className={`w-full text-left p-6 rounded-2xl border transition-all flex items-center justify-between group/opt ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-xl shadow-emerald-500/5' :
-                                                state === 'wrong' ? 'bg-red-500/10 border-red-500/50 text-red-500 shadow-xl shadow-red-500/5' :
+                                                state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300 shadow-xl shadow-yellow-500/5' :
                                                     state === 'selected' ? 'bg-primary/20 border-primary text-white shadow-2xl shadow-primary/20 scale-[1.02]' :
                                                         state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30 scale-[0.98]' :
                                                             'bg-white/5 border-white/5 text-white/40 hover:border-white/20 hover:bg-white/10 hover:text-white'
@@ -382,7 +477,7 @@ const Quiz = () => {
                                             <div className="flex items-center gap-5">
                                                 <span className={`w-8 h-8 rounded-xl flex items-center justify-center text-[10px] font-black border transition-all ${state === 'selected' ? 'bg-primary text-white border-primary' :
                                                     state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
-                                                        state === 'wrong' ? 'bg-red-500 text-black border-red-500' :
+                                                        state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
                                                             'bg-black/50 border-white/5 group-hover/opt:border-white/20'
                                                     }`}>
                                                     {String.fromCharCode(65 + idx)}
@@ -390,7 +485,7 @@ const Quiz = () => {
                                                 <span className="font-bold tracking-tight text-lg">{option.text}</span>
                                             </div>
                                             {state === 'correct' && <CheckCircle className="w-6 h-6 animate-in zoom-in-0" />}
-                                            {state === 'wrong' && <XCircle className="w-6 h-6 animate-in zoom-in-0" />}
+                                            {state === 'wrong' && <Star className="w-6 h-6 text-yellow-300 animate-in zoom-in-0" />}
                                         </button>
                                     );
                                 })}
@@ -399,15 +494,7 @@ const Quiz = () => {
                     </div>
 
                     <div className="flex justify-end pt-6">
-                        {!isAnswered ? (
-                            <button
-                                onClick={handleSubmitAnswer}
-                                disabled={selectedOption === null}
-                                className="px-14 py-5 bg-primary hover:bg-primary-hover disabled:opacity-20 disabled:grayscale text-white rounded-3xl font-black uppercase tracking-[0.2em] text-[10px] transition-all shadow-2xl shadow-primary/40 active:scale-95 flex items-center gap-3"
-                            >
-                                <BrainCircuit className="w-4 h-4" /> Check Answer
-                            </button>
-                        ) : (
+                        {isAnswered ? (
                             <button
                                 onClick={handleNext}
                                 className="px-14 py-5 bg-white text-black hover:bg-white/90 rounded-3xl font-black uppercase tracking-[0.2em] text-[10px] transition-all flex items-center gap-3 shadow-2xl shadow-white/5 active:scale-95"
@@ -415,6 +502,10 @@ const Quiz = () => {
                                 {currentIndex < questions.length - 1 ? 'Continue' : 'Finish Lesson'}
                                 <ChevronRight className="w-4 h-4" />
                             </button>
+                        ) : (
+                            <div className="px-14 py-5 bg-white/5 text-white/50 rounded-3xl font-black uppercase tracking-[0.2em] text-[10px] transition-all flex items-center gap-3 shadow-inner border border-white/5">
+                                Select an answer to reveal the explanation
+                            </div>
                         )}
                     </div>
                 </div>
@@ -469,11 +560,17 @@ const Quiz = () => {
                     ) : (
                         <div className="bg-surface-alt/20 border border-dashed border-white/5 rounded-[32px] p-12 text-center space-y-6">
                             <div className="w-14 h-14 bg-white/5 rounded-2xl flex items-center justify-center mx-auto border border-white/5">
-                                <BarChart3 className="w-6 h-6 text-white/10" />
+                                <Star className="w-6 h-6 text-yellow-300" />
                             </div>
                             <div className="space-y-2">
-                                <h4 className="text-white/20 font-black uppercase tracking-widest text-[9px]">Ready to check?</h4>
-                                <p className="text-white/10 text-[10px] leading-relaxed italic font-medium">Check your answer to see the explanation.</p>
+                                <h4 className="text-white/20 font-black uppercase tracking-widest text-[9px]">Tap an answer</h4>
+                                <p className="text-white/10 text-[10px] leading-relaxed italic font-medium">Select any option to reveal the explanation and track stars.</p>
+                            </div>
+                            <div className="bg-yellow-500/10 border border-yellow-500/20 rounded-3xl p-4 text-[10px] text-yellow-100 font-black uppercase tracking-[0.2em]">
+                                Wrong answers turn into pending stars until you reattempt them correctly.
+                            </div>
+                            <div className="bg-white/5 border border-white/10 rounded-3xl p-4 text-[10px] text-white/80 font-black uppercase tracking-[0.2em]">
+                                Pending stars: {pendingStarsCount}
                             </div>
                         </div>
                     )}

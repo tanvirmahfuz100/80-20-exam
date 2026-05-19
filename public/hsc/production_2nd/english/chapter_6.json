@@ -1,0 +1,522 @@
+[
+  {
+    "id": 199,
+    "question": "Which of the following acts as a bridge between the producer and consumer?",
+    "options": {
+      "A": "Market",
+      "B": "Intermediary",
+      "C": "Transportation",
+      "D": "BSTI"
+    },
+    "answer": "B",
+    "explanation": "An intermediary is a person or organization that purchases products from the producer and delivers them to the consumer. They act as a link or bridge between the producer and consumer.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 200,
+    "question": "Why is a product distribution channel used?",
+    "options": {
+      "A": "To deliver the product to the consumer correctly",
+      "B": "To provide benefits to intermediaries",
+      "C": "To create product differentiation",
+      "D": "To satisfy consumers"
+    },
+    "answer": "A",
+    "explanation": "The primary purpose of a distribution channel is to deliver the product to the final consumer at the right time, in the right place, and in the right condition. This is essential for fulfilling consumer demand.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 201,
+    "question": "Distribution channel decisions influence which type of decisions?",
+    "options": {
+      "A": "Personal",
+      "B": "Group",
+      "C": "Managerial",
+      "D": "Promotional"
+    },
+    "answer": "C",
+    "explanation": "The distribution channel is an important managerial decision. It is directly related to other elements of the marketing mix, such as price and promotion, and influences the entire marketing strategy.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 202,
+    "question": "Which product's distribution channel is generally long?",
+    "options": {
+      "A": "Consumer product",
+      "B": "Agricultural product",
+      "C": "Industrial product",
+      "D": "Service product"
+    },
+    "answer": "A",
+    "explanation": "The number of buyers for consumer products is extremely large and geographically dispersed. Therefore, a long distribution channel with multiple intermediaries is needed to deliver products to a vast number of customers.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 203,
+    "question": "Between whom does the distribution channel establish a connection?",
+    "options": {
+      "A": "Producer and consumer",
+      "B": "Producer and seller",
+      "C": "Producer and broker",
+      "D": "Producer and peddler"
+    },
+    "answer": "A",
+    "explanation": "The main function of the distribution channel is to create a link from the producer to the final consumer for delivering the product. It establishes a bridge between the producer and the consumer.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 204,
+    "question": "What is the correct sequence of the distribution channel?",
+    "options": {
+      "A": "Final consumer → Retailer → Wholesaler → Producer",
+      "B": "Producer → Wholesaler → Retailer → Final consumer",
+      "C": "Producer → Retailer → Wholesaler → Final consumer",
+      "D": "Retailer → Producer → Wholesaler → Final consumer"
+    },
+    "answer": "B",
+    "explanation": "The general and conventional sequence of product distribution is: first, the producer makes the product, then sells it to the wholesaler, then the retailer buys the product from the wholesaler, and finally, the product reaches the final consumer.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 205,
+    "question": "What is the function of the members of the distribution channel?",
+    "options": {
+      "A": "Financing",
+      "B": "Risk-taking",
+      "C": "Assembling",
+      "D": "Segmentation"
+    },
+    "answer": "B",
+    "explanation": "Members of the distribution channel (intermediaries) bear business risks by taking ownership of the product. This includes the risk of spoilage, theft, or obsolescence.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 206,
+    "question": "Who establishes a connection between buyers and sellers?",
+    "options": {
+      "A": "Bailee",
+      "B": "C&F Agent",
+      "C": "Broker",
+      "D": "Factor"
+    },
+    "answer": "C",
+    "explanation": "A broker is an intermediary who establishes communication between buyers and sellers and assists in completing transactions. They do not take ownership of the product.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 207,
+    "question": "When does the price of seasonal products increase?",
+    "options": {
+      "A": "During the designated season",
+      "B": "After the season",
+      "C": "Before the season",
+      "D": "Mid-season"
+    },
+    "answer": "A",
+    "explanation": "When the demand for seasonal products is at its peak, i.e., during the designated season, the price of the product increases as demand exceeds supply. For example, the price of winter clothes increases during winter.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 208,
+    "question": "What type of risk does the distribution channel primarily bear?",
+    "options": {
+      "A": "Purchase risk",
+      "B": "Sales risk",
+      "C": "Unsold risk",
+      "D": "Temporary risk"
+    },
+    "answer": "C",
+    "explanation": "Members of the distribution channel stock products and hope for future sales. If the product remains unsold or becomes obsolete, they have to bear that risk. This is unsold risk.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 209,
+    "question": "What type of utility is created when off-season products are supplied to the market?",
+    "options": {
+      "A": "Promotional utility",
+      "B": "Place utility",
+      "C": "Time utility",
+      "D": "Perceptual utility"
+    },
+    "answer": "C",
+    "explanation": "When a product is stored in a warehouse during its production season and supplied to the market in another season, time utility is created. The time gap is bridged through warehousing.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 210,
+    "question": "What happens to the price when goods are supplied according to demand?",
+    "options": {
+      "A": "Increases",
+      "B": "Decreases",
+      "C": "Remains steadily increasing",
+      "D": "Stable/Elastic"
+    },
+    "answer": "D",
+    "explanation": "When goods are supplied according to demand, a balance is maintained between supply and demand in the market. As a result, there is no major fluctuation in price, and the price remains stable or elastic.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 211,
+    "question": "Who does not take ownership of the product and is deprived of it?",
+    "options": {
+      "A": "Agent intermediary",
+      "B": "Merchant intermediary",
+      "C": "Producer",
+      "D": "Functional intermediary"
+    },
+    "answer": "A",
+    "explanation": "Agent intermediaries (e.g., brokers, commission agents) do not take ownership of the product. They only establish communication between buyers and sellers and receive a commission. Therefore, they are deprived of the product.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 212,
+    "question": "Why does the production cost of a product increase?",
+    "options": {
+      "A": "When demand decreases",
+      "B": "When supply and demand are equal",
+      "C": "When intermediaries are uncooperative",
+      "D": "When supply decreases"
+    },
+    "answer": "C",
+    "explanation": "Intermediaries are an essential part of the distribution channel. If they are uncooperative or manipulate the market, product supply is disrupted, storage costs increase, and overall production costs rise.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 213,
+    "question": "Mr. Rafiq is a producer of consumer products. What is the reason for his produced products taking a long time to reach consumers?",
+    "options": {
+      "A": "Scarcity of intermediaries",
+      "B": "Short distribution channel",
+      "C": "Abundance of intermediaries",
+      "D": "Problems in maintaining consistency"
+    },
+    "answer": "C",
+    "explanation": "The distribution channel for consumer products is long and involves multiple levels of intermediaries (wholesalers, retailers). Due to this abundance, the product takes more time to reach the consumer.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 214,
+    "question": "What is another name for the agricultural product distribution channel?",
+    "options": {
+      "A": "Modern channel",
+      "B": "Unconventional channel",
+      "C": "Traditional channel",
+      "D": "Advanced channel"
+    },
+    "answer": "C",
+    "explanation": "The agricultural product distribution channel in Bangladesh is very old and complex. It involves intermediaries like farias, beparis, and aratdars, hence it is also called the traditional channel.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 215,
+    "question": "What do producers appoint in important cities and ports?",
+    "options": {
+      "A": "Spies",
+      "B": "Agents",
+      "C": "Competitors",
+      "D": "Traders"
+    },
+    "answer": "B",
+    "explanation": "Producers of agricultural products appoint their own agents in important commercial centers or ports, who arrange for the sale of the products on their behalf.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 216,
+    "question": "Producer - Retailer - Consumer: Which step of the agricultural product distribution channel is this?",
+    "options": {
+      "A": "First step",
+      "B": "Second step",
+      "C": "Third step",
+      "D": "Fourth step"
+    },
+    "answer": "B",
+    "explanation": "In the agricultural product distribution channel, the second step is 'Producer → Retailer → Consumer'. The first step is direct selling from the producer to the consumer.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 217,
+    "question": "How are agricultural products primarily characterized?",
+    "options": {
+      "A": "Perishable",
+      "B": "Heavy",
+      "C": "Suitable for preservation",
+      "D": "Flexible"
+    },
+    "answer": "A",
+    "explanation": "Most agricultural products (e.g., vegetables, fruits) are perishable in nature. As they spoil quickly, special arrangements for distribution and preservation are required.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 218,
+    "question": "What type of court is established to prevent adulteration?",
+    "options": {
+      "A": "Permanent court",
+      "B": "Special court",
+      "C": "Consumer interest court",
+      "D": "Mobile court"
+    },
+    "answer": "D",
+    "explanation": "Mobile courts are operated to prevent adulteration in perishable agricultural products and ensure immediate punishment, as they can conduct trials on the spot.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 219,
+    "question": "How many grades are there in the case of Pooling?",
+    "options": {
+      "A": "One",
+      "B": "Two",
+      "C": "Three",
+      "D": "Four"
+    },
+    "answer": "C",
+    "explanation": "In the cooperative marketing of agricultural products, under the Pooling method, products are generally divided into three grades: good, medium, and low.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 220,
+    "question": "What is the fourth level of the industrial product distribution channel like?",
+    "options": {
+      "A": "Weak",
+      "B": "Long",
+      "C": "Slow",
+      "D": "Small"
+    },
+    "answer": "D",
+    "explanation": "The distribution channel for industrial products is generally short. The fourth level (e.g., distributor) is very small or, in many cases, this level is absent.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 221,
+    "question": "The important conditions of a distribution channel are- i. Ownership must be transferred ii. Final consumer interest must be ensured iii. The consumer will get the product or service for free",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Through the distribution channel, product ownership must be transferred from one party to another (i) and the interest of the final consumer must be ensured (ii). The consumer never gets the product for free (iii).",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 222,
+    "question": "Purchases are made for resale by- i. Producer ii. Wholesaler iii. Retailer",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Wholesalers (ii) and retailers (iii) act as intermediaries by purchasing products and reselling them for profit. Producers (i) generally purchase raw materials, but not for resale—rather for production.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 223,
+    "question": "Intermediaries take risks related to- i. Storage ii. Unsold goods iii. Transportation",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Intermediaries bear the risk of spoilage during storage (i), the risk of products remaining unsold (ii), and the risk of damage during transportation (iii).",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 224,
+    "question": "The functions of intermediaries are- i. Creating place utility ii. Creating time utility iii. Supplying information",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Intermediaries create place utility (i) by moving products from the production site to the consumer, create time utility (ii) by storing seasonal products, and supply important market-related information (iii).",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 225,
+    "question": "Intermediaries control the market because- i. Financial solvency ii. Being influential in society iii. Financial crisis",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Intermediaries are financially solvent (i) due to large capital and are influential (ii) in society, which helps them control the market. They fail to control the market if they are in a financial crisis (iii).",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 226,
+    "question": "Another name for Jobber is- i. Dalal (Broker) ii. Broker iii. Faria (Peddler)",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "A Jobber is an intermediary who buys products from wholesalers and sells them to retailers. Another name for this is Dalal (i) or Broker (ii). Faria (iii) is primarily a peddler of agricultural products.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 227,
+    "question": "In the agricultural sector, the main special agents in the distribution channel are- i. Purchasing agent ii. Selling agent iii. Merchant commission",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "In the distribution of agricultural products, special agents are purchasing agents (i) and selling agents (ii), who handle the buying and selling of products on behalf of farmers. There are also commission agents, but the primary special agents are purchasing and selling agents.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 228,
+    "question": "To get a fair price for agricultural products, before marketing, the product must be properly- i. Dried ii. Cleaned iii. Cooled",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "To ensure a fair price for agricultural products, the product must be well-dried (i), cleaned (ii), and, if perishable, properly cooled (iii) before marketing to maintain quality.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 229,
+    "question": "[Figure] Producer → Dealer → Wholesaler → Retailer → Consumer. What does the above stimulus indicate?",
+    "options": {
+      "A": "Sales channel",
+      "B": "Purchase channel",
+      "C": "Marketing channel",
+      "D": "Production channel"
+    },
+    "answer": "C",
+    "explanation": "The complete path or channel from the producer to the consumer for delivering the product is the distribution or marketing channel.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 230,
+    "question": "The function of the second party in the above figure is- i. Buying products directly from the mill ii. Supplying raw materials to the producer iii. Establishing communication between the producer and the consumer",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "The second party in the figure is the Dealer. The dealer buys products directly from the mill or producer (i) and establishes communication between the producer and wholesaler/consumer (iii). But they generally do not supply raw materials to the producer (ii).",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 231,
+    "question": "[Stimulus] Farmer Rahman sent his sugarcane to the city market... Suman bought the sugarcane for Tk 2,000 less. Who is the intermediary in the stimulus?",
+    "options": {
+      "A": "Rahman",
+      "B": "Truck driver",
+      "C": "Karim",
+      "D": "Suman"
+    },
+    "answer": "D",
+    "explanation": "Here, Rahman is the farmer (producer), and Suman buys the sugarcane from the farmer to sell it in the market. Therefore, Suman, who is positioned between the producer and the consumer, is the intermediary.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 232,
+    "question": "What has been changed in the stimulus?",
+    "options": {
+      "A": "Temporal",
+      "B": "Form",
+      "C": "Time",
+      "D": "Place"
+    },
+    "answer": "D",
+    "explanation": "By transporting the sugarcane from the field to the city market via truck, its place utility has been created. The location or place of the product has been changed.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 233,
+    "question": "[Stimulus] Mr. Alam buys several maunds of shrimp daily from his friend Aminul's hatchery... What type of utility does Mr. Alam's work create?",
+    "options": {
+      "A": "Temporal",
+      "B": "Form",
+      "C": "Time",
+      "D": "Place"
+    },
+    "answer": "D",
+    "explanation": "Mr. Alam buys shrimp and sends them to different parts of the country and abroad. Through this work, the product is being moved from one place to another, creating place utility.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 234,
+    "question": "Mr. Alam's own hatchery will create the following utilities- i. Place ii. Form iii. Time",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "By establishing a hatchery, he will produce the product (shrimp) himself, creating form utility (i); send it to different places, creating place utility (ii); and store it as needed, creating time utility (iii).",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 235,
+    "question": "[Stimulus] Hanif, Sattar, and Shafiq are three farmers... they found many deficiencies in their individual work. So they decided to work together. What type of farmers were Hanif, Sattar, and Shafiq?",
+    "options": {
+      "A": "Individual-centric",
+      "B": "Consumer-centric",
+      "C": "State-centric",
+      "D": "Region-centric"
+    },
+    "answer": "A",
+    "explanation": "The three farmers previously engaged in farming and marketing individually or in an individual-centric way. Later, realizing its limitations, they decided to join together.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 236,
+    "question": "Hanif, Sattar, and Shafiq together formed- i. Cooperative ii. Organization iii. Group",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Farmers generally form cooperative societies (i) or organizations (ii) to work together. 'Group' (iii) is a general term, but as an organizational structure, cooperative or organization is more appropriate.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 237,
+    "question": "[Figure] Producer → Agent → Industrial Product Distributor → Industrial Product Buyer. Which step of the industrial product distribution channel is the above distribution channel?",
+    "options": {
+      "A": "1st step",
+      "B": "3rd step",
+      "C": "2nd step",
+      "D": "4th step"
+    },
+    "answer": "D",
+    "explanation": "The 4th step of the industrial product distribution channel is: Producer → Agent → Distributor → Industrial Buyer. A total of four parties are involved here.",
+    "source": "Production Management & Marketing, Chapter-6"
+  },
+  {
+    "id": 238,
+    "question": "How many levels does the above distribution channel have?",
+    "options": {
+      "A": "One-level",
+      "B": "Three-level",
+      "C": "Two-level",
+      "D": "Four-level"
+    },
+    "answer": "B",
+    "explanation": "Between the producer and the buyer, there are two intermediaries: the agent and the distributor. This is a two-level distribution channel.",
+    "source": "Production Management & Marketing, Chapter-6"
+  }
+]

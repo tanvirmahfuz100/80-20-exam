@@ -1,0 +1,535 @@
+[
+  {
+    "id": 245,
+    "question": "A company producing high-quality products always strives to determine the product's—",
+    "options": {
+      "A": "Product quality",
+      "B": "Product design",
+      "C": "Product manufacturing",
+      "D": "Product distribution"
+    },
+    "answer": "A",
+    "explanation": "A quality-focused company always strives to ensure the product's quality.",
+    "source": "BEPZA Public School and College, Chittagong"
+  },
+  {
+    "id": 246,
+    "question": "Workforce or labor force is an important what that influences product quality?",
+    "options": {
+      "A": "Factor",
+      "B": "Observable matter",
+      "C": "Function",
+      "D": "Strategy"
+    },
+    "answer": "A",
+    "explanation": "Workforce is a factor that influences product quality.",
+    "source": "Anwara University College, Chittagong"
+  },
+  {
+    "id": 247,
+    "question": "The statistical quality control techniques can be divided into mainly how many types?",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "2",
+      "D": "1"
+    },
+    "answer": "C",
+    "explanation": "Statistical quality control is mainly divided into 2 types: Acceptance sampling and Process control.",
+    "source": "Anwara University College, Chittagong"
+  },
+  {
+    "id": 248,
+    "question": "What is the main goal of quality management?",
+    "options": {
+      "A": "Determining product quality",
+      "B": "Continuous improvement of product quality",
+      "C": "Making the product known to customers",
+      "D": "Improving management efficiency"
+    },
+    "answer": "B",
+    "explanation": "The goal of quality management is the continuous improvement of product quality.",
+    "source": "Mazida Khatun Govt. Women's College, Lalmonirhat"
+  },
+  {
+    "id": 249,
+    "question": "The cost incurred to prevent product defects before they occur is called what type of cost?",
+    "options": {
+      "A": "Prevention cost",
+      "B": "External failure cost",
+      "C": "Appraisal cost",
+      "D": "Internal failure cost"
+    },
+    "answer": "A",
+    "explanation": "Cost incurred before defects occur to prevent them is Prevention Cost.",
+    "source": "Mazida Khatun Govt. Women's College, Lalmonirhat"
+  },
+  {
+    "id": 250,
+    "question": "When do consumers feel assured in purchasing a product?",
+    "options": {
+      "A": "If TCB logo exists",
+      "B": "If BSTI logo exists",
+      "C": "If own logo exists",
+      "D": "If government logo exists"
+    },
+    "answer": "B",
+    "explanation": "The BSTI logo guarantees the quality standard.",
+    "source": "Govt. Akbar Ali College, Ullapara, Sirajganj"
+  },
+  {
+    "id": 251,
+    "question": "Sojib and Rajib built a production company together. They obtained an ISO certificate. What is an internal benefit of obtaining the certificate?",
+    "options": {
+      "A": "Reduced production cost",
+      "B": "Increased number of test methods",
+      "C": "Working extra labor hours",
+      "D": "Higher operating costs"
+    },
+    "answer": "A",
+    "explanation": "ISO standard improves the process, thereby reducing production costs.",
+    "source": "Dr. Mahbubur Rahman Mollah College, Dhaka"
+  },
+  {
+    "id": 252,
+    "question": "Which ISO standard certificate is provided to design-related service organizations?",
+    "options": {
+      "A": "9001",
+      "B": "9003",
+      "C": "9002",
+      "D": "9004"
+    },
+    "answer": "A",
+    "explanation": "ISO 9001 is for all quality management including design.",
+    "source": "University Laboratory School and College, Dhaka"
+  },
+  {
+    "id": 253,
+    "question": "What is the arrangement for meeting customer expectations called?",
+    "options": {
+      "A": "Quality management",
+      "B": "Production management",
+      "C": "Marketing management",
+      "D": "Quality control"
+    },
+    "answer": "A",
+    "explanation": "Meeting customer expectations is the job of Quality Management.",
+    "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
+  },
+  {
+    "id": 254,
+    "question": "Which is not included in the 7-M factors influencing product quality?",
+    "options": {
+      "A": "Market",
+      "B": "Manpower",
+      "C": "Management",
+      "D": "Marketing"
+    },
+    "answer": "D",
+    "explanation": "The 7M are Man, Machine, Material, Method, Measurement, Management, Market. Marketing is separate.",
+    "source": "Sunamganj Govt. College"
+  },
+  {
+    "id": 255,
+    "question": "Possessing the specified characteristics of a product is called—",
+    "options": {
+      "A": "Product quality",
+      "B": "Product price",
+      "C": "Product market",
+      "D": "Product manufacturing"
+    },
+    "answer": "A",
+    "explanation": "If the specific characteristics are present, it is called Product Quality.",
+    "source": "Cantonment Public School and College, Jahanabad, Khulna"
+  },
+  {
+    "id": 256,
+    "question": "Management that gives maximum importance to overall quality products and services is called—",
+    "options": {
+      "A": "Quality control",
+      "B": "Quality assurance",
+      "C": "Quality management",
+      "D": "Total Quality Control"
+    },
+    "answer": "D",
+    "explanation": "Giving overall importance to quality is called Total Quality Management/Control (TQM).",
+    "source": "Dr. Abdur Razzak Municipal College, Jessore"
+  },
+  {
+    "id": 257,
+    "question": "The philosophy that includes customer satisfaction, employee involvement, and continuity of quality is called—",
+    "options": {
+      "A": "Quality planning",
+      "B": "Quality control",
+      "C": "Quality production",
+      "D": "Quality management"
+    },
+    "answer": "D",
+    "explanation": "Quality management works with customers, employees, and continuity of quality.",
+    "source": "Thakurgaon Govt. Women's College"
+  },
+  {
+    "id": 258,
+    "question": "If the quality obtained in a large size is higher than that obtained in a small size, which is more acceptable?",
+    "options": {
+      "A": "Small size production",
+      "B": "The rejectable product",
+      "C": "Large size production",
+      "D": "Both big and small products"
+    },
+    "answer": "C",
+    "explanation": "The product with higher quality is more acceptable, in this case, the large size product.",
+    "source": "Syed Ahmed College, Gabtoli, Bogra"
+  },
+  {
+    "id": 259,
+    "question": "Monitoring whether the product is being produced according to the predetermined standard is called—",
+    "options": {
+      "A": "Quality management",
+      "B": "Quality control",
+      "C": "Quality assurance",
+      "D": "Quality determination"
+    },
+    "answer": "B",
+    "explanation": "Quality control is the observation of conformity with the determined standard.",
+    "source": "Samsul Haque Khan School and College"
+  },
+  {
+    "id": 260,
+    "question": "Under which law is awarding the BSTI seal made mandatory?",
+    "options": {
+      "A": "Special Regular order",
+      "B": "Special Regulatory order",
+      "C": "Special Regulatory Act",
+      "D": "Special Business Act"
+    },
+    "answer": "B",
+    "explanation": "It is made mandatory through a Special Regulatory Order.",
+    "source": "Samsul Haque Khan School and College"
+  },
+  {
+    "id": 261,
+    "question": "What is a warranty?",
+    "options": {
+      "A": "Written contract of the company",
+      "B": "Written contract of the buyer",
+      "C": "Contract between buyer and seller",
+      "D": "Written contract between the company and the buyer"
+    },
+    "answer": "D",
+    "explanation": "A warranty is a written promise between the company and the buyer regarding the quality of the product.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 262,
+    "question": "What are the factors influencing product quality collectively abbreviated as?",
+    "options": {
+      "A": "7-P",
+      "B": "7-D",
+      "C": "7-M",
+      "D": "7-Q"
+    },
+    "answer": "C",
+    "explanation": "The 7 factors start with M, so 7-M.",
+    "source": "Khilgaon Govt. High School, Khilgaon, Dhaka"
+  },
+  {
+    "id": 263,
+    "question": "Through which process can deviation in production work be corrected?",
+    "options": {
+      "A": "Inventory control",
+      "B": "Production control",
+      "C": "Quality control",
+      "D": "Work study"
+    },
+    "answer": "C",
+    "explanation": "Quality control identifies and corrects deviations.",
+    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
+  },
+  {
+    "id": 264,
+    "question": "How many Divisional Councils has BSTI formed to determine product, service, and process standards?",
+    "options": {
+      "A": "5",
+      "B": "7",
+      "C": "6",
+      "D": "4"
+    },
+    "answer": "B",
+    "explanation": "BSTI has formed 7 Divisional Councils.",
+    "source": "Rangpur Govt. College, Rangpur"
+  },
+  {
+    "id": 265,
+    "question": "Some products of Shovon Plastic Factory are completely destroyed during production. What is this type of loss called?",
+    "options": {
+      "A": "Rework cost",
+      "B": "Appraisal cost",
+      "C": "External cost",
+      "D": "Production loss"
+    },
+    "answer": "D",
+    "explanation": "If fully ruined during production, it is Production Loss.",
+    "source": "Bogra Cantonment Public School College"
+  },
+  {
+    "id": 266,
+    "question": "Which is an attributable cause of low quality?",
+    "options": {
+      "A": "Negligence of workers",
+      "B": "Accident",
+      "C": "Technical fault",
+      "D": "Workers' mistake"
+    },
+    "answer": "A",
+    "explanation": "Negligence is a moral weakness, which is an attributable cause.",
+    "source": "Cantonment Public School and College, BUSEAMS, Parbatipur, Dinajpur"
+  },
+  {
+    "id": 267,
+    "question": "What is the cost incurred behind the methods to make low-quality products standard called?",
+    "options": {
+      "A": "Internal failure cost",
+      "B": "External failure cost",
+      "C": "Appraisal cost",
+      "D": "Prevention cost"
+    },
+    "answer": "A",
+    "explanation": "Correction costs before the product goes to the market are Internal Failure Costs.",
+    "source": "Hajera Taju Degree College, Dhaka"
+  },
+  {
+    "id": 268,
+    "question": "Preconditions for ISO certification are— (i. Clear commitment to warehousing ii. Commitment to standard determination and classification iii. Clear commitment to take steps in environmental conservation) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Quality and environment issues are critical for ISO. Warehousing is not a precondition.",
+    "source": "Dr. Mahbubur Rahman Mollah College"
+  },
+  {
+    "id": 269,
+    "question": "The main aspects of ISO 14000 certification are— (i. Environmental management system ii. Environmental performance evaluation iii. Determining product lifecycle) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "In ISO 14000, all environmental aspects are considered.",
+    "source": "BAF Shaheen College, Dhaka"
+  },
+  {
+    "id": 270,
+    "question": "What is important in quality management is— (i. Finding out what customers want ii. Designing products according to customer expectations iii. Making the product known among customers) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Customer needs and expectations are at the core of quality management. Making known is a marketing task.",
+    "source": "University Laboratory School and College, Dhaka"
+  },
+  {
+    "id": 271,
+    "question": "The natural factors influencing business location are— (i. Favorable climate ii. Availability of raw materials iii. General trend) Which is correct?",
+    "options": {
+      "A": "i & iii",
+      "B": "i & ii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Climate and raw materials are natural. General trend is social.",
+    "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
+  },
+  {
+    "id": 272,
+    "question": "The main aspects (ASPECT) involved in new product design are— (i. Product size ii. Product quality iii. After-sales service) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "The primary aspects of design are size and quality. Service comes later.",
+    "source": "Sunamganj Govt. College, Sunamganj"
+  },
+  {
+    "id": 273,
+    "question": "Tools of Total Quality Management are— (i. Benchmarking ii. Out-sourcing iii. Statistical quality control) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All of these are tools of modern quality management.",
+    "source": "BCIC College, Dhaka"
+  },
+  {
+    "id": 274,
+    "question": "The subjects involved in quality assurance are— (i. Standard raw materials ii. Skilled workforce iii. Improved work process) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three are involved in quality assurance.",
+    "source": "Samsul Haque Khan School and College"
+  },
+  {
+    "id": 275,
+    "question": "The product quality determination method is such a technique for productivity measurement that in industrial business it is— (i. Most widely accepted ii. Changeable iii. Practicable) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "It is most widely accepted and practicable. Not changeable.",
+    "source": "Rangpur Govt. College, Rangpur"
+  },
+  {
+    "id": 276,
+    "question": "Mr. Ripon established a chocolate factory. He has obtained ISO-9000 certification. What is an external benefit of obtaining ISO certification?",
+    "options": {
+      "A": "Receiving profit",
+      "B": "Sales increase",
+      "C": "Competition decreases",
+      "D": "Extra work is required"
+    },
+    "answer": "B",
+    "explanation": "With ISO certification, customer trust increases, resulting in increased sales.",
+    "source": "Hajiganj Model University College"
+  },
+  {
+    "id": 277,
+    "question": "If low-quality products are produced— (i. Organization's profit decreases ii. Market share increases iii. Prevention cost decreases) Which is correct?",
+    "options": {
+      "A": "i",
+      "B": "i & ii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Low-quality products reduce sales and hence decrease profit. Market share does not increase.",
+    "source": "Hajiganj Model University College"
+  },
+  {
+    "id": 278,
+    "question": "Mr. Akash after buying a car found the mobile filter box to be underdeveloped. The seller replaced it for the goodwill of the business. What type of cost is the replacement cost of the underdeveloped filter by the seller?",
+    "options": {
+      "A": "Production cost",
+      "B": "Prevention cost",
+      "C": "Internal cost",
+      "D": "External failure cost"
+    },
+    "answer": "D",
+    "explanation": "Correcting defects after the sale is an External Failure Cost.",
+    "source": "BCIC College, Dhaka"
+  },
+  {
+    "id": 279,
+    "question": "The cost incurred behind the ways to make low-quality products standard is called what type of cost?",
+    "options": {
+      "A": "Production cost",
+      "B": "Prevention cost",
+      "C": "External failure cost",
+      "D": "Internal failure cost"
+    },
+    "answer": "D",
+    "explanation": "Correction costs before the sale are Internal Failure Costs.",
+    "source": "BCIC College, Dhaka"
+  },
+  {
+    "id": 280,
+    "question": "Sony Television gives a 5-year warranty on the picture tube. If a problem occurs in a customer's picture tube after two years, the company repairs it. What type of cost is the repair cost in this case?",
+    "options": {
+      "A": "Production",
+      "B": "Warranty",
+      "C": "Rework",
+      "D": "Inspection"
+    },
+    "answer": "B",
+    "explanation": "Repairing under warranty is a Warranty Cost.",
+    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
+  },
+  {
+    "id": 281,
+    "question": "What will happen to the company as a result of the warranty cost enabling customers to get this benefit?",
+    "options": {
+      "A": "Production cost will increase",
+      "B": "Customer trust will be earned",
+      "C": "Reputation will be damaged",
+      "D": "Quality control will be questioned"
+    },
+    "answer": "B",
+    "explanation": "Giving warranty means earning customer trust.",
+    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
+  },
+  {
+    "id": 282,
+    "question": "Shahidul Islam runs an electronics business. Last month, 5 TVs he supplied showed defects. What kind of loss did the organization face due to supplying defective TVs?",
+    "options": {
+      "A": "Product design",
+      "B": "Supply",
+      "C": "Reputation",
+      "D": "Property"
+    },
+    "answer": "C",
+    "explanation": "Supplying defective products ruins the organization's reputation.",
+    "source": "Mirpur Girls Ideal Laboratory Institute, Dhaka"
+  },
+  {
+    "id": 283,
+    "question": "For Shahidul to be profitable in his business— (i. Production management ii. Quality management iii. Ensuring no low-quality products) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Quality management and ensuring quality products are necessary. Production management is indirect.",
+    "source": "Mirpur Girls Ideal Laboratory Institute, Dhaka"
+  },
+  {
+    "id": 284,
+    "question": "Robin, after training from a technical institute, set up an electric fan factory. After production, he received a quality certificate from a government institution and started marketing fans. Which is the quality certificate issuing institution?",
+    "options": {
+      "A": "ICB",
+      "B": "BSTI",
+      "C": "TCB",
+      "D": "TTB"
+    },
+    "answer": "B",
+    "explanation": "BSTI issues quality certificates for products in Bangladesh.",
+    "source": "Hajera Taju Degree College, Dhaka"
+  },
+  {
+    "id": 285,
+    "question": "The reasons for Robin collecting the quality certificate are— (i. Getting permission for product marketing ii. Providing assurance about product quality iii. Availing tax exemption benefits) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Quality certificate allows marketing and provides assurance. It may not give tax exemption directly.",
+    "source": "Hajera Taju Degree College, Dhaka"
+  }
+]

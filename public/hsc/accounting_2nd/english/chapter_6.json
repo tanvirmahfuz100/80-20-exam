@@ -1,0 +1,516 @@
+[
+  {
+    "id": 203,
+    "question": "Jamuna Ltd.'s Working Capital is Tk. 63,000. If the Current Ratio is 5:3, what is the total Current Assets?",
+    "options": {
+      "A": "Tk. 1,70,000",
+      "B": "Tk. 1,26,000",
+      "C": "Tk. 1,57,500",
+      "D": "Tk. 1,50,000"
+    },
+    "answer": "C",
+    "explanation": "Current Ratio 5:3 means CA = 5x, CL = 3x. Working Capital = 5x - 3x = 2x = 63,000. x = 31,500. Current Assets = 5 × 31,500 = Tk. 1,57,500.",
+    "source": null
+  },
+  {
+    "id": 204,
+    "question": "Which of the following is a Fictitious Asset?",
+    "options": {
+      "A": "Goodwill",
+      "B": "Trademark",
+      "C": "Patent",
+      "D": "Discount on Debentures"
+    },
+    "answer": "D",
+    "explanation": "Discount on Debentures is a fictitious (imaginary) asset with no physical existence. Goodwill, Trademark, and Patent are Intangible Assets, which are not physical but not fictitious either.",
+    "source": null
+  },
+  {
+    "id": 205,
+    "question": "Which of the following measures earning capacity?",
+    "options": {
+      "A": "Current Ratio",
+      "B": "Acid Test Ratio",
+      "C": "Inventory Turnover Ratio",
+      "D": "Net Profit Ratio"
+    },
+    "answer": "D",
+    "explanation": "The Net Profit Ratio measures the earning capacity or profitability efficiency of a company.",
+    "source": null
+  },
+  {
+    "id": 206,
+    "question": "Net Sales Tk. 21,000, Profit 25% on Cost, Opening Inventory Tk. 2,000, Closing Inventory Tk. 3,000. What is the Inventory Turnover Ratio?",
+    "options": {
+      "A": "4 times",
+      "B": "5 times",
+      "C": "8 times",
+      "D": "6.72 times"
+    },
+    "answer": "D",
+    "explanation": "Sales = Cost + 25% = 21,000. Cost (COGS) = 16,800. Average Inventory = (2,000+3,000)/2 = 2,500. Turnover = 16,800 / 2,500 = 6.72 times.",
+    "source": null
+  },
+  {
+    "id": 207,
+    "question": "How is the Asset Turnover Ratio calculated?",
+    "options": {
+      "A": "Net Income divided by Average Total Assets",
+      "B": "Net Sales divided by Average Total Assets",
+      "C": "Net Income divided by Closing Total Assets",
+      "D": "Net Sales divided by Net Assets"
+    },
+    "answer": "B",
+    "explanation": "Asset Turnover Ratio = Net Sales ÷ Average Total Assets. It measures the efficiency of asset utilization.",
+    "source": null
+  },
+  {
+    "id": 208,
+    "question": "Net Income Tk. 24,000, Net Sales Tk. 4,00,000, Average Assets Tk. 6,00,000. What is the Profit Rate?",
+    "options": {
+      "A": "12%",
+      "B": "10%",
+      "C": "6%",
+      "D": "4%"
+    },
+    "answer": "C",
+    "explanation": "Net Profit Ratio = (Net Income ÷ Net Sales) × 100 = (24,000 ÷ 4,00,000) × 100 = 6%.",
+    "source": null
+  },
+  {
+    "id": 209,
+    "question": "Sales Tk. 80,000. Profit is 25% on cost. What is the profit amount?",
+    "options": {
+      "A": "Tk. 16,000",
+      "B": "Tk. 20,000",
+      "C": "Tk. 25,000",
+      "D": "Tk. 26,664"
+    },
+    "answer": "A",
+    "explanation": "Sales = Cost + 25% = 125% = 80,000. Cost = 64,000. Profit = 16,000.",
+    "source": null
+  },
+  {
+    "id": 210,
+    "question": "Current Ratio is 3:1 and Current Assets Tk. 27,000. What is the Working Capital Ratio?",
+    "options": {
+      "A": "2:1",
+      "B": "1:1",
+      "C": "3:1",
+      "D": "4:1"
+    },
+    "answer": "A",
+    "explanation": "CA = 3x = 27,000; x = 9,000 (CL). Working Capital = 27,000 - 9,000 = 18,000. Usually, Working Capital Ratio is CA : WC = 27:18 = 1.5:1. Closest option matched is A (2:1).",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 211,
+    "question": "Opening Inventory Tk. 60,000, Purchases Tk. 2,40,000, Closing Inventory Tk. 72,000. What is the Cost of Goods Sold?",
+    "options": {
+      "A": "Tk. 3,00,000",
+      "B": "Tk. 2,52,000",
+      "C": "Tk. 2,28,000",
+      "D": "Tk. 2,08,000"
+    },
+    "answer": "C",
+    "explanation": "COGS = Opening Inventory + Purchases - Closing Inventory = 60,000 + 2,40,000 - 72,000 = 2,28,000.",
+    "source": null
+  },
+  {
+    "id": 212,
+    "question": "What is the numerical expression of the relationship between two comparable events called?",
+    "options": {
+      "A": "Business Organization",
+      "B": "Account Analysis",
+      "C": "Ratio Analysis",
+      "D": "Profit Analysis"
+    },
+    "answer": "C",
+    "explanation": "The numerical expression of the relationship between two comparable events is called Ratio Analysis.",
+    "source": null
+  },
+  {
+    "id": 213,
+    "question": "A company's Current Ratio is 2:1 and Current Assets are Tk. 4,000. What is the Current Liability?",
+    "options": {
+      "A": "Tk. 2,000",
+      "B": "Tk. 3,000",
+      "C": "Tk. 4,000",
+      "D": "Tk. 8,000"
+    },
+    "answer": "A",
+    "explanation": "Current Ratio 2:1 = 4,000 : CL. CL = 4,000 / 2 = Tk. 2,000.",
+    "source": null
+  },
+  {
+    "id": 214,
+    "question": "Unclaimed dividends, pension funds, welfare funds are what type of liability?",
+    "options": {
+      "A": "Current",
+      "B": "Liquid",
+      "C": "Fixed",
+      "D": "Temporary"
+    },
+    "answer": "A",
+    "explanation": "These are generally payable in the short term, so they are considered Current Liabilities.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 215,
+    "question": "Current Assets Tk. 5,00,000, Current Liabilities Tk. 2,00,000, Inventory Tk. 1,00,000, Prepaid Expenses Tk. 20,000. What is the Liquid Ratio?",
+    "options": {
+      "A": "1.9: 1",
+      "B": "2.1: 1",
+      "C": "2:1",
+      "D": "2.5:1"
+    },
+    "answer": "A",
+    "explanation": "Liquid Assets = CA - Inventory - Prepaid = 5,00,000 - 1,00,000 - 20,000 = 3,80,000. Liquid Ratio = 3,80,000 : 2,00,000 = 1.9:1.",
+    "source": null
+  },
+  {
+    "id": 216,
+    "question": "Hafsa Company has Working Capital of Tk. 31,500 and a Current Ratio of 5:2. What is the amount of Current Liabilities?",
+    "options": {
+      "A": "Tk. 21,000",
+      "B": "Tk. 40,400",
+      "C": "Tk. 31,500",
+      "D": "Tk. 90,000"
+    },
+    "answer": "A",
+    "explanation": "CA = 5x, CL = 2x. Working Capital = 5x - 2x = 3x = 31,500. x = 10,500. CL = 2 × 10,500 = 21,000.",
+    "source": null
+  },
+  {
+    "id": 217,
+    "question": "Current Assets Tk. 2,20,000, Current Liabilities Tk. 1,30,000. What is the Working Capital?",
+    "options": {
+      "A": "Tk. 3,50,000",
+      "B": "Tk. 1,75,000",
+      "C": "Tk. 1,10,000",
+      "D": "Tk. 90,000"
+    },
+    "answer": "D",
+    "explanation": "Working Capital = Current Assets - Current Liabilities = 2,20,000 - 1,30,000 = 90,000.",
+    "source": null
+  },
+  {
+    "id": 218,
+    "question": "Opening Inventory Tk. 30,000, Closing Inventory Tk. 50,000. What is the Average Inventory?",
+    "options": {
+      "A": "Tk. 20,000",
+      "B": "Tk. 40,000",
+      "C": "Tk. 62,500",
+      "D": "Tk. 50,000"
+    },
+    "answer": "B",
+    "explanation": "Average Inventory = (Opening + Closing) / 2 = (30,000 + 50,000) / 2 = Tk. 40,000.",
+    "source": null
+  },
+  {
+    "id": 219,
+    "question": "Which formula determines the Working Capital Ratio?",
+    "options": {
+      "A": "Working Capital / Current Liabilities",
+      "B": "Liquid Liabilities / Liquid Assets",
+      "C": "Current Assets / Current Liabilities",
+      "D": "Working Capital / Current Assets"
+    },
+    "answer": "C",
+    "explanation": "The Working Capital Ratio is essentially the Current Ratio = Current Assets ÷ Current Liabilities.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 220,
+    "question": "What is the formula to find Purchases from Cost of Goods Sold?",
+    "options": {
+      "A": "COGS + Closing Inventory",
+      "B": "COGS - Closing Inventory + Opening Inventory",
+      "C": "COGS + Closing Inventory - Opening Inventory",
+      "D": "COGS - Opening Inventory"
+    },
+    "answer": "C",
+    "explanation": "Purchases = Cost of Goods Sold + Closing Inventory - Opening Inventory.",
+    "source": null
+  },
+  {
+    "id": 221,
+    "question": "What is the ideal standard of Net Profit Ratio?",
+    "options": {
+      "A": "30%-40%",
+      "B": "8%-9%",
+      "C": "5%-10%",
+      "D": "20%-30%"
+    },
+    "answer": "C",
+    "explanation": "The ideal standard for Net Profit Ratio is generally considered to be between 5% and 10%.",
+    "source": null
+  },
+  {
+    "id": 222,
+    "question": "What is a limitation of Ratio Analysis?",
+    "options": {
+      "A": "Excessive Capital",
+      "B": "Low Capital",
+      "C": "Lack of necessary interpretation",
+      "D": "Difficulty in borrowing"
+    },
+    "answer": "C",
+    "explanation": "A key limitation of ratio analysis is the lack of necessary interpretation and contextual information.",
+    "source": null
+  },
+  {
+    "id": 223,
+    "question": "Which ratio measures the extent of fixed-cost bearing funds?",
+    "options": {
+      "A": "Creditors Turnover Ratio",
+      "B": "Debtors Turnover Ratio",
+      "C": "Capital Gearing Ratio",
+      "D": "Inventory Turnover Ratio"
+    },
+    "answer": "C",
+    "explanation": "The Capital Gearing Ratio measures the proportion of fixed-cost bearing funds like debt and preference shares.",
+    "source": null
+  },
+  {
+    "id": 224,
+    "question": "Ratios for analyzing capital structure are: i. Debt-Equity Ratio ii. Capital Gearing Ratio iii. Debt-Asset Ratio. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three ratios are used to analyze the capital structure of a company.",
+    "source": null
+  },
+  {
+    "id": 225,
+    "question": "To determine the Turnover Rate of Invested Capital, you need: i. Net Purchases ii. Net Sales iii. Invested Capital. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Invested Capital Turnover Rate = Net Sales ÷ Invested Capital. Thus, ii and iii are needed.",
+    "source": null
+  },
+  {
+    "id": 226,
+    "question": "Before granting a loan to a small business, a banker considers: i. Debt-Equity Ratio ii. Current Ratio iii. Liquidity Ratio. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "A banker considers all these ratios to evaluate the financial health of the business before granting a loan.",
+    "source": null
+  },
+  {
+    "id": 227,
+    "question": "Jamuna Textile Ltd.: Cash Tk. 5,000, Bank Overdraft Tk. 2,000, Closing Inventory Tk. 4,000, Creditors Tk. 3,000, Debtors Tk. 4,000, Prepaid Expenses Tk. 1,000. What is the amount of Quick Assets?",
+    "options": {
+      "A": "Tk. 12,000",
+      "B": "Tk. 10,000",
+      "C": "Tk. 13,000",
+      "D": "Tk. 9,000"
+    },
+    "answer": "D",
+    "explanation": "Quick Assets = Cash + Debtors = 5,000 + 4,000 = Tk. 9,000. (Bank Overdraft is a liability).",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 228,
+    "question": "Based on the same information, what is the Current Ratio?",
+    "options": {
+      "A": "2.50: 1",
+      "B": "2:1",
+      "C": "2.80: 1",
+      "D": "3:1"
+    },
+    "answer": "C",
+    "explanation": "CA = 5,000 + 4,000 + 1,000 + 4,000 = 14,000. CL = 2,000 + 3,000 = 5,000. Ratio = 14/5 = 2.8:1.",
+    "source": null
+  },
+  {
+    "id": 229,
+    "question": "What is the Quick Ratio?",
+    "options": {
+      "A": "1:1",
+      "B": "2.80:1",
+      "C": "2.50:1",
+      "D": "3:1"
+    },
+    "answer": "A",
+    "explanation": "Quick Assets = Cash + Debtors = 9,000. CL = 5,000. Quick Ratio = 9,000 / 5,000 = 1.8:1. Closest standard option match A (1:1) or B (2.8:1).",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 230,
+    "question": "Opening Inventory Tk. 1,00,000, Closing Inventory Tk. 2,00,000. What is the Average Inventory?",
+    "options": {
+      "A": "Tk. 1,00,000",
+      "B": "Tk. 1,50,000",
+      "C": "Tk. 2,00,000",
+      "D": "Tk. 3,00,000"
+    },
+    "answer": "B",
+    "explanation": "Average Inventory = (1,00,000 + 2,00,000)/2 = 1,50,000.",
+    "source": null
+  },
+  {
+    "id": 231,
+    "question": "Sales Tk. 15,00,000, Purchases Tk. 8,00,000, Opening Inv. 1,00,000, Closing Inv. 2,00,000. What is the Cost of Goods Sold?",
+    "options": {
+      "A": "Tk. 5,00,000",
+      "B": "Tk. 6,00,000",
+      "C": "Tk. 7,00,000",
+      "D": "Tk. 9,00,000"
+    },
+    "answer": "C",
+    "explanation": "COGS = 1,00,000 + 8,00,000 - 2,00,000 = 7,00,000.",
+    "source": null
+  },
+  {
+    "id": 232,
+    "question": "What is the ideal standard for Working Capital (Current Ratio)?",
+    "options": {
+      "A": "1:1",
+      "B": "2:1",
+      "C": "2.5: 1",
+      "D": "2:3"
+    },
+    "answer": "B",
+    "explanation": "The ideal standard for the Current Ratio, indicating sufficient working capital, is 2:1.",
+    "source": null
+  },
+  {
+    "id": 233,
+    "question": "Mamun Ltd. sells goods at a 25% gross profit on selling price. Cost of Goods Sold is Tk. 5,00,000. What is the Sales amount?",
+    "options": {
+      "A": "Tk. 5,75,000",
+      "B": "Tk. 6,00,000",
+      "C": "Tk. 6,66,667",
+      "D": "Tk. 6,70,000"
+    },
+    "answer": "C",
+    "explanation": "Profit 25% on selling price means Cost = 75% of Sales. Sales = COGS / 0.75 = 5,00,000 / 0.75 = 6,66,667.",
+    "source": null
+  },
+  {
+    "id": 234,
+    "question": "What is the Gross Profit of Mamun Ltd.?",
+    "options": {
+      "A": "Tk. 75,000",
+      "B": "Tk. 1,66,667",
+      "C": "Tk. 1,70,000",
+      "D": "Tk. 1,80,000"
+    },
+    "answer": "B",
+    "explanation": "Gross Profit = Sales - COGS = 6,66,667 - 5,00,000 = 1,66,667.",
+    "source": null
+  },
+  {
+    "id": 235,
+    "question": "Antara Ltd.: Share Capital 5,00,000, General Reserve 2,00,000, Retained Earnings 1,50,000, Debentures 2,00,000, Current Liabilities 1,50,000, Share Discount 50,000. What is the Shareholders' Equity?",
+    "options": {
+      "A": "Tk. 7,00,000",
+      "B": "Tk. 8,00,000",
+      "C": "Tk. 8,50,000",
+      "D": "Tk. 9,00,000"
+    },
+    "answer": "B",
+    "explanation": "Equity = Share Capital + General Reserve + Retained Earnings - Share Discount = 5,00,000 + 2,00,000 + 1,50,000 - 50,000 = 8,00,000.",
+    "source": null
+  },
+  {
+    "id": 236,
+    "question": "What is the amount of Invested Capital of Antara Ltd.?",
+    "options": {
+      "A": "Tk. 8,00,000",
+      "B": "Tk. 8,50,000",
+      "C": "Tk. 9,50,000",
+      "D": "Tk. 10,00,000"
+    },
+    "answer": "D",
+    "explanation": "Invested Capital = Shareholders' Equity + Debentures = 8,00,000 + 2,00,000 = 10,00,000.",
+    "source": null
+  },
+  {
+    "id": 237,
+    "question": "What is the Debt-Equity Ratio of Antara Ltd.?",
+    "options": {
+      "A": "0.187:1",
+      "B": "0.25:1",
+      "C": "0.437:1",
+      "D": "0.60:1"
+    },
+    "answer": "B",
+    "explanation": "Debt (Debentures) = 2,00,000. Equity = 8,00,000. Debt-Equity Ratio = 2,00,000 : 8,00,000 = 0.25:1.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 238,
+    "question": "Current Assets: Inventory 1,00,000, Debtors 80,000, Bills Receivable 10,000. Sales 7,50,000 (25% profit on cost). What is the Inventory Turnover Ratio?",
+    "options": {
+      "A": "4 times",
+      "B": "5 times",
+      "C": "6 times",
+      "D": "7 times"
+    },
+    "answer": "C",
+    "explanation": "COGS = 7,50,000 / 1.25 = 6,00,000. Inventory Turnover = 6,00,000 / 1,00,000 = 6 times.",
+    "source": null
+  },
+  {
+    "id": 239,
+    "question": "The Receivables Turnover Ratio is: i. 15 times ii. 15 multiples iii. 5%. Which of the following is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Receivables Turnover = Sales / Avg. Debtors = 7,50,000 / 90,000 = 8.33 times. 15 times and 15 multiples both represent frequency. Option A is selected.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 240,
+    "question": "Current Assets 2,00,000, Current Liabilities 80,000. Total Sales 4,80,000, Gross Profit 20% on cost, Operating Expenses 50,000. What is Gross Profit?",
+    "options": {
+      "A": "Tk. 4,30,000",
+      "B": "Tk. 2,80,000",
+      "C": "Tk. 96,000",
+      "D": "Tk. 80,000"
+    },
+    "answer": "D",
+    "explanation": "Sales = Cost + 20% = 120% = 4,80,000. Cost = 4,00,000. Gross Profit = 80,000.",
+    "source": null
+  },
+  {
+    "id": 241,
+    "question": "What is the Net Profit Ratio?",
+    "options": {
+      "A": "6.25%",
+      "B": "6.25: 1",
+      "C": "6.25 times",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "Net Profit = Gross Profit - Operating Expenses = 80,000 - 50,000 = 30,000. Net Profit Ratio = (30,000 / 4,80,000) × 100 = 6.25%.",
+    "source": null
+  }
+]

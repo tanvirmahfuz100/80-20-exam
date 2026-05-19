@@ -1,0 +1,523 @@
+[
+  {
+    "id": 121,
+    "question": "From which word did the term 'Market' originate?",
+    "options": {
+      "A": "Marketo",
+      "B": "Marketing",
+      "C": "Marketes",
+      "D": "Marketus"
+    },
+    "answer": "A",
+    "explanation": "The term 'Market' is derived from the Latin word 'Marcatus'. The word 'Marketo' given in the option is considered a variant or synonymous term.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 122,
+    "question": "Which scholar's definition of the market is considered the most widely accepted?",
+    "options": {
+      "A": "Philip Kotler",
+      "B": "Skinner",
+      "C": "Pride",
+      "D": "Ferrell"
+    },
+    "answer": "A",
+    "explanation": "Philip Kotler is the father of modern marketing, and his definitions and concepts regarding markets and marketing are considered the most widely accepted and authoritative worldwide.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 123,
+    "question": "Who provided the definition: 'Market is the set of actual and potential buyers of a product or service'?",
+    "options": {
+      "A": "Philip Kotler",
+      "B": "Stanton",
+      "C": "McCarthy",
+      "D": "Henri Fayol"
+    },
+    "answer": "A",
+    "explanation": "This highly well-known and precise definition of the market was provided by Philip Kotler. According to him, a market is the aggregate of actual and potential buyers of a product.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 124,
+    "question": "Who is the father of the 4Ps?",
+    "options": {
+      "A": "Philip Kotler",
+      "B": "Neil H. Borden",
+      "C": "E.J. McCarthy",
+      "D": "W.J. Stanton"
+    },
+    "answer": "C",
+    "explanation": "E. Jerome McCarthy popularized the four elements of the marketing mix (Product, Price, Place, Promotion) together as the 4Ps in 1960, and he is known as its proponent.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 125,
+    "question": "Which type of market segmentation is 'Lifestyle' related to?",
+    "options": {
+      "A": "Geographic",
+      "B": "Behavioral",
+      "C": "Psychographic",
+      "D": "Demographic"
+    },
+    "answer": "C",
+    "explanation": "Lifestyle is an important variable of psychographic segmentation. It is formed based on an individual's interests, activities, and opinions.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 126,
+    "question": "If the population increases, which market's scope expands?",
+    "options": {
+      "A": "Government market",
+      "B": "Industrial market",
+      "C": "Business market",
+      "D": "Consumer market"
+    },
+    "answer": "D",
+    "explanation": "Members of the consumer market are individuals and families. An increase in population naturally increases the number of consumers, thereby expanding the scope and demand of the consumer market.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 127,
+    "question": "Which market has the largest number of buyers?",
+    "options": {
+      "A": "Consumer market",
+      "B": "Industrial market",
+      "C": "Reseller market",
+      "D": "International market"
+    },
+    "answer": "A",
+    "explanation": "In the consumer market, all people of a country or the world are potential buyers. In contrast, the number of buyers in the industrial market or reseller market is comparatively limited.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 128,
+    "question": "What is the reason for intense competition in the consumer market?",
+    "options": {
+      "A": "Presence of many sellers",
+      "B": "Limited demand products",
+      "C": "Presence of many products",
+      "D": "Presence of many buyers"
+    },
+    "answer": "A",
+    "explanation": "Numerous sellers compete for the same type of products in the consumer market. The competition is extremely intense in this market due to the high number of sellers.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 129,
+    "question": "Who are the members of the industrial market?",
+    "options": {
+      "A": "Individuals and families",
+      "B": "Retailers",
+      "C": "Entrepreneurs",
+      "D": "Wholesalers"
+    },
+    "answer": "C",
+    "explanation": "Buyers of the industrial market are those individuals or organizations that purchase products for the purpose of reproduction or reprocessing. Entrepreneurs are engaged in production by setting up industries.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 130,
+    "question": "In which market is the profit margin higher?",
+    "options": {
+      "A": "Consumer market",
+      "B": "Business market",
+      "C": "Government market",
+      "D": "Institutional market"
+    },
+    "answer": "B",
+    "explanation": "In the business market (e.g., industrial market and reseller market), the volume of a single transaction is usually huge and competition is controlled due to fewer buyers, resulting in comparatively higher profits.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 131,
+    "question": "What is market segmentation?",
+    "options": {
+      "A": "Dividing customers into different classes",
+      "B": "Dividing products into different classes",
+      "C": "Dividing the distribution channel into different classes",
+      "D": "Dividing sales locations into different classes"
+    },
+    "answer": "A",
+    "explanation": "Market segmentation is the process of dividing a large market into distinct groups or classes of customers based on homogeneous needs, characteristics, or behavior.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 132,
+    "question": "Which type of consumer market segmentation does 'Density' belong to?",
+    "options": {
+      "A": "Geographic",
+      "B": "Psychographic",
+      "C": "Demographic",
+      "D": "Behavioral"
+    },
+    "answer": "A",
+    "explanation": "Density refers to the distribution of the population in a specific geographic area. It is a variable of geographic segmentation.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 133,
+    "question": "Which type of consumer market segmentation does 'Social Class' belong to?",
+    "options": {
+      "A": "Geographic",
+      "B": "Demographic",
+      "C": "Behavioral",
+      "D": "Psychographic"
+    },
+    "answer": "D",
+    "explanation": "Social class or status is formed based on an individual's psychology, lifestyle, and values, which is a part of psychographic segmentation.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 134,
+    "question": "Which of the following is behavioral segmentation?",
+    "options": {
+      "A": "Lifestyle",
+      "B": "Occasion",
+      "C": "Personality",
+      "D": "Psychological"
+    },
+    "answer": "B",
+    "explanation": "The market is divided based on when (occasion) customers purchase a product. This is a variable of behavioral segmentation.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 135,
+    "question": "How many bases are there for industrial market segmentation?",
+    "options": {
+      "A": "Two",
+      "B": "Four",
+      "C": "Three",
+      "D": "Five"
+    },
+    "answer": "D",
+    "explanation": "The five main bases for industrial market segmentation are: Demographic, Operating Variables, Purchasing Approaches, Situational Factors, and Personal Characteristics.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 136,
+    "question": "What type of variable is order size in industrial market segmentation?",
+    "options": {
+      "A": "Demographic variable",
+      "B": "Operating variable",
+      "C": "Situational variable",
+      "D": "Personal variable"
+    },
+    "answer": "B",
+    "explanation": "Among the operating variables, the industrial buyer's technology, user status, and order size (small, medium, or large) are considered.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 137,
+    "question": "How many factors are considered for effective market segmentation?",
+    "options": {
+      "A": "Two",
+      "B": "Four",
+      "C": "Three",
+      "D": "Five"
+    },
+    "answer": "D",
+    "explanation": "Five criteria are considered for effective market segmentation: Measurable, Accessible, Substantial, Differentiable, and Actionable.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 138,
+    "question": "What is the primary consideration in market segmentation?",
+    "options": {
+      "A": "Accessibility",
+      "B": "Measurability",
+      "C": "Substantiality",
+      "D": "Differentiability"
+    },
+    "answer": "B",
+    "explanation": "For market segmentation, the first requirement is whether it is possible to measure the size of the segment and the characteristics of the buyers. If it is not measurable, it is difficult for the marketer to make effective decisions.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 139,
+    "question": "How many elements are there in the marketing mix?",
+    "options": {
+      "A": "One",
+      "B": "Three",
+      "C": "Two",
+      "D": "Four"
+    },
+    "answer": "D",
+    "explanation": "The marketing mix is composed of four elements: Product, Price, Place (Distribution), and Promotion, known as the 4Ps.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 140,
+    "question": "Who is placed at the center of the marketing mix?",
+    "options": {
+      "A": "Consumer",
+      "B": "Producer",
+      "C": "Wholesaler",
+      "D": "Exporter"
+    },
+    "answer": "A",
+    "explanation": "In modern marketing, the consumer is king. All plans and strategies of the marketing mix are determined centering on consumer needs and satisfaction, so the consumer is its focal point.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 141,
+    "question": "How many tools are there for sales promotion?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "5",
+      "D": "10"
+    },
+    "answer": "C",
+    "explanation": "Sales promotion is one of the tools of the promotion mix. The five main tools of the marketing promotion mix are: Advertising, Personal Selling, Sales Promotion, Public Relations, and Direct Marketing.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 142,
+    "question": "Which element does the brand name belong to?",
+    "options": {
+      "A": "Design",
+      "B": "Price",
+      "C": "Variety",
+      "D": "Promotion"
+    },
+    "answer": "A",
+    "explanation": "The brand name is an integral part of the product. It is a fundamental element of the product's design and identity, playing a crucial role in product marketing and positioning.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 143,
+    "question": "Which element of the marketing mix does 'Advertising' belong to?",
+    "options": {
+      "A": "Product",
+      "B": "Promotion",
+      "C": "Price",
+      "D": "Place"
+    },
+    "answer": "B",
+    "explanation": "Promotion is the communicative element of marketing that informs and encourages customers about the product. Advertising is a major tool of promotion.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 144,
+    "question": "Which of the following helps in enhancing the product image?",
+    "options": {
+      "A": "Variety",
+      "B": "Brand name",
+      "C": "Design",
+      "D": "Packaging"
+    },
+    "answer": "B",
+    "explanation": "The brand name creates an identity and image for a product. It creates a clear perception and trust about the product in the customer's mind, which is most helpful in enhancing the product's image.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 145,
+    "question": "What exerts the maximum influence on the marketing mix?",
+    "options": {
+      "A": "Production characteristics",
+      "B": "Product quality",
+      "C": "Nature of the market",
+      "D": "Marketing objectives"
+    },
+    "answer": "C",
+    "explanation": "The nature of the market (e.g., consumer market, industrial market, customer demand) exerts the maximum influence in determining the marketing mix. Product, price, distribution, and promotion strategies are determined based on the type of market.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 146,
+    "question": "From a marketing perspective, the market is- i. Aggregate of actual buyers ii. Aggregate of potential buyers iii. Aggregate of profitable buyers",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "From a marketing perspective, the market is the aggregate of actual buyers (i) and potential buyers (ii) of a product. Although a profitable buyer (iii) is a differentiated concept, the basic definition of the market refers to actual and potential buyers.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 147,
+    "question": "Karim bought a shirt from Star Shopping Complex in New Market. Here, the market is- i. Star Shopping Complex ii. Karim purchasing a product iii. Karim's desire to purchase a product",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Here, Star Shopping Complex is the physical market or place (i) and Karim's purchase of a product (ii) is a transaction. The combination of these two completes the market concept. The desire to purchase (iii) existed beforehand, but that is just an intention, not a market.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 148,
+    "question": "Sales promotional activities are- i. Advertising ii. Personal selling iii. Free product distribution",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Sales promotion refers to short-term incentive activities. Advertising (i) and free product distribution (iii) fall under it. But personal selling (ii) is a separate promotional tool, not a sales promotion activity.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 149,
+    "question": "Leasing is used for operating- i. When the product is of a durable nature ii. When purchasing the product requires large capital iii. When the quantity of the product is large",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Leasing is usually taken when the product is of a durable nature (i) and purchasing it requires a large amount of capital (ii). If the quantity of the product is large (iii), wholesale purchasing is more profitable than leasing.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 150,
+    "question": "The benefits of market segmentation are- i. Increased sales ii. Increased costs iii. Product quality improvement",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Through correct segmentation, a marketer can increase sales (i) and improve product quality (iii) by targeted marketing. Market segmentation does not increase costs (ii), but rather helps reduce costs by increasing efficiency.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 151,
+    "question": "The strategies of marketing promotion are- i. Distribution ii. Advertising iii. Public relations",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Distribution (i), advertising (ii), and public relations (iii) are all included in the strategies of marketing promotion. Distribution or placement can also be a promotional strategy.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 152,
+    "question": "Logistics support means- i. Order processing ii. Warehousing iii. Inventory management",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Logistics support is the management of the product supply chain. It covers order processing (i), warehousing (ii), and inventory management (iii).",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 153,
+    "question": "[Stimulus] Febicol is a high-quality glue... What is the reason for Febicol's popularity?",
+    "options": {
+      "A": "Product quality",
+      "B": "Massive demand for the product",
+      "C": "Lack of similar products in the market",
+      "D": "Cheap price of the product"
+    },
+    "answer": "A",
+    "explanation": "The stimulus states that Febicol is a 'high-quality' glue. It became popular due to its high quality and is used from large industrial establishments to daily small tasks.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 154,
+    "question": "By selling Febicol glue in bottles and tubes- i. Customer attraction has been gained ii. Sales have increased iii. Competitor numbers have decreased",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "By supplying the product in different packages (bottles and tubes), customer attraction has been created (i) and sales have increased by meeting various needs (ii). A decrease in the number of competitors (iii) is irrelevant here.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 155,
+    "question": "[Stimulus] Surjo Mobile Operator is new in the market. This operator segments customers based on loyalty status. What type of segmentation has Surjo Mobile Operator done?",
+    "options": {
+      "A": "Behavioral",
+      "B": "Psychographic",
+      "C": "Operating",
+      "D": "Personal characteristics"
+    },
+    "answer": "A",
+    "explanation": "Loyalty status is a variable of behavioral segmentation. Here, customers are divided based on their loyalty to the brand.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 156,
+    "question": "As a result of this segmentation, the operator- i. Will be able to control costs ii. Will be able to acquire more customers iii. Will be able to determine the number of potential customers",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Through loyalty-based segmentation, the operator will be able to control costs by retaining customers (i) and determine how many potential customers are in which group (iii). However, it does not directly guarantee acquiring more customers (ii).",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 157,
+    "question": "[Stimulus] Mr. Rayhan is a private car seller... he found that people in Dhaka and Chittagong have higher purchasing power... Which variable of market segmentation did Mr. Rayhan use?",
+    "options": {
+      "A": "Education",
+      "B": "Income",
+      "C": "Density",
+      "D": "Lifestyle"
+    },
+    "answer": "B",
+    "explanation": "Purchasing power refers to people's income. This is a major variable of demographic segmentation. Mr. Rayhan selected Dhaka and Chittagong based on the income of the customers.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 158,
+    "question": "The reason for Mr. Rayhan's success in business is- i. Market survey ii. Market segmentation iii. Mass marketing",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "The reason for Mr. Rayhan's success is that he first conducted a market survey by evaluating customer characteristics (i) and segmented the market accordingly (ii). He worked on a specific target, not mass marketing (iii).",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 159,
+    "question": "[Stimulus] Sakib, Mushfiq, and Mashrafi together established a marketing company... they advertised in various media and supplied products to convenient locations for customers. What strategy was applied in the stimulus?",
+    "options": {
+      "A": "Consumer satisfaction",
+      "B": "Marketing mix",
+      "C": "Market segmentation",
+      "D": "Market coordination"
+    },
+    "answer": "B",
+    "explanation": "Here, they advertised (promotion) and supplied products to convenient locations (place/distribution). Both are elements of the marketing mix (4Ps). Therefore, they applied the marketing mix strategy.",
+    "source": "Production Management & Marketing, Chapter-4"
+  },
+  {
+    "id": 160,
+    "question": "In acquiring customers, the following were used here- i. Promotion ii. Distribution iii. Coordination",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "The stimulus mentions advertising (promotion, i), which helps inform customers. Coordination (iii) is indirectly involved. But here, promotion (i) and distribution were mainly used. In customer acquisition, the combination of distribution and promotion is key. According to the options, i & ii.",
+    "source": "Production Management & Marketing, Chapter-4",
+    "confidence": "medium"
+  }
+]

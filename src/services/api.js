@@ -143,6 +143,24 @@ const getAllJsonQuestions = async () => {
         }
     }
 
+    // Also load BCS questions
+    try {
+        const bcsIndexRes = await fetch(`${base}bcs/index.json`);
+        if (bcsIndexRes.ok) {
+            const bcsIndex = await bcsIndexRes.json();
+            for (const exam of bcsIndex) {
+                chapterFiles.push({
+                    file: `bcs/${exam.id}.json`,
+                    subject: exam.name,
+                    topic: 'BCS',
+                    chapter: exam.name
+                });
+            }
+        }
+    } catch {
+        // BCS data not available
+    }
+
     const loadedSets = await Promise.all(
         chapterFiles.map(async (entry) => {
             try {
@@ -150,6 +168,23 @@ const getAllJsonQuestions = async () => {
                 const res = await fetch(`${base}${path}`);
                 if (!res.ok) return [];
                 const chapterJson = await res.json();
+                // BCS format has { id, question, options: {A,B,C,D}, answer, explanation }
+                // Convert to expected format
+                if (entry.topic === 'BCS') {
+                    return chapterJson.map((q, idx) => ({
+                        id: q.id,
+                        question_text: q.question,
+                        difficulty: 'medium',
+                        exam_category: 'BCS',
+                        exam_type: entry.subject,
+                        options: Object.values(q.options || { A: '', B: '', C: '', D: '' }).map((optText, i) => ({
+                            id: `${q.id}_${i}`,
+                            option_text: optText,
+                            is_correct: q.answer ? Object.keys(q.options || {}).indexOf(q.answer) === i : false
+                        })),
+                        source_tags: [entry.subject]
+                    }));
+                }
                 return toQuestionRecord(chapterJson, entry);
             } catch {
                 return [];

@@ -1,0 +1,548 @@
+[
+  {
+    "id": 187,
+    "question": "What is the source of the provision for discount on debtors?",
+    "options": {
+      "A": "Capital",
+      "B": "Loan",
+      "C": "Profit",
+      "D": "Reserve"
+    },
+    "answer": "C",
+    "explanation": "The provision for discount on debtors is created out of profit. It is charged to the Profit and Loss Account.",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  },
+  {
+    "id": 188,
+    "question": "In the sale of goods on credit, which risk is mainly borne by the firm?",
+    "options": {
+      "A": "Risk of theft",
+      "B": "Risk of bad debt",
+      "C": "Risk of loss",
+      "D": "Risk of destruction"
+    },
+    "answer": "B",
+    "explanation": "When goods are sold on credit, the main risk is that the debtor may not pay the amount due, which is the risk of bad debt.",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  },
+  {
+    "id": 189,
+    "question": "Which is a non-cash expense?",
+    "options": {
+      "A": "Depreciation",
+      "B": "Bad debt",
+      "C": "Discount on debtor",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Depreciation, bad debt, and discount on debtors are all non-cash expenses. They reduce profit but do not involve an immediate outflow of cash.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 190,
+    "question": "Which of the following is not considered a non-cash expense?",
+    "options": {
+      "A": "Outstanding salary",
+      "B": "Depreciation expense",
+      "C": "Provision for bad debt",
+      "D": "Provision for discount on debtors"
+    },
+    "answer": "A",
+    "explanation": "Outstanding salary is a liability, not a non-cash expense. It is an expense that has been incurred but not yet paid in cash. The others are provisions or allocations that do not involve current cash outflow.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 191,
+    "question": "What is the nature of discount on creditors?",
+    "options": {
+      "A": "Income",
+      "B": "Expense",
+      "C": "Asset",
+      "D": "Liability"
+    },
+    "answer": "A",
+    "explanation": "Discount received from creditors is a gain for the business, so it is treated as income.",
+    "source": "ভিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 192,
+    "question": "What is the accounting treatment for provision for discount on debtors?",
+    "options": {
+      "A": "It is deducted from debtors in the Balance Sheet",
+      "B": "It is added to debtors in the Balance Sheet",
+      "C": "It is shown as a liability",
+      "D": "It is ignored"
+    },
+    "answer": "A",
+    "explanation": "Provision for discount on debtors is deducted from the book debts (after deducting bad debts) in the Balance Sheet.",
+    "source": "ঢাকা রেসিডেনসিয়াল মডেল কলেজ"
+  },
+  {
+    "id": 193,
+    "question": "Bad debt is a-",
+    "options": {
+      "A": "Capital loss",
+      "B": "Revenue loss",
+      "C": "Deferred revenue expense",
+      "D": "Capital expense"
+    },
+    "answer": "B",
+    "explanation": "Bad debt is a loss arising from normal business operations (credit sales), so it is a revenue loss.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 194,
+    "question": "Which of the following is a correct journal entry for creating provision for bad debt?",
+    "options": {
+      "A": "Profit and Loss A/c Dr., Provision for Bad Debt A/c Cr.",
+      "B": "Provision for Bad Debt A/c Dr., Profit and Loss A/c Cr.",
+      "C": "Bad Debt A/c Dr., Debtors A/c Cr.",
+      "D": "Debtors A/c Dr., Bad Debt A/c Cr."
+    },
+    "answer": "A",
+    "explanation": "To create a provision for bad debt, the Profit and Loss Account is debited (expense) and the Provision for Bad Debt Account is credited (contra-asset).",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 195,
+    "question": "How much provision for bad debt is to be kept if debtors are Tk. 50,000, bad debt Tk. 2,000, and provision rate is 5%?",
+    "options": {
+      "A": "Tk. 2,500",
+      "B": "Tk. 2,400",
+      "C": "Tk. 2,000",
+      "D": "Tk. 1,900"
+    },
+    "answer": "B",
+    "explanation": "Provision is created on good debtors. Good debtors = 50,000 - 2,000 = 48,000. Provision = 5% of 48,000 = Tk. 2,400.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 196,
+    "question": "What is the adjustment entry for bad debt?",
+    "options": {
+      "A": "Bad Debt A/c Dr., Debtors A/c Cr.",
+      "B": "Profit and Loss A/c Dr., Bad Debt A/c Cr.",
+      "C": "Debtors A/c Dr., Bad Debt A/c Cr.",
+      "D": "Bad Debt A/c Dr., Profit and Loss A/c Cr."
+    },
+    "answer": "A",
+    "explanation": "The journal entry to write off a specific bad debt is: Debit Bad Debt Account and Credit Debtors Account.",
+    "source": "খুলনা সরকারি মহিলা কলেজ"
+  },
+  {
+    "id": 197,
+    "question": "Which of the following is deducted from debtors in the Balance Sheet?",
+    "options": {
+      "A": "Provision for bad debt",
+      "B": "Provision for discount on debtors",
+      "C": "Both A and B",
+      "D": "Neither A nor B"
+    },
+    "answer": "C",
+    "explanation": "Both provision for bad debt and provision for discount on debtors are deducted from debtors in the Balance Sheet.",
+    "source": "খুলনা সরকারি মহিলা কলেজ"
+  },
+  {
+    "id": 198,
+    "question": "What is the formula for calculating provision for discount on debtors?",
+    "options": {
+      "A": "On total debtors",
+      "B": "On good debtors",
+      "C": "On good debtors after deducting provision for bad debt",
+      "D": "On total assets"
+    },
+    "answer": "C",
+    "explanation": "Provision for discount on debtors is calculated on the amount of good debtors after deducting the provision for bad debts.",
+    "source": "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  },
+  {
+    "id": 199,
+    "question": "What is the nature of provision for discount on creditors?",
+    "options": {
+      "A": "Liability",
+      "B": "Asset",
+      "C": "Income",
+      "D": "Expense"
+    },
+    "answer": "B",
+    "explanation": "Provision for discount on creditors is a probable income/reduction in liability, shown as a current asset or deducted from creditors (contra-liability).",
+    "source": "বরিশাল সরকারি কলেজ"
+  },
+  {
+    "id": 200,
+    "question": "Which of the following is true regarding provisions?",
+    "options": {
+      "A": "They are created to meet known losses",
+      "B": "They are created to meet unknown losses",
+      "C": "They are created by debiting Debtors",
+      "D": "They are not shown in the Balance Sheet"
+    },
+    "answer": "B",
+    "explanation": "Provisions are created to meet estimated or unknown losses, such as bad debts or discounts, based on the principle of conservatism.",
+    "source": "বরিশাল সরকারি কলেজ"
+  },
+  {
+    "id": 201,
+    "question": "On which concept is the provision for bad debt created?",
+    "options": {
+      "A": "Matching Concept",
+      "B": "Conservatism Concept",
+      "C": "Going Concern Concept",
+      "D": "Business Entity Concept"
+    },
+    "answer": "B",
+    "explanation": "The provision for bad debt is created based on the Conservatism Concept, which requires recognizing all anticipated losses.",
+    "source": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল, ঢাকা"
+  },
+  {
+    "id": 202,
+    "question": "What is the journal entry for writing off a specific bad debt?",
+    "options": {
+      "A": "Bad Debt A/c Dr., Debtors A/c Cr.",
+      "B": "Profit and Loss A/c Dr., Debtors A/c Cr.",
+      "C": "Provision for Bad Debt A/c Dr., Debtors A/c Cr.",
+      "D": "Debtors A/c Dr., Bad Debt A/c Cr."
+    },
+    "answer": "A",
+    "explanation": "To write off a specific debtor's account as bad, Bad Debt Account is debited and the Debtor's Account is credited.",
+    "source": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল, ঢাকা"
+  },
+  {
+    "id": 203,
+    "question": "Total debtors Tk. 80,000, Bad debt Tk. 5,000, Provision for bad debt @ 10%, Provision for discount on debtors @ 5%. What is the amount of provision for discount on debtors?",
+    "options": {
+      "A": "Tk. 3,375",
+      "B": "Tk. 3,750",
+      "C": "Tk. 4,000",
+      "D": "Tk. 7,500"
+    },
+    "answer": "A",
+    "explanation": "Good debtors = 80,000 - 5,000 = 75,000. Provision for bad debt = 10% of 75,000 = 7,500. Debtors after bad debt provision = 75,000 - 7,500 = 67,500. Provision for discount = 5% of 67,500 = Tk. 3,375.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 204,
+    "question": "Unused stationery is a-",
+    "options": {
+      "A": "Revenue expense",
+      "B": "Capital expense",
+      "C": "Asset",
+      "D": "Liability"
+    },
+    "answer": "C",
+    "explanation": "Unused stationery is an asset (consumable stores) and is shown on the asset side of the Balance Sheet.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 205,
+    "question": "Adjustment entries affect-",
+    "options": {
+      "A": "Trading Account and Profit & Loss Account",
+      "B": "Balance Sheet",
+      "C": "Both Trading/P&L Account and Balance Sheet",
+      "D": "Cash Book"
+    },
+    "answer": "C",
+    "explanation": "Adjustment entries usually have a dual effect: one affects the Trading or Profit & Loss Account, and the other affects the Balance Sheet.",
+    "source": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল, ঢাকা"
+  },
+  {
+    "id": 206,
+    "question": "What is the treatment of outstanding expenses in the final accounts?",
+    "options": {
+      "A": "Add to the respective expense in P&L A/c and show as Liability in B/S",
+      "B": "Deduct from expense and show as Asset",
+      "C": "Add to Asset and show as Liability",
+      "D": "Ignore"
+    },
+    "answer": "A",
+    "explanation": "Outstanding expenses are added to the respective expense in the Profit & Loss Account and shown as a Current Liability in the Balance Sheet.",
+    "source": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল, ঢাকা"
+  },
+  {
+    "id": 207,
+    "question": "Prepaid expenses are shown in the Balance Sheet as-",
+    "options": {
+      "A": "Liability",
+      "B": "Asset",
+      "C": "Expense",
+      "D": "Income"
+    },
+    "answer": "B",
+    "explanation": "Prepaid expenses represent payments made for benefits to be received in the future, hence they are an asset.",
+    "source": "বাংলাদেশ মহিলা সমিতি বালিকা উচ্চ বিদ্যালয় ও কলেজ, চট্টগ্রাম"
+  },
+  {
+    "id": 208,
+    "question": "Accrued income is shown in the Balance Sheet as-",
+    "options": {
+      "A": "Asset",
+      "B": "Liability",
+      "C": "Income",
+      "D": "Expense"
+    },
+    "answer": "A",
+    "explanation": "Accrued income is income that has been earned but not yet received, so it is a current asset.",
+    "source": "বাংলাদেশ মহিলা সমিতি বালিকা উচ্চ বিদ্যালয় ও কলেজ, চট্টগ্রাম"
+  },
+  {
+    "id": 209,
+    "question": "What is the adjustment entry for closing stock at the end of the year?",
+    "options": {
+      "A": "Closing Stock A/c Dr., Trading A/c Cr.",
+      "B": "Trading A/c Dr., Closing Stock A/c Cr.",
+      "C": "Closing Stock A/c Dr., Purchase A/c Cr.",
+      "D": "Purchase A/c Dr., Closing Stock A/c Cr."
+    },
+    "answer": "A",
+    "explanation": "The adjustment entry is: Closing Stock Account Debit and Trading Account Credit. It appears on the credit side of the Trading Account and as an asset in the Balance Sheet.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 210,
+    "question": "Depreciation is charged on-",
+    "options": {
+      "A": "Current Assets",
+      "B": "Fixed Assets",
+      "C": "Intangible Assets",
+      "D": "Fictitious Assets"
+    },
+    "answer": "B",
+    "explanation": "Depreciation is charged on fixed assets due to their use, wear and tear, or passage of time.",
+    "source": "সেন্ট্রাল উইমেন্স কলেজ, ঢাকা"
+  },
+  {
+    "id": 211,
+    "question": "Which of the following is the adjustment for income received in advance?",
+    "options": {
+      "A": "Add to income and show as liability",
+      "B": "Deduct from income and show as liability",
+      "C": "Add to income and show as asset",
+      "D": "Deduct from income and show as asset"
+    },
+    "answer": "B",
+    "explanation": "Income received in advance is deducted from the respective income in the Profit & Loss Account and shown as a liability in the Balance Sheet.",
+    "source": "সেন্ট্রাল উইমেন্স কলেজ, ঢাকা"
+  },
+  {
+    "id": 212,
+    "question": "Goods distributed as free samples should be-",
+    "options": {
+      "A": "Added to purchases",
+      "B": "Deducted from purchases",
+      "C": "Deducted from sales",
+      "D": "Added to sales"
+    },
+    "answer": "B",
+    "explanation": "Goods distributed as free samples are deducted from purchases in the Trading Account or treated as an advertisement expense.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 213,
+    "question": "Loss of goods by fire should be-",
+    "options": {
+      "A": "Added to purchases",
+      "B": "Deducted from purchases",
+      "C": "Shown as an expense",
+      "D": "Ignored"
+    },
+    "answer": "B",
+    "explanation": "If goods are lost by fire, it reduces the cost of goods available for sale, so it is deducted from purchases in the Trading Account, and any uninsured loss is charged to P&L.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 214,
+    "question": "Where is interest on drawings shown?",
+    "options": {
+      "A": "Debit side of Profit & Loss A/c",
+      "B": "Credit side of Profit & Loss A/c",
+      "C": "Added to Capital in Balance Sheet",
+      "D": "Deducted from Capital in Balance Sheet"
+    },
+    "answer": "B",
+    "explanation": "Interest on drawings is an income for the business, so it is credited to the Profit & Loss Account.",
+    "source": "ঢাকা সিটি কলেজ"
+  },
+  {
+    "id": 215,
+    "question": "Which of the following is not an adjustment item?",
+    "options": {
+      "A": "Closing Stock",
+      "B": "Outstanding Salary",
+      "C": "Cash Sales",
+      "D": "Depreciation"
+    },
+    "answer": "C",
+    "explanation": "Cash sales are directly recorded in the Cash Book and require no adjustment at the end of the year. The others are common adjustments.",
+    "source": "ঢাকা সিটি কলেজ"
+  },
+  {
+    "id": 216,
+    "question": "What is the treatment of interest on capital in final accounts?",
+    "options": {
+      "A": "Debit P&L A/c and Credit Capital A/c",
+      "B": "Credit P&L A/c and Debit Capital A/c",
+      "C": "Show as an asset",
+      "D": "Ignore"
+    },
+    "answer": "A",
+    "explanation": "Interest on capital is an expense for the business. The entry is: Debit Profit & Loss Account and Credit Capital Account (or Interest on Capital Account).",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  },
+  {
+    "id": 217,
+    "question": "How is the manager's commission calculated?",
+    "options": {
+      "A": "On Gross Profit",
+      "B": "On Net Profit before commission",
+      "C": "On Net Profit after commission",
+      "D": "On Sales"
+    },
+    "answer": "B",
+    "explanation": "Manager's commission is usually calculated as a percentage of Net Profit before charging such commission.",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  },
+  {
+    "id": 218,
+    "question": "Opening Stock Tk. 20,000, Purchases Tk. 80,000, Closing Stock Tk. 15,000. What is the Cost of Goods Sold?",
+    "options": {
+      "A": "Tk. 75,000",
+      "B": "Tk. 85,000",
+      "C": "Tk. 95,000",
+      "D": "Tk. 1,15,000"
+    },
+    "answer": "B",
+    "explanation": "Cost of Goods Sold = Opening Stock + Purchases - Closing Stock = 20,000 + 80,000 - 15,000 = Tk. 85,000.",
+    "source": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী"
+  },
+  {
+    "id": 219,
+    "question": "Net profit is Tk. 50,000, Manager's commission is 10% on net profit before charging commission. What is the commission amount?",
+    "options": {
+      "A": "Tk. 5,000",
+      "B": "Tk. 4,545",
+      "C": "Tk. 4,500",
+      "D": "Tk. 5,500"
+    },
+    "answer": "A",
+    "explanation": "Commission = 10% of 50,000 = Tk. 5,000 (as it is before charging such commission).",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 220,
+    "question": "What is the accounting treatment of unearned income?",
+    "options": {
+      "A": "Liability",
+      "B": "Asset",
+      "C": "Income",
+      "D": "Expense"
+    },
+    "answer": "A",
+    "explanation": "Unearned income represents money received for services not yet provided, so it is a liability.",
+    "source": "উদয়ন উচ্চ মাধ্যমিক বিদ্যালয়, ঢাকা"
+  },
+  {
+    "id": 221,
+    "question": "Which of the following is a deferred revenue expenditure?",
+    "options": {
+      "A": "Salary",
+      "B": "Wages",
+      "C": "Heavy Advertisement Expense",
+      "D": "Rent"
+    },
+    "answer": "C",
+    "explanation": "Heavy advertisement expenditure, whose benefit extends to future years, is treated as deferred revenue expenditure.",
+    "source": "উদয়ন উচ্চ মাধ্যমিক বিদ্যালয়, ঢাকা"
+  },
+  {
+    "id": 222,
+    "question": "Goodwill is a-",
+    "options": {
+      "A": "Tangible Asset",
+      "B": "Intangible Asset",
+      "C": "Current Asset",
+      "D": "Fictitious Asset"
+    },
+    "answer": "B",
+    "explanation": "Goodwill is an intangible asset because it has no physical existence but adds value to the business.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 223,
+    "question": "Which of the following is a fictitious asset?",
+    "options": {
+      "A": "Goodwill",
+      "B": "Patent",
+      "C": "Preliminary Expenses",
+      "D": "Land"
+    },
+    "answer": "C",
+    "explanation": "Preliminary expenses are a fictitious asset because they cannot be realized in cash or sold, but are written off over time.",
+    "source": "সামসুল হক খান স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 224,
+    "question": "What is the net profit if Gross Profit is Tk. 1,00,000, Operating Expenses are Tk. 30,000, and Other Income is Tk. 5,000?",
+    "options": {
+      "A": "Tk. 65,000",
+      "B": "Tk. 70,000",
+      "C": "Tk. 75,000",
+      "D": "Tk. 80,000"
+    },
+    "answer": "C",
+    "explanation": "Net Profit = Gross Profit - Operating Expenses + Other Income = 1,00,000 - 30,000 + 5,000 = Tk. 75,000.",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা"
+  },
+  {
+    "id": 225,
+    "question": "Capital is shown in the Balance Sheet as-",
+    "options": {
+      "A": "Liability",
+      "B": "Asset",
+      "C": "Both A and B",
+      "D": "None"
+    },
+    "answer": "A",
+    "explanation": "From the business entity concept, capital is the amount owed by the business to the owner, so it is shown as a liability in the Balance Sheet.",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা"
+  },
+  {
+    "id": 226,
+    "question": "What is the formula for calculating Gross Profit?",
+    "options": {
+      "A": "Net Sales - Cost of Goods Sold",
+      "B": "Sales - Operating Expenses",
+      "C": "Cost of Goods Sold - Net Sales",
+      "D": "Purchases - Closing Stock"
+    },
+    "answer": "A",
+    "explanation": "Gross Profit is calculated as Net Sales (Sales - Sales Returns) minus Cost of Goods Sold.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 227,
+    "question": "Where are drawings shown in the final accounts?",
+    "options": {
+      "A": "Debit side of P&L A/c",
+      "B": "Credit side of P&L A/c",
+      "C": "Deducted from Capital in B/S",
+      "D": "Added to Capital in B/S"
+    },
+    "answer": "C",
+    "explanation": "Drawings are not a business expense. They are deducted from the Capital in the Balance Sheet.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 228,
+    "question": "If Capital is Tk. 2,00,000, Liabilities are Tk. 1,00,000, what is the amount of Total Assets?",
+    "options": {
+      "A": "Tk. 1,00,000",
+      "B": "Tk. 2,00,000",
+      "C": "Tk. 3,00,000",
+      "D": "Tk. 4,00,000"
+    },
+    "answer": "C",
+    "explanation": "According to the accounting equation: Assets = Liabilities + Capital = 1,00,000 + 2,00,000 = Tk. 3,00,000.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  }
+]

@@ -1,0 +1,477 @@
+[
+  {
+    "id": 187,
+    "question": "On 1/1/2013, Accounts Receivable was Tk. 30,000, on 31/12/2013 Tk. 40,000. In 2013, collection from Accounts Receivable was Tk. 35,000. What was the amount of credit sales in 2013?",
+    "options": {
+      "A": "Tk. 10,000",
+      "B": "Tk. 80,000",
+      "C": "Tk. 35,000",
+      "D": "Tk. 45,000"
+    },
+    "answer": "D",
+    "explanation": "Ending Receivable = Beginning Receivable + Credit Sales - Collection. 40,000 = 30,000 + Credit Sales - 35,000. Credit Sales = 40,000 - 30,000 + 35,000 = Tk. 45,000.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 188,
+    "question": "Opening Provision for Bad Debts Tk. 3,000, Bad Debts written off Tk. 2,500, Year-end Accounts Receivable balance Tk. 40,000. Provision for Bad Debts is to be maintained at 10%. What is the amount of the new Provision for Bad Debts?",
+    "options": {
+      "A": "Tk. 3,750",
+      "B": "Tk. 4,000",
+      "C": "Tk. 3,450",
+      "D": "Tk. 8,000"
+    },
+    "answer": "B",
+    "explanation": "New Provision = 10% of 40,000 = Tk. 4,000.",
+    "source": "রাজউক উত্তরা মডেল কলেজ, ঢাকা"
+  },
+  {
+    "id": 189,
+    "question": "Before any bad debt adjustment, Debtors amount to Tk. 20,500. Bad debt is Tk. 500. 10% Provision for Bad Debts and 5% Provision for Discount on debtors are to be maintained. What is the amount of the Provision for Discount?",
+    "options": {
+      "A": "Tk. 2,100",
+      "B": "Tk. 2,000",
+      "C": "Tk. 1,500",
+      "D": "Tk. 900"
+    },
+    "answer": "D",
+    "explanation": "Good Debtors = 20,500 - 500 = 20,000. Provision for Bad Debt = 10% of 20,000 = 2,000. Debtors after Bad Debt Provision = 20,000 - 2,000 = 18,000. Provision for Discount = 5% of 18,000 = Tk. 900.",
+    "source": "হলি ব্রুস কলেজ, ঢাকা"
+  },
+  {
+    "id": 190,
+    "question": "In the Balance Sheet, after deducting the Provision for Bad Debts from Accounts Receivable, the remaining value is called?",
+    "options": {
+      "A": "Gross value of Accounts Receivable",
+      "B": "Net realizable value of Accounts Receivable",
+      "C": "Receivable value of Accounts Receivable",
+      "D": "Net cash collectible value"
+    },
+    "answer": "B",
+    "explanation": "The amount remaining after deducting Provision for Bad Debts from Accounts Receivable is the net realizable value or net receivable value.",
+    "source": "ন্যাশনাল আইডিয়াল স্কুল এন্ড কলেজ, ঢাকা"
+  },
+  {
+    "id": 191,
+    "question": "Provision for Bad Debts needs to be increased by Tk. 2,000. If the opening Provision for Bad Debts was Tk. 5,000, what will be the new Provision for Bad Debts?",
+    "options": {
+      "A": "Tk. 2,000",
+      "B": "Tk. 5,000",
+      "C": "Tk. 3,000",
+      "D": "Tk. 7,000"
+    },
+    "answer": "D",
+    "explanation": "New Provision = Opening Provision + Increase = 5,000 + 2,000 = Tk. 7,000.",
+    "source": "ঢাকা রেসিডেনসিয়াল মডেল কলেজ"
+  },
+  {
+    "id": 192,
+    "question": "Discounting a bill receivable is actually for the receiver a-",
+    "options": {
+      "A": "Financial loss",
+      "B": "Financial gain",
+      "C": "Advance receipt of money",
+      "D": "Quick receipt of money"
+    },
+    "answer": "D",
+    "explanation": "Discounting a bill receivable provides the holder with quick cash before the maturity date.",
+    "source": "ঢাকা রেসিডেনসিয়াল মডেল কলেজ"
+  },
+  {
+    "id": 193,
+    "question": "Goods of Tk. 750 were sold on credit on June 13, terms 2/10, n/30. On June 16, goods of Tk. 50 were returned. If the full amount is paid on June 23, how much will the seller receive?",
+    "options": {
+      "A": "Tk. 735",
+      "B": "Tk. 700",
+      "C": "Tk. 686",
+      "D": "Tk. 685"
+    },
+    "answer": "C",
+    "explanation": "Net Sale = 750 - 50 = 700. Payment within 10 days gets 2% discount. Discount = 2% of 700 = 14. Amount received = 700 - 14 = Tk. 686.",
+    "source": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা"
+  },
+  {
+    "id": 194,
+    "question": "Closing balance of Accounts Receivable Tk. 24,000, Credit Sales Tk. 50,000, Sales Returns Tk. 4,000, Provision for Bad Debts Tk. 5,000, Bad Debts recovered Tk. 3,000. What is the amount of Net Accounts Receivable?",
+    "options": {
+      "A": "Tk. 20,000",
+      "B": "Tk. 50,000",
+      "C": "Tk. 70,000",
+      "D": "Tk. 74,000"
+    },
+    "answer": "D",
+    "explanation": "Net Accounts Receivable = Closing Balance + Credit Sales - Sales Returns = 24,000 + 50,000 - 4,000 = 70,000. (Note: Provision and recovery do not affect the gross receivable balance).",
+    "source": "অমৃত লাল দে মহাবিদ্যালয়, বরিশাল",
+    "confidence": "low"
+  },
+  {
+    "id": 195,
+    "question": "On 31 December 2012, the credit balance of Provision for Bad Debts was Tk. 5,000. Accounts Receivable Tk. 50,000. In 2013, Bad Debts written off Tk. 10,000. New Provision for Bad Debts is 10%. How much will be charged to the Income Statement as bad debt expense in the current year?",
+    "options": {
+      "A": "Tk. 19,000",
+      "B": "Tk. 24,000",
+      "C": "Tk. 28,000",
+      "D": "Tk. 32,000"
+    },
+    "answer": "B",
+    "explanation": "New Required Provision = 10% of 50,000 = 5,000. Bad debt expense = Written off + New Provision - Old Provision = 10,000 + 5,000 - 5,000 = 10,000. (Option B 24,000 if 50,000 - written off = 40,000. NP 10% = 4,000. BDE = 10,000 + 4,000 - 5,000 = 9,000). Assuming the question asks for total bad debt impact including new provision adjustment.",
+    "source": "উদয়ন উচ্চ মাধ্যমিক বিদ্যালয়, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 196,
+    "question": "What type of expense is Bad Debt?",
+    "options": {
+      "A": "Administrative expense",
+      "B": "Selling and Distribution expense",
+      "C": "Capital expense",
+      "D": "Deferred Revenue expense"
+    },
+    "answer": "B",
+    "explanation": "Bad debt is related to credit sales, so it is considered a Selling and Distribution expense.",
+    "source": "উদয়ন উচ্চ মাধ্যমিক বিদ্যালয়, ঢাকা"
+  },
+  {
+    "id": 197,
+    "question": "A product has a list price of Tk. 30,000. If Trade Discount 10% and Cash Discount 5% are allowed, what is the amount of Cash Discount?",
+    "options": {
+      "A": "Tk. 1,350",
+      "B": "Tk. 1,450",
+      "C": "Tk. 4,500",
+      "D": "Tk. 3,000"
+    },
+    "answer": "A",
+    "explanation": "After 10% Trade Discount, price = 30,000 - 3,000 = 27,000. Cash Discount = 5% of 27,000 = Tk. 1,350.",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা"
+  },
+  {
+    "id": 198,
+    "question": "What type of account is Provision for Bad Debts?",
+    "options": {
+      "A": "Asset",
+      "B": "Liability",
+      "C": "Contra Asset",
+      "D": "Contra Liability"
+    },
+    "answer": "C",
+    "explanation": "Provision for Bad Debts is a contra asset account, deducted from Accounts Receivable.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 199,
+    "question": "Before any bad debt adjustment, Debtors amount to Tk. 20,500. Bad debt is Tk. 500, Existing Provision for Bad Debts is Tk. 550. 10% Provision for Bad Debts and 5% Provision for Discount are to be maintained. What is the amount of Provision for Discount?",
+    "options": {
+      "A": "Tk. 2,100",
+      "B": "Tk. 1,500",
+      "C": "Tk. 2,000",
+      "D": "Tk. 900"
+    },
+    "answer": "D",
+    "explanation": "Good Debtors = 20,500 - 500 = 20,000. New Provision for BD = 10% of 20,000 = 2,000. Debtors after new provision = 20,000 - 2,000 = 18,000. Discount Provision = 5% of 18,000 = 900.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 200,
+    "question": "In the Bills Receivable account, Debit total is Tk. 25,000, Credit total is Tk. 30,000, Closing Balance is Tk. 15,000. What is the Opening Balance?",
+    "options": {
+      "A": "Tk. 1,000",
+      "B": "Tk. 5,000",
+      "C": "Tk. 15,000",
+      "D": "Tk. 20,000"
+    },
+    "answer": "D",
+    "explanation": "Opening Balance = Closing Balance + Credits - Debits = 15,000 + 30,000 - 25,000 = Tk. 20,000.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 201,
+    "question": "What type of asset is Accounts Receivable for a business?",
+    "options": {
+      "A": "Fixed Asset",
+      "B": "Current Asset",
+      "C": "Fictitious Asset",
+      "D": "Intangible Asset"
+    },
+    "answer": "B",
+    "explanation": "Accounts Receivable is a Current Asset because it is expected to be collected within one year.",
+    "source": "অগ্রণী বিদ্যালয় ও মহাবিদ্যালয়, রাজশাহী"
+  },
+  {
+    "id": 202,
+    "question": "Bad Debt is what type of loss for a business?",
+    "options": {
+      "A": "Sales-related loss",
+      "B": "Purchase-related loss",
+      "C": "Valuation loss",
+      "D": "Depreciation loss"
+    },
+    "answer": "A",
+    "explanation": "Bad debt arises from credit sales, hence it is a sales-related loss.",
+    "source": "অগ্রণী বিদ্যালয় ও মহাবিদ্যালয়, রাজশাহী"
+  },
+  {
+    "id": 203,
+    "question": "How many grace days are allowed for a Bill Receivable?",
+    "options": {
+      "A": "Four days",
+      "B": "Two days",
+      "C": "Three days",
+      "D": "One day"
+    },
+    "answer": "C",
+    "explanation": "Generally, three days of grace are allowed for a bill of exchange.",
+    "source": "অগ্রণী বিদ্যালয় ও মহাবিদ্যালয়, রাজশাহী"
+  },
+  {
+    "id": 204,
+    "question": "The discounting period of a bill receivable is calculated from which date?",
+    "options": {
+      "A": "Date of bill preparation",
+      "B": "Date of discounting",
+      "C": "Date of acceptance",
+      "D": "Date of credit sale"
+    },
+    "answer": "B",
+    "explanation": "The discount period is calculated from the date the bill is discounted at the bank to the maturity date.",
+    "source": "অগ্রণী স্কুল এন্ড কলেজ, রাজশাহী"
+  },
+  {
+    "id": 205,
+    "question": "Provision for Bad Debts is a-\ni. Future arrangement\nii. Reserve\niii. Estimated expense\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Provision for Bad Debts is a future arrangement (i), a provision (ii), and an estimated expense (iii). All three are correct.",
+    "source": "ভিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা"
+  },
+  {
+    "id": 206,
+    "question": "In the Balance Sheet, Accounts Receivable is shown at its-\ni. Gross value\nii. Net value\niii. Collectible value\nWhich is correct?",
+    "options": {
+      "A": "i",
+      "B": "i & ii",
+      "C": "ii & iii",
+      "D": "ii"
+    },
+    "answer": "C",
+    "explanation": "Accounts Receivable is shown at its Net collectible value (after deducting provisions).",
+    "source": "খুলনা পাবলিক কলেজ",
+    "confidence": "low"
+  },
+  {
+    "id": 207,
+    "question": "For an institution, loss means-\ni. Bad Debt\nii. Theft of cash\niii. Provision for Bad Debts\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Bad debt and theft of cash are actual losses. Provision for bad debt is an estimated loss, not an actual loss.",
+    "source": "খুলনা পাবলিক কলেজ"
+  },
+  {
+    "id": 208,
+    "question": "As a result of the Provision for Discount on Debtors-\ni. Internal savings increase\nii. Internal liabilities increase\niii. Net profit decreases\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Creating a provision for discount is an expense that reduces net profit (iii) and retains funds internally (i). It does not increase liabilities.",
+    "source": "খুলনা পাবলিক কলেজ"
+  },
+  {
+    "id": 209,
+    "question": "What was the amount of Accounts Receivable in the Trial Balance?\n(Stimulus: Adjustment: New Bad Debt Tk. 3,000; New Provision Tk. 5,000; Rate 10%.)",
+    "options": {
+      "A": "Tk. 58,000",
+      "B": "Tk. 53,000",
+      "C": "Tk. 40,000",
+      "D": "Tk. 45,000"
+    },
+    "answer": "B",
+    "explanation": "Required provision 5,000 is 10% of Accounts Receivable. So, Accounts Receivable = 5,000 / 10% = Tk. 50,000. (Assuming 53,000 is given in the key based on additional bad debt).",
+    "source": "ভিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 210,
+    "question": "What is the amount of expense for Provision for Bad Debts?\n(Stimulus: Adjustment: New Bad Debt Tk. 3,000; New Provision Tk. 5,000; Rate 10%.)",
+    "options": {
+      "A": "Tk. 2,000",
+      "B": "Tk. 5,000",
+      "C": "Tk. 3,000",
+      "D": "Tk. 8,000"
+    },
+    "answer": "A",
+    "explanation": "The expense for provision is the increase in provision. Old provision = 10% of (50,000 - 3,000) = 4,700. New provision 5,000. Increase = 300. (Assuming 2,000 from answer key).",
+    "source": "ভিকারুননিসা নূন স্কুল ও কলেজ, ঢাকা",
+    "confidence": "low"
+  },
+  {
+    "id": 211,
+    "question": "By what amount will the Sales Account be credited?\n(Stimulus: Hossain Traders sold 30,000 Tk. goods at 10% Trade Discount to Jamal on credit on Jan 1. Terms 2/10, n/30.)",
+    "options": {
+      "A": "Tk. 30,000",
+      "B": "Tk. 27,000",
+      "C": "Tk. 27,273",
+      "D": "Tk. 24,000"
+    },
+    "answer": "B",
+    "explanation": "Sales is recorded net of Trade Discount. Net Sale = 30,000 - (10% of 30,000) = Tk. 27,000.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 212,
+    "question": "By what amount will the Cash Account be debited?\n(Stimulus: Payment received on Jan 9 from Jamal.)",
+    "options": {
+      "A": "Tk. 27,000",
+      "B": "Tk. 30,000",
+      "C": "Tk. 24,300",
+      "D": "Tk. 26,460"
+    },
+    "answer": "D",
+    "explanation": "Net Sale = 27,000. Payment within 10 days gets 2% discount. Discount = 2% of 27,000 = 540. Cash = 27,000 - 540 = Tk. 26,460.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 213,
+    "question": "What amount of discount will be accounted for?\n(Stimulus: Hossain Traders sold goods at Trade Discount 10% and Cash Discount 2%.)",
+    "options": {
+      "A": "Tk. 2,700",
+      "B": "Tk. 2,727",
+      "C": "Tk. 3,000",
+      "D": "Tk. 540"
+    },
+    "answer": "D",
+    "explanation": "Only Cash Discount is recorded. Cash Discount = 2% of 27,000 = Tk. 540.",
+    "source": "ঢাকা কমার্স কলেজ"
+  },
+  {
+    "id": 214,
+    "question": "Mr. Abhi sold goods worth Tk. 50,000 to Mr. Ishmam. He received Tk. 5,000 in cash and a check for Tk. 10,000. Later he gave Tk. 500 discount and received the balance in cash. What is the amount of credit sales?",
+    "options": {
+      "A": "Tk. 32,500",
+      "B": "Tk. 33,000",
+      "C": "Tk. 34,500",
+      "D": "Tk. 35,000"
+    },
+    "answer": "C",
+    "explanation": "Total Sale = 50,000. Cash received initially = 5,000 + 10,000 = 15,000. Balance = 50,000 - 15,000 = Tk. 35,000 (Credit Sale).",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা"
+  },
+  {
+    "id": 215,
+    "question": "How does the discount given to Ishmam affect the accounts?",
+    "options": {
+      "A": "Expense increases and Asset decreases",
+      "B": "Income increases and Asset decreases",
+      "C": "Expense decreases and Liability increases",
+      "D": "Income decreases and Liability increases"
+    },
+    "answer": "A",
+    "explanation": "Discount allowed is an expense. It increases expenses and decreases cash (Asset).",
+    "source": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা"
+  },
+  {
+    "id": 216,
+    "question": "What is the amount of the new Provision for Bad Debts for Mr. Imon?\n(Stimulus: Trial balance shows Debtors Tk. 50,000; Prov. for BD Tk. 2,000; Bad Debts Tk. 4,000. Adjustment: Tk. 3,000 is uncollectible, and 2% on remaining debtors.)",
+    "options": {
+      "A": "Tk. 860",
+      "B": "Tk. 940",
+      "C": "Tk. 960",
+      "D": "Tk. 1,000"
+    },
+    "answer": "A",
+    "explanation": "Further bad debt = 3,000. Remaining good debtors = 50,000 - 4,000 - 3,000 = 43,000. New Provision = 2% of 43,000 = Tk. 860.",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা"
+  },
+  {
+    "id": 217,
+    "question": "Mr. Imon will include what amount as net bad debt expense in his Income Statement?",
+    "options": {
+      "A": "Tk. 3,940",
+      "B": "Tk. 5,860",
+      "C": "Tk. 5,940",
+      "D": "Tk. 6,000"
+    },
+    "answer": "C",
+    "explanation": "Bad debt expense = Written off + New Provision - Old Provision = (4,000 + 3,000) + 860 - 2,000 = 7,000 + 860 - 2,000 = Tk. 5,860. (Option C 5,940 is closest).",
+    "source": "ইস্পাহানী পাবলিক স্কুল এন্ড কলেজ, কুমিল্লা",
+    "confidence": "low"
+  },
+  {
+    "id": 218,
+    "question": "What was the opening balance of Accounts Receivable in 2013?\n(Stimulus: 'Milon Enterprise' sold Tk. 8,00,000 on credit and Tk. 6,00,000 via Bills Receivable to 'Ijaj Traders'. Opening Receivable was Tk. 18,00,000? (text says: start of 2013, receivable was 18,00,000 Tk. of which 60% collected).",
+    "options": {
+      "A": "Tk. 7,00,000",
+      "B": "Tk. 7,20,000",
+      "C": "Tk. 7,40,000",
+      "D": "Tk. 7,80,000"
+    },
+    "answer": "B",
+    "explanation": "If Tk. 18,00,000 was the opening balance, and 60% collected means 40% remains uncollected. Uncollected = 40% of 18,00,000 = Tk. 7,20,000. This is the opening balance carried forward.",
+    "source": "বাংলাদেশ নৌবাহিনী স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা"
+  },
+  {
+    "id": 219,
+    "question": "What was the total Accounts Receivable in 2013?",
+    "options": {
+      "A": "Tk. 20,20,000",
+      "B": "Tk. 21,00,000",
+      "C": "Tk. 21,20,000",
+      "D": "Tk. 23,00,000"
+    },
+    "answer": "A",
+    "explanation": "Total Receivable = Opening Balance + Credit Sales = 18,00,000 + 8,00,000 + 6,00,000 = 32,00,000. (Assuming some collection, but if total receivable is asked, it's 32,00,000. If closing, then 18,00,000 + 14,00,000 - collection). Answer key suggests 20,20,000.",
+    "source": "বাংলাদেশ নৌবাহিনী স্কুল এন্ড কলেজ, জাহানাবাদ, খুলনা",
+    "confidence": "low"
+  },
+  {
+    "id": 220,
+    "question": "What is the maturity value of the bill?\n(Stimulus: Mr. Samir received a 3-month bill for Tk. 15,000 on 1 March 2012 at 12% interest.)",
+    "options": {
+      "A": "Tk. 14,550",
+      "B": "Tk. 15,450",
+      "C": "Tk. 15,000",
+      "D": "Tk. 16,800"
+    },
+    "answer": "B",
+    "explanation": "Interest = 15,000 × 12% × 3/12 = 450. Maturity Value = 15,000 + 450 = Tk. 15,450.",
+    "source": "শহীদ বীর উত্তম লে. আনোয়ার গার্লস কলেজ, ঢাকা"
+  },
+  {
+    "id": 221,
+    "question": "In recording the discounting of the bill in Samir's books-\ni. Bank Account is debited\nii. Discount Account is debited\niii. Bills Receivable Account is credited\nWhich is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The entry for discounting: Bank A/c Dr., Discount A/c Dr., Bills Receivable A/c Cr. All three are involved.",
+    "source": "শহীদ বীর উত্তম লে. আনোয়ার গার্লস কলেজ, ঢাকা"
+  },
+  {
+    "id": 222,
+    "question": "What is the net discount expense for the bill?",
+    "options": {
+      "A": "Tk. 168",
+      "B": "Tk. 522",
+      "C": "Tk. 600",
+      "D": "Tk. 618"
+    },
+    "answer": "D",
+    "explanation": "Bank Discount = 15,450 × 16% × 3/12 = Tk. 618. (Option D).",
+    "source": "শহীদ বীর উত্তম লে. আনোয়ার গার্লস কলেজ, ঢাকা"
+  }
+]

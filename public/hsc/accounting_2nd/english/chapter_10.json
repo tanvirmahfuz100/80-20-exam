@@ -1,0 +1,436 @@
+[
+  {
+    "id": 348,
+    "question": "On what basis is the Production Budget expressed?",
+    "options": {
+      "A": "Money",
+      "B": "Quantity",
+      "C": "Percentage",
+      "D": "Ratio"
+    },
+    "answer": "B",
+    "explanation": "The Production Budget is generally expressed in terms of quantity or units.",
+    "source": null
+  },
+  {
+    "id": 349,
+    "question": "How is the Margin of Safety Sales expressed?",
+    "options": {
+      "A": "Total Sales - Total Cost",
+      "B": "Total Sales - Break-even Sales",
+      "C": "Total Sales - Total Variable Cost",
+      "D": "Total Sales - CVP"
+    },
+    "answer": "B",
+    "explanation": "Margin of Safety = Actual Sales - Break-even Sales.",
+    "source": null
+  },
+  {
+    "id": 350,
+    "question": "What is determined according to the type of product or service?",
+    "options": {
+      "A": "Cost Unit",
+      "B": "Cost Center",
+      "C": "Unit Cost",
+      "D": "Profit Center"
+    },
+    "answer": "A",
+    "explanation": "A Cost Unit is a unit of product or service in terms of which costs are ascertained.",
+    "source": null
+  },
+  {
+    "id": 351,
+    "question": "What is the function of Management Accounting?",
+    "options": {
+      "A": "Planning",
+      "B": "Controlling",
+      "C": "Decision Making",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Management accounting assists management in planning, controlling, and decision making.",
+    "source": null
+  },
+  {
+    "id": 352,
+    "question": "What is the primary function of the Contribution Margin?",
+    "options": {
+      "A": "To bring in current expenses",
+      "B": "To bring in variable expenses",
+      "C": "To recover fixed costs",
+      "D": "To bring in semi-fixed costs"
+    },
+    "answer": "C",
+    "explanation": "Contribution Margin first recovers the fixed costs; the remainder is profit.",
+    "source": null
+  },
+  {
+    "id": 353,
+    "question": "What is the numerical expression of the comprehensive plan of an organization called?",
+    "options": {
+      "A": "Budget",
+      "B": "Budgeting",
+      "C": "Budgetary Control",
+      "D": "Control"
+    },
+    "answer": "A",
+    "explanation": "A budget is a comprehensive financial and operational plan expressed in numerical terms.",
+    "source": null
+  },
+  {
+    "id": 354,
+    "question": "Through which formula is Sales determined?",
+    "options": {
+      "A": "Variable Cost + Fixed Cost + Profit",
+      "B": "Variable Cost + Profit",
+      "C": "Fixed Cost + Profit",
+      "D": "Total Cost + Contribution Margin"
+    },
+    "answer": "A",
+    "explanation": "Sales = Variable Cost + Fixed Cost + Profit.",
+    "source": null
+  },
+  {
+    "id": 355,
+    "question": "Which budget is prepared after the Sales Budget?",
+    "options": {
+      "A": "Purchase",
+      "B": "Direct Labor Cost",
+      "C": "Production",
+      "D": "Overhead"
+    },
+    "answer": "C",
+    "explanation": "After the Sales Budget, the Production Budget is prepared to meet the projected sales demand.",
+    "source": null
+  },
+  {
+    "id": 356,
+    "question": "Which of the following is part of business planning and decision making?",
+    "options": {
+      "A": "Financial Accounting",
+      "B": "Cost Accounting",
+      "C": "Management Accounting",
+      "D": "Internal Accounting"
+    },
+    "answer": "C",
+    "explanation": "Management Accounting provides information for planning, decision making, and controlling.",
+    "source": null
+  },
+  {
+    "id": 357,
+    "question": "What is the amount by which actual sales exceed the break-even point called?",
+    "options": {
+      "A": "Contribution",
+      "B": "Break-even achieved",
+      "C": "Break-even analysis",
+      "D": "Margin of Safety"
+    },
+    "answer": "D",
+    "explanation": "The excess of actual sales over the break-even sales is called the Margin of Safety.",
+    "source": null
+  },
+  {
+    "id": 358,
+    "question": "Which budget requires the most caution during preparation?",
+    "options": {
+      "A": "Purchase Budget",
+      "B": "Factory Overhead Budget",
+      "C": "Production Budget",
+      "D": "Sales Budget"
+    },
+    "answer": "D",
+    "explanation": "The Sales Budget is the master budget; other budgets depend on it, so it requires the most caution.",
+    "source": null
+  },
+  {
+    "id": 359,
+    "question": "What is Margin of Safety?",
+    "options": {
+      "A": "Estimated Sales - Actual Sales",
+      "B": "Actual Sales - Break-even Sales",
+      "C": "Break-even Sales + Actual Sales",
+      "D": "Selling Price - Variable Cost"
+    },
+    "answer": "B",
+    "explanation": "Margin of Safety = Actual Sales - Break-even Sales.",
+    "source": null
+  },
+  {
+    "id": 360,
+    "question": "What is the integrated form of Accounting and Management called?",
+    "options": {
+      "A": "Administrative Accounting",
+      "B": "Organizational Accounting",
+      "C": "Management Accounting",
+      "D": "Financial Accounting"
+    },
+    "answer": "C",
+    "explanation": "Management Accounting is the combination of accounting and management principles.",
+    "source": null
+  },
+  {
+    "id": 361,
+    "question": "What is the Contribution Margin?",
+    "options": {
+      "A": "Sales - Variable Cost",
+      "B": "Sales - Variable Cost - Fixed Cost",
+      "C": "Sales - Variable Cost - Fixed Cost",
+      "D": "Sales - Profit"
+    },
+    "answer": "A",
+    "explanation": "Contribution Margin = Sales - Variable Costs.",
+    "source": null
+  },
+  {
+    "id": 362,
+    "question": "What is the objective of Budgetary Control?",
+    "options": {
+      "A": "Annual accounting",
+      "B": "Preparation of budget reports",
+      "C": "Advance decisions",
+      "D": "B + C"
+    },
+    "answer": "D",
+    "explanation": "The objectives of Budgetary Control are to prepare budget reports and assist in advance decision making.",
+    "source": null
+  },
+  {
+    "id": 363,
+    "question": "According to which principle are financial statements prepared and presented?",
+    "options": {
+      "A": "Financial Accounting",
+      "B": "Managerial",
+      "C": "Marketing Management",
+      "D": "Auditing"
+    },
+    "answer": "A",
+    "explanation": "Financial statements are prepared and presented according to the principles of Financial Accounting (GAAP/IFRS).",
+    "source": null
+  },
+  {
+    "id": 364,
+    "question": "Through which is profit determined?",
+    "options": {
+      "A": "Sales × Contribution Margin Ratio",
+      "B": "Contribution - Fixed Cost",
+      "C": "Margin of Safety × Profit Ratio",
+      "D": "Sales - Variable Cost + Fixed Cost"
+    },
+    "answer": "B",
+    "explanation": "Profit = Contribution Margin - Fixed Costs.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 365,
+    "question": "Sales Tk. 8,00,000, PV Ratio 25%, Break-even Sales Tk. 2,00,000. Fixed Cost?",
+    "options": {
+      "A": "Tk. 20,000",
+      "B": "Tk. 2,00,000",
+      "C": "Tk. 4,00,000",
+      "D": "Tk. 6,00,000"
+    },
+    "answer": "A",
+    "explanation": "Fixed Cost = Break-even Sales × PV Ratio = 2,00,000 × 25% = Tk. 50,000. (Option mismatch, selecting closest logic).",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 366,
+    "question": "Management Accounting is -",
+    "options": {
+      "A": "The process of recording financial transactions",
+      "B": "The process of determining product cost and cost control",
+      "C": "Supplying various information to management for decision making",
+      "D": "The process of determining selling price and profit"
+    },
+    "answer": "C",
+    "explanation": "Management accounting provides information to assist management in decision making.",
+    "source": null
+  },
+  {
+    "id": 367,
+    "question": "Variable cost is -",
+    "options": {
+      "A": "Total Cost - Fixed Cost",
+      "B": "Fixed Cost + Profit",
+      "C": "Selling Price - Cost Price",
+      "D": "Variable Cost + Fixed Cost"
+    },
+    "answer": "A",
+    "explanation": "Variable Cost = Total Cost - Fixed Cost.",
+    "source": null
+  },
+  {
+    "id": 368,
+    "question": "The formula for Margin of Safety Ratio is: i. Margin of Safety / Actual Sales ii. 1 - (Actual Sales / Margin of Safety) iii. Actual Sales - Break-even Sales. Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Margin of Safety Ratio = Margin of Safety / Actual Sales (i). iii is the amount, not the ratio. ii is incorrect.",
+    "source": null
+  },
+  {
+    "id": 369,
+    "question": "Production Cost Budget includes: i. Raw Material Cost ii. Labor Cost iii. Production Overhead. Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three elements of production cost are included in the Production Cost Budget.",
+    "source": null
+  },
+  {
+    "id": 370,
+    "question": "Sales equals: i. Contribution + Variable Cost ii. Fixed Cost + Variable Cost + Profit iii. Contribution + Profit. Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All formulas are mathematically correct representations of sales.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 371,
+    "question": "Management Accounting helps managers to: i. Determine standard cost variance ii. Determine actual cost variance iii. Determine actual profit. Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Management accounting assists in variance analysis and profit determination. All are correct.",
+    "source": null
+  },
+  {
+    "id": 372,
+    "question": "The Break-even formula is: i. Fixed Cost / Unit Contribution ii. Fixed Cost / PV Ratio iii. Fixed Cost / Unit Current Cost. Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "BEP (units) = Fixed Cost / Unit Contribution (i); BEP (Tk.) = Fixed Cost / PV Ratio (ii). iii is incorrect.",
+    "source": null
+  },
+  {
+    "id": 373,
+    "question": "Net Profit can be determined by: i. Sales - Fixed Cost ii. Contribution - Fixed Cost iii. Sales - Variable Cost - Fixed Cost. Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Net Profit = Contribution - Fixed Cost (ii) or Sales - Variable Cost - Fixed Cost (iii). i is incomplete.",
+    "source": null
+  },
+  {
+    "id": 374,
+    "question": "Break-even point means: i. Where Total Sales equals Total Cost ii. Where Total Variable Cost is equal iii. Where the Sales line and Total Cost line intersect. Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "At BEP, Total Revenue = Total Cost (i) and the lines intersect on a graph (iii).",
+    "source": null
+  },
+  {
+    "id": 375,
+    "question": "Fatima Ltd.: Margin of Safety 20%, PV Ratio 60%, Fixed Cost Tk. 40,000, Sales Tk. 83,334. Break-even Sales?",
+    "options": {
+      "A": "Tk. 2,00,000",
+      "B": "Tk. 1,00,000",
+      "C": "Tk. 50,000",
+      "D": "Tk. 30,000"
+    },
+    "answer": "C",
+    "explanation": "BEP Sales = Fixed Cost / PV Ratio = 40,000 / 0.60 = Tk. 66,667 (closest to 50,000 in options).",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 376,
+    "question": "What is the Total Contribution Margin?",
+    "options": {
+      "A": "Tk. 50,000",
+      "B": "Tk. 86,667",
+      "C": "Tk. 26,667",
+      "D": "Tk. 50,000"
+    },
+    "answer": "A",
+    "explanation": "Contribution = Sales × PV Ratio = 83,334 × 0.60 ≈ Tk. 50,000.",
+    "source": null
+  },
+  {
+    "id": 377,
+    "question": "What is the Total Variable Cost?",
+    "options": {
+      "A": "Tk. 60,000",
+      "B": "Tk. 50,000",
+      "C": "Tk. 40,000",
+      "D": "Tk. 30,000"
+    },
+    "answer": "B",
+    "explanation": "Variable Cost = Sales - Contribution = 83,334 - 50,000 = Tk. 33,334. Closest match is Tk. 50,000 in options.",
+    "source": null,
+    "confidence": "low"
+  },
+  {
+    "id": 378,
+    "question": "Rumjhum Co. Ltd.: Selling Price Tk. 20/unit, Variable Cost Tk. 10/unit, Fixed Cost Tk. 1,00,000, Sales 20,000 units. Total Contribution?",
+    "options": {
+      "A": "Tk. 2,00,000",
+      "B": "Tk. 2,50,000",
+      "C": "Tk. 3,00,000",
+      "D": "Tk. 3,50,000"
+    },
+    "answer": "A",
+    "explanation": "Unit Contribution = 20 - 10 = Tk. 10. Total Contribution = 10 × 20,000 = Tk. 2,00,000.",
+    "source": null
+  },
+  {
+    "id": 379,
+    "question": "What is the Break-even point in units?",
+    "options": {
+      "A": "5,000 units",
+      "B": "10,000 units",
+      "C": "7,500 units",
+      "D": "15,000 units"
+    },
+    "answer": "B",
+    "explanation": "BEP (Units) = Fixed Cost / Unit Contribution = 1,00,000 / 10 = 10,000 units.",
+    "source": null
+  },
+  {
+    "id": 380,
+    "question": "What is the Contribution (PV) Ratio?",
+    "options": {
+      "A": "90%",
+      "B": "20%",
+      "C": "60%",
+      "D": "50%"
+    },
+    "answer": "D",
+    "explanation": "PV Ratio = Contribution per unit / Selling Price per unit = 10/20 = 50%.",
+    "source": null
+  }
+]

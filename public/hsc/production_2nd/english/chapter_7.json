@@ -1,0 +1,470 @@
+[
+  {
+    "id": 239,
+    "question": "Who is not a customer of wholesale trade?",
+    "options": {
+      "A": "Retailer",
+      "B": "Consumer",
+      "C": "Departmental store",
+      "D": "Chain store"
+    },
+    "answer": "B",
+    "explanation": "The customers of wholesale trade are mainly retailers, industrial buyers, and institutional buyers, but the general consumer does not directly purchase from wholesale trade. The consumer is not a customer of wholesale trade.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 240,
+    "question": "What are the traders who sell products to retailers called?",
+    "options": {
+      "A": "Wholesaler",
+      "B": "Broker",
+      "C": "Category killer",
+      "D": "Rack jobber"
+    },
+    "answer": "A",
+    "explanation": "A wholesaler is an intermediary who buys products from the producer and resells them to retailers. They do not sell directly to the consumer.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 241,
+    "question": "What is the main source of products for a wholesaler?",
+    "options": {
+      "A": "Producer",
+      "B": "Sales agent",
+      "C": "Commission agent",
+      "D": "Retailer"
+    },
+    "answer": "A",
+    "explanation": "Wholesalers purchase the lion's share of their products directly from the producer or mill owner.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 242,
+    "question": "What is the reason for low risk in retail trade?",
+    "options": {
+      "A": "Business is conducted with small capital",
+      "B": "Skilled salespeople are present",
+      "C": "It is limited to a specific area",
+      "D": "Buyers and sellers have an idea about the product"
+    },
+    "answer": "A",
+    "explanation": "Retail trade can generally be started with a small capital investment. Since the capital is small, the possibility and amount of loss are low, resulting in low risk.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 243,
+    "question": "In most cases, what is the ownership pattern of retail trade?",
+    "options": {
+      "A": "Sole proprietorship",
+      "B": "Partnership",
+      "C": "Joint stock company",
+      "D": "Cooperative"
+    },
+    "answer": "A",
+    "explanation": "In the context of Bangladesh, most retail trades are small-scale and operated under single ownership, which is called a sole proprietorship business.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 244,
+    "question": "Which wholesaler is operated under the producer's own supervision and ownership?",
+    "options": {
+      "A": "Sales agent",
+      "B": "Sales office",
+      "C": "Commission agent",
+      "D": "Drop shippers"
+    },
+    "answer": "B",
+    "explanation": "A sales office or branch office is an establishment owned and controlled by the producer, which conducts wholesale activities.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 245,
+    "question": "Which type of wholesaler does not take ownership?",
+    "options": {
+      "A": "Truck wholesaler",
+      "B": "Rack jobber",
+      "C": "Drop shipper",
+      "D": "Broker"
+    },
+    "answer": "D",
+    "explanation": "A broker is an agent who does not take ownership of the product. They only establish a connection between the buyer and seller and receive a commission.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 246,
+    "question": "What type of wholesaler is present in the mango trade of Rajshahi?",
+    "options": {
+      "A": "General merchandise wholesaler",
+      "B": "Specialty product wholesaler",
+      "C": "Limited product wholesaler",
+      "D": "Industrial product wholesaler"
+    },
+    "answer": "B",
+    "explanation": "Mango is a specific seasonal fruit. Those who wholesale only mangoes or mango-related products are known as specialty product wholesalers.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 247,
+    "question": "Which of the following is correct about a chain store?",
+    "options": {
+      "A": "Has separate departments in the same building",
+      "B": "Sells a limited number of products",
+      "C": "Is under the same ownership and control",
+      "D": "Sells products conditionally"
+    },
+    "answer": "C",
+    "explanation": "A chain store or multiple shop is operated under central ownership and control with multiple branches, selling the same type of products and following the same policies.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 248,
+    "question": "Which of the following is a large-scale retail business?",
+    "options": {
+      "A": "Franchise",
+      "B": "Discount store",
+      "C": "Teleshop",
+      "D": "Warehouse"
+    },
+    "answer": "B",
+    "explanation": "A discount store is a type of large-scale retail business that sells a high volume of products at a low profit margin.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 249,
+    "question": "What type of intermediary does telemarketing fall under?",
+    "options": {
+      "A": "Mobile business",
+      "B": "Retail business",
+      "C": "Wholesale business",
+      "D": "Limited marketing"
+    },
+    "answer": "B",
+    "explanation": "Telemarketing is a modern method of selling products directly to consumers over the phone. It is a special form of retail business.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 250,
+    "question": "What type of retail business is Bata Shoe Company?",
+    "options": {
+      "A": "Departmental store",
+      "B": "Chain store (Multiple shop)",
+      "C": "Automatic vending",
+      "D": "Warehouse club"
+    },
+    "answer": "B",
+    "explanation": "Bata is one of the world's largest shoe retailers, with numerous branches in multiple countries under a central ownership. It is a chain store or multiple shop.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 251,
+    "question": "How does a wholesaler reduce the producer's risk?",
+    "options": {
+      "A": "By purchasing products from the producer",
+      "B": "By providing market information",
+      "C": "By providing transportation facilities",
+      "D": "By maintaining price stability"
+    },
+    "answer": "A",
+    "explanation": "The wholesaler buys a large quantity of products from the producer at once. This reduces the risk of products piling up and remaining unsold in the producer's warehouse, and production can continue smoothly.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 252,
+    "question": "How does a wholesaler help the producer through product standardization and grading?",
+    "options": {
+      "A": "Increases product sales",
+      "B": "Increases the utility of the producer's product",
+      "C": "Maintains product price stability",
+      "D": "Reduces the producer's cost"
+    },
+    "answer": "A",
+    "explanation": "Wholesalers determine product quality and grade them, which increases buyer confidence and demand. As a result, the producer's product sales increase.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 253,
+    "question": "What function does a retailer perform on behalf of the consumer?",
+    "options": {
+      "A": "Keeps accounts",
+      "B": "Determines product price",
+      "C": "Takes risks",
+      "D": "Takes back products"
+    },
+    "answer": "B",
+    "explanation": "The retailer deals directly with the consumer and sets the final price of the product considering consumer demand, purchasing power, and the competitive market.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 254,
+    "question": "Compared to retail trade, what is the sales volume of wholesale trade like?",
+    "options": {
+      "A": "Wholesale trade sales volume is higher",
+      "B": "Retail trade sales volume is higher",
+      "C": "As a single customer, the retailer's sales are higher",
+      "D": "In terms of total customers, retail sales volume is higher"
+    },
+    "answer": "A",
+    "explanation": "In wholesale trade, a large amount or volume of products is transacted with a small number of customers. Therefore, in overall terms, the financial and quantitative value of wholesale sales is much higher than retail sales.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 255,
+    "question": "What is the meaning of the word 'Retail'?",
+    "options": {
+      "A": "To connect",
+      "B": "To cut into pieces",
+      "C": "To enlarge",
+      "D": "To keep unbroken"
+    },
+    "answer": "B",
+    "explanation": "The word 'Retail' comes from the French word 'Retaillier', which means 'to cut into pieces' or 'to break bulk'. Selling by dividing large lots into small parts is the core concept of retail trade.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 256,
+    "question": "What type of organization is 'Walmart' in the United States?",
+    "options": {
+      "A": "Wholesale business",
+      "B": "Retail business",
+      "C": "Large-scale wholesale business",
+      "D": "Large-scale retail business"
+    },
+    "answer": "D",
+    "explanation": "Walmart is one of the world's largest retail organizations. It is a large-scale retail store with numerous branches spread across the globe.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 257,
+    "question": "What problem does a wholesaler face when purchasing large quantities of products?",
+    "options": {
+      "A": "Increase in product price",
+      "B": "Lack of training",
+      "C": "Transportation problems",
+      "D": "Lack of capital"
+    },
+    "answer": "D",
+    "explanation": "The main problem of wholesale trade is the lack of sufficient capital. Purchasing large quantities of products requires a huge amount of money, which is often difficult for the wholesaler to arrange.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 258,
+    "question": "Why does a retailer need more fixed capital than working capital?",
+    "options": {
+      "A": "For storing stock",
+      "B": "For selling on credit",
+      "C": "To bear the cost of shop rent",
+      "D": "To hire skilled salespeople"
+    },
+    "answer": "C",
+    "explanation": "In retail trade, fixed capital is relatively more required for shop construction, decoration, or long-term rent than for purchasing products (working capital).",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 259,
+    "question": "What can be done to address the lack of capital in retail trade?",
+    "options": {
+      "A": "Take a loan from DBBL",
+      "B": "Accept advance payment from customers",
+      "C": "Arranging bank loans on easy terms",
+      "D": "Selling abandoned property"
+    },
+    "answer": "C",
+    "explanation": "The lack of capital is a major problem in retail trade. The best solution is to arrange bank loans on easy terms and at low interest rates to keep the business momentum going.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 260,
+    "question": "An individual or business activity can be called wholesale trade when- i. Buys on one hand and sells on the other ii. Plays the role of an intermediary iii. Sells products directly to consumers",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Wholesale trade is a profession of buying (i) and selling, where the role of an intermediary (ii) is played. However, a wholesaler never sells directly to consumers (iii); that is a characteristic of retail trade.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 261,
+    "question": "As a result of credit transactions in retail trade- i. The scope of business increases ii. Bad debt risk is created iii. More capital is required",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Credit transactions increase the scope of retail trade (i), but at the same time, if the customer fails to repay, bad debt risk is created (ii), and the demand for capital increases to buy more products (iii).",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 262,
+    "question": "A merchant wholesaler is- i. The largest wholesaler ii. An individual wholesaler iii. A joint wholesaler",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "A merchant wholesaler is one who buys products with their own money, takes ownership, and is considered the largest and individual wholesaler.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 263,
+    "question": "Under the producer's wholesaler, the following are included- i. Sales branch ii. Sales office iii. Sales agency",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "When the producer conducts wholesale activities themselves, sales branches (i) and sales offices (ii) fall under this. Sales agencies (iii) fall under agent intermediaries, not under producer-owned wholesalers.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 264,
+    "question": "The role of wholesalers in the economic development of the country is- i. Assisting in large-scale production ii. Developing domestic industries iii. Improving the standard of living",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Wholesalers play an important role in assisting large-scale production (i), developing domestic industries (ii), and improving the standard of living (iii).",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 265,
+    "question": "In determining the product price, a retailer considers- i. Competitor's product price ii. Product sales risk iii. Other expenses",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "In determining the retail price, it is essential to consider the competitor's product price (i) and other expenses like transportation and rent (iii). Product sales risk (ii) is not a consideration; rather, the purchase price is the main basis.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 266,
+    "question": "To solve the problems of retail trade, the following should be done- i. Forming skilled salespeople ii. Reducing competition iii. Keeping product prices stable",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "To improve retail trade, forming skilled salespeople (i) and keeping product prices stable (iii) are important. Reducing competition (ii) is unrealistic; rather, strategies to face competition are needed.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 267,
+    "question": "[Stimulus] Mr. Ruman is a trader of daily necessities... once a week he goes to the city and buys everything in small quantities from his known big trader Mr. Kabir. What type of trader is Mr. Kabir?",
+    "options": {
+      "A": "Wholesaler",
+      "B": "Retailer",
+      "C": "Agent trader",
+      "D": "Regional trader"
+    },
+    "answer": "A",
+    "explanation": "Mr. Ruman (a retailer) purchases products in small quantities from Mr. Kabir. This means Mr. Kabir is a wholesaler who sells products to retailers.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 268,
+    "question": "The characteristics of Kabir as a trader are- i. Large stock of products ii. High volume of buying and selling iii. Large-scale production",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Mr. Kabir is a wholesaler. The characteristics of a wholesaler are stocking a large quantity of products (i), a high volume of buying and selling (ii), and thereby helping the producer with large-scale production (iii).",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 269,
+    "question": "[Stimulus] Mr. Rezaul is the owner of a grocery store. Customers buy rice, pulses, oil, etc. from his store as needed... What type of business is Mr. Rezaul's?",
+    "options": {
+      "A": "Wholesale business",
+      "B": "Retail business",
+      "C": "Chain store",
+      "D": "Sales branch"
+    },
+    "answer": "B",
+    "explanation": "Customers purchase their needed products directly from Mr. Rezaul's store. This is a typical example of a retail business.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 270,
+    "question": "The reasons for Mr. Rezaul's high profit are- i. High unit price ii. No warehousing cost iii. Business with small capital",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "In retail trade, the unit profit is high because products are bought at wholesale prices and sold at higher prices (i), and since the shop is small, there is no warehousing cost (ii), increasing profit. Small capital (iii) is not a reason for increased profit.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 271,
+    "question": "[Stimulus] Mr. Polash runs a baby food business in Mohammadpur, Dhaka... he sells products in small lots to various traders. What type of intermediary is Mr. Polash?",
+    "options": {
+      "A": "Retailer",
+      "B": "Wholesaler",
+      "C": "Broker",
+      "D": "Peddler"
+    },
+    "answer": "B",
+    "explanation": "Mr. Polash buys large quantities of products from agents and sells them to retailers in small lots. This activity is characteristic of wholesale trade.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 272,
+    "question": "The type of service Mr. Polash provides to retailers is- i. Product splitting ii. Product transportation iii. Product warehousing",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "As a wholesaler, Mr. Polash splits large lots into small lots (i), transports products to retailers (ii), and stocks necessary products in advance (iii), providing warehousing facilities.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 273,
+    "question": "[Stimulus] Mr. Karim Hawlader buys lychees from Chapainawabganj and supplies them to Dhaka... What type of business is Mr. Hawlader's?",
+    "options": {
+      "A": "Producer business",
+      "B": "Retail business",
+      "C": "Wholesale business",
+      "D": "Cooperative business"
+    },
+    "answer": "C",
+    "explanation": "Mr. Hawlader buys fruit from the production area, supplies it to a different market, and consumers buy from him. This is part of wholesale trade.",
+    "source": "Production Management & Marketing, Chapter-7"
+  },
+  {
+    "id": 274,
+    "question": "In Mr. Hawlader's business, compared to wholesale trade, the aspects more needed are- i. Product pricing ii. Hiring skilled salespeople iii. Standardization and grading",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "In the fresh fruit business, correct product pricing (i) and hiring skilled salespeople (ii) are very urgent to attract customers quickly and due to the lack of storage. Standardization (iii) is used less in the retail sale of agricultural products compared to wholesale.",
+    "source": "Production Management & Marketing, Chapter-7"
+  }
+]

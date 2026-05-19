@@ -1,0 +1,1406 @@
+﻿[
+    {
+        "id":  51,
+        "question":  "At the end of which era did Bhumidas and their family members become unemployed?",
+        "options":  {
+                        "A":  "Feudal Age",
+                        "B":  "Slave age",
+                        "C":  "Capitalist era",
+                        "D":  "Middle Ages"
+                    },
+        "answer":  "A",
+        "explanation":  "With the end of the feudal era, Bhumidas and their family members became unemployed. With the fall of feudalism came the abolition of serfdom.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  52,
+        "question":  "In which period did the problem of poverty become evident in the context of different socio-economic conditions in England?",
+        "options":  {
+                        "A":  "In the pre-industrial era",
+                        "B":  "In the industrial age",
+                        "C":  "In the modern era",
+                        "D":  "In primitive times"
+                    },
+        "answer":  "B",
+        "explanation":  "The problem of poverty became evident in England during the Industrial Age. The economic inequality created by the Industrial Revolution exacerbated poverty.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  53,
+        "question":  "What percentage of England died in the plague of 1348 AD?",
+        "options":  {
+                        "A":  "One-third",
+                        "B":  "One-fourth",
+                        "C":  "Two-thirds",
+                        "D":  "One-fifth"
+                    },
+        "answer":  "A",
+        "explanation":  "One-third of England\u0027s population died in 1348 AD (Black Death). It was an epidemic of plague.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  54,
+        "question":  "How was the law recognized by the government of England for the poor and destitute?",
+        "options":  {
+                        "A":  "Through the Poor Law",
+                        "B":  "Through the Children Act",
+                        "C":  "Through social legislation",
+                        "D":  "Through the Drug Control Act"
+                    },
+        "answer":  "A",
+        "explanation":  "Government of England recognized the law for the poor and destitute through the Poor Law. It was the first government law for the poor.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  55,
+        "question":  "In England, in what AD was a law passed to regulate the working hours and wages of workers and to increase technical skills in an apprenticeship system?",
+        "options":  {
+                        "A":  "1562 AD",
+                        "B":  "1563 AD",
+                        "C":  "In 1564 AD",
+                        "D":  "1565 AD"
+                    },
+        "answer":  "A",
+        "explanation":  "The Statute of Artificers was enacted in England in 1562 to increase the working hours, wages and technical skills of workers.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  56,
+        "question":  "Plague became known as \u0027Black Death\u0027 as ​​a national disaster in 1348 AD in which country?",
+        "options":  {
+                        "A":  "France",
+                        "B":  "Malta",
+                        "C":  "Italy",
+                        "D":  "England"
+                    },
+        "answer":  "D",
+        "explanation":  "Plague became known as \u0027Black Death\u0027 in England in 1348 AD. This epidemic is one of the worst disasters in the history of England.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  57,
+        "question":  "Why did the laws enacted from 1349-1597 AD end in failure?",
+        "options":  {
+                        "A":  "Negligence of Govt",
+                        "B":  "Due to hateful attitude of certain classes",
+                        "C":  "Due to natural calamities",
+                        "D":  "As a result of abuse of law"
+                    },
+        "answer":  "B",
+        "explanation":  "The laws enacted from 1349-1597 AD ended in failure due to the hateful views of certain classes. The upper classes of the society were not sympathetic towards the poor.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  58,
+        "question":  "Poor Law refers to- i. Acts enacted for the welfare of beggars, vagabonds and destitutes ii. Legislation to create employment for unemployed, idle and underprivileged classes iii. Legislation providing for assistance, employment and, where necessary, penal provisions for classifying the poor",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Poor Law refers to three aspects. It is an Act to provide assistance to the welfare of beggars and destitutes, employment of the unemployed and classification of the poor.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  59,
+        "question":  "Laws enacted between 1349-1597 AD were- i. To prevent begging ii. Development of laborers and vagabonds iii. In eliminating terrorism",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "A",
+        "explanation":  "Acts were enacted to curb begging and promote laborers and vagabonds. It was not intended to eradicate terrorism.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  60,
+        "question":  "Queen Elizabeth I of England enacted laws- i. To eradicate poverty ii. To prevent begging iii. As an effort to eradicate illiteracy",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "A",
+        "explanation":  "Queen Elizabeth I enacted laws to eradicate poverty and prevent begging. Eradication of illiteracy was not its aim.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  61,
+        "question":  "[Encouraging] The government of the country called the City of Peace emphasizes reducing the poverty rate to bring peace to the country. For this purpose he formulated a regulatory law. Which of the following individuals represents the stimulus government?",
+        "options":  {
+                        "A":  "Queen Elizabeth I",
+                        "B":  "John Major",
+                        "C":  "Margaret Thatcher",
+                        "D":  "King Henry VIII"
+                    },
+        "answer":  "A",
+        "explanation":  "Government of stimulus represented by Queen Elizabeth I. He was the first to enact regulative laws to alleviate poverty.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  62,
+        "question":  "As a result of the legislation of this person- i. Welfare of the poor is done ii. Increases scope of social service work iii. Social security is created",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Queen Elizabeth\u0027s legislation led to welfare of the poor, increased scope of social work and social security. All three results are correct.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  63,
+        "question":  "Which law is considered to be the foundation of modern and professional social work in the present world?",
+        "options":  {
+                        "A":  "Poor Law 1601",
+                        "B":  "Poor Reform Act 1834",
+                        "C":  "Labor Investment Act, 1909 AD",
+                        "D":  "Unemployment Act 1934"
+                    },
+        "answer":  "A",
+        "explanation":  "The Elizabethan Poor Law of 1601 is considered the foundation of modern and professional social work in the present world.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  64,
+        "question":  "In which year was the Poor Law of 1601 AD reformed?",
+        "options":  {
+                        "A":  "1834",
+                        "B":  "1942",
+                        "C":  "1945",
+                        "D":  "1948"
+                    },
+        "answer":  "A",
+        "explanation":  "The Poor Law of 1601 was reformed in 1834. This is known as the Poor Reform Act 1834.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  65,
+        "question":  "According to the Poor Law of 1601 AD, who collected information about the socio-economic status of the poor?",
+        "options":  {
+                        "A":  "Popes",
+                        "B":  "Soldiers",
+                        "C":  "Magistrates",
+                        "D":  "Overseers"
+                    },
+        "answer":  "D",
+        "explanation":  "According to the Poor Law of 1601, Overseers used to collect information about the socio-economic condition of the relief poor.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  66,
+        "question":  "What measures were taken in the Elizabethan Poor Law to rehabilitate disabled paupers?",
+        "options":  {
+                        "A":  "Labor",
+                        "B":  "Poverty",
+                        "C":  "External help",
+                        "D":  "Provision of low cost sustenance"
+                    },
+        "answer":  "D",
+        "explanation":  "The Elizabethan Poor Law provided for low-cost maintenance for the disabled poor. This was an important provision for the poor.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  67,
+        "question":  "Who was helped by the overseer?",
+        "options":  {
+                        "A":  "The able poor",
+                        "B":  "The middle class",
+                        "C":  "The disabled poor",
+                        "D":  "Dependent children"
+                    },
+        "answer":  "C",
+        "explanation":  "The disabled poor were helped through overseers. This system was for those who were unable to work.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  68,
+        "question":  "Sharmila is begging on the street with her blind father, healthy mother and parentless cousin Raina. In this incident, what features of the law made in England?",
+        "options":  {
+                        "A":  "Poor Law of 1601 AD",
+                        "B":  "Poor Reform Act of 1834",
+                        "C":  "Poor Law Commission of 1905 AD",
+                        "D":  "Social Security Act of 1942"
+                    },
+        "answer":  "A",
+        "explanation":  "In this incident the characteristics of the Poor Law of 1601 emerged. This Act provided for the relief of disabled poor and dependents.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  69,
+        "question":  "The Poor Reform Act of 1834 AD was enacted under which government?",
+        "options":  {
+                        "A":  "of Earl Grey\u0027s Liberal Government",
+                        "B":  "of the reign of Edward VIII",
+                        "C":  "of the reign of Henry III",
+                        "D":  "Elizabethan Democratic Government"
+                    },
+        "answer":  "A",
+        "explanation":  "The Poor Reform Act of 1834 was enacted under the Liberal government of Earl Grey.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  70,
+        "question":  "Who called the poor workhouse as a \u0027poor prison\u0027 in the Poor Law of 1834 AD?",
+        "options":  {
+                        "A":  "John Breed Sumner",
+                        "B":  "Edwin Chadwick",
+                        "C":  "Richard Ostler",
+                        "D":  "Karl Marx"
+                    },
+        "answer":  "C",
+        "explanation":  "Richard Oastler called the Poor Law Bastille in 1834 as the \u0027Poor Law Bastille\u0027.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  71,
+        "question":  "Which of the following laws plays a significant role in institutionalizing the social work profession and conducting social service activities?",
+        "options":  {
+                        "A":  "Poor Reform Act of 1834 AD",
+                        "B":  "National Economy Act of 1931 AD",
+                        "C":  "Unemployment Act of 1934 AD",
+                        "D":  "Labor Investment Act, 1909 AD"
+                    },
+        "answer":  "A",
+        "explanation":  "The Poor Reform Act of 1834 played an important role in institutionalizing the social work profession.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  72,
+        "question":  "Within how many years after the enactment of the Poor Reform Act 1834 in England, the expenditure on poor relief fell by one-third?",
+        "options":  {
+                        "A":  "One",
+                        "B":  "Two",
+                        "C":  "Three",
+                        "D":  "Four"
+                    },
+        "answer":  "C",
+        "explanation":  "Within three years of the enactment of the Poor Reform Act 1834 in England, expenditure on poor relief fell by one-third.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  73,
+        "question":  "When was the Outdoor Relief Regulation Order enacted?",
+        "options":  {
+                        "A":  "In 1851 AD",
+                        "B":  "In 1852 AD",
+                        "C":  "In 1853 AD",
+                        "D":  "in 1854 AD"
+                    },
+        "answer":  "B",
+        "explanation":  "Outdoor Relief Regulation Order was enacted in 1852 AD. It was to control outside aid to the poor.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  74,
+        "question":  "Why is the Poor Reform Act of 1834 called cruel?",
+        "options":  {
+                        "A":  "Because of the provision of torturing the poor in labor camps",
+                        "B":  "By stopping the begging of the poor",
+                        "C":  "Depriving the poor of their right to live socially",
+                        "D":  "As there is provision to kill the poor"
+                    },
+        "answer":  "A",
+        "explanation":  "The Poor Reform Act of 1834 was called brutal as it provided for the torture of the poor in the workhouse.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  75,
+        "question":  "Who wrote the book \u0027Oliver Twist\u0027?",
+        "options":  {
+                        "A":  "William Shakespeare",
+                        "B":  "Charles Dickens",
+                        "C":  "Thomas Moore",
+                        "D":  "Edwin Chadwick"
+                    },
+        "answer":  "B",
+        "explanation":  "Charles Dickens wrote the book \u0027Oliver Twist\u0027. This book depicts the cruelty of the Poor Law.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  76,
+        "question":  "\u0027Black Death\u0027 is- i. Plague deaths ii. Death due to industrial accident iii. Severe labor shortage",
+        "options":  {
+                        "A":  "i",
+                        "B":  "ii",
+                        "C":  "iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "A",
+        "explanation":  "\u0027Black Death\u0027 is death caused by plague. In 1348 it appeared in epidemic form in England.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  77,
+        "question":  "Lowest bidder is- i. Taking responsibility for dependent children of relatives ii. Taking charge of dependent boys and girls at low cost iii. Taking charge of dependent boys and girls free of charge",
+        "options":  {
+                        "A":  "i",
+                        "B":  "ii",
+                        "C":  "iii",
+                        "D":  "ii and iii"
+                    },
+        "answer":  "B",
+        "explanation":  "Lowest bidder is the system of taking responsibility of dependent boys and girls at low cost.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  78,
+        "question":  "The main objectives of the Royal Commission of 1832 AD were- i. Enhancing the effectiveness of existing laws ii. Investigation of administrative weaknesses in implementation of laws iii. Taking various programs to implement the law",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "The main objectives of the Royal Commission were to improve the effectiveness of the existing laws, to find out administrative weaknesses and to undertake programs to implement the laws. All three goals are correct.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  79,
+        "question":  "Under the Poor Reform Act 1834 various preventive measures were developed- i. Built about two hundred factories ii. Through development of medical system iii. Through poverty reform",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "A",
+        "explanation":  "The immune system was improved by building about two hundred factories and improving the medical system.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  80,
+        "question":  "The Poor Law of 1834 AD was mainly created by- i. In view of the strong opposition and dissatisfaction with the Poor Law ii. iii. By the Royal Commission subject to inquiry into the practicality of the administration and enforcement of the Poor Law. Following the recommendations of the Committee of Nassau W Senior and Edwin Chadwick",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "The Poor Law of 1834 was created for three reasons. Opposition, royal commission inquiries and expert committee recommendations—all worked behind it.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  81,
+        "question":  "Act of 1834 A.D. followed in application of- i. Low merit policy ii. Principles of labor testing iii. Decentralization principle in regulation",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "The Act of 1834 followed the principle of minimum qualification, the principle of labor testing and the principle of decentralization—all three.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  82,
+        "question":  "[Stimulus] A law was enacted during the reign of Queen Elizabeth I to control the poverty problem in pre-industrial England. In this act, effective steps are taken to solve the immediate economic and housing problems of the poor people. Does the stimulus have any legal indications?",
+        "options":  {
+                        "A":  "Poor Law of 1601 AD",
+                        "B":  "Poor Law of 1834 AD",
+                        "C":  "Poor Act of 1905",
+                        "D":  "Poor Act of 1942"
+                    },
+        "answer":  "A",
+        "explanation":  "Uddip has an allusion to the Poor Law of 1601. This law was enacted during the reign of Queen Elizabeth.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  83,
+        "question":  "According to the law of incentives the main provisions are- i. Conducting relief activities among the poor at the local level ii. Paying the parish\u0027s own poor tax by every person in the parish iii. Segmentation of the poor to facilitate relief",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "The main provisions of the Act of 1601 were local relief schemes, parish poor taxes and apportionment of the poor. All three provisions are correct.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  84,
+        "question":  "In the recommendations of the Poor Law Commission of 1905, the administration of local aid and agencies was divided into how many regions?",
+        "options":  {
+                        "A":  "2",
+                        "B":  "3",
+                        "C":  "4",
+                        "D":  "5"
+                    },
+        "answer":  "C",
+        "explanation":  "Local administrations were divided into 4 zones on the recommendations of the Poor Law Commission of 1905.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  85,
+        "question":  "What was done in the Food Act of 1906?",
+        "options":  {
+                        "A":  "Free food distribution",
+                        "B":  "Distribution of free food to primary school students",
+                        "C":  "Distribution of food in exchange for work",
+                        "D":  "Free food distribution to senior citizens"
+                    },
+        "answer":  "B",
+        "explanation":  "The Food Act of 1906 provided for the distribution of free food to primary school students.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  86,
+        "question":  "In which year old age pension act was passed for social security of old age in light of education act of 1907?",
+        "options":  {
+                        "A":  "in 1907",
+                        "B":  "in 1908",
+                        "C":  "in 1909",
+                        "D":  "in 1911"
+                    },
+        "answer":  "B",
+        "explanation":  "The Old Age Pension Act was passed in 1908.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  87,
+        "question":  "What initiative was taken in the Labor Exchange Act of 1909 instead of keeping the disabled poor in poorhouses?",
+        "options":  {
+                        "A":  "To be kept in labor camps",
+                        "B":  "Payment of pension",
+                        "C":  "To keep in ashram",
+                        "D":  "Rehabilitation"
+                    },
+        "answer":  "B",
+        "explanation":  "In the Labor Exchange Act of 1909 initiative was taken to provide pension to the disabled poor.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  88,
+        "question":  "Which law provides unemployment assistance to unemployed workers and those not covered by unemployment insurance?",
+        "options":  {
+                        "A":  "Exchange of Labor Act 1909",
+                        "B":  "National Insurance Act 1911",
+                        "C":  "Widows, Orphans and Old Age Pension Act 1925",
+                        "D":  "National Economy Act 1931"
+                    },
+        "answer":  "D",
+        "explanation":  "The National Economy Act 1931 (National Economy Act) introduced the system of providing unemployment benefits.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  89,
+        "question":  "Who identified lack of income as the root cause of problems in industrialized societies?",
+        "options":  {
+                        "A":  "King Edward III",
+                        "B":  "Henry VIII",
+                        "C":  "Lord George Hamilton",
+                        "D":  "William Beveridge"
+                    },
+        "answer":  "D",
+        "explanation":  "William Beveridge identifies unemployment as the root cause of problems in industrialized societies. He produced the Beveridge Report.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  90,
+        "question":  "Recognized as the ideal model of social security program in England-",
+        "options":  {
+                        "A":  "Poor Law of 1601 AD",
+                        "B":  "Poor Law Commission of 1905",
+                        "C":  "Beveridge Report",
+                        "D":  "Donation Organization Association"
+                    },
+        "answer":  "C",
+        "explanation":  "The Beveridge Report is recognized as the standard model for social security programs in England.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  91,
+        "question":  "How many giants does Beveridge mention as the main obstacle to progress in human society?",
+        "options":  {
+                        "A":  "Three",
+                        "B":  "Four",
+                        "C":  "Five",
+                        "D":  "Six"
+                    },
+        "answer":  "C",
+        "explanation":  "Beveridge identified five giants as the main obstacles to progress in human society: scarcity, disease, ignorance, pollution and laziness.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  92,
+        "question":  "When did the social laws enacted on the basis of the Beveridge Report, other than the Family Allowance Scheme, come into force?",
+        "options":  {
+                        "A":  "1 January 1947",
+                        "B":  "1 August 1946",
+                        "C":  "5 July 1948",
+                        "D":  "5 November 1948"
+                    },
+        "answer":  "C",
+        "explanation":  "Programs other than family allowance were introduced on 5 July 1948.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  93,
+        "question":  "According to Beveridge Report, what percentage of disabled people were employed under the then Labor Act?",
+        "options":  {
+                        "A":  "2%",
+                        "B":  "3%",
+                        "C":  "4%",
+                        "D":  "5%"
+                    },
+        "answer":  "B",
+        "explanation":  "As per Beveridge Report guidelines 3% of disabled persons are provided for employment.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  94,
+        "question":  "Since when government aid programs are effective?",
+        "options":  {
+                        "A":  "1 July 1948",
+                        "B":  "5 July 1948",
+                        "C":  "1 August 1948",
+                        "D":  "5 August 1948"
+                    },
+        "answer":  "B",
+        "explanation":  "From 5th July 1948 the Government Aid Program came into effect.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  95,
+        "question":  "How many Regional Offices of National Aid Board are functional in Government Aid Programme?",
+        "options":  {
+                        "A":  "9",
+                        "B":  "10",
+                        "C":  "11",
+                        "D":  "12"
+                    },
+        "answer":  "C",
+        "explanation":  "National Aid Board has 11 regional offices functioning.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  96,
+        "question":  "The National Insurance Act of 1911 provided for the payment of health insurance to workers- i. By government grant ii. By subscription of workers iii. Through donations from various aid agencies",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "The National Insurance Act was funded from three sources – government grants, workers\u0027 contributions and grants from aid agencies.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  97,
+        "question":  "The social laws which are made based on the recommendations of the Poor Law Commission are- i. Food Act of 1906 ii. Education Act of 1907 iii. The Old Age Pension Act of 1908",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Food Act of 1906, Education Act of 1907 and Pension Act of 1908 were enacted based on the recommendations of the Poor Law Commission.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  98,
+        "question":  "The Poor Commission Act of 1905 brought far-reaching changes in social welfare- i. Legislates to solve social problems ii. Ensures social security iii. By contributing to the enrichment of the national economy",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "The Poor Commission Act of 1905 brought far-reaching changes in all three areas.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  99,
+        "question":  "[Stimulus] Social uncertainty arose after the Second World War in a country called \u0027A\u0027. In 1942, the social security program was started in \u0027A\u0027 country to solve the said problem. Country \u0027A\u0027 described to Uddeep refers to which of the following countries?",
+        "options":  {
+                        "A":  "America",
+                        "B":  "Australia",
+                        "C":  "Sri Lanka",
+                        "D":  "England"
+                    },
+        "answer":  "D",
+        "explanation":  "The country \u0027A\u0027 referred to Uddeep refers to England. In 1942, the social security program was started in England by the Beveridge Report.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  100,
+        "question":  "Effectiveness of the said programme- i. Will be helpful in occupational safety of workers ii. Will financially benefit a number of families iii. Depriving people of good healthcare",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "A",
+        "explanation":  "Social security programs provide occupational security to workers and financial benefits to families. It will not deprive people of good healthcare.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  101,
+        "question":  "At the end of which era did Bhumidas and their family members become unemployed?",
+        "options":  {
+                        "A":  "Feudal Age",
+                        "B":  "The Slave Age",
+                        "C":  "Capitalist era",
+                        "D":  "Middle Ages"
+                    },
+        "answer":  "A",
+        "explanation":  "Bhumidas and their family members became jobless when the feudal era ended. With the fall of feudalism came the abolition of serfdom.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  102,
+        "question":  "During which period did the problem of poverty become evident in the context of different socio-economic conditions in England?",
+        "options":  {
+                        "A":  "In the pre-industrial era",
+                        "B":  "In the industrial age",
+                        "C":  "In modern times",
+                        "D":  "In primitive times"
+                    },
+        "answer":  "B",
+        "explanation":  "The problem of poverty became more pronounced in England during the Industrial Age. The economic inequality created by the Industrial Revolution exacerbated poverty.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  103,
+        "question":  "What percentage of England died in the plague of 1348 AD?",
+        "options":  {
+                        "A":  "One-third",
+                        "B":  "One-fourth",
+                        "C":  "Two-thirds",
+                        "D":  "One-fifth"
+                    },
+        "answer":  "A",
+        "explanation":  "One-third of the people of England died in the Black Death of 1348 AD. It was an epidemic of plague.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  104,
+        "question":  "How was the law recognized by the government of England for the poor and destitute?",
+        "options":  {
+                        "A":  "Through the Poor Law",
+                        "B":  "through the Children Act",
+                        "C":  "through social legislation",
+                        "D":  "Through the Narcotics Control Act"
+                    },
+        "answer":  "A",
+        "explanation":  "Government of England recognized laws for the poor and destitute through the Poor Law. It was the first government law for the poor.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  105,
+        "question":  "In what AD was a law enacted in England to regulate the working hours and wages of workers and to increase technical skills in an apprenticeship system?",
+        "options":  {
+                        "A":  "in 1562 AD",
+                        "B":  "in 1563 AD",
+                        "C":  "in 1564 AD",
+                        "D":  "in 1565 AD"
+                    },
+        "answer":  "A",
+        "explanation":  "In 1562, the Statute of Artificers was enacted in England to increase working hours, wages and technical skills of workers.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  106,
+        "question":  "Plague became known as \u0027Black Death\u0027 as ​​a national disaster in 1348 AD in which country?",
+        "options":  {
+                        "A":  "France",
+                        "B":  "Malta",
+                        "C":  "Italy",
+                        "D":  "England"
+                    },
+        "answer":  "D",
+        "explanation":  "In 1348 AD in England the plague became known as \u0027Black Death\u0027. This epidemic is one of the worst disasters in the history of England.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  107,
+        "question":  "Why did the laws made from 1349-1597 AD end in failure?",
+        "options":  {
+                        "A":  "Negligence of Govt",
+                        "B":  "Because of the hateful attitude of certain classes",
+                        "C":  "Due to natural calamities",
+                        "D":  "resulting from abuse of law"
+                    },
+        "answer":  "B",
+        "explanation":  "The laws enacted from 1349-1597 AD ended in failure due to the hateful views of certain classes. The upper classes of the society were not sympathetic towards the poor.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  108,
+        "question":  "Poor Law refers to- i. Acts enacted for the welfare of beggars, vagabonds and destitutes ii. Legislation to create employment for unemployed, idle and underprivileged classes iii. Legislation providing for assistance, employment and, where necessary, penal provisions for classifying the poor",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Poor Law refers to three aspects. It is an Act to provide assistance to the welfare of beggars and destitutes, employment of the unemployed and classification of the poor.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  109,
+        "question":  "Laws enacted between 1349-1597 AD were- i. To prevent begging ii. Development of laborers and vagabonds iii. In eliminating terrorism",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "A",
+        "explanation":  "Acts were enacted to curb begging and promote labor and vagrants. It was not intended to eradicate terrorism.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  110,
+        "question":  "Queen Elizabeth I of England enacted laws- i. To eradicate poverty ii. To prevent begging iii. As an effort to eradicate illiteracy",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "A",
+        "explanation":  "Queen Elizabeth I enacted laws to alleviate poverty and prevent begging. Eradication of illiteracy was not its aim.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  111,
+        "question":  "[Stimulant] The government of the country called the City of Peace emphasizes reducing the poverty rate to bring peace to the country. For this purpose he formulated a regulatory law. Which of the following individuals represents the stimulus government?",
+        "options":  {
+                        "A":  "Queen Elizabeth I",
+                        "B":  "John Major",
+                        "C":  "Margaret Thatcher",
+                        "D":  "King Henry VIII"
+                    },
+        "answer":  "A",
+        "explanation":  "Government of stimulus represented by Queen Elizabeth I. He was the first to enact regulative laws to alleviate poverty.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  112,
+        "question":  "As a result of the legislation of this person- i. Welfare of the poor is done ii. Increases scope of social service work iii. Social security is created",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Queen Elizabeth\u0027s legislation led to welfare of the poor, expansion of social work and social security. All three results are correct.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  113,
+        "question":  "Which law is considered the foundation of modern and professional social work in the present world?",
+        "options":  {
+                        "A":  "Poor Law 1601",
+                        "B":  "Poor Reform Act 1834",
+                        "C":  "Labor Investment Act, 1909 AD",
+                        "D":  "Unemployment Act 1934"
+                    },
+        "answer":  "A",
+        "explanation":  "The Elizabethan Poor Law of 1601 is considered the foundation of modern and professional social work in the present world.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  114,
+        "question":  "In which year was the Poor Law of 1601 AD reformed?",
+        "options":  {
+                        "A":  "1834",
+                        "B":  "1942",
+                        "C":  "1945",
+                        "D":  "1948"
+                    },
+        "answer":  "A",
+        "explanation":  "The Poor Law of 1601 was reformed in 1834. This is known as the Poor Reform Act 1834.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  115,
+        "question":  "According to the Poor Law of 1601 AD, who collected information about the socio-economic condition of the poor?",
+        "options":  {
+                        "A":  "Popes",
+                        "B":  "Soldiers",
+                        "C":  "Magistrates",
+                        "D":  "Overseers"
+                    },
+        "answer":  "D",
+        "explanation":  "Under the Poor Law of 1601, Overseers collected information about the socio-economic status of the relief poor.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  116,
+        "question":  "What measures were taken in the Elizabethan Poor Law to rehabilitate disabled paupers?",
+        "options":  {
+                        "A":  "Labor",
+                        "B":  "Poverty",
+                        "C":  "External aid",
+                        "D":  "Provision of low cost sustenance"
+                    },
+        "answer":  "D",
+        "explanation":  "The Elizabethan Poor Law provided for low-cost maintenance for the disabled poor. This was an important provision for the poor.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  117,
+        "question":  "Who was helped by overseer?",
+        "options":  {
+                        "A":  "of the able poor",
+                        "B":  "Middle class",
+                        "C":  "The disabled poor",
+                        "D":  "Dependent children"
+                    },
+        "answer":  "C",
+        "explanation":  "The disabled poor were helped through overseers. This system was for those who were unable to work.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  118,
+        "question":  "Sharmila is begging on the street with her blind father, healthy mother and parentless cousin Raina. In this incident, what features of the law made in England?",
+        "options":  {
+                        "A":  "Poor Law of 1601 AD",
+                        "B":  "Poor Reform Act of 1834",
+                        "C":  "Poor Law Commission of 1905 AD",
+                        "D":  "Social Security Act of 1942"
+                    },
+        "answer":  "A",
+        "explanation":  "In this incident the characteristics of the Poor Law of 1601 emerge. This Act provided for the relief of disabled poor and dependents.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  119,
+        "question":  "The Poor Reform Act of 1834 AD was enacted under which government?",
+        "options":  {
+                        "A":  "of Earl Grey\u0027s Liberal Government",
+                        "B":  "of the reign of Edward VIII",
+                        "C":  "of the reign of Henry III",
+                        "D":  "of Elizabethan democratic government"
+                    },
+        "answer":  "A",
+        "explanation":  "The Poor Reform Act of 1834 was enacted under the Liberal government of Earl Grey.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  120,
+        "question":  "Who termed the poorhouse as a \u0027poor prison\u0027 in the Poor Law of 1834 AD?",
+        "options":  {
+                        "A":  "John Breed Sumner",
+                        "B":  "Edwin Chadwick",
+                        "C":  "Richard Westler",
+                        "D":  "Karl Marx"
+                    },
+        "answer":  "C",
+        "explanation":  "Richard Westler called the Poor Law Bastille in 1834 as the \u0027Poor Law Bastille\u0027.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  121,
+        "question":  "Which of the following laws plays a significant role in institutionalizing the social work profession and conducting social service activities?",
+        "options":  {
+                        "A":  "Poor Reform Act of 1834 AD",
+                        "B":  "National Economy Act of 1931 AD",
+                        "C":  "Unemployment Act of 1934 AD",
+                        "D":  "Labor Investment Act, 1909 AD"
+                    },
+        "answer":  "A",
+        "explanation":  "The Poor Reform Act of 1834 played an important role in institutionalizing the social work profession.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  122,
+        "question":  "Within how many years after the enactment of the Poor Reform Act 1834 in England, the expenditure on poor relief fell by one-third?",
+        "options":  {
+                        "A":  "One",
+                        "B":  "Two",
+                        "C":  "Three",
+                        "D":  "Four"
+                    },
+        "answer":  "C",
+        "explanation":  "In England, within three years of the enactment of the Poor Reform Act 1834, expenditure on poor relief fell by one-third.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  123,
+        "question":  "When was the Outdoor Relief Regulation Order enacted?",
+        "options":  {
+                        "A":  "in 1851 AD",
+                        "B":  "in 1852 AD",
+                        "C":  "in 1853 AD",
+                        "D":  "in 1854 AD"
+                    },
+        "answer":  "B",
+        "explanation":  "Outdoor Relief Regulation Order was enacted in 1852 AD. It was to control outside aid to the poor.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  124,
+        "question":  "Why is the Poor Reform Act of 1834 called cruel?",
+        "options":  {
+                        "A":  "Because of the provision of torturing the poor in labor camps",
+                        "B":  "By stopping the begging of the poor",
+                        "C":  "Depriving the poor of their right to live socially",
+                        "D":  "As there is provision to kill the poor"
+                    },
+        "answer":  "A",
+        "explanation":  "The Poor Reform Act of 1834 was called brutal as it provided for the torture of the poor in the workhouse.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  125,
+        "question":  "Who wrote the book \u0027Oliver Twist\u0027?",
+        "options":  {
+                        "A":  "William Shakespeare",
+                        "B":  "Charles Dickens",
+                        "C":  "Thomas Moore",
+                        "D":  "Edwin Chadwick"
+                    },
+        "answer":  "B",
+        "explanation":  "Charles Dickens wrote the book \u0027Oliver Twist\u0027. This book depicts the cruelty of the Poor Law.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  126,
+        "question":  "\u0027Black Death\u0027 is- i. Plague deaths ii. Death due to industrial accident iii. Severe labor shortage",
+        "options":  {
+                        "A":  "i",
+                        "B":  "ii",
+                        "C":  "iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "A",
+        "explanation":  "\u0027Black Death\u0027 is death caused by plague. In 1348 it appeared in epidemic form in England.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  127,
+        "question":  "Lowest bidder is- i. Taking responsibility for dependent children of relatives ii. Taking charge of dependent boys and girls at low cost iii. Taking charge of dependent boys and girls free of charge",
+        "options":  {
+                        "A":  "i",
+                        "B":  "ii",
+                        "C":  "iii",
+                        "D":  "ii and iii"
+                    },
+        "answer":  "B",
+        "explanation":  "Lowest bidder is a system of taking responsibility for dependent boys and girls at low cost.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  128,
+        "question":  "The main objectives of the Royal Commission of 1832 AD were- i. Enhancing the effectiveness of existing laws ii. Investigation of administrative weaknesses in implementation of laws iii. Taking various programs to implement the law",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "The main objectives of the Royal Commission were to improve the effectiveness of the existing laws, to find out the administrative weaknesses and to undertake programs to implement the laws. All three goals are correct.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  129,
+        "question":  "Under the Poor Reform Act 1834 various preventive measures were developed- i. Built about two hundred factories ii. Through development of medical system iii. Through poverty reform",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "A",
+        "explanation":  "The immune system was improved by building about two hundred factories and improving the medical system.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  130,
+        "question":  "The Poor Law of 1834 AD was mainly created by- i. In view of the strong opposition and dissatisfaction with the Poor Law ii. iii. By the Royal Commission subject to inquiry into the practicality of the administration and enforcement of the Poor Law. Following the recommendations of the Committee of Nassau W Senior and Edwin Chadwick",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "The Poor Law of 1834 was created for three reasons. Opposition, royal commission inquiries and expert committee recommendations—all worked behind it.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  131,
+        "question":  "Act of 1834 A.D. followed in application of- i. Low merit policy ii. Principles of labor testing iii. Decentralization principle in regulation",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "The Act of 1834 followed the principle of minimum qualifications, the principle of labor testing and the principle of decentralization—all three.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  132,
+        "question":  "[Stimulus] A law was enacted during the reign of Queen Elizabeth I to control the poverty problem in pre-industrial England. In this act, effective steps are taken to solve the immediate economic and housing problems of the poor people. Does the stimulus have any legal indications?",
+        "options":  {
+                        "A":  "Poor Law of 1601 AD",
+                        "B":  "Poor Law of 1834 AD",
+                        "C":  "Poor Act of 1905",
+                        "D":  "Poor Act of 1942"
+                    },
+        "answer":  "A",
+        "explanation":  "Uddip has an allusion to the Poor Law of 1601. This law was enacted during the reign of Queen Elizabeth.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  133,
+        "question":  "According to the law of incentives the main provisions are- i. Conducting relief activities among the poor at the local level ii. Paying the parish\u0027s own poor tax by every person in the parish iii. Segmentation of the poor to facilitate relief",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "The main provisions of the Act of 1601 were local relief schemes, parish poor taxes and the apportionment of the poor. All three provisions are correct.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  134,
+        "question":  "In the recommendations of the Poor Law Commission of 1905, the administrations of local aid and agencies were divided into how many regions?",
+        "options":  {
+                        "A":  "2",
+                        "B":  "3",
+                        "C":  "4",
+                        "D":  "5"
+                    },
+        "answer":  "C",
+        "explanation":  "Local administrations were divided into 4 zones on the recommendations of the Poor Law Commission of 1905.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  135,
+        "question":  "What was done in the Food Act of 1906?",
+        "options":  {
+                        "A":  "Free food distribution",
+                        "B":  "Distribution of free food to primary school students",
+                        "C":  "Distribution of food in exchange for work",
+                        "D":  "Free food distribution to senior citizens"
+                    },
+        "answer":  "B",
+        "explanation":  "The Food Act of 1906 provided for the distribution of free food to primary school students.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  136,
+        "question":  "In which year old age pension act was passed for social security of old age in light of education act of 1907?",
+        "options":  {
+                        "A":  "in 1907",
+                        "B":  "in 1908",
+                        "C":  "in 1909",
+                        "D":  "in 1911"
+                    },
+        "answer":  "B",
+        "explanation":  "The Old Age Pension Act was passed in 1908.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  137,
+        "question":  "What initiative was taken in the Labor Exchange Act of 1909 instead of keeping the disabled poor in poorhouses?",
+        "options":  {
+                        "A":  "To be kept in labor camps",
+                        "B":  "Payment of pension",
+                        "C":  "to keep in ashram",
+                        "D":  "Rehabilitation"
+                    },
+        "answer":  "B",
+        "explanation":  "In the Labor Exchange Act of 1909, initiatives were taken to provide pensions to the disabled poor.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  138,
+        "question":  "Which law provides unemployment assistance to unemployed workers and those without unemployment insurance?",
+        "options":  {
+                        "A":  "Exchange of Labor Act 1909",
+                        "B":  "National Insurance Act 1911",
+                        "C":  "Widows, Orphans and Old Age Pension Act 1925",
+                        "D":  "National Economy Act 1931"
+                    },
+        "answer":  "D",
+        "explanation":  "The National Economy Act 1931 (National Economy Act) introduced the system of providing unemployment benefits.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  139,
+        "question":  "Who identified lack of income as the root cause of problems in industrialized societies?",
+        "options":  {
+                        "A":  "King Edward III",
+                        "B":  "Henry VIII",
+                        "C":  "Lord George Hamilton",
+                        "D":  "William Beveridge"
+                    },
+        "answer":  "D",
+        "explanation":  "William Beveridge identified unemployment as the root cause of problems in industrialized societies. He produced the Beveridge Report.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  140,
+        "question":  "Recognized as the ideal model of social security program in England-",
+        "options":  {
+                        "A":  "Poor Law of 1601 AD",
+                        "B":  "Poor Law Commission of 1905",
+                        "C":  "Beveridge Report",
+                        "D":  "Donation Organization Association"
+                    },
+        "answer":  "C",
+        "explanation":  "The Beveridge Report is recognized as the standard model for social security programs in England.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  141,
+        "question":  "How many giants does Beveridge mention as the main obstacle to progress in human society?",
+        "options":  {
+                        "A":  "Three",
+                        "B":  "Four",
+                        "C":  "five",
+                        "D":  "six"
+                    },
+        "answer":  "C",
+        "explanation":  "Beveridge identified five giants as the main obstacles to progress in human society: scarcity, disease, ignorance, pollution and laziness.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  142,
+        "question":  "When did the Social Acts enacted on the basis of the Beveridge Report, other than the Family Allowance Scheme, come into force?",
+        "options":  {
+                        "A":  "1 January 1947",
+                        "B":  "1 August 1946",
+                        "C":  "5 July 1948",
+                        "D":  "5 November 1948"
+                    },
+        "answer":  "C",
+        "explanation":  "Programs other than family allowance were introduced on 5 July 1948.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  143,
+        "question":  "According to the guidelines of Beveridge Report, what percentage of disabled people are employed based on the then labor laws?",
+        "options":  {
+                        "A":  "2%",
+                        "B":  "3%",
+                        "C":  "4%",
+                        "D":  "5%"
+                    },
+        "answer":  "B",
+        "explanation":  "According to Beveridge report, 3% disabled people are employed.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  144,
+        "question":  "Since when government aid program is effective?",
+        "options":  {
+                        "A":  "1 July 1948",
+                        "B":  "5 July 1948",
+                        "C":  "1 August 1948",
+                        "D":  "5 August 1948"
+                    },
+        "answer":  "B",
+        "explanation":  "From 5 July 1948, the Government Assistance Program came into effect.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  145,
+        "question":  "How many Regional Offices of National Aid Board are functional in Government Aid Programme?",
+        "options":  {
+                        "A":  "9",
+                        "B":  "10",
+                        "C":  "11",
+                        "D":  "12"
+                    },
+        "answer":  "C",
+        "explanation":  "National Aid Board has 11 regional offices functioning.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  146,
+        "question":  "The National Insurance Act of 1911 provided for workers\u0027 health insurance fund- i. By government grant ii. By subscription of workers iii. Through donations from various aid agencies",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "The National Insurance Act provided funding from three sources—government grants, workers\u0027 contributions and grants from aid agencies.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  147,
+        "question":  "The social laws which are made based on the recommendations of the Poor Law Commission are- i. Food Act of 1906 ii. Education Act of 1907 iii. The Old Age Pension Act of 1908",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "The Food Act of 1906, the Education Act of 1907 and the Pension Act of 1908 were enacted on the recommendations of the Poor Law Commission.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  148,
+        "question":  "The Poor Commission Act of 1905 brought far-reaching changes in social welfare- i. Legislates to solve social problems ii. Ensures social security iii. By contributing to the enrichment of the national economy",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "The Poor Commission Act of 1905 brought far-reaching changes in all three areas.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  149,
+        "question":  "[Stimulus] Social uncertainty arose after the Second World War in a country called \u0027A\u0027. In 1942, the social security program was started in \u0027A\u0027 country to solve the said problem. Country \u0027A\u0027 described to Uddeep refers to which of the following countries?",
+        "options":  {
+                        "A":  "America",
+                        "B":  "Australia",
+                        "C":  "Sri Lanka",
+                        "D":  "England"
+                    },
+        "answer":  "D",
+        "explanation":  "Ascribed to Uddeep, the country \u0027A\u0027 refers to England. In 1942, the social security program was started in England by the Beveridge Report.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  150,
+        "question":  "Effectiveness of the said programme- i. Will be helpful in occupational safety of workers ii. Will financially benefit a number of families iii. Depriving people of good healthcare",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "A",
+        "explanation":  "Social security programs provide occupational security to workers and financial benefits to families. It will not deprive people of good healthcare.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  151,
+        "question":  "Which condition of human life is termed as an undesirable yet inevitable and inviolable aspect?",
+        "options":  {
+                        "A":  "Poverty status",
+                        "B":  "In childhood",
+                        "C":  "to the elderly",
+                        "D":  "Youth Tomorrow"
+                    },
+        "answer":  "C",
+        "explanation":  "Seniority is inevitable and inviolable. Everyone has to grow old at some point.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  152,
+        "question":  "According to United Nations, elderly are those whose age- [Samsul Haque Khan School and College, Dhaka]",
+        "options":  {
+                        "A":  "Above 55 years",
+                        "B":  "Above 60 years",
+                        "C":  "Above 65 years",
+                        "D":  "Above 70 years"
+                    },
+        "answer":  "B",
+        "explanation":  "People above 60 years of age are elderly according to the United Nations.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  153,
+        "question":  "Senior welfare programs are mostly taken up for whom?",
+        "options":  {
+                        "A":  "for private retired officers",
+                        "B":  "for Government Retired Officers",
+                        "C":  "for higher officials",
+                        "D":  "for retired male officers"
+                    },
+        "answer":  "A",
+        "explanation":  "Most of the programs are taken up for private retired officers.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  154,
+        "question":  "What kind of traditions provide security to the elderly in the family?",
+        "options":  {
+                        "A":  "religious",
+                        "B":  "economic",
+                        "C":  "Social",
+                        "D":  "political"
+                    },
+        "answer":  "C",
+        "explanation":  "Providing security to elders by family is a social tradition.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  155,
+        "question":  "Many times seniors cause problems for what reason?",
+        "options":  {
+                        "A":  "Because of knowing more",
+                        "B":  "due to values",
+                        "C":  "due to less known",
+                        "D":  "Due to not knowing"
+                    },
+        "answer":  "C",
+        "explanation":  "Elders often cause problems due to lack of knowledge or ignorance.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  156,
+        "question":  "A social worker can help an elderly person- i. Through intervention process ii. Makes them aware through meetings, seminars iii. By changing their values",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "There are three ways in which social workers can help the elderly.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  157,
+        "question":  "[Stimulative] A Rahman Sahib retired from government service... Which branch of social work is related to Rahman Sahib\u0027s present condition?",
+        "options":  {
+                        "A":  "Industrial social work",
+                        "B":  "School social work",
+                        "C":  "Senior Welfare Social Work",
+                        "D":  "Medical social work"
+                    },
+        "answer":  "C",
+        "explanation":  "Improving the quality of life of senior citizens is part of senior welfare social work.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    },
+    {
+        "id":  158,
+        "question":  "Rahman Sahib mentioned in Uddeep belongs to the elderly population. In all countries special importance is given to the welfare of such elders. Reasons- i. They are the most vulnerable population ii. They are a burden to society iii. They suffer from multifaceted problems",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "B",
+        "explanation":  "The elderly are at risk and suffer from multifaceted problems. They are not a burden to society.",
+        "source":  "সমাজকর্ম, অধ্যায়-২"
+    }
+]

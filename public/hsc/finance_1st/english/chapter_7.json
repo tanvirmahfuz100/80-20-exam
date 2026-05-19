@@ -1,0 +1,600 @@
+[
+  {
+    "id": 230,
+    "question": "What is the optimal capital structure?",
+    "options": {
+      "A": "The firm's maximum value",
+      "B": "The firm's minimum cost",
+      "C": "The firm's maximum value and minimum cost",
+      "D": "The firm's minimum value and cost"
+    },
+    "answer": "C",
+    "explanation": "The optimal capital structure is the combination of debt and equity capital where the firm's value is maximized and the cost of capital is minimized.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 231,
+    "question": "The current market price of each share is Tk 1,000. The previous year's dividend per share is Tk 20. If the dividend growth rate is 10%, what will be the cost of common shares?",
+    "options": {
+      "A": "12.2%",
+      "B": "10%",
+      "C": "12%",
+      "D": "20%"
+    },
+    "answer": "A",
+    "explanation": "Ke = (D₁/P₀) + g = [20(1.10)/1000] + 0.10 = (22/1000) + 0.10 = 0.022 + 0.10 = 0.122 = 12.2%.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 232,
+    "question": "ABC Company's before-tax cost of debt capital is 10%. If the tax rate is 30%, what will be the after-tax cost of debt capital?",
+    "options": {
+      "A": "7%",
+      "B": "9%",
+      "C": "10%",
+      "D": "30%"
+    },
+    "answer": "A",
+    "explanation": "Kd (after tax) = Kd (before tax) × (1 - Tax rate) = 10% × (1 - 0.30) = 10% × 0.70 = 7%.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 233,
+    "question": "In a company's capital structure, the ratio of share and debt capital is equal. Common shareholders' expected dividend is 15% and debt interest is 13%. What is the average cost of capital?",
+    "options": {
+      "A": "12%",
+      "B": "10%",
+      "C": "14%",
+      "D": "28%"
+    },
+    "answer": "C",
+    "explanation": "WACC = (0.50 × 15%) + (0.50 × 13%) = 7.5% + 6.5% = 14%. For equal proportions, the average cost of capital is 14%.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 234,
+    "question": "Which source has the lowest cost?",
+    "options": {
+      "A": "Common share capital",
+      "B": "Preference share capital",
+      "C": "Retained earnings",
+      "D": "Debt capital"
+    },
+    "answer": "D",
+    "explanation": "The cost of debt capital is generally the lowest because it provides tax benefits and lenders expect lower returns due to lower risk.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 235,
+    "question": "What does flotation cost do to the cost of capital?",
+    "options": {
+      "A": "Affects it",
+      "B": "Does not affect it",
+      "C": "Remains fixed",
+      "D": "Capital increases"
+    },
+    "answer": "A",
+    "explanation": "Flotation cost affects the cost of capital. It is the cost of raising capital, which increases the cost of capital.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 236,
+    "question": "From many capital mixes, which one is selected?",
+    "options": {
+      "A": "The one with the highest cost",
+      "B": "The one with the lowest cost",
+      "C": "The one with equal cost",
+      "D": "The one with fixed cost"
+    },
+    "answer": "B",
+    "explanation": "From many capital mixes, the one with the lowest cost is selected. This is the optimal capital structure, which maximizes the firm's value.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 237,
+    "question": "Which is the regulatory body in the retained market?",
+    "options": {
+      "A": "Internal financing",
+      "B": "External financing",
+      "C": "Undistributed financing",
+      "D": "Personal financing"
+    },
+    "answer": "A",
+    "explanation": "Retained earnings or retained income is a source of internal financing. It is the company's own fund, which does not come from any external source.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 238,
+    "question": "The sum of weights must be how much?",
+    "options": {
+      "A": "Zero",
+      "B": "Half of one",
+      "C": "One",
+      "D": "More than one"
+    },
+    "answer": "C",
+    "explanation": "The sum of weights must be 1 or 100%. In WACC calculation, the sum of weights of all sources must equal 1.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 239,
+    "question": "Mr. Mamun is interested in buying some shares of Beximco Ltd. Currently, the market price of the share is Tk 130 and dividend per share is Tk 12. What will be the cost of common share capital?",
+    "options": {
+      "A": "10.25%",
+      "B": "9.15%",
+      "C": "9.23%",
+      "D": "8.59%"
+    },
+    "answer": "C",
+    "explanation": "Ke = D/P₀ = 12/130 = 0.0923 = 9.23%. (When there is no growth).",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 240,
+    "question": "Share price is Tk 500. Dividend growth rate is 10% and current dividend is Tk 20. What is the cost of common share capital?",
+    "options": {
+      "A": "14.4%",
+      "B": "20%",
+      "C": "50%",
+      "D": "16.5%"
+    },
+    "answer": "A",
+    "explanation": "Ke = (D₁/P₀) + g = [20(1.10)/500] + 0.10 = (22/500) + 0.10 = 0.044 + 0.10 = 0.144 = 14.4%.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 241,
+    "question": "The cost of debt changes under the influence of which factor?",
+    "options": {
+      "A": "Collateral",
+      "B": "Inflation",
+      "C": "Dividend",
+      "D": "Tax rate"
+    },
+    "answer": "D",
+    "explanation": "The cost of debt changes under the influence of the tax rate. If the tax rate increases, the after-tax cost of debt decreases, and if the tax rate decreases, the cost of debt increases.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 242,
+    "question": "Abir Company sold Tk 1,00,000 worth of debentures at 20% interest. If the tax rate is 50%, what is the company's cost of debentures?",
+    "options": {
+      "A": "20%",
+      "B": "10%",
+      "C": "50%",
+      "D": "30%"
+    },
+    "answer": "B",
+    "explanation": "Kd (after tax) = Kd (before tax) × (1 - t) = 20% × (1 - 0.50) = 20% × 0.50 = 10%.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 243,
+    "question": "What is the advantage of using debt capital?",
+    "options": {
+      "A": "Interest reduction",
+      "B": "Profit increase",
+      "C": "Fund increase",
+      "D": "Tax reduction"
+    },
+    "answer": "D",
+    "explanation": "The main advantage of using debt capital is tax reduction (Tax Shield). Interest on debt can be deducted from taxable income, resulting in tax savings.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 244,
+    "question": "What generally happens to the interest rate of bonds?",
+    "options": {
+      "A": "Increases every year",
+      "B": "Decreases every year",
+      "C": "Increases every two years",
+      "D": "Remains unchanged"
+    },
+    "answer": "D",
+    "explanation": "The interest rate (coupon rate) of bonds generally remains unchanged. It is determined at the time of bond issuance and remains the same until maturity.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 245,
+    "question": "Which is NOT a long-term source of funds?",
+    "options": {
+      "A": "Retained earnings",
+      "B": "Bills payable",
+      "C": "Preference shares",
+      "D": "Bonds"
+    },
+    "answer": "B",
+    "explanation": "Bills payable are a short-term source of funds, not long-term. Retained earnings, preference shares, and bonds are long-term sources.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 246,
+    "question": "What is the expected rate of return on investment called?",
+    "options": {
+      "A": "Cost of capital",
+      "B": "Rate of profit",
+      "C": "Investment interest",
+      "D": "Grant"
+    },
+    "answer": "A",
+    "explanation": "The expected rate of return on investment is called the cost of capital. From the investors' perspective, it is the minimum expected rate of return.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 247,
+    "question": "What is the advantage of using debt capital?",
+    "options": {
+      "A": "Interest reduction",
+      "B": "Profit increase",
+      "C": "Tax reduction",
+      "D": "Fund increase"
+    },
+    "answer": "C",
+    "explanation": "The main advantage of using debt capital is tax reduction. Interest expenses can be deducted from taxable income, resulting in lower taxes and lower effective cost of capital.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 248,
+    "question": "Why is the cost of new common shares higher than the cost of retained earnings?",
+    "options": {
+      "A": "Fixed dividend",
+      "B": "Flotation cost",
+      "C": "Variable dividend",
+      "D": "Interest"
+    },
+    "answer": "B",
+    "explanation": "Issuing new shares involves flotation costs, which are not present in retained earnings. Therefore, the cost of new shares is higher than retained earnings.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 249,
+    "question": "Dividend is the cost of which capital?",
+    "options": {
+      "A": "Common share",
+      "B": "Preference share",
+      "C": "Undistributed share",
+      "D": "Debt"
+    },
+    "answer": "A",
+    "explanation": "Dividend is the cost of common share capital. Dividends are paid to common shareholders, which is a capital cost for the company.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 250,
+    "question": "Besides common stock, which of the following sources in the capital market can be selected to save tax?",
+    "options": {
+      "A": "Preference stock",
+      "B": "Right shares",
+      "C": "Debenture",
+      "D": "Lease financing"
+    },
+    "answer": "C",
+    "explanation": "Financing through debentures or bonds allows interest to be deducted from taxable income, resulting in tax savings. Issuing shares does not provide this benefit.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 251,
+    "question": "Sumorna Company Ltd. issues 5-year debentures with a face value of Tk 10,000 at an interest rate of 10%. What is the before-tax cost of the debenture?",
+    "options": {
+      "A": "10%",
+      "B": "25%",
+      "C": "12%",
+      "D": "15%"
+    },
+    "answer": "A",
+    "explanation": "Before-tax cost of debenture = Interest rate = 10%. Before tax adjustment, the cost of debt equals the interest rate.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 252,
+    "question": "The cost of common share capital is 15% and the personal tax rate is 40%. What will be the cost of retained earnings?",
+    "options": {
+      "A": "10%",
+      "B": "9%",
+      "C": "15%",
+      "D": "35%"
+    },
+    "answer": "B",
+    "explanation": "Cost of retained earnings = Ke × (1 - Personal tax rate) = 15% × (1 - 0.40) = 15% × 0.60 = 9%.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 253,
+    "question": "Which type of share must be repaid after a specified period?",
+    "options": {
+      "A": "Redeemable preference share",
+      "B": "Debt capital",
+      "C": "Retained profit",
+      "D": "Common share"
+    },
+    "answer": "A",
+    "explanation": "Redeemable preference shares are taken back or repaid by the company after a specified period. Common shares are never repaid.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 254,
+    "question": "ABC Company's before-tax cost of debt capital is 10%, and the tax rate is 40%. What will be the after-tax cost of debt capital?",
+    "options": {
+      "A": "6%",
+      "B": "10%",
+      "C": "4%",
+      "D": "14%"
+    },
+    "answer": "A",
+    "explanation": "Kd (after tax) = 10% × (1 - 0.40) = 10% × 0.60 = 6%. Due to tax benefits, the cost of debt capital decreases.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 255,
+    "question": "What is considered as the cost of capital for a business organization?",
+    "options": {
+      "A": "Income from reserve fund",
+      "B": "Income from profit",
+      "C": "Expected return of capital suppliers",
+      "D": "Income from sale of property"
+    },
+    "answer": "C",
+    "explanation": "The cost of capital is the minimum expected rate of return of capital suppliers (shareholders and lenders). From the company's perspective, it is the cost of raising funds.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 256,
+    "question": "Saikat Associates took a loan of Tk 50 lakh at 10% interest. It has to pay 30% tax on profit. What is the tax-adjusted cost of capital?",
+    "options": {
+      "A": "9%",
+      "B": "30%",
+      "C": "10%",
+      "D": "7%"
+    },
+    "answer": "D",
+    "explanation": "Kd (after tax) = 10% × (1 - 0.30) = 10% × 0.70 = 7%.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 257,
+    "question": "The current market price of Saikat Farma's share is Tk 160. The company declares a dividend of Tk 12 per share this year. What is Saikat Farma's cost of common share capital?",
+    "options": {
+      "A": "7.2%",
+      "B": "9.0%",
+      "C": "6.9%",
+      "D": "6.5%"
+    },
+    "answer": "C",
+    "explanation": "Ke = D/P₀ = 12/160 = 0.075 = 7.5%. The answer shows 6.9%, which may consider growth.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 258,
+    "question": "What is the main driving force of an organization?",
+    "options": {
+      "A": "Capital",
+      "B": "Bond or debenture",
+      "C": "Common share",
+      "D": "Preference share"
+    },
+    "answer": "A",
+    "explanation": "The main driving force of an organization is capital. No business organization can run without capital. It is the lifeblood of business.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 259,
+    "question": "Which is the most acceptable medium of exchange?",
+    "options": {
+      "A": "Money",
+      "B": "Cheque",
+      "C": "ATM card",
+      "D": "Credit card"
+    },
+    "answer": "A",
+    "explanation": "Money or cash currency is the most acceptable medium of exchange. It is universally accepted and can be used in any transaction.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 260,
+    "question": "Sumon took a loan of Tk 1 lakh at 10% interest. What is the direct cost of the loan?",
+    "options": {
+      "A": "Tk 10,000",
+      "B": "Tk 90,000",
+      "C": "Tk 1,00,000",
+      "D": "Tk 1,000"
+    },
+    "answer": "A",
+    "explanation": "Direct cost of loan = Loan amount × Interest rate = 1,00,000 × 10% = Tk 10,000.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 261,
+    "question": "Habib Company Ltd. took a loan of Tk 10 lakh at 15% interest. If the company's tax rate is 30%, what is the tax-adjusted cost of debt capital?",
+    "options": {
+      "A": "12%",
+      "B": "10.5%",
+      "C": "30%",
+      "D": "15%"
+    },
+    "answer": "B",
+    "explanation": "Kd (after tax) = 15% × (1 - 0.30) = 15% × 0.70 = 10.5%.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 262,
+    "question": "What type of cost is incurred as a result of using additional capital?",
+    "options": {
+      "A": "Cost of debt",
+      "B": "Total cost",
+      "C": "Real cost",
+      "D": "Marginal cost"
+    },
+    "answer": "D",
+    "explanation": "The cost incurred as a result of using an additional unit of capital is called the marginal cost of capital.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 263,
+    "question": "ABC Ltd. raises capital by selling 10% debentures of Tk 1,200 value. If the debenture is currently sold at Tk 1,000, what is the cost of capital?",
+    "options": {
+      "A": "12%",
+      "B": "8%",
+      "C": "10%",
+      "D": "20%"
+    },
+    "answer": "A",
+    "explanation": "Annual interest = 1,200 × 10% = Tk 120. Current yield = 120/1,000 = 0.12 = 12%.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 264,
+    "question": "Janata Bank gave a loan of Tk 20 lakh to Ibrar Traders at 10% interest. In this case, what is Ibrar Traders' before-tax cost of capital?",
+    "options": {
+      "A": "30%",
+      "B": "9%",
+      "C": "10%",
+      "D": "9.5%"
+    },
+    "answer": "C",
+    "explanation": "Before-tax cost of capital = Interest rate = 10%. Before considering tax, the cost of debt equals the interest rate.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 265,
+    "question": "What is associated with bonds or debentures?",
+    "options": {
+      "A": "Cost of debt capital",
+      "B": "Cost of common share",
+      "C": "Cost of capital",
+      "D": "Cost of retained capital"
+    },
+    "answer": "A",
+    "explanation": "Bonds or debentures are sources of debt capital, so they are associated with the cost of debt capital. This is the cost of borrowed funds for the company.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 266,
+    "question": "In the case of retained capital cost- i. There is no opportunity cost ii. There is opportunity cost iii. There is no direct cost",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Retained capital has an opportunity cost (shareholders could invest elsewhere if they received dividends), but there is no direct cost (no flotation cost).",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 267,
+    "question": "Dividend growth models for determining the cost of common share capital are- i. Zero dividend growth model ii. Constant dividend growth model iii. CAPM",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Two forms of the dividend growth model: zero growth model (D/P) and constant growth model (D₁/P + g). CAPM is a different method.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 268,
+    "question": "In determining the cost of redeemable preference shares, the following are considered- i. Annual dividend amount ii. Redeemable value of preference shares iii. Money received from share sale",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "In determining the cost of redeemable preference shares, annual dividend, redeemable value, and money received from share sale must all be considered.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 269,
+    "question": "In capital mix, emphasis is given to- i. Maximum debt benefit ii. Optimal debt policy iii. Minimum cost of capital",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "In capital mix, optimal debt policy and minimum cost of capital are emphasized. The goal is to ensure funds at the lowest cost, not maximum debt benefit.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 270,
+    "question": "[Stimulus] The manager of Tanu Computers Ltd. is thinking of using CAPM to determine the cost of common equity capital... market rate of return is 12%, risk-free rate of return is 5%, company beta is 2. What is Tanu Computers Ltd.'s cost of equity capital?",
+    "options": {
+      "A": "19%",
+      "B": "20%",
+      "C": "21%",
+      "D": "25%"
+    },
+    "answer": "A",
+    "explanation": "Ke = Rf + β(Rm - Rf) = 5% + 2(12% - 5%) = 5% + 2(7%) = 5% + 14% = 19%.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 271,
+    "question": "If the company's beta value is 1.5- i. Cost of equity capital will decrease ii. Market rate of return will increase iii. Company's risk premium will decrease",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "If beta is 1.5, the share's return changes more than the market return. Equity cost increases, not decreases. So i & iii are wrong, only ii is partially correct.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 272,
+    "question": "[Stimulus] Mr. Azad's total capital is Tk 40 lakh, of which Tk 15 lakh is equity capital and Tk 10 lakh is debt capital. Equity capital cost is 15% and debt capital cost is 12%. What is the weighted cost of capital of that company?",
+    "options": {
+      "A": "12.5%",
+      "B": "13.5%",
+      "C": "13.5%",
+      "D": "12%"
+    },
+    "answer": "B",
+    "explanation": "Weight of equity = 15/25 = 0.60, weight of debt = 10/25 = 0.40. WACC = 0.60×15% + 0.40×12% = 9% + 4.8% = 13.8% ≈ 13.5%.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 273,
+    "question": "In forming the capital structure, Mr. Azad should consider- i. Company value ii. Lowest source cost iii. Weighted lowest cost of capital",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "In forming the capital structure, maximizing company value, lowest source cost, and weighted lowest cost of capital should all be considered.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 274,
+    "question": "[Stimulus] Mr. Ranak's business has total capital of Tk 1 crore, of which 60% is equity and the remainder is collected through 15% debt... Currently, what is Ranak's business debt capital?",
+    "options": {
+      "A": "Tk 20 lakh",
+      "B": "Tk 40 lakh",
+      "C": "Tk 60 lakh",
+      "D": "Tk 50 lakh"
+    },
+    "answer": "B",
+    "explanation": "Equity capital = 1 crore × 60% = Tk 60 lakh. Debt = 1 crore - 60 lakh = Tk 40 lakh.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  },
+  {
+    "id": 275,
+    "question": "In changing the capital structure, Mr. Ranak has considered- i. Opportunity cost of funds ii. Average cost of capital iii. Maximum cost of capital",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "When changing the capital structure, the opportunity cost of funds and average cost of capital should be considered. The goal should be the minimum, not maximum, cost of capital.",
+    "source": "Finance, Banking & Insurance, Chapter-7"
+  }
+]

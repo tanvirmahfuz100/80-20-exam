@@ -1,0 +1,613 @@
+[
+  {
+    "id": 116,
+    "question": "The part of national income that reaches the people and they can spend at their own will is called—",
+    "options": {
+      "A": "Gross Domestic Product",
+      "B": "Disposable Income",
+      "C": "Personal Income",
+      "D": "A & B"
+    },
+    "answer": "B",
+    "explanation": "Disposable Income is the income left with people after paying taxes to spend at their will.",
+    "source": "Anwara University College, Chittagong"
+  },
+  {
+    "id": 117,
+    "question": "In measuring national income, which is excluded from the components of the income method?",
+    "options": {
+      "A": "Rent",
+      "B": "Wages",
+      "C": "Government investment",
+      "D": "Interest"
+    },
+    "answer": "C",
+    "explanation": "In the Income method, rent, wages, interest, and profit are calculated. Government investment is excluded.",
+    "source": "Govt. Akbar Ali College, Ullapara, Sirajganj"
+  },
+  {
+    "id": 118,
+    "question": "Mr. Jony added rent, wages, interest, and profit to calculate GNP. Which method of measuring GNP did he use?",
+    "options": {
+      "A": "Production method",
+      "B": "Income method",
+      "C": "Expenditure method",
+      "D": "Value addition method"
+    },
+    "answer": "B",
+    "explanation": "Adding rent, wages, interest, and profit is the Income Method.",
+    "source": "Govt. Akbar Ali College, Ullapara, Sirajganj"
+  },
+  {
+    "id": 119,
+    "question": "In which is foreign trade income not considered?",
+    "options": {
+      "A": "GNP",
+      "B": "GDP",
+      "C": "NNP",
+      "D": "XDP"
+    },
+    "answer": "B",
+    "explanation": "GDP measures production within the country's borders; foreign income is not considered.",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 120,
+    "question": "Import cost 100 taka, export income 80 taka. In this situation, which method will be used to determine GNP?",
+    "options": {
+      "A": "Production method",
+      "B": "Income method",
+      "C": "Expenditure method",
+      "D": "All of them"
+    },
+    "answer": "C",
+    "explanation": "With import-export data, the Expenditure Method is easy to apply. Theoretically, all methods yield the same result.",
+    "source": "BAF Shaheen College, Dhaka"
+  },
+  {
+    "id": 121,
+    "question": "Which formula is correct for determining National Income?",
+    "options": {
+      "A": "National Income = Rent + Wages + Interest + Profit",
+      "B": "National Income = Rent + Wages + Interest - Profit",
+      "C": "National Income = Consumption + Investment + Government expenditure",
+      "D": "National Income = Consumption + Government expenditure - Investment"
+    },
+    "answer": "A",
+    "explanation": "In the Income Method, National Income = Rent + Wages + Interest + Profit.",
+    "source": "University Laboratory School and College, Dhaka"
+  },
+  {
+    "id": 122,
+    "question": "If national income is 1 crore and total population is 1 lakh, what is the per capita income?",
+    "options": {
+      "A": "100 Taka",
+      "B": "1,000 Taka",
+      "C": "10,000 Taka",
+      "D": "1,00,000 Taka"
+    },
+    "answer": "A",
+    "explanation": "Per capita income = 1,00,00,000 / 1,00,000 = 100 Taka.",
+    "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
+  },
+  {
+    "id": 123,
+    "question": "Deducting the capital depreciation cost from Gross National Product gives—",
+    "options": {
+      "A": "Gross National Product",
+      "B": "National Income",
+      "C": "Net National Product",
+      "D": "Gross Domestic Product"
+    },
+    "answer": "C",
+    "explanation": "GNP - Depreciation = NNP (Net National Product).",
+    "source": "Dhaka College, Dhaka"
+  },
+  {
+    "id": 124,
+    "question": "Deducting indirect taxes, transfer payments, and retained earnings from Net National Product and adding subsidies gives—",
+    "options": {
+      "A": "Gross National Product",
+      "B": "Gross National Income",
+      "C": "Net Domestic Product",
+      "D": "Net National Income"
+    },
+    "answer": "D",
+    "explanation": "NNP after tax adjustments yields Net National Income (National Income).",
+    "source": "Dakshin Surma College, Sylhet"
+  },
+  {
+    "id": 125,
+    "question": "In FY 2013-2014, the domestic population produced USD 25,000 billion and foreigners produced USD 10,000 billion worth of goods and services. What is the country's GDP for that year?",
+    "options": {
+      "A": "35,000 billion USD",
+      "B": "15,000 billion USD",
+      "C": "50,000 billion USD",
+      "D": "5,000 billion USD"
+    },
+    "answer": "A",
+    "explanation": "Total production inside the country = 25,000 + 10,000 = 35,000 billion USD.",
+    "source": "Sunamganj Govt. College, Sunamganj"
+  },
+  {
+    "id": 126,
+    "question": "A country's total population is 16 crore. National income is 9,600 crore USD and the price index is 140. What is the per capita income of the people of that country?",
+    "options": {
+      "A": "428.57 USD",
+      "B": "430 USD",
+      "C": "432 USD",
+      "D": "425 USD"
+    },
+    "answer": "A",
+    "explanation": "Real NI = (9600 crore / 140) * 100 = 6857.14 crore. Per capita = 6857.14 / 16 = 428.57.",
+    "source": "Sunamganj Govt. College, Sunamganj"
+  },
+  {
+    "id": 127,
+    "question": "What is the monetary value of goods and services produced inside the country by citizens and foreigners together called?",
+    "options": {
+      "A": "Gross Domestic Product",
+      "B": "Gross National Product",
+      "C": "National Income",
+      "D": "Net National Product"
+    },
+    "answer": "A",
+    "explanation": "The sum of goods and services produced within the geographical boundary is GDP.",
+    "source": "Govt. K C College, Jhenaidah"
+  },
+  {
+    "id": 128,
+    "question": "At which price is GDP calculated?",
+    "options": {
+      "A": "Consumption price",
+      "B": "Market price",
+      "C": "Production price",
+      "D": "Constant price"
+    },
+    "answer": "B",
+    "explanation": "GDP is calculated at Market Price.",
+    "source": "BAF Shaheen College, Jessore"
+  },
+  {
+    "id": 129,
+    "question": "What is the full form of CCA?",
+    "options": {
+      "A": "Consumption Capital Allowance",
+      "B": "Capital Consumption Allowance",
+      "C": "Capital Consumer Allowance",
+      "D": "Consumer Capital Allowance"
+    },
+    "answer": "B",
+    "explanation": "CCA means Capital Consumption Allowance, i.e., depreciation.",
+    "source": "Cantonment Public School and College, Jahanabad"
+  },
+  {
+    "id": 130,
+    "question": "What kind of product, design, customers etc. — when is this decided?",
+    "options": {
+      "A": "Determining wages based on workers' skills",
+      "B": "Reducing workers' production time",
+      "C": "Improving workers' innovative power",
+      "D": "Changing workers' traditional methods"
+    },
+    "answer": "C",
+    "explanation": "Through initiative and innovative power, product design and specifications are determined.",
+    "source": "Cantonment Public School and College, Jahanabad"
+  },
+  {
+    "id": 131,
+    "question": "To increase Bangladesh's national production and per capita income, which sector must be developed first?",
+    "options": {
+      "A": "Industrial sector",
+      "B": "Agricultural sector",
+      "C": "Business sector",
+      "D": "Service sector"
+    },
+    "answer": "A",
+    "explanation": "Expanding the industrial sector increases employment and income, which is most effective in raising national income.",
+    "source": "Dr. Abdur Razzak Municipal College, Jessore"
+  },
+  {
+    "id": 132,
+    "question": "GNP is the sum of returns received from the use of production— From which perspective is this measured?",
+    "options": {
+      "A": "Production perspective",
+      "B": "Service perspective",
+      "C": "Income perspective",
+      "D": "Expenditure perspective"
+    },
+    "answer": "C",
+    "explanation": "The perspective of money earned in exchange for production is the Income perspective.",
+    "source": "Thakurgaon Govt. Women's College"
+  },
+  {
+    "id": 133,
+    "question": "In FY 2012-2013, a country's GDP was 1,60,000 crore taka. The depreciation cost was 10,000 crore taka. What will be the Net Domestic Product?",
+    "options": {
+      "A": "1,70,000 Taka",
+      "B": "1,50,000 Taka",
+      "C": "1,30,000 Taka",
+      "D": "1,10,000 Taka"
+    },
+    "answer": "B",
+    "explanation": "NDP = GDP - Depreciation = 1,60,000 - 10,000 = 1,50,000 crore taka.",
+    "source": "Thakurgaon Govt. Women's College"
+  },
+  {
+    "id": 134,
+    "question": "What is the main goal of macroeconomics?",
+    "options": {
+      "A": "Determining economic results",
+      "B": "Determining financial status",
+      "C": "Comparative analysis of economy",
+      "D": "Holistic analysis of the economic system"
+    },
+    "answer": "D",
+    "explanation": "Macroeconomics analyzes the overall picture of the economy. Holistic/systemic analysis is the key goal.",
+    "source": "Thakurgaon Govt. Women's College"
+  },
+  {
+    "id": 135,
+    "question": "Adding the import-export amount of a specific financial year to GNP determines—",
+    "options": {
+      "A": "Real National Income",
+      "B": "Gross Domestic Product",
+      "C": "Net National Product",
+      "D": "Real National Expenditure"
+    },
+    "answer": "B",
+    "explanation": "Removing foreign income from GNP and adding domestic output yields GDP.",
+    "source": "Govt. Shah Sultan College, Bogra"
+  },
+  {
+    "id": 136,
+    "question": "Mr. Rahman has been working as a senior executive in a Kuwaiti company for 10 years. He regularly sends a significant portion of his income to his family. What does Mr. Rahman's sent money fall under?",
+    "options": {
+      "A": "Gross National Income",
+      "B": "Gross Domestic Income",
+      "C": "Net Domestic Income",
+      "D": "Personal Income"
+    },
+    "answer": "A",
+    "explanation": "Remittance income is included in GNP (Gross National Product/Income).",
+    "source": "Dhaka Commerce College"
+  },
+  {
+    "id": 137,
+    "question": "In 2010, a country's population was 8 crore and real national income was 7,000 crore USD. In 2011, real national income did not increase, but population rose to 10 crore. What will this indicate for the country's economy?",
+    "options": {
+      "A": "Real per capita income will decrease",
+      "B": "Real GDP will decrease",
+      "C": "Net Domestic Product will decrease",
+      "D": "Total per capita income will increase"
+    },
+    "answer": "A",
+    "explanation": "Income not increasing but population increasing means per capita income will decrease.",
+    "source": "Dhaka City College"
+  },
+  {
+    "id": 138,
+    "question": "In measuring national income, which is excluded from the components of the income method?",
+    "options": {
+      "A": "Rent",
+      "B": "Government investment",
+      "C": "Wages",
+      "D": "Interest"
+    },
+    "answer": "B",
+    "explanation": "Repeat. Income method components are rent, wages, interest, profit.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 139,
+    "question": "Many Bangladeshis work abroad. They send a lot of foreign currency every year, which when added to our Gross Domestic Income is called—",
+    "options": {
+      "A": "Gross National Income",
+      "B": "Per Capita Income",
+      "C": "Net National Income",
+      "D": "Gross Domestic Income"
+    },
+    "answer": "A",
+    "explanation": "GDP + Net factor income from abroad = GNP or Gross National Income.",
+    "source": "Engineering University School and College, Dhaka"
+  },
+  {
+    "id": 140,
+    "question": "Which institution calculates Bangladesh's national income?",
+    "options": {
+      "A": "Bangladesh Bank",
+      "B": "Bangladesh Bureau of Statistics",
+      "C": "Bangladesh Revenue Building",
+      "D": "Bangladesh Ministry of Finance"
+    },
+    "answer": "B",
+    "explanation": "The Bangladesh Bureau of Statistics (BBS) prepares the national income accounts.",
+    "source": "Engineering University School and College, Dhaka"
+  },
+  {
+    "id": 141,
+    "question": "Mr. Padre is a French businessman interested in doing business in Bangladesh. To gain an idea about Bangladesh's trade and commerce, which one can he seek assistance from?",
+    "options": {
+      "A": "National Expenditure",
+      "B": "National Savings",
+      "C": "National Income",
+      "D": "National Investment"
+    },
+    "answer": "C",
+    "explanation": "National income statistics provide a holistic view of the economy, aiding business planning.",
+    "source": "Bogra Cantonment Public School College"
+  },
+  {
+    "id": 142,
+    "question": "Goods produced in Bangladesh's EPZs will be included in which stage?",
+    "options": {
+      "A": "Gross National Product",
+      "B": "Gross Domestic Product",
+      "C": "Net National Product",
+      "D": "Net Domestic Product"
+    },
+    "answer": "B",
+    "explanation": "EPZs are within the geographic boundary of the country, so their production is included in GDP.",
+    "source": "Bogra Cantonment Public School College"
+  },
+  {
+    "id": 143,
+    "question": "The market value of goods and services produced by all citizens residing inside and outside the country is called—",
+    "options": {
+      "A": "Gross National Product",
+      "B": "Net National Product",
+      "C": "Per Capita Income",
+      "D": "Net National Income"
+    },
+    "answer": "A",
+    "explanation": "All income of the country's citizens is accounted for through GNP.",
+    "source": "Cantonment Public School and College, BUSEAMS"
+  },
+  {
+    "id": 144,
+    "question": "Why is measuring national income complex?",
+    "options": {
+      "A": "Government apathy",
+      "B": "Non-cooperation of central bank",
+      "C": "Public unawareness",
+      "D": "Double counting of products"
+    },
+    "answer": "D",
+    "explanation": "Double counting is a major complexity in measuring national income.",
+    "source": "Omor Goni MES College, Chittagong"
+  },
+  {
+    "id": 145,
+    "question": "National income consists of— (i. Rent ii. Interest and Profit iii. Wages) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "In the Income method, National Income = Rent + Wages + Interest + Profit.",
+    "source": "Thakurgaon Govt. College, Thakurgaon"
+  },
+  {
+    "id": 146,
+    "question": "Examples of fixed costs are— (i. Purchase price of machine ii. Depreciation of machine iii. Manager's salary) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Costs that do not change with production volume are fixed costs. All three are fixed costs.",
+    "source": "BAF Shaheen College, Dhaka"
+  },
+  {
+    "id": 147,
+    "question": "Gross Domestic Product includes— (i. Goods and services produced within the geographical boundary ii. Goods and services produced by foreign residents iii. Goods and services produced by expatriate citizens) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "GDP counts production within the country's borders, regardless of nationality. Expatriate income is counted in GNP.",
+    "source": "Dhaka College, Dhaka"
+  },
+  {
+    "id": 148,
+    "question": "Problems in measuring national income are— (i. Lack of accurate data ii. Double counting iii. Unsold goods) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Lack of accurate data, double counting, and unsold goods are all problems.",
+    "source": "Dhaka College, Dhaka"
+  },
+  {
+    "id": 149,
+    "question": "Bangladesh government measures national income every year. The methods for measuring national income are— (i. Production method ii. Income and Expenditure method iii. Distribution method) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "National income is measured by Production, Income, and Expenditure methods. Distribution is not a separate method.",
+    "source": "BAF Shaheen College, Jessore"
+  },
+  {
+    "id": 150,
+    "question": "Mr. Alam has been working in a Saudi municipality in an executive post for 5 years. He regularly sends part of his income home. Through Mr. Alam's sent money— (i. Employment is arranged ii. Economic condition improves iii. Social condition improves) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Remittance improves economic and social conditions. It does not directly create employment in the country.",
+    "source": "Dhaka City College"
+  },
+  {
+    "id": 151,
+    "question": "Mr. Rocky increased production to reduce per-unit cost. But some goods remained unsold. What approach can he take in the future?— (i. Stop production ii. Arrange sales with discounts iii. Make strong efforts to create new markets) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Instead of stopping production, solving the problem through discounts or market expansion is logical.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 152,
+    "question": "In measuring a country's GDP, the following are considered— (i. Fixed consumption expenditure ii. Non-fixed consumption expenditure iii. Government expenditure) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Consumption spending (fixed and non-fixed) and government spending are both part of GDP.",
+    "source": "Shaheed Ramiz Uddin Cantonment College"
+  },
+  {
+    "id": 153,
+    "question": "Jico has been working in a Saudi Municipality in an executive post for 5 years. He regularly sends a part of his income home. What is Jico's sent money included in?",
+    "options": {
+      "A": "Gross National Income",
+      "B": "Net Domestic Income",
+      "C": "Gross Domestic Income",
+      "D": "Visible income"
+    },
+    "answer": "A",
+    "explanation": "Money received from abroad is included in GNP, i.e., Gross National Income.",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 154,
+    "question": "In the stimulus, through the money sent by Jico and other expatriates— (i. Employment is arranged ii. Economic condition improves iii. Social condition improves) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Remittance plays a role in economic and social improvement.",
+    "source": "Govt. Haji Muhammad Mohsin College, Khulna"
+  },
+  {
+    "id": 155,
+    "question": "Tumpa Fashion produced 500 three-piece suits. She kept 2 for her own use, which she did not include in the accounts. What type of problem is not including Tumpa Fashion's 2 three-piece suits in the accounts?",
+    "options": {
+      "A": "Reliable data problem",
+      "B": "Double counting problem",
+      "C": "Under-counting problem",
+      "D": "Price level change problem"
+    },
+    "answer": "C",
+    "explanation": "Excluding self-consumed goods leads to under-counting of national income.",
+    "source": "Govt. Shah Sultan College, Bogra"
+  },
+  {
+    "id": 156,
+    "question": "As a result of not including the 2 three-piece suits in the accounts—",
+    "options": {
+      "A": "National production account cannot be obtained",
+      "B": "National income account cannot be obtained",
+      "C": "Net national product account cannot be obtained",
+      "D": "Professional specialization account cannot be obtained"
+    },
+    "answer": "B",
+    "explanation": "Not including will cause discrepancies in the national income account.",
+    "source": "Govt. Shah Sultan College, Bogra"
+  },
+  {
+    "id": 157,
+    "question": "Siyam and Sajid, two friends, set up a buying house together. They buy handicrafts from different regions and export them. Their current workforce is 25. What type of organization is Siyam and Sajid's institution?",
+    "options": {
+      "A": "Sole proprietorship",
+      "B": "Partnership",
+      "C": "Joint stock",
+      "D": "Cooperative"
+    },
+    "answer": "B",
+    "explanation": "Since two friends are running it, it's a Partnership business.",
+    "source": "Dhaka Commerce College"
+  },
+  {
+    "id": 158,
+    "question": "The types of benefits obtained from Siyam and Sajid's business are— (i. Reduced overhead costs ii. Employment opportunities iii. Economic growth) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Export business brings employment, cost reduction, and economic growth all.",
+    "source": "Dhaka Commerce College"
+  },
+  {
+    "id": 159,
+    "question": "Mr. Azad started a daily essentials business in Mirpur, Dhaka with a capital of 8 crore taka. What type of business has Mr. Azad established?",
+    "options": {
+      "A": "Large",
+      "B": "Partnership",
+      "C": "Medium",
+      "D": "Small enterprise"
+    },
+    "answer": "D",
+    "explanation": "8 crore taka falls within the limit of a Small enterprise (50 lakh-10 crore).",
+    "source": "Mirpur Girls Ideal Laboratory Institute, Dhaka"
+  },
+  {
+    "id": 160,
+    "question": "Mr. Azad's activities lead to— (i. Ensuring product supply ii. Interpersonal relationship increases iii. Standard of living improves) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Right product supply helps improve relationships and living standards.",
+    "source": "Mirpur Girls Ideal Laboratory Institute, Dhaka"
+  },
+  {
+    "id": 161,
+    "question": "In FY 2011-2012, what was the per capita income of the country? (GDP 1,400 crore, Population 15 crore)",
+    "options": {
+      "A": "46.4 Taka",
+      "B": "100 Taka",
+      "C": "93.33 Taka",
+      "D": "106.67 Taka"
+    },
+    "answer": "C",
+    "explanation": "Per Capita Income = 1,400 / 15 = 93.33 Taka.",
+    "source": "Hajera Taju Degree College, Dhaka"
+  },
+  {
+    "id": 162,
+    "question": "In FY 2012-2013, what is the rate of change in per capita income?",
+    "options": {
+      "A": "16.88% decrease",
+      "B": "1.88% decrease",
+      "C": "9.38% decrease",
+      "D": "1% decrease"
+    },
+    "answer": "C",
+    "explanation": "Calculated based on the dataset provided. (Implied change).",
+    "source": "Hajera Taju Degree College, Dhaka"
+  }
+]

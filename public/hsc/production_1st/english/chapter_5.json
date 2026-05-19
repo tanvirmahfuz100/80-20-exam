@@ -1,0 +1,510 @@
+[
+  {
+    "id": 163,
+    "question": "Treatment provided by a doctor is considered as—",
+    "options": {
+      "A": "Service",
+      "B": "Business",
+      "C": "Management",
+      "D": "Production"
+    },
+    "answer": "A",
+    "explanation": "A doctor's treatment is an intangible service.",
+    "source": "BEPZA Public School and College, Chittagong"
+  },
+  {
+    "id": 164,
+    "question": "What depends on the nature of the product or service?",
+    "options": {
+      "A": "Production",
+      "B": "Production capacity",
+      "C": "Production rate",
+      "D": "Production standard"
+    },
+    "answer": "B",
+    "explanation": "Production capacity varies based on the nature of the product or service.",
+    "source": "Thakurgaon Govt. College, Thakurgaon"
+  },
+  {
+    "id": 165,
+    "question": "How many principles of scientific management did F.W. Taylor provide?",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "7",
+      "D": "5"
+    },
+    "answer": "B",
+    "explanation": "Taylor gave 4 principles of scientific management.",
+    "source": "University Laboratory School and College, Dhaka"
+  },
+  {
+    "id": 166,
+    "question": "Your father takes medicine regularly to control diabetes. What is this?",
+    "options": {
+      "A": "Service",
+      "B": "Consultation",
+      "C": "Discipline",
+      "D": "Production"
+    },
+    "answer": "A",
+    "explanation": "Medical treatment or taking medicine is a type of service consumption.",
+    "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
+  },
+  {
+    "id": 167,
+    "question": "You regularly supply raw materials to Rahman Group for smooth production. What is this called?",
+    "options": {
+      "A": "Supply Chain Management",
+      "B": "Operation Management",
+      "C": "Production Management",
+      "D": "Management"
+    },
+    "answer": "A",
+    "explanation": "Raw material supply is part of the Supply Chain.",
+    "source": "Birshreshtha Noor Mohammad Public College, Dhaka"
+  },
+  {
+    "id": 168,
+    "question": "At the beginning of the Industrial Revolution, in what type of market were goods sold?",
+    "options": {
+      "A": "Local market",
+      "B": "International market",
+      "C": "National market",
+      "D": "Extended market"
+    },
+    "answer": "A",
+    "explanation": "Initially, production met local demand.",
+    "source": "Dakshin Surma College, Sylhet"
+  },
+  {
+    "id": 169,
+    "question": "A nurse's service is called production, but a mother's service is not. Why?",
+    "options": {
+      "A": "Its utility is very high",
+      "B": "This service is produced within the family",
+      "C": "It is not needed after a certain time",
+      "D": "It does not create saleable value"
+    },
+    "answer": "D",
+    "explanation": "In economics, production refers to creating exchangeable value. A mother's service is not for exchange.",
+    "source": "Sunamganj Govt. College, Sunamganj"
+  },
+  {
+    "id": 170,
+    "question": "How is much work done in Bangladesh?",
+    "options": {
+      "A": "Through voluntary labor",
+      "B": "By force",
+      "C": "Through community labor",
+      "D": "By compulsion"
+    },
+    "answer": "A",
+    "explanation": "Voluntary labor is the true form of labor.",
+    "source": "Hajiganj Model University College"
+  },
+  {
+    "id": 171,
+    "question": "The demand and supply of goods depend on what?",
+    "options": {
+      "A": "Objectives of production management",
+      "B": "Goals of production management",
+      "C": "Importance of production management",
+      "D": "Necessity of production management"
+    },
+    "answer": "C",
+    "explanation": "Understanding the importance of production management helps balance demand and supply.",
+    "source": "BAF Shaheen College, Jessore"
+  },
+  {
+    "id": 172,
+    "question": "Focusing on how to improve products is related to—",
+    "options": {
+      "A": "Production cost",
+      "B": "Exchange value",
+      "C": "Service value",
+      "D": "Product price"
+    },
+    "answer": "A",
+    "explanation": "Product development is closely related to the calculation of production costs and value.",
+    "source": "Cantonment Public School and College, Jahanabad"
+  },
+  {
+    "id": 173,
+    "question": "Receiving invisible utility from different parties is called—",
+    "options": {
+      "A": "Service",
+      "B": "Purchase decision",
+      "C": "Intangible product",
+      "D": "Goods"
+    },
+    "answer": "A",
+    "explanation": "Obtaining invisible utility from various parties is called service. (Note: The original options contained a duplicate for \"Service\".)",
+    "source": "Thakurgaon Govt. Women's College"
+  },
+  {
+    "id": 174,
+    "question": "Product development is what for production management?",
+    "options": {
+      "A": "Objective",
+      "B": "Goal",
+      "C": "Importance",
+      "D": "Necessity"
+    },
+    "answer": "B",
+    "explanation": "Product development is a goal of management.",
+    "source": "Syed Ahmed College, Gabtoli, Bogra"
+  },
+  {
+    "id": 175,
+    "question": "What is the management task related to production called?",
+    "options": {
+      "A": "Production",
+      "B": "Management",
+      "C": "Productivity",
+      "D": "Production Management"
+    },
+    "answer": "D",
+    "explanation": "Production Management is the coordination of all management tasks related to production.",
+    "source": "Samsul Haque Khan School and College"
+  },
+  {
+    "id": 176,
+    "question": "Mr. Rajib is the owner of a boutique shop. He assigned his wife Layla the responsibility of planning, designing, and financial activities for making clothes. By producing clothes considering the demand and taste of each customer, his business achieved great success. What is the reason for the success of Mr. Rajib's company?",
+    "options": {
+      "A": "Nature of business",
+      "B": "Reduced production cost",
+      "C": "Achieving customer satisfaction",
+      "D": "Proper resource distribution"
+    },
+    "answer": "C",
+    "explanation": "Making clothes according to customers' demand and taste helps achieve customer satisfaction.",
+    "source": "Dhaka Commerce College"
+  },
+  {
+    "id": 177,
+    "question": "Mrs. Farjana is a famous boutique designer. She runs showrooms in several important cities under her expert supervision. What type of advantage is mentioned in the stimulus?",
+    "options": {
+      "A": "Capital mobility",
+      "B": "Centralized selling",
+      "C": "Personal supervision",
+      "D": "Less machinery use"
+    },
+    "answer": "C",
+    "explanation": "Her own design and supervision indicate Personal Supervision.",
+    "source": "Dhaka City College"
+  },
+  {
+    "id": 178,
+    "question": "Mr. Shakil could not study much due to financial crisis. He took computer training from the Youth Development Training Academy and opened a computer training center in Mirpur Muktijoddha Market. What was most important in Mr. Shakil's business success?",
+    "options": {
+      "A": "Location selection",
+      "B": "Education",
+      "C": "Loan collection",
+      "D": "Training arrangement"
+    },
+    "answer": "D",
+    "explanation": "He achieved success by acquiring skills through training.",
+    "source": "Dhaka City College"
+  },
+  {
+    "id": 179,
+    "question": "Why does productivity face challenges?",
+    "options": {
+      "A": "If workers participate spontaneously",
+      "B": "If favorable government policy exists",
+      "C": "If the organization's sales increase",
+      "D": "As a result of using underdeveloped raw materials"
+    },
+    "answer": "D",
+    "explanation": "Using low-quality raw materials is a challenge for productivity.",
+    "source": "Dhaka City College"
+  },
+  {
+    "id": 180,
+    "question": "How should the plan for establishing a business enterprise be?",
+    "options": {
+      "A": "Short-term",
+      "B": "Permanent",
+      "C": "Long-term",
+      "D": "Temporary"
+    },
+    "answer": "C",
+    "explanation": "The business plan should be long-term.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 181,
+    "question": "What is an advantage of centralization?",
+    "options": {
+      "A": "Increase in workers' skill",
+      "B": "Increase in travel expenses",
+      "C": "Increase in daily expenses",
+      "D": "Increase in living standards"
+    },
+    "answer": "A",
+    "explanation": "Centralization increases the opportunity for specialization, which increases skill.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 182,
+    "question": "How can a worker become skilled?",
+    "options": {
+      "A": "By taking training at a training institute",
+      "B": "By performing complex tasks",
+      "C": "By gaining experience",
+      "D": "By maintaining a good relationship with the manager"
+    },
+    "answer": "A",
+    "explanation": "Training is the best way to increase skills.",
+    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
+  },
+  {
+    "id": 183,
+    "question": "Legal advice, audit, management consultation, advertising agencies are what type of organizations?",
+    "options": {
+      "A": "Non-business organization",
+      "B": "Profit-earning service organization",
+      "C": "Business organization",
+      "D": "Government business organization"
+    },
+    "answer": "B",
+    "explanation": "These are profit-oriented service institutions.",
+    "source": "Rangpur Govt. College, Rangpur"
+  },
+  {
+    "id": 184,
+    "question": "Little-educated Shahbuddin opened a photocopy shop next to a college. Despite little education, his behavior is very good, so the shop is always crowded. Which sector does Shahbuddin's work fall under?",
+    "options": {
+      "A": "Agriculture",
+      "B": "Industry",
+      "C": "Service",
+      "D": "Industry"
+    },
+    "answer": "C",
+    "explanation": "Photocopying is a service-oriented activity.",
+    "source": "Mirpur Pearls Ideal Laboratory Institute, Dhaka"
+  },
+  {
+    "id": 185,
+    "question": "What happens if sales exceed the break-even point?",
+    "options": {
+      "A": "Profit",
+      "B": "Loss",
+      "C": "Cost",
+      "D": "Income"
+    },
+    "answer": "A",
+    "explanation": "If sales exceed the break-even point, profit is made.",
+    "source": "Bangladesh Navy College, Chittagong"
+  },
+  {
+    "id": 186,
+    "question": "Production management is involved in performing— (i. Planning and organizing ii. Direction and coordination iii. Control) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Production management is involved in planning, organizing, direction, coordination, and control.",
+    "source": "BEPZA Public School and College, Chittagong"
+  },
+  {
+    "id": 187,
+    "question": "In the service sector, medium industry refers to— (i. Fixed assets ex-land/building 1 crore to 15 crore ii. Workers 50 to 100 iii. Workers more than 100) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "In the service sector, Medium is defined as assets 1-15 crore and workers 50-100.",
+    "source": "Dhaka College, Dhaka"
+  },
+  {
+    "id": 188,
+    "question": "Through lifecycle determination, evaluation is done for— (i. Whether the product harms during production ii. Whether it harms during use iii. Whether it harms after use) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Lifecycle assessment considers all phases: production, use, and post-use.",
+    "source": "Dakshin Surma College, Sylhet"
+  },
+  {
+    "id": 189,
+    "question": "The producer of goods is— (i. Exporter ii. Leather industry owner iii. Grocer) Which is correct?",
+    "options": {
+      "A": "i",
+      "B": "ii",
+      "C": "iii",
+      "D": "i & ii"
+    },
+    "answer": "B",
+    "explanation": "The leather industry owner produces goods. Exporters and grocers are distributors.",
+    "source": "Mokbular Rahman Govt. College, Panchagarh"
+  },
+  {
+    "id": 190,
+    "question": "If the volume of production increases abnormally, the organization faces serious problems. The reasons are— (i. Product price may decrease ii. Product sales may increase massively iii. Inventory cost may increase) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Overproduction may cause price drops and increased inventory costs. Increased sales are a positive sign, not a problem.",
+    "source": "Dhaka City College"
+  },
+  {
+    "id": 191,
+    "question": "In product development, the following are reviewed— (i. Customer taste ii. Customer desire iii. Customer income) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Taste, desire, and income of the customer are all considered in product development.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 192,
+    "question": "Mridula is a nurse. For her, nursing is a noble profession. Through this she provides services to patients. Nursing is a type of what?",
+    "options": {
+      "A": "Service",
+      "B": "Ethics",
+      "C": "Profession",
+      "D": "Business"
+    },
+    "answer": "A",
+    "explanation": "Nursing is a service-oriented task.",
+    "source": "Mokbular Rahman Govt. College, Panchagarh"
+  },
+  {
+    "id": 193,
+    "question": "Services can be— (i. Variable by customer ii. Perishable goods iii. Heterogeneous) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Services vary by customer and are heterogeneous. It is not a tangible, perishable good.",
+    "source": "Mokbular Rahman Govt. College, Panchagarh"
+  },
+  {
+    "id": 194,
+    "question": "Rasel bought a pant from the footpath for 200 Taka. In the market, a quality pant costs more than 2,000 Taka. What is the pricing method for Rasel's purchased shirt?",
+    "options": {
+      "A": "Cost-based pricing",
+      "B": "Value-based pricing",
+      "C": "Competition-based pricing",
+      "D": "Bid-based pricing"
+    },
+    "answer": "B",
+    "explanation": "The price of the footpath pant is determined based on the perceived value of the buyer.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 195,
+    "question": "The reason for the high price of the market shirt is— (i. Design ii. Quality iii. Standard) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "ii & iii",
+      "C": "i & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Design, quality, and standard all influence the price determination.",
+    "source": "Viqarunnisa Noon School and College, Dhaka"
+  },
+  {
+    "id": 196,
+    "question": "Mr. Mehedi is involved in a production organization. To increase production, he replaced old machines with new modern ones. He also connected a printer to the computer. What is the act of connecting a computer and printer called?",
+    "options": {
+      "A": "Attraction increase",
+      "B": "Utility connection",
+      "C": "Production cost increase",
+      "D": "Competition tackling"
+    },
+    "answer": "B",
+    "explanation": "Connecting a printer to a computer is considered a utility connection (B). However, some perspectives may classify it as increasing attraction (A). Due to this interpretive difference, the confidence is low.",
+    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka",
+    "confidence": "low"
+  },
+  {
+    "id": 197,
+    "question": "What is the result of replacing old machines with new machines?",
+    "options": {
+      "A": "Production cost decreases",
+      "B": "Competition increases",
+      "C": "Competition decreases",
+      "D": "Production wastage decreases"
+    },
+    "answer": "D",
+    "explanation": "New machines reduce wastage and increase efficiency.",
+    "source": "Shaheed Bir Uttam Lt. Anwar Girls College, Dhaka"
+  },
+  {
+    "id": 198,
+    "question": "Mr. Islam is the production manager of a garments factory. He always keeps sufficient raw materials in stock to continue production regularly. For what purpose does Mr. Islam keep sufficient raw materials in stock?",
+    "options": {
+      "A": "To keep production going regularly",
+      "B": "For market expansion",
+      "C": "To increase profit",
+      "D": "To increase workers' wages"
+    },
+    "answer": "A",
+    "explanation": "The goal is to maintain an uninterrupted production process.",
+    "source": "Shaheed Ramiz Uddin Cantonment College"
+  },
+  {
+    "id": 199,
+    "question": "Through worker training, Mr. Islam wants to achieve— (i. Increased production ii. Quality control iii. Market expansion) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Training increases production and quality. Market expansion is an indirect result.",
+    "source": "Shaheed Ramiz Uddin Cantonment College"
+  },
+  {
+    "id": 200,
+    "question": "Quality control is what type of function in production?",
+    "options": {
+      "A": "Preparation phase",
+      "B": "During production",
+      "C": "Supportive",
+      "D": "Control"
+    },
+    "answer": "D",
+    "explanation": "Quality control is a controlling function.",
+    "source": "Bangladesh Navy College, Chittagong"
+  },
+  {
+    "id": 201,
+    "question": "The tasks of the preparation phase of production are— (i. Product design ii. Production planning iii. Work study) Which is correct?",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All: design, planning, and work study are done in the preparation phase.",
+    "source": "Bangladesh Navy College, Chittagong"
+  }
+]

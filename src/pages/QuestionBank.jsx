@@ -30,9 +30,13 @@ const QuestionBank = () => {
         fetchQuestions();
     }, [filters]);
 
-    const filteredQuestions = questions.filter(q =>
-        q.question_text.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    const normalizedSearch = searchTerm.trim().toLowerCase();
+    const filteredQuestions = questions.filter(q => {
+        const text = q?.question_text;
+        if (!text) return false;
+        if (!normalizedSearch) return true;
+        return text.toLowerCase().includes(normalizedSearch);
+    });
 
     const totalPages = Math.ceil(filteredQuestions.length / questionsPerPage);
     const paginatedQuestions = filteredQuestions.slice((page - 1) * questionsPerPage, page * questionsPerPage);
