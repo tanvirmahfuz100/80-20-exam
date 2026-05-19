@@ -1,0 +1,418 @@
+[
+  {
+    "id": 238,
+    "question": "Through which system is financial compensation for accidental losses possible?",
+    "options": {
+      "A": "Loan system",
+      "B": "Installment system",
+      "C": "Insurance system",
+      "D": "Control system"
+    },
+    "answer": "C",
+    "explanation": "Financial compensation for accidental losses is possible through the insurance system. Insurance provides risk distribution and financial security.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 239,
+    "question": "When is an insurance company obligated to pay money?",
+    "options": {
+      "A": "When the contract is executed",
+      "B": "When loss or damage occurs due to insured causes",
+      "C": "When a loan is taken",
+      "D": "When risk is reduced"
+    },
+    "answer": "B",
+    "explanation": "An insurance company is obligated to pay money when loss or damage occurs due to insured causes. Compensation is provided according to the terms stated in the insurance contract.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 240,
+    "question": "Which is the oldest type of insurance?",
+    "options": {
+      "A": "Life insurance",
+      "B": "Marine insurance",
+      "C": "Fire insurance",
+      "D": "Crop insurance"
+    },
+    "answer": "B",
+    "explanation": "Marine insurance is the oldest type of insurance. It was first introduced to protect against the risks of sea trade.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 241,
+    "question": "In which country did the insurance business originate?",
+    "options": {
+      "A": "England",
+      "B": "Italy",
+      "C": "United States",
+      "D": "Greece"
+    },
+    "answer": "B",
+    "explanation": "The insurance business originated in Italy. Commercial insurance activities first began in the Lombardy region of Italy in the 12th century.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 242,
+    "question": "What is the possibility of financial loss called?",
+    "options": {
+      "A": "Wastage",
+      "B": "Depreciation",
+      "C": "Premium",
+      "D": "Risk"
+    },
+    "answer": "D",
+    "explanation": "The possibility of financial loss is called risk. Insurance is a modern and effective system for distributing risk.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 243,
+    "question": "On what basis is insurable interest created?",
+    "options": {
+      "A": "Based on reputation",
+      "B": "Based on debt",
+      "C": "Based on good faith",
+      "D": "Based on ownership"
+    },
+    "answer": "D",
+    "explanation": "Insurable interest is created on the basis of ownership. Only if one has ownership of property can it be insured.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 244,
+    "question": "Based on which principle can the same property be insured with multiple insurers?",
+    "options": {
+      "A": "Principle of Proximate Cause",
+      "B": "Principle of Contribution",
+      "C": "Principle of Subrogation",
+      "D": "Principle of Indemnity"
+    },
+    "answer": "B",
+    "explanation": "Based on the Principle of Contribution, the same property can be insured with multiple insurers. In case of loss, all contribute proportionately to compensation.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 245,
+    "question": "What does the Principle of Subrogation mean?",
+    "options": {
+      "A": "If the insured object is partially damaged, the insurer will provide full compensation",
+      "B": "Upon providing full compensation, the ownership of the property transfers to the insurer",
+      "C": "If the insured object is totally damaged, the insurer will provide partial compensation",
+      "D": "If the insured object is damaged, the insurer will acquire ownership"
+    },
+    "answer": "B",
+    "explanation": "According to the Principle of Subrogation, upon providing full compensation, the ownership of the damaged property transfers to the insurer.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 246,
+    "question": "Which is an essential fundamental element of an insurance contract?",
+    "options": {
+      "A": "Principle of Insurable Interest",
+      "B": "Principle of Service",
+      "C": "Principle of Subrogation",
+      "D": "Principle of Prompt Claim Settlement"
+    },
+    "answer": "A",
+    "explanation": "The Principle of Insurable Interest is an essential fundamental element of an insurance contract. Without it, no insurance contract is valid.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 247,
+    "question": "What is the principle of indemnity in insurance?",
+    "options": {
+      "A": "Compensating the loss",
+      "B": "Giving cash",
+      "C": "Paying exactly what is lost",
+      "D": "Giving a cheque"
+    },
+    "answer": "C",
+    "explanation": "The Principle of Indemnity in insurance is 'paying exactly what is lost'. The insured cannot claim more than the actual loss.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 248,
+    "question": "What must the insured have over the insured object?",
+    "options": {
+      "A": "Risk",
+      "B": "Welfare",
+      "C": "Security",
+      "D": "Financial interest"
+    },
+    "answer": "D",
+    "explanation": "The insured must have a financial interest in the insured object. This is known as insurable interest.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 249,
+    "question": "What is the consideration of an insurance contract?",
+    "options": {
+      "A": "Premium",
+      "B": "Claim settlement",
+      "C": "Policy formulation",
+      "D": "Cash"
+    },
+    "answer": "A",
+    "explanation": "The consideration of an insurance contract is the premium. The insured pays a premium at a specified rate, and in exchange, the insurer guarantees compensation.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 250,
+    "question": "In an insurance contract, who legally makes the proposal?",
+    "options": {
+      "A": "Insurance agent",
+      "B": "Insured",
+      "C": "Insurance company",
+      "D": "Insurer"
+    },
+    "answer": "B",
+    "explanation": "In an insurance contract, the proposal is legally made by the insured. They apply to the insurance company for insurance.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 251,
+    "question": "What is a special element of an insurance contract?",
+    "options": {
+      "A": "Lawful consideration",
+      "B": "Lawful purpose",
+      "C": "Lawful proposal and acceptance",
+      "D": "Replacement"
+    },
+    "answer": "B",
+    "explanation": "A lawful purpose is a special element of an insurance contract. An insurance contract must be executed for a lawful purpose.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 252,
+    "question": "In which insurance can one simultaneously save and invest?",
+    "options": {
+      "A": "Life insurance",
+      "B": "Marine insurance",
+      "C": "Fire insurance",
+      "D": "Liability insurance"
+    },
+    "answer": "A",
+    "explanation": "In life insurance, one can simultaneously save and invest. It is both a medium of security and savings.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 253,
+    "question": "What type of contract is life insurance called?",
+    "options": {
+      "A": "Financial contract",
+      "B": "Promise contract",
+      "C": "Scientific contract",
+      "D": "Contract of assurance"
+    },
+    "answer": "D",
+    "explanation": "Life insurance is called a contract of assurance. Because death is inevitable, payment of compensation in life insurance is certain.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 254,
+    "question": "In which type of insurance do others receive money upon one person's death?",
+    "options": {
+      "A": "Double insurance",
+      "B": "Term insurance",
+      "C": "Time insurance",
+      "D": "Joint life insurance"
+    },
+    "answer": "D",
+    "explanation": "In joint life insurance, others receive money upon one person's death. It is suitable for husband-wife or business partners.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 255,
+    "question": "In which year after independence did the insurance business begin?",
+    "options": {
+      "A": "1971",
+      "B": "1975",
+      "C": "1978",
+      "D": "1972"
+    },
+    "answer": "D",
+    "explanation": "After independence, the insurance business began in Bangladesh in 1972. The Bangladesh Insurance Corporation was established on 14 May 1972.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 256,
+    "question": "Important for a country's national development are- i. Risk determination ii. Propensity to save iii. National savings rate",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "For national development, the propensity to save and the national savings rate are important. Risk determination is not a direct factor of national development.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 257,
+    "question": "An insurance company indicates lower risk- i. When the number of insurance policies is high ii. When insurance policies are acceptable iii. When the probability of loss is lower than normal",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "An insurance company's risk is lower when the number of policies is high, policies are acceptable, and the probability of loss is lower than normal. All three conditions reduce risk.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 258,
+    "question": "Insurance always- i. Cannot prevent sudden danger ii. Can take the risk of loss in danger iii. Can distribute risk",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Insurance cannot prevent sudden danger (i), but it can take the risk of loss (ii) and can distribute risk (iii). All three characteristics are correct.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 259,
+    "question": "An insurance policy mentions- i. The objective of the contract ii. The subject matter of the contract iii. The terms and conditions of the contract",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "An insurance policy mentions the objective of the contract, the subject matter, and the terms and conditions. It is the written evidence of the insurance contract.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 260,
+    "question": "Essential elements of an insurance contract are- i. Insurable interest ii. Proximate cause iii. Assignment of rights",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Essential elements of an insurance contract are insurable interest and proximate cause. Assignment of rights is not a mandatory element.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 261,
+    "question": "According to the terms of the insurance business, mandatory matters are- i. Providing loans at a specified rate ii. Paying a specified amount of money iii. Paying a premium at a specified rate",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "According to insurance terms, the insurer pays a specified amount of money (ii) and the insured pays a premium at a specified rate (iii). Providing loans at a specified rate is not an insurance matter.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 262,
+    "question": "Applicable in the case of insurance are- i. Insurable interest must exist in marine insurance ii. Premium profit is available in marine insurance iii. Marine insurance is a contract of indemnity",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "In marine insurance, insurable interest must exist (i), premium profit is available (ii), and it is a contract of indemnity (iii). All three characteristics apply to marine insurance.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 263,
+    "question": "Reasons for the re-enactment of the Insurance Act are- i. To strengthen the legal framework of insurance ii. To make insurance activities dynamic iii. To protect the interests of the insurer",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three reasons for the re-enactment of the Insurance Act are correct: strengthening the legal framework, making activities dynamic, and protecting the insurer's interests.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 264,
+    "question": "[Stimulus] Mr. Fahim wants to insure his friend Karim's garment factory... Finally, at Fahim's request, Karim took an insurance contract with two insurance companies A and B for a total value of Tk 1 crore. After some time, a fire caused a loss of Tk 50 lakh... How much compensation will Mr. Karim receive from Insurance Company A?",
+    "options": {
+      "A": "Tk 25 lakh",
+      "B": "Tk 50 lakh",
+      "C": "Tk 75 lakh",
+      "D": "Tk 1 crore"
+    },
+    "answer": "B",
+    "explanation": "According to the Principle of Contribution, when two companies insure for Tk 1 crore, each bears half the liability. Therefore, Company A will pay Tk 50 lakh as compensation.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 265,
+    "question": "Why did the insurance companies reject Fahim's insurance claim?",
+    "options": {
+      "A": "Legal relationship",
+      "B": "Lawful consideration",
+      "C": "Insurable interest",
+      "D": "Financial indemnity"
+    },
+    "answer": "C",
+    "explanation": "The insurance companies rejected Fahim's insurance claim due to a lack of insurable interest. Fahim has no financial interest in Karim's garment factory.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 266,
+    "question": "[Stimulus] Sir spoke many good things about insurance in class... Which of Sir's good statements about insurance is more reasonable?",
+    "options": {
+      "A": "Insurance controls risk",
+      "B": "It reinstates property if damaged",
+      "C": "It is a type of financial defense system against risk",
+      "D": "Insurance covers losses from any cause"
+    },
+    "answer": "C",
+    "explanation": "Insurance is a type of financial defense system against risk. It covers losses, but not from all causes, only those insured against.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 267,
+    "question": "Reasons why Sir himself did not take insurance could be- i. Insurance makes people lazy ii. There is a type of negative perception about insurance in society iii. Many insurance companies are not sincere in settling claims",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three reasons could be behind Sir not taking insurance: the perception that insurance makes people lazy, negative social perception, and the insincerity of insurance companies. All are realistic reasons.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 268,
+    "question": "[Stimulus] Mr. Masud took an insurance policy to protect himself from financial loss due to death caused by any accident or disease of his livestock. Based on the subject matter of insurance, what type of insurance does Mr. Masud's insurance belong to?",
+    "options": {
+      "A": "Personal",
+      "B": "Liability",
+      "C": "Property",
+      "D": "Fidelity"
+    },
+    "answer": "C",
+    "explanation": "Mr. Masud's insurance belongs to property insurance. Livestock is considered as property.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  },
+  {
+    "id": 269,
+    "question": "In Mr. Masud's insurance, the following must be considered with importance- i. Health of the animal ii. Age iii. Purpose of the insured",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "In livestock insurance, the animal's health, age, and the insured's purpose must all be considered with importance. All are essential for risk assessment.",
+    "source": "Finance, Banking & Insurance, Chapter-10"
+  }
+]

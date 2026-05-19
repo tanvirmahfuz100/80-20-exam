@@ -1,0 +1,315 @@
+[
+  {
+    "id": 357,
+    "question": "What does miscellaneous insurance mean?",
+    "options": {
+      "A": "All types of insurance",
+      "B": "Life insurance",
+      "C": "Fire insurance",
+      "D": "Insurance outside general insurance"
+    },
+    "answer": "D",
+    "explanation": "Miscellaneous insurance refers to insurance that falls outside the main categories of life, fire, and marine insurance. Examples include theft, accident, and liability insurance.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 358,
+    "question": "Which is an example of miscellaneous insurance?",
+    "options": {
+      "A": "Life insurance",
+      "B": "Marine insurance",
+      "C": "Theft insurance",
+      "D": "Fire insurance"
+    },
+    "answer": "C",
+    "explanation": "Theft insurance is an example of miscellaneous insurance. It provides protection against loss or damage due to theft or burglary.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 359,
+    "question": "What type of insurance contract is theft insurance?",
+    "options": {
+      "A": "Contract of assurance",
+      "B": "Contract of indemnity",
+      "C": "General contract",
+      "D": "Special contract"
+    },
+    "answer": "B",
+    "explanation": "Theft insurance is a contract of indemnity. The insurer compensates the insured for the actual amount of loss caused by theft.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 360,
+    "question": "Under which insurance does livestock insurance fall?",
+    "options": {
+      "A": "Life insurance",
+      "B": "General insurance",
+      "C": "Miscellaneous insurance",
+      "D": "Property insurance"
+    },
+    "answer": "C",
+    "explanation": "Livestock insurance falls under the category of miscellaneous insurance. It provides protection against the death of livestock due to accidents or diseases.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 361,
+    "question": "What type of insurance is taken to protect against the potential risk of crop destruction?",
+    "options": {
+      "A": "Accident insurance",
+      "B": "Crop insurance",
+      "C": "Theft insurance",
+      "D": "Fire insurance"
+    },
+    "answer": "B",
+    "explanation": "Crop insurance is taken to protect against the risk of crop destruction due to natural disasters, pests, or diseases.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 362,
+    "question": "Which type of insurance provides protection against legal liability for damage caused to a third party?",
+    "options": {
+      "A": "Liability insurance",
+      "B": "Personal accident insurance",
+      "C": "Crop insurance",
+      "D": "Theft insurance"
+    },
+    "answer": "A",
+    "explanation": "Liability insurance provides protection against legal liability for damage or injury caused to a third party. It covers legal expenses and compensation.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 363,
+    "question": "In which type of insurance is the Principle of Indemnity not applicable?",
+    "options": {
+      "A": "Theft insurance",
+      "B": "Personal accident insurance",
+      "C": "Crop insurance",
+      "D": "Fire insurance"
+    },
+    "answer": "B",
+    "explanation": "The Principle of Indemnity is not applicable in personal accident insurance because the value of human life or limb cannot be precisely measured in money.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 364,
+    "question": "Which type of insurance can be taken for workers in a factory?",
+    "options": {
+      "A": "Fidelity insurance",
+      "B": "Group insurance",
+      "C": "Workers' compensation insurance",
+      "D": "Liability insurance"
+    },
+    "answer": "C",
+    "explanation": "Workers' compensation insurance can be taken for workers. It provides compensation for injuries or death occurring during work.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 365,
+    "question": "What type of insurance should farmer Sabur take to protect against the potential risk of crop destruction?",
+    "options": {
+      "A": "Theft insurance",
+      "B": "Aviation insurance",
+      "C": "Crop insurance",
+      "D": "Livestock insurance"
+    },
+    "answer": "C",
+    "explanation": "Farmer Sabur should take crop insurance to protect against the risk of crop destruction. It provides compensation for crop losses.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 366,
+    "question": "In livestock insurance, which type of risk is higher?",
+    "options": {
+      "A": "Natural",
+      "B": "Moral",
+      "C": "Immoral",
+      "D": "Social"
+    },
+    "answer": "A",
+    "explanation": "In livestock insurance, the level of natural risk is higher. Livestock can die from diseases, epidemics, and natural disasters.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 367,
+    "question": "If damage is caused to a third party due to an accident, through which type of contract is compensation arranged?",
+    "options": {
+      "A": "Crop insurance",
+      "B": "Accident insurance",
+      "C": "Liability insurance",
+      "D": "Theft insurance"
+    },
+    "answer": "C",
+    "explanation": "Compensation for third-party damage is arranged through liability insurance. It provides protection from legal liability.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 368,
+    "question": "In the case of double insurance compensation, which principle is more effective?",
+    "options": {
+      "A": "Principle of Subrogation",
+      "B": "Principle of Contribution",
+      "C": "Principle of Indemnity",
+      "D": "Principle of Utmost Good Faith"
+    },
+    "answer": "B",
+    "explanation": "In the case of double insurance, the Principle of Contribution is more effective. Multiple insurers provide compensation proportionately.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 369,
+    "question": "In a country whose economy is agriculture-based, what does the extensive production of crops depend on?",
+    "options": {
+      "A": "Country's progress",
+      "B": "Economy",
+      "C": "Society",
+      "D": "State"
+    },
+    "answer": "B",
+    "explanation": "In an agriculture-based country, the economy depends on the extensive production of crops. Crops are the main driving force of the economy.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 370,
+    "question": "In crop insurance, what portion of the loss does the insurance company cover?",
+    "options": {
+      "A": "90%",
+      "B": "70%",
+      "C": "50%",
+      "D": "10%"
+    },
+    "answer": "B",
+    "explanation": "In crop insurance, the insurance company covers 70% of the loss. The remaining portion is borne by the farmer. This is known as co-insurance.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 371,
+    "question": "In which country was crop insurance first introduced?",
+    "options": {
+      "A": "United Kingdom",
+      "B": "Germany",
+      "C": "United States",
+      "D": "France"
+    },
+    "answer": "C",
+    "explanation": "Crop insurance was first introduced in the United States. It began through the Federal Crop Insurance Program in 1938.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 372,
+    "question": "Through which insurance is savings actually made for the future?",
+    "options": {
+      "A": "Health insurance",
+      "B": "Liability insurance",
+      "C": "Life insurance",
+      "D": "Fire insurance"
+    },
+    "answer": "C",
+    "explanation": "Through life insurance, savings are actually made for the future. It is simultaneously a medium of protection and savings.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 373,
+    "question": "Which type of insurance premium is considered as income tax deduction?",
+    "options": {
+      "A": "Life insurance",
+      "B": "Riot insurance",
+      "C": "Crop insurance",
+      "D": "Health insurance"
+    },
+    "answer": "A",
+    "explanation": "Life insurance premiums are considered as income tax deductions. Tax benefits are provided on life insurance premiums in Bangladesh.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 374,
+    "question": "In livestock insurance, the presence of which type of risk is particularly important?",
+    "options": {
+      "A": "Natural",
+      "B": "Moral",
+      "C": "Immoral",
+      "D": "Social"
+    },
+    "answer": "B",
+    "explanation": "In livestock insurance, the presence of moral hazard is particularly important because there is a risk of intentionally causing the death of animals to claim compensation.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 375,
+    "question": "What is the claim settlement procedure for livestock insurance?",
+    "options": {
+      "A": "Notification",
+      "B": "Policy acceptance",
+      "C": "Compensation",
+      "D": "Amount of loss"
+    },
+    "answer": "A",
+    "explanation": "The claim settlement procedure for livestock insurance is notification. Upon the death of an animal, the insurance company must be notified first.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 376,
+    "question": "Potential risks of crop destruction are- i. General ii. Natural iii. Unnatural",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Potential risks of crop destruction include general, natural, and unnatural risks. All three types can cause crop destruction.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 377,
+    "question": "Applicable in the case of livestock insurance are- i. Insurable interest, utmost good faith ii. Principle of subrogation iii. Principle of indemnity",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All three principles apply to livestock insurance: insurable interest and utmost good faith, principle of subrogation, and principle of indemnity.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 378,
+    "question": "All-risk crop insurance includes- i. Natural risk ii. Social risk iii. Moral hazard",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All-risk crop insurance includes natural risk, social risk, and moral hazard. It provides comprehensive protection.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 379,
+    "question": "[Stimulus] Mr. Aminul is a dairy farm businessman. He has cows and calves worth Tk 10 crore on his farm. He insured Tk 8 crore with the insurer... What class of insurance policy did Mr. Aminul Islam take?",
+    "options": {
+      "A": "Life insurance",
+      "B": "Property insurance",
+      "C": "Accident insurance",
+      "D": "Social insurance"
+    },
+    "answer": "B",
+    "explanation": "Mr. Aminul's livestock insurance falls under property insurance. Livestock is considered as property.",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  },
+  {
+    "id": 380,
+    "question": "How much compensation is Mr. Aminul Islam entitled to receive from the insurer?",
+    "options": {
+      "A": "Tk 10 crore",
+      "B": "Tk 5 crore",
+      "C": "Tk 8 crore",
+      "D": "Tk 3 crore"
+    },
+    "answer": "B",
+    "explanation": "According to the Average Clause, compensation = (Insured value / Actual value) × Amount of loss = (8 crore / 10 crore) × 5 crore = 4 crore. The answer marked is Tk 5 crore, representing the full amount of loss.",
+    "confidence": "low",
+    "source": "Finance, Banking & Insurance, Chapter-14"
+  }
+]

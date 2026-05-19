@@ -1,0 +1,548 @@
+[
+  {
+    "id": 188,
+    "question": "What is an unsecured bond generally called?",
+    "options": {
+      "A": "Share",
+      "B": "Bearer bond",
+      "C": "Registered bond",
+      "D": "Income bond"
+    },
+    "answer": "B",
+    "explanation": "A bearer bond is generally an unsecured bond. Whoever holds it is considered its owner. In a registered bond, the owner's name is registered.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 189,
+    "question": "Despite having a primary market, why is a secondary market for shares necessary?",
+    "options": {
+      "A": "To increase liquidity of securities",
+      "B": "To increase share sales in the primary market",
+      "C": "To issue new securities",
+      "D": "To increase the price of market securities"
+    },
+    "answer": "A",
+    "explanation": "The main function of the secondary market is to ensure liquidity of securities. Through this, shareholders can easily buy and sell their shares.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 190,
+    "question": "Which is a source of fund collection for business finance?",
+    "options": {
+      "A": "Income tax",
+      "B": "Value Added Tax",
+      "C": "Debenture",
+      "D": "Import duty"
+    },
+    "answer": "C",
+    "explanation": "Debentures are an important source of fund collection for business finance. The others (income tax, VAT, duties) are sources of government revenue.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 191,
+    "question": "Which is a capital market instrument?",
+    "options": {
+      "A": "Treasury bill",
+      "B": "Commercial paper",
+      "C": "Preference share",
+      "D": "Banker's acceptance"
+    },
+    "answer": "C",
+    "explanation": "Preference shares are capital market instruments. Treasury bills and commercial papers are money market instruments.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 192,
+    "question": "What are bonds issued by a company called?",
+    "options": {
+      "A": "Debenture",
+      "B": "Treasury bond",
+      "C": "Treasury bill",
+      "D": "Corporate bond"
+    },
+    "answer": "D",
+    "explanation": "Bonds issued by a company are called corporate bonds. When issued by the government, they are called treasury bonds.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 193,
+    "question": "In exchange for what do underwriters accept the responsibility of selling shares?",
+    "options": {
+      "A": "Interest",
+      "B": "Commission",
+      "C": "Profit",
+      "D": "Dividend"
+    },
+    "answer": "B",
+    "explanation": "Underwriters accept the responsibility of selling shares in exchange for commission. They guarantee to buy unsold shares themselves.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 194,
+    "question": "In which situation is it profitable to buy bonds?",
+    "options": {
+      "A": "When present value and market price are equal",
+      "B": "When present value is higher than market price",
+      "C": "When present value is lower than market price",
+      "D": "When market price is higher than present value"
+    },
+    "answer": "B",
+    "explanation": "When the present value (intrinsic value) of a bond is higher than the market price, the bond is undervalued and it is profitable to buy.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 195,
+    "question": "Why is preference share alternatively called a hybrid security?",
+    "options": {
+      "A": "Preference shareholders' dividend is fixed",
+      "B": "Preference shares have characteristics of both common shares and bonds",
+      "C": "Preference shares have a fixed maturity",
+      "D": "Preference shareholders get priority in dividend distribution"
+    },
+    "answer": "B",
+    "explanation": "Preference shares are called hybrid securities because they have characteristics of both common shares (ownership) and bonds (fixed income).",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 196,
+    "question": "In which case is the coupon rate mentioned?",
+    "options": {
+      "A": "Share",
+      "B": "Debenture",
+      "C": "Zero coupon bond",
+      "D": "Preference share"
+    },
+    "answer": "B",
+    "explanation": "The coupon rate is mentioned in debentures or bonds, indicating the bond's interest rate. Zero coupon bonds do not have a coupon rate.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 197,
+    "question": "A bond has a face value of Tk 1,000 and a coupon rate of 8%. Currently the bond is selling at Tk 970. What is the current yield?",
+    "options": {
+      "A": "6%",
+      "B": "8.24%",
+      "C": "9.0%",
+      "D": "10%"
+    },
+    "answer": "B",
+    "explanation": "Annual interest = 1,000 × 8% = Tk 80. Current yield = Annual interest / Market price = 80 / 970 = 0.08247 = 8.24%.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 198,
+    "question": "Which is a fixed-income security?",
+    "options": {
+      "A": "Common share",
+      "B": "Bill receivable",
+      "C": "Bond",
+      "D": "Bill payable"
+    },
+    "answer": "C",
+    "explanation": "Bonds are fixed-income securities because they provide a fixed rate of interest. Common share dividends are uncertain, so they are not fixed income.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 199,
+    "question": "For which type of bond are the lender's name and address recorded?",
+    "options": {
+      "A": "Bearer bond",
+      "B": "Registered bond",
+      "C": "Income bond",
+      "D": "Zero coupon bond"
+    },
+    "answer": "B",
+    "explanation": "For registered bonds, the lender's name, address, etc. are recorded in the company's books. Interest and principal are paid only to the registered owner.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 200,
+    "question": "What is paid to lenders as compensation for their loan?",
+    "options": {
+      "A": "Dividend",
+      "B": "Remuneration",
+      "C": "Interest",
+      "D": "Profit"
+    },
+    "answer": "C",
+    "explanation": "Interest is paid to lenders in exchange for providing loans. This is the price for using borrowed money. Dividends are paid to shareholders.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 201,
+    "question": "At what rate is interest paid on zero coupon bonds?",
+    "options": {
+      "A": "Coupon rate",
+      "B": "High rate",
+      "C": "Market rate",
+      "D": "Zero rate"
+    },
+    "answer": "D",
+    "explanation": "No interest is paid on zero coupon bonds. They are sold at a discount and the full face value is repaid at maturity.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 202,
+    "question": "Mr. Mamun purchased 5-year bonds of ABC Company at Tk 1,000 each. The bond's face value is Tk 1,000 and coupon rate is 10%. What is the yield to maturity?",
+    "options": {
+      "A": "9%",
+      "B": "12%",
+      "C": "10%",
+      "D": "15%"
+    },
+    "answer": "C",
+    "explanation": "When the purchase price and face value of a bond are equal, the yield to maturity equals the coupon rate. Therefore, YTM = 10%.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 203,
+    "question": "On whose behalf does Bangladesh Bank issue treasury bonds?",
+    "options": {
+      "A": "Commercial bank",
+      "B": "Company",
+      "C": "Government",
+      "D": "City corporation"
+    },
+    "answer": "C",
+    "explanation": "Bangladesh Bank issues treasury bonds on behalf of the government. This is a medium of long-term borrowing for the government.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 204,
+    "question": "What are funds collected for the purpose of investing in fixed assets of a business organization called?",
+    "options": {
+      "A": "Short-term financing",
+      "B": "Medium-term financing",
+      "C": "Long-term financing",
+      "D": "Working capital financing"
+    },
+    "answer": "C",
+    "explanation": "Long-term financing is needed for investment in fixed assets. This is generally a fund with a term of more than 5 years.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 205,
+    "question": "Which capital's cost is called opportunity cost?",
+    "options": {
+      "A": "Common share",
+      "B": "Debt capital",
+      "C": "Preference share",
+      "D": "Retained capital"
+    },
+    "answer": "D",
+    "explanation": "The cost of retained capital (Retained Earnings) is called opportunity cost. Because if this money were given to shareholders as dividends, they could invest it elsewhere and earn income.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 206,
+    "question": "Funds acquired through long-term financing are generally used in which sector?",
+    "options": {
+      "A": "Purchasing current assets",
+      "B": "Purchasing temporary assets",
+      "C": "Purchasing fixed assets",
+      "D": "Paying current liabilities"
+    },
+    "answer": "C",
+    "explanation": "Long-term funds are generally used for purchasing fixed assets (such as land, machinery, buildings). Short-term funds are used for current assets and paying current liabilities.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 207,
+    "question": "Which type of share is best for those expecting fixed income?",
+    "options": {
+      "A": "Common",
+      "B": "Bonus",
+      "C": "Preference",
+      "D": "Right"
+    },
+    "answer": "C",
+    "explanation": "Preference shares are best for those expecting fixed income, because they provide dividends at a fixed rate and are paid before common shares.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 208,
+    "question": "What is the daily capital needed to operate a business called?",
+    "options": {
+      "A": "Fixed capital",
+      "B": "Paid-up capital",
+      "C": "Daily capital",
+      "D": "Working capital"
+    },
+    "answer": "D",
+    "explanation": "Working capital is the capital needed for the daily operations of a business. It is used for purchasing raw materials, paying wages, etc.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 209,
+    "question": "What does the coupon rate indicate?",
+    "options": {
+      "A": "Common share dividend",
+      "B": "Number of bank coupons",
+      "C": "Bond interest rate",
+      "D": "Preference share dividend"
+    },
+    "answer": "C",
+    "explanation": "The coupon rate indicates the interest rate of a bond or debenture. It is the annual interest rate payable on the face value of the bond.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 210,
+    "question": "Which is a source of long-term fund collection?",
+    "options": {
+      "A": "Commercial paper",
+      "B": "Treasury bill",
+      "C": "Debenture",
+      "D": "Banker's acceptance"
+    },
+    "answer": "C",
+    "explanation": "Debentures/Bonds are sources of long-term fund collection. Commercial paper and treasury bills are short-term fund sources.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 211,
+    "question": "Which is an external source of capital?",
+    "options": {
+      "A": "Bond",
+      "B": "Bonus share",
+      "C": "Reserve fund",
+      "D": "Common share"
+    },
+    "answer": "A",
+    "explanation": "Bonds are an external source of capital, as they collect funds from investors outside the company. Reserve funds are internal sources.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 212,
+    "question": "In the case of bank loans, who determines the interest rate on the loan?",
+    "options": {
+      "A": "Bank",
+      "B": "Government",
+      "C": "Customer",
+      "D": "Revenue Board"
+    },
+    "answer": "A",
+    "explanation": "In bank loans, the interest rate is determined by the bank itself. However, central bank policies and market conditions influence it.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 213,
+    "question": "XYZ Limited has issued a new type of bond to the market for investors. According to the terms, the bond's interest will be paid based on the company's profit. What type is XYZ Limited's bond?",
+    "options": {
+      "A": "Put bond",
+      "B": "Income bond",
+      "C": "Zero coupon bond",
+      "D": "Mortgage bond"
+    },
+    "answer": "B",
+    "explanation": "Income bond interest depends on the company's profit. The company pays interest only when it earns a profit, otherwise not.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 214,
+    "question": "Rimon purchased debentures of BC Company. According to the terms, after repayment, BC Company will get back the ownership of the purchased machinery given as collateral. What type is Rimon's bond?",
+    "options": {
+      "A": "Chattel mortgage",
+      "B": "Income bond",
+      "C": "Equipment trust certificate",
+      "D": "Registered bond"
+    },
+    "answer": "C",
+    "explanation": "Equipment trust certificates are bonds issued against movable property like machinery as collateral. After loan repayment, ownership of the property is returned.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 215,
+    "question": "From an organization, who receives interest for a specified term?",
+    "options": {
+      "A": "Lender",
+      "B": "Preference shareholder",
+      "C": "Common shareholder",
+      "D": "Borrower"
+    },
+    "answer": "A",
+    "explanation": "Lenders or bondholders receive interest for a specified term. Common shareholders receive dividends, which are not guaranteed.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 216,
+    "question": "As long as the company exists, which share's maturity exists?",
+    "options": {
+      "A": "Common share",
+      "B": "Preference share",
+      "C": "Risk",
+      "D": "Zero liability"
+    },
+    "answer": "A",
+    "explanation": "Common shares have no specific maturity or maturity period. As long as the company exists, common shares will exist. Preference shares may have a maturity.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 217,
+    "question": "Reasons for a shorter cash cycle are- i. Longer production time ii. Longer average payment period iii. Shorter average collection period",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Reasons for a shorter cash cycle: longer production time or shorter average collection period. A longer average payment period increases the cash cycle.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 218,
+    "question": "The objectives of profit retention are- i. Company expansion ii. Tax evasion iii. Internal financing",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "The main objectives of profit retention are company expansion and ensuring internal financing. Tax evasion is not a legitimate objective.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 219,
+    "question": "Characteristics of bonds are- i. Interest rate ii. Call provision iii. No voting rights",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Bond characteristics include a fixed interest rate, call provision (provision for early repayment), and bondholders having no voting rights.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 220,
+    "question": "Internal sources of long-term financing are- i. Debenture ii. Retained earnings iii. Depreciation fund",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Internal sources of long-term financing are retained earnings and depreciation funds. Debentures are external sources.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 221,
+    "question": "Determinants of investment decisions are- i. Earnings per share ii. Type of business iii. Price-earnings ratio",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "As determinants of investment decisions, earnings per share (EPS), type of business, and price-earnings (P/E) ratio are considered.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 222,
+    "question": "Characteristics of long-term financing are- i. Amount of fund ii. Use of fund iii. Nature of fund",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Characteristics of long-term financing include the amount of fund (large sum), use of fund (in fixed assets), and nature of fund (long-term).",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 223,
+    "question": "The matters mentioned in a debenture document are- i. Loan interest ii. Payment term iii. Interest rate",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "A debenture document mentions the loan amount, interest rate, payment term, collateral description, etc.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 224,
+    "question": "[Stimulus] ACI Ltd. wants to raise capital from the market by selling bonds with a face value of Tk 1,000 for the next 5 years. The required rate of return or cost of capital from the bond is set at 12%. What is the name of the bond issued by ACI Ltd.?",
+    "options": {
+      "A": "Redeemable bond",
+      "B": "Irredeemable bond",
+      "C": "Zero coupon bond",
+      "D": "Mortgage bond"
+    },
+    "answer": "A",
+    "explanation": "ACI Ltd. has issued a 5-year bond that must be repaid after a specified period. Therefore, it is a redeemable bond.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 225,
+    "question": "What is the cost of the bond issued by ACI Ltd.?",
+    "options": {
+      "A": "Tk 567",
+      "B": "Tk 767",
+      "C": "Tk 893",
+      "D": "Tk 1,000"
+    },
+    "answer": "A",
+    "explanation": "Present value (cost) of bond = 1,000 / (1.12)^5 = 1,000 / 1.7623 = Tk 567 (approx).",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 226,
+    "question": "[Stimulus] Zakir Hossain of Narsingdi, a garment industry businessman, rented some machinery for three years for a new establishment... Which source of fund collection did Zakir Hossain use?",
+    "options": {
+      "A": "Advance from customers",
+      "B": "Commercial paper",
+      "C": "Leasing",
+      "D": "Debenture"
+    },
+    "answer": "C",
+    "explanation": "Zakir Hossain rented or leased machinery, which falls under leasing finance. This is a source of long-term financing.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 227,
+    "question": "In fund collection, what aspect did Zakir Hossain emphasize?",
+    "options": {
+      "A": "Necessity of reserve fund",
+      "B": "Unnecessity of taking long-term loans",
+      "C": "Applicable dividend",
+      "D": "Mandatory interest payment"
+    },
+    "answer": "B",
+    "explanation": "Through leasing, Zakir Hossain can use machinery without taking a long-term loan, thus avoiding the need for long-term loans.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 228,
+    "question": "[Stimulus] Mr. Salam issued some bonds of Tk 1,800 each at 13% annual interest for 8 years. Currently the bond is selling at a 5% discount. What is the cost of the bond?",
+    "options": {
+      "A": "13.79%",
+      "B": "13.97%",
+      "C": "17.39%",
+      "D": "38.90%"
+    },
+    "answer": "A",
+    "explanation": "Market price of bond = 1,800 × (1-0.05) = Tk 1,710. Annual interest = 1,800 × 13% = Tk 234. YTM ≈ [234 + (1,800-1,710)/8] / [(1,800+1,710)/2] = [234 + 11.25] / 1,755 = 245.25/1,755 = 13.97%.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  },
+  {
+    "id": 229,
+    "question": "What is the selling price of the bond?",
+    "options": {
+      "A": "Tk 1,070",
+      "B": "Tk 1,710",
+      "C": "Tk 1,930",
+      "D": "Tk 1,770"
+    },
+    "answer": "B",
+    "explanation": "Selling price of bond = Face value × (1 - Discount rate) = 1,800 × 0.95 = Tk 1,710.",
+    "source": "Finance, Banking & Insurance, Chapter-6"
+  }
+]

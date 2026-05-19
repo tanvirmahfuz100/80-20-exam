@@ -1,0 +1,340 @@
+[
+  {
+    "id": 212,
+    "question": "What is meant by electronic banking?",
+    "options": {
+      "A": "Ancient banking",
+      "B": "Medieval banking",
+      "C": "Modern banking",
+      "D": "Pre-medieval banking"
+    },
+    "answer": "C",
+    "explanation": "Electronic banking is the modern banking system where banking services are provided through information technology. It is fast, easy, and time-saving.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 213,
+    "question": "How is electronic banking activity characterized?",
+    "options": {
+      "A": "Difficult and complex",
+      "B": "Easy and sluggish",
+      "C": "Fast and easy",
+      "D": "Fast and complex"
+    },
+    "answer": "C",
+    "explanation": "Electronic banking activities are fast and easy. Through technology, customers can receive banking services from home.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 214,
+    "question": "What is electronic banking primarily?",
+    "options": {
+      "A": "Use of technology in the banking world",
+      "B": "Wireless banking",
+      "C": "Paperwork banking",
+      "D": "Islamic banking"
+    },
+    "answer": "A",
+    "explanation": "Electronic banking is primarily the use of technology in the banking world. Internet, computers, mobile phones, etc., have made banking easier.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 215,
+    "question": "What is the biggest obstacle to internet banking?",
+    "options": {
+      "A": "Money",
+      "B": "Communication",
+      "C": "Security",
+      "D": "Demand"
+    },
+    "answer": "C",
+    "explanation": "The biggest obstacle to internet banking is security. The fear of hacking, phishing, and data theft makes customers hesitant to use internet banking.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 216,
+    "question": "In which bank did electronic banking first begin?",
+    "options": {
+      "A": "City Bank Limited",
+      "B": "Bangladesh Bank",
+      "C": "National Bank",
+      "D": "National City Bank of New York"
+    },
+    "answer": "D",
+    "explanation": "National City Bank of New York (now Citibank) first began electronic banking. It started with the introduction of the first ATM in 1967.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 217,
+    "question": "With what did transactions occur in a Cash Dispenser machine?",
+    "options": {
+      "A": "Credit card",
+      "B": "Bill of exchange",
+      "C": "Plastic card",
+      "D": "Receipt"
+    },
+    "answer": "C",
+    "explanation": "In a Cash Dispenser machine, transactions occurred with the help of a plastic card. This was the early form of the ATM card.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 218,
+    "question": "Sumon went to the market to buy a shirt. But lacking sufficient money for the shirt, he withdrew money from his account using a card and bought the shirt. What type of card did Sumon use?",
+    "options": {
+      "A": "Credit card",
+      "B": "Debit card",
+      "C": "Master card",
+      "D": "Visiting card"
+    },
+    "answer": "B",
+    "explanation": "Sumon withdrew money from his own account, which is a feature of a debit card. With a debit card, you can only spend within the limit of your deposited money.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 219,
+    "question": "Which is a retail electronic banking service?",
+    "options": {
+      "A": "Bank passbook",
+      "B": "Bank cheque book",
+      "C": "Bank deposit receipt",
+      "D": "Bank ATM card"
+    },
+    "answer": "D",
+    "explanation": "A bank ATM card is an example of a retail electronic banking service. With it, customers can withdraw money at any time, 24 hours a day.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 220,
+    "question": "What is the advanced successor of telephone bill payment?",
+    "options": {
+      "A": "Mobile Banking",
+      "B": "Video Home Banking",
+      "C": "Video Banking",
+      "D": "Home Banking"
+    },
+    "answer": "A",
+    "explanation": "Mobile Banking is the advanced successor of telephone banking. It provides banking services through mobile phones.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 221,
+    "question": "What is used to distinguish ATM card customers?",
+    "options": {
+      "A": "Various types of cards",
+      "B": "Card PIN number",
+      "C": "Card covering",
+      "D": "Card shape"
+    },
+    "answer": "B",
+    "explanation": "The card PIN number (Personal Identification Number) is used to distinguish ATM card customers. It is a secret number known only to the cardholder.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 222,
+    "question": "Which is an internationally recognized credit card?",
+    "options": {
+      "A": "Visa card",
+      "B": "Master card",
+      "C": "Proprietary card",
+      "D": "American Express card"
+    },
+    "answer": "D",
+    "explanation": "The American Express card is an internationally recognized credit card. Visa and Mastercard are also international, but American Express is distinctively recognized.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 223,
+    "question": "What is the backbone of credit card operation?",
+    "options": {
+      "A": "Electronic system",
+      "B": "Traditional system",
+      "C": "Magnetic system",
+      "D": "Computer system"
+    },
+    "answer": "A",
+    "explanation": "The electronic system is the backbone of credit card operation. Credit card transactions are completed through electronic networks.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 224,
+    "question": "To bring banking services to people's fingertips, which method do banks introduce?",
+    "options": {
+      "A": "Online banking",
+      "B": "Any branch banking",
+      "C": "Mobile banking",
+      "D": "Home banking"
+    },
+    "answer": "C",
+    "explanation": "Mobile banking has brought banking services to people's fingertips. Banking can be done from anywhere using a mobile phone.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 225,
+    "question": "On what does the banking business depend?",
+    "options": {
+      "A": "Customer",
+      "B": "Owner",
+      "C": "Government",
+      "D": "Politician"
+    },
+    "answer": "A",
+    "explanation": "The banking business depends on customers. The existence of a bank cannot be imagined without customers. Customers are the main driving force of a bank.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 226,
+    "question": "In the modern banking system, what is provided to customers instead of cheques?",
+    "options": {
+      "A": "Credit card",
+      "B": "Cash certificate",
+      "C": "Debit card",
+      "D": "Cheque draft"
+    },
+    "answer": "A",
+    "explanation": "In the modern banking system, a credit card is provided to customers instead of cheques. It is also known as plastic money.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 227,
+    "question": "What is the full form of SWIFT?",
+    "options": {
+      "A": "Society for Worldwide Interbank Financial Telecommunication",
+      "B": "Society for Worldwide Interpersonal Financial Telecommunication",
+      "C": "Society for Worldweb Interbank Financial Telecommunication",
+      "D": "Society for World Interbank Financial Telecommunication"
+    },
+    "answer": "A",
+    "explanation": "SWIFT stands for Society for Worldwide Interbank Financial Telecommunication. It is a secure communication medium for international financial transactions.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 228,
+    "question": "The benefits of electronic banking are- i. Automated calculating machine ii. Home banking iii. Digital banking",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The benefits of electronic banking include automated calculating machines (ATM), home banking, and digital banking. All are included.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 229,
+    "question": "Loans taken through a credit card can be repaid- i. In cash ii. In monthly installments iii. In a lump sum",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Credit card loans can be repaid in monthly installments or in a lump sum. There is no rule for direct cash repayment.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 230,
+    "question": "Benefits of a debit card are- i. Can be used 24 hours a day ii. Can obtain loan facilities iii. Can also be used for purchasing goods and services",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "A debit card can be used 24 hours a day (i) and for purchasing goods and services (iii). However, a debit card does not provide loan facilities (ii is wrong) because it is limited to one's own deposited money.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 231,
+    "question": "Due to the advancement of information technology, it is possible to- i. Find information quickly ii. Receive information late iii. Have a secure information storage system",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Due to the advancement of information technology, information can be found quickly (i) and a secure information storage system has been developed (iii). Receiving information late (ii) is not a result of technological advancement.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 232,
+    "question": "[Stimulus] The CEO of AB Bank highlighted e-banking in their annual meeting... What is the e-banking described in the stimulus?",
+    "options": {
+      "A": "Electronic banking",
+      "B": "Eminte banking",
+      "C": "Elegant banking",
+      "D": "Islamic banking"
+    },
+    "answer": "A",
+    "explanation": "The e-banking described in the stimulus is Electronic Banking, which is a technology-based modern banking service.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 233,
+    "question": "How does this e-banking contribute to customer satisfaction?",
+    "options": {
+      "A": "By charging customers extra",
+      "B": "By improving traditional banking",
+      "C": "Through good behavior with bank employees and officers",
+      "D": "By providing modern technology-based services"
+    },
+    "answer": "D",
+    "explanation": "E-banking contributes to customer satisfaction by providing modern technology-based services. Fast, easy, and timely services increase customer satisfaction.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 234,
+    "question": "[Stimulus] Mr. Rezin Hasan went on a trip to Bandarban with his family... When the stored money on his card ran out, he asked his brother to deposit money into his bank account. Through which medium did Mr. Rezin Hasan withdraw money?",
+    "options": {
+      "A": "ATM",
+      "B": "SMS banking",
+      "C": "Internet banking",
+      "D": "Phone banking"
+    },
+    "answer": "A",
+    "explanation": "Mr. Rezin Hasan withdrew money through an ATM. He withdrew money from the ATM using an electronic banking card.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 235,
+    "question": "Mr. Rezin Hasan's trip was successful- i. With the help of SMS banking ii. With the help of phone banking iii. With the help of internet banking",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Mr. Rezin Hasan's trip was successful with the help of SMS banking, phone banking, and internet banking. All media assisted him during his travel.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 236,
+    "question": "[Stimulus] Mr. Hasan is a newly admitted university student. He opened an account at Asha Bank... What type of account did Hasan open?",
+    "options": {
+      "A": "Current account",
+      "B": "Savings account",
+      "C": "School savings account",
+      "D": "Special savings account"
+    },
+    "answer": "B",
+    "explanation": "Hasan, as a student, opened a savings account. This is a suitable account for students, allowing small deposits and withdrawals.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  },
+  {
+    "id": 237,
+    "question": "Regarding the two cards mentioned in the stimulus, which statement is true?",
+    "options": {
+      "A": "The first card is a credit card",
+      "B": "The first card allows withdrawal of overdraft money",
+      "C": "The second card debits money from the customer's account",
+      "D": "Money for goods purchased with the second card must be paid within a specified time"
+    },
+    "answer": "D",
+    "explanation": "The second card (credit card) requires payment for purchased goods within a specified time. The first card was a debit card, used for spending one's own account money.",
+    "source": "Finance, Banking & Insurance, Chapter-9"
+  }
+]

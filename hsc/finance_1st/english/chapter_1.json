@@ -1,0 +1,548 @@
+[
+  {
+    "id": 1,
+    "question": "What is the main function of finance?",
+    "options": {
+      "A": "Fund collection",
+      "B": "Lending at easy interest",
+      "C": "Earning profit",
+      "D": "Determining time value of money"
+    },
+    "answer": "A",
+    "explanation": "The primary and fundamental function of finance is to collect necessary funds or money. This is the first step of finance and the foundation for all other functions. Without fund collection, investment, profit earning, or any other financial activity is impossible.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is a principle of finance?",
+    "options": {
+      "A": "Current asset management",
+      "B": "Capital budgeting decision",
+      "C": "Fund collection and distribution",
+      "D": "Portfolio diversification"
+    },
+    "answer": "D",
+    "explanation": "Portfolio diversification is an important principle of finance, which advises investing in different sectors to reduce risk. The principle of 'not putting all eggs in one basket' applies here.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 3,
+    "question": "What is considered in profit maximization?",
+    "options": {
+      "A": "Time value of money",
+      "B": "Project risk",
+      "C": "Project cash flow",
+      "D": "Total project income"
+    },
+    "answer": "A",
+    "explanation": "The time value of money is a very important factor in profit maximization. The value of money changes over time, so it is essential to consider the present and future value of money in investment decisions.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 4,
+    "question": "In which type of finance is expenditure based on income?",
+    "options": {
+      "A": "Business",
+      "B": "Non-business",
+      "C": "Government",
+      "D": "International"
+    },
+    "answer": "B",
+    "explanation": "In non-business finance, service provision is prioritized over profit earning. Here, expenditure is determined according to income, meaning it is 'cutting your coat according to your cloth.'",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 5,
+    "question": "What is it called when investment is made in multiple projects?",
+    "options": {
+      "A": "Time value of money principle",
+      "B": "Liquidity principle",
+      "C": "Income-expenditure coordination principle",
+      "D": "Portfolio principle"
+    },
+    "answer": "D",
+    "explanation": "The policy of investing in multiple projects or sectors is called the portfolio investment principle. Through this, risk can be distributed and overall safe investment can be ensured.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 6,
+    "question": "Reports must be presented in simple, beautiful, and lucid language according to which principle?",
+    "options": {
+      "A": "Coordination principle",
+      "B": "Transparency and accountability principle",
+      "C": "Dividend distribution principle",
+      "D": "Suitability principle"
+    },
+    "answer": "B",
+    "explanation": "According to the transparency and accountability principle, financial reports must be presented in simple, beautiful, and lucid language so that concerned parties can easily understand and trust in the organization increases.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 7,
+    "question": "What is the main goal of government finance?",
+    "options": {
+      "A": "Earning profit",
+      "B": "Social welfare",
+      "C": "Business expansion",
+      "D": "Protecting government popularity"
+    },
+    "answer": "B",
+    "explanation": "The main goal of government finance is not profit earning, but rather social welfare and improving the living standards of the people. Government expenditure on roads, education, healthcare, etc. is done for public welfare.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is NOT a money market instrument?",
+    "options": {
+      "A": "Share",
+      "B": "Bill receivable",
+      "C": "Government warehouse receipt",
+      "D": "Commercial paper"
+    },
+    "answer": "A",
+    "explanation": "Shares are capital market instruments, not money market instruments. Money market instruments include treasury bills, commercial paper, bills receivable, warehouse receipts, etc., which are used for short-term fund collection.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 9,
+    "question": "What is generally higher in high-risk projects?",
+    "options": {
+      "A": "Profit",
+      "B": "Loss",
+      "C": "Cost",
+      "D": "Surplus"
+    },
+    "answer": "A",
+    "explanation": "The fundamental principle of finance is 'high risk, high return.' When investing in high-risk projects, the rate of profit is generally also higher, because investors expect additional returns for taking additional risk.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 10,
+    "question": "What is finance formed and operated for the purpose of earning profit called?",
+    "options": {
+      "A": "Business finance",
+      "B": "Non-business finance",
+      "C": "Government finance",
+      "D": "Financial management"
+    },
+    "answer": "A",
+    "explanation": "Business finance is finance that is formed and operated for the purpose of earning profit. It is involved with fund collection, investment, and profit-loss accounting of business organizations.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following does NOT consider the time value of money?",
+    "options": {
+      "A": "Wealth maximization",
+      "B": "Profit maximization",
+      "C": "Business finance",
+      "D": "Personal finance"
+    },
+    "answer": "B",
+    "explanation": "The profit maximization method does not consider the time value of money. It only emphasizes short-term profit, but does not account for how much the value of money will be in the future. Wealth maximization, on the other hand, considers time value.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 12,
+    "question": "What is the finance used in import-export trade called?",
+    "options": {
+      "A": "International finance",
+      "B": "Government finance",
+      "C": "Business finance",
+      "D": "Non-business finance"
+    },
+    "answer": "A",
+    "explanation": "International finance is finance related to inter-country trade and transactions. Import-export trade involves foreign currency transactions, exchange rates, etc., which are part of international finance.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 13,
+    "question": "Which of the following is NOT a component of the money market?",
+    "options": {
+      "A": "Treasury bond",
+      "B": "Commercial paper",
+      "C": "Negotiable instrument",
+      "D": "Bill of exchange"
+    },
+    "answer": "A",
+    "explanation": "Treasury bonds are not a component of the money market; they are capital market components. Treasury bonds are long-term debt securities issued by the government to collect long-term funds. The others (commercial paper, negotiable instruments, bills of exchange) are short-term money market instruments.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 14,
+    "question": "What is the subject matter of finance?",
+    "options": {
+      "A": "Fund collection",
+      "B": "Income-expenditure coordination",
+      "C": "Cash flow",
+      "D": "Management related to fund collection, investment, and distribution"
+    },
+    "answer": "D",
+    "explanation": "The subject matter of finance is broad, encompassing not just fund collection but overall management of fund collection, proper investment, and dividend/profit distribution. It is a complete process.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 15,
+    "question": "What is the finance of the government or local government called?",
+    "options": {
+      "A": "Business finance",
+      "B": "Non-business finance",
+      "C": "Government finance",
+      "D": "Financial management"
+    },
+    "answer": "C",
+    "explanation": "Government finance is the financial system operated by the state or local government. Its main goal is not profit earning but rather public welfare and socio-economic development of the country.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 16,
+    "question": "What is the crash of the US stock market on October 29, 1929 known as?",
+    "options": {
+      "A": "Black Monday",
+      "B": "Black Tuesday",
+      "C": "Black Day",
+      "D": "Black Sunday"
+    },
+    "answer": "B",
+    "explanation": "On October 29, 1929, a devastating crash occurred in the US stock market, known as 'Black Tuesday.' It marked the beginning of the Great Depression. Share prices fell dramatically that day.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 17,
+    "question": "When there is sometimes profit and sometimes loss, what principle is it called?",
+    "options": {
+      "A": "Time value of money principle",
+      "B": "Business cycle",
+      "C": "Liquidity principle",
+      "D": "Risk-return principle"
+    },
+    "answer": "D",
+    "explanation": "According to the Risk-Return Trade-off principle, investment can sometimes yield profit and sometimes loss. That is, there is a relationship between income and risk. Where there is greater potential for income, there is also greater risk.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 18,
+    "question": "Which determines where and how to invest?",
+    "options": {
+      "A": "Management",
+      "B": "Finance",
+      "C": "Accounting",
+      "D": "Economics"
+    },
+    "answer": "B",
+    "explanation": "Finance is the discipline that determines fund collection, investment decisions, capital structure, and dividend policy. It tells where, when, and how to invest.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 19,
+    "question": "Who developed the Capital Asset Pricing Model?",
+    "options": {
+      "A": "Miller",
+      "B": "Black",
+      "C": "Markowitz",
+      "D": "Eat Man"
+    },
+    "answer": "C",
+    "explanation": "Harry Markowitz developed the Portfolio Theory in 1952, which later served as the foundation for the Capital Asset Pricing Model (CAPM).",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 20,
+    "question": "Borrowing falls under which type of financing?",
+    "options": {
+      "A": "Internal",
+      "B": "External",
+      "C": "Non-business",
+      "D": "Business"
+    },
+    "answer": "B",
+    "explanation": "Borrowing is a source of external financing. When an organization collects funds from outside sources (such as banks, financial institutions), it is called external financing.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 21,
+    "question": "What does the working capital of a business depend on?",
+    "options": {
+      "A": "Source of finance",
+      "B": "Term of the fund",
+      "C": "Proper use of assets",
+      "D": "Profit of the business"
+    },
+    "answer": "B",
+    "explanation": "The working capital requirement of a business depends on the term of the fund. Working capital is collected from short-term funds, which are used to meet the daily operating expenses of the organization.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 22,
+    "question": "Who introduced the Portfolio Diversification Theory?",
+    "options": {
+      "A": "Henry Fayol",
+      "B": "Harry Markowitz",
+      "C": "Robins Garfield",
+      "D": "Lawrence Gitman"
+    },
+    "answer": "B",
+    "explanation": "Harry Markowitz introduced the Portfolio Theory in 1952. He created a mathematical model for reducing risk by investing in different assets.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 23,
+    "question": "Who discovered Option Theory?",
+    "options": {
+      "A": "Markowitz",
+      "B": "Sharpe",
+      "C": "Black and Scholes",
+      "D": "Lintner"
+    },
+    "answer": "C",
+    "explanation": "Fischer Black and Myron Scholes discovered the Option Pricing Theory in 1973, for which Scholes later received the Nobel Prize.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 24,
+    "question": "What is the fundamental factor of business?",
+    "options": {
+      "A": "Capital",
+      "B": "Market",
+      "C": "Planning",
+      "D": "Transportation"
+    },
+    "answer": "A",
+    "explanation": "Capital is one of the fundamental factors of business. It is impossible to operate a business without capital. It is used for purchasing raw materials, collecting machinery, paying workers' wages, etc.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 25,
+    "question": "Who is the author of 'Corporation Finance'?",
+    "options": {
+      "A": "Edmund Halley",
+      "B": "G. L. Thomas",
+      "C": "Thomas Aquinas",
+      "D": "Thomas L. Green"
+    },
+    "answer": "D",
+    "explanation": "Thomas L. Green is the author of the book 'Corporation Finance.' It is an important text on corporate finance.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 26,
+    "question": "What is the lifeblood of business?",
+    "options": {
+      "A": "Planning",
+      "B": "Money",
+      "C": "Project",
+      "D": "Manpower"
+    },
+    "answer": "B",
+    "explanation": "Money or capital is called the lifeblood of business. Just as blood circulation is needed in the human body, money is needed to operate a business organization. No business can run without money.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 27,
+    "question": "What type of organization finances for social welfare purposes?",
+    "options": {
+      "A": "Business organization",
+      "B": "Autonomous organization",
+      "C": "Government organization",
+      "D": "Non-business organization"
+    },
+    "answer": "D",
+    "explanation": "Non-business organizations work not for profit but for social welfare. Examples include clubs, societies, trusts, religious institutions, etc., which work for the betterment of society.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 28,
+    "question": "What is the medium of exchange?",
+    "options": {
+      "A": "Document",
+      "B": "Labor",
+      "C": "Money",
+      "D": "Worker"
+    },
+    "answer": "C",
+    "explanation": "Money is the universal medium of exchange. Through it, the purchase and sale of goods and services can be easily completed. Value is measured and transactions are settled through money.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 29,
+    "question": "What is the finance of an organization not operated for profit called?",
+    "options": {
+      "A": "Non-business finance",
+      "B": "Government finance",
+      "C": "Autonomous organization finance",
+      "D": "Business finance"
+    },
+    "answer": "A",
+    "explanation": "Non-business finance is finance that is not for the purpose of earning profit, but rather operated for service-oriented or public welfare activities. Schools, colleges, hospitals, clubs, etc. are examples.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 30,
+    "question": "As a social responsibility, the work of a firm's financial manager is- i. Protecting creditors' interests ii. Paying fair wages iii. Proper use of resources",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "A financial manager's social responsibilities include protecting creditors' interests, paying fair wages, and ensuring the proper use of resources. All of these are part of ethical and professional duties.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 31,
+    "question": "The stakeholders of finance's social responsibility are- i. Creditors ii. Shareholders iii. Consumers",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "All parties involved in the social responsibility of finance are stakeholders. Creditors, shareholders, and consumers are all affected by an organization's financial decisions, and their interests need to be protected.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 32,
+    "question": "The fundamental decisions of finance are- i. Investment decision ii. Financial decision iii. Dividend decision",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The three fundamental decisions of finance are: investment decision (where and how much to invest), financial decision (how to collect funds), and dividend decision (how much profit to distribute).",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 33,
+    "question": "Spontaneous financing is- i. Business loan ii. Advance from customers iii. Outstanding expenses",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Spontaneous financing is funds created automatically as a result of normal business activities. Advances from customers and outstanding expenses (unpaid expenses) are examples. Business loans are not spontaneous.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 34,
+    "question": "For profit maximization, the actions to take are- i. Increase sales ii. Increase share price iii. Increase product price",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "For profit maximization, all three strategies can be adopted: increasing sales, increasing share price, and increasing product prices. However, increasing product prices is risky as it may reduce customers.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 35,
+    "question": "In wealth maximization, the following are considered- i. Risk ii. Cash flow iii. Profit",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "In wealth maximization, all three factors are considered: risk, cash flow, and profit. It is a long-term perspective that emphasizes increasing shareholders' wealth.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 36,
+    "question": "Business ethics includes- i. Maintaining honesty ii. Avoiding illegal activities iii. Showing respect for the law",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Business ethics includes maintaining honesty, refraining from illegal activities, and being respectful of the law. Following these principles increases the reputation and sustainability of the business.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 37,
+    "question": "As a result of proper fund management, what happens- i. Financial insolvency increases ii. Financial insolvency is avoided iii. Desired goals are achieved",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "Proper fund management helps avoid financial insolvency and achieve desired goals. It does not increase financial insolvency; rather, it ensures financial capability.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 38,
+    "question": "Finance is fundamentally- i. Fund collection-centric ii. Fund investment-centric iii. Dividend payment-centric",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Finance is fundamentally centered on three things: fund collection (forming capital), fund investment (where to invest), and dividend payment (how much profit to return to investors).",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 39,
+    "question": "[Stimulus] Alpha Company has been successfully operating its business for the past ten years. The company's share market price has been increasing day by day. The financial manager is thinking about how to increase the company's earnings per share. In the stimulus, what is the financial manager thinking about?",
+    "options": {
+      "A": "Wealth maximization",
+      "B": "Profit maximization",
+      "C": "Increasing share price",
+      "D": "Cost reduction"
+    },
+    "answer": "A",
+    "explanation": "The financial manager is thinking about increasing Earnings Per Share (EPS), which is directly related to increasing shareholders' wealth. This falls under the concept of wealth maximization.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 40,
+    "question": "The limitations of the objective the financial manager is thinking about in the stimulus are- i. Cash flow is not considered ii. Profit is not considered iii. Risk is not considered",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "The limitation of profit maximization is that it does not consider cash flow and the time value of money. However, it does consider profit (ii is wrong) and may not consider risk. The correct answer is i & ii.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 41,
+    "question": "[Stimulus] Rupali Ltd.'s financial information... In July 2012, while paying employee salaries, it was found that Rupali Company had fixed deposits in the bank but insufficient cash in the current account. Which principle was not properly followed, causing a problem in salary payment?",
+    "options": {
+      "A": "Profit principle",
+      "B": "Debt principle",
+      "C": "Liquidity principle",
+      "D": "Risk principle"
+    },
+    "answer": "C",
+    "explanation": "The organization had fixed deposits but lacked cash in the current account, which is the result of not properly following the liquidity principle. The liquidity principle ensures that sufficient cash is available when needed.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  },
+  {
+    "id": 42,
+    "question": "In the wealth maximization of Rupali Company, which element from the stimulus plays a supportive role?",
+    "options": {
+      "A": "Distributable income",
+      "B": "Market price of shares",
+      "C": "Dividend per share",
+      "D": "Earnings per share"
+    },
+    "answer": "B",
+    "explanation": "The main indicator of wealth maximization is the market price of shares. The stimulus mentions the market price of shares, which plays a supportive role in increasing the company's wealth.",
+    "source": "Finance, Banking & Insurance, Chapter-1"
+  }
+]

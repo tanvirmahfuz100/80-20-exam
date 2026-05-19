@@ -1,0 +1,1190 @@
+[
+  {
+    "id": 1,
+    "question": "Component of Active management of third stage of labour (AMTSL) is-",
+    "options": {
+      "A": "Aortic compression",
+      "B": "Inj. Oxytocin 10 units",
+      "C": "Perineal message",
+      "D": "Examination of cervix"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer: খ) Inj. Oxytocin 10 units IMOxytocin 10 units IM: Gold standard to prevent postpartum hemorrhage.Other Options:ক) Aortic compression: Emergency measure in PPH, not routine AMTSL.গ) Perineal massage: Not part of AMTSL.ঘ) Cervix exam: Done but not a component of AMTSL."
+  },
+  {
+    "id": 2,
+    "question": "The largerst tributaries that drain into inferior Vena Cava is-",
+    "options": {
+      "A": "Left renal Vein",
+      "B": "Lumber Veins",
+      "C": "Hepatic Veins",
+      "D": "Right Renal Vein"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Hepatic veinsHepatic veins: Large vessels draining blood from liver directly into IVC.Other Options:ক) Left renal vein: Drains left kidney.খ) Lumbar veins: Small tributaries.ঘ) Right renal vein: Similar to left, but not the largest."
+  },
+  {
+    "id": 3,
+    "question": "Genital fistula can be prevented by-",
+    "options": {
+      "A": "Improving essential obstetric care",
+      "B": "Early operations of fibroid uterus",
+      "C": "Treating PID cases",
+      "D": "Correcting maternal anaemia"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) Improving essential obstetric careImproving essential obstetric care: Prevents obstructed labor, the most common cause.Other Options:খ) Early operations of fibroid uterus: Not directly preventive.গ) Treating PID cases: PID is not a major cause of genital fistula.ঘ) Correcting maternal anemia: Important for general health, not directly for fistula."
+  },
+  {
+    "id": 4,
+    "question": "Ideal graft for coronary artery bypass graft is-",
+    "options": {
+      "A": "Great saphenous vein",
+      "B": "Ulner artery",
+      "C": "Radial artery",
+      "D": "Left internal mammary artery"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Left internal mammary arteryLeft internal mammary artery (LIMA): Most durable, with best long-term patency.Other Options:ক) Great saphenous vein: Used often but less durable than arterial grafts.খ) Ulnar artery: Rarely used.গ) Radial artery: Can be used, but second-line."
+  },
+  {
+    "id": 5,
+    "question": "Diabetes in pregnancy should be treated by-",
+    "options": {
+      "A": "Glipizide",
+      "B": "Metformin",
+      "C": "Insulin",
+      "D": "Rosiglitazone"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) InsulinInsulin: Does not cross placenta, preferred for both gestational and pregestational diabetes.Other Options:ক) Glipizide: Sulfonylureas cross the placenta → risk to fetus.খ) Metformin: Can be used in some cases (GDM), but insulin is gold standard.ঘ) Rosiglitazone: Contraindicated in pregnancy."
+  },
+  {
+    "id": 6,
+    "question": "Most common cause of Epistaxis is-",
+    "options": {
+      "A": "Idiopathic",
+      "B": "Hypertension",
+      "C": "Thrombocytopenia",
+      "D": "Coagulation disorder"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) IdiopathicIdiopathic: Most common cause, especially from Little’s area/Kiesselbach’s plexus.Other Options:খ) Hypertension: A known cause, especially in older adults, but not the most common.গ) Thrombocytopenia: Rare, usually associated with generalized bleeding.ঘ) Coagulation disorder: Less common and usually seen in known bleeding disorders."
+  },
+  {
+    "id": 7,
+    "question": "Feature of atropinization is-",
+    "options": {
+      "A": "Mild dialatd pupil",
+      "B": "Tachycardia",
+      "C": "Crepitaiton in Lungs",
+      "D": "Bronchorrehoea"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer: খ) TachycardiaTachycardia: Classic sign due to vagal inhibition.Other Options:ক) Mild dilated pupil: Atropine causes marked dilatation.গ) Crepitation in lungs: Suggestive of pulmonary edema/infection, not atropine.ঘ) Bronchorrhoea: Atropine reduces secretions, used to treat bronchorrhoea."
+  },
+  {
+    "id": 8,
+    "question": "Bony metastasis may occur in-",
+    "options": {
+      "A": "Carcinoma gall bladder",
+      "B": "Malignant melanoma",
+      "C": "Squamous Cell Carcinoma of skin",
+      "D": "Follicular Carcinoma of thyroid"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Follicular carcinoma of thyroidFollicular carcinoma of thyroid: Spreads hematogenously → commonly to bone and lungs.Other Options:ক) Carcinoma gallbladder: Rarely metastasizes to bone.খ) Malignant melanoma: Commonly spreads to skin, liver, lungs.গ) Squamous cell carcinoma of skin: Local invasion more common."
+  },
+  {
+    "id": 9,
+    "question": "Part of Parasympathetic nervous system is-",
+    "options": {
+      "A": "Celiac ganglion",
+      "B": "Cervical ganglion",
+      "C": "Ciliary ganglion",
+      "D": "Sacral ganglion"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Ciliary ganglionCiliary ganglion: A parasympathetic ganglion supplying the eye.Other Options: ক) Celiac ganglion: Part of sympathetic nervous system.খ) Cervical ganglion: Also sympathetic (e.g., superior cervical ganglion).ঘ) Sacral ganglion: Anatomically refers to sympathetic chain ganglia."
+  },
+  {
+    "id": 10,
+    "question": "Primary blood buffer system is-",
+    "options": {
+      "A": "Ammonia buffer",
+      "B": "Bicarbonate buffer",
+      "C": "Phosphate buffer",
+      "D": "Protein buffer"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer: খ) Bicarbonate bufferBicarbonate buffer: Main buffer in plasma. HCO₃⁻ + H⁺ ↔ H₂CO₃ ↔ CO₂ + H₂O.Other Options:ক) Ammonia buffer: Important in renal tubules, not primary in blood.গ) Phosphate buffer: Also renal, not primary in blood.ঘ) Protein buffer: Contributes, but not the primary."
+  },
+  {
+    "id": 11,
+    "question": "Normal anion gap metabolic acidosis is found in-",
+    "options": {
+      "A": "Chronic renal failure",
+      "B": "Diabetic keto acidosis",
+      "C": "Methanol poisoning",
+      "D": "Renal tubular acidosis"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Renal tubular acidosisRenal tubular acidosis: Normal anion gap due to bicarbonate loss without unmeasured anions.Other Options:ক) Chronic renal failure: Causes high anion gap acidosis.খ) Diabetic ketoacidosis: High anion gap acidosis due to ketones.গ) Methanol poisoning: High anion gap due to formic acid."
+  },
+  {
+    "id": 12,
+    "question": "Nerve responsible for sensation of smell is",
+    "options": {
+      "A": "Olfactory",
+      "B": "Trigeminal",
+      "C": "Facial",
+      "D": "Oculomotor"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) OlfactoryOlfactory: CN I — purely sensory, for smell.Other Options:খ) Trigeminal: Touch/pain/temp of face.গ) Facial: Taste (anterior 2/3 tongue), not smell.ঘ) Oculomotor: Eye movement, not sensory."
+  },
+  {
+    "id": 13,
+    "question": "Plasma albumin helps in-",
+    "options": {
+      "A": "Colloidal osmotic pressure maintenance",
+      "B": "Blood clotting",
+      "C": "Iron transport",
+      "D": "Copper transport"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) Colloidal osmotic pressure maintenanceColloidal osmotic pressure maintenance: Maintains oncotic pressure to prevent edema.Other Options:খ) Blood clotting: Role of fibrinogen, not albumin.গ) Iron transport: Done by transferrin.ঘ) Copper transport: Done by ceruloplasmin. ❓ FAQ Q1. ৪৮তম বিসিএস প্রিলিমিনারি পরীক্ষা কবে অনুষ্ঠিত হয়? ৫০তম বিসিএস প্রিলিমিনারি পরীক্ষা অনুষ্ঠিত হয় ১৮ জুলাই ২০২৬ তারিখে। Q2. ৪৮তম বিসিএস প্রিলিমিনারি প্রশ্নের সমাধান কোথায় পাওয়া যাবে? Live MCQ অ্যাপে মূল প্রশ্নপত্রের অথেনটিক রেফারেন্স অনুসারে ব্যাখ্যাসহ সমাধান পাওয়া যাবে। Q3. ৪৮তম বিসিএস প্রশ্ন সমাধানের PDF কীভাবে ডাউনলোড করব? Live MCQ অ্যাপের Home → PDF Section → “ফ্রি সাপ্তাহিক ফুল মডেল টেস্ট” বাটন থেকে PDF ডাউনলোড করা যাবে। Q4. এই সমাধানগুলো কতটা নির্ভরযোগ্য? সমাধানগুলো PSC প্রশ্নপত্রের অথেনটিক রেফারেন্স অনুসরণ করে এবং অভিজ্ঞ বিষয়ভিত্তিক টিম দ্বারা প্রস্তুত করা হয়েছে। Q5. ভবিষ্যৎ বিসিএস প্রস্তুতিতে এই প্রশ্নপত্র কীভাবে সহায়তা করবে? এটি প্রশ্নের ট্রেন্ড, বিষয়ভিত্তিক গুরুত্ব এবং নিজের প্রস্তুতির দুর্বলতা চিহ্নিত করতে গুরুত্বপূর্ণ ভূমিকা রাখবে। Live MCQ™ ঘরে বসে বিসিএস, ব্যাংক, প্রাথমিক শিক্ষক নিয়োগ, NTRCA, ৯ম-২০তম গ্রেড সহ সকল চাকরির লাইভ এক্সামের মাধ্যমে প্রস্তুতি নিতে - লগইন করুন ইন্সটল করুন ১.৮ মিলিয়ন+ অ্যাপ ডাউনলোড 48th Special BCS Question Solution ৪৮তম স্পেশাল বিসিএস প্রিলিমিনারি প্রশ্নের সমাধান আগের পোস্ট বিদ্যুৎ বিভাগ নিয়োগ বিজ্ঞপ্তি ২০২৬ – PDB Job Circular 2026 পরের পোস্ট ভূমি রেকর্ড অধিদপ্তরের সহকারী জরিপ অফিসার পরীক্ষা | ৭ এপ্রিল প্রিলি Leave a Reply Cancel replyYour email address will not be published. Required fields are marked *Comment * Name * Email * Save my name, email, and website in this browser for the next time I comment. Δ অনুসন্ধান সাম্প্রতিক পোস্ট বাংলাদেশ জুডিশিয়াল সার্ভিস কমিশন নিয়োগ বিজ্ঞপ্তি – BJSC Job Circular 2026May 17, 2026 বন অধিদপ্তর ফরেস্টার নিয়োগ বিজ্ঞপ্তি – Forest Department Forester Job Circular 2026May 14, 2026 আনসার-ভিডিপি উন্নয়ন ব্যাংক নিয়োগ বিজ্ঞপ্তি – Ansar VDP Unnayan Bank Job Circular 2026May 11, 2026 বাংলাদেশ পুলিশ এএসআই নিয়োগ বিজ্ঞপ্তি – Bangladesh Police ASI Job Circular 2026May 6, 2026 Live MCQ Flash Sale | ১০ বছরে পদার্পণ উপলক্ষে ২৪ ঘণ্টার বিরাট ছাড় (Live MCQ Discount)May 4, 2026 সাম্প্রতিক মন্তব্য Live MCQ™ on বিসিএস পরীক্ষা দেওয়ার যোগ্যতা কি জেনে নিনMay 15, 2026হ্যাঁ ভাইয়া, দেওয়া যায়। তবে এই ক্ষেত্রে UGC থেকে একটি Equavalent Certificate নিতে হবে। ধন্যবাদ। Md Khairujjaman Maruf on বিসিএস পরীক্ষা দেওয়ার যোগ্যতা কি জেনে নিনMay 15, 2026british law niye porleo ki bcs deya jay ? Live MCQ™ on চলমান গ্যাস ট্রান্সমিশন কোম্পানি লিমিটেড নিয়োগ বিজ্ঞপ্তি | GTCL Job Circular 2026May 8, 2026দুঃখিত ভাইয়া, আপাতত আমাদের সংগ্রহে নেই। Live MCQ™ on ১৩৪ টি শূন্যপদে দি সিকিউরিটি প্রিন্টিং কর্পোরেশন নিয়োগ বিজ্ঞপ্তি – SCBL Job Circular 2026May 8, 2026হ্যাঁ অবশ্যই, একাধিক পদে আবেদন করতে পারবেন। ধন্যবাদ। Shariful Islam on ১৩৪ টি শূন্যপদে দি সিকিউরিটি প্রিন্টিং কর্পোরেশন নিয়োগ বিজ্ঞপ্তি – SCBL Job Circular 2026May 8, 2026একাধিক পদে আবেদন করা যাবে কি এই বিষয়টি যদি জানতে পারতাম ক্যাটাগরিজ Categories Select Category 14th-20th Grade Preparation (1) 9th–13th Grade Preparation (1) Admit Card (9) Bank Job Preparation (4) BCS Preparation (15) BCS Written Question (14) Blog (89) Default Category (8) Exam Date (147) Exam Questions (28) Infographic (19) Job Circular (2) Job Solution (179) Live MCQ Features (1) News (13) Notice (78) NTRCA Job Preparation (3) Offers (16) Routine (48) Samprotik Samachar (1) You may also like BCS Preparation, Blog অনার্স থেকে বিসিএস প্রস্তুতি – পূর্ণাঙ্গ গাইডলাইন বাংলাদেশের সবচেয়ে প্রতিযোগিতামূলক পরীক্ষার নাম হল বিসিএস। তাই অনার্স থেকে বিসিএস প্রস্তুতি শুরু করা গুরুত্বপূর্ণ। প্রতি বছর লাখো শিক্ষার্থী এই […]Live MCQ™March 31, 20261 মিনিট লাগবে পড়তে BCS Preparation বিসিএস ক্যাডার তালিকা ২০২৬ – BCS Cadre List 2026 বাংলাদেশের প্রতিটি মেধাবী শিক্ষার্থীর কাছে বিসিএস (Bangladesh Civil Service) একটি স্বপ্নের নাম। কিন্তু এই স্বপ্নের পথে হাঁটার আগে প্রথম ও […]Live MCQ™March 9, 20261 মিনিট লাগবে পড়তে BCS Preparation স্পেশাল বিসিএস কী? যোগ্যতা, সিলেবাস ও প্রস্তুতির সম্পূর্ণ গাইডলাইন বাংলাদেশে সরকারি চাকরির ক্ষেত্রে বিসিএস (বাংলাদেশ সিভিল সার্ভিস) অন্যতম সম্মানজনক ও প্রতিযোগিতাপূর্ণ পরীক্ষা। স্বাভাবিকভাবেই, বিসিএস নিয়ে চাকরিপ্রার্থীদের আগ্রহ অনেক বেশি। […]Live MCQ™March 9, 20261 মিনিট লাগবে পড়তে সকল সরকারি-বেসরকারি চাকরির পূর্ণাঙ্গ প্রস্তুতি নিন Live MCQ™ অ্যাপে। ১.৮ মিলিয়ন+ অ্যাপ ডাউনলোড ৪.৬ ★★★★★ Rated 4.5 out of 5 কুইক লিঙ্ক হোম বুক ষ্টোর ফিচারসমূহ প্যাকেজসমূহ আরও জানুন সকল পোস্ট সকল মেন্টর আমাদের সম্পর্কে সাধারণ জিজ্ঞাসা যোগাযোগ 01701-377322 contact@livemcq.com facebook.com/livemcq youtube.com/@LiveMCQ আপনার পছন্দের ভার্সন এখান থেকে ইনস্টল করুন 📲 Android iOS Windows Macbook আমাদের সম্পর্কে স্পনসর সংগ্রহ করুন গোপনীয়তা নীতিমালা © স্বত্বাধিকার ২০১৭ – ২০২৬ | সর্বস্বত্ব সংরক্ষিত | CrackTech Limited দ্বারা পরিচালিত Facebook Instagram Youtube Linkedin Whatsapp Telegram Envelope Lu-phone আমাদের সম্পর্কে সকল মেন্টর ইউজার ফিডব্যাক সাধারণ জিজ্ঞাসা অ্যাপ গ্যালারি ফিচারসমূহ প্যাকেজসমূহ বইসমূহ ব্লগ যোগাযোগ অনুসন্ধান অ্যাপ ইন্সটল করুন আজই Live MCQ™ অ্যাপ ইনস্টল করুন! Live MCQ™ অ্যাপটি Android, iPhone (iOS), PC/Laptop/Desktop (Windows) এবং Apple MacBook-এ পাওয়া যাচ্ছে। আপনার পছন্দের ভার্সন এখান থেকে ইনস্টল করুন।"
+  },
+  {
+    "id": 14,
+    "question": "Amniotic fluid embolism causes-",
+    "options": {
+      "A": "Hypertension",
+      "B": "Bronchodilatation",
+      "C": "Cyanosis",
+      "D": "Sever anaemia"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) CyanosisCyanosis: Classic sign due to sudden respiratory collapse and hypoxia.Other Options:ক) Hypertension: Usually causes hypotension due to shock.খ) Bronchodilatation: Opposite occurs — bronchospasm may occur.ঘ) Severe anemia: Not a feature; shock is due to embolism and coagulopathy."
+  },
+  {
+    "id": 15,
+    "question": "The most common type of anaemia in pregnancy is-",
+    "options": {
+      "A": "Thalassemia",
+      "B": "Hereditary Spherocytosis",
+      "C": "Iron deficiency anemia",
+      "D": "Folic acid deficiency anaemia"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Iron deficiency anaemiaIron deficiency anemia: Due to increased demand and dietary insufficiency in pregnancy.Other Options:ক) Thalassemia: Genetic and less common.খ) Hereditary Spherocytosis: Rare inherited condition.ঘ) Folic acid deficiency anaemia: Second most common, but not the top one."
+  },
+  {
+    "id": 16,
+    "question": "The structural and functional unit of Lung is-",
+    "options": {
+      "A": "Alveoli",
+      "B": "Bronchiole",
+      "C": "Bronchus",
+      "D": "Trachea"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) AlveoliAlveoli: Site of gas exchange — functional unit.Other Options:খ) Bronchiole: Conducting airways, no gas exchange.গ) Bronchus: Larger conducting airway.ঘ) Trachea: Air conduction only, not functional for gas exchange."
+  },
+  {
+    "id": 17,
+    "question": "Which of the following is a compressible swelling?",
+    "options": {
+      "A": "Neuro fibroma",
+      "B": "Chondroma",
+      "C": "Lymphoma",
+      "D": "Haemangioma"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) HaemangiomaHaemangioma: Vascular tumor — soft, compressible, may refill on release.Other Options:ক) Neurofibroma: Solid and non-compressible.খ) Chondroma: Cartilage tumor — firm.গ) Lymphoma: Firm, rubbery lymph node swelling."
+  },
+  {
+    "id": 18,
+    "question": "Acid-Peptic disease include-",
+    "options": {
+      "A": "Inflammatory bowel disease",
+      "B": "Irritable bowel syndrome",
+      "C": "Non-ulcer dyspepsia",
+      "D": "Pyloric stenosis"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Non-ulcer dyspepsiaNon-ulcer dyspepsia: A functional disorder under acid-peptic spectrum (includes gastritis, GERD, peptic ulcer).Other Options:ক) Inflammatory bowel disease: Autoimmune condition affecting the colon and small intestine.খ) Irritable bowel syndrome: Functional GI disorder; unrelated to acid or ulcers.ঘ) Pyloric stenosis: Mechanical obstruction, not primarily acid-related."
+  },
+  {
+    "id": 19,
+    "question": "First step in blood coagulation is-",
+    "options": {
+      "A": "Activation of clotting factors",
+      "B": "Clot retraction",
+      "C": "Fibria mesh formation",
+      "D": "Platelet aggregation"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Platelet aggregationPlatelet aggregation: Initial step — forms the temporary hemostatic plug.Other Options:ক) Activation of clotting factors: Occurs after platelet plug forms.খ) Clot retraction: Final phase of hemostasis.গ) Fibrin mesh formation: Later stage to stabilize clot."
+  },
+  {
+    "id": 20,
+    "question": "Bone metabolism is the primary concern of",
+    "options": {
+      "A": "Glucagon",
+      "B": "Growth hormone",
+      "C": "Parathyroid hormone",
+      "D": "Thyroid stimulating hormone"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Parathyroid hormoneParathyroid hormone: Regulates calcium/phosphate balance, increases bone resorption.Other Options:ক) Glucagon: Raises blood glucose, not involved in bones.খ) Growth hormone: Promotes growth, but indirectly affects bone.ঘ) Thyroid-stimulating hormone: Acts on thyroid, not bone metabolism directly."
+  },
+  {
+    "id": 21,
+    "question": "Antigen test for COVID-19 is featured by",
+    "options": {
+      "A": "High accuracy",
+      "B": "High sensitivity",
+      "C": "High specificity",
+      "D": "Low cost"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Low costLow cost: Rapid antigen tests are cheap and used for mass screening.Other Options:ক) High accuracy: Less accurate than RT-PCR.খ) High sensitivity: Sensitivity is low, especially in asymptomatic patients.গ) High specificity: Moderate, not highest."
+  },
+  {
+    "id": 22,
+    "question": "Indication of hospitalization of a burn patient is",
+    "options": {
+      "A": "5% burn in the trunk of an adult patient",
+      "B": "10% burn in the trunk of a child",
+      "C": "Inhalation burn",
+      "D": "10% Circumferential burn in the lower limb"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Inhalation burnInhalation burn: Serious complication, needs airway management, oxygenation, and ICU. Other Options:ক) 5% burn in the trunk of an adult: Minor burn — can be managed outpatient.খ) 10% burn in the trunk of a child: Moderate — may need observation but not a strong indication.ঘ) 10% circumferential burn in the lower limb: Important but not an immediate life threat unless it compromises circulation."
+  },
+  {
+    "id": 23,
+    "question": "A 45-year-old man has been suffering from cirrhosis of liver due to Hepatitis B Virus; the sign of decompression of cirrhosis is",
+    "options": {
+      "A": "Loss of hair",
+      "B": "Splenomegaly",
+      "C": "Ascites",
+      "D": "Testicular atrophy"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) AscitesAscites: Indicates portal hypertension and hepatic dysfunction — hallmark of decompensation.Other Options:ক) Loss of hair: Non-specific.খ) Splenomegaly: May occur in portal hypertension but not a marker of decompensation.ঘ) Testicular atrophy: May occur in chronic liver disease, but not defining decompensation."
+  },
+  {
+    "id": 24,
+    "question": "Protein is digested by",
+    "options": {
+      "A": "Amylase",
+      "B": "Bile Salt",
+      "C": "Lipase",
+      "D": "Trypsin"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) TrypsinTrypsin: Secreted by pancreas, breaks down proteins into peptides.Other Options:ক) Amylase: Digests starch (carbohydrates).খ) Bile salt: Emulsifies fats, no enzymatic action.গ) Lipase: Digests fats."
+  },
+  {
+    "id": 25,
+    "question": "Megaloblastic anemia with peripheral neuropathy occur due to deficiency of",
+    "options": {
+      "A": "Folic acid",
+      "B": "Iron",
+      "C": "Pyridoxine",
+      "D": "Vit B12"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Vitamin B12Vitamin B12: Megaloblastic anemia + posterior column neuropathy (tingling, numbness, gait issues).Other Options:ক) Folic acid: Causes megaloblastic anemia but not neuropathy.খ) Iron: Microcytic anemia, no neuropathy.গ) Pyridoxine (B6): Neuropathy, yes — but not megaloblastic anemia."
+  },
+  {
+    "id": 26,
+    "question": "Scabies is characterized by",
+    "options": {
+      "A": "Comedon",
+      "B": "Burrow",
+      "C": "Silvery Scale",
+      "D": "Wickman Striae"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer: খ) BurrowBurrow: Thin, grayish lines in finger webs, wrists — diagnostic of scabies.Other Options:ক) Comedon: Seen in acne.গ) Silvery scale: Psoriasis.ঘ) Wickham’s striae: Lichen planus."
+  },
+  {
+    "id": 27,
+    "question": "The largest gland of human body is",
+    "options": {
+      "A": "Adrenal",
+      "B": "Liver",
+      "C": "Pancreas",
+      "D": "Thyroid"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer: খ) LiverLiver: Largest gland — both endocrine (glucose metabolism, albumin) and exocrine (bile).Other Options:ক) Adrenal: Small endocrine gland.গ) Pancreas: Mixed gland but smaller.ঘ) Thyroid: Largest endocrine gland only, but not overall largest."
+  },
+  {
+    "id": 28,
+    "question": "Ethambutol is rarely prescribed in children because it causes",
+    "options": {
+      "A": "Peripheral neuropathy",
+      "B": "Hepatitis",
+      "C": "Rash",
+      "D": "Retrobulbar neuritis"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Retrobulbar neuritisRetrobulbar neuritis: Dose-dependent optic neuritis — affects color vision, visual acuity; hard to detect in young children.Other Options:ক) Peripheral neuropathy: More with isoniazid.খ) Hepatitis: Seen more with isoniazid, rifampicin, and pyrazinamide.গ) Rash: Minor side effect."
+  },
+  {
+    "id": 29,
+    "question": "The base of heart is formed mainly by",
+    "options": {
+      "A": "Left atrium",
+      "B": "Left Ventricle",
+      "C": "Right atrium",
+      "D": "Right Ventricle"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) Left atriumLeft atrium: Lies posteriorly, forms base of heart (posterior surface).Other Options:খ) Left ventricle: Forms apex and part of diaphragmatic surface.গ) Right atrium: Right border.ঘ) Right ventricle: Forms anterior surface."
+  },
+  {
+    "id": 30,
+    "question": "Multidrug resistant tuberculosis is treated by",
+    "options": {
+      "A": "Amikacin",
+      "B": "Streptomycin",
+      "C": "Tazobactum",
+      "D": "Ethambutol"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) AmikacinAmikacin: Second-line aminoglycoside used in MDR-TB.Other Options:খ) Streptomycin: First-line but not effective in MDR-TB.গ) Tazobactam: β-lactamase inhibitor — no role in TB.ঘ) Ethambutol: First-line drug; resistance likely in MDR-TB."
+  },
+  {
+    "id": 31,
+    "question": "Ligature mark in typical hanging is",
+    "options": {
+      "A": "Completely encircling neck",
+      "B": "Contineous",
+      "C": "Obligue",
+      "D": "Transverse"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) ObliqueOblique: Typical of hanging — runs upward and obliquely due to suspension.Other Options:ক) Completely encircling neck: More common in strangulation.খ) Continuous: Ligature marks in hanging are often incomplete.ঘ) Transverse: Seen in strangulation, not hanging."
+  },
+  {
+    "id": 32,
+    "question": "Causes of painless Jaundice in surgical ward is",
+    "options": {
+      "A": "Cholelithiasis",
+      "B": "Cholangitis",
+      "C": "Mucocele of gall bladder",
+      "D": "Peri-ampullary carcinoma"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Periampullary carcinomaPeriampullary carcinoma: Obstructs bile flow without pain — “painless progressive jaundice”.Other Options:ক) Cholelithiasis: Painful jaundice due to obstruction.খ) Cholangitis: Pain, fever, jaundice (Charcot’s triad).গ) Mucocele of gallbladder: Rare and not a typical cause of jaundice."
+  },
+  {
+    "id": 33,
+    "question": "The following layer of digestive tract contains nerves & vessels",
+    "options": {
+      "A": "Mucosa",
+      "B": "Muscular Layer",
+      "C": "Serous Layer",
+      "D": "Submucosa"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) SubmucosaSubmucosa: Contains Meissner’s nerve plexus, blood vessels, lymphatics.Other Options:ক) Mucosa: Absorption and secretion.খ) Muscular layer: For peristalsis.গ) Serous layer: Outer protective layer."
+  },
+  {
+    "id": 34,
+    "question": "The antigen presenting cell on skin is",
+    "options": {
+      "A": "Basal cells",
+      "B": "Keralinocytes",
+      "C": "Langerhan cells",
+      "D": "Melanocytes"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Langerhan cellsLangerhan cells: Dendritic cells in the epidermis; present antigen to T-cells.Other Options:ক) Basal cells: Keratinocyte precursors.খ) Keratinocytes: Structural role, not APCs.ঘ) Melanocytes: Pigment-producing, not immune cells."
+  },
+  {
+    "id": 35,
+    "question": "Utero-vaginal prolapse",
+    "options": {
+      "A": "is a very painful condition",
+      "B": "is worse in erect posture",
+      "C": ") is common in nulliparous women",
+      "D": "may resolve"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer: খ) Is worse in erect postureWorse in erect posture: Gravity worsens the prolapse symptoms.Other Options:ক) Very painful: Usually painless; heaviness or dragging sensation is common.গ) Common in nulliparous: More common in multiparous women.ঘ) May resolve spontaneously: Usually requires pelvic floor exercises or surgery."
+  },
+  {
+    "id": 36,
+    "question": "Viral disease that may cause thrombocytopenia is",
+    "options": {
+      "A": "SARS-Cov-2",
+      "B": "Influenza",
+      "C": "Dengue",
+      "D": "Hepatitis B"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) DengueDengue: Causes bone marrow suppression and peripheral platelet destruction — hallmark is thrombocytopenia.Other Options:ক) SARS-CoV-2: May cause mild thrombocytopenia but not characteristically.খ) Influenza: Rarely associated with significant drop in platelets.ঘ) Hepatitis B: May rarely cause it in advanced cases but not typical."
+  },
+  {
+    "id": 37,
+    "question": "Which of the following antidepressants does not have any weight gain property?",
+    "options": {
+      "A": "Escitalopram",
+      "B": "Fluoxetine",
+      "C": "Paroxetine",
+      "D": "Sertraline"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer: খ) FluoxetineFluoxetine: Known to be weight neutral or even cause weight loss.Other Options:ক) Escitalopram: May cause mild weight gain with long-term use.গ) Paroxetine: Commonly associated with weight gain.ঘ) Sertraline: Mild weight gain possible with chronic use."
+  },
+  {
+    "id": 38,
+    "question": "Most activity growing area of a long bone is",
+    "options": {
+      "A": "Diaphysis",
+      "B": "Epiphysis",
+      "C": "Epiphysial Cartilage",
+      "D": "Metaphysis"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Epiphyseal cartilageEpiphyseal cartilage (growth plate): Site of longitudinal growth.Other Options:ক) Diaphysis: Shaft of the bone, not growth center.খ) Epiphysis: End part of bone but not the main growth plate.ঘ) Metaphysis: Rich vascular area but not the growth zone itself."
+  },
+  {
+    "id": 39,
+    "question": "Autoimmune disease includes",
+    "options": {
+      "A": "Bronchial asthma",
+      "B": "Hypertension",
+      "C": "Heart failure",
+      "D": "Rheumatic fever"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Rheumatic feverRheumatic fever: Autoimmune response to group A streptococcal infection → molecular mimicry causes heart, joint, skin, and brain involvement.Other Options:ক) Bronchial asthma: Hypersensitivity disorder, not autoimmune.খ) Hypertension: Multifactorial, not autoimmune.গ) Heart failure: A complication of cardiac disease, not immune-mediated."
+  },
+  {
+    "id": 40,
+    "question": "Dose schedule of a drug with half life 03 hours will be",
+    "options": {
+      "A": "3 hourly",
+      "B": "6 hourly",
+      "C": "12 hourly",
+      "D": "Once daily"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer: খ) 6 hourly6 hourly: Appropriate based on 3-hour half-life.Other Options:Rule of thumb: Dose interval ≈ 1–2 times the half-life for steady-state.ক) 3 hourly: Too frequent — unnecessary.গ) 12 hourly: Not frequent enough — drug may drop below therapeutic level.ঘ) Once daily: Too long an interval."
+  },
+  {
+    "id": 41,
+    "question": "Clinical feature of minor surgical site infection is",
+    "options": {
+      "A": "Mild sero-sanguineous discharge",
+      "B": "Copious purulent discharge",
+      "C": "Fever",
+      "D": "Formation of huge granulation tissue"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) Mild serosanguinous dischargeMild serosanguinous discharge: Common in minor, superficial infections.Other Options:খ) Copious purulent discharge: Suggests major or deep infection.গ) Fever: Systemic involvement.ঘ) Huge granulation tissue: Seen in chronic non-healing wounds."
+  },
+  {
+    "id": 42,
+    "question": "Clinical feature of raised intracranial pressure is",
+    "options": {
+      "A": "Raised respiratory rate",
+      "B": "Bradycardia",
+      "C": "Fever",
+      "D": "Hypotension"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer: খ) BradycardiaBradycardia: Part of Cushing’s triad (bradycardia, hypertension, irregular respiration).Other Options:ক) Raised respiratory rate: Often depressed in late stages.গ) Fever: Not a classic sign of raised ICP.ঘ) Hypotension: Hypertension is typical in raised ICP."
+  },
+  {
+    "id": 43,
+    "question": "Cause of maternal death in Eclumpsia is",
+    "options": {
+      "A": "Retained Placenta",
+      "B": "Ruptured Uterus",
+      "C": "Cerebral hemorrhage",
+      "D": "Septicemia"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Cerebral hemorrhageCerebral hemorrhage: Raised BP → hemorrhage → coma/death — commonest direct cause in eclampsia.Other Options:ক) Retained placenta: Causes hemorrhage but not the usual cause of death in eclampsia.খ) Ruptured uterus: Obstetric emergency but not due to eclampsia.ঘ) Septicemia: Less likely unless secondary infection occurs."
+  },
+  {
+    "id": 44,
+    "question": "Mycobacterium tuberculosis is stained by",
+    "options": {
+      "A": "Giemsa stain",
+      "B": "Gram stain",
+      "C": "Silver stain",
+      "D": "Ziehl-Neelson stain"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Ziehl-Neelsen stainZiehl-Neelsen stain: Acid-fast stain — stains mycolic acid in MTB cell wall.Other Options:ক) Giemsa: Used for parasites like malaria.খ) Gram stain: Mycobacteria are gram-indeterminate.গ) Silver stain: For fungi, pneumocystis."
+  },
+  {
+    "id": 45,
+    "question": "Cephalosporin appropriate for renal impairment is",
+    "options": {
+      "A": "Cefazolin",
+      "B": "Cefotetan",
+      "C": "Ceftriaxone",
+      "D": "Cefroxime"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) CeftriaxoneCeftriaxone: Mostly excreted by liver → safer in renal impairment.Other Options:ক) Cefazolin: Requires dose adjustment in renal failure.খ) Cefotetan: Dose adjustment needed.ঘ) Cefuroxime: Excreted renally → not ideal without dose adjustment."
+  },
+  {
+    "id": 46,
+    "question": "Excess retention in blood leads to",
+    "options": {
+      "A": "Metabolic acidosis",
+      "B": "Metabolic alkalosis",
+      "C": "Respiratory acidosis",
+      "D": "Respiratory alkalosis"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Respiratory acidosisRespiratory acidosis: CO₂ buildup → ↓pH → respiratory acidosis.Other Options:ক) Metabolic acidosis: Caused by acid accumulation (e.g., DKA, renal failure), not CO₂.খ) Metabolic alkalosis: Seen with vomiting or diuretics.ঘ) Respiratory alkalosis: Happens with low CO₂ (e.g., hyperventilation)."
+  },
+  {
+    "id": 47,
+    "question": "In Ectopic pregnancy",
+    "options": {
+      "A": "Bleeding precedes pain",
+      "B": "Isthmus of fallopian tube in the commonest site of ectopic implantation",
+      "C": "incidence is more common among women taking oral contraceptives for long time",
+      "D": "Abdominal pain preceded by amenorrhoea"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Abdominal pain preceded by amenorrhoeaAbdominal pain preceded by amenorrhoea: Classical triad — amenorrhoea → pain → bleeding.Other Options:ক) Bleeding precedes pain: Usually pain precedes or coincides with bleeding.খ) Isthmus is the commonest site: Ampulla of fallopian tube is most common.গ) More common among OCP users: OCPs reduce risk of ectopic."
+  },
+  {
+    "id": 48,
+    "question": "Co-administration of Phenobarbital & warfarin shows",
+    "options": {
+      "A": "Antiplatelet effect",
+      "B": "Fibrinolytic effect",
+      "C": "Increased bleeding tendency",
+      "D": "Thromboembolic episode"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Thromboembolic episodeThromboembolic episode: Due to reduced warfarin levels (CYP induction) → clot formation risk.Other Options:ক) Antiplatelet effect: Warfarin works on coagulation factors, not platelets.খ) Fibrinolytic effect: Warfarin doesn’t increase clot breakdown.গ) Increased bleeding tendency: Phenobarbital is an enzyme inducer, reduces warfarin efficacy."
+  },
+  {
+    "id": 49,
+    "question": "A 40-year-old man presented at Medicine OPD with recurrent haemoptysis for last 05 years; general examination revealed clubbing. Which one of the following is the most likely diagnosis",
+    "options": {
+      "A": "Bronchiectasis",
+      "B": "Interstitial Lung disease",
+      "C": "Mitral Stenosis",
+      "D": "Lung Cancer"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) BronchiectasisBronchiectasis: Chronic productive cough, hemoptysis, clubbing — hallmark triad.Other Options:খ) Interstitial lung disease: Clubbing may occur but hemoptysis is rare.গ) Mitral stenosis: May cause hemoptysis but not recurrent for years with clubbing.ঘ) Lung cancer: May cause hemoptysis, but less likely over 5 years with stable symptoms."
+  },
+  {
+    "id": 50,
+    "question": "Which one is derived from mesoderm?",
+    "options": {
+      "A": "Muscle",
+      "B": "Skin",
+      "C": "Nail",
+      "D": "Mucous membrane"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) MuscleMuscle: Derived from paraxial mesoderm (somites).Other Options:খ) Skin: Epidermis comes from ectoderm.গ) Nail: Ectodermal derivative.ঘ) Mucous membrane: Endoderm in origin (respiratory, GI)."
+  },
+  {
+    "id": 51,
+    "question": "Secondary hypertension is caused by",
+    "options": {
+      "A": "Conn's Syndrome",
+      "B": "Bum",
+      "C": "Renal ischemia",
+      "D": "Septic Shock"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) Conn’s SyndromeConn’s Syndrome: Primary hyperaldosteronism → sodium retention → HTN → secondary HTN.Other Options:খ) Burn: Can lead to fluid shifts but not chronic HTN.গ) Renal ischemia: True, also causes secondary HTN (via renin-angiotensin), but not the best choice over Conn’s.ঘ) Septic shock: Associated with hypotension, not HTN."
+  },
+  {
+    "id": 52,
+    "question": "Choice of intravenous fluid in burn patient is",
+    "options": {
+      "A": "Hartman's solution",
+      "B": "5% Dextrose in Aqua",
+      "C": "5% Dextrose in normal saline",
+      "D": "Hypertonic Normal saline"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) Hartmann’s solutionHartmann’s (Ringer’s lactate): Best fluid for initial resuscitation in burns — closely mimics plasma.Other Options:খ) 5% Dextrose in Aqua: No electrolytes, not suitable for volume resuscitation.গ) 5% Dextrose in normal saline: Hyperosmolar, not ideal for large-volume replacement.ঘ) Hypertonic saline: Can cause fluid shifts, not first-line."
+  },
+  {
+    "id": 53,
+    "question": "Which one of the following is reproductive organ?",
+    "options": {
+      "A": "Uterus",
+      "B": "Urinary bladder",
+      "C": "Urethra",
+      "D": "Bone"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) UterusUterus: Female reproductive organ involved in menstruation and pregnancy.Other Options:খ) Urinary bladder: Excretory system.গ) Urethra: Excretory function.ঘ) Bone: Skeletal system, unrelated."
+  },
+  {
+    "id": 54,
+    "question": "In ECG, which feature is indicative for thrombolytic therapy?",
+    "options": {
+      "A": "New onset LBBB",
+      "B": "ST depression",
+      "C": "Appearance of Q wave",
+      "D": "T inversion"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) New onset LBBBNew onset LBBB: Considered a STEMI equivalent — immediate thrombolysis or PCI is warranted.Other Options:খ) ST depression: Indicates ischemia but not a trigger for thrombolysis.গ) Appearance of Q wave: Indicates old infarct.ঘ) T inversion: Can be seen in ischemia but not an indication for thrombolytics."
+  },
+  {
+    "id": 55,
+    "question": "Criteria of an ideal suture material is",
+    "options": {
+      "A": "Shrimable",
+      "B": "Non Predictable tissue behavior",
+      "C": "Non Electrolyte",
+      "D": "Carcinogenic"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Non-electrolyteNon-electrolyte: Reduces tissue reaction and avoids galvanic corrosion with metals.Other Options:ক) Shrimable: Not a valid term in suture material context.খ) Non-predictable tissue behavior: Ideal material should have predictable behavior.ঘ) Carcinogenic: Absolutely undesirable in any material."
+  },
+  {
+    "id": 56,
+    "question": "Congenital malformation can be attributed to maternal infection with",
+    "options": {
+      "A": "poliomyelitis",
+      "B": "Measles",
+      "C": "Chicken Pox",
+      "D": "Toxoplasmosis"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) ToxoplasmosisTORCH infections cause congenital anomalies:T = ToxoplasmosisO = Other (Syphilis, VZV)R = RubellaC = CMVH = HSVPolio, measles, chickenpox: Less commonly associated with congenital malformations."
+  },
+  {
+    "id": 57,
+    "question": "Which of the following is not a feature of acute type II respiratory failure",
+    "options": {
+      "A": "kpa",
+      "B": "P,Co,> 6 kpa",
+      "C": "HCO, is increased",
+      "D": "H is increased"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) HCO₃⁻ is increasedHCO₃⁻ is increased: Only in chronic compensation. In acute, it remains normal or slightly increased.Other Options:ক) PaO₂ < 8.0 kPa: Hypoxemia — characteristic.খ) PaCO₂ > 8.0 kPa: Hypercapnia — defining for Type II.ঘ) H⁺ is increased: Respiratory acidosis leads to acidemia."
+  },
+  {
+    "id": 58,
+    "question": "Detection of hidden disease among apparently healthy population is done by",
+    "options": {
+      "A": "Screening",
+      "B": "latervention",
+      "C": "Contact tracing",
+      "D": "Follow-up"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) ScreeningScreening: Early detection among asymptomatic people (e.g., breast cancer screening).Other Options:খ) Intervention: Comes after detection.গ) Contact tracing: Related to infectious diseases, not general screening.ঘ) Follow-up: For known cases, not for detection."
+  },
+  {
+    "id": 59,
+    "question": "Majority of body fluid remains in",
+    "options": {
+      "A": "Blood",
+      "B": "Intra cellular fluid",
+      "C": "Interstitial fluid",
+      "D": "Lymph"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer: খ) Intracellular fluidIntracellular fluid: About 2/3 of total body water is inside cells.Other Options:ক) Blood: Only a small portion of extracellular fluid.গ) Interstitial fluid: It’s part of extracellular fluid but less than intracellular.ঘ) Lymph: Very small percentage."
+  },
+  {
+    "id": 60,
+    "question": "Consent become invalid if taken from",
+    "options": {
+      "A": "Insane person",
+      "B": "Elderly person",
+      "C": "Illiterate person",
+      "D": "Sick person"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) Insane personInsane person: Lacks legal capacity to understand → consent is invalid.Other Options:খ) Elderly person: Valid if mentally sound.গ) Illiterate person: Consent valid if information is properly explained and understood.ঘ) Sick person: As long as mental capacity is intact, consent is valid."
+  },
+  {
+    "id": 61,
+    "question": "Feature of a malignant ulcer is",
+    "options": {
+      "A": "Undermined edge",
+      "B": "Punched out edge",
+      "C": "Everted edge",
+      "D": "sloping edge"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Everted edgeEverted edge: Typical of squamous cell carcinoma ulcers.Other Options:ক) Undermined edge: Seen in TB ulcers.খ) Punched out edge: Common in trophic or gummatous syphilitic ulcers.ঘ) Sloping edge: Found in healing ulcers."
+  },
+  {
+    "id": 62,
+    "question": "Universally accepted indicator of health status of a population is",
+    "options": {
+      "A": "Child death rate",
+      "B": "Case fatality rate",
+      "C": "Infant mortality rat",
+      "D": "Under-5 mortality rate"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Infant mortality rate (IMR)Infant mortality rate: Most widely used global health indicator.Other Options:IMR reflects:○ Maternal health○ Health service access○ Nutritionক) Child death rate: Broader and less specific.খ) Case fatality rate: Measures disease severity, not population health.ঘ) Under-5 mortality rate: Good indicator, but IMR is more accepted."
+  },
+  {
+    "id": 63,
+    "question": "Cause of acute starvation is",
+    "options": {
+      "A": "Self refusal",
+      "B": "Dysphasia",
+      "C": "Anorexia",
+      "D": "Entrapment in mine"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Entrapment in mineEntrapment in mine: Sudden unavailability of food → acute starvation.Other Options:ক) Self-refusal: Chronic starvation (e.g., anorexia nervosa).খ) Dysphasia: Can cause feeding problems but not the typical cause of acute starvation.গ) Anorexia: Again, a chronic issue."
+  },
+  {
+    "id": 64,
+    "question": "Which of the following is not a typical presentation of pain in acute pancreatitis?",
+    "options": {
+      "A": "Severe constant upper abdominal pain",
+      "B": "Radiation pain to back",
+      "C": "Absent muscle guarding",
+      "D": "Presence of rebound tendemess"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Absent muscle guardingAbsent muscle guarding: Typically there is muscle guarding (peritonitis sign).Other Options:ক) Severe constant upper abdominal pain: Classical feature.খ) Radiation to back: Common due to retroperitoneal location of pancreas.ঘ) Rebound tenderness: Can occur due to peritoneal irritation."
+  },
+  {
+    "id": 65,
+    "question": "The most reliable clinical feature of strangulaed inguinal hernis is",
+    "options": {
+      "A": "Pain",
+      "B": "Fever",
+      "C": "Tense and tender lump in the inguinal region",
+      "D": "Vomiting"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Tense and tender lump in the inguinal regionTense and tender lump: Non-reducible, irreducible, tender, and tense mass = strangulation.Other Options:ক) Pain: Present in both reducible and strangulated hernia.খ) Fever: Can occur later, not specific.ঘ) Vomiting: Non-specific symptom of intestinal obstruction."
+  },
+  {
+    "id": 66,
+    "question": "Solid tumor of ovary is",
+    "options": {
+      "A": "Chocolate cyst of ovary",
+      "B": "Theca Lutein cyst",
+      "C": "Fibroma",
+      "D": "Parovarian cyst"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) FibromaFibroma: Solid, benign tumor of ovarian stromal origin.Other Options:ক) Chocolate cyst: Endometriotic cyst — not solid.খ) Theca lutein cyst: Functional cyst, not solid.ঘ) Parovarian cyst: Cystic structure, not a solid tumor."
+  },
+  {
+    "id": 67,
+    "question": "Component of secondary survey in a traumatic patient is",
+    "options": {
+      "A": "Airway and cervical spine control",
+      "B": "Head to toe examination",
+      "C": "Breathing and ventilation",
+      "D": "Circulation and control of haemorrhage"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer: খ) Head to toe examinationHead to toe examination: This is done during secondary survey to assess all systems thoroughly after stabilizing the patient.Other Options:ক) Airway and cervical spine control: Part of primary survey.গ) Breathing and ventilation: Part of primary survey.ঘ) Circulation and control of hemorrhage: Also part of primary survey."
+  },
+  {
+    "id": 68,
+    "question": "Common feature to all Spondylo arthritis is",
+    "options": {
+      "A": "Asymmetrical poly arthritis",
+      "B": "Conjunctivitis",
+      "C": "Positive HLA B₂,",
+      "D": "Oral Ulceration"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Positive HLA-B27Positive HLA-B27: Genetic marker found in most types including ankylosing spondylitis, reactive arthritis, psoriatic arthritis, and IBD-related arthritis.Other Options:ক) Symmetrical polyarthritis: Seen in rheumatoid arthritis, not typical for spondyloarthritis (which is usually asymmetric).খ) Conjunctivitis: Seen in reactive arthritis, not universal to all spondyloarthropathies.ঘ) Oral ulceration: Common in Behçet’s disease or SLE, not typical in spondyloarthritis."
+  },
+  {
+    "id": 69,
+    "question": "Fibrinolysis is done by",
+    "options": {
+      "A": "Plasminogen",
+      "B": "Prothrombin",
+      "C": "Fibrinogen",
+      "D": "Haptoglobin"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) PlasminogenPlasminogen: Converted to plasmin → breaks down fibrin clots.Other Options:খ) Prothrombin: Involved in coagulation, not fibrinolysis.গ) Fibrinogen: Precursor to fibrin (forms clots), not breakdown.ঘ) Haptoglobin: Binds free hemoglobin, unrelated to clotting."
+  },
+  {
+    "id": 70,
+    "question": "Which of the following is true for wound healing by secondary intention",
+    "options": {
+      "A": "Takes place is clean wound",
+      "B": "Fine scar formation",
+      "C": "Applicable for infected wound",
+      "D": "Less evidence of inflammation."
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Applicable for infected woundApplicable for infected wound: Left open to heal from base — e.g., abscess cavity.Other Options:ক) Takes place in clean wound: Clean wounds → primary intention.খ) Fine scar formation: Secondary intention → larger scars.ঘ) Less evidence of inflammation: More inflammation and granulation occurs."
+  },
+  {
+    "id": 71,
+    "question": "Example of probability sampling is",
+    "options": {
+      "A": "Stratified random sampling",
+      "B": "Quota sampling",
+      "C": "Purposive sampling",
+      "D": "Accidental sampling"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) Stratified random samplingStratified random sampling: Population is divided into strata, then randomly sampled — a type of probability sampling.Other Options:খ) Quota sampling: Non-probability sampling, though similar to stratified.গ) Purposive sampling: Also non-probability — based on judgment.ঘ) Accidental sampling: A type of convenience sampling, not probability-based."
+  },
+  {
+    "id": 72,
+    "question": "Late sign of death is",
+    "options": {
+      "A": "adipocere formation",
+      "B": "cooling of body",
+      "C": "dilatation of pupil",
+      "D": "rigor mortis"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) Adipocere formationAdipocere formation: Postmortem change occurring after days/weeks; sign of late decomposition.Other Options:খ) Cooling of body: Early sign (algor mortis).গ) Dilatation of pupils: Early sign.ঘ) Rigor mortis: Appears within hours."
+  },
+  {
+    "id": 73,
+    "question": "Absolute indication of splenectomy is",
+    "options": {
+      "A": "Lymphoma",
+      "B": "Thelassemi",
+      "C": "Leukemia",
+      "D": "Grade V spleen injury"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Grade V spleen injuryGrade V spleen injury: Massive injury with shattered spleen — life-saving splenectomy.Other Options:ক) Lymphoma: Not absolute — only if symptomatic or diagnostic need.খ) Thalassemia: Relative indication — if hypersplenism or transfusion-dependent.গ) Leukemia: Again, not absolute."
+  },
+  {
+    "id": 74,
+    "question": "Causative Organism responsible for Cervical cancer",
+    "options": {
+      "A": "HSV",
+      "B": "HPV",
+      "C": "Chlamydia",
+      "D": "Herpes zoster"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer: খ) HPV (Human Papilloma Virus)HPV: Especially high-risk types 16 & 18 cause cervical intraepithelial neoplasia (CIN).Other Options:ক) HSV: Not linked to cervical cancer.গ) Chlamydia: Can cause PID but not cancer.ঘ) Herpes zoster: Reactivation of varicella-zoster virus, not linked to cancer."
+  },
+  {
+    "id": 75,
+    "question": "A 35-year-old man came to you with following reports HbsAg (-VE), Anti HBe IgG (+VE), Anti HBc IgM(-VE), Anti HBs (+VE) which senario will match with the above mentioned reports",
+    "options": {
+      "A": "Acute hepatitis (early)",
+      "B": "Convalescence",
+      "C": "Post infection",
+      "D": "Immunization without infection"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Post-infectionPost-infection: Classical serological profile.Other Options:This is a resolved HBV infection profile:○ HBsAg (-): No active infection.○ Anti-HBc IgG (+): Past exposure.○ Anti-HBs (+): Immunity.○ Anti-HBc IgM (-): No recent infection.ক) Acute hepatitis (early): Would have HBsAg (+) and IgM (+).খ) Convalescence: Might be possible, but Anti-HBs usually not yet formed.ঘ) Immunization without infection: No Anti-HBc present in vaccine-induced immunity."
+  },
+  {
+    "id": 76,
+    "question": "In normal pregnancy",
+    "options": {
+      "A": "Factor X increases",
+      "B": "Anti thrombin III concentration increases",
+      "C": "Venous pressure falls",
+      "D": "Iron hinding capacity falls"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) Factor X increasesFactor X increases: Coagulation factors like fibrinogen, factor VII, VIII, X increase — pregnancy is a hypercoagulable state.Other Options:খ) Antithrombin III concentration increases: It decreases, enhancing coagulation tendency.গ) Venous pressure falls: It rises due to mechanical pressure by gravid uterus.ঘ) Iron binding capacity falls: It increases due to elevated transferrin levels."
+  },
+  {
+    "id": 77,
+    "question": "The EPI vaccine given at birth is",
+    "options": {
+      "A": "BCG",
+      "B": "Diphtheria",
+      "C": "Measles",
+      "D": "Tetanus"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) BCGBCG: Given at birth to prevent severe forms of tuberculosis.Other Options:খ) Diphtheria: Part of DPT — given at 6 weeks.গ) Measles: Given at 9 months.ঘ) Tetanus: Not directly given at birth (Tetanus toxoid given to mothers antenatally)."
+  },
+  {
+    "id": 78,
+    "question": "Complication of Caesarean section is",
+    "options": {
+      "A": "Postpartum Hemorrhage",
+      "B": "Vaginal stenosis",
+      "C": "Low platelet count",
+      "D": "Injury to liver"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) Postpartum HemorrhagePostpartum Hemorrhage: Common complication due to uterine atony or surgical trauma.Other Options:খ) Vaginal stenosis: Not related to C-section.গ) Low platelet count: Not a direct complication.ঘ) Injury to liver: Rare and usually only with very difficult upper-segment surgeries."
+  },
+  {
+    "id": 79,
+    "question": "Cause of severe dysmenorrhea in an adolescent girl is",
+    "options": {
+      "A": "Endometriosis",
+      "B": "Polycystic ovary disease",
+      "C": "Adenomyosis",
+      "D": "Trichomomiasis"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) EndometriosisEndometriosis: Common cause of secondary dysmenorrhea in adolescents.Other Options:খ) Polycystic ovary disease (PCOS): Typically presents with oligomenorrhea, not painful periods.গ) Adenomyosis: Common in older, multiparous women.ঘ) Trichomoniasis: STI with discharge, not dysmenorrhea."
+  },
+  {
+    "id": 80,
+    "question": "Which of the following is a compelling indication of calcium channel blocker in the management of Hypertension?",
+    "options": {
+      "A": "Heart failure",
+      "B": "Secondary stroke prevention",
+      "C": "Older patient",
+      "D": "Left ventricular dysfunction"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Older patientOlder patient: CCBs are particularly effective in elderly hypertensives, especially with isolated systolic HTN.Other Options:ক) Heart failure: Some CCBs (especially non-dihydropyridines like verapamil) may worsen heart failure.খ) Secondary stroke prevention: Not specifically CCBs; ACEIs or diuretics preferred.ঘ) Left ventricular dysfunction: Beta-blockers or ACEIs preferred."
+  },
+  {
+    "id": 81,
+    "question": "CA-125 is the tumor marker for-",
+    "options": {
+      "A": "Breast Cancer",
+      "B": "Colon cancer",
+      "C": "Ovarian cancer",
+      "D": "Pancreatic cancer"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) Ovarian cancerOvarian cancer: Especially in epithelial ovarian cancers (used for diagnosis & follow-up).Other Options:ক) Breast cancer: CA 15-3 is used.খ) Colon cancer: CEA (Carcinoembryonic antigen) is used.ঘ) Pancreatic cancer: CA 19-9 is used."
+  },
+  {
+    "id": 82,
+    "question": "Adverse drug reaction includes-",
+    "options": {
+      "A": "synergism",
+      "B": "Antagonism",
+      "C": "Idiosyncracy",
+      "D": "Enzyme induction"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) IdiosyncracyIdiosyncrasy: An unusual, unpredictable reaction due to genetic factors — a type of ADR.Other Options:ক) Synergism: Therapeutic concept — beneficial or harmful, not always ADR.খ) Antagonism: Drug interaction concept.ঘ) Enzyme induction: Pharmacokinetic change, not an adverse reaction itself."
+  },
+  {
+    "id": 83,
+    "question": "Irreversible sing of Vitamin-A deficiency is-",
+    "options": {
+      "A": "Bitot's spot",
+      "B": "Xerosis Conjunctive",
+      "C": "Keratomalacia",
+      "D": "Night Blindness"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) KeratomalaciaKeratomalacia: Corneal softening → permanent blindness — irreversible.Other Options:ক) Bitot’s spot: Early and reversible.খ) Xerosis conjunctivae: Reversible.ঘ) Night blindness: Earliest sign, completely reversible with treatment."
+  },
+  {
+    "id": 84,
+    "question": "Fever is mediated by-",
+    "options": {
+      "A": "Bradykinin",
+      "B": "Complements",
+      "C": "Hageman factor",
+      "D": "Interleukin-1"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Interleukin-1Interleukin-1: A pyrogen that acts on the hypothalamus to raise body temperature.Other Options:ক) Bradykinin: Involved in pain and vasodilation.খ) Complement: Role in immunity, not fever.গ) Hageman factor: Initiates clotting and inflammation."
+  },
+  {
+    "id": 85,
+    "question": "Which of the following is a common complication of inhibitors?",
+    "options": {
+      "A": "Genital infection",
+      "B": "Lactic acidosis",
+      "C": "Fluid retention",
+      "D": "Peripheral neuropathy"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) Genital infectionGenital infection: Due to glycosuria, common in both males and females.Other Options:খ) Lactic acidosis: More associated with metformin.গ) Fluid retention: Not typical; more with TZDs (e.g., pioglitazone).ঘ) Peripheral neuropathy: Not a common adverse effect of SGLT2 inhibitors."
+  },
+  {
+    "id": 86,
+    "question": "In Bangladesh minimum recommended number of antenatal care (ANC) visit is-",
+    "options": {
+      "A": "four",
+      "B": "six",
+      "C": "eight",
+      "D": "twelve"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) FourFour: As per WHO’s focused ANC model, minimum 4 visits (though newer guidelines recommend 8).Other Options:খ) Six: May be practiced, but not officially minimum.গ) Eight: New WHO recommendation, not national minimum yet.ঘ) Twelve: Too high — not the recommendation."
+  },
+  {
+    "id": 87,
+    "question": "Respiratory Center is Located in-",
+    "options": {
+      "A": "Medulla",
+      "B": "Spinal Cord",
+      "C": "Brain Cortex",
+      "D": "Cerebellum"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) MedullaMedulla: Contains dorsal and ventral respiratory groups — controls inspiration and expiration.Other Options:খ) Spinal cord: Conveys impulses but not the control center.গ) Brain cortex: Can influence voluntary breathing but not autonomic.ঘ) Cerebellum: Coordinates movement, not respiration."
+  },
+  {
+    "id": 88,
+    "question": "Forensic radiology deals with determination of-",
+    "options": {
+      "A": "Poison",
+      "B": "Foreign body",
+      "C": "Age",
+      "D": "Pregnancy"
+    },
+    "answer": "C",
+    "explanation": "Correct Answer: গ) AgeAge: Bone ossification centers, dental X-rays — commonly used in age estimation.Other Options:ক) Poison: Identified by toxicology.খ) Foreign body: Yes, radiology can help, but not the primary use in forensics.ঘ) Pregnancy: Determined clinically or by ultrasound, not primarily forensic."
+  },
+  {
+    "id": 89,
+    "question": "Leukocyte induced acute tissue injury is-",
+    "options": {
+      "A": "Arthritis",
+      "B": "Asthma",
+      "C": "Atherosclerosis",
+      "D": "Pulmonary fibrosis"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) ArthritisArthritis: Correct. In acute inflammatory arthritis (like gout or septic arthritis), neutrophils infiltrate joints and release enzymes and ROS causing tissue damage.Example: Gouty arthritis involves urate crystals that attract neutrophils, leading to leukocyte-mediated injury.Other Options:খ) Asthma• Though leukocytes like eosinophils play a role in chronic inflammation in asthma, it is not primarily an acute leukocyte-induced tissue injury.• It is more of a chronic hypersensitivity reaction.গ) Atherosclerosis • It is a chronic inflammatory disease, with macrophages and T cells playing a long-term role in plaque formation.• Not typically classified under acute leukocyte-induced injury.ঘ) Pulmonary fibrosis • This is the result of chronic inflammation and repair, often involving fibroblast activation and collagen deposition.• It’s chronic, not acute, and leukocyte injury is not the predominant mechanism."
+  },
+  {
+    "id": 90,
+    "question": "Oligo hydromnios is sever in-",
+    "options": {
+      "A": "Gestational Diabetes",
+      "B": "Anencephaly",
+      "C": "Nulliparous women",
+      "D": "Renal agenesis of fetus"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Renal agenesis of fetusRenal agenesis: Kidneys produce urine, which is a major component of amniotic fluid. Without kidneys → severe oligohydramnios.ক) Gestational diabetes: More often causes polyhydramnios.খ) Anencephaly: Also associated with polyhydramnios.গ) Nulliparous women: Parity doesn’t directly relate to amniotic fluid."
+  },
+  {
+    "id": 91,
+    "question": "Which of the following drug can be used in a pregnant lady with Rheumatoid Arthritis?",
+    "options": {
+      "A": "Methotrexate",
+      "B": "Salfasalazine",
+      "C": "Leflunamide",
+      "D": "Mycophenolate Mofetil"
+    },
+    "answer": "B",
+    "explanation": "Correct Answer: খ) SulfasalazineSulfasalazine: Safe in pregnancy; commonly used in inflammatory arthritis.Other Options:ক) Methotrexate: Teratogenic — contraindicated.গ) Leflunomide: Highly teratogenic; contraindicated.ঘ) Mycophenolate mofetil: Teratogenic immunosuppressant."
+  },
+  {
+    "id": 92,
+    "question": "Programmed cell death is regulated by-",
+    "options": {
+      "A": "Endoplasmic reticulum",
+      "B": "Golgi apparatus",
+      "C": "Lysosome",
+      "D": "Mitochondria"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) MitochondriaMitochondria: Release cytochrome c, activating caspases → apoptosis.Other Options:ক) Endoplasmic reticulum: Involved in protein synthesis/folding.খ) Golgi apparatus: Involved in protein processing/packaging.গ) Lysosome: Involved in autophagy, not apoptosis."
+  },
+  {
+    "id": 93,
+    "question": "Symptoms of mild shock is-",
+    "options": {
+      "A": "Rise of respiratory rate",
+      "B": "Fall of blood pressure",
+      "C": "Reduced Urinary output",
+      "D": "Coma"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) Rise of respiratory rateRise of respiratory rate: In mild (compensated) shock, the body attempts to maintain perfusion by increasing respiratory rate and heart rate.Other Options:খ) Fall of blood pressure: This is a sign of decompensated (moderate to severe) shock, not mild.গ) Reduced Urinary output: Typically occurs in moderate to severe shock.ঘ) Coma: Suggests severe cerebral hypoperfusion, a late and severe sign."
+  },
+  {
+    "id": 94,
+    "question": "Lining of urinary tract is-",
+    "options": {
+      "A": "Ciliated Columnar epithelium",
+      "B": "Endothelium",
+      "C": "Mesothelium",
+      "D": "Transitional epithelium"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Transitional epitheliumTransitional epithelium: Specialized to stretch — seen in renal pelvis, ureter, bladder.Other Options:ক) Ciliated columnar epithelium: Found in respiratory tract.খ) Endothelium: Lines blood vessels.গ) Mesothelium: Lines body cavities (pleura, peritoneum)."
+  },
+  {
+    "id": 95,
+    "question": "Which of the following signs is characteristic for stevens-Jhonson syndrome?",
+    "options": {
+      "A": "Koebner phenomenon",
+      "B": "Auspitz sing",
+      "C": "Dimple sing",
+      "D": "Nikolsky sing"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Nikolsky signNikolsky sign: Skin sloughs off with slight rubbing — seen in SJS, TEN.Other Options:ক) Koebner phenomenon: Seen in psoriasis and lichen planus.খ) Auspitz sign: Pinpoint bleeding in psoriasis.গ) Dimple sign: Seen in dermatofibroma."
+  },
+  {
+    "id": 96,
+    "question": "Indication of Circumcision-",
+    "options": {
+      "A": "Epispadias",
+      "B": "Hypospadias",
+      "C": "Undescended Testes",
+      "D": "Phimosis"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) PhimosisPhimosis: Tight foreskin that can’t be retracted — most common indication for circumcision.Other Options:ক) Epispadias: Surgical correction needed, but not by circumcision.খ) Hypospadias: Circumcision is avoided because foreskin may be used for repair.গ) Undescended testes: Not related to foreskin."
+  },
+  {
+    "id": 97,
+    "question": "A 35-year-old woman presented with palpitation, excessive sweating and heat intolerence for 02 weeks; her serum levels were high and TSH level was undetectable; radio iodine uptake of thyroid gland was low. The most likely diagnosis is-",
+    "options": {
+      "A": "Graves disease",
+      "B": "Toxic adenoma",
+      "C": "Toxic multi-noduler goitre",
+      "D": "Sub acute thyroiditis"
+    },
+    "answer": "D",
+    "explanation": "Correct Answer: ঘ) Subacute thyroiditisSubacute thyroiditis: Preformed hormone release → low TSH, low uptake, and self-limiting.Other Options:ক) Graves disease: High iodine uptake.খ) Toxic adenoma: Focal high uptake.গ) Toxic multinodular goitre: Patchy uptake."
+  },
+  {
+    "id": 98,
+    "question": "Cause of intrauterine death (IUD) is-",
+    "options": {
+      "A": "Diabetes Mellutus",
+      "B": "Respiratory distress syndrome",
+      "C": "Breech presentation",
+      "D": "Bicornuate Uterus"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) Diabetes MellitusDiabetes Mellitus: Poorly controlled maternal diabetes can cause fetal hypoxia, macrosomia, congenital malformations → IUD.Other Options:খ) Respiratory distress syndrome: Postnatal condition.গ) Breech presentation: Can cause complications during delivery but not a direct IUD cause.ঘ) Bicornuate uterus: May increase miscarriage risk but not the most common cause of IUD."
+  },
+  {
+    "id": 99,
+    "question": "Carpal tunnel consists of-",
+    "options": {
+      "A": "Median nerve",
+      "B": "Musculocutaneous nerve",
+      "C": "Radial nerve",
+      "D": "Ulnar nerve"
+    },
+    "answer": "A",
+    "explanation": "Correct Answer: ক) Median nerveMedian nerve: Passes through carpal tunnel and is compressed in carpal tunnel syndrome.Other Options:খ) Musculocutaneous nerve: Supplies anterior arm muscles.গ) Radial nerve: Does not pass through carpal tunnel.ঘ) Ulnar nerve: Passes through Guyon’s canal, not carpal tunnel."
+  }
+]

@@ -1,0 +1,509 @@
+[
+  {
+    "id": 82,
+    "question": "Marketing is involved in creating which of the following for customers?",
+    "options": {
+      "A": "Transaction",
+      "B": "Demand",
+      "C": "Value",
+      "D": "Satisfaction"
+    },
+    "answer": "C",
+    "explanation": "The primary goal of marketing is to create value for customers. Value is the difference between the benefits received from a product or service and the cost incurred to obtain it.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 83,
+    "question": "As consumers constantly get new products in hand, what changes occur for consumers?",
+    "options": {
+      "A": "In consumer taste",
+      "B": "In consumer income",
+      "C": "In increased purchasing",
+      "D": "In perception about sellers"
+    },
+    "answer": "A",
+    "explanation": "Exposure to new products changes people's usage and preference patterns. As consumers constantly get new products, their tastes, preferences, and lifestyles change.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 84,
+    "question": "What is done through the standardization process?",
+    "options": {
+      "A": "Product protection",
+      "B": "Product categorization",
+      "C": "Product pricing",
+      "D": "Determining product quality"
+    },
+    "answer": "D",
+    "explanation": "Standardization is the process of setting specific standards for the quality, shape, weight, etc. of a product. Through this, a clear idea about the product's quality is provided.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 85,
+    "question": "Which of the following is related to advertising?",
+    "options": {
+      "A": "Sales",
+      "B": "Control",
+      "C": "Purchase",
+      "D": "Transportation"
+    },
+    "answer": "A",
+    "explanation": "The main purpose of advertising is to increase the sales of a product or service. It is a promotional strategy directly related to sales.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 86,
+    "question": "Transportation helps in creating which type of utility?",
+    "options": {
+      "A": "Time utility",
+      "B": "Ownership utility",
+      "C": "Form utility",
+      "D": "Place utility"
+    },
+    "answer": "D",
+    "explanation": "Through transportation, products are moved from the place of production to locations near consumers. As a result, the product becomes accessible to consumers and creates place utility.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 87,
+    "question": "What must be done through packaging?",
+    "options": {
+      "A": "Price determination",
+      "B": "Product categorization",
+      "C": "Product preservation",
+      "D": "Making the product attractive"
+    },
+    "answer": "D",
+    "explanation": "The primary and main function of packaging is to make the product attractive so that it catches the buyer's attention and encourages purchase. Additionally, it also plays a role in product preservation.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 88,
+    "question": "Which of the following creates various types of utility?",
+    "options": {
+      "A": "Transportation",
+      "B": "Purchase",
+      "C": "Business",
+      "D": "Marketing"
+    },
+    "answer": "D",
+    "explanation": "Marketing activities create various types of utility (form, time, place, ownership) for products. Marketing is a broad process that is intricately involved in creating all these utilities.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 89,
+    "question": "Which marketing function, when performed well, is considered half the sale?",
+    "options": {
+      "A": "Transportation",
+      "B": "Advertising",
+      "C": "Warehousing",
+      "D": "Standardization"
+    },
+    "answer": "B",
+    "explanation": "A common saying in marketing is 'Advertisements are half the sale'. When advertising is properly executed, half the work of selling the product is automatically accomplished.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 90,
+    "question": "What is the transfer of product ownership in exchange for money called?",
+    "options": {
+      "A": "Purchase",
+      "B": "Sale",
+      "C": "Marketing",
+      "D": "Exchange"
+    },
+    "answer": "B",
+    "explanation": "A sale is a process through which the ownership of a product is transferred from the seller to the buyer in exchange for money or monetary value.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 91,
+    "question": "Ronju is a cloth trader. Which of the following should he consider in selling cloth?",
+    "options": {
+      "A": "Determining the source of the product",
+      "B": "Assessing the impact of stock turnover",
+      "C": "Determining consumer needs",
+      "D": "Searching for funds"
+    },
+    "answer": "C",
+    "explanation": "The key to successful marketing is prioritizing consumer demand and needs. Therefore, cloth seller Ronju's first and main task should be to determine consumer needs and preferences.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 92,
+    "question": "Through which activity does a marketer connect the time of production and use of a product or service?",
+    "options": {
+      "A": "Sale",
+      "B": "Transportation",
+      "C": "Warehousing",
+      "D": "Financing"
+    },
+    "answer": "C",
+    "explanation": "Warehousing bridges the time gap by storing products from the time of production until the time of consumer use. This creates time utility.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 93,
+    "question": "Which of the following delivers winter clothes produced year-round to consumers during winter?",
+    "options": {
+      "A": "Transportation",
+      "B": "Production",
+      "C": "Warehousing",
+      "D": "Sale"
+    },
+    "answer": "C",
+    "explanation": "Although winter clothes are produced year-round, they must be stored in a warehouse for the interim period to be supplied to consumers during winter. Warehousing makes this connection.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 94,
+    "question": "Russell runs a poultry farm. How will he benefit if he takes proper steps to preserve the produced chickens and eggs?",
+    "options": {
+      "A": "Obtaining a higher price for the product",
+      "B": "Customer satisfaction",
+      "C": "Risk reduction",
+      "D": "Increased profit"
+    },
+    "answer": "C",
+    "explanation": "Chickens and eggs are perishable products. Proper preservation prevents them from spoiling, thus significantly reducing the risk of loss. In the long run, this risk reduction is the main benefit.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 95,
+    "question": "Which marketing function is related to thinking?",
+    "options": {
+      "A": "Production",
+      "B": "Planning",
+      "C": "Sale",
+      "D": "Standardization"
+    },
+    "answer": "B",
+    "explanation": "Planning is a completely mental and intellectual process. Before starting all marketing activities, the task of thinking and strategizing is planning.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 96,
+    "question": "What is setting product quality standards called?",
+    "options": {
+      "A": "Grading",
+      "B": "Standardization",
+      "C": "Marketing",
+      "D": "Exchange"
+    },
+    "answer": "B",
+    "explanation": "Standardization is the process of setting a specific and uniform standard or ideal for the quality, size, weight, color, etc. of a product.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 97,
+    "question": "What will a successful marketer consider in determining product quality?",
+    "options": {
+      "A": "Product source",
+      "B": "Production",
+      "C": "Product quality attributes",
+      "D": "Customer nature"
+    },
+    "answer": "D",
+    "explanation": "The main basis of standardization is customer demand and taste. A successful marketer will primarily consider the nature of the customer, their preferences, and expectations when setting product standards.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 98,
+    "question": "What is done in grading?",
+    "options": {
+      "A": "Dividing products based on quality attributes",
+      "B": "Dividing products based on characteristics",
+      "C": "Dividing products based on taste",
+      "D": "Dividing products based on smell"
+    },
+    "answer": "A",
+    "explanation": "Grading is the classification of products based on size, shape, quality, and other characteristics according to established standards. Here 'quality attributes' is a broad term that includes all characteristics.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 99,
+    "question": "Jahed runs a stationery shop. Which type of marketing function can he use as a basis for classifying the products in his shop?",
+    "options": {
+      "A": "Production",
+      "B": "Grading",
+      "C": "Sale",
+      "D": "Standardization"
+    },
+    "answer": "B",
+    "explanation": "Grading is the most suitable method for arranging or classifying products in a shop. Sorting products separately based on quality and characteristics is the practical application of grading.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 100,
+    "question": "Which of the following protects products from spoilage?",
+    "options": {
+      "A": "Packing",
+      "B": "Standardization",
+      "C": "Grading",
+      "D": "Transportation"
+    },
+    "answer": "A",
+    "explanation": "Packaging or packing protects the product from external shocks, dust, water contact, and other harmful effects, preventing product decay or damage.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 101,
+    "question": "Which of the following tasks of a producer is accomplished through advertising?",
+    "options": {
+      "A": "Publicity",
+      "B": "Promotion",
+      "C": "Distribution",
+      "D": "Risk reduction"
+    },
+    "answer": "B",
+    "explanation": "Promotion is a component of the marketing mix that informs and encourages customers about a product. Advertising is a major tool of promotion.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 102,
+    "question": "Which barrier of marketing does advertising remove?",
+    "options": {
+      "A": "Ownership barrier",
+      "B": "Promotional barrier",
+      "C": "Time barrier",
+      "D": "Risk barrier"
+    },
+    "answer": "B",
+    "explanation": "Advertising removes the promotional barrier by delivering product-related information to the masses. It bridges the information gap between the producer and the consumer.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 103,
+    "question": "What type of communication system is advertising?",
+    "options": {
+      "A": "One-way",
+      "B": "Three-way",
+      "C": "Two-way",
+      "D": "Multi-way"
+    },
+    "answer": "A",
+    "explanation": "Advertising is a one-way communication system where the seller or producer sends the product message to the customer but cannot instantly know the customer's reaction.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 104,
+    "question": "The essential elements of marketing are- i. Local demand ii. Market information iii. Transportation",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "For successful marketing, market information collection (ii) and product transportation (iii) are essential. Local demand (i) may apply to a specific part, but is not essential for global marketing.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 105,
+    "question": "Rayhan is the marketing manager of 'Square Pharmaceuticals'. The auxiliary functions he will perform are- i. Risk-taking ii. Financing iii. Market information collection",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "The main auxiliary functions of a marketing manager include taking business risks (i), arranging necessary financing (ii), and collecting market information for correct decision-making (iii).",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 106,
+    "question": "Consumers' standard of living improves- i. By using new products ii. By purchasing conventional products iii. By consuming attractive products",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Using new products (i) and consuming attractive products (iii) improve consumers' lifestyles. However, purchasing conventional products (ii) generally maintains the current lifestyle and may not lead to improvement.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 107,
+    "question": "Raju recently joined 'Jerin Cosmetics Ltd.' as a sales officer after completing his studies. To increase the company's sales, the tasks he must do are- i. Customer search ii. Creating ownership utility iii. Undertaking promotional activities",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "As a sales officer, Raju must search for potential customers (i) and conduct promotional activities for the product to them (iii). Ownership utility creation (ii) is primarily the result of ownership transfer through buying and selling.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 108,
+    "question": "Robin is a dairy product trader. He arranges for the preservation of his goods until a specified period. The reasons for this are- i. Risk reduction ii. Preserving product quality iii. Achieving consumer satisfaction",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Preserving perishable dairy products reduces the risk of spoilage (i), maintains product quality (ii), and thereby achieves consumer satisfaction (iii).",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 109,
+    "question": "Standardization is done- i. According to customer taste ii. According to seller preference iii. According to customer need",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "The main goal of standardization is to set a specific quality for a product based on customer taste (i) and need (iii). It does not depend on the seller's personal preference (ii).",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 110,
+    "question": "Grading is- i. Physical work ii. Mental work iii. Production work",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "Grading is both a physical and mental task. Sorting products into different classes is physical work, while judging which product will be of what quality is mental work.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 111,
+    "question": "Through advertising, customers become aware of- i. Product potential ii. Product qualities iii. Product usage guidelines",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Through advertising, customers can learn in detail about the product's potential (i), product qualities (ii), and product usage guidelines (iii).",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 112,
+    "question": "Advertising is- i. An impersonal presentation ii. A paid activity iii. A one-way communication system",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Three fundamental characteristics of advertising are: it is an impersonal presentation (i), it is a paid activity (ii), and it is primarily a one-way communication system (iii).",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 113,
+    "question": "[Stimulus] Mr. Russell is a marketing manager. He plays an important role in searching for sources of funds, collecting them, and making investment-related decisions... Which marketing function does Mr. Russell perform in the stimulus?",
+    "options": {
+      "A": "Purchasing",
+      "B": "Risk-taking",
+      "C": "Financing",
+      "D": "After-sales service"
+    },
+    "answer": "C",
+    "explanation": "The auxiliary marketing function involved in searching for sources of necessary funds, collecting them, and making investment decisions is financing.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 114,
+    "question": "By collecting market information, Mr. Russell will be able to perform the auxiliary functions of- i. Marketing planning ii. Implementation and control iii. Analysis and distribution",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "By collecting market information, a marketing manager can undertake proper marketing planning (i), implementation and control (ii), and information analysis and distribution (iii).",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 115,
+    "question": "[Stimulus] Pran-RFL Co. Ltd. purchases high-quality mangoes for producing their juice 'Pran Frooto'... What does Pran-RFL Co. Ltd. achieve through their purchasing activity?",
+    "options": {
+      "A": "Consolidation of products",
+      "B": "Creating consumer satisfaction",
+      "C": "Recovering investment",
+      "D": "Facing competition"
+    },
+    "answer": "B",
+    "explanation": "By purchasing high-quality mangoes, the company can produce high-quality juice, which ultimately fulfills consumer demand and creates consumer satisfaction. Through purchasing activities, the main objective is to ensure consumer satisfaction.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 116,
+    "question": "Pran-RFL Co. Ltd.'s market expansion also depends on- i. Consumer satisfaction ii. Acceptable price iii. Product design",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "For market expansion, consumer satisfaction (i), acceptable price (ii), and attractive product design (iii) are all important. These collectively help increase a product's market.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 117,
+    "question": "[Stimulus] Mr. Robin collects vegetables from Jessore and supplies them to Karwan Bazar in Dhaka... Due to severe traffic jams... the vegetables rotted and quality deteriorated. What type of barrier did Mr. Robin recently face?",
+    "options": {
+      "A": "Ownership barrier",
+      "B": "Time barrier",
+      "C": "Place barrier",
+      "D": "Form barrier"
+    },
+    "answer": "B",
+    "explanation": "Due to traffic jams, the product could not be delivered on time, causing spoilage. This is a time barrier. This loss occurred due to a lack of time management and warehousing.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 118,
+    "question": "To reduce Mr. Robin's financial loss, the measures to take are- i. Using refrigerated transport ii. Arranging grading iii. Transporting products via alternative routes",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Using refrigerated transport (i) and transporting products via alternative routes to avoid traffic (iii) are effective measures to prevent perishable goods from spoiling. Grading (ii) determines product quality but does not directly prevent spoilage.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 119,
+    "question": "[Stimulus] Siraj Mia, a shrimp trader in Dhaka... sells shrimp to customers after dividing them into categories. In light of which marketing function does Siraj Mia categorize the shrimp?",
+    "options": {
+      "A": "Standardization",
+      "B": "Warehousing",
+      "C": "Grading",
+      "D": "Transportation"
+    },
+    "answer": "C",
+    "explanation": "Dividing shrimp into categories based on specific criteria (such as size, weight) is called grading. This is the practical application of standardization.",
+    "source": "Production Management & Marketing, Chapter-3"
+  },
+  {
+    "id": 120,
+    "question": "What does Siraj Mia consider in categorizing the shrimp?",
+    "options": {
+      "A": "Consumer expectations",
+      "B": "Predetermined standards",
+      "C": "Consumer purchasing power",
+      "D": "Producer's opinion"
+    },
+    "answer": "B",
+    "explanation": "Grading is always done on the basis of predetermined standards or standardization. Siraj Mia categorizes the shrimp considering size, weight, etc., in light of predetermined standards.",
+    "source": "Production Management & Marketing, Chapter-3"
+  }
+]

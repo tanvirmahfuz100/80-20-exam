@@ -1,0 +1,691 @@
+[
+  {
+    "id": 92,
+    "question": "If the number of compounding periods increases in bank deposits, which will decrease?",
+    "options": {
+      "A": "Present value",
+      "B": "Number of ordinary annuities",
+      "C": "Future value",
+      "D": "Number of advance annuities"
+    },
+    "answer": "A",
+    "explanation": "If the number of compounding periods increases, the present value decreases. More frequent compounding increases the discounting effect, resulting in a lower present value. The future value increases with more compounding.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 93,
+    "question": "What must be done to reduce future value?",
+    "options": {
+      "A": "Increase interest rate and increase time",
+      "B": "Decrease interest rate and increase time",
+      "C": "Increase interest rate and decrease some time",
+      "D": "Decrease interest rate and decrease time"
+    },
+    "answer": "D",
+    "explanation": "To reduce future value, the interest rate must be decreased and time must be decreased. Because FV = PV × (1+r)^n. If interest rate and time decrease, future value will also decrease.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 94,
+    "question": "Mr. Arif took a loan of Tk 5,00,000 at 12% interest for 4 years to buy a car. What is his monthly installment amount?",
+    "options": {
+      "A": "Tk 15,000",
+      "B": "Tk 16,100",
+      "C": "Tk 16,100",
+      "D": "Tk 17,000"
+    },
+    "answer": "C",
+    "explanation": "Monthly interest rate = 12%/12 = 1%. Total installments = 4×12 = 48. P = 5,00,000, r = 0.01, n = 48. EMI = P×r×(1+r)^n / [(1+r)^n-1] = 5,00,000×0.01×(1.01)^48 / [(1.01)^48-1] = Tk 16,100 (approx).",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 95,
+    "question": "Mr. Rahim wants to withdraw some money from his Provident Fund and deposit it in a bank at 12% interest for 5 years. The bank wants to give Tk 3,00,000 at maturity. How much money does Mr. Rahim want to deposit?",
+    "options": {
+      "A": "Tk 1,70,228",
+      "B": "Tk 2,70,220",
+      "C": "Tk 70,228",
+      "D": "Tk 3,70,228"
+    },
+    "answer": "A",
+    "explanation": "FV = 3,00,000, r = 12% = 0.12, n = 5. PV = FV / (1+r)^n = 3,00,000 / (1.12)^5 = 3,00,000 / 1.7623 = Tk 1,70,228 (approx).",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 96,
+    "question": "Mr. Taher started a business with capital of Tk 5,00,000 at 15% interest. If the tax rate is 40%, what will be the after-tax cost of capital?",
+    "options": {
+      "A": "9%",
+      "B": "10%",
+      "C": "12%",
+      "D": "15%"
+    },
+    "answer": "A",
+    "explanation": "After-tax cost of capital = Before-tax cost × (1 - Tax rate) = 15% × (1 - 0.40) = 15% × 0.60 = 9%. Interest tax shield reduces the effective cost of capital.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 97,
+    "question": "What is paid to lenders as compensation for their loan?",
+    "options": {
+      "A": "Dividend",
+      "B": "Remuneration",
+      "C": "Interest",
+      "D": "Profit"
+    },
+    "answer": "C",
+    "explanation": "Interest is paid to lenders as compensation for their loan. Interest is the price paid for using borrowed money. Dividends are paid to shareholders.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 98,
+    "question": "In the installment system, what is the amount of all installments like?",
+    "options": {
+      "A": "Parallel",
+      "B": "Equal",
+      "C": "Unequal",
+      "D": "Proportional rate"
+    },
+    "answer": "B",
+    "explanation": "In the EMI (Equated Monthly Installment) system, all installments are equal in amount. Although the interest and principal components differ in each installment, the total installment amount remains unchanged.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 99,
+    "question": "If the present value is given and equal amounts of money are deposited or received each year, what is it called?",
+    "options": {
+      "A": "Present value annuity",
+      "B": "Future value annuity",
+      "C": "Annuity wealth growth",
+      "D": "Cash flow"
+    },
+    "answer": "A",
+    "explanation": "Present Value of Annuity is the present value of equal money flows each year. When equal money is deposited or received annually and its present value is determined.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 100,
+    "question": "Compounding is involved in determining which of the following?",
+    "options": {
+      "A": "Present value",
+      "B": "Future value",
+      "C": "Cash flow",
+      "D": "Future and cash flow"
+    },
+    "answer": "B",
+    "explanation": "Compounding is involved in determining future value. Through the compounding process, interest is added to present money to determine how much it will be worth in the future.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 101,
+    "question": "Where is Rule 69 used?",
+    "options": {
+      "A": "Double",
+      "B": "Triple",
+      "C": "Equal amount",
+      "D": "Time"
+    },
+    "answer": "D",
+    "explanation": "Rule 69 is used to determine time. It is a simple formula to determine how long it will take for invested money to double. Formula: Time = 69/Interest rate + 0.35 years.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 102,
+    "question": "In the case of multiple compounding, how can present value be determined from future value?",
+    "options": {
+      "A": "Through discounting",
+      "B": "Through grants",
+      "C": "Through commission",
+      "D": "Through rebates"
+    },
+    "answer": "A",
+    "explanation": "Present value can be determined from future value through the discounting process. This is the reverse process of compounding, where future money is brought back to the present.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 103,
+    "question": "At 10% interest, in how many years will Tk 20,000 double?",
+    "options": {
+      "A": "5.2 years",
+      "B": "6 years",
+      "C": "7.2 years",
+      "D": "8 years"
+    },
+    "answer": "C",
+    "explanation": "According to Rule 72, doubling time = 72 / Interest rate = 72 / 10 = 7.2 years. This is a simple and widely used formula.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 104,
+    "question": "If the interest rate is 10%, what will be the equivalent value of today's Tk 100 after 2 years?",
+    "options": {
+      "A": "Tk 100",
+      "B": "Tk 120",
+      "C": "Tk 110",
+      "D": "Tk 121"
+    },
+    "answer": "D",
+    "explanation": "FV = PV × (1+r)^n = 100 × (1+0.10)^2 = 100 × 1.21 = Tk 121. That is, today's Tk 100 at 10% compound interest will be equivalent to Tk 121 after 2 years.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 105,
+    "question": "Mr. Sarkar took a loan of Tk 10,000 from a bank for 3 years. After 3 years, Mr. Sarkar paid a total of Tk 13,310. What is the annual interest rate?",
+    "options": {
+      "A": "8%",
+      "B": "10%",
+      "C": "12%",
+      "D": "50%"
+    },
+    "answer": "B",
+    "explanation": "FV = 13,310, PV = 10,000, n = 3. (1+r)^3 = FV/PV = 13,310/10,000 = 1.331. 1+r = (1.331)^(1/3) = 1.10. r = 0.10 = 10%.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 106,
+    "question": "Why doesn't Tk 100 of the present time carry the same value as Tk 100 after 10 years?",
+    "options": {
+      "A": "Demand changes with time",
+      "B": "The value of money changes with time",
+      "C": "Purchasing power changes with money",
+      "D": "Demand changes with money"
+    },
+    "answer": "B",
+    "explanation": "The value of money changes with time. Due to inflation, interest rates, and opportunity cost, the value of future money is less than present money. So today's Tk 100 is more valuable than Tk 100 after 10 years.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 107,
+    "question": "According to Rule 72, at 12% rate, in how many years will deposited money double?",
+    "options": {
+      "A": "4 years",
+      "B": "6 years",
+      "C": "8 years",
+      "D": "9 years"
+    },
+    "answer": "B",
+    "explanation": "According to Rule 72, doubling time = 72 / Interest rate = 72 / 12 = 6 years. Money invested at 12% interest will double in 6 years.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 108,
+    "question": "If the nominal interest rate is 12% and compounded semi-annually (2 times per year), what will be the effective interest rate?",
+    "options": {
+      "A": "0.1236%",
+      "B": "12.36%",
+      "C": "12%",
+      "D": "20%"
+    },
+    "answer": "B",
+    "explanation": "EAR = [1 + (r/m)]^m - 1 = [1 + (0.12/2)]^2 - 1 = (1 + 0.06)^2 - 1 = 1.1236 - 1 = 0.1236 = 12.36%.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 109,
+    "question": "At 10% interest with semi-annual compounding, if Tk 10,000 is deposited in a bank for 8 years, what will be the future value?",
+    "options": {
+      "A": "Tk 21,000",
+      "B": "Tk 21,829",
+      "C": "Tk 21,840",
+      "D": "Tk 22,000"
+    },
+    "answer": "B",
+    "explanation": "FV = PV × (1+r/m)^(n×m) = 10,000 × (1+0.10/2)^(8×2) = 10,000 × (1.05)^16 = 10,000 × 2.1829 = Tk 21,829.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 110,
+    "question": "What is the formula for Rule 72?",
+    "options": {
+      "A": "72/n",
+      "B": "72/k",
+      "C": "72/69",
+      "D": "72/(1 + i)^n"
+    },
+    "answer": "B",
+    "explanation": "The formula for Rule 72 is: Time = 72 / k, where k is the interest rate (in percentage). Through this simple formula, it can be determined in how many years an investment will double.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 111,
+    "question": "Which objective considers the time value of money?",
+    "options": {
+      "A": "Wealth maximization",
+      "B": "Profit maximization",
+      "C": "Income growth",
+      "D": "Cost reduction"
+    },
+    "answer": "A",
+    "explanation": "Wealth maximization considers the time value of money. It makes investment decisions from a long-term perspective and considers the present value of cash flows.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 112,
+    "question": "What does a time line determine?",
+    "options": {
+      "A": "Time value of money",
+      "B": "Income",
+      "C": "Wealth",
+      "D": "Expenditure"
+    },
+    "answer": "A",
+    "explanation": "A time line is used to determine and display the time value of money. It is a temporal picture of cash flows that helps in making investment decisions.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 113,
+    "question": "Mr. Mamun deposits Tk 10,000 in a bank. At 10% rate, in how many years will the said money double? (Rule 72)",
+    "options": {
+      "A": "6 years",
+      "B": "7 years",
+      "C": "8 years",
+      "D": "9 years"
+    },
+    "answer": "B",
+    "explanation": "According to Rule 72: Time = 72/10 = 7.2 years. That is, it will take approximately 7 years.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 114,
+    "question": "For bi-annual interest, through which rule can it be known how long it will take for a certain amount of money to double?",
+    "options": {
+      "A": "Rule of 69",
+      "B": "Rule of 70",
+      "C": "Rule of 73",
+      "D": "Rule of 75"
+    },
+    "answer": "A",
+    "explanation": "For bi-annual or more frequent compounding, the Rule of 69 is used to determine the time for money to double. Formula: Time = 69/Interest rate + 0.35 years.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 115,
+    "question": "If a person deposits Tk 2,500 at the end of each year at 10% interest, how much will be received after 5 years?",
+    "options": {
+      "A": "Tk 15,263",
+      "B": "Tk 16,130",
+      "C": "Tk 16,461",
+      "D": "Tk 15,000"
+    },
+    "answer": "A",
+    "explanation": "FVA = PMT × [{(1+r)^n - 1}/r] = 2,500 × [{(1.10)^5 - 1}/0.10] = 2,500 × [{1.6105 - 1}/0.10] = 2,500 × 6.105 = Tk 15,263.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 116,
+    "question": "When the supply of money exceeds demand, what is it called?",
+    "options": {
+      "A": "Inflation",
+      "B": "Deflation",
+      "C": "Income",
+      "D": "Expenditure"
+    },
+    "answer": "B",
+    "explanation": "When the supply of money exceeds demand, it is called deflation. In this case, the prices of goods decrease and the purchasing power of money increases. The opposite condition is inflation.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 117,
+    "question": "If the annual interest rate is 18%, what is the monthly interest rate?",
+    "options": {
+      "A": "1.5%",
+      "B": "2%",
+      "C": "2.5%",
+      "D": "1.25%"
+    },
+    "answer": "A",
+    "explanation": "Monthly interest rate = Annual interest rate / 12 = 18% / 12 = 1.5%. Even in the case of compounding, the monthly interest rate is determined in this way.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 118,
+    "question": "At 13.50% rate with monthly compounding, if Tk 50,000 is now deposited in a bank, how much will be received after 10 years?",
+    "options": {
+      "A": "Tk 1,34,000",
+      "B": "Tk 1,43,500",
+      "C": "Tk 1,91,423",
+      "D": "Tk 2,05,200"
+    },
+    "answer": "C",
+    "explanation": "Monthly interest rate = 13.50%/12 = 1.125% = 0.01125. Total compounding = 10×12 = 120. FV = 50,000 × (1.01125)^120 = 50,000 × 3.8285 = Tk 1,91,423.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 119,
+    "question": "Why does the value of money differ between present and future time?",
+    "options": {
+      "A": "Due to interest",
+      "B": "Due to principal and interest",
+      "C": "Due to interest rate",
+      "D": "Due to compounding"
+    },
+    "answer": "A",
+    "explanation": "The value of money differs between present and future time due to interest. Interest is the main driver of the time value of money. Because of interest, today's money is worth more in the future.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 120,
+    "question": "Mr. Rashed needs Tk 1,00,000 in the future. He wants to invest now at 10% compound interest for a term of 7 years. How much should Mr. Rashed invest now so that it becomes Tk 1,00,000?",
+    "options": {
+      "A": "Tk 51,316",
+      "B": "Tk 41,315",
+      "C": "Tk 6,00,025",
+      "D": "Tk 50,000"
+    },
+    "answer": "A",
+    "explanation": "PV = FV / (1+r)^n = 1,00,000 / (1.10)^7 = 1,00,000 / 1.9487 = Tk 51,316. That is, he needs to invest Tk 51,316 now.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 121,
+    "question": "Mrs. Rehana has deposited Tk 5,00,000 in a bank for 5 years. The bank provides 12% annual compound interest. How much total money will Mrs. Rehana receive after 5 years including principal and interest?",
+    "options": {
+      "A": "Tk 7,50,000",
+      "B": "Tk 8,50,000",
+      "C": "Tk 8,81,170",
+      "D": "Tk 8,98,643"
+    },
+    "answer": "C",
+    "explanation": "FV = PV × (1+r)^n = 5,00,000 × (1+0.12)^5 = 5,00,000 × 1.7623 = Tk 8,81,170 (approx).",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 122,
+    "question": "What is determined through the discounting method?",
+    "options": {
+      "A": "Loan installment",
+      "B": "Principal and interest",
+      "C": "Future value",
+      "D": "Present value"
+    },
+    "answer": "D",
+    "explanation": "Through the discounting method, present value is determined from future value. It is the reverse process of compounding, where future cash flows are converted to present value.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 123,
+    "question": "Why does the purchasing power of ordinary money decrease as time passes?",
+    "options": {
+      "A": "Opportunity cost",
+      "B": "Shortage of money",
+      "C": "Future uncertainty",
+      "D": "Inflation"
+    },
+    "answer": "D",
+    "explanation": "Due to inflation, the purchasing power of money decreases over time. Inflation means less goods can be bought with the same amount of money compared to before.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 124,
+    "question": "From the perspective of finance, the value of money changes with what?",
+    "options": {
+      "A": "Property",
+      "B": "Organization",
+      "C": "Time",
+      "D": "Capital"
+    },
+    "answer": "C",
+    "explanation": "From the perspective of finance, the value of money changes with time. Today's one taka is more valuable than tomorrow's one taka, because the value of money changes over time due to interest, inflation, and opportunity cost.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 125,
+    "question": "Loan repayment installments contain- i. Interest amount ii. Installment amount iii. Principal repayment",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "Each loan repayment installment contains an interest component and a principal repayment component. The total installment amount is fixed, but the proportion of interest and principal changes over time.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 126,
+    "question": "In the case of quarterly compounding- i. Interest rate must be divided by 4 ii. Term must be divided by 3 iii. Term must be multiplied by 4",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "In quarterly compounding: the interest rate must be divided by 4 (i) and the term must be multiplied by 4 (iii). Because there are 4 quarters in a year. Dividing the term by 3 is wrong (ii).",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 127,
+    "question": "In financial decision-making, the following are considered- i. Present value ii. Future value iii. Income and risk",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "When making financial decisions, all three factors must be considered: present value, future value, and income and risk. These are the fundamental bases of financial decisions.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 128,
+    "question": "Using the time value of money concept in investment decision-making involves- i. Mathematical compounding ii. Opportunity cost determination method iii. Discounting method",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "To use the time value of money concept in investment decisions, compounding (future value determination), opportunity cost determination, and discounting (present value determination) methods are used.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 129,
+    "question": "As time passes in the loan repayment schedule- i. Interest amount decreases ii. Principal repayment increases iii. Principal amount remains the same",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "As time passes in the loan repayment schedule, the interest amount decreases and the principal repayment amount increases. The principal amount does not remain the same; the principal repayment amount increases with each installment.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 130,
+    "question": "As time passes in the loan repayment schedule- i. Interest amount decreases ii. Principal repayment increases iii. Profit rate is unknown",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "A",
+    "explanation": "As time increases in the loan repayment schedule, the interest amount decreases and the principal repayment amount increases. The profit or interest rate is predetermined, so it is known.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 131,
+    "question": "[Stimulus] Aminul Islam of Cumilla, not having his own money, purchased a television through a bank at 15% interest with annual installments of Tk 1,500 to be repaid over 10 years. Under which policy was Aminul Islam included by the bank?",
+    "options": {
+      "A": "Customer service",
+      "B": "Consumer credit",
+      "C": "Housing loan",
+      "D": "Opportunity cost"
+    },
+    "answer": "B",
+    "explanation": "Mr. Aminul Islam took a loan to purchase a consumer good like a television, which falls under consumer credit. The bank provided him a loan under the consumer credit policy.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 132,
+    "question": "What is the present value of the purchased television?",
+    "options": {
+      "A": "Tk 7,228",
+      "B": "Tk 7,528",
+      "C": "Tk 7,600",
+      "D": "Tk 10,000"
+    },
+    "answer": "B",
+    "explanation": "PVA = PMT × [{1 - (1+r)^-n}/r] = 1,500 × [{1 - (1.15)^-10}/0.15] = 1,500 × [{1 - 0.2472}/0.15] = 1,500 × 5.0188 = Tk 7,528.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 133,
+    "question": "[Stimulus] Selim took a loan of Tk 3,35,220 from Sonali Bank for 5 years at 15% interest for modernizing machinery... How much will Selim have to pay per installment?",
+    "options": {
+      "A": "Tk 95,000",
+      "B": "Tk 1,00,000",
+      "C": "Tk 1,05,000",
+      "D": "Tk 1,10,000"
+    },
+    "answer": "B",
+    "explanation": "PMT = PV / [{1 - (1+r)^-n}/r] = 3,35,220 / [{1 - (1.15)^-5}/0.15] = 3,35,220 / 3.3522 = Tk 1,00,000 (approx).",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 134,
+    "question": "How much interest will Selim have to pay in the first year?",
+    "options": {
+      "A": "Tk 59,000",
+      "B": "Tk 50,000",
+      "C": "Tk 50,283",
+      "D": "Tk 51,283"
+    },
+    "answer": "C",
+    "explanation": "First year interest = Loan amount × Interest rate = 3,35,220 × 0.15 = Tk 50,283. This is the interest amount in the first installment.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 135,
+    "question": "[Stimulus] Mr. Rafiq wants to save... He wants to deposit Tk 10,000 for 2 years at 10% compound interest on a quarterly basis in a financial institution. What will be the amount of Mr. Rafiq's deposited money after 2 years?",
+    "options": {
+      "A": "Tk 30,000",
+      "B": "Tk 12,035",
+      "C": "Tk 12,184",
+      "D": "Tk 11,450"
+    },
+    "answer": "C",
+    "explanation": "Quarterly interest rate = 10%/4 = 2.5% = 0.025. Term = 2×4 = 8. FV = 10,000 × (1.025)^8 = 10,000 × 1.2184 = Tk 12,184.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 136,
+    "question": "If the financial institution provides 12% compound interest on a monthly basis, what will be the amount of Mr. Rafiq's deposited money after 5 years?",
+    "options": {
+      "A": "Tk 17,625",
+      "B": "Tk 18,167",
+      "C": "Tk 19,302",
+      "D": "Tk 20,012"
+    },
+    "answer": "B",
+    "explanation": "Monthly interest rate = 12%/12 = 1% = 0.01. Term = 5×12 = 60. FV = 10,000 × (1.01)^60 = 10,000 × 1.8167 = Tk 18,167.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 137,
+    "question": "[Stimulus] Interest rates of various banks... What is the effective interest rate of Janata Bank?",
+    "options": {
+      "A": "10.09%",
+      "B": "10.47%",
+      "C": "10.89%",
+      "D": "20.69%"
+    },
+    "answer": "B",
+    "explanation": "Janata Bank's monthly compounding: EAR = [1 + (0.10/12)]^12 - 1 = (1.00833)^12 - 1 = 1.1047 - 1 = 0.1047 = 10.47%.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 138,
+    "question": "Which bank mentioned in the stimulus has the highest cost of deposit collection?",
+    "options": {
+      "A": "Sonali",
+      "B": "Janata",
+      "C": "Rupali",
+      "D": "Agrani"
+    },
+    "answer": "D",
+    "explanation": "Agrani Bank's semi-annual 10.40% rate: EAR = [1 + (0.104/2)]^2 - 1 = (1.052)^2 - 1 = 1.1067 - 1 = 10.67%, which is the highest. Therefore, Agrani Bank has the highest cost of deposit collection.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 139,
+    "question": "[Stimulus] Mr. Gama, not having his own money, purchased a television through a bank at 15% interest with monthly installments of Tk 1,500 to be repaid over 10 years. Under which policy was Mr. Gama included by the bank?",
+    "options": {
+      "A": "Customer service",
+      "B": "Consumer credit",
+      "C": "Housing loan",
+      "D": "Opportunity cost"
+    },
+    "answer": "B",
+    "explanation": "Mr. Gama took a loan from the bank to purchase a consumer good like a television, which falls under the consumer credit policy.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 140,
+    "question": "Keeping other conditions unchanged, if the interest rate is 20%- i. Television must be bought at purchase price ii. Repayment loan will double iii. Loan amount will decrease",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "If the interest rate is 20%, it's better to buy the television at purchase price (i), because buying on installments would cost more interest. The loan amount will also decrease (iii). The repayment loan will not double (ii is wrong).",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 141,
+    "question": "[Stimulus] Mr. Mizan has some idle money... if kept in a bank at 12% interest, he will get Tk 21,148 after 4 years. How much idle money did Mr. Mizan have?",
+    "options": {
+      "A": "Tk 11,308",
+      "B": "Tk 12,000",
+      "C": "Tk 13,440",
+      "D": "Tk 14,185"
+    },
+    "answer": "C",
+    "explanation": "PV = FV / (1+r)^n = 21,148 / (1.12)^4 = 21,148 / 1.5735 = Tk 13,440 (approx).",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 142,
+    "question": "If the money is kept in the bank for 7 years under the same conditions- i. The future value of land investment will be higher ii. The future value of bank investment will be higher iii. Bank investment is profitable",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "If kept in the bank for 7 years, FV = 13,440 × (1.12)^7 = 13,440 × 2.211 = Tk 29,716, which is more than the land value of Tk 25,000. So bank investment will have higher future value and is more profitable (ii & iii correct).",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 143,
+    "question": "[Stimulus] Sabuj is a 3rd-year student of the Finance Department at Dhaka University... Tk 7,000 in Company A and the rest in Company B shares, with rates of return of 12% and 18% respectively. What is Sabuj's portfolio rate of return?",
+    "options": {
+      "A": "10%",
+      "B": "12%",
+      "C": "13.8%",
+      "D": "18%"
+    },
+    "answer": "C",
+    "explanation": "Company A: Tk 7,000, return 12%. Company B: Tk 3,000, return 18%. Total investment = Tk 10,000. Portfolio return = (0.7 × 12%) + (0.3 × 18%) = 8.4% + 5.4% = 13.8%.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  },
+  {
+    "id": 144,
+    "question": "If Sabuj invests 50% of his total money in Company A and 50% in Company B, what will be the portfolio rate of return?",
+    "options": {
+      "A": "10%",
+      "B": "12%",
+      "C": "15%",
+      "D": "35%"
+    },
+    "answer": "C",
+    "explanation": "Portfolio return = (0.50 × 12%) + (0.50 × 18%) = 6% + 9% = 15%. Investing in equal proportion gives an average return of 15%.",
+    "source": "Finance, Banking & Insurance, Chapter-3"
+  }
+]

@@ -1,0 +1,1302 @@
+﻿[
+    {
+        "id":  301,
+        "question":  "What is the policy formulated to provide various social welfare services for the welfare of society or to solve social problems or to ensure the normal life of individuals and groups?",
+        "options":  {
+                        "A":  "Religious principles",
+                        "B":  "Economic policy",
+                        "C":  "Social policy",
+                        "D":  "Political principles"
+                    },
+        "answer":  "C",
+        "explanation":  "Policies made for the welfare of society are called social policies.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  302,
+        "question":  "\u0027Social policy is a collective effort to deal with social problems.\u0027 Whose quote?",
+        "options":  {
+                        "A":  "Wilbert E Moore",
+                        "B":  "Richard M Titmass",
+                        "C":  "Bruce S. Jansson",
+                        "D":  "A.E. Ben"
+                    },
+        "answer":  "B",
+        "explanation":  "Richard M Titmass made this statement about social policy.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  303,
+        "question":  "What is the main objective of social policy?",
+        "options":  {
+                        "A":  "To achieve maximum socio-economic welfare of the people",
+                        "B":  "Protection of interests of weak and helpless classes",
+                        "C":  "Prevention of wastage of limited resources",
+                        "D":  "Helping people adjust to changing circumstances"
+                    },
+        "answer":  "A",
+        "explanation":  "The main objective of social policy is to achieve maximum socio-economic welfare of the people.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  304,
+        "question":  "Why is social policy called guidelines?",
+        "options":  {
+                        "A":  "It indicates the way of social development",
+                        "B":  "It governs the society",
+                        "C":  "It is said to bring prosperity in human life",
+                        "D":  "Helps in decision making"
+                    },
+        "answer":  "A",
+        "explanation":  "Social policy is called guidelines as it guides the way of social development.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  305,
+        "question":  "Which of the following is a continuous part of social policy making process?",
+        "options":  {
+                        "A":  "Science-based decision making → formation of functional committees → practice of policy",
+                        "B":  "Determining the perceived need for policy → Science-based decision-making → Formation of functional committees",
+                        "C":  "Formation of functional committees → Science-based decision making → Policy implementation",
+                        "D":  "Policy making decisions → policy promotion and public support → policy analysis"
+                    },
+        "answer":  "B",
+        "explanation":  "Correct sequence of social policy formulation: Demand determination → Scientific decision → Committee formation.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  306,
+        "question":  "Which is the final stage of social policy making?",
+        "options":  {
+                        "A":  "Final approval and implementation of policies",
+                        "B":  "Preparation and implementation of draft policies",
+                        "C":  "Policy analysis and committee formation",
+                        "D":  "Formation and implementation of committees"
+                    },
+        "answer":  "A",
+        "explanation":  "The final stage of social policy formulation is the final approval and implementation of the policy.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  307,
+        "question":  "Why is the policy making committee formed?",
+        "options":  {
+                        "A":  "To fulfill overall responsibility",
+                        "B":  "For policy approval",
+                        "C":  "To receive advice",
+                        "D":  "To implement the program"
+                    },
+        "answer":  "A",
+        "explanation":  "Committees are formed to carry out overall responsibility in policy formulation.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  308,
+        "question":  "According to Richard M Titmass, the objectives of social policy are- i. Ensuring the welfare of citizens ii. Inclusion of non-economic issues with economic issues iii. Redistribution of wealth between rich and poor",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "According to Titmuss all three objectives of social policy are correct. Ensuring welfare, holistic approach and redistribution of resources.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  309,
+        "question":  "Social policies are followed for- i. Unidirectional process ii. Bidirectional process iii. continuous process",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Social policy follows all three processes – unidirectional, bidirectional and continuous.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  310,
+        "question":  "Social policy- i. Creates scope for social service activities ii. Helps in the proper development of human talent iii. Ensures the fulfillment of the fundamental rights of all",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Social policy does all three things. Creation of service sector, talent development and guarantee of fundamental rights.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  311,
+        "question":  "Objectives of social policy are- i. Welfare of all ii. Poverty alleviation iii. Preservation of democracy",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All three are correct as to the objectives of social policy. Welfare, poverty alleviation and preservation of democracy.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  312,
+        "question":  "The government of country \u0027A\u0027 has formulated social policies aimed at equitable distribution of wealth and benefits. As a result in country \u0027A\u0027- i. Equity and equality will be established ii. Economic inequality will increase iii. The rights of the disenfranchised will be established",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "B",
+        "explanation":  "Equitable distribution will result in equity and equality and the rights of the disenfranchised will be established. Economic inequality will not increase.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  313,
+        "question":  "By formulating social policies- i. The standard of living of the people is maintained ii. Security of the people of the society is violated iii. There is a fair distribution of wealth in the society",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "B",
+        "explanation":  "Social policy maintains standard of living and fair distribution of wealth. It does not violate security, but rather ensures it.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  314,
+        "question":  "How many years of pre-primary education will be introduced for children?",
+        "options":  {
+                        "A":  "One year",
+                        "B":  "Two years",
+                        "C":  "Three years",
+                        "D":  "Four years"
+                    },
+        "answer":  "A",
+        "explanation":  "One year pre-primary education will be introduced for children as per Education Policy 2010.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  315,
+        "question":  "Under whose leadership was the first education policy formulated in Bangladesh?",
+        "options":  {
+                        "A":  "Dr. Kudrat-e-Khuda",
+                        "B":  "Khudaat Khan",
+                        "C":  "Md. Shamsul Haque",
+                        "D":  "Professor Abul Fazal"
+                    },
+        "answer":  "A",
+        "explanation":  "Dr. In 1974, the first education policy was formulated in Bangladesh under the leadership of Kudrat-e-Khuda.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  316,
+        "question":  "What is non-formal education?",
+        "options":  {
+                        "A":  "Contrasted state of primary education",
+                        "B":  "Complementary status of secondary education",
+                        "C":  "Complementary status of primary education",
+                        "D":  "Contrasted status of secondary education"
+                    },
+        "answer":  "B",
+        "explanation":  "Non-formal education is complementary to secondary education.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  317,
+        "question":  "Up to which class will be considered as secondary education level in the new education framework?",
+        "options":  {
+                        "A":  "6th-7th",
+                        "B":  "8th-9th",
+                        "C":  "9th-12th",
+                        "D":  "8th-12th"
+                    },
+        "answer":  "D",
+        "explanation":  "In the new education framework, 8th to 12th standard will be considered as secondary education level.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  318,
+        "question":  "Currently students of Bangladesh are studying the subject called Information and Communication Technology compulsorily from 6th to 12th standard. What educational policy is reflected here?",
+        "options":  {
+                        "A":  "1974",
+                        "B":  "1984",
+                        "C":  "2001",
+                        "D":  "2010"
+                    },
+        "answer":  "D",
+        "explanation":  "Under Education Policy 2010 Information and Communication Technology has been made compulsory.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  319,
+        "question":  "Currently teachers teach students of all religions to help each other in case of danger while teaching in class. Which of the following can result in this?",
+        "options":  {
+                        "A":  "Establishment of human rights",
+                        "B":  "Disparity between men and women is eliminated",
+                        "C":  "Creation of non-sectarian world brotherhood",
+                        "D":  "Cultural development"
+                    },
+        "answer":  "C",
+        "explanation":  "Education of mutual cooperation can create secular world brotherhood.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  320,
+        "question":  "What is the integrated system of knowledge disciplines required to manage all activities of industrial, commercial and service organizations?",
+        "options":  {
+                        "A":  "Information Technology Education",
+                        "B":  "Business education",
+                        "C":  "Science Education",
+                        "D":  "Moral education"
+                    },
+        "answer":  "B",
+        "explanation":  "The integrated system of knowledge required for industrial, commercial and service organizations is called business education.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  321,
+        "question":  "Which education level is mentioned in Education Policy 2010 for Preparatory Education of Children?",
+        "options":  {
+                        "A":  "Primary",
+                        "B":  "Pre-primary",
+                        "C":  "Kindergarten",
+                        "D":  "Religious education"
+                    },
+        "answer":  "B",
+        "explanation":  "Education Policy 2010 mentions pre-primary education for preparatory education of children.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  322,
+        "question":  "At what level is unpaid compulsory education prevalent in Bangladesh?",
+        "options":  {
+                        "A":  "Pre-primary",
+                        "B":  "Primary",
+                        "C":  "Secondary",
+                        "D":  "Higher Secondary"
+                    },
+        "answer":  "B",
+        "explanation":  "Unpaid compulsory education is prevalent in Bangladesh at primary level.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  323,
+        "question":  "Under whose leadership was the last education policy formulated in our country?",
+        "options":  {
+                        "A":  "Professor Zafar Iqbal",
+                        "B":  "Professor Fayez",
+                        "C":  "Professor Kabir Chowdhury",
+                        "D":  "Professor Aminul Islam"
+                    },
+        "answer":  "C",
+        "explanation":  "The latest Education Policy 2010 was formulated under the leadership of Prof. Kabir Chowdhury.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  324,
+        "question":  "The main objectives of education policy are- i. Creation of competent people leading human development, people-oriented development and progress ii. To develop thoughtful, rational, ethical and non-communal citizens iii. To inculcate democratic values ​​in social life through education",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All three objectives of education policy are correct. Creating competent citizens, ethical citizens and democratic values.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  325,
+        "question":  "The aims and objectives of Bangladesh Education Policy 2010 are- i. To sensitize the students to protect the independence, sovereignty and integrity of the country ii. To develop national history, traditions and arrange for their transmission from generation to generation iii. To develop the culture and language of all the small ethnic groups of the country",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All three aims and objectives of Education Policy 2010 are correct.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  326,
+        "question":  "The objectives of madrasa education in our country are- i. To help in understanding Islam ii. To develop unwavering faith in Almighty Allah and His Messenger (PBUH) iii. Helping students build character",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All three objectives of madrasa education are correct. Understanding religion, establishing faith and building character.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  327,
+        "question":  "The education system of a country will be based on- i. Prevailing socio-economic political conditions of the country ii. Long cherished cultural traditions iii. Moral and human values",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "The education system will be built on three foundations. Socio-economic status, cultural heritage and moral values.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  328,
+        "question":  "Who needs to ensure availability of information and services in consumer oriented services in implementation of population policy?",
+        "options":  {
+                        "A":  "Newlyweds",
+                        "B":  "Adolescent",
+                        "C":  "Vulnerable population",
+                        "D":  "Child-women"
+                    },
+        "answer":  "B",
+        "explanation":  "Ensure availability of information and services to adolescents under population policy.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  329,
+        "question":  "How many licensed social workers are there currently in South Korea?",
+        "options":  {
+                        "A":  "One lakh",
+                        "B":  "Two lakhs",
+                        "C":  "Three lakhs",
+                        "D":  "Four lakhs"
+                    },
+        "answer":  "C",
+        "explanation":  "Currently there are approximately 300,000 licensed social workers in South Korea.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  330,
+        "question":  "Beneficiary segmentation of family-planning system according to population policy covers which activities?",
+        "options":  {
+                        "A":  "Urban Health Care",
+                        "B":  "Area wise planning and strategy",
+                        "C":  "Communication in behavior change",
+                        "D":  "Private and private sector participation"
+                    },
+        "answer":  "C",
+        "explanation":  "Beneficiary segmentation covered by \u0027Behaviour Change Communication\u0027 (BCC) activities.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  331,
+        "question":  "What is the function of Directorate of Family Planning to avoid the duality of non-governmental and private institutions as per population policy?",
+        "options":  {
+                        "A":  "Focal point",
+                        "B":  "Service Institutions",
+                        "C":  "mass media",
+                        "D":  "Information provider"
+                    },
+        "answer":  "A",
+        "explanation":  "Directorate of Family Planning acts as Focal Point.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  332,
+        "question":  "According to population policy, population and environment should always be taken into consideration when adopting strategies?",
+        "options":  {
+                        "A":  "Social security",
+                        "B":  "Public participation",
+                        "C":  "Legal measures",
+                        "D":  "Action plan"
+                    },
+        "answer":  "A",
+        "explanation":  "Strategy should be adopted taking into account population and environment along with social security.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  333,
+        "question":  "Child and maternal mortality rate in present day Bangladesh is almost zero. What principle is reflected here?",
+        "options":  {
+                        "A":  "Women Development Policy",
+                        "B":  "Child policy",
+                        "C":  "Population policy",
+                        "D":  "Education policy"
+                    },
+        "answer":  "C",
+        "explanation":  "Reducing infant and maternal mortality is one of the goals of the population policy, which has been implemented.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  334,
+        "question":  "Main objectives of consumer oriented services to implement population policy- i. Ensuring services through community clinics ii. Introduction of e-reproductive services iii. To create awareness about HIV/AIDS",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All three objectives of consumer oriented services in population policy are correct.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  335,
+        "question":  "Key strategies in implementation of population policy- i. Customer oriented service ii. Adolescent welfare iii. Education and training",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All three strategies are important in implementing population policy. Customer oriented services, youth welfare and education and training.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  336,
+        "question":  "Unmarried women in adolescent welfare program as per population policy- i. Employment opportunities are created ii. Recipients are divided iii. Loan facilities are provided",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Adolescent welfare programs offer all three benefits.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  337,
+        "question":  "Population and Environment program covers- i. Strengthening social forestry programs ii. Providing academic training iii. Creating pollution free environment",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "B",
+        "explanation":  "Population and environment programs emphasize forestry and pollution free environment.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  338,
+        "question":  "How many articles of the constitution mention the equality of men and women at all levels of state and public life?",
+        "options":  {
+                        "A":  "27",
+                        "B":  "28(",
+                        "C":  "29",
+                        "D":  "28("
+                    },
+        "answer":  "B",
+        "explanation":  "Article 28(",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  339,
+        "question":  "What was the aim of Bangladesh\u0027s first women\u0027s development policy?",
+        "options":  {
+                        "A":  "To improve the economic status of women",
+                        "B":  "Making women conservative",
+                        "C":  "Improving the fortunes of neglected women",
+                        "D":  "Development of mentality of women"
+                    },
+        "answer":  "A",
+        "explanation":  "of the Constitution talks about equality of men and women.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  340,
+        "question":  "In which year was the last National Women\u0027s Development Policy formulated in Bangladesh?",
+        "options":  {
+                        "A":  "2008",
+                        "B":  "2009",
+                        "C":  "2010",
+                        "D":  "2011"
+                    },
+        "answer":  "D",
+        "explanation":  "The first women\u0027s development policy aimed at improving the economic status of women.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  341,
+        "question":  "What can be done to eliminate discrimination against women and girl child?",
+        "options":  {
+                        "A":  "Establishment of women\u0027s rights",
+                        "B":  "Freeing women from family chains",
+                        "C":  "Cursing women",
+                        "D":  "Making women brave and active"
+                    },
+        "answer":  "A",
+        "explanation":  "National Women Development Policy was last formulated in 2011 in Bangladesh.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  342,
+        "question":  "To implement the National Women\u0027s Development Policy should stop- i. Child marriage ii. Persecution for dowry iii. Acid terror and sexual harassment",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Establishing women\u0027s rights is key to eliminating discrimination against women and the girl child.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  343,
+        "question":  "In alleviating women\u0027s poverty- i. Women should be involved in productive activities ii. Allocation in the national budget should be increased to meet the basic needs of women iii. Women should be included in the economic mainstream",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Implementation of women development policy should stop all three problems. Child marriage, dowry and acid terror.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  344,
+        "question":  "[stimulative] Rahima Begum works in a private company. Her monthly income is equal to her husband\u0027s monthly income. However, he was discriminated against for various reasons. What can be done to eliminate all discrimination against Rahima Begum?",
+        "options":  {
+                        "A":  "Mass Awareness",
+                        "B":  "Improved women policy",
+                        "C":  "Social policy",
+                        "D":  "Educates women"
+                    },
+        "answer":  "B",
+        "explanation":  "Women need to take all three steps to eradicate poverty.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  345,
+        "question":  "To protect women who are deprived of their rights, the government should- i. To protect women in all areas ii. Ensuring women\u0027s empowerment iii. Ensuring economic independence of women",
+        "options":  {
+                        "A":  "i and ii",
+                        "B":  "i and iii",
+                        "C":  "ii and iii",
+                        "D":  "i, ii and iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All discrimination against Rahima Begum can be eliminated through better women policies.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  346,
+        "question":  "According to the National Child Policy, which period is considered as adolescent period?",
+        "options":  {
+                        "A":  "10 to 12",
+                        "B":  "10 to 14",
+                        "C":  "10 to 16",
+                        "D":  "10 to 18"
+                    },
+        "answer":  "D",
+        "explanation":  "All three steps should be taken to protect disenfranchised women.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  347,
+        "question":  "In which year the National Child Policy was formulated in Bangladesh in light of UN Charter of Child Rights?",
+        "options":  {
+                        "A":  "in 2000",
+                        "B":  "in 2003",
+                        "C":  "in 2004",
+                        "D":  "in 2005"
+                    },
+        "answer":  "A",
+        "explanation":  "According to the National Child Policy, 10 to 18 years is the adolescent period.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  348,
+        "question":  "According to the National Child Policy 2011, which age group is referred to as adolescent?",
+        "options":  {
+                        "A":  "12 years to below 15 years of age",
+                        "B":  "13 years to below 17 years of age",
+                        "C":  "14 years to below 18 years",
+                        "D":  "15 years to below 20 years of age"
+                    },
+        "answer":  "C",
+        "explanation":  "The National Child Policy was formulated in 2000 in the light of UN Charter of Rights of the Child.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  349,
+        "question":  "According to National Child Policy 2011 who is meant by child?",
+        "options":  {
+                        "A":  "13 year old child",
+                        "B":  "14 year old child",
+                        "C":  "16 year old child",
+                        "D":  "Child of 18 years"
+                    },
+        "answer":  "D",
+        "explanation":  "According to the National Child Policy 2011, children below 14 to 18 years of age are adolescents.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  350,
+        "question":  "According to the National Child Policy, children under how many years of age should reduce Low Birth Weight?",
+        "options":  {
+                        "A":  "a year",
+                        "B":  "two years",
+                        "C":  "Three years",
+                        "D":  "four years"
+                    },
+        "answer":  "A",
+        "explanation":  "According to the National Child Policy 2011, everyone below the age of 18 is considered a child.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  351,
+        "question":  "What is the policy formulated to provide various social welfare services for the welfare of society or to solve social problems or to ensure the normal life of individuals and groups?",
+        "options":  {
+                        "A":  "Religious principles",
+                        "B":  "Economic policy",
+                        "C":  "Social policy",
+                        "D":  "Political principles"
+                    },
+        "answer":  "C",
+        "explanation":  "According to National Child Policy Low Birth Weight of children under one year should be reduced.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  352,
+        "question":  "\u0027Social policy is a collective effort to deal with social problems.\u0027 Whose quote?",
+        "options":  {
+                        "A":  "Wilbert E Moore",
+                        "B":  "Richard M Titmass",
+                        "C":  "Bruce S. Jansson",
+                        "D":  "A.E. Ben"
+                    },
+        "answer":  "B",
+        "explanation":  "Policies made for the welfare of society are called social policies.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  353,
+        "question":  "What is the main objective of social policy?",
+        "options":  {
+                        "A":  "To achieve maximum socio-economic welfare of the people",
+                        "B":  "Protection of interests of weak and helpless classes",
+                        "C":  "Prevention of wastage of limited resources",
+                        "D":  "Helping people adjust to changing circumstances"
+                    },
+        "answer":  "A",
+        "explanation":  "Richard M Titmass made this statement about social policy.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  354,
+        "question":  "Why are social policies called guidelines?",
+        "options":  {
+                        "A":  "indicates the path of social development",
+                        "B":  "is said to govern society",
+                        "C":  "is said to bring prosperity to human life",
+                        "D":  "helps in decision making"
+                    },
+        "answer":  "A",
+        "explanation":  "The main objective of social policy is to achieve maximum socio-economic welfare of the people.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  355,
+        "question":  "Which of the following is a continuous part of the social policy making process?",
+        "options":  {
+                        "A":  "Science-based decision making → formation of functional committees → practice of policy",
+                        "B":  "Determining the perceived need for policy → Science-based decision-making → Formation of functional committees",
+                        "C":  "Formation of functional committees → Science-based decision making → Policy implementation",
+                        "D":  "Policy making decision making → policy promotion and public support → policy analysis"
+                    },
+        "answer":  "B",
+        "explanation":  "Social policies are called guidelines as they guide the way of social development.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  356,
+        "question":  "Which is the final stage of social policy formulation?",
+        "options":  {
+                        "A":  "Final approval and implementation of policy",
+                        "B":  "Preparation and implementation of draft policies",
+                        "C":  "Policy analysis and committee formation",
+                        "D":  "Formation and implementation of committees"
+                    },
+        "answer":  "A",
+        "explanation":  "Correct flow of social policy formulation: Determination of needs → Science-based decision → Formation of committees.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  357,
+        "question":  "Why is the policy making committee formed?",
+        "options":  {
+                        "A":  "To perform overall duties",
+                        "B":  "for approval of policy",
+                        "C":  "To take advice",
+                        "D":  "to implement the programme"
+                    },
+        "answer":  "A",
+        "explanation":  "The final step in social policy formulation is the final approval and implementation of the policy.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  358,
+        "question":  "According to Richard M Titmass, the objectives of social policy are- i. Ensuring the welfare of citizens ii. Inclusion of non-economic issues with economic issues iii. Redistribution of wealth between rich and poor",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Committees are constituted to carry out overall responsibility in policy making.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  359,
+        "question":  "Social policies are followed for- i. Unidirectional process ii. Bidirectional process iii. continuous process",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "According to Titmuss all three objectives of social policy are correct. Ensuring welfare, holistic approach and redistribution of resources.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  360,
+        "question":  "Social policy- i. Creates scope for social service activities ii. Helps in the proper development of human talent iii. Ensures the fulfillment of the fundamental rights of all",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Social policy follows all three processes – unidirectional, bidirectional and continuous.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  361,
+        "question":  "Objectives of social policy are- i. Welfare of all ii. Poverty alleviation iii. Preservation of democracy",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Social policy does all three things. Creation of service sector, talent development and guarantee of fundamental rights.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  362,
+        "question":  "The government of \u0027A\u0027 country has formulated social policies aimed at equitable distribution of wealth and benefits. As a result in country \u0027A\u0027- i. Equity and equality will be established ii. Economic inequality will increase iii. The rights of the disenfranchised will be established",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "B",
+        "explanation":  "All three are correct as to the objectives of social policy. Welfare, poverty alleviation and preservation of democracy.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  363,
+        "question":  "By formulating social policies- i. The standard of living of the people is maintained ii. Security of the people of the society is violated iii. There is a fair distribution of wealth in the society",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "B",
+        "explanation":  "Equitable distribution will result in equity and equality and the rights of the disenfranchised will be established. Economic inequality will not increase.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  364,
+        "question":  "How many years of pre-primary education will be introduced for children?",
+        "options":  {
+                        "A":  "One year",
+                        "B":  "Two years",
+                        "C":  "Three years",
+                        "D":  "four years"
+                    },
+        "answer":  "A",
+        "explanation":  "Social policy maintains standard of living and fair distribution of wealth. It does not violate security, but rather ensures it.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  365,
+        "question":  "Under whose leadership was the first education policy formulated in Bangladesh?",
+        "options":  {
+                        "A":  "Dr. Kudrat-e-Khuda",
+                        "B":  "Khudat Khan",
+                        "C":  "Md. Shamsul Haque",
+                        "D":  "Professor Abul Fazal"
+                    },
+        "answer":  "A",
+        "explanation":  "According to Education Policy 2010 one year pre-primary education will be introduced for children.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  366,
+        "question":  "What is non-formal education?",
+        "options":  {
+                        "A":  "Reverse state of primary education",
+                        "B":  "Complementary status of secondary education",
+                        "C":  "Complementary status of primary education",
+                        "D":  "Contrasted status of secondary education"
+                    },
+        "answer":  "B",
+        "explanation":  "Dr. In 1974, the first education policy was formulated in Bangladesh under the leadership of Kudrat-e-Khuda.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  367,
+        "question":  "Up to which class will be considered as secondary education level in the new education framework?",
+        "options":  {
+                        "A":  "6th-7th",
+                        "B":  "8th-9th",
+                        "C":  "9th-12th",
+                        "D":  "8th-12th"
+                    },
+        "answer":  "D",
+        "explanation":  "Non-formal education is complementary to secondary education.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  368,
+        "question":  "Currently students of Bangladesh are studying the subject called Information and Communication Technology compulsorily from 6th to 12th standard. What educational policy is reflected here?",
+        "options":  {
+                        "A":  "1974",
+                        "B":  "1984",
+                        "C":  "2001",
+                        "D":  "2010"
+                    },
+        "answer":  "D",
+        "explanation":  "In the new education framework, 8th to 12th standard will be considered as secondary education level.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  369,
+        "question":  "Currently teachers teach students of all religions to help each other in case of danger while teaching in class. Which of the following can result in this?",
+        "options":  {
+                        "A":  "Establishment of human rights",
+                        "B":  "Disparity between men and women is eliminated",
+                        "C":  "Creation of non-sectarian world brotherhood",
+                        "D":  "Cultural development"
+                    },
+        "answer":  "C",
+        "explanation":  "Under Education Policy 2010 Information and Communication Technology has been made compulsory.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  370,
+        "question":  "What is the integrated system of knowledge disciplines required to manage all activities of industrial, commercial and service organizations?",
+        "options":  {
+                        "A":  "Information Technology Education",
+                        "B":  "Business education",
+                        "C":  "Science Education",
+                        "D":  "Moral education"
+                    },
+        "answer":  "B",
+        "explanation":  "The teaching of mutual cooperation can create secular world brotherhood.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  371,
+        "question":  "Which education level is mentioned in Education Policy 2010 for Preparatory Education of Children?",
+        "options":  {
+                        "A":  "Primary",
+                        "B":  "Pre-primary",
+                        "C":  "Kindergarten",
+                        "D":  "Religious education"
+                    },
+        "answer":  "B",
+        "explanation":  "The integrated system of knowledge required for industrial, commercial and service organizations is called business education.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  372,
+        "question":  "At what level is unpaid compulsory education prevalent in Bangladesh?",
+        "options":  {
+                        "A":  "Pre-primary",
+                        "B":  "Primary",
+                        "C":  "secondary",
+                        "D":  "Higher Secondary"
+                    },
+        "answer":  "B",
+        "explanation":  "Education Policy 2010 mentions pre-primary education for preparatory education of children.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  373,
+        "question":  "Under whose leadership was the last educational policy formulated in our country?",
+        "options":  {
+                        "A":  "Professor Zafar Iqbal",
+                        "B":  "Professor Fayez",
+                        "C":  "Professor Kabir Chowdhury",
+                        "D":  "Professor Aminul Islam"
+                    },
+        "answer":  "C",
+        "explanation":  "Unpaid compulsory education is prevalent in Bangladesh at primary level.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  374,
+        "question":  "The main objectives of education policy are- i. Creation of competent people leading human development, people-oriented development and progress ii. To develop thoughtful, rational, ethical and non-communal citizens iii. To inculcate democratic values in social life through education",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "The latest Education Policy 2010 was formulated under the leadership of Prof. Kabir Chowdhury.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  375,
+        "question":  "The aims and objectives of Bangladesh Education Policy 2010 are- i. To sensitize the students to protect the independence, sovereignty and integrity of the country ii. To develop national history, traditions and arrange for their transmission from generation to generation iii. To develop the culture and language of all the small ethnic groups of the country",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All three objectives of education policy are correct. Creating competent citizens, ethical citizens and democratic values.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  376,
+        "question":  "The objectives of madrasa education in our country are- i. To help in understanding Islam ii. To develop unwavering faith in Almighty Allah and His Messenger (PBUH) iii. Helping students build character",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All three aims and objectives of Education Policy 2010 are correct.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  377,
+        "question":  "The education system of a country will be based on- i. Prevailing socio-economic political conditions of the country ii. Long cherished cultural traditions iii. Moral and human values",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All three objectives of madrasa education are correct. Understanding religion, establishing faith and building character.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  378,
+        "question":  "Who needs to ensure availability of information and services in consumer oriented services in implementation of population policy?",
+        "options":  {
+                        "A":  "of the newlyweds",
+                        "B":  "Adolescent",
+                        "C":  "of vulnerable populations",
+                        "D":  "Child-women"
+                    },
+        "answer":  "B",
+        "explanation":  "The education system will be built on three foundations. Socio-economic status, cultural heritage and moral values.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  379,
+        "question":  "How many licensed social workers are there currently in South Korea?",
+        "options":  {
+                        "A":  "One lakh",
+                        "B":  "Two lakhs",
+                        "C":  "Three lakhs",
+                        "D":  "four lakhs"
+                    },
+        "answer":  "C",
+        "explanation":  "Availability of information and services to adolescents should be ensured under population policy.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  380,
+        "question":  "Segmentation of beneficiaries in adoption of family-planning system according to population policy covers which activities?",
+        "options":  {
+                        "A":  "Urban Health Care",
+                        "B":  "Area wise planning and strategy",
+                        "C":  "Communication in behavior change",
+                        "D":  "Private and private sector participation"
+                    },
+        "answer":  "C",
+        "explanation":  "Currently there are approximately three hundred thousand licensed social workers in South Korea.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  381,
+        "question":  "What is the function of Directorate of Family Planning to avoid the duality of non-governmental and private sector institutions as per population policy?",
+        "options":  {
+                        "A":  "Focal point",
+                        "B":  "Service Institutions",
+                        "C":  "mass media",
+                        "D":  "Information provider"
+                    },
+        "answer":  "A",
+        "explanation":  "Beneficiary segmentation is covered by \u0027Behaviour Change Communication\u0027 (BCC) activities.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  382,
+        "question":  "According to population policy, population and environment should always be taken into consideration when adopting strategies?",
+        "options":  {
+                        "A":  "Social security",
+                        "B":  "Public participation",
+                        "C":  "Legal arrangements",
+                        "D":  "Action plan"
+                    },
+        "answer":  "A",
+        "explanation":  "Directorate of Family Planning acts as Focal Point.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  383,
+        "question":  "Child and maternal mortality rate in present day Bangladesh is almost zero. What principle is reflected here?",
+        "options":  {
+                        "A":  "Women Development Policy",
+                        "B":  "Child policy",
+                        "C":  "Population policy",
+                        "D":  "Education policy"
+                    },
+        "answer":  "C",
+        "explanation":  "Strategy should be adopted taking into account population and environment along with social security.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  384,
+        "question":  "Main objectives of consumer oriented services in implementation of population policy- i. Ensuring services through community clinics ii. Introduction of e-reproductive services iii. To create awareness about HIV/AIDS",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Reduction of infant and maternal mortality is one of the objectives of the population policy, which has been implemented.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  385,
+        "question":  "Key strategies in implementation of population policy- i. Customer oriented service ii. Adolescent welfare iii. Education and training",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All three of the consumer-oriented objectives of population policy are correct.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  386,
+        "question":  "Unmarried women in adolescent welfare program as per population policy- i. Employment opportunities are created ii. Recipients are divided iii. Loan facilities are provided",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "All three strategies are important in implementing population policy. Customer oriented services, youth welfare and education and training.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  387,
+        "question":  "Population and Environment program covers- i. Strengthening social forestry programs ii. Providing academic training iii. Creating pollution free environment",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "B",
+        "explanation":  "Adolescent welfare programs offer all three benefits.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  388,
+        "question":  "How many articles of the constitution mention the equality of men and women at all levels of state and public life?",
+        "options":  {
+                        "A":  "27",
+                        "B":  "28(",
+                        "C":  "29",
+                        "D":  "28("
+                    },
+        "answer":  "B",
+        "explanation":  "Population and environment programs emphasize forestry and pollution free environment.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  389,
+        "question":  "What was the aim of Bangladesh\u0027s first women\u0027s development policy?",
+        "options":  {
+                        "A":  "To improve the economic status of women",
+                        "B":  "Making women conservative",
+                        "C":  "Improving the fortunes of neglected women",
+                        "D":  "Development of mentality of women"
+                    },
+        "answer":  "A",
+        "explanation":  "Article 28(",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  390,
+        "question":  "In which year was the last National Women\u0027s Development Policy formulated in Bangladesh?",
+        "options":  {
+                        "A":  "2008",
+                        "B":  "2009",
+                        "C":  "2010",
+                        "D":  "2011"
+                    },
+        "answer":  "D",
+        "explanation":  "of the Constitution talks about equality of men and women.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  391,
+        "question":  "What can be done to eliminate discrimination against women and girl child?",
+        "options":  {
+                        "A":  "Establishment of women\u0027s rights",
+                        "B":  "Emancipation of women from family chains",
+                        "C":  "Cursing women",
+                        "D":  "Making women brave and active"
+                    },
+        "answer":  "A",
+        "explanation":  "The first women\u0027s development policy aimed at improving the economic status of women.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  392,
+        "question":  "To implement the National Women\u0027s Development Policy, stop- i. Child marriage ii. Persecution for dowry iii. Acid terror and sexual harassment",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "National Women Development Policy was last formulated in 2011 in Bangladesh.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  393,
+        "question":  "In alleviating women\u0027s poverty- i. Women should be involved in productive activities ii. Allocation in the national budget should be increased to meet the basic needs of women iii. Women should be included in the economic mainstream",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Establishing women\u0027s rights is key to eliminating discrimination against women and the girl child.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  394,
+        "question":  "[stimulative] Rahima Begum works in a private company. Her monthly income is equal to her husband\u0027s monthly income. However, he was discriminated against for various reasons. What can be done to eliminate all discrimination against Rahima Begum?",
+        "options":  {
+                        "A":  "Mass Awareness",
+                        "B":  "Improved women policy",
+                        "C":  "of social policy",
+                        "D":  "Educates women"
+                    },
+        "answer":  "B",
+        "explanation":  "Implementation of women development policy has to stop all three problems. Child marriage, dowry and acid terror.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  395,
+        "question":  "To protect women who are deprived of their rights, the government should- i. To protect women in all areas ii. Ensuring women\u0027s empowerment iii. Ensuring economic independence of women",
+        "options":  {
+                        "A":  "i \u0026 ii",
+                        "B":  "i \u0026 iii",
+                        "C":  "ii \u0026 iii",
+                        "D":  "i, ii \u0026 iii"
+                    },
+        "answer":  "D",
+        "explanation":  "Women need to take all three steps to eradicate poverty.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  396,
+        "question":  "According to the National Child Policy, which period is considered as adolescent period?",
+        "options":  {
+                        "A":  "10 to 12",
+                        "B":  "10 to 14",
+                        "C":  "10 to 16",
+                        "D":  "10 to 18"
+                    },
+        "answer":  "D",
+        "explanation":  "All discrimination against Rahima Begum can be eliminated through better women policies.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  397,
+        "question":  "In which year was the National Child Policy formulated in Bangladesh in the light of UN Charter of Child Rights?",
+        "options":  {
+                        "A":  "in 2000",
+                        "B":  "in 2003",
+                        "C":  "in 2004",
+                        "D":  "in 2005"
+                    },
+        "answer":  "A",
+        "explanation":  "All three steps should be taken to protect disenfranchised women.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  398,
+        "question":  "According to the National Child Policy 2011, which age groups are referred to as teenagers?",
+        "options":  {
+                        "A":  "12 years to below 15 years",
+                        "B":  "13 years to below 17 years",
+                        "C":  "14 years to below 18 years",
+                        "D":  "15 years to below 20 years"
+                    },
+        "answer":  "C",
+        "explanation":  "According to the National Child Policy, 10 to 18 years is the adolescent period.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  399,
+        "question":  "According to National Child Policy 2011 who is meant by child?",
+        "options":  {
+                        "A":  "13 year old child",
+                        "B":  "14 year old child",
+                        "C":  "16 year old child",
+                        "D":  "Child of 18 years"
+                    },
+        "answer":  "D",
+        "explanation":  "The National Child Policy was formulated in 2000 in light of the United Nations Charter on the Rights of the Child.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    },
+    {
+        "id":  400,
+        "question":  "According to the National Child Policy, children below how many years of age should be reduced to Low Birth Weight?",
+        "options":  {
+                        "A":  "a year",
+                        "B":  "for two years",
+                        "C":  "for three years",
+                        "D":  "for four years"
+                    },
+        "answer":  "A",
+        "explanation":  "According to the National Child Policy 2011, children below the age of 14 to 18 years are adolescents.",
+        "source":  "সমাজকর্ম, অধ্যায়-৭"
+    }
+]

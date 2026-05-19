@@ -1,0 +1,392 @@
+[
+  {
+    "id": 327,
+    "question": "Who is the father of modern fire insurance?",
+    "options": {
+      "A": "Mac Robinson",
+      "B": "Nicholas Robert",
+      "C": "Nicholas Barbon",
+      "D": "Thomas Nichol"
+    },
+    "answer": "C",
+    "explanation": "Nicholas Barbon is the father of modern fire insurance. After the Great Fire of London in 1666, he established the first fire insurance company.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 328,
+    "question": "Through fire insurance, individuals and institutions ensure the security of what?",
+    "options": {
+      "A": "Property",
+      "B": "Country",
+      "C": "Money",
+      "D": "People"
+    },
+    "answer": "A",
+    "explanation": "Through fire insurance, individuals and institutions ensure the security of property. The main purpose of this insurance is to compensate for property damaged by fire.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 329,
+    "question": "Which is a fire-related natural risk?",
+    "options": {
+      "A": "Special cause",
+      "B": "Negligence",
+      "C": "Carelessness",
+      "D": "Electrical fault"
+    },
+    "answer": "D",
+    "explanation": "An electrical fault is a fire-related natural risk. It is not intentional but occurs due to technical defects.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 330,
+    "question": "In which type of policy is it not necessary to submit proof of the property's value after an accident?",
+    "options": {
+      "A": "Average policy",
+      "B": "Valued policy",
+      "C": "Special policy",
+      "D": "Floating policy"
+    },
+    "answer": "B",
+    "explanation": "In a valued policy, it is not necessary to submit proof of the property's value after an accident because the property's value is predetermined in the policy.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 331,
+    "question": "'Compensation after an accident is provided at a predetermined value, not market value' — in which type of fire insurance policy?",
+    "options": {
+      "A": "General",
+      "B": "Special",
+      "C": "Average",
+      "D": "Valued"
+    },
+    "answer": "D",
+    "explanation": "In a valued policy, compensation is given at a predetermined value. Fluctuations in market value are not considered.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 332,
+    "question": "If a specific property is insured for a specific period and for a specific amount, what type of policy is it?",
+    "options": {
+      "A": "Floating",
+      "B": "Average",
+      "C": "Specific",
+      "D": "Valued"
+    },
+    "answer": "C",
+    "explanation": "A policy for a specific property, specific period, and specific amount is called a specific policy. It is issued for one specific property.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 333,
+    "question": "What is the subject matter of fire insurance?",
+    "options": {
+      "A": "Human life",
+      "B": "Motor vehicles",
+      "C": "Sea vessels",
+      "D": "Movable and immovable property"
+    },
+    "answer": "D",
+    "explanation": "The subject matter of fire insurance is movable and immovable property. All property that can be damaged by fire falls under its coverage.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 334,
+    "question": "To create insurable interest, what must the insured have over the insured property?",
+    "options": {
+      "A": "Right",
+      "B": "Ownership",
+      "C": "Trust",
+      "D": "Assurance"
+    },
+    "answer": "B",
+    "explanation": "To create insurable interest, the insured must have ownership over the insured property. Insurance cannot be taken without ownership.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 335,
+    "question": "What does the Average Clause mean?",
+    "options": {
+      "A": "Compensation in proportion to the value of the insured property",
+      "B": "Determining loss according to the market value of the insured property",
+      "C": "A specific value is determined for the property and that amount is compensated",
+      "D": "Determining the amount of loss in proportion to the actual value and insured value of the damaged property"
+    },
+    "answer": "D",
+    "explanation": "According to the Average Clause, compensation is determined in proportion to the actual value and insured value of the damaged property. This is applicable in cases of under-insurance.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 336,
+    "question": "For what reason can a contract be voided?",
+    "options": {
+      "A": "If the contract is made by concealing information",
+      "B": "As a result of full disclosure of information",
+      "C": "As a result of partial disclosure of information",
+      "D": "If a larger amount of property is damaged"
+    },
+    "answer": "A",
+    "explanation": "An insurance contract can be voided if it is made by concealing information. According to the principle of utmost good faith, all material facts must be disclosed.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 337,
+    "question": "Collecting and filling out the fire insurance proposal form completes which stage?",
+    "options": {
+      "A": "Complete stage",
+      "B": "Initial stage",
+      "C": "Final stage",
+      "D": "Middle stage"
+    },
+    "answer": "B",
+    "explanation": "Collecting and filling out the fire insurance proposal form completes the initial stage. This is the first step of the insurance contract.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 338,
+    "question": "What type of certificate must be submitted when taking a fire insurance policy?",
+    "options": {
+      "A": "Valuation certificate",
+      "B": "Guarantee certificate",
+      "C": "Certificate of origin of goods",
+      "D": "Character certificate"
+    },
+    "answer": "A",
+    "explanation": "A valuation certificate of the property must be submitted when taking a fire insurance policy. This serves as proof of the property's value.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 339,
+    "question": "Why is moral hazard higher in fire insurance?",
+    "options": {
+      "A": "The character of the insured is weak in this type of insurance",
+      "B": "There is a possibility of removing assets and setting fire",
+      "C": "Fire damage occurs instantly",
+      "D": "The insured amount is very high in this case"
+    },
+    "answer": "B",
+    "explanation": "Moral hazard is higher in fire insurance because there is a possibility of removing assets and setting fire (arson). Dishonest people may set fire to claim compensation.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 340,
+    "question": "What are the causes capable of directly causing a fire called?",
+    "options": {
+      "A": "Direct fire",
+      "B": "Indirect fire",
+      "C": "Total fire",
+      "D": "General fire"
+    },
+    "answer": "A",
+    "explanation": "Causes capable of directly causing a fire are called direct fire. This occurs due to direct contact with fire.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 341,
+    "question": "Which is an indirect cause of fire?",
+    "options": {
+      "A": "Carelessness",
+      "B": "Use of inferior materials",
+      "C": "Intentional arson",
+      "D": "Negligence and disregard"
+    },
+    "answer": "B",
+    "explanation": "The use of inferior materials is an indirect cause of fire. It does not directly start a fire but increases the risk of fire.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 342,
+    "question": "In the case of fire-related loss, which is a moral cause?",
+    "options": {
+      "A": "Violent arson",
+      "B": "Intentional arson",
+      "C": "Lack of proper planning",
+      "D": "Inadequate fire extinguishing system"
+    },
+    "answer": "B",
+    "explanation": "Intentional arson is a moral cause of fire-related loss. This involves deliberately setting fire for fraudulent purposes.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 343,
+    "question": "What type of risk is created due to the adverse results caused by human errors and mistakes?",
+    "options": {
+      "A": "Moral hazard",
+      "B": "Natural risk",
+      "C": "Life risk",
+      "D": "Business risk"
+    },
+    "answer": "A",
+    "explanation": "Adverse results caused by human errors and mistakes are known as moral hazard. This is a behavioral risk of humans.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 344,
+    "question": "What does prevention effort refer to?",
+    "options": {
+      "A": "The risks of a fire occurring",
+      "B": "Actually refers to fire insurance",
+      "C": "The severity of fire",
+      "D": "Proper planning"
+    },
+    "answer": "A",
+    "explanation": "Prevention effort refers to identifying the risks of a fire occurring and taking measures to prevent them.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 345,
+    "question": "If property is damaged due to causes mentioned in the fire insurance, what does the insured do?",
+    "options": {
+      "A": "Claims compensation from the insurer",
+      "B": "Shows the loss to the insurer",
+      "C": "Pays premium to the insurance company",
+      "D": "Arranges for extending the insurance term"
+    },
+    "answer": "A",
+    "explanation": "If property is damaged due to fire, the insured claims compensation from the insurer. The claim must be presented according to the prescribed procedure.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 346,
+    "question": "A painting bought for Tk 1,00,000 was insured. 25% was burned in a fire. How much will the insurance company compensate?",
+    "options": {
+      "A": "Tk 25,000",
+      "B": "Tk 50,000",
+      "C": "Tk 75,000",
+      "D": "Tk 1,00,000"
+    },
+    "answer": "A",
+    "explanation": "With 25% damage, compensation = 1,00,000 × 25% = Tk 25,000. According to the principle of indemnity, payment is made in proportion to the loss.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 347,
+    "question": "A fire insurance contract can be considered void- i. Due to breach of conditions ii. Through fulfillment of conditions iii. If both parties do not comply with the conditions",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "A fire insurance contract can be voided due to breach of conditions or if both parties do not comply with the conditions. A contract is not voided through fulfillment of conditions.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 348,
+    "question": "General elements of fire insurance are- i. Proposal and acceptance ii. Specificity iii. Terms and conditions",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "General elements of fire insurance include proposal and acceptance, specificity, and terms and conditions. All three elements are essential for the contract.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 349,
+    "question": "The insured's claim for compensation is unreasonable- i. If the contract is made by concealing information ii. As a result of full disclosure of information iii. If damage to the subject matter occurs due to concealment of information",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "B",
+    "explanation": "A claim for compensation is unreasonable if the contract was made by concealing information or if damage occurred due to concealment. Full disclosure of information is the correct action.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 350,
+    "question": "The subject matter of moral hazard in fire insurance is- i. Arson by enemies ii. Voluntary arson iii. Use of dangerous processes",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "C",
+    "explanation": "The subject matter of moral hazard includes voluntary arson and the use of dangerous processes. Arson by enemies is a natural/unnatural peril.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 351,
+    "question": "Causes of natural risk can be- i. Defective heating system ii. Highly flammable substances iii. Carelessness",
+    "options": {
+      "A": "i & ii",
+      "B": "i & iii",
+      "C": "ii & iii",
+      "D": "i, ii & iii"
+    },
+    "answer": "D",
+    "explanation": "Causes of natural risk include defective heating systems, highly flammable substances, and carelessness. All three can create natural risks.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 352,
+    "question": "[Stimulus] Mr. Ruhit is an enterprising, self-employed businessman... He became frightened seeing his competitor Mr. Mamun go bankrupt due to a fire in his establishment. What measure can Mr. Ruhit take in this situation?",
+    "options": {
+      "A": "Take fire insurance",
+      "B": "Close the business",
+      "C": "Take life insurance",
+      "D": "Want to control these"
+    },
+    "answer": "A",
+    "explanation": "Mr. Ruhit can protect himself from the risk of fire-related loss by taking fire insurance.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 353,
+    "question": "Why did Mr. Mamun face this loss?",
+    "options": {
+      "A": "Not taking fire insurance",
+      "B": "Not taking precautions",
+      "C": "Business loss",
+      "D": "Not being attentive to business"
+    },
+    "answer": "A",
+    "explanation": "Mr. Mamun faced the complete loss because he did not take fire insurance. Had he had fire insurance, he could have received compensation and restarted his business.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 354,
+    "question": "[Stimulus] Mita Enterprise has CNG filling stations in various parts of the country. They have insured them under a single fire insurance policy. What type of fire insurance policy has Mita Enterprise obtained?",
+    "options": {
+      "A": "Average",
+      "B": "Excess",
+      "C": "Floating",
+      "D": "Declared"
+    },
+    "answer": "C",
+    "explanation": "Mita Enterprise has obtained a floating policy. This is a single policy for properties located in multiple places.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 355,
+    "question": "[Stimulus] Mr. Nirab had fire insurance for his house worth Tk 50 lakh... Within how many days did Mr. Nirab file the claim?",
+    "options": {
+      "A": "14 days",
+      "B": "30 days",
+      "C": "45 days",
+      "D": "60 days"
+    },
+    "answer": "A",
+    "explanation": "Mr. Nirab filed the claim within 14 days. In fire insurance, a claim generally must be filed within 14 days.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  },
+  {
+    "id": 356,
+    "question": "Why did he obtain a police investigation report?",
+    "options": {
+      "A": "Because the amount of property damage is large",
+      "B": "Due to a court order",
+      "C": "On the instruction of the insurance company",
+      "D": "Because a malicious fire had occurred"
+    },
+    "answer": "C",
+    "explanation": "Mr. Nirab obtained the police investigation report on the instruction of the insurance company. The insurance company requires this report to settle the claim.",
+    "source": "Finance, Banking & Insurance, Chapter-13"
+  }
+]
