@@ -296,7 +296,30 @@ const PracticeConfig = () => {
         ))
             .then(results => {
                 const exams = results.filter(Boolean).map(({ exam, json }) => {
-                    const subjects = (Array.isArray(json) ? json : json.subjects || []).map(sub => ({ ...sub, exam_category: exam.id.toUpperCase() }));
+                    let subjects;
+                    if (exam.id === 'bcs' && Array.isArray(json)) {
+                        subjects = [{
+                            id: 'bcs_all',
+                            name: 'BCS Questions',
+                            name_bn: 'বিসিএস প্রশ্ন',
+                            name_en: 'BCS Questions',
+                            exam_category: 'BCS',
+                            topics: [{
+                                id: 'bcs_exams',
+                                name: 'All BCS Exams',
+                                name_bn: 'সকল বিসিএস',
+                                name_en: 'All BCS Exams',
+                                chapters: json.map(item => ({
+                                    id: item.id,
+                                    name: item.name,
+                                    file_bn: `/bcs/${item.id}.json`,
+                                    file_en: `/bcs/${item.id}.json`,
+                                }))
+                            }]
+                        }];
+                    } else {
+                        subjects = (Array.isArray(json) ? json : json.subjects || []).map(sub => ({ ...sub, exam_category: exam.id.toUpperCase() }));
+                    }
                     return { ...exam, active: true, subjects };
                 });
 

@@ -1518,6 +1518,45 @@
           ],
           "name_bn": "অধ্যায় ৭",
           "name_en": "Chapter 7"
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8",
+          "chapters": [
+            {
+              "id": "hsc_eco1_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/economics_1st/chapter_8.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৮",
+          "name_en": "Chapter 8"
+        },
+        {
+          "id": "chapter_9",
+          "name": "Chapter 9",
+          "chapters": [
+            {
+              "id": "hsc_eco1_ch9",
+              "name": "Chapter 9 Questions",
+              "file_bn": "/hsc/economics_1st/chapter_9.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৯",
+          "name_en": "Chapter 9"
+        },
+        {
+          "id": "chapter_10",
+          "name": "Chapter 10",
+          "chapters": [
+            {
+              "id": "hsc_eco1_ch10",
+              "name": "Chapter 10 Questions",
+              "file_bn": "/hsc/economics_1st/chapter_10.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১০",
+          "name_en": "Chapter 10"
         }
       ],
       "name_bn": "অর্থনীতি ১ম পত্র",

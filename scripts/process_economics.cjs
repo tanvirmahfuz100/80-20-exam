@@ -34,12 +34,26 @@ function parseBrokenJson(filePath) {
 }
 
 // Parse economics files
-const ch1 = parseJsonOrThrow(path.join(RAW_DIR, 'ban chap 1.json'));
-const ch23 = parseJsonOrThrow(path.join(RAW_DIR, 'eco chap 2-3.json'));
-const ch4on = parseJsonOrThrow(path.join(RAW_DIR, 'ban chap 4- on.json'));
-const broken = parseBrokenJson(path.join(RAW_DIR, 'ban eco question.json'));
+const rawFiles = [
+  'ban chap 1.json',
+  'eco chap 2-3.json',
+  'ban chap 4- on.json',
+  'ban chap 7-8.json',
+  'ban chap 8-10.json',
+  'ban eco question.json',
+];
 
-const all = [...ch1, ...ch23, ...ch4on, ...broken];
+const all = [];
+rawFiles.forEach(f => {
+  const fp = path.join(RAW_DIR, f);
+  try {
+    const data = parseJsonOrThrow(fp);
+    all.push(...data);
+  } catch {
+    const data = parseBrokenJson(fp);
+    all.push(...data);
+  }
+});
 
 // Group by chapter from source field
 const chMap = {};
@@ -57,19 +71,23 @@ Object.values(chMap).forEach(qs => {
   qs.forEach((q, i) => { q.id = i + 1; });
 });
 
+const bnDigitMap = { '০':'0','১':'1','২':'2','৩':'3','৪':'4','৫':'5','৬':'6','৭':'7','৮':'8','৯':'9' };
+const toAsciiDigit = (s) => [...s].map(c => bnDigitMap[c] || c).join('');
+
 // Ensure output directory exists
 const sorted = Object.entries(chMap).sort((a, b) => {
   if (a[0] === 'unknown') return 1;
   if (b[0] === 'unknown') return -1;
-  return parseInt(a[0]) - parseInt(b[0]);
+  return parseInt(toAsciiDigit(a[0])) - parseInt(toAsciiDigit(b[0]));
 });
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
 sorted.forEach(([ch, qs]) => {
-  const filePath = path.join(OUT_DIR, `chapter_${ch}.json`);
+  const asciiCh = toAsciiDigit(ch);
+  const filePath = path.join(OUT_DIR, `chapter_${asciiCh}.json`);
   fs.writeFileSync(filePath, JSON.stringify(qs, null, 2), 'utf8');
-  console.log(`Written chapter_${ch}.json (${qs.length} questions)`);
+  console.log(`Written chapter_${asciiCh}.json (${qs.length} questions)`);
 });
 
 console.log(`\nTotal: ${all.length} questions across ${sorted.length} chapters`);
