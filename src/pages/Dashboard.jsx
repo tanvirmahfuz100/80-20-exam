@@ -39,6 +39,9 @@ const subjectFromPath = (filePath) => {
     production_1st: 'Production 1st Paper', production_2nd: 'Production 2nd Paper',
     english_2nd: 'English 2nd Paper',
     business_entrepreneurship: 'Business Entrepreneurship',
+    social_2nd: 'Social Work 2nd Paper',
+    economics_1st: 'Economics 1st Paper',
+    logic_1st: 'Logic 1st Paper', logic_2nd: 'Logic 2nd Paper',
   };
 
   const examSlug = segments[0];
@@ -166,7 +169,7 @@ const Dashboard = () => {
           const res = await fetch(`${base}${exam.id}/index.json`);
           if (!res.ok) return { ...exam, active: false };
           const json = await res.json();
-          return { ...exam, active: Array.isArray(json.subjects) && json.subjects.length > 0 };
+          return { ...exam, active: Array.isArray(json.subjects) ? json.subjects.length > 0 : Array.isArray(json) && json.length > 0 };
         } catch { return { ...exam, active: false }; }
       })
     ).then(setAvailableExams);

@@ -296,7 +296,7 @@ const PracticeConfig = () => {
         ))
             .then(results => {
                 const exams = results.filter(Boolean).map(({ exam, json }) => {
-                    const subjects = (json.subjects || []).map(sub => ({ ...sub, exam_category: exam.id.toUpperCase() }));
+                    const subjects = (Array.isArray(json) ? json : json.subjects || []).map(sub => ({ ...sub, exam_category: exam.id.toUpperCase() }));
                     return { ...exam, active: true, subjects };
                 });
 
