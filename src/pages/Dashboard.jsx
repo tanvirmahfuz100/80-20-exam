@@ -41,6 +41,7 @@ const subjectFromPath = (filePath) => {
     business_entrepreneurship: 'Business Entrepreneurship',
     social_2nd: 'Social Work 2nd Paper',
     economics_1st: 'Economics 1st Paper',
+    economics_2nd: 'Economics 2nd Paper',
     logic_1st: 'Logic 1st Paper', logic_2nd: 'Logic 2nd Paper',
   };
 
