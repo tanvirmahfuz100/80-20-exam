@@ -1,0 +1,2294 @@
+[
+  {
+    "id": 1,
+    "question": "কোনটি কাজী নজরুল ইসলামের রচনা নয়?",
+    "options": {
+      "A": "ছায়ানট",
+      "B": "চক্রবাক",
+      "C": "রুদ্রমঙ্গল",
+      "D": "বালুচর"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "question": "‘সবুজপত্র’ প্রকাশিত হয় কোন সালে?",
+    "options": {
+      "A": "১৯০৯",
+      "B": "১৯১০",
+      "C": "১৯১৪",
+      "D": "১৯২১"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "মুক্তিযুদ্ধবিষয়ক নাটক",
+    "options": {
+      "A": "সুবচন নির্বাসনে",
+      "B": "রক্তাক্ত প্রান্তর",
+      "C": "নূরলদীনের সারা জীবন",
+      "D": "পায়ের আওয়াজ পাওয়া যায়"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "কোনটি জসীমউদ্দীনের নাটক?",
+    "options": {
+      "A": "রাখালী",
+      "B": "মাটির কান্না",
+      "C": "বেদের মেয়ে",
+      "D": "বোবা কাহিনী"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "question": "মধ্যযুগের বাংলা সাহিত্যে কোন ধর্মপ্রচারক-এর প্রভাব অপরিসীম?",
+    "options": {
+      "A": "শ্রীচৈতন্যদেব",
+      "B": "",
+      "C": "আদিনাথ",
+      "D": "মনোহর দাশ"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "question": "মুনীর চৌধুরীর অনূদিত নাটক কোনটি?",
+    "options": {
+      "A": "কবর",
+      "B": "চিঠি",
+      "C": "রক্তাক্ত প্রান্তর",
+      "D": "মুখরা রমণী বশীকরণ"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "question": "কোনটি উপন্যাস নয়?",
+    "options": {
+      "A": "দিবারাত্রির কাব্য",
+      "B": "হাঁসুলী বাঁকের উপকথা",
+      "C": "কবিতার কথা",
+      "D": "পথের পাঁচালী"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "question": "‘বিষাদ সিন্ধু’ একটি",
+    "options": {
+      "A": "গবেষণা গ্রন্থ",
+      "B": "ধর্মবিষয়ক প্রবন্ধ",
+      "C": "ইতিহাস আশ্রয়ী উপন্যাস",
+      "D": "আত্মজীবনী"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "question": "মধ্যযুগের শেষ কবি ভারতচন্দ্র রায়গুণাকর কত সালে মৃত্যুবরণ করেন?",
+    "options": {
+      "A": "১৭৫৬",
+      "B": "১৭৫২",
+      "C": "১৭৬০",
+      "D": "১৭৬২"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "question": "‘তোহফা’ কাব্যটি কে রচনা করেন?",
+    "options": {
+      "A": "দৌলত কাজী",
+      "B": "মাগন ঠাকুর",
+      "C": "সাবিরিদ খান",
+      "D": "আলাওল"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "question": "এন্টনি ফিরিঙ্গি কী জাতীয় সাহিত্যের রচয়িতা?",
+    "options": {
+      "A": "কবিগান",
+      "B": "পুঁথি সাহিত্য",
+      "C": "নাথ সাহিত্য",
+      "D": "বৈষ্ণব পদ সাহিত্য"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "‘রাজা প্রতাপাদিত্য চরিত্র’ গ্রন্থটির প্রণেতা",
+    "options": {
+      "A": "উইলিয়াম কেরি",
+      "B": "গোলকনাথ শর্মা",
+      "C": "রামরাম বসু",
+      "D": "হরপ্রসাদ রায়"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "question": "‘ইয়ং বেঙ্গল’ গোষ্ঠীর মুখপত্ররূপে কোন পত্রিকা প্রকাশিত হয়?",
+    "options": {
+      "A": "বঙ্গদূত",
+      "B": "জ্ঞানান্বেষণ",
+      "C": "জ্ঞানাঙ্কুর",
+      "D": "সংবাদ প্রভাকর"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "question": "হরিনাথ মজুমদার সম্পাদিত পত্রিকার নাম",
+    "options": {
+      "A": "অবকাশ রঞ্জিকা",
+      "B": "বিবিধার্য সংগ্রহ",
+      "C": "কাব্য প্রকাশ",
+      "D": "গ্রামবার্তা প্রকাশিকা"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "question": "নিচের কোনটি ভ্রমণসাহিত্য বিষয়ক গ্রন্থ নয়?",
+    "options": {
+      "A": "চার ইয়ারী কথা",
+      "B": "পালামৌ",
+      "C": "দৃষ্টিপাত",
+      "D": "দেশে বিদেশে"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "question": "নিচের যে উপন্যাসে গ্রামীণ সমাজ জীবনের চিত্র প্রাধান্য লাভ করেনি",
+    "options": {
+      "A": "গণদেবতা",
+      "B": "পদ্মানদীর মাঝি",
+      "C": "সীতারাম",
+      "D": "পথের পাঁচালী"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "question": "নিচের কোন চরিত্র দুটি রবীন্দ্রনাথের ‘ঘরে বাইরে’ উপন্যাসের?",
+    "options": {
+      "A": "বিহারী-বিনোদিনী",
+      "B": "নিখিলেস-বিমলা",
+      "C": "মধুসূদন-কুমুদিনী",
+      "D": "অমিত-লাবণ্য"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "question": "কোনটি কাজী নজরুল ইসলামের উপন্যাস?",
+    "options": {
+      "A": "রিক্তের বেদন",
+      "B": "সর্বহারা",
+      "C": "আলেয়া",
+      "D": "কুহেলিকা"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "question": "কোনটি মাইকেল মধুসূদন দত্তের পত্রকাব্য?",
+    "options": {
+      "A": "ব্রজাঙ্গনা",
+      "B": "বিলাতের পত্র",
+      "C": "বীরাঙ্গনা",
+      "D": "হিমালয়"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "question": "‘একখানি ছোট ক্ষেত আমি একেলা’– রবীন্দ্রনাথ ঠাকুরের কোন কবিতার চরণ?",
+    "options": {
+      "A": "সোনার তরী",
+      "B": "চিত্রা",
+      "C": "মানসী",
+      "D": "বলাকা"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "question": "‘আমি কিংবদন্তীর কথা বলছি’–কবিতাটি কার লেখা?",
+    "options": {
+      "A": "শামসুর রাহমান",
+      "B": "আল মাহমুদ",
+      "C": "আবুল ফজল",
+      "D": "আবু জাফর ওবায়দুল্লাহ"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "question": "কোনটি শওকত ওসমানের রচনা নয়?",
+    "options": {
+      "A": "চৌরসন্ধি",
+      "B": "ক্রীতদাসের হাসি",
+      "C": "ভেজাল",
+      "D": "বনি আদম"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "question": "‘বন্ধন’ শব্দের সঠিক অক্ষর বিন্যাস কোনটি?",
+    "options": {
+      "A": "ব + ন্ + ধ + ন্",
+      "B": "বন্ + ধন্",
+      "C": "ব + ন্ধ + ন",
+      "D": "বান্ + ধন্"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "question": "বাংলা বর্ণমালায় অর্ধমাত্রার বর্ণ কয়টি?",
+    "options": {
+      "A": "৭টি",
+      "B": "৯টি",
+      "C": "১০টি",
+      "D": "৮টি"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "question": "‘বিজ্ঞান’ শব্দের যুক্তবর্ণের সঠিক রূপ কোনটি?",
+    "options": {
+      "A": "জ্ + ঞ",
+      "B": "ঞ্ + গ",
+      "C": "ঞ্ + জ",
+      "D": "গ্ + ঞ"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "question": "নিচের কোন শব্দটি প্রত্যয়যোগে গঠিত হয়নি?",
+    "options": {
+      "A": "সভাসদ",
+      "B": "শুভেচ্ছা",
+      "C": "ফলবান",
+      "D": "তন্বী"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 27,
+    "question": "বহুব্রীহি সমাসবদ্ধ পদ কোনটি?",
+    "options": {
+      "A": "জনশ্রুতি",
+      "B": "অনমনীয়",
+      "C": "খাসমহল",
+      "D": "তপোবন"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "question": "নিচের কোনটি বিশেষ্য পদ?",
+    "options": {
+      "A": "জাত",
+      "B": "গৈরিক",
+      "C": "উদ্ধত",
+      "D": "গাম্ভীর্য"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 29,
+    "question": "নিচের কোন শব্দে ণ-ত্ব বিধি অনুসারে ‘ণ’-এর ব্যবহার হয়েছে?",
+    "options": {
+      "A": "কল্যাণ",
+      "B": "প্রবণ",
+      "C": "নিক্কণ",
+      "D": "বিপণি"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 30,
+    "question": "‘মিথ্যাবাদীকে সবাই অপছন্দ করে’– বাক্যটিকে নেতিবাচক বাক্যে রূপান্তর করলে হয়",
+    "options": {
+      "A": "মিথ্যাবাদীকে সবাই পছন্দ করে",
+      "B": "মিথ্যাবাদীকে সবাই পছন্দ না করে পারে না",
+      "C": "মিথ্যাবাদীকে কেউ পছন্দ করে না",
+      "D": "মিথ্যাবাদীকে কেউ অপছন্দ করে না"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 31,
+    "question": "‘Null and Void’-এর বাংলা পরিভাষা কী?",
+    "options": {
+      "A": "বাতিল",
+      "B": "পালাবদল",
+      "C": "মামুলি",
+      "D": "নিরপেক্ষ"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 32,
+    "question": "‘হেড মৌলভী’ কোন কোন ভাষায় শব্দ যোগে গঠিত হয়েছে?",
+    "options": {
+      "A": "ইংরেজি + ফার্সি",
+      "B": "ইংরেজি + আরবি",
+      "C": "তুর্কি + আরবি",
+      "D": "ইংরেজি + পর্তুগিজ"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 33,
+    "question": "‘রবীন্দ্র’-এর সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+    "options": {
+      "A": "রবী + ইন্দ্র",
+      "B": "রবী + ঈন্দ্র",
+      "C": "রবি + ইন্দ্র",
+      "D": "রবি + ঈন্দ্র"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 34,
+    "question": "‘এ যে আমাদের চেনা লোক’– বাক্যে ‘চেনা’ কোন পদ?",
+    "options": {
+      "A": "বিশেষ্য",
+      "B": "অব্যয়",
+      "C": "ক্রিয়া",
+      "D": "বিশেষণ"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 35,
+    "question": "‘প্রকর্ষ’ শব্দের সমার্থক শব্দ",
+    "options": {
+      "A": "উৎকর্ষতা",
+      "B": "অপকর্ষ",
+      "C": "উৎকর্ষ",
+      "D": "অপকর্ষতা"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 36,
+    "question": "Professor Razzak was a scholar __ refute. (Fill in the gap)",
+    "options": {
+      "A": "in",
+      "B": "of",
+      "C": "after",
+      "D": "by"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 37,
+    "question": "John Smith is good __ Mathematics. (Fill in the gap)",
+    "options": {
+      "A": "at",
+      "B": "in",
+      "C": "of",
+      "D": "after"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 38,
+    "question": "Teacher said, ‘The earth __ round the sun.’",
+    "options": {
+      "A": "moves",
+      "B": "moved",
+      "C": "has moved",
+      "D": "will be moving"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 39,
+    "question": "In English grammar, __ deals with formation of sentences.",
+    "options": {
+      "A": "Morphology",
+      "B": "Etymology",
+      "C": "Syntax",
+      "D": "Semantics"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 40,
+    "question": "He insisted __ there. (Fill in the gap)",
+    "options": {
+      "A": "on my going",
+      "B": "is to go",
+      "C": "over going",
+      "D": "to go"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 41,
+    "question": "The idiom ‘A stitch in time saves nine’–refers to the importance of",
+    "options": {
+      "A": "Saving lives",
+      "B": "timely action",
+      "C": "saving time",
+      "D": "time tailoring"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 42,
+    "question": "What would be the right antonym for ‘initiative’?",
+    "options": {
+      "A": "apathy",
+      "B": "indolence",
+      "C": "enterprise",
+      "D": "activity"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 43,
+    "question": "This could have worked if I __ been more cautious.",
+    "options": {
+      "A": "had",
+      "B": "have",
+      "C": "might",
+      "D": "would"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 44,
+    "question": "I have been living in Dhaka __ 2000.",
+    "options": {
+      "A": "since",
+      "B": "from",
+      "C": "after",
+      "D": "till"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 45,
+    "question": "Give the antonym of the word ‘transitory’.",
+    "options": {
+      "A": "temporary",
+      "B": "permanent",
+      "C": "transparent",
+      "D": "short-lived"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 46,
+    "question": "Verb of ‘Number’ is",
+    "options": {
+      "A": "number",
+      "B": "enumerate",
+      "C": "numbering",
+      "D": "numerical"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 47,
+    "question": "Slow and steady __ the race. (Fill in the gap)",
+    "options": {
+      "A": "win",
+      "B": "wins",
+      "C": "has won",
+      "D": "won"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 48,
+    "question": "Identify the correct sentence?",
+    "options": {
+      "A": "Yesterday, he has gone home",
+      "B": "Yesterday, he did gone home",
+      "C": "Yesterday, he had gone home",
+      "D": "Yesterday, he went home"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 49,
+    "question": "‘Venerate’ Means",
+    "options": {
+      "A": "defame",
+      "B": "abuse",
+      "C": "respect",
+      "D": "accuse"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 50,
+    "question": "Credit tk 5000 __ my account.",
+    "options": {
+      "A": "in",
+      "B": "with",
+      "C": "against",
+      "D": "to"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 51,
+    "question": "‘To do away with’ means",
+    "options": {
+      "A": "to repeat",
+      "B": "to start",
+      "C": "to get rid of",
+      "D": "to drive off"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 52,
+    "question": "Which one is a correct sentence?",
+    "options": {
+      "A": "paper is made of wood",
+      "B": "paper is made from wood",
+      "C": "paper is made by wood",
+      "D": "paper is made on wood"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 53,
+    "question": "‘David Copperfield’ is a/an _ novel.",
+    "options": {
+      "A": "Victorian",
+      "B": "Eligabethan",
+      "C": "Romantic",
+      "D": "Modern"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 54,
+    "question": "‘Elegy Written in a Country Churchyard’ is written by",
+    "options": {
+      "A": "William Wordsworth",
+      "B": "Thomas Gray",
+      "C": "John Keats",
+      "D": "W.B. Yeats"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 55,
+    "question": "Shakespeare&#8217;s ‘Measure for Measure’ is a successful",
+    "options": {
+      "A": "tragedy",
+      "B": "comedy",
+      "C": "tragi-comedy",
+      "D": "melodrama"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 56,
+    "question": "The romantic age in English literature began with the publication of",
+    "options": {
+      "A": "Preface to Shakespeare",
+      "B": "Perface to Lyrical Ballads",
+      "C": "Preface to Ancient Mariners",
+      "D": "Preface to Dr. Johnson"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 57,
+    "question": "Which of the following books is written by Thomas Hardy?",
+    "options": {
+      "A": "Vanity Fair",
+      "B": "The Return of the Native",
+      "C": "Pride and Prejudice",
+      "D": "Oliver Twist"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 58,
+    "question": "‘Frailty thy name is woman’–is a famous dialogue from.",
+    "options": {
+      "A": "Christopher Marlowe",
+      "B": "John Webstar",
+      "C": "W. Shakespeare",
+      "D": "T.S. Eliot"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 59,
+    "question": "The poem ‘The Solitary Reaper’ is written by",
+    "options": {
+      "A": "W.H. Auden",
+      "B": "W. Wordsworth",
+      "C": "W.B. Yeats",
+      "D": "Ezra Pound"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 60,
+    "question": "‘The Merchant of Venice’ is a Shakespearean play about",
+    "options": {
+      "A": "a Jew",
+      "B": "a Moor",
+      "C": "a Roman",
+      "D": "a Turk"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 61,
+    "question": "The play ‘Candida’ is by",
+    "options": {
+      "A": "James Joyce",
+      "B": "Shakespeare",
+      "C": "G. B. Shaw",
+      "D": "Arthur Miller"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 62,
+    "question": "Which of the following writers belongs to the romantic period in English literature?",
+    "options": {
+      "A": "A. Tennyson",
+      "B": "Alexander Pope",
+      "C": "John Dryden",
+      "D": "S.T. Coleridge"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 63,
+    "question": "The Climax of a plot is what happens",
+    "options": {
+      "A": "in the beginning",
+      "B": "at the height",
+      "C": "at the end",
+      "D": "in the confrontation"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 64,
+    "question": "London town is found a living being in the works of",
+    "options": {
+      "A": "Thomas Hardy",
+      "B": "Charles Dickens",
+      "C": "W. Congreve",
+      "D": "D.H. Lawrence"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 65,
+    "question": "‘Child is the father of man’ is taken from the poem of",
+    "options": {
+      "A": "W. Wordsworth",
+      "B": "S.T. Coleridge",
+      "C": "P.B. Shelley",
+      "D": "A.C. Swinburne"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 66,
+    "question": "‘Man is a political animal’– who said this?",
+    "options": {
+      "A": "Dante",
+      "B": "Plato",
+      "C": "Aristotle",
+      "D": "Socrates"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 67,
+    "question": "Who is known as ‘the poet of nature’ in English literature?",
+    "options": {
+      "A": "Lord Tennyson",
+      "B": "John Milton",
+      "C": "William Wordsworth",
+      "D": "John Keats"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 68,
+    "question": "“A Passage to India” is written by",
+    "options": {
+      "A": "E.M. Forster",
+      "B": "Rudyard Kipling",
+      "C": "Galls Worthy",
+      "D": "A.H. Auden"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 69,
+    "question": "‘Gitanjali’ of Rabindranath Tagore was translated by",
+    "options": {
+      "A": "W. B. Yeats",
+      "B": "Robert Frost",
+      "C": "John Keats",
+      "D": "Rudyard Kipling"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 70,
+    "question": "Who of the following writers was not a novelist?",
+    "options": {
+      "A": "Charles Dickens",
+      "B": "W.B. Yeats",
+      "C": "James Joyce",
+      "D": "Jane Austen"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 71,
+    "question": "বাঙালী জাতির প্রধান অংশ কোন মূল জাতিগোষ্ঠীর অন্তর্ভুক্ত?",
+    "options": {
+      "A": "দ্রাবিড়",
+      "B": "নেগ্রিটো",
+      "C": "ভোটচীন",
+      "D": "অস্ট্রিক"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 72,
+    "question": "বাংলার সর্বপ্রাচীন জনপদের নাম কি?",
+    "options": {
+      "A": "পুণ্ড্র",
+      "B": "তাম্রলিপ্ত",
+      "C": "গৌড়",
+      "D": "হরিকেল"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 73,
+    "question": "বাংলা (দেশ ও ভাষা) নামের উৎপত্তির বিষয়টি কোন গ্রন্থে সর্বাধিক উল্লেখিত হয়েছে?",
+    "options": {
+      "A": "আলমগীরনামা",
+      "B": "আইন-ই-আকবরী",
+      "C": "আকবরনামা",
+      "D": "তুজুক-ই-আকবরী"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 74,
+    "question": "ঢাকার লালবাগের দুর্গ নির্মাণ করেন:",
+    "options": {
+      "A": "শাহ সুজা",
+      "B": "শায়েস্তা খান",
+      "C": "মীর জুমলা",
+      "D": "সুবেদার ইসলাম খান"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 75,
+    "question": "বাংলার ‘ছিয়াত্তরের মন্বন্তর’-এর সময় কাল:",
+    "options": {
+      "A": "১৭৭০ খ্রিস্টাব্দ",
+      "B": "১৭৬০ খ্রিস্টাব্দ",
+      "C": "১৭৬৫ খ্রিস্টাব্দ",
+      "D": "১৭৫৬ খ্রিস্টাব্দ"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 76,
+    "question": "সর্বদলীয় কেন্দ্রীয় রাষ্ট্রভাষা সংগ্রাম পরিষদ গঠিত হয়?",
+    "options": {
+      "A": "৩১ জানুয়ারি, ১৯৫২",
+      "B": "২ ফেব্রুয়ারি, ১৯৫২",
+      "C": "১৮ ফেব্রুয়ারি, ১৯৫২",
+      "D": "২০ জানুয়ারি, ১৯৫২"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 77,
+    "question": "৬ দফা দাবি পেশ করা হয়:",
+    "options": {
+      "A": "১৯৭০ সালে",
+      "B": "১৯৬৬ সালে",
+      "C": "১৯৬৫ সালে",
+      "D": "১৯৬৯ সালে"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 78,
+    "question": "বঙ্গবন্ধুর ১৯৭১ সালের ৭ মার্চ ভাষণের সময়কালে পূর্ব পাকিস্তানে যে আন্দোলন চলছিল সেটি হলো:",
+    "options": {
+      "A": "ইসলামাবাদের সামরিক সরকার পদত্যাগের আন্দোলন",
+      "B": "পূর্ব পাকিস্তানের অসহযোগ আন্দোলন",
+      "C": "প্রেসিডেন্ট ইয়াহহিয়ার পদত্যাগ আন্দোলন",
+      "D": "মার্শাল ‘ল’ পদত্যাগের আন্দোলন"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 79,
+    "question": "২৬ মার্চ, ১৯৭১-এর স্বাধীনতা ঘোষণা বঙ্গবন্ধু জারী করেন",
+    "options": {
+      "A": "বেতার/রেডিওর মাধ্যমে",
+      "B": "ওয়্যারলেসের মাধ্যমে",
+      "C": "টেলিগ্রামের মাধ্যম",
+      "D": "টেলিভিশনের মাধ্যমে"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 80,
+    "question": "বাংলাদেশে রোপা আমন ধান কাটা হয়",
+    "options": {
+      "A": "আষাঢ়-শ্রাবণ মাসে",
+      "B": "ভাদ্র-আশ্বিন মাসে",
+      "C": "অগ্রহায়ণ-পৌষ মাসে",
+      "D": "মাঘ-ফাল্গুন"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 81,
+    "question": "সুন্দরবন-এর কত শতাংশ বাংলাদেশের ভৌগোলিক সীমার মধ্যে পড়েছে?",
+    "options": {
+      "A": "৫০%",
+      "B": "৫৮%",
+      "C": "৬২%",
+      "D": "৬৬%"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 82,
+    "question": "MDG-এর অন্যতম লক্ষ্য কি?",
+    "options": {
+      "A": "দেশ থেকে পোলিও নির্মূল",
+      "B": "HIV/AIDS নির্মূল করা",
+      "C": "যক্ষ্মা নির্মূল করা",
+      "D": "ক্ষুধা ও দারিদ্র্য দূর করা"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 83,
+    "question": "তত্ত্বাবধায়ক সরকার ব্যবস্থা সংবিধানের কততম সংশোধনীর মাধ্যমে রদ করা হয়েছে?",
+    "options": {
+      "A": "১২তম",
+      "B": "১৩তম",
+      "C": "১৪তম",
+      "D": "১৫তম"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 84,
+    "question": "বাংলাদেশের জাতীয় সংসদ কয় কক্ষবিশিষ্ট?",
+    "options": {
+      "A": "এক কক্ষ",
+      "B": "দুই বা দ্বিকক্ষ",
+      "C": "তিন কক্ষ",
+      "D": "বহুকক্ষ বিশিষ্ট"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 85,
+    "question": "ভারতের কতটি ‘ছিটমহল’ বাংলাদেশের ভৌগোলিক সীমায় অন্তর্ভুক্ত হয়েছে?",
+    "options": {
+      "A": "১৬২টি",
+      "B": "১১১টি",
+      "C": "৫১টি",
+      "D": "১০১টি"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 86,
+    "question": "বাংলাদেশের ভৌগোলিক অবস্থান কোনটি?",
+    "options": {
+      "A": "২২°-৩০&#8217; ২০°-৩৪&#8217; দক্ষিণ অক্ষাংশে",
+      "B": "৮০°-৩১&#8217; ৪০°-৯০&#8217; দ্রাঘিমাংশে",
+      "C": "৩৪°-২৫&#8217; ৩৮&#8217; উত্তর অক্ষাংশে",
+      "D": "৮৮°-০১&#8217; থেকে ৯২°-৪১&#8217; পূর্ব দ্রাঘিমাংশে"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 87,
+    "question": "বাংলাদেশে প্রথম আদমশুমারি অনুষ্ঠিত হয় কবে?",
+    "options": {
+      "A": "১৯৭২ সালে",
+      "B": "১৯৭৩ সালে",
+      "C": "১৯৭৪ সালে",
+      "D": "১৯৭৭ সালে"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 88,
+    "question": "কোন উপজাতি বা ক্ষুদ্র নৃ-গোষ্ঠীর ধর্ম ইসলাম?",
+    "options": {
+      "A": "রাখাইন",
+      "B": "মারমা",
+      "C": "পাঙন",
+      "D": "খিয়াং"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 89,
+    "question": "ঢাকার ‘ধোলাই খাল’ কে খনন করেন?",
+    "options": {
+      "A": "পরিবিবি",
+      "B": "ইসলাম খান",
+      "C": "শায়েস্তা খান",
+      "D": "ঈশা খান"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 90,
+    "question": "বাংলাভাষাকে পাকিস্তান গণপরিষদ কোন তারিখে অন্যতম রাষ্ট্রভাষা হিসেবে স্বীকৃতি দেয়?",
+    "options": {
+      "A": "৯ মে, ১৯৫৪",
+      "B": "২২ ফেব্রুয়ারি, ১৯৫৩",
+      "C": "১৬ ফেব্রুয়ারি, ১৯৫৬",
+      "D": "২১ ফেব্রুয়ারি, ১৯৫২"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 91,
+    "question": "মুক্তিযুদ্ধকালীন কোন তারিখে বুদ্ধিজীবীদের ওপর ব্যাপক হত্যাকাণ্ড সংঘটিত হয়?",
+    "options": {
+      "A": "২৫ মার্চ, ১৯৭১",
+      "B": "২৬ মার্চ, ১৯৭১",
+      "C": "১৪ ডিসেম্বর, ১৯৭১",
+      "D": "১৬ ডিসেম্বর, ১৯৭১"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 92,
+    "question": "বাংলাদেশেকে স্বীকৃতি প্রদানকারী প্রথম ইউরোপীয় দেশ কোনটি?",
+    "options": {
+      "A": "যুক্তরাজ্য",
+      "B": "পূর্ব জার্মানি",
+      "C": "স্পেন",
+      "D": "গ্রিস"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 93,
+    "question": "বাংলাদেশের বৃহত্তম জেলা কতটি?",
+    "options": {
+      "A": "১৭টি",
+      "B": "২০টি",
+      "C": "৬৪টি",
+      "D": "১৯টি"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 94,
+    "question": "‘শুভলং’ ঝরনা কোন জেলায় অবস্থিত?",
+    "options": {
+      "A": "রাঙামাটি",
+      "B": "বান্দরবান",
+      "C": "মৌলভীবাজার",
+      "D": "সিলেট"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 95,
+    "question": "বাংলাদেশের উষ্ণতম স্থানের নাম কি?",
+    "options": {
+      "A": "পুটিয়া, রাজশাহী",
+      "B": "নাচালো, চাঁপাইনবাবগঞ্জ",
+      "C": "লালপুর, নাটোর",
+      "D": "ঈশ্বরদি, পাবনা"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 96,
+    "question": "বাংলাদেশের জাতীয় পতাকা কবে গৃহীত হয়?",
+    "options": {
+      "A": "১৭ জানুয়ারি, ১৯৭২",
+      "B": "২৬ মার্চ, ১৯৭১",
+      "C": "১৬ ডিসেম্বর, ১৯৭১",
+      "D": "২১ ফেব্রুয়ারি, ১৯৭২"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 97,
+    "question": "কোনো রাষ্ট্রীয় অনুষ্ঠানে জাতীয় সংগীতের কত চরণ বাজানো হয়?",
+    "options": {
+      "A": "প্রথম ১০টি",
+      "B": "প্রথম ৪টি",
+      "C": "প্রথম ৬টি",
+      "D": "প্রথম ৫টি"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 98,
+    "question": "ECNEC-এর চেয়ারম্যান বা সভাপতি কে?",
+    "options": {
+      "A": "অর্থমন্ত্রী",
+      "B": "প্রধানমন্ত্রী",
+      "C": "পরিকল্পনামন্ত্রী",
+      "D": "স্পীকার"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 99,
+    "question": "‘অগ্নিশ্বর’ কি ফসলের উন্নত জাত?",
+    "options": {
+      "A": "ধান",
+      "B": "কলা",
+      "C": "পাট",
+      "D": "গম"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 100,
+    "question": "বর্তমান সময়ে বাংলাদেশ সরকারের বড় অর্জন কোনটি?",
+    "options": {
+      "A": "যুদ্ধাপরাধীদের বিচার",
+      "B": "সমুদ্রসীমা বিজয়",
+      "C": "বৈদেশিক মুদ্রার রিজার্ভ",
+      "D": "বিদ্যুৎ উৎপাদন বৃদ্ধি"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 101,
+    "question": "বাংলাদেশে কখন থেকে বয়স্কভাতা চালু হয়?",
+    "options": {
+      "A": "১৯৯৮ সালে",
+      "B": "১৯৯৯ সালে",
+      "C": "২০০০ সালে",
+      "D": "১৯৯৭ সালে"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 102,
+    "question": "কোন সংকটকে কেন্দ্র করে ১৯৫০ সালে ‘শান্তির জন্য ঐক্য প্রস্তাব’ জাতিসংঘের মাধ্যমে পেশ করা হয়?",
+    "options": {
+      "A": "ভিয়েতনাম সংকট",
+      "B": "সাইপ্রাস সংকট",
+      "C": "কোরিয়া সংকট",
+      "D": "প্যালেস্টাইন সংকট"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 103,
+    "question": "সুয়েজ খাল কোন বছর চালু হয়?",
+    "options": {
+      "A": "১৯০৩",
+      "B": "১৮৬৯",
+      "C": "১৮৮৯",
+      "D": "১৮৫৪"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 104,
+    "question": "নিম্নলিখিত কোনটি International Mother Earth day?",
+    "options": {
+      "A": "১৮ এপ্রিল",
+      "B": "২০ এপ্রিল",
+      "C": "২২ এপ্রিল",
+      "D": "২৪ এপ্রিল"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 105,
+    "question": "প্রেসিডেন্ট উইড্র উইলসনের 14 points এ কত নম্বর point এ জাতিপুঞ্জের সৃষ্টির কথা উল্লেখ করা হয়েছে?",
+    "options": {
+      "A": "৯",
+      "B": "১২",
+      "C": "১৩",
+      "D": "১৪"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 106,
+    "question": "১৭৮৩ সালে ভার্সাইতে কয়টি চুক্তি স্বাক্ষরিত হয়?",
+    "options": {
+      "A": "২",
+      "B": "৩",
+      "C": "৪",
+      "D": "৫"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 107,
+    "question": "লাওসের (Laos) সরকারি নাম কি?",
+    "options": {
+      "A": "Loas People&#8217;s Democratic Republic",
+      "B": "Republic of Laos",
+      "C": "Kingdom of Laos",
+      "D": "Democratic Republic of Laos"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 108,
+    "question": "নিচের কোন রাষ্ট্র সর্বাধিক রাষ্ট্রের সাথে সীমান্তযুক্ত?",
+    "options": {
+      "A": "ভারত",
+      "B": "চীন",
+      "C": "মিয়ানমার",
+      "D": "আফগানিস্তান"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 109,
+    "question": "জাতিসংঘ উন্নয়ন কর্মসূচি (UNDP)-এর শীর্ষ পদটি কি?",
+    "options": {
+      "A": "প্রশাসক",
+      "B": "মহাপরিচালক",
+      "C": "মহাসচিব",
+      "D": "প্রেসিডেন্ট"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 110,
+    "question": "জলবায়ু পরিবর্তন মোকাবেলায় Green Climate Fund বিশ্বের দরিদ্র দেশগুলোর জন্য কি পরিমাণ অর্থ মঞ্জুর করেছে?",
+    "options": {
+      "A": "৮০ বিলিয়ন ডলার",
+      "B": "১০০ বিলিয়ন ডলার",
+      "C": "১৫০ বিলিয়ন ডলার",
+      "D": "২০০ বিলিয়ন ডলার"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 111,
+    "question": "যুক্তরাষ্ট্র কবে এককভাবে ABM (Anti-Ballistic Missile) চুক্তি থেকে নিজেকে প্রত্যাহার করে?",
+    "options": {
+      "A": "জুন ২০০১",
+      "B": "জুন ২০০০",
+      "C": "জুন ২০০২",
+      "D": "জুন ২০০৩"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 112,
+    "question": "আরব লীগ প্রতিষ্ঠা পায়",
+    "options": {
+      "A": "১৯৪৯",
+      "B": "১৯৫০",
+      "C": "১৯৪৫",
+      "D": "১৯৪০"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 113,
+    "question": "Yalta Conference-এর একটি লক্ষ্য ছিল:",
+    "options": {
+      "A": "বিশ্বযুদ্ধের কারণ নির্ণয়",
+      "B": "জিব্রালটার প্রণালীর সুরক্ষা",
+      "C": "জাতিসংঘ প্রতিষ্ঠা",
+      "D": "যুদ্ধে ক্ষতিগ্রস্তদের ক্ষতিপূরণ প্রদান"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 114,
+    "question": "বর্তমানে NAM-এর সদস্য সংখ্যা",
+    "options": {
+      "A": "৩৩",
+      "B": "১৫",
+      "C": "৭৭",
+      "D": "২১"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 115,
+    "question": "‘War and Peace’ উপন্যাসের রচয়িতা",
+    "options": {
+      "A": "লিও টলস্টয়",
+      "B": "ডেভিড রিকার্ডো",
+      "C": "কার্ল মার্কস",
+      "D": "জেন অস্টিন"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 116,
+    "question": "আন্তর্জাতিক রেড ক্রস-এর সদর দপ্তর:",
+    "options": {
+      "A": "ভিয়েনা",
+      "B": "জেনেভা",
+      "C": "প্যারিস",
+      "D": "লন্ডন"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 117,
+    "question": "IAEA-এর সদর দপ্তর হচ্ছে :",
+    "options": {
+      "A": "জেনেভা",
+      "B": "ভিয়েনা",
+      "C": "ওয়াশিংটন",
+      "D": "প্যারিস"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 118,
+    "question": "সার্ক প্রতিষ্ঠিত হয়:",
+    "options": {
+      "A": "১৯৮২",
+      "B": "১৯৮৫",
+      "C": "১৯৮৪",
+      "D": "১৯৮৩"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 119,
+    "question": "জাতিসংঘ কোন বছর প্রতিষ্ঠিত হয়?",
+    "options": {
+      "A": "১৯৪১",
+      "B": "১৯৪৫",
+      "C": "১৯৪৮",
+      "D": "১৯৪৯"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 120,
+    "question": "আলেপ্পো শহরটি কোথায় অবস্থিত?",
+    "options": {
+      "A": "মিশর",
+      "B": "ইরান",
+      "C": "ইরাক",
+      "D": "সিরিয়া"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 121,
+    "question": "মাদার তেরেসা কোন দেশে জন্মগ্রহণ করেন?",
+    "options": {
+      "A": "ভারত",
+      "B": "আলজেরিয়া",
+      "C": "আলবেনিয়া",
+      "D": "ফ্রান্স"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 122,
+    "question": "যেসব অণুজীব রোগ সৃষ্টি করে তাদের বলা হয়",
+    "options": {
+      "A": "প্যাথজেনিক",
+      "B": "ইনফেকশন",
+      "C": "টক্সিন",
+      "D": "জীবাণু"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 123,
+    "question": "শিশুর মনস্তাত্ত্বিক চাহিদা পূরণে নিচের কোনটি জরুরি?",
+    "options": {
+      "A": "স্বীকৃতি",
+      "B": "স্নেহ",
+      "C": "সাফল্য",
+      "D": "উল্লেখিত সবকটি"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 124,
+    "question": "নিচের কোনটি আমিষ জাতীয় খাদ্য হজমে সাহায্য করে?",
+    "options": {
+      "A": "ট্রিপসিন",
+      "B": "লাইপেজ",
+      "C": "টায়ালিন",
+      "D": "অ্যামাইলেজ"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 125,
+    "question": "বায়ুমণ্ডলে শতকরা কতভাগ আর্গন বিদ্যমান?",
+    "options": {
+      "A": "৭৮.০",
+      "B": "০.৮",
+      "C": "০.৪১",
+      "D": "০.৩"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 126,
+    "question": "মানুষের রক্তে লোহিত কণিকা কোথায় সঞ্চিত থাকে?",
+    "options": {
+      "A": "হৃদযন্ত্রে",
+      "B": "বৃক্কে",
+      "C": "ফুসফুসে",
+      "D": "প্লীহাতে"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 127,
+    "question": "কোন যন্ত্রের সাহায্যে যান্ত্রিক শক্তিকে বিদ্যুৎ শক্তিতে রূপান্তরিত করা হয়?",
+    "options": {
+      "A": "ট্রান্সফরমার",
+      "B": "ডায়নামো",
+      "C": "বৈদ্যুতিক মটর",
+      "D": "হুইল"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 128,
+    "question": "মস্তিষ্ক কোন তন্ত্রের অঙ্গ?",
+    "options": {
+      "A": "স্নায়ুতন্ত্রের",
+      "B": "রেচনতন্ত্রের",
+      "C": "পরিপাকতন্ত্রের",
+      "D": "শ্বাসতন্ত্রের"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 129,
+    "question": "ভাইরাসজনিত রোগ নয় কোনটি?",
+    "options": {
+      "A": "জন্ডিস",
+      "B": "এইডস",
+      "C": "নিউমোনিয়া",
+      "D": "চোখ ওঠা"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 130,
+    "question": "প্রাণিজগতের উৎপত্তি ও বংশসম্বন্ধীয় বিদ্যাকে বলে",
+    "options": {
+      "A": "বায়োলজী",
+      "B": "জুওলজী",
+      "C": "জেনেটিক",
+      "D": "ইভোলিউশন"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 131,
+    "question": "কোন জ্বালানি পোড়ালে সালফার ডাই-অক্সাইড বাতাসে আসে?",
+    "options": {
+      "A": "ডিজেল",
+      "B": "পেট্রোল",
+      "C": "অকটেন",
+      "D": "সিএনজি"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 132,
+    "question": "মোবাইল টেলিফোনের লাইনের মধ্য দিয়ে প্রবাহিত হয়",
+    "options": {
+      "A": "শব্দশক্তি",
+      "B": "তড়িৎশক্তি",
+      "C": "আলোকশক্তি",
+      "D": "চৌম্বকশক্তি"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 133,
+    "question": "জীবজগতের জন্য সবচেয়ে ক্ষতিকর রশ্মি কোনটি?",
+    "options": {
+      "A": "আলফা রশ্মি",
+      "B": "বিটা রশ্মি",
+      "C": "গামা রশ্মি",
+      "D": "আলট্রাভায়োলেট রশ্মি"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 134,
+    "question": "কোন রং বেশি দূর থেকে দেখা যায়?",
+    "options": {
+      "A": "সাদা",
+      "B": "কালো",
+      "C": "হলুদ",
+      "D": "লাল"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 135,
+    "question": "ক্যান্সার চিকিৎসায় ব্যবহৃত গামা বিকিরণের উৎস হলো",
+    "options": {
+      "A": "আইসোটোন",
+      "B": "আইসোটোপ",
+      "C": "আইসোবার",
+      "D": "রাসায়নিক পদার্থ"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 136,
+    "question": "নিচের কোন মেমোরীটি Non-volatile?",
+    "options": {
+      "A": "SRAM",
+      "B": "DRAM",
+      "C": "ROM",
+      "D": "উপরের সবগুলো"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 137,
+    "question": "নিচের কোনটি 3G Language নয়?",
+    "options": {
+      "A": "C",
+      "B": "Java",
+      "C": "Assembly Language",
+      "D": "Machine Language"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 138,
+    "question": "নিচের কোন উক্তিটি সঠিক?",
+    "options": {
+      "A": "১ কিলোবাইট = ১০২৪ বাইট",
+      "B": "১ মেগাবাইট = ১০২৪ বাইট",
+      "C": "১ কিলোবাইট = ১০০০ বাইট",
+      "D": "১ মেগাবাইট = ১০০০ বাইট"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 139,
+    "question": "Wi-fi কোন স্ট্যান্ডার্ড-এর উপর ভিত্তি করে কাজ করে?",
+    "options": {
+      "A": "IEEE 802.11",
+      "B": "IEEE 804.11",
+      "C": "IEEE 803.11",
+      "D": "IEEE 806.11"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 140,
+    "question": "নিচের কোনটিতে সাধারণত ইনফ্রারেড ডিভাইস ব্যবহার করা হয়?",
+    "options": {
+      "A": "WAN",
+      "B": "Satellite Communication",
+      "C": "MAN",
+      "D": "TV রিমোর্ট কন্ট্রোলে"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 141,
+    "question": "(1011)2 + (0101)2 =?",
+    "options": {
+      "A": "(1100)2",
+      "B": "(11000)2",
+      "C": "(01100)2",
+      "D": "কোনোটিই নয়"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 142,
+    "question": "Wi MAX-এর পূর্ণরূপ কি?",
+    "options": {
+      "A": "Worldwide Interoperability for Microwave Access",
+      "B": "Worldwide Internet for Microwave Access",
+      "C": "Worldwide Interconection for Microwave Access",
+      "D": "কোনোটিই নয়"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 143,
+    "question": "8086 কত বিটের মাইক্রো প্রসেসর?",
+    "options": {
+      "A": "8",
+      "B": "16",
+      "C": "32",
+      "D": "উপরের কোনোটিই নয়"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 144,
+    "question": "Mobile Phone-এর কোনটি input device নয়?",
+    "options": {
+      "A": "Keypad",
+      "B": "Touch Screen",
+      "C": "Camera",
+      "D": "Power Supply"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 145,
+    "question": "নিচের কোনটি ডাটাবেজ language?",
+    "options": {
+      "A": "Oracle",
+      "B": "C",
+      "C": "MS-Word",
+      "D": "কোনোটিই নয়"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 146,
+    "question": "LinkedIn-এর ক্ষেত্রে কোনটি সঠিক?",
+    "options": {
+      "A": "এটি একটি বিজনেস অরিয়েন্টেড সোশ্যাল নেটওয়ার্কিং সার্ভিস",
+      "B": "এটি ২০০২ সালে প্রতিষ্ঠিত",
+      "C": "২০০৬ সালে এটির সদস্যসংখ্যা ২০ মিলিয়নের অধিক হয়",
+      "D": "উপরের সবগুলোই"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 147,
+    "question": "কমিউনিকেশন সিস্টেমে গেটওয়ে কি কাজে ব্যবহার হয়?",
+    "options": {
+      "A": "বিভিন্ন নেটওয়ার্ক ডিভাইস সংযুক্ত করার কাজে",
+      "B": "দুই বা তার অধিক ভিন্ন ধরনের নেটওয়ার্ককে সংযুক্ত করার কাজে",
+      "C": "এটি নেটওয়ার্ক হাব কিংবা সুইচের মতই কাজ করে",
+      "D": "কোনোটিই নয়"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 148,
+    "question": "নিচের কোনটি কম্পিউটারের প্রাইমারি মেমোরি?",
+    "options": {
+      "A": "RAM",
+      "B": "Hard Disk",
+      "C": "Pen drive",
+      "D": "কোনোটিই নয়"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 149,
+    "question": "Plotter কোন ধরনের ডিভাইস?",
+    "options": {
+      "A": "ইনপুট",
+      "B": "",
+      "C": "মেমোরি",
+      "D": "উপরের কোনোটিই নয়"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 150,
+    "question": "A = { x : x মৌলিক সংখ্যা এবং x ≤ 5} হলে P(A) এর সদস্য সংখ্যা কত?",
+    "options": {
+      "A": "8",
+      "B": "7",
+      "C": "6",
+      "D": "3"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 151,
+    "question": "12টি পুস্তক থেকে 5টি কত প্রকারে বাছাই করা যায় যেখানে 2টি পুস্তক সর্বদাই অন্তর্ভুক্ত থাকবে?",
+    "options": {
+      "A": "252",
+      "B": "792",
+      "C": "224",
+      "D": "120"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 152,
+    "question": "আবহাওয়া অফিসের রিপোর্ট অনুযায়ী-২০১৫ সালের জুলাই মাসের ২য় সপ্তাহে বৃষ্টি হয়েছে মোট 5 দিন। ঐ সপ্তাহে বুধবার বৃষ্টি না হওয়ার সম্ভাবনা কত?",
+    "options": {
+      "A": "1",
+      "B": "5/7",
+      "C": "2/7",
+      "D": "1/7"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 153,
+    "question": "৩৫০ টাকা দরে ৩ কেজি মিষ্টি কিনে ৪ টাকা হারে ভ্যাট দিলে মোট কত ভ্যাট দিতে হবে?",
+    "options": {
+      "A": "১৪ টাকা",
+      "B": "৪২ টাকা",
+      "C": "১২ টাকা",
+      "D": "১০৫ টাকা"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 154,
+    "question": "যদি তেলের মূল্য ২৫% বৃদ্ধি পায় তবে তেলের ব্যবহার শতকরা কত কমালে তেল বাবদ ব্যয় বৃদ্ধি পাবে না?",
+    "options": {
+      "A": "১৬%",
+      "B": "২০%",
+      "C": "২৫%",
+      "D": "২৪%"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 155,
+    "question": "দুটি সংখ্যার গুণফল ৩৩৮০ এবং গ. সা. গু ১৩ । সংখ্যা দুটিই ল. সা. গু. কত?",
+    "options": {
+      "A": "২৬০",
+      "B": "৭৮০",
+      "C": "১৩০",
+      "D": "৪৯০"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 156,
+    "question": "1 + 3 + 5 + &#8230;&#8230;&#8230;.. + (2x-1) কত?",
+    "options": {
+      "A": "x(x-1)",
+      "B": "x(x+1)/2",
+      "C": "x(x+1)",
+      "D": "x2"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 157,
+    "question": "যদি (25)2x+3 = 53x+6 হয় তবে x = কত?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "-1",
+      "D": "4"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 158,
+    "question": "একটি বর্গক্ষেত্রের কর্ণের দৈর্ঘ্য 4√2 একক হলে ঐ বর্গক্ষেত্রের ক্ষেত্রফল কত বর্গ একক?",
+    "options": {
+      "A": "24",
+      "B": "8",
+      "C": "16",
+      "D": "32"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 159,
+    "question": "∆ABC এ ∠A = 40°, ∠B=70°, হলে ∆ABC কি ধরনের ত্রিভুজ?",
+    "options": {
+      "A": "সমকোণী",
+      "B": "স্থুলকোণী",
+      "C": "সমদ্বিবাহু",
+      "D": "সমবাহু"
+    },
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 160,
+    "question": "x² + y² = 185, x – y = 3 এর একটি সমাধান হল:",
+    "options": {
+      "A": "(7, 4)",
+      "B": "(9, 6)",
+      "C": "(10, 7)",
+      "D": "(11, 8)"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 161,
+    "question": "x – 1/x = 1, হলে, x³ – 1/x³ এর মান কত?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 162,
+    "question": "১ + ৫ + ৯ +……………. + ৮১ =?",
+    "options": {
+      "A": "৯৬১",
+      "B": "৮৬১",
+      "C": "৭৬১",
+      "D": "৬৬১"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 163,
+    "question": "যদি ৫ + ৩ = ২৮, ৯ + ১ = ৮১০, ২ + ১ = ১৩ হয় তবে, ৫ + ৪ = ?",
+    "options": {
+      "A": "১৮",
+      "B": "১৯",
+      "C": "২০",
+      "D": "২১"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 164,
+    "question": "ইংরেজি বর্ণমালার ধারাবাহিকভাবে ১৮তম অক্ষরের বামদিকে ১০ম অক্ষর কোনটি?",
+    "options": {
+      "A": "H",
+      "B": "S",
+      "C": "F",
+      "D": "J"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 165,
+    "question": "৩, ৭, ৪, ১৪, ৫, ২১, ৬ ধারার অষ্টম সংখ্যাটি কত হবে?",
+    "options": {
+      "A": "৬",
+      "B": "৭",
+      "C": "২৮",
+      "D": "২৯"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 166,
+    "question": "দুটি সমান্তরাল রেখা কয়টি বিন্দুতে ছেদ করে?",
+    "options": {
+      "A": "৪",
+      "B": "২",
+      "C": "৮",
+      "D": "ছেদ করে না"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 167,
+    "question": "আয়নায় প্রতিফলিত হলে নিচের কোন শব্দটির কোন পরিবর্তন হবে না?",
+    "options": {
+      "A": "OPT",
+      "B": "NOON",
+      "C": "SOS",
+      "D": "OTTO"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 168,
+    "question": "সঠিক বানান কোনটি?",
+    "options": {
+      "A": "কূসংস্কার",
+      "B": "কুসংকার",
+      "C": "কুসংষ্কার",
+      "D": "কূশংষ্কার"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 169,
+    "question": "আয়না থেকে ২ ফুট দূরত্বে দাঁড়িয়ে, আয়নাতে আপনার প্রতিবিম্ব কতদূর দেখা যাবে?",
+    "options": {
+      "A": "৫ ফুট",
+      "B": "৪ ফুট",
+      "C": "৩ ফুট",
+      "D": "২ ফুট"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 170,
+    "question": "২-এর কত শতাংশ ৮ হবে?",
+    "options": {
+      "A": "২০০",
+      "B": "৪০০",
+      "C": "৩৪৫",
+      "D": "৩০০"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 171,
+    "question": "প্রশ্নবোধক স্থানে (?) কোনটি বসবে? ৩, ১০, ৯, ৮, ২৭, ৬, ৮১, ৪, ২৪৩ (?)",
+    "options": {
+      "A": "২",
+      "B": "৪",
+      "C": "১৫",
+      "D": "১২"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 172,
+    "question": "বাংলাদেশের সাথে ভারতের সীমানা কত?",
+    "options": {
+      "A": "৫১৩৮ কি.মি",
+      "B": "৪৩৭১ কি.মি",
+      "C": "৪১৫৬ কি.মি",
+      "D": "৩৯৭৮ কি.মি"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 173,
+    "question": "মেয়র মোহাম্মদ হানিফ ফ্লাইওভারের দৈর্ঘ্য কত?",
+    "options": {
+      "A": "১১.২ কি.মি",
+      "B": "১২.২ কি.মি",
+      "C": "১১.৮ কি.মি",
+      "D": "১২.৮ কি.মি"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 174,
+    "question": "সুন্দরবনে বাঘ গণনায় ব্যবহৃত হয়",
+    "options": {
+      "A": "পাগ-মার্ক",
+      "B": "ফুটমার্ক",
+      "C": "GIS",
+      "D": "কোয়ার্ডবেট"
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 175,
+    "question": "২০০৪ সালের ভয়ংকর সুনামি ঢেউয়ের গতি ছিল ঘণ্টায়",
+    "options": {
+      "A": "১০০–২০০ কি.মি",
+      "B": "৩০০–৪০০ কি.মি",
+      "C": "৭০০–৮০০ কি.মি",
+      "D": "৯০০–১০০০ কি.মি"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 176,
+    "question": "ফিশারিজ ট্রেনিং ইনস্টিটিউট কোথায় অবস্থিত?",
+    "options": {
+      "A": "ঢাকায়",
+      "B": "খুলনায়",
+      "C": "নারায়ণগঞ্জে",
+      "D": "চাঁদপুরে"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 177,
+    "question": "সমুদ্রপৃষ্ঠ ৪৫cm বৃদ্ধি পেলে ২০৫০ সাল নাগাদ বাংলাদেশে climate refugee হবে?",
+    "options": {
+      "A": "৩ কোটি",
+      "B": "৩.৫ কোটি",
+      "C": "৪ কোটি",
+      "D": "৪.৫ কোটি"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 178,
+    "question": "বায়ুমণ্ডলের মোট শক্তির কত শতাংশ সূর্য হতে আসে?",
+    "options": {
+      "A": "৯০ শতাংশ",
+      "B": "৯৪ শতাংশ",
+      "C": "৯৮ শতাংশ",
+      "D": "৯৯.৯৭ শতাংশ"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 179,
+    "question": "বিশ্বব্যাংক অনুযায়ী ভবিষ্যতের জলবায়ু পরিবর্তনের ক্ষতিকর প্রভাব মোকাবেলায় বিশ্ব সাহায্যের কত শতাংশ বাংলাদেশকে প্রদান করবে?",
+    "options": {
+      "A": "৩০%",
+      "B": "৪০%",
+      "C": "৫০%",
+      "D": ""
+    },
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 180,
+    "question": "দুর্যোগ ব্যবস্থাপনা নীতিমালা ২০১৫ কবে জারি হয়েছে?",
+    "options": {
+      "A": "১ জানুয়ারি",
+      "B": "১১ জানুয়ারি",
+      "C": "১৯ জানুয়ারি",
+      "D": "২১ মার্চ"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 181,
+    "question": "সুনামির কারণ হলো",
+    "options": {
+      "A": "ঘূর্ণিঝড়",
+      "B": "চন্দ্র ও সূর্যের আকর্ষণ",
+      "C": "সমুদ্রের তলদেশে ভূমিকম্পন",
+      "D": "আগ্নেয়গিরির আগ্ন্যুৎপাত"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 182,
+    "question": "নৈতিকভাবে বলা হয় মানবজীবনের",
+    "options": {
+      "A": "নৈতিক শক্তি",
+      "B": "নৈতিক বিধি",
+      "C": "নৈতিক আদর্শ",
+      "D": "সবগুলোই"
+    },
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 183,
+    "question": "‘Power : A New Social Analysis’ গ্রন্থটি কার লেখা?",
+    "options": {
+      "A": "ম্যাকিয়াভেলি",
+      "B": "হবস",
+      "C": "লক",
+      "D": "রাসেল"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 184,
+    "question": "‘সুবর্ণ মধ্যক’ হলো",
+    "options": {
+      "A": "গাণিতিক মধ্যমান",
+      "B": "দুটি চরমপন্থার মধ্যবর্তী পন্থা",
+      "C": "সম্ভাব্য সব ধরনের কাজের মধ্যমান",
+      "D": "একটি দার্শনিক সম্প্রদায়ের নাম"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 185,
+    "question": "নৈতিক আচরণবিধি (Code of ethics) বলতে বুঝায়",
+    "options": {
+      "A": "মৌলিক মূল্যবোধ সংক্রান্ত সাধারন বচন যা সংগঠনের পেশাগত ভূমিকাকে সংজ্ঞায়িত করে",
+      "B": "বাস্তবতার নিরিখে নির্দিষ্ট আচরণের মানদণ্ড নির্ধারণ সংক্রান্ত আচরণবিধি",
+      "C": "দৈনন্দিন কার্যকলাপ ত্বরান্বিত করণে প্রণীত নৈতিক নিয়ম, মানদণ্ড বা আচরণবিধি",
+      "D": "উপরের তিনটিই সঠিক"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 186,
+    "question": "ব্যক্তিগত মূল্যবোধ লালন করে",
+    "options": {
+      "A": "সামাজিক মূল্যবোধকে",
+      "B": "গণতান্ত্রিক মূল্যবোধকে",
+      "C": "ব্যক্তিগত মূল্যবোধকে",
+      "D": "স্বাধীনতার মূল্যবোধকে"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 187,
+    "question": "মূল্যবোধ শিক্ষার অন্যতম লক্ষ্য হচ্ছে",
+    "options": {
+      "A": "দুর্নীতি রোধ করা",
+      "B": "সামাজিক অবক্ষয় রোধ করা",
+      "C": "রাজনৈতিক অবক্ষয় রোধ করা",
+      "D": "সাংস্কৃতিক অবরোধ রক্ষণ করা"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 188,
+    "question": "সুশাসন হচ্ছে এমন এক শাসন ব্যবস্থা যা শাসক ও শাসিতের মধ্যে",
+    "options": {
+      "A": "সুসম্পর্ক গড়ে তোলে",
+      "B": "আস্থার সর্ম্পক গড়ে তোলে",
+      "C": "শান্তির সম্পর্ক গড়ে তোলে",
+      "D": "কোনোটিই নয়"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 189,
+    "question": "সুশাসনের পূর্বশর্ত হচ্ছে",
+    "options": {
+      "A": "অর্থনৈতিক উন্নয়ন",
+      "B": "অর্থনৈতিক ও সামাজিক উন্নয়ন",
+      "C": "সামাজিক উন্নয়ন",
+      "D": "সবগুলোই"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 190,
+    "question": "একজন জনপ্রশাসকের মৌলিক মূল্যবোধ হলো",
+    "options": {
+      "A": "স্বাধীনতা",
+      "B": "ক্ষমতা",
+      "C": "কর্মদক্ষতা",
+      "D": "জনকল্যাণ"
+    },
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 191,
+    "question": "সুশাসনের পথে অন্তরায়",
+    "options": {
+      "A": "আইনের শাসন",
+      "B": "জবাবদিহিতা",
+      "C": "স্বজনপ্রীতি",
+      "D": "ন্যায়পরায়ণতা"
+    },
+    "answer": "C",
+    "explanation": ""
+  }
+]
