@@ -1,0 +1,47 @@
+{
+  "subjects": [
+    {
+      "id": "english",
+      "name": "English",
+      "icon": "Book",
+      "topics": [
+        {
+          "id": "grammar",
+          "name": "Grammar",
+          "chapters": [
+            {
+              "id": "class7_gap_filling",
+              "name": "Gap Filling With Clues",
+              "file": "/class7/english/gap_filling_with_clues.json"
+            },
+            {
+              "id": "class7_changing_sentences",
+              "name": "Changing Sentences",
+              "file": "/class7/english/changing_sentences.json"
+            },
+            {
+              "id": "class7_right_forms_of_verbs",
+              "name": "Right Forms of Verbs",
+              "file": "/class7/english/right_forms_of_verbs.json"
+            },
+            {
+              "id": "class7_sentence_narration",
+              "name": "Sentence Narration",
+              "file": "/class7/english/sentence_narration.json"
+            },
+            {
+              "id": "class7_substitution_table",
+              "name": "Substitution Table",
+              "file": "/class7/english/substitution_table.json"
+            },
+            {
+              "id": "class7_punctuation",
+              "name": "Punctuation & Capitalization",
+              "file": "/class7/english/punctuation.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

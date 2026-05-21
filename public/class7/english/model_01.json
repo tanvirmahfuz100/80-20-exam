@@ -1,0 +1,994 @@
+{
+  "_type": "model_test",
+  "modelId": "m01",
+  "title": "Model Test 01 - English 1st Paper",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Passage & Comprehension",
+      "type": "passage_mcq",
+      "content": {
+        "passage": "The teacher asks the class, 'Have you noticed that the words in bold are written one after another? OK. Do you find any rule or system or order in arranging these words?' 'Yes, teacher.\n\nThe page starts with a single letter B and gradually words come below this letter,' Rupa said. 'Thank you, Rupa. You've got it!\n\nLet me write B and some of the words from this page on the board. Then I'll show you how they are written one after another like in the alphabet. Look at the board and ask me if it is clear or not.\n\nOK?'",
+        "translation_bn": "শিক্ষিকা শ্রেণিতে জিজ্ঞাসা করেন, 'তোমরা কি লক্ষ্য করেছো মোটা অক্ষরের শব্দগুলো একের পর এক লেখা হয়েছে? আচ্ছা, এ শব্দগুলোর বিন্যাসে তোমরা কি কোনো নিয়ম বা পদ্ধতি অথবা ক্রম খুঁজে পাও?' 'হ্যা, শিক্ষিকা। পাতাটি শুরু হয়েছে একক বর্ণ B দিয়ে এবং ক্রমান্বয়ে শব্দগুলো এই বর্ণটির নিচে এসেছে,' রূপা বলল। 'রূপা, তোমাকে ধন্যবাদ। তোমরা এটি বুঝতে পেরেছো! আমি বোর্ডে B ও এ পাতার কতগুলো শব্দ লিখে নিই। তারপর আমি তোমাদের দেখাবো কীভাবে তারা বর্ণক্রম অনুসারে একের পর অন্যটি বসেছে। বোর্ডের দিকে তাকাও এবং বুঝতে না পারলে আমাকে জিজ্ঞাসা করো। ঠিক আছে?'",
+        "vocabulary": [
+          {
+            "word": "arrange",
+            "pos": "v",
+            "meaning_en": "to put in a required order",
+            "meaning_bn": "সাজানো",
+            "synonym": "organize",
+            "antonym": "disarrange"
+          },
+          {
+            "word": "below",
+            "pos": "prep",
+            "meaning_en": "at a lower level",
+            "meaning_bn": "নিচে",
+            "synonym": "under",
+            "antonym": "above"
+          },
+          {
+            "word": "bold",
+            "pos": "adj",
+            "meaning_en": "dark, heavy strokes",
+            "meaning_bn": "গাঢ় বা মোটা অক্ষর",
+            "synonym": "boldfaced",
+            "antonym": "thin"
+          },
+          {
+            "word": "notice",
+            "pos": "v",
+            "meaning_en": "to become aware of",
+            "meaning_bn": "লক্ষ করা",
+            "synonym": "see, observe",
+            "antonym": "ignore"
+          },
+          {
+            "word": "order",
+            "pos": "n",
+            "meaning_en": "arrangement",
+            "meaning_bn": "ক্রম",
+            "synonym": "sequence",
+            "antonym": "disorder"
+          },
+          {
+            "word": "show",
+            "pos": "v",
+            "meaning_en": "to let somebody see something",
+            "meaning_bn": "দেখানো",
+            "synonym": "display",
+            "antonym": "conceal"
+          },
+          {
+            "word": "single",
+            "pos": "adj",
+            "meaning_en": "existing by itself",
+            "meaning_bn": "একক/একমাত্র",
+            "synonym": "singular",
+            "antonym": "many"
+          },
+          {
+            "word": "start",
+            "pos": "v",
+            "meaning_en": "to begin",
+            "meaning_bn": "শুরু করা",
+            "synonym": "commence",
+            "antonym": "end"
+          },
+          {
+            "word": "system",
+            "pos": "n",
+            "meaning_en": "a method or set of methods",
+            "meaning_bn": "পদ্ধতি",
+            "synonym": "process, method",
+            "antonym": ""
+          }
+        ],
+        "questions": [
+          {
+            "id": "1i",
+            "question": "\"You have got it!\" is an --- sentence.",
+            "options": [
+              "affirmative sentence",
+              "exclamatory sentence",
+              "imperative sentence",
+              "optative sentence"
+            ],
+            "correct": 1,
+            "explanation_bn": "এটি একটি বিস্ময়সূচক বাক্য কারণ বক্তা রূপার বোঝার ক্ষমতায় বিস্ময় ও প্রশংসা প্রকাশ করছেন।",
+            "explanation_en": "It is an exclamatory sentence because the speaker is expressing surprise and appreciation for Rupa's understanding."
+          },
+          {
+            "id": "1ii",
+            "question": "The teacher asked the class... Here \"class\" refers to ---",
+            "options": [
+              "group",
+              "category",
+              "kind",
+              "students"
+            ],
+            "correct": 3,
+            "explanation_bn": "এখানে 'class' বলতে শিক্ষার্থীদের বোঝানো হয়েছে।",
+            "explanation_en": "Here 'class' refers to the students."
+          },
+          {
+            "id": "1iii",
+            "question": "The word 'order' mentioned in second line means ---",
+            "options": [
+              "command",
+              "instruction",
+              "direction",
+              "sequence"
+            ],
+            "correct": 3,
+            "explanation_bn": "এখানে 'order' অর্থ ক্রম বা sequence।",
+            "explanation_en": "Here 'order' means arrangement or sequence."
+          },
+          {
+            "id": "1iv",
+            "question": "In a dictionary --- are written one after another like in the alphabet.",
+            "options": [
+              "letters",
+              "alphabets",
+              "words",
+              "sentences"
+            ],
+            "correct": 1,
+            "explanation_bn": "অভিধানে শব্দগুলো বর্ণানুক্রমে সাজানো থাকে।",
+            "explanation_en": "In a dictionary, words are arranged alphabetically."
+          },
+          {
+            "id": "1v",
+            "question": "Who responded to the teacher?",
+            "options": [
+              "The class",
+              "No one",
+              "Ripa",
+              "Rupa"
+            ],
+            "correct": 3,
+            "explanation_bn": "রূপা শিক্ষিকার প্রশ্নের উত্তর দিয়েছিল।",
+            "explanation_en": "Rupa responded to the teacher's question."
+          },
+          {
+            "id": "1vi",
+            "question": "Why does the teacher thank Rupa? It is because Rupa ---",
+            "options": [
+              "is talking",
+              "has understood the matter",
+              "has a dictionary",
+              "is quiet in the class"
+            ],
+            "correct": 1,
+            "explanation_bn": "রূপা বিষয়টি বুঝতে পেরেছে বলে শিক্ষিকা তাকে ধন্যবাদ জানান।",
+            "explanation_en": "The teacher thanks Rupa because she has understood the matter."
+          },
+          {
+            "id": "1vii",
+            "question": "The teacher and the students are discussing the ---",
+            "options": [
+              "table of content",
+              "dictionary",
+              "word formation",
+              "alphabet"
+            ],
+            "correct": 1,
+            "explanation_bn": "শিক্ষক ও শিক্ষার্থীরা অভিধান নিয়ে আলোচনা করছে।",
+            "explanation_en": "The teacher and students are discussing the dictionary."
+          },
+          {
+            "id": "1viii",
+            "question": "\"Do you find any rule or system or order in arranging these words?\" What does \"rule\" mean here?",
+            "options": [
+              "method",
+              "ritual",
+              "course",
+              "style"
+            ],
+            "correct": 0,
+            "explanation_bn": "এখানে 'rule' অর্থ পদ্ধতি বা method।",
+            "explanation_en": "Here 'rule' means method or system."
+          },
+          {
+            "id": "1ix",
+            "question": "The page starts with a single letter B. What does \"start\" mean?",
+            "options": [
+              "set out",
+              "expose",
+              "run",
+              "begin"
+            ],
+            "correct": 3,
+            "explanation_bn": "এখানে 'start' অর্থ begin বা শুরু করা।",
+            "explanation_en": "Here 'start' means to begin."
+          },
+          {
+            "id": "1x",
+            "question": "Words in the dictionary are arranged ---",
+            "options": [
+              "without any system",
+              "from larger to smaller",
+              "from smaller to larger",
+              "alphabetically"
+            ],
+            "correct": 3,
+            "explanation_bn": "অভিধানের শব্দগুলো বর্ণানুক্রমে সাজানো থাকে।",
+            "explanation_en": "Dictionary words are arranged alphabetically."
+          },
+          {
+            "id": "1xi",
+            "question": "The word 'OK' in the passage has been used to ---",
+            "options": [
+              "express agreement or acceptance",
+              "say sorry",
+              "greet someone",
+              "thank the audience"
+            ],
+            "correct": 0,
+            "explanation_bn": "এখানে 'OK' সম্মতি বা স্বীকৃতি প্রকাশ করতে ব্যবহৃত হয়েছে।",
+            "explanation_en": "Here 'OK' is used to express agreement or acceptance."
+          },
+          {
+            "id": "1xii",
+            "question": "\"...gradually words come below this letter,\" Here \"letter\" means ---",
+            "options": [
+              "any of the symbols of an alphabet",
+              "a written, typed, or printed communication",
+              "a legal or formal document",
+              "scholarly knowledge"
+            ],
+            "correct": 0,
+            "explanation_bn": "এখানে 'letter' অর্থ বর্ণমালার প্রতীক।",
+            "explanation_en": "Here 'letter' means any of the symbols of an alphabet."
+          },
+          {
+            "id": "1xiii",
+            "question": "\"Have you noticed that the words in bold are written one after another?\" Which of the following words has a similar meaning of the underlined word \"bold\"?",
+            "options": [
+              "brave",
+              "robust",
+              "thick",
+              "light"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Bold' এখানে মোটা বা গাঢ় অর্থে ব্যবহৃত হয়েছে, 'thick' এর সমার্থক।",
+            "explanation_en": "Here 'bold' means thick or heavy strokes."
+          },
+          {
+            "id": "1xiv",
+            "question": "\"You've got it!\" Here the teacher means to say that Rupa has ---",
+            "options": [
+              "read the dictionary",
+              "understood the point",
+              "got a dictionary",
+              "borrowed a dictionary"
+            ],
+            "correct": 1,
+            "explanation_bn": "শিক্ষিকা বোঝাতে চেয়েছেন যে রূপা বিষয়টি বুঝতে পেরেছে।",
+            "explanation_en": "The teacher means Rupa has understood the point."
+          },
+          {
+            "id": "1xv",
+            "question": "\"Look at the board and ask me if it is clear or not.\" The meaning of the word \"clear\" is ---",
+            "options": [
+              "transparent",
+              "sensible",
+              "understandable",
+              "authentic"
+            ],
+            "correct": 2,
+            "explanation_bn": "এখানে 'clear' অর্থ বোধগম্য বা understandable।",
+            "explanation_en": "Here 'clear' means understandable."
+          },
+          {
+            "id": "2a",
+            "question": "Why did the teacher thank Rupa?",
+            "options": [
+              "Because Rupa was quiet in class",
+              "Because Rupa understood how words are arranged in a dictionary",
+              "Because Rupa brought a dictionary",
+              "Because Rupa answered all questions correctly"
+            ],
+            "correct": 1,
+            "explanation_bn": "শিক্ষিকা রূপাকে ধন্যবাদ জানান কারণ সে বুঝতে পেরেছিল কীভাবে অভিধানে শব্দগুলি সাজানো হয়।",
+            "explanation_en": "The teacher thanked Rupa because she understood how words are arranged in a dictionary."
+          },
+          {
+            "id": "2b",
+            "question": "What did the teacher want to show to the class?",
+            "options": [
+              "How to read a dictionary",
+              "How words are written one after another like in the alphabet",
+              "How to pronounce words correctly",
+              "How to write in bold letters"
+            ],
+            "correct": 1,
+            "explanation_bn": "শিক্ষক দেখাতে চেয়েছিলেন কীভাবে বর্ণানুক্রমে শব্দগুলি একের পর এক সাজানো হয়।",
+            "explanation_en": "The teacher wanted to show how words are written one after another like in the alphabet."
+          },
+          {
+            "id": "2c",
+            "question": "What did Rupa notice?",
+            "options": [
+              "The page had many pictures",
+              "The page started with letter B and words came below it",
+              "The teacher was writing on the board",
+              "The class was noisy"
+            ],
+            "correct": 1,
+            "explanation_bn": "রূপা লক্ষ্য করেছিল যে পৃষ্ঠাটি B অক্ষর দিয়ে শুরু হয়েছে এবং ধীরে ধীরে শব্দগুলো এর নিচে এসেছে।",
+            "explanation_en": "Rupa noticed that the page started with a single letter B and gradually words came below this letter."
+          },
+          {
+            "id": "2d",
+            "question": "Who could understand the system?",
+            "options": [
+              "The whole class",
+              "Rupa",
+              "Ananda",
+              "The teacher"
+            ],
+            "correct": 1,
+            "explanation_bn": "রূপা সিস্টেমটি বুঝতে পেরেছিল।",
+            "explanation_en": "Rupa could understand the system."
+          },
+          {
+            "id": "2e",
+            "question": "What is the teacher discussing?",
+            "options": [
+              "The school timetable",
+              "The arrangement of words in a dictionary",
+              "The exam schedule",
+              "The classroom rules"
+            ],
+            "correct": 1,
+            "explanation_bn": "শিক্ষক অভিধানে শব্দের বিন্যাস নিয়ে আলোচনা করছেন।",
+            "explanation_en": "The teacher is discussing the arrangement of words in a dictionary."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2",
+      "name": "Gap Fill & Vocabulary",
+      "type": "gap_fill_vocab",
+      "content": {
+        "gapFill": {
+          "passage": "Mrs. Barua is a teacher. She is very (a) ______.\n\nSo, students (b) ______ her very much. Today she takes a class on dictionary. It is interesting.\n\nTherefore, she makes students work (c) ______. She makes students (d) ______ in pairs and groups. She makes her lessons (e) ______.\n\nSo, students never feel bored in her class.",
+          "dialogPassage": "Rupa: So... Ananda, we had a helpful class on dictionary, didn't we? Ananda: Oh, yes, very helpful. This is why I like Mrs. Barua's class. She is one of my favourite teachers. Rupa: She is! I also like her very much. And she is very organised. She knows how to make us work in groups and pairs. So we are never bored. Ananda: By the way, I've another problem. Do you understand the 'Table of Contents' at the beginning of a book? Rupa: Hmmm...yes, I've learnt it from my elder sister. I can try to explain it to you if you like. Ananda: So nice of you. I really need it.",
+          "boxWords": [
+            "organized",
+            "like",
+            "together",
+            "work",
+            "interesting",
+            "boring",
+            "alone",
+            "dislike",
+            "disorganized",
+            "play"
+          ],
+          "blanks": [
+            {
+              "blankId": "a",
+              "correct": "organized",
+              "options": [
+                {
+                  "text": "organized",
+                  "isCorrect": true,
+                  "explanationBn": "'Organized' মানে সুসংগঠিত। মিসেস বড়ুয়া একজন সুসংগঠিত শিক্ষিকা।",
+                  "explanationEn": "'Organized' means arranged in a systematic way. Mrs. Barua is a well-organized teacher."
+                },
+                {
+                  "text": "disorganized",
+                  "isCorrect": false,
+                  "explanationBn": "এটি 'organized'-এর বিপরীত।",
+                  "explanationEn": "This is the opposite of 'organized'."
+                },
+                {
+                  "text": "boring",
+                  "isCorrect": false,
+                  "explanationBn": "এটি 'organized'-এর সমার্থক নয়।",
+                  "explanationEn": "This is not a synonym of 'organized'."
+                }
+              ]
+            },
+            {
+              "blankId": "b",
+              "correct": "like",
+              "options": [
+                {
+                  "text": "like",
+                  "isCorrect": true,
+                  "explanationBn": "শিক্ষার্থীরা মিসেস বড়ুয়াকে পছন্দ করে।",
+                  "explanationEn": "Students like Mrs. Barua very much."
+                },
+                {
+                  "text": "dislike",
+                  "isCorrect": false,
+                  "explanationBn": "এটি 'like'-এর বিপরীত।",
+                  "explanationEn": "This is the opposite of 'like'."
+                },
+                {
+                  "text": "ignore",
+                  "isCorrect": false,
+                  "explanationBn": "শিক্ষার্থীরা তাকে উপেক্ষা করে না।",
+                  "explanationEn": "Students do not ignore her."
+                }
+              ]
+            },
+            {
+              "blankId": "c",
+              "correct": "together",
+              "options": [
+                {
+                  "text": "together",
+                  "isCorrect": true,
+                  "explanationBn": "তিনি শিক্ষার্থীদের দলগতভাবে কাজ করান।",
+                  "explanationEn": "She makes students work together in groups."
+                },
+                {
+                  "text": "alone",
+                  "isCorrect": false,
+                  "explanationBn": "এটি 'together'-এর বিপরীত।",
+                  "explanationEn": "This is the opposite of 'together'."
+                },
+                {
+                  "text": "slowly",
+                  "isCorrect": false,
+                  "explanationBn": "এটি এখানে প্রাসঙ্গিক নয়।",
+                  "explanationEn": "This is not relevant here."
+                }
+              ]
+            },
+            {
+              "blankId": "d",
+              "correct": "work",
+              "options": [
+                {
+                  "text": "work",
+                  "isCorrect": true,
+                  "explanationBn": "তিনি শিক্ষার্থীদের জোড়ায় ও দলগতভাবে কাজ করান।",
+                  "explanationEn": "She makes students work in pairs and groups."
+                },
+                {
+                  "text": "play",
+                  "isCorrect": false,
+                  "explanationBn": "এটি 'work'-এর বিপরীত।",
+                  "explanationEn": "This is the opposite of 'work' in this context."
+                },
+                {
+                  "text": "sleep",
+                  "isCorrect": false,
+                  "explanationBn": "শ্রেণিকক্ষে শিক্ষার্থীরা ঘুমায় না।",
+                  "explanationEn": "Students do not sleep in the classroom."
+                }
+              ]
+            },
+            {
+              "blankId": "e",
+              "correct": "interesting",
+              "options": [
+                {
+                  "text": "interesting",
+                  "isCorrect": true,
+                  "explanationBn": "তিনি তার পাঠ আকর্ষণীয় করে তোলেন।",
+                  "explanationEn": "She makes her lessons interesting."
+                },
+                {
+                  "text": "boring",
+                  "isCorrect": false,
+                  "explanationBn": "এটি 'interesting'-এর বিপরীত।",
+                  "explanationEn": "This is the opposite of 'interesting'."
+                },
+                {
+                  "text": "difficult",
+                  "isCorrect": false,
+                  "explanationBn": "পাঠ আকর্ষণীয়, কঠিন নয়।",
+                  "explanationEn": "The lessons are interesting, not difficult."
+                }
+              ]
+            }
+          ]
+        },
+        "vocabQuestions": [
+          {
+            "id": "4a",
+            "question": "What is the synonym of \"need\"?",
+            "options": [
+              "require",
+              "reject",
+              "ignore",
+              "avoid"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Need'-এর সমার্থক শব্দ 'require' (প্রয়োজন হওয়া)।",
+            "explanation_en": "The synonym of 'need' is 'require'."
+          },
+          {
+            "id": "4b",
+            "question": "What is the antonym of \"bored\"?",
+            "options": [
+              "tired",
+              "interested",
+              "sleepy",
+              "angry"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Bored'-এর বিপরীত শব্দ 'interested' (আগ্রহী)।",
+            "explanation_en": "The antonym of 'bored' is 'interested'."
+          },
+          {
+            "id": "4c",
+            "question": "What is the synonym of \"explain\"?",
+            "options": [
+              "hide",
+              "confuse",
+              "describe",
+              "ignore"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Explain'-এর সমার্থক শব্দ 'describe' (ব্যাখ্যা করা)।",
+            "explanation_en": "The synonym of 'explain' is 'describe'."
+          },
+          {
+            "id": "4d",
+            "question": "What is the synonym of \"dictionary\"?",
+            "options": [
+              "encyclopedia",
+              "lexicon",
+              "thesaurus",
+              "novel"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Dictionary'-এর সমার্থক শব্দ 'lexicon' (অভিধান)।",
+            "explanation_en": "The synonym of 'dictionary' is 'lexicon'."
+          },
+          {
+            "id": "4e",
+            "question": "What is the antonym of \"elder\"?",
+            "options": [
+              "older",
+              "senior",
+              "younger",
+              "wiser"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Elder'-এর বিপরীত শব্দ 'younger' (কনিষ্ঠ)।",
+            "explanation_en": "The antonym of 'elder' is 'younger'."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch3",
+      "name": "Biographical Passage & Summary",
+      "type": "passage_summary",
+      "content": {
+        "passage": "Jibanananda Das was born in a small town of Barishal in 1899. He took his Master's Degree in English at the age of 22. The next year he started his teaching career as a professor of English at City College, Calcutta.\n\nHe lost the job in 1928 on the charge of publishing a poem in the Parichay Patrika. But after two years, he joined Ramjash College, Delhi but returned to his place of birth the next year. He got an appointment at Brajamohan College, Barishal in 1935.\n\nIn 1947 when the partition was made, he left Bangladesh for India. In West Bengal he started editing the Swaraj Patrika. In 1951 he joined Kharagpur College.\n\nHe was awarded Rabindra Purashkar in 1953. He met with a tram accident on the 14th October, 1954. He was hospitalized.\n\nAfter a few days, he passed away on October 22, 1954.",
+        "translation_bn": "জীবনানন্দ দাশ ১৮৯৯ সালে বরিশালের ছোট একটি শহরে জন্মগ্রহণ করেন। তিনি ২২ বছর বয়সে ইংরেজি বিষয়ে স্নাতকোত্তর ডিগ্রি লাভ করেন। পরের বছর তিনি কলকাতা সিটি কলেজে ইংরেজি বিষয়ের অধ্যাপক হিসেবে শিক্ষকতা জীবন শুরু করেন। ১৯২৮ সালে পরিচয় পত্রিকায় একটি কবিতা ছাপানোর অভিযোগে তিনি চাকরিটি হারান। দুই বছর পর তিনি দিল্লীর রামযশ কলেজে যোগদান করেন, কিন্তু পরের বছর তিনি তাঁর জন্মস্থানে ফিরে যান। ১৯৩৫ সালে তিনি বরিশালের ব্রজমোহন কলেজে নিয়োগ পান। ১৯৪৭ সালে যখন বিভাজন হয়, তখন তিনি ভারতের উদ্দেশ্যে বাংলাদেশ ত্যাগ করেন। পশ্চিমবঙ্গে তিনি স্বরাজ পত্রিকার সম্পাদনা শুরু করেন। ১৯৫১ সালে তিনি খরগপুর কলেজে যোগদান করেন। ১৯৫৩ সালে তিনি রবীন্দ্র পুরস্কারে ভূষিত হন। ১৯৫৪ সালের ১৪ই অক্টোবর তিনি ট্রাম দুর্ঘটনার সম্মুখীন হন। তাঁকে হাসপাতালে ভর্তি করা হয়। এর কিছু দিন পর ১৯৫৪ সালের ২২শে অক্টোবর তিনি পরলোক গমন করেন।",
+        "vocabulary": [
+          {
+            "word": "partition",
+            "pos": "n",
+            "meaning_bn": "বিভাজন",
+            "meaning_en": "division",
+            "synonym": "division",
+            "antonym": "unification"
+          },
+          {
+            "word": "appointment",
+            "pos": "n",
+            "meaning_bn": "নিযুক্তি",
+            "meaning_en": "job, employment",
+            "synonym": "job",
+            "antonym": "dismissal"
+          },
+          {
+            "word": "publish",
+            "pos": "v",
+            "meaning_bn": "ছাপানো",
+            "meaning_en": "issue, produce",
+            "synonym": "issue",
+            "antonym": "conceal"
+          },
+          {
+            "word": "return",
+            "pos": "v",
+            "meaning_bn": "ফিরে আসা",
+            "meaning_en": "come back",
+            "synonym": "come back",
+            "antonym": "depart"
+          },
+          {
+            "word": "accident",
+            "pos": "n",
+            "meaning_bn": "দুর্ঘটনা",
+            "meaning_en": "mishap",
+            "synonym": "mishap",
+            "antonym": "intent"
+          }
+        ],
+        "mcqQuestions": [
+          {
+            "id": "5i",
+            "question": "Where was Jibanananda Das born?",
+            "options": [
+              "In Dhaka",
+              "In Barishal",
+              "In Kolkata",
+              "In Delhi"
+            ],
+            "correct": 1,
+            "explanation_bn": "জীবনানন্দ দাশ বরিশালে জন্মগ্রহণ করেন।",
+            "explanation_en": "Jibanananda Das was born in Barishal."
+          },
+          {
+            "id": "5ii",
+            "question": "In which year did he take his Master's Degree in English?",
+            "options": [
+              "1922",
+              "1921",
+              "1928",
+              "1935"
+            ],
+            "correct": 1,
+            "explanation_bn": "তিনি ২২ বছর বয়সে (১৯২১ সালে) ইংরেজিতে এমএ ডিগ্রি নেন।",
+            "explanation_en": "He took his Master's Degree in English at the age of 22 (in 1921)."
+          },
+          {
+            "id": "5iii",
+            "question": "Where did Jibanananda Das start his teaching career?",
+            "options": [
+              "Brajamohan College, Barishal",
+              "City College, Calcutta",
+              "Ramjash College, Delhi",
+              "Kharagpur College"
+            ],
+            "correct": 1,
+            "explanation_bn": "তিনি কলকাতা সিটি কলেজে অধ্যাপক হিসেবে তার শিক্ষকতা জীবন শুরু করেন।",
+            "explanation_en": "He started his teaching career at City College, Calcutta."
+          },
+          {
+            "id": "5iv",
+            "question": "Where did Jibanananda Das migrate in 1947?",
+            "options": [
+              "Bangladesh",
+              "Pakistan",
+              "India",
+              "Nepal"
+            ],
+            "correct": 2,
+            "explanation_bn": "১৯৪৭ সালে দেশভাগের সময় তিনি ভারতে চলে যান।",
+            "explanation_en": "He migrated to India after the partition in 1947."
+          },
+          {
+            "id": "5v",
+            "question": "Which award did Jibanananda Das receive in 1953?",
+            "options": [
+              "Nobel Prize",
+              "Ekushey Padak",
+              "Rabindra Purashkar",
+              "Bangla Academy Award"
+            ],
+            "correct": 2,
+            "explanation_bn": "তিনি ১৯৫৩ সালে রবীন্দ্র পুরস্কারে ভূষিত হন।",
+            "explanation_en": "He was awarded the Rabindra Purashkar in 1953."
+          }
+        ],
+        "trueFalseQuestions": [
+          {
+            "id": "6a",
+            "question": "Jibanananda Das got an appointment at Dhaka College, Dhaka in 1935.",
+            "options": [
+              "True",
+              "False. He got an appointment at Brajamohan College, Barishal in 1935.",
+              "False. He got an appointment at City College in 1935.",
+              "False. He never worked at any college."
+            ],
+            "correct": 1,
+            "explanation_bn": "তিনি ১৯৩৫ সালে বরিশালের ব্রজমোহন কলেজে যোগদান করেন, ঢাকা কলেজে নয়।",
+            "explanation_en": "He joined Brajamohan College, Barishal in 1935, not Dhaka College."
+          },
+          {
+            "id": "6b",
+            "question": "Jibanananda left Bangladesh before Partition in 1947.",
+            "options": [
+              "True",
+              "False. He left Bangladesh for India when the partition was made in 1947.",
+              "False. He never left Bangladesh.",
+              "False. He left after 1947."
+            ],
+            "correct": 1,
+            "explanation_bn": "তিনি ১৯৪৭ সালে দেশভাগের সময় ভারতের উদ্দেশ্যে বাংলাদেশ ত্যাগ করেন, তার আগে নয়।",
+            "explanation_en": "He left Bangladesh for India at the time of partition in 1947, not before."
+          },
+          {
+            "id": "6c",
+            "question": "He started editing the Swaraj Patrika in New Delhi.",
+            "options": [
+              "True",
+              "False. He started editing it in Kolkata.",
+              "False. He started editing it in West Bengal.",
+              "False. He never edited any newspaper."
+            ],
+            "correct": 2,
+            "explanation_bn": "তিনি পশ্চিমবঙ্গে স্বরাজ পত্রিকার সম্পাদনা শুরু করেন, নয়াদিল্লিতে নয়।",
+            "explanation_en": "He started editing the Swaraj Patrika in West Bengal, not New Delhi."
+          },
+          {
+            "id": "6d",
+            "question": "He joined Kharagpur College in 1951.",
+            "options": [
+              "True",
+              "False",
+              "Not mentioned in the passage",
+              "He joined in 1953"
+            ],
+            "correct": 0,
+            "explanation_bn": "হ্যাঁ, তিনি ১৯৫১ সালে খড়গপুর কলেজে যোগদান করেন।",
+            "explanation_en": "Yes, he joined Kharagpur College in 1951."
+          },
+          {
+            "id": "6e",
+            "question": "Rabindra Purashkar was awarded to him in 1953.",
+            "options": [
+              "True",
+              "False",
+              "Not mentioned",
+              "He got it in 1954"
+            ],
+            "correct": 0,
+            "explanation_bn": "হ্যাঁ, তিনি ১৯৫৩ সালে রবীন্দ্র পুরস্কার লাভ করেন।",
+            "explanation_en": "Yes, he was awarded the Rabindra Purashkar in 1953."
+          }
+        ],
+        "summary": "Jibanananda Das was born in Barishal in 1899. He earned his Master's in English and became a professor at City College, Calcutta. He lost his job in 1928 but later taught at various colleges. He moved to India after the 1947 partition. He received the Rabindra Purashkar in 1953 and died in 1954 following a tram accident."
+      }
+    },
+    {
+      "id": "ch4",
+      "name": "Sentence Making",
+      "type": "sentence_matching",
+      "content": {
+        "exercise": {
+          "id": 1,
+          "question_text": "Match the parts of sentences from Column A and Column B to make five complete sentences.",
+          "table_columns": [
+            [
+              "Abdur Rahman was",
+              "His fields were",
+              "He also dug",
+              "So, his crops were",
+              "He stored"
+            ],
+            [
+              "one of the best farmers in his district.",
+              "very fertile, because he knew how many times to plough the land.",
+              "wells and canals in order to irrigate his fields throughout the year.",
+              "also excellent.",
+              "enough grain for his family and sold the rest."
+            ]
+          ],
+          "valid_sentences": [
+            {
+              "sentence": "Abdur Rahman was one of the best farmers in his district.",
+              "combination": [
+                "Abdur Rahman was",
+                "one of the best farmers in his district."
+              ],
+              "explanation_en": "This sentence introduces Abdur Rahman as a skilled farmer.",
+              "explanation_bn": "এই বাক্যটি আবদুর রহমানকে একজন দক্ষ কৃষক হিসেবে পরিচয় করিয়ে দেয়।"
+            },
+            {
+              "sentence": "His fields were very fertile, because he knew how many times to plough the land.",
+              "combination": [
+                "His fields were",
+                "very fertile, because he knew how many times to plough the land."
+              ],
+              "explanation_en": "This describes the quality of his fields.",
+              "explanation_bn": "এটি তার জমির গুণাগুণ বর্ণনা করে।"
+            },
+            {
+              "sentence": "He also dug wells and canals in order to irrigate his fields throughout the year.",
+              "combination": [
+                "He also dug",
+                "wells and canals in order to irrigate his fields throughout the year."
+              ],
+              "explanation_en": "This shows what he did for irrigation.",
+              "explanation_bn": "এটি দেখায় যে তিনি সেচের জন্য কী করেছিলেন।"
+            },
+            {
+              "sentence": "So, his crops were also excellent.",
+              "combination": [
+                "So, his crops were",
+                "also excellent."
+              ],
+              "explanation_en": "This shows the result of his hard work.",
+              "explanation_bn": "এটি তার কঠোর পরিশ্রমের ফলাফল দেখায়।"
+            },
+            {
+              "sentence": "He stored enough grain for his family and sold the rest.",
+              "combination": [
+                "He stored",
+                "enough grain for his family and sold the rest."
+              ],
+              "explanation_en": "This shows what he did with his harvest.",
+              "explanation_bn": "এটি দেখায় যে তিনি তার ফসল দিয়ে কী করেছিলেন।"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch5",
+      "name": "Rearranging",
+      "type": "rearrangement",
+      "content": {
+        "sentences": [
+          {
+            "id": "a",
+            "text": "And he took shelter in a remote cave."
+          },
+          {
+            "id": "b",
+            "text": "Then he saw a spider trying hard to reach the ceiling of the cave."
+          },
+          {
+            "id": "c",
+            "text": "Robert Bruce was a famous king."
+          },
+          {
+            "id": "d",
+            "text": "Once he was lying in a cave."
+          },
+          {
+            "id": "e",
+            "text": "The king fought bravely."
+          },
+          {
+            "id": "f",
+            "text": "He had to flee from his kingdom to save his life."
+          },
+          {
+            "id": "g",
+            "text": "Enemies invaded his kingdom."
+          },
+          {
+            "id": "h",
+            "text": "The king was always in a gloomy state for his unhappy condition."
+          },
+          {
+            "id": "i",
+            "text": "But lost the battle."
+          }
+        ],
+        "correctOrder": [
+          "c",
+          "g",
+          "e",
+          "i",
+          "f",
+          "a",
+          "d",
+          "h",
+          "b"
+        ],
+        "reconstructedParagraph": "Robert Bruce was a famous king. Enemies invaded his kingdom. The king fought bravely. But lost the battle. He had to flee from his kingdom to save his life. And he took shelter in a remote cave. Once he was lying in a cave. The king was always in a gloomy state for his unhappy condition. Then he saw a spider trying hard to reach the ceiling of the cave."
+      }
+    },
+    {
+      "id": "ch6",
+      "name": "Poetry MCQ",
+      "type": "poetry_mcq",
+      "content": {
+        "questions": [
+          {
+            "id": "10a",
+            "question": "Whom did the speaker ask the same question repeatedly in the poem \"Whose Child Is This?\"",
+            "options": [
+              "The parent only",
+              "The teacher only",
+              "The parent and the teacher",
+              "The child"
+            ],
+            "correct": 2,
+            "explanation_bn": "বক্তা কবিতায় বারবার শিশুটির পিতামাতা এবং শিক্ষককে একই প্রশ্ন জিজ্ঞাসা করেছেন।",
+            "explanation_en": "The speaker repeatedly asked the child's parent and teacher the same question."
+          },
+          {
+            "id": "10b",
+            "question": "In the poem \"Whose Child Is This?\", how did the parent and the teacher answer?",
+            "options": [
+              "With anger",
+              "With a tender smile",
+              "With confusion",
+              "With silence"
+            ],
+            "correct": 1,
+            "explanation_bn": "পিতামাতা এবং শিক্ষক উভয়েই কোমল হাসি দিয়ে উত্তর দিয়েছেন।",
+            "explanation_en": "Both the parent and the teacher answered with a tender smile."
+          },
+          {
+            "id": "10c",
+            "question": "Where do the squirrels hide their nuts in the poem \"Leisure\"?",
+            "options": [
+              "In the trees",
+              "In the grass",
+              "In the holes",
+              "In the water"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Leisure' কবিতায় কাঠবিড়ালিরা ঘাসে তাদের বাদাম লুকিয়ে রাখে।",
+            "explanation_en": "In the poem 'Leisure', the squirrels hide their nuts in the grass."
+          },
+          {
+            "id": "10d",
+            "question": "Why does the poet in the poem \"Leisure\" think that we have no time to stand and stare?",
+            "options": [
+              "Because we are lazy",
+              "Because our lives are full of worries and cares",
+              "Because we don't like nature",
+              "Because we are always sleeping"
+            ],
+            "correct": 1,
+            "explanation_bn": "কবি মনে করেন আমাদের জীবন চিন্তা ও দায়িত্বে পূর্ণ, তাই প্রকৃতি উপভোগ করার সময় নেই।",
+            "explanation_en": "The poet thinks our lives are full of worries and cares, leaving no time to enjoy nature."
+          },
+          {
+            "id": "10e",
+            "question": "Who answered the question in stanzas 1, 2 and 3 in the poem \"Whose Child Is This?\"?",
+            "options": [
+              "The parent answered all stanzas",
+              "The teacher answered all stanzas",
+              "The speaker answered his own question",
+              "The child answered"
+            ],
+            "correct": 2,
+            "explanation_bn": "কবিতার ১ম, ২য় ও ৩য় স্তবকে বক্তা নিজেই তার নিজের প্রশ্নের উত্তর দিয়েছেন।",
+            "explanation_en": "The speaker answered his own question in stanzas 1, 2, and 3."
+          },
+          {
+            "id": "10f",
+            "question": "Who wrote the poem \"From a Railway Carriage\"?",
+            "options": [
+              "William Wordsworth",
+              "Robert Louis Stevenson",
+              "William Henry Davies",
+              "Rabindranath Tagore"
+            ],
+            "correct": 1,
+            "explanation_bn": "\"From a Railway Carriage\" কবিতাটি Robert Louis Stevenson লিখেছেন।",
+            "explanation_en": "The poem \"From a Railway Carriage\" was written by Robert Louis Stevenson."
+          },
+          {
+            "id": "10g",
+            "question": "What is the poem \"From a Railway Carriage\" about?",
+            "options": [
+              "The beauty of the sea",
+              "The speed and sights of a train journey",
+              "The life of a farmer",
+              "The beauty of a garden"
+            ],
+            "correct": 1,
+            "explanation_bn": "কবিতাটি একটি ট্রেন যাত্রার গতি ও দৃশ্য সম্পর্কে।",
+            "explanation_en": "The poem is about the speed and sights of a train journey."
+          },
+          {
+            "id": "10h",
+            "question": "Why does the poet compare the train to the troops in a battle in \"From a Railway Carriage\"?",
+            "options": [
+              "Because the train is fighting",
+              "Because the train moves as fast as troops charging forward in a battle",
+              "Because the train has soldiers",
+              "Because the train is dangerous"
+            ],
+            "correct": 1,
+            "explanation_bn": "কবি ট্রেনের গতিকে যুদ্ধে সৈন্যদের অগ্রযাত্রার সাথে তুলনা করেছেন।",
+            "explanation_en": "The poet compares the train's speed to troops charging forward in a battle."
+          }
+        ]
+      }
+    }
+  ]
+}

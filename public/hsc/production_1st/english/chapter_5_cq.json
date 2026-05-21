@@ -1,0 +1,114 @@
+[
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_21",
+    "stem": "A renowned mobile company of the country introduced various new models at special discounts targeting the Cricket World Cup. These phones have specific features including crystal clear voice, high resolution display, etc. The company has prepared this phone by considering a specific group of customers. The company is earning profits from this new product by ensuring customer satisfaction.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is an emergency product?",
+        "model_answer": ""
+      },
+      {
+        "label": "খ",
+        "question": "Describe the role of producing quality products in increasing sales.",
+        "model_answer": ""
+      },
+      {
+        "label": "গ",
+        "question": "Which concept of production management does the company's product development indicate? Explain.",
+        "model_answer": ""
+      },
+      {
+        "label": "ঘ",
+        "question": "\"Through proper application of production management, the company can produce products at low cost.\" Do you agree? Give arguments in favor.",
+        "model_answer": ""
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_22",
+    "stem": "Mr. Mamun is an educated resident of Cox's Bazar. Unable to find a job, he opened a small shop with his own capital. He started the business by selling various daily necessities including rice, pulses, salt, oil, etc. His business is gradually expanding and he is doing well.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is a good?",
+        "model_answer": ""
+      },
+      {
+        "label": "খ",
+        "question": "Why is production management customer-centric? Explain.",
+        "model_answer": ""
+      },
+      {
+        "label": "গ",
+        "question": "What type of business organization has Mr. Mamun established? Explain.",
+        "model_answer": ""
+      },
+      {
+        "label": "ঘ",
+        "question": "\"Mr. Mamun's business will not face any special problems in decision making\" — Analyze.",
+        "model_answer": ""
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_23",
+    "stem": "Mr. Hasan established a mosquito coil manufacturing company named 'Spark'. He initially determined the type and quantity of products based on customer demand. Choosing a suitable location, he arranged the necessary machinery and raw materials systematically. He is providing good quality products at reasonable prices.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is customer centricity?",
+        "model_answer": ""
+      },
+      {
+        "label": "খ",
+        "question": "Why is the purpose of buying consumer goods non-business? Explain.",
+        "model_answer": ""
+      },
+      {
+        "label": "গ",
+        "question": "Which functions of production management are reflected in Mr. Hasan's activities? Explain.",
+        "model_answer": ""
+      },
+      {
+        "label": "ঘ",
+        "question": "Evaluate the effectiveness of Mr. Hasan's approach to production management.",
+        "model_answer": ""
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_24",
+    "stem": "Mr. Riyad is the owner of a bakery. He is successfully running his business. He keeps sufficient raw materials in stock for uninterrupted production. He produces quality products at low cost. As a result, customer satisfaction has increased along with profits.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is inventory control?",
+        "model_answer": ""
+      },
+      {
+        "label": "খ",
+        "question": "Explain the concept of EOQ.",
+        "model_answer": ""
+      },
+      {
+        "label": "গ",
+        "question": "Why does Mr. Riyad keep raw materials in stock? Explain.",
+        "model_answer": ""
+      },
+      {
+        "label": "ঘ",
+        "question": "\"Mr. Riyad is successful in production management\" — Analyze.",
+        "model_answer": ""
+      }
+    ]
+  }
+]

@@ -1070,6 +1070,636 @@
       ],
       "name_bn": "সমাজকর্ম ১ম পত্র",
       "name_en": "Social Work 1st Paper"
+    },
+    {
+      "id": "social_2nd",
+      "name": "Social Work 2nd Paper",
+      "icon": "Heart",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1",
+          "chapters": [
+            {
+              "id": "hsc_soc2_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/social_2nd/chapter_1.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১",
+          "name_en": "Chapter 1"
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2",
+          "chapters": [
+            {
+              "id": "hsc_soc2_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/social_2nd/chapter_2.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ২",
+          "name_en": "Chapter 2"
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3",
+          "chapters": [
+            {
+              "id": "hsc_soc2_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/social_2nd/chapter_3.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৩",
+          "name_en": "Chapter 3"
+        },
+        {
+          "id": "chapter_4",
+          "name": "Chapter 4",
+          "chapters": [
+            {
+              "id": "hsc_soc2_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/social_2nd/chapter_4.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৪",
+          "name_en": "Chapter 4"
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5",
+          "chapters": [
+            {
+              "id": "hsc_soc2_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/social_2nd/chapter_5.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৫",
+          "name_en": "Chapter 5"
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6",
+          "chapters": [
+            {
+              "id": "hsc_soc2_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/social_2nd/chapter_6.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৬",
+          "name_en": "Chapter 6"
+        },
+        {
+          "id": "chapter_7",
+          "name": "Chapter 7",
+          "chapters": [
+            {
+              "id": "hsc_soc2_ch7",
+              "name": "Chapter 7 Questions",
+              "file_bn": "/hsc/social_2nd/chapter_7.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৭",
+          "name_en": "Chapter 7"
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8",
+          "chapters": [
+            {
+              "id": "hsc_soc2_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/social_2nd/chapter_8.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৮",
+          "name_en": "Chapter 8"
+        },
+        {
+          "id": "chapter_9",
+          "name": "Chapter 9",
+          "chapters": [
+            {
+              "id": "hsc_soc2_ch9",
+              "name": "Chapter 9 Questions",
+              "file_bn": "/hsc/social_2nd/chapter_9.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৯",
+          "name_en": "Chapter 9"
+        }
+      ],
+      "name_bn": "সমাজকর্ম ২য় পত্র",
+      "name_en": "Social Work 2nd Paper"
+    },
+    {
+      "id": "logic_1st",
+      "name": "Logic 1st Paper",
+      "icon": "Brain",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1",
+          "chapters": [
+            {
+              "id": "hsc_logic1_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/logic_1st/chapter_1.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১",
+          "name_en": "Chapter 1"
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2",
+          "chapters": [
+            {
+              "id": "hsc_logic1_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/logic_1st/chapter_2.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ২",
+          "name_en": "Chapter 2"
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3",
+          "chapters": [
+            {
+              "id": "hsc_logic1_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/logic_1st/chapter_3.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৩",
+          "name_en": "Chapter 3"
+        },
+        {
+          "id": "chapter_4",
+          "name": "Chapter 4",
+          "chapters": [
+            {
+              "id": "hsc_logic1_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/logic_1st/chapter_4.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৪",
+          "name_en": "Chapter 4"
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5",
+          "chapters": [
+            {
+              "id": "hsc_logic1_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/logic_1st/chapter_5.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৫",
+          "name_en": "Chapter 5"
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6",
+          "chapters": [
+            {
+              "id": "hsc_logic1_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/logic_1st/chapter_6.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৬",
+          "name_en": "Chapter 6"
+        },
+        {
+          "id": "chapter_7",
+          "name": "Chapter 7",
+          "chapters": [
+            {
+              "id": "hsc_logic1_ch7",
+              "name": "Chapter 7 Questions",
+              "file_bn": "/hsc/logic_1st/chapter_7.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৭",
+          "name_en": "Chapter 7"
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8",
+          "chapters": [
+            {
+              "id": "hsc_logic1_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/logic_1st/chapter_8.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৮",
+          "name_en": "Chapter 8"
+        }
+      ],
+      "name_bn": "যুক্তিবিদ্যা ১ম পত্র",
+      "name_en": "Logic 1st Paper"
+    },
+    {
+      "id": "logic_2nd",
+      "name": "Logic 2nd Paper",
+      "icon": "Brain",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1",
+          "chapters": [
+            {
+              "id": "hsc_logic2_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/logic_2nd/chapter_1.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১",
+          "name_en": "Chapter 1"
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2",
+          "chapters": [
+            {
+              "id": "hsc_logic2_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/logic_2nd/chapter_2.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ২",
+          "name_en": "Chapter 2"
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3",
+          "chapters": [
+            {
+              "id": "hsc_logic2_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/logic_2nd/chapter_3.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৩",
+          "name_en": "Chapter 3"
+        },
+        {
+          "id": "chapter_4",
+          "name": "Chapter 4",
+          "chapters": [
+            {
+              "id": "hsc_logic2_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/logic_2nd/chapter_4.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৪",
+          "name_en": "Chapter 4"
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5",
+          "chapters": [
+            {
+              "id": "hsc_logic2_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/logic_2nd/chapter_5.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৫",
+          "name_en": "Chapter 5"
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6",
+          "chapters": [
+            {
+              "id": "hsc_logic2_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/logic_2nd/chapter_6.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৬",
+          "name_en": "Chapter 6"
+        },
+        {
+          "id": "chapter_7",
+          "name": "Chapter 7",
+          "chapters": [
+            {
+              "id": "hsc_logic2_ch7",
+              "name": "Chapter 7 Questions",
+              "file_bn": "/hsc/logic_2nd/chapter_7.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৭",
+          "name_en": "Chapter 7"
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8",
+          "chapters": [
+            {
+              "id": "hsc_logic2_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/logic_2nd/chapter_8.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৮",
+          "name_en": "Chapter 8"
+        }
+      ],
+      "name_bn": "যুক্তিবিদ্যা ২য় পত্র",
+      "name_en": "Logic 2nd Paper"
+    },
+    {
+      "id": "economics_1st",
+      "name": "Economics 1st Paper",
+      "icon": "TrendingUp",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1",
+          "chapters": [
+            {
+              "id": "hsc_eco1_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/economics_1st/chapter_1.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১",
+          "name_en": "Chapter 1"
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2",
+          "chapters": [
+            {
+              "id": "hsc_eco1_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/economics_1st/chapter_2.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ২",
+          "name_en": "Chapter 2"
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3",
+          "chapters": [
+            {
+              "id": "hsc_eco1_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/economics_1st/chapter_3.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৩",
+          "name_en": "Chapter 3"
+        },
+        {
+          "id": "chapter_4",
+          "name": "Chapter 4",
+          "chapters": [
+            {
+              "id": "hsc_eco1_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/economics_1st/chapter_4.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৪",
+          "name_en": "Chapter 4"
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5",
+          "chapters": [
+            {
+              "id": "hsc_eco1_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/economics_1st/chapter_5.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৫",
+          "name_en": "Chapter 5"
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6",
+          "chapters": [
+            {
+              "id": "hsc_eco1_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/economics_1st/chapter_6.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৬",
+          "name_en": "Chapter 6"
+        },
+        {
+          "id": "chapter_7",
+          "name": "Chapter 7",
+          "chapters": [
+            {
+              "id": "hsc_eco1_ch7",
+              "name": "Chapter 7 Questions",
+              "file_bn": "/hsc/economics_1st/chapter_7.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৭",
+          "name_en": "Chapter 7"
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8",
+          "chapters": [
+            {
+              "id": "hsc_eco1_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/economics_1st/chapter_8.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৮",
+          "name_en": "Chapter 8"
+        },
+        {
+          "id": "chapter_9",
+          "name": "Chapter 9",
+          "chapters": [
+            {
+              "id": "hsc_eco1_ch9",
+              "name": "Chapter 9 Questions",
+              "file_bn": "/hsc/economics_1st/chapter_9.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৯",
+          "name_en": "Chapter 9"
+        },
+        {
+          "id": "chapter_10",
+          "name": "Chapter 10",
+          "chapters": [
+            {
+              "id": "hsc_eco1_ch10",
+              "name": "Chapter 10 Questions",
+              "file_bn": "/hsc/economics_1st/chapter_10.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১০",
+          "name_en": "Chapter 10"
+        }
+      ],
+      "name_bn": "অর্থনীতি ১ম পত্র",
+      "name_en": "Economics 1st Paper"
+    },
+    {
+      "id": "economics_2nd",
+      "name": "Economics 2nd Paper",
+      "icon": "TrendingUp",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1",
+          "chapters": [
+            {
+              "id": "hsc_eco2_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/economics_2nd/chapter_1.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১",
+          "name_en": "Chapter 1"
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2",
+          "chapters": [
+            {
+              "id": "hsc_eco2_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/economics_2nd/chapter_2.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ২",
+          "name_en": "Chapter 2"
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3",
+          "chapters": [
+            {
+              "id": "hsc_eco2_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/economics_2nd/chapter_3.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৩",
+          "name_en": "Chapter 3"
+        },
+        {
+          "id": "chapter_4",
+          "name": "Chapter 4",
+          "chapters": [
+            {
+              "id": "hsc_eco2_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/economics_2nd/chapter_4.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৪",
+          "name_en": "Chapter 4"
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5",
+          "chapters": [
+            {
+              "id": "hsc_eco2_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/economics_2nd/chapter_5.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৫",
+          "name_en": "Chapter 5"
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6",
+          "chapters": [
+            {
+              "id": "hsc_eco2_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/economics_2nd/chapter_6.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৬",
+          "name_en": "Chapter 6"
+        },
+        {
+          "id": "chapter_7",
+          "name": "Chapter 7",
+          "chapters": [
+            {
+              "id": "hsc_eco2_ch7",
+              "name": "Chapter 7 Questions",
+              "file_bn": "/hsc/economics_2nd/chapter_7.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৭",
+          "name_en": "Chapter 7"
+        },
+        {
+          "id": "chapter_8",
+          "name": "Chapter 8",
+          "chapters": [
+            {
+              "id": "hsc_eco2_ch8",
+              "name": "Chapter 8 Questions",
+              "file_bn": "/hsc/economics_2nd/chapter_8.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৮",
+          "name_en": "Chapter 8"
+        },
+        {
+          "id": "chapter_9",
+          "name": "Chapter 9",
+          "chapters": [
+            {
+              "id": "hsc_eco2_ch9",
+              "name": "Chapter 9 Questions",
+              "file_bn": "/hsc/economics_2nd/chapter_9.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৯",
+          "name_en": "Chapter 9"
+        },
+        {
+          "id": "chapter_10",
+          "name": "Chapter 10",
+          "chapters": [
+            {
+              "id": "hsc_eco2_ch10",
+              "name": "Chapter 10 Questions",
+              "file_bn": "/hsc/economics_2nd/chapter_10.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১০",
+          "name_en": "Chapter 10"
+        }
+      ],
+      "name_bn": "অর্থনীতি ২য় পত্র",
+      "name_en": "Economics 2nd Paper"
     }
   ]
 }

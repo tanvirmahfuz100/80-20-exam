@@ -1,0 +1,86 @@
+[
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_15",
+    "stem": "After finishing his job abroad, Badsha Mia returned to the country. Using his experience, he invested Tk 10 crore to establish 'Jhilik Fashion', a ready-made garments factory in Ashulia. His factory employs 90 workers. The garments are delivered to specific shops through their own transportation. Since the garments are of high quality and sold at relatively low prices, he has achieved business success in a short time.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is scale of production?",
+        "model_answer": "The amount of goods or services produced in an industrial establishment using all available facilities is called the scale of production."
+      },
+      {
+        "label": "খ",
+        "question": "\"Optimum scale of production yields maximum profit\" — Explain.",
+        "model_answer": "Optimum scale of production is a level where maximum output can be produced at minimum cost. At this level, the per-unit production cost is the lowest. Moreover, since products are produced at low cost, their prices can also be kept low. Customers can buy products at lower prices. As a result, product sales and the organization's profit-making potential increase. Therefore, maximum profit can be achieved at the optimum scale of production."
+      },
+      {
+        "label": "গ",
+        "question": "What type of industry is Badsha Mia's factory in terms of scale? Explain.",
+        "model_answer": "In terms of scale, Badsha Mia's factory is a small industry. According to the Industrial Policy 2016 of Bangladesh, for small industries in the manufacturing sector, the capital (excluding land, buildings, and other fixed assets) is between Tk 75 lakh and Tk 15 crore, and the number of workers is between 31 and 120. Badsha Mia invested Tk 10 crore to establish 'Jhilik Fashion' and employs 90 workers. Considering both capital and number of workers, the factory possesses all the characteristics of a small industry. Therefore, 'Jhilik Fashion' can be called a small industry."
+      },
+      {
+        "label": "ঘ",
+        "question": "Analyze the main reasons for the success of the establishment mentioned in the stimulus.",
+        "model_answer": "Quality products, low prices, and proper supply management are the main reasons for 'Jhilik Fashion's' success. Customers always want to buy quality products at fair prices. Moreover, delivering products to customers' doorsteps saves their time and transportation costs, which satisfies them. Since Badsha Mia delivers garments to shops directly, customers' transportation costs have decreased. Again, because the products are of good quality, shops are eager to buy these products. Additionally, due to low prices, excess demand has been created. Therefore, it can be said that proper supply management, quality products, and low prices are the main reasons for 'Jhilik Fashion's' success."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_16",
+    "stem": "Mr. Enamul established 'Santona Diagnostic', a 5-story diagnostic center, at a cost of Tk 50 lakh. He purchased Tk 1 crore worth of diagnostic equipment. He employed 25 people including officers, nurses, and technicians. Due to increasing patient demand, he decided to expand the center. Mr. Enamul believes that if the number of patients increases, he will be able to reduce diagnostic fees.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is scale of production?",
+        "model_answer": "The amount of goods or services that can be produced in an establishment using all available facilities is called the scale of production."
+      },
+      {
+        "label": "খ",
+        "question": "\"Optimum scale of production yields maximum profit\" — Explain.",
+        "model_answer": "Optimum scale of production is a level where maximum output is produced at minimum cost. At the optimum scale, as production increases, the average per-unit cost decreases. Moreover, since products are produced at low cost, their prices can also be set low. Customers can buy products at lower prices, which increases the organization's sales and profits. Therefore, maximum profit can be achieved at the optimum scale of production."
+      },
+      {
+        "label": "গ",
+        "question": "What type of establishment is Mr. Enamul's diagnostic center in terms of scale? Explain.",
+        "model_answer": "Mr. Enamul's diagnostic center is a small-scale service industry. For such service industries, the capital ranges from Tk 10 lakh to Tk 2 crore and the number of workers is between 16 and 50. Mr. Enamul spent Tk 50 lakh to establish the center, purchased Tk 1 crore worth of equipment, and employed 25 workers. Since his capital is under Tk 2 crore and the number of workers is between 16 and 50, it is a small-scale service industry."
+      },
+      {
+        "label": "ঘ",
+        "question": "Is Mr. Enamul's idea of reducing diagnostic fees if patient numbers increase reasonable? Analyze.",
+        "model_answer": "I believe Mr. Enamul's idea of reducing diagnostic fees if patient numbers increase is reasonable. In service-oriented establishments, when the number of customers increases, the cost of providing service decreases. This is consistent with the concept of economies of scale. In this case, as the scale of operation increases, the per-unit cost decreases. With more patients at Mr. Enamul's diagnostic center, the total fixed cost will be divided among more patients, reducing per-unit cost. Once per-unit cost decreases, Enamul will be able to reduce fees for patients. This may attract even more patients in the future. Therefore, in light of economies of scale, Mr. Enamul's thinking is reasonable."
+      }
+    ]
+  },
+  {
+    "_type": "creative_question",
+    "id": "hsc_prod1_cq_17",
+    "stem": "Mr. Rahim operates a garments factory named 'Rahim Fashion'. Although he started on a limited scale, he now runs his factory in 3 rented five-story buildings. He has invested Tk 51 crore including bank loans. His factory employs a total of 400 workers. Due to large-scale production and marketing, he is making good profits. He plans to expand further by renting 2 more buildings in the future.",
+    "stem_label": "Read the stimulus and answer the following questions",
+    "questions": [
+      {
+        "label": "ক",
+        "question": "What is a small industry (in terms of manufacturing enterprises)?",
+        "model_answer": "For manufacturing industries, if the value of fixed assets (excluding land and factory buildings) is between Tk 75 lakh and Tk 15 crore and the number of workers is between 31 and 120, it is called a small industry."
+      },
+      {
+        "label": "খ",
+        "question": "Explain the differences between small industry and large industry based on personal supervision.",
+        "model_answer": "Based on personal supervision, there are significant differences between small and large industries. In small industries, the owner can enjoy independence in management, whereas owners of large industries cannot enjoy such independence. Additionally, since the number of workers is relatively small in small industries, the owner can easily control the business, but owners of large industries cannot do so."
+      },
+      {
+        "label": "গ",
+        "question": "From the perspective of size, what type of establishment is 'Rahim Fashion' mentioned in the stimulus? Explain.",
+        "model_answer": "'Rahim Fashion' mentioned in the stimulus is a large-scale establishment in terms of size. According to the Industrial Policy 2016 of Bangladesh, in the manufacturing sector, large industries are those where the replacement cost of fixed assets (excluding land and factory buildings) exceeds Tk 50 crore or where more than 300 workers are employed. Mr. Rahim has invested Tk 51 crore and employs 400 workers. Therefore, 'Rahim Fashion' is a large-scale establishment."
+      },
+      {
+        "label": "ঘ",
+        "question": "'Large-scale production helps reduce costs' — Do you agree with this statement? Discuss with reasons.",
+        "model_answer": "I believe the statement 'Large-scale production helps reduce costs' is appropriate. As the volume of production increases, the per-unit production cost of goods or services decreases. This is because when production increases, the fixed cost is spread over more units, reducing the average cost per unit while the per-unit variable cost remains constant. Since Mr. Rahim's establishment is large-scale, it is capable of producing more. As production increases, the establishment's production cost decreases. As the production volume increases, the per-unit fixed cost also decreases. Therefore, it can be said that large-scale production not only helps reduce costs but also plays a role in increasing profits."
+      }
+    ]
+  }
+]

@@ -1,0 +1,1036 @@
+{
+  "_type": "model_test",
+  "modelId": "m15",
+  "title": "Model Test 15 - English 1st Paper",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Passage & Comprehension",
+      "type": "passage_mcq",
+      "content": {
+        "passage": "Helen Keller was a great humanitarian. She cared deeply for the sick, injured and disabled people. The disabled people have physical or mental problems that limit their activities or senses.\n\nHelen devoted her life to help them. Helen was born in 1880 in Alabama, USA. Her parents were Captain Arthur Keller and Katherine Adams Keller.\n\nHer family was not rich. Their main source of income was cotton plantation. Helen was born healthy, but in 1882 she became deaf, dumb and blind after a high fever.\n\nHer father heard about Perkins School for the Blind in Boston and contacted the Director there. In 1887, the Director sent one of his best students, Anne Sullivan, to help Helen. Anne worked hard to enable her to communicate.\n\nIn 1890, Helen's formal education started at Horace Mann School for the deaf in Boston. In 1892, she went to Wright Humason School for the deaf in New York. Helen improved her communication skills and studied regular academic subjects.\n\nShe then decided to go to college, and attended Cambridge School for Young Ladies in 1896. Later she studied at Radcliffe College. Here she learnt Braille, which was a new technique for reading.\n\nShe also learnt how to type. Anne Sullivan was always with Helen. She sat with Helen in class and helped her by interpreting lectures and texts.\n\nIn 1904 Helen received her BA degree with Honours from Radcliffe College. Helen spent her life helping disabled people to learn. She died on June 1, 1968.",
+        "translation_bn": "হেলেন কেলার ছিলেন একজন মহীয়সী মানবহিতৈষী। তিনি অসুস্থ, আহত এবং অক্ষম ব্যক্তিদের নিবিড়ভাবে পরিচর্যা করতেন। অক্ষম ব্যক্তিদের শারীরিক বা মানসিক সমস্যা থাকে যা তাদের কার্যকলাপ বা ইন্দ্রিয়কে সীমাবদ্ধ করে দেয়। তাদের সাহায্য করার জন্য হেলেন নিজের জীবন উৎসর্গ করেন। হেলেন ১৮৮০ সালে যুক্তরাষ্ট্রের আলাবামায় জন্মগ্রহণ করেন। তাঁর বাবা-মা ছিলেন ক্যাপ্টেন আর্থার কেলার এবং ক্যাথরিন অ্যাডামস কেলার। তাঁর পরিবার ধনী ছিল না। তাঁদের আয়ের মূল উৎস ছিল তুলা চাষ। জন্মের সময় হেলেন সুস্থ ছিলেন, কিন্তু ১৮৮২ সালে প্রচন্ড জ্বর হওয়ায় তিনি বধির, বোবা এবং অন্ধ হয়ে যান। তাঁর বাবা বোস্টনে অবস্থিত পারকিনস স্কুল ফর দা ব্লাইন্ড-এর ব্যাপারে শোনেন এবং সেখানকার পরিচালকের সাথে যোগাযোগ করেন। ১৮৮৭ সালে পরিচালক মহোদয় তাঁর অন্যতম সেরা শিক্ষার্থী অ্যান সুলিভানকে পাঠান হেলেনকে সাহায্য করার জন্য। অ্যান কঠোর পরিশ্রম করে তাঁকে মনের ভাব প্রকাশে সক্ষম করেছিলেন। ১৮৯০ সালে বোস্টনে অবস্থিত হোরেস মান স্কুল ফর দা ডেফ-এ হেলেনের প্রাতিষ্ঠানিক শিক্ষা শুরু হয়। ১৮৯২ সালে তিনি নিউইয়র্কে বধিরদের জন্য রাইট হিউম্যাসন স্কুলে পড়তে যান। হেলেন তাঁর যোগাযোগ দক্ষতার উন্নতিসাধন করেন এবং সাধারণ পাঠ্যসূচির বিষয়গুলো অধ্যয়ন করেন। তারপর তিনি কলেজে যাওয়ার সিদ্ধান্ত নেন, এবং ১৮৯৬ সালে ক্যামব্রিজ স্কুল ফর ইয়াং লেডিজ-এ ভর্তি হন। পরবর্তী সময়ে তিনি র‍্যাডক্লিফ কলেজে অধ্যয়ন করেন। সেখানে তিনি ব্রেইল শিখেন, যা ছিল পড়ার একটি নতুন কৌশল। কীভাবে টাইপ করতে হয় তাও তিনি শিখেন। অ্যান সুলিভান সর্বদা হেলেনের পাশে ছিলেন। তিনি শ্রেণিকক্ষে হেলেনের সাথে বসতেন এবং বক্তৃতা ও পাঠগুলো ব্যাখ্যা করে তাঁকে সাহায্য করতেন। ১৯০৪ সালে হেলেন র‍্যাডক্লিফ কলেজ থেকে স্নাতকসহ বিএ ডিগ্রি অর্জন করেন। অক্ষম ব্যক্তিদের শিখতে সহায়তা করার মধ্য দিয়ে হেলেন তাঁর জীবন অতিবাহিত করেন। তিনি ১৯৬৮ সালের ১ জুন মৃত্যুবরণ করেন।",
+        "vocabulary": [
+          {
+            "word": "academic",
+            "pos": "adj",
+            "meaning_en": "relating to education",
+            "meaning_bn": "শিক্ষাসংক্রান্ত",
+            "synonym": "educational",
+            "antonym": "non-academic"
+          },
+          {
+            "word": "blind",
+            "pos": "adj",
+            "meaning_en": "unable to see",
+            "meaning_bn": "অন্ধ",
+            "synonym": "sightless",
+            "antonym": "sighted"
+          },
+          {
+            "word": "braille",
+            "pos": "n",
+            "meaning_en": "a form of written language with raised dots for the blind",
+            "meaning_bn": "ব্রেইল",
+            "synonym": "tactile writing",
+            "antonym": ""
+          },
+          {
+            "word": "communicate",
+            "pos": "v",
+            "meaning_en": "to express ideas, thoughts or feelings",
+            "meaning_bn": "মনের ভাব প্রকাশ করা",
+            "synonym": "correspond",
+            "antonym": "withdraw"
+          },
+          {
+            "word": "deaf",
+            "pos": "adj",
+            "meaning_en": "unable to hear",
+            "meaning_bn": "বধির",
+            "synonym": "hearing impaired",
+            "antonym": "hearing"
+          },
+          {
+            "word": "devote",
+            "pos": "v",
+            "meaning_en": "to give one's time or effort completely",
+            "meaning_bn": "উৎসর্গ করা",
+            "synonym": "allocate, dedicate",
+            "antonym": "withdraw"
+          },
+          {
+            "word": "disabled",
+            "pos": "adj",
+            "meaning_en": "lacking physical or mental abilities",
+            "meaning_bn": "অক্ষম",
+            "synonym": "handicapped, crippled",
+            "antonym": "healthy"
+          },
+          {
+            "word": "dumb",
+            "pos": "adj",
+            "meaning_en": "unable to speak",
+            "meaning_bn": "বোবা",
+            "synonym": "mute",
+            "antonym": "speaking"
+          },
+          {
+            "word": "humanitarian",
+            "pos": "n",
+            "meaning_en": "a person who works to improve people's lives",
+            "meaning_bn": "মানবহিতৈষী",
+            "synonym": "philanthropist",
+            "antonym": "egoist"
+          },
+          {
+            "word": "income",
+            "pos": "n",
+            "meaning_en": "money earned",
+            "meaning_bn": "আয়",
+            "synonym": "revenue",
+            "antonym": "expenditure"
+          },
+          {
+            "word": "plantation",
+            "pos": "n",
+            "meaning_en": "a large farm",
+            "meaning_bn": "আবাদ",
+            "synonym": "farm",
+            "antonym": ""
+          },
+          {
+            "word": "technique",
+            "pos": "n",
+            "meaning_en": "a way of doing something",
+            "meaning_bn": "কৌশল",
+            "synonym": "method",
+            "antonym": ""
+          }
+        ],
+        "questions": [
+          {
+            "id": "1i",
+            "question": "At the time of birth, Helen was ---",
+            "options": [
+              "not diseased",
+              "handicapped",
+              "disabled",
+              "visually impaired"
+            ],
+            "correct": 0,
+            "explanation_bn": "জন্মের সময় হেলেন সুস্থ ছিলেন।",
+            "explanation_en": "Helen was healthy at birth."
+          },
+          {
+            "id": "1ii",
+            "question": "What was the cause of Helen's disability?",
+            "options": [
+              "accident",
+              "heredity",
+              "high fever",
+              "genetics"
+            ],
+            "correct": 2,
+            "explanation_bn": "১৮৮২ সালে প্রচন্ড জ্বর হওয়ায় হেলেন বধির, বোবা ও অন্ধ হয়ে যান।",
+            "explanation_en": "Helen became deaf, dumb and blind after a high fever in 1882."
+          },
+          {
+            "id": "1iii",
+            "question": "Where did Anne Sullivan study?",
+            "options": [
+              "Perkins School",
+              "Horace Mann School",
+              "Wright Humason School",
+              "Cambridge School"
+            ],
+            "correct": 0,
+            "explanation_bn": "অ্যান সুলিভান পারকিনস স্কুলে পড়াশোনা করেছিলেন।",
+            "explanation_en": "Anne Sullivan studied at Perkins School."
+          },
+          {
+            "id": "1iv",
+            "question": "Helen didn't receive education from ---",
+            "options": [
+              "Cambridge School",
+              "Radcliffe College",
+              "Horace Mann School",
+              "Perkins School"
+            ],
+            "correct": 3,
+            "explanation_bn": "হেলেন পারকিনস স্কুলে শিক্ষা গ্রহণ করেননি।",
+            "explanation_en": "Helen did not receive education from Perkins School."
+          },
+          {
+            "id": "1v",
+            "question": "Which technique did Helen follow for her study?",
+            "options": [
+              "Conventional",
+              "Communicative",
+              "Sign language",
+              "Braille"
+            ],
+            "correct": 3,
+            "explanation_bn": "হেলেন ব্রেইল পদ্ধতি অনুসরণ করেছিলেন।",
+            "explanation_en": "Helen followed the Braille technique."
+          },
+          {
+            "id": "1vi",
+            "question": "Helen Keller was a great humanitarian. Here 'humanitarian' means ---",
+            "options": [
+              "gentle",
+              "watchful",
+              "peaceful",
+              "philanthropic"
+            ],
+            "correct": 3,
+            "explanation_bn": "'Humanitarian' অর্থ মানবহিতৈষী বা philanthropic।",
+            "explanation_en": "'Humanitarian' means philanthropic."
+          },
+          {
+            "id": "1vii",
+            "question": "She cared deeply for the sick, injured and disabled people. What does 'disabled' mean?",
+            "options": [
+              "hindered",
+              "physically challenged",
+              "powerless",
+              "helpless"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Disabled' অর্থ শারীরিকভাবে সীমিত বা physically challenged।",
+            "explanation_en": "'Disabled' means physically challenged."
+          },
+          {
+            "id": "1viii",
+            "question": "Helen Keller worked for ---",
+            "options": [
+              "Anne Sullivan",
+              "the people who were disabled",
+              "the Braille",
+              "Radcliffe College"
+            ],
+            "correct": 1,
+            "explanation_bn": "হেলেন কেলার অক্ষম ব্যক্তিদের জন্য কাজ করেছেন।",
+            "explanation_en": "Helen Keller worked for disabled people."
+          },
+          {
+            "id": "1ix",
+            "question": "Anne Sullivan ---",
+            "options": [
+              "was the Director of Perkins School",
+              "became handicapped after a high fever",
+              "never left Helen",
+              "was helped to interpret lectures by Helen"
+            ],
+            "correct": 2,
+            "explanation_bn": "অ্যান সুলিভান কখনো হেলেনকে ছেড়ে যাননি।",
+            "explanation_en": "Anne Sullivan never left Helen."
+          },
+          {
+            "id": "1x",
+            "question": "Which of the following information is not true?",
+            "options": [
+              "Helen Keller was born blind",
+              "Anne Sullivan assisted Helen a lot",
+              "The disabled people have limited activities or senses",
+              "Helen Keller passed away at the age of 88"
+            ],
+            "correct": 0,
+            "explanation_bn": "হেলেন অন্ধ হয়ে জন্মাননি, তিনি ২ বছর বয়সে অন্ধ হয়েছিলেন।",
+            "explanation_en": "Helen was not born blind; she became blind at age 2."
+          },
+          {
+            "id": "1xi",
+            "question": "The disabled people have physical or mental problems that limit their activities or senses. Here 'limit' means ---",
+            "options": [
+              "boundary",
+              "restrict",
+              "maximum",
+              "border"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Limit' অর্থ সীমাবদ্ধ করা বা restrict।",
+            "explanation_en": "'Limit' means restrict."
+          },
+          {
+            "id": "1xii",
+            "question": "What is Braille?",
+            "options": [
+              "A communication skill",
+              "An education policy",
+              "A system of reading for people who cannot see",
+              "An educational institute"
+            ],
+            "correct": 2,
+            "explanation_bn": "ব্রেইল অন্ধ ব্যক্তিদের পড়ার একটি পদ্ধতি।",
+            "explanation_en": "Braille is a system of reading for people who cannot see."
+          },
+          {
+            "id": "1xiii",
+            "question": "Their main source of income was cotton plantation. What does 'income' mean here?",
+            "options": [
+              "salary",
+              "earnings",
+              "pay",
+              "fee"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Income' অর্থ আয় বা earnings।",
+            "explanation_en": "'Income' means earnings."
+          },
+          {
+            "id": "1xiv",
+            "question": "Anne worked hard to enable her to communicate. Here 'enable' means ---",
+            "options": [
+              "limit",
+              "allow",
+              "qualify",
+              "accept"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Enable' অর্থ সক্ষম করা বা allow।",
+            "explanation_en": "'Enable' means to allow or make able."
+          },
+          {
+            "id": "1xv",
+            "question": "Helen improved her communication skills. What does 'improve' mean?",
+            "options": [
+              "develop",
+              "adjust",
+              "edit",
+              "revise"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Improve' অর্থ উন্নত করা বা develop।",
+            "explanation_en": "'Improve' means to develop."
+          },
+          {
+            "id": "2a",
+            "question": "Write about Helen's birth and family.",
+            "options": [
+              "Helen was born in 1880 in Alabama, USA. Her family was rich.",
+              "Helen was born in 1880 in Alabama, USA. Her family was not rich; their main income was from cotton plantation.",
+              "Helen was born in 1880 in New York. Her family was poor.",
+              "Helen was born in 1880 in Boston. Her family was wealthy."
+            ],
+            "correct": 1,
+            "explanation_bn": "হেলেন ১৮৮০ সালে আলাবামায় জন্মগ্রহণ করেন, তাঁর পরিবারের আয়ের উৎস ছিল তুলা চাষ।",
+            "explanation_en": "Helen was born in 1880 in Alabama, USA. Her family was not rich; their main income was from cotton plantation."
+          },
+          {
+            "id": "2b",
+            "question": "Describe Anne Sullivan's contribution in Helen's life.",
+            "options": [
+              "Anne ignored Helen",
+              "Anne worked hard to enable Helen to communicate, interpreted lectures and texts, and was always with her",
+              "Anne left Helen after one year",
+              "Anne taught Helen only Braille"
+            ],
+            "correct": 1,
+            "explanation_bn": "অ্যান সুলিভান হেলেনকে যোগাযোগে সক্ষম করতে কঠোর পরিশ্রম করেন এবং সবসময় তার সাথে ছিলেন।",
+            "explanation_en": "Anne worked hard to enable Helen to communicate, interpreted lectures and texts, and was always with her."
+          },
+          {
+            "id": "2c",
+            "question": "For whom did Helen devote her life?",
+            "options": [
+              "Her family",
+              "Disabled people",
+              "Her teachers",
+              "Rich people"
+            ],
+            "correct": 1,
+            "explanation_bn": "হেলেন তাঁর জীবন অক্ষম ব্যক্তিদের জন্য উৎসর্গ করেছিলেন।",
+            "explanation_en": "Helen devoted her life to helping disabled people."
+          },
+          {
+            "id": "2d",
+            "question": "What limits the activities or senses of the disabled people?",
+            "options": [
+              "Laziness",
+              "Physical or mental problems",
+              "Lack of education",
+              "Poverty"
+            ],
+            "correct": 1,
+            "explanation_bn": "শারীরিক বা মানসিক সমস্যা অক্ষম ব্যক্তিদের কার্যকলাপ সীমিত করে।",
+            "explanation_en": "Their physical or mental problems limit their activities or senses."
+          },
+          {
+            "id": "2e",
+            "question": "When and where did Helen's formal education begin?",
+            "options": [
+              "In 1887 at Perkins School",
+              "In 1890 at Horace Mann School for the deaf in Boston",
+              "In 1892 at Wright Humason School",
+              "In 1896 at Cambridge School"
+            ],
+            "correct": 1,
+            "explanation_bn": "১৮৯০ সালে বোস্টনের হোরেস মান স্কুলে হেলেনের প্রাতিষ্ঠানিক শিক্ষা শুরু হয়।",
+            "explanation_en": "It began in 1890 at Horace Mann School for the deaf in Boston."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2",
+      "name": "Gap Fill & Vocabulary",
+      "type": "gap_fill_vocab",
+      "content": {
+        "gapFill": {
+          "passage": "Two sick men were (a) ______ in the same room in a hospital. One of them could sit up in his bed. His bed was (b) ______ the window.\n\nThe other man spent all his time lying on his bed opposite the window. Every day, the men (c) ______ for hours. The man in the bed by the window would sit up and talk to his roommate about all the things he could see (d) ______ the window.\n\nThe man on the other bed showed (e) ______ to listen that.",
+          "dialogPassage": "Two sick men were given the same room in a hospital. One man could sit up in his bed. His bed was next to the room's only window. The other man spent all his time lying on his bed opposite the window. The men talked for hours almost every day. They talked about their wives, children, homes, their jobs and almost about everything. Every afternoon the man in the bed by the window would sit up and talk to his roommate about all the things he could see outside the window. The man on the other bed eagerly waited for this speaking and listening time. His friend's vivid descriptions of passing things seen through the window inspired him to live. The window overlooked a park with a lovely lake. Ducks and swans played on the water, while children floated their paper boats. A wonderful view of the skyline could be seen in the distance. The man by the window told his friend all this in detail. The listener would close his eyes and see everything in his mind's eye.",
+          "boxWords": [
+            "kept",
+            "beside",
+            "talked",
+            "outside",
+            "eagerness",
+            "given",
+            "next",
+            "spent",
+            "inside"
+          ],
+          "blanks": [
+            {
+              "blankId": "a",
+              "correct": "kept",
+              "options": [
+                {
+                  "text": "kept",
+                  "isCorrect": true,
+                  "explanationBn": "দুই অসুস্থ লোককে একই কক্ষে রাখা হয়েছিল।",
+                  "explanationEn": "Two sick men were kept in the same room."
+                },
+                {
+                  "text": "given",
+                  "isCorrect": false,
+                  "explanationBn": "এটি 'kept'-এর পরিবর্তে ভুল শব্দ।",
+                  "explanationEn": "This is a wrong substitute for 'kept'."
+                },
+                {
+                  "text": "found",
+                  "isCorrect": false,
+                  "explanationBn": "তাদের 'রাখা' হয়েছিল, 'পাওয়া' যায়নি।",
+                  "explanationEn": "They were 'kept', not 'found'."
+                }
+              ]
+            },
+            {
+              "blankId": "b",
+              "correct": "beside",
+              "options": [
+                {
+                  "text": "beside",
+                  "isCorrect": true,
+                  "explanationBn": "তার বিছানা ছিল জানালার পাশে।",
+                  "explanationEn": "His bed was beside the window."
+                },
+                {
+                  "text": "inside",
+                  "isCorrect": false,
+                  "explanationBn": "এটি 'beside'-এর সঠিক প্রতিস্থাপন নয়।",
+                  "explanationEn": "This is not the correct replacement for 'beside'."
+                },
+                {
+                  "text": "under",
+                  "isCorrect": false,
+                  "explanationBn": "বিছানা জানালার নিচে ছিল না।",
+                  "explanationEn": "The bed was not under the window."
+                }
+              ]
+            },
+            {
+              "blankId": "c",
+              "correct": "talked",
+              "options": [
+                {
+                  "text": "talked",
+                  "isCorrect": true,
+                  "explanationBn": "প্রতিদিন তারা ঘন্টার পর ঘন্টা কথা বলত।",
+                  "explanationEn": "Every day, the men talked for hours."
+                },
+                {
+                  "text": "spent",
+                  "isCorrect": false,
+                  "explanationBn": "তারা কথা বলত, সময় কাটানো নয়।",
+                  "explanationEn": "They talked, not spent time in context."
+                },
+                {
+                  "text": "whispered",
+                  "isCorrect": false,
+                  "explanationBn": "তারা সাধারণভাবে কথা বলত, ফিসফিস করে নয়।",
+                  "explanationEn": "They talked normally, not whispered."
+                }
+              ]
+            },
+            {
+              "blankId": "d",
+              "correct": "outside",
+              "options": [
+                {
+                  "text": "outside",
+                  "isCorrect": true,
+                  "explanationBn": "তিনি জানালার বাইরে যা দেখতেন তা বর্ণনা করতেন।",
+                  "explanationEn": "He described things he could see outside the window."
+                },
+                {
+                  "text": "inside",
+                  "isCorrect": false,
+                  "explanationBn": "জানালার বাইরে, ভিতরে নয়।",
+                  "explanationEn": "Outside the window, not inside."
+                },
+                {
+                  "text": "through",
+                  "isCorrect": false,
+                  "explanationBn": "এটি প্রাসঙ্গিক নয়।",
+                  "explanationEn": "This is not relevant."
+                }
+              ]
+            },
+            {
+              "blankId": "e",
+              "correct": "eagerness",
+              "options": [
+                {
+                  "text": "eagerness",
+                  "isCorrect": true,
+                  "explanationBn": "অন্য লোকটি আগ্রহের সাথে শুনত।",
+                  "explanationEn": "The other man showed eagerness to listen."
+                },
+                {
+                  "text": "interest",
+                  "isCorrect": false,
+                  "explanationBn": "এটি 'eagerness'-এর অনুরূপ হলেও সঠিক নয়।",
+                  "explanationEn": "This is similar but not the correct word."
+                },
+                {
+                  "text": "patience",
+                  "isCorrect": false,
+                  "explanationBn": "সে 'আগ্রহ' দেখিয়েছিল, 'ধৈর্য' নয়।",
+                  "explanationEn": "He showed 'eagerness', not 'patience'."
+                }
+              ]
+            }
+          ]
+        },
+        "vocabQuestions": [
+          {
+            "id": "4a",
+            "question": "What is the antonym of 'lovely'?",
+            "options": [
+              "beautiful",
+              "ugly/ordinary/unlovely",
+              "nice",
+              "pleasant"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Lovely'-এর বিপরীত শব্দ 'ugly' বা 'ordinary' (কুৎসিত/সাধারণ)।",
+            "explanation_en": "The antonym of 'lovely' is 'ugly', 'ordinary', or 'unlovely'."
+          },
+          {
+            "id": "4b",
+            "question": "What is the synonym of 'description'?",
+            "options": [
+              "narration/portrayal/account",
+              "silence",
+              "confusion",
+              "ignorance"
+            ],
+            "correct": 0,
+            "explanation_bn": "'Description'-এর সমার্থক শব্দ 'narration', 'portrayal' বা 'account' (বর্ণনা)।",
+            "explanation_en": "The synonym of 'description' is 'narration', 'portrayal', or 'account'."
+          },
+          {
+            "id": "4c",
+            "question": "What is the antonym of 'detail'?",
+            "options": [
+              "elaborate",
+              "brief/short",
+              "complete",
+              "thorough"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Detail'-এর বিপরীত শব্দ 'brief' বা 'short' (সংক্ষিপ্ত)।",
+            "explanation_en": "The antonym of 'detail' is 'brief' or 'short'."
+          },
+          {
+            "id": "4d",
+            "question": "What is the synonym of 'allow'?",
+            "options": [
+              "forbid",
+              "prevent",
+              "permit/let",
+              "deny"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Allow'-এর সমার্থক শব্দ 'permit' বা 'let' (অনুমতি দেওয়া)।",
+            "explanation_en": "The synonym of 'allow' is 'permit' or 'let'."
+          },
+          {
+            "id": "4e",
+            "question": "What is the antonym of 'blind'?",
+            "options": [
+              "sightless",
+              "disabled",
+              "sighted",
+              "deaf"
+            ],
+            "correct": 2,
+            "explanation_bn": "'Blind'-এর বিপরীত শব্দ 'sighted' (দৃষ্টিসম্পন্ন)।",
+            "explanation_en": "The antonym of 'blind' is 'sighted'."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch3",
+      "name": "Biographical Passage & Summary",
+      "type": "passage_summary",
+      "content": {
+        "passage": "Feroza's childhood was full of sufferings and sorrows. There was the extreme want of food, want of shelter, and want of clothing. In 1972, at the age of 12, she was married to an unemployed man of her double age.\n\nFeroza entered her husband's house with a dream to have a life without the problems she faced before her marriage. But all she saw was more want. It was Feroza who worked for a handful of grains to feed herself, her mother-in-law and her husband.\n\nFrom morning till dark she worked. When her first son was born, she was 19. In the next year Feroza's second son was born.\n\nThe birth of these children meant additional mouths to feed. Eight years went by and Feroza was still struggling for herself and her family. When she was 24, her third son was born.\n\nHer husband was still unwilling to work and therefore she had to work even harder to feed all the six mouths. Each day became more difficult to Feroza. After the birth of her third son, her toiling five years went away.\n\nOne day she came to learn about the Grameen Bank. She became hopeful and engaged herself with its activities to overcome her hard days.",
+        "translation_bn": "ফিরোজার শৈশব ছিল দুঃখ ও কষ্টে ভরা। সেখানে ছিল খাবার, আশ্রয় ও পোশাকের চরম অনটন। ১৯৭২ সালে ১২ বছর বয়সে তাকে তার দ্বিগুণ বয়সী এক বেকার লোকের সাথে বিয়ে দেওয়া হলো। ফিরোজা তার বিয়ের আগে সম্মুখীন হওয়া সমস্যামুক্ত একটি জীবনের স্বপ্ন নিয়ে তার স্বামীর ঘরে প্রবেশ করেছিল। কিন্তু সর্বত্র সে দেখল আরও অনটন। এই সেই ফিরোজা, যে নিজেকে, তার শাশুড়িকে ও তার স্বামীকে খাওয়ানোর জন্য একমুঠো খাবারের আশায় কাজ করত। সকাল থেকে সন্ধ্যা পর্যন্ত সে কাজ করত। যখন তার প্রথম ছেলে হলো, তার বয়স ছিল ১৯। পরের বছর ফিরোজার দ্বিতীয় ছেলে জন্ম নিল। এইসব বাচ্চাদের জন্মের কারণে খাওয়ানোর জন্য অতিরিক্ত মুখ বেড়ে গেল। আট বছর চলে গেল এবং ফিরোজা তার ও তার পরিবারের জন্য তখনও সংগ্রাম করছিল। যখন তার বয়স ২৪ বছর হলো, তার তৃতীয় সন্তান জন্ম নিল। তার স্বামী তখনও কাজ করতে অনিচ্ছুক ছিল এবং তাই তাকে ছয়টি মুখের জন্য আরও কঠোর পরিশ্রম করতে হত। প্রতিটি দিন ফিরোজার কাছে অনেক কঠিন মনে হতো। তার তৃতীয় সন্তানের জন্মের পর তার দুঃখের পাঁচটি বছর চলে গেল। একদিন সে গ্রামীণ ব্যাংক সম্পর্কে জানতে পারল। সে এটাকে আশাব্যঞ্জক মনে করল এবং তার কষ্টের দিনগুলোর ওপর বিজয়ী হতে নিজেকে এর সাথে যুক্ত করল।",
+        "vocabulary": [
+          {
+            "word": "engage",
+            "pos": "v",
+            "meaning_en": "to involve oneself",
+            "meaning_bn": "নিযুক্ত হওয়া",
+            "synonym": "involve",
+            "antonym": "disengage"
+          },
+          {
+            "word": "extreme",
+            "pos": "adj",
+            "meaning_en": "very great in degree",
+            "meaning_bn": "চরম",
+            "synonym": "intense",
+            "antonym": "moderate"
+          },
+          {
+            "word": "handful",
+            "pos": "n",
+            "meaning_en": "a small amount",
+            "meaning_bn": "একমুঠো",
+            "synonym": "small amount",
+            "antonym": "lot"
+          },
+          {
+            "word": "hopeful",
+            "pos": "adj",
+            "meaning_en": "feeling optimism",
+            "meaning_bn": "আশাবাদী",
+            "synonym": "optimistic",
+            "antonym": "hopeless"
+          },
+          {
+            "word": "overcome",
+            "pos": "v",
+            "meaning_en": "to conquer",
+            "meaning_bn": "অতিক্রম করা",
+            "synonym": "conquer, win",
+            "antonym": "yield"
+          },
+          {
+            "word": "suffering",
+            "pos": "n",
+            "meaning_en": "pain or distress",
+            "meaning_bn": "ভোগান্তি",
+            "synonym": "misery, pain",
+            "antonym": "comfort"
+          },
+          {
+            "word": "unemployed",
+            "pos": "adj",
+            "meaning_en": "jobless",
+            "meaning_bn": "বেকার",
+            "synonym": "jobless",
+            "antonym": "employed"
+          },
+          {
+            "word": "unwilling",
+            "pos": "adj",
+            "meaning_en": "not willing",
+            "meaning_bn": "অনিচ্ছুক",
+            "synonym": "reluctant",
+            "antonym": "willing"
+          }
+        ],
+        "mcqQuestions": [
+          {
+            "id": "5i",
+            "question": "When was Feroza born?",
+            "options": [
+              "1960",
+              "1948",
+              "1972",
+              "1979"
+            ],
+            "correct": 0,
+            "explanation_bn": "ফিরোজা ১৯৬০ সালে জন্মগ্রহণ করেন (১২ বছর বয়সে ১৯৭২ সালে বিয়ে হয়)।",
+            "explanation_en": "Feroza was born in 1960 (she was 12 in 1972 when she got married)."
+          },
+          {
+            "id": "5ii",
+            "question": "When did Feroza get married?",
+            "options": [
+              "1960",
+              "1948",
+              "1979",
+              "1972"
+            ],
+            "correct": 3,
+            "explanation_bn": "১৯৭২ সালে ফিরোজার বিয়ে হয়।",
+            "explanation_en": "Feroza got married in 1972."
+          },
+          {
+            "id": "5iii",
+            "question": "How old was Feroza when her first son was born?",
+            "options": [
+              "12",
+              "19",
+              "24",
+              "29"
+            ],
+            "correct": 1,
+            "explanation_bn": "তার বয়স ছিল ১৯ যখন প্রথম ছেলে জন্মায়।",
+            "explanation_en": "She was 19 when her first son was born."
+          },
+          {
+            "id": "5iv",
+            "question": "In which year was Feroza's third son born?",
+            "options": [
+              "1972",
+              "1979",
+              "1980",
+              "1984"
+            ],
+            "correct": 3,
+            "explanation_bn": "তার তৃতীয় ছেলে জন্মায় যখন তার বয়স ২৪ (১৯৬০+২৪=১৯৮৪)।",
+            "explanation_en": "Her third son was born when she was 24 (1960+24=1984)."
+          },
+          {
+            "id": "5v",
+            "question": "In which year did Feroza engage with Grameen Bank?",
+            "options": [
+              "1979",
+              "1980",
+              "1984",
+              "1989"
+            ],
+            "correct": 3,
+            "explanation_bn": "তৃতীয় সন্তানের জন্মের (১৯৮৪) পাঁচ বছর পর ১৯৮৯ সালে গ্রামীণ ব্যাংকের সাথে যুক্ত হন।",
+            "explanation_en": "Five years after her third son's birth (1984+5=1989), she engaged with Grameen Bank."
+          }
+        ],
+        "trueFalseQuestions": [
+          {
+            "id": "6a",
+            "question": "Feroza's parents were poor.",
+            "options": [
+              "True",
+              "False",
+              "Not mentioned",
+              "They were rich"
+            ],
+            "correct": 0,
+            "explanation_bn": "ফিরোজার শৈশব ছিল অভাব ও কষ্টে ভরা, যা ইঙ্গিত করে তার পরিবার দরিদ্র ছিল।",
+            "explanation_en": "True. Her childhood was full of sufferings and wants."
+          },
+          {
+            "id": "6b",
+            "question": "Feroza had a dream to have a luxurious life after her marriage.",
+            "options": [
+              "True",
+              "False. She had a dream to have a life without the problems she faced before her marriage.",
+              "False. She dreamed of riches.",
+              "False. She had no dreams."
+            ],
+            "correct": 1,
+            "explanation_bn": "ফিরোজা বিয়ের আগের সমস্যামুক্ত একটি জীবনের স্বপ্ন দেখেছিলেন।",
+            "explanation_en": "Feroza dreamed of a life without the problems she faced before marriage."
+          },
+          {
+            "id": "6c",
+            "question": "Feroza's husband's family was poorer than her parents.",
+            "options": [
+              "True",
+              "False",
+              "Not mentioned",
+              "They were rich"
+            ],
+            "correct": 0,
+            "explanation_bn": "তার স্বামী বেকার ছিলেন এবং পরিবারে আরও অভাব ছিল।",
+            "explanation_en": "Her husband was unemployed and there was more want."
+          },
+          {
+            "id": "6d",
+            "question": "Feroza's husband was unwilling to work.",
+            "options": [
+              "True",
+              "False. He worked hard.",
+              "False. He was employed.",
+              "Not mentioned"
+            ],
+            "correct": 0,
+            "explanation_bn": "তার স্বামী কাজ করতে অনিচ্ছুক ছিলেন।",
+            "explanation_en": "True. Her husband was unwilling to work."
+          },
+          {
+            "id": "6e",
+            "question": "Feroza engaged herself with the activities of Grameen Bank at age 29.",
+            "options": [
+              "True",
+              "False",
+              "Not mentioned",
+              "She engaged at age 24"
+            ],
+            "correct": 0,
+            "explanation_bn": "তৃতীয় সন্তানের জন্মের পাঁচ বছর পর (২৪+৫=২৯ বছর বয়সে) তিনি গ্রামীণ ব্যাংকের সাথে যুক্ত হন।",
+            "explanation_en": "She engaged with Grameen Bank five years after her third son's birth (at age 29)."
+          }
+        ],
+        "summary": "Firoza had a tough childhood with ever want of food, shelter and clothing. At 12, she was married to an unemployed man. She worked hard to feed her family, including her husband and mother-in-law. After having three children, Firoza continued struggling as her husband did not work. Life became very difficult for her. At 24, she learned about the Grameen Bank, which gave her hope to overcome her bad days and improve her life."
+      }
+    },
+    {
+      "id": "ch4",
+      "name": "Sentence Making",
+      "type": "sentence_matching",
+      "content": {
+        "exercise": {
+          "id": 1,
+          "question_text": "Match the parts of sentences from Column A and Column B to make five complete sentences.",
+          "table_columns": [
+            [
+              "Students have",
+              "First of all, he",
+              "Students can",
+              "Most of the people",
+              "Students can provide"
+            ],
+            [
+              "also render service to the country.",
+              "some duties to perform.",
+              "education to poor helpless people.",
+              "of our country are illiterate.",
+              "has to study hard."
+            ]
+          ],
+          "valid_sentences": [
+            {
+              "sentence": "Students have some duties to perform.",
+              "combination": [
+                "Students have",
+                "some duties to perform."
+              ],
+              "explanation_en": "This states that students have responsibilities.",
+              "explanation_bn": "এটি বলে যে শিক্ষার্থীদের কিছু কর্তব্য পালন করতে হয়।"
+            },
+            {
+              "sentence": "First of all, he has to study hard.",
+              "combination": [
+                "First of all, he",
+                "has to study hard."
+              ],
+              "explanation_en": "This shows the first duty of a student.",
+              "explanation_bn": "এটি একজন শিক্ষার্থীর প্রথম কর্তব্য দেখায়।"
+            },
+            {
+              "sentence": "Students can also render service to the country.",
+              "combination": [
+                "Students can",
+                "also render service to the country."
+              ],
+              "explanation_en": "This shows how students can serve the country.",
+              "explanation_bn": "এটি দেখায় কীভাবে শিক্ষার্থীরা দেশের সেবা করতে পারে।"
+            },
+            {
+              "sentence": "Most of the people of our country are illiterate.",
+              "combination": [
+                "Most of the people",
+                "of our country are illiterate."
+              ],
+              "explanation_en": "This describes the literacy situation of the country.",
+              "explanation_bn": "এটি দেশের শিক্ষার অবস্থা বর্ণনা করে।"
+            },
+            {
+              "sentence": "Students can provide education to poor helpless people.",
+              "combination": [
+                "Students can provide",
+                "education to poor helpless people."
+              ],
+              "explanation_en": "This shows how students can help educate the poor.",
+              "explanation_bn": "এটি দেখায় কীভাবে শিক্ষার্থীরা দরিদ্র মানুষকে শিক্ষা দিতে পারে।"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch5",
+      "name": "Rearranging",
+      "type": "rearrangement",
+      "content": {
+        "sentences": [
+          {
+            "id": "a",
+            "text": "Aristotle, achieving his academic qualifications, took to the pen to write on different topics suitable for human civilization."
+          },
+          {
+            "id": "b",
+            "text": "Aristotle was born in Greece."
+          },
+          {
+            "id": "c",
+            "text": "As a result, from his childhood, he studied under a great free thinker, Plato."
+          },
+          {
+            "id": "d",
+            "text": "He was the son of a royal physician."
+          },
+          {
+            "id": "e",
+            "text": "He also wrote books on literature, biology, economics and comparative politics."
+          },
+          {
+            "id": "f",
+            "text": "His father wanted him to be a physician but he never cherished to be so."
+          },
+          {
+            "id": "g",
+            "text": "He wanted to be a free thinker."
+          },
+          {
+            "id": "h",
+            "text": "Plato taught Aristotle according to his own way."
+          }
+        ],
+        "correctOrder": [
+          "b",
+          "d",
+          "f",
+          "g",
+          "c",
+          "h",
+          "a",
+          "e"
+        ],
+        "reconstructedParagraph": "Aristotle was born in Greece. He was the son of a royal physician. His father wanted him to be a physician but he never cherished to be so. He wanted to be a free thinker. As a result, from his childhood, he studied under a great free thinker, Plato. Plato taught Aristotle according to his own way. Aristotle, achieving his academic qualifications, took to the pen to write on different topics suitable for human civilization. He also wrote books on literature, biology, economics and comparative politics."
+      }
+    },
+    {
+      "id": "ch6",
+      "name": "Poetry MCQ",
+      "type": "poetry_mcq",
+      "content": {
+        "questions": [
+          {
+            "id": "10a",
+            "question": "In the poem 'Whose Child Is This?', how did the parent and the teacher answer?",
+            "options": [
+              "With anger",
+              "With a tender smile",
+              "With silence",
+              "With sadness"
+            ],
+            "correct": 1,
+            "explanation_bn": "পিতামাতা এবং শিক্ষক উভয়েই কোমল হাসি দিয়ে উত্তর দিয়েছেন।",
+            "explanation_en": "Both the parent and the teacher answered with a tender smile."
+          },
+          {
+            "id": "10b",
+            "question": "According to the poem 'Whose Child Is This?', how long do the parent and the teacher keep the child?",
+            "options": [
+              "Forever",
+              "For a short period of time",
+              "Until adulthood",
+              "Never"
+            ],
+            "correct": 1,
+            "explanation_bn": "কবিতা অনুসারে, পিতামাতা এবং শিক্ষক উভয়েই শিশুটিকে অল্প সময়ের জন্য রাখেন।",
+            "explanation_en": "According to the poem, both the parent and the teacher keep the child for a short period of time."
+          },
+          {
+            "id": "10c",
+            "question": "Who asked the question 'Whose Child Is This?' in the poem?",
+            "options": [
+              "The parent",
+              "The teacher",
+              "The speaker of the poem",
+              "The child"
+            ],
+            "correct": 2,
+            "explanation_bn": "কবিতায় বক্তা 'এটি কার সন্তান?' প্রশ্নটি করেছিলেন।",
+            "explanation_en": "The speaker of the poem asked the question."
+          },
+          {
+            "id": "10d",
+            "question": "What have been compared to 'skies at night' in the poem 'Leisure'?",
+            "options": [
+              "Trees",
+              "Streams",
+              "Mountains",
+              "Fields"
+            ],
+            "correct": 1,
+            "explanation_bn": "'Leisure' কবিতায় স্রোতকে রাতের আকাশের সাথে তুলনা করা হয়েছে।",
+            "explanation_en": "Streams have been compared to 'skies at night' in the poem 'Leisure'."
+          },
+          {
+            "id": "10e",
+            "question": "When can people see 'streams full of stars' according to the poem 'Leisure'?",
+            "options": [
+              "At night",
+              "During the day",
+              "In the evening",
+              "At dawn"
+            ],
+            "correct": 1,
+            "explanation_bn": "কবিতা অনুসারে, দিনের বেলায় মানুষ 'তারাভরা স্রোত' দেখতে পায়।",
+            "explanation_en": "According to the poem, people can see 'streams full of stars' during the day."
+          },
+          {
+            "id": "10f",
+            "question": "What does the phrase 'whistle by' mean in the poem 'From a Railway Carriage'?",
+            "options": [
+              "The train whistles loudly",
+              "The train moves quickly past the stations",
+              "The passengers whistle",
+              "The train stops"
+            ],
+            "correct": 1,
+            "explanation_bn": "কবিতায় 'whistle by' অর্থ ট্রেনটি দ্রুত স্টেশন অতিক্রম করে চলে যায়।",
+            "explanation_en": "In the poem, 'whistle by' means the train moves quickly past the stations."
+          },
+          {
+            "id": "10g",
+            "question": "In the poem 'From a Railway Carriage', what expressions does the poet use to show the amazing speed of the train?",
+            "options": [
+              "Slow and steady",
+              "Faster than fairies, faster than witches, charging along like troops",
+              "Like a walking man",
+              "Like a flowing river"
+            ],
+            "correct": 1,
+            "explanation_bn": "কবি 'faster than fairies', 'faster than witches', 'charging along like troops'-এর মতো অভিব্যক্তি ব্যবহার করেন।",
+            "explanation_en": "The poet uses expressions like 'faster than fairies', 'faster than witches', 'charging along like troops'."
+          },
+          {
+            "id": "10h",
+            "question": "Explain why the poet thinks the sights are flying in the poem 'From a Railway Carriage'.",
+            "options": [
+              "Because the train is slow",
+              "Because the sights are visible only for a very short period as the train moves at high speed",
+              "Because he is dreaming",
+              "Because the sights are imaginary"
+            ],
+            "correct": 1,
+            "explanation_bn": "ট্রেন দ্রুতগতিতে চলার কারণে দৃশ্যগুলো ক্ষণিকের জন্য দেখা যায় এবং সাথে সাথে অদৃশ্য হয়ে যায়।",
+            "explanation_en": "The sights are visible only for a very short period as the train moves at high speed."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -61,14 +61,14 @@ const Admin = () => {
     };
 
     return (
-        <div className="max-w-5xl mx-auto space-y-8">
+        <div className="max-w-5xl mx-auto space-y-4 md:space-y-8">
             <div>
-                <h1 className="text-4xl font-black text-white italic tracking-tighter uppercase">Local Admin Studio</h1>
-                <p className="text-white/30 font-bold uppercase tracking-widest text-[10px] mt-2">Testing mode: all writes go to browser localStorage</p>
+                <h1 className="text-xl md:text-4xl font-black text-white tracking-tighter uppercase">Local Admin Studio</h1>
+                <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-[10px] mt-1 md:mt-2">Testing mode: all writes go to browser localStorage</p>
             </div>
 
             {message.text && (
-                <div className={`p-4 rounded-2xl border flex items-center gap-3 ${message.type === 'success'
+                <div className={`p-4 rounded-xl md:rounded-2xl border flex items-center gap-3 ${message.type === 'success'
                         ? 'bg-emerald-500/10 border-emerald-500/20 text-emerald-500'
                         : 'bg-yellow-500/10 border-yellow-500/30 text-yellow-400'
                     }`}>
@@ -77,24 +77,24 @@ const Admin = () => {
                 </div>
             )}
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                <div className="bg-surface border border-white/5 rounded-3xl p-6 space-y-4">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6">
+                <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl p-5 md:p-6 space-y-3 md:space-y-4">
                     <h2 className="text-white font-black uppercase tracking-widest text-xs flex items-center gap-2"><Plus className="w-4 h-4" /> Add Course</h2>
                     <input
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white"
+                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
                         placeholder="Course title"
                         value={courseData.title}
                         onChange={(e) => setCourseData({ ...courseData, title: e.target.value })}
                     />
                     <textarea
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white"
+                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
                         placeholder="Description"
                         rows={3}
                         value={courseData.description}
                         onChange={(e) => setCourseData({ ...courseData, description: e.target.value })}
                     />
                     <input
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white"
+                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
                         placeholder="Instructor"
                         value={courseData.instructor_name}
                         onChange={(e) => setCourseData({ ...courseData, instructor_name: e.target.value })}
@@ -102,22 +102,22 @@ const Admin = () => {
                     <button
                         onClick={saveCourse}
                         disabled={loading}
-                        className="w-full py-3 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px]"
+                        className="w-full py-3 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.98]"
                     >
                         Save Course
                     </button>
                 </div>
 
-                <div className="bg-surface border border-white/5 rounded-3xl p-6 space-y-4">
+                <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl p-5 md:p-6 space-y-3 md:space-y-4">
                     <h2 className="text-white font-black uppercase tracking-widest text-xs flex items-center gap-2"><Video className="w-4 h-4" /> Add Video</h2>
                     <input
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white"
+                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
                         placeholder="Video title"
                         value={videoData.title}
                         onChange={(e) => setVideoData({ ...videoData, title: e.target.value })}
                     />
                     <input
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white"
+                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
                         placeholder="Video URL"
                         value={videoData.video_url}
                         onChange={(e) => setVideoData({ ...videoData, video_url: e.target.value })}
@@ -125,30 +125,30 @@ const Admin = () => {
                     <button
                         onClick={saveVideo}
                         disabled={loading}
-                        className="w-full py-3 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px]"
+                        className="w-full py-3 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.98]"
                     >
                         Save Video
                     </button>
                 </div>
 
-                <div className="bg-surface border border-white/5 rounded-3xl p-6 space-y-4">
+                <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl p-5 md:p-6 space-y-3 md:space-y-4">
                     <h2 className="text-white font-black uppercase tracking-widest text-xs flex items-center gap-2"><ClipboardList className="w-4 h-4" /> Add Mock Test</h2>
                     <input
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white"
+                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
                         placeholder="Mock title"
                         value={mockData.title}
                         onChange={(e) => setMockData({ ...mockData, title: e.target.value })}
                     />
                     <input
                         type="number"
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white"
+                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
                         placeholder="Duration"
                         value={mockData.duration_minutes}
                         onChange={(e) => setMockData({ ...mockData, duration_minutes: Number(e.target.value) })}
                     />
                     <input
                         type="number"
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white"
+                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
                         placeholder="Questions"
                         value={mockData.total_questions}
                         onChange={(e) => setMockData({ ...mockData, total_questions: Number(e.target.value) })}
@@ -156,7 +156,7 @@ const Admin = () => {
                     <button
                         onClick={saveMock}
                         disabled={loading}
-                        className="w-full py-3 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px]"
+                        className="w-full py-3 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.98]"
                     >
                         Save Mock
                     </button>

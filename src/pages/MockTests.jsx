@@ -1,21 +1,24 @@
 import React, { useState, useEffect } from 'react';
-import { Timer, ClipboardList, TrendingUp, Lock, ArrowRight, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Timer, ClipboardList, TrendingUp, Lock, ArrowRight, CheckCircle2, Star } from 'lucide-react';
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
+import { Target, Trophy } from '../components/Illustrations';
+import LoadingScreen from '../components/LoadingScreen';
 
 const MockTests = () => {
-    const { user, profile } = useAuth();
+    const { profile } = useAuth();
     const navigate = useNavigate();
     const [tests, setTests] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchTests = async () => {
-            const { data } = await api.getMockTests('IBA'); // Defaulting to IBA for now
+            const { data } = await api.getMockTests('IBA');
             setTests(data || []);
             setLoading(false);
         };
+
         fetchTests();
     }, []);
 
@@ -23,143 +26,146 @@ const MockTests = () => {
         navigate(`/quiz/${testId}?isMock=true`);
     };
 
-    if (loading) return (
-        <div className="flex flex-col items-center justify-center p-20 space-y-4">
-            <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
-            <p className="text-white/20 font-black uppercase tracking-[0.3em] text-[10px]">Preparing Exam Hall...</p>
-        </div>
-    );
+    if (loading) return <LoadingScreen message="Preparing exam hall..." />;
 
     return (
-        <div className="max-w-7xl mx-auto space-y-12">
-            {/* Hero Section */}
-            <div className="bg-primary/5 border border-primary/20 p-10 md:p-16 rounded-[3rem] relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10">
-                <div className="absolute top-0 left-0 w-64 h-64 bg-primary/10 blur-[100px] rounded-full"></div>
+        <div className="mx-auto max-w-7xl space-y-8 md:space-y-12">
+            <div className="relative flex flex-col items-center justify-between gap-8 overflow-hidden rounded-2xl md:rounded-3xl border border-white/5 bg-surface p-6 md:p-16 shadow-xl">
+                <div className="absolute -right-6 md:-right-12 -top-6 md:-top-12 opacity-[0.03] pointer-events-none">
+                    <Trophy className="w-40 h-40 md:w-64 md:h-64" />
+                </div>
 
-                <div className="relative z-10 space-y-6 max-w-xl">
-                    <h1 className="text-5xl md:text-6xl font-black text-white italic tracking-tighter leading-none">
-                        SIMULATE THE <span className="text-primary not-italic uppercase">EVENT.</span>
+                <div className="relative z-10 max-w-xl space-y-5">
+                    <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[10px] font-black uppercase tracking-[0.25em] text-white/60">
+                        <Star className="h-4 w-4 text-reward fill-current" />
+                        Timed challenge mode
+                    </div>
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-black tracking-tighter text-white leading-none">
+                        SIMULATE THE <span className="text-primary">EVENT.</span>
                     </h1>
-                    <p className="text-white/40 font-medium text-sm leading-relaxed uppercase tracking-wider">
-                        Full-length mock tests designed to mimic real exams. Track your scoring accuracy and time management.
+                    <p className="text-xs md:text-sm font-medium uppercase tracking-wider leading-relaxed text-white/40">
+                        Full-length mock tests that keep the pressure on while still feeling rewarding.
                     </p>
-                    <div className="flex items-center gap-6">
+                    <div className="flex flex-wrap items-center gap-4 md:gap-6">
                         <div className="flex items-center gap-2">
-                            <CheckCircle2 className="w-4 h-4 text-emerald-500" />
-                            <span className="text-[10px] font-black text-white/40 uppercase tracking-widest">Auto Eval</span>
+                            <CheckCircle2 className="h-4 w-4 text-primary" />
+                            <span className="text-[10px] font-black uppercase tracking-widest text-white/40">Auto Eval</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <CheckCircle2 className="w-4 h-4 text-emerald-500" />
-                            <span className="text-[10px] font-black text-white/40 uppercase tracking-widest">Detail Sol</span>
+                            <Star className="h-4 w-4 text-reward fill-current" />
+                            <span className="text-[10px] font-black uppercase tracking-widest text-white/40">Detail Sol</span>
                         </div>
                     </div>
                 </div>
 
-                <div className="relative z-10 bg-surface border border-white/5 p-8 rounded-[2rem] shadow-2xl min-w-[280px]">
-                    <div className="flex items-center justify-between mb-8">
-                        <TrendingUp className="text-primary w-8 h-8" />
-                        <span className="text-[9px] font-black text-white/20 uppercase tracking-widest">Global Rank</span>
+                <div className="relative z-10 w-full md:min-w-[240px] md:max-w-xs rounded-2xl border border-white/5 bg-surface/80 p-4 md:p-8 shadow-lg">
+                    <div className="mb-6 flex items-center justify-between">
+                        <TrendingUp className="h-6 w-6 md:h-8 md:w-8 text-primary" />
+                        <span className="text-[9px] font-black uppercase tracking-widest text-white/20">Global Rank</span>
                     </div>
-                    <div className="space-y-4">
-                        <div className="h-2 bg-white/5 rounded-full overflow-hidden">
-                            <div className="h-full bg-primary w-[75%]"></div>
+                    <div className="space-y-3">
+                        <div className="h-2 overflow-hidden rounded-full bg-white/5">
+                            <div className="h-full w-[75%] bg-primary rounded-full" />
                         </div>
-                        <p className="text-[10px] font-bold text-white/30 uppercase tracking-[0.2em]">Ready for IBA: <span className="text-white italic">75%</span></p>
+                        <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/30">
+                            Ready for IBA: <span className="text-white">75%</span>
+                        </p>
                     </div>
                 </div>
             </div>
 
-            {/* Test Categories */}
-            <div className="space-y-8">
+            <div className="space-y-6">
                 <div className="flex items-center gap-4">
-                    <h2 className="text-2xl font-black text-white italic tracking-tighter uppercase whitespace-nowrap">Full-Length Mocks</h2>
-                    <div className="h-px bg-white/5 flex-1"></div>
+                    <h2 className="whitespace-nowrap text-lg md:text-2xl font-black uppercase tracking-tighter text-white">Full-Length Mocks</h2>
+                    <div className="h-px flex-1 bg-white/5" />
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-2 lg:grid-cols-3">
                     {tests.length > 0 ? tests.map((test) => (
-                        <div key={test.id} className="bg-surface border border-white/5 rounded-[2.5rem] p-8 hover:border-primary/30 transition-all group group relative">
+                        <div key={test.id} className="group relative rounded-2xl md:rounded-[2.5rem] border border-white/5 bg-surface p-6 md:p-8 transition-all hover:-translate-y-0.5 hover:border-primary/30 active:scale-[0.98]">
                             {test.is_premium && profile?.plan_type !== 'premium' && (
-                                <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px] z-10 rounded-[2.5rem] flex items-center justify-center p-8 text-center">
+                                <div className="absolute inset-0 z-10 flex items-center justify-center rounded-2xl md:rounded-[2.5rem] bg-black/60 p-8 text-center">
                                     <div className="space-y-4">
-                                        <Lock className="w-10 h-10 text-white/20 mx-auto" />
+                                        <Lock className="mx-auto h-8 w-8 md:h-10 md:w-10 text-white/20" />
                                         <div>
-                                            <p className="text-[10px] font-black text-white uppercase tracking-widest">Premium Content</p>
-                                            <p className="text-[9px] text-white/30 font-bold uppercase tracking-widest">Upgrade to access full mocks</p>
+                                            <p className="text-[10px] font-black uppercase tracking-widest text-white">Premium Content</p>
+                                            <p className="text-[9px] font-bold uppercase tracking-widest text-white/30">Upgrade to access full mocks</p>
                                         </div>
                                     </div>
                                 </div>
                             )}
 
-                            <div className="space-y-6">
+                            <div className="space-y-5">
                                 <div className="flex items-start justify-between">
-                                    <div className="w-14 h-14 bg-white/5 rounded-2xl flex items-center justify-center border border-white/5 group-hover:bg-primary/10 transition-colors">
-                                        <ClipboardList className="w-6 h-6 text-primary" />
+                                    <div className="flex h-12 w-12 md:h-14 md:w-14 items-center justify-center rounded-xl md:rounded-[1.4rem] border border-white/5 bg-white/5 transition-colors group-hover:bg-primary/10">
+                                        <ClipboardList className="h-5 w-5 md:h-6 md:w-6 text-primary" />
                                     </div>
                                     <div className="text-right">
-                                        <p className="text-[9px] font-black text-white/20 uppercase tracking-[0.2em] mb-1">Duration</p>
-                                        <p className="text-sm font-black text-white italic">{test.duration_minutes}m</p>
+                                        <p className="mb-1 text-[9px] font-black uppercase tracking-[0.2em] text-white/20">Duration</p>
+                                        <p className="text-sm font-black text-white">{test.duration_minutes}m</p>
                                     </div>
                                 </div>
 
                                 <div>
-                                    <h3 className="text-xl font-black text-white italic tracking-tight mb-2 group-hover:text-primary transition-colors">{test.title}</h3>
+                                    <h3 className="mb-1 text-lg md:text-xl font-black tracking-tight text-white transition-colors group-hover:text-primary">{test.title}</h3>
                                     <div className="flex items-center gap-4">
-                                        <div className="flex items-center gap-1 text-[9px] font-bold text-white/30 uppercase tracking-widest">
-                                            <Timer className="w-3 h-3 text-emerald-500/50" /> {test.total_questions} Questions
+                                        <div className="flex items-center gap-1 text-[9px] font-bold uppercase tracking-widest text-white/30">
+                                            <Timer className="h-3 w-3 text-primary/50" /> {test.total_questions} Questions
                                         </div>
                                     </div>
                                 </div>
 
                                 <button
                                     onClick={() => startTest(test.id)}
-                                    className="w-full py-4 bg-primary hover:bg-primary-hover text-white rounded-2xl font-black uppercase tracking-widest text-[9px] shadow-xl shadow-primary/20 transition-all flex items-center justify-center gap-2 active:scale-95"
+                                    className="flex w-full items-center justify-center gap-2 rounded-xl md:rounded-[1.4rem] bg-primary py-3 md:py-4 text-[9px] font-black uppercase tracking-widest text-black shadow-lg shadow-primary/20 transition-all active:scale-95 hover:bg-primary-hover"
                                 >
-                                    Start Mock Test <ArrowRight className="w-4 h-4" />
+                                    Start Mock Test <ArrowRight className="h-4 w-4" />
                                 </button>
                             </div>
                         </div>
                     )) : (
-                        <>
-                            {/* Static Mock for Preview if DB is empty */}
-                            <div className="bg-surface border border-white/5 rounded-[2.5rem] p-8 opacity-60">
-                                <div className="space-y-6 blur-[1px]">
-                                    <div className="flex items-start justify-between">
-                                        <div className="w-14 h-14 bg-white/5 rounded-2xl flex items-center justify-center border border-white/5">
-                                            <ClipboardList className="w-6 h-6 text-white/20" />
-                                        </div>
-                                        <div className="text-right text-white/10">
-                                            <p className="text-[9px] font-black uppercase tracking-[0.2em] mb-1">Duration</p>
-                                            <p className="text-sm font-black italic">120m</p>
-                                        </div>
+                        <div className="rounded-2xl md:rounded-[2.5rem] border border-white/5 bg-surface p-6 md:p-8 opacity-60">
+                            <div className="space-y-5 blur-[1px]">
+                                <div className="flex items-start justify-between">
+                                    <div className="flex h-12 w-12 md:h-14 md:w-14 items-center justify-center rounded-xl md:rounded-[1.4rem] border border-white/5 bg-white/5">
+                                        <ClipboardList className="h-5 w-5 md:h-6 md:w-6 text-white/20" />
                                     </div>
-                                    <div>
-                                        <h3 className="text-xl font-black text-white/20 italic tracking-tight mb-2">IBA FULL MOCK #01</h3>
-                                        <div className="flex items-center gap-1 text-[9px] font-bold text-white/10 uppercase tracking-widest">
-                                            <Timer className="w-3 h-3" /> 100 Questions
-                                        </div>
+                                    <div className="text-right text-white/10">
+                                        <p className="mb-1 text-[9px] font-black uppercase tracking-[0.2em]">Duration</p>
+                                        <p className="text-sm font-black">120m</p>
                                     </div>
-                                    <button className="w-full py-4 bg-white/5 text-white/10 rounded-2xl font-black uppercase tracking-widest text-[9px] cursor-not-allowed">
-                                        Mock Coming Soon
-                                    </button>
                                 </div>
+                                <div>
+                                    <h3 className="mb-1 text-lg md:text-xl font-black tracking-tight text-white/20">IBA FULL MOCK #01</h3>
+                                    <div className="flex items-center gap-1 text-[9px] font-bold uppercase tracking-widest text-white/10">
+                                        <Timer className="h-3 w-3" /> 100 Questions
+                                    </div>
+                                </div>
+                                <button className="w-full cursor-not-allowed rounded-xl md:rounded-[1.4rem] bg-white/5 py-3 md:py-4 text-[9px] font-black uppercase tracking-widest text-white/10">
+                                    Mock Coming Soon
+                                </button>
                             </div>
-                        </>
+                        </div>
                     )}
                 </div>
             </div>
 
-            <div className="bg-surface border border-white/5 p-8 rounded-[2.5rem] flex flex-col md:flex-row items-center justify-between gap-6">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-6 rounded-2xl md:rounded-[2.5rem] border border-white/5 bg-surface p-6 md:p-8">
                 <div className="flex items-center gap-4">
-                    <div className="p-3 bg-blue-500/10 text-blue-500 rounded-xl">
-                        <AlertCircle className="w-6 h-6" />
+                    <div className="rounded-xl bg-primary/10 p-3 text-primary">
+                        <svg className="h-5 w-5 md:h-6 md:w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <polyline points="12 6 12 12 16 14" />
+                        </svg>
                     </div>
                     <div>
-                        <h4 className="text-white font-black uppercase tracking-widest text-xs italic">Live Exam Countdown</h4>
-                        <p className="text-white/30 text-[10px] font-bold uppercase tracking-widest">Next All-Platform Mock in: <span className="text-primary">12:45:30</span></p>
+                        <h4 className="text-xs font-black uppercase tracking-widest text-white">Live Exam Countdown</h4>
+                        <p className="text-[10px] font-bold uppercase tracking-widest text-white/30">
+                            Next All-Platform Mock in: <span className="text-primary">12:45:30</span>
+                        </p>
                     </div>
                 </div>
-                <button className="px-10 py-4 bg-white text-black font-black uppercase tracking-widest text-[10px] rounded-2xl hover:scale-105 transition-all shadow-2xl">
+                <button className="w-full md:w-auto rounded-xl md:rounded-[1.4rem] bg-primary px-8 md:px-10 py-3 md:py-4 text-[10px] font-black uppercase tracking-widest text-black shadow-lg transition-all active:scale-95 hover:bg-primary-hover">
                     Register for Event
                 </button>
             </div>

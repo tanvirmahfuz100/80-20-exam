@@ -1,3 +1,15 @@
+import {
+  getLevelProgress as _getLevelProgress,
+  saveLevelProgress as _saveLevelProgress,
+  addXp as _addXp,
+  addStars as _addStars,
+  getChallengeState as _getChallengeState,
+  getDailyChallengesForExam as _getDailyChallengesForExam,
+  getWeeklyChallengeForExam as _getWeeklyChallengeForExam,
+  completeDailyChallengeById as _completeDailyChallengeById,
+  advanceWeeklyChallenge as _advanceWeeklyChallenge
+} from './levels';
+
 const STORAGE_KEYS = {
     profiles: 'exam_profiles',
     responses: 'exam_user_responses',
@@ -59,7 +71,7 @@ const defaultVideos = [
     {
         id: 'v_1',
         title: 'Math Shortcut Sprint',
-        video_url: 'https://cdn.pixabay.com/video/2021/04/12/70860-537443831_large.mp4',
+        video_url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
         likes_count: 1240,
         saves_count: 450,
         created_at: new Date().toISOString()
@@ -67,7 +79,7 @@ const defaultVideos = [
     {
         id: 'v_2',
         title: 'Vocabulary in 60 Seconds',
-        video_url: 'https://cdn.pixabay.com/video/2020/07/28/45749-445851412_large.mp4',
+        video_url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
         likes_count: 890,
         saves_count: 230,
         created_at: new Date().toISOString()
@@ -95,29 +107,87 @@ const ensureSeed = () => {
 
 ensureSeed();
 
+const flattenSetItems = (data) => {
+    if (Array.isArray(data) && data.length > 0 && Array.isArray(data[0].items)) {
+        return data.flatMap(set =>
+            (set.items || []).map((item) => {
+                const options = item.options || [];
+                const correctAnswer = item.correct_answer || '';
+                return {
+                    id: item.id || `${set.id}_${item.item}`,
+                    text: [item.context, item.question_text].filter(Boolean).join(' '),
+                    options,
+                    correct: options.indexOf(correctAnswer),
+                    difficulty: 'medium',
+                };
+            })
+        );
+    }
+    return null;
+};
+
 const toQuestionRecord = (questionFile, chapter) => {
     const parts = (chapter?.file || '').split('/').filter(Boolean);
     const exam_category = (parts[0] || 'IBA').toUpperCase();
     const exam_type = chapter?.topic || chapter?.subject || 'General';
 
-    return (questionFile.questions || []).map((q) => ({
-        id: q.id,
-        question_text: q.text,
+    const sourceQuestions = Array.isArray(questionFile)
+        ? questionFile
+        : Array.isArray(questionFile.questions)
+            ? questionFile.questions
+            : Array.isArray(questionFile.passages)
+                ? questionFile.passages
+                : flattenSetItems(questionFile) || [];
+
+    return sourceQuestions.map((q) => ({
+        id: q.id || q.question_id || q._id,
+        question_text: q.text || q.question || q.statement || q.stem || q.passage_text || q.title || '',
         difficulty: q.difficulty || 'medium',
         exam_category,
         exam_type,
-        options: (q.options || []).map((optionText, idx) => ({
-            id: `${q.id}_${idx}`,
-            option_text: optionText,
-            is_correct: idx === q.correct
-        })),
+        options: (() => {
+            const optionTexts = (q.options || []).map((option) => (
+                typeof option === 'string' ? option : option.text || option.option_text || ''
+            ));
+
+            let correctIndex = typeof q.correct === 'number' ? q.correct : -1;
+            if (q.correct_answer !== undefined) {
+                correctIndex = optionTexts.findIndex(
+                    (optionText) => String(optionText).trim().toLowerCase() === String(q.correct_answer).trim().toLowerCase()
+                );
+            }
+            if (correctIndex === -1 && q.correct_tag !== undefined) {
+                correctIndex = optionTexts.findIndex(
+                    (optionText) => String(optionText).trim().toLowerCase() === String(q.correct_tag).trim().toLowerCase()
+                );
+            }
+            if (correctIndex === -1 && optionTexts.length > 0) correctIndex = 0;
+
+            return optionTexts.map((optionText, idx) => ({
+                id: `${q.id || q.question_id || q._id || 'q'}_${idx}`,
+                text: optionText,
+                option_text: optionText,
+                isCorrect: idx === correctIndex,
+                is_correct: idx === correctIndex
+            }));
+        })(),
+        explanation_bn: q.explanation_bn || q.explanationBn || '',
+        explanation_en: q.explanation_en || q.explanationEn || '',
+        explanation: (() => {
+            const explanationBn = q.explanation_bn || q.explanationBn || '';
+            const explanationEn = q.explanation_en || q.explanationEn || '';
+            if (explanationBn && explanationEn) {
+                return `বাংলা ব্যাখ্যা:\n${explanationBn}\n\nEnglish Explanation:\n${explanationEn}`;
+            }
+            return explanationBn || explanationEn || q.explanation || '';
+        })(),
         source_tags: [questionFile.subject, questionFile.topic, questionFile.chapter].filter(Boolean)
     }));
 };
 
 const getAllJsonQuestions = async () => {
     const base = import.meta.env.BASE_URL || '/';
-    const indexPaths = ['iba/index.json', 'ssc/index.json'].map(p => `${base}${p}`);
+    const indexPaths = ['iba/index.json', 'ssc/index.json', 'hsc/index.json', 'class7/index.json'].map(p => `${base}${p}`);
     const indexJsons = [];
 
     for (const p of indexPaths) {
@@ -137,28 +207,13 @@ const getAllJsonQuestions = async () => {
         for (const subject of indexJson.subjects || []) {
             for (const topic of subject.topics || []) {
                 for (const chapter of topic.chapters || []) {
-                    chapterFiles.push({ file: chapter.file, subject: subject.name, topic: topic.name, chapter: chapter.name });
+                    const chapterFile = chapter.file || chapter.file_bn || chapter.file_en;
+                    if (chapterFile) {
+                        chapterFiles.push({ file: chapterFile, subject: subject.name, topic: topic.name, chapter: chapter.name });
+                    }
                 }
             }
         }
-    }
-
-    // Also load BCS questions
-    try {
-        const bcsIndexRes = await fetch(`${base}bcs/index.json`);
-        if (bcsIndexRes.ok) {
-            const bcsIndex = await bcsIndexRes.json();
-            for (const exam of bcsIndex) {
-                chapterFiles.push({
-                    file: `bcs/${exam.id}.json`,
-                    subject: exam.name,
-                    topic: 'BCS',
-                    chapter: exam.name
-                });
-            }
-        }
-    } catch {
-        // BCS data not available
     }
 
     const loadedSets = await Promise.all(
@@ -168,23 +223,6 @@ const getAllJsonQuestions = async () => {
                 const res = await fetch(`${base}${path}`);
                 if (!res.ok) return [];
                 const chapterJson = await res.json();
-                // BCS format has { id, question, options: {A,B,C,D}, answer, explanation }
-                // Convert to expected format
-                if (entry.topic === 'BCS') {
-                    return chapterJson.map((q, idx) => ({
-                        id: q.id,
-                        question_text: q.question,
-                        difficulty: 'medium',
-                        exam_category: 'BCS',
-                        exam_type: entry.subject,
-                        options: Object.values(q.options || { A: '', B: '', C: '', D: '' }).map((optText, i) => ({
-                            id: `${q.id}_${i}`,
-                            option_text: optText,
-                            is_correct: q.answer ? Object.keys(q.options || {}).indexOf(q.answer) === i : false
-                        })),
-                        source_tags: [entry.subject]
-                    }));
-                }
                 return toQuestionRecord(chapterJson, entry);
             } catch {
                 return [];
@@ -391,5 +429,44 @@ export const api = {
         mocks.push(payload);
         writeStorage(STORAGE_KEYS.mockTests, mocks);
         return { data: payload, error: null };
+    },
+
+    getLevelProgress: async (userId, chapterId) => {
+        return { data: _getLevelProgress(userId, chapterId), error: null };
+    },
+
+    saveLevelProgress: async (userId, chapterId, levelNumber, data) => {
+        _saveLevelProgress(userId, chapterId, levelNumber, data);
+        return { data: true, error: null };
+    },
+
+    addXp: async (userId, amount) => {
+        return { data: _addXp(userId, amount), error: null };
+    },
+
+    addStars: async (userId, amount) => {
+        return { data: _addStars(userId, amount), error: null };
+    },
+
+    getChallengeState: async () => {
+        return { data: _getChallengeState(), error: null };
+    },
+
+    getDailyChallengesForExam: async (examId) => {
+        return { data: _getDailyChallengesForExam(examId), error: null };
+    },
+
+    getWeeklyChallengeForExam: async (examId) => {
+        return { data: _getWeeklyChallengeForExam(examId), error: null };
+    },
+
+    completeDailyChallengeById: async (userId, challengeId) => {
+        _completeDailyChallengeById(userId, challengeId);
+        return { data: true, error: null };
+    },
+
+    advanceWeeklyChallenge: async (userId, sectionId) => {
+        _advanceWeeklyChallenge(userId, sectionId);
+        return { data: true, error: null };
     }
 };
