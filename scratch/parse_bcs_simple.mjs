@@ -14,14 +14,15 @@ const BANGLA_ANS = { 'ক': 'A', 'খ': 'B', 'গ': 'C', 'ঘ': 'D' };
 
 function extractAnswer(text) {
   if (!text) return '';
-  // উত্তরঃ (ক) or উত্তরঃ ক or উত্তর: ক or উত্তর: খ)
-  let m = text.match(/উত্তর\s*[:ঃ：,]*\s*[\(\（]?\s*([কখগঘA-Da-d])\s*[\)\）]?/);
+  // উত্তরঃ (ক) / উত্তরঃ ক / উত্তর: ক
+  // Also handle leading punctuation like উত্তরঃ ,(গ)
+  let m = text.match(/উত্তর\s*[:ঃ：,]*\s*[,.]?\s*[\(\（]?\s*([কখগঘA-Da-d])\s*[\)\）]?/);
   if (m) {
     const a = m[1];
     return a in BANGLA_ANS ? BANGLA_ANS[a] : a.toUpperCase();
   }
-  // Handle উত্তরঃ without colon - directly followed by letter
-  m = text.match(/উত্তর\s*[ঃ]?\s*[\(\（]?\s*([কখগঘA-Da-d])\s*[\)\）]?/);
+  // Handle উত্তরঃ without colon
+  m = text.match(/উত্তর\s*[ঃ]?\s*[,.]?\s*[\(\（]?\s*([কখগঘA-Da-d])\s*[\)\）]?/);
   if (m) {
     const a = m[1];
     return a in BANGLA_ANS ? BANGLA_ANS[a] : a.toUpperCase();
@@ -66,11 +67,21 @@ function parseBCS(text) {
     if (lines.length < 2) continue;
     
     const firstLine = lines[0];
-    const qMatch = firstLine.match(/^([০-৯\d]+)[\.।]\s*(.+)/);
+    let qMatch = firstLine.match(/^([০-৯\d]+)[\.।]\s*(.+)/);
     if (!qMatch) continue;
     
-    const qNum = parseInt(qMatch[1].replace(/[০-৯]/g, d => '০১২৩৪৫৬৭৮৯'.indexOf(d)));
-    let qText = qMatch[2];
+    let qNum = parseInt(qMatch[1].replace(/[০-৯]/g, d => '০১২৩৪৫৬৭৮৯'.indexOf(d)));
+    let qText = qMatch[2].trim();
+    
+    // If qText is empty (e.g. "১৮২। " with nothing after), try next line
+    if (!qText && lines.length > 1) {
+      const secondMatch = lines[1].match(/^([০-৯\d]+)[\.।]\s*(.+)/);
+      if (secondMatch) {
+        qNum = parseInt(secondMatch[1].replace(/[০-৯]/g, d => '০১২৩৪৫৬৭৮৯'.indexOf(d)));
+        qText = secondMatch[2].trim();
+        lines.splice(1, 1); // remove consumed line
+      }
+    }
     const opts = { A: '', B: '', C: '', D: '' };
     let answer = '';
     
