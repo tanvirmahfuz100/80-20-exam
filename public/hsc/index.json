@@ -1700,6 +1700,93 @@
       ],
       "name_bn": "অর্থনীতি ২য় পত্র",
       "name_en": "Economics 2nd Paper"
+    },
+    {
+      "id": "islamic_history_2nd",
+      "name": "Islamic History 2nd Paper",
+      "icon": "Book",
+      "topics": [
+        {
+          "id": "chapter_1",
+          "name": "Chapter 1",
+          "chapters": [
+            {
+              "id": "hsc_islh2_ch1",
+              "name": "Chapter 1 Questions",
+              "file_bn": "/hsc/islamic history 2nd/chapter_1.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ১",
+          "name_en": "Chapter 1"
+        },
+        {
+          "id": "chapter_2",
+          "name": "Chapter 2",
+          "chapters": [
+            {
+              "id": "hsc_islh2_ch2",
+              "name": "Chapter 2 Questions",
+              "file_bn": "/hsc/islamic history 2nd/chapter_2.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ২",
+          "name_en": "Chapter 2"
+        },
+        {
+          "id": "chapter_3",
+          "name": "Chapter 3",
+          "chapters": [
+            {
+              "id": "hsc_islh2_ch3",
+              "name": "Chapter 3 Questions",
+              "file_bn": "/hsc/islamic history 2nd/chapter_3.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৩",
+          "name_en": "Chapter 3"
+        },
+        {
+          "id": "chapter_4",
+          "name": "Chapter 4",
+          "chapters": [
+            {
+              "id": "hsc_islh2_ch4",
+              "name": "Chapter 4 Questions",
+              "file_bn": "/hsc/islamic history 2nd/chapter_4.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৪",
+          "name_en": "Chapter 4"
+        },
+        {
+          "id": "chapter_5",
+          "name": "Chapter 5",
+          "chapters": [
+            {
+              "id": "hsc_islh2_ch5",
+              "name": "Chapter 5 Questions",
+              "file_bn": "/hsc/islamic history 2nd/chapter_5.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৫",
+          "name_en": "Chapter 5"
+        },
+        {
+          "id": "chapter_6",
+          "name": "Chapter 6",
+          "chapters": [
+            {
+              "id": "hsc_islh2_ch6",
+              "name": "Chapter 6 Questions",
+              "file_bn": "/hsc/islamic history 2nd/chapter_6.json"
+            }
+          ],
+          "name_bn": "অধ্যায় ৬",
+          "name_en": "Chapter 6"
+        }
+      ],
+      "name_bn": "ইসলামের ইতিহাস ও সংস্কৃতি ২য় পত্র",
+      "name_en": "Islamic History and Culture 2nd Paper"
     }
   ]
 }
