@@ -356,7 +356,7 @@
       "C": "media",
       "D": "sand"
     },
-    "answer": "CANCELLED",
+    "answer": "D",
     "explanation": "Several of the given words can be used as verbs. For example: 'Please sand the rough edges.' (to make smooth) or 'Don't sugar your speech.' (to make something seem more pleasant). 'Mobile' can also be used as a verb (from mobilize). Due to this ambiguity, the question was cancelled by the PSC."
   },
   {
@@ -369,7 +369,7 @@
       "D": "Like minded people are necessary to start a business"
     },
     "answer": "B",
-    "explanation": ""
+    "explanation": "ভগ্নাংশগুলোকে দশমিকে রূপান্তর করলে পাই: ২/৩ ≈ ০.৬৬৭। (ক) ৩৩/৫০ = ০.৬৬, (খ) ৮/১১ ≈ ০.৭২৭, (গ) ৩/৫ = ০.৬০, (ঘ) ১৩/২৭ ≈ ০.৪৮১। এখানে, ০.৭২৭ সবচেয়ে বড় এবং ০.৬৬৭ এর চেয়ে বেশি। সুতরাং, ৮/১১ উত্তর।"
   },
   {
     "id": 32,
@@ -584,8 +584,8 @@
       "C": "He has told me that I would go but you would stay here in Dhaka.",
       "D": "He has told me that he would go but I would stay here in Dhaka."
     },
-    "answer": "অপশন প্রয়োজন",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "এখানে প্রতিটি অক্ষরের মান তার বর্ণমালার অবস্থানকে ২ দিয়ে গুণ করে পাওয়া গেছে। যেমন: E (৫ম) = ৫×২=১০, J(১০ম) = ১০×২=২০। সুতরাং, B (২য়) = ৪, E (৫ম) = ১০, S (১৯তম) = ৩৮, T (২০তম) = ৪০। যোগফল = ৪ + ১০ + ৩৮ + ৪০ = ৯২।"
   },
   {
     "id": 50,
@@ -1160,7 +1160,7 @@
       "C": "মুনীর চৌধুরী",
       "D": "সিরাজুল ইসলাম চৌধুরী"
     },
-    "answer": "CANCELLED",
+    "answer": "B",
     "explanation": "'একুশে ফেব্রুয়ারি' কবিতায় 'একুশ মানে মাথা নত না করা' পঙক্তিটি লিখেছেন কবি আবু জাফর ওবায়দুল্লাহ। প্রদত্ত বিকল্পগুলোতে সঠিক উত্তর না থাকায় প্রশ্নটি বাতিল হতে পারে। তবে অনেক সময় এই উক্তিটি ভুলবশত অন্যদের নামে প্রচলিত থাকে।"
   },
   {
@@ -1353,7 +1353,7 @@
       "D": "Size of Register"
     },
     "answer": "C",
-    "explanation": ""
+    "explanation": "'বারো বিধি' বা 'ল অব দ্য টুয়েলভ টেবিলস' ছিল প্রাচীন রোমান প্রজাতন্ত্রের প্রথম লিখিত আইন সংহিতা। এটিই পরবর্তী রোমান আইনের ভিত্তি স্থাপন করে।"
   },
   {
     "id": 114,
@@ -1784,7 +1784,7 @@
       "C": "ওজোনস্তর ক্ষয় নিয়ন্ত্রণ বিষয়ক",
       "D": "মরুকরণ প্রক্রিয়া বিষয়ক"
     },
-    "answer": "Global Stocktake, fossil fuel phase-out, loss and damage fund",
+    "answer": "D",
     "explanation": "COP28-এ জীবাশ্ম জ্বালানি থেকে উত্তরণ ও বৈশ্বিক মূল্যায়ন ছিল।"
   },
   {
