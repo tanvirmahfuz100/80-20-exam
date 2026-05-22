@@ -357,7 +357,8 @@
       "D": "sand"
     },
     "answer": "D",
-    "explanation": "Several of the given words can be used as verbs. For example: 'Please sand the rough edges.' (to make smooth) or 'Don't sugar your speech.' (to make something seem more pleasant). 'Mobile' can also be used as a verb (from mobilize). Due to this ambiguity, the question was cancelled by the PSC."
+    "explanation": "Several of the given words can be used as verbs. For example: 'Please sand the rough edges.' (to make smooth) or 'Don't sugar your speech.' (to make something seem more pleasant). 'Mobile' can also be used as a verb (from mobilize). Due to this ambiguity, the question was cancelled by the PSC.",
+    "cancelled": true
   },
   {
     "id": 31,
@@ -942,7 +943,7 @@
       "A": "রামাই পন্ডিত",
       "B": "হলায়ূধ মিশ্র",
       "C": "কাহ্নপা",
-      "D": ""
+      "D": "অপশন সংযোজন করা হবে"
     },
     "answer": "A",
     "explanation": "'শূন্যপুরাণ' মধ্যযুগের বাংলা সাহিত্যের একটি গুরুত্বপূর্ণ গ্রন্থ। এর রচয়িতা রামাই পণ্ডিত। এতে বৌদ্ধ ধর্মের শূন্যবাদ এবং লৌকিক ধর্মীয় আচারের মিশ্রণ দেখা যায়।"
@@ -1161,7 +1162,8 @@
       "D": "সিরাজুল ইসলাম চৌধুরী"
     },
     "answer": "B",
-    "explanation": "'একুশে ফেব্রুয়ারি' কবিতায় 'একুশ মানে মাথা নত না করা' পঙক্তিটি লিখেছেন কবি আবু জাফর ওবায়দুল্লাহ। প্রদত্ত বিকল্পগুলোতে সঠিক উত্তর না থাকায় প্রশ্নটি বাতিল হতে পারে। তবে অনেক সময় এই উক্তিটি ভুলবশত অন্যদের নামে প্রচলিত থাকে।"
+    "explanation": "'একুশে ফেব্রুয়ারি' কবিতায় 'একুশ মানে মাথা নত না করা' পঙক্তিটি লিখেছেন কবি আবু জাফর ওবায়দুল্লাহ। প্রদত্ত বিকল্পগুলোতে সঠিক উত্তর না থাকায় প্রশ্নটি বাতিল হতে পারে। তবে অনেক সময় এই উক্তিটি ভুলবশত অন্যদের নামে প্রচলিত থাকে।",
+    "cancelled": true
   },
   {
     "id": 98,
@@ -1468,7 +1470,7 @@
     "question": "নিচের কোন প্রযুক্তি Face Recognition সিস্টেমে ব্যবহার করা হয়?",
     "options": {
       "A": "Applied AI",
-      "B": "",
+      "B": "অপশন সংযোজন করা হবে",
       "C": "Virtual Reality",
       "D": "কোনোটিই নয়"
     },
