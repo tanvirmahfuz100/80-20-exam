@@ -1,0 +1,962 @@
+[
+  {
+    "id": 1,
+    "question": "‘বৃক্ষ’ শব্দের সমার্থক শব্দ কোনটি?",
+    "options": {
+      "A": "কলাপী",
+      "B": "নীরধি",
+      "C": "বিটপী",
+      "D": "অবনি"
+    },
+    "answer": "C",
+    "explanation": "'Bitapi' is a synonym for 'tree'."
+  },
+  {
+    "id": 2,
+    "question": "‘Subconscious’ শব্দটির বাংলা পারিভাষিক শব্দ হলো-",
+    "options": {
+      "A": "অর্ধচেতন",
+      "B": "অবচেতন",
+      "C": "চেতনাহীন",
+      "D": "চেতনাপ্রবাহ"
+    },
+    "answer": "A",
+    "explanation": "The Bengali term for 'Subconscious' is 'Ordho Cheton'."
+  },
+  {
+    "id": 3,
+    "question": "কোনটি ইংরেজি শব্দ?",
+    "options": {
+      "A": "ম্যাজেন্টা",
+      "B": "পিস্তল",
+      "C": "আলমারি",
+      "D": "কমা"
+    },
+    "answer": "B",
+    "explanation": "'Pistol' is an English loanword."
+  },
+  {
+    "id": 4,
+    "question": "‘শূন্যপুরাণ’ রচনা করেছেন-",
+    "options": {
+      "A": "রামাই পণ্ডিত",
+      "B": "শ্রীকর নন্দী",
+      "C": "বিজয় গুপ্ত",
+      "D": "লোচন দাস"
+    },
+    "answer": "A",
+    "explanation": "'Shunyopuran' was written by Ramai Pandit."
+  },
+  {
+    "id": 5,
+    "question": "কোন শব্দ গঠনে বাংলা উপসর্গ ব্যবহৃত হয়েছে?",
+    "options": {
+      "A": "পরাকাষ্ঠা",
+      "B": "অভিব্যক্তি",
+      "C": "পরিশ্রান্ত",
+      "D": "অনাবৃষ্টি"
+    },
+    "answer": "D",
+    "explanation": "'Anabrishti' uses the Bengali prefix 'অনা-'."
+  },
+  {
+    "id": 6,
+    "question": "‘পালামৌ’ ভ্রমণকাহিনীটি কার রচনা?",
+    "options": {
+      "A": "শরৎচন্দ্র চট্টোপাধ্যায়",
+      "B": "সুনীল গঙ্গোপাধ্যায়",
+      "C": "সঞ্জীবচন্দ্র চট্টোপাধ্যায়",
+      "D": "তারাশঙ্কর বন্দ্যোপাধ্যায়"
+    },
+    "answer": "C",
+    "explanation": "'Palamou' is by Sanjib Chandra Chattopadhyay."
+  },
+  {
+    "id": 7,
+    "question": "‘আলোছায়া’ পদটি কোন সমাসের অন্তর্গত?",
+    "options": {
+      "A": "দ্বন্দ্ব সমাস",
+      "B": "অব্যয়ীভাব সমাস",
+      "C": "তৎপুরুষ সমাস",
+      "D": "কর্মধারয় সমাস"
+    },
+    "answer": "D",
+    "explanation": "'Alochhaya' is a Karmadharay Samas."
+  },
+  {
+    "id": 8,
+    "question": "কোনটি সাধিত শব্দ নয়?",
+    "options": {
+      "A": "পানসা",
+      "B": "ফুলেল",
+      "C": "গোলাপ",
+      "D": "হাতল"
+    },
+    "answer": "C",
+    "explanation": "'Golap' is a borrowed word, not derived."
+  },
+  {
+    "id": 9,
+    "question": "‘দিবারাত্রির কাব্য’ কার লেখা উপন্যাস?",
+    "options": {
+      "A": "তারাশঙ্কর বন্দ্যোপাধ্যায়",
+      "B": "শ্রীকুমার বন্দ্যোপাধ্যায়",
+      "C": "ঈশানচন্দ্র বন্দ্যোপাধ্যায়",
+      "D": "মানিক বন্দ্যোপাধ্যায়"
+    },
+    "answer": "D",
+    "explanation": "'Dibaratrir Kabya' is by Manik Bandyopadhyay."
+  },
+  {
+    "id": 10,
+    "question": "কাজী নজরুল ইসলাম রচিত গল্প কোনটি?",
+    "options": {
+      "A": "পদ্মরাগ",
+      "B": "পদ্মগোখরা",
+      "C": "পদ্মাপুরাণ",
+      "D": "পদ্মাবতী"
+    },
+    "answer": "B",
+    "explanation": "'Padmagokhra' is a short story by Kazi Nazrul Islam."
+  },
+  {
+    "id": 11,
+    "question": "‘আনোয়ারা’ গ্রন্থটি কার রচনা?",
+    "options": {
+      "A": "কাজী এমদাদুল হক",
+      "B": "মীর মশাররফ হোসেন",
+      "C": "মোহাম্মদ নজিবর রহমান",
+      "D": "ইসমাইল হোসেন সিরাজী"
+    },
+    "answer": "A",
+    "explanation": "'Anwara' is by Kazi Emdadul Haque."
+  },
+  {
+    "id": 12,
+    "question": "‘বীরবল’ ছদ্মনামে কে লিখতেন?",
+    "options": {
+      "A": "রবীন্দ্রনাথ ঠাকুর",
+      "B": "মুনীর চৌধুরী",
+      "C": "সমরেশ বসু",
+      "D": "প্রমথ চৌধুরী"
+    },
+    "answer": "D",
+    "explanation": "Pramatha Chowdhury wrote as 'Birbal'."
+  },
+  {
+    "id": 13,
+    "question": "কোনটি শুদ্ধ বানান?",
+    "options": {
+      "A": "আকাংখা",
+      "B": "আকাঙ্ক্ষা",
+      "C": "আকাঙ্খা",
+      "D": "আকাংক্ষা"
+    },
+    "answer": "B",
+    "explanation": "Correct spelling is 'আকাঙ্ক্ষা'."
+  },
+  {
+    "id": 14,
+    "question": "কোনটি ‘বাতাস’ শব্দের সমার্থক নয়?",
+    "options": {
+      "A": "পাবক",
+      "B": "মারুত",
+      "C": "পবন",
+      "D": "অনিল"
+    },
+    "answer": "A",
+    "explanation": "'Pabok' means fire, not air/wind."
+  },
+  {
+    "id": 15,
+    "question": "ভাষার ক্ষুদ্রতম একক কোনটি?",
+    "options": {
+      "A": "বর্ণ",
+      "B": "শব্দ",
+      "C": "অক্ষর",
+      "D": "ধ্বনি"
+    },
+    "answer": "D",
+    "explanation": "The smallest unit of language is phoneme (ধ্বনি)."
+  },
+  {
+    "id": 16,
+    "question": "‘মা ছিল না বলে কেউ তার চুল বেঁধে দেয়নি।’ এটি একটি-",
+    "options": {
+      "A": "জটিল বাক্য",
+      "B": "যৌগিক বাক্য",
+      "C": "সরল বাক্য",
+      "D": "মিশ্র বাক্য"
+    },
+    "answer": "D",
+    "explanation": "This is a complex/mixed sentence."
+  },
+  {
+    "id": 17,
+    "question": "‘গাছপাথর’ বাগধারাটির অর্থ-",
+    "options": {
+      "A": "ভূমিকা করা",
+      "B": "হিসাব-নিকাশ",
+      "C": "অসম্ভব বস্তু",
+      "D": "বাড়াবাড়ি করা"
+    },
+    "answer": "A",
+    "explanation": "'Gachhpathor' means to give an introduction."
+  },
+  {
+    "id": 18,
+    "question": "‘তুমি অধম, তাই বলিয়া আমি উত্তম হইব না কেন?’ এই প্রবাদটির রচয়িতা কে?",
+    "options": {
+      "A": "মীর মশাররফ হোসেন",
+      "B": "রোকেয়া সাখাওয়াত হোসেন",
+      "C": "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+      "D": "রবীন্দ্রনাথ ঠাকুর"
+    },
+    "answer": "B",
+    "explanation": "This saying is from Begum Rokeya."
+  },
+  {
+    "id": 19,
+    "question": "ভাষা আন্দোলন বিষয়ক উপন্যাস কোনটি?",
+    "options": {
+      "A": "আরেক ফাল্গুন",
+      "B": "জীবন ঘষে আগুন",
+      "C": "নন্দিত নরকে",
+      "D": "পিঙ্গল আকাশ"
+    },
+    "answer": "A",
+    "explanation": "'Arek Falgun' by Zahir Raihan is based on the Language Movement."
+  },
+  {
+    "id": 20,
+    "question": "মুক্তিযুদ্ধনির্ভর রচনা কোনটি?",
+    "options": {
+      "A": "এইসব দিন রাত্রি",
+      "B": "নূরলদীনের সারা জীবন",
+      "C": "একাত্তরের দিনগুলি",
+      "D": "সৎ মানুষের খোঁজে"
+    },
+    "answer": "C",
+    "explanation": "'Ekattorer Dinguli' by Jahanara Imam is based on the Liberation War."
+  },
+  {
+    "id": 21,
+    "question": "Choose the correct synonym for ‘Menacing’.",
+    "options": {
+      "A": "Encouraging",
+      "B": "Alarming",
+      "C": "Promising",
+      "D": "Auspicious"
+    },
+    "answer": "B",
+    "explanation": "'Menacing' means threatening. 'Alarming' is the synonym."
+  },
+  {
+    "id": 22,
+    "question": "Choose the correct antonym for ‘Oblige’.",
+    "options": {
+      "A": "Bind",
+      "B": "Require",
+      "C": "Bother",
+      "D": "Censure"
+    },
+    "answer": "C",
+    "explanation": "'Oblige' means to do a favor. 'Bother' (to annoy) is its antonym."
+  },
+  {
+    "id": 23,
+    "question": "Choose the correct antonym for ‘Cynical’.",
+    "options": {
+      "A": "Pessimistic",
+      "B": "Gullible",
+      "C": "Equivocal",
+      "D": "Liberal"
+    },
+    "answer": "B",
+    "explanation": "'Cynical' means distrustful. 'Gullible' (easily trusting) is the opposite."
+  },
+  {
+    "id": 24,
+    "question": "“Not once has our neighbour invited us into his house.”",
+    "options": {
+      "A": "Our neighbour has invited us into his house not once but many times.",
+      "B": "Our neighbour has never invited us into his house.",
+      "C": "Occasionally our neighbour has invited us into his house.",
+      "D": "Our neighbour has not always invited us into his house."
+    },
+    "answer": "B",
+    "explanation": "'Not once' means never."
+  },
+  {
+    "id": 25,
+    "question": "After food has been dried or canned __ for later consumption.",
+    "options": {
+      "A": "it should be stored",
+      "B": "that it should be stored",
+      "C": "should be stored",
+      "D": "which should be stored"
+    },
+    "answer": "A",
+    "explanation": "The sentence needs a main clause with subject 'it'."
+  },
+  {
+    "id": 26,
+    "question": "What may be considered __ in one culture may be arrogant in another.",
+    "options": {
+      "A": "flimsy",
+      "B": "coarse",
+      "C": "gracious",
+      "D": "friendly"
+    },
+    "answer": "C",
+    "explanation": "What is gracious in one culture may be arrogant in another."
+  },
+  {
+    "id": 27,
+    "question": "Patron : support",
+    "options": {
+      "A": "Spouse : divorce",
+      "B": "Artist : imitation",
+      "C": "Counselor : advice",
+      "D": "Restaurant : customer"
+    },
+    "answer": "C",
+    "explanation": "A patron provides support; a counselor provides advice."
+  },
+  {
+    "id": 28,
+    "question": "Heart : human",
+    "options": {
+      "A": "Wall : brick",
+      "B": "Hand : child",
+      "C": "Kitchen : house",
+      "D": "Engine : car"
+    },
+    "answer": "D",
+    "explanation": "Heart is a vital part of a human; engine is a vital part of a car."
+  },
+  {
+    "id": 29,
+    "question": "A bird in hand is worth two in the bush.",
+    "options": {
+      "A": "Take what you have got readily available rather than expecting better in the future.",
+      "B": "The seen is better than the unseen.",
+      "C": "Promises are better than actuals.",
+      "D": "It is no good beating about the bush."
+    },
+    "answer": "A",
+    "explanation": "The proverb means keep what you have rather than risk losing it."
+  },
+  {
+    "id": 30,
+    "question": "The sentence 'Who would have thought Shylock was so unkind' expresses–.",
+    "options": {
+      "A": "hyperbole",
+      "B": "interrogation",
+      "C": "command",
+      "D": "wonder"
+    },
+    "answer": "D",
+    "explanation": "It is a rhetorical expression of wonder."
+  },
+  {
+    "id": 31,
+    "question": "To 'raise one's brows' indicates –.",
+    "options": {
+      "A": "annoyance",
+      "B": "disapproval",
+      "C": "indifference",
+      "D": "surprise"
+    },
+    "answer": "D",
+    "explanation": "Raising eyebrows indicates surprise."
+  },
+  {
+    "id": 32,
+    "question": "প্রথম বাংলাদেশী এভারেস্ট বিজয়ী মুসা ইব্রাহীম কোন সালে মাউন্ট এভারেস্ট শৃঙ্গে আরোহণ করেন?",
+    "options": {
+      "A": "২০০৮",
+      "B": "২০১১",
+      "C": "২০০৯",
+      "D": "২০১০"
+    },
+    "answer": "C",
+    "explanation": "Musa Ibrahim summited Everest on May 23, 2009."
+  },
+  {
+    "id": 33,
+    "question": "তামাবিল সীমান্তের সাথে ভারতের কোন শহরটি অবস্থিত?",
+    "options": {
+      "A": "করিমগঞ্জ",
+      "B": "খোয়াই",
+      "C": "পেট্রাপোল",
+      "D": "ডাউকি"
+    },
+    "answer": "A",
+    "explanation": "Tamabil border connects to Karimganj, Assam."
+  },
+  {
+    "id": 34,
+    "question": "BTRC এর ইংরেজি পূর্ণরূপ কোনটি?",
+    "options": {
+      "A": "Bangladesh Telephone Regulatory Commission",
+      "B": "Bangladesh Telecommunication Regulatory Commission",
+      "C": "Bangladesh Telecom Regulatory Commission",
+      "D": "Bangladesh Telephone and Telegraph Regulatory Commission"
+    },
+    "answer": "B",
+    "explanation": "BTRC stands for Bangladesh Telecommunication Regulatory Commission."
+  },
+  {
+    "id": 35,
+    "question": "বাংলাদেশ রেলওয়ের সর্ববৃহৎ কারখানা কোথায়?",
+    "options": {
+      "A": "চট্টগ্রাম",
+      "B": "পাকশি",
+      "C": "সৈয়দপুর",
+      "D": "আখাউড়া"
+    },
+    "answer": "C",
+    "explanation": "The largest railway workshop is at Saidpur."
+  },
+  {
+    "id": 36,
+    "question": "বাংলাদেশের White gold কোনটি?",
+    "options": {
+      "A": "ইলিশ",
+      "B": "পাট",
+      "C": "রূপা",
+      "D": "চিংড়ি"
+    },
+    "answer": "D",
+    "explanation": "Shrimp is called 'White Gold' of Bangladesh."
+  },
+  {
+    "id": 37,
+    "question": "বাংলাদেশের কোন জেলাটি বাংলাদেশ-ভারত সীমান্তের মধ্যে নয়?",
+    "options": {
+      "A": "পঞ্চগড়",
+      "B": "সাতক্ষীরা",
+      "C": "হবিগঞ্জ",
+      "D": "কক্সবাজার"
+    },
+    "answer": "D",
+    "explanation": "Cox's Bazar borders Myanmar, not India."
+  },
+  {
+    "id": 38,
+    "question": "‘সোনালিকা’ ও ‘আকবর’ বাংলাদেশের কৃষি ক্ষেত্রে কিসের নাম?",
+    "options": {
+      "A": "উন্নত কৃষি যন্ত্রপাতির নাম",
+      "B": "উন্নত জাতের ধানের নাম",
+      "C": "দুটি কৃষি বিষয়ক বেসরকারি সংস্থার নাম",
+      "D": "উন্নত জাতের গমের নাম"
+    },
+    "answer": "B",
+    "explanation": "'Sonalika' and 'Akbar' are improved varieties of rice."
+  },
+  {
+    "id": 39,
+    "question": "‘আলোকিত মানুষ চাই’ এটি কোন প্রতিষ্ঠানের শ্লোগান?",
+    "options": {
+      "A": "জাতীয় গ্রন্থ কেন্দ্র",
+      "B": "বিশ্বসাহিত্য কেন্দ্র",
+      "C": "সুশাসনের জন্য নাগরিক",
+      "D": "পাবলিক লাইব্রেরী"
+    },
+    "answer": "B",
+    "explanation": "'Alokito Manush Chai' is the slogan of Bishwa Sahitya Kendra."
+  },
+  {
+    "id": 40,
+    "question": "বাংলাদেশের জাতীয় পতাকার দৈর্ঘ্য-প্রস্থের অনুপাত কোনটি?",
+    "options": {
+      "A": "৮ : ৫",
+      "B": "১০ : ৬",
+      "C": "১১ : ৮",
+      "D": "১১ : ৭"
+    },
+    "answer": "B",
+    "explanation": "The flag ratio is 10:6 (5:3)."
+  },
+  {
+    "id": 41,
+    "question": "কোন জেলায় চা-বাগান বেশি?",
+    "options": {
+      "A": "সিলেট",
+      "B": "হবিগঞ্জ",
+      "C": "মৌলভীবাজার",
+      "D": "বান্দরবান"
+    },
+    "answer": "C",
+    "explanation": "Moulvibazar has the most tea gardens."
+  },
+  {
+    "id": 42,
+    "question": "জনসংখ্যার ভিত্তিতে বৃহত্তর মুসলিম রাষ্ট্র কোনটি?",
+    "options": {
+      "A": "পাকিস্তান",
+      "B": "সৌদি আরব",
+      "C": "মিশর",
+      "D": "ইন্দোনেশিয়া"
+    },
+    "answer": "D",
+    "explanation": "Indonesia is the largest Muslim country by population."
+  },
+  {
+    "id": 43,
+    "question": "রেডক্রসের সদর দপ্তর কোথায় অবস্থিত?",
+    "options": {
+      "A": "প্যারিস",
+      "B": "লন্ডন",
+      "C": "নিউইয়র্ক",
+      "D": "জেনেভা"
+    },
+    "answer": "D",
+    "explanation": "Red Cross HQ is in Geneva."
+  },
+  {
+    "id": 44,
+    "question": "‘জুলিয়াস সীজার’ কেন বিখ্যাত?",
+    "options": {
+      "A": "রোমান সম্রাট হিসেবে",
+      "B": "বর্ণবাদ বিরোধী হিসেবে",
+      "C": "ব্রিটেনের রাজা হিসেবে",
+      "D": "আমেরিকার প্রেসিডেন্ট হিসেবে"
+    },
+    "answer": "A",
+    "explanation": "Julius Caesar was a Roman emperor/dictator."
+  },
+  {
+    "id": 45,
+    "question": "পূর্ব তিমুরের রাজধানী কোথায়?",
+    "options": {
+      "A": "লাসা",
+      "B": "পোর্টো নোভো",
+      "C": "দিলি",
+      "D": "তিয়েন আন মেন"
+    },
+    "answer": "C",
+    "explanation": "Dili is the capital of East Timor."
+  },
+  {
+    "id": 46,
+    "question": "নোবেল পুরস্কার বিজয়ী ‘তাওয়াকুল কারমান’ কোন দেশের নাগরিক?",
+    "options": {
+      "A": "ইরান",
+      "B": "ইন্দোনেশিয়া",
+      "C": "তুরস্ক",
+      "D": "ইয়েমেন"
+    },
+    "answer": "D",
+    "explanation": "Tawakkol Karman is from Yemen."
+  },
+  {
+    "id": 47,
+    "question": "আটলান্টিক ও প্রশান্ত মহাসাগরকে যুক্ত করেছে কোনটি?",
+    "options": {
+      "A": "সুয়েজ খাল",
+      "B": "মিসিসিপি",
+      "C": "ভলগা",
+      "D": "পানামা খাল"
+    },
+    "answer": "D",
+    "explanation": "The Panama Canal connects the Atlantic and Pacific Oceans."
+  },
+  {
+    "id": 48,
+    "question": "‘গ্রিনল্যান্ড’ এর মালিকানা কোন দেশের?",
+    "options": {
+      "A": "সুইডেন",
+      "B": "নেদারল্যান্ডস্",
+      "C": "ডেনমার্ক",
+      "D": "ইংল্যান্ড"
+    },
+    "answer": "C",
+    "explanation": "Greenland belongs to Denmark."
+  },
+  {
+    "id": 49,
+    "question": "‘তাস’ কোন দেশের সংবাদ সংস্থা?",
+    "options": {
+      "A": "রাশিয়া",
+      "B": "চীন",
+      "C": "ভারত",
+      "D": "পাকিস্তান"
+    },
+    "answer": "A",
+    "explanation": "TASS is the news agency of Russia."
+  },
+  {
+    "id": 50,
+    "question": "মডেম এর মধ্যে যা থাকে তা হলো-",
+    "options": {
+      "A": "একটি মডুলেটর",
+      "B": "একটি মডুলেটর ও একটি ডিমডুলেটর",
+      "C": "একটি কোডেক",
+      "D": "একটি এনকোডার"
+    },
+    "answer": "B",
+    "explanation": "Modem = Modulator + Demodulator."
+  },
+  {
+    "id": 51,
+    "question": "ডায়োড সবচেয়ে বেশি ব্যবহৃত হয়-",
+    "options": {
+      "A": "ক্যাপাসিটর হিসেবে",
+      "B": "ট্রান্সফরমার হিসেবে",
+      "C": "রেজিস্টর হিসেবে",
+      "D": "রেক্টিফায়ার হিসেবে"
+    },
+    "answer": "D",
+    "explanation": "A diode is most commonly used as a rectifier."
+  },
+  {
+    "id": 52,
+    "question": "বাসা বাড়িতে সরবরাহকৃত বিদ্যুতের ফ্রিকোয়েন্সি হলো–",
+    "options": {
+      "A": "৫০ হার্জ",
+      "B": "২২০ হার্জ",
+      "C": "২০০ হার্জ",
+      "D": "১০০ হার্জ"
+    },
+    "answer": "A",
+    "explanation": "Household electricity frequency is 50 Hz."
+  },
+  {
+    "id": 53,
+    "question": "বাংলাদেশের কৃষিতে ‘দোয়েল’–",
+    "options": {
+      "A": "জাতীয় পাখির নাম",
+      "B": "কৃষি সংস্থার নাম",
+      "C": "উন্নত জাতের গমের নাম",
+      "D": "কৃষি যন্ত্রের নাম"
+    },
+    "answer": "C",
+    "explanation": "'Doel' is a variety of wheat."
+  },
+  {
+    "id": 54,
+    "question": "মৌমাছির চাষ হলো-",
+    "options": {
+      "A": "এপিকালচার",
+      "B": "সেরিকালচার",
+      "C": "পিসিকালচার",
+      "D": "হর্টিকালচার"
+    },
+    "answer": "A",
+    "explanation": "Apiculture is bee farming."
+  },
+  {
+    "id": 55,
+    "question": "দুধে থাকে–",
+    "options": {
+      "A": "সাইট্রিক এসিড",
+      "B": "ল্যাকটিক এসিড",
+      "C": "নাইট্রিক এসিড",
+      "D": "এসিটিক এসিড"
+    },
+    "answer": "B",
+    "explanation": "Milk contains lactic acid."
+  },
+  {
+    "id": 56,
+    "question": "কোনটি জৈব অম্ল?",
+    "options": {
+      "A": "নাইট্রিক এসিড",
+      "B": "হাইড্রোক্লোরিক এসিড",
+      "C": "এসিটিক এসিড",
+      "D": "সালফিউরিক এসিড"
+    },
+    "answer": "C",
+    "explanation": "Acetic acid is an organic acid."
+  },
+  {
+    "id": 57,
+    "question": "কম্পিউটার ভাইরাস কি?",
+    "options": {
+      "A": "একটি ক্ষতিকারক জীবাণু",
+      "B": "একটি ক্ষতিকারক সার্কিট",
+      "C": "একটি ক্ষতিকারক চৌম্বক ফ্লাক্স",
+      "D": "একটি ক্ষতিকারক প্রোগ্রাম"
+    },
+    "answer": "D",
+    "explanation": "A computer virus is a malicious program."
+  },
+  {
+    "id": 58,
+    "question": "কোনটি তারবিহীন দ্রুতগতির ইন্টারনেট সংযোগের জন্য উপযোগী?",
+    "options": {
+      "A": "ওয়াইম্যাক্স",
+      "B": "সি-মস",
+      "C": "ব্লু-টুথ",
+      "D": "ব্রডব্যান্ড"
+    },
+    "answer": "A",
+    "explanation": "WiMAX is a wireless high-speed internet technology."
+  },
+  {
+    "id": 59,
+    "question": "এন্টিবায়োটিকের কাজ-",
+    "options": {
+      "A": "রোগ প্রতিরোধের ক্ষমতা বৃদ্ধি করা",
+      "B": "জীবাণু ধ্বংস করা",
+      "C": "ভাইরাস ধ্বংস করা",
+      "D": "দ্রুত রোগ নিরাময় করা"
+    },
+    "answer": "B",
+    "explanation": "Antibiotics destroy bacteria."
+  },
+  {
+    "id": 60,
+    "question": "মাশরুম এক ধরনের-",
+    "options": {
+      "A": "অপুষ্পক উদ্ভিদ",
+      "B": "পরজীবী উদ্ভিদ",
+      "C": "ফাঙ্গাস",
+      "D": "অর্কিড"
+    },
+    "answer": "C",
+    "explanation": "Mushroom is a type of fungus."
+  },
+  {
+    "id": 61,
+    "question": "অপটিক্যাল ফাইবারে আলোর কোন ঘটনাটি ঘটে?",
+    "options": {
+      "A": "প্রতিসরণ",
+      "B": "বিচ্ছুরণ",
+      "C": "অপবর্তন",
+      "D": "অভ্যন্তরীণ প্রতিফলন"
+    },
+    "answer": "D",
+    "explanation": "Optical fiber uses total internal reflection."
+  },
+  {
+    "id": 62,
+    "question": "যকৃতের রোগ কোনটি?",
+    "options": {
+      "A": "জন্ডিস",
+      "B": "টাইফয়েড",
+      "C": "হাম",
+      "D": "কলেরা"
+    },
+    "answer": "A",
+    "explanation": "Jaundice is a liver disease."
+  },
+  {
+    "id": 63,
+    "question": "যে বায়ু সর্বদাই উচ্চচাপ অঞ্চল থেকে নিম্নচাপ অঞ্চলের দিকে প্রবাহিত হয় তা হলো-",
+    "options": {
+      "A": "অয়ন বায়ু",
+      "B": "নিয়ত বায়ু",
+      "C": "প্রত্যয়ন বায়ু",
+      "D": "মৌসুমী বায়ু"
+    },
+    "answer": "B",
+    "explanation": "Permanent winds always blow from high to low pressure."
+  },
+  {
+    "id": 64,
+    "question": "পিতলের উপাদান হলো-",
+    "options": {
+      "A": "তামা ও টিন",
+      "B": "তামা ও নিকেল",
+      "C": "তামা ও সিসা",
+      "D": "তামা ও দস্তা"
+    },
+    "answer": "D",
+    "explanation": "Brass is an alloy of copper and zinc."
+  },
+  {
+    "id": 65,
+    "question": "বৈদ্যুতিক মিটারে এক ইউনিট বিদ্যুৎ খরচ বলতে বুঝায়-",
+    "options": {
+      "A": "এক কিলোওয়াট-ঘণ্টা",
+      "B": "এক ওয়াট-ঘণ্টা",
+      "C": "এক কিলোওয়াট",
+      "D": "এক ওয়াট"
+    },
+    "answer": "A",
+    "explanation": "One unit = 1 kilowatt-hour."
+  },
+  {
+    "id": 66,
+    "question": "পারস্পরিক আবেশকে ব্যবহার করা হয় কোনটিতে?",
+    "options": {
+      "A": "ডায়োড",
+      "B": "ট্রান্সফরমার",
+      "C": "ট্রানজিস্টার",
+      "D": "অ্যামপ্লিফায়ার"
+    },
+    "answer": "B",
+    "explanation": "Mutual induction is used in transformers."
+  },
+  {
+    "id": 67,
+    "question": "উদ্ভিদের বৃদ্ধি নির্ণায়ক যন্ত্র–",
+    "options": {
+      "A": "ওডোমিটার",
+      "B": "ক্রনোমিটার",
+      "C": "ট্যাকোমিটার",
+      "D": "ক্রেসকোগ্রাফ"
+    },
+    "answer": "D",
+    "explanation": "A cresograph measures plant growth."
+  },
+  {
+    "id": 68,
+    "question": "স্বর্ণের খাদ বের করতে ব্যবহার করা হয়–",
+    "options": {
+      "A": "সালফিউরিক এসিড",
+      "B": "নাইট্রিক এসিড",
+      "C": "সাইট্রিক এসিড",
+      "D": "কার্বোলিক এসিড"
+    },
+    "answer": "B",
+    "explanation": "Nitric acid is used for gold testing."
+  },
+  {
+    "id": 69,
+    "question": "ভূপৃষ্ঠের সৌরদীপ্ত ও অন্ধকারাচ্ছন্ন অংশের সংযোগস্থলকে বলে–",
+    "options": {
+      "A": "ঊষা",
+      "B": "গোধূলি",
+      "C": "গুরুবৃত্ত",
+      "D": "ছায়াবৃত্ত"
+    },
+    "answer": "B",
+    "explanation": "The terminator/dusk line is called Godhuli."
+  },
+  {
+    "id": 70,
+    "question": "৭ সে.মি. ব্যাসার্ধ বিশিষ্ট বৃত্তের অন্তর্লিখিত বর্গক্ষেত্রের ক্ষেত্রফল কত?",
+    "options": {
+      "A": "৯৮ ব.সে.মি.",
+      "B": "৪৯ ব.সে.মি.",
+      "C": "১৯৬ ব.সে.মি.",
+      "D": "১৪৬ ব.সে.মি."
+    },
+    "answer": "A",
+    "explanation": "Diagonal = 14 cm, side = 7√2 cm, area = 98 sq cm."
+  },
+  {
+    "id": 71,
+    "question": "কোনো ত্রিভুজের তিনটি বাহুকে বর্ধিত করলে উৎপন্ন বহিঃস্থকোণ তিনটির সমষ্টি কত?",
+    "options": {
+      "A": "১৮০°",
+      "B": "১৫০°",
+      "C": "২৭০°",
+      "D": "৩৬০°"
+    },
+    "answer": "D",
+    "explanation": "Sum of exterior angles of any triangle = 360°."
+  },
+  {
+    "id": 72,
+    "question": "১, ৩, ৬, ১০, ১৫, ২১........ ধারাটির দশম পদ কত?",
+    "options": {
+      "A": "৪৫",
+      "B": "৫৫",
+      "C": "৬২",
+      "D": "৬৫"
+    },
+    "answer": "B",
+    "explanation": "Triangular numbers: 10th term = 10×11/2 = 55."
+  },
+  {
+    "id": 73,
+    "question": "টাকায় ৩টি করে লেবু কিনে টাকায় ২টি করে বিক্রি করলে শতকরা কত লাভ হবে?",
+    "options": {
+      "A": "৫০%",
+      "B": "২০%",
+      "C": "৩০%",
+      "D": "৩৩%"
+    },
+    "answer": "A",
+    "explanation": "CP=1/3, SP=1/2, Profit=1/6, Profit%=50%."
+  },
+  {
+    "id": 74,
+    "question": "বৃত্তের ব্যাস তিনগুণ বৃদ্ধি পেলে ক্ষেত্রফল কতগুণ বৃদ্ধি পাবে?",
+    "options": {
+      "A": "৩ গুণ",
+      "B": "৯ গুণ",
+      "C": "১২ গুণ",
+      "D": "১৬ গুণ"
+    },
+    "answer": "B",
+    "explanation": "Area ∝ r². If radius triples, area increases 9 times."
+  },
+  {
+    "id": 75,
+    "question": "একটি গাড়ির চাকা প্রতি মিনিটে ৯০ বার ঘোরে। ১ সেকেন্ডে চাকাটি কত ডিগ্রি ঘুরবে?",
+    "options": {
+      "A": "১৮০°",
+      "B": "২৭০০°",
+      "C": "৩৬০°",
+      "D": "৫৪০°"
+    },
+    "answer": "D",
+    "explanation": "90 RPM = 1.5 RPS = 1.5 × 360° = 540°."
+  },
+  {
+    "id": 76,
+    "question": "কোন ভগ্নাংশটি ক্ষুদ্রতম?",
+    "options": {
+      "A": "৫/৬",
+      "B": "১২/১৫",
+      "C": "১১/১৪",
+      "D": "১৭/২১"
+    },
+    "answer": "C",
+    "explanation": "5/6=0.833, 12/15=0.8, 11/14≈0.7857, 17/21≈0.8095. 11/14 is smallest."
+  },
+  {
+    "id": 77,
+    "question": "পরপর তিনটি সংখ্যার গুণফল ১২০ হলে তাদের যোগফল কত?",
+    "options": {
+      "A": "৯",
+      "B": "১২",
+      "C": "১৪",
+      "D": "১৫"
+    },
+    "answer": "D",
+    "explanation": "4×5×6=120. Sum=15."
+  },
+  {
+    "id": 78,
+    "question": "০.৪৭ (৭ এর উপর দাগ) কে সাধারণ ভগ্নাংশে পরিণত করলে কত হবে?",
+    "options": {
+      "A": "৪৭/৯০",
+      "B": "৪৩/৯০",
+      "C": "৪৩/৯৯",
+      "D": "৪৭/৯০"
+    },
+    "answer": "B",
+    "explanation": "0.47̇ = (47-4)/90 = 43/90."
+  },
+  {
+    "id": 79,
+    "question": "একটি আয়তাকার ঘরের দৈর্ঘ্য প্রস্থ অপেক্ষা ৪ মিটার বেশি। ঘরটির পরিসীমা ৩২ মিটার হলে ঘরটির দৈর্ঘ্য কত?",
+    "options": {
+      "A": "৬ মিটার",
+      "B": "১০ মিটার",
+      "C": "১৮ মিটার",
+      "D": "১২ মিটার"
+    },
+    "answer": "B",
+    "explanation": "2(w + w+4) = 32 => 4w+8=32 => w=6, L=10 m."
+  },
+  {
+    "id": 80,
+    "question": "একটি সমবাহু ত্রিভুজের বাহুর প্রত্যেকটির দৈর্ঘ্য ২ মিটার বাড়ালে এর ক্ষেত্রফল 3√3 বর্গমিটার বেড়ে যায়। সমবাহু ত্রিভুজের বাহুর দৈর্ঘ্য কত?",
+    "options": {
+      "A": "1 মিটার",
+      "B": "2 মিটার",
+      "C": "3 মিটার",
+      "D": "4 মিটার"
+    },
+    "answer": "B",
+    "explanation": "Area increase = √3(a+1) = 3√3 => a+1 = 3 => a = 2."
+  }
+]
