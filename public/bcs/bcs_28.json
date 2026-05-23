@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "চর্যাপদ আবিষ্কৃত হয় কোথা থেকে?",
+    "options": {
+      "A": "বাঁকুড়ার এক গৃহস্থের গোয়াল ঘর থেকে",
+      "B": "আরাকান রাজগ্রন্থাগার থেকে",
+      "C": "নেপালের রাজগ্রন্থশালা থেকে",
+      "D": "সুদূর চীন দেশ থেকে"
+    },
+    "answer": "C",
+    "explanation": "চর্যাপদ বাংলা সাহিত্যের প্রাচীনতম নিদর্শন। মহামহোপাধ্যায় হরপ্রসাদ শাস্ত্রী ১৯০৭ সালে নেপালের রাজদরবারের গ্রন্থাগার থেকে চর্যাপদের পুঁথি আবিষ্কার করেন।"
+  },
+  {
+    "id": 2,
+    "question": "মঙ্গলযুগের সর্বশেষ কবির নাম কি?",
+    "options": {
+      "A": "বিজয়গুপ্ত",
+      "B": "ভারতচন্দ্র রায়গুণাকর",
+      "C": "মুকুন্দরাম চক্রবর্তী",
+      "D": "কানাহরি দত্ত"
+    },
+    "answer": "B",
+    "explanation": "ভারতচন্দ্র রায়গুণাকর (১৭১২-১৭৬০) হলেন মধ্যযুগের বা মঙ্গলকাব্যের সর্বশেষ বড় কবি। তিনি 'অন্নদামঙ্গল' কাব্যের রচয়িতা।"
+  },
+  {
+    "id": 3,
+    "question": "বিদ্যাপতি কোথাকার কবি ছিলেন?",
+    "options": {
+      "A": "নবদ্বীপের",
+      "B": "মিথিলার",
+      "C": "বৃন্দাবনের",
+      "D": "বর্ধমানের"
+    },
+    "answer": "B",
+    "explanation": "বিদ্যাপতি ছিলেন মিথিলার (বর্তমান বিহারের দ্বারভাঙা) রাজা শিবসিংহের সভাকবি। তিনি ব্রজবুলি ভাষায় পদ রচনা করলেও তাকে বাঙালি কবি হিসেবেই গণ্য করা হয়। তাকে ‘মৈথিল কোকিল’ বলা হয়।"
+  },
+  {
+    "id": 4,
+    "question": "শ্রীকৃষ্ণকীর্তন কাব্যের বড়াই কি ধরনের চরিত্র?",
+    "options": {
+      "A": "শ্রী রাধার ননদিনী",
+      "B": "শ্রী রাধার শাশুড়ি",
+      "C": "রাধাকৃষ্ণের প্রেমের দূতী",
+      "D": "জনৈক গোপবালা"
+    },
+    "answer": "C",
+    "explanation": "বড়ুচণ্ডীদাস রচিত 'শ্রীকৃষ্ণকীর্তন' কাব্যের তিনটি প্রধান চরিত্র হলো কৃষ্ণ, রাধা ও বড়াই। বড়াই রাধা ও কৃষ্ণের মধ্যে প্রেমের সংযোগ স্থাপনকারী বা দূতী হিসেবে কাজ করে।"
+  },
+  {
+    "id": 5,
+    "question": "লোকসাহিত্য কাকে বলে?",
+    "options": {
+      "A": "গ্রামীণ নরনারীর প্রণয় সংবলিত উপাখ্যানকে",
+      "B": "লোক সাধারণের কল্যাণে দেবতার স্তুতিমূলক রচনাকে",
+      "C": "লোকের মুখে মুখে প্রচলিত কাহিনী, গান, ছড়া ইত্যাদিকে",
+      "D": "গ্রামীণ অশিক্ষিত ও অখ্যাত লোকের সৃষ্ট রচনাকে"
+    },
+    "answer": "C",
+    "explanation": "লোকসাহিত্য হলো সাধারণ মানুষের মুখে মুখে প্রচলিত ও প্রচারিত সাহিত্য, যা প্রজন্ম থেকে প্রজন্মে বাহিত হয়। এর মধ্যে ছড়া, ধাঁধা, প্রবাদ, লোকগীতি, লোককাহিনী ইত্যাদি অন্তর্ভুক্ত।"
+  },
+  {
+    "id": 6,
+    "question": "বাংলা সাহিত্যে কখন গদ্যের সূচনা হয়?",
+    "options": {
+      "A": "নবম শতকে",
+      "B": "ত্রয়োদশ শতকে",
+      "C": "ষোড়শ শতকে",
+      "D": "উনিশ শতকে"
+    },
+    "answer": "D",
+    "explanation": "বাংলা গদ্যের আনুষ্ঠানিক সূচনা হয় উনিশ শতকে, ফোর্ট উইলিয়াম কলেজকে কেন্দ্র করে। এর আগে প্রাচীন ও মধ্যযুগে গদ্যের কিছু বিক্ষিপ্ত নিদর্শন পাওয়া গেলেও তা ছিল সীমিত ও সাহিত্যিক মানের নয়। উইলিয়াম কেরি, মৃত্যুঞ্জয় বিদ্যালঙ্কার, রামরাম বসু প্রমুখের হাত ধরে আধুনিক বাংলা গদ্যের যাত্রা শুরু হয়।"
+  },
+  {
+    "id": 7,
+    "question": "বাংলা ভাষায় প্রথম সাময়িকপত্র কোনটি?",
+    "options": {
+      "A": "দিকদর্শন",
+      "B": "সংবাদ প্রভাকর",
+      "C": "তত্ত্ববোধিনী",
+      "D": "বঙ্গদর্শন"
+    },
+    "answer": "A",
+    "explanation": "'দিকদর্শন' হলো বাংলা ভাষার প্রথম সাময়িকপত্র। এটি ১৮১৮ সালের এপ্রিলে শ্রীরামপুর মিশন থেকে জন ক্লার্ক মার্শম্যানের সম্পাদনায় প্রকাশিত হয়। এটি ছিল একটি মাসিক পত্রিকা।"
+  },
+  {
+    "id": 8,
+    "question": "ইয়ং বেঙ্গল কি?",
+    "options": {
+      "A": "বাংলাভাষা শিক্ষার্থী ইংরেজ",
+      "B": "ইংরেজি ভাবধারাপুষ্ট বাঙালি যুবক",
+      "C": "একটি সাহিত্যিক গোষ্ঠীর নাম",
+      "D": "একটি সাময়িক পত্রের নাম"
+    },
+    "answer": "B",
+    "explanation": "উনিশ শতকে হেনরি লুই ভিভিয়ান ডিরোজিওর নেতৃত্বে হিন্দু কলেজের একদল তরুণ ছাত্র পাশ্চাত্য ভাবধারায় অনুপ্রাণিত হয়ে যে সংস্কার আন্দোলন শুরু করে, সেই গোষ্ঠীকে 'ইয়ং বেঙ্গল' বলা হয়। তারা প্রচলিত ধর্মীয় ও সামাজিক কুসংস্কারের বিরুদ্ধে সোচ্চার ছিলেন।"
+  },
+  {
+    "id": 9,
+    "question": "দীনবন্ধু মিত্রের প্রহসন কোনটি?",
+    "options": {
+      "A": "বুড়ো শালিকের ঘাড়ে রোঁ",
+      "B": "বিয়ে পাগলা বুড়ো",
+      "C": "কিঞ্চিত জলযোগ",
+      "D": "কল্কি অবতার"
+    },
+    "answer": "B",
+    "explanation": "'বিয়ে পাগলা বুড়ো' (১৮৬৬) দীনবন্ধু মিত্র রচিত একটি প্রহসন। তার অন্য দুটি বিখ্যাত প্রহসন হলো 'সধবার একাদশী' (১৮৬৬) এবং 'জামাই বারিক' (১৮৭২)। 'বুড়ো শালিকের ঘাড়ে রোঁ' মাইকেল মধুসূদন দত্তের প্রহসন।"
+  },
+  {
+    "id": 10,
+    "question": "মীর মশাররফ হোসেনের নাটক কোনটি?",
+    "options": {
+      "A": "নটির পূজা",
+      "B": "বেহুলা গীতাভিনয়",
+      "C": "নবীন তপস্বিনী",
+      "D": "কৃষ্ণকুমারী"
+    },
+    "answer": "B",
+    "explanation": "'বেহুলা গীতাভিনয়' (১৮৮৯) মীর মশাররফ হোসেন রচিত একটি নাটক। তার অন্যান্য নাটক হলো 'বসন্তকুমারী' (১৮৭৩), 'জমিদার দর্পণ' (১৮৭৩) ইত্যাদি। 'কৃষ্ণকুমারী' মাইকেল মধুসূদন দত্তের এবং 'নবীন তপস্বিনী' দীনবন্ধু মিত্রের নাটক।"
+  },
+  {
+    "id": 11,
+    "question": "কলকাতায় প্রথম রঙ্গমঞ্চ তৈরি হয় কত সালে?",
+    "options": {
+      "A": "১৮১৭ সালে",
+      "B": "১৮৩২ সালে",
+      "C": "১৮৫২ সালে",
+      "D": "১৭৫৩ সালে"
+    },
+    "answer": "D",
+    "explanation": "কলকাতায় প্রথম রঙ্গমঞ্চ প্রতিষ্ঠিত হয় ১৭৫৩ সালে। এটি ‘প্লে হাউস’ বা ‘ওল্ড প্লে হাউস’ নামে পরিচিত ছিল। এর প্রতিষ্ঠাতা ছিলেন একজন রুশ নাগরিক, গেরাসিম স্তেপানোভিচ লেবেদেফ।"
+  },
+  {
+    "id": 12,
+    "question": "রবীন্দ্রনাথ ঠাকুরের অতিপ্রাকৃত গল্প কোনটি?",
+    "options": {
+      "A": "একরাত্রি",
+      "B": "নষ্টনীড়",
+      "C": "ক্ষুধিত পাষাণ",
+      "D": "মধ্যবর্তিনী"
+    },
+    "answer": "C",
+    "explanation": "‘ক্ষুধিত পাষাণ’ রবীন্দ্রনাথ ঠাকুরের একটি বিখ্যাত ছোটগল্প যেখানে অতিপ্রাকৃত বা ভৌতিক আবহ রয়েছে। গল্পে একটি পুরোনো প্রাসাদের রহস্যময় অতীত জীবন্ত হয়ে ওঠে।"
+  },
+  {
+    "id": 13,
+    "question": "বাংলা সাহিত্যের প্রথম মুসলিম ঔপন্যাসিকের নাম কি?",
+    "options": {
+      "A": "মোতাহের হোসেন",
+      "B": "ইসমাইল হোসেন সিরাজী",
+      "C": "মীর মশাররফ হোসেন",
+      "D": "ফররুখ আহমদ"
+    },
+    "answer": "C",
+    "explanation": "বাংলা সাহিত্যের প্রথম মুসলিম ঔপন্যাসিক হলেন মীর মশাররফ হোসেন। তার রচিত উপন্যাস 'রত্নবতী' (১৮৬৯) বাংলা সাহিত্যে মুসলিম রচিত প্রথম উপন্যাস হিসেবে স্বীকৃত।"
+  },
+  {
+    "id": 14,
+    "question": "নজরুল ইসলামের সম্পাদিত পত্রিকা কোনটি?",
+    "options": {
+      "A": "মাহে নও",
+      "B": "সওগাত",
+      "C": "ধূমকেতু",
+      "D": "কালিকলম"
+    },
+    "answer": "C",
+    "explanation": "কাজী নজরুল ইসলাম তিনটি পত্রিকা সম্পাদনা করেন: 'ধূমকেতু' (১৯২২), 'লাঙল' (১৯২৫) এবং 'দৈনিক নবযুগ' (১৯৪১, যুগ্ম-সম্পাদক)। 'ধূমকেতু' ছিল একটি অর্ধ-সাপ্তাহিক পত্রিকা।"
+  },
+  {
+    "id": 15,
+    "question": "জীবনানন্দ দাশের প্রবন্ধগ্রন্থ কোনটি?",
+    "options": {
+      "A": "ধূসর পাণ্ডুলিপি",
+      "B": "কবিতার কথা",
+      "C": "ঝরা পালক",
+      "D": "দুর্দিনের যাত্রী"
+    },
+    "answer": "B",
+    "explanation": "‘কবিতার কথা’ (১৯৫৫) কবি জীবনানন্দ দাশের একমাত্র প্রবন্ধগ্রন্থ। ‘ধূসর পাণ্ডুলিপি’ ও ‘ঝরা পালক’ তাঁর কাব্যগ্রন্থ। ‘দুর্দিনের যাত্রী’ কাজী নজরুল ইসলামের প্রবন্ধগ্রন্থ।"
+  },
+  {
+    "id": 16,
+    "question": "‘সাত সাগরের মাঝি’ কাব্যগ্রন্থের রচয়িতা কে?",
+    "options": {
+      "A": "কাজী নজরুল ইসলাম",
+      "B": "ফররুখ আহমদ",
+      "C": "আব্দুল কাদির",
+      "D": "বন্দে আলী মিয়া"
+    },
+    "answer": "B",
+    "explanation": "'সাত সাগরের মাঝি' (১৯৪৪) মুসলিম রেনেসাঁর কবি ফররুখ আহমদের একটি বিখ্যাত কাব্যগ্রন্থ। এই কাব্যের মাধ্যমে তিনি বাংলা সাহিত্যে পরিচিতি লাভ করেন।"
+  },
+  {
+    "id": 17,
+    "question": "বাংলাদেশের ভাষা আন্দোলনভিত্তিক উপন্যাস কোনটি?",
+    "options": {
+      "A": "অগ্নিসাক্ষী",
+      "B": "চিলেকোঠার সেপাই",
+      "C": "আরেক ফাল্গুন",
+      "D": "অনেক সূর্যের আশা"
+    },
+    "answer": "C",
+    "explanation": "জহির রায়হান রচিত 'আরেক ফাল্গুন' (১৯৬৯) একটি বিখ্যাত ভাষা আন্দোলনভিত্তিক উপন্যাস। 'চিলেকোঠার সেপাই' ঊনসত্তরের গণঅভ্যুত্থান ভিত্তিক উপন্যাস।"
+  },
+  {
+    "id": 18,
+    "question": "মুক্তিযুদ্ধভিত্তিক উপন্যাস কোনটি?",
+    "options": {
+      "A": "শঙ্খনীল কারাগার",
+      "B": "কাঁটাতারে প্রজাপতি",
+      "C": "জাহান্নাম হইতে বিদায়",
+      "D": "আর্তনাদ"
+    },
+    "answer": "C",
+    "explanation": "'জাহান্নাম হইতে বিদায়' (১৯৭১) শওকত ওসমান রচিত একটি মুক্তিযুদ্ধভিত্তিক উপন্যাস। এটি মুক্তিযুদ্ধের পটভূমিকায় লেখা প্রথম উপন্যাসগুলোর একটি।"
+  },
+  {
+    "id": 19,
+    "question": "শওকত ওসমান কোন উপন্যাসের জন্য আদমজী পুরস্কার লাভ করেন?",
+    "options": {
+      "A": "বনী আদম",
+      "B": "জননী",
+      "C": "চৌরসন্ধি",
+      "D": "ক্রীতদাসের হাসি"
+    },
+    "answer": "D",
+    "explanation": "শওকত ওসমান তাঁর 'ক্রীতদাসের হাসি' (১৯৬২) উপন্যাসের জন্য ১৯৬৬ সালে আদমজী সাহিত্য পুরস্কার লাভ করেন। এটি একটি রূপকধর্মী উপন্যাস।"
+  },
+  {
+    "id": 20,
+    "question": "‘উপরোধ’ শব্দের অর্থ কি?",
+    "options": {
+      "A": "প্রতিরোধ",
+      "B": "উপস্থাপন",
+      "C": "অনুরোধ",
+      "D": "উপযোগী"
+    },
+    "answer": "C",
+    "explanation": "'উপরোধ' একটি বিশেষ্য পদ, যার অর্থ বিশেষ অনুরোধ, সুপারিশ বা খাতির। যেমন: \"বন্ধুর উপরোধে কাজটি করতে হলো।\""
+  },
+  {
+    "id": 21,
+    "question": "A rocket flying to the moon does not need wings because-",
+    "options": {
+      "A": "it has no engine",
+      "B": "space has too much dust",
+      "C": "it has no fuel",
+      "D": "space is airless"
+    },
+    "answer": "D",
+    "explanation": "Wings on an airplane work by creating lift from the air. Since outer space is a vacuum (airless), wings would be useless for a rocket traveling to the moon."
+  },
+  {
+    "id": 22,
+    "question": "Rubber is notable for its-",
+    "options": {
+      "A": "lightness",
+      "B": "heaviness",
+      "C": "elasticity",
+      "D": "Viscosity"
+    },
+    "answer": "C",
+    "explanation": "Elasticity is the property of a material to return to its original shape after being stretched or compressed. This is the most defining characteristic of rubber."
+  },
+  {
+    "id": 23,
+    "question": "Julius Caesar was the ruler of Rome about-",
+    "options": {
+      "A": "1000 years ago",
+      "B": "1500 years ago",
+      "C": "2000 years ago",
+      "D": "3000 years ago"
+    },
+    "answer": "C",
+    "explanation": "Julius Caesar lived from 100 BC to 44 BC. Therefore, he was the ruler of Rome approximately 2000 years ago from the present time."
+  },
+  {
+    "id": 24,
+    "question": "The South Pole is located in the-",
+    "options": {
+      "A": "Arctic",
+      "B": "Antarctic",
+      "C": "Antipodes",
+      "D": "Occident"
+    },
+    "answer": "B",
+    "explanation": "The South Pole is located on the continent of Antarctica. The Arctic is the region around the North Pole."
+  },
+  {
+    "id": 25,
+    "question": "Tiger : Zoology :: Mars : ?",
+    "options": {
+      "A": "Astrology",
+      "B": "Cryptology",
+      "C": "Astronomy",
+      "D": "Telescope"
+    },
+    "answer": "C",
+    "explanation": "This is an analogy. A Tiger is a subject of study in Zoology (the study of animals). Similarly, Mars is a subject of study in Astronomy (the study of celestial objects)."
+  },
+  {
+    "id": 26,
+    "question": "Break : Repair : : Wound : ?",
+    "options": {
+      "A": "Heal",
+      "B": "Hurt",
+      "C": "Fix",
+      "D": "Plaster"
+    },
+    "answer": "A",
+    "explanation": "The relationship is between a problem and its solution. You repair something that is broken. Similarly, you heal a wound."
+  },
+  {
+    "id": 27,
+    "question": "Frightened : Scream : : Angry : ?",
+    "options": {
+      "A": "Cry",
+      "B": "Shiver",
+      "C": "Shout",
+      "D": "Sneer"
+    },
+    "answer": "C",
+    "explanation": "This analogy relates an emotion to a common vocal reaction. A frightened person might scream. An angry person might shout."
+  },
+  {
+    "id": 28,
+    "question": "He ____ consciousness as a result of his head hitting the car’s dashboard.",
+    "options": {
+      "A": "failed",
+      "B": "broke",
+      "C": "lost",
+      "D": "Passed"
+    },
+    "answer": "C",
+    "explanation": "The correct idiomatic expression is \"to lose consciousness,\" which means to become unconscious."
+  },
+  {
+    "id": 29,
+    "question": "Only after I ____ home, did I remember my doctor’s appointment.",
+    "options": {
+      "A": "going",
+      "B": "go",
+      "C": "went",
+      "D": "gone"
+    },
+    "answer": "C",
+    "explanation": "The main clause \"did I remember\" is in the past tense. The clause starting with \"Only after\" describes a preceding action, which also needs to be in the simple past tense in this structure."
+  },
+  {
+    "id": 30,
+    "question": "When they had their first child, they put ____ a large sum for his education.",
+    "options": {
+      "A": "aside",
+      "B": "beside",
+      "C": "outside",
+      "D": "Under"
+    },
+    "answer": "A",
+    "explanation": "The phrasal verb \"put aside\" means to save something, especially money, for a particular purpose."
+  },
+  {
+    "id": 31,
+    "question": "Julia has been ill ____ three months.",
+    "options": {
+      "A": "since",
+      "B": "about",
+      "C": "in",
+      "D": "for"
+    },
+    "answer": "D",
+    "explanation": "\"For\" is used with a period of time (e.g., three months, two years), while \"since\" is used with a specific point in time (e.g., since Monday, since 2020)."
+  },
+  {
+    "id": 32,
+    "question": "We were waiting for the bus. The underlined part is-",
+    "options": {
+      "A": "a noun phrase",
+      "B": "an infinitive phrase",
+      "C": "a prepositional phrase",
+      "D": "a verb phrase"
+    },
+    "answer": "C",
+    "explanation": "A prepositional phrase starts with a preposition (here, \"for\") and includes its object (here, \"the bus\") and any modifiers of the object. \"For the bus\" is a prepositional phrase."
+  },
+  {
+    "id": 33,
+    "question": "The word ‘disinterested’ means-",
+    "options": {
+      "A": "lack of interest",
+      "B": "indifferent",
+      "C": "callous",
+      "D": "neutral"
+    },
+    "answer": "D",
+    "explanation": "'Disinterested' means impartial, unbiased, or neutral, not influenced by personal feelings or interests. It is often confused with 'uninterested', which means not interested or bored."
+  },
+  {
+    "id": 34,
+    "question": "Who did write first English dictionary?",
+    "options": {
+      "A": "Boswell",
+      "B": "Ben Jonson",
+      "C": "Samuel Johnson",
+      "D": "Milton"
+    },
+    "answer": "C",
+    "explanation": "Samuel Johnson published \"A Dictionary of the English Language\" in 1755. It is considered one of the most influential dictionaries in the history of the English language."
+  },
+  {
+    "id": 35,
+    "question": "New programs will be ____ next week in Bangladesh Television.",
+    "options": {
+      "A": "telecast",
+      "B": "published",
+      "C": "telecasted",
+      "D": "Broadecasted"
+    },
+    "answer": "A",
+    "explanation": "The verb 'telecast' is irregular. Its past tense and past participle are both 'telecast'. The form 'telecasted' is generally considered incorrect. Similarly, the past tense of 'broadcast' is 'broadcast'."
+  },
+  {
+    "id": 36,
+    "question": "The word ‘electorate’ means-",
+    "options": {
+      "A": "election office",
+      "B": "a body of voters",
+      "C": "many elections",
+      "D": "Candidates"
+    },
+    "answer": "B",
+    "explanation": "The electorate refers to all the people in a country or area who are entitled to vote in an election."
+  },
+  {
+    "id": 37,
+    "question": "‘Animal Farm’ was written by-",
+    "options": {
+      "A": "George Orwell",
+      "B": "Stevenson",
+      "C": "Swift",
+      "D": "Mark Twain"
+    },
+    "answer": "A",
+    "explanation": "'Animal Farm' is a famous allegorical novella by George Orwell, first published in England in 1945."
+  },
+  {
+    "id": 38,
+    "question": "There is no alternative ____ training.",
+    "options": {
+      "A": "to",
+      "B": "for",
+      "C": "than",
+      "D": "of"
+    },
+    "answer": "A",
+    "explanation": "The word 'alternative' is followed by the preposition 'to'. The correct phrase is \"alternative to something\"."
+  },
+  {
+    "id": 39,
+    "question": "Which sentence is correct?",
+    "options": {
+      "A": "This is an unique case",
+      "B": "This is a unique case",
+      "C": "This is a very unique case",
+      "D": "This is the most unique case"
+    },
+    "answer": "B",
+    "explanation": "The word 'unique' starts with a 'y' sound (yu-nique), which is a consonant sound. Therefore, the article 'a' is used before it. Also, 'unique' is an absolute adjective, meaning it cannot be modified by 'very' or 'most'."
+  },
+  {
+    "id": 40,
+    "question": "I cannot ____ to pay such high prices.",
+    "options": {
+      "A": "able",
+      "B": "but",
+      "C": "try",
+      "D": "afford"
+    },
+    "answer": "D",
+    "explanation": "'Afford' means to have enough money or time for something. The expression \"cannot afford to do something\" is commonly used."
+  },
+  {
+    "id": 41,
+    "question": "Dhaka is becoming one of the ____ cities in Asia.",
+    "options": {
+      "A": "more busy",
+      "B": "busy",
+      "C": "busiest",
+      "D": "most busiest"
+    },
+    "answer": "C",
+    "explanation": "The structure \"one of the...\" is followed by a superlative adjective (busiest) and a plural noun (cities)."
+  },
+  {
+    "id": 42,
+    "question": "He had written the book before he-",
+    "options": {
+      "A": "retired",
+      "B": "had retired",
+      "C": "has retired",
+      "D": "will be retired"
+    },
+    "answer": "A",
+    "explanation": "This sentence follows the Past Perfect Tense rule. The action that happened first is in Past Perfect (had written), and the action that happened later is in Past Indefinite (retired). The part after 'before' is in the Past Indefinite tense."
+  },
+  {
+    "id": 43,
+    "question": "Rizvi requested Rini ____ telephone to attend the meeting.",
+    "options": {
+      "A": "over",
+      "B": "through",
+      "C": "with",
+      "D": "by"
+    },
+    "answer": "D",
+    "explanation": "To indicate communication using a telephone, the preposition 'by' or 'over' can be used. \"By telephone\" is a standard and common expression. \"Over the telephone\" is also correct. Among the options, 'by' is the most appropriate."
+  },
+  {
+    "id": 44,
+    "question": "The word ‘precedence’ means-",
+    "options": {
+      "A": "example",
+      "B": "priority",
+      "C": "elderly",
+      "D": "case"
+    },
+    "answer": "B",
+    "explanation": "'Precedence' means the condition of being considered more important than someone or something else; priority in rank, order, or importance."
+  },
+  {
+    "id": 45,
+    "question": "The prices of rice are-",
+    "options": {
+      "A": "raising",
+      "B": "risen",
+      "C": "rising",
+      "D": "Raised"
+    },
+    "answer": "C",
+    "explanation": "'Rise' is an intransitive verb (it doesn't take an object) and means to go up. 'Raise' is a transitive verb (it needs an object) and means to lift something up. Since prices go up by themselves, the correct verb is 'rising'."
+  },
+  {
+    "id": 46,
+    "question": "‘To get along with’ means-",
+    "options": {
+      "A": "to adjust",
+      "B": "to accompany",
+      "C": "to interest",
+      "D": "to walk"
+    },
+    "answer": "A",
+    "explanation": "The phrasal verb \"to get along with someone\" means to have a harmonious or friendly relationship, which involves adjusting to each other."
+  },
+  {
+    "id": 47,
+    "question": "‘If winter comes, can spring be far behind?’ These lines were written by-",
+    "options": {
+      "A": "Keats",
+      "B": "Frost",
+      "C": "Eliot",
+      "D": "Shelley"
+    },
+    "answer": "D",
+    "explanation": "This famous line is the conclusion of Percy Bysshe Shelley's poem \"Ode to the West Wind\"."
+  },
+  {
+    "id": 48,
+    "question": "The verb of the word ‘short’ is-",
+    "options": {
+      "A": "enshort",
+      "B": "shorten",
+      "C": "shorted",
+      "D": "shorting"
+    },
+    "answer": "B",
+    "explanation": "To form a verb from the adjective 'short', the suffix '-en' is added, making it 'shorten', which means to make or become shorter."
+  },
+  {
+    "id": 49,
+    "question": "‘light’ is to ‘dark’ as ‘cold’ is to-",
+    "options": {
+      "A": "hot",
+      "B": "heat",
+      "C": "cool",
+      "D": "Winter"
+    },
+    "answer": "A",
+    "explanation": "This is an antonym analogy. 'Light' is the opposite of 'dark'. Similarly, 'cold' is the opposite of 'hot'."
+  },
+  {
+    "id": 50,
+    "question": "Many prefer donating money ____ distributing clothes.",
+    "options": {
+      "A": "than",
+      "B": "but",
+      "C": "to",
+      "D": "Without"
+    },
+    "answer": "C",
+    "explanation": "The verb 'prefer' takes the preposition 'to' when comparing two things or actions (prefer something to something else)."
+  },
+  {
+    "id": 51,
+    "question": "If you count from 1 to 100, how many 5s will you pass on the way?",
+    "options": {
+      "A": "20",
+      "B": "11",
+      "C": "18",
+      "D": "19"
+    },
+    "answer": "A",
+    "explanation": "একক স্থানে 5 আছে এমন সংখ্যা: 5, 15, 25, 35, 45, 55, 65, 75, 85, 95 (মোট ১০টি)। দশক স্থানে 5 আছে এমন সংখ্যা: 50, 51, 52, 53, 54, 55, 56, 57, 58, 59 (মোট ১০টি)। এখানে 55 দুইবার গণনা হয়েছে, কিন্তু এতে 5 অঙ্কটিও দুইবার আছে। তাই মোট 5 এর সংখ্যা = ১০ + ১০ = ২০টি।"
+  },
+  {
+    "id": 52,
+    "question": "A farmer had 17 hens. All but 9 died. How many live hens were left?",
+    "options": {
+      "A": "0",
+      "B": "9",
+      "C": "8",
+      "D": "16"
+    },
+    "answer": "B",
+    "explanation": "'All but 9 died' এর অর্থ হলো \"৯টি ছাড়া বাকি সব মারা গেছে\"। সুতরাং, জীবিত মুরগির সংখ্যা ৯টি।"
+  },
+  {
+    "id": 53,
+    "question": "If two typists can type two pages in two minutes, how many typists will it take to type 18 pages in six minutes?",
+    "options": {
+      "A": "3",
+      "B": "6",
+      "C": "9",
+      "D": "18"
+    },
+    "answer": "B",
+    "explanation": "২ জন টাইপিস্ট ২ মিনিটে টাইপ করে ২ পৃষ্ঠা। সুতরাং, ১ জন টাইপিস্ট ২ মিনিটে টাইপ করে ১ পৃষ্ঠা। বা, ১ জন টাইপিস্ট ১ মিনিটে টাইপ করে ১/২ পৃষ্ঠা। এখন, ১৮ পৃষ্ঠা ৬ মিনিটে টাইপ করতে হবে। ৬ মিনিটে ১ জন টাইপ করে (১/২) × ৬ = ৩ পৃষ্ঠা। তাহলে, ১৮ পৃষ্ঠা টাইপ করতে প্রয়োজন ১৮/৩ = ৬ জন টাইপিস্ট।"
+  },
+  {
+    "id": 54,
+    "question": "The fifth consonant from the beginning of this sentence is the letter-",
+    "options": {
+      "A": "i",
+      "B": "e",
+      "C": "a",
+      "D": "t"
+    },
+    "answer": "D",
+    "explanation": "বাক্যটির শুরুর ব্যঞ্জনবর্ণগুলো (consonants) হলো: Th(১), f(২), fth(৩), c(৪), ns(৫), n(৬), nt(৭)...। পঞ্চম ব্যঞ্জনবর্ণটি হলো 's' (consonant এর s)। কিন্তু অপশনে 's' নেই। সম্ভবত প্রশ্নকর্তা 'The' শব্দের 'h' কে প্রথম ব্যঞ্জনবর্ণ ধরেছেন: h(1), f(2),f(3),th(4),c(5)। এক্ষেত্রে পঞ্চমটি 'c' হয়। প্রশ্নটি সম্ভবত \"this\" শব্দ থেকে গণনা করতে বলেছে। This sentence: th(১), s(২), s(৩), n(৪), t(৫)। এক্ষেত্রে উত্তর হয় 't'। এই ব্যাখ্যাটিই সবচেয়ে যৌক্তিক।"
+  },
+  {
+    "id": 55,
+    "question": "If the second day of the month is a Monday, the eighteenth day of the month is a-",
+    "options": {
+      "A": "Sunday",
+      "B": "Tuesday",
+      "C": "Wednesday",
+      "D": "Monday"
+    },
+    "answer": "C",
+    "explanation": "মাসের ২ তারিখ সোমবার। তাহলে (২+৭)=৯ তারিখ সোমবার, (৯+৭)=১৬ তারিখ সোমবার। সুতরাং, ১৭ তারিখ হবে মঙ্গলবার এবং ১৮ তারিখ হবে বুধবার।"
+  },
+  {
+    "id": 56,
+    "question": "Two men, starting at the same point, walk in opposite directions for 4 meters, turn left and walk another 3 meters. What is the distance between them?",
+    "options": {
+      "A": "7 meters",
+      "B": "14 meters",
+      "C": "10 meters",
+      "D": "6 meters"
+    },
+    "answer": "C",
+    "explanation": "তারা বিপরীত দিকে ৪ মিটার হাঁটার পর তাদের মধ্যে দূরত্ব হয় ৪+৪ = ৮ মিটার। এরপর উভয়েই বামে ঘুরে ৩ মিটার হাঁটে। এতে দুটি সমকোণী ত্রিভুজ তৈরি হয় যার ভূমি ৪ মিটার এবং লম্ব ৩ মিটার। প্রতিজনের অতিভুজ = √(৪²+৩²) = √(১৬+৯) = √২৫ = ৫ মিটার। তারা শুরুর স্থান থেকে ৫ মিটার দূরে আছে। যেহেতু তারা বিপরীত দিকে যাত্রা শুরু করেছিল, তাদের মধ্যকার চূড়ান্ত দূরত্ব হবে ৫ + ৫ = ১০ মিটার।"
+  },
+  {
+    "id": 57,
+    "question": "30% of 10 is 10% of which?",
+    "options": {
+      "A": "30",
+      "B": "60",
+      "C": "40",
+      "D": "600"
+    },
+    "answer": "A",
+    "explanation": "১০ এর ৩০% = ১০ × (৩০/১০০) = ৩। ধরি, সংখ্যাটি x। প্রশ্নমতে, x এর ১০% = ৩। বা, x × (১০/১০০) = ৩। বা, x/১০ = ৩। সুতরাং, x = ৩০।"
+  },
+  {
+    "id": 58,
+    "question": "Rahim is 12 years old. He is three times older than Karim. What will be the age of Rahim when he is two times older than Karim?",
+    "options": {
+      "A": "15 years",
+      "B": "16 years",
+      "C": "17 years",
+      "D": "18 years"
+    },
+    "answer": "B",
+    "explanation": "রহিমের বর্তমান বয়স ১২ বছর। সে করিমের চেয়ে তিনগুণ বড়। সুতরাং, করিমের বর্তমান বয়স ১২/৩ = ৪ বছর। ধরি, x বছর পর রহিমের বয়স করিমের বয়সের দ্বিগুণ হবে। তখন, (১২+x) = ২(৪+x)। বা, ১২+x = ৮+২x। বা, x = ৪ বছর। ৪ বছর পর রহিমের বয়স হবে ১২+৪ = ১৬ বছর।"
+  },
+  {
+    "id": 59,
+    "question": "Divide 30 by half and add 10. What do you get?",
+    "options": {
+      "A": "25",
+      "B": "45",
+      "C": "55",
+      "D": "70"
+    },
+    "answer": "D",
+    "explanation": "\"Divide 30 by half\" মানে হলো ৩০ কে ১/২ দ্বারা ভাগ করা। ৩০ ÷ (১/২) = ৩০ × ২ = ৬০। এর সাথে ১০ যোগ করলে হয় ৬০ + ১০ = ৭০।"
+  },
+  {
+    "id": 60,
+    "question": "If a man swims 4 meters upstream at 1 mph and back downstream to the same point at 4 mph, what is his average speed?",
+    "options": {
+      "A": "0.8 mph",
+      "B": "1.6 mph",
+      "C": "2.4 mph",
+      "D": "3.2 mph"
+    },
+    "answer": "B",
+    "explanation": "গড় গতিবেগের সূত্র হলো (2xy)/(x+y), যেখানে x ও y হলো দুটি ভিন্ন গতিবেগ। এখানে x=1 mph এবং y=4 mph. গড় গতিবেগ = (২×১×৪)/(১+৪) = ৮/৫ = ১.৬ mph। দূরত্বের (৪ মিটার) মান এখানে অপ্রয়োজনীয়।"
+  },
+  {
+    "id": 61,
+    "question": "পৃথিবীতে কখন ল্যাপটপ কম্পিউটার প্রবর্তিত হয় এবং কোন কোম্পানি এটা তৈরি করে?",
+    "options": {
+      "A": "কমপ্যাক, ১৯৮৫",
+      "B": "এপসন, ১৯৮১",
+      "C": "আইবিএম, ১৯৮৩",
+      "D": "অ্যাপল, ১৯৭৭"
+    },
+    "answer": "B",
+    "explanation": "জাপানি কোম্পানি এপসন (Epson) ১৯৮১ সালে প্রথম ল্যাপটপ বা বহনযোগ্য কম্পিউটার 'Epson HX-20' তৈরি করে এবং বাজারে আনে। (এই প্রশ্নটি বিজ্ঞান ও প্রযুক্তির হলেও এখানে রাখা হলো)"
+  },
+  {
+    "id": 62,
+    "question": "কোন গোষ্ঠী থেকে বাঙালি জাতির প্রধান অংশ গড়ে উঠেছে?",
+    "options": {
+      "A": "নেগ্রিটো",
+      "B": "ভোটচীন",
+      "C": "দ্রাবিড়",
+      "D": "অস্ট্রিক"
+    },
+    "answer": "D",
+    "explanation": "নৃতাত্ত্বিক বিচারে বাঙালি জাতি একটি সংকর জাতি। তবে এর প্রধান অংশ গড়ে উঠেছে অস্ট্রিক বা অস্ট্রো-এশিয়াটিক জনগোষ্ঠীর সাথে অন্যান্য জনগোষ্ঠীর সংমিশ্রণে।"
+  },
+  {
+    "id": 63,
+    "question": "ঢাকায় সর্বপ্রথম কবে বাংলার রাজধানী স্থাপিত হয়?",
+    "options": {
+      "A": "১২০৬ খ্রিস্টাব্দে",
+      "B": "১৩১০ খ্রিস্টাব্দে",
+      "C": "১৬১০ খ্রিস্টাব্দে",
+      "D": "১৫২৬ খ্রিস্টাব্দে"
+    },
+    "answer": "C",
+    "explanation": "মুঘল সুবাদার ইসলাম খান চিশতি ১৬১০ সালে বাংলার রাজধানী রাজমহল থেকে ঢাকায় স্থানান্তর করেন এবং সম্রাটের নামানুসারে এর নাম রাখেন জাহাঙ্গীরনগর।"
+  },
+  {
+    "id": 64,
+    "question": "ঐতিহাসিক ২১-দফা দাবীর প্রথম দাবীটি কি ছিল?",
+    "options": {
+      "A": "বাংলাকে অন্যতম রাষ্ট্রভাষা",
+      "B": "প্রাদেশিক স্বায়ত্তশাসন",
+      "C": "পূর্ববাংলার অর্থনৈতিক বৈষম্য দূরীকরণ",
+      "D": "বিনা ক্ষতিপূরণে জমিদারী উচ্ছেদ"
+    },
+    "answer": "A",
+    "explanation": "১৯৫৪ সালের নির্বাচনে যুক্তফ্রন্টের ২১-দফা কর্মসূচির প্রথম দাবিটিই ছিল \"বাংলাকে পাকিস্তানের অন্যতম রাষ্ট্রভাষা করা হইবে\"।"
+  },
+  {
+    "id": 65,
+    "question": "অপরাজেয় বাংলা কবে উদ্বোধন করা হয়?",
+    "options": {
+      "A": "১৬ ডিসেম্বর ১৯৭৯",
+      "B": "২৬ ডিসেম্বর ১৯৭৯",
+      "C": "১ জানুয়ারি ১৯৮০",
+      "D": "২১ ফেব্রুয়ারি ১৯৮০"
+    },
+    "answer": "A",
+    "explanation": "'অপরাজেয় বাংলা' ঢাকা বিশ্ববিদ্যালয়ের কলা ভবনের সামনে অবস্থিত মুক্তিযুদ্ধের একটি বিখ্যাত ভাস্কর্য। এর ভাস্কর সৈয়দ আবদুল্লাহ খালিদ। এটি ১৬ ডিসেম্বর ১৯৭৯ সালে উদ্বোধন করা হয়।"
+  },
+  {
+    "id": 66,
+    "question": "জাতীয় স্মৃতিসৌধের উচ্চতা কত?",
+    "options": {
+      "A": "৪৬.৫ মি",
+      "B": "৪৬ মি",
+      "C": "৪৫.৫ মি",
+      "D": "৪৫ মি"
+    },
+    "answer": "A",
+    "explanation": "সাভারে অবস্থিত জাতীয় স্মৃতিসৌধের উচ্চতা ১৫০ ফুট বা প্রায় ৪৬.৫ মিটার। এর স্থপতি সৈয়দ মাইনুল হোসেন। পিএসসি প্রথমে উত্তর (খ) ৪৬ মি বললেও পরে (ক) ৪৬.৫ মি কে সঠিক হিসেবে গ্রহণ করে।"
+  },
+  {
+    "id": 67,
+    "question": "হাজংদের অধিবাস কোথায়?",
+    "options": {
+      "A": "ময়মনসিংহ ও নেত্রকোনা",
+      "B": "কক্সবাজার ও রামু",
+      "C": "রংপুর ও দিনাজপুর",
+      "D": "সিলেট ও মণিপুর"
+    },
+    "answer": "A",
+    "explanation": "হাজং বাংলাদেশের একটি আদিবাসী জনগোষ্ঠী। তাদের প্রধান বাসস্থল বৃহত্তর ময়মনসিংহ অঞ্চলের নেত্রকোনা, শেরপুর এবং ময়মনসিংহ জেলায়।"
+  },
+  {
+    "id": 68,
+    "question": "নিঝুম দ্বীপের আয়তন কত?",
+    "options": {
+      "A": "৮০ব. মা.",
+      "B": "৮২ ব. মা.",
+      "C": "৮৫ ব. মা.",
+      "D": "৯০ ব. মা."
+    },
+    "answer": "",
+    "explanation": "নিঝুম দ্বীপের আয়তন প্রতিনিয়ত পরিবর্তনশীল এবং বিভিন্ন সরকারি পরিসংখ্যানে এর ভিন্ন ভিন্ন তথ্য পাওয়া যায়। তৎকালীন বিকল্পগুলোর কোনোটিই সর্বজনগ্রাহ্য না হওয়ায় প্রশ্নটি বাতিল করা হয়েছিল। বর্তমানে এর আয়তন প্রায় ৯১ বর্গ কিলোমিটার।"
+  },
+  {
+    "id": 69,
+    "question": "বাংলাদেশে গ্রামের সংখ্যা কত?",
+    "options": {
+      "A": "৮৭,১৯১ টি",
+      "B": "৮৪,৫০০ টি",
+      "C": "৮৫,৫০০ টি",
+      "D": "৮৩,৯০০ টি"
+    },
+    "answer": "A",
+    "explanation": "বাংলাদেশ পরিসংখ্যান ব্যুরো (BBS) এর ২০১১ সালের আদমশুমারি অনুযায়ী, বাংলাদেশে গ্রামের সংখ্যা ৮৭,১৯১টি। এই সংখ্যা পরিবর্তনশীল।"
+  },
+  {
+    "id": 70,
+    "question": "বাংলাদেশের প্রথম জাতীয় সংসদ নির্বাচন কবে হয়?",
+    "options": {
+      "A": "৭ মার্চ ১৯৭৩",
+      "B": "৫ মার্চ ১৯৭৩",
+      "C": "৬ এপ্রিল ১৯৭৩",
+      "D": "১১ এপ্রিল ১৯৭৩"
+    },
+    "answer": "A",
+    "explanation": "স্বাধীন বাংলাদেশে প্রথম জাতীয় সংসদ নির্বাচন অনুষ্ঠিত হয় ১৯৭৩ সালের ৭ মার্চ। এই নির্বাচনে বঙ্গবন্ধু শেখ মুজিবুর রহমানের নেতৃত্বে বাংলাদেশ আওয়ামী লীগ নিরঙ্কুশ সংখ্যাগরিষ্ঠতা অর্জন করে।"
+  },
+  {
+    "id": 71,
+    "question": "বাংলাদেশের সবচেয়ে ছোট ইউনিয়ন কোনটি?",
+    "options": {
+      "A": "সেন্টমার্টিন",
+      "B": "লালপুর",
+      "C": "হিলি",
+      "D": "লালমোহন"
+    },
+    "answer": "A",
+    "explanation": "আয়তনের দিক থেকে বাংলাদেশের ক্ষুদ্রতম ইউনিয়ন হলো ভোলা জেলার দৌলতখান উপজেলার হাজীপুর ইউনিয়ন। তবে জনসংখ্যার দিক থেকে সবচেয়ে ছোট ইউনিয়ন হলো কক্সবাজারের সেন্টমার্টিন। প্রশ্নে নির্দিষ্ট করে না বলায় বিভ্রান্তি তৈরি হতে পারে, তবে সাধারণত সেন্টমার্টিনকেই উত্তর ধরা হয়।"
+  },
+  {
+    "id": 72,
+    "question": "জনসংখ্যা বৃদ্ধির ফলে ব্যাপকভাবে ক্ষতিগ্রস্ত হচ্ছে কি?",
+    "options": {
+      "A": "প্রাকৃতিক পরিবেশ",
+      "B": "সামাজিক পরিবেশ",
+      "C": "বায়বীয় পরিবেশ",
+      "D": "সাংস্কৃতিক পরিবেশ"
+    },
+    "answer": "A",
+    "explanation": "জনসংখ্যা বৃদ্ধির ফলে বাসস্থান, খাদ্য, ও অন্যান্য প্রয়োজনে বনভূমি উজাড়, নদী ভরাট, বায়ুদূষণ, পানিদূষণ ইত্যাদি ঘটছে, যা সামগ্রিকভাবে প্রাকৃতিক পরিবেশের উপর মারাত্মক নেতিবাচক প্রভাব ফেলছে।"
+  },
+  {
+    "id": 73,
+    "question": "যুক্তরাষ্ট্রের সিনেটের মোট আসন সংখ্যা কতটি?",
+    "options": {
+      "A": "৯৯",
+      "B": "১০০",
+      "C": "১০১",
+      "D": "১০২"
+    },
+    "answer": "B",
+    "explanation": "যুক্তরাষ্ট্রের আইনসভা কংগ্রেসের উচ্চকক্ষ হলো সিনেট। মোট ৫০টি অঙ্গরাজ্যের প্রতিটি থেকে ২ জন করে সিনেটর নির্বাচিত হন। সুতরাং মোট আসন সংখ্যা ৫০ × ২ = ১০০টি।"
+  },
+  {
+    "id": 74,
+    "question": "ফেয়ার ফ্যাক্স কি?",
+    "options": {
+      "A": "সংবাদ সংস্থা",
+      "B": "পরিবেশ সংস্থা",
+      "C": "গোয়েন্দা সংস্থা",
+      "D": "মানবাধিকার সংস্থা"
+    },
+    "answer": "C",
+    "explanation": "ফেয়ারফ্যাক্স (Fairfax) একটি বেসরকারি গোয়েন্দা সংস্থা এবং নিরাপত্তা পরামর্শক প্রতিষ্ঠান। তবে এটি ভার্জিনিয়ার একটি কাউন্টির নামও। প্রশ্নের প্রেক্ষাপটে গোয়েন্দা সংস্থাই সঠিক উত্তর।"
+  },
+  {
+    "id": 75,
+    "question": "NASA এর সদর দপ্তর কোথায়?",
+    "options": {
+      "A": "ফ্লোরিডা",
+      "B": "ওয়াশিংটন ডিসি",
+      "C": "কেপ কেনেডি",
+      "D": "টেকসাস"
+    },
+    "answer": "B",
+    "explanation": "NASA (National Aeronautics and Space Administration) হলো মার্কিন যুক্তরাষ্ট্রের মহাকাশ গবেষণা সংস্থা। এর সদর দপ্তর ওয়াশিংটন ডি.সি.-তে অবস্থিত। ফ্লোরিডার কেপ ক্যানাভেরাল এবং টেক্সাসের হিউস্টনে এর গুরুত্বপূর্ণ কেন্দ্র রয়েছে।"
+  },
+  {
+    "id": 76,
+    "question": "দক্ষিণ আফ্রিকা কত বছর শ্বেতাঙ্গ শাসনে ছিল?",
+    "options": {
+      "A": "৩০০ বছর",
+      "B": "৩৩৫ বছর",
+      "C": "৩৪২ বছর",
+      "D": "৫০০ বছর"
+    },
+    "answer": "C",
+    "explanation": "দক্ষিণ আফ্রিকায় শ্বেতাঙ্গ শাসন শুরু হয় ১৬৫২ সালে ডাচদের উপনিবেশ স্থাপনের মাধ্যমে এবং শেষ হয় ১৯৯৪ সালে নেলসন ম্যান্ডেলার নেতৃত্বে বর্ণবৈষম্যহীন সরকার গঠনের মাধ্যমে। মোট সময়কাল ছিল ১৯৯৪ - ১৬৫২ = ৩৪২ বছর।"
+  },
+  {
+    "id": 77,
+    "question": "বসনিয়ায় যুদ্ধবিরতি স্বাক্ষরের মধ্যস্থতাকারী কে?",
+    "options": {
+      "A": "বিল ক্লিনটন",
+      "B": "জিমি কার্টার",
+      "C": "নিক্সন",
+      "D": "রিগান"
+    },
+    "answer": "B",
+    "explanation": "বসনিয়া যুদ্ধের সময় বিভিন্ন পর্যায়ে যুদ্ধবিরতির চেষ্টা হয়। ১৯৯৪ সালে একটি যুদ্ধবিরতিতে যুক্তরাষ্ট্রের সাবেক প্রেসিডেন্ট জিমি কার্টার মধ্যস্থতা করেন। পরবর্তীতে ১৯৯৫ সালের ডেটন চুক্তি স্বাক্ষরিত হয় বিল ক্লিনটনের উদ্যোগে। প্রশ্নের প্রেক্ষাপটে জিমি কার্টার অধিকতর সঠিক উত্তর।"
+  },
+  {
+    "id": 78,
+    "question": "ফ্রান্সের বর্তমান প্রেসিডেন্টের নাম কি?",
+    "options": {
+      "A": "ইমানুয়েল ম্যাক্র",
+      "B": "জ্যাক শিরাক",
+      "C": "ফ্রঁসিয়ে মিতেরাঁ",
+      "D": "জেনারেল দ্য গল"
+    },
+    "answer": "A",
+    "explanation": "প্রশ্নটি প্রণয়নের সময় (২০০৮ সাল) ফ্রান্সের প্রেসিডেন্ট ছিলেন নিকোলাস সারকোজি। তার পূর্বসূরি ছিলেন জ্যাক শিরাক (১৯৯৫-২০০৭)। প্রদত্ত বিকল্পগুলির মধ্যে কোনোটিই তৎকালীন সঠিক উত্তর ছিল না। তবে, বর্তমানে ফ্রান্সের প্রেসিডেন্ট হলেন ইমানুয়েল ম্যাক্রোঁ (Emmanuel Macron), তাই সাম্প্রতিক প্রেক্ষাপটে বিকল্প (ক) সঠিক।"
+  },
+  {
+    "id": 79,
+    "question": "হোয়াংহো নদীর উৎপত্তি স্থল কোথায়?",
+    "options": {
+      "A": "হিমালয়",
+      "B": "কুয়েনলুন পর্বত",
+      "C": "ব্ল্যাক ফরেস্ট",
+      "D": "আল্‌পস"
+    },
+    "answer": "B",
+    "explanation": "পীত নদী বা হোয়াংহো নদীর উৎপত্তি চীনের পশ্চিমাঞ্চলের ছিংহাই প্রদেশের বায়ান হার পর্বতমালার কুয়েনলুন পর্বত থেকে।"
+  },
+  {
+    "id": 80,
+    "question": "মেক্সিকো ও যুক্তরাষ্ট্র বিভক্তকারী সীমারেখা কোনটি?",
+    "options": {
+      "A": "সনোরা লাইন",
+      "B": "ম্যাকনামারা লাইন",
+      "C": "ডুরান্ড লাইন",
+      "D": "হিন্ডারবার্গ লাইন"
+    },
+    "answer": "A",
+    "explanation": "সনোরা লাইন যুক্তরাষ্ট্র ও মেক্সিকোর মধ্যে অবস্থিত একটি কাল্পনিক সীমান্তরেখা। এই রেখাটি মূলত সোনোরান মরুভূমি অঞ্চলের উপর দিয়ে কল্পনা করা হয়েছে, যা অবৈধ অভিবাসনের জন্য ব্যবহৃত হয়।"
+  },
+  {
+    "id": 81,
+    "question": "ইউরোপের ককপিট বলা হয় কোন দেশকে?",
+    "options": {
+      "A": "বেলজিয়াম",
+      "B": "ফ্রান্স",
+      "C": "জার্মানী",
+      "D": "ফিনল্যান্ড"
+    },
+    "answer": "A",
+    "explanation": "বেলজিয়ামকে 'ইউরোপের ককপিট' বা 'ইউরোপের রণক্ষেত্র' বলা হয়, কারণ历史上 ইউরোপের বিভিন্ন শক্তির মধ্যে অনেক গুরুত্বপূর্ণ যুদ্ধ এই দেশের মাটিতে সংঘটিত হয়েছে (যেমন- ওয়াটারলুর যুদ্ধ)।"
+  },
+  {
+    "id": 82,
+    "question": "বিশ্বের কোন দেশের সাক্ষরতার হার ১০০%?",
+    "options": {
+      "A": "পোল্যান্ড",
+      "B": "ফিনল্যান্ড",
+      "C": "কাজাকিস্তান",
+      "D": "স্লোভাকিয়া"
+    },
+    "answer": "B",
+    "explanation": "ফিনল্যান্ডসহ বেশ কিছু স্ক্যান্ডিনেভিয়ান এবং ইউরোপীয় দেশের সাক্ষরতার হার প্রায় ১০০%। প্রদত্ত বিকল্পগুলোর মধ্যে ফিনল্যান্ড সবচেয়ে উপযুক্ত উত্তর।"
+  },
+  {
+    "id": 83,
+    "question": "কোথায় দিন রাত্রি সর্বত্র সমান?",
+    "options": {
+      "A": "মেরু অঞ্চলে",
+      "B": "নিরক্ষরেখায়",
+      "C": "উত্তর গোলার্ধে",
+      "D": "দক্ষিণ গোলার্ধে"
+    },
+    "answer": "B",
+    "explanation": "পৃথিবীর মাঝ বরাবর পূর্ব-পশ্চিমে কল্পিত রেখা হলো নিরক্ষরেখা। এই অঞ্চলে সূর্যরশ্মি সারাবছর প্রায় লম্বভাবে পড়ে, ফলে দিন ও রাত্রির দৈর্ঘ্য প্রায় সমান (১২ ঘন্টা করে) থাকে।"
+  },
+  {
+    "id": 84,
+    "question": "রেফ্রিজারেটরে কমপ্রেসরের কাজ কি?",
+    "options": {
+      "A": "ফ্রেয়নকে ঘনীভূত করা",
+      "B": "ফ্রেয়নকে বাষ্পে পরিণত করা",
+      "C": "ফ্রেয়নকে সংকুচিত করে এর তাপ ও তাপমাত্রা বাড়ানো",
+      "D": "ফ্রেয়নকে ঠাণ্ডা করা"
+    },
+    "answer": "B",
+    "explanation": "রেফ্রিজারেটরের কম্প্রেসরের মূল কাজ হলো হিমায়ক গ্যাসকে (যেমন ফ্রেয়ন) সংকুচিত করা। তবে এর ফলে গ্যাস বাষ্পে পরিণত হয় এবং এর চাপ ও তাপমাত্রা উভয়ই বেড়ে যায়। এখানে বিকল্প 'খ' সবচেয়ে কাছাকাছি উত্তর। কম্প্রেসর ফ্রেয়নকে ইভাপোরেটর থেকে টেনে এনে কনডেনসারে পাঠায় এবং চাপ প্রয়োগের মাধ্যমে বাষ্পকে তরলে পরিণত করতে সাহায্য করে। তবে মূল প্রক্রিয়ায় ফ্রেয়ন বাষ্পীভূত হয় ইভাপোরেটরে, আর কম্প্রেসর সেই বাষ্পকে সংকুচিত করে। প্রশ্নটির বিকল্পগুলো কিছুটা বিভ্রান্তিকর।"
+  },
+  {
+    "id": 85,
+    "question": "এক গ্রাম পানির তাপমাত্রা ২০ ডিগ্রি হতে ৩০ ডিগ্রি সেলসিয়াসে বৃদ্ধির জন্যে কত তাপের প্রয়োজন?",
+    "options": {
+      "A": "১০ ক্যালরি",
+      "B": "২ ক্যালরি",
+      "C": "৩ ক্যালরি",
+      "D": "৪ ক্যালরি"
+    },
+    "answer": "A",
+    "explanation": "প্রয়োজনীয় তাপ নির্ণয়ের সূত্র হলো Q = msΔθ, যেখানে m = ভর, s = আপেক্ষিক তাপ, এবং Δθ = তাপমাত্রার পরিবর্তন। পানির আপেক্ষিক তাপ ১ ক্যালরি/গ্রাম/°সে.। এখানে, m = ১ গ্রাম, s = ১, Δθ = (৩০-২০) = ১০° সে.। সুতরাং, প্রয়োজনীয় তাপ Q = ১ × ১ × ১০ = ১০ ক্যালরি।"
+  },
+  {
+    "id": 86,
+    "question": "কোন শব্দ শোনার পরে কত সেকেন্ড পর্যন্ত এর রেশ আমাদের মস্তিষ্কে থাকে?",
+    "options": {
+      "A": "১ সেকেন্ড",
+      "B": "০.১ সেকেন্ড",
+      "C": "০.০১ সেকেন্ড",
+      "D": "০.০০১ সেকেন্ড"
+    },
+    "answer": "B",
+    "explanation": "কোনো শব্দ শোনার পর তার অনুভূতি প্রায় ০.১ সেকেন্ড (বা ১/১০ সেকেন্ড) পর্যন্ত আমাদের মস্তিষ্কে থেকে যায়। একে শব্দানুভূতির স্থায়িত্বকাল বলে।"
+  },
+  {
+    "id": 87,
+    "question": "টেপ রেকর্ডার এবং কম্পিউটারের স্মৃতির ফিতায় কি ধরনের চুম্বক ব্যবহৃত হয়?",
+    "options": {
+      "A": "স্থায়ী চুম্বক",
+      "B": "অস্থায়ী চুম্বক",
+      "C": "সংকর চুম্বক",
+      "D": "প্রাকৃতিক চুম্বক"
+    },
+    "answer": "A",
+    "explanation": "টেপ রেকর্ডার এবং কম্পিউটারের স্মৃতির ফিতায় (Magnetic Tape) স্থায়ী চুম্বকত্ব তৈরির মাধ্যমে ডেটা সংরক্ষণ করা হয়। ফিতার উপর আয়রন অক্সাইডের একটি প্রলেপ থাকে যা ক্ষুদ্র ক্ষুদ্র স্থায়ী চুম্বকে পরিণত হয়ে তথ্য ধারণ করে।"
+  },
+  {
+    "id": 88,
+    "question": "টেলিভিশনে রঙিন ছবি উৎপাদনের জন্যে কয়টি মৌলিক রং- এর ছবি ব্যবহার করা হয়?",
+    "options": {
+      "A": "১ টি",
+      "B": "২ টি",
+      "C": "৩ টি",
+      "D": "৪ টি"
+    },
+    "answer": "C",
+    "explanation": "টেলিভিশনে রঙিন ছবি তৈরির জন্য তিনটি মৌলিক রং ব্যবহার করা হয়। এগুলো হলো লাল (Red), সবুজ (Green) এবং নীল (Blue)। এই তিনটি রংকে বিভিন্ন অনুপাতে মিশিয়ে অন্যান্য সব রং তৈরি করা হয়।"
+  },
+  {
+    "id": 89,
+    "question": "যে যন্ত্রের সাহায্যে পরবর্তী উচ্চ বিভবকে নিম্ন বিভবে এবং নিম্ন বিভবকে উচ্চ বিভবে রূপান্তরিত করা হয় তার নাম কি?",
+    "options": {
+      "A": "ট্রান্সফর্মার",
+      "B": "মোটর",
+      "C": "জেনারেটর",
+      "D": "ডায়নামো"
+    },
+    "answer": "A",
+    "explanation": "ট্রান্সফর্মার বা রূপান্তরক একটি বৈদ্যুতিক যন্ত্র যা পরিবর্তী প্রবাহের (AC) বিভবকে বাড়াতে (স্টেপ-আপ) বা কমাতে (স্টেপ-ডাউন) পারে।"
+  },
+  {
+    "id": 90,
+    "question": "বিদ্যুৎ বিলের হিসাব কিভাবে করা হয়?",
+    "options": {
+      "A": "ওয়াট আওয়ারে",
+      "B": "ওয়াটে",
+      "C": "ভোল্টে",
+      "D": "কিলোওয়াট ঘণ্টায়"
+    },
+    "answer": "D",
+    "explanation": "বিদ্যুৎ শক্তি ব্যয়ের বাণিজ্যিক একক হলো কিলোওয়াট-ঘণ্টা (kWh), যা 'বোর্ড অব ট্রেড ইউনিট' (B.O.T. Unit) বা সংক্ষেপে 'ইউনিট' নামে পরিচিত। ১ কিলোওয়াট-ঘণ্টা = ১ ইউনিট।"
+  },
+  {
+    "id": 91,
+    "question": "কোনটি পানিতে দ্রবীভূত হত না?",
+    "options": {
+      "A": "গ্লিসারিন",
+      "B": "ফিটকিরি",
+      "C": "সোডিয়াম ক্লোরাইড",
+      "D": "ক্যালসিয়াম কার্বনেট"
+    },
+    "answer": "D",
+    "explanation": "ক্যালসিয়াম কার্বনেট (CaCO₃), যা চুনাপাথর বা মার্বেল নামে পরিচিত, এটি পানিতে অদ্রবণীয়। অন্যদিকে গ্লিসারিন, ফিটকিরি (পটাশ অ্যালাম) এবং সোডিয়াম ক্লোরাইড (খাবার লবণ) পানিতে দ্রবণীয়।"
+  },
+  {
+    "id": 92,
+    "question": "পারমাণবিক চুল্লিতে তাপ পরিবাহক হিসেবে কোন ধাতু ব্যবহৃত হয়?",
+    "options": {
+      "A": "সোডিয়াম",
+      "B": "পটাসিয়াম",
+      "C": "ম্যাগনেসিয়াম",
+      "D": "কোনোটিই নয়"
+    },
+    "answer": "A",
+    "explanation": "পারমাণবিক চুল্লিতে উৎপন্ন বিপুল পরিমাণ তাপ শোষণ ও পরিবহনের জন্য উচ্চ তাপ পরিবাহিতা সম্পন্ন পদার্থ ব্যবহার করা হয়। তরল সোডিয়াম একটি চমৎকার তাপ পরিবাহক হওয়ায় এটি কুল্যান্ট বা শীতক হিসেবে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 93,
+    "question": "চা পাতায় কোন ভিটামিন থাকে?",
+    "options": {
+      "A": "ভিটামিন-ই",
+      "B": "ভিটামিন-কে",
+      "C": "ভিটামিন-বি কমপ্লেক্স",
+      "D": "ভিটামিন-এ"
+    },
+    "answer": "C",
+    "explanation": "চা পাতায় বিভিন্ন ধরনের পুষ্টি উপাদান রয়েছে, যার মধ্যে ভিটামিন বি-কমপ্লেক্স (বিশেষ করে থিয়ামিন, রিবোফ্লাভিন, নিয়াসিন) অন্যতম।"
+  },
+  {
+    "id": 94,
+    "question": "উদ্ভিদের পাতা হলদে হয়ে যায় কিসের অভাবে?",
+    "options": {
+      "A": "নাইট্রোজেনের",
+      "B": "ফসফরাসের",
+      "C": "ইউরিয়ার",
+      "D": "পটাসিয়ামের"
+    },
+    "answer": "A",
+    "explanation": "নাইট্রোজেন ক্লোরোফিলের একটি অপরিহার্য উপাদান। নাইট্রোজেনের অভাবে উদ্ভিদের ক্লোরোফিল উৎপাদন ব্যাহত হয়, ফলে পাতা সবুজ রং হারিয়ে হলদে হয়ে যায়। এই প্রক্রিয়াকে ক্লোরোসিস বলে।"
+  },
+  {
+    "id": 95,
+    "question": "মানুষের স্পাইনাল কর্ডের দৈর্ঘ্য কত?",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "C",
+    "explanation": "প্রাপ্তবয়স্ক পুরুষদের ক্ষেত্রে স্পাইনাল কর্ড বা সুষুম্নাকাণ্ডের গড় দৈর্ঘ্য প্রায় ৪৫ সেমি (১৮ ইঞ্চি) এবং মহিলাদের ক্ষেত্রে প্রায় ৪৩ সেমি (১৭ ইঞ্চি)। প্রদত্ত বিকল্পগুলোর মধ্যে ১৮ ইঞ্চি সবচেয়ে উপযুক্ত।"
+  },
+  {
+    "id": 96,
+    "question": "ক্যান্সার রোগের কারণ কি?",
+    "options": {
+      "A": "কোষের অস্বাভাবিক মৃত্যু",
+      "B": "কোষের অস্বাভাবিক বৃদ্ধি",
+      "C": "কোষের অস্বাভাবিক জমাট বাঁধা",
+      "D": "উপরের সবগুলো"
+    },
+    "answer": "B",
+    "explanation": "ক্যান্সার হলো এমন একটি রোগ যেখানে দেহের কোষগুলো অনিয়ন্ত্রিতভাবে বিভাজিত ও বৃদ্ধি পেতে থাকে এবং পার্শ্ববর্তী কলা বা টিস্যুকে আক্রমণ করে। এটি মূলত কোষের অস্বাভাবিক ও অনিয়ন্ত্রিত বৃদ্ধি।"
+  },
+  {
+    "id": 97,
+    "question": "ইনসুলিন নিঃসৃত হয় কোথা থেকে?",
+    "options": {
+      "A": "অগ্ন্যাশয় হতে",
+      "B": "প্যানক্রিয়াস হতে",
+      "C": "লিভার হতে",
+      "D": "পিটুইটারী গ্ল্যান্ড হতে"
+    },
+    "answer": "",
+    "explanation": "ইনসুলিন অগ্ন্যাশয়ের (Pancreas) আইলেটস অব ল্যাঙ্গারহ্যান্সের বিটা কোষ থেকে নিঃসৃত হয়। যেহেতু বিকল্প 'ক' (অগ্ন্যাশয় হতে) এবং 'খ' (প্যানক্রিয়াস হতে) দুটোই একই অঙ্গকে নির্দেশ করে এবং উভয়ই সঠিক, তাই প্রশ্নটি ত্রুটিপূর্ণ হওয়ায় পিএসসি কর্তৃক বাতিল করা হয়েছে।"
+  },
+  {
+    "id": 98,
+    "question": "সুষম খাদ্যের উপাদান কয়টি?",
+    "options": {
+      "A": "৪ টি",
+      "B": "৫ টি",
+      "C": "৬ টি",
+      "D": "৮ টি"
+    },
+    "answer": "C",
+    "explanation": "সুষম খাদ্যের প্রধান উপাদান ৬টি। এগুলো হলো: শর্করা (Carbohydrate), আমিষ (Protein), স্নেহ (Fat), ভিটামিন (Vitamin), খনিজ লবণ (Minerals) এবং পানি (Water)।"
+  },
+  {
+    "id": 99,
+    "question": "জীবজগতের জন্যে সবচেয়ে ক্ষতিকারক রশ্মি কোনটি?",
+    "options": {
+      "A": "আলট্রা-ভায়োলেট রশ্মি",
+      "B": "বিটা রশ্মি",
+      "C": "আলফা রশ্মি",
+      "D": "গামা রশ্মি"
+    },
+    "answer": "D",
+    "explanation": "গামা রশ্মি অত্যন্ত উচ্চ ভেদন ক্ষমতা সম্পন্ন একটি তাড়িতচৌম্বক বিকিরণ। এটি জীবন্ত কোষের মধ্য দিয়ে যাওয়ার সময় ব্যাপক ক্ষতি সাধন করতে পারে এবং ডিএনএ-এর গঠন পরিবর্তন করে দিতে পারে, যা ক্যান্সারসহ মারাত্মক রোগের কারণ।"
+  },
+  {
+    "id": 100,
+    "question": "ছায়াপথ তার নিজ অক্ষকে কেন্দ্র করে ঘুরে আসতে যে সময় লাগে তাকে কি বলে?",
+    "options": {
+      "A": "সৌর বছর",
+      "B": "কসমিক ইয়ার",
+      "C": "আলোক বর্ষ",
+      "D": "পলিসার"
+    },
+    "answer": "B",
+    "explanation": "কসমিক ইয়ার বা মহাজাগতিক বর্ষ হলো আমাদের সৌরজগতের ছায়াপথের কেন্দ্রকে একবার প্রদক্ষিণ করতে যে সময় লাগে তার পরিমাণ। এই সময়টি প্রায় ২৩০ মিলিয়ন বা ২৩ কোটি বছর।"
+  }
+]

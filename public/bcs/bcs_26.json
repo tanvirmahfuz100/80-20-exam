@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "Choose the correct sentence.",
+    "options": {
+      "A": "Everybody has went there",
+      "B": "Everybody has gone there",
+      "C": "Everybody are gone there",
+      "D": "Everybody have gone there"
+    },
+    "answer": "B",
+    "explanation": "একবচন হিসেবে গণ্য করা (Singular Subject):\n\n \r\n\r\n\"Everybody\" (সবাই) শব্দটা শুনলে মনে হয় অনেক মানুষ বোঝাচ্ছে। কিন্তু ইংরেজি গ্রামারে \"Everybody\", \"Everyone\", \"Nobody\" শব্দগুলোকে Singular (একবচন) হিসেবে ধরা হয়।\n\n\r\n\r\nতাই এদের পরে বহুবচন বা Plural verb (যেমন: Have) বসে না, \"Has\" বসে।\n\n\r\n\r\n(যেমন আমরা বলি: He has, She has — ঠিক তেমনি Everybody has)।\n\n\r\n\r\nভার্বের সঠিক রূপ (Correct Verb Form): বাক্যে যখন \"Has\" বা \"Have\" থাকে, তখন এর পরে সর্বদা ভার্বের ৩য় রূপ বা Past Participle (V3) ব্যবহার করতে হয়।\n\n\r\n\r\nGo (বর্তমান) -> Went (অতীত) -> Gone (পাস্ট পার্টিসিপল)।\n\n\r\n\r\nতাই \"Has went\" লেখা ভুল, সঠিক হলো \"Has gone\"।\n\n\r\n\r\nবাকিগুলো কেন ভুল?\n\n\r\n\r\nEverybody have... (ভুল, কারণ Everybody এর সাথে Have বসে না)।\n\n\r\n\r\nEverybody are... (ভুল, এখানেও are বহুবচন বা Plural, যা Everybody এর সাথে যায় না)।\n\n\r\n\r\nEverybody has went... (ভুল, কারণ Has এর পরে Went বসে না, Gone বসে)।"
+  },
+  {
+    "id": 2,
+    "question": "Choose the correct preposition. My brother has no interest ___ music.",
+    "options": {
+      "A": "at",
+      "B": "with",
+      "C": "in",
+      "D": "for"
+    },
+    "answer": "C",
+    "explanation": "ইংরেজিতে \"Interest\" শব্দটির পরে যখন কোনো বিষয়ে আগ্রহ বোঝানো হয়, তখন তার সাথে Preposition হিসেবে \"in\" ব্যবহৃত হয়। একে Appropriate Preposition বলা হয়।\n\n\r\n\r\nসঠিক বাক্য: My brother has no interest in music.\n\n\r\n\r\nবাংলা অর্থ: আমার ভাইয়ের সঙ্গীতের প্রতি কোনো আগ্রহ নেই।"
+  },
+  {
+    "id": 3,
+    "question": "Choose the correct sentence.",
+    "options": {
+      "A": "I am looking for a good doctor before meeting you.",
+      "B": "I looked for a good doctor before I had met you.",
+      "C": "I had looked for a good doctor before I met you.",
+      "D": "I have looked for a good doctor before I met you."
+    },
+    "answer": "C",
+    "explanation": "এটি Past Perfect Tense-এর একটি নিয়ম। অতীতে দুটি কাজ সম্পন্ন হলে, যে কাজটি আগে ঘটে তার জন্য Past Perfect Tense হয় এবং যেটি পরে ঘটে তার জন্য Past Indefinite Tense হয়।\n\n\r\n\r\nসহজ মনে রাখার টেকনিক:\n\n\r\n\r\nBefore অর্থ 'আগে'। তাই Before-এর আগে always had বসে। (Example: The patient had died before the doctor came.)"
+  },
+  {
+    "id": 4,
+    "question": "The Arabian Nights ___ still a great favourite.",
+    "options": {
+      "A": "were",
+      "B": "has",
+      "C": "are",
+      "D": "is"
+    },
+    "answer": "D",
+    "explanation": "Subject-Verb Agreement এর নিয়ম: যদিও \"The Arabian Nights\" নামটিতে \"Nights\" শব্দটি আছে এবং এটি দেখতে Plural (বহুবচন) মনে হয়, কিন্তু এটি আসলে একটি মাত্র বইয়ের নাম।\n\n\r\n\r\nমূল নিয়ম: কোনো বইয়ের নাম, দেশের নাম বা সিনেমার নাম দেখ���ে Plural এর মতো হলেও, গ্রামার অনুযায়ী তা সর্বদা Singular Subject (একবচন) হিসেবে গণ্য হয়। তাই এর পরে Verb-ও Singular হবে।\n\n\r\n\r\nসহজ উদাহরণ:\n\n\r\n\r\nGulliver's Travels is a famous book. (বইয়ের নাম তাই 'are' হবে না)\n\n\r\n\r\nThe United States is a powerful country. (দেশের নাম তাই 'are' হবে না)\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল:\n\n\r\nare/were: এগুলো Plural verb (বহুবচনের জন্য ব্যবহৃত হয়), তাই এখানে বসবে না।\n\n\r\n\r\nhas: এখানে অর্থের সাথে মেলে না (has মানে 'আছে')। এখানে বাক্যটির অর্থ হলো বইটি সবার প্রিয় 'হয়', তাই 'is' সঠিক।"
+  },
+  {
+    "id": 5,
+    "question": "Select the correct sentence.",
+    "options": {
+      "A": "The man was tall who is stealing my bag.",
+      "B": "The man was tall who stole my bag.",
+      "C": "The man stole my bag who was tall.",
+      "D": "The man who stole my bag was tall."
+    },
+    "answer": "D",
+    "explanation": "Relative Pronoun (যেমন: who, which, that) সব সময় সেই Noun বা Pronoun-এর ঠিক পরেই বসাতে হয়, যাকে সে নির্দেশ করে। একে Antecedent বলা হয়।\n\n\r\n\r\nএখানে: \"Who stole my bag\" (যে আমার ব্যাগ চুরি করেছিল) কথাটি \"The man\" (লোকটি)-কে বোঝাচ্ছে। তাই এই অংশটি অবশ্যই \"The man\"-এর ঠিক পরেই বসবে।\n\n\r\n\r\nসঠিক গঠন:\n\n\r\n\r\nSubject (The man) + Relative Clause (who stole my bag) + Verb (was) + Adjective (tall). অর্থ: যেই লোকটি আমার ব্যাগ চুরি করেছিল, সে লম্বা ছিল।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\n\r\nThe man was tall who stole my bag.\n\n\r\n\r\nএখানে \"who\" শব্দটি \"tall\"-এর পরে বসেছে, যা নিয়ম অনুযায়ী ভুল। \"who\" কে \"man\"-এর পাশে থাকতে হবে।\n\n\r\n\r\nThe man stole my bag who was tall.\n\n\r\n\r\nএখানে \"who\" শব্দটি \"bag\"-এর ঠিক পরে বসেছে। ব্যাকরণ অনুযায়ী এর অর্থ দাঁড়ায়—\"ব্যাগটি লম্বা ছিল\" (কারণ who তার আগের শব্দকে ধরে), যা অবাস্তব।\n\n\r\n\r\nThe man was tall who is stealing my bag.\n\n\r\n\r\nএখানেও অবস্থানের ভুল আছে এবং Tense-এর অসামঞ্জস্য (was এবং is) আছে।"
+  },
+  {
+    "id": 6,
+    "question": "Identify the correct passive form of 'He is going to open a shop.'",
+    "options": {
+      "A": "A shop is going to be opened by him",
+      "B": "A shop will be opened by him",
+      "C": "A shop is being gone opened by him",
+      "D": "He is being gone to open a shop"
+    },
+    "answer": "A",
+    "explanation": "এটি \"Be going to\" যুক্ত একটি Active Voice-এর বাক্য। একে Passive Voice এ রূপান্তর করার নিয়ম নিচে দেওয়া হলো:\n\n\r\n\r\nগঠন (Structure):Object (Subject হয়ে যায়) + am/is/are + going to be + মূল Verb-এর Past Participle (V3) + by + Subject (Object হয়ে যায়)।"
+  },
+  {
+    "id": 7,
+    "question": "Choose the right word to fill the blank: Two of the children have to sleep in one bed, but the other three have ___ ones.",
+    "options": {
+      "A": "Lonely",
+      "B": "Different",
+      "C": "Separate",
+      "D": "Complete"
+    },
+    "answer": "C",
+    "explanation": "বাক্যটিতে \"but\" (কিন্তু) শব্দটি ব্যবহার করে দুটি দলের মধ্যে বিপরীত অবস্থা বোঝানো হয়েছে।\n\n\r\n\r\nপ্রথম অংশ: দুইজন শিশুকে একই বিছানায় (in one bed) ভাগাভাগি করে ঘুমাতে হয়।\n\n\r\n\r\nদ্বিতীয় ���ংশ: বাকি তিনজনের অবস্থা এর উল্টো বা বিপরীত হবে। অর্থাৎ, তারা ভাগাভাগি করে না, তাদের আলাদা বা পৃথক বিছানা আছে।\n\n\r\n\r\nইংরেজিতে \"Separate\" মানে হলো আলাদা বা পৃথক, যা এখানে \"Sharing\" (ভাগাভাগি করা)-এর বিপরীত হিসেবে ব্যবহৃত হয়েছে।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\n\r\nDifferent (ভিন্ন): বিছানাগুলো দেখতে ভিন্ন হতে পারে, কিন্তু এখানে 'একসাথে' বনাম 'আলাদা' থাকার বিষয়টি বোঝানো হচ্ছে। তাই Different যুতসই নয়।\n\n\r\n\r\nComplete (সম্পূর্ণ): এই শব্দটি এখানে অর্থহীন।\n\n\r\n\r\nLonely (একাকী): বিছানা কখনো 'Lonely' হয় না, এটি মানুষের অনুভূতির ক্ষেত্রে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 8,
+    "question": "Choose the right word to fill the blank: Since his retirement, Mr. Chowdhury, who was a teacher, __ has written four novels.",
+    "options": {
+      "A": "formerly",
+      "B": "usually",
+      "C": "presently",
+      "D": "already"
+    },
+    "answer": "A",
+    "explanation": "অর্থ: অবসরের পর, জনাব চৌধুরী, যিনি পূর্বে একজন শিক্ষক ছিলেন, চারটি উপন্যাস লিখেছেন।\n\n\r\n\r\nFormerly: এই শব্দটির অর্থ হলো 'পূর্বে', 'আগে' বা 'একসময়ে' (Previously)। যেহেতু জনাব ��ৌধুরী এখন অবসরপ্রাপ্ত (Retired), তাই তিনি 'আগে' শিক্ষক ছিলেন বোঝাতে formerly শব্দটি সবচেয়ে উপযুক্ত।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\n\r\nusually (সচরাচর): এটি কোনো পেশার ক্ষেত্রে অতীতে 'মাঝেমধ্যে ছিলেন' বোঝাতে ব্যবহৃত হয় না।\n\n\r\n\r\npresently (বর্তমানে/অল্প সময়ের মধ্যে): এখানে was (অतीत কাল) আছে, তাই presently ব্যবহার করা যাবে না।\n\n\r\n\r\nalready (ইতিমধ্যে): এটি সাধারণত কোনো কাজ সম্পন্ন হয়েছে বোঝাতে (Perfect Tense-এ) ব্যবহৃত হয়। যেমন: He has already written...। কিন্তু এখানে পেশার বর্ণনায় এটি খাটে না।"
+  },
+  {
+    "id": 9,
+    "question": "The word 'ecological' is related to:-",
+    "options": {
+      "A": "Atmosphere",
+      "B": "Environment",
+      "C": "Pollution",
+      "D": "Demography"
+    },
+    "answer": "B",
+    "explanation": "Ecological শব্দটি এসেছে Ecology থেকে।\n\n\r\n\r\nEcology (বাস্তুসংস্থান) হলো বিজ্ঞানের একটি শাখা, যেখানে জীবজগত এবং তাদের পরিবেশের (Environment) মধ্যকার সম্পর্ক নিয়ে আলোচনা করা হয়। তাই, 'Ecological' শব্দটি সরাসরি Environment বা পরিবেশের সাথে সম্পর্কিত।\n\n\r\n\r\nঅন্য অপশনগুলো কেন সঠিক নয়?\n\n\r\n\r\nDemography: এটি জনসংখ্যা বিষয়ক আলোচনা (যেমন জন্ম, মৃত্যু, ঘনত্ব)।\n\n\r\n\r\nPollution: এটি পরিবেশের একটি সমস্যা (দূষণ), কিন্তু পুরো পরিবেশ নয়।\n\n\r\n\r\nAtmosphere: এটি পরিবেশের একটি অংশ মাত্র (বায়ুমণ্ডল)।"
+  },
+  {
+    "id": 10,
+    "question": "A person who writes about his own life writes -.",
+    "options": {
+      "A": "An autobiography",
+      "B": "A chronicle",
+      "C": "A diary",
+      "D": "A biography"
+    },
+    "answer": "A",
+    "explanation": "Autobiography (আত্মজীবনী): যখন কোনো ব্যক্তি নিজের জীবনের গল্প নিজেই লেখেন, তখন তাকে Autobiography বলা হয়।\n\n\r\n\r\nAuto = Self (নিজ)\n\n\r\n\r\nBio = Life (জীবন)\n\n\r\n\r\nGraphy = Writing (লেখা)"
+  },
+  {
+    "id": 11,
+    "question": "The lights have been blown ___ by the strong wind.",
+    "options": {
+      "A": "Off",
+      "B": "Out",
+      "C": "Up",
+      "D": "Away"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "He divided the money ___ the two children.",
+    "options": {
+      "A": "Between",
+      "B": "Among",
+      "C": "In between",
+      "D": "Over"
+    },
+    "answer": "A",
+    "explanation": "Between: যখন কোনো কিছু দুইজন ব্যক্তি বা বস্তুর মধ্যে ভাগ করা বা তুলনা করা হয়, তখন Between বসে।\n\n\r\n\r\nউদাহরণ: Divide the mango between the two brothers. (আমটি দুই ভাইয়ের মধ্যে ভাগ করে দাও।)\n\n\r\n\r\nAmong: যখন দুইয়ের অধিক (তিন বা তার বেশি) ব্যক্তি বা বস্তুর মধ্যে কিছু ভাগ করা হয়, তখন Among বসে।\n\n\r\n\r\nউদাহরণ: Distribute the sweets among the students. (মিষ্টিগুলো ছাত্রদের [অনেকের] মধ্যে বিতরণ করে দাও।)\n\n\r\n\r\nযেহেতু প্রশ্নে \"two children\" (দুইজন শিশু) উল্লেখ আছে, তাই সঠিক উত্তর হবে Between।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\n\r\nOver: সাধারণত কোনো কিছুর উপরে বোঝাতে ব্যবহৃত হয়।\n\n\r\n\r\nIn between: এটি সাধারণত অবস্থান বোঝাতে বা 'মাঝখানে' অর্থে ব্যবহৃত হয়, ভাগ করে দেওয়ার ক্ষেত্রে সরাসরি between বেশি উপযুক্ত।\n\n\r\n\r\nAmong: এটি তিন বা তার বেশি জনের ক্ষেত্রে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 13,
+    "question": "He has been ill ___ Friday last.",
+    "options": {
+      "A": "On",
+      "B": "From",
+      "C": "In",
+      "D": "Since"
+    },
+    "answer": "D",
+    "explanation": "Since (Point of time): যখন অতীতে কোনো নির্দিষ্ট সময় থেকে কাজ শুরু হয়ে এখনও চলছে বোঝায়, তখন Since বসে।\n\n\r\n\r\nযেমন: Morning, Saturday, 2010, Last week ইত্যাদি।\n\n\r\n\r\nউদাহরণ: It has been raining since morning.\n\n\r\n\r\nFor (Period of time): যখন সময়ের কোনো নির্দিষ্ট শুরু না বুঝিয়ে মোট সম��ের পরিমাণ বা ব্যাপ্তি বোঝায়, তখন For বসে।\n\n\r\n\r\nযেমন: 2 hours, 5 days, a long time ইত্যাদি।\n\n\r\n\r\nউদাহরণ: It has been raining for two hours.\n\n\r\n\r\nএখানে: \"Friday last\" (গত শুক্রবার) হলো একটি নির্দিষ্ট বারের নাম বা শুরুর সময় (Point of time)। তাই সঠিক উত্তর হবে Since।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\n\r\nFrom: সাধারণত Future Tense-এ বা কোনো Range (From...to) বোঝাতে ব্যবহৃত হয়। Perfect Tense-এ 'থেকে' বোঝাতে Since বেশি উপযুক্ত।\n\n\r\n\r\nOn: সাধারণত সাধারণ বারের আগে বসে (যেমন: I will go on Friday), কিন্তু 'শুক্রবার থেকে অসুস্থ' বোঝাতে On ব্যবহৃত হয় না।"
+  },
+  {
+    "id": 14,
+    "question": "Choose the correct sentence.",
+    "options": {
+      "A": "The train is running to time",
+      "B": "The train is running with time",
+      "C": "The train is running on time",
+      "D": "The train is running in time"
+    },
+    "answer": "C",
+    "explanation": "এখানে \"On time\" এবং \"In time\"-এর মধ্যে পার্থক্য বোঝা জরুরি।\n\n\r\n\r\n১. On time (যথা সময়ে/কাঁটায় কাঁটায়): যখন কোনো কিছু ঠিক নির্ধারিত সময়ে (Scheduled time) ঘটে, তখন On time বসে। ট্রেন, বাস বা বিমানের নির্দিষ্ট সময়সূচি থাকে, তাই এগুলোর ক্ষেত্রে সাধারণত On time ব্যবহৃত হয়।\n\n\r\n\r\nউদাহরণ: The meeting started on time (১০টায় শুরু হওয়ার কথা, ১০টাতেই হয়েছে)।\n\n\r\n\r\n২. In time (সময়ের মধ্যে/একটু আগে): যখন নির্ধারিত সময়ের একটু আগে পৌঁছানো বোঝায়, যাতে দেরি না হয়ে যায়, তখন In time বসে।\n\n\r\n\r\nউদাহরণ: I reached the station in time to catch the train (ট্রেন ছাড়ার আগেই পৌঁছেছিলাম)।\n\n\r\n\r\n৩. To time: \"Running to time\" একটি ব্রিটিশ বাগ্ধারা (Idiom), যার অর্থ সময়সূচি মেনে চলা। তবে সাধারণ ব্যাকরণ এবং আধুনিক ইংরেজিতে \"Running on time\" বাক্যটিই সবচেয়ে বেশি শুদ্ধ এবং বহুল ব্যবহৃত।\n\n\r\n\r\nঅর্থ: ট্রেনটি সঠিক সময়ে চলছে।"
+  },
+  {
+    "id": 15,
+    "question": "Fill in the blank with the right option. I am looking forward ___ you.",
+    "options": {
+      "A": "to have seen",
+      "B": "to seeing",
+      "C": "seeing",
+      "D": "to see"
+    },
+    "answer": "B",
+    "explanation": "সাধারণ নিয়ম: সাধারণত to-এর পরে Verb-এর মূল রূপ (Base form) বসে। যেমন: I want to go.\n\n \r\n\r\nব্যতিক্রম: কিন্তু \"Look forward to\" একটি বিশেষ Phrase, যার পরে কোনো Verb বসলে তার সাথে অবশ্যই ing যুক্ত করতে হয় (একে Gerund বলা হয়)।\n\n\r\n\r\nবাংলা অর্থ: আমি তোমার সাথে দেখা করার জন্য অধীর আগ্রহে অপেক্ষা করছি।"
+  },
+  {
+    "id": 16,
+    "question": "Choose the correct form (passive) of 'Who will do the work?'",
+    "options": {
+      "A": "Who will be done the work?",
+      "B": "Who will done the work?",
+      "C": "By whom will the work be done?",
+      "D": "Whom will the work be done?"
+    },
+    "answer": "C",
+    "explanation": "Active Voice-এ যদি বাক্যটি \"Who\" দিয়ে শুরু হয়, তবে Passive Voice করার সময় নিচের নিয়মটি অনুসরণ করতে হয়:\n\n\r\n\r\nগঠন (Structure):\n\n\r\n\r\nBy whom + Auxiliary Verb (will) + Object (Subject হয়ে যায়) + be + Main Verb-এর Past Participle (V3) + প্রশ্নবোধক চিহ্ন (?)\n\n\r\n\r\nধাপে ধাপে পরিবর্তন: \r\n\r\n১. Who পরিবর্তন: Who থাকলে তার পরিবর্তে প্রথমে By whom বসে। \n\n\r\n\r\n২. Auxiliary Verb: Tense অনুযায়ী will বসবে। \n\n\r\n\r\n৩. Subject: Active বাক্যের Object the work এখানে Subject হিসেবে বসবে। \n\n\r\n\r\n৪. Be যোগ করা: Future Indefinite Tense হওয়ায় will এর পর একটি be বসাতে হয় (Subject-এর পরে)। \n\n\r\n\r\n৫. Verb-এর রূপ: মূল Verb do-এর Past Participle বা V3 রূপ done বসবে।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\n\r\nWho will be done the work? – Passive-এ Who দিয়ে শুরু করলে শেষে by থাকতে হতো (Who will the work be done by?), কিন্তু এখানে তা নেই এবং গঠনটি ভুল।\n\n\r\n\r\nWho will done the work? – ব্যাকরণগতভাবে সম্পূর্ণ ভুল বাক্য।\n\n\r\n\r\nWhom will the work be done? – শুর���তে By নেই, তাই এটি দিয়ে কাজিটি কার দ্বারা করা হবে তা বোঝায় না।"
+  },
+  {
+    "id": 17,
+    "question": "Fill in the blank with correct preposition. He is devoid ___ commonsense.",
+    "options": {
+      "A": "at",
+      "B": "of",
+      "C": "from",
+      "D": "introduction"
+    },
+    "answer": "B",
+    "explanation": "Devoid of: শব্দটির অর্থ হলো কোনো কিছু থেকে বর্জিত, শূন্য বা বিহীন (lacking in)।\n\n\r\n\r\nইংরেজিতে Devoid-এর পরে সর্বদা Preposition হিসেবে of বসে।\n\n\r\n\r\nবাক্যটির অর্থ: তার কাণ্ডজ্ঞান নেই (বা সে কাণ্ডজ্ঞান বর্জিত)।"
+  },
+  {
+    "id": 18,
+    "question": "Select the right word. He ran fast lest he ___ miss the train.",
+    "options": {
+      "A": "has",
+      "B": "can",
+      "C": "should",
+      "D": "could"
+    },
+    "answer": "C",
+    "explanation": "Lest-এর নিয়ম: বাক্যে যদি Lest থাকে, তবে এর পরবর্তী Subject-এ��� পরে সর্বদা should অথবা might বসাতে হয়।\n\n\r\n\r\nগঠন: Lest + Subject + should/might + Verb (Base form)।\n\n\r\n\r\nLest-এর অর্থ: \"পাছে ভয় হয় যে\" বা \"যাতে এমনটি না ঘটে\"। শব্দটি নিজেই নেতিবাচক (Negative), তাই এর পরে কখনো 'no' বা 'not' বসে না।\n\n\r\n\r\nবাক্যটির অর্থ: সে দ্রুত দৌড়েছিল, পাছে না সে ট্রেনটি মিস করে ফেলে। (অর্থাৎ, ট্রেন মিস করার ভয়ে সে দ্রুত দৌড়েছিল।)\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\ncan / could: Lest যুক্ত বাক্যে সক্ষমতা (ability) বোঝানো হয় না, বরং আশঙ্কা বোঝানো হয়। তাই can/could বসে না।\n\n\r\n\r\nhas: এটি সম্পূর্ণ ভুল ব্যবহার।"
+  },
+  {
+    "id": 19,
+    "question": "Choose the correct preposition. The police is looking ___ the case.",
+    "options": {
+      "A": "into",
+      "B": "after",
+      "C": "on",
+      "D": "up"
+    },
+    "answer": "A",
+    "explanation": "এটি একটি Group Verb বা Phrasal Verb-এর প্রশ্ন। এখানে 'Look'-এর সাথে বিভিন্ন Preposition যুক্ত হয়ে ভিন্ন ভিন্ন অর্থ তৈরি করে।\n\n\r\n\r\nLook into: এর অর্থ হলো তদন্ত করা (Investigate)।\n\n\r\n\r\nযেহেতু পুলিশ মামলাটির 'তদন্ত' করছে, তাই এখানে into বসবে।\n\n\r\n\r\nবাংলা অর্থ: পুলিশ মামলাটির তদন্ত করছে।\n\n\r\n\r\nঅন্য অপশনগুলোর অর্থ:\n\n\r\nLook after: দেখাশোনা করা বা যত্ন নেওয়া (Take care of)।\n\n\r\n\r\nউদাহরণ: He looks after his parents.\n\n\r\n\r\nLook up: অভিধান বা বইয়ে কোনো শব্দ বা তথ্য খোঁজা (Search)।\n\n\r\n\r\nউদাহরণ: Look up the word in the dictionary.\n\n\r\n\r\nLook on: দর্শক হিসেবে দাঁড়িয়ে দেখা (কোনো কাজে অংশ না নিয়ে)।"
+  },
+  {
+    "id": 20,
+    "question": "Choose the correct spelling.",
+    "options": {
+      "A": "ascertain",
+      "B": "assertain",
+      "C": "ascertain",
+      "D": "asartain"
+    },
+    "answer": "A",
+    "explanation": "সঠিক বানান: Ascertain (A-s-c-e-r-t-a-i-n)\n\n\r\n\r\nবাংলা অর্থ: নিরূপণ করা, নিশ্চিত হওয়া বা সত্য নির্ধারণ করা (To find out for certain)।\n\n\r\n\r\nমনে রাখার সহজ উপায়: শব্দটিকে ভেঙে ভেঙে উচ্চারণ করলে বানান ভুল হওয়ার সম্ভাবনা কমে যায়:\n\n\r\n\r\nAs (অ্যাস) + cer (সার) + tain (টেইন) = Ascertain.\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\nassertain: এখানে sc-এর বদলে ss ব্যবহার করা হয়েছে, যা ভুল।\n\n\r\n\r\nasartain: এখানে cer-এর বদলে ar ব্যবহার করা হয়েছে, যা ভুল।"
+  },
+  {
+    "id": 21,
+    "question": "Complete the sentence with the correct verb form: 'Neela ___ her hand when she was cooking dinner'.",
+    "options": {
+      "A": "was burning",
+      "B": "is burning",
+      "C": "burnt",
+      "D": "will burn"
+    },
+    "answer": "C",
+    "explanation": "নিয়ম (Interrupted Action): অতীতে একটি কাজ দীর্ঘ সময় ধরে চলছিল (Longer Action), এবং ঠিক সেই সময়ে হঠাৎ অন্য একটি কাজ ঘটে গেল (Short Action)।\n\n\r\n\r\nহঠাৎ ঘটা কাজটি: Past Indefinite Tense হয়।\n\n\r\n\r\nএখানে: নীলা রান্না করছিল (চলমান কাজ), এমন সময় হঠাৎ তার হাত পুড়ে গেল (হঠাৎ ঘটা কাজ)। তাই হাত পোড়ার জন্য Past Indefinite form বা burnt বসবে।\n\n\r\n\r\nবাংলা অর্থ: নীলা যখন রাতের খাবার রান্না করছিল, তখন তার হাত পুড়ে গিয়েছিল।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\nis burning: এটি বর্তমান কাল, কিন্তু বাক্যে was (অতীত) আছে।\n\n\r\n\r\nwill burn: এটি ভবিষ্যৎ কাল।\n\n\r\n\r\nwas burning: এর অর্থ হতো \"তার হাত পুড়ছিল (অনেকক্ষণ ধরে)\"। কিন্তু হাত পোড়া সাধারণত একটি মুহূর্তের ঘটনা (Sudden event), দীর্ঘ প্রক্রিয়া নয়।\n\n\r\n\r\nউদাহরণ:\n\n\r\n\r\nI was watching TV when the phone rang. (আমি টিভি দেখছিলাম [চলমান], তখন ফোন বেজে উঠল [হঠাৎ]।)"
+  },
+  {
+    "id": 22,
+    "question": "Choose the correct preposition. The tree has been blown ___ by the storm.",
+    "options": {
+      "A": "out",
+      "B": "away",
+      "C": "up",
+      "D": "off"
+    },
+    "answer": "B",
+    "explanation": "এখানে Phrasal Verb-এর ব্যবহার হয়েছে। প্রদত্ত অপশনগুলোর মধ্যে away-ই সবচেয়ে যুক্তিযুক্ত।\n\n\r\n\r\nBlow away: এর অর্থ প্রবল বাতাসে কোনো কিছুকে উড়িয়ে নিয়ে যাওয়া বা স্থানচ্যুত করা (to move something by the force of wind)। ঝড়ে গাছটি শেকড়সহ উপড়ে বা উড়ে গেছে বোঝাতে এখানে blown away ব্যবহৃত হবে।\n\n\r\n\r\nঅর্থ: ঝড়ে গাছটি উড়ে গেছে (বা উপড়ে গেছে)।\n\n\r\n\r\n(নোট: সাধারণত গাছ পড়ে গেলে 'Blow down' ব্যবহৃত হয়। কিন্তু অপশনে 'down' নেই, তাই 'away' ই এখানে সঠিক উত্তর।)\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\n\r\nout (Blow out): ফুঁ দিয়ে আগুন বা বাতি নেভানো। (একটু আগেই আমরা দেখেছি: The lights were blown out).\n\n\r\n\r\nup (Blow up): বিস্ফোরিত হওয়া (বোমা দিয়ে ওড়ানো) বা বায়ু দিয়ে ফোলানো (বেলুন)। গাছ বিস্ফোরিত হয় না।\n\n\r\n\r\noff (Blow off): কোনো কিছুর উপর থেকে উড়ে যাওয়া (যেমন: The roof was blown off - ছাদটি উড়ে গিয়েছিল)। সম্পূর্ণ গাছের ক্ষেত্রে 'away' বা 'down' বেশি উপযুক্ত।\n\n\r\n\r\nসহজ মনে রাখার উপায়:\n\n\r\n\r\nবাতি নেভানো = Blow out\n\n\r\n\r\nবাতাসে দূরে উড়িয়ে নেওয়া = Blow away\n\n\r\n\r\nবিস্ফোরণ = Blow up"
+  },
+  {
+    "id": 23,
+    "question": "Identify the correct synonym for the word 'Magnanimous'.",
+    "options": {
+      "A": "friendly",
+      "B": "revengeful",
+      "C": "unkind",
+      "D": "generous"
+    },
+    "answer": "D",
+    "explanation": "Magnanimous শব্দটির অর্থ হলো মহানুভব, উদার বা মহৎপ্রাণ। বিশেষ করে যারা শত্রু বা নিজের চেয়ে দুর্বলদের ক্ষমা করে দেয়, তাদের ক্ষেত্রে এই শব্দটি ব্যবহৃত হয়।\n\n\r\n\r\nউৎপত্তি: ল্যাটিন শব্দ Magna (বড়/মহান) + Animus (মন/আত্মা) = বড় মনের অধিকারী।\n\n\r\n\r\nGenerous শব্দটির অর্থও হলো উদার, দানশীল বা বড় মনের মানুষ।\n\n\r\n\r\nতাই, Magnanimous-এর সঠিক সমার্থক শব্দ (Synonym) হলো Generous।\n\n\r\n\r\nঅন্য অপশনগুলোর অর্থ:\n\n\r\n\r\nUnkind: নির্দয় বা নিষ্ঠুর (এটি বিপরীত শব্দ বা Antonym)।\n\n\r\n\r\nRevengeful: প্রতিহিংসাপরায়ণ (যারা ক্ষমা না করে প্রতিশোধ নিতে চায়)। এটি Magnanimous-এর ঠিক বিপরীত।\n\n\r\n\r\nFriendly: বন্ধুত্বপূর্ণ (এটি কাছাকাছি অর্থ হলেও, 'উদারতা' বোঝাতে Generous শব্দটি বেশি সঠিক)।"
+  },
+  {
+    "id": 24,
+    "question": "Fill in the blank with the correct phrase: ___ your shoes before entering the mosque.",
+    "options": {
+      "A": "put on",
+      "B": "put out",
+      "C": "put off",
+      "D": "put away"
+    },
+    "answer": "C",
+    "explanation": "Put off: এর একটি অর্থ হলো খুলে ফেলা (কাপড় বা জুতো)। মসজিদে প্রবেশ করার আগে যেহেতু জুতো খুলে ফেলতে হয়, তাই এখানে put off বসবে।\n\n\r\n\r\n(নোট: আধুনিক ইংরেজিতে সাধারণত Take off বেশি ব্যবহৃত হয়, কিন্তু অপশনে Take off না থাকলে Put off সঠিক উত্তর।)\n\n\r\n\r\nবাংলা অর্থ: মসজিদে প্রবেশের আগে তোমার জুতো খুলে ফেলো।\n\n\r\n\r\nঅন্য অপশনগুলোর অর্থ:\n\n\r\nPut on: পরিধান করা বা পরা (Wear)। এটি Put off-এর বিপরীত শব্দ।\n\n\r\n\r\nPut out: নিভিয়ে ফেলা (Extinguish)। (যেমন: Put out the lamp).\n\n\r\n\r\nPut away: কোনো কিছু ব্যবহারের পর যথাস্থানে গুছিয়ে রাখা (Store)।"
+  },
+  {
+    "id": 25,
+    "question": "Fill in the blank with the correct phrase: He ___ arrested if he had tried to leave the country.",
+    "options": {
+      "A": "must be",
+      "B": "would have been",
+      "C": "could be",
+      "D": "would"
+    },
+    "answer": "B",
+    "explanation": "নিয়ম: বাক্যের If যুক্ত অংশটি যদি Past Perfect Tense (had + V3) হয়, তবে অপর অংশটিতে Perfect Conditional (would have / could have / might have + V3) বসে।\n\n\r\n\r\nগঠন: If + Subject + had + V3 ...... Subject + would have + V3.\n\n\r\n\r\nPassive Voice-এর ব্যবহার: এখানে \"He\" (সে) নিজে কাউকে গ্রেপ্তার করবে না, বরং পুলিশ তাকে গ্রেপ্তার করবে। তাই বাক্যটি Passive Voice হবে।\n\n\r\n\r\nActive: would have arrested.\n\n\r\n\r\nPassive: would have been arrested.\n\n\r\n\r\nশর্ত: If he had tried (যদি সে চেষ্টা করত - Past Perfect)।\n\n\r\n\r\nফলাফল: He would have been arrested (সে গ্রেপ্তার হতো)।\n\n\r\n\r\nবাংলা অর্থ: যদি সে দেশ ত্যাগ করার চেষ্টা করত, তবে সে গ্রেপ্তার হতো (কিন্তু সে চেষ্টা করেনি, তাই গ্রেপ্তারও হয়নি)।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\n\r\nwould: এটি অপূর্ণাঙ���গ। Third Conditional-এ have থাকতে হবে।\n\n\r\n\r\ncould be: এটি Second Conditional-এ ব্যবহৃত হতে পারে, কিন্তু এখানে had tried থাকায় এটি ভুল।\n\n\r\n\r\nmust be: এটি বর্তমান কালের বাধ্যবাধকতা বোঝায়, যা এখানে খাপ খায় না।"
+  },
+  {
+    "id": 26,
+    "question": "Choose the right word to fill the blank: The Democratic party's candidate ___ defeat in the small hours of the morning.",
+    "options": {
+      "A": "granted",
+      "B": "accepted",
+      "C": "consented",
+      "D": "agreed"
+    },
+    "answer": "B",
+    "explanation": "নির্বাচনে বা কোনো প্রতিযোগিতায় হেরে যাওয়ার পর সেই পরাজয়কে মেনে নেওয়া বা স্বীকার করে নেওয়ার ইংরেজি হলো \"Accept defeat\"।\n\n\r\n\r\nযদিও রাজনৈতিক ভাষায় সাধারণত \"Concede defeat\" (পরাজয় স্বীকার করা) বেশি ব্যবহৃত হয়, কিন্তু অপশনে Concede শব্দটি নেই। তাই প্রদত্ত অপশনগুলোর মধ্যে Accepted (মেনে নিলেন) শব্দটিই সবচেয়ে সঠিক এবং উপযুক্ত।\n\n\r\n\r\nবাংলা অর্থ: ডেমোক্রেটিক পার্টির প্রার্থী ভোরের দিকে (রাতের শেষ প্রহরে) পরাজয় মেনে নিয়েছিলেন।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\nConsented (সম্মতি দেওয়া): সাধারণত কারো প্রস্তাবে অনুমতি বা সম্মতি দেওয়ার ক্ষেত্রে ব্যবহৃত হয়। পরাজয়ের ক্ষেত্রে এটি খাটে না।\n\n\r\n\r\nAgreed (একমত হওয়া): কোনো মতামতের সাথে একমত হওয়া বোঝায়, সরাসরি 'Agreed defeat' বলা যায় না।\n\n\r\n\r\nGranted (মঞ্জুর করা): কোনো অধিকার বা অনুরোধ মঞ্জুর করা বোঝায়।"
+  },
+  {
+    "id": 27,
+    "question": "The proper function of the press is surely to ___ the man in the street with facts.",
+    "options": {
+      "A": "provide",
+      "B": "proffer",
+      "C": "deliver",
+      "D": "equip"
+    },
+    "answer": "A",
+    "explanation": "Provide-এর ব্যবহার: যখন কাউকে কোনো কিছু সরবরাহ করা বা দেওয়া বোঝায়, তখন Provide-এর পর with বসে।\n\n\r\n\r\nগঠন: Provide + (Person) + with + (Thing).\n\n\r\n\r\nউদাহরণ: The school provided the students with books.\n\n\r\n\r\nContext (প্রসঙ্গ): সংবাদপত্রের কাজ হলো মানুষকে তথ্য বা সত্য ঘটনা সরবরাহ করা। তাই এখানে 'Provide' শব্দটিই সবচেয়ে উপযুক্ত।\n\n\r\n\r\nবাক্যটির অর্থ: সংবাদপত্রের সঠিক কাজ হলো নিশ্চিতভাবে সাধারণ মানুষকে (the man in the street) সত্য ঘটনা সরবরাহ করা।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\n\r\nDeliver (পৌঁছে দেওয়া): এটি সাধারণত to গ্রহণ করে। (যেমন: Deliver the letter to him)। এখানে with থাকায় এটি বসবে না।\n\n\r\n\r\nProffer (বিনীতভাবে প্রস্তাব করা): এটিও সাধারণত to গ্রহণ করে।\n\n\r\n\r\nEquip (সজ্জিত করা): যদিও Equip-এর সাথে with বসে, কিন্তু এখানে তথ্য দিয়ে কাউকে 'সজ্জিত করা' বা 'যুদ্ধসাজ পরানো' বোঝাচ্ছে না, বরং সহজভাবে তথ্য 'দেওয়া' বোঝাচ্ছে। তাই Provide বেশি গ্রহণযোগ্য।"
+  },
+  {
+    "id": 28,
+    "question": "Choose the right word to fill the blank: I should appreciate it if you could complete this work ___ Thursday.",
+    "options": {
+      "A": "till",
+      "B": "until",
+      "C": "upto",
+      "D": "by"
+    },
+    "answer": "D",
+    "explanation": "By (Deadline): যখন কোনো কাজ নির্দিষ্ট সময়ের মধ্যে বা তার আগে শেষ করতে বলা হয়, তখন By বসে। এখানে কাজটি বৃহস্পতিবারের মধ্যে সম্পন্ন (Complete) করতে বলা হয়েছে, তাই By হবে।\n\n\r\n\r\nঅর্থ: বৃহস্পতিবারের মধ্যে কাজটি শেষ হলে খুশি হতাম।\n\n\r\n\r\nTill / Until (Duration): যখন কোনো কাজ নির্দিষ্ট সময় পর্যন্ত একটানা চলতে থাকে, তখন Till বা Until বসে।\n\n\r\n\r\nউদাহরণ: Wait here till 5 PM. (বিকাল ৫টা পর্যন্ত অপেক্ষা করো - একটানা কাজ)।\n\n\r\n\r\nComplete by Thursday: বৃহস্পতিবারের মধ্যে কাজটা শেষ করে ফেলবে (ফলাফল বা সমাপ্তি মুখ্য)।\n\n\r\n\r\nWork till Thursday: বৃহস্পতিবার পর্যন্ত কাজ করতে থাকবে (একটানা কাজ করা মুখ্য, শেষ হওয়া নয়)।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\ntill / খ) until: এখানে 'কাজটি শেষ করা' (Complete) বোঝাচ্ছে, 'কাজ চালিয়ে যাওয়া' নয়। তাই এগুলো হবে না।\n\n\r\n\r\nupto: এটি সাধারণত পরিমাণ বা সীমা বোঝাতে ব্যবহৃত হয় (যেমন: Discount up to 50%), সময়ের ডেডলাইনের ক্ষেত্রে নয়।"
+  },
+  {
+    "id": 29,
+    "question": "Choose the right word to fill the blank: It will be your task to make sure the ___ of traffic is maintained without interruption.",
+    "options": {
+      "A": "procession",
+      "B": "circulation",
+      "C": "flow",
+      "D": "current"
+    },
+    "answer": "C",
+    "explanation": "Flow of traffic: ইংরেজিতে যানবাহনের একটানা চলাচল বা গতিবিধি বোঝাতে Flow শব্দটি ব্যবহৃত হয়। যেমন নদীর পানি প্রবাহিত হয় (Water flows), ঠিক তেমনি রাস্তায় গাড়ির চলাচলকে Traffic flow বলা হয়। \n\n\r\n\r\nপ্রসঙ্গ: বাক্যে বলা হয়েছে \"without interruption\" (কোনো বাধা ছাড়া)। বাধা ছাড়া একটানা চলাচল একমাত্র Flow শব্দটির সাথেই সবচেয়ে ভালো মানায়।\n\n\r\n\r\nবাংলা অর্থ: তোমার কাজ হবে ট্রাফিকের প্রবাহ (চলাচল) যেন কোনো বাধা ছাড়াই বজায় থাকে, তা নিশ্চিত করা।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\n\r\nCirculation: এটি সাধারণত রক্ত সঞ্চালন (Blood circulation), বাতাস চলাচল বা টাকার আদান-প্রদান বোঝাতে ব্যবহৃত হয়।\n\n\r\n\r\nCurrent: এটি সাধারণত বিদ্যুৎ (Electric current) বা পানির তীব্র স্রোত বোঝাতে ব্যবহৃত হয়।\n\n\r\n\r\nProcession: এর অর্থ মিছিল বা শোভাযাত্রা (যেমন: বিয়ের শোভাযাত্রা)। এটি সাধারণ ট্রাফিক বা যানবাহন চলাচল নয়।"
+  },
+  {
+    "id": 30,
+    "question": "'Pediatric' relates to the treatment of:",
+    "options": {
+      "A": "Old people",
+      "B": "Adults",
+      "C": "Children",
+      "D": "Women"
+    },
+    "answer": "C",
+    "explanation": "Pediatric (পিডিয়াট্রিক) শব্দটি চিকিৎসা বিজ্ঞানের সেই শাখার সাথে সম্পর্কিত, যেখানে শিশুদের (Children) রোগ ও চিকিৎসা নিয়ে আলোচনা করা হয়।\n\n\r\n\r\nযারা শিশুদের চিকিৎসা করেন, তাঁদের বলা হয় Pediatrician (শিশু বিশেষজ্ঞ)।\n\n\r\n\r\nশব্দটি মনে রাখার উপায়: শব্দটির উৎপত্তি গ্রিক শব্দ 'Pais' বা 'Paedia' থেকে, যার অর্থ শিশু (Child)। তাই 'Pediatric' দেখলেই বুঝবেন এটি শিশুদের সাথে সম্পর্কিত।\n\n\r\n\r\nOld people (বৃদ্ধ): বৃদ্ধদের চিকিৎসার শাখাকে বলা হয় Geriatrics (জেরিয়াট্রিক্স)।\n\n\r\n\r\nWomen (নারী): নারীদের বিশেষায়িত চিকিৎসার শাখাকে বলা হয় Gynecology (গাইনোকোলজি)।\n\n\r\n\r\nAdults (প্রাপ্তবয়স্ক): সাধারণত Internal Medicine বা General Medicine এর আওতায় পড়ে।"
+  },
+  {
+    "id": 31,
+    "question": "The correct spelling is:-",
+    "options": {
+      "A": "Humorious",
+      "B": "Humorous",
+      "C": "Humourius",
+      "D": "Humurious"
+    },
+    "answer": "B",
+    "explanation": "সঠিক বানান: Humorous (H-u-m-o-r-o-u-s)\n\n\r\n\r\nমূল শব্দ: শব্দটি এসেছে Humour (বা Humor) থেকে।\n\n\r\n\r\nবানানের নিয়ম: যখন কোনো শব্দের শেষে -ous যুক্ত করে Adjective (বিশেষণ) তৈরি করা হয়, তখন মূল শব্দের শেষের u টি সাধারণত উঠে যায়।\n\n\r\n\r\nHumour + ous = Humorous (এখানে u উঠে গেছে)।\n\n\r\n\r\nঅর্থ: হাস্যরসাত্মক, মজাদার বা রসিক।"
+  },
+  {
+    "id": 32,
+    "question": "A 'Pilgrim' is a person who undertakes a journey to a-",
+    "options": {
+      "A": "Bazar",
+      "B": "Holy place",
+      "C": "A new country",
+      "D": "Mosque"
+    },
+    "answer": "B",
+    "explanation": "Pilgrim (পিলগ্রিম): শব্���টির বাংলা অর্থ হলো তীর্থযাত্রী বা হজ্জযাত্রী।\n\n\r\n\r\nসংজ্ঞা: ধর্মীয় উদ্দেশ্যে বা পুণ্যের আশায় কোনো পবিত্র স্থানে (Holy place) ভ্রমণ করাকে Pilgrimage বলে, এবং যিনি ভ্রমণ করেন তাকে Pilgrim বলে।\n\n\r\n\r\nযেহেতু তীর্থযাত্রা যেকোনো ধর্মের মানুষের জন্যই হতে পারে, তাই এটি নির্দিষ্ট কোনো উপাসনালয় (যেমন শুধু মসজিদ বা মন্দির) না বুঝিয়ে সাধারণভাবে 'Holy place' বা পবিত্র স্থানকে নির্দেশ করে।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\n\r\nMosque (মসজিদ): এটি একটি পবিত্র স্থান ঠিকই, কিন্তু 'Pilgrim' শব্দটি শুধু মুসলমানদের জন্য নির্দিষ্ট নয়। খ্রিস্টান, হিন্দু বা বৌদ্ধ ধর্মের তীর্থযাত্রীদেরও Pilgrim বলা হয়। তাই 'Holy place' শব্দটি বেশি সঠিক ও ব্যাপক।\n\n\r\n\r\nA new country (নতুন দেশ): যারা নতুন দেশে যান তাদের Tourist বা Immigrant বলা হয়।\n\n\r\n\r\nBazar (বাজার): বাজারে যারা যান তাদের Shopper বা Customer বলা হয়।"
+  },
+  {
+    "id": 33,
+    "question": "What is the meaning of 'White Elephant'?",
+    "options": {
+      "A": "A very costly or troublesome possession",
+      "B": "A black marketer",
+      "C": "A hoarder",
+      "D": "An elephant of white colour"
+    },
+    "answer": "A",
+    "explanation": "'White Elephant' একটি ইডিয়ম বা বাগ্ধারা।\n\n\r\n\r\nঅর্থ: এমন কোনো সম্পত্তি বা জিনিস যা রক্ষণাবেক্ষণ করা অত্যন্ত ব্যয়বহুল এবং কষ্টসাধ্য, কিন্তু তা থেকে বাস্তবে কোনো লাভ বা উপকার পাওয়া যায় না।\n\n\r\n\r\nবাংলায় অর্থ: \"দামি কিন্তু অকেজো বস্তু\" বা \"গলার কাঁটা\"।\n\n\r\n\r\nধরুন, আপনি অনেক টাকা খরচ করে একটি পুরনো মডেলের বিলাসবহুল গাড়ি কিনলেন। গাড়িটি রাস্তায় চলে না, কিন্তু গ্যারেজ ভাড়া আর মেরামতের পেছনে প্রতি মাসে আপনার হাজার হাজার টাকা খরচ হচ্ছে। এই গাড়িটিই হলো আপনার জন্য একটি White Elephant।\n\n\r\n\r\nইতিহাস (Origin Story):\n\n\r\n\r\nপ্রাচীনকালে সিয়াম বা থাইল্যান্ডের রাজারা কাউকে শা��্তি দিতে চাইলে তাকে একটি পবিত্র সাদা হাতি উপহার দিতেন। হাতিটি পবিত্র হওয়ায় একে দিয়ে কোনো কাজ করানো যেত না, কিন্তু এর খাবার ও যত্নের খরচ এত বেশি ছিল যে, সেই ব্যক্তি খরচ চালাতে চালাতে দেউলিয়া হয়ে যেত। সেখান থেকেই এই বাগ্ধারাটির উৎপত্তি।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\n\r\nAn elephant of white colour: এটি আক্ষরিক অর্থ, কিন্তু ইডিয়ম হিসেবে এটি ভুল।\n\n\r\n\r\nA hoarder: যে মজুদ করে বা জমা করে রাখে।\n\n\r\n\r\nA black marketer: কালোবাজারি।"
+  },
+  {
+    "id": 34,
+    "question": "If we want concrete proof, we are looking for-.",
+    "options": {
+      "A": "A cement Mixer",
+      "B": "Clear evidence",
+      "C": "Something to cover a path",
+      "D": "Building material"
+    },
+    "answer": "B",
+    "explanation": "এখানে Concrete শব্দটির আলঙ্কারিক (Metaphorical) অর্থ ব্যবহার করা হয়েছে।\n\n\r\n\r\nআক্ষরিক অর্থ: সাধারণত 'Concrete' বলতে সিমেন্ট, বালি ও পাথরের জমাট মিশ্রণ বা নির্মাণ সামগ্রী বোঝায়। \n\n\r\n\r\nভাবার্থ: কিন্তু যখন 'Proof' বা প্রমাণের সাথে 'Concrete' শব্দটি বসে, তখন এর অর্থ হয় সুস্পষ্ট, মজবুত বা অকাট্য (Solid/Real)। অর্থাৎ, যেই প্রমাণটি এতটাই মজবুত যে তা অস্বীকার করা যায় না।\n\n\r\n\r\nঅর্থ: যদি আমরা 'Concrete proof' চাই, তার মানে আমরা সুস্পষ্ট প্রমাণ খুঁজছি।"
+  },
+  {
+    "id": 35,
+    "question": "As the sun___, I decided to go out.",
+    "options": {
+      "A": "Was shining",
+      "B": "Has shone",
+      "C": "Shines",
+      "D": "Shine"
+    },
+    "answer": "A",
+    "explanation": "বাক্যের গঠন: বাক্যটি দুটি অংশে বিভক্ত।\n\n\r\n\r\nদ্বিতীয় অংশ: I decided to go out (আমি বাই���ে যাওয়ার সিদ্ধান্ত নিলাম)। এখানে decided শব্দটি Past Tense-এ আছে।\n\n\r\n\r\nনিয়ম: বাক্যের একটি অংশ Past Tense হলে, সাধারণত অন্য অংশটিও Past Tense হতে হয়।\n\n\r\n\r\nAs-এর ব্যবহার: যখন As দিয়ে দুটি কাজ যুক্ত হয় এবং একটি কাজ চলাকালীন সময়ে অন্যটি ঘটে, তখন চলমান কাজটি Past Continuous Tense হয়।\n\n\r\n\r\nচলমান কাজ: সূর্য কিরণ দিচ্ছিল (The sun was shining)।\n\n\r\n\r\nহঠাৎ সিদ্ধান্ত: আমি যাওয়ার সিদ্ধান্ত নিলাম (I decided...)।\n\n\r\n\r\nঅর্থ: যেহেতু সূর্য কিরণ দিচ্ছিল (রোদ ছিল), তাই আমি বাইরে যাওয়ার সিদ্ধান্ত নিয়েছিলাম।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\n\r\nHas shone: এটি Present Perfect Tense। বাক্যের পরের অংশ Past হওয়ায় এটি মিলবে না।\n\n\r\n\r\nShine: এটি Grammatically ভুল, কারণ Sun এর পরে Shines হওয়ার কথা ছিল। তাছাড়া এটি Present Tense।\n\n\r\n\r\nShines: এটি Present Indefinite Tense। অতীতের ঘটনার সাথে বর্তমান কাল বসবে না।"
+  },
+  {
+    "id": 36,
+    "question": "Maiden speech means!",
+    "options": {
+      "A": "First Speech",
+      "B": "Final speech",
+      "C": "Early speech",
+      "D": "Late speech"
+    },
+    "answer": "A",
+    "explanation": "Maiden শব্দটির আক্ষরিক অর্থ 'কুমারী' বা 'অবিবাহিত নারী'।\n\n\r\n\r\nকিন্তু যখন এটি কোনো কাজের শুরুতে বিশেষণ (Adjective) হিসেবে বসে, তখন এর অর্থ হয় \"সর্বপ্রথম\" বা \"উদ্বোধনী\"।\n\n\r\n\r\nতাই, Maiden speech মানে হলো কোনো ব্যক্তির (বিশেষ করে নতুন সংসদ সদস্যদের) জীবনের প্রথম বক্তৃতা।\n\n\r\n\r\nঅর্থ: প্রথম বক্তৃতা।"
+  },
+  {
+    "id": 37,
+    "question": "'Out and out' means-.",
+    "options": {
+      "A": "Whole heatedly",
+      "B": "Thoroughly",
+      "C": "Brave",
+      "D": "Not at all"
+    },
+    "answer": "B",
+    "explanation": "'Out and out' একটি Idiom বা বাগ্ধারা।\n\n\r\n\r\nঅর্থ: এর অর্থ হলো সম্পূর্ণরূপে, পুরোদস্তুর, হাড়াহাড়ি বা আগাগোড়া (Completely / Totally)।\n\n\r\n\r\nযখন কোনো কিছু ১০০ ভাগ সত্য বা নিশ্চিত বোঝানো হয়, তখন এটি ব্যবহৃত হয়।\n\n\r\n\r\nঅর্থ: সম্পূর্ণরূপে বা পুরোপুরি।\n\n\r\n\r\nউদাহরণ:\n\n\r\n\r\nIt is an out and out lie. (এটি একটি ডাহা বা সম্পূর্ণ মিথ্যা কথা।)\n\n\r\n\r\nHe is an out and out gentleman. (সে একজন পুরোদস্তুর ভদ্রলোক।)\n\n\r\n\r\nঅন্য অপশনগুলোর অর্থ:\n\n\r\n\r\nNot at all: মোটেও না।\n\n\r\n\r\nBrave: সাহসী।\n\n\r\n\r\nWholeheartedly: সর্বান্তকরণে বা আন্তরিকভাবে (বানানটি অপশনে Whole heatedly দেওয়া আছে, যা সম্ভবত ভুল মুদ্রণ)।"
+  },
+  {
+    "id": 38,
+    "question": "No one can ___ that he is clever.",
+    "options": {
+      "A": "Discard",
+      "B": "Denounce",
+      "C": "Defy",
+      "D": "Deny"
+    },
+    "answer": "",
+    "explanation": "Deny: শব্দটির অর্থ অস্বীকার করা বা কোনো কিছু সত্য নয় বলে দাবি করা।\n\n\r\n\r\nবাক্যের অর্থ: কেউ অস্বীকার করতে পারবে না যে সে চালাক। (অর্থাৎ, সবাই স্বীকার করে বা মেনে নেয় যে সে চালাক)।\n\n\r\n\r\nযখন কোনো সত্য বা গুণ এতটাই স্পষ্ট যে তা নিয়ে তর্ক করা যায় না, তখন আমরা বলি \"No one can deny...\"।\n\n\r\n\r\nঅন্য অপশনগুলোর অর্থ:\n\n\r\n\r\nDefy (অমান্য করা/স্পর্ধা দেখানো): সাধারণত কোনো আদেশ বা নিয়ম অমান্য করার ক্ষেত্রে ব্যবহৃত হয়। (যেমন: He defied the law).\n\n\r\n\r\nDenounce (নিন্দা করা/অভিযুক্ত করা): জনসম্মক্ষে কারো কাজের তীব্র নিন্দা জানানো।\n\n\r\n\r\nDiscard (বাতিল করা/ফেলে দেওয়া): অপ্রয়োজনীয় কোনো কিছু ফেলে দেওয়া। (যেমন: Discard the old clothes)."
+  },
+  {
+    "id": 39,
+    "question": "Do not make a noise while your father ___?",
+    "options": {
+      "A": "Is being asleep",
+      "B": "Is sleeping",
+      "C": "Asleep",
+      "D": "Has slept"
+    },
+    "answer": "B",
+    "explanation": "While-এর নিয়ম: যখন While শব্দটি দ্বারা দুটি কাজকে যুক্ত করা হয়, এবং একটি কাজ চলাকালীন সময়ে অন্য একটি আদেশ বা নির্দেশ দেওয়া হয়, তখন চলমান কাজটি Continuous Tense হয়। \n\n\r\n\r\nপ্রসঙ্গ: বাক্যটিতে বলা হচ্ছে \"শব্দ করো না\" (Do not make a noise)। কেন? কারণ ঠিক এই মুহূর্তে বাবা ঘুমাচ্ছেন। কাজটি বর্তমানে চলছে, তাই এখানে Is sleeping বসবে।\n\n\r\n\r\nবাংলা অর্থ: তোমার বাবা যখন ঘুমাচ্ছেন, তখন গোলমাল করো না।\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\n\r\nHas slept: এর অর্থ \"ঘুমিয়ে পড়েছেন\" (কাজ শেষ)। ঘুম শেষ হয়ে গেলে শব্দ করতে নিষেধ করার যুক্তি থাকে না।\n\n\r\n\r\nAsleep: এটি একটি Adjective (বিশেষণ)। এটি ব্যবহার করতে হলে আগে একটি verb লাগত (যেমন: is asleep)। একা Asleep এখানে বসবে না।\n\n\r\n\r\nIs being asleep: ইংরেজিতে Asleep শব্দের সাথে being ব্যবহার করা হয় না। সঠিক হলো is sleeping অথবা is asleep।"
+  },
+  {
+    "id": 40,
+    "question": "He gave up ___ football when he got married.",
+    "options": {
+      "A": "Play",
+      "B": "Of playing",
+      "C": "Playing",
+      "D": "To play"
+    },
+    "answer": "C",
+    "explanation": "নিয়ম: ইংরেজিতে Preposition-এর ঠিক পরেই যদি কোনো Verb বসে, তবে তার সাথে সবসময় ing যুক্ত করতে হয়।\n\n\r\n\r\nএখানে \"Give up\" (ত্যাগ করা) একটি Phrasal Verb, যার শেষে up শব্দটি একটি Preposition।\n\n\r\n\r\nতাই up-এর পরে play না হয়ে playing হবে।\n\n\r\n\r\nঅর্থ: বিয়ের পর সে ফুটবল খেলা ছেড়ে দিয়েছিল।\n\n\r\n\r\nউদাহরণ:\n\n\r\n\r\nHe gave up smoking. (সে ধূমপান ছেড়ে দিয়েছে।)\n\n\r\n\r\nShe is fond of reading. (সে পড়ার ভক্ত।)\n\n\r\n\r\nঅন্য অপশনগুলো কেন ভুল?\n\n\r\n\r\nOf playing: Give up-এর পরে নতুন করে of বসানোর প্রয়োজন নেই। এটি ভুল গঠন।\n\n\r\n\r\nTo play: Give up এরপর Infinitive (to + verb) বসে ���া, Gerund বসে।\n\n\r\n\r\nPlay: Preposition-এর পর সরাসরি মূল verb বসে না।"
+  },
+  {
+    "id": 41,
+    "question": "'শাবাশ বাংলাদেশ' ভাস্কর্যটির শিল্পী কে?",
+    "options": {
+      "A": "শামীম শিকদার",
+      "B": "মৃণাল হক",
+      "C": "নিতুন কুণ্ডু",
+      "D": "হামিদুজ্জামান"
+    },
+    "answer": "C",
+    "explanation": "'শাবাশ বাংলাদেশ' ভাস্কর্যটি রাজশাহী বিশ্ববিদ্যালয়ে অবস্থিত। এটি বাংলাদেশের স্বাধীনতা যুদ্ধের মুক্তিযোদ্ধাদের স্মরণে নির্মিত একটি অন্যতম বিখ্যাত ভাস্কর্য।"
+  },
+  {
+    "id": 42,
+    "question": "বাংলাদেশে চিনি শিল্পের ট্রেনিং ইনস্টিটিউট কোথায় অবস্থিত?",
+    "options": {
+      "A": "যশোর",
+      "B": "ঈশ্বরদী",
+      "C": "রংপুর",
+      "D": "দিনাজপুর"
+    },
+    "answer": "B",
+    "explanation": "বাংলাদেশে চিনি শিল্পের প্রধান গবেষণা ও প্রশিক্ষণ প্রতিষ্ঠান হলো বাংলাদেশ সুগারক্রপ গবেষণা ইনস্টিটিউট (Bangladesh Sugarcrop Research Institute - BSRI)। এটি পাবনা জেলার ঈশ্বরদীতে অবস্থিত।\n\n\r\n\r\nপূর্বে এর নাম ছিল 'বাংলাদেশ ইক্ষু গবেষণা ও প্রশিক্ষণ ইনস্টিটিউট'। এখানে ইক্ষু চাষ, চিনি ও গুড় উৎপাদন সংক্রান্ত গবেষণার পাশাপাশি চাষি এবং সংশ্লিষ্ট কর্মীদের নিয়মিত প্রশিক্ষণ দেওয়া হয়।"
+  },
+  {
+    "id": 43,
+    "question": "শহীদ চান্দু স্টেডিয়াম কোন শহরে অবস্থিত?",
+    "options": {
+      "A": "চট্টগ্রাম",
+      "B": "কুমিল্লা",
+      "C": "বগুড়া",
+      "D": "রাজশাহী"
+    },
+    "answer": "C",
+    "explanation": "শহীদ চান্দু স্টেডিয়াম বগুড়া শহরের মালগ্রাম এলাকায় অবস্থিত।\n\n\r\n\r\nএটি ২০০৬ সালে আন্তর্জাতিক ক্রিকেটের ভেন্যু হিসেবে মর্যাদা পায়।\n\n\r\n\r\nস্টেডিয়ামটি মহান মুক্তিযুদ্ধে শহীদ মাছুদুল আলম খান (চান্দু)-এর নামে নামকরণ করা হয়েছে। এর দর্শক ধারণক্ষমতা প্রায় ১৫,০০০।"
+  },
+  {
+    "id": 44,
+    "question": "বাংলাদেশের GDP তে কৃষিখাতের অবদান কত?",
+    "options": {
+      "A": "৭৭ শতাংশ",
+      "B": "৭৫ শতাংশ",
+      "C": "৭৩ শতাংশ",
+      "D": "৭০ শতাংশ"
+    },
+    "answer": "B",
+    "explanation": "বাংলাদেশ অর্থনৈতিক সমীক্ষা ও পরিসংখ্যান ব্যুরোর (BBS) সাম্প্রতিক তথ্য (২০২৩-২৪) অনুযায়ী, বাংলাদেশের জিডিপিতে (GDP) কৃষি খাতের অবদান প্রায় ১১.৩৮%।"
+  },
+  {
+    "id": 45,
+    "question": "বাংলার নববর্ষ পহেলা বৈশাখ চালু করেন কে?",
+    "options": {
+      "A": "সম্রাট বাবর",
+      "B": "সম্রাট আকবর",
+      "C": "ইলিয়াস শাহ",
+      "D": "ফখরুদ্দিন মোবারক শাহ্"
+    },
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 46,
+    "question": "চলতি আর্থিক বাজেটে কৃষিতে ভর্তুকি কত টাকা ধরা হয়েছে?",
+    "options": {
+      "A": "৬০০ কোটি টাকা",
+      "B": "৫০০ কোটি টাকা",
+      "C": "৪০০ কোটি টাকা",
+      "D": "৩০০ কোটি টাকা"
+    },
+    "answer": "A",
+    "explanation": "২০০৪-০৫ অর্থবছরের বাজেটে কৃষিখাতে ভর্তুকি বাবদ ৬০০ কোটি টাকা বরাদ্দ রাখা হয়েছিল।\n\n\r\n\r\n২০২৪-২৫ অর্থবছরের প্রস্তাবিত বাজেটে সামগ্রিক কৃষি খাতের ভর্তুকি ধরা হয়েছে প্রায় ১৭,২০০ কোটি টাকা (যা প্রয়োজন সাপেক্ষে বাড়তে পারে)।"
+  },
+  {
+    "id": 47,
+    "question": "বাংলাদেশের একমাত্র পাহাড়ি দ্বীপ কোনটি?",
+    "options": {
+      "A": "নিঝুম দ্বীপ",
+      "B": "ছেঁড়া দ্বীপ",
+      "C": "মহেশখালী",
+      "D": "সেন্টমার্টিন"
+    },
+    "answer": "C",
+    "explanation": "মহেশখালী হলো বাংলাদেশের একমাত্র পাহাড়ি দ্বীপ।            এটি কক্সবাজার জেলায় অবস্থিত। এই দ্বীপেই বিখ্যাত আদিনাথ মন্দির অবস্��িত যা 'মৈনাক পর্বত' নামক একটি পাহাড়ের চূড়ায় রয়েছে।\n\n\r\n\r\nঅন্যদিকে, সেন্টমার্টিন হলো বাংলাদেশের একমাত্র প্রবাল দ্বীপ এবং নিঝুম দ্বীপ মূলত একটি চরাঞ্চল।"
+  },
+  {
+    "id": 48,
+    "question": "ঢাকায় বাংলার রাজধানী স্থাপনের সময় মোগল সুবেদার কে ছিলেন?",
+    "options": {
+      "A": "মীর জুমলা",
+      "B": "শায়েস্তা খান",
+      "C": "ইব্রাহীম খান",
+      "D": "ইসলাম খান"
+    },
+    "answer": "D",
+    "explanation": "১৬১০ খ্রিস্টাব্দে মুঘল সুবেদার ইসলাম খান চিশতি বাংলার রাজধানী রাজমহল থেকে ঢাকায় স্থানান্তর করেন। সম্রাট জাহাঙ্গীরের নামানুসারে তিনি ঢাকার নামকরণ করেন ‘জাহাঙ্গীরনগর’।\n\n\r\n\r\nমূলত মগ ও পর্তুগিজ জলদস্যুদের দমন করার এবং বিদ্রোহী ভুঁইয়াদের নিয়ন্ত্রণে রাখার সুবিধার্থে তিনি রাজধানী ঢাকায় নিয়ে আসেন।"
+  },
+  {
+    "id": 49,
+    "question": "শিক্ষা বিভাগের ট্রেনিংয়ের শীর্ষ প্রতিষ্ঠান কোনটি?",
+    "options": {
+      "A": "ইউজিসি",
+      "B": "বিয়াম",
+      "C": "টিটিসি",
+      "D": "নায়েম"
+    },
+    "answer": "D",
+    "explanation": "নায়েম-এর পূর্ণরূপ হলো National Academy for Educational Management (জাতীয় শিক্ষা ব্যবস্থাপনা একাডেমি)।\n\n\r\n\r\nএটি বাংলাদেশের শিক্ষা প্রশাসনের সাথে যুক্ত কর্মকর্তাদের এবং বিসিএস (সাধারণ শিক্ষা) ক্যাডারদের বুনিয়াদি প্রশিক্ষণ ও উচ্চতর প্রশিক্ষণের শীর্ষস্থানীয় প্রতিষ্ঠান। এটি ঢাকার ধানমন্ডিতে অবস্থিত এবং ১৯৫৯ ��ালে প্রতিষ্ঠিত হয়।\n\n\r\n\r\nবিয়াম (BIAM): এটি মূলত প্রশাসনিক ও ব্যবস্থাপনা বিষয়ক প্রশিক্ষণের জন্য (বাংলাদেশ ইনস্টিটিউট অব অ্যাডমিনিস্ট্রেশন অ্যান্ড ম্যানেজমেন্ট)।\n\n\r\n\r\nটিটিসি (TTC): টিচার্স ট্রেনিং কলেজ, যা মূলত বি.এড ও এম.এড ডিগ্রি প্রদান করে।\n\n\r\n\r\nইউজিসি (UGC): বিশ্ববিদ্যালয় মঞ্জুরি কমিশন, এটি কোনো ট্রেনিং ইনস্টিটিউট নয়, বরং বিশ্ববিদ্যালয়গুলোর নিয়ন্ত্রক সংস্থা।"
+  },
+  {
+    "id": 50,
+    "question": "'সূর্য দীঘল বাড়ী' চলচ্চিত্রের পরিচালক কে?",
+    "options": {
+      "A": "খান আতা",
+      "B": "শেখ নিয়ামত শাকের",
+      "C": "জহির রায়হান",
+      "D": "সুভাষ দত্ত"
+    },
+    "answer": "B",
+    "explanation": "সূর্য দীঘল বাড়ী' চলচ্চিত্রটি যৌথভাবে পরিচালনা করেছেন শেখ নিয়ামত আলী এবং মসিহউদ্দিন শাকের।"
+  },
+  {
+    "id": 51,
+    "question": "স্টক শেয়ারে প্রবর্তিত নতুন পদ্ধতি কোনটি?",
+    "options": {
+      "A": "ডিসকাউন্ট",
+      "B": "ডিম্যাট",
+      "C": "ডিভ্যালু",
+      "D": "ডিভিডেন্ট"
+    },
+    "answer": "B",
+    "explanation": "ডিম্যাট (Demat) হলো 'Dematerialization'-এর সংক্ষিপ্ত রূপ।\n\n\r\n\r\nআগে শেয়ার বাজারে কাগুজে সার্টিফিকেটের (Paper Share) মাধ্যমে শেয়ার লেনদেন হতো। শেয়ারকে সেই কাগুজে রূপ থেকে ইলেকট্রনিক বা ডিজিটাল রূপে রূপান্তর করে সংরক্ষণ করার পদ্ধতিই হলো ডিম্যাট।\n\n\r\n\r\nবাংলাদেশে ২০০৪ সালে সিডিবিএল (CDBL)-এর মাধ্যমে এই আধুনিক পদ্ধতি চালু হয়। এখন শেয়ার কেনাবেচা করার জন্য বিনিয়োগকারীদের 'বিও অ্যাকাউন্ট' (BO Account) খুলতে হয়, যা এই ডিম্যাট পদ্ধতির অংশ।"
+  },
+  {
+    "id": 52,
+    "question": "মানবাধিকার দিবস পালিত হয় কবে?",
+    "options": {
+      "A": "১০ ডিসেম্বর",
+      "B": "১ আগষ্ট",
+      "C": "২৬ জুন",
+      "D": "১ মে"
+    },
+    "answer": "A",
+    "explanation": "১৯৪৮ সালের ১০ ডিসেম্বর জাতিসংঘের সাধারণ পরিষদে 'মানবাধিকারের সর্বজনীন ঘোষণাপত্র' গৃহীত হয়। এই দিনটিকে স্মরণীয় করে রাখতে ১৯৫০ সাল থেকে প্রতি বছর ১০ ডিসেম্বর বিশ্বব্যাপী 'আন্তর্জাতিক মানবাধিকার দিবস' হিসেবে পালিত হয়।"
+  },
+  {
+    "id": 53,
+    "question": "বাংলা একাডেমির প্রথম মহাপরিচালক কে ছিলেন?",
+    "options": {
+      "A": "ড. এনামুল হক",
+      "B": "ড. মুহাম্মদ শহীদুল্লাহ",
+      "C": "কাজী মোতাহার হোসেন",
+      "D": "প্রফেসর আব্দুল হাই"
+    },
+    "answer": "A",
+    "explanation": "বাংলা একাডেমি ১৯৫৫ সালে প্রতিষ্ঠিত হয়। এর প্রথম প্রধান নির্বাহী বা পরিচালকের নাম ড. মুহাম্মদ এনামুল হক (১৯৫৫-১৯৫৮)।\n\n\r\n\r\nপ্রতিষ্ঠার সময় পদের নাম ছিল ‘পরিচালক’। স্বাধীনতার পর ১৯৭২ সালে এই পদের নাম পরিবর্তন করে ‘মহাপরিচালক’ করা হয়। যদি প্রশ্ন করা হয় \"মহাপরিচালক পদবিতে প্রথম কে ছিলেন?\", তবে উত্তর হবে ড. মাযহারুল ইসলাম।\n\n\r\n\r\nকিন্তু অপশনে যেহেতু মাযহারুল ইসলামের নাম নেই, তাই প্রতিষ্ঠানের প্রথম প্রধান হিসেবে ড. এনামুল হক-ই সঠিক উত্তর।"
+  },
+  {
+    "id": 54,
+    "question": "বাংলাদেশের সর্ববৃহৎ ঈদের জামাত সাধারণত কোথায় অনুষ্ঠিত হয়ে থাকে?",
+    "options": {
+      "A": "জাতীয় ঈদগাহ্-ঢাকা",
+      "B": "বায়তুল মোকাররম-ঢাকা",
+      "C": "শোলাকিয়া-কিশোরগঞ্জ",
+      "D": "শাহ মখদুম মসজিদ-রাজশাহী"
+    },
+    "answer": "C",
+    "explanation": "১৮২৮ সালে সোয়া লাখ মুসল্লির অংশগ্রহণে এখানে প্রথম জামাত অনুষ্ঠিত হয়েছিল বলে এর নাম হয় ‘সোয়া লাখিয়া’, যা পরে লোকমুখে পরিবর্তিত হয়ে ‘শোলাকিয়া’ হয়েছে।"
+  },
+  {
+    "id": 55,
+    "question": "দক্ষিণ তালপট্টি দ্বীপ কোন নদীর মোহনায় অবস্থিত?",
+    "options": {
+      "A": "ভৈরব",
+      "B": "হাড়িয়াভাঙ্গা",
+      "C": "বালেশ্বর",
+      "D": "রূপসা"
+    },
+    "answer": "B",
+    "explanation": "দক্ষিণ তালপট্টি দ্বীপটি সাতক্ষীরা জেলার শ্যামনগর উপজেলার সীমান্তে হাড়িয়াভাঙ্গা নদীর মোহনায় অবস্থিত ছিল।\n\n\r\n\r\nভারত ও বাংলাদেশের মধ্যে এই দ্বীপের মালিকানা নিয়ে বিরোধ ছিল। ভারতে এটি ‘নিউ মুর দ্বীপ’ (New Moore Island) বা ‘পূর্বাশা’ নামে পরিচিত ছিল।\n\n\r\n\r\n২০১০ সালের দিকে সমুদ্রপৃষ্ঠের উচ্চতা বৃদ্ধির কারণে দ্বীপটি পানির নিচে তলিয়ে যায় এবং বর্তমানে এর কোনো অস্তিত্ব নেই।"
+  },
+  {
+    "id": 56,
+    "question": "বাংলাদেশে মোট আবাদযোগ্য জমির পরিমাণ কত?",
+    "options": {
+      "A": "২ কোটি একর",
+      "B": "২ কোটি ২৫ লক্ষ একর",
+      "C": "২ কোটি ৫০ লক্ষ একর",
+      "D": "২ কোটি ৪০ লক্ষ একর"
+    },
+    "answer": "D",
+    "explanation": "বর্তমানে ঘরবাড়ি নির্মাণ, নগরায়ন ও শিল্পায়নের কারণে আবাদযোগ্য জমির পরিমাণ কমেছে। কৃষি সম্প্রসারণ অধিদপ্তর ও বিবিএস-এর সাম্প্রতিক তথ্যমতে, দেশে মোট আবাদযোগ্য জমির পরিমাণ এখন প্রায় ৮৮ লাখ হেক্টর বা ২ কোটি ১৬ লক্ষ একর (প্রায়)।"
+  },
+  {
+    "id": 57,
+    "question": "'কান্তজীউ মন্দির'- কোন জেলায় অবস্থিত?",
+    "options": {
+      "A": "দিনাজপুর",
+      "B": "রাঙামাটি",
+      "C": "কুমিল্লা",
+      "D": "জয়পুরহাট"
+    },
+    "answer": "A",
+    "explanation": "কান্তজীউ মন্দির (বা কান্তজি মন্দির) দিনাজপুরের কাহারোল উপজেলার কান্তনগরে অবস্থিত। এটি বাংলাদেশের অন্যতম সুন্দর একটি প্রাচীন স্থাপনা, যা টেরাকোটা বা পোড়ামাটির ফলকের কাজের জন্য বিখ্যাত।\n\n\r\n\r\n১৭০৪ সালে দিনাজপুরের মহারাজা প্রাণনাথ রায় এর নির্মাণ কাজ শুরু করেন এবং ১৭৫২ সালে তাঁর পালক পুত্র মহারাজা রামনাথ রায় তা সম্পন্ন করেন।"
+  },
+  {
+    "id": 58,
+    "question": "মহাখালী ফ্লাইওভারে কতটি স্প্যান আছে?",
+    "options": {
+      "A": "২১টি",
+      "B": "১৯টি",
+      "C": "১৮টি",
+      "D": "১৭টি"
+    },
+    "answer": "B",
+    "explanation": "ম��াখালী ফ্লাইওভার বাংলাদেশের প্রথম ফ্লাইওভার। এর মোট দৈর্ঘ্য ১.১২ কিলোমিটার এবং এতে মোট ১৯টি স্প্যান রয়েছে। এটি ২০০৪ সালের নভেম্বর মাসে চলাচলের জন্য উন্মুক্ত করে দেওয়া হয়।"
+  },
+  {
+    "id": 59,
+    "question": "বাংলাদেশের সীমান্তবর্তী কোন জেলার সাথে ভারতে কোন সংযোগ নেই?",
+    "options": {
+      "A": "দিনাজপুর",
+      "B": "পঞ্চগড়",
+      "C": "চাঁপাইনবাবগঞ্জ",
+      "D": "বান্দরবান"
+    },
+    "answer": "D",
+    "explanation": "বাংলাদেশের সীমান্তবর্তী জেলা মোট ৩২টি। এর মধ্যে ৩০টি জেলার সাথে ভারতের সীমান্ত রয়েছে।\n\n\r\n\r\nবান্দরবান ও কক্সবাজার—এই দুটি জেলার সাথে ভারতের কোনো সংযোগ বা সীমান্ত নেই। এদের সীমান্ত রয়েছে মিয়ানমারের সাথে।\n\n\r\n\r\nঅপশনে থাকা বাকি তিনটি জেলা—চাঁপাইনবাবগঞ্জ, পঞ্চগড় ও দিনাজপুর—ভারতের পশ্চিমবঙ্গের সাথে সীমান্তবর্তী।"
+  },
+  {
+    "id": 60,
+    "question": "বাংলাদেশের একমাত্র মৎস্য গবেষণা ইনস্টিটিউট কোথায় অবস্থিত?",
+    "options": {
+      "A": "চাঁদপুর",
+      "B": "চট্টগ্রাম",
+      "C": "ঢাকা",
+      "D": "ময়মনসিংহ"
+    },
+    "answer": "D",
+    "explanation": "'বাংলাদেশ মৎস্য গবেষণা ইনস্টিটিউট' (Bangladesh Fisheries Research Institute - BFRI)-এর সদর দপ্তর ময়মনসিংহে অবস্থিত। এটি ১৯৮৪ সালে প্রতিষ্ঠিত হয়।"
+  },
+  {
+    "id": 61,
+    "question": "নাইট্রোজেন গ্যাস থেকে কোন সার প্রস্তুত করা হয়?",
+    "options": {
+      "A": "ইউরিয়া",
+      "B": "পটাশ",
+      "C": "সবুজ সার",
+      "D": "টিএসপি"
+    },
+    "answer": "A",
+    "explanation": "প্রক্রিয়া: কলকারখানায় বাতাস থেকে নাইট্রোজেন গ্যাস সংগ্রহ করা হয়।\n\n\r\n\r\nরূপান্তর: এই নাইট্রোজেনকে হাইড্রোজেনের সাথে মিশিয়ে প্রথমে 'অ্যামোনিয়া' এবং পরে কার্বন ডাই-অক্সাইডের সাথে বিক্রিয়া ঘটিয়ে ইউরিয়া তৈরি করা হয়।\n\n\r\n\r\nকাজ: ইউরিয়া দেখতে সাদা দানা বা লবণের মতো হয়, যা মাটিতে দিলে গাছ সহজেই নাইট্রোজেন গ্রহণ করতে পারে এবং দ্রুত সবুজ ও সতেজ হয়।\n\n\r\n\r\nবাকি অপশনগুলো কেন ভুল?\n\n\r\nটিএসপি (TSP): এটি মূলত ফসফেট বা ফসফরাস জাতীয় সার। এটি নাইট্রোজেন গ্যাস থেকে তৈরি হয় না। এটি গাছের শিকড় মজবুত করে।\n\n\r\n\r\nসবুজ সার: এটি কোনো কৃত্রিম সার বা গ্যাস থেকে তৈরি কিছু নয়। ধঞ্চে বা কলাই জাতীয় গাছ মাটিতে চাষ করে, সেই গাছ পচিয়ে প্রাকৃতিকভাবে এই সার বানানো হয়।\n\n\r\n\r\nপটাশ: এটি খনি থেকে তোলা পটাশিয়াম লবণ। এটি ফলের আকার ও স্বাদ বাড়াতে সাহায্য করে।"
+  },
+  {
+    "id": 62,
+    "question": "কাঁচ তৈরির প্রধান কাঁচামাল হলো-",
+    "options": {
+      "A": "জিপশাম",
+      "B": "বালি",
+      "C": "চুনাপাথর",
+      "D": "শাজিমাটি"
+    },
+    "answer": "B",
+    "explanation": "কাঁচ তৈরির মূল উপাদান হলো সিলিকা, যা আমরা সাধারণ বালিতে পাই। আসলে কাঁচ হলো এক প্রকারের গলিত বালি।\n\n\r\n\r\nকাঁচ তৈরিতে বালি একাই যথেষ্ট নয়, এর সাথে আরও কিছু জিনিস মেশাতে হয়। নিচে বাকি অপশনগুলোর ব্যাখ্যা দেওয়া হলো:\n\n\r\n\r\nচুনাপাথর (Limestone): এটিও কাঁচ তৈরিতে মেশানো হয়, তবে এটি প্রধান উপাদান নয়। এর কাজ হলো কাঁচকে শক্ত ও টেকসই করা, যাতে তা সহজে পানিতে বা আবহাওয়ায় নষ্ট না হয়।\n\n\r\n\r\nশাজিমাটি: এটি সোডিয়াম কার্বনেট বা সোডা অ্যাশের উৎস হিসেবে কাজ করে। এটি বালির গলনাঙ্ক কমাতে সাহায্য করে (অর্থাৎ বালিকে কম তাপে গলাতে সাহায্য করে)।\n\n\r\n\r\nজিপসাম: এটি সাধারণত সিমেন্ট তৈরিতে ব্যবহার করা হয়, কাঁচ তৈরিতে এর তেমন ব্যবহার নেই।"
+  },
+  {
+    "id": 63,
+    "question": "বস্তুর ওজন কোথায় সবচেয়ে বেশি?",
+    "options": {
+      "A": "বিষুব অঞ্চলে",
+      "B": "মেরু অঞ্চলে",
+      "C": "পাহাড়ের উপর",
+      "D": "খনির ভিতর"
+    },
+    "answer": "B",
+    "explanation": "বস্তুর ওজন পৃথিবীর অভিকর্ষজ ত্বরণ g এর উপর নির্ভরশীল। মেরু অঞ্চলে g এর মান বেশি বিষুব অঞ্চলে g এর মান মেরু অঞ্চলের তুলনায় কম। যেহেতু g এর মান বাড়লে ওজন বাড়বে এবং g এর মান কমলে ওজন কমবে সেহেতু মেরু অঞ্চলে বস্তুর ওজন বেশি হবে।"
+  },
+  {
+    "id": 64,
+    "question": "বাংলাদেশে সর্বপ্রথম ডিজিটাল টেলিফোন ব্যবস্থা কবে চালু হয়?",
+    "options": {
+      "A": "৪ জানুয়ারী ১৯৯১",
+      "B": "৩ মার্চ ১৯৯০",
+      "C": "৩ ফেব্রুয়ারী ১৯৯০",
+      "D": "৪ জানুয়ারী ১৯৯০"
+    },
+    "answer": "D",
+    "explanation": "সংস্থা: সেই সময় এটি চালু করেছিল বাংলাদেশ টেলিগ্রাফ ও টেলিফোন বো��্ড (BTTB), যার বর্তমান নাম বাংলাদেশ টেলিকমিউনিকেশনস কোম্পানি লিমিটেড (BTCL)।\n\n\r\n\r\nউদ্দেশ্য: সারা দেশে টেলিযোগাযোগ সেবাকে আরও আধুনিক এবং উন্নত করার জন্য এই পদক্ষেপ নেওয়া হয়েছিল।\n\n\r\n\r\nগুরুত্ব: অ্যানালগ (Analog) পদ্ধতির পরিবর্তে ডিজিটাল পদ্ধতি চালু হওয়ার মাধ্যমে বাংলাদেশের টেলিযোগাযোগ ক্ষেত্রে একটি নতুন যুগের সূচনা হয়েছিল, যা পরবর্তীকালে মোবাইল ফোন এবং ইন্টারনেটের মতো প্রযুক্তির পথ খুলে দেয়।"
+  },
+  {
+    "id": 65,
+    "question": "কতজন ব্যক্তি নিয়ে গ্রাম সরকার গঠিত?",
+    "options": {
+      "A": "১৫ জন",
+      "B": "১৩ জন",
+      "C": "১১ জন",
+      "D": "৯ জন"
+    },
+    "answer": "A",
+    "explanation": "বাংলাদেশ সরকার কর্তৃক প্রবর্তিত গ্রাম সরকার ব্যবস্থা মোট ১৫ জন ব্যক্তি নিয়ে গঠিত হতো।"
+  },
+  {
+    "id": 66,
+    "question": "বাংলাদেশ কোন সনে বিশ্ব বাণিজ্য সংস্থার সদস্য হয়?",
+    "options": {
+      "A": "১৯৯৫",
+      "B": "১৯৯২",
+      "C": "১৯৯৪",
+      "D": "১৯৯১"
+    },
+    "answer": "A",
+    "explanation": "বিশ্ব বাণিজ্য সংস্থা (World Trade Organization, সংক্ষেপে WTO) ১৯৯৫ সালের ১ জানুয়ারি প্রতিষ্ঠিত হয়। এর আগে এই সংস্থাটি শুল্ক ও বাণিজ্য সংক্রান্ত সাধারণ চুক্তি (GATT - General Agreement on Tariffs and Trade) নামে পরিচিত ছিল।\n\n\r\n\r\nবাংলাদেশের সদস্যপদ: বাংলাদেশ ছিল GATT-এর একটি সদস্য রাষ্ট্র (১৯৭২ সাল থেকে)।\n\n\r\n\r\nপ্রতিষ্ঠাকালীন সদস্য: যখন GATT-এর বদলে WTO প্রতিষ্ঠিত হয় (১ জানু��়ারি ১৯৯৫), তখন বাংলাদেশ সংস্থাটির প্রতিষ্ঠাকালীন সদস্য (Founder Member) হিসেবে যোগদান করে। বাংলাদেশ ছিল WTO-এর ২৮তম সদস্য।"
+  },
+  {
+    "id": 67,
+    "question": "বাংলাদেশে রঙিন টিভি সম্প্রচার কোন সনে শুরু হয়?",
+    "options": {
+      "A": "১৯৮২",
+      "B": "১৯৮০",
+      "C": "১৯৮০",
+      "D": "১৯৭৯"
+    },
+    "answer": "C",
+    "explanation": "ঢাকার রামপুরার টিভি কেন্দ্র থেকে প্রথম রঙিন সম্প্রচার শুরু হয়। এই রঙিন সম্প্রচার ছিল সেই সময়ের জন্য এক বিশাল প্রযুক্তিগত উন্নতি। ব্যাপারটা এমন, যেন আপনি এতদিন পুরনো দিনের ধূসর ছবি দেখতেন, আর হঠাৎ করেই সেই ছবিগুলো প্রাণবন্ত রঙে ঝলমল করে উঠল! এটি নাটক, খবর এবং খেলাধুলাকে মানুষের কাছে আরও বেশি আকর্ষণীয় করে তুলেছিল।"
+  },
+  {
+    "id": 68,
+    "question": "কোন আইন সংস্কার করে 'র‍্যাব' (Rapid Action Battalion) গঠন করা হয়?",
+    "options": {
+      "A": "আমর্ড পুলিশ ব্যাটালিয়ন অ্যাক্ট ১৯৭৯",
+      "B": "র‍্যাপিড একশন ব্যাটালিয়ন অ্যাক্ট ২০০৩",
+      "C": "ডিবি পুলিশ অ্যাক্ট ১৯৮৩",
+      "D": "ডিএমপি অ্যাক্ট ১৯৭৬"
+    },
+    "answer": "A",
+    "explanation": "র‍্যাব (Rapid Action Battalion) হলো বাংলাদেশের একটি বিশেষ এলিট বাহিনী, যা ২০০৪ সালের শুরুর দিকে গঠিত হয়। এটিকে কোনো নতুন, সম্পূর্ণ আলাদা আইনের মাধ্যমে তৈরি করা হয়নি, বরং একটি পুরোনো আইনের সংস্কার করে এর অধীনে একটি বিশেষ ইউনিট হিসেবে গঠন করা হয়েছিল।"
+  },
+  {
+    "id": 69,
+    "question": "গ্রীণ হাউজ ইফেক্টের জন্য বাংলাদেশে কোন ধরণের ক্ষতি হতে পারে?",
+    "options": {
+      "A": "বৃষ্টিপাতের পরিমাণ বাড়বে",
+      "B": "বৃষ্টিপাত কমে যাবে",
+      "C": "ক্রমশ উত্তাপ বেড়ে যাবে",
+      "D": "নিম্নভূমি নিমজ্জিত হবে"
+    },
+    "answer": "D",
+    "explanation": "গ্রিনহাউস ইফেক্টের (Greenhouse Effect) কারণে পৃথিবীর তাপমাত্রা ক্রমশ বাড়তে থাকে, যাকে বৈশ্বিক উষ্ণায়ন (Global Warming) বলা হয়। এই উষ্ণায়নের প্রধান ফল দুটি, যা বাংলাদেশের জন্য বড় বিপদ নিয়ে আসে:\n\n\r\n\r\nবরফ গলে যাওয়া: মেরু অঞ্চলের এবং পর্বতের বরফ দ্রুত গলে যায়।\n\n\r\n\r\nসমুদ্রপৃষ্ঠের উচ্চতা বৃদ্ধি: গলে যাওয়া বরফের জল সমুদ্রে মিশে যায়, ফলে সমুদ্রপৃষ্ঠের উচ্চতা বেড়ে যায়।"
+  },
+  {
+    "id": 70,
+    "question": "প্রথম আইসিসি ট্রফিতে বাংলাদেশের অধিনায়ক কে ছিলেন?",
+    "options": {
+      "A": "শফিকুল হক হীরা",
+      "B": "আমিনুল ইসলাম বুলবুল",
+      "C": "আকরাম খান",
+      "D": "গাজী আশরাফুল আলম লিপু"
+    },
+    "answer": "A",
+    "explanation": "১৯৭৬ সালের ২৬ জুলাই বাংলাদেশ আইসিসির সহযোগী সদস্যপদ লাভ করে। ১৯৭৯ সালে অনুষ্ঠিত প্রথম আইসিসি টুর্নামেন্টে বাংলাদেশ দলের অধিনায়কত্ব করেন শফিকুল হক হীরা।"
+  },
+  {
+    "id": 71,
+    "question": "জাপানের পার্লামেন্টের নাম কী?",
+    "options": {
+      "A": "ডায়েট",
+      "B": "ফোকেটিং",
+      "C": "রিকসড্যাগ",
+      "D": "র��ইটখস্ট্যাপ"
+    },
+    "answer": "A",
+    "explanation": "পুরো নাম: জাপানের পার্লামেন্টের পুরো নাম হলো জাতীয় ডায়েট (National Diet)।\n\n\r\n\r\nকাজ: ডায়েট হলো জাপানের দ্বিকক্ষবিশিষ্ট আইনসভা (Bicameral Legislature)। এটি দেশের সর্বোচ্চ ক্ষমতার অধিকারী অঙ্গ।\n\n\r\n\r\nগঠন: ডায়েট মূলত দুটি কক্ষ নিয়ে গঠিত:\n\n\r\n\r\nহাউস অফ রিপ্রেজেন্টেটিভস (নিম্ন কক্ষ)\n\n\r\n\r\nহাউস অফ কাউন্সিলর‍্স (উচ্চ কক্ষ)"
+  },
+  {
+    "id": 72,
+    "question": "ব্রিটেনের রাণী কোন দেশটির সাংবিধানিক রাষ্ট্রপ্রধান নন?",
+    "options": {
+      "A": "অস্ট্রেলিয়া",
+      "B": "অস্ট্রিয়া",
+      "C": "কানাডা",
+      "D": "ফিজি"
+    },
+    "answer": "D",
+    "explanation": "ফিজি একসময় ব্রিটিশ উপনিবেশ ছিল এবং কিছু সময়ের জন্য ব্রিটিশ রাণীকে রাষ্ট্রপ্রধান হিসেবে মেনে নিত। কিন্তু ১৯৮৭ সালে একটি সামরিক অভ্যুত্থানের পর ফিজি নিজেকে একটি প্রজাতন্ত্র (Republic) ঘোষণা করে। এরপর থেকে ফিজির রাষ্ট্রপ্রধান একজন প্রেসিডেন্ট, ব্রিটিশ রাজা/রাণী নন।"
+  },
+  {
+    "id": 73,
+    "question": "গারুদা কোন দেশের বিমান সংস্থা?",
+    "options": {
+      "A": "নেদারল্যান্ড",
+      "B": "ইন্দোনেশিয়া",
+      "C": "জার্মানি",
+      "D": "গ্রীস"
+    },
+    "answer": "B",
+    "explanation": "সম্পর্ক: গারুদা ইন্দোনেশিয়া (Garuda Indonesia) হলো ইন্দোনেশিয়া প্রজাতন্ত্রের জাতীয় বিমান সংস্থা (National Airline)।\n\n\r\n\r\nনামের উৎস: 'গারুদা' নামটি হিন্দু ও বৌদ্ধ পৌরাণিক কাহিনীর একটি শক্তিশালী পৌরাণিক পাখি বা পাখির মতো প্রাণী থেকে এসেছে, যা ইন্দোনেশিয়ার সংস্কৃতিতে খুবই গুরুত্বপূর্ণ।\n\n\r\n\r\nগুরুত্ব: এটি ইন্দোনেশিয়ার অন্যতম প্রধান প্রতীক এবং আন্তর্জাতিক রুটে দেশটির প্রতিনিধিত্ব করে।"
+  },
+  {
+    "id": 74,
+    "question": "United Nations Conference on Trade and Development (UNCTAD)- এর সদর দপ্তর কোথায়?",
+    "options": {
+      "A": "ক্যানবেরায়",
+      "B": "নিউইয়র্কে",
+      "C": "জেনেভায়",
+      "D": "হেগে"
+    },
+    "answer": "C",
+    "explanation": "পূর্ণ নাম: UNCTAD-এর পূর্ণ রূপ হলো United Nations Conference on Trade and Development (জাতিসংঘ বাণিজ্য ও উন্নয়ন সম্মেলন)।\n\n\r\n\r\nসদর দপ্তর: এটি সুইজারল্যান্ডের জেনেভা (Geneva) শহরে অবস্থিত।\n\n\r\n\r\nগুরুত্ব: এই সংস্থাটি মূলত উন্নয়নশীল দেশগুলোর (যেমন বাংলাদেশ) বাণিজ্য, বিনিয়োগ, প্রযুক্তি এবং টেকসই উন্নয়নের বিষয়ে নীতি তৈরি ও সহায়তা করার কাজ করে।"
+  },
+  {
+    "id": 75,
+    "question": "ফিলিস্তিনিদের মাতৃভূমিতে কখন ইসরাঈল রাষ্ট্র প্রতিষ্ঠিত হয়?",
+    "options": {
+      "A": "১৯৭০",
+      "B": "১৯৬৭",
+      "C": "১৯৫০",
+      "D": "১৯৪৮"
+    },
+    "answer": "D",
+    "explanation": "প্রতিষ্ঠার তারিখ: ১৯৪৮ সালের ১৪ মে ইসরায��েলের স্বাধীনতা ঘোষণা করা হয়।\n\n\r\n\r\nপটভূমি: ব্রিটিশ শাসনাধীন ফিলিস্তিন ভূখণ্ডে ইহুদিদের জন্য একটি আলাদা রাষ্ট্র প্রতিষ্ঠার জন্য জাতিসংঘ ১৯৪৭ সালের ২৯ নভেম্বর একটি বিভাজন প্রস্তাব (Partition Plan) গ্রহণ করেছিল।\n\n\r\n\r\nফলাফল: এই ঘোষণার পরপরই সাত লাখেরও বেশি ফিলিস্তিনি তাদের নিজ ভূমি থেকে বিতাড়িত হন, যা আরব বিশ্বে 'নাকবা' (বিপর্যয়) নামে পরিচিত।"
+  },
+  {
+    "id": 76,
+    "question": "TI- এর সদর দপ্ত কোথায়?",
+    "options": {
+      "A": "সিঙ্গাপুর",
+      "B": "ব্যাংকক",
+      "C": "বার্লিন",
+      "D": "ম্যানিলা"
+    },
+    "answer": "C",
+    "explanation": "সংস্থা: ট্রান্সপারেন্সি ইন্টারন্যাশনাল (TI)।\n\n\r\n\r\nসদর দপ্তর: এটি জার্মানির বার্লিন (Berlin) শহরে অবস্থিত।\n\n\r\n\r\nকাজ: টিআই হলো একটি বেসরকারি আন্তর্জাতিক সংস্থা, যা বিশ্বজুড়ে সরকারি দুর্নীতির বিরুদ্ধে লড়াই করে এবং প্রতি বছর বিভিন্ন দেশের দুর্নীতির ধারণা সূচক বা Corruption Perception Index (CPI) প্রকাশ করে।"
+  },
+  {
+    "id": 77,
+    "question": "কোন তারিখে আর্ন্তজাতিক পরিবেশ দিবস পালিত হয়?",
+    "options": {
+      "A": "২১ জুন",
+      "B": "৫ জুন",
+      "C": "২১ মার্চ",
+      "D": "৫ তারিখ"
+    },
+    "answer": "B",
+    "explanation": "দিবস: বিশ্ব পরিবেশ দিবস (World Environment Day)।\n\n\r\n\r\nতারিখ: প্রতি বছর ৫ জুন বিশ্বব্যাপী এই দিবসটি পালিত হয়।\n\n\r\n\r\nগুরুত্ব: ১৯৭২ সালে সুইডেনের স্টকহোমে জাতিসংঘের 'মানবিক পরিবেশ সম্মেলন' (Stockholm Conference on the Human Environment) এই দিনটিতেই শুরু হয়েছিল। এই সম্মেলন পরিবেশ সংক্রান্ত বিশ্বের প্রথম বড় আন্তর্জাতিক আলোচনা। জাতিসংঘ এই দিনটিকে স্মরণ করে ১৯৭৪ সাল থেকে এটি পালন করে আসছে।\n\n\r\n\r\nউদ্দেশ্য: পরিবেশ সুরক্ষার বিষয়ে বিশ্বজুড়ে মানুষের মধ্যে রাজনৈতিক কর্মোদ্যোগ ও জনসচেতনতা বাড়ানোই এর প্রধান লক্ষ্য।"
+  },
+  {
+    "id": 78,
+    "question": "ভারতের কোন রাজ্যের রাজধানী ইম্ফল?",
+    "options": {
+      "A": "মেঘালয়",
+      "B": "মণিপুর",
+      "C": "অরুণাচল",
+      "D": "মিজোরাম"
+    },
+    "answer": "B",
+    "explanation": "রাজধানী: ইম্ফল হলো ভারতের উত্তর-পূর্বাঞ্চলের রাজ্য মণিপুরের রাজধানী শহর।\n\n\r\n\r\nঅবস্থান: মণিপুরকে ভারতের 'সেভেন সিস্টার্স' বা সাত বোনের রাজ্যগুলির মধ্যে একটি হিসেবে গণ্য করা হয়। এই রাজ্যটির পূর্বে মিয়ানমার এবং অন্যান্য দিকে ভারতের নাগাল্যান্ড, মিজোরাম ও আসাম রাজ্য অবস্থিত।\n\n\r\n\r\nতাৎপর্য: ইম্ফল শহরটি মণিপুর উপত্যকার কেন্দ্রে অবস্থিত এবং এটি রাজ্যের প্রধান প্রশাসনিক, বাণিজ্যিক ও সাংস্কৃতিক কেন্দ্র।"
+  },
+  {
+    "id": 79,
+    "question": "জাতিসংঘের প্রথম মহাসচিব কে ছিলেন?",
+    "options": {
+      "A": "উ থান্ট",
+      "B": "ট্রাইগভেলাই",
+      "C": "পেরেজ দ্য কুয়েলার",
+      "D": "কুর্ট ওয়াল্ডহেইম"
+    },
+    "answer": "B",
+    "explanation": "নাম: ট্রাইগভে হাভডেন লি (Trygve Halvdan Lie)।\n\n\r\n\r\nদেশ: তিনি নরওয়ের একজন রাজনীতিবিদ ���বং কূটনীতিক ছিলেন।\n\n\r\n\r\nকার্যকাল: তিনি ১৯৪৬ সালের ২ ফেব্রুয়ারি থেকে ১৯৫২ সালের ১০ নভেম্বর পর্যন্ত জাতিসংঘের প্রথম মহাসচিব হিসেবে দায়িত্ব পালন করেন।\n\n\r\n\r\nতাৎপর্য: তিনি ভারপ্রাপ্ত মহাসচিব গ্লাডউইন জেব (Gladwyn Jebb)-এর পরে জাতিসংঘের প্রথম নির্বাচিত মহাসচিবের দায়িত্ব গ্রহণ করেন এবং এই পদটিকে তিনি \"পৃথিবীর সবচেয়ে কঠিন কাজ\" (the most difficult job in the world) হিসেবে বর্ণনা করেছিলেন।"
+  },
+  {
+    "id": 80,
+    "question": "যুক্তরাষ্ট্রের কোন ষ্টেট-এ নির্বাচকমন্ডলীর ভোটের (Electoral Vote) সংখ্যা বেশি?",
+    "options": {
+      "A": "ফ্লোরিডা",
+      "B": "টেক্সাস",
+      "C": "ক্যালিফোর্নিয়া",
+      "D": "নিউইয়র্ক"
+    },
+    "answer": "C",
+    "explanation": "নির্বাচকমণ্ডলীর ভোট (Electoral Vote) কী?: যুক্তরাষ্ট্রের প্রেসিডেন্ট নির্বাচনে সাধারণ মানুষের ভোটের পাশাপাশি প্রতিটি স্টেটের জনসংখ্যার ভিত্তিতে নির্দিষ্ট সংখ্যক নির্বাচকমণ্ডলীর ভোট থাকে। প্রেসিডেন্ট হতে হলে এই ভোটের একটি নির্দিষ্ট সংখ্যা (বর্তমানে ২৭০টি) পেতে হয়।\n\n\r\n\r\nভোটের সংখ্যা: স্টেটের জনসংখ্যা যত বেশি, সেই স্টেটের নির্বাচকমণ্ডলীর ভোটের সংখ্যাও তত বেশি হয়।\n\n\r\n\r\nক্যালিফোর্নিয়ার গুরুত্ব: ক্যালিফোর্নিয়া হলো যুক্তরাষ্ট্রের সবচেয়ে জনবহুল স্টেট। এই কারণে, আমেরিকার সমস্ত স্টেটের মধ্যে ক্যালিফোর্নিয়ার নির্বাচকমণ্ডলীর ভোটের সংখ্যা সবচেয়ে বেশি (বর্তমানে ৫৫টি)।\n\n\r\n\r\nঅন্যান্য অপশনের অবস্থা: অন্যান্য গুরুত্বপূর্ণ স্টেটের ভোটের সংখ্যা:\n\n\r\n\r\nটেক্সাস (Texas): ৩৮টি\n\n\r\n\r\nফ্লোরিডা (Florida): ২৯টি\n\n\r\n\r\nনিউইয়র্ক (New York): ২৯টি"
+  },
+  {
+    "id": 81,
+    "question": "যুক্তরাষ্ট্র ইউনিয়নে কোন ষ্টেট সর্বশেষে যোগ দেয়?",
+    "options": {
+      "A": "ফ্লোরিডা",
+      "B": "টেক্সাস",
+      "C": "অ্যারিজোনা",
+      "D": "হাওয়াই"
+    },
+    "answer": "D",
+    "explanation": "সর্বশেষ স্টেট: যুক্তরাষ্ট্রের ইউনিয়নে যোগ দেওয়া সর্বশেষ স্টেটটি হলো হাওয়াই (Hawaii)।\n\n\r\n\r\nযুক্ত হওয়ার তারিখ: হাওয়াই ১৯৫৯ সালের ২১ আগস্ট যুক্তরাষ্ট্রের ৫০তম স্টেট হিসেবে ইউনিয়নে যোগ দেয়।\n\n\r\n\r\nআলাস্কা: হাওয়াইয়ের আগে আলাস্কা ১৯৫৯ সালের ৩ জানুয়ারি ৪৯তম স্টেট হিসেবে যোগ দিয়েছিল।\n\n\r\n\r\nঅন্যান্য অপশনের অবস্থা: অ্যারিজোনা ১৯১২ সালে, টেক্সাস ১৮৪৫ সালে এবং ফ্লোরিডা ১৮৪৫ সালে ইউনিয়নে যোগ দিয়েছিল।\n\n\r\n\r\nসহজভাবে: যুক্তরাষ্ট্র মোট ৫০টি স্টেট নিয়ে গঠিত, যার মধ্যে সর্বশেষ স্টেটটি হলো প্রশান্ত মহাসাগরের মাঝে অবস্থিত দ্বীপপুঞ্জ হাওয়াই।"
+  },
+  {
+    "id": 82,
+    "question": "উরুগুয়ে রাউন্ডের সংলাপ কত বছর ধরে চলছিল?",
+    "options": {
+      "A": "৬ বছর",
+      "B": "৫ বছর",
+      "C": "৮ বছর",
+      "D": "২ বছর"
+    },
+    "answer": "C",
+    "explanation": "উরুগুয়ে রাউন্ড কী: এটি ছিল শুল্ক ও বাণিজ্য সংক্রান্ত সাধারণ চুক্তি (GATT)-এর অধীনে অনুষ্ঠিত অষ্টম এবং সর্বশেষ বহুপাক্ষিক বাণিজ্য আলোচনা।\n\n\r\n\r\nসময়কাল: এই সংলাপ শুরু হয়েছিল ১৯৮৬ সালের সেপ্টেম্বরে উরুগুয়ের পান্তা দেল এস্তে শহরে এবং শেষ হয় ১৯৯৪ সালের এপ্রিলে।\n\n\r\n\r\nমোট সময়: ১৯৮৬ থেকে ১৯৯৪ পর্যন্ত এই আলোচনা মোট ৮ বছর ���রে চলেছিল।\n\n\r\n\r\nফলাফল: উরুগুয়ে রাউন্ডের আলোচনার ফলেই GATT চুক্তিটির পরিসমাপ্তি ঘটে এবং বিশ্ব বাণিজ্য সংস্থা (WTO) প্রতিষ্ঠিত হয় (১৯৯৫ সালে)।"
+  },
+  {
+    "id": 83,
+    "question": "আবু সায়েফ গেরিলা গোষ্ঠী কোন দেশে তৎপর?",
+    "options": {
+      "A": "থাইল্যান্ড",
+      "B": "ইন্দোনেশিয়া",
+      "C": "ফিলিপাইন",
+      "D": "ইরাক"
+    },
+    "answer": "C",
+    "explanation": "আবু সায়েফ (Abu Sayyaf) একটি উগ্রবাদী গেরিলা গোষ্ঠী, যারা মূলত ফিলিপাইনের দক্ষিণাঞ্চলে (বিশেষ করে জলো এবং বেসিলান দ্বীপে) তৎপর।"
+  },
+  {
+    "id": 84,
+    "question": "যুক্তরাষ্ট্রের একজন প্রেসিডেন্ট ১২ বছর ক্ষমতায় ছিলেন। তিনি হচ্ছেন-",
+    "options": {
+      "A": "জেমস মনরো",
+      "B": "ফ্রাঙ্কলিন রুজভেল্ট",
+      "C": "হ্যারি এস ট্রুম্যান",
+      "D": "তথ্যটি সঠিক নয়"
+    },
+    "answer": "B",
+    "explanation": "ফ্রাঙ্কলিন ডি. রুজভেল্ট (Franklin D. Roosevelt) যুক্তরাষ্ট্রের একমাত্র প্রেসিডেন্ট যিনি দুই মেয়াদের বেশি সময় ক্ষমতায় ছিলেন। তিনি ১৯৩৩ সাল থেকে ১৯৪৫ সালে তার মৃত্যু পর্যন্ত মোট ১২ বছরেরও বেশি সময় (১২ বছর ১ মাস) যুক্তরাষ্ট্রের প্রেসিডেন্ট হিসেবে দায়িত্ব পালন করেন।"
+  },
+  {
+    "id": 85,
+    "question": "জাপান ও রাশিয়ার মধ্যকার বিরোধপূর্ণ দ্বীপটির নাম কি?",
+    "options": {
+      "A": "গ্রেট বেরিয়ার রিফ",
+      "B": "দিয়াগো গার্সিয়া",
+      "C": "মার্শাল দ্বীপপুঞ্জ",
+      "D": "কুড়িল দ্বীপপুঞ্জ"
+    },
+    "answer": "D",
+    "explanation": "জাপান ও রাশিয়ার মধ্যকার বিরোধপূর্ণ অঞ্চলটি কুড়িল দ্বীপপুঞ্জ (Kuril Islands) নামে পরিচিত। জাপানে এই দ্বীপগুলোকে ‘উত্তরাঞ্চলীয় অঞ্চল’ বা Northern Territories বলা হয়।"
+  },
+  {
+    "id": 86,
+    "question": "IAEA- এর নির্বাহী প্রধান হলেন-",
+    "options": {
+      "A": "হামিদ কারজাই",
+      "B": "আয়াদ আলাওয়ি",
+      "C": "আমর মুসা",
+      "D": "মোহম্মদ আল বারাদি"
+    },
+    "answer": "D",
+    "explanation": "মোহাম্মদ আল বারাদি ১৯৯৭ থেকে ২০০৯ সাল পর্যন্ত আন্তর্জাতিক পরমাণু শক্তি সংস্থা বা IAEA (International Atomic Energy Agency)-এর মহাপরিচালক হিসেবে দায়িত্ব পালন করেন। ২০০৫ সালে তিনি এবং IAEA যৌথভাবে শান্তিতে নোবেল পুরস্কার পান।\n\n\r\n\r\nবর্তমানে (২০২৫ সালে) IAEA-এর মহাপরিচালক হলেন আর্জেন্টিনার রাফায়েল মারিয়ানো গ্রসি (Rafael Mariano Grossi), যিনি ২০১৯ সাল থেকে এই দায়িত্বে আছেন।"
+  },
+  {
+    "id": 87,
+    "question": "সালোকসংশ্লেষণ সবচেয়ে বেশি পরিমাণে হয়-",
+    "options": {
+      "A": "বেগুনী আলোতে",
+      "B": "লাল আলোতে",
+      "C": "নীল আলোতে",
+      "D": "সবুজ আলোতে"
+    },
+    "answer": "B",
+    "explanation": "সালোকসংশ্লেষণ (Photosynthesis) প্রক্রিয়ার হার লাল আলোতে সবচেয়ে বেশি হয়। এরপরই নীল আলোর অবস্থান। ক্লোরোফিল সবুজ আলো শোষণ করতে পারে না এবং প্রতিফলিত করে, তাই সবুজ আলোতে সালোকসংশ্লেষণ সবচেয়ে কম হয় বা হয় না বললেই চলে।"
+  },
+  {
+    "id": 88,
+    "question": "নিউমোনিয়া রোগে আক্রান্ত হয় মানব দেহের-",
+    "options": {
+      "A": "প্লীহা",
+      "B": "কিডনি",
+      "C": "যকৃত",
+      "D": "ফুসফুস"
+    },
+    "answer": "D",
+    "explanation": "নিউমোনিয়া হলো ফুসফুসের একটি সংক্রমণজনিত রোগ। এতে ফুসফুসের বায়ুথলিগুলোতে (Alveoli) প্রদাহ সৃষ্টি হয় এবং সেখানে তরল বা পুঁজ জমে যেতে পারে, যার ফলে শ্বাসকষ্ট, কাশি এবং জ্বর হয়। ব্যাকটেরিয়া, ভাইরাস বা ফাঙ্গাসের সংক্রমণে সাধারণত এই রোগটি হয়ে থাকে।"
+  },
+  {
+    "id": 89,
+    "question": "ডিজিটাল ঘড়ি বা ক্যালকুলেটরে কালচে অনুজ্জ্বল যে লেখা ফুটে উঠে তা কিসের ভিত্তিতে তৈরি?",
+    "options": {
+      "A": "সিলিকন চিপ",
+      "B": "এলসিডি",
+      "C": "আইসি",
+      "D": "এলইডি"
+    },
+    "answer": "B",
+    "explanation": "এলসিডি (LCD)-এর পূর্ণরূপ হলো Liquid Crystal Display। সাধারণ ডিজিটাল ঘড়ি ও ক্যালকুলেটরের পর্দায় যে কালচে লেখা দেখা যায়, তা তরল স্ফটিক বা লিকুইড ক্রিস্টাল ব্যবহার করে তৈরি হয়।"
+  },
+  {
+    "id": 90,
+    "question": "সমুদ্রপৃষ্ঠে বায়ুর চাপ প্রতি বর্গ সে.মি. এ-",
+    "options": {
+      "A": "১০ নিউটন",
+      "B": "২৭ কি.গ্রাম",
+      "C": "১০ কি.মি.",
+      "D": "৫ কি.মি."
+    },
+    "answer": "A",
+    "explanation": "যে কোনো পদার্থের মতো বায়ুর ও ওজন আছে। বায়ুর ওজনজনিত কারণে যে চাপের সৃষ্টি হয় তাই বায়ুর চাপ । চাপের মান মিলিবারে দেখানো হয় । সমুদ্রপৃষ্ঠে বায়ুর চাপ প্রতিবর্গ সেন্টিমিটারে ১০ নিউটন বা ৬.৪৫ বর্গ সেন্টিমিটার।"
+  },
+  {
+    "id": 91,
+    "question": "সংবিধানের কোন অনুচ্ছেদ অনুযায়ী বাংলাদেশের নাগরিকগণ বাংলাদেশী বলে পরিচিত হবেন?",
+    "options": {
+      "A": "৮",
+      "B": "৭",
+      "C": "৬ (২)",
+      "D": "৬ (১)"
+    },
+    "answer": "C",
+    "explanation": "বাংলাদেশের সংবিধানের ৬ (২) নং অনুচ্ছেদে বলা হয়েছে, \"বাংলাদেশের জনগণ জাতি হিসাবে ‘বাঙালি’ এবং নাগরিকগণ ‘বাংলাদেশী’ বলিয়া পরিচিত হইবেন।\"\n\n\r\n\r\nঅনুচ্ছেদ ৬ (১): এখানে বলা হয়েছে, বাংলাদেশের নাগরিকত্ব আইনের দ্বারা নির্ধারিত ও নিয়ন্ত্রিত হবে।\n\n\r\n\r\nঅনুচ্ছেদ ৭: এখানে সংবিধানের প্রাধান্য এবং প্রজাতন্ত্রের সকল ক্ষমতার মালিক জনগণ—এই বিষয়টি উল্লেখ আছে।\n\n\r\n\r\nঅনুচ্ছেদ ৮: এখানে রাষ্ট্র পরিচালনার মূলনীতিসমূহ (জাতীয়তাবাদ, সমাজতন্ত্র, গণতন্ত্র ও ধর্মনিরপেক্ষতা) উল্লেখ করা হয়েছে।"
+  },
+  {
+    "id": 92,
+    "question": "বাংলাদেশ OIC-এর সদস্য হয় কোন সনে?",
+    "options": {
+      "A": "১৯৭৬",
+      "B": "১৯৭৫",
+      "C": "১৯৭৪",
+      "D": "১৯৭৩"
+    },
+    "answer": "C",
+    "explanation": "বাংলাদেশ ১৯৭৪ সালের ২২-২৪ ফেব্রুয়ারি পাকিস্তানের লাহোরে অনুষ্ঠিত ওআইসি-র (OIC) দ্বিতীয় শীর্ষ সম্মেলনে আনুষ্ঠানিকভাবে সংস্থাটির সদস্যপদ লাভ করে। বঙ্গবন্ধু শেখ মুজিবুর রহমান ওই সম্মেলনে বাংলাদেশের প্রতিনিধি দলের নেতৃত্ব দিয়েছিলেন।"
+  },
+  {
+    "id": 93,
+    "question": "মুক্তিযুদ্ধ বিষয়ক মন্ত্রণালয় কত সালে গঠিত হয়?",
+    "options": {
+      "A": "২০০২ সালে",
+      "B": "২০০১ সালে",
+      "C": "২০০০ সালে",
+      "D": "১৯৯২ সালে"
+    },
+    "answer": "B",
+    "explanation": "মুক্তিযুদ্ধ বিষয়ক মন্ত্রণালয় ২৩ অক্টোবর, ২০০১ সালে গঠিত হয়। মহান মুক্তিযুদ্ধের ইতিহাস সংরক্ষণ, মুক্তিযোদ্ধাদের কল্যাণ এবং মুক্তিযুদ্ধের চেতনা বিকাশের লক্ষ্যে এই মন্ত্রণালয়টি প্রতিষ্ঠা করা হয়।"
+  },
+  {
+    "id": 94,
+    "question": "ভারতের সাথে বাংলাদেশের সীমান্ত জেলা কয়টি?",
+    "options": {
+      "A": "৩৫",
+      "B": "৩১",
+      "C": "৩০",
+      "D": "২৮"
+    },
+    "answer": "C",
+    "explanation": "বাংলাদেশের মোট সীমান্তবর্তী জেলা ৩২টি। এর মধ্যে ভারতের সাথে সীমান্ত রয়েছে ৩০টি জেলার। মিয়ানমারের সাথে সীমান্ত রয়েছে ৩টি জেলার (রাঙামাটি, বান্দরবান ও কক্সবাজার)।"
+  },
+  {
+    "id": 95,
+    "question": "বাংলাদেশের প্রথম বেসরকারী ব্যাংক কোনটি?",
+    "options": {
+      "A": "দি সিটি ব্যাংক",
+      "B": "আইএফআইসি ব্যাংক",
+      "C": "আরব-বাংলাদেশ ব্যাংক",
+      "D": "ন্যাশনাল ব্যাংক"
+    },
+    "answer": "C",
+    "explanation": "আরব-বাংলাদেশ ব্যাংক (বর্তমানে এবি ব্যাংক বা AB Bank PLC) হলো বাংলাদেশের প্রথম বেসরকারি বাণিজ্যিক ব্যাংক। এটি ১৯৮২ সালের ১২ এপ্রিল প্রতিষ্ঠিত হয়।"
+  },
+  {
+    "id": 96,
+    "question": "SPARRSO- কোন মন্ত্রণালয়ের অধীন?",
+    "options": {
+      "A": "প্রতিরক্ষা মন্ত্রণালয়",
+      "B": "পরিবেশ মন্ত্রণালয়",
+      "C": "শিক্ষা মন্ত্রণালয়",
+      "D": "শিল্প মন্ত্রণালয়"
+    },
+    "answer": "A",
+    "explanation": "স্পারসো (SPARRSO)-এর পূর্ণরূপ হলো Bangladesh Space Research and Remote Sensing Organization (বাংলাদেশ মহাকাশ গবেষণা ও দূর অনুধাবন প্রতিষ্ঠান)। এটি বাংলাদেশের প্রতিরক্ষা মন্ত্রণালয়ের (Ministry of Defence) অধীন একটি স্বায়ত্তশাসিত প্রতিষ্ঠান।"
+  },
+  {
+    "id": 97,
+    "question": "বাংলাদেশের বৃহত্তম সেচ প্রকল্প কোনটি?",
+    "options": {
+      "A": "ফেনী সেচ প্রকল্প",
+      "B": "কাপ্তাই সেচ প্রকল্প",
+      "C": "তিস্তা সেচ প্রকল্প",
+      "D": "গঙ্গা-কপোতাক্ষ প্রকল্প"
+    },
+    "answer": "C",
+    "explanation": "তিস্তা সেচ প্রকল্প (Teesta Barrage Project) বাংলাদেশের বৃহত্তম সেচ প্রকল্প। এটি লালমনিরহাট জেলার হাতিবান্ধা উপজেলার দোয়ানীতে তিস্তা নদীর উপর নির্মিত।"
+  },
+  {
+    "id": 98,
+    "question": "'মনপুরা-৭০' কি?",
+    "options": {
+      "A": "একটি চিত্রশিল্প",
+      "B": "একটি উপন্যাস",
+      "C": "একটি নদীবন্দর",
+      "D": "একটি উপজেলা"
+    },
+    "answer": "A",
+    "explanation": "'মনপুরা-৭০' হলো শিল্পাচার্য জয়নুল আবেদিন-এর আঁকা একটি বিখ্যাত চিত্রকর্ম (স্কেচ)। ১৯৭০ সালে বাংলাদেশের দক্ষিণাঞ্চলে যে ভয়াবহ জলোচ্ছ্বাস ও ঘূর্ণিঝড় হয়েছিল, তাতে উপকূলীয় দ্বীপ মনপুরায় লক্ষ লক্ষ মানুষ ও গবাদিপশু প্রাণ হারায়। সেই ধ্বংসলীলা ও মানবিক বিপর্যয় দেখে জয়নুল আবেদিন যে মর্মস্পর্শী ছবি এঁকেছিলেন, সেটিই ‘মনপুরা-৭০’ নামে পরিচিত।"
+  },
+  {
+    "id": 99,
+    "question": "বাংলাদেশের কোন প্রতিষ্ঠান মাইক্রোক্রেডিট সম্মেলনের অন্যতম উদ্যোক্তা?",
+    "options": {
+      "A": "এবি ব্যাংক",
+      "B": "গ্রামীণ ব্যাংক",
+      "C": "ন্যাশনাল ব্যাংক",
+      "D": "চার্টার্ট ব্যাংক"
+    },
+    "answer": "B",
+    "explanation": "গ্রামীণ ব্যাংক এবং এর প্রতিষ্ঠাতা ড. মুহাম্মদ ইউনূস বিশ্বজুড়ে ক্ষুদ্রঋণ (Microcredit) ধারণার প্রবর্তক। ১৯৯৭ সালে ওয়াশিংটনে অনুষ্ঠিত প্রথম মাইক্রোক্রেডিট সামিট (Microcredit Summit) এবং এই আন্দোলনের অন্যতম প্রধান উদ্যোক্তা ও সহযোগী প্রতিষ্ঠান হলো গ্রামীণ ব্যাংক।"
+  },
+  {
+    "id": 100,
+    "question": "'ইরাটম' কি?",
+    "options": {
+      "A": "উন্নত জাতের চা",
+      "B": "উন্নত জাতের পাট",
+      "C": "উন্নত জাতের ইক্ষু",
+      "D": "উন্নত জাতের ধান"
+    },
+    "answer": "D",
+    "explanation": "ইরাটম (Iratom) হলো বাংলাদেশ পরমাণু শক্তি কমিশন কর্তৃক উদ্ভাবিত একটি উন্নত ও উচ্চ ফলনশীল ধানের জাত। এটি আন্তর্জাতিক ধান গবেষণা ইন্সটিটিউটের 'ইরি-৮' (IR-8) ধানের ওপর গামা রশ্মি প্রয়োগ করে মিউটেশনের মাধ্যমে উদ্ভাবন করা হয়েছিল।"
+  }
+]
