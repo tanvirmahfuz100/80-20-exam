@@ -16,7 +16,7 @@ function extractChapter(source) {
 }
 
 // Load all Islamic studies questions
-const srcDir = path.join(__dirname, 'docs', 'hsc', 'islamic studies');
+const srcDir = path.join(__dirname, '..', 'docs', 'hsc', 'islamic studies');
 const files = ['id 1-20.json', 'id 21-50.json', 'id 51-100.json', 'id 101-150.json'];
 const all = [];
 files.forEach(f => {
@@ -32,7 +32,7 @@ all.forEach(q => {
 });
 
 // Create dist directory
-const distDir = path.join(__dirname, 'dist', 'hsc', 'islamic_studies');
+const distDir = path.join(__dirname, '..', 'dist', 'hsc', 'islamic_studies');
 if (!fs.existsSync(distDir)) fs.mkdirSync(distDir, { recursive: true });
 
 // Write chapter files
@@ -45,7 +45,7 @@ Object.entries(byCh).sort((a, b) => a[0] - b[0]).forEach(([ch, questions]) => {
 });
 
 // Read and update index.json
-const indexPath = path.join(__dirname, 'dist', 'hsc', 'index.json');
+const indexPath = path.join(__dirname, '..', 'dist', 'hsc', 'index.json');
 const index = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
 
 // Check if islamic_studies already exists

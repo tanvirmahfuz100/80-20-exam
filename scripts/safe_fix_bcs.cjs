@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const BCS_DIR = path.join(__dirname, 'public', 'bcs');
+const BCS_DIR = path.join(__dirname, '..', 'public', 'bcs');
 
 // Only fix what we're 100% certain about from explanation + answer context
 const fixes = {

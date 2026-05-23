@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const BCS_DIR = path.join(__dirname, 'public', 'bcs');
+const BCS_DIR = path.join(__dirname, '..', 'public', 'bcs');
 
 function loadJSON(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf-8'));

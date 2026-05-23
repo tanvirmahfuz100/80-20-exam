@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const BCS_DIR = path.join(__dirname, 'dist', 'bcs');
+const BCS_DIR = path.join(__dirname, '..', 'dist', 'bcs');
 
 const srcs = ['bcs_41','bcs_42','bcs_42_med','bcs_43','bcs_44','bcs_45','bcs_46','bcs_47','bcs_48_1','bcs_48_2','bcs_49'];
 

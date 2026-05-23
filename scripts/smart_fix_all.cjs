@@ -1,9 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const BCS_DIR = path.join(__dirname, 'public', 'bcs');
+const BCS_DIR = path.join(__dirname, '..', 'public', 'bcs');
 const ANSWERS_DIR = path.join(BCS_DIR, 'answers');
-const RAW_DIR = path.join(__dirname, 'scratch');
+const RAW_DIR = path.join(__dirname, '..', 'scratch');
 
 // === Load answer keys ===
 
