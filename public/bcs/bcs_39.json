@@ -152,8 +152,8 @@
       "C": "the, no article",
       "D": "no article, a"
     },
-    "answer": "B",
-    "explanation": "The correct answer is 'a, an'. We use 'a' with 'hospital' because it's unspecified. We use 'an' before 'heart attack'."
+    "answer": "⚠️ FLAG: No correct option available. The sentence 'He went to a hospital because he had a heart attack' requires 'a' for the second blank (heart attack), but all option combinations are incorrect. Option B has 'a, an' which is wrong — 'heart' begins with a pronounced 'h', requiring 'a' not 'an'.",
+    "explanation": "The correct article combination should be 'a, a'. 'Hospital' uses 'a' (consonant sound). 'Heart attack' also uses 'a' because 'heart' begins with a pronounced 'h'. Option B ('a, an') is incorrect. None of the provided options contain 'a, a'."
   },
   {
     "id": 14,
@@ -908,8 +908,8 @@
       "C": "১০৫°",
       "D": "১১০°"
     },
-    "answer": "D",
-    "explanation": "The obtuse angle between hands at 8:00 is 120°. The given most appropriate answer among options is 110°."
+    "answer": "⚠️ FLAG: Correct answer should be 120°, but 120° is not among the options. At 8:00, the hour hand is at 240° (8×30°) and the minute hand is at 0°. The difference is 240°, and the smaller (obtuse) angle is 360° − 240° = 120°.",
+    "explanation": "At exactly 8:00, the minute hand points at 12 (0°) and the hour hand points at 8 (240°). The angle between them is 120°. None of the given options (90°, 95°, 105°, 110°) is correct. The closest option is 110° (D), but the actual angle is 120°."
   },
   {
     "id": 77,

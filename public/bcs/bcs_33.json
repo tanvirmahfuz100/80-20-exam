@@ -1088,8 +1088,8 @@
       "C": "৮%",
       "D": "১১%"
     },
-    "answer": "",
-    "explanation": "উত্তর নির্ণয়ের জন্য বিস্তারিত ব্যাখ্যা সংযোজন করা হবে।"
+    "answer": "⚠️ FLAG: Correct answer is 25%, but 25% is not among the options. Interest = Principal × 1/4, Rate = (I × 100) / (P × T) = 25%.",
+    "explanation": "Principal = 373899 Tk. Interest = 1/4 of principal = 93474.75 Tk. Time = 1 year. Rate = (Interest × 100) / (Principal × Time) = (93474.75 × 100) / 373899 = 25%. None of the given options (12%, 16%, 8%, 11%) is correct."
   },
   {
     "id": 92,
