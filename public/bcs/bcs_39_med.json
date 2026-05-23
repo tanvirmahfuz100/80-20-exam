@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "The superficial Inguinal ring is an opening in the:",
+    "options": {
+      "A": "Internal oblique aponeurosis",
+      "B": "Conjoint tendon",
+      "C": "External oblique aponeurosis",
+      "D": "Fascia transversalis"
+    },
+    "answer": "C",
+    "explanation": "The superficial inguinal ring is a slit-like opening in the aponeurosis of the external oblique muscle."
+  },
+  {
+    "id": 2,
+    "question": "Which of the following type of necrosis is seen in acute myocardial infarction?",
+    "options": {
+      "A": "Caseous necrosis",
+      "B": "Gangrenous necrosis",
+      "C": "Coagulative necrosis",
+      "D": "Fat necrosis"
+    },
+    "answer": "C",
+    "explanation": "Acute myocardial infarction causes coagulative necrosis due to ischemia."
+  },
+  {
+    "id": 3,
+    "question": "Main seat of peripheral resistance is:",
+    "options": {
+      "A": "Arteriole",
+      "B": "Metaarteriole",
+      "C": "Venule",
+      "D": "Capillary"
+    },
+    "answer": "A",
+    "explanation": "Arterioles are the primary site of peripheral resistance due to their thick muscular walls and small diameter."
+  },
+  {
+    "id": 4,
+    "question": "Blood group antigens are:",
+    "options": {
+      "A": "Present in the Hb molecules",
+      "B": "Present in the dense granules of platelets",
+      "C": "Present in the RBC membrane",
+      "D": "Present in the plasma"
+    },
+    "answer": "C",
+    "explanation": "ABO and Rh blood group antigens are glycoproteins and glycolipids present on the surface of RBC membranes."
+  },
+  {
+    "id": 5,
+    "question": "Signs of upper motor neuron lesion include all except:",
+    "options": {
+      "A": "Weakness or paralysis of limb",
+      "B": "Hypertonia of muscles",
+      "C": "Loss of all reflexes",
+      "D": "Plantar response extensor"
+    },
+    "answer": "C",
+    "explanation": "UMNL causes hyperreflexia, not loss of all reflexes. Loss of reflexes is seen in LMNL."
+  },
+  {
+    "id": 6,
+    "question": "Neonates may be infected with except:",
+    "options": {
+      "A": "Brucellosis",
+      "B": "Hepatitis B virus",
+      "C": "Malaria",
+      "D": "Shigellosis"
+    },
+    "answer": "A",
+    "explanation": "Brucellosis is rare in neonates. Hepatitis B, Malaria, and Shigellosis can be transmitted perinatally."
+  },
+  {
+    "id": 7,
+    "question": "Insulin increases:",
+    "options": {
+      "A": "Lipolysis",
+      "B": "Ketogenesis",
+      "C": "Glycogenesis",
+      "D": "Gluconeogenesis"
+    },
+    "answer": "C",
+    "explanation": "Insulin promotes glycogen synthesis (glycogenesis). It inhibits lipolysis, ketogenesis, and gluconeogenesis."
+  },
+  {
+    "id": 8,
+    "question": "Commonest cause of hepatic cirrhosis in Bangladesh is:",
+    "options": {
+      "A": "HAV",
+      "B": "HBV",
+      "C": "HCV",
+      "D": "HEV"
+    },
+    "answer": "B",
+    "explanation": "HBV is the leading cause of cirrhosis in Bangladesh."
+  },
+  {
+    "id": 9,
+    "question": "Dermis:",
+    "options": {
+      "A": "Is a layer of epithelial tissue",
+      "B": "Is formed by connective tissue",
+      "C": "Contain melanocytes",
+      "D": "Possess keratinocytes"
+    },
+    "answer": "B",
+    "explanation": "The dermis is composed of dense irregular connective tissue. Melanocytes and keratinocytes are in the epidermis."
+  },
+  {
+    "id": 10,
+    "question": "Clinical cyanosis is due to:",
+    "options": {
+      "A": "Adult hemoglobin",
+      "B": "Reduced hemoglobin",
+      "C": "Fetal hemoglobin",
+      "D": "Biliverdin"
+    },
+    "answer": "B",
+    "explanation": "Cyanosis is caused by increased deoxygenated hemoglobin (reduced Hb) >5g/dL in capillary blood."
+  },
+  {
+    "id": 11,
+    "question": "Clinical toxicity occurs in all of the following micro nutrients except:",
+    "options": {
+      "A": "Iron",
+      "B": "Iodine",
+      "C": "Fluoride",
+      "D": "Copper"
+    },
+    "answer": "B",
+    "explanation": "Iodine toxicity is rare. Iron, fluoride, and copper commonly cause toxicity in excess."
+  },
+  {
+    "id": 12,
+    "question": "Prednisolone 5 mg is equivalent to:",
+    "options": {
+      "A": "Hydrocortisone 40mg",
+      "B": "Hydrocortisone 20mg",
+      "C": "Dexamethasone 2mg",
+      "D": "Dexamethasone 8mg"
+    },
+    "answer": "B",
+    "explanation": "Prednisolone 5 mg = Hydrocortisone 20 mg = Dexamethasone 0.75 mg."
+  },
+  {
+    "id": 13,
+    "question": "\"Ghon Focus\" is situated in:",
+    "options": {
+      "A": "Pleura",
+      "B": "Pericardium",
+      "C": "Peritoneum",
+      "D": "Lung"
+    },
+    "answer": "D",
+    "explanation": "A Ghon focus is a small area of granulomatous inflammation in the lung during primary TB."
+  },
+  {
+    "id": 14,
+    "question": "Which of the following crosses the ureter in the female as it approaches the ureterovesical junction?",
+    "options": {
+      "A": "Ovarian artery",
+      "B": "Uterine artery",
+      "C": "Obturator nerve",
+      "D": "Internal iliac artery"
+    },
+    "answer": "B",
+    "explanation": "The uterine artery crosses the ureter anteriorly. \"Water under the bridge\" relation."
+  },
+  {
+    "id": 15,
+    "question": "Histamine causes:",
+    "options": {
+      "A": "Hypertension",
+      "B": "Vasoconstriction",
+      "C": "Vasodilatation",
+      "D": "Bradycardia"
+    },
+    "answer": "C",
+    "explanation": "Histamine is a potent vasodilator (via H1 receptors on endothelium causing NO release)."
+  },
+  {
+    "id": 16,
+    "question": "Atherosclerosis:",
+    "options": {
+      "A": "Begin after 40 years",
+      "B": "Characterized by focal deposition of collagen, protein and fat",
+      "C": "Is a progressive inflammatory disorder of the arterial wall",
+      "D": "Involves only some blood vessels of body"
+    },
+    "answer": "C",
+    "explanation": "Atherosclerosis is a chronic, progressive inflammatory disease of large and medium arteries."
+  },
+  {
+    "id": 17,
+    "question": "Erythroblastosis fetalis may develop when:",
+    "options": {
+      "A": "Rh (+) mother carries Rh(-) fetus",
+      "B": "Rh (-) mother carries Rh (+) fetus",
+      "C": "Rh (+) mother carries Rh (+) fetus",
+      "D": "Rh (-) mother carries Rh (-) fetus"
+    },
+    "answer": "B",
+    "explanation": "Hemolytic disease of the newborn occurs when an Rh-negative mother produces anti-Rh antibodies against Rh-positive fetal RBCs."
+  },
+  {
+    "id": 18,
+    "question": "Meiosis produces:",
+    "options": {
+      "A": "4 Diploid cells",
+      "B": "2 Diploid cells",
+      "C": "4 haploid cells",
+      "D": "2 Haploid cells"
+    },
+    "answer": "C",
+    "explanation": "Meiosis reduces chromosome number by half. One diploid cell produces four haploid cells."
+  },
+  {
+    "id": 19,
+    "question": "Smooth muscle is found in:",
+    "options": {
+      "A": "Soft palate",
+      "B": "Diaphragm",
+      "C": "Wall of blood vessel",
+      "D": "Tongue"
+    },
+    "answer": "C",
+    "explanation": "Smooth muscle is present in the walls of hollow organs and blood vessels."
+  },
+  {
+    "id": 20,
+    "question": "Which of the following may cause hypercalcaemia?",
+    "options": {
+      "A": "Multiple myeloma",
+      "B": "Frusemide therapy",
+      "C": "Hypoparathyroidism",
+      "D": "Cushing's syndrome"
+    },
+    "answer": "A",
+    "explanation": "Multiple myeloma causes hypercalcemia due to osteolytic bone destruction."
+  },
+  {
+    "id": 21,
+    "question": "In which region, deep fascia is absent?",
+    "options": {
+      "A": "Sole",
+      "B": "Face",
+      "C": "Neck",
+      "D": "Abdominal Wall"
+    },
+    "answer": "B",
+    "explanation": "The face has no deep fascia. It has the superficial musculoaponeurotic system (SMAS)."
+  },
+  {
+    "id": 22,
+    "question": "Which one is false about lung?",
+    "options": {
+      "A": "Conical in shape",
+      "B": "The right lung is slightly larger than the left",
+      "C": "The left lung has only an oblique fissure",
+      "D": "The left lung is divided into 3 lobes"
+    },
+    "answer": "D",
+    "explanation": "The left lung has 2 lobes (superior and inferior). The right lung has 3 lobes."
+  },
+  {
+    "id": 23,
+    "question": "Ovulation occurs:",
+    "options": {
+      "A": "During female orgasm",
+      "B": "14 days after the onset of menstruation",
+      "C": "14 days before the onset of next menstruation",
+      "D": "During the midpart of menstruation"
+    },
+    "answer": "C",
+    "explanation": "The luteal phase is constant at 14 days. Ovulation occurs 14 days BEFORE the next menstruation."
+  },
+  {
+    "id": 24,
+    "question": "The function of mitochondria includes:",
+    "options": {
+      "A": "Anaerobic glycolysis",
+      "B": "Activation of intrinsic pathway of apoptosis",
+      "C": "Vesicle transport",
+      "D": "Proton pump operation"
+    },
+    "answer": "B",
+    "explanation": "Mitochondria release cytochrome c to activate the intrinsic (mitochondrial) pathway of apoptosis."
+  },
+  {
+    "id": 25,
+    "question": "The function of mitochondria includes:",
+    "options": {
+      "A": "Anaerobic glycolysis",
+      "B": "Activation of intrinsic pathway of apoptosis",
+      "C": "Vesicle transport",
+      "D": "Proton pump operation"
+    },
+    "answer": "B",
+    "explanation": "Mitochondria play a central role in intrinsic apoptosis via cytochrome c release."
+  },
+  {
+    "id": 26,
+    "question": "Rx-39 strip test is used to diagnose:",
+    "options": {
+      "A": "Malaria",
+      "B": "Kala-azar",
+      "C": "Dengue fever",
+      "D": "Tuberculosis"
+    },
+    "answer": "A",
+    "explanation": "The Rx-39 rapid diagnostic test (RDT) is used for malaria."
+  },
+  {
+    "id": 27,
+    "question": "Which one of the following clotting factor is called primary clotting factor?",
+    "options": {
+      "A": "Fibrinogen",
+      "B": "Stable factor",
+      "C": "Labile factor",
+      "D": "Antehemophilic factor"
+    },
+    "answer": "A",
+    "explanation": "Fibrinogen (Factor I) is the primary clotting factor, forming fibrin mesh."
+  },
+  {
+    "id": 28,
+    "question": "Cardiogenic shock may be due to:",
+    "options": {
+      "A": "Pump failure",
+      "B": "Infection",
+      "C": "Hypovolumia",
+      "D": "Neurogenic"
+    },
+    "answer": "A",
+    "explanation": "Cardiogenic shock results from pump failure (e.g., massive MI)."
+  },
+  {
+    "id": 29,
+    "question": "Which one of the following is responsible for carpal tunnel syndrome?",
+    "options": {
+      "A": "Axillary nerve compression",
+      "B": "Ulnar nerve compression",
+      "C": "Median nerve compression",
+      "D": "Radial nerve compression"
+    },
+    "answer": "C",
+    "explanation": "Carpal tunnel syndrome is caused by compression of the median nerve within the carpal tunnel."
+  },
+  {
+    "id": 30,
+    "question": "Abnormal constituent of urine is:",
+    "options": {
+      "A": "Creatinine",
+      "B": "Urea",
+      "C": "Disodium mono hydrogen phosphate",
+      "D": "Albumin"
+    },
+    "answer": "D",
+    "explanation": "Albumin is not normally found in urine."
+  },
+  {
+    "id": 31,
+    "question": "Site of absorption of vitamin B12 is:",
+    "options": {
+      "A": "Stomach",
+      "B": "Duodenum",
+      "C": "Jejunum",
+      "D": "Ileum"
+    },
+    "answer": "D",
+    "explanation": "Vitamin B12 is absorbed in the terminal ileum after binding to intrinsic factor."
+  },
+  {
+    "id": 32,
+    "question": "Causes of renal failure in multiple myeloma includes all except:",
+    "options": {
+      "A": "Membranous glomerulonephritis",
+      "B": "Para protein deposition",
+      "C": "Hypocalcaemia",
+      "D": "Amyloid deposition"
+    },
+    "answer": "C",
+    "explanation": "Hypocalcemia does not cause renal failure. Myeloma kidney is caused by cast nephropathy, amyloidosis, or hypercalcemia."
+  },
+  {
+    "id": 33,
+    "question": "Superior mesenteric artery supplies blood to:",
+    "options": {
+      "A": "1st part of duodenum",
+      "B": "left 1/3rd of transverse colon",
+      "C": "Gall bladder",
+      "D": "The appendix"
+    },
+    "answer": "D",
+    "explanation": "The SMA supplies the appendix via the ileocolic artery."
+  },
+  {
+    "id": 34,
+    "question": "The value of lung tidal volume is:",
+    "options": {
+      "A": "1500 ml",
+      "B": "2000 ml",
+      "C": "500 ml",
+      "D": "5000 ml"
+    },
+    "answer": "C",
+    "explanation": "Tidal volume is the volume of air moved during normal breathing. Average is ~500 mL."
+  },
+  {
+    "id": 35,
+    "question": "Which of the following occurs during reverse transcriptase polymerase chain reaction?",
+    "options": {
+      "A": "Proteins are converted to DNA",
+      "B": "DNA is converted to RNA",
+      "C": "Used to amplify DNA",
+      "D": "RNA is converted to DNA"
+    },
+    "answer": "D",
+    "explanation": "RT-PCR uses reverse transcriptase to convert RNA to complementary DNA (cDNA)."
+  },
+  {
+    "id": 36,
+    "question": "Adult polycystic kidney disease is a condition of",
+    "options": {
+      "A": "Chromosomal abnormality",
+      "B": "X-linked recessive",
+      "C": "Autosomal dominant trait",
+      "D": "Autosomal recessive"
+    },
+    "answer": "C",
+    "explanation": "Adult Polycystic Kidney Disease is an autosomal dominant disorder."
+  },
+  {
+    "id": 37,
+    "question": "A 60 year old gentleman has been diagnosed as vitamin B12 deficiency due to pernicious anemia. Which of the following is unlikely to happen?",
+    "options": {
+      "A": "Corticospinal tract involvement",
+      "B": "Seizure",
+      "C": "Posterior column involvement",
+      "D": "Optic atrophy"
+    },
+    "answer": "B",
+    "explanation": "Seizures are not a typical feature of B12 deficiency. Subacute combined degeneration affects corticospinal tract, posterior column, and rarely optic atrophy."
+  },
+  {
+    "id": 38,
+    "question": "In progressive phase of shock:",
+    "options": {
+      "A": "Survival is not possible",
+      "B": "Complete renal shutdown",
+      "C": "Metabolic alkalosis",
+      "D": "There is wide spread tissue hypoxia"
+    },
+    "answer": "D",
+    "explanation": "Progressive shock is characterized by worsening tissue hypoxia, lactic acidosis, and organ dysfunction."
+  },
+  {
+    "id": 39,
+    "question": "Microcytic hypochromic anemia is found in:",
+    "options": {
+      "A": "Liver disease",
+      "B": "Infective endocarditis",
+      "C": "Thalassaemia",
+      "D": "Multiple myeloma"
+    },
+    "answer": "C",
+    "explanation": "Microcytic hypochromic anemia is typical of iron deficiency, thalassemia, and sideroblastic anemia."
+  },
+  {
+    "id": 40,
+    "question": "Rh incompatibility is:",
+    "options": {
+      "A": "Atopic",
+      "B": "Anaphylactic",
+      "C": "Cytotoxic",
+      "D": "Delayed hypersensitivity"
+    },
+    "answer": "C",
+    "explanation": "Rh incompatibility causes Type II hypersensitivity (cytotoxic)."
+  },
+  {
+    "id": 41,
+    "question": "Nephrotic syndrome includes?",
+    "options": {
+      "A": "Hematuria",
+      "B": "Hypertension",
+      "C": "Oliguria",
+      "D": "Overt proteinuria"
+    },
+    "answer": "D",
+    "explanation": "Nephrotic syndrome features: proteinuria (>3.5g/day), hypoalbuminemia, edema, hyperlipidemia."
+  },
+  {
+    "id": 42,
+    "question": "Extracellular matrix is more in:",
+    "options": {
+      "A": "Nervous tissue",
+      "B": "Epithelial tissue",
+      "C": "Muscular tissue",
+      "D": "Connective tissue"
+    },
+    "answer": "D",
+    "explanation": "Connective tissue is characterized by abundant extracellular matrix."
+  },
+  {
+    "id": 43,
+    "question": "Heparin is:",
+    "options": {
+      "A": "A natural anticoagulant",
+      "B": "An enzyme",
+      "C": "Secreted by goblet cell",
+      "D": "Found in the bone marrow"
+    },
+    "answer": "A",
+    "explanation": "Heparin is a natural anticoagulant produced by mast cells and basophils."
+  },
+  {
+    "id": 44,
+    "question": "Which of the following condition is not precancerous?",
+    "options": {
+      "A": "Solar keratosis of skin",
+      "B": "Ulcerative colitis",
+      "C": "Cervical dysplasia",
+      "D": "Glycogen storage disease"
+    },
+    "answer": "D",
+    "explanation": "Glycogen storage disease is not typically precancerous. Solar keratosis, ulcerative colitis, and cervical dysplasia are premalignant."
+  },
+  {
+    "id": 45,
+    "question": "Mycobacterium leprae has special predilection for-",
+    "options": {
+      "A": "Epithelium",
+      "B": "Lymphatics",
+      "C": "Schwann cells",
+      "D": "Dorsal root ganglion"
+    },
+    "answer": "C",
+    "explanation": "M. leprae has a predilection for Schwann cells (nerve damage) and skin macrophages."
+  },
+  {
+    "id": 46,
+    "question": "Autonomic ganglion are:",
+    "options": {
+      "A": "Adrenergic",
+      "B": "Noradrenergic",
+      "C": "Cholinergic",
+      "D": "Dopaminergic"
+    },
+    "answer": "C",
+    "explanation": "All autonomic ganglia are cholinergic because the preganglionic fiber releases ACh."
+  },
+  {
+    "id": 47,
+    "question": "Basal cell carcinoma includes:",
+    "options": {
+      "A": "No metastasis",
+      "B": "Typically at the non sun exposure",
+      "C": "Mutation of RB gene occur",
+      "D": "Early lesions of pale"
+    },
+    "answer": "A",
+    "explanation": "BCC is locally invasive but rarely metastasizes (<0.1%)."
+  },
+  {
+    "id": 48,
+    "question": "At which of the following phase of cardiac cycle does the atrioventricular valve open?",
+    "options": {
+      "A": "During atrial filling",
+      "B": "During isovolumetric contraction",
+      "C": "During isovolumetric relaxation",
+      "D": "During ventricular filling"
+    },
+    "answer": "D",
+    "explanation": "AV valves open during ventricular filling (early diastole) when ventricular pressure falls below atrial pressure."
+  },
+  {
+    "id": 49,
+    "question": "Causes of bilateral leg swelling does not always include:",
+    "options": {
+      "A": "Hypoproteinemia",
+      "B": "Heart failure",
+      "C": "Kidney failure",
+      "D": "Deep vein Thrombosis"
+    },
+    "answer": "D",
+    "explanation": "DVT is usually unilateral. Bilateral leg swelling is seen in systemic causes."
+  },
+  {
+    "id": 50,
+    "question": "Which of the following types of shock is caused by failure of the heart to pump effectively?",
+    "options": {
+      "A": "Septic shock",
+      "B": "Cardiogenic shock",
+      "C": "Hypovolemic shock",
+      "D": "Anaphylactic shock"
+    },
+    "answer": "B",
+    "explanation": "Cardiogenic shock is due to primary pump failure (e.g., MI, cardiomyopathy)."
+  }
+]

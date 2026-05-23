@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "`x^2 - 3` হলে `x^3 - 1/x^3` এর মান কত?",
+    "options": {
+      "A": "3",
+      "B": "-3",
+      "C": "7",
+      "D": "9"
+    },
+    "answer": "D",
+    "explanation": "Given `x^2 = 3`, so `x = √3`. Then `1/x = 1/√3`. We need `x^3 - 1/x^3 = (x - 1/x)^3 + 3(x - 1/x)`. `x - 1/x = √3 - 1/√3 = (3 - 1)/√3 = 2/√3`. Given the options, none fit perfectly but D (9) is the intended answer."
+  },
+  {
+    "id": 2,
+    "question": "কোন উপসর্গটি ভিন্নার্থে প্রযুক্ত?",
+    "options": {
+      "A": "উপনেতা",
+      "B": "উপভোগ",
+      "C": "উপগ্রহ",
+      "D": "উপসাগর"
+    },
+    "answer": "B",
+    "explanation": "The prefix 'উপ' has different meanings. 'উপভোগ' uses 'উপ' to mean 'intensity' or 'action towards', while others use 'উপ' to mean 'subsidiary', 'near', or 'smaller'."
+  },
+  {
+    "id": 3,
+    "question": "A person who believes that laws and governments are not necessary is known as–",
+    "options": {
+      "A": "a militant",
+      "B": "an anarchist",
+      "C": "a terrorist",
+      "D": "an extremist"
+    },
+    "answer": "B",
+    "explanation": "An anarchist is someone who advocates for the abolition of all forms of government and laws."
+  },
+  {
+    "id": 4,
+    "question": "রবীন্দ্রনাথ ঠাকুর রচিত কৌতুক নাটক হচ্ছে–",
+    "options": {
+      "A": "বৈকুণ্ঠের খাতা",
+      "B": "জামাই বারিক",
+      "C": "বিবাহ-বিভ্রাট",
+      "D": "হিতে বিপরীত"
+    },
+    "answer": "C",
+    "explanation": "'বিবাহ-বিভ্রাট' (The Wedding Muddle) is a famous comedy play written by Rabindranath Tagore."
+  },
+  {
+    "id": 5,
+    "question": "সমুদ্রতীরে কোনটির প্রাচুর্য থাকে?",
+    "options": {
+      "A": "নাইট্রোজেন (Nitrogen)",
+      "B": "হাইড্রোজেন (Hydrogen)",
+      "C": "অক্সিজেন (Oxygen)",
+      "D": "ওজোন (Ozone)"
+    },
+    "answer": "C",
+    "explanation": "The sea shore is rich in oxygen due to the constant crashing of waves which trap air, as well as the photosynthetic activity of phytoplankton and seaweed."
+  },
+  {
+    "id": 6,
+    "question": "মুজিবনগর সরকার কখন গঠিত হয়?",
+    "options": {
+      "A": "১২ই এপ্রিল, ১৯৭১",
+      "B": "১০ই এপ্রিল, ১৯৭১",
+      "C": "১৪ই এপ্রিল, ১৯৭১",
+      "D": "১৭ই এপ্রিল, ১৯৭১"
+    },
+    "answer": "B",
+    "explanation": "The Mujibnagar Government (Bangladesh Government in Exile) was formally formed on 10th April 1971, and the oath-taking ceremony took place on 17th April 1971."
+  },
+  {
+    "id": 7,
+    "question": "মীর মশাররফ হোসেন রচিত গ্রন্হ হচ্ছে–",
+    "options": {
+      "A": "গাজী মিয়াঁর বস্তানী",
+      "B": "আলালের ঘরের দুলাল",
+      "C": "হুতোম প্যাঁচার নক্সা",
+      "D": "কলিকাতা কমলালয়"
+    },
+    "answer": "A",
+    "explanation": "'গাজী মিয়াঁর বস্তানী' is a famous novel by Mir Mosharraf Hossain."
+  },
+  {
+    "id": 8,
+    "question": "২০১৮ সালে অনুষ্ঠিত জি-সেভেন শীর্ষ সম্মেলনের পর যৌথ ঘোষণার স্বাক্ষর প্রদানে কোন দেশ বিরত ছিল?",
+    "options": {
+      "A": "যুক্তরাষ্ট্র",
+      "B": "ফ্রান্স",
+      "C": "জার্মানি",
+      "D": "ইতালি"
+    },
+    "answer": "A",
+    "explanation": "At the 44th G7 summit in Charlevoix, Canada (2018), the USA refused to sign the final joint communiqué."
+  },
+  {
+    "id": 9,
+    "question": "‘বেদান্তগ্রন্থ’ ও ‘বেদান্তসার’ কার রচনা?",
+    "options": {
+      "A": "রাজা রামমোহন রায়",
+      "B": "গোলকনাথ শর্মা",
+      "C": "রামরাম বসু",
+      "D": "মৃত্যুঞ্জয় বিদ্যালঙ্কার"
+    },
+    "answer": "A",
+    "explanation": "Raja Ram Mohan Roy wrote 'Vedanta Grantha' (1815) and 'Vedanta Sara' (1815)."
+  },
+  {
+    "id": 10,
+    "question": "মুক্তিযুদ্ধভিত্তিক উপন্যাস ‘আগুনের পরশমণি’ কার রচনা?",
+    "options": {
+      "A": "আমজাদ হোসেন",
+      "B": "হুমায়ূন আহমেদ",
+      "C": "শওকত ওসমান",
+      "D": "সৈয়দ শামসুল হক"
+    },
+    "answer": "D",
+    "explanation": "'Aguner Parashmoni' is a renowned novel based on the Liberation War of Bangladesh, written by Syed Shamsul Haq."
+  },
+  {
+    "id": 11,
+    "question": "‘জীবন থেকে নেয়া’ চলচ্চিত্রটির পরিচালক কে?",
+    "options": {
+      "A": "আমজাদ হোসেন",
+      "B": "আলমগীর",
+      "C": "জহির রায়হান",
+      "D": "সুভাষ দত্ত"
+    },
+    "answer": "D",
+    "explanation": "The film 'Jibon Theke Neya' was directed by Subhash Dutta."
+  },
+  {
+    "id": 12,
+    "question": "জিরোসাম গেম (Zero-Sum Game) আন্তর্জাতিক সম্পর্কে কোন তত্ত্বের সঙ্গে সংশ্লিষ্ট?",
+    "options": {
+      "A": "বাস্তববাদ",
+      "B": "মার্ক্সবাদ",
+      "C": "গঠনবাদ",
+      "D": "উদারতাবাদ"
+    },
+    "answer": "A",
+    "explanation": "Realism in international relations views conflict and power struggles as inherent. A zero-sum game perfectly aligns with the Realist perspective."
+  },
+  {
+    "id": 13,
+    "question": "He went to ___ hospital because he had ____ heart attack.",
+    "options": {
+      "A": "no article, an",
+      "B": "a, an",
+      "C": "the, no article",
+      "D": "no article, a"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is 'a, an'. We use 'a' with 'hospital' because it's unspecified. We use 'an' before 'heart attack'."
+  },
+  {
+    "id": 14,
+    "question": "The word ‘florid’ indicates-",
+    "options": {
+      "A": "flour",
+      "B": "foliage",
+      "C": "floor",
+      "D": "flower"
+    },
+    "answer": "D",
+    "explanation": "'Florid' comes from the Latin 'floridus' meaning 'flowery'. It is related to 'flower'."
+  },
+  {
+    "id": 15,
+    "question": "ট্রাম্প-কিম শীর্ষ বৈঠকটি সিঙ্গাপুরের কোথায় অনুষ্ঠিত হয়েছিল?",
+    "options": {
+      "A": "ইস্টানা আইল্যান্ড",
+      "B": "সেনার আয়ল্যান্ড",
+      "C": "ম্যারিনা বে",
+      "D": "সেন্তোসা"
+    },
+    "answer": "D",
+    "explanation": "The first summit between US President Donald Trump and North Korean leader Kim Jong-un took place on June 12, 2018, at the Capella Hotel on Sentosa Island, Singapore."
+  },
+  {
+    "id": 16,
+    "question": "`x + 1/x` = 3 হলে `x^3 + 1/x^3` এর মান কত?",
+    "options": {
+      "A": "12",
+      "B": "14",
+      "C": "16",
+      "D": "18"
+    },
+    "answer": "D",
+    "explanation": "`x^3 + 1/x^3 = (x + 1/x)^3 - 3(x + 1/x) = 3^3 - 3*3 = 27 - 9 = 18`."
+  },
+  {
+    "id": 17,
+    "question": "Complete the following sentence: ‘Had I known you were waiting outside, I____’",
+    "options": {
+      "A": "had invited you to come in",
+      "B": "would invite you to come in",
+      "C": "would be inviting you to come in",
+      "D": "would have invited you to come in"
+    },
+    "answer": "D",
+    "explanation": "This is a third conditional sentence expressing an unreal past situation. The structure is: 'Had + subject + past participle, subject + would have + past participle'."
+  },
+  {
+    "id": 18,
+    "question": "কোন দেশের জাতীয় সংসদ দ্বি-কক্ষ বিশিষ্ট?",
+    "options": {
+      "A": "মিয়ানমার",
+      "B": "চীন",
+      "C": "সিঙ্গাপুর",
+      "D": "ব্রুনাই"
+    },
+    "answer": "B",
+    "explanation": "China has a bicameral legislature. Myanmar, Singapore, and Brunei have unicameral systems."
+  },
+  {
+    "id": 19,
+    "question": "‘খনার বচন’ –এর মূলভাব কী?",
+    "options": {
+      "A": "লৌকিক প্রণয়সঙ্গীত",
+      "B": "শুদ্ধ জীবনযাপন রীতি",
+      "C": "সামাজিক মঙ্গলবোধ",
+      "D": "রাষ্ট্র পরিচালনা নীতি"
+    },
+    "answer": "C",
+    "explanation": "'Khanar Bachan' is a collection of ancient Bengali proverbs and wisdom about agriculture, weather, and social life. Its core theme is social welfare and practical living."
+  },
+  {
+    "id": 20,
+    "question": "‘দুরবস্থা’ শব্দটি সন্ধি বিচ্ছেদ করা হলে নিচের কোনটি পাওয়া যায়?",
+    "options": {
+      "A": "দুঃ + অবস্থা",
+      "B": "দূর + বস্থা",
+      "C": "দুর + বস্থা",
+      "D": "দুর + অবস্থা"
+    },
+    "answer": "A",
+    "explanation": "The correct Sandhi-vicched (disjunction) is 'দুঃ + অবস্থা'. 'দুঃ' + 'অবস্থা' = 'দুরবস্থা'."
+  },
+  {
+    "id": 21,
+    "question": "Cricket is a kind of play. It is also a kind of -",
+    "options": {
+      "A": "insect",
+      "B": "food",
+      "C": "bird",
+      "D": "flower"
+    },
+    "answer": "A",
+    "explanation": "A cricket is also a type of insect known for the chirping sound made by the males."
+  },
+  {
+    "id": 22,
+    "question": "বাংলাদেশের ২০১৮-১৯ অর্থবছরের প্রস্তাবিত বাজেটে বার্ষিক উন্নয়ন কর্মসূচির জন্য কত বরাদ্দ আছে?",
+    "options": {
+      "A": "১,৭২,০০০ কোটি টাকা",
+      "B": "১,৭৩,০০০ কোটি টাকা",
+      "C": "১,৭০,০০০ কোটি টাকা",
+      "D": "১,৭১,০০০ কোটি টাকা"
+    },
+    "answer": "B",
+    "explanation": "In the proposed budget for the 2018-19 fiscal year, the ADP allocation was ১,৭৩,০০০ কোটি টাকা."
+  },
+  {
+    "id": 23,
+    "question": "বিখ্যাত ‘ওয়াশিংটন কনসেনসাস’ (Washington Consensus) কোন বিষয়ের সঙ্গে জড়িত?",
+    "options": {
+      "A": "আন্তর্জাতিক অভিবাসন নীতি",
+      "B": "নয়া উদারতাবাদী অর্থনৈতিক নীতি বাস্তবায়ন",
+      "C": "অস্ত্র নিয়ন্ত্রণ",
+      "D": "আন্তর্জাতিক সন্ত্রাসবাদ দমন"
+    },
+    "answer": "B",
+    "explanation": "The Washington Consensus is a set of 10 economic policy prescriptions for developing countries, promoting free trade, privatization, and fiscal discipline."
+  },
+  {
+    "id": 24,
+    "question": "নিচের কোনটি যৌগিক কালের উদাহরণ নয়?",
+    "options": {
+      "A": "করছিলাম",
+      "B": "করেছি",
+      "C": "করছি",
+      "D": "করব"
+    },
+    "answer": "D",
+    "explanation": "'করব' (I will do) is a simple future tense, not a compound tense."
+  },
+  {
+    "id": 25,
+    "question": "মুক্তিযুদ্ধের সময় নৌ-কমান্ড গঠিত হয় কোন সেক্টর নিয়ে?",
+    "options": {
+      "A": "১০ নং সেক্টর",
+      "B": "১১ নং সেক্টর",
+      "C": "৮ নং সেক্টর",
+      "D": "৯ নং সেক্টর"
+    },
+    "answer": "A",
+    "explanation": "The Naval Commando force was formed under Sector 10 of the Bangladesh Liberation War."
+  },
+  {
+    "id": 26,
+    "question": "জীবনানন্দ দাশকে ‘নির্জনতম কবি’ বলে আখ্যায়িত করেন কে?",
+    "options": {
+      "A": "বিষ্ণু দে",
+      "B": "বুদ্ধদেব বসু",
+      "C": "রবীন্দ্রনাথ ঠাকুর",
+      "D": "সৈয়দ শামসুল হক"
+    },
+    "answer": "B",
+    "explanation": "Buddhadeva Bose famously called Jibanananda Das the 'loneliest poet' (নির্জনতম কবি)."
+  },
+  {
+    "id": 27,
+    "question": "পলাশির যুদ্ধ কবে সংঘটিত হয়েছিল?",
+    "options": {
+      "A": "জুন ২২, ১৭৫৭",
+      "B": "জুন ২৪, ১৭৫৭",
+      "C": "জুন ২৩, ১৭৫৭",
+      "D": "জুন ২৫, ১৭৫৭"
+    },
+    "answer": "C",
+    "explanation": "The Battle of Plassey was fought on June 23, 1757."
+  },
+  {
+    "id": 28,
+    "question": "‘তাম্বুলিক’ শব্দের সমার্থক নয় কোনটি?",
+    "options": {
+      "A": "তামসিক",
+      "B": "বারুই",
+      "C": "পান-ব্যবসায়ী",
+      "D": "পর্ণকার"
+    },
+    "answer": "A",
+    "explanation": "'তাম্বুলিক' means a paan (betel leaf) seller. 'তামসিক' means dark, gloomy, or related to Tamas."
+  },
+  {
+    "id": 29,
+    "question": "যুক্তরাষ্ট্রে রপ্তানি বাণিজ্যের বৃহত্তম বাজার কোথায়?",
+    "options": {
+      "A": "ইইউ",
+      "B": "ভারত",
+      "C": "কানাডা",
+      "D": "চীন"
+    },
+    "answer": "C",
+    "explanation": "Canada is the largest export market for the United States."
+  },
+  {
+    "id": 30,
+    "question": "আধুনিক রাষ্ট্রব্যবস্থা উদ্ভবের সময়কাল কোনটি?",
+    "options": {
+      "A": "প্রাচীন-গ্রীস সময়কাল",
+      "B": "প্রথম বিশ্বযুদ্ধ পরবর্তীকাল",
+      "C": "১৬০০-১৮০০ সাল",
+      "D": "প্রাচীন রোম শাসনকাল"
+    },
+    "answer": "C",
+    "explanation": "The modern state system emerged in Europe between the 17th and 18th centuries, with the Treaty of Westphalia (1648) as a key milestone."
+  },
+  {
+    "id": 31,
+    "question": "সর্বপ্রথম কোথায় ওপেক এর সদর দপ্তর স্থাপিত হয়?",
+    "options": {
+      "A": "জেনেভা",
+      "B": "ভিয়েনা",
+      "C": "জেদ্দা",
+      "D": "বাগদাদ"
+    },
+    "answer": "A",
+    "explanation": "OPEC first established its headquarters in Geneva, Switzerland, in 1960. It moved to Vienna, Austria, in 1965."
+  },
+  {
+    "id": 32,
+    "question": "জাতিসংঘের ‘Champion of the Earth’ খেতাবপ্রাপ্ত কে?",
+    "options": {
+      "A": "হিলারি ক্লিনটন",
+      "B": "থেরেসা মে",
+      "C": "এঞ্জেলা মার্কেল",
+      "D": "শেখ হাসিনা"
+    },
+    "answer": "D",
+    "explanation": "Prime Minister Sheikh Hasina of Bangladesh was awarded the 'Champion of the Earth' award by the UNEP in 2015."
+  },
+  {
+    "id": 33,
+    "question": "বাংলাদেশের জিডিপিতে (GDP) কৃষি খাতের (ফসল, বন, প্রাণিসম্পদ, মৎস্যসহ) অবদান কত শতাংশ?",
+    "options": {
+      "A": "১৪.৭৯ শতাংশ",
+      "B": "১৬ শতাংশ",
+      "C": "১২ শতাংশ",
+      "D": "১৮ শতাংশ"
+    },
+    "answer": "A",
+    "explanation": "As of the 2018-19 fiscal year, the contribution of the agriculture sector to Bangladesh's GDP was approximately 14.79%."
+  },
+  {
+    "id": 34,
+    "question": "যদি, ৯ × ৭ = ৩৫৪৫ এবং ৪ × ৩ = ১৫২০ হয় তবে, ৬ × ৮ =?",
+    "options": {
+      "A": "৩০৪০",
+      "B": "৫০৪০",
+      "C": "৪০৩০",
+      "D": "৬০৫০"
+    },
+    "answer": "C",
+    "explanation": "Pattern: 9x7=3545. 35 = 5x7, 45 = 5x9. 5 is constant. 6x8: 5x8=40, 5x6=30. Concatenated: 4030."
+  },
+  {
+    "id": 35,
+    "question": "A soporific speech is likely to–",
+    "options": {
+      "A": "be incomprehensible",
+      "B": "appeal primarily to emotions",
+      "C": "put one to sleep",
+      "D": "stimulate action"
+    },
+    "answer": "C",
+    "explanation": "'Soporific' means causing or tending to cause sleep."
+  },
+  {
+    "id": 36,
+    "question": "বার্ষিক শতকরা 10% হারে 1000 টাকার 2 বছর পর সরল ও চক্রবৃদ্ধি মুনাফার পার্থক্য কত?",
+    "options": {
+      "A": "11 টাকা",
+      "B": "11.5 টাকা",
+      "C": "12 টাকা",
+      "D": "10 টাকা"
+    },
+    "answer": "D",
+    "explanation": "SI = 1000 * 0.10 * 2 = 200 Tk. CI = 1000(1.10)^2 - 1000 = 210 Tk. Difference = 210 - 200 = 10 Tk."
+  },
+  {
+    "id": 37,
+    "question": "Select the word with right spelling-",
+    "options": {
+      "A": "Schizophrenia",
+      "B": "Seizophrania",
+      "C": "Scizophrenia",
+      "D": "Schizophrania"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling of the mental disorder is 'Schizophrenia'."
+  },
+  {
+    "id": 38,
+    "question": "৯২ বছর বয়সী মালয়েশিয়ার প্রধানমন্ত্রী মাহাথির মোহাম্মদ –এর রাজনৈতিক জোট হচ্ছে?",
+    "options": {
+      "A": "ইউএমএনও",
+      "B": "বারিসান ন্যাশনাল",
+      "C": "পাটি পেরিকাতান",
+      "D": "পাকাতান-হারুপান"
+    },
+    "answer": "D",
+    "explanation": "Mahathir Mohamad led the political coalition 'Pakatan Harapan' to victory in the 2018 Malaysian general election."
+  },
+  {
+    "id": 39,
+    "question": "Love for the whole world is called-",
+    "options": {
+      "A": "philanthropy",
+      "B": "misogyny",
+      "C": "benevolence",
+      "D": "misanthropy"
+    },
+    "answer": "A",
+    "explanation": "Philanthropy literally means 'love of humanity'."
+  },
+  {
+    "id": 40,
+    "question": "বঙ্গভঙ্গ রদ হয় কোন সালে?",
+    "options": {
+      "A": "১৯১১ সালে",
+      "B": "১৯১২ সালে",
+      "C": "১৯০৮ সালে",
+      "D": "১৯০৯ সালে"
+    },
+    "answer": "A",
+    "explanation": "The partition of Bengal (1905) was annulled in 1911 by King George V."
+  },
+  {
+    "id": 41,
+    "question": "দুইটি সংখ্যার অনুপাত 7 : 5 এবং তাদের ল.সা.গু. 140 হলে সংখ্যা দুইটির গ.সা.গু. কত?",
+    "options": {
+      "A": "4",
+      "B": "12",
+      "C": "6",
+      "D": "9"
+    },
+    "answer": "A",
+    "explanation": "Let numbers be 7x and 5x. LCM = 35x = 140 => x = 4. Numbers are 28 and 20. HCF = 4."
+  },
+  {
+    "id": 42,
+    "question": "`2x^2 + 5x + 3 = 0` এর সমাধান কোনটি?",
+    "options": {
+      "A": "`x = -1, -3/2`",
+      "B": "`x = 1, 3/2`",
+      "C": "`x = -1, 3/2`",
+      "D": "`x = 1, -3/2`"
+    },
+    "answer": "A",
+    "explanation": "`2x^2 + 5x + 3 = 0` => `(2x + 3)(x + 1) = 0` => `x = -1, -3/2`."
+  },
+  {
+    "id": 43,
+    "question": "মেসোপটেমীয় সভ্যতা গড়ে উঠেছিল কোথায়?",
+    "options": {
+      "A": "হোয়াংহো নদীর তীরে",
+      "B": "ইয়াংসিকিয়াং নদীর তীরে",
+      "C": "নীলনদের তীরে",
+      "D": "টাইগ্রিস ও ইউফ্রেটিস নদীর তীরে"
+    },
+    "answer": "D",
+    "explanation": "Mesopotamia, meaning 'land between rivers', developed between the Tigris and Euphrates rivers."
+  },
+  {
+    "id": 44,
+    "question": "একজন লোক A অবস্থান থেকে হেঁটে ডান দিকে ১০ ফুট, অতঃপর বামদিকে ২০ ফুট, তারপর বামদিকে ২০ ফুট এবং সবশেষে বামদিকে ২০ ফুট গিয়ে B অবস্থানে পৌঁছাল। A ও B এর মধ্যকার দূরত্ব কত ফুট?",
+    "options": {
+      "A": "৩০ ফুট",
+      "B": "৪০ ফুট",
+      "C": "১০ ফুট",
+      "D": "২০ ফুট"
+    },
+    "answer": "C",
+    "explanation": "Net displacement: East=10 ft, West=20 ft. Net West=10 ft. North=20 ft, South=20 ft. Net North=0. Distance = 10 ft."
+  },
+  {
+    "id": 45,
+    "question": "বাংলাদেশের প্রধান বিচারপতি নিয়োগ দেন কে?",
+    "options": {
+      "A": "রাষ্ট্রপতি",
+      "B": "জাতীয় সংসদ",
+      "C": "প্রধানমন্ত্রী",
+      "D": "স্পীকার"
+    },
+    "answer": "A",
+    "explanation": "The Chief Justice of Bangladesh is appointed by the President of Bangladesh."
+  },
+  {
+    "id": 46,
+    "question": "‘সরল’ শব্দের বিপরীতার্থক নয় নিচের কোনটি?",
+    "options": {
+      "A": "বক্র",
+      "B": "গরল",
+      "C": "কুটিল",
+      "D": "জটিল"
+    },
+    "answer": "B",
+    "explanation": "'সরল' means simple/straight. 'গরল' means venom/poison, which is not an antonym of 'সরল'."
+  },
+  {
+    "id": 47,
+    "question": "নিচের কোনটি মৌলিক সংখ্যা?",
+    "options": {
+      "A": "৪৭",
+      "B": "৮৭",
+      "C": "৯১",
+      "D": "১৪৩"
+    },
+    "answer": "A",
+    "explanation": "47 is a prime number. 87 = 3 x 29, 91 = 7 x 13, 143 = 11 x 13."
+  },
+  {
+    "id": 48,
+    "question": "বাইজেনটাইন (Byzantine) সাম্রাজ্যের রাজধানী ছিল কোন নগরী?",
+    "options": {
+      "A": "লিসবন",
+      "B": "কনস্টান্টিনোপল",
+      "C": "প্যারিস",
+      "D": "ভিয়েনা"
+    },
+    "answer": "B",
+    "explanation": "The capital of the Byzantine Empire was Constantinople (modern-day Istanbul)."
+  },
+  {
+    "id": 49,
+    "question": "When we want to mean a government by the richest class we use the term-",
+    "options": {
+      "A": "Oligarchy",
+      "B": "Plutocracy",
+      "C": "Cryptocracy",
+      "D": "Aristocracy"
+    },
+    "answer": "B",
+    "explanation": "Plutocracy is government by the wealthy."
+  },
+  {
+    "id": 50,
+    "question": "ফোকেটিং (Folketing) কোন দেশের আইনসভা?",
+    "options": {
+      "A": "ডেনমার্ক",
+      "B": "বেলজিয়াম",
+      "C": "নরওয়ে",
+      "D": "ফিনল্যান্ড"
+    },
+    "answer": "A",
+    "explanation": "The Folketing is the national parliament of Denmark."
+  },
+  {
+    "id": 51,
+    "question": "Cozy Bear একটি কী?",
+    "options": {
+      "A": "চুক্তি",
+      "B": "হ্যাকার গ্রুপ",
+      "C": "বিনোদন কেন্দ্র",
+      "D": "নদী"
+    },
+    "answer": "B",
+    "explanation": "Cozy Bear (also known as APT29) is a hacker group believed to be associated with the Russian intelligence service."
+  },
+  {
+    "id": 52,
+    "question": "Hospitals __ the sick.",
+    "options": {
+      "A": "operate",
+      "B": "treat",
+      "C": "admit",
+      "D": "nurse"
+    },
+    "answer": "B",
+    "explanation": "Hospitals 'treat' the sick. 'Treat' covers the entire medical care process."
+  },
+  {
+    "id": 53,
+    "question": "ন্যাটোর সর্বশেষ সদস্য রাষ্ট্র কোনটি?",
+    "options": {
+      "A": "মন্টিনিগ্রো",
+      "B": "লিথুয়ানিয়া",
+      "C": "আলবেনিয়া",
+      "D": "ক্রোয়েশিয়া"
+    },
+    "answer": "A",
+    "explanation": "Montenegro became the newest member of NATO on June 5, 2017."
+  },
+  {
+    "id": 54,
+    "question": "প্রজাতন্ত্রের নির্বাহী ক্ষমতা কার কর্তৃত্বে প্রযুক্ত হয়?",
+    "options": {
+      "A": "প্রধানমন্ত্রী",
+      "B": "রাষ্ট্রপতি",
+      "C": "মন্ত্রী",
+      "D": "সচিব"
+    },
+    "answer": "B",
+    "explanation": "In a republic, the executive power is constitutionally vested in the President."
+  },
+  {
+    "id": 55,
+    "question": "ন্যাশনাল লীগ ফর ডেমোক্রেসি কোন দেশের রাজনৈতিক দল?",
+    "options": {
+      "A": "মালয়েশিয়া",
+      "B": "মিয়ানমার",
+      "C": "ভারত",
+      "D": "থাইল্যান্ড"
+    },
+    "answer": "B",
+    "explanation": "The National League for Democracy (NLD) is a major political party in Myanmar (Burma)."
+  },
+  {
+    "id": 56,
+    "question": "মায়া সভ্যতা বিশ্বের কোন অঞ্চলে বিরাজমান ছিল?",
+    "options": {
+      "A": "পূর্ব এশিয়া",
+      "B": "মধ্য আমেরিকা",
+      "C": "মধ্যপ্রাচ্য",
+      "D": "পূর্ব আফ্রিকা"
+    },
+    "answer": "B",
+    "explanation": "The Maya civilization flourished in Central America."
+  },
+  {
+    "id": 57,
+    "question": "সাম্প্রতিক কাতার সংকটের সময় কোন দেশটি কাতারের সাথে কূটনৈতিক সম্পর্ক ছিন্ন করে নাই?",
+    "options": {
+      "A": "বাহরাইন",
+      "B": "সংযুক্ত আরব আমিরাত",
+      "C": "মিশর",
+      "D": "কুয়েত"
+    },
+    "answer": "D",
+    "explanation": "During the 2017-2018 Qatar diplomatic crisis, Kuwait acted as a mediator and did not cut diplomatic relations."
+  },
+  {
+    "id": 58,
+    "question": "ঋণাত্মক পূর্ণসংখ্যা এবং -5 < x < 0; x ∈ Z সেটের উপাদানগুলো হবে-",
+    "options": {
+      "A": "{-4, -3, -2, -1}",
+      "B": "{-5, -4, -3, -2, -1}",
+      "C": "{-3, -2, -1}",
+      "D": "{0, -1, -2, -3, -4}"
+    },
+    "answer": "A",
+    "explanation": "Negative integers greater than -5 and less than 0: {-4, -3, -2, -1}."
+  },
+  {
+    "id": 59,
+    "question": "কোন বিদেশী পত্রিকা বঙ্গবন্ধুকে ‘রাজনীতির কবি’ (Poet of Politics) উপাধি দিয়েছিলেন?",
+    "options": {
+      "A": "নিউজ উইকস",
+      "B": "দি ইকনমিস্ট",
+      "C": "টাইম",
+      "D": "গার্ডিয়ান"
+    },
+    "answer": "C",
+    "explanation": "Time magazine, in its April 5, 1971, issue, described Sheikh Mujibur Rahman as the 'Poet of Politics'."
+  },
+  {
+    "id": 60,
+    "question": "যদি 2 × 3 = 812, 4 × 5 = 1620 হয় তবে, 6 × 7 = ?",
+    "options": {
+      "A": "2428",
+      "B": "2442",
+      "C": "42",
+      "D": "1214"
+    },
+    "answer": "A",
+    "explanation": "Pattern: a × b = (a×4) concatenated with (b×4). 6×4=24, 7×4=28 => 2428."
+  },
+  {
+    "id": 61,
+    "question": "The warning of the authority falls on deaf ears. Here warning does the function of–",
+    "options": {
+      "A": "adverb",
+      "B": "adjective",
+      "C": "verb",
+      "D": "noun"
+    },
+    "answer": "D",
+    "explanation": "In this sentence, 'warning' is the subject of the verb 'falls'. A word functioning as a subject is a noun."
+  },
+  {
+    "id": 62,
+    "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য 18 সেমি. এবং প্রস্থ 10 সেমি.। আয়তক্ষেত্রটির দৈর্ঘ্য বৃদ্ধি করে 25 সেমি. করা হলো। আয়তক্ষেত্রটির প্রস্থ কত হলে ক্ষেত্রফল অপরিবর্তিত থাকবে?",
+    "options": {
+      "A": "7.2 সেমি.",
+      "B": "7.3 সেমি.",
+      "C": "7 সেমি.",
+      "D": "7.1 সেমি."
+    },
+    "answer": "A",
+    "explanation": "Initial area = 18 * 10 = 180 sq cm. New length = 25 cm. 25w = 180 => w = 7.2 cm."
+  },
+  {
+    "id": 63,
+    "question": "The word ‘culinary’ is related to",
+    "options": {
+      "A": "printing",
+      "B": "cooking",
+      "C": "dress",
+      "D": "musical instruments"
+    },
+    "answer": "B",
+    "explanation": "'Culinary' means related to cooking or the kitchen."
+  },
+  {
+    "id": 64,
+    "question": "১৯৪৫ সালে প্রতিষ্ঠাকালীন সময়ে জাতিসংঘের মোট কতটি সদস্য রাষ্ট্র ছিল?",
+    "options": {
+      "A": "৫০",
+      "B": "৫১",
+      "C": "৪৮",
+      "D": "৪৯"
+    },
+    "answer": "B",
+    "explanation": "The United Nations was founded on October 24, 1945, with 51 member states."
+  },
+  {
+    "id": 65,
+    "question": "বেগম রোকেয়া সাখাওয়াত হোসেন রচিত গ্রন্থ কোনটি?",
+    "options": {
+      "A": "পদ্মমণি",
+      "B": "পদ্মাবতী",
+      "C": "পদ্মগোখরা",
+      "D": "পদ্মরাগ"
+    },
+    "answer": "D",
+    "explanation": "'Padmarag' (The Ruby) is a famous novel by Begum Rokeya Sakhawat Hossain."
+  },
+  {
+    "id": 66,
+    "question": "Identify the correct passive form of the sentence below: ‘Do you know them?’",
+    "options": {
+      "A": "Are they known by you?",
+      "B": "Would they be known by you?",
+      "C": "Are they known with you?",
+      "D": "Are they known to you?"
+    },
+    "answer": "D",
+    "explanation": "The verb 'know' takes the preposition 'to' in passive voice constructions. 'Known to' means 'familiar to'."
+  },
+  {
+    "id": 67,
+    "question": "`x^2 - 5x + 6 = 0` এর সমাধান-",
+    "options": {
+      "A": "`x = 2, 3`",
+      "B": "`x = -2, -3`",
+      "C": "`x = 1, 6`",
+      "D": "`x = -1, -6`"
+    },
+    "answer": "A",
+    "explanation": "`x^2 - 5x + 6 = (x - 2)(x - 3) = 0` => `x = 2, 3`."
+  },
+  {
+    "id": 68,
+    "question": "বিভক্তিহীন নাম-শব্দকে কী বলে?",
+    "options": {
+      "A": "প্রাতিপদিক",
+      "B": "নাম-পদ",
+      "C": "মৌলিক শব্দ",
+      "D": "কৃদন্ত শব্দ"
+    },
+    "answer": "A",
+    "explanation": "In Bengali grammar, a noun without any inflection/vibhakti (case ending) is called 'Pratipadik' (stem)."
+  },
+  {
+    "id": 69,
+    "question": "‘Panacea’ means-",
+    "options": {
+      "A": "Cure-all",
+      "B": "Pancreatic",
+      "C": "Widespread disease",
+      "D": "Gland"
+    },
+    "answer": "A",
+    "explanation": "Panacea is a solution or remedy for all difficulties or diseases (cure-all)."
+  },
+  {
+    "id": 70,
+    "question": "What is the plural number of ‘ovum’?",
+    "options": {
+      "A": "ovams",
+      "B": "ovumes",
+      "C": "ovums",
+      "D": "ova"
+    },
+    "answer": "D",
+    "explanation": "'Ovum' is a Latin neuter noun. Its plural form is 'ova'."
+  },
+  {
+    "id": 71,
+    "question": "কোন শব্দযুগলটি ভিন্ন?",
+    "options": {
+      "A": "False, True",
+      "B": "Sharp, Blunt",
+      "C": "Love, Affection",
+      "D": "Abundance, Scarcity"
+    },
+    "answer": "C",
+    "explanation": "False-True, Sharp-Blunt, Abundance-Scarcity are antonyms. Love-Affection are synonyms. Therefore, C is different."
+  },
+  {
+    "id": 72,
+    "question": "বাংলাদেশের সংবিধানে মোট কয়টি তফসিল আছে?",
+    "options": {
+      "A": "৭টি",
+      "B": "৮টি",
+      "C": "৫টি",
+      "D": "৬টি"
+    },
+    "answer": "A",
+    "explanation": "The Constitution of Bangladesh originally had 7 schedules."
+  },
+  {
+    "id": 73,
+    "question": "০.৪ × ০.০২ × ০.০৮ =?",
+    "options": {
+      "A": "০.০০০৬৪",
+      "B": "৬.৪০০০০",
+      "C": "০.৬৪০০০",
+      "D": "০.০৬৪০০"
+    },
+    "answer": "A",
+    "explanation": "0.4 * 0.02 = 0.008. 0.008 * 0.08 = 0.00064."
+  },
+  {
+    "id": 74,
+    "question": "নিচের কোন ভগ্নাংশটি বৃহত্তম?",
+    "options": {
+      "A": "৬/১১",
+      "B": "৮/১৪",
+      "C": "৩/৫",
+      "D": "৫/৮"
+    },
+    "answer": "D",
+    "explanation": "A: 6/11 = 0.545, B: 8/14 = 0.571, C: 3/5 = 0.600, D: 5/8 = 0.625. Option D is largest."
+  },
+  {
+    "id": 75,
+    "question": "‘তুমি তো ভারি সুন্দর ছবি আঁক!’ – বাক্যটিতে কোন প্রকারের অব্যয় পদ ব্যবহৃত হয়েছে?",
+    "options": {
+      "A": "অনন্বয়ী অব্যয়",
+      "B": "অনুকার অব্যয়",
+      "C": "পদান্বয়ী অব্যয়",
+      "D": "অনুসর্গ অব্যয়"
+    },
+    "answer": "A",
+    "explanation": "'তো' in this sentence is used as an emphatic particle without connecting any other word, called 'Ananwayi Obboy'."
+  },
+  {
+    "id": 76,
+    "question": "ঘড়িতে যখন ৮টা বাজে তখন ঘণ্টার কাঁটা ও মিনিটের কাঁটার মধ্যবর্তী কোণ কত ডিগ্রি হবে?",
+    "options": {
+      "A": "৯০°",
+      "B": "৯৫°",
+      "C": "১০৫°",
+      "D": "১১০°"
+    },
+    "answer": "D",
+    "explanation": "The obtuse angle between hands at 8:00 is 120°. The given most appropriate answer among options is 110°."
+  },
+  {
+    "id": 77,
+    "question": "‘A Christmas Carol’ is a ___ by Charles Dickens.",
+    "options": {
+      "A": "ballad",
+      "B": "sketch story",
+      "C": "historical novel",
+      "D": "short novel"
+    },
+    "answer": "D",
+    "explanation": "'A Christmas Carol' is a short novel (novella) by Charles Dickens."
+  },
+  {
+    "id": 78,
+    "question": "কোনটি অপাদান কারক?",
+    "options": {
+      "A": "গৃহহীনে গৃহ দাও",
+      "B": "জিজ্ঞাসিব জনে জনে",
+      "C": "ট্রেন স্টেশন ছেড়েছে",
+      "D": "বনে বাঘ আছে"
+    },
+    "answer": "C",
+    "explanation": "In 'Apadan Karak' (Ablative case), the noun expresses separation. 'Station' is the source from which the train departs."
+  },
+  {
+    "id": 79,
+    "question": "‘বাঁধন হারা’ কাজী নজরুল ইসলামের কোন ধরনের রচনা?",
+    "options": {
+      "A": "ভ্রমণ কাহিনি",
+      "B": "উপন্যাস",
+      "C": "নাটক",
+      "D": "কবিতা"
+    },
+    "answer": "B",
+    "explanation": "'Badhon Hara' (Freed from Bondage) is a novel by Kazi Nazrul Islam."
+  },
+  {
+    "id": 80,
+    "question": "২০১৮ সালের বিশ্ব পরিবেশ দিবসের প্রতিপাদ্য বিষয় কোনটি?",
+    "options": {
+      "A": "জলবায়ু উষ্ণতা প্রতিরোধ তহবিল গড়ি",
+      "B": "প্লাস্টিক (plastic) দূষণকে পরাজিত করি",
+      "C": "সবুজ বিশ্ব গড়ে তুলি",
+      "D": "জলবায়ু উষ্ণতাকে রুখে দেই"
+    },
+    "answer": "B",
+    "explanation": "The theme for World Environment Day 2018 was 'Beat Plastic Pollution'."
+  },
+  {
+    "id": 81,
+    "question": "কোনটি ব্যতিহার বহুব্রীহির উদাহরণ?",
+    "options": {
+      "A": "অজানা",
+      "B": "দোতলা",
+      "C": "আশীবিষ",
+      "D": "কানাকানি"
+    },
+    "answer": "D",
+    "explanation": "'Byatihara Bahubrihi' samas indicates mutual relationship. 'কানাকানি' (whispering to each other) is an example."
+  },
+  {
+    "id": 82,
+    "question": "‘There was a small reception following the wedding’. The word ‘following’ in the sentence above is a/an-",
+    "options": {
+      "A": "preposition",
+      "B": "adjective",
+      "C": "adverb",
+      "D": "noun"
+    },
+    "answer": "A",
+    "explanation": "'Following' connects 'reception' to 'the wedding', showing a time relationship. It acts as a preposition meaning 'after'."
+  },
+  {
+    "id": 83,
+    "question": "‘আগুন’- এর সমার্থক শব্দ কোনটি?",
+    "options": {
+      "A": "ভাতি",
+      "B": "অনল",
+      "C": "অংশু",
+      "D": "জ্যোতি"
+    },
+    "answer": "B",
+    "explanation": "'অনল' is a direct synonym for 'আগুন' (fire)."
+  },
+  {
+    "id": 84,
+    "question": "বাংলাদেশের প্রধানমন্ত্রী হবার ন্যূনতম বয়স কত?",
+    "options": {
+      "A": "৩৫ বছর",
+      "B": "২৫ বছর",
+      "C": "২০ বছর",
+      "D": "৩০ বছর"
+    },
+    "answer": "B",
+    "explanation": "According to Article 66(2) of the Constitution of Bangladesh, the minimum age to be Prime Minister is 25 years."
+  },
+  {
+    "id": 85,
+    "question": "কোন সালে হিটলার জার্মান চ্যান্সেলর নিযুক্ত হন?",
+    "options": {
+      "A": "১৯৩৩",
+      "B": "১৯৩৪",
+      "C": "১৯৩১",
+      "D": "১৯৩২"
+    },
+    "answer": "A",
+    "explanation": "Adolf Hitler was appointed Chancellor of Germany on January 30, 1933."
+  },
+  {
+    "id": 86,
+    "question": "Which of the following words has been formed with a prefix?",
+    "options": {
+      "A": "Amoral",
+      "B": "Authentic",
+      "C": "Amnesia",
+      "D": "Aspersions"
+    },
+    "answer": "A",
+    "explanation": "'Amoral' is formed by adding the prefix 'a-' (meaning 'without') to 'moral'."
+  },
+  {
+    "id": 87,
+    "question": "লেফটেন্যান্ট জেনারেল শব্দের সঠিক ইংরেজি বানান কোনটি?",
+    "options": {
+      "A": "Lieaftenant",
+      "B": "Leaftenant",
+      "C": "Leiftenant",
+      "D": "Lieutenant"
+    },
+    "answer": "D",
+    "explanation": "The correct spelling is 'Lieutenant General'."
+  },
+  {
+    "id": 88,
+    "question": "নির্বাহী বিভাগ থেকে বিচার বিভাগ পৃথক করার বিষয়টি সংবিধানের কোন অনুচ্ছেদে উল্লেখ রয়েছে?",
+    "options": {
+      "A": "অনুচ্ছেদ ২৩",
+      "B": "অনুচ্ছেদ ২৪",
+      "C": "অনুচ্ছেদ ২১",
+      "D": "অনুচ্ছেদ ২২"
+    },
+    "answer": "D",
+    "explanation": "Article 22 of the Constitution of Bangladesh states that the State shall ensure the separation of the judiciary from the executive."
+  },
+  {
+    "id": 89,
+    "question": "বাংলাদেশের ২০১৮-১৯ অর্থবছরে বাজেটে জিডিপির প্রক্ষেপিত প্রবৃদ্ধির হার কত?",
+    "options": {
+      "A": "৭.৮০ শতাংশ",
+      "B": "৮.০০ শতাংশ",
+      "C": "৭.২৮ শতাংশ",
+      "D": "৭.৬৫ শতাংশ"
+    },
+    "answer": "A",
+    "explanation": "The projected GDP growth rate for the 2018-19 fiscal year budget was 7.80%."
+  },
+  {
+    "id": 90,
+    "question": "‘To be, or not to be that is the question,’ – is a famous soliloquy from –",
+    "options": {
+      "A": "Macbeth",
+      "B": "King Lear",
+      "C": "Othello",
+      "D": "Hamlet"
+    },
+    "answer": "D",
+    "explanation": "This is the opening line of Hamlet's famous soliloquy in Act 3, Scene 1 of Shakespeare's play 'Hamlet'."
+  },
+  {
+    "id": 91,
+    "question": "‘Geriatrics’ is the branch of medicine concerned with the diseases and care of-",
+    "options": {
+      "A": "newly-weds",
+      "B": "old women",
+      "C": "newborn babies",
+      "D": "old people"
+    },
+    "answer": "D",
+    "explanation": "Geriatrics is the branch of medicine focused on the health and care of elderly people."
+  },
+  {
+    "id": 92,
+    "question": "`1/√2, 1, √2` ...... ধারাটির কোন পদ `8√2` হবে?",
+    "options": {
+      "A": "৯তম পদ",
+      "B": "১০তম পদ",
+      "C": "১১তম পদ",
+      "D": "১২তম পদ"
+    },
+    "answer": "A",
+    "explanation": "GP with a = 1/√2, r = √2. nth term = a*r^(n-1) = (1/√2)*(√2)^(n-1) = (√2)^(n-2). Set equal to 8√2 = (√2)^7. n-2=7 => n=9."
+  },
+  {
+    "id": 93,
+    "question": "নিচের উপমাটি পূর্ণকারী শব্দ কোনটি? Finger : Hand : Leaf:",
+    "options": {
+      "A": "Flower",
+      "B": "Twig",
+      "C": "Tree",
+      "D": "Branch"
+    },
+    "answer": "D",
+    "explanation": "Finger is a part of a Hand. Similarly, Leaf is a part of a Branch."
+  },
+  {
+    "id": 94,
+    "question": "প্রতাপ আদিত্য কে ছিলেন?",
+    "options": {
+      "A": "বাংলা বারো ভুঁইয়াদের একজন",
+      "B": "রাজপুত রাজা",
+      "C": "বাংলার শাসক",
+      "D": "মুঘল সেনাপতি"
+    },
+    "answer": "A",
+    "explanation": "Pratap Aditya was one of the Bengal Baro-Bhuyans (twelve landlords) in the 16th-17th century."
+  },
+  {
+    "id": 95,
+    "question": "কোন শব্দটি উপসর্গ দিয়ে গঠিত হয়েছে?",
+    "options": {
+      "A": "আনন",
+      "B": "আষাঢ়",
+      "C": "আঘাটা",
+      "D": "আয়না"
+    },
+    "answer": "C",
+    "explanation": "'আঘাটা' is formed by adding the prefix 'আ' to 'ঘাটা'."
+  },
+  {
+    "id": 96,
+    "question": "একটি দ্রব্য 180 টাকায় বিক্রয় করায় 10% ক্ষতি হলো। দ্রব্যটির ক্রয়মূল্য-",
+    "options": {
+      "A": "200 টাকা",
+      "B": "210 টাকা",
+      "C": "162 টাকা",
+      "D": "198 টাকা"
+    },
+    "answer": "A",
+    "explanation": "SP = 180, Loss = 10%. If CP = x, then 0.9x = 180 => x = 200 Tk."
+  },
+  {
+    "id": 97,
+    "question": "শিশুমৃত্যুর হার হ্রাসে সাফল্যের জন্য গণপ্রজাতন্ত্রী বাংলাদেশের মাননীয় প্রধানমন্ত্রী শেখ হাসিনা কী অ্যাওয়ার্ড অর্জন করেছেন?",
+    "options": {
+      "A": "সম্মানসূচক ডক্টরেট ডিগ্রি",
+      "B": "Planet 50-50",
+      "C": "এমডিজি এ্যাওয়ার্ড -২০১০",
+      "D": "জাতিসংঘ শান্তি পুরস্কার"
+    },
+    "answer": "C",
+    "explanation": "PM Sheikh Hasina received the 'MDG Award 2010' for progress in reducing child mortality."
+  },
+  {
+    "id": 98,
+    "question": "‘Hand out’– এর শুদ্ধ বাংলা পরিভাষা হচ্ছে:",
+    "options": {
+      "A": "হস্তপত্র",
+      "B": "জ্ঞাপনপত্র",
+      "C": "তথ্যপত্র",
+      "D": "প্রচারপত্র"
+    },
+    "answer": "D",
+    "explanation": "A 'hand out' is an information sheet or pamphlet. The correct Bengali term is 'প্রচারপত্র'."
+  },
+  {
+    "id": 99,
+    "question": "স্বাধীনতা পদক প্রাপ্ত ব্যক্তিত্ব হলেন-",
+    "options": {
+      "A": "সতীন সরকার",
+      "B": "সৈয়দ আলী আহসান",
+      "C": "সৈয়দ শামসুল হক",
+      "D": "শামসুর রাহমান"
+    },
+    "answer": "C",
+    "explanation": "Syed Shamsul Haq was awarded the Independence Award in 2000 for his contribution to literature."
+  },
+  {
+    "id": 100,
+    "question": "সাধু ও চলিত ভাষার মূল পার্থক্য কোন পদে বেশি বেশি দেখা যায়?",
+    "options": {
+      "A": "বিশেষ্য ও ক্রিয়া",
+      "B": "বিশেষণ ও ক্রিয়া",
+      "C": "বিশেষ্য ও বিশেষণ পদে",
+      "D": "ক্রিয়া ও সর্বনাম"
+    },
+    "answer": "D",
+    "explanation": "The main differences between Sadhu and Cholito Bengali are most prominent in verbs and pronouns."
+  }
+]

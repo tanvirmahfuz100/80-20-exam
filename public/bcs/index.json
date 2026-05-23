@@ -1,5 +1,11 @@
 [
   {
+    "id": "bcs_34",
+    "name": "34th BCS",
+    "code": "",
+    "questionCount": 100
+  },
+  {
     "id": "bcs_35",
     "name": "35th BCS",
     "code": "",
@@ -22,6 +28,18 @@
     "name": "38th BCS",
     "code": "",
     "questionCount": 198
+  },
+  {
+    "id": "bcs_39",
+    "name": "39th BCS",
+    "code": "",
+    "questionCount": 100
+  },
+  {
+    "id": "bcs_39_med",
+    "name": "39th BCS (Medical)",
+    "code": "",
+    "questionCount": 50
   },
   {
     "id": "bcs_40",
