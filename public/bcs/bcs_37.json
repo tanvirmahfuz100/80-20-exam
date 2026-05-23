@@ -1821,7 +1821,7 @@
       "D": "ফ্লোচার্ট"
     },
     "answer": "B",
-    "explanation": "TCP = Transmission Control Protocol"
+    "explanation": "TCP (Transmission Control Protocol) একটি যোগাযোগ প্রোটোকল যা ডেটা ট্রান্সমিশন নিয়ন্ত্রণ করে। এটি ইন্টারনেটের মৌলিক প্রোটোকলগুলোর একটি।"
   },
   {
     "id": 153,
@@ -1977,7 +1977,7 @@
       "D": "6"
     },
     "answer": "A",
-    "explanation": "https://drive.google.com/file/d/1e3fVWEFHG5Mjqc4HPPLUgtG6nvFdIfds/view?usp=sharing"
+    "explanation": "বৃত্তের জ্যা-এর দৈর্ঘ্য নির্ণয়ের জন্য জ্যামিতিক সূত্র ব্যবহার করতে হয়। ব্যাসার্ধ ও জ্যা-এর অর্ধেকের সাথে কেন্দ্র থেকে লম্ব দূরত্বের সম্পর্ক পিথাগোরাসের উপপাদ্য দ্বারা নির্ণয় করা যায়।"
   },
   {
     "id": 166,
