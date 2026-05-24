@@ -267,6 +267,44 @@ $boardMap = @{
     "76" = @{ Id = "board_chattogram_2015"; Name = "চট্টগ্রাম বোর্ড ২০১৫" }
     "77" = @{ Id = "board_jashore_2015"; Name = "যশোর বোর্ড ২০১৫" }
     "78" = @{ Id = "board_barishal_2015"; Name = "বরিশাল বোর্ড ২০১৫" }
+    # === New files 79-115 ===
+    "79" = @{ Id = "board_chattogram_2016"; Name = "চট্টগ্রাম বোর্ড ২০১৬" }
+    "80" = @{ Id = "board_sylhet_2016"; Name = "সিলেট বোর্ড ২০১৬" }
+    "81" = @{ Id = "board_jashore_2016"; Name = "যশোর বোর্ড ২০১৬" }
+    "82" = @{ Id = "board_barishal_2016"; Name = "বরিশাল বোর্ড ২০১৬" }
+    "83" = @{ Id = "board_chattogram_2017"; Name = "চট্টগ্রাম বোর্ড ২০১৭" }
+    "84" = @{ Id = "board_sylhet_2017"; Name = "সিলেট বোর্ড ২০১৭" }
+    "85" = @{ Id = "board_jashore_2017"; Name = "যশোর বোর্ড ২০১৭" }
+    "86" = @{ Id = "board_barishal_2017"; Name = "বরিশাল বোর্ড ২০১৭" }
+    "87" = @{ Id = "board_dhaka_2017"; Name = "ঢাকা বোর্ড ২০১৭" }
+    "88" = @{ Id = "board_rajshahi_2017"; Name = "রাজশাহী বোর্ড ২০১৭" }
+    "89" = @{ Id = "board_dinajpur_2017"; Name = "দিনাজপুর বোর্ড ২০১৭" }
+    "90" = @{ Id = "board_cumilla_2017"; Name = "কুমিল্লা বোর্ড ২০১৭" }
+    "91" = @{ Id = "board_all_2018"; Name = "সকল বোর্ড ২০১৮" }
+    "92" = @{ Id = "school_rajuk_uttara_model_2025"; Name = "রাজউক উত্তরা মডেল কলেজ ২০২৫" }
+    "93" = @{ Id = "school_vikarunnisa_noon_2025"; Name = "ভিকারুননিসা নূন স্কুল এন্ড কলেজ ২০২৫" }
+    "94" = @{ Id = "school_ideal_motijheel_2025"; Name = "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল ২০২৫" }
+    "95" = @{ Id = "school_dhaka_residential_model_2025"; Name = "ঢাকা রেসিডেনসিয়াল মডেল কলেজ ২০২৫" }
+    "96" = @{ Id = "school_adamjee_cantonment_2025"; Name = "আদমজী ক্যান্টনমেন্ট পাবলিক স্কুল ২০২৫" }
+    "97" = @{ Id = "school_holy_cross_2025"; Name = "হলি ক্রস উচ্চ বালিকা বিদ্যালয় ২০২৫" }
+    "98" = @{ Id = "school_st_joseph_2025"; Name = "সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৫" }
+    "99" = @{ Id = "school_birshreshtha_munshi_2025"; Name = "বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ পাবলিক কলেজ ২০২৫" }
+    "100" = @{ Id = "school_milestone_2025"; Name = "মাইলস্টোন কলেজ ২০২৫" }
+    "101" = @{ Id = "school_cantonment_mymensingh_2025"; Name = "ক্যান্টনমেন্ট পাবলিক স্কুল ও কলেজ, মোমেনশাহী ২০২৫" }
+    "102" = @{ Id = "school_rajuk_uttara_2024"; Name = "রাজউক উত্তরা কলেজ ২০২৪" }
+    "103" = @{ Id = "school_vikarunnisa_noon_college_2024"; Name = "ভিকারুননিসা নূন কলেজ ২০২৪" }
+    "104" = @{ Id = "school_ideal_motijheel_college_2024"; Name = "আইডিয়াল কলেজ, মতিঝিল ২০২৪" }
+    "105" = @{ Id = "school_dhaka_residential_2024"; Name = "ঢাকা রেসিডেনসিয়াল কলেজ ২০২৪" }
+    "106" = @{ Id = "school_adamjee_cantonment_public_2024"; Name = "আদমজী ক্যান্ট. পাবলিক স্কুল ২০২৪" }
+    "107" = @{ Id = "school_holy_cross_college_2024"; Name = "হলি ক্রস কলেজ ২০২৪" }
+    "108" = @{ Id = "school_milestone_2024"; Name = "মাইলস্টোন কলেজ ২০২৪" }
+    "109" = @{ Id = "school_motijheel_model_2024"; Name = "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪" }
+    "110" = @{ Id = "school_st_joseph_college_2024"; Name = "সেন্ট যোসেফ কলেজ ২০২৪" }
+    "111" = @{ Id = "school_cambrian_2024"; Name = "ক্যামব্রিয়ান স্কুল এন্ড কলেজ ২০২৪" }
+    "112" = @{ Id = "board_dhaka_2016"; Name = "ঢাকা বোর্ড ২০১৬" }
+    "113" = @{ Id = "board_rajshahi_2016"; Name = "রাজশাহী বোর্ড ২০১৬" }
+    "114" = @{ Id = "board_dinajpur_2016"; Name = "দিনাজপুর বোর্ড ২০১৬" }
+    "115" = @{ Id = "board_cumilla_2016"; Name = "কুমিল্লা বোর্ড ২০১৬" }
 }
 
 $files = @(Get-ChildItem -Path $SourceDir -Filter "*.html" | Where-Object { $_.Name -notlike '*_files*' })

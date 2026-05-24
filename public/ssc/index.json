@@ -503,6 +503,268 @@
           ]
         },
         {
+          "id": "board_2018",
+          "name": "Board Exams 2018 (All)",
+          "name_bn": "সকল বোর্ড ২০১৮",
+          "name_en": "Combined 2018",
+          "chapters": [
+            {
+              "id": "board_all_2018",
+              "name": "All Boards 2018 Combined",
+              "name_bn": "সকল বোর্ড ২০১৮",
+              "file": "/ssc/accounting/board_all_2018.json"
+            }
+          ]
+        },
+        {
+          "id": "board_2017",
+          "name": "Board Exams 2017",
+          "name_bn": "বোর্ড পরীক্ষা ২০১৭",
+          "name_en": "Board Exams 2017",
+          "chapters": [
+            {
+              "id": "board_chattogram_2017",
+              "name": "Chattogram Board 2017",
+              "name_bn": "চট্টগ্রাম বোর্ড ২০১৭",
+              "file": "/ssc/accounting/board_chattogram_2017.json"
+            },
+            {
+              "id": "board_sylhet_2017",
+              "name": "Sylhet Board 2017",
+              "name_bn": "সিলেট বোর্ড ২০১৭",
+              "file": "/ssc/accounting/board_sylhet_2017.json"
+            },
+            {
+              "id": "board_jashore_2017",
+              "name": "Jashore Board 2017",
+              "name_bn": "যশোর বোর্ড ২০১৭",
+              "file": "/ssc/accounting/board_jashore_2017.json"
+            },
+            {
+              "id": "board_barishal_2017",
+              "name": "Barishal Board 2017",
+              "name_bn": "বরিশাল বোর্ড ২০১৭",
+              "file": "/ssc/accounting/board_barishal_2017.json"
+            },
+            {
+              "id": "board_dhaka_2017",
+              "name": "Dhaka Board 2017",
+              "name_bn": "ঢাকা বোর্ড ২০১৭",
+              "file": "/ssc/accounting/board_dhaka_2017.json"
+            },
+            {
+              "id": "board_rajshahi_2017",
+              "name": "Rajshahi Board 2017",
+              "name_bn": "রাজশাহী বোর্ড ২০১৭",
+              "file": "/ssc/accounting/board_rajshahi_2017.json"
+            },
+            {
+              "id": "board_dinajpur_2017",
+              "name": "Dinajpur Board 2017",
+              "name_bn": "দিনাজপুর বোর্ড ২০১৭",
+              "file": "/ssc/accounting/board_dinajpur_2017.json"
+            },
+            {
+              "id": "board_cumilla_2017",
+              "name": "Cumilla Board 2017",
+              "name_bn": "কুমিল্লা বোর্ড ২০১৭",
+              "file": "/ssc/accounting/board_cumilla_2017.json"
+            }
+          ]
+        },
+        {
+          "id": "board_2016",
+          "name": "Board Exams 2016",
+          "name_bn": "বোর্ড পরীক্ষা ২০১৬",
+          "name_en": "Board Exams 2016",
+          "chapters": [
+            {
+              "id": "board_chattogram_2016",
+              "name": "Chattogram Board 2016",
+              "name_bn": "চট্টগ্রাম বোর্ড ২০১৬",
+              "file": "/ssc/accounting/board_chattogram_2016.json"
+            },
+            {
+              "id": "board_sylhet_2016",
+              "name": "Sylhet Board 2016",
+              "name_bn": "সিলেট বোর্ড ২০১৬",
+              "file": "/ssc/accounting/board_sylhet_2016.json"
+            },
+            {
+              "id": "board_jashore_2016",
+              "name": "Jashore Board 2016",
+              "name_bn": "যশোর বোর্ড ২০১৬",
+              "file": "/ssc/accounting/board_jashore_2016.json"
+            },
+            {
+              "id": "board_barishal_2016",
+              "name": "Barishal Board 2016",
+              "name_bn": "বরিশাল বোর্ড ২০১৬",
+              "file": "/ssc/accounting/board_barishal_2016.json"
+            },
+            {
+              "id": "board_dhaka_2016",
+              "name": "Dhaka Board 2016",
+              "name_bn": "ঢাকা বোর্ড ২০১৬",
+              "file": "/ssc/accounting/board_dhaka_2016.json"
+            },
+            {
+              "id": "board_rajshahi_2016",
+              "name": "Rajshahi Board 2016",
+              "name_bn": "রাজশাহী বোর্ড ২০১৬",
+              "file": "/ssc/accounting/board_rajshahi_2016.json"
+            },
+            {
+              "id": "board_dinajpur_2016",
+              "name": "Dinajpur Board 2016",
+              "name_bn": "দিনাজপুর বোর্ড ২০১৬",
+              "file": "/ssc/accounting/board_dinajpur_2016.json"
+            },
+            {
+              "id": "board_cumilla_2016",
+              "name": "Cumilla Board 2016",
+              "name_bn": "কুমিল্লা বোর্ড ২০১৬",
+              "file": "/ssc/accounting/board_cumilla_2016.json"
+            }
+          ]
+        },
+        {
+          "id": "school_2025",
+          "name": "School Model Tests 2025",
+          "name_bn": "স্কুল মডেল টেস্ট ২০২৫",
+          "name_en": "School Model Tests 2025",
+          "chapters": [
+            {
+              "id": "school_rajuk_uttara_model_2025",
+              "name": "Rajuk Uttara Model College",
+              "name_bn": "রাজউক উত্তরা মডেল কলেজ",
+              "file": "/ssc/accounting/school_rajuk_uttara_model_2025.json"
+            },
+            {
+              "id": "school_vikarunnisa_noon_2025",
+              "name": "Vikarunnisa Noon School & College",
+              "name_bn": "ভিকারুননিসা নূন স্কুল এন্ড কলেজ",
+              "file": "/ssc/accounting/school_vikarunnisa_noon_2025.json"
+            },
+            {
+              "id": "school_ideal_motijheel_2025",
+              "name": "Ideal School & College, Motijheel",
+              "name_bn": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল",
+              "file": "/ssc/accounting/school_ideal_motijheel_2025.json"
+            },
+            {
+              "id": "school_dhaka_residential_model_2025",
+              "name": "Dhaka Residential Model College",
+              "name_bn": "ঢাকা রেসিডেনসিয়াল মডেল কলেজ",
+              "file": "/ssc/accounting/school_dhaka_residential_model_2025.json"
+            },
+            {
+              "id": "school_adamjee_cantonment_2025",
+              "name": "Adamjee Cantonment Public School",
+              "name_bn": "আদমজী ক্যান্টনমেন্ট পাবলিক স্কুল",
+              "file": "/ssc/accounting/school_adamjee_cantonment_2025.json"
+            },
+            {
+              "id": "school_holy_cross_2025",
+              "name": "Holy Cross Girls High School",
+              "name_bn": "হলি ক্রস উচ্চ বালিকা বিদ্যালয়",
+              "file": "/ssc/accounting/school_holy_cross_2025.json"
+            },
+            {
+              "id": "school_st_joseph_2025",
+              "name": "St. Joseph Higher Secondary School",
+              "name_bn": "সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয়",
+              "file": "/ssc/accounting/school_st_joseph_2025.json"
+            },
+            {
+              "id": "school_birshreshtha_munshi_2025",
+              "name": "Birshreshtha Munshi Abdur Rouf Public College",
+              "name_bn": "বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ পাবলিক কলেজ",
+              "file": "/ssc/accounting/school_birshreshtha_munshi_2025.json"
+            },
+            {
+              "id": "school_milestone_2025",
+              "name": "Milestone College",
+              "name_bn": "মাইলস্টোন কলেজ",
+              "file": "/ssc/accounting/school_milestone_2025.json"
+            },
+            {
+              "id": "school_cantonment_mymensingh_2025",
+              "name": "Cantonment Public School & College, Mymensingh",
+              "name_bn": "ক্যান্টনমেন্ট পাবলিক স্কুল ও কলেজ, মোমেনশাহী",
+              "file": "/ssc/accounting/school_cantonment_mymensingh_2025.json"
+            }
+          ]
+        },
+        {
+          "id": "school_2024",
+          "name": "School Model Tests 2024",
+          "name_bn": "স্কুল মডেল টেস্ট ২০২৪",
+          "name_en": "School Model Tests 2024",
+          "chapters": [
+            {
+              "id": "school_rajuk_uttara_2024",
+              "name": "Rajuk Uttara College",
+              "name_bn": "রাজউক উত্তরা কলেজ",
+              "file": "/ssc/accounting/school_rajuk_uttara_2024.json"
+            },
+            {
+              "id": "school_vikarunnisa_noon_college_2024",
+              "name": "Vikarunnisa Noon College",
+              "name_bn": "ভিকারুননিসা নূন কলেজ",
+              "file": "/ssc/accounting/school_vikarunnisa_noon_college_2024.json"
+            },
+            {
+              "id": "school_ideal_motijheel_college_2024",
+              "name": "Ideal College, Motijheel",
+              "name_bn": "আইডিয়াল কলেজ, মতিঝিল",
+              "file": "/ssc/accounting/school_ideal_motijheel_college_2024.json"
+            },
+            {
+              "id": "school_dhaka_residential_2024",
+              "name": "Dhaka Residential College",
+              "name_bn": "ঢাকা রেসিডেনসিয়াল কলেজ",
+              "file": "/ssc/accounting/school_dhaka_residential_2024.json"
+            },
+            {
+              "id": "school_adamjee_cantonment_public_2024",
+              "name": "Adamjee Cantonment Public School",
+              "name_bn": "আদমজী ক্যান্টনমেন্ট পাবলিক স্কুল",
+              "file": "/ssc/accounting/school_adamjee_cantonment_public_2024.json"
+            },
+            {
+              "id": "school_holy_cross_college_2024",
+              "name": "Holy Cross College",
+              "name_bn": "হলি ক্রস কলেজ",
+              "file": "/ssc/accounting/school_holy_cross_college_2024.json"
+            },
+            {
+              "id": "school_milestone_2024",
+              "name": "Milestone College",
+              "name_bn": "মাইলস্টোন কলেজ",
+              "file": "/ssc/accounting/school_milestone_2024.json"
+            },
+            {
+              "id": "school_motijheel_model_2024",
+              "name": "Motijheel Model School & College",
+              "name_bn": "মতিঝিল মডেল স্কুল এন্ড কলেজ",
+              "file": "/ssc/accounting/school_motijheel_model_2024.json"
+            },
+            {
+              "id": "school_st_joseph_college_2024",
+              "name": "St. Joseph College",
+              "name_bn": "সেন্ট যোসেফ কলেজ",
+              "file": "/ssc/accounting/school_st_joseph_college_2024.json"
+            },
+            {
+              "id": "school_cambrian_2024",
+              "name": "Cambrian School & College",
+              "name_bn": "ক্যামব্রিয়ান স্কুল এন্ড কলেজ",
+              "file": "/ssc/accounting/school_cambrian_2024.json"
+            }
+          ]
+        },
+        {
           "id": "board_2015",
           "name": "Board Exams 2015",
           "name_bn": "বোর্ড পরীক্ষা ২০১৫",
