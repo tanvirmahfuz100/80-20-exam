@@ -1,4 +1,4 @@
-import { Trophy, Star, Zap, RefreshCw } from 'lucide-react';
+﻿import { Trophy, Star, Zap, RefreshCw } from 'lucide-react';
 
 export default function QuizResultScreen({
   score,
@@ -84,7 +84,7 @@ export default function QuizResultScreen({
               </button>
               <button
                 onClick={onPracticeAgain}
-                className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
+                className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
               >
                 <RefreshCw className="w-4 h-4" aria-hidden="true" /> Practice Again
               </button>
@@ -156,7 +156,7 @@ export default function QuizResultScreen({
             <button onClick={onGoHome} className="flex-1 py-3 md:py-4 bg-white/5 hover:bg-white/10 text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border border-white/5 transition-all active:scale-[0.98] min-h-touch">
               Back Home
             </button>
-            <button onClick={onPracticeAgain} className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch">
+            <button onClick={onPracticeAgain} className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch">
               <RefreshCw className="w-4 h-4" aria-hidden="true" /> Try Again
             </button>
             {onNextModel && (
@@ -170,7 +170,7 @@ export default function QuizResultScreen({
           </div>
           {file?.includes('model_') && (
             <button onClick={onGoHome} className="text-[9px] font-bold text-white/20 hover:text-white/40 transition-colors mt-2">
-              ← All Model Tests
+              â† All Model Tests
             </button>
           )}
         </div>

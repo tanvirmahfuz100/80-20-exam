@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { X, BookOpen, Target, Brain, TrendingUp, Video, ClipboardList } from 'lucide-react';
 
 const tips = [
@@ -58,7 +58,7 @@ const GuideModal = ({ isOpen, onClose }) => {
 
                 <div className="space-y-1 mb-6">
                     <h2 className="text-2xl font-black text-white tracking-tighter">How to use Fireman</h2>
-                    <p className="text-sm text-white/40 font-medium">Everything you need to ace your exams — here is how it works.</p>
+                    <p className="text-sm text-white/40 font-medium">Everything you need to ace your exams â€” here is how it works.</p>
                 </div>
 
                 <div className="space-y-3">
@@ -83,7 +83,7 @@ const GuideModal = ({ isOpen, onClose }) => {
 
                 <button
                     onClick={onClose}
-                    className="mt-6 w-full py-4 bg-primary hover:bg-primary-hover text-white rounded-2xl font-black uppercase tracking-widest text-xs transition-all active:scale-[0.98] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
+                    className="mt-6 w-full py-4 bg-primary hover:bg-primary-hover text-white rounded-2xl font-black uppercase tracking-widest text-xs transition-all active:scale-[0.98] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
                 >
                     Got it
                 </button>

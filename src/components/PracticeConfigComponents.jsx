@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { motion } from 'framer-motion';
 import { Book, Calculator, Brain, Briefcase, ChevronRight, Play, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles, Check } from 'lucide-react';
 
@@ -236,7 +236,7 @@ export const ChapterItem = ({ chapter, topic, onClick, questionCount, completedC
                 {hasQuestions && (
                     <button
                         onClick={() => onClick(chapter, cleanName)}
-                        className="flex items-center gap-1.5 px-4 py-2.5 bg-primary text-white font-black uppercase tracking-widest rounded-xl hover:bg-primary-hover transition-all text-[9px] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-95 shrink-0"
+                        className="flex items-center gap-1.5 px-4 py-2.5 bg-primary text-white font-black uppercase tracking-widest rounded-xl hover:bg-primary-hover transition-all text-[9px] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] active:scale-95 shrink-0"
                     >
                         <Play className="w-3 h-3 fill-current" />
                         Start

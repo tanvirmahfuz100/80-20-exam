@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { BookOpen, Globe, Check, GraduationCap, Brain, Award, Book } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
@@ -39,7 +39,7 @@ export default function OnboardingModal({ onComplete }) {
               <div>
                 <h2 className="text-2xl md:text-3xl font-black text-white tracking-tighter">Welcome to Fireman!</h2>
                 <p className="text-white/50 text-xs md:text-sm mt-1 md:mt-2 font-medium leading-relaxed">
-                  Your personal exam prep platform. Practice questions, watch lessons, take mock tests, and track your progress — all in one place.
+                  Your personal exam prep platform. Practice questions, watch lessons, take mock tests, and track your progress â€” all in one place.
                 </p>
               </div>
             </div>
@@ -66,7 +66,7 @@ export default function OnboardingModal({ onComplete }) {
               </button>
               <button
                 onClick={() => setStep(1)}
-                className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-[0.98]"
+                className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] active:scale-[0.98]"
               >
                 Next
               </button>
@@ -128,7 +128,7 @@ export default function OnboardingModal({ onComplete }) {
               className={`w-full py-3 md:py-4 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all flex items-center justify-center gap-2 ${
                 !exam
                   ? 'opacity-40 cursor-not-allowed bg-primary/50'
-                  : 'bg-primary hover:bg-primary-hover border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-[0.98]'
+                  : 'bg-primary hover:bg-primary-hover border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] active:scale-[0.98]'
               }`}
             >
               Continue
@@ -149,7 +149,7 @@ export default function OnboardingModal({ onComplete }) {
 
             <div className="space-y-3">
               {[
-                { id: 'bangla', label: 'বাংলা', subtitle: 'Bangla medium questions', icon: BookOpen },
+                { id: 'bangla', label: 'à¦¬à¦¾à¦‚à¦²à¦¾', subtitle: 'Bangla medium questions', icon: BookOpen },
                 { id: 'english', label: 'English', subtitle: 'English medium questions', icon: Globe },
               ].map((opt) => {
                 const Icon = opt.icon;
@@ -187,7 +187,7 @@ export default function OnboardingModal({ onComplete }) {
               className={`w-full py-3 md:py-4 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all flex items-center justify-center gap-2 ${
                 !version
                   ? 'opacity-40 cursor-not-allowed bg-primary/50'
-                  : 'bg-primary hover:bg-primary-hover border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-[0.98]'
+                  : 'bg-primary hover:bg-primary-hover border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] active:scale-[0.98]'
               }`}
             >
               Continue
@@ -244,7 +244,7 @@ export default function OnboardingModal({ onComplete }) {
               className={`w-full py-3 md:py-4 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all flex items-center justify-center gap-2 ${
                 saving
                   ? 'opacity-40 cursor-not-allowed bg-primary/50'
-                  : 'bg-primary hover:bg-primary-hover border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-[0.98]'
+                  : 'bg-primary hover:bg-primary-hover border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] active:scale-[0.98]'
               }`}
             >
               {saving ? 'Setting up...' : 'Start Learning'}

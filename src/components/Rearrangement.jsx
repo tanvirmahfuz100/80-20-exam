@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useCallback } from 'react';
+﻿import React, { useState, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronUp, ChevronDown, Check, X, RefreshCw, Eye } from 'lucide-react';
 import { ConfirmDialog } from './ui';
@@ -245,7 +245,7 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
         ) : (
           <button
             onClick={() => onContinue?.(1, 1)}
-            className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
+            className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
           >
             Continue
           </button>

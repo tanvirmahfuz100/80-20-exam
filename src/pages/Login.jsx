@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { Mail, LogIn, AlertCircle, Loader2 } from 'lucide-react';
@@ -67,7 +67,7 @@ const Login = () => {
                     <button
                         type="submit"
                         disabled={loading}
-                        className="w-full py-2.5 md:py-4 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-lg md:rounded-2xl font-black uppercase tracking-[0.2em] text-[10px] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] transition-all flex items-center justify-center gap-2 md:gap-3 active:scale-[0.98]"
+                        className="w-full py-2.5 md:py-4 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-lg md:rounded-2xl font-black uppercase tracking-[0.2em] text-[10px] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] transition-all flex items-center justify-center gap-2 md:gap-3 active:scale-[0.98]"
                     >
                         {loading ? <Loader2 className="w-4 h-4 md:w-5 md:h-5 animate-spin" /> : <LogIn className="w-4 h-4 md:w-5 md:h-5" />}
                         Continue to App

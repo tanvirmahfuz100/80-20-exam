@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+﻿import React, { useEffect, useState } from 'react';
 import AnimatedTextCycle from '@/components/ui/animated-text-cycle.jsx';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Star, Zap, BookOpen, Users, GraduationCap } from 'lucide-react';
@@ -29,7 +29,7 @@ const Landing = () => {
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-6 pt-4 md:pt-8">
                         <Link
                             to="/login"
-                            className="w-full sm:w-auto px-6 md:px-12 py-4 md:py-6 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-[2rem] font-black uppercase tracking-[0.2em] text-[10px] md:text-xs transition-all active:scale-95 hover:scale-[1.02] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] flex items-center justify-center gap-2 md:gap-3"
+                            className="w-full sm:w-auto px-6 md:px-12 py-4 md:py-6 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-[2rem] font-black uppercase tracking-[0.2em] text-[10px] md:text-xs transition-all active:scale-95 hover:scale-[1.02] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] flex items-center justify-center gap-2 md:gap-3"
                         >
                             Start Testing
                         </Link>
@@ -90,7 +90,7 @@ const Landing = () => {
                 <div className="flex justify-center pt-4 md:pt-8">
                     <Link
                         to="/login"
-                        className="px-6 md:px-12 py-4 md:py-6 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-[2.5rem] font-black uppercase tracking-[0.3em] text-xs md:text-sm transition-all active:scale-95 hover:scale-[1.02] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] flex items-center gap-3 md:gap-4"
+                        className="px-6 md:px-12 py-4 md:py-6 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-[2.5rem] font-black uppercase tracking-[0.3em] text-xs md:text-sm transition-all active:scale-95 hover:scale-[1.02] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] flex items-center gap-3 md:gap-4"
                     >
                         Enter Test Mode
                     </Link>

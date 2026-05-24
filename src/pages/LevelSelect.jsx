@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+﻿import React, { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { useSearchParams, useNavigate, Link } from 'react-router-dom';
 import LoadingScreen from '../components/LoadingScreen';
@@ -93,7 +93,7 @@ const LevelSelect = () => {
 
         const normalized = normalizeQuizQuestions({ questions: questionArray });
         const computed = computeLevels(normalized);
-        // CQ chapters have no levels — skip LevelSelect UI entirely
+        // CQ chapters have no levels â€” skip LevelSelect UI entirely
         if (computed.length === 0 && normalized.length > 0) {
           setRedirecting(true);
           navigate(`/quiz/${chapterId}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(title)}`, { replace: true });
@@ -213,7 +213,7 @@ const LevelSelect = () => {
                 <div className="relative">
                   <div className="absolute inset-0 rounded-full bg-primary animate-ping opacity-70" />
                   <button
-                    className="relative w-16 h-16 rounded-full bg-primary flex items-center justify-center cursor-pointer border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
+                    className="relative w-16 h-16 rounded-full bg-primary flex items-center justify-center cursor-pointer border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
                     onClick={() => handleStartLevel(level.levelNumber)}
                   >
                     <span className="text-black font-black text-lg">{level.levelNumber}</span>
@@ -319,7 +319,7 @@ const LevelSelect = () => {
             const nextUncompleted = levelsWithMeta.find(l => l.unlocked && !l.completed);
             if (nextUncompleted) handleStartLevel(nextUncompleted.levelNumber);
           }}
-          className="w-full py-3 bg-primary text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.98] hover:bg-primary-hover flex items-center justify-center gap-2 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
+          className="w-full py-3 bg-primary text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.98] hover:bg-primary-hover flex items-center justify-center gap-2 border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
         >
           <TrendingUp className="w-4 h-4" />
           Continue Practicing

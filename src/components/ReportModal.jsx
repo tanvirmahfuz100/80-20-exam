@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { X, Send, Camera, AlertCircle, Loader2, CheckCircle2 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { api } from '../services/localApi';
@@ -114,7 +114,7 @@ const ReportModal = ({ isOpen, onClose }) => {
                             <button
                                 type="submit"
                                 disabled={loading}
-                                className="w-full py-5 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-2xl font-black uppercase tracking-[0.2em] text-[10px] transition-all flex items-center justify-center gap-3 active:scale-95 group border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
+                                className="w-full py-5 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-2xl font-black uppercase tracking-[0.2em] text-[10px] transition-all flex items-center justify-center gap-3 active:scale-95 group border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
                             >
                                 {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : <Send className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />}
                                 Initiate Transmission

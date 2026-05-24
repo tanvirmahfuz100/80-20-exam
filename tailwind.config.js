@@ -54,6 +54,7 @@ export default {
         white: 'rgb(var(--color-inverse) / <alpha-value>)',
         primary: '#f54123',
         'primary-hover': '#ff780a',
+        'primary-dark': '#c42e14',
         reward: '#ffdc28',
         'reward-soft': '#fff3b3',
         accent: '#ff780a',

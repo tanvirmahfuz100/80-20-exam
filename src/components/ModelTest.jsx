@@ -1,4 +1,4 @@
-import React, { useState, useRef, useMemo, useCallback } from 'react';
+﻿import React, { useState, useRef, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BookOpen, PenTool, FileText, Shuffle, Music, X, Check, ArrowRight, ChevronRight } from 'lucide-react';
 import GapFillPassage from './GapFillPassage';
@@ -38,7 +38,7 @@ const VocabPopup = ({ vocab, onClose }) => {
         </div>
         {vocab.meaning_bn && (
           <div>
-            <p className="text-[9px] font-black text-white/40 uppercase tracking-wider mb-0.5">বাংলা অর্থ</p>
+            <p className="text-[9px] font-black text-white/40 uppercase tracking-wider mb-0.5">à¦¬à¦¾à¦‚à¦²à¦¾ à¦…à¦°à§à¦¥</p>
             <p className="text-white/90 font-medium leading-relaxed" style={{ fontSize: '14px' }}>{vocab.meaning_bn}</p>
           </div>
         )}
@@ -352,7 +352,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
                 )}
                 {q.explanation_bn && (
                   <div>
-                    <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-0.5">বাংলা ব্যাখ্যা</p>
+                    <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-0.5">à¦¬à¦¾à¦‚à¦²à¦¾ à¦¬à§à¦¯à¦¾à¦–à§à¦¯à¦¾</p>
                     <p className="text-white/80 font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>{q.explanation_bn}</p>
                   </div>
                 )}
@@ -375,7 +375,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
           >
             <button
               onClick={handleMCQNext}
-              className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
+              className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
             >
               {mcqIndex < allQuestions.length - 1 ? (
                 <>Next <ChevronRight className="w-3 h-3" /></>
@@ -449,7 +449,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
               )}
               {currentTranslation && (
                 <div className="p-3 rounded-xl bg-white/5 border border-white/10">
-                  <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-1">বাংলা অনুবাদ</p>
+                  <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-1">à¦¬à¦¾à¦‚à¦²à¦¾ à¦…à¦¨à§à¦¬à¦¾à¦¦</p>
                   <p className="text-white/70 font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>
                     {currentTranslation}
                   </p>
@@ -459,7 +459,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
             <div className="shrink-0 sticky bottom-0">
               <button
                 onClick={handlePassageNext}
-                className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
+                className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
               >
                 Start Questions <ArrowRight className="w-3 h-3" />
               </button>
@@ -485,7 +485,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
               )}
               {currentTranslation && (
                 <div className="p-3 rounded-xl bg-white/5 border border-white/10">
-                  <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-1">বাংলা অনুবাদ</p>
+                  <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-1">à¦¬à¦¾à¦‚à¦²à¦¾ à¦…à¦¨à§à¦¬à¦¾à¦¦</p>
                   <p className="text-white/70 font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>
                     {currentTranslation}
                   </p>
@@ -495,7 +495,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
             <div className="shrink-0 sticky bottom-0">
               <button
                 onClick={handlePassageNext}
-                className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
+                className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
               >
                 Start Questions <ArrowRight className="w-3 h-3" />
               </button>
@@ -576,7 +576,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
             <div className="shrink-0 sticky bottom-0">
               <button
                 onClick={handleSummaryContinue}
-                className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
+                className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
               >
                 {isLast ? 'Finish Test' : 'Next Chapter'} <ArrowRight className="w-3 h-3" />
               </button>

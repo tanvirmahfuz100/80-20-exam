@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion as Motion } from 'framer-motion';
 import { useAuth } from '../context/AuthContext';
@@ -147,7 +147,7 @@ const Dashboard = () => {
   return (
     <Motion.div variants={containerVariants} initial="hidden" animate="show" className="space-y-3 pb-20 md:pb-10 max-w-4xl mx-auto">
 
-      {/* ─── Hero Card ─── */}
+      {/* â”€â”€â”€ Hero Card â”€â”€â”€ */}
       <Motion.div variants={itemVariants} className="relative overflow-hidden rounded-2xl border border-white/[0.06] bg-surface p-4 md:p-7">
         <div className="absolute top-0 right-0 w-40 h-40 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
 
@@ -157,7 +157,7 @@ const Dashboard = () => {
               {new Date().getHours() < 12 ? 'Good morning' : new Date().getHours() < 18 ? 'Good afternoon' : 'Good evening'}
             </p>
             <h1 className="text-xl md:text-3xl font-black text-white tracking-tighter truncate">
-              {username} <span className="text-primary">· Lv.{level}</span>
+              {username} <span className="text-primary">Â· Lv.{level}</span>
             </h1>
           </div>
           <div className="flex items-center gap-3">
@@ -204,7 +204,7 @@ const Dashboard = () => {
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
           <Link
             to="/practice"
-            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-white transition-all active:scale-[0.97] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
+            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-white transition-all active:scale-[0.97] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
           >
             Start Practice
             <ArrowRight className="w-3.5 h-3.5" />
@@ -218,10 +218,10 @@ const Dashboard = () => {
           </Link>
         </div>
 
-        {/* ─── Level Progress ─── */}
+        {/* â”€â”€â”€ Level Progress â”€â”€â”€ */}
         <div className="mt-4 pt-3 border-t border-white/[0.04]">
           <div className="flex items-center justify-between mb-1.5">
-            <span className="text-3xs font-black uppercase tracking-widest text-white/20">Level {level} · {nextLevelXp} XP target</span>
+            <span className="text-3xs font-black uppercase tracking-widest text-white/20">Level {level} Â· {nextLevelXp} XP target</span>
             <span className="text-3xs font-black text-primary">{xpInLevel}/{nextLevelXp - (level - 1) * 100} XP</span>
           </div>
           <div className="h-1.5 rounded-full bg-white/[0.06] overflow-hidden">
@@ -235,7 +235,7 @@ const Dashboard = () => {
         </div>
       </Motion.div>
 
-      {/* ─── Progress to 20 (new users) ─── */}
+      {/* â”€â”€â”€ Progress to 20 (new users) â”€â”€â”€ */}
       {!hasEnoughData && (
         <Motion.div variants={itemVariants} className="rounded-xl border border-white/[0.05] bg-surface p-4">
           <div className="flex items-center justify-between gap-3 mb-2">
@@ -261,7 +261,7 @@ const Dashboard = () => {
         </Motion.div>
       )}
 
-      {/* ─── Stats Grid ─── */}
+      {/* â”€â”€â”€ Stats Grid â”€â”€â”€ */}
       <Motion.div variants={itemVariants} className="grid grid-cols-2 md:grid-cols-4 gap-2.5">
         <StatCard Icon={Crown} label="Level" value={`${level}`} bgClass="bg-yellow-400/10" iconColor="text-yellow-400" />
         <StatCard Icon={Flame} label="Streak" value={`${streak}d`} bgClass="bg-orange-400/10" iconColor="text-orange-400" />
@@ -269,7 +269,7 @@ const Dashboard = () => {
         <StatCard Icon={BadgeCheck} label="Rank" value={rankLabel} bgClass={rankTheme.bg} iconColor={rankTheme.icon} />
       </Motion.div>
 
-      {/* ─── Quick Actions ─── */}
+      {/* â”€â”€â”€ Quick Actions â”€â”€â”€ */}
       <Motion.div variants={itemVariants}>
         <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-3">Quick Actions</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5">
@@ -280,7 +280,7 @@ const Dashboard = () => {
         </div>
       </Motion.div>
 
-      {/* ─── Daily Challenges ─── */}
+      {/* â”€â”€â”€ Daily Challenges â”€â”€â”€ */}
       {dailyChallenges.length > 0 && (
         <Motion.div variants={itemVariants}>
           <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-3 flex items-center gap-2">
@@ -322,7 +322,7 @@ const Dashboard = () => {
                     {ch.completed ? 'Done' : `+${ch.bonusXp} XP`}
                   </div>
                   {!ch.completed && (
-                    <span className="text-[9px] text-white/20 font-medium">Start →</span>
+                    <span className="text-[9px] text-white/20 font-medium">Start â†’</span>
                   )}
                 </div>
               </Link>
@@ -331,7 +331,7 @@ const Dashboard = () => {
         </Motion.div>
       )}
 
-      {/* ─── Weekly Challenge ─── */}
+      {/* â”€â”€â”€ Weekly Challenge â”€â”€â”€ */}
       {weeklyChallenge && (
         <Motion.div variants={itemVariants}>
           <Link
@@ -377,7 +377,7 @@ const Dashboard = () => {
         </Motion.div>
       )}
 
-      {/* ─── Main Content ─── */}
+      {/* â”€â”€â”€ Main Content â”€â”€â”€ */}
       {hasEnoughData ? (
         <Motion.div variants={itemVariants} className="space-y-4">
           {/* Performance */}
@@ -408,7 +408,7 @@ const Dashboard = () => {
                   <div key={area.label}>
                     <div className="flex items-center justify-between mb-1">
                       <span className="text-2xs font-bold text-white/50">{area.label}</span>
-                      <span className={`text-3xs font-black uppercase tracking-wider ${area.tone}`}>{area.status} · {area.val}%</span>
+                      <span className={`text-3xs font-black uppercase tracking-wider ${area.tone}`}>{area.status} Â· {area.val}%</span>
                     </div>
                     <div className="h-1.5 rounded-full bg-white/[0.05] overflow-hidden">
                       <Motion.div
@@ -448,7 +448,7 @@ const Dashboard = () => {
                       </div>
                       <div className="min-w-0 flex-1">
                         <p className="text-xs font-black text-white truncate">{item.chapter_title}</p>
-                        <p className="text-3xs font-black uppercase tracking-wider text-white/20">{subject} · {timeAgo(item.created_at)}</p>
+                        <p className="text-3xs font-black uppercase tracking-wider text-white/20">{subject} Â· {timeAgo(item.created_at)}</p>
                       </div>
                       <div className="text-right shrink-0">
                         <p className="text-sm font-black text-white">{item.correct_answers}/{item.total_questions}</p>
@@ -518,7 +518,7 @@ const Dashboard = () => {
                 <div className="flex flex-col xs:flex-row items-start xs:items-center gap-3">
                   <Link
                     to="/practice"
-                    className="inline-flex items-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-6 py-3 text-2xs font-black uppercase tracking-[0.2em] text-white transition-all active:scale-95 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
+                    className="inline-flex items-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-6 py-3 text-2xs font-black uppercase tracking-[0.2em] text-white transition-all active:scale-95 border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
                   >
                     Start Your First Practice <ArrowRight className="w-3.5 h-3.5" />
                   </Link>
@@ -534,7 +534,7 @@ const Dashboard = () => {
         </Motion.div>
       )}
 
-      {/* ─── Exam Paths ─── */}
+      {/* â”€â”€â”€ Exam Paths â”€â”€â”€ */}
       {availableExams.some((e) => e.active) && (
         <Motion.div variants={itemVariants}>
           <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-3">Available Exams</h2>

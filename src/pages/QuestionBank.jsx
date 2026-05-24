@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
+﻿import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Filter, ChevronDown, ChevronLeft, ChevronRight, Loader2, Clock, Target, X } from 'lucide-react';
 import LottieAnimation from '../components/LottieAnimation';
@@ -157,7 +157,7 @@ function FilterDropdown({ label, options, value, onChange }) {
                                         }`}
                                     >
                                         <span className={`w-4 shrink-0 ${opt === value ? 'text-primary' : 'text-transparent'}`}>
-                                            {opt === value && '✓'}
+                                            {opt === value && 'âœ“'}
                                         </span>
                                         <span className="truncate">{opt === 'All' ? 'All' : opt}</span>
                                     </button>
@@ -186,7 +186,7 @@ function FilterDropdown({ label, options, value, onChange }) {
                                 }`}
                             >
                                 <span className={`w-3.5 shrink-0 ${opt === value ? 'text-primary' : 'text-transparent'}`}>
-                                    {opt === value && '✓'}
+                                    {opt === value && 'âœ“'}
                                 </span>
                                 <span className="truncate">{opt === 'All' ? 'All' : opt}</span>
                             </button>
@@ -361,7 +361,7 @@ const QuestionBank = () => {
                     </div>
                     <button
                         onClick={() => inputRef.current?.focus()}
-                        className="px-6 py-4 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[11px] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] transition-all active:scale-[0.97] shrink-0 flex items-center justify-center gap-2.5"
+                        className="px-6 py-4 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[11px] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] transition-all active:scale-[0.97] shrink-0 flex items-center justify-center gap-2.5"
                     >
                         {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Search className="w-4 h-4" />}
                         {loading ? 'Indexing' : 'Search'}
@@ -442,13 +442,13 @@ const QuestionBank = () => {
                                         'bg-white/5 text-white/20'
                                     }`}>{q.difficulty}</span>
                                     <span className="text-white/30">{q.exam}</span>
-                                    <span className="text-white/10">·</span>
+                                    <span className="text-white/10">Â·</span>
                                     <span className="text-white/30">{q.subject}</span>
-                                    <span className="text-white/10">·</span>
+                                    <span className="text-white/10">Â·</span>
                                     <span className="text-white/30">{q.topic}</span>
                                     {q.year && (
                                         <>
-                                            <span className="text-white/10">·</span>
+                                            <span className="text-white/10">Â·</span>
                                             <span className="text-white/30">{q.year}</span>
                                         </>
                                     )}

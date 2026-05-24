@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { api } from '../services/localApi';
 import { useTheme } from '../context/ThemeContext';
@@ -87,7 +87,7 @@ const Settings = () => {
                 <button
                     onClick={handleSave}
                     disabled={loading}
-                    className="inline-flex items-center gap-2 md:gap-3 px-4 md:px-8 py-2.5 md:py-4 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-lg md:rounded-2xl font-black text-[10px] uppercase tracking-widest transition-all border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-95 shrink-0"
+                    className="inline-flex items-center gap-2 md:gap-3 px-4 md:px-8 py-2.5 md:py-4 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-lg md:rounded-2xl font-black text-[10px] uppercase tracking-widest transition-all border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] active:scale-95 shrink-0"
                 >
                     {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Save className="w-3.5 h-3.5 md:w-4 md:h-4" />}
                     Save Changes

@@ -1,4 +1,4 @@
-const variants = {
+﻿const variants = {
   primary: 'bg-primary hover:bg-primary-hover text-white',
   secondary: 'bg-white/5 hover:bg-white/10 text-white/70 border border-white/10',
   danger: 'bg-yellow-500 hover:bg-yellow-400 text-black',
@@ -30,7 +30,7 @@ export default function Button({
       type={type}
       onClick={onClick}
       disabled={disabled}
-      className={`rounded-xl font-black uppercase tracking-widest transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 min-h-touch ${variants[variant]} ${sizes[size]} ${disabled ? 'opacity-40 cursor-not-allowed' : ''} ${raised ? 'border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]' : ''} ${className}`}
+      className={`rounded-xl font-black uppercase tracking-widest transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 min-h-touch ${variants[variant]} ${sizes[size]} ${disabled ? 'opacity-40 cursor-not-allowed' : ''} ${raised ? 'border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]' : ''} ${className}`}
       {...props}
     >
       {icon && <span className="shrink-0">{icon}</span>}
