@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import LottieAnimation from './LottieAnimation';
 import gameControllerAnimation from '../assets/game-controller.json';
 
 const LoadingScreen = ({ message = 'Loading...' }) => {
+  const tips = [
+    "Students who review mistakes are 3x more likely to pass",
+    "Practicing 20 minutes daily beats 2 hours once a week",
+    "Your starred questions are waiting — review them to lock in the answers",
+    "Consistency beats intensity. Show up every day.",
+    "The 80/20 rule: 20% of topics cover 80% of exam questions",
+    "Wrong answers aren't failures — they're your study list",
+  ];
+  const [tip] = useState(() => tips[Math.floor(Math.random() * tips.length)]);
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -16,6 +25,9 @@ const LoadingScreen = ({ message = 'Loading...' }) => {
       </div>
       <p className="text-white/30 font-black uppercase tracking-[0.25em] text-[10px] md:text-[11px] text-center">
         {message}
+      </p>
+      <p className="text-white/50 text-sm max-w-xs text-center leading-relaxed font-medium">
+        {tip}
       </p>
     </motion.div>
   );

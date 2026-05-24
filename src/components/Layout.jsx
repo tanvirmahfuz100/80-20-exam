@@ -18,7 +18,7 @@ const navItems = [
     { icon: Target, label: "Practice", path: "/practice" },
     { icon: BookOpen, label: "Courses", path: "/courses" },
     { icon: TrendingUp, label: "Analytics", path: "/analytics" },
-    { icon: Settings, label: "Settings", path: "/settings" },
+    { icon: Star, label: "Stars", path: "/stars" },
 ];
 
 const sidebarTips = [
@@ -320,26 +320,20 @@ const MobileBottomNav = () => {
             className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-surface border-t border-white/10 safe-bottom"
             aria-label="Mobile navigation"
         >
-            <div className="flex items-center justify-around py-1 px-1 max-w-full mx-auto">
+            <div className="flex items-center justify-around py-2 px-1 max-w-full mx-auto">
                 {navItems.map((item) => (
                     <NavLink
                         key={item.path}
                         to={item.path}
                         className={({ isActive }) =>
-                            `flex flex-col items-center gap-0.5 px-2 py-1.5 rounded-xl transition-all relative min-w-0 flex-1
-                            ${isActive ? 'text-primary' : 'text-white/30'}`
+                            `flex flex-col items-center px-2 py-1.5 rounded-xl transition-all min-w-0 flex-1
+                            ${isActive ? 'text-primary' : 'text-white/40'}`
                         }
                     >
                         {({ isActive }) => (
-                            <>
-                                <div className={`p-1.5 rounded-lg transition-all ${isActive ? 'bg-primary/15' : ''}`}>
-                                    <item.icon className={`w-5 h-5 transition-all ${isActive ? 'fill-primary/10' : ''}`} aria-hidden="true" />
-                                </div>
-                                <span className="text-[9px] font-black uppercase tracking-tight">{item.label}</span>
-                                {isActive && (
-                                    <span className="absolute -top-0.5 left-1/2 -translate-x-1/2 w-6 h-0.5 bg-primary rounded-full" aria-hidden="true" />
-                                )}
-                            </>
+                            <div className={`${isActive ? 'bg-primary/20 border border-primary/40 rounded-xl p-2' : 'p-2 rounded-xl'}`}>
+                                <item.icon className="w-6 h-6" aria-hidden="true" />
+                            </div>
                         )}
                     </NavLink>
                 ))}
