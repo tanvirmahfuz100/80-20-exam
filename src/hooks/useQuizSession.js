@@ -19,7 +19,6 @@ export function useQuizSession() {
   const file = searchParams.get('file');
   const title = searchParams.get('title');
   const chapterId = chapterIdFromParams;
-  const title = searchParams.get('title');
   const isTimedMode = searchParams.get('timed') === 'true';
   const isReviewMode = searchParams.get('reviewMode') === 'true';
   const levelParam = searchParams.get('level');
