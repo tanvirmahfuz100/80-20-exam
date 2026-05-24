@@ -845,7 +845,7 @@ const Quiz = () => {
                                     <span className="text-[8px] text-white/20">·</span>
                                     <span className="text-[8px] font-medium text-white/40">Question {currentIndex + 1} of {questions.length}</span>
                                 </div>
-                                <div className="h-1 bg-white/10 rounded-full overflow-hidden">
+                                <div className="h-2 bg-white/15 rounded-full overflow-hidden">
                                     <motion.div
                                         className="h-full bg-primary rounded-full"
                                         initial={{ width: 0 }}
@@ -857,7 +857,7 @@ const Quiz = () => {
                                 </div>
                             </>
                         ) : (
-                            <div className="h-1 bg-white/10 rounded-full overflow-hidden mt-1">
+                            <div className="h-2 bg-white/15 rounded-full overflow-hidden mt-1">
                                 <motion.div
                                     className="h-full bg-primary rounded-full"
                                     initial={{ width: 0 }}
@@ -879,7 +879,7 @@ const Quiz = () => {
                     >
                         <Flag className="w-3.5 h-3.5" />
                     </button>
-                    <div className="flex items-center gap-0.5 px-1.5 py-1 rounded-lg bg-white/5 border border-white/10">
+                    <div className="hidden md:flex items-center gap-0.5 px-1.5 py-1 rounded-lg bg-white/5 border border-white/10">
                         <button
                             onClick={() => setQuizFontSize(s => Math.max(12, s - 2))}
                             className="text-white/50 hover:text-white transition-colors p-1 flex items-center justify-center"
@@ -904,7 +904,7 @@ const Quiz = () => {
                             <span>{formatTime(elapsed)}</span>
                         </div>
                     )}
-                    <div className="hidden xs:flex items-center gap-1 px-2 py-1 rounded-lg bg-white/5 border border-white/10">
+                    <div className="hidden items-center gap-1 px-2 py-1 rounded-lg bg-white/5 border border-white/10">
                         <Zap className="w-3 h-3 text-primary" />
                         <span className="text-white font-black text-[10px] tabular-nums">{totalXpSoFar}</span>
                     </div>
@@ -1113,25 +1113,24 @@ const Quiz = () => {
                                 </div>
                             )}
 
-                            <div className="flex items-center gap-1.5 mb-1.5 flex-wrap shrink-0">
-                                <span className={`text-[8px] font-black px-2 py-0.5 rounded-full uppercase border ${currentQ.difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
-                                    currentQ.difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :
-                                        'text-emerald-400 border-emerald-400/20 bg-emerald-400/5'
-                                    }`}>{currentQ.difficulty}</span>
-                                {currentQ.source && currentQ.source !== 'unknown' && (
-                                    <span className="text-[8px] font-black px-2 py-0.5 rounded-full border border-white/10 bg-white/5 text-white/30 uppercase tracking-wider">
-                                        {currentQ.source}
-                                    </span>
-                                )}
-                                {currentQ.chapter_tag && (
-                                    <span className="text-[8px] font-black px-2 py-0.5 rounded-full border border-primary/20 bg-primary/5 text-primary/50 uppercase tracking-wider">
-                                        {currentQ.chapter_tag}
-                                    </span>
-                                )}
-                            </div>
-
                             <div className="mb-1.5 shrink-0">
-                                <div className="bg-white/[0.04] border border-white/[0.06] rounded-lg p-2">
+                                <div className="bg-white/[0.06] border border-white/[0.06] rounded-xl p-4">
+                                    <div className="flex items-center gap-1.5 mb-2 flex-wrap">
+                                        <span className={`text-[8px] font-black px-2 py-0.5 rounded-full uppercase border ${currentQ.difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
+                                            currentQ.difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :
+                                                'text-emerald-400 border-emerald-400/20 bg-emerald-400/5'
+                                            }`}>{currentQ.difficulty}</span>
+                                        {currentQ.source && currentQ.source !== 'unknown' && (
+                                            <span className="text-[8px] font-black px-2 py-0.5 rounded-full border border-white/10 bg-white/5 text-white/30 uppercase tracking-wider">
+                                                {currentQ.source}
+                                            </span>
+                                        )}
+                                        {currentQ.chapter_tag && (
+                                            <span className="text-[8px] font-black px-2 py-0.5 rounded-full border border-primary/20 bg-primary/5 text-primary/50 uppercase tracking-wider">
+                                                {currentQ.chapter_tag}
+                                            </span>
+                                        )}
+                                    </div>
                                     <h3 className="font-black text-white leading-snug selection:bg-primary/30" style={{ fontSize: `${quizFontSize}px` }}>
                                         {stripMath(currentQ.text)}
                                     </h3>
@@ -1147,7 +1146,7 @@ const Quiz = () => {
                                             animate={{ opacity: 1 }}
                                             exit={{ opacity: 0, x: -30 }}
                                             transition={{ duration: 0.2 }}
-                                            className={`${isManyOptions ? 'grid grid-cols-1 sm:grid-cols-2 gap-2' : 'space-y-2'}`}
+                                            className={`${isManyOptions ? 'grid grid-cols-1 sm:grid-cols-2 gap-3' : 'space-y-3'}`}
                                         >
                                             {shuffledOptions && shuffledOptions.map((option, idx) => {
                                                 let state = 'idle';
@@ -1165,17 +1164,17 @@ const Quiz = () => {
                                                         whileTap={!isAnswered ? { scale: 0.98 } : undefined}
                                                         disabled={isAnswered}
                                                         onClick={(e) => handleOptionSelect(idx, e)}
-                                                        className={`w-full text-left min-h-[40px] md:min-h-[44px] px-3 py-2 rounded-xl border-2 transition-all flex items-center gap-2 group/opt ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400' :
+                                                        className={`w-full text-left min-h-[56px] md:min-h-[64px] px-4 py-4 rounded-xl border-2 transition-all flex items-center gap-3 group/opt ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400' :
                                                             state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300' :
                                                                 state === 'selected' ? 'bg-primary/20 border-primary text-white' :
-                                                                    state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30 scale-[0.98]' :
+                                                                    state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30' :
                                                                         'bg-white/[0.07] border-white/10 text-white/60 hover:border-white/30 hover:bg-white/[0.12] hover:text-white'
                                                             }`}
                                                         role="radio"
                                                         aria-checked={selectedOption === idx}
                                                         tabIndex={isAnswered ? -1 : 0}
                                                     >
-                                                        <span className={`w-6 h-6 md:w-7 md:h-7 rounded-lg flex items-center justify-center text-[10px] font-black border transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
+                                                        <span className={`w-8 h-8 md:w-9 md:h-9 rounded-xl flex items-center justify-center text-xs font-black border transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
                                                             state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
                                                                 state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
                                                                     'bg-black/40 border-white/15 text-white/40 group-hover/opt:border-white/30 group-hover/opt:text-white'
