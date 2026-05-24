@@ -41,7 +41,9 @@ Find all `<button>` positions after the grid start, then for each:
 
 ### Correct Answer
 The correct answer button has `bg-[#017A471A]` CSS class.
-Use regex: `bg-\[#017A471A\]|bg-\[#F59E0B1F\]|bg-\[\#017A47\]`
+Use regex: `bg-\[#017A471A\]`
+
+**Fallback**: Some questions show the answer as text `সঠিক উত্তর: ক)` or `সঠিক উত্তর হলো <strong>খ)` in the explanation section. Extract with: `সঠিক উত্তর[ঃ:\s]*(?:হলো\s*)?<strong>([ক-ঘ])`
 
 ### Sub-Questions
 If a block contains `<div class="space-y-6">`, extract sub-questions from inner `<div class="px-4 pt-4 pb-6 border rounded-xl">` and prepend parent question text.
@@ -73,7 +75,10 @@ If a block contains `<div class="space-y-6">`, extract sub-questions from inner 
 3. **Bengali text**: Console can't display Bengali (renders as `?`) but UTF-8 is preserved in files.
 4. **Grid end detection**: The `</div></div>` after the first button may be INSIDE button content (closing inner divs). Use `IndexOf('</button>', buttonStart)` to find each button's end instead.
 5. **File numbering**: Unnumbered files and file `10.html` both match regex `(\d+)$` differently. Use string key "unnumbered" for files without trailing digits.
-6. **Console encoding**: Set `[Console]::OutputEncoding = [Text.Encoding]::UTF8` before printing Bengali to console (still may not work in all terminals).
+6. **Yellow `#F59E0B1F` is WRONG answer**: `bg-[#F59E0B1F]` (yellow) marks the user's *incorrect* selection, NOT the correct answer. Only `bg-[#017A471A]` (green) is the true correct answer. Never include `F59E0B1F` in the correct-answer regex.
+7. **Answer text can appear as `সঠিক উত্তর:` or `সঠিক উত্তর হলো`**: The answer may be rendered as text in the explanation section. Pattern: `সঠিক উত্তর[ঃ:\s]*(?:হলো\s*)?<strong>([ক-ঘ])`. The Bengali colon `ঃ` (U+0983) is distinct from ASCII `:`.
+8. **Options must be in A/B/C/D key order**: The app uses `Object.values(options)` which follows JSON key insertion order. If keys are `C, A, D, B` instead of `A, B, C, D`, the letter-to-index mapping (`['A','B','C','D'].indexOf(answer)`) will select the wrong option text. Always use `[Ordered]@{}` instead of `@{}` in PowerShell to preserve insertion order.
+9. **Console encoding**: Set `[Console]::OutputEncoding = [Text.Encoding]::UTF8` before printing Bengali to console (still may not work in all terminals).
 
 ## Adding a New Subject
 1. Place JSON files in `public/<exam>/<subject>/`

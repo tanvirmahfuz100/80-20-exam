@@ -44,9 +44,9 @@ function Get-QuestionText {
 
 function Get-Options {
     param([string]$Block, [ref]$AnswerRef)
-    $options = @{}
+    $options = [Ordered]@{}
     $ansLetter = ""
-    $correctBG = 'bg-\[#017A471A\]|bg-\[#F59E0B1F\]|bg-\[\#017A47\]'
+    $correctBG = 'bg-\[#017A471A\]|bg-\[\#017A47\]'
     
     # Find options grid start
     $gridStart = $Block.IndexOf('grid grid-cols-1 gap-2')
@@ -88,6 +88,20 @@ function Get-Options {
             $options[$en] = $optText
             if ($btnContent -match $correctBG) {
                 $ansLetter = $en
+            }
+        }
+    }
+    
+    # Fallback: extract answer from text like "সঠিক উত্তর: ক)" or "সঠিক উত্তর হলো <strong>খ)"
+    if ($ansLetter -eq "") {
+        $txtMatch = [regex]::Match($Block, 'সঠিক উত্তর[ঃ:\s]*(?:হলো\s*)?<strong>([ক-ঘ])')
+        if ($txtMatch.Success) {
+            $ch = $txtMatch.Groups[1].Value
+            for ($i = 0; $i -lt 4; $i++) {
+                if ($ch -eq $bnLetters[$i]) {
+                    $ansLetter = $enLetters[$i]
+                    break
+                }
             }
         }
     }
