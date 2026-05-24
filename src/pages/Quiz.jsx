@@ -1114,7 +1114,7 @@ const Quiz = () => {
                             )}
 
                             <div className="mb-1.5 shrink-0">
-                                <div className="bg-white/[0.06] border border-white/[0.06] rounded-xl p-4">
+                                <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-4">
                                     <div className="flex items-center gap-1.5 mb-2 flex-wrap">
                                         <span className={`text-[8px] font-black px-2 py-0.5 rounded-full uppercase border ${currentQ.difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
                                             currentQ.difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :
@@ -1146,7 +1146,7 @@ const Quiz = () => {
                                             animate={{ opacity: 1 }}
                                             exit={{ opacity: 0, x: -30 }}
                                             transition={{ duration: 0.2 }}
-                                            className={`${isManyOptions ? 'grid grid-cols-1 sm:grid-cols-2 gap-3' : 'space-y-3'}`}
+                                            className={`${isManyOptions ? 'grid grid-cols-1 sm:grid-cols-2 gap-3 auto-rows-fr' : 'flex flex-col gap-3'}`}
                                         >
                                             {shuffledOptions && shuffledOptions.map((option, idx) => {
                                                 let state = 'idle';
@@ -1164,11 +1164,11 @@ const Quiz = () => {
                                                         whileTap={!isAnswered ? { scale: 0.98 } : undefined}
                                                         disabled={isAnswered}
                                                         onClick={(e) => handleOptionSelect(idx, e)}
-                                                        className={`w-full text-left min-h-[56px] md:min-h-[64px] px-4 py-4 rounded-xl border-2 transition-all flex items-center gap-3 group/opt ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400' :
+                                                        className={`w-full text-left flex-1 min-h-[56px] md:min-h-[64px] px-4 py-4 rounded-xl border-2 transition-all flex items-center gap-3 group/opt ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400' :
                                                             state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300' :
                                                                 state === 'selected' ? 'bg-primary/20 border-primary text-white' :
                                                                     state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30' :
-                                                                        'bg-white/[0.07] border-white/10 text-white/60 hover:border-white/30 hover:bg-white/[0.12] hover:text-white'
+                                                                        'bg-white/[0.10] border-white/20 text-white/80 hover:border-white/40 hover:bg-white/[0.16] hover:text-white'
                                                             }`}
                                                         role="radio"
                                                         aria-checked={selectedOption === idx}
@@ -1177,7 +1177,7 @@ const Quiz = () => {
                                                         <span className={`w-8 h-8 md:w-9 md:h-9 rounded-xl flex items-center justify-center text-xs font-black border transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
                                                             state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
                                                                 state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
-                                                                    'bg-black/40 border-white/15 text-white/40 group-hover/opt:border-white/30 group-hover/opt:text-white'
+                                                                    'bg-white/10 border-white/20 text-white/70 group-hover/opt:border-white/30 group-hover/opt:text-white'
                                                             }`}>
                                                             {String.fromCharCode(65 + idx)}
                                                         </span>
@@ -1321,13 +1321,7 @@ const Quiz = () => {
                                 </AnimatePresence>
                             </div>
 
-                            {!isAnswered && (
-                                <div className="mt-2 pt-2 border-t border-white/5 shrink-0">
-                                    <p className="text-[8px] text-white/20 font-medium text-center">
-                                        Wrong answers are saved for spaced repetition review
-                                    </p>
-                                </div>
-                            )}
+                            
                         </>
                     )}
                 </div>
