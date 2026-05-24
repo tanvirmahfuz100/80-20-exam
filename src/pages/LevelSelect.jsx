@@ -7,7 +7,7 @@ import {
   BrainCircuit, TrendingUp, Sparkles
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
-import { normalizeQuizQuestions } from './Quiz';
+import { normalizeQuizQuestions } from '../services/quizUtils';
 import { computeLevels, getLevelProgress, isLevelUnlocked, getUserStats } from '../services/levels';
 
 const LevelSelect = () => {

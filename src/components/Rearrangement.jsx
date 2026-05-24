@@ -1,54 +1,7 @@
 import React, { useState, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronUp, ChevronDown, Check, X, RefreshCw, Eye, AlertTriangle } from 'lucide-react';
-
-const ConfirmDialog = ({ show, title, message, confirmLabel, cancelLabel, onConfirm, onCancel, danger }) => {
-  if (!show) return null;
-  return (
-    <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
-      <div className="absolute inset-0 bg-black/80" onClick={onCancel} />
-      <motion.div
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: 40 }}
-        transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-        className="relative w-full sm:max-w-sm bg-surface border border-white/10 rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
-        onClick={e => e.stopPropagation()}
-      >
-        <div className="flex items-start gap-3">
-          <div className={`p-2 rounded-xl shrink-0 ${danger ? 'bg-yellow-500/15' : 'bg-primary/15'}`}>
-            {danger
-              ? <AlertTriangle className="w-5 h-5 text-yellow-400" />
-              : <Check className="w-5 h-5 text-primary" />
-            }
-          </div>
-          <div className="min-w-0 flex-1">
-            <h3 className="text-sm font-black text-white uppercase tracking-wider">{title}</h3>
-            <p className="text-[11px] text-white/50 font-medium mt-1 leading-relaxed">{message}</p>
-          </div>
-        </div>
-        <div className="flex gap-2">
-          <button
-            onClick={onCancel}
-            className="flex-1 py-3 bg-white/5 hover:bg-white/10 text-white/70 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] border border-white/10"
-          >
-            {cancelLabel || 'Cancel'}
-          </button>
-          <button
-            onClick={onConfirm}
-            className={`flex-1 py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] ${
-              danger
-                ? 'bg-yellow-500 text-black hover:bg-yellow-400'
-                : 'bg-primary hover:bg-primary-hover text-white'
-            }`}
-          >
-            {confirmLabel || 'Confirm'}
-          </button>
-        </div>
-      </motion.div>
-    </div>
-  );
-};
+import { ChevronUp, ChevronDown, Check, X, RefreshCw, Eye } from 'lucide-react';
+import { ConfirmDialog } from './ui';
 
 const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSize = 16, onWrongAttempt, onContinue }) => {
   const initialOrder = useMemo(() => sentences.map(s => s.id), [sentences]);

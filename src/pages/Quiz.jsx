@@ -20,144 +20,8 @@ import CreativeQuestionViewer from '../components/CreativeQuestionViewer';
 import LoadingScreen from '../components/LoadingScreen';
 import { playSound } from '../utils/sounds';
 import { computeLevels, saveLevelProgress, addXp, addStars, completeDailyChallengeById, advanceWeeklyChallenge } from '../services/levels';
-
-const stripMath = (text) => {
-  if (!text) return '';
-  return text
-    .replace(/\$/g, '')
-    .replace(/\\frac\{([^}]*)\}\{([^}]*)\}/g, '$1/$2')
-    .replace(/\\sqrt\{([^}]*)\}/g, '√$1')
-    .replace(/\\cdot/g, '·')
-    .replace(/\\times/g, '×')
-    .replace(/\\Rightarrow/g, '→')
-    .replace(/\\approx/g, '≈')
-    .replace(/\\neq/g, '≠')
-    .replace(/\\ge/g, '≥')
-    .replace(/\\le/g, '≤')
-    .replace(/\\implies/g, '⇒')
-    .replace(/\\therefore/g, '∴');
-};
-
-
-
-export const normalizeQuizQuestions = (payload) => {
-    const sourceQuestions = Array.isArray(payload)
-        ? payload
-        : Array.isArray(payload?.questions)
-            ? payload.questions
-            : [];
-
-    return sourceQuestions.flatMap((question) => {
-        if (question._type === 'substitution_table' || question._type === 'model_test' || question._type === 'creative_question') {
-            return [question];
-        }
-        if (Array.isArray(question.blanks) && question.blanks.length > 0) {
-            const qId = question.id || question.question_id || 'q';
-            return question.blanks.map((blank, blankIndex) => {
-                const blankId = blank.blankId || blank.blank_id || blank.id || String(blankIndex + 1);
-                const options = Array.isArray(blank.options)
-                    ? blank.options.map((option) => (typeof option === 'string' ? option : option?.text || ''))
-                    : [];
-
-                let correct = -1;
-                if (blank.correct_answer) {
-                    correct = options.findIndex(
-                        (option) => String(option).trim().toLowerCase() === String(blank.correct_answer).trim().toLowerCase()
-                    );
-                }
-                if (correct === -1) {
-                    correct = (blank.options || []).findIndex((option) => option?.isCorrect);
-                }
-                if (correct === -1 && options.length > 0) {
-                    correct = 0;
-                }
-
-                const correctOption = Array.isArray(blank.options)
-                    ? blank.options.find((option) => option?.isCorrect)
-                    : undefined;
-                const explanation_bn = correctOption?.explanationBn || correctOption?.explanation_bn || blank.explanation_bn || '';
-                const explanation_en = correctOption?.explanationEn || correctOption?.explanation_en || blank.explanation_en || '';
-
-                return {
-                    id: `${qId}_${blankId}`,
-                    text: `Choose the correct word for blank (${blankId})`,
-                    passage: question.passage || question.passage_text || '',
-                    boxWords: question.boxWords || [],
-                    blankId,
-                    options,
-                    correct,
-                    explanation: explanation_bn,
-                    explanation_bn,
-                    explanation_en,
-                    difficulty: question.difficulty || 'medium'
-                };
-            });
-        }
-
-        if (Array.isArray(question.subQuestions) && question.subQuestions.length > 0) {
-            return question.subQuestions.map((subQ) => ({
-                id: subQ.id,
-                text: `${subQ.instruction || 'Transform the sentence'}: "${subQ.sentence}"`,
-                passage: subQ.sentence || '',
-                options: (subQ.options || []).map((option) => option.text),
-                correct: (subQ.options || []).findIndex((option) => option.isCorrect),
-                explanation: (subQ.options || []).find((option) => option.isCorrect)?.explanationBn || '',
-                difficulty: question.difficulty || 'medium'
-            }));
-        }
-
-        let options = [];
-        let correct = typeof question.correct === 'number' ? question.correct : 0;
-        if (question.options && typeof question.options === 'object' && !Array.isArray(question.options)) {
-            options = Object.values(question.options);
-            if (question.answer) {
-                correct = ['A', 'B', 'C', 'D'].indexOf(question.answer.toUpperCase());
-            }
-        } else {
-            options = (question.options || []).map((option) => (
-                typeof option === 'string' ? option : option.text || option.option_text || ''
-            ));
-        }
-
-        if (question.correct_answer !== undefined && options.length > 0) {
-            const found = options.findIndex(
-                (opt) => String(opt).trim().toLowerCase() === String(question.correct_answer).trim().toLowerCase()
-            );
-            if (found !== -1) correct = found;
-        }
-
-        if (question.correct_tag !== undefined) {
-            const found = options.findIndex(
-                (opt) => String(opt).trim().toLowerCase() === String(question.correct_tag).trim().toLowerCase()
-            );
-            if (found !== -1) correct = found;
-            else correct = 0;
-        }
-
-        return [{
-            id: question.id || question.question_id || question._id || String(Math.random()),
-            text: question.question || question.text || question.statement || question.stem || question.passage || 'Question',
-            passage: question.passage || '',
-            boxWords: question.boxWords || [],
-            blankId: question.blankId || null,
-            options,
-            correct,
-            explanation: (() => {
-                const explanationBn = question.explanation_bn || question.explanationBn || '';
-                const explanationEn = question.explanation_en || question.explanationEn || '';
-                if (explanationBn && explanationEn) {
-                    return `বাংলা ব্যাখ্যা:\n${explanationBn}\n\nEnglish Explanation:\n${explanationEn}`;
-                }
-                return explanationBn || explanationEn || question.explanation || '';
-            })(),
-            explanation_bn: question.explanation_bn || question.explanationBn || '',
-            explanation_en: question.explanation_en || question.explanationEn || '',
-            explanation_distractors: question.explanation_distractors || [],
-            source: question.source || question.exam_appearance || '',
-            difficulty: question.difficulty || 'medium'
-        }];
-    });
-};
+import { stripMath, normalizeQuizQuestions } from '../services/quizUtils';
+import QuizResultScreen from '../components/QuizResultScreen';
 
 const Quiz = () => {
     const { user, updateProfileFields } = useAuth();
@@ -643,161 +507,32 @@ const Quiz = () => {
         const earnedXp = score * 10;
         const earnedStars = wrongAttempts;
 
-        if (currentLevel) {
-            return (
-                <div className="max-w-3xl mx-auto animate-in zoom-in-95 duration-500">
-                    <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl p-4 md:p-10 shadow-lg relative overflow-hidden">
-                        <div className="relative z-10 text-center space-y-4 md:space-y-8">
-                            <div className="inline-flex p-3 md:p-5 bg-primary/10 rounded-full border border-primary/20 mb-1 md:mb-2">
-                                <Trophy className="w-6 h-6 md:w-12 md:h-12 text-primary" />
-                            </div>
-
-                            <div>
-                                <h2 className="text-xl md:text-3xl font-black text-white tracking-tighter mb-1 uppercase">Level {currentLevel} Complete!</h2>
-                                <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-xs truncate px-2">{title}</p>
-                            </div>
-
-                            <div className="grid grid-cols-2 gap-2 md:gap-4">
-                                <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
-                                    <div className={`font-black text-lg md:text-3xl mb-0.5 ${accuracy >= 80 ? 'text-emerald-400' : accuracy >= 50 ? 'text-yellow-400' : 'text-white/50'}`}>{accuracy}%</div>
-                                    <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Accuracy</div>
-                                </div>
-                                <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
-                                    <div className="text-emerald-500 font-black text-lg md:text-3xl mb-0.5">{score}/{modelTestTotal || questions.length}</div>
-                                    <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Correct</div>
-                                </div>
-                            </div>
-
-                            <div className="grid grid-cols-2 gap-2 md:gap-4">
-                                <div className="bg-primary/10 p-3 md:p-6 rounded-xl md:rounded-2xl border border-primary/20">
-                                    <div className="flex items-center justify-center gap-1.5">
-                                        <Zap className="w-4 h-4 md:w-6 md:h-6 text-primary" />
-                                        <span className="text-primary font-black text-lg md:text-3xl">+{earnedXp}</span>
-                                    </div>
-                                    <div className="text-[8px] md:text-[10px] text-primary/50 font-black uppercase tracking-widest mt-0.5">XP Earned</div>
-                                </div>
-                                {earnedStars === 0 ? (
-                                <div className="bg-emerald-500/10 p-3 md:p-6 rounded-xl md:rounded-2xl border border-emerald-500/20">
-                                    <div className="flex items-center justify-center gap-1.5">
-                                        <Trophy className="w-4 h-4 md:w-6 md:h-6 text-emerald-400" />
-                                        <span className="text-emerald-400 font-black text-lg md:text-3xl">Perfect Run!</span>
-                                    </div>
-                                    <div className="text-[8px] md:text-[10px] text-emerald-400/50 font-black uppercase tracking-widest mt-0.5">No mistakes</div>
-                                </div>
-                                ) : (
-                                <div className="bg-yellow-500/10 p-3 md:p-6 rounded-xl md:rounded-2xl border border-yellow-500/20">
-                                    <div className="flex items-center justify-center gap-1.5">
-                                        <Star className="w-4 h-4 md:w-6 md:h-6 text-yellow-400" />
-                                        <span className="text-yellow-400 font-black text-lg md:text-3xl">{earnedStars}</span>
-                                    </div>
-                                    <div className="text-[8px] md:text-[10px] text-yellow-400/50 font-black uppercase tracking-widest mt-0.5">Stars to Review</div>
-                                    <div className="text-[6px] md:text-[8px] text-yellow-400/30 font-black uppercase tracking-widest mt-0.5">Review these to master them</div>
-                                </div>
-                                )}
-                            </div>
-
-                            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 pt-2 md:pt-6">
-                                <button
-                                    onClick={() => navigate('/practice')}
-                                    className="flex-1 py-3 md:py-4 bg-white/5 hover:bg-white/10 text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border border-white/5 transition-all active:scale-[0.98] min-h-touch"
-                                >
-                                    Go Home
-                                </button>
-                                <button
-                                    onClick={() => window.location.reload()}
-                                    className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
-                                >
-                                    <RefreshCw className="w-4 h-4" aria-hidden="true" /> Practice Again
-                                </button>
-                                {accuracy >= 80 && (
-                                <button
-                                    onClick={() => {
-                                        const nextLevel = currentLevel + 1;
-                                        navigate(`/quiz/${chapterId}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(title)}&level=${nextLevel}`);
-                                    }}
-                                    className="flex-1 py-3 md:py-4 bg-emerald-500 hover:bg-emerald-400 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
-                                >
-                                    <Trophy className="w-4 h-4" /> Next Level
-                                </button>
-                                )}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            );
-        }
+        const handleNextModel = nextModelFile ? () => {
+            const nextTitle = title?.replace(/Model Test \d+/, m => {
+                const n = parseInt(m.match(/\d+/)?.[0] || '0', 10) + 1;
+                return `Model Test ${String(n).padStart(2, '0')}`;
+            });
+            navigate(`/quiz/${chapterId}?file=${encodeURIComponent(nextModelFile)}&title=${encodeURIComponent(nextTitle || title)}&chapterId=${chapterId}`);
+        } : null;
 
         return (
-            <div className="max-w-3xl mx-auto animate-in zoom-in-95 duration-500">
-                    <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl p-4 md:p-10 shadow-lg relative overflow-hidden">
-                    <div className="relative z-10 text-center space-y-4 md:space-y-8">
-                        <div className="inline-flex p-3 md:p-5 bg-primary/10 rounded-full border border-primary/20 mb-1 md:mb-2">
-                            <Trophy className="w-6 h-6 md:w-12 md:h-12 text-primary" />
-                        </div>
-
-                        <div>
-                            <h2 className="text-xl md:text-4xl font-black text-white tracking-tighter mb-1 uppercase">Practice Complete!</h2>
-                            <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-xs truncate px-2">{title}</p>
-                        </div>
-
-                        <div className="grid grid-cols-3 gap-2 md:gap-6">
-                            <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
-                                <div className="text-primary font-black text-lg md:text-3xl mb-0.5">{accuracy}%</div>
-                                <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Accuracy</div>
-                            </div>
-                            <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
-                                <div className="text-emerald-500 font-black text-lg md:text-3xl mb-0.5">{score}/{modelTestTotal || questions.length}</div>
-                                <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Correct</div>
-                            </div>
-                            {earnedStars === 0 ? (
-                            <div className="bg-emerald-500/10 p-3 md:p-6 rounded-xl md:rounded-2xl border border-emerald-500/20">
-                                <div className="flex items-center justify-center gap-1.5">
-                                    <div className="text-emerald-400 font-black text-lg md:text-3xl">Clean!</div>
-                                </div>
-                                <div className="text-[8px] md:text-[10px] text-emerald-400/50 font-black uppercase tracking-widest mt-0.5">No mistakes</div>
-                            </div>
-                            ) : (
-                            <div className="bg-yellow-500/10 p-3 md:p-6 rounded-xl md:rounded-2xl border border-yellow-500/20">
-                                <div className="flex items-center justify-center gap-1.5">
-                                    <Star className="w-4 h-4 md:w-6 md:h-6 text-yellow-400" />
-                                    <span className="text-yellow-400 font-black text-lg md:text-3xl">{earnedStars}</span>
-                                </div>
-                                <div className="text-[8px] md:text-[10px] text-yellow-400/50 font-black uppercase tracking-widest mt-0.5">Stars to Review</div>
-                                <div className="text-[6px] md:text-[8px] text-yellow-400/30 font-black uppercase tracking-widest mt-0.5">Review these to master them</div>
-                            </div>
-                            )}
-                        </div>
-
-                        <div className="flex flex-col sm:flex-row gap-3 md:gap-4 pt-2 md:pt-6">
-                            <button onClick={() => navigate('/practice')} className="flex-1 py-3 md:py-4 bg-white/5 hover:bg-white/10 text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border border-white/5 transition-all active:scale-[0.98] min-h-touch">
-                                Back Home
-                            </button>
-                            <button onClick={() => window.location.reload()} className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch">
-                                <RefreshCw className="w-4 h-4 md:w-4 md:h-4" aria-hidden="true" /> Try Again
-                            </button>
-                            {nextModelFile && (
-                                <button
-                                    onClick={() => {
-                                        const nextTitle = title?.replace(/Model Test \d+/, m => {
-                                            const n = parseInt(m.match(/\d+/)?.[0] || '0', 10) + 1;
-                                            return `Model Test ${String(n).padStart(2, '0')}`;
-                                        });
-                                        navigate(`/quiz/${chapterId}?file=${encodeURIComponent(nextModelFile)}&title=${encodeURIComponent(nextTitle || title)}&chapterId=${chapterId}`);
-                                    }}
-                                    className="flex-1 py-3 md:py-4 bg-emerald-500 hover:bg-emerald-400 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
-                                >
-                                    Next Model
-                                </button>
-                            )}
-                        </div>
-                        {file?.includes('model_') && (
-                            <button onClick={() => navigate('/practice')} className="text-[9px] font-bold text-white/20 hover:text-white/40 transition-colors mt-2">
-                                ← All Model Tests
-                            </button>
-                        )}
-                    </div>
-                </div>
-            </div>
+            <QuizResultScreen
+                score={score}
+                totalQuestions={totalQ}
+                title={title}
+                accuracy={accuracy}
+                earnedXp={earnedXp}
+                earnedStars={earnedStars}
+                currentLevel={currentLevel}
+                file={file}
+                onGoHome={() => navigate('/practice')}
+                onPracticeAgain={() => window.location.reload()}
+                onNextLevel={accuracy >= 80 ? () => {
+                    const nextLevel = currentLevel + 1;
+                    navigate(`/quiz/${chapterId}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(title)}&level=${nextLevel}`);
+                } : null}
+                onNextModel={handleNextModel}
+            />
         );
     }
 
