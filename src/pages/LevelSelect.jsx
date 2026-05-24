@@ -181,86 +181,133 @@ const LevelSelect = () => {
         </div>
       )}
 
-      <div className="space-y-2">
-        {levelsWithMeta.map((level, idx) => (
-          <motion.button
-            key={level.levelNumber}
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: idx * 0.05, duration: 0.25 }}
-            onClick={() => level.unlocked && !level.completed && handleStartLevel(level.levelNumber)}
-            disabled={!level.unlocked || level.completed}
-            className={`w-full text-left rounded-xl border transition-all overflow-hidden ${
-              !level.unlocked
-                ? 'bg-surface/50 border-white/5 opacity-50 cursor-not-allowed'
-                : level.completed
-                  ? 'bg-emerald-500/5 border-emerald-500/20 cursor-default'
-                  : 'bg-surface border-white/5 hover:border-primary/30 hover:bg-white/[0.03] cursor-pointer active:scale-[0.99]'
-            }`}
-          >
-            <div className="grid grid-cols-[auto_1fr_auto] items-center gap-3 p-4">
-              <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 font-black text-sm ${
-                !level.unlocked
-                  ? 'bg-white/[0.04] text-white/15'
-                  : level.completed
-                    ? 'bg-emerald-500/15 text-emerald-400'
-                    : 'bg-primary/15 text-primary'
-              }`}>
-                {!level.unlocked ? (
-                  <Lock className="w-4 h-4" />
-                ) : level.completed ? (
-                  <CheckCircle className="w-5 h-5" />
-                ) : (
-                  <span>{String(level.levelNumber).padStart(2, '0')}</span>
-                )}
-              </div>
+      {/* Zigzag roadmap */}
+      <div className="relative px-2 pb-2">
+        <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-white/5 -translate-x-1/2" />
 
-              <div className="min-w-0">
-                <h4 className={`font-black tracking-tight text-sm leading-tight ${
-                  level.unlocked ? 'text-white' : 'text-white/40'
-                }`}>
-                  Level {level.levelNumber}
-                </h4>
-                <p className="text-[10px] font-bold text-white/30 mt-0.5">
-                  {level.type === 'passage'
-                    ? `${level.passageCount} passage${level.passageCount > 1 ? 's' : ''}`
-                    : `${level.questions.length} question${level.questions.length !== 1 ? 's' : ''}`
-                  }
-                  {level.completed && level.accuracy != null && (
-                    <span className="ml-2 text-emerald-400">• {level.accuracy}%</span>
-                  )}
-                </p>
-                {level.completed && (
-                  <div className="flex items-center gap-2 mt-1.5">
-                    <div className="flex items-center gap-0.5">
-                      <Zap className="w-2.5 h-2.5 text-primary/60" />
-                      <span className="text-[9px] font-black text-primary/60 tabular-nums">+{level.xpEarned}XP</span>
-                    </div>
-                    {level.starsEarned > 0 && (
-                      <div className="flex items-center gap-0.5">
-                        <Star className="w-2.5 h-2.5 text-yellow-400/60" />
-                        <span className="text-[9px] font-black text-yellow-400/60 tabular-nums">+{level.starsEarned}</span>
-                      </div>
-                    )}
+        {(() => {
+          const items = [];
+          for (let i = 0; i < levelsWithMeta.length; i++) {
+            items.push({ type: 'level', level: levelsWithMeta[i], index: i });
+            if ((i + 1) % 5 === 0 && i < levelsWithMeta.length - 1) {
+              items.push({ type: 'milestone' });
+            }
+          }
+
+          const firstUncompletedIdx = levelsWithMeta.findIndex(l => l.unlocked && !l.completed);
+
+          const nodeContent = (level, idx) => {
+            const isLocked = !level.unlocked;
+            const isCurrent = idx === firstUncompletedIdx;
+
+            if (isLocked) {
+              return (
+                <div className="w-16 h-16 rounded-full bg-gray-700/50 flex items-center justify-center cursor-not-allowed">
+                  <Lock className="w-6 h-6 text-gray-500" />
+                </div>
+              );
+            }
+
+            if (isCurrent) {
+              return (
+                <div className="relative">
+                  <div className="absolute inset-0 rounded-full bg-primary animate-ping opacity-70" />
+                  <button
+                    className="relative w-16 h-16 rounded-full bg-primary flex items-center justify-center cursor-pointer shadow-lg shadow-primary/30"
+                    onClick={() => handleStartLevel(level.levelNumber)}
+                  >
+                    <span className="text-black font-black text-lg">{level.levelNumber}</span>
+                  </button>
+                  <div className="absolute -top-11 left-1/2 -translate-x-1/2 bg-white text-gray-900 text-[11px] font-black px-3 py-1.5 rounded-lg whitespace-nowrap shadow-xl z-20 tracking-widest">
+                    START
+                    <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-white" />
                   </div>
-                )}
-              </div>
+                </div>
+              );
+            }
 
-              {level.unlocked && !level.completed && (
-                <div className="flex items-center gap-1.5 px-4 py-2 bg-primary text-black font-black uppercase tracking-widest rounded-xl text-[9px] shadow-lg shadow-primary/10">
-                  <Trophy className="w-3 h-3" />
-                  Start
+            return (
+              <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center shadow-lg shadow-primary/20">
+                <Star className="w-8 h-8 text-white fill-white" />
+              </div>
+            );
+          };
+
+          const dotColor = (level, idx) => {
+            if (idx === firstUncompletedIdx) return 'bg-primary';
+            if (level.completed) return 'bg-emerald-500';
+            return 'bg-gray-600';
+          };
+
+          const nodeLabel = (level) => {
+            const isLocked = !level.unlocked;
+            return (
+              <span className={`text-xs mt-1.5 max-w-[128px] leading-tight font-medium truncate ${
+                isLocked ? 'text-white/20' : 'text-white/50'
+              }`}>
+                Level {level.levelNumber}
+              </span>
+            );
+          };
+
+          return items.map((item, idx) => {
+            if (item.type === 'milestone') {
+              return (
+                <motion.div
+                  key={`ms-${idx}`}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: idx * 0.03, duration: 0.3 }}
+                  className="relative flex items-center justify-center py-5"
+                >
+                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center shadow-lg shadow-yellow-500/40 z-10 ring-4 ring-gray-900">
+                    <Trophy className="w-9 h-9 text-white" />
+                  </div>
+                </motion.div>
+              );
+            }
+
+            const level = item.level;
+            const i = item.index;
+            const isLeft = i % 2 === 0;
+
+            return (
+              <motion.div
+                key={level.levelNumber}
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: idx * 0.03, duration: 0.25 }}
+                className="relative flex items-center py-[18px]"
+              >
+                <div className={`absolute top-1/2 w-[80px] h-px bg-white/5 -translate-y-1/2 ${
+                  isLeft ? 'right-1/2' : 'left-1/2'
+                }`} />
+
+                <div className="flex-1 flex justify-end pr-20">
+                  {isLeft && (
+                    <div className="flex flex-col items-end">
+                      {nodeContent(level, i)}
+                      {nodeLabel(level)}
+                    </div>
+                  )}
                 </div>
-              )}
-              {level.completed && (
-                <div className="flex items-center gap-1.5 px-3 py-2 bg-emerald-500/10 text-emerald-400 font-black uppercase tracking-widest rounded-xl text-[9px]">
-                  <CheckCircle className="w-3 h-3" />
-                  Done
+
+                <div className="absolute left-1/2 -translate-x-1/2 z-10">
+                  <div className={`w-3.5 h-3.5 rounded-full border-2 border-gray-900 ${dotColor(level, i)}`} />
                 </div>
-              )}
-            </div>
-          </motion.button>
-        ))}
+
+                <div className="flex-1 flex justify-start pl-20">
+                  {!isLeft && (
+                    <div className="flex flex-col items-start">
+                      {nodeContent(level, i)}
+                      {nodeLabel(level)}
+                    </div>
+                  )}
+                </div>
+              </motion.div>
+            );
+          });
+        })()}
       </div>
 
       {levelsWithMeta.some(l => l.completed && l.accuracy >= 80) && (
