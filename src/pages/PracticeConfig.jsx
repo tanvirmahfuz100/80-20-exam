@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Book, Calculator, Brain, Briefcase, ChevronRight, Play, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles, Check } from 'lucide-react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
@@ -145,10 +145,9 @@ const SubjectCard = ({ subject, isSelected, onClick, progress, version }) => {
             whileTap={{ scale: 0.98 }}
             className={`relative w-full text-left rounded-xl border transition-all group ${
                 isSelected
-                    ? 'bg-primary/12 border-primary shadow-lg shadow-primary/10 ring-2 ring-primary/30'
+                    ? 'bg-primary/12 border-primary ring-2 ring-primary/30'
                     : 'bg-surface border-white/5 hover:border-primary/30 hover:bg-white/[0.03]'
-            }`}
-        >
+            }`}>
             {isSelected && (
                 <div className="absolute top-0 right-0 p-2 bg-primary/20 text-primary rounded-bl-xl z-10">
                     <ShieldCheck className="w-3 h-3" />
@@ -245,7 +244,7 @@ const ChapterItem = ({ chapter, topic, onClick, questionCount, completedCount, i
                 {hasQuestions && (
                     <button
                         onClick={() => onClick(chapter, cleanName)}
-                        className="flex items-center gap-1.5 px-4 py-2.5 bg-primary text-black font-black uppercase tracking-widest rounded-xl hover:bg-primary-hover transition-all text-[9px] shadow-lg shadow-primary/10 active:scale-95 shrink-0"
+                        className="flex items-center gap-1.5 px-4 py-2.5 bg-primary text-black font-black uppercase tracking-widest rounded-xl hover:bg-primary-hover transition-all text-[9px] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-95 shrink-0"
                     >
                         <Play className="w-3 h-3 fill-current" />
                         Start
@@ -492,7 +491,7 @@ const PracticeConfig = () => {
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3 }}
-                className="relative overflow-hidden rounded-3xl bg-surface p-6 shadow-2xl shadow-black/30 flex flex-col md:flex-row md:items-end justify-between gap-3"
+                className="relative overflow-hidden rounded-3xl bg-surface p-6 flex flex-col md:flex-row md:items-end justify-between gap-3"
             >
                 <div className="absolute -top-8 -right-8 w-36 h-36 opacity-[0.06] pointer-events-none">
                     <LottieAnimation src={targetAnimation} className="w-full h-full" pingPong />
@@ -531,10 +530,10 @@ const PracticeConfig = () => {
                     transition={{ delay: 0.15 }}
                     className="bg-surface border border-white/5 p-0.5 md:p-1 rounded-lg md:rounded-xl flex items-center gap-0.5 md:gap-1 shadow-lg self-start md:self-end shrink-0 relative z-10"
                 >
-                    <button onClick={() => setIsTimed(false)} className={`flex items-center gap-1 md:gap-2 px-2.5 md:px-4 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${!isTimed ? 'bg-primary text-black shadow-lg shadow-primary/20' : 'text-white/20 hover:text-white/40'}`}>
+                    <button onClick={() => setIsTimed(false)} className={`flex items-center gap-1 md:gap-2 px-2.5 md:px-4 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${!isTimed ? 'bg-primary text-black' : 'text-white/20 hover:text-white/40'}`}>
                         Untimed
                     </button>
-                    <button onClick={() => setIsTimed(true)} className={`flex items-center gap-1 md:gap-2 px-2.5 md:px-4 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${isTimed ? 'bg-primary text-black shadow-lg shadow-primary/20' : 'text-white/20 hover:text-white/40'}`}>
+                    <button onClick={() => setIsTimed(true)} className={`flex items-center gap-1 md:gap-2 px-2.5 md:px-4 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${isTimed ? 'bg-primary text-black' : 'text-white/20 hover:text-white/40'}`}>
                         <Timer className="w-3 h-3" />
                         Timed
                     </button>

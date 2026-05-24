@@ -180,7 +180,7 @@ const CreativeQuestionExercise = ({ cq, onContinue, onWrongAttempt, fontSize = 1
           disabled={!allChecked}
           className={`w-full py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 ${
             allChecked
-              ? 'bg-primary hover:bg-primary-hover text-white shadow-lg shadow-primary/20'
+              ? 'bg-primary hover:bg-primary-hover text-white'
               : 'bg-white/5 text-white/20 cursor-not-allowed'
           }`}
         >

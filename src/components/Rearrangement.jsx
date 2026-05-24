@@ -6,7 +6,7 @@ const ConfirmDialog = ({ show, title, message, confirmLabel, cancelLabel, onConf
   if (!show) return null;
   return (
     <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
-      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={onCancel} />
+      <div className="absolute inset-0 bg-black/80" onClick={onCancel} />
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -283,7 +283,7 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
             className={`w-full py-3.5 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 ${
               checked
                 ? 'bg-yellow-500/15 text-yellow-400 border border-yellow-500/30 hover:bg-yellow-500/25'
-                : 'bg-primary hover:bg-primary-hover text-white shadow-lg shadow-primary/20'
+                : 'bg-primary hover:bg-primary-hover text-white'
             }`}
           >
             {checked ? 'Continue Anyway' : 'Check Order'}
@@ -292,7 +292,7 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
         ) : (
           <button
             onClick={() => onContinue?.(1, 1)}
-            className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] shadow-lg shadow-primary/20"
+            className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
           >
             Continue
           </button>

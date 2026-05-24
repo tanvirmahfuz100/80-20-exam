@@ -52,7 +52,7 @@ const Stars = () => {
         {totalDue > 0 && (
           <button
             onClick={handleReviewAll}
-            className="inline-flex items-center gap-2 bg-primary text-black px-5 py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all hover:bg-primary-hover active:scale-[0.98] shadow-lg shadow-primary/20"
+            className="inline-flex items-center gap-2 bg-primary text-black px-5 py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all hover:bg-primary-hover active:scale-[0.98] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
           >
             <Sparkles className="w-3.5 h-3.5" />
             Review All Due

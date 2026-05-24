@@ -83,7 +83,7 @@ const GuideModal = ({ isOpen, onClose }) => {
 
                 <button
                     onClick={onClose}
-                    className="mt-6 w-full py-4 bg-primary hover:bg-primary-hover text-black rounded-2xl font-black uppercase tracking-widest text-xs transition-all active:scale-[0.98]"
+                    className="mt-6 w-full py-4 bg-primary hover:bg-primary-hover text-black rounded-2xl font-black uppercase tracking-widest text-xs transition-all active:scale-[0.98] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
                 >
                     Got it
                 </button>

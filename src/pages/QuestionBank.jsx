@@ -361,7 +361,7 @@ const QuestionBank = () => {
                     </div>
                     <button
                         onClick={() => inputRef.current?.focus()}
-                        className="px-6 py-4 bg-primary hover:bg-primary-hover text-black rounded-xl font-black uppercase tracking-widest text-[11px] shadow-lg shadow-primary/20 transition-all active:scale-[0.97] shrink-0 flex items-center justify-center gap-2.5"
+                        className="px-6 py-4 bg-primary hover:bg-primary-hover text-black rounded-xl font-black uppercase tracking-widest text-[11px] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] transition-all active:scale-[0.97] shrink-0 flex items-center justify-center gap-2.5"
                     >
                         {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Search className="w-4 h-4" />}
                         {loading ? 'Indexing' : 'Search'}

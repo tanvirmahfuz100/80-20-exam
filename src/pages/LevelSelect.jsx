@@ -213,7 +213,7 @@ const LevelSelect = () => {
                 <div className="relative">
                   <div className="absolute inset-0 rounded-full bg-primary animate-ping opacity-70" />
                   <button
-                    className="relative w-16 h-16 rounded-full bg-primary flex items-center justify-center cursor-pointer shadow-lg shadow-primary/30"
+                    className="relative w-16 h-16 rounded-full bg-primary flex items-center justify-center cursor-pointer border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
                     onClick={() => handleStartLevel(level.levelNumber)}
                   >
                     <span className="text-black font-black text-lg">{level.levelNumber}</span>
@@ -227,7 +227,7 @@ const LevelSelect = () => {
             }
 
             return (
-              <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center shadow-lg shadow-primary/20">
+              <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center">
                 <Star className="w-8 h-8 text-white fill-white" />
               </div>
             );
@@ -260,7 +260,7 @@ const LevelSelect = () => {
                   transition={{ delay: idx * 0.03, duration: 0.3 }}
                   className="relative flex items-center justify-center py-5"
                 >
-                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center shadow-lg shadow-yellow-500/40 z-10 ring-4 ring-gray-900">
+                  <div className="w-20 h-20 rounded-full bg-yellow-500 flex items-center justify-center z-10 ring-4 ring-gray-900">
                     <Trophy className="w-9 h-9 text-white" />
                   </div>
                 </motion.div>
@@ -319,7 +319,7 @@ const LevelSelect = () => {
             const nextUncompleted = levelsWithMeta.find(l => l.unlocked && !l.completed);
             if (nextUncompleted) handleStartLevel(nextUncompleted.levelNumber);
           }}
-          className="w-full py-3 bg-primary text-black rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.98] hover:bg-primary-hover flex items-center justify-center gap-2"
+          className="w-full py-3 bg-primary text-black rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.98] hover:bg-primary-hover flex items-center justify-center gap-2 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
         >
           <TrendingUp className="w-4 h-4" />
           Continue Practicing

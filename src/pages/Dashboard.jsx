@@ -250,7 +250,7 @@ const Dashboard = () => {
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
           <Link
             to="/practice"
-            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-black transition-all active:scale-[0.97] shadow-lg shadow-primary/25"
+            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-black transition-all active:scale-[0.97] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
           >
             Start Practice
             <ArrowRight className="w-3.5 h-3.5" />
@@ -515,7 +515,7 @@ const Dashboard = () => {
       ) : (
         <Motion.div variants={itemVariants} className="space-y-4">
           {/* Gamify Banner */}
-          <div className="relative overflow-hidden rounded-3xl bg-surface p-6 shadow-2xl shadow-black/30">
+          <div className="relative overflow-hidden rounded-3xl bg-surface p-6">
             <div className="absolute top-0 right-0 w-48 h-48 bg-primary/[0.03] rounded-full blur-3xl pointer-events-none" />
             <div className="absolute -top-8 -right-8 w-36 h-36 opacity-[0.08] pointer-events-none">
               <LottieAnimation src={gameControllerAnimation} className="w-full h-full" lottieStyle={{ transform: 'scale(1.5)', transformOrigin: 'center center' }} pingPong />
@@ -540,7 +540,7 @@ const Dashboard = () => {
           </div>
 
           {/* Launch CTA */}
-          <div className="relative overflow-hidden rounded-3xl bg-surface p-6 shadow-2xl shadow-black/30">
+          <div className="relative overflow-hidden rounded-3xl bg-surface p-6">
             <div className="absolute top-0 right-0 w-48 h-48 bg-primary/[0.03] rounded-full blur-3xl pointer-events-none" />
             <div className="absolute -top-8 -right-8 w-36 h-36 opacity-[0.06] pointer-events-none">
               <LottieAnimation src={speedometerAnimation} className="w-full h-full" pingPong />
@@ -564,7 +564,7 @@ const Dashboard = () => {
                 <div className="flex flex-col xs:flex-row items-start xs:items-center gap-3">
                   <Link
                     to="/practice"
-                    className="inline-flex items-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-6 py-3 text-2xs font-black uppercase tracking-[0.2em] text-black transition-all active:scale-95 shadow-lg shadow-primary/25"
+                    className="inline-flex items-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-6 py-3 text-2xs font-black uppercase tracking-[0.2em] text-black transition-all active:scale-95 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
                   >
                     Start Your First Practice <ArrowRight className="w-3.5 h-3.5" />
                   </Link>

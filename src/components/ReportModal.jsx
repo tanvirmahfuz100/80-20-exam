@@ -43,7 +43,7 @@ const ReportModal = ({ isOpen, onClose }) => {
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-6 bg-black/80 backdrop-blur-md animate-in fade-in duration-300">
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-6 bg-black/85 animate-in fade-in duration-300">
             <div className="relative w-full max-w-xl bg-surface border border-white/10 rounded-[40px] shadow-2xl overflow-hidden animate-in zoom-in-95 duration-300">
                 {/* Background Glow */}
                 <div className="absolute -top-20 -right-20 w-64 h-64 bg-primary/10 blur-[100px] rounded-full pointer-events-none"></div>
@@ -114,7 +114,7 @@ const ReportModal = ({ isOpen, onClose }) => {
                             <button
                                 type="submit"
                                 disabled={loading}
-                                className="w-full py-5 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-2xl font-black uppercase tracking-[0.2em] text-[10px] shadow-2xl shadow-primary/30 transition-all flex items-center justify-center gap-3 active:scale-95 group"
+                                className="w-full py-5 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-2xl font-black uppercase tracking-[0.2em] text-[10px] transition-all flex items-center justify-center gap-3 active:scale-95 group border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
                             >
                                 {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : <Send className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />}
                                 Initiate Transmission

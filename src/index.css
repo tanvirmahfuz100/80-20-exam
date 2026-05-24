@@ -185,12 +185,12 @@
 
 @layer utilities {
   .glass {
-    @apply backdrop-blur-md bg-white/6 border border-white/10 shadow-xl;
+    @apply bg-white/10 border border-white/10 shadow-xl;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
   }
 
   .glass-strong {
-    @apply backdrop-blur-xl bg-black/60 border border-white/10 shadow-2xl;
+    @apply bg-black/80 border border-white/10 shadow-2xl;
   }
 
   .bn-text {
@@ -357,17 +357,6 @@ body.low-end {
   --low-end-reduced: 1;
 }
 
-body.low-end .backdrop-blur-sm,
-body.low-end .backdrop-blur,
-body.low-end .backdrop-blur-md,
-body.low-end .backdrop-blur-lg,
-body.low-end .backdrop-blur-xl,
-body.low-end .backdrop-blur-2xl,
-body.low-end .backdrop-blur-3xl {
-  backdrop-filter: none !important;
-  -webkit-backdrop-filter: none !important;
-}
-
 body.low-end .blur-3xl,
 body.low-end .blur-2xl,
 body.low-end .blur-xl,
@@ -381,17 +370,6 @@ body.low-end .shadow-lg,
 body.low-end .shadow-xl,
 body.low-end .shadow-2xl {
   box-shadow: none !important;
-}
-
-body.low-end .bg-gradient-to-r,
-body.low-end .bg-gradient-to-l,
-body.low-end .bg-gradient-to-t,
-body.low-end .bg-gradient-to-b,
-body.low-end .bg-gradient-to-tr,
-body.low-end .bg-gradient-to-tl,
-body.low-end .bg-gradient-to-br,
-body.low-end .bg-gradient-to-bl {
-  background-image: none !important;
 }
 
 body.low-end .glass {

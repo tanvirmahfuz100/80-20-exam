@@ -705,7 +705,7 @@ const Quiz = () => {
                                 </button>
                                 <button
                                     onClick={() => window.location.reload()}
-                                    className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] shadow-lg shadow-primary/20 transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
+                                    className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
                                 >
                                     <RefreshCw className="w-4 h-4" aria-hidden="true" /> Practice Again
                                 </button>
@@ -715,7 +715,7 @@ const Quiz = () => {
                                         const nextLevel = currentLevel + 1;
                                         navigate(`/quiz/${chapterId}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(title)}&level=${nextLevel}`);
                                     }}
-                                    className="flex-1 py-3 md:py-4 bg-emerald-500 hover:bg-emerald-400 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] shadow-lg shadow-emerald-500/20 transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
+                                    className="flex-1 py-3 md:py-4 bg-emerald-500 hover:bg-emerald-400 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
                                 >
                                     <Trophy className="w-4 h-4" /> Next Level
                                 </button>
@@ -772,7 +772,7 @@ const Quiz = () => {
                             <button onClick={() => navigate('/practice')} className="flex-1 py-3 md:py-4 bg-white/5 hover:bg-white/10 text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border border-white/5 transition-all active:scale-[0.98] min-h-touch">
                                 Back Home
                             </button>
-                            <button onClick={() => window.location.reload()} className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] shadow-lg shadow-primary/20 transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch">
+                            <button onClick={() => window.location.reload()} className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch">
                                 <RefreshCw className="w-4 h-4 md:w-4 md:h-4" aria-hidden="true" /> Try Again
                             </button>
                             {nextModelFile && (
@@ -784,7 +784,7 @@ const Quiz = () => {
                                         });
                                         navigate(`/quiz/${chapterId}?file=${encodeURIComponent(nextModelFile)}&title=${encodeURIComponent(nextTitle || title)}&chapterId=${chapterId}`);
                                     }}
-                                    className="flex-1 py-3 md:py-4 bg-emerald-500 hover:bg-emerald-400 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] shadow-lg shadow-emerald-500/20 transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
+                                    className="flex-1 py-3 md:py-4 bg-emerald-500 hover:bg-emerald-400 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
                                 >
                                     Next Model
                                 </button>
@@ -822,7 +822,7 @@ const Quiz = () => {
                         transition={{ duration: 1.8, ease: [0.25, 0.1, 0.25, 1] }}
                         style={{ width: 40, height: 40 }}
                     >
-                        <Star className="w-full h-full text-yellow-300 drop-shadow-xl" />
+                        <Star className="w-full h-full text-yellow-300" />
                     </motion.div>
                 ))}
             </div>
@@ -847,7 +847,7 @@ const Quiz = () => {
                                 </div>
                                 <div className="h-1 bg-white/10 rounded-full overflow-hidden">
                                     <motion.div
-                                        className="h-full bg-gradient-to-r from-primary to-primary/70 rounded-full"
+                                        className="h-full bg-primary rounded-full"
                                         initial={{ width: 0 }}
                                         animate={{
                                             width: `${((currentIndex + 1) / questions.length) * 100}%`
@@ -859,7 +859,7 @@ const Quiz = () => {
                         ) : (
                             <div className="h-1 bg-white/10 rounded-full overflow-hidden mt-1">
                                 <motion.div
-                                    className="h-full bg-gradient-to-r from-primary to-primary/70 rounded-full"
+                                    className="h-full bg-primary rounded-full"
                                     initial={{ width: 0 }}
                                     animate={{
                                         width: `${Math.min(((historicalAnswered + currentIndex + 1) / (totalQuestionCount || questions.length)) * 100, 100)}%`
@@ -1165,11 +1165,11 @@ const Quiz = () => {
                                                         whileTap={!isAnswered ? { scale: 0.98 } : undefined}
                                                         disabled={isAnswered}
                                                         onClick={(e) => handleOptionSelect(idx, e)}
-                                                        className={`w-full text-left min-h-[40px] md:min-h-[44px] px-3 py-2 rounded-xl border-2 transition-all flex items-center gap-2 group/opt ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-lg shadow-emerald-500/5' :
-                                                            state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300 shadow-lg shadow-yellow-500/5' :
-                                                                state === 'selected' ? 'bg-primary/20 border-primary text-white shadow-lg shadow-primary/20 scale-[1.01]' :
+                                                        className={`w-full text-left min-h-[40px] md:min-h-[44px] px-3 py-2 rounded-xl border-2 transition-all flex items-center gap-2 group/opt ${state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400' :
+                                                            state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300' :
+                                                                state === 'selected' ? 'bg-primary/20 border-primary text-white' :
                                                                     state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30 scale-[0.98]' :
-                                                                        'bg-white/[0.07] border-white/10 text-white/60 hover:border-white/30 hover:bg-white/[0.12] hover:text-white hover:shadow-lg hover:shadow-white/5'
+                                                                        'bg-white/[0.07] border-white/10 text-white/60 hover:border-white/30 hover:bg-white/[0.12] hover:text-white'
                                                             }`}
                                                         role="radio"
                                                         aria-checked={selectedOption === idx}
@@ -1336,7 +1336,7 @@ const Quiz = () => {
 
             {showExitConfirm && (
                 <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
-                    <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setShowExitConfirm(false)} />
+                    <div className="absolute inset-0 bg-black/80" onClick={() => setShowExitConfirm(false)} />
                     <motion.div
                         initial={{ opacity: 0, y: 40 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -1376,7 +1376,7 @@ const Quiz = () => {
 
             {showReportModal && (
                 <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
-                    <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setShowReportModal(false)} />
+                    <div className="absolute inset-0 bg-black/80" onClick={() => setShowReportModal(false)} />
                     <motion.div
                         initial={{ opacity: 0, y: 40 }}
                         animate={{ opacity: 1, y: 0 }}

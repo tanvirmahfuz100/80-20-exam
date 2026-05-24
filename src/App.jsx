@@ -100,7 +100,7 @@ const OnboardingModal = ({ onComplete }) => {
               </button>
               <button
                 onClick={() => setStep(1)}
-                className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all active:scale-[0.98]"
+                className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-[0.98]"
               >
                 Next
               </button>
@@ -164,7 +164,7 @@ const OnboardingModal = ({ onComplete }) => {
               className={`w-full py-3 md:py-4 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all flex items-center justify-center gap-2 ${
                 !exam
                   ? 'opacity-40 cursor-not-allowed bg-primary/50'
-                  : 'bg-primary hover:bg-primary-hover active:scale-[0.98]'
+                  : 'bg-primary hover:bg-primary-hover border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-[0.98]'
               }`}
             >
               Continue
@@ -225,7 +225,7 @@ const OnboardingModal = ({ onComplete }) => {
               className={`w-full py-3 md:py-4 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all flex items-center justify-center gap-2 ${
                 !version
                   ? 'opacity-40 cursor-not-allowed bg-primary/50'
-                  : 'bg-primary hover:bg-primary-hover active:scale-[0.98]'
+                  : 'bg-primary hover:bg-primary-hover border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-[0.98]'
               }`}
             >
               Continue
@@ -282,7 +282,7 @@ const OnboardingModal = ({ onComplete }) => {
               className={`w-full py-3 md:py-4 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all flex items-center justify-center gap-2 ${
                 saving
                   ? 'opacity-40 cursor-not-allowed bg-primary/50'
-                  : 'bg-primary hover:bg-primary-hover active:scale-[0.98]'
+                  : 'bg-primary hover:bg-primary-hover border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-[0.98]'
               }`}
             >
               {saving ? 'Setting up...' : 'Start Learning'}

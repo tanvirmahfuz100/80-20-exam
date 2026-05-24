@@ -20,7 +20,7 @@ const VocabPopup = ({ vocab, onClose }) => {
   if (!vocab) return null;
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" onClick={onClose}>
-      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
+      <div className="absolute inset-0 bg-black/80" />
       <motion.div
         initial={{ opacity: 0, y: 24, scale: 0.92 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -375,7 +375,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
           >
             <button
               onClick={handleMCQNext}
-              className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 shadow-lg shadow-primary/20"
+              className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
             >
               {mcqIndex < allQuestions.length - 1 ? (
                 <>Next <ChevronRight className="w-3 h-3" /></>
@@ -459,7 +459,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
             <div className="shrink-0 sticky bottom-0">
               <button
                 onClick={handlePassageNext}
-                className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 shadow-lg shadow-primary/20"
+                className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
               >
                 Start Questions <ArrowRight className="w-3 h-3" />
               </button>
@@ -495,7 +495,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
             <div className="shrink-0 sticky bottom-0">
               <button
                 onClick={handlePassageNext}
-                className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 shadow-lg shadow-primary/20"
+                className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
               >
                 Start Questions <ArrowRight className="w-3 h-3" />
               </button>
@@ -576,7 +576,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
             <div className="shrink-0 sticky bottom-0">
               <button
                 onClick={handleSummaryContinue}
-                className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 shadow-lg shadow-primary/20"
+                className="w-full py-3.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
               >
                 {isLast ? 'Finish Test' : 'Next Chapter'} <ArrowRight className="w-3 h-3" />
               </button>

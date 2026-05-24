@@ -65,7 +65,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
         <>
             {isOpen && (
                 <div
-                    className="fixed inset-0 bg-black/70 z-30 md:hidden backdrop-blur-md"
+                    className="fixed inset-0 bg-black/85 z-30 md:hidden"
                     onClick={toggle}
                     aria-hidden="true"
                 />
@@ -200,7 +200,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                         </div>
                     </div>
 
-                    <div className="p-4 border-t border-white/5 space-y-3 bg-black/20 backdrop-blur-xl safe-bottom">
+                    <div className="p-4 border-t border-white/5 space-y-3 bg-black/40 safe-bottom">
                         <div className="bg-surface-active p-3 rounded-xl">
                             <p className="text-[10px] md:text-2xs uppercase font-bold tracking-widest text-white/30 mb-0.5">
                                 {currentRole === 'super_admin' ? 'Admin Mode' : 'Testing as'}
@@ -317,7 +317,7 @@ const NotificationCenter = () => {
 const MobileBottomNav = () => {
     return (
         <nav
-            className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-surface/95 backdrop-blur-xl border-t border-white/10 safe-bottom"
+            className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-surface border-t border-white/10 safe-bottom"
             aria-label="Mobile navigation"
         >
             <div className="flex items-center justify-around py-1 px-1 max-w-full mx-auto">

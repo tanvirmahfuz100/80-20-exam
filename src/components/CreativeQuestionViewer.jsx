@@ -46,7 +46,7 @@ const CreativeQuestionViewer = ({ cq, onContinue, fontSize = 16 }) => {
       <div className="shrink-0 pt-1">
         <button
           onClick={() => onContinue?.(0, 0, 0)}
-          className="w-full py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 bg-primary hover:bg-primary-hover text-white shadow-lg shadow-primary/20"
+          className="w-full py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 bg-primary hover:bg-primary-hover text-white border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
         >
           Continue <ArrowRight className="w-3 h-3" />
         </button>

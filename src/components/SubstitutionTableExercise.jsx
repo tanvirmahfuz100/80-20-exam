@@ -7,7 +7,7 @@ const ConfirmDialog = ({ show, title, message, confirmLabel, cancelLabel, onConf
   if (!show) return null;
   return (
     <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
-      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={onCancel} />
+      <div className="absolute inset-0 bg-black/80" onClick={onCancel} />
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -291,7 +291,7 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
                 aria-modal="true"
                 aria-label="Explanation"
               >
-                <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" aria-hidden="true" />
+                <div className="absolute inset-0 bg-black/80" aria-hidden="true" />
                 <motion.div
                   initial={{ opacity: 0, y: 40, scale: 0.92 }}
                   animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -339,7 +339,7 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
               <div
                 key={i}
                 className={`w-2 h-2 rounded-full transition-all ${
-                  i < foundCount ? 'bg-emerald-400 shadow-sm shadow-emerald-400/30' : 'bg-white/10'
+                  i < foundCount ? 'bg-emerald-400 ' : 'bg-white/10'
                 }`}
               />
             ))}
@@ -373,9 +373,9 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
               ? 'bg-white/5 text-white/20 cursor-not-allowed'
               : checked
                 ? allFound
-                  ? 'bg-emerald-500 text-black hover:bg-emerald-400 shadow-lg shadow-emerald-500/20'
+                  ? 'bg-emerald-500 text-black hover:bg-emerald-400'
                   : 'bg-white/10 hover:bg-white/15 text-white/80 border border-white/10'
-                : 'bg-primary hover:bg-primary-hover text-white shadow-lg shadow-primary/20'
+                : 'bg-primary hover:bg-primary-hover text-white'
           }`}
         >
           {!checked ? (
