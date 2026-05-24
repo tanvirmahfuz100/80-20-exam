@@ -46,7 +46,8 @@ function Get-Options {
     param([string]$Block, [ref]$AnswerRef)
     $options = [Ordered]@{}
     $ansLetter = ""
-    $correctBG = 'bg-\[#017A471A\]|bg-\[\#017A47\]'
+    $greenBG = 'bg-\[#017A471A\]|bg-\[\#017A47\]'
+    $yellowBG = 'bg-\[#F59E0B1F\]|bg-\[\#F59E0B\]'
     
     # Find options grid start
     $gridStart = $Block.IndexOf('grid grid-cols-1 gap-2')
@@ -66,6 +67,7 @@ function Get-Options {
     
     # Extract each button's content by finding its matching </button>
     $btnIdx = 0
+    $greenFound = $false
     foreach ($bStart in $btnStarts) {
         if ($btnIdx -ge 4) { break }
         $en = $enLetters[$btnIdx]
@@ -86,7 +88,27 @@ function Get-Options {
         
         if ($optText -ne "" -and $optText.Length -gt 0) {
             $options[$en] = $optText
-            if ($btnContent -match $correctBG) {
+            if ($btnContent -match $greenBG) {
+                $ansLetter = $en
+                $greenFound = $true
+            }
+        }
+    }
+    
+    # If no green marker found, try yellow as fallback (chorcha sometimes uses yellow for correct)
+    if (-not $greenFound -and $ansLetter -eq "") {
+        $btnIdx = 0
+        foreach ($bStart in $btnStarts) {
+            if ($btnIdx -ge 4) { break }
+            $en = $enLetters[$btnIdx]
+            $btnIdx++
+            
+            $bEnd = $Block.IndexOf('</button>', $bStart)
+            if ($bEnd -lt 0) { continue }
+            $btnContent = $Block.Substring($bStart, $bEnd - $bStart + 9)
+            if ($btnContent.Length -lt 20) { continue }
+            
+            if ($btnContent -match $yellowBG) {
                 $ansLetter = $en
             }
         }
