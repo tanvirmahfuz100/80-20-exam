@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { BookOpen, Globe, Check, GraduationCap, Brain, Award, Book } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
-import { api } from '../services/api';
+import { api } from '../services/localApi';
 import { Graduation } from './Illustrations';
 
 export default function OnboardingModal({ onComplete }) {

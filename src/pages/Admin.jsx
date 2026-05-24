@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Plus, Video, ClipboardList, CheckCircle2, AlertTriangle } from 'lucide-react';
-import { api } from '../services/api';
+import { api } from '../services/localApi';
 
 const Admin = () => {
     const [loading, setLoading] = useState(false);

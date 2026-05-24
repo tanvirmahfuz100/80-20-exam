@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion as Motion } from 'framer-motion';
 import { useAuth } from '../context/AuthContext';
-import { api } from '../services/api';
+import { api } from '../services/localApi';
 import { Rocket, CheckList } from '../components/Illustrations';
 import LottieAnimation from '../components/LottieAnimation';
 import LoadingScreen from '../components/LoadingScreen';
@@ -10,6 +10,8 @@ import gameControllerAnimation from '../assets/game-controller.json';
 import speedometerAnimation from '../assets/speedometer.json';
 import particleWaveAnimation from '../assets/particle-wave.json';
 import { getChallengeState, getDailyChallengeKey, getWeeklyChallengeKey, getDailyChallengesForExam, getWeeklyChallengeForExam, getDailyChallengeExpiry, getWeeklyChallengeExpiry, getUserStats } from '../services/levels';
+import { useCountdown } from '../hooks/useCountdown';
+import { useDashboardData } from '../hooks/useDashboardData';
 import {
   Target, Brain, BookOpen, TrendingUp, ArrowRight,
   Crown, Flame, BadgeCheck, Clock, Zap,
@@ -90,69 +92,19 @@ const itemVariants = {
 
 const Dashboard = () => {
   const { user, profile } = useAuth();
-  const [availableExams, setAvailableExams] = React.useState([]);
-  const [statsData, setStatsData] = React.useState({
-    totalPracticed: 0, accuracy: 0, totalTimeInMinutes: 0, correctOnes: 0, wrongOnes: 0,
-  });
-  const [practiceSessions, setPracticeSessions] = React.useState([]);
-  const [focusAreas, setFocusAreas] = React.useState([]);
-  const [loading, setLoading] = React.useState(true);
+  const { statsData, practiceSessions, focusAreas, loading } = useDashboardData(user?.id);
+  const countdown = useCountdown({ daily: getDailyChallengeExpiry, weekly: getWeeklyChallengeExpiry });
 
+  const [availableExams, setAvailableExams] = React.useState([]);
   const [dailyChallenges, setDailyChallenges] = useState([]);
-  const [weeklyChallenge, setWeeklyChallengeState] = useState(null);
+  const [weeklyChallenge, setWeeklyChallenge] = useState(null);
   const [userGameStats, setUserGameStats] = useState({ total_xp: 0, total_stars: 0 });
-  const [countdown, setCountdown] = useState({ daily: { hours: 0, minutes: 0 }, weekly: { days: 0, hours: 0 } });
 
   useEffect(() => {
     if (user?.id) setUserGameStats(getUserStats(user.id));
     const examId = 'ssc';
     setDailyChallenges(getDailyChallengesForExam(examId));
-    setWeeklyChallengeState(getWeeklyChallengeForExam(examId));
-
-    const tick = () => {
-      setCountdown({
-        daily: getDailyChallengeExpiry(),
-        weekly: getWeeklyChallengeExpiry(),
-      });
-    };
-    tick();
-    const interval = setInterval(tick, 60000);
-    return () => clearInterval(interval);
-  }, [user]);
-
-  React.useEffect(() => {
-    api.getUserStats(user.id).then(({ data }) => { if (data) setStatsData(data); setLoading(false); });
-  }, [user]);
-
-  React.useEffect(() => {
-    api.getUserPracticeSessions(user.id).then(({ data }) => setPracticeSessions(data || []));
-  }, [user]);
-
-  React.useEffect(() => {
-    api.getUserResponses(user.id).then(({ data: responses }) => {
-      if (responses?.length > 0) {
-        const grouped = {};
-        responses.forEach((r) => {
-          const s = subjectFromPath(r.source_file);
-          if (!grouped[s]) grouped[s] = { correct: 0, total: 0 };
-          grouped[s].total++;
-          if (r.is_correct) grouped[s].correct++;
-        });
-        setFocusAreas(
-          Object.entries(grouped)
-            .map(([label, { correct, total }]) => {
-              const val = Math.round((correct / total) * 100);
-              let status, color, tone;
-              if (val >= 80) { status = 'Strong'; color = 'bg-accent'; tone = 'text-accent'; }
-              else if (val >= 50) { status = 'Building'; color = 'bg-primary'; tone = 'text-primary'; }
-              else { status = 'Needs work'; color = 'bg-reward'; tone = 'text-reward'; }
-              return { label, status, val, color, tone };
-            })
-            .sort((a, b) => b.val - a.val)
-            .slice(0, 4)
-        );
-      }
-    });
+    setWeeklyChallenge(getWeeklyChallengeForExam(examId));
   }, [user]);
 
   React.useEffect(() => {

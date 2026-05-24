@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Timer, ClipboardList, TrendingUp, Lock, ArrowRight, CheckCircle2, Star } from 'lucide-react';
-import { api } from '../services/api';
+import { api } from '../services/localApi';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { Target, Trophy } from '../components/Illustrations';

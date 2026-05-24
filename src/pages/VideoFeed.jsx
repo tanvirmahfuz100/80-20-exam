@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Heart, Bookmark, Share2, MoreVertical, Music2, Play } from 'lucide-react';
-import { api } from '../services/api';
+import { api } from '../services/localApi';
 import { useAuth } from '../context/AuthContext';
 import LoadingScreen from '../components/LoadingScreen';
 

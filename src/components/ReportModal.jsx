@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { X, Send, Camera, AlertCircle, Loader2, CheckCircle2 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
-import { api } from '../services/api';
+import { api } from '../services/localApi';
 
 const ReportModal = ({ isOpen, onClose }) => {
     const { user } = useAuth();

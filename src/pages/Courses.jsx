@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Play, Lock, User } from 'lucide-react';
-import { api } from '../services/api';
+import { api } from '../services/localApi';
 import { useAuth } from '../context/AuthContext';
 import { Books } from '../components/Illustrations';
 import LottieAnimation from '../components/LottieAnimation';

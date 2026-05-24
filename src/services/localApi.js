@@ -1,3 +1,11 @@
+/**
+ * LOCAL STORAGE API (dev/prototype mode)
+ * Mimics the Supabase client interface ({ data, error }) so that
+ * pages and hooks call it the same way a real backend would be called.
+ * To connect Supabase: create src/services/supabaseApi.js with the
+ * same exported shape, then swap the import in each consumer.
+ */
+import { readStorage, writeStorage } from '../utils/storage';
 import {
   getLevelProgress as _getLevelProgress,
   saveLevelProgress as _saveLevelProgress,
@@ -85,19 +93,6 @@ const defaultVideos = [
         created_at: new Date().toISOString()
     }
 ];
-
-const readStorage = (key, fallback = []) => {
-    try {
-        const raw = localStorage.getItem(key);
-        return raw ? JSON.parse(raw) : fallback;
-    } catch {
-        return fallback;
-    }
-};
-
-const writeStorage = (key, data) => {
-    localStorage.setItem(key, JSON.stringify(data));
-};
 
 const ensureSeed = () => {
     if (!localStorage.getItem(STORAGE_KEYS.courses)) writeStorage(STORAGE_KEYS.courses, defaultCourses);

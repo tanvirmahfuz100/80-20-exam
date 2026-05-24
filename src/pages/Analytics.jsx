@@ -4,7 +4,7 @@ import {
   Target, TrendingUp, AlertTriangle, CheckCircle2,
   Clock, Sparkles, Zap
 } from 'lucide-react';
-import { api } from '../services/api';
+import { api } from '../services/localApi';
 import { useAuth } from '../context/AuthContext';
 import LottieAnimation from '../components/LottieAnimation';
 import LoadingScreen from '../components/LoadingScreen';
