@@ -339,6 +339,224 @@
               "file": "/ssc/accounting/board_barishal_2022.json"
             }
           ]
+        },
+        {
+          "id": "board_2021",
+          "name": "Board Exams 2021",
+          "name_bn": "বোর্ড পরীক্ষা ২০২১",
+          "name_en": "Board Exams 2021",
+          "chapters": [
+            {
+              "id": "board_rajshahi_2021",
+              "name": "Rajshahi Board 2021",
+              "name_bn": "রাজশাহী বোর্ড ২০২১",
+              "file": "/ssc/accounting/board_rajshahi_2021.json"
+            },
+            {
+              "id": "board_mymensingh_2021",
+              "name": "Mymensingh Board 2021",
+              "name_bn": "ময়মনসিংহ বোর্ড ২০২১",
+              "file": "/ssc/accounting/board_mymensingh_2021.json"
+            },
+            {
+              "id": "board_jashore_2021",
+              "name": "Jashore Board 2021",
+              "name_bn": "যশোর বোর্ড ২০২১",
+              "file": "/ssc/accounting/board_jashore_2021.json"
+            },
+            {
+              "id": "board_cumilla_2021",
+              "name": "Cumilla Board 2021",
+              "name_bn": "কুমিল্লা বোর্ড ২০২১",
+              "file": "/ssc/accounting/board_cumilla_2021.json"
+            },
+            {
+              "id": "board_chattogram_2021",
+              "name": "Chattogram Board 2021",
+              "name_bn": "চট্টগ্রাম বোর্ড ২০২১",
+              "file": "/ssc/accounting/board_chattogram_2021.json"
+            },
+            {
+              "id": "board_sylhet_2021",
+              "name": "Sylhet Board 2021",
+              "name_bn": "সিলেট বোর্ড ২০২১",
+              "file": "/ssc/accounting/board_sylhet_2021.json"
+            },
+            {
+              "id": "board_barishal_2021",
+              "name": "Barishal Board 2021",
+              "name_bn": "বরিশাল বোর্ড ২০২১",
+              "file": "/ssc/accounting/board_barishal_2021.json"
+            }
+          ]
+        },
+        {
+          "id": "board_2020",
+          "name": "Board Exams 2020",
+          "name_bn": "বোর্ড পরীক্ষা ২০২০",
+          "name_en": "Board Exams 2020",
+          "chapters": [
+            {
+              "id": "board_dhaka_2020",
+              "name": "Dhaka Board 2020",
+              "name_bn": "ঢাকা বোর্ড ২০২০",
+              "file": "/ssc/accounting/board_dhaka_2020.json"
+            },
+            {
+              "id": "board_mymensingh_2020",
+              "name": "Mymensingh Board 2020",
+              "name_bn": "ময়মনসিংহ বোর্ড ২০২০",
+              "file": "/ssc/accounting/board_mymensingh_2020.json"
+            },
+            {
+              "id": "board_rajshahi_2020",
+              "name": "Rajshahi Board 2020",
+              "name_bn": "রাজশাহী বোর্ড ২০২০",
+              "file": "/ssc/accounting/board_rajshahi_2020.json"
+            },
+            {
+              "id": "board_dinajpur_2020",
+              "name": "Dinajpur Board 2020",
+              "name_bn": "দিনাজপুর বোর্ড ২০২০",
+              "file": "/ssc/accounting/board_dinajpur_2020.json"
+            },
+            {
+              "id": "board_cumilla_2020",
+              "name": "Cumilla Board 2020",
+              "name_bn": "কুমিল্লা বোর্ড ২০২০",
+              "file": "/ssc/accounting/board_cumilla_2020.json"
+            },
+            {
+              "id": "board_sylhet_2020",
+              "name": "Sylhet Board 2020",
+              "name_bn": "সিলেট বোর্ড ২০২০",
+              "file": "/ssc/accounting/board_sylhet_2020.json"
+            },
+            {
+              "id": "board_jashore_2020",
+              "name": "Jashore Board 2020",
+              "name_bn": "যশোর বোর্ড ২০২০",
+              "file": "/ssc/accounting/board_jashore_2020.json"
+            },
+            {
+              "id": "board_chattogram_2020",
+              "name": "Chattogram Board 2020",
+              "name_bn": "চট্টগ্রাম বোর্ড ২০২০",
+              "file": "/ssc/accounting/board_chattogram_2020.json"
+            },
+            {
+              "id": "board_barishal_2020",
+              "name": "Barishal Board 2020",
+              "name_bn": "বরিশাল বোর্ড ২০২০",
+              "file": "/ssc/accounting/board_barishal_2020.json"
+            }
+          ]
+        },
+        {
+          "id": "board_2019",
+          "name": "Board Exams 2019",
+          "name_bn": "বোর্ড পরীক্ষা ২০১৯",
+          "name_en": "Board Exams 2019",
+          "chapters": [
+            {
+              "id": "board_dhaka_2019",
+              "name": "Dhaka Board 2019",
+              "name_bn": "ঢাকা বোর্ড ২০১৯",
+              "file": "/ssc/accounting/board_dhaka_2019.json"
+            },
+            {
+              "id": "board_rajshahi_2019",
+              "name": "Rajshahi Board 2019",
+              "name_bn": "রাজশাহী বোর্ড ২০১৯",
+              "file": "/ssc/accounting/board_rajshahi_2019.json"
+            },
+            {
+              "id": "board_cumilla_2019",
+              "name": "Cumilla Board 2019",
+              "name_bn": "কুমিল্লা বোর্ড ২০১৯",
+              "file": "/ssc/accounting/board_cumilla_2019.json"
+            },
+            {
+              "id": "board_sylhet_2019",
+              "name": "Sylhet Board 2019",
+              "name_bn": "সিলেট বোর্ড ২০১৯",
+              "file": "/ssc/accounting/board_sylhet_2019.json"
+            },
+            {
+              "id": "board_chattogram_2019",
+              "name": "Chattogram Board 2019",
+              "name_bn": "চট্টগ্রাম বোর্ড ২০১৯",
+              "file": "/ssc/accounting/board_chattogram_2019.json"
+            },
+            {
+              "id": "board_dinajpur_2019",
+              "name": "Dinajpur Board 2019",
+              "name_bn": "দিনাজপুর বোর্ড ২০১৯",
+              "file": "/ssc/accounting/board_dinajpur_2019.json"
+            },
+            {
+              "id": "board_barishal_2019",
+              "name": "Barishal Board 2019",
+              "name_bn": "বরিশাল বোর্ড ২০১৯",
+              "file": "/ssc/accounting/board_barishal_2019.json"
+            }
+          ]
+        },
+        {
+          "id": "board_2015",
+          "name": "Board Exams 2015",
+          "name_bn": "বোর্ড পরীক্ষা ২০১৫",
+          "name_en": "Board Exams 2015",
+          "chapters": [
+            {
+              "id": "board_dhaka_2015",
+              "name": "Dhaka Board 2015",
+              "name_bn": "ঢাকা বোর্ড ২০১৫",
+              "file": "/ssc/accounting/board_dhaka_2015.json"
+            },
+            {
+              "id": "board_rajshahi_2015",
+              "name": "Rajshahi Board 2015",
+              "name_bn": "রাজশাহী বোর্ড ২০১৫",
+              "file": "/ssc/accounting/board_rajshahi_2015.json"
+            },
+            {
+              "id": "board_cumilla_2015",
+              "name": "Cumilla Board 2015",
+              "name_bn": "কুমিল্লা বোর্ড ২০১৫",
+              "file": "/ssc/accounting/board_cumilla_2015.json"
+            },
+            {
+              "id": "board_dinajpur_2015",
+              "name": "Dinajpur Board 2015",
+              "name_bn": "দিনাজপুর বোর্ড ২০১৫",
+              "file": "/ssc/accounting/board_dinajpur_2015.json"
+            },
+            {
+              "id": "board_sylhet_2015",
+              "name": "Sylhet Board 2015",
+              "name_bn": "সিলেট বোর্ড ২০১৫",
+              "file": "/ssc/accounting/board_sylhet_2015.json"
+            },
+            {
+              "id": "board_chattogram_2015",
+              "name": "Chattogram Board 2015",
+              "name_bn": "চট্টগ্রাম বোর্ড ২০১৫",
+              "file": "/ssc/accounting/board_chattogram_2015.json"
+            },
+            {
+              "id": "board_jashore_2015",
+              "name": "Jashore Board 2015",
+              "name_bn": "যশোর বোর্ড ২০১৫",
+              "file": "/ssc/accounting/board_jashore_2015.json"
+            },
+            {
+              "id": "board_barishal_2015",
+              "name": "Barishal Board 2015",
+              "name_bn": "বরিশাল বোর্ড ২০১৫",
+              "file": "/ssc/accounting/board_barishal_2015.json"
+            }
+          ]
         }
       ]
     }

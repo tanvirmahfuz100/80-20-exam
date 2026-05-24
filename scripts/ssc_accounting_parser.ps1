@@ -214,6 +214,37 @@ $boardMap = @{
     "43" = @{ Id = "board_sylhet_2022"; Name = "সিলেট বোর্ড ২০২২" }
     "44" = @{ Id = "board_jashore_2022"; Name = "যশোর বোর্ড ২০২২" }
     "45" = @{ Id = "board_barishal_2022"; Name = "বরিশাল বোর্ড ২০২২" }
+    "47" = @{ Id = "board_rajshahi_2021"; Name = "রাজশাহী বোর্ড ২০২১" }
+    "48" = @{ Id = "board_mymensingh_2021"; Name = "ময়মনসিংহ বোর্ড ২০২১" }
+    "50" = @{ Id = "board_jashore_2021"; Name = "যশোর বোর্ড ২০২১" }
+    "51" = @{ Id = "board_cumilla_2021"; Name = "কুমিল্লা বোর্ড ২০২১" }
+    "52" = @{ Id = "board_chattogram_2021"; Name = "চট্টগ্রাম বোর্ড ২০২১" }
+    "53" = @{ Id = "board_sylhet_2021"; Name = "সিলেট বোর্ড ২০২১" }
+    "54" = @{ Id = "board_barishal_2021"; Name = "বরিশাল বোর্ড ২০২১" }
+    "55" = @{ Id = "board_dhaka_2020"; Name = "ঢাকা বোর্ড ২০২০" }
+    "56" = @{ Id = "board_mymensingh_2020"; Name = "ময়মনসিংহ বোর্ড ২০২০" }
+    "57" = @{ Id = "board_rajshahi_2020"; Name = "রাজশাহী বোর্ড ২০২০" }
+    "58" = @{ Id = "board_dinajpur_2020"; Name = "দিনাজপুর বোর্ড ২০২০" }
+    "59" = @{ Id = "board_cumilla_2020"; Name = "কুমিল্লা বোর্ড ২০২০" }
+    "60" = @{ Id = "board_sylhet_2020"; Name = "সিলেট বোর্ড ২০২০" }
+    "61" = @{ Id = "board_jashore_2020"; Name = "যশোর বোর্ড ২০২০" }
+    "62" = @{ Id = "board_chattogram_2020"; Name = "চট্টগ্রাম বোর্ড ২০২০" }
+    "63" = @{ Id = "board_barishal_2020"; Name = "বরিশাল বোর্ড ২০২০" }
+    "64" = @{ Id = "board_dhaka_2019"; Name = "ঢাকা বোর্ড ২০১৯" }
+    "65" = @{ Id = "board_rajshahi_2019"; Name = "রাজশাহী বোর্ড ২০১৯" }
+    "66" = @{ Id = "board_cumilla_2019"; Name = "কুমিল্লা বোর্ড ২০১৯" }
+    "67" = @{ Id = "board_sylhet_2019"; Name = "সিলেট বোর্ড ২০১৯" }
+    "68" = @{ Id = "board_chattogram_2019"; Name = "চট্টগ্রাম বোর্ড ২০১৯" }
+    "69" = @{ Id = "board_dinajpur_2019"; Name = "দিনাজপুর বোর্ড ২০১৯" }
+    "70" = @{ Id = "board_barishal_2019"; Name = "বরিশাল বোর্ড ২০১৯" }
+    "71" = @{ Id = "board_dhaka_2015"; Name = "ঢাকা বোর্ড ২০১৫" }
+    "72" = @{ Id = "board_rajshahi_2015"; Name = "রাজশাহী বোর্ড ২০১৫" }
+    "73" = @{ Id = "board_cumilla_2015"; Name = "কুমিল্লা বোর্ড ২০১৫" }
+    "74" = @{ Id = "board_dinajpur_2015"; Name = "দিনাজপুর বোর্ড ২০১৫" }
+    "75" = @{ Id = "board_sylhet_2015"; Name = "সিলেট বোর্ড ২০১৫" }
+    "76" = @{ Id = "board_chattogram_2015"; Name = "চট্টগ্রাম বোর্ড ২০১৫" }
+    "77" = @{ Id = "board_jashore_2015"; Name = "যশোর বোর্ড ২০১৫" }
+    "78" = @{ Id = "board_barishal_2015"; Name = "বরিশাল বোর্ড ২০১৫" }
 }
 
 $files = @(Get-ChildItem -Path $SourceDir -Filter "*.html" | Where-Object { $_.Name -notlike '*_files*' })
