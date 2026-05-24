@@ -9,6 +9,7 @@ import { api } from './services/api';
 import { playSound, preloadSounds } from './utils/sounds';
 import { Graduation } from './components/Illustrations';
 import LoadingScreen from './components/LoadingScreen';
+import { BookOpen, Globe, Check, GraduationCap, Brain, Award, Book } from 'lucide-react';
 
 const Dashboard = React.lazy(() => import('./pages/Dashboard'));
 const PracticeConfig = React.lazy(() => import('./pages/PracticeConfig'));
@@ -40,6 +41,7 @@ const OnboardingModal = ({ onComplete }) => {
   const { user, profile, updateProfileFields } = useAuth();
   const [step, setStep] = useState(0);
   const [username, setUsername] = useState(profile?.username || user?.user_metadata?.username || '');
+  const [exam, setExam] = useState(null);
   const [version, setVersion] = useState('bangla');
   const { setTheme, setFontSize } = useTheme();
   const [themeChoice, setThemeChoice] = useState(profile?.theme || 'dark');
@@ -49,9 +51,9 @@ const OnboardingModal = ({ onComplete }) => {
   const handleFinish = async () => {
     setSaving(true);
     const name = username.trim() || 'Student';
-    updateProfileFields({ username: name, question_version: version, theme: themeChoice, fontSize: fontSizeChoice });
+    updateProfileFields({ username: name, target_exams: exam ? [exam] : [], question_version: version, theme: themeChoice, fontSize: fontSizeChoice });
     // persist to profiles store as well
-    await api.updateProfile(user.id, { username: name, question_version: version, theme: themeChoice, fontSize: fontSizeChoice });
+    await api.updateProfile(user.id, { username: name, target_exams: exam ? [exam] : [], question_version: version, theme: themeChoice, fontSize: fontSizeChoice });
     // apply theme + font size immediately
     try { setTheme(themeChoice); } catch {}
     try { setFontSize(fontSizeChoice); } catch {}
@@ -107,36 +109,140 @@ const OnboardingModal = ({ onComplete }) => {
         )}
 
         {step === 1 && (
-          <div className="space-y-4 md:space-y-6">
+          <div className="space-y-5 md:space-y-6">
+            {/* Speech bubble */}
+            <div className="flex justify-center pt-2">
+              <div className="relative bg-neutral-800 rounded-2xl px-5 py-3 md:px-6 md:py-4 max-w-xs">
+                <p className="text-white font-bold text-sm md:text-base text-center leading-relaxed">
+                  Which exam are you preparing for?
+                </p>
+                <div className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-0 h-0 border-l-[8px] border-r-[8px] border-t-[8px] border-transparent border-t-neutral-800" />
+              </div>
+            </div>
+
+            {/* Exam cards */}
+            <div className="space-y-3">
+              {[
+                { id: 'ssc', label: 'SSC', note: 'NCTB English 1st and 2nd Paper', icon: GraduationCap },
+                { id: 'hsc', label: 'HSC', note: 'NCTB English 1st and 2nd Paper', icon: BookOpen },
+                { id: 'iba', label: 'IBA', note: 'Admission English, Math, Analytical', icon: Brain },
+                { id: 'bcs', label: 'BCS', note: 'Competitive exam practice', icon: Award },
+                { id: 'class7', label: 'Class 7', note: 'English Grammar', icon: Book },
+              ].map((opt) => {
+                const Icon = opt.icon;
+                const selected = exam === opt.id;
+                return (
+                  <button
+                    key={opt.id}
+                    type="button"
+                    onClick={() => setExam(opt.id)}
+                    className={`w-full flex items-center gap-4 rounded-xl md:rounded-2xl border-2 px-4 md:px-5 py-3 md:py-4 text-left transition-all ${
+                      selected
+                        ? 'bg-primary/10 border-primary'
+                        : 'bg-white/5 border-white/10 hover:border-white/20'
+                    }`}
+                  >
+                    <div className={`shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center ${
+                      selected ? 'bg-primary/20 text-primary' : 'bg-white/10 text-white/60'
+                    }`}>
+                      <Icon className="w-5 h-5 md:w-6 md:h-6" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className={`font-bold text-sm md:text-base ${selected ? 'text-primary' : 'text-white'}`}>{opt.label}</p>
+                      <p className="text-[11px] md:text-xs text-white/40 font-medium truncate">{opt.note}</p>
+                    </div>
+                    {selected && (
+                      <Check className="w-5 h-5 text-primary shrink-0" />
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+
+            <button
+              onClick={() => setStep(2)}
+              className={`w-full py-3 md:py-4 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all flex items-center justify-center gap-2 ${
+                !exam
+                  ? 'opacity-40 cursor-not-allowed bg-primary/50'
+                  : 'bg-primary hover:bg-primary-hover active:scale-[0.98]'
+              }`}
+            >
+              Continue
+            </button>
+          </div>
+        )}
+
+        {step === 2 && (
+          <div className="space-y-5 md:space-y-6">
+            {/* Speech bubble */}
+            <div className="flex justify-center pt-2">
+              <div className="relative bg-neutral-800 rounded-2xl px-5 py-3 md:px-6 md:py-4 max-w-xs">
+                <p className="text-white font-bold text-sm md:text-base text-center leading-relaxed">
+                  Choose your question language
+                </p>
+                <div className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-0 h-0 border-l-[8px] border-r-[8px] border-t-[8px] border-transparent border-t-neutral-800" />
+              </div>
+            </div>
+
+            {/* Language cards */}
+            <div className="space-y-3">
+              {[
+                { id: 'bangla', label: 'বাংলা', subtitle: 'Bangla medium questions', icon: BookOpen },
+                { id: 'english', label: 'English', subtitle: 'English medium questions', icon: Globe },
+              ].map((opt) => {
+                const Icon = opt.icon;
+                const selected = version === opt.id;
+                return (
+                  <button
+                    key={opt.id}
+                    type="button"
+                    onClick={() => setVersion(opt.id)}
+                    className={`w-full flex items-center gap-4 rounded-xl md:rounded-2xl border-2 px-4 md:px-5 py-3 md:py-4 text-left transition-all ${
+                      selected
+                        ? 'bg-primary/10 border-primary'
+                        : 'bg-white/5 border-white/10 hover:border-white/20'
+                    }`}
+                  >
+                    <div className={`shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center ${
+                      selected ? 'bg-primary/20 text-primary' : 'bg-white/10 text-white/60'
+                    }`}>
+                      <Icon className="w-5 h-5 md:w-6 md:h-6" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className={`font-bold text-sm md:text-base ${selected ? 'text-primary' : 'text-white'}`}>{opt.label}</p>
+                      <p className="text-[11px] md:text-xs text-white/40 font-medium truncate">{opt.subtitle}</p>
+                    </div>
+                    {selected && (
+                      <Check className="w-5 h-5 text-primary shrink-0" />
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+
+            <button
+              onClick={() => setStep(3)}
+              className={`w-full py-3 md:py-4 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all flex items-center justify-center gap-2 ${
+                !version
+                  ? 'opacity-40 cursor-not-allowed bg-primary/50'
+                  : 'bg-primary hover:bg-primary-hover active:scale-[0.98]'
+              }`}
+            >
+              Continue
+            </button>
+          </div>
+        )}
+
+        {step === 3 && (
+          <div className="space-y-5 md:space-y-6">
             <div className="text-center space-y-2">
-              <h2 className="text-2xl md:text-3xl font-black text-white tracking-tighter">Choose your language</h2>
+              <h2 className="text-2xl md:text-3xl font-black text-white tracking-tighter">Almost there!</h2>
               <p className="text-white/50 text-xs md:text-sm font-medium">
-                Questions will be shown in your preferred language. You can switch anytime in Settings.
+                Customize your experience before we start.
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-3 md:gap-4">
-              {[
-                { id: 'bangla', label: 'বাংলা', desc: 'Bangla medium question set' },
-                { id: 'english', label: 'English', desc: 'English medium question set' },
-              ].map((opt) => (
-                <button
-                  key={opt.id}
-                  type="button"
-                  onClick={() => setVersion(opt.id)}
-                  className={`rounded-xl md:rounded-2xl border px-4 md:px-6 py-4 md:py-6 text-center transition-all ${
-                    version === opt.id
-                      ? 'bg-primary/15 border-primary shadow-lg shadow-primary/10'
-                      : 'bg-white/5 border-white/10 hover:border-white/20'
-                  }`}
-                >
-                  <p className={`text-xl md:text-2xl font-black text-white`}>{opt.label}</p>
-                  <p className="mt-1 md:mt-2 text-[10px] md:text-xs text-white/40 font-medium">{opt.desc}</p>
-                </button>
-              ))}
-            </div>
-
-            <div className="mt-3 space-y-3">
+            <div className="space-y-3">
               <div>
                 <p className="text-[10px] md:text-sm font-black uppercase tracking-wider text-white/40 mb-2">Theme</p>
                 <div className="flex gap-2">
@@ -173,8 +279,11 @@ const OnboardingModal = ({ onComplete }) => {
 
             <button
               onClick={handleFinish}
-              disabled={saving}
-              className="w-full py-3 md:py-4 bg-primary hover:bg-primary-hover disabled:opacity-50 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all active:scale-[0.98] flex items-center justify-center gap-2"
+              className={`w-full py-3 md:py-4 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all flex items-center justify-center gap-2 ${
+                saving
+                  ? 'opacity-40 cursor-not-allowed bg-primary/50'
+                  : 'bg-primary hover:bg-primary-hover active:scale-[0.98]'
+              }`}
             >
               {saving ? 'Setting up...' : 'Start Learning'}
             </button>
