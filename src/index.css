@@ -5,12 +5,12 @@
 @layer base {
   :root {
     --app-font-size: 16px;
-    --color-background: 0 0 0;
-    --color-sidebar: 8 8 8;
-    --color-surface: 12 12 13;
-    --color-surface-hover: 22 22 24;
-    --color-surface-alt: 26 26 28;
-    --color-surface-active: 42 42 45;
+    --color-background: 15 18 30;
+    --color-sidebar: 19 23 38;
+    --color-surface: 25 30 48;
+    --color-surface-hover: 32 38 58;
+    --color-surface-alt: 38 45 68;
+    --color-surface-active: 52 60 88;
     --color-text: 255 255 255;
     --color-text-muted: 138 143 152;
     --color-text-dim: 75 78 82;
