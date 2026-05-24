@@ -204,7 +204,7 @@ const Dashboard = () => {
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
           <Link
             to="/practice"
-            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-black transition-all active:scale-[0.97] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
+            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-white transition-all active:scale-[0.97] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
           >
             Start Practice
             <ArrowRight className="w-3.5 h-3.5" />
@@ -424,7 +424,7 @@ const Dashboard = () => {
             )}
             <Link
               to="/analytics"
-              className="mt-4 flex items-center justify-center gap-2 rounded-xl border border-primary/20 bg-primary/[0.06] py-3 text-2xs font-black uppercase tracking-[0.2em] text-primary transition-all hover:bg-primary hover:text-black active:scale-[0.98]"
+              className="mt-4 flex items-center justify-center gap-2 rounded-xl border border-primary/20 bg-primary/[0.06] py-3 text-2xs font-black uppercase tracking-[0.2em] text-primary transition-all hover:bg-primary hover:text-white active:scale-[0.98]"
             >
               Full Report <ArrowRight className="w-3 h-3" />
             </Link>
@@ -518,7 +518,7 @@ const Dashboard = () => {
                 <div className="flex flex-col xs:flex-row items-start xs:items-center gap-3">
                   <Link
                     to="/practice"
-                    className="inline-flex items-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-6 py-3 text-2xs font-black uppercase tracking-[0.2em] text-black transition-all active:scale-95 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
+                    className="inline-flex items-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-6 py-3 text-2xs font-black uppercase tracking-[0.2em] text-white transition-all active:scale-95 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
                   >
                     Start Your First Practice <ArrowRight className="w-3.5 h-3.5" />
                   </Link>

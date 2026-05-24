@@ -83,7 +83,7 @@ const MistakeReviewModal = ({ isOpen, onClose }) => {
                   disabled={group.dueNow === 0}
                   className={`w-full mt-3 py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all flex items-center justify-center gap-2 ${
                     group.dueNow > 0
-                      ? 'bg-primary text-black hover:bg-primary-hover active:scale-[0.98]'
+                      ? 'bg-primary text-white hover:bg-primary-hover active:scale-[0.98]'
                       : 'bg-white/5 text-white/20 cursor-not-allowed'
                   }`}
                 >

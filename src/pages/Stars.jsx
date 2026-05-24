@@ -101,7 +101,7 @@ const Stars = () => {
         {totalDue > 0 && (
           <button
             onClick={handleReviewAll}
-            className="inline-flex items-center gap-2 bg-primary text-black px-5 py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all hover:bg-primary-hover active:scale-[0.98] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
+            className="inline-flex items-center gap-2 bg-primary text-white px-5 py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all hover:bg-primary-hover active:scale-[0.98] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
           >
             <Sparkles className="w-3.5 h-3.5" />
             Review All Due
@@ -169,7 +169,7 @@ const Stars = () => {
                 disabled={group.dueNow === 0}
                 className={`w-full py-3.5 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all flex items-center justify-center gap-2 ${
                   group.dueNow > 0
-                    ? 'bg-primary text-black hover:bg-primary-hover active:scale-[0.98]'
+                    ? 'bg-primary text-white hover:bg-primary-hover active:scale-[0.98]'
                     : 'bg-white/5 text-white/20 cursor-not-allowed'
                 }`}
               >

@@ -83,10 +83,10 @@ const PracticeConfig = () => {
                     transition={{ delay: 0.15 }}
                     className="bg-surface border border-white/5 p-0.5 md:p-1 rounded-lg md:rounded-xl flex items-center gap-0.5 md:gap-1 shadow-lg self-start md:self-end shrink-0 relative z-10"
                 >
-                    <button onClick={() => setIsTimed(false)} className={`flex items-center gap-1 md:gap-2 px-2.5 md:px-4 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${!isTimed ? 'bg-primary text-black' : 'text-white/20 hover:text-white/40'}`}>
+                    <button onClick={() => setIsTimed(false)} className={`flex items-center gap-1 md:gap-2 px-2.5 md:px-4 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${!isTimed ? 'bg-primary text-white' : 'text-white/20 hover:text-white/40'}`}>
                         Untimed
                     </button>
-                    <button onClick={() => setIsTimed(true)} className={`flex items-center gap-1 md:gap-2 px-2.5 md:px-4 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${isTimed ? 'bg-primary text-black' : 'text-white/20 hover:text-white/40'}`}>
+                    <button onClick={() => setIsTimed(true)} className={`flex items-center gap-1 md:gap-2 px-2.5 md:px-4 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${isTimed ? 'bg-primary text-white' : 'text-white/20 hover:text-white/40'}`}>
                         <Timer className="w-3 h-3" />
                         Timed
                     </button>

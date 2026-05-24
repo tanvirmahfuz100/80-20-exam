@@ -117,7 +117,7 @@ const MockTests = () => {
 
                                 <button
                                     onClick={() => startTest(test.id)}
-                                    className="flex w-full items-center justify-center gap-2 rounded-xl md:rounded-[1.4rem] bg-primary py-3 md:py-4 text-[9px] font-black uppercase tracking-widest text-black border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] transition-all active:scale-95 hover:bg-primary-hover"
+                                    className="flex w-full items-center justify-center gap-2 rounded-xl md:rounded-[1.4rem] bg-primary py-3 md:py-4 text-[9px] font-black uppercase tracking-widest text-white border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] transition-all active:scale-95 hover:bg-primary-hover"
                                 >
                                     Start Mock Test <ArrowRight className="h-4 w-4" />
                                 </button>
@@ -165,7 +165,7 @@ const MockTests = () => {
                         </p>
                     </div>
                 </div>
-                <button className="w-full md:w-auto rounded-xl md:rounded-[1.4rem] bg-primary px-8 md:px-10 py-3 md:py-4 text-[10px] font-black uppercase tracking-widest text-black shadow-lg transition-all active:scale-95 hover:bg-primary-hover">
+                <button className="w-full md:w-auto rounded-xl md:rounded-[1.4rem] bg-primary px-8 md:px-10 py-3 md:py-4 text-[10px] font-black uppercase tracking-widest text-white shadow-lg transition-all active:scale-95 hover:bg-primary-hover">
                     Register for Event
                 </button>
             </div>

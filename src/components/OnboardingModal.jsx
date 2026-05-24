@@ -66,7 +66,7 @@ export default function OnboardingModal({ onComplete }) {
               </button>
               <button
                 onClick={() => setStep(1)}
-                className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-[0.98]"
+                className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-[0.98]"
               >
                 Next
               </button>

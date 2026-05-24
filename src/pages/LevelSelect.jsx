@@ -319,7 +319,7 @@ const LevelSelect = () => {
             const nextUncompleted = levelsWithMeta.find(l => l.unlocked && !l.completed);
             if (nextUncompleted) handleStartLevel(nextUncompleted.levelNumber);
           }}
-          className="w-full py-3 bg-primary text-black rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.98] hover:bg-primary-hover flex items-center justify-center gap-2 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
+          className="w-full py-3 bg-primary text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.98] hover:bg-primary-hover flex items-center justify-center gap-2 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
         >
           <TrendingUp className="w-4 h-4" />
           Continue Practicing

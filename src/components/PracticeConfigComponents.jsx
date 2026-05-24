@@ -148,7 +148,7 @@ export const SubjectCard = ({ subject, isSelected, onClick, progress, version })
 
             <div className="grid grid-cols-[auto_1fr_auto] items-center gap-3 p-4">
                 <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-all ${
-                    isSelected ? 'bg-primary text-black' : 'bg-surface-alt text-white/30 group-hover:text-white/50'
+                    isSelected ? 'bg-primary text-white' : 'bg-surface-alt text-white/30 group-hover:text-white/50'
                 }`}>
                     <Icon className="w-5 h-5" />
                 </div>
@@ -236,7 +236,7 @@ export const ChapterItem = ({ chapter, topic, onClick, questionCount, completedC
                 {hasQuestions && (
                     <button
                         onClick={() => onClick(chapter, cleanName)}
-                        className="flex items-center gap-1.5 px-4 py-2.5 bg-primary text-black font-black uppercase tracking-widest rounded-xl hover:bg-primary-hover transition-all text-[9px] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-95 shrink-0"
+                        className="flex items-center gap-1.5 px-4 py-2.5 bg-primary text-white font-black uppercase tracking-widest rounded-xl hover:bg-primary-hover transition-all text-[9px] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-95 shrink-0"
                     >
                         <Play className="w-3 h-3 fill-current" />
                         Start
