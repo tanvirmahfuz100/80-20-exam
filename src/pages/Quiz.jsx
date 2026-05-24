@@ -676,13 +676,24 @@ const Quiz = () => {
                                     </div>
                                     <div className="text-[8px] md:text-[10px] text-primary/50 font-black uppercase tracking-widest mt-0.5">XP Earned</div>
                                 </div>
+                                {earnedStars === 0 ? (
+                                <div className="bg-emerald-500/10 p-3 md:p-6 rounded-xl md:rounded-2xl border border-emerald-500/20">
+                                    <div className="flex items-center justify-center gap-1.5">
+                                        <Trophy className="w-4 h-4 md:w-6 md:h-6 text-emerald-400" />
+                                        <span className="text-emerald-400 font-black text-lg md:text-3xl">Perfect Run!</span>
+                                    </div>
+                                    <div className="text-[8px] md:text-[10px] text-emerald-400/50 font-black uppercase tracking-widest mt-0.5">No mistakes</div>
+                                </div>
+                                ) : (
                                 <div className="bg-yellow-500/10 p-3 md:p-6 rounded-xl md:rounded-2xl border border-yellow-500/20">
                                     <div className="flex items-center justify-center gap-1.5">
                                         <Star className="w-4 h-4 md:w-6 md:h-6 text-yellow-400" />
-                                        <span className="text-yellow-400 font-black text-lg md:text-3xl">+{earnedStars}</span>
+                                        <span className="text-yellow-400 font-black text-lg md:text-3xl">{earnedStars}</span>
                                     </div>
-                                    <div className="text-[8px] md:text-[10px] text-yellow-400/50 font-black uppercase tracking-widest mt-0.5">Stars Earned</div>
+                                    <div className="text-[8px] md:text-[10px] text-yellow-400/50 font-black uppercase tracking-widest mt-0.5">Stars to Review</div>
+                                    <div className="text-[6px] md:text-[8px] text-yellow-400/30 font-black uppercase tracking-widest mt-0.5">Review these to master them</div>
                                 </div>
+                                )}
                             </div>
 
                             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 pt-2 md:pt-6">
@@ -738,12 +749,23 @@ const Quiz = () => {
                                 <div className="text-emerald-500 font-black text-lg md:text-3xl mb-0.5">{score}/{modelTestTotal || questions.length}</div>
                                 <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Correct</div>
                             </div>
-                            <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
-                                <div className="text-yellow-500 font-black text-sm md:text-xl mb-0.5 uppercase tracking-tighter">
-                                    {accuracy >= 80 ? 'Expert' : accuracy >= 50 ? 'Learner' : 'Beginner'}
+                            {earnedStars === 0 ? (
+                            <div className="bg-emerald-500/10 p-3 md:p-6 rounded-xl md:rounded-2xl border border-emerald-500/20">
+                                <div className="flex items-center justify-center gap-1.5">
+                                    <div className="text-emerald-400 font-black text-lg md:text-3xl">Clean!</div>
                                 </div>
-                                <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Title</div>
+                                <div className="text-[8px] md:text-[10px] text-emerald-400/50 font-black uppercase tracking-widest mt-0.5">No mistakes</div>
                             </div>
+                            ) : (
+                            <div className="bg-yellow-500/10 p-3 md:p-6 rounded-xl md:rounded-2xl border border-yellow-500/20">
+                                <div className="flex items-center justify-center gap-1.5">
+                                    <Star className="w-4 h-4 md:w-6 md:h-6 text-yellow-400" />
+                                    <span className="text-yellow-400 font-black text-lg md:text-3xl">{earnedStars}</span>
+                                </div>
+                                <div className="text-[8px] md:text-[10px] text-yellow-400/50 font-black uppercase tracking-widest mt-0.5">Stars to Review</div>
+                                <div className="text-[6px] md:text-[8px] text-yellow-400/30 font-black uppercase tracking-widest mt-0.5">Review these to master them</div>
+                            </div>
+                            )}
                         </div>
 
                         <div className="flex flex-col sm:flex-row gap-3 md:gap-4 pt-2 md:pt-6">
@@ -892,11 +914,12 @@ const Quiz = () => {
                             <span className="text-emerald-400 font-black text-[9px] leading-none">RVW</span>
                         </div>
                     ) : (
-                        <div ref={starTargetRef} className={`px-2 py-1 rounded-lg bg-white/5 border border-white/10 flex items-center gap-1 transition-all topbar-star-target ${balanceGlow ? 'ring-2 ring-yellow-400/80' : ''}`}>
+                        <div ref={starTargetRef} className={`px-2 py-1 rounded-lg bg-white/5 border border-white/10 flex items-center gap-1 transition-all topbar-star-target ${balanceGlow ? 'ring-2 ring-yellow-400/80' : ''}`} title="Stars to review">
                             <svg className="w-3 h-3 text-yellow-300 topbar-star-icon" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
                             </svg>
                             <span className="text-yellow-300 font-black text-[10px] tabular-nums">{mistakeCount}</span>
+                            <span className="text-[6px] text-yellow-300/40 font-black uppercase tracking-widest leading-none hidden xs:inline">to review</span>
                         </div>
                     )}
                 </div>
