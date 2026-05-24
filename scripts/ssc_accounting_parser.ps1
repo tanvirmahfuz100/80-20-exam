@@ -84,7 +84,7 @@ function Get-Options {
             if ($t -and $t.Length -gt 0) { $optText = $t }
         }
         
-        if ($optText -ne "" -and $optText.Length -gt 1) {
+        if ($optText -ne "" -and $optText.Length -gt 0) {
             $options[$en] = $optText
             if ($btnContent -match $correctBG) {
                 $ansLetter = $en
@@ -179,6 +179,41 @@ $boardMap = @{
     "8"  = @{ Id = "board_sylhet_2026"; Name = "সিলেট বোর্ড ২০২৬" }
     "9"  = @{ Id = "board_mymensingh_2026"; Name = "ময়মনসিংহ বোর্ড ২০২৬" }
     "10" = @{ Id = "board_dhaka_2025"; Name = "ঢাকা বোর্ড ২০২৫" }
+    "11" = @{ Id = "board_rajshahi_2025"; Name = "রাজশাহী বোর্ড ২০২৫" }
+    "12" = @{ Id = "board_mymensingh_2025"; Name = "ময়মনসিংহ বোর্ড ২০২৫" }
+    "13" = @{ Id = "board_sylhet_2025"; Name = "সিলেট বোর্ড ২০২৫" }
+    "14" = @{ Id = "board_cumilla_2025"; Name = "কুমিল্লা বোর্ড ২০২৫" }
+    "15" = @{ Id = "board_jashore_2025"; Name = "যশোর বোর্ড ২০২৫" }
+    "16" = @{ Id = "board_chattogram_2025"; Name = "চট্টগ্রাম বোর্ড ২০২৫" }
+    "17" = @{ Id = "board_dinajpur_2025"; Name = "দিনাজপুর বোর্ড ২০২৫" }
+    "18" = @{ Id = "board_barishal_2025"; Name = "বরিশাল বোর্ড ২০২৫" }
+    "19" = @{ Id = "board_dhaka_2024"; Name = "ঢাকা বোর্ড ২০২৪" }
+    "20" = @{ Id = "board_mymensingh_2024"; Name = "ময়মনসিংহ বোর্ড ২০২৪" }
+    "21" = @{ Id = "board_rajshahi_2024"; Name = "রাজশাহী বোর্ড ২০২৪" }
+    "22" = @{ Id = "board_dinajpur_2024"; Name = "দিনাজপুর বোর্ড ২০২৪" }
+    "23" = @{ Id = "board_cumilla_2024"; Name = "কুমিল্লা বোর্ড ২০২৪" }
+    "24" = @{ Id = "board_chattogram_2024"; Name = "চট্টগ্রাম বোর্ড ২০২৪" }
+    "25" = @{ Id = "board_sylhet_2024"; Name = "সিলেট বোর্ড ২০২৪" }
+    "26" = @{ Id = "board_jashore_2024"; Name = "যশোর বোর্ড ২০২৪" }
+    "27" = @{ Id = "board_barishal_2024"; Name = "বরিশাল বোর্ড ২০২৪" }
+    "28" = @{ Id = "board_mymensingh_2023"; Name = "ময়মনসিংহ বোর্ড ২০২৩" }
+    "29" = @{ Id = "board_rajshahi_2023"; Name = "রাজশাহী বোর্ড ২০২৩" }
+    "30" = @{ Id = "board_dinajpur_2023"; Name = "দিনাজপুর বোর্ড ২০২৩" }
+    "31" = @{ Id = "board_cumilla_2023"; Name = "কুমিল্লা বোর্ড ২০২৩" }
+    "32" = @{ Id = "board_chattogram_2023"; Name = "চট্টগ্রাম বোর্ড ২০২৩" }
+    "33" = @{ Id = "board_chattogram_2023_2"; Name = "চট্টগ্রাম বোর্ড ২০২৩ (২য় সেট)" }
+    "34" = @{ Id = "board_sylhet_2023"; Name = "সিলেট বোর্ড ২০২৩" }
+    "35" = @{ Id = "board_jashore_2023"; Name = "যশোর বোর্ড ২০২৩" }
+    "36" = @{ Id = "board_barishal_2023"; Name = "বরিশাল বোর্ড ২০২৩" }
+    "37" = @{ Id = "board_dhaka_2022"; Name = "ঢাকা বোর্ড ২০২২" }
+    "38" = @{ Id = "board_mymensingh_2022"; Name = "ময়মনসিংহ বোর্ড ২০২২" }
+    "39" = @{ Id = "board_rajshahi_2022"; Name = "রাজশাহী বোর্ড ২০২২" }
+    "40" = @{ Id = "board_dinajpur_2022"; Name = "দিনাজপুর বোর্ড ২০২২" }
+    "41" = @{ Id = "board_cumilla_2022"; Name = "কুমিল্লা বোর্ড ২০২২" }
+    "42" = @{ Id = "board_chattogram_2022"; Name = "চট্টগ্রাম বোর্ড ২০২২" }
+    "43" = @{ Id = "board_sylhet_2022"; Name = "সিলেট বোর্ড ২০২২" }
+    "44" = @{ Id = "board_jashore_2022"; Name = "যশোর বোর্ড ২০২২" }
+    "45" = @{ Id = "board_barishal_2022"; Name = "বরিশাল বোর্ড ২০২২" }
 }
 
 $files = @(Get-ChildItem -Path $SourceDir -Filter "*.html" | Where-Object { $_.Name -notlike '*_files*' })
