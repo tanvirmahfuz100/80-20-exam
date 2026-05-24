@@ -150,11 +150,6 @@ const Dashboard = () => {
       {/* ─── Hero Card ─── */}
       <Motion.div variants={itemVariants} className="relative overflow-hidden rounded-2xl border border-white/[0.06] bg-surface p-4 md:p-7">
         <div className="absolute top-0 right-0 w-40 h-40 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute inset-0 flex items-start justify-center pointer-events-none z-0">
-          <div className="w-full h-full opacity-[0.12]">
-            <LottieAnimation src={particleWaveAnimation} className="w-full h-full" lottieStyle={{ width: '100%', height: '100%', objectFit: 'cover' }} renderer="canvas" />
-          </div>
-        </div>
 
         <div className="relative z-10 flex items-start justify-between gap-3 mb-4">
           <div className="min-w-0 flex-1">

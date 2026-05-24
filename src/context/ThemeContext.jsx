@@ -57,7 +57,7 @@ const applyTheme = (theme) => {
   // Update theme-color meta
   const meta = document.querySelector('meta[name="theme-color"]');
   if (meta) {
-    meta.content = theme === LIGHT ? '#f0f0f4' : '#000000';
+    meta.content = theme === LIGHT ? '#faf5f0' : '#080407';
   }
 };
 

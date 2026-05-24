@@ -5,32 +5,32 @@
 @layer base {
   :root {
     --app-font-size: 16px;
-    --color-background: 15 18 30;
-    --color-sidebar: 19 23 38;
-    --color-surface: 25 30 48;
-    --color-surface-hover: 32 38 58;
-    --color-surface-alt: 38 45 68;
-    --color-surface-active: 52 60 88;
+    --color-background: 8 4 7;
+    --color-sidebar: 16 10 14;
+    --color-surface: 22 15 19;
+    --color-surface-hover: 28 20 24;
+    --color-surface-alt: 34 25 30;
+    --color-surface-active: 46 34 40;
     --color-text: 255 255 255;
-    --color-text-muted: 138 143 152;
-    --color-text-dim: 75 78 82;
+    --color-text-muted: 160 140 145;
+    --color-text-dim: 80 70 75;
     --color-border: 255 255 255;
     --color-border-hover: 255 255 255;
     --color-inverse: 255 255 255;
   }
 
   [data-theme="light"] {
-    --color-background: 240 240 244;
+    --color-background: 250 245 240;
     --color-sidebar: 255 255 255;
     --color-surface: 255 255 255;
-    --color-surface-hover: 240 240 242;
-    --color-surface-alt: 232 232 237;
-    --color-surface-active: 209 209 214;
-    --color-text: 0 0 0;
-    --color-text-muted: 107 114 128;
-    --color-text-dim: 156 163 175;
-    --color-border: 0 0 0;
-    --color-border-hover: 0 0 0;
+    --color-surface-hover: 245 240 235;
+    --color-surface-alt: 235 228 222;
+    --color-surface-active: 220 213 207;
+    --color-text: 22 15 19;
+    --color-text-muted: 130 120 115;
+    --color-text-dim: 170 162 158;
+    --color-border: 22 15 19;
+    --color-border-hover: 22 15 19;
     --color-inverse: 0 0 0;
   }
 
@@ -70,13 +70,13 @@
   }
 
   ::selection {
-    background: rgba(94, 106, 210, 0.4);
+    background: rgba(245, 65, 35, 0.4);
     color: #ffffff;
   }
 
   /* Focus-visible for keyboard nav (not mouse clicks) */
   :focus-visible {
-    outline: 2px solid #5e6ad2;
+    outline: 2px solid #f54123;
     outline-offset: 2px;
     border-radius: 8px;
   }
@@ -318,12 +318,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(94, 106, 210, 0.3);
+  background: rgba(245, 65, 35, 0.3);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(94, 106, 210, 0.6);
+  background: rgba(245, 65, 35, 0.6);
 }
 
 /* TV: larger scrollbar */
@@ -340,7 +340,7 @@
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(94, 106, 210, 0.3) transparent;
+  scrollbar-color: rgba(245, 65, 35, 0.3) transparent;
 }
 
 @layer base {

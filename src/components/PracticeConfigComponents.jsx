@@ -42,7 +42,7 @@ export const steps = [
 export const ProgressBar = ({ completed, total, color }) => {
     if (total === 0) return null;
     const pct = Math.min(Math.round((completed / total) * 100), 100);
-    const barColor = color || '#5e6ad2';
+    const barColor = color || '#f54123';
     return (
         <div className="flex items-center gap-2 w-full">
             <div className="flex-1 h-2 bg-white/10 rounded-full overflow-hidden">
