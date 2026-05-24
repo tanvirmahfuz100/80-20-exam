@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;700&family=Nunito+Sans:wght@400;600;700;800;900&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -408,4 +406,27 @@ body.low-end .glass-strong {
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
   box-shadow: none !important;
+}
+
+body.low-end * {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+}
+
+body.low-end .motion-safe-only {
+  display: none !important;
+}
+
+body.low-end .animate-pulse,
+body.low-end .animate-spin,
+body.low-end .animate-bounce,
+body.low-end .animate-ping {
+  animation: none !important;
+}
+
+body.low-end img,
+body.low-end svg {
+  -webkit-user-drag: none;
+  user-select: none;
 }

@@ -15,5 +15,14 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: false,
     chunkSizeWarningLimit: 1600,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor-framer': ['framer-motion'],
+          'vendor-lucide': ['lucide-react'],
+          'vendor-lottie': ['lottie-react'],
+        }
+      }
+    }
   }
 })

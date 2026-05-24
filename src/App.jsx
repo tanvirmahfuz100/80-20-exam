@@ -1,31 +1,32 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense } from 'react';
 import { HashRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import Layout from './components/Layout';
-import Dashboard from './pages/Dashboard';
-import PracticeConfig from './pages/PracticeConfig';
-import Quiz from './pages/Quiz';
-import LevelSelect from './pages/LevelSelect';
-import Login from './pages/Login';
-import Admin from './pages/Admin';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { useTheme } from './context/ThemeContext';
-import Courses from './pages/Courses';
-import QuestionBank from './pages/QuestionBank';
-import MockTests from './pages/MockTests';
-import VideoFeed from './pages/VideoFeed';
-import Analytics from './pages/Analytics';
-import Settings from './pages/Settings';
-import Landing from './pages/Landing';
-import Stars from './pages/Stars';
-import CreativeQuestionView from './pages/CreativeQuestionView';
 import { useLowEndDevice } from './hooks';
 import { api } from './services/api';
-import { Graduation } from './components/Illustrations';
 import { playSound, preloadSounds } from './utils/sounds';
+import { Graduation } from './components/Illustrations';
+import LoadingScreen from './components/LoadingScreen';
+
+const Dashboard = React.lazy(() => import('./pages/Dashboard'));
+const PracticeConfig = React.lazy(() => import('./pages/PracticeConfig'));
+const Quiz = React.lazy(() => import('./pages/Quiz'));
+const LevelSelect = React.lazy(() => import('./pages/LevelSelect'));
+const Login = React.lazy(() => import('./pages/Login'));
+const Admin = React.lazy(() => import('./pages/Admin'));
+const Courses = React.lazy(() => import('./pages/Courses'));
+const QuestionBank = React.lazy(() => import('./pages/QuestionBank'));
+const MockTests = React.lazy(() => import('./pages/MockTests'));
+const VideoFeed = React.lazy(() => import('./pages/VideoFeed'));
+const Analytics = React.lazy(() => import('./pages/Analytics'));
+const Settings = React.lazy(() => import('./pages/Settings'));
+const Landing = React.lazy(() => import('./pages/Landing'));
+const Stars = React.lazy(() => import('./pages/Stars'));
+const CreativeQuestionView = React.lazy(() => import('./pages/CreativeQuestionView'));
 
 function App() {
-  useLowEndDevice();
   return (
     <Router>
       <AuthProvider>
@@ -34,13 +35,6 @@ function App() {
     </Router>
   );
 }
-
-const pageMotion = {
-  initial: { opacity: 0, y: 20 },
-  animate: { opacity: 1, y: 0 },
-  exit: { opacity: 0, y: -20 },
-  transition: { duration: 0.35, ease: [0.22, 1, 0.36, 1] }
-};
 
 const OnboardingModal = ({ onComplete }) => {
   const { user, profile, updateProfileFields } = useAuth();
@@ -205,6 +199,11 @@ const AppContent = () => {
   const { setTheme, setFontSize } = useTheme();
   const [showOnboarding, setShowOnboarding] = useState(false);
   const prevPathRef = React.useRef(location.pathname);
+  const { isLowEnd } = useLowEndDevice();
+
+  const pageMotion = isLowEnd
+    ? { initial: {}, animate: {}, exit: {}, transition: { duration: 0 } }
+    : { initial: { opacity: 0, y: 20 }, animate: { opacity: 1, y: 0 }, exit: { opacity: 0, y: -20 }, transition: { duration: 0.35, ease: [0.22, 1, 0.36, 1] } };
 
   useEffect(() => {
     preloadSounds();
@@ -244,94 +243,96 @@ const AppContent = () => {
   return (
     <Layout>
       {showOnboarding && <OnboardingModal onComplete={handleOnboardingComplete} />}
-      <AnimatePresence mode="wait">
-        <Routes location={location} key={location.pathname}>
-          <Route path="/login" element={
-            <motion.div {...pageMotion}>
-              <Login />
-            </motion.div>
-          } />
-          <Route path="/register" element={<Navigate to="/login" replace />} />
-          <Route path="/" element={
-            <motion.div {...pageMotion}>
-              <Dashboard />
-            </motion.div>
-          } />
-
-          <Route path="/courses" element={
-            <motion.div {...pageMotion}>
-              <Courses />
-            </motion.div>
-          } />
-          <Route path="/practice" element={
-            <motion.div {...pageMotion}>
-              <PracticeConfig />
-            </motion.div>
-          } />
-          <Route path="/stars" element={
-            <motion.div {...pageMotion}>
-              <Stars />
-            </motion.div>
-          } />
-          <Route path="/bank" element={
-            <motion.div {...pageMotion}>
-              <QuestionBank />
-            </motion.div>
-          } />
-          <Route path="/mock-tests" element={
-            <motion.div {...pageMotion}>
-              <MockTests />
-            </motion.div>
-          } />
-          <Route path="/shorts" element={
-            <motion.div {...pageMotion}>
-              <VideoFeed />
-            </motion.div>
-          } />
-          <Route path="/levels" element={
-            <motion.div {...pageMotion}>
-              <LevelSelect />
-            </motion.div>
-          } />
-          <Route path="/quiz/:chapterId" element={
-            <motion.div {...pageMotion}>
-              <Quiz />
-            </motion.div>
-          } />
-
-          <Route path="/creative-view" element={
-            <motion.div {...pageMotion}>
-              <CreativeQuestionView />
-            </motion.div>
-          } />
-
-          <Route path="/analytics" element={
-            <motion.div {...pageMotion}>
-              <Analytics />
-            </motion.div>
-          } />
-          <Route path="/settings" element={
-            <motion.div {...pageMotion}>
-              <Settings />
-            </motion.div>
-          } />
-          <Route path="/admin" element={
-            <ProtectedRoute allowedRole="admin">
+      <Suspense fallback={<LoadingScreen />}>
+        <AnimatePresence mode="wait">
+          <Routes location={location} key={location.pathname}>
+            <Route path="/login" element={
               <motion.div {...pageMotion}>
-                <Admin />
+                <Login />
               </motion.div>
-            </ProtectedRoute>
-          } />
+            } />
+            <Route path="/register" element={<Navigate to="/login" replace />} />
+            <Route path="/" element={
+              <motion.div {...pageMotion}>
+                <Dashboard />
+              </motion.div>
+            } />
 
-          <Route path="/welcome" element={
-            <motion.div {...pageMotion}>
-              <Landing />
-            </motion.div>
-          } />
+            <Route path="/courses" element={
+              <motion.div {...pageMotion}>
+                <Courses />
+              </motion.div>
+            } />
+            <Route path="/practice" element={
+              <motion.div {...pageMotion}>
+                <PracticeConfig />
+              </motion.div>
+            } />
+            <Route path="/stars" element={
+              <motion.div {...pageMotion}>
+                <Stars />
+              </motion.div>
+            } />
+            <Route path="/bank" element={
+              <motion.div {...pageMotion}>
+                <QuestionBank />
+              </motion.div>
+            } />
+            <Route path="/mock-tests" element={
+              <motion.div {...pageMotion}>
+                <MockTests />
+              </motion.div>
+            } />
+            <Route path="/shorts" element={
+              <motion.div {...pageMotion}>
+                <VideoFeed />
+              </motion.div>
+            } />
+            <Route path="/levels" element={
+              <motion.div {...pageMotion}>
+                <LevelSelect />
+              </motion.div>
+            } />
+            <Route path="/quiz/:chapterId" element={
+              <motion.div {...pageMotion}>
+                <Quiz />
+              </motion.div>
+            } />
 
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
-      </AnimatePresence>
+            <Route path="/creative-view" element={
+              <motion.div {...pageMotion}>
+                <CreativeQuestionView />
+              </motion.div>
+            } />
+
+            <Route path="/analytics" element={
+              <motion.div {...pageMotion}>
+                <Analytics />
+              </motion.div>
+            } />
+            <Route path="/settings" element={
+              <motion.div {...pageMotion}>
+                <Settings />
+              </motion.div>
+            } />
+            <Route path="/admin" element={
+              <ProtectedRoute allowedRole="admin">
+                <motion.div {...pageMotion}>
+                  <Admin />
+                </motion.div>
+              </ProtectedRoute>
+            } />
+
+            <Route path="/welcome" element={
+              <motion.div {...pageMotion}>
+                <Landing />
+              </motion.div>
+            } />
+
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </AnimatePresence>
+      </Suspense>
     </Layout>
   );
 }
