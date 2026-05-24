@@ -1,0 +1,88 @@
+[
+  {
+    "id": "bcs_written_36",
+    "name": "36th BCS Written",
+    "year": 36,
+    "subjects": [
+      {
+        "name": "বাংলা",
+        "code": "০০১",
+        "fullMarks": 200,
+        "questionCount": 21
+      },
+      {
+        "name": "সাধারণ বিজ্ঞান ও প্রযুক্তি",
+        "code": "০১০",
+        "fullMarks": 100,
+        "questionCount": 29
+      },
+      {
+        "name": "গাণিতিক যুক্তি",
+        "code": "০০৮",
+        "fullMarks": 50,
+        "questionCount": 13
+      },
+      {
+        "name": "English",
+        "code": "003",
+        "fullMarks": 0,
+        "questionCount": 1
+      },
+      {
+        "name": "বাংলাদেশ বিষয়াবলি",
+        "code": "০০৫",
+        "fullMarks": 200,
+        "questionCount": 10
+      },
+      {
+        "name": "আন্তর্জাতিক বিষয়াবলি",
+        "code": "০০৭",
+        "fullMarks": 100,
+        "questionCount": 4
+      }
+    ]
+  },
+  {
+    "id": "bcs_written_35",
+    "name": "35th BCS Written",
+    "year": 35,
+    "subjects": [
+      {
+        "name": "বাংলা",
+        "code": "০০১",
+        "fullMarks": 200,
+        "questionCount": 9
+      },
+      {
+        "name": "English",
+        "code": "003",
+        "fullMarks": 200,
+        "questionCount": 2
+      },
+      {
+        "name": "গণিত",
+        "code": "০০৮",
+        "fullMarks": 50,
+        "questionCount": 12
+      },
+      {
+        "name": "বাংলাদেশ বিষয়াবলি",
+        "code": "০০৫",
+        "fullMarks": 200,
+        "questionCount": 10
+      },
+      {
+        "name": "আন্তর্জাতিক বিষয়াবলি",
+        "code": "০০৭",
+        "fullMarks": 100,
+        "questionCount": 3
+      },
+      {
+        "name": "সাধারণ বিজ্ঞান ও প্রযুক্তি",
+        "code": "০১০",
+        "fullMarks": 100,
+        "questionCount": 28
+      }
+    ]
+  }
+]
