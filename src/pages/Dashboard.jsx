@@ -165,10 +165,17 @@ const Dashboard = () => {
               {username} <span className="text-primary">· Lv.{level}</span>
             </h1>
           </div>
-          <div className={`shrink-0 px-3 py-1.5 rounded-full border border-white/[0.06] ${rankTheme.bg}`}>
-            <div className="flex items-center gap-1.5">
-              <Trophy className={`w-3.5 h-3.5 ${rankTheme.icon}`} />
-              <span className={`text-2xs font-black uppercase tracking-wider ${rankTheme.text}`}>{rankLabel}</span>
+          <div className="flex items-center gap-3">
+            <img
+              src={`${import.meta.env.BASE_URL || '/'}mascot-celebrating.png`}
+              alt="Mascot"
+              className="w-12 h-12 md:w-14 md:h-14 object-contain drop-shadow-lg"
+            />
+            <div className={`shrink-0 px-3 py-1.5 rounded-full border border-white/[0.06] ${rankTheme.bg}`}>
+              <div className="flex items-center gap-1.5">
+                <Trophy className={`w-3.5 h-3.5 ${rankTheme.icon}`} />
+                <span className={`text-2xs font-black uppercase tracking-wider ${rankTheme.text}`}>{rankLabel}</span>
+              </div>
             </div>
           </div>
         </div>

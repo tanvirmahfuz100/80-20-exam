@@ -185,7 +185,11 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                     <div className="px-4 py-4 space-y-4">
                         <div className="bg-surface-alt/50 rounded-2xl p-4 transition-all group">
                             <div className="flex items-center gap-3 mb-3">
-                                <div className="w-2 h-2 rounded-full bg-emerald-500" aria-hidden="true" />
+                                <img
+                                  src={`${import.meta.env.BASE_URL || '/'}mascot-celebrating.png`}
+                                  alt="Mascot"
+                                  className="w-8 h-8 object-contain"
+                                />
                                 <span className="text-[10px] md:text-2xs font-black uppercase tracking-widest text-white/20">
                                     Ready to Learn!
                                 </span>

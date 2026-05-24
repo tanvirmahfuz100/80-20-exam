@@ -20,7 +20,7 @@ export function useCountdown(expiryFns) {
     tick();
     const interval = setInterval(tick, 60000);
     return () => clearInterval(interval);
-  }, [expiryFns]);
+  }, []);
 
   return countdown;
 }

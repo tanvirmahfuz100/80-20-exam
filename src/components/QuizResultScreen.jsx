@@ -19,7 +19,15 @@ export default function QuizResultScreen({
       <div className="max-w-3xl mx-auto animate-in zoom-in-95 duration-500">
         <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl p-4 md:p-10 shadow-lg relative overflow-hidden">
           <div className="relative z-10 text-center space-y-4 md:space-y-8">
-            <div className="inline-flex p-3 md:p-5 bg-primary/10 rounded-full border border-primary/20 mb-1 md:mb-2">
+            <div className="flex justify-center mb-2">
+            <img
+              src={`${import.meta.env.BASE_URL || '/'}mascot-celebrating.png`}
+              alt="Mascot celebrating"
+              className="w-28 h-28 md:w-36 md:h-36 object-contain drop-shadow-2xl"
+            />
+          </div>
+
+          <div className="inline-flex p-3 md:p-5 bg-primary/10 rounded-full border border-primary/20 mb-1 md:mb-2">
               <Trophy className="w-6 h-6 md:w-12 md:h-12 text-primary" />
             </div>
 
@@ -99,6 +107,14 @@ export default function QuizResultScreen({
     <div className="max-w-3xl mx-auto animate-in zoom-in-95 duration-500">
       <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl p-4 md:p-10 shadow-lg relative overflow-hidden">
         <div className="relative z-10 text-center space-y-4 md:space-y-8">
+          <div className="flex justify-center mb-2">
+            <img
+              src={`${import.meta.env.BASE_URL || '/'}mascot-celebrating.png`}
+              alt="Mascot celebrating"
+              className="w-28 h-28 md:w-36 md:h-36 object-contain drop-shadow-2xl"
+            />
+          </div>
+
           <div className="inline-flex p-3 md:p-5 bg-primary/10 rounded-full border border-primary/20 mb-1 md:mb-2">
             <Trophy className="w-6 h-6 md:w-12 md:h-12 text-primary" />
           </div>

@@ -9,7 +9,14 @@ const Landing = () => {
         <div className="min-h-screen bg-background text-white selection:bg-primary/30 overflow-x-hidden">
             <div className="max-w-7xl mx-auto px-4 md:px-6 py-10 md:py-32 flex flex-col items-center justify-center text-center space-y-6 md:space-y-12">
                 <div className="space-y-4 md:space-y-8 max-w-4xl w-full">
-                    <div className="inline-flex items-center gap-1.5 md:gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-primary/10 border border-primary/20 rounded-full text-primary font-black uppercase tracking-widest text-[8px] md:text-[10px]">
+                    <div className="flex justify-center mb-4">
+              <img
+                src={`${import.meta.env.BASE_URL || '/'}mascot-celebrating.png`}
+                alt="Mascot"
+                className="w-32 h-32 md:w-44 md:h-44 object-contain drop-shadow-2xl"
+              />
+            </div>
+            <div className="inline-flex items-center gap-1.5 md:gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-primary/10 border border-primary/20 rounded-full text-primary font-black uppercase tracking-widest text-[8px] md:text-[10px]">
                         <Star className="w-2.5 h-2.5 md:w-3 md:h-3 fill-current" />
                         Master Any Competitive Exam
                     </div>
