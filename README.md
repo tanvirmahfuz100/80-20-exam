@@ -1,6 +1,6 @@
-# 80/20 Exam Platform
+# Fireman
 
-A premium educational platform designed to help students master competitive exams (BCS, SAT, HSC, SSC, etc.) using the 80/20 principle.
+A premium educational platform designed to help students master competitive exams (BCS, SAT, HSC, SSC, etc.).
 
 ## Unified Modern Architecture
 The project is now running in fully local testing mode with JSON files and localStorage.

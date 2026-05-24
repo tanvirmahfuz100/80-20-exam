@@ -84,7 +84,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                 <div className="flex flex-col h-full">
                     <div className="h-16 md:h-20 flex items-center px-6 border-b border-white/5 shrink-0 safe-top">
                         <span className="text-xl md:text-2xl font-black text-white tracking-tighter uppercase">
-                            80/20 EXAM
+                            FIREMAN
                         </span>
                         <button
                             onClick={toggle}

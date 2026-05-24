@@ -37,7 +37,7 @@ export default function OnboardingModal({ onComplete }) {
                 <Graduation className="w-16 h-16 md:w-24 md:h-24" />
               </div>
               <div>
-                <h2 className="text-2xl md:text-3xl font-black text-white tracking-tighter">Welcome to 80/20 Exam!</h2>
+                <h2 className="text-2xl md:text-3xl font-black text-white tracking-tighter">Welcome to Fireman!</h2>
                 <p className="text-white/50 text-xs md:text-sm mt-1 md:mt-2 font-medium leading-relaxed">
                   Your personal exam prep platform. Practice questions, watch lessons, take mock tests, and track your progress — all in one place.
                 </p>

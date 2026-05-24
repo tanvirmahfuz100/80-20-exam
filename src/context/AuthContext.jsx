@@ -55,7 +55,7 @@ export const AuthProvider = ({ children }) => {
         session.user.user_metadata = { username: baseName };
         session.profile.username = baseName;
 
-        if (email === 'admin@80-20.test') {
+        if (email === 'admin@fireman.test') {
             session.profile.role = 'super_admin';
         }
 

@@ -9,7 +9,7 @@ const LoadingScreen = ({ message = 'Loading...' }) => {
     "Practicing 20 minutes daily beats 2 hours once a week",
     "Your starred questions are waiting — review them to lock in the answers",
     "Consistency beats intensity. Show up every day.",
-    "The 80/20 rule: 20% of topics cover 80% of exam questions",
+    "Master the essentials. Focus on what moves the needle.",
     "Wrong answers aren't failures — they're your study list",
   ];
   const [tip] = useState(() => tips[Math.floor(Math.random() * tips.length)]);

@@ -98,7 +98,7 @@ const Landing = () => {
             </div>
 
             <footer className="py-6 md:py-12 border-t border-white/5 text-center text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-white/10">
-                &copy; 2024 80-20 Exam Platform &bull; Learning Reimagined
+                &copy; 2024 Fireman &bull; Learning Reimagined
             </footer>
         </div>
     );

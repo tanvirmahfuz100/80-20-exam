@@ -57,7 +57,7 @@ const GuideModal = ({ isOpen, onClose }) => {
                 </button>
 
                 <div className="space-y-1 mb-6">
-                    <h2 className="text-2xl font-black text-white tracking-tighter">How to use 80/20 Exam</h2>
+                    <h2 className="text-2xl font-black text-white tracking-tighter">How to use Fireman</h2>
                     <p className="text-sm text-white/40 font-medium">Everything you need to ace your exams — here is how it works.</p>
                 </div>
 

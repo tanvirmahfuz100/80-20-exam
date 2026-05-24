@@ -1,9 +1,9 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
 
-const THEME_KEY = '80-20-exam-theme';
+const THEME_KEY = 'fireman-theme';
 const DARK = 'dark';
 const LIGHT = 'light';
-const FONT_SIZE_KEY = '80-20-exam-font-size';
+const FONT_SIZE_KEY = 'fireman-font-size';
 
 const FONT_SIZE_MAP = {
   small: '14px',

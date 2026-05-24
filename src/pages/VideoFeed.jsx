@@ -74,7 +74,7 @@ const VideoFeed = () => {
                                 80
                             </div>
                             <div>
-                                <h4 className="text-white font-black tracking-tighter uppercase text-xs md:text-sm">80-20 ACADEMY</h4>
+                                <h4 className="text-white font-black tracking-tighter uppercase text-xs md:text-sm">FIREMAN ACADEMY</h4>
                                 <p className="text-[9px] font-black text-primary uppercase tracking-widest">Follow for daily tips</p>
                             </div>
                         </div>
