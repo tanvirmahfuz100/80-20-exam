@@ -15,6 +15,7 @@ const icons = {
     math: Calculator,
     analytical: Brain,
     business_entrepreneurship: Briefcase,
+    accounting: BookOpen,
 };
 
 const examColors = {
