@@ -163,42 +163,87 @@ export default function ExamOnboarding({ onComplete }) {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.2 }}
       >
-        <div className="flex-1 flex items-center justify-center px-6">
-          <div className="w-full max-w-sm text-center space-y-8">
-            <div className="flex justify-center">
-              <img
-                src={`${import.meta.env.BASE_URL || '/'}mascot-celebrating.png`}
-                alt="Mascot"
-                className="w-28 h-28 md:w-36 md:h-36 object-contain drop-shadow-2xl"
-              />
+        <div className="flex-1 flex items-center justify-center px-4 md:px-6">
+          <div className="w-full max-w-2xl text-center space-y-6 md:space-y-8">
+            <div className="space-y-2">
+              <h2 className="text-xl md:text-3xl font-black tracking-tighter text-text">তোমার মোড বেছে নাও</h2>
+              <p className="text-text-muted text-xs md:text-sm font-medium">প্রত্যেকটা অপশন দেখো — যেটা ভালো লাগে সেটা বাছাই করো</p>
             </div>
-            <div className="space-y-3">
-              <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-text">ফায়ারম্যানে স্বাগতম!</h2>
-              <p className="text-text-muted text-sm md:text-base font-medium">শুরু করার আগে তোমার পছন্দের মোড বেছে নাও</p>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <button
-                onClick={() => handleThemePick('dark')}
-                className="flex-1 flex flex-col items-center gap-3 p-6 md:p-8 rounded-2xl md:rounded-3xl bg-surface border-2 border hover:border-primary/50 transition-all active:scale-[0.97] hover:scale-[1.02] group"
-              >
-                <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-indigo-500/10 flex items-center justify-center border border-indigo-500/20 group-hover:border-indigo-500/40 transition-all">
-                  <Moon className="w-8 h-8 md:w-10 md:h-10 text-indigo-400" />
-                </div>
-                <div className="space-y-1">
-                  <p className="text-lg md:text-xl font-black text-text">ডার্ক মোড</p>
-                  <p className="text-[10px] md:text-xs text-text-muted font-medium">চোখে আরামদায়ক</p>
-                </div>
-              </button>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
+              {/* Light mode card */}
               <button
                 onClick={() => handleThemePick('light')}
-                className="flex-1 flex flex-col items-center gap-3 p-6 md:p-8 rounded-2xl md:rounded-3xl bg-surface border-2 border hover:border-primary/50 transition-all active:scale-[0.97] hover:scale-[1.02] group"
+                className="group relative flex flex-col rounded-2xl overflow-hidden border-2 border-gray-200 bg-white text-left transition-all hover:scale-[1.02] hover:shadow-xl active:scale-[0.98]"
               >
-                <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-amber-500/10 flex items-center justify-center border border-amber-500/20 group-hover:border-amber-500/40 transition-all">
-                  <Sun className="w-8 h-8 md:w-10 md:h-10 text-amber-400" />
+                <div className="px-4 pt-4 pb-3 space-y-3">
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 rounded-lg bg-amber-50 border border-amber-200 flex items-center justify-center">
+                      <Sun className="w-4 h-4 text-amber-500" />
+                    </div>
+                    <span className="text-sm font-black text-gray-800">লাইট মোড</span>
+                  </div>
+                  <div className="bg-gray-50 rounded-xl border border-gray-100 p-3 space-y-2">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] font-black text-gray-600">🔥 ফায়ারম্যান</span>
+                      <span className="text-[8px] text-gray-400">প্রোফাইল</span>
+                    </div>
+                    <div>
+                      <p className="text-xs font-black text-gray-800">আজকের কুইজ</p>
+                      <p className="text-[10px] text-gray-500 font-medium">৫টি প্রশ্ন</p>
+                    </div>
+                    <div className="bg-gray-900 text-white text-[9px] font-black uppercase tracking-wider rounded-lg py-1.5 text-center">শুরু করো</div>
+                    <div className="flex items-center justify-between border-t border-gray-100 pt-2">
+                      <div className="flex gap-1">
+                        <div className="w-1.5 h-1.5 rounded-full bg-gray-300" />
+                        <div className="w-1.5 h-1.5 rounded-full bg-gray-300" />
+                        <div className="w-1.5 h-1.5 rounded-full bg-gray-300" />
+                      </div>
+                      <span className="text-[8px] text-gray-400 font-medium">সাবজেক্ট</span>
+                    </div>
+                  </div>
+                  <div className="flex gap-1.5 flex-wrap">
+                    <span className="text-[8px] px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 font-medium">সাদা ব্যাকগ্রাউন্ড</span>
+                    <span className="text-[8px] px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 font-medium">গাঢ় টেক্সট</span>
+                  </div>
                 </div>
-                <div className="space-y-1">
-                  <p className="text-lg md:text-xl font-black text-text">লাইট মোড</p>
-                  <p className="text-[10px] md:text-xs text-text-muted font-medium">উজ্জ্বল ও পরিষ্কার</p>
+              </button>
+
+              {/* Dark mode card */}
+              <button
+                onClick={() => handleThemePick('dark')}
+                className="group relative flex flex-col rounded-2xl overflow-hidden border-2 border-gray-800 bg-gray-950 text-left transition-all hover:scale-[1.02] hover:shadow-xl active:scale-[0.98]"
+              >
+                <div className="px-4 pt-4 pb-3 space-y-3">
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 rounded-lg bg-indigo-950 border border-indigo-800 flex items-center justify-center">
+                      <Moon className="w-4 h-4 text-indigo-400" />
+                    </div>
+                    <span className="text-sm font-black text-white">ডার্ক মোড</span>
+                  </div>
+                  <div className="bg-gray-900 rounded-xl border border-gray-800 p-3 space-y-2">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] font-black text-gray-300">🔥 ফায়ারম্যান</span>
+                      <span className="text-[8px] text-gray-500">প্রোফাইল</span>
+                    </div>
+                    <div>
+                      <p className="text-xs font-black text-white">আজকের কুইজ</p>
+                      <p className="text-[10px] text-gray-400 font-medium">৫টি প্রশ্ন</p>
+                    </div>
+                    <div className="bg-white text-gray-900 text-[9px] font-black uppercase tracking-wider rounded-lg py-1.5 text-center">শুরু করো</div>
+                    <div className="flex items-center justify-between border-t border-gray-800 pt-2">
+                      <div className="flex gap-1">
+                        <div className="w-1.5 h-1.5 rounded-full bg-gray-600" />
+                        <div className="w-1.5 h-1.5 rounded-full bg-gray-600" />
+                        <div className="w-1.5 h-1.5 rounded-full bg-gray-600" />
+                      </div>
+                      <span className="text-[8px] text-gray-500 font-medium">সাবজেক্ট</span>
+                    </div>
+                  </div>
+                  <div className="flex gap-1.5 flex-wrap">
+                    <span className="text-[8px] px-2 py-0.5 rounded-full bg-gray-800 text-gray-400 font-medium">কালো ব্যাকগ্রাউন্ড</span>
+                    <span className="text-[8px] px-2 py-0.5 rounded-full bg-gray-800 text-gray-400 font-medium">সাদা টেক্সট</span>
+                  </div>
                 </div>
               </button>
             </div>
