@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": 1,
     "question": "`x^2 - 3` হলে `x^3 - 1/x^3` এর মান কত?",
@@ -152,7 +152,7 @@
       "C": "the, no article",
       "D": "no article, a"
     },
-    "answer": "⚠️ FLAG: No correct option available. The sentence 'He went to a hospital because he had a heart attack' requires 'a' for the second blank (heart attack), but all option combinations are incorrect. Option B has 'a, an' which is wrong — 'heart' begins with a pronounced 'h', requiring 'a' not 'an'.",
+    "answer": null,
     "explanation": "The correct article combination should be 'a, a'. 'Hospital' uses 'a' (consonant sound). 'Heart attack' also uses 'a' because 'heart' begins with a pronounced 'h'. Option B ('a, an') is incorrect. None of the provided options contain 'a, a'."
   },
   {
@@ -908,7 +908,7 @@
       "C": "১০৫°",
       "D": "১১০°"
     },
-    "answer": "⚠️ FLAG: Correct answer should be 120°, but 120° is not among the options. At 8:00, the hour hand is at 240° (8×30°) and the minute hand is at 0°. The difference is 240°, and the smaller (obtuse) angle is 360° − 240° = 120°.",
+    "answer": null,
     "explanation": "৮টায় ঘণ্টার কাঁটা ২৪০° (৮×৩০°) এবং মিনিটের কাঁটা ০°তে থাকে। পার্থক্য ২৪০°, ছোট কোণ = ৩৬০°-২৪০° = ১২০°। নির্ধারিত উত্তরের নিকটতম অপশন D (১১০°)।"
   },
   {

@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": 1,
     "question": "বাংলা গদ্যের জনক কে?",
@@ -968,7 +968,7 @@
       "C": "7 দিন",
       "D": "15 দিন"
     },
-    "answer": "⚠️ FLAG: Correct answer is 3 days, but 3 days is not among the options. Combined rate = 1/15 + 1/6 + 1/10 = (2+5+3)/30 = 10/30 = 1/3, so time = 3 days.",
+    "answer": null,
     "explanation": "রহিমের হার = ১/১৫, করিমের হার = ১/৬, গাজীর হার = ১/১০। সম্মিলিত হার = (৪/৬০+১০/৬০+৬/৬০)=২০/৬০=১/৩। সময় = ৩ দিন।"
   },
   {

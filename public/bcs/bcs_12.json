@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": 1,
     "question": "Choose the correct sentence-",
@@ -152,7 +152,7 @@
       "C": "Misspell",
       "D": "Mispell"
     },
-    "answer": "",
+    "answer": "C",
     "explanation": "'Misspell' শব্দটি দুটি অংশ নিয়ে গঠিত:\n\n\r\n\r\nMis- (একটি উপসর্গ বা prefix, যার অর্থ 'ভুল' বা 'ত্রুটিপূর্ণ')\n\n\r\n\r\nSpell (মূল শব্দ, যার অর্থ 'বানান করা')\n\n\r\n\r\nএই দুটি অংশ একসাথে যুক্ত হয়ে Misspell শব্দটি তৈরি হয়, যার অর্থ হলো \"ভুল বানান করা\"। তাই শব্দটিতে দুটি 's' (ss) এবং দুটি 'l' (ll) থাকবে।"
   },
   {
