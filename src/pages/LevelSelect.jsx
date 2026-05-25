@@ -4,7 +4,7 @@ import { useSearchParams, useNavigate, Link } from 'react-router-dom';
 import LoadingScreen from '../components/LoadingScreen';
 import {
   ArrowLeft, Lock, Zap, Star, Trophy,
-  BrainCircuit, TrendingUp, Sparkles
+  BrainCircuit, TrendingUp, Sparkles, BookOpen
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { normalizeQuizQuestions } from '../services/quizUtils';
@@ -181,33 +181,52 @@ const LevelSelect = () => {
         </div>
       )}
 
+      {/* Section banner */}
+      {totalCount > 0 && (
+        <div className="bg-primary rounded-2xl shadow-md flex items-stretch sticky top-0 z-10">
+          <div className="flex-1 min-w-0 p-4">
+            <p className="text-white/70 text-[10px] font-bold uppercase tracking-[0.15em] leading-relaxed">
+              SECTION 1 · UNIT 1
+            </p>
+            <h2 className="text-white text-base font-black mt-0.5 truncate">{title}</h2>
+          </div>
+          <div className="flex items-stretch">
+            <div className="w-px bg-white/20 my-3" />
+            <button className="w-12 flex items-center justify-center text-white/70 hover:text-white hover:bg-white/10 transition-all rounded-r-2xl">
+              <BookOpen className="w-5 h-5" />
+            </button>
+          </div>
+        </div>
+      )}
+
       {/* Winding snake roadmap */}
       <div className="relative px-2 pb-4">
         {(() => {
           const firstUncompletedIdx = levelsWithMeta.findIndex(l => l.unlocked && !l.completed);
           const itemCount = levelsWithMeta.length;
           const ROW_H = 88;
-          const containerH = itemCount * ROW_H + 40;
+          const containerH = itemCount * ROW_H + 60;
+
+          const xPositions = [18, 78, 25, 82, 15, 72, 30, 85, 20, 75];
+          const getX = (i) => xPositions[i % xPositions.length];
 
           const buildPath = (from, to) => {
             if (from >= to || to === 0) return '';
             const segs = [];
             for (let i = from; i < to; i++) {
               const y = i * ROW_H + ROW_H / 2;
-              const nx = i % 2 === 0 ? 30 : 70;
+              const nx = getX(i);
               if (i === from) {
-                const prevY = (from - 1) >= 0 ? (from - 1) * ROW_H + ROW_H / 2 : 0;
-                const startX = from === 0 ? 50 : ((from - 1) % 2 === 0 ? 30 : 70);
-                const startY = from === 0 ? 0 : prevY;
+                const startX = from === 0 ? 50 : getX(from - 1);
+                const startY = from === 0 ? 0 : (from - 1) * ROW_H + ROW_H / 2;
                 segs.push(`M ${startX} ${startY}`);
-              }
-              if (i === from) {
-                segs.push(`C ${nx} ${y - 24}, ${nx} ${y - 24}, ${nx} ${y}`);
+                segs.push(`C ${nx} ${y - 16}, ${nx} ${y - 16}, ${nx} ${y}`);
               } else {
-                const prevNX = (i - 1) % 2 === 0 ? 30 : 70;
+                const prevNX = getX(i - 1);
                 const prevY = (i - 1) * ROW_H + ROW_H / 2;
-                const midY = (prevY + y) / 2;
-                segs.push(`C ${prevNX} ${midY}, ${nx} ${midY}, ${nx} ${y}`);
+                const prevBottom = prevY + ROW_H * 0.3;
+                const nextTop = y - ROW_H * 0.3;
+                segs.push(`C ${prevNX} ${prevBottom}, ${nx} ${nextTop}, ${nx} ${y}`);
               }
             }
             return segs.join(' ');
@@ -219,8 +238,8 @@ const LevelSelect = () => {
 
             if (isLocked) {
               return (
-                <div className="w-14 h-14 rounded-full bg-wolf/60 flex items-center justify-center cursor-not-allowed border-2 border-wolf">
-                  <Lock className="w-5 h-5 text-hare/50" />
+                <div className="w-10 h-10 rounded-full bg-wolf/20 flex items-center justify-center cursor-not-allowed border border-wolf/30 opacity-40">
+                  <Lock className="w-4 h-4 text-hare/30" />
                 </div>
               );
             }
@@ -230,30 +249,35 @@ const LevelSelect = () => {
                 <div className="relative">
                   <div className="absolute inset-0 rounded-full bg-primary/40 animate-ping" />
                   <button
-                    className="relative w-14 h-14 rounded-full bg-primary flex items-center justify-center cursor-pointer shadow-lg active:scale-95 transition-all"
+                    className="relative w-14 h-14 rounded-full bg-gradient-to-b from-primary to-[#7ABF33] flex items-center justify-center cursor-pointer shadow-lg active:scale-95 transition-all border-b-4 border-[#5C9E1F] active:border-b-0 active:translate-y-[3px]"
                     onClick={() => handleStartLevel(level.levelNumber)}
                   >
-                    <span className="text-white font-black text-lg">{level.levelNumber}</span>
+                    <span className="text-white font-black text-lg mt-[-2px]">{level.levelNumber}</span>
                   </button>
-                  <div className="absolute -top-10 left-1/2 -translate-x-1/2 bg-white text-charcoal text-[11px] font-bold px-3 py-1.5 rounded-full whitespace-nowrap shadow-lg z-20 border border-wolf">
+                  <motion.div
+                    initial={{ opacity: 0, y: -8, scale: 0.9 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    transition={{ delay: 0.3, type: 'spring', stiffness: 250 }}
+                    className="absolute -top-12 left-1/2 -translate-x-1/2 bg-primary text-white text-sm font-bold px-4 py-2 rounded-full whitespace-nowrap shadow-xl z-20 border-2 border-white/30"
+                  >
                     শুরু করো
-                    <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-white" />
-                  </div>
+                    <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-[7px] border-r-[7px] border-t-[8px] border-l-transparent border-r-transparent border-t-primary" />
+                  </motion.div>
                 </div>
               );
             }
 
             if (level.completed) {
               return (
-                <div className="w-14 h-14 rounded-full bg-primary flex items-center justify-center shadow-sm">
-                  <Star className="w-7 h-7 text-white fill-white" />
+                <div className="w-14 h-14 rounded-full bg-gradient-to-b from-primary to-[#7ABF33] flex items-center justify-center shadow-sm border-b-4 border-[#5C9E1F] active:border-b-0 active:translate-y-[1px]">
+                  <Star className="w-7 h-7 text-white fill-white mt-[-2px]" />
                 </div>
               );
             }
 
             return (
-              <div className="w-14 h-14 rounded-full bg-eel border-2 border-wolf flex items-center justify-center">
-                <span className="text-hare font-bold text-sm">{level.levelNumber}</span>
+              <div className="w-14 h-14 rounded-full bg-white border-[3px] border-wolf flex items-center justify-center shadow-sm">
+                <span className="text-hare font-bold text-base">{level.levelNumber}</span>
               </div>
             );
           };
@@ -263,7 +287,7 @@ const LevelSelect = () => {
             const isCurrent = idx === firstUncompletedIdx;
             return (
               <span className={`text-[10px] mt-1 font-medium truncate ${
-                isLocked ? 'text-hare/40' : isCurrent ? 'text-primary font-bold' : 'text-hare/60'
+                isLocked ? 'text-hare/30' : isCurrent ? 'text-primary font-bold' : 'text-hare/60'
               }`}>
                 {isCurrent ? 'চলুন!' : `Level ${level.levelNumber}`}
               </span>
@@ -286,27 +310,35 @@ const LevelSelect = () => {
               <svg
                 className="absolute inset-0 w-full h-full pointer-events-none z-0"
                 viewBox={`0 0 100 ${containerH}`}
-                preserveAspectRatio="xMidYMid meet"
+                preserveAspectRatio="none"
               >
                 <path
                   d={svgFullPath}
                   stroke="#DCE6EC"
-                  strokeWidth="3"
+                  strokeWidth="4"
                   fill="none"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  opacity="0.6"
                 />
                 {svgCompletedPath && (
                   <path
                     d={svgCompletedPath}
                     stroke="#93D333"
-                    strokeWidth="3"
+                    strokeWidth="4"
                     fill="none"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                 )}
+                {levelsWithMeta.filter(l => l.completed).map((l, idx) => (
+                  <circle
+                    key={`dot-${idx}`}
+                    cx={getX(idx)}
+                    cy={idx * ROW_H + ROW_H / 2}
+                    r="2.5"
+                    fill="#93D333"
+                  />
+                ))}
               </svg>
 
               {allItems.map((item, idx) => {
@@ -334,7 +366,8 @@ const LevelSelect = () => {
 
                 const i = item.index;
                 const level = levelsWithMeta[i];
-                const isLeft = i % 2 === 0;
+                const nx = getX(i);
+                const alignLeft = nx < 50;
                 const nodeY = i * ROW_H;
 
                 return (
@@ -345,12 +378,12 @@ const LevelSelect = () => {
                     transition={{ delay: idx * 0.03, duration: 0.25 }}
                     className="absolute z-10"
                     style={{
-                      left: isLeft ? '30%' : '70%',
+                      left: `${nx}%`,
                       top: nodeY,
                       transform: 'translateX(-50%)',
                     }}
                   >
-                    <div className={`flex flex-col ${isLeft ? 'items-start' : 'items-end'}`}>
+                    <div className={`flex flex-col ${alignLeft ? 'items-start' : 'items-end'}`}>
                       {nodeContent(level, i)}
                       {nodeLabel(level, i)}
                     </div>

@@ -76,6 +76,11 @@ export default {
         turtle: '#5F8428',
         crimson: '#8B0000',
         charcoal: '#131F24',
+        wolf: '#DCE6EC',
+        eel: '#F1F7FB',
+        hare: '#52656D',
+        swan: '#37464F',
+        snow: '#131F24',
       },
       fontFamily: {
         sans: ['Nunito Sans', 'Hind Siliguri', 'Noto Sans Bengali', 'system-ui', 'sans-serif'],
