@@ -37,24 +37,24 @@ export default function OnboardingModal({ onComplete }) {
                 <Graduation className="w-16 h-16 md:w-24 md:h-24" />
               </div>
               <div>
-                <h2 className="text-2xl md:text-3xl font-black text-white tracking-tighter">Welcome to Fireman!</h2>
+                <h2 className="text-2xl md:text-3xl font-black text-white tracking-tighter">ফায়ারম্যানে স্বাগতম!</h2>
                 <p className="text-white/50 text-xs md:text-sm mt-1 md:mt-2 font-medium leading-relaxed">
-                  Your personal exam prep platform. Practice questions, watch lessons, take mock tests, and track your progress â€” all in one place.
+                  তোমার ব্যক্তিগত এক্সাম প্রেপ প্ল্যাটফর্ম। প্রশ্ন প্রাক্টিস করো, লেসন দেখো, মক টেস্ট দাও এবং প্রোগ্রেস ট্র্যাক করো — সব এক জায়গায়।
                 </p>
               </div>
             </div>
 
             <div className="space-y-1.5 md:space-y-2">
-              <label className="text-[9px] md:text-[10px] font-black uppercase tracking-widest text-white/30 px-1">What should we call you?</label>
+              <label className="text-[9px] md:text-[10px] font-black uppercase tracking-widest text-white/30 px-1">তোমাকে কী বলে ডাকব?</label>
               <input
                 type="text"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                placeholder="Enter your name"
+                placeholder="তোমার নাম লিখো"
                 className="w-full bg-background border border-white/10 px-4 md:px-5 py-3 md:py-4 rounded-xl md:rounded-2xl text-white font-medium text-sm outline-none focus:border-primary/50 transition-all"
                 autoFocus
               />
-              <p className="text-[9px] md:text-[10px] text-white/20 px-1">You can change this later in Settings.</p>
+              <p className="text-[9px] md:text-[10px] text-white/20 px-1">পরে সেটিংসে পরিবর্তন করতে পারবে।</p>
             </div>
 
             <div className="flex gap-2 md:gap-3">
@@ -62,13 +62,13 @@ export default function OnboardingModal({ onComplete }) {
                 onClick={() => setStep(1)}
                 className="flex-1 py-3 md:py-4 bg-white/5 hover:bg-white/10 text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs border border-white/10 transition-all"
               >
-                Skip
+                স্কিপ
               </button>
               <button
                 onClick={() => setStep(1)}
                 className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] active:scale-[0.98]"
               >
-                Next
+                পরবর্তী
               </button>
             </div>
           </div>
@@ -79,7 +79,7 @@ export default function OnboardingModal({ onComplete }) {
             <div className="flex justify-center pt-2">
               <div className="relative bg-neutral-800 rounded-2xl px-5 py-3 md:px-6 md:py-4 max-w-xs">
                 <p className="text-white font-bold text-sm md:text-base text-center leading-relaxed">
-                  Which exam are you preparing for?
+                  তুমি কোন এক্সামের জন্য প্রস্তুতি নিচ্ছ?
                 </p>
                 <div className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-0 h-0 border-l-[8px] border-r-[8px] border-t-[8px] border-transparent border-t-neutral-800" />
               </div>
@@ -87,11 +87,11 @@ export default function OnboardingModal({ onComplete }) {
 
             <div className="space-y-3">
               {[
-                { id: 'ssc', label: 'SSC', note: 'NCTB English 1st and 2nd Paper', icon: GraduationCap },
-                { id: 'hsc', label: 'HSC', note: 'NCTB English 1st and 2nd Paper', icon: BookOpen },
-                { id: 'iba', label: 'IBA', note: 'Admission English, Math, Analytical', icon: Brain },
-                { id: 'bcs', label: 'BCS', note: 'Competitive exam practice', icon: Award },
-                { id: 'class7', label: 'Class 7', note: 'English Grammar', icon: Book },
+                { id: 'ssc', label: 'এসএসসি', note: 'এনসিটিবি ইংরেজি ১ম ও ২য় পত্র', icon: GraduationCap },
+                { id: 'hsc', label: 'এইচএসসি', note: 'এনসিটিবি ইংরেজি ১ম ও ২য় পত্র', icon: BookOpen },
+                { id: 'iba', label: 'আইবিএ', note: 'এডমিশন ইংরেজি, গণিত, অ্যানালিটিক্যাল', icon: Brain },
+                { id: 'bcs', label: 'বিসিএস', note: 'কম্পিটিটিভ এক্সাম প্রাক্টিস', icon: Award },
+                { id: 'class7', label: 'সপ্তম শ্রেণী', note: 'ইংলিশ গ্রামার', icon: Book },
               ].map((opt) => {
                 const Icon = opt.icon;
                 const selected = exam === opt.id;
@@ -131,17 +131,17 @@ export default function OnboardingModal({ onComplete }) {
                   : 'bg-primary hover:bg-primary-hover border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] active:scale-[0.98]'
               }`}
             >
-              Continue
+              চালিয়ে যাও
             </button>
           </div>
         )}
-
+ 
         {step === 2 && (
           <div className="space-y-5 md:space-y-6">
             <div className="flex justify-center pt-2">
               <div className="relative bg-neutral-800 rounded-2xl px-5 py-3 md:px-6 md:py-4 max-w-xs">
                 <p className="text-white font-bold text-sm md:text-base text-center leading-relaxed">
-                  Choose your question language
+                  তোমার প্রশ্নের ভাষা বেছে নাও
                 </p>
                 <div className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-0 h-0 border-l-[8px] border-r-[8px] border-t-[8px] border-transparent border-t-neutral-800" />
               </div>
@@ -149,8 +149,8 @@ export default function OnboardingModal({ onComplete }) {
 
             <div className="space-y-3">
               {[
-                { id: 'bangla', label: 'à¦¬à¦¾à¦‚à¦²à¦¾', subtitle: 'Bangla medium questions', icon: BookOpen },
-                { id: 'english', label: 'English', subtitle: 'English medium questions', icon: Globe },
+                { id: 'bangla', label: 'বাংলা', subtitle: 'বাংলা মিডিয়াম প্রশ্ন', icon: BookOpen },
+                { id: 'english', label: 'ইংরেজি', subtitle: 'ইংরেজি মিডিয়াম প্রশ্ন', icon: Globe },
               ].map((opt) => {
                 const Icon = opt.icon;
                 const selected = version === opt.id;
@@ -190,41 +190,41 @@ export default function OnboardingModal({ onComplete }) {
                   : 'bg-primary hover:bg-primary-hover border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] active:scale-[0.98]'
               }`}
             >
-              Continue
+              চালিয়ে যাও
             </button>
           </div>
         )}
-
+ 
         {step === 3 && (
           <div className="space-y-5 md:space-y-6">
             <div className="text-center space-y-2">
-              <h2 className="text-2xl md:text-3xl font-black text-white tracking-tighter">Almost there!</h2>
+              <h2 className="text-2xl md:text-3xl font-black text-white tracking-tighter">প্রায় হয়ে গেল!</h2>
               <p className="text-white/50 text-xs md:text-sm font-medium">
-                Customize your experience before we start.
+                শুরু করার আগে তোমার এক্সপিরিয়েন্স কাস্টমাইজ করো।
               </p>
             </div>
 
             <div className="space-y-3">
               <div>
-                <p className="text-[10px] md:text-sm font-black uppercase tracking-wider text-white/40 mb-2">Theme</p>
+                <p className="text-[10px] md:text-sm font-black uppercase tracking-wider text-white/40 mb-2">থিম</p>
                 <div className="flex gap-2">
                   <button
                     type="button"
                     onClick={() => setThemeChoice('dark')}
                     className={`flex-1 rounded-xl py-2 ${themeChoice === 'dark' ? 'bg-primary/15 border-primary' : 'bg-white/5 border-white/10'}`}>
-                    Dark
+                    ডার্ক
                   </button>
                   <button
                     type="button"
                     onClick={() => setThemeChoice('light')}
                     className={`flex-1 rounded-xl py-2 ${themeChoice === 'light' ? 'bg-primary/15 border-primary' : 'bg-white/5 border-white/10'}`}>
-                    Light
+                    লাইট
                   </button>
                 </div>
               </div>
 
               <div>
-                <p className="text-[10px] md:text-sm font-black uppercase tracking-wider text-white/40 mb-2">Text Size</p>
+                <p className="text-[10px] md:text-sm font-black uppercase tracking-wider text-white/40 mb-2">টেক্সট সাইজ</p>
                 <div className="flex gap-2">
                   {['small','normal','large'].map(sz => (
                     <button
@@ -232,7 +232,7 @@ export default function OnboardingModal({ onComplete }) {
                       type="button"
                       onClick={() => setFontSizeChoice(sz)}
                       className={`flex-1 rounded-xl py-2 ${fontSizeChoice === sz ? 'bg-primary/15 border-primary' : 'bg-white/5 border-white/10'}`}>
-                      {sz === 'small' ? 'Small' : sz === 'normal' ? 'Normal' : 'Large'}
+                      {sz === 'small' ? 'ছোট' : sz === 'normal' ? 'নরমাল' : 'বড়'}
                     </button>
                   ))}
                 </div>
@@ -247,7 +247,7 @@ export default function OnboardingModal({ onComplete }) {
                   : 'bg-primary hover:bg-primary-hover border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] active:scale-[0.98]'
               }`}
             >
-              {saving ? 'Setting up...' : 'Start Learning'}
+              {saving ? 'সেটআপ হচ্ছে...' : 'শেখা শুরু করো'}
             </button>
           </div>
         )}

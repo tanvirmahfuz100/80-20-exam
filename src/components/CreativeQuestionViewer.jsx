@@ -1,7 +1,7 @@
 ﻿import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
-const BengaliLabels = ['à¦•', 'à¦–', 'à¦—', 'à¦˜'];
+const BengaliLabels = ['ক', 'খ', 'গ', 'ঘ'];
 
 const CreativeQuestionViewer = ({ cq, onContinue, fontSize = 16 }) => {
   const questions = cq.questions || [];
@@ -10,7 +10,7 @@ const CreativeQuestionViewer = ({ cq, onContinue, fontSize = 16 }) => {
     <div className="flex-1 flex flex-col min-h-0 gap-2 p-1">
       <div className="bg-white/[0.04] border border-primary/20 rounded-xl p-3 shrink-0 overflow-y-auto max-h-[30vh]">
         <p className="text-[9px] font-black text-primary uppercase tracking-widest mb-1.5">
-          {cq.stem_label || 'à¦‰à¦¦à§à¦¦à§€à¦ªà¦•à¦Ÿà¦¿ à¦ªà§œà§‡ à¦¨à¦¿à¦šà§‡à¦° à¦ªà§à¦°à¦¶à§à¦¨à¦—à§à¦²à§‹à¦° à¦‰à¦¤à§à¦¤à¦° à¦¦à¦¾à¦“'}
+          {cq.stem_label || 'উদ্দীপকটি পড়ে নিচের প্রশ্নগুলোর উত্তর দাও'}
         </p>
         <p className="text-white/80 leading-relaxed font-medium whitespace-pre-wrap" style={{ fontSize: `${Math.max(12, fontSize - 2)}px` }}>
           {cq.stem}

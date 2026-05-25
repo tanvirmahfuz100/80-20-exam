@@ -4,38 +4,38 @@ import { X, BookOpen, Target, Brain, TrendingUp, Video, ClipboardList } from 'lu
 const tips = [
     {
         icon: Target,
-        title: 'Practice Questions',
-        desc: 'Go to Practice to pick an exam, subject, and lesson. Each lesson has 10-20 questions. Answer them and get instant feedback.',
+        title: 'প্রাক্টিস প্রশ্ন',
+        desc: 'প্রাক্টিসে গিয়ে এক্সাম, সাবজেক্ট ও লেসন বাছাই করো। প্রতিটি লেসনে ১০-২০টি প্রশ্ন থাকে। উত্তর দাও এবং ইনস্ট্যান্ট ফিডব্যাক পাও।',
         path: '/practice'
     },
     {
         icon: BookOpen,
-        title: 'Explore Courses',
-        desc: 'Courses has video lessons from top instructors. Filter by exam category and start learning at your own pace.',
+        title: 'কোর্স এক্সপ্লোর করো',
+        desc: 'কোর্সে টপ ইন্সট্রাক্টরদের ভিডিও লেসন আছে। এক্সাম ক্যাটাগরি অনুযায়ী ফিল্টার করো এবং নিজের গতিতে শেখা শুরু করো।',
         path: '/courses'
     },
     {
         icon: Brain,
-        title: 'Question Bank',
-        desc: 'Search 50,000+ questions by keyword, difficulty, or exam. Bookmark your favorites and track your accuracy.',
+        title: 'প্রশ্নব্যাংক',
+        desc: '৫০,০০০+ প্রশ্ন কীওয়ার্ড, ডিফিকাল্টি বা এক্সাম অনুযায়ী খুঁজো। ফেভারিট বুকমার্ক করো এবং একিউরেসি ট্র্যাক করো।',
         path: '/bank'
     },
     {
         icon: ClipboardList,
-        title: 'Mock Tests',
-        desc: 'Simulate real exam conditions with timed, full-length mock tests. Auto-graded with detailed solutions.',
+        title: 'মক টেস্ট',
+        desc: 'টাইমড, ফুল-লেংথ মক টেস্ট দিয়ে রিয়েল এক্সাম কন্ডিশন সিমুলেট করো। অটো-গ্রেডেড ডিটেইলড সলিউশনসহ।',
         path: '/mock-tests'
     },
     {
         icon: TrendingUp,
-        title: 'Track Progress',
-        desc: 'Analytics shows your accuracy, consistency, strengths, and weak areas. Export your data anytime.',
+        title: 'প্রোগ্রেস ট্র্যাক করো',
+        desc: 'অ্যানালিটিক্স তোমার একিউরেসি, কনসিস্টেন্সি, শক্তিমত্তা ও দুর্বলতা দেখায়। যেকোনো সময় ডাটা এক্সপোর্ট করো।',
         path: '/analytics'
     },
     {
         icon: Video,
-        title: 'Short Bits',
-        desc: 'Quick, scrollable video lessons for last-minute revision. Perfect for learning on the go.',
+        title: 'শর্ট বির্টস',
+        desc: 'দ্রুত, স্ক্রলযোগ্য ভিডিও লেসন লাস্ট-মিনিট রিভিশনের জন্য। চলার পথে শেখার জন্য পারফেক্ট।',
         path: '/shorts'
     },
 ];
@@ -57,8 +57,8 @@ const GuideModal = ({ isOpen, onClose }) => {
                 </button>
 
                 <div className="space-y-1 mb-6">
-                    <h2 className="text-2xl font-black text-white tracking-tighter">How to use Fireman</h2>
-                    <p className="text-sm text-white/40 font-medium">Everything you need to ace your exams â€” here is how it works.</p>
+                    <h2 className="text-2xl font-black text-white tracking-tighter">কীভাবে ফায়ারম্যান ব্যবহার করবেন</h2>
+                    <p className="text-sm text-white/40 font-medium">Everything you need to ace your exams â€” এখানে তা কীভাবে কাজ করে।</p>
                 </div>
 
                 <div className="space-y-3">
@@ -77,7 +77,7 @@ const GuideModal = ({ isOpen, onClose }) => {
 
                 <div className="mt-6 p-4 bg-primary/5 rounded-2xl border border-primary/20">
                     <p className="text-xs text-white/60 font-medium leading-relaxed">
-                        <span className="text-primary font-black">Pro tip:</span> Wrong answers are automatically saved for spaced-repetition review. Tap the star icon in the top bar anytime to revisit your mistakes.
+                        <span className="text-primary font-black">প্রো টিপ:</span> ভুল উত্তরগুলো অটোমেটিক্যালি স্পেসড রিপিটিশনের জন্য সেভ হয়। যেকোনো সময় উপরের বার থেকে স্টার আইকনে ট্যাপ করে তোমার ভুলগুলো রিভিউ করো।
                     </p>
                 </div>
 
@@ -85,7 +85,7 @@ const GuideModal = ({ isOpen, onClose }) => {
                     onClick={onClose}
                     className="mt-6 w-full py-4 bg-primary hover:bg-primary-hover text-white rounded-2xl font-black uppercase tracking-widest text-xs transition-all active:scale-[0.98] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
                 >
-                    Got it
+                    বুঝেছি
                 </button>
             </div>
         </div>

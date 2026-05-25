@@ -33,8 +33,8 @@ const Login = () => {
                         <Graduation className="w-20 h-20 md:w-32 md:h-32" />
                     </div>
                     <div className="relative">
-                        <h2 className="text-xl md:text-3xl font-black text-white tracking-tighter mb-1">Welcome Back!</h2>
-                        <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-xs">Local testing mode with full access enabled</p>
+                        <h2 className="text-xl md:text-3xl font-black text-white tracking-tighter mb-1">স্বাগতম!</h2>
+                        <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-xs">লোকাল টেস্টিং মোড - সব ফিচার ওপেন</p>
                     </div>
                 </div>
 
@@ -55,12 +55,12 @@ const Login = () => {
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                                 className="w-full bg-background border border-white/5 pl-9 md:pl-12 pr-3 md:pr-4 py-2.5 md:py-4 rounded-lg md:rounded-2xl text-white outline-none focus:border-primary/50 transition-all font-medium text-sm"
-                                placeholder="Email Address"
+                                placeholder="ইমেইল ঠিকানা"
                             />
                         </div>
 
                         <p className="text-[9px] md:text-[10px] text-white/30 font-black uppercase tracking-[0.2em] px-1">
-                            Enter any email and continue. Registration is hidden during testing.
+                            যেকোনো ইমেইল দিয়ে চালিয়ে যাও। টেস্টিংয়ের সময় রেজিস্ট্রেশন লুকানো আছে।
                         </p>
                     </div>
 
@@ -70,12 +70,12 @@ const Login = () => {
                         className="w-full py-2.5 md:py-4 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-lg md:rounded-2xl font-black uppercase tracking-[0.2em] text-[10px] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] transition-all flex items-center justify-center gap-2 md:gap-3 active:scale-[0.98]"
                     >
                         {loading ? <Loader2 className="w-4 h-4 md:w-5 md:h-5 animate-spin" /> : <LogIn className="w-4 h-4 md:w-5 md:h-5" />}
-                        Continue to App
+                        অ্যাপে যাও
                     </button>
 
                     <div className="text-center">
                         <p className="text-white/30 text-[9px] md:text-xs font-bold uppercase tracking-widest">
-                            All features are unlocked for testing.
+                            টেস্টিংয়ের জন্য সব ফিচার আনলক করা আছে।
                         </p>
                     </div>
                 </form>

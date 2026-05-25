@@ -22,11 +22,11 @@ const VideoFeed = () => {
     }, []);
 
     const handleAction = async (videoId, action) => {
-        if (!user) return alert("Sign in to engage with videos!");
+        if (!user) return alert("ভিডিওতে অংশ নিতে সাইন ইন করো!");
         await api.logEngagement(user.id, videoId, action);
     };
 
-    if (loading) return <LoadingScreen message="Loading videos..." />;
+    if (loading) return <LoadingScreen message="ভিডিও লোড হচ্ছে..." />;
 
     return (
         <div className="max-w-md mx-auto h-[calc(100vh-80px)] md:h-[calc(100vh-120px)] overflow-y-scroll no-scrollbar snap-y snap-mandatory bg-black rounded-2xl md:rounded-[3rem] border border-white/5 shadow-lg relative">
@@ -74,8 +74,8 @@ const VideoFeed = () => {
                                 80
                             </div>
                             <div>
-                                <h4 className="text-white font-black tracking-tighter uppercase text-xs md:text-sm">FIREMAN ACADEMY</h4>
-                                <p className="text-[9px] font-black text-primary uppercase tracking-widest">Follow for daily tips</p>
+                                <h4 className="text-white font-black tracking-tighter uppercase text-xs md:text-sm">ফায়ারম্যান অ্যাকাডেমি</h4>
+                                <p className="text-[9px] font-black text-primary uppercase tracking-widest">দৈনিক টিপসের জন্য ফলো করো</p>
                             </div>
                         </div>
 
@@ -83,7 +83,7 @@ const VideoFeed = () => {
                             <h2 className="text-base md:text-xl font-black text-white tracking-tight leading-tight uppercase">{vid.title}</h2>
                             <div className="flex items-center gap-2 text-white/40">
                                 <Music2 className="w-3 h-3" />
-                                <span className="text-[10px] font-black uppercase tracking-[0.2em] whitespace-nowrap overflow-hidden">Brain Power - Original Lesson Audio</span>
+                                <span className="text-[10px] font-black uppercase tracking-[0.2em] whitespace-nowrap overflow-hidden">ব্রেন পাওয়ার - অরিজিনাল লেসন অডিও</span>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ const VideoFeed = () => {
             {videos.length === 0 && (
                 <div className="h-full flex flex-col items-center justify-center p-12 text-center text-white/20">
                     <Play className="w-10 h-12 md:w-12 mb-4 opacity-5" />
-                    <p className="font-black uppercase tracking-widest text-xs">No shorts in the feed yet!</p>
+                    <p className="font-black uppercase tracking-widest text-xs">এখনো কোনো শর্টস নেই!</p>
                 </div>
             )}
         </div>

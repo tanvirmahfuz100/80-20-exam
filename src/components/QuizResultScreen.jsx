@@ -32,18 +32,18 @@ export default function QuizResultScreen({
             </div>
 
             <div>
-              <h2 className="text-xl md:text-3xl font-black text-white tracking-tighter mb-1 uppercase">Level {currentLevel} Complete!</h2>
+              <h2 className="text-xl md:text-3xl font-black text-white tracking-tighter mb-1 uppercase">লেভেল {currentLevel} সম্পন্ন!</h2>
               <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-xs truncate px-2">{title}</p>
             </div>
 
             <div className="grid grid-cols-2 gap-2 md:gap-4">
               <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
                 <div className={`font-black text-lg md:text-3xl mb-0.5 ${accuracy >= 80 ? 'text-emerald-400' : accuracy >= 50 ? 'text-yellow-400' : 'text-white/50'}`}>{accuracy}%</div>
-                <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Accuracy</div>
+                <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">একিউরেসি</div>
               </div>
               <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
                 <div className="text-emerald-500 font-black text-lg md:text-3xl mb-0.5">{score}/{totalQuestions}</div>
-                <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Correct</div>
+                <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">সঠিক</div>
               </div>
             </div>
 
@@ -53,15 +53,15 @@ export default function QuizResultScreen({
                   <Zap className="w-4 h-4 md:w-6 md:h-6 text-primary" />
                   <span className="text-primary font-black text-lg md:text-3xl">+{earnedXp}</span>
                 </div>
-                <div className="text-[8px] md:text-[10px] text-primary/50 font-black uppercase tracking-widest mt-0.5">XP Earned</div>
+                <div className="text-[8px] md:text-[10px] text-primary/50 font-black uppercase tracking-widest mt-0.5">এক্সপি অর্জিত</div>
               </div>
               {earnedStars === 0 ? (
                 <div className="bg-emerald-500/10 p-3 md:p-6 rounded-xl md:rounded-2xl border border-emerald-500/20">
                   <div className="flex items-center justify-center gap-1.5">
                     <Trophy className="w-4 h-4 md:w-6 md:h-6 text-emerald-400" />
-                    <span className="text-emerald-400 font-black text-lg md:text-3xl">Perfect Run!</span>
+                    <span className="text-emerald-400 font-black text-lg md:text-3xl">পারফেক্ট!</span>
                   </div>
-                  <div className="text-[8px] md:text-[10px] text-emerald-400/50 font-black uppercase tracking-widest mt-0.5">No mistakes</div>
+                  <div className="text-[8px] md:text-[10px] text-emerald-400/50 font-black uppercase tracking-widest mt-0.5">কোনো ভুল নেই</div>
                 </div>
               ) : (
                 <div className="bg-yellow-500/10 p-3 md:p-6 rounded-xl md:rounded-2xl border border-yellow-500/20">
@@ -69,8 +69,8 @@ export default function QuizResultScreen({
                     <Star className="w-4 h-4 md:w-6 md:h-6 text-yellow-400" />
                     <span className="text-yellow-400 font-black text-lg md:text-3xl">{earnedStars}</span>
                   </div>
-                  <div className="text-[8px] md:text-[10px] text-yellow-400/50 font-black uppercase tracking-widest mt-0.5">Stars to Review</div>
-                  <div className="text-[6px] md:text-[8px] text-yellow-400/30 font-black uppercase tracking-widest mt-0.5">Review these to master them</div>
+                  <div className="text-[8px] md:text-[10px] text-yellow-400/50 font-black uppercase tracking-widest mt-0.5">স্টার রিভিউ বাকি</div>
+                  <div className="text-[6px] md:text-[8px] text-yellow-400/30 font-black uppercase tracking-widest mt-0.5">বাকি স্টার রিভিউ করো</div>
                 </div>
               )}
             </div>
@@ -80,20 +80,20 @@ export default function QuizResultScreen({
                 onClick={onGoHome}
                 className="flex-1 py-3 md:py-4 bg-white/5 hover:bg-white/10 text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border border-white/5 transition-all active:scale-[0.98] min-h-touch"
               >
-                Go Home
+                হোম
               </button>
               <button
                 onClick={onPracticeAgain}
                 className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
               >
-                <RefreshCw className="w-4 h-4" aria-hidden="true" /> Practice Again
+                <RefreshCw className="w-4 h-4" aria-hidden="true" /> আবার প্রাক্টিস করো
               </button>
               {accuracy >= 80 && onNextLevel && (
                 <button
                   onClick={onNextLevel}
                   className="flex-1 py-3 md:py-4 bg-emerald-500 hover:bg-emerald-400 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
                 >
-                  <Trophy className="w-4 h-4" /> Next Level
+                  <Trophy className="w-4 h-4" /> পরবর্তী লেভেল
                 </button>
               )}
             </div>
@@ -120,7 +120,7 @@ export default function QuizResultScreen({
           </div>
 
           <div>
-            <h2 className="text-xl md:text-4xl font-black text-white tracking-tighter mb-1 uppercase">Practice Complete!</h2>
+            <h2 className="text-xl md:text-4xl font-black text-white tracking-tighter mb-1 uppercase">প্রাক্টিস সম্পন্ন!</h2>
             <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-xs truncate px-2">{title}</p>
           </div>
 
@@ -131,14 +131,14 @@ export default function QuizResultScreen({
             </div>
             <div className="bg-surface-alt p-3 md:p-6 rounded-xl md:rounded-2xl border border-white/5">
               <div className="text-emerald-500 font-black text-lg md:text-3xl mb-0.5">{score}/{totalQuestions}</div>
-              <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">Correct</div>
+              <div className="text-[8px] md:text-[10px] text-white/30 font-black uppercase tracking-widest">সঠিক</div>
             </div>
             {earnedStars === 0 ? (
               <div className="bg-emerald-500/10 p-3 md:p-6 rounded-xl md:rounded-2xl border border-emerald-500/20">
                 <div className="flex items-center justify-center gap-1.5">
-                  <div className="text-emerald-400 font-black text-lg md:text-3xl">Clean!</div>
+                  <div className="text-emerald-400 font-black text-lg md:text-3xl">ক্লিন!</div>
                 </div>
-                <div className="text-[8px] md:text-[10px] text-emerald-400/50 font-black uppercase tracking-widest mt-0.5">No mistakes</div>
+                <div className="text-[8px] md:text-[10px] text-emerald-400/50 font-black uppercase tracking-widest mt-0.5">কোনো ভুল নেই</div>
               </div>
             ) : (
               <div className="bg-yellow-500/10 p-3 md:p-6 rounded-xl md:rounded-2xl border border-yellow-500/20">
@@ -146,31 +146,31 @@ export default function QuizResultScreen({
                   <Star className="w-4 h-4 md:w-6 md:h-6 text-yellow-400" />
                   <span className="text-yellow-400 font-black text-lg md:text-3xl">{earnedStars}</span>
                 </div>
-                <div className="text-[8px] md:text-[10px] text-yellow-400/50 font-black uppercase tracking-widest mt-0.5">Stars to Review</div>
-                <div className="text-[6px] md:text-[8px] text-yellow-400/30 font-black uppercase tracking-widest mt-0.5">Review these to master them</div>
+                <div className="text-[8px] md:text-[10px] text-yellow-400/50 font-black uppercase tracking-widest mt-0.5">স্টার রিভিউ বাকি</div>
+                <div className="text-[6px] md:text-[8px] text-yellow-400/30 font-black uppercase tracking-widest mt-0.5">বাকি স্টার রিভিউ করো</div>
               </div>
             )}
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 pt-2 md:pt-6">
             <button onClick={onGoHome} className="flex-1 py-3 md:py-4 bg-white/5 hover:bg-white/10 text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border border-white/5 transition-all active:scale-[0.98] min-h-touch">
-              Back Home
+              হোম
             </button>
             <button onClick={onPracticeAgain} className="flex-1 py-3 md:py-4 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch">
-              <RefreshCw className="w-4 h-4" aria-hidden="true" /> Try Again
+              <RefreshCw className="w-4 h-4" aria-hidden="true" /> আবার চেষ্টা করো
             </button>
             {onNextModel && (
               <button
                 onClick={onNextModel}
                 className="flex-1 py-3 md:py-4 bg-emerald-500 hover:bg-emerald-400 text-black rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[11px] md:text-[10px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] min-h-touch"
               >
-                Next Model
+                পরবর্তী মডেল
               </button>
             )}
           </div>
           {file?.includes('model_') && (
             <button onClick={onGoHome} className="text-[9px] font-bold text-white/20 hover:text-white/40 transition-colors mt-2">
-              â† All Model Tests
+              â† সব মডেল টেস্ট
             </button>
           )}
         </div>

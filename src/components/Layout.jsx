@@ -14,17 +14,17 @@ import { playSound } from '../utils/sounds';
 import { useReducedMotion } from '../hooks';
 
 const navItems = [
-    { icon: LayoutDashboard, label: "Home", path: "/" },
-    { icon: Target, label: "Practice", path: "/practice" },
-    { icon: BookOpen, label: "Courses", path: "/courses" },
-    { icon: TrendingUp, label: "Analytics", path: "/analytics" },
-    { icon: Star, label: "Stars", path: "/stars" },
+    { icon: LayoutDashboard, label: "হোম", path: "/" },
+    { icon: Target, label: "প্রাক্টিস", path: "/practice" },
+    { icon: BookOpen, label: "কোর্স", path: "/courses" },
+    { icon: TrendingUp, label: "অ্যানালিটিক্স", path: "/analytics" },
+    { icon: Star, label: "স্টার", path: "/stars" },
 ];
 
 const sidebarTips = [
-    { icon: Target, text: 'Pick an exam and start practising', path: '/practice' },
-    { icon: TrendingUp, text: 'Track your accuracy & progress', path: '/analytics' },
-    { icon: Brain, text: 'Review your mistakes regularly', path: '/' },
+    { icon: Target, text: 'পছন্দমতো যেকোনো এক্সাম দিয়ে নিজেকে যাচাই করো!', path: '/practice' },
+    { icon: TrendingUp, text: 'অ্যানালিটিক্সে দেখো কেমন ইম্প্রুভ হলো', path: '/analytics' },
+    { icon: Brain, text: 'নিজের ভুলগুলো রিভিশন দাও বৈজ্ঞানিক পদ্ধতিতে', path: '/' },
 ];
 
 const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
@@ -35,18 +35,18 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
     const currentRole = role || 'student';
 
     const publicItems = [
-        { icon: LayoutDashboard, label: "Home", path: "/" },
-        { icon: BookOpen, label: "Courses", path: "/courses" },
-        { icon: Target, label: "Question Bank", path: "/bank" },
-        { icon: ClipboardList, label: "Mock Tests", path: "/mock-tests" },
-        { icon: Video, label: "Short Bits", path: "/shorts" },
-        { icon: Brain, label: "Daily Rituals", path: "/practice" },
+        { icon: LayoutDashboard, label: "হোম", path: "/" },
+        { icon: BookOpen, label: "কোর্স", path: "/courses" },
+        { icon: Target, label: "প্রশ্নব্যাংক", path: "/bank" },
+        { icon: ClipboardList, label: "মক টেস্ট", path: "/mock-tests" },
+        { icon: Video, label: "শর্টস", path: "/shorts" },
+        { icon: Brain, label: "ডেইলি প্রাক্টিস", path: "/practice" },
     ];
 
     const privateItems = [
-        { icon: Star, label: "Star Review", path: "/stars" },
-        { icon: TrendingUp, label: "Neural Report", path: "/analytics" },
-        { icon: Settings, label: "Calibration", path: "/settings" },
+        { icon: Star, label: "স্টার রিভিউ", path: "/stars" },
+        { icon: TrendingUp, label: "অ্যানালিটিক্স", path: "/analytics" },
+        { icon: Settings, label: "সেটিংস", path: "/settings" },
     ];
 
     const isAdmin = currentRole === 'super_admin' || currentRole === 'content_admin';
@@ -98,7 +98,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                     <nav className="flex-1 px-4 py-6 md:py-8 space-y-6 md:space-y-8 overflow-y-auto no-scrollbar">
                         <div className="space-y-1">
                             <p className="px-3 text-[10px] md:text-2xs font-black uppercase tracking-[0.2em] text-white/10 mb-3 md:mb-4">
-                                Lessons
+                                লেসন
                             </p>
                             {publicItems.map((item) => (
                                 <NavLink
@@ -121,7 +121,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
 
                         <div className="space-y-1">
                             <p className="px-3 text-[10px] md:text-2xs font-black uppercase tracking-[0.2em] text-white/10 mb-3 md:mb-4">
-                                Your Progress
+                                তোমার প্রোগ্রেস
                             </p>
                             {privateItems.map((item) => (
                                 <NavLink
@@ -145,7 +145,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                         {isAdmin && (
                             <div className="space-y-1">
                                 <p className="px-3 text-[10px] md:text-2xs font-black uppercase tracking-[0.2em] text-emerald-500/30 mb-3 md:mb-4">
-                                    Admin Hub
+                                    অ্যাডমিন
                                 </p>
                                 <NavLink
                                     to="/admin"
@@ -159,14 +159,14 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                                     }
                                 >
                                     <ShieldCheck className="w-5 h-5 shrink-0" aria-hidden="true" />
-                                    Content Studio
+                                    কন্টেন্ট স্টুডিও
                                 </NavLink>
                             </div>
                         )}
 
                         <div className="space-y-1">
                             <p className="px-3 text-[10px] md:text-2xs font-black uppercase tracking-[0.2em] text-white/10 mb-3 md:mb-4">
-                                Quick Tips
+                                কুইক টিপস
                             </p>
                             {sidebarTips.map((tip) => (
                                 <Link
@@ -191,7 +191,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                                   className="w-8 h-8 object-contain"
                                 />
                                 <span className="text-[10px] md:text-2xs font-black uppercase tracking-widest text-white/20">
-                                    Ready to Learn!
+                                    শিখতে প্রস্তুত!
                                 </span>
                             </div>
                             <button
@@ -199,7 +199,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                                 className="flex items-center gap-2 text-[10px] md:text-2xs font-black uppercase tracking-widest text-primary hover:text-white transition-colors min-h-touch"
                             >
                                 <MessageSquareWarning className="w-4 h-4" aria-hidden="true" />
-                                Report a Problem
+                                সমস্যা পেয়েছো? জানাও
                             </button>
                         </div>
                     </div>
@@ -207,10 +207,10 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                     <div className="p-4 border-t border-white/5 space-y-3 bg-black/40 safe-bottom">
                         <div className="bg-surface-active p-3 rounded-xl">
                             <p className="text-[10px] md:text-2xs uppercase font-bold tracking-widest text-white/30 mb-0.5">
-                                {currentRole === 'super_admin' ? 'Admin Mode' : 'Testing as'}
+                                {currentRole === 'super_admin' ? 'অ্যাডমিন মোড' : 'টেস্টিং হিসেবে'}
                             </p>
                             <p className="text-sm md:text-base font-black text-white tracking-tight truncate uppercase">
-                                {user.user_metadata?.username || user.email || 'Student'}
+                                {user.user_metadata?.username || user.email || 'শিক্ষার্থী'}
                             </p>
                         </div>
                         <button
@@ -218,7 +218,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                             className="w-full flex items-center gap-3 px-3 py-3 min-h-touch rounded-xl text-sm md:text-base font-bold text-red-400 hover:bg-red-500/10 transition-all border border-transparent hover:border-red-500/20"
                         >
                             <LogOut className="w-5 h-5 shrink-0" aria-hidden="true" />
-                            Reset Test Session
+                            টেস্ট সেশন রিসেট
                         </button>
                     </div>
                 </div>
@@ -287,11 +287,11 @@ const NotificationCenter = () => {
                 >
                     <div className="flex items-center justify-between mb-4 md:mb-4 shrink-0">
                         <h4 className="text-xs md:text-[10px] font-black uppercase tracking-widest text-white">
-                            Latest News
+                           最新 নিউজ
                         </h4>
                         <div className="flex items-center gap-2">
                             <span className="text-[10px] md:text-[9px] font-bold text-primary">
-                                1 New
+                                ১টি নতুন
                             </span>
                             <button
                                 onClick={() => setShow(false)}
@@ -305,10 +305,10 @@ const NotificationCenter = () => {
                     <div className="space-y-4 flex-1 overflow-y-auto">
                         <div className="p-4 bg-white/5 rounded-2xl border border-white/5">
                             <p className="text-sm md:text-xs text-white/70 font-medium leading-relaxed">
-                                New BCS questions are ready for you! Go check them out.
+                                নতুন বিসিএস প্রশ্ন প্রস্তুত! এখনই দেখে নাও।
                             </p>
                             <span className="text-[10px] md:text-[9px] text-white/10 font-bold mt-2 block uppercase">
-                                Just now &bull; Study Guide
+                                এইমাত্র &bull; স্টাডি গাইড
                             </span>
                         </div>
                     </div>
@@ -384,8 +384,8 @@ const Layout = ({ children }) => {
 
     const pageTitle = (() => {
         const p = location.pathname;
-        if (p === '/') return 'Home';
-        if (p.startsWith('/quiz/')) return 'Practice';
+        if (p === '/') return 'হোম';
+        if (p.startsWith('/quiz/')) return 'প্রাক্টিস';
         return p.substring(1).replace('/', ' / ');
     })();
 
@@ -411,7 +411,7 @@ const Layout = ({ children }) => {
                             </button>
                             <div className="min-w-0">
                                 <p className="hidden md:block text-[10px] md:text-2xs font-black uppercase tracking-[0.3em] text-white/10">
-                                    Now Learning
+                                    এখন শিখছি
                                 </p>
                                 <h2 className="text-sm md:text-base lg:text-lg font-black text-white tracking-tighter uppercase truncate">
                                     {pageTitle}
@@ -423,24 +423,24 @@ const Layout = ({ children }) => {
                             <button
                                 onClick={toggleTheme}
                                 className="p-3 bg-surface border border-white/5 rounded-2xl text-white/30 hover:text-white hover:border-white/20 transition-all hidden md:flex items-center gap-2 touch-target"
-                                title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
-                                aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
+                                title={isDark ? 'লাইট মোডে যাও' : 'ডার্ক মোডে যাও'}
+                                aria-label={isDark ? 'লাইট মোডে যাও' : 'ডার্ক মোডে যাও'}
                             >
                                 {isDark ? <Sun className="w-5 h-5" aria-hidden="true" /> : <Moon className="w-5 h-5" aria-hidden="true" />}
                             </button>
                             <button
                                 onClick={() => setGuideOpen(true)}
                                 className="p-3 bg-surface border border-white/5 rounded-2xl text-white/30 hover:text-white hover:border-white/20 transition-all hidden md:flex items-center gap-2 touch-target"
-                                title="How to use this app"
-                                aria-label="Help guide"
+                                title="কীভাবে ব্যবহার করবেন"
+                                aria-label="গাইড"
                             >
                                 <HelpCircle className="w-5 h-5" aria-hidden="true" />
-                                <span className="text-[10px] md:text-2xs font-black uppercase tracking-widest">Help</span>
+                                <span className="text-[10px] md:text-2xs font-black uppercase tracking-widest">গাইড</span>
                             </button>
                             <NotificationCenter />
                             <div className="hidden sm:flex items-center gap-3">
                                 <div className="bg-white/5 border border-white/10 rounded-2xl px-3 md:px-4 py-2.5 md:py-3 text-right">
-                                    <p className="text-[10px] md:text-2xs uppercase font-black tracking-[0.2em] text-white/40">XP</p>
+                                    <p className="text-[10px] md:text-2xs uppercase font-black tracking-[0.2em] text-white/40">এক্সপি</p>
                                     <p className="text-sm md:text-base font-black text-white">{globalXp}</p>
                                 </div>
                                 <Link
@@ -449,7 +449,7 @@ const Layout = ({ children }) => {
                                 >
                                     <Star className="w-4 h-4 text-yellow-300 fill-yellow-300/30 shrink-0" aria-hidden="true" />
                                     <div>
-                                        <p className="text-[10px] md:text-2xs uppercase font-black tracking-[0.2em] text-white/40">Stars</p>
+                                        <p className="text-[10px] md:text-2xs uppercase font-black tracking-[0.2em] text-white/40">স্টার</p>
                                         <p className="text-sm md:text-base font-black text-white">{globalStarBalance}</p>
                                     </div>
                                 </Link>
@@ -457,8 +457,8 @@ const Layout = ({ children }) => {
                             {user && (
                                 <div className="hidden sm:flex items-center gap-4 pl-4 border-l border-white/10">
                                     <div className="text-right">
-                                        <p className="text-[9px] md:text-2xs font-black text-primary uppercase tracking-tighter">Level 1</p>
-                                        <p className="text-[10px] md:text-2xs font-black text-white/40 uppercase tracking-widest">Beginner</p>
+                                        <p className="text-[9px] md:text-2xs font-black text-primary uppercase tracking-tighter">লেভেল ১</p>
+                                        <p className="text-[10px] md:text-2xs font-black text-white/40 uppercase tracking-widest">বিগিনার</p>
                                     </div>
                                     <div className="w-10 h-10 bg-primary/20 rounded-xl border border-primary/30 flex items-center justify-center font-black text-primary uppercase cursor-pointer shrink-0">
                                         {user.user_metadata?.username?.[0]?.toUpperCase() || 'U'}

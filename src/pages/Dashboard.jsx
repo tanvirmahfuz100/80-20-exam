@@ -110,11 +110,11 @@ const Dashboard = () => {
   React.useEffect(() => {
     const base = import.meta.env.BASE_URL || '/';
     const exams = [
-      { id: 'ssc', label: 'SSC', note: 'NCTB English 1st & 2nd Paper' },
-      { id: 'hsc', label: 'HSC', note: 'NCTB English 1st & 2nd Paper' },
-      { id: 'iba', label: 'IBA', note: 'Admission English, Math, Analytical' },
-      { id: 'bcs', label: 'BCS', note: 'Competitive exam practice' },
-      { id: 'class7', label: 'Class 7', note: 'English Grammar' },
+      { id: 'ssc', label: 'এসএসসি', note: 'এনসিটিবি ইংরেজি ১ম ও ২য় পত্র' },
+      { id: 'hsc', label: 'এইচএসসি', note: 'এনসিটিবি ইংরেজি ১ম ও ২য় পত্র' },
+      { id: 'iba', label: 'আইবিএ', note: 'এডমিশন ইংরেজি, গণিত, অ্যানালিটিক্যাল' },
+      { id: 'bcs', label: 'বিসিএস', note: 'কম্পিটিটিভ এক্সাম প্রাক্টিস' },
+      { id: 'class7', label: 'সপ্তম শ্রেণী', note: 'ইংলিশ গ্রামার' },
     ];
     Promise.all(
       exams.map(async (exam) => {
@@ -154,7 +154,7 @@ const Dashboard = () => {
         <div className="relative z-10 flex items-start justify-between gap-3 mb-4">
           <div className="min-w-0 flex-1">
             <p className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-1">
-              {new Date().getHours() < 12 ? 'Good morning' : new Date().getHours() < 18 ? 'Good afternoon' : 'Good evening'}
+              {new Date().getHours() < 12 ? 'সুপ্রভাত' : new Date().getHours() < 18 ? 'শুভ অপরাহ্ন' : 'শুভ সন্ধ্যা'}
             </p>
             <h1 className="text-xl md:text-3xl font-black text-white tracking-tighter truncate">
               {username} <span className="text-primary">Â· Lv.{level}</span>
@@ -179,7 +179,7 @@ const Dashboard = () => {
           <div className="flex items-center gap-1.5">
             <Flame className="w-3.5 h-3.5 text-orange-400 shrink-0" />
             <div>
-              <p className="text-3xs font-black uppercase tracking-widest text-white/25 leading-none mb-0.5">{streak}d streak</p>
+              <p className="text-3xs font-black uppercase tracking-widest text-white/25 leading-none mb-0.5">{streak}d স্ট্রিক</p>
               <p className="text-sm md:text-base font-black text-white leading-none">{totalXp} <span className="text-3xs font-bold text-white/40">XP</span></p>
             </div>
           </div>
@@ -187,7 +187,7 @@ const Dashboard = () => {
           <div className="flex items-center gap-1.5">
             <Star className="w-3.5 h-3.5 text-yellow-400 shrink-0" />
             <div>
-              <p className="text-3xs font-black uppercase tracking-widest text-white/25 leading-none mb-0.5">Stars</p>
+              <p className="text-3xs font-black uppercase tracking-widest text-white/25 leading-none mb-0.5">স্টার</p>
               <p className="text-sm md:text-base font-black text-yellow-400 leading-none">{userGameStats.total_stars}</p>
             </div>
           </div>
@@ -195,7 +195,7 @@ const Dashboard = () => {
           <div className="flex items-center gap-1.5">
             <Gauge className="w-3.5 h-3.5 text-accent shrink-0" />
             <div>
-              <p className="text-3xs font-black uppercase tracking-widest text-white/25 leading-none mb-0.5">Accuracy</p>
+              <p className="text-3xs font-black uppercase tracking-widest text-white/25 leading-none mb-0.5">একিউরেসি</p>
               <p className="text-sm md:text-base font-black text-white leading-none">{Math.round(Number(statsData.accuracy))}%</p>
             </div>
           </div>
@@ -206,14 +206,14 @@ const Dashboard = () => {
             to="/practice"
             className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-white transition-all active:scale-[0.97] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
           >
-            Start Practice
+            প্রাক্টিস করো
             <ArrowRight className="w-3.5 h-3.5" />
           </Link>
           <Link
             to="/bank"
             className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl border border-white/[0.08] bg-white/[0.04] hover:bg-white/[0.08] px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-white/60 hover:text-white transition-all active:scale-[0.97]"
           >
-            Question Bank
+            প্রশ্নব্যাংক
             <Layers className="w-3.5 h-3.5" />
           </Link>
         </div>
@@ -221,8 +221,8 @@ const Dashboard = () => {
         {/* â”€â”€â”€ Level Progress â”€â”€â”€ */}
         <div className="mt-4 pt-3 border-t border-white/[0.04]">
           <div className="flex items-center justify-between mb-1.5">
-            <span className="text-3xs font-black uppercase tracking-widest text-white/20">Level {level} Â· {nextLevelXp} XP target</span>
-            <span className="text-3xs font-black text-primary">{xpInLevel}/{nextLevelXp - (level - 1) * 100} XP</span>
+            <span className="text-3xs font-black uppercase tracking-widest text-white/20">লেভেল {level} Â· {nextLevelXp} এক্সপি টার্গেট</span>
+            <span className="text-3xs font-black text-primary">{xpInLevel}/{nextLevelXp - (level - 1) * 100} এক্সপি</span>
           </div>
           <div className="h-1.5 rounded-full bg-white/[0.06] overflow-hidden">
             <Motion.div
@@ -241,7 +241,7 @@ const Dashboard = () => {
           <div className="flex items-center justify-between gap-3 mb-2">
             <div className="flex items-center gap-2 min-w-0">
               <Rocket className="w-4 h-4 text-primary shrink-0" />
-              <span className="text-2xs font-black uppercase tracking-wider text-white/40 truncate">Unlock full dashboard</span>
+              <span className="text-2xs font-black uppercase tracking-wider text-white/40 truncate">ড্যাসবোর্ড আনলক করো</span>
             </div>
             <span className="text-xs font-black text-primary shrink-0">{progressTo20}/20</span>
           </div>
@@ -255,7 +255,7 @@ const Dashboard = () => {
           </div>
           {statsData.totalPracticed > 0 && (
             <p className="text-3xs font-medium text-white/20 mt-2">
-              {20 - statsData.totalPracticed} more questions to unlock performance reports
+              ড্যাসবোর্ড করতে আর বাকি মাত্র {20 - statsData.totalPracticed} টি প্রশ্ন
             </p>
           )}
         </Motion.div>
@@ -263,20 +263,20 @@ const Dashboard = () => {
 
       {/* â”€â”€â”€ Stats Grid â”€â”€â”€ */}
       <Motion.div variants={itemVariants} className="grid grid-cols-2 md:grid-cols-4 gap-2.5">
-        <StatCard Icon={Crown} label="Level" value={`${level}`} bgClass="bg-yellow-400/10" iconColor="text-yellow-400" />
-        <StatCard Icon={Flame} label="Streak" value={`${streak}d`} bgClass="bg-orange-400/10" iconColor="text-orange-400" />
-        <StatCard Icon={Zap} label="XP Earned" value={`${totalXp}`} bgClass="bg-primary/10" iconColor="text-primary" />
-        <StatCard Icon={BadgeCheck} label="Rank" value={rankLabel} bgClass={rankTheme.bg} iconColor={rankTheme.icon} />
+        <StatCard Icon={Crown} label="লেভেল" value={`${level}`} bgClass="bg-yellow-400/10" iconColor="text-yellow-400" />
+        <StatCard Icon={Flame} label="স্ট্রিক" value={`${streak}d`} bgClass="bg-orange-400/10" iconColor="text-orange-400" />
+        <StatCard Icon={Zap} label="এক্সপি" value={`${totalXp}`} bgClass="bg-primary/10" iconColor="text-primary" />
+        <StatCard Icon={BadgeCheck} label="র‍্যাংক" value={rankLabel} bgClass={rankTheme.bg} iconColor={rankTheme.icon} />
       </Motion.div>
 
       {/* â”€â”€â”€ Quick Actions â”€â”€â”€ */}
       <Motion.div variants={itemVariants}>
-        <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-3">Quick Actions</h2>
+        <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-3">কুইক অ্যাকশন</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5">
-          <ActionCard Icon={Target} title="Practice" desc="Pick an exam & subject" path="/practice" />
-          <ActionCard Icon={Brain} title="Question Bank" desc="Search 50,000+" path="/bank" />
-          <ActionCard Icon={BookOpen} title="Courses" desc="Video lessons" path="/courses" />
-          <ActionCard Icon={TrendingUp} title="Analytics" desc="Track progress" path="/analytics" />
+          <ActionCard Icon={Target} title="প্রাক্টিস" desc="এক্সাম ও সাবজেক্ট বাছাই" path="/practice" />
+          <ActionCard Icon={Brain} title="প্রশ্নব্যাংক" desc="৫০,০০০+ প্রশ্ন" path="/bank" />
+          <ActionCard Icon={BookOpen} title="কোর্স" desc="ভিডিও লেসন" path="/courses" />
+          <ActionCard Icon={TrendingUp} title="অ্যানালিটিক্স" desc="প্রোগ্রেস ট্র্যাক করো" path="/analytics" />
         </div>
       </Motion.div>
 
@@ -285,7 +285,7 @@ const Dashboard = () => {
         <Motion.div variants={itemVariants}>
           <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-3 flex items-center gap-2">
             <ZapIcon className="w-3.5 h-3.5 text-primary" />
-            Daily Missions
+            ডেইলি মিশন
             <span className="text-[9px] font-medium text-white/20 normal-case flex items-center gap-1 ml-auto">
               <Timer className="w-3 h-3" />
               {countdown.daily.hours}h {countdown.daily.minutes}m left
@@ -305,7 +305,7 @@ const Dashboard = () => {
                 <div className="flex items-start justify-between mb-2">
                   <div>
                     <h3 className="text-xs font-black text-white tracking-tight">{ch.label}</h3>
-                    <p className="text-[10px] text-white/30 font-medium mt-0.5">Level {ch.levelNumber}</p>
+                    <p className="text-[10px] text-white/30 font-medium mt-0.5">লেভেল {ch.levelNumber}</p>
                   </div>
                   {ch.completed ? (
                     <BadgeCheck className="w-5 h-5 text-emerald-400 shrink-0" />
@@ -319,10 +319,10 @@ const Dashboard = () => {
                       ? 'bg-emerald-500/15 text-emerald-400'
                       : 'bg-primary/10 text-primary'
                   }`}>
-                    {ch.completed ? 'Done' : `+${ch.bonusXp} XP`}
+                    {ch.completed ? 'সম্পন্ন' : `+${ch.bonusXp} এক্সপি`}
                   </div>
                   {!ch.completed && (
-                    <span className="text-[9px] text-white/20 font-medium">Start â†’</span>
+                    <span className="text-[9px] text-white/20 font-medium">শুরু করো â†’</span>
                   )}
                 </div>
               </Link>
@@ -344,17 +344,17 @@ const Dashboard = () => {
                   <Flame className="w-4 h-4 text-yellow-400" />
                 </div>
                 <div>
-                  <h3 className="text-xs font-black text-white tracking-tight">Weekly: {weeklyChallenge.label}</h3>
+                  <h3 className="text-xs font-black text-white tracking-tight">সাপ্তাহিক: {weeklyChallenge.label}</h3>
                   <p className="text-[10px] text-white/40 font-medium flex items-center gap-1">
                     <Timer className="w-3 h-3" />
-                    {countdown.weekly.days}d {countdown.weekly.hours}h remaining
+                    {countdown.weekly.days} dni {countdown.weekly.hours} ঘ বাকি
                   </p>
                 </div>
               </div>
               <div className={`px-2 py-0.5 rounded-full text-[8px] font-black uppercase tracking-wider ${
                 weeklyChallenge.completed ? 'bg-emerald-500/15 text-emerald-400' : 'bg-yellow-500/10 text-yellow-400'
               }`}>
-                {weeklyChallenge.completed ? 'Done' : `+${weeklyChallenge.bonusXp} XP`}
+                {weeklyChallenge.completed ? 'সম্পন্ন' : `+${weeklyChallenge.bonusXp} এক্সপি`}
               </div>
             </div>
             <div className="flex items-center gap-2">
@@ -390,20 +390,20 @@ const Dashboard = () => {
                 <LottieAnimation src={speedometerAnimation} className="w-full h-full" pingPong />
               </div>
               <h2 className="text-xs md:text-sm font-black tracking-tighter text-white">
-                Performance
+                পারফরম্যান্স
               </h2>
             </div>
             <div className="flex flex-col sm:flex-row items-center gap-5">
               <CircularProgress value={Math.round(Number(statsData.accuracy))} size={96} strokeWidth={7} />
               <div className="grid grid-cols-3 gap-2 w-full">
-                <StatBox label="Questions" value={statsData.totalPracticed} />
-                <StatBox label="Correct" value={statsData.correctOnes} accent="text-emerald-400" />
-                <StatBox label="Wrong" value={statsData.wrongOnes} accent="text-yellow-300" />
+                <StatBox label="প্রশ্ন" value={statsData.totalPracticed} />
+                <StatBox label="সঠিক" value={statsData.correctOnes} accent="text-emerald-400" />
+                <StatBox label="ভুল" value={statsData.wrongOnes} accent="text-yellow-300" />
               </div>
             </div>
             {focusAreas.length > 0 && (
               <div className="mt-5 pt-4 border-t border-white/[0.04] space-y-3">
-                <p className="text-3xs font-black uppercase tracking-[0.25em] text-white/20">Accuracy by subject</p>
+                <p className="text-3xs font-black uppercase tracking-[0.25em] text-white/20">সাবজেক্ট অনুযায়ী একিউরেসি</p>
                 {focusAreas.map((area) => (
                   <div key={area.label}>
                     <div className="flex items-center justify-between mb-1">
@@ -426,7 +426,7 @@ const Dashboard = () => {
               to="/analytics"
               className="mt-4 flex items-center justify-center gap-2 rounded-xl border border-primary/20 bg-primary/[0.06] py-3 text-2xs font-black uppercase tracking-[0.2em] text-primary transition-all hover:bg-primary hover:text-white active:scale-[0.98]"
             >
-              Full Report <ArrowRight className="w-3 h-3" />
+              পূর্ণ রিপোর্ট <ArrowRight className="w-3 h-3" />
             </Link>
           </div>
 
@@ -434,7 +434,7 @@ const Dashboard = () => {
           <div className="rounded-2xl border border-white/[0.05] bg-surface p-5 md:p-6">
             <h2 className="flex items-center gap-2 text-xs md:text-sm font-black tracking-tighter text-white mb-3">
               <Clock className="w-4 h-4 text-primary" />
-              Recent Activity
+              সাম্প্রতিক অ্যাক্টিভিটি
             </h2>
             {recentSessions.length > 0 ? (
               <div className="divide-y divide-white/[0.04] -mx-1">
@@ -461,7 +461,7 @@ const Dashboard = () => {
             ) : (
               <div className="flex flex-col items-center py-6">
                 <CheckList className="w-12 h-12 opacity-20 mb-2" />
-                <p className="text-2xs font-black uppercase tracking-wider text-white/15">No sessions yet</p>
+                <p className="text-2xs font-black uppercase tracking-wider text-white/15">কোনো সেশন নেই</p>
               </div>
             )}
           </div>
@@ -483,11 +483,11 @@ const Dashboard = () => {
                   <div className="w-5 h-5 rounded-md bg-primary/20 flex items-center justify-center">
                     <Gamepad className="w-3 h-3 text-primary" />
                   </div>
-                  <span className="text-3xs font-black uppercase tracking-[0.2em] text-primary">New here?</span>
+                  <span className="text-3xs font-black uppercase tracking-[0.2em] text-primary">নতুন?</span>
                 </div>
-                <h2 className="text-base md:text-lg font-black text-white tracking-tighter">Gamify your experience. Earn XP and collect stars.</h2>
+                <h2 className="text-base md:text-lg font-black text-white tracking-tighter">পড়াশোনাকে করো গেমিফাই! প্রাক্টিস করে পাও এক্সপি, স্টার, স্ট্রেক। বন্ধুদের সাথে পাল্লা দিয়ে আপগ্রেড করো তোমার লেভেল!</h2>
                 <p className="text-xs text-white/40 font-medium leading-relaxed max-w-lg">
-                  Complete questions to earn XP, build streaks, collect stars. Every correct answer gets you closer to the next level.
+                  প্রশ্ন সমাধান করে এক্সপি অর্জন করো, স্ট্রিক তৈরি করো, স্টার সংগ্রহ করো। প্রতিটি সঠিক উত্তর তোমাকে পরবর্তী লেভেলে নিয়ে যাবে।
                 </p>
               </div>
             </div>
@@ -504,12 +504,12 @@ const Dashboard = () => {
                 <LottieAnimation src={speedometerAnimation} className="w-full h-full" pingPong />
               </div>
               <div className="min-w-0 flex-1 space-y-2">
-                <h2 className="text-base md:text-lg font-black text-white tracking-tighter">Your dashboard is ready to launch</h2>
+                <h2 className="text-base md:text-lg font-black text-white tracking-tighter">তোমার ড্যাসবোর্ড প্রস্তুত!</h2>
                 <p className="text-xs text-white/40 font-medium leading-relaxed max-w-lg">
-                  Complete <span className="text-primary font-black">20 questions</span> to unlock reports, accuracy tracking, and weak spot analysis.
+                  আর মাত্র <span className="text-primary font-black">২০টি প্রশ্ন</span> সমাধান করলেই জানতে পারবে তুমি কোথায় দক্ষ, কত সময় নিচ্ছো, আর কোথায় তোমার আরো কাজ করতে হবে।
                 </p>
                 <div className="flex flex-wrap gap-1.5">
-                  {['Accuracy', 'Analysis', 'Weak spots', 'Consistency'].map((tag) => (
+                  {['একিউরেসি', 'অ্যানালাইসিস', 'দুর্বলতা', 'কনসিস্টেন্সি'].map((tag) => (
                     <span key={tag} className="px-2.5 py-1 rounded-lg bg-white/[0.04] text-3xs font-black uppercase tracking-wider text-white/30">
                       {tag}
                     </span>
@@ -520,12 +520,12 @@ const Dashboard = () => {
                     to="/practice"
                     className="inline-flex items-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-6 py-3 text-2xs font-black uppercase tracking-[0.2em] text-white transition-all active:scale-95 border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
                   >
-                    Start Your First Practice <ArrowRight className="w-3.5 h-3.5" />
+                    প্রথম প্রাক্টিস শুরু করো <ArrowRight className="w-3.5 h-3.5" />
                   </Link>
                   <p className="text-3xs text-white/20 font-medium">
                     {statsData.totalPracticed > 0
-                      ? `${statsData.totalPracticed} question${statsData.totalPracticed !== 1 ? 's' : ''} completed`
-                      : 'No questions attempted yet'}
+                      ? `${statsData.totalPracticed}টি প্রশ্ন সম্পন্ন`
+                      : 'এখনো কোনো প্রশ্ন করা হয়নি'}
                   </p>
                 </div>
               </div>
@@ -537,7 +537,7 @@ const Dashboard = () => {
       {/* â”€â”€â”€ Exam Paths â”€â”€â”€ */}
       {availableExams.some((e) => e.active) && (
         <Motion.div variants={itemVariants}>
-          <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-3">Available Exams</h2>
+          <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-3">উপলব্ধ এক্সাম</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
             {availableExams.map((exam, i) => {
               const themes = [
@@ -565,11 +565,11 @@ const Dashboard = () => {
                       <p className="text-2xs font-medium text-white/40 leading-relaxed line-clamp-2">{exam.note}</p>
                     </div>
                     <span className={`shrink-0 px-2 py-0.5 rounded-md text-3xs font-black uppercase tracking-wider ${t.badge}`}>
-                      Open
+                      খোলো
                     </span>
                   </div>
                   <div className="flex items-center gap-1.5 mt-3 pt-3 border-t border-white/[0.04]">
-                    <span className="text-3xs text-white/20 font-medium">{exam.label.toLowerCase()} questions ready</span>
+                    <span className="text-3xs text-white/20 font-medium">{exam.label.toLowerCase()} প্রশ্ন প্রস্তুত</span>
                     <ArrowRight className={`w-3 h-3 ${t.accent} ml-auto transition-transform group-hover:translate-x-0.5`} />
                   </div>
                 </Link>
@@ -586,11 +586,11 @@ const Dashboard = () => {
                       <p className="text-2xs font-medium text-white/20 leading-relaxed">{exam.note}</p>
                     </div>
                     <span className="shrink-0 px-2 py-0.5 rounded-md bg-white/[0.04] text-3xs font-black uppercase tracking-wider text-white/20">
-                      Soon
+                      শীঘ্রই
                     </span>
                   </div>
                   <div className="mt-3 pt-3 border-t border-white/[0.04]">
-                    <span className="text-3xs text-white/10 font-medium">Coming soon</span>
+                    <span className="text-3xs text-white/10 font-medium">শীঘ্রই আসছে</span>
                   </div>
                 </div>
               );
@@ -617,7 +617,7 @@ const CircularProgress = ({ value, size = 96, strokeWidth = 7, className = '' })
       </svg>
       <div className="absolute inset-0 flex flex-col items-center justify-center">
         <span className="text-xl md:text-2xl font-black text-white tracking-tighter">{value}%</span>
-        <span className="text-3xs font-black uppercase tracking-[0.15em] text-white/25">Accuracy</span>
+        <span className="text-3xs font-black uppercase tracking-[0.15em] text-white/25">একিউরেসি</span>
       </div>
     </div>
   );

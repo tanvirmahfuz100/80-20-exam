@@ -113,7 +113,7 @@ const LevelSelect = () => {
     navigate(`/quiz/${chapterId}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(title)}&level=${levelNumber}`);
   };
 
-  if (loading || redirecting) return <LoadingScreen message="Loading levels..." />;
+  if (loading || redirecting) return <LoadingScreen message="লেভেল লোড হচ্ছে..." />;
 
   if (error) {
     return (
@@ -121,10 +121,10 @@ const LevelSelect = () => {
         <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-4 md:mb-5 rounded-2xl md:rounded-3xl bg-yellow-500/15 border border-yellow-500/20 flex items-center justify-center">
           <Sparkles className="w-6 h-6 md:w-8 md:h-8 text-yellow-300" />
         </div>
-        <h3 className="text-white font-black text-xl md:text-2xl tracking-tighter mb-3">Could not load levels</h3>
+        <h3 className="text-white font-black text-xl md:text-2xl tracking-tighter mb-3">লেভেল লোড করা যায়নি</h3>
         <p className="text-white/70 font-medium leading-relaxed">{error}</p>
         <Link to="/practice" className="mt-5 md:mt-6 inline-flex items-center justify-center rounded-xl md:rounded-2xl bg-yellow-500 px-5 md:px-6 py-3 text-xs font-black uppercase tracking-[0.2em] text-black transition-all hover:bg-yellow-400 active:scale-95">
-          Back to Practice
+          প্রাক্টিসে ফিরে যাও
         </Link>
       </div>
     );
@@ -146,7 +146,7 @@ const LevelSelect = () => {
             <ArrowLeft className="w-4 h-4" />
           </button>
           <div>
-            <h1 className="text-lg md:text-2xl font-black text-white tracking-tighter">Levels</h1>
+            <h1 className="text-lg md:text-2xl font-black text-white tracking-tighter">লেভেল</h1>
             <p className="text-[10px] md:text-xs text-white/30 font-medium truncate max-w-[200px] md:max-w-xs">{title}</p>
           </div>
         </div>
@@ -177,7 +177,7 @@ const LevelSelect = () => {
       {totalCount === 0 && (
         <div className="p-10 text-center border-2 border-dashed border-white/5 rounded-2xl">
           <BrainCircuit className="w-10 h-10 mx-auto mb-3 text-white/10" />
-          <p className="text-white/20 font-black uppercase tracking-widest text-xs">No levels available</p>
+          <p className="text-white/20 font-black uppercase tracking-widest text-xs">কোনো লেভেল উপলব্ধ নয়</p>
         </div>
       )}
 
@@ -219,7 +219,7 @@ const LevelSelect = () => {
                     <span className="text-black font-black text-lg">{level.levelNumber}</span>
                   </button>
                   <div className="absolute -top-11 left-1/2 -translate-x-1/2 bg-white text-gray-900 text-[11px] font-black px-3 py-1.5 rounded-lg whitespace-nowrap shadow-xl z-20 tracking-widest">
-                    START
+                    শুরু করো
                     <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-white" />
                   </div>
                 </div>
@@ -322,7 +322,7 @@ const LevelSelect = () => {
           className="w-full py-3 bg-primary text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.98] hover:bg-primary-hover flex items-center justify-center gap-2 border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
         >
           <TrendingUp className="w-4 h-4" />
-          Continue Practicing
+          প্রাক্টিস চালিয়ে যাও
         </motion.button>
       )}
     </motion.div>

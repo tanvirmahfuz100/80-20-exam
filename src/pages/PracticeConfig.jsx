@@ -22,9 +22,9 @@ const PracticeConfig = () => {
         goToStep, handleStart,
     } = usePracticeConfig();
 
-    const versionLabel = version === 'english' ? 'English' : 'Bangla';
+    const versionLabel = version === 'english' ? 'ইংরেজি' : 'বাংলা';
 
-    if (loading) return <LoadingScreen message="Getting ready..." />;
+    if (loading) return <LoadingScreen message="প্রস্তুত হচ্ছে..." />;
 
     if (error) return (
         <div className="p-6 md:p-10 bg-yellow-500/10 border border-yellow-500/20 rounded-2xl md:rounded-[2rem] flex flex-col items-center gap-4 text-center">
@@ -32,8 +32,8 @@ const PracticeConfig = () => {
                 <Sparkles className="w-8 h-8 md:w-10 md:h-10 text-yellow-300" />
             </div>
             <div>
-                <h3 className="text-white font-black text-lg md:text-xl tracking-tighter">Path paused for now</h3>
-                <p className="text-yellow-100/70 text-sm max-w-sm mx-auto mt-2 font-medium">{error}. We couldn't load the lessons.</p>
+                <h3 className="text-white font-black text-lg md:text-xl tracking-tighter">পথ বিরতি</h3>
+                <p className="text-yellow-100/70 text-sm max-w-sm mx-auto mt-2 font-medium">{error}। আমরা লেসন লোড করতে পারিনি।</p>
             </div>
         </div>
     );
@@ -56,7 +56,7 @@ const PracticeConfig = () => {
                         transition={{ delay: 0.05, duration: 0.3 }}
                         className="text-2xl md:text-5xl font-black text-white tracking-tighter mb-1 md:mb-2"
                     >
-                        LET'S <span className="text-primary">PRACTICE!</span>
+                        চলো <span className="text-primary">প্রাক্টিস করি!</span>
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0 }}
@@ -64,7 +64,7 @@ const PracticeConfig = () => {
                         transition={{ delay: 0.12 }}
                         className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-[10px]"
                     >
-                        Your progress is being saved locally for testing.
+                        তোমার প্রোগ্রেস লোকালি সেভ হচ্ছে টেস্টিংয়ের জন্য।
                     </motion.p>
                     {selectedExam && (
                         <motion.p
@@ -73,7 +73,7 @@ const PracticeConfig = () => {
                             transition={{ delay: 0.18 }}
                             className="mt-1 text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-primary/70 truncate"
                         >
-                            Exam: {selectedExam.label} &bull; Version: {versionLabel}
+                            এক্সাম: {selectedExam.label} &bull; ভার্সন: {versionLabel}
                         </motion.p>
                     )}
                 </div>
@@ -84,11 +84,11 @@ const PracticeConfig = () => {
                     className="bg-surface border border-white/5 p-0.5 md:p-1 rounded-lg md:rounded-xl flex items-center gap-0.5 md:gap-1 shadow-lg self-start md:self-end shrink-0 relative z-10"
                 >
                     <button onClick={() => setIsTimed(false)} className={`flex items-center gap-1 md:gap-2 px-2.5 md:px-4 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${!isTimed ? 'bg-primary text-white' : 'text-white/20 hover:text-white/40'}`}>
-                        Untimed
+                        আনটাইমড
                     </button>
                     <button onClick={() => setIsTimed(true)} className={`flex items-center gap-1 md:gap-2 px-2.5 md:px-4 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${isTimed ? 'bg-primary text-white' : 'text-white/20 hover:text-white/40'}`}>
                         <Timer className="w-3 h-3" />
-                        Timed
+                        টাইমড
                     </button>
                 </motion.div>
             </motion.div>
@@ -134,11 +134,11 @@ const PracticeConfig = () => {
                             <div>
                                 <h2 className="text-sm font-black text-white/50 uppercase tracking-[0.2em] flex items-center gap-2">
                                     <BookOpen className="text-primary w-4 h-4" />
-                                    Choose Your Exam
+                                    তোমার এক্সাম বেছে নাও
                                 </h2>
-                                <p className="text-[10px] text-white/20 font-medium mt-0.5">Pick an exam to start practicing</p>
+                                <p className="text-[10px] text-white/20 font-medium mt-0.5">প্রাক্টিস শুরু করতে একটি এক্সাম বাছাই করো</p>
                             </div>
-                            <span className="text-[10px] font-black uppercase tracking-[0.15em] text-white/20 bg-white/5 px-2.5 py-1 rounded-lg">{data.exams.filter(e => e.active).length} Active</span>
+                            <span className="text-[10px] font-black uppercase tracking-[0.15em] text-white/20 bg-white/5 px-2.5 py-1 rounded-lg">{data.exams.filter(e => e.active).length}টি অ্যাকটিভ</span>
                         </div>
                         <motion.div variants={stagger} initial="initial" animate="animate" className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                             {(data.exams || []).map(exam =>
@@ -171,9 +171,9 @@ const PracticeConfig = () => {
                         <motion.div initial={{ opacity: 0, x: -12 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="flex items-center justify-between">
                             <h2 className="text-sm font-black text-white/40 uppercase tracking-[0.2em] flex items-center gap-2">
                                 <BookOpen className="text-primary w-4 h-4" />
-                                {selectedExam.label} SUBJECTS
+                                {selectedExam.label} সাবজেক্ট
                             </h2>
-                            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/20">{selectedExam.subjects?.length || 0} subjects</span>
+                            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/20">{selectedExam.subjects?.length || 0}টি সাবজেক্ট</span>
                         </motion.div>
                         <motion.div variants={stagger} initial="initial" animate="animate" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
                             {selectedExam.subjects.map(sub => (
@@ -193,13 +193,13 @@ const PracticeConfig = () => {
                                 <div className="w-12 h-12 opacity-40">
                                     <LottieAnimation src={targetAnimation} className="w-full h-full" pingPong />
                                 </div>
-                                <p className="text-white/50 text-sm font-medium">No questions are available for this exam yet.</p>
+                                <p className="text-white/50 text-sm font-medium">এই এক্সামের জন্য এখনো কোনো প্রশ্ন উপলব্ধ নেই।</p>
                             </motion.div>
                         )}
                         {step === 1 && (
                             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }}>
                                 <button onClick={() => goToStep(0)} className="text-[10px] font-black uppercase tracking-[0.2em] text-white/20 hover:text-white/40 transition-colors mt-2">
-                                    ← Back to exams
+                                    ← এক্সামে ফিরে যাও
                                 </button>
                             </motion.div>
                         )}
@@ -265,7 +265,7 @@ const PracticeConfig = () => {
                                                     <div className="w-12 h-12 opacity-40">
                                                         <LottieAnimation src={meditatingBrainAnimation} className="w-full h-full" pingPong />
                                                     </div>
-                                                    <p className="text-xs text-white/10 font-black uppercase tracking-widest">Chapters Coming Soon!</p>
+                                                    <p className="text-xs text-white/10 font-black uppercase tracking-widest">চ্যাপ্টার শীঘ্রই আসছে!</p>
                                                 </motion.div>
                                             )}
                                         </div>
@@ -281,10 +281,10 @@ const PracticeConfig = () => {
                             className="flex items-center gap-3 pt-2"
                         >
                             <button onClick={() => goToStep(1)} className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.15em] text-white/25 hover:text-white/50 transition-colors px-3 py-2 rounded-lg hover:bg-white/5">
-                                ← Subjects
+                                ← সাবজেক্ট
                             </button>
                             <button onClick={() => goToStep(0)} className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.15em] text-white/25 hover:text-white/50 transition-colors px-3 py-2 rounded-lg hover:bg-white/5">
-                                ← Exams
+                                ← এক্সাম
                             </button>
                         </motion.div>
                     </motion.div>

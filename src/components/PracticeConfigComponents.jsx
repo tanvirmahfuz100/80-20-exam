@@ -11,11 +11,11 @@ export const icons = {
 };
 
 export const examColors = {
-    ssc: { accent: '#10b981', bg: 'rgba(16,185,129,0.08)', label: 'SSC' },
-    hsc: { accent: '#0ea5e9', bg: 'rgba(14,165,233,0.08)', label: 'HSC' },
-    iba: { accent: '#8b5cf6', bg: 'rgba(139,92,246,0.08)', label: 'IBA' },
-    bcs: { accent: '#f59e0b', bg: 'rgba(245,158,11,0.08)', label: 'BCS' },
-    class7: { accent: '#f43f5e', bg: 'rgba(244,63,94,0.08)', label: 'Class 7' },
+    ssc: { accent: '#10b981', bg: 'rgba(16,185,129,0.08)', label: 'এসএসসি' },
+    hsc: { accent: '#0ea5e9', bg: 'rgba(14,165,233,0.08)', label: 'এইচএসসি' },
+    iba: { accent: '#8b5cf6', bg: 'rgba(139,92,246,0.08)', label: 'আইবিএ' },
+    bcs: { accent: '#f59e0b', bg: 'rgba(245,158,11,0.08)', label: 'বিসিএস' },
+    class7: { accent: '#f43f5e', bg: 'rgba(244,63,94,0.08)', label: 'সপ্তম শ্রেণী' },
 };
 
 export const fadeUp = {
@@ -34,9 +34,9 @@ export const cardSlide = {
 };
 
 export const steps = [
-    { key: 'exam', label: 'Exam' },
-    { key: 'subject', label: 'Subject' },
-    { key: 'lessons', label: 'Chapters' },
+    { key: 'exam', label: 'এক্সাম' },
+    { key: 'subject', label: 'সাবজেক্ট' },
+    { key: 'lessons', label: 'চ্যাপ্টার' },
 ];
 
 export const ProgressBar = ({ completed, total, color }) => {
@@ -81,7 +81,7 @@ export const ExamCard = ({ exam, isSelected, onClick, progress }) => {
                     <h3 className="text-xl md:text-2xl font-black text-white tracking-tight leading-none">{exam.label}</h3>
                     {inProgress && (
                         <span className="text-[7px] font-black uppercase tracking-[0.2em] px-1.5 py-0.5 rounded" style={{ color: colors.accent, backgroundColor: colors.bg }}>
-                            Active
+                            অ্যাকটিভ
                         </span>
                     )}
                 </div>
@@ -103,7 +103,7 @@ export const ExamCard = ({ exam, isSelected, onClick, progress }) => {
                     <ArrowRight className="w-4 h-4" />
                 </div>
                 <span className="text-[7px] font-black uppercase tracking-widest transition-all" style={{ color: isSelected ? colors.accent : 'rgba(255,255,255,0.15)' }}>
-                    {isSelected ? 'Open' : 'Start'}
+                    {isSelected ? 'খোলো' : 'শুরু করো'}
                 </span>
             </div>
         </motion.button>
@@ -118,7 +118,7 @@ export const InactiveExam = ({ exam }) => {
             <div className="flex-1 min-w-0 pl-3">
                 <div className="flex items-center gap-2">
                     <h3 className="text-xl md:text-2xl font-black text-white/50 tracking-tight leading-none">{exam.label}</h3>
-                    <span className="text-[7px] font-black uppercase tracking-[0.2em] px-1.5 py-0.5 rounded bg-white/5 text-white/15">Soon</span>
+                    <span className="text-[7px] font-black uppercase tracking-[0.2em] px-1.5 py-0.5 rounded bg-white/5 text-white/15">শীঘ্রই</span>
                 </div>
                 <p className="text-[11px] text-white/15 font-medium mt-0.5">{exam.note}</p>
             </div>
@@ -157,7 +157,7 @@ export const SubjectCard = ({ subject, isSelected, onClick, progress, version })
                     <h3 className={`font-black tracking-tight text-sm leading-tight ${
                         isSelected ? 'text-white' : 'text-white/60 group-hover:text-white/80'
                     }`}>{version === 'english' ? (subject.name_en || subject.name) : (subject.name_bn || subject.name)}</h3>
-                    <p className="text-[10px] font-black uppercase tracking-[0.15em] text-white/20 mt-0.5">{moduleCount} MODULES</p>
+                    <p className="text-[10px] font-black uppercase tracking-[0.15em] text-white/20 mt-0.5">{moduleCount}টি মডিউল</p>
                 </div>
 
                 <div className="flex items-center justify-end">
@@ -214,9 +214,9 @@ export const ChapterItem = ({ chapter, topic, onClick, questionCount, completedC
                         hasQuestions ? 'text-white' : 'text-white/40'
                     }`}>{cleanName}</h4>
                     {hasQuestions ? (
-                        <p className="text-[10px] font-bold text-primary/60 mt-0.5">{questionCount} Questions</p>
+                        <p className="text-[10px] font-bold text-primary/60 mt-0.5">{questionCount}টি প্রশ্ন</p>
                     ) : (
-                        <p className="text-[10px] font-bold text-white/15 mt-0.5">Coming Soon</p>
+                        <p className="text-[10px] font-bold text-white/15 mt-0.5">শীঘ্রই আসছে</p>
                     )}
                     {hasQuestions && (
                         <div className="flex items-center gap-2 mt-2">
@@ -239,7 +239,7 @@ export const ChapterItem = ({ chapter, topic, onClick, questionCount, completedC
                         className="flex items-center gap-1.5 px-4 py-2.5 bg-primary text-white font-black uppercase tracking-widest rounded-xl hover:bg-primary-hover transition-all text-[9px] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] active:scale-95 shrink-0"
                     >
                         <Play className="w-3 h-3 fill-current" />
-                        Start
+                        শুরু করো
                     </button>
                 )}
             </div>

@@ -342,7 +342,7 @@ const QuestionBank = () => {
                         BRAIN <span className="text-primary">SEARCH.</span>
                     </h1>
                     <p className="text-white/25 font-bold uppercase tracking-widest text-[10px] md:text-[11px]">
-                        {loading ? loadProgress || 'Loading...' : `${allQuestions.length.toLocaleString()} questions indexed`}
+                        {loading ? loadProgress || 'লোড হচ্ছে...' : `${allQuestions.length.toLocaleString()}টি প্রশ্ন ইনডেক্স করা হয়েছে`}
                     </p>
                 </div>
 
@@ -352,7 +352,7 @@ const QuestionBank = () => {
                         <input
                             ref={inputRef}
                             type="text"
-                            placeholder="Search questions across SSC, HSC, IBA..."
+                            placeholder="এসএসসি, এইচএসসি, আইবিএ'র প্রশ্ন খুঁজুন..."
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
                             className="w-full bg-background border border-white/5 pl-11 pr-4 py-4 rounded-xl text-white outline-none focus:border-primary/50 transition-all font-medium text-sm placeholder:text-white/15"
@@ -364,17 +364,17 @@ const QuestionBank = () => {
                         className="px-6 py-4 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[11px] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] transition-all active:scale-[0.97] shrink-0 flex items-center justify-center gap-2.5"
                     >
                         {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Search className="w-4 h-4" />}
-                        {loading ? 'Indexing' : 'Search'}
+                        {loading ? 'ইনডেক্সিং' : 'খুঁজুন'}
                     </button>
                 </div>
 
                 <div className="relative z-10 mt-5 md:mt-6 pt-5 md:pt-6 border-t border-white/[0.04]">
                     <div className="flex items-center gap-1.5 mb-2 md:mb-3">
                         <Filter className="w-3 h-3 text-white/15" />
-                        <span className="text-[9px] font-black uppercase tracking-widest text-white/15">Filters</span>
+                        <span className="text-[9px] font-black uppercase tracking-widest text-white/15">ফিল্টার</span>
                         {anyFilterActive && (
                             <button onClick={clearAll} className="ml-auto text-[8px] font-black uppercase tracking-widest text-primary/50 hover:text-primary transition-colors">
-                                Clear all
+                                সব মুছুন
                             </button>
                         )}
                     </div>
@@ -396,7 +396,7 @@ const QuestionBank = () => {
                                     : 'bg-background text-white/20 border-white/5 hover:text-white/40 hover:border-white/20'
                             }`}
                         >
-                            Exact
+                            এক্সাক্ট
                         </button>
                     </div>
                 </div>
@@ -405,7 +405,7 @@ const QuestionBank = () => {
             {loading && results.length === 0 && (
                 <div className="flex flex-col items-center justify-center py-20 gap-4">
                     <Loader2 className="w-7 h-7 text-primary animate-spin" />
-                    <p className="text-white/20 font-black uppercase tracking-[0.3em] text-[11px]">{loadProgress || 'Loading questions...'}</p>
+                    <p className="text-white/20 font-black uppercase tracking-[0.3em] text-[11px]">{loadProgress || 'প্রশ্ন লোড হচ্ছে...'}</p>
                 </div>
             )}
 
@@ -414,12 +414,12 @@ const QuestionBank = () => {
                     <div className="flex items-center justify-between">
                         <p className="text-[11px] font-bold text-white/30">
                             {results.length > 0
-                                ? `${results.length.toLocaleString()} result${results.length !== 1 ? 's' : ''} found in ${(searchTime / 1000).toFixed(2)}s`
-                                : 'No results'}
+                                ? `${results.length.toLocaleString()}টি ফলাফল পাওয়া গেছে ${(searchTime / 1000).toFixed(2)}সেকেন্ডে`
+                                : 'কোনো ফলাফল নেই'}
                         </p>
                         {anyFilterActive && (
                             <button onClick={clearAll} className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest text-primary/50 hover:text-primary transition-colors px-3 py-1.5 rounded-lg hover:bg-primary/5">
-                                <X className="w-3 h-3" /> Clear
+                                <X className="w-3 h-3" /> মুছুন
                             </button>
                         )}
                     </div>
@@ -473,10 +473,10 @@ const QuestionBank = () => {
                                 <LottieAnimation src={searchAnimation} className="w-full h-full" pingPong />
                             </div>
                             <p className="text-white/10 font-black uppercase tracking-widest text-xs">
-                                {anyFilterActive ? 'No questions match your criteria' : 'Type something to search'}
+                                {anyFilterActive ? 'কোনো প্রশ্ন আপনার মানদণ্ডের সাথে মেলেনি' : 'খোঁজার জন্য কিছু টাইপ করুন'}
                             </p>
                             {anyFilterActive && (
-                                <button onClick={clearAll} className="text-primary font-black uppercase tracking-widest text-[10px] hover:underline">Clear All Filters</button>
+                                <button onClick={clearAll} className="text-primary font-black uppercase tracking-widest text-[10px] hover:underline">সব ফিল্টার মুছুন</button>
                             )}
                         </div>
                     )}
@@ -491,7 +491,7 @@ const QuestionBank = () => {
                                 <ChevronLeft className="w-4 h-4" />
                             </button>
                             <div className="px-5 py-2.5 bg-white/5 rounded-xl border border-white/5 text-[11px] font-black uppercase tracking-widest text-primary tabular-nums">
-                                Page {page} of {totalPages}
+                                পাতা {page} / {totalPages}
                             </div>
                             <button
                                 disabled={page === totalPages}

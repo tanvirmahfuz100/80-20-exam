@@ -47,17 +47,17 @@ const Quiz = () => {
         handleBackWithConfirm, navigate,
     } = useQuizSession();
 
-    if (loading) return <LoadingScreen message="Loading practice session..." />;
+    if (loading) return <LoadingScreen message="প্রাক্টিস সেশন লোড হচ্ছে..." />;
 
     if (error) return (
         <div className="max-w-md mx-auto p-6 md:p-10 bg-yellow-500/10 border border-yellow-500/20 rounded-2xl md:rounded-[2rem] text-center shadow-lg">
             <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-4 md:mb-5 rounded-2xl md:rounded-3xl bg-yellow-500/15 border border-yellow-500/20 flex items-center justify-center">
                 <Sparkles className="w-6 h-6 md:w-8 md:h-8 text-yellow-300" />
             </div>
-            <h3 className="text-white font-black text-xl md:text-2xl tracking-tighter mb-3">Lesson path paused</h3>
+            <h3 className="text-white font-black text-xl md:text-2xl tracking-tighter mb-3">লেসন পথ বিরতি</h3>
             <p className="text-white/70 font-medium leading-relaxed">{error}</p>
             <Link to="/practice" className="mt-5 md:mt-6 inline-flex items-center justify-center rounded-xl md:rounded-2xl bg-yellow-500 px-5 md:px-6 py-3 text-xs font-black uppercase tracking-[0.2em] text-black transition-all hover:bg-yellow-400 active:scale-95">
-                Back to Practice
+                প্রাক্টিসে ফিরে যাও
             </Link>
         </div>
     );
@@ -130,9 +130,9 @@ const Quiz = () => {
                         {currentLevel ? (
                             <>
                                 <div className="flex items-center gap-1.5 mb-0.5">
-                                    <span className="text-[8px] font-black text-primary uppercase tracking-wider">Level {currentLevel}</span>
+                                    <span className="text-[8px] font-black text-primary uppercase tracking-wider">লেভেল {currentLevel}</span>
                                     <span className="text-[8px] text-white/20">·</span>
-                                    <span className="text-[8px] font-medium text-white/40">Question {currentIndex + 1} of {questions.length}</span>
+                                    <span className="text-[8px] font-medium text-white/40">প্রশ্ন {currentIndex + 1} / {questions.length}</span>
                                 </div>
                                 <div className="h-2 bg-white/15 rounded-full overflow-hidden">
                                     <motion.div
@@ -208,7 +208,7 @@ const Quiz = () => {
                                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
                             </svg>
                             <span className="text-yellow-300 font-black text-[10px] tabular-nums">{mistakeCount}</span>
-                            <span className="text-[6px] text-yellow-300/40 font-black uppercase tracking-widest leading-none hidden xs:inline">to review</span>
+                            <span className="text-[6px] text-yellow-300/40 font-black uppercase tracking-widest leading-none hidden xs:inline">রিভিউ</span>
                         </div>
                     )}
                 </div>
@@ -492,7 +492,7 @@ const Quiz = () => {
                                                 <div className="flex-1 flex flex-col bg-emerald-500/[0.07] border border-emerald-500/20 rounded-xl p-4 gap-3">
                                                     <div className="flex items-center gap-2 shrink-0">
                                                         <CheckCircle className="w-5 h-5 text-emerald-400 shrink-0" />
-                                                        <h4 className="text-emerald-400 font-black text-xs uppercase tracking-wider">Correct!</h4>
+                                                        <h4 className="text-emerald-400 font-black text-xs uppercase tracking-wider">সঠিক!</h4>
                                                     </div>
                                                     <div className="flex-1 overflow-y-auto min-h-0 space-y-2 text-xs md:text-sm">
                                                         {(currentQ.explanation_bn || currentQ.explanation) && (
@@ -503,17 +503,17 @@ const Quiz = () => {
                                                         )}
                                                         {currentQ.explanation_en && (
                                                             <div>
-                                                                <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1">English Explanation</p>
+                                                                <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1">ইংরেজি ব্যাখ্যা</p>
                                                                 <p className="text-white/80 leading-relaxed">{currentQ.explanation_en}</p>
                                                             </div>
                                                         )}
                                                         {!currentQ.explanation_bn && !currentQ.explanation_en && !currentQ.explanation && (
-                                                            <p className="text-white/60 text-sm">Well done!</p>
+                                                            <p className="text-white/60 text-sm">সাবাশ!</p>
                                                         )}
                                                         {currentQ.explanation_distractors && currentQ.explanation_distractors.length > 0 && (
                                                             <div className="border-t border-emerald-500/15 pt-2 mt-2">
-                                                                <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1.5">Why the other options are wrong</p>
-                                                                {currentQ.explanation_distractors.map((d, i) => (
+                                                            <p className="font-bold text-emerald-300/70 uppercase tracking-wider text-[10px] mb-1.5">অন্য অপশনগুলো কেন ভুল</p>
+                                                            {currentQ.explanation_distractors.map((d, i) => (
                                                                     <div key={i} className="mb-1.5 last:mb-0">
                                                                         <p className="text-white/90 text-[11px] font-medium mb-0.5">"{d.option}"</p>
                                                                         <p className="text-white/50 text-[10px] leading-relaxed pl-2 border-l border-emerald-500/20">{d.reason}</p>
@@ -531,14 +531,14 @@ const Quiz = () => {
                                                             className="inline-flex items-center gap-1.5 text-emerald-400/70 hover:text-emerald-400 text-[9px] font-black uppercase tracking-widest transition-colors shrink-0"
                                                         >
                                                             <Video className="w-3 h-3" />
-                                                            Watch Video Breakdown
+                                                            ভিডিও দেখো
                                                         </a>
                                                     )}
                                                     <button
                                                         onClick={handleNext}
                                                         className="w-full py-3.5 bg-emerald-500 text-black rounded-xl font-black uppercase tracking-widest text-[11px] shrink-0 active:scale-[0.98] transition-all hover:bg-emerald-400 min-h-touch"
                                                     >
-                                                        {currentIndex < questions.length - 1 ? 'Continue' : 'Finish Lesson'}
+                                                        {currentIndex < questions.length - 1 ? 'চালিয়ে যাও' : 'লেসন শেষ করো'}
                                                     </button>
                                                 </div>
                                             ) : (
@@ -552,19 +552,19 @@ const Quiz = () => {
                                                                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
                                                             </svg>
                                                         </motion.div>
-                                                        <h4 className="text-yellow-300 font-black text-xs uppercase tracking-wider">Keep going!</h4>
+                                                        <h4 className="text-yellow-300 font-black text-xs uppercase tracking-wider">চালিয়ে যাও!</h4>
                                                     </div>
 
                                                     <div className="flex flex-wrap items-center gap-1.5 shrink-0">
                                                         <div className="inline-flex items-center gap-1 px-2 py-1 rounded-lg bg-yellow-500/15 border border-yellow-500/25">
                                                             <CheckCircle className="w-3 h-3 text-yellow-300 shrink-0" />
-                                                            <span className="text-[8px] md:text-[9px] font-black uppercase tracking-wider text-yellow-300/60">Correct answer:</span>
+                                                            <span className="text-[8px] md:text-[9px] font-black uppercase tracking-wider text-yellow-300/60">সঠিক উত্তর:</span>
                                                             <span className="math-font text-yellow-300 font-bold text-xs md:text-sm">{stripMath(correctAnswerText)}</span>
                                                         </div>
                                                     </div>
 
                                                     <p className="text-white/60 text-[11px] md:text-xs font-medium leading-relaxed shrink-0">
-                                                        Mistakes are opportunities to learn. A star has been added to your balance — review it to collect.
+                                                        ভুল থেকে শেখার সুযোগ। একটি স্টার যোগ করা হয়েছে — রিভিউ করে সংগ্রহ করো।
                                                     </p>
 
                                                     <div className="flex-1 overflow-y-auto min-h-0 space-y-2 text-xs md:text-sm">
@@ -576,13 +576,13 @@ const Quiz = () => {
                                                         )}
                                                         {currentQ.explanation_en && (
                                                             <div>
-                                                                <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1">English Explanation</p>
+                                                                <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1">ইংরেজি ব্যাখ্যা</p>
                                                                 <p className="text-white/80 leading-relaxed">{currentQ.explanation_en}</p>
                                                             </div>
                                                         )}
                                                         {currentQ.explanation_distractors && currentQ.explanation_distractors.length > 0 && (
                                                             <div className="border-t border-yellow-500/15 pt-2 mt-2">
-                                                                <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1.5">Why the other options are wrong</p>
+                                                                <p className="font-bold text-yellow-300/70 uppercase tracking-wider text-[10px] mb-1.5">অন্য অপশনগুলো কেন ভুল</p>
                                                                 {currentQ.explanation_distractors.map((d, i) => (
                                                                     <div key={i} className="mb-1.5 last:mb-0">
                                                                         <p className="text-white/90 text-[11px] font-medium mb-0.5">"{d.option}"</p>
@@ -597,7 +597,7 @@ const Quiz = () => {
                                                         onClick={handleNext}
                                                         className="w-full py-3.5 bg-yellow-500 text-black rounded-xl font-black uppercase tracking-widest text-[11px] shrink-0 active:scale-[0.98] transition-all hover:bg-yellow-400 min-h-touch"
                                                     >
-                                                        Got it
+                                                        বুঝেছি
                                                     </button>
                                                 </div>
                                             )}

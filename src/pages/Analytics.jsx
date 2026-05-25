@@ -115,16 +115,16 @@ const Analytics = () => {
   const wrongOnes = stats?.wrongOnes || 0;
 
   const getAccuracyLabel = () => {
-    if (accuracy >= 80) return { label: 'Excellent', color: 'text-emerald-400' };
-    if (accuracy >= 60) return { label: 'Good', color: 'text-blue-400' };
-    if (accuracy >= 40) return { label: 'Fair', color: 'text-yellow-400' };
-    return { label: 'Needs work', color: 'text-red-400' };
+    if (accuracy >= 80) return { label: 'চমৎকার', color: 'text-emerald-400' };
+    if (accuracy >= 60) return { label: 'ভালো', color: 'text-blue-400' };
+    if (accuracy >= 40) return { label: 'মোটামুটি', color: 'text-yellow-400' };
+    return { label: 'কাজ বাকি', color: 'text-red-400' };
   };
 
   const getReadinessLabel = () => {
-    if (readinessScore >= 70) return { label: 'Ready', color: 'text-emerald-400' };
-    if (readinessScore >= 40) return { label: 'Building', color: 'text-yellow-400' };
-    return { label: 'Getting started', color: 'text-white/30' };
+    if (readinessScore >= 70) return { label: 'প্রস্তুত', color: 'text-emerald-400' };
+    if (readinessScore >= 40) return { label: 'গড়ে উঠছে', color: 'text-yellow-400' };
+    return { label: 'শুরু হচ্ছে', color: 'text-white/30' };
   };
 
   const buildProgressReport = () => ({
@@ -180,7 +180,7 @@ const Analytics = () => {
     downloadFile(`progress-attempts-${stamp}.csv`, csv, 'text/csv;charset=utf-8');
   };
 
-  if (loading) return <LoadingScreen message="Loading your stats..." />;
+  if (loading) return <LoadingScreen message="স্ট্যাটস লোড হচ্ছে..." />;
 
   const accuracyLabel = getAccuracyLabel();
   const readinessLabel = getReadinessLabel();
@@ -196,10 +196,10 @@ const Analytics = () => {
       <motion.div variants={itemVariants} className="flex items-center gap-3">
         <div className="min-w-0 flex-1">
           <h1 className="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tighter uppercase leading-none">
-            Analytics
+            অ্যানালিটিক্স
           </h1>
           <p className="text-[9px] font-bold text-white/30 uppercase tracking-widest mt-1">
-            {profile?.username || user?.email || 'Student'} &middot; {totalPracticed} question{totalPracticed !== 1 ? 's' : ''}
+            {profile?.username || user?.email || 'শিক্ষার্থী'} &middot; {totalPracticed}টি প্রশ্ন
           </p>
         </div>
         <div className="w-16 h-16 opacity-[0.15] shrink-0">
@@ -226,17 +226,17 @@ const Analytics = () => {
         {totalPracticed > 0 ? (
           <StatCard
             icon={CheckCircle2}
-            label="Solved Challenges"
+            label="সমাধান করা চ্যালেঞ্জ"
             value={totalPracticed}
-            subtext="Keep going!"
+            subtext="চালিয়ে যাও!"
             color={{ bg: 'bg-emerald-500/10', border: 'border-emerald-500/20', text: 'text-emerald-500', label: 'rgba(52,211,153,0.5)' }}
-            trend={{ label: `${correctOnes} correct`, color: 'text-emerald-400/50' }}
+            trend={{ label: `${correctOnes}টি সঠিক`, color: 'text-emerald-400/50' }}
           />
         ) : (
           <EmptyStat
             icon={CheckCircle2}
-            label="Solved Challenges"
-            message="Solve your first question to get started"
+            label="সমাধান করা চ্যালেঞ্জ"
+            message="প্রথম প্রশ্ন সমাধান করে শুরু করো"
             color={{ bg: 'bg-emerald-500/10', border: 'border-emerald-500/20', text: 'text-emerald-500/50' }}
           />
         )}
@@ -244,7 +244,7 @@ const Analytics = () => {
         {totalPracticed > 0 ? (
           <StatCard
             icon={Target}
-            label="Accuracy"
+            label="একিউরেসি"
             value={accuracy}
             suffix="%"
             subtext={accuracyLabel.label}
@@ -254,8 +254,8 @@ const Analytics = () => {
         ) : (
           <EmptyStat
             icon={Target}
-            label="Accuracy"
-            message="Answer some questions to see your accuracy"
+            label="একিউরেসি"
+            message="একিউরেসি দেখতে কিছু প্রশ্নের উত্তর দাও"
             color={{ bg: 'bg-blue-500/10', border: 'border-blue-500/20', text: 'text-blue-500/50' }}
           />
         )}
@@ -263,17 +263,17 @@ const Analytics = () => {
         {totalTime > 0 ? (
           <StatCard
             icon={Clock}
-            label="Learning Time"
+            label="শেখার সময়"
             value={totalTime}
-            suffix="m"
-            subtext="Total active learning"
+            suffix="মি"
+            subtext="মোট অ্যাকটিভ লার্নিং"
             color={{ bg: 'bg-purple-500/10', border: 'border-purple-500/20', text: 'text-purple-500', label: 'rgba(192,132,252,0.5)' }}
           />
         ) : (
           <EmptyStat
             icon={Clock}
-            label="Learning Time"
-            message="Start a session to begin tracking your time"
+            label="শেখার সময়"
+            message="সময় ট্র্যাক করতে একটি সেশন শুরু করো"
             color={{ bg: 'bg-purple-500/10', border: 'border-purple-500/20', text: 'text-purple-500/50' }}
           />
         )}
@@ -281,7 +281,7 @@ const Analytics = () => {
         {totalPracticed > 0 ? (
           <StatCard
             icon={Zap}
-            label="Readiness"
+            label="প্রস্তুতি"
             value={readinessScore}
             suffix="%"
             subtext={readinessLabel.label}
@@ -291,8 +291,8 @@ const Analytics = () => {
         ) : (
           <EmptyStat
             icon={Zap}
-            label="Readiness"
-            message="Practice more to build your readiness score"
+            label="প্রস্তুতি"
+            message="প্রস্তুতি স্কোর বাড়াতে আরো প্রাক্টিস করো"
             color={{ bg: 'bg-amber-500/10', border: 'border-amber-500/20', text: 'text-amber-500/50' }}
           />
         )}
@@ -303,7 +303,7 @@ const Analytics = () => {
         <motion.div variants={itemVariants} className="bg-surface border border-white/5 rounded-xl p-4 space-y-3">
           <div className="flex items-center gap-2">
             <TrendingUp className="w-3.5 h-3.5 text-emerald-500" />
-            <span className="text-[9px] font-black uppercase tracking-widest text-emerald-500">Strengths</span>
+            <span className="text-[9px] font-black uppercase tracking-widest text-emerald-500">শক্তিমত্তা</span>
           </div>
           <div className="flex flex-wrap gap-1.5 items-start">
             {['Vocabulary', 'Algebra', 'Puzzles'].map(s => (
@@ -315,7 +315,7 @@ const Analytics = () => {
         <motion.div variants={itemVariants} className="bg-surface border border-white/5 rounded-xl p-4 space-y-3">
           <div className="flex items-center gap-2">
             <AlertTriangle className="w-3.5 h-3.5 text-red-500" />
-            <span className="text-[9px] font-black uppercase tracking-widest text-red-500">Vulnerable Areas</span>
+            <span className="text-[9px] font-black uppercase tracking-widest text-red-500">দুর্বলতা</span>
           </div>
           <div className="flex flex-wrap gap-1.5 items-start">
             {['Geometry', 'Grammar Basics', 'Critical Reasoning'].map(s => (
@@ -333,7 +333,7 @@ const Analytics = () => {
           <div className="p-1.5 rounded-lg bg-primary/10 border border-primary/20">
             <Sparkles className="w-4 h-4 text-primary" />
           </div>
-          <span className="text-[10px] font-black uppercase tracking-widest text-primary">Smart Recommendation</span>
+          <span className="text-[10px] font-black uppercase tracking-widest text-primary">স্মারট রিকমেন্ডেশন</span>
         </div>
         <p className="text-sm md:text-base text-white/80 font-semibold leading-relaxed italic">
           &ldquo;Your accuracy in Geometry is 22% lower than your average. Try focusing on{' '}
@@ -344,16 +344,16 @@ const Analytics = () => {
       {/* ── Platform Rank ── */}
       <motion.div variants={itemVariants} className="bg-surface border border-white/5 rounded-xl p-4 md:p-5 space-y-4">
         <div>
-          <h2 className="text-sm md:text-base font-black text-white tracking-tighter uppercase">Platform Rank</h2>
-          <p className="text-[8px] font-bold text-white/30 uppercase tracking-widest mt-0.5">How you compare to others</p>
+          <h2 className="text-sm md:text-base font-black text-white tracking-tighter uppercase">প্ল্যাটফর্ম র‍্যাংক</h2>
+          <p className="text-[8px] font-bold text-white/30 uppercase tracking-widest mt-0.5">অন্যদের সাথে তুলনা</p>
         </div>
         <div className="flex gap-3">
           <div className="flex-1 bg-white/5 rounded-xl px-4 py-3 text-center border border-white/5">
-            <p className="text-[9px] font-black text-white/20 uppercase tracking-widest">Platform Avg</p>
+            <p className="text-[9px] font-black text-white/20 uppercase tracking-widest">প্ল্যাটফর্ম গড়</p>
             <p className="text-xl md:text-2xl font-black text-white/50 mt-1">45%</p>
           </div>
           <div className="flex-1 bg-primary/10 rounded-xl px-4 py-3 text-center border border-primary/20">
-            <p className="text-[9px] font-black text-primary/60 uppercase tracking-widest">Your Score</p>
+            <p className="text-[9px] font-black text-primary/60 uppercase tracking-widest">তোমার স্কোর</p>
             <p className="text-xl md:text-2xl font-black text-primary mt-1">{accuracy}%</p>
           </div>
         </div>
@@ -362,10 +362,10 @@ const Analytics = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
           {[
-            { label: 'Beginner', color: 'bg-red-500', value: '20%' },
-            { label: 'Intermediate', color: 'bg-yellow-500', value: '30%' },
-            { label: 'You', color: 'bg-primary', value: `${accuracy}%` },
-            { label: 'Elite', color: 'bg-emerald-500', value: `${Math.max(0, 100 - accuracy - 50)}%` }
+            { label: 'বিগিনার', color: 'bg-red-500', value: '২০%' },
+            { label: 'ইন্টারমিডিয়েট', color: 'bg-yellow-500', value: '৩০%' },
+            { label: 'তুমি', color: 'bg-primary', value: `${accuracy}%` },
+            { label: 'এলিট', color: 'bg-emerald-500', value: `${Math.max(0, 100 - accuracy - 50)}%` }
           ].map(l => (
             <div key={l.label} className="flex items-center gap-2.5">
               <div className={`w-3 h-3 rounded-full ${l.color} shrink-0`} />

@@ -28,7 +28,7 @@ const Courses = () => {
         ? courses
         : courses.filter(c => c.exam_category === filter);
 
-    if (loading) return <LoadingScreen message="Loading Courses..." />;
+    if (loading) return <LoadingScreen message="কোর্স লোড হচ্ছে..." />;
 
     return (
         <div className="max-w-7xl mx-auto space-y-8 md:space-y-12">
@@ -38,10 +38,10 @@ const Courses = () => {
                 </div>
                 <div className="relative z-10">
                     <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter mb-3 md:mb-4">
-                        MASTER <span className="text-primary uppercase">EVERYTHING.</span>
+                        মাস্টার করো <span className="text-primary uppercase">সবকিছু!</span>
                     </h1>
                     <p className="text-white/30 font-bold uppercase tracking-widest text-[10px]">
-                        Video lessons from the best instructors
+                        ভিডিও আর লিখিত লেসনে!
                     </p>
                 </div>
 
@@ -71,7 +71,7 @@ const Courses = () => {
                             <div className="absolute inset-0 bg-black/40"></div>
                             {course.is_premium && (
                                 <div className="absolute top-4 right-4 px-3 py-1 bg-reward text-black text-[9px] font-black uppercase tracking-widest rounded-full shadow-lg">
-                                    Premium
+                                    প্রিমিয়াম
                                 </div>
                             )}
                         </div>
@@ -80,7 +80,7 @@ const Courses = () => {
                             <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-primary/60">
                                 <span>{course.exam_category}</span>
                                 <span className="w-1 h-1 bg-white/10 rounded-full"></span>
-                                <span>{course.lessons?.length || 0} Lessons</span>
+                                <span>{course.lessons?.length || 0}টি লেসন</span>
                             </div>
 
                             <h3 className="text-xl md:text-2xl font-black text-white tracking-tight group-hover:text-primary transition-colors leading-tight">
@@ -108,9 +108,9 @@ const Courses = () => {
                                     }`}
                             >
                                 {course.is_premium && profile?.plan_type !== 'premium' ? (
-                                    <><Lock className="w-4 h-4" /> Go Premium to Unlock</>
+                                    <><Lock className="w-4 h-4" /> প্রিমিয়াম কিনে আনলক করো</>
                                 ) : (
-                                    <><Play className="w-4 h-4 fill-current" /> Start Learning</>
+                                    <><Play className="w-4 h-4 fill-current" /> শেখা শুরু করো</>
                                 )}
                             </button>
                         </div>
@@ -120,7 +120,7 @@ const Courses = () => {
                         <div className="w-20 h-20 md:w-28 md:h-28 opacity-30">
                             <LottieAnimation src={booksAnimation} className="w-full h-full" pingPong />
                         </div>
-                        <p className="text-white/10 font-black uppercase tracking-widest">More Courses Coming Soon!</p>
+                        <p className="text-white/10 font-black uppercase tracking-widest">আরো কোর্স শীঘ্রই আসছে!</p>
                     </div>
                 )}
             </div>

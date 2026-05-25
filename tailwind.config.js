@@ -65,7 +65,7 @@ export default {
         charcoal: '#371e23',
       },
       fontFamily: {
-        sans: ['Nunito Sans', 'Noto Sans Bengali', 'system-ui', 'sans-serif'],
+        sans: ['Nunito Sans', 'Hind Siliguri', 'Noto Sans Bengali', 'system-ui', 'sans-serif'],
       },
       animation: {
         'pulse-soft': 'pulse 3s ease-in-out infinite',

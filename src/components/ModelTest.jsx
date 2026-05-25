@@ -38,7 +38,7 @@ const VocabPopup = ({ vocab, onClose }) => {
         </div>
         {vocab.meaning_bn && (
           <div>
-            <p className="text-[9px] font-black text-white/40 uppercase tracking-wider mb-0.5">à¦¬à¦¾à¦‚à¦²à¦¾ à¦…à¦°à§à¦¥</p>
+            <p className="text-[9px] font-black text-white/40 uppercase tracking-wider mb-0.5">বাংলা অর্থ</p>
             <p className="text-white/90 font-medium leading-relaxed" style={{ fontSize: '14px' }}>{vocab.meaning_bn}</p>
           </div>
         )}
@@ -352,7 +352,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
                 )}
                 {q.explanation_bn && (
                   <div>
-                    <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-0.5">à¦¬à¦¾à¦‚à¦²à¦¾ à¦¬à§à¦¯à¦¾à¦–à§à¦¯à¦¾</p>
+                    <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-0.5">বাংলা ব্যাখ্যা</p>
                     <p className="text-white/80 font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>{q.explanation_bn}</p>
                   </div>
                 )}
@@ -449,7 +449,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
               )}
               {currentTranslation && (
                 <div className="p-3 rounded-xl bg-white/5 border border-white/10">
-                  <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-1">à¦¬à¦¾à¦‚à¦²à¦¾ à¦…à¦¨à§à¦¬à¦¾à¦¦</p>
+                  <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-1">বাংলা অনুবাদ</p>
                   <p className="text-white/70 font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>
                     {currentTranslation}
                   </p>
@@ -485,7 +485,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
               )}
               {currentTranslation && (
                 <div className="p-3 rounded-xl bg-white/5 border border-white/10">
-                  <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-1">à¦¬à¦¾à¦‚à¦²à¦¾ à¦…à¦¨à§à¦¬à¦¾à¦¦</p>
+                  <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-1">বাংলা অনুবাদ</p>
                   <p className="text-white/70 font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>
                     {currentTranslation}
                   </p>

@@ -50,7 +50,7 @@ const Stars = () => {
         <div className="bg-surface border border-white/5 rounded-xl p-4">
           <div className="text-[9px] font-black uppercase tracking-widest text-white/30 mb-1 flex items-center gap-1">
             <Zap className="w-3 h-3" />
-            Total XP
+            মোট এক্সপি
           </div>
           <div className="text-2xl font-black tracking-tighter text-primary">
             {stats.total_xp}
@@ -59,7 +59,7 @@ const Stars = () => {
         <div className="bg-surface border border-white/5 rounded-xl p-4">
           <div className="text-[9px] font-black uppercase tracking-widest text-white/30 mb-1 flex items-center gap-1">
             <Star className="w-3 h-3" />
-            To Review
+            রিভিউ বাকি
           </div>
           <div className="text-2xl font-black tracking-tighter text-yellow-300">
             {totalMistakes}
@@ -68,7 +68,7 @@ const Stars = () => {
         <div className="bg-surface border border-white/5 rounded-xl p-4">
           <div className="text-[9px] font-black uppercase tracking-widest text-white/30 mb-1 flex items-center gap-1">
             <Clock className="w-3 h-3" />
-            Due Now
+            আজকে
           </div>
           <div className="text-2xl font-black tracking-tighter text-yellow-400">
             {totalDue}
@@ -77,7 +77,7 @@ const Stars = () => {
         <div className="bg-surface border border-white/5 rounded-xl p-4">
           <div className="text-[9px] font-black uppercase tracking-widest text-white/30 mb-1 flex items-center gap-1">
             <BookOpen className="w-3 h-3" />
-            All Time Stars
+            সর্বকালের স্টার
           </div>
           <div className="text-2xl font-black tracking-tighter text-white/60">
             {stats.total_stars}
@@ -89,12 +89,12 @@ const Stars = () => {
         <div>
           <h1 className="text-2xl md:text-3xl font-black text-white tracking-tighter flex items-center gap-3">
             <Star className="w-6 h-6 text-yellow-300 fill-yellow-300/30" />
-            Star Review
+            স্টার রিভিউ
           </h1>
           <p className="text-white/40 text-sm font-medium mt-1">
             {totalDue > 0
-              ? `${totalDue} question${totalDue !== 1 ? 's' : ''} due for review`
-              : 'All caught up! No mistakes due for review.'}
+              ? `${totalDue}টি প্রশ্ন রিভিউ করার বাকি`
+              : 'সব রিভিউ করা হয়েছে! কোনো ভুল নেই।'}
           </p>
         </div>
 
@@ -104,7 +104,7 @@ const Stars = () => {
             className="inline-flex items-center gap-2 bg-primary text-white px-5 py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all hover:bg-primary-hover active:scale-[0.98] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
           >
             <Sparkles className="w-3.5 h-3.5" />
-            Review All Due
+            বাকি স্টার রিভিউ করো
           </button>
         )}
       </div>
@@ -159,7 +159,7 @@ const Stars = () => {
                   )}
                   <span className="text-white/30 text-base">/{group.total}</span>
                 </p>
-                <p className="text-white/20 text-[9px] font-black uppercase tracking-widest">due/total</p>
+                <p className="text-white/20 text-[9px] font-black uppercase tracking-widest">বাকি/মোট</p>
               </div>
             </div>
 
@@ -174,9 +174,9 @@ const Stars = () => {
                 }`}
               >
                 {group.dueNow > 0 ? (
-                  <><Brain className="w-3.5 h-3.5" /> Start Quiz</>
+                  <><Brain className="w-3.5 h-3.5" /> রিভিউ শুরু করো</>
                 ) : (
-                  <><CheckCircle className="w-3.5 h-3.5" /> All reviewed</>
+                  <><CheckCircle className="w-3.5 h-3.5" /> সব রিভিউ করা হয়েছে</>
                 )}
               </button>
             )}
@@ -186,15 +186,15 @@ const Stars = () => {
         {totalMistakes === 0 && (
           <div className="text-center py-16 bg-surface border border-white/5 rounded-2xl">
             <Star className="w-16 h-16 text-white/10 mx-auto mb-4" />
-            <p className="text-white/30 font-black uppercase tracking-widest text-[10px]">No mistakes yet</p>
-            <p className="text-white/10 text-sm mt-2 font-medium">Keep practicing to build your review queue</p>
+            <p className="text-white/30 font-black uppercase tracking-widest text-[10px]">এখনো কোনো ভুল নেই</p>
+            <p className="text-white/10 text-sm mt-2 font-medium">প্রাক্টিস করতে থাকো, রিভিউ লিস্ট তৈরি হবে</p>
           </div>
         )}
       </div>
 
       <div className="flex items-center gap-2 text-[9px] font-black uppercase tracking-widest text-white/20 px-1">
         <Clock className="w-3 h-3" />
-        Spaced repetition: today &rarr; 3d &rarr; 7d &rarr; 14d &rarr; 30d
+        স্পেসড রিপিটিশন: আজকে &rarr; ৩ দিন পর &rarr; ৭ দিন পর &rarr; ১৪ দিন পর &rarr; ৩০ দিন পর
       </div>
     </div>
   );
