@@ -8,6 +8,7 @@ export function usePracticeConfig() {
   const { user, profile } = useAuth();
   const [searchParams] = useSearchParams();
   const categoryFilter = (searchParams.get('exam') || searchParams.get('category') || '').toLowerCase();
+  const subjectFilter = searchParams.get('subjectId') || '';
 
   const [data, setData] = useState({ exams: [] });
   const [selectedSubject, setSelectedSubject] = useState(null);
@@ -103,7 +104,12 @@ export function usePracticeConfig() {
 
         const requested = allExams.find(exam => exam.id === categoryFilter && exam.active);
         setSelectedExam(requested || null);
-        setSelectedSubject(null);
+        if (requested && subjectFilter) {
+          const matched = requested.subjects.find(sub => sub.id === subjectFilter);
+          setSelectedSubject(matched || null);
+        } else {
+          setSelectedSubject(null);
+        }
         setLoading(false);
       })
       .catch(err => {
@@ -111,7 +117,7 @@ export function usePracticeConfig() {
         setError(err.message);
         setLoading(false);
       });
-  }, [categoryFilter]);
+  }, [categoryFilter, subjectFilter]);
 
   useEffect(() => {
     const base = import.meta.env.BASE_URL || '/';

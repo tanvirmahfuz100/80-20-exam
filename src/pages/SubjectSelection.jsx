@@ -37,6 +37,28 @@ const subjectIconMap = {
   'সমাজ বিজ্ঞান': BookOpen,
 };
 
+const subjectNameToId = {
+  'বাংলা': 'bangla',
+  'ইংরেজি': 'english',
+  'গণিত': 'math',
+  'উচ্চতর গণিত': 'higher_math',
+  'পদার্থবিদ্যা': 'physics',
+  'রসায়ন': 'chemistry',
+  'জীববিদ্যা': 'biology',
+  'আইসিটি': 'ict',
+  'হিসাববিজ্ঞান': 'accounting',
+  'ফিন্যান্স': 'finance',
+  'ব্যবসায় উদ্যোগ': 'business_entrepreneurship',
+  'অর্থনীতি': 'economics',
+  'ইতিহাস': 'history',
+  'ভূগোল': 'geography',
+  'নাগরিকতা': 'civics',
+  'সাধারণ জ্ঞান': 'general_knowledge',
+  'বাংলাদেশ বিষয়াবলী': 'bangladesh_affairs',
+  'বিশ্লেষণী ক্ষমতা': 'analytical',
+  'সমাজ বিজ্ঞান': 'social_science',
+};
+
 function getIcon(name) {
   return subjectIconMap[name] || BookOpen;
 }
@@ -230,7 +252,13 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
               <motion.button
                 key={name}
                 whileTap={{ scale: 0.96 }}
-                onClick={() => navigate(`/practice?exam=${examPath.exam.toLowerCase()}`)}
+                onClick={() => {
+                  const subjId = subjectNameToId[name];
+                  const url = subjId
+                    ? `/practice?exam=${examPath.exam.toLowerCase()}&subjectId=${subjId}`
+                    : `/practice?exam=${examPath.exam.toLowerCase()}`;
+                  navigate(url);
+                }}
                 className={`
                   flex flex-col items-center justify-center gap-2.5
                   rounded-2xl border border-white/15 bg-surface
