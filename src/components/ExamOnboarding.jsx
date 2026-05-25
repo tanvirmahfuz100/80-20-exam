@@ -163,48 +163,48 @@ export default function ExamOnboarding({ onComplete }) {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.2 }}
       >
-        <div className="flex-1 flex items-center justify-center px-4 md:px-6">
-          <div className="w-full max-w-2xl text-center space-y-6 md:space-y-8">
-            <div className="space-y-2">
-              <h2 className="text-xl md:text-3xl font-black tracking-tighter text-text">তোমার মোড বেছে নাও</h2>
+        <div className="flex-1 flex items-center justify-center overflow-y-auto px-4 md:px-6">
+          <div className="w-full max-w-2xl text-center space-y-4 md:space-y-8 py-4 md:py-0">
+            <div className="space-y-1 md:space-y-2">
+              <h2 className="text-lg md:text-3xl font-black tracking-tighter text-text">তোমার মোড বেছে নাও</h2>
               <p className="text-text-muted text-xs md:text-sm font-medium">প্রত্যেকটা অপশন দেখো — যেটা ভালো লাগে সেটা বাছাই করো</p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-6">
               {/* Light mode card */}
               <button
                 onClick={() => handleThemePick('light')}
                 className="group relative flex flex-col rounded-2xl overflow-hidden border-2 border-gray-200 bg-white text-left transition-all hover:scale-[1.02] hover:shadow-xl active:scale-[0.98]"
               >
-                <div className="px-4 pt-4 pb-3 space-y-3">
+                <div className="px-3 md:px-4 pt-3 pb-2 md:pt-4 md:pb-3 space-y-2 md:space-y-3">
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded-lg bg-amber-50 border border-amber-200 flex items-center justify-center">
-                      <Sun className="w-4 h-4 text-amber-500" />
+                    <div className="w-7 h-7 md:w-8 md:h-8 rounded-lg bg-amber-50 border border-amber-200 flex items-center justify-center">
+                      <Sun className="w-3.5 h-3.5 md:w-4 md:h-4 text-amber-500" />
                     </div>
-                    <span className="text-sm font-black text-gray-800">লাইট মোড</span>
+                    <span className="text-xs md:text-sm font-black text-gray-800">লাইট মোড</span>
                   </div>
-                  <div className="bg-gray-50 rounded-xl border border-gray-100 p-3 space-y-2">
+                  <div className="bg-gray-50 rounded-xl border border-gray-100 p-2 md:p-3 space-y-1.5 md:space-y-2">
                     <div className="flex items-center justify-between">
-                      <span className="text-[10px] font-black text-gray-600">🔥 ফায়ারম্যান</span>
-                      <span className="text-[8px] text-gray-400">প্রোফাইল</span>
+                      <span className="text-[9px] md:text-[10px] font-black text-gray-600">🔥 ফায়ারম্যান</span>
+                      <span className="text-[7px] md:text-[8px] text-gray-400">প্রোফাইল</span>
                     </div>
                     <div>
-                      <p className="text-xs font-black text-gray-800">আজকের কুইজ</p>
-                      <p className="text-[10px] text-gray-500 font-medium">৫টি প্রশ্ন</p>
+                      <p className="text-[11px] md:text-xs font-black text-gray-800">আজকের কুইজ</p>
+                      <p className="text-[9px] md:text-[10px] text-gray-500 font-medium">৫টি প্রশ্ন</p>
                     </div>
-                    <div className="bg-gray-900 text-white text-[9px] font-black uppercase tracking-wider rounded-lg py-1.5 text-center">শুরু করো</div>
-                    <div className="flex items-center justify-between border-t border-gray-100 pt-2">
+                    <div className="bg-gray-900 text-white text-[8px] md:text-[9px] font-black uppercase tracking-wider rounded-lg py-1 md:py-1.5 text-center">শুরু করো</div>
+                    <div className="flex items-center justify-between border-t border-gray-100 pt-1.5 md:pt-2">
                       <div className="flex gap-1">
-                        <div className="w-1.5 h-1.5 rounded-full bg-gray-300" />
-                        <div className="w-1.5 h-1.5 rounded-full bg-gray-300" />
-                        <div className="w-1.5 h-1.5 rounded-full bg-gray-300" />
+                        <div className="w-1 h-1.5 md:w-1.5 md:h-1.5 rounded-full bg-gray-300" />
+                        <div className="w-1 h-1.5 md:w-1.5 md:h-1.5 rounded-full bg-gray-300" />
+                        <div className="w-1 h-1.5 md:w-1.5 md:h-1.5 rounded-full bg-gray-300" />
                       </div>
-                      <span className="text-[8px] text-gray-400 font-medium">সাবজেক্ট</span>
+                      <span className="text-[7px] md:text-[8px] text-gray-400 font-medium">সাবজেক্ট</span>
                     </div>
                   </div>
-                  <div className="flex gap-1.5 flex-wrap">
-                    <span className="text-[8px] px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 font-medium">সাদা ব্যাকগ্রাউন্ড</span>
-                    <span className="text-[8px] px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 font-medium">গাঢ় টেক্সট</span>
+                  <div className="flex gap-1 md:gap-1.5 flex-wrap">
+                    <span className="text-[7px] md:text-[8px] px-1.5 md:px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 font-medium">সাদা ব্যাকগ্রাউন্ড</span>
+                    <span className="text-[7px] md:text-[8px] px-1.5 md:px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 font-medium">গাঢ় টেক্সট</span>
                   </div>
                 </div>
               </button>
@@ -214,35 +214,35 @@ export default function ExamOnboarding({ onComplete }) {
                 onClick={() => handleThemePick('dark')}
                 className="group relative flex flex-col rounded-2xl overflow-hidden border-2 border-gray-800 bg-gray-950 text-left transition-all hover:scale-[1.02] hover:shadow-xl active:scale-[0.98]"
               >
-                <div className="px-4 pt-4 pb-3 space-y-3">
+                <div className="px-3 md:px-4 pt-3 pb-2 md:pt-4 md:pb-3 space-y-2 md:space-y-3">
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded-lg bg-indigo-950 border border-indigo-800 flex items-center justify-center">
-                      <Moon className="w-4 h-4 text-indigo-400" />
+                    <div className="w-7 h-7 md:w-8 md:h-8 rounded-lg bg-indigo-950 border border-indigo-800 flex items-center justify-center">
+                      <Moon className="w-3.5 h-3.5 md:w-4 md:h-4 text-indigo-400" />
                     </div>
-                    <span className="text-sm font-black text-white">ডার্ক মোড</span>
+                    <span className="text-xs md:text-sm font-black text-white">ডার্ক মোড</span>
                   </div>
-                  <div className="bg-gray-900 rounded-xl border border-gray-800 p-3 space-y-2">
+                  <div className="bg-gray-900 rounded-xl border border-gray-800 p-2 md:p-3 space-y-1.5 md:space-y-2">
                     <div className="flex items-center justify-between">
-                      <span className="text-[10px] font-black text-gray-300">🔥 ফায়ারম্যান</span>
-                      <span className="text-[8px] text-gray-500">প্রোফাইল</span>
+                      <span className="text-[9px] md:text-[10px] font-black text-gray-300">🔥 ফায়ারম্যান</span>
+                      <span className="text-[7px] md:text-[8px] text-gray-500">প্রোফাইল</span>
                     </div>
                     <div>
-                      <p className="text-xs font-black text-white">আজকের কুইজ</p>
-                      <p className="text-[10px] text-gray-400 font-medium">৫টি প্রশ্ন</p>
+                      <p className="text-[11px] md:text-xs font-black text-white">আজকের কুইজ</p>
+                      <p className="text-[9px] md:text-[10px] text-gray-400 font-medium">৫টি প্রশ্ন</p>
                     </div>
-                    <div className="bg-white text-gray-900 text-[9px] font-black uppercase tracking-wider rounded-lg py-1.5 text-center">শুরু করো</div>
-                    <div className="flex items-center justify-between border-t border-gray-800 pt-2">
+                    <div className="bg-white text-gray-900 text-[8px] md:text-[9px] font-black uppercase tracking-wider rounded-lg py-1 md:py-1.5 text-center">শুরু করো</div>
+                    <div className="flex items-center justify-between border-t border-gray-800 pt-1.5 md:pt-2">
                       <div className="flex gap-1">
-                        <div className="w-1.5 h-1.5 rounded-full bg-gray-600" />
-                        <div className="w-1.5 h-1.5 rounded-full bg-gray-600" />
-                        <div className="w-1.5 h-1.5 rounded-full bg-gray-600" />
+                        <div className="w-1 h-1.5 md:w-1.5 md:h-1.5 rounded-full bg-gray-600" />
+                        <div className="w-1 h-1.5 md:w-1.5 md:h-1.5 rounded-full bg-gray-600" />
+                        <div className="w-1 h-1.5 md:w-1.5 md:h-1.5 rounded-full bg-gray-600" />
                       </div>
-                      <span className="text-[8px] text-gray-500 font-medium">সাবজেক্ট</span>
+                      <span className="text-[7px] md:text-[8px] text-gray-500 font-medium">সাবজেক্ট</span>
                     </div>
                   </div>
-                  <div className="flex gap-1.5 flex-wrap">
-                    <span className="text-[8px] px-2 py-0.5 rounded-full bg-gray-800 text-gray-400 font-medium">কালো ব্যাকগ্রাউন্ড</span>
-                    <span className="text-[8px] px-2 py-0.5 rounded-full bg-gray-800 text-gray-400 font-medium">সাদা টেক্সট</span>
+                  <div className="flex gap-1 md:gap-1.5 flex-wrap">
+                    <span className="text-[7px] md:text-[8px] px-1.5 md:px-2 py-0.5 rounded-full bg-gray-800 text-gray-400 font-medium">কালো ব্যাকগ্রাউন্ড</span>
+                    <span className="text-[7px] md:text-[8px] px-1.5 md:px-2 py-0.5 rounded-full bg-gray-800 text-gray-400 font-medium">সাদা টেক্সট</span>
                   </div>
                 </div>
               </button>
