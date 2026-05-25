@@ -1,4 +1,4 @@
-import React, { useEffect, useState, Suspense } from 'react';
+import React, { useEffect, Suspense } from 'react';
 import { HashRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import Layout from './components/Layout';
@@ -7,7 +7,6 @@ import { useTheme } from './context/ThemeContext';
 import { useLowEndDevice } from './hooks';
 import { playSound, preloadSounds } from './utils/sounds';
 import LoadingScreen from './components/LoadingScreen';
-import OnboardingModal from './components/OnboardingModal';
 import ErrorBoundary from './components/ErrorBoundary';
 
 const Dashboard = React.lazy(() => import('./pages/Dashboard'));
@@ -25,6 +24,7 @@ const Settings = React.lazy(() => import('./pages/Settings'));
 const Landing = React.lazy(() => import('./pages/Landing'));
 const Stars = React.lazy(() => import('./pages/Stars'));
 const CreativeQuestionView = React.lazy(() => import('./pages/CreativeQuestionView'));
+const SubjectSelection = React.lazy(() => import('./pages/SubjectSelection'));
 
 function App() {
   return (
@@ -46,9 +46,8 @@ const ProtectedRoute = ({ children, allowedRole }) => {
 
 const AppContent = () => {
   const location = useLocation();
-  const { user, profile } = useAuth();
+  const { profile } = useAuth();
   const { setTheme, setFontSize } = useTheme();
-  const [showOnboarding, setShowOnboarding] = useState(false);
   const prevPathRef = React.useRef(location.pathname);
   const { isLowEnd } = useLowEndDevice();
 
@@ -67,15 +66,6 @@ const AppContent = () => {
     }
   }, [location.pathname]);
 
-  useEffect(() => {
-    if (user && profile) {
-      const needsOnboarding = profile.question_version == null;
-      setShowOnboarding(needsOnboarding);
-    } else {
-      setShowOnboarding(false);
-    }
-  }, [user, profile]);
-
   // Apply saved appearance settings from profile (if present)
   useEffect(() => {
     if (!profile) return;
@@ -87,13 +77,8 @@ const AppContent = () => {
     } catch {}
   }, [profile, setTheme, setFontSize]);
 
-  const handleOnboardingComplete = () => {
-    setShowOnboarding(false);
-  };
-
   return (
     <Layout>
-      {showOnboarding && <OnboardingModal onComplete={handleOnboardingComplete} />}
       <ErrorBoundary>
       <Suspense fallback={<LoadingScreen />}>
         <AnimatePresence mode="wait">
@@ -104,9 +89,14 @@ const AppContent = () => {
               </motion.div>
             } />
             <Route path="/register" element={<Navigate to="/login" replace />} />
-            <Route path="/" element={
+            <Route path="/dashboard" element={
               <motion.div {...pageMotion}>
                 <Dashboard />
+              </motion.div>
+            } />
+            <Route path="/" element={
+              <motion.div {...pageMotion}>
+                <SubjectSelection />
               </motion.div>
             } />
 

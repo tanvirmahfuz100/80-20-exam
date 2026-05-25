@@ -360,6 +360,7 @@ const Layout = ({ children }) => {
     const isAuthPage = location.pathname === '/login' || location.pathname === '/register';
     const isLandingPage = location.pathname === '/welcome';
     const isQuizPage = location.pathname.startsWith('/quiz/');
+    const isHomePage = location.pathname === '/';
     const hideLayout = isAuthPage || isLandingPage;
 
     useEffect(() => {
@@ -398,7 +399,7 @@ const Layout = ({ children }) => {
             )}
 
             <div className={`${!hideLayout ? 'md:ml-64' : ''} flex flex-col min-h-screen transition-all ${reducedMotion ? 'duration-0' : 'duration-500'}`}>
-                {!hideLayout && !isQuizPage && (
+                {!hideLayout && !isQuizPage && !isHomePage && (
                     <header className="h-16 md:h-20 flex items-center justify-between px-4 md:px-8 lg:px-10 border-b border-white/5 bg-background sticky top-0 z-30 safe-top">
                         <div className="flex items-center gap-3 min-w-0 flex-1">
                             <button
