@@ -148,15 +148,15 @@ const Dashboard = () => {
     <Motion.div variants={containerVariants} initial="hidden" animate="show" className="space-y-3 pb-20 md:pb-10 max-w-4xl mx-auto">
 
       {/* â”€â”€â”€ Hero Card â”€â”€â”€ */}
-      <Motion.div variants={itemVariants} className="relative overflow-hidden rounded-2xl border border-white/[0.06] bg-surface p-4 md:p-7">
+      <Motion.div variants={itemVariants} className="relative overflow-hidden rounded-2xl border bg-surface p-4 md:p-7">
         <div className="absolute top-0 right-0 w-40 h-40 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
 
         <div className="relative z-10 flex items-start justify-between gap-3 mb-4">
           <div className="min-w-0 flex-1">
-            <p className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-1">
+            <p className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim mb-1">
               {new Date().getHours() < 12 ? 'সুপ্রভাত' : new Date().getHours() < 18 ? 'শুভ অপরাহ্ন' : 'শুভ সন্ধ্যা'}
             </p>
-            <h1 className="text-xl md:text-3xl font-black text-white tracking-tighter truncate">
+            <h1 className="text-xl md:text-3xl font-black text-text tracking-tighter truncate">
               {username} <span className="text-primary">Â· Lv.{level}</span>
             </h1>
           </div>
@@ -166,7 +166,7 @@ const Dashboard = () => {
               alt="Mascot"
               className="w-12 h-12 md:w-14 md:h-14 object-contain drop-shadow-lg"
             />
-            <div className={`shrink-0 px-3 py-1.5 rounded-full border border-white/[0.06] ${rankTheme.bg}`}>
+            <div className={`shrink-0 px-3 py-1.5 rounded-full border ${rankTheme.bg}`}>
               <div className="flex items-center gap-1.5">
                 <Trophy className={`w-3.5 h-3.5 ${rankTheme.icon}`} />
                 <span className={`text-2xs font-black uppercase tracking-wider ${rankTheme.text}`}>{rankLabel}</span>
@@ -179,24 +179,24 @@ const Dashboard = () => {
           <div className="flex items-center gap-1.5">
             <Flame className="w-3.5 h-3.5 text-orange-400 shrink-0" />
             <div>
-              <p className="text-3xs font-black uppercase tracking-widest text-white/25 leading-none mb-0.5">{streak}d স্ট্রিক</p>
-              <p className="text-sm md:text-base font-black text-white leading-none">{totalXp} <span className="text-3xs font-bold text-white/40">XP</span></p>
+              <p className="text-3xs font-black uppercase tracking-widest text-text-dim leading-none mb-0.5">{streak}d স্ট্রিক</p>
+              <p className="text-sm md:text-base font-black text-text leading-none">{totalXp} <span className="text-3xs font-bold text-text-muted">XP</span></p>
             </div>
           </div>
-          <div className="w-px h-7 bg-white/5" />
+          <div className="w-px h-7 bg-surface-alt" />
           <div className="flex items-center gap-1.5">
             <Star className="w-3.5 h-3.5 text-yellow-400 shrink-0" />
             <div>
-              <p className="text-3xs font-black uppercase tracking-widest text-white/25 leading-none mb-0.5">স্টার</p>
+              <p className="text-3xs font-black uppercase tracking-widest text-text-dim leading-none mb-0.5">স্টার</p>
               <p className="text-sm md:text-base font-black text-yellow-400 leading-none">{userGameStats.total_stars}</p>
             </div>
           </div>
-          <div className="w-px h-7 bg-white/5" />
+          <div className="w-px h-7 bg-surface-alt" />
           <div className="flex items-center gap-1.5">
             <Gauge className="w-3.5 h-3.5 text-accent shrink-0" />
             <div>
-              <p className="text-3xs font-black uppercase tracking-widest text-white/25 leading-none mb-0.5">একিউরেসি</p>
-              <p className="text-sm md:text-base font-black text-white leading-none">{Math.round(Number(statsData.accuracy))}%</p>
+              <p className="text-3xs font-black uppercase tracking-widest text-text-dim leading-none mb-0.5">একিউরেসি</p>
+              <p className="text-sm md:text-base font-black text-text leading-none">{Math.round(Number(statsData.accuracy))}%</p>
             </div>
           </div>
         </div>
@@ -211,7 +211,7 @@ const Dashboard = () => {
           </Link>
           <Link
             to="/bank"
-            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl border border-white/[0.08] bg-white/[0.04] hover:bg-white/[0.08] px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-white/60 hover:text-white transition-all active:scale-[0.97]"
+            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl border bg-surface-alt hover:bg-surface-alt px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-text-muted hover:text-text transition-all active:scale-[0.97]"
           >
             প্রশ্নব্যাংক
             <Layers className="w-3.5 h-3.5" />
@@ -219,12 +219,12 @@ const Dashboard = () => {
         </div>
 
         {/* â”€â”€â”€ Level Progress â”€â”€â”€ */}
-        <div className="mt-4 pt-3 border-t border-white/[0.04]">
+        <div className="mt-4 pt-3 border-t">
           <div className="flex items-center justify-between mb-1.5">
-            <span className="text-3xs font-black uppercase tracking-widest text-white/20">লেভেল {level} Â· {nextLevelXp} এক্সপি টার্গেট</span>
+            <span className="text-3xs font-black uppercase tracking-widest text-text-dim">লেভেল {level} Â· {nextLevelXp} এক্সপি টার্গেট</span>
             <span className="text-3xs font-black text-primary">{xpInLevel}/{nextLevelXp - (level - 1) * 100} এক্সপি</span>
           </div>
-          <div className="h-1.5 rounded-full bg-white/[0.06] overflow-hidden">
+          <div className="h-1.5 rounded-full bg-surface-alt overflow-hidden">
             <Motion.div
               className="h-full rounded-full bg-primary"
               initial={{ width: 0 }}
@@ -237,15 +237,15 @@ const Dashboard = () => {
 
       {/* â”€â”€â”€ Progress to 20 (new users) â”€â”€â”€ */}
       {!hasEnoughData && (
-        <Motion.div variants={itemVariants} className="rounded-xl border border-white/[0.05] bg-surface p-4">
+        <Motion.div variants={itemVariants} className="rounded-xl border bg-surface p-4">
           <div className="flex items-center justify-between gap-3 mb-2">
             <div className="flex items-center gap-2 min-w-0">
               <Rocket className="w-4 h-4 text-primary shrink-0" />
-              <span className="text-2xs font-black uppercase tracking-wider text-white/40 truncate">ড্যাসবোর্ড আনলক করো</span>
+              <span className="text-2xs font-black uppercase tracking-wider text-text-muted truncate">ড্যাসবোর্ড আনলক করো</span>
             </div>
             <span className="text-xs font-black text-primary shrink-0">{progressTo20}/20</span>
           </div>
-          <div className="h-2 rounded-full bg-white/[0.06] overflow-hidden">
+          <div className="h-2 rounded-full bg-surface-alt overflow-hidden">
             <Motion.div
               className="h-full rounded-full bg-primary"
               initial={{ width: 0 }}
@@ -254,7 +254,7 @@ const Dashboard = () => {
             />
           </div>
           {statsData.totalPracticed > 0 && (
-            <p className="text-3xs font-medium text-white/20 mt-2">
+            <p className="text-3xs font-medium text-text-dim mt-2">
               ড্যাসবোর্ড করতে আর বাকি মাত্র {20 - statsData.totalPracticed} টি প্রশ্ন
             </p>
           )}
@@ -271,7 +271,7 @@ const Dashboard = () => {
 
       {/* â”€â”€â”€ Quick Actions â”€â”€â”€ */}
       <Motion.div variants={itemVariants}>
-        <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-3">কুইক অ্যাকশন</h2>
+        <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim mb-3">কুইক অ্যাকশন</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5">
           <ActionCard Icon={Target} title="প্রাক্টিস" desc="এক্সাম ও সাবজেক্ট বাছাই" path="/practice" />
           <ActionCard Icon={Brain} title="প্রশ্নব্যাংক" desc="৫০,০০০+ প্রশ্ন" path="/bank" />
@@ -283,10 +283,10 @@ const Dashboard = () => {
       {/* â”€â”€â”€ Daily Challenges â”€â”€â”€ */}
       {dailyChallenges.length > 0 && (
         <Motion.div variants={itemVariants}>
-          <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-3 flex items-center gap-2">
+          <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim mb-3 flex items-center gap-2">
             <ZapIcon className="w-3.5 h-3.5 text-primary" />
             ডেইলি মিশন
-            <span className="text-[9px] font-medium text-white/20 normal-case flex items-center gap-1 ml-auto">
+            <span className="text-[9px] font-medium text-text-dim normal-case flex items-center gap-1 ml-auto">
               <Timer className="w-3 h-3" />
               {countdown.daily.hours}h {countdown.daily.minutes}m left
             </span>
@@ -299,13 +299,13 @@ const Dashboard = () => {
                 className={`relative overflow-hidden rounded-2xl border p-4 transition-all group ${
                   ch.completed
                     ? 'border-emerald-500/20 bg-emerald-500/[0.05]'
-                    : 'border-white/5 bg-surface hover:border-primary/30 hover:bg-white/[0.03]'
+                    : 'border bg-surface hover:border-primary/30 hover:bg-surface-alt'
                 }`}
               >
                 <div className="flex items-start justify-between mb-2">
                   <div>
-                    <h3 className="text-xs font-black text-white tracking-tight">{ch.label}</h3>
-                    <p className="text-[10px] text-white/30 font-medium mt-0.5">লেভেল {ch.levelNumber}</p>
+                    <h3 className="text-xs font-black text-text tracking-tight">{ch.label}</h3>
+                    <p className="text-[10px] text-text-dim font-medium mt-0.5">লেভেল {ch.levelNumber}</p>
                   </div>
                   {ch.completed ? (
                     <BadgeCheck className="w-5 h-5 text-emerald-400 shrink-0" />
@@ -322,7 +322,7 @@ const Dashboard = () => {
                     {ch.completed ? 'সম্পন্ন' : `+${ch.bonusXp} এক্সপি`}
                   </div>
                   {!ch.completed && (
-                    <span className="text-[9px] text-white/20 font-medium">শুরু করো â†’</span>
+                    <span className="text-[9px] text-text-dim font-medium">শুরু করো â†’</span>
                   )}
                 </div>
               </Link>
@@ -344,8 +344,8 @@ const Dashboard = () => {
                   <Flame className="w-4 h-4 text-yellow-400" />
                 </div>
                 <div>
-                  <h3 className="text-xs font-black text-white tracking-tight">সাপ্তাহিক: {weeklyChallenge.label}</h3>
-                  <p className="text-[10px] text-white/40 font-medium flex items-center gap-1">
+                  <h3 className="text-xs font-black text-text tracking-tight">সাপ্তাহিক: {weeklyChallenge.label}</h3>
+                  <p className="text-[10px] text-text-muted font-medium flex items-center gap-1">
                     <Timer className="w-3 h-3" />
                     {countdown.weekly.days} dni {countdown.weekly.hours} ঘ বাকি
                   </p>
@@ -358,7 +358,7 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <div className="flex-1 h-1.5 bg-white/10 rounded-full overflow-hidden">
+              <div className="flex-1 h-1.5 bg-surface-hover rounded-full overflow-hidden">
                 <Motion.div
                   className="h-full rounded-full bg-yellow-400"
                   initial={{ width: 0 }}
@@ -381,7 +381,7 @@ const Dashboard = () => {
       {hasEnoughData ? (
         <Motion.div variants={itemVariants} className="space-y-4">
           {/* Performance */}
-          <div className="relative overflow-hidden rounded-2xl border border-white/[0.05] bg-surface p-5 md:p-6">
+          <div className="relative overflow-hidden rounded-2xl border bg-surface p-5 md:p-6">
             <div className="absolute -top-10 -right-10 w-44 h-44 opacity-[0.06] pointer-events-none">
               <LottieAnimation src={speedometerAnimation} className="w-full h-full" pingPong />
             </div>
@@ -389,7 +389,7 @@ const Dashboard = () => {
               <div className="w-8 h-8 shrink-0">
                 <LottieAnimation src={speedometerAnimation} className="w-full h-full" pingPong />
               </div>
-              <h2 className="text-xs md:text-sm font-black tracking-tighter text-white">
+              <h2 className="text-xs md:text-sm font-black tracking-tighter text-text">
                 পারফরম্যান্স
               </h2>
             </div>
@@ -402,15 +402,15 @@ const Dashboard = () => {
               </div>
             </div>
             {focusAreas.length > 0 && (
-              <div className="mt-5 pt-4 border-t border-white/[0.04] space-y-3">
-                <p className="text-3xs font-black uppercase tracking-[0.25em] text-white/20">সাবজেক্ট অনুযায়ী একিউরেসি</p>
+              <div className="mt-5 pt-4 border-t space-y-3">
+                <p className="text-3xs font-black uppercase tracking-[0.25em] text-text-dim">সাবজেক্ট অনুযায়ী একিউরেসি</p>
                 {focusAreas.map((area) => (
                   <div key={area.label}>
                     <div className="flex items-center justify-between mb-1">
-                      <span className="text-2xs font-bold text-white/50">{area.label}</span>
+                      <span className="text-2xs font-bold text-text-muted">{area.label}</span>
                       <span className={`text-3xs font-black uppercase tracking-wider ${area.tone}`}>{area.status} Â· {area.val}%</span>
                     </div>
-                    <div className="h-1.5 rounded-full bg-white/[0.05] overflow-hidden">
+                    <div className="h-1.5 rounded-full bg-surface-alt overflow-hidden">
                       <Motion.div
                         className={`h-full rounded-full ${area.color}`}
                         initial={{ width: 0 }}
@@ -431,8 +431,8 @@ const Dashboard = () => {
           </div>
 
           {/* Recent Activity */}
-          <div className="rounded-2xl border border-white/[0.05] bg-surface p-5 md:p-6">
-            <h2 className="flex items-center gap-2 text-xs md:text-sm font-black tracking-tighter text-white mb-3">
+          <div className="rounded-2xl border bg-surface p-5 md:p-6">
+            <h2 className="flex items-center gap-2 text-xs md:text-sm font-black tracking-tighter text-text mb-3">
               <Clock className="w-4 h-4 text-primary" />
               সাম্প্রতিক অ্যাক্টিভিটি
             </h2>
@@ -447,11 +447,11 @@ const Dashboard = () => {
                         {subject[0]}
                       </div>
                       <div className="min-w-0 flex-1">
-                        <p className="text-xs font-black text-white truncate">{item.chapter_title}</p>
-                        <p className="text-3xs font-black uppercase tracking-wider text-white/20">{subject} Â· {timeAgo(item.created_at)}</p>
+                        <p className="text-xs font-black text-text truncate">{item.chapter_title}</p>
+                        <p className="text-3xs font-black uppercase tracking-wider text-text-dim">{subject} Â· {timeAgo(item.created_at)}</p>
                       </div>
                       <div className="text-right shrink-0">
-                        <p className="text-sm font-black text-white">{item.correct_answers}/{item.total_questions}</p>
+                        <p className="text-sm font-black text-text">{item.correct_answers}/{item.total_questions}</p>
                         <p className="text-3xs font-black uppercase text-reward">+{xp} XP</p>
                       </div>
                     </div>
@@ -461,7 +461,7 @@ const Dashboard = () => {
             ) : (
               <div className="flex flex-col items-center py-6">
                 <CheckList className="w-12 h-12 opacity-20 mb-2" />
-                <p className="text-2xs font-black uppercase tracking-wider text-white/15">কোনো সেশন নেই</p>
+                <p className="text-2xs font-black uppercase tracking-wider text-text-dim">কোনো সেশন নেই</p>
               </div>
             )}
           </div>
@@ -485,8 +485,8 @@ const Dashboard = () => {
                   </div>
                   <span className="text-3xs font-black uppercase tracking-[0.2em] text-primary">নতুন?</span>
                 </div>
-                <h2 className="text-base md:text-lg font-black text-white tracking-tighter">পড়াশোনাকে করো গেমিফাই! প্রাক্টিস করে পাও এক্সপি, স্টার, স্ট্রেক। বন্ধুদের সাথে পাল্লা দিয়ে আপগ্রেড করো তোমার লেভেল!</h2>
-                <p className="text-xs text-white/40 font-medium leading-relaxed max-w-lg">
+                <h2 className="text-base md:text-lg font-black text-text tracking-tighter">পড়াশোনাকে করো গেমিফাই! প্রাক্টিস করে পাও এক্সপি, স্টার, স্ট্রেক। বন্ধুদের সাথে পাল্লা দিয়ে আপগ্রেড করো তোমার লেভেল!</h2>
+                <p className="text-xs text-text-muted font-medium leading-relaxed max-w-lg">
                   প্রশ্ন সমাধান করে এক্সপি অর্জন করো, স্ট্রিক তৈরি করো, স্টার সংগ্রহ করো। প্রতিটি সঠিক উত্তর তোমাকে পরবর্তী লেভেলে নিয়ে যাবে।
                 </p>
               </div>
@@ -504,13 +504,13 @@ const Dashboard = () => {
                 <LottieAnimation src={speedometerAnimation} className="w-full h-full" pingPong />
               </div>
               <div className="min-w-0 flex-1 space-y-2">
-                <h2 className="text-base md:text-lg font-black text-white tracking-tighter">তোমার ড্যাসবোর্ড প্রস্তুত!</h2>
-                <p className="text-xs text-white/40 font-medium leading-relaxed max-w-lg">
+                <h2 className="text-base md:text-lg font-black text-text tracking-tighter">তোমার ড্যাসবোর্ড প্রস্তুত!</h2>
+                <p className="text-xs text-text-muted font-medium leading-relaxed max-w-lg">
                   আর মাত্র <span className="text-primary font-black">২০টি প্রশ্ন</span> সমাধান করলেই জানতে পারবে তুমি কোথায় দক্ষ, কত সময় নিচ্ছো, আর কোথায় তোমার আরো কাজ করতে হবে।
                 </p>
                 <div className="flex flex-wrap gap-1.5">
                   {['একিউরেসি', 'অ্যানালাইসিস', 'দুর্বলতা', 'কনসিস্টেন্সি'].map((tag) => (
-                    <span key={tag} className="px-2.5 py-1 rounded-lg bg-white/[0.04] text-3xs font-black uppercase tracking-wider text-white/30">
+                    <span key={tag} className="px-2.5 py-1 rounded-lg bg-surface-alt text-3xs font-black uppercase tracking-wider text-text-dim">
                       {tag}
                     </span>
                   ))}
@@ -522,7 +522,7 @@ const Dashboard = () => {
                   >
                     প্রথম প্রাক্টিস শুরু করো <ArrowRight className="w-3.5 h-3.5" />
                   </Link>
-                  <p className="text-3xs text-white/20 font-medium">
+                  <p className="text-3xs text-text-dim font-medium">
                     {statsData.totalPracticed > 0
                       ? `${statsData.totalPracticed}টি প্রশ্ন সম্পন্ন`
                       : 'এখনো কোনো প্রশ্ন করা হয়নি'}
@@ -537,7 +537,7 @@ const Dashboard = () => {
       {/* â”€â”€â”€ Exam Paths â”€â”€â”€ */}
       {availableExams.some((e) => e.active) && (
         <Motion.div variants={itemVariants}>
-          <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-white/30 mb-3">উপলব্ধ এক্সাম</h2>
+          <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim mb-3">উপলব্ধ এক্সাম</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
             {availableExams.map((exam, i) => {
               const themes = [
@@ -552,45 +552,45 @@ const Dashboard = () => {
                 <Link
                   key={exam.id}
                   to={`/practice?exam=${exam.id}`}
-                  className={`group relative rounded-xl border border-white/[0.05] bg-surface ${t.border} border-l-4 p-4 transition-all hover:-translate-y-0.5 hover:shadow-lg active:scale-[0.97] overflow-hidden`}
+                  className={`group relative rounded-xl border bg-surface ${t.border} border-l-4 p-4 transition-all hover:-translate-y-0.5 hover:shadow-lg active:scale-[0.97] overflow-hidden`}
                 >
                   <div className="flex items-start justify-between gap-3">
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-2.5 mb-1.5">
-                        <div className={`w-8 h-8 rounded-lg bg-white/[0.04] border border-white/[0.06] flex items-center justify-center ${t.accent}`}>
+                        <div className={`w-8 h-8 rounded-lg bg-surface-alt border flex items-center justify-center ${t.accent}`}>
                           <IconComp className="w-4 h-4" />
                         </div>
-                        <h3 className="text-xl md:text-2xl font-black tracking-tighter text-white">{exam.label}</h3>
+                        <h3 className="text-xl md:text-2xl font-black tracking-tighter text-text">{exam.label}</h3>
                       </div>
-                      <p className="text-2xs font-medium text-white/40 leading-relaxed line-clamp-2">{exam.note}</p>
+                      <p className="text-2xs font-medium text-text-muted leading-relaxed line-clamp-2">{exam.note}</p>
                     </div>
                     <span className={`shrink-0 px-2 py-0.5 rounded-md text-3xs font-black uppercase tracking-wider ${t.badge}`}>
                       খোলো
                     </span>
                   </div>
-                  <div className="flex items-center gap-1.5 mt-3 pt-3 border-t border-white/[0.04]">
-                    <span className="text-3xs text-white/20 font-medium">{exam.label.toLowerCase()} প্রশ্ন প্রস্তুত</span>
+                  <div className="flex items-center gap-1.5 mt-3 pt-3 border-t">
+                    <span className="text-3xs text-text-dim font-medium">{exam.label.toLowerCase()} প্রশ্ন প্রস্তুত</span>
                     <ArrowRight className={`w-3 h-3 ${t.accent} ml-auto transition-transform group-hover:translate-x-0.5`} />
                   </div>
                 </Link>
               ) : (
-                <div key={exam.id} className="relative rounded-xl border border-white/[0.04] bg-surface p-4 opacity-50 pointer-events-none">
+                <div key={exam.id} className="relative rounded-xl border bg-surface p-4 opacity-50 pointer-events-none">
                   <div className="flex items-start justify-between gap-3">
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-2.5 mb-1.5">
-                        <div className="w-8 h-8 rounded-lg bg-white/[0.03] border border-white/[0.04] flex items-center justify-center text-white/20">
+                        <div className="w-8 h-8 rounded-lg bg-surface-alt border flex items-center justify-center text-text-dim">
                           <IconComp className="w-4 h-4" />
                         </div>
-                        <h3 className="text-xl md:text-2xl font-black tracking-tighter text-white/50">{exam.label}</h3>
+                        <h3 className="text-xl md:text-2xl font-black tracking-tighter text-text-muted">{exam.label}</h3>
                       </div>
-                      <p className="text-2xs font-medium text-white/20 leading-relaxed">{exam.note}</p>
+                      <p className="text-2xs font-medium text-text-dim leading-relaxed">{exam.note}</p>
                     </div>
-                    <span className="shrink-0 px-2 py-0.5 rounded-md bg-white/[0.04] text-3xs font-black uppercase tracking-wider text-white/20">
+                    <span className="shrink-0 px-2 py-0.5 rounded-md bg-surface-alt text-3xs font-black uppercase tracking-wider text-text-dim">
                       শীঘ্রই
                     </span>
                   </div>
-                  <div className="mt-3 pt-3 border-t border-white/[0.04]">
-                    <span className="text-3xs text-white/10 font-medium">শীঘ্রই আসছে</span>
+                  <div className="mt-3 pt-3 border-t">
+                    <span className="text-3xs text-text-dim font-medium">শীঘ্রই আসছে</span>
                   </div>
                 </div>
               );
@@ -609,15 +609,15 @@ const CircularProgress = ({ value, size = 96, strokeWidth = 7, className = '' })
   return (
     <div className={`relative inline-flex items-center justify-center shrink-0 ${className}`}>
       <svg width={size} height={size} className="-rotate-90">
-        <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke="currentColor" strokeWidth={strokeWidth} className="text-white/[0.05]" />
+        <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke="currentColor" strokeWidth={strokeWidth} className="text-text-dim" />
         <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke="currentColor" strokeWidth={strokeWidth}
           strokeDasharray={circumference} strokeDashoffset={offset} strokeLinecap="round"
           className="text-primary transition-all duration-1000 ease-out"
         />
       </svg>
       <div className="absolute inset-0 flex flex-col items-center justify-center">
-        <span className="text-xl md:text-2xl font-black text-white tracking-tighter">{value}%</span>
-        <span className="text-3xs font-black uppercase tracking-[0.15em] text-white/25">একিউরেসি</span>
+        <span className="text-xl md:text-2xl font-black text-text tracking-tighter">{value}%</span>
+        <span className="text-3xs font-black uppercase tracking-[0.15em] text-text-dim">একিউরেসি</span>
       </div>
     </div>
   );
@@ -625,14 +625,14 @@ const CircularProgress = ({ value, size = 96, strokeWidth = 7, className = '' })
 
 // eslint-disable-next-line no-unused-vars -- used as JSX component
 const StatCard = ({ Icon, label, value, bgClass, iconColor }) => (
-  <div className="rounded-xl border border-white/[0.05] bg-surface p-3.5 md:p-4 transition-all hover:-translate-y-0.5 active:scale-[0.97]">
+  <div className="rounded-xl border bg-surface p-3.5 md:p-4 transition-all hover:-translate-y-0.5 active:scale-[0.97]">
     <div className="flex items-center gap-2.5">
-      <div className={`rounded-lg p-2 ${bgClass} border border-white/[0.04]`}>
+      <div className={`rounded-lg p-2 ${bgClass} border`}>
         <Icon className={`w-4 h-4 ${iconColor}`} />
       </div>
       <div className="min-w-0">
-        <p className="text-3xs font-black uppercase tracking-[0.15em] text-white/25">{label}</p>
-        <p className="text-sm md:text-base font-black text-white tracking-tight truncate">{value}</p>
+        <p className="text-3xs font-black uppercase tracking-[0.15em] text-text-dim">{label}</p>
+        <p className="text-sm md:text-base font-black text-text tracking-tight truncate">{value}</p>
       </div>
     </div>
   </div>
@@ -642,20 +642,20 @@ const StatCard = ({ Icon, label, value, bgClass, iconColor }) => (
 const ActionCard = ({ Icon, title, desc, path }) => (
   <Link
     to={path}
-    className="rounded-xl border border-white/[0.06] bg-surface p-4 transition-all hover:-translate-y-1 hover:border-primary/30 hover:shadow-xl active:scale-[0.97] group"
+    className="rounded-xl border bg-surface p-4 transition-all hover:-translate-y-1 hover:border-primary/30 hover:shadow-xl active:scale-[0.97] group"
   >
-    <div className="w-10 h-10 rounded-xl bg-white/[0.04] border border-white/[0.06] flex items-center justify-center mb-3 transition-transform group-hover:scale-110">
-      <Icon className="w-5 h-5 text-white/70" />
+    <div className="w-10 h-10 rounded-xl bg-surface-alt border flex items-center justify-center mb-3 transition-transform group-hover:scale-110">
+      <Icon className="w-5 h-5 text-text" />
     </div>
-    <h4 className="text-xs font-black text-white group-hover:text-primary transition-colors">{title}</h4>
-    <p className="text-2xs text-white/30 mt-0.5 leading-relaxed">{desc}</p>
+    <h4 className="text-xs font-black text-text group-hover:text-primary transition-colors">{title}</h4>
+    <p className="text-2xs text-text-dim mt-0.5 leading-relaxed">{desc}</p>
   </Link>
 );
 
-const StatBox = ({ label, value, accent = 'text-white' }) => (
-  <div className="rounded-xl border border-white/[0.06] bg-white/[0.02] p-3 text-center">
+const StatBox = ({ label, value, accent = 'text-text' }) => (
+  <div className="rounded-xl border bg-surface-alt p-3 text-center">
     <p className={`text-lg md:text-xl font-black tracking-tighter ${accent}`}>{value}</p>
-    <p className="text-3xs font-black uppercase tracking-[0.15em] text-white/25 mt-0.5">{label}</p>
+    <p className="text-3xs font-black uppercase tracking-[0.15em] text-text-dim mt-0.5">{label}</p>
   </div>
 );
 

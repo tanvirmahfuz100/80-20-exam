@@ -70,14 +70,14 @@ export default function Shop() {
   return (
     <div className="max-w-lg mx-auto">
       <div className="text-center mb-6">
-        <div className="inline-flex items-center gap-2 bg-white border border-wolf rounded-full px-4 py-2 mb-3">
+        <div className="inline-flex items-center gap-2 bg-surface border rounded-full px-4 py-2 mb-3">
           <ShoppingBag className="w-5 h-5 text-primary" />
-          <span className="font-bold text-sm text-charcoal">শপ</span>
+          <span className="font-bold text-sm text-text">শপ</span>
         </div>
         <div className="flex items-center justify-center gap-2">
           <Gem className="w-6 h-6 text-cyan-500" />
-          <span className="text-2xl font-black text-charcoal">{gems.toLocaleString()}</span>
-          <span className="text-sm text-hare font-medium">জেমস</span>
+          <span className="text-2xl font-black text-text">{gems.toLocaleString()}</span>
+          <span className="text-sm text-text-muted font-medium">জেমস</span>
         </div>
       </div>
 
@@ -92,8 +92,8 @@ export default function Shop() {
                 <item.icon className={`w-5 h-5 ${item.color}`} />
               </div>
               <div className="flex-1 min-w-0">
-                <h3 className="font-bold text-sm text-charcoal">{item.name}</h3>
-                <p className="text-xs text-hare font-medium mt-0.5">{item.description}</p>
+                <h3 className="font-bold text-sm text-text">{item.name}</h3>
+                <p className="text-xs text-text-muted font-medium mt-0.5">{item.description}</p>
                 {item.duration && (
                   <span className="inline-block mt-1 text-[10px] font-bold text-macaw bg-macaw/10 px-2 py-0.5 rounded-full">
                     {item.duration}
@@ -105,7 +105,7 @@ export default function Shop() {
                 disabled={gems < item.price || purchasing === item}
                 className={`shrink-0 flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-bold transition-all
                   ${gems < item.price
-                    ? 'bg-wolf/50 text-hare cursor-not-allowed'
+                    ? 'bg-wolf/50 text-text-muted cursor-not-allowed'
                     : purchasing === item
                       ? 'bg-primary text-white scale-95'
                       : 'bg-primary text-white hover:bg-primary-hover active:scale-95'

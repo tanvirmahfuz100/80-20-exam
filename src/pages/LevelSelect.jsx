@@ -117,12 +117,12 @@ const LevelSelect = () => {
 
   if (error) {
     return (
-      <div className="max-w-md mx-auto p-6 md:p-8 bg-white border border-wolf rounded-3xl text-center shadow-lg">
+      <div className="max-w-md mx-auto p-6 md:p-8 bg-surface border rounded-3xl text-center shadow-lg">
         <div className="w-14 h-14 mx-auto mb-4 rounded-2xl bg-cardinal/10 border border-cardinal/20 flex items-center justify-center">
           <Sparkles className="w-6 h-6 text-cardinal" />
         </div>
-        <h3 className="text-charcoal font-black text-xl tracking-tighter mb-2">লেভেল লোড করা যায়নি</h3>
-        <p className="text-hare font-medium leading-relaxed text-sm">{error}</p>
+        <h3 className="text-text font-black text-xl tracking-tighter mb-2">লেভেল লোড করা যায়নি</h3>
+        <p className="text-text-muted font-medium leading-relaxed text-sm">{error}</p>
         <Link to="/practice" className="mt-5 inline-flex items-center justify-center rounded-full bg-primary px-6 py-2.5 text-sm font-bold text-white transition-all hover:bg-primary-hover active:scale-95 shadow-sm">
           প্রাক্টিসে ফিরে যাও
         </Link>
@@ -141,13 +141,13 @@ const LevelSelect = () => {
         <div className="flex items-center gap-3">
           <button
             onClick={() => navigate('/practice')}
-            className="p-2 bg-white border border-wolf rounded-xl text-hare hover:text-charcoal hover:border-hare transition-all active:scale-95 shadow-sm"
+            className="p-2 bg-surface border rounded-xl text-text-muted hover:text-text hover:border-hare transition-all active:scale-95 shadow-sm"
           >
             <ArrowLeft className="w-4 h-4" />
           </button>
           <div>
-            <h1 className="text-lg md:text-2xl font-black text-charcoal tracking-tight">লেভেল</h1>
-            <p className="text-xs text-hare font-medium truncate max-w-[200px] md:max-w-xs">{title}</p>
+            <h1 className="text-lg md:text-2xl font-black text-text tracking-tight">লেভেল</h1>
+            <p className="text-xs text-text-muted font-medium truncate max-w-[200px] md:max-w-xs">{title}</p>
           </div>
         </div>
         <div className="flex items-center gap-2">
@@ -162,8 +162,8 @@ const LevelSelect = () => {
         </div>
       </div>
 
-      <div className="flex items-center gap-2 px-3 py-2 bg-white border border-wolf rounded-xl shadow-sm">
-        <div className="flex-1 h-1.5 bg-eel rounded-full overflow-hidden">
+      <div className="flex items-center gap-2 px-3 py-2 bg-surface border rounded-xl shadow-sm">
+        <div className="flex-1 h-1.5 bg-background rounded-full overflow-hidden">
           <motion.div
             className="h-full rounded-full bg-primary"
             initial={{ width: 0 }}
@@ -175,9 +175,9 @@ const LevelSelect = () => {
       </div>
 
       {totalCount === 0 && (
-        <div className="p-10 text-center border-2 border-dashed border-wolf rounded-2xl bg-white/50">
-          <BrainCircuit className="w-10 h-10 mx-auto mb-3 text-hare/30" />
-          <p className="text-hare/50 font-bold text-xs">কোনো লেভেল উপলব্ধ নয়</p>
+        <div className="p-10 text-center border-2 border-dashed border rounded-2xl bg-surface/50">
+          <BrainCircuit className="w-10 h-10 mx-auto mb-3 text-text-dim" />
+          <p className="text-text-muted font-bold text-xs">কোনো লেভেল উপলব্ধ নয়</p>
         </div>
       )}
 
@@ -191,8 +191,8 @@ const LevelSelect = () => {
             <h2 className="text-white text-base font-black mt-0.5 truncate">{title}</h2>
           </div>
           <div className="flex items-stretch">
-            <div className="w-px bg-white/20 my-3" />
-            <button className="w-12 flex items-center justify-center text-white/70 hover:text-white hover:bg-white/10 transition-all rounded-r-2xl">
+            <div className="w-px bg-surface/20 my-3" />
+            <button className="w-12 flex items-center justify-center text-white/70 hover:text-white hover:bg-surface/10 transition-all rounded-r-2xl">
               <BookOpen className="w-5 h-5" />
             </button>
           </div>
@@ -238,8 +238,8 @@ const LevelSelect = () => {
 
             if (isLocked) {
               return (
-                <div className="w-10 h-10 rounded-full bg-wolf/20 flex items-center justify-center cursor-not-allowed border border-wolf/30 opacity-40">
-                  <Lock className="w-4 h-4 text-hare/30" />
+                <div className="w-10 h-10 rounded-full bg-wolf/20 flex items-center justify-center cursor-not-allowed border opacity-40">
+                  <Lock className="w-4 h-4 text-text-dim" />
                 </div>
               );
             }
@@ -276,8 +276,8 @@ const LevelSelect = () => {
             }
 
             return (
-              <div className="w-14 h-14 rounded-full bg-white border-[3px] border-wolf flex items-center justify-center shadow-sm">
-                <span className="text-hare font-bold text-base">{level.levelNumber}</span>
+              <div className="w-14 h-14 rounded-full bg-surface border-[3px] border flex items-center justify-center shadow-sm">
+                <span className="text-text-muted font-bold text-base">{level.levelNumber}</span>
               </div>
             );
           };
@@ -287,7 +287,7 @@ const LevelSelect = () => {
             const isCurrent = idx === firstUncompletedIdx;
             return (
               <span className={`text-[10px] mt-1 font-medium truncate ${
-                isLocked ? 'text-hare/30' : isCurrent ? 'text-primary font-bold' : 'text-hare/60'
+                isLocked ? 'text-text-dim' : isCurrent ? 'text-primary font-bold' : 'text-text-muted'
               }`}>
                 {isCurrent ? 'চলুন!' : `Level ${level.levelNumber}`}
               </span>

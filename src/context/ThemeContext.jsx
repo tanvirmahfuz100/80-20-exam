@@ -49,15 +49,15 @@ const getInitialFontSize = () => {
 
 const applyTheme = (theme) => {
   if (typeof document === 'undefined') return;
-  if (theme === LIGHT) {
-    document.documentElement.setAttribute('data-theme', LIGHT);
+  if (theme === DARK) {
+    document.documentElement.setAttribute('data-theme', DARK);
   } else {
     document.documentElement.removeAttribute('data-theme');
   }
   // Update theme-color meta
   const meta = document.querySelector('meta[name="theme-color"]');
   if (meta) {
-    meta.content = theme === LIGHT ? '#F1F7FB' : '#131F24';
+    meta.content = theme === DARK ? '#131F24' : '#F1F7FB';
   }
 };
 

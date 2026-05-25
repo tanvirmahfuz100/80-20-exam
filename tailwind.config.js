@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      borderColor: {
+        DEFAULT: 'rgb(var(--color-wolf) / <alpha-value>)',
+      },
       screens: {
         xs: '375px',
         '3xl': '1920px',

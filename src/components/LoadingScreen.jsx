@@ -23,10 +23,10 @@ const LoadingScreen = ({ message = 'Loading...' }) => {
       <div className="w-28 h-28 md:w-36 md:h-36">
         <LottieAnimation src={gameControllerAnimation} className="w-full h-full" pingPong />
       </div>
-      <p className="text-white/30 font-black uppercase tracking-[0.25em] text-[10px] md:text-[11px] text-center">
+      <p className="text-text-dim font-black uppercase tracking-[0.25em] text-[10px] md:text-[11px] text-center">
         {message}
       </p>
-      <p className="text-white/50 text-sm max-w-xs text-center leading-relaxed font-medium">
+      <p className="text-text-muted text-sm max-w-xs text-center leading-relaxed font-medium">
         {tip}
       </p>
     </motion.div>

@@ -37,11 +37,11 @@ const CreativeQuestionExercise = ({ cq, onContinue, onWrongAttempt, fontSize = 1
 
   return (
     <div className="flex-1 flex flex-col min-h-0 gap-2 p-1">
-      <div className="bg-white/[0.04] border border-primary/20 rounded-xl p-3 shrink-0 overflow-y-auto max-h-[30vh]">
+      <div className="bg-surface-alt border border-primary/20 rounded-xl p-3 shrink-0 overflow-y-auto max-h-[30vh]">
         <p className="text-[9px] font-black text-primary uppercase tracking-widest mb-1.5">
           {cq.stem_label || 'উদ্দীপকটি পড়ে নিচের প্রশ্নগুলোর উত্তর দাও'}
         </p>
-        <p className="text-white/80 leading-relaxed font-medium whitespace-pre-wrap" style={{ fontSize: `${Math.max(12, fontSize - 2)}px` }}>
+        <p className="text-text leading-relaxed font-medium whitespace-pre-wrap" style={{ fontSize: `${Math.max(12, fontSize - 2)}px` }}>
           {cq.stem}
         </p>
       </div>
@@ -58,13 +58,13 @@ const CreativeQuestionExercise = ({ cq, onContinue, onWrongAttempt, fontSize = 1
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: qIdx * 0.05 }}
-              className={`bg-white/[0.03] border rounded-xl p-3 transition-colors ${
-                isChecked
-                  ? isCorrect
-                    ? 'border-emerald-500/20'
-                    : 'border-yellow-500/20'
-                  : 'border-white/10'
-              }`}
+            className={`bg-surface-alt border rounded-xl p-3 transition-colors ${
+              isChecked
+                ? isCorrect
+                  ? 'border-emerald-500/20'
+                  : 'border-yellow-500/20'
+                : 'border'
+            }`}
             >
               <div className="flex items-start gap-2 mb-2">
                 <span className={`w-6 h-6 rounded-lg flex items-center justify-center text-[9px] font-black shrink-0 border ${
@@ -98,16 +98,16 @@ const CreativeQuestionExercise = ({ cq, onContinue, onWrongAttempt, fontSize = 1
                       key={key}
                       onClick={() => handleSelect(qIdx, key)}
                       disabled={isChecked || finished}
-                      className={`w-full text-left flex items-center gap-2 px-2.5 py-1.5 rounded-lg border transition-all ${
-                        state === 'correct'
-                          ? 'bg-emerald-500/10 border-emerald-500/40 text-emerald-400'
-                          : state === 'wrong'
-                            ? 'bg-yellow-500/10 border-yellow-500/40 text-yellow-300'
-                            : state === 'selected'
-                              ? 'bg-primary/15 border-primary text-white'
-                              : state === 'dimmed'
-                                ? 'bg-white/[0.02] border-transparent opacity-30'
-                                : 'bg-white/[0.05] border-white/10 text-white/60 hover:border-white/30 hover:text-white'
+                  className={`w-full text-left flex items-center gap-2 px-2.5 py-1.5 rounded-lg border transition-all ${
+                    state === 'correct'
+                      ? 'bg-emerald-500/10 border-emerald-500/40 text-emerald-400'
+                      : state === 'wrong'
+                        ? 'bg-yellow-500/10 border-yellow-500/40 text-yellow-300'
+                        : state === 'selected'
+                          ? 'bg-primary/15 border-primary text-white'
+                          : state === 'dimmed'
+                            ? 'bg-surface-alt border-transparent opacity-30'
+                            : 'bg-surface-alt border text-text-muted hover:border-text-dim hover:text-text'
                       }`}
                     >
                       <span className={`w-5 h-5 rounded flex items-center justify-center text-[8px] font-black border shrink-0 ${
@@ -117,7 +117,7 @@ const CreativeQuestionExercise = ({ cq, onContinue, onWrongAttempt, fontSize = 1
                             ? 'bg-yellow-500 text-black border-yellow-500'
                             : state === 'selected'
                               ? 'bg-primary text-white border-primary'
-                              : 'bg-black/40 border-white/15 text-white/40'
+                              : 'bg-black/40 border text-text-dim'
                       }`}>
                         {key}
                       </span>
@@ -165,13 +165,13 @@ const CreativeQuestionExercise = ({ cq, onContinue, onWrongAttempt, fontSize = 1
                       ? checked[i] && answers[i] === questions[i]?.answer
                         ? 'bg-emerald-400'
                         : 'bg-yellow-400'
-                      : 'bg-white/10'
+                      : 'bg-surface/50'
                   }`}
                 />
               ))}
             </div>
           )}
-          <p className="text-[8px] font-bold text-white/30 tabular-nums">
+          <p className="text-[8px] font-bold text-text-dim tabular-nums">
             {Object.keys(checked).length}/{totalQ}
           </p>
         </div>
@@ -181,7 +181,7 @@ const CreativeQuestionExercise = ({ cq, onContinue, onWrongAttempt, fontSize = 1
           className={`w-full py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 ${
             allChecked
               ? 'bg-primary hover:bg-primary-hover text-white'
-              : 'bg-white/5 text-white/20 cursor-not-allowed'
+              : 'bg-surface-alt text-text-dim cursor-not-allowed'
           }`}
         >
           {allChecked ? (

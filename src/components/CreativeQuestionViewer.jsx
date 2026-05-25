@@ -8,11 +8,11 @@ const CreativeQuestionViewer = ({ cq, onContinue, fontSize = 16 }) => {
 
   return (
     <div className="flex-1 flex flex-col min-h-0 gap-2 p-1">
-      <div className="bg-white/[0.04] border border-primary/20 rounded-xl p-3 shrink-0 overflow-y-auto max-h-[30vh]">
+      <div className="bg-surface-alt border border-primary/20 rounded-xl p-3 shrink-0 overflow-y-auto max-h-[30vh]">
         <p className="text-[9px] font-black text-primary uppercase tracking-widest mb-1.5">
           {cq.stem_label || 'উদ্দীপকটি পড়ে নিচের প্রশ্নগুলোর উত্তর দাও'}
         </p>
-        <p className="text-white/80 leading-relaxed font-medium whitespace-pre-wrap" style={{ fontSize: `${Math.max(12, fontSize - 2)}px` }}>
+        <p className="text-text leading-relaxed font-medium whitespace-pre-wrap" style={{ fontSize: `${Math.max(12, fontSize - 2)}px` }}>
           {cq.stem}
         </p>
       </div>
@@ -21,13 +21,13 @@ const CreativeQuestionViewer = ({ cq, onContinue, fontSize = 16 }) => {
         {questions.map((q, qIdx) => (
           <div
             key={qIdx}
-            className="bg-white/[0.03] border border-white/10 rounded-xl p-3 space-y-2"
+            className="bg-surface-alt border rounded-xl p-3 space-y-2"
           >
             <div className="flex items-start gap-2">
               <span className="w-6 h-6 rounded-lg flex items-center justify-center text-[9px] font-black shrink-0 border bg-primary/15 text-primary border-primary/30">
                 {q.label || BengaliLabels[qIdx] || `(${qIdx + 1})`}
               </span>
-              <p className="font-bold text-white leading-snug flex-1" style={{ fontSize: `${fontSize}px` }}>
+              <p className="font-bold text-text leading-snug flex-1" style={{ fontSize: `${fontSize}px` }}>
                 {q.question}
               </p>
             </div>
@@ -36,7 +36,7 @@ const CreativeQuestionViewer = ({ cq, onContinue, fontSize = 16 }) => {
               <div className="ml-8 text-xs leading-relaxed pl-3 border-l-2 border-primary/30 bg-primary/[0.03] rounded-r-lg p-2"
                 style={{ fontSize: `${Math.max(10, fontSize - 3)}px` }}
               >
-                <p className="font-medium text-white/80 whitespace-pre-wrap">{q.model_answer}</p>
+                <p className="font-medium text-text whitespace-pre-wrap">{q.model_answer}</p>
               </div>
             )}
           </div>

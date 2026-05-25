@@ -135,13 +135,13 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
 
       <div className="flex-1 overflow-y-auto min-h-0 space-y-2.5">
         <div className="flex items-start justify-between gap-2">
-          <p className="text-white/60 font-medium leading-relaxed flex-1" style={{ fontSize: `${fontSize - 2}px` }}>
+          <p className="text-text-muted font-medium leading-relaxed flex-1" style={{ fontSize: `${fontSize - 2}px` }}>
             {questionText || 'Select one item from each column to form a correct sentence.'}
           </p>
           {selections.some(s => s !== null) && !finished && (
             <button
               onClick={handleClear}
-              className="shrink-0 p-1.5 rounded-lg text-white/30 hover:text-white hover:bg-white/10 transition-all"
+              className="shrink-0 p-1.5 rounded-lg text-text-dim hover:text-text hover:bg-surface-hover transition-all"
               aria-label="Clear all selections"
             >
               <X className="w-3.5 h-3.5" />
@@ -170,8 +170,8 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
                         selected
                           ? 'bg-primary/20 border-primary text-white ring-1 ring-primary/40'
                           : disabled
-                            ? 'bg-white/[0.02] border-white/5 text-white/15 cursor-default'
-                            : 'bg-white/[0.05] border-white/10 text-white/50 hover:border-white/30 hover:text-white hover:bg-white/[0.1]'
+                            ? 'bg-surface-alt border text-text-dim cursor-default'
+                            : 'bg-surface-alt border text-text-muted hover:border hover:text-text hover:bg-surface-hover'
                       }`}
                       style={{ fontSize: `${fontSize}px` }}
                     >
@@ -193,36 +193,36 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
             animate={{ opacity: 1, y: 0 }}
             className={`p-3 rounded-xl border ${
               !allSelected
-                ? 'bg-white/[0.03] border-dashed border-white/10'
+                ? 'bg-surface-alt border-dashed border'
                 : checked
                   ? alreadyTried
-                    ? 'bg-white/[0.03] border-dashed border-white/10'
+                    ? 'bg-surface-alt border-dashed border'
                     : isCorrect
                       ? 'bg-emerald-500/10 border-emerald-500/30'
                       : 'bg-red-500/10 border-red-500/30'
-                  : 'bg-white/5 border-white/10'
+                  : 'bg-surface-alt border'
             }`}
           >
             <div className="flex items-center justify-between mb-1">
               <p className={`text-[8px] font-black uppercase tracking-widest ${
                 checked
                   ? alreadyTried
-                    ? 'text-white/20'
+                    ? 'text-text-dim'
                     : isCorrect ? 'text-emerald-400' : 'text-red-400'
-                  : allSelected ? 'text-primary' : 'text-white/20'
+                  : allSelected ? 'text-primary' : 'text-text-dim'
               }`}>
                 {checked ? (alreadyTried ? 'Already tried' : isCorrect ? 'Correct sentence' : 'Incorrect') : allSelected ? 'Sentence preview' : 'Building...'}
               </p>
               {allSelected && !checked && (
-                <span className="text-[8px] font-bold text-white/20 uppercase tracking-wider">Tap Check below</span>
+                <span className="text-[8px] font-bold text-text-dim uppercase tracking-wider">Tap Check below</span>
               )}
             </div>
             <p className={`font-bold leading-relaxed ${
               checked
                 ? alreadyTried
-                  ? 'text-white/40'
-                  : isCorrect ? 'text-emerald-300' : 'text-red-300'
-                : 'text-white/80'
+                ? 'text-text-dim'
+                : isCorrect ? 'text-emerald-300' : 'text-red-300'
+              : 'text-text'
             }`} style={{ fontSize: `${fontSize}px` }}>
               {allSelected || selections.some(s => s !== null) ? formedSentence || 'Select items from each column...' : ''}
             </p>
@@ -250,27 +250,27 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   exit={{ opacity: 0, y: 20, scale: 0.95 }}
                   transition={{ duration: 0.25, ease: 'easeOut' }}
-                  className={`relative w-full max-w-sm bg-surface rounded-2xl p-6 shadow-2xl ${isCorrect && !alreadyTried ? 'border border-emerald-500/30' : alreadyTried ? 'border border-white/10' : 'border border-yellow-500/30'}`}
+                  className={`relative w-full max-w-sm bg-surface rounded-2xl p-6 shadow-2xl ${isCorrect && !alreadyTried ? 'border border-emerald-500/30' : alreadyTried ? 'border' : 'border border-yellow-500/30'}`}
                   onClick={e => e.stopPropagation()}
                 >
                   <div className="flex items-center gap-3 mb-3">
-                    <div className={`p-2 rounded-xl ${isCorrect && !alreadyTried ? 'bg-emerald-500/15' : alreadyTried ? 'bg-white/10' : 'bg-yellow-500/15'}`}>
+                    <div className={`p-2 rounded-xl ${isCorrect && !alreadyTried ? 'bg-emerald-500/15' : alreadyTried ? 'bg-surface-hover' : 'bg-yellow-500/15'}`}>
                       {isCorrect && !alreadyTried ? (
                         <Check className="w-5 h-5 text-emerald-400" />
                       ) : alreadyTried ? (
-                        <X className="w-5 h-5 text-white/40" />
+                        <X className="w-5 h-5 text-text-dim" />
                       ) : (
                         <X className="w-5 h-5 text-yellow-400" />
                       )}
                     </div>
                     <div>
-                      <p className={`font-black uppercase tracking-wider text-[10px] ${isCorrect && !alreadyTried ? 'text-emerald-400' : alreadyTried ? 'text-white/40' : 'text-yellow-400'}`}>
+                      <p className={`font-black uppercase tracking-wider text-[10px] ${isCorrect && !alreadyTried ? 'text-emerald-400' : alreadyTried ? 'text-text-dim' : 'text-yellow-400'}`}>
                         {alreadyTried ? 'Already Tried' : isCorrect ? 'Correct!' : 'Incorrect'}
                       </p>
-                      <p className="text-[8px] text-white/30 font-black uppercase tracking-widest mt-0.5">Explanation</p>
+                      <p className="text-[8px] text-text-dim font-black uppercase tracking-widest mt-0.5">Explanation</p>
                     </div>
                   </div>
-                  <p className={`font-medium leading-relaxed ${isBangla ? 'text-white/90' : 'text-white/70'}`} style={{ fontSize: isBangla ? '15px' : '13px' }}>
+                  <p className={`font-medium leading-relaxed ${isBangla ? 'text-text' : 'text-text-muted'}`} style={{ fontSize: isBangla ? '15px' : '13px' }}>
                     {lastExplanation}
                   </p>
                   <button
@@ -292,13 +292,13 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
               <div
                 key={i}
                 className={`w-2 h-2 rounded-full transition-all ${
-                  i < foundCount ? 'bg-emerald-400 ' : 'bg-white/10'
+                   i < foundCount ? 'bg-emerald-400 ' : 'bg-surface-hover'
                 }`}
               />
             ))}
           </div>
           <p className={`text-[9px] font-bold ${
-            allFound ? 'text-emerald-400' : 'text-white/30'
+            allFound ? 'text-emerald-400' : 'text-text-dim'
           }`}>
             {allFound
               ? `All ${foundCount} found`
@@ -323,11 +323,11 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
           disabled={!allSelected}
           className={`w-full py-3.5 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 ${
             !allSelected
-              ? 'bg-white/5 text-white/20 cursor-not-allowed'
+              ? 'bg-surface-alt text-text-dim cursor-not-allowed'
               : checked
                 ? allFound
                   ? 'bg-emerald-500 text-black hover:bg-emerald-400'
-                  : 'bg-white/10 hover:bg-white/15 text-white/80 border border-white/10'
+                  : 'bg-surface-hover hover:bg-surface-hover text-text border'
                 : 'bg-primary hover:bg-primary-hover text-white'
           }`}
         >

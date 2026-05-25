@@ -16,7 +16,7 @@ export default function QuizResultScreen({
 }) {
   const ResultCard = ({ children, levelMode }) => (
     <div className="max-w-lg mx-auto">
-      <div className="bg-white border border-wolf rounded-3xl p-6 md:p-8 shadow-lg relative overflow-hidden">
+      <div className="bg-surface border rounded-3xl p-6 md:p-8 shadow-lg relative overflow-hidden">
         <div className="relative z-10 text-center space-y-5">
           <div className="flex justify-center">
             <div className="w-20 h-20 bg-primary/10 rounded-full border-2 border-primary/20 flex items-center justify-center">
@@ -25,10 +25,10 @@ export default function QuizResultScreen({
           </div>
 
           <div>
-            <h2 className="text-2xl font-black text-charcoal tracking-tight mb-1">
+            <h2 className="text-2xl font-black text-text tracking-tight mb-1">
               {currentLevel ? `লেভেল ${currentLevel} সম্পন্ন!` : 'প্রাক্টিস সম্পন্ন!'}
             </h2>
-            <p className="text-sm text-hare font-medium truncate px-2">{title}</p>
+            <p className="text-sm text-text-muted font-medium truncate px-2">{title}</p>
           </div>
 
           {children}
@@ -40,7 +40,7 @@ export default function QuizResultScreen({
   if (currentLevel) {
     return (
       <div className="max-w-lg mx-auto">
-        <div className="bg-white border border-wolf rounded-3xl p-6 md:p-8 shadow-lg relative overflow-hidden">
+        <div className="bg-surface border rounded-3xl p-6 md:p-8 shadow-lg relative overflow-hidden">
           <div className="relative z-10 text-center space-y-5">
             <div className="flex justify-center mb-1">
               <img
@@ -51,20 +51,20 @@ export default function QuizResultScreen({
             </div>
 
             <div>
-              <h2 className="text-2xl font-black text-charcoal tracking-tight mb-1">
+              <h2 className="text-2xl font-black text-text tracking-tight mb-1">
                 লেভেল {currentLevel} সম্পন্ন!
               </h2>
-              <p className="text-sm text-hare font-medium truncate px-2">{title}</p>
+              <p className="text-sm text-text-muted font-medium truncate px-2">{title}</p>
             </div>
 
             <div className="grid grid-cols-2 gap-3">
-              <div className="bg-eel rounded-2xl p-4 border border-wolf">
-                <div className={`font-black text-xl mb-0.5 ${accuracy >= 80 ? 'text-primary' : accuracy >= 50 ? 'text-bee' : 'text-hare'}`}>{accuracy}%</div>
-                <div className="text-[9px] text-hare font-black uppercase tracking-wider">একিউরেসি</div>
+              <div className="bg-background rounded-2xl p-4 border">
+                <div className={`font-black text-xl mb-0.5 ${accuracy >= 80 ? 'text-primary' : accuracy >= 50 ? 'text-bee' : 'text-text-muted'}`}>{accuracy}%</div>
+                <div className="text-[9px] text-text-muted font-black uppercase tracking-wider">একিউরেসি</div>
               </div>
-              <div className="bg-eel rounded-2xl p-4 border border-wolf">
+              <div className="bg-background rounded-2xl p-4 border">
                 <div className="text-primary font-black text-xl mb-0.5">{score}/{totalQuestions}</div>
-                <div className="text-[9px] text-hare font-black uppercase tracking-wider">সঠিক</div>
+                <div className="text-[9px] text-text-muted font-black uppercase tracking-wider">সঠিক</div>
               </div>
             </div>
 
@@ -98,7 +98,7 @@ export default function QuizResultScreen({
             <div className="flex flex-col sm:flex-row gap-3 pt-2">
               <button
                 onClick={onGoHome}
-                className="flex-1 py-3 bg-white border border-wolf text-charcoal rounded-full font-bold text-sm hover:bg-eel transition-all active:scale-[0.97] min-h-touch flex items-center justify-center gap-2"
+                className="flex-1 py-3 bg-surface border text-text rounded-full font-bold text-sm hover:bg-background transition-all active:scale-[0.97] min-h-touch flex items-center justify-center gap-2"
               >
                 <Home className="w-4 h-4" /> হোম
               </button>
@@ -125,7 +125,7 @@ export default function QuizResultScreen({
 
   return (
     <div className="max-w-lg mx-auto">
-      <div className="bg-white border border-wolf rounded-3xl p-6 md:p-8 shadow-lg relative overflow-hidden">
+      <div className="bg-surface border rounded-3xl p-6 md:p-8 shadow-lg relative overflow-hidden">
         <div className="relative z-10 text-center space-y-5">
           <div className="flex justify-center mb-1">
             <img
@@ -136,18 +136,18 @@ export default function QuizResultScreen({
           </div>
 
           <div>
-            <h2 className="text-2xl font-black text-charcoal tracking-tight mb-1">প্রাক্টিস সম্পন্ন!</h2>
-            <p className="text-sm text-hare font-medium truncate px-2">{title}</p>
+            <h2 className="text-2xl font-black text-text tracking-tight mb-1">প্রাক্টিস সম্পন্ন!</h2>
+            <p className="text-sm text-text-muted font-medium truncate px-2">{title}</p>
           </div>
 
           <div className="grid grid-cols-3 gap-3">
-            <div className="bg-eel rounded-2xl p-4 border border-wolf">
+            <div className="bg-background rounded-2xl p-4 border">
               <div className="font-black text-xl mb-0.5" style={{ color: accuracy >= 80 ? '#93D333' : accuracy >= 50 ? '#FFC700' : '#829CAD' }}>{accuracy}%</div>
-              <div className="text-[9px] text-hare font-black uppercase tracking-wider">Accuracy</div>
+              <div className="text-[9px] text-text-muted font-black uppercase tracking-wider">Accuracy</div>
             </div>
-            <div className="bg-eel rounded-2xl p-4 border border-wolf">
+            <div className="bg-background rounded-2xl p-4 border">
               <div className="text-primary font-black text-xl mb-0.5">{score}/{totalQuestions}</div>
-              <div className="text-[9px] text-hare font-black uppercase tracking-wider">সঠিক</div>
+              <div className="text-[9px] text-text-muted font-black uppercase tracking-wider">সঠিক</div>
             </div>
             {earnedStars === 0 ? (
               <div className="bg-primary/5 rounded-2xl p-4 border border-primary/20">
@@ -166,7 +166,7 @@ export default function QuizResultScreen({
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3 pt-2">
-            <button onClick={onGoHome} className="flex-1 py-3 bg-white border border-wolf text-charcoal rounded-full font-bold text-sm hover:bg-eel transition-all active:scale-[0.97] min-h-touch flex items-center justify-center gap-2">
+            <button onClick={onGoHome} className="flex-1 py-3 bg-surface border text-text rounded-full font-bold text-sm hover:bg-background transition-all active:scale-[0.97] min-h-touch flex items-center justify-center gap-2">
               <Home className="w-4 h-4" /> হোম
             </button>
             <button onClick={onPracticeAgain} className="flex-1 py-3 bg-primary text-white rounded-full font-bold text-sm hover:bg-primary-hover active:scale-[0.97] transition-all flex items-center justify-center gap-2 min-h-touch shadow-sm">
@@ -182,7 +182,7 @@ export default function QuizResultScreen({
             )}
           </div>
           {file?.includes('model_') && (
-            <button onClick={onGoHome} className="text-[10px] font-bold text-hare hover:text-charcoal transition-colors mt-1">
+            <button onClick={onGoHome} className="text-[10px] font-bold text-text-muted hover:text-text transition-colors mt-1">
               ← সব মডেল টেস্ট
             </button>
           )}

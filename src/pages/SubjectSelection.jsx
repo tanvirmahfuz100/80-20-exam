@@ -98,7 +98,7 @@ export default function SubjectSelection() {
             animate={{ opacity: 1 }}
           >
             <motion.div
-              className="w-full max-w-sm rounded-2xl border border-white/15 bg-surface p-6"
+              className="w-full max-w-sm rounded-2xl border border bg-surface p-6"
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ type: 'spring', stiffness: 300, damping: 28 }}
@@ -108,20 +108,20 @@ export default function SubjectSelection() {
                   <AlertTriangle className="w-5 h-5 text-yellow-400" />
                 </div>
                 <div>
-                  <h3 className="text-sm font-black text-white">পরীক্ষা পরিবর্তন?</h3>
-                  <p className="text-2xs text-white/40 font-medium mt-0.5">
+                  <h3 className="text-sm font-black text-text">পরীক্ষা পরিবর্তন?</h3>
+                  <p className="text-2xs text-text-muted font-medium mt-0.5">
                     তোমার প্রোগ্রেস মুছে যাবে না
                   </p>
                 </div>
               </div>
-              <p className="text-xs text-white/50 font-medium leading-relaxed mb-5">
+              <p className="text-xs text-text-muted font-medium leading-relaxed mb-5">
                 অন্য পরীক্ষায় সুইচ করলেও তোমার কুইজ হিস্টরি, এক্সপি, স্টার এবং মিসটেক রিভিউ ডাটা
                 সম্পূর্ণ অক্ষত থাকবে। শুধু হোম স্ক্রিনের সাবজেক্ট লিস্ট পরিবর্তন হবে।
               </p>
               <div className="flex items-center gap-3">
                 <button
                   onClick={() => setMode('normal')}
-                  className="flex-1 rounded-xl border border-white/10 bg-white/[0.04] py-3 text-2xs font-black uppercase tracking-[0.15em] text-white/50 hover:text-white transition-colors"
+                  className="flex-1 rounded-xl border border bg-surface-alt py-3 text-2xs font-black uppercase tracking-[0.15em] text-text-muted hover:text-text transition-colors"
                 >
                   বাতিল
                 </button>
@@ -208,21 +208,21 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
 
   return (
     <div className="min-h-screen bg-background">
-      <div className="sticky top-0 z-30 bg-background border-b border-white/5">
+      <div className="sticky top-0 z-30 bg-background border-b border">
         <div className="flex items-center w-full">
           <button
-            className="w-[15%] flex items-center justify-center py-4 text-white/40 hover:text-white transition-colors min-h-touch"
+            className="w-[15%] flex items-center justify-center py-4 text-text-muted hover:text-text transition-colors min-h-touch"
             aria-label="Open menu"
           >
             <Menu className="w-6 h-6" />
           </button>
           <div className="w-[85%] pr-4">
-            <div className="flex items-center gap-2.5 bg-surface border border-white/10 rounded-xl px-4 py-2.5">
-              <Search className="w-4 h-4 text-white/30 shrink-0" />
+            <div className="flex items-center gap-2.5 bg-surface border border rounded-xl px-4 py-2.5">
+              <Search className="w-4 h-4 text-text-dim shrink-0" />
               <input
                 type="text"
                 placeholder="সাবজেক্ট খুঁজুন..."
-                className="bg-transparent text-sm text-white/80 placeholder:text-white/30 w-full outline-none"
+                className="bg-transparent text-sm text-text placeholder:text-text-dim w-full outline-none"
               />
             </div>
           </div>
@@ -232,15 +232,15 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
       <div className="px-4 pt-5 pb-2">
         <button
           onClick={onSwitch}
-          className="w-full flex items-center gap-3 rounded-xl border border-white/10 bg-surface px-4 py-3 transition-all hover:border-primary/30 hover:bg-white/[0.03] active:scale-[0.98]"
+          className="w-full flex items-center gap-3 rounded-xl border border bg-surface px-4 py-3 transition-all hover:border-primary/30 hover:bg-surface-hover active:scale-[0.98]"
         >
           <span className="flex-1 text-left">
-            <span className="text-3xs font-bold uppercase tracking-[0.15em] text-white/30 block mb-0.5">
+            <span className="text-3xs font-bold uppercase tracking-[0.15em] text-text-dim block mb-0.5">
               বর্তমান পাথ
             </span>
-            <span className="text-sm font-black text-white">{pathLabel}</span>
+            <span className="text-sm font-black text-text">{pathLabel}</span>
           </span>
-          <RefreshCw className="w-4 h-4 text-white/30 shrink-0" />
+          <RefreshCw className="w-4 h-4 text-text-dim shrink-0" />
         </button>
       </div>
 
@@ -261,13 +261,13 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
                 }}
                 className={`
                   flex flex-col items-center justify-center gap-2.5
-                  rounded-2xl border border-white/15 bg-surface
-                  transition-all hover:border-primary/40 hover:bg-white/[0.03]
+                  rounded-2xl border border bg-surface
+                  transition-all hover:border-primary/40 hover:bg-surface-hover
                   ${index < 2 ? 'py-10' : 'py-7'}
                 `}
               >
-                <Icon className="w-6 h-6 text-white/40" />
-                <span className="text-sm font-bold text-white/70 leading-tight">
+                <Icon className="w-6 h-6 text-text-muted" />
+                <span className="text-sm font-bold text-text leading-tight">
                   {name}
                 </span>
               </motion.button>
@@ -281,12 +281,12 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
               <Sparkles className="w-4 h-4 text-primary" />
-              <h2 className="text-base font-black text-white tracking-tight">
+              <h2 className="text-base font-black text-text tracking-tight">
                 আজকের কুইজ
               </h2>
             </div>
             {!loading && dailyQ.length > 0 && !finished && (
-              <span className="text-2xs font-bold text-white/40">
+              <span className="text-2xs font-bold text-text-muted">
                 {qIndex + 1} / {dailyQ.length}
               </span>
             )}
@@ -298,15 +298,15 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
             </div>
           ) : dailyQ.length === 0 ? (
             <div className="text-center py-6">
-              <p className="text-xs text-white/40 font-medium">আজকের জন্য কোনো প্রশ্ন উপলব্ধ নেই</p>
+              <p className="text-xs text-text-muted font-medium">আজকের জন্য কোনো প্রশ্ন উপলব্ধ নেই</p>
             </div>
           ) : finished ? (
             <div className="text-center py-4">
               <div className="w-12 h-12 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center mx-auto mb-3">
                 <Star className="w-6 h-6 text-primary" />
               </div>
-              <p className="text-sm font-black text-white mb-1">কুইজ শেষ!</p>
-              <p className="text-xs text-white/50 font-medium mb-4">
+              <p className="text-sm font-black text-text mb-1">কুইজ শেষ!</p>
+              <p className="text-xs text-text-muted font-medium mb-4">
                 {score} / {dailyQ.length} সঠিক
               </p>
               <button
@@ -318,8 +318,8 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
             </div>
           ) : currentQ ? (
             <div>
-              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-4 mb-3">
-                <p className="text-sm font-bold text-white/90 leading-relaxed">
+              <div className="bg-surface-alt border border rounded-xl p-4 mb-3">
+                <p className="text-sm font-bold text-text leading-relaxed">
                   {stripMath(currentQ.question)}
                 </p>
               </div>
@@ -345,16 +345,16 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
                       className={`w-full text-left px-4 py-3 rounded-xl border-2 transition-all flex items-center gap-3 ${
                         state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400' :
                         state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300' :
-                        state === 'selected' ? 'bg-primary/20 border-primary text-white' :
-                        state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30' :
-                        'bg-white/[0.10] border-white/20 text-white/80 hover:border-white/40 hover:bg-white/[0.16] hover:text-white'
+                        state === 'selected' ? 'bg-primary/20 border-primary text-text' :
+                        state === 'dimmed' ? 'bg-surface-alt border-transparent opacity-30' :
+                        'bg-surface-alt border text-text-muted hover:border hover:bg-surface-hover hover:text-text'
                       }`}
                     >
                       <span className={`w-7 h-7 rounded-lg flex items-center justify-center text-[11px] font-black border shrink-0 ${
                         state === 'selected' ? 'bg-primary text-white border-primary' :
                         state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
                         state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
-                        'bg-white/10 border-white/20 text-white/70'
+                        'bg-surface-alt border text-text-muted'
                       }`}>
                         {String.fromCharCode(65 + idx)}
                       </span>
@@ -373,16 +373,16 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
                     <div className="bg-emerald-500/[0.07] border border-emerald-500/20 rounded-xl p-3 mb-3">
                       <p className="text-emerald-400 text-xs font-black mb-1">✓ সঠিক</p>
                       {currentQ.explanation && (
-                        <p className="text-white/60 text-[11px] leading-relaxed">{stripMath(currentQ.explanation)}</p>
+                        <p className="text-text-muted text-[11px] leading-relaxed">{stripMath(currentQ.explanation)}</p>
                       )}
                     </div>
                   ) : (
                     <div className="bg-yellow-500/[0.07] border border-yellow-500/20 rounded-xl p-3 mb-3">
                       <p className="text-yellow-300 text-xs font-black mb-1">
-                        ✗ ভুল — সঠিক উত্তর: <span className="text-white font-bold">{currentQ.answer}</span>
+                        ✗ ভুল — সঠিক উত্তর: <span className="text-text font-bold">{currentQ.answer}</span>
                       </p>
                       {currentQ.explanation && (
-                        <p className="text-white/60 text-[11px] leading-relaxed">{stripMath(currentQ.explanation)}</p>
+                        <p className="text-text-muted text-[11px] leading-relaxed">{stripMath(currentQ.explanation)}</p>
                       )}
                     </div>
                   )}

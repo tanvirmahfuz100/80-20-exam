@@ -44,17 +44,17 @@ const ReportModal = ({ isOpen, onClose }) => {
 
     return (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-6 bg-black/85 animate-in fade-in duration-300">
-            <div className="relative w-full max-w-xl bg-surface border border-white/10 rounded-[40px] shadow-2xl overflow-hidden animate-in zoom-in-95 duration-300">
+            <div className="relative w-full max-w-xl bg-surface border rounded-[40px] shadow-2xl overflow-hidden animate-in zoom-in-95 duration-300">
                 {/* Background Glow */}
                 <div className="absolute -top-20 -right-20 w-64 h-64 bg-primary/10 blur-[100px] rounded-full pointer-events-none"></div>
 
                 <div className="relative z-10 p-10 md:p-14 space-y-8">
                     <div className="flex items-center justify-between">
                         <div>
-                            <h2 className="text-3xl font-black text-white italic tracking-tighter uppercase">সমস্যা <span className="text-primary not-italic">রিপোর্ট</span></h2>
-                            <p className="text-[10px] font-black uppercase tracking-widest text-white/20 mt-1">পার্সোনেল কমিউনিকেশন টার্মিনাল</p>
+                            <h2 className="text-3xl font-black text-text italic tracking-tighter uppercase">সমস্যা <span className="text-primary not-italic">রিপোর্ট</span></h2>
+                            <p className="text-[10px] font-black uppercase tracking-widest text-text-dim mt-1">পার্সোনেল কমিউনিকেশন টার্মিনাল</p>
                         </div>
-                        <button onClick={onClose} className="p-2 text-white/20 hover:text-white transition-colors">
+                        <button onClick={onClose} className="p-2 text-text-dim hover:text-text transition-colors">
                             <X className="w-6 h-6" />
                         </button>
                     </div>
@@ -65,8 +65,8 @@ const ReportModal = ({ isOpen, onClose }) => {
                                 <CheckCircle2 className="w-10 h-10 text-emerald-500" />
                             </div>
                             <div className="space-y-2">
-                                <h3 className="text-xl font-black text-white italic uppercase tracking-tighter">রিপোর্ট পাঠানো হয়েছে</h3>
-                                <p className="text-white/30 text-xs font-medium uppercase tracking-widest text-balance">আমাদের টিম শীঘ্রই রিপোর্ট রিভিউ করবে।</p>
+                                <h3 className="text-xl font-black text-text italic uppercase tracking-tighter">রিপোর্ট পাঠানো হয়েছে</h3>
+                                <p className="text-text-muted text-xs font-medium uppercase tracking-widest text-balance">আমাদের টিম শীঘ্রই রিপোর্ট রিভিউ করবে।</p>
                             </div>
                         </div>
                     ) : (
@@ -76,7 +76,7 @@ const ReportModal = ({ isOpen, onClose }) => {
                                 <select
                                     value={formData.subject}
                                     onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                                    className="w-full bg-background border border-white/5 p-4 rounded-2xl text-white font-bold outline-none focus:border-primary/50 transition-all appearance-none"
+                                    className="w-full bg-background border p-4 rounded-2xl text-text font-bold outline-none focus:border-primary/50 transition-all appearance-none"
                                 >
                                     <option>জেনারেল ইনকোয়ারি</option>
                                     <option>টেকনিক্যাল সমস্যা</option>
@@ -92,7 +92,7 @@ const ReportModal = ({ isOpen, onClose }) => {
                                     required
                                     value={formData.description}
                                     onChange={(e) => setFormData({ ...formData, description: e.target.value })}
-                                    className="w-full bg-background border border-white/5 p-5 rounded-2xl text-white font-medium min-h-[150px] outline-none focus:border-primary/50 transition-all text-sm leading-relaxed"
+                                    className="w-full bg-background border p-5 rounded-2xl text-text font-medium min-h-[150px] outline-none focus:border-primary/50 transition-all text-sm leading-relaxed"
                                     placeholder="বিস্তারিত লিখুন..."
                                 />
                             </div>
@@ -100,12 +100,12 @@ const ReportModal = ({ isOpen, onClose }) => {
                             <div className="space-y-2">
                                 <label className="text-[10px] font-black uppercase tracking-[0.2em] text-primary">প্রমাণ লিংক (ইমেজ ইউআরএল)</label>
                                 <div className="relative group">
-                                    <Camera className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/20 group-focus-within:text-primary transition-colors" />
+                                    <Camera className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-text-dim group-focus-within:text-primary transition-colors" />
                                     <input
                                         type="text"
                                         value={formData.image_url}
                                         onChange={(e) => setFormData({ ...formData, image_url: e.target.value })}
-                                        className="w-full bg-background border border-white/5 py-4 pl-12 pr-4 rounded-2xl text-white font-medium outline-none focus:border-primary/50 transition-all text-xs"
+                                        className="w-full bg-background border py-4 pl-12 pr-4 rounded-2xl text-text font-medium outline-none focus:border-primary/50 transition-all text-xs"
                                         placeholder="https://..."
                                     />
                                 </div>

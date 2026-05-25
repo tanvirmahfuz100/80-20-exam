@@ -263,10 +263,10 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
                       ? 'border-emerald-500/70 text-emerald-400'
                       : 'border-amber-500/70 text-amber-400'
                     : hasData && isActive
-                      ? 'border-white text-text bg-white/[0.06] rounded-t-sm'
+                      ? 'border-white text-text bg-surface-alt rounded-t-sm'
                       : hasData
-                        ? 'border-dashed border-white/30 text-text-muted hover:border-white/60'
-                        : 'border-white/10 text-text-dim/30'
+                        ? 'border-dashed border text-text-muted hover:border-text-dim'
+                        : 'border text-text-dim/30'
                   }
                 `}
               >
@@ -302,7 +302,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
           <div className="flex justify-center">
             <button
               onClick={() => onContinue(0, totalBlanks)}
-              className="px-4 py-2 text-white/40 hover:text-white/70 font-medium text-xs transition-colors active:scale-[0.97]"
+              className="px-4 py-2 text-text-muted hover:text-text font-medium text-xs transition-colors active:scale-[0.97]"
             >
               Skip
             </button>
@@ -321,10 +321,10 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
             initial={{ opacity: 0, y: -6, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ duration: 0.12 }}
-            className="-translate-x-1/2 bg-surface border border-white/10 rounded-2xl  p-1.5 overflow-hidden"
+            className="-translate-x-1/2 bg-surface border rounded-2xl  p-1.5 overflow-hidden"
             style={{ width: activePopover.width || 'auto', minWidth: 200 }}
           >
-            <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-2.5 h-2.5 bg-surface border-t border-l border-white/10 rotate-45" aria-hidden="true" />
+            <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-2.5 h-2.5 bg-surface border-t border-l rotate-45" aria-hidden="true" />
             <div className="relative pt-1">
               {getDisplayOptions(activeBlankData).map((opt, idx) => {
                 const optionText = typeof opt === 'string' ? opt : opt.text;
@@ -338,7 +338,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
                       onClick={(e) => {
                         handleOptionSelect(activePopover.blankId, optionText, isCorrect, explanationBn, explanationEn);
                       }}
-                      className="w-full text-left px-3 py-3 rounded-xl text-sm font-bold text-text-muted hover:text-text hover:bg-white/10 transition-colors min-h-touch"
+                      className="w-full text-left px-3 py-3 rounded-xl text-sm font-bold text-text-muted hover:text-text hover:bg-surface-hover transition-colors min-h-touch"
                     >
                       {optionText}
                     </button>
@@ -362,10 +362,10 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
               className="absolute bottom-0 left-0 right-0 bg-surface rounded-t-3xl shadow-2xl p-5 safe-bottom max-h-[60vh] flex flex-col"
             >
               <div className="flex items-center justify-between mb-4 shrink-0">
-                <span className="text-xs font-black uppercase tracking-widest text-white/40">
+                <span className="text-xs font-black uppercase tracking-widest text-text-muted">
                   Blank ({activePopover.blankId})
                 </span>
-                <button onClick={closePopover} className="p-1.5 text-white/40 hover:text-white" aria-label="Close">
+                <button onClick={closePopover} className="p-1.5 text-text-muted hover:text-text" aria-label="Close">
                   <X className="w-5 h-5" />
                 </button>
               </div>
@@ -382,7 +382,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
                       onClick={(e) => {
                         handleOptionSelect(activePopover.blankId, optionText, isCorrect, explanationBn, explanationEn);
                       }}
-                    className="w-full text-left px-4 py-3.5 rounded-xl text-base font-bold text-text-muted hover:text-text hover:bg-white/10 transition-colors min-h-touch border border-white/5 mb-1.5"
+                    className="w-full text-left px-4 py-3.5 rounded-xl text-base font-bold text-text-muted hover:text-text hover:bg-surface-hover transition-colors min-h-touch border mb-1.5"
                   >
                     {optionText}
                   </button>
@@ -427,7 +427,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
 
               <button
                 onClick={() => setExplanationPanel(null)}
-                className="absolute top-3 right-3 p-1.5 rounded-full text-text-dim hover:text-text hover:bg-white/10 transition-colors z-10"
+                className="absolute top-3 right-3 p-1.5 rounded-full text-text-dim hover:text-text hover:bg-surface-hover transition-colors z-10"
                 aria-label="Close explanation"
               >
                 <X size={16} />

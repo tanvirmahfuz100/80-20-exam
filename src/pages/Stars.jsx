@@ -47,8 +47,8 @@ const Stars = () => {
   return (
     <div className="max-w-3xl mx-auto space-y-6">
       <div className="grid grid-cols-2 gap-3 mb-8">
-        <div className="bg-surface border border-white/5 rounded-xl p-4">
-          <div className="text-[9px] font-black uppercase tracking-widest text-white/30 mb-1 flex items-center gap-1">
+        <div className="bg-surface border rounded-xl p-4">
+          <div className="text-[9px] font-black uppercase tracking-widest text-text-muted mb-1 flex items-center gap-1">
             <Zap className="w-3 h-3" />
             মোট এক্সপি
           </div>
@@ -56,8 +56,8 @@ const Stars = () => {
             {stats.total_xp}
           </div>
         </div>
-        <div className="bg-surface border border-white/5 rounded-xl p-4">
-          <div className="text-[9px] font-black uppercase tracking-widest text-white/30 mb-1 flex items-center gap-1">
+        <div className="bg-surface border rounded-xl p-4">
+          <div className="text-[9px] font-black uppercase tracking-widest text-text-muted mb-1 flex items-center gap-1">
             <Star className="w-3 h-3" />
             রিভিউ বাকি
           </div>
@@ -65,8 +65,8 @@ const Stars = () => {
             {totalMistakes}
           </div>
         </div>
-        <div className="bg-surface border border-white/5 rounded-xl p-4">
-          <div className="text-[9px] font-black uppercase tracking-widest text-white/30 mb-1 flex items-center gap-1">
+        <div className="bg-surface border rounded-xl p-4">
+          <div className="text-[9px] font-black uppercase tracking-widest text-text-muted mb-1 flex items-center gap-1">
             <Clock className="w-3 h-3" />
             আজকে
           </div>
@@ -74,12 +74,12 @@ const Stars = () => {
             {totalDue}
           </div>
         </div>
-        <div className="bg-surface border border-white/5 rounded-xl p-4">
-          <div className="text-[9px] font-black uppercase tracking-widest text-white/30 mb-1 flex items-center gap-1">
+        <div className="bg-surface border rounded-xl p-4">
+          <div className="text-[9px] font-black uppercase tracking-widest text-text-muted mb-1 flex items-center gap-1">
             <BookOpen className="w-3 h-3" />
             সর্বকালের স্টার
           </div>
-          <div className="text-2xl font-black tracking-tighter text-white/60">
+          <div className="text-2xl font-black tracking-tighter text-text">
             {stats.total_stars}
           </div>
         </div>
@@ -87,11 +87,11 @@ const Stars = () => {
 
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl md:text-3xl font-black text-white tracking-tighter flex items-center gap-3">
+          <h1 className="text-2xl md:text-3xl font-black text-text tracking-tighter flex items-center gap-3">
             <Star className="w-6 h-6 text-yellow-300 fill-yellow-300/30" />
             স্টার রিভিউ
           </h1>
-          <p className="text-white/40 text-sm font-medium mt-1">
+          <p className="text-text-muted text-sm font-medium mt-1">
             {totalDue > 0
               ? `${totalDue}টি প্রশ্ন রিভিউ করার বাকি`
               : 'সব রিভিউ করা হয়েছে! কোনো ভুল নেই।'}
@@ -114,7 +114,7 @@ const Stars = () => {
           {groups.map((group) => (
             <div
               key={group.stage}
-              className={`bg-surface border border-white/5 rounded-2xl p-4 text-center transition-all ${
+              className={`bg-surface border rounded-2xl p-4 text-center transition-all ${
                 group.dueNow > 0 ? 'hover:border-primary/30' : ''
               }`}
             >
@@ -123,8 +123,8 @@ const Stars = () => {
               }`}>
                 {group.dueNow}
               </p>
-              <p className="text-[9px] font-black uppercase tracking-widest text-white/30 mt-1">{group.label}</p>
-              <p className="text-[8px] text-white/20 mt-0.5">/ {group.total} total</p>
+              <p className="text-[9px] font-black uppercase tracking-widest text-text-muted mt-1">{group.label}</p>
+              <p className="text-[8px] text-text-dim mt-0.5">/ {group.total} total</p>
             </div>
           ))}
         </div>
@@ -134,7 +134,7 @@ const Stars = () => {
         {groups.map((group) => (
           <div
             key={group.stage}
-            className="bg-surface border border-white/5 rounded-2xl p-5 md:p-6 transition-all hover:border-white/10"
+            className="bg-surface border rounded-2xl p-5 md:p-6 transition-all hover:border"
           >
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center gap-3">
@@ -146,20 +146,20 @@ const Stars = () => {
                   <Star className="w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-white font-black text-base">{group.label}</p>
-                  <p className="text-white/20 text-[9px] font-black uppercase tracking-widest">{group.desc}</p>
+                  <p className="text-text font-black text-base">{group.label}</p>
+                  <p className="text-text-dim text-[9px] font-black uppercase tracking-widest">{group.desc}</p>
                 </div>
               </div>
               <div className="text-right">
-                <p className="text-white font-black text-xl">
+                <p className="text-text font-black text-xl">
                   {group.dueNow > 0 ? (
                     <span className="text-yellow-300">{group.dueNow}</span>
                   ) : (
                     <span className="text-emerald-400">{group.dueNow}</span>
                   )}
-                  <span className="text-white/30 text-base">/{group.total}</span>
+                  <span className="text-text-muted text-base">/{group.total}</span>
                 </p>
-                <p className="text-white/20 text-[9px] font-black uppercase tracking-widest">বাকি/মোট</p>
+                <p className="text-text-dim text-[9px] font-black uppercase tracking-widest">বাকি/মোট</p>
               </div>
             </div>
 
@@ -170,7 +170,7 @@ const Stars = () => {
                 className={`w-full py-3.5 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all flex items-center justify-center gap-2 ${
                   group.dueNow > 0
                     ? 'bg-primary text-white hover:bg-primary-hover active:scale-[0.98]'
-                    : 'bg-white/5 text-white/20 cursor-not-allowed'
+                    : 'bg-surface-alt text-text-dim cursor-not-allowed'
                 }`}
               >
                 {group.dueNow > 0 ? (
@@ -184,15 +184,15 @@ const Stars = () => {
         ))}
 
         {totalMistakes === 0 && (
-          <div className="text-center py-16 bg-surface border border-white/5 rounded-2xl">
-            <Star className="w-16 h-16 text-white/10 mx-auto mb-4" />
-            <p className="text-white/30 font-black uppercase tracking-widest text-[10px]">এখনো কোনো ভুল নেই</p>
-            <p className="text-white/10 text-sm mt-2 font-medium">প্রাক্টিস করতে থাকো, রিভিউ লিস্ট তৈরি হবে</p>
+          <div className="text-center py-16 bg-surface border rounded-2xl">
+            <Star className="w-16 h-16 text-text-dim mx-auto mb-4" />
+            <p className="text-text-muted font-black uppercase tracking-widest text-[10px]">এখনো কোনো ভুল নেই</p>
+            <p className="text-text-dim text-sm mt-2 font-medium">প্রাক্টিস করতে থাকো, রিভিউ লিস্ট তৈরি হবে</p>
           </div>
         )}
       </div>
 
-      <div className="flex items-center gap-2 text-[9px] font-black uppercase tracking-widest text-white/20 px-1">
+      <div className="flex items-center gap-2 text-[9px] font-black uppercase tracking-widest text-text-dim px-1">
         <Clock className="w-3 h-3" />
         স্পেসড রিপিটিশন: আজকে &rarr; ৩ দিন পর &rarr; ৭ দিন পর &rarr; ১৪ দিন পর &rarr; ৩০ দিন পর
       </div>

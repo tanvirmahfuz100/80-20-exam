@@ -11,7 +11,7 @@ export default function ConfirmDialog({ show, title, message, confirmLabel, canc
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 40 }}
         transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-        className="relative w-full sm:max-w-sm bg-surface border border-white/10 rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
+        className="relative w-full sm:max-w-sm bg-surface border rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
         onClick={e => e.stopPropagation()}
       >
         <div className="flex items-start gap-3">
@@ -22,14 +22,14 @@ export default function ConfirmDialog({ show, title, message, confirmLabel, canc
             }
           </div>
           <div className="min-w-0 flex-1">
-            <h3 className="text-sm font-black text-white uppercase tracking-wider">{title}</h3>
-            <p className="text-[11px] text-white/50 font-medium mt-1 leading-relaxed">{message}</p>
+            <h3 className="text-sm font-black text-text uppercase tracking-wider">{title}</h3>
+            <p className="text-[11px] text-text-muted font-medium mt-1 leading-relaxed">{message}</p>
           </div>
         </div>
         <div className="flex gap-2">
           <button
             onClick={onCancel}
-            className="flex-1 py-3 bg-white/5 hover:bg-white/10 text-white/70 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] border border-white/10"
+            className="flex-1 py-3 bg-surface-alt hover:bg-surface-alt text-text rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] border"
           >
             {cancelLabel || 'Cancel'}
           </button>

@@ -50,28 +50,28 @@ function SubjectNode({ subject, index, total, isCompleted, isCurrent, isLocked, 
       disabled={isLocked}
       className={`relative flex items-center gap-4 w-full p-4 rounded-2xl border-2 transition-all text-left
         ${isLocked
-          ? 'bg-white/50 border-wolf opacity-50 cursor-not-allowed'
+          ? 'bg-surface/50 border opacity-50 cursor-not-allowed'
           : isCompleted
             ? 'bg-primary/5 border-primary/30 hover:border-primary'
             : isCurrent
               ? 'bg-primary/10 border-primary shadow-lg shadow-primary/10 hover:shadow-xl hover:shadow-primary/15'
-              : 'bg-white border-wolf hover:border-primary/50 hover:shadow-md'
+              : 'bg-surface border hover:border-primary/50 hover:shadow-md'
         }`}
       whileHover={!isLocked ? { scale: 1.01 } : {}}
       whileTap={!isLocked ? { scale: 0.99 } : {}}
     >
       <div className={`relative w-12 h-12 rounded-xl flex items-center justify-center shrink-0
         ${isLocked
-          ? 'bg-wolf/50'
+          ? 'bg-surface-hover'
           : isCompleted
             ? 'bg-primary'
             : isCurrent
               ? 'bg-primary'
-              : 'bg-wolf/30'
+              : 'bg-surface-hover'
         }`}
       >
         {isLocked ? (
-          <Lock className="w-5 h-5 text-hare" />
+          <Lock className="w-5 h-5 text-text-muted" />
         ) : isCompleted ? (
           <CheckCircle2 className="w-6 h-6 text-white" />
         ) : (
@@ -83,18 +83,18 @@ function SubjectNode({ subject, index, total, isCompleted, isCurrent, isLocked, 
       </div>
       <div className="flex-1 min-w-0">
         <p className={`font-bold text-sm md:text-base truncate
-          ${isLocked ? 'text-hare' : 'text-charcoal'}`}
+          ${isLocked ? 'text-text-muted' : 'text-text'}`}
         >
           {subject}
         </p>
         <p className={`text-xs font-medium mt-0.5
-          ${isLocked ? 'text-hare/60' : isCompleted ? 'text-primary' : 'text-hare'}`}
+          ${isLocked ? 'text-text-muted/60' : isCompleted ? 'text-primary' : 'text-text-muted'}`}
         >
           {isLocked ? 'লকড' : isCompleted ? 'সম্পন্ন' : 'শুরু করুন'}
         </p>
       </div>
       {!isLocked && (
-        <ChevronRight className={`w-5 h-5 shrink-0 ${isCompleted ? 'text-primary' : 'text-hare'}`} />
+        <ChevronRight className={`w-5 h-5 shrink-0 ${isCompleted ? 'text-primary' : 'text-text-muted'}`} />
       )}
     </motion.button>
   );
@@ -139,8 +139,8 @@ function DailyQuestCard() {
             <Target className="w-5 h-5 text-white" />
           </div>
           <div>
-            <h3 className="font-black text-sm text-charcoal">আজকের কুইজ</h3>
-            <p className="text-xs text-hare font-medium mt-0.5">
+            <h3 className="font-black text-sm text-text">আজকের কুইজ</h3>
+            <p className="text-xs text-text-muted font-medium mt-0.5">
               {dailyQuestions.length}টি প্রশ্ন
             </p>
           </div>
@@ -161,13 +161,13 @@ function StatsBar() {
   const stars = getMistakesDueCount();
   return (
     <div className="flex items-center gap-3">
-      <div className="flex items-center gap-1.5 bg-white border border-wolf rounded-xl px-3 py-1.5">
+      <div className="flex items-center gap-1.5 bg-surface border border rounded-xl px-3 py-1.5">
         <Flame className="w-4 h-4 text-orange-500" />
-        <span className="text-sm font-black text-charcoal">0</span>
+        <span className="text-sm font-black text-text">0</span>
       </div>
-      <div className="flex items-center gap-1.5 bg-white border border-wolf rounded-xl px-3 py-1.5">
+      <div className="flex items-center gap-1.5 bg-surface border border rounded-xl px-3 py-1.5">
         <Star className="w-4 h-4 text-yellow-500 fill-yellow-500/30" />
-        <span className="text-sm font-black text-charcoal">{stars}</span>
+        <span className="text-sm font-black text-text">{stars}</span>
       </div>
     </div>
   );
@@ -212,7 +212,7 @@ export default function Learn() {
       <div className="max-w-lg mx-auto py-4">
         <button
           onClick={() => setMode('normal')}
-          className="flex items-center gap-2 text-sm font-bold text-hare hover:text-charcoal mb-4 transition-all"
+          className="flex items-center gap-2 text-sm font-bold text-text-muted hover:text-text mb-4 transition-all"
         >
           <ChevronRight className="w-4 h-4 rotate-180" />
           ফিরে যান
@@ -226,14 +226,14 @@ export default function Learn() {
     <div className="max-w-lg mx-auto">
       <div className="flex items-center justify-between mb-4">
         <div>
-          <h1 className="text-lg font-black text-charcoal">তোমার কোর্স</h1>
-          <p className="text-sm text-hare font-medium mt-0.5">{pathLabel}</p>
+          <h1 className="text-lg font-black text-text">তোমার কোর্স</h1>
+          <p className="text-sm text-text-muted font-medium mt-0.5">{pathLabel}</p>
         </div>
         <div className="flex items-center gap-2">
           <StatsBar />
           <button
             onClick={() => setMode('selector')}
-            className="px-3 py-1.5 bg-white border border-wolf rounded-full text-xs font-bold text-hare hover:text-charcoal hover:border-hare transition-all"
+            className="px-3 py-1.5 bg-surface border border rounded-full text-xs font-bold text-text-muted hover:text-text hover:border transition-all"
           >
             সুইচ
           </button>
@@ -244,8 +244,8 @@ export default function Learn() {
 
       <div className="mt-6">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="font-black text-sm text-charcoal">সাবজেক্ট সমূহ</h2>
-          <span className="text-xs text-hare font-bold">{subjects.length}টি সাবজেক্ট</span>
+          <h2 className="font-black text-sm text-text">সাবজেক্ট সমূহ</h2>
+          <span className="text-xs text-text-muted font-bold">{subjects.length}টি সাবজেক্ট</span>
         </div>
 
         <AnimatePresence>
@@ -285,8 +285,8 @@ export default function Learn() {
         <div className="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center mx-auto mb-3">
           <Sparkles className="w-6 h-6 text-white" />
         </div>
-        <h3 className="font-black text-sm text-charcoal mb-1">পড়াশোনাকে করো গেমিফাই!</h3>
-        <p className="text-xs text-hare font-medium mb-3">প্রতিদিন প্রাক্টিস করো, জিতো এক্সপি ও জেমস</p>
+        <h3 className="font-black text-sm text-text mb-1">পড়াশোনাকে করো গেমিফাই!</h3>
+        <p className="text-xs text-text-muted font-medium mb-3">প্রতিদিন প্রাক্টিস করো, জিতো এক্সপি ও জেমস</p>
         <button
           onClick={() => navigate('/practice')}
           className="bg-primary text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-primary-hover transition-all active:scale-95 inline-flex items-center gap-2"

@@ -63,8 +63,8 @@ const Admin = () => {
     return (
         <div className="max-w-5xl mx-auto space-y-4 md:space-y-8">
             <div>
-                <h1 className="text-xl md:text-4xl font-black text-white tracking-tighter uppercase">Local Admin Studio</h1>
-                <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-[10px] mt-1 md:mt-2">Testing mode: all writes go to browser localStorage</p>
+                <h1 className="text-xl md:text-4xl font-black text-text tracking-tighter uppercase">Local Admin Studio</h1>
+                <p className="text-text-dim font-bold uppercase tracking-widest text-[9px] md:text-[10px] mt-1 md:mt-2">Testing mode: all writes go to browser localStorage</p>
             </div>
 
             {message.text && (
@@ -78,23 +78,23 @@ const Admin = () => {
             )}
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6">
-                <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl p-5 md:p-6 space-y-3 md:space-y-4">
-                    <h2 className="text-white font-black uppercase tracking-widest text-xs flex items-center gap-2"><Plus className="w-4 h-4" /> Add Course</h2>
+                <div className="bg-surface border rounded-2xl md:rounded-3xl p-5 md:p-6 space-y-3 md:space-y-4">
+                    <h2 className="text-text font-black uppercase tracking-widest text-xs flex items-center gap-2"><Plus className="w-4 h-4" /> Add Course</h2>
                     <input
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
+                        className="w-full bg-background border rounded-xl p-3 text-text text-sm"
                         placeholder="Course title"
                         value={courseData.title}
                         onChange={(e) => setCourseData({ ...courseData, title: e.target.value })}
                     />
                     <textarea
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
+                        className="w-full bg-background border rounded-xl p-3 text-text text-sm"
                         placeholder="Description"
                         rows={3}
                         value={courseData.description}
                         onChange={(e) => setCourseData({ ...courseData, description: e.target.value })}
                     />
                     <input
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
+                        className="w-full bg-background border rounded-xl p-3 text-text text-sm"
                         placeholder="Instructor"
                         value={courseData.instructor_name}
                         onChange={(e) => setCourseData({ ...courseData, instructor_name: e.target.value })}
@@ -108,16 +108,16 @@ const Admin = () => {
                     </button>
                 </div>
 
-                <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl p-5 md:p-6 space-y-3 md:space-y-4">
-                    <h2 className="text-white font-black uppercase tracking-widest text-xs flex items-center gap-2"><Video className="w-4 h-4" /> Add Video</h2>
+                <div className="bg-surface border rounded-2xl md:rounded-3xl p-5 md:p-6 space-y-3 md:space-y-4">
+                    <h2 className="text-text font-black uppercase tracking-widest text-xs flex items-center gap-2"><Video className="w-4 h-4" /> Add Video</h2>
                     <input
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
+                        className="w-full bg-background border rounded-xl p-3 text-text text-sm"
                         placeholder="Video title"
                         value={videoData.title}
                         onChange={(e) => setVideoData({ ...videoData, title: e.target.value })}
                     />
                     <input
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
+                        className="w-full bg-background border rounded-xl p-3 text-text text-sm"
                         placeholder="Video URL"
                         value={videoData.video_url}
                         onChange={(e) => setVideoData({ ...videoData, video_url: e.target.value })}
@@ -131,24 +131,24 @@ const Admin = () => {
                     </button>
                 </div>
 
-                <div className="bg-surface border border-white/5 rounded-2xl md:rounded-3xl p-5 md:p-6 space-y-3 md:space-y-4">
-                    <h2 className="text-white font-black uppercase tracking-widest text-xs flex items-center gap-2"><ClipboardList className="w-4 h-4" /> Add Mock Test</h2>
+                <div className="bg-surface border rounded-2xl md:rounded-3xl p-5 md:p-6 space-y-3 md:space-y-4">
+                    <h2 className="text-text font-black uppercase tracking-widest text-xs flex items-center gap-2"><ClipboardList className="w-4 h-4" /> Add Mock Test</h2>
                     <input
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
+                        className="w-full bg-background border rounded-xl p-3 text-text text-sm"
                         placeholder="Mock title"
                         value={mockData.title}
                         onChange={(e) => setMockData({ ...mockData, title: e.target.value })}
                     />
                     <input
                         type="number"
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
+                        className="w-full bg-background border rounded-xl p-3 text-text text-sm"
                         placeholder="Duration"
                         value={mockData.duration_minutes}
                         onChange={(e) => setMockData({ ...mockData, duration_minutes: Number(e.target.value) })}
                     />
                     <input
                         type="number"
-                        className="w-full bg-background border border-white/5 rounded-xl p-3 text-white text-sm"
+                        className="w-full bg-background border rounded-xl p-3 text-text text-sm"
                         placeholder="Questions"
                         value={mockData.total_questions}
                         onChange={(e) => setMockData({ ...mockData, total_questions: Number(e.target.value) })}

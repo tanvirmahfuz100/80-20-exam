@@ -26,26 +26,26 @@ const VocabPopup = ({ vocab, onClose }) => {
         animate={{ opacity: 1, y: 0, scale: 1 }}
         exit={{ opacity: 0, y: 20, scale: 0.95 }}
         transition={{ duration: 0.2, ease: 'easeOut' }}
-        className="relative w-full max-w-sm bg-surface border border-white/10 rounded-2xl p-5 shadow-2xl space-y-3"
+        className="relative w-full max-w-sm bg-surface border rounded-2xl p-5 shadow-2xl space-y-3"
         onClick={e => e.stopPropagation()}
       >
-        <button onClick={onClose} className="absolute top-3 right-3 p-1 rounded-full text-white/30 hover:text-white hover:bg-white/10 transition-colors">
+        <button onClick={onClose} className="absolute top-3 right-3 p-1 rounded-full text-text-dim hover:text-text hover:bg-surface-hover transition-colors">
           <X size={16} />
         </button>
         <div className="pr-6">
-          <p className="text-lg font-black text-white mb-1" style={{ fontSize: '18px' }}>{vocab.word}</p>
-          {vocab.pos && <span className="text-[9px] font-black text-white/30 uppercase tracking-widest">({vocab.pos})</span>}
+          <p className="text-lg font-black text-text mb-1" style={{ fontSize: '18px' }}>{vocab.word}</p>
+          {vocab.pos && <span className="text-[9px] font-black text-text-dim uppercase tracking-widest">({vocab.pos})</span>}
         </div>
         {vocab.meaning_bn && (
           <div>
-            <p className="text-[9px] font-black text-white/40 uppercase tracking-wider mb-0.5">বাংলা অর্থ</p>
-            <p className="text-white/90 font-medium leading-relaxed" style={{ fontSize: '14px' }}>{vocab.meaning_bn}</p>
+            <p className="text-[9px] font-black text-text-dim uppercase tracking-wider mb-0.5">বাংলা অর্থ</p>
+            <p className="text-text font-medium leading-relaxed" style={{ fontSize: '14px' }}>{vocab.meaning_bn}</p>
           </div>
         )}
         {vocab.meaning_en && (
           <div>
-            <p className="text-[9px] font-black text-white/40 uppercase tracking-wider mb-0.5">English Meaning</p>
-            <p className="text-white/70 font-medium leading-relaxed" style={{ fontSize: '13px' }}>{vocab.meaning_en}</p>
+            <p className="text-[9px] font-black text-text-dim uppercase tracking-wider mb-0.5">English Meaning</p>
+            <p className="text-text-muted font-medium leading-relaxed" style={{ fontSize: '13px' }}>{vocab.meaning_en}</p>
           </div>
         )}
         <div className="grid grid-cols-2 gap-2 pt-1">
@@ -105,7 +105,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
 
   const chapter = chapters[currentIdx];
   const isLast = currentIdx === chapters.length - 1;
-  const config = typeConfig[chapter?.type] || { icon: BookOpen, color: 'text-white', bg: 'bg-white/10', border: 'border-white/10' };
+  const config = typeConfig[chapter?.type] || { icon: BookOpen, color: 'text-text', bg: 'bg-surface-alt', border: 'border' };
   const Icon = config.icon;
 
   const resetChapter = useCallback(() => {
@@ -277,8 +277,8 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
               : state === 'selected'
                 ? 'bg-primary/20 border-primary/50 text-white ring-1 ring-primary/40'
                 : state === 'dimmed'
-                  ? 'bg-white/[0.02] border-white/5 text-white/15'
-                  : 'bg-white/[0.04] border-white/10 text-white/70 hover:bg-white/[0.08] hover:border-white/30'
+                  ? 'bg-surface-alt border text-text-dim'
+                  : 'bg-surface-alt border text-text-muted hover:bg-surface-hover hover:border-text-muted'
         }`}
         style={{ fontSize: `${fontSize}px` }}
       >
@@ -306,7 +306,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
             className="space-y-2"
           >
             <div className="flex items-center justify-between">
-              <span className="text-[9px] font-black text-white/30 uppercase tracking-wider">
+              <span className="text-[9px] font-black text-text-dim uppercase tracking-wider">
                 Question {mcqIndex + 1} of {allQuestions.length}
               </span>
               <div className="flex items-center gap-1">
@@ -316,14 +316,14 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
                 <span className="text-[10px] font-black tabular-nums text-emerald-400">
                   {mcqIndex + (isAnswered ? 1 : 0)}
                 </span>
-                <span className="text-[9px] text-white/20">/</span>
-                <span className="text-[10px] font-black tabular-nums text-white/40">
+                <span className="text-[9px] text-text-dim">/</span>
+                <span className="text-[10px] font-black tabular-nums text-text-dim">
                   {allQuestions.length}
                 </span>
               </div>
             </div>
-            <div className="bg-white/[0.04] border border-white/[0.06] rounded-xl p-3">
-              <p className="font-black text-white leading-snug" style={{ fontSize: `${fontSize}px` }}>
+            <div className="bg-surface-alt border rounded-xl p-3">
+              <p className="font-black text-text leading-snug" style={{ fontSize: `${fontSize}px` }}>
                 {q.question}
               </p>
             </div>
@@ -340,7 +340,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
                 initial={{ opacity: 0, y: 12 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -8 }}
-                className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-2"
+                className="p-4 rounded-xl bg-surface-alt border space-y-2"
               >
                 {selectedOption !== undefined && selectedOption !== null && selectedOption === q.correct && (
                   <div className="flex items-center gap-2 mb-1">
@@ -352,14 +352,14 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
                 )}
                 {q.explanation_bn && (
                   <div>
-                    <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-0.5">বাংলা ব্যাখ্যা</p>
-                    <p className="text-white/80 font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>{q.explanation_bn}</p>
+                    <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-0.5">বাংলা ব্যাখ্যা</p>
+                    <p className="text-text font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>{q.explanation_bn}</p>
                   </div>
                 )}
                 {q.explanation_en && (
                   <div>
-                    <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-0.5">English Explanation</p>
-                    <p className="text-white/60 font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>{q.explanation_en}</p>
+                    <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-0.5">English Explanation</p>
+                    <p className="text-text-muted font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>{q.explanation_en}</p>
                   </div>
                 )}
               </motion.div>
@@ -402,10 +402,10 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
             <Icon className={`w-4 h-4 ${config.color}`} />
           </div>
           <div className="min-w-0 flex-1">
-            <p className="text-[9px] font-black text-white/30 uppercase tracking-widest">
+            <p className="text-[9px] font-black text-text-dim uppercase tracking-widest">
               Chapter {chapterProgress} of {chapterTotal}
             </p>
-            <p className="text-sm font-black text-white truncate" style={{ fontSize: `${fontSize + 2}px` }}>
+            <p className="text-sm font-black text-text truncate" style={{ fontSize: `${fontSize + 2}px` }}>
               {chapter.name}
             </p>
           </div>
@@ -422,7 +422,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
                     ? 'bg-emerald-500'
                     : isCurrent
                       ? 'bg-primary'
-                      : 'bg-white/10'
+                      : 'bg-surface-alt'
                 }`}
               />
             );
@@ -434,12 +434,12 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
         {chapter.type === 'passage_mcq' && phase === 'passage' && (
           <div className="flex-1 flex flex-col min-h-0 gap-2.5">
             <div className="flex-1 overflow-y-auto min-h-0 space-y-3 px-0.5">
-              <p className="text-white/80 font-medium leading-relaxed whitespace-pre-wrap" style={{ fontSize: `${fontSize}px` }}>
+              <p className="text-text font-medium leading-relaxed whitespace-pre-wrap" style={{ fontSize: `${fontSize}px` }}>
                 {currentPassage}
               </p>
               {currentVocab.length > 0 && (
                 <div>
-                  <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-1.5">Vocabulary</p>
+                  <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-1.5">Vocabulary</p>
                   <div className="flex flex-wrap gap-1.5">
                     {currentVocab.map((v, i) => (
                       <VocabChip key={i} vocab={v} onClick={setActiveVocab} />
@@ -448,9 +448,9 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
                 </div>
               )}
               {currentTranslation && (
-                <div className="p-3 rounded-xl bg-white/5 border border-white/10">
-                  <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-1">বাংলা অনুবাদ</p>
-                  <p className="text-white/70 font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>
+                <div className="p-3 rounded-xl bg-surface-alt border">
+                  <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-1">বাংলা অনুবাদ</p>
+                  <p className="text-text-muted font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>
                     {currentTranslation}
                   </p>
                 </div>
@@ -470,12 +470,12 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
         {chapter.type === 'passage_summary' && phase === 'passage' && (
           <div className="flex-1 flex flex-col min-h-0 gap-2.5">
             <div className="flex-1 overflow-y-auto min-h-0 space-y-3 px-0.5">
-              <p className="text-white/80 font-medium leading-relaxed whitespace-pre-wrap" style={{ fontSize: `${fontSize}px` }}>
+              <p className="text-text font-medium leading-relaxed whitespace-pre-wrap" style={{ fontSize: `${fontSize}px` }}>
                 {currentPassage}
               </p>
               {currentVocab.length > 0 && (
                 <div>
-                  <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-1.5">Vocabulary</p>
+                  <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-1.5">Vocabulary</p>
                   <div className="flex flex-wrap gap-1.5">
                     {currentVocab.map((v, i) => (
                       <VocabChip key={i} vocab={v} onClick={setActiveVocab} />
@@ -484,9 +484,9 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
                 </div>
               )}
               {currentTranslation && (
-                <div className="p-3 rounded-xl bg-white/5 border border-white/10">
-                  <p className="text-[8px] font-black text-white/30 uppercase tracking-wider mb-1">বাংলা অনুবাদ</p>
-                  <p className="text-white/70 font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>
+                <div className="p-3 rounded-xl bg-surface-alt border">
+                  <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-1">বাংলা অনুবাদ</p>
+                  <p className="text-text-muted font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>
                     {currentTranslation}
                   </p>
                 </div>
@@ -507,7 +507,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
           <div className="flex-1 flex flex-col min-h-0">
             <button
               onClick={() => setShowPassage(v => !v)}
-              className="shrink-0 self-start mb-2 flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-white/60 hover:text-white/80 transition-all text-[10px] font-bold uppercase tracking-wider"
+              className="shrink-0 self-start mb-2 flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-alt hover:bg-surface-hover border text-text-muted hover:text-text transition-all text-[10px] font-bold uppercase tracking-wider"
             >
               <BookOpen className="w-3 h-3" />
               {showPassage ? 'Hide Passage' : 'See Passage'}
@@ -521,8 +521,8 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
                   transition={{ duration: 0.2 }}
                   className="overflow-hidden shrink-0"
                 >
-                  <div className="mb-3 p-3 rounded-xl bg-white/[0.03] border border-white/10 max-h-48 overflow-y-auto">
-                    <p className="text-white/70 font-medium leading-relaxed whitespace-pre-wrap text-[13px]">
+                  <div className="mb-3 p-3 rounded-xl bg-surface-alt border max-h-48 overflow-y-auto">
+                    <p className="text-text-muted font-medium leading-relaxed whitespace-pre-wrap text-[13px]">
                       {currentPassage}
                     </p>
                   </div>
@@ -537,7 +537,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
           <div className="flex-1 flex flex-col min-h-0">
             <button
               onClick={() => setShowPassage(v => !v)}
-              className="shrink-0 self-start mb-2 flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-white/60 hover:text-white/80 transition-all text-[10px] font-bold uppercase tracking-wider"
+              className="shrink-0 self-start mb-2 flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-alt hover:bg-surface-hover border text-text-muted hover:text-text transition-all text-[10px] font-bold uppercase tracking-wider"
             >
               <BookOpen className="w-3 h-3" />
               {showPassage ? 'Hide Passage' : 'See Passage'}
@@ -551,8 +551,8 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
                   transition={{ duration: 0.2 }}
                   className="overflow-hidden shrink-0"
                 >
-                  <div className="mb-3 p-3 rounded-xl bg-white/[0.03] border border-white/10 max-h-48 overflow-y-auto">
-                    <p className="text-white/70 font-medium leading-relaxed whitespace-pre-wrap text-[13px]">
+                  <div className="mb-3 p-3 rounded-xl bg-surface-alt border max-h-48 overflow-y-auto">
+                    <p className="text-text-muted font-medium leading-relaxed whitespace-pre-wrap text-[13px]">
                       {currentPassage}
                     </p>
                   </div>
@@ -568,7 +568,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
             <div className="flex-1 overflow-y-auto min-h-0 px-0.5">
               <div className="p-4 rounded-xl bg-primary/10 border border-primary/20">
                 <p className="text-[8px] font-black text-primary uppercase tracking-widest mb-2">Summary</p>
-                <p className="text-white/80 font-medium leading-relaxed" style={{ fontSize: `${fontSize}px` }}>
+                <p className="text-text font-medium leading-relaxed" style={{ fontSize: `${fontSize}px` }}>
                   {summaryContent?.summary}
                 </p>
               </div>

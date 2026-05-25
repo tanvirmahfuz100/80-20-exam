@@ -29,7 +29,7 @@ const VideoFeed = () => {
     if (loading) return <LoadingScreen message="ভিডিও লোড হচ্ছে..." />;
 
     return (
-        <div className="max-w-md mx-auto h-[calc(100vh-80px)] md:h-[calc(100vh-120px)] overflow-y-scroll no-scrollbar snap-y snap-mandatory bg-black rounded-2xl md:rounded-[3rem] border border-white/5 shadow-lg relative">
+        <div className="max-w-md mx-auto h-[calc(100vh-80px)] md:h-[calc(100vh-120px)] overflow-y-scroll no-scrollbar snap-y snap-mandatory bg-black rounded-2xl md:rounded-[3rem] border shadow-lg relative">
             {videos.map((vid) => (
                 <div key={vid.id} className="h-full w-full snap-start relative group flex flex-col justify-end">
                     <div className="absolute inset-0 z-0">
@@ -46,20 +46,20 @@ const VideoFeed = () => {
 
                     <div className="absolute right-3 md:right-4 bottom-24 md:bottom-32 z-20 flex flex-col gap-5 md:gap-8 items-center text-white/80">
                         <button onClick={() => handleAction(vid.id, 'like')} className="group/btn flex flex-col items-center gap-1">
-                            <div className="p-2.5 md:p-3 bg-white/20 rounded-full border border-white/5 hover:bg-red-500 hover:text-white transition-all transform group-active/btn:scale-125">
+                            <div className="p-2.5 md:p-3 bg-white/20 rounded-full border hover:bg-red-500 hover:text-white transition-all transform group-active/btn:scale-125">
                                 <Heart className="w-5 h-5 md:w-6 md:h-6" />
                             </div>
                             <span className="text-[10px] font-black uppercase tracking-widest">{vid.likes_count}</span>
                         </button>
 
                         <button onClick={() => handleAction(vid.id, 'save')} className="group/btn flex flex-col items-center gap-1">
-                            <div className="p-2.5 md:p-3 bg-white/20 rounded-full border border-white/5 hover:bg-primary hover:text-white transition-all transform group-active/btn:scale-125">
+                            <div className="p-2.5 md:p-3 bg-white/20 rounded-full border hover:bg-primary hover:text-white transition-all transform group-active/btn:scale-125">
                                 <Bookmark className="w-5 h-5 md:w-6 md:h-6" />
                             </div>
                             <span className="text-[10px] font-black uppercase tracking-widest">{vid.saves_count}</span>
                         </button>
 
-                        <button className="p-2.5 md:p-3 bg-white/20 rounded-full border border-white/5 hover:bg-white/20 transition-all">
+                        <button className="p-2.5 md:p-3 bg-white/20 rounded-full border hover:bg-white/20 transition-all">
                             <Share2 className="w-5 h-5 md:w-6 md:h-6" />
                         </button>
 

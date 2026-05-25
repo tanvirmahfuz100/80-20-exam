@@ -122,7 +122,7 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
             className="p-3 rounded-xl bg-primary/10 border border-primary/20 mb-3"
           >
             <p className="text-[8px] font-black uppercase tracking-widest mb-1.5 text-primary">Reconstructed Paragraph</p>
-            <p className="text-white/80 font-medium leading-relaxed" style={{ fontSize: `${fontSize}px` }}>
+            <p className="text-text font-medium leading-relaxed" style={{ fontSize: `${fontSize}px` }}>
               {reconstructedParagraph}
             </p>
           </motion.div>
@@ -166,14 +166,14 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
                     ? 'bg-emerald-500/10 border-emerald-500/30'
                     : status === 'wrong'
                       ? 'bg-yellow-500/10 border-yellow-500/30'
-                      : 'bg-surface border border-white/5 hover:border-white/20'
+                      : 'bg-surface border hover:border'
                 }`}
               >
                 <div className="flex flex-col gap-0.5 shrink-0">
                   <button
                     onClick={() => handleMoveUp(idx)}
                     disabled={idx === 0 || !!status || finished}
-                    className="p-1 rounded-md text-white/30 hover:text-white hover:bg-white/10 transition-all disabled:opacity-20 disabled:cursor-not-allowed"
+                    className="p-1 rounded-md text-text-dim hover:text-text hover:bg-surface-hover transition-all disabled:opacity-20 disabled:cursor-not-allowed"
                     aria-label="Move up"
                   >
                     <ChevronUp className="w-3.5 h-3.5" />
@@ -181,7 +181,7 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
                   <button
                     onClick={() => handleMoveDown(idx)}
                     disabled={idx === order.length - 1 || !!status || finished}
-                    className="p-1 rounded-md text-white/30 hover:text-white hover:bg-white/10 transition-all disabled:opacity-20 disabled:cursor-not-allowed"
+                    className="p-1 rounded-md text-text-dim hover:text-text hover:bg-surface-hover transition-all disabled:opacity-20 disabled:cursor-not-allowed"
                     aria-label="Move down"
                   >
                     <ChevronDown className="w-3.5 h-3.5" />
@@ -189,7 +189,7 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
                 </div>
 
                 <div className="flex items-center gap-2 min-w-0 flex-1">
-                  <span className="text-[9px] font-black text-white/30 w-5 text-right shrink-0 tabular-nums">
+                  <span className="text-[9px] font-black text-text-dim w-5 text-right shrink-0 tabular-nums">
                     {idx + 1}
                   </span>
                   <div className="flex items-center gap-2 min-w-0 flex-1">
@@ -198,7 +198,7 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
                         ? <Check className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
                         : <X className="w-3.5 h-3.5 text-yellow-400 shrink-0" />
                     )}
-                    <p className="text-white/80 font-medium leading-relaxed" style={{ fontSize: `${fontSize}px` }}>
+                    <p className="text-text font-medium leading-relaxed" style={{ fontSize: `${fontSize}px` }}>
                       {sentence?.text || id}
                     </p>
                   </div>
@@ -213,7 +213,7 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
         {checked && !finished && (
           <button
             onClick={handleReset}
-            className="w-full py-3 bg-white/5 hover:bg-white/10 text-white/70 border border-white/10 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5"
+            className="w-full py-3 bg-surface-alt hover:bg-surface-hover text-text-muted border rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5"
           >
             <RefreshCw className="w-3 h-3" />
             Reset & Try Again
@@ -223,7 +223,7 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
         {!showingAnswer && !finished && (
           <button
             onClick={handleShowAnswer}
-            className="w-full py-3 bg-white/5 hover:bg-white/10 text-white/50 border border-white/5 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5"
+            className="w-full py-3 bg-surface-alt hover:bg-surface-hover text-text-muted border rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5"
           >
             <Eye className="w-3 h-3" />
             Show Answer

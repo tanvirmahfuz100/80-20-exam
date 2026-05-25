@@ -3,7 +3,7 @@ const colorMap = {
   success: 'bg-emerald-500/10 border-emerald-500/20 text-emerald-400',
   warning: 'bg-yellow-500/10 border-yellow-500/20 text-yellow-400',
   danger: 'bg-red-500/10 border-red-500/20 text-red-400',
-  default: 'bg-white/5 border-white/10 text-white/30',
+  default: 'bg-surface-alt border text-text-dim',
 };
 
 export default function Badge({

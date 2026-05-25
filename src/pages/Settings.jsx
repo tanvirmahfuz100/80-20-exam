@@ -75,8 +75,8 @@ const Settings = () => {
         <div className="max-w-2xl mx-auto">
             <div className="flex items-center justify-between mb-6">
                 <div>
-                    <h1 className="text-lg font-black text-charcoal">সেটিংস</h1>
-                    <p className="text-sm text-hare font-medium mt-0.5">তোমার লার্নিং এক্সপিরিয়েন্স কাস্টমাইজ করো</p>
+                    <h1 className="text-lg font-black text-text">সেটিংস</h1>
+                    <p className="text-sm text-text-muted font-medium mt-0.5">তোমার লার্নিং এক্সপিরিয়েন্স কাস্টমাইজ করো</p>
                 </div>
                 <button
                     onClick={handleSave}
@@ -99,16 +99,16 @@ const Settings = () => {
             )}
 
             <div className="space-y-4">
-                <div className="bg-white border border-wolf rounded-2xl p-5">
-                    <h3 className="font-black text-sm text-charcoal mb-4 flex items-center gap-2">
+                <div className="bg-surface border border rounded-2xl p-5">
+                    <h3 className="font-black text-sm text-text mb-4 flex items-center gap-2">
                         <User className="w-4 h-4 text-primary" />
                         পরিচয়
                     </h3>
                     <div className="space-y-4">
                         <div className="space-y-1.5">
-                            <label className="text-[10px] font-bold uppercase tracking-wider text-hare px-1">নাম</label>
+                            <label className="text-[10px] font-bold uppercase tracking-wider text-text-muted px-1">নাম</label>
                             <div className="relative">
-                                <User className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-hare" />
+                                <User className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
                                 <input
                                     type="text"
                                     value={formData.username}
@@ -119,16 +119,16 @@ const Settings = () => {
                             </div>
                         </div>
                         <div className="space-y-1.5">
-                            <label className="text-[10px] font-bold uppercase tracking-wider text-hare px-1">ইমেইল</label>
+                            <label className="text-[10px] font-bold uppercase tracking-wider text-text-muted px-1">ইমেইল</label>
                             <div className="relative opacity-60">
-                                <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-hare" />
+                                <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
                                 <input type="email" value={user?.email} disabled className="duo-input pl-10 cursor-not-allowed" />
                             </div>
                         </div>
                         <div className="space-y-1.5">
-                            <label className="text-[10px] font-bold uppercase tracking-wider text-hare px-1">ফোন নম্বর</label>
+                            <label className="text-[10px] font-bold uppercase tracking-wider text-text-muted px-1">ফোন নম্বর</label>
                             <div className="relative">
-                                <Phone className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-hare" />
+                                <Phone className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
                                 <input
                                     type="tel"
                                     value={formData.phone_number}
@@ -141,8 +141,8 @@ const Settings = () => {
                     </div>
                 </div>
 
-                <div className="bg-white border border-wolf rounded-2xl p-5">
-                    <h3 className="font-black text-sm text-charcoal mb-4 flex items-center gap-2">
+                <div className="bg-surface border border rounded-2xl p-5">
+                    <h3 className="font-black text-sm text-text mb-4 flex items-center gap-2">
                         <GraduationCap className="w-4 h-5 text-primary" />
                         স্টাডি ট্র্যাক
                     </h3>
@@ -154,7 +154,7 @@ const Settings = () => {
                                 className={`w-full p-3 rounded-xl border text-left flex items-center justify-between transition-all active:scale-[0.98] ${
                                     formData.target_exams.includes(exam)
                                         ? 'bg-primary/5 border-primary/20 text-primary'
-                                        : 'bg-white border-wolf text-hare hover:border-hare hover:text-charcoal'
+                                        : 'bg-surface border text-text-muted hover:border hover:text-text'
                                 }`}
                             >
                                 <span className="text-sm font-bold">{exam}</span>
@@ -163,7 +163,7 @@ const Settings = () => {
                         ))}
                     </div>
                     <div className="space-y-2">
-                        <p className="text-[10px] font-bold uppercase tracking-wider text-hare px-1">প্রশ্নের ভাষা</p>
+                        <p className="text-[10px] font-bold uppercase tracking-wider text-text-muted px-1">প্রশ্নের ভাষা</p>
                         <div className="flex gap-2">
                             {['bangla', 'english'].map((version) => (
                                 <button
@@ -173,7 +173,7 @@ const Settings = () => {
                                     className={`flex-1 px-4 py-3 rounded-full border text-sm font-bold transition-all active:scale-[0.98] ${
                                         formData.question_version === version
                                             ? 'bg-primary text-white border-primary'
-                                            : 'bg-white border-wolf text-hare hover:border-hare hover:text-charcoal'
+                                            : 'bg-surface border text-text-muted hover:border hover:text-text'
                                     }`}
                                 >
                                     {version === 'bangla' ? 'বাংলা' : 'ইংরেজি'}
@@ -183,8 +183,8 @@ const Settings = () => {
                     </div>
                 </div>
 
-                <div className="bg-white border border-wolf rounded-2xl p-5">
-                    <h3 className="font-black text-sm text-charcoal mb-4 flex items-center gap-2">
+                <div className="bg-surface border border rounded-2xl p-5">
+                    <h3 className="font-black text-sm text-text mb-4 flex items-center gap-2">
                         <Palette className="w-4 h-4 text-primary" />
                         অ্যাপিয়ারেন্স
                     </h3>
@@ -194,25 +194,25 @@ const Settings = () => {
                                 type="button"
                                 onClick={() => setTheme('dark')}
                                 className={`flex-1 p-4 rounded-2xl border text-center transition-all active:scale-[0.98] ${
-                                    isDark ? 'bg-primary/5 border-primary' : 'bg-white border-wolf'
+                                    isDark ? 'bg-primary/5 border-primary' : 'bg-surface border'
                                 }`}
                             >
-                                <Moon className={`w-6 h-6 mx-auto mb-2 ${isDark ? 'text-primary' : 'text-hare'}`} />
-                                <p className={`text-sm font-bold ${isDark ? 'text-primary' : 'text-charcoal'}`}>ডার্ক</p>
+                                <Moon className={`w-6 h-6 mx-auto mb-2 ${isDark ? 'text-primary' : 'text-text-muted'}`} />
+                                <p className={`text-sm font-bold ${isDark ? 'text-primary' : 'text-text'}`}>ডার্ক</p>
                             </button>
                             <button
                                 type="button"
                                 onClick={() => setTheme('light')}
                                 className={`flex-1 p-4 rounded-2xl border text-center transition-all active:scale-[0.98] ${
-                                    !isDark ? 'bg-primary/5 border-primary' : 'bg-white border-wolf'
+                                    !isDark ? 'bg-primary/5 border-primary' : 'bg-surface border'
                                 }`}
                             >
-                                <Sun className={`w-6 h-6 mx-auto mb-2 ${!isDark ? 'text-primary' : 'text-hare'}`} />
-                                <p className={`text-sm font-bold ${!isDark ? 'text-primary' : 'text-charcoal'}`}>লাইট</p>
+                                <Sun className={`w-6 h-6 mx-auto mb-2 ${!isDark ? 'text-primary' : 'text-text-muted'}`} />
+                                <p className={`text-sm font-bold ${!isDark ? 'text-primary' : 'text-text'}`}>লাইট</p>
                             </button>
                         </div>
                         <div>
-                            <p className="text-[10px] font-bold uppercase tracking-wider text-hare mb-2">টেক্সট সাইজ</p>
+                            <p className="text-[10px] font-bold uppercase tracking-wider text-text-muted mb-2">টেক্সট সাইজ</p>
                             <div className="flex gap-2">
                                 {['small', 'normal', 'large'].map((sz) => (
                                     <button
@@ -220,7 +220,7 @@ const Settings = () => {
                                         type="button"
                                         onClick={() => setFontSize(sz)}
                                         className={`flex-1 p-3 rounded-full border text-center text-sm font-bold transition-all ${
-                                            fontSize === sz ? 'bg-primary text-white border-primary' : 'bg-white border-wolf text-hare'
+                                            fontSize === sz ? 'bg-primary text-white border-primary' : 'bg-surface border text-text-muted'
                                         }`}
                                     >
                                         {sz === 'small' ? 'ছোট' : sz === 'normal' ? 'নরমাল' : 'বড়'}

@@ -46,37 +46,37 @@ const GuideModal = ({ isOpen, onClose }) => {
     return (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4" onClick={onClose}>
             <div
-                className="relative w-full max-w-2xl max-h-[85vh] overflow-y-auto bg-surface border border-white/10 rounded-3xl p-6 md:p-8 shadow-2xl"
+                className="relative w-full max-w-2xl max-h-[85vh] overflow-y-auto bg-surface border rounded-3xl p-6 md:p-8 shadow-2xl"
                 onClick={(e) => e.stopPropagation()}
             >
                 <button
                     onClick={onClose}
-                    className="absolute top-4 right-4 p-2 bg-white/5 rounded-xl text-white/30 hover:text-white transition-colors"
+                    className="absolute top-4 right-4 p-2 bg-surface-alt rounded-xl text-text-muted hover:text-text transition-colors"
                 >
                     <X className="w-5 h-5" />
                 </button>
 
                 <div className="space-y-1 mb-6">
-                    <h2 className="text-2xl font-black text-white tracking-tighter">কীভাবে ফায়ারম্যান ব্যবহার করবেন</h2>
-                    <p className="text-sm text-white/40 font-medium">Everything you need to ace your exams â€” এখানে তা কীভাবে কাজ করে।</p>
+                    <h2 className="text-2xl font-black text-text tracking-tighter">কীভাবে ফায়ারম্যান ব্যবহার করবেন</h2>
+                    <p className="text-sm text-text-muted font-medium">Everything you need to ace your exams â€” এখানে তা কীভাবে কাজ করে।</p>
                 </div>
 
                 <div className="space-y-3">
                     {tips.map((tip) => (
-                        <div key={tip.title} className="flex items-start gap-4 p-4 bg-white/5 rounded-2xl border border-white/5">
+                        <div key={tip.title} className="flex items-start gap-4 p-4 bg-surface-alt rounded-2xl border">
                             <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
                                 <tip.icon className="w-5 h-5 text-primary" />
                             </div>
                             <div className="min-w-0">
-                                <h4 className="text-sm font-black text-white">{tip.title}</h4>
-                                <p className="text-xs text-white/50 mt-1 leading-relaxed">{tip.desc}</p>
+                                <h4 className="text-sm font-black text-text">{tip.title}</h4>
+                                <p className="text-xs text-text-muted mt-1 leading-relaxed">{tip.desc}</p>
                             </div>
                         </div>
                     ))}
                 </div>
 
                 <div className="mt-6 p-4 bg-primary/5 rounded-2xl border border-primary/20">
-                    <p className="text-xs text-white/60 font-medium leading-relaxed">
+                    <p className="text-xs text-text-muted font-medium leading-relaxed">
                         <span className="text-primary font-black">প্রো টিপ:</span> ভুল উত্তরগুলো অটোমেটিক্যালি স্পেসড রিপিটিশনের জন্য সেভ হয়। যেকোনো সময় উপরের বার থেকে স্টার আইকনে ট্যাপ করে তোমার ভুলগুলো রিভিউ করো।
                     </p>
                 </div>

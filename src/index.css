@@ -71,6 +71,8 @@
     --color-border: 32 47 54;
     --color-border-hover: 55 70 79;
     --color-inverse: 255 255 255;
+    --color-swan-always-light: 55 70 79;
+    --color-swan-always-dark: 55 70 79;
   }
 
   html {

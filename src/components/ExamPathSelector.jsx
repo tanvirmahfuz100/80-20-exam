@@ -85,21 +85,21 @@ export default function ExamPathSelector({ onComplete, onCancel }) {
       transition={{ duration: 0.25 }}
     >
       {/* Header */}
-      <div className="flex items-center gap-3 px-4 py-4 border-b border-white/5 shrink-0">
+      <div className="flex items-center gap-3 px-4 py-4 border-b border shrink-0">
         {step > 0 ? (
-          <button onClick={handleBack} className="p-2 -ml-2 text-white/40 hover:text-white transition-colors">
+          <button onClick={handleBack} className="p-2 -ml-2 text-text-muted hover:text-text transition-colors">
             <ChevronLeft className="w-5 h-5" />
           </button>
         ) : (
           <div className="w-9" />
         )}
         <div className="flex-1 text-center">
-          <span className="text-2xs font-black uppercase tracking-[0.2em] text-white/30">
+          <span className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim">
             {step === 0 ? 'পরীক্ষা নির্বাচন' : selectedExam && requiresGroup(selectedExam) ? 'গ্রুপ নির্বাচন' : 'শ্রেণী নির্বাচন'}
           </span>
         </div>
         {onCancel && (
-          <button onClick={onCancel} className="text-2xs font-bold text-white/30 hover:text-white transition-colors">
+          <button onClick={onCancel} className="text-2xs font-bold text-text-dim hover:text-text transition-colors">
             বাতিল
           </button>
         )}
@@ -120,10 +120,10 @@ export default function ExamPathSelector({ onComplete, onCancel }) {
               className="max-w-md mx-auto"
             >
               <div className="text-center mb-8">
-                <h1 className="text-xl font-black text-white tracking-tight mb-2">
+                <h1 className="text-xl font-black text-text tracking-tight mb-2">
                   তোমার পরীক্ষা বাছাই করো
                 </h1>
-                <p className="text-sm text-white/40 font-medium">
+                <p className="text-sm text-text-muted font-medium">
                   সাবজেক্ট অনুযায়ী প্রাক্টিস করতে একটি পরীক্ষা নির্বাচন করো
                 </p>
               </div>
@@ -137,16 +137,16 @@ export default function ExamPathSelector({ onComplete, onCancel }) {
                     animate="visible"
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleExamPick(exam)}
-                    className="w-full flex items-center gap-4 rounded-2xl border border-white/15 bg-surface p-5 text-left transition-all hover:border-primary/40 hover:bg-white/[0.03]"
+                    className="w-full flex items-center gap-4 rounded-2xl border border bg-surface p-5 text-left transition-all hover:border-primary/40 hover:bg-surface-hover"
                   >
                     <div className="w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center shrink-0">
                       <GraduationCap className="w-6 h-6 text-primary" />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <span className="text-base font-black text-white">{EXAM_LABELS[exam]}</span>
-                      <p className="text-2xs font-medium text-white/30 mt-0.5">{examDescriptions[exam] || ''}</p>
+                      <span className="text-base font-black text-text">{EXAM_LABELS[exam]}</span>
+                      <p className="text-2xs font-medium text-text-dim mt-0.5">{examDescriptions[exam] || ''}</p>
                     </div>
-                    <ArrowRight className="w-5 h-5 text-white/20 shrink-0" />
+                    <ArrowRight className="w-5 h-5 text-text-dim shrink-0" />
                   </motion.button>
                 ))}
               </div>
@@ -162,10 +162,10 @@ export default function ExamPathSelector({ onComplete, onCancel }) {
               className="max-w-md mx-auto"
             >
               <div className="text-center mb-8">
-                <h1 className="text-xl font-black text-white tracking-tight mb-2">
+                <h1 className="text-xl font-black text-text tracking-tight mb-2">
                   {EXAM_LABELS[selectedExam]} · গ্রুপ নির্বাচন করো
                 </h1>
-                <p className="text-sm text-white/40 font-medium">তোমার গ্রুপ অনুযায়ী সাবজেক্ট সেট করো</p>
+                <p className="text-sm text-text-muted font-medium">তোমার গ্রুপ অনুযায়ী সাবজেক্ট সেট করো</p>
               </div>
               <div className="space-y-3">
                 {GROUPS.map((group, i) => (
@@ -177,16 +177,16 @@ export default function ExamPathSelector({ onComplete, onCancel }) {
                     animate="visible"
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleGroupPick(group)}
-                    className="w-full flex items-center gap-4 rounded-2xl border border-white/15 bg-surface p-5 text-left transition-all hover:border-primary/40 hover:bg-white/[0.03]"
+                    className="w-full flex items-center gap-4 rounded-2xl border border bg-surface p-5 text-left transition-all hover:border-primary/40 hover:bg-surface-hover"
                   >
                     <div className="w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center shrink-0">
                       <GraduationCap className="w-6 h-6 text-primary" />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <span className="text-base font-black text-white">{GROUP_LABELS[group]}</span>
-                      <p className="text-2xs font-medium text-white/30 mt-0.5">{groupSubtitle[group]}</p>
+                      <span className="text-base font-black text-text">{GROUP_LABELS[group]}</span>
+                      <p className="text-2xs font-medium text-text-dim mt-0.5">{groupSubtitle[group]}</p>
                     </div>
-                    <ArrowRight className="w-5 h-5 text-white/20 shrink-0" />
+                    <ArrowRight className="w-5 h-5 text-text-dim shrink-0" />
                   </motion.button>
                 ))}
               </div>
@@ -202,8 +202,8 @@ export default function ExamPathSelector({ onComplete, onCancel }) {
               className="max-w-md mx-auto"
             >
               <div className="text-center mb-8">
-                <h1 className="text-xl font-black text-white tracking-tight mb-2">তোমার শ্রেণী নির্বাচন করো</h1>
-                <p className="text-sm text-white/40 font-medium">তুমি কোন শ্রেণীতে পড়ো?</p>
+                <h1 className="text-xl font-black text-text tracking-tight mb-2">তোমার শ্রেণী নির্বাচন করো</h1>
+                <p className="text-sm text-text-muted font-medium">তুমি কোন শ্রেণীতে পড়ো?</p>
               </div>
               <div className="grid grid-cols-4 gap-3">
                 {CLASSES.map((cls, i) => (
@@ -215,10 +215,10 @@ export default function ExamPathSelector({ onComplete, onCancel }) {
                     animate="visible"
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleClassPick(cls)}
-                    className="flex flex-col items-center justify-center gap-1.5 rounded-2xl border border-white/15 bg-surface py-5 transition-all hover:border-primary/40 hover:bg-white/[0.03]"
+                    className="flex flex-col items-center justify-center gap-1.5 rounded-2xl border border bg-surface py-5 transition-all hover:border-primary/40 hover:bg-surface-hover"
                   >
-                    <span className="text-lg font-black text-white">{cls}</span>
-                    <span className="text-3xs font-medium text-white/30">শ্রেণী</span>
+                    <span className="text-lg font-black text-text">{cls}</span>
+                    <span className="text-3xs font-medium text-text-dim">শ্রেণী</span>
                   </motion.button>
                 ))}
               </div>
@@ -228,8 +228,8 @@ export default function ExamPathSelector({ onComplete, onCancel }) {
       </div>
 
       {/* Footer hint */}
-      <div className="px-4 py-4 border-t border-white/5 shrink-0">
-        <p className="text-center text-3xs font-medium text-white/20">
+      <div className="px-4 py-4 border-t border shrink-0">
+        <p className="text-center text-3xs font-medium text-text-dim">
           {step === 0 && 'বিসিএস ও আইবিএ এর জন্য গ্রুপ লাগবে না'}
           {step === 1 && requiresGroup(selectedExam) && 'তোমার গ্রুপ অনুযায়ী সাবজেক্ট দেখানো হবে'}
           {step === 1 && requiresClass(selectedExam) && 'তোমার শ্রেণী অনুযায়ী কন্টেন্ট সেট হবে'}

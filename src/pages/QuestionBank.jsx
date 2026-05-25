@@ -113,15 +113,15 @@ function FilterDropdown({ label, options, value, onChange }) {
         <div ref={ref} className={`relative ${open ? 'z-50' : ''}`}>
             <button
                 onClick={() => setOpen(p => !p)}
-                className="flex items-center gap-1 bg-background border border-white/5 rounded-lg px-3 py-2 hover:border-white/20 transition-colors text-[9px] font-black uppercase tracking-widest min-w-0 w-full"
+                className="flex items-center gap-1 bg-background border rounded-lg px-3 py-2 hover:border transition-colors text-[9px] font-black uppercase tracking-widest min-w-0 w-full"
             >
-                <span className="text-white/30 truncate">{label}</span>
+                <span className="text-text-muted truncate">{label}</span>
                 {value !== 'All' && (
                     <span className="bg-primary/15 text-primary px-1.5 py-0.5 rounded text-[8px] leading-none truncate max-w-[64px] shrink-0">
                         {value}
                     </span>
                 )}
-                <ChevronDown className={`w-3 h-3 text-white/20 transition-transform shrink-0 ${open ? 'rotate-180' : ''}`} />
+                <ChevronDown className={`w-3 h-3 text-text-dim transition-transform shrink-0 ${open ? 'rotate-180' : ''}`} />
             </button>
 
             <AnimatePresence>
@@ -332,30 +332,30 @@ const QuestionBank = () => {
 
     return (
         <div className="max-w-5xl mx-auto space-y-6 md:space-y-8">
-            <div className="bg-surface border border-white/5 p-5 md:p-10 rounded-2xl md:rounded-[2rem] shadow-lg relative">
+                <div className="bg-surface border p-5 md:p-10 rounded-2xl md:rounded-[2rem] shadow-lg relative">
                 <div className="absolute -right-8 -top-8 w-[200px] h-[200px] md:w-[260px] md:h-[260px] opacity-20 pointer-events-none z-0">
                     <LottieAnimation src={searchAnimation} className="w-full h-full" pingPong />
                 </div>
 
                 <div className="relative z-10">
-                    <h1 className="text-2xl md:text-4xl font-black text-white tracking-tighter mb-1">
+                    <h1 className="text-2xl md:text-4xl font-black text-text tracking-tighter mb-1">
                         BRAIN <span className="text-primary">SEARCH.</span>
                     </h1>
-                    <p className="text-white/25 font-bold uppercase tracking-widest text-[10px] md:text-[11px]">
+                    <p className="text-text-dim font-bold uppercase tracking-widest text-[10px] md:text-[11px]">
                         {loading ? loadProgress || 'লোড হচ্ছে...' : `${allQuestions.length.toLocaleString()}টি প্রশ্ন ইনডেক্স করা হয়েছে`}
                     </p>
                 </div>
 
                 <div className="relative z-10 flex flex-col sm:flex-row gap-3 md:gap-4 mt-5 md:mt-6">
                     <div className="flex-1 relative group">
-                        <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/20 group-focus-within:text-primary transition-colors" />
+                        <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-text-dim group-focus-within:text-primary transition-colors" />
                         <input
                             ref={inputRef}
                             type="text"
                             placeholder="এসএসসি, এইচএসসি, আইবিএ'র প্রশ্ন খুঁজুন..."
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
-                            className="w-full bg-background border border-white/5 pl-11 pr-4 py-4 rounded-xl text-white outline-none focus:border-primary/50 transition-all font-medium text-sm placeholder:text-white/15"
+                            className="w-full bg-background border pl-11 pr-4 py-4 rounded-xl text-text outline-none focus:border-primary/50 transition-all font-medium text-sm placeholder:text-text-dim"
                             disabled={loading}
                         />
                     </div>
@@ -368,10 +368,10 @@ const QuestionBank = () => {
                     </button>
                 </div>
 
-                <div className="relative z-10 mt-5 md:mt-6 pt-5 md:pt-6 border-t border-white/[0.04]">
+                <div className="relative z-10 mt-5 md:mt-6 pt-5 md:pt-6 border-t border">
                     <div className="flex items-center gap-1.5 mb-2 md:mb-3">
-                        <Filter className="w-3 h-3 text-white/15" />
-                        <span className="text-[9px] font-black uppercase tracking-widest text-white/15">ফিল্টার</span>
+                        <Filter className="w-3 h-3 text-text-dim" />
+                        <span className="text-[9px] font-black uppercase tracking-widest text-text-dim">ফিল্টার</span>
                         {anyFilterActive && (
                             <button onClick={clearAll} className="ml-auto text-[8px] font-black uppercase tracking-widest text-primary/50 hover:text-primary transition-colors">
                                 সব মুছুন
@@ -393,7 +393,7 @@ const QuestionBank = () => {
                             className={`px-2.5 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest border transition-all w-full ${
                                 exactMatch
                                     ? 'bg-primary/15 text-primary border-primary/30'
-                                    : 'bg-background text-white/20 border-white/5 hover:text-white/40 hover:border-white/20'
+                                    : 'bg-background text-text-dim border hover:text-text hover:border'
                             }`}
                         >
                             এক্সাক্ট
@@ -405,14 +405,14 @@ const QuestionBank = () => {
             {loading && results.length === 0 && (
                 <div className="flex flex-col items-center justify-center py-20 gap-4">
                     <Loader2 className="w-7 h-7 text-primary animate-spin" />
-                    <p className="text-white/20 font-black uppercase tracking-[0.3em] text-[11px]">{loadProgress || 'প্রশ্ন লোড হচ্ছে...'}</p>
+                    <p className="text-text-dim font-black uppercase tracking-[0.3em] text-[11px]">{loadProgress || 'প্রশ্ন লোড হচ্ছে...'}</p>
                 </div>
             )}
 
             {!loading && (
                 <>
                     <div className="flex items-center justify-between">
-                        <p className="text-[11px] font-bold text-white/30">
+                        <p className="text-[11px] font-bold text-text-muted">
                             {results.length > 0
                                 ? `${results.length.toLocaleString()}টি ফলাফল পাওয়া গেছে ${(searchTime / 1000).toFixed(2)}সেকেন্ডে`
                                 : 'কোনো ফলাফল নেই'}
@@ -426,33 +426,33 @@ const QuestionBank = () => {
 
                     <div className="space-y-3">
                         {paginated.map((q, i) => (
-                            <div key={`${q.id}-${i}`} className="bg-surface border border-white/5 rounded-xl p-5 hover:border-white/10 transition-all group">
+                            <div key={`${q.id}-${i}`} className="bg-surface border rounded-xl p-5 hover:border transition-all group">
                                 <div className="flex items-start gap-3 mb-3">
-                                    <span className="text-[10px] font-black text-white/10 tabular-nums mt-0.5 shrink-0 w-6 text-right">{(page - 1) * perPage + i + 1}.</span>
+                                    <span className="text-[10px] font-black text-text-dim tabular-nums mt-0.5 shrink-0 w-6 text-right">{(page - 1) * perPage + i + 1}.</span>
                                     <h3
-                                        className="text-sm md:text-base font-bold text-white/80 leading-relaxed tracking-tight group-hover:text-white transition-colors"
+                                        className="text-sm md:text-base font-bold text-text leading-relaxed tracking-tight group-hover:text-text transition-colors"
                                         dangerouslySetInnerHTML={{ __html: highlightText(q.text, debouncedSearch) }}
                                     />
                                 </div>
-                                <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-[10px] font-bold text-white/20 uppercase tracking-widest ml-9">
+                                <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-[10px] font-bold text-text-dim uppercase tracking-widest ml-9">
                                     <span className={`px-1.5 py-0.5 rounded text-[9px] font-black ${
                                         q.difficulty === 'hard' ? 'bg-red-500/10 text-red-400' :
                                         q.difficulty === 'medium' ? 'bg-yellow-500/10 text-yellow-400' :
                                         q.difficulty === 'easy' ? 'bg-emerald-500/10 text-emerald-400' :
-                                        'bg-white/5 text-white/20'
+                                        'bg-surface-alt text-text-dim'
                                     }`}>{q.difficulty}</span>
-                                    <span className="text-white/30">{q.exam}</span>
-                                    <span className="text-white/10">Â·</span>
-                                    <span className="text-white/30">{q.subject}</span>
-                                    <span className="text-white/10">Â·</span>
-                                    <span className="text-white/30">{q.topic}</span>
+                                    <span className="text-text-muted">{q.exam}</span>
+                                    <span className="text-text-dim">Â·</span>
+                                    <span className="text-text-muted">{q.subject}</span>
+                                    <span className="text-text-dim">Â·</span>
+                                    <span className="text-text-muted">{q.topic}</span>
                                     {q.year && (
                                         <>
-                                            <span className="text-white/10">Â·</span>
-                                            <span className="text-white/30">{q.year}</span>
+                                            <span className="text-text-dim">Â·</span>
+                                            <span className="text-text-muted">{q.year}</span>
                                         </>
                                     )}
-                                    <div className="ml-auto flex items-center gap-3 text-white/10">
+                                    <div className="ml-auto flex items-center gap-3 text-text-dim">
                                         <div className="flex items-center gap-1.5">
                                             <Target className="w-3 h-3" />
                                             <span className="text-emerald-500/50 font-black">68%</span>
@@ -468,11 +468,11 @@ const QuestionBank = () => {
                     </div>
 
                     {results.length === 0 && !loading && (
-                        <div className="py-16 text-center border-2 border-dashed border-white/5 rounded-2xl flex flex-col items-center gap-4">
+                        <div className="py-16 text-center border-2 border-dashed border rounded-2xl flex flex-col items-center gap-4">
                             <div className="w-20 h-20 opacity-15">
                                 <LottieAnimation src={searchAnimation} className="w-full h-full" pingPong />
                             </div>
-                            <p className="text-white/10 font-black uppercase tracking-widest text-xs">
+                            <p className="text-text-dim font-black uppercase tracking-widest text-xs">
                                 {anyFilterActive ? 'কোনো প্রশ্ন আপনার মানদণ্ডের সাথে মেলেনি' : 'খোঁজার জন্য কিছু টাইপ করুন'}
                             </p>
                             {anyFilterActive && (
@@ -486,17 +486,17 @@ const QuestionBank = () => {
                             <button
                                 disabled={page === 1}
                                 onClick={() => setPage(p => p - 1)}
-                                className="p-2.5 bg-white/5 rounded-xl text-white/40 hover:text-white disabled:opacity-20 border border-white/5 active:scale-95 transition-all"
+                                className="p-2.5 bg-surface-alt rounded-xl text-text-muted hover:text-text disabled:opacity-20 border active:scale-95 transition-all"
                             >
                                 <ChevronLeft className="w-4 h-4" />
                             </button>
-                            <div className="px-5 py-2.5 bg-white/5 rounded-xl border border-white/5 text-[11px] font-black uppercase tracking-widest text-primary tabular-nums">
+                            <div className="px-5 py-2.5 bg-surface-alt rounded-xl border text-[11px] font-black uppercase tracking-widest text-primary tabular-nums">
                                 পাতা {page} / {totalPages}
                             </div>
                             <button
                                 disabled={page === totalPages}
                                 onClick={() => setPage(p => p + 1)}
-                                className="p-2.5 bg-white/5 rounded-xl text-white/40 hover:text-white disabled:opacity-20 border border-white/5 active:scale-95 transition-all"
+                                className="p-2.5 bg-surface-alt rounded-xl text-text-muted hover:text-text disabled:opacity-20 border active:scale-95 transition-all"
                             >
                                 <ChevronRight className="w-4 h-4" />
                             </button>

@@ -72,23 +72,23 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
         aria-label="Navigation sidebar"
         className={`fixed top-0 left-0 z-40 w-72 h-screen transition-transform transform safe-top safe-bottom
           ${isOpen ? 'translate-x-0' : '-translate-x-full'}
-          md:translate-x-0 bg-white shadow-xl
+          md:translate-x-0 bg-surface shadow-xl
           ${reducedMotion ? 'duration-0' : 'duration-300'}
         `}
       >
         <div className="flex flex-col h-full">
-          <div className="h-16 md:h-20 flex items-center px-6 border-b border-wolf shrink-0 safe-top">
+          <div className="h-16 md:h-20 flex items-center px-6 border-b border shrink-0 safe-top">
             <div className="flex items-center gap-3">
               <div className="w-9 h-9 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-white font-black text-sm">80</span>
               </div>
-              <span className="text-xl font-black text-charcoal tracking-tight">
+              <span className="text-xl font-black text-text tracking-tight">
                 80-20 Exam
               </span>
             </div>
             <button
               onClick={toggle}
-              className="ml-auto p-2 text-hare hover:text-charcoal md:hidden touch-target flex items-center justify-center"
+              className="ml-auto p-2 text-text-muted hover:text-text md:hidden touch-target flex items-center justify-center"
               aria-label="Close sidebar"
             >
               <X className="w-5 h-5" />
@@ -98,7 +98,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
           <nav className="flex-1 px-3 py-6 overflow-y-auto no-scrollbar">
             {sidebarSections.map((section) => (
               <div key={section.label} className="mb-6">
-                <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-hare mb-2">
+                <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-text-muted mb-2">
                   {section.label}
                 </p>
                 <div className="space-y-0.5">
@@ -111,7 +111,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                         `flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold transition-all relative group
                         ${isActive
                           ? 'bg-primary/10 text-primary'
-                          : 'text-hare hover:bg-wolf/30 hover:text-charcoal'
+                          : 'text-text-muted hover:bg-surface-hover hover:text-text'
                         }`
                       }
                     >
@@ -135,7 +135,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                     `flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold transition-all
                     ${isActive
                       ? 'bg-emerald-500/10 text-emerald-600'
-                      : 'text-hare hover:bg-wolf/30 hover:text-charcoal'
+                      : 'text-text-muted hover:bg-surface-hover hover:text-text'
                     }`
                   }
                 >
@@ -146,7 +146,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
             )}
 
             <div className="space-y-0.5">
-              <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-hare mb-2">
+              <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-text-muted mb-2">
                 অন্যান্য
               </p>
               <NavLink
@@ -156,7 +156,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
                   `flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold transition-all
                   ${isActive
                     ? 'bg-primary/10 text-primary'
-                    : 'text-hare hover:bg-wolf/30 hover:text-charcoal'
+                    : 'text-text-muted hover:bg-surface-hover hover:text-text'
                   }`
                 }
               >
@@ -165,7 +165,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
               </NavLink>
               <button
                 onClick={onOpenReport}
-                className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold text-hare hover:bg-wolf/30 hover:text-charcoal transition-all"
+                className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold text-text-muted hover:bg-surface-hover hover:text-text transition-all"
               >
                 <MessageSquareWarning className="w-5 h-5 shrink-0" aria-hidden="true" />
                 সমস্যা জানাও
@@ -173,12 +173,12 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
             </div>
           </nav>
 
-          <div className="p-4 border-t border-wolf space-y-3 bg-eel/50 safe-bottom">
-            <div className="bg-wolf/30 p-3 rounded-xl">
-              <p className="text-[10px] uppercase font-bold tracking-widest text-hare mb-0.5">
+          <div className="p-4 border-t border space-y-3 bg-background/50 safe-bottom">
+            <div className="bg-surface-hover p-3 rounded-xl">
+              <p className="text-[10px] uppercase font-bold tracking-widest text-text-muted mb-0.5">
                 {isAdmin ? 'অ্যাডমিন মোড' : 'শিক্ষার্থী'}
               </p>
-              <p className="text-sm font-black text-charcoal tracking-tight truncate">
+              <p className="text-sm font-black text-text tracking-tight truncate">
                 {user?.user_metadata?.username || user?.email || 'শিক্ষার্থী'}
               </p>
             </div>
@@ -218,7 +218,7 @@ const NotificationCenter = () => {
     <div className="relative">
       <button
         onClick={() => { if (!show) playSound('notification'); setShow(!show); }}
-        className="p-2.5 bg-white border border-wolf rounded-xl text-hare hover:text-charcoal hover:border-hare transition-all relative touch-target flex items-center justify-center"
+        className="p-2.5 bg-surface border border rounded-xl text-text-muted hover:text-text hover:border transition-all relative touch-target flex items-center justify-center"
         aria-label="Notifications"
         aria-expanded={show}
       >
@@ -233,9 +233,9 @@ const NotificationCenter = () => {
           aria-label="Notifications"
           className={`
             md:absolute md:right-0 md:mt-2 md:w-80 z-50
-            md:bg-white md:border md:border-wolf md:rounded-2xl md:shadow-lg md:p-5
+            md:bg-surface md:border md:border md:rounded-2xl md:shadow-lg md:p-5
             fixed inset-0 md:inset-auto
-            bg-white
+            bg-surface
             p-4 md:p-5
             pt-safe-top
             flex flex-col
@@ -244,23 +244,23 @@ const NotificationCenter = () => {
           `}
         >
           <div className="flex items-center justify-between mb-4 shrink-0">
-            <h4 className="text-xs font-black uppercase tracking-widest text-charcoal">
+            <h4 className="text-xs font-black uppercase tracking-widest text-text">
               নোটিফিকেশন
             </h4>
             <button
               onClick={() => setShow(false)}
-              className="p-1.5 md:hidden text-hare hover:text-charcoal"
+              className="p-1.5 md:hidden text-text-muted hover:text-text"
               aria-label="Close notifications"
             >
               <X className="w-5 h-5" />
             </button>
           </div>
           <div className="space-y-3 flex-1 overflow-y-auto">
-            <div className="p-3.5 bg-eel rounded-xl border border-wolf">
-              <p className="text-sm text-charcoal font-medium leading-relaxed">
+            <div className="p-3.5 bg-background rounded-xl border border">
+              <p className="text-sm text-text font-medium leading-relaxed">
                 নতুন বিসিএস প্রশ্ন প্রস্তুত! এখনই দেখে নাও।
               </p>
-              <span className="text-[10px] text-hare font-bold mt-1.5 block uppercase">
+              <span className="text-[10px] text-text-muted font-bold mt-1.5 block uppercase">
                 এইমাত্র
               </span>
             </div>
@@ -278,7 +278,7 @@ const MobileBottomNav = () => {
 
   return (
     <nav
-      className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-white border-t border-wolf safe-bottom"
+      className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-surface border-t border safe-bottom"
       aria-label="Mobile navigation"
     >
       <div className="flex items-center justify-around py-1 px-1 max-w-lg mx-auto">
@@ -292,10 +292,10 @@ const MobileBottomNav = () => {
               to={item.path}
               className="flex flex-col items-center px-2 py-1.5 rounded-xl transition-all min-w-0 flex-1"
             >
-              <div className={`p-1.5 rounded-xl transition-all ${isActive ? 'text-primary' : 'text-hare'}`}>
+              <div className={`p-1.5 rounded-xl transition-all ${isActive ? 'text-primary' : 'text-text-muted'}`}>
                 <item.icon className="w-6 h-6" aria-hidden="true" />
               </div>
-              <span className={`text-[9px] font-bold mt-0.5 ${isActive ? 'text-primary' : 'text-hare'}`}>
+              <span className={`text-[9px] font-bold mt-0.5 ${isActive ? 'text-primary' : 'text-text-muted'}`}>
                 {item.label}
               </span>
             </NavLink>
@@ -347,18 +347,18 @@ const Layout = ({ children }) => {
   const sidebarToggle = () => setSidebarOpen(prev => !prev);
 
   return (
-    <div className="min-h-screen bg-eel text-charcoal selection:bg-primary/30 pb-16 md:pb-0 overflow-x-hidden max-w-full">
+    <div className="min-h-screen bg-background text-text selection:bg-primary/30 pb-16 md:pb-0 overflow-x-hidden max-w-full">
       {!hideLayout && (
         <Sidebar isOpen={sidebarOpen} toggle={sidebarToggle} onOpenReport={() => setReportOpen(true)} />
       )}
 
       <div className={`${!hideLayout ? 'md:ml-72' : ''} flex flex-col min-h-screen transition-all ${reducedMotion ? 'duration-0' : 'duration-300'}`}>
         {!hideLayout && (
-          <header className="h-16 md:h-18 flex items-center justify-between px-4 md:px-6 lg:px-8 bg-white border-b border-wolf sticky top-0 z-20 safe-top">
+          <header className="h-16 md:h-18 flex items-center justify-between px-4 md:px-6 lg:px-8 bg-surface border-b border sticky top-0 z-20 safe-top">
             <div className="flex items-center gap-3 min-w-0 flex-1">
               <button
                 onClick={sidebarToggle}
-                className="p-2 md:hidden text-hare hover:text-charcoal bg-wolf/30 rounded-xl touch-target flex items-center justify-center"
+                className="p-2 md:hidden text-text-muted hover:text-text bg-surface-hover rounded-xl touch-target flex items-center justify-center"
                 aria-label="Open sidebar"
                 aria-expanded={sidebarOpen}
               >
@@ -368,7 +368,7 @@ const Layout = ({ children }) => {
                 <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                   <span className="text-white font-black text-xs">80</span>
                 </div>
-                <span className="text-base font-black text-charcoal tracking-tight">
+                <span className="text-base font-black text-text tracking-tight">
                   80-20 Exam
                 </span>
               </Link>
@@ -377,7 +377,7 @@ const Layout = ({ children }) => {
             <div className="flex items-center gap-1.5 md:gap-2">
               <button
                 onClick={toggleTheme}
-                className="p-2.5 bg-white border border-wolf rounded-xl text-hare hover:text-charcoal hover:border-hare transition-all hidden md:flex items-center justify-center touch-target"
+                className="p-2.5 bg-surface border border rounded-xl text-text-muted hover:text-text hover:border transition-all hidden md:flex items-center justify-center touch-target"
                 aria-label={isDark ? 'লাইট মোড' : 'ডার্ক মোড'}
               >
                 {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
@@ -402,7 +402,7 @@ const Layout = ({ children }) => {
               {user && (
                 <Link
                   to="/profile"
-                  className="hidden sm:flex items-center gap-2 pl-3 border-l border-wolf"
+                  className="hidden sm:flex items-center gap-2 pl-3 border-l border"
                 >
                   <div className="w-9 h-9 bg-primary/10 rounded-xl border border-primary/20 flex items-center justify-center font-black text-primary text-sm uppercase shrink-0">
                     {user.user_metadata?.username?.[0]?.toUpperCase() || 'U'}
