@@ -3,6 +3,7 @@ import Loading from '../components/Loading';
 
 const AuthContext = createContext({});
 
+const IS_PROTOTYPE_AUTH = true;
 const STORAGE_KEY = 'exam_local_auth';
 
 const createDefaultSession = () => ({
@@ -35,6 +36,10 @@ export const AuthProvider = ({ children }) => {
         setProfile(savedSession.profile);
         localStorage.setItem(STORAGE_KEY, JSON.stringify(savedSession));
         setLoading(false);
+
+        if (IS_PROTOTYPE_AUTH) {
+            console.warn('[AuthContext] Running in prototype mode. All users share local storage. Replace with Supabase before launch.');
+        }
     }, []);
 
     const updateSession = (next) => {

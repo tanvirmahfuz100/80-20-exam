@@ -321,7 +321,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
             initial={{ opacity: 0, y: -6, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ duration: 0.12 }}
-            className="-translate-x-1/2 bg-surface border border-white/10 rounded-2xl shadow-2xl shadow-black/40 p-1.5 overflow-hidden"
+            className="-translate-x-1/2 bg-surface border border-white/10 rounded-2xl  p-1.5 overflow-hidden"
             style={{ width: activePopover.width || 'auto', minWidth: 200 }}
           >
             <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-2.5 h-2.5 bg-surface border-t border-l border-white/10 rotate-45" aria-hidden="true" />
@@ -408,7 +408,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
             aria-modal="true"
             aria-label="Explanation"
           >
-            <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" aria-hidden="true" />
+            <div className="absolute inset-0 bg-black/80" aria-hidden="true" />
 
             <motion.div
               ref={explanationRef}
@@ -417,7 +417,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
               exit={{ opacity: 0, y: 20, scale: 0.95 }}
               transition={{ duration: 0.25, ease: 'easeOut' }}
               className={`relative w-full max-w-sm md:max-w-md bg-surface rounded-2xl p-6 shadow-2xl ${
-                explanationPanel.isCorrect ? 'border border-emerald-500/20 shadow-emerald-500/5' : ''
+                explanationPanel.isCorrect ? 'border border-emerald-500/20' : ''
               }`}
               onClick={(e) => e.stopPropagation()}
             >

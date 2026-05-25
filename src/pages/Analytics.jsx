@@ -4,7 +4,7 @@ import {
   Target, TrendingUp, AlertTriangle, CheckCircle2,
   Clock, Sparkles, Zap
 } from 'lucide-react';
-import { api } from '../services/api';
+import { api } from '../services/localApi';
 import { useAuth } from '../context/AuthContext';
 import LottieAnimation from '../components/LottieAnimation';
 import LoadingScreen from '../components/LoadingScreen';
@@ -326,8 +326,8 @@ const Analytics = () => {
       </div>
 
       {/* ── Smart Recommendation ── */}
-      <motion.div variants={itemVariants} className="relative bg-gradient-to-r from-primary/[0.12] to-primary/[0.02] rounded-xl border border-primary/30 p-5 md:p-6 space-y-3 overflow-hidden shadow-lg shadow-primary/5">
-        <div className="absolute inset-y-0 left-0 w-1 bg-primary rounded-full shadow-lg shadow-primary/40" />
+      <motion.div variants={itemVariants} className="relative bg-primary/[0.07] rounded-xl border border-primary/30 p-5 md:p-6 space-y-3 overflow-hidden">
+        <div className="absolute inset-y-0 left-0 w-1 bg-primary rounded-full" />
         <div className="absolute -top-6 -right-6 w-32 h-32 bg-primary/[0.04] rounded-full blur-3xl" />
         <div className="flex items-center gap-2">
           <div className="p-1.5 rounded-lg bg-primary/10 border border-primary/20">
@@ -358,7 +358,7 @@ const Analytics = () => {
           </div>
         </div>
 
-        <AccentBar pct={accuracy} color="bg-gradient-to-r from-primary to-primary-hover" />
+        <AccentBar pct={accuracy} color="bg-primary" />
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
           {[

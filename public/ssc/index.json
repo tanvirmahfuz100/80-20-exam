@@ -22,6 +22,91 @@
           ]
         }
       ]
+    },
+    {
+      "id": "accounting",
+      "name": "Accounting",
+      "icon": "BookOpen",
+      "name_bn": "হিসাববিজ্ঞান",
+      "name_en": "Accounting",
+      "topics": [
+        {
+          "id": "board_2025",
+          "name": "Board Exams 2025",
+          "name_bn": "বোর্ড পরীক্ষা ২০২৫",
+          "name_en": "Board Exams 2025",
+          "chapters": [
+            {
+              "id": "board_dhaka_2025",
+              "name": "Dhaka Board 2025",
+              "name_bn": "ঢাকা বোর্ড ২০২৫",
+              "file": "/ssc/accounting/board_dhaka_2025.json"
+            }
+          ]
+        },
+        {
+          "id": "board_2026",
+          "name": "Board Exams 2026",
+          "name_bn": "বোর্ড পরীক্ষা ২০২৬",
+          "name_en": "Board Exams 2026",
+          "chapters": [
+            {
+              "id": "board_dhaka_2026",
+              "name": "Dhaka Board 2026",
+              "name_bn": "ঢাকা বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_dhaka_2026.json"
+            },
+            {
+              "id": "board_barishal_2026",
+              "name": "Barishal Board 2026",
+              "name_bn": "বরিশাল বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_barishal_2026.json"
+            },
+            {
+              "id": "board_jashore_2026",
+              "name": "Jashore Board 2026",
+              "name_bn": "যশোর বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_jashore_2026.json"
+            },
+            {
+              "id": "board_cumilla_2026",
+              "name": "Cumilla Board 2026",
+              "name_bn": "কুমিল্লা বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_cumilla_2026.json"
+            },
+            {
+              "id": "board_rajshahi_2026",
+              "name": "Rajshahi Board 2026",
+              "name_bn": "রাজশাহী বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_rajshahi_2026.json"
+            },
+            {
+              "id": "board_chattogram_2026",
+              "name": "Chattogram Board 2026",
+              "name_bn": "চট্টগ্রাম বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_chattogram_2026.json"
+            },
+            {
+              "id": "board_dinajpur_2026",
+              "name": "Dinajpur Board 2026",
+              "name_bn": "দিনাজপুর বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_dinajpur_2026.json"
+            },
+            {
+              "id": "board_sylhet_2026",
+              "name": "Sylhet Board 2026",
+              "name_bn": "সিলেট বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_sylhet_2026.json"
+            },
+            {
+              "id": "board_mymensingh_2026",
+              "name": "Mymensingh Board 2026",
+              "name_bn": "ময়মনসিংহ বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_mymensingh_2026.json"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

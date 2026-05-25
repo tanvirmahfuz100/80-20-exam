@@ -1,11 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Star, ArrowRight, CheckCircle, Clock, Sparkles, Brain } from 'lucide-react';
+import { Star, ArrowRight, CheckCircle, Clock, Sparkles, Brain, Zap, BookOpen } from 'lucide-react';
 import { getMistakeGroups, startReviewSession, startAllReviewSession, REVIEW_INTERVALS } from '../services/review';
+import { getUserStats } from '../services/levels';
+import { useAuth } from '../context/AuthContext';
 
 const Stars = () => {
   const navigate = useNavigate();
+  const { user } = useAuth();
   const [groups, setGroups] = useState([]);
+  const [stats, setStats] = useState({ total_xp: 0, total_stars: 0 });
+
+  useEffect(() => {
+    if (user?.id) {
+      setStats(getUserStats(user.id));
+    }
+  }, [user]);
 
   useEffect(() => {
     setGroups(getMistakeGroups());
@@ -36,6 +46,45 @@ const Stars = () => {
 
   return (
     <div className="max-w-3xl mx-auto space-y-6">
+      <div className="grid grid-cols-2 gap-3 mb-8">
+        <div className="bg-surface border border-white/5 rounded-xl p-4">
+          <div className="text-[9px] font-black uppercase tracking-widest text-white/30 mb-1 flex items-center gap-1">
+            <Zap className="w-3 h-3" />
+            Total XP
+          </div>
+          <div className="text-2xl font-black tracking-tighter text-primary">
+            {stats.total_xp}
+          </div>
+        </div>
+        <div className="bg-surface border border-white/5 rounded-xl p-4">
+          <div className="text-[9px] font-black uppercase tracking-widest text-white/30 mb-1 flex items-center gap-1">
+            <Star className="w-3 h-3" />
+            To Review
+          </div>
+          <div className="text-2xl font-black tracking-tighter text-yellow-300">
+            {totalMistakes}
+          </div>
+        </div>
+        <div className="bg-surface border border-white/5 rounded-xl p-4">
+          <div className="text-[9px] font-black uppercase tracking-widest text-white/30 mb-1 flex items-center gap-1">
+            <Clock className="w-3 h-3" />
+            Due Now
+          </div>
+          <div className="text-2xl font-black tracking-tighter text-yellow-400">
+            {totalDue}
+          </div>
+        </div>
+        <div className="bg-surface border border-white/5 rounded-xl p-4">
+          <div className="text-[9px] font-black uppercase tracking-widest text-white/30 mb-1 flex items-center gap-1">
+            <BookOpen className="w-3 h-3" />
+            All Time Stars
+          </div>
+          <div className="text-2xl font-black tracking-tighter text-white/60">
+            {stats.total_stars}
+          </div>
+        </div>
+      </div>
+
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl md:text-3xl font-black text-white tracking-tighter flex items-center gap-3">
@@ -52,7 +101,7 @@ const Stars = () => {
         {totalDue > 0 && (
           <button
             onClick={handleReviewAll}
-            className="inline-flex items-center gap-2 bg-primary text-black px-5 py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all hover:bg-primary-hover active:scale-[0.98] shadow-lg shadow-primary/20"
+            className="inline-flex items-center gap-2 bg-primary text-black px-5 py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all hover:bg-primary-hover active:scale-[0.98] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
           >
             <Sparkles className="w-3.5 h-3.5" />
             Review All Due

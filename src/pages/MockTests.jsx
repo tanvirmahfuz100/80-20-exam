@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Timer, ClipboardList, TrendingUp, Lock, ArrowRight, CheckCircle2, Star } from 'lucide-react';
-import { api } from '../services/api';
+import { api } from '../services/localApi';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { Target, Trophy } from '../components/Illustrations';
@@ -117,7 +117,7 @@ const MockTests = () => {
 
                                 <button
                                     onClick={() => startTest(test.id)}
-                                    className="flex w-full items-center justify-center gap-2 rounded-xl md:rounded-[1.4rem] bg-primary py-3 md:py-4 text-[9px] font-black uppercase tracking-widest text-black shadow-lg shadow-primary/20 transition-all active:scale-95 hover:bg-primary-hover"
+                                    className="flex w-full items-center justify-center gap-2 rounded-xl md:rounded-[1.4rem] bg-primary py-3 md:py-4 text-[9px] font-black uppercase tracking-widest text-black border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] transition-all active:scale-95 hover:bg-primary-hover"
                                 >
                                     Start Mock Test <ArrowRight className="h-4 w-4" />
                                 </button>

@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;700&family=Nunito+Sans:wght@400;600;700;800;900&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,12 +5,12 @@
 @layer base {
   :root {
     --app-font-size: 16px;
-    --color-background: 0 0 0;
-    --color-sidebar: 8 8 8;
-    --color-surface: 12 12 13;
-    --color-surface-hover: 22 22 24;
-    --color-surface-alt: 26 26 28;
-    --color-surface-active: 42 42 45;
+    --color-background: 15 18 30;
+    --color-sidebar: 19 23 38;
+    --color-surface: 25 30 48;
+    --color-surface-hover: 32 38 58;
+    --color-surface-alt: 38 45 68;
+    --color-surface-active: 52 60 88;
     --color-text: 255 255 255;
     --color-text-muted: 138 143 152;
     --color-text-dim: 75 78 82;
@@ -187,12 +185,12 @@
 
 @layer utilities {
   .glass {
-    @apply backdrop-blur-md bg-white/6 border border-white/10 shadow-xl;
+    @apply bg-white/10 border border-white/10 shadow-xl;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
   }
 
   .glass-strong {
-    @apply backdrop-blur-xl bg-black/60 border border-white/10 shadow-2xl;
+    @apply bg-black/80 border border-white/10 shadow-2xl;
   }
 
   .bn-text {
@@ -359,17 +357,6 @@ body.low-end {
   --low-end-reduced: 1;
 }
 
-body.low-end .backdrop-blur-sm,
-body.low-end .backdrop-blur,
-body.low-end .backdrop-blur-md,
-body.low-end .backdrop-blur-lg,
-body.low-end .backdrop-blur-xl,
-body.low-end .backdrop-blur-2xl,
-body.low-end .backdrop-blur-3xl {
-  backdrop-filter: none !important;
-  -webkit-backdrop-filter: none !important;
-}
-
 body.low-end .blur-3xl,
 body.low-end .blur-2xl,
 body.low-end .blur-xl,
@@ -385,17 +372,6 @@ body.low-end .shadow-2xl {
   box-shadow: none !important;
 }
 
-body.low-end .bg-gradient-to-r,
-body.low-end .bg-gradient-to-l,
-body.low-end .bg-gradient-to-t,
-body.low-end .bg-gradient-to-b,
-body.low-end .bg-gradient-to-tr,
-body.low-end .bg-gradient-to-tl,
-body.low-end .bg-gradient-to-br,
-body.low-end .bg-gradient-to-bl {
-  background-image: none !important;
-}
-
 body.low-end .glass {
   @apply bg-white/10 border border-white/10;
   backdrop-filter: none !important;
@@ -408,4 +384,27 @@ body.low-end .glass-strong {
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
   box-shadow: none !important;
+}
+
+body.low-end * {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+}
+
+body.low-end .motion-safe-only {
+  display: none !important;
+}
+
+body.low-end .animate-pulse,
+body.low-end .animate-spin,
+body.low-end .animate-bounce,
+body.low-end .animate-ping {
+  animation: none !important;
+}
+
+body.low-end img,
+body.low-end svg {
+  -webkit-user-drag: none;
+  user-select: none;
 }

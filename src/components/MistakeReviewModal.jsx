@@ -33,7 +33,7 @@ const MistakeReviewModal = ({ isOpen, onClose }) => {
   const totalDue = groups.reduce((sum, g) => sum + g.dueNow, 0);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 backdrop-blur-sm">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/85 p-4">
       <div className="w-full max-w-lg bg-background border border-white/10 rounded-[2rem] shadow-2xl overflow-hidden">
         <div className="flex items-center justify-between p-6 border-b border-white/5">
           <div>

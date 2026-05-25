@@ -1,19 +1,8 @@
+import { readStorage, writeStorage } from '../utils/storage';
+
 const LEVELS_KEY = 'exam_levels_progress';
 const USER_STATS_KEY = 'exam_user_stats';
 const CHALLENGES_KEY = 'exam_challenges';
-
-const readStorage = (key, fallback = {}) => {
-  try {
-    const raw = localStorage.getItem(key);
-    return raw ? JSON.parse(raw) : fallback;
-  } catch {
-    return fallback;
-  }
-};
-
-const writeStorage = (key, data) => {
-  localStorage.setItem(key, JSON.stringify(data));
-};
 
 export function computeLevels(normalizedQuestions) {
   if (!normalizedQuestions || normalizedQuestions.length === 0) return [];

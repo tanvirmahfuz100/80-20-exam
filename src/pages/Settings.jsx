@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
-import { api } from '../services/api';
+import { api } from '../services/localApi';
 import { useTheme } from '../context/ThemeContext';
 import LoadingScreen from '../components/LoadingScreen';
 import {
@@ -87,7 +87,7 @@ const Settings = () => {
                 <button
                     onClick={handleSave}
                     disabled={loading}
-                    className="inline-flex items-center gap-2 md:gap-3 px-4 md:px-8 py-2.5 md:py-4 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-lg md:rounded-2xl font-black text-[10px] uppercase tracking-widest transition-all shadow-lg shadow-primary/20 active:scale-95 shrink-0"
+                    className="inline-flex items-center gap-2 md:gap-3 px-4 md:px-8 py-2.5 md:py-4 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-lg md:rounded-2xl font-black text-[10px] uppercase tracking-widest transition-all border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px] active:scale-95 shrink-0"
                 >
                     {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Save className="w-3.5 h-3.5 md:w-4 md:h-4" />}
                     Save Changes
@@ -170,7 +170,7 @@ const Settings = () => {
                                     key={exam}
                                     onClick={() => toggleExam(exam)}
                                     className={`p-3 md:p-4 rounded-xl border text-left flex items-center justify-between transition-all active:scale-[0.98] ${formData.target_exams.includes(exam)
-                                            ? 'bg-emerald-500/10 border-emerald-500/20 text-emerald-500 shadow-lg shadow-emerald-500/5'
+                                            ? 'bg-emerald-500/10 border-emerald-500/20 text-emerald-500'
                                             : 'bg-background border-white/5 text-white/40 hover:border-white/20 hover:text-white'
                                         }`}
                                 >
@@ -189,7 +189,7 @@ const Settings = () => {
                                         type="button"
                                         onClick={() => setFormData({ ...formData, question_version: version })}
                                         className={`px-4 py-3 md:py-4 rounded-xl md:rounded-2xl border text-left uppercase text-[10px] font-black transition-all active:scale-[0.98] ${formData.question_version === version
-                                            ? 'bg-primary text-white border-primary shadow-lg shadow-primary/20'
+                                            ? 'bg-primary text-white border-primary'
                                             : 'bg-background border-white/5 text-white/50 hover:border-white/20 hover:text-white'
                                             }`}
                                     >
@@ -217,7 +217,7 @@ const Settings = () => {
                                     onClick={() => setTheme('dark')}
                                     className={`p-5 rounded-2xl border text-left transition-all active:scale-[0.98] ${
                                         isDark
-                                            ? 'bg-primary/10 border-primary shadow-lg shadow-primary/10'
+                                            ? 'bg-primary/10 border-primary'
                                             : 'bg-background border-white/5 hover:border-white/20'
                                     }`}
                                 >
@@ -231,7 +231,7 @@ const Settings = () => {
                                     onClick={() => setTheme('light')}
                                     className={`p-5 rounded-2xl border text-left transition-all active:scale-[0.98] ${
                                         !isDark
-                                            ? 'bg-primary/10 border-primary shadow-lg shadow-primary/10'
+                                            ? 'bg-primary/10 border-primary'
                                             : 'bg-background border-white/5 hover:border-white/20'
                                     }`}
                                 >

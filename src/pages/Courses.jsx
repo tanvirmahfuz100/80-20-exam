@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Play, Lock, User } from 'lucide-react';
-import { api } from '../services/api';
+import { api } from '../services/localApi';
 import { useAuth } from '../context/AuthContext';
 import { Books } from '../components/Illustrations';
 import LottieAnimation from '../components/LottieAnimation';
@@ -32,7 +32,7 @@ const Courses = () => {
 
     return (
         <div className="max-w-7xl mx-auto space-y-8 md:space-y-12">
-            <div className="relative overflow-hidden rounded-3xl bg-surface p-6 md:p-8 shadow-2xl shadow-black/30 flex flex-col md:flex-row md:items-end justify-between gap-6 md:gap-8">
+            <div className="relative overflow-hidden rounded-3xl bg-surface p-6 md:p-8 flex flex-col md:flex-row md:items-end justify-between gap-6 md:gap-8">
                 <div className="absolute -bottom-8 -right-8 w-44 h-44 opacity-[0.06] pointer-events-none">
                     <LottieAnimation src={booksAnimation} className="w-full h-full" pingPong />
                 </div>
@@ -104,7 +104,7 @@ const Courses = () => {
                                 disabled={course.is_premium && profile?.plan_type !== 'premium'}
                                 className={`w-full py-3 md:py-4 rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] ${course.is_premium && profile?.plan_type !== 'premium'
                                         ? 'bg-white/5 text-white/20 cursor-not-allowed'
-                                        : 'bg-primary hover:bg-primary-hover text-white shadow-lg shadow-primary/20'
+                                        : 'bg-primary hover:bg-primary-hover text-white'
                                     }`}
                             >
                                 {course.is_premium && profile?.plan_type !== 'premium' ? (

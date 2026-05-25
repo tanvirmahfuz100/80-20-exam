@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion as Motion } from 'framer-motion';
 import { useAuth } from '../context/AuthContext';
-import { api } from '../services/api';
+import { api } from '../services/localApi';
 import { Rocket, CheckList } from '../components/Illustrations';
 import LottieAnimation from '../components/LottieAnimation';
 import LoadingScreen from '../components/LoadingScreen';
@@ -10,6 +10,8 @@ import gameControllerAnimation from '../assets/game-controller.json';
 import speedometerAnimation from '../assets/speedometer.json';
 import particleWaveAnimation from '../assets/particle-wave.json';
 import { getChallengeState, getDailyChallengeKey, getWeeklyChallengeKey, getDailyChallengesForExam, getWeeklyChallengeForExam, getDailyChallengeExpiry, getWeeklyChallengeExpiry, getUserStats } from '../services/levels';
+import { useCountdown } from '../hooks/useCountdown';
+import { useDashboardData } from '../hooks/useDashboardData';
 import {
   Target, Brain, BookOpen, TrendingUp, ArrowRight,
   Crown, Flame, BadgeCheck, Clock, Zap,
@@ -90,69 +92,19 @@ const itemVariants = {
 
 const Dashboard = () => {
   const { user, profile } = useAuth();
-  const [availableExams, setAvailableExams] = React.useState([]);
-  const [statsData, setStatsData] = React.useState({
-    totalPracticed: 0, accuracy: 0, totalTimeInMinutes: 0, correctOnes: 0, wrongOnes: 0,
-  });
-  const [practiceSessions, setPracticeSessions] = React.useState([]);
-  const [focusAreas, setFocusAreas] = React.useState([]);
-  const [loading, setLoading] = React.useState(true);
+  const { statsData, practiceSessions, focusAreas, loading } = useDashboardData(user?.id);
+  const countdown = useCountdown({ daily: getDailyChallengeExpiry, weekly: getWeeklyChallengeExpiry });
 
+  const [availableExams, setAvailableExams] = React.useState([]);
   const [dailyChallenges, setDailyChallenges] = useState([]);
-  const [weeklyChallenge, setWeeklyChallengeState] = useState(null);
+  const [weeklyChallenge, setWeeklyChallenge] = useState(null);
   const [userGameStats, setUserGameStats] = useState({ total_xp: 0, total_stars: 0 });
-  const [countdown, setCountdown] = useState({ daily: { hours: 0, minutes: 0 }, weekly: { days: 0, hours: 0 } });
 
   useEffect(() => {
     if (user?.id) setUserGameStats(getUserStats(user.id));
     const examId = 'ssc';
     setDailyChallenges(getDailyChallengesForExam(examId));
-    setWeeklyChallengeState(getWeeklyChallengeForExam(examId));
-
-    const tick = () => {
-      setCountdown({
-        daily: getDailyChallengeExpiry(),
-        weekly: getWeeklyChallengeExpiry(),
-      });
-    };
-    tick();
-    const interval = setInterval(tick, 60000);
-    return () => clearInterval(interval);
-  }, [user]);
-
-  React.useEffect(() => {
-    api.getUserStats(user.id).then(({ data }) => { if (data) setStatsData(data); setLoading(false); });
-  }, [user]);
-
-  React.useEffect(() => {
-    api.getUserPracticeSessions(user.id).then(({ data }) => setPracticeSessions(data || []));
-  }, [user]);
-
-  React.useEffect(() => {
-    api.getUserResponses(user.id).then(({ data: responses }) => {
-      if (responses?.length > 0) {
-        const grouped = {};
-        responses.forEach((r) => {
-          const s = subjectFromPath(r.source_file);
-          if (!grouped[s]) grouped[s] = { correct: 0, total: 0 };
-          grouped[s].total++;
-          if (r.is_correct) grouped[s].correct++;
-        });
-        setFocusAreas(
-          Object.entries(grouped)
-            .map(([label, { correct, total }]) => {
-              const val = Math.round((correct / total) * 100);
-              let status, color, tone;
-              if (val >= 80) { status = 'Strong'; color = 'bg-accent'; tone = 'text-accent'; }
-              else if (val >= 50) { status = 'Building'; color = 'bg-primary'; tone = 'text-primary'; }
-              else { status = 'Needs work'; color = 'bg-reward'; tone = 'text-reward'; }
-              return { label, status, val, color, tone };
-            })
-            .sort((a, b) => b.val - a.val)
-            .slice(0, 4)
-        );
-      }
-    });
+    setWeeklyChallenge(getWeeklyChallengeForExam(examId));
   }, [user]);
 
   React.useEffect(() => {
@@ -250,7 +202,7 @@ const Dashboard = () => {
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
           <Link
             to="/practice"
-            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-black transition-all active:scale-[0.97] shadow-lg shadow-primary/25"
+            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-black transition-all active:scale-[0.97] border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
           >
             Start Practice
             <ArrowRight className="w-3.5 h-3.5" />
@@ -515,7 +467,7 @@ const Dashboard = () => {
       ) : (
         <Motion.div variants={itemVariants} className="space-y-4">
           {/* Gamify Banner */}
-          <div className="relative overflow-hidden rounded-3xl bg-surface p-6 shadow-2xl shadow-black/30">
+          <div className="relative overflow-hidden rounded-3xl bg-surface p-6">
             <div className="absolute top-0 right-0 w-48 h-48 bg-primary/[0.03] rounded-full blur-3xl pointer-events-none" />
             <div className="absolute -top-8 -right-8 w-36 h-36 opacity-[0.08] pointer-events-none">
               <LottieAnimation src={gameControllerAnimation} className="w-full h-full" lottieStyle={{ transform: 'scale(1.5)', transformOrigin: 'center center' }} pingPong />
@@ -540,7 +492,7 @@ const Dashboard = () => {
           </div>
 
           {/* Launch CTA */}
-          <div className="relative overflow-hidden rounded-3xl bg-surface p-6 shadow-2xl shadow-black/30">
+          <div className="relative overflow-hidden rounded-3xl bg-surface p-6">
             <div className="absolute top-0 right-0 w-48 h-48 bg-primary/[0.03] rounded-full blur-3xl pointer-events-none" />
             <div className="absolute -top-8 -right-8 w-36 h-36 opacity-[0.06] pointer-events-none">
               <LottieAnimation src={speedometerAnimation} className="w-full h-full" pingPong />
@@ -564,7 +516,7 @@ const Dashboard = () => {
                 <div className="flex flex-col xs:flex-row items-start xs:items-center gap-3">
                   <Link
                     to="/practice"
-                    className="inline-flex items-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-6 py-3 text-2xs font-black uppercase tracking-[0.2em] text-black transition-all active:scale-95 shadow-lg shadow-primary/25"
+                    className="inline-flex items-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-6 py-3 text-2xs font-black uppercase tracking-[0.2em] text-black transition-all active:scale-95 border-b-4 border-primary-hover active:border-b-0 active:translate-y-[2px]"
                   >
                     Start Your First Practice <ArrowRight className="w-3.5 h-3.5" />
                   </Link>

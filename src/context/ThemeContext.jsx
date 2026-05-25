@@ -36,7 +36,7 @@ const getInitialTheme = () => {
     const stored = localStorage.getItem(THEME_KEY);
     if (stored === LIGHT || stored === DARK) return stored;
   } catch {}
-  return getSystemPreference();
+  return DARK;
 };
 
 const getInitialFontSize = () => {
