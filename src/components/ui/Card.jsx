@@ -7,15 +7,15 @@ export default function Card({
   ...props
 }) {
   const paddings = {
-    sm: 'p-3 md:p-4',
-    md: 'p-4 md:p-6',
-    lg: 'p-5 md:p-10',
+    sm: 'p-3',
+    md: 'p-4 md:p-5',
+    lg: 'p-5 md:p-8',
   };
 
   return (
     <div
       onClick={onClick}
-      className={`bg-surface border border-white/5 rounded-2xl md:rounded-3xl shadow-lg ${paddings[padding] || paddings.md} ${hover ? 'hover:border-white/20 transition-all cursor-pointer' : ''} ${onClick ? 'cursor-pointer' : ''} ${className}`}
+      className={`bg-white border border-wolf rounded-2xl shadow-sm ${paddings[padding] || paddings.md} ${hover ? 'hover:border-primary/40 hover:shadow-md transition-all cursor-pointer' : ''} ${onClick ? 'cursor-pointer' : ''} ${className}`}
       {...props}
     >
       {children}

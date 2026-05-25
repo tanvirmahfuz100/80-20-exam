@@ -43,10 +43,10 @@ export const steps = [
 export const ProgressBar = ({ completed, total, color }) => {
     if (total === 0) return null;
     const pct = Math.min(Math.round((completed / total) * 100), 100);
-    const barColor = color || '#f54123';
+    const barColor = color || '#93D333';
     return (
         <div className="flex items-center gap-2 w-full">
-            <div className="flex-1 h-2 bg-white/10 rounded-full overflow-hidden">
+            <div className="flex-1 h-1.5 bg-eel rounded-full overflow-hidden">
                 <motion.div
                     className="h-full rounded-full"
                     initial={{ width: 0 }}
@@ -55,7 +55,7 @@ export const ProgressBar = ({ completed, total, color }) => {
                     style={{ backgroundColor: barColor }}
                 />
             </div>
-            <span className="text-[11px] font-black tabular-nums whitespace-nowrap" style={{ color: barColor }}>{pct}%</span>
+            <span className="text-[10px] font-bold tabular-nums whitespace-nowrap text-hare">{pct}%</span>
         </div>
     );
 };
@@ -69,24 +69,24 @@ export const ExamCard = ({ exam, isSelected, onClick, progress }) => {
         <motion.button
             onClick={onClick}
             whileTap={{ scale: 0.98 }}
-            className="relative flex items-center gap-3 p-3.5 rounded-xl border transition-all text-left w-full group"
+            className="relative flex items-center gap-3 p-3.5 rounded-2xl border-2 transition-all text-left w-full group"
             style={{
-                backgroundColor: isSelected ? colors.bg : 'rgba(255,255,255,0.03)',
-                borderColor: isSelected ? colors.accent : 'rgba(255,255,255,0.06)',
+                backgroundColor: isSelected ? colors.bg : 'white',
+                borderColor: isSelected ? colors.accent : 'var(--color-wolf)',
             }}
         >
-            <div className="absolute left-0 top-2.5 bottom-2.5 w-[3px] rounded-full transition-all" style={{ backgroundColor: isSelected ? colors.accent : 'rgba(255,255,255,0.08)' }} />
+            <div className={`w-1 rounded-full transition-all shrink-0`} style={{ backgroundColor: isSelected ? colors.accent : 'transparent', height: '40px' }} />
 
-            <div className="flex-1 min-w-0 pl-3">
+            <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 flex-wrap">
-                    <h3 className="text-xl md:text-2xl font-black text-white tracking-tight leading-none">{exam.label}</h3>
+                    <h3 className="text-xl md:text-2xl font-bold text-charcoal tracking-tight leading-none">{exam.label}</h3>
                     {inProgress && (
-                        <span className="text-[7px] font-black uppercase tracking-[0.2em] px-1.5 py-0.5 rounded" style={{ color: colors.accent, backgroundColor: colors.bg }}>
+                        <span className="text-[7px] font-bold uppercase tracking-[0.2em] px-1.5 py-0.5 rounded-full" style={{ color: colors.accent, backgroundColor: colors.bg }}>
                             অ্যাকটিভ
                         </span>
                     )}
                 </div>
-                <p className="text-[11px] text-white/30 font-medium mt-0.5 leading-tight">{exam.note}</p>
+                <p className="text-[11px] text-hare font-medium mt-0.5 leading-tight">{exam.note}</p>
 
                 <div className="mt-2.5">
                     <ProgressBar completed={progress.completed} total={progress.total} color={colors.accent} />
@@ -95,15 +95,15 @@ export const ExamCard = ({ exam, isSelected, onClick, progress }) => {
 
             <div className="flex flex-col items-center gap-1 shrink-0">
                 <div
-                    className="w-9 h-9 rounded-xl flex items-center justify-center transition-all"
+                    className="w-9 h-9 rounded-full flex items-center justify-center transition-all"
                     style={{
-                        backgroundColor: isSelected ? colors.accent : 'rgba(255,255,255,0.05)',
-                        color: isSelected ? '#000' : 'rgba(255,255,255,0.25)',
+                        backgroundColor: isSelected ? colors.accent : '#e5e5e5',
+                        color: isSelected ? '#fff' : '#999',
                     }}
                 >
                     <ArrowRight className="w-4 h-4" />
                 </div>
-                <span className="text-[7px] font-black uppercase tracking-widest transition-all" style={{ color: isSelected ? colors.accent : 'rgba(255,255,255,0.15)' }}>
+                <span className="text-[7px] font-bold uppercase tracking-widest transition-all" style={{ color: isSelected ? colors.accent : '#999' }}>
                     {isSelected ? 'খোলো' : 'শুরু করো'}
                 </span>
             </div>
@@ -114,14 +114,13 @@ export const ExamCard = ({ exam, isSelected, onClick, progress }) => {
 export const InactiveExam = ({ exam }) => {
     const colors = examColors[exam.id] || examColors.ssc;
     return (
-        <div className="relative flex items-center gap-3 p-3.5 rounded-xl border border-white/[0.06] opacity-40 cursor-not-allowed bg-white/[0.02]">
-            <div className="absolute left-0 top-2.5 bottom-2.5 w-[3px] rounded-full" style={{ backgroundColor: 'rgba(255,255,255,0.06)' }} />
-            <div className="flex-1 min-w-0 pl-3">
+        <div className="relative flex items-center gap-3 p-3.5 rounded-2xl border-2 border-wolf opacity-40 cursor-not-allowed bg-white">
+            <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2">
-                    <h3 className="text-xl md:text-2xl font-black text-white/50 tracking-tight leading-none">{exam.label}</h3>
-                    <span className="text-[7px] font-black uppercase tracking-[0.2em] px-1.5 py-0.5 rounded bg-white/5 text-white/15">শীঘ্রই</span>
+                    <h3 className="text-xl md:text-2xl font-bold text-hare tracking-tight leading-none">{exam.label}</h3>
+                    <span className="text-[7px] font-bold uppercase tracking-[0.2em] px-1.5 py-0.5 rounded-full bg-eel text-hare">শীঘ্রই</span>
                 </div>
-                <p className="text-[11px] text-white/15 font-medium mt-0.5">{exam.note}</p>
+                <p className="text-[11px] text-hare/50 font-medium mt-0.5">{exam.note}</p>
             </div>
         </div>
     );
@@ -136,34 +135,32 @@ export const SubjectCard = ({ subject, isSelected, onClick, progress, version })
         <motion.button
             onClick={onClick}
             whileTap={{ scale: 0.98 }}
-            className={`relative w-full text-left rounded-xl border transition-all group ${
+            className={`relative w-full text-left rounded-2xl border-2 transition-all ${
                 isSelected
-                    ? 'bg-primary/12 border-primary ring-2 ring-primary/30'
-                    : 'bg-surface border-white/5 hover:border-primary/30 hover:bg-white/[0.03]'
+                    ? 'bg-primary/10 border-primary ring-2 ring-primary/30'
+                    : 'bg-white border-wolf hover:border-primary/40 hover:shadow-md'
             }`}>
             {isSelected && (
-                <div className="absolute top-0 right-0 p-2 bg-primary/20 text-primary rounded-bl-xl z-10">
-                    <ShieldCheck className="w-3 h-3" />
+                <div className="absolute top-2 right-2 p-1.5 bg-primary text-white rounded-full z-10">
+                    <Check className="w-3 h-3" />
                 </div>
             )}
 
             <div className="grid grid-cols-[auto_1fr_auto] items-center gap-3 p-4">
                 <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-all ${
-                    isSelected ? 'bg-primary text-white' : 'bg-surface-alt text-white/30 group-hover:text-white/50'
+                    isSelected ? 'bg-primary text-white' : 'bg-eel text-hare'
                 }`}>
                     <Icon className="w-5 h-5" />
                 </div>
 
                 <div className="min-w-0 break-words">
-                    <h3 className={`font-black tracking-tight text-sm leading-tight ${
-                        isSelected ? 'text-white' : 'text-white/60 group-hover:text-white/80'
-                    }`}>{version === 'english' ? (subject.name_en || subject.name) : (subject.name_bn || subject.name)}</h3>
-                    <p className="text-[10px] font-black uppercase tracking-[0.15em] text-white/20 mt-0.5">{moduleCount}টি মডিউল</p>
+                    <h3 className="font-bold text-sm leading-tight text-charcoal">{version === 'english' ? (subject.name_en || subject.name) : (subject.name_bn || subject.name)}</h3>
+                    <p className="text-[10px] font-medium text-hare mt-0.5">{moduleCount}টি মডিউল</p>
                 </div>
 
                 <div className="flex items-center justify-end">
                     <div className="flex items-center gap-1.5 w-full max-w-[5.5rem]">
-                        <div className="flex-1 h-1.5 bg-white/10 rounded-full overflow-hidden">
+                        <div className="flex-1 h-1.5 bg-eel rounded-full overflow-hidden">
                             <motion.div
                                 className="h-full rounded-full bg-primary"
                                 initial={{ width: 0 }}
@@ -171,7 +168,7 @@ export const SubjectCard = ({ subject, isSelected, onClick, progress, version })
                                 transition={{ duration: 0.6, ease: 'easeOut' }}
                             />
                         </div>
-                        <span className="text-[10px] font-black tabular-nums text-primary/80 w-8 text-right shrink-0">{pct}%</span>
+                        <span className="text-[10px] font-bold tabular-nums text-primary w-8 text-right shrink-0">{pct}%</span>
                     </div>
                 </div>
             </div>
@@ -197,31 +194,31 @@ export const ChapterItem = ({ chapter, topic, onClick, questionCount, completedC
 
     return (
         <motion.div
-            className={`relative rounded-xl border transition-all ${
+            className={`relative rounded-2xl border-2 transition-all ${
                 hasQuestions
-                    ? 'bg-surface border-white/5 hover:border-primary/30 hover:bg-white/[0.03]'
-                    : 'bg-surface/50 border-white/[0.04] opacity-50'
+                    ? 'bg-white border-wolf hover:border-primary/40 hover:shadow-md'
+                    : 'bg-eel/50 border-wolf/50 opacity-50'
             }`}
         >
             <div className="grid grid-cols-[auto_1fr_auto] items-center gap-3 p-4">
-                <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 font-black text-sm ${
-                    hasQuestions ? 'bg-primary/15 text-primary' : 'bg-white/[0.04] text-white/15'
+                <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 font-bold text-sm ${
+                    hasQuestions ? 'bg-primary/15 text-primary' : 'bg-eel text-hare/50'
                 }`}>
                     {padIndex}
                 </div>
 
                 <div className="min-w-0">
-                    <h4 className={`font-black tracking-tight text-sm leading-tight truncate ${
-                        hasQuestions ? 'text-white' : 'text-white/40'
+                    <h4 className={`font-bold text-sm leading-tight truncate ${
+                        hasQuestions ? 'text-charcoal' : 'text-hare/50'
                     }`}>{cleanName}</h4>
                     {hasQuestions ? (
-                        <p className="text-[10px] font-bold text-primary/60 mt-0.5">{questionCount}টি প্রশ্ন</p>
+                        <p className="text-[10px] font-medium text-hare mt-0.5">{questionCount}টি প্রশ্ন</p>
                     ) : (
-                        <p className="text-[10px] font-bold text-white/15 mt-0.5">শীঘ্রই আসছে</p>
+                        <p className="text-[10px] font-medium text-hare/40 mt-0.5">শীঘ্রই আসছে</p>
                     )}
                     {hasQuestions && (
                         <div className="flex items-center gap-2 mt-2">
-                            <div className="flex-1 h-1.5 bg-white/10 rounded-full overflow-hidden max-w-[7rem]">
+                            <div className="flex-1 h-1.5 bg-eel rounded-full overflow-hidden max-w-[7rem]">
                                 <motion.div
                                     className="h-full rounded-full bg-primary"
                                     initial={{ width: 0 }}
@@ -229,7 +226,7 @@ export const ChapterItem = ({ chapter, topic, onClick, questionCount, completedC
                                     transition={{ duration: 0.6, ease: 'easeOut' }}
                                 />
                             </div>
-                            <span className="text-[10px] font-black tabular-nums text-primary/60 w-7 text-right shrink-0">{pct}%</span>
+                            <span className="text-[10px] font-bold tabular-nums text-primary w-7 text-right shrink-0">{pct}%</span>
                         </div>
                     )}
                 </div>
@@ -237,9 +234,9 @@ export const ChapterItem = ({ chapter, topic, onClick, questionCount, completedC
                 {hasQuestions && (
                     <button
                         onClick={() => onClick(chapter, cleanName)}
-                        className="flex items-center gap-1.5 px-4 py-2.5 bg-primary text-white font-black uppercase tracking-widest rounded-xl hover:bg-primary-hover transition-all text-[9px] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] active:scale-95 shrink-0"
+                        className="flex items-center gap-1.5 px-4 py-2.5 bg-primary text-white font-bold rounded-full hover:bg-primary-hover transition-all text-xs active:scale-95 shrink-0 shadow-sm"
                     >
-                        <Play className="w-3 h-3 fill-current" />
+                        <Play className="w-3.5 h-3.5 fill-current" />
                         শুরু করো
                     </button>
                 )}

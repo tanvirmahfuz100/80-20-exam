@@ -1,16 +1,16 @@
 ﻿const variants = {
   primary: 'bg-primary hover:bg-primary-hover text-white',
-  secondary: 'bg-white/5 hover:bg-white/10 text-white/70 border border-white/10',
-  danger: 'bg-yellow-500 hover:bg-yellow-400 text-black',
-  ghost: 'bg-transparent hover:bg-white/5 text-white/50',
-  success: 'bg-emerald-500 hover:bg-emerald-400 text-black',
+  secondary: 'bg-eel hover:bg-wolf text-charcoal border border-wolf',
+  danger: 'bg-cardinal hover:bg-cardinal-dark text-white',
+  ghost: 'bg-transparent hover:bg-eel text-hare',
+  success: 'bg-emerald-500 hover:bg-emerald-600 text-white',
 };
 
 const sizes = {
-  sm: 'py-2 px-3 text-[9px]',
-  md: 'py-3 px-4 text-[10px]',
-  lg: 'py-3.5 px-5 text-[11px]',
-  xl: 'py-4 px-6 text-xs',
+  sm: 'py-1.5 px-3 text-[10px]',
+  md: 'py-2.5 px-5 text-xs',
+  lg: 'py-3 px-6 text-sm',
+  xl: 'py-3.5 px-8 text-base',
 };
 
 export default function Button({
@@ -19,7 +19,6 @@ export default function Button({
   size = 'md',
   className = '',
   disabled = false,
-  raised = false,
   icon,
   onClick,
   type = 'button',
@@ -30,7 +29,7 @@ export default function Button({
       type={type}
       onClick={onClick}
       disabled={disabled}
-      className={`rounded-xl font-black uppercase tracking-widest transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 min-h-touch ${variants[variant]} ${sizes[size]} ${disabled ? 'opacity-40 cursor-not-allowed' : ''} ${raised ? 'border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]' : ''} ${className}`}
+      className={`rounded-full font-bold transition-all active:scale-[0.97] flex items-center justify-center gap-2 disabled:opacity-40 disabled:cursor-not-allowed ${variants[variant]} ${sizes[size]} shadow-sm ${className}`}
       {...props}
     >
       {icon && <span className="shrink-0">{icon}</span>}

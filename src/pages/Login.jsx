@@ -1,8 +1,7 @@
 ﻿import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
-import { Mail, LogIn, AlertCircle, Loader2 } from 'lucide-react';
-import { StudyDesk, Graduation } from '../components/Illustrations';
+import { Mail, LogIn, AlertCircle, Loader2, Sparkles } from 'lucide-react';
 
 const Login = () => {
     const { signIn } = useAuth();
@@ -15,7 +14,6 @@ const Login = () => {
         e.preventDefault();
         setLoading(true);
         setError(null);
-
         const { error } = await signIn({ email });
         if (error) {
             setError(error.message);
@@ -26,40 +24,39 @@ const Login = () => {
     };
 
     return (
-        <div className="min-h-[80vh] flex items-center justify-center w-full px-3 md:px-0">
-            <div className="w-full max-w-md space-y-5 md:space-y-8 p-5 md:p-10 bg-surface border border-white/5 rounded-2xl md:rounded-3xl shadow-lg relative overflow-hidden">
-                <div className="relative text-center space-y-3">
-                    <div className="flex justify-center opacity-[0.06] pointer-events-none">
-                        <Graduation className="w-20 h-20 md:w-32 md:h-32" />
+        <div className="min-h-[80vh] flex items-center justify-center w-full px-4">
+            <div className="w-full max-w-sm space-y-6 p-6 md:p-8 bg-white border border-wolf rounded-3xl shadow-lg">
+                <div className="text-center space-y-3">
+                    <div className="w-16 h-16 bg-primary/10 rounded-2xl border-2 border-primary/20 flex items-center justify-center mx-auto">
+                        <Sparkles className="w-8 h-8 text-primary" />
                     </div>
-                    <div className="relative">
-                        <h2 className="text-xl md:text-3xl font-black text-white tracking-tighter mb-1">স্বাগতম!</h2>
-                        <p className="text-white/30 font-bold uppercase tracking-widest text-[9px] md:text-xs">লোকাল টেস্টিং মোড - সব ফিচার ওপেন</p>
+                    <div>
+                        <h2 className="text-2xl font-black text-charcoal tracking-tight">স্বাগতম!</h2>
+                        <p className="text-sm text-hare font-medium mt-1">লোকাল টেস্টিং মোড - সব ফিচার ওপেন</p>
                     </div>
                 </div>
 
-                <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6 relative">
+                <form onSubmit={handleSubmit} className="space-y-4">
                     {error && (
-                        <div className="p-3 md:p-4 bg-red-500/10 border border-red-500/20 rounded-lg md:rounded-xl flex items-center gap-2 md:gap-3 text-red-500 text-sm font-medium animate-in fade-in zoom-in-95">
-                            <AlertCircle className="w-4 h-4 md:w-5 md:h-5 shrink-0" />
-                            <span className="text-xs md:text-sm">{error}</span>
+                        <div className="p-3.5 bg-cardinal/5 border border-cardinal/20 rounded-2xl flex items-center gap-2.5 text-cardinal text-sm font-medium">
+                            <AlertCircle className="w-5 h-5 shrink-0" />
+                            <span>{error}</span>
                         </div>
                     )}
 
-                    <div className="space-y-2 md:space-y-4">
-                        <div className="relative group">
-                            <Mail className="absolute left-3 md:left-4 top-1/2 -translate-y-1/2 w-3.5 h-3.5 md:w-5 md:h-5 text-white/20 group-focus-within:text-primary transition-colors" />
+                    <div className="space-y-2">
+                        <div className="relative">
+                            <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-hare" />
                             <input
                                 type="email"
                                 required
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
-                                className="w-full bg-background border border-white/5 pl-9 md:pl-12 pr-3 md:pr-4 py-2.5 md:py-4 rounded-lg md:rounded-2xl text-white outline-none focus:border-primary/50 transition-all font-medium text-sm"
+                                className="duo-input pl-10"
                                 placeholder="ইমেইল ঠিকানা"
                             />
                         </div>
-
-                        <p className="text-[9px] md:text-[10px] text-white/30 font-black uppercase tracking-[0.2em] px-1">
+                        <p className="text-[10px] text-hare font-medium px-1">
                             যেকোনো ইমেইল দিয়ে চালিয়ে যাও। টেস্টিংয়ের সময় রেজিস্ট্রেশন লুকানো আছে।
                         </p>
                     </div>
@@ -67,17 +64,15 @@ const Login = () => {
                     <button
                         type="submit"
                         disabled={loading}
-                        className="w-full py-2.5 md:py-4 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-lg md:rounded-2xl font-black uppercase tracking-[0.2em] text-[10px] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] transition-all flex items-center justify-center gap-2 md:gap-3 active:scale-[0.98]"
+                        className="w-full py-3 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-full font-bold text-sm transition-all flex items-center justify-center gap-2 active:scale-[0.97] shadow-sm"
                     >
-                        {loading ? <Loader2 className="w-4 h-4 md:w-5 md:h-5 animate-spin" /> : <LogIn className="w-4 h-4 md:w-5 md:h-5" />}
+                        {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <LogIn className="w-4 h-4" />}
                         অ্যাপে যাও
                     </button>
 
-                    <div className="text-center">
-                        <p className="text-white/30 text-[9px] md:text-xs font-bold uppercase tracking-widest">
-                            টেস্টিংয়ের জন্য সব ফিচার আনলক করা আছে।
-                        </p>
-                    </div>
+                    <p className="text-center text-[10px] text-hare font-medium">
+                        টেস্টিংয়ের জন্য সব ফিচার আনলক করা আছে।
+                    </p>
                 </form>
             </div>
         </div>

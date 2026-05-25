@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
 
-const THEME_KEY = 'fireman-theme';
+const THEME_KEY = 'duo-theme';
 const DARK = 'dark';
 const LIGHT = 'light';
 const FONT_SIZE_KEY = 'fireman-font-size';
@@ -22,12 +22,12 @@ const FONT_SIZE_LABELS = {
 const ThemeContext = createContext();
 
 const getSystemPreference = () => {
-  if (typeof window === 'undefined') return DARK;
+  if (typeof window === 'undefined') return LIGHT;
   try {
     const mq = window.matchMedia('(prefers-color-scheme: light)');
     return mq.matches ? LIGHT : DARK;
   } catch {
-    return DARK;
+    return LIGHT;
   }
 };
 
@@ -36,7 +36,7 @@ const getInitialTheme = () => {
     const stored = localStorage.getItem(THEME_KEY);
     if (stored === LIGHT || stored === DARK) return stored;
   } catch {}
-  return DARK;
+  return LIGHT;
 };
 
 const getInitialFontSize = () => {
@@ -57,7 +57,7 @@ const applyTheme = (theme) => {
   // Update theme-color meta
   const meta = document.querySelector('meta[name="theme-color"]');
   if (meta) {
-    meta.content = theme === LIGHT ? '#faf5f0' : '#080407';
+    meta.content = theme === LIGHT ? '#F1F7FB' : '#131F24';
   }
 };
 

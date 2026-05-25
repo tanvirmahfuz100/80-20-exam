@@ -5,33 +5,72 @@
 @layer base {
   :root {
     --app-font-size: 16px;
-    --color-background: 8 4 7;
-    --color-sidebar: 16 10 14;
-    --color-surface: 22 15 19;
-    --color-surface-hover: 28 20 24;
-    --color-surface-alt: 34 25 30;
-    --color-surface-active: 46 34 40;
-    --color-text: 255 255 255;
-    --color-text-muted: 160 140 145;
-    --color-text-dim: 80 70 75;
-    --color-border: 255 255 255;
-    --color-border-hover: 255 255 255;
-    --color-inverse: 255 255 255;
-  }
+    /* Duolingo color tokens */
+    --color-snow: 19 31 36;
+    --color-snow-always-light: 255 255 255;
+    --color-snow-always-dark: 19 31 36;
+    --color-polar: 32 47 54;
+    --color-swan: 55 70 79;
+    --color-swan-always-light: 229 229 229;
+    --color-swan-always-dark: 55 70 79;
+    --color-hare: 82 101 109;
+    --color-hare-always-light: 175 175 175;
+    --color-wolf: 220 230 236;
+    --color-eel: 241 247 251;
+    --color-anchovy: 210 228 232;
+    --color-flamingo: 148 81 81;
+    --color-pig: 245 164 164;
+    --color-crab: 255 120 120;
+    --color-cardinal: 238 85 85;
+    --color-fire-ant: 216 72 72;
+    --color-owl: 147 211 51;
+    --color-tree-frog: 121 185 51;
+    --color-turtle: 95 132 40;
+    --color-bee: 255 199 0;
+    --color-lion: 255 177 0;
+    --color-peacock: 0 205 156;
+    --color-macaw: 73 192 248;
+    --color-whale: 24 153 214;
+    --color-starling: 92 108 252;
+    --color-betta: 144 105 205;
+    --color-butterfly: 111 78 161;
+    --color-snow-always-light: 255 255 255;
 
-  [data-theme="light"] {
-    --color-background: 250 245 240;
-    --color-sidebar: 255 255 255;
-    --color-surface: 255 255 255;
+    /* Legacy aliases for backward compat */
+    --color-background: var(--color-eel);
+    --color-sidebar: var(--color-snow-always-light);
+    --color-surface: var(--color-snow-always-light);
     --color-surface-hover: 245 240 235;
     --color-surface-alt: 235 228 222;
     --color-surface-active: 220 213 207;
-    --color-text: 22 15 19;
-    --color-text-muted: 130 120 115;
-    --color-text-dim: 170 162 158;
-    --color-border: 22 15 19;
-    --color-border-hover: 22 15 19;
-    --color-inverse: 0 0 0;
+    --color-text: var(--color-snow);
+    --color-text-muted: var(--color-swan);
+    --color-text-dim: var(--color-hare);
+    --color-border: var(--color-wolf);
+    --color-border-hover: var(--color-hare);
+    --color-inverse: 255 255 255;
+  }
+
+  [data-theme="dark"] {
+    --color-eel: 19 31 36;
+    --color-snow-always-light: 19 31 36;
+    --color-wolf: 32 47 54;
+    --color-swan: 82 101 109;
+    --color-hare: 55 70 79;
+    --color-anchovy: 32 47 54;
+    --color-snow: 241 247 251;
+    --color-background: 19 31 36;
+    --color-sidebar: 32 47 54;
+    --color-surface: 32 47 54;
+    --color-surface-hover: 55 70 79;
+    --color-surface-alt: 32 47 54;
+    --color-surface-active: 55 70 79;
+    --color-text: 241 247 251;
+    --color-text-muted: 82 101 109;
+    --color-text-dim: 55 70 79;
+    --color-border: 32 47 54;
+    --color-border-hover: 55 70 79;
+    --color-inverse: 255 255 255;
   }
 
   html {
@@ -70,8 +109,8 @@
   }
 
   ::selection {
-    background: rgba(245, 65, 35, 0.4);
-    color: #ffffff;
+    background: rgba(147, 211, 51, 0.3);
+    color: #131F24;
   }
 
   /* Focus-visible for keyboard nav (not mouse clicks) */
@@ -185,12 +224,44 @@
 
 @layer utilities {
   .glass {
-    @apply bg-white/10 border border-white/10 shadow-xl;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    @apply bg-white/80 border border-wolf shadow-lg;
+    backdrop-filter: blur(12px);
   }
 
   .glass-strong {
-    @apply bg-black/80 border border-white/10 shadow-2xl;
+    @apply bg-white border border-wolf shadow-xl;
+  }
+
+  /* Duolingo-style card */
+  .duo-card {
+    @apply bg-white rounded-2xl shadow-sm border border-wolf/50 p-4 md:p-6;
+  }
+
+  /* Duolingo-style pill button */
+  .duo-btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-base
+           transition-all duration-200 min-h-touch;
+  }
+
+  .duo-btn-primary {
+    @apply duo-btn bg-primary text-white shadow-sm hover:bg-primary-hover
+           active:scale-[0.97] hover:shadow-md;
+  }
+
+  .duo-btn-secondary {
+    @apply duo-btn bg-wolf/30 text-snow hover:bg-wolf/50;
+  }
+
+  .duo-btn-ghost {
+    @apply duo-btn bg-transparent text-snow hover:bg-wolf/20;
+  }
+
+  /* Duolingo input */
+  .duo-input {
+    @apply w-full px-4 py-3 rounded-xl border border-wolf bg-white
+           text-snow placeholder:text-hare text-base font-medium
+           focus:border-primary focus:ring-2 focus:ring-primary/20
+           transition-all;
   }
 
   .bn-text {
@@ -217,19 +288,16 @@
     padding-bottom: env(safe-area-inset-bottom, 0px);
   }
 
-  /* Touch-friendly minimum size */
   .touch-target {
     min-height: 44px;
     min-width: 44px;
   }
 
-  /* TV variant */
   .tv-target {
     min-height: 56px;
     min-width: 56px;
   }
 
-  /* Truncate multi-line gracefully */
   .line-clamp-2 {
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -244,7 +312,6 @@
     overflow: hidden;
   }
 
-  /* Full bleed mobile drawer/overlay */
   .mobile-drawer {
     @apply fixed inset-0 z-50 md:relative md:inset-auto;
   }
@@ -271,7 +338,6 @@
     text-wrap: balance;
   }
 
-  /* Container query-like padding for quiz content */
   .quiz-content {
     width: 100%;
     max-width: 42rem;
@@ -279,7 +345,6 @@
     margin-right: auto;
   }
 
-  /* Smooth bounce for correct/wrong icons */
   .quiz-option-bounce {
     animation: quizBounce 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
   }
@@ -290,7 +355,6 @@
     100% { transform: scale(1); opacity: 1; }
   }
 
-  /* Grid for many-options (5+) */
   .options-grid {
     @apply grid grid-cols-1 gap-2;
   }
@@ -318,12 +382,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(245, 65, 35, 0.3);
+  background: rgba(147, 211, 51, 0.3);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(245, 65, 35, 0.6);
+  background: rgba(147, 211, 51, 0.6);
 }
 
 /* TV: larger scrollbar */
@@ -340,7 +404,7 @@
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(245, 65, 35, 0.3) transparent;
+  scrollbar-color: rgba(147, 211, 51, 0.3) transparent;
 }
 
 @layer base {

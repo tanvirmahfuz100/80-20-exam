@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useSearchParams, useNavigate, Link } from 'react-router-dom';
 import LoadingScreen from '../components/LoadingScreen';
 import {
-  ArrowLeft, Lock, CheckCircle, Zap, Star, Trophy,
+  ArrowLeft, Lock, Zap, Star, Trophy,
   BrainCircuit, TrendingUp, Sparkles
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
@@ -117,13 +117,13 @@ const LevelSelect = () => {
 
   if (error) {
     return (
-      <div className="max-w-md mx-auto p-6 md:p-10 bg-yellow-500/10 border border-yellow-500/20 rounded-2xl md:rounded-[2rem] text-center shadow-lg">
-        <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-4 md:mb-5 rounded-2xl md:rounded-3xl bg-yellow-500/15 border border-yellow-500/20 flex items-center justify-center">
-          <Sparkles className="w-6 h-6 md:w-8 md:h-8 text-yellow-300" />
+      <div className="max-w-md mx-auto p-6 md:p-8 bg-white border border-wolf rounded-3xl text-center shadow-lg">
+        <div className="w-14 h-14 mx-auto mb-4 rounded-2xl bg-cardinal/10 border border-cardinal/20 flex items-center justify-center">
+          <Sparkles className="w-6 h-6 text-cardinal" />
         </div>
-        <h3 className="text-white font-black text-xl md:text-2xl tracking-tighter mb-3">লেভেল লোড করা যায়নি</h3>
-        <p className="text-white/70 font-medium leading-relaxed">{error}</p>
-        <Link to="/practice" className="mt-5 md:mt-6 inline-flex items-center justify-center rounded-xl md:rounded-2xl bg-yellow-500 px-5 md:px-6 py-3 text-xs font-black uppercase tracking-[0.2em] text-black transition-all hover:bg-yellow-400 active:scale-95">
+        <h3 className="text-charcoal font-black text-xl tracking-tighter mb-2">লেভেল লোড করা যায়নি</h3>
+        <p className="text-hare font-medium leading-relaxed text-sm">{error}</p>
+        <Link to="/practice" className="mt-5 inline-flex items-center justify-center rounded-full bg-primary px-6 py-2.5 text-sm font-bold text-white transition-all hover:bg-primary-hover active:scale-95 shadow-sm">
           প্রাক্টিসে ফিরে যাও
         </Link>
       </div>
@@ -141,29 +141,29 @@ const LevelSelect = () => {
         <div className="flex items-center gap-3">
           <button
             onClick={() => navigate('/practice')}
-            className="p-2 bg-white/5 hover:bg-white/10 rounded-xl text-white/40 hover:text-white transition-all border border-white/5 active:scale-95"
+            className="p-2 bg-white border border-wolf rounded-xl text-hare hover:text-charcoal hover:border-hare transition-all active:scale-95 shadow-sm"
           >
             <ArrowLeft className="w-4 h-4" />
           </button>
           <div>
-            <h1 className="text-lg md:text-2xl font-black text-white tracking-tighter">লেভেল</h1>
-            <p className="text-[10px] md:text-xs text-white/30 font-medium truncate max-w-[200px] md:max-w-xs">{title}</p>
+            <h1 className="text-lg md:text-2xl font-black text-charcoal tracking-tight">লেভেল</h1>
+            <p className="text-xs text-hare font-medium truncate max-w-[200px] md:max-w-xs">{title}</p>
           </div>
         </div>
         <div className="flex items-center gap-2">
-          <div className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-primary/10 border border-primary/20">
+          <div className="flex items-center gap-1 px-2.5 py-1.5 rounded-full bg-primary/10 border border-primary/20">
             <Zap className="w-3.5 h-3.5 text-primary" />
-            <span className="text-primary font-black text-xs tabular-nums">{stats.total_xp}</span>
+            <span className="text-primary font-bold text-xs tabular-nums">{stats.total_xp}</span>
           </div>
-          <div className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-yellow-500/10 border border-yellow-500/20">
-            <Star className="w-3.5 h-3.5 text-yellow-400" />
-            <span className="text-yellow-400 font-black text-xs tabular-nums">{stats.total_stars}</span>
+          <div className="flex items-center gap-1 px-2.5 py-1.5 rounded-full bg-yellow-500/10 border border-yellow-500/20">
+            <Star className="w-3.5 h-3.5 text-yellow-500" />
+            <span className="text-yellow-600 font-bold text-xs tabular-nums">{stats.total_stars}</span>
           </div>
         </div>
       </div>
 
-      <div className="flex items-center gap-2 px-3 py-2 bg-surface border border-white/5 rounded-xl">
-        <div className="flex-1 h-1.5 bg-white/10 rounded-full overflow-hidden">
+      <div className="flex items-center gap-2 px-3 py-2 bg-white border border-wolf rounded-xl shadow-sm">
+        <div className="flex-1 h-1.5 bg-eel rounded-full overflow-hidden">
           <motion.div
             className="h-full rounded-full bg-primary"
             initial={{ width: 0 }}
@@ -171,30 +171,47 @@ const LevelSelect = () => {
             transition={{ duration: 0.6, ease: 'easeOut' }}
           />
         </div>
-        <span className="text-[10px] font-black tabular-nums text-primary/70 whitespace-nowrap">{completedCount}/{totalCount}</span>
+        <span className="text-[10px] font-bold tabular-nums text-primary whitespace-nowrap">{completedCount}/{totalCount}</span>
       </div>
 
       {totalCount === 0 && (
-        <div className="p-10 text-center border-2 border-dashed border-white/5 rounded-2xl">
-          <BrainCircuit className="w-10 h-10 mx-auto mb-3 text-white/10" />
-          <p className="text-white/20 font-black uppercase tracking-widest text-xs">কোনো লেভেল উপলব্ধ নয়</p>
+        <div className="p-10 text-center border-2 border-dashed border-wolf rounded-2xl bg-white/50">
+          <BrainCircuit className="w-10 h-10 mx-auto mb-3 text-hare/30" />
+          <p className="text-hare/50 font-bold text-xs">কোনো লেভেল উপলব্ধ নয়</p>
         </div>
       )}
 
-      {/* Zigzag roadmap */}
-      <div className="relative px-2 pb-2">
-        <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-white/5 -translate-x-1/2" />
-
+      {/* Winding snake roadmap */}
+      <div className="relative px-2 pb-4">
         {(() => {
-          const items = [];
-          for (let i = 0; i < levelsWithMeta.length; i++) {
-            items.push({ type: 'level', level: levelsWithMeta[i], index: i });
-            if ((i + 1) % 5 === 0 && i < levelsWithMeta.length - 1) {
-              items.push({ type: 'milestone' });
-            }
-          }
-
           const firstUncompletedIdx = levelsWithMeta.findIndex(l => l.unlocked && !l.completed);
+          const itemCount = levelsWithMeta.length;
+          const ROW_H = 88;
+          const containerH = itemCount * ROW_H + 40;
+
+          const buildPath = (from, to) => {
+            if (from >= to || to === 0) return '';
+            const segs = [];
+            for (let i = from; i < to; i++) {
+              const y = i * ROW_H + ROW_H / 2;
+              const nx = i % 2 === 0 ? 30 : 70;
+              if (i === from) {
+                const prevY = (from - 1) >= 0 ? (from - 1) * ROW_H + ROW_H / 2 : 0;
+                const startX = from === 0 ? 50 : ((from - 1) % 2 === 0 ? 30 : 70);
+                const startY = from === 0 ? 0 : prevY;
+                segs.push(`M ${startX} ${startY}`);
+              }
+              if (i === from) {
+                segs.push(`C ${nx} ${y - 24}, ${nx} ${y - 24}, ${nx} ${y}`);
+              } else {
+                const prevNX = (i - 1) % 2 === 0 ? 30 : 70;
+                const prevY = (i - 1) * ROW_H + ROW_H / 2;
+                const midY = (prevY + y) / 2;
+                segs.push(`C ${prevNX} ${midY}, ${nx} ${midY}, ${nx} ${y}`);
+              }
+            }
+            return segs.join(' ');
+          };
 
           const nodeContent = (level, idx) => {
             const isLocked = !level.unlocked;
@@ -202,8 +219,8 @@ const LevelSelect = () => {
 
             if (isLocked) {
               return (
-                <div className="w-16 h-16 rounded-full bg-gray-700/50 flex items-center justify-center cursor-not-allowed">
-                  <Lock className="w-6 h-6 text-gray-500" />
+                <div className="w-14 h-14 rounded-full bg-wolf/60 flex items-center justify-center cursor-not-allowed border-2 border-wolf">
+                  <Lock className="w-5 h-5 text-hare/50" />
                 </div>
               );
             }
@@ -211,14 +228,14 @@ const LevelSelect = () => {
             if (isCurrent) {
               return (
                 <div className="relative">
-                  <div className="absolute inset-0 rounded-full bg-primary animate-ping opacity-70" />
+                  <div className="absolute inset-0 rounded-full bg-primary/40 animate-ping" />
                   <button
-                    className="relative w-16 h-16 rounded-full bg-primary flex items-center justify-center cursor-pointer border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
+                    className="relative w-14 h-14 rounded-full bg-primary flex items-center justify-center cursor-pointer shadow-lg active:scale-95 transition-all"
                     onClick={() => handleStartLevel(level.levelNumber)}
                   >
-                    <span className="text-black font-black text-lg">{level.levelNumber}</span>
+                    <span className="text-white font-black text-lg">{level.levelNumber}</span>
                   </button>
-                  <div className="absolute -top-11 left-1/2 -translate-x-1/2 bg-white text-gray-900 text-[11px] font-black px-3 py-1.5 rounded-lg whitespace-nowrap shadow-xl z-20 tracking-widest">
+                  <div className="absolute -top-10 left-1/2 -translate-x-1/2 bg-white text-charcoal text-[11px] font-bold px-3 py-1.5 rounded-full whitespace-nowrap shadow-lg z-20 border border-wolf">
                     শুরু করো
                     <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-white" />
                   </div>
@@ -226,87 +243,122 @@ const LevelSelect = () => {
               );
             }
 
+            if (level.completed) {
+              return (
+                <div className="w-14 h-14 rounded-full bg-primary flex items-center justify-center shadow-sm">
+                  <Star className="w-7 h-7 text-white fill-white" />
+                </div>
+              );
+            }
+
             return (
-              <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center">
-                <Star className="w-8 h-8 text-white fill-white" />
+              <div className="w-14 h-14 rounded-full bg-eel border-2 border-wolf flex items-center justify-center">
+                <span className="text-hare font-bold text-sm">{level.levelNumber}</span>
               </div>
             );
           };
 
-          const dotColor = (level, idx) => {
-            if (idx === firstUncompletedIdx) return 'bg-primary';
-            if (level.completed) return 'bg-emerald-500';
-            return 'bg-gray-600';
-          };
-
-          const nodeLabel = (level) => {
+          const nodeLabel = (level, idx) => {
             const isLocked = !level.unlocked;
+            const isCurrent = idx === firstUncompletedIdx;
             return (
-              <span className={`text-xs mt-1.5 max-w-[128px] leading-tight font-medium truncate ${
-                isLocked ? 'text-white/20' : 'text-white/50'
+              <span className={`text-[10px] mt-1 font-medium truncate ${
+                isLocked ? 'text-hare/40' : isCurrent ? 'text-primary font-bold' : 'text-hare/60'
               }`}>
-                Level {level.levelNumber}
+                {isCurrent ? 'চলুন!' : `Level ${level.levelNumber}`}
               </span>
             );
           };
 
-          return items.map((item, idx) => {
-            if (item.type === 'milestone') {
-              return (
-                <motion.div
-                  key={`ms-${idx}`}
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ delay: idx * 0.03, duration: 0.3 }}
-                  className="relative flex items-center justify-center py-5"
-                >
-                  <div className="w-20 h-20 rounded-full bg-yellow-500 flex items-center justify-center z-10 ring-4 ring-gray-900">
-                    <Trophy className="w-9 h-9 text-white" />
-                  </div>
-                </motion.div>
-              );
+          const allItems = [];
+          for (let i = 0; i < itemCount; i++) {
+            allItems.push({ type: 'node', index: i });
+            if ((i + 1) % 5 === 0 && i < itemCount - 1) {
+              allItems.push({ type: 'milestone', levelIndex: i });
             }
+          }
 
-            const level = item.level;
-            const i = item.index;
-            const isLeft = i % 2 === 0;
+          const svgFullPath = buildPath(0, itemCount);
+          const svgCompletedPath = firstUncompletedIdx > 0 ? buildPath(0, firstUncompletedIdx) : '';
 
-            return (
-              <motion.div
-                key={level.levelNumber}
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: idx * 0.03, duration: 0.25 }}
-                className="relative flex items-center py-[18px]"
+          return (
+            <div className="relative" style={{ height: containerH }}>
+              <svg
+                className="absolute inset-0 w-full h-full pointer-events-none z-0"
+                viewBox={`0 0 100 ${containerH}`}
+                preserveAspectRatio="xMidYMid meet"
               >
-                <div className={`absolute top-1/2 w-[80px] h-px bg-white/5 -translate-y-1/2 ${
-                  isLeft ? 'right-1/2' : 'left-1/2'
-                }`} />
+                <path
+                  d={svgFullPath}
+                  stroke="#DCE6EC"
+                  strokeWidth="3"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  opacity="0.6"
+                />
+                {svgCompletedPath && (
+                  <path
+                    d={svgCompletedPath}
+                    stroke="#93D333"
+                    strokeWidth="3"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                )}
+              </svg>
 
-                <div className="flex-1 flex justify-end pr-20">
-                  {isLeft && (
-                    <div className="flex flex-col items-end">
+              {allItems.map((item, idx) => {
+                if (item.type === 'milestone') {
+                  const msY = item.levelIndex * ROW_H + ROW_H / 2;
+                  return (
+                    <motion.div
+                      key={`ms-${idx}`}
+                      initial={{ opacity: 0, scale: 0.8 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      transition={{ delay: idx * 0.03, duration: 0.3 }}
+                      className="absolute z-10"
+                      style={{
+                        left: '50%',
+                        top: msY - 32,
+                        transform: 'translateX(-50%)',
+                      }}
+                    >
+                      <div className="w-16 h-16 rounded-full bg-cardinal flex items-center justify-center ring-4 ring-white shadow-lg">
+                        <Trophy className="w-7 h-7 text-white" />
+                      </div>
+                    </motion.div>
+                  );
+                }
+
+                const i = item.index;
+                const level = levelsWithMeta[i];
+                const isLeft = i % 2 === 0;
+                const nodeY = i * ROW_H;
+
+                return (
+                  <motion.div
+                    key={`node-${i}`}
+                    initial={{ opacity: 0, y: 12 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: idx * 0.03, duration: 0.25 }}
+                    className="absolute z-10"
+                    style={{
+                      left: isLeft ? '30%' : '70%',
+                      top: nodeY,
+                      transform: 'translateX(-50%)',
+                    }}
+                  >
+                    <div className={`flex flex-col ${isLeft ? 'items-start' : 'items-end'}`}>
                       {nodeContent(level, i)}
-                      {nodeLabel(level)}
+                      {nodeLabel(level, i)}
                     </div>
-                  )}
-                </div>
-
-                <div className="absolute left-1/2 -translate-x-1/2 z-10">
-                  <div className={`w-3.5 h-3.5 rounded-full border-2 border-gray-900 ${dotColor(level, i)}`} />
-                </div>
-
-                <div className="flex-1 flex justify-start pl-20">
-                  {!isLeft && (
-                    <div className="flex flex-col items-start">
-                      {nodeContent(level, i)}
-                      {nodeLabel(level)}
-                    </div>
-                  )}
-                </div>
-              </motion.div>
-            );
-          });
+                  </motion.div>
+                );
+              })}
+            </div>
+          );
         })()}
       </div>
 
@@ -319,7 +371,7 @@ const LevelSelect = () => {
             const nextUncompleted = levelsWithMeta.find(l => l.unlocked && !l.completed);
             if (nextUncompleted) handleStartLevel(nextUncompleted.levelNumber);
           }}
-          className="w-full py-3 bg-primary text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.98] hover:bg-primary-hover flex items-center justify-center gap-2 border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
+          className="w-full py-3 bg-primary text-white rounded-full font-bold text-sm transition-all active:scale-[0.97] hover:bg-primary-hover flex items-center justify-center gap-2 shadow-sm"
         >
           <TrendingUp className="w-4 h-4" />
           প্রাক্টিস চালিয়ে যাও

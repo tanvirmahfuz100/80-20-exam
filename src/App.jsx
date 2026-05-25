@@ -25,6 +25,12 @@ const Landing = React.lazy(() => import('./pages/Landing'));
 const Stars = React.lazy(() => import('./pages/Stars'));
 const CreativeQuestionView = React.lazy(() => import('./pages/CreativeQuestionView'));
 const SubjectSelection = React.lazy(() => import('./pages/SubjectSelection'));
+const Learn = React.lazy(() => import('./pages/Learn'));
+const Leaderboard = React.lazy(() => import('./pages/Leaderboard'));
+const Quests = React.lazy(() => import('./pages/Quests'));
+const Shop = React.lazy(() => import('./pages/Shop'));
+const Profile = React.lazy(() => import('./pages/Profile'));
+const Help = React.lazy(() => import('./pages/Help'));
 
 function App() {
   return (
@@ -96,7 +102,37 @@ const AppContent = () => {
             } />
             <Route path="/" element={
               <motion.div {...pageMotion}>
-                <SubjectSelection />
+                <Learn />
+              </motion.div>
+            } />
+            <Route path="/learn" element={
+              <motion.div {...pageMotion}>
+                <Learn />
+              </motion.div>
+            } />
+            <Route path="/leaderboard" element={
+              <motion.div {...pageMotion}>
+                <Leaderboard />
+              </motion.div>
+            } />
+            <Route path="/quests" element={
+              <motion.div {...pageMotion}>
+                <Quests />
+              </motion.div>
+            } />
+            <Route path="/shop" element={
+              <motion.div {...pageMotion}>
+                <Shop />
+              </motion.div>
+            } />
+            <Route path="/profile" element={
+              <motion.div {...pageMotion}>
+                <Profile />
+              </motion.div>
+            } />
+            <Route path="/help" element={
+              <motion.div {...pageMotion}>
+                <Help />
               </motion.div>
             } />
 

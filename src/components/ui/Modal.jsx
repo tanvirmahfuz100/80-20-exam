@@ -14,20 +14,20 @@ export default function Modal({
     <AnimatePresence>
       {isOpen && (
         <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
-          <div className="absolute inset-0 bg-black/80" onClick={onClose} />
+          <div className="absolute inset-0 bg-black/60" onClick={onClose} />
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 40 }}
             transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-            className={`relative w-full ${maxWidth} bg-surface border border-white/10 rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl ${className}`}
+            className={`relative w-full ${maxWidth} bg-white rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl ${className}`}
             onClick={e => e.stopPropagation()}
           >
             {title && (
               <div className="flex items-center justify-between">
-                <h3 className="text-sm font-black text-white uppercase tracking-wider">{title}</h3>
+                <h3 className="text-sm font-bold text-charcoal">{title}</h3>
                 {showClose && (
-                  <button onClick={onClose} className="text-white/30 hover:text-white transition-colors p-1">
+                  <button onClick={onClose} className="text-hare hover:text-charcoal transition-colors p-1">
                     <X className="w-5 h-5" />
                   </button>
                 )}
