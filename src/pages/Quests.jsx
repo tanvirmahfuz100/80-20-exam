@@ -37,7 +37,7 @@ export default function Quests() {
           {countdown.daily && (
             <span className="text-xs font-bold text-text-muted flex items-center gap-1">
               <Clock className="w-3 h-3" />
-              {countdown.daily}
+              {countdown.daily.hours}h {countdown.daily.minutes}m বাকি
             </span>
           )}
         </div>
@@ -83,7 +83,7 @@ export default function Quests() {
           {countdown.weekly && (
             <span className="text-xs font-bold text-text-muted flex items-center gap-1">
               <Clock className="w-3 h-3" />
-              {countdown.weekly}
+              {countdown.weekly.days} দিন {countdown.weekly.hours} ঘ বাকি
             </span>
           )}
         </div>
