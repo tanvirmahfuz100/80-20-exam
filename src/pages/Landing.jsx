@@ -1,12 +1,39 @@
 ﻿import React, { useEffect, useState } from 'react';
 import AnimatedTextCycle from '@/components/ui/animated-text-cycle.jsx';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Star, Zap, BookOpen, Users, GraduationCap } from 'lucide-react';
+import { ArrowRight, Star, Zap, BookOpen, Users, GraduationCap, Sun, Moon } from 'lucide-react';
 import { Books, Target, StudyDesk } from '../components/Illustrations';
+import { useTheme } from '../context/ThemeContext';
 
 const Landing = () => {
+    const { theme, setTheme } = useTheme();
     return (
         <div className="min-h-screen bg-background text-text selection:bg-primary/30 overflow-x-hidden">
+            <div className="w-full flex items-center justify-center gap-3 pt-4 md:pt-6">
+                <span className="text-[10px] md:text-xs font-black uppercase tracking-[0.2em] text-text-muted">মোড</span>
+                <div className="flex bg-surface-alt border rounded-xl p-0.5 gap-0.5">
+                    <button
+                        onClick={() => setTheme('light')}
+                        className={`flex items-center gap-1 px-2.5 md:px-3 py-1.5 rounded-lg text-[9px] md:text-[10px] font-black uppercase tracking-wider transition-all ${
+                            theme === 'light'
+                                ? 'bg-background text-text shadow-sm border'
+                                : 'text-text-muted hover:text-text'
+                        }`}
+                    >
+                        <Sun className="w-3 h-3" />
+                    </button>
+                    <button
+                        onClick={() => setTheme('dark')}
+                        className={`flex items-center gap-1 px-2.5 md:px-3 py-1.5 rounded-lg text-[9px] md:text-[10px] font-black uppercase tracking-wider transition-all ${
+                            theme === 'dark'
+                                ? 'bg-background text-text shadow-sm border'
+                                : 'text-text-muted hover:text-text'
+                        }`}
+                    >
+                        <Moon className="w-3 h-3" />
+                    </button>
+                </div>
+            </div>
             <div className="max-w-7xl mx-auto px-4 md:px-6 py-10 md:py-32 flex flex-col items-center justify-center text-center space-y-6 md:space-y-12">
                 <div className="space-y-4 md:space-y-8 max-w-4xl w-full">
                     <div className="flex justify-center mb-4">

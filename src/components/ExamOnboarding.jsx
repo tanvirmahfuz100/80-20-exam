@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { GraduationCap, ChevronLeft, ArrowRight, BookOpen, Globe, User } from 'lucide-react';
+import { GraduationCap, ChevronLeft, ArrowRight, BookOpen, Globe, User, Sun, Moon } from 'lucide-react';
 import {
   EXAMS, GROUPS, CLASSES, MEDIA,
   EXAM_LABELS, GROUP_LABELS, MEDIUM_LABELS,
   requiresGroup, requiresClass, requiresMedium,
 } from '../config/examPaths';
 import { useAuth } from '../context/AuthContext';
+import { useTheme } from '../context/ThemeContext';
 import { api } from '../services/localApi';
 
 const pageVariants = {
@@ -44,8 +45,14 @@ const stepTitles = {
   3: 'নাম দিন',
 };
 
+const THEME_CHOSEN_KEY = 'fireman-mode-chosen';
+
 export default function ExamOnboarding({ onComplete }) {
   const { user, updateProfileFields } = useAuth();
+  const { theme, setTheme } = useTheme();
+  const [themeChosen, setThemeChosen] = useState(() => {
+    try { return !!localStorage.getItem(THEME_CHOSEN_KEY); } catch { return false; }
+  });
   const [step, setStep] = useState(0);
   const [selectedExam, setSelectedExam] = useState(null);
   const [selectedGroup, setSelectedGroup] = useState(null);
@@ -53,6 +60,12 @@ export default function ExamOnboarding({ onComplete }) {
   const [selectedMedium, setSelectedMedium] = useState(null);
   const [name, setName] = useState(user?.user_metadata?.username || '');
   const [saving, setSaving] = useState(false);
+
+  const handleThemePick = (mode) => {
+    setTheme(mode);
+    try { localStorage.setItem(THEME_CHOSEN_KEY, '1'); } catch {}
+    setThemeChosen(true);
+  };
 
   // Determine next step number based on current step + exam
   const advanceStep = (exam) => {
@@ -141,6 +154,59 @@ export default function ExamOnboarding({ onComplete }) {
     2: false, // medium pick triggers automatically
     3: name.trim().length > 0,
   };
+
+  if (!themeChosen) {
+    return (
+      <motion.div
+        className="fixed inset-0 z-50 bg-background flex flex-col safe-top safe-bottom"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.2 }}
+      >
+        <div className="flex-1 flex items-center justify-center px-6">
+          <div className="w-full max-w-sm text-center space-y-8">
+            <div className="flex justify-center">
+              <img
+                src={`${import.meta.env.BASE_URL || '/'}mascot-celebrating.png`}
+                alt="Mascot"
+                className="w-28 h-28 md:w-36 md:h-36 object-contain drop-shadow-2xl"
+              />
+            </div>
+            <div className="space-y-3">
+              <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-text">ফায়ারম্যানে স্বাগতম!</h2>
+              <p className="text-text-muted text-sm md:text-base font-medium">শুরু করার আগে তোমার পছন্দের মোড বেছে নাও</p>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <button
+                onClick={() => handleThemePick('dark')}
+                className="flex-1 flex flex-col items-center gap-3 p-6 md:p-8 rounded-2xl md:rounded-3xl bg-surface border-2 border hover:border-primary/50 transition-all active:scale-[0.97] hover:scale-[1.02] group"
+              >
+                <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-indigo-500/10 flex items-center justify-center border border-indigo-500/20 group-hover:border-indigo-500/40 transition-all">
+                  <Moon className="w-8 h-8 md:w-10 md:h-10 text-indigo-400" />
+                </div>
+                <div className="space-y-1">
+                  <p className="text-lg md:text-xl font-black text-text">ডার্ক মোড</p>
+                  <p className="text-[10px] md:text-xs text-text-muted font-medium">চোখে আরামদায়ক</p>
+                </div>
+              </button>
+              <button
+                onClick={() => handleThemePick('light')}
+                className="flex-1 flex flex-col items-center gap-3 p-6 md:p-8 rounded-2xl md:rounded-3xl bg-surface border-2 border hover:border-primary/50 transition-all active:scale-[0.97] hover:scale-[1.02] group"
+              >
+                <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-amber-500/10 flex items-center justify-center border border-amber-500/20 group-hover:border-amber-500/40 transition-all">
+                  <Sun className="w-8 h-8 md:w-10 md:h-10 text-amber-400" />
+                </div>
+                <div className="space-y-1">
+                  <p className="text-lg md:text-xl font-black text-text">লাইট মোড</p>
+                  <p className="text-[10px] md:text-xs text-text-muted font-medium">উজ্জ্বল ও পরিষ্কার</p>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+    );
+  }
 
   return (
     <motion.div
