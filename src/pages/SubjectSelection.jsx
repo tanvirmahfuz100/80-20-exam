@@ -1,15 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  Menu, Search,
+  Menu, Search, CheckCircle,
   BookOpen, Brain, Atom, Beaker, Microscope, Globe,
   Calculator, BarChart3, MapPin, History,
   Landmark, PieChart, Briefcase, AlertTriangle, RefreshCw,
+  Sparkles, Zap, ArrowRight, Star,
 } from 'lucide-react';
 import { useExamPath } from '../hooks/useExamPath';
 import { getSubjects, getPathLabel } from '../config/examPaths';
 import ExamOnboarding from '../components/ExamOnboarding';
 import ExamPathSelector from '../components/ExamPathSelector';
+import { getDailyQuizQuestions } from '../services/dailyQuiz';
+import { stripMath } from '../services/quizUtils';
 
 const subjectIconMap = {
   'বাংলা': BookOpen,
@@ -37,11 +40,7 @@ function getIcon(name) {
   return subjectIconMap[name] || BookOpen;
 }
 
-const quizItems = [
-  { id: 1, label: 'ইংরেজি গ্রামার বেসিক', meta: '১০টি প্রশ্ন' },
-  { id: 2, label: 'গণিত অ্যাপ্লিকেশন', meta: '১৫টি প্রশ্ন' },
-  { id: 3, label: 'পদার্থবিদ্যা মডেল টেস্ট', meta: '২০টি প্রশ্ন' },
-];
+
 
 export default function SubjectSelection() {
   const { examPath, setExamPath } = useExamPath();
@@ -69,7 +68,7 @@ export default function SubjectSelection() {
         </motion.div>
       ) : mode === 'confirming' ? (
         <motion.div key="confirming" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.15 }}>
-          <HomeScreen subjects={subjects} pathLabel={pathLabel} onSwitch={() => setMode('selector')} />
+          <HomeScreen subjects={subjects} pathLabel={pathLabel} examPath={examPath} onSwitch={() => setMode('selector')} />
           <motion.div
             className="fixed inset-0 z-40 bg-black/80 flex items-center justify-center p-6"
             initial={{ opacity: 0 }}
@@ -128,17 +127,63 @@ export default function SubjectSelection() {
         </motion.div>
       ) : (
         <motion.div key="home" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.2 }}>
-          <HomeScreen subjects={subjects} pathLabel={pathLabel} onSwitch={() => setMode('confirming')} />
+          <HomeScreen subjects={subjects} pathLabel={pathLabel} examPath={examPath} onSwitch={() => setMode('confirming')} />
         </motion.div>
       )}
     </AnimatePresence>
   );
 }
 
-function HomeScreen({ subjects, pathLabel, onSwitch }) {
+function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
+  const [dailyQ, setDailyQ] = useState([]);
+  const [qIndex, setQIndex] = useState(0);
+  const [selected, setSelected] = useState(null);
+  const [answered, setAnswered] = useState(false);
+  const [score, setScore] = useState(0);
+  const [loading, setLoading] = useState(true);
+  const [finished, setFinished] = useState(false);
+
+  useEffect(() => {
+    if (!examPath) return;
+    setLoading(true);
+    getDailyQuizQuestions(examPath.exam, examPath.group)
+      .then(qs => {
+        setDailyQ(qs);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, [examPath]);
+
+  const currentQ = dailyQ[qIndex];
+
+  const handleSelect = (idx) => {
+    if (answered || finished) return;
+    setSelected(idx);
+    const chosenKey = currentQ.options[idx]?.key || '';
+    if (chosenKey === currentQ.answer) setScore(s => s + 1);
+    setAnswered(true);
+  };
+
+  const handleNext = () => {
+    if (qIndex < dailyQ.length - 1) {
+      setQIndex(i => i + 1);
+      setSelected(null);
+      setAnswered(false);
+    } else {
+      setFinished(true);
+    }
+  };
+
+  const handleReset = () => {
+    setQIndex(0);
+    setSelected(null);
+    setAnswered(false);
+    setScore(0);
+    setFinished(false);
+  };
+
   return (
     <div className="min-h-screen bg-background">
-      {/* Top Bar */}
       <div className="sticky top-0 z-30 bg-background border-b border-white/5">
         <div className="flex items-center w-full">
           <button
@@ -160,7 +205,6 @@ function HomeScreen({ subjects, pathLabel, onSwitch }) {
         </div>
       </div>
 
-      {/* Current Exam Path — switcher row */}
       <div className="px-4 pt-5 pb-2">
         <button
           onClick={onSwitch}
@@ -176,7 +220,6 @@ function HomeScreen({ subjects, pathLabel, onSwitch }) {
         </button>
       </div>
 
-      {/* Subject Grid */}
       <div className="px-4 pt-4 pb-4">
         <div className="grid grid-cols-3 gap-3">
           {subjects.map((name, index) => {
@@ -202,23 +245,126 @@ function HomeScreen({ subjects, pathLabel, onSwitch }) {
         </div>
       </div>
 
-      {/* Today's Quiz */}
       <div className="px-4 pt-10 pb-24">
-        <div className="rounded-2xl border border-white/15 bg-surface p-5">
-          <h2 className="text-base font-black text-white text-center tracking-tight mb-5">
-            আজকের কুইজ
-          </h2>
-          <div className="space-y-3">
-            {quizItems.map((item) => (
-              <div
-                key={item.id}
-                className="rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3.5 flex items-center justify-between"
-              >
-                <span className="text-sm font-bold text-white/60">{item.label}</span>
-                <span className="text-2xs font-bold text-white/30 uppercase tracking-wider">{item.meta}</span>
-              </div>
-            ))}
+        <div className="rounded-2xl border border-primary/20 bg-surface p-5">
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-2">
+              <Sparkles className="w-4 h-4 text-primary" />
+              <h2 className="text-base font-black text-white tracking-tight">
+                আজকের কুইজ
+              </h2>
+            </div>
+            {!loading && dailyQ.length > 0 && !finished && (
+              <span className="text-2xs font-bold text-white/40">
+                {qIndex + 1} / {dailyQ.length}
+              </span>
+            )}
           </div>
+
+          {loading ? (
+            <div className="flex items-center justify-center py-8">
+              <div className="w-6 h-6 border-2 border-primary/30 border-t-primary rounded-full animate-spin" />
+            </div>
+          ) : dailyQ.length === 0 ? (
+            <div className="text-center py-6">
+              <p className="text-xs text-white/40 font-medium">আজকের জন্য কোনো প্রশ্ন উপলব্ধ নেই</p>
+            </div>
+          ) : finished ? (
+            <div className="text-center py-4">
+              <div className="w-12 h-12 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center mx-auto mb-3">
+                <Star className="w-6 h-6 text-primary" />
+              </div>
+              <p className="text-sm font-black text-white mb-1">কুইজ শেষ!</p>
+              <p className="text-xs text-white/50 font-medium mb-4">
+                {score} / {dailyQ.length} সঠিক
+              </p>
+              <button
+                onClick={handleReset}
+                className="inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-2.5 text-2xs font-black uppercase tracking-[0.15em] text-white transition-all hover:bg-primary-hover active:scale-[0.97]"
+              >
+                আবার নাও
+              </button>
+            </div>
+          ) : currentQ ? (
+            <div>
+              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-4 mb-3">
+                <p className="text-sm font-bold text-white/90 leading-relaxed">
+                  {stripMath(currentQ.question)}
+                </p>
+              </div>
+
+              <div className="space-y-2">
+                {currentQ.options.map((opt, idx) => {
+                  const isSelected = selected === idx;
+                  const isCorrectOpt = answered && opt.key === currentQ.answer;
+                  const isWrongOpt = answered && isSelected && opt.key !== currentQ.answer;
+                  const isDimmed = answered && !isCorrectOpt && !isWrongOpt;
+
+                  let state = 'idle';
+                  if (isCorrectOpt) state = 'correct';
+                  else if (isWrongOpt) state = 'wrong';
+                  else if (isDimmed) state = 'dimmed';
+                  else if (isSelected) state = 'selected';
+
+                  return (
+                    <button
+                      key={idx}
+                      onClick={() => handleSelect(idx)}
+                      disabled={answered}
+                      className={`w-full text-left px-4 py-3 rounded-xl border-2 transition-all flex items-center gap-3 ${
+                        state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400' :
+                        state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300' :
+                        state === 'selected' ? 'bg-primary/20 border-primary text-white' :
+                        state === 'dimmed' ? 'bg-white/5 border-transparent opacity-30' :
+                        'bg-white/[0.10] border-white/20 text-white/80 hover:border-white/40 hover:bg-white/[0.16] hover:text-white'
+                      }`}
+                    >
+                      <span className={`w-7 h-7 rounded-lg flex items-center justify-center text-[11px] font-black border shrink-0 ${
+                        state === 'selected' ? 'bg-primary text-white border-primary' :
+                        state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
+                        state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
+                        'bg-white/10 border-white/20 text-white/70'
+                      }`}>
+                        {String.fromCharCode(65 + idx)}
+                      </span>
+                      <span className="text-xs font-bold leading-snug flex-1">
+                        {stripMath(opt.text)}
+                      </span>
+                      {state === 'correct' && <CheckCircle className="w-4 h-4 text-emerald-400 shrink-0" />}
+                    </button>
+                  );
+                })}
+              </div>
+
+              {answered && (
+                <div className="mt-3">
+                  {selected !== null && currentQ.options[selected]?.key === currentQ.answer ? (
+                    <div className="bg-emerald-500/[0.07] border border-emerald-500/20 rounded-xl p-3 mb-3">
+                      <p className="text-emerald-400 text-xs font-black mb-1">✓ সঠিক</p>
+                      {currentQ.explanation && (
+                        <p className="text-white/60 text-[11px] leading-relaxed">{stripMath(currentQ.explanation)}</p>
+                      )}
+                    </div>
+                  ) : (
+                    <div className="bg-yellow-500/[0.07] border border-yellow-500/20 rounded-xl p-3 mb-3">
+                      <p className="text-yellow-300 text-xs font-black mb-1">
+                        ✗ ভুল — সঠিক উত্তর: <span className="text-white font-bold">{currentQ.answer}</span>
+                      </p>
+                      {currentQ.explanation && (
+                        <p className="text-white/60 text-[11px] leading-relaxed">{stripMath(currentQ.explanation)}</p>
+                      )}
+                    </div>
+                  )}
+                  <button
+                    onClick={handleNext}
+                    className="w-full py-3 bg-primary text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all hover:bg-primary-hover active:scale-[0.98] flex items-center justify-center gap-2"
+                  >
+                    {qIndex < dailyQ.length - 1 ? 'পরবর্তী →' : 'দেখ ফলাফল'}
+                  </button>
+                </div>
+              )}
+            </div>
+          ) : null}
         </div>
       </div>
     </div>
