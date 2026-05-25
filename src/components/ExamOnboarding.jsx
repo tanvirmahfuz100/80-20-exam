@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { GraduationCap, ChevronLeft, ArrowRight, BookOpen, Globe, User, Sun, Moon } from 'lucide-react';
 import {
@@ -60,6 +60,13 @@ export default function ExamOnboarding({ onComplete }) {
   const [selectedMedium, setSelectedMedium] = useState(null);
   const [name, setName] = useState(user?.user_metadata?.username || '');
   const [saving, setSaving] = useState(false);
+
+  useEffect(() => {
+    if (!themeChosen) {
+      document.body.style.overflow = 'hidden';
+      return () => { document.body.style.overflow = ''; };
+    }
+  }, [themeChosen]);
 
   const handleThemePick = (mode) => {
     setTheme(mode);
@@ -163,7 +170,8 @@ export default function ExamOnboarding({ onComplete }) {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.2 }}
       >
-        <div className="flex-1 flex items-center justify-center overflow-y-auto px-4 md:px-6">
+        <div className="flex-1 overflow-y-auto no-scrollbar min-h-0">
+          <div className="min-h-full flex items-center justify-center px-4 md:px-6">
           <div className="w-full max-w-2xl text-center space-y-4 md:space-y-8 py-4 md:py-0">
             <div className="space-y-1 md:space-y-2">
               <h2 className="text-lg md:text-3xl font-black tracking-tighter text-text">তোমার মোড বেছে নাও</h2>
@@ -214,7 +222,10 @@ export default function ExamOnboarding({ onComplete }) {
                 onClick={() => handleThemePick('dark')}
                 className="group relative flex flex-col rounded-2xl overflow-hidden border-2 border-gray-800 bg-gray-950 text-left transition-all hover:scale-[1.02] hover:shadow-xl active:scale-[0.98]"
               >
-                <div className="px-3 md:px-4 pt-3 pb-2 md:pt-4 md:pb-3 space-y-2 md:space-y-3">
+                <div className="relative px-3 md:px-4 pt-3 pb-2 md:pt-4 md:pb-3 space-y-2 md:space-y-3">
+                  <div className="absolute top-2 right-2 md:top-3 md:right-3 bg-primary text-white text-[7px] md:text-[8px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full">
+                    Recommended
+                  </div>
                   <div className="flex items-center gap-2">
                     <div className="w-7 h-7 md:w-8 md:h-8 rounded-lg bg-indigo-950 border border-indigo-800 flex items-center justify-center">
                       <Moon className="w-3.5 h-3.5 md:w-4 md:h-4 text-indigo-400" />
@@ -247,6 +258,7 @@ export default function ExamOnboarding({ onComplete }) {
                 </div>
               </button>
             </div>
+          </div>
           </div>
         </div>
       </motion.div>
