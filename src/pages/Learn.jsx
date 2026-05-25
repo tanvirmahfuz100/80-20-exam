@@ -5,8 +5,7 @@ import {
   BookOpen, Brain, Atom, Beaker, Microscope, Globe,
   Calculator, BarChart3, MapPin, History,
   Landmark, PieChart, Briefcase, Star, Zap,
-  Lock, CheckCircle2, Circle, Target, Sparkles,
-  ChevronRight, Flame, ArrowRight, Play,
+  Sparkles, ChevronRight, Flame, ArrowRight, Play,
 } from 'lucide-react';
 import { useExamPath } from '../hooks/useExamPath';
 import { getSubjects, getPathLabel } from '../config/examPaths';
@@ -42,117 +41,178 @@ function getIcon(name) {
   return subjectIconMap[name] || BookOpen;
 }
 
-function SubjectNode({ subject, index, total, isCompleted, isCurrent, isLocked, onClick }) {
+function SubjectGridCard({ subject, onClick }) {
   const Icon = getIcon(subject);
   return (
     <motion.button
       onClick={onClick}
-      disabled={isLocked}
-      className={`relative flex items-center gap-4 w-full p-4 rounded-2xl border-2 transition-all text-left
-        ${isLocked
-          ? 'bg-surface/50 border opacity-50 cursor-not-allowed'
-          : isCompleted
-            ? 'bg-primary/5 border-primary/30 hover:border-primary'
-            : isCurrent
-              ? 'bg-primary/10 border-primary shadow-lg shadow-primary/10 hover:shadow-xl hover:shadow-primary/15'
-              : 'bg-surface border hover:border-primary/50 hover:shadow-md'
-        }`}
-      whileHover={!isLocked ? { scale: 1.01 } : {}}
-      whileTap={!isLocked ? { scale: 0.99 } : {}}
+      whileHover={{ scale: 1.03 }}
+      whileTap={{ scale: 0.97 }}
+      className="flex flex-col items-center gap-2 p-3 rounded-2xl bg-surface border hover:border-primary/50 transition-all"
     >
-      <div className={`relative w-12 h-12 rounded-xl flex items-center justify-center shrink-0
-        ${isLocked
-          ? 'bg-surface-hover'
-          : isCompleted
-            ? 'bg-primary'
-            : isCurrent
-              ? 'bg-primary'
-              : 'bg-surface-hover'
-        }`}
-      >
-        {isLocked ? (
-          <Lock className="w-5 h-5 text-text-muted" />
-        ) : isCompleted ? (
-          <CheckCircle2 className="w-6 h-6 text-white" />
-        ) : (
-          <Icon className="w-6 h-6 text-white" />
-        )}
-        {isCurrent && (
-          <span className="absolute -top-1 -right-1 w-3 h-3 bg-bee rounded-full animate-pulse ring-2 ring-white" />
-        )}
+      <div className="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center">
+        <Icon className="w-5 h-5 text-primary" />
       </div>
-      <div className="flex-1 min-w-0">
-        <p className={`font-bold text-sm md:text-base truncate
-          ${isLocked ? 'text-text-muted' : 'text-text'}`}
-        >
-          {subject}
-        </p>
-        <p className={`text-xs font-medium mt-0.5
-          ${isLocked ? 'text-text-muted/60' : isCompleted ? 'text-primary' : 'text-text-muted'}`}
-        >
-          {isLocked ? 'লকড' : isCompleted ? 'সম্পন্ন' : 'শুরু করুন'}
-        </p>
-      </div>
-      {!isLocked && (
-        <ChevronRight className={`w-5 h-5 shrink-0 ${isCompleted ? 'text-primary' : 'text-text-muted'}`} />
-      )}
+      <span className="text-[11px] font-bold text-text text-center leading-tight">{subject}</span>
     </motion.button>
   );
 }
 
-function ConnectorLine({ completed }) {
-  return (
-    <div className="flex justify-center py-0.5">
-      <svg width="20" height="24" viewBox="0 0 20 24" className="overflow-visible">
-        <path
-          d="M 10 0 C 10 12, 12 14, 14 16 C 16 18, 16 20, 10 24"
-          stroke={completed ? '#93D333' : '#DCE6EC'}
-          strokeWidth="2.5"
-          fill="none"
-          strokeLinecap="round"
-        />
-      </svg>
-    </div>
-  );
-}
-
-function DailyQuestCard() {
+function InlineDailyQuiz() {
   const navigate = useNavigate();
-  const [dailyQuestions, setDailyQuestions] = useState([]);
+  const [questions, setQuestions] = useState([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [selectedIdx, setSelectedIdx] = useState(null);
+  const [answered, setAnswered] = useState(false);
+  const [score, setScore] = useState(0);
+  const [results, setResults] = useState([]);
+  const [finished, setFinished] = useState(false);
 
   useEffect(() => {
-    const qs = getDailyQuizQuestions();
-    setDailyQuestions(qs);
+    getDailyQuizQuestions().then(setQuestions);
   }, []);
 
-  if (dailyQuestions.length === 0) return null;
+  if (questions.length === 0) return null;
+
+  if (finished) {
+    const accuracy = Math.round((score / questions.length) * 100);
+    const earnedXp = score * 10;
+    return (
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="bg-gradient-to-br from-primary/5 to-peacock/5 border border-primary/20 rounded-2xl p-5 text-center"
+      >
+        <div className="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center mx-auto mb-3">
+          <Sparkles className="w-6 h-6 text-white" />
+        </div>
+        <h3 className="font-black text-base text-text mb-1">দৈনিক কুইজ সম্পন্ন!</h3>
+        <div className="flex items-center justify-center gap-1 mt-3">
+          <span className="text-4xl font-black text-text">{score}</span>
+          <span className="text-lg font-bold text-text-muted">/{questions.length}</span>
+        </div>
+        <p className="text-sm font-bold text-text-muted mt-1">{accuracy}% accuracy</p>
+        <div className="flex items-center justify-center gap-1.5 mt-3 mb-5">
+          <Zap className="w-4 h-4 text-primary" />
+          <span className="text-sm font-black text-text">+{earnedXp} XP</span>
+        </div>
+        <div className="flex gap-2">
+          <button
+            onClick={() => { setCurrentIndex(0); setSelectedIdx(null); setAnswered(false); setScore(0); setResults([]); setFinished(false); }}
+            className="flex-1 bg-surface border border rounded-xl py-2.5 text-sm font-bold text-text hover:bg-surface-hover transition-all active:scale-95"
+          >
+            পুনরায় চেষ্টা
+          </button>
+          <button
+            onClick={() => navigate('/practice')}
+            className="flex-1 bg-primary text-white rounded-xl py-2.5 text-sm font-bold hover:bg-primary-hover transition-all active:scale-95"
+          >
+            আরও প্রাক্টিস
+          </button>
+        </div>
+      </motion.div>
+    );
+  }
+
+  const q = questions[currentIndex];
+  const isLast = currentIndex === questions.length - 1;
+
+  const handleSelect = (idx) => {
+    if (answered) return;
+    setSelectedIdx(idx);
+  };
+
+  const handleCheck = () => {
+    if (selectedIdx === null) return;
+    const isCorrect = q.options[selectedIdx]?.key === q.answer;
+    if (isCorrect) setScore(s => s + 1);
+    setResults(prev => [...prev, { selected: selectedIdx, isCorrect }]);
+    setAnswered(true);
+  };
+
+  const handleNext = () => {
+    if (isLast) {
+      setFinished(true);
+    } else {
+      setCurrentIndex(i => i + 1);
+      setSelectedIdx(null);
+      setAnswered(false);
+    }
+  };
 
   return (
     <motion.div
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
-      className="bg-gradient-to-br from-primary/5 to-peacock/5 border border-primary/20 rounded-2xl p-4 md:p-5"
+      className="rounded-2xl border border-primary/20 bg-gradient-to-br from-primary/5 to-peacock/5 p-4 md:p-5"
     >
-      <div className="flex items-start justify-between gap-3">
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
-            <Target className="w-5 h-5 text-white" />
-          </div>
-          <div>
-            <h3 className="font-black text-sm text-text">আজকের কুইজ</h3>
-            <p className="text-xs text-text-muted font-medium mt-0.5">
-              {dailyQuestions.length}টি প্রশ্ন
-            </p>
-          </div>
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center gap-2">
+          <Sparkles className="w-4 h-4 text-primary" />
+          <h2 className="font-black text-sm text-text">দৈনিক কুইজ</h2>
         </div>
+        <span className="text-xs font-bold text-text-muted">{currentIndex + 1} / {questions.length}</span>
+      </div>
+
+      <div className="bg-surface border rounded-xl p-4 mb-3">
+        <p className="text-sm font-bold text-text leading-relaxed">{q.question}</p>
+      </div>
+
+      <div className="space-y-2">
+        {q.options.map((opt, idx) => {
+          const isSelected = selectedIdx === idx;
+          let btnClass = 'border-2 bg-surface border hover:border-primary/40';
+          let badgeClass = 'bg-surface-hover border text-text-muted';
+
+          if (answered) {
+            if (opt.key === q.answer) {
+              btnClass = 'border-2 border-emerald-500 bg-emerald-500/10';
+              badgeClass = 'bg-emerald-500 text-white border-emerald-500';
+            } else if (isSelected) {
+              btnClass = 'border-2 border-cardinal bg-cardinal/10';
+              badgeClass = 'bg-cardinal text-white border-cardinal';
+            } else {
+              btnClass = 'border-2 bg-surface border opacity-50';
+            }
+          } else if (isSelected) {
+            btnClass = 'border-2 border-primary bg-primary/10';
+            badgeClass = 'bg-primary text-white border-primary';
+          }
+
+          return (
+            <button
+              key={idx}
+              onClick={() => handleSelect(idx)}
+              disabled={answered}
+              className={`w-full text-left px-4 py-3 rounded-xl transition-all flex items-center gap-3 ${btnClass}`}
+            >
+              <span className={`w-7 h-7 rounded-lg flex items-center justify-center text-[11px] font-black border shrink-0 ${badgeClass}`}>
+                {opt.key}
+              </span>
+              <span className="text-xs font-bold leading-snug flex-1 text-text">{opt.text}</span>
+            </button>
+          );
+        })}
+      </div>
+
+      {!answered ? (
+        selectedIdx !== null && (
+          <button
+            onClick={handleCheck}
+            className="mt-4 w-full bg-primary text-white rounded-xl py-3 font-bold text-sm hover:bg-primary-hover transition-all active:scale-95"
+          >
+            চেক করুন
+          </button>
+        )
+      ) : (
         <button
-          onClick={() => navigate('/practice')}
-          className="flex items-center gap-1.5 bg-primary text-white px-4 py-2 rounded-full text-sm font-bold hover:bg-primary-hover transition-all active:scale-95"
+          onClick={handleNext}
+          className="mt-4 w-full bg-primary text-white rounded-xl py-3 font-bold text-sm hover:bg-primary-hover transition-all active:scale-95 flex items-center justify-center gap-1"
         >
-          শুরু করো
+          {isLast ? 'দেখুন ফলাফল' : 'পরবর্তী প্রশ্ন'}
           <ArrowRight className="w-4 h-4" />
         </button>
-      </div>
+      )}
     </motion.div>
   );
 }
@@ -176,12 +236,7 @@ function StatsBar() {
 export default function Learn() {
   const { examPath, setExamPath } = useExamPath();
   const [mode, setMode] = useState('normal');
-  const [dailyQuestions, setDailyQuestions] = useState([]);
   const navigate = useNavigate();
-
-  useEffect(() => {
-    setDailyQuestions(getDailyQuizQuestions());
-  }, []);
 
   const handleSelectorComplete = (path) => {
     setExamPath(path);
@@ -240,46 +295,28 @@ export default function Learn() {
         </div>
       </div>
 
-      <DailyQuestCard />
-
-      <div className="mt-6">
+      <div className="mb-6">
         <div className="flex items-center justify-between mb-4">
           <h2 className="font-black text-sm text-text">সাবজেক্ট সমূহ</h2>
           <span className="text-xs text-text-muted font-bold">{subjects.length}টি সাবজেক্ট</span>
         </div>
 
-        <AnimatePresence>
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            className="space-y-0"
-          >
-            {subjects.map((subject, index) => {
-              const completed = false;
-              const current = index === 0 && dailyQuestions.length === 0;
-              const locked = index > 0 && !completed;
-              return (
-                <React.Fragment key={subject}>
-                  {index > 0 && <ConnectorLine completed={false} />}
-                  <SubjectNode
-                    subject={subject}
-                    index={index}
-                    total={subjects.length}
-                    isCompleted={completed}
-                    isCurrent={current}
-                    isLocked={locked}
-                    onClick={() => {
-                      if (!locked) {
-                        navigate(`/practice`);
-                      }
-                    }}
-                  />
-                </React.Fragment>
-              );
-            })}
-          </motion.div>
-        </AnimatePresence>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="grid grid-cols-3 gap-3"
+        >
+          {subjects.map((subject) => (
+            <SubjectGridCard
+              key={subject}
+              subject={subject}
+              onClick={() => navigate('/practice')}
+            />
+          ))}
+        </motion.div>
       </div>
+
+      <InlineDailyQuiz />
 
       <div className="mt-8 bg-gradient-to-br from-primary/5 to-peacock/5 border border-primary/20 rounded-2xl p-5 text-center">
         <div className="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center mx-auto mb-3">

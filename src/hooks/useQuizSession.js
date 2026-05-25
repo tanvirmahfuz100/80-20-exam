@@ -25,6 +25,7 @@ export function useQuizSession() {
   const isChallenge = searchParams.get('challenge') === 'daily' || searchParams.get('challenge') === 'weekly';
   const challengeType = searchParams.get('challenge');
   const isMock = searchParams.get('isMock') === 'true';
+  const isDaily = searchParams.get('daily') === 'true';
 
   // ── State ──
   const [questions, setQuestions] = useState([]);
@@ -244,6 +245,26 @@ export function useQuizSession() {
           } else {
             setQuestions(target);
           }
+        } else if (isDaily) {
+          const { getDailyQuizQuestions } = await import('../services/dailyQuiz');
+          const raw = await getDailyQuizQuestions();
+          const normalized = raw.map(q => ({
+            id: q.id || Math.random().toString(36),
+            text: q.question || '',
+            options: q.options?.map(o => o.text) || [],
+            correct: (() => {
+              if (!q.answer || !q.options) return 0;
+              const letter = q.answer.toUpperCase();
+              const keys = q.options.map(o => o.key.toUpperCase());
+              const idx = keys.indexOf(letter);
+              return idx >= 0 ? idx : 0;
+            })(),
+            explanation: q.explanation || '',
+            source: q.source || '',
+            difficulty: 'medium',
+          }));
+          setQuestions(normalized);
+          setTotalQuestionCount(normalized.length);
         }
       } catch (err) {
         setError(err.message);
@@ -252,7 +273,7 @@ export function useQuizSession() {
       }
     };
     loadQuestions();
-  }, [file, chapterId, isMock, isReviewMode, levelParam, user?.id]);
+  }, [file, chapterId, isMock, isReviewMode, levelParam, isDaily, user?.id]);
 
   useEffect(() => {
     const persistPracticeSession = async () => {
