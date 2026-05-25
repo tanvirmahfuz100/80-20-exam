@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Menu, Search, CheckCircle,
@@ -135,6 +136,7 @@ export default function SubjectSelection() {
 }
 
 function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
+  const navigate = useNavigate();
   const [dailyQ, setDailyQ] = useState([]);
   const [qIndex, setQIndex] = useState(0);
   const [selected, setSelected] = useState(null);
@@ -228,6 +230,7 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
               <motion.button
                 key={name}
                 whileTap={{ scale: 0.96 }}
+                onClick={() => navigate(`/practice?exam=${examPath.exam.toLowerCase()}`)}
                 className={`
                   flex flex-col items-center justify-center gap-2.5
                   rounded-2xl border border-white/15 bg-surface

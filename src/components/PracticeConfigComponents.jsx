@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Book, Calculator, Brain, Briefcase, ChevronRight, Play, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles, Check } from 'lucide-react';
 
 export const icons = {
+    bangla: BookOpen,
     english: Book,
     math: Calculator,
     analytical: Brain,

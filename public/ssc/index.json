@@ -1,826 +1,1411 @@
-{
-  "subjects": [
-    {
-      "id": "english",
-      "name": "English",
-      "icon": "Book",
-      "topics": [
-        {
-          "id": "grammar",
-          "name": "Grammar",
-          "chapters": [
-            {
-              "id": "ssc_gap_filling",
-              "name": "Gap Filling With Clues",
-              "file": "/ssc/english/gap_filling_with_clues_paper_11.json"
-            },
-            {
-              "id": "ssc_changing_sentences",
-              "name": "Changing Sentences",
-              "file": "/ssc/english/changing_sentences.json"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "accounting",
-      "name": "Accounting",
-      "icon": "BookOpen",
-      "name_bn": "হিসাববিজ্ঞান",
-      "name_en": "Accounting",
-      "topics": [
-        {
-          "id": "board_2025",
-          "name": "Board Exams 2025",
-          "name_bn": "বোর্ড পরীক্ষা ২০২৫",
-          "name_en": "Board Exams 2025",
-          "chapters": [
-            {
-              "id": "board_dhaka_2025",
-              "name": "Dhaka Board 2025",
-              "name_bn": "ঢাকা বোর্ড ২০২৫",
-              "file": "/ssc/accounting/board_dhaka_2025.json"
-            },
-            {
-              "id": "board_rajshahi_2025",
-              "name": "Rajshahi Board 2025",
-              "name_bn": "রাজশাহী বোর্ড ২০২৫",
-              "file": "/ssc/accounting/board_rajshahi_2025.json"
-            },
-            {
-              "id": "board_mymensingh_2025",
-              "name": "Mymensingh Board 2025",
-              "name_bn": "ময়মনসিংহ বোর্ড ২০২৫",
-              "file": "/ssc/accounting/board_mymensingh_2025.json"
-            },
-            {
-              "id": "board_sylhet_2025",
-              "name": "Sylhet Board 2025",
-              "name_bn": "সিলেট বোর্ড ২০২৫",
-              "file": "/ssc/accounting/board_sylhet_2025.json"
-            },
-            {
-              "id": "board_cumilla_2025",
-              "name": "Cumilla Board 2025",
-              "name_bn": "কুমিল্লা বোর্ড ২০২৫",
-              "file": "/ssc/accounting/board_cumilla_2025.json"
-            },
-            {
-              "id": "board_jashore_2025",
-              "name": "Jashore Board 2025",
-              "name_bn": "যশোর বোর্ড ২০২৫",
-              "file": "/ssc/accounting/board_jashore_2025.json"
-            },
-            {
-              "id": "board_chattogram_2025",
-              "name": "Chattogram Board 2025",
-              "name_bn": "চট্টগ্রাম বোর্ড ২০২৫",
-              "file": "/ssc/accounting/board_chattogram_2025.json"
-            },
-            {
-              "id": "board_dinajpur_2025",
-              "name": "Dinajpur Board 2025",
-              "name_bn": "দিনাজপুর বোর্ড ২০২৫",
-              "file": "/ssc/accounting/board_dinajpur_2025.json"
-            },
-            {
-              "id": "board_barishal_2025",
-              "name": "Barishal Board 2025",
-              "name_bn": "বরিশাল বোর্ড ২০২৫",
-              "file": "/ssc/accounting/board_barishal_2025.json"
-            }
-          ]
-        },
-        {
-          "id": "board_2026",
-          "name": "Board Exams 2026",
-          "name_bn": "বোর্ড পরীক্ষা ২০২৬",
-          "name_en": "Board Exams 2026",
-          "chapters": [
-            {
-              "id": "board_dhaka_2026",
-              "name": "Dhaka Board 2026",
-              "name_bn": "ঢাকা বোর্ড ২০২৬",
-              "file": "/ssc/accounting/board_dhaka_2026.json"
-            },
-            {
-              "id": "board_barishal_2026",
-              "name": "Barishal Board 2026",
-              "name_bn": "বরিশাল বোর্ড ২০২৬",
-              "file": "/ssc/accounting/board_barishal_2026.json"
-            },
-            {
-              "id": "board_jashore_2026",
-              "name": "Jashore Board 2026",
-              "name_bn": "যশোর বোর্ড ২০২৬",
-              "file": "/ssc/accounting/board_jashore_2026.json"
-            },
-            {
-              "id": "board_cumilla_2026",
-              "name": "Cumilla Board 2026",
-              "name_bn": "কুমিল্লা বোর্ড ২০২৬",
-              "file": "/ssc/accounting/board_cumilla_2026.json"
-            },
-            {
-              "id": "board_rajshahi_2026",
-              "name": "Rajshahi Board 2026",
-              "name_bn": "রাজশাহী বোর্ড ২০২৬",
-              "file": "/ssc/accounting/board_rajshahi_2026.json"
-            },
-            {
-              "id": "board_chattogram_2026",
-              "name": "Chattogram Board 2026",
-              "name_bn": "চট্টগ্রাম বোর্ড ২০২৬",
-              "file": "/ssc/accounting/board_chattogram_2026.json"
-            },
-            {
-              "id": "board_dinajpur_2026",
-              "name": "Dinajpur Board 2026",
-              "name_bn": "দিনাজপুর বোর্ড ২০২৬",
-              "file": "/ssc/accounting/board_dinajpur_2026.json"
-            },
-            {
-              "id": "board_sylhet_2026",
-              "name": "Sylhet Board 2026",
-              "name_bn": "সিলেট বোর্ড ২০২৬",
-              "file": "/ssc/accounting/board_sylhet_2026.json"
-            },
-            {
-              "id": "board_mymensingh_2026",
-              "name": "Mymensingh Board 2026",
-              "name_bn": "ময়মনসিংহ বোর্ড ২০২৬",
-              "file": "/ssc/accounting/board_mymensingh_2026.json"
-            }
-          ]
-        },
-        {
-          "id": "board_2024",
-          "name": "Board Exams 2024",
-          "name_bn": "বোর্ড পরীক্ষা ২০২৪",
-          "name_en": "Board Exams 2024",
-          "chapters": [
-            {
-              "id": "board_dhaka_2024",
-              "name": "Dhaka Board 2024",
-              "name_bn": "ঢাকা বোর্ড ২০২৪",
-              "file": "/ssc/accounting/board_dhaka_2024.json"
-            },
-            {
-              "id": "board_mymensingh_2024",
-              "name": "Mymensingh Board 2024",
-              "name_bn": "ময়মনসিংহ বোর্ড ২০২৪",
-              "file": "/ssc/accounting/board_mymensingh_2024.json"
-            },
-            {
-              "id": "board_rajshahi_2024",
-              "name": "Rajshahi Board 2024",
-              "name_bn": "রাজশাহী বোর্ড ২০২৪",
-              "file": "/ssc/accounting/board_rajshahi_2024.json"
-            },
-            {
-              "id": "board_dinajpur_2024",
-              "name": "Dinajpur Board 2024",
-              "name_bn": "দিনাজপুর বোর্ড ২০২৪",
-              "file": "/ssc/accounting/board_dinajpur_2024.json"
-            },
-            {
-              "id": "board_cumilla_2024",
-              "name": "Cumilla Board 2024",
-              "name_bn": "কুমিল্লা বোর্ড ২০২৪",
-              "file": "/ssc/accounting/board_cumilla_2024.json"
-            },
-            {
-              "id": "board_chattogram_2024",
-              "name": "Chattogram Board 2024",
-              "name_bn": "চট্টগ্রাম বোর্ড ২০২৪",
-              "file": "/ssc/accounting/board_chattogram_2024.json"
-            },
-            {
-              "id": "board_sylhet_2024",
-              "name": "Sylhet Board 2024",
-              "name_bn": "সিলেট বোর্ড ২০২৪",
-              "file": "/ssc/accounting/board_sylhet_2024.json"
-            },
-            {
-              "id": "board_jashore_2024",
-              "name": "Jashore Board 2024",
-              "name_bn": "যশোর বোর্ড ২০২৪",
-              "file": "/ssc/accounting/board_jashore_2024.json"
-            },
-            {
-              "id": "board_barishal_2024",
-              "name": "Barishal Board 2024",
-              "name_bn": "বরিশাল বোর্ড ২০২৪",
-              "file": "/ssc/accounting/board_barishal_2024.json"
-            }
-          ]
-        },
-        {
-          "id": "board_2023",
-          "name": "Board Exams 2023",
-          "name_bn": "বোর্ড পরীক্ষা ২০২৩",
-          "name_en": "Board Exams 2023",
-          "chapters": [
-            {
-              "id": "board_mymensingh_2023",
-              "name": "Mymensingh Board 2023",
-              "name_bn": "ময়মনসিংহ বোর্ড ২০২৩",
-              "file": "/ssc/accounting/board_mymensingh_2023.json"
-            },
-            {
-              "id": "board_rajshahi_2023",
-              "name": "Rajshahi Board 2023",
-              "name_bn": "রাজশাহী বোর্ড ২০২৩",
-              "file": "/ssc/accounting/board_rajshahi_2023.json"
-            },
-            {
-              "id": "board_dinajpur_2023",
-              "name": "Dinajpur Board 2023",
-              "name_bn": "দিনাজপুর বোর্ড ২০২৩",
-              "file": "/ssc/accounting/board_dinajpur_2023.json"
-            },
-            {
-              "id": "board_cumilla_2023",
-              "name": "Cumilla Board 2023",
-              "name_bn": "কুমিল্লা বোর্ড ২০২৩",
-              "file": "/ssc/accounting/board_cumilla_2023.json"
-            },
-            {
-              "id": "board_chattogram_2023",
-              "name": "Chattogram Board 2023",
-              "name_bn": "চট্টগ্রাম বোর্ড ২০২৩",
-              "file": "/ssc/accounting/board_chattogram_2023.json"
-            },
-            {
-              "id": "board_chattogram_2023_2",
-              "name": "Chattogram Board 2023 (Set 2)",
-              "name_bn": "চট্টগ্রাম বোর্ড ২০২৩ (২য় সেট)",
-              "file": "/ssc/accounting/board_chattogram_2023_2.json"
-            },
-            {
-              "id": "board_sylhet_2023",
-              "name": "Sylhet Board 2023",
-              "name_bn": "সিলেট বোর্ড ২০২৩",
-              "file": "/ssc/accounting/board_sylhet_2023.json"
-            },
-            {
-              "id": "board_jashore_2023",
-              "name": "Jashore Board 2023",
-              "name_bn": "যশোর বোর্ড ২০২৩",
-              "file": "/ssc/accounting/board_jashore_2023.json"
-            },
-            {
-              "id": "board_barishal_2023",
-              "name": "Barishal Board 2023",
-              "name_bn": "বরিশাল বোর্ড ২০২৩",
-              "file": "/ssc/accounting/board_barishal_2023.json"
-            }
-          ]
-        },
-        {
-          "id": "board_2022",
-          "name": "Board Exams 2022",
-          "name_bn": "বোর্ড পরীক্ষা ২০২২",
-          "name_en": "Board Exams 2022",
-          "chapters": [
-            {
-              "id": "board_dhaka_2022",
-              "name": "Dhaka Board 2022",
-              "name_bn": "ঢাকা বোর্ড ২০২২",
-              "file": "/ssc/accounting/board_dhaka_2022.json"
-            },
-            {
-              "id": "board_mymensingh_2022",
-              "name": "Mymensingh Board 2022",
-              "name_bn": "ময়মনসিংহ বোর্ড ২০২২",
-              "file": "/ssc/accounting/board_mymensingh_2022.json"
-            },
-            {
-              "id": "board_rajshahi_2022",
-              "name": "Rajshahi Board 2022",
-              "name_bn": "রাজশাহী বোর্ড ২০২২",
-              "file": "/ssc/accounting/board_rajshahi_2022.json"
-            },
-            {
-              "id": "board_dinajpur_2022",
-              "name": "Dinajpur Board 2022",
-              "name_bn": "দিনাজপুর বোর্ড ২০২২",
-              "file": "/ssc/accounting/board_dinajpur_2022.json"
-            },
-            {
-              "id": "board_cumilla_2022",
-              "name": "Cumilla Board 2022",
-              "name_bn": "কুমিল্লা বোর্ড ২০২২",
-              "file": "/ssc/accounting/board_cumilla_2022.json"
-            },
-            {
-              "id": "board_chattogram_2022",
-              "name": "Chattogram Board 2022",
-              "name_bn": "চট্টগ্রাম বোর্ড ২০২২",
-              "file": "/ssc/accounting/board_chattogram_2022.json"
-            },
-            {
-              "id": "board_sylhet_2022",
-              "name": "Sylhet Board 2022",
-              "name_bn": "সিলেট বোর্ড ২০২২",
-              "file": "/ssc/accounting/board_sylhet_2022.json"
-            },
-            {
-              "id": "board_jashore_2022",
-              "name": "Jashore Board 2022",
-              "name_bn": "যশোর বোর্ড ২০২২",
-              "file": "/ssc/accounting/board_jashore_2022.json"
-            },
-            {
-              "id": "board_barishal_2022",
-              "name": "Barishal Board 2022",
-              "name_bn": "বরিশাল বোর্ড ২০২২",
-              "file": "/ssc/accounting/board_barishal_2022.json"
-            }
-          ]
-        },
-        {
-          "id": "board_2021",
-          "name": "Board Exams 2021",
-          "name_bn": "বোর্ড পরীক্ষা ২০২১",
-          "name_en": "Board Exams 2021",
-          "chapters": [
-            {
-              "id": "board_rajshahi_2021",
-              "name": "Rajshahi Board 2021",
-              "name_bn": "রাজশাহী বোর্ড ২০২১",
-              "file": "/ssc/accounting/board_rajshahi_2021.json"
-            },
-            {
-              "id": "board_mymensingh_2021",
-              "name": "Mymensingh Board 2021",
-              "name_bn": "ময়মনসিংহ বোর্ড ২০২১",
-              "file": "/ssc/accounting/board_mymensingh_2021.json"
-            },
-            {
-              "id": "board_jashore_2021",
-              "name": "Jashore Board 2021",
-              "name_bn": "যশোর বোর্ড ২০২১",
-              "file": "/ssc/accounting/board_jashore_2021.json"
-            },
-            {
-              "id": "board_cumilla_2021",
-              "name": "Cumilla Board 2021",
-              "name_bn": "কুমিল্লা বোর্ড ২০২১",
-              "file": "/ssc/accounting/board_cumilla_2021.json"
-            },
-            {
-              "id": "board_chattogram_2021",
-              "name": "Chattogram Board 2021",
-              "name_bn": "চট্টগ্রাম বোর্ড ২০২১",
-              "file": "/ssc/accounting/board_chattogram_2021.json"
-            },
-            {
-              "id": "board_sylhet_2021",
-              "name": "Sylhet Board 2021",
-              "name_bn": "সিলেট বোর্ড ২০২১",
-              "file": "/ssc/accounting/board_sylhet_2021.json"
-            },
-            {
-              "id": "board_barishal_2021",
-              "name": "Barishal Board 2021",
-              "name_bn": "বরিশাল বোর্ড ২০২১",
-              "file": "/ssc/accounting/board_barishal_2021.json"
-            }
-          ]
-        },
-        {
-          "id": "board_2020",
-          "name": "Board Exams 2020",
-          "name_bn": "বোর্ড পরীক্ষা ২০২০",
-          "name_en": "Board Exams 2020",
-          "chapters": [
-            {
-              "id": "board_dhaka_2020",
-              "name": "Dhaka Board 2020",
-              "name_bn": "ঢাকা বোর্ড ২০২০",
-              "file": "/ssc/accounting/board_dhaka_2020.json"
-            },
-            {
-              "id": "board_mymensingh_2020",
-              "name": "Mymensingh Board 2020",
-              "name_bn": "ময়মনসিংহ বোর্ড ২০২০",
-              "file": "/ssc/accounting/board_mymensingh_2020.json"
-            },
-            {
-              "id": "board_rajshahi_2020",
-              "name": "Rajshahi Board 2020",
-              "name_bn": "রাজশাহী বোর্ড ২০২০",
-              "file": "/ssc/accounting/board_rajshahi_2020.json"
-            },
-            {
-              "id": "board_dinajpur_2020",
-              "name": "Dinajpur Board 2020",
-              "name_bn": "দিনাজপুর বোর্ড ২০২০",
-              "file": "/ssc/accounting/board_dinajpur_2020.json"
-            },
-            {
-              "id": "board_cumilla_2020",
-              "name": "Cumilla Board 2020",
-              "name_bn": "কুমিল্লা বোর্ড ২০২০",
-              "file": "/ssc/accounting/board_cumilla_2020.json"
-            },
-            {
-              "id": "board_sylhet_2020",
-              "name": "Sylhet Board 2020",
-              "name_bn": "সিলেট বোর্ড ২০২০",
-              "file": "/ssc/accounting/board_sylhet_2020.json"
-            },
-            {
-              "id": "board_jashore_2020",
-              "name": "Jashore Board 2020",
-              "name_bn": "যশোর বোর্ড ২০২০",
-              "file": "/ssc/accounting/board_jashore_2020.json"
-            },
-            {
-              "id": "board_chattogram_2020",
-              "name": "Chattogram Board 2020",
-              "name_bn": "চট্টগ্রাম বোর্ড ২০২০",
-              "file": "/ssc/accounting/board_chattogram_2020.json"
-            },
-            {
-              "id": "board_barishal_2020",
-              "name": "Barishal Board 2020",
-              "name_bn": "বরিশাল বোর্ড ২০২০",
-              "file": "/ssc/accounting/board_barishal_2020.json"
-            }
-          ]
-        },
-        {
-          "id": "board_2019",
-          "name": "Board Exams 2019",
-          "name_bn": "বোর্ড পরীক্ষা ২০১৯",
-          "name_en": "Board Exams 2019",
-          "chapters": [
-            {
-              "id": "board_dhaka_2019",
-              "name": "Dhaka Board 2019",
-              "name_bn": "ঢাকা বোর্ড ২০১৯",
-              "file": "/ssc/accounting/board_dhaka_2019.json"
-            },
-            {
-              "id": "board_rajshahi_2019",
-              "name": "Rajshahi Board 2019",
-              "name_bn": "রাজশাহী বোর্ড ২০১৯",
-              "file": "/ssc/accounting/board_rajshahi_2019.json"
-            },
-            {
-              "id": "board_cumilla_2019",
-              "name": "Cumilla Board 2019",
-              "name_bn": "কুমিল্লা বোর্ড ২০১৯",
-              "file": "/ssc/accounting/board_cumilla_2019.json"
-            },
-            {
-              "id": "board_sylhet_2019",
-              "name": "Sylhet Board 2019",
-              "name_bn": "সিলেট বোর্ড ২০১৯",
-              "file": "/ssc/accounting/board_sylhet_2019.json"
-            },
-            {
-              "id": "board_chattogram_2019",
-              "name": "Chattogram Board 2019",
-              "name_bn": "চট্টগ্রাম বোর্ড ২০১৯",
-              "file": "/ssc/accounting/board_chattogram_2019.json"
-            },
-            {
-              "id": "board_dinajpur_2019",
-              "name": "Dinajpur Board 2019",
-              "name_bn": "দিনাজপুর বোর্ড ২০১৯",
-              "file": "/ssc/accounting/board_dinajpur_2019.json"
-            },
-            {
-              "id": "board_barishal_2019",
-              "name": "Barishal Board 2019",
-              "name_bn": "বরিশাল বোর্ড ২০১৯",
-              "file": "/ssc/accounting/board_barishal_2019.json"
-            }
-          ]
-        },
-        {
-          "id": "board_2018",
-          "name": "Board Exams 2018 (All)",
-          "name_bn": "সকল বোর্ড ২০১৮",
-          "name_en": "Combined 2018",
-          "chapters": [
-            {
-              "id": "board_all_2018",
-              "name": "All Boards 2018 Combined",
-              "name_bn": "সকল বোর্ড ২০১৮",
-              "file": "/ssc/accounting/board_all_2018.json"
-            }
-          ]
-        },
-        {
-          "id": "board_2017",
-          "name": "Board Exams 2017",
-          "name_bn": "বোর্ড পরীক্ষা ২০১৭",
-          "name_en": "Board Exams 2017",
-          "chapters": [
-            {
-              "id": "board_chattogram_2017",
-              "name": "Chattogram Board 2017",
-              "name_bn": "চট্টগ্রাম বোর্ড ২০১৭",
-              "file": "/ssc/accounting/board_chattogram_2017.json"
-            },
-            {
-              "id": "board_sylhet_2017",
-              "name": "Sylhet Board 2017",
-              "name_bn": "সিলেট বোর্ড ২০১৭",
-              "file": "/ssc/accounting/board_sylhet_2017.json"
-            },
-            {
-              "id": "board_jashore_2017",
-              "name": "Jashore Board 2017",
-              "name_bn": "যশোর বোর্ড ২০১৭",
-              "file": "/ssc/accounting/board_jashore_2017.json"
-            },
-            {
-              "id": "board_barishal_2017",
-              "name": "Barishal Board 2017",
-              "name_bn": "বরিশাল বোর্ড ২০১৭",
-              "file": "/ssc/accounting/board_barishal_2017.json"
-            },
-            {
-              "id": "board_dhaka_2017",
-              "name": "Dhaka Board 2017",
-              "name_bn": "ঢাকা বোর্ড ২০১৭",
-              "file": "/ssc/accounting/board_dhaka_2017.json"
-            },
-            {
-              "id": "board_rajshahi_2017",
-              "name": "Rajshahi Board 2017",
-              "name_bn": "রাজশাহী বোর্ড ২০১৭",
-              "file": "/ssc/accounting/board_rajshahi_2017.json"
-            },
-            {
-              "id": "board_dinajpur_2017",
-              "name": "Dinajpur Board 2017",
-              "name_bn": "দিনাজপুর বোর্ড ২০১৭",
-              "file": "/ssc/accounting/board_dinajpur_2017.json"
-            },
-            {
-              "id": "board_cumilla_2017",
-              "name": "Cumilla Board 2017",
-              "name_bn": "কুমিল্লা বোর্ড ২০১৭",
-              "file": "/ssc/accounting/board_cumilla_2017.json"
-            }
-          ]
-        },
-        {
-          "id": "board_2016",
-          "name": "Board Exams 2016",
-          "name_bn": "বোর্ড পরীক্ষা ২০১৬",
-          "name_en": "Board Exams 2016",
-          "chapters": [
-            {
-              "id": "board_chattogram_2016",
-              "name": "Chattogram Board 2016",
-              "name_bn": "চট্টগ্রাম বোর্ড ২০১৬",
-              "file": "/ssc/accounting/board_chattogram_2016.json"
-            },
-            {
-              "id": "board_sylhet_2016",
-              "name": "Sylhet Board 2016",
-              "name_bn": "সিলেট বোর্ড ২০১৬",
-              "file": "/ssc/accounting/board_sylhet_2016.json"
-            },
-            {
-              "id": "board_jashore_2016",
-              "name": "Jashore Board 2016",
-              "name_bn": "যশোর বোর্ড ২০১৬",
-              "file": "/ssc/accounting/board_jashore_2016.json"
-            },
-            {
-              "id": "board_barishal_2016",
-              "name": "Barishal Board 2016",
-              "name_bn": "বরিশাল বোর্ড ২০১৬",
-              "file": "/ssc/accounting/board_barishal_2016.json"
-            },
-            {
-              "id": "board_dhaka_2016",
-              "name": "Dhaka Board 2016",
-              "name_bn": "ঢাকা বোর্ড ২০১৬",
-              "file": "/ssc/accounting/board_dhaka_2016.json"
-            },
-            {
-              "id": "board_rajshahi_2016",
-              "name": "Rajshahi Board 2016",
-              "name_bn": "রাজশাহী বোর্ড ২০১৬",
-              "file": "/ssc/accounting/board_rajshahi_2016.json"
-            },
-            {
-              "id": "board_dinajpur_2016",
-              "name": "Dinajpur Board 2016",
-              "name_bn": "দিনাজপুর বোর্ড ২০১৬",
-              "file": "/ssc/accounting/board_dinajpur_2016.json"
-            },
-            {
-              "id": "board_cumilla_2016",
-              "name": "Cumilla Board 2016",
-              "name_bn": "কুমিল্লা বোর্ড ২০১৬",
-              "file": "/ssc/accounting/board_cumilla_2016.json"
-            }
-          ]
-        },
-        {
-          "id": "school_2025",
-          "name": "School Model Tests 2025",
-          "name_bn": "স্কুল মডেল টেস্ট ২০২৫",
-          "name_en": "School Model Tests 2025",
-          "chapters": [
-            {
-              "id": "school_rajuk_uttara_model_2025",
-              "name": "Rajuk Uttara Model College",
-              "name_bn": "রাজউক উত্তরা মডেল কলেজ",
-              "file": "/ssc/accounting/school_rajuk_uttara_model_2025.json"
-            },
-            {
-              "id": "school_vikarunnisa_noon_2025",
-              "name": "Vikarunnisa Noon School & College",
-              "name_bn": "ভিকারুননিসা নূন স্কুল এন্ড কলেজ",
-              "file": "/ssc/accounting/school_vikarunnisa_noon_2025.json"
-            },
-            {
-              "id": "school_ideal_motijheel_2025",
-              "name": "Ideal School & College, Motijheel",
-              "name_bn": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল",
-              "file": "/ssc/accounting/school_ideal_motijheel_2025.json"
-            },
-            {
-              "id": "school_dhaka_residential_model_2025",
-              "name": "Dhaka Residential Model College",
-              "name_bn": "ঢাকা রেসিডেনসিয়াল মডেল কলেজ",
-              "file": "/ssc/accounting/school_dhaka_residential_model_2025.json"
-            },
-            {
-              "id": "school_adamjee_cantonment_2025",
-              "name": "Adamjee Cantonment Public School",
-              "name_bn": "আদমজী ক্যান্টনমেন্ট পাবলিক স্কুল",
-              "file": "/ssc/accounting/school_adamjee_cantonment_2025.json"
-            },
-            {
-              "id": "school_holy_cross_2025",
-              "name": "Holy Cross Girls High School",
-              "name_bn": "হলি ক্রস উচ্চ বালিকা বিদ্যালয়",
-              "file": "/ssc/accounting/school_holy_cross_2025.json"
-            },
-            {
-              "id": "school_st_joseph_2025",
-              "name": "St. Joseph Higher Secondary School",
-              "name_bn": "সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয়",
-              "file": "/ssc/accounting/school_st_joseph_2025.json"
-            },
-            {
-              "id": "school_birshreshtha_munshi_2025",
-              "name": "Birshreshtha Munshi Abdur Rouf Public College",
-              "name_bn": "বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ পাবলিক কলেজ",
-              "file": "/ssc/accounting/school_birshreshtha_munshi_2025.json"
-            },
-            {
-              "id": "school_milestone_2025",
-              "name": "Milestone College",
-              "name_bn": "মাইলস্টোন কলেজ",
-              "file": "/ssc/accounting/school_milestone_2025.json"
-            },
-            {
-              "id": "school_cantonment_mymensingh_2025",
-              "name": "Cantonment Public School & College, Mymensingh",
-              "name_bn": "ক্যান্টনমেন্ট পাবলিক স্কুল ও কলেজ, মোমেনশাহী",
-              "file": "/ssc/accounting/school_cantonment_mymensingh_2025.json"
-            }
-          ]
-        },
-        {
-          "id": "school_2024",
-          "name": "School Model Tests 2024",
-          "name_bn": "স্কুল মডেল টেস্ট ২০২৪",
-          "name_en": "School Model Tests 2024",
-          "chapters": [
-            {
-              "id": "school_rajuk_uttara_2024",
-              "name": "Rajuk Uttara College",
-              "name_bn": "রাজউক উত্তরা কলেজ",
-              "file": "/ssc/accounting/school_rajuk_uttara_2024.json"
-            },
-            {
-              "id": "school_vikarunnisa_noon_college_2024",
-              "name": "Vikarunnisa Noon College",
-              "name_bn": "ভিকারুননিসা নূন কলেজ",
-              "file": "/ssc/accounting/school_vikarunnisa_noon_college_2024.json"
-            },
-            {
-              "id": "school_ideal_motijheel_college_2024",
-              "name": "Ideal College, Motijheel",
-              "name_bn": "আইডিয়াল কলেজ, মতিঝিল",
-              "file": "/ssc/accounting/school_ideal_motijheel_college_2024.json"
-            },
-            {
-              "id": "school_dhaka_residential_2024",
-              "name": "Dhaka Residential College",
-              "name_bn": "ঢাকা রেসিডেনসিয়াল কলেজ",
-              "file": "/ssc/accounting/school_dhaka_residential_2024.json"
-            },
-            {
-              "id": "school_adamjee_cantonment_public_2024",
-              "name": "Adamjee Cantonment Public School",
-              "name_bn": "আদমজী ক্যান্টনমেন্ট পাবলিক স্কুল",
-              "file": "/ssc/accounting/school_adamjee_cantonment_public_2024.json"
-            },
-            {
-              "id": "school_holy_cross_college_2024",
-              "name": "Holy Cross College",
-              "name_bn": "হলি ক্রস কলেজ",
-              "file": "/ssc/accounting/school_holy_cross_college_2024.json"
-            },
-            {
-              "id": "school_milestone_2024",
-              "name": "Milestone College",
-              "name_bn": "মাইলস্টোন কলেজ",
-              "file": "/ssc/accounting/school_milestone_2024.json"
-            },
-            {
-              "id": "school_motijheel_model_2024",
-              "name": "Motijheel Model School & College",
-              "name_bn": "মতিঝিল মডেল স্কুল এন্ড কলেজ",
-              "file": "/ssc/accounting/school_motijheel_model_2024.json"
-            },
-            {
-              "id": "school_st_joseph_college_2024",
-              "name": "St. Joseph College",
-              "name_bn": "সেন্ট যোসেফ কলেজ",
-              "file": "/ssc/accounting/school_st_joseph_college_2024.json"
-            },
-            {
-              "id": "school_cambrian_2024",
-              "name": "Cambrian School & College",
-              "name_bn": "ক্যামব্রিয়ান স্কুল এন্ড কলেজ",
-              "file": "/ssc/accounting/school_cambrian_2024.json"
-            }
-          ]
-        },
-        {
-          "id": "board_2015",
-          "name": "Board Exams 2015",
-          "name_bn": "বোর্ড পরীক্ষা ২০১৫",
-          "name_en": "Board Exams 2015",
-          "chapters": [
-            {
-              "id": "board_dhaka_2015",
-              "name": "Dhaka Board 2015",
-              "name_bn": "ঢাকা বোর্ড ২০১৫",
-              "file": "/ssc/accounting/board_dhaka_2015.json"
-            },
-            {
-              "id": "board_rajshahi_2015",
-              "name": "Rajshahi Board 2015",
-              "name_bn": "রাজশাহী বোর্ড ২০১৫",
-              "file": "/ssc/accounting/board_rajshahi_2015.json"
-            },
-            {
-              "id": "board_cumilla_2015",
-              "name": "Cumilla Board 2015",
-              "name_bn": "কুমিল্লা বোর্ড ২০১৫",
-              "file": "/ssc/accounting/board_cumilla_2015.json"
-            },
-            {
-              "id": "board_dinajpur_2015",
-              "name": "Dinajpur Board 2015",
-              "name_bn": "দিনাজপুর বোর্ড ২০১৫",
-              "file": "/ssc/accounting/board_dinajpur_2015.json"
-            },
-            {
-              "id": "board_sylhet_2015",
-              "name": "Sylhet Board 2015",
-              "name_bn": "সিলেট বোর্ড ২০১৫",
-              "file": "/ssc/accounting/board_sylhet_2015.json"
-            },
-            {
-              "id": "board_chattogram_2015",
-              "name": "Chattogram Board 2015",
-              "name_bn": "চট্টগ্রাম বোর্ড ২০১৫",
-              "file": "/ssc/accounting/board_chattogram_2015.json"
-            },
-            {
-              "id": "board_jashore_2015",
-              "name": "Jashore Board 2015",
-              "name_bn": "যশোর বোর্ড ২০১৫",
-              "file": "/ssc/accounting/board_jashore_2015.json"
-            },
-            {
-              "id": "board_barishal_2015",
-              "name": "Barishal Board 2015",
-              "name_bn": "বরিশাল বোর্ড ২০১৫",
-              "file": "/ssc/accounting/board_barishal_2015.json"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+﻿{
+    "subjects":  [
+                     {
+                         "id":  "english",
+                         "name":  "English",
+                         "icon":  "Book",
+                         "topics":  [
+                                        {
+                                            "id":  "grammar",
+                                            "name":  "Grammar",
+                                            "chapters":  [
+                                                             {
+                                                                 "id":  "ssc_gap_filling",
+                                                                 "name":  "Gap Filling With Clues",
+                                                                 "file":  "/ssc/english/gap_filling_with_clues_paper_11.json"
+                                                             },
+                                                             {
+                                                                 "id":  "ssc_changing_sentences",
+                                                                 "name":  "Changing Sentences",
+                                                                 "file":  "/ssc/english/changing_sentences.json"
+                                                             }
+                                                         ]
+                                        }
+                                    ]
+                     },
+                     {
+                         "id":  "accounting",
+                         "name":  "Accounting",
+                         "icon":  "BookOpen",
+                         "name_bn":  "হিসাববিজ্ঞান",
+                         "name_en":  "Accounting",
+                         "topics":  [
+                                        {
+                                            "id":  "board_2025",
+                                            "name":  "Board Exams 2025",
+                                            "name_bn":  "বোর্ড পরীক্ষা ২০২৫",
+                                            "name_en":  "Board Exams 2025",
+                                            "chapters":  [
+                                                             {
+                                                                 "id":  "board_dhaka_2025",
+                                                                 "name":  "Dhaka Board 2025",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/accounting/board_dhaka_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_rajshahi_2025",
+                                                                 "name":  "Rajshahi Board 2025",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/accounting/board_rajshahi_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_mymensingh_2025",
+                                                                 "name":  "Mymensingh Board 2025",
+                                                                 "name_bn":  "ময়মনসিংহ বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/accounting/board_mymensingh_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_sylhet_2025",
+                                                                 "name":  "Sylhet Board 2025",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/accounting/board_sylhet_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_cumilla_2025",
+                                                                 "name":  "Cumilla Board 2025",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/accounting/board_cumilla_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_jashore_2025",
+                                                                 "name":  "Jashore Board 2025",
+                                                                 "name_bn":  "যশোর বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/accounting/board_jashore_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_chattogram_2025",
+                                                                 "name":  "Chattogram Board 2025",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/accounting/board_chattogram_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_dinajpur_2025",
+                                                                 "name":  "Dinajpur Board 2025",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/accounting/board_dinajpur_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_barishal_2025",
+                                                                 "name":  "Barishal Board 2025",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/accounting/board_barishal_2025.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "board_2026",
+                                            "name":  "Board Exams 2026",
+                                            "name_bn":  "বোর্ড পরীক্ষা ২০২৬",
+                                            "name_en":  "Board Exams 2026",
+                                            "chapters":  [
+                                                             {
+                                                                 "id":  "board_dhaka_2026",
+                                                                 "name":  "Dhaka Board 2026",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/accounting/board_dhaka_2026.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_barishal_2026",
+                                                                 "name":  "Barishal Board 2026",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/accounting/board_barishal_2026.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_jashore_2026",
+                                                                 "name":  "Jashore Board 2026",
+                                                                 "name_bn":  "যশোর বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/accounting/board_jashore_2026.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_cumilla_2026",
+                                                                 "name":  "Cumilla Board 2026",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/accounting/board_cumilla_2026.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_rajshahi_2026",
+                                                                 "name":  "Rajshahi Board 2026",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/accounting/board_rajshahi_2026.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_chattogram_2026",
+                                                                 "name":  "Chattogram Board 2026",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/accounting/board_chattogram_2026.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_dinajpur_2026",
+                                                                 "name":  "Dinajpur Board 2026",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/accounting/board_dinajpur_2026.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_sylhet_2026",
+                                                                 "name":  "Sylhet Board 2026",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/accounting/board_sylhet_2026.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_mymensingh_2026",
+                                                                 "name":  "Mymensingh Board 2026",
+                                                                 "name_bn":  "ময়মনসিংহ বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/accounting/board_mymensingh_2026.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "board_2024",
+                                            "name":  "Board Exams 2024",
+                                            "name_bn":  "বোর্ড পরীক্ষা ২০২৪",
+                                            "name_en":  "Board Exams 2024",
+                                            "chapters":  [
+                                                             {
+                                                                 "id":  "board_dhaka_2024",
+                                                                 "name":  "Dhaka Board 2024",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/accounting/board_dhaka_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_mymensingh_2024",
+                                                                 "name":  "Mymensingh Board 2024",
+                                                                 "name_bn":  "ময়মনসিংহ বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/accounting/board_mymensingh_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_rajshahi_2024",
+                                                                 "name":  "Rajshahi Board 2024",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/accounting/board_rajshahi_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_dinajpur_2024",
+                                                                 "name":  "Dinajpur Board 2024",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/accounting/board_dinajpur_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_cumilla_2024",
+                                                                 "name":  "Cumilla Board 2024",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/accounting/board_cumilla_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_chattogram_2024",
+                                                                 "name":  "Chattogram Board 2024",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/accounting/board_chattogram_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_sylhet_2024",
+                                                                 "name":  "Sylhet Board 2024",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/accounting/board_sylhet_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_jashore_2024",
+                                                                 "name":  "Jashore Board 2024",
+                                                                 "name_bn":  "যশোর বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/accounting/board_jashore_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_barishal_2024",
+                                                                 "name":  "Barishal Board 2024",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/accounting/board_barishal_2024.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "board_2023",
+                                            "name":  "Board Exams 2023",
+                                            "name_bn":  "বোর্ড পরীক্ষা ২০২৩",
+                                            "name_en":  "Board Exams 2023",
+                                            "chapters":  [
+                                                             {
+                                                                 "id":  "board_mymensingh_2023",
+                                                                 "name":  "Mymensingh Board 2023",
+                                                                 "name_bn":  "ময়মনসিংহ বোর্ড ২০২৩",
+                                                                 "file":  "/ssc/accounting/board_mymensingh_2023.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_rajshahi_2023",
+                                                                 "name":  "Rajshahi Board 2023",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০২৩",
+                                                                 "file":  "/ssc/accounting/board_rajshahi_2023.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_dinajpur_2023",
+                                                                 "name":  "Dinajpur Board 2023",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০২৩",
+                                                                 "file":  "/ssc/accounting/board_dinajpur_2023.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_cumilla_2023",
+                                                                 "name":  "Cumilla Board 2023",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০২৩",
+                                                                 "file":  "/ssc/accounting/board_cumilla_2023.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_chattogram_2023",
+                                                                 "name":  "Chattogram Board 2023",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০২৩",
+                                                                 "file":  "/ssc/accounting/board_chattogram_2023.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_chattogram_2023_2",
+                                                                 "name":  "Chattogram Board 2023 (Set 2)",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০২৩ (২য় সেট)",
+                                                                 "file":  "/ssc/accounting/board_chattogram_2023_2.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_sylhet_2023",
+                                                                 "name":  "Sylhet Board 2023",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০২৩",
+                                                                 "file":  "/ssc/accounting/board_sylhet_2023.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_jashore_2023",
+                                                                 "name":  "Jashore Board 2023",
+                                                                 "name_bn":  "যশোর বোর্ড ২০২৩",
+                                                                 "file":  "/ssc/accounting/board_jashore_2023.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_barishal_2023",
+                                                                 "name":  "Barishal Board 2023",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০২৩",
+                                                                 "file":  "/ssc/accounting/board_barishal_2023.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "board_2022",
+                                            "name":  "Board Exams 2022",
+                                            "name_bn":  "বোর্ড পরীক্ষা ২০২২",
+                                            "name_en":  "Board Exams 2022",
+                                            "chapters":  [
+                                                             {
+                                                                 "id":  "board_dhaka_2022",
+                                                                 "name":  "Dhaka Board 2022",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০২২",
+                                                                 "file":  "/ssc/accounting/board_dhaka_2022.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_mymensingh_2022",
+                                                                 "name":  "Mymensingh Board 2022",
+                                                                 "name_bn":  "ময়মনসিংহ বোর্ড ২০২২",
+                                                                 "file":  "/ssc/accounting/board_mymensingh_2022.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_rajshahi_2022",
+                                                                 "name":  "Rajshahi Board 2022",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০২২",
+                                                                 "file":  "/ssc/accounting/board_rajshahi_2022.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_dinajpur_2022",
+                                                                 "name":  "Dinajpur Board 2022",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০২২",
+                                                                 "file":  "/ssc/accounting/board_dinajpur_2022.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_cumilla_2022",
+                                                                 "name":  "Cumilla Board 2022",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০২২",
+                                                                 "file":  "/ssc/accounting/board_cumilla_2022.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_chattogram_2022",
+                                                                 "name":  "Chattogram Board 2022",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০২২",
+                                                                 "file":  "/ssc/accounting/board_chattogram_2022.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_sylhet_2022",
+                                                                 "name":  "Sylhet Board 2022",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০২২",
+                                                                 "file":  "/ssc/accounting/board_sylhet_2022.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_jashore_2022",
+                                                                 "name":  "Jashore Board 2022",
+                                                                 "name_bn":  "যশোর বোর্ড ২০২২",
+                                                                 "file":  "/ssc/accounting/board_jashore_2022.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_barishal_2022",
+                                                                 "name":  "Barishal Board 2022",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০২২",
+                                                                 "file":  "/ssc/accounting/board_barishal_2022.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "board_2021",
+                                            "name":  "Board Exams 2021",
+                                            "name_bn":  "বোর্ড পরীক্ষা ২০২১",
+                                            "name_en":  "Board Exams 2021",
+                                            "chapters":  [
+                                                             {
+                                                                 "id":  "board_rajshahi_2021",
+                                                                 "name":  "Rajshahi Board 2021",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০২১",
+                                                                 "file":  "/ssc/accounting/board_rajshahi_2021.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_mymensingh_2021",
+                                                                 "name":  "Mymensingh Board 2021",
+                                                                 "name_bn":  "ময়মনসিংহ বোর্ড ২০২১",
+                                                                 "file":  "/ssc/accounting/board_mymensingh_2021.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_jashore_2021",
+                                                                 "name":  "Jashore Board 2021",
+                                                                 "name_bn":  "যশোর বোর্ড ২০২১",
+                                                                 "file":  "/ssc/accounting/board_jashore_2021.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_cumilla_2021",
+                                                                 "name":  "Cumilla Board 2021",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০২১",
+                                                                 "file":  "/ssc/accounting/board_cumilla_2021.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_chattogram_2021",
+                                                                 "name":  "Chattogram Board 2021",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০২১",
+                                                                 "file":  "/ssc/accounting/board_chattogram_2021.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_sylhet_2021",
+                                                                 "name":  "Sylhet Board 2021",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০২১",
+                                                                 "file":  "/ssc/accounting/board_sylhet_2021.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_barishal_2021",
+                                                                 "name":  "Barishal Board 2021",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০২১",
+                                                                 "file":  "/ssc/accounting/board_barishal_2021.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "board_2020",
+                                            "name":  "Board Exams 2020",
+                                            "name_bn":  "বোর্ড পরীক্ষা ২০২০",
+                                            "name_en":  "Board Exams 2020",
+                                            "chapters":  [
+                                                             {
+                                                                 "id":  "board_dhaka_2020",
+                                                                 "name":  "Dhaka Board 2020",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০২০",
+                                                                 "file":  "/ssc/accounting/board_dhaka_2020.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_mymensingh_2020",
+                                                                 "name":  "Mymensingh Board 2020",
+                                                                 "name_bn":  "ময়মনসিংহ বোর্ড ২০২০",
+                                                                 "file":  "/ssc/accounting/board_mymensingh_2020.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_rajshahi_2020",
+                                                                 "name":  "Rajshahi Board 2020",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০২০",
+                                                                 "file":  "/ssc/accounting/board_rajshahi_2020.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_dinajpur_2020",
+                                                                 "name":  "Dinajpur Board 2020",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০২০",
+                                                                 "file":  "/ssc/accounting/board_dinajpur_2020.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_cumilla_2020",
+                                                                 "name":  "Cumilla Board 2020",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০২০",
+                                                                 "file":  "/ssc/accounting/board_cumilla_2020.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_sylhet_2020",
+                                                                 "name":  "Sylhet Board 2020",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০২০",
+                                                                 "file":  "/ssc/accounting/board_sylhet_2020.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_jashore_2020",
+                                                                 "name":  "Jashore Board 2020",
+                                                                 "name_bn":  "যশোর বোর্ড ২০২০",
+                                                                 "file":  "/ssc/accounting/board_jashore_2020.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_chattogram_2020",
+                                                                 "name":  "Chattogram Board 2020",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০২০",
+                                                                 "file":  "/ssc/accounting/board_chattogram_2020.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_barishal_2020",
+                                                                 "name":  "Barishal Board 2020",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০২০",
+                                                                 "file":  "/ssc/accounting/board_barishal_2020.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "board_2019",
+                                            "name":  "Board Exams 2019",
+                                            "name_bn":  "বোর্ড পরীক্ষা ২০১৯",
+                                            "name_en":  "Board Exams 2019",
+                                            "chapters":  [
+                                                             {
+                                                                 "id":  "board_dhaka_2019",
+                                                                 "name":  "Dhaka Board 2019",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০১৯",
+                                                                 "file":  "/ssc/accounting/board_dhaka_2019.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_rajshahi_2019",
+                                                                 "name":  "Rajshahi Board 2019",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০১৯",
+                                                                 "file":  "/ssc/accounting/board_rajshahi_2019.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_cumilla_2019",
+                                                                 "name":  "Cumilla Board 2019",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০১৯",
+                                                                 "file":  "/ssc/accounting/board_cumilla_2019.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_sylhet_2019",
+                                                                 "name":  "Sylhet Board 2019",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০১৯",
+                                                                 "file":  "/ssc/accounting/board_sylhet_2019.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_chattogram_2019",
+                                                                 "name":  "Chattogram Board 2019",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০১৯",
+                                                                 "file":  "/ssc/accounting/board_chattogram_2019.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_dinajpur_2019",
+                                                                 "name":  "Dinajpur Board 2019",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০১৯",
+                                                                 "file":  "/ssc/accounting/board_dinajpur_2019.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_barishal_2019",
+                                                                 "name":  "Barishal Board 2019",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০১৯",
+                                                                 "file":  "/ssc/accounting/board_barishal_2019.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "board_2018",
+                                            "name":  "Board Exams 2018 (All)",
+                                            "name_bn":  "সকল বোর্ড ২০১৮",
+                                            "name_en":  "Combined 2018",
+                                            "chapters":  [
+                                                             {
+                                                                 "id":  "board_all_2018",
+                                                                 "name":  "All Boards 2018 Combined",
+                                                                 "name_bn":  "সকল বোর্ড ২০১৮",
+                                                                 "file":  "/ssc/accounting/board_all_2018.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "board_2017",
+                                            "name":  "Board Exams 2017",
+                                            "name_bn":  "বোর্ড পরীক্ষা ২০১৭",
+                                            "name_en":  "Board Exams 2017",
+                                            "chapters":  [
+                                                             {
+                                                                 "id":  "board_chattogram_2017",
+                                                                 "name":  "Chattogram Board 2017",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/accounting/board_chattogram_2017.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_sylhet_2017",
+                                                                 "name":  "Sylhet Board 2017",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/accounting/board_sylhet_2017.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_jashore_2017",
+                                                                 "name":  "Jashore Board 2017",
+                                                                 "name_bn":  "যশোর বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/accounting/board_jashore_2017.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_barishal_2017",
+                                                                 "name":  "Barishal Board 2017",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/accounting/board_barishal_2017.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_dhaka_2017",
+                                                                 "name":  "Dhaka Board 2017",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/accounting/board_dhaka_2017.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_rajshahi_2017",
+                                                                 "name":  "Rajshahi Board 2017",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/accounting/board_rajshahi_2017.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_dinajpur_2017",
+                                                                 "name":  "Dinajpur Board 2017",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/accounting/board_dinajpur_2017.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_cumilla_2017",
+                                                                 "name":  "Cumilla Board 2017",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/accounting/board_cumilla_2017.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "board_2016",
+                                            "name":  "Board Exams 2016",
+                                            "name_bn":  "বোর্ড পরীক্ষা ২০১৬",
+                                            "name_en":  "Board Exams 2016",
+                                            "chapters":  [
+                                                             {
+                                                                 "id":  "board_chattogram_2016",
+                                                                 "name":  "Chattogram Board 2016",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০১৬",
+                                                                 "file":  "/ssc/accounting/board_chattogram_2016.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_sylhet_2016",
+                                                                 "name":  "Sylhet Board 2016",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০১৬",
+                                                                 "file":  "/ssc/accounting/board_sylhet_2016.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_jashore_2016",
+                                                                 "name":  "Jashore Board 2016",
+                                                                 "name_bn":  "যশোর বোর্ড ২০১৬",
+                                                                 "file":  "/ssc/accounting/board_jashore_2016.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_barishal_2016",
+                                                                 "name":  "Barishal Board 2016",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০১৬",
+                                                                 "file":  "/ssc/accounting/board_barishal_2016.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_dhaka_2016",
+                                                                 "name":  "Dhaka Board 2016",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০১৬",
+                                                                 "file":  "/ssc/accounting/board_dhaka_2016.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_rajshahi_2016",
+                                                                 "name":  "Rajshahi Board 2016",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০১৬",
+                                                                 "file":  "/ssc/accounting/board_rajshahi_2016.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_dinajpur_2016",
+                                                                 "name":  "Dinajpur Board 2016",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০১৬",
+                                                                 "file":  "/ssc/accounting/board_dinajpur_2016.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_cumilla_2016",
+                                                                 "name":  "Cumilla Board 2016",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০১৬",
+                                                                 "file":  "/ssc/accounting/board_cumilla_2016.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "school_2025",
+                                            "name":  "School Model Tests 2025",
+                                            "name_bn":  "স্কুল মডেল টেস্ট ২০২৫",
+                                            "name_en":  "School Model Tests 2025",
+                                            "chapters":  [
+                                                             {
+                                                                 "id":  "school_rajuk_uttara_model_2025",
+                                                                 "name":  "Rajuk Uttara Model College",
+                                                                 "name_bn":  "রাজউক উত্তরা মডেল কলেজ",
+                                                                 "file":  "/ssc/accounting/school_rajuk_uttara_model_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_vikarunnisa_noon_2025",
+                                                                 "name":  "Vikarunnisa Noon School \u0026 College",
+                                                                 "name_bn":  "ভিকারুননিসা নূন স্কুল এন্ড কলেজ",
+                                                                 "file":  "/ssc/accounting/school_vikarunnisa_noon_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_ideal_motijheel_2025",
+                                                                 "name":  "Ideal School \u0026 College, Motijheel",
+                                                                 "name_bn":  "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল",
+                                                                 "file":  "/ssc/accounting/school_ideal_motijheel_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_dhaka_residential_model_2025",
+                                                                 "name":  "Dhaka Residential Model College",
+                                                                 "name_bn":  "ঢাকা রেসিডেনসিয়াল মডেল কলেজ",
+                                                                 "file":  "/ssc/accounting/school_dhaka_residential_model_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_adamjee_cantonment_2025",
+                                                                 "name":  "Adamjee Cantonment Public School",
+                                                                 "name_bn":  "আদমজী ক্যান্টনমেন্ট পাবলিক স্কুল",
+                                                                 "file":  "/ssc/accounting/school_adamjee_cantonment_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_holy_cross_2025",
+                                                                 "name":  "Holy Cross Girls High School",
+                                                                 "name_bn":  "হলি ক্রস উচ্চ বালিকা বিদ্যালয়",
+                                                                 "file":  "/ssc/accounting/school_holy_cross_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_st_joseph_2025",
+                                                                 "name":  "St. Joseph Higher Secondary School",
+                                                                 "name_bn":  "সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয়",
+                                                                 "file":  "/ssc/accounting/school_st_joseph_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_birshreshtha_munshi_2025",
+                                                                 "name":  "Birshreshtha Munshi Abdur Rouf Public College",
+                                                                 "name_bn":  "বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ পাবলিক কলেজ",
+                                                                 "file":  "/ssc/accounting/school_birshreshtha_munshi_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_milestone_2025",
+                                                                 "name":  "Milestone College",
+                                                                 "name_bn":  "মাইলস্টোন কলেজ",
+                                                                 "file":  "/ssc/accounting/school_milestone_2025.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_cantonment_mymensingh_2025",
+                                                                 "name":  "Cantonment Public School \u0026 College, Mymensingh",
+                                                                 "name_bn":  "ক্যান্টনমেন্ট পাবলিক স্কুল ও কলেজ, মোমেনশাহী",
+                                                                 "file":  "/ssc/accounting/school_cantonment_mymensingh_2025.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "school_2024",
+                                            "name":  "School Model Tests 2024",
+                                            "name_bn":  "স্কুল মডেল টেস্ট ২০২৪",
+                                            "name_en":  "School Model Tests 2024",
+                                            "chapters":  [
+                                                             {
+                                                                 "id":  "school_rajuk_uttara_2024",
+                                                                 "name":  "Rajuk Uttara College",
+                                                                 "name_bn":  "রাজউক উত্তরা কলেজ",
+                                                                 "file":  "/ssc/accounting/school_rajuk_uttara_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_vikarunnisa_noon_college_2024",
+                                                                 "name":  "Vikarunnisa Noon College",
+                                                                 "name_bn":  "ভিকারুননিসা নূন কলেজ",
+                                                                 "file":  "/ssc/accounting/school_vikarunnisa_noon_college_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_ideal_motijheel_college_2024",
+                                                                 "name":  "Ideal College, Motijheel",
+                                                                 "name_bn":  "আইডিয়াল কলেজ, মতিঝিল",
+                                                                 "file":  "/ssc/accounting/school_ideal_motijheel_college_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_dhaka_residential_2024",
+                                                                 "name":  "Dhaka Residential College",
+                                                                 "name_bn":  "ঢাকা রেসিডেনসিয়াল কলেজ",
+                                                                 "file":  "/ssc/accounting/school_dhaka_residential_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_adamjee_cantonment_public_2024",
+                                                                 "name":  "Adamjee Cantonment Public School",
+                                                                 "name_bn":  "আদমজী ক্যান্টনমেন্ট পাবলিক স্কুল",
+                                                                 "file":  "/ssc/accounting/school_adamjee_cantonment_public_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_holy_cross_college_2024",
+                                                                 "name":  "Holy Cross College",
+                                                                 "name_bn":  "হলি ক্রস কলেজ",
+                                                                 "file":  "/ssc/accounting/school_holy_cross_college_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_milestone_2024",
+                                                                 "name":  "Milestone College",
+                                                                 "name_bn":  "মাইলস্টোন কলেজ",
+                                                                 "file":  "/ssc/accounting/school_milestone_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_motijheel_model_2024",
+                                                                 "name":  "Motijheel Model School \u0026 College",
+                                                                 "name_bn":  "মতিঝিল মডেল স্কুল এন্ড কলেজ",
+                                                                 "file":  "/ssc/accounting/school_motijheel_model_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_st_joseph_college_2024",
+                                                                 "name":  "St. Joseph College",
+                                                                 "name_bn":  "সেন্ট যোসেফ কলেজ",
+                                                                 "file":  "/ssc/accounting/school_st_joseph_college_2024.json"
+                                                             },
+                                                             {
+                                                                 "id":  "school_cambrian_2024",
+                                                                 "name":  "Cambrian School \u0026 College",
+                                                                 "name_bn":  "ক্যামব্রিয়ান স্কুল এন্ড কলেজ",
+                                                                 "file":  "/ssc/accounting/school_cambrian_2024.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "board_2015",
+                                            "name":  "Board Exams 2015",
+                                            "name_bn":  "বোর্ড পরীক্ষা ২০১৫",
+                                            "name_en":  "Board Exams 2015",
+                                            "chapters":  [
+                                                             {
+                                                                 "id":  "board_dhaka_2015",
+                                                                 "name":  "Dhaka Board 2015",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০১৫",
+                                                                 "file":  "/ssc/accounting/board_dhaka_2015.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_rajshahi_2015",
+                                                                 "name":  "Rajshahi Board 2015",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০১৫",
+                                                                 "file":  "/ssc/accounting/board_rajshahi_2015.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_cumilla_2015",
+                                                                 "name":  "Cumilla Board 2015",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০১৫",
+                                                                 "file":  "/ssc/accounting/board_cumilla_2015.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_dinajpur_2015",
+                                                                 "name":  "Dinajpur Board 2015",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০১৫",
+                                                                 "file":  "/ssc/accounting/board_dinajpur_2015.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_sylhet_2015",
+                                                                 "name":  "Sylhet Board 2015",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০১৫",
+                                                                 "file":  "/ssc/accounting/board_sylhet_2015.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_chattogram_2015",
+                                                                 "name":  "Chattogram Board 2015",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০১৫",
+                                                                 "file":  "/ssc/accounting/board_chattogram_2015.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_jashore_2015",
+                                                                 "name":  "Jashore Board 2015",
+                                                                 "name_bn":  "যশোর বোর্ড ২০১৫",
+                                                                 "file":  "/ssc/accounting/board_jashore_2015.json"
+                                                             },
+                                                             {
+                                                                 "id":  "board_barishal_2015",
+                                                                 "name":  "Barishal Board 2015",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০১৫",
+                                                                 "file":  "/ssc/accounting/board_barishal_2015.json"
+                                                             }
+                                                         ]
+                                        }
+                                    ]
+                     },
+                     {
+                         "id":  "bangla",
+                         "name":  "Bangla",
+                         "icon":  "BookOpen",
+                         "name_en":  "Bangla",
+                         "topics":  [
+                                        {
+                                            "name_en":  "Board Exams 2026",
+                                            "name":  "বোর্ড পরীক্ষা 2026",
+                                            "id":  "board_2026",
+                                            "name_bn":  "বোর্ড পরীক্ষা 2026",
+                                            "chapters":  [
+                                                             {
+                                                                 "name_en":  "মাদ্রাসা বোর্ড ২০২৬",
+                                                                 "name":  "মাদ্রাসা বোর্ড ২০২৬",
+                                                                 "id":  "board_10",
+                                                                 "name_bn":  "মাদ্রাসা বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/bangla/10.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "রাজশাহী বোর্ড ২০২৬ ",
+                                                                 "name":  "রাজশাহী বোর্ড ২০২৬ ",
+                                                                 "id":  "board_3",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০২৬ ",
+                                                                 "file":  "/ssc/bangla/3.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "কুমিল্লা বোর্ড ২০২৬",
+                                                                 "name":  "কুমিল্লা বোর্ড ২০২৬",
+                                                                 "id":  "board_4",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/bangla/4.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "ঢাকা বোর্ড ২০২৬",
+                                                                 "name":  "ঢাকা বোর্ড ২০২৬",
+                                                                 "id":  "board_1",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/bangla/1.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "ময়মনসিংহ বোর্ড ২০২৬",
+                                                                 "name":  "ময়মনসিংহ বোর্ড ২০২৬",
+                                                                 "id":  "board_2",
+                                                                 "name_bn":  "ময়মনসিংহ বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/bangla/2.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "চট্টগ্রাম বোর্ড ২০২৬",
+                                                                 "name":  "চট্টগ্রাম বোর্ড ২০২৬",
+                                                                 "id":  "board_5",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/bangla/5.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "দিনাজপুর বোর্ড ২০২৬",
+                                                                 "name":  "দিনাজপুর বোর্ড ২০২৬",
+                                                                 "id":  "board_8",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/bangla/8.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "বরিশাল বোর্ড ২০২৬",
+                                                                 "name":  "বরিশাল বোর্ড ২০২৬",
+                                                                 "id":  "board_9",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/bangla/9.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "সিলেট বোর্ড ২০২৬",
+                                                                 "name":  "সিলেট বোর্ড ২০২৬",
+                                                                 "id":  "board_6",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/bangla/6.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "যশোর বোর্ড ২০২৬",
+                                                                 "name":  "যশোর বোর্ড ২০২৬",
+                                                                 "id":  "board_7",
+                                                                 "name_bn":  "যশোর বোর্ড ২০২৬",
+                                                                 "file":  "/ssc/bangla/7.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name_en":  "Board Exams 2025",
+                                            "name":  "বোর্ড পরীক্ষা 2025",
+                                            "id":  "board_2025",
+                                            "name_bn":  "বোর্ড পরীক্ষা 2025",
+                                            "chapters":  [
+                                                             {
+                                                                 "name_en":  "ময়মনসিংহ বোর্ড ২০২৫",
+                                                                 "name":  "ময়মনসিংহ বোর্ড ২০২৫",
+                                                                 "id":  "board_12",
+                                                                 "name_bn":  "ময়মনসিংহ বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/bangla/12.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "রাজশাহী বোর্ড ২০২৫",
+                                                                 "name":  "রাজশাহী বোর্ড ২০২৫",
+                                                                 "id":  "board_13",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/bangla/13.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "ঢাকা বোর্ড ২০২৫",
+                                                                 "name":  "ঢাকা বোর্ড ২০২৫",
+                                                                 "id":  "board_11",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/bangla/11.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "দিনাজপুর বোর্ড ২০২৫",
+                                                                 "name":  "দিনাজপুর বোর্ড ২০২৫",
+                                                                 "id":  "board_14",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/bangla/14.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "সিলেট বোর্ড ২০২৫",
+                                                                 "name":  "সিলেট বোর্ড ২০২৫",
+                                                                 "id":  "board_17",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/bangla/17.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "যশোর বোর্ড ২০২৫",
+                                                                 "name":  "যশোর বোর্ড ২০২৫",
+                                                                 "id":  "board_18",
+                                                                 "name_bn":  "যশোর বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/bangla/18.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "কুমিল্লা বোর্ড ২০২৫",
+                                                                 "name":  "কুমিল্লা বোর্ড ২০২৫",
+                                                                 "id":  "board_15",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/bangla/15.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "চট্টগ্রাম বোর্ড ২০২৫",
+                                                                 "name":  "চট্টগ্রাম বোর্ড ২০২৫",
+                                                                 "id":  "board_16",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/bangla/16.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "বরিশাল বোর্ড ২০২৫",
+                                                                 "name":  "বরিশাল বোর্ড ২০২৫",
+                                                                 "id":  "board_19",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/bangla/19.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "মাদ্রাসা বোর্ড ২০২৫",
+                                                                 "name":  "মাদ্রাসা বোর্ড ২০২৫",
+                                                                 "id":  "board_20",
+                                                                 "name_bn":  "মাদ্রাসা বোর্ড ২০২৫",
+                                                                 "file":  "/ssc/bangla/20.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name_en":  "Board Exams 2024",
+                                            "name":  "বোর্ড পরীক্ষা 2024",
+                                            "id":  "board_2024",
+                                            "name_bn":  "বোর্ড পরীক্ষা 2024",
+                                            "chapters":  [
+                                                             {
+                                                                 "name_en":  "মাদ্রাসা বোর্ড ২০২৪",
+                                                                 "name":  "মাদ্রাসা বোর্ড ২০২৪",
+                                                                 "id":  "board_30",
+                                                                 "name_bn":  "মাদ্রাসা বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/bangla/30.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "যশোর বোর্ড ২০২৪",
+                                                                 "name":  "যশোর বোর্ড ২০২৪",
+                                                                 "id":  "board_28",
+                                                                 "name_bn":  "যশোর বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/bangla/28.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "বরিশাল বোর্ড ২০২৪",
+                                                                 "name":  "বরিশাল বোর্ড ২০২৪",
+                                                                 "id":  "board_29",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/bangla/29.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "ঢাকা বোর্ড ২০২৪",
+                                                                 "name":  "ঢাকা বোর্ড ২০২৪",
+                                                                 "id":  "board_21",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/bangla/21.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "ময়মনসিংহ বোর্ড ২০২৪",
+                                                                 "name":  "ময়মনসিংহ বোর্ড ২০২৪",
+                                                                 "id":  "board_22",
+                                                                 "name_bn":  "ময়মনসিংহ বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/bangla/22.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "রাজশাহী বোর্ড ২০২৪",
+                                                                 "name":  "রাজশাহী বোর্ড ২০২৪",
+                                                                 "id":  "board_23",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/bangla/23.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "কুমিল্লা বোর্ড ২০২৪",
+                                                                 "name":  "কুমিল্লা বোর্ড ২০২৪",
+                                                                 "id":  "board_26",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/bangla/26.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "সিলেট বোর্ড ২০২৪",
+                                                                 "name":  "সিলেট বোর্ড ২০২৪",
+                                                                 "id":  "board_27",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/bangla/27.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "চট্টগ্রাম বোর্ড ২০২৪",
+                                                                 "name":  "চট্টগ্রাম বোর্ড ২০২৪",
+                                                                 "id":  "board_24",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/bangla/24.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "দিনাজপুর বোর্ড ২০২৪",
+                                                                 "name":  "দিনাজপুর বোর্ড ২০২৪",
+                                                                 "id":  "board_25",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০২৪",
+                                                                 "file":  "/ssc/bangla/25.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name_en":  "Board Exams 2023",
+                                            "name":  "বোর্ড পরীক্ষা 2023",
+                                            "id":  "board_2023",
+                                            "name_bn":  "বোর্ড পরীক্ষা 2023",
+                                            "chapters":  [
+                                                             {
+                                                                 "name_en":  "মাদ্রাসা বোর্ড ২০২৩",
+                                                                 "name":  "মাদ্রাসা বোর্ড ২০২৩",
+                                                                 "id":  "board_37",
+                                                                 "name_bn":  "মাদ্রাসা বোর্ড ২০২৩",
+                                                                 "file":  "/ssc/bangla/37.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "ঢাকা বোর্ড ২০২৩",
+                                                                 "name":  "ঢাকা বোর্ড ২০২৩",
+                                                                 "id":  "board_31",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০২৩",
+                                                                 "file":  "/ssc/bangla/31.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "ময়মনসিংহ বোর্ড ২০২৩",
+                                                                 "name":  "ময়মনসিংহ বোর্ড ২০২৩",
+                                                                 "id":  "board_32",
+                                                                 "name_bn":  "ময়মনসিংহ বোর্ড ২০২৩",
+                                                                 "file":  "/ssc/bangla/32.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "কুমিল্লা বোর্ড ২০২৩",
+                                                                 "name":  "কুমিল্লা বোর্ড ২০২৩",
+                                                                 "id":  "board_35",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০২৩",
+                                                                 "file":  "/ssc/bangla/35.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "চট্টগ্রাম বোর্ড ২০২৩",
+                                                                 "name":  "চট্টগ্রাম বোর্ড ২০২৩",
+                                                                 "id":  "board_36",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০২৩",
+                                                                 "file":  "/ssc/bangla/36.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "রাজশাহী বোর্ড ২০২৩",
+                                                                 "name":  "রাজশাহী বোর্ড ২০২৩",
+                                                                 "id":  "board_33",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০২৩",
+                                                                 "file":  "/ssc/bangla/33.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "দিনাজপুর বোর্ড ২০২৩",
+                                                                 "name":  "দিনাজপুর বোর্ড ২০২৩",
+                                                                 "id":  "board_34",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০২৩",
+                                                                 "file":  "/ssc/bangla/34.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name_en":  "Board Exams 2022",
+                                            "name":  "বোর্ড পরীক্ষা 2022",
+                                            "id":  "board_2022",
+                                            "name_bn":  "বোর্ড পরীক্ষা 2022",
+                                            "chapters":  [
+                                                             {
+                                                                 "name_en":  "বরিশাল বোর্ড ২০২২",
+                                                                 "name":  "বরিশাল বোর্ড ২০২২",
+                                                                 "id":  "board_46",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০২২",
+                                                                 "file":  "/ssc/bangla/46.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "ময়মনসিংহ বোর্ড ২০২২",
+                                                                 "name":  "ময়মনসিংহ বোর্ড ২০২২",
+                                                                 "id":  "board_39",
+                                                                 "name_bn":  "ময়মনসিংহ বোর্ড ২০২২",
+                                                                 "file":  "/ssc/bangla/39.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "রাজশাহী বোর্ড ২০২২",
+                                                                 "name":  "রাজশাহী বোর্ড ২০২২",
+                                                                 "id":  "board_40",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০২২",
+                                                                 "file":  "/ssc/bangla/40.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "ঢাকা বোর্ড ২০২২ ",
+                                                                 "name":  "ঢাকা বোর্ড ২০২২ ",
+                                                                 "id":  "board_38",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০২২ ",
+                                                                 "file":  "/ssc/bangla/38.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "দিনাজপুর বোর্ড ২০২২",
+                                                                 "name":  "দিনাজপুর বোর্ড ২০২২",
+                                                                 "id":  "board_41",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০২২",
+                                                                 "file":  "/ssc/bangla/41.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "সিলেট বোর্ড ২০২২",
+                                                                 "name":  "সিলেট বোর্ড ২০২২",
+                                                                 "id":  "board_44",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০২২",
+                                                                 "file":  "/ssc/bangla/44.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "যশোর বোর্ড ২০২২",
+                                                                 "name":  "যশোর বোর্ড ২০২২",
+                                                                 "id":  "board_45",
+                                                                 "name_bn":  "যশোর বোর্ড ২০২২",
+                                                                 "file":  "/ssc/bangla/45.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "কুমিল্লা বোর্ড ২০২২",
+                                                                 "name":  "কুমিল্লা বোর্ড ২০২২",
+                                                                 "id":  "board_42",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০২২",
+                                                                 "file":  "/ssc/bangla/42.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "চট্টগ্রাম বোর্ড ২০২২",
+                                                                 "name":  "চট্টগ্রাম বোর্ড ২০২২",
+                                                                 "id":  "board_43",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০২২",
+                                                                 "file":  "/ssc/bangla/43.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name_en":  "Board Exams 2020",
+                                            "name":  "বোর্ড পরীক্ষা 2020",
+                                            "id":  "board_2020",
+                                            "name_bn":  "বোর্ড পরীক্ষা 2020",
+                                            "chapters":  [
+                                                             {
+                                                                 "name_en":  "ময়মনসিংহ বোর্ড ২০২০",
+                                                                 "name":  "ময়মনসিংহ বোর্ড ২০২০",
+                                                                 "id":  "board_48",
+                                                                 "name_bn":  "ময়মনসিংহ বোর্ড ২০২০",
+                                                                 "file":  "/ssc/bangla/48.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "রাজশাহী বোর্ড ২০২০",
+                                                                 "name":  "রাজশাহী বোর্ড ২০২০",
+                                                                 "id":  "board_49",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০২০",
+                                                                 "file":  "/ssc/bangla/49.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "ঢাকা বোর্ড ২০২০",
+                                                                 "name":  "ঢাকা বোর্ড ২০২০",
+                                                                 "id":  "board_47",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০২০",
+                                                                 "file":  "/ssc/bangla/47.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "দিনাজপুর বোর্ড ২০২০",
+                                                                 "name":  "দিনাজপুর বোর্ড ২০২০",
+                                                                 "id":  "board_50",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০২০",
+                                                                 "file":  "/ssc/bangla/50.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "চট্টগ্রাম বোর্ড ২০২০",
+                                                                 "name":  "চট্টগ্রাম বোর্ড ২০২০",
+                                                                 "id":  "board_53",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০২০",
+                                                                 "file":  "/ssc/bangla/53.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "সিলেট বোর্ড ২০২০",
+                                                                 "name":  "সিলেট বোর্ড ২০২০",
+                                                                 "id":  "board_54",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০২০",
+                                                                 "file":  "/ssc/bangla/54.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "কুমিল্লা বোর্ড ২০২০",
+                                                                 "name":  "কুমিল্লা বোর্ড ২০২০",
+                                                                 "id":  "board_51",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০২০",
+                                                                 "file":  "/ssc/bangla/51.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "যশোর বোর্ড ২০২০",
+                                                                 "name":  "যশোর বোর্ড ২০২০",
+                                                                 "id":  "board_52",
+                                                                 "name_bn":  "যশোর বোর্ড ২০২০",
+                                                                 "file":  "/ssc/bangla/52.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "বরিশাল বোর্ড ২০২০",
+                                                                 "name":  "বরিশাল বোর্ড ২০২০",
+                                                                 "id":  "board_55",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০২০",
+                                                                 "file":  "/ssc/bangla/55.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name_en":  "Board Exams 2019",
+                                            "name":  "বোর্ড পরীক্ষা 2019",
+                                            "id":  "board_2019",
+                                            "name_bn":  "বোর্ড পরীক্ষা 2019",
+                                            "chapters":  [
+                                                             {
+                                                                 "name_en":  "রাজশাহী বোর্ড ২০১৯",
+                                                                 "name":  "রাজশাহী বোর্ড ২০১৯",
+                                                                 "id":  "board_57",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০১৯",
+                                                                 "file":  "/ssc/bangla/57.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "চট্টগ্রাম বোর্ড  ২০১৯",
+                                                                 "name":  "চট্টগ্রাম বোর্ড  ২০১৯",
+                                                                 "id":  "board_58",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড  ২০১৯",
+                                                                 "file":  "/ssc/bangla/58.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "ঢাকা বোর্ড ২০১৯",
+                                                                 "name":  "ঢাকা বোর্ড ২০১৯",
+                                                                 "id":  "board_56",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০১৯",
+                                                                 "file":  "/ssc/bangla/56.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "দিনাজপুর বোর্ড ২০১৯",
+                                                                 "name":  "দিনাজপুর বোর্ড ২০১৯",
+                                                                 "id":  "board_59",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০১৯",
+                                                                 "file":  "/ssc/bangla/59.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "সিলেট বোর্ড  ২০১৯",
+                                                                 "name":  "সিলেট বোর্ড  ২০১৯",
+                                                                 "id":  "board_62",
+                                                                 "name_bn":  "সিলেট বোর্ড  ২০১৯",
+                                                                 "file":  "/ssc/bangla/62.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "বরিশাল বোর্ড ২০১৯",
+                                                                 "name":  "বরিশাল বোর্ড ২০১৯",
+                                                                 "id":  "board_63",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০১৯",
+                                                                 "file":  "/ssc/bangla/63.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "কুমিল্লা বোর্ড  ২০১৯",
+                                                                 "name":  "কুমিল্লা বোর্ড  ২০১৯",
+                                                                 "id":  "board_60",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড  ২০১৯",
+                                                                 "file":  "/ssc/bangla/60.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "যশোর বোর্ড ২০১৯",
+                                                                 "name":  "যশোর বোর্ড ২০১৯",
+                                                                 "id":  "board_61",
+                                                                 "name_bn":  "যশোর বোর্ড ২০১৯",
+                                                                 "file":  "/ssc/bangla/61.json"
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name_en":  "Board Exams 2018",
+                                            "name":  "সকল বোর্ড ২০১৮",
+                                            "id":  "board_2018",
+                                            "name_bn":  "সকল বোর্ড ২০১৮",
+                                             "chapters":  [
+                                                              {
+                                                                  "name_en":  "সকল বোর্ড ২০১৮",
+                                                                  "name":  "সকল বোর্ড ২০১৮",
+                                                                  "id":  "board_64",
+                                                                  "name_bn":  "সকল বোর্ড ২০১৮",
+                                                                  "file":  "/ssc/bangla/64.json"
+                                                              }
+                                                          ]
+                                        },
+                                        {
+                                            "name_en":  "Board Exams 2017",
+                                            "name":  "বোর্ড পরীক্ষা 2017",
+                                            "id":  "board_2017",
+                                            "name_bn":  "বোর্ড পরীক্ষা 2017",
+                                            "chapters":  [
+                                                             {
+                                                                 "name_en":  "রাজশাহী বোর্ড ২০১৭",
+                                                                 "name":  "রাজশাহী বোর্ড ২০১৭",
+                                                                 "id":  "board_66",
+                                                                 "name_bn":  "রাজশাহী বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/bangla/66.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "দিনাজপুর বোর্ড ২০১৭",
+                                                                 "name":  "দিনাজপুর বোর্ড ২০১৭",
+                                                                 "id":  "board_67",
+                                                                 "name_bn":  "দিনাজপুর বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/bangla/67.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "ঢাকা বোর্ড ২০১৭",
+                                                                 "name":  "ঢাকা বোর্ড ২০১৭",
+                                                                 "id":  "board_65",
+                                                                 "name_bn":  "ঢাকা বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/bangla/65.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "কুমিল্লা বোর্ড ২০১৭",
+                                                                 "name":  "কুমিল্লা বোর্ড ২০১৭",
+                                                                 "id":  "board_68",
+                                                                 "name_bn":  "কুমিল্লা বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/bangla/68.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "যশোর বোর্ড ২০১৭",
+                                                                 "name":  "যশোর বোর্ড ২০১৭",
+                                                                 "id":  "board_71",
+                                                                 "name_bn":  "যশোর বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/bangla/71.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "বরিশাল বোর্ড ২০১৭",
+                                                                 "name":  "বরিশাল বোর্ড ২০১৭",
+                                                                 "id":  "board_72",
+                                                                 "name_bn":  "বরিশাল বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/bangla/72.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "চট্টগ্রাম বোর্ড ২০১৭",
+                                                                 "name":  "চট্টগ্রাম বোর্ড ২০১৭",
+                                                                 "id":  "board_69",
+                                                                 "name_bn":  "চট্টগ্রাম বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/bangla/69.json"
+                                                             },
+                                                             {
+                                                                 "name_en":  "সিলেট বোর্ড ২০১৭",
+                                                                 "name":  "সিলেট বোর্ড ২০১৭",
+                                                                 "id":  "board_70",
+                                                                 "name_bn":  "সিলেট বোর্ড ২০১৭",
+                                                                 "file":  "/ssc/bangla/70.json"
+                                                             }
+                                                         ]
+                                        }
+                                    ],
+                         "name_bn":  "বাংলা"
+                     }
+                 ]
 }
