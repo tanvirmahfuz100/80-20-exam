@@ -6,6 +6,9 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   base: '/80-20-exam/',
+  optimizeDeps: {
+    entries: ['index.html'],
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src')
