@@ -432,7 +432,7 @@ const Quiz = () => {
                                                         disabled={isAnswered}
                                                         onClick={(e) => handleOptionSelect(idx, e)}
                                                         className={`w-full text-left flex-1 min-h-[56px] md:min-h-[64px] px-5 py-4 rounded-full border-2 transition-all flex items-center gap-4 group/opt ${state === 'correct' ? 'bg-primary/10 border-primary text-primary' :
-                                                            state === 'wrong' ? 'bg-cardinal/10 border-cardinal text-cardinal' :
+                                                            state === 'wrong' ? 'bg-reward/10 border-reward text-reward' :
                                                                 state === 'selected' ? 'bg-primary/10 border-primary text-primary' :
                                                                     state === 'dimmed' ? 'bg-background border-transparent opacity-30' :
                                                                         'bg-surface border text-text-muted hover:border-primary/40 hover:text-text hover:shadow-sm'
@@ -443,7 +443,7 @@ const Quiz = () => {
                                                     >
                                                         <span className={`w-9 h-9 rounded-full flex items-center justify-center text-sm font-black border-2 transition-all shrink-0 ${state === 'selected' ? 'bg-primary text-white border-primary' :
                                                             state === 'correct' ? 'bg-primary text-white border-primary' :
-                                                                state === 'wrong' ? 'bg-cardinal text-white border-cardinal' :
+                                                                state === 'wrong' ? 'bg-reward text-white border-reward' :
                                                                     'bg-background border text-text-muted group-hover/opt:border-hare group-hover/opt:text-text'
                                                             }`}>
                                                             {String.fromCharCode(65 + idx)}
@@ -452,7 +452,7 @@ const Quiz = () => {
                                                             {stripMath(option.text)}
                                                         </span>
                                                         {state === 'correct' && <CheckCircle2 className="w-5 h-5 text-primary shrink-0" aria-hidden="true" />}
-                                                        {state === 'wrong' && <XCircle className="w-5 h-5 text-cardinal shrink-0" aria-hidden="true" />}
+                                                        {state === 'wrong' && <Star className="w-5 h-5 text-reward shrink-0" aria-hidden="true" />}
                                                     </motion.button>
                                                 );
                                             })}
@@ -522,16 +522,16 @@ const Quiz = () => {
                                                     </button>
                                                 </div>
                                             ) : (
-                                                <div className="flex-1 flex flex-col bg-cardinal/5 border border-cardinal/20 rounded-2xl p-4 md:p-5 gap-4">
+                                                <div className="flex-1 flex flex-col bg-reward/5 border border-reward/20 rounded-2xl p-4 md:p-5 gap-4">
                                                     <div className="flex items-center gap-2 shrink-0">
-                                                        <div className="w-8 h-8 bg-cardinal rounded-full flex items-center justify-center">
-                                                            <XCircle className="w-5 h-5 text-white shrink-0" />
+                                                        <div className="w-8 h-8 bg-reward rounded-full flex items-center justify-center">
+                                                            <Star className="w-5 h-5 text-white shrink-0" />
                                                         </div>
-                                                        <h4 className="text-cardinal font-black text-sm uppercase tracking-wider bn-text">ভুল!</h4>
+                                                        <h4 className="text-reward font-black text-sm uppercase tracking-wider bn-text">প্রায়! শিখে ফেলো</h4>
                                                     </div>
 
                                                     <div className="flex flex-wrap items-center gap-2 shrink-0">
-                                                        <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface border border-cardinal/20">
+                                                        <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface border border-reward/20">
                                                             <CheckCircle2 className="w-3.5 h-3.5 text-primary shrink-0" />
                                                             <span className="text-[9px] font-black uppercase tracking-wider text-text-muted bn-text">সঠিক উত্তর:</span>
                                                             <span className="font-bold text-sm text-primary">{stripMath(correctAnswerText)}</span>
@@ -539,29 +539,29 @@ const Quiz = () => {
                                                     </div>
 
                                                     <p className="text-text-muted text-[11px] md:text-xs font-medium leading-relaxed shrink-0">
-                                                        ভুল থেকে শেখার সুযোগ। একটি স্টার যোগ করা হয়েছে — রিভিউ করে সংগ্রহ করো।
+                                                        ভুল থেকে শেখা বড় হওয়ার অংশ! একটা স্টার জমা হয়েছে — রিভিউ করলেই পেয়ে যাবে।
                                                     </p>
 
                                                     <div className="flex-1 overflow-y-auto min-h-0 space-y-3 text-xs md:text-sm">
                                                         {(currentQ.explanation_bn || currentQ.explanation) && (
-                                                            <div className="bg-surface rounded-xl p-3 border border-cardinal/10">
-                                                                <p className="font-bold text-cardinal/60 uppercase tracking-wider text-[10px] mb-1 bn-text">বাংলা ব্যাখ্যা</p>
+                                                            <div className="bg-surface rounded-xl p-3 border border-reward/10">
+                                                                <p className="font-bold text-reward/60 uppercase tracking-wider text-[10px] mb-1 bn-text">বাংলা ব্যাখ্যা</p>
                                                                 <p className="text-text/80 leading-relaxed">{currentQ.explanation_bn || currentQ.explanation}</p>
                                                             </div>
                                                         )}
                                                         {currentQ.explanation_en && (
-                                                            <div className="bg-surface rounded-xl p-3 border border-cardinal/10">
-                                                                <p className="font-bold text-cardinal/60 uppercase tracking-wider text-[10px] mb-1 bn-text">ইংরেজি ব্যাখ্যা</p>
+                                                            <div className="bg-surface rounded-xl p-3 border border-reward/10">
+                                                                <p className="font-bold text-reward/60 uppercase tracking-wider text-[10px] mb-1 bn-text">ইংরেজি ব্যাখ্যা</p>
                                                                 <p className="text-text/80 leading-relaxed">{currentQ.explanation_en}</p>
                                                             </div>
                                                         )}
                                                         {currentQ.explanation_distractors && currentQ.explanation_distractors.length > 0 && (
-                                                            <div className="bg-surface rounded-xl p-3 border border-cardinal/10">
-                                                                <p className="font-bold text-cardinal/60 uppercase tracking-wider text-[10px] mb-2 bn-text">অন্য অপশনগুলো কেন ভুল</p>
+                                                            <div className="bg-surface rounded-xl p-3 border border-reward/10">
+                                                                <p className="font-bold text-reward/60 uppercase tracking-wider text-[10px] mb-2 bn-text">অন্য অপশনগুলো কেন ভুল</p>
                                                                 {currentQ.explanation_distractors.map((d, i) => (
                                                                     <div key={i} className="mb-1.5 last:mb-0">
                                                                         <p className="text-text/90 text-[11px] font-medium mb-0.5">"{d.option}"</p>
-                                                                        <p className="text-text-muted text-[10px] leading-relaxed pl-2 border-l border-cardinal/20">{d.reason}</p>
+                                                                        <p className="text-text-muted text-[10px] leading-relaxed pl-2 border-l border-reward/20">{d.reason}</p>
                                                                     </div>
                                                                 ))}
                                                             </div>
