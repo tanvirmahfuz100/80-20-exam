@@ -257,7 +257,7 @@ export default function ExamChangerDropdown({ currentExamPath, onExamChange }) {
               )}
 
               {/* Reassurance footer */}
-              <div className="mt-5 pt-4 border-t text-center space-y-2.5">
+              <div className="mt-5 pt-4 text-center space-y-2.5">
                 <div className="flex items-center justify-center gap-1.5">
                   <ShieldCheck className="w-4 h-4 text-emerald-500 shrink-0" />
                   <span className="text-xs font-medium text-text-muted leading-relaxed bn-text">
