@@ -120,7 +120,7 @@ const Quiz = () => {
                 <div className="flex items-center gap-3 min-w-0 flex-1">
                     <button
                         onClick={handleBackWithConfirm}
-                        className="p-2 bg-background hover:bg-wolf rounded-xl text-text-muted hover:text-text transition-all active:scale-95 shrink-0 flex items-center justify-center touch-target"
+                        className="p-2 bg-surface border rounded-xl text-text-muted hover:text-text hover:bg-surface-hover transition-all active:scale-95 shrink-0 flex items-center justify-center touch-target"
                         aria-label="Back to practice"
                     >
                         <ArrowLeft className="w-4 h-4" />
@@ -161,10 +161,11 @@ const Quiz = () => {
                 <div className="flex items-center gap-1.5 shrink-0">
                     <button
                         onClick={() => setShowReportModal(true)}
-                        className="p-2 rounded-lg text-text-muted hover:text-bee hover:bg-bee/10 transition-all touch-target flex items-center justify-center"
+                        className="flex items-center gap-1.5 bg-surface border rounded-xl px-2.5 py-1.5 hover:bg-surface-hover transition-all active:scale-95"
                         aria-label="Report a problem"
                     >
-                        <Flag className="w-3.5 h-3.5" />
+                        <Flag className="w-3.5 h-3.5 text-cardinal" />
+                        <span className="text-[9px] font-black text-text-muted uppercase tracking-widest">Report</span>
                     </button>
                     <div className="hidden md:flex items-center gap-0.5 px-2 py-1.5 rounded-xl bg-background border">
                         <button

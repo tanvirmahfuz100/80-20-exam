@@ -482,8 +482,27 @@ export function useQuizSession() {
 
   const handleSubmitReport = useCallback(() => {
     const currentQ = questions[currentIndex];
-    const text = `Report:%0A%0AReason: ${reportReason}%0A%0AQuestion: ${currentQ?.text || 'N/A'}%0AFile: ${file || 'N/A'}%0ADetails: ${reportDetails || 'N/A'}`;
-    window.open(`https://wa.me/8801884581816?text=${text}`, '_blank');
+    const optionsText = currentQ?.options
+      ? currentQ.options.map((opt, i) => `${String.fromCharCode(65 + i)}) ${opt}`).join('\n')
+      : 'N/A';
+    const questionLink = window.location.href;
+    const parts = [
+      '📝 *Problem Report*',
+      '',
+      `*Reason:* ${reportReason || 'N/A'}`,
+      '',
+      `*Question:* ${currentQ?.text || currentQ?.question || 'N/A'}`,
+      '',
+      `*Options:*\n${optionsText}`,
+      '',
+      `*Link:* ${questionLink}`,
+    ];
+    if (reportDetails) {
+      parts.push('', `*Details:* ${reportDetails}`);
+    }
+    const message = parts.join('\n');
+    const encoded = encodeURIComponent(message);
+    window.open(`https://wa.me/8801884581816?text=${encoded}`, '_blank');
     setShowReportModal(false);
     setReportReason('');
     setReportDetails('');

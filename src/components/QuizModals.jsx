@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { AlertTriangle, XCircle, Flag } from 'lucide-react';
+import { AlertTriangle, XCircle, Flag, ChevronDown } from 'lucide-react';
 
 export const ExitConfirmModal = ({ show, onStay, onLeave, title, message, stayLabel, leaveLabel }) => {
   if (!show) return null;
@@ -46,7 +46,31 @@ export const ExitConfirmModal = ({ show, onStay, onLeave, title, message, stayLa
 };
 
 export const ReportModal = ({ show, reason, details, onReasonChange, onDetailsChange, onSubmit, onClose }) => {
+  const [dropdownOpen, setDropdownOpen] = React.useState(false);
+  const dropdownRef = React.useRef(null);
+
+  React.useEffect(() => {
+    if (!dropdownOpen) return;
+    const close = (e) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) setDropdownOpen(false);
+    };
+    document.addEventListener('mousedown', close);
+    return () => document.removeEventListener('mousedown', close);
+  }, [dropdownOpen]);
+
   if (!show) return null;
+
+  const reasons = [
+    { value: '', label: 'Select a reason...' },
+    { value: 'wrong_answer', label: 'Wrong answer' },
+    { value: 'typo', label: 'Typo / Grammar error' },
+    { value: 'duplicate', label: 'Duplicate question' },
+    { value: 'confusing', label: 'Confusing explanation' },
+    { value: 'other', label: 'Other' },
+  ];
+
+  const selectedLabel = reasons.find(r => r.value === reason)?.label || 'Select a reason...';
+
   return (
     <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
       <div className="absolute inset-0 bg-black/60" onClick={onClose} />
@@ -72,18 +96,32 @@ export const ReportModal = ({ show, reason, details, onReasonChange, onDetailsCh
         </div>
 
         <div className="space-y-3">
-          <select
-            value={reason}
-            onChange={(e) => onReasonChange(e.target.value)}
-            className="duo-input"
-          >
-            <option value="">Select a reason...</option>
-            <option value="wrong_answer">Wrong answer</option>
-            <option value="typo">Typo / Grammar error</option>
-            <option value="duplicate">Duplicate question</option>
-            <option value="confusing">Confusing explanation</option>
-            <option value="other">Other</option>
-          </select>
+          <div className="relative" ref={dropdownRef}>
+            <button
+              type="button"
+              onClick={() => setDropdownOpen(o => !o)}
+              className="w-full flex items-center justify-between px-4 py-3 rounded-xl border bg-surface text-text placeholder:text-hare text-base font-medium focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all"
+            >
+              <span className={reason ? 'text-text' : 'text-hare'}>{selectedLabel}</span>
+              <ChevronDown className={`w-4 h-4 text-text-muted transition-transform ${dropdownOpen ? 'rotate-180' : ''}`} />
+            </button>
+            {dropdownOpen && (
+              <div className="absolute top-full left-0 right-0 mt-1 z-10 bg-surface border rounded-xl shadow-lg overflow-y-auto max-h-48">
+                {reasons.slice(1).map(r => (
+                  <button
+                    key={r.value}
+                    type="button"
+                    onClick={() => { onReasonChange(r.value); setDropdownOpen(false); }}
+                    className={`w-full text-left px-4 py-3 text-sm font-medium transition-colors hover:bg-surface-hover ${
+                      reason === r.value ? 'bg-primary/10 text-primary' : 'text-text'
+                    }`}
+                  >
+                    {r.label}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
           <textarea
             value={details}
             onChange={(e) => onDetailsChange(e.target.value)}
