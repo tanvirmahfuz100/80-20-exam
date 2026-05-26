@@ -141,20 +141,31 @@ const toQuestionRecord = (questionFile, chapter) => {
         exam_category,
         exam_type,
         options: (() => {
-            const optionTexts = (q.options || []).map((option) => (
-                typeof option === 'string' ? option : option.text || option.option_text || ''
-            ));
+            const optionLetters = ['A', 'B', 'C', 'D'];
+            let optionTexts;
+            let correctIndex = -1;
 
-            let correctIndex = typeof q.correct === 'number' ? q.correct : -1;
-            if (q.correct_answer !== undefined) {
-                correctIndex = optionTexts.findIndex(
-                    (optionText) => String(optionText).trim().toLowerCase() === String(q.correct_answer).trim().toLowerCase()
-                );
-            }
-            if (correctIndex === -1 && q.correct_tag !== undefined) {
-                correctIndex = optionTexts.findIndex(
-                    (optionText) => String(optionText).trim().toLowerCase() === String(q.correct_tag).trim().toLowerCase()
-                );
+            if (q.options && typeof q.options === 'object' && !Array.isArray(q.options)) {
+                optionTexts = optionLetters.map((l) => q.options[l] || '');
+                if (q.answer && optionLetters.includes(q.answer.toUpperCase())) {
+                    correctIndex = optionLetters.indexOf(q.answer.toUpperCase());
+                }
+            } else {
+                optionTexts = (q.options || []).map((option) => (
+                    typeof option === 'string' ? option : option.text || option.option_text || ''
+                ));
+
+                correctIndex = typeof q.correct === 'number' ? q.correct : -1;
+                if (q.correct_answer !== undefined) {
+                    correctIndex = optionTexts.findIndex(
+                        (optionText) => String(optionText).trim().toLowerCase() === String(q.correct_answer).trim().toLowerCase()
+                    );
+                }
+                if (correctIndex === -1 && q.correct_tag !== undefined) {
+                    correctIndex = optionTexts.findIndex(
+                        (optionText) => String(optionText).trim().toLowerCase() === String(q.correct_tag).trim().toLowerCase()
+                    );
+                }
             }
             if (correctIndex === -1 && optionTexts.length > 0) correctIndex = 0;
 
