@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { NavLink, useLocation, Link, useNavigate } from 'react-router-dom';
 import {
-  LayoutDashboard, Trophy, Target, ShoppingBag, User, Menu, X,
+  LayoutDashboard, Trophy, Target, ShoppingBag, User, Menu, X, Search,
   BookOpen, Settings as SettingsIcon, HelpCircle, Bell,
   Flame, Gem, LogOut, ShieldCheck, Star, MessageSquareWarning,
   Sun, Moon, TrendingUp, Brain, Medal, AlertTriangle
@@ -384,7 +384,7 @@ const Layout = ({ children }) => {
               >
                 <Menu className="w-5 h-5" aria-hidden="true" />
               </button>
-              <Link to="/" className="hidden md:flex items-center gap-2.5">
+              <Link to="/" className="hidden md:flex items-center gap-2.5 shrink-0">
                 <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                   <span className="text-white font-black text-xs">80</span>
                 </div>
@@ -392,9 +392,24 @@ const Layout = ({ children }) => {
                   80-20 Exam
                 </span>
               </Link>
+              <div className="flex-1 min-w-0 max-w-md">
+                <div
+                  className="relative cursor-pointer"
+                  onClick={() => navigate('/bank')}
+                >
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-dim pointer-events-none" />
+                  <input
+                    type="text"
+                    placeholder="প্রশ্ন খুঁজুন..."
+                    className="w-full bg-background border rounded-xl pl-9 pr-3 py-[7px] text-sm text-text placeholder:text-text-dim outline-none focus:border-primary/50 transition-all cursor-pointer"
+                    readOnly
+                    onFocus={(e) => { e.target.blur(); navigate('/bank'); }}
+                  />
+                </div>
+              </div>
             </div>
 
-            <div className="flex items-center gap-1.5 md:gap-2">
+            <div className="flex items-center gap-1.5 md:gap-2 shrink-0">
               <button
                 onClick={toggleTheme}
                 className="p-2 bg-surface border border rounded-xl text-text-muted hover:text-text hover:border transition-all hidden md:flex items-center justify-center touch-target"

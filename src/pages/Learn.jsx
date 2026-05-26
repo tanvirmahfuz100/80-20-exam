@@ -5,12 +5,12 @@ import {
   BookOpen, Brain, Atom, Beaker, Microscope, Globe,
   Calculator, BarChart3, MapPin, History,
   Landmark, PieChart, Briefcase, Star, Zap,
-  Sparkles, ChevronRight, Flame, ArrowRight, Play,
+  Sparkles, Flame, ArrowRight, Play,
 } from 'lucide-react';
 import { useExamPath } from '../hooks/useExamPath';
-import { getSubjects, getPathLabel } from '../config/examPaths';
+import { getSubjects } from '../config/examPaths';
 import ExamOnboarding from '../components/ExamOnboarding';
-import ExamPathSelector from '../components/ExamPathSelector';
+import ExamChangerDropdown from '../components/ExamChangerDropdown';
 import { getDailyQuizQuestions } from '../services/dailyQuiz';
 import { stripMath } from '../services/quizUtils';
 import { getMistakesDueCount } from '../services/review';
@@ -235,16 +235,13 @@ function StatsBar() {
 
 export default function Learn() {
   const { examPath, setExamPath } = useExamPath();
-  const [mode, setMode] = useState('normal');
   const navigate = useNavigate();
 
   const handleSelectorComplete = (path) => {
     setExamPath(path);
-    setMode('normal');
   };
 
   const subjects = examPath ? getSubjects(examPath.exam, examPath.group) : [];
-  const pathLabel = examPath ? getPathLabel(examPath.exam, examPath.group, examPath.class, examPath.medium) : '';
 
   if (!examPath) {
     return (
@@ -262,37 +259,17 @@ export default function Learn() {
     );
   }
 
-  if (mode === 'selector') {
-    return (
-      <div className="max-w-lg mx-auto py-4">
-        <button
-          onClick={() => setMode('normal')}
-          className="flex items-center gap-2 text-sm font-bold text-text-muted hover:text-text mb-4 transition-all"
-        >
-          <ChevronRight className="w-4 h-4 rotate-180" />
-          ফিরে যান
-        </button>
-        <ExamPathSelector onComplete={handleSelectorComplete} />
-      </div>
-    );
-  }
-
   return (
     <div className="max-w-lg mx-auto">
-      <div className="flex items-center justify-between mb-4">
-        <div>
+      <div className="mb-4">
+        <div className="flex items-center justify-between">
           <h1 className="text-lg font-black text-text">তোমার কোর্স</h1>
-          <p className="text-sm text-text-muted font-medium mt-0.5">{pathLabel}</p>
-        </div>
-        <div className="flex items-center gap-2">
           <StatsBar />
-          <button
-            onClick={() => setMode('selector')}
-            className="px-3 py-1.5 bg-surface border border rounded-full text-xs font-bold text-text-muted hover:text-text hover:border transition-all"
-          >
-            সুইচ
-          </button>
         </div>
+        <ExamChangerDropdown
+          currentExamPath={examPath}
+          onExamChange={handleSelectorComplete}
+        />
       </div>
 
       <div className="mb-6">
