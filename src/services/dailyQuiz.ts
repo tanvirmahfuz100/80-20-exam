@@ -31,7 +31,19 @@ function isIBAQuestion(q) {
   return q && q.text && Array.isArray(q.options) && q.options.length > 0 && typeof q.correct === 'number' && q.correct >= 0;
 }
 
-function normalizeQuestion(q) {
+function isTagQuestion(q) {
+  return q && q.question_id && q.statement && Array.isArray(q.options) && q.options.length > 0 && q.correct_tag;
+}
+
+function isSubOptionQuestion(q) {
+  return q && Array.isArray(q.options) && q.options.length > 0 && typeof q.options[0] === 'object' && 'isCorrect' in q.options[0] && 'text' in q.options[0];
+}
+
+function hasSubQuestions(data) {
+  return Array.isArray(data.questions) && data.questions.length > 0 && Array.isArray(data.questions[0].subQuestions);
+}
+
+function normalizeQuestion(q, parentText?) {
   if (isMCObject(q)) {
     const optionKeys = Object.keys(q.options).filter(k => k.length === 1);
     return {
@@ -53,6 +65,34 @@ function normalizeQuestion(q) {
       source: q.source || '',
     };
   }
+  if (isTagQuestion(q)) {
+    return {
+      id: q.question_id || Math.random().toString(36),
+      question: q.statement,
+      options: q.options.map((text, i) => ({ key: String.fromCharCode(65 + i), text })),
+      answer: (() => {
+        const idx = q.options.indexOf(q.correct_tag);
+        return idx >= 0 ? String.fromCharCode(65 + idx) : 'A';
+      })(),
+      explanation: q.explanation_en || q.explanation_bn || '',
+      source: q.source || '',
+    };
+  }
+  if (isSubOptionQuestion(q)) {
+    return {
+      id: q.id || q.blankId || Math.random().toString(36),
+      question: parentText
+        ? `${parentText}\n${q.sentence || q.instruction || ''}`
+        : q.sentence || q.instruction || q.question || '',
+      options: q.options.map((opt, i) => ({ key: String.fromCharCode(65 + i), text: opt.text })),
+      answer: (() => {
+        const correct = q.options.findIndex(o => o.isCorrect);
+        return correct >= 0 ? String.fromCharCode(65 + correct) : 'A';
+      })(),
+      explanation: (q.options.find(o => o.isCorrect)?.explanationBn || q.options.find(o => o.isCorrect)?.explanationEn || ''),
+      source: q.source || '',
+    };
+  }
   return null;
 }
 
@@ -63,6 +103,17 @@ async function fetchQuestionsForFile(filePath) {
     const res = await fetch(url);
     if (!res.ok) return [];
     const data = await res.json();
+
+    if (hasSubQuestions(data)) {
+      const result = [];
+      for (const group of data.questions) {
+        for (const sq of (group.subQuestions || [])) {
+          const nq = normalizeQuestion(sq, group.text);
+          if (nq) result.push(nq);
+        }
+      }
+      return result;
+    }
 
     let rawQuestions = data;
     if (data.questions && Array.isArray(data.questions)) {

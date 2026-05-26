@@ -58,7 +58,7 @@ function SubjectGridCard({ subject, onClick }) {
   );
 }
 
-function InlineDailyQuiz() {
+function InlineDailyQuiz({ exam, group }) {
   const navigate = useNavigate();
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -67,12 +67,45 @@ function InlineDailyQuiz() {
   const [score, setScore] = useState(0);
   const [results, setResults] = useState([]);
   const [finished, setFinished] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    getDailyQuizQuestions().then(setQuestions);
-  }, []);
+    setLoading(true);
+    getDailyQuizQuestions(exam, group)
+      .then(qs => {
+        setQuestions(qs);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, [exam, group]);
 
-  if (questions.length === 0) return null;
+  if (loading) {
+    return (
+      <div className="rounded-2xl border border-primary/20 bg-gradient-to-br from-primary/5 to-peacock/5 p-4 md:p-5">
+        <div className="flex items-center gap-2 mb-4">
+          <Sparkles className="w-4 h-4 text-primary" />
+          <h2 className="font-black text-sm text-text">দৈনিক কুইজ</h2>
+        </div>
+        <div className="flex items-center justify-center py-8">
+          <div className="w-6 h-6 border-2 border-primary/30 border-t-primary rounded-full animate-spin" />
+        </div>
+      </div>
+    );
+  }
+
+  if (questions.length === 0) {
+    return (
+      <div className="rounded-2xl border border-primary/20 bg-gradient-to-br from-primary/5 to-peacock/5 p-4 md:p-5">
+        <div className="flex items-center gap-2 mb-4">
+          <Sparkles className="w-4 h-4 text-primary" />
+          <h2 className="font-black text-sm text-text">দৈনিক কুইজ</h2>
+        </div>
+        <div className="text-center py-6">
+          <p className="text-xs text-text-muted font-medium">আজকের জন্য কোনো প্রশ্ন উপলব্ধ নেই</p>
+        </div>
+      </div>
+    );
+  }
 
   if (finished) {
     const accuracy = Math.round((score / questions.length) * 100);
@@ -281,7 +314,7 @@ export default function Learn() {
         </motion.div>
       </div>
 
-      <InlineDailyQuiz />
+      <InlineDailyQuiz exam={examPath.exam} group={examPath.group} />
 
       <div className="mt-8 bg-gradient-to-br from-primary/5 to-peacock/5 border border-primary/20 rounded-2xl p-5 text-center">
         <div className="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center mx-auto mb-3">
