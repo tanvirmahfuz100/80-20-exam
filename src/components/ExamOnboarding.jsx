@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { GraduationCap, ChevronLeft, ArrowRight, BookOpen, Globe, User, Sun, Moon } from 'lucide-react';
+import { GraduationCap, ChevronLeft, ChevronRight, ArrowRight, BookOpen, Globe, User, Sun, Moon } from 'lucide-react';
 import {
   EXAMS, GROUPS, CLASSES, MEDIA,
   EXAM_LABELS, GROUP_LABELS, MEDIUM_LABELS,
@@ -154,11 +154,15 @@ export default function ExamOnboarding({ onComplete }) {
     }
   };
 
+  const handleContinue = () => {
+    advanceStep(selectedExam);
+  };
+
   const showBack = step > 0;
   const canProceed = {
-    0: false, // exam pick triggers automatically
-    1: false, // group/class pick triggers automatically
-    2: false, // medium pick triggers automatically
+    0: selectedExam !== null,
+    1: requiresGroup(selectedExam) ? selectedGroup !== null : selectedClass !== null,
+    2: selectedMedium !== null,
     3: name.trim().length > 0,
   };
 
@@ -273,20 +277,10 @@ export default function ExamOnboarding({ onComplete }) {
       transition={{ duration: 0.2 }}
     >
       {/* Header */}
-      <div className="flex items-center gap-3 px-4 py-4 border-b border shrink-0">
-        {showBack ? (
-          <button onClick={handleBack} className="p-2 -ml-2 text-text-muted hover:text-text transition-colors">
-            <ChevronLeft className="w-5 h-5" />
-          </button>
-        ) : (
-          <div className="w-9" />
-        )}
-        <div className="flex-1 text-center">
-          <span className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim">
-            {stepTitles[step]}
-          </span>
-        </div>
-        <div className="w-9" />
+      <div className="flex items-center justify-center px-4 py-4 border-b border shrink-0">
+        <span className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim">
+          {stepTitles[step]}
+        </span>
       </div>
 
       {/* Body */}
@@ -482,26 +476,42 @@ export default function ExamOnboarding({ onComplete }) {
                     }}
                   />
                 </div>
-                <button
-                  onClick={handleFinish}
-                  disabled={name.trim().length === 0 || saving}
-                  className={`w-full flex items-center justify-center gap-2.5 rounded-2xl py-4 text-sm font-black uppercase tracking-[0.15em] transition-all active:scale-[0.97] ${
-                    name.trim().length > 0 && !saving
-                      ? 'bg-primary text-white hover:bg-primary-hover'
-                      : 'bg-surface-alt text-text-dim cursor-not-allowed'
-                  }`}
-                >
-                  {saving ? 'সেটআপ হচ্ছে...' : 'শেখা শুরু করো'}
-                  {!saving && <ArrowRight className="w-4 h-4" />}
-                </button>
               </div>
             </motion.div>
           )}
         </AnimatePresence>
       </div>
 
-      {/* Footer hint */}
-      <div className="px-4 py-4 border-t border shrink-0">
+      {/* Bottom navigation */}
+      <div className="px-4 py-4 border-t border shrink-0 space-y-2">
+        <div className="flex items-center justify-between gap-3">
+          <button
+            onClick={handleBack}
+            disabled={step === 0}
+            className={`flex items-center gap-1.5 rounded-xl px-4 py-2.5 text-sm font-black transition-all active:scale-[0.97] ${
+              step === 0
+                ? 'text-text-dim cursor-not-allowed opacity-0'
+                : 'text-text-muted hover:text-text hover:bg-surface-alt'
+            }`}
+          >
+            <ChevronLeft className="w-4 h-4" />
+            পেছনে
+          </button>
+
+          <button
+            onClick={step === 3 ? handleFinish : handleContinue}
+            disabled={!canProceed[step]}
+            className={`flex items-center gap-1.5 rounded-xl px-5 py-2.5 text-sm font-black uppercase tracking-[0.1em] transition-all active:scale-[0.97] ${
+              canProceed[step]
+                ? 'bg-primary text-white hover:bg-primary-hover'
+                : 'bg-surface-alt text-text-dim cursor-not-allowed'
+            }`}
+          >
+            {step === 3 ? (saving ? 'সেটআপ হচ্ছে...' : 'শেখা শুরু করো') : 'চালিয়ে যান'}
+            {!(step === 3 && saving) && <ChevronRight className="w-4 h-4" />}
+          </button>
+        </div>
+
         <p className="text-center text-3xs font-medium text-text-dim">
           {step === 0 && 'পরে সেটিংসে পরিবর্তন করতে পারবে'}
           {step === 1 && requiresGroup(selectedExam) && 'তোমার গ্রুপ অনুযায়ী সাবজেক্ট দেখানো হবে'}
