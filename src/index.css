@@ -226,17 +226,17 @@
 
 @layer utilities {
   .glass {
-    @apply bg-white/80 border border-wolf shadow-lg;
+    @apply bg-surface/80 border border-wolf shadow-lg;
     backdrop-filter: blur(12px);
   }
 
   .glass-strong {
-    @apply bg-white border border-wolf shadow-xl;
+    @apply bg-surface border border-wolf shadow-xl;
   }
 
   /* Duolingo-style card */
   .duo-card {
-    @apply bg-white rounded-2xl shadow-sm border border-wolf/50 p-4 md:p-6;
+    @apply bg-surface rounded-2xl shadow-sm border border-wolf/50 p-4 md:p-6;
   }
 
   /* Duolingo-style pill button */
@@ -260,8 +260,8 @@
 
   /* Duolingo input */
   .duo-input {
-    @apply w-full px-4 py-3 rounded-xl border border-wolf bg-white
-           text-snow placeholder:text-hare text-base font-medium
+    @apply w-full px-4 py-3 rounded-xl border border-wolf bg-surface
+           text-text placeholder:text-hare text-base font-medium
            focus:border-primary focus:ring-2 focus:ring-primary/20
            transition-all;
   }
@@ -439,7 +439,7 @@ body.low-end .shadow-2xl {
 }
 
 body.low-end .glass {
-  @apply bg-white/10 border border-white/10;
+  @apply bg-surface/10 border border-surface/10;
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
   box-shadow: none !important;

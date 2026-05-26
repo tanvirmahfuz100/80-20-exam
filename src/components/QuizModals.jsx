@@ -12,7 +12,7 @@ export const ExitConfirmModal = ({ show, onStay, onLeave }) => {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 40 }}
         transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-        className="relative w-full sm:max-w-sm bg-white rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
+        className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
         onClick={e => e.stopPropagation()}
       >
         <div className="flex items-start gap-3">
@@ -20,8 +20,8 @@ export const ExitConfirmModal = ({ show, onStay, onLeave }) => {
             <AlertTriangle className="w-5 h-5 text-cardinal" />
           </div>
           <div className="min-w-0 flex-1">
-            <h3 className="text-sm font-bold text-charcoal">Are you sure?</h3>
-            <p className="text-xs text-hare font-medium mt-1 leading-relaxed">
+            <h3 className="text-sm font-bold text-text">Are you sure?</h3>
+            <p className="text-xs text-text-muted font-medium mt-1 leading-relaxed">
               You'll lose your progress on this lesson if you leave. Your answers so far are saved.
             </p>
           </div>
@@ -29,7 +29,7 @@ export const ExitConfirmModal = ({ show, onStay, onLeave }) => {
         <div className="flex gap-2">
           <button
             onClick={onStay}
-            className="flex-1 py-3 bg-eel hover:bg-wolf text-charcoal rounded-full font-bold text-sm transition-all active:scale-[0.97] border border-wolf"
+            className="flex-1 py-3 bg-surface-alt hover:bg-surface-hover text-text rounded-full font-bold text-sm transition-all active:scale-[0.97] border border-wolf"
           >
             Stay
           </button>
@@ -55,7 +55,7 @@ export const ReportModal = ({ show, reason, details, onReasonChange, onDetailsCh
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 40 }}
         transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-        className="relative w-full sm:max-w-sm bg-white rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
+        className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
         onClick={e => e.stopPropagation()}
       >
         <div className="flex items-start gap-3">
@@ -63,10 +63,10 @@ export const ReportModal = ({ show, reason, details, onReasonChange, onDetailsCh
             <Flag className="w-5 h-5 text-primary" />
           </div>
           <div className="min-w-0 flex-1">
-            <h3 className="text-sm font-bold text-charcoal">Report a Problem</h3>
-            <p className="text-xs text-hare font-medium mt-1">Tell us what's wrong with this question.</p>
+            <h3 className="text-sm font-bold text-text">Report a Problem</h3>
+            <p className="text-xs text-text-muted font-medium mt-1">Tell us what's wrong with this question.</p>
           </div>
-          <button onClick={onClose} className="text-hare hover:text-charcoal p-1">
+          <button onClick={onClose} className="text-text-muted hover:text-text p-1">
             <XCircle className="w-5 h-5" />
           </button>
         </div>

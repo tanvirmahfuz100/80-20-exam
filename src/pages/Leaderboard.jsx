@@ -37,11 +37,11 @@ export default function Leaderboard() {
   return (
     <div className="max-w-lg mx-auto">
       <div className="text-center mb-6">
-        <div className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-wolf rounded-full mb-3">
+        <div className="inline-flex items-center gap-2 px-4 py-2 bg-surface border border-wolf rounded-full mb-3">
           <Medal className="w-5 h-5 text-bee" />
-          <span className="font-bold text-sm text-charcoal">এই সপ্তাহে</span>
+          <span className="font-bold text-sm text-text">এই সপ্তাহে</span>
         </div>
-        <h1 className="text-xl font-black text-charcoal">লিডারবোর্ড</h1>
+        <h1 className="text-xl font-black text-text">লিডারবোর্ড</h1>
       </div>
 
       <div className={`${currentLeague.bg} ${currentLeague.border} border-2 rounded-2xl p-4 mb-6`}>
@@ -65,24 +65,24 @@ export default function Leaderboard() {
             <div
               key={entry.rank}
               className={`flex items-center gap-3 p-3 rounded-xl transition-all
-                ${isMe ? 'bg-primary/5 border border-primary/20' : 'bg-white border border-wolf hover:border-hare'}`}
+                ${isMe ? 'bg-primary/5 border border-primary/20' : 'bg-surface border border-wolf hover:border-hare'}`}
             >
               <span className={`w-7 text-center font-black text-sm ${
                 entry.rank <= 3 ? 'text-bee' : 'text-hare'
               }`}>
                 {entry.rank <= 3 ? ['🥇', '🥈', '🥉'][entry.rank - 1] : entry.rank}
               </span>
-              <div className="w-9 h-9 bg-wolf/50 rounded-xl flex items-center justify-center font-bold text-sm text-charcoal shrink-0">
+              <div className="w-9 h-9 bg-surface-hover rounded-xl flex items-center justify-center font-bold text-sm text-text shrink-0">
                 {entry.avatar}
               </div>
               <div className="flex-1 min-w-0">
-                <p className="font-bold text-sm text-charcoal truncate">
+                <p className="font-bold text-sm text-text truncate">
                   {entry.name}
                   {isMe && <span className="text-primary text-xs ml-1">(তুমি)</span>}
                 </p>
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-black text-sm text-charcoal">{entry.xp.toLocaleString()}</span>
+                <span className="font-black text-sm text-text">{entry.xp.toLocaleString()}</span>
                 <ChangeIcon change={entry.change} />
               </div>
             </div>
@@ -97,9 +97,9 @@ export default function Leaderboard() {
             {currentUser.avatar}
           </div>
           <div className="flex-1 min-w-0">
-            <p className="font-bold text-sm text-charcoal truncate">{currentUser.name}</p>
+            <p className="font-bold text-sm text-text truncate">{currentUser.name}</p>
           </div>
-          <span className="font-black text-sm text-charcoal">{currentUser.xp.toLocaleString()}</span>
+          <span className="font-black text-sm text-text">{currentUser.xp.toLocaleString()}</span>
         </div>
       )}
     </div>

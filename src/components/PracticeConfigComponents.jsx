@@ -71,7 +71,7 @@ export const ExamCard = ({ exam, isSelected, onClick, progress }) => {
             whileTap={{ scale: 0.98 }}
             className="relative flex items-center gap-3 p-3.5 rounded-2xl border-2 transition-all text-left w-full group"
             style={{
-                backgroundColor: isSelected ? colors.bg : 'white',
+                backgroundColor: isSelected ? colors.bg : 'var(--color-surface)',
                 borderColor: isSelected ? colors.accent : 'var(--color-wolf)',
             }}
         >
@@ -79,7 +79,7 @@ export const ExamCard = ({ exam, isSelected, onClick, progress }) => {
 
             <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 flex-wrap">
-                    <h3 className="text-xl md:text-2xl font-bold text-charcoal tracking-tight leading-none">{exam.label}</h3>
+                    <h3 className="text-xl md:text-2xl font-bold text-text tracking-tight leading-none">{exam.label}</h3>
                     {inProgress && (
                         <span className="text-[7px] font-bold uppercase tracking-[0.2em] px-1.5 py-0.5 rounded-full" style={{ color: colors.accent, backgroundColor: colors.bg }}>
                             অ্যাকটিভ
@@ -114,7 +114,7 @@ export const ExamCard = ({ exam, isSelected, onClick, progress }) => {
 export const InactiveExam = ({ exam }) => {
     const colors = examColors[exam.id] || examColors.ssc;
     return (
-        <div className="relative flex items-center gap-3 p-3.5 rounded-2xl border-2 border-wolf opacity-40 cursor-not-allowed bg-white">
+        <div className="relative flex items-center gap-3 p-3.5 rounded-2xl border-2 border-wolf opacity-40 cursor-not-allowed bg-surface">
             <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2">
                     <h3 className="text-xl md:text-2xl font-bold text-hare tracking-tight leading-none">{exam.label}</h3>
@@ -138,7 +138,7 @@ export const SubjectCard = ({ subject, isSelected, onClick, progress, version })
             className={`relative w-full text-left rounded-2xl border-2 transition-all ${
                 isSelected
                     ? 'bg-primary/10 border-primary ring-2 ring-primary/30'
-                    : 'bg-white border-wolf hover:border-primary/40 hover:shadow-md'
+                    : 'bg-surface border-wolf hover:border-primary/40 hover:shadow-md'
             }`}>
             {isSelected && (
                 <div className="absolute top-2 right-2 p-1.5 bg-primary text-white rounded-full z-10">
@@ -154,7 +154,7 @@ export const SubjectCard = ({ subject, isSelected, onClick, progress, version })
                 </div>
 
                 <div className="min-w-0 break-words">
-                    <h3 className="font-bold text-sm leading-tight text-charcoal">{version === 'english' ? (subject.name_en || subject.name) : (subject.name_bn || subject.name)}</h3>
+                    <h3 className="font-bold text-sm leading-tight text-text">{version === 'english' ? (subject.name_en || subject.name) : (subject.name_bn || subject.name)}</h3>
                     <p className="text-[10px] font-medium text-hare mt-0.5">{moduleCount}টি মডিউল</p>
                 </div>
 
@@ -196,7 +196,7 @@ export const ChapterItem = ({ chapter, topic, onClick, questionCount, completedC
         <motion.div
             className={`relative rounded-2xl border-2 transition-all ${
                 hasQuestions
-                    ? 'bg-white border-wolf hover:border-primary/40 hover:shadow-md'
+                    ? 'bg-surface border-wolf hover:border-primary/40 hover:shadow-md'
                     : 'bg-eel/50 border-wolf/50 opacity-50'
             }`}
         >
@@ -209,7 +209,7 @@ export const ChapterItem = ({ chapter, topic, onClick, questionCount, completedC
 
                 <div className="min-w-0">
                     <h4 className={`font-bold text-sm leading-tight truncate ${
-                        hasQuestions ? 'text-charcoal' : 'text-hare/50'
+                        hasQuestions ? 'text-text' : 'text-text-muted/50'
                     }`}>{cleanName}</h4>
                     {hasQuestions ? (
                         <p className="text-[10px] font-medium text-hare mt-0.5">{questionCount}টি প্রশ্ন</p>

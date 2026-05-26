@@ -20,14 +20,14 @@ export default function Modal({
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 40 }}
             transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-            className={`relative w-full ${maxWidth} bg-white rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl ${className}`}
+            className={`relative w-full ${maxWidth} bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl ${className}`}
             onClick={e => e.stopPropagation()}
           >
             {title && (
               <div className="flex items-center justify-between">
-                <h3 className="text-sm font-bold text-charcoal">{title}</h3>
+                <h3 className="text-sm font-bold text-text">{title}</h3>
                 {showClose && (
-                  <button onClick={onClose} className="text-hare hover:text-charcoal transition-colors p-1">
+                  <button onClick={onClose} className="text-text-muted hover:text-text transition-colors p-1">
                     <X className="w-5 h-5" />
                   </button>
                 )}
