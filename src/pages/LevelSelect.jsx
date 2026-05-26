@@ -357,7 +357,7 @@ const LevelSelect = () => {
                         transform: 'translateX(-50%)',
                       }}
                     >
-                      <div className="w-16 h-16 rounded-full bg-cardinal flex items-center justify-center ring-4 ring-white shadow-lg">
+                      <div className="w-16 h-16 rounded-full bg-cardinal flex items-center justify-center ring-4 ring-background shadow-lg">
                         <Trophy className="w-7 h-7 text-white" />
                       </div>
                     </motion.div>

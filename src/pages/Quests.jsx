@@ -22,7 +22,7 @@ export default function Quests() {
           <h1 className="text-lg font-black text-text">কুয়েস্টস</h1>
           <p className="text-sm text-text-muted font-medium mt-0.5">ডেইলি ও উইকলি চ্যালেঞ্জ</p>
         </div>
-        <div className="flex items-center gap-1.5 bg-cyan-50 border border-cyan-200 rounded-xl px-3 py-1.5">
+        <div className="flex items-center gap-1.5 bg-surface border rounded-xl px-3 py-1.5">
           <Gem className="w-4 h-4 text-cyan-500" />
           <span className="text-sm font-black text-cyan-600">0</span>
         </div>

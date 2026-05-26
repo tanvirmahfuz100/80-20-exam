@@ -3,13 +3,13 @@ import { Medal, Trophy, Crown, User, ArrowUp, ArrowDown, Minus } from 'lucide-re
 import { useAuth } from '../context/AuthContext';
 
 const leagueColors = {
-  Bronze: { bg: 'bg-amber-50', border: 'border-amber-300', text: 'text-amber-700', icon: 'text-amber-500' },
-  Silver: { bg: 'bg-slate-50', border: 'border-slate-300', text: 'text-slate-600', icon: 'text-slate-400' },
-  Gold: { bg: 'bg-yellow-50', border: 'border-yellow-300', text: 'text-yellow-700', icon: 'text-yellow-500' },
-  Sapphire: { bg: 'bg-blue-50', border: 'border-blue-300', text: 'text-blue-700', icon: 'text-blue-500' },
-  Ruby: { bg: 'bg-red-50', border: 'border-red-300', text: 'text-red-700', icon: 'text-red-500' },
-  Emerald: { bg: 'bg-green-50', border: 'border-green-300', text: 'text-green-700', icon: 'text-green-500' },
-  Diamond: { bg: 'bg-cyan-50', border: 'border-cyan-300', text: 'text-cyan-700', icon: 'text-cyan-500' },
+  Bronze: { bg: 'bg-surface', border: 'border', text: 'text-amber-700', icon: 'text-amber-500' },
+  Silver: { bg: 'bg-surface', border: 'border', text: 'text-slate-600', icon: 'text-slate-400' },
+  Gold: { bg: 'bg-surface', border: 'border', text: 'text-yellow-700', icon: 'text-yellow-500' },
+  Sapphire: { bg: 'bg-surface', border: 'border', text: 'text-blue-700', icon: 'text-blue-500' },
+  Ruby: { bg: 'bg-surface', border: 'border', text: 'text-red-700', icon: 'text-red-500' },
+  Emerald: { bg: 'bg-surface', border: 'border', text: 'text-green-700', icon: 'text-green-500' },
+  Diamond: { bg: 'bg-surface', border: 'border', text: 'text-cyan-700', icon: 'text-cyan-500' },
 };
 
 const mockLeaderboard = [

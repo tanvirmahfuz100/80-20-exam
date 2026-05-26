@@ -10,8 +10,8 @@ const shopItems = [
     price: 200,
     icon: Snowflake,
     color: 'text-blue-500',
-    bg: 'bg-blue-50',
-    border: 'border-blue-200',
+    bg: 'bg-surface',
+    border: 'border',
   },
   {
     id: 'streak_repair',
@@ -20,8 +20,8 @@ const shopItems = [
     price: 500,
     icon: Heart,
     color: 'text-cardinal',
-    bg: 'bg-red-50',
-    border: 'border-red-200',
+    bg: 'bg-surface',
+    border: 'border',
   },
   {
     id: 'xp_boost_15',
@@ -30,8 +30,8 @@ const shopItems = [
     price: 100,
     icon: Zap,
     color: 'text-bee',
-    bg: 'bg-yellow-50',
-    border: 'border-yellow-200',
+    bg: 'bg-surface',
+    border: 'border',
     duration: '১৫ মিনিট',
   },
   {
@@ -41,8 +41,8 @@ const shopItems = [
     price: 200,
     icon: Zap,
     color: 'text-bee',
-    bg: 'bg-yellow-50',
-    border: 'border-yellow-200',
+    bg: 'bg-surface',
+    border: 'border',
     duration: '৩০ মিনিট',
   },
   {
@@ -52,8 +52,8 @@ const shopItems = [
     price: 150,
     icon: Clock,
     color: 'text-macaw',
-    bg: 'bg-blue-50',
-    border: 'border-blue-200',
+    bg: 'bg-surface',
+    border: 'border',
   },
 ];
 

@@ -223,7 +223,7 @@ const NotificationCenter = () => {
         aria-expanded={show}
       >
         <Bell className="w-5 h-5" aria-hidden="true" />
-        <span className="absolute top-2 right-2 w-2 h-2 bg-cardinal rounded-full ring-2 ring-white" aria-hidden="true" />
+        <span className="absolute top-2 right-2 w-2 h-2 bg-cardinal rounded-full ring-2 ring-background" aria-hidden="true" />
       </button>
 
       {show && (
@@ -388,13 +388,13 @@ const Layout = ({ children }) => {
               <NotificationCenter />
 
               <div className="flex items-center gap-1">
-                <div className="flex items-center gap-1.5 bg-orange-50 border border-orange-200 rounded-xl px-2.5 py-1.5">
+                <div className="flex items-center gap-1.5 bg-surface border rounded-xl px-2.5 py-1.5">
                   <Flame className="w-4 h-4 text-orange-500" aria-hidden="true" />
                   <span className="text-sm font-black text-orange-600">{globalStreak}</span>
                 </div>
                 <Link
                   to="/shop"
-                  className="flex items-center gap-1.5 bg-cyan-50 border border-cyan-200 rounded-xl px-2.5 py-1.5 hover:bg-cyan-100 transition-all"
+                  className="flex items-center gap-1.5 bg-surface border rounded-xl px-2.5 py-1.5 hover:bg-surface-hover transition-all"
                 >
                   <Gem className="w-4 h-4 text-cyan-500" aria-hidden="true" />
                   <span className="text-sm font-black text-cyan-600">{globalGems}</span>
