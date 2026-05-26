@@ -52,6 +52,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
   const sidebarRef = useRef(null);
   const reducedMotion = useReducedMotion();
   const isAdmin = role === 'super_admin' || role === 'content_admin';
+  const { isDark, toggleTheme } = useTheme();
 
   useEffect(() => {
     if (!isOpen) return;
@@ -98,6 +99,21 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
               aria-label="Close sidebar"
             >
               <X className="w-5 h-5" />
+            </button>
+          </div>
+
+          <div className="flex items-center justify-between px-6 py-3 border-b border">
+            <div className="flex items-center gap-3">
+              {isDark ? <Moon className="w-5 h-5 text-text-muted" /> : <Sun className="w-5 h-5 text-text-muted" />}
+              <span className="text-sm font-bold text-text-muted">ডার্ক মোড</span>
+            </div>
+            <button
+              onClick={toggleTheme}
+              role="switch"
+              aria-checked={isDark}
+              className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${isDark ? 'bg-primary' : 'bg-text-muted/30'}`}
+            >
+              <span className={`inline-block h-4 w-4 rounded-full bg-white shadow transition-transform ${isDark ? 'translate-x-[22px]' : 'translate-x-[2px]'}`} />
             </button>
           </div>
 
