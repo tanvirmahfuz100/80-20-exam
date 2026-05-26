@@ -100,7 +100,7 @@ const Quiz = () => {
     const currentQ = currentQuestion;
 
     return (
-        <div className="h-dvh flex flex-col overflow-hidden px-0 w-full safe-bottom bg-surface" role="main" aria-label="Quiz session">
+        <div className="h-dvh flex flex-col overflow-hidden overscroll-contain px-0 w-full safe-bottom bg-surface" role="main" aria-label="Quiz session">
             <div className="pointer-events-none fixed inset-0 z-[60] motion-safe-only">
                 {flyingStars.map((star) => (
                     <motion.div
@@ -116,88 +116,90 @@ const Quiz = () => {
                 ))}
             </div>
 
-            <div className="flex items-center justify-between gap-2 px-4 pt-3 pb-2 shrink-0 safe-top border-b border">
-                <div className="flex items-center gap-3 min-w-0 flex-1">
-                    <button
-                        onClick={handleBackWithConfirm}
-                        className="p-2 bg-surface border rounded-xl text-text-muted hover:text-text hover:bg-surface-hover transition-all active:scale-95 shrink-0 flex items-center justify-center touch-target"
-                        aria-label="Back to practice"
-                    >
-                        <ArrowLeft className="w-4 h-4" />
-                    </button>
-                    <div className="min-w-0 flex-1">
-                        {currentLevel ? (
-                            <>
-                                <div className="flex items-center gap-1.5 mb-1">
-                                    <span className="text-[10px] font-black text-primary uppercase tracking-wider bn-text">লেভেল {currentLevel}</span>
-                                    <span className="text-[10px] text-text-muted">·</span>
-                                    <span className="text-[10px] font-medium text-text-muted">প্রশ্ন {currentIndex + 1} / {questions.length}</span>
-                                </div>
+            <div className="flex shrink-0 safe-top">
+                <button
+                    onClick={handleBackWithConfirm}
+                    className="self-center p-2 ml-4 mb-2 mt-3 bg-surface border rounded-xl text-text-muted hover:text-text hover:bg-surface-hover transition-all active:scale-95 shrink-0 flex items-center justify-center touch-target"
+                    aria-label="Back to practice"
+                >
+                    <ArrowLeft className="w-4 h-4" />
+                </button>
+                <div className="flex items-center justify-between gap-2 pr-4 pt-3 pb-2 flex-1 border-b ml-3">
+                    <div className="flex items-center gap-3 min-w-0 flex-1">
+                        <div className="min-w-0 flex-1">
+                            {currentLevel ? (
+                                <>
+                                    <div className="flex items-center gap-1.5 mb-1">
+                                        <span className="text-[10px] font-black text-primary uppercase tracking-wider bn-text">লেভেল {currentLevel}</span>
+                                        <span className="text-[10px] text-text-muted">·</span>
+                                        <span className="text-[10px] font-medium text-text-muted">প্রশ্ন {currentIndex + 1} / {questions.length}</span>
+                                    </div>
+                                    <div className="h-1.5 bg-background rounded-full overflow-hidden">
+                                        <motion.div
+                                            className="h-full bg-primary rounded-full"
+                                            initial={{ width: 0 }}
+                                            animate={{
+                                                width: `${((currentIndex + 1) / questions.length) * 100}%`
+                                            }}
+                                            transition={{ duration: 0.4, ease: 'easeOut' }}
+                                        />
+                                    </div>
+                                </>
+                            ) : (
                                 <div className="h-1.5 bg-background rounded-full overflow-hidden">
                                     <motion.div
                                         className="h-full bg-primary rounded-full"
                                         initial={{ width: 0 }}
                                         animate={{
-                                            width: `${((currentIndex + 1) / questions.length) * 100}%`
+                                            width: `${Math.min(((historicalAnswered + currentIndex + 1) / (totalQuestionCount || questions.length)) * 100, 100)}%`
                                         }}
                                         transition={{ duration: 0.4, ease: 'easeOut' }}
                                     />
                                 </div>
-                            </>
-                        ) : (
-                            <div className="h-1.5 bg-background rounded-full overflow-hidden">
-                                <motion.div
-                                    className="h-full bg-primary rounded-full"
-                                    initial={{ width: 0 }}
-                                    animate={{
-                                        width: `${Math.min(((historicalAnswered + currentIndex + 1) / (totalQuestionCount || questions.length)) * 100, 100)}%`
-                                    }}
-                                    transition={{ duration: 0.4, ease: 'easeOut' }}
-                                />
+                            )}
+                        </div>
+                    </div>
+                    <div className="flex items-center gap-1.5 shrink-0">
+                        <button
+                            onClick={() => setShowReportModal(true)}
+                            className="flex items-center gap-1.5 bg-surface border rounded-xl px-2.5 py-1.5 hover:bg-surface-hover transition-all active:scale-95"
+                            aria-label="Report a problem"
+                        >
+                            <Flag className="w-3.5 h-3.5 text-cardinal" />
+                            <span className="text-[9px] font-black text-text-muted uppercase tracking-widest">Report</span>
+                        </button>
+                        <div className="hidden md:flex items-center gap-0.5 px-2 py-1.5 rounded-xl bg-background border">
+                            <button
+                                onClick={() => setQuizFontSize(s => Math.max(12, s - 2))}
+                                className="text-text-muted hover:text-text transition-colors p-1 flex items-center justify-center"
+                                style={{ minWidth: 28, minHeight: 28 }}
+                                aria-label="Decrease font size"
+                            >
+                                <span className="text-[11px] font-black leading-none">A−</span>
+                            </button>
+                            <span className="w-px h-3 bg-wolf" aria-hidden="true" />
+                            <button
+                                onClick={() => setQuizFontSize(s => Math.min(24, s + 2))}
+                                className="text-text-muted hover:text-text transition-colors p-1 flex items-center justify-center"
+                                style={{ minWidth: 28, minHeight: 28 }}
+                                aria-label="Increase font size"
+                            >
+                                <span className="text-[11px] font-black leading-none">A+</span>
+                            </button>
+                        </div>
+                        {isTimedMode && (
+                            <div className="px-2.5 py-1.5 rounded-xl bg-background border flex items-center gap-1.5 font-mono font-black text-sm text-text">
+                                <Clock className="w-3.5 h-3.5 text-primary" />
+                                <span>{formatTime(elapsed)}</span>
+                            </div>
+                        )}
+                        {isReviewSession && (
+                            <div className="px-2.5 py-1.5 rounded-xl bg-background border flex items-center gap-1.5">
+                                <RefreshCw className="w-3.5 h-3.5 text-macaw" />
+                                <span className="text-macaw font-black text-[10px]">RVW</span>
                             </div>
                         )}
                     </div>
-                </div>
-                <div className="flex items-center gap-1.5 shrink-0">
-                    <button
-                        onClick={() => setShowReportModal(true)}
-                        className="flex items-center gap-1.5 bg-surface border rounded-xl px-2.5 py-1.5 hover:bg-surface-hover transition-all active:scale-95"
-                        aria-label="Report a problem"
-                    >
-                        <Flag className="w-3.5 h-3.5 text-cardinal" />
-                        <span className="text-[9px] font-black text-text-muted uppercase tracking-widest">Report</span>
-                    </button>
-                    <div className="hidden md:flex items-center gap-0.5 px-2 py-1.5 rounded-xl bg-background border">
-                        <button
-                            onClick={() => setQuizFontSize(s => Math.max(12, s - 2))}
-                            className="text-text-muted hover:text-text transition-colors p-1 flex items-center justify-center"
-                            style={{ minWidth: 28, minHeight: 28 }}
-                            aria-label="Decrease font size"
-                        >
-                            <span className="text-[11px] font-black leading-none">A−</span>
-                        </button>
-                        <span className="w-px h-3 bg-wolf" aria-hidden="true" />
-                        <button
-                            onClick={() => setQuizFontSize(s => Math.min(24, s + 2))}
-                            className="text-text-muted hover:text-text transition-colors p-1 flex items-center justify-center"
-                            style={{ minWidth: 28, minHeight: 28 }}
-                            aria-label="Increase font size"
-                        >
-                            <span className="text-[11px] font-black leading-none">A+</span>
-                        </button>
-                    </div>
-                    {isTimedMode && (
-                        <div className="px-2.5 py-1.5 rounded-xl bg-background border flex items-center gap-1.5 font-mono font-black text-sm text-text">
-                            <Clock className="w-3.5 h-3.5 text-primary" />
-                            <span>{formatTime(elapsed)}</span>
-                        </div>
-                    )}
-                    {isReviewSession && (
-                        <div className="px-2.5 py-1.5 rounded-xl bg-background border flex items-center gap-1.5">
-                            <RefreshCw className="w-3.5 h-3.5 text-macaw" />
-                            <span className="text-macaw font-black text-[10px]">RVW</span>
-                        </div>
-                    )}
                 </div>
             </div>
 
