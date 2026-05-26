@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import {
@@ -46,6 +46,12 @@ const Quiz = () => {
         handleOptionSelect, handleSubmitReport, handleNext,
         handleBackWithConfirm, navigate,
     } = useQuizSession();
+
+    useEffect(() => {
+        const html = document.documentElement;
+        html.style.overflow = 'hidden';
+        return () => { html.style.overflow = ''; };
+    }, []);
 
     if (loading) return <LoadingScreen message="প্রাক্টিস সেশন লোড হচ্ছে..." />;
 
@@ -124,7 +130,7 @@ const Quiz = () => {
                 >
                     <ArrowLeft className="w-4 h-4" />
                 </button>
-                <div className="flex items-center justify-between gap-2 pr-4 pt-3 pb-2 flex-1 border-b ml-3">
+                <div className="flex items-center justify-between gap-2 pr-4 pt-3 pb-2 flex-1 ml-3">
                     <div className="flex items-center gap-3 min-w-0 flex-1">
                         <div className="min-w-0 flex-1">
                             {currentLevel ? (
