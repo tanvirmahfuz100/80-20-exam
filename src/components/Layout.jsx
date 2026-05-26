@@ -371,11 +371,15 @@ const Layout = ({ children }) => {
   }, [refreshPopupData]);
 
   const handleNavFromPopup = (path) => {
+    setShowStreakPopup(false);
+    setShowGemPopup(false);
+    setShowStarPopup(false);
+
     if (location.pathname.startsWith('/quiz/')) {
       setPendingNav(path);
       setShowLeaveConfirm(true);
     } else {
-      navigate(path);
+      window.location.hash = path;
     }
   };
 
