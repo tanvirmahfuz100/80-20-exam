@@ -428,8 +428,6 @@ const Layout = ({ children }) => {
                 {isDark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
               </button>
 
-              <NotificationCenter />
-
               <div className="flex items-center gap-1">
                 <button
                   onClick={() => setShowStreakPopup(true)}
@@ -455,6 +453,7 @@ const Layout = ({ children }) => {
                   <Star className="w-4 h-4 text-bee fill-bee/30" />
                   <span className="text-sm font-black text-bee">{globalStarBalance}</span>
                 </button>
+                <NotificationCenter />
               </div>
 
               {user && (
