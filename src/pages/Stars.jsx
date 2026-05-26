@@ -1,6 +1,6 @@
 ﻿import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Star, ArrowRight, CheckCircle, Clock, Sparkles, Brain, Zap, BookOpen } from 'lucide-react';
+import { Star, ArrowRight, CheckCircle, Clock, Sparkles, Brain, Zap, BookOpen, RefreshCw } from 'lucide-react';
 import { getMistakeGroups, startReviewSession, startAllReviewSession, REVIEW_INTERVALS } from '../services/review';
 import { getUserStats } from '../services/levels';
 import { useAuth } from '../context/AuthContext';
@@ -102,35 +102,11 @@ const Stars = () => {
           <button
             onClick={handleReviewAll}
                         className="inline-flex items-center gap-2 bg-primary text-white px-5 py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all hover:bg-primary-hover active:scale-[0.98] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] bn-text"
-                        onClick={() => {
-                            if (pendingReview > 0) navigate('/quiz/review');
-                        }}
                     >
                         বাকি স্টার রিভিউ করো
           </button>
         )}
       </div>
-
-      {totalMistakes > 0 && (
-        <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
-          {groups.map((group) => (
-            <div
-              key={group.stage}
-              className={`bg-surface border rounded-2xl p-4 text-center transition-all ${
-                group.dueNow > 0 ? 'hover:border-primary/30' : ''
-              }`}
-            >
-              <p className={`text-2xl font-black tracking-tighter ${
-                group.dueNow > 0 ? 'text-yellow-300' : 'text-emerald-400'
-              }`}>
-                {group.dueNow}
-              </p>
-              <p className="text-[9px] font-black uppercase tracking-widest text-text-muted mt-1">{group.label}</p>
-              <p className="text-[8px] text-text-dim mt-0.5">/ {group.total} total</p>
-            </div>
-          ))}
-        </div>
-      )}
 
       <div className="space-y-4">
         {groups.map((group) => (
