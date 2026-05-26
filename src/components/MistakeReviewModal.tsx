@@ -2,22 +2,16 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Star, X, ArrowRight, CheckCircle, Clock } from 'lucide-react';
 import { getMistakeGroups, startReviewSession, REVIEW_INTERVALS } from '../services/review';
+import { useMistakeStore } from '../stores/mistakeStore';
 
-const MistakeReviewModal = ({ isOpen, onClose }) => {
+const MistakeReviewModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) => {
   const navigate = useNavigate();
-  const [groups, setGroups] = useState([]);
+  const [groups, setGroups] = useState<unknown[]>([]);
+  const refreshKey = useMistakeStore((s) => s.refreshKey);
 
   useEffect(() => {
     if (isOpen) setGroups(getMistakeGroups());
-  }, [isOpen]);
-
-  useEffect(() => {
-    const refresh = () => {
-      if (isOpen) setGroups(getMistakeGroups());
-    };
-    window.addEventListener('mistakeReviewUpdated', refresh);
-    return () => window.removeEventListener('mistakeReviewUpdated', refresh);
-  }, [isOpen]);
+  }, [isOpen, refreshKey]);
 
   const handleReview = (stage) => {
     const count = startReviewSession(stage);

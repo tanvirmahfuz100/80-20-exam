@@ -1,7 +1,20 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import Loading from '../components/Loading';
+import type { User, Profile, AuthSession } from '../types';
+import { api } from '../services/localApi';
 
-const AuthContext = createContext({});
+interface AuthContextValue {
+  signUp: () => Promise<{ data: null; error: { message: string } | null }>;
+  signIn: (params: { email?: string }) => Promise<{ data: AuthSession; error: null }>;
+  signOut: () => Promise<{ error: null }>;
+  updateProfileFields: (update: Partial<Profile>) => void;
+  user: User | null;
+  profile: Profile | null;
+  role: string;
+  loading: boolean;
+}
+
+const AuthContext = createContext<AuthContextValue>({} as AuthContextValue);
 
 const IS_PROTOTYPE_AUTH = true;
 const STORAGE_KEY = 'exam_local_auth';
@@ -23,32 +36,46 @@ const createDefaultSession = () => ({
     }
 });
 
-export const AuthProvider = ({ children }) => {
-    const [user, setUser] = useState(null);
-    const [profile, setProfile] = useState(null);
+export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
+    const [user, setUser] = useState<User | null>(null);
+    const [profile, setProfile] = useState<Profile | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const raw = localStorage.getItem(STORAGE_KEY);
-        const savedSession = raw ? JSON.parse(raw) : createDefaultSession();
+        const init = async () => {
+            const raw = localStorage.getItem(STORAGE_KEY);
+            const savedSession = raw ? JSON.parse(raw) : createDefaultSession();
 
-        setUser(savedSession.user);
-        setProfile(savedSession.profile);
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(savedSession));
-        setLoading(false);
+            setUser(savedSession.user);
+            setProfile(savedSession.profile);
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(savedSession));
 
-        if (IS_PROTOTYPE_AUTH) {
-            console.warn('[AuthContext] Running in prototype mode. All users share local storage. Replace with Supabase before launch.');
-        }
+            if (savedSession.user?.id) {
+                const { data } = await api.getProfile(savedSession.user.id);
+                if (data) {
+                    const merged = { ...savedSession.profile, ...data };
+                    const nextSession = { ...savedSession, profile: merged };
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify(nextSession));
+                    setProfile(merged);
+                }
+            }
+
+            setLoading(false);
+
+            if (IS_PROTOTYPE_AUTH) {
+                console.warn('[AuthContext] Running in prototype mode. All users share local storage. Replace with Supabase before launch.');
+            }
+        };
+        init();
     }, []);
 
-    const updateSession = (next) => {
+    const updateSession = (next: AuthSession) => {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
         setUser(next.user);
         setProfile(next.profile);
     };
 
-    const signIn = async ({ email }) => {
+    const signIn = async ({ email }: { email?: string }) => {
         const session = createDefaultSession();
         session.user.email = email || session.user.email;
         const baseName = email ? email.split('@')[0] : 'student';
@@ -63,7 +90,7 @@ export const AuthProvider = ({ children }) => {
         return { data: session, error: null };
     };
 
-    const updateProfileFields = (profileUpdate) => {
+    const updateProfileFields = async (profileUpdate: Partial<Profile>) => {
         const raw = localStorage.getItem(STORAGE_KEY);
         const currentSession = raw ? JSON.parse(raw) : createDefaultSession();
         const nextProfile = { ...currentSession.profile, ...profileUpdate };
@@ -74,6 +101,7 @@ export const AuthProvider = ({ children }) => {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(nextSession));
         setUser(nextSession.user);
         setProfile(nextProfile);
+        await api.updateProfile(currentSession.user.id, profileUpdate);
     };
 
     const signUp = async () => {

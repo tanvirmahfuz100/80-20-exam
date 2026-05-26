@@ -2,7 +2,17 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { AlertTriangle, XCircle, Flag, ChevronDown } from 'lucide-react';
 
-export const ExitConfirmModal = ({ show, onStay, onLeave, title, message, stayLabel, leaveLabel }) => {
+interface ExitConfirmModalProps {
+  show: boolean;
+  onStay: () => void;
+  onLeave: () => void;
+  title?: string;
+  message?: string;
+  stayLabel?: string;
+  leaveLabel?: string;
+}
+
+export const ExitConfirmModal = ({ show, onStay, onLeave, title, message, stayLabel, leaveLabel }: ExitConfirmModalProps) => {
   if (!show) return null;
   return (
     <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">

@@ -20,7 +20,8 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.11.0",
-    "tailwind-merge": "^3.0.1"
+    "tailwind-merge": "^3.0.1",
+    "zustand": "^5.0.13"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
@@ -35,6 +36,8 @@
     "globals": "^16.5.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.60.0",
     "vite": "^7.2.4"
   },
   "packageManager": "npm@11.15.0+sha512.fa4d2d93b9519e93143e70bb913b94ff2ad5fe69c5a0f84943be557cbb59e9fc1bcce55768fb1313f225f4f9f50c78b8f366f2332aa41effd7b10efa98d8d72f"

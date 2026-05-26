@@ -6,6 +6,7 @@
  * same exported shape, then swap the import in each consumer.
  */
 import { readStorage, writeStorage } from '../utils/storage';
+import { resolveOptions, pickQuestionText, pickExplanation } from '../utils/normalizeQuestion';
 import {
   getLevelProgress as _getLevelProgress,
   saveLevelProgress as _saveLevelProgress,
@@ -121,7 +122,7 @@ const flattenSetItems = (data) => {
     return null;
 };
 
-const toQuestionRecord = (questionFile, chapter) => {
+const toQuestionRecord = (questionFile: Record<string, unknown>, chapter?: { file?: string; topic?: string; subject?: string }) => {
     const parts = (chapter?.file || '').split('/').filter(Boolean);
     const exam_category = (parts[0] || 'IBA').toUpperCase();
     const exam_type = chapter?.topic || chapter?.subject || 'General';
@@ -134,93 +135,76 @@ const toQuestionRecord = (questionFile, chapter) => {
                 ? questionFile.passages
                 : flattenSetItems(questionFile) || [];
 
-    return sourceQuestions.map((q) => ({
-        id: q.id || q.question_id || q._id,
-        question_text: q.text || q.question || q.statement || q.stem || q.passage_text || q.title || '',
-        difficulty: q.difficulty || 'medium',
-        exam_category,
-        exam_type,
-        options: (() => {
-            const optionLetters = ['A', 'B', 'C', 'D'];
-            let optionTexts;
-            let correctIndex = -1;
+    return sourceQuestions.map((q: Record<string, unknown>) => {
+        const { options: resolvedOptions, correct } = resolveOptions(q as never);
+        const optionLetters = ['A', 'B', 'C', 'D'];
+        let optionTexts: string[];
 
-            if (q.options && typeof q.options === 'object' && !Array.isArray(q.options)) {
-                optionTexts = optionLetters.map((l) => q.options[l] || '');
-                if (q.answer && optionLetters.includes(q.answer.toUpperCase())) {
-                    correctIndex = optionLetters.indexOf(q.answer.toUpperCase());
-                }
-            } else {
-                optionTexts = (q.options || []).map((option) => (
-                    typeof option === 'string' ? option : option.text || option.option_text || ''
-                ));
+        if (q.options && typeof q.options === 'object' && !Array.isArray(q.options)) {
+            optionTexts = optionLetters.map((l) => (q.options as Record<string, string>)[l] || '');
+        } else {
+            optionTexts = resolvedOptions;
+        }
 
-                correctIndex = typeof q.correct === 'number' ? q.correct : -1;
-                if (q.correct_answer !== undefined) {
-                    correctIndex = optionTexts.findIndex(
-                        (optionText) => String(optionText).trim().toLowerCase() === String(q.correct_answer).trim().toLowerCase()
-                    );
-                }
-                if (correctIndex === -1 && q.correct_tag !== undefined) {
-                    correctIndex = optionTexts.findIndex(
-                        (optionText) => String(optionText).trim().toLowerCase() === String(q.correct_tag).trim().toLowerCase()
-                    );
-                }
-            }
-            if (correctIndex === -1 && optionTexts.length > 0) correctIndex = 0;
+        const correctIndex = correct >= 0 && correct < optionTexts.length ? correct : 0;
 
-            return optionTexts.map((optionText, idx) => ({
+        return {
+            id: q.id || q.question_id || q._id,
+            question_text: pickQuestionText(q as never),
+            difficulty: q.difficulty || 'medium',
+            exam_category,
+            exam_type,
+            options: optionTexts.map((optionText: string, idx: number) => ({
                 id: `${q.id || q.question_id || q._id || 'q'}_${idx}`,
                 text: optionText,
                 option_text: optionText,
                 isCorrect: idx === correctIndex,
                 is_correct: idx === correctIndex
-            }));
-        })(),
-        explanation_bn: q.explanation_bn || q.explanationBn || '',
-        explanation_en: q.explanation_en || q.explanationEn || '',
-        explanation: (() => {
-            const explanationBn = q.explanation_bn || q.explanationBn || '';
-            const explanationEn = q.explanation_en || q.explanationEn || '';
-            if (explanationBn && explanationEn) {
-                return `বাংলা ব্যাখ্যা:\n${explanationBn}\n\nEnglish Explanation:\n${explanationEn}`;
-            }
-            return explanationBn || explanationEn || q.explanation || '';
-        })(),
-        source_tags: [questionFile.subject, questionFile.topic, questionFile.chapter].filter(Boolean)
-    }));
+            })),
+            explanation_bn: q.explanation_bn || (q as Record<string, string>)['explanationBn'] || '',
+            explanation_en: q.explanation_en || (q as Record<string, string>)['explanationEn'] || '',
+            explanation: pickExplanation(q as never),
+            source_tags: [questionFile.subject, questionFile.topic, questionFile.chapter].filter(Boolean)
+        };
+    });
 };
 
-const getAllJsonQuestions = async () => {
-    const base = import.meta.env.BASE_URL || '/';
-    const indexPaths = ['iba/index.json', 'ssc/index.json', 'hsc/index.json', 'class7/index.json'].map(p => `${base}${p}`);
-    const indexJsons = [];
+const EXAM_INDEX_MAP: Record<string, string> = {
+    'IBA': 'iba/index.json',
+    'SSC': 'ssc/index.json',
+    'HSC': 'hsc/index.json',
+    'Class1-8': 'class7/index.json',
+};
 
-    for (const p of indexPaths) {
+const getAllJsonQuestions = async (category?: string) => {
+    const base = import.meta.env.BASE_URL || '/';
+    const indexEntries = category
+        ? [[category, EXAM_INDEX_MAP[category]]].filter(([_, p]) => p)
+        : Object.entries(EXAM_INDEX_MAP);
+
+    const chapterFiles: { file: string; subject: string; topic: string; chapter: string }[] = [];
+
+    for (const [examName, indexPath] of indexEntries) {
         try {
-            const res = await fetch(p);
+            const res = await fetch(`${base}${indexPath}`);
             if (!res.ok) continue;
-            const j = await res.json();
-            indexJsons.push({ json: j, path: p });
+            const indexJson = await res.json();
+            for (const subject of indexJson.subjects || []) {
+                for (const topic of subject.topics || []) {
+                    for (const chapter of topic.chapters || []) {
+                        const chapterFile = chapter.file || chapter.file_bn || chapter.file_en;
+                        if (chapterFile) {
+                            chapterFiles.push({ file: chapterFile, subject: subject.name, topic: topic.name, chapter: chapter.name });
+                        }
+                    }
+                }
+            }
         } catch {
             // ignore
         }
     }
 
-    const chapterFiles = [];
-    for (const bundle of indexJsons) {
-        const indexJson = bundle.json;
-        for (const subject of indexJson.subjects || []) {
-            for (const topic of subject.topics || []) {
-                for (const chapter of topic.chapters || []) {
-                    const chapterFile = chapter.file || chapter.file_bn || chapter.file_en;
-                    if (chapterFile) {
-                        chapterFiles.push({ file: chapterFile, subject: subject.name, topic: topic.name, chapter: chapter.name });
-                    }
-                }
-            }
-        }
-    }
+    if (chapterFiles.length === 0) return [];
 
     const loadedSets = await Promise.all(
         chapterFiles.map(async (entry) => {
@@ -281,15 +265,16 @@ export const api = {
         return { data: payload, error: null };
     },
 
-    getQuestions: async (filters = {}) => {
-        const all = await getAllJsonQuestions();
+    getQuestions: async (filters: Record<string, string | number | undefined> = {}) => {
+        const category = typeof filters.category === 'string' ? filters.category : undefined;
+        const all = await getAllJsonQuestions(category);
 
         let data = all;
-        if (filters.category) data = data.filter((q) => q.exam_category === filters.category);
+        if (category) data = data.filter((q) => q.exam_category === category);
         if (filters.difficulty) data = data.filter((q) => q.difficulty === filters.difficulty);
         if (filters.type) data = data.filter((q) => q.exam_type === filters.type);
 
-        return { data: data.slice(0, filters.limit || 50), error: null };
+        return { data: data.slice(0, (filters.limit as number) || 50), error: null };
     },
 
     saveResponse: async (response) => {
@@ -323,7 +308,7 @@ export const api = {
     getUserResponses: async (userId) => {
         const responses = readStorage(STORAGE_KEYS.responses, [])
             .filter((r) => r.user_id === userId)
-            .sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+            .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
 
         return { data: responses, error: null };
     },
@@ -338,7 +323,7 @@ export const api = {
     getUserPracticeSessions: async (userId) => {
         const sessions = readStorage(STORAGE_KEYS.practiceSessions, [])
             .filter((s) => s.user_id === userId)
-            .sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+            .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
 
         return { data: sessions, error: null };
     },
@@ -373,7 +358,7 @@ export const api = {
     },
 
     getShortVideos: async () => {
-        const data = readStorage(STORAGE_KEYS.videos, defaultVideos).sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+        const data = readStorage(STORAGE_KEYS.videos, defaultVideos).sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
         return { data, error: null };
     },
 

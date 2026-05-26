@@ -1,10 +1,21 @@
 import React, { useRef, useCallback, useEffect } from 'react';
-import Lottie from 'lottie-react';
+import Lottie, { type LottieRefCurrentProps } from 'lottie-react';
 
-const LottieAnimation = ({ src, className = 'w-48 h-48', lottieStyle, loop = true, autoplay = true, pingPong = false, delay = 2500, renderer = 'svg' }) => {
-  const lottieRef = useRef();
+interface LottieAnimationProps {
+  src: unknown;
+  className?: string;
+  lottieStyle?: React.CSSProperties;
+  loop?: boolean;
+  autoplay?: boolean;
+  pingPong?: boolean;
+  delay?: number;
+  renderer?: 'svg' | 'canvas' | 'html';
+}
+
+const LottieAnimation = ({ src, className = 'w-48 h-48', lottieStyle, loop = true, autoplay = true, pingPong = false, delay = 2500, renderer = 'svg' }: LottieAnimationProps) => {
+  const lottieRef = useRef<LottieRefCurrentProps | null>(null);
   const directionRef = useRef(1);
-  const timerRef = useRef(null);
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const handleComplete = useCallback(() => {
     const anim = lottieRef.current;

@@ -121,7 +121,7 @@ async function collectExamFilePaths(exam, group) {
   return [...files];
 }
 
-export async function getDailyQuizQuestions(exam, group) {
+export async function getDailyQuizQuestions(exam?: string, group?: string) {
   const today = dateSeed();
   const cachedRaw = localStorage.getItem(DAILY_CACHE_KEY);
 

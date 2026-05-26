@@ -1,3 +1,5 @@
+import { useMistakeStore } from '../stores/mistakeStore';
+
 const MISTAKES_KEY = 'quiz_mistakes';
 const REVIEW_SESSION_KEY = 'quiz_review_session';
 
@@ -10,14 +12,17 @@ export const REVIEW_INTERVALS = [
 ];
 
 const read = () => {
-  try { return JSON.parse(localStorage.getItem(MISTAKES_KEY)) || []; }
+  try { return JSON.parse(localStorage.getItem(MISTAKES_KEY)!) || []; }
   catch { return []; }
 };
 
-const write = (data) => {
+const write = (data: unknown[]) => {
   localStorage.setItem(MISTAKES_KEY, JSON.stringify(data));
-  localStorage.setItem('quiz_star_balance', String(getDueCount(data)));
-  window.dispatchEvent(new Event('mistakeReviewUpdated'));
+  const dueCount = getDueCount(data);
+  localStorage.setItem('quiz_star_balance', String(dueCount));
+  useMistakeStore.getState().updateMistakeCount(dueCount);
+  useMistakeStore.getState().setStarBalance(dueCount);
+  useMistakeStore.getState().notifyUpdate();
 };
 
 const getDueCount = (all) => {
@@ -148,7 +153,7 @@ export const clearReviewSession = () => {
 
 export const getRecentMistakes = (count = 3) => {
   const all = read();
-  const sorted = [...all].sort((a, b) => new Date(b.lastWrongAt) - new Date(a.lastWrongAt));
+  const sorted = [...all].sort((a, b) => new Date(b.lastWrongAt).getTime() - new Date(a.lastWrongAt).getTime());
   return sorted.slice(0, count).map(m => ({
     id: m.id,
     question: m.question,

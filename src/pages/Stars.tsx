@@ -4,12 +4,14 @@ import { Star, ArrowRight, CheckCircle, Clock, Sparkles, Brain, Zap, BookOpen, R
 import { getMistakeGroups, startReviewSession, startAllReviewSession, REVIEW_INTERVALS } from '../services/review';
 import { getUserStats } from '../services/levels';
 import { useAuth } from '../context/AuthContext';
+import { useMistakeStore } from '../stores/mistakeStore';
 
 const Stars = () => {
   const navigate = useNavigate();
   const { user } = useAuth();
-  const [groups, setGroups] = useState([]);
+  const [groups, setGroups] = useState<unknown[]>([]);
   const [stats, setStats] = useState({ total_xp: 0, total_stars: 0 });
+  const refreshKey = useMistakeStore((s) => s.refreshKey);
 
   useEffect(() => {
     if (user?.id) {
@@ -19,13 +21,7 @@ const Stars = () => {
 
   useEffect(() => {
     setGroups(getMistakeGroups());
-  }, []);
-
-  useEffect(() => {
-    const refresh = () => setGroups(getMistakeGroups());
-    window.addEventListener('mistakeReviewUpdated', refresh);
-    return () => window.removeEventListener('mistakeReviewUpdated', refresh);
-  }, []);
+  }, [refreshKey]);
 
   const handleReview = (stage) => {
     const count = startReviewSession(stage);

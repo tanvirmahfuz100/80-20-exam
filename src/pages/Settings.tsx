@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { api } from '../services/localApi';
 import { useTheme } from '../context/ThemeContext';
@@ -6,7 +6,8 @@ import LoadingScreen from '../components/LoadingScreen';
 import {
     User, Mail, Phone, GraduationCap, CheckCircle2,
     Save, AlertCircle, Loader2, ShieldCheck, Sun, Moon,
-    BookOpen, Bell, Globe, Lock, Palette
+    BookOpen, Bell, Globe, Lock, Palette,
+    Download, Upload, Database, Trash2,
 } from 'lucide-react';
 
 const Settings = () => {
@@ -67,6 +68,88 @@ const Settings = () => {
         } finally {
             setLoading(false);
         }
+    };
+
+    const importInputRef = useRef(null);
+    const [backupMessage, setBackupMessage] = useState({ type: '', text: '' });
+
+    const APP_KEYS = [
+        'exam_local_auth',
+        'exam_profiles',
+        'exam_user_responses',
+        'exam_practice_sessions',
+        'exam_course_progress',
+        'exam_mock_results',
+        'exam_short_videos',
+        'exam_video_engagement',
+        'exam_subscriptions',
+        'exam_activity_logs',
+        'exam_reports',
+        'exam_courses',
+        'exam_mock_tests',
+        'exam_levels_progress',
+        'exam_user_stats',
+        'exam_challenges',
+        'exam_streak_data',
+        'quiz_mistakes',
+        'quiz_review_session',
+        'quiz_star_balance',
+        'daily_quiz_cache_v2',
+        'duo-theme',
+        'fireman-font-size',
+        'quiz-font-size',
+        'user_exam_path',
+        'user_name',
+        'fireman-mode-chosen',
+    ];
+
+    const exportData = () => {
+        try {
+            const data = {};
+            for (const key of APP_KEYS) {
+                const raw = localStorage.getItem(key);
+                if (raw !== null) {
+                    try { data[key] = JSON.parse(raw); } catch { data[key] = raw; }
+                }
+            }
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `opencode-80-20-backup-${new Date().toISOString().slice(0, 10)}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            setBackupMessage({ type: 'success', text: 'ডেটা এক্সপোর্ট করা হয়েছে!' });
+        } catch (err) {
+            setBackupMessage({ type: 'error', text: 'এক্সপোর্ট ব্যর্থ: ' + err.message });
+        }
+    };
+
+    const handleImport = (e) => {
+        const file = e.target.files?.[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (event) => {
+            try {
+                const data = JSON.parse(event.target.result);
+                let count = 0;
+                for (const [key, value] of Object.entries(data)) {
+                    if (APP_KEYS.includes(key)) {
+                        try {
+                            localStorage.setItem(key, JSON.stringify(value));
+                            count++;
+                        } catch { /* skip if key fails */ }
+                    }
+                }
+                setBackupMessage({ type: 'success', text: `${count}টি আইটেম রিস্টোর করা হয়েছে। পৃষ্ঠা রিফ্রেশ করো।` });
+            } catch (err) {
+                setBackupMessage({ type: 'error', text: 'ইমপোর্ট ব্যর্থ: ফাইল ফরম্যাট সঠিক নয়।' });
+            }
+        };
+        reader.readAsText(file);
+        if (importInputRef.current) importInputRef.current.value = '';
     };
 
     if (authLoading) return <LoadingScreen message="সেটিংস লোড হচ্ছে..." />;
@@ -228,6 +311,49 @@ const Settings = () => {
                                 ))}
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <div className="bg-surface border border rounded-2xl p-5">
+                    <h3 className="font-black text-sm text-text mb-4 flex items-center gap-2">
+                        <Database className="w-4 h-4 text-primary" />
+                        ডেটা ব্যাকআপ
+                    </h3>
+                    <div className="space-y-3">
+                        <p className="text-xs text-text-muted font-medium leading-relaxed">
+                            তোমার সব প্রোগ্রেস, উত্তর ও সেটিংস লোকাল স্টোরেজে সেভ হয়। নিচের অপশনগুলো ব্যবহার করে ব্যাকআপ নিতে বা রিস্টোর করতে পারো।
+                        </p>
+                        <div className="flex flex-col sm:flex-row gap-3">
+                            <button
+                                onClick={exportData}
+                                className="flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-primary/5 border border-primary/20 text-primary font-bold text-sm hover:bg-primary/10 transition-all active:scale-[0.98]"
+                            >
+                                <Download className="w-4 h-4" />
+                                সব ডেটা এক্সপোর্ট করো
+                            </button>
+                            <label className="flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-surface border border text-text-muted font-bold text-sm hover:bg-surface-hover transition-all active:scale-[0.98] cursor-pointer">
+                                <Upload className="w-4 h-4" />
+                                ব্যাকআপ রিস্টোর করো
+                                <input
+                                    ref={importInputRef}
+                                    type="file"
+                                    accept=".json"
+                                    className="hidden"
+                                    onChange={handleImport}
+                                />
+                            </label>
+                        </div>
+                        {backupMessage && (
+                            <div className={`p-3 rounded-xl flex items-center gap-2.5 border text-sm font-medium ${backupMessage.type === 'success'
+                                ? 'bg-primary/5 border-primary/20 text-primary'
+                                : backupMessage.type === 'error'
+                                    ? 'bg-cardinal/5 border-cardinal/20 text-cardinal'
+                                    : 'bg-bee/5 border-bee/20 text-bee'
+                            }`}>
+                                {backupMessage.type === 'success' ? <CheckCircle2 className="w-4 h-4 shrink-0" /> : <AlertCircle className="w-4 h-4 shrink-0" />}
+                                {backupMessage.text}
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>

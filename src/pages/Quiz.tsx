@@ -53,6 +53,31 @@ const Quiz = () => {
         return () => { html.style.overflow = ''; };
     }, []);
 
+    useEffect(() => {
+        if (loading || isFinished || showReportModal || showExitConfirm) return;
+        const isStandardMCQ = currentQuestion && !currentQuestion._type && !gapFillGroup && shuffledOptions;
+        if (!isStandardMCQ) return;
+
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key >= '1' && e.key <= '4' && !isAnswered) {
+                const idx = parseInt(e.key, 10) - 1;
+                if (idx < (shuffledOptions?.length || 0)) {
+                    e.preventDefault();
+                    handleOptionSelect(idx);
+                }
+            } else if (e.key === 'Enter' && isAnswered) {
+                e.preventDefault();
+                handleNext();
+            } else if (e.key === 'Escape') {
+                e.preventDefault();
+                handleBackWithConfirm();
+            }
+        };
+
+        window.addEventListener('keydown', handleKeyDown);
+        return () => window.removeEventListener('keydown', handleKeyDown);
+    }, [loading, isFinished, showReportModal, showExitConfirm, currentQuestion, gapFillGroup, shuffledOptions, isAnswered, handleOptionSelect, handleNext, handleBackWithConfirm]);
+
     if (loading) return <LoadingScreen message="প্রাক্টিস সেশন লোড হচ্ছে..." />;
 
     if (error) return (

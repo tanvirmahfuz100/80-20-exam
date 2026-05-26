@@ -106,7 +106,7 @@ export function addStars(userId, amount) {
   return updateUserStats(userId, stats);
 }
 
-export function getChallengeState() {
+export function getChallengeState(): { daily: unknown[]; weekly: unknown } {
   return readStorage(CHALLENGES_KEY, { daily: [], weekly: null });
 }
 
@@ -178,8 +178,14 @@ export function getDailyChallengesForExam(examId) {
   return selected;
 }
 
-export function getExamSections(examId) {
-  const allChapters = {
+/**
+ * Returns curated challenge sections for each exam.
+ * NOTE: These sections are manually curated for the challenge system,
+ * not auto-generated from index.json. Add new sections here when
+ * adding new challenge content.
+ */
+export function getExamSections(examId: string) {
+  const allChapters: Record<string, { label: string; file: string; chapterId: string }[]> = {
     ssc: [
       { label: 'Gap Filling', file: 'ssc/english/gap_filling_with_clues_paper_11.json', chapterId: 'ssc_gap_filling' },
       { label: 'Changing Sentences', file: 'ssc/english/changing_sentences.json', chapterId: 'ssc_changing_sentences' },

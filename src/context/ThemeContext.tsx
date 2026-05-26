@@ -5,21 +5,32 @@ const DARK = 'dark';
 const LIGHT = 'light';
 const FONT_SIZE_KEY = 'fireman-font-size';
 
-const FONT_SIZE_MAP = {
+const FONT_SIZE_MAP: Record<string, string> = {
   small: '14px',
   normal: '16px',
   large: '18px',
   xlarge: '21px',
 };
 
-const FONT_SIZE_LABELS = {
+const FONT_SIZE_LABELS: Record<string, string> = {
   small: 'Small (14px)',
   normal: 'Normal (16px)',
   large: 'Large (18px)',
   xlarge: 'X-Large (21px)',
 };
 
-const ThemeContext = createContext();
+interface ThemeContextValue {
+  theme: string;
+  setTheme: (t: string) => void;
+  toggleTheme: () => void;
+  isDark: boolean;
+  fontSize: string;
+  setFontSize: (s: string) => void;
+  fontSizeValue: string;
+  fontSizeOptions: { key: string; label: string; value: string }[];
+}
+
+const ThemeContext = createContext<ThemeContextValue>({} as ThemeContextValue);
 
 const getSystemPreference = () => {
   if (typeof window === 'undefined') return LIGHT;
@@ -47,21 +58,20 @@ const getInitialFontSize = () => {
   return 'normal';
 };
 
-const applyTheme = (theme) => {
+const applyTheme = (theme: string) => {
   if (typeof document === 'undefined') return;
   if (theme === DARK) {
     document.documentElement.setAttribute('data-theme', DARK);
   } else {
     document.documentElement.removeAttribute('data-theme');
   }
-  // Update theme-color meta
-  const meta = document.querySelector('meta[name="theme-color"]');
+  const meta = document.querySelector<HTMLMetaElement>('meta[name="theme-color"]');
   if (meta) {
     meta.content = theme === DARK ? '#131F24' : '#F1F7FB';
   }
 };
 
-const applyFontSize = (sizeKey) => {
+const applyFontSize = (sizeKey: string) => {
   if (typeof document === 'undefined') return;
   const v = FONT_SIZE_MAP[sizeKey] || FONT_SIZE_MAP.normal;
   document.documentElement.style.setProperty('--app-font-size', v);
@@ -106,15 +116,15 @@ export const ThemeProvider = ({ children }) => {
     return () => mq.removeEventListener('change', handler);
   }, []);
 
-  const setTheme = useCallback((t) => {
+  const setTheme = useCallback((t: string) => {
     setThemeState(t);
   }, []);
 
   const toggleTheme = useCallback(() => {
-    setThemeState((prev) => (prev === DARK ? LIGHT : DARK));
+    setThemeState((prev: string) => (prev === DARK ? LIGHT : DARK));
   }, []);
 
-  const setFontSize = useCallback((sizeKey) => {
+  const setFontSize = useCallback((sizeKey: string) => {
     if (!FONT_SIZE_MAP[sizeKey]) return;
     setFontSizeState(sizeKey);
   }, []);
