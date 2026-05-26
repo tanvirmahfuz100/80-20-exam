@@ -18,80 +18,91 @@
               "id": "ssc_changing_sentences",
               "name": "Changing Sentences",
               "file": "/ssc/english/changing_sentences.json"
-            },
-            {
-              "id": "ssc_prepositions",
-              "name": "Gap Filling with Prepositions",
-              "file": "/ssc/english/prepositions.json"
-            },
-            {
-              "id": "ssc_connectors",
-              "name": "Connectors",
-              "file": "/ssc/english/connectors.json"
-            },
-            {
-              "id": "ssc_suffix_prefix",
-              "name": "Suffixes and Prefixes",
-              "file": "/ssc/english/suffix_prefix.json"
-            },
-            {
-              "id": "ssc_tag_questions",
-              "name": "Tag Questions",
-              "file": "/ssc/english/tag_questions.json"
-            },
-            {
-              "id": "ssc_substitution_table",
-              "name": "Substitution Table",
-              "file": "/ssc/english/substitution_table.json"
             }
           ]
         }
       ]
     },
     {
-      "id": "business_entrepreneurship",
-      "name": "Business Entrepreneurship",
-      "icon": "Briefcase",
-      "name_bn": "ব্যবসায় উদ্যোগ",
-      "name_en": "Business Entrepreneurship",
+      "id": "accounting",
+      "name": "Accounting",
+      "icon": "BookOpen",
+      "name_bn": "হিসাববিজ্ঞান",
+      "name_en": "Accounting",
       "topics": [
         {
-          "id": "chapter_1",
-          "name": "Chapter 1: Introduction to Business",
-          "name_bn": "অধ্যায় ১: ব্যবসায় পরিচিতি",
-          "name_en": "Chapter 1: Introduction to Business",
+          "id": "board_2025",
+          "name": "Board Exams 2025",
+          "name_bn": "বোর্ড পরীক্ষা ২০২৫",
+          "name_en": "Board Exams 2025",
           "chapters": [
             {
-              "id": "ssc_be_ch1_mcq",
-              "name": "MCQ Practice",
-              "file": "/ssc/business_entrepreneurship/chapter_1_mcq.json"
-            },
-            {
-              "id": "ssc_be_ch1_cq",
-              "name": "Creative Questions",
-              "name_bn": "সৃজনশীল প্রশ্ন",
-              "file": "/ssc/business_entrepreneurship/chapter_1_cq.json",
-              "_type": "creative"
+              "id": "board_dhaka_2025",
+              "name": "Dhaka Board 2025",
+              "name_bn": "ঢাকা বোর্ড ২০২৫",
+              "file": "/ssc/accounting/board_dhaka_2025.json"
             }
           ]
         },
         {
-          "id": "chapter_2",
-          "name": "Chapter 2: Business Entrepreneurship & Entrepreneur",
-          "name_bn": "অধ্যায় ২: ব্যবসায় উদ্যোগ ও উদ্যোক্তা",
-          "name_en": "Chapter 2: Business Entrepreneurship & Entrepreneur",
+          "id": "board_2026",
+          "name": "Board Exams 2026",
+          "name_bn": "বোর্ড পরীক্ষা ২০২৬",
+          "name_en": "Board Exams 2026",
           "chapters": [
             {
-              "id": "ssc_be_ch2_mcq",
-              "name": "MCQ Practice",
-              "file": "/ssc/business_entrepreneurship/chapter_2_mcq.json"
+              "id": "board_dhaka_2026",
+              "name": "Dhaka Board 2026",
+              "name_bn": "ঢাকা বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_dhaka_2026.json"
             },
             {
-              "id": "ssc_be_ch2_cq",
-              "name": "Creative Questions",
-              "name_bn": "সৃজনশীল প্রশ্ন",
-              "file": "/ssc/business_entrepreneurship/chapter_2_cq.json",
-              "_type": "creative"
+              "id": "board_barishal_2026",
+              "name": "Barishal Board 2026",
+              "name_bn": "বরিশাল বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_barishal_2026.json"
+            },
+            {
+              "id": "board_jashore_2026",
+              "name": "Jashore Board 2026",
+              "name_bn": "যশোর বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_jashore_2026.json"
+            },
+            {
+              "id": "board_cumilla_2026",
+              "name": "Cumilla Board 2026",
+              "name_bn": "কুমিল্লা বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_cumilla_2026.json"
+            },
+            {
+              "id": "board_rajshahi_2026",
+              "name": "Rajshahi Board 2026",
+              "name_bn": "রাজশাহী বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_rajshahi_2026.json"
+            },
+            {
+              "id": "board_chattogram_2026",
+              "name": "Chattogram Board 2026",
+              "name_bn": "চট্টগ্রাম বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_chattogram_2026.json"
+            },
+            {
+              "id": "board_dinajpur_2026",
+              "name": "Dinajpur Board 2026",
+              "name_bn": "দিনাজপুর বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_dinajpur_2026.json"
+            },
+            {
+              "id": "board_sylhet_2026",
+              "name": "Sylhet Board 2026",
+              "name_bn": "সিলেট বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_sylhet_2026.json"
+            },
+            {
+              "id": "board_mymensingh_2026",
+              "name": "Mymensingh Board 2026",
+              "name_bn": "ময়মনসিংহ বোর্ড ২০২৬",
+              "file": "/ssc/accounting/board_mymensingh_2026.json"
             }
           ]
         }

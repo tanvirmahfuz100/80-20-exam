@@ -20,24 +20,24 @@
       "C": "২ : ৩",
       "D": "৩ : ৫"
     },
-    "answer": "অনেকগুলো সমাধান সম্ভব, নির্দিষ্ট অপশন প্রয়োজন",
-    "explanation": ""
+    "answer": "C",
+    "explanation": "অনুপাত 2:3 হলে সংখ্যা দুইটি 120 ও 180 হয়, যা পূর্ণসংখ্যা ও 100-এর বড় এবং যোগফল 300। অন্যান্য অপশনের সংখ্যাগুলো পূর্ণসংখ্যা হয় না বা 100-এর ছোট।"
   },
   {
     "id": 3,
-    "question": "হলে, এর মান-",
+    "question": "x² + y² + z² = 2, xy + yz + zx = 1 হলে, (x + 2y)² + (y + 2z)² + (z + 2x)² এর মান-",
     "options": {
       "A": "12",
       "B": "19",
       "C": "16",
       "D": "14"
     },
-    "answer": "C",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "প্রসারণ করে পাই: (x+2y)²+(y+2z)²+(z+2x)² = 5(x²+y²+z²) + 4(xy+yz+zx) = 5×2 + 4×1 = 10+4 = 14"
   },
   {
     "id": 4,
-    "question": "হলে, এর মান -",
+    "question": "3x - y = 3 এবং 5x + y = 21 হলে, (x, y) এর মান -",
     "options": {
       "A": "(2, 5)",
       "B": "(2, 6)",
@@ -49,7 +49,7 @@
   },
   {
     "id": 5,
-    "question": "হলে এর মান কত?",
+    "question": "150 এর নিচে 5 ও 7 দ্বারা বিভাজ্য সংখ্যাগুলোর সেট A হলে, P(A) এর সদস্য সংখ্যা কত?",
     "options": {
       "A": "3",
       "B": "4",
@@ -68,8 +68,8 @@
       "C": "৩৬π বর্গ সে.মি.",
       "D": "৪৮π বর্গ সে.মি."
     },
-    "answer": "পৃষ্ঠতলের ক্ষেত্রফল ৩২π বর্গসেমি, আয়তন ২৪π ঘনসেমি",
-    "explanation": "Total surface area = 2πr(r+h) = 2π·2·8 = 32π; Volume = πr²h = π·4·6 = 24π।"
+    "answer": "B",
+    "explanation": "Total surface area = 2πr(r+h) = 2π·2·(2+6) = 32π বর্গ সে.মি.। আয়তন = πr²h = π·4·6 = 24π ঘন সে.মি.। প্রশ্নে শুধু মোট ক্ষেত্রফল চেয়েছে।"
   },
   {
     "id": 7,
@@ -87,13 +87,13 @@
     "id": 8,
     "question": "4 সে.মি. বাহুবিশিষ্ট বর্গক্ষেত্রে পরিলিখিত বৃত্তের ক্ষেত্রফল কত?",
     "options": {
-      "A": "বর্গ সে.মি.",
-      "B": "বর্গ সে.মি.",
-      "C": "বর্গ সে.মি.",
-      "D": "বর্গ সে.মি."
+      "A": "8π বর্গ সে.মি.",
+      "B": "6π বর্গ সে.মি.",
+      "C": "4π বর্গ সে.মি.",
+      "D": "2√2π বর্গ সে.মি."
     },
-    "answer": "B",
-    "explanation": "সিলিন্ডারের মোট তলের ক্ষেত্রফল = 2πr(r+h)। এখানে, r = ২ সে.মি. এবং h = ৬ সে.মি.। ক্ষেত্রফল = 2π × 2 (2 + 6) = 4π × 8 = 32π বর্গ সে.মি.।"
+    "answer": "A",
+    "explanation": "পরিলিখিত বৃত্তের ব্যাস = বর্গের কর্ণ = 4√2 সে.মি.। ব্যাসার্ধ = 2√2 সে.মি.। ক্ষেত্রফল = π(2√2)² = 8π বর্গ সে.মি.।"
   },
   {
     "id": 9,
@@ -121,15 +121,15 @@
   },
   {
     "id": 11,
-    "question": "যদি এবং হয়, তাহলে",
+    "question": "যদি E = 10, J = 20, O = 30 এবং T = 40 হয়, তাহলে B + E + S + T = কত?",
     "options": {
       "A": "৭১",
       "B": "৮২",
       "C": "৯০",
       "D": "৯২"
     },
-    "answer": "তথ্য প্রয়োজন",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "এখানে প্রতিটি অক্ষরের মান = তার অবস্থান × 2। B=2×2=4, E=2×5=10, S=2×19=38, T=2×20=40। যোগফল = 4+10+38+40 = 92।"
   },
   {
     "id": 12,
@@ -356,8 +356,9 @@
       "C": "media",
       "D": "sand"
     },
-    "answer": "CANCELLED",
-    "explanation": "Several of the given words can be used as verbs. For example: 'Please sand the rough edges.' (to make smooth) or 'Don't sugar your speech.' (to make something seem more pleasant). 'Mobile' can also be used as a verb (from mobilize). Due to this ambiguity, the question was cancelled by the PSC."
+    "answer": "D",
+    "explanation": "Several of the given words can be used as verbs. For example: 'Please sand the rough edges.' (to make smooth) or 'Don't sugar your speech.' (to make something seem more pleasant). 'Mobile' can also be used as a verb (from mobilize). Due to this ambiguity, the question was cancelled by the PSC.",
+    "cancelled": true
   },
   {
     "id": 31,
@@ -369,7 +370,7 @@
       "D": "Like minded people are necessary to start a business"
     },
     "answer": "B",
-    "explanation": ""
+    "explanation": "ভগ্নাংশগুলোকে দশমিকে রূপান্তর করলে পাই: ২/৩ ≈ ০.৬৬৭। (ক) ৩৩/৫০ = ০.৬৬, (খ) ৮/১১ ≈ ০.৭২৭, (গ) ৩/৫ = ০.৬০, (ঘ) ১৩/২৭ ≈ ০.৪৮১। এখানে, ০.৭২৭ সবচেয়ে বড় এবং ০.৬৬৭ এর চেয়ে বেশি। সুতরাং, ৮/১১ উত্তর।"
   },
   {
     "id": 32,
@@ -584,8 +585,8 @@
       "C": "He has told me that I would go but you would stay here in Dhaka.",
       "D": "He has told me that he would go but I would stay here in Dhaka."
     },
-    "answer": "অপশন প্রয়োজন",
-    "explanation": ""
+    "answer": "D",
+    "explanation": "এখানে প্রতিটি অক্ষরের মান তার বর্ণমালার অবস্থানকে ২ দিয়ে গুণ করে পাওয়া গেছে। যেমন: E (৫ম) = ৫×২=১০, J(১০ম) = ১০×২=২০। সুতরাং, B (২য়) = ৪, E (৫ম) = ১০, S (১৯তম) = ৩৮, T (২০তম) = ৪০। যোগফল = ৪ + ১০ + ৩৮ + ৪০ = ৯২।"
   },
   {
     "id": 50,
@@ -942,7 +943,7 @@
       "A": "রামাই পন্ডিত",
       "B": "হলায়ূধ মিশ্র",
       "C": "কাহ্নপা",
-      "D": ""
+      "D": "অপশন সংযোজন করা হবে"
     },
     "answer": "A",
     "explanation": "'শূন্যপুরাণ' মধ্যযুগের বাংলা সাহিত্যের একটি গুরুত্বপূর্ণ গ্রন্থ। এর রচয়িতা রামাই পণ্ডিত। এতে বৌদ্ধ ধর্মের শূন্যবাদ এবং লৌকিক ধর্মীয় আচারের মিশ্রণ দেখা যায়।"
@@ -1160,8 +1161,9 @@
       "C": "মুনীর চৌধুরী",
       "D": "সিরাজুল ইসলাম চৌধুরী"
     },
-    "answer": "CANCELLED",
-    "explanation": "'একুশে ফেব্রুয়ারি' কবিতায় 'একুশ মানে মাথা নত না করা' পঙক্তিটি লিখেছেন কবি আবু জাফর ওবায়দুল্লাহ। প্রদত্ত বিকল্পগুলোতে সঠিক উত্তর না থাকায় প্রশ্নটি বাতিল হতে পারে। তবে অনেক সময় এই উক্তিটি ভুলবশত অন্যদের নামে প্রচলিত থাকে।"
+    "answer": "B",
+    "explanation": "'একুশে ফেব্রুয়ারি' কবিতায় 'একুশ মানে মাথা নত না করা' পঙক্তিটি লিখেছেন কবি আবু জাফর ওবায়দুল্লাহ। প্রদত্ত বিকল্পগুলোতে সঠিক উত্তর না থাকায় প্রশ্নটি বাতিল হতে পারে। তবে অনেক সময় এই উক্তিটি ভুলবশত অন্যদের নামে প্রচলিত থাকে।",
+    "cancelled": true
   },
   {
     "id": 98,
@@ -1353,7 +1355,7 @@
       "D": "Size of Register"
     },
     "answer": "C",
-    "explanation": ""
+    "explanation": "'বারো বিধি' বা 'ল অব দ্য টুয়েলভ টেবিলস' ছিল প্রাচীন রোমান প্রজাতন্ত্রের প্রথম লিখিত আইন সংহিতা। এটিই পরবর্তী রোমান আইনের ভিত্তি স্থাপন করে।"
   },
   {
     "id": 114,
@@ -1468,7 +1470,7 @@
     "question": "নিচের কোন প্রযুক্তি Face Recognition সিস্টেমে ব্যবহার করা হয়?",
     "options": {
       "A": "Applied AI",
-      "B": "",
+      "B": "অপশন সংযোজন করা হবে",
       "C": "Virtual Reality",
       "D": "কোনোটিই নয়"
     },
@@ -1784,7 +1786,7 @@
       "C": "ওজোনস্তর ক্ষয় নিয়ন্ত্রণ বিষয়ক",
       "D": "মরুকরণ প্রক্রিয়া বিষয়ক"
     },
-    "answer": "Global Stocktake, fossil fuel phase-out, loss and damage fund",
+    "answer": "D",
     "explanation": "COP28-এ জীবাশ্ম জ্বালানি থেকে উত্তরণ ও বৈশ্বিক মূল্যায়ন ছিল।"
   },
   {

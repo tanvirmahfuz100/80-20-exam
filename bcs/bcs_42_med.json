@@ -411,7 +411,7 @@
     "id": 35,
     "question": "Spores are killed by",
     "options": {
-      "A": "",
+      "A": "অপশন সংযোজন করা হবে",
       "B": "Gention violet",
       "C": "Moist heat at 110°C for 30 minutes",
       "D": "Dry heat"
@@ -977,7 +977,7 @@
     "options": {
       "A": "Glucose",
       "B": "Protein",
-      "C": "",
+      "C": "অপশন সংযোজন করা হবে",
       "D": "Oxygen"
     },
     "answer": "D",

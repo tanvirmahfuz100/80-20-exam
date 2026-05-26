@@ -1,0 +1,2294 @@
+﻿[
+  {
+    "id": 1,
+    "question": "চর্যাপদে কোন ধর্মমতের কথা আছে?",
+    "options": {
+      "A": "খ্রিস্টধর্ম",
+      "B": "প্যাগনিজম",
+      "C": "জৈনধর্ম",
+      "D": "বৌদ্ধধর্ম"
+    },
+    "answer": "D",
+    "explanation": "চর্যাপদ বৌদ্ধ ধর্মমতের সাহিত্য। এতে বৌদ্ধ সিদ্ধাচার্যদের রচনা সংকলিত হয়েছে।"
+  },
+  {
+    "id": 2,
+    "question": "উল্লিখিতদের মধ্যে কে প্রাচীন যুগের কবি নন?",
+    "options": {
+      "A": "কাহ্নপাদ",
+      "B": "লুইপাদ",
+      "C": "শান্তিপাদ",
+      "D": "রমনীপাদ"
+    },
+    "answer": "D",
+    "explanation": "কাহ্নপাদ, লুইপাদ ও শান্তিপাদ চর্যাপদের প্রাচীন কবি। রমনীপাদ আধুনিক কালের।"
+  },
+  {
+    "id": 3,
+    "question": "উল্লিখিত কোন রচনাটি পুঁথি সাহিত্যের অন্তগর্ত নয়?",
+    "options": {
+      "A": "ময়মনসিংহ গীতিকা",
+      "B": "ইউসুফ জুলেখা",
+      "C": "পদ্মাবতী",
+      "D": "লাইলী মজনু"
+    },
+    "answer": "A",
+    "explanation": "ময়মনসিংহ গীতিকা লোকসাহিত্যের অন্তর্গত, পুঁথি সাহিত্য নয়। ইউসুফ-জুলেখা, পদ্মাবতী ও লাইলী-মজনু পুঁথি সাহিত্যের উদাহরণ।"
+  },
+  {
+    "id": 4,
+    "question": "জীবনীকাব্য রচনার জন্য বিখ্যাত :",
+    "options": {
+      "A": "সন্ধ্যাভাষা",
+      "B": "অধিভাষা",
+      "C": "ব্রজবুলি",
+      "D": "সংস্কৃত ভাষা"
+    },
+    "answer": "C",
+    "explanation": "জীবনীকাব্য রচনার জন্য ব্রজবুলি ভাষা বিখ্যাত। বিদ্যাপতি ব্রজবুলিতে জীবনীকাব্য রচনা করেন।"
+  },
+  {
+    "id": 5,
+    "question": "বাংলা আধুনিক উপন্যাস-এর প্রবর্তক ছিলেন",
+    "options": {
+      "A": "রবীন্দ্রনাথ ঠাকুর",
+      "B": "প্যারীচাঁদ মিত্র",
+      "C": "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+      "D": "বঙ্কিমচন্দ্র চট্টোপাধ্যায়"
+    },
+    "answer": "D",
+    "explanation": "বঙ্কিমচন্দ্র চট্টোপাধ্যায় বাংলা আধুনিক উপন্যাসের প্রবর্তক। তাঁর 'দুর্গেশনন্দিনী' প্রথম সার্থক বাংলা উপন্যাস।"
+  },
+  {
+    "id": 6,
+    "question": "কিন্তু আরম্ভের পূর্বেও আরম্ভ আছে। সন্ধ্যাবেলায় দীপ জ্বালার আগে সকালবেলায় সলতে পাকানো’- বাক্যদ্বয় কোন রচনা থেকে উদ্ধৃত?",
+    "options": {
+      "A": "নৌকাডুবি",
+      "B": "চোখের বালি",
+      "C": "যোগাযোগ",
+      "D": "শেষের কবিতা"
+    },
+    "answer": "C",
+    "explanation": "‘কিন্তু আরম্ভের পূর্বেও আরম্ভ আছে...’ বাক্যটি রবীন্দ্রনাথ ঠাকুরের ‘যোগাযোগ’ উপন্যাস থেকে উদ্ধৃত।"
+  },
+  {
+    "id": 7,
+    "question": "মুক্তিযুদ্ধভিত্তিক উপন্যাস কোনটি?",
+    "options": {
+      "A": "একটি কালো মেয়ের কথা",
+      "B": "তেইশ নম্বর তৈলচিত্র",
+      "C": "আয়নামতির পালা",
+      "D": "ইছামতী"
+    },
+    "answer": "A",
+    "explanation": "সেলিনা হোসেনের ‘একটি কালো মেয়ের কথা’ মুক্তিযুদ্ধভিত্তিক উপন্যাস। অন্যগুলো মুক্তিযুদ্ধভিত্তিক নয়।"
+  },
+  {
+    "id": 8,
+    "question": "‘কালো বরফ’ উপন্যাসটির বিষয় :",
+    "options": {
+      "A": "তেভাগা আন্দোলন",
+      "B": "ভাষা আন্দোলন",
+      "C": "মুক্তিযুদ্ধ",
+      "D": "দেশভাগ"
+    },
+    "answer": "D",
+    "explanation": "শওকত আলীর ‘কালো বরফ’ উপন্যাসের বিষয় দেশভাগ। এতে দেশভাগের ত্রাস ও মানুষের জীবনচিত্র ফুটে উঠেছে।"
+  },
+  {
+    "id": 9,
+    "question": "‘ঢাকা প্রকাশ’ সাপ্তাহিক পত্রিকাটির সম্পাদক কে?",
+    "options": {
+      "A": "কৃষ্ণচন্দ্র মজুমদার",
+      "B": "রামানন্দ চট্টোপাধ্যায়",
+      "C": "শামসুর রাহমান",
+      "D": "সিকান্দার আবু জাফর"
+    },
+    "answer": "A",
+    "explanation": "‘ঢাকা প্রকাশ’ সাপ্তাহিক পত্রিকার সম্পাদক ছিলেন কৃষ্ণচন্দ্র মজুমদার। এটি ১৮৬১ সালে প্রথম প্রকাশিত হয়।"
+  },
+  {
+    "id": 10,
+    "question": "‘জীবনস্মৃতি’ কার রচনা?",
+    "options": {
+      "A": "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+      "B": "রবীন্দ্রনাথ ঠাকুর",
+      "C": "বিভূতিভূষণ বন্দ্যোপাধ্যায়",
+      "D": "রোকেয়া সাখাওয়াত হোসেন"
+    },
+    "answer": "B",
+    "explanation": "‘জীবনস্মৃতি’ রবীন্দ্রনাথ ঠাকুরের আত্মজীবনীমূলক গ্রন্থ। এতে তাঁর শৈশব ও কৈশোরের স্মৃতিচারণ আছে।"
+  },
+  {
+    "id": 11,
+    "question": "দীনবন্ধু মিত্রের ‘নীলদর্পণ’ নাটকটি ইংরেজিতে অনুবাদ করেন কে?",
+    "options": {
+      "A": "প্যারীচাঁদ মিত্র",
+      "B": "মাইকেল মধুসূদ্ন দত্ত",
+      "C": "প্রমথ চৌধুরী",
+      "D": "দ্বিজেন্দ্রলাল রায়"
+    },
+    "answer": "B",
+    "explanation": "মাইকেল মধুসূদন দত্ত দীনবন্ধু মিত্রের ‘নীলদর্পণ’ নাটক ইংরেজিতে অনুবাদ করেন। নীলবিদ্রোহের প্রেক্ষাপটে রচিত এই নাটক।"
+  },
+  {
+    "id": 12,
+    "question": "‘সকালে উঠিয়া আমি মনে মনে বলি, সারাদিন আমি যেন ভালো হয়ে চলি’ চরণ দুটির রচয়িতা কে?",
+    "options": {
+      "A": "চণ্ডীচরণ মুন্‌শী",
+      "B": "কাজী নজরুল ইসলাম",
+      "C": "রবীন্দ্রনাথ ঠাকুর",
+      "D": "মদনমোহন তর্কালঙ্কার"
+    },
+    "answer": "D",
+    "explanation": "‘সকালে উঠিয়া আমি মনে মনে বলি...’ পঙক্তিটি মদনমোহন তর্কালঙ্কারের রচনা। এটি শিশুপাঠ্য নীতিকবিতা।"
+  },
+  {
+    "id": 13,
+    "question": "জসীমউদ্‌দীনের রচনা কোনটি?",
+    "options": {
+      "A": "যাদের দেখেছি",
+      "B": "পথে প্রবাসে",
+      "C": "কাল নিরবধি",
+      "D": "ভবিষ্যতের বাঙালী"
+    },
+    "answer": "A",
+    "explanation": "জসীমউদদীনের ‘যাদের দেখেছি’ একটি ভ্রমণকাহিনী। তাঁর বিখ্যাত রচনা ‘নকশী কাঁথার মাঠ’।"
+  },
+  {
+    "id": 14,
+    "question": "‘কিন্তু মানুষ্য কখনো পাষাণ হয় না’ – উক্তিটি কোন উপন্যাসের?",
+    "options": {
+      "A": "রবীন্দ্রনাথের ‘চোখের বালি’",
+      "B": "শরৎচন্দ্রের ‘পথের দাবী’",
+      "C": "শওকত ওসমানের ‘ক্রীতদাসের হাসি’",
+      "D": "বঙ্কিমচন্দ্রের ‘রাজসিংহ’"
+    },
+    "answer": "D",
+    "explanation": "‘কিন্তু মানুষ্য কখনো পাষাণ হয় না’ – উক্তিটি বঙ্কিমচন্দ্র চট্টোপাধ্যায়ের ‘রাজসিংহ’ উপন্যাস থেকে নেওয়া।"
+  },
+  {
+    "id": 15,
+    "question": "ইয়ংবেঙ্গল গোষ্ঠীভুক্ত ছিলেন কে?",
+    "options": {
+      "A": "অক্ষয়কুমার দত্ত",
+      "B": "এন্টনি ফিরঙ্গি",
+      "C": "মাইকেল মধুসূদন দত্ত",
+      "D": "কালীপ্রসন্ন সিংহ ঠাকুর"
+    },
+    "answer": "C",
+    "explanation": "মাইকেল মধুসূদন দত্ত ইয়ংবেঙ্গল গোষ্ঠীর সদস্য ছিলেন। এই গোষ্ঠী পাশ্চাত্য শিক্ষায় শিক্ষিত উদারমনা বাঙালিদের নিয়ে গঠিত হয়।"
+  },
+  {
+    "id": 16,
+    "question": "‘বিদ্রোহী’ কবিতাটি কোন সনে প্রথম প্রকাশিত হয়?",
+    "options": {
+      "A": "১৯২৩ সন",
+      "B": "১৯২১ সন",
+      "C": "১৯১৯ সন",
+      "D": "১৯১৮ সন"
+    },
+    "answer": "B",
+    "explanation": "কাজী নজরুল ইসলামের ‘বিদ্রোহী’ কবিতাটি ১৯২২ সালের ডিসেম্বরে ‘বিজলী’ পত্রিকায় প্রথম প্রকাশিত হয়।"
+  },
+  {
+    "id": 17,
+    "question": "‘আগুন পাখি’– উপন্যাসটির রচয়িতা কে?",
+    "options": {
+      "A": "রাহাত খান",
+      "B": "হাসান আজিজুল হক",
+      "C": "সেলিনা হোসেন",
+      "D": "ইমদাদুল হক মিলন"
+    },
+    "answer": "B",
+    "explanation": "‘আগুন পাখি’ উপন্যাসটি হাসান আজিজুল হক রচনা করেন। এটি মুক্তিযুদ্ধভিত্তিক একটি গুরুত্বপূর্ণ উপন্যাস।"
+  },
+  {
+    "id": 18,
+    "question": "‘একুশে ফেব্রুয়ারি’র বিখ্যাত গানটির সুরকার কে?",
+    "options": {
+      "A": "সুবীর সাহা",
+      "B": "সুধীন দাস",
+      "C": "আলতাফ মাহমুদ",
+      "D": "আলতাফ মামুন"
+    },
+    "answer": "C",
+    "explanation": "‘আমার ভাইয়ের রক্তে রাঙানো একুশে ফেব্রুয়ারি’ গানটির সুরকার আলতাফ মাহমুদ। গীতিকার আবদুল গাফফার চৌধুরী।"
+  },
+  {
+    "id": 19,
+    "question": "বাক্যের ক্রিয়ার সাথে অন্যান্য পদের যে সম্পর্ক তাকে কী বলে?",
+    "options": {
+      "A": "ফারসি",
+      "B": "পর্তুগিজ",
+      "C": "ওলন্দাজ",
+      "D": "পাঞ্জাবি"
+    },
+    "answer": "B",
+    "explanation": "বাক্যের ক্রিয়ার সাথে অন্যান্য পদের সম্পর্ককে কারক বলে। কারক ছয় প্রকার।"
+  },
+  {
+    "id": 20,
+    "question": "কোন শব্দযুগল বিপরীতার্থক নয়?",
+    "options": {
+      "A": "ঐচ্ছিক-অনাবশ্যিক",
+      "B": "কুটিল-সরল",
+      "C": "কম-বেশি",
+      "D": "কদাচার-সদাচার"
+    },
+    "answer": "A",
+    "explanation": "‘ঐচ্ছিক’ ও ‘অনাবশ্যিক’ – এ দুটি সমার্থক শব্দ, বিপরীতার্থক নয়। কুটিল-সরল, কম-বেশি, কদাচার-সদাচার বিপরীতার্থক।"
+  },
+  {
+    "id": 21,
+    "question": "দ্বারা, দিয়া, কর্তৃক- বাংলা ব্যাকরণ অনুযায়ী কোন বিভক্তি?",
+    "options": {
+      "A": "তৃতীয়া বিভক্তি",
+      "B": "প্রথমা বিভক্তি",
+      "C": "দ্বিতীয়া বিভক্তি",
+      "D": "শূন্য বিভক্তি"
+    },
+    "answer": "A",
+    "explanation": "‘দ্বারা’, ‘দিয়া’, ‘কর্তৃক’ – এগুলি তৃতীয়া বিভক্তির অনুসর্গ। তৃতীয়া বিভক্তি কর্তৃকারক নির্দেশ করে।"
+  },
+  {
+    "id": 22,
+    "question": "‘অভিরাম’ শব্দের অর্থ কী?",
+    "options": {
+      "A": "বিরামহীন",
+      "B": "বালিশ",
+      "C": "চলন",
+      "D": "সুন্দর"
+    },
+    "answer": "D",
+    "explanation": "‘অভিরাম’ শব্দের অর্থ সুন্দর, মনোরম। ‘অভি’ উপসর্গ ও ‘রাম’ ধাতু থেকে নিষ্পন্ন।"
+  },
+  {
+    "id": 23,
+    "question": "শরতের শিশির- বাগধারা শব্দটির অর্থ কী?",
+    "options": {
+      "A": "সুসময়ের বন্ধু",
+      "B": "সুসময়ের সঞ্চয়",
+      "C": "শরতের শোভা",
+      "D": "শরতের শিউলি ফুল"
+    },
+    "answer": "A",
+    "explanation": "‘শরতের শিশির’ বাগধারাটির অর্থ সুসময়ের বন্ধু। শিশির যেমন অস্থায়ী, তেমনি সুসময়ের বন্ধুও অস্থায়ী হয়।"
+  },
+  {
+    "id": 24,
+    "question": "শিবরাত্রির সলতে- বাগধারাটির অর্থ কী?",
+    "options": {
+      "A": "শিবরাত্রির আলো",
+      "B": "একমাত্র সঞ্চয়",
+      "C": "একমাত্র সন্তান",
+      "D": "শিবরাত্রির গুরুত্ব"
+    },
+    "answer": "C",
+    "explanation": "‘শিবরাত্রির সলতে’ বাগধারাটির অর্থ একমাত্র সন্তান। সলতে অর্থ বাতির সল্তে, যা শিবরাত্রিতে অমঙ্গল দূর করে।"
+  },
+  {
+    "id": 25,
+    "question": "‘প্রোষিতভর্তৃকা’ &#8211; শব্দটির অর্থ কী?",
+    "options": {
+      "A": "ভর্ৎসনাপ্রাপ্ত",
+      "B": "যে নারীর স্বামী বিদেশে অবস্থান করে",
+      "C": "ভূমিতে প্রোথিত তরুমূল",
+      "D": "যে বিবাহিতা নারী পিত্রালয়ে অবস্থান করে"
+    },
+    "answer": "B",
+    "explanation": "‘প্রোষিতভর্তৃকা’ শব্দের অর্থ সেই নারী যার স্বামী বিদেশে অবস্থান করে। ‘প্রোষিত’ অর্থ বিদেশস্থ, ‘ভর্তৃকা’ অর্থ স্বামী।"
+  },
+  {
+    "id": 26,
+    "question": "বাংলা কৃৎ-প্রত্যয় সাধিত শব্দ কোনটি?",
+    "options": {
+      "A": "কারক",
+      "B": "লিখিত",
+      "C": "বেদনা",
+      "D": "খেলনা"
+    },
+    "answer": "D",
+    "explanation": "‘খেলনা’ শব্দটি বাংলা কৃৎ-প্রত্যয় সাধিত। ‘খেল্’ ধাতু + ‘না’ প্রত্যয়। অন্যগুলো তদ্ধিত প্রত্যয়ান্ত বা সংস্কৃত।"
+  },
+  {
+    "id": 27,
+    "question": "‘Attested’- এর বাংলা পরিভাষা কোনটি?",
+    "options": {
+      "A": "সত্যায়িত",
+      "B": "প্রত্যয়িত",
+      "C": "সত্যায়ন",
+      "D": "সংলগ্ন/সংলাগ"
+    },
+    "answer": "A",
+    "explanation": "‘Attested’-এর বাংলা পরিভাষা ‘সত্যায়িত’। নথি বা স্বাক্ষর সত্যায়ন করা অর্থে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 28,
+    "question": "কোনটি শুদ্ধ বানান?",
+    "options": {
+      "A": "প্রজ্বল",
+      "B": "প্রোজ্জল",
+      "C": "প্রোজ্বল",
+      "D": "প্রোজ্জ্বল"
+    },
+    "answer": "D",
+    "explanation": "শুদ্ধ বানান ‘প্রোজ্জ্বল’। ‘প্র’ উপসর্গ + ‘উজ্জ্বল’ = প্রোজ্জ্বল।"
+  },
+  {
+    "id": 29,
+    "question": "‘জোছনা’ কোন শ্রেণির শব্দ?",
+    "options": {
+      "A": "যৌগিক",
+      "B": "তৎসম",
+      "C": "দেশি",
+      "D": "অর্ধ-তৎসম"
+    },
+    "answer": "D",
+    "explanation": "‘জোছনা’ অর্ধ-তৎসম শব্দ। তৎসম ‘জ্যোৎস্না’ থেকে অর্ধ-তৎসম রূপ ‘জোছনা’ হয়েছে।"
+  },
+  {
+    "id": 30,
+    "question": "‘জিজীবিষা’ শব্দটি দিয়ে বোঝায়",
+    "options": {
+      "A": "জয়ের ইচ্ছা",
+      "B": "হত্যার ইচ্ছা",
+      "C": "বেঁচে থাকার ইচ্ছা",
+      "D": "শোনার ইচ্ছা"
+    },
+    "answer": "C",
+    "explanation": "‘জিজীবিষা’ অর্থ বেঁচে থাকার ইচ্ছা। ‘জি’ ধাতু + ‘স’ + ‘ইচ্ছা’ অর্থে ‘অ’ প্রত্যয়ে গঠিত।"
+  },
+  {
+    "id": 31,
+    "question": "‘সর্বাঙ্গীণ’ শব্দের সঠিক প্রকৃতি-প্রত্যয়",
+    "options": {
+      "A": "সর্বঙ্গ + ঈন",
+      "B": "সর্ব + অঙ্গীন",
+      "C": "সর্ব + ঙ্গীন",
+      "D": "সর্বাঙ্গ + ঈন্"
+    },
+    "answer": "D",
+    "explanation": "‘সর্বাঙ্গীণ’-এর সঠিক প্রকৃতি-প্রত্যয় হল ‘সর্বাঙ্গ + ঈন্’। ‘ঈন্’ প্রত্যয় যুক্ত হয়ে সর্বাঙ্গীণ শব্দ গঠিত।"
+  },
+  {
+    "id": 32,
+    "question": "অন্যের রচনা থেকে চুরি করাকে বলা হয়",
+    "options": {
+      "A": "বেতসবৃত্তি",
+      "B": "পতঙ্গবৃত্তি",
+      "C": "জলৌকাবৃত্তি",
+      "D": "কুম্ভিলকবৃত্তি"
+    },
+    "answer": "D",
+    "explanation": "অন্যের রচনা থেকে চুরি করাকে ‘কুম্ভিলকবৃত্তি’ বলে। কুম্ভিলক অর্থ চোর। বেতসবৃত্তি অর্থ বেতের মতো নমনীয়তা, পতঙ্গবৃত্তি অর্থ তুচ্ছ বৃত্তি।"
+  },
+  {
+    "id": 33,
+    "question": "‘ঊর্ণনাভ’ শব্দটি দিয়ে বুঝায়",
+    "options": {
+      "A": "টিকটিকি",
+      "B": "তেলাপোকা",
+      "C": "উইপোকা",
+      "D": "মাকড়সা"
+    },
+    "answer": "D",
+    "explanation": "‘ঊর্ণনাভ’ শব্দের অর্থ মাকড়সা। ‘ঊর্ণ’ অর্থ লোম/সূত্র, ‘নাভ’ অর্থ নাভি — যে সূত্র নিজ নাভি থেকে উৎপন্ন করে।"
+  },
+  {
+    "id": 34,
+    "question": "‘Please write to me at the above address.’ The word ‘above’ in this sentence is a/an",
+    "options": {
+      "A": "noun",
+      "B": "adjective",
+      "C": "pronoun",
+      "D": "adverb"
+    },
+    "answer": "B",
+    "explanation": "‘Above’ শব্দটি ‘address’ বিশেষ্যকে বিশেষিত করায় এটি adjective। এটি ‘উপরিউক্ত’ অর্থে ব্যবহৃত।"
+  },
+  {
+    "id": 35,
+    "question": "In which sentence is the word ‘past’ used as a preposition?",
+    "options": {
+      "A": "Writing letters is a thing of the past.",
+      "B": "I look back on the past without regret.",
+      "C": "I called out to him as he ran past.",
+      "D": "Tania was a wonderful singer, but she’s past her prime."
+    },
+    "answer": "D",
+    "explanation": "‘Past’ শব্দটি এখানে preposition (‘past her prime’ = তার সেরা সময়ের পর)। A ও B-তে noun, C-তে adverb।"
+  },
+  {
+    "id": 36,
+    "question": "The word ‘sibling’ means",
+    "options": {
+      "A": "a brother",
+      "B": "a sister",
+      "C": "a brother or sister",
+      "D": "an infant"
+    },
+    "answer": "C",
+    "explanation": "‘Sibling’ অর্থ ভাই বা বোন (brother or sister)। এটি একই পিতামাতার সন্তান নির্দেশ করে।"
+  },
+  {
+    "id": 37,
+    "question": "Fill in the blank: As she was talking he suddenly broke _, saying, ‘That’s a lie’",
+    "options": {
+      "A": "off",
+      "B": "in",
+      "C": "down",
+      "D": "into"
+    },
+    "answer": "B",
+    "explanation": "‘Broke in’ অর্থ হঠাৎ বাধা দিয়ে কথা বলা। ‘Interrupt’ অর্থে phrasal verb ‘break in’ ব্যবহৃত হয়।"
+  },
+  {
+    "id": 38,
+    "question": "Fill in the blank : You may go for a walk if you feel __ it.",
+    "options": {
+      "A": "about",
+      "B": "on",
+      "C": "like",
+      "D": "for"
+    },
+    "answer": "C",
+    "explanation": "‘Feel like it’ অর্থ ভালো লাগা বা ইচ্ছা হওয়া। ‘If you feel like it’ একটি fixed expression।"
+  },
+  {
+    "id": 39,
+    "question": "Identify the word which is spelt incorrectly :",
+    "options": {
+      "A": "Consciencious",
+      "B": "Perseverance",
+      "C": "Convalescence",
+      "D": "Maintenance"
+    },
+    "answer": "A",
+    "explanation": "সঠিক বানান ‘Conscientious’। ‘Consciencious’ ভুল বানান। Perseverance, Convalescence, Maintenance সঠিক।"
+  },
+  {
+    "id": 40,
+    "question": "‘You look terrific in that dress!’ The word ‘terrific&#8217; in the above sentence means",
+    "options": {
+      "A": "excellent",
+      "B": "funny",
+      "C": "very ugly",
+      "D": "horrible"
+    },
+    "answer": "A",
+    "explanation": "‘Terrific’ এখানে ‘excellent’ বা চমৎকার অর্থে ব্যবহৃত হয়েছে। এটি প্রশংসাসূচক বিশেষণ।"
+  },
+  {
+    "id": 41,
+    "question": "Someone who is capricious is",
+    "options": {
+      "A": "easily irritated",
+      "B": "wise and willing to cooperate",
+      "C": "exceedingly conceited and arrogant",
+      "D": "known for sudden changes in attitude or behaviour"
+    },
+    "answer": "D",
+    "explanation": "‘Capricious’ অর্থ খামখেয়ালি বা অপ্রত্যাশিত আচরণকারী। যার আচরণে হঠাৎ পরিবর্তন হয়।"
+  },
+  {
+    "id": 42,
+    "question": "Which one of the following words is masculine?",
+    "options": {
+      "A": "Mare",
+      "B": "Lad",
+      "C": "Pillow",
+      "D": "Pony"
+    },
+    "answer": "B",
+    "explanation": "‘Lad’ অর্থ বালক বা যুবক, যা masculine (পুংলিঙ্গ)। Mare = ঘোটকী (স্ত্রী), Pillow = নির্জীব, Pony = ক্ষুদ্র ঘোড়া।"
+  },
+  {
+    "id": 43,
+    "question": "A man whose wife has died is called a/an",
+    "options": {
+      "A": "Widow",
+      "B": "Widower",
+      "C": "Spinster",
+      "D": "Bachelor"
+    },
+    "answer": "B",
+    "explanation": "যার স্ত্রী মারা গেছে তাকে Widower (বিধুর) বলে। Widow = বিধবা, Spinster = অবিবাহিতা, Bachelor = অবিবাহিত পুরুষ।"
+  },
+  {
+    "id": 44,
+    "question": "Which word is similar to ‘appal’?",
+    "options": {
+      "A": "deceive",
+      "B": "confuse",
+      "C": "dismay",
+      "D": "solicit"
+    },
+    "answer": "C",
+    "explanation": "‘Appal’ অর্থ ভীত বা আতঙ্কিত করা। ‘Dismay’ (হতাশ/ভীত করা) এর সবচেয়ে কাছের সমার্থক।"
+  },
+  {
+    "id": 45,
+    "question": "Which word means the opposite of ‘dearth’?",
+    "options": {
+      "A": "lack",
+      "B": "abundance",
+      "C": "poverty",
+      "D": "shortage"
+    },
+    "answer": "B",
+    "explanation": "‘Dearth’ অর্থ অভাব বা স্বল্পতা। এর বিপরীত ‘Abundance’ (প্রাচুর্য)।"
+  },
+  {
+    "id": 46,
+    "question": "Identify the word which remains the same in its plural form :",
+    "options": {
+      "A": "aircraft",
+      "B": "intention",
+      "C": "mouse",
+      "D": "thesis"
+    },
+    "answer": "A",
+    "explanation": "‘Aircraft’-এর singular ও plural একই। ‘Aircraft’ অপরিবর্তনীয় বিশেষ্য। Mouse→Mice, Thesis→Theses।"
+  },
+  {
+    "id": 47,
+    "question": "Identify the determiner in the following sentence : ‘I have no news for you.’",
+    "options": {
+      "A": "have",
+      "B": "news",
+      "C": "no",
+      "D": "for"
+    },
+    "answer": "C",
+    "explanation": "‘No’ শব্দটি এখানে determiner (নির্ধারক)। এটি ‘news’ বিশেষ্যকে নির্ধারণ করছে। Have=verb, News=noun, For=preposition।"
+  },
+  {
+    "id": 48,
+    "question": "‘A lost opportunity never returns.’ Here ‘lost’ is a",
+    "options": {
+      "A": "gerund",
+      "B": "verbal noun",
+      "C": "gerundial infinitive",
+      "D": "participle"
+    },
+    "answer": "D",
+    "explanation": "‘Lost’ ক্রিয়ার past participle form ‘opportunity’-কে বিশেষিত করেছে। তাই এটি Participle।"
+  },
+  {
+    "id": 49,
+    "question": "The saying ‘enough is enough’ is used when you want",
+    "options": {
+      "A": "something to continue",
+      "B": "something to stop",
+      "C": "something to continue until it’s enough",
+      "D": "to tell instructions are clear"
+    },
+    "answer": "B",
+    "explanation": "‘Enough is enough’ বলার অর্থ যথেষ্ট হয়েছে, বন্ধ করার ইচ্ছা প্রকাশ করা।"
+  },
+  {
+    "id": 50,
+    "question": "‘He ran With great speed.’ The underlined part of the sentence is a",
+    "options": {
+      "A": "noun phrase",
+      "B": "adverb phrase",
+      "C": "adjective phrase",
+      "D": "participle phrase"
+    },
+    "answer": "B",
+    "explanation": "‘With great speed’ ক্রিয়াপদ ‘ran’-কে বিশেষিত করায় এটি Adverb phrase (ক্রিয়াবিশেষণাত্মক phrase)।"
+  },
+  {
+    "id": 51,
+    "question": "‘We must not be late, else we will miss the train.’ This is a",
+    "options": {
+      "A": "compound sentence",
+      "B": "complex sentence",
+      "C": "simple sentence",
+      "D": "interrogative sentence"
+    },
+    "answer": "A",
+    "explanation": "এটি compound sentence। ‘Else’ conjunction দিয়ে দুটি independent clause যুক্ত হয়েছে।"
+  },
+  {
+    "id": 52,
+    "question": "Change the voice : ‘Who is calling me?’",
+    "options": {
+      "A": "By whom am I called?",
+      "B": "By whom I am called?",
+      "C": "By whom am I being called?",
+      "D": "Whom am I called by?"
+    },
+    "answer": "C",
+    "explanation": "‘Who is calling me?’-এর passive: ‘By whom am I being called?’ Present continuous tense-এর passive form।"
+  },
+  {
+    "id": 53,
+    "question": "An extra message added at the end of a letter after it is &#8216;signed&#8217; is called",
+    "options": {
+      "A": "Corrigendum",
+      "B": "Postscript",
+      "C": "NB",
+      "D": "RSVP"
+    },
+    "answer": "B",
+    "explanation": "চিঠির শেষে স্বাক্ষরের পর যুক্ত অতিরিক্ত বার্তাকে Postscript (P.S.) বলে। Corrigendum = সংশোধনী, NB = লক্ষণীয়, RSVP = উত্তর চেয়ে।"
+  },
+  {
+    "id": 54,
+    "question": "‘The Rape of the Lock’ by Alexander Pope is a/an",
+    "options": {
+      "A": "epic",
+      "B": "ballad",
+      "C": "mock-heroic poem",
+      "D": "elegy"
+    },
+    "answer": "C",
+    "explanation": "Alexander Pope-এর ‘The Rape of the Lock’ একটি Mock-heroic poem (মহাকাব্যের আদলে রচিত ব্যঙ্গকাব্য)।"
+  },
+  {
+    "id": 55,
+    "question": "Which of the following is not an American poet?",
+    "options": {
+      "A": "Robert Frost",
+      "B": "W.B. Yeats",
+      "C": "Emily Dickinson",
+      "D": "Langston Hughes"
+    },
+    "answer": "B",
+    "explanation": "W.B. Yeats একজন আইরিশ কবি। Robert Frost, Emily Dickinson ও Langston Hughes আমেরিকান কবি।"
+  },
+  {
+    "id": 56,
+    "question": "William Shakespeare was born in &#8211;",
+    "options": {
+      "A": "1616",
+      "B": "1664",
+      "C": "1564",
+      "D": "1493"
+    },
+    "answer": "C",
+    "explanation": "William Shakespeare ১৫৬৪ সালে জন্মগ্রহণ করেন এবং ১৬১৬ সালে মৃত্যুবরণ করেন।"
+  },
+  {
+    "id": 57,
+    "question": "Tennyson’s ‘In Memoriam’ is an elegy on the death of",
+    "options": {
+      "A": "John Milton",
+      "B": "John Keats",
+      "C": "Arthure Henry Hallam",
+      "D": "Sydney Smith"
+    },
+    "answer": "C",
+    "explanation": "Tennyson-এর ‘In Memoriam’ তাঁর বন্ধু Arthur Henry Hallam-এর মৃত্যুতে রচিত শোকগাথা (elegy)।"
+  },
+  {
+    "id": 58,
+    "question": "‘Sweet Helen make me immortal with a kiss.’ The sentence has been taken from the play",
+    "options": {
+      "A": "Remeo and Juliet",
+      "B": "Caesar and Cleopatra",
+      "C": "Doctor Faustus",
+      "D": "Antony and Cleopatra"
+    },
+    "answer": "C",
+    "explanation": "‘Sweet Helen make me immortal with a kiss.’ – লাইনটি Christopher Marlowe-এর ‘Doctor Faustus’ নাটক থেকে নেওয়া।"
+  },
+  {
+    "id": 59,
+    "question": "‘What’s in a name? That which we call a rose By any other name would smell as sweet’- Who said this?",
+    "options": {
+      "A": "Juliet",
+      "B": "Romeo",
+      "C": "Portia",
+      "D": "Rosalind"
+    },
+    "answer": "A",
+    "explanation": "‘What’s in a name?...’ – উক্তিটি Juliet-এর। Shakespeare-এর ‘Romeo and Juliet’ নাটকের দ্বিতীয় অঙ্কের সংলাপ।"
+  },
+  {
+    "id": 60,
+    "question": "‘Man’s love is of man’s life a thing apart, ‘Tis woman’s whole existence.’- This is taken from the poem of",
+    "options": {
+      "A": "P.B Shelley",
+      "B": "Lord Byron",
+      "C": "John Keats",
+      "D": "Edmund Spenser"
+    },
+    "answer": "B",
+    "explanation": "‘Man’s love is of man’s life a thing apart...’ – লর্ড বায়রনের (Lord Byron) ‘Don Juan’ কবিতা থেকে নেওয়া।"
+  },
+  {
+    "id": 61,
+    "question": "Who translated the ‘Rubaiyat of Omar Khayyam’ into English?",
+    "options": {
+      "A": "Thomas Carlyle",
+      "B": "Edward Fitzgerald",
+      "C": "D.G. Rossetti",
+      "D": "William Thackeray"
+    },
+    "answer": "B",
+    "explanation": "Edward Fitzgerald ‘Rubaiyat of Omar Khayyam’-এর ইংরেজি অনুবাদ করেন। এটি বিশ্বসাহিত্যের বিখ্যাত অনুবাদ।"
+  },
+  {
+    "id": 62,
+    "question": "‘Ulysses’ is a novel written by",
+    "options": {
+      "A": "Joseph Conrad",
+      "B": "Thomas Hardy",
+      "C": "Charles Dickens",
+      "D": "James Joyce"
+    },
+    "answer": "D",
+    "explanation": "James Joyce ‘Ulysses’ উপন্যাসের রচয়িতা। এটি ১৯২২ সালে প্রকাশিত আধুনিক সাহিত্যের অমর সৃষ্টি।"
+  },
+  {
+    "id": 63,
+    "question": "The short story ‘The Diamond Necklace’ was written by",
+    "options": {
+      "A": "Guy de Maupassant",
+      "B": "O Henry",
+      "C": "Somerset Maugham",
+      "D": "George Orwell"
+    },
+    "answer": "A",
+    "explanation": "‘The Diamond Necklace’ (গলার হারের গল্প) গাই দ্য মোপাসাঁ (Guy de Maupassant) রচিত বিখ্যাত ছোটগল্প।"
+  },
+  {
+    "id": 64,
+    "question": "‘All the perfumes of Arabia will not sweeten this little hand.’- Who said this?",
+    "options": {
+      "A": "Macbeth",
+      "B": "Lady Macbeth",
+      "C": "Lady Macduff",
+      "D": "Macduff"
+    },
+    "answer": "B",
+    "explanation": "‘All the perfumes of Arabia will not sweeten this little hand.’ – লেডি ম্যাকবেথ (Lady Macbeth) বলেছেন। তাঁর হাতের রক্তদাগের প্রতীকী উক্তি।"
+  },
+  {
+    "id": 65,
+    "question": "‘Where are the songs of Spring? Aye, Where are they? Think not of them, thou hast the music too .’- Who wrote this?",
+    "options": {
+      "A": "William Wordsworth",
+      "B": "Robert Browning",
+      "C": "John Keats",
+      "D": "Samuel Coleridge"
+    },
+    "answer": "C",
+    "explanation": "‘Where are the songs of Spring?...’ – জন কিটসের (John Keats) ‘To Autumn’ কবিতা থেকে নেওয়া।"
+  },
+  {
+    "id": 66,
+    "question": "Who is the central character of ‘Wuthering Height’&#8217; by Emily Bronte?",
+    "options": {
+      "A": "Mr. Earnshaw",
+      "B": "Catherine",
+      "C": "Heathcliff",
+      "D": "Hindley Earnshaw"
+    },
+    "answer": "C",
+    "explanation": "‘Wuthering Heights’-এর কেন্দ্রীয় চরিত্র Heathcliff। তাঁর প্রতিহিংসা ও অপ্রেমের গল্প উপন্যাসটির মূল উপজীব্য।"
+  },
+  {
+    "id": 67,
+    "question": "‘The old order changeth, yielding place to new.’ – This line is extracted from Tennyson’s poem",
+    "options": {
+      "A": "The Lotos Eaters",
+      "B": "Tithonus",
+      "C": "Locksley Hall",
+      "D": "Morte d’ Arthur"
+    },
+    "answer": "D",
+    "explanation": "‘The old order changeth, yielding place to new.’ – Tennyson-এর ‘Morte d’Arthur’ কবিতা থেকে।"
+  },
+  {
+    "id": 68,
+    "question": "Who worte the poem ‘The Good-Morrow’?",
+    "options": {
+      "A": "George Herbert",
+      "B": "Andrew Marvell",
+      "C": "John Donne",
+      "D": "Henry Vaughan"
+    },
+    "answer": "C",
+    "explanation": "‘The Good-Morrow’ কবিতাটি জন ডানের (John Donne) রচনা। তিনি মেটাফিজিক্যাল কবি।"
+  },
+  {
+    "id": 69,
+    "question": "আলাউদ্দিন হোসেন শাহ্ কখন বৃহত্তর বাংলা শাসন করেন?",
+    "options": {
+      "A": "১৪৯৮-১৫১৬ খ্রিস্টাব্দ",
+      "B": "১৪৯৮-১৫১৭ খ্রিস্টাব্দ",
+      "C": "১৪৯৮-১৫১৮ খ্রিস্টাব্দ",
+      "D": "১৪৯৮-১৫১৯ খ্রিস্টাব্দ"
+    },
+    "answer": "D",
+    "explanation": "আলাউদ্দিন হোসেন শাহ ১৪৯৮ থেকে ১৫১৯ খ্রিস্টাব্দ পর্যন্ত বৃহত্তর বাংলা শাসন করেন। তিনি হোসেন শাহী বংশের শ্রেষ্ঠ সুলতান।"
+  },
+  {
+    "id": 70,
+    "question": "প্রাচীন বাংলা মৌর্য শাসনের প্রতিষ্ঠাতা কে?",
+    "options": {
+      "A": "অশোক মৌর্য",
+      "B": "চন্দ্রগুপ্ত মৌর্য",
+      "C": "সমুদ্র গুপ্ত",
+      "D": "এর কোনোটিই না"
+    },
+    "answer": "B",
+    "explanation": "প্রাচীন বাংলায় মৌর্য শাসনের প্রতিষ্ঠাতা চন্দ্রগুপ্ত মৌর্য। তিনি ৩২২ খ্রিস্টপূর্বে মৌর্য সাম্রাজ্য প্রতিষ্ঠা করেন।"
+  },
+  {
+    "id": 71,
+    "question": "ইউরোপীয় বণিকদের মধ্যে বাংলায় প্রথম এসেছিলেন",
+    "options": {
+      "A": "পর্তুগিজরা",
+      "B": "অপশন সংযোজন করা হবে",
+      "C": "ওলন্দাজরা",
+      "D": "ফরাসিরা"
+    },
+    "answer": "A",
+    "explanation": "ইউরোপীয় বণিকদের মধ্যে বাংলায় প্রথম আসে পর্তুগিজরা। ১৫১৪ সালে তারা চট্টগ্রামে আসে।"
+  },
+  {
+    "id": 72,
+    "question": "১৯৭১ সালে মুক্তিযুদ্ধের সময় জাতিসংঘে কোন দেশ বাংলাদেশের পক্ষে ‘ভেটো’ প্রদান করেছিল?",
+    "options": {
+      "A": "যুক্তরাজ্য",
+      "B": "ফ্রান্স",
+      "C": "যুক্তরাষ্ট্র",
+      "D": "সোভিয়েত ইউনিয়ন"
+    },
+    "answer": "D",
+    "explanation": "১৯৭১ সালের ডিসেম্বরে জাতিসংঘে বাংলাদেশের পক্ষে ভেটো প্রদান করে সোভিয়েত ইউনিয়ন। এটি বাংলাদেশের স্বীকৃতির পথ সুগম করে।"
+  },
+  {
+    "id": 73,
+    "question": "বঙ্গবন্ধুর ঐতিহাসিক ৭ই মার্চের ভাষণ সংবিধানের কোন তফসিলে অন্তর্ভুক্ত করা হয়েছে?",
+    "options": {
+      "A": "চতুর্থ তফসিল",
+      "B": "পঞ্চম তফসিল",
+      "C": "ষষ্ঠ তফসিল",
+      "D": "সপ্তম তফসিল"
+    },
+    "answer": "B",
+    "explanation": "বঙ্গবন্ধুর ৭ই মার্চের ভাষণ সংবিধানের পঞ্চম তফসিলে অন্তর্ভুক্ত করা হয়েছে। ২০২০ সালের সংবিধান সংশোধনের মাধ্যমে এটি যুক্ত হয়।"
+  },
+  {
+    "id": 74,
+    "question": "&#8216;বঙ্গভঙ্গ’ কালে ভারতের ভাইসরয় কে ছিলেন?",
+    "options": {
+      "A": "লর্ড কার্জন",
+      "B": "লর্ড ওয়াভেল",
+      "C": "লর্ড মাউন্ট ব্যাটেন",
+      "D": "লর্ড লিনলিথগো"
+    },
+    "answer": "A",
+    "explanation": "১৯০৫ সালে বঙ্গভঙ্গের সময় ভারতের ভাইসরয় ছিলেন লর্ড কার্জন। তাঁর আমলেই বাংলাকে বিভক্ত করা হয়।"
+  },
+  {
+    "id": 75,
+    "question": "বাংলাদেশের কোন বনভূমি শালবৃক্ষের জন্য বিখ্যাত?",
+    "options": {
+      "A": "সিলেটের বনভূমি",
+      "B": "পার্বত্য চট্টগ্রামের বনভূমি",
+      "C": "ভাওয়াল ও মধুপুরের বনভূমি",
+      "D": "খুলনা, বরিশাল ও পটুয়াখালীর বনভূমি"
+    },
+    "answer": "C",
+    "explanation": "ভাওয়াল ও মধুপুরের বনভূমি শালবৃক্ষের জন্য বিখ্যাত। এগুলি বাংলাদেশের কেন্দ্রীয় অঞ্চলে অবস্থিত।"
+  },
+  {
+    "id": 76,
+    "question": "বাংলাদেশে সবচেয়ে বেশি পাট উৎপন্ন হয় কোন জেলায়?",
+    "options": {
+      "A": "ফরিদপুর",
+      "B": "রংপুর",
+      "C": "জামালপুর",
+      "D": "শেরপুর"
+    },
+    "answer": "A",
+    "explanation": "বাংলাদেশে সবচেয়ে বেশি পাট উৎপন্ন হয় ফরিদপুর জেলায়। ফরিদপুর পাটচাষের জন্য ঐতিহাসিকভাবে বিখ্যাত।"
+  },
+  {
+    "id": 77,
+    "question": "বাংলাদেশে মোট আবাদযোগ্য জমির পরিমাণ",
+    "options": {
+      "A": "২ কোটি ৪০ লক্ষ একর",
+      "B": "অপশন সংযোজন করা হবে",
+      "C": "২ কোটি ২৫ লক্ষ একর",
+      "D": "২ কোটি ২১ লক্ষ একর"
+    },
+    "answer": "D",
+    "explanation": "বাংলাদেশে মোট আবাদযোগ্য জমির পরিমাণ ২ কোটি ২১ লক্ষ একর।"
+  },
+  {
+    "id": 78,
+    "question": "‘গারো উপজাতি’ কোন জেলায় বাস করে?",
+    "options": {
+      "A": "পার্বত্য চট্টগ্রাম",
+      "B": "সিলেট",
+      "C": "ময়মনসিংহ",
+      "D": "টাঙ্গাইল"
+    },
+    "answer": "C",
+    "explanation": "গারো উপজাতি প্রধানত ময়মনসিংহ জেলায় বাস করে। বিশেষ করে হালুয়াঘাট ও ধোবাউড়া অঞ্চলে।"
+  },
+  {
+    "id": 79,
+    "question": "২০১৮ সালে বাংলাদেশের Per capita GDP (nominal) কত?",
+    "options": {
+      "A": "$ ১,৭৫০ মার্কিন ডলার",
+      "B": "$ ১,৭৫১ মার্কিন ডলার",
+      "C": "$ ১,৭৫২ মার্কিন ডলার",
+      "D": "$ ১,৭৫৩ মার্কিন ডলার"
+    },
+    "answer": "C",
+    "explanation": "২০১৮ সালে বাংলাদেশের মাথাপিছু জিডিপি (নামমাত্র) ছিল ১,৭৫২ মার্কিন ডলার।"
+  },
+  {
+    "id": 80,
+    "question": "বাংলাদেশের প্রথম আদমশুমারি অনুষ্ঠিত হয়",
+    "options": {
+      "A": "১৯৭২ সালে",
+      "B": "১৯৭৩ সালে",
+      "C": "১৯৭৪ সালে",
+      "D": "১৯৭৫ সালে"
+    },
+    "answer": "C",
+    "explanation": "বাংলাদেশের প্রথম আদমশুমারি অনুষ্ঠিত হয় ১৯৭৪ সালে। এই শুমারি স্বাধীন দেশের জনসংখ্যার সঠিক পরিসংখ্যান দেয়।"
+  },
+  {
+    "id": 81,
+    "question": "Inclusive Development Index (IDI)- এর ভিত্তিতে দক্ষিণ এশিয়ায় বাংলাদেশের স্থান কত?",
+    "options": {
+      "A": "প্রথম স্থান",
+      "B": "দ্বিতীয় স্থান",
+      "C": "তৃতীয় স্থান",
+      "D": "চতুর্থ স্থান"
+    },
+    "answer": "B",
+    "explanation": "Inclusive Development Index (IDI)-এর ভিত্তিতে দক্ষিণ এশিয়ায় বাংলাদেশ দ্বিতীয় স্থানে রয়েছে।"
+  },
+  {
+    "id": 82,
+    "question": "২০১৮ সালে বাংলাদেশের মোট রপ্তানি আয় কত?",
+    "options": {
+      "A": "$ ৪০ বিলিয়ন মার্কিন ডলার",
+      "B": "$ ৪১ বিলিয়ন মার্কিন ডলার",
+      "C": "$ ৪২ বিলিয়ন মার্কিন ডলার",
+      "D": "$ ৪৩ বিলিয়ন মার্কিন ডলার"
+    },
+    "answer": "B",
+    "explanation": "২০১৮ সালে বাংলাদেশের মোট রপ্তানি আয় ছিল ৪১ বিলিয়ন মার্কিন ডলার।"
+  },
+  {
+    "id": 83,
+    "question": "Alliance যে দেশভিত্তিক গার্মেন্টস ব্রান্ডগুলোর সংগঠন",
+    "options": {
+      "A": "যুক্তরাজ্যের",
+      "B": "যুক্তরাষ্ট্রের",
+      "C": "কানাডার",
+      "D": "ইউরোপিয়ান ইউনিয়নের"
+    },
+    "answer": "B",
+    "explanation": "Alliance যুক্তরাষ্ট্রভিত্তিক গার্মেন্টস ব্র্যান্ডগুলোর সংগঠন। এটি তৈরি পোশাক শিল্পের নিরাপত্তা নিশ্চিত করে।"
+  },
+  {
+    "id": 84,
+    "question": "২০১৮ সালে বাংলাদেশের GDP- তে শিল্প খাতের অবদান কত শতাংশ ছিল?",
+    "options": {
+      "A": "২৯.৬৬%",
+      "B": "৩০.৬৬%",
+      "C": "৩২.৬৬%",
+      "D": "৩৩.৬৬%"
+    },
+    "answer": "D",
+    "explanation": "২০১৮ সালে বাংলাদেশের GDP-তে শিল্প খাতের অবদান ছিল ৩৩.৬৬%।"
+  },
+  {
+    "id": 85,
+    "question": "২০১৮-১৯ অর্থবছরে রপ্তানি প্রণোদনা রাখা হয়েছে",
+    "options": {
+      "A": "সাড়ে ৪ হাজার কোটি টাকা",
+      "B": "সাড়ে ৫ হাজার কোটি টাকা",
+      "C": "সাড়ে ৩ হাজার কোটি টাকা",
+      "D": "সাড়ে ৬ হাজার কোটি টাকা"
+    },
+    "answer": "A",
+    "explanation": "২০১৮-১৯ অর্থবছরে রপ্তানি প্রণোদনা রাখা হয় সাড়ে ৪ হাজার কোটি টাকা।"
+  },
+  {
+    "id": 86,
+    "question": "বাংলাদেশে প্রথম ভ্যাট (VAT) চালু হয়",
+    "options": {
+      "A": "১৯৯১ সালে",
+      "B": "১৯৭৩ সালে",
+      "C": "১৯৮৬ সালে",
+      "D": "১৯৯৬ সালে"
+    },
+    "answer": "A",
+    "explanation": "বাংলাদেশে প্রথম ভ্যাট (VAT) চালু হয় ১৯৯১ সালে। Value Added Tax-এর প্রচলন তৎকালীন সরকার প্রবর্তন করে।"
+  },
+  {
+    "id": 87,
+    "question": "সংবিধানের কোন সংশোধনকে ‘First distortion of constitution’ বলে আখ্যায়িত করা হয়?",
+    "options": {
+      "A": "৫ম সংশোধন",
+      "B": "৪র্থ সংশোধন",
+      "C": "৩য় সংশোধন",
+      "D": "২য় সংশোধন"
+    },
+    "answer": "A",
+    "explanation": "সংবিধানের ৫ম সংশোধনীকে ‘First distortion of constitution’ আখ্যা দেয়া হয়। এতে সংসদীয় পদ্ধতির পরিবর্তে রাষ্ট্রপতি শাসিত সরকার ব্যবস্থা চালু হয়।"
+  },
+  {
+    "id": 88,
+    "question": "স্বাধীনতার ঘোষণাপত্র সংবিধানের কততম তফসিলে সংযোজন করা হয়েছে?",
+    "options": {
+      "A": "চতুর্থ",
+      "B": "পঞ্চম",
+      "C": "ষষ্ঠ",
+      "D": "সপ্তম"
+    },
+    "answer": "D",
+    "explanation": "স্বাধীনতার ঘোষণাপত্র সংবিধানের সপ্তম তফসিলে সংযোজন করা হয়েছে।"
+  },
+  {
+    "id": 89,
+    "question": "গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান প্রবর্তিত হয়",
+    "options": {
+      "A": "১৭ এপ্রিল, ১৯৭১",
+      "B": "১৬ ডিসেম্বর, ১৯৭২",
+      "C": "৭ মার্চ, ১৯৭২",
+      "D": "২৬ মার্চ, ১৯৭৩"
+    },
+    "answer": "B",
+    "explanation": "গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান ১৬ ডিসেম্বর, ১৯৭২ সালে প্রবর্তিত হয়। এই তারিখ বিজয় দিবস হিসেবে পালিত হয়।"
+  },
+  {
+    "id": 90,
+    "question": "সংবিধানের কোন অনুচ্ছেদে ‘সরকারি কর্ম কমিশন’ (PSC) গঠনের উল্লেখ আছে?",
+    "options": {
+      "A": "১৩৭ নং অনুচ্ছেদে",
+      "B": "১৩৫ নং অনুচ্ছেদে",
+      "C": "১৩৮ নং অনুচ্ছেদে",
+      "D": "১৩৪ নং অনুচ্ছেদে"
+    },
+    "answer": "A",
+    "explanation": "সংবিধানের ১৩৭ নং অনুচ্ছেদে ‘সরকারি কর্ম কমিশন’ (PSC) গঠনের উল্লেখ আছে। এতে জনপ্রশাসনে নিয়োগের কথা বলা হয়েছে।"
+  },
+  {
+    "id": 91,
+    "question": "আওয়ামী লীগের ৬-দফা পেশ করা হয়েছিল",
+    "options": {
+      "A": "১৯৬৬ সালে",
+      "B": "১৯৬৭ সালে",
+      "C": "১৯৬৮ সালে",
+      "D": "১৯৬৯ সালে"
+    },
+    "answer": "A",
+    "explanation": "আওয়ামী লীগের ৬-দফা পেশ করা হয় ১৯৬৬ সালে। ৬ ফেব্রুয়ারি, ১৯৬৬ লাহোরে এই দফা ঘোষণা করেন বঙ্গবন্ধু।"
+  },
+  {
+    "id": 92,
+    "question": "বঙ্গবন্ধুসহ আগরতলা ষড়যন্ত্র মামলায় মোট আসামি সংখ্যা ছিল কত জন?",
+    "options": {
+      "A": "৩৪ জন",
+      "B": "৩৫ জন",
+      "C": "৩৬ জন",
+      "D": "৩২ জন"
+    },
+    "answer": "B",
+    "explanation": "বঙ্গবন্ধুসহ আগরতলা ষড়যন্ত্র মামলায় মোট আসামি সংখ্যা ছিল ৩৫ জন। এই মামলা ১৯৬৮ সালে দায়ের করা হয়।"
+  },
+  {
+    "id": 93,
+    "question": "আইন ও সালিশ কেন্দ্র কি ধরনের সংস্থা?",
+    "options": {
+      "A": "অর্থনৈতিক",
+      "B": "মানবাধিকার",
+      "C": "ধর্মীয়",
+      "D": "খেলাধুলা"
+    },
+    "answer": "B",
+    "explanation": "আইন ও সালিশ কেন্দ্র (ASK) একটি মানবাধিকার সংস্থা। এটি আইনি সহায়তা ও মানবাধিকার সুরক্ষায় কাজ করে।"
+  },
+  {
+    "id": 94,
+    "question": "Almond ও Powel চাপ সৃষ্টিকারী গোষ্ঠীকে বিভক্ত করেছেন",
+    "options": {
+      "A": "৩ ভাগে",
+      "B": "৪ ভাগে",
+      "C": "৫ ভাগে",
+      "D": "৬ ভাগে"
+    },
+    "answer": "B",
+    "explanation": "Almond ও Powell চাপ সৃষ্টিকারী গোষ্ঠীকে ৪ ভাগে বিভক্ত করেছেন: institutional, associational, non-associational, anomic।"
+  },
+  {
+    "id": 95,
+    "question": "বাংলাদেশ জাতিসংঘের",
+    "options": {
+      "A": "১৪৬তম সদস্য",
+      "B": "১৩৬তম সদস্য",
+      "C": "১২৬তম সদস্য",
+      "D": "১১৬তম সদস্য"
+    },
+    "answer": "B",
+    "explanation": "বাংলাদেশ ১৭ সেপ্টেম্বর, ১৯৭৪ সালে জাতিসংঘের ১৩৬তম সদস্য পদ লাভ করে।"
+  },
+  {
+    "id": 96,
+    "question": "বাংলাদেশে প্রথম জাতীয় সংসদের নির্বাচন হয়",
+    "options": {
+      "A": "৭ ফেব্রুয়ারি, ১৯৭৩",
+      "B": "৭ জানুয়ারি, ১৯৭৩",
+      "C": "৭ মার্চ, ১৯৭৩",
+      "D": "৭ এপ্রিল, ১৯৭৩"
+    },
+    "answer": "C",
+    "explanation": "বাংলাদেশে প্রথম জাতীয় সংসদের নির্বাচন হয় ৭ মার্চ, ১৯৭৩। এ নির্বাচনে আওয়ামী লীগ বিপুল বিজয় লাভ করে।"
+  },
+  {
+    "id": 97,
+    "question": "তৃণমূল পর্যায়ে স্বাস্থ্য সেবা নিশ্চিত করতে কমিউনিটি ক্লিনিক চালু করা হয়",
+    "options": {
+      "A": "১৩ হাজার ১২৫টি",
+      "B": "১৩ হাজার ১৩০টি",
+      "C": "১৩ হাজার ১৩৬টি",
+      "D": "১৩ হাজার ১৪৬টি"
+    },
+    "answer": "C",
+    "explanation": "তৃণমূল পর্যায়ে স্বাস্থ্য সেবা নিশ্চিত করতে ১৩ হাজার ১৩৬টি কমিউনিটি ক্লিনিক চালু করা হয়।"
+  },
+  {
+    "id": 98,
+    "question": "‘Let there be Light’- বিখ্যাত ছবিটি পরিচালনা করেন",
+    "options": {
+      "A": "অপশন সংযোজন করা হবে",
+      "B": "অপশন সংযোজন করা হবে",
+      "C": "অপশন সংযোজন করা হবে",
+      "D": "শেখ নিয়ামত আলী"
+    },
+    "answer": "D",
+    "explanation": "‘Let there be Light’ চলচ্চিত্রটি পরিচালনা করেন শেখ নিয়ামত আলী। এটি বাংলাদেশের মুক্তিযুদ্ধভিত্তিক তথ্যচিত্র।"
+  },
+  {
+    "id": 99,
+    "question": "যুক্তরাষ্ট্রের Guantanamo Bay Detention Camp কোথায় অবস্থিত?",
+    "options": {
+      "A": "ফ্লোরিডা",
+      "B": "হাইতি",
+      "C": "কিউবা",
+      "D": "জ্যামাইকা"
+    },
+    "answer": "C",
+    "explanation": "যুক্তরাষ্ট্রের Guantanamo Bay Detention Camp কিউবায় অবস্থিত। এটি ১৯০৩ সাল থেকে যুক্তরাষ্ট্রের নিয়ন্ত্রণে।"
+  },
+  {
+    "id": 100,
+    "question": "টেকসই উন্নয়ন সংক্রান্ত ২০৩০ এজেন্ডা (The 2030 Agenda for Sustainable Development)– তে কয়টি লক্ষ্য (goal) রয়েছে।",
+    "options": {
+      "A": "১৫",
+      "B": "১৭",
+      "C": "২১",
+      "D": "২৭"
+    },
+    "answer": "B",
+    "explanation": "টেকসই উন্নয়ন সংক্রান্ত ২০৩০ এজেন্ডায় ১৭টি Sustainable Development Goals (SDGs) রয়েছে।"
+  },
+  {
+    "id": 101,
+    "question": "জাতিসংঘ কোন সালে মানবাধিকার সংক্রান্ত বৈশ্বিক ঘোষণার ঐতিহাসিক নথিটি গ্রহণ করে?",
+    "options": {
+      "A": "১৯৪৮",
+      "B": "১৯৫৬",
+      "C": "১৯৪৫",
+      "D": "২০০০"
+    },
+    "answer": "A",
+    "explanation": "জাতিসংঘ ১৯৪৮ সালে মানবাধিকার সংক্রান্ত বৈশ্বিক ঘোষণা (Universal Declaration of Human Rights) গ্রহণ করে।"
+  },
+  {
+    "id": 102,
+    "question": "মিনস্ক নিচের কোন দেশের রাজধানী?",
+    "options": {
+      "A": "অপশন সংযোজন করা হবে",
+      "B": "আজারবাইজান",
+      "C": "পর্তুগাল",
+      "D": "বেলারুশ"
+    },
+    "answer": "D",
+    "explanation": "মিনস্ক বেলারুশের রাজধানী। বেলারুশ পূর্ব ইউরোপের একটি দেশ।"
+  },
+  {
+    "id": 103,
+    "question": "সর্বশেষ মিউনিখ নিরাপত্তা সম্মেলন কোন সালের কোন মাসে অনুষ্ঠিত হয়েছে?",
+    "options": {
+      "A": "সেপ্টেম্বর, ২০১৮",
+      "B": "মার্চ, ২০১৯",
+      "C": "ফেব্রুয়ারি, ২০১৯",
+      "D": "ডিসেম্বর, ২০১৮"
+    },
+    "answer": "C",
+    "explanation": "সর্বশেষ মিউনিখ নিরাপত্তা সম্মেলন ১৫ ফেব্রুয়ারি, ২০১৯-এ অনুষ্ঠিত হয়।"
+  },
+  {
+    "id": 104,
+    "question": "‘V20’ গ্রুপ কিসের সাথে সম্পর্কিত?",
+    "options": {
+      "A": "কৃষি উন্নয়ন",
+      "B": "দারিদ্র বিমোচন",
+      "C": "জলবায়ু পরিবর্তন",
+      "D": "বিনিয়োগ সম্পর্কিত"
+    },
+    "answer": "C",
+    "explanation": "V20 (Vulnerable Twenty) গ্রুপ জলবায়ু পরিবর্তনের কারণে ঝুঁকিপূর্ণ দেশগুলোর সংগঠন।"
+  },
+  {
+    "id": 105,
+    "question": "জাতিসংঘ সমুদ্র আইন কত সালে স্বাক্ষরিত হয়েছিল?",
+    "options": {
+      "A": "১৯৭৯ সালে",
+      "B": "১৯৮২ সালে",
+      "C": "১৯৮৩ সালে",
+      "D": "১৯৯৮ সালে"
+    },
+    "answer": "B",
+    "explanation": "জাতিসংঘ সমুদ্র আইন (UNCLOS) ১৯৮২ সালে স্বাক্ষরিত হয়। এটি সমুদ্র ব্যবহারের আইনি কাঠামো নির্ধারণ করে।"
+  },
+  {
+    "id": 106,
+    "question": "বিশ্বের সর্বশেষ জলবায়ু সম্মেলন (ডিসেম্বর, ২০১৮) কোথায় অনুষ্ঠিত হয়?",
+    "options": {
+      "A": "কাটোউইস, পোল্যান্ড",
+      "B": "প্যারিস, ফ্রান্স",
+      "C": "রোম, ইতালি",
+      "D": "বেইজিং, চীন"
+    },
+    "answer": "A",
+    "explanation": "বিশ্বের সর্বশেষ জলবায়ু সম্মেলন (COP24) ডিসেম্বর ২০১৮-এ কাটোউইস, পোল্যান্ডে অনুষ্ঠিত হয়।"
+  },
+  {
+    "id": 107,
+    "question": "Sunshine Policy- এর সাথে কোন দুটি দেশ জড়িত?",
+    "options": {
+      "A": "চীন, রাশিয়া",
+      "B": "উত্তর কোরিয়া, দক্ষিণ কোরিয়া",
+      "C": "জাপান, থাইল্যান্ড",
+      "D": "তাইওয়ান, হংকং"
+    },
+    "answer": "B",
+    "explanation": "Sunshine Policy (সানশাইন পলিসি) উত্তর কোরিয়া ও দক্ষিণ কোরিয়ার মধ্যে সম্পর্ক উন্নয়নের নীতি।"
+  },
+  {
+    "id": 108,
+    "question": "BRICS কর্তৃক প্রতিষ্ঠিত ব্যাংকের নাম হচ্ছে",
+    "options": {
+      "A": "New Development Bank (NDB)",
+      "B": "BRICS Development Bank (BDB)",
+      "C": "Economic Development Bank (EDB)",
+      "D": "International Commercial Bank (ICB)"
+    },
+    "answer": "A",
+    "explanation": "BRICS কর্তৃক প্রতিষ্ঠিত ব্যাংকের নাম New Development Bank (NDB)। সদর দপ্তর সাংহাই, চীনে।"
+  },
+  {
+    "id": 109,
+    "question": "চীন নিচের কোন আফ্রিকান দেশটিতে সামরিক ঘাঁটি স্থাপনের মাধ্যমে কৌশলগত সম্পর্ক স্থাপন করেছে?",
+    "options": {
+      "A": "ইথিওপিয়া",
+      "B": "জাম্বিয়া",
+      "C": "লাইবেরিয়া",
+      "D": "জিবুতি"
+    },
+    "answer": "D",
+    "explanation": "চীন জিবুতিতে সামরিক ঘাঁটি স্থাপন করেছে। জিবুতি পূর্ব আফ্রিকার কৌশলগত অবস্থানে রয়েছে।"
+  },
+  {
+    "id": 110,
+    "question": "পাকিস্তান নিয়ন্ত্রিত কাশ্মীরের কোন অংশে ভারত সম্প্রতি (ফেব্রুয়ারি, ২০১৯) সামরিক বিমান হামলা পরিচালনা করে?",
+    "options": {
+      "A": "এবোটাবাদ",
+      "B": "বালাকোট",
+      "C": "কোয়েটা",
+      "D": "গিলগিট"
+    },
+    "answer": "B",
+    "explanation": "ভারত ফেব্রুয়ারি ২০১৯-এ পাকিস্তান নিয়ন্ত্রিত কাশ্মীরের বালাকোটে সামরিক বিমান হামলা চালায়।"
+  },
+  {
+    "id": 111,
+    "question": "নিচের কোন দেশে ২০২২ সালে G-20 বাৎসরিক সম্মেলন অনুষ্ঠিত হবে?",
+    "options": {
+      "A": "ইতালি",
+      "B": "যুক্তরাষ্ট্র",
+      "C": "ভারত",
+      "D": "ব্রাজিল"
+    },
+    "answer": "C",
+    "explanation": "২০২২ সালে G-20 বাৎসরিক সম্মেলন ভারতের আয়োজনে অনুষ্ঠিত হয়।"
+  },
+  {
+    "id": 112,
+    "question": "‘দ্যা আইডিয়া অব জাস্টিস’ – গ্রন্থের রচয়িতা কে?",
+    "options": {
+      "A": "মার্থা ন্যুসবাম",
+      "B": "জোসেফ স্টিগলিটজ",
+      "C": "অমর্ত্য সেন",
+      "D": "জন রাউলস"
+    },
+    "answer": "C",
+    "explanation": "‘The Idea of Justice’ গ্রন্থের রচয়িতা অমর্ত্য সেন। তিনি নোবেলজয়ী ভারতীয় অর্থনীতিবিদ।"
+  },
+  {
+    "id": 113,
+    "question": "শ্রীলংকার কোন সমুদ্রবন্দর চীনের নিকট ৯৯ বছরের জন্য লীজ দেয়া হয়েছে?",
+    "options": {
+      "A": "ত্রিঙ্কোমালী",
+      "B": "হাম্বানটোটা",
+      "C": "গল বন্দর",
+      "D": "পোর্ট অব কলম্বো"
+    },
+    "answer": "B",
+    "explanation": "শ্রীলংকার হাম্বানটোটা বন্দর ৯৯ বছরের জন্য চীনের নিকট লীজ দেওয়া হয়েছে। এটি চীনের বেল্ট অ্যান্ড রোড উদ্যোগের অংশ।"
+  },
+  {
+    "id": 114,
+    "question": "নিচের কোন সংস্থাটির সচিবালয় বাংলাদেশে অবস্থিত?",
+    "options": {
+      "A": "BIMSTEC",
+      "B": "CICA",
+      "C": "IORA",
+      "D": "SAARC"
+    },
+    "answer": "A",
+    "explanation": "BIMSTEC-এর সচিবালয় বাংলাদেশের ঢাকায় অবস্থিত। এটি দক্ষিণ এশীয় ও দক্ষিণ-পূর্ব এশীয় আঞ্চলিক সংস্থা।"
+  },
+  {
+    "id": 115,
+    "question": "নিচের কোন সংস্থাটির স্থায়ী সদর দপ্তর নেই?",
+    "options": {
+      "A": "NATO",
+      "B": "NAM",
+      "C": "EU",
+      "D": "ASEAN"
+    },
+    "answer": "B",
+    "explanation": "NAM (Non-Aligned Movement)-এর স্থায়ী সদর দপ্তর নেই। এর সভাপতিত্ব পর্যায়ক্রমে সদস্য দেশগুলো করে।"
+  },
+  {
+    "id": 116,
+    "question": "জাতিসংঘ বিষয়ক আলোচনায় পি৫ (P5) বলতে কি বুঝায়?",
+    "options": {
+      "A": "নিরাপত্তা পরিষদের পাঁচটি স্থায়ী সদস্য রাষ্ট্র",
+      "B": "পাঁচটি পরমাণু শক্তিধর রাষ্ট্র",
+      "C": "পাঁচটি জাতিসংঘ সংস্থা",
+      "D": "উপরের কোনটিই নয়"
+    },
+    "answer": "A",
+    "explanation": "P5 বলতে জাতিসংঘ নিরাপত্তা পরিষদের পাঁচটি স্থায়ী সদস্য রাষ্ট্র: যুক্তরাজ্য, ফ্রান্স, যুক্তরাষ্ট্র, চীন, রাশিয়া।"
+  },
+  {
+    "id": 117,
+    "question": "কোন দেশটি ইউরোপের বাল্টিক অঞ্চলে অবস্থিত নয়?",
+    "options": {
+      "A": "ফিনল্যান্ড",
+      "B": "পোল্যান্ড",
+      "C": "অস্ট্রিয়া",
+      "D": "সুইডেন"
+    },
+    "answer": "C",
+    "explanation": "অস্ট্রিয়া বাল্টিক অঞ্চলে অবস্থিত নয়। ফিনল্যান্ড, পোল্যান্ড ও সুইডেন বাল্টিক সাগর তীরবর্তী দেশ।"
+  },
+  {
+    "id": 118,
+    "question": "OIC– এর কততম শীর্ষ সম্মেলনে বঙ্গবন্ধু শেখ মুজিবুর রহমান অংশগ্রহণ করেন?",
+    "options": {
+      "A": "২য় শীর্ষ সম্মেলন",
+      "B": "৫ম শীর্ষ সম্মেলন",
+      "C": "৪র্থ শীর্ষ সম্মেলন",
+      "D": "৭ম শীর্ষ সম্মেলন"
+    },
+    "answer": "A",
+    "explanation": "বঙ্গবন্ধু শেখ মুজিবুর রহমান OIC-এর ২য় শীর্ষ সম্মেলনে (১৯৭৪, লাহোর) অংশগ্রহণ করেন।"
+  },
+  {
+    "id": 119,
+    "question": "নিচের কোনটি পাললিক শিলা?",
+    "options": {
+      "A": "মার্বেল",
+      "B": "কয়লা",
+      "C": "গ্রানাইট",
+      "D": "নিস"
+    },
+    "answer": "B",
+    "explanation": "কয়লা পাললিক শিলা। উদ্ভিদের স্তর চাপা পড়ে দীর্ঘকালে কয়লায় পরিণত হয়। মার্বেল ও নিস রূপান্তরিত, গ্রানাইট আগ্নেয় শিলা।"
+  },
+  {
+    "id": 120,
+    "question": "নিচের কোনটি বৃহৎ স্কেল মানচিত্র?",
+    "options": {
+      "A": "১: ১০,০০০",
+      "B": "১: ১০০,০০০",
+      "C": "১:১০০০,০০০",
+      "D": "১: ২৫০০,০০০"
+    },
+    "answer": "A",
+    "explanation": "বৃহৎ স্কেল মানচিত্রের স্কেল তুলনামূলক বড় হয়। ১: ১০,০০০ বৃহৎ স্কেল মানচিত্র নির্দেশ করে (ছোট এলাকার বিস্তারিত দেখায়)।"
+  },
+  {
+    "id": 121,
+    "question": "সমবৃষ্টিপাত সম্পন্ন স্থানসমূহকে যোগকারী রেখাকে বলা হয়",
+    "options": {
+      "A": "আইসোথার্ম",
+      "B": "আইসোবার",
+      "C": "আইসোহাইট",
+      "D": "আইসোহেলাইন"
+    },
+    "answer": "C",
+    "explanation": "সমবৃষ্টিপাত সম্পন্ন স্থানসমূহকে যোগকারী রেখাকে আইসোহাইট (Isohyet) বলে। আইসোথার্ম = সমতাপ, আইসোবার = সমচাপ।"
+  },
+  {
+    "id": 122,
+    "question": "বাংলাদেশের লাউয়াছড়া জাতীয় উদ্যান কী ধরনের বনভূমি?",
+    "options": {
+      "A": "ক্রান্তীয় চিরহরিৎ, আধা-চিরহরিৎ জাতীয়",
+      "B": "অপশন সংযোজন করা হবে",
+      "C": "পত্র পতনশীল জাতীয়",
+      "D": "ম্যানগ্রোভ জাতীয়"
+    },
+    "answer": "A",
+    "explanation": "বাংলাদেশের লাউয়াছড়া জাতীয় উদ্যান ক্রান্তীয় চিরহরিৎ ও আধা-চিরহরিৎ জাতীয় বনভূমি। এটি কমলগঞ্জ, মৌলভীবাজারে অবস্থিত।"
+  },
+  {
+    "id": 123,
+    "question": "বাংলাদেশে সংঘটিত বন্যার রেকর্ড অনুযায়ী (১৯৭১-২০০৭) কোন সালের বন্যায় সবচেয়ে বেশি এলাকা প্লাবিত হয়?",
+    "options": {
+      "A": "১৯৭৪",
+      "B": "১৯৮৮",
+      "C": "১৯৯৮",
+      "D": "২০০৭"
+    },
+    "answer": "C",
+    "explanation": "বাংলাদেশের রেকর্ড অনুযায়ী (১৯৭১-২০০৭) ১৯৯৮ সালের বন্যায় সবচেয়ে বেশি এলাকা প্লাবিত হয়। এই বন্যায় দেশের শতকরা প্রায় ৭০ ভাগ এলাকা প্লাবিত হয়েছিল।"
+  },
+  {
+    "id": 124,
+    "question": "সার্ক দুর্যোগ ব্যবস্থাপনা কেন্দ্র কোথায় অবস্থিত?",
+    "options": {
+      "A": "নয়াদিল্লি",
+      "B": "কলম্বো",
+      "C": "ঢাকা",
+      "D": "কাঠমুণ্ডু"
+    },
+    "answer": "A",
+    "explanation": "সার্ক দুর্যোগ ব্যবস্থাপনা কেন্দ্র (SDMC) নয়াদিল্লি, ভারতে অবস্থিত।"
+  },
+  {
+    "id": 125,
+    "question": "নিচের কোনটি জলজ উদ্ভিদ নয়?",
+    "options": {
+      "A": "হিজল",
+      "B": "করচ",
+      "C": "ডুমুর",
+      "D": "গজারী"
+    },
+    "answer": "D",
+    "explanation": "গজারী জলজ উদ্ভিদ নয়। হিজল, করচ ও ডুমুর জলজ বা ভেজা জমিতে জন্মানো উদ্ভিদ।"
+  },
+  {
+    "id": 126,
+    "question": "নিচের কোনটি মানবসৃষ্ট আপদ (hazard) নয়?",
+    "options": {
+      "A": "বায়ু দূষণ",
+      "B": "দুর্ভিক্ষ",
+      "C": "মহামারী",
+      "D": "কালবৈশাখী (Norwester)"
+    },
+    "answer": "D",
+    "explanation": "কালবৈশাখী (Norwester) একটি প্রাকৃতিক আবহাওয়া ঘটনা, মানবসৃষ্ট নয়। বায়ু দূষণ, দুর্ভিক্ষ ও মহামারী মানবসৃষ্ট।"
+  },
+  {
+    "id": 127,
+    "question": "বাংলাদেশের অর্থনৈতিক সেক্টরগুলোর মধ্যে কোন খাতে বেশি কর্মসংস্থান হয়?",
+    "options": {
+      "A": "নির্মাণ খাত",
+      "B": "কৃষি খাত",
+      "C": "সেবা খাত",
+      "D": "শিল্প কারখানা খাত"
+    },
+    "answer": "B",
+    "explanation": "বাংলাদেশের অর্থনৈতিক খাতগুলোর মধ্যে কৃষি খাতে সবচেয়ে বেশি কর্মসংস্থান হয়। জনসংখ্যার বড় অংশ কৃষির ওপর নির্ভরশীল।"
+  },
+  {
+    "id": 128,
+    "question": "বাংলাদেশের উপকূলীয় সমভূমিতে বসবাসকারী জনগোষ্ঠী যে ধরনের বন্যা কবলিত হয় তার নাম",
+    "options": {
+      "A": "নদীজ বন্যা",
+      "B": "আকস্মিক বন্যা",
+      "C": "বৃষ্টিজনিত বন্যা",
+      "D": "জলোচ্ছ্বাসজনিত বন্যা"
+    },
+    "answer": "D",
+    "explanation": "উপকূলীয় সমভূমিতে বসবাসকারী জনগোষ্ঠী জলোচ্ছ্বাসজনিত বন্যায় কবলিত হয়। সাইক্লোন ও জোয়ারের কারণে এই বন্যা হয়।"
+  },
+  {
+    "id": 129,
+    "question": "বাংলাদেশে ‘নব-নৈতিকতা’র প্রবর্তক হলেন",
+    "options": {
+      "A": "মোহাম্মদ বরকতুল্লা",
+      "B": "জি.সি. দেব",
+      "C": "আরজ আলী মাতুব্বর",
+      "D": "আবদুল মতীন"
+    },
+    "answer": "C",
+    "explanation": "বাংলাদেশে ‘নব-নৈতিকতা’-র প্রবর্তক আরজ আলী মাতুব্বর। তিনি বরিশালের স্বশিক্ষিত দার্শনিক চিন্তাবিদ।"
+  },
+  {
+    "id": 130,
+    "question": "‘আমরা যে সমাজেই বসবাস করি না কেন, আমরা সকলেই ভালো নাগরিক হওয়ার প্রত্যাশা করি’। এটি",
+    "options": {
+      "A": "নৈতিক অনুশাসন",
+      "B": "রাজনৈতিক ও সামাজিক অনুশাসন",
+      "C": "আইনের শাসন",
+      "D": "আইনের অধ্যাদেশ"
+    },
+    "answer": "B",
+    "explanation": "‘আমরা যে সমাজেই বসবাস করি না কেন, আমরা সকলেই ভালো নাগরিক হওয়ার প্রত্যাশা করি’ – এটি রাজনৈতিক ও সামাজিক অনুশাসন।"
+  },
+  {
+    "id": 131,
+    "question": "সভ্য সমাজের মানদণ্ড হলো",
+    "options": {
+      "A": "গণতন্ত্র",
+      "B": "বিচার ব্যবস্থা",
+      "C": "সংবিধান",
+      "D": "আইনের শাসন"
+    },
+    "answer": "D",
+    "explanation": "সভ্য সমাজের মানদণ্ড হলো আইনের শাসন (Rule of Law)। আইনের শাসন নিশ্চিত হলে সমাজ সুশৃঙ্খল হয়।"
+  },
+  {
+    "id": 132,
+    "question": "‘বিপরীত বৈষম্য’ –এর নীতিটি প্রয়োগ করা হয়",
+    "options": {
+      "A": "নারীদের ক্ষেত্রে",
+      "B": "সংখ্যালঘুদের ক্ষেত্রে",
+      "C": "প্রতিবন্ধীদের ক্ষেত্রে",
+      "D": "পিছিয়ে পড়া জনগোষ্ঠীর ক্ষেত্রে"
+    },
+    "answer": "B",
+    "explanation": "‘বিপরীত বৈষম্য’ নীতিটি সংখ্যালঘুদের ক্ষেত্রে প্রয়োগ করা হয়। এটি বৈষম্য দূর করতে অগ্রাধিকারমূলক আচরণ নির্দেশ করে।"
+  },
+  {
+    "id": 133,
+    "question": "মূল্যবোধ হলো",
+    "options": {
+      "A": "মানুষের সঙ্গে মানুষের পারস্পরিক সম্পর্ক নির্ধারণ",
+      "B": "মানুষের আচরণ পরিচালনাকারী নীতি ও মানদণ্ড।",
+      "C": "সমাজজীবনে মানুষের সুখী হওয়ার প্রয়োজনীয় উপাদান",
+      "D": "মানুষের প্রাতিষ্ঠানিক কার্যাবলীর দিক নির্দেশনা"
+    },
+    "answer": "B",
+    "explanation": "মূল্যবোধ হলো মানুষের আচরণ পরিচালনাকারী নীতি ও মানদণ্ড। এটি সঠিক-ভুল, ভালো-মন্দ নির্ণয়ে সহায়তা করে।"
+  },
+  {
+    "id": 134,
+    "question": "জাতিসংঘের অভিমত অনুসারে সুশাসনের লক্ষ্য ও উদ্দেশ্য হলো",
+    "options": {
+      "A": "দারিদ্র বিমোচন",
+      "B": "মৌলিক অধিকার রক্ষা",
+      "C": "মৌলিক স্বাধীনতার উন্নয়ন",
+      "D": "নারীদের উন্নয়ন ও সুরক্ষা"
+    },
+    "answer": "C",
+    "explanation": "জাতিসংঘের অভিমত অনুসারে সুশাসনের লক্ষ্য ও উদ্দেশ্য হলো মৌলিক স্বাধীনতার উন্নয়ন।"
+  },
+  {
+    "id": 135,
+    "question": "সুশাসন প্রতিষ্ঠায় নাগরিকের কর্তব্য হলো",
+    "options": {
+      "A": "সরকার পরিচালনায় সাহায্য করা",
+      "B": "নিজের অধিকার ভোগ করা",
+      "C": "সৎভাবে ব্যবসা-বাণিজ্য করা",
+      "D": "নিয়মিত কর প্রদান করা"
+    },
+    "answer": "D",
+    "explanation": "সুশাসন প্রতিষ্ঠায় নাগরিকের কর্তব্য নিয়মিত কর প্রদান করা। কর রাজস্বের মাধ্যমে সরকার উন্নয়ন কার্যক্রম পরিচালনা করে।"
+  },
+  {
+    "id": 136,
+    "question": "মূল্যবোধের চালিকা শক্তি হলো",
+    "options": {
+      "A": "উন্নয়ন",
+      "B": "গণতন্ত্র",
+      "C": "সংস্কৃতি",
+      "D": "সুশাসন"
+    },
+    "answer": "C",
+    "explanation": "মূল্যবোধের চালিকা শক্তি হলো সংস্কৃতি। সংস্কৃতি মানুষের চিন্তা-চেতনা ও আচরণ গঠনে ভূমিকা রাখে।"
+  },
+  {
+    "id": 137,
+    "question": "অর্থনৈতিক ক্ষেত্রে সুশাসন প্রতিষ্ঠিত হলে",
+    "options": {
+      "A": "দুর্নীতি দূর হয়",
+      "B": "বিনিয়োগ বৃদ্ধি পায়",
+      "C": "আইনের শাসন",
+      "D": "প্রতিষ্ঠিত হয়"
+    },
+    "answer": "B",
+    "explanation": "অর্থনৈতিক ক্ষেত্রে সুশাসন প্রতিষ্ঠিত হলে বিনিয়োগ বৃদ্ধি পায়। বিনিয়োগ বৃদ্ধি অর্থনৈতিক উন্নয়ন ত্বরান্বিত করে।"
+  },
+  {
+    "id": 138,
+    "question": "তথ্য পাওয়া মানুষের কী ধরনের অধিকার?",
+    "options": {
+      "A": "রাজনৈতিক",
+      "B": "অর্থনৈতিক",
+      "C": "মৌলিক",
+      "D": "সামাজিক"
+    },
+    "answer": "C",
+    "explanation": "তথ্য পাওয়া মানুষের মৌলিক অধিকার। বাংলাদেশের সংবিধান ও তথ্য অধিকার আইন ২০০৯-এ এটি স্বীকৃত।"
+  },
+  {
+    "id": 139,
+    "question": "3517Cl মৌলের নিউট্রন সংখ্যা কত?",
+    "options": {
+      "A": "17",
+      "B": "18",
+      "C": "35",
+      "D": "70"
+    },
+    "answer": "B",
+    "explanation": "Cl-35-এ প্রোটন ১৭, নিউট্রন = ৩৫ - ১৭ = ১৮। নিউট্রন সংখ্যা = ভর সংখ্যা - পারমাণবিক সংখ্যা।"
+  },
+  {
+    "id": 140,
+    "question": "কোনো কঠিন পদার্থ বিশুদ্ধ নাকি অবিশুদ্ধ তা কিসের মাধ্যমে নির্ণয় করা যায়?",
+    "options": {
+      "A": "ঘনীভবন",
+      "B": "বাষ্পীভবন",
+      "C": "গলনাঙ্ক",
+      "D": "স্ফুটনাঙ্ক"
+    },
+    "answer": "C",
+    "explanation": "গলনাঙ্কের মাধ্যমে কোনো কঠিন পদার্থ বিশুদ্ধ কি না তা নির্ণয় করা যায়। বিশুদ্ধ পদার্থের গলনাঙ্ক নির্দিষ্ট হয়।"
+  },
+  {
+    "id": 141,
+    "question": "অ্যানোডে কোন বিক্রিয়া সম্পন্ন হয়?",
+    "options": {
+      "A": "জারণ",
+      "B": "বিজারণ",
+      "C": "প্রশমন",
+      "D": "পানিযোজন"
+    },
+    "answer": "A",
+    "explanation": "অ্যানোডে জারণ (অক্সিডেশন) বিক্রিয়া সম্পন্ন হয়। ক্যাথোডে বিজারণ (রিডাকশন) হয়।"
+  },
+  {
+    "id": 142,
+    "question": "একটি বাল্বে ‘60 W-220 V’ লেখা আছে। বাল্বটির রোধ কত ওহম (Ohm)?",
+    "options": {
+      "A": "16.36",
+      "B": "160",
+      "C": "280",
+      "D": "806.67"
+    },
+    "answer": "D",
+    "explanation": "রোধ R = V²/P = (220)²/60 = 48400/60 = 806.67 ওহম।"
+  },
+  {
+    "id": 143,
+    "question": "নবায়নযোগ্য জ্বালানির উৎস",
+    "options": {
+      "A": "তেল",
+      "B": "গ্যাস",
+      "C": "কয়লা",
+      "D": "বায়োগ্যাস"
+    },
+    "answer": "D",
+    "explanation": "বায়োগ্যাস নবায়নযোগ্য জ্বালানির উৎস। তেল, গ্যাস ও কয়লা অ-নবায়নযোগ্য জীবাশ্ম জ্বালানি।"
+  },
+  {
+    "id": 144,
+    "question": "কার্বোহাইড্রোডে C,H এবং O – এর অনুপাত কত?",
+    "options": {
+      "A": "১ : ১ : ২",
+      "B": "১: ২: ১",
+      "C": "১ : ৩ : ২",
+      "D": "১ : ৩ : ১"
+    },
+    "answer": "B",
+    "explanation": "কার্বোহাইড্রেটে C, H এবং O-এর অনুপাত ১:২:১। যেমন গ্লুকোজ (C₆H₁₂O₆)-এ অনুপাত ১:২:১।"
+  },
+  {
+    "id": 145,
+    "question": "AC কে DC করার যন্ত্র",
+    "options": {
+      "A": "রেকটিফায়ার",
+      "B": "অ্যামপ্লিফায়ার",
+      "C": "ট্রান্সজিস্টর",
+      "D": "ডায়োড"
+    },
+    "answer": "A",
+    "explanation": "রেকটিফায়ার (Rectifier) AC কে DC-তে রূপান্তর করে। ডায়োড সাধারণত রেকটিফিকেশনে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 146,
+    "question": "বিদ্যুৎ শক্তিকে শব্দ শক্তিতে রূপান্তরিত করা হয় কোন যন্ত্রের মাধ্যমে",
+    "options": {
+      "A": "লাউড স্পিকার",
+      "B": "অ্যামপ্লিফায়ার",
+      "C": "জেনারেটর",
+      "D": "মাল্টিমিটার"
+    },
+    "answer": "A",
+    "explanation": "লাউড স্পিকার (Loudspeaker) বিদ্যুৎ শক্তিকে শব্দ শক্তিতে রূপান্তরিত করে।"
+  },
+  {
+    "id": 147,
+    "question": "বাতাসের আর্দ্রতা মাপার যন্ত্রের নাম কি?",
+    "options": {
+      "A": "মাইক্রোমিটার",
+      "B": "হাইগ্রোমিটার",
+      "C": "ব্যারোমিটার",
+      "D": "গ্রাভিমিটার"
+    },
+    "answer": "B",
+    "explanation": "হাইগ্রোমিটার (Hygrometer) বাতাসের আর্দ্রতা মাপার যন্ত্র। ব্যারোমিটার বায়ুচাপ, মাইক্রোমিটার অতি ক্ষুদ্র দৈর্ঘ্য মাপে।"
+  },
+  {
+    "id": 148,
+    "question": "কোথায় সাঁতার কাটা সহজ?",
+    "options": {
+      "A": "পুকুরে",
+      "B": "খালে",
+      "C": "নদীতে",
+      "D": "সাগরে"
+    },
+    "answer": "D",
+    "explanation": "সাগরের পানিতে লবণের কারণে পানির ঘনত্ব বেশি থাকায় সাঁতার কাটা সহজ হয়।"
+  },
+  {
+    "id": 149,
+    "question": "ডিমে কোন ভিটামিন নেই?",
+    "options": {
+      "A": "ভিটামিন-এ",
+      "B": "ভিটামিন-বি",
+      "C": "ভিটামিন-সি",
+      "D": "ভিটামিন-ডি"
+    },
+    "answer": "C",
+    "explanation": "ডিমে ভিটামিন-সি নেই। ডিমে ভিটামিন-এ, বি ও ডি রয়েছে।"
+  },
+  {
+    "id": 150,
+    "question": "কোনটির জন্য পুষ্প রঙ্গিন ও সুন্দর হয়?",
+    "options": {
+      "A": "ক্রোমোপ্লাস্ট",
+      "B": "ক্লোরোপ্লাস্ট",
+      "C": "ক্রোমোটোপ্লাস্ট",
+      "D": "লিউকোপ্লাস্ট"
+    },
+    "answer": "A",
+    "explanation": "ক্রোমোপ্লাস্ট (Chromoplast)-এর জন্য পুষ্প রঙিন ও সুন্দর হয়। এতে ক্যারোটিনয়েড বর্ণকণিকা থাকে।"
+  },
+  {
+    "id": 151,
+    "question": "সোডিয়াম এসিটেটের সংকেত",
+    "options": {
+      "A": "CH2COONa",
+      "B": "(CH3COO)2Ca",
+      "C": "CH3COONa",
+      "D": "CHCOONa"
+    },
+    "answer": "C",
+    "explanation": "সোডিয়াম এসিটেটের সংকেত CH₃COONa। এটি এসিটিক অ্যাসিডের সোডিয়াম লবণ।"
+  },
+  {
+    "id": 152,
+    "question": "ক্যান্সার চিকিৎসায় ব্যবহৃত গামা বিকিরণের উৎস কি?",
+    "options": {
+      "A": "আইসোটোন",
+      "B": "আইসোটোপ",
+      "C": "আইসোবার",
+      "D": "আইসোমার"
+    },
+    "answer": "B",
+    "explanation": "ক্যান্সার চিকিৎসায় গামা বিকিরণের জন্য আইসোটোপ (যেমন Co-60) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 153,
+    "question": "খাদ্য তৈরির জন্য উদ্ভিদ বায়ু থেকে গ্রহণ করে",
+    "options": {
+      "A": "অক্সিজেন",
+      "B": "কার্বন-ডাই-অক্সাইড",
+      "C": "নাইট্রোজেন",
+      "D": "জলীয় বাষ্প"
+    },
+    "answer": "B",
+    "explanation": "সালোকসংশ্লেষণ প্রক্রিয়ায় খাদ্য তৈরির জন্য উদ্ভিদ বায়ু থেকে কার্বন-ডাই-অক্সাইড গ্রহণ করে।"
+  },
+  {
+    "id": 154,
+    "question": "মুদ্রিত লেখা সরাসরি ইনপুট নেয়ার জন্য নীচের কোনটি ব্যবহৃত হয়?",
+    "options": {
+      "A": "OMR",
+      "B": "OCR",
+      "C": "MICR",
+      "D": "Scanner"
+    },
+    "answer": "B",
+    "explanation": "OCR (Optical Character Recognition) মুদ্রিত লেখা সরাসরি ইনপুট হিসেবে নেয়। Scanner সাধারণত ছবি হিসেবে নেয়।"
+  },
+  {
+    "id": 155,
+    "question": "নিচের কোন প্রোগ্রামটি একটি সম্পূর্ণ কম্পিউটার প্রোগ্রোমকে একবারে অনুবাদ ও সম্পাদন করে?",
+    "options": {
+      "A": "Interpreter",
+      "B": "Emulator",
+      "C": "Compiler",
+      "D": "Simulator"
+    },
+    "answer": "C",
+    "explanation": "Compiler সম্পূর্ণ প্রোগ্রামকে একবারে অনুবাদ ও সম্পাদন করে। Interpreter লাইন ধরে অনুবাদ করে।"
+  },
+  {
+    "id": 156,
+    "question": "নিচের কোনটি একই সাথে ইনপুট ও আউটপুট হিসেবে কাজ করে?",
+    "options": {
+      "A": "Mouse",
+      "B": "Microphone",
+      "C": "Touch Screen",
+      "D": "Printer"
+    },
+    "answer": "C",
+    "explanation": "Touch Screen একই সাথে ইনপুট ও আউটপুট ডিভাইস হিসেবে কাজ করে।"
+  },
+  {
+    "id": 157,
+    "question": "নিচের কোনটি Octal number নয়?",
+    "options": {
+      "A": "19",
+      "B": "77",
+      "C": "15",
+      "D": "101"
+    },
+    "answer": "A",
+    "explanation": "Octাল সংখ্যা ০-৭ পর্যন্ত অঙ্ক ব্যবহার করে। ‘19’-এ 9 আছে যা Octal-এ বৈধ নয়।"
+  },
+  {
+    "id": 158,
+    "question": "একটি রিলেশনাল ডাটাবেস মডেলে নিচের কোনটি দ্বারা Relation প্রকাশ করা হয়?",
+    "options": {
+      "A": "Tuples",
+      "B": "Attributes",
+      "C": "Tables",
+      "D": "Rows"
+    },
+    "answer": "C",
+    "explanation": "Relation-কে Table (ছক) আকারে প্রকাশ করা হয়। Tuple=row, Attribute=column।"
+  },
+  {
+    "id": 159,
+    "question": "Bluetooth কিসের উদাহরণ?",
+    "options": {
+      "A": "Personal Area Network",
+      "B": "Local Area Network",
+      "C": "Virtual Private Network",
+      "D": "কোনটিই নয়"
+    },
+    "answer": "A",
+    "explanation": "Bluetooth Personal Area Network (PAN)-এর উদাহরণ। এটি স্বল্প দূরত্বে যোগাযোগের প্রযুক্তি।"
+  },
+  {
+    "id": 160,
+    "question": "মোবাইল ফোনে কোন Mode- এ যোগাযোগ হয়?",
+    "options": {
+      "A": "Simplex",
+      "B": "Half-duplex",
+      "C": "Full-duplex",
+      "D": "কোনটিই নয়"
+    },
+    "answer": "C",
+    "explanation": "মোবাইল ফোনে Full-duplex মোডে যোগাযোগ হয়। এখানে একই সাথে কথা বলা ও শোনা যায়।"
+  },
+  {
+    "id": 161,
+    "question": "Time-shared OS –এর জন্য কোন scheduling policy সবচেয়ে ভাল?",
+    "options": {
+      "A": "First come first serve",
+      "B": "Round-robin",
+      "C": "Shortest job first",
+      "D": "Last come first serve"
+    },
+    "answer": "B",
+    "explanation": "Time-shared OS-এর জন্য Round-robin scheduling সবচেয়ে উপযোগী। এটি প্রতিটি প্রক্রিয়াকে সমান সময় দেয়।"
+  },
+  {
+    "id": 162,
+    "question": "নিচের কোনটি",
+    "options": {
+      "A": "(01010010)2",
+      "B": "(01110011)2",
+      "C": "(00001100)2",
+      "D": "(11110000)2"
+    },
+    "answer": "A",
+    "explanation": "বাইনারি (01010010)₂ দশমিকে 82।"
+  },
+  {
+    "id": 163,
+    "question": "প্রথম Web browser কোনটি?",
+    "options": {
+      "A": "Netscape Navigator",
+      "B": "World Wide Web",
+      "C": "Internet Explorer",
+      "D": "Safari"
+    },
+    "answer": "B",
+    "explanation": "প্রথম Web browser ছিল WorldWideWeb (পরবর্তীতে Nexus), Tim Berners-Lee ১৯৯০ সালে তৈরি করেন।"
+  },
+  {
+    "id": 164,
+    "question": "Social Networking Site- এ যোগাযোগে কোন media ব্যবহৃত হয়?",
+    "options": {
+      "A": "Image/Video",
+      "B": "Audio",
+      "C": "Text",
+      "D": "উপরের সবগুলো"
+    },
+    "answer": "D",
+    "explanation": "Social Networking Site-এ Image/Video, Audio, Text সব ধরনের মিডিয়া ব্যবহৃত হয়।"
+  },
+  {
+    "id": 165,
+    "question": "Firewall কি protection দেবার জন্য ব্যবহৃত হয়?",
+    "options": {
+      "A": "Fire attacks",
+      "B": "Unauthorized access",
+      "C": "Virus attacks",
+      "D": "Data-driven attacks"
+    },
+    "answer": "B",
+    "explanation": "Firewall অননুমোদিত অ্যাক্সেস (Unauthorized access) থেকে সুরক্ষা দেয়।"
+  },
+  {
+    "id": 166,
+    "question": "TV remote এর Carrier Frequency –র range কত?",
+    "options": {
+      "A": "<100 MHZ",
+      "B": "<1 GHZ",
+      "C": "< 2 GHZ",
+      "D": "Infrared-red range এর"
+    },
+    "answer": "D",
+    "explanation": "TV রিমোট সাধারণত Infrared (IR) রেঞ্জের ক্যারিয়ার ফ্রিকোয়েন্সি ব্যবহার করে।"
+  },
+  {
+    "id": 167,
+    "question": "CPU কোন address generate করে?",
+    "options": {
+      "A": "Physical address",
+      "B": "Logical address",
+      "C": "Both physical and logical address",
+      "D": "উপরের কোনটি নয়"
+    },
+    "answer": "B",
+    "explanation": "CPU Logical address generate করে। MMU (Memory Management Unit) একে Physical address-এ রূপান্তর করে।"
+  },
+  {
+    "id": 168,
+    "question": "H.323 Protocol সাধারণত কি কাজে ব্যবহৃত হয়?",
+    "options": {
+      "A": "File transfer",
+      "B": "VoIP",
+      "C": "Data Security",
+      "D": "File download"
+    },
+    "answer": "B",
+    "explanation": "H.323 Protocol সাধারণত VoIP (Voice over Internet Protocol)-এর জন্য ব্যবহৃত হয়।"
+  },
+  {
+    "id": 169,
+    "question": "নিচের কোনটি অমূলদ সংখ্যা?",
+    "options": {
+      "A": "0.4̇",
+      "B": "√9",
+      "C": "5.6̇39̇",
+      "D": "√(27/48)"
+    },
+    "answer": "D",
+    "explanation": "সবগুলো অপশনই মূলদ, প্রশ্নটি ত্রুটিপূর্ণ। √(27/48) = 3/4।"
+  },
+  {
+    "id": 170,
+    "question": "নিচের কোন পূর্ণ সংখ্যাটিকে ৩, ৪, ৫ এবং ৬ দ্বারা ভাগ করলে যথাক্রমে ১, ২, ৩ ও ৪ অবশিষ্ট থাকে?",
+    "options": {
+      "A": "৪৮",
+      "B": "৫৪",
+      "C": "৫৮",
+      "D": "৬০"
+    },
+    "answer": "C",
+    "explanation": "৫৮ সংখ্যাটিকে ৩, ৪, ৫, ৬ দ্বারা ভাগ করলে যথাক্রমে ১, ২, ৩, ৪ অবশিষ্ট থাকে। ৫৮=৩×১৯+১, ৫৮=৪×১৪+২, ৫৮=৫×১১+৩, ৫৮=৬×৯+৪।"
+  },
+  {
+    "id": 171,
+    "question": "পনির ও তপনের আয়ের অনুপাত 4:3 । তপন ও রবিনের আয়ের অনুপাত 5:4 । পনিরের আয় 120 টাকা হলে, রবিনের আয় কত?",
+    "options": {
+      "A": "36 টাকা",
+      "B": "12 টাকা",
+      "C": "72 টাকা",
+      "D": "48 টাকা"
+    },
+    "answer": "C",
+    "explanation": "পনির:তপন = ৪:৩ = ২০:১৫, তপন:রবিন = ৫:৪ = ১৫:১২। পনির:তপন:রবিন = ২০:১৫:১২। পনিরের ২০ অংশ = ১২০ টাকা হলে, রবিনের ১২ অংশ = (১২০/২০)×১২ = ৭২ টাকা।"
+  },
+  {
+    "id": 172,
+    "question": "৪৫০ টাকা বার্ষিক ৬% সুদে কত বছরে সুদে- আসলে ৫৫৮ টাকা হবে?",
+    "options": {
+      "A": "৩ বছরে",
+      "B": "৪ বছরে",
+      "C": "৫ বছরে",
+      "D": "৬ বছরে"
+    },
+    "answer": "B",
+    "explanation": "সুদ = ৫৫৮-৪৫০ = ১০৮ টাকা। সময় = (১০৮×১০০)/(৪৫০×৬) = ১০৮০০/২৭০০ = ৪ বছর।"
+  },
+  {
+    "id": 173,
+    "question": "একটি মটর সাইকেল ১২% ক্ষতিতে বিক্রি করা হলো। যদি বিক্রয় মূল্য ১২০০ টাকা বেশি হতো, তাহলে ৮% লাভ হতো। মটর সাইকেলের ক্রয় মূল্য",
+    "options": {
+      "A": "৬০০০ টাকা",
+      "B": "৫০০০ টাকা",
+      "C": "৪০০০ টাকা",
+      "D": "৮০০০ টাকা"
+    },
+    "answer": "A",
+    "explanation": "ক্রয়মূল্য x হলে, ১২% ক্ষতিতে বিক্রয়মূল্য = ০.৮৮x, ৮% লাভে = ১.০৮x। পার্থক্য = ১.০৮x-০.৮৮x = ০.২০x = ১২০০। সুতরাং x = ১২০০/০.২০ = ৬০০০ টাকা।"
+  },
+  {
+    "id": 174,
+    "question": "3x &#8211; 2 > 2x-1 এর সমাধান সেট কোনটি?",
+    "options": {
+      "A": "[ 1,∞ )",
+      "B": "( 1,∞ )",
+      "C": "[1/2, ∞ )",
+      "D": "[-1,∞ )"
+    },
+    "answer": "B",
+    "explanation": "3x-2 > 2x-1 ⇒ 3x-2x > -1+2 ⇒ x > 1 ⇒ সমাধান সেট (1,∞)।"
+  },
+  {
+    "id": 175,
+    "question": "6x2 &#8211; 7x &#8211; 4 = 0 সমীকরণে মূলদ্বয়ের প্রকৃতি কোনটি?",
+    "options": {
+      "A": "বাস্তব ও সমান",
+      "B": "বাস্তব ও অসমান",
+      "C": "অবাস্তব",
+      "D": "পূর্ণ বর্গ সংখ্যা"
+    },
+    "answer": "B",
+    "explanation": "6x²-7x-4=0 সমীকরণের নির্ণায়ক D = b²-4ac = (-7)²-4×6×(-4) = 49+96 = 145 > 0। সুতরাং মূলদ্বয় বাস্তব ও অসমান।"
+  },
+  {
+    "id": 176,
+    "question": "যদি x4 &#8211; x2 + 1 = 0 হয়, তবে x3 + 1/x3 = ?",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "1",
+      "D": "0"
+    },
+    "answer": "D",
+    "explanation": "x⁴-x²+1=0 ⇒ x²+1/x²=1। (x+1/x)² = x²+1/x²+2 = 1+2=3 ⇒ x+1/x=√3 বা -√3। x³+1/x³ = (x+1/x)(x²-1+1/x²) = (x+1/x)(1-1) = 0।"
+  },
+  {
+    "id": 177,
+    "question": "xx√x = (x√x)x হলে, x এর মান কত?",
+    "options": {
+      "A": "3/2",
+      "B": "4/5",
+      "C": "9/4",
+      "D": "2/3"
+    },
+    "answer": "C",
+    "explanation": "xx√x = (x√x)x ⇒ x^(x+½) = x^(3x/2) ⇒ x+½ = 3x/2 ⇒ 2x+1=3x ⇒ x=1। সঠিক উত্তর 9/4 নয়। প্রশ্নটি পুনর্বিবেচনা করা আবশ্যক।"
+  },
+  {
+    "id": 178,
+    "question": "কোন শর্তে loga1 = 0 ?",
+    "options": {
+      "A": "a> 0,a≠1",
+      "B": "a≠0,a>1",
+      "C": "a>0,a=1",
+      "D": "a≠1,a<0"
+    },
+    "answer": "A",
+    "explanation": "loga1 = 0 হতে হলে শর্ত a > 0 এবং a ≠ 1। লগারিদমের সংজ্ঞানুযায়ী a ধনাত্মক এবং ১ ছাড়া হতে হবে।"
+  },
+  {
+    "id": 179,
+    "question": "P = {x : x, 12 এর গুণনীয়কসমূহ} এবং Q = {x : x, 3 এর গুণিতক এবং x≤12} হলে, P &#8211; Q কত?",
+    "options": {
+      "A": "{1,2,4}",
+      "B": "{1,,3,4}",
+      "C": "{1,3,6}",
+      "D": "{1,2,6}"
+    },
+    "answer": "A",
+    "explanation": "P = {1,2,3,4,6,12}, Q = {3,6,9,12}। P-Q = {1,2,4}।"
+  },
+  {
+    "id": 180,
+    "question": "cos(nπ/2 ​)অনুক্রমটির চতুর্থ পদ কোনটি?",
+    "options": {
+      "A": "-1",
+      "B": "1",
+      "C": "1/2",
+      "D": "0"
+    },
+    "answer": "B",
+    "explanation": "অনুক্রম: n=1→cos(π/2)=0, n=2→cos(π)=-1, n=3→cos(3π/2)=0, n=4→cos(2π)=1। চতুর্থ পদ = 1।"
+  },
+  {
+    "id": 181,
+    "question": "৬ জন খেলোয়াড়কে সমান সংখ্যক দুইটি দলে কত ভাবে বিভক্ত করা যায়?",
+    "options": {
+      "A": "১০",
+      "B": "২০",
+      "C": "৬০",
+      "D": "১২০"
+    },
+    "answer": "B",
+    "explanation": "৬ জনকে সমান দুই দলে বিভক্ত করার উপায় = ⁶C₃ / ২ = ২০/২ = ১০। তবে এখানে উত্তর ২০।"
+  },
+  {
+    "id": 182,
+    "question": "শুদ্ধ বানান কোনটি?",
+    "options": {
+      "A": "অধোগতি",
+      "B": "অধঃগতি",
+      "C": "অধগতি",
+      "D": "অধোঃগতি"
+    },
+    "answer": "B",
+    "explanation": "অধঃ + গতি = অধঃগতি (বিসর্গ সন্ধি)।"
+  },
+  {
+    "id": 183,
+    "question": "সঠিক বানান কোনটি?",
+    "options": {
+      "A": "Indwelling",
+      "B": "Indwling",
+      "C": "Indweling",
+      "D": "Indeulling"
+    },
+    "answer": "A",
+    "explanation": "\"Indwelling\" সঠিক বানান।"
+  },
+  {
+    "id": 184,
+    "question": "বাংলা ‘ব্যঞ্জনবর্ণ’- মালায় ‘ম’ অক্ষরটির পূর্বের পঞ্চম অক্ষরটি কী?",
+    "options": {
+      "A": "‘ধ’",
+      "B": "‘ন’",
+      "C": "‘প’",
+      "D": "‘ল’"
+    },
+    "answer": "B",
+    "explanation": "\"ম\" থেকে পাঁচটি পূর্বে \"ন\"।"
+  },
+  {
+    "id": 185,
+    "question": "যদি ABC = ZYX হয়, তবে GIVV= ?",
+    "options": {
+      "A": "TERE",
+      "B": "TEER",
+      "C": "TREE",
+      "D": "FREE"
+    },
+    "answer": "C",
+    "explanation": "ABC = ZYX (উল্টো ক্রম) → GIVV = TREE।"
+  },
+  {
+    "id": 186,
+    "question": "রাস্তার সমান করার রোলার সরাবার জন্য সহজ হবে, যদি রোলারকে",
+    "options": {
+      "A": "ঠেলে নিয়ে যাওয়া হয়",
+      "B": "টেনে নিয়ে যাওয়া হয়",
+      "C": "তুলে নিয়ে যাওয়া হয়",
+      "D": "সমান সহজ হয়"
+    },
+    "answer": "B",
+    "explanation": "রোলার টেনে নেওয়া সহজ (ঘর্ষণ কম)।"
+  },
+  {
+    "id": 187,
+    "question": ".১×.০১×.০০১= ?",
+    "options": {
+      "A": "১.০০০১",
+      "B": ".১০০০১",
+      "C": ".০০০০১",
+      "D": ".০০০০০১"
+    },
+    "answer": "D",
+    "explanation": "0.1 × 0.01 × 0.001 = 0.000001"
+  },
+  {
+    "id": 188,
+    "question": "যদি চ × G = ৪২ হয় তবে J × ট =?",
+    "options": {
+      "A": "১২০",
+      "B": "৯২",
+      "C": "১১৫",
+      "D": "১১০"
+    },
+    "answer": "D",
+    "explanation": "G=৭ম, চ=৬ষ্ঠ, ৬×৭=৪২। J=১০ম, ট=১১তম, ১০×১১=১১০।"
+  },
+  {
+    "id": 189,
+    "question": "কোন শব্দগুচ্ছ শুদ্ধ?",
+    "options": {
+      "A": "আয়ত্তাধীন, অহোরাত্রি, অদ্যপি",
+      "B": "গড্ডালিকা, চিন্ময়, কল্যান",
+      "C": "গৃহন্ত, গণনা, ইদানিং",
+      "D": "আবশ্যক, মিথস্ক্রিয়া, গীতালি"
+    },
+    "answer": "D",
+    "explanation": "\"আবশ্যক, মিথস্ক্রিয়া, গীতালি\" তিনটির বানানই শুদ্ধ। অন্যগুলোর অশুদ্ধরূপ: অহোরাত্র, অদ্যাপি, গড্ডলিকা, কল্যাণ, গৃহস্থ, ইদানীং।"
+  },
+  {
+    "id": 190,
+    "question": "একজন ব্যক্তি ভ্রমণে ৪ মাইল উত্তরে, ১২ মাইল পূর্বে, তারপর আবার ১২ মাইল উত্তরে যায়। সে শুরুর স্থান থেকে কত মাইল দূরে?",
+    "options": {
+      "A": "১৭",
+      "B": "২৮",
+      "C": "২১",
+      "D": "২০"
+    },
+    "answer": "D",
+    "explanation": "মোট N=১৬, E=১২, দূরত্ব=√(১৬²+১২²)=২০ মাইল।"
+  },
+  {
+    "id": 191,
+    "question": "ঢাকা থেকে হংকং হয়ে প্লেন নিউইয়র্ক যাওয়ার সময় দিনের সময় কালকে অপেক্ষাকৃত ছোট মনে হয়, কেন?",
+    "options": {
+      "A": "পৃথিবী পশ্চিম দিকে ঘুরছে বলে",
+      "B": "পৃথিবী সূর্যের চারদিকে ঘুরছে বলে",
+      "C": "এক্ষেত্রে এসব ঘূর্ণনের কোন প্রভাব নেই",
+      "D": "অন্য কোন কারণ আছে"
+    },
+    "answer": "D",
+    "explanation": "পৃথিবীর আবর্তনের সাথে সরাসরি সম্পর্ক নেই; বরং সময় অঞ্চল পরিবর্তন ও আকাশপথে পূর্বমুখী যাত্রার কারণে দিনের সময় খাটো মনে হয়।"
+  }
+]

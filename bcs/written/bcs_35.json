@@ -1,0 +1,873 @@
+{
+  "year": 35,
+  "subjects": [
+    {
+      "name": "বাংলা",
+      "code": "০০১",
+      "fullMarks": 200,
+      "time": "৪ ঘণ্টা",
+      "questions": [
+        {
+          "number": 1,
+          "text": "নিচের প্রশ্নগুলোর উত্তর লিখুন:- ৬Í৫ = ৩০ কিস্তি, পুলটিক্স, টোপর, সোহাগ, পাপড়, ভাত। হরি ঘোষের গোয়াল; ঘুঁটে পোড়ে গোবর হাসে; চিত্রগুপ্তের খাতা; ওঝার ব্যাটা বনগুরু; শিখণ্ডী খাড়া করা; থোর বড়ি খাঁড়���, খাঁড়া বুড়ি থোর। (অ) যেমন কর্ম করবে, তেমন ফল পাবে। (সরল) (আ) সন্ধ্যা হয়ে এলো কিন্তু ট্রেনের খোঁজ নেই এখনো। (জটিল) (ই) পনের মিনিট পর তিনি এলেন। (যৌগিক) (ঈ) পুকুরপাড়ে এখন কেউ নেই। (অস্তিবাচক) (উ) কোথাও কি তিনি আছেন? (নেতিবাচক) (ঊ) গোলাপটি অত্যন্ত সুন্দর! (বিস্ময়সূচক)",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "বাংলা ভাষায় শব্দ গঠনের প্রক্রিয়াগুলো কী কী? উদাহরণ সহ প্রক্রিয়াগুলো ব্যাখ্যা করুন।"
+            },
+            {
+              "label": "খ",
+              "text": "বাংলা একাডেমি প্রণীত প্রমিত বাংলা বানানরীতি অনুসারে অ-তৎসম শব্দের ৬টি নিয়ম উদাহরণসহ লিখুন।"
+            },
+            {
+              "label": "গ",
+              "text": "নিচের শব্দগুলোর উৎস গত পরিচয় লিখুনঃ"
+            },
+            {
+              "label": "ঘ",
+              "text": "প্রবাদ-প্রবচনের নিহিতার্থ লিখুনঃ"
+            },
+            {
+              "label": "ঙ",
+              "text": "নিচের বাক্যগুলোর নির্দেশ অনুসারে রূপান্তর করুনঃ"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "ভাব-সম্প্রসারণ করুন:- ২০ অথবা,",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "যে আমির মধ্যে তুমি নেই, আর যে-তুমির মধ্যে আমি নেই- দুই-ই আমার পক্ষে সমান।"
+            },
+            {
+              "label": "খ",
+              "text": "স্মরণের আবরণে মরণের যত্নে রাখে ঢাকি।"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "সারমর্ম লিখুন:- ২০ চুনি উঠল রাঙা হয়ে। আমি চোখ মেললুম আকাশে- জ্বলে উঠল আলো পুবে পশ্চিমে। গোলাপের দিকে চেয়ে বললুম ‘সুন্দর’- সুন্দর হল সে। অথবা,",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "আমারই চেতনার রঙে পান্না হলো সবুজ,"
+            },
+            {
+              "label": "খ",
+              "text": "প্রতিদিনের এই যে পৃথিবী আমার কাছে জীর্ণ, অভ্যস্ত প্রভাত আমার কাছে ম্লান। কবে এরাই আমার কাছে নবীন ও উজ্জ্বল হয়ে ওঠে? যেদিন প্রেমের দ্বারা আমার চেতনা নবশক্তিতে জাগ্রত হয়। যাকে ভালোবাসি আজ তার সঙ্গে দেখা হবে এই কথা স্মরণ হলে কাল যা কিছু শ্রীহীন ছিল আজ সেই সমস্তই সুন্দর হয়ে উঠে। প্রেমের দ্বারা চেতনা যে পূর্ণশক্তি লাভ করে সেই পূর্ণতার দ্বারাই সে সীমার মধ্যে অসীমকে, রূপের মধ্যে অপরূপকে দেখতে পায়; তাকে নূতন কোথাও যেতে হয় না। ঐ অভাবটুকুর দ্বারাই অসীম সত্য তার কাছে সীমাবদ্ধ হয়েছিল।"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "নিচের প্রশ্নগুলো সংক্ষিপ্ত উত্তর দিন:- ৩Í১০ = ৩০",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "চর্যাপদের ভাষা নিয়ে বিদ্যমান বিতর্ক সম্পর্কে আপনার ধারণা লিখুন।"
+            },
+            {
+              "label": "খ",
+              "text": "বাংলা সাহিত্যে শ্রীচৈতন্য দেবের ভূমিকা পর্যালোচনা করুন।"
+            },
+            {
+              "label": "গ",
+              "text": "বৈষ্ণব পদাবলি ধারায় বিদ্যপতির বিশেষত্ব ব্যাখ্যা করুন।"
+            },
+            {
+              "label": "ঘ",
+              "text": "বাংলা সাহিত্যের ইতিহাসে রোসাঙ্গ রাজসভার প্রাসঙ্গিকতা পর্যালোচনা করুন।"
+            },
+            {
+              "label": "ঙ",
+              "text": "রবীন্দ্র-ছোটগল্প ভুক্ত তিনটি নারী চরিত্রের পরিচয় দিন।"
+            },
+            {
+              "label": "চ",
+              "text": "‘বিষাদ-সিন্ধু’র ঐতিহাসিকতা সম্পর্কে আলোকপাত করুন।"
+            },
+            {
+              "label": "ছ",
+              "text": "বাংলা সাহিত্যে ‘কল্লোল যুগ’ সম্পর্কে ধারণা দিন।"
+            },
+            {
+              "label": "জ",
+              "text": "মুক্তিযুদ্ধভিত্তিক একটি বাংলা নাটকের মূল্যায়ন করুন।"
+            },
+            {
+              "label": "ঝ",
+              "text": "সাম্প্রতিক বাংলাদেশে লোকধারার গানের জনপ্রিয়তা ব্যাখ্যা করুন।"
+            },
+            {
+              "label": "ঞ",
+              "text": "বাংলাদেশের সাহিত্য নির্ভর চলচ্চিত্র সম্পর্কে আপনার ধারণা ব্যক্ত করুন।"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "বাংলায় অনুবাদ করুন: ১৫ Tsunami is a Japanese word that means “harbor wave”. It is in harbors that tsunamis do the most damage. We sometimes call tsunamis tidal waves, though they’re not caused by tides. Oceanographers call tsunamis seismic sea waves. Whatever their name, those who have lived through them call them killers. What actually is a tsunami? It’s a wave of water that sometimes follows earthquakes, volcanic eruptions, or underwater landslides. Not all tsunamis are large or destructive. In fact, if you were out to sea, a tsunami could pass under your boat and you would hardly notice. That’s because the ocean bottom is so deep. But as the wave gets closure to land, the ocean becomes shallower and begins to cause the wave to crest. Some tsunamis can top 100 feet by the time they reach shore. The largest tsunami ever measured was 212 feet high."
+        },
+        {
+          "number": 6,
+          "text": "১০ বছরের একটি ছেলে হারিয়ে গেছে। ছেলেটির বাবা-মা গেছেন থানায়। পুলিশ মামলা নিতে চাইছে না। ছেলেটিকে বাবা-মা এবং একজন পুলিশ কর্মকর্তার চরিত্র অবলম্বন করে এই পরিস্থিতির উপযুক্ত সংলাপ রচনা করুন। ১৫"
+        },
+        {
+          "number": 7,
+          "text": "(ক) বাঙালি সংস্কৃতির উন্নয়নে গণমাধ্যমের করণীয় সম্পর্কে পরামর্শ দিয়ে পত্রিকায় প্রকাশের জন্য একটি প্রতিবেদন রচনা করুন। ১৫ অথবা,",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "একটি বেসরকারী প্রতিষ্ঠানে প্রকল্প কর্মকর্তা পদে নিয়োগ প্রাপ্তির জন্য জীবনবৃত্তান্তসহ একটি আবেদন পত্র লিখুন।"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "text": "সম্প্রতি প্রকাশিত ভাষা আন্দোলন বা মুক্তিযুদ্ধভিত্তিক একটি গ্রন্থের সমালোচনা লিখুন। ১৫"
+        },
+        {
+          "number": 9,
+          "text": "যে কোন একটি বিষয়ে প্রবন্ধ করুন:- ৪০ ৩৫তম বিসিএস লিখিত পরীক্ষার প্রশ্ন",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "দেশাত্মবোধ;"
+            },
+            {
+              "label": "খ",
+              "text": "বাংলাদেশের পর্যটন শিল্প;"
+            },
+            {
+              "label": "গ",
+              "text": "বার্ধক্য ও বৃদ্ধাশ্রম;"
+            },
+            {
+              "label": "ঘ",
+              "text": "সড়ক দূর্ঘটনা;"
+            },
+            {
+              "label": "ঙ",
+              "text": "যেদিন সবকিছু গোলমেলে।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "English",
+      "code": "003",
+      "fullMarks": 200,
+      "time": "4 hours",
+      "questions": [
+        {
+          "number": 1,
+          "text": "Read the following passage and answer question Nos. 1 – 7:- The Tk. 32.48bn Development Project Proposal (DPP) for Bangabandhu 1, the first satellite of Bangladesh, is ready for being placed before the highest economic policy making body, Executive Committee of the National Economic Council (ECNEC). The Bangladesh Telecommunication Regulatory Commission (BTRC) has already finalised the proposal from its end and would initiate buying “orbital slot” for the satellite once ECNEC gives approval. The BTRC will purchase an orbital slot on 119 degree East from Intersputnik, a renowned Russian company, at a cost of $28m (Tk. 217.7bn) with a single lifetime of 15 years. Initially, the BTRC applied for a slot on 102 degree East to the International Telecommunication Union (ITU). However, nearly 20 countries including the USA, Russia, France and Australia raised objections that their satellite communication would be disrupted if Bangladesh was given that slot. Out of the proposed DPP cost of Tk. 32.48bn, the government will bear Tk. 15.60bn from its own funds. Of the Tk. 15.604bn the government allocated Tk. 6.91bn in the previous fiscal, Tk. 3.49bn for the ongoing (2013-14) fiscal, and the remaining Tk. 5.02bn for the next (2014-15). The other half of the project cost, that is Tk. 16.883bn, will be funded by a supplier’s credit from the Export-Import Bank of USA. Earlier, the Export-Import of USA sent a proposal to the government through the BTRC for funding the project at less than 2% interest. The government had decided to launch the satellite under Public-Private Partnership (PPP) scheme in order to ensure impeccable maintenance after the launch. According to documents, the project commenced on July1 this year and will end on June 30, 2016. The telecom regulator has chosen Betbunia of Chittagong and the BTCL Staff College in Gazipur for setting up two earth stations for the satellite. There will also be a maintenance office at the BTRC building. Sources said after purchasing the orbital slot for the Bangabandhu 1, the government would try to book two more slots in advance on 102 degree East and 69 degree East for lunching two more satellites in the future. The government has also reportedly shown interest in purchasing the 135 degree East slot from the ITU, although its location was far away from Bangladesh’s coverage. “A single satellite will never be viable for business. We need to launch at least one more satellite for getting benefitted and making profits,” BTRC chairman Sunil Kanti Bose said. Figures show that Bangladesh spends around $11m annually on satellite rents for running television channels, telephones and radio connectivity. A successful launching of the satellite is likely to bring $50m annually by renting out the unused portion to neighbouring countries like Nepal, Bhutan and Myanmar. Fifty countries in the world at present have satellites of their own. India and Pakistan are the only countries in the subcontinent with satellites. Sri Lanka is also in the middle of a process for launching one of its own. Answer the question below. Do not copy any sentence from the passage above. Write the answers in your own sentence having your wording and phrasing:- 3Í10 =30 f) Which of the SAARC countries does not have satellites? g) Which country is providing Bangladesh with the technological know-how? h) What is the name of the project that ECNEC will consider? i) According to documents, how much time is required for the completion of the project? j) Give a title to this news item. Write meaning of the following five words used in the passage. The meaning are provided in the box below. There are more than five words in the box. Choose the appropriate meaning:- 1Í5 =5 monetaryimpartialinitiateinterruptnichefaultlessmethoddiscontinueannual Fill in the table by putting words in the empty cells according to their parts of speech:- 1Í5 =5 NounVerbAdjective(a)Xrenownedregulator(b)(c)(d)Xviablerent(e)X Correct the following run-ons by using appropriate subordinates (such as, although, because after, as, while, etc):- 2Í5 =10 Use appropriate capitalization, punctuation and quotation marks where required:- 5Í2 =10 however, he did not confirm it. Summarize the passage in your own words in 100 words. 20 Write a letter to the Editor of the newspaper in which the passage appeared as a feature, responding to the news on Bangabandhu 1. 20",
+          "subQuestions": [
+            {
+              "label": "a",
+              "text": "Why could Bangladesh not stick to its original plan of acquiring 102 degree East to ITU slot?"
+            },
+            {
+              "label": "b",
+              "text": "How has the government planned to fund the project?"
+            },
+            {
+              "label": "c",
+              "text": "What are the two plans for making Bangabandhu 1 commercially feasible?"
+            },
+            {
+              "label": "d",
+              "text": "Name the proposed sites of operation for the satellite."
+            },
+            {
+              "label": "e",
+              "text": "What scheme of maintenance has the government undertaken?"
+            },
+            {
+              "label": "a",
+              "text": "impeccable"
+            },
+            {
+              "label": "b",
+              "text": "fiscal"
+            },
+            {
+              "label": "c",
+              "text": "launch"
+            },
+            {
+              "label": "d",
+              "text": "slot"
+            },
+            {
+              "label": "e",
+              "text": "disrupt"
+            },
+            {
+              "label": "a",
+              "text": "Sri Lanka is in the middle of a process for launching a satellite of its own, Bangladesh must not waste time."
+            },
+            {
+              "label": "b",
+              "text": "Bangladesh was given slot, more than twenty countries opposed."
+            },
+            {
+              "label": "c",
+              "text": "The American Bank declined the suppliers-credit, the financial plan must be reviewed."
+            },
+            {
+              "label": "d",
+              "text": "BTRC forwarded the proposal, ECNEC approved the budget."
+            },
+            {
+              "label": "e",
+              "text": "Bangladesh will become the 51st country to have a satellite, the project is successful."
+            },
+            {
+              "label": "a",
+              "text": "Yesterday, Bose said This afternoon ecnec will table the development project proposal;"
+            },
+            {
+              "label": "b",
+              "text": "This news was published, in the Dhaka tribune, on January 4, 2014."
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Write an essay in about 1000 words on any one of the following topics: 50 Translate the following passage into Bangla:- 25 It was the best of times; it was the worst of times; it was the age of wisdom; it was the age of foolishness; it was the epoch of belief; it was the epoch of incredulity; it was the season of Light; it was the season of Darkness; it was the spring of hope; it was the winter of despair. We had everything before us; we had nothing before us; we were all going direct to Heaven; we were all going direct the other way-in short, the period was so far like the present one in which the noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison. Translate the following passage into English:- 25 ষাটোর্ধ্ব মুক্তিযোদ্ধা স্বর্ণলতা ফলিয়া কাজ করছেন বীরাঙ্গনাদের সংগঠিতকরণ ও পুনর্বাসনের। ৮ নম্বর সেক্টরের এই মুক্তিযোদ্ধা হেমায়েত বাহিনীর অধীনে যুদ্ধ করেছেন। নারিকেলবাড়ী ক্যাম্প থেকে প্রশিক্ষণ নিয়ে মহিলা মুক্তিযোদ্ধা সংগ্রহের পাশাপাশি নিজেও অনেক সশস্ত্র যুদ্ধে অংশ নেন। এরপর দেশ স্বাধীন হলে বীরাঙ্গনাদের পুনর্বাসনের কার্যক্রম শুরু করে। সেই থেকে দেশের বিভিন্ন অঞ্চলের ৩৬জন বীরাঙ্গনাকে একত্র করে তাদের চিকিৎসা, চাকরি এবং অধিকার আদায়ের কাজে নিজেকে নিয়োজিত রেখেছেন স্বর্ণলতা। স্বর্ণলতা জন্ম ১৯৫৪ সালের ৬ই অক্টোবর গোপালগঞ্জ জেলার কোটালীপাড়া উপজেলার সোনাইলবাড়ী গ্রামে। কৃষক বাবা নিশিকান্ত ফলিয়া ও মা মারিয়া ফলিয়ার সাত সন্তানের মধ্যে তিনি পঞ্চম। কোটালিপাড়া উপজেলার নারকেলবাড়ী মিশনারি স্কুলের ৯ম শ্রেণীতে পড়ার সময় দেশে বেজে উঠে যুদ্ধের দামামা। একদিন আশালতা বৈদ্য এসে বললেন, “দেশে যুদ্ধ শুরু হচ্ছে, আমিতো যুদ্ধ করবো। তোরা কে কে আমার সাথে যুদ্ধে যাবি।”- এ কথা শুনে স্বর্ণলতা চুপ থাকতে পারেনি। এক কথায় রাজী হয়ে গেলেন। আশালতা বৈদ্যের সাথে যুদ্ধের ট্রেনিং নেয়ার আগে সহপাঠী বন্ধুরা মিলে এলাকায় ঘুরতেন আর মহিলা মুক্তিযোদ্ধা জোগাড় করতেন। আর সুযোগ পেলেই বন্ধুদের সাথে ঘরের মা-বোনদের নিয়ে “অস্ত্র ধরো, স্বাধীন বাংলা রক্ষা করো” স্লোগান দিতেন। পরবর্তী সময়ে আরো ৩০ জন সদস্য নিয়ে তিনি হেমায়েত বাহিনীর কাছ থেকে অস্ত্র চালনার প্রশিক্ষণ গ্রহণ করেন। যুদ্ধে বেশ কয়েকটি অপারেশনে অংশ নিলেও দু’টি অপারেশন ছিলো উল্লেখযোগ্য। এর একটিতে পাকবাহিনীর বেশ কয়েকটি লঞ্চ ডুবিয়ে দিয়েছিলেন। আর একটি অপারেশন করেছিলেন নদীতে। সেই অপারেশনে তাঁর পাশে থাকা দুই মুক্তিযোদ্ধা শহীদ হন, বীরবিক্রম হেমায়েত উদ্দিনের গালে গুলি লাগে। অল্পের জন্য সেদিন প্রাণে বেঁচে গেলেও আহত হয়েছিলেন স্বর্ণলতা। স্বাধীনতা পরবর্তী সময়ে আর্থিক অভাব-অনটনের কারণে ঢাকা মেডিক্যালের কাছাকাছি কাজের সন্ধান করতে থাকেন। ঘটনাচক্রে পঙ্গু মুক্তিযোদ্ধা ও বীরাঙ্গনাদের সহযোগীতা করার কারণেই মেডিক্যালেই দু’বেলা দু’মুঠো খাবারের ব্যবস্থা হয়ে যায়। বঙ্গবন্ধু যখন বীরাঙ্গনাদের পুনর্বাসের ব্যবস্থা করেন, স্বর্ণলতা তখন রাস্তা ও অন্যান্য জায়গা থেকে বীরাঙ্গনাদের নিয়ে আসতেন ঢাকা ও নারায়নগঞ্জের পুর্নবাসন কেন্দ্র গুলোতে। পরবর্তী সময়ে যখন বীরাঙ্গনাগণ পুনর্বাসন কেন্দ্র ত্যাগ করেন, তখনো তিনি তাদের সাহায্য করার চেষ্টা করেছেন। বিভিন্ন অফিস-আদালত ও মন্ত্রণালয়ে ঘোরাঘুরি করে বীরাঙ্গনাদের চাকরির চেষ্টা যেমন করেছেন, তেমন করেছেন তাঁদের চিকিৎসা সহ অন্যান্য অধিকার আদায়ের লক্ষ্যে কাজ। অন্যের কষ্টকে যিনি নিজের কষ্ট মনে করে তাঁদের পাশে দাঁড়িয়েছেন, অন্ন-বস্ত্র-বাসস্থানের ব্যবস্থা করেছেন, বীরাঙ্গনাদের সেই পরম সতীর্থ মুক্তিযোদ্ধা স্বর্ণলতা ফলিয়া নিজের সুখ-আহলাদ ও অধিকার নিয়ে ভাবেননি। একমাত্র মেয়েকে গ্র্যাজুয়েট করিয়েছেন যাতে তাঁর মেয়ে নিজের ও অপরের অবলম্বন হতে পারেন। আজ অবধি কোন সরকারী স্বীকৃতি না পাওয়া স্বর্ণলতা বাস করেন তেজগাঁও বস্তির ঘিঞ্জি এক ঘরে। মুক্তিযোদ্ধা স্বর্ণলতা ফলিয়ার যুদ্ধ এখনো থামেনি। ৩৫তম বিসিএস লিখিত পরীক্ষা",
+          "subQuestions": [
+            {
+              "label": "a",
+              "text": "The Rise of Religious Extremism as a Global Threat;"
+            },
+            {
+              "label": "b",
+              "text": "Nature Vs Nurture:"
+            },
+            {
+              "label": "c",
+              "text": "How I See Myself 10 Years From Now."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "গণিত",
+      "code": "০০৮",
+      "fullMarks": 50,
+      "time": "২ ঘণ্টা",
+      "questions": [
+        {
+          "number": 1,
+          "text": "একজন শ্রমিক মাসিক বেতনে চাকরি করেন। প্রতি বছর শেষে একটি নির্দিষ্ট পরিমাণ বেতন বৃদ্ধি পায়। তার মাসিক বেতন 4 বছর পর 4780 টাকা এবং 7 বছর পর 5140 টাকা হয়। 12 বছর পর তার মাসিক বেতন কত হবে তাহা বের করুন।"
+        },
+        {
+          "number": 2,
+          "text": "এক ব্যক্তি 22000 টাকায় একটি ফ্রিজ কিস্তিতে পরিশোধের মাধ্যমে কিনতে রাজী হন। প্রত্যেক কিস্তি পূর্বের কিস্তি থেকে 500 টাকা বেশি। যদি প্রথম কিস্তি 1000 টাকা হয়, তবে কতগুলো কিস্তিতে তিনি ফ্রিজের দাম পরিশোধ করতে পারবেন এবং সর্বশেষ কিস্তির পরিমাণ কত?"
+        },
+        {
+          "number": 3,
+          "text": "একজন বিনিয়োগকারী 80,000 টাকার কিছু প্রতি 6 মাস অন্তর 5% হার সুদে এবং অবশিষ্ট বাৎসরিক 12% হারে একটি সেভিংস ব্যাংকে জমা করল। বছর শেষে তিনি 9000 টাকা সুদ পেলেন। তাহলে তিনি 12% হার সুদে কত টাকা বিনিয়োগ করেন?"
+        },
+        {
+          "number": 4,
+          "text": "অসমতাটির সমাধান সেট নির্ণয় করুন এবং সমাধান সেটটিকে সংখ্যা রেখায় প্রদর্শন করুন।"
+        },
+        {
+          "number": 5,
+          "text": "(ক) y = হলে, এর মান নির্ণয় করুন।",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "উৎপাদকে বিশ্লেষণ করুনঃ"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "text": "যদি হয়, তাহলে প্রমাণ করুন যে,"
+        },
+        {
+          "number": 7,
+          "text": "ax2 + bx + c = 0 (a 0) সমীকরণটি সমাধান করুন এবং ইহার মাধ্যমে x2 + 7x -13 = 0 সমীকরণটির সমাধান করুন।"
+        },
+        {
+          "number": 8,
+          "text": "O কেন্দ্রবিশিষ্ট বৃত্তের AV ও CD জ্যা দুইটি বৃত্তের অভ্যন্তরে অবস্থিত কোনো বিন্দুতে সমকোণ মিলিত হয়েছে। প্রমাণ করুন যে, ∠AOD + ∠BOC = দুই সমকোণ।"
+        },
+        {
+          "number": 9,
+          "text": "একটি নির্দিষ্ট স্থান থেকে দুইটি রাস্তা 120° কোণে চলে গেছে। দুইজন লোক ঐ নির্দিষ্ট স্থান থেকে যথাক্রমে ঘণ্টায় 15 কিলোমিটার এবং ঘণ্টায় 10 কিলোমিটার বেগে বিপরীত দিকে রওয়না হলো। 2 ঘণ্টা পরে তাদের মধ্যে সরাসরি দূরত্ব নির্ণয় করুন।"
+        },
+        {
+          "number": 10,
+          "text": "2x + y – 3 = 0, 3x + 2y – 1 = 0 এবং 2x + 3y + 4 = 0 এই তিনটি সরলরেখা দ্বারা গঠিত ত্রিভুজের ক্ষেত্রফল নির্ণয় করুন।"
+        },
+        {
+          "number": 11,
+          "text": "সেটের উপাদানসংখ্যার ক্ষেত্রে n (U) = 80, n (A) = 40, n (B) = 50 এবং n (A B) = 20 হলে, সংশ্লিষ্ট সূত্রসমূহ উল্লেখ করে n (A B), n(A B), n (Ac), n(Ac Bc) এবং n(A B)- এর মান নির্ণয় করুন।"
+        },
+        {
+          "number": 12,
+          "text": "একজন ছাত্র একটি পরীক্ষায় A, B, C এবং D চারটি বিষয়ে অংশগ্রহণ করেন। সে তার পরীক্ষায় পাস করার সম্ভাব্যতা নির্ধারণ করে A বিষয়ে B বিষয়ে C বিষয়ে এবং D বিষয়ে । যোগ্যতা প্রদর্শনে তাকে অবশ্যই A বিষয়ে এবং কমপক্ষে অন্য দুটি বিষয়ে পাস করতে হবে। তার যোগ্যতার সম্ভাবনা বের করুন। [বিশেষ দ্রষ্টব্য: ৩৫তম বিসিএস লিখিত মানসিক দক্ষতা পরীক্ষার প্রশ্ন Live MCQ অ্যাপসে পাওয়া যাবে।] ৩৫তম বিসিএস লিখিত পরীক্ষা"
+        }
+      ]
+    },
+    {
+      "name": "বাংলাদেশ বিষয়াবলি",
+      "code": "০০৫",
+      "fullMarks": 200,
+      "time": "৪ ঘণ্টা",
+      "questions": [
+        {
+          "number": 1,
+          "text": "(ক) প্রাচীন বাংলার রাঢ় জনপদের সংক্ষিপ্ত বিবরণ দিন। ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "চিরস্থায়ী বন্দোবস্ত কী? ৫"
+            },
+            {
+              "label": "গ",
+              "text": "আওয়ামী লীগের ছয় দফা কী কী? ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "১৯৭০-এ আওয়ামী লীগের বিজয়ের মূল তাৎপর্য কী? ৫"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "(ক) দক্ষিণ এশিয়ায় বাংলাদেশের ভৌগোলিক অবস্থান সংক্ষেপে ব্যাখ্যা করুন। ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "বঙ্গোপসাগরের অর্থনৈতিক গুরুত্ব কী? ৫"
+            },
+            {
+              "label": "গ",
+              "text": "বাংলাদেশের বনজ সম্পদের সংক্ষিপ্ত বিবরণ দিন। ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "তিস্তার পানি সংকটের পরিবেশগত প্রভাব সংক্ষেপে আলোচনা করুন। ৫"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "(ক) বাংলাদেশের গত পাঁচ বছরের ধারাবাহিক মোট দেশজ উৎপাদনের বা জিডিপি’র বিবরণ দিন। ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "রেমিট্যান্স খাত বাংলাদেশের অর্থনৈতিক উন্নয়নে কী অবদান রাখছে? ৫"
+            },
+            {
+              "label": "গ",
+              "text": "বাংলাদেশে শিল্পায়নের ক্ষেত্রে পাঁচটি প্রতিবন্ধকতা তুলে ধরুন। ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "সামাজিক উন্নয়ন সূচকে বাংলাদেশের অগ্রগতির একটি সংক্ষিপ্ত ধারণা দিন। ৫"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "(ক) বাংলাদেশে পরিবেশ বিপর্যয় দ্বারা আপনি কী বুঝেন? ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "আপনার দৃষ্টিতে বাংলাদেশের নদী দূষণের প্রধান কারণগুলো কি কি? ৫"
+            },
+            {
+              "label": "গ",
+              "text": "বাংলাদেশে বর্জ্য ব্যবস্থাপনার একটি চিত্র তুলে ধরুন। ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "ভবিষ্যতে সমুদ্র পৃষ্ঠের উচ্চতা বৃদ্ধি বাংলাদেশের জলবায়ুর ওপর কী প্রভাব ফেলতে পারে? ৫"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "(ক) বাংলাদেশ সংবিধানের ধর্মনিরপেক্ষতা সংক্রান্ত ১২ ধারাটি লিখুন । ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "বাংলাদেশ সংবিধানের ৭০ ধারায় আপনি কী ধরনের সংস্কার প্রস্তাব করবেন? ৫"
+            },
+            {
+              "label": "গ",
+              "text": "বাংলাদেশের সংবিধানের পঞ্চদশ সংশোধনীর পাঁচটি দিক উল্লেখ করুন। ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "সংসদীয় সরকার কিভাবে গঠিত হয়? ৫"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "text": "(ক) বাংলাদেশের নির্বাচন কমিশন কিভাবে গঠিত হয়? এর প্রধান কাজ কি কি? ৫ ধারাবাহিক পরিবর্তন চিত্র তুলে ধরুন। ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "এটর্নি জেনারেলের কাজ কি কি? সংক্ষেপে আলোচনা করুন। ৫"
+            },
+            {
+              "label": "গ",
+              "text": "বাংলাদেশে ন্যায়পালের গুরুত্ব ব্যাখ্যা করুন। ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "২০০১ সাল থেকে বাংলাদেশের সংসদ নির্বাচনের আইনে একজন সাংসদের জন্য নির্বাচনী ব্যয়ের একটি"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "text": "(ক) বাংলাদেশের প্রধানমন্ত্রীর সাংবিধানিক ক্ষমতার একটি বিবরণ দিন। ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "বাংলাদেশের আইন পরিষদের গঠন সম্পর্কে লিখুন। ৫"
+            },
+            {
+              "label": "গ",
+              "text": "বাংলাদেশের জাতীয় সংসদের কার্যক্রম পরিচালনায় Rules of Procedure-এর গুরুত্ব সংক্ষেপে লিখুন। ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "বাংলাদেশের উচ্চ আদালতের গঠন সম্পর্কে লিখুন। ৫"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "text": "(ক) বাংলাদেশের পররাষ্ট্রনীতির মূলনীতিগুলো কি কি? ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "‘জাতীয় স্বার্থ সংরক্ষণই বাংলাদেশের পররাষ্ট্রনীতির মূল নির্ধারক’—ব্যাখ্যা করুন। ৫"
+            },
+            {
+              "label": "গ",
+              "text": "অর্থনৈতিক দিক থেকে জাতিসংঘ শান্তি মিশনে বাংলাদেশের অংশগ্রহণের গুরুত্ব সংক্ষেপে তুলে ধরুন। ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "BCIM দ্বারা কী বুঝায়? আঞ্চলিক সহযোগিতা বৃদ্ধিতে এর প্রধান তাৎপর্য ব্যাখ্যা করুন। ৫"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "text": "(ক) বাংলাদেশে কোন ধরনের দল ব্যবস্থা রয়েছে? সংক্ষেপে ব্যাখ্যা করুন। ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "১৯৫৫ সালে আওয়ামী মুসলিম লীগ থেকে ‘মুসলিম’ শব্দটি বাদ দেয়ার তাৎপর্য সংক্ষেপে ব্যাখ্যা করুন। ৫"
+            },
+            {
+              "label": "গ",
+              "text": "বাংলাদেশে রাজনৈতিক দলের কার্যাবলি সংক্ষেপে লিখুন। ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "১৯৯১ সাল পরবর্তী সময়ে বাংলাদেশের বিরোধী দলীয় রাজনীতির উল্লেখযোগ্য বৈশিষ্ট্যগুলো কি কি? ৫"
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "text": "টীকা লিখুন (যে কোন ৪টি) ৫Í৪ =২০ ৩৫তম বিসিএস লিখিত পরীক্ষা",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "আন্তর্জাতিক শ্রমবাজার ও বাংলাদেশ,"
+            },
+            {
+              "label": "খ",
+              "text": "বাংলাদেশ ও বিশ্ব বাণিজ্য সংস্থা,"
+            },
+            {
+              "label": "গ",
+              "text": "বিশ্ব ক্রিকেট ও বাংলাদেশ,"
+            },
+            {
+              "label": "ঘ",
+              "text": "সরকারী চাকুরীতে কোটা,"
+            },
+            {
+              "label": "ঙ",
+              "text": "বাংলাদেশে প্রাইভেট-পাবলিক অংশীদারিত্ব,"
+            },
+            {
+              "label": "চ",
+              "text": "ই-গভর্নেন্স ও বাংলাদেশ,"
+            },
+            {
+              "label": "ছ",
+              "text": "বাংলাদেশের সমুদ্র বিজয়,"
+            },
+            {
+              "label": "জ",
+              "text": "বাংলাদেশের খনিজ সম্পদ।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "আন্তর্জাতিক বিষয়াবলি",
+      "code": "০০৭",
+      "fullMarks": 100,
+      "time": "৩ ঘণ্টা",
+      "questions": [
+        {
+          "number": 1,
+          "text": "নিম্নলিখিত যেকোনো ১০টি বিষয়ের উপর সংক্ষিপ্ত আলোচনা করুনঃ- ৪Í১০ =৪০",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "জাতি ভিত্তিক রাষ্ট্র (nation-state) বলতে কি বুঝায়?"
+            },
+            {
+              "label": "খ",
+              "text": "অপ্রচলিত নিরাপত্তা বলতে কি বুঝায়?"
+            },
+            {
+              "label": "গ",
+              "text": "সার্বভৌমত্ব (sovereignty) ও সার্বভৌম সমতার মধ্যে তফাৎ কি?"
+            },
+            {
+              "label": "ঘ",
+              "text": "বিশ্বায়ন প্রক্রিয়ার মূল চালিকাশক্তি (Driving forces of globalization) গুলো কি?"
+            },
+            {
+              "label": "ঙ",
+              "text": "ট্রানজিট ও টান্সশীপমেন্ট এর সংজ্ঞা দিন।"
+            },
+            {
+              "label": "চ",
+              "text": "ব্যাপক ধ্বংসাত্মক অস্ত্র-এর বৈশিষ্ট্যসমূহ লিখুন।"
+            },
+            {
+              "label": "ছ",
+              "text": "পররাষ্ট্রনীতির অভ্যন্তরীণ উপাদানগুলো কি কি?"
+            },
+            {
+              "label": "জ",
+              "text": "মৈত্রী চুক্তি ও নিরাপত্তা চুক্তির মৌলিক পার্থক্যসমূহ কি কি?"
+            },
+            {
+              "label": "ঝ",
+              "text": "ব্রেটন-উডস প্রতিষ্ঠানসমূহ (Bretton Woods Institutions)।"
+            },
+            {
+              "label": "ঞ",
+              "text": "বহুজাতিক সংস্থার পাঁচটি বৈশিষ্ট্য লিখুন।"
+            },
+            {
+              "label": "ট",
+              "text": "Responsibility to Protect (R2P) কী?"
+            },
+            {
+              "label": "ঠ",
+              "text": "ইউরোজোন ঋণ সংকট (Eurozone debt crisis)।"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "যেকোনো তিনটি প্রশ্নের উত্তর দিন:- ১৫Í৩ =৪৫ (ii) দ্বিপাক্ষিক সম্পর্কোন্নয়নের পারস্পরিক স্বার্থে বাংলাদেশ ও ভারত কিছু কিছু ক্ষেত্রে সরাসরি সংযোগ ৮ (connectivity) প্রতিষ্ঠায় উদ্যোগী হয়েছে। এ ক্ষেত্রে এর অগ্রগতি ও সম্ভাবনার উপর আলোচনা করুন। ঐতিহাসিক ও বর্তমান প্রেক্ষাপটের আলোকে আপনার মতামত উপস্থাপন করুন। ১৫ (ii) সমসাময়িক বিশ্বের ভূ-রাজনৈতিক-অর্থনৈতিক শক্তির ভারসাম্যের প্রতিফলনে নিরাপত্তা পরিষদের সংস্কারসমূহের দাবী আলোচনা করুন। ৯ চেতনা শক্তিশালী করার ক্ষেত্রে আপনার পরামর্শ উপস্থাপন করুন। ১৫",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "(i) বাংলাদেশ-ভারত দ্বিপাক্ষিক সম্পর্কের গুরুত্বপূর্ণ বিষয়গুলি (important issues) চিহ্নিত করুন। ৭"
+            },
+            {
+              "label": "খ",
+              "text": "আপনি কি মনে করেন, মধ্যপ্রাচ্যের কুর্দী সমস্যা অপরিহার্যভাবে একটি জাতীয়তাবাদী সমস্যা? সমস্যাটির"
+            },
+            {
+              "label": "গ",
+              "text": "(i) জাতিসংঘ সনদ (UN Charter) অনুসারে নিরাপত্তা পরিষদের (Security Council) গঠন ও মূল দায়িত্ব কি? ৬"
+            },
+            {
+              "label": "ঘ",
+              "text": "একটি রাজনৈতিক জাতি গঠনের ক্ষেত্রে বাংলাদেশের সাফল্য ও ব্যর্থতা মূল্যায়ন করুন। দেশটির মুক্তিযুদ্ধের"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "সমস্যাটি সমাধান করুন:- ১৫ স্বল্পোন্নত দেশ হিসেবে বাংলাদেশ মার্কিন যুক্তরাষ্ট্রসহ কিছু উন্নত দেশের বাজারে অগ্রাধিকারমূলক বাণিজ্য সুবিধা (GSP) পেয়ে থাকে। সম্প্রতি মার্কিন যুক্তরাষ্ট্র বাংলাদেশকে প্রদত্ত GSP সুবিধা স্থগিত করেছে। বাংলাদেশ সরকার কূটনৈতিক পর্যায়ে আলোচনার মাধ্যমে উক্ত GSP সুবিধা পুনর্বহালের চেষ্টা করছে। পররাষ্ট্র মন্ত্রণালয়ের একজন কর্মকর্তা হিসেবে মার্কিন যুক্তরাষ্ট্রের সাথে GSP সুবিধা পুনর্বহাল সংক্রান্ত আলোচনায় কি কি বিষয় স্থান পাবে বলে মনে করেন এবং এসব বিষয়ে কিভাবে বাংলাদেশের অবস্থান তুলে ধরবেন, আলোচনা করুন। ৩৫তম বিসিএস লিখিত পরীক্ষা"
+        }
+      ]
+    },
+    {
+      "name": "সাধারণ বিজ্ঞান ও প্রযুক্তি",
+      "code": "০১০",
+      "fullMarks": 100,
+      "time": "৩ ঘণ্টা",
+      "questions": [
+        {
+          "number": 1,
+          "text": "নিচের উদ্দীপকটি পড়ুন এবং প্রশ্নগুলোর উত্তর দিন :— মিনহাজ দধি তৈরির জন্য সন্ধ্যার সময় ফুটন্ত দুধে বাসি দধির সামান্য অংশ starter culture হিসেবে মিশ্রিত করলো। কিছু সময় পর দুধ ঠাণ্ডা হলে সারারাত ৩৭০-৪০°C তাপমাত্রায় Incubate করলো। পরদিন সকালে মিনহাজ লক্ষ্য করলো দুধ জমাট বাঁধেনি এবং কাঙ্খিত দধি তৈরি হয়নি।",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "জীব প্রযুক্তির মাধ্যমে উৎপাদিত তিনটি দুগ্ধজাত খাদ্যের নাম লিখুন। ১.৫"
+            },
+            {
+              "label": "খ",
+              "text": "উদ্দীপকে উল্লেখিত starter culture কি? এতে কি থাকে? ২"
+            },
+            {
+              "label": "গ",
+              "text": "মিনহাজের দধি তৈরিতে ব্যর্থতার কারণ কি? ১"
+            },
+            {
+              "label": "ঘ",
+              "text": "দুধ দধিতে পরিণত হওয়ার প্রক্রিয়াটি ব্যাখ্যা করুন। ৩"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "আধুনিক কৃষিকাজ পদ্ধতির বিস্তারের সাথে সাথে বাংলাদেশের কৃষি জমিতে এখন আর আগের মত ব্যাঙ ও পাখ-পাখালীর উপস্থিতি লক্ষ্য করা যায় না। আবাসস্থল ধ্বংস হওয়া এবং প্রজনন প্রতিকূল পরিবেশই এর কারণ ।",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "ফসলী জমিতে আগের মত ব্যাঙ ও পাখ-পাখালীর উপস্থিতি লক্ষ্য করা যায় না কেন? প্রতি ক্ষেত্রে সুনির্দিষ্ট কারণ উল্লেখ করুন। ২"
+            },
+            {
+              "label": "খ",
+              "text": "ব্যাঙ ও পাখ-পাখালী কিভাবে পরিবেশবান্ধব কৃষি ব্যবস্থাপনায় সাহায্য করে তা ব্যাখ্যা করুন। ১.৫"
+            },
+            {
+              "label": "গ",
+              "text": "“ডিডিটি-এর মত ক্ষতিকারক রাসায়নিক পদার্থ এখন খাদ্য-শৃংখলের অংশ”—সুনির্দিষ্ট তথ্যসহ এ মন্তব্যটি বিশ্লেষণ করুন। ৪"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "ঈদের পরের দিন রহিম মিয়ার পুকুরে বাড়ীর মহিলারা উচ্ছিষ্ট খাবারসহ হাড়ি পাতিল পরিস্কার করেছে । পরদিন সকালে রহিম মিয়া লক্ষ্য করলেন পুকুরে প্রচুর মাছ পানির উপরিভাগে শ্বাসকষ্টে খাবি খাচ্ছে। রহিম মিয়া একটি লম্বা বাঁশের লাঠি দিয়ে পানির উপরিভাগে বারবার আঘাত করে এ সমস্যার সমাধানের চেষ্টা করতে থাকেন ।",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "Algal Bloom কি? ১"
+            },
+            {
+              "label": "খ",
+              "text": "মাছগুলো শ্বাসকষ্টে খাবি খাচ্ছিলো কেন? এ সমস্যা কেন উদ্ভুত হলো? ২.৫"
+            },
+            {
+              "label": "গ",
+              "text": "রহিম মিয়া মাছগুলোকে বাঁচানোর জন্য পানির উপর কেন বারবার আঘাত করছিলেন? ১"
+            },
+            {
+              "label": "ঘ",
+              "text": "গৃহস্থালি বর্জ্য কোনোরূপ পরিশোধন ছাড়াই জলাশয়ে ফেলার ক্ষতিকর দিকগুলো আলোচনা করুন । ৩"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "শতায়ু করিম সাহেব-এর নিয়মিত প্রাতঃ ভ্রমণের সঙ্গী হওয়ার জন্য তাঁর কোনো বন্ধু-বান্ধবই আজ আর বেঁচে নেই। তিনি স্বল্পাহারী মানুষ। সারা জীবনই তেল-চর্বিযুক্ত খাবার পরিহার করেছেন। টাটকা ফলমূল, সালাদ ও শাক-সবজি তাঁর দৈনন্দিন খাদ্য তালিকার অংশ ছিল । কৈশোর ও যৌবনে নিয়মিত খেলাধুলা ও শরীরচর্চা করেছেন। তিনি সৎ সরকারি কর্মকর্তা ছিলেন। সবসময় মানুষের মঙ্গল চিন্তা করেছেন এবং ধর্মপরায়ণ মানুষ হিসেবে জীবন কাটিয়েছেন।",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "ভিটামিন, এন্টি-অক্সিডেন্ট ও ফ্রি-রেডিক্যাল কি? ১.৫"
+            },
+            {
+              "label": "খ",
+              "text": "মানবদেহে ফ্রি-রেডিক্যালের প্রভাব ব্যাখ্যা করুন। ১.৫"
+            },
+            {
+              "label": "গ",
+              "text": "স্বাস্থ্য রক্ষায় ভিটামিন ও এন্টি-অক্সিডেন্টের ভূমিকা কি? ১.৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "উদ্দীপকে বর্ণিত করিম সাহেবের জীবনাচরণ তাকে দীর্ঘায়ু প্রাপ্তিতে কিভাবে সাহায্য করেছে তার বৈজ্ঞানিক বিশ্লেষণ করুন। ৩"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "(ক) মানুষের দেহকোষে কয়টি ক্রোমোজোম থাকে? এদের মধ্যে কয়টি সেক্স ক্রোমোজোম? ১",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "জিন (gene) বলতে কি বোঝায়? জেনেটিক বিশৃঙ্খলার দুটি কারণ লিখুন। ১.৫"
+            },
+            {
+              "label": "গ",
+              "text": "DNA টেস্টের মাধ্যমে বিবাদমান দম্পতির পিতৃপরিচয় কিভাবে নিশ্চিত যায়? ২"
+            },
+            {
+              "label": "ঘ",
+              "text": "কৃষিবিজ্ঞানে GMO-এর ভূমিকা বিশ্লেষণ করুন। ৩"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "text": "(ক) Antibiotic ও Antiseptic এর পার্থক্য লিখুন। ১. ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "খেজুরের রসের মাধ্যমে সংক্রমণযোগ্য ভাইরাসের নাম লিখুন। ১"
+            },
+            {
+              "label": "গ",
+              "text": "পৃথিবীর বিভিন্ন দেশে অতি সম্প্রতি ও নিকট অতীতে ছড়িয়ে পড়া তিনটি ভাইরাসজনিত রোগের নাম লিখুন। ২"
+            },
+            {
+              "label": "ঘ",
+              "text": "খাদ্য দূষণ (Food poisoning) কি? সুনির্দিষ্ট কারণ উল্লেখ করে বিভিন্ন প্রকার খাদ্য দূষণের উদাহরণ দিন। ৩"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "text": "(ক) সাদা আলোকবিশ্লিষ্ট করলে কয়টি বর্ণ পাওয়া যায়? বর্ণগুলো কি কি? ১. ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "সড়কে বিপদ সংকেতে সবসময় লাল আলো ব্যবহার করা হয় কেন? ২"
+            },
+            {
+              "label": "গ",
+              "text": "সূর্যোদয় ও সূর্যাস্তের সময় দিগন্ত রেখায় আকাশের রং লাল হয় কেন? ২"
+            },
+            {
+              "label": "ঘ",
+              "text": "আলোকে ধর্মের বিবরণ দিন। ২"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "text": "(ক) এসিড ও বেস-এর সংজ্ঞা লিখুন। ১ .৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "দুর্বল ও শক্তিশালী এসিডের তিনটি করে নাম লিখুন। ২"
+            },
+            {
+              "label": "গ",
+              "text": "উৎসের উল্লেখসহ আমরা খাদ্যের সাথে গ্রহণ করি এরূপ পাঁচটি এসিডের নাম লিখুন ২"
+            },
+            {
+              "label": "ঘ",
+              "text": "ভিনেগার দিয়ে আচার প্রক্রিয়াজাত করা হয় কেন? ২"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "text": "(ক) দূষিত ও পানযোগ্য পানির বৈশিষ্ট্য লিখুন। ৩ (১, ১০ ও ১১ নং সহ যে কোনো আটটি প্রশ্নের উত্তর দিন)",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "পানি জীবাণুমুক্ত করতে বহুলব্যবহৃত ক্লোরিন যৌগের নাম লিখুন। এ যৌগটি কিভাবে পানিকে জীবাণুমক্ত করে? ব্যাখ্যা করুন। ২"
+            },
+            {
+              "label": "গ",
+              "text": "Pasteurization কি? দুধ pasteurization করার পরও কক্ষ তাপমাত্রায় রাখলে নষ্ট হয়ে যাওয়ার কারণ কি? ২.৫"
+            }
+          ]
+        },
+        {
+          "number": 1,
+          "text": "আকার, আয়তন ও কর্মদক্ষতার ভিত্তিতে ডিজিটাল কম্পিউটারের শ্রেণিবিন্যাস করুন এগুলোর মধ্যে মাইক্রো-কম্পিউটারের বৈশিষ্ট্য লিখুন। ৫"
+        },
+        {
+          "number": 2,
+          "text": "হাইব্রিড কম্পিউটার বলতে কি বুঝায়? ২.৫"
+        },
+        {
+          "number": 3,
+          "text": "পঞ্চম প্রজন্মের কম্পিউটারের কাঙ্খিত বৈশিষ্ট্য লিখুন। ২.৫"
+        },
+        {
+          "number": 4,
+          "text": "কম্পিউটারের প্রধান অংশসমূহ কি? Primary ও Auxiliary Memory, Input ও Output device গুলোর নাম লিখুন। ২.৫"
+        },
+        {
+          "number": 5,
+          "text": "Compiler ও Interpreter কিভাবে কাজ করে? এ দুটি প্রোগ্রামের তুলনা করুন। ২.৫"
+        },
+        {
+          "number": 6,
+          "text": "ক্লায়েন্ট/সার্ভার নেটওয়ার্ক কি? এই নেটওয়ার্কের প্রয়োজনীয়তা লিখুন। ২.৫"
+        },
+        {
+          "number": 7,
+          "text": "মাউস ও রাইটার কি? ২.৫"
+        },
+        {
+          "number": 8,
+          "text": "ISP কি? ইন্ট্রানেট ও এক্সট্রানেট বলতে কি বোঝায়? ২.৫"
+        },
+        {
+          "number": 9,
+          "text": "ওয়েব সার্চ ইঞ্জিন বলতে কি বোঝায়? উদাহরণ দিন। ২.৫"
+        },
+        {
+          "number": 10,
+          "text": "“ডিজিটাল বাংলাদেশ এখন আর কোন স্বপ্ন নয়”- ডিজিটাল বাংলাদেশ বিনির্মাণে সাম্প্রতিক অগ্রগতির বিবরণ উল্লেখপূর্বক এই উক্তির সমর্থনে যুক্তি দিন। ৫"
+        },
+        {
+          "number": 11,
+          "text": "ব্যাপক গণজাগরণ তৈরীতে web ভিত্তিক সামাজিক যোগাযোগ মাধ্যমের শক্তিশালী ভূমিকা বাংলাদেশের প্রেক্ষিতে একটি সাম্প্রতিক উদাহরণ সহ ব্যাখ্যা করুন। ২.৫ (যে কোনো ছয়টি প্রশ্নের উত্তর দিন)"
+        },
+        {
+          "number": 1,
+          "text": "Transformer কি ও কত প্রকার? রাস্তার ধারে বৈদ্যুতিক পোলে কিরূপ Transformer লাগানো থাকে এবং কেন? ২.৫"
+        },
+        {
+          "number": 2,
+          "text": "তাপবিদ্যুৎ ও জলবিদ্যুৎ কিভাবে উৎপাদিত হয়? ২.৫"
+        },
+        {
+          "number": 3,
+          "text": "UPS ও IPS কি? ২.৫"
+        },
+        {
+          "number": 4,
+          "text": "ইলেকট্রনিক চক্ষু ও ইলেকট্রনিক মস্তিষ্ক বলতে কি বোঝায়? ২.৫"
+        },
+        {
+          "number": 5,
+          "text": "টেলিভিশনের Picture tube-এর কাজ কি? ২.৫"
+        },
+        {
+          "number": 6,
+          "text": "এ্যামপ্লিফায়ার কি? Frequency রেঞ্জের উপর ভিত্তি করে Amplifier-এর শ্রেণিবিন্যাস করুন। ২.৫"
+        },
+        {
+          "number": 7,
+          "text": "Oscillator কি? এর বৈশিষ্ট্য লিখুন। ২.৫ [সবার জন্য অনেক অনেক শুভকামনা] Previous Article বিসিএস লিখিত পরীক্ষার প্রস্তুতি শুরু করবেন যেভাবে | BCS Written Preparation Next Article ৩৬তম বিসিএস লিখিত পরীক্ষার প্রশ্ন PDF | 36th BCS Written Question PDF Leave a Reply Cancel reply Your email address will not be published. Required fields are marked * Comment * Name * Email * Website Save my name, email, and website in this browser for the next time I comment. Searchঅনুসন্ধান সাম্প্রতিক পোস্ট ৫০তম বিসিএস লিখিত “গাণিতিক যুক্তি ও মানসিক দক্ষতা” প্রস্তুতির রুটিন ২০২৬March 6, 2026 বাংলাদেশ সরকারি চাকরির গ্রেড ও বেতন ২০২৬  February 25, 2026 স্টাডি ম্যাটেরিয়ালসহ ৫০তম বিসিএস লিখিত প্রস্তুতির এক্সাম ব্যাচ | ১ প্যাকেজে ৪ ব্যাচের পরীক্ষা February 23, 2026 ৫০তম বিসিএস লিখিত পরীক্ষার সময়সূচিFebruary 20, 2026 ৫০তম বিসিএস লিখিত “মেডিকেল অংশের” প্রস্তুতির নতুন রুটিনFebruary 19, 2026 সাম্প্রতিক মন্তব্য Live Written CRM on ৪৭তম বিসিএস লিখিত পরীক্ষার প্রশ্ন ২০২৫ | 47th BCS Written Exam QuestionMay 8, 2026 আপনার প্রশ্নটি বোধগম্য নয়। আপনি মূলত কি জানতে চাইছেন অনুগ্রহ করে বিস্তারিত বুঝিয়ে বলুন। Jehen on ৪৭তম বিসিএস লিখিত পরীক্ষার প্রশ্ন ২০২৫ | 47th BCS Written Exam QuestionMay 7, 2026 IA nai Live Written CRM on বিসিএস লিখিত পরীক্ষার সিলেবাস ও মানবন্টন | BCS Written Syllabus PDFMay 7, 2026 আমাদের Live Written অ্যাপের Study Tools >> PDF Section >> \"লিখিত রুটিন ও সিলেবাস\" বাটনে চেক করুন। খুব শীঘ্রই উক্ত&hellip; Md Juwel Hossain on বিসিএস লিখিত পরীক্ষার সিলেবাস ও মানবন্টন | BCS Written Syllabus PDFMay 6, 2026 pdf download link kothay? Live Written CRM on বিসিএস লিখিত পরীক্ষার সিলেবাস ও মানবন্টন | BCS Written Syllabus PDFApril 2, 2026 এখনো নতুন কোন সিলেবাস সম্পর্কে কোন ঘোষণা আসেনি। এটিই সর্বশেষ সিলেবাস। আর্কাইভস Archives Select Month March 2026 (1) February 2026 (9) January 2026 (4) December 2025 (10) November 2025 (5) October 2025 (38) September 2025 (33) August 2025 (23) July 2025 (36) June 2025 (24) April 2025 (7) March 2025 (5) November 2024 (2) ক্যাটাগরিজ Admit Card (2) BCS (14) BCS Circular (3) BCS Job Solution (2) BCS Preparation (9) BCS Syllabus (1) BCS Viva Suggestion (1) BCS Written Exam Suggestion (7) BCS Written Question (4) Exam Date (62) Exam Question (9) Information (1) Job Circular (27) Notice (28) Results (43) Uncategorized (1) Written Preparation (6) এই পোষ্ট গুলো আপনার পছন্দ হতে পারে BCS Written Question ৪৭তম বিসিএস লিখিত পরীক্ষার প্রশ্ন ২০২৫ | 47th BCS Written Exam Question প্রিয় চাকরি প্রার্থীগণ, ৪৭তম বিসিএস লিখিত পরীক্ষার প্রশ্ন ২০২৫ সংক্রান্ত Live Written ব্লগে আপনাদের স্বাগতম। আপনারা জানেন, ২৭ নভেম্বর ২০২৫ [&hellip;] Live Written™January 6, 20261 min read Exam Question, BCS Written Question ৪৬তম বিসিএস লিখিত পরীক্ষার প্রশ্ন । 46th BCS Written Exam Question প্রিয় চাকরির প্রত্যাশীগণ, ৪৬তম বিসিএস লিখিত পরীক্ষার প্রশ্ন সংক্রান্ত ব্লগে আপনাদের স্বাগতম। আপনারা অবগত আছেন যে, ২৪ জুলাই, ২০২৫ তারিখ [&hellip;] Live Written™August 6, 20251 min read BCS Written Question ৩৬তম বিসিএস লিখিত পরীক্ষার প্রশ্ন PDF | 36th BCS Written Question PDF প্রিয় চাকরির প্রত্যাশীগণ, ৩৬তম বিসিএস লিখিত পরীক্ষার প্রশ্ন PDF সংক্রান্ত ব্লগে আপনাদের স্বাগতম। আপনারা জানেন যে বিসিএস পরীক্ষার একটি অন্যতম গুরুত্বপূর্ণ [&hellip;] Live Written™March 20, 20257 min read বিসিএস, ব্যাংক, শিক্ষক নিবন্ধন, ৯ম–২০ তম গ্রেড সহ সকল সরকারি-বেসরকারি চাকরির লিখিত পরীক্ষার প্রস্তুতি নিন Live Written™ অ্যাপে। ৫০ হাজার+ অ্যাপ ডাউনলোড"
+        },
+        {
+          "number": 4,
+          "text": "৬ ★★★★★ Rated 4.5 out of 5 কুইক লিঙ্ক হোম ফিচারসমূহ প্যাকেজসমূহ যোগাযোগ আরও জানুন সকল পোস্ট এক্সপার্ট প্যানেল আমাদের সম্পর্কে সাধারণ জিজ্ঞাসা যোগাযোগ 01894-418123 contact@livewritten.com facebook.com/livewritten youtube.com/@LiveWritten আপনার পছন্দের ভার্সন এখান থেকে ইনস্টল করুন 📲 আমাদের সম্পর্কে গোপনীয়তা নীতিমালা © স্বত্বাধিকার ২০২২ – ২০২৬  |  সর্বস্বত্ব সংরক্ষিত  |  CrackTech Limited দ্বারা পরিচালিত Facebook Instagram Youtube Linkedin Whatsapp tiktok Envelope Lu-phone হোম আমাদের সম্পর্কে এক্সপার্ট প্যানেল সাধারণ জিজ্ঞাসা অ্যাপ গ্যালারি সকল ফিচার প্যাকেজসমূহ ব্লগ যোগাযোগ অ্যাপ ইন্সটল করুন"
+        }
+      ]
+    }
+  ]
+}

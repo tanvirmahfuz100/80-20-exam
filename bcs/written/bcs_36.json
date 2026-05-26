@@ -1,0 +1,995 @@
+{
+  "year": 36,
+  "subjects": [
+    {
+      "name": "বাংলা",
+      "code": "০০১",
+      "fullMarks": 200,
+      "time": "৪ ঘণ্টা",
+      "questions": [
+        {
+          "number": 1,
+          "text": "নিচের প্রশ্নগুলোর উত্তর লিখুনঃ- ৬Í৫ = ৩০",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "সাধিত শব্দ কাকে বলে? সাধিত শব্দ গঠনের প্রক্রিয়াগুলো উদাহরণসহ ব্যাখ্যা করুন।"
+            },
+            {
+              "label": "খ",
+              "text": "বাংলা একাডেমি প্রণীত প্রমিত বাংলা বানানরীতি অনুসারে তৎসম শব্দের ৬টি নিয়ম উদাহরণ সহ লিখুন।"
+            },
+            {
+              "label": "গ",
+              "text": "নিচের বাক্যগুলোর শুদ্ধরূপ লিখুনঃ"
+            }
+          ]
+        },
+        {
+          "number": 1,
+          "text": "তাহার সৌন্দর্যতাবোধ আমাকে অভিভূত করেছে।"
+        },
+        {
+          "number": 2,
+          "text": "এ নির্মম হত্যাকান্ডে গ্রামবাসী নিস্তব্ধ হয়ে গেল।"
+        },
+        {
+          "number": 3,
+          "text": "ইতিপূর্বেই তার বিরুদ্ধে কর্তৃপক্ষের কাছে নালিশ করা হয়েছে।"
+        },
+        {
+          "number": 4,
+          "text": "মহাসমারোহে প্রধান অতিথিকে সুস্বাগত জানানো হলো ।"
+        },
+        {
+          "number": 5,
+          "text": "তার সাংঘাতিক আনন্দ হলো।"
+        },
+        {
+          "number": 6,
+          "text": "ছেলেটি অহর্নিশি তার মাকে জ্বালাতন করে। উড়নচন্ডী, খন্ড প্রলয়, আসলে মুষল নেই ঢেঁকি ঘরে চাঁদোয়া, যার কর্ম তার সাজে অন্য লোকের লাঠি বাজে, একাদশে বৃহস্পতি, আটে-পিঠে দড় তবে ঘোড়ার উপর চড়।",
+          "subQuestions": [
+            {
+              "label": "ঘ",
+              "text": "নিচের প্রবাদ-প্রবচন ব্যবহার করে অর্থপূর্ণ বাক্য লিখুন:"
+            },
+            {
+              "label": "ঙ",
+              "text": "নিচের বাক্যগুলো নির্দেশ অনুসারে রূপান্তর করুন:"
+            }
+          ]
+        },
+        {
+          "number": 1,
+          "text": "ফের যদি আসি তবে সিঁধকাঠি সঙ্গে করিয়াই আসিব। (সরল)"
+        },
+        {
+          "number": 2,
+          "text": "তাকে নির্দয় মনে হয় না। (অস্তিবাচক)"
+        },
+        {
+          "number": 3,
+          "text": "অধ্যয়নই ছাত্রদের তপস্যা। (জটিল)"
+        },
+        {
+          "number": 4,
+          "text": "জামিল বাড়িতে আছে। (নেতিবাচক)"
+        },
+        {
+          "number": 5,
+          "text": "যেহেতু তার ধনসম্পদ আছে, তাই সে গর্বিত। (যৌগিক)"
+        },
+        {
+          "number": 6,
+          "text": "বিদ্যাসাগর বাংলা গদ্যের জনক। (প্রশ্নবোধক)"
+        },
+        {
+          "number": 2,
+          "text": "ভাব-সম্প্রসারণ করুনঃ- ২০ পথের দুধারে আছে মোর দেবালয়। অথবা, বাড়িয়া গেলে বিনাশের কারণ ঘটে।",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "পথের প্রান্তে আমার তীর্থ নয়"
+            },
+            {
+              "label": "খ",
+              "text": "জাতীয় জীবনে সন্তোষ এবং আকাঙ্ক্ষা দুয়েরই মাত্রা"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "সারমর্ম লিখুন:- ২০ জাগার গানে তোমার শিখাটি উঠুক জ্বলিয়া সবার প্রাণে। ছায়া ফেলিয়াছে প্রলয়ের নিশা, আঁধারে ধরণী হারায়েছে দিশা, তুমি দাও বুকে অমৃতের তৃষা আলোর ধ্যানে। অথবা,",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "হে চিরদীপ্ত, সুপ্তি ভাঙা ও"
+            },
+            {
+              "label": "খ",
+              "text": "সমাজের কাজ কেবল টিকে থাকার সুবিধা দেওয়া নয়, মানুষকেও বড় করে তোলা, বিকশিত জীবনের জন্য মানুষের জীবনে আগ্রহ জাগিয়ে দেওয়া। স্বল্পপ্রাণ, স্থূলবুদ্ধি ও জবরদস্তিপ্রিয় মানুষে সংসার পরিপূর্ণ। তাদের কাজ নিজের জীবনকে সার্থক ও সুন্দর করে তোলা নয়, অপরের সার্থকতার পথে অন্তরায় সৃষ্টি করা। প্রেম ও সৌন্দর্যের স্পর্শ লাভ করেনি বলে এরা নিষ্ঠুর ও বিকৃতবুদ্ধি। এদের একমাত্র দেবতা অহংকার। পারিবারিক অহংকার, জাতিগত অহংকার-এ সবের নিশান ওড়ানোই এদের কাজ।"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "নিচের প্রশ্নগুলো সংক্ষিপ্ত উত্তর দিন:- ৩Í১০ = ৩০",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "চর্যাপদে নিম্নবর্গীয় মানুষের যে পরিচয় পাওয়া যায় তার বিবরণ দিন।"
+            },
+            {
+              "label": "খ",
+              "text": "শ্রীকৃষ্ণকীর্তন কাব্যে গ্রামীণ জীবনের কী পরিচয় পাওয়া যায় তা লিখুন।"
+            },
+            {
+              "label": "গ",
+              "text": "ব্রজবুলি কী?"
+            },
+            {
+              "label": "ঘ",
+              "text": "রোমাঞ্চধারার একজন মুসলিম কবির কাব্য সম্পর্কে আলোচনা করুন।"
+            },
+            {
+              "label": "ঙ",
+              "text": "ভারতচন্দ্র রায় গুণাকরের কবি প্রতিভার মূল্যায়ন করুন।"
+            },
+            {
+              "label": "চ",
+              "text": "ঈশ্বরচন্দ্র বিদ্যাসাগরের সমাজসংস্কার আন্দোলন সম্পর্কে আলোচনা করুন।"
+            },
+            {
+              "label": "ছ",
+              "text": "‘বুদ্ধির মুক্তি আন্দোলন’ সম্পর্কে সংক্ষিপ্ত আলোচনা করুন।"
+            },
+            {
+              "label": "জ",
+              "text": "কাজী নজরুল ইসলামের ঔপন্যাসিক সত্তার পরিচয় দিন।"
+            },
+            {
+              "label": "ঝ",
+              "text": "ভাষা আন্দোলনভিত্তিক তিনটি গল্পের নাম লিখুন।"
+            },
+            {
+              "label": "ঞ",
+              "text": "মুক্তিযুদ্ধকেন্দ্রিক একটি উপন্যাসের মূল্যায়ন করুন।"
+            }
+          ]
+        },
+        {
+          "number": 1,
+          "text": "বাংলায় অনুবাদ করুন: ১৫ Traffic jam is not an uncommon phenomenon in our country, especially in the Dhaka City. Traffic jam, by definition, is the huddling up of too many vehicles in a specific place of a highway or in a street, with the result that the vehicles clog up, so to say, and cannot move ahead. This creates a great problem. People who are busy on urgent business miss their timetable. In the morning, for example, many people sail to attend their workplaces in time. The transportation of goods get delayed. Perhaps the worst consequence is suffered by patients being carried to hospitals or clinics. The mental and physical sufferings, too, are no less important. The number of vehicles, especially rickshaws, is a major cause of this nuisance."
+        },
+        {
+          "number": 2,
+          "text": "একজন প্রবীণ মুক্তিযোদ্ধা এবং স্বাধীনতা পরবর্তী প্রজন্মের এক তারুণ্যের মধ্যে মুক্তিযুদ্ধ নিয়ে সংলাপ লিখুন। ১৫"
+        },
+        {
+          "number": 3,
+          "text": "(ক) ‘সর্বস্তরে বাংলা ভাষার প্রচলন’- বিষয়ে পত্রিকায় প্রকাশের উপযোগী একটি প্রতিবেদন লিখুন। ১৫ অথবা,",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "বাংলাদেশের একটি যাদুঘরের বর্ণনা দিয়ে বিদেশী বন্ধুর নিকট একটি পত্র লিখুন।"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "বাঙালির ইতিহাস কিংবা লোক ঐতিহ্য নির্ভর একটি গ্রন্থের সমালোচনা লিখুন। ১৫"
+        },
+        {
+          "number": 5,
+          "text": "যে কোন একটি বিষয়ে প্রবন্ধ লিখুন: ৪০ ৩৬তম বিসিএস লিখিত পরীক্ষা",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "বাংলাদেশের প্রাচীন ঐতিহ্য।"
+            },
+            {
+              "label": "খ",
+              "text": "জাতীয় উন্নয়নে মুক্তিযুদ্ধের চেতনা।"
+            },
+            {
+              "label": "গ",
+              "text": "শিষ্টাচার ও সৌন্দর্য্য।"
+            },
+            {
+              "label": "ঘ",
+              "text": "বাংলাদেশে পরিবেশ বিপর্যয় ও তার প্রতিকার।"
+            },
+            {
+              "label": "ঙ",
+              "text": "নারী উন্নয়ন।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "সাধারণ বিজ্ঞান ও প্রযুক্তি",
+      "code": "০১০",
+      "fullMarks": 100,
+      "time": "৩ ঘণ্টা",
+      "questions": [
+        {
+          "number": 1,
+          "text": "একটি দুর্ঘটনায় মৃতদেহ বিকৃত হওয়ার কারণে আত্মীয়-স্বজনেরা আপনজনদের সনাক্ত-করণে ব্যর্থ হন। কর্তৃপক্ষ বিশেষ পদ্ধতির মাধ্যমে মৃতদেহ সনাক্তকরণের ব্যবস্থা করেন।",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "Gene therapy বলতে কী বোঝায়? ১"
+            },
+            {
+              "label": "খ",
+              "text": "ডি. এন. এ টেস্ট এর ব্যবহার লিখুন। ১.৫"
+            },
+            {
+              "label": "গ",
+              "text": "উদ্দীপকে কর্তৃপক্ষের গৃহীত ব্যবস্থা কীভাবে সম্পন্ন হবে তা ব্যাখ্যা করুন। ২"
+            },
+            {
+              "label": "ঘ",
+              "text": "উল্লিখিত প্রযুক্তির সুফল ব্যাখ্যা করুন। ৩"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "(ক) Body Mass Index (BMI) বলতে কী বুঝায়? ১ সৃষ্টি করে এবং এর প্রতিকার বিশ্লেষণ করুন। ৩",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "BMI মানদৃষ্টে মানুষের শরীরের যত্ম কীভাবে নেওয়া উচিত- ব্যাখ্যা করুন। ১.৫"
+            },
+            {
+              "label": "গ",
+              "text": "মানুষের শরীরে অধিক পরিমাণ ফাস্টফুড খাওয়ার প্রতিক্রিয়া কী রূপ? ২"
+            },
+            {
+              "label": "ঘ",
+              "text": "খাদ্যদ্রব্য সংরক্ষণে ফর্মালিন ও ক্যালসিয়াম কার্বাইডের ব্যবহার মানুষের শরীরে কী ধরণের প্রতিক্রিয়া"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "(ক) গ্লোবাল ওয়ার্মিং এর কারণ ও প্রভাব আলোচনা করুন। ২.৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "বিশেষ কোনো ধরনের ধান চাষ পদ্ধতি গ্লোবাল ওয়ার্মিং এর জন্য দায়ী কী না আলোচনা করুন। ২.৫"
+            },
+            {
+              "label": "গ",
+              "text": "মানবদেহে জিংক সমৃদ্ধ খাদ্যের ভূমিকা আলোচনা করুন। ২.৫"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "(ক) পানির BOD এবং TDS কী? ১",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "ফসল উৎপাদনে মৃত্তিকার PH এবং PF এর গুরুত্ব আলোচনা করুন। ২"
+            },
+            {
+              "label": "গ",
+              "text": "পরিবেশ রক্ষায় মিঠা পানির গুরুত্ব আলোচনা করুন। ২"
+            },
+            {
+              "label": "ঘ",
+              "text": "DDT মানব শরীরে কী প্রতিক্রিয়া সৃষ্টি করে? ২.৫"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "ডাক্তার পরীক্ষা করে দেখলেন অতিরিক্ত সফট ড্রিংকস পান করার ফলে আপনি পেটে ব্যথা অনুভব করছেন।",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "ইলেকট্রনীয় মতবাদ অনুসারে এসিড ও ক্ষারের সংজ্ঞা দিন। ১"
+            },
+            {
+              "label": "খ",
+              "text": "দুইটি নির্দেশকের নাম লিখুন এবং তা এসিড ও ক্ষারীয় মাধ্যমে কী বর্ণ প্রদর্শন করে উল্লেখ করুন । ২"
+            },
+            {
+              "label": "গ",
+              "text": "দৈনন্দিন জীবনে অম্ল ও ক্ষার এর বিক্রিয়ার গুরুত্ব আলোচনা করুন। ২"
+            },
+            {
+              "label": "ঘ",
+              "text": "উদ্দীপকে আপনার পেটে ব্যথার কারণ ব্যাখ্যা করুন। ২.৫"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "text": "(ক) সলিনয়েডে সৃষ্ট, চৌম্বকক্ষেত্রের প্রাবল্য কী কী উপায়ে বৃদ্ধি করা যায় আলোচনা করুন। ২.৫ প্রবাহিত হয় এবং কেন তা ব্যাখ্যা করুন। ৩",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "ট্রান্সফর্মার এ তাড়িত চৌম্বক আবেশ কীভাবে কাজ করে তা উল্লেখ করুন। ২"
+            },
+            {
+              "label": "গ",
+              "text": "নির্দিষ্ট তাপমাত্রায় একই উপাদানের মোটা ও চিকন তারের মধ্যে কোনটির মধ্য দিয়ে অধিক তড়িৎ"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "text": "দুজন শ্রমিক জাহাজ ভাঙ্গা শিল্পে কাজ করেন। কাশি ও বুকে ব্যথাসহ বিভিন্ন শারীরিক সমস্যায় দীর্ঘদিন ভুগছেন। পরীক্ষায় দেখা যায় একজনের শ্বসন অঙ্গের কোষ বিভাজন অনিয়ন্ত্রিত হয়ে পড়েছে। অন্যজনের রোগ শ্বসন অঙ্গ ছাড়াও অন্ত্র ও হাড়ে বিস্তার লাভ করেছে।",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "Benign ও Malignant ব্যাখ্যা করুন। ১"
+            },
+            {
+              "label": "খ",
+              "text": "দুজন শ্রমিকের শ্বসন অঙ্গের রোগ দুটির নাম লিখুন। ১"
+            },
+            {
+              "label": "গ",
+              "text": "দুজন শ্রমিকের রোগের মধ্যে কোনটির নিরাময় তুলনামূলকভাবে সহজতর এবং কেন-তা ব্যাখ্যা করুন।২.৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "Zika virus এ আক্রান্ত মানুষের লক্ষণ, নিবারণ ও নিয়ন্ত্রণ আলোচনা করুন। ৩"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "text": "(ক) বাংলাদেশ অংশের সুন্দরবনের আয়তন কত? ১",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "শ্বাসমূল কী? ১"
+            },
+            {
+              "label": "গ",
+              "text": "Moist deciduous, dry deciduous এবং wet deciduous বন কী? ৩"
+            },
+            {
+              "label": "ঘ",
+              "text": "Rain forest এর গুরুত্ব আলোচনা করুন। ২.৫"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "text": "(ক) Biodiversity conservation এর গুরুত্ব আলোচনা করুন। ২ মান: ২৫ (যে-কোনো ১০টি প্রশ্নের উত্তর দিন)",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "বাংলাদেশে বাঘ সংরক্ষণের হুমকিগুলি কী কী? ২"
+            },
+            {
+              "label": "গ",
+              "text": "Community Conserved Area (CCA) বলতে কী বোঝায়? ২"
+            },
+            {
+              "label": "ঘ",
+              "text": "Renewable resource বলতে কী বোঝায়? ১.৫"
+            }
+          ]
+        },
+        {
+          "number": 1,
+          "text": "একটি কম্পিউটার সিস্টেমের কম্পোনেন্টগুলির নাম ও সংক্ষিপ্ত বর্ণনা দিন। ২.৫"
+        },
+        {
+          "number": 2,
+          "text": "সামাজিক জীবনে পাঁচটি কম্পিউটারের গুরুত্বের নাম লিখুন। ২.৫"
+        },
+        {
+          "number": 3,
+          "text": "কম্পিউটারের স্মৃতির শ্রেণীবিন্যাস দেখান। ২.৫"
+        },
+        {
+          "number": 4,
+          "text": "ক্যাশ মেমরী কিভাবে কাজ করে চিত্রসহকারে সংক্ষিপ্ত বর্ণনা দিন। ২.৫"
+        },
+        {
+          "number": 5,
+          "text": "কম্পিউটার সফ্টওয়ারের সংক্ষিপ্ত শ্রেণীবিন্যাস দেখান। ২.৫"
+        },
+        {
+          "number": 6,
+          "text": "অপারেটিং সিষ্টেমের বিভিন্ন সার্ভিসগুলির নামসহ সংক্ষিপ্ত বর্ণনা দিন। ২.৫"
+        },
+        {
+          "number": 7,
+          "text": "সফ্টওয়ার কি? সিষ্টেম সফ্টওয়ার এবং অ্যাপ্লিকেশন সফ্টওয়ারের পার্থক্য লিখুন। ২.৫"
+        },
+        {
+          "number": 8,
+          "text": "LAN কি? LAN-এর বিভিন্ন প্রকার টপোলজির সংক্ষিপ্ত বর্ণনা দিন। ২.৫"
+        },
+        {
+          "number": 9,
+          "text": "রাউটার, গেটওয়ে, সুইচ এবং হাব বলতে কি বুঝায়? ২.৫"
+        },
+        {
+          "number": 10,
+          "text": "ব্লু-টুথ টেকনোলজি সম্পর্কে আলোচনা করুন। ২.৫"
+        },
+        {
+          "number": 11,
+          "text": "প্যাকেট সুইচিং এবং সার্কিট সুইচিং-এর উদাহরণসহ সংক্ষিপ্ত বর্ণনা দিন। ২.৫"
+        },
+        {
+          "number": 12,
+          "text": "ফ্লোচার্ট কি? তিনটি নাম্বার থেকে সবচেয়ে বড় নাম্বারটি খুঁজে বের করার ফ্লোচার্ট আঁকুন। ২.৫ মান: ১৫ (যে-কোনো ছয়টি প্রশ্নের উত্তর দিন:)"
+        },
+        {
+          "number": 13,
+          "text": "উদাহরণসহ Kirchoff’s voltage law বিবৃত করুন। ২.৫"
+        },
+        {
+          "number": 14,
+          "text": "সার্কিট ব্রেকার স্বয়ংক্রিয়ভাবে অফ হয় কেন? ২.৫"
+        },
+        {
+          "number": 15,
+          "text": "সিরিজ ও প্যারালাল সংযোগে তূল্যরোধ নির্ণয়ের সূত্রগুলি লিখুন। ২.৫"
+        },
+        {
+          "number": 16,
+          "text": "বিদ্যুৎ সঞ্চালন ও বিতরণের ক্ষেত্রে ট্রান্সফরমারের ভূমিকা লিখুন। ২.৫"
+        },
+        {
+          "number": 17,
+          "text": "RMS value, Average value এবং Form factor-এর সংজ্ঞা দিন। ২.৫"
+        },
+        {
+          "number": 18,
+          "text": "স্মার্ট টিভি ও সাধারণ টিভির মধ্যে পার্থক্য কি? ২.৫"
+        },
+        {
+          "number": 19,
+          "text": "একটি RLC circuit কোন্ শর্তে একটি Resistive circuit-এর ন্যায় আচরণ করে বিবৃত করুন। ২.৫"
+        },
+        {
+          "number": 20,
+          "text": "Power factor-এর প্রভাব লিখুন। ২.৫ ৩৬তম বিসিএস লিখিত পরীক্ষা"
+        }
+      ]
+    },
+    {
+      "name": "গাণিতিক যুক্তি",
+      "code": "০০৮",
+      "fullMarks": 50,
+      "time": "২ ঘণ্টা",
+      "questions": [
+        {
+          "number": 1,
+          "text": "(ক) x + হলে এর মান নির্ণয় করুন। 2.5",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "উৎপাদকে বিশ্লেষণ করুন: x (x – 1) (x – 2) (x – 3) – 24"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "একটি আয়তাকার জমির দৈর্ঘ্য 3 মিটার বাড়ালে এবং প্রস্থ 3 মিটার কমালে ক্ষেত্রফল 12 বর্গমিটার কমে যায়। আবার দৈর্ঘ্য 3 মিটার এবং প্রস্থ 3 মিটার বাড়ালে ক্ষেত্রফল 54 বর্গমিটার বাড়ে। ২+৩=৫",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "তথ্যগুলোকে বীজগাণিতিক সমীকরণরূপে প্রকাশ করুন ।"
+            },
+            {
+              "label": "খ",
+              "text": "আয়তাকার জমির দৈর্ঘ্য ও প্রস্থ নির্ণয় করুন।"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "(ক) ax2 + bx + c = 0, (a 0) সমীকরণটি সমাধান করে x এর মান নির্ণয় করুন। ২ x (x + 1) +",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "প্রাপ্ত সূত্র প্রয়োগে নিচের সমীকরণটি সমাধান করুন: ৩"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "একটি দ্রব্যের খুচরা বিক্রেতার বিক্রয়মূল্য ৩০,০৩০ টাকা। দ্রব্যটি উৎপাদনকারী ৪%, পাইকারী বিক্রেতা ২+৩=৫ ৫% এবং খুচরা বিক্রেতা ১০% লাভে বিক্রি করে।",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "পাইকারী বিক্রেতার ক্রয়মূল্য নির্ণয় করুন।"
+            },
+            {
+              "label": "খ",
+              "text": "উৎপাদন খরচ অপেক্ষা খুচরা বিক্রেতার বিক্রয়মূল্য শতকরা কত বেশী তা নির্ণয় করুন।"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "(ক) একটি খাতা ৩৬ টাকায় বিক্রয় করায় যত ক্ষতি হল ৭২ টাকায় বিক্রয় করলে তার দ্বিগুণ লাভ হত। খাতাটির ক্রয়মূল্য কত? ২",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "বনভোজনে যাওয়ার জন্য ৫৭০০ টাকায় একটি বাস ভাড়া করা হল। শর্ত থাকল যে, প্রত্যেক যাত্রী সমান ভাড়া বহন করবে। ৫ জন যাত্রী না যাওয়ায় মাথাপিছু ভাড়া ৩ টাকা বৃদ্ধি পেল। বাসে কতজন যাত্রী গিয়েছিল? ৩"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "text": "কোন পরীক্ষায় 60 জন পরীক্ষার্থীর মধ্যে 25 জন বাংলায়, 24 জন ইংরেজীতে এবং 32 জন গণিতে ফেল করেছে। 9 জন কেবলমাত্র বাংলায়, 6 জন কেবলমাত্র ইংরেজীতে, 5 জন ইংরেজী ও গণিতে এবং 3 জন বাংলা ও ইংরেজীতে ফেল করেছে। কতজন পরীক্ষার্থী তিন বিষয়ে ফেল এবং কতজন তিন বিষয়ে পাশ করেছে? ৫"
+        },
+        {
+          "number": 7,
+          "text": "(ক) দেখান যে, একটি স্বরবর্ণ থাকে?",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "COURAGE শব্দটির বর্ণগুলো নিয়ে কতগুলো বিন্যাস সংখ্যা নির্ণয় করা যায়, যেন প্রত্যেক বিন্যাসের প্রথমে"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "text": "500 জন লোকের উপর জরিপ করে দেখা গেল যে, তাদের মধ্যে 50 জন অবজারভার পড়ে না এবং 25 জন ইত্তেফাক পড়ে না। আবার 10 জন দু’টি পত্রিকার কোনটিই পড়ে না। একজন লোক নির্বিচারে নেওয়া হল। লোকটি ইত্তেফাক পড়ে কিন্তু অবজারভার পড়ে না তার সম্ভাবনা কত?"
+        },
+        {
+          "number": 9,
+          "text": "(ক) দেখান যে, sec4A – sec2A = ten4A + tan2A ২ খুঁটিটির ভাঙ্গা অংশের দৈর্ঘ্য নির্ণয় করুন। ৩",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "64 মিটার লম্বা একটি খুঁটি ভেঙ্গে গিয়ে সম্পূর্ণ বিচ্ছিন্ন না হয়ে ভূমির সাথে 600 কোণ উৎপন্ন করে।"
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "text": "ABC ত্রিভুজে AB = BC = CA = a এবং AD, BC বাহুর উপর মধ্যমা। ২+৩=৫",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "দেখান যে, ক্ষেত্র ABD = ক্ষেত্র ACD"
+            },
+            {
+              "label": "খ",
+              "text": "প্রমাণ করুন যে, ABC এর ক্ষেত্রফল ="
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "text": "একটি ত্রিভুজের তিনটি শীর্ষবিন্দু যথাক্রমে A (-2,0), B (5,1) এবং C (1,4): ২+৩=৫",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "দেখান যে, ABC একটি সমদ্বিবাহু সমকোণী ত্রিভুজ।"
+            },
+            {
+              "label": "খ",
+              "text": "শীর্ষবিন্দুর স্থানাংক ব্যবহার করে ABC ত্রিভুজের ক্ষেত্রফল নির্ণয় করুন।"
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "text": "ABC ত্রিভুজের AD, BE, CF তিনটি মধ্যমা। প্রমাণ করুন যে, (AB+BC+CA) > (AD+BE+CF) ৫ (AB + BC + CA) (AD + BE + CF)"
+        },
+        {
+          "number": 14,
+          "text": "U = , A = [বিশেষ দ্রষ্টব্য: ৩৬তম বিসিএস লিখিত মানসিক দক্ষতা পরীক্ষার প্রশ্ন Live MCQ অ্যাপসে পাওয়া যাবে।]",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "A Í নির্ণয় করুন। ২"
+            },
+            {
+              "label": "খ",
+              "text": "এবং এর উপাদান সংখ্যা সূত্রের সাহায্যে নির্ণয় করুন। ৩"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "English",
+      "code": "003",
+      "fullMarks": 0,
+      "time": "4 hours",
+      "questions": [
+        {
+          "number": 1,
+          "text": "Full Makrs: 200 Read the passage below carefully and answer the question nos. 1 – 7 that follow:- Everybody is talking about reconstruction. Most people, when asked what spiritual quality is aptly needed to rebuild-civilization, will reply ‘Love’. Men must love one another, they say; nations must do likewise, and then the series of cataclysms which is threatening to destroy us will be checked. Respectfully but firmly, I disagree. Love is a great force in private life; it is indeed the greatest of all things; but love in public affairs does not work. It has been tried again and again: by the Christian civilization of the Middle Ages, and also by the French Revolution, a secular movement which reasserted the Brotherhood of man. And it has always failed. The idea that nations should love one another, or that- business concerns or marketing boards should love one another, or that a man in Portugal should love man in Peru of whom he has never heard it is absurd, unreal, dangerous. It leads us into perilous and vague sentimentalism. ‘Love’ is what is needed’, we chant and then sit back and the world goes on as before. The fact is we can only love what we know personally. And we cannot know much. In public affairs, in the rebuilding of civilization, something much less dramatic and emotional is needed, namely, tolerance. Tolerance is a very dull virtue. It is boring. Unlike love, it has always had a bad press. It is negative. It merely means putting up with people, being able to stand things. No one has ever written an ode to tolerance, or raised a statue to her. Yet this is the quality which will be most needed after the war. This is the sound state of mind which we are earnestly looking for. This is the only force which will enable different races and classes and interests to settle down together to the work of reconstruction. The world is very full of people-appallingly full; it has never been so full before, and they are all tumbling over each other. Most of these people one doesn’t know and some of them one doesn’t like; doesn’t like the colour of their skins, say, or the shapes of their noses, or the way blow them or don’t blow them or the way they talk, or their smell or their clothes, or their fondness for Jazz or their dislike of Jazz, and so on. Well, what is one to do? There are two solutions. One of them is the Nazi solution. If you don’t like people, kill them, segregate them and then strut up and down proclaiming that you are the salt of the earth. The other way is much less thrilling, but it is on the whole the way of democracies and I prefer it. If you don’t like people, put up with them as well as you can. Don’t try to love them: you can’t, you will only strain yourself. But try to tolerate them. On the basis of that tolerance, a civilized future may be built. Certainly I can see no other foundation for the post-war world. Answer the question below. Do not copy any sentence from the passage above. Write the answers in your own sentences having your own wordings and phrasing: 3Í10 =30 (f) How does the writer describe tolerance? (g) What does the passage say about human relationship? (h) What according to the author, are the two solutions? (i) Which of the ways do the author like? (j) Give a title of the passage. Guess the meanings of the following words/expressions using contextual clues: (The words are underlined in the passage): 1Í5 =5 Fill in the table by putting words in the empty cells according to their parts of speech:- 1Í5 =5 NounVerbAdjective(a) DangerÍ(b) disagree(b) brotherhood(d) real(e) democracy Join the sets of sentences into one sentence: 2Í5=10 Write a sentence with each of the following words/expressions. Coping of any sentence from the passage above must be avoided. 10 (g) dull (h) settle down (i) fondness (j) the salt of the earth Summarize the passage in your own words in 100 words. 20 Write a feature to the editor of a renowned English Daily on “The growing importance of tolerance in our social and national life”. 20 Write an essay in about 1000 words on any one of the following topics: 50 Translate the following passage into Bangla:- 25 Should the soft spring breath of kindly appreciation warm the current chilly atmosphere, flowers of greater luxuriance and beauty soon blossom forth, to beautify and enrich our literature. If these anticipations are not realized, it will not be because there is anything in our country that is uncongenial to poetry. If we are deprived of many of the advantages of the older countries, our youthful country provides ample compensation not only in the ways in which nature unveils her most majestic forms to exalt and inspire, but also in our unshackled freedom of thought and broad spheres of action. Despite the unpropitious circumstances that exist, some true poetry has been written in our country, and represents an earnest of better things for the future and basis to hope that it will not always be winter with our native poetry. Poetry, like truth, will unveil her beauty and dispense her honour only to those who love her with a deep and reverential affection. There are many who are not gifted with the power of giving expressions to the deeper sensibilities who nevertheless experience them throbbing in their hearts. To then poetry appeals. Translate the following passage into English:- 25 মহান মুক্তিযুদ্ধই আমাদের অস্তিত্বের ঠিকানা। আমাদের জীবনে মুক্তিযুদ্ধ শুধুমাত্র একটি শব্দই নয় । মুক্তিযুদ্ধ প্রতিটি বাঙালীর অন্তরের এক অনন্ত বহ্নি শিখার নাম। মুক্তিযুদ্ধ বাঙালীর গৌরব আর গর্ব, বাঙালীর চেতনা, বাঙালীর ইস্পাতকঠিন দৃঢ়তা। বাঙালীর অনুপ্রেরণা, বাঙালীর শানিত হওয়ার অপর নাম। মুক্তিযুদ্ধই আমাদের অতীত, বর্তমান এবং ভবিষ্যৎ। আমাদের এগিয়ে যেতে হবে এই মুক্তিযুদ্ধের চেতনাকে আলোকবর্তিকা হিসেবে গ্রহণ করে। আমাদের জীবনের যাবতীয় প্রাপ্তি, স্বপ্ন-সাধ, পরিকল্পনা সব কিছু হতে হবে মুক্তিযুদ্ধের চেতনাকেন্দ্রিক। কেননা মুক্তিযুদ্ধই আমাদের জাতিসত্ত্বার ভিত্তি, আমাদের বেঁচে থাকার এবং এগিয়ে চলার একমাত্র অবলম্বন। মুক্তিযুদ্ধের ইতিহাস আমাদের নতুন প্রজন্মকে ভীষণভাবে আপ্লুত করে এবং চলার পথে অনুপ্রেরণা জোগায়, তাদের জাতীয়তাবোধ ও আত্মপরিচয় দান করে। তারা মুক্তিযুদ্ধ সম্পর্কিত বই পড়তে পছন্দ করে, মুক্তিযুদ্ধ সম্পর্কে জানার জন্য তাদের মধ্যে লক্ষ্য করা যায় গভীর আগ্রহ। মুক্তিযুদ্ধ এই প্রজন্মের দেশপ্রেমের এক অনিঃশেষ প্রেরণা ও উৎসের নাম। তরুণ প্রজন্মের ধর্মই হলো নতুনের পানে ছুটে চলা। যে জানতে চায় নিজ জাতিসত্ত্বার পরিচয়; সে যেতে চায় আপন শিকড়ের মূলে। আর এ চলার পথে তাকে উদ্বুদ্ধ করে নিজ জাতির ইতিহাস, ঐতিহ্য, লৌকিকত্ব এবং সাংস্কৃতিক চেতনা আর পরিচয়। সে এসে দাঁড়ায় ৭১ এর সামনে; সে জানতে পারে কত ত্যাগ, তিতিক্ষা ও রক্তের বিনিময়ে এ জাতি স্বাধীনতা অর্জন করেছে। আজকের তরুণ প্রজন্ম গড়ে উঠেছে মুক্তিযুদ্ধকালীন ইস্পাতকঠিন দৃঢ়তা, চেতনা ও দেশপ্রেম নিয়ে। এর প্রমাণ পাওয়া যায় একুশের বইমেলা এবং স্বাধীনতা ও বিজয় দিবসে। দেশের আনাচে কানাচে তরুণ প্রজন্মের প্রতিটি সদস্যকে তাদের কপালে ও বুকে-পিঠে জাতীয় পতাকাসহ ও পতাকাশোভিত পোশাকে শহীদ মিনার ও বিজয়স্তম্ভে উপস্থিত দেখা যায়। এটি তাদের সুগভীর দেশপ্রেমেরই বহিঃপ্রকাশ। ৭১ এর অনুপ্রেরণা, চেতনা ও দেশপ্রেম আমাদের আছে, থাকবে এবং অনন্তকাল থাকবে।",
+          "subQuestions": [
+            {
+              "label": "a",
+              "text": "What is the passage about?"
+            },
+            {
+              "label": "b",
+              "text": "What was traditionally believed to be the most powerful virtue needed for civilization?"
+            },
+            {
+              "label": "c",
+              "text": "Does the author hold the traditional view?"
+            },
+            {
+              "label": "d",
+              "text": "How does ‘love’ work for public life?"
+            },
+            {
+              "label": "e",
+              "text": "What is the most desired virtue for rebuilding civilization?"
+            },
+            {
+              "label": "a",
+              "text": "Perilous"
+            },
+            {
+              "label": "b",
+              "text": "Chant"
+            },
+            {
+              "label": "c",
+              "text": "Appallingly"
+            },
+            {
+              "label": "d",
+              "text": "Segregate"
+            },
+            {
+              "label": "e",
+              "text": "Strain"
+            },
+            {
+              "label": "a",
+              "text": "Love is a great virtue in private life. Love does not work in public life."
+            },
+            {
+              "label": "b",
+              "text": "Tolerance is a desired virtue. It is not a mere talked about thing."
+            },
+            {
+              "label": "c",
+              "text": "Love is good for private life. Tolerance is good in public life."
+            },
+            {
+              "label": "d",
+              "text": "There are two solutions; one is a Nazi solution."
+            },
+            {
+              "label": "e",
+              "text": "The way is less thrilling. I like it."
+            },
+            {
+              "label": "a",
+              "text": "Spiritual; (b) threatening;"
+            },
+            {
+              "label": "c",
+              "text": "absurd; (d) secular;"
+            },
+            {
+              "label": "e",
+              "text": "assert; (f) sentimental"
+            },
+            {
+              "label": "a",
+              "text": "Development activities in Bangladesh."
+            },
+            {
+              "label": "b",
+              "text": "Global climate crisis."
+            },
+            {
+              "label": "c",
+              "text": "Bangladeshi culture."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "বাংলাদেশ বিষয়াবলি",
+      "code": "০০৫",
+      "fullMarks": 200,
+      "time": "৪ ঘণ্টা",
+      "questions": [
+        {
+          "number": 1,
+          "text": "(ক) বাংলাদেশের ভূ-প্রকৃতিতে প্রবাল দ্বীপ এর গুরুত্ব কি? ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "বাংলাদেশের নিষ্ক্রিয় ব-দ্বীপ সমূহ বলতে কি বুঝেন? ৫"
+            },
+            {
+              "label": "গ",
+              "text": "বাংলাদেশের ভূ-প্রকৃতিতে বরেন্দ্র অঞ্চল এবং বরেন্দ্র যাদুঘর এর গুরুত্ব বর্ণনা করুন। ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "বাংলাদেশের কেন্দ্রীয় শহীদ মিনার, জাতীয় স্মৃতিসৌধ এবং সংসদ ভবনের ঐতিহাসিক গুরুত্ব কি? ৫"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "(ক) বাঙ্গালী জাতীয়তাবাদের উদ্ভবে ১৯৫২ সালের ভাষা আন্দোলন এর তাৎপর্য বর্ণনা করুন? ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "বাংলাদেশের মুক্তিযুদ্ধে ১৯৬৯ সালের গণঅভ্যুত্থান এর গুরুত্ব আলোচনা করুন। ৫"
+            },
+            {
+              "label": "গ",
+              "text": "বাংলাদেশের স্বাধীনতা সংগ্রামে ১৯৭০ সালের সাধারণ নির্বাচনের প্রভাব পর্যালোচনা করুন। ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "মুজিব নগর সরকার বলতে কী বুঝেন? ৫"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "(ক) বাংলাদেশের ১৯৭২ সালের সংবিধানের রাষ্ট্র পরিচালনার মূলনীতিগুলি কি কি? ৫ ব্যাখ্যা করুন। ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "বাংলাদেশের সংবিধান অনুসারে জনগণের মৌলিক অধিকারসমূহ কি কি? ৫"
+            },
+            {
+              "label": "গ",
+              "text": "বাংলাদেশের সংবিধানে উল্লিখিত নারীর অধিকারগুলো লিখুন। ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "“প্রজাতন্ত্রের সকল ক্ষমতার মালিক জনগণ” বাংলাদেশের সংবিধান অনুসারে সংশ্লিষ্ট অনুচ্ছেদ অনুসারে"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "(ক) বাংলাদেশের স্থানীয় সরকারের কাঠামো তুলে ধরুন। ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "স্থানীয় সরকার পৌরসভা নির্বাচন বিধিমালা-২০১৫ বর্ণনা করুন। ৫"
+            },
+            {
+              "label": "গ",
+              "text": "“বাংলাদেশের পার্বত্য জেলা স্থানীয় সরকার পরিষদ”- আলোচনা করুন। ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "“ইউনিয়ন পরিষদ নির্বাচন-২০১৬” পর্যালোচনা করুন। ৫"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "(ক) ১৯৭১ সালের ১৬ই ডিসেম্বর পাকিস্তানী বাহিনীর আত্মসমর্পণ দলিলের গুরুত্ব বর্ণনা করুন। উক্ত দলিলে পাকিস্তান ও ভারতীয় বাহিনীর পক্ষে কে কে স্বাক্ষর করেন এবং মুক্তি বাহিনীর পক্ষে কে উপস্থিত ছিলেন? ৫ (���) স্বাধীন বাংলাদেশ থেকে ভারতীয় সেনাবাহিনীর প্রত্যাহার কার্যক্রম-পর্যালোচনা করুন। ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "বঙ্গবন্ধুর স্বদেশ প্রত্যাবর্তন দিবস-আলোচনা করুন। ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "বাংলাদেশের ছিটমহল সমস্যা সমাধানে বর্তমান সরকারের অর্জন আলোচনা করুন। ৫"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "text": "(ক) সপ্তম পঞ্চবার্ষিক পরিকল্পনার মূল উদ্দেশ্যসমূহ কি কি? ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "বাংলাদেশ সরকারের ২০২১ সালের মধ্যে উন্নয়নের লক্ষ্য সমূহ পর্যালোচনা করুন। ৫"
+            },
+            {
+              "label": "গ",
+              "text": "পদ্মা সেতু প্রকল্প বাস্তবায়ন বলতে কি বুঝেন? ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "মেট্রো রেল প্রকল্পের সম্ভাবনা এবং অগ্রগতি পর্যালোচনা করুন। ৫"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "text": "(ক) নারীর ক্ষমতায়নে বর্তমান সরকারের ৫টি উল্লেখযোগ্য পদক্ষেপ কি? ৫ নাম এবং সংক্ষেপে পেশাগত জীবনী লিখুন। ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "খেতাবপ্রাপ্ত তিনজন নারী মুক্তিযোদ্ধার নাম, অবদানসহ উনারা কোন কোন সেক্টরে যুদ্ধ করেন? বর্ণনা করুন। ৫"
+            },
+            {
+              "label": "গ",
+              "text": "বাংলাদেশ সুপ্রীম কোর্টের হাইকোর্ট বিভাগে কখন প্রথম মহিলা বিচারপতি নিয়োগ দেওয়া হয়? উক্ত বিচারপতির"
+            },
+            {
+              "label": "ঘ",
+              "text": "বাংলাদেশের বর্তমান প্রধানমন্ত্রীর আন্তর্জাতিক খেতাব প্রাপ্তি সমূহ বর্ণনা করুন। ৫"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "text": "(ক) আন্তর্জাতিক অপরাধ ট্রাইবুনালে এ পর্যন্ত কতজনকে মৃত্যুদন্ড প্রদান করা হয়েছে এবং কার কার মৃত্যুদন্ড কার্যকর করা হয়েছে? ৫",
+          "subQuestions": [
+            {
+              "label": "খ",
+              "text": "E-Tendering বলতে কি বুঝায়? বাংলাদেশে কখন থেকে E-Tendering ব্যবস্থা চালু করা হয়েছে? ৫"
+            },
+            {
+              "label": "গ",
+              "text": "সাংবিধানিক পদ বলতে কি বুঝায়? বাংলাদেশে ৫টি সাংবিধানিক পদের নাম ও সংক্ষেপে দায়িত্ব লিখুন। ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "বাংলাদেশের নির্বাচনের ক্ষেত্রে নির্বাচন পর্যবেক্ষণ দলসমূহের ভূমিকা/গুরুত্ব বর্ণনা করুন। ৫"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "text": "বাংলাদেশের সংবিধানের নিম্নলিখিত সংশোধনীগুলির রাজনৈতিক প্রেক্ষাপট ও গুরুত্ব বর্ণনা করুন।",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "বাংলাদেশের সংবিধানের ৫ম সংশোধনী। ৫"
+            },
+            {
+              "label": "খ",
+              "text": "বাংলাদেশের সংবিধানের ১২তম সংশোধনী। ৫"
+            },
+            {
+              "label": "গ",
+              "text": "বাংলাদেশের সংবিধানের ১৫তম সংশোধনী। ৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "বাংলাদেশের সংবিধানের ১৬তম সংশোধনী। ৫"
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "text": "টীকা লিখুন (যে-কোনো চারটি): ৫Í৪ = ২০",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "আয়কর মেলা।"
+            },
+            {
+              "label": "খ",
+              "text": "জাতীয় শিক্ষানীতি-২০১০।"
+            },
+            {
+              "label": "গ",
+              "text": "আইন এবং অধ্যাদেশের মধ্যে পার্থক্য।"
+            },
+            {
+              "label": "ঘ",
+              "text": "SAARC এবং বাংলাদেশ।"
+            },
+            {
+              "label": "ঙ",
+              "text": "Representation of Peoples’ Order (RPO)।"
+            },
+            {
+              "label": "চ",
+              "text": "বাংলাদেশে সংবাদ পত্রের স্বাধীনতা।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "আন্তর্জাতিক বিষয়াবলি",
+      "code": "০০৭",
+      "fullMarks": 100,
+      "time": "৩ ঘণ্টা",
+      "questions": [
+        {
+          "number": 1,
+          "text": "নিম্নলিখিত যে কোন ১০টি বিষয়ের উপর সংক্ষিপ্ত আলোচনা করুন: ৪Í১০=৪০",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "(BRICS) কী?"
+            },
+            {
+              "label": "খ",
+              "text": "জাতিতাত্ত্বিক রাষ্ট্র বলতে কি বোঝায়?"
+            },
+            {
+              "label": "গ",
+              "text": "সার্বভৌমত্বের বৈশিষ্ট্যসমূহ কী কী?"
+            },
+            {
+              "label": "ঘ",
+              "text": "সন্ত্রাসবিরোধী ইসলামি সামরিক জোট সম্পর্কে লিখুন।"
+            },
+            {
+              "label": "ঙ",
+              "text": "ট্রাঞ্জিট ও শিপমেন্টের সংজ্ঞা দিন।"
+            },
+            {
+              "label": "চ",
+              "text": "বিশ্বায়ন প্রক্রিয়ার মূল চালিকা শক্তিগুলো কী কী?"
+            },
+            {
+              "label": "ছ",
+              "text": "সরকার ও রাষ্ট্রের মধ্যে পার্থক্য কী?"
+            },
+            {
+              "label": "জ",
+              "text": "“ব্রেটন উড্‌ড্স” (Bretton Woods) প্রতিষ্ঠানগুলো সম্পর্কে সংক্ষেপে লিখুন।"
+            },
+            {
+              "label": "ঝ",
+              "text": "কপিরাইট (Copyright) কী?"
+            },
+            {
+              "label": "ঞ",
+              "text": "ডব্লিউটিও (WTO) এর কার্যাবলি সংক্ষেপে লিখুন।"
+            },
+            {
+              "label": "ট",
+              "text": "অর্থনৈতিক সমৃদ্ধি অর্জনে আসিয়ান (ASEAN) কী কী পদক্ষেপ গ্রহণ করেছে?"
+            },
+            {
+              "label": "ঠ",
+              "text": "শক্তির ভারসাম্য (Balance of Power) বলতে কী বোঝায় সংক্ষেপে আলোচনা করুন।"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "যে-কোন তিনটি প্রশ্নের উত্তর দাও: ১৫Í৩=৪৫ (ii) জাতিসংঘ শান্তিরক্ষা মিশনে বাংলাদেশের অংশগ্রহণ সম্পর্কে আলোচনা করুন। ৯",
+          "subQuestions": [
+            {
+              "label": "ক",
+              "text": "বাংলাদেশ-ভারত দ্বিপাক্ষিক সম্পর্কের গুরুত্বপূর্ণ বিষয়গুলো (Important Issue) চিহ্নিত করুন। ১৫"
+            },
+            {
+              "label": "খ",
+              "text": "সিরিয়ার সাম্প্রতিক রাজনৈতিক সংকটের কারণগুলো আলোচনা করুন। ১৫"
+            },
+            {
+              "label": "গ",
+              "text": "চীন-মার্কিন সম্পর্কের প্রকৃতি নির্ণয় করুন। ১৫"
+            },
+            {
+              "label": "ঘ",
+              "text": "(i) জাতিসংঘ নিরাপত্তা পরিষদের স্থায়ী সদস্য সংখ্যা বৃদ্ধির পক্ষের যুক্তিগুলো কী? ৬"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "যুক্তরাষ্ট্রের ফেডারেল ব্যাংক থেকে বাংলাদেশ ব্যাংকের রিজার্ভ চুরিজনিত সমস্যার সমাধান ও পুনরাবৃত্তি রোধে প্রয়োজনীয় ব্যবস্থা নেয়া সম্পর্কে আলোচনা করুন। Previous Article ৩৫তম বিসিএস লিখিত পরীক্ষার প্রশ্ন PDF | 35th BCS Written Question PDF Next Article বাংলাদেশ নিরাপদ খাদ্য নিরপেক্ষ কর্তৃপক্ষ নিয়োগ বিজ্ঞপ্তি ২০২৫ Leave a Reply Cancel reply Your email address will not be published. Required fields are marked * Comment * Name * Email * Website Save my name, email, and website in this browser for the next time I comment. Searchঅনুসন্ধান সাম্প্রতিক পোস্ট ৫০তম বিসিএস লিখিত “গাণিতিক যুক্তি ও মানসিক দক্ষতা” প্রস্তুতির রুটিন ২০২৬March 6, 2026 বাংলাদেশ সরকারি চাকরির গ্রেড ও বেতন ২০২৬  February 25, 2026 স্টাডি ম্যাটেরিয়ালসহ ৫০তম বিসিএস লিখিত প্রস্তুতির এক্সাম ব্যাচ | ১ প্যাকেজে ৪ ব্যাচের পরীক্ষা February 23, 2026 ৫০তম বিসিএস লিখিত পরীক্ষার সময়সূচিFebruary 20, 2026 ৫০তম বিসিএস লিখিত “মেডিকেল অংশের” প্রস্তুতির নতুন রুটিনFebruary 19, 2026 সাম্প্রতিক মন্তব্য Live Written CRM on ৪৭তম বিসিএস লিখিত পরীক্ষার প্রশ্ন ২০২৫ | 47th BCS Written Exam QuestionMay 8, 2026 আপনার প্রশ্নটি বোধগম্য নয়। আপনি মূলত কি জানতে চাইছেন অনুগ্রহ করে বিস্তারিত বুঝিয়ে বলুন। Jehen on ৪৭তম বিসিএস লিখিত পরীক্ষার প্রশ্ন ২০২৫ | 47th BCS Written Exam QuestionMay 7, 2026 IA nai Live Written CRM on বিসিএস লিখিত পরীক্ষার সিলেবাস ও মানবন্টন | BCS Written Syllabus PDFMay 7, 2026 আমাদের Live Written অ্যাপের Study Tools >> PDF Section >> \"লিখিত রুটিন ও সিলেবাস\" বাটনে চেক করুন। খুব শীঘ্রই উক্ত&hellip; Md Juwel Hossain on বিসিএস লিখিত পরীক্ষার সিলেবাস ও মানবন্টন | BCS Written Syllabus PDFMay 6, 2026 pdf download link kothay? Live Written CRM on বিসিএস লিখিত পরীক্ষার সিলেবাস ও মানবন্টন | BCS Written Syllabus PDFApril 2, 2026 এখনো নতুন কোন সিলেবাস সম্পর্কে কোন ঘোষণা আসেনি। এটিই সর্বশেষ সিলেবাস। আর্কাইভস Archives Select Month March 2026 (1) February 2026 (9) January 2026 (4) December 2025 (10) November 2025 (5) October 2025 (38) September 2025 (33) August 2025 (23) July 2025 (36) June 2025 (24) April 2025 (7) March 2025 (5) November 2024 (2) ক্যাটাগরিজ Admit Card (2) BCS (14) BCS Circular (3) BCS Job Solution (2) BCS Preparation (9) BCS Syllabus (1) BCS Viva Suggestion (1) BCS Written Exam Suggestion (7) BCS Written Question (4) Exam Date (62) Exam Question (9) Information (1) Job Circular (27) Notice (28) Results (43) Uncategorized (1) Written Preparation (6) এই পোষ্ট গুলো আপনার পছন্দ হতে পারে BCS Written Question ৪৭তম বিসিএস লিখিত পরীক্ষার প্রশ্ন ২০২৫ | 47th BCS Written Exam Question প্রিয় চাকরি প্রার্থীগণ, ৪৭তম বিসিএস লিখিত পরীক্ষার প্রশ্ন ২০২৫ সংক্রান্ত Live Written ব্লগে আপনাদের স্বাগতম। আপনারা জানেন, ২৭ নভেম্বর ২০২৫ [&hellip;] Live Written™January 6, 20261 min read Exam Question, BCS Written Question ৪৬তম বিসিএস লিখিত পরীক্ষার প্রশ্ন �� 46th BCS Written Exam Question প্রিয় চাকরির প্রত্যাশীগণ, ৪৬তম বিসিএস লিখিত পরীক্ষার প্রশ্ন সংক্রান্ত ব্লগে আপনাদের স্বাগতম। আপনারা অবগত আছেন যে, ২৪ জুলাই, ২০২৫ তারিখ [&hellip;] Live Written™August 6, 20251 min read BCS Written Question ৩৫তম বিসিএস লিখিত পরীক্ষার প্রশ্ন PDF | 35th BCS Written Question PDF প্রিয় চাকরির প্রত্যাশীগণ, ৩৫তম বিসিএস লিখিত পরীক্ষার প্রশ্ন PDF সংক্রান্ত ব্লগে আপনাদের স্বাগতম। আপনারা নিশ্চয়ই জানেন বিসিএস পরীক্ষার সবচেয়ে গুরুত্বপূর্ণ [&hellip;] Live Written™March 12, 20257 min read বিসিএস, ব্যাংক, শিক্ষক নিবন্ধন, ৯ম–২০ তম গ্রেড সহ সকল সরকারি-বেসরকারি চাকরির লিখিত পরীক্ষার প্রস্তুতি নিন Live Written™ অ্যাপে। ৫০ হাজার+ অ্যাপ ডাউনলোড"
+        },
+        {
+          "number": 4,
+          "text": "৬ ★★★★★ Rated 4.5 out of 5 কুইক লিঙ্ক হোম ফিচারসমূহ প্যাকেজসমূহ যোগাযোগ আরও জানুন সকল পোস্ট এক্সপার্ট প্যানেল আমাদের সম্পর্কে সাধারণ জিজ্ঞাসা যোগাযোগ 01894-418123 contact@livewritten.com facebook.com/livewritten youtube.com/@LiveWritten আপনার পছন্দের ভার্সন এখান থেকে ইনস্টল করুন 📲 আমাদের সম্পর্কে গোপনীয়তা নীতিমালা © স্বত্বাধিকার ২০২২ – ২০২৬  |  সর্বস্বত্ব সংরক্ষিত  |  CrackTech Limited দ্বারা পরিচালিত Facebook Instagram Youtube Linkedin Whatsapp tiktok Envelope Lu-phone হোম আমাদের সম্পর্কে এক্সপার্ট প্যানেল সাধারণ জিজ্ঞাসা অ্যাপ গ্যালারি সকল ফিচার প্যাকেজসমূহ ব্লগ যোগাযোগ অ্যাপ ইন্সটল করুন"
+        }
+      ]
+    }
+  ]
+}
