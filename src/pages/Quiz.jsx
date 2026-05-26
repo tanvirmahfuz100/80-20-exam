@@ -30,7 +30,7 @@ const Quiz = () => {
         showExitConfirm, elapsed, wrongAttempts,
         currentLevel, levelSessionSaved,
         historicalAnswered, totalQuestionCount,
-        quizFontSize, starTargetRef, scoredIdsRef, questionStartRef,
+        quizFontSize, scoredIdsRef, questionStartRef,
         currentQuestion, shuffledOptions, gapFillGroup,
         totalXpSoFar, isReviewSession,
         selectedOriginalIdx, isCurrentCorrect, correctAnswerText, isManyOptions,
@@ -191,16 +191,10 @@ const Quiz = () => {
                             <span>{formatTime(elapsed)}</span>
                         </div>
                     )}
-                    {isReviewSession ? (
+                    {isReviewSession && (
                         <div className="px-2.5 py-1.5 rounded-xl bg-background border flex items-center gap-1.5">
                             <RefreshCw className="w-3.5 h-3.5 text-macaw" />
                             <span className="text-macaw font-black text-[10px]">RVW</span>
-                        </div>
-                    ) : (
-                        <div ref={starTargetRef} className={`px-2.5 py-1.5 rounded-xl bg-background border flex items-center gap-1.5 transition-all topbar-star-target ${balanceGlow ? 'ring-2 ring-bee/60' : ''}`} title="Stars to review">
-                            <Star className="w-3.5 h-3.5 text-bee fill-bee/30" />
-                            <span className="text-bee font-black text-xs tabular-nums">{mistakeCount}</span>
-                            <span className="text-[7px] text-text-muted font-black uppercase tracking-widest leading-none hidden xs:inline bn-text">রিভিউ</span>
                         </div>
                     )}
                 </div>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { NavLink, useLocation, Link, useNavigate } from 'react-router-dom';
 import {
   LayoutDashboard, Trophy, Target, ShoppingBag, User, Menu, X,
@@ -224,7 +224,7 @@ const NotificationCenter = () => {
     <div className="relative">
       <button
         onClick={() => { if (!show) playSound('notification'); setShow(!show); }}
-        className="p-2 bg-surface border border rounded-xl text-text-muted hover:text-text hover:border transition-all relative touch-target flex items-center justify-center"
+        className="px-2.5 py-1.5 bg-surface border rounded-xl text-text-muted hover:text-text hover:border transition-all relative touch-target flex items-center justify-center"
         aria-label="Notifications"
         aria-expanded={show}
       >
@@ -232,47 +232,38 @@ const NotificationCenter = () => {
         <span className="absolute top-2 right-2 w-2 h-2 bg-cardinal rounded-full ring-2 ring-background" aria-hidden="true" />
       </button>
 
-      {show && (
-        <div
-          ref={panelRef}
-          role="dialog"
-          aria-label="Notifications"
-          className={`
-            md:absolute md:right-0 md:mt-2 md:w-80 z-50
-            md:bg-surface md:border md:border md:rounded-2xl md:shadow-lg md:p-5
-            fixed inset-0 md:inset-auto
-            bg-surface
-            p-4 md:p-5
-            pt-safe-top
-            flex flex-col
-            md:block
-            animate-scaleIn
-          `}
-        >
-          <div className="flex items-center justify-between mb-4 shrink-0">
-            <h4 className="text-xs font-black uppercase tracking-widest text-text bn-text">
-              নোটিফিকেশন
-            </h4>
-            <button
-              onClick={() => setShow(false)}
-              className="p-1.5 md:hidden text-text-muted hover:text-text"
-              aria-label="Close notifications"
+      <AnimatePresence>
+        {show && (
+          <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
+            <div className="absolute inset-0 bg-black/60" onClick={() => setShow(false)} />
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 40 }}
+              transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+              className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
+              onClick={e => e.stopPropagation()}
             >
-              <X className="w-5 h-5" />
-            </button>
+              <div className="flex items-center justify-between">
+                <h3 className="text-sm font-bold text-text">নোটিফিকেশন</h3>
+                <button onClick={() => setShow(false)} className="text-text-muted hover:text-text transition-colors p-1">
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+              <div className="space-y-3">
+                <div className="p-3.5 bg-background rounded-xl border">
+                  <p className="text-sm text-text font-medium leading-relaxed">
+                    নতুন বিসিএস প্রশ্ন প্রস্তুত! এখনই দেখে নাও।
+                  </p>
+                  <span className="text-[10px] text-text-muted font-bold mt-1.5 block uppercase">
+                    এইমাত্র
+                  </span>
+                </div>
+              </div>
+            </motion.div>
           </div>
-          <div className="space-y-3 flex-1 overflow-y-auto">
-            <div className="p-3.5 bg-background rounded-xl border border">
-              <p className="text-sm text-text font-medium leading-relaxed">
-                নতুন বিসিএস প্রশ্ন প্রস্তুত! এখনই দেখে নাও।
-              </p>
-              <span className="text-[10px] text-text-muted font-bold mt-1.5 block uppercase">
-                এইমাত্র
-              </span>
-            </div>
-          </div>
-        </div>
-      )}
+        )}
+      </AnimatePresence>
     </div>
   );
 };
