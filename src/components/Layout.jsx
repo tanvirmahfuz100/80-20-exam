@@ -323,6 +323,8 @@ const Layout = ({ children }) => {
   const isLandingPage = location.pathname === '/welcome';
   const isQuizPage = location.pathname.startsWith('/quiz/');
   const hideLayout = isAuthPage || isLandingPage;
+  const isOnboarding = !localStorage.getItem('user_exam_path') &&
+    (location.pathname === '/' || location.pathname === '/learn');
 
   useEffect(() => {
     const refreshBalances = () => {
@@ -424,7 +426,7 @@ const Layout = ({ children }) => {
         </main>
       </div>
 
-      {!hideLayout && <MobileBottomNav />}
+      {!hideLayout && !isOnboarding && <MobileBottomNav />}
     </div>
   );
 };
