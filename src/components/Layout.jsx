@@ -202,68 +202,18 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
   );
 };
 
-const NotificationCenter = () => {
-  const [show, setShow] = useState(false);
-  const panelRef = useRef(null);
-
-  useEffect(() => {
-    if (!show) return;
-    const handleKey = (e) => { if (e.key === 'Escape') setShow(false); };
-    const handleClick = (e) => {
-      if (panelRef.current && !panelRef.current.contains(e.target)) setShow(false);
-    };
-    document.addEventListener('keydown', handleKey);
-    document.addEventListener('mousedown', handleClick);
-    return () => {
-      document.removeEventListener('keydown', handleKey);
-      document.removeEventListener('mousedown', handleClick);
-    };
-  }, [show]);
-
+const NotificationCenter = ({ isOpen, onToggle }) => {
   return (
     <div className="relative">
       <button
-        onClick={() => { if (!show) playSound('notification'); setShow(!show); }}
+        onClick={() => { if (!isOpen) playSound('notification'); onToggle(); }}
         className="p-1.5 text-text-muted hover:text-text hover:bg-surface-hover transition-all relative touch-target flex items-center justify-center rounded-xl"
         aria-label="Notifications"
-        aria-expanded={show}
+        aria-expanded={isOpen}
       >
         <Bell className="w-4 h-4" aria-hidden="true" />
         <span className="absolute top-2 right-2 w-2 h-2 bg-cardinal rounded-full ring-2 ring-background" aria-hidden="true" />
       </button>
-
-      <AnimatePresence>
-        {show && (
-          <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
-            <div className="absolute inset-0 bg-black/60" onClick={() => setShow(false)} />
-            <motion.div
-              initial={{ opacity: 0, y: 40 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: 40 }}
-              transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-              className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
-              onClick={e => e.stopPropagation()}
-            >
-              <div className="flex items-center justify-between">
-                <h3 className="text-sm font-bold text-text">নোটিফিকেশন</h3>
-                <button onClick={() => setShow(false)} className="text-text-muted hover:text-text transition-colors p-1">
-                  <X className="w-5 h-5" />
-                </button>
-              </div>
-              <div className="space-y-3">
-                <div className="p-3.5 bg-background rounded-xl border">
-                  <p className="text-sm text-text font-medium leading-relaxed">
-                    নতুন বিসিএস প্রশ্ন প্রস্তুত! এখনই দেখে নাও।
-                  </p>
-                  <span className="text-[10px] text-text-muted font-bold mt-1.5 block uppercase">
-                    এইমাত্র
-                  </span>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        )}
-      </AnimatePresence>
     </div>
   );
 };
@@ -340,6 +290,7 @@ const Layout = ({ children }) => {
     };
   }, [profile]);
 
+  const [showNotification, setShowNotification] = useState(false);
   const [showStreakPopup, setShowStreakPopup] = useState(false);
   const [showGemPopup, setShowGemPopup] = useState(false);
   const [showStarPopup, setShowStarPopup] = useState(false);
@@ -461,7 +412,7 @@ const Layout = ({ children }) => {
                   <Star className="w-4 h-4 text-bee fill-bee/30" />
                   <span className="text-sm font-black text-bee">{globalStarBalance}</span>
                 </button>
-                <NotificationCenter />
+                <NotificationCenter isOpen={showNotification} onToggle={() => setShowNotification(prev => !prev)} />
               </div>
 
               {user && (
@@ -551,6 +502,39 @@ const Layout = ({ children }) => {
           </motion.div>
         </div>
       )}
+
+      <AnimatePresence>
+        {showNotification && (
+          <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
+            <div className="absolute inset-0 bg-black/60" onClick={() => setShowNotification(false)} />
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 40 }}
+              transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+              className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
+              onClick={e => e.stopPropagation()}
+            >
+              <div className="flex items-center justify-between">
+                <h3 className="text-sm font-bold text-text">নোটিফিকেশন</h3>
+                <button onClick={() => setShowNotification(false)} className="text-text-muted hover:text-text transition-colors p-1">
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+              <div className="space-y-3">
+                <div className="p-3.5 bg-background rounded-xl border">
+                  <p className="text-sm text-text font-medium leading-relaxed">
+                    নতুন বিসিএস প্রশ্ন প্রস্তুত! এখনই দেখে নাও।
+                  </p>
+                  <span className="text-[10px] text-text-muted font-bold mt-1.5 block uppercase">
+                    এইমাত্র
+                  </span>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };
