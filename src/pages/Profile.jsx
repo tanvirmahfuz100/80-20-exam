@@ -60,17 +60,17 @@ export default function Profile() {
         <div className="bg-surface border rounded-2xl p-3.5 text-center">
           <Flame className="w-5 h-5 text-orange-500 mx-auto mb-1" />
           <p className="text-lg font-black text-text">{streak}</p>
-          <p className="text-[10px] text-text-muted font-bold uppercase tracking-wider">স্ট্রিক</p>
+                    <p className="text-[10px] text-text-muted font-bold uppercase tracking-wider bn-text">স্ট্রিক</p>
         </div>
         <div className="bg-surface border rounded-2xl p-3.5 text-center">
           <Star className="w-5 h-5 text-yellow-500 mx-auto mb-1 fill-yellow-500/30" />
           <p className="text-lg font-black text-text">{xp}</p>
-          <p className="text-[10px] text-text-muted font-bold uppercase tracking-wider">এক্সপি</p>
+                    <p className="text-[10px] text-text-muted font-bold uppercase tracking-wider bn-text">এক্সপি</p>
         </div>
         <div className="bg-surface border rounded-2xl p-3.5 text-center">
           <Gem className="w-5 h-5 text-cyan-500 mx-auto mb-1" />
           <p className="text-lg font-black text-text">{gems}</p>
-          <p className="text-[10px] text-text-muted font-bold uppercase tracking-wider">জেমস</p>
+                    <p className="text-[10px] text-text-muted font-bold uppercase tracking-wider bn-text">জেমস</p>
         </div>
       </div>
 

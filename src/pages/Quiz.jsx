@@ -54,7 +54,7 @@ const Quiz = () => {
             <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-4 md:mb-5 rounded-2xl md:rounded-3xl bg-primary/10 border border-primary/20 flex items-center justify-center">
                 <Sparkles className="w-6 h-6 md:w-8 md:h-8 text-primary" />
             </div>
-            <h3 className="text-text font-black text-xl md:text-2xl tracking-tighter mb-3">লেসন পথ বিরতি</h3>
+            <h3 className="text-text font-black text-xl md:text-2xl tracking-tighter mb-3 bn-text">লেসন পথ বিরতি</h3>
             <p className="text-text-muted font-medium leading-relaxed">{error}</p>
             <Link to="/practice" className="mt-5 md:mt-6 inline-flex items-center justify-center rounded-full bg-primary px-6 md:px-8 py-3 text-sm font-bold text-white transition-all hover:bg-primary-hover active:scale-95">
                 প্রাক্টিসে ফিরে যাও
@@ -129,7 +129,7 @@ const Quiz = () => {
                         {currentLevel ? (
                             <>
                                 <div className="flex items-center gap-1.5 mb-1">
-                                    <span className="text-[10px] font-black text-primary uppercase tracking-wider">লেভেল {currentLevel}</span>
+                                    <span className="text-[10px] font-black text-primary uppercase tracking-wider bn-text">লেভেল {currentLevel}</span>
                                     <span className="text-[10px] text-text-muted">·</span>
                                     <span className="text-[10px] font-medium text-text-muted">প্রশ্ন {currentIndex + 1} / {questions.length}</span>
                                 </div>
@@ -204,7 +204,7 @@ const Quiz = () => {
                         <div ref={starTargetRef} className={`px-2.5 py-1.5 rounded-xl bg-background border flex items-center gap-1.5 transition-all topbar-star-target ${balanceGlow ? 'ring-2 ring-bee/60' : ''}`} title="Stars to review">
                             <Star className="w-3.5 h-3.5 text-bee fill-bee/30" />
                             <span className="text-bee font-black text-xs tabular-nums">{mistakeCount}</span>
-                            <span className="text-[7px] text-text-muted font-black uppercase tracking-widest leading-none hidden xs:inline">রিভিউ</span>
+                            <span className="text-[7px] text-text-muted font-black uppercase tracking-widest leading-none hidden xs:inline bn-text">রিভিউ</span>
                         </div>
                     )}
                 </div>
@@ -486,18 +486,18 @@ const Quiz = () => {
                                                         <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
                                                             <CheckCircle2 className="w-5 h-5 text-white shrink-0" />
                                                         </div>
-                                                        <h4 className="text-primary font-black text-sm uppercase tracking-wider">সঠিক!</h4>
+                                                        <h4 className="text-primary font-black text-sm uppercase tracking-wider bn-text">সঠিক!</h4>
                                                     </div>
                                                     <div className="flex-1 overflow-y-auto min-h-0 space-y-3 text-xs md:text-sm">
                                                         {(currentQ.explanation_bn || currentQ.explanation) && (
                                                             <div className="bg-surface rounded-xl p-3 border border-primary/10">
-                                                                <p className="font-bold text-primary/60 uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
+                                                                <p className="font-bold text-primary/60 uppercase tracking-wider text-[10px] mb-1 bn-text">বাংলা ব্যাখ্যা</p>
                                                                 <p className="text-text/80 leading-relaxed">{currentQ.explanation_bn || currentQ.explanation}</p>
                                                             </div>
                                                         )}
                                                         {currentQ.explanation_en && (
                                                             <div className="bg-surface rounded-xl p-3 border border-primary/10">
-                                                                <p className="font-bold text-primary/60 uppercase tracking-wider text-[10px] mb-1">ইংরেজি ব্যাখ্যা</p>
+                                                                <p className="font-bold text-primary/60 uppercase tracking-wider text-[10px] mb-1 bn-text">ইংরেজি ব্যাখ্যা</p>
                                                                 <p className="text-text/80 leading-relaxed">{currentQ.explanation_en}</p>
                                                             </div>
                                                         )}
@@ -506,7 +506,7 @@ const Quiz = () => {
                                                         )}
                                                         {currentQ.explanation_distractors && currentQ.explanation_distractors.length > 0 && (
                                                             <div className="bg-surface rounded-xl p-3 border border-primary/10">
-                                                                <p className="font-bold text-primary/60 uppercase tracking-wider text-[10px] mb-2">অন্য অপশনগুলো কেন ভুল</p>
+                                                                <p className="font-bold text-primary/60 uppercase tracking-wider text-[10px] mb-2 bn-text">অন্য অপশনগুলো কেন ভুল</p>
                                                                 {currentQ.explanation_distractors.map((d, i) => (
                                                                     <div key={i} className="mb-1.5 last:mb-0">
                                                                         <p className="text-text/90 text-[11px] font-medium mb-0.5">"{d.option}"</p>
@@ -522,7 +522,7 @@ const Quiz = () => {
                                                             href={currentQ.explanation_video_url}
                                                             target="_blank"
                                                             rel="noopener noreferrer"
-                                                            className="inline-flex items-center gap-1.5 text-primary/60 hover:text-primary text-[10px] font-black uppercase tracking-widest transition-colors shrink-0"
+                                                            className="inline-flex items-center gap-1.5 text-primary/60 hover:text-primary text-[10px] font-black uppercase tracking-widest transition-colors shrink-0 bn-text"
                                                         >
                                                             <Video className="w-3.5 h-3.5" />
                                                             ভিডিও দেখো
@@ -541,13 +541,13 @@ const Quiz = () => {
                                                         <div className="w-8 h-8 bg-cardinal rounded-full flex items-center justify-center">
                                                             <XCircle className="w-5 h-5 text-white shrink-0" />
                                                         </div>
-                                                        <h4 className="text-cardinal font-black text-sm uppercase tracking-wider">ভুল!</h4>
+                                                        <h4 className="text-cardinal font-black text-sm uppercase tracking-wider bn-text">ভুল!</h4>
                                                     </div>
 
                                                     <div className="flex flex-wrap items-center gap-2 shrink-0">
                                                         <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface border border-cardinal/20">
                                                             <CheckCircle2 className="w-3.5 h-3.5 text-primary shrink-0" />
-                                                            <span className="text-[9px] font-black uppercase tracking-wider text-text-muted">সঠিক উত্তর:</span>
+                                                            <span className="text-[9px] font-black uppercase tracking-wider text-text-muted bn-text">সঠিক উত্তর:</span>
                                                             <span className="font-bold text-sm text-primary">{stripMath(correctAnswerText)}</span>
                                                         </div>
                                                     </div>
@@ -559,19 +559,19 @@ const Quiz = () => {
                                                     <div className="flex-1 overflow-y-auto min-h-0 space-y-3 text-xs md:text-sm">
                                                         {(currentQ.explanation_bn || currentQ.explanation) && (
                                                             <div className="bg-surface rounded-xl p-3 border border-cardinal/10">
-                                                                <p className="font-bold text-cardinal/60 uppercase tracking-wider text-[10px] mb-1">বাংলা ব্যাখ্যা</p>
+                                                                <p className="font-bold text-cardinal/60 uppercase tracking-wider text-[10px] mb-1 bn-text">বাংলা ব্যাখ্যা</p>
                                                                 <p className="text-text/80 leading-relaxed">{currentQ.explanation_bn || currentQ.explanation}</p>
                                                             </div>
                                                         )}
                                                         {currentQ.explanation_en && (
                                                             <div className="bg-surface rounded-xl p-3 border border-cardinal/10">
-                                                                <p className="font-bold text-cardinal/60 uppercase tracking-wider text-[10px] mb-1">ইংরেজি ব্যাখ্যা</p>
+                                                                <p className="font-bold text-cardinal/60 uppercase tracking-wider text-[10px] mb-1 bn-text">ইংরেজি ব্যাখ্যা</p>
                                                                 <p className="text-text/80 leading-relaxed">{currentQ.explanation_en}</p>
                                                             </div>
                                                         )}
                                                         {currentQ.explanation_distractors && currentQ.explanation_distractors.length > 0 && (
                                                             <div className="bg-surface rounded-xl p-3 border border-cardinal/10">
-                                                                <p className="font-bold text-cardinal/60 uppercase tracking-wider text-[10px] mb-2">অন্য অপশনগুলো কেন ভুল</p>
+                                                                <p className="font-bold text-cardinal/60 uppercase tracking-wider text-[10px] mb-2 bn-text">অন্য অপশনগুলো কেন ভুল</p>
                                                                 {currentQ.explanation_distractors.map((d, i) => (
                                                                     <div key={i} className="mb-1.5 last:mb-0">
                                                                         <p className="text-text/90 text-[11px] font-medium mb-0.5">"{d.option}"</p>

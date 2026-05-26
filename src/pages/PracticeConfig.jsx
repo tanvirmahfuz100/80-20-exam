@@ -32,7 +32,7 @@ const PracticeConfig = () => {
                 <Sparkles className="w-8 h-8 md:w-10 md:h-10 text-primary" />
             </div>
             <div>
-                <h3 className="text-text font-black text-lg md:text-xl tracking-tighter">পথ বিরতি</h3>
+                <h3 className="text-text font-black text-lg md:text-xl tracking-tighter bn-text">পথ বিরতি</h3>
                 <p className="text-text-muted text-sm max-w-sm mx-auto mt-2 font-medium">{error}। আমরা লেসন লোড করতে পারিনি।</p>
             </div>
         </div>
@@ -51,7 +51,7 @@ const PracticeConfig = () => {
                         initial={{ opacity: 0, x: -12 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.05, duration: 0.3 }}
-                        className="text-xl md:text-3xl font-black text-text tracking-tight mb-1"
+                        className="text-xl md:text-3xl font-black text-text tracking-tight mb-1 bn-text"
                     >
                         চলো <span className="text-primary">প্রাক্টিস করি!</span>
                     </motion.h1>
@@ -68,7 +68,7 @@ const PracticeConfig = () => {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.18 }}
-                            className="mt-1 text-[10px] font-bold uppercase tracking-[0.15em] text-primary/60 truncate"
+                            className="mt-1 text-[10px] font-bold uppercase tracking-[0.15em] text-primary/60 truncate bn-text"
                         >
                             এক্সাম: {selectedExam.label} &bull; ভার্সন: {versionLabel}
                         </motion.p>
@@ -80,10 +80,10 @@ const PracticeConfig = () => {
                     transition={{ delay: 0.15 }}
                     className="bg-background border p-0.5 rounded-xl flex items-center gap-0.5 self-start md:self-end shrink-0 relative z-10"
                 >
-                    <button onClick={() => setIsTimed(false)} className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-[10px] font-bold tracking-wider transition-all whitespace-nowrap ${!isTimed ? 'bg-primary text-white shadow-sm' : 'text-text-muted hover:text-text'}`}>
+                    <button onClick={() => setIsTimed(false)} className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-[10px] font-bold tracking-wider transition-all whitespace-nowrap bn-text ${!isTimed ? 'bg-primary text-white shadow-sm' : 'text-text-muted hover:text-text'}`}>
                         আনটাইমড
                     </button>
-                    <button onClick={() => setIsTimed(true)} className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-[10px] font-bold tracking-wider transition-all whitespace-nowrap ${isTimed ? 'bg-primary text-white shadow-sm' : 'text-text-muted hover:text-text'}`}>
+                    <button onClick={() => setIsTimed(true)} className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-[10px] font-bold tracking-wider transition-all whitespace-nowrap bn-text ${isTimed ? 'bg-primary text-white shadow-sm' : 'text-text-muted hover:text-text'}`}>
                         <Timer className="w-3.5 h-3.5" />
                         টাইমড
                     </button>
@@ -94,7 +94,7 @@ const PracticeConfig = () => {
                 initial={{ opacity: 0, y: -8 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1, duration: 0.25 }}
-                className="flex items-center gap-1 md:gap-2 text-[10px] font-bold uppercase tracking-[0.12em] py-2.5 md:py-3 px-3 md:px-4 bg-surface border rounded-xl overflow-x-auto no-scrollbar"
+                className="flex items-center gap-1 md:gap-2 text-[10px] font-bold uppercase tracking-[0.12em] py-2.5 md:py-3 px-3 md:px-4 bg-surface border rounded-xl overflow-x-auto no-scrollbar bn-text"
             >
                 {steps.map((s, i) => (
                     <React.Fragment key={s.key}>
@@ -195,7 +195,7 @@ const PracticeConfig = () => {
                         )}
                         {step === 1 && (
                             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }}>
-                                <button onClick={() => goToStep(0)} className="text-[10px] font-black uppercase tracking-[0.2em] text-text-dim hover:text-text-muted transition-colors mt-2">
+                                <button onClick={() => goToStep(0)} className="text-[10px] font-black uppercase tracking-[0.2em] text-text-dim hover:text-text-muted transition-colors mt-2 bn-text">
                                     ← এক্সামে ফিরে যাও
                                 </button>
                             </motion.div>
@@ -212,7 +212,7 @@ const PracticeConfig = () => {
                             initial={{ opacity: 0, x: -12 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ delay: 0.05 }}
-                            className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.2em]"
+                            className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.2em] bn-text"
                         >
                             <span className="text-text-dim">{selectedExam.label}</span>
                             <span className="text-text-dim">/</span>
@@ -229,7 +229,7 @@ const PracticeConfig = () => {
                                         {topic.chapters.length > 1 && (
                                             <div className="flex items-center gap-2 pb-1.5">
                                                 <div className="w-0.5 h-3 bg-primary/40 rounded-full shrink-0" />
-                                                <span className="text-[9px] font-black uppercase tracking-[0.2em] text-text-dim">{version === 'english' ? (topic.name_en || topic.name) : (topic.name_bn || topic.name)}</span>
+                                                <span className="text-[9px] font-black uppercase tracking-[0.2em] text-text-dim bn-text">{version === 'english' ? (topic.name_en || topic.name) : (topic.name_bn || topic.name)}</span>
                                             </div>
                                         )}
                                         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -262,7 +262,7 @@ const PracticeConfig = () => {
                                                     <div className="w-12 h-12 opacity-40">
                                                         <LottieAnimation src={meditatingBrainAnimation} className="w-full h-full" pingPong />
                                                     </div>
-                                                    <p className="text-xs text-text-dim font-black uppercase tracking-widest">চ্যাপ্টার শীঘ্রই আসছে!</p>
+                                                    <p className="text-xs text-text-dim font-black uppercase tracking-widest bn-text">চ্যাপ্টার শীঘ্রই আসছে!</p>
                                                 </motion.div>
                                             )}
                                         </div>
@@ -277,10 +277,10 @@ const PracticeConfig = () => {
                             transition={{ delay: 0.3 }}
                             className="flex items-center gap-3 pt-2"
                         >
-                            <button onClick={() => goToStep(1)} className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.15em] text-text-dim hover:text-text-muted transition-colors px-3 py-2 rounded-lg hover:bg-surface-alt">
+                            <button onClick={() => goToStep(1)} className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.15em] text-text-dim hover:text-text-muted transition-colors px-3 py-2 rounded-lg hover:bg-surface-alt bn-text">
                                 ← সাবজেক্ট
                             </button>
-                            <button onClick={() => goToStep(0)} className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.15em] text-text-dim hover:text-text-muted transition-colors px-3 py-2 rounded-lg hover:bg-surface-alt">
+                            <button onClick={() => goToStep(0)} className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.15em] text-text-dim hover:text-text-muted transition-colors px-3 py-2 rounded-lg hover:bg-surface-alt bn-text">
                                 ← এক্সাম
                             </button>
                         </motion.div>

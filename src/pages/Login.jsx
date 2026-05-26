@@ -31,7 +31,7 @@ const Login = () => {
                         <Sparkles className="w-8 h-8 text-primary" />
                     </div>
                     <div>
-                        <h2 className="text-2xl font-black text-text tracking-tight">স্বাগতম!</h2>
+                        <h2 className="text-2xl font-black text-text tracking-tight bn-text">স্বাগতম!</h2>
                         <p className="text-sm text-text-muted font-medium mt-1">লোকাল টেস্টিং মোড - সব ফিচার ওপেন</p>
                     </div>
                 </div>

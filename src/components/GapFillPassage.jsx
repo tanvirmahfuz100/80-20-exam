@@ -452,7 +452,7 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
               <div className="space-y-3 max-h-[35vh] overflow-y-auto">
                 {explanationPanel.explanationBn && (
                   <div>
-                    <p className="font-bold text-text-dim uppercase tracking-wider text-2xs mb-1">বাংলা ব্যাখ্যা</p>
+                    <p className="font-bold text-text-dim uppercase tracking-wider text-2xs mb-1 bn-text">বাংলা ব্যাখ্যা</p>
                     <p className="text-text leading-relaxed text-sm">{explanationPanel.explanationBn}</p>
                   </div>
                 )}

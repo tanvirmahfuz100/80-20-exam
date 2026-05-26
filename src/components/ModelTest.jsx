@@ -38,7 +38,7 @@ const VocabPopup = ({ vocab, onClose }) => {
         </div>
         {vocab.meaning_bn && (
           <div>
-            <p className="text-[9px] font-black text-text-dim uppercase tracking-wider mb-0.5">বাংলা অর্থ</p>
+            <p className="text-[9px] font-black text-text-dim uppercase tracking-wider mb-0.5 bn-text">বাংলা অর্থ</p>
             <p className="text-text font-medium leading-relaxed" style={{ fontSize: '14px' }}>{vocab.meaning_bn}</p>
           </div>
         )}
@@ -352,7 +352,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
                 )}
                 {q.explanation_bn && (
                   <div>
-                    <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-0.5">বাংলা ব্যাখ্যা</p>
+                    <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-0.5 bn-text">বাংলা ব্যাখ্যা</p>
                     <p className="text-text font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>{q.explanation_bn}</p>
                   </div>
                 )}
@@ -437,19 +437,17 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
               <p className="text-text font-medium leading-relaxed whitespace-pre-wrap" style={{ fontSize: `${fontSize}px` }}>
                 {currentPassage}
               </p>
-              {currentVocab.length > 0 && (
-                <div>
-                  <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-1.5">Vocabulary</p>
-                  <div className="flex flex-wrap gap-1.5">
-                    {currentVocab.map((v, i) => (
-                      <VocabChip key={i} vocab={v} onClick={setActiveVocab} />
-                    ))}
-                  </div>
+              {currentTranslation && (
+                <div className="p-3 rounded-xl bg-surface-alt border">
+                  <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-1 bn-text">বাংলা অনুবাদ</p>
+                  <p className="text-text-muted font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>
+                    {currentTranslation}
+                  </p>
                 </div>
               )}
               {currentTranslation && (
                 <div className="p-3 rounded-xl bg-surface-alt border">
-                  <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-1">বাংলা অনুবাদ</p>
+                  <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-1 bn-text">বাংলা অনুবাদ</p>
                   <p className="text-text-muted font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>
                     {currentTranslation}
                   </p>
@@ -473,19 +471,17 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
               <p className="text-text font-medium leading-relaxed whitespace-pre-wrap" style={{ fontSize: `${fontSize}px` }}>
                 {currentPassage}
               </p>
-              {currentVocab.length > 0 && (
-                <div>
-                  <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-1.5">Vocabulary</p>
-                  <div className="flex flex-wrap gap-1.5">
-                    {currentVocab.map((v, i) => (
-                      <VocabChip key={i} vocab={v} onClick={setActiveVocab} />
-                    ))}
-                  </div>
+              {currentTranslation && (
+                <div className="p-3 rounded-xl bg-surface-alt border">
+                  <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-1 bn-text">বাংলা অনুবাদ</p>
+                  <p className="text-text-muted font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>
+                    {currentTranslation}
+                  </p>
                 </div>
               )}
               {currentTranslation && (
                 <div className="p-3 rounded-xl bg-surface-alt border">
-                  <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-1">বাংলা অনুবাদ</p>
+                  <p className="text-[8px] font-black text-text-dim uppercase tracking-wider mb-1 bn-text">বাংলা অনুবাদ</p>
                   <p className="text-text-muted font-medium leading-relaxed" style={{ fontSize: `${Math.max(12, fontSize - 1)}px` }}>
                     {currentTranslation}
                   </p>

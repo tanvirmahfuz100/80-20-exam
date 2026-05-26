@@ -47,7 +47,7 @@ export default function Leaderboard() {
       <div className={`${currentLeague.bg} ${currentLeague.border} border-2 rounded-2xl p-4 mb-6`}>
         <div className="flex items-center justify-between">
           <div>
-            <p className={`text-[10px] font-black uppercase tracking-widest ${currentLeague.text}`}>
+            <p className={`text-[10px] font-black uppercase tracking-widest ${currentLeague.text} bn-text`}>
               বর্তমান লিগ
             </p>
             <p className={`text-lg font-black ${currentLeague.text} mt-0.5`}>

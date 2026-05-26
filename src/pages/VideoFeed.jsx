@@ -74,8 +74,8 @@ const VideoFeed = () => {
                                 80
                             </div>
                             <div>
-                                <h4 className="text-white font-black tracking-tighter uppercase text-xs md:text-sm">ফায়ারম্যান অ্যাকাডেমি</h4>
-                                <p className="text-[9px] font-black text-primary uppercase tracking-widest">দৈনিক টিপসের জন্য ফলো করো</p>
+                                <h4 className="text-white font-black tracking-tighter uppercase text-xs md:text-sm bn-text">ফায়ারম্যান অ্যাকাডেমি</h4>
+                                <p className="text-[9px] font-black text-primary uppercase tracking-widest bn-text">দৈনিক টিপসের জন্য ফলো করো</p>
                             </div>
                         </div>
 
@@ -83,7 +83,7 @@ const VideoFeed = () => {
                             <h2 className="text-base md:text-xl font-black text-white tracking-tight leading-tight uppercase">{vid.title}</h2>
                             <div className="flex items-center gap-2 text-white/40">
                                 <Music2 className="w-3 h-3" />
-                                <span className="text-[10px] font-black uppercase tracking-[0.2em] whitespace-nowrap overflow-hidden">ব্রেন পাওয়ার - অরিজিনাল লেসন অডিও</span>
+                                <span className="text-[10px] font-black uppercase tracking-[0.2em] whitespace-nowrap overflow-hidden bn-text">ব্রেন পাওয়ার - অরিজিনাল লেসন অডিও</span>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ const VideoFeed = () => {
             {videos.length === 0 && (
                 <div className="h-full flex flex-col items-center justify-center p-12 text-center text-white/20">
                     <Play className="w-10 h-12 md:w-12 mb-4 opacity-5" />
-                    <p className="font-black uppercase tracking-widest text-xs">এখনো কোনো শর্টস নেই!</p>
+                    <p className="font-black uppercase tracking-widest text-xs bn-text">এখনো কোনো শর্টস নেই!</p>
                 </div>
             )}
         </div>

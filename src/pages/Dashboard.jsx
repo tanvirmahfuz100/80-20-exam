@@ -153,7 +153,7 @@ const Dashboard = () => {
 
         <div className="relative z-10 flex items-start justify-between gap-3 mb-4">
           <div className="min-w-0 flex-1">
-            <p className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim mb-1">
+            <p className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim mb-1 bn-text">
               {new Date().getHours() < 12 ? 'সুপ্রভাত' : new Date().getHours() < 18 ? 'শুভ অপরাহ্ন' : 'শুভ সন্ধ্যা'}
             </p>
             <h1 className="text-xl md:text-3xl font-black text-text tracking-tighter truncate">
@@ -179,7 +179,7 @@ const Dashboard = () => {
           <div className="flex items-center gap-1.5">
             <Flame className="w-3.5 h-3.5 text-orange-400 shrink-0" />
             <div>
-              <p className="text-3xs font-black uppercase tracking-widest text-text-dim leading-none mb-0.5">{streak}d স্ট্রিক</p>
+              <p className="text-3xs font-black uppercase tracking-widest text-text-dim leading-none mb-0.5 bn-text">{streak}d স্ট্রিক</p>
               <p className="text-sm md:text-base font-black text-text leading-none">{totalXp} <span className="text-3xs font-bold text-text-muted">XP</span></p>
             </div>
           </div>
@@ -187,7 +187,7 @@ const Dashboard = () => {
           <div className="flex items-center gap-1.5">
             <Star className="w-3.5 h-3.5 text-yellow-400 shrink-0" />
             <div>
-              <p className="text-3xs font-black uppercase tracking-widest text-text-dim leading-none mb-0.5">স্টার</p>
+              <p className="text-3xs font-black uppercase tracking-widest text-text-dim leading-none mb-0.5 bn-text">স্টার</p>
               <p className="text-sm md:text-base font-black text-yellow-400 leading-none">{userGameStats.total_stars}</p>
             </div>
           </div>
@@ -195,7 +195,7 @@ const Dashboard = () => {
           <div className="flex items-center gap-1.5">
             <Gauge className="w-3.5 h-3.5 text-accent shrink-0" />
             <div>
-              <p className="text-3xs font-black uppercase tracking-widest text-text-dim leading-none mb-0.5">একিউরেসি</p>
+              <p className="text-3xs font-black uppercase tracking-widest text-text-dim leading-none mb-0.5 bn-text">একিউরেসি</p>
               <p className="text-sm md:text-base font-black text-text leading-none">{Math.round(Number(statsData.accuracy))}%</p>
             </div>
           </div>
@@ -204,14 +204,14 @@ const Dashboard = () => {
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
           <Link
             to="/practice"
-            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-white transition-all active:scale-[0.97] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
+            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-white transition-all active:scale-[0.97] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] bn-text"
           >
             প্রাক্টিস করো
             <ArrowRight className="w-3.5 h-3.5" />
           </Link>
           <Link
             to="/bank"
-            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl border bg-surface-alt hover:bg-surface-alt px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-text-muted hover:text-text transition-all active:scale-[0.97]"
+            className="flex-1 inline-flex items-center justify-center gap-2.5 rounded-xl border bg-surface-alt hover:bg-surface-alt px-5 py-3.5 text-2xs font-black uppercase tracking-[0.2em] text-text-muted hover:text-text transition-all active:scale-[0.97] bn-text"
           >
             প্রশ্নব্যাংক
             <Layers className="w-3.5 h-3.5" />
@@ -221,7 +221,7 @@ const Dashboard = () => {
         {/* â”€â”€â”€ Level Progress â”€â”€â”€ */}
         <div className="mt-4 pt-3 border-t">
           <div className="flex items-center justify-between mb-1.5">
-            <span className="text-3xs font-black uppercase tracking-widest text-text-dim">লেভেল {level} Â· {nextLevelXp} এক্সপি টার্গেট</span>
+            <span className="text-3xs font-black uppercase tracking-widest text-text-dim bn-text">লেভেল {level} Â· {nextLevelXp} এক্সপি টার্গেট</span>
             <span className="text-3xs font-black text-primary">{xpInLevel}/{nextLevelXp - (level - 1) * 100} এক্সপি</span>
           </div>
           <div className="h-1.5 rounded-full bg-surface-alt overflow-hidden">
@@ -241,7 +241,7 @@ const Dashboard = () => {
           <div className="flex items-center justify-between gap-3 mb-2">
             <div className="flex items-center gap-2 min-w-0">
               <Rocket className="w-4 h-4 text-primary shrink-0" />
-              <span className="text-2xs font-black uppercase tracking-wider text-text-muted truncate">ড্যাসবোর্ড আনলক করো</span>
+              <span className="text-2xs font-black uppercase tracking-wider text-text-muted truncate bn-text">ড্যাসবোর্ড আনলক করো</span>
             </div>
             <span className="text-xs font-black text-primary shrink-0">{progressTo20}/20</span>
           </div>
@@ -271,7 +271,7 @@ const Dashboard = () => {
 
       {/* â”€â”€â”€ Quick Actions â”€â”€â”€ */}
       <Motion.div variants={itemVariants}>
-        <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim mb-3">কুইক অ্যাকশন</h2>
+        <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim mb-3 bn-text">কুইক অ্যাকশন</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5">
           <ActionCard Icon={Target} title="প্রাক্টিস" desc="এক্সাম ও সাবজেক্ট বাছাই" path="/practice" />
           <ActionCard Icon={Brain} title="প্রশ্নব্যাংক" desc="৫০,০০০+ প্রশ্ন" path="/bank" />
@@ -283,7 +283,7 @@ const Dashboard = () => {
       {/* â”€â”€â”€ Daily Challenges â”€â”€â”€ */}
       {dailyChallenges.length > 0 && (
         <Motion.div variants={itemVariants}>
-          <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim mb-3 flex items-center gap-2">
+          <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim mb-3 flex items-center gap-2 bn-text">
             <ZapIcon className="w-3.5 h-3.5 text-primary" />
             ডেইলি মিশন
             <span className="text-[9px] font-medium text-text-dim normal-case flex items-center gap-1 ml-auto">
@@ -314,7 +314,7 @@ const Dashboard = () => {
                   )}
                 </div>
                 <div className="flex items-center gap-2">
-                  <div className={`px-2 py-0.5 rounded-full text-[8px] font-black uppercase tracking-wider ${
+                  <div className={`px-2 py-0.5 rounded-full text-[8px] font-black uppercase tracking-wider bn-text ${
                     ch.completed
                       ? 'bg-emerald-500/15 text-emerald-400'
                       : 'bg-primary/10 text-primary'
@@ -344,14 +344,14 @@ const Dashboard = () => {
                   <Flame className="w-4 h-4 text-yellow-400" />
                 </div>
                 <div>
-                  <h3 className="text-xs font-black text-text tracking-tight">সাপ্তাহিক: {weeklyChallenge.label}</h3>
+                  <h3 className="text-xs font-black text-text tracking-tight bn-text">সাপ্তাহিক: {weeklyChallenge.label}</h3>
                   <p className="text-[10px] text-text-muted font-medium flex items-center gap-1">
                     <Timer className="w-3 h-3" />
                     {countdown.weekly.days} dni {countdown.weekly.hours} ঘ বাকি
                   </p>
                 </div>
               </div>
-              <div className={`px-2 py-0.5 rounded-full text-[8px] font-black uppercase tracking-wider ${
+              <div className={`px-2 py-0.5 rounded-full text-[8px] font-black uppercase tracking-wider bn-text ${
                 weeklyChallenge.completed ? 'bg-emerald-500/15 text-emerald-400' : 'bg-yellow-500/10 text-yellow-400'
               }`}>
                 {weeklyChallenge.completed ? 'সম্পন্ন' : `+${weeklyChallenge.bonusXp} এক্সপি`}
@@ -389,7 +389,7 @@ const Dashboard = () => {
               <div className="w-8 h-8 shrink-0">
                 <LottieAnimation src={speedometerAnimation} className="w-full h-full" pingPong />
               </div>
-              <h2 className="text-xs md:text-sm font-black tracking-tighter text-text">
+              <h2 className="text-xs md:text-sm font-black tracking-tighter text-text bn-text">
                 পারফরম্যান্স
               </h2>
             </div>
@@ -403,7 +403,7 @@ const Dashboard = () => {
             </div>
             {focusAreas.length > 0 && (
               <div className="mt-5 pt-4 border-t space-y-3">
-                <p className="text-3xs font-black uppercase tracking-[0.25em] text-text-dim">সাবজেক্ট অনুযায়ী একিউরেসি</p>
+                <p className="text-3xs font-black uppercase tracking-[0.25em] text-text-dim bn-text">সাবজেক্ট অনুযায়ী একিউরেসি</p>
                 {focusAreas.map((area) => (
                   <div key={area.label}>
                     <div className="flex items-center justify-between mb-1">
@@ -424,7 +424,7 @@ const Dashboard = () => {
             )}
             <Link
               to="/analytics"
-              className="mt-4 flex items-center justify-center gap-2 rounded-xl border border-primary/20 bg-primary/[0.06] py-3 text-2xs font-black uppercase tracking-[0.2em] text-primary transition-all hover:bg-primary hover:text-white active:scale-[0.98]"
+              className="mt-4 flex items-center justify-center gap-2 rounded-xl border border-primary/20 bg-primary/[0.06] py-3 text-2xs font-black uppercase tracking-[0.2em] text-primary transition-all hover:bg-primary hover:text-white active:scale-[0.98] bn-text"
             >
               পূর্ণ রিপোর্ট <ArrowRight className="w-3 h-3" />
             </Link>
@@ -432,7 +432,7 @@ const Dashboard = () => {
 
           {/* Recent Activity */}
           <div className="rounded-2xl border bg-surface p-5 md:p-6">
-            <h2 className="flex items-center gap-2 text-xs md:text-sm font-black tracking-tighter text-text mb-3">
+            <h2 className="flex items-center gap-2 text-xs md:text-sm font-black tracking-tighter text-text mb-3 bn-text">
               <Clock className="w-4 h-4 text-primary" />
               সাম্প্রতিক অ্যাক্টিভিটি
             </h2>
@@ -448,7 +448,7 @@ const Dashboard = () => {
                       </div>
                       <div className="min-w-0 flex-1">
                         <p className="text-xs font-black text-text truncate">{item.chapter_title}</p>
-                        <p className="text-3xs font-black uppercase tracking-wider text-text-dim">{subject} Â· {timeAgo(item.created_at)}</p>
+                        <p className="text-3xs font-black uppercase tracking-wider text-text-dim bn-text">{subject} Â· {timeAgo(item.created_at)}</p>
                       </div>
                       <div className="text-right shrink-0">
                         <p className="text-sm font-black text-text">{item.correct_answers}/{item.total_questions}</p>
@@ -461,7 +461,7 @@ const Dashboard = () => {
             ) : (
               <div className="flex flex-col items-center py-6">
                 <CheckList className="w-12 h-12 opacity-20 mb-2" />
-                <p className="text-2xs font-black uppercase tracking-wider text-text-dim">কোনো সেশন নেই</p>
+                <p className="text-2xs font-black uppercase tracking-wider text-text-dim bn-text">কোনো সেশন নেই</p>
               </div>
             )}
           </div>
@@ -483,9 +483,9 @@ const Dashboard = () => {
                   <div className="w-5 h-5 rounded-md bg-primary/20 flex items-center justify-center">
                     <Gamepad className="w-3 h-3 text-primary" />
                   </div>
-                  <span className="text-3xs font-black uppercase tracking-[0.2em] text-primary">নতুন?</span>
+                  <span className="text-3xs font-black uppercase tracking-[0.2em] text-primary bn-text">নতুন?</span>
                 </div>
-                <h2 className="text-base md:text-lg font-black text-text tracking-tighter">পড়াশোনাকে করো গেমিফাই! প্রাক্টিস করে পাও এক্সপি, স্টার, স্ট্রেক। বন্ধুদের সাথে পাল্লা দিয়ে আপগ্রেড করো তোমার লেভেল!</h2>
+                <h2 className="text-base md:text-lg font-black text-text tracking-tighter bn-text">পড়াশোনাকে করো গেমিফাই! প্রাক্টিস করে পাও এক্সপি, স্টার, স্ট্রেক। বন্ধুদের সাথে পাল্লা দিয়ে আপগ্রেড করো তোমার লেভেল!</h2>
                 <p className="text-xs text-text-muted font-medium leading-relaxed max-w-lg">
                   প্রশ্ন সমাধান করে এক্সপি অর্জন করো, স্ট্রিক তৈরি করো, স্টার সংগ্রহ করো। প্রতিটি সঠিক উত্তর তোমাকে পরবর্তী লেভেলে নিয়ে যাবে।
                 </p>
@@ -504,13 +504,13 @@ const Dashboard = () => {
                 <LottieAnimation src={speedometerAnimation} className="w-full h-full" pingPong />
               </div>
               <div className="min-w-0 flex-1 space-y-2">
-                <h2 className="text-base md:text-lg font-black text-text tracking-tighter">তোমার ড্যাসবোর্ড প্রস্তুত!</h2>
+                <h2 className="text-base md:text-lg font-black text-text tracking-tighter bn-text">তোমার ড্যাসবোর্ড প্রস্তুত!</h2>
                 <p className="text-xs text-text-muted font-medium leading-relaxed max-w-lg">
                   আর মাত্র <span className="text-primary font-black">২০টি প্রশ্ন</span> সমাধান করলেই জানতে পারবে তুমি কোথায় দক্ষ, কত সময় নিচ্ছো, আর কোথায় তোমার আরো কাজ করতে হবে।
                 </p>
                 <div className="flex flex-wrap gap-1.5">
                   {['একিউরেসি', 'অ্যানালাইসিস', 'দুর্বলতা', 'কনসিস্টেন্সি'].map((tag) => (
-                    <span key={tag} className="px-2.5 py-1 rounded-lg bg-surface-alt text-3xs font-black uppercase tracking-wider text-text-dim">
+                    <span key={tag} className="px-2.5 py-1 rounded-lg bg-surface-alt text-3xs font-black uppercase tracking-wider text-text-dim bn-text">
                       {tag}
                     </span>
                   ))}
@@ -518,7 +518,7 @@ const Dashboard = () => {
                 <div className="flex flex-col xs:flex-row items-start xs:items-center gap-3">
                   <Link
                     to="/practice"
-                    className="inline-flex items-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-6 py-3 text-2xs font-black uppercase tracking-[0.2em] text-white transition-all active:scale-95 border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
+                    className="inline-flex items-center gap-2.5 rounded-xl bg-primary hover:bg-primary-hover px-6 py-3 text-2xs font-black uppercase tracking-[0.2em] text-white transition-all active:scale-95 border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] bn-text"
                   >
                     প্রথম প্রাক্টিস শুরু করো <ArrowRight className="w-3.5 h-3.5" />
                   </Link>
@@ -537,7 +537,7 @@ const Dashboard = () => {
       {/* â”€â”€â”€ Exam Paths â”€â”€â”€ */}
       {availableExams.some((e) => e.active) && (
         <Motion.div variants={itemVariants}>
-          <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim mb-3">উপলব্ধ এক্সাম</h2>
+          <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim mb-3 bn-text">উপলব্ধ এক্সাম</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
             {availableExams.map((exam, i) => {
               const themes = [
@@ -564,7 +564,7 @@ const Dashboard = () => {
                       </div>
                       <p className="text-2xs font-medium text-text-muted leading-relaxed line-clamp-2">{exam.note}</p>
                     </div>
-                    <span className={`shrink-0 px-2 py-0.5 rounded-md text-3xs font-black uppercase tracking-wider ${t.badge}`}>
+                    <span className={`shrink-0 px-2 py-0.5 rounded-md text-3xs font-black uppercase tracking-wider bn-text ${t.badge}`}>
                       খোলো
                     </span>
                   </div>
@@ -585,7 +585,7 @@ const Dashboard = () => {
                       </div>
                       <p className="text-2xs font-medium text-text-dim leading-relaxed">{exam.note}</p>
                     </div>
-                    <span className="shrink-0 px-2 py-0.5 rounded-md bg-surface-alt text-3xs font-black uppercase tracking-wider text-text-dim">
+                    <span className="shrink-0 px-2 py-0.5 rounded-md bg-surface-alt text-3xs font-black uppercase tracking-wider text-text-dim bn-text">
                       শীঘ্রই
                     </span>
                   </div>
@@ -617,7 +617,7 @@ const CircularProgress = ({ value, size = 96, strokeWidth = 7, className = '' })
       </svg>
       <div className="absolute inset-0 flex flex-col items-center justify-center">
         <span className="text-xl md:text-2xl font-black text-text tracking-tighter">{value}%</span>
-        <span className="text-3xs font-black uppercase tracking-[0.15em] text-text-dim">একিউরেসি</span>
+        <span className="text-3xs font-black uppercase tracking-[0.15em] text-text-dim bn-text">একিউরেসি</span>
       </div>
     </div>
   );
@@ -631,7 +631,7 @@ const StatCard = ({ Icon, label, value, bgClass, iconColor }) => (
         <Icon className={`w-4 h-4 ${iconColor}`} />
       </div>
       <div className="min-w-0">
-        <p className="text-3xs font-black uppercase tracking-[0.15em] text-text-dim">{label}</p>
+        <p className="text-3xs font-black uppercase tracking-[0.15em] text-text-dim bn-text">{label}</p>
         <p className="text-sm md:text-base font-black text-text tracking-tight truncate">{value}</p>
       </div>
     </div>
@@ -655,7 +655,7 @@ const ActionCard = ({ Icon, title, desc, path }) => (
 const StatBox = ({ label, value, accent = 'text-text' }) => (
   <div className="rounded-xl border bg-surface-alt p-3 text-center">
     <p className={`text-lg md:text-xl font-black tracking-tighter ${accent}`}>{value}</p>
-    <p className="text-3xs font-black uppercase tracking-[0.15em] text-text-dim mt-0.5">{label}</p>
+                <p className="text-3xs font-black uppercase tracking-[0.15em] text-text-dim mt-0.5 bn-text">{label}</p>
   </div>
 );
 

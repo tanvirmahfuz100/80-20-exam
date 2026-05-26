@@ -33,7 +33,7 @@ const StatCard = ({ icon: Icon, label, value, suffix, subtext, color, trend }) =
         <Icon className={`w-3.5 h-3.5 ${color.text}`} />
       </div>
       {trend && (
-        <span className={`text-[8px] font-black uppercase tracking-wider ${trend.color}`}>
+        <span className={`text-[8px] font-black uppercase tracking-wider bn-text ${trend.color}`}>
           {trend.label}
         </span>
       )}
@@ -42,7 +42,7 @@ const StatCard = ({ icon: Icon, label, value, suffix, subtext, color, trend }) =
       <span className="text-2xl md:text-3xl font-black text-text tracking-tighter leading-none">{value}</span>
       {suffix && <span className="text-xs md:text-sm text-text-muted font-bold">{suffix}</span>}
     </div>
-    <p className="text-[9px] font-bold uppercase tracking-widest leading-none" style={{ color: color.label || 'rgba(255,255,255,0.3)' }}>
+    <p className="text-[9px] font-bold uppercase tracking-widest leading-none bn-text" style={{ color: color.label || 'rgba(255,255,255,0.3)' }}>
       {subtext || label}
     </p>
   </motion.div>
@@ -195,12 +195,9 @@ const Analytics = () => {
       {/* ── Header ── */}
       <motion.div variants={itemVariants} className="flex items-center gap-3">
         <div className="min-w-0 flex-1">
-          <h1 className="text-xl sm:text-2xl md:text-3xl font-black text-text tracking-tighter uppercase leading-none">
+          <h1 className="text-xl sm:text-2xl md:text-3xl font-black text-text tracking-tighter uppercase leading-none bn-text">
             অ্যানালিটিক্স
           </h1>
-          <p className="text-[9px] font-bold text-text-muted uppercase tracking-widest mt-1">
-            {profile?.username || user?.email || 'শিক্ষার্থী'} &middot; {totalPracticed}টি প্রশ্ন
-          </p>
         </div>
         <div className="w-16 h-16 opacity-[0.15] shrink-0">
           <LottieAnimation src={dataAnalyticsAnimation} className="w-full h-full" pingPong />
@@ -303,7 +300,7 @@ const Analytics = () => {
         <motion.div variants={itemVariants} className="bg-surface border rounded-xl p-4 space-y-3">
           <div className="flex items-center gap-2">
             <TrendingUp className="w-3.5 h-3.5 text-emerald-500" />
-            <span className="text-[9px] font-black uppercase tracking-widest text-emerald-500">শক্তিমত্তা</span>
+                    <span className="text-[9px] font-black uppercase tracking-widest text-emerald-500 bn-text">শক্তিমত্তা</span>
           </div>
           <div className="flex flex-wrap gap-1.5 items-start">
             {['Vocabulary', 'Algebra', 'Puzzles'].map(s => (
@@ -315,7 +312,7 @@ const Analytics = () => {
         <motion.div variants={itemVariants} className="bg-surface border rounded-xl p-4 space-y-3">
           <div className="flex items-center gap-2">
             <AlertTriangle className="w-3.5 h-3.5 text-red-500" />
-            <span className="text-[9px] font-black uppercase tracking-widest text-red-500">দুর্বলতা</span>
+                    <span className="text-[9px] font-black uppercase tracking-widest text-red-500 bn-text">দুর্বলতা</span>
           </div>
           <div className="flex flex-wrap gap-1.5 items-start">
             {['Geometry', 'Grammar Basics', 'Critical Reasoning'].map(s => (
@@ -333,7 +330,7 @@ const Analytics = () => {
           <div className="p-1.5 rounded-lg bg-primary/10 border border-primary/20">
             <Sparkles className="w-4 h-4 text-primary" />
           </div>
-          <span className="text-[10px] font-black uppercase tracking-widest text-primary">স্মারট রিকমেন্ডেশন</span>
+          <span className="text-[10px] font-black uppercase tracking-widest text-primary bn-text">স্মারট রিকমেন্ডেশন</span>
         </div>
         <p className="text-sm md:text-base text-text font-semibold leading-relaxed italic">
           &ldquo;Your accuracy in Geometry is 22% lower than your average. Try focusing on{' '}
@@ -344,16 +341,16 @@ const Analytics = () => {
       {/* ── Platform Rank ── */}
       <motion.div variants={itemVariants} className="bg-surface border rounded-xl p-4 md:p-5 space-y-4">
         <div>
-          <h2 className="text-sm md:text-base font-black text-text tracking-tighter uppercase">প্ল্যাটফর্ম র‍্যাংক</h2>
-          <p className="text-[8px] font-bold text-text-muted uppercase tracking-widest mt-0.5">অন্যদের সাথে তুলনা</p>
+            <h2 className="text-sm md:text-base font-black text-text tracking-tighter uppercase bn-text">প্ল্যাটফর্ম র‍্যাংক</h2>
+          <p className="text-[8px] font-bold text-text-muted uppercase tracking-widest mt-0.5 bn-text">অন্যদের সাথে তুলনা</p>
         </div>
         <div className="flex gap-3">
           <div className="flex-1 bg-surface-alt rounded-xl px-4 py-3 text-center border">
-            <p className="text-[9px] font-black text-text-dim uppercase tracking-widest">প্ল্যাটফর্ম গড়</p>
+            <p className="text-[9px] font-black text-text-dim uppercase tracking-widest bn-text">প্ল্যাটফর্ম গড়</p>
             <p className="text-xl md:text-2xl font-black text-text-muted mt-1">45%</p>
           </div>
           <div className="flex-1 bg-primary/10 rounded-xl px-4 py-3 text-center border border-primary/20">
-            <p className="text-[9px] font-black text-primary/60 uppercase tracking-widest">তোমার স্কোর</p>
+            <p className="text-[9px] font-black text-primary/60 uppercase tracking-widest bn-text">তোমার স্কোর</p>
             <p className="text-xl md:text-2xl font-black text-primary mt-1">{accuracy}%</p>
           </div>
         </div>
@@ -370,7 +367,7 @@ const Analytics = () => {
             <div key={l.label} className="flex items-center gap-2.5">
               <div className={`w-3 h-3 rounded-full ${l.color} shrink-0`} />
               <div className="min-w-0">
-                <p className="text-[9px] font-black text-text-muted uppercase tracking-widest leading-none">{l.label}</p>
+                <p className="text-[9px] font-black text-text-muted uppercase tracking-widest leading-none bn-text">{l.label}</p>
                 <p className="text-[8px] font-bold text-text-dim mt-0.5">{l.value}</p>
               </div>
             </div>

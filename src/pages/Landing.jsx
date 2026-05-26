@@ -10,7 +10,7 @@ const Landing = () => {
     return (
         <div className="min-h-screen bg-background text-text selection:bg-primary/30 overflow-x-hidden">
             <div className="w-full flex items-center justify-center gap-3 pt-4 md:pt-6">
-                <span className="text-[10px] md:text-xs font-black uppercase tracking-[0.2em] text-text-muted">মোড</span>
+                <span className="text-[10px] md:text-xs font-black uppercase tracking-[0.2em] text-text-muted bn-text">মোড</span>
                 <div className="flex bg-surface-alt border rounded-xl p-0.5 gap-0.5">
                     <button
                         onClick={() => setTheme('light')}
@@ -43,11 +43,11 @@ const Landing = () => {
                 className="w-32 h-32 md:w-44 md:h-44 object-contain drop-shadow-2xl"
               />
             </div>
-            <div className="inline-flex items-center gap-1.5 md:gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-primary/10 border border-primary/20 rounded-full text-primary font-black uppercase tracking-widest text-[8px] md:text-[10px]">
+            <div className="inline-flex items-center gap-1.5 md:gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-primary/10 border border-primary/20 rounded-full text-primary font-black uppercase tracking-widest text-[8px] md:text-[10px] bn-text">
                         <Star className="w-2.5 h-2.5 md:w-3 md:h-3 fill-current" />
                         যেকোনো প্রতিযোগিতামূলক পরীক্ষায় মাস্টার
                     </div>
-                    <h1 className="text-3xl md:text-8xl font-black tracking-tighter leading-[0.9] uppercase text-balance">
+                    <h1 className="text-3xl md:text-8xl font-black tracking-tighter leading-[0.9] uppercase text-balance bn-text">
                         প্রতিযোগিতামূলক পরীক্ষায় সাফল্যের <span className="text-primary">ফ্রি, ফান</span> ও কার্যকর উপায়! <span className="inline-block align-middle"><AnimatedTextCycle words={["এক্সাম","অ্যাসেসমেন্ট","টেস্ট","কুইজ"]} interval={3000} className="text-primary"/></span>
                     </h1>
                     <p className="text-text-muted text-sm md:text-2xl font-medium leading-relaxed max-w-3xl mx-auto">
@@ -56,13 +56,13 @@ const Landing = () => {
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-6 pt-4 md:pt-8">
                         <Link
                             to="/login"
-                            className="w-full sm:w-auto px-6 md:px-12 py-4 md:py-6 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-[2rem] font-black uppercase tracking-[0.2em] text-[10px] md:text-xs transition-all active:scale-95 hover:scale-[1.02] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] flex items-center justify-center gap-2 md:gap-3"
+                            className="w-full sm:w-auto px-6 md:px-12 py-4 md:py-6 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-[2rem] font-black uppercase tracking-[0.2em] text-[10px] md:text-xs transition-all active:scale-95 hover:scale-[1.02] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] flex items-center justify-center gap-2 md:gap-3 bn-text"
                         >
                             টেস্টিং শুরু করো
                         </Link>
                         <Link
                             to="/login"
-                            className="w-full sm:w-auto px-6 md:px-12 py-4 md:py-6 bg-surface-alt hover:bg-surface-alt text-text rounded-xl md:rounded-[2rem] font-black uppercase tracking-[0.2em] text-[10px] md:text-xs transition-all border flex items-center justify-center gap-2 md:gap-3"
+                            className="w-full sm:w-auto px-6 md:px-12 py-4 md:py-6 bg-surface-alt hover:bg-surface-alt text-text rounded-xl md:rounded-[2rem] font-black uppercase tracking-[0.2em] text-[10px] md:text-xs transition-all border flex items-center justify-center gap-2 md:gap-3 bn-text"
                         >
                             অ্যাপে যাও
                         </Link>
@@ -76,7 +76,7 @@ const Landing = () => {
                         <div className="w-14 h-14 md:w-20 md:h-20 bg-emerald-500/10 rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto border border-emerald-500/20 shadow-lg">
                             <Zap className="w-6 h-6 md:w-10 md:h-10 text-emerald-500" />
                         </div>
-                        <h3 className="text-lg md:text-2xl font-black tracking-tighter uppercase">ফ্রি। ফান। ইফেক্টিভ।</h3>
+                        <h3 className="text-lg md:text-2xl font-black tracking-tighter uppercase bn-text">ফ্রি। ফান। ইফেক্টিভ।</h3>
                         <p className="text-text-dim text-xs md:text-sm leading-relaxed max-w-xs mx-auto">
                             আমাদের সাথে শেখা মজার, আর গবেষণা বলেছে এটি কাজ করে! পয়েন্ট অর্জন করো, নতুন লেভেল আনলক করো এবং বাস্তব দক্ষতা অর্জন করো।
                         </p>
@@ -85,7 +85,7 @@ const Landing = () => {
                         <div className="w-14 h-14 md:w-20 md:h-20 bg-primary/10 rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto border border-primary/20 shadow-lg">
                             <BookOpen className="w-6 h-6 md:w-10 md:h-10 text-primary" />
                         </div>
-                        <h3 className="text-lg md:text-2xl font-black tracking-tighter uppercase">৫০,০০০+ প্রশ্ন</h3>
+                        <h3 className="text-lg md:text-2xl font-black tracking-tighter uppercase bn-text">৫০,০০০+ প্রশ্ন</h3>
                         <p className="text-text-dim text-xs md:text-sm leading-relaxed max-w-xs mx-auto">
                             প্রতিযোগিতামূলক পরীক্ষার জন্য বিশাল প্রশ্ন লাইব্রেরি। আইবিএ, বিসিএস, এসএসসি, স্যাট, জিআরই ও আরো অনেক কিছু। প্রতিটি প্রশ্নের সাথে বিস্তারিত ব্যাখ্যা আছে।
                         </p>
@@ -94,7 +94,7 @@ const Landing = () => {
                         <div className="w-14 h-14 md:w-20 md:h-20 bg-yellow-500/10 rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto border border-yellow-500/20 shadow-lg">
                             <Users className="w-6 h-6 md:w-10 md:h-10 text-yellow-500" />
                         </div>
-                        <h3 className="text-lg md:text-2xl font-black tracking-tighter uppercase">পার্সোনালাইজড পাথ</h3>
+                        <h3 className="text-lg md:text-2xl font-black tracking-tighter uppercase bn-text">পার্সোনালাইজড পাথ</h3>
                         <p className="text-text-dim text-xs md:text-sm leading-relaxed max-w-xs mx-auto">
                             আমাদের এআই তোমার শেখার গতির সাথে খাপ খায় এবং দুর্বল পয়েন্টে ফোকাস করে স্মার্টারলি পড়তে সাহায্য করে।
                         </p>
@@ -106,7 +106,7 @@ const Landing = () => {
                 <div className="inline-flex p-3 md:p-6 bg-primary/10 rounded-2xl md:rounded-[2.5rem] border border-primary/20">
                     <GraduationCap className="w-10 h-10 md:w-16 md:h-16 text-primary" />
                 </div>
-                <h2 className="text-2xl md:text-6xl font-black tracking-tight uppercase leading-none text-balance">
+                <h2 className="text-2xl md:text-6xl font-black tracking-tight uppercase leading-none text-balance bn-text">
                     আজই শুরু করো তোমার এক্সাম প্রেপ!
                 </h2>
                 <div className="max-w-7xl mx-auto px-0 md:px-6 py-8 md:py-24">
@@ -117,14 +117,14 @@ const Landing = () => {
                 <div className="flex justify-center pt-4 md:pt-8">
                     <Link
                         to="/login"
-                        className="px-6 md:px-12 py-4 md:py-6 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-[2.5rem] font-black uppercase tracking-[0.3em] text-xs md:text-sm transition-all active:scale-95 hover:scale-[1.02] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] flex items-center gap-3 md:gap-4"
+                        className="px-6 md:px-12 py-4 md:py-6 bg-primary hover:bg-primary-hover text-white rounded-xl md:rounded-[2.5rem] font-black uppercase tracking-[0.3em] text-xs md:text-sm transition-all active:scale-95 hover:scale-[1.02] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] flex items-center gap-3 md:gap-4 bn-text"
                     >
-                        টেস্ট মোডে যাও
-                    </Link>
+                            টেস্ট মোডে যাও
+                        </Link>
+                    </div>
                 </div>
-            </div>
 
-            <footer className="py-6 md:py-12 border-t border text-center text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-text-dim">
+            <footer className="py-6 md:py-12 border-t border text-center text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-text-dim bn-text">
                 &copy; ২০২৪ ফায়ারম্যান &bull; লার্নিং রিইমাজিনড
             </footer>
         </div>
@@ -174,7 +174,7 @@ const ExamTiles = () => {
                 <Link key={exam.id} to={`/practice?category=${exam.id.toUpperCase()}`} className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-surface border hover:border-primary transition-all flex items-center justify-between active:scale-[0.98]">
                     <div className="text-left min-w-0 flex-1">
                         <h4 className="text-base md:text-xl font-black truncate">{exam.name}</h4>
-                        <p className="text-[9px] md:text-xs text-text-dim uppercase tracking-widest mt-0.5 md:mt-1">{exam.name} লেসন প্রাক্টিস শুরু করো</p>
+                        <p className="text-[9px] md:text-xs text-text-dim uppercase tracking-widest mt-0.5 md:mt-1 bn-text">{exam.name} লেসন প্রাক্টিস শুরু করো</p>
                     </div>
                     <div className="flex items-center justify-center w-8 h-8 md:w-12 md:h-12 bg-primary/10 rounded-full shrink-0 ml-2">
                         <ArrowRight className="w-3.5 h-3.5 md:w-5 text-primary" />

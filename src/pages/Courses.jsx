@@ -37,10 +37,10 @@ const Courses = () => {
                     <LottieAnimation src={booksAnimation} className="w-full h-full" pingPong />
                 </div>
                 <div className="relative z-10">
-                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-text tracking-tighter mb-3 md:mb-4">
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-text tracking-tighter mb-3 md:mb-4 bn-text">
                         মাস্টার করো <span className="text-primary uppercase">সবকিছু!</span>
                     </h1>
-                    <p className="text-text-dim font-bold uppercase tracking-widest text-[10px]">
+                    <p className="text-text-dim font-bold uppercase tracking-widest text-[10px] bn-text">
                         ভিডিও আর লিখিত লেসনে!
                     </p>
                 </div>
@@ -70,14 +70,14 @@ const Courses = () => {
                             />
                             <div className="absolute inset-0 bg-black/40"></div>
                             {course.is_premium && (
-                                <div className="absolute top-4 right-4 px-3 py-1 bg-reward text-black text-[9px] font-black uppercase tracking-widest rounded-full shadow-lg">
+                                <div className="absolute top-4 right-4 px-3 py-1 bg-reward text-black text-[9px] font-black uppercase tracking-widest rounded-full shadow-lg bn-text">
                                     প্রিমিয়াম
                                 </div>
                             )}
                         </div>
 
                         <div className="p-4 md:p-8 flex-1 flex flex-col space-y-3 md:space-y-4">
-                            <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-primary/60">
+                            <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-primary/60 bn-text">
                                 <span>{course.exam_category}</span>
                                 <span className="w-1 h-1 bg-surface-alt rounded-full"></span>
                                 <span>{course.lessons?.length || 0}টি লেসন</span>
@@ -102,7 +102,7 @@ const Courses = () => {
 
                             <button
                                 disabled={course.is_premium && profile?.plan_type !== 'premium'}
-                                className={`w-full py-3 md:py-4 rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] ${course.is_premium && profile?.plan_type !== 'premium'
+                                className={`w-full py-3 md:py-4 rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] transition-all flex items-center justify-center gap-2 active:scale-[0.98] bn-text ${course.is_premium && profile?.plan_type !== 'premium'
                                         ? 'bg-surface-alt text-text-dim cursor-not-allowed'
                                         : 'bg-primary hover:bg-primary-hover text-white'
                                     }`}
@@ -120,7 +120,7 @@ const Courses = () => {
                         <div className="w-20 h-20 md:w-28 md:h-28 opacity-30">
                             <LottieAnimation src={booksAnimation} className="w-full h-full" pingPong />
                         </div>
-                        <p className="text-text-dim font-black uppercase tracking-widest">আরো কোর্স শীঘ্রই আসছে!</p>
+                        <p className="text-text-dim font-black uppercase tracking-widest bn-text">আরো কোর্স শীঘ্রই আসছে!</p>
                     </div>
                 )}
             </div>

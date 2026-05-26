@@ -178,7 +178,7 @@ export default function ExamOnboarding({ onComplete }) {
           <div className="min-h-full flex items-center justify-center px-4 md:px-6">
           <div className="w-full max-w-2xl text-center space-y-4 md:space-y-8 py-4 md:py-0">
             <div className="space-y-1 md:space-y-2">
-              <h2 className="text-lg md:text-3xl font-black tracking-tighter text-text">তোমার মোড বেছে নাও</h2>
+              <h2 className="text-lg md:text-3xl font-black tracking-tighter text-text bn-text">তোমার মোড বেছে নাও</h2>
               <p className="text-text-muted text-xs md:text-sm font-medium">প্রত্যেকটা অপশন দেখো — যেটা ভালো লাগে সেটা বাছাই করো</p>
             </div>
 
@@ -204,7 +204,7 @@ export default function ExamOnboarding({ onComplete }) {
                       <p className="text-[11px] md:text-xs font-black text-gray-800">আজকের কুইজ</p>
                       <p className="text-[9px] md:text-[10px] text-gray-500 font-medium">৫টি প্রশ্ন</p>
                     </div>
-                    <div className="bg-gray-900 text-white text-[8px] md:text-[9px] font-black uppercase tracking-wider rounded-lg py-1 md:py-1.5 text-center">শুরু করো</div>
+                    <div className="bg-gray-900 text-white text-[8px] md:text-[9px] font-black uppercase tracking-wider rounded-lg py-1 md:py-1.5 text-center bn-text">শুরু করো</div>
                     <div className="flex items-center justify-between border-t border-gray-100 pt-1.5 md:pt-2">
                       <div className="flex gap-1">
                         <div className="w-1 h-1.5 md:w-1.5 md:h-1.5 rounded-full bg-gray-300" />
@@ -245,7 +245,7 @@ export default function ExamOnboarding({ onComplete }) {
                       <p className="text-[11px] md:text-xs font-black text-white">আজকের কুইজ</p>
                       <p className="text-[9px] md:text-[10px] text-gray-400 font-medium">৫টি প্রশ্ন</p>
                     </div>
-                    <div className="bg-white text-gray-900 text-[8px] md:text-[9px] font-black uppercase tracking-wider rounded-lg py-1 md:py-1.5 text-center">শুরু করো</div>
+                    <div className="bg-white text-gray-900 text-[8px] md:text-[9px] font-black uppercase tracking-wider rounded-lg py-1 md:py-1.5 text-center bn-text">শুরু করো</div>
                     <div className="flex items-center justify-between border-t border-gray-800 pt-1.5 md:pt-2">
                       <div className="flex gap-1">
                         <div className="w-1 h-1.5 md:w-1.5 md:h-1.5 rounded-full bg-gray-600" />
@@ -296,7 +296,7 @@ export default function ExamOnboarding({ onComplete }) {
               className="max-w-md mx-auto"
             >
               <div className="text-center mb-8">
-                <h1 className="text-xl font-black text-text tracking-tight mb-2">
+                <h1 className="text-xl font-black text-text tracking-tight mb-2 bn-text">
                   তোমার পরীক্ষা বাছাই করো
                 </h1>
                 <p className="text-sm text-text-muted font-medium">
@@ -339,7 +339,7 @@ export default function ExamOnboarding({ onComplete }) {
               className="max-w-md mx-auto"
             >
               <div className="text-center mb-8">
-                <h1 className="text-xl font-black text-text tracking-tight mb-2">
+                <h1 className="text-xl font-black text-text tracking-tight mb-2 bn-text">
                   {EXAM_LABELS[selectedExam]} · গ্রুপ নির্বাচন করো
                 </h1>
                 <p className="text-sm text-text-muted font-medium">তোমার গ্রুপ অনুযায়ী সাবজেক্ট সেট করো</p>
@@ -378,7 +378,7 @@ export default function ExamOnboarding({ onComplete }) {
               className="max-w-md mx-auto"
             >
               <div className="text-center mb-8">
-                <h1 className="text-xl font-black text-text tracking-tight mb-2">
+                <h1 className="text-xl font-black text-text tracking-tight mb-2 bn-text">
                   তোমার শ্রেণী নির্বাচন করো
                 </h1>
                 <p className="text-sm text-text-muted font-medium">তুমি কোন শ্রেণীতে পড়ো?</p>
@@ -412,7 +412,7 @@ export default function ExamOnboarding({ onComplete }) {
               className="max-w-md mx-auto"
             >
               <div className="text-center mb-8">
-                <h1 className="text-xl font-black text-text tracking-tight mb-2">
+                <h1 className="text-xl font-black text-text tracking-tight mb-2 bn-text">
                   মিডিয়াম নির্বাচন করো
                 </h1>
                 <p className="text-sm text-text-muted font-medium">তোমার পড়াশোনার মাধ্যম কোনটি?</p>
@@ -454,7 +454,7 @@ export default function ExamOnboarding({ onComplete }) {
               className="max-w-md mx-auto"
             >
               <div className="text-center mb-8">
-                <h1 className="text-xl font-black text-text tracking-tight mb-2">
+                <h1 className="text-xl font-black text-text tracking-tight mb-2 bn-text">
                   প্রায় শেষ!
                 </h1>
                 <p className="text-sm text-text-muted font-medium">
@@ -501,7 +501,7 @@ export default function ExamOnboarding({ onComplete }) {
           <button
             onClick={step === 3 ? handleFinish : handleContinue}
             disabled={!canProceed[step]}
-            className={`flex items-center gap-1.5 rounded-xl px-5 py-2.5 text-sm font-black uppercase tracking-[0.1em] transition-all active:scale-[0.97] ${
+            className={`flex items-center gap-1.5 rounded-xl px-5 py-2.5 text-sm font-black uppercase tracking-[0.1em] transition-all active:scale-[0.97] bn-text ${
               canProceed[step]
                 ? 'bg-primary text-white hover:bg-primary-hover'
                 : 'bg-surface-alt text-text-dim cursor-not-allowed'

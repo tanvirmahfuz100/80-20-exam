@@ -121,13 +121,13 @@ export default function SubjectSelection() {
               <div className="flex items-center gap-3">
                 <button
                   onClick={() => setMode('normal')}
-                  className="flex-1 rounded-xl border border bg-surface-alt py-3 text-2xs font-black uppercase tracking-[0.15em] text-text-muted hover:text-text transition-colors"
+                  className="flex-1 rounded-xl border border bg-surface-alt py-3 text-2xs font-black uppercase tracking-[0.15em] text-text-muted hover:text-text transition-colors bn-text"
                 >
                   বাতিল
                 </button>
                 <button
                   onClick={() => setMode('selector')}
-                  className="flex-1 rounded-xl bg-primary py-3 text-2xs font-black uppercase tracking-[0.15em] text-white transition-all hover:bg-primary-hover active:scale-[0.97]"
+                  className="flex-1 rounded-xl bg-primary py-3 text-2xs font-black uppercase tracking-[0.15em] text-white transition-all hover:bg-primary-hover active:scale-[0.97] bn-text"
                 >
                   পরিবর্তন করো
                 </button>
@@ -235,7 +235,7 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
           className="w-full flex items-center gap-3 rounded-xl border border bg-surface px-4 py-3 transition-all hover:border-primary/30 hover:bg-surface-hover active:scale-[0.98]"
         >
           <span className="flex-1 text-left">
-            <span className="text-3xs font-bold uppercase tracking-[0.15em] text-text-dim block mb-0.5">
+            <span className="text-3xs font-bold uppercase tracking-[0.15em] text-text-dim block mb-0.5 bn-text">
               বর্তমান পাথ
             </span>
             <span className="text-sm font-black text-text">{pathLabel}</span>
@@ -281,7 +281,7 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
               <Sparkles className="w-4 h-4 text-primary" />
-              <h2 className="text-base font-black text-text tracking-tight">
+              <h2 className="text-base font-black text-text tracking-tight bn-text">
                 আজকের কুইজ
               </h2>
             </div>
@@ -311,7 +311,7 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
               </p>
               <button
                 onClick={handleReset}
-                className="inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-2.5 text-2xs font-black uppercase tracking-[0.15em] text-white transition-all hover:bg-primary-hover active:scale-[0.97]"
+                className="inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-2.5 text-2xs font-black uppercase tracking-[0.15em] text-white transition-all hover:bg-primary-hover active:scale-[0.97] bn-text"
               >
                 আবার নাও
               </button>
@@ -388,7 +388,7 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
                   )}
                   <button
                     onClick={handleNext}
-                    className="w-full py-3 bg-primary text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all hover:bg-primary-hover active:scale-[0.98] flex items-center justify-center gap-2"
+                    className="w-full py-3 bg-primary text-white rounded-xl font-black uppercase tracking-widest text-[10px] transition-all hover:bg-primary-hover active:scale-[0.98] flex items-center justify-center gap-2 bn-text"
                   >
                     {qIndex < dailyQ.length - 1 ? 'পরবর্তী →' : 'দেখ ফলাফল'}
                   </button>

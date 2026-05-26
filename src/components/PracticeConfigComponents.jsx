@@ -81,7 +81,7 @@ export const ExamCard = ({ exam, isSelected, onClick, progress }) => {
                 <div className="flex items-center gap-2 flex-wrap">
                     <h3 className="text-xl md:text-2xl font-bold text-text tracking-tight leading-none">{exam.label}</h3>
                     {inProgress && (
-                        <span className="text-[7px] font-bold uppercase tracking-[0.2em] px-1.5 py-0.5 rounded-full" style={{ color: colors.accent, backgroundColor: colors.bg }}>
+                        <span className="text-[7px] font-bold uppercase tracking-[0.2em] px-1.5 py-0.5 rounded-full bn-text" style={{ color: colors.accent, backgroundColor: colors.bg }}>
                             অ্যাকটিভ
                         </span>
                     )}
@@ -103,7 +103,7 @@ export const ExamCard = ({ exam, isSelected, onClick, progress }) => {
                 >
                     <ArrowRight className="w-4 h-4" />
                 </div>
-                <span className="text-[7px] font-bold uppercase tracking-widest transition-all" style={{ color: isSelected ? colors.accent : '#999' }}>
+                <span className="text-[7px] font-bold uppercase tracking-widest transition-all bn-text" style={{ color: isSelected ? colors.accent : '#999' }}>
                     {isSelected ? 'খোলো' : 'শুরু করো'}
                 </span>
             </div>
@@ -118,7 +118,7 @@ export const InactiveExam = ({ exam }) => {
             <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2">
                     <h3 className="text-xl md:text-2xl font-bold text-hare tracking-tight leading-none">{exam.label}</h3>
-                    <span className="text-[7px] font-bold uppercase tracking-[0.2em] px-1.5 py-0.5 rounded-full bg-eel text-hare">শীঘ্রই</span>
+                        <span className="text-[7px] font-bold uppercase tracking-[0.2em] px-1.5 py-0.5 rounded-full bg-eel text-hare bn-text">শীঘ্রই</span>
                 </div>
                 <p className="text-[11px] text-hare/50 font-medium mt-0.5">{exam.note}</p>
             </div>

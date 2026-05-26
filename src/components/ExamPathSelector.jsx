@@ -94,7 +94,7 @@ export default function ExamPathSelector({ onComplete, onCancel }) {
           <div className="w-9" />
         )}
         <div className="flex-1 text-center">
-          <span className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim">
+          <span className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim bn-text">
             {step === 0 ? 'পরীক্ষা নির্বাচন' : selectedExam && requiresGroup(selectedExam) ? 'গ্রুপ নির্বাচন' : 'শ্রেণী নির্বাচন'}
           </span>
         </div>
@@ -120,7 +120,7 @@ export default function ExamPathSelector({ onComplete, onCancel }) {
               className="max-w-md mx-auto"
             >
               <div className="text-center mb-8">
-                <h1 className="text-xl font-black text-text tracking-tight mb-2">
+                <h1 className="text-xl font-black text-text tracking-tight mb-2 bn-text">
                   তোমার পরীক্ষা বাছাই করো
                 </h1>
                 <p className="text-sm text-text-muted font-medium">
@@ -162,7 +162,7 @@ export default function ExamPathSelector({ onComplete, onCancel }) {
               className="max-w-md mx-auto"
             >
               <div className="text-center mb-8">
-                <h1 className="text-xl font-black text-text tracking-tight mb-2">
+                <h1 className="text-xl font-black text-text tracking-tight mb-2 bn-text">
                   {EXAM_LABELS[selectedExam]} · গ্রুপ নির্বাচন করো
                 </h1>
                 <p className="text-sm text-text-muted font-medium">তোমার গ্রুপ অনুযায়ী সাবজেক্ট সেট করো</p>
@@ -202,7 +202,7 @@ export default function ExamPathSelector({ onComplete, onCancel }) {
               className="max-w-md mx-auto"
             >
               <div className="text-center mb-8">
-                <h1 className="text-xl font-black text-text tracking-tight mb-2">তোমার শ্রেণী নির্বাচন করো</h1>
+                <h1 className="text-xl font-black text-text tracking-tight mb-2 bn-text">তোমার শ্রেণী নির্বাচন করো</h1>
                 <p className="text-sm text-text-muted font-medium">তুমি কোন শ্রেণীতে পড়ো?</p>
               </div>
               <div className="grid grid-cols-4 gap-3">

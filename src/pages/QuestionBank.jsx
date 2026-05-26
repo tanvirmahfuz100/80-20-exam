@@ -341,7 +341,7 @@ const QuestionBank = () => {
                     <h1 className="text-2xl md:text-4xl font-black text-text tracking-tighter mb-1">
                         BRAIN <span className="text-primary">SEARCH.</span>
                     </h1>
-                    <p className="text-text-dim font-bold uppercase tracking-widest text-[10px] md:text-[11px]">
+                    <p className="text-text-dim font-bold uppercase tracking-widest text-[10px] md:text-[11px] bn-text">
                         {loading ? loadProgress || 'লোড হচ্ছে...' : `${allQuestions.length.toLocaleString()}টি প্রশ্ন ইনডেক্স করা হয়েছে`}
                     </p>
                 </div>
@@ -361,7 +361,7 @@ const QuestionBank = () => {
                     </div>
                     <button
                         onClick={() => inputRef.current?.focus()}
-                        className="px-6 py-4 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[11px] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] transition-all active:scale-[0.97] shrink-0 flex items-center justify-center gap-2.5"
+                        className="px-6 py-4 bg-primary hover:bg-primary-hover text-white rounded-xl font-black uppercase tracking-widest text-[11px] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] transition-all active:scale-[0.97] shrink-0 flex items-center justify-center gap-2.5 bn-text"
                     >
                         {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Search className="w-4 h-4" />}
                         {loading ? 'ইনডেক্সিং' : 'খুঁজুন'}
@@ -371,9 +371,9 @@ const QuestionBank = () => {
                 <div className="relative z-10 mt-5 md:mt-6 pt-5 md:pt-6 border-t border">
                     <div className="flex items-center gap-1.5 mb-2 md:mb-3">
                         <Filter className="w-3 h-3 text-text-dim" />
-                        <span className="text-[9px] font-black uppercase tracking-widest text-text-dim">ফিল্টার</span>
+                        <span className="text-[9px] font-black uppercase tracking-widest text-text-dim bn-text">ফিল্টার</span>
                         {anyFilterActive && (
-                            <button onClick={clearAll} className="ml-auto text-[8px] font-black uppercase tracking-widest text-primary/50 hover:text-primary transition-colors">
+                            <button onClick={clearAll} className="ml-auto text-[8px] font-black uppercase tracking-widest text-primary/50 hover:text-primary transition-colors bn-text">
                                 সব মুছুন
                             </button>
                         )}
@@ -389,14 +389,14 @@ const QuestionBank = () => {
                             />
                         ))}
                         <button
-                            onClick={() => setExactMatch(p => !p)}
-                            className={`px-2.5 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest border transition-all w-full ${
-                                exactMatch
-                                    ? 'bg-primary/15 text-primary border-primary/30'
-                                    : 'bg-background text-text-dim border hover:text-text hover:border'
-                            }`}
-                        >
-                            এক্সাক্ট
+                    onClick={() => setExactMatch(p => !p)}
+                    className={`px-2.5 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest border transition-all w-full bn-text ${
+                        exactMatch
+                            ? 'bg-primary/15 text-primary border-primary/30'
+                            : 'bg-background text-text-dim border hover:text-text hover:border'
+                    }`}
+                >
+                    এক্সাক্ট
                         </button>
                     </div>
                 </div>
@@ -405,7 +405,7 @@ const QuestionBank = () => {
             {loading && results.length === 0 && (
                 <div className="flex flex-col items-center justify-center py-20 gap-4">
                     <Loader2 className="w-7 h-7 text-primary animate-spin" />
-                    <p className="text-text-dim font-black uppercase tracking-[0.3em] text-[11px]">{loadProgress || 'প্রশ্ন লোড হচ্ছে...'}</p>
+                    <p className="text-text-dim font-black uppercase tracking-[0.3em] text-[11px] bn-text">{loadProgress || 'প্রশ্ন লোড হচ্ছে...'}</p>
                 </div>
             )}
 
@@ -418,7 +418,7 @@ const QuestionBank = () => {
                                 : 'কোনো ফলাফল নেই'}
                         </p>
                         {anyFilterActive && (
-                            <button onClick={clearAll} className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest text-primary/50 hover:text-primary transition-colors px-3 py-1.5 rounded-lg hover:bg-primary/5">
+                            <button onClick={clearAll} className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest text-primary/50 hover:text-primary transition-colors px-3 py-1.5 rounded-lg hover:bg-primary/5 bn-text">
                                 <X className="w-3 h-3" /> মুছুন
                             </button>
                         )}
@@ -472,11 +472,11 @@ const QuestionBank = () => {
                             <div className="w-20 h-20 opacity-15">
                                 <LottieAnimation src={searchAnimation} className="w-full h-full" pingPong />
                             </div>
-                            <p className="text-text-dim font-black uppercase tracking-widest text-xs">
+                            <p className="text-text-dim font-black uppercase tracking-widest text-xs bn-text">
                                 {anyFilterActive ? 'কোনো প্রশ্ন আপনার মানদণ্ডের সাথে মেলেনি' : 'খোঁজার জন্য কিছু টাইপ করুন'}
                             </p>
                             {anyFilterActive && (
-                                <button onClick={clearAll} className="text-primary font-black uppercase tracking-widest text-[10px] hover:underline">সব ফিল্টার মুছুন</button>
+                                <button onClick={clearAll} className="text-primary font-black uppercase tracking-widest text-[10px] hover:underline bn-text">সব ফিল্টার মুছুন</button>
                             )}
                         </div>
                     )}
@@ -490,7 +490,7 @@ const QuestionBank = () => {
                             >
                                 <ChevronLeft className="w-4 h-4" />
                             </button>
-                            <div className="px-5 py-2.5 bg-surface-alt rounded-xl border text-[11px] font-black uppercase tracking-widest text-primary tabular-nums">
+                            <div className="px-5 py-2.5 bg-surface-alt rounded-xl border text-[11px] font-black uppercase tracking-widest text-primary tabular-nums bn-text">
                                 পাতা {page} / {totalPages}
                             </div>
                             <button

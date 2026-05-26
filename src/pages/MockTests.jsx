@@ -36,24 +36,24 @@ const MockTests = () => {
                 </div>
 
                 <div className="relative z-10 max-w-xl space-y-5">
-                    <div className="inline-flex items-center gap-2 rounded-full border bg-surface-alt px-4 py-2 text-[10px] font-black uppercase tracking-[0.25em] text-text">
+                    <div className="inline-flex items-center gap-2 rounded-full border bg-surface-alt px-4 py-2 text-[10px] font-black uppercase tracking-[0.25em] text-text bn-text">
                         <Star className="h-4 w-4 text-reward fill-current" />
                         টাইমড চ্যালেঞ্জ মোড
                     </div>
-                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-black tracking-tighter text-text leading-none">
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-black tracking-tighter text-text leading-none bn-text">
                         সিমুলেট দ্য <span className="text-primary">ইভেন্ট।</span>
                     </h1>
-                    <p className="text-xs md:text-sm font-medium uppercase tracking-wider leading-relaxed text-text-muted">
+                    <p className="text-xs md:text-sm font-medium uppercase tracking-wider leading-relaxed text-text-muted bn-text">
                         পূর্ণ দৈর্ঘ্যের মক টেস্ট যা চাপ বজায় রাখে এবং রিওয়ার্ডিং অনুভূতি দেয়।
                     </p>
                     <div className="flex flex-wrap items-center gap-4 md:gap-6">
                         <div className="flex items-center gap-2">
                             <CheckCircle2 className="h-4 w-4 text-primary" />
-                            <span className="text-[10px] font-black uppercase tracking-widest text-text-muted">অটো ইভাল</span>
+                            <span className="text-[10px] font-black uppercase tracking-widest text-text-muted bn-text">অটো ইভাল</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <Star className="h-4 w-4 text-reward fill-current" />
-                            <span className="text-[10px] font-black uppercase tracking-widest text-text-muted">ডিটেইল সল</span>
+                            <span className="text-[10px] font-black uppercase tracking-widest text-text-muted bn-text">ডিটেইল সল</span>
                         </div>
                     </div>
                 </div>
@@ -61,13 +61,13 @@ const MockTests = () => {
                 <div className="relative z-10 w-full md:min-w-[240px] md:max-w-xs rounded-2xl border bg-surface p-4 md:p-8 shadow-lg">
                     <div className="mb-6 flex items-center justify-between">
                         <TrendingUp className="h-6 w-6 md:h-8 md:w-8 text-primary" />
-                        <span className="text-[9px] font-black uppercase tracking-widest text-text-dim">গ্লোবাল র‍্যাংক</span>
+                        <span className="text-[9px] font-black uppercase tracking-widest text-text-dim bn-text">গ্লোবাল র‍্যাংক</span>
                     </div>
                     <div className="space-y-3">
                         <div className="h-2 overflow-hidden rounded-full bg-surface-alt">
                             <div className="h-full w-[75%] bg-primary rounded-full" />
                         </div>
-                        <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-text-dim">
+                        <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-text-dim bn-text">
                             আইবিএ'র জন্য প্রস্তুত: <span className="text-text">৭৫%</span>
                         </p>
                     </div>
@@ -76,7 +76,7 @@ const MockTests = () => {
 
             <div className="space-y-6">
                 <div className="flex items-center gap-4">
-                    <h2 className="whitespace-nowrap text-lg md:text-2xl font-black uppercase tracking-tighter text-text">ফুল-লেংথ মক টেস্ট</h2>
+                    <h2 className="whitespace-nowrap text-lg md:text-2xl font-black uppercase tracking-tighter text-text bn-text">ফুল-লেংথ মক টেস্ট</h2>
                     <div className="h-px flex-1 bg-surface-alt" />
                 </div>
 
@@ -88,8 +88,8 @@ const MockTests = () => {
                                     <div className="space-y-4">
                                         <Lock className="mx-auto h-8 w-8 md:h-10 md:w-10 text-text-dim" />
                                         <div>
-                                            <p className="text-[10px] font-black uppercase tracking-widest text-white">প্রিমিয়াম কন্টেন্ট</p>
-                                            <p className="text-[9px] font-bold uppercase tracking-widest text-text-dim">আপগ্রেড করো সব মক টেস্ট পেতে</p>
+                                            <p className="text-[10px] font-black uppercase tracking-widest text-white bn-text">প্রিমিয়াম কন্টেন্ট</p>
+                                            <p className="text-[9px] font-bold uppercase tracking-widest text-text-dim bn-text">আপগ্রেড করো সব মক টেস্ট পেতে</p>
                                         </div>
                                     </div>
                                 </div>
@@ -101,7 +101,7 @@ const MockTests = () => {
                                         <ClipboardList className="h-5 w-5 md:h-6 md:w-6 text-primary" />
                                     </div>
                                     <div className="text-right">
-                                        <p className="mb-1 text-[9px] font-black uppercase tracking-[0.2em] text-text-dim">সময়</p>
+                                        <p className="mb-1 text-[9px] font-black uppercase tracking-[0.2em] text-text-dim bn-text">সময়</p>
                                         <p className="text-sm font-black text-text">{test.duration_minutes}m</p>
                                     </div>
                                 </div>
@@ -109,17 +109,17 @@ const MockTests = () => {
                                 <div>
                                     <h3 className="mb-1 text-lg md:text-xl font-black tracking-tight text-text transition-colors group-hover:text-primary">{test.title}</h3>
                                     <div className="flex items-center gap-4">
-                                        <div className="flex items-center gap-1 text-[9px] font-bold uppercase tracking-widest text-text-dim">
+                                        <div className="flex items-center gap-1 text-[9px] font-bold uppercase tracking-widest text-text-dim bn-text">
                                             <Timer className="h-3 w-3 text-primary/50" /> {test.total_questions}টি প্রশ্ন
                                         </div>
                                     </div>
                                 </div>
 
                                 <button
-                                    onClick={() => startTest(test.id)}
-                                    className="flex w-full items-center justify-center gap-2 rounded-xl md:rounded-[1.4rem] bg-primary py-3 md:py-4 text-[9px] font-black uppercase tracking-widest text-white border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] transition-all active:scale-95 hover:bg-primary-hover"
-                                >
-                                    মক টেস্ট শুরু করো <ArrowRight className="h-4 w-4" />
+                    onClick={() => startTest(test.id)}
+                    className="flex w-full items-center justify-center gap-2 rounded-xl md:rounded-[1.4rem] bg-primary py-3 md:py-4 text-[9px] font-black uppercase tracking-widest text-white border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] transition-all active:scale-95 hover:bg-primary-hover bn-text"
+                >
+                    মক টেস্ট শুরু করো <ArrowRight className="h-4 w-4" />
                                 </button>
                             </div>
                         </div>
@@ -141,7 +141,7 @@ const MockTests = () => {
                                         <Timer className="h-3 w-3" /> 100 Questions
                                     </div>
                                 </div>
-                                <button className="w-full cursor-not-allowed rounded-xl md:rounded-[1.4rem] bg-surface-alt py-3 md:py-4 text-[9px] font-black uppercase tracking-widest text-text-dim">
+                                <button className="w-full cursor-not-allowed rounded-xl md:rounded-[1.4rem] bg-surface-alt py-3 md:py-4 text-[9px] font-black uppercase tracking-widest text-text-dim bn-text">
                                     মক শীঘ্রই আসছে
                                 </button>
                             </div>
@@ -159,13 +159,13 @@ const MockTests = () => {
                         </svg>
                     </div>
                     <div>
-                        <h4 className="text-xs font-black uppercase tracking-widest text-text">লাইভ এক্সাম কাউন্টডাউন</h4>
-                        <p className="text-[10px] font-bold uppercase tracking-widest text-text-dim">
+                        <h4 className="text-xs font-black uppercase tracking-widest text-text bn-text">লাইভ এক্সাম কাউন্টডাউন</h4>
+                        <p className="text-[10px] font-bold uppercase tracking-widest text-text-dim bn-text">
                             পরবর্তী অল-প্ল্যাটফর্ম মক: <span className="text-primary">12:45:30</span>
                         </p>
                     </div>
                 </div>
-                <button className="w-full md:w-auto rounded-xl md:rounded-[1.4rem] bg-primary px-8 md:px-10 py-3 md:py-4 text-[10px] font-black uppercase tracking-widest text-white shadow-lg transition-all active:scale-95 hover:bg-primary-hover">
+                <button className="w-full md:w-auto rounded-xl md:rounded-[1.4rem] bg-primary px-8 md:px-10 py-3 md:py-4 text-[10px] font-black uppercase tracking-widest text-white shadow-lg transition-all active:scale-95 hover:bg-primary-hover bn-text">
                     ইভেন্টে রেজিস্টার করো
                 </button>
             </div>

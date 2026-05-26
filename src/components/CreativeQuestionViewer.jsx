@@ -9,8 +9,8 @@ const CreativeQuestionViewer = ({ cq, onContinue, fontSize = 16 }) => {
   return (
     <div className="flex-1 flex flex-col min-h-0 gap-2 p-1">
       <div className="bg-surface-alt border border-primary/20 rounded-xl p-3 shrink-0 overflow-y-auto max-h-[30vh]">
-        <p className="text-[9px] font-black text-primary uppercase tracking-widest mb-1.5">
-          {cq.stem_label || 'উদ্দীপকটি পড়ে নিচের প্রশ্নগুলোর উত্তর দাও'}
+        <p className="text-[9px] font-black text-primary uppercase tracking-widest mb-1.5 bn-text">
+          {cq.stem_label || 'প্রশ্নটি মনোযোগ দিয়ে পড়ো এবং সঠিক উত্তরটি নির্বাচন করো'}
         </p>
         <p className="text-text leading-relaxed font-medium whitespace-pre-wrap" style={{ fontSize: `${Math.max(12, fontSize - 2)}px` }}>
           {cq.stem}

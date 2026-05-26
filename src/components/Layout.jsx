@@ -98,7 +98,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
           <nav className="flex-1 px-3 py-6 overflow-y-auto no-scrollbar">
             {sidebarSections.map((section) => (
               <div key={section.label} className="mb-6">
-                <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-text-muted mb-2">
+                <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-text-muted mb-2 bn-text">
                   {section.label}
                 </p>
                 <div className="space-y-0.5">
@@ -125,7 +125,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
 
             {isAdmin && (
               <div className="mb-6">
-                <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-emerald-600/50 mb-2">
+                <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-emerald-600/50 mb-2 bn-text">
                   অ্যাডমিন
                 </p>
                 <NavLink
@@ -146,7 +146,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
             )}
 
             <div className="space-y-0.5">
-              <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-text-muted mb-2">
+              <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-text-muted mb-2 bn-text">
                 অন্যান্য
               </p>
               <NavLink
@@ -175,10 +175,10 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
 
           <div className="p-4 border-t border space-y-3 bg-background/50 safe-bottom">
             <div className="bg-surface-hover p-3 rounded-xl">
-              <p className="text-[10px] uppercase font-bold tracking-widest text-text-muted mb-0.5">
+              <p className="text-[10px] uppercase font-bold tracking-widest text-text-muted mb-0.5 bn-text">
                 {isAdmin ? 'অ্যাডমিন মোড' : 'শিক্ষার্থী'}
               </p>
-              <p className="text-sm font-black text-text tracking-tight truncate">
+              <p className="text-sm font-black text-text tracking-tight truncate bn-text">
                 {user?.user_metadata?.username || user?.email || 'শিক্ষার্থী'}
               </p>
             </div>
@@ -244,7 +244,7 @@ const NotificationCenter = () => {
           `}
         >
           <div className="flex items-center justify-between mb-4 shrink-0">
-            <h4 className="text-xs font-black uppercase tracking-widest text-text">
+            <h4 className="text-xs font-black uppercase tracking-widest text-text bn-text">
               নোটিফিকেশন
             </h4>
             <button

@@ -106,7 +106,7 @@ const Settings = () => {
                     </h3>
                     <div className="space-y-4">
                         <div className="space-y-1.5">
-                            <label className="text-[10px] font-bold uppercase tracking-wider text-text-muted px-1">নাম</label>
+                            <label className="text-[10px] font-bold uppercase tracking-wider text-text-muted px-1 bn-text">নাম</label>
                             <div className="relative">
                                 <User className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
                                 <input
@@ -119,14 +119,14 @@ const Settings = () => {
                             </div>
                         </div>
                         <div className="space-y-1.5">
-                            <label className="text-[10px] font-bold uppercase tracking-wider text-text-muted px-1">ইমেইল</label>
+                            <label className="text-[10px] font-bold uppercase tracking-wider text-text-muted px-1 bn-text">ইমেইল</label>
                             <div className="relative opacity-60">
                                 <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
                                 <input type="email" value={user?.email} disabled className="duo-input pl-10 cursor-not-allowed" />
                             </div>
                         </div>
                         <div className="space-y-1.5">
-                            <label className="text-[10px] font-bold uppercase tracking-wider text-text-muted px-1">ফোন নম্বর</label>
+                            <label className="text-[10px] font-bold uppercase tracking-wider text-text-muted px-1 bn-text">ফোন নম্বর</label>
                             <div className="relative">
                                 <Phone className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
                                 <input
@@ -163,7 +163,7 @@ const Settings = () => {
                         ))}
                     </div>
                     <div className="space-y-2">
-                        <p className="text-[10px] font-bold uppercase tracking-wider text-text-muted px-1">প্রশ্নের ভাষা</p>
+                        <p className="text-[10px] font-bold uppercase tracking-wider text-text-muted px-1 bn-text">প্রশ্নের ভাষা</p>
                         <div className="flex gap-2">
                             {['bangla', 'english'].map((version) => (
                                 <button
@@ -212,7 +212,7 @@ const Settings = () => {
                             </button>
                         </div>
                         <div>
-                            <p className="text-[10px] font-bold uppercase tracking-wider text-text-muted mb-2">টেক্সট সাইজ</p>
+                            <p className="text-[10px] font-bold uppercase tracking-wider text-text-muted mb-2 bn-text">টেক্সট সাইজ</p>
                             <div className="flex gap-2">
                                 {['small', 'normal', 'large'].map((sz) => (
                                     <button

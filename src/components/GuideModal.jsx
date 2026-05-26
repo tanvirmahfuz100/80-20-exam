@@ -57,7 +57,7 @@ const GuideModal = ({ isOpen, onClose }) => {
                 </button>
 
                 <div className="space-y-1 mb-6">
-                    <h2 className="text-2xl font-black text-text tracking-tighter">কীভাবে ফায়ারম্যান ব্যবহার করবেন</h2>
+                    <h2 className="text-2xl font-black text-text tracking-tighter bn-text">কীভাবে ফায়ারম্যান ব্যবহার করবেন</h2>
                     <p className="text-sm text-text-muted font-medium">Everything you need to ace your exams â€” এখানে তা কীভাবে কাজ করে।</p>
                 </div>
 
@@ -83,7 +83,7 @@ const GuideModal = ({ isOpen, onClose }) => {
 
                 <button
                     onClick={onClose}
-                    className="mt-6 w-full py-4 bg-primary hover:bg-primary-hover text-white rounded-2xl font-black uppercase tracking-widest text-xs transition-all active:scale-[0.98] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
+                    className="mt-6 w-full py-4 bg-primary hover:bg-primary-hover text-white rounded-2xl font-black uppercase tracking-widest text-xs transition-all active:scale-[0.98] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] bn-text"
                 >
                     বুঝেছি
                 </button>

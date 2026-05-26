@@ -121,7 +121,7 @@ const LevelSelect = () => {
         <div className="w-14 h-14 mx-auto mb-4 rounded-2xl bg-cardinal/10 border border-cardinal/20 flex items-center justify-center">
           <Sparkles className="w-6 h-6 text-cardinal" />
         </div>
-        <h3 className="text-text font-black text-xl tracking-tighter mb-2">লেভেল লোড করা যায়নি</h3>
+            <h3 className="text-text font-black text-xl tracking-tighter mb-2 bn-text">লেভেল লোড করা যায়নি</h3>
         <p className="text-text-muted font-medium leading-relaxed text-sm">{error}</p>
         <Link to="/practice" className="mt-5 inline-flex items-center justify-center rounded-full bg-primary px-6 py-2.5 text-sm font-bold text-white transition-all hover:bg-primary-hover active:scale-95 shadow-sm">
           প্রাক্টিসে ফিরে যাও
@@ -146,7 +146,7 @@ const LevelSelect = () => {
             <ArrowLeft className="w-4 h-4" />
           </button>
           <div>
-            <h1 className="text-lg md:text-2xl font-black text-text tracking-tight">লেভেল</h1>
+            <h1 className="text-lg md:text-2xl font-black text-text tracking-tight bn-text">লেভেল</h1>
             <p className="text-xs text-text-muted font-medium truncate max-w-[200px] md:max-w-xs">{title}</p>
           </div>
         </div>

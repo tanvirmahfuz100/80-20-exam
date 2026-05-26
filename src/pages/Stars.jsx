@@ -48,7 +48,7 @@ const Stars = () => {
     <div className="max-w-3xl mx-auto space-y-6">
       <div className="grid grid-cols-2 gap-3 mb-8">
         <div className="bg-surface border rounded-xl p-4">
-          <div className="text-[9px] font-black uppercase tracking-widest text-text-muted mb-1 flex items-center gap-1">
+          <div className="text-[9px] font-black uppercase tracking-widest text-text-muted mb-1 flex items-center gap-1 bn-text">
             <Zap className="w-3 h-3" />
             মোট এক্সপি
           </div>
@@ -57,7 +57,7 @@ const Stars = () => {
           </div>
         </div>
         <div className="bg-surface border rounded-xl p-4">
-          <div className="text-[9px] font-black uppercase tracking-widest text-text-muted mb-1 flex items-center gap-1">
+          <div className="text-[9px] font-black uppercase tracking-widest text-text-muted mb-1 flex items-center gap-1 bn-text">
             <Star className="w-3 h-3" />
             রিভিউ বাকি
           </div>
@@ -66,7 +66,7 @@ const Stars = () => {
           </div>
         </div>
         <div className="bg-surface border rounded-xl p-4">
-          <div className="text-[9px] font-black uppercase tracking-widest text-text-muted mb-1 flex items-center gap-1">
+          <div className="text-[9px] font-black uppercase tracking-widest text-text-muted mb-1 flex items-center gap-1 bn-text">
             <Clock className="w-3 h-3" />
             আজকে
           </div>
@@ -75,7 +75,7 @@ const Stars = () => {
           </div>
         </div>
         <div className="bg-surface border rounded-xl p-4">
-          <div className="text-[9px] font-black uppercase tracking-widest text-text-muted mb-1 flex items-center gap-1">
+          <div className="text-[9px] font-black uppercase tracking-widest text-text-muted mb-1 flex items-center gap-1 bn-text">
             <BookOpen className="w-3 h-3" />
             সর্বকালের স্টার
           </div>
@@ -87,7 +87,7 @@ const Stars = () => {
 
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl md:text-3xl font-black text-text tracking-tighter flex items-center gap-3">
+          <h1 className="text-2xl md:text-3xl font-black text-text tracking-tighter flex items-center gap-3 bn-text">
             <Star className="w-6 h-6 text-yellow-300 fill-yellow-300/30" />
             স্টার রিভিউ
           </h1>
@@ -101,10 +101,12 @@ const Stars = () => {
         {totalDue > 0 && (
           <button
             onClick={handleReviewAll}
-            className="inline-flex items-center gap-2 bg-primary text-white px-5 py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all hover:bg-primary-hover active:scale-[0.98] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px]"
-          >
-            <Sparkles className="w-3.5 h-3.5" />
-            বাকি স্টার রিভিউ করো
+                        className="inline-flex items-center gap-2 bg-primary text-white px-5 py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all hover:bg-primary-hover active:scale-[0.98] border-b-4 border-primary-dark active:border-b-0 active:translate-y-[2px] bn-text"
+                        onClick={() => {
+                            if (pendingReview > 0) navigate('/quiz/review');
+                        }}
+                    >
+                        বাকি স্টার রিভিউ করো
           </button>
         )}
       </div>
@@ -159,7 +161,7 @@ const Stars = () => {
                   )}
                   <span className="text-text-muted text-base">/{group.total}</span>
                 </p>
-                <p className="text-text-dim text-[9px] font-black uppercase tracking-widest">বাকি/মোট</p>
+                <p className="text-text-dim text-[9px] font-black uppercase tracking-widest bn-text">বাকি/মোট</p>
               </div>
             </div>
 
@@ -167,17 +169,17 @@ const Stars = () => {
               <button
                 onClick={() => handleReview(group.stage)}
                 disabled={group.dueNow === 0}
-                className={`w-full py-3.5 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all flex items-center justify-center gap-2 ${
-                  group.dueNow > 0
-                    ? 'bg-primary text-white hover:bg-primary-hover active:scale-[0.98]'
-                    : 'bg-surface-alt text-text-dim cursor-not-allowed'
-                }`}
-              >
-                {group.dueNow > 0 ? (
-                  <><Brain className="w-3.5 h-3.5" /> রিভিউ শুরু করো</>
-                ) : (
-                  <><CheckCircle className="w-3.5 h-3.5" /> সব রিভিউ করা হয়েছে</>
-                )}
+                    className={`w-full py-3.5 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all flex items-center justify-center gap-2 bn-text ${
+                        group.dueNow > 0
+                            ? 'bg-primary text-white hover:bg-primary-hover active:scale-[0.98]'
+                            : 'bg-surface-alt text-text-dim cursor-not-allowed'
+                    }`}
+                >
+                    {group.dueNow > 0 ? (
+                        <><Brain className="w-3.5 h-3.5" /> রিভিউ শুরু করো</>
+                    ) : (
+                        <><CheckCircle className="w-3.5 h-3.5" /> সব রিভিউ সম্পন্ন</>
+                    )}
               </button>
             )}
           </div>
@@ -186,16 +188,16 @@ const Stars = () => {
         {totalMistakes === 0 && (
           <div className="text-center py-16 bg-surface border rounded-2xl">
             <Star className="w-16 h-16 text-text-dim mx-auto mb-4" />
-            <p className="text-text-muted font-black uppercase tracking-widest text-[10px]">এখনো কোনো ভুল নেই</p>
+                <p className="text-text-muted font-black uppercase tracking-widest text-[10px] bn-text">এখনো কোনো ভুল নেই</p>
             <p className="text-text-dim text-sm mt-2 font-medium">প্রাক্টিস করতে থাকো, রিভিউ লিস্ট তৈরি হবে</p>
           </div>
         )}
       </div>
 
-      <div className="flex items-center gap-2 text-[9px] font-black uppercase tracking-widest text-text-dim px-1">
-        <Clock className="w-3 h-3" />
-        স্পেসড রিপিটিশন: আজকে &rarr; ৩ দিন পর &rarr; ৭ দিন পর &rarr; ১৪ দিন পর &rarr; ৩০ দিন পর
-      </div>
+              <div className="flex items-center gap-2 text-[9px] font-black uppercase tracking-widest text-text-dim px-1 bn-text">
+                <RefreshCw className="w-3 h-3 shrink-0" />
+                স্পেসড রিপিটিশন: আজকে → ৩ দিন পর → ৭ দিন পর → ১৪ দিন পর → ৩০ দিন পর
+              </div>
     </div>
   );
 };

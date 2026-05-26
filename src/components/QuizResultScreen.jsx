@@ -25,7 +25,7 @@ export default function QuizResultScreen({
           </div>
 
           <div>
-            <h2 className="text-2xl font-black text-text tracking-tight mb-1">
+            <h2 className="text-2xl font-black text-text tracking-tight mb-1 bn-text">
               {currentLevel ? `লেভেল ${currentLevel} সম্পন্ন!` : 'প্রাক্টিস সম্পন্ন!'}
             </h2>
             <p className="text-sm text-text-muted font-medium truncate px-2">{title}</p>
@@ -51,7 +51,7 @@ export default function QuizResultScreen({
             </div>
 
             <div>
-              <h2 className="text-2xl font-black text-text tracking-tight mb-1">
+              <h2 className="text-2xl font-black text-text tracking-tight mb-1 bn-text">
                 লেভেল {currentLevel} সম্পন্ন!
               </h2>
               <p className="text-sm text-text-muted font-medium truncate px-2">{title}</p>
@@ -60,11 +60,11 @@ export default function QuizResultScreen({
             <div className="grid grid-cols-2 gap-3">
               <div className="bg-background rounded-2xl p-4 border">
                 <div className={`font-black text-xl mb-0.5 ${accuracy >= 80 ? 'text-primary' : accuracy >= 50 ? 'text-bee' : 'text-text-muted'}`}>{accuracy}%</div>
-                <div className="text-[9px] text-text-muted font-black uppercase tracking-wider">একিউরেসি</div>
+                <div className="text-[9px] text-text-muted font-black uppercase tracking-wider bn-text">একিউরেসি</div>
               </div>
               <div className="bg-background rounded-2xl p-4 border">
                 <div className="text-primary font-black text-xl mb-0.5">{score}/{totalQuestions}</div>
-                <div className="text-[9px] text-text-muted font-black uppercase tracking-wider">সঠিক</div>
+                <div className="text-[9px] text-text-muted font-black uppercase tracking-wider bn-text">সঠিক</div>
               </div>
             </div>
 
@@ -74,7 +74,7 @@ export default function QuizResultScreen({
                   <Zap className="w-5 h-5 text-primary" />
                   <span className="text-primary font-black text-xl">+{earnedXp}</span>
                 </div>
-                <div className="text-[9px] text-primary/50 font-black uppercase tracking-wider mt-0.5">এক্সপি</div>
+                <div className="text-[9px] text-primary/50 font-black uppercase tracking-wider mt-0.5 bn-text">এক্সপি</div>
               </div>
               {earnedStars === 0 ? (
                 <div className="bg-primary/5 rounded-2xl p-4 border border-primary/20">
@@ -82,7 +82,7 @@ export default function QuizResultScreen({
                     <Sparkles className="w-5 h-5 text-primary" />
                     <span className="text-primary font-black text-xl">পারফেক্ট!</span>
                   </div>
-                  <div className="text-[9px] text-primary/50 font-black uppercase tracking-wider mt-0.5">কোনো ভুল নেই</div>
+                  <div className="text-[9px] text-primary/50 font-black uppercase tracking-wider mt-0.5 bn-text">কোনো ভুল নেই</div>
                 </div>
               ) : (
                 <div className="bg-bee/5 rounded-2xl p-4 border border-bee/20">
@@ -90,7 +90,7 @@ export default function QuizResultScreen({
                     <Star className="w-5 h-5 text-bee" />
                     <span className="text-bee font-black text-xl">{earnedStars}</span>
                   </div>
-                  <div className="text-[9px] text-bee/50 font-black uppercase tracking-wider mt-0.5">স্টার রিভিউ</div>
+                  <div className="text-[9px] text-bee/50 font-black uppercase tracking-wider mt-0.5 bn-text">স্টার রিভিউ</div>
                 </div>
               )}
             </div>
@@ -136,7 +136,7 @@ export default function QuizResultScreen({
           </div>
 
           <div>
-            <h2 className="text-2xl font-black text-text tracking-tight mb-1">প্রাক্টিস সম্পন্ন!</h2>
+            <h2 className="text-2xl font-black text-text tracking-tight mb-1 bn-text">প্রাক্টিস সম্পন্ন!</h2>
             <p className="text-sm text-text-muted font-medium truncate px-2">{title}</p>
           </div>
 
@@ -147,12 +147,12 @@ export default function QuizResultScreen({
             </div>
             <div className="bg-background rounded-2xl p-4 border">
               <div className="text-primary font-black text-xl mb-0.5">{score}/{totalQuestions}</div>
-              <div className="text-[9px] text-text-muted font-black uppercase tracking-wider">সঠিক</div>
+              <div className="text-[9px] text-text-muted font-black uppercase tracking-wider bn-text">সঠিক</div>
             </div>
             {earnedStars === 0 ? (
               <div className="bg-primary/5 rounded-2xl p-4 border border-primary/20">
                 <div className="text-primary font-black text-xl mb-0.5">ক্লিন!</div>
-                <div className="text-[9px] text-primary/50 font-black uppercase tracking-wider mt-0.5">কোনো ভুল নেই</div>
+                <div className="text-[9px] text-primary/50 font-black uppercase tracking-wider mt-0.5 bn-text">কোনো ভুল নেই</div>
               </div>
             ) : (
               <div className="bg-bee/5 rounded-2xl p-4 border border-bee/20">
@@ -160,7 +160,7 @@ export default function QuizResultScreen({
                   <Star className="w-5 h-5 text-bee" />
                   <span className="text-bee font-black text-xl">{earnedStars}</span>
                 </div>
-                <div className="text-[9px] text-bee/50 font-black uppercase tracking-wider mt-0.5">স্টার রিভিউ</div>
+                <div className="text-[9px] text-bee/50 font-black uppercase tracking-wider mt-0.5 bn-text">স্টার রিভিউ</div>
               </div>
             )}
           </div>
