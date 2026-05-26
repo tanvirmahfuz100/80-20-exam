@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { AlertTriangle, XCircle, Flag } from 'lucide-react';
 
-export const ExitConfirmModal = ({ show, onStay, onLeave }) => {
+export const ExitConfirmModal = ({ show, onStay, onLeave, title, message, stayLabel, leaveLabel }) => {
   if (!show) return null;
   return (
     <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
@@ -20,9 +20,9 @@ export const ExitConfirmModal = ({ show, onStay, onLeave }) => {
             <AlertTriangle className="w-5 h-5 text-cardinal" />
           </div>
           <div className="min-w-0 flex-1">
-            <h3 className="text-sm font-bold text-text">Are you sure?</h3>
+            <h3 className="text-sm font-bold text-text">{title || 'Are you sure?'}</h3>
             <p className="text-xs text-text-muted font-medium mt-1 leading-relaxed">
-              You'll lose your progress on this lesson if you leave. Your answers so far are saved.
+              {message || "You'll lose your progress on this lesson if you leave. Your answers so far are saved."}
             </p>
           </div>
         </div>
@@ -31,13 +31,13 @@ export const ExitConfirmModal = ({ show, onStay, onLeave }) => {
             onClick={onStay}
             className="flex-1 py-3 bg-surface-alt hover:bg-surface-hover text-text rounded-full font-bold text-sm transition-all active:scale-[0.97] border"
           >
-            Stay
+            {stayLabel || 'Stay'}
           </button>
           <button
             onClick={onLeave}
             className="flex-1 py-3 bg-cardinal text-white hover:bg-cardinal-dark rounded-full font-bold text-sm transition-all active:scale-[0.97]"
           >
-            Leave
+            {leaveLabel || 'Leave'}
           </button>
         </div>
       </motion.div>

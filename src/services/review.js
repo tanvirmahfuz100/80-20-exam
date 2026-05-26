@@ -145,3 +145,15 @@ export const getReviewSession = () => {
 export const clearReviewSession = () => {
   localStorage.removeItem(REVIEW_SESSION_KEY);
 };
+
+export const getRecentMistakes = (count = 3) => {
+  const all = read();
+  const sorted = [...all].sort((a, b) => new Date(b.lastWrongAt) - new Date(a.lastWrongAt));
+  return sorted.slice(0, count).map(m => ({
+    id: m.id,
+    question: m.question,
+    stage: m.stage,
+    lastWrongAt: m.lastWrongAt,
+    source: m.source,
+  }));
+};
