@@ -37,7 +37,7 @@ const subjectIconMap = {
   'সমাজ বিজ্ঞান': BookOpen,
 };
 
-const subjectNameToId = {
+export const subjectNameToId = {
   'বাংলা': 'bangla',
   'ইংরেজি': 'english',
   'গণিত': 'math',

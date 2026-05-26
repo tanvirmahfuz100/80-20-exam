@@ -10,6 +10,7 @@ import {
 import { useExamPath } from '../hooks/useExamPath';
 import { getSubjects } from '../config/examPaths';
 import ExamOnboarding from '../components/ExamOnboarding';
+import { subjectNameToId } from './SubjectSelection';
 import ExamChangerDropdown from '../components/ExamChangerDropdown';
 import { getDailyQuizQuestions } from '../services/dailyQuiz';
 import { stripMath } from '../services/quizUtils';
@@ -287,7 +288,13 @@ export default function Learn() {
             <SubjectGridCard
               key={subject}
               subject={subject}
-              onClick={() => navigate('/practice')}
+              onClick={() => {
+                const subjId = subjectNameToId[subject];
+                const url = subjId
+                  ? `/practice?exam=${examPath.exam.toLowerCase()}&subjectId=${subjId}`
+                  : `/practice?exam=${examPath.exam.toLowerCase()}`;
+                navigate(url);
+              }}
             />
           ))}
         </motion.div>
