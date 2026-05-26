@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import {
     ArrowLeft, CheckCircle2, XCircle, RefreshCw, Flag,
-    Zap, Clock, Video, Star, Sparkles, ChevronRight
+    Zap, Clock, Video, Star, Sparkles, ChevronRight,
+    Flame, Gem, Bell,
 } from 'lucide-react';
 import {
     addMistake, advanceStage, resetStage,
@@ -20,6 +21,9 @@ import { stripMath } from '../services/quizUtils';
 import QuizResultScreen from '../components/QuizResultScreen';
 import { ExitConfirmModal, ReportModal } from '../components/QuizModals';
 import { useQuizSession } from '../hooks/useQuizSession';
+import { getCurrentStreak } from '../services/streak';
+import { readStorage } from '../utils/storage';
+import { useMistakeStore } from '../stores/mistakeStore';
 
 const Quiz = () => {
     const {
@@ -47,11 +51,16 @@ const Quiz = () => {
         handleBackWithConfirm, navigate,
     } = useQuizSession();
 
+    const [quizStreak, setQuizStreak] = useState(0);
+    const [quizGems, setQuizGems] = useState(0);
+    const [quizStarBalance, setQuizStarBalance] = useState(0);
+    const refreshKey = useMistakeStore((s) => s.refreshKey);
+
     useEffect(() => {
-        const html = document.documentElement;
-        html.style.overflow = 'hidden';
-        return () => { html.style.overflow = ''; };
-    }, []);
+        setQuizStreak(getCurrentStreak(user?.id));
+        setQuizGems(readStorage('exam_local_auth', {}).profile?.gems || 0);
+        setQuizStarBalance(getMistakesDueCount());
+    }, [user?.id, refreshKey]);
 
     useEffect(() => {
         if (loading || isFinished || showReportModal || showExitConfirm) return;
@@ -204,6 +213,23 @@ const Quiz = () => {
                             >
                                 <span className="text-[11px] font-black leading-none">A+</span>
                             </button>
+                        </div>
+                        <div className="flex items-center gap-1">
+                            <div className="flex items-center gap-1 px-2 py-1.5 rounded-xl bg-background border">
+                                <Flame className="w-3.5 h-3.5 text-orange-500" />
+                                <span className="text-[10px] font-black text-orange-600 tabular-nums">{quizStreak}</span>
+                            </div>
+                            <div className="flex items-center gap-1 px-2 py-1.5 rounded-xl bg-background border">
+                                <Gem className="w-3.5 h-3.5 text-cyan-500" />
+                                <span className="text-[10px] font-black text-cyan-600 tabular-nums">{quizGems}</span>
+                            </div>
+                            <div className="flex items-center gap-1 px-2 py-1.5 rounded-xl bg-background border">
+                                <Star className="w-3.5 h-3.5 text-bee fill-bee/30" />
+                                <span className="text-[10px] font-black text-bee tabular-nums">{quizStarBalance}</span>
+                            </div>
+                            <div className="flex items-center gap-1 px-2 py-1.5 rounded-xl bg-background border">
+                                <Bell className="w-3.5 h-3.5 text-text-muted" />
+                            </div>
                         </div>
                         {isTimedMode && (
                             <div className="px-2.5 py-1.5 rounded-xl bg-background border flex items-center gap-1.5 font-mono font-black text-sm text-text">
