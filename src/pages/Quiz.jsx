@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import {
     ArrowLeft, CheckCircle2, XCircle, RefreshCw, Flag,
-    Zap, Clock, Video, Star, Sparkles, ChevronRight, Flame, Gem
+    Zap, Clock, Video, Star, Sparkles, ChevronRight
 } from 'lucide-react';
 import {
     addMistake, advanceStage, resetStage,
-    getMistakesDueCount, getMistakeGroups, getRecentMistakes
+    getMistakesDueCount
 } from '../services/review';
 import { api } from '../services/localApi';
 import GapFillPassage from '../components/GapFillPassage';
@@ -20,11 +20,6 @@ import { stripMath } from '../services/quizUtils';
 import QuizResultScreen from '../components/QuizResultScreen';
 import { ExitConfirmModal, ReportModal } from '../components/QuizModals';
 import { useQuizSession } from '../hooks/useQuizSession';
-import StreakPopup from '../components/StreakPopup';
-import GemPopup from '../components/GemPopup';
-import StarPopup from '../components/StarPopup';
-import { getCurrentStreak, getStreakHistory, recordDailyCheckIn } from '../services/streak';
-import { readStorage } from '../utils/storage';
 
 const Quiz = () => {
     const {
@@ -51,52 +46,6 @@ const Quiz = () => {
         handleOptionSelect, handleSubmitReport, handleNext,
         handleBackWithConfirm, navigate,
     } = useQuizSession();
-
-    const [showStreakPopup, setShowStreakPopup] = useState(false);
-    const [showGemPopup, setShowGemPopup] = useState(false);
-    const [showStarPopup, setShowStarPopup] = useState(false);
-    const [pendingNav, setPendingNav] = useState(null);
-    const [showLeaveConfirm, setShowLeaveConfirm] = useState(false);
-
-    const [streak, setStreak] = useState(0);
-    const [streakHistory, setStreakHistory] = useState([]);
-    const [gemsBalance, setGemsBalance] = useState(0);
-    const [mistakeGroups, setMistakeGroups] = useState([]);
-    const [recentMistakes, setRecentMistakes] = useState([]);
-
-    const refreshPopupData = React.useCallback(() => {
-        const profileData = readStorage('exam_local_auth', {}).profile || {};
-        setGemsBalance(profileData.gems || 0);
-        setStreak(recordDailyCheckIn(user?.id));
-        setStreakHistory(getStreakHistory(user?.id, 31));
-        setMistakeGroups(getMistakeGroups());
-        setRecentMistakes(getRecentMistakes(3));
-    }, [user?.id]);
-
-    React.useEffect(() => {
-        refreshPopupData();
-        window.addEventListener('quizBalanceUpdated', refreshPopupData);
-        window.addEventListener('mistakeReviewUpdated', refreshPopupData);
-        return () => {
-            window.removeEventListener('quizBalanceUpdated', refreshPopupData);
-            window.removeEventListener('mistakeReviewUpdated', refreshPopupData);
-        };
-    }, [refreshPopupData]);
-
-    const handleNavFromPopup = (path) => {
-        setPendingNav(path);
-        setShowLeaveConfirm(true);
-    };
-
-    const handleEarnGems = () => {
-        const raw = localStorage.getItem('exam_local_auth');
-        if (raw) {
-            const session = JSON.parse(raw);
-            session.profile.gems = (session.profile.gems || 0) + 10;
-            localStorage.setItem('exam_local_auth', JSON.stringify(session));
-        }
-        window.dispatchEvent(new Event('quizBalanceUpdated'));
-    };
 
     if (loading) return <LoadingScreen message="প্রাক্টিস সেশন লোড হচ্ছে..." />;
 
@@ -242,39 +191,17 @@ const Quiz = () => {
                             <span>{formatTime(elapsed)}</span>
                         </div>
                     )}
-                    <button
-                        onClick={() => setShowStreakPopup(true)}
-                        className="px-2.5 py-1.5 rounded-xl bg-background border flex items-center gap-1.5 hover:bg-wolf transition-all active:scale-95"
-                        aria-label="Open streak details"
-                    >
-                        <Flame className="w-3.5 h-3.5 text-orange-500" />
-                        <span className="text-orange-600 font-black text-xs tabular-nums">{streak}</span>
-                    </button>
-                    <button
-                        onClick={() => setShowGemPopup(true)}
-                        className="px-2.5 py-1.5 rounded-xl bg-background border flex items-center gap-1.5 hover:bg-wolf transition-all active:scale-95"
-                        aria-label="Open gem details"
-                    >
-                        <Gem className="w-3.5 h-3.5 text-cyan-500" />
-                        <span className="text-cyan-600 font-black text-xs tabular-nums">{gemsBalance}</span>
-                    </button>
                     {isReviewSession ? (
                         <div className="px-2.5 py-1.5 rounded-xl bg-background border flex items-center gap-1.5">
                             <RefreshCw className="w-3.5 h-3.5 text-macaw" />
                             <span className="text-macaw font-black text-[10px]">RVW</span>
                         </div>
                     ) : (
-                        <button
-                            onClick={() => setShowStarPopup(true)}
-                            ref={starTargetRef}
-                            className={`px-2.5 py-1.5 rounded-xl bg-background border flex items-center gap-1.5 transition-all topbar-star-target hover:bg-wolf active:scale-95 ${balanceGlow ? 'ring-2 ring-bee/60' : ''}`}
-                            title="Stars to review"
-                            aria-label="Open star rewards"
-                        >
+                        <div ref={starTargetRef} className={`px-2.5 py-1.5 rounded-xl bg-background border flex items-center gap-1.5 transition-all topbar-star-target ${balanceGlow ? 'ring-2 ring-bee/60' : ''}`} title="Stars to review">
                             <Star className="w-3.5 h-3.5 text-bee fill-bee/30" />
                             <span className="text-bee font-black text-xs tabular-nums">{mistakeCount}</span>
                             <span className="text-[7px] text-text-muted font-black uppercase tracking-widest leading-none hidden xs:inline bn-text">রিভিউ</span>
-                        </button>
+                        </div>
                     )}
                 </div>
             </div>
@@ -673,15 +600,6 @@ const Quiz = () => {
                 onStay={() => setShowExitConfirm(false)}
                 onLeave={() => { setShowExitConfirm(false); navigate('/practice'); }}
             />
-            <ExitConfirmModal
-                show={showLeaveConfirm}
-                title="Are you sure you want to leave the quiz?"
-                message="You'll lose your progress on this lesson if you leave. Your answers so far are saved."
-                stayLabel="No"
-                leaveLabel="Yes"
-                onStay={() => { setShowLeaveConfirm(false); setPendingNav(null); }}
-                onLeave={() => { setShowLeaveConfirm(false); if (pendingNav) navigate(pendingNav); setPendingNav(null); }}
-            />
             <ReportModal
                 show={showReportModal}
                 reason={reportReason}
@@ -690,27 +608,6 @@ const Quiz = () => {
                 onDetailsChange={setReportDetails}
                 onSubmit={handleSubmitReport}
                 onClose={() => setShowReportModal(false)}
-            />
-            <StreakPopup
-                isOpen={showStreakPopup}
-                onClose={() => setShowStreakPopup(false)}
-                streak={streak}
-                streakHistory={streakHistory}
-                onViewDetails={handleNavFromPopup}
-            />
-            <GemPopup
-                isOpen={showGemPopup}
-                onClose={() => setShowGemPopup(false)}
-                gems={gemsBalance}
-                onViewDetails={handleNavFromPopup}
-                onEarnGems={handleEarnGems}
-            />
-            <StarPopup
-                isOpen={showStarPopup}
-                onClose={() => setShowStarPopup(false)}
-                mistakeGroups={mistakeGroups}
-                recentMistakes={recentMistakes}
-                onViewDetails={handleNavFromPopup}
             />
         </div>
     );

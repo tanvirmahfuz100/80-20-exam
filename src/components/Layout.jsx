@@ -1,16 +1,22 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { NavLink, useLocation, Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { NavLink, useLocation, Link, useNavigate } from 'react-router-dom';
 import {
   LayoutDashboard, Trophy, Target, ShoppingBag, User, Menu, X,
   BookOpen, Settings as SettingsIcon, HelpCircle, Bell,
   Flame, Gem, LogOut, ShieldCheck, Star, MessageSquareWarning,
-  Sun, Moon, TrendingUp, Brain, Medal
+  Sun, Moon, TrendingUp, Brain, Medal, AlertTriangle
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
-import { getMistakesDueCount } from '../services/review';
+import { getMistakesDueCount, getMistakeGroups, getRecentMistakes } from '../services/review';
 import { playSound } from '../utils/sounds';
 import { useReducedMotion } from '../hooks';
+import StreakPopup from './StreakPopup';
+import GemPopup from './GemPopup';
+import StarPopup from './StarPopup';
+import { getCurrentStreak, getStreakHistory, recordDailyCheckIn } from '../services/streak';
+import { readStorage } from '../utils/storage';
 
 const bottomNavItems = [
   { icon: LayoutDashboard, label: "লার্ন", path: "/" },
@@ -218,11 +224,11 @@ const NotificationCenter = () => {
     <div className="relative">
       <button
         onClick={() => { if (!show) playSound('notification'); setShow(!show); }}
-        className="p-2.5 bg-surface border border rounded-xl text-text-muted hover:text-text hover:border transition-all relative touch-target flex items-center justify-center"
+        className="p-2 bg-surface border border rounded-xl text-text-muted hover:text-text hover:border transition-all relative touch-target flex items-center justify-center"
         aria-label="Notifications"
         aria-expanded={show}
       >
-        <Bell className="w-5 h-5" aria-hidden="true" />
+        <Bell className="w-4 h-4" aria-hidden="true" />
         <span className="absolute top-2 right-2 w-2 h-2 bg-cardinal rounded-full ring-2 ring-background" aria-hidden="true" />
       </button>
 
@@ -317,6 +323,7 @@ const Layout = ({ children }) => {
   const { toggleTheme, isDark } = useTheme();
   const { user, profile } = useAuth();
   const location = useLocation();
+  const navigate = useNavigate();
   const reducedMotion = useReducedMotion();
 
   const isAuthPage = location.pathname === '/login' || location.pathname === '/register';
@@ -341,6 +348,51 @@ const Layout = ({ children }) => {
       window.removeEventListener('mistakeReviewUpdated', refreshBalances);
     };
   }, [profile]);
+
+  const [showStreakPopup, setShowStreakPopup] = useState(false);
+  const [showGemPopup, setShowGemPopup] = useState(false);
+  const [showStarPopup, setShowStarPopup] = useState(false);
+  const [pendingNav, setPendingNav] = useState(null);
+  const [showLeaveConfirm, setShowLeaveConfirm] = useState(false);
+  const [streakData, setStreakData] = useState(0);
+  const [streakHistory, setStreakHistory] = useState([]);
+  const [gemsBalance, setGemsBalance] = useState(0);
+  const [mistakeGroups, setMistakeGroups] = useState([]);
+  const [recentMistakes, setRecentMistakes] = useState([]);
+
+  const refreshPopupData = React.useCallback(() => {
+    const profileData = readStorage('exam_local_auth', {}).profile || {};
+    setGemsBalance(profileData.gems || 0);
+    setStreakData(recordDailyCheckIn(user?.id));
+    setStreakHistory(getStreakHistory(user?.id, 31));
+    setMistakeGroups(getMistakeGroups());
+    setRecentMistakes(getRecentMistakes(3));
+  }, [user?.id]);
+
+  useEffect(() => {
+    refreshPopupData();
+    window.addEventListener('quizBalanceUpdated', refreshPopupData);
+    window.addEventListener('mistakeReviewUpdated', refreshPopupData);
+    return () => {
+      window.removeEventListener('quizBalanceUpdated', refreshPopupData);
+      window.removeEventListener('mistakeReviewUpdated', refreshPopupData);
+    };
+  }, [refreshPopupData]);
+
+  const handleNavFromPopup = (path) => {
+    setPendingNav(path);
+    setShowLeaveConfirm(true);
+  };
+
+  const handleEarnGems = () => {
+    const raw = localStorage.getItem('exam_local_auth');
+    if (raw) {
+      const session = JSON.parse(raw);
+      session.profile.gems = (session.profile.gems || 0) + 10;
+      localStorage.setItem('exam_local_auth', JSON.stringify(session));
+    }
+    window.dispatchEvent(new Event('quizBalanceUpdated'));
+  };
 
   useEffect(() => {
     setSidebarOpen(false);
@@ -379,26 +431,39 @@ const Layout = ({ children }) => {
             <div className="flex items-center gap-1.5 md:gap-2">
               <button
                 onClick={toggleTheme}
-                className="p-2.5 bg-surface border border rounded-xl text-text-muted hover:text-text hover:border transition-all hidden md:flex items-center justify-center touch-target"
+                className="p-2 bg-surface border border rounded-xl text-text-muted hover:text-text hover:border transition-all hidden md:flex items-center justify-center touch-target"
                 aria-label={isDark ? 'লাইট মোড' : 'ডার্ক মোড'}
               >
-                {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+                {isDark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
               </button>
 
               <NotificationCenter />
 
               <div className="flex items-center gap-1">
-                <div className="flex items-center gap-1.5 bg-surface border rounded-xl px-2.5 py-1.5">
-                  <Flame className="w-4 h-4 text-orange-500" aria-hidden="true" />
-                  <span className="text-sm font-black text-orange-600">{globalStreak}</span>
-                </div>
-                <Link
-                  to="/shop"
-                  className="flex items-center gap-1.5 bg-surface border rounded-xl px-2.5 py-1.5 hover:bg-surface-hover transition-all"
+                <button
+                  onClick={() => setShowStreakPopup(true)}
+                  className="flex items-center gap-1.5 bg-surface border rounded-xl px-2.5 py-1.5 hover:bg-surface-hover transition-all active:scale-95"
+                  aria-label="Open streak details"
                 >
-                  <Gem className="w-4 h-4 text-cyan-500" aria-hidden="true" />
-                  <span className="text-sm font-black text-cyan-600">{globalGems}</span>
-                </Link>
+                  <Flame className="w-4 h-4 text-orange-500" />
+                  <span className="text-sm font-black text-orange-600">{streakData}</span>
+                </button>
+                <button
+                  onClick={() => setShowGemPopup(true)}
+                  className="flex items-center gap-1.5 bg-surface border rounded-xl px-2.5 py-1.5 hover:bg-surface-hover transition-all active:scale-95"
+                  aria-label="Open gem details"
+                >
+                  <Gem className="w-4 h-4 text-cyan-500" />
+                  <span className="text-sm font-black text-cyan-600">{gemsBalance}</span>
+                </button>
+                <button
+                  onClick={() => setShowStarPopup(true)}
+                  className="flex items-center gap-1.5 bg-surface border rounded-xl px-2.5 py-1.5 hover:bg-surface-hover transition-all active:scale-95 topbar-star-target"
+                  aria-label="Open star rewards"
+                >
+                  <Star className="w-4 h-4 text-bee fill-bee/30" />
+                  <span className="text-sm font-black text-bee">{globalStarBalance}</span>
+                </button>
               </div>
 
               {user && (
@@ -427,6 +492,67 @@ const Layout = ({ children }) => {
       </div>
 
       {!hideLayout && !isOnboarding && <MobileBottomNav />}
+
+      <StreakPopup
+        isOpen={showStreakPopup}
+        onClose={() => setShowStreakPopup(false)}
+        streak={streakData}
+        streakHistory={streakHistory}
+        onViewDetails={handleNavFromPopup}
+      />
+      <GemPopup
+        isOpen={showGemPopup}
+        onClose={() => setShowGemPopup(false)}
+        gems={gemsBalance}
+        onViewDetails={handleNavFromPopup}
+        onEarnGems={handleEarnGems}
+      />
+      <StarPopup
+        isOpen={showStarPopup}
+        onClose={() => setShowStarPopup(false)}
+        mistakeGroups={mistakeGroups}
+        recentMistakes={recentMistakes}
+        onViewDetails={handleNavFromPopup}
+      />
+      {showLeaveConfirm && (
+        <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
+          <div className="absolute inset-0 bg-black/60" onClick={() => { setShowLeaveConfirm(false); setPendingNav(null); }} />
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 40 }}
+            transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+            className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
+            onClick={e => e.stopPropagation()}
+          >
+            <div className="flex items-start gap-3">
+              <div className="p-2 rounded-xl bg-cardinal/10 shrink-0">
+                <AlertTriangle className="w-5 h-5 text-cardinal" />
+              </div>
+              <div className="min-w-0 flex-1">
+                <h3 className="text-sm font-bold text-text">Are you sure you want to leave the quiz?</h3>
+                <p className="text-xs text-text-muted font-medium mt-1 leading-relaxed">
+                  You'll lose your progress on this lesson if you leave. Your answers so far are saved.
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-2">
+              <button
+                onClick={() => { setShowLeaveConfirm(false); setPendingNav(null); }}
+                className="flex-1 py-3 bg-surface-alt hover:bg-surface-hover text-text rounded-full font-bold text-sm transition-all active:scale-[0.97] border"
+              >
+                No
+              </button>
+              <button
+                onClick={() => { setShowLeaveConfirm(false); if (pendingNav) navigate(pendingNav); setPendingNav(null); }}
+                className="flex-1 py-3 bg-cardinal text-white hover:bg-cardinal-dark rounded-full font-bold text-sm transition-all active:scale-[0.97]"
+              >
+                Yes
+              </button>
+            </div>
+          </motion.div>
+        </div>
+      )}
     </div>
   );
 };
