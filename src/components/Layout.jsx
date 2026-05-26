@@ -224,7 +224,7 @@ const NotificationCenter = () => {
     <div className="relative">
       <button
         onClick={() => { if (!show) playSound('notification'); setShow(!show); }}
-        className="px-2.5 py-1.5 bg-surface border rounded-xl text-text-muted hover:text-text hover:border transition-all relative touch-target flex items-center justify-center"
+        className="p-1.5 text-text-muted hover:text-text hover:bg-surface-hover transition-all relative touch-target flex items-center justify-center rounded-xl"
         aria-label="Notifications"
         aria-expanded={show}
       >
