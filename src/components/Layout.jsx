@@ -102,7 +102,7 @@ const Sidebar = ({ isOpen, toggle, onOpenReport }) => {
             </button>
           </div>
 
-          <div className="flex items-center justify-between px-6 py-3 border-b border">
+          <div className="flex items-center justify-between px-6 py-3">
             <div className="flex items-center gap-3">
               {isDark ? <Moon className="w-5 h-5 text-text-muted" /> : <Sun className="w-5 h-5 text-text-muted" />}
               <span className="text-sm font-bold text-text-muted">ডার্ক মোড</span>
