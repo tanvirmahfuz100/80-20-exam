@@ -100,7 +100,7 @@ const Quiz = () => {
     const currentQ = currentQuestion;
 
     return (
-        <div className="h-dvh flex flex-col overflow-hidden overscroll-contain px-0 w-full safe-bottom bg-surface" role="main" aria-label="Quiz session">
+        <div className="h-full flex flex-col overflow-hidden overscroll-contain px-0 w-full safe-bottom bg-surface" role="main" aria-label="Quiz session">
             <div className="pointer-events-none fixed inset-0 z-[60] motion-safe-only">
                 {flyingStars.map((star) => (
                     <motion.div
@@ -119,7 +119,7 @@ const Quiz = () => {
             <div className="flex shrink-0 safe-top">
                 <button
                     onClick={handleBackWithConfirm}
-                    className="self-center p-2 ml-4 mb-2 mt-3 bg-surface border rounded-xl text-text-muted hover:text-text hover:bg-surface-hover transition-all active:scale-95 shrink-0 flex items-center justify-center touch-target"
+                    className="self-center p-1.5 ml-4 mb-2 mt-3 text-text-muted hover:text-text transition-all active:scale-95 shrink-0 flex items-center justify-center touch-target"
                     aria-label="Back to practice"
                 >
                     <ArrowLeft className="w-4 h-4" />
@@ -203,7 +203,7 @@ const Quiz = () => {
                 </div>
             </div>
 
-            <div className="flex-1 flex flex-col min-h-0 px-4 pb-3 mt-3">
+            <div className="flex-1 flex flex-col min-h-0 px-4 pb-3 mt-1">
                 <div className="bg-surface border rounded-2xl md:rounded-3xl flex-1 flex flex-col p-4 md:p-6 overflow-hidden quiz-card shadow-sm" style={{ maxHeight: 'calc(var(--app-available-height, 100vh) - 112px)' }}>
                     {currentQ?._type === 'model_test' ? (
                         <ModelTest
