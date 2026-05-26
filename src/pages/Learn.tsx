@@ -4,8 +4,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
   BookOpen, Brain, Atom, Beaker, Microscope, Globe,
   Calculator, BarChart3, MapPin, History,
-  Landmark, PieChart, Briefcase, Star, Zap,
-  Sparkles, Flame, ArrowRight, Play,
+  Landmark, PieChart, Briefcase, Zap,
+  Sparkles, ArrowRight, Play,
 } from 'lucide-react';
 import { useExamPath } from '../hooks/useExamPath';
 import { getSubjects } from '../config/examPaths';
@@ -13,8 +13,7 @@ import ExamOnboarding from '../components/ExamOnboarding';
 import { subjectNameToId } from './SubjectSelection';
 import ExamChangerDropdown from '../components/ExamChangerDropdown';
 import { getDailyQuizQuestions } from '../services/dailyQuiz';
-import { stripMath } from '../services/quizUtils';
-import { getMistakesDueCount } from '../services/review';
+
 
 const subjectIconMap = {
   'বাংলা': BookOpen,
@@ -217,23 +216,6 @@ function InlineDailyQuiz() {
     </motion.div>
   );
 }
-
-function StatsBar() {
-  const stars = getMistakesDueCount();
-  return (
-    <div className="flex items-center gap-3">
-      <div className="flex items-center gap-1.5 bg-surface border border rounded-xl px-3 py-1.5">
-        <Flame className="w-4 h-4 text-orange-500" />
-        <span className="text-sm font-black text-text">0</span>
-      </div>
-      <div className="flex items-center gap-1.5 bg-surface border border rounded-xl px-3 py-1.5">
-        <Star className="w-4 h-4 text-yellow-500 fill-yellow-500/30" />
-        <span className="text-sm font-black text-text">{stars}</span>
-      </div>
-    </div>
-  );
-}
-
 export default function Learn() {
   const { examPath, setExamPath } = useExamPath();
   const navigate = useNavigate();
@@ -265,7 +247,6 @@ export default function Learn() {
       <div className="mb-4">
         <div className="flex items-center justify-between">
           <h1 className="text-lg font-black text-text">তোমার কোর্স</h1>
-          <StatsBar />
         </div>
         <ExamChangerDropdown
           currentExamPath={examPath}
