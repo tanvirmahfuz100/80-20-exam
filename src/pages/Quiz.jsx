@@ -527,7 +527,7 @@ const Quiz = () => {
                                                         <div className="w-8 h-8 bg-reward rounded-full flex items-center justify-center">
                                                             <Star className="w-5 h-5 text-white shrink-0" />
                                                         </div>
-                                                        <h4 className="text-reward font-black text-sm uppercase tracking-wider bn-text">প্রায়! শিখে ফেলো</h4>
+                                                        <h4 className="text-reward font-black text-sm uppercase tracking-wider bn-text">পরেরবার পারবে!</h4>
                                                     </div>
 
                                                     <div className="flex flex-wrap items-center gap-2 shrink-0">
