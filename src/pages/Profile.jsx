@@ -53,7 +53,7 @@ export default function Profile() {
           <span className="text-3xl font-black text-primary">{initial}</span>
         </div>
         <h1 className="text-lg font-black text-text">{username}</h1>
-        <p className="text-sm text-text-muted font-medium mt-0.5">লেভেল ১ &middot; বিগিনার</p>
+        <p className="text-sm text-text-muted font-medium mt-0.5 whitespace-nowrap">লেভেল 1 — বিগিনার</p>
       </div>
 
       <div className="grid grid-cols-3 gap-3 mb-6">
