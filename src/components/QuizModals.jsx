@@ -29,7 +29,7 @@ export const ExitConfirmModal = ({ show, onStay, onLeave }) => {
         <div className="flex gap-2">
           <button
             onClick={onStay}
-            className="flex-1 py-3 bg-surface-alt hover:bg-surface-hover text-text rounded-full font-bold text-sm transition-all active:scale-[0.97] border border-wolf"
+            className="flex-1 py-3 bg-surface-alt hover:bg-surface-hover text-text rounded-full font-bold text-sm transition-all active:scale-[0.97] border"
           >
             Stay
           </button>

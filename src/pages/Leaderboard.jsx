@@ -37,7 +37,7 @@ export default function Leaderboard() {
   return (
     <div className="max-w-lg mx-auto">
       <div className="text-center mb-6">
-        <div className="inline-flex items-center gap-2 px-4 py-2 bg-surface border border-wolf rounded-full mb-3">
+        <div className="inline-flex items-center gap-2 px-4 py-2 bg-surface border rounded-full mb-3">
           <Medal className="w-5 h-5 text-bee" />
           <span className="font-bold text-sm text-text">এই সপ্তাহে</span>
         </div>
@@ -65,7 +65,7 @@ export default function Leaderboard() {
             <div
               key={entry.rank}
               className={`flex items-center gap-3 p-3 rounded-xl transition-all
-                ${isMe ? 'bg-primary/5 border border-primary/20' : 'bg-surface border border-wolf hover:border-hare'}`}
+                ${isMe ? 'bg-primary/5 border border-primary/20' : 'bg-surface border hover:border-hare'}`}
             >
               <span className={`w-7 text-center font-black text-sm ${
                 entry.rank <= 3 ? 'text-bee' : 'text-hare'

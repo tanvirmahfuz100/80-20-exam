@@ -1,6 +1,6 @@
 ﻿const variants = {
   primary: 'bg-primary hover:bg-primary-hover text-white',
-  secondary: 'bg-surface-alt hover:bg-surface-hover text-text border border-wolf',
+  secondary: 'bg-surface-alt hover:bg-surface-hover text-text border',
   danger: 'bg-cardinal hover:bg-cardinal-dark text-white',
   ghost: 'bg-transparent hover:bg-surface-alt text-text-muted',
   success: 'bg-emerald-500 hover:bg-emerald-600 text-white',

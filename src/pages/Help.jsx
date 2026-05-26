@@ -23,7 +23,7 @@ export default function Help() {
 
       <div className="space-y-2 mb-6">
         {faqItems.map((item, i) => (
-          <div key={i} className="bg-surface border border-wolf rounded-2xl overflow-hidden">
+          <div key={i} className="bg-surface border rounded-2xl overflow-hidden">
             <button
               onClick={() => setOpenIndex(openIndex === i ? null : i)}
               className="w-full flex items-center justify-between p-3.5 text-left"
@@ -40,7 +40,7 @@ export default function Help() {
         ))}
       </div>
 
-      <div className="bg-eel border border-wolf rounded-2xl p-4">
+      <div className="bg-eel border rounded-2xl p-4">
         <div className="flex items-start gap-3">
           <MessageSquareWarning className="w-5 h-5 text-hare shrink-0 mt-0.5" />
           <div>

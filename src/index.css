@@ -54,7 +54,7 @@
   [data-theme="dark"] {
     --color-eel: 19 31 36;
     --color-snow-always-light: 19 31 36;
-    --color-wolf: 32 47 54;
+    --color-wolf: 55 70 79;
     --color-swan: 82 101 109;
     --color-hare: 55 70 79;
     --color-anchovy: 32 47 54;
@@ -226,17 +226,17 @@
 
 @layer utilities {
   .glass {
-    @apply bg-surface/80 border border-wolf shadow-lg;
+    @apply bg-surface/80 border shadow-lg;
     backdrop-filter: blur(12px);
   }
 
   .glass-strong {
-    @apply bg-surface border border-wolf shadow-xl;
+    @apply bg-surface border shadow-xl;
   }
 
   /* Duolingo-style card */
   .duo-card {
-    @apply bg-surface rounded-2xl shadow-sm border border-wolf/50 p-4 md:p-6;
+    @apply bg-surface rounded-2xl shadow-sm border p-4 md:p-6;
   }
 
   /* Duolingo-style pill button */
@@ -260,7 +260,7 @@
 
   /* Duolingo input */
   .duo-input {
-    @apply w-full px-4 py-3 rounded-xl border border-wolf bg-surface
+    @apply w-full px-4 py-3 rounded-xl border bg-surface
            text-text placeholder:text-hare text-base font-medium
            focus:border-primary focus:ring-2 focus:ring-primary/20
            transition-all;
