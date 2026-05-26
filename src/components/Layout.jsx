@@ -392,7 +392,7 @@ const Layout = ({ children }) => {
                   80-20 Exam
                 </span>
               </Link>
-              <div className="flex-1 min-w-0 max-w-md">
+              <div className="w-36 md:w-44 shrink min-w-0">
                 <div
                   className="relative cursor-pointer"
                   onClick={() => navigate('/bank')}
