@@ -134,35 +134,22 @@ const Quiz = () => {
                     <div className="flex items-center gap-3 min-w-0 flex-1">
                         <div className="min-w-0 flex-1">
                             {currentLevel ? (
-                                <>
-                                    <div className="flex items-center gap-1.5 mb-1">
-                                        <span className="text-[10px] font-black text-primary uppercase tracking-wider bn-text">লেভেল {currentLevel}</span>
-                                        <span className="text-[10px] text-text-muted">·</span>
-                                        <span className="text-[10px] font-medium text-text-muted">প্রশ্ন {currentIndex + 1} / {questions.length}</span>
-                                    </div>
-                                    <div className="h-1.5 bg-background rounded-full overflow-hidden">
-                                        <motion.div
-                                            className="h-full bg-primary rounded-full"
-                                            initial={{ width: 0 }}
-                                            animate={{
-                                                width: `${((currentIndex + 1) / questions.length) * 100}%`
-                                            }}
-                                            transition={{ duration: 0.4, ease: 'easeOut' }}
-                                        />
-                                    </div>
-                                </>
-                            ) : (
-                                <div className="h-1.5 bg-background rounded-full overflow-hidden">
-                                    <motion.div
-                                        className="h-full bg-primary rounded-full"
-                                        initial={{ width: 0 }}
-                                        animate={{
-                                            width: `${Math.min(((historicalAnswered + currentIndex + 1) / (totalQuestionCount || questions.length)) * 100, 100)}%`
-                                        }}
-                                        transition={{ duration: 0.4, ease: 'easeOut' }}
-                                    />
+                                <div className="flex items-center gap-1.5 mb-1">
+                                    <span className="text-[10px] font-black text-primary uppercase tracking-wider bn-text">লেভেল {currentLevel}</span>
+                                    <span className="text-[10px] text-text-muted">·</span>
+                                    <span className="text-[10px] font-medium text-text-muted">প্রশ্ন {currentIndex + 1} / {questions.length}</span>
                                 </div>
-                            )}
+                            ) : null}
+                            <div className="flex items-center gap-0 overflow-x-auto no-scrollbar">
+                                {Array.from({ length: questions.length }).map((_, i) => (
+                                    <React.Fragment key={i}>
+                                        {i > 0 && (
+                                            <div className={`h-px w-2.5 shrink-0 ${i <= currentIndex ? 'bg-primary' : 'bg-text-dim/30'}`} />
+                                        )}
+                                        <div className={`w-2 h-2 rounded-full shrink-0 ${i <= currentIndex ? 'bg-primary' : 'bg-text-dim/30'}`} />
+                                    </React.Fragment>
+                                ))}
+                            </div>
                         </div>
                     </div>
                     <div className="flex items-center gap-1.5 shrink-0">

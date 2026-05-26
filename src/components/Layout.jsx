@@ -378,7 +378,7 @@ const Layout = ({ children }) => {
             <div className="flex items-center gap-3 min-w-0 flex-1">
               <button
                 onClick={sidebarToggle}
-                className="p-2 md:hidden text-text-muted hover:text-text bg-surface-hover rounded-xl touch-target flex items-center justify-center"
+                className="p-1 -ml-1 md:hidden text-text-muted hover:text-text touch-target flex items-center justify-center"
                 aria-label="Open sidebar"
                 aria-expanded={sidebarOpen}
               >
@@ -392,21 +392,23 @@ const Layout = ({ children }) => {
                   80-20 Exam
                 </span>
               </Link>
-              <div className="w-36 md:w-44 shrink min-w-0">
-                <div
-                  className="relative cursor-pointer"
-                  onClick={() => navigate('/bank')}
-                >
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-dim pointer-events-none" />
-                  <input
-                    type="text"
-                    placeholder="প্রশ্ন খুঁজুন..."
-                    className="w-full bg-background border rounded-xl pl-9 pr-3 py-[7px] text-sm text-text placeholder:text-text-dim outline-none focus:border-primary/50 transition-all cursor-pointer"
-                    readOnly
-                    onFocus={(e) => { e.target.blur(); navigate('/bank'); }}
-                  />
+              {location.pathname === '/' && (
+                <div className="w-36 md:w-44 shrink min-w-0">
+                  <div
+                    className="relative cursor-pointer"
+                    onClick={() => navigate('/bank')}
+                  >
+                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-dim pointer-events-none" />
+                    <input
+                      type="text"
+                      placeholder="প্রশ্ন খুঁজুন..."
+                      className="w-full bg-background border rounded-xl pl-9 pr-3 py-[7px] text-sm text-text placeholder:text-text-dim outline-none focus:border-primary/50 transition-all cursor-pointer"
+                      readOnly
+                      onFocus={(e) => { e.target.blur(); navigate('/bank'); }}
+                    />
+                  </div>
                 </div>
-              </div>
+              )}
             </div>
 
             <div className="flex items-center gap-1.5 md:gap-2 shrink-0">
