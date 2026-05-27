@@ -6,7 +6,7 @@ import {
   BookOpen, Brain, Atom, Beaker, Microscope, Globe,
   Calculator, BarChart3, MapPin, History,
   Landmark, PieChart, Briefcase, AlertTriangle, RefreshCw,
-  Sparkles, Zap, ArrowRight, Star,
+  Sparkles, Zap, ArrowRight, Star, FlaskConical, Sprout,
 } from 'lucide-react';
 import { useExamPath } from '../hooks/useExamPath';
 import { getSubjects, getPathLabel } from '../config/examPaths';
@@ -36,6 +36,8 @@ const subjectIconMap = {
   'বাংলাদেশ বিষয়াবলী': MapPin,
   'বিশ্লেষণী ক্ষমতা': Brain,
   'সমাজ বিজ্ঞান': BookOpen,
+  'সাধারণ বিজ্ঞান': FlaskConical,
+  'কৃষি শিক্ষা': Sprout,
 };
 
 export const multiPaperSubjects = {
@@ -62,6 +64,8 @@ export const subjectNameToId = {
   'বাংলাদেশ বিষয়াবলী': 'bangladesh_affairs',
   'বিশ্লেষণী ক্ষমতা': 'analytical',
   'সমাজ বিজ্ঞান': 'social_science',
+  'সাধারণ বিজ্ঞান': 'general_science',
+  'কৃষি শিক্ষা': 'agriculture',
 };
 
 function getIcon(name) {

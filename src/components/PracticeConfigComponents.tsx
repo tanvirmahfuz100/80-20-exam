@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 import { motion } from 'framer-motion';
-import { Book, Calculator, Brain, Briefcase, ChevronRight, Play, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles, Check, Monitor, BarChart3 } from 'lucide-react';
+import { Book, Calculator, Brain, Briefcase, ChevronRight, Play, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles, Check, Monitor, BarChart3, FlaskConical, Sprout } from 'lucide-react';
 
 export const icons = {
     bangla: BookOpen,
@@ -12,6 +12,8 @@ export const icons = {
     analytical: Brain,
     business_entrepreneurship: Briefcase,
     finance: BarChart3,
+    general_science: FlaskConical,
+    agriculture: Sprout,
     accounting: BookOpen,
 };
 
