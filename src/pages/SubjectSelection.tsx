@@ -77,9 +77,15 @@ function getIcon(name) {
 
 
 export default function SubjectSelection() {
+  const navigate = useNavigate();
   const { examPath, setExamPath } = useExamPath();
   const [mode, setMode] = useState('normal');
   const [paperPicker, setPaperPicker] = useState({ open: false, subject: '' });
+
+  const handlePaperSelect = (paperId, paperLabel) => {
+    setPaperPicker({ open: false, subject: '' });
+    navigate(`/practice?exam=${examPath.exam.toLowerCase()}&subjectId=${paperId}`);
+  };
 
   const handleSelectorComplete = (path) => {
     setExamPath(path);
@@ -90,6 +96,7 @@ export default function SubjectSelection() {
   const pathLabel = examPath ? getPathLabel(examPath.exam, examPath.group, examPath.class, examPath.medium) : '';
 
   return (
+    <>
     <AnimatePresence mode="wait">
       {!examPath ? (
         <motion.div
@@ -167,6 +174,14 @@ export default function SubjectSelection() {
         </motion.div>
       )}
     </AnimatePresence>
+      <PaperPicker
+        isOpen={paperPicker.open}
+        onClose={() => setPaperPicker({ open: false, subject: '' })}
+        onSelect={handlePaperSelect}
+        exam={examPath?.exam?.toLowerCase()}
+        subjectName={paperPicker.subject}
+      />
+    </>
   );
 }
 

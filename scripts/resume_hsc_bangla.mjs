@@ -1,0 +1,130 @@
+import { readFileSync, writeFileSync, readdirSync } from 'fs';
+import { join, parse } from 'path';
+
+const srcDir = 'D:\\Tanvir Mahfuz\\80-20-exam\\docs\\web\\hsc-bangla-1st-paper';
+const outDir = 'D:\\Tanvir Mahfuz\\80-20-exam\\public\\hsc\\bangla_1st';
+
+function htmlDecode(text) {
+  return text
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#039;/g, "'").replace(/&#x27;/g, "'")
+    .replace(/&#x2F;/g, '/').replace(/&nbsp;/g, ' ');
+}
+
+function extractHtmlText(html) {
+  let r = ''; let lastEnd = 0; const openTag = '<span class="katex">'; let searchPos = 0; let found;
+  while ((found = html.indexOf(openTag, searchPos)) !== -1) {
+    r += html.substring(lastEnd, found);
+    let depth = 1; let pos = found + openTag.length;
+    while (depth > 0 && pos < html.length) {
+      if (html.startsWith('</span>', pos)) { depth--; pos += 7; }
+      else if (html.startsWith('<span', pos) && (html[pos+5] === ' ' || html[pos+5] === '>' || html[pos+5] === '/' || html[pos+5] === '\t' || html[pos+5] === '\n')) { depth++; pos += 5; }
+      else { const n = html.indexOf('<', pos+1); if (n===-1) { pos=html.length; break; } pos=n; }
+    }
+    const kb = html.substring(found, pos);
+    const ann = kb.match(/<annotation encoding="application\/x-tex">([\s\S]*?)<\/annotation>/);
+    if (ann) r += ann[1];
+    lastEnd = pos; searchPos = pos;
+  }
+  r += html.substring(lastEnd);
+  r = htmlDecode(r.replace(/<[^>]*>/g, '').trim());
+  r = r.replace(/\\\{/g, '{').replace(/\\\}/g, '}');
+  return r;
+}
+
+function extractQuestions(html, source) {
+  const questions = []; let id = 0;
+  const blockRegex = /<div class="w-full"><div class="border dark:border-gray-700 rounded-xl p-5[^"]*">/g;
+  let blockMatch; const blocks = [];
+  while ((blockMatch = blockRegex.exec(html)) !== null) {
+    const start = blockMatch.index; let depth = 0; let end = start;
+    for (let i = start; i < html.length; i++) {
+      if (html[i] === '<') {
+        if (html.startsWith('</div>', i)) { if (depth === 0) { end = i+6; break; } depth--; i+=5; }
+        else if (html.startsWith('<div', i)) { depth++; i+=3; }
+      }
+    }
+    blocks.push(html.substring(start, end));
+  }
+  for (const block of blocks) {
+    id++;
+    const qDivRegex = /<div class="[^"]*font-medium text-card-foreground[^"]*">\s*<div[^>]*>([\s\S]*?)<\/div>\s*<\/div>/;
+    const qMatch = block.match(qDivRegex);
+    if (!qMatch) continue;
+    let questionText = qMatch[1];
+    const pRegex = /<p[^>]*>([\s\S]*?)<\/p>/g; let pMatch; const parts = [];
+    while ((pMatch = pRegex.exec(questionText)) !== null) {
+      const text = extractHtmlText(pMatch[1]);
+      if (text) parts.push(text);
+    }
+    questionText = parts.join(' ').replace(/\s+/g, ' ').trim();
+    questionText = questionText.replace(/^\d+\.\s*/, '').trim();
+    if (!questionText) continue;
+    const options = {}; const optionKeys = ['A','B','C','D'];
+    const gridMatch = block.match(/<div class="grid grid-cols-1 gap-2 md:grid-cols-2\s*">([\s\S]*?)<\/div>\s*<\/div>\s*<\/div>/);
+    if (!gridMatch) continue;
+    const gridContent = gridMatch[1];
+    const btnRegex = /<button[\s\S]*?<\/button>/g; let btnMatch; let optIdx = 0;
+    while ((btnMatch = btnRegex.exec(gridContent)) !== null && optIdx < 4) {
+      const pContents = [];
+      const pRegex = /<p[^>]*>([\s\S]*?)<\/p>/g; let pm;
+      while ((pm = pRegex.exec(btnMatch[0])) !== null) {
+        const txt = extractHtmlText(pm[1]);
+        if (txt) pContents.push(txt);
+      }
+      const optText = pContents.length > 0 ? pContents[pContents.length-1] : '';
+      if (optText) options[optionKeys[optIdx]] = optText;
+      optIdx++;
+    }
+    if (Object.keys(options).length < 2) continue;
+    let correctAnswer = '';
+    const bnMap = {'ক':'A','খ':'B','গ':'C','ঘ':'D'};
+    const greenMatch = block.match(/<button[^>]*bg-\[#017A471A\][^>]*>[\s\S]*?<\/button>/);
+    if (greenMatch) { const lm = greenMatch[0].match(/([ক-ঘ])/); if (lm) correctAnswer = bnMap[lm[1]] || ''; }
+    if (!correctAnswer) {
+      const yb = block.match(/<button[^>]*bg-\[#F59E0B1F\][^>]*>[\s\S]*?<\/button>/);
+      if (yb) { const lm = yb[0].match(/([ক-ঘ])/); if (lm) correctAnswer = bnMap[lm[1]] || ''; }
+    }
+    if (!correctAnswer) {
+      const m = block.match(/সঠিক উত্তর[ঃ:\s]*(?:হলো\s*)?<strong>([ক-ঘ])/);
+      if (m) correctAnswer = bnMap[m[1]] || '';
+    }
+    if (!correctAnswer) {
+      const m2 = block.match(/সঠিক উত্তর[ঃ:\s]*(?:হলো\s*)?([ক-ঘ])/);
+      if (m2) correctAnswer = bnMap[m2[1]] || '';
+    }
+    if (!correctAnswer) continue;
+    questions.push({ id, question: questionText, options, answer: correctAnswer, source });
+  }
+  return questions;
+}
+
+// Process remaining files 96-159
+const allFiles = readdirSync(srcDir).filter(f => f.endsWith('.html')).sort((a, b) => a.localeCompare(b, 'bn'));
+const files = allFiles.slice(95); // index 95+ = files 96+
+
+let mappingPart = [];
+for (let i = 0; i < files.length; i++) {
+  const file = files[i];
+  const html = readFileSync(join(srcDir, file), 'utf8');
+  const h1Match = html.match(/<h1[^>]*>([^<]+)<\/h1>/);
+  const source = h1Match ? h1Match[1].trim() : parse(file).name;
+  const questions = extractQuestions(html, source);
+  if (questions.length === 0) { console.log(`SKIPPED: ${file}`); continue; }
+  const fileNum = 96 + i;
+  writeFileSync(join(outDir, `${fileNum}.json`), JSON.stringify(questions, null, 2), 'utf8');
+  mappingPart.push(`${fileNum}.json|${questions.length}|${source}`);
+  console.log(`${fileNum}. ${source}: ${questions.length}`);
+}
+
+// Build mapping from JSON files (sorted by number)
+const existing = readdirSync(outDir).filter(f => f.match(/^\d+\.json$/)).sort((a,b)=>parseInt(a)-parseInt(b));
+const lines = [];
+for (const f of existing) {
+  const d = JSON.parse(readFileSync(join(outDir, f), 'utf8'));
+  lines.push(`${f}|${d.length}|${d[0]?.source||''}`);
+}
+writeFileSync(join(outDir, '_mapping.txt'), lines.join('\n'), 'utf8');
+
+const total = lines.reduce((s, l) => s + parseInt(l.split('|')[1]), 0);
+console.log(`\nTotal: ${lines.length} JSON files, ${total} questions`);

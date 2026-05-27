@@ -9,6 +9,12 @@ const paperOptions = {
       { id: 'bangla_2nd', label: 'বাংলা ২য় পত্র', desc: 'Bangla 2nd Paper' },
     ],
   },
+  hsc: {
+    'বাংলা': [
+      { id: 'bangla_1st', label: 'বাংলা ১ম পত্র', desc: 'Bangla 1st Paper' },
+      { id: 'bangla_2nd', label: 'বাংলা ২য় পত্র', desc: 'Bangla 2nd Paper' },
+    ],
+  },
 };
 
 const PaperPicker = ({ isOpen, onClose, onSelect, exam, subjectName }) => {
