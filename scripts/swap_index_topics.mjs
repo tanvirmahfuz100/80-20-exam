@@ -29,11 +29,34 @@ if (!agSubject) {
 }
 agSubject.topics = generated.agriculture_topics;
 
+// Find and replace islam topics
+let islamSubject = index.subjects.find((s) => s.id === "islam");
+if (!islamSubject) {
+  // Add new islam subject entry
+  islamSubject = {
+    id: "islam",
+    name: "ইসলাম শিক্ষা",
+    icon: "BookHeart",
+    name_en: "Islam Education",
+    name_bn: "ইসলাম শিক্ষা",
+    topics: generated.islam_topics,
+  };
+  // Insert after agriculture (find its index)
+  const agIdx = index.subjects.findIndex((s) => s.id === "agriculture");
+  index.subjects.splice(agIdx + 1, 0, islamSubject);
+} else {
+  islamSubject.topics = generated.islam_topics;
+}
+
 // Validate file counts
-let gsChapters = 0;
-for (const t of gsSubject.topics) gsChapters += t.chapters.length;
-let agChapters = 0;
-for (const t of agSubject.topics) agChapters += t.chapters.length;
+function countChapters(subj) {
+  let c = 0;
+  for (const t of subj.topics) c += t.chapters.length;
+  return c;
+}
+const gsChapters = countChapters(gsSubject);
+const agChapters = countChapters(agSubject);
+const islamChapters = countChapters(islamSubject);
 
 if (gsChapters !== 97) {
   console.error(`ERROR: Expected 97 GS chapters, got ${gsChapters}`);
@@ -41,6 +64,10 @@ if (gsChapters !== 97) {
 }
 if (agChapters !== 68) {
   console.error(`ERROR: Expected 68 AG chapters, got ${agChapters}`);
+  process.exit(1);
+}
+if (islamChapters !== 91) {
+  console.error(`ERROR: Expected 91 Islam chapters, got ${islamChapters}`);
   process.exit(1);
 }
 
@@ -66,6 +93,7 @@ function findDuplicateIds(topics) {
 
 const gsDupes = findDuplicateIds(gsSubject.topics);
 const agDupes = findDuplicateIds(agSubject.topics);
+const islamDupes = findDuplicateIds(islamSubject.topics);
 if (gsDupes.length > 0) {
   console.error("GS duplicate IDs:", gsDupes);
   process.exit(1);
@@ -74,9 +102,13 @@ if (agDupes.length > 0) {
   console.error("AG duplicate IDs:", agDupes);
   process.exit(1);
 }
+if (islamDupes.length > 0) {
+  console.error("Islam duplicate IDs:", islamDupes);
+  process.exit(1);
+}
 
 // Validate all file paths exist
-function validatePaths(topics, subjectId) {
+function validatePaths(topics) {
   const missing = [];
   for (const t of topics) {
     for (const c of t.chapters) {
@@ -89,8 +121,9 @@ function validatePaths(topics, subjectId) {
   return missing;
 }
 
-const gsMissing = validatePaths(gsSubject.topics, "general_science");
-const agMissing = validatePaths(agSubject.topics, "agriculture");
+const gsMissing = validatePaths(gsSubject.topics);
+const agMissing = validatePaths(agSubject.topics);
+const islamMissing = validatePaths(islamSubject.topics);
 
 if (gsMissing.length > 0) {
   console.error("GS missing files:", gsMissing);
@@ -98,6 +131,10 @@ if (gsMissing.length > 0) {
 }
 if (agMissing.length > 0) {
   console.error("AG missing files:", agMissing);
+  process.exit(1);
+}
+if (islamMissing.length > 0) {
+  console.error("Islam missing files:", islamMissing);
   process.exit(1);
 }
 
@@ -111,3 +148,4 @@ fs.writeFileSync(
 console.log("SUCCESS!");
 console.log(`GS: ${gsChapters} chapters, 0 missing files, 0 duplicate IDs`);
 console.log(`AG: ${agChapters} chapters, 0 missing files, 0 duplicate IDs`);
+console.log(`Islam: ${islamChapters} chapters, 0 missing files, 0 duplicate IDs`);

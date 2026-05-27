@@ -5,7 +5,7 @@ import {
   BookOpen, Brain, Atom, Beaker, Microscope, Globe,
   Calculator, BarChart3, MapPin, History,
   Landmark, PieChart, Briefcase, Zap,
-  Sparkles, ArrowRight, Play, FlaskConical, Sprout,
+  Sparkles, ArrowRight, Play, FlaskConical, Sprout, BookHeart,
 } from 'lucide-react';
 import { useExamPath } from '../hooks/useExamPath';
 import { getSubjects } from '../config/examPaths';
@@ -38,6 +38,7 @@ const subjectIconMap = {
   'সমাজ বিজ্ঞান': BookOpen,
   'সাধারণ বিজ্ঞান': FlaskConical,
   'কৃষি শিক্ষা': Sprout,
+  'ইসলাম শিক্ষা': BookHeart,
 };
 
 function getIcon(name) {

@@ -7,6 +7,7 @@ function toBnDigits(s) { return String(s).split("").map((d) => "০১২৩৪�
 const BOARD_PREFIX = {
   "ঢাকা": "dhaka",
   "চট্টগ্রাম": "chattogram",
+  "চটগ্রাম": "chattogram",
   "কুমিল্লা": "cumilla",
   "রাজশাহী": "rajshahi",
   "খুলনা": "khulna",
@@ -28,26 +29,8 @@ function isCombinedMultiBoard(source) {
 function isAllBoards(source) { return source.includes("সকল বোর্ড"); }
 
 function isSchoolExam(source) {
-  const schoolKeywords = [
-    "আইডিয়াল কলেজ", "আইডিয়াল স্কুল", "আইডিয়াল স্কুল",
-    "আদমজী", "উদয়ন", "ক্যান্টনমেন্ট", "ক্যান্ট.",
-    "গবর্নমেন্ট ল্যাবরেটরি", "গভঃ ল্যাবরেটরি", "গভর্নমেন্ট ল্যাবরেটরী",
-    "চট্টগ্রাম ক্যান্টনমেন্ট পাবলিক কলেজ",
-    "জয়পুরহাট গার্লস ক্যাডেট", "ঝিনাইদহ ক্যাডেট",
-    "ঢাকা রেসিডেনসিয়াল", "ঢাকা রেসিডেনসিয়াল",
-    "নূর মোহাম্মদ", "নৌবাহিনী", "ন্যাশনাল আইডিয়াল",
-    "ফৌজদারহাট ক্যাডেট", "বরিশাল ক্যাডেট",
-    "বীরশ্রেষ্ঠ", "ভিকারুননিসা", "মনিপুর",
-    "মিরপুর ক্যান্ট.", "মুন্সী আব্দুর রউফ",
-    "রাজউক", "রাজশাহী ক্যাডেট", "রাজশাহী ক্যান্ট.",
-    "সেন্ট যোসেফ", "হলি ক্রস",
-    "পুলিশ লাইন্স", "বগুড়া ক্যান্টনমেন্ট",
-    "বাংলাদেশ নৌবাহিনী", "বিএএফ শাহীন",
-    "মতিঝিল মডেল", "সেন্ট যোসেফস",
-    "গভর্নমেন্ট ল্যাবরেটরি হাই স্কুল",
-    "ঢাকা কলেজিয়েট", "ক্যান্ট. পাবলিক স্কুল",
-  ];
-  return schoolKeywords.some((kw) => source.includes(kw));
+  // A school/college exam does NOT contain "বোর্ড" (board) in its name
+  return !source.includes("বোর্ড");
 }
 
 function extractYear(source) {
@@ -84,7 +67,7 @@ const BN_TO_EN = {
   "আদমজী": "adamjee", "ক্যান্টনমেন্ট": "cantonment", "পাবলিক": "public",
   "ক্যান্ট.": "cantonment", "উদয়ন": "udayan", "উচ্চ": "higher",
   "বিদ্যালয়": "school", "ঢাকা": "dhaka",
-  "রংপুর": "rangpur", "ক্যান্টনমেন্ট": "cantonment", "ও": "and",
+  "রংপুর": "rangpur", "ও": "and",
   "চট্টগ্রাম": "chattogram", "জয়পুরহাট": "joypurhat",
   "গার্লস": "girls", "ক্যাডেট": "cadet", "ঝিনাইদহ": "jhenaidah",
   "রেসিডেনসিয়াল": "residential", "রেসিডেনসিয়াল": "residential",
@@ -97,12 +80,14 @@ const BN_TO_EN = {
   "সেন্ট": "st", "যোসেফ": "joseph", "হলি": "holy", "ক্রস": "cross",
   "বালিকা": "girls", "পুলিশ": "police", "লাইন্স": "lines",
   "বগুড়া": "bogra", "বাংলাদেশ": "bangladesh", "নৌবাহিনী": "navy",
-  "বিএএফ": "baf", "শাহীন": "shaheen", "মতিঝিল": "motijheel",
-  "সেন্ট": "st", "যোসেফস": "josephs",
+  "বিএএফ": "baf", "শাহীন": "shaheen",
   "গবর্নমেন্ট": "government", "ল্যাবরেটরি": "laboratory",
   "গভঃ": "government", "ল্যাবরেটরী": "laboratory", "হাই": "high",
-  "ময়মনসিংহ": "mymensingh", "ঢাকা কলেজিয়েট": "dhaka_collegiate",
-  "ময়মনসিংহ": "mymensingh", "ক্যান্ট.": "cantonment",
+  "ময়মনসিংহ": "mymensingh", "ক্যামব্রিয়ান": "cambrian",
+  "কুমিল্লা": "cumilla", "পাবনা": "pabna", "ফেনী": "feni",
+  "মির্জাপুর": "mirzapur", "সিলেট": "sylhet",
+  "ঢাকা কলেজিয়েট": "dhaka_collegiate", "ঢাকা কলেজিয়েট": "dhaka_collegiate",
+  "চট্টগ্রাম কলেজিয়েট": "chattogram_collegiate",
 };
 
 function romanizeSchoolName(source) {
@@ -245,6 +230,17 @@ function generateTopics(subjectId, entries) {
       };
     });
 
+    // Deduplicate: add numeric suffix to duplicate IDs
+    const seen = {};
+    for (const ch of chapters) {
+      if (seen[ch.id]) {
+        let counter = 2;
+        while (seen[`${ch.id}_${counter}`]) counter++;
+        ch.id = `${ch.id}_${counter}`;
+      }
+      seen[ch.id] = true;
+    }
+
     topics.push({
       id: `school_${year}`,
       name: `School & College Exams ${year}`,
@@ -265,15 +261,19 @@ const gsTopics = generateTopics("general_science", gsEntries);
 const agEntries = parseMapping("D:\\Tanvir Mahfuz\\80-20-exam\\public\\ssc\\agriculture\\_mapping.txt");
 const agTopics = generateTopics("agriculture", agEntries);
 
+// Generate for islam
+const islamEntries = parseMapping("D:\\Tanvir Mahfuz\\80-20-exam\\public\\ssc\\islam\\_mapping.txt");
+const islamTopics = generateTopics("islam", islamEntries);
+
 // Count check
-let gsCount = 0;
-for (const t of gsTopics) {
-  for (const c of t.chapters) gsCount++;
+function countChapters(topics) {
+  let c = 0;
+  for (const t of topics) c += t.chapters.length;
+  return c;
 }
-let agCount = 0;
-for (const t of agTopics) {
-  for (const c of t.chapters) agCount++;
-}
+const gsCount = countChapters(gsTopics);
+const agCount = countChapters(agTopics);
+const islamCount = countChapters(islamTopics);
 
 // Validate no Bengali in IDs
 const idErrors = [];
@@ -293,6 +293,7 @@ function checkIds(obj, path) {
 }
 checkIds(gsTopics, "gs");
 checkIds(agTopics, "ag");
+checkIds(islamTopics, "islam");
 
 // Check for duplicate IDs
 function findDuplicateIds(topics) {
@@ -317,14 +318,18 @@ function findDuplicateIds(topics) {
 
 const gsDupes = findDuplicateIds(gsTopics);
 const agDupes = findDuplicateIds(agTopics);
+const islamDupes = findDuplicateIds(islamTopics);
 
 const result = {
   general_science_topics: gsTopics,
   agriculture_topics: agTopics,
+  islam_topics: islamTopics,
   gs_count: gsCount,
   ag_count: agCount,
+  islam_count: islamCount,
   gs_dupes: gsDupes,
   ag_dupes: agDupes,
+  islam_dupes: islamDupes,
   id_errors: idErrors,
 };
 
@@ -333,12 +338,8 @@ fs.writeFileSync("D:\\Tanvir Mahfuz\\80-20-exam\\scripts\\generated_topics.json"
 // Print summary
 console.log("GENERAL SCIENCE: " + gsCount + " files in " + gsTopics.length + " topics");
 console.log("AGRICULTURE: " + agCount + " files in " + agTopics.length + " topics");
+console.log("ISLAM: " + islamCount + " files in " + islamTopics.length + " topics");
 if (idErrors.length > 0) console.log("ID ERRORS: " + idErrors.length);
 if (gsDupes.length > 0) console.log("GS DUPLICATE IDs: " + gsDupes.join(", "));
 if (agDupes.length > 0) console.log("AG DUPLICATE IDs: " + agDupes.join(", "));
-
-// Also output the JSON files for direct replacement
-console.log("\n=== GS OUTPUT ===");
-console.log(JSON.stringify(gsTopics));
-console.log("\n=== AG OUTPUT ===");
-console.log(JSON.stringify(agTopics));
+if (islamDupes.length > 0) console.log("ISLAM DUPLICATE IDs: " + islamDupes.join(", "));
