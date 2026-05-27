@@ -207,10 +207,10 @@
     "id": 18,
     "question": "ব্লিচিং পাউডার এর সংকেত কোনটি?",
     "options": {
-      "A": "Ca(OCl)Cl",
+      "A": "Ca(OCl) Cl",
       "B": "NaOCl",
-      "C": "C17​H35​COONA",
-      "D": "(NH4​)3​PO4​"
+      "C": "C_17 H_35 COONA",
+      "D": "left(NH_4right)_3 PO_4"
     },
     "answer": "A",
     "source": "দিনাজপুর বোর্ড ২০২০"

@@ -181,7 +181,7 @@
   },
   {
     "id": 16,
-    "question": "HCl+NaOH→⨂+H2​OY+KOH→K2​SO4​+H2​O​ 'X' যৌগটি কি?",
+    "question": "begin{array}{l}HCl+NaOH →bigotimes+H_2 O Y+KOH →K_2 SO_4+H_2 Oend{array} 'X' যৌগটি কি?",
     "options": {
       "A": "ক্ষার",
       "B": "লবণ",
@@ -193,7 +193,7 @@
   },
   {
     "id": 17,
-    "question": "HCl+NaOH→⨂+H2​OY+KOH→K2​SO4​+H2​O​ 'Y' যৌগের ক্ষেত্রে i. এতে হাইড্রোজেন পরমাণু আছে ii. এটি পরিষ্কারক হিসেবে ব্যবহৃত হয় iii. এটি মাটির উর্বরতা বৃদ্ধিতে সাহায্য করে নিচের কোনটি সঠিক?",
+    "question": "begin{array}{l}HCl+NaOH →bigotimes+H_2 O Y+KOH →K_2 SO_4+H_2 Oend{array} 'Y' যৌগের ক্ষেত্রে i. এতে হাইড্রোজেন পরমাণু আছে ii. এটি পরিষ্কারক হিসেবে ব্যবহৃত হয় iii. এটি মাটির উর্বরতা বৃদ্ধিতে সাহায্য করে নিচের কোনটি সঠিক?",
     "options": {
       "A": "i ও ii",
       "B": "i ও iii",
@@ -279,10 +279,10 @@
     "id": 25,
     "question": "কোনটি প্রতিসরণ কোণ?",
     "options": {
-      "A": "∠BOM′",
-      "B": "∠N′OC",
+      "A": "∠BOM^(prime)",
+      "B": "∠N^(prime) OC",
       "C": "∠AON",
-      "D": "∠N′OB"
+      "D": "∠N^(prime) OB"
     },
     "answer": "B",
     "source": "সকল বোর্ড ২০১৮"

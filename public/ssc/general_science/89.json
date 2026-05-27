@@ -231,10 +231,10 @@
     "id": 21,
     "question": "ক্যালামিনের মূল উপাদান কী?",
     "options": {
-      "A": "ZnCO3​",
-      "B": "CaCO3​",
-      "C": "Ca(OH)2​",
-      "D": "NaHCO3​"
+      "A": "ZnCO_3",
+      "B": "CaCO_3",
+      "C": "Ca(OH)_2",
+      "D": "NaHCO_3"
     },
     "answer": "A",
     "source": "সিলেট বোর্ড ২০১৭"

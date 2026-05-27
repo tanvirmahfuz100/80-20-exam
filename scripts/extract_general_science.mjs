@@ -18,6 +18,98 @@ function htmlDecode(text) {
     .replace(/&nbsp;/g, ' ');
 }
 
+const LATEX_MAP = {
+  '\\tan': 'tan', '\\sin': 'sin', '\\cos': 'cos', '\\cot': 'cot',
+  '\\sec': 'sec', '\\csc': 'csc', '\\log': 'log', '\\ln': 'ln',
+  '\\lim': 'lim', '\\theta': 'θ', '\\alpha': 'α', '\\beta': 'β',
+  '\\gamma': 'γ', '\\pi': 'π', '\\phi': 'φ', '\\delta': 'δ',
+  '\\to': '→', '\\rightarrow': '→', '\\leftarrow': '←',
+  '\\implies': '⇒', '\\iff': '⇔',
+  '\\times': '×', '\\div': '÷', '\\cdot': '⋅',
+  '\\setminus': '∖', '\\cup': '∪', '\\cap': '∩',
+  '\\subset': '⊂', '\\supset': '⊃',
+  '\\subseteq': '⊆', '\\supseteq': '⊇',
+  '\\in': '∈', '\\notin': '∉',
+  '\\le': '≤', '\\ge': '≥',
+  '\\ne': '≠', '\\neq': '≠',
+  '\\approx': '≈', '\\cong': '≅', '\\sim': '∼',
+  '\\perp': '⊥', '\\angle': '∠',
+  '\\infty': '∞', '\\partial': '∂',
+  '\\triangle': '△', '\\forall': '∀', '\\exists': '∃',
+};
+
+function convertLatex(latex) {
+  let r = latex;
+  // Handle \text{...} and \mathrm{...} first - extract inner content
+  r = r.replace(/\\text\{([^}]*)\}/g, '$1');
+  r = r.replace(/\\mathrm\{([^}]*)\}/g, '$1');
+  // Handle \sqrt{...} (innermost before frac)
+  r = r.replace(/\\sqrt(?:\[[^\]]*\])?\{([^}]+)\}/g, '√$1');
+  // Handle \frac{a}{b}
+  r = r.replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, '$1/$2');
+  // Handle \binom{a}{b}
+  r = r.replace(/\\binom\{([^}]+)\}\{([^}]+)\}/g, 'C($1,$2)');
+  // Handle superscripts ^{...}
+  r = r.replace(/\^\{(.+?)\}/g, '^($1)');
+  r = r.replace(/\^2/g, '²');
+  r = r.replace(/\^3/g, '³');
+  // Handle subscripts _{...}
+  r = r.replace(/_\{(.+?)\}/g, '_$1');
+  // Handle \hat, \bar, \vec
+  r = r.replace(/\\[a-z]+(?:\{[^}]*\})?\s*/g, (m) => {
+    const cmd = m.replace(/\s+$/, '');
+    return LATEX_MAP[cmd] || cmd.replace(/\\/g, '');
+  });
+  // Handle \{ and \}
+  r = r.replace(/\\\{/g, '{');
+  r = r.replace(/\\\}/g, '}');
+  // Handle \\ (newline in LaTeX)
+  r = r.replace(/\\\\/g, ' ');
+  // Collapse whitespace
+  r = r.replace(/\s+/g, ' ').trim();
+  return r;
+}
+
+function extractHtmlText(html) {
+  // Replace each KaTeX block with its annotation text, properly tracking span nesting
+  let r = '';
+  let lastEnd = 0;
+  const openTag = '<span class="katex">';
+  let searchPos = 0;
+  let found;
+  while ((found = html.indexOf(openTag, searchPos)) !== -1) {
+    r += html.substring(lastEnd, found);
+    let depth = 1;
+    let pos = found + openTag.length;
+    while (depth > 0 && pos < html.length) {
+      if (html.startsWith('</span>', pos)) {
+        depth--;
+        pos += 7;
+      } else if (html.startsWith('<span', pos) && (html[pos + 5] === ' ' || html[pos + 5] === '>' || html[pos + 5] === '/' || html[pos + 5] === '\t' || html[pos + 5] === '\n')) {
+        depth++;
+        pos += 5;
+      } else {
+        const nextTag = html.indexOf('<', pos + 1);
+        if (nextTag === -1) { pos = html.length; break; }
+        pos = nextTag;
+      }
+    }
+    const katexBlock = html.substring(found, pos);
+    const ann = katexBlock.match(/<annotation encoding="application\/x-tex">([\s\S]*?)<\/annotation>/);
+    if (ann) {
+      r += convertLatex(ann[1]);
+    }
+    lastEnd = pos;
+    searchPos = pos;
+  }
+  r += html.substring(lastEnd);
+  // Strip remaining HTML tags and decode
+  r = htmlDecode(r.replace(/<[^>]*>/g, '').trim());
+  // Clean any remaining LaTeX braces that weren't inside KaTeX spans
+  r = r.replace(/\\\{/g, '{').replace(/\\\}/g, '}');
+  return r;
+}
+
 function extractQuestions(html, source) {
   const questions = [];
   let id = 0;
@@ -87,8 +179,8 @@ function extractQuestions(html, source) {
     let pMatch;
     const parts = [];
     while ((pMatch = pRegex.exec(questionText)) !== null) {
-      let pContent = pMatch[1].replace(/<span class="katex-mathml">[\s\S]*?<\/span>/g, '');
-      parts.push(htmlDecode(pContent.replace(/<[^>]*>/g, '').trim()));
+      const text = extractHtmlText(pMatch[1]);
+      if (text) parts.push(text);
     }
     questionText = parts.join(' ').replace(/\s+/g, ' ').trim();
     questionText = questionText.replace(/^\d+\.\s*/, '').trim();
@@ -109,8 +201,7 @@ function extractQuestions(html, source) {
       const pRegex = /<p[^>]*>([\s\S]*?)<\/p>/g;
       let pm;
       while ((pm = pRegex.exec(btnHtml)) !== null) {
-        let optContent = pm[1].replace(/<span class="katex-mathml">[\s\S]*?<\/span>/g, '');
-        const txt = htmlDecode(optContent.replace(/<[^>]*>/g, '').trim());
+        const txt = extractHtmlText(pm[1]);
         if (txt) pContents.push(txt);
       }
       const optText = pContents.length > 0 ? pContents[pContents.length - 1] : '';

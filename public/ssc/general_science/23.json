@@ -111,10 +111,10 @@
     "id": 10,
     "question": "নিচের কোনটি সঠিক?",
     "options": {
-      "A": "n=sin∠BOM′sin∠AOM​",
-      "B": "n=sin∠CON′sin∠AON​",
-      "C": "n=sin∠BOC′sin∠AON​",
-      "D": "n=sin∠BOM′sin∠AON​"
+      "A": "n = sin∠AOM/sin∠BOM'",
+      "B": "n = sin∠AON/sin∠CON'",
+      "C": "n = sin∠AON/sin∠BOC'",
+      "D": "n = sin∠AON/sin∠BOM'"
     },
     "answer": "B",
     "source": "চট্টগ্রাম বোর্ড ২০২৫"
@@ -171,7 +171,7 @@
     "id": 15,
     "question": "NaOH যোগটি-",
     "options": {
-      "A": "পানিতে H+ তৈরি করে",
+      "A": "পানিতে H^+ তৈরি করে",
       "B": "নীল লিটমাস কাগজ লাল করে",
       "C": "পানিতে হাইড্রোক্সাইড আয়ন উৎপন্ন করে",
       "D": "এক ধরনের নিরপেক্ষ পদার্থ"

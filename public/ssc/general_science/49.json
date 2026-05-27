@@ -160,9 +160,9 @@
     "question": "ব্লিচিং পাউডারের সংকেত কোনটি?",
     "options": {
       "A": "Ca(OCl)Cl",
-      "B": "CaCl2​",
-      "C": "CaCl3​",
-      "D": "Ca(OH)2​"
+      "B": "CaCl_2",
+      "C": "CaCl_3",
+      "D": "Ca(OH)_2"
     },
     "answer": "A",
     "source": "বরিশাল বোর্ড ২০১৭"
