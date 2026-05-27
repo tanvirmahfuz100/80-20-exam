@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "question": "প্রেজেন্টেশন সফটওয়্যারে একটি স্লাইড থেকে পরবর্তী স্লাইডে যাওয়ার সময় যে ইফেক্ট ব্যবহার করা হয় তাকে কী বলা হয়?",
+    "options": {
+      "A": "ফরমেট",
+      "B": "ডিজাইন",
+      "C": "ট্রানজিশন",
+      "D": "লে-আউট"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 2,
+    "question": "পেইজ লেআউট ট্যাবে থাকে— i. margins ii. orientation iii. illustrations নিচের কোনটি সঠিক?",
+    "options": {
+      "A": "i ও ii",
+      "B": "i ও iii",
+      "C": "ii ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 3,
+    "question": "CMOS এর পূর্ণরূপ কী?",
+    "options": {
+      "A": "Computer Metal-Oxide Semiconductor",
+      "B": "Connection Metal-Oxide Semiconductor",
+      "C": "Contrast Metal-Oxide Semiconductor",
+      "D": "Complementary Metal-Oxide Semiconductor"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 4,
+    "question": "কোনটি ইন্টারঅ্যাকটিভ মাল্টিমিডিয়া?",
+    "options": {
+      "A": "ওয়েব পেজ",
+      "B": "রেডিও",
+      "C": "চিত্র",
+      "D": "টেলিভিশন"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 5,
+    "question": "কম্পিউটারের রক্ষণাবেক্ষণ কত প্রকার?",
+    "options": {
+      "A": "২",
+      "B": "৩",
+      "C": "৪",
+      "D": "৫"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 6,
+    "question": "অফিস বাটনে ক্লিক করলে নিচের কোন অপশনটি পাওয়া যায়?",
+    "options": {
+      "A": "Home",
+      "B": "Print",
+      "C": "Page Layout",
+      "D": "Mailings"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 7,
+    "question": "কম্পিউটারের মেমোরি স্লটে কী থাকে?",
+    "options": {
+      "A": "IC",
+      "B": "RAM",
+      "C": "CMOS",
+      "D": "CPU"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 8,
+    "question": "অ্যানিমেশন হলো—",
+    "options": {
+      "A": "চলমান",
+      "B": "স্লাইড",
+      "C": "অডিও",
+      "D": "টেক্সট"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 9,
+    "question": "সফটওয়্যার আনইনস্টল করার কমান্ড কোনটি?",
+    "options": {
+      "A": "Start → Default → Uninstall a Programme → Uninstall",
+      "B": "Start → Help and support → Uninstall a Programme → Uninstall",
+      "C": "Start → Control panel → Uninstall a Programme → Uninstall",
+      "D": "Start → Computer → Uninstall a Programme → Uninstall"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 10,
+    "question": "বেশিরভাগ কম্পিউটারে কোন অপারেটিং সিস্টেম ব্যবহৃত হয়?",
+    "options": {
+      "A": "লিনাক্স",
+      "B": "উইন্ডোজ",
+      "C": "ম্যাকওএস",
+      "D": "অ্যান্ড্রয়েড"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 11,
+    "question": "ওয়ার্ড প্রসেসরে কোনটি ফরম্যাটিং টেক্সট এর কাজ?",
+    "options": {
+      "A": "সেভ ও এন্ড",
+      "B": "ফন্ট সাইজ",
+      "C": "ড্রপ-ডাউন",
+      "D": "ক্লিপবোর্ড"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 12,
+    "question": "পাইথন অ্যাপ্লিকেশন ডাউনলোড করার ওয়েব ঠিকানা কোনটি?",
+    "options": {
+      "A": "www.python.org/downloads",
+      "B": "www.python.bd/downloads",
+      "C": "www.python.com/downloads",
+      "D": "www.python.net/downloads"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 13,
+    "question": "কোন কোডটিকে মেশিন কোড বলা হয়?",
+    "options": {
+      "A": "পাইথন",
+      "B": "জাভা",
+      "C": "বাইনারি",
+      "D": "কম্পাইলার"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 14,
+    "question": "প্রেজেন্টেশন সফটওয়্যারের ডিজাইন মেনুর রিবনের একেবারে ডান দিকে কোনটি থাকে?",
+    "options": {
+      "A": "Slide show",
+      "B": "Handouts",
+      "C": "Graphics",
+      "D": "Background style"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 15,
+    "question": "মাল্টিমিডিয়ার ব্যবহার রয়েছে— i. বিনোদন ক্ষেত্রে ii. কম্পিউটার গেমসে iii. বিজ্ঞাপনে নিচের কোনটি সঠিক?",
+    "options": {
+      "A": "i ও ii",
+      "B": "i ও iii",
+      "C": "ii ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 17,
+    "question": "প্রোগ্রামের ভেরিয়েবলের নামে কোনটি ব্যবহার করা যাবে?",
+    "options": {
+      "A": "@",
+      "B": "(_)",
+      "C": "%",
+      "D": "^"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 18,
+    "question": "বাংলাদেশে প্রস্তুতকৃত মাল্টিমিডিয়া সফটওয়্যার কোনটি?",
+    "options": {
+      "A": "শিশু শিক্ষা",
+      "B": "বিশ্বকোষ",
+      "C": "নিরাপদ",
+      "D": "ডিরেক্টর"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 19,
+    "question": "প্রেজেন্টেশন সংরক্ষণ করার কমান্ড কোনটি?",
+    "options": {
+      "A": "File Menu → Print → Save As → File Name → Ok",
+      "B": "File Menu → Open → Save As → File Name → Ok",
+      "C": "File Menu → Save → Save As → File Name → Ok",
+      "D": "File Menu → Publish → Save As → File Name → Ok"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 20,
+    "question": "ক্লিপবোর্ড গ্রুপে থাকে— i. cut ii. paste iii. copy নিচের কোনটি সঠিক?",
+    "options": {
+      "A": "i ও ii",
+      "B": "i ও iii",
+      "C": "ii ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 21,
+    "question": "নিচের কোনটি প্রোগ্রামিং এর ভাষার নাম?",
+    "options": {
+      "A": "বাইনারি",
+      "B": "কম্পাইলার",
+      "C": "ধ্বনি",
+      "D": "পাইথন"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 22,
+    "question": "পেন ড্রাইভ থেকে সফটওয়্যার ইনস্টল করতে গেলে কোন প্রোগ্রামটি প্রথমে চালু হয়?",
+    "options": {
+      "A": "Open",
+      "B": "Setup",
+      "C": "Auto run",
+      "D": "Clean up"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 23,
+    "question": "ওয়ার্ড ডকুমেন্টে টেবিল বা সারণি যোগ করার কমান্ড কোনটি?",
+    "options": {
+      "A": "Insert → Table → View → Ok",
+      "B": "Insert → Row → Insert Row → Ok",
+      "C": "Insert → Table → Insert Table → Ok",
+      "D": "Insert → Row → View → Ok"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 24,
+    "question": "পাইথন প্রোগ্রামে ব্যবহৃত ডেটা টাইপ কোনটি?",
+    "options": {
+      "A": "print",
+      "B": "break",
+      "C": "while",
+      "D": "int"
+    },
+    "answer": "A",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  }
+]

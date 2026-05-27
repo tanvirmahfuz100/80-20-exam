@@ -1,12 +1,13 @@
 ﻿import React from 'react';
 import { motion } from 'framer-motion';
-import { Book, Calculator, Brain, Briefcase, ChevronRight, Play, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles, Check } from 'lucide-react';
+import { Book, Calculator, Brain, Briefcase, ChevronRight, Play, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles, Check, Monitor } from 'lucide-react';
 
 export const icons = {
     bangla: BookOpen,
     bangla_1st: BookOpen,
     bangla_2nd: BookOpen,
     english: Book,
+    ict: Monitor,
     math: Calculator,
     analytical: Brain,
     business_entrepreneurship: Briefcase,
