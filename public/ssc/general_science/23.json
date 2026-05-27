@@ -111,10 +111,10 @@
     "id": 10,
     "question": "নিচের কোনটি সঠিক?",
     "options": {
-      "A": "n=sin⁡∠AOMsin⁡∠BOM′ n = \\frac{\\sin \\angle AOM}{\\sin \\angle BOM'} n=sin∠BOM′sin∠AOM​",
-      "B": "n=sin⁡∠AONsin⁡∠CON′ n = \\frac{\\sin \\angle AON}{\\sin \\angle CON'} n=sin∠CON′sin∠AON​",
-      "C": "n=sin⁡∠AONsin⁡∠BOC′ n = \\frac{\\sin \\angle AON}{\\sin \\angle BOC'} n=sin∠BOC′sin∠AON​",
-      "D": "n=sin⁡∠AONsin⁡∠BOM′ n = \\frac{\\sin \\angle AON}{\\sin \\angle BOM'} n=sin∠BOM′sin∠AON​"
+      "A": "n=sin∠BOM′sin∠AOM​",
+      "B": "n=sin∠CON′sin∠AON​",
+      "C": "n=sin∠BOC′sin∠AON​",
+      "D": "n=sin∠BOM′sin∠AON​"
     },
     "answer": "B",
     "source": "চট্টগ্রাম বোর্ড ২০২৫"
@@ -171,7 +171,7 @@
     "id": 15,
     "question": "NaOH যোগটি-",
     "options": {
-      "A": "পানিতে H+ H^+ H+ তৈরি করে",
+      "A": "পানিতে H+ তৈরি করে",
       "B": "নীল লিটমাস কাগজ লাল করে",
       "C": "পানিতে হাইড্রোক্সাইড আয়ন উৎপন্ন করে",
       "D": "এক ধরনের নিরপেক্ষ পদার্থ"
@@ -241,12 +241,12 @@
   },
   {
     "id": 21,
-    "question": "২ কেজি ভরের একটি গোলক ৫ সেকেন্ডে মাত্র 0 0 0 মি/সেঃ২ ত্বরণে চলছে। গোলকটিতে কী পরিমাণ বল প্রয়োগ করা হয়েছে?",
+    "question": "২ কেজি ভরের একটি গোলক ৫ সেকেন্ডে মাত্র 0 মি/সেঃ২ ত্বরণে চলছে। গোলকটিতে কী পরিমাণ বল প্রয়োগ করা হয়েছে?",
     "options": {
-      "A": "1.5 1.5 1.5 নিউটন",
-      "B": "6 6 6 নিউটন",
-      "C": "10 10 10 নিউটন",
-      "D": "15 15 15 নিউটন"
+      "A": "1.5 নিউটন",
+      "B": "6 নিউটন",
+      "C": "10 নিউটন",
+      "D": "15 নিউটন"
     },
     "answer": "B",
     "source": "চট্টগ্রাম বোর্ড ২০২৫"

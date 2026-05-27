@@ -111,10 +111,10 @@
     "id": 10,
     "question": "কোনটি প্রতিসরণ কোণ?",
     "options": {
-      "A": "∠BOM′ \\angle \\mathrm{BOM}^{\\prime} ∠BOM′",
-      "B": "∠N′OC \\angle \\mathrm{N}^{\\prime} \\mathrm{OC} ∠N′OC",
-      "C": "∠AON \\angle \\mathrm{AON} ∠AON",
-      "D": "∠N′OB \\angle \\mathrm{N}^{\\prime} \\mathrm{OB} ∠N′OB"
+      "A": "∠BOM′",
+      "B": "∠N′OC",
+      "C": "∠AON",
+      "D": "∠N′OB"
     },
     "answer": "B",
     "source": "সিলেট বোর্ড  ২০২০"
@@ -171,10 +171,10 @@
     "id": 15,
     "question": "কোনটি দুর্বল এসিড?",
     "options": {
-      "A": "H2SO4H_2SO_4H2​SO4​",
-      "B": "H2CO3H_2CO_3H2​CO3​",
-      "C": "HNO3HNO_3HNO3​",
-      "D": "HClHClHCl"
+      "A": "H2​SO4​",
+      "B": "H2​CO3​",
+      "C": "HNO3​",
+      "D": "HCl"
     },
     "answer": "B",
     "source": "সিলেট বোর্ড  ২০২০"

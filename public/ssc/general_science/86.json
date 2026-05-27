@@ -85,7 +85,7 @@
   },
   {
     "id": 9,
-    "question": "১২০০ কেজি ভরবিশিষ্ট একটি বাস ৩ মি./সে.2\\text{মি./সে.}^2মি./সে.2 ত্বরণে চলছিল। হঠাৎ জরুরি প্রয়োজনে ব্রেক চাপা হলো।",
+    "question": "১২০০ কেজি ভরবিশিষ্ট একটি বাস ৩ মি./সে.2 ত্বরণে চলছিল। হঠাৎ জরুরি প্রয়োজনে ব্রেক চাপা হলো।",
     "options": {
       "A": "৪০০ নিউটন",
       "B": "৩৬০০ নিউটন",
@@ -145,7 +145,7 @@
   },
   {
     "id": 14,
-    "question": "(i) HCl+X→MgCl2+2H2OHCl + X \\rightarrow MgCl_2 + 2H_2OHCl+X→MgCl2​+2H2​O (ii) Ca(OH)2+H2SO4→A+2H2OCa(OH)_2 + H_2SO_4 \\rightarrow A + 2H_2OCa(OH)2​+H2​SO4​→A+2H2​O",
+    "question": "(i) HCl+X→MgCl2​+2H2​O (ii) Ca(OH)2​+H2​SO4​→A+2H2​O",
     "options": {
       "A": "ক্ষার",
       "B": "এসিড",
@@ -195,10 +195,10 @@
     "id": 18,
     "question": "একটি যন্ত্রের ক্ষমতা P ওয়াট, সময় t ঘণ্টা এবং ব্যয়িত শক্তি E হলে, নিচের কোনটি সঠিক?",
     "options": {
-      "A": "E=p×tE = p \\times tE=p×t",
-      "B": "p=E×tp = E \\times tp=E×t",
-      "C": "t=p×Et = p \\times Et=p×E",
-      "D": "E=ptE = \\frac{p}{t}E=tp​"
+      "A": "E=p×t",
+      "B": "p=E×t",
+      "C": "t=p×E",
+      "D": "E=tp​"
     },
     "answer": "A",
     "source": "রাজশাহী বোর্ড ২০২৬"
@@ -219,10 +219,10 @@
     "id": 20,
     "question": "ভিনেগারের সংকেত কোনটি?",
     "options": {
-      "A": "C6H8O7C_6H_8O_7C6​H8​O7​",
-      "B": "HOOC−COOHHOOC-COOHHOOC−COOH",
-      "C": "CH3COOHCH_3COOHCH3​COOH",
-      "D": "H3PO4H_3PO_4H3​PO4​"
+      "A": "C6​H8​O7​",
+      "B": "HOOC−COOH",
+      "C": "CH3​COOH",
+      "D": "H3​PO4​"
     },
     "answer": "C",
     "source": "রাজশাহী বোর্ড ২০২৬"
@@ -243,8 +243,8 @@
     "id": 22,
     "question": "নিচের কোনটির অভাবে বেরিবেরি রোগ হয়?",
     "options": {
-      "A": "ভিটামিন-B1B_1B1​",
-      "B": "ভিটামিন-B2B_2B2​",
+      "A": "ভিটামিন-B1​",
+      "B": "ভিটামিন-B2​",
       "C": "ভিটামিন-C",
       "D": "ভিটামিন-D"
     },

@@ -303,10 +303,10 @@
     "id": 26,
     "question": "নিচের কোনটি এসিড?",
     "options": {
-      "A": "NH4NO3NH_4NO_3NH4​NO3​",
-      "B": "NH4OHNH_4OHNH4​OH",
-      "C": "CaCO3CaCO_3CaCO3​",
-      "D": "H2CO3H_2CO_3H2​CO3​"
+      "A": "NH4​NO3​",
+      "B": "NH4​OH",
+      "C": "CaCO3​",
+      "D": "H2​CO3​"
     },
     "answer": "D",
     "source": "দিনাজপুর বোর্ড ২০২৫"

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "146টি আম তিনজন ভাইয়ের মধ্যে 12:15:19\\frac{1}{2} : \\frac{1}{5} : \\frac{1}{9}21​:51​:91​ অনুপাতে ভাগ করে দেওয়া হলে প্রথম ভাইয়ের প্রাপ্ত আমের সংখ্যা কত?",
+    "question": "146টি আম তিনজন ভাইয়ের মধ্যে 21​:51​:91​ অনুপাতে ভাগ করে দেওয়া হলে প্রথম ভাইয়ের প্রাপ্ত আমের সংখ্যা কত?",
     "options": {
       "A": "18",
       "B": "45",
@@ -15,10 +15,10 @@
     "id": 2,
     "question": "নিচের চিত্রের আলোকে প্রশ্নের উত্তর দাও:",
     "options": {
-      "A": "N⊂Z⊂WN \\subset Z \\subset WN⊂Z⊂W",
-      "B": "N⊂W⊂ZN \\subset W \\subset ZN⊂W⊂Z",
-      "C": "W⊂Z⊂NW \\subset Z \\subset NW⊂Z⊂N",
-      "D": "Z⊂N⊂WZ \\subset N \\subset WZ⊂N⊂W"
+      "A": "N⊂Z⊂W",
+      "B": "N⊂W⊂Z",
+      "C": "W⊂Z⊂N",
+      "D": "Z⊂N⊂W"
     },
     "answer": "B",
     "source": "মির্জাপুর ক্যাডেট কলেজ ২০২৫"
@@ -61,7 +61,7 @@
   },
   {
     "id": 6,
-    "question": "7x+18x=147x+\\frac{1}{8x}=147x+8x1​=14 হলে 8x+17x=?8x+\\frac{1}{7x}=?8x+7x1​=?",
+    "question": "7x+8x1​=14 হলে 8x+7x1​=?",
     "options": {
       "A": "10",
       "B": "16",
@@ -73,31 +73,31 @@
   },
   {
     "id": 7,
-    "question": "a4−5a2+1=0a^4 - 5a^2 + 1 = 0a4−5a2+1=0 হলে a−1aa - \\frac{1}{a}a−a1​ এর মান কত?",
+    "question": "a4−5a2+1=0 হলে a−a1​ এর মান কত?",
     "options": {
       "A": "3",
       "B": "7",
-      "C": "3\\sqrt{3}3​",
-      "D": "7\\sqrt{7}7​"
+      "C": "3​",
+      "D": "7​"
     },
     "answer": "C",
     "source": "মির্জাপুর ক্যাডেট কলেজ ২০২৫"
   },
   {
     "id": 8,
-    "question": "xy=23\\frac{x}{y} = \\frac{2}{3}yx​=32​ হলে 6x+y3x+2y\\frac{6x + y}{3x + 2y}3x+2y6x+y​ এর মান কত?",
+    "question": "yx​=32​ হলে 3x+2y6x+y​ এর মান কত?",
     "options": {
-      "A": "45\\frac{4}{5}54​",
-      "B": "54\\frac{5}{4}45​",
-      "C": "1415\\frac{14}{15}1514​",
-      "D": "1320\\frac{13}{20}2013​"
+      "A": "54​",
+      "B": "45​",
+      "C": "1514​",
+      "D": "2013​"
     },
     "answer": "B",
     "source": "মির্জাপুর ক্যাডেট কলেজ ২০২৫"
   },
   {
     "id": 9,
-    "question": "ab=bc=cd\\frac{a}{b} = \\frac{b}{c} = \\frac{c}{d}ba​=cb​=dc​ হলে— i. a+b+cb+c+d=ab\\frac{a+b+c}{b+c+d} = \\frac{a}{b}b+c+da+b+c​=ba​ ii. ad=ab\\frac{a}{d} = \\frac{a}{b}da​=ba​ iii. a+bb=b+cc\\frac{a+b}{b} = \\frac{b+c}{c}ba+b​=cb+c​ নিচের কোনটি সঠিক?",
+    "question": "ba​=cb​=dc​ হলে— i. b+c+da+b+c​=ba​ ii. da​=ba​ iii. ba+b​=cb+c​ নিচের কোনটি সঠিক?",
     "options": {
       "A": "i, ii",
       "B": "i, iii",
@@ -124,9 +124,9 @@
     "question": "নিচের চিত্রের আলোকে প্রশ্নের উত্তর দাও:",
     "options": {
       "A": "7",
-      "B": "7\\sqrt{7}7​",
-      "C": "252\\sqrt{5}25​",
-      "D": "272\\sqrt{7}27​"
+      "B": "7​",
+      "C": "25​",
+      "D": "27​"
     },
     "answer": "D",
     "source": "মির্জাপুর ক্যাডেট কলেজ ২০২৫"
@@ -193,7 +193,7 @@
   },
   {
     "id": 17,
-    "question": "θ\\thetaθ সূক্ষ্মকোণ হলে— i. sin⁡θ\\sin\\thetasinθ ধনাত্মক ii. cos⁡θ\\cos\\thetacosθ ঋণাত্মক iii. tan⁡θ\\tan\\thetatanθ ধনাত্মক নিচের কোনটি সঠিক?",
+    "question": "θ সূক্ষ্মকোণ হলে— i. sinθ ধনাত্মক ii. cosθ ঋণাত্মক iii. tanθ ধনাত্মক নিচের কোনটি সঠিক?",
     "options": {
       "A": "i ও ii",
       "B": "i ও iii",
@@ -217,7 +217,7 @@
   },
   {
     "id": 19,
-    "question": "cot⁡θ=3 \\cot\\theta = \\sqrt{3} cotθ=3​ হলে– i. tan⁡θ=13 \\tan\\theta = \\frac{1}{\\sqrt{3}} tanθ=3​1​ ii. sec⁡θ=2tan⁡θ \\sec\\theta = 2\\tan\\theta secθ=2tanθ iii. 4sin⁡θ=1cos⁡2θ 4\\sin\\theta = \\frac{1}{\\cos2\\theta} 4sinθ=cos2θ1​ নিচের কোনটি সঠিক?",
+    "question": "cotθ=3​ হলে– i. tanθ=3​1​ ii. secθ=2tanθ iii. 4sinθ=cos2θ1​ নিচের কোনটি সঠিক?",
     "options": {
       "A": "i ও ii",
       "B": "i ও iii",
@@ -229,12 +229,12 @@
   },
   {
     "id": 20,
-    "question": "sinθ \\theta θ এর বিপরীত অনুপাত কোনটি?",
+    "question": "sinθ এর বিপরীত অনুপাত কোনটি?",
     "options": {
-      "A": "cosθ \\theta θ",
-      "B": "cosecθ \\theta θ",
-      "C": "tanθ \\theta θ",
-      "D": "secθ \\theta θ"
+      "A": "cosθ",
+      "B": "cosecθ",
+      "C": "tanθ",
+      "D": "secθ"
     },
     "answer": "B",
     "source": "মির্জাপুর ক্যাডেট কলেজ ২০২৫"
@@ -243,10 +243,10 @@
     "id": 21,
     "question": "নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাও: কোনো একটি বর্গে বৃত্ত অন্তলিখিত আছে এবং বৃত্তটির ব্যাসার্ধ। একক",
     "options": {
-      "A": "4:π4:\\pi4:π",
-      "B": "π:4\\pi:4π:4",
-      "C": "2:r2:r2:r",
-      "D": "r:2r:2r:2"
+      "A": "4:π",
+      "B": "π:4",
+      "C": "2:r",
+      "D": "r:2"
     },
     "answer": "B",
     "source": "মির্জাপুর ক্যাডেট কলেজ ২০২৫"
@@ -255,10 +255,10 @@
     "id": 22,
     "question": "বৃত্তের পরিসীমা নিচের কোনটি?",
     "options": {
-      "A": "πr\\pi rπr",
-      "B": "2πr2\\pi r2πr",
-      "C": "πr2\\pi r^2πr2",
-      "D": "4πr24\\pi r^24πr2"
+      "A": "πr",
+      "B": "2πr",
+      "C": "πr2",
+      "D": "4πr2"
     },
     "answer": "B",
     "source": "মির্জাপুর ক্যাডেট কলেজ ২০২৫"

@@ -207,10 +207,10 @@
     "id": 18,
     "question": "জব্বার মিয়া একজন কৃষক। তার জমিতে ফসল আশানুরূপ না হওয়ায় মাটি পরীক্ষা করে দেখল মাটির pH এর মান 3। জব্বার মিয়ার জমিতে কোন উপাদানগুলো হ্রাস পেয়েছে?",
     "options": {
-      "A": "Al,Fe \\mathrm{Al}, \\mathrm{Fe} Al,Fe",
-      "B": "Fe,Mg \\mathrm{Fe}, \\mathrm{Mg} Fe,Mg",
-      "C": "Ca,Mg \\mathrm{Ca}, \\mathrm{Mg} Ca,Mg",
-      "D": "Ca,Al \\mathrm{Ca}, \\mathrm{Al} Ca,Al"
+      "A": "Al,Fe",
+      "B": "Fe,Mg",
+      "C": "Ca,Mg",
+      "D": "Ca,Al"
     },
     "answer": "C",
     "source": "দিনাজপুর বোর্ড ২০২৩"

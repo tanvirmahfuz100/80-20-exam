@@ -87,7 +87,8 @@ function extractQuestions(html, source) {
     let pMatch;
     const parts = [];
     while ((pMatch = pRegex.exec(questionText)) !== null) {
-      parts.push(htmlDecode(pMatch[1].replace(/<[^>]*>/g, '').trim()));
+      let pContent = pMatch[1].replace(/<span class="katex-mathml">[\s\S]*?<\/span>/g, '');
+      parts.push(htmlDecode(pContent.replace(/<[^>]*>/g, '').trim()));
     }
     questionText = parts.join(' ').replace(/\s+/g, ' ').trim();
     questionText = questionText.replace(/^\d+\.\s*/, '').trim();
@@ -108,7 +109,8 @@ function extractQuestions(html, source) {
       const pRegex = /<p[^>]*>([\s\S]*?)<\/p>/g;
       let pm;
       while ((pm = pRegex.exec(btnHtml)) !== null) {
-        const txt = htmlDecode(pm[1].replace(/<[^>]*>/g, '').trim());
+        let optContent = pm[1].replace(/<span class="katex-mathml">[\s\S]*?<\/span>/g, '');
+        const txt = htmlDecode(optContent.replace(/<[^>]*>/g, '').trim());
         if (txt) pContents.push(txt);
       }
       const optText = pContents.length > 0 ? pContents[pContents.length - 1] : '';

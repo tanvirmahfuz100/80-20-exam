@@ -13,19 +13,19 @@
   },
   {
     "id": 2,
-    "question": "Na2CO3+H2O⟶X+H2CO3(Y) \\mathrm{Na}_{2} \\mathrm{CO}_{3}+\\mathrm{H}_{2} \\mathrm{O} \\longrightarrow \\mathrm{X}+\\mathrm{H}_{2} \\mathrm{CO}_{3}(\\mathrm{Y}) Na2​CO3​+H2​O⟶X+H2​CO3​(Y) 'X' যৌগের সংকেত কোনটি?",
+    "question": "Na2​CO3​+H2​O⟶X+H2​CO3​(Y) 'X' যৌগের সংকেত কোনটি?",
     "options": {
-      "A": "Na2O \\mathrm{Na}_{2} \\mathrm{O} Na2​O",
-      "B": "NaOH \\mathrm{NaOH} NaOH",
-      "C": "Na(OH)2 \\mathrm{Na}(\\mathrm{OH})_{2} Na(OH)2​",
-      "D": "Na2OH \\mathrm{Na}_{2} \\mathrm{OH} Na2​OH"
+      "A": "Na2​O",
+      "B": "NaOH",
+      "C": "Na(OH)2​",
+      "D": "Na2​OH"
     },
     "answer": "B",
     "source": "বরিশাল বোর্ড ২০২৩"
   },
   {
     "id": 3,
-    "question": "Na2CO3+H2O⟶X+H2CO3(Y) \\mathrm{Na}_{2} \\mathrm{CO}_{3}+\\mathrm{H}_{2} \\mathrm{O} \\longrightarrow \\mathrm{X}+\\mathrm{H}_{2} \\mathrm{CO}_{3}(\\mathrm{Y}) Na2​CO3​+H2​O⟶X+H2​CO3​(Y) উদ্দীপকের আলোকে- i. X একটি দুর্বল ক্ষার ii. Y একটি দুর্বল এসিড iii. X এর pH 7 এর বেশি নিচের কোনটি সঠিক?",
+    "question": "Na2​CO3​+H2​O⟶X+H2​CO3​(Y) উদ্দীপকের আলোকে- i. X একটি দুর্বল ক্ষার ii. Y একটি দুর্বল এসিড iii. X এর pH 7 এর বেশি নিচের কোনটি সঠিক?",
     "options": {
       "A": "i ও ii",
       "B": "i ও iii",
@@ -111,7 +111,7 @@
     "id": 10,
     "question": "টয়লেট পরিষ্কারক এর মূল উপাদান কোনটি?",
     "options": {
-      "A": "HNO3 \\mathrm{HNO}_{3} HNO3​",
+      "A": "HNO3​",
       "B": "NaCl",
       "C": "NaOH",
       "D": "CaO"
@@ -147,10 +147,10 @@
     "id": 13,
     "question": "কোনটি দুর্বল এসিড?",
     "options": {
-      "A": "H2SO4H_2SO_4H2​SO4​",
-      "B": "H2CO3H_2CO_3H2​CO3​",
-      "C": "HNO3HNO_3HNO3​",
-      "D": "HClHClHCl"
+      "A": "H2​SO4​",
+      "B": "H2​CO3​",
+      "C": "HNO3​",
+      "D": "HCl"
     },
     "answer": "B",
     "source": "বরিশাল বোর্ড ২০২৩"

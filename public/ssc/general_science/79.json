@@ -87,10 +87,10 @@
     "id": 8,
     "question": "কোনটি জীবাণুনাশক হিসেবে ব্যবহৃত হয়?",
     "options": {
-      "A": "Na2SO4 Na_2SO_4 Na2​SO4​",
-      "B": "ZnSO4 ZnSO_4 ZnSO4​",
-      "C": "CuSO4 CuSO_4 CuSO4​",
-      "D": "FeSO4 FeSO_4 FeSO4​"
+      "A": "Na2​SO4​",
+      "B": "ZnSO4​",
+      "C": "CuSO4​",
+      "D": "FeSO4​"
     },
     "answer": "C",
     "source": "রাজশাহী বোর্ড ২০১৬"
@@ -207,10 +207,10 @@
     "id": 18,
     "question": "খাবার লবণের সংকেত কী?",
     "options": {
-      "A": "NaCl NaCl NaCl",
-      "B": "H2CO3 H_2CO_3 H2​CO3​",
-      "C": "Na2CO3 Na_2CO_3 Na2​CO3​",
-      "D": "HCl HCl HCl"
+      "A": "NaCl",
+      "B": "H2​CO3​",
+      "C": "Na2​CO3​",
+      "D": "HCl"
     },
     "answer": "A",
     "source": "রাজশাহী বোর্ড ২০১৬"
@@ -231,10 +231,10 @@
     "id": 20,
     "question": "নিচের কোনটি এসিটিক অ্যাসিড?",
     "options": {
-      "A": "HOOC−COOH HOOC-COOH HOOC−COOH",
-      "B": "H2SO4 H_2SO_4 H2​SO4​",
-      "C": "CH3COOH CH_3COOH CH3​COOH",
-      "D": "H2CO3 H_2CO_3 H2​CO3​"
+      "A": "HOOC−COOH",
+      "B": "H2​SO4​",
+      "C": "CH3​COOH",
+      "D": "H2​CO3​"
     },
     "answer": "C",
     "source": "রাজশাহী বোর্ড ২০১৬"
@@ -361,7 +361,7 @@
   },
   {
     "id": 32,
-    "question": "Mg(OH)2 Mg(OH)_2 Mg(OH)2​ ক্ষার সেবন করা যায় — i. অতিরিক্ত অ্যাসিড হতে পরিত্রাণের জন্য ii. পাকস্থলীতে অ্যাসিডকে প্রশমিত করার জন্য iii. লবণের সাথে ক্রিয়া অ্যাসিড উৎপন্ন করার জন্য নিচের কোনটি সঠিক?",
+    "question": "Mg(OH)2​ ক্ষার সেবন করা যায় — i. অতিরিক্ত অ্যাসিড হতে পরিত্রাণের জন্য ii. পাকস্থলীতে অ্যাসিডকে প্রশমিত করার জন্য iii. লবণের সাথে ক্রিয়া অ্যাসিড উৎপন্ন করার জন্য নিচের কোনটি সঠিক?",
     "options": {
       "A": "i ও ii",
       "B": "i ও iii",

@@ -39,10 +39,10 @@
     "id": 4,
     "question": "মি. হক ব্যাটারি তৈরির কারখানায় কাজ করেন। গত রাতে তাঁর ভালো ঘুম হয়নি এবং সকালে তিনি পরোটা ও মাংস খেয়েছেন । মি. হকের পেটে নিচের কোনটি বেড়ে যেতে পারে?",
     "options": {
-      "A": "HCO3 \\mathrm{HCO}_{3} HCO3​",
+      "A": "HCO3​",
       "B": "KCl",
-      "C": "KClO3 \\mathrm{KClO}_{3} KClO3​",
-      "D": "KHCO3 \\mathrm{KHCO}_{3} KHCO3​"
+      "C": "KClO3​",
+      "D": "KHCO3​"
     },
     "answer": "A",
     "source": "কুমিল্লা বোর্ড ২০১৯"
@@ -145,12 +145,12 @@
   },
   {
     "id": 13,
-    "question": "K2CO3+HCl⟶′A′+H2O+CO2 \\mathrm{K}_{2} \\mathrm{CO}_{3}+\\mathrm{HCl} \\longrightarrow{ }^{\\prime} \\mathrm{A}^{\\prime}+\\mathrm{H}_{2} \\mathrm{O}+\\mathrm{CO}_{2} K2​CO3​+HCl⟶′A′+H2​O+CO2​ নিচের কোনটি 'A' চিহ্নিত পদার্থ?",
+    "question": "K2​CO3​+HCl⟶′A′+H2​O+CO2​ নিচের কোনটি 'A' চিহ্নিত পদার্থ?",
     "options": {
-      "A": "HCO3 \\mathrm{HCO}_{3} HCO3​",
+      "A": "HCO3​",
       "B": "KCl",
-      "C": "KClO3 \\mathrm{KClO}_{3} KClO3​",
-      "D": "KHCO3 \\mathrm{KHCO}_{3} KHCO3​"
+      "C": "KClO3​",
+      "D": "KHCO3​"
     },
     "answer": "B",
     "source": "কুমিল্লা বোর্ড ২০১৯"

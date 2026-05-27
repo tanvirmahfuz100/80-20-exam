@@ -27,17 +27,17 @@
     "id": 3,
     "question": "B সেট থেকে A সেটে একটি সম্পর্ক R হলে নিচের কোনটি সঠিক?",
     "options": {
-      "A": "R⊆A×B R \\subseteq A \\times B R⊆A×B",
-      "B": "R⊂A×B R \\subset A \\times B R⊂A×B",
-      "C": "R⊂(A∪B) R \\subset (A \\cup B) R⊂(A∪B)",
-      "D": "R⊆B×A R \\subseteq B \\times A R⊆B×A"
+      "A": "R⊆A×B",
+      "B": "R⊂A×B",
+      "C": "R⊂(A∪B)",
+      "D": "R⊆B×A"
     },
     "answer": "D",
     "source": "রাজউক উত্তরা মডেল কলেজ ২০২৫"
   },
   {
     "id": 4,
-    "question": "নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাও: p-1p \\frac{1}{p} p1​=7",
+    "question": "নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাও: p-p1​=7",
     "options": {
       "A": "45",
       "B": "47",
@@ -49,7 +49,7 @@
   },
   {
     "id": 5,
-    "question": "x+1x=5x+\\frac{1}{x}=5x+x1​=5 হলে— i. x2−1x2=521x^2-\\frac{1}{x^2}=5\\sqrt{21}x2−x21​=521​ ii. x3−1x3=110x^3-\\frac{1}{x^3}=110x3−x31​=110 iii. x2−5x+1=0x^2-5x+1=0x2−5x+1=0 নিচের কোনটি সঠিক?",
+    "question": "x+x1​=5 হলে— i. x2−x21​=521​ ii. x3−x31​=110 iii. x2−5x+1=0 নিচের কোনটি সঠিক?",
     "options": {
       "A": "i, ii",
       "B": "ii, iii",
@@ -123,10 +123,10 @@
     "id": 11,
     "question": "একটি বর্গ একটি বৃত্তে অন্তলিখিত। বৃত্তের ও বর্গের ক্ষেত্রফলের অনুপাত কত?",
     "options": {
-      "A": "π:22\\pi : 2\\sqrt{2}π:22​",
-      "B": "π:2\\pi : 2π:2",
-      "C": "π:2\\pi : \\sqrt{2}π:2​",
-      "D": "π:4\\pi : 4π:4"
+      "A": "π:22​",
+      "B": "π:2",
+      "C": "π:2​",
+      "D": "π:4"
     },
     "answer": "B",
     "source": "রাজউক উত্তরা মডেল কলেজ ২০২৫"
@@ -145,7 +145,7 @@
   },
   {
     "id": 13,
-    "question": "sin⁡2θ−cos⁡2θ=1\\sin^2\\theta - \\cos^2\\theta = 1sin2θ−cos2θ=1 হলে, sin⁡4θ−cos⁡4θ=?\\sin^4\\theta - \\cos^4\\theta = ?sin4θ−cos4θ=?",
+    "question": "sin2θ−cos2θ=1 হলে, sin4θ−cos4θ=?",
     "options": {
       "A": "1",
       "B": "2",
@@ -157,23 +157,23 @@
   },
   {
     "id": 14,
-    "question": "sin⁡θx=cos⁡θy\\frac{\\sin\\theta}{x} = \\frac{\\cos\\theta}{y}xsinθ​=ycosθ​ হলে cosecθ=?\\text{cosec}\\theta = ?cosecθ=?",
+    "question": "xsinθ​=ycosθ​ হলে cosecθ=?",
     "options": {
-      "A": "x2+y2y\\frac{x^2 + y^2}{y}yx2+y2​",
-      "B": "x2+y2x\\frac{x^2 + y^2}{x}xx2+y2​",
-      "C": "x2+y2y\\frac{\\sqrt{x^2 + y^2}}{y}yx2+y2​​",
-      "D": "x2+y2x\\frac{\\sqrt{x^2 + y^2}}{x}xx2+y2​​"
+      "A": "yx2+y2​",
+      "B": "xx2+y2​",
+      "C": "yx2+y2​​",
+      "D": "xx2+y2​​"
     },
     "answer": "D",
     "source": "রাজউক উত্তরা মডেল কলেজ ২০২৫"
   },
   {
     "id": 15,
-    "question": "cosec x=2=2cos⁡y\\text{cosec x} = \\sqrt{2} = 2\\cos ycosec x=2​=2cosy হলে cot⁡(x+y)=?\\cot(x + y) = ?cot(x+y)=?",
+    "question": "cosec x=2​=2cosy হলে cot(x+y)=?",
     "options": {
       "A": "0",
-      "B": "13\\frac{1}{\\sqrt{3}}3​1​",
-      "C": "3\\sqrt{3}3​",
+      "B": "3​1​",
+      "C": "3​",
       "D": "অসংজ্ঞায়িত"
     },
     "answer": "A",
@@ -229,7 +229,7 @@
   },
   {
     "id": 20,
-    "question": "a, b, c ক্রমিক সমানুপাতী হলে- i. b2=acb^2 = acb2=ac ii. 2b=a+c2b = a + c2b=a+c iii. a+bb=b+cc\\frac{a+b}{b} = \\frac{b+c}{c}ba+b​=cb+c​ নিচের কোনটি সঠিক?",
+    "question": "a, b, c ক্রমিক সমানুপাতী হলে- i. b2=ac ii. 2b=a+c iii. ba+b​=cb+c​ নিচের কোনটি সঠিক?",
     "options": {
       "A": "i, ii",
       "B": "ii, iii",
@@ -279,10 +279,10 @@
     "id": 24,
     "question": "একটি ঘনকের আয়তন 64 ঘন সে.মি. হলে- ঘনকটির পৃষ্ঠতলের কর্ণের দৈর্ঘ্য কত কোনটি? সে.মি.?",
     "options": {
-      "A": "42 \\sqrt{2} 2​",
-      "B": "43 \\sqrt{3} 3​",
-      "C": "82 \\sqrt{2} 2​",
-      "D": "83 \\sqrt{3} 3​"
+      "A": "42​",
+      "B": "43​",
+      "C": "82​",
+      "D": "83​"
     },
     "answer": "A",
     "source": "রাজউক উত্তরা মডেল কলেজ ২০২৫"

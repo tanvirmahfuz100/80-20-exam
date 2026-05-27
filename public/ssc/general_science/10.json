@@ -123,10 +123,10 @@
     "id": 12,
     "question": "নিচের কোনটি এসিড?",
     "options": {
-      "A": "CH4 \\mathrm{CH}_{4} CH4​",
-      "B": "NH4NO3 \\mathrm{NH}_{4} \\mathrm{NO}_{3}{ } NH4​NO3​",
-      "C": "Ag2SO4 \\mathrm{Ag}_{2} \\mathrm{SO}_{4} Ag2​SO4​",
-      "D": "CH3COOH \\mathrm{CH}_{3} \\mathrm{COOH} CH3​COOH"
+      "A": "CH4​",
+      "B": "NH4​NO3​",
+      "C": "Ag2​SO4​",
+      "D": "CH3​COOH"
     },
     "answer": "D",
     "source": "কুমিল্লা বোর্ড ২০২৩"
@@ -277,7 +277,7 @@
   },
   {
     "id": 26,
-    "question": "টয়লেট ক্লিনারের মূল উপাদান- i. H2SO4 \\mathrm{H}_{2} \\mathrm{SO}_{4} H2​SO4​ ii. HCl iii. HNO3 \\mathrm{HNO}_{3} HNO3​ নিচের কোনটি সঠিক?",
+    "question": "টয়লেট ক্লিনারের মূল উপাদান- i. H2​SO4​ ii. HCl iii. HNO3​ নিচের কোনটি সঠিক?",
     "options": {
       "A": "i ও ii",
       "B": "i ও iii",

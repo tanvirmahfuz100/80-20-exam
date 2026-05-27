@@ -181,7 +181,7 @@
   },
   {
     "id": 16,
-    "question": "HCl+NaOH→⨂+H2OY+KOH→K2SO4+H2O \\begin{array}{l}\\mathrm{HCl}+\\mathrm{NaOH} \\rightarrow \\bigotimes+\\mathrm{H}_{2} \\mathrm{O} \\\\ \\mathrm{Y}+\\mathrm{KOH} \\rightarrow \\mathrm{K}_{2} \\mathrm{SO}_{4}+\\mathrm{H}_{2} \\mathrm{O}\\end{array} HCl+NaOH→⨂+H2​OY+KOH→K2​SO4​+H2​O​ 'X' যৌগটি কি?",
+    "question": "HCl+NaOH→⨂+H2​OY+KOH→K2​SO4​+H2​O​ 'X' যৌগটি কি?",
     "options": {
       "A": "ক্ষার",
       "B": "লবণ",
@@ -193,7 +193,7 @@
   },
   {
     "id": 17,
-    "question": "HCl+NaOH→⨂+H2OY+KOH→K2SO4+H2O \\begin{array}{l}\\mathrm{HCl}+\\mathrm{NaOH} \\rightarrow \\bigotimes+\\mathrm{H}_{2} \\mathrm{O} \\\\ \\mathrm{Y}+\\mathrm{KOH} \\rightarrow \\mathrm{K}_{2} \\mathrm{SO}_{4}+\\mathrm{H}_{2} \\mathrm{O}\\end{array} HCl+NaOH→⨂+H2​OY+KOH→K2​SO4​+H2​O​ 'Y' যৌগের ক্ষেত্রে i. এতে হাইড্রোজেন পরমাণু আছে ii. এটি পরিষ্কারক হিসেবে ব্যবহৃত হয় iii. এটি মাটির উর্বরতা বৃদ্ধিতে সাহায্য করে নিচের কোনটি সঠিক?",
+    "question": "HCl+NaOH→⨂+H2​OY+KOH→K2​SO4​+H2​O​ 'Y' যৌগের ক্ষেত্রে i. এতে হাইড্রোজেন পরমাণু আছে ii. এটি পরিষ্কারক হিসেবে ব্যবহৃত হয় iii. এটি মাটির উর্বরতা বৃদ্ধিতে সাহায্য করে নিচের কোনটি সঠিক?",
     "options": {
       "A": "i ও ii",
       "B": "i ও iii",
@@ -279,10 +279,10 @@
     "id": 25,
     "question": "কোনটি প্রতিসরণ কোণ?",
     "options": {
-      "A": "∠BOM′ \\angle \\mathrm{BOM}^{\\prime} ∠BOM′",
-      "B": "∠N′OC \\angle \\mathrm{N}^{\\prime} \\mathrm{OC} ∠N′OC",
-      "C": "∠AON \\angle \\mathrm{AON} ∠AON",
-      "D": "∠N′OB \\angle \\mathrm{N}^{\\prime} \\mathrm{OB} ∠N′OB"
+      "A": "∠BOM′",
+      "B": "∠N′OC",
+      "C": "∠AON",
+      "D": "∠N′OB"
     },
     "answer": "B",
     "source": "সকল বোর্ড ২০১৮"

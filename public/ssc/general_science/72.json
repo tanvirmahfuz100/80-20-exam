@@ -75,10 +75,10 @@
     "id": 7,
     "question": "নিচের কোন যৌগ পানিকে বিশুদ্ধ করতে পারে?",
     "options": {
-      "A": "CH4 \\mathrm{CH}_{4} CH4​",
-      "B": "Cl2 \\mathrm{Cl}_{2} Cl2​",
-      "C": "H2SO4 \\mathrm{H}_{2} \\mathrm{SO}_{4} H2​SO4​",
-      "D": "C2H5OH\\\\{C}_{2} \\mathrm{H}_{5} \\mathrm{OH} C2​H5​OH"
+      "A": "CH4​",
+      "B": "Cl2​",
+      "C": "H2​SO4​",
+      "D": "C2​H5​OH"
     },
     "answer": "B",
     "source": "যশোর বোর্ড  ২০২৪"
@@ -159,10 +159,10 @@
     "id": 14,
     "question": "নিচের কোনটি এসিড?",
     "options": {
-      "A": "CH4 \\mathrm{CH}_{4} CH4​",
-      "B": "NH4NO3 \\mathrm{NH}_{4} \\mathrm{NO}_{3}{ } NH4​NO3​",
-      "C": "Ag2SO4 \\mathrm{Ag}_{2} \\mathrm{SO}_{4} Ag2​SO4​",
-      "D": "CH3COOH \\mathrm{CH}_{3} \\mathrm{COOH} CH3​COOH"
+      "A": "CH4​",
+      "B": "NH4​NO3​",
+      "C": "Ag2​SO4​",
+      "D": "CH3​COOH"
     },
     "answer": "D",
     "source": "যশোর বোর্ড  ২০২৪"
@@ -196,9 +196,9 @@
     "question": "কোনো জমির মাটির pH এর মান 3 হলে ঐ জমির উর্বরতা বৃদ্ধির জন্য ব্যবহার করতে হবে-",
     "options": {
       "A": "NaCl",
-      "B": "CaCO3 \\mathrm{CaCO}_{3} CaCO3​",
-      "C": "CH3COOH \\mathrm{CH}_{3} \\mathrm{COOH} CH3​COOH",
-      "D": "ZnCO3 \\mathrm{ZnCO}_{3} ZnCO3​"
+      "B": "CaCO3​",
+      "C": "CH3​COOH",
+      "D": "ZnCO3​"
     },
     "answer": "B",
     "source": "যশোর বোর্ড  ২০২৪"
@@ -279,10 +279,10 @@
     "id": 24,
     "question": "৮ কেজি ভরের একটি বস্তুর উপর ৩২ নিউটন বল প্রয়োগ করলে বস্তুটির ত্বরণ হবে-",
     "options": {
-      "A": "৪ মি/ সে2 { }^{2} 2",
-      "B": "৮ মি/ সে2 { }^{2} 2",
-      "C": "২৪ মি/ সে2 { }^{2} 2",
-      "D": "৩২ মি/ সে2 { }^{2} 2"
+      "A": "৪ মি/ সে2",
+      "B": "৮ মি/ সে2",
+      "C": "২৪ মি/ সে2",
+      "D": "৩২ মি/ সে2"
     },
     "answer": "A",
     "source": "যশোর বোর্ড  ২০২৪"
