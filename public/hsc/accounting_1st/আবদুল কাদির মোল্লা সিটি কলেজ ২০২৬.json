@@ -1,0 +1,266 @@
+﻿[
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  1,
+        "question":  "হিসাব সমীকরণের \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmtext\u003e৪০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A = ৪০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৪০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা, \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eO\u003c/mi\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmtext\u003e৩০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e OE = ৩০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eO\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৩০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা হলে \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eL\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e L \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e এর মান কত টাকা?",
+        "options":  {
+                        "A":  "১০,০০০",
+                        "B":  "২০,০০০",
+                        "C":  "৩০,০০০",
+                        "D":  "৪০,০০০"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  2,
+        "question":  "GAAP প্রচলন করে কোন সংস্থা?",
+        "options":  {
+                        "A":  "FASB",
+                        "B":  "IAS",
+                        "C":  "IASC",
+                        "D":  "APB"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  3,
+        "question":  "GAAP এর পূর্ণরূপ কোনটি?",
+        "options":  {
+                        "A":  "General Accepted Accounting Principles",
+                        "B":  "Generally Accepted Accounting Principles",
+                        "C":  "Generally Accepted Accounting Principal",
+                        "D":  "Generally Accepted Accounting Policy"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  4,
+        "question":  "বেতন হিসাবে ১০,০০০ টাকা ডেবিট এর পরিবর্তে খতিয়ানের ক্রেডিট পাশে বসানো হলে পার্থক্যের পরিমাণ কত টাকা?",
+        "options":  {
+                        "A":  "৫,০০০",
+                        "B":  "১০,০০০",
+                        "C":  "১৫,০০০",
+                        "D":  "২০,০০০"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  5,
+        "question":  "পরিপূরক ভুল হলো— i. রেওয়ামিল মিলে যাবে ii. রেওয়ামিলের দুই দিক সমান হবে না iii. ডেবিট ক্রেডিট দুই দিকে ভুল থাকে নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  6,
+        "question":  "নিচের কোন হিসাবগুলোর স্বাভাবিক উদ্বৃত্ত ক্রেডিট?",
+        "options":  {
+                        "A":  "সম্পদ, ব্যয়",
+                        "B":  "আয়, ব্যয়",
+                        "C":  "আয়, ব্যয়, সম্পদ",
+                        "D":  "আয়, দায়, মালিকানা স্বত্ব"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  7,
+        "question":  "হিসাবের ডেবিট উদ্বৃত্ত প্রকাশ করে— i. সম্পদ ii. ব্যয় iii. আয় নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  8,
+        "question":  "IAS কত অনুযায়ী অবচয় হিসাবরক্ষণ করা হয়?",
+        "options":  {
+                        "A":  "১",
+                        "B":  "৪",
+                        "C":  "১৬",
+                        "D":  "২২"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  9,
+        "question":  "সাময়িক হিসাব হলো— i. ক্রয় পরিবহন ii. বিক্রয় iii. উত্তোলন নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  10,
+        "question":  "হিসাব চক্রের ঐচ্ছিক ধাপ কোনটি?",
+        "options":  {
+                        "A":  "জাবেদা",
+                        "B":  "খতিয়ান",
+                        "C":  "রেওয়ামিল",
+                        "D":  "কার্যপত্র"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  11,
+        "question":  "প্রতি মাসের শেষে ১০% হার সুদে ২,৫০০ টাকা করে উত্তোলন করলে সুদের পরিমাণ কত টাকা?",
+        "options":  {
+                        "A":  "২,৫০০",
+                        "B":  "১,৬২৫",
+                        "C":  "১,৫০০",
+                        "D":  "১,৩৭৫"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  12,
+        "question":  "একতরফা দাখিলা পদ্ধতিতে কোন কোন হিসাব উপেক্ষা করা হয়? i. আয় ii. সম্পত্তি iii. ব্যয় নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  13,
+        "question":  "১ এপ্রিল ২০২০ সালে ৯০ দিন মেয়াদের প্রদেয় নোটে স্বীকৃতি দেওয়া হল, উক্ত নোটের মেয়াদ পূর্তির দিবস কবে?",
+        "options":  {
+                        "A":  "১ জুলাই",
+                        "B":  "৩০ জুন",
+                        "C":  "৩০ মে",
+                        "D":  "১ জুন"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  14,
+        "question":  "অন্যান্য প্রাপ্য টাকা হলো— i. প্রাপ্য সুদ ii. কর্মচারীদের প্রদত্ত অগ্রিম iii. প্রাপ্য হিসাব নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  15,
+        "question":  "পণ্য ক্রয় ১,৩০,০০০ টাকা, ক্রয় ফেরত ১০,০০০ টাকা ও বাকিতে পণ্য ক্রয় ২০,০০০ টাকা হলে, ক্রয় ভ্যাটের পরিমাণ কত টাকা?",
+        "options":  {
+                        "A":  "১৮,২৬০",
+                        "B":  "১৯,৫৬২",
+                        "C":  "১৫,৬৫২",
+                        "D":  "১৯,৬৫৬"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  16,
+        "question":  "সমাপনী মজুদ পণ্যের মূল্যায়ন হিসাববিজ্ঞানের কোন নীতি অনুযায়ী করা হয়?",
+        "options":  {
+                        "A":  "পূর্ণ প্রকাশ নীতি",
+                        "B":  "ক্রয়মূল্য নীতি",
+                        "C":  "রক্ষণশীলতা নীতি",
+                        "D":  "মিলকরণ নীতি"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  17,
+        "question":  "চালান কে তৈরি করে?",
+        "options":  {
+                        "A":  "ক্রেতা",
+                        "B":  "বিক্রেতা",
+                        "C":  "সরকার",
+                        "D":  "আয়কর কর্তৃপক্ষ"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  18,
+        "question":  "ক্রয় বা বিক্রয়ের সময় পণ্যের লিখিত মূল্য থেকে বাদ দেওয়া হয় কোন বাট্টা?",
+        "options":  {
+                        "A":  "কারবারি বাট্টা",
+                        "B":  "নগদ বাট্টা",
+                        "C":  "প্রদত্ত বাট্টা",
+                        "D":  "প্রাপ্ত বাট্টা"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  19,
+        "question":  "প্রতিষ্ঠান ভেদে নগদান বইকে বলা হয়— i. জমা ও খরচের বই ii. প্রাপ্তি ও প্রদানের বই iii. জাবেদা ও খতিয়ান উভয়ই নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  20,
+        "question":  "ব্যাংক সমন্বয় বিবরণীর উদ্দেশ্য কী?",
+        "options":  {
+                        "A":  "নগদ প্রাপ্তি জানা",
+                        "B":  "নগদ প্রদান জানা",
+                        "C":  "ব্যাংক উদ্বৃত্ত নির্ণয় করা",
+                        "D":  "গরমিলের কারণ জানা"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  21,
+        "question":  "NSF চেক অর্থ কী?",
+        "options":  {
+                        "A":  "জমাকৃত চেক প্রত্যাখ্যান",
+                        "B":  "জমাকৃত চেক আদায়",
+                        "C":  "ইস্যুকৃত চেক প্রত্যাখ্যান",
+                        "D":  "ইস্যুকৃত চেক উপস্থাপন হয়নি"
+                    }
+    },
+    {
+        "source":  "আবদুল কাদির মোল্লা সিটি কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  22,
+        "question":  "মি. রবির সমাপনী মূলধন ২০,০০০ টাকা, প্রারম্ভিক মূলধন ১০,০০০ টাকা এবং ঐ বছরের নিট লাভ ৫,০০০ টাকা হলে অতিরিক্ত মূলধনের পরিমাণ কত টাকা?",
+        "options":  {
+                        "A":  "৫,০০০",
+                        "B":  "১০,০০০",
+                        "C":  "১৫,০০০",
+                        "D":  "২০,০০০"
+                    }
+    }
+]

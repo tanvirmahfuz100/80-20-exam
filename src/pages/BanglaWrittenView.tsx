@@ -15,6 +15,48 @@ interface BanglaWrittenData {
   sections: Section[];
 }
 
+type LineType = 'instruction' | 'sub_question' | 'option_item' | 'body';
+
+interface ParsedLine {
+  type: LineType;
+  text: string;
+}
+
+function parseQuestionLines(text: string): ParsedLine[] {
+  const lines = text.split('\n').filter(Boolean);
+  if (lines.length <= 1) return [{ type: 'body', text }];
+
+  return lines.map(line => {
+    const trimmed = line.trim();
+    if (/^\d+\.\d+\.?\s/.test(trimmed)) return { type: 'sub_question', text: trimmed };
+    if (/^[ক-হ]/u.test(trimmed) && /^[ক-হ][\).]/.test(trimmed)) return { type: 'option_item', text: trimmed };
+    if (/^[iIvVxX]+\)/.test(trimmed) || /^[a-z]\)/.test(trimmed)) return { type: 'option_item', text: trimmed };
+    if (/^(নিচের|যেকোনো|উদাহরণসহ|নির্দেশ|অনুচ্ছেদ)/.test(trimmed)) return { type: 'instruction', text: trimmed };
+    return { type: 'body', text: trimmed };
+  });
+}
+
+const LineRenderer = ({ line }: { line: ParsedLine }) => {
+  const styles = {
+    instruction: 'text-xs text-text-dim font-medium mt-1',
+    sub_question: 'text-sm text-text leading-relaxed pl-5 mt-2 flex items-start gap-2',
+    option_item: 'text-sm text-text-muted leading-relaxed pl-8 mt-1 flex items-start gap-2',
+    body: 'text-sm text-text leading-relaxed mt-1',
+  };
+
+  const bullets = {
+    sub_question: <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2" />,
+    option_item: <span className="w-1 h-1 rounded-full bg-text-dim shrink-0 mt-2" />,
+  };
+
+  return (
+    <div className={styles[line.type]}>
+      {(line.type === 'sub_question' || line.type === 'option_item') && bullets[line.type]}
+      <span>{line.text}</span>
+    </div>
+  );
+};
+
 const BanglaWrittenView = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
@@ -137,9 +179,9 @@ const BanglaWrittenView = () => {
           >
             <button
               onClick={() => toggleSection(String(idx))}
-              className="w-full flex items-center justify-between px-4 md:px-6 py-3 bg-surface-alt/50 hover:bg-surface-hover transition-colors"
+              className="w-full flex items-center justify-between px-5 md:px-6 py-3.5 bg-surface-alt/50 hover:bg-surface-hover transition-colors border-b border-border/50"
             >
-              <h2 className="text-sm font-black text-text">
+              <h2 className="text-sm font-black text-text tracking-tight">
                 {section.name || `Section ${idx + 1}`}
               </h2>
               {expandedSections[String(idx)] ? (
@@ -150,19 +192,21 @@ const BanglaWrittenView = () => {
             </button>
 
             {expandedSections[String(idx)] && (
-              <div className="divide-y divide-border">
+              <div className="divide-y divide-border/50">
                 {section.questions.map((q) => (
-                  <div key={q.id} className="p-4 md:p-5">
-                    <div className="flex items-start gap-3">
-                      <span className="w-6 h-6 rounded-lg bg-primary/10 text-primary flex items-center justify-center text-[11px] font-black shrink-0 mt-0.5">
-                        {q.id}
-                      </span>
-                      <div className="text-sm text-text leading-relaxed whitespace-pre-line">
-                        {q.text}
+                    <div key={q.id} className="p-5 md:p-6">
+                      <div className="flex items-start gap-3">
+                        <span className="w-7 h-7 rounded-lg bg-primary/10 text-primary flex items-center justify-center text-sm font-black shrink-0 mt-0.5">
+                          {q.id}
+                        </span>
+                        <div className="flex-1 min-w-0 space-y-0.5">
+                          {parseQuestionLines(q.text).map((line, li) => (
+                            <LineRenderer key={li} line={line} />
+                          ))}
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
               </div>
             )}
           </motion.div>

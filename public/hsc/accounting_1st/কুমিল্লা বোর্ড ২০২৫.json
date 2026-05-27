@@ -1,0 +1,290 @@
+﻿[
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  1,
+        "question":  "আধুনিক হিসাববিজ্ঞানের মূল ভিত্তি কোনটি?",
+        "options":  {
+                        "A":  "ঘটনা",
+                        "B":  "লেনদেন",
+                        "C":  "একতরফা দাখিলা",
+                        "D":  "দুতরফা দাখিলা"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  2,
+        "question":  "হিসাব তথ্যের ব্যবহারকারী হলো— i. পাওনাদার ii. ব্যবস্থাপনা কর্তৃপক্ষ iii. বিনিয়োগকারী নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  3,
+        "question":  "ভাউচার কত প্রকার?",
+        "options":  {
+                        "A":  "২ প্রকার",
+                        "B":  "৩ প্রকার",
+                        "C":  "৪ প্রকার",
+                        "D":  "৬ প্রকার"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  4,
+        "question":  "ক্যাশ মেমো কে তৈরি করেন?",
+        "options":  {
+                        "A":  "বিক্রেতা",
+                        "B":  "ক্রেতা",
+                        "C":  "দেনাদার",
+                        "D":  "পাওনাদার"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  5,
+        "question":  "অনুপার্জিত আয় একটি—",
+        "options":  {
+                        "A":  "আয় হিসাব",
+                        "B":  "দায় হিসাব",
+                        "C":  "সম্পদ হিসাব",
+                        "D":  "মালিকানা স্বত্ব হিসাব"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  6,
+        "question":  "ক্রয় জাবেদা থেকে জানা যায়— i. মোট ক্রয়ের পরিমাণ ii. প্রদেয় হিসাবের পরিমাণ iii. মোট ধারে ক্রয়ের পরিমাণ নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  7,
+        "question":  "হিসাববিজ্ঞানের দ্বৈতসত্তা বলতে কোনটিকে বোঝায়?",
+        "options":  {
+                        "A":  "লেনদেনের দুটি দিক লিপিবদ্ধকরণ",
+                        "B":  "জাবেদায় লিপিবদ্ধকরণ",
+                        "C":  "ডেবিট-ক্রেডিট বিশ্লেষণ",
+                        "D":  "গাণিতিক বিশুদ্ধতা যাচাইকরণ"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  8,
+        "question":  "জাবেদার অপরিহার্য বিষয় নয় কোনটি?",
+        "options":  {
+                        "A":  "ব্যাখ্যা",
+                        "B":  "শিরোনাম",
+                        "C":  "তারিখ",
+                        "D":  "সমষ্টি নির্ণয়"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  9,
+        "question":  "দু\u0027তরফা দাখিলা পদ্ধতির উৎপত্তিকাল কোনটি?",
+        "options":  {
+                        "A":  "১৩৯৪ খ্রিষ্টাব্দে",
+                        "B":  "১৪৯৪ খ্রিষ্টাব্দে",
+                        "C":  "১৯৩২ খ্রিষ্টাব্দ",
+                        "D":  "১৯৯৪ খ্রিষ্টাব্দে"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  10,
+        "question":  "দু\u0027তরফা দাখিলা পদ্ধতি একটি— i. পূর্ণাঙ্গ পদ্ধতি ii. বিজ্ঞানসম্মত পদ্ধতি iii. ত্রুটিযুক্ত পদ্ধতি নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  11,
+        "question":  "হিসাবচক্রের কোন ধাপটি ঐচ্ছিক?",
+        "options":  {
+                        "A":  "জাবেদা",
+                        "B":  "খতিয়ান",
+                        "C":  "রেওয়ামিল",
+                        "D":  "কার্যপত্র"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  12,
+        "question":  "মূলধনের সুদ ৫,০০০ টাকা। এর জন্য কোন হিসাব ক্রেডিট করতে হবে?",
+        "options":  {
+                        "A":  "প্রদেয় সুদ হিসাব",
+                        "B":  "প্রাপ্ত সুদ হিসাব",
+                        "C":  "মূলধনের সুদ হিসাব",
+                        "D":  "মূলধন হিসাব"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  13,
+        "question":  "কোন পদ্ধতিতে প্রতি বছর সমান পরিমাণ অর্থ অবচয় হিসেবে ডেবিট করা হয়?",
+        "options":  {
+                        "A":  "বর্ষ সংখ্যার সমষ্টি পদ্ধতি",
+                        "B":  "উৎপাদন একক পদ্ধতি",
+                        "C":  "সরলরৈখিক পদ্ধতি",
+                        "D":  "ক্রমহ্রাসমান জের পদ্ধতি"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  14,
+        "question":  "মুনাফা জাতীয় হিসাব বন্ধ করার জন্য কোন দাখিলার প্রয়োজন হয়?",
+        "options":  {
+                        "A":  "প্রারম্ভিক জাবেদা",
+                        "B":  "সমন্বয় জাবেদা",
+                        "C":  "সমাপনী জাবেদা",
+                        "D":  "সংশোধনী জাবেদা"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  15,
+        "question":  "মেঘনা ট্রেডার্স-এর রেওয়ামিলে ১০ মাসের বেতন ১৫,০০০ টাকা দেওয়া আছে। উক্ত বছরের বকেয়া বেতন কত?",
+        "options":  {
+                        "A":  "৩,০০০ টাকা",
+                        "B":  "৪,৫০০ টাকা",
+                        "C":  "৬,০০০ টাকা",
+                        "D":  "১৮,০০০ টাকা"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  16,
+        "question":  "নগদান বই ও ব্যাংক বিবরণীর উদ্বৃত্তের গরমিলের কারণ— i. ইস্যুকৃত চেক ব্যাংকে উপস্থাপিত হয়নি ii. ব্যাংক কর্তৃক সরাসরি আদায় iii. ব্যাংকে জমাকৃত চেক আদায় হয়নি নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  17,
+        "question":  "সমন্বয় দাখিলা দেওয়া হয় হিসাববিজ্ঞানের কোন ধারণা অনুসারে?",
+        "options":  {
+                        "A":  "মিলকরণ ধারণা",
+                        "B":  "হিসাবকাল ধারণা",
+                        "C":  "ব্যবসায় সত্তা ধারণা",
+                        "D":  "চলমান ধারণা"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  18,
+        "question":  "ব্যাংক সমন্বয় বিবরণী কে প্রস্তুত করেন?",
+        "options":  {
+                        "A":  "ব্যাংক",
+                        "B":  "আমানতকারী",
+                        "C":  "দেনাদার",
+                        "D":  "পাওনাদার"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  19,
+        "question":  "মজুদ পণ্য মূল্যায়নে হিসাববিজ্ঞানের কোন নীতি অনুসরণ করা হয়?",
+        "options":  {
+                        "A":  "রক্ষণশীলতার নীতি",
+                        "B":  "সামঞ্জস্যতার নীতি",
+                        "C":  "ক্রয়মূল্য নীতি",
+                        "D":  "মিলকরণ নীতি"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  20,
+        "question":  "হিসাব সমীকরণের সম্প্রসারিত রূপটি হলো—",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo stretchy=\"false\"\u003e(\u003c/mo\u003e\u003cmi\u003eO\u003c/mi\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eD\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo stretchy=\"false\"\u003e)\u003c/mo\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A = L+(OE-D+E) \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mopen\"\u003e(\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eO\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mclose\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo stretchy=\"false\"\u003e(\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eI\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eD\u003c/mi\u003e\u003cmo stretchy=\"false\"\u003e)\u003c/mo\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A = L+(C-I-E-D) \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mopen\"\u003e(\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eI\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003cspan class=\"mclose\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo stretchy=\"false\"\u003e(\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eI\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eD\u003c/mi\u003e\u003cmo stretchy=\"false\"\u003e)\u003c/mo\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A = L+(C+I-E+D) \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mopen\"\u003e(\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eI\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003cspan class=\"mclose\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo stretchy=\"false\"\u003e(\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eI\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eD\u003c/mi\u003e\u003cmo stretchy=\"false\"\u003e)\u003c/mo\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A = L+(C+I-E-D) \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mopen\"\u003e(\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eI\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003cspan class=\"mclose\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  21,
+        "question":  "জার্নাল শব্দটির উৎপত্তি হয়েছে কোন শব্দ হতে?",
+        "options":  {
+                        "A":  "জার্মানি শব্দ থেকে",
+                        "B":  "হিন্দি শব্দ থেকে",
+                        "C":  "ফরাসি শব্দ থেকে",
+                        "D":  "আরবি শব্দ থেকে"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  22,
+        "question":  "কখন নগদান বইতে (ক)/C লিখতে হয়?",
+        "options":  {
+                        "A":  "ব্যাংক ঋণ পরিশোধ করলে",
+                        "B":  "চেকে পণ্য বিক্রয় করলে",
+                        "C":  "ব্যবসায়ের প্রয়োজনে উত্তোলন  করলে",
+                        "D":  "ব্যাংক চেক প্রত্যাখ্যান করলে"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  23,
+        "question":  "হিসাববিজ্ঞানের মুখ্য উদ্দেশ্য হলো— i. আর্থিক তথ্য সরবরাহ করা ii. লেনদেনের স্থায়ী হিসাব সংরক্ষণ করা iii. সঠিক আর্থিক ফলাফল নির্ণয় করা নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "কুমিল্লা বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  24,
+        "question":  "৫০,০০০ টাকা দিয়ে ধারে কম্পিউটার ক্রয় করলে হিসাব সমীকরণের কোন কোন উপাদান প্রভাবিত করবে?",
+        "options":  {
+                        "A":  "A ও OE উপাদান",
+                        "B":  "A ও L উপাদান",
+                        "C":  "L ও OE উপাদান",
+                        "D":  "A, L ও OE উপাদান"
+                    }
+    }
+]

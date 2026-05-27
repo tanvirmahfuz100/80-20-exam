@@ -1,0 +1,362 @@
+﻿[
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  1,
+        "question":  "Ledger শব্দটা কোন ভাষা থেকে এসেছে?",
+        "options":  {
+                        "A":  "ইংরেজি",
+                        "B":  "ফরাসি",
+                        "C":  "ল্যাটিন",
+                        "D":  "স্পেনীয়"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  2,
+        "question":  "ক্রেডিট ব্যালেন্স সাধারণত কী নির্দেশ করে?",
+        "options":  {
+                        "A":  "আয় ও দায়",
+                        "B":  "সম্পদ ও খরচ",
+                        "C":  "আয় ও ব্যয়",
+                        "D":  "সম্পদ ও দায়"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  3,
+        "question":  "রেওয়ামিলে ভাড়া ১২,০০০ টাকা (\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmfrac\u003e\u003cmtext\u003e২\u003c/mtext\u003e\u003cmtext\u003e৩\u003c/mtext\u003e\u003c/mfrac\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e \\frac{২}{৩} \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1.2173em;vertical-align:-0.345em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mopen nulldelimiter\"\u003e\u003c/span\u003e\u003cspan class=\"mfrac\"\u003e\u003cspan class=\"vlist-t vlist-t2\"\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.8723em;\"\u003e\u003cspan style=\"top:-2.655em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"sizing reset-size6 size3 mtight\"\u003e\u003cspan class=\"mord mtight\"\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003e৩\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-3.23em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"frac-line\" style=\"border-bottom-width:0.04em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-3.394em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"sizing reset-size6 size3 mtight\"\u003e\u003cspan class=\"mord mtight\"\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003e২\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-s\"\u003e​\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.345em;\"\u003e\u003cspan\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mclose nulldelimiter\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e অংশ) হলে, বকেয়া ভাড়ার পরিমাণ কত?",
+        "options":  {
+                        "A":  "৪,০০০ টাকা",
+                        "B":  "৬,০০০ টাকা",
+                        "C":  "৮,০০০ টাকা",
+                        "D":  "১৮,০০০ টাকা"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  4,
+        "question":  " ব্যাংকের মক্কেল কে?",
+        "options":  {
+                        "A":  "যে ব্যক্তি ব্যাংকে টাকা জমা দেন",
+                        "B":  "যে ব্যক্তি বা প্রতিষ্ঠান ব্যাংকে হিসাব খোলেন এবং ঐ হিসাব পরিচালনা করেন",
+                        "C":  "যে ব্যক্তি ব্যাংক থেকে টাকা উত্তোলন করেন",
+                        "D":  "যে ব্যক্তি ব্যাংকে চাকরি করেন"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  5,
+        "question":  "জনাব সুমনের ব্যবসায়ের নগদান বই মোতাবেক ব্যাংক জমার উদ্বৃত্ত ২০,০০০ টাকা। আদায়ের জন্য ব্যাংকে জমাকৃত ৫,০০০ টাকার চেকটি এখনো ব্যাংক কর্তৃক আদায় হয়নি এবং ইস্যুকৃত ৩,০০০ টাকার একটি চেক এখনো ব্যাংকে উপস্থাপন করা হয়নি। ব্যাংক বিবরণী অনুযায়ী উদ্বৃত্ত",
+        "options":  {
+                        "A":  "১২,০০০ টাকা",
+                        "B":  "১৫,০০০ টাকা",
+                        "C":  "১৮,০০০ টাকা",
+                        "D":  "২২,০০০ টাকা"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  6,
+        "question":  "জনাব সুমনের ব্যবসায়ের নগদান বই মোতাবেক ব্যাংক জমার উদ্বৃত্ত ২০,০০০ টাকা। আদায়ের জন্য ব্যাংকে জমাকৃত ৫,০০০ টাকার চেকটি এখনো ব্যাংক কর্তৃক আদায় হয়নি এবং ইস্যুকৃত ৩,০০০ টাকার একটি চেক এখনো ব্যাংকে উপস্থাপন করা হয়নি।নগদান বই মোতাবেক ব্যাংক জমাতিরিক্তের পরিমাণ ১০,০০০ টাকা হলে পাশ বইয়ের উদ্বৃত্ত কী দাঁড়াবে?",
+        "options":  {
+                        "A":  "ব্যাংক জমার উদ্বৃত্ত ৮,০০০ টাকা",
+                        "B":  "ব্যাংক জমাতিরিক্ত ৮,০০০ টাকা",
+                        "C":  "ব্যাংক জমার উদ্বৃত্ত ১২,০০০ টাকা",
+                        "D":  "ব্যাংক জমাতিরিক্ত ১২,০০০ টাকা"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  7,
+        "question":  "কোন দলিলের মাধ্যমে মুনাফা জাতীয় হিসাব বন্ধ করা হয়?",
+        "options":  {
+                        "A":  "প্রারম্ভিক দাখিলা",
+                        "B":  "সমন্বয় দাখিলা",
+                        "C":  "বিপরীত দাখিলা",
+                        "D":  "সমাপনী দাখিলা"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  8,
+        "question":  "আদায়ের জন্য ব্যাংকে জমাকৃত চেক প্রত্যাখ্যাত হলে নগদান বইতে লিখতে হবে—",
+        "options":  {
+                        "A":  "ডেবিট পাশে ব্যাংক কলামে",
+                        "B":  "ক্রেডিট পাশে ব্যাংক কলামে",
+                        "C":  "ডেবিট পাশে নগদ কলামে",
+                        "D":  "ক্রেডিট পাশে নগদ কলামে"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  9,
+        "question":  "জাবেদাকে হিসাবের কোন ধরনের বই বলা হয়?",
+        "options":  {
+                        "A":  "পাকা বই",
+                        "B":  "খসড়া বই",
+                        "C":  "প্রাথমিক বই",
+                        "D":  "প্রধান বই"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  10,
+        "question":  "রেওয়ামিলে দেওয়া আছে সেবা আয় ৫০,০০০ টাকা ও অনুপার্জিত সেবা আয় ১৬,০০০ টাকা। সমন্বয়ে দেওয়া আছে সেবা আয় ৫,০০০ টাকা হিসাবভুক্ত হয়নি এবং অনুপার্জিত সেবা আয় ৭,০০০ টাকা। মোট সেবা আয়ের পরিমাণ কত?",
+        "options":  {
+                        "A":  "৩৭,০০০ টাকা",
+                        "B":  "৬৪,০০০ টাকা",
+                        "C":  "৬৭ ,০০০ টাকা",
+                        "D":  "৮৮,০০০ টাকা"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  11,
+        "question":  "রেওয়ামিলে দেওয়া আছে সেবা আয় ৫০,০০০ টাকা ও অনুপার্জিত সেবা আয় ১৬,০০০ টাকা। সমন্বয়ে দেওয়া আছে সেবা আয় ৫,০০০ টাকা হিসাবভুক্ত হয়নি এবং অনুপার্জিত সেবা আয় ৭,০০০ টাকা ।",
+        "options":  {
+                        "A":  "৮৮,০০০ টাকা",
+                        "B":  "৬৭,০০০ টাকা",
+                        "C":  "৬৬,০০০ টাকা",
+                        "D":  "৫৯,০০০ টাকা"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  12,
+        "question":  "ক্যাশ মেমো কে প্রস্তুত করেন?",
+        "options":  {
+                        "A":  "ক্রেতা",
+                        "B":  "ব্যাংক কর্মকর্তা",
+                        "C":  "বিক্রেতা",
+                        "D":  "পাওনাদার"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  13,
+        "question":  "হিসাব সমীকরণ হল— i. \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eO\u003c/mi\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eR\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eD\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A = L+OE+E-R-D \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eO\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0077em;\"\u003eR\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e ii. \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eO\u003c/mi\u003e\u003cmi\u003eE\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A = L+OE \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eO\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e iii. \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo stretchy=\"false\"\u003e(\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eR\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eD\u003c/mi\u003e\u003cmo stretchy=\"false\"\u003e)\u003c/mo\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A = L+(C+R-E-D) \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mopen\"\u003e(\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0077em;\"\u003eR\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003cspan class=\"mclose\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  14,
+        "question":  "অনগদ লেনদেনের জন্য ব্যবহৃত ভাউচার কোনটি?",
+        "options":  {
+                        "A":  "চালান",
+                        "B":  "ক্যাশমেমো",
+                        "C":  "ডেবিট নোট",
+                        "D":  "জার্নাল ভাউচার"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  15,
+        "question":  "বৈষয়িক বিবরণীর মাধ্যমে আমরা জানতে পারি- i. সম্পত্তির প্রকৃতি ও পরিমাণ ii. দায়ের প্রকৃতি ও পরিমাণ iii. নিট লাভের প্রকৃতি ও পরিমাণ নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "ii ও iii",
+                        "C":  "i ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  16,
+        "question":  "জনাব লিটন ২০২৪ সালের ১ মার্চ তারিখে নগদ ৫০,০০০ টাকা, ১,০০,০০০ টাকার পণ্য এবং ৫০,০০০ টাকার ঋণ নিয়ে ব্যবসায় শুরু করেন। মার্চ মাসে তাঁর অন্যান্য লেনদেনগুলো ছিল; ব্যক্তিগত অর্থে স্ত্রীর জন্য অলংকার ক্রয় ৭০,০০০ টাকা, ব্যবসায় হতে ছেলের স্কুলের বেতন প্রদান ২,৫০০ টাকা, অতিরিক্ত মূলধন আনয়ন ৩০,০০০ টাকা। ১ মার্চ তারিখে জনাব লিটনের মূলধনের পরিমাণ কত?",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  17,
+        "question":  "জনাব লিটন ২০২৪ সালের ১ মার্চ তারিখে নগদ ৫০,০০০ টাকা, ১,০০,০০০ টাকার পণ্য এবং ৫০,০০০ টাকার ঋণ নিয়ে ব্যবসায় শুরু করেন। মার্চ মাসে তাঁর অন্যান্য লেনদেনগুলো ছিল; ব্যক্তিগত অর্থে স্ত্রীর জন্য অলংকার ক্রয় ৭০,০০০ টাকা, ব্যবসায় হতে ছেলের স্কুলের বেতন প্রদান ২,৫০০ টাকা, অতিরিক্ত মূলধন আনয়ন ৩০,০০০ টাকা। জনাব লিটনের মালিকানা স্বত্ব পরিবর্তন হবে- i. স্ত্রীর জন্য অলংকার ক্রয় দ্বারা ii. ছেলের স্কুলের বেতন প্রদান দ্বারা iii. অতিরিক্ত মূলধন আনায়ন দ্বারা নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "ii ও iii",
+                        "C":  "i ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  18,
+        "question":  " হিসাবের গাণিতিক শুদ্ধতা যাচাই করা হয়?",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  19,
+        "question":  " ইজারা সম্পত্তির অবলোপন হয়-",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  20,
+        "question":  " নিচের কোনটি কন্ট্রা সম্পদ?",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  21,
+        "question":  "বিক্রয়-বিক্রীত পণ্যের ব্যয়-পরিচালন ব্যয়=?",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  22,
+        "question":  "জনাব মামুন ২০২৩ সালের ১ জানুয়ারি তারিখে ব্যবসায়ের জন্য ১,৮০,০০০ টাকায় একটি মেশিন ক্রয় করেন, যার সংস্থাপন ব্যয় হয় ২০,০০০ টাকা। ধারণা করা হয় মেশিনটির আয়ুষ্কাল ১০ বছর এবং ভগ্নাবশেষ মূল্য ৩০,০০০ টাকা। ক্রমহ্রাসমান জের পদ্ধতিতে ২০২৪ সালের মেশিনের অবচয়ের পরিমাণ কত?",
+        "options":  {
+                        "A":  "৪০,০০০ টাকা",
+                        "B":  "৩৪,০০০ টাকা",
+                        "C":  "৩২,০০০ টাকা",
+                        "D":  "২৭,২০০ টাকা"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  23,
+        "question":  "জনাব মামুন ২০২৩ সালের ১ জানুয়ারি তারিখে ব্যবসায়ের জন্য ১,৮০,০০০ টাকায় একটি মেশিন ক্রয় করেন, যার সংস্থাপন ব্যয় হয় ২০,০০০ টাকা। ধারণা করা হয় মেশিনটির আয়ুষ্কাল ১০ বছর এবং ভগ্নাবশেষ মূল্য ৩০,০০০ টাকা। মেশিনের সংস্থাপন ব্যয়কে মুনাফা জাতীয় ব্যয় ধরে হিসাবভুক্ত করা হলে মামুনের ব্যবসার আর্থিক বিবরণীতে কী প্রভাব পড়বে? i. মেশিনের মূল্য ২০,০০০ টাকা কম প্রদর্শিত হবে ii. নিট লাভ ২০,০০০ টাকা কম প্রদর্শিত হবে iii. সম্পদ ও দায় পার্শ্ব ২০,০০০ টাকা কম প্রদর্শিত হবে। নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "ii ও iii",
+                        "C":  "i ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  24,
+        "question":  "NSF এর পূর্ণরূপ কোনটি?",
+        "options":  {
+                        "A":  "Not Satisfying Fund",
+                        "B":  "National Statement of Fund",
+                        "C":  "Not Sufficient Fund",
+                        "D":  "Not Significant Fund"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  25,
+        "question":  "মূলধন জাতীয় ব্যয় কোনটি?",
+        "options":  {
+                        "A":  "মেশিন সংস্থাপন ব্যয়",
+                        "B":  "আসবাবপত্র মেরামত",
+                        "C":  "পণ্য ক্রয়",
+                        "D":  "ভাড়া প্রদান"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  26,
+        "question":  "বিক্রয়ের উদ্দেশ্যে কম্পিউটার ক্রয় করা হলে, নিচের কোন হিসাবটি ডেবিট হবে?",
+        "options":  {
+                        "A":  "কম্পিউটার",
+                        "B":  "অফিস সরঞ্জাম",
+                        "C":  "ক্রয়",
+                        "D":  "যন্ত্রপাতি"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  27,
+        "question":  "জনাব সালাম একজন ব্যবসায়ী। ২০২৪ সালের ৩১ ডিসেম্বর তারিখে তাঁর ব্যবসায়ের রেওয়ামিলে মনিহারির পরিমাণ ছিল ১,০০০ টাকা। সমন্বয়ে বলা আছে প্রারম্ভিক মজুদ পণ্যের মধ্যে ১৫০ টাকার মনিহারি এবং সমাপনী মজুদ পণ্যের মধ্যে ৩৫০ টাকার মনিহারি অন্তর্ভুক্ত আছে। মনিহারী খরচের পরিমাণ কত?",
+        "options":  {
+                        "A":  "৮০০ টাকা",
+                        "B":  "৮৫০ টাকা",
+                        "C":  "১,০০০ টাকা",
+                        "D":  "১,২০০ টাকা"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  28,
+        "question":  "জনাব সালাম একজন ব্যবসায়ী। ২০২৪ সালের ৩১ ডিসেম্বর তারিখে তাঁর ব্যবসায়ের রেওয়ামিলে মনিহারির পরিমাণ ছিল ১,০০০ টাকা। সমন্বয়ে বলা আছে প্রারম্ভিক মজুদ পণ্যের মধ্যে ১৫০ টাকার মনিহারি এবং সমাপনী মজুদ পণ্যের মধ্যে ৩৫০ টাকার মনিহারি অন্তর্ভুক্ত আছে। জনাব সালামের ব্যবসায়ের আর্থিক বিবরণীতে অবচয় মনিহারি ১২০ টাকা হিসাবভুক্ত করা হলে, আর্থিক বিবরণীতে কী প্রভাব পড়বে? i. সমাপনী মজুদ পণ্যের পরিমাণ বেশি দেখানো হবে ii. নিট লাভের পরিমাণ হ্রাস পাবে iii. মনিহারি ব্যয়ের পরিমাণ কম দেখানো হবে নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  29,
+        "question":  "আয়-ব্যয় হিসাবের উদ্বৃত্ত কোন দাখিলার মাধ্যমে শূন্য হয়?",
+        "options":  {
+                        "A":  "সমাপনী দাখিলা",
+                        "B":  "প্রারম্ভিক দাখিলা",
+                        "C":  "সংশোধন দাখিলা",
+                        "D":  "বিপরীত দাখিলা"
+                    }
+    },
+    {
+        "source":  "সিলেট বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  30,
+        "question":  "নিচের কোনটি অস্পর্শনীয় সম্পদ?",
+        "options":  {
+                        "A":  "প্রদেয় হিসাব",
+                        "B":  "সুনাম",
+                        "C":  "ইজারা সম্পত্তি",
+                        "D":  "প্রাপ্য হিসাব"
+                    }
+    }
+]

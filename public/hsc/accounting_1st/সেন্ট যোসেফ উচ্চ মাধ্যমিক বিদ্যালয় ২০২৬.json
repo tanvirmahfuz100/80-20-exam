@@ -1,0 +1,266 @@
+﻿[
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "B",
+        "id":  1,
+        "question":  "মৌলিক হিসাব সমীকরণ কোনটি?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eO\u003c/mi\u003e\u003cmi\u003eE\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e L = A + OE \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eO\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eO\u003c/mi\u003e\u003cmi\u003eE\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A = L + OE \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eO\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eT\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A = L + T \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.1389em;\"\u003eT\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eO\u003c/mi\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e OE = A + L \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eO\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "C",
+        "id":  2,
+        "question":  "নিচের কোন লেনদেনটি মালিকানা স্বত্ব বৃদ্ধি করে?",
+        "options":  {
+                        "A":  "বেতন প্রদান ৫,০০০ টাকা",
+                        "B":  "আসবাবপত্রের অবচয় ৪,০০০ টাকা",
+                        "C":  "বিনিয়োগের সুদ ১,০০০ টাকা",
+                        "D":  "ঋণের সুদ ২,০০০ টাকা"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "D",
+        "id":  3,
+        "question":  "হিসাবের গাণিতিক শুদ্ধতা যাচাই করার জন্য হিসাববিজ্ঞানের কোন পদ্ধতিটি তুমি প্রয়োগ করবে?",
+        "options":  {
+                        "A":  "একতরফা দাখিলা পদ্ধতি",
+                        "B":  "বকেয়া ভিত্তিক হিসাব পদ্ধতি",
+                        "C":  "নগদ ভিত্তিক হিসাব পদ্ধতি",
+                        "D":  "দু তরফা দাখিলা পদ্ধতি"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "D",
+        "id":  4,
+        "question":  "হাসানকে ঋণ প্রদানের জাবেদা—",
+        "options":  {
+                        "A":  "নগদান ডেবিট, হাসান ক্রেডিট",
+                        "B":  "হাসান ডেবিট, ঋণ ক্রেডিট",
+                        "C":  "নগদান ডেবিট, হাসানের ঋণ ক্রেডিট",
+                        "D":  "হাসানের ঋণ ডেবিট, নগদান ক্রেডিট"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "D",
+        "id":  5,
+        "question":  "নগদ প্রাপ্তি জাবেদার বৈশিষ্ট্য— i. নগদ লেনদেন ii. বিশেষ জাবেদা iii. ডেবিট উদ্বৃত্ত নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "D",
+        "id":  6,
+        "question":  "বিক্রয় জাবেদায় কোন প্রমাণপত্র ব্যবহার করা হয়?",
+        "options":  {
+                        "A":  "ডেবিট নোট",
+                        "B":  "ক্রেডিট নোট",
+                        "C":  "ডেবিট ভাউচার",
+                        "D":  "চালান"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "C",
+        "id":  7,
+        "question":  "ব্যাংক সমন্বয় বিবরণী তৈরি করেন কে?",
+        "options":  {
+                        "A":  "ব্যাংক",
+                        "B":  "প্রদেয় হিসাব",
+                        "C":  "ব্যবসায় প্রতিষ্ঠান",
+                        "D":  "প্রাপ্য হিসাব"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "B",
+        "id":  8,
+        "question":  "ব্যাংক সমন্বয় বিবরণী তৈরিতে নিচের কোন বিষয় বিবেচনায় আনা হয়?",
+        "options":  {
+                        "A":  "দেনাদারদের নিকট হতে নগদ প্রাপ্তি",
+                        "B":  "জমাকৃত চেক ব্যাংক কর্তৃক আদায় হয়নি",
+                        "C":  "সরবরাহকারীকে নগদ প্রদান",
+                        "D":  "ব্যাংক চার্জ উভয় বইতে লিপিবদ্ধ হয়েছে"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "A",
+        "id":  9,
+        "question":  "নগদান বই অনুযায়ী ব্যাংক জমার উদ্বৃত্তের সাথে নিচের কোন দফাটি বিয়োগ হবে?",
+        "options":  {
+                        "A":  "ব্যাংক চার্জ",
+                        "B":  "দেনাদার কর্তৃক ব্যাংকে জমা",
+                        "C":  "বিনিয়োগের সুদ",
+                        "D":  "ইস্যুকৃত চেক কিন্তু ব্যাংকে উপস্থাপন হয়নি"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "B",
+        "id":  10,
+        "question":  "সমন্বিত ক্রয় হলো—",
+        "options":  {
+                        "A":  "সমাপনী মজুদ + ক্রয় + প্রারম্ভিক মজুদ",
+                        "B":  "প্রারম্ভিক মজুদ + ক্রয় - সমাপনী মজুদ",
+                        "C":  "প্রারম্ভিক মজুদ - ক্রয় + সমাপনী মজুদ",
+                        "D":  "প্রারম্ভিক মজুদ - ক্রয় - সমাপনী মজুদ"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "C",
+        "id":  11,
+        "question":  "যন্ত্রপাতি ক্রয় ভুলবশত সরঞ্জাম হিসাবে ডেবিট করা হলে এটি কোন ধরনের ভুল?",
+        "options":  {
+                        "A":  "বাদ পড়ার ভুল",
+                        "B":  "পরিপূরক ভুল",
+                        "C":  "লেখার ভুল",
+                        "D":  "নীতিগত ভুল"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "A",
+        "id":  12,
+        "question":  "সংস্থাপন ব্যয় মজুরি হিসাবে ডেবিট করা হলে আয় বিবরণীতে কী প্রভাব পড়বে?",
+        "options":  {
+                        "A":  "মোট আয় হ্রাস পাবে",
+                        "B":  "নিট আয় বৃদ্ধি পাবে",
+                        "C":  "যন্ত্রপাতির মূল্য বৃদ্ধি পাবে",
+                        "D":  "মোট সম্পদ বৃদ্ধি পাবে"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "C",
+        "id":  13,
+        "question":  "নিচের কোনটি ডেবিট উদ্বৃত্ত প্রকাশ করে—",
+        "options":  {
+                        "A":  "সাধারণ সঞ্চিতি",
+                        "B":  "দেনাদার বাট্টা সঞ্চিতি",
+                        "C":  "পাওনাদার বাট্টা সঞ্চিতি",
+                        "D":  "অনাদায়ি পাওনা সঞ্চিতি"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "D",
+        "id":  14,
+        "question":  "সমাপনী প্রাপ্য হিসাবের উদ্বৃত্ত—",
+        "options":  {
+                        "A":  "আয়",
+                        "B":  "দায়",
+                        "C":  "ব্যয়",
+                        "D":  "সম্পদ"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "C",
+        "id":  15,
+        "question":  "মূলধন জাতীয় ব্যয় কোনটি?",
+        "options":  {
+                        "A":  "বেতন খরচ",
+                        "B":  "প্রারম্ভিক মজুদ",
+                        "C":  "সম্পত্তি ক্রয়",
+                        "D":  "পণ্য ক্রয়"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "D",
+        "id":  16,
+        "question":  "সমাপনী দাখিলার উদ্দেশ্য কী?",
+        "options":  {
+                        "A":  "সকল হিসাব বন্ধ করা",
+                        "B":  "সকল সম্পদ হিসাব বন্ধ করা",
+                        "C":  "সকল দায় হিসাব বন্ধ করা",
+                        "D":  "সকল আয়-ব্যয় হিসাব বন্ধ করা"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "B",
+        "id":  17,
+        "question":  "পুস্তক মূল্য—",
+        "options":  {
+                        "A":  "ক্রয়মূল্য - মুনাফা",
+                        "B":  "ক্রয়মূল্য - পুঞ্জীভূত অবচয়",
+                        "C":  "ক্রয়মূল্য - ভগ্নাবশেষ মূল্য",
+                        "D":  "ক্রয়মূল্য + সংস্থাপন ব্যয়"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "C",
+        "id":  18,
+        "question":  "কোন মূলধনের ওপর সুদ ধরা হয়?",
+        "options":  {
+                        "A":  "বিনিয়োগিত মূলধন",
+                        "B":  "সমাপনী মূলধন",
+                        "C":  "প্রারম্ভিক মূলধন",
+                        "D":  "কার্যকরী মূলধন"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "B",
+        "id":  19,
+        "question":  "একতরফা দাখিলা পদ্ধতিতে লাভ-ক্ষতি নির্ণয়ের সূত্র কোনটি?",
+        "options":  {
+                        "A":  "প্রারম্ভিক মূলধন + উত্তোলন - সমাপনী মূলধন",
+                        "B":  "সমাপনী মূলধন + উত্তোলন - প্রারম্ভিক মূলধন",
+                        "C":  "সমাপনী মূলধন + প্রারম্ভিক মূলধন - উত্তোলন",
+                        "D":  "সমাপনী মূলধন - প্রারম্ভিক মূলধন - উত্তোলন"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "A",
+        "id":  20,
+        "question":  "একতরফা দাখিলা পদ্ধতিতে কোন হিসাব সংরক্ষণ করা হয় না?",
+        "options":  {
+                        "A":  "নামিক হিসাব",
+                        "B":  "সম্পত্তি হিসাব",
+                        "C":  "দায় হিসাব",
+                        "D":  "মূলধন হিসাব"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "C",
+        "id":  21,
+        "question":  "নিচের কোনটি হতে প্রতিষ্ঠানের আর্থিক অবস্থা জানা যায়?",
+        "options":  {
+                        "A":  "নগদ প্রবাহ বিবরণী",
+                        "B":  "আয় বিবরণী",
+                        "C":  "আর্থিক অবস্থার বিবরণী",
+                        "D":  "সংরক্ষিত আয় বিবরণী"
+                    }
+    },
+    {
+        "source":  " সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+        "answer":  "D",
+        "id":  22,
+        "question":  "অনুপার্জিত আয় হলো—",
+        "options":  {
+                        "A":  "ব্যয় হিসাব",
+                        "B":  "আয় হিসাব",
+                        "C":  "সম্পদ হিসাব",
+                        "D":  "দায় হিসাব"
+                    }
+    }
+]

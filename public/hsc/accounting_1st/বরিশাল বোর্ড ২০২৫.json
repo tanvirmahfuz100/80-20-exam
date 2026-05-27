@@ -1,0 +1,290 @@
+﻿[
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "B",
+        "id":  1,
+        "question":  "হিসাব সমীকরণের সম্প্রসারিত রূপ কোনটি?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eR\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eD\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A=L+C-R+D \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0077em;\"\u003eR\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eR\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eD\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A=L+C+R-E-D \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0077em;\"\u003eR\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eO\u003c/mi\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eR\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eD\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A=L+OE-R+E-D \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eO\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0077em;\"\u003eR\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eR\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eD\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eE\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A=L+C+R-D+E \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0077em;\"\u003eR\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "A",
+        "id":  2,
+        "question":  "৬% ঋণের ২,০০,০০০ টাকা মি. জহিরের নিকট ইস্যু করা হল। এর জাবেদা কোনটি?",
+        "options":  {
+                        "A":  "নগদ ডেবিট, ঋণপত্র ক্রেডিট",
+                        "B":  "জহির ডেবিট, ঋণ ক্রেডিট",
+                        "C":  "নগদ ডেবিট, জহির ক্রেডিট",
+                        "D":  "ঋণপত্র ডেবিট, নগদ ক্রেডিট"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "A",
+        "id":  3,
+        "question":  "মূলধন জাতীয় ব্যয়ের উদাহরণ হলো— i. প্ল্যান্ট ক্রয় ii. প্ল্যান্ট সংস্থাপন খরচ iii. প্ল্যান্ট মেরামত খরচ নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "B",
+        "id":  4,
+        "question":  "একটি সম্পদ বৃদ্ধি পায় এবং অন্য একটি সম্পদ হ্রাস পায় i. নগদে আসবাবপত্র ক্রয় ii. নগদে বিক্রয় iii. ব্যাংকে নগদ জমা নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "C",
+        "id":  5,
+        "question":  "পুঞ্জিভূত অবচয় কোন ধরনের হিসাব?",
+        "options":  {
+                        "A":  "সম্পদ",
+                        "B":  "দায়",
+                        "C":  "বিপরীত সম্পদ",
+                        "D":  "খরচ"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "A",
+        "id":  6,
+        "question":  "হিসাববিজ্ঞানের মূল উদ্দেশ্য কী?",
+        "options":  {
+                        "A":  "তথ্য সরবরাহ",
+                        "B":  "লেনদেন সনাক্তকরণ",
+                        "C":  "মোট লাভ নির্ণয়",
+                        "D":  "আর্থিক ফলাফল নির্ধারণ"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "A",
+        "id":  7,
+        "question":  "কখন বিপরীত দাখিলা দেওয়া হয়?",
+        "options":  {
+                        "A":  "হিসাবকালের শুরুতে",
+                        "B":  "হিসাবকালের শেষে",
+                        "C":  "হিসাবকালের মধ্যবর্তী সময়ে",
+                        "D":  "পরবর্তী হিসাব বছর শুরুতে"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "C",
+        "id":  8,
+        "question":  "ধারে ক্রয়ের ফলে হিসাব সমীকরণের কোন উপাদানগুলো প্রভাবিত হয়?",
+        "options":  {
+                        "A":  "A ও L",
+                        "B":  "A ও OE",
+                        "C":  "L ও OE",
+                        "D":  "A, L ও OE"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "A",
+        "id":  9,
+        "question":  "রেওয়ামিলে কোনটি অন্তর্ভুক্ত হবে না?",
+        "options":  {
+                        "A":  "প্রারম্ভিক ব্যাংক জমা",
+                        "B":  "সমাপনী হাতে নগদ",
+                        "C":  "ভাড়া",
+                        "D":  "প্রাথমিক খরচ"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "B",
+        "id":  10,
+        "question":  "কোনটি অপরিচালন আয়? i. প্রাপ্ত সুদ ii. প্রাপ্ত বাট্টা iii. সম্পদ বিক্রির লাভ নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "D",
+        "id":  11,
+        "question":  "কোনটিকে হিসাববিজ্ঞানের \u0027ভিত্তি\u0027 বলা হয়?",
+        "options":  {
+                        "A":  "রেওয়ামিল",
+                        "B":  "খতিয়ান",
+                        "C":  "জাবেদা",
+                        "D":  "লেনদেন"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "C",
+        "id":  12,
+        "question":  "কোনটি মূলধন জাতীয় আয়?",
+        "options":  {
+                        "A":  "সুদ আয়",
+                        "B":  "প্রাপ্ত ভাড়া",
+                        "C":  "শেয়ার অধিহার",
+                        "D":  "প্রাপ্ত বাট্টা"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "A",
+        "id":  13,
+        "question":  "সম্পত্তির কোন ধরনের মূল্যকে অবচয় বলে?",
+        "options":  {
+                        "A":  "ব্যবহৃত মূল্য",
+                        "B":  "ব্যবহারগত মূল্য",
+                        "C":  "ভগ্নাবশেষ মূল্য",
+                        "D":  "বিক্রয় মূল্য"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "A",
+        "id":  14,
+        "question":  "কোনটি ডেবিট উদ্ধৃত্ত প্রকাশ করে?",
+        "options":  {
+                        "A":  "দেনাদার",
+                        "B":  "পাওনাদার",
+                        "C":  "বিক্রয়",
+                        "D":  "বকেয়া বেতন"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "C",
+        "id":  15,
+        "question":  "মোট লাভ - পরিচালনা ব্যয় = ?",
+        "options":  {
+                        "A":  "নিট লাভ",
+                        "B":  "মোট লাভ",
+                        "C":  "পরিচালনা মুনাফা",
+                        "D":  "কর পরবর্তী নিট মুনাফা"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "A",
+        "id":  16,
+        "question":  "কার্যপত্র হতে পারে— i. ১০ ঘর ii. ১২ ঘর iii. ১৪ ঘর নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "C",
+        "id":  17,
+        "question":  "বিক্রিত পণ্যের ব্যায় ২,০০,০০০ টাকা, ব্যাংক ঋণের সুদ ২০,০০০ টাকা, পরিচালন প্রায় ১,০০,০০০ টাকা, প্রাপ্ত বাটা ৩০,০০০ টাকা।যদি মোট লাভ ১,০০,০০০ টাকা হয় তাহলে বিক্রয় কত?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmn\u003e2\u003c/mn\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmn\u003e00\u003c/mn\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmn\u003e000\u003c/mn\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e 2,00,000 \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8389em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e2\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e00\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmn\u003e2\u003c/mn\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmn\u003e50\u003c/mn\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmn\u003e000\u003c/mn\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e 2,50,000 \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8389em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e2\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e50\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmn\u003e3\u003c/mn\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmn\u003e00\u003c/mn\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmn\u003e000\u003c/mn\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e 3,00,000 \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8389em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e3\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e00\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmn\u003e3\u003c/mn\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmn\u003e50\u003c/mn\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmn\u003e000\u003c/mn\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e 3,50,000 \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8389em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e3\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e50\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "B",
+        "id":  18,
+        "question":  "বিক্রিত পণ্যের ব্যায় ২০০,০০০ টাকা, ব্যাংক ঋণের সুদ ২০,০০০ টাকা, পরিচালন প্রায় ১,০০,০০০ টাকা, প্রাপ্ত বাটা ৩০,০০০ টাকা।যদি মোট লাভ ১,৫০,০০০ টাকা হয়। তাহলে নিট লাভ কত?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmn\u003e80\u003c/mn\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmn\u003e000\u003c/mn\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e 80,000 \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8389em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e80\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmn\u003e60\u003c/mn\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmn\u003e000\u003c/mn\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e 60,000 \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8389em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e60\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmn\u003e50\u003c/mn\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmn\u003e000\u003c/mn\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e 50,000 \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8389em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e50\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmn\u003e30\u003c/mn\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmn\u003e000\u003c/mn\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e 30,000 \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8389em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e30\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "B",
+        "id":  19,
+        "question":  "কোন নীতি অনুযায়ী ব্যাংক সমন্বয় বিবরণী প্রস্তুত করা হয়?",
+        "options":  {
+                        "A":  "রক্ষণশীলতা",
+                        "B":  "পূর্ণ প্রকাশ",
+                        "C":  "সামঞ্জস্য",
+                        "D":  "সময়বদ্ধতা"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "C",
+        "id":  20,
+        "question":  "গবেষণা ও উন্নয়ন ব্যয় কী ধরনের ব্যয়?",
+        "options":  {
+                        "A":  "মূলধন",
+                        "B":  "মুনাফা",
+                        "C":  "বিলম্বিত",
+                        "D":  "পরিচালন"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "B",
+        "id":  21,
+        "question":  "কে নিট লাভ দাবি করতে পারে?",
+        "options":  {
+                        "A":  "দেনাদার",
+                        "B":  "মালিক",
+                        "C":  "ব্যাংক",
+                        "D":  "সরকার"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "D",
+        "id":  22,
+        "question":  "বিলম্বিত বিজ্ঞাপন খরচ কোন প্রকার সম্পদ?",
+        "options":  {
+                        "A":  "বিপরীত",
+                        "B":  "স্থায়ী",
+                        "C":  "চলতি",
+                        "D":  "অলীক"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "D",
+        "id":  23,
+        "question":  "রেওয়ামিলে গণনা করা হয় না— i. নীতিগত ভুল ii. পরিপূরক ভুল iii. বাদ পড়ার ভুল নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বরিশাল বোর্ড ২০২৫ ",
+        "answer":  "D",
+        "id":  24,
+        "question":  "ব্যাংক সমন্বয় বিবরণী কে তৈরি করেন?",
+        "options":  {
+                        "A":  "ব্যাংক",
+                        "B":  "দেনাদার",
+                        "C":  "পাওনাদার",
+                        "D":  "আমানতকারী"
+                    }
+    }
+]

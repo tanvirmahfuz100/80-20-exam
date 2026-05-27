@@ -1,0 +1,362 @@
+﻿[
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  1,
+        "question":  "হিসাব তথ্যের অভ্যন্তরীণ ব্যবহারকারী কে?",
+        "options":  {
+                        "A":  "পাওনাদার",
+                        "B":  "বিনিয়োগকারী",
+                        "C":  "শ্রমিকসংঘ",
+                        "D":  "আর্থিক ব্যবস্থাপক"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  2,
+        "question":  "খতিয়ানের প্রধান উদ্দেশ্য হল—",
+        "options":  {
+                        "A":  "লাভ-ক্ষতি নির্ণয়",
+                        "B":  "লেনদেনের স্থায়ী সংরক্ষণ",
+                        "C":  "আর্থিক অবস্থা নির্ণয়",
+                        "D":  "হিসাবের গাণিতিক শুদ্ধতা যাচাই"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  3,
+        "question":  "বিক্রয় জাবেদা থেকে জানা যায়— i. মোট ধারে বিক্রয়ের পরিমাণ ii. মোট বিক্রয়ের পরিমাণ iii. মোট দেনাদারের পরিমাণ নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  4,
+        "question":  "জনাব রানা ২০২৫ সালের ১ জানুয়ারি তারিখে নগদ ১,২০,০০০ টাকা, ৪০,০০০ টাকার যন্ত্রপাতি ও ২০,০০০ টাকা ঋণ নিয়ে ব্যবসায় আরম্ভ করেন। জানুয়ারি মাসে অন্যান্য লেনদেনগুলো হল- পণ্য ক্রয় ৫০,০০০ টাকা, পণ্য বিক্রয় ৮০,০০০ টাকা এবং ব্যক্তিগত প্রয়োজনে উত্তোলন ১০,০০০ টাকা। জনাব রানার প্রারম্ভিক মূলধন কত টাকা?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e২০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ১,২০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e৪০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ১,৪০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৪০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e৬০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ১,৬০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৬০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e৮০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ১,৮০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৮০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  5,
+        "question":  "জনাব রানা ২০২৫ সালের ১ জানুয়ারি তারিখে নগদ ১,২০,০০০ টাকা, ৪০,০০০ টাকার যন্ত্রপাতি ও ২০,০০০ টাকা ঋণ নিয়ে ব্যবসায় আরম্ভ করেন। জানুয়ারি মাসে অন্যান্য লেনদেনগুলো হল- পণ্য ক্রয় ৫০,০০০ টাকা, পণ্য বিক্রয় ৮০,০০০ টাকা এবং ব্যক্তিগত প্রয়োজনে উত্তোলন ১০,০০০ টাকা। জানুয়ারী মাসের শেষে মালিকানা স্বত্বের পরিমাণ কত?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e২\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e৭০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ২,৭০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৭০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e২\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e১০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ২,১০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e৮০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ১,৮০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৮০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e৬০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ১,৬০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৬০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  6,
+        "question":  "হিসাব সমীকরণের সঠিক বর্ধিত রূপ কোনটি?",
+        "options":  {
+                        "A":  "সম্পদ = দায় + মূলধন – উত্তোলন + আয় – খরচ",
+                        "B":  "সম্পদ = দায় + মূলধন – খরচ + আয় + উত্তোলন",
+                        "C":  "সম্পদ = দায় – মূলধন + আয় – খরচ – উত্তোলন",
+                        "D":  "সম্পদ = দায় – মূলধন – উত্তোলন – খরচ + আয়"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  7,
+        "question":  "জনাব ইমরানের ব্যবসায়ের দায় \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e২০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ২০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা এবং মালিকানাস্বত্ব \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৩০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৩০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৩০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা। ব্যবসায়ের সম্পত্তির পরিমাণ কত?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ১০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e২০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ২০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৩০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৩০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৩০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৫০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৫০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৫০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  8,
+        "question":  "পাওনাদারকে প্রদান হিসাব সমীকরণে এর প্রভাব হলো— i. সম্পদ হ্রাস ii. দায় হ্রাস iii. সম্পদ বৃদ্ধি নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  9,
+        "question":  "পারুল ট্রেডার্স ২০২৫ সালের ১ জানুয়ারি ১,০০,০০০ টাকার পণ্য ১০% বাট্টায় ক্রয় করে। এক সপ্তাহ পর উক্ত মালের মূল্যের অর্ধেক ১০% বাট্টায় পরিশোধ করে। পারুল ট্রেডার্স এর প্রাপ্ত বাট্টার পরিমাণ কত?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৪\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e৫০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৪,৫০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৪\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৫০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৯\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৯,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৯\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ১০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e২০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ২০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  10,
+        "question":  " পারুল ট্রেডার্স ২০২৫ সালের ১ জানুয়ারি ১,০০,০০০ টাকার পণ্য ১০% বাট্টায় ক্রয় করে। এক সপ্তাহ পর উক্ত মালের মূল্যের অর্ধেক ১০% বাট্টায় পরিশোধ করে। মূল্য পরিশোধের পর দায় কত টাকা?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৫০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৫০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৫০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৪৫\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৪৫,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৪৫\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৪১\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৪১,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৪১\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৪০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৪০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৪০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  11,
+        "question":  "সবসময় ডেবিট উদ্বৃত্ত প্রকাশ করে—",
+        "options":  {
+                        "A":  "মূলধন হিসাব",
+                        "B":  "দায় হিসাব",
+                        "C":  "আয় হিসাব",
+                        "D":  "সম্পদ হিসাব"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  12,
+        "question":  "ব্যাংক বিবরণী প্রস্তুত করেন কে?",
+        "options":  {
+                        "A":  "আমানতকারী",
+                        "B":  "বিনিয়োগকারী",
+                        "C":  "ঋণগ্রহীতা",
+                        "D":  "ব্যাংক কর্তৃপক্ষ"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  13,
+        "question":  "নোমান কোম্পানির নগদান বহি অনুযায়ী ব্যাংক জমার উদ্বৃত্ত \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e২০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ২০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা। দেনাদার কর্তৃক সরাসরি ব্যাংকে জমা \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৫\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৫,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৫\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা; আদায়ের জন্য জমাকৃত চেক প্রত্যাখ্যাত \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৪\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৪,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৪\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা এবং ব্যাংক কর্তৃক ধার্যকৃত চার্জ \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e২০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ২০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা। ব্যাংক বিবরণী অনুযায়ী ব্যাংক জমার উদ্বৃত্ত কত?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e২৯\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e২০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ২৯,২০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২৯\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e২৯\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ২৯,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২৯\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e২০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e৮০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ২০,৮০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৮০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১৯\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e২০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ১৯,২০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১৯\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  14,
+        "question":  "ব্যাংক বিবরণীর ডেবিট উদ্বৃত্ত দ্বারা কী বুঝায়?",
+        "options":  {
+                        "A":  "ব্যাংক তহবিল",
+                        "B":  "ব্যাংক জমা",
+                        "C":  "ব্যাংক জমাতিরিক্ত",
+                        "D":  "নগদ তহবিল"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  15,
+        "question":  "ক্রেডিট মেমোরেন্ডাম ইস্যু করা হয়— i. সার্ভিস চার্জের জন্য ii. সুদ মঞ্জুরের জন্য iii. প্রাপ্য নোট আদায়ের জন্য নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  16,
+        "question":  "রেওয়ামিল বহির্ভূত দফা কোনটি?",
+        "options":  {
+                        "A":  "প্রারম্ভিক ব্যাংক ব্যালেন্স",
+                        "B":  "সমাপনী ব্যাংক ব্যালেন্স",
+                        "C":  "প্রারম্ভিক মজুদ পণ্য",
+                        "D":  "প্রারম্ভিক মনিহারি"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  17,
+        "question":  "যে সকল ভুল রেওয়ামিলে ধরা পড়ে না— i. নীতিগত ভুল ii. যোগ-বিয়োগের ভুল iii. বে-দাখিলার ভুল নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  18,
+        "question":  " হিসাবে ক্রয় ৫০,০০০ টাকার স্থলে ৪৫,০০০ টাকা এবং বিক্রয় ৩৫,০০০ টাকার স্থলে ৩০,০০০ টাকা লিপিবদ্ধ করায় ভুল থাকা স্বত্ত্বেও রেওয়ামিল মিলে গেল। রেওয়ামিল তৈরিতে কোন ধরনের ভুল হয়েছে?",
+        "options":  {
+                        "A":  "লেখার",
+                        "B":  "নীতিগত",
+                        "C":  "পরিপূরক",
+                        "D":  "বাদ পড়ার"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  19,
+        "question":  "হিসাবে ক্রয় ৫০,০০০ টাকার স্থলে ৪৫,০০০ টাকা এবং বিক্রয় ৩৫,০০০ টাকার স্থলে ৩০,০০০ টাকা লিপিবদ্ধ করায় ভুল থাকা স্বত্ত্বেও রেওয়ামিল মিলে গেল। রেওয়ামিলের যোগফল কত টাকা কম বা বেশি দেখানো হয়েছে?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৫\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৫,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৫\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা কম",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৫\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৫,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৫\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা বেশি",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ১০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা কম",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ১০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e টাকা বেশি"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  20,
+        "question":  "মূলধন জাতীয় ব্যয় কোনটি?",
+        "options":  {
+                        "A":  "বেতন খরচ",
+                        "B":  "জাহাজ ভাড়া",
+                        "C":  "সম্পত্তি ক্রয়",
+                        "D":  "পণ্য ক্রয়"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  21,
+        "question":  "হিসাবচক্রের কোন ধাপটি ঐচ্ছিক?",
+        "options":  {
+                        "A":  "জাবেদা",
+                        "B":  "খতিয়ান",
+                        "C":  "রেওয়ামিল",
+                        "D":  "কার্যপত্র"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  22,
+        "question":  "সমাপনী দাখিলা দেওয়া হয়— i. নামিক হিসাবসমূহ বন্ধ করার জন্য ii. স্থায়ী হিসাবসমূহ বন্ধ করার জন্য iii. উত্তোলন হিসাব বন্ধ করার জন্য নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  23,
+        "question":  "নিম্নের কোন সম্পত্তির অবচয় ধার্য করা হয়?",
+        "options":  {
+                        "A":  "ভূমি",
+                        "B":  "দালানকোঠা",
+                        "C":  "ট্রেডমার্ক",
+                        "D":  "প্যাটেন্ট"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  24,
+        "question":  "জনাব আরাফাত আলী ১লা জানুয়ারি ২০২৪ সালে একটি মেশিন ক্রয় করে, যার ক্রয়মূল্য ৬,০০,০০০ টাকা, সংস্থাপন ব্যয় ৪০,০০০ টাকা এবং পরিবহণ খরচ ১০,০০০ টাকা। মেশিনের আনুমানিক আয়ুষ্কাল ১০ বছর। ক্রমহ্রাসমান জের পদ্ধতিতে অবচয় ধার্য করা হয়। মেশিনের অর্জনমূল্য কত টাকা?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৬\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৬,০০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৬\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৬\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e১০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৬,১০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৬\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৬\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e৪০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৬,৪০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৬\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৪০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৬\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e৫০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৬,৫০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৬\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৫০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "B",
+        "id":  25,
+        "question":  "জনাব আরাফাত আলী ১লা জানুয়ারি ২০২৪ সালে একটি মেশিন ক্রয় করে, যার ক্রয়মূল্য ৬,০০,০০০ টাকা, সংস্থাপন ব্যয় ৪০,০০০ টাকা এবং পরিবহণ খরচ ১০,০০০ টাকা। মেশিনের আনুমানিক আয়ুষ্কাল ১০ বছর। ক্রমহ্রাসমান জের পদ্ধতিতে অবচয় ধার্য করা হয়। প্রথম বছর শেষে মেশিনের বহিমূল্য কত টাকা?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৪\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e৮০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৪,৮০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৪\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৮০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৫\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e২০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৫,২০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৫\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৫\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e৯২\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৫,৯২,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৫\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৯২\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৬\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৬,০০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৬\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "D",
+        "id":  26,
+        "question":  "অবচয় নির্ধারণে বিবেচ্য বিষয়— i. ক্রয়মূল্য ii. কার্যকর আয়ুস্কাল iii. ভগ্নাবশেষ মূল্য নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  27,
+        "question":  " ২০২৪ সালে জনাব আরিফের ব্যবসায়ের বিক্রীত পণ্যের ব্যয় ৫,০০,০০০ টাকা। তিনি ২০% মুনাফার পণ্য বিক্রি করেন। বছর শেষে তার নিট মুনাফার হার দাঁড়ায় ১৫%। মোট বিক্রয়ের পরিমাণ কত টাকা?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৬\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e২৫\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৬,২৫,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৬\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২৫\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৬\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৬,০০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৬\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৫\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e১৭\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e৫০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৫,১৭,৫০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৫\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১৭\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৫০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৫\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০\u003c/mtext\u003e\u003cmo separator=\"true\"\u003e,\u003c/mo\u003e\u003cmtext\u003e০০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e ৫,০০,০০০ \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৫\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০\u003c/span\u003e\u003cspan class=\"mpunct\"\u003e,\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e০০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "C",
+        "id":  28,
+        "question":  "২০২৪ সালে জনাব আরিফের ব্যবসায়ের বিক্রীত পণ্যের ব্যয় ৫,০০,০০০ টাকা। তিনি ২০% মুনাফার পণ্য বিক্রি করেন। বছর শেষে তার নিট মুনাফার হার দাঁড়ায় ১৫%। মোট মুনাফার হার স্থির রেখে নিট মুনাফার হার বৃদ্ধি করতে চাইলে— i. বিক্রয়ের পরিমাণ বৃদ্ধি করতে হবে ii. পরিচালন ব্যয় হ্রাস করতে হবে iii. অপরিচালন আয় বৃদ্ধি করতে হবে নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  29,
+        "question":  "প্রারম্ভিক মজুদ পণ্য \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmo\u003e+\u003c/mo\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e + \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e+\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e নিট ক্রয় \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmo\u003e+\u003c/mo\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e + \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e+\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e ক্রয় সংক্রান্ত প্রত্যক্ষ খরচ \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e–\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e – \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.4306em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e–\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e সমাপনী মজুদ পণ্য \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmo stretchy=\"false\"\u003e?\u003c/mo\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e = ? \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.3669em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6944em;\"\u003e\u003c/span\u003e\u003cspan class=\"mclose\"\u003e?\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+        "options":  {
+                        "A":  "বিক্রীত পণ্যের ব্যয়",
+                        "B":  "সমন্বিত ক্রয়",
+                        "C":  "উৎপাদিত পণ্যের ব্যয়",
+                        "D":  "মোট ব্যয়"
+                    }
+    },
+    {
+        "source":  "দিনাজপুর বোর্ড ২০২৫",
+        "answer":  "A",
+        "id":  30,
+        "question":  "ব্যবসায় পরিচালন ব্যয় হল— i. অফিস ভাড়া ii. বিজ্ঞাপন খরচ iii. ঋণের সুদ নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    }
+]

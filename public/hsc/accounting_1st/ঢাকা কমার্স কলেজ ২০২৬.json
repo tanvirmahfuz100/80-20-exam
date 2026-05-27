@@ -1,0 +1,266 @@
+﻿[
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  1,
+        "question":  "কোনটি ব্যবসায়ের অনগদ লেনদেন?",
+        "options":  {
+                        "A":  "অবচয়",
+                        "B":  "বিজ্ঞাপন",
+                        "C":  "কমিশন",
+                        "D":  "ভাড়া"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  2,
+        "question":  "প্রদেয় নোটের টাকা পরিশোধ করলে হিসাব সমীকরণের প্রভাব কী?",
+        "options":  {
+                        "A":  "সম্পদ বৃদ্ধি ও দায় বৃদ্ধি",
+                        "B":  "সম্পদ বৃদ্ধি ও দায় হ্রাস",
+                        "C":  "দায় বৃদ্ধি ও দায় হ্রাস",
+                        "D":  "সম্পদ হ্রাস ও দায় হ্রাস"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  3,
+        "question":  "কোন শব্দ থেকে Accounting শব্দের উৎপত্তি—",
+        "options":  {
+                        "A":  "Account",
+                        "B":  "Calculi",
+                        "C":  "Accountancy",
+                        "D":  "Accuracy"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  4,
+        "question":  "পুস্তক মূল্য বলতে বুঝায়—",
+        "options":  {
+                        "A":  "ক্রয়মূল্য-ভগ্নাবশেষ মূল্য",
+                        "B":  "ক্রয়মূল্য-প্রাসঙ্গিক খরচ",
+                        "C":  "ক্রয়মূল্য-সংস্থাপন ব্যয়",
+                        "D":  "ক্রয়মূল্য-পুঞ্জীভূত অবচয়"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  5,
+        "question":  "অবচয় সঞ্চিতি কী জাতীয় হিসাব?",
+        "options":  {
+                        "A":  "একটি কন্ট্রা সম্পদ হিসাব",
+                        "B":  "একটি খরচ হিসাব",
+                        "C":  "একটি মালিকানা স্বত্ব হিসাব",
+                        "D":  "একটি সম্পদ হিসাব"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  6,
+        "question":  "মৌলিক হিসাব সমীকরণ হিসাববিজ্ঞানের কোন ধারণার ওপর প্রতিষ্ঠিত?",
+        "options":  {
+                        "A":  "হিসাবকাল ধারণা",
+                        "B":  "মিলকরণ ধারণা",
+                        "C":  "সত্তা ধারণা",
+                        "D":  "চলমান ধারণা"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  7,
+        "question":  "সমাপনী মজুদ পণ্য রেওয়ামিলে অন্তর্ভুক্ত হয়— i. নিট ক্রয়ের উদ্বৃত্ত থাকলে ii. মোট লাভ দেওয়া থাকলে iii. বিক্রীত পণ্যের ব্যয় দেওয়া থাকলে নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  8,
+        "question":  "ব্যাংক সমন্বয় বিবরণী কে প্রস্তুত করেন?",
+        "options":  {
+                        "A":  "প্রাপ্য হিসাব",
+                        "B":  "প্রদেয় হিসাব",
+                        "C":  "আমানতকারী",
+                        "D":  "ব্যাংক"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  9,
+        "question":  "কোনটির জন্য ব্যাংক ডেবিট মেমোরেন্ডাম ইস্যু করে থাকে?",
+        "options":  {
+                        "A":  "প্রাপ্য নোট আদায়",
+                        "B":  "জমাকৃত চেক প্রত্যাখ্যান",
+                        "C":  "দেনাদার কর্তৃক জমাদান",
+                        "D":  "ব্যাংক উদ্বৃত্তের সুদ"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  10,
+        "question":  "নগদান বই ও ব্যাংক বিবরণী মোতাবেক ব্যাংক ব্যালেন্সের গরমিলের কারণ— i. ব্যাংক কর্তৃক সরাসরি অর্থ পরিশোধ ii. ব্যাংকে জমাকৃত চেক প্রত্যাখ্যান iii. বিনিয়োগের সুদ নগদে পাওয়া গেল নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  11,
+        "question":  "২/১০, নিট ৩০ শর্তে ১০,০০০ টাকা প্রাপ্য হিসাব হতে পাওনা আদায় হলে বাট্টার পরিমাণ কত?",
+        "options":  {
+                        "A":  "১,০০০ টাকা",
+                        "B":  "৬০০ টাকা",
+                        "C":  "৩০০ টাকা",
+                        "D":  "২০০ টাকা"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  12,
+        "question":  "নিচের কোনটি হিসাবচক্রের আবশ্যকীয় ধাপ নয়?",
+        "options":  {
+                        "A":  "জাবেদা",
+                        "B":  "খতিয়ান",
+                        "C":  "কার্যপত্র",
+                        "D":  "আর্থিক বিবরণী"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  13,
+        "question":  "৮ ঘরা কার্যপত্র নিচের কোন শিরোনাম প্রয়োজন নাই?",
+        "options":  {
+                        "A":  "সমন্বয়",
+                        "B":  "সমন্বিত রেওয়ামিল",
+                        "C":  "আয় বিবরণী",
+                        "D":  "আর্থিক বিবরণী"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  14,
+        "question":  "বিপরীত দাখিলা কখন দেওয়া হয়?",
+        "options":  {
+                        "A":  "হিসাবকালের প্রথম তারিখে",
+                        "B":  "হিসাবকালের মাঝামাঝি তারিখে",
+                        "C":  "হিসাবকালের শেষ তারিখে",
+                        "D":  "সমন্বয় দাখিলার তারিখে"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  15,
+        "question":  "হিসাব সমীকরণের বর্ধিত রূপ কোনটি?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo stretchy=\"false\"\u003e(\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eR\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eD\u003c/mi\u003e\u003cmo stretchy=\"false\"\u003e)\u003c/mo\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A = L + (C - R + E - D) \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mopen\"\u003e(\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0077em;\"\u003eR\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003cspan class=\"mclose\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo stretchy=\"false\"\u003e(\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eR\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eD\u003c/mi\u003e\u003cmo stretchy=\"false\"\u003e)\u003c/mo\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A = L + (C + R - E - D) \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mopen\"\u003e(\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0077em;\"\u003eR\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003cspan class=\"mclose\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmo stretchy=\"false\"\u003e(\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eR\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eD\u003c/mi\u003e\u003cmo stretchy=\"false\"\u003e)\u003c/mo\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A = L - (C - R + E - D) \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mopen\"\u003e(\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0077em;\"\u003eR\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003cspan class=\"mclose\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eL\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmo stretchy=\"false\"\u003e(\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eR\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eE\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eD\u003c/mi\u003e\u003cmo stretchy=\"false\"\u003e)\u003c/mo\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e A = L - (C + R - E - D) \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eL\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mopen\"\u003e(\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0077em;\"\u003eR\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0576em;\"\u003eE\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003cspan class=\"mclose\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  16,
+        "question":  "\"অনুপার্জিত আয়\" কোন ধরনের হিসাব?",
+        "options":  {
+                        "A":  "সম্পদ হিসাব",
+                        "B":  "দায় হিসাব",
+                        "C":  "মালিকানা স্বত্ব হিসাব",
+                        "D":  "আয় হিসাব"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  17,
+        "question":  "ক্রয় জাবেদা থেকে জানা যায়— i. মোট ক্রয়ের পরিমাণ ii. প্রদেয় হিসাবের পরিমাণ iii. মোট ধারে ক্রয়ের পরিমাণ নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  18,
+        "question":  "৫০,০০০ টাকা বিজ্ঞাপন খরচের ২/৫ অংশ অবলোপন করা হলে বিলম্বিত বিজ্ঞাপন ব্যয় কত হবে?",
+        "options":  {
+                        "A":  "১০,০০০ টাকা",
+                        "B":  "২০,০০০ টাকা",
+                        "C":  "৩০,০০০ টাকা",
+                        "D":  "৫০,০০০ টাকা"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  19,
+        "question":  "বিক্রয় ফেরত লিপিবদ্ধ করার জন্য কোন দলিল ব্যবহার হয়?",
+        "options":  {
+                        "A":  "ডেবিট নোট",
+                        "B":  "ক্রেডিট নোট",
+                        "C":  "ডেবিট ভাউচার",
+                        "D":  "ক্রেডিট ভাউচার"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  20,
+        "question":  "GAAP এর পূর্ণরূপ কোনটি?",
+        "options":  {
+                        "A":  "Generally Accounting Accepted Principles",
+                        "B":  "Generally Accepted Accounting Principles",
+                        "C":  "Generally Accepted Accounting Principal",
+                        "D":  "Generally Accounting Accepted Principal"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  21,
+        "question":  "তিনঘরা নগদান বইতে জের নির্ণয় করা হয়— i. বাট্টা কলামের ii. ব্যাংক কলামের iii. নগদ কলামের নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কমার্স কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  22,
+        "question":  "কোন হিসাবটি একতরফা দাখিলা পদ্ধতিতে সংরক্ষণ করা হয় না—",
+        "options":  {
+                        "A":  "দেনাদার",
+                        "B":  "পাওনাদার",
+                        "C":  "নগদান",
+                        "D":  "নামিক"
+                    }
+    }
+]
