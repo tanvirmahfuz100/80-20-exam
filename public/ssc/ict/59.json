@@ -8,7 +8,7 @@
       "C": "ট্রানজিশন",
       "D": "লে-আউট"
     },
-    "answer": "A",
+    "answer": "C",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -32,7 +32,7 @@
       "C": "Contrast Metal-Oxide Semiconductor",
       "D": "Complementary Metal-Oxide Semiconductor"
     },
-    "answer": "A",
+    "answer": "D",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -68,7 +68,7 @@
       "C": "Page Layout",
       "D": "Mailings"
     },
-    "answer": "A",
+    "answer": "B",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -80,7 +80,7 @@
       "C": "CMOS",
       "D": "CPU"
     },
-    "answer": "A",
+    "answer": "B",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -104,7 +104,7 @@
       "C": "Start → Control panel → Uninstall a Programme → Uninstall",
       "D": "Start → Computer → Uninstall a Programme → Uninstall"
     },
-    "answer": "A",
+    "answer": "C",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -116,7 +116,7 @@
       "C": "ম্যাকওএস",
       "D": "অ্যান্ড্রয়েড"
     },
-    "answer": "A",
+    "answer": "B",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -128,7 +128,7 @@
       "C": "ড্রপ-ডাউন",
       "D": "ক্লিপবোর্ড"
     },
-    "answer": "A",
+    "answer": "B",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -152,7 +152,7 @@
       "C": "বাইনারি",
       "D": "কম্পাইলার"
     },
-    "answer": "A",
+    "answer": "C",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -164,7 +164,7 @@
       "C": "Graphics",
       "D": "Background style"
     },
-    "answer": "A",
+    "answer": "D",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -176,7 +176,19 @@
       "C": "ii ও iii",
       "D": "i, ii ও iii"
     },
-    "answer": "A",
+    "answer": "D",
+    "source": "ময়মনসিংহ বোর্ড ২০২৬"
+  },
+  {
+    "id": 16,
+    "question": "মিতু তার স্কুলের একটি অনুষ্ঠান পরিচালনার জন্য একটি রিপোর্ট তৈরি করেছে। সে রিপোর্টটিকে আরও আকর্ষণীয় ও নান্দনিকভাবে উপস্থাপন করতে চাইল। সে সিদ্ধান্ত নিল যে রিপোর্টের শিরোনামটি বিশেষ স্টাইলের অক্ষরে এবং বড় আকারে লিখবে এবং প্রতিবেদনের মূল অংশটি সে ভিন্ন একটি ফন্টে লিখবে, যাতে পাঠকের দৃষ্টি আকর্ষণ করা যায়।",
+    "options": {
+      "A": "স্পেল চেকিং",
+      "B": "মার্জিন নির্ধারণ",
+      "C": "ফরমেটিং টেক্সট",
+      "D": "ডকুমেন্ট সংরক্ষণ"
+    },
+    "answer": "C",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -188,7 +200,7 @@
       "C": "%",
       "D": "^"
     },
-    "answer": "A",
+    "answer": "B",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -200,7 +212,7 @@
       "C": "নিরাপদ",
       "D": "ডিরেক্টর"
     },
-    "answer": "A",
+    "answer": "B",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -212,7 +224,7 @@
       "C": "File Menu → Save → Save As → File Name → Ok",
       "D": "File Menu → Publish → Save As → File Name → Ok"
     },
-    "answer": "A",
+    "answer": "C",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -224,7 +236,7 @@
       "C": "ii ও iii",
       "D": "i, ii ও iii"
     },
-    "answer": "A",
+    "answer": "D",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -236,7 +248,7 @@
       "C": "ধ্বনি",
       "D": "পাইথন"
     },
-    "answer": "A",
+    "answer": "D",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -248,7 +260,7 @@
       "C": "Auto run",
       "D": "Clean up"
     },
-    "answer": "A",
+    "answer": "C",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -260,7 +272,7 @@
       "C": "Insert → Table → Insert Table → Ok",
       "D": "Insert → Row → View → Ok"
     },
-    "answer": "A",
+    "answer": "C",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   },
   {
@@ -272,7 +284,7 @@
       "C": "while",
       "D": "int"
     },
-    "answer": "A",
+    "answer": "D",
     "source": "ময়মনসিংহ বোর্ড ২০২৬"
   }
 ]

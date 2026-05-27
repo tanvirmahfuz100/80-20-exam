@@ -8,7 +8,7 @@
       "C": "Handouts",
       "D": "Slide Layout"
     },
-    "answer": "A",
+    "answer": "D",
     "source": "চট্টগ্রাম বোর্ড ২০২৬"
   },
   {
@@ -20,7 +20,7 @@
       "C": "Header & Footer",
       "D": "Font"
     },
-    "answer": "A",
+    "answer": "C",
     "source": "চট্টগ্রাম বোর্ড ২০২৬"
   },
   {
@@ -44,7 +44,7 @@
       "C": "Y",
       "D": "Z"
     },
-    "answer": "A",
+    "answer": "B",
     "source": "চট্টগ্রাম বোর্ড ২০২৬"
   },
   {
@@ -68,7 +68,7 @@
       "C": "bool",
       "D": "float"
     },
-    "answer": "A",
+    "answer": "D",
     "source": "চট্টগ্রাম বোর্ড ২০২৬"
   },
   {
@@ -92,7 +92,19 @@
       "C": "Alt + N",
       "D": "Ctrl + N"
     },
-    "answer": "A",
+    "answer": "B",
+    "source": "চট্টগ্রাম বোর্ড ২০২৬"
+  },
+  {
+    "id": 10,
+    "question": "Variable1 = int (input ('Insert the 1st variable')) Variable2 = int (input ('Insert the 2nd variable')) Result = variable1 * variable2 Print (\"The result is\", result)",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "10",
+      "D": "50"
+    },
+    "answer": "D",
     "source": "চট্টগ্রাম বোর্ড ২০২৬"
   },
   {
@@ -116,7 +128,7 @@
       "C": "= Product (B1 * D2)",
       "D": "= Product (B1 / D2)"
     },
-    "answer": "A",
+    "answer": "B",
     "source": "চট্টগ্রাম বোর্ড ২০২৬"
   },
   {
@@ -140,7 +152,7 @@
       "C": "এনিমেশন",
       "D": "টেলিভিশন"
     },
-    "answer": "A",
+    "answer": "C",
     "source": "চট্টগ্রাম বোর্ড ২০২৬"
   },
   {
@@ -164,7 +176,7 @@
       "C": "=C3−D3∗E3 = \\text{C3} - \\text{D3} * \\text{E3} =C3−D3∗E3",
       "D": "=C3∗D3/C3 = \\text{C3} * \\text{D3} / \\text{C3} =C3∗D3/C3"
     },
-    "answer": "A",
+    "answer": "B",
     "source": "চট্টগ্রাম বোর্ড ২০২৬"
   },
   {
@@ -176,7 +188,19 @@
       "C": "ii ও iii",
       "D": "i, ii ও iii"
     },
-    "answer": "A",
+    "answer": "B",
+    "source": "চট্টগ্রাম বোর্ড ২০২৬"
+  },
+  {
+    "id": 18,
+    "question": "আহসাফ ও সুমন দশম শ্রেণিতে পড়াশুনা করছে। তারা দুইজনেই তাদের কম্পিউটার নিয়ে সমস্যায় পড়েছে। আহসাফের কম্পিউটারের সিস্টেম চলছে কিন্তু কিছুই মনিটরে দেখা যাচ্ছে না এবং সুমনের কম্পিউটার অন করার পর Windows run করার সময় হ্যাং হয়ে যায়।",
+    "options": {
+      "A": "CPU",
+      "B": "ROM",
+      "C": "RAM",
+      "D": "CMOS"
+    },
+    "answer": "C",
     "source": "চট্টগ্রাম বোর্ড ২০২৬"
   },
   {
@@ -200,7 +224,7 @@
       "C": "ডি ডস অ্যাটাক",
       "D": "ডেটা ইন্টারসেপশন"
     },
-    "answer": "A",
+    "answer": "C",
     "source": "চট্টগ্রাম বোর্ড ২০২৬"
   },
   {
@@ -212,7 +236,7 @@
       "C": "তথ্যের নিরাপত্তা নিশ্চিত করা",
       "D": "পাইরেসি নজরদারি করা"
     },
-    "answer": "A",
+    "answer": "D",
     "source": "চট্টগ্রাম বোর্ড ২০২৬"
   },
   {
@@ -224,7 +248,7 @@
       "C": "ii ও iii",
       "D": "i, ii ও iii"
     },
-    "answer": "A",
+    "answer": "D",
     "source": "চট্টগ্রাম বোর্ড ২০২৬"
   },
   {
@@ -236,7 +260,7 @@
       "C": "এনিমেশন",
       "D": "ট্রানজিশন"
     },
-    "answer": "A",
+    "answer": "B",
     "source": "চট্টগ্রাম বোর্ড ২০২৬"
   }
 ]

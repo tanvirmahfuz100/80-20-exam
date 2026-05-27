@@ -136,22 +136,26 @@ function extractQuestions(html, source) {
 
     // Find correct answer
     let correctAnswer = '';
-    const hasCorrectClass = block.includes('bg-[#017A471A]');
+    const bnMap = { 'ক': 'A', 'খ': 'B', 'গ': 'C', 'ঘ': 'D' };
 
-    if (hasCorrectClass) {
-      // Find the button with green background
-      const greenBtnRegex = /<button[\s\S]*?bg-\[#017A471A\][\s\S]*?<\/button>/;
-      const greenMatch = block.match(greenBtnRegex);
-      if (greenMatch) {
-        const greenHtml = greenMatch[0];
-        // Find which position this button is in the grid
-        const btnPositions = [];
-        const allBtns = [...block.matchAll(/<button[\s\S]*?<\/button>/g)];
-        for (let i = 0; i < allBtns.length; i++) {
-          if (allBtns[i][0] === greenMatch[0] || block.substring(allBtns[i].index, allBtns[i].index + 50) === greenMatch[0].substring(0, 50)) {
-            correctAnswer = optionKeys[i];
-            break;
-          }
+    // Try green first (correct answer marker)
+    const greenBtnRegex = /<button[^>]*bg-\[#017A471A\][^>]*>[\s\S]*?<\/button>/;
+    const greenMatch = block.match(greenBtnRegex);
+    if (greenMatch) {
+      const letterMatch = greenMatch[0].match(/([ক-ঘ])/);
+      if (letterMatch) {
+        correctAnswer = bnMap[letterMatch[1]] || '';
+      }
+    }
+
+    // If no green, try yellow (some files mark correct answer in yellow)
+    if (!correctAnswer) {
+      const yellowBtnRegex = /<button[^>]*bg-\[#F59E0B1F\][^>]*>[\s\S]*?<\/button>/;
+      const yellowMatch = block.match(yellowBtnRegex);
+      if (yellowMatch) {
+        const letterMatch = yellowMatch[0].match(/([ক-ঘ])/);
+        if (letterMatch) {
+          correctAnswer = bnMap[letterMatch[1]] || '';
         }
       }
     }
@@ -161,17 +165,14 @@ function extractQuestions(html, source) {
       const ansRegex = /সঠিক উত্তর[ঃ:\s]*(?:হলো\s*)?<strong>([ক-ঘ])/;
       const ansMatch = block.match(ansRegex);
       if (ansMatch) {
-        const bnMap = { 'ক': 'A', 'খ': 'B', 'গ': 'C', 'ঘ': 'D' };
         correctAnswer = bnMap[ansMatch[1]] || '';
       }
     }
 
     if (!correctAnswer) {
-      // Another fallback: just "সঠিক উত্তর: ক)" without strong tag
       const ansRegex2 = /সঠিক উত্তর[ঃ:\s]*(?:হলো\s*)?([ক-ঘ])/;
       const ansMatch2 = block.match(ansRegex2);
       if (ansMatch2) {
-        const bnMap = { 'ক': 'A', 'খ': 'B', 'গ': 'C', 'ঘ': 'D' };
         correctAnswer = bnMap[ansMatch2[1]] || '';
       }
     }
