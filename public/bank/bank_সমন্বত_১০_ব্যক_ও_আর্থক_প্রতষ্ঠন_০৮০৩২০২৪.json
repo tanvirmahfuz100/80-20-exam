@@ -1,0 +1,567 @@
+[
+  {
+    "explanation": "",
+    "options": {
+      "A": "কর্মে ৩য়া",
+      "B": "করণে ৫মী",
+      "C": "অধিকরণে ৭মী",
+      "D": "অপাদানে ৭মী"
+    },
+    "answer": "C",
+    "question": "১. 'আপন পাঠেতে মন করহ নিবেশ'- বাক্যে 'পাঠেতে' শব্দটি কোন কারকে কোন বিভক্তি?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "নাটক",
+      "B": "প্রবন্ধ",
+      "C": "উপন্যাস",
+      "D": "কবিতা"
+    },
+    "answer": "C",
+    "question": "একাধিক স্বাধীন বাক্যকে একটি বাক্যে লিখলে সেগুলোর ১০. 'জীবন আমার বোন' কোন ধরনের সাহিত্যকর্ম?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "সংস্কৃত কলেজ",
+      "B": "প্রেসিডেন্সি কলেজ মাঝখানে কোন চিহ্ন বসে?",
+      "C": "কলকাতা বিশ্ববিদ্যালয়",
+      "D": "বিদ্যাসাগর কলেজ"
+    },
+    "answer": "A",
+    "question": "ঈশ্বরচন্দ্রকে কোন প্রতিষ্ঠান 'বিদ্যাসাগর' উপাধি প্রদান করে?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "সে কিছুতেই সন্তুষ্ট নয়",
+      "B": "দুবারের বেশী ফোন করিনি",
+      "C": "আমি অন্য কোথাও যাব না",
+      "D": "আপনি আমায় অবিশ্বাস করেছেন"
+    },
+    "answer": "D",
+    "question": "'লেটো' কী? ৩. কোনটি অস্তিবাচক বাক্য? পৃষ্ঠা: ৬৩২ (অগ্রদূত বাংলা; ১৩তম সংস্করণ)",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "প্রত্যয় দ্বারা",
+      "B": "উপসর্গ দ্বারা ৪. কোন বানানটি শুদ্ধ?",
+      "C": "সন্ধি দ্বারা",
+      "D": "বিভক্তি দ্বারা"
+    },
+    "answer": "C",
+    "question": "কোন বানানটি শুদ্ধ?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "উত্তরসুরী",
+      "B": "উত্তরসুরি ১৪. 'হাসি দিয়ে ঘরটাকে ভরিয়ে রাখতো সে'। বাক্যটিতে 'দিয়ে'",
+      "C": "উত্তরসূরি",
+      "D": "উত্তরসূরী"
+    },
+    "answer": "C",
+    "question": "'হাসি দিয়ে ঘরটাকে ভরিয়ে রাখতো সে'। বাক্যটিতে 'দিয়ে'",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "অব্যয়",
+      "B": "প্রত্যয় ৫. উপসর্গ সম্পর্কেনিচের কোনটি সঠিক নয়?",
+      "C": "অনুসর্গ",
+      "D": "উপসর্গ"
+    },
+    "answer": "C",
+    "question": "উপসর্গ সম্পর্কেনিচের কোনটি সঠিক নয়?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "অব্যয়সূচক শব্দাংশ",
+      "B": "স্বাধীন পদ হিসেবে বাক্যে ব্যবহৃত হয় ১৫. জাতিবাচক বিশেষ্যের দৃষ্টান্ত",
+      "C": "নতুন অর্থবোধক শব্দ তৈরি করে",
+      "D": "শব্দের অর্থের পূর্ণতা সাধন করে"
+    },
+    "answer": "B",
+    "question": "জাতিবাচক বিশেষ্যের দৃষ্টান্ত",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "গহ্বর",
+      "B": "চূড়া",
+      "C": "বরহীনা",
+      "D": "বরহীন"
+    },
+    "answer": "A",
+    "question": "'ভূপতি' রবীন্দ্রনাথ ঠাকুর এর কোন গল্পের চরিত্র?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "ভীতু",
+      "B": "লাজুক",
+      "C": "মুখরা",
+      "D": "বিড়ালমুখো"
+    },
+    "answer": "B",
+    "question": "'মেনিমুখো' বলতে বুঝায় ৭. সাদাটে হলুদ বর্ণকে কী বলা হয়?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "ধান শালিকের দেশ",
+      "B": "লাঙ্গল",
+      "C": "বার্তা",
+      "D": "উত্তরাধিকার"
+    },
+    "answer": "D",
+    "question": "'উচাটন' এর বিপরীত শব্দ কোনটি?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "পারাবার",
+      "B": "মহিধর",
+      "C": "রত্নাকর",
+      "D": "অর্ণব"
+    },
+    "answer": "B",
+    "question": "'সমুদ্র' এর প্রতিশব্দ নয় কোনটি?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "১৮৭৬-১৯৩৮",
+      "B": "১৮৬৮-১৯৪১",
+      "C": "১৮৮১-১৯৪৬ অগ্রদূত Recent Job Solution ১৯.কোনটি কথাসাহিত্যিক শরৎচন্দ্র চট্টোপাধ্যায়ের জীবনকাল? ২৯.At one's elbow",
+      "D": "১৮৭২-১৯৩৯"
+    },
+    "answer": "A",
+    "question": "কোনটি কথাসাহিত্যিক শরৎচন্দ্র চট্টোপাধ্যায়ের জীবনকাল? ২৯.At one's elbow",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "লেজে খেলা",
+      "B": "বুদ্ধদেব বসু",
+      "C": "আঁখি মুদা",
+      "D": "বর্ণিত সবাই"
+    },
+    "answer": "D",
+    "question": "কোন বাগধারাটির অর্থ 'চাতুরী করা'?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "দেশি শব্দ",
+      "B": "তদ্ভব শব্দ",
+      "C": "বিদেশি শব্দ",
+      "D": "তৎসম শব্দ"
+    },
+    "answer": "A",
+    "question": "'বঙ্গে সুফী প্রভাব' গ্রন্থটির রচয়িতা- পৃষ্ঠা: ২১৯ (অগ্রদূত বাংলা; ১৩তম সংস্করণ) ২৪. 'লাঠি' ও 'চাউল' শব্দ দুটি-",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "সদ+আশয়",
+      "B": "সৎ+আশয়",
+      "C": "সদা+শয়",
+      "D": "সৎ+শয়"
+    },
+    "answer": "B",
+    "question": "'সদাশয়' এর সন্ধি বিচ্ছেদ",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "To bestow importance",
+      "B": "To misinterpret . To make publicly known",
+      "C": "A useless undertaking . To reveal secret information",
+      "D": "To originate ২৭.A fool's errand"
+    },
+    "answer": "A",
+    "question": "To give currency",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "B": "He asked me if I could sing and I said that I could't. অগ্রদূত Recent Job Solution .I denied, when he asked me if I could sing.",
+      "D": "He asked me if I could sing and I said no."
+    },
+    "answer": "B",
+    "question": "He said, \"Can you sing?\" And I said, \"No\" . He asked me that could I sing and I refuse",
+    "id": 8,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "PQRS . PRSQ",
+      "B": "PROS",
+      "D": "PSRQ C"
+    },
+    "answer": "A",
+    "question": "Dermatologists tell us (P) that the skin (Q) is finely laminated coating (R) whose layered nature (S) has inspired comparisons with onions",
+    "id": 80,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "elegance",
+      "B": "resolution t. goodness",
+      "D": "originality"
+    },
+    "answer": "D",
+    "question": "Many artists believe that successful imitation, far from being symptomatic of a lack of... is the first step in learning to be creative . It has been established that (P) Einstein was",
+    "id": 83,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "adaptive (P) have made . inquisitive",
+      "B": "selective",
+      "D": "recetive"
+    },
+    "answer": "D",
+    "question": "The newborn human infant is not a passive figure, nor an active one, but what might be called an actively ... one, eagerly attentive as it is to sights and sounds. 9. Some achievements",
+    "id": 8,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "PQRS",
+      "B": "QRSP 8.In certain forms of discourse i.e. the parable central point of a message can be effectively communicated even thought this point is not... . RPSQ",
+      "D": "RSPQ"
+    },
+    "answer": "C",
+    "question": "In certain forms of discourse i.e. the parable central point of a message can be effectively communicated even thought this point is not... . RPSQ",
+    "id": 8,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "PQSR .PSRQ 88.While nurturing parents can compensate for adversity, cold or inconsistent parents may...... it. . exacerbate . eradicate",
+      "B": "neutralize",
+      "D": "ameliorate"
+    },
+    "answer": "A",
+    "question": "Reading books (P) is a habit (Q) but also enlarges the mind (R) because it not only increases knowledge (S) which must be cultivated by everybody",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "B": "11:30 am",
+      "D": "11:42am"
+    },
+    "answer": "C",
+    "question": "In every 30 minutes the time of a watch increases by 3 minutes. After showing the correct time at 5",
+    "id": 8,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "I only",
+      "B": "III only ঘ t.I and II only",
+      "D": "II only is ৪৯.The Jungle boys but does not knows how 4 know to stop it গ to.Knowledge of local languagenecessary for bank officers because the are to understand what their খ customers say No error"
+    },
+    "answer": "D",
+    "question": "The Jungle boys but does not knows how 4 know to stop it গ to.Knowledge of local languagenecessary for bank officers because the are to understand what their খ customers say No error উ. ঘ",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "240 . 600 300",
+      "D": "800"
+    },
+    "answer": "A",
+    "question": "300",
+    "id": 240,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "13 ศ. 23 2. 17",
+      "D": "21"
+    },
+    "answer": "C",
+    "question": "The number 3 divides 'a' with a result of 'b' and a reminder of 2. The number 3 divides 'b' with a result of 2 and 'a' reminder of 1. What is the value of 'a'?",
+    "id": 9,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "23 รศ. 20",
+      "B": "18",
+      "D": "22"
+    },
+    "answer": "A",
+    "question": "If the length of the third side is an integer, what is the least possible perimeter of the triangle?",
+    "id": 11,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "24 60° A",
+      "B": "may increase or decrease",
+      "C": "will increase",
+      "D": "is increased by 10%"
+    },
+    "answer": "D",
+    "question": "The average length of the sides of AABC is 12. What is the perimeter at AABC?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "40 seconds . 48 seconds",
+      "B": "44 seconds",
+      "D": "46 seconds"
+    },
+    "answer": "C",
+    "question": "There are 23 poles with a constant distance between each pole. A car takes 24 seconds to reach the 12th pole. How much more time will it take to reach the last pole?",
+    "id": 8,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "4 . 5 2. 3",
+      "D": "6"
+    },
+    "answer": "A",
+    "question": "2. 3",
+    "id": 4,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "6 6 2 9 9 3 1 .8",
+      "D": "12"
+    },
+    "answer": "A",
+    "question": "A boat goes 13km upstream in 39 minutes. The speed of stream is 3km/hr. The speed of boat in still water is4",
+    "id": 9,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "60m . 40m .What percentage of numbers from 1 to 70 have squares that end in the digit 1? . 20m",
+      "D": "10m"
+    },
+    "answer": "C",
+    "question": "A has a start of 140m. Then A wins by",
+    "id": 4,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "14 . 12 ศ. 20",
+      "D": "21"
+    },
+    "answer": "C",
+    "question": "ศ. 20",
+    "id": 14,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "remains unchanged",
+      "B": "4% loss",
+      "D": "4% gain"
+    },
+    "answer": "B",
+    "question": "A person buys certain number of . Apollo-17 marbles at 20 per taka and an equal t. Chandrayaan-3 number at 30 per tak",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "B": "Bangladesh Association of Software and Information Services.",
+      "C": "Bangladesh Association of Software and Initiation Services.",
+      "D": "None of these অগ্রদূত Recent Job Solution"
+    },
+    "answer": "B",
+    "question": "GPT stands for- . General Pre-trained Transformer.",
+    "id": 99,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "B": "February 20, 1969 . February 22, 1970",
+      "D": "February 23, 1968"
+    },
+    "answer": "A",
+    "question": "The people of Bangladesh bestowed the title of 'Bangabandhu' on Sheikh Mujibur Rahman on- . February 23, 1969",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Bangladesh is a lower middle-income country.",
+      "B": "Bangladesh is an upper middle-income country. . Bangladesh is a low-income country.",
+      "D": "Bangladesh is a high-income country."
+    },
+    "answer": "A",
+    "question": "Which one of the following is true?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "15th century . 14th century",
+      "C": "16h century",
+      "D": "17th century"
+    },
+    "answer": "C",
+    "question": "The Mona Lisa portrait was painted by Leonardo da Vinci in the",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Aristotle",
+      "B": "Socrates",
+      "C": "Plato",
+      "D": "Pythagoras"
+    },
+    "answer": "A",
+    "question": "Who wrote the book 'Politics'?",
+    "id": 98,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "mining 8.The highest literate district in",
+      "B": "Bagerhat . Cumilla",
+      "C": "bubble Bangladesh is",
+      "D": "Barishal"
+    },
+    "answer": "A",
+    "question": "The highest literate district in",
+    "id": 8,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Jon Fosse . Claudia Goldin",
+      "C": "Narges Mohammad",
+      "D": "Drew Weissman"
+    },
+    "answer": "A",
+    "question": "The Nobel Prize in Literature-2023 awarded tois",
+    "id": 9,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "RAM . Hard Disk",
+      "B": "Cache",
+      "D": "CD"
+    },
+    "answer": "B",
+    "question": "Which Memory has the highest speed of access?",
+    "id": 8,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Oracle Corporation",
+      "B": "Microsoft Corporation",
+      "C": "Sun Microsystems",
+      "D": "IBM"
+    },
+    "answer": "A",
+    "question": "Who owns the Java programming language?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Alt+U",
+      "B": "Ctrl+U",
+      "C": "Alt+L",
+      "D": "Ctrl+Alt+U"
+    },
+    "answer": "B",
+    "question": "Which key board command is used to underline a word or sentence is Ms Word?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "PNG . BMP",
+      "B": "GIF",
+      "D": "GUI"
+    },
+    "answer": "D",
+    "question": "Which of the following is not an image / graphic file format?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (০৮.০৩.২০২৪)"
+  }
+]

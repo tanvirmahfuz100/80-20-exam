@@ -1,0 +1,3062 @@
+﻿[
+  {
+    "id": 1,
+    "question": "বাংলা ভাষার ব্যাকরণ রচনা করেননি-",
+    "options": {
+      "A": "জন বিমস",
+      "B": "ডানকান ফোর্বস",
+      "C": "জর্জ গ্রিয়ারসন",
+      "D": "জেমস কিথ"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 2,
+    "question": "'শ্রবণ' শব্দের অর্থ হলো-",
+    "options": {
+      "A": "অনুধান",
+      "B": "ক্ষরণ",
+      "C": "ক্ষুরধার",
+      "D": "অভিনিবেশ"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 3,
+    "question": "‘Gratuity শব্দের বাংলা পরিভাষা হলো-",
+    "options": {
+      "A": "মহতু",
+      "B": "বিদ্বান",
+      "C": "আনুতোষিক",
+      "D": "মঞ্জুরি"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 4,
+    "question": "নিচের পত্রিকাগুলোর মধ্যে যেটি ব্যতিক্রমধর্মী-",
+    "options": {
+      "A": "প্রগতি",
+      "B": "কালিকলম",
+      "C": "সীমান্ত",
+      "D": "পূর্বাশা"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 5,
+    "question": "বিকারজাত শব্দযোগে দ্বিরুক্তিকর উদাহরণ হলো-",
+    "options": {
+      "A": "হাড়িপাতিল",
+      "B": "fagiag",
+      "C": "বকাঝকা",
+      "D": "মাঠেঘাটে"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 6,
+    "question": "The idiom ‘hit the sack’ means-",
+    "options": {
+      "A": "to go to bed",
+      "B": "to reach the target",
+      "C": "to solve a problem",
+      "D": "to get a job"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 7,
+    "question": "Change into passive voice “people believe he is a scholar’",
+    "options": {
+      "A": "He is believed scholar by the people",
+      "B": "He is believed to be a scholar",
+      "C": "He is a scholar as people believe",
+      "D": "He is being believed a scholar"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 8,
+    "question": "Choose appropriate word to join: “She was waiting for a taxi. She found car broken down’.",
+    "options": {
+      "A": "when",
+      "B": "and",
+      "C": "yet",
+      "D": "as if"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 9,
+    "question": "Find the sentence that expresses a negative comment:",
+    "options": {
+      "A": "Joyee is a whiz at science",
+      "B": "Subho is so flakey",
+      "C": "They are typing the knot soon",
+      "D": "I know that he has to cram tonight"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 10,
+    "question": "Aumia did better in the examination___ any of her classmates.",
+    "options": {
+      "A": "much, as",
+      "B": "still, even",
+      "C": "rather, than",
+      "D": "far, from"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 11,
+    "question": "A lucrative career is not very easy tocome__.",
+    "options": {
+      "A": "up",
+      "B": "out",
+      "C": "in",
+      "D": "by"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 12,
+    "question": "Parents should not pressurize kids. They must not dioose friends for their kids’",
+    "options": {
+      "A": "too",
+      "B": "as well",
+      "C": "though",
+      "D": "either"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 13,
+    "question": "Health crisis __ antibiotic overdose is a burning issue.",
+    "options": {
+      "A": "instead of",
+      "B": "due to",
+      "C": "in excess",
+      "D": "in lieu of"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 14,
+    "question": "Identify the word class of the bold faced word: The dark skies cleared and the sun shone dazzling.",
+    "options": {
+      "A": "adjective",
+      "B": "adverb",
+      "C": "noun",
+      "D": "verb"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 15,
+    "question": "ক্রিয়ার দ্বিরুক্তি যোগে গঠিত বিশেষণের দৃষ্টান্ত হলো-",
+    "options": {
+      "A": "ডেকে ডেকে",
+      "B": "বারে বারে",
+      "C": "যায় যায়",
+      "D": "দেখতে দেখতে"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 16,
+    "question": "শামসুর রহমান রচিত “ইলেক্লীর গান” কবিতায় মিথের আড়ালে দ্যোতিত হয়েছে-",
+    "options": {
+      "A": "পিতৃহারা বঙ্গবন্ধুর কন্যার আবেগ",
+      "B": "সন্তানহারা জননীর বেদনা",
+      "C": "অপরিসীম অপত্যস্তৃহ",
+      "D": "শিশুপুত্র রাসেল-হত্যার করুণ কাহিনি"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 17,
+    "question": "বিশ শতকের যাটের দশকের কবিদের জন্য প্রাসঙ্গিক-",
+    "options": {
+      "A": "অনির্দেশ সৌন্দর্যচেতনা",
+      "B": "রূপক-প্রতীকের আড়াল",
+      "C": "নির্ভাঁক সত্যপ্রকাশ",
+      "D": "বিবিক্ত সমাজচেতনা"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 18,
+    "question": "সৈয়দ শামসুল হকের নুরুদ্দীরে সারাজীবন কাব্যনাটকে “নিলক্ষার নীল'-প্রবন্ধটি প্রকাশ করেছে-",
+    "options": {
+      "A": "অনন্ত নক্ষত্রবীথি",
+      "B": "দৃষ্টিসীমা অতিক্রমী আকাশ",
+      "C": "বিষাক্ত পৃথিবী",
+      "D": "নীল জ্যোৎল্লা"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 19,
+    "question": "নিচের যেটি মধ্যযুগের সাহিত্যধারার অন্তর্ভূক্ত",
+    "options": {
+      "A": "পত্রসাহিত্য",
+      "B": "প্রহসন",
+      "C": "পাচালি",
+      "D": "গীতিকাব্য"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 20,
+    "question": "বাংলা ভাষায় ব্যবহৃত 'আলু' প্রত্যয় যে রূপ থেকে বিবর্তিত হয়েছে-",
+    "options": {
+      "A": "আলু",
+      "B": "আলুষ",
+      "C": "আল্ম্য",
+      "D": "আলুচ্‌"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 21,
+    "question": "নিচের যেটি বনহুৰীহি সমাজের দৃষ্টান্ত নয়-",
+    "options": {
+      "A": "অন্তরীপ",
+      "B": "a",
+      "C": "অপয়া",
+      "D": "অনুতাপ"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 22,
+    "question": "“তোমাকে দিয়ে এ সমস্যার সমাধান হবে, তা আশা করা যায়নি*। বাক্যটি যে বাচ্যের উদাহরণ-",
+    "options": {
+      "A": "কর্তৃবাচ্য",
+      "B": "ভাববাচ্য",
+      "C": "কর্মকর্তৃবাচ্য",
+      "D": "কর্মবাচ্য"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 23,
+    "question": "পাঠের বর্জনকৃত অংশ নির্দেশে ব্যবহৃত হয়-",
+    "options": {
+      "A": "’ চিহ্ন",
+      "B": "(0 চিহ্ন",
+      "C": "..চিহ্ন",
+      "D": "“” চিহ্ন"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 24,
+    "question": "The sum of two numbers is 22 and the sum of their squares is 404. The product of two numbers is-",
+    "options": {
+      "A": "40",
+      "B": "44",
+      "C": "80",
+      "D": "88"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 25,
+    "question": "If x+1/x=3 then x-1/x=?",
+    "options": {
+      "A": "V5",
+      "B": "Vi3",
+      "C": "a",
+      "D": "0"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 26,
+    "question": "If the rate of interest is 10% per annum and is compounded half yearly, the principal of Tk. 4000 in 3/2 years will amount to-",
+    "options": {
+      "A": "Tk. 4630.00",
+      "B": "Tk. 4630.50",
+      "C": "Tk. 4631.50",
+      "D": "Tk. 4632.00"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 27,
+    "question": "A tap can fill a tank in 6 hours. After half the tank is filled, another similar tap is opened. What is the total time taken to fill the tank completely?",
+    "options": {
+      "A": "3h30m",
+      "B": "3h45m",
+      "C": "4h30m",
+      "D": "4h"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 28,
+    "question": "The LCM and HCF of two numbers are 90 and 15 respectively. If one number is 45, the other number is-",
+    "options": {
+      "A": "30",
+      "B": "60",
+      "C": "15",
+      "D": "75"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 29,
+    "question": "If 5% is gained by selling an article for Tk. 350 then selling it for Tk. 340, the cost of the article is-",
+    "options": {
+      "A": "Tk. 180",
+      "B": "Tk. 150",
+      "C": "Tk. 200",
+      "D": "Tk. 250"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 30,
+    "question": "Translate into English: বিশ্বব্যাপী করোনাভাইরাস বর্তমানে নিয়ন্ত্রণে এসেছে ।-",
+    "options": {
+      "A": "At present, the Corona virus has come under control in all over the world",
+      "B": "The Corona virus, at present came under controlled in the world",
+      "C": "The Corona virus is now under controlled all over the world",
+      "D": "The Corona virus has been now come under controlled in all over the world"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 31,
+    "question": "Choose the correct spelling",
+    "options": {
+      "A": "Pedestrain",
+      "B": "Pedistrain",
+      "C": "Padistrean",
+      "D": "Padistriean"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 32,
+    "question": "According to one of the most famous sonnets of Shakespeare, “Shall I compare these to a summer’s day?”, the eternal beauty will-",
+    "options": {
+      "A": "become more colourful a summer’s day",
+      "B": "be more attractive than golden face",
+      "C": "live as long as the people read the sonnet",
+      "D": "be more stunning in course of time"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 33,
+    "question": "Halku is a kind of-",
+    "options": {
+      "A": "short story",
+      "B": "Epic",
+      "C": "poetry",
+      "D": "novel"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 34,
+    "question": "Find the correct question tag; Let us discuss___",
+    "options": {
+      "A": "can we?",
+      "B": "do we?",
+      "C": "shall we?",
+      "D": "don’t we?"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 35,
+    "question": "Which is an antonym of ‘fantasy’?",
+    "options": {
+      "A": "figment",
+      "B": "veracity",
+      "C": "mirage",
+      "D": "prefigure"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 36,
+    "question": "Find the figure of speech which is different from other options-",
+    "options": {
+      "A": "peace force",
+      "B": "free market",
+      "C": "only choice",
+      "D": "golden years"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 37,
+    "question": "“One man in his time plays many parts” is a quote of-",
+    "options": {
+      "A": "William Shakespeare",
+      "B": "Robert Frost",
+      "C": "Ben Jonson",
+      "D": "Thomas Kyd"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 38,
+    "question": "A separate introductory section of a literary, dramatic, or musical work is called-",
+    "options": {
+      "A": "preface",
+      "B": "prologue",
+      "C": "epilogue",
+      "D": "personal"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 39,
+    "question": "Make indirect: The boy told the shopkeeper, “Can you give me a candy please?”",
+    "options": {
+      "A": "The boy asked the shopkeeper if he can give him a candy?",
+      "B": "The boy said please to the shopkeeper and asked to give him a candy?",
+      "C": "The boy requested the shopkeeper if he could give him a candy?",
+      "D": "The boy said to the shopkeeper if he can give him a candy?"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 40,
+    "question": "If sec (x-30°) = 2৬3, tanx=?",
+    "options": {
+      "A": "V3",
+      "B": "1/2",
+      "C": "1/v3",
+      "D": "0"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 41,
+    "question": "A sum of money at simple interest amounts to Tk. 5600 in 2 years and Tk. 6500 in 5 years at the rate of-",
+    "options": {
+      "A": "4%",
+      "B": "3%",
+      "C": "5%",
+      "D": "6%"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 42,
+    "question": "When bent in the form of a circle a wire has a radius of 28 cm. If it is bent in the form of a square, what will be its area in cm”?",
+    "options": {
+      "A": "7744",
+      "B": "5808",
+      "C": "1936",
+      "D": "3872"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 43,
+    "question": "What is the largest number that divides 84, 144 or 36 without any remainder?",
+    "options": {
+      "A": "6",
+      "B": "12",
+      "C": "18",
+      "D": "24"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 44,
+    "question": "The ratio of two numbers is 7 : 4. If 8 is added to both the numbers ratio becomes 13 : 8. What is the smaller number?",
+    "options": {
+      "A": "52",
+      "B": "56",
+      "C": "38",
+      "D": "40"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 45,
+    "question": "The total surface area of a hemisphere of radius r is-",
+    "options": {
+      "A": "4nr°",
+      "B": "mr",
+      "C": "2nr",
+      "D": "370"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 46,
+    "question": "A mixture of 20 kg of sprit and water contains 10% water. How much water must be added to mixture to raise the percentage of water to 25%?",
+    "options": {
+      "A": "2 kg",
+      "B": "4kg",
+      "C": "5kg",
+      "D": "6 kg"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 47,
+    "question": "The height of an equilateral tringle with a side 2 cm is-",
+    "options": {
+      "A": "¥3 cm",
+      "B": "2v3 cm",
+      "C": "3 V2 cm",
+      "D": "V5 cm"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 48,
+    "question": "What is the unit digit in the product 84x59x1376?",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 49,
+    "question": "What is the probability that an integer selected at random from those between 20 and 100 inclusive is a multiple of 15?",
+    "options": {
+      "A": "5/79",
+      "B": "2/27",
+      "C": "5/81",
+      "D": "6/79"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 50,
+    "question": "The area of a triangle with sides 3 cm, 5 cm, 6 cm is-",
+    "options": {
+      "A": "28 cm?",
+      "B": "2V14 cm?",
+      "C": "3V14 cm?",
+      "D": "V14 em?"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 51,
+    "question": "An electric pole casts a ¥3m long shadow on the ground at an elevation 60°, the height of the pole is-",
+    "options": {
+      "A": "3m",
+      "B": "3 ¥3m",
+      "C": "3¥2m",
+      "D": "2¥3m"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 52,
+    "question": "The next number in the sequence 1, 4, 8, 17, 33, .......... iS-",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "58",
+      "D": "60"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 53,
+    "question": "The inverse of f (x) =2x-— 1 is-",
+    "options": {
+      "A": "(x-1)/2",
+      "B": "(x+1)/2",
+      "C": "2x-1",
+      "D": "2x+1"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 54,
+    "question": "has set to build the largest banking network by providing financial services through digital post offices across the country.",
+    "options": {
+      "A": "Dutch-Bangla Bank",
+      "B": "IFIC Bank",
+      "C": "Trust Bank",
+      "D": "Bank Asia"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 55,
+    "question": "The last international conference attended by Bangabandhu was-",
+    "options": {
+      "A": "Commonwealth Conference",
+      "B": "NAM conference",
+      "C": "OIC conference",
+      "D": "UNSCO conference"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 56,
+    "question": "In COP26 summit, a stark message, “We are digging our own graves” was sent by-",
+    "options": {
+      "A": "Antonio Guterres",
+      "B": "Scott Morrison",
+      "C": "Greta Thunberg",
+      "D": "Sheikh Hasina"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 57,
+    "question": "‘Kids Clips’, a children-friendly content is developed by-",
+    "options": {
+      "A": "Amazon",
+      "B": "Cartoon Network",
+      "C": "Netflix",
+      "D": "YouTube"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 58,
+    "question": "The president of _ will attend the Golden Jubilee Celebration of Bangladesh.",
+    "options": {
+      "A": "Sri Lanka",
+      "B": "Maldives",
+      "C": "India",
+      "D": "France"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 59,
+    "question": "The Secret Documents of Intelligence Branch on the Father of the Nation Bangabandhu Sheikh Mujibur Rahman, Vol.01 ends with the documents",
+    "options": {
+      "A": "1948",
+      "B": "1949",
+      "C": "1950",
+      "D": "1951"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 60,
+    "question": "The formula of antiviral COVID19 oral medicine, ‘Molnupiravir’ will be shared with the developing countries by Bio Therapeutics and-",
+    "options": {
+      "A": "Merck",
+      "B": "AstraZeneca",
+      "C": "Moderna",
+      "D": "Pfizer"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 61,
+    "question": "The ‘Actuarial Science’ is associated with-",
+    "options": {
+      "A": "insurance",
+      "B": "banking",
+      "C": "micro finance",
+      "D": "space technology"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 62,
+    "question": "In the short-run, which of the following always gets smaller as output increases?",
+    "options": {
+      "A": "Short-run-average-cost",
+      "B": "Short-run marginal cost",
+      "C": "Average variable cost",
+      "D": "Average fixed cost"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 63,
+    "question": "The 2021 Nobel Prize for economic science has been awarded in one half to-",
+    "options": {
+      "A": "Joshua D Angrist",
+      "B": "Guido W Imbens",
+      "C": "David Card",
+      "D": "Maria Ressa"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 64,
+    "question": "identifies a cell in Ms-Excel.",
+    "options": {
+      "A": "Name",
+      "B": "Label",
+      "C": "String",
+      "D": "Address"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 65,
+    "question": "A microcomputer or minicomputer is the controller unit of-",
+    "options": {
+      "A": "CNC",
+      "B": "AST",
+      "C": "POLAN",
+      "D": "EPN"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 66,
+    "question": "_ _ allow the user to automate frequently used formatting settings-",
+    "options": {
+      "A": "Merges",
+      "B": "Macros",
+      "C": "Task-pans",
+      "D": "Add-Ins"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 67,
+    "question": "In MS-PowerPoint, the slide sorter view displays slides in-",
+    "options": {
+      "A": "thumbnail form",
+      "B": "detail form",
+      "C": "list form",
+      "D": "large icon form"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 68,
+    "question": "Computer Monitor is also known as-",
+    "options": {
+      "A": "DVU",
+      "B": "GUP",
+      "C": "VDU",
+      "D": "GPU"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 69,
+    "question": "Which one is the result of the output given by a computer?",
+    "options": {
+      "A": "Data",
+      "B": "Instruction",
+      "C": "Intervention",
+      "D": "Information"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 70,
+    "question": "Which is not a type of scanner?",
+    "options": {
+      "A": "Flatbed",
+      "B": "Sheet-fed",
+      "C": "Handheld",
+      "D": "Daisy-wheel"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 71,
+    "question": "UBID is related to-",
+    "options": {
+      "A": "Power sector",
+      "B": "E-commerce sector",
+      "C": "IT sector",
+      "D": "RMG sector"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 72,
+    "question": "The saved BIOS configuration data is stored at-",
+    "options": {
+      "A": "CMOS",
+      "B": "HDD",
+      "C": "Cache",
+      "D": "RAM"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 73,
+    "question": "Euro is the currency of countries of European Union.",
+    "options": {
+      "A": "15",
+      "B": "18",
+      "C": "19",
+      "D": "20"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 74,
+    "question": "In the Mujibnagar Government, _ was one of the members of the ‘Al Party Advisory Council.”",
+    "options": {
+      "A": "Manoranjan Dhar",
+      "B": "M. Mansur Ali",
+      "C": "Yousuf Ali",
+      "D": "M A 0 Osmani"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 75,
+    "question": "According to the NBR, the highest taxpayer 2021 in the ‘Senior citizen’ category is-",
+    "options": {
+      "A": "Syed Abul Hossain",
+      "B": "Golam Dastogir Gazi",
+      "C": "Nuruzzaman Khan",
+      "D": "Mohammad Kamrul"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 76,
+    "question": "Recently the government has announced ‘The president’s Award for Industrial Development 2019’ to recognize ___—s companies.",
+    "options": {
+      "A": "18",
+      "B": "19",
+      "C": "20",
+      "D": "Zi"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 77,
+    "question": "BSEC has decided to form ‘Subama Jayanti Fund’ under the patronage of-",
+    "options": {
+      "A": "CMSF",
+      "B": "EBL",
+      "C": "BSB",
+      "D": "BIDA"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 78,
+    "question": "The Archeology Department is working to deciare __ as a preserved antiquity -",
+    "options": {
+      "A": "Shah Porir dwip",
+      "B": "Porir pahar",
+      "C": "Tomb of Pori Bibi",
+      "D": "Porir Hat Bazar"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 79,
+    "question": "__—~ won the first-ever Silver Medial for Bangladesh in Asian Archery Mixed Event —",
+    "options": {
+      "A": "Jahir & Purnima",
+      "B": "Atonu & Dola",
+      "C": "Ruman & Sana",
+      "D": "Diya & Rubel"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 80,
+    "question": "Most of the tea plantation workers speak in-",
+    "options": {
+      "A": "Kuki",
+      "B": "Oraon",
+      "C": "Tipra",
+      "D": "Chak"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 81,
+    "question": "Indian government has awarded “Padma Bhushan Award-2020’ to the senior diplomat of Bangladesh-",
+    "options": {
+      "A": "M Hossain Ali",
+      "B": "Humayun Rashid Choudhury",
+      "C": "Syed Muazzem Ali",
+      "D": "Fakhruddin Ahmed"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 82,
+    "question": "The shortcut key for activating ‘Reference Tab’ is-",
+    "options": {
+      "A": "Alt+W",
+      "B": "Alt+S",
+      "C": "Ctrl+S",
+      "D": "Ctrl+R"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 83,
+    "question": "সৈয়দ ওয়ালীউল্লাহ-র ইংরেজি ভাষায় লিখিত একটি রচনা হলো-",
+    "options": {
+      "A": "Night of no moon",
+      "B": "How to cook beans",
+      "C": "Tree without roots",
+      "D": "Cry river cry"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 84,
+    "question": "বাংলা লোকসাহিত্য সংশ্লিষ্ট 'আলকাপ” হলো এক প্রকার-",
+    "options": {
+      "A": "কর্মসংগীত",
+      "B": "পালাগান",
+      "C": "সারিগান",
+      "D": "বিবেকের গান"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 85,
+    "question": "যে রচনাটির সঙ্গে রোকেয়ার সাহিত্যকর্মের সম্পর্ক নেই-",
+    "options": {
+      "A": "পিপাসা",
+      "B": "সওগাত",
+      "C": "সৌরজগৎ",
+      "D": "লুৎফউন্নেসা"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 86,
+    "question": "মানবদেহের যে প্রত্যঙ্গ ঘোষতা নির্ধারণে মুখ্য ভূমিকা পালন করে-",
+    "options": {
+      "A": "জিভ",
+      "B": "স্বরতন্ত্রী",
+      "C": "কষ্ঠনালি",
+      "D": "মুখবিবর"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 87,
+    "question": "বিদেশি উৎস থেকে আগত অব্যয় শব্দ হলো-",
+    "options": {
+      "A": "খুব",
+      "B": "আবার",
+      "C": "আর",
+      "D": "যদি"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 88,
+    "question": "Shubho ___a fortune when his great uncle passed on.",
+    "options": {
+      "A": "came along",
+      "B": "came into",
+      "C": "came through",
+      "D": "came down."
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 89,
+    "question": "Excuses do not work. You should try and cut __ it.",
+    "options": {
+      "A": "back",
+      "B": "out",
+      "C": "up to",
+      "D": "back on"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 90,
+    "question": "Find out the rightly spelled word.",
+    "options": {
+      "A": "Embarrassment",
+      "B": "Embarassment",
+      "C": "Embarrasment",
+      "D": "Embrassment"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 91,
+    "question": "Which of the following is not a literary device used for aesthetic effect in poetry?",
+    "options": {
+      "A": "Assonance",
+      "B": "Onomatopoeia",
+      "C": "Rhyme",
+      "D": "Grammar"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 92,
+    "question": "Find the best linking word to join:",
+    "options": {
+      "A": "‘you are celebrating the birthday.’",
+      "B": "‘Your friend is dead serious.’ A. whence B. since",
+      "C": "whereas",
+      "D": "as"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 93,
+    "question": "The word related to “Play on words” is-",
+    "options": {
+      "A": "pun",
+      "B": "simile",
+      "C": "haiku",
+      "D": "metaphor"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 94,
+    "question": "‘Free market’ is an example of-",
+    "options": {
+      "A": "Irony",
+      "B": "Oxymoron",
+      "C": "Synecdoche",
+      "D": "Hyperbole"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 95,
+    "question": "Which of the following techniques was NOT used in the Renaissance-art?",
+    "options": {
+      "A": "Realism",
+      "B": "Perspective",
+      "C": "Individualism",
+      "D": "Abstraction"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 96,
+    "question": "Which phrase indicates the interior flow of thought employed in high- modern literature?",
+    "options": {
+      "A": "Automatic writing",
+      "B": "Confused daze",
+      "C": "Free association",
+      "D": "Stream of consciousness"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 97,
+    "question": "'নাতিশীতোষ্ণমপ্তল' শব্দে মোট অক্ষরের সংখ্যা-",
+    "options": {
+      "A": "৬টি",
+      "B": "৭টি",
+      "C": "৮টি",
+      "D": "৯টি"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 98,
+    "question": "নিচের যে বাগধারাটি অপর তিনটি থেকে বিসদৃশ-",
+    "options": {
+      "A": "কেতা দুরস্ত",
+      "B": "কেউকেটা",
+      "C": "কাপুড়ে বাবু",
+      "D": "কলম পেষা"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 99,
+    "question": "'বসুন্ধরা” শব্দের সমার্থক শব্দযুগল-",
+    "options": {
+      "A": "বসুমতী, TAT",
+      "B": "পৃথিবী, যামিনী",
+      "C": "পৃথী, তটিনী",
+      "D": "দুনিয়া, সিতারা"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 100,
+    "question": "কবি শাহ মুহম্মদ সগীরের “শাহ* উপাধি থেকে অনুমান করা যায় যে-",
+    "options": {
+      "A": "তিনি সুলতানি আমলের কবি |",
+      "B": "তিনি দরবেশ-বংশ জাত |",
+      "C": "তিনি রাজকর্মচারি ছিলেন |",
+      "D": "তিনি পারস্যের অধিবাসী ছিলেন । ="
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 101,
+    "question": "Weather report: “It’s seven o’clock in Dhaka and ”",
+    "options": {
+      "A": "there is rains.",
+      "B": "it’s raining.",
+      "C": "it rains.",
+      "D": "it rained."
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 102,
+    "question": "Icouldhardly _ the ship in the distance.",
+    "options": {
+      "A": "see out",
+      "B": "look out",
+      "C": "make out",
+      "D": "seen"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 103,
+    "question": "28 is divided into two parts such that 6 times the first part added to 4 times the second part makes 152. The first part is-",
+    "options": {
+      "A": "16",
+      "B": "16",
+      "C": "20",
+      "D": "22"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 104,
+    "question": "Two baskets together have 640 oranges. If one-fifth of the oranges in the first basket be taken to the second basket then, numbers of oranges in both baskets become equal. The number of oranges in the first basket is-",
+    "options": {
+      "A": "800",
+      "B": "600",
+      "C": "400",
+      "D": "300"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 105,
+    "question": "What is the arithmetic mean of the first 100 natural numbers?",
+    "options": {
+      "A": "50",
+      "B": "50.5",
+      "C": "51",
+      "D": "51.5"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 106,
+    "question": "Find the least five-digit number which can be divided by 8, 12, 16 and 20 leaving remainders 1, 5, 9 and 13, respectively.",
+    "options": {
+      "A": "10003",
+      "B": "10093",
+      "C": "10073",
+      "D": "10013"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 107,
+    "question": "/ 50110011135 only 3 classes having 20, 30 and 40 students respectively. The percentages of students passed are 30%, 50% and 60% respectively. Find the percentage of passed students of the entire school.",
+    "options": {
+      "A": "40",
+      "B": "50",
+      "C": "60",
+      "D": "30"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 108,
+    "question": "The sentence which is not expressing any passive sense:",
+    "options": {
+      "A": "1111 have my hair cut.",
+      "B": "I got fired yesterday.",
+      "C": "They made me do it.",
+      "D": "I’m getting all my floors polished."
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 109,
+    "question": "Change into indirect speech: “Ill have a cup of tea,” my father said, “because I’m not hungry.”",
+    "options": {
+      "A": "My father said that he will have a cup of tea because he was not hungry.",
+      "B": "My father said that he would have had a cup of tea because he was not hungry.",
+      "C": "My father said that he would have a cup of tea because he was not hungry.",
+      "D": "My father said that he would had a cup of tea because he was not hungry."
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 110,
+    "question": "Select the right form of verb: “A canophilist went to Kataban and found dogs (keep) in cages for sale.",
+    "options": {
+      "A": "had been kept",
+      "B": "kept",
+      "C": "had kept",
+      "D": "were keeping"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 111,
+    "question": "Select the best sentence with the appropriate use of the idiom: “Get off the ground”.",
+    "options": {
+      "A": "He is a well-known industrialist and has recently got off the ground.",
+      "B": "The aircraft is out of order and it is ready to get off the ground.",
+      "C": "Bangladesh Bank helps the established banks to get off the groun",
+      "D": "Without financial support, the movie is unlikely to get off the ground."
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 112,
+    "question": "The sum of four consecutive even integers is 60. What is the value of the largest number?",
+    "options": {
+      "A": "14",
+      "B": "16",
+      "C": "18",
+      "D": "20"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 113,
+    "question": "The height of a cylinder is four times the radius of the cylinder. If the volume of the cylinder is 25670077212, What is the radius of the cylinder?",
+    "options": {
+      "A": "4cm",
+      "B": "8 cm",
+      "C": "16cm",
+      "D": "24 cm"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 114,
+    "question": "A sum of money placed at compound interest doubles itself in 4 years. In how many years will it amount to 8 times itself?",
+    "options": {
+      "A": "12 years",
+      "B": "8 years",
+      "C": "16 years",
+      "D": "64 years"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 115,
+    "question": "The city library donated some books to a class. If each student takes 4 books, there will be 20 books left, if 3 students do not take a book and the rest of the students take 5 books each, there will be no books left. How many books were donated to the class?",
+    "options": {
+      "A": "120",
+      "B": "140",
+      "C": "160",
+      "D": "175"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 116,
+    "question": "3108102 + [08105 =?",
+    "options": {
+      "A": "logio (=)",
+      "B": "10810 (=)",
+      "C": "logio (=)",
+      "D": "log:o(40)"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 117,
+    "question": "The tool used to find a similar word in a document is called:",
+    "options": {
+      "A": "Finder",
+      "B": "Thesaurus",
+      "C": "Dictionary",
+      "D": "Find and Replace"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 118,
+    "question": "In MS-Word, Bullets and Numbering are in the tab:",
+    "options": {
+      "A": "Insert",
+      "B": "View",
+      "C": "Home",
+      "D": "Design"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 119,
+    "question": ". _ দাদ displays all the slides in a presentation in horizontally sequenced thumbnails.",
+    "options": {
+      "A": "Master view",
+      "B": "Outline",
+      "C": "Slide sorter",
+      "D": "Web view"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 120,
+    "question": "Different attributes in two different tables having same name are referred to as-",
+    "options": {
+      "A": "Acronym",
+      "B": "Synonym",
+      "C": "Homonym",
+      "D": "Mutually exclusive"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 121,
+    "question": "The Country with one of the smallest, Carbon footprints is-",
+    "options": {
+      "A": "Tuvalu",
+      "B": "Japan",
+      "C": "USA",
+      "D": "Russia"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 122,
+    "question": "The word ‘Mycology’ is related to-",
+    "options": {
+      "A": "mitochondria",
+      "B": "mushroom",
+      "C": "mutation",
+      "D": "meteorology"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 123,
+    "question": "111000110311001115 are flipped, what is the probability that they all will come up heads?",
+    "options": {
+      "A": "3/16",
+      "B": "1/4",
+      "C": "1/8",
+      "D": "1/16"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 124,
+    "question": "If the ratio of principal and yearly amount be in the ratio 25:28, then the yearly rate of interest is-",
+    "options": {
+      "A": "3%",
+      "B": "12%",
+      "C": "102%",
+      "D": "8%"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 125,
+    "question": "The __ government has set out its vision for a Green industrial Revolution.",
+    "options": {
+      "A": "Norwegian",
+      "B": "UK",
+      "C": "USA",
+      "D": "Swedish"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 126,
+    "question": "The country, not included as a member of The New Development Bank established by BRICS countries is -",
+    "options": {
+      "A": "Bangladesh",
+      "B": "Chile",
+      "C": "Uruguay",
+      "D": "UAE"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 127,
+    "question": "‘the International Children Peace Prize is an initiative of-",
+    "options": {
+      "A": "Gates Foundation",
+      "B": "Kids Rights Foundation",
+      "C": "Ford Foundation",
+      "D": "Children’s Peace Foundation"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 128,
+    "question": "The name of the multi-national bank which has declared a USD 6.5 billion package for its developing member states to combat the COVID-19 pandemic situation is-",
+    "options": {
+      "A": "Inter-/American Development Bank",
+      "B": "African Development Bank",
+      "C": "Asian Development Bank",
+      "D": "European Bank for Reconstruction and Development"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 129,
+    "question": "The only player from Bangladesh included in the Leading Light of ICC is-",
+    "options": {
+      "A": "Shakib Al Hasan",
+      "B": "Mushfiqur Rahim",
+      "C": "Mohamad mahmudullah",
+      "D": "Mustafizur Rahman"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 130,
+    "question": "The name of the football team to support the Liberation War of Bangladesh is-",
+    "options": {
+      "A": "Joy Bangla Football Team",
+      "B": "Swadhin Bangla Football Team",
+      "C": "Bangla Football Team",
+      "D": "Bangladesh Football Team"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 131,
+    "question": "The Nobel Prize in Economic Sciences is funded by-",
+    "options": {
+      "A": "Sveriges Riksbank",
+      "B": "Crankstart",
+      "C": "Royal Swedish Academy",
+      "D": "Columbia University"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 132,
+    "question": "_ 15 awarded the WITSA Global ICT Excellence Awards 2019.",
+    "options": {
+      "A": "Nagad",
+      "B": "Bkash",
+      "C": "Ucash",
+      "D": "Rocket"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 133,
+    "question": "Find the event from the following has been table by EU and OIC and adopted by the UN.",
+    "options": {
+      "A": "Vaccination",
+      "B": "Rohingya crisis",
+      "C": "Tigray region crisis",
+      "D": "Covid-19 outbreak"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 134,
+    "question": "The 81 Five-Year Plan (2021-2025) has recently been approved with targets to attain | GDP growth.",
+    "options": {
+      "A": "8.1%",
+      "B": "8.25%",
+      "C": "8.51%",
+      "D": "8.75%"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 135,
+    "question": "The honorouable Prime Minister of Bangladesh in her recent UN visit includes __ as a part of her six-point proposal.",
+    "options": {
+      "A": "Women empowerment",
+      "B": "right of migrant workers",
+      "C": "blue economy",
+      "D": "religious harmony"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 136,
+    "question": "Rooppur Nuclear Power Plant is being built by-",
+    "options": {
+      "A": "FNA",
+      "B": "RSNEC",
+      "C": "TVA",
+      "D": "CNC"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 137,
+    "question": "The antonym of the word “superficial” is:",
+    "options": {
+      "A": "intellectual",
+      "B": "artificial",
+      "C": "indifferent",
+      "D": "deep"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 138,
+    "question": "Consider AABD such that angle ADB = 20° and C is a point on BD such that ABe AC id CD = C",
+    "options": {
+      "A": "Then the measure of angle ABC is রঃ তে Qe) a) 30°",
+      "B": "40°",
+      "C": "45°",
+      "D": "60° র্‌ ২২"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 139,
+    "question": "Choose the meaning of the idiom “Take the bull by the horns”.",
+    "options": {
+      "A": "To challenge the enemy with courage",
+      "B": "Force the enemy to submit",
+      "C": "Out of one’s wit",
+      "D": "Surrender before the enemy"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 140,
+    "question": "They have__ their support for our case. wo",
+    "options": {
+      "A": "Disavowed",
+      "B": "Pledged, ol",
+      "C": "intended",
+      "D": "Deferred? ww)"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 141,
+    "question": "After ___, my car looked as goo s‘new.",
+    "options": {
+      "A": "it is repairing ২৬১ ং",
+      "B": "it is repaired",
+      "C": "being repaired",
+      "D": "repaired"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 142,
+    "question": "IwanttowatechTV_____late___ night.",
+    "options": {
+      "A": "at, at",
+      "B": "until, at",
+      "C": "to, in",
+      "D": "to at"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 143,
+    "question": "“The Sun Also Rises” is wie,",
+    "options": {
+      "A": "Ernest Hemingway ২৯",
+      "B": "Leo Tolstoy",
+      "C": "jack London",
+      "D": "Arundhuti Roy"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 144,
+    "question": "If a 10% deposit that has been paid toward the purchase of a certain goods is 17৬ ow much Taka remains to be paid? ~~",
+    "options": {
+      "A": "880",
+      "B": "1,100 ॥ * )",
+      "C": "1,010",
+      "D": "990 >"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 145,
+    "question": "The price of a is Tk. 40. And the sum of the prices of one banana and two kiwis is Tk. 50. The ৬. prices of two bananas and three kiwis is Tk :",
+    "options": {
+      "A": "90.4 py",
+      "B": "100",
+      "C": "85",
+      "D": "50"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 146,
+    "question": "A polygon that has 10 sides is called. ২২",
+    "options": {
+      "A": "Heptagon",
+      "B": "Decagon rN",
+      "C": "Hexagon",
+      "D": "Octagon A, Qe)"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 147,
+    "question": "The numbers 2, 3, 5 and ০ average equal to 4. What is x?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6 of",
+      "D": "7"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 148,
+    "question": "1f 6.4 is 80 percent of 20 percent of a certain number, what is the number?",
+    "options": {
+      "A": "9",
+      "B": "36",
+      "C": "40",
+      "D": "81"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 149,
+    "question": "The length of two smaller sides of a right angled triangle are 5 cm and 12 cm res) tively phe length of the third side is ২২১৭",
+    "options": {
+      "A": "16cm",
+      "B": "17 cm ~~",
+      "C": "19cm",
+      "D": "13 cm Som )"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 150,
+    "question": "The sum of squares of two গণ is 48 and the square of their difference is 16. The product of the two number is",
+    "options": {
+      "A": "16 ‘of",
+      "B": "17",
+      "C": "18",
+      "D": "32"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 151,
+    "question": "1025% of a number is 75, 80% of the number is:",
+    "options": {
+      "A": "300",
+      "B": "180",
+      "C": "375",
+      "D": "240"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 152,
+    "question": "A man is now 3 times as old as his son. In 10 years’ time, the sum i : | be 76. How old was the man when his son was born?",
+    "options": {
+      "A": "24 years",
+      "B": "42 years Ig rt",
+      "C": "28 years",
+      "D": "32 years \"i"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 153,
+    "question": "A person incurs’ of 5% by selling a watch for Tk. 1,140. At what price should the watch be sold toearn §% profit?",
+    "options": {
+      "A": "Tk; 1,980 )",
+      "B": "Tk. 1,180",
+      "C": "Tk —",
+      "D": "Tk. 1,225"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 154,
+    "question": "5% ক্ষতিতে ঘড়িটির দামের 100% হলো -+775709-1,200 টাকা অর্থাৎ ঘড়িটির ক্রয়মূল্য 1,200 টাকা 5% লাভে দ্রব্যটির বিক্রয়মূল্য হবে = 1,200 x 5% = 1,200 x 108 = 1,260 টাকা Recent Publication 22 52, A woman buys 50 eggs for $6.60. Some cost 12 cents each and the rest 14 cents each. How many eggs has she bought at 14 cents each?",
+    "options": {
+      "A": "20",
+      "B": "25",
+      "C": "30",
+      "D": "35"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 155,
+    "question": "Which of the following is a ২৬১ index in England?",
+    "options": {
+      "A": "NASDAQ",
+      "B": "DAX",
+      "C": "FTSE 5",
+      "D": "S & P 500"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 156,
+    "question": "Open market operation is nsed prot",
+    "options": {
+      "A": "Import ef",
+      "B": "Export",
+      "C": "Labour Supply",
+      "D": "Money supply"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 157,
+    "question": "What is the lefigth of each stump in cricket?",
+    "options": {
+      "A": "28 inches",
+      "B": "15 inches",
+      "C": "24 inches",
+      "D": "18 inches"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 158,
+    "question": "Who of the following received the Ekushe ro kk language movement?",
+    "options": {
+      "A": "Mustafa M.A. Matin",
+      "B": "Khi mud Khan",
+      "C": "Kamal Chowdhury",
+      "D": "Abdul bar"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 159,
+    "question": "Who delivered the ine ech ‘I Have a dream’?",
+    "options": {
+      "A": "John Fury )",
+      "B": "John Forbes Nash Jr.",
+      "C": "Martin Luther KingJr,",
+      "D": "John F. Kennedy"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 160,
+    "question": "In Microsoft Excel, the function key F2 is used for__",
+    "options": {
+      "A": "printing",
+      "B": "editing a cell",
+      "C": "requesting help",
+      "D": "saving the file"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 161,
+    "question": "Which one of the following is not considered as a form of secondary ee",
+    "options": {
+      "A": "Floppy disk",
+      "B": "Optical disk",
+      "C": "RAM",
+      "D": "Flash Drive Cir."
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 162,
+    "question": "Satellite Communication \"২ a",
+    "options": {
+      "A": "Radar",
+      "B": "Fiber Optic Cable",
+      "C": "Transponder ~",
+      "D": "TV signal"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 163,
+    "question": "The speed of Internefdata ransmission is defined in terms of:",
+    "options": {
+      "A": "RAM X )",
+      "B": "MHz",
+      "C": "Kbps ~",
+      "D": "ROM"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 164,
+    "question": "ou gee” program is MS access?",
+    "options": {
+      "A": "Word pi ing",
+      "B": "Programming",
+      "C": "Database",
+      "D": "Spreadsheet"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 165,
+    "question": "When did Russia launch attack on Ukraine in 2022? ~",
+    "options": {
+      "A": "February 20",
+      "B": "February 22 ae )",
+      "C": "February 24",
+      "D": "February 26"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 166,
+    "question": "১. ~ aaa model does iTunes follow?",
+    "options": {
+      "A": "Service Provider",
+      "B": "e- tailer",
+      "C": "Market Creator",
+      "D": "Content Provider"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 167,
+    "question": "'রাতের মধ্যভাগ' এক কথায় প্রকাশ কি হবে? \"o’",
+    "options": {
+      "A": "মাঝরাত্রি",
+      "B": "মধ্যাহ্ন rol",
+      "C": "মহানিশা",
+      "D": "TATA,"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 168,
+    "question": "Rahmart’s father ha only one ___ rule: no talking at the dinner table.",
+    "options": {
+      "A": "Rn",
+      "B": "Deprecating",
+      "C": "Immutal",
+      "D": "Coherent"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 169,
+    "question": "Do not cry spilt milk.",
+    "options": {
+      "A": "on",
+      "B": "over",
+      "C": "about",
+      "D": "for"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 170,
+    "question": "‘The call of the Wild? was written 05. Ww",
+    "options": {
+      "A": "Jack London",
+      "B": "Jane Austen f t",
+      "C": "Charles Dickens",
+      "D": "Mark Twain ww"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 171,
+    "question": "A man purchased a ghirt at Taka 300 after availing a discount of 25%. What is the catalog price of the shirt? )",
+    "options": {
+      "A": "Tk 400",
+      "B": "Tk 225",
+      "C": "Tk375, | OF,",
+      "D": "Tk 500"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 172,
+    "question": "a? + 308 = 145. 100 5 5, then what is the value 01872",
+    "options": {
+      "A": "8",
+      "B": "64",
+      "C": "16",
+      "D": "4"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 173,
+    "question": "If it is 250 miles from Dhaka to Dinajpur and 120 miles from নি লে what percentage of the distance from Dhaka to Dinajpur is the distance pm \\ abna?",
+    "options": {
+      "A": "12",
+      "B": "24",
+      "C": "36",
+      "D": "48 %"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 174,
+    "question": "Mr. Tanvir purchased stock. ত",
+    "options": {
+      "A": "and sold 3 of it after its value doubled. He sold the remaining stock at 5 times its poe ৫ price. What was his total profit on the stock? a) Tk 2,000 C7",
+      "B": "Tk 2,500",
+      "C": "Tk 3,000",
+      "D": "Tk 4,500"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 175,
+    "question": "An_____ current of dissatisfaction among the Russian soldiers indicated to the president that revolution was becoming a possibility.",
+    "options": {
+      "A": "Incipient",
+      "B": "Inert",
+      "C": "Impervious",
+      "D": "Inept"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 176,
+    "question": "If the books have been catalogued last week, why have aa he ee laced on the shelf?",
+    "options": {
+      "A": "have been catalogued",
+      "B": "would fave ০০১৬৪৪০৪০০৭",
+      "C": "was catalogued",
+      "D": "wer te"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 177,
+    "question": "Kazi Nazrul Islam was a ২ no other poet since has beenso__.",
+    "options": {
+      "A": "lionized of 7",
+      "B": "attacked",
+      "C": "decried",
+      "D": "poetical"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 178,
+    "question": "What is the volume of a cylinder with radius 6 and height of 7?",
+    "options": {
+      "A": "2842",
+      "B": "252 2 bi >",
+      "C": "1812",
+      "D": "294 7 od"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 179,
+    "question": "An engine pulls four identicgt Ao The engine is > the length of a carriage and the total length of the train is wr the length of the engine.",
+    "options": {
+      "A": "12.4m",
+      "B": "12m",
+      "C": "11.5m qq )",
+      "D": "13m"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 180,
+    "question": "X,Y& tarted a business with a profit sharing ratio 7 : 8 : 9, If at the end of the year, Y gets a total of Taka 4,000 what will be Z’s profit?",
+    "options": {
+      "A": "Tk 4,500",
+      "B": "Tk 4,000",
+      "C": "Tk 3,500",
+      "D": "Tk 5,500"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 181,
+    "question": "The average runs of a cricket player of 10 innings was 32. How mf ust he make in his next innings to increase his average of runs by 4?",
+    "options": {
+      "A": "76",
+      "B": "79 rol",
+      "C": "85",
+      "D": "87 . Ny)"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 182,
+    "question": "What isfhe hame of the Central Bank of the United Kingdom (UK)?",
+    "options": {
+      "A": "Bankof th Uky”",
+      "B": "Reserve Bank of the UK ০) Bank o! nd d) Reserve Bank of England",
+      "C": "Mymensingh",
+      "D": "Khulna"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 183,
+    "question": "The five rings uy ovr pic symbol are the five different colors: red, Green, Yellow, Blue and .",
+    "options": {
+      "A": "Indigo, Q",
+      "B": "Violet",
+      "C": "Blac 7",
+      "D": "Orange"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 184,
+    "question": "The first English Dictionary was compiled by___-",
+    "options": {
+      "A": "Izaak Walton",
+      "B": "Samuel Johnson",
+      "C": "Samuel Butler",
+      "D": "Sir Thomas Browne"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 185,
+    "question": "In Which folder the unwanted mails are stored? r~",
+    "options": {
+      "A": "Unread",
+      "B": ",Dri »)",
+      "C": "Spam",
+      "D": "Arehiv"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 186,
+    "question": "Which organization was the origin of the WTO?",
+    "options": {
+      "A": "IFC",
+      "B": "GATT",
+      "C": "IBRD",
+      "D": "IDA"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 187,
+    "question": "The Masai Mira National Reserve is located in___.",
+    "options": {
+      "A": "Tanzania",
+      "B": "Kenya",
+      "C": "Uganda",
+      "D": "Mozambique"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 188,
+    "question": "The longest river in Asia, Yangtze, islocatedin__.",
+    "options": {
+      "A": "China",
+      "B": "India",
+      "C": "Thailand",
+      "D": "Japan"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 189,
+    "question": "The study of collecting stamps and postal materials is 31160... v7 ® )",
+    "options": {
+      "A": "Aphnology",
+      "B": "Philately",
+      "C": "Chrematistics",
+      "D": "Numismatics 8 ২"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 190,
+    "question": "The Bank for International settlements (BIS) 150. uA",
+    "options": {
+      "A": "Frankfurt",
+      "B": "New York ‘of",
+      "C": "London",
+      "D": "Basel SM Ne?)"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 191,
+    "question": "In MS Word, the shortcut key Ctrl i, Si",
+    "options": {
+      "A": "Opening a document Ye",
+      "B": "Inserting a table",
+      "C": "Saving a document",
+      "D": "Defining a margin"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 192,
+    "question": "The symbol of “S” is used aS Excel for",
+    "options": {
+      "A": "Copying the cell CH",
+      "B": "Fixing the cell",
+      "C": "Dragging the cell XN )",
+      "D": "Aligning the cell"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 193,
+    "question": "Ina compute. text ples convert letters into",
+    "options": {
+      "A": "Graphics",
+      "B": "Binary format",
+      "C": "Magn ic pulse”",
+      "D": "Characters"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 194,
+    "question": "NUMERATOR : DENOMINATOR ::",
+    "options": {
+      "A": "Fraction : Decimal",
+      "B": "Divisor : Quotient",
+      "C": "Ratio : Proportion",
+      "D": "Dividend : Divisor"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 195,
+    "question": "Which is the correct spelling?",
+    "options": {
+      "A": "Kindergarden",
+      "B": "Kintergarden",
+      "C": "Kindargarten",
+      "D": "Kindergarten"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 196,
+    "question": "Choose the incorrectly spelt word:",
+    "options": {
+      "A": "Diarrhoea",
+      "B": "Chauffeur",
+      "C": "Typhoide",
+      "D": "Dysentery"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 197,
+    "question": "The error in the sentence, ‘One of the recommendation made by him was accepted; is",
+    "options": {
+      "A": "one of the",
+      "B": "recommendation",
+      "C": "made by",
+      "D": "was accepted"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 198,
+    "question": "We must adapt ourselves __ alll cireumstance.",
+    "options": {
+      "A": "with",
+      "B": "in",
+      "C": "by",
+      "D": "to"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 199,
+    "question": "11001 anaspirinto__»the pain in my knee.",
+    "options": {
+      "A": "accelerate",
+      "B": "accompany",
+      "C": "alleviate",
+      "D": "deviate"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 200,
+    "question": "Find the synonym of the word: PERPETUAL",
+    "options": {
+      "A": "Steady",
+      "B": "Equable",
+      "C": "Persistence",
+      "D": "Everlasting"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 201,
+    "question": "What is the opposite word of PLETHORA?",
+    "options": {
+      "A": "Profusion",
+      "B": "Current",
+      "C": "Balance",
+      "D": "Shortage"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 202,
+    "question": "DEPTH: SEA::",
+    "options": {
+      "A": "Ray : Sun",
+      "B": "Length : Width",
+      "C": "Height : Mountain",
+      "D": "Peak : Valley"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 203,
+    "question": "Translation the following sentence into English: “আমার যদি পাখির মতো ডানা থাকত'।",
+    "options": {
+      "A": "If I were a bird!",
+      "B": "If I have the wings of a bird!",
+      "C": "Had I the wings of a bird!",
+      "D": "If could fly like a bird!"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 204,
+    "question": "The idiom ‘To break the ice’ means",
+    "options": {
+      "A": "to accomplish a difficult task",
+      "B": "to be the first to begin",
+      "C": "to bring out good news",
+      "D": "to get the truth"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 205,
+    "question": "The meaning of the phrase ‘To feather one’s nest? is:",
+    "options": {
+      "A": "to gain popularity",
+      "B": "tobe selfish",
+      "C": "to provide for future",
+      "D": "to.cheat others"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 206,
+    "question": "No sooner had he reached the 53101...",
+    "options": {
+      "A": "when the train left",
+      "B": "and the train left",
+      "C": "then the train left",
+      "D": "than the train left"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 207,
+    "question": "মন্ত্রের সাধন কিংবা শরীর OA | সঠিক ইংরেজি?",
+    "options": {
+      "A": "Ill got ill spent.",
+      "B": "Do or die.",
+      "C": "Basier said than done.",
+      "D": "Great minds think alike."
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 208,
+    "question": "10, 4, 26, 16 what is the median of the numbers shown?",
+    "options": {
+      "A": "10",
+      "B": "13",
+      "C": "14",
+      "D": "15"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 209,
+    "question": "If Mario was 32 years old 8 years ago, how old was he x years ago?",
+    "options": {
+      "A": "x-40",
+      "B": "x-24",
+      "C": "40-x",
+      "D": "24-x"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 210,
+    "question": "The 180 students in a group are to be seated in rows so that there are an equal number of students in each row. Each of the following could be the number of rows except.",
+    "options": {
+      "A": "4",
+      "B": "20",
+      "C": "30",
+      "D": "40"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 211,
+    "question": "The price of a coat in a certain store is Tk. 500. If the price of the court is to be reduced by Tk. 150, by what percent is the price to be reduced?",
+    "options": {
+      "A": "10%",
+      "B": "15%",
+      "C": "20%",
+      "D": "30%"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 212,
+    "question": "Which of the following is equivalent to the pair of inequalities x + 6 > 10 and x- 3 <=5?",
+    "options": {
+      "A": "2<x<16",
+      "B": "2>=x<4",
+      "C": "2<x<=8",
+      "D": "4<x<=8"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 213,
+    "question": "If the sum of 5, 8, 12 and 15 is equal to the sum of 3, 4, x and x + 3, what is the value of x?",
+    "options": {
+      "A": "14",
+      "B": "15",
+      "C": "16",
+      "D": "17"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 214,
+    "question": "Company C produces toy trucks at a cost of Tk. 5.00 each for the first 100 trucks and Tk. 3.50 for each additional truck. If 500 toy trucks were produced by Company C and sold for Tk. 10.00 each, what was Company C’s gross profit?",
+    "options": {
+      "A": "Tk. 2,250",
+      "B": "Tk. 2,500",
+      "C": "Tk. 3,100",
+      "D": "Tk. 3,250"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 215,
+    "question": "Ifp is an even integer and q is an odd integer, which of the following must be an odd integer? ae ৮)৮৫ c)2p+q d) 2(p¥ q) ans. C A 20) বলা হচ্ছে, একটি জোড় সংখ্যা এবং 4.একটাবিজোড় সংখ্যা হলে নিচের কোনটি অবশ্যই বিজোড় সংখ্যা হবে? এখানে p (= even) এবং (৫ = odd) Positive, ব68301\"৩ দুই-ই হতে পারে তাহেল",
+    "options": {
+      "A": "তে আছে, B= 284 - even অপশন",
+      "B": "তে আছে, pq = even ১৭০৫৫ = even [কোন সংখ্যা Even বা Odd যাই হোক না কেন একে Even দ্বারা গুণ করলে Always even হবে] অপশন",
+      "C": "তে আছে, 2p + ৫ ₹-.2:8%০1) + odd = odd অপশন",
+      "D": "তে আছে, 2(p + ৫) = 2(even + odd) = even"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 216,
+    "question": "The product p of two prime numbers is between 9 and 55. If one of the prime numbers is greater than 2 but less than 6 and the other is greater than 13 but less than 25, then p =",
+    "options": {
+      "A": "15",
+      "B": "33",
+      "C": "34",
+      "D": "51"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 217,
+    "question": "A certain machine produces 1,000 units of product p per hour. Working continuously at this constant rate, this machine will produce how many units of product p in 7 days?",
+    "options": {
+      "A": "7,000",
+      "B": "24,000",
+      "C": "40,000",
+      "D": "1,68,000"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 218,
+    "question": "A rectangular floor that measures 8 meters by 10 meters is to be covered with carpet that each measure 2 meters by 2 meters. If the carpet cost Tk. 12 a piece, what is the total cost to cover the floor?",
+    "options": {
+      "A": "Tk. 200",
+      "B": "Tk. 240",
+      "C": "Tk. 480",
+      "D": "Tk. 960"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 219,
+    "question": "For which of the following value of s is DS an integer?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "9",
+      "D": "50"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 220,
+    "question": "The amount of time that three secretaries worked on a special project are in the ratio of 1 to 2 to 5. If they worked a combined total of 112 hours, how many hours did the secretary who worked the longest spend on the project?",
+    "options": {
+      "A": "80",
+      "B": "70",
+      "C": "56",
+      "D": "16"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 221,
+    "question": "The ratio of the length to the width of a rectangular advertising display is approximately 3.3 to 2. If the width of the display is 8 meters, what is the approximate length of the display, in meters?",
+    "options": {
+      "A": "7",
+      "B": "11",
+      "C": "13",
+      "D": "16"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 222,
+    "question": "A gym class can be divided into 8 teams with an equal number of players on each team or into 12 teams with an equal number of players on each team. What is the lowest possible number of students in the class?",
+    "options": {
+      "A": "20",
+      "B": "24",
+      "C": "36",
+      "D": "48"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 223,
+    "question": "If a store employee applied the 10 percent employee discount to the retail price to buy the recorder, how much did the employee pay for the recorder?",
+    "options": {
+      "A": "Tk. 198",
+      "B": "Tke2l6",
+      "C": "Tk. 220",
+      "D": "Tk. 230"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 224,
+    "question": "Committee X has 4 members, committee Y has 5 members, and these committees have no members in common. If a task force is to be formed consisting of one member of X and one member of Y, how many different task forces are possible?",
+    "options": {
+      "A": "6",
+      "B": "9",
+      "C": "10",
+      "D": "20"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 225,
+    "question": "As a salesperson, poly can choose one of two methods of annual payment; either an annual salary of TK. 35,000 with no commission or an annual salary of TK. 10,000 plus a 20 percent commission on her total annual sales. What must her total annual sales be to give her the same annual pay with either method?",
+    "options": {
+      "A": "Tk. 100,000",
+      "B": "Tk. 120,000",
+      "C": "Tk. 125,000",
+      "D": "Tk. 130,000"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 226,
+    "question": "Arrange in ascending order the units of memory TB, KB, GB, MB-",
+    "options": {
+      "A": "TB>MB>GB >KB",
+      "B": ", MB>GB>TB >KB",
+      "C": "TB>GB>MB >KB",
+      "D": "GB>MB>KB >TB"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 227,
+    "question": "Using output devices one can-",
+    "options": {
+      "A": "Process Data",
+      "B": "Store Data",
+      "C": "Scan Data",
+      "D": "Print Data"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 228,
+    "question": "Which of the following group has only input devices?",
+    "options": {
+      "A": "Mouse, Keyboard and Monitor",
+      "B": "Mouse, Keyboard and Printer",
+      "C": "Mouse, Keyboard/and Plotter",
+      "D": "Mouse, Keyboard and Scanner"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 229,
+    "question": "Spyware is a type 01",
+    "options": {
+      "A": "Highlighter,",
+      "B": "Navigator",
+      "C": "Accounts. software",
+      "D": "Malware"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 230,
+    "question": "Pythomis’a-",
+    "options": {
+      "A": "Utility software",
+      "B": "Unicode simplifier",
+      "C": "Programming language",
+      "D": "Antivirus"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 231,
+    "question": "Omicron was first detected first in-",
+    "options": {
+      "A": "Germany",
+      "B": "South Africa",
+      "C": "Israel",
+      "D": "France"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 232,
+    "question": "Which of the following country refused to sign the Bali Declaration over Rohingya issue?",
+    "options": {
+      "A": "Bangladesh",
+      "B": "Indonesia",
+      "C": "China",
+      "D": "India"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 233,
+    "question": "The current vice president of the United States is-",
+    "options": {
+      "A": "Joe Biden",
+      "B": "Kamala Harris",
+      "C": "Michael pompeo",
+      "D": "Mike Pence"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 234,
+    "question": "At present, which country has the highest inflation rate?",
+    "options": {
+      "A": "Zimbabwe",
+      "B": "Qatar",
+      "C": "Dubai",
+      "D": "Venezuela"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 235,
+    "question": "The most recent state to join United Nations (UN) is-",
+    "options": {
+      "A": "East Timor",
+      "B": "South Sudan",
+      "C": "North Korea",
+      "D": "Palestine"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 236,
+    "question": "Which blood group is called uniyersal donor?",
+    "options": {
+      "A": "AB Positive",
+      "B": "A Positive",
+      "C": "B Negative",
+      "D": "O Negative"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 237,
+    "question": "The smallest bones in the human body is found in the -",
+    "options": {
+      "A": "Ears",
+      "B": "Feet",
+      "C": "Fingers",
+      "D": "Knees"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 238,
+    "question": "Which of the following is the shortcut control key for centering text?",
+    "options": {
+      "A": "Ctrl +B",
+      "B": "Ctrl+C",
+      "C": "Ctrl + E",
+      "D": "Ctrl + F"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 239,
+    "question": "Which of the key is not on the number keypad?",
+    "options": {
+      "A": "Ctrl",
+      "B": "Del",
+      "C": "Enter",
+      "D": "Num lock"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 240,
+    "question": "The new Facebook’s company name ‘Meta’ is a-",
+    "options": {
+      "A": "Greek word",
+      "B": "Persian word",
+      "C": "Swiss word",
+      "D": "Danish word"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 241,
+    "question": "Who is the designer of the officiallogo of Bangladesh Government?",
+    "options": {
+      "A": "N.A Shaha",
+      "B": "Shib Narayan Das",
+      "C": "Zainul Abedin",
+      "D": "Kamrul Hasan"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 242,
+    "question": "What is the length (in kilometer) of the Padma Bridge?",
+    "options": {
+      "A": "5.25",
+      "B": "5.65",
+      "C": "6.15",
+      "D": "6.25"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 243,
+    "question": "Howmany members does the Commonwealth Association have?",
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "54",
+      "D": "101"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 244,
+    "question": "The headquarter of the World Bank is located in?",
+    "options": {
+      "A": "Geneva",
+      "B": "Washington D,C",
+      "C": "Berlin",
+      "D": "Paris"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 245,
+    "question": "Which one is under ‘Bretton Woods Institutions?",
+    "options": {
+      "A": "IDM",
+      "B": "IMF",
+      "C": "WTO",
+      "D": "ADP"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 246,
+    "question": "How many goals were set in the UN Sustainable Development Goals- 2030 Agenda?",
+    "options": {
+      "A": "15",
+      "B": "16",
+      "C": "17",
+      "D": "18"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 247,
+    "question": "Which country won the first ICC World Cup?",
+    "options": {
+      "A": "India",
+      "B": ")West Indies",
+      "C": "England",
+      "D": "Australia"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 248,
+    "question": "The Olympic Games in 2012 took place in -",
+    "options": {
+      "A": "Los Angeles",
+      "B": "Sydney",
+      "C": "London",
+      "D": "Beijing"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 249,
+    "question": "The synonym of “Mutiny” is-",
+    "options": {
+      "A": "Malignity",
+      "B": "Revolt",
+      "C": "Moron",
+      "D": "Deep"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 250,
+    "question": "Choose the correct meaning of the idiom: “Kith and kin”.",
+    "options": {
+      "A": "Blood relations",
+      "B": "Juniors",
+      "C": "Seniors",
+      "D": "Neighbors"
+    },
+    "answer": "A",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 251,
+    "question": "The three year old was___in her refusal to taste spinach.",
+    "options": {
+      "A": "recondite",
+      "B": "fortuitous",
+      "C": "resolute",
+      "D": "didactic"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 252,
+    "question": "Rahima’s legs were so severely injured in the accidentthat she did not become fully __ again until more than a year.",
+    "options": {
+      "A": "decadent",
+      "B": "exemplified",
+      "C": "ambulatory",
+      "D": ")portentous"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 253,
+    "question": "The synonym of “Inadvertent” is=",
+    "options": {
+      "A": "Unavoidable",
+      "B": "Unintended",
+      "C": "Inherent",
+      "D": "Unbiased"
+    },
+    "answer": "B",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 254,
+    "question": "We often_____ victim of circumstances.",
+    "options": {
+      "A": "fallen",
+      "B": "felt",
+      "C": "did fall",
+      "D": "fall"
+    },
+    "answer": "D",
+    "source": "combined_bank_math_test2"
+  },
+  {
+    "id": 255,
+    "question": "The police islooking _ the case.",
+    "options": {
+      "A": "after",
+      "B": "up",
+      "C": "into",
+      "D": "on"
+    },
+    "answer": "C",
+    "source": "combined_bank_math_test2"
+  }
+]

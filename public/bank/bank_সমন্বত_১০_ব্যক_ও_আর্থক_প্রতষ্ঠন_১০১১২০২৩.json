@@ -1,0 +1,468 @@
+[
+  {
+    "explanation": "",
+    "options": {
+      "A": "ধ্বনি",
+      "B": "শব্দ",
+      "C": "বাক্য",
+      "D": "সবগুলোই"
+    },
+    "answer": "D",
+    "question": "অগ্রদূত সিরিজ থেকে ১০০টি প্রশ্নের মধ্যে ৯০টিই সরাসরি কমন। [প্রতিটি প্রশ্নেরমান সমান। প্রতিটি ভুল উত্তরের জন্য ২৫ নম্বর কাটাযাবে] ৩ ১. ব্যাকরণের আলোচ্য বিষয়",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "অনাবাদী",
+      "B": "অপদস্ত",
+      "C": "অব্যার্থ",
+      "D": "অভাগিনি"
+    },
+    "answer": "D",
+    "question": "কোনটি শুদ্ধ বানান?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "পাল ও কুঞ্জ",
+      "B": "যূথ ও মালা",
+      "C": "নিকর ও রাজি",
+      "D": "পাল ও যূথ"
+    },
+    "answer": "D",
+    "question": "কোন দুটি শব্দ কেবল জন্তুর বহুবচনেব্যবহৃত হয়? পৃষ্ঠা: ৪১৯ (অগ্রদূত বাংলা; ১৩তম সংস্করণ) ১০.'কি হেতু এসেছ তুমি, কহ বিস্তারিয়া'। এখানে 'হেতু' অনুসর্গটি কি অর্থ প্রকাশ করেছে?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "চন্দ্র",
+      "B": "ডাব",
+      "C": "হরতাল",
+      "D": "চিনি"
+    },
+    "answer": "A",
+    "question": "নিচের কোনটি দেশি শব্দ?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "মহান যে জ্ঞান",
+      "B": "মহ্য যে জ্ঞান",
+      "C": "মহৎ যে জ্ঞান",
+      "D": "মহতী যে জ্ঞান"
+    },
+    "answer": "C",
+    "question": "'মহাজ্ঞান' এর সঠিক ব্যাসবাক্য কোনটি?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "অঙ্কবাচক",
+      "B": "তারিখবাচক",
+      "C": "পরিমাণবাচক",
+      "D": "পূরণবাচক"
+    },
+    "answer": "C",
+    "question": "'সপ্তাহ' কোন ধরনের শব্দ?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "লোকটি আমাকে বললেন, \"আগে আসুন সামনে বসুন।\"",
+      "B": "লোকটি আমাকে বললেন, \"আপনি সামনের আসনে বসুন।\" ১৩.'ইতর বিশেষ' বাগধারাটির অর্থ কী?",
+      "C": "লোকটি আমাকে বললেন, \"অনুগ্রহ করে আপনি সামনের আসনে বসুন।” গ. ভালো-মন্দ",
+      "D": "গুরুত্বহীন"
+    },
+    "answer": "A",
+    "question": "'ইতর বিশেষ' বাগধারাটির অর্থ কী?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "দুধের মাছি",
+      "B": "শরতের শিশির",
+      "C": "সুখের পায়রা",
+      "D": "লক্ষ্মীর বরযাত্রী"
+    },
+    "answer": "B",
+    "question": "সারারাত বৃষ্টি হয়েছে। এখানে 'সারারাত' কোন কারকে কোন বিভক্তি?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "নম্র",
+      "B": "মৌন",
+      "C": "সদয়",
+      "D": "সজীব"
+    },
+    "answer": "A",
+    "question": "'ধৃষ্ট' শব্দের বিপরীত শব্দ কোনটি? ১৬. 'পথের শেষ কোথায়' গ্রন্থটি কার লেখা?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "গুরুচণ্ডালী দোষ",
+      "B": "দুর্বোধ্যতা বিসিএস ও ব্যাংকসহ সকল চাকরির পরীক্ষায়বাংলায় শতভাগকমনের জন্য পড়ন- 'অগ্রদূত বাংলা' 8 ১৭.বিপরীত শব্দ গঠনে কোন উপসর্গগুলো ব্যবহৃত হয়?",
+      "C": "নিম, ভর",
+      "D": "দর, উৎ"
+    },
+    "answer": "B",
+    "question": "বাক্যে প্রয়োজনের অতিরিক্ত শব্দ ব্যবহারে কোন দোষ ঘটে?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "বানানে",
+      "B": "To seek peace . To show arrogance",
+      "C": "অর্থে অগ্রদূত Recent Job Solution ૧.To show the white feather",
+      "D": "To become polite"
+    },
+    "answer": "D",
+    "question": "'অনু' এবং 'অণু' এই শব্দ দুটির মধ্যে তফাত কোন ক্ষেত্রে?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "বিবর্তিত ভাষা",
+      "B": "উপভাষা",
+      "C": "ভাষা লিপি",
+      "D": "শাখাভাষা"
+    },
+    "answer": "B",
+    "question": "ভাষার আঞ্চলিক বৈচিত্র্যকে বলা হয়",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Interfere",
+      "B": "A melodious song in praise of someone . Praise of a woman by her lover",
+      "D": "Last work of a poet or musician before death"
+    },
+    "answer": "D",
+    "question": "Don't stick your neck out",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "সাপ",
+      "B": "চাঁদ",
+      "C": "পথ",
+      "D": "তরঙ্গ"
+    },
+    "answer": "C",
+    "question": "'অয়ন' শব্দের অর্থ কী?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "সৎ+জাত",
+      "B": "সদ্যো+জাত",
+      "C": "সদ্যঃ+জাত",
+      "D": "সদ্য+জাত"
+    },
+    "answer": "C",
+    "question": "'সদ্যোজাত' শব্দের সন্ধি বিচ্ছেদ কোনটি?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "আষাঢ়",
+      "B": "আঘাটা",
+      "C": "আয়না",
+      "D": "আনন ২৫.বাংলা ভাষার কবি নন?"
+    },
+    "answer": "B",
+    "question": "কোন শব্দটি উপসর্গ দিয়ে গঠিত হয়েছে? পৃষ্ঠা: ৪৪০ (অগ্রদূত বাংলা; ১৩তম সংস্করণ)",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "B": "One's promise has to be kept. . A promise should be keeping.",
+      "D": "A promise should be kept."
+    },
+    "answer": "D",
+    "question": "One should keep one's promise. . One's promise should be kept by us.",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "B": "I was promised a present by my uncle. t.I had been promised a present by my uncle.",
+      "D": "I was promised by my uncle a present."
+    },
+    "answer": "B",
+    "question": "My uncle promised me a present. . A present was promised by my uncle to me.",
+    "id": 8,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Heterogeneity",
+      "B": "Anomaly",
+      "C": "Anonymity",
+      "D": "Strange hotel in town. price of a lower c his friends in his honor in crude oil used to be a than now, 8v. If the streets wasn't it d would have a would not have"
+    },
+    "answer": "B",
+    "question": "The পৃষ্ঠা: ৭৮৫ (অগ্রদূত Competitive English) .The conclusions derived from deal experiments showed deviation from the common rule.",
+    "id": 89,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "B": "Apostle",
+      "D": "Apotheosis"
+    },
+    "answer": "C",
+    "question": "A person who pretends to have more knowledge or skill than he really has. so long to find his house d",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Preface",
+      "B": "Maiden . Opener",
+      "D": "Extempore"
+    },
+    "answer": "B",
+    "question": "A person's first speech.",
+    "id": 80,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Tk. 121 . Tk. 2",
+      "B": "Tk. 120",
+      "D": "Tk. 1"
+    },
+    "answer": "D",
+    "question": "Tk. 2",
+    "id": 121,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "16 2. 32 ช. 48",
+      "D": "None"
+    },
+    "answer": "B",
+    "question": "ช. 48",
+    "id": 2,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "250 ศ. 500 . 300",
+      "D": "600"
+    },
+    "answer": "C",
+    "question": "For a research purpose 2500 individuals were interviewe",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Tk. 175 . Tk. 225",
+      "B": "Tk. 200",
+      "D": "Tk. 250"
+    },
+    "answer": "B",
+    "question": "Tk. 225",
+    "id": 175,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "250 . 300 200",
+      "D": "350"
+    },
+    "answer": "A",
+    "question": "200",
+    "id": 250,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "3 ศ. 2.5",
+      "B": "2",
+      "D": "3.5"
+    },
+    "answer": "A",
+    "question": "In a set of 3 numbers, the average of first two numbers is 2, the average of the last two numbers is 3, and the average of the first and the last numbers is 4. What is the average of three numbers?",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Rangalal Sen",
+      "B": "Humayun Ahmed . Abdur Razzaq",
+      "D": "Ahmed Sofa"
+    },
+    "answer": "D",
+    "question": "The famous book titled 'Jaddapi Amar Guru' was written by",
+    "id": 99,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Australia and New Zealand",
+      "B": "Australia and France"
+    },
+    "answer": "A",
+    "question": "Russia launched a special military operation in Ukraine on",
+    "id": 95,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "B": "King Charles III succeeded Queen Elizabeth. .King Charles II succeeded Queen Elizabeth.",
+      "D": "None of these"
+    },
+    "answer": "B",
+    "question": "Which one of the following is correct? . Queen Elizabeth II died of old age on September 18, 2022 in Scotlan",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "USD 42 billion",
+      "B": "USD 34 billion . USD 44 billion",
+      "C": "364 days",
+      "D": "None of these"
+    },
+    "answer": "C",
+    "question": "In 2024, the total number of days is",
+    "id": 98,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "B": "12th edition of World Cup Cricket . 13th edition of World Cup Cricket",
+      "D": "14th edition of World Cup Cricket"
+    },
+    "answer": "C",
+    "question": "The 2023 ICC Cricket World Cup is an international cricket tournament which is hosted by Indi",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Pascal",
+      "B": "Machine language",
+      "D": "C+"
+    },
+    "answer": "B",
+    "question": "Which of the following computer language is written in Binary Codes Only? League of Nations is-",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Rome .New York",
+      "B": "Geneva",
+      "D": "Paris .Which of the following is the device used for converting maps, pictures and drawing into digital form for storage in"
+    },
+    "answer": "D",
+    "question": "The headquarter of the UNESCO is at",
+    "id": 8,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Diane . Copy text",
+      "B": "Change a password",
+      "C": "Copy and paste text घ. Shut down the"
+    },
+    "answer": "B",
+    "question": "The computer command of ‘Ctrl + Alt + Delete' is applied toপৃষ্ঠা: ১৮ (অগ্রদূত বিজ্ঞান; ২য় সংস্করণ) .The name of a submersible belonging to U. S. Company Ocean Gate has recently missed in the Atlantic Ocean during an expedition to view the shipwreck of the Titanic is",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "2019-2024",
+      "B": "2020-2024 ศ. 2021-2026",
+      "D": "2020-2025"
+    },
+    "answer": "D",
+    "question": "The ৪th five year plan of Bangladesh has been formulated for the period of",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "Virtual memory",
+      "B": "Volatile memory",
+      "C": "Non-volatile memory",
+      "D": "Cache memory"
+    },
+    "answer": "B",
+    "question": "Secured Overnight Financing Rate (SOFR) is a benchmark interest rate for- . Dollar-denominated derivatives পৃষ্ঠা: ৪৫ (অগ্রদূত কম্পিউটার ও তথ্য প্রযুক্তি) ৯৭.RAM is also called as",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  },
+  {
+    "explanation": "",
+    "options": {
+      "A": "C++ . Linux",
+      "B": "Two",
+      "C": "Windows 10",
+      "D": "Four"
+    },
+    "answer": "A",
+    "question": "How many types of recipients are there in an e-mail system? . One . Three",
+    "id": 0,
+    "source": "সমন্বিত ১০ ব্যাংক ও আর্থিক প্রতিষ্ঠান (১০.১১.২০২৩)"
+  }
+]

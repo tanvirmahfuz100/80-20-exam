@@ -19,11 +19,13 @@ function Clean-OptionText($t) {
     $t = $t -replace '(?is)Ans[\.:\s]*[A-D].*$', ''
     $t = $t -replace '(?s)সঠিক উত্তর.*$', ''
     $t = $t -replace '(?s)উত্তর.*$', ''
-    $t = $t -replace '(?m)^[কখগঘ][\.\)]\s*', ''
+    $t = $t -replace '(?m)^[কখগঘ][\.\),]\s*', ''
     $t = $t -replace '^[A-Da-d][\.\)]\s*', ''
+    $t = $t -replace '(?m)^[০-৯]{1,2}\.\s*', ''
     $t = $t -replace '[\r\n]+', ' '
     $t = $t -replace '\s+', ' '
     $t = $t -replace '^[?.]\s*', ''
+    $t = $t -replace '[?\*]\.[?\*].*$', ''
     return $t.Trim()
 }
 function Clean-QuestionText($t) {
@@ -58,7 +60,7 @@ if (Test-Path $tmpText) {
 Remove-Item $tmpText -ErrorAction SilentlyContinue
 
 # Check if text has actual question content (Ans:, A./B./C./D. patterns)
-$hasMcqContent = $rawText -match '(?s)Ans[:\s]*[A-D]' -or $rawText -match '(?s)[A-D]\.\s.*[A-D]\.\s.*[A-D]\.\s.*[A-D]\.'
+$hasMcqContent = $rawText -match '(?s)Ans[:\s]*[A-D]' -or $rawText -match '(?s)[A-Dক-ঘ]\.\s.*[A-Dক-ঘ]\.\s.*[A-Dক-ঘ]\.\s.*[A-Dক-ঘ]\.'
 $isScanned = ($rawText.Trim().Length -lt 100) -or -not $hasMcqContent
 if (-not $isScanned) {
     Write-Host "Text-based PDF detected ($($rawText.Length) chars)"
@@ -114,8 +116,8 @@ $allText = ($allText -split '\r?\n' | Where-Object { $_.Trim().Length -gt 1 }) -
 $questions = @()
 $nextId = 1
 
-# Split into blocks at each question number
-$blocks = [regex]::Split($allText, '(?m)^(?=\d{1,3}\.\s|(?<!\d)\d{1,3}\.\s)')
+# Split into blocks at each question number (ASCII + Bengali digits)
+$blocks = [regex]::Split($allText, '(?m)^(?=\d{1,3}\.\s|[০-৯]{1,2}\.\s)')
 $blocks = $blocks | Where-Object { $_.Trim().Length -gt 30 }
 
 Write-Host "Found $($blocks.Count) potential question blocks"
@@ -128,14 +130,19 @@ foreach ($block in $blocks) {
     $opts = @{}
     $answer = $null
 
-    $block -match '^(\d{1,3})[\.\)]\s*' | Out-Null
+    $block -match '^(\d{1,3}|[০-৯]{1,2})[\.\)]\s*' | Out-Null
     if ($matches) {
-        $block = $block -replace '^\d{1,3}[\.\)]\s*', ''
+        $block = $block -replace '^(\d{1,3}|[০-৯]{1,2})[\.\)]\s*', ''
     }
 
-    # Pattern: A/a. A/a) ... B/b. B/b) ... C/c. C/c) ... D/d. D/d) ... Ans:/ans. X
-    $optRe = '(?s)(?:A|a)[\.\)]\s*(.*?)(?:B|b)[\.\)]\s*(.*?)(?:C|c)[\.\)]\s*(.*?)(?:D|d)[\.\)]\s*(.*)'
+    # Try English + Bengali option markers
+    $optRe = '(?s)(?:A|a|ক)[\.\)]\s*(.*?)(?:B|b|খ)[\.\)]\s*(.*?)(?:C|c|গ)[\.\)]\s*(.*?)(?:D|d|ঘ)[\.\)]\s*(.*)'
     $aMatch = [regex]::Match($block, $optRe)
+    if (-not $aMatch.Success) {
+        # Safe garbled fallback: common OCR-mangled markers
+        $optRe = '(?s)(?:A|a|ক|[?\*#])[\.\)\s,]\s*(.*?)(?:B|b|খ|[?\*#])[\.\)\s,]\s*(.*?)(?:C|c|গ|[?\*#])[\.\)\s,]\s*(.*?)(?:D|d|ঘ|[?\*#])[\.\)\s,]\s*(.*)'
+        $aMatch = [regex]::Match($block, $optRe)
+    }
     if ($aMatch.Success) {
         $opts['A'] = Clean-OptionText $aMatch.Groups[1].Value
         $opts['B'] = Clean-OptionText $aMatch.Groups[2].Value
@@ -150,7 +157,8 @@ foreach ($block in $blocks) {
             '(?i)Ans[\.:\s]*([A-D])',
             'সঠিক উত্তর[ঃ:\s]*(?:হলো\s*)?<strong>([ক-ঘ])',
             'সঠিক উত্তর[ঃ:\s]*([ক-ঘ])',
-            'উত্তর[ঃ:\s]*([ক-ঘ])'
+            'উত্তর[ঃ:\s]*([ক-ঘ])',
+            '(?i)[?\*]\.[?\*]\s*([A-Dক-ঘ])'  # ?.? X  garbled answer marker
         )
         foreach ($ap in $ansPatterns) {
             if ($rest -match $ap -or $block -match $ap) {
@@ -179,7 +187,26 @@ foreach ($block in $blocks) {
     }
 }
 
-# ── Step 4: Output ──
+# ── Step 4: Post-process — clean OCR noise from Bengali question options ──
+function Clean-Noise($t) {
+    $t = $t -replace '(?i)[BCDFGHJKLMNPQRSTVWXYZ]{3,}', ' '
+    $t = $t -replace '(?i)\b[a-z]{4,}\b', ' '
+    $t = $t -replace '<[^>]+>', ''
+    $t = $t -replace '\s+', ' '
+    return $t.Trim()
+}
+$cleaned = 0
+foreach ($q in $questions) {
+    $isBangla = $q.question -match '[ক-ঘ]'
+    if (-not $isBangla) { continue }
+    $cleaned++
+    foreach ($k in @('A','B','C','D')) {
+        $q.options.$k = Clean-Noise $q.options.$k
+    }
+}
+if ($cleaned -gt 0) { Write-Host "  Cleaned $cleaned Bengali questions" }
+
+# ── Step 5: Output ──
 if (-not (Test-Path $OutputDir)) { New-Item -ItemType Directory -Path $OutputDir -Force | Out-Null }
 $outFile = Join-Path $OutputDir "$ExamName.json"
 $json = $questions | ConvertTo-Json -Depth 3

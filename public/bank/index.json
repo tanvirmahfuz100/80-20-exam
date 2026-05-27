@@ -1,0 +1,24 @@
+{
+    "subjects": [
+        {
+            "id": "bank_job",
+            "name": "Bank Job",
+            "name_bn": "ব্যাংক জব",
+            "icon": "Landmark",
+            "topics": [
+                {
+                    "id": "combined",
+                    "name": "Combined",
+                    "chapters": [
+                        {
+                            "id": "all_questions",
+                            "name": "All Questions",
+                            "name_bn": "সকল প্রশ্ন",
+                            "file": "/bank/bank_combined.json"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
