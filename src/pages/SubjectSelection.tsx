@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
@@ -12,6 +12,7 @@ import { useExamPath } from '../hooks/useExamPath';
 import { getSubjects, getPathLabel } from '../config/examPaths';
 import ExamOnboarding from '../components/ExamOnboarding';
 import ExamPathSelector from '../components/ExamPathSelector';
+import PaperPicker from '../components/PaperPicker';
 import { getDailyQuizQuestions } from '../services/dailyQuiz';
 import { stripMath } from '../services/quizUtils';
 
@@ -35,6 +36,10 @@ const subjectIconMap = {
   'বাংলাদেশ বিষয়াবলী': MapPin,
   'বিশ্লেষণী ক্ষমতা': Brain,
   'সমাজ বিজ্ঞান': BookOpen,
+};
+
+export const multiPaperSubjects = {
+  'বাংলা': true,
 };
 
 export const subjectNameToId = {
@@ -68,6 +73,7 @@ function getIcon(name) {
 export default function SubjectSelection() {
   const { examPath, setExamPath } = useExamPath();
   const [mode, setMode] = useState('normal');
+  const [paperPicker, setPaperPicker] = useState({ open: false, subject: '' });
 
   const handleSelectorComplete = (path) => {
     setExamPath(path);
@@ -91,11 +97,12 @@ export default function SubjectSelection() {
         </motion.div>
       ) : mode === 'confirming' ? (
         <motion.div key="confirming" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.15 }}>
-          <HomeScreen subjects={subjects} pathLabel={pathLabel} examPath={examPath} onSwitch={() => setMode('selector')} />
+          <HomeScreen subjects={subjects} pathLabel={pathLabel} examPath={examPath} onSwitch={() => setMode('selector')} onPaperSelect={(subj) => setPaperPicker({ open: true, subject: subj })} />
           <motion.div
             className="fixed inset-0 z-40 bg-black/80 flex items-center justify-center p-6"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
           >
             <motion.div
               className="w-full max-w-sm rounded-2xl border border bg-surface p-6"
@@ -150,14 +157,14 @@ export default function SubjectSelection() {
         </motion.div>
       ) : (
         <motion.div key="home" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.2 }}>
-          <HomeScreen subjects={subjects} pathLabel={pathLabel} examPath={examPath} onSwitch={() => setMode('confirming')} />
+          <HomeScreen subjects={subjects} pathLabel={pathLabel} examPath={examPath} onSwitch={() => setMode('confirming')} onPaperSelect={(subj) => setPaperPicker({ open: true, subject: subj })} />
         </motion.div>
       )}
     </AnimatePresence>
   );
 }
 
-function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
+function HomeScreen({ subjects, pathLabel, onSwitch, examPath, onPaperSelect }) {
   const navigate = useNavigate();
   const [dailyQ, setDailyQ] = useState([]);
   const [qIndex, setQIndex] = useState(0);
@@ -253,6 +260,10 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath }) {
                 key={name}
                 whileTap={{ scale: 0.96 }}
                 onClick={() => {
+                  if (multiPaperSubjects[name]) {
+                    onPaperSelect(name);
+                    return;
+                  }
                   const subjId = subjectNameToId[name];
                   const url = subjId
                     ? `/practice?exam=${examPath.exam.toLowerCase()}&subjectId=${subjId}`

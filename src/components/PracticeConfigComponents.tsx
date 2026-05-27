@@ -4,6 +4,8 @@ import { Book, Calculator, Brain, Briefcase, ChevronRight, Play, Timer, ShieldCh
 
 export const icons = {
     bangla: BookOpen,
+    bangla_1st: BookOpen,
+    bangla_2nd: BookOpen,
     english: Book,
     math: Calculator,
     analytical: Brain,

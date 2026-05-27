@@ -10,8 +10,9 @@ import {
 import { useExamPath } from '../hooks/useExamPath';
 import { getSubjects } from '../config/examPaths';
 import ExamOnboarding from '../components/ExamOnboarding';
-import { subjectNameToId } from './SubjectSelection';
+import { subjectNameToId, multiPaperSubjects } from './SubjectSelection';
 import ExamChangerDropdown from '../components/ExamChangerDropdown';
+import PaperPicker from '../components/PaperPicker';
 import { getDailyQuizQuestions } from '../services/dailyQuiz';
 
 
@@ -252,6 +253,7 @@ function InlineDailyQuiz({ exam, group }) {
 export default function Learn() {
   const { examPath, setExamPath } = useExamPath();
   const navigate = useNavigate();
+  const [paperPicker, setPaperPicker] = useState({ open: false, subject: '' });
 
   const handleSelectorComplete = (path) => {
     setExamPath(path);
@@ -303,6 +305,10 @@ export default function Learn() {
               key={subject}
               subject={subject}
               onClick={() => {
+                if (multiPaperSubjects[subject]) {
+                  setPaperPicker({ open: true, subject });
+                  return;
+                }
                 const subjId = subjectNameToId[subject];
                 const url = subjId
                   ? `/practice?exam=${examPath.exam.toLowerCase()}&subjectId=${subjId}`
@@ -330,6 +336,18 @@ export default function Learn() {
           এখনি শুরু করো
         </button>
       </div>
+
+      <PaperPicker
+        isOpen={paperPicker.open}
+        onClose={() => setPaperPicker({ open: false, subject: '' })}
+        onSelect={(paperId) => {
+          setPaperPicker({ open: false, subject: '' });
+          const url = `/practice?exam=${examPath.exam.toLowerCase()}&subjectId=${paperId}`;
+          navigate(url);
+        }}
+        exam={examPath.exam.toLowerCase()}
+        subjectName={paperPicker.subject}
+      />
     </div>
   );
 }
