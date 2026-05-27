@@ -152,6 +152,7 @@ const subjects = [
   { name: 'general_science', htmlDir: 'D:/Tanvir Mahfuz/80-20-exam/docs/web/ssc-general-science', jsonDir: 'D:/Tanvir Mahfuz/80-20-exam/public/ssc/general_science' },
   { name: 'agriculture', htmlDir: 'D:/Tanvir Mahfuz/80-20-exam/docs/web/ssc-agricultural', jsonDir: 'D:/Tanvir Mahfuz/80-20-exam/public/ssc/agriculture' },
   { name: 'islam', htmlDir: 'D:/Tanvir Mahfuz/80-20-exam/docs/web/ssc-islam', jsonDir: 'D:/Tanvir Mahfuz/80-20-exam/public/ssc/islam' },
+  { name: 'math', htmlDir: 'D:/Tanvir Mahfuz/80-20-exam/docs/web/ssc-general-math', jsonDir: 'D:/Tanvir Mahfuz/80-20-exam/public/ssc/math' },
 ];
 
 const resultLines = [];

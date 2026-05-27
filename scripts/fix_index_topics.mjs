@@ -181,6 +181,17 @@ function generateTopics(subjectId, entries) {
       }
     }
 
+    // Deduplicate board chapter IDs (e.g., মাদ্রাসা বোর্ড ২০২৬ and মাদ্রাসা বোর্ড ২০২৬ (অনিয়মিত))
+    const seenBoard = {};
+    for (const ch of chapters) {
+      if (seenBoard[ch.id]) {
+        let counter = 2;
+        while (seenBoard[`${ch.id}_${counter}`]) counter++;
+        ch.id = `${ch.id}_${counter}`;
+      }
+      seenBoard[ch.id] = true;
+    }
+
     // Combined multi-board entries (like agriculture 2022)
     for (const e of combinedEntries) {
       chapters.push({
@@ -265,6 +276,10 @@ const agTopics = generateTopics("agriculture", agEntries);
 const islamEntries = parseMapping("D:\\Tanvir Mahfuz\\80-20-exam\\public\\ssc\\islam\\_mapping.txt");
 const islamTopics = generateTopics("islam", islamEntries);
 
+// Generate for math
+const mathEntries = parseMapping("D:\\Tanvir Mahfuz\\80-20-exam\\public\\ssc\\math\\_mapping.txt");
+const mathTopics = generateTopics("math", mathEntries);
+
 // Count check
 function countChapters(topics) {
   let c = 0;
@@ -274,6 +289,7 @@ function countChapters(topics) {
 const gsCount = countChapters(gsTopics);
 const agCount = countChapters(agTopics);
 const islamCount = countChapters(islamTopics);
+const mathCount = countChapters(mathTopics);
 
 // Validate no Bengali in IDs
 const idErrors = [];
@@ -294,6 +310,7 @@ function checkIds(obj, path) {
 checkIds(gsTopics, "gs");
 checkIds(agTopics, "ag");
 checkIds(islamTopics, "islam");
+checkIds(mathTopics, "math");
 
 // Check for duplicate IDs
 function findDuplicateIds(topics) {
@@ -319,17 +336,21 @@ function findDuplicateIds(topics) {
 const gsDupes = findDuplicateIds(gsTopics);
 const agDupes = findDuplicateIds(agTopics);
 const islamDupes = findDuplicateIds(islamTopics);
+const mathDupes = findDuplicateIds(mathTopics);
 
 const result = {
   general_science_topics: gsTopics,
   agriculture_topics: agTopics,
   islam_topics: islamTopics,
+  math_topics: mathTopics,
   gs_count: gsCount,
   ag_count: agCount,
   islam_count: islamCount,
+  math_count: mathCount,
   gs_dupes: gsDupes,
   ag_dupes: agDupes,
   islam_dupes: islamDupes,
+  math_dupes: mathDupes,
   id_errors: idErrors,
 };
 
@@ -339,7 +360,9 @@ fs.writeFileSync("D:\\Tanvir Mahfuz\\80-20-exam\\scripts\\generated_topics.json"
 console.log("GENERAL SCIENCE: " + gsCount + " files in " + gsTopics.length + " topics");
 console.log("AGRICULTURE: " + agCount + " files in " + agTopics.length + " topics");
 console.log("ISLAM: " + islamCount + " files in " + islamTopics.length + " topics");
+console.log("MATH: " + mathCount + " files in " + mathTopics.length + " topics");
 if (idErrors.length > 0) console.log("ID ERRORS: " + idErrors.length);
 if (gsDupes.length > 0) console.log("GS DUPLICATE IDs: " + gsDupes.join(", "));
 if (agDupes.length > 0) console.log("AG DUPLICATE IDs: " + agDupes.join(", "));
 if (islamDupes.length > 0) console.log("ISLAM DUPLICATE IDs: " + islamDupes.join(", "));
+if (mathDupes.length > 0) console.log("MATH DUPLICATE IDs: " + mathDupes.join(", "));

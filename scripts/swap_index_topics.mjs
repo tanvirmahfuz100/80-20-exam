@@ -48,6 +48,25 @@ if (!islamSubject) {
   islamSubject.topics = generated.islam_topics;
 }
 
+// Find and replace math topics
+let mathSubject = index.subjects.find((s) => s.id === "math");
+if (!mathSubject) {
+  // Add new math subject entry
+  mathSubject = {
+    id: "math",
+    name: "গণিত",
+    icon: "Brain",
+    name_en: "Mathematics",
+    name_bn: "গণিত",
+    topics: generated.math_topics,
+  };
+  // Insert after islam (find its index)
+  const islamIdx = index.subjects.findIndex((s) => s.id === "islam");
+  index.subjects.splice(islamIdx + 1, 0, mathSubject);
+} else {
+  mathSubject.topics = generated.math_topics;
+}
+
 // Validate file counts
 function countChapters(subj) {
   let c = 0;
@@ -57,6 +76,7 @@ function countChapters(subj) {
 const gsChapters = countChapters(gsSubject);
 const agChapters = countChapters(agSubject);
 const islamChapters = countChapters(islamSubject);
+const mathChapters = countChapters(mathSubject);
 
 if (gsChapters !== 97) {
   console.error(`ERROR: Expected 97 GS chapters, got ${gsChapters}`);
@@ -68,6 +88,10 @@ if (agChapters !== 68) {
 }
 if (islamChapters !== 91) {
   console.error(`ERROR: Expected 91 Islam chapters, got ${islamChapters}`);
+  process.exit(1);
+}
+if (mathChapters !== 128) {
+  console.error(`ERROR: Expected 128 Math chapters, got ${mathChapters}`);
   process.exit(1);
 }
 
@@ -94,6 +118,7 @@ function findDuplicateIds(topics) {
 const gsDupes = findDuplicateIds(gsSubject.topics);
 const agDupes = findDuplicateIds(agSubject.topics);
 const islamDupes = findDuplicateIds(islamSubject.topics);
+const mathDupes = findDuplicateIds(mathSubject.topics);
 if (gsDupes.length > 0) {
   console.error("GS duplicate IDs:", gsDupes);
   process.exit(1);
@@ -104,6 +129,10 @@ if (agDupes.length > 0) {
 }
 if (islamDupes.length > 0) {
   console.error("Islam duplicate IDs:", islamDupes);
+  process.exit(1);
+}
+if (mathDupes.length > 0) {
+  console.error("Math duplicate IDs:", mathDupes);
   process.exit(1);
 }
 
@@ -124,6 +153,7 @@ function validatePaths(topics) {
 const gsMissing = validatePaths(gsSubject.topics);
 const agMissing = validatePaths(agSubject.topics);
 const islamMissing = validatePaths(islamSubject.topics);
+const mathMissing = validatePaths(mathSubject.topics);
 
 if (gsMissing.length > 0) {
   console.error("GS missing files:", gsMissing);
@@ -135,6 +165,10 @@ if (agMissing.length > 0) {
 }
 if (islamMissing.length > 0) {
   console.error("Islam missing files:", islamMissing);
+  process.exit(1);
+}
+if (mathMissing.length > 0) {
+  console.error("Math missing files:", mathMissing);
   process.exit(1);
 }
 
@@ -149,3 +183,4 @@ console.log("SUCCESS!");
 console.log(`GS: ${gsChapters} chapters, 0 missing files, 0 duplicate IDs`);
 console.log(`AG: ${agChapters} chapters, 0 missing files, 0 duplicate IDs`);
 console.log(`Islam: ${islamChapters} chapters, 0 missing files, 0 duplicate IDs`);
+console.log(`Math: ${mathChapters} chapters, 0 missing files, 0 duplicate IDs`);

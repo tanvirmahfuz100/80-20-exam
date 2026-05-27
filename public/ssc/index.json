@@ -4629,6 +4629,887 @@
             ]
         },
         {
+            "id": "math",
+            "name": "গণিত",
+            "icon": "Brain",
+            "name_en": "Mathematics",
+            "name_bn": "গণিত",
+            "topics": [
+                {
+                    "id": "board_2026",
+                    "name": "Board Exams 2026",
+                    "name_bn": "বোর্ড পরীক্ষা ২০২৬",
+                    "name_en": "Board Exams 2026",
+                    "chapters": [
+                        {
+                            "id": "board_dhaka_2026",
+                            "name": "Dhaka Board 2026",
+                            "name_bn": "ঢাকা বোর্ড ২০২৬",
+                            "file": "/ssc/math/42.json"
+                        },
+                        {
+                            "id": "board_mymensingh_2026",
+                            "name": "Mymensingh Board 2026",
+                            "name_bn": "ময়মনসিংহ বোর্ড ২০২৬",
+                            "file": "/ssc/math/85.json"
+                        },
+                        {
+                            "id": "board_rajshahi_2026",
+                            "name": "Rajshahi Board 2026",
+                            "name_bn": "রাজশাহী বোর্ড ২০২৬",
+                            "file": "/ssc/math/113.json"
+                        },
+                        {
+                            "id": "board_cumilla_2026",
+                            "name": "Cumilla Board 2026",
+                            "name_bn": "কুমিল্লা বোর্ড ২০২৬",
+                            "file": "/ssc/math/14.json"
+                        },
+                        {
+                            "id": "board_chattogram_2026",
+                            "name": "Chattogram Board 2026",
+                            "name_bn": "চট্টগ্রাম বোর্ড ২০২৬",
+                            "file": "/ssc/math/30.json"
+                        },
+                        {
+                            "id": "board_dinajpur_2026",
+                            "name": "Dinajpur Board 2026",
+                            "name_bn": "দিনাজপুর বোর্ড ২০২৬",
+                            "file": "/ssc/math/56.json"
+                        },
+                        {
+                            "id": "board_sylhet_2026",
+                            "name": "Sylhet Board 2026",
+                            "name_bn": "সিলেট বোর্ড ২০২৬",
+                            "file": "/ssc/math/124.json"
+                        },
+                        {
+                            "id": "board_jashore_2026",
+                            "name": "Jashore Board 2026",
+                            "name_bn": "যশোর বোর্ড ২০২৬",
+                            "file": "/ssc/math/99.json"
+                        },
+                        {
+                            "id": "board_barishal_2026",
+                            "name": "Barishal Board 2026",
+                            "name_bn": "বরিশাল বোর্ড ২০২৬",
+                            "file": "/ssc/math/74.json"
+                        },
+                        {
+                            "id": "board_madrasah_2026",
+                            "name": "Madrasah Board 2026",
+                            "name_bn": "মাদ্রাসা বোর্ড ২০২৬ (অনিয়মিত)",
+                            "file": "/ssc/math/88.json"
+                        },
+                        {
+                            "id": "board_madrasah_2026_2",
+                            "name": "Madrasah Board 2026",
+                            "name_bn": "মাদ্রাসা বোর্ড ২০২৬",
+                            "file": "/ssc/math/89.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "board_2025",
+                    "name": "Board Exams 2025",
+                    "name_bn": "বোর্ড পরীক্ষা ২০২৫",
+                    "name_en": "Board Exams 2025",
+                    "chapters": [
+                        {
+                            "id": "board_dhaka_2025",
+                            "name": "Dhaka Board 2025",
+                            "name_bn": "ঢাকা বোর্ড ২০২৫",
+                            "file": "/ssc/math/41.json"
+                        },
+                        {
+                            "id": "board_mymensingh_2025",
+                            "name": "Mymensingh Board 2025",
+                            "name_bn": "ময়মনসিংহ বোর্ড ২০২৫",
+                            "file": "/ssc/math/84.json"
+                        },
+                        {
+                            "id": "board_rajshahi_2025",
+                            "name": "Rajshahi Board 2025",
+                            "name_bn": "রাজশাহী বোর্ড ২০২৫",
+                            "file": "/ssc/math/112.json"
+                        },
+                        {
+                            "id": "board_cumilla_2025",
+                            "name": "Cumilla Board 2025",
+                            "name_bn": "কুমিল্লা বোর্ড ২০২৫",
+                            "file": "/ssc/math/13.json"
+                        },
+                        {
+                            "id": "board_chattogram_2025",
+                            "name": "Chattogram Board 2025",
+                            "name_bn": "চট্টগ্রাম বোর্ড ২০২৫",
+                            "file": "/ssc/math/29.json"
+                        },
+                        {
+                            "id": "board_dinajpur_2025",
+                            "name": "Dinajpur Board 2025",
+                            "name_bn": "দিনাজপুর বোর্ড ২০২৫",
+                            "file": "/ssc/math/55.json"
+                        },
+                        {
+                            "id": "board_sylhet_2025",
+                            "name": "Sylhet Board 2025",
+                            "name_bn": "সিলেট বোর্ড ২০২৫",
+                            "file": "/ssc/math/123.json"
+                        },
+                        {
+                            "id": "board_jashore_2025",
+                            "name": "Jashore Board 2025",
+                            "name_bn": "যশোর বোর্ড ২০২৫",
+                            "file": "/ssc/math/98.json"
+                        },
+                        {
+                            "id": "board_barishal_2025",
+                            "name": "Barishal Board 2025",
+                            "name_bn": "বরিশাল বোর্ড ২০২৫",
+                            "file": "/ssc/math/73.json"
+                        },
+                        {
+                            "id": "board_madrasah_2025",
+                            "name": "Madrasah Board 2025",
+                            "name_bn": "মাদ্রাসা বোর্ড ২০২৫",
+                            "file": "/ssc/math/87.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "board_2024",
+                    "name": "Board Exams 2024",
+                    "name_bn": "বোর্ড পরীক্ষা ২০২৪",
+                    "name_en": "Board Exams 2024",
+                    "chapters": [
+                        {
+                            "id": "board_dhaka_2024",
+                            "name": "Dhaka Board 2024",
+                            "name_bn": "ঢাকা বোর্ড ২০২৪",
+                            "file": "/ssc/math/40.json"
+                        },
+                        {
+                            "id": "board_mymensingh_2024",
+                            "name": "Mymensingh Board 2024",
+                            "name_bn": "ময়মনসিংহ বোর্ড ২০২৪",
+                            "file": "/ssc/math/83.json"
+                        },
+                        {
+                            "id": "board_rajshahi_2024",
+                            "name": "Rajshahi Board 2024",
+                            "name_bn": "রাজশাহী বোর্ড ২০২৪",
+                            "file": "/ssc/math/111.json"
+                        },
+                        {
+                            "id": "board_cumilla_2024",
+                            "name": "Cumilla Board 2024",
+                            "name_bn": "কুমিল্লা বোর্ড ২০২৪",
+                            "file": "/ssc/math/12.json"
+                        },
+                        {
+                            "id": "board_chattogram_2024",
+                            "name": "Chattogram Board 2024",
+                            "name_bn": "চট্টগ্রাম বোর্ড ২০২৪",
+                            "file": "/ssc/math/28.json"
+                        },
+                        {
+                            "id": "board_dinajpur_2024",
+                            "name": "Dinajpur Board 2024",
+                            "name_bn": "দিনাজপুর বোর্ড ২০২৪",
+                            "file": "/ssc/math/54.json"
+                        },
+                        {
+                            "id": "board_sylhet_2024",
+                            "name": "Sylhet Board 2024",
+                            "name_bn": "সিলেট বোর্ড ২০২৪",
+                            "file": "/ssc/math/122.json"
+                        },
+                        {
+                            "id": "board_jashore_2024",
+                            "name": "Jashore Board 2024",
+                            "name_bn": "যশোর বোর্ড ২০২৪",
+                            "file": "/ssc/math/97.json"
+                        },
+                        {
+                            "id": "board_barishal_2024",
+                            "name": "Barishal Board 2024",
+                            "name_bn": "বরিশাল বোর্ড ২০২৪",
+                            "file": "/ssc/math/72.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "board_2023",
+                    "name": "Board Exams 2023",
+                    "name_bn": "বোর্ড পরীক্ষা ২০২৩",
+                    "name_en": "Board Exams 2023",
+                    "chapters": [
+                        {
+                            "id": "board_dhaka_2023",
+                            "name": "Dhaka Board 2023",
+                            "name_bn": "ঢাকা বোর্ড ২০২৩",
+                            "file": "/ssc/math/39.json"
+                        },
+                        {
+                            "id": "board_mymensingh_2023",
+                            "name": "Mymensingh Board 2023",
+                            "name_bn": "ময়মনসিংহ বোর্ড ২০২৩",
+                            "file": "/ssc/math/82.json"
+                        },
+                        {
+                            "id": "board_rajshahi_2023",
+                            "name": "Rajshahi Board 2023",
+                            "name_bn": "রাজশাহী বোর্ড ২০২৩",
+                            "file": "/ssc/math/110.json"
+                        },
+                        {
+                            "id": "board_cumilla_2023",
+                            "name": "Cumilla Board 2023",
+                            "name_bn": "কুমিল্লা বোর্ড  ২০২৩",
+                            "file": "/ssc/math/11.json"
+                        },
+                        {
+                            "id": "board_chattogram_2023",
+                            "name": "Chattogram Board 2023",
+                            "name_bn": "চট্টগ্রাম বোর্ড  ২০২৩",
+                            "file": "/ssc/math/27.json"
+                        },
+                        {
+                            "id": "board_dinajpur_2023",
+                            "name": "Dinajpur Board 2023",
+                            "name_bn": "দিনাজপুর বোর্ড ২০২৩",
+                            "file": "/ssc/math/53.json"
+                        },
+                        {
+                            "id": "board_sylhet_2023",
+                            "name": "Sylhet Board 2023",
+                            "name_bn": "সিলেট বোর্ড  ২০২৩",
+                            "file": "/ssc/math/121.json"
+                        },
+                        {
+                            "id": "board_jashore_2023",
+                            "name": "Jashore Board 2023",
+                            "name_bn": "যশোর বোর্ড ২০২৩",
+                            "file": "/ssc/math/96.json"
+                        },
+                        {
+                            "id": "board_barishal_2023",
+                            "name": "Barishal Board 2023",
+                            "name_bn": "বরিশাল বোর্ড ২০২৩",
+                            "file": "/ssc/math/71.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "board_2022",
+                    "name": "Board Exams 2022",
+                    "name_bn": "বোর্ড পরীক্ষা ২০২২",
+                    "name_en": "Board Exams 2022",
+                    "chapters": [
+                        {
+                            "id": "board_dhaka_2022",
+                            "name": "Dhaka Board 2022",
+                            "name_bn": "ঢাকা বোর্ড ২০২২",
+                            "file": "/ssc/math/38.json"
+                        },
+                        {
+                            "id": "board_mymensingh_2022",
+                            "name": "Mymensingh Board 2022",
+                            "name_bn": "ময়মনসিংহ বোর্ড ২০২২",
+                            "file": "/ssc/math/81.json"
+                        },
+                        {
+                            "id": "board_rajshahi_2022",
+                            "name": "Rajshahi Board 2022",
+                            "name_bn": "রাজশাহী বোর্ড ২০২২",
+                            "file": "/ssc/math/109.json"
+                        },
+                        {
+                            "id": "board_cumilla_2022",
+                            "name": "Cumilla Board 2022",
+                            "name_bn": "কুমিল্লা বোর্ড ২০২২",
+                            "file": "/ssc/math/10.json"
+                        },
+                        {
+                            "id": "board_chattogram_2022",
+                            "name": "Chattogram Board 2022",
+                            "name_bn": "চট্টগ্রাম বোর্ড ২০২২",
+                            "file": "/ssc/math/26.json"
+                        },
+                        {
+                            "id": "board_dinajpur_2022",
+                            "name": "Dinajpur Board 2022",
+                            "name_bn": "দিনাজপুর বোর্ড ২০২২",
+                            "file": "/ssc/math/52.json"
+                        },
+                        {
+                            "id": "board_sylhet_2022",
+                            "name": "Sylhet Board 2022",
+                            "name_bn": "সিলেট বোর্ড ২০২২",
+                            "file": "/ssc/math/120.json"
+                        },
+                        {
+                            "id": "board_jashore_2022",
+                            "name": "Jashore Board 2022",
+                            "name_bn": "যশোর বোর্ড ২০২২",
+                            "file": "/ssc/math/95.json"
+                        },
+                        {
+                            "id": "board_barishal_2022",
+                            "name": "Barishal Board 2022",
+                            "name_bn": "বরিশাল বোর্ড ২০২২",
+                            "file": "/ssc/math/70.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "board_2020",
+                    "name": "Board Exams 2020",
+                    "name_bn": "বোর্ড পরীক্ষা ২০২০",
+                    "name_en": "Board Exams 2020",
+                    "chapters": [
+                        {
+                            "id": "board_dhaka_2020",
+                            "name": "Dhaka Board 2020",
+                            "name_bn": "ঢাকা বোর্ড ২০২০",
+                            "file": "/ssc/math/37.json"
+                        },
+                        {
+                            "id": "board_mymensingh_2020",
+                            "name": "Mymensingh Board 2020",
+                            "name_bn": "ময়মনসিংহ বোর্ড ২০২০",
+                            "file": "/ssc/math/80.json"
+                        },
+                        {
+                            "id": "board_rajshahi_2020",
+                            "name": "Rajshahi Board 2020",
+                            "name_bn": "রাজশাহী বোর্ড ২০২০",
+                            "file": "/ssc/math/108.json"
+                        },
+                        {
+                            "id": "board_cumilla_2020",
+                            "name": "Cumilla Board 2020",
+                            "name_bn": "কুমিল্লা বোর্ড  ২০২০",
+                            "file": "/ssc/math/9.json"
+                        },
+                        {
+                            "id": "board_chattogram_2020",
+                            "name": "Chattogram Board 2020",
+                            "name_bn": "চট্টগ্রাম বোর্ড  ২০২০",
+                            "file": "/ssc/math/25.json"
+                        },
+                        {
+                            "id": "board_dinajpur_2020",
+                            "name": "Dinajpur Board 2020",
+                            "name_bn": "দিনাজপুর বোর্ড ২০২০",
+                            "file": "/ssc/math/51.json"
+                        },
+                        {
+                            "id": "board_sylhet_2020",
+                            "name": "Sylhet Board 2020",
+                            "name_bn": "সিলেট বোর্ড  ২০২০",
+                            "file": "/ssc/math/119.json"
+                        },
+                        {
+                            "id": "board_jashore_2020",
+                            "name": "Jashore Board 2020",
+                            "name_bn": "যশোর বোর্ড ২০২০",
+                            "file": "/ssc/math/94.json"
+                        },
+                        {
+                            "id": "board_barishal_2020",
+                            "name": "Barishal Board 2020",
+                            "name_bn": "বরিশাল বোর্ড ২০২০",
+                            "file": "/ssc/math/69.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "board_2019",
+                    "name": "Board Exams 2019",
+                    "name_bn": "বোর্ড পরীক্ষা ২০১৯",
+                    "name_en": "Board Exams 2019",
+                    "chapters": [
+                        {
+                            "id": "board_dhaka_2019",
+                            "name": "Dhaka Board 2019",
+                            "name_bn": "ঢাকা বোর্ড ২০১৯",
+                            "file": "/ssc/math/36.json"
+                        },
+                        {
+                            "id": "board_rajshahi_2019",
+                            "name": "Rajshahi Board 2019",
+                            "name_bn": "রাজশাহী বোর্ড ২০১৯",
+                            "file": "/ssc/math/107.json"
+                        },
+                        {
+                            "id": "board_cumilla_2019",
+                            "name": "Cumilla Board 2019",
+                            "name_bn": "কুমিল্লা বোর্ড ২০১৯",
+                            "file": "/ssc/math/8.json"
+                        },
+                        {
+                            "id": "board_chattogram_2019",
+                            "name": "Chattogram Board 2019",
+                            "name_bn": "চট্টগ্রাম বোর্ড ২০১৯",
+                            "file": "/ssc/math/24.json"
+                        },
+                        {
+                            "id": "board_dinajpur_2019",
+                            "name": "Dinajpur Board 2019",
+                            "name_bn": "দিনাজপুর বোর্ড ২০১৯",
+                            "file": "/ssc/math/50.json"
+                        },
+                        {
+                            "id": "board_sylhet_2019",
+                            "name": "Sylhet Board 2019",
+                            "name_bn": "সিলেট বোর্ড ২০১৯",
+                            "file": "/ssc/math/118.json"
+                        },
+                        {
+                            "id": "board_jashore_2019",
+                            "name": "Jashore Board 2019",
+                            "name_bn": "যশোর বোর্ড ২০১৯",
+                            "file": "/ssc/math/93.json"
+                        },
+                        {
+                            "id": "board_barishal_2019",
+                            "name": "Barishal Board 2019",
+                            "name_bn": "বরিশাল বোর্ড ২০১৯",
+                            "file": "/ssc/math/68.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "board_2018",
+                    "name": "Board Exams 2018",
+                    "name_bn": "বোর্ড পরীক্ষা ২০১৮",
+                    "name_en": "Board Exams 2018",
+                    "chapters": [
+                        {
+                            "id": "board_all_2018",
+                            "name": "All Boards 2018 Combined",
+                            "name_bn": "সকল বোর্ড ২০১৮",
+                            "file": "/ssc/math/114.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "board_2017",
+                    "name": "Board Exams 2017",
+                    "name_bn": "বোর্ড পরীক্ষা ২০১৭",
+                    "name_en": "Board Exams 2017",
+                    "chapters": [
+                        {
+                            "id": "board_dhaka_2017",
+                            "name": "Dhaka Board 2017",
+                            "name_bn": "ঢাকা বোর্ড ২০১৭",
+                            "file": "/ssc/math/35.json"
+                        },
+                        {
+                            "id": "board_rajshahi_2017",
+                            "name": "Rajshahi Board 2017",
+                            "name_bn": "রাজশাহী বোর্ড ২০১৭",
+                            "file": "/ssc/math/106.json"
+                        },
+                        {
+                            "id": "board_cumilla_2017",
+                            "name": "Cumilla Board 2017",
+                            "name_bn": "কুমিল্লা বোর্ড ২০১৭",
+                            "file": "/ssc/math/7.json"
+                        },
+                        {
+                            "id": "board_chattogram_2017",
+                            "name": "Chattogram Board 2017",
+                            "name_bn": "চট্টগ্রাম বোর্ড ২০১৭",
+                            "file": "/ssc/math/23.json"
+                        },
+                        {
+                            "id": "board_dinajpur_2017",
+                            "name": "Dinajpur Board 2017",
+                            "name_bn": "দিনাজপুর বোর্ড ২০১৭",
+                            "file": "/ssc/math/49.json"
+                        },
+                        {
+                            "id": "board_sylhet_2017",
+                            "name": "Sylhet Board 2017",
+                            "name_bn": "সিলেট বোর্ড ২০১৭",
+                            "file": "/ssc/math/117.json"
+                        },
+                        {
+                            "id": "board_jashore_2017",
+                            "name": "Jashore Board 2017",
+                            "name_bn": "যশোর বোর্ড ২০১৭",
+                            "file": "/ssc/math/92.json"
+                        },
+                        {
+                            "id": "board_barishal_2017",
+                            "name": "Barishal Board 2017",
+                            "name_bn": "বরিশাল বোর্ড ২০১৭",
+                            "file": "/ssc/math/67.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "school_2025",
+                    "name": "School & College Exams 2025",
+                    "name_bn": "স্কুল ও কলেজ পরীক্ষা ২০২৫",
+                    "name_en": "School & College Exams 2025",
+                    "chapters": [
+                        {
+                            "id": "school_ideal_school_and_college_motijheel_2025",
+                            "name": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল ২০২৫",
+                            "name_bn": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল ২০২৫",
+                            "file": "/ssc/math/2.json"
+                        },
+                        {
+                            "id": "school_adamjee_cantonment_public_school_2025",
+                            "name": "আদমজী ক্যান্টনমেন্ট পাবলিক স্কুল ২০২৫",
+                            "name_bn": "আদমজী ক্যান্টনমেন্ট পাবলিক স্কুল ২০২৫",
+                            "file": "/ssc/math/4.json"
+                        },
+                        {
+                            "id": "school_cumilla_cadet_college_2025",
+                            "name": "কুমিল্লা ক্যাডেট কলেজ ২০২৫",
+                            "name_bn": "কুমিল্লা ক্যাডেট কলেজ ২০২৫",
+                            "file": "/ssc/math/6.json"
+                        },
+                        {
+                            "id": "school_joypurhat_girls_cadet_college_2025",
+                            "name": "জয়পুরহাট গার্লস ক্যাডেট কলেজ ২০২৫",
+                            "name_bn": "জয়পুরহাট গার্লস ক্যাডেট কলেজ ২০২৫",
+                            "file": "/ssc/math/32.json"
+                        },
+                        {
+                            "id": "school_jhenaidah_cadet_college_2025",
+                            "name": "ঝিনাইদহ ক্যাডেট কলেজ ২০২৫",
+                            "name_bn": "ঝিনাইদহ ক্যাডেট কলেজ ২০২৫",
+                            "file": "/ssc/math/33.json"
+                        },
+                        {
+                            "id": "school_dhaka_residential_model_college_2025",
+                            "name": "ঢাকা রেসিডেনসিয়াল মডেল কলেজ ২০২৫",
+                            "name_bn": "ঢাকা রেসিডেনসিয়াল মডেল কলেজ ২০২৫",
+                            "file": "/ssc/math/44.json"
+                        },
+                        {
+                            "id": "school_school_2025",
+                            "name": "দাখিল ২০২৫",
+                            "name_bn": "দাখিল ২০২৫",
+                            "file": "/ssc/math/48.json"
+                        },
+                        {
+                            "id": "school_pabna_cadet_college_2025",
+                            "name": "পাবনা ক্যাডেট কলেজ ২০২৫",
+                            "name_bn": "পাবনা ক্যাডেট কলেজ ২০২৫",
+                            "file": "/ssc/math/60.json"
+                        },
+                        {
+                            "id": "school_feni_girls_cadet_college_2025",
+                            "name": "ফেনী গার্লস ক্যাডেট কলেজ ২০২৫",
+                            "name_bn": "ফেনী গার্লস ক্যাডেট কলেজ ২০২৫",
+                            "file": "/ssc/math/62.json"
+                        },
+                        {
+                            "id": "school_faujdarhat_cadet_college_2025",
+                            "name": "ফৌজদারহাট ক্যাডেট কলেজ ২০২৫",
+                            "name_bn": "ফৌজদারহাট ক্যাডেট কলেজ ২০২৫",
+                            "file": "/ssc/math/64.json"
+                        },
+                        {
+                            "id": "school_barishal_cadet_college_2025",
+                            "name": "বরিশাল ক্যাডেট কলেজ ২০২৫",
+                            "name_bn": "বরিশাল ক্যাডেট কলেজ ২০২৫",
+                            "file": "/ssc/math/66.json"
+                        },
+                        {
+                            "id": "school_birshreshtha_noor_mohammad_public_college_2025",
+                            "name": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৫",
+                            "name_bn": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৫",
+                            "file": "/ssc/math/76.json"
+                        },
+                        {
+                            "id": "school_viquarunnisa_noon_school_and_college_2025",
+                            "name": "ভিকারুননিসা নূন স্কুল এন্ড কলেজ ২০২৫",
+                            "name_bn": "ভিকারুননিসা নূন স্কুল এন্ড কলেজ ২০২৫",
+                            "file": "/ssc/math/78.json"
+                        },
+                        {
+                            "id": "school_mymensingh_girls_cadet_college_2025",
+                            "name": "ময়মনসিংহ গার্লস ক্যাডেট কলেজ ২০২৫",
+                            "name_bn": "ময়মনসিংহ গার্লস ক্যাডেট কলেজ ২০২৫",
+                            "file": "/ssc/math/79.json"
+                        },
+                        {
+                            "id": "school_mirzapur_cadet_college_2025",
+                            "name": "মির্জাপুর ক্যাডেট কলেজ ২০২৫",
+                            "name_bn": "মির্জাপুর ক্যাডেট কলেজ ২০২৫",
+                            "file": "/ssc/math/91.json"
+                        },
+                        {
+                            "id": "school_rangpur_cadet_college_2025",
+                            "name": "রংপুর ক্যাডেট কলেজ ২০২৫",
+                            "name_bn": "রংপুর ক্যাডেট কলেজ ২০২৫",
+                            "file": "/ssc/math/101.json"
+                        },
+                        {
+                            "id": "school_rajuk_uttara_model_college_2025",
+                            "name": "রাজউক উত্তরা মডেল কলেজ ২০২৫",
+                            "name_bn": "রাজউক উত্তরা মডেল কলেজ ২০২৫",
+                            "file": "/ssc/math/103.json"
+                        },
+                        {
+                            "id": "school_rajshahi_cadet_college_2025",
+                            "name": "রাজশাহী ক্যাডেট কলেজ ২০২৫",
+                            "name_bn": "রাজশাহী ক্যাডেট কলেজ ২০২৫",
+                            "file": "/ssc/math/105.json"
+                        },
+                        {
+                            "id": "school_sylhet_cadet_college_2025",
+                            "name": "সিলেট ক্যাডেট কলেজ ২০২৫",
+                            "name_bn": "সিলেট ক্যাডেট কলেজ ২০২৫",
+                            "file": "/ssc/math/116.json"
+                        },
+                        {
+                            "id": "school_st_joseph_higher_school_2025",
+                            "name": "সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৫",
+                            "name_bn": "সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৫",
+                            "file": "/ssc/math/125.json"
+                        },
+                        {
+                            "id": "school_holy_cross_higher_girls_school_2025",
+                            "name": "হলি ক্রস উচ্চ বালিকা বিদ্যালয় ২০২৫",
+                            "name_bn": "হলি ক্রস উচ্চ বালিকা বিদ্যালয় ২০২৫",
+                            "file": "/ssc/math/127.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "school_2024",
+                    "name": "School & College Exams 2024",
+                    "name_bn": "স্কুল ও কলেজ পরীক্ষা ২০২৪",
+                    "name_en": "School & College Exams 2024",
+                    "chapters": [
+                        {
+                            "id": "school_ideal_school_and_college_motijheel_2024",
+                            "name": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল ২০২৪",
+                            "name_bn": "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল ২০২৪",
+                            "file": "/ssc/math/1.json"
+                        },
+                        {
+                            "id": "school_adamjee_cantonment_public_school_dhaka_2024",
+                            "name": "আদমজী ক্যান্ট. পাবলিক স্কুল, ঢাকা ২০২৪",
+                            "name_bn": "আদমজী ক্যান্ট. পাবলিক স্কুল, ঢাকা ২০২৪",
+                            "file": "/ssc/math/3.json"
+                        },
+                        {
+                            "id": "school_cumilla_cadet_college_2024",
+                            "name": "কুমিল্লা ক্যাডেট কলেজ ২০২৪",
+                            "name_bn": "কুমিল্লা ক্যাডেট কলেজ ২০২৪",
+                            "file": "/ssc/math/5.json"
+                        },
+                        {
+                            "id": "school_cantonment_public_school_and_college_mymensingh_2024",
+                            "name": "ক্যান্ট. পাবলিক স্কুল এন্ড কলেজ, ময়মনসিংহ ২০২৪",
+                            "name_bn": "ক্যান্ট. পাবলিক স্কুল এন্ড কলেজ, ময়মনসিংহ ২০২৪",
+                            "file": "/ssc/math/15.json"
+                        },
+                        {
+                            "id": "school_cantonment_public_school_and_college_rajshahi_2024",
+                            "name": "ক্যান্ট. পাবলিক স্কুল এন্ড কলেজ, রাজশাহী ২০২৪",
+                            "name_bn": "ক্যান্ট. পাবলিক স্কুল এন্ড কলেজ, রাজশাহী ২০২৪",
+                            "file": "/ssc/math/16.json"
+                        },
+                        {
+                            "id": "school_cantonment_public_school_and_college_bogra_2024",
+                            "name": "ক্যান্ট. পাবলিক স্কুল ও কলেজ, বগুড়া ২০২৪",
+                            "name_bn": "ক্যান্ট. পাবলিক স্কুল ও কলেজ, বগুড়া ২০২৪",
+                            "file": "/ssc/math/17.json"
+                        },
+                        {
+                            "id": "school_cantonment_public_school_and_college_rangpur_2024",
+                            "name": "ক্যান্ট. পাবলিক স্কুল ও কলেজ, রংপুর ২০২৪",
+                            "name_bn": "ক্যান্ট. পাবলিক স্কুল ও কলেজ, রংপুর ২০২৪",
+                            "file": "/ssc/math/18.json"
+                        },
+                        {
+                            "id": "school_cambrian_school_and_college_2024",
+                            "name": "ক্যামব্রিয়ান স্কুল এন্ড কলেজ ২০২৪",
+                            "name_bn": "ক্যামব্রিয়ান স্কুল এন্ড কলেজ ২০২৪",
+                            "file": "/ssc/math/19.json"
+                        },
+                        {
+                            "id": "school_government_laboratory_high_school_dhaka_2024",
+                            "name": "গবর্নমেন্ট ল্যাবরেটরি হাই স্কুল, ঢাকা ২০২৪",
+                            "name_bn": "গবর্নমেন্ট ল্যাবরেটরি হাই স্কুল, ঢাকা ২০২৪",
+                            "file": "/ssc/math/20.json"
+                        },
+                        {
+                            "id": "school_government_laboratory_high_school_rajshahi_2024",
+                            "name": "গভঃ ল্যাবরেটরী হাই স্কুল, রাজশাহী ২০২৪",
+                            "name_bn": "গভঃ ল্যাবরেটরী হাই স্কুল, রাজশাহী ২০২৪",
+                            "file": "/ssc/math/21.json"
+                        },
+                        {
+                            "id": "school_chattogram_college_school_2024",
+                            "name": "চট্টগ্রাম কলেজিয়েট স্কুল ২০২৪",
+                            "name_bn": "চট্টগ্রাম কলেজিয়েট স্কুল ২০২৪",
+                            "file": "/ssc/math/22.json"
+                        },
+                        {
+                            "id": "school_joypurhat_girls_cadet_college_2024",
+                            "name": "জয়পুরহাট গার্লস ক্যাডেট কলেজ ২০২৪",
+                            "name_bn": "জয়পুরহাট গার্লস ক্যাডেট কলেজ ২০২৪",
+                            "file": "/ssc/math/31.json"
+                        },
+                        {
+                            "id": "school_dhaka_college_school_2024",
+                            "name": "ঢাকা কলেজিয়েট স্কুল ২০২৪",
+                            "name_bn": "ঢাকা কলেজিয়েট স্কুল ২০২৪",
+                            "file": "/ssc/math/34.json"
+                        },
+                        {
+                            "id": "school_dhaka_residential_model_college_2024",
+                            "name": "ঢাকা রেসিডেনসিয়াল মডেল কলেজ ২০২৪",
+                            "name_bn": "ঢাকা রেসিডেনসিয়াল মডেল কলেজ ২০২৪",
+                            "file": "/ssc/math/43.json"
+                        },
+                        {
+                            "id": "school_school_2024",
+                            "name": "দাখিল ২০২৪",
+                            "name_bn": "দাখিল ২০২৪",
+                            "file": "/ssc/math/47.json"
+                        },
+                        {
+                            "id": "school_noor_mohammad_public_college_dhaka_2024",
+                            "name": "নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা ২০২৪",
+                            "name_bn": "নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা ২০২৪",
+                            "file": "/ssc/math/57.json"
+                        },
+                        {
+                            "id": "school_ideal_school_dhaka_2024",
+                            "name": "ন্যাশনাল আইডিয়াল স্কুল, ঢাকা ২০২৪",
+                            "name_bn": "ন্যাশনাল আইডিয়াল স্কুল, ঢাকা ২০২৪",
+                            "file": "/ssc/math/58.json"
+                        },
+                        {
+                            "id": "school_pabna_cadet_college_2024",
+                            "name": "পাবনা ক্যাডেট কলেজ ২০২৪",
+                            "name_bn": "পাবনা ক্যাডেট কলেজ ২০২৪",
+                            "file": "/ssc/math/59.json"
+                        },
+                        {
+                            "id": "school_feni_girls_cadet_college_2024",
+                            "name": "ফেনী গার্লস ক্যাডেট কলেজ ২০২৪",
+                            "name_bn": "ফেনী গার্লস ক্যাডেট কলেজ ২০২৪",
+                            "file": "/ssc/math/61.json"
+                        },
+                        {
+                            "id": "school_faujdarhat_cadet_college_2024",
+                            "name": "ফৌজদারহাট ক্যাডেট কলেজ ২০২৪",
+                            "name_bn": "ফৌজদারহাট ক্যাডেট কলেজ ২০২৪",
+                            "file": "/ssc/math/63.json"
+                        },
+                        {
+                            "id": "school_barishal_cadet_college_2024",
+                            "name": "বরিশাল ক্যাডেট কলেজ ২০২৪",
+                            "name_bn": "বরিশাল ক্যাডেট কলেজ ২০২৪",
+                            "file": "/ssc/math/65.json"
+                        },
+                        {
+                            "id": "school_baf_shaheen_college_dhaka_2024",
+                            "name": "বিএএফ শাহীন কলেজ, ঢাকা ২০২৪",
+                            "name_bn": "বিএএফ শাহীন কলেজ, ঢাকা ২০২৪",
+                            "file": "/ssc/math/75.json"
+                        },
+                        {
+                            "id": "school_viquarunnisa_noon_school_and_college_2024",
+                            "name": "ভিকারুননিসা নূন স্কুল এন্ড কলেজ ২০২৪",
+                            "name_bn": "ভিকারুননিসা নূন স্কুল এন্ড কলেজ ২০২৪",
+                            "file": "/ssc/math/77.json"
+                        },
+                        {
+                            "id": "school_college_dhaka_2024",
+                            "name": "মাইলস্টোন কলেজ, ঢাকা ২০২৪",
+                            "name_bn": "মাইলস্টোন কলেজ, ঢাকা ২০২৪",
+                            "file": "/ssc/math/86.json"
+                        },
+                        {
+                            "id": "school_mirzapur_cadet_college_2024",
+                            "name": "মির্জাপুর ক্যাডেট কলেজ ২০২৪",
+                            "name_bn": "মির্জাপুর ক্যাডেট কলেজ ২০২৪",
+                            "file": "/ssc/math/90.json"
+                        },
+                        {
+                            "id": "school_rangpur_cadet_college_2024",
+                            "name": "রংপুর ক্যাডেট কলেজ ২০২৪",
+                            "name_bn": "রংপুর ক্যাডেট কলেজ ২০২৪",
+                            "file": "/ssc/math/100.json"
+                        },
+                        {
+                            "id": "school_rajuk_uttara_model_college_2024",
+                            "name": "রাজউক উত্তরা মডেল কলেজ ২০২৪",
+                            "name_bn": "রাজউক উত্তরা মডেল কলেজ ২০২৪",
+                            "file": "/ssc/math/102.json"
+                        },
+                        {
+                            "id": "school_rajshahi_cadet_college_2024",
+                            "name": "রাজশাহী ক্যাডেট কলেজ ২০২৪",
+                            "name_bn": "রাজশাহী ক্যাডেট কলেজ ২০২৪",
+                            "file": "/ssc/math/104.json"
+                        },
+                        {
+                            "id": "school_sylhet_cadet_college_2024",
+                            "name": "সিলেট ক্যাডেট কলেজ ২০২৪",
+                            "name_bn": "সিলেট ক্যাডেট কলেজ ২০২৪",
+                            "file": "/ssc/math/115.json"
+                        },
+                        {
+                            "id": "school_st_joseph_higher_school_dhaka_2024",
+                            "name": "সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয়, ঢাকা ২০২৪",
+                            "name_bn": "সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয়, ঢাকা ২০২৪",
+                            "file": "/ssc/math/126.json"
+                        },
+                        {
+                            "id": "school_holy_cross_higher_girls_school_dhaka_2024",
+                            "name": "হলি ক্রস উচ্চ বালিকা বিদ্যালয়, ঢাকা ২০২৪",
+                            "name_bn": "হলি ক্রস উচ্চ বালিকা বিদ্যালয়, ঢাকা ২০২৪",
+                            "file": "/ssc/math/128.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "school_2023",
+                    "name": "School & College Exams 2023",
+                    "name_bn": "স্কুল ও কলেজ পরীক্ষা ২০২৩",
+                    "name_en": "School & College Exams 2023",
+                    "chapters": [
+                        {
+                            "id": "school_school_2023",
+                            "name": "দাখিল ২০২৩",
+                            "name_bn": "দাখিল ২০২৩",
+                            "file": "/ssc/math/46.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "school_2022",
+                    "name": "School & College Exams 2022",
+                    "name_bn": "স্কুল ও কলেজ পরীক্ষা ২০২২",
+                    "name_en": "School & College Exams 2022",
+                    "chapters": [
+                        {
+                            "id": "school_school_2022",
+                            "name": "দাখিল ২০২২",
+                            "name_bn": "দাখিল ২০২২",
+                            "file": "/ssc/math/45.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "bangla_1st",
             "name": "Bangla 1st Paper",
             "icon": "BookOpen",
