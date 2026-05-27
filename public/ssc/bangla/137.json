@@ -1,0 +1,362 @@
+﻿[
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "A",
+        "id":  1,
+        "question":  " কত বছর পূর্বে ব্রাহ্মী লিপির জন্ম হয়?",
+        "options":  {
+                        "A":  "",
+                        "B":  "২০০০",
+                        "C":  "১৫০০",
+                        "D":  "১০০০"
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "D",
+        "id":  2,
+        "question":  " গৌড়ীয় ব্যাকরণ কত সালে প্রকাশিত হয়?",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "A",
+        "id":  3,
+        "question":  " ত্রিপুরা এবং আসামের বরাক অঞ্চলের উপভাষা কী নামে পরিচিত?",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "D",
+        "id":  4,
+        "question":  " ধ্বনি উচ্চারণের উৎস হলো-",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  "ফুসফুস"
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "A",
+        "id":  5,
+        "question":  " সঠিক সংযুক্ত বর্ণ বিশ্লেষণ কোনটি?",
+        "options":  {
+                        "A":  "",
+                        "B":  "জ্ঞ = ঞ+জ",
+                        "C":  "জ্ঞ = ঞ+চ",
+                        "D":  "জ্ঞ = ঙ+গ"
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "A",
+        "id":  6,
+        "question":  "উচ্চ সম্মুখ স্বরধ্বনি উদাহরণ কোনগুলো?",
+        "options":  {
+                        "A":  "ই, ঈ",
+                        "B":  "",
+                        "C":  "ই, ঋ",
+                        "D":  "উ, ঋ"
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "A",
+        "id":  7,
+        "question":  "দন্তমূলীয় প্রতিবেষ্টিত ধ্বনি কোনটি?",
+        "options":  {
+                        "A":  "ড",
+                        "B":  "ত",
+                        "C":  "ব",
+                        "D":  "জ"
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "C",
+        "id":  8,
+        "question":  "\u0027মিছিলটি সামনে এগিয়ে  যায়।\u0027- বাক্যটিতে কোন ধরনের ক্রিয়াবিশেষণ ব্যবহৃত হয়েছে?",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "স্থানবাচক",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "B",
+        "id":  9,
+        "question":  "‘জ্ঞা-এর সঙ্গে \u0027আ\u0027 থাকলে তা কীসের মতো উচ্চারিত হয়?",
+        "options":  {
+                        "A":  "",
+                        "B":  "অ্যা",
+                        "C":  "অ",
+                        "D":  "এ"
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "B",
+        "id":  10,
+        "question":  "যেসব শব্দাংশ পদের সঙ্গে যুক্ত হলে বক্তব্য জোরালো হয় তাদের কী বলে?",
+        "options":  {
+                        "A":  "নির্দেশক",
+                        "B":  "বলক",
+                        "C":  "বিভক্তি",
+                        "D":  "বচন"
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "D",
+        "id":  11,
+        "question":  " \u0027অপকর্ম\u0027 শব্দে \u0027অপ\u0027 উপসর্গটি কী অর্থ প্রকাশ করে?",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "A",
+        "id":  12,
+        "question":  "\u0027দর্শনীয়\u0027 শব্দটি সঠিক প্রকৃতি-প্রত্যয়-",
+        "options":  {
+                        "A":  "\u003cstrong\u003e√\u003c/strong\u003eদৃশ্ + অনীয়",
+                        "B":  "দর্শ+নীয়",
+                        "C":  "দর্শ + অনীয়",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "C",
+        "id":  13,
+        "question":  " \u0027মনমাঝি\u0027-এর সঠিক ব্যাসবাক্য কোনটি?",
+        "options":  {
+                        "A":  "মন যে মাঝি",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "A",
+        "id":  14,
+        "question":  " কোনটি নিপাতনে সিদ্ধসন্ধি?",
+        "options":  {
+                        "A":  "গোষ্পদ",
+                        "B":  "",
+                        "C":  "পরিষ্কার",
+                        "D":  "উত্থান"
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "B",
+        "id":  15,
+        "question":  "কোন ধরনের দ্বিত্বে বিভক্তি যুক্ত হতে দেখা যায়?",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "ধ্বন্যাত্মক দ্বিত্বে",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "D",
+        "id":  16,
+        "question":  " নিত্য পুরুষবাচক শব্দ কোনটি?",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "D",
+        "id":  17,
+        "question":  "২ সংখ্যার সাথে \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmfrac\u003e\u003cmtext\u003e১\u003c/mtext\u003e\u003cmtext\u003e৪\u003c/mtext\u003e\u003c/mfrac\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e\\frac{১}{৪}\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1.2173em;vertical-align:-0.345em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mopen nulldelimiter\"\u003e\u003c/span\u003e\u003cspan class=\"mfrac\"\u003e\u003cspan class=\"vlist-t vlist-t2\"\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.8723em;\"\u003e\u003cspan style=\"top:-2.655em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"sizing reset-size6 size3 mtight\"\u003e\u003cspan class=\"mord mtight\"\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003e৪\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-3.23em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"frac-line\" style=\"border-bottom-width:0.04em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-3.394em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"sizing reset-size6 size3 mtight\"\u003e\u003cspan class=\"mord mtight\"\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003e১\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-s\"\u003e​\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.345em;\"\u003e\u003cspan\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mclose nulldelimiter\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e অংশ যোগ করলে কী হয়?",
+        "options":  {
+                        "A":  "আড়াই",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "D",
+        "id":  18,
+        "question":  "\u0027চাবি\u0027 কোন ভাষা থেকে আগত শব্দ?",
+        "options":  {
+                        "A":  "ওলন্দাজ",
+                        "B":  "ফরাসি",
+                        "C":  "ফারসি",
+                        "D":  "পর্তুগিজ"
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "B",
+        "id":  19,
+        "question":  " গুণ-বিশেষ্য কোনটি?",
+        "options":  {
+                        "A":  "",
+                        "B":  "ধৈর্য",
+                        "C":  "ভোজন",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "D",
+        "id":  20,
+        "question":  "নিচের কোনটি যৌগিক ক্রিয়ার উদাহরণ?",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "B",
+        "id":  21,
+        "question":  " ক্রিয়াপদ থেকে তৈরি হয়েছে কোন অনুসর্গ?",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  "ক্রিয়ালগ্ন অনুসর্গ"
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "C",
+        "id":  22,
+        "question":  " নিচের কোনটি প্রযোজক ক্রিয়ার ভাবী অসমাপিকা ক্রিয়াবিভক্তি?",
+        "options":  {
+                        "A":  "আনো (করানো )",
+                        "B":  "ইয়ে (করিয়ে)",
+                        "C":  "আতে (করাতে)",
+                        "D":  "আলে (করালে)"
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "B",
+        "id":  23,
+        "question":  " \u0027লোকটি অশিক্ষিত, কিন্তু অভদ্র নয়।\u0027- গঠন অনুযায়ী বাক্যটি-",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "B",
+        "id":  24,
+        "question":  " কাব্যভাষায় কর্মকারকে \u0027-রে\u0027 বিভক্তি হয়; এরকম উদাহরণ হচ্ছে-",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "A",
+        "id":  25,
+        "question":  "\u0027তুমি কখন এলে?\u0027-এর ভাববাচ্য কোনটি?",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "A",
+        "id":  26,
+        "question":  " পরোক্ষ উক্তিতে ক্রিয়ারূপের পরিবর্তন হয় কী অনুযায়ী?",
+        "options":  {
+                        "A":  "কর্তা",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "B",
+        "id":  27,
+        "question":  "\u0027তীর্থের কাক\u0027 বাগধারার সঠিক অর্থ হচ্ছে-",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "B",
+        "id":  28,
+        "question":  "\u0027আত্মজা\u0027 শব্দের সমার্থক হচ্ছে-",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "C",
+        "id":  29,
+        "question":  "কোনটি \u0027রিক্ত\u0027 শব্দের বিপরীত শব্দ?",
+        "options":  {
+                        "A":  "খালি",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    },
+    {
+        "source":  "মতিঝিল মডেল স্কুল এন্ড কলেজ ২০২৪",
+        "answer":  "B",
+        "id":  30,
+        "question":  "\u0027অবিহিত\u0027 অর্থ কী, যখন \u0027অভিহিত\u0027 অর্থ \u0027কথিত\u0027?",
+        "options":  {
+                        "A":  "",
+                        "B":  "",
+                        "C":  "",
+                        "D":  ""
+                    }
+    }
+]

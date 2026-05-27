@@ -1,0 +1,362 @@
+﻿[
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "B",
+        "id":  1,
+        "question":  "‘মা শিশুকে চাঁদ দেখাচ্ছেন’—বাক্যে প্রযোজক কর্তা কোনটি?",
+        "options":  {
+                        "A":  "শিশু",
+                        "B":  "মা",
+                        "C":  "চাঁদ",
+                        "D":  "দেখা"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "A",
+        "id":  2,
+        "question":  "‘আমরা তাজমহল দর্শন করলাম’—বাক্যের ক্রিয়াপদটি হচ্ছে—",
+        "options":  {
+                        "A":  "মিশ্র ক্রিয়া",
+                        "B":  "যৌগিক ক্রিয়া",
+                        "C":  "দ্বিকর্মক ক্রিয়া",
+                        "D":  "প্রযোজক ক্রিয়া"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "C",
+        "id":  3,
+        "question":  "\u003cu\u003e‘ফুলে ফুলে\u003c/u\u003e ঘর ভরেছে।’—নিম্নরেখ পদটি কোন কারক?",
+        "options":  {
+                        "A":  "কর্তৃকারক",
+                        "B":  "কর্মকারক",
+                        "C":  "করণকারক",
+                        "D":  "অপাদান কারক"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "A",
+        "id":  4,
+        "question":  "স্বত্ব ত্যাগ করে দান, সাহায্য ইত্যাদি বোঝাতে কোন কারক হয়?",
+        "options":  {
+                        "A":  "সম্প্রদান কারক",
+                        "B":  "কর্মকারক",
+                        "C":  "অপাদান কারক",
+                        "D":  "অধিকরণ কারক"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "B",
+        "id":  5,
+        "question":  "সার্থক বাক্যের আবশ্যক গুণ কয়টি?",
+        "options":  {
+                        "A":  "দুইটি",
+                        "B":  "তিনটি",
+                        "C":  "চারটি",
+                        "D":  "পাঁচটি"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "A",
+        "id":  6,
+        "question":  "কোন উপসর্গগুলো সংস্কৃত ও বাংলায় আছে?",
+        "options":  {
+                        "A":  "আ, বি, নি, সু",
+                        "B":  "বি, নি, হা, সু",
+                        "C":  "আ, সু, হা, বি",
+                        "D":  "হা, সু, কু, নি"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "C",
+        "id":  7,
+        "question":  "\u0027উক্তি\u0027 এর প্রকৃতি ও প্রত্যয় কোনটি?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmsqrt\u003e\u003cmtext\u003eউক্‌\u003c/mtext\u003e\u003c/msqrt\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmtext\u003eতি\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e\\sqrt{উক্‌} + তি\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1.04em;vertical-align:-0.1133em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord sqrt\"\u003e\u003cspan class=\"vlist-t vlist-t2\"\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.9267em;\"\u003e\u003cspan class=\"svg-align\" style=\"top:-3em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\" style=\"padding-left:0.833em;\"\u003e\u003cspan class=\"mord brahmic_fallback\"\u003eউক্\u003c/span\u003e\u003cspan class=\"mord\"\u003e‌\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-2.8867em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"hide-tail\" style=\"min-width:0.853em;height:1.08em;\"\u003e\u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"400em\" height=\"1.08em\" viewBox=\"0 0 400000 1080\" preserveAspectRatio=\"xMinYMin slice\"\u003e\u003cpath d=\"M95,702\r\nc-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14\r\nc0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54\r\nc44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10\r\ns173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429\r\nc69,-144,104.5,-217.7,106.5,-221\r\nl0 -0\r\nc5.3,-9.3,12,-14,20,-14\r\nH400000v40H845.2724\r\ns-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7\r\nc-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z\r\nM834 80h400000v40h-400000z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-s\"\u003e​\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.1133em;\"\u003e\u003cspan\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003eতি\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmsqrt\u003e\u003cmtext\u003eউক\u003c/mtext\u003e\u003c/msqrt\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmtext\u003eতি\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e\\sqrt{উক} + তি\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1.04em;vertical-align:-0.1133em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord sqrt\"\u003e\u003cspan class=\"vlist-t vlist-t2\"\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.9267em;\"\u003e\u003cspan class=\"svg-align\" style=\"top:-3em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\" style=\"padding-left:0.833em;\"\u003e\u003cspan class=\"mord brahmic_fallback\"\u003eউক\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-2.8867em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"hide-tail\" style=\"min-width:0.853em;height:1.08em;\"\u003e\u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"400em\" height=\"1.08em\" viewBox=\"0 0 400000 1080\" preserveAspectRatio=\"xMinYMin slice\"\u003e\u003cpath d=\"M95,702\r\nc-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14\r\nc0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54\r\nc44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10\r\ns173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429\r\nc69,-144,104.5,-217.7,106.5,-221\r\nl0 -0\r\nc5.3,-9.3,12,-14,20,-14\r\nH400000v40H845.2724\r\ns-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7\r\nc-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z\r\nM834 80h400000v40h-400000z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-s\"\u003e​\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.1133em;\"\u003e\u003cspan\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003eতি\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmsqrt\u003e\u003cmtext\u003eবচ্‌\u003c/mtext\u003e\u003c/msqrt\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmtext\u003eতি\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e\\sqrt{বচ্‌} + তি\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1.04em;vertical-align:-0.1133em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord sqrt\"\u003e\u003cspan class=\"vlist-t vlist-t2\"\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.9267em;\"\u003e\u003cspan class=\"svg-align\" style=\"top:-3em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\" style=\"padding-left:0.833em;\"\u003e\u003cspan class=\"mord brahmic_fallback\"\u003eবচ্\u003c/span\u003e\u003cspan class=\"mord\"\u003e‌\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-2.8867em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"hide-tail\" style=\"min-width:0.853em;height:1.08em;\"\u003e\u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"400em\" height=\"1.08em\" viewBox=\"0 0 400000 1080\" preserveAspectRatio=\"xMinYMin slice\"\u003e\u003cpath d=\"M95,702\r\nc-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14\r\nc0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54\r\nc44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10\r\ns173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429\r\nc69,-144,104.5,-217.7,106.5,-221\r\nl0 -0\r\nc5.3,-9.3,12,-14,20,-14\r\nH400000v40H845.2724\r\ns-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7\r\nc-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z\r\nM834 80h400000v40h-400000z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-s\"\u003e​\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.1133em;\"\u003e\u003cspan\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003eতি\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmsqrt\u003e\u003cmtext\u003eবচ্‌\u003c/mtext\u003e\u003c/msqrt\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmtext\u003eক্তি\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e\\sqrt{বচ্‌} + ক্তি\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1.04em;vertical-align:-0.1133em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord sqrt\"\u003e\u003cspan class=\"vlist-t vlist-t2\"\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.9267em;\"\u003e\u003cspan class=\"svg-align\" style=\"top:-3em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\" style=\"padding-left:0.833em;\"\u003e\u003cspan class=\"mord brahmic_fallback\"\u003eবচ্\u003c/span\u003e\u003cspan class=\"mord\"\u003e‌\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-2.8867em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"hide-tail\" style=\"min-width:0.853em;height:1.08em;\"\u003e\u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"400em\" height=\"1.08em\" viewBox=\"0 0 400000 1080\" preserveAspectRatio=\"xMinYMin slice\"\u003e\u003cpath d=\"M95,702\r\nc-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14\r\nc0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54\r\nc44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10\r\ns173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429\r\nc69,-144,104.5,-217.7,106.5,-221\r\nl0 -0\r\nc5.3,-9.3,12,-14,20,-14\r\nH400000v40H845.2724\r\ns-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7\r\nc-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z\r\nM834 80h400000v40h-400000z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-s\"\u003e​\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.1133em;\"\u003e\u003cspan\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003eক্তি\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "C",
+        "id":  8,
+        "question":  "কৃৎ প্রত্যয়ের উদাহরণ কোনটি?",
+        "options":  {
+                        "A":  "দানব",
+                        "B":  "বাড়িওয়ালা",
+                        "C":  "খেলনা",
+                        "D":  "সাহিত্যিক"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "D",
+        "id":  9,
+        "question":  "‘মেধাবী’ এর প্রকৃতি ও প্রত্যয় কোনটি?",
+        "options":  {
+                        "A":  "মেধা + ঈ",
+                        "B":  "মেধাবী + অ",
+                        "C":  "মেধা + ইন্",
+                        "D":  "মেধা + বিন্"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "A",
+        "id":  10,
+        "question":  "‘মাছ — মাছুয়া \u003e মেছো’— কোন অর্থে ব্যবহৃত হয়?",
+        "options":  {
+                        "A":  "উপজীবিকা",
+                        "B":  "যোগ্যতা",
+                        "C":  "রোগগ্রস্ত",
+                        "D":  "উপকরণ"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "C",
+        "id":  11,
+        "question":  "‘গঞ্জ’ বানানে নিচের কোন দুইটি বর্ণ যুক্ত হয়েছে?",
+        "options":  {
+                        "A":  "ঞ্ + চ",
+                        "B":  "ঞ্ + ছ",
+                        "C":  "ঞ্ + জ",
+                        "D":  "ঞ্ + ঝ"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "D",
+        "id":  12,
+        "question":  "বাংলা বর্ণমালায় যৌগিক স্বর জ্ঞাপক বর্ণ দুটো কী কী?",
+        "options":  {
+                        "A":  "ই, ঈ",
+                        "B":  "এ, ঐ",
+                        "C":  "ও, ঔ",
+                        "D":  "ঐ, ঔ"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "A",
+        "id":  13,
+        "question":  "অন্ত্যস্বরগম এর উদাহরণ কোনটি?",
+        "options":  {
+                        "A":  "সত্য \u003e সত্যি",
+                        "B":  "চারি \u003e চাইর",
+                        "C":  "মুলা \u003e মুলো",
+                        "D":  "দেশি \u003e দিশি"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "A",
+        "id":  14,
+        "question":  "\u0027মনীষা\u0027 শব্দের সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+        "options":  {
+                        "A":  "মনস্ + ঈষা",
+                        "B":  "মনু + ঈষা",
+                        "C":  "মনঃ + ঈষা",
+                        "D":  "মন + ঈষা"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "B",
+        "id":  15,
+        "question":  "\u0027যথেষ্ট\u0027-এর সন্ধি বিচ্ছেদ কোনটি?",
+        "options":  {
+                        "A":  "যধ + ইষ্ট",
+                        "B":  "যথা + ইষ্ট",
+                        "C":  "যথা + এষ্ট",
+                        "D":  "যথে + ষ্ট"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "B",
+        "id":  16,
+        "question":  "\u0027ভিক্ষুককে দান কর\u0027—কোন ধরনের বাক্য?",
+        "options":  {
+                        "A":  "মিশ্র বাক্য",
+                        "B":  "সরল বাক্য",
+                        "C":  "আশ্রিত খণ্ড বাক্য",
+                        "D":  "যৌগিক বাক্য"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "D",
+        "id":  17,
+        "question":  "কোন বাগধারাটির অর্থ \u0027চির অশান্তি\u0027?",
+        "options":  {
+                        "A":  "যক্ষের ধন",
+                        "B":  "বর্ণচোরা",
+                        "C":  "হাড় হাভাতে",
+                        "D":  "রাবণের চিতা"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "C",
+        "id":  18,
+        "question":  "ভাববাচ্যের উদাহরণ কোনটি?",
+        "options":  {
+                        "A":  "রোগী পথ্য সেবন করে",
+                        "B":  "রবীন্দ্রনাথ \u0027গীতাঞ্জলি\u0027 লিখেছেন",
+                        "C":  "আমার খাওয়া হলো না",
+                        "D":  "শিক্ষক ছাত্রদের পড়াচ্ছেন"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "D",
+        "id":  19,
+        "question":  "\u0027আগামীকাল\u0027 এর পরোক্ষ উক্তির রূপ কী?",
+        "options":  {
+                        "A":  "পূর্বদিন",
+                        "B":  "সেদিন",
+                        "C":  "আগের দিন",
+                        "D":  "পর দিন"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "C",
+        "id":  20,
+        "question":  "\u0027দীর্ঘজীবী হও।\u0027—কোন ধরনের বাক্য?",
+        "options":  {
+                        "A":  "আদেশসূচক বাক্য",
+                        "B":  "বিবৃতিমূলক বাক্য",
+                        "C":  "ইচ্ছাসূচক বাক্য",
+                        "D":  "অনুরোধবাচক বাক্য"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "D",
+        "id":  21,
+        "question":  "যে সকল শব্দের ব্যুৎপত্তিগত অর্থ ও ব্যবহারিক অর্থ একই, তাকে কী বলে?",
+        "options":  {
+                        "A":  "যোগরূঢ় শব্দ",
+                        "B":  "রূঢ়ি শব্দ",
+                        "C":  "মৌলিক শব্দ",
+                        "D":  "যৌগিক শব্দ"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "B",
+        "id":  22,
+        "question":  "নিচের কোনটি যোগরূঢ় শব্দ?",
+        "options":  {
+                        "A":  "গোলাপ",
+                        "B":  "জলধি",
+                        "C":  "প্রবীণ",
+                        "D":  "সন্দেশ"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "A",
+        "id":  23,
+        "question":  "\u0027হিমালয়\u0027 কোন জাতীয় বিশেষ্য?",
+        "options":  {
+                        "A":  "সংজ্ঞাবাচক",
+                        "B":  "বস্তুবাচক",
+                        "C":  "সমষ্টিবাচক",
+                        "D":  "গুণবাচক"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "D",
+        "id":  24,
+        "question":  "ইনি, এরা — কোন বাচক সর্বনাম?",
+        "options":  {
+                        "A":  "সাকুল্য বাচক",
+                        "B":  "ব্যতিহারিক বাচক",
+                        "C":  "সংযোগ জ্ঞাপক",
+                        "D":  "সামীপ্য বাচক"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "A",
+        "id":  25,
+        "question":  "বাতাসের গতি বোঝাতে কোন অনুকার অব্যয় ব্যবহৃত হয়?",
+        "options":  {
+                        "A":  "শনশন",
+                        "B":  "মরমর",
+                        "C":  "কল কল",
+                        "D":  "গর গর"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "D",
+        "id":  26,
+        "question":  "আধিক্য বোঝাতে কোনটিতে দ্বিরুক্তির ব্যবহার হয়েছে?",
+        "options":  {
+                        "A":  "ধীরে ধীরে",
+                        "B":  "জ্বর জ্বর",
+                        "C":  "গরম গরম",
+                        "D":  "রাশি রাশি"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "B",
+        "id":  27,
+        "question":  "তারিখবাচক শব্দের প্রথম চারটি কোন নিয়মে সাধিত হয়?",
+        "options":  {
+                        "A":  "বাংলা",
+                        "B":  "হিন্দি",
+                        "C":  "আরবি",
+                        "D":  "ফরাসি"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "D",
+        "id":  28,
+        "question":  "বচনবাচক শব্দটির আগে বসে কোনটি?",
+        "options":  {
+                        "A":  "টুকু",
+                        "B":  "খানি",
+                        "C":  "খানা",
+                        "D":  "গোটা"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "A",
+        "id":  29,
+        "question":  "সমাসের রীতি কোন ভাষারীতি থেকে বাংলায় এসেছে?",
+        "options":  {
+                        "A":  "সংস্কৃত",
+                        "B":  "প্রাকৃত",
+                        "C":  "পালি",
+                        "D":  "চলিত"
+                    }
+    },
+    {
+        "source":  "মাদ্রাসা বোর্ড ২০২২",
+        "answer":  "C",
+        "id":  30,
+        "question":  "\u0027বিষাদসিন্ধু\u0027 এর সঠিক ব্যাসবাক্য কী?",
+        "options":  {
+                        "A":  "বিষাদ যে সিন্ধু",
+                        "B":  "বিষাদ ও সিন্ধু",
+                        "C":  "বিষাদ রূপ সিন্ধু",
+                        "D":  "সিন্ধু যে বিষাদ"
+                    }
+    }
+]
