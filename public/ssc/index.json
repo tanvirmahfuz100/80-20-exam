@@ -85,16 +85,16 @@
                             "file": "/ssc/ict/96.json"
                         },
                         {
-                            "id": "board_barishal_2026",
-                            "name": "Barishal Board 2026",
-                            "name_bn": "বরিশাল বোর্ড ২০২৬",
-                            "file": "/ssc/ict/51.json"
-                        },
-                        {
                             "id": "board_madrasah_2026",
                             "name": "Madrasah Board 2026",
                             "name_bn": "মাদ্রাসা বোর্ড ২০২৬",
                             "file": "/ssc/ict/68.json"
+                        },
+                        {
+                            "id": "board_barishal_2026",
+                            "name": "Barishal Board 2026",
+                            "name_bn": "বরিশাল বোর্ড ২০২৬",
+                            "file": "/ssc/ict/51.json"
                         }
                     ]
                 },
@@ -364,6 +364,18 @@
                         }
                     ]
                 },
+                                {
+                    "id": "board_2018",
+                    "name": "Board Exams 2018",
+                    "name_bn": "বোর্ড পরীক্ষা ২০১৮",
+                    "name_en": "Board Exams 2018",
+                    "chapters": [
+                        {
+                            "id": "board_all_2018",
+                            "name": "All Boards 2018 Combined",
+                            "name_bn": "সকল বোর্ড ২০১৮",
+                            "file": "/ssc/ict/89.json"
+                        },
                         {
                             "id": "board_madrasah_2018",
                             "name": "Madrasah Board 2018",
@@ -372,7 +384,7 @@
                         }
                     ]
                 },
-                {
+{
                     "id": "board_2017",
                     "name": "Board Exams 2017",
                     "name_bn": "বোর্ড পরীক্ষা ২০১৭",
