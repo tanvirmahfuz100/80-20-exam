@@ -129,6 +129,10 @@ export function usePracticeConfig() {
         const res = await fetch(path);
         if (!res.ok) return 0;
         const payload = await res.json();
+        if (payload?._type === 'bangla_written' && Array.isArray(payload.sections)) {
+          return payload.sections.reduce((total, s) =>
+            total + (Array.isArray(s.questions) ? s.questions.length : 0), 0);
+        }
         if (Array.isArray(payload?.chapters)) {
           return payload.chapters.reduce((total, ch) => {
             const c = ch.content || {};
@@ -219,6 +223,8 @@ export function usePracticeConfig() {
       navigate(`/quiz/${chapter.id}?file=${encodeURIComponent(file)}&title=${encodeURIComponent(displayName || chapter.name)}&chapterId=${chapter.id}`);
     } else if (chapter._type === 'creative') {
       navigate(`/creative-view?file=${encodeURIComponent(file)}&title=${encodeURIComponent(displayName || chapter.name)}`);
+    } else if (chapter._type === 'bangla_written') {
+      navigate(`/bangla-written-view?file=${encodeURIComponent(file)}&title=${encodeURIComponent(displayName || chapter.name)}`);
     } else {
       navigate(`/levels?file=${encodeURIComponent(file)}&title=${encodeURIComponent(displayName || chapter.name)}&chapterId=${chapter.id}`);
     }

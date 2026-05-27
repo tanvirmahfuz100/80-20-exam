@@ -24,6 +24,7 @@ const Settings = React.lazy(() => import('./pages/Settings'));
 const Landing = React.lazy(() => import('./pages/Landing'));
 const Stars = React.lazy(() => import('./pages/Stars'));
 const CreativeQuestionView = React.lazy(() => import('./pages/CreativeQuestionView'));
+const BanglaWrittenView = React.lazy(() => import('./pages/BanglaWrittenView'));
 const SubjectSelection = React.lazy(() => import('./pages/SubjectSelection'));
 const Learn = React.lazy(() => import('./pages/Learn'));
 const Leaderboard = React.lazy(() => import('./pages/Leaderboard'));
@@ -180,6 +181,11 @@ const AppContent = () => {
             <Route path="/creative-view" element={
               <motion.div {...pageMotion}>
                 <CreativeQuestionView />
+              </motion.div>
+            } />
+            <Route path="/bangla-written-view" element={
+              <motion.div {...pageMotion}>
+                <BanglaWrittenView />
               </motion.div>
             } />
 

@@ -1,4 +1,4 @@
-{
+﻿{
   "subjects": [
     {
       "id": "bangla_1st",
@@ -2974,6 +2974,1270 @@
       ],
       "name_bn": "ইসলামের ইতিহাস ও সংস্কৃতি ২য় পত্র",
       "name_en": "Islamic History and Culture 2nd Paper"
+    },
+    {
+        "icon":  "BookOpen",
+        "name":  "Bangla 2nd Paper",
+        "id":  "bangla_2nd",
+        "topics":  [
+                       {
+                           "name_en":  "Year 2016",
+                           "name":  "Year 2016",
+                           "id":  "year_2016",
+                           "name_bn":  "২০১৬ সাল",
+                           "chapters":  [
+                                            {
+                                                "id":  "hsc_bangla2_12",
+                                                "name":  "কুমিল্লা বোর্ড ২০১৬",
+                                                "file":  "/hsc/bangla_2nd/12.json",
+                                                "name_en":  "কুমিল্লা বোর্ড ২০১৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "কুমিল্লা বোর্ড ২০১৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_22",
+                                                "name":  "চট্টগ্রাম বোর্ড ২০১৬",
+                                                "file":  "/hsc/bangla_2nd/22.json",
+                                                "name_en":  "চট্টগ্রাম বোর্ড ২০১৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "চট্টগ্রাম বোর্ড ২০১৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_41",
+                                                "name":  "ঢাকা বোর্ড ২০১৬",
+                                                "file":  "/hsc/bangla_2nd/41.json",
+                                                "name_en":  "ঢাকা বোর্ড ২০১৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঢাকা বোর্ড ২০১৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_51",
+                                                "name":  "দিনাজপুর বোর্ড ২০১৬",
+                                                "file":  "/hsc/bangla_2nd/51.json",
+                                                "name_en":  "দিনাজপুর বোর্ড ২০১৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "দিনাজপুর বোর্ড ২০১৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_77",
+                                                "name":  "বরিশাল বোর্ড ২০১৬",
+                                                "file":  "/hsc/bangla_2nd/77.json",
+                                                "name_en":  "বরিশাল বোর্ড ২০১৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "বরিশাল বোর্ড ২০১৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_106",
+                                                "name":  "যশোর বোর্ড ২০১৬",
+                                                "file":  "/hsc/bangla_2nd/106.json",
+                                                "name_en":  "যশোর বোর্ড ২০১৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "যশোর বোর্ড ২০১৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_125",
+                                                "name":  "রাজশাহী বোর্ড ২০১৬",
+                                                "file":  "/hsc/bangla_2nd/125.json",
+                                                "name_en":  "রাজশাহী বোর্ড ২০১৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজশাহী বোর্ড ২০১৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_140",
+                                                "name":  "সিলেট বোর্ড ২০১৬",
+                                                "file":  "/hsc/bangla_2nd/140.json",
+                                                "name_en":  "সিলেট বোর্ড ২০১৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "সিলেট বোর্ড ২০১৬"
+                                            }
+                                        ]
+                       },
+                       {
+                           "name_en":  "Year 2017",
+                           "name":  "Year 2017",
+                           "id":  "year_2017",
+                           "name_bn":  "২০১৭ সাল",
+                           "chapters":  [
+                                            {
+                                                "id":  "hsc_bangla2_13",
+                                                "name":  "কুমিল্লা বোর্ড ২০১৭",
+                                                "file":  "/hsc/bangla_2nd/13.json",
+                                                "name_en":  "কুমিল্লা বোর্ড ২০১৭",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "কুমিল্লা বোর্ড ২০১৭"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_23",
+                                                "name":  "চট্টগ্রাম বোর্ড ২০১৭",
+                                                "file":  "/hsc/bangla_2nd/23.json",
+                                                "name_en":  "চট্টগ্রাম বোর্ড ২০১৭",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "চট্টগ্রাম বোর্ড ২০১৭"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_42",
+                                                "name":  "ঢাকা বোর্ড ২০১৭",
+                                                "file":  "/hsc/bangla_2nd/42.json",
+                                                "name_en":  "ঢাকা বোর্ড ২০১৭",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঢাকা বোর্ড ২০১৭"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_52",
+                                                "name":  "দিনাজপুর বোর্ড ২০১৭",
+                                                "file":  "/hsc/bangla_2nd/52.json",
+                                                "name_en":  "দিনাজপুর বোর্ড ২০১৭",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "দিনাজপুর বোর্ড ২০১৭"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_78",
+                                                "name":  "বরিশাল বোর্ড ২০১৭",
+                                                "file":  "/hsc/bangla_2nd/78.json",
+                                                "name_en":  "বরিশাল বোর্ড ২০১৭",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "বরিশাল বোর্ড ২০১৭"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_107",
+                                                "name":  "যশোর বোর্ড ২০১৭",
+                                                "file":  "/hsc/bangla_2nd/107.json",
+                                                "name_en":  "যশোর বোর্ড ২০১৭",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "যশোর বোর্ড ২০১৭"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_126",
+                                                "name":  "রাজশাহী বোর্ড ২০১৭",
+                                                "file":  "/hsc/bangla_2nd/126.json",
+                                                "name_en":  "রাজশাহী বোর্ড ২০১৭",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজশাহী বোর্ড ২০১৭"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_141",
+                                                "name":  "সিলেট বোর্ড ২০১৭",
+                                                "file":  "/hsc/bangla_2nd/141.json",
+                                                "name_en":  "সিলেট বোর্ড ২০১৭",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "সিলেট বোর্ড ২০১৭"
+                                            }
+                                        ]
+                       },
+                       {
+                           "name_en":  "Year 2018",
+                           "name":  "Year 2018",
+                           "id":  "year_2018",
+                           "name_bn":  "২০১৮ সাল",
+                           "chapters":  [
+                                            {
+                                                "id":  "hsc_bangla2_134",
+                                                "name":  "সকল বোর্ড ২০১৮",
+                                                "file":  "/hsc/bangla_2nd/134.json",
+                                                "name_en":  "সকল বোর্ড ২০১৮",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "সকল বোর্ড ২০১৮"
+                                            }
+                                        ]
+                       },
+                       {
+                           "name_en":  "Year 2019",
+                           "name":  "Year 2019",
+                           "id":  "year_2019",
+                           "name_bn":  "২০১৯ সাল",
+                           "chapters":  [
+                                            {
+                                                "id":  "hsc_bangla2_14",
+                                                "name":  "কুমিল্লা বোর্ড ২০১৯",
+                                                "file":  "/hsc/bangla_2nd/14.json",
+                                                "name_en":  "কুমিল্লা বোর্ড ২০১৯",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "কুমিল্লা বোর্ড ২০১৯"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_24",
+                                                "name":  "চট্টগ্রাম বোর্ড ২০১৯",
+                                                "file":  "/hsc/bangla_2nd/24.json",
+                                                "name_en":  "চট্টগ্রাম বোর্ড ২০১৯",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "চট্টগ্রাম বোর্ড ২০১৯"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_43",
+                                                "name":  "ঢাকা বোর্ড ২০১৯",
+                                                "file":  "/hsc/bangla_2nd/43.json",
+                                                "name_en":  "ঢাকা বোর্ড ২০১৯",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঢাকা বোর্ড ২০১৯"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_53",
+                                                "name":  "দিনাজপুর বোর্ড ২০১৯",
+                                                "file":  "/hsc/bangla_2nd/53.json",
+                                                "name_en":  "দিনাজপুর বোর্ড ২০১৯",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "দিনাজপুর বোর্ড ২০১৯"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_79",
+                                                "name":  "বরিশাল বোর্ড ২০১৯",
+                                                "file":  "/hsc/bangla_2nd/79.json",
+                                                "name_en":  "বরিশাল বোর্ড ২০১৯",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "বরিশাল বোর্ড ২০১৯"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_108",
+                                                "name":  "যশোর বোর্ড ২০১৯",
+                                                "file":  "/hsc/bangla_2nd/108.json",
+                                                "name_en":  "যশোর বোর্ড ২০১৯",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "যশোর বোর্ড ২০১৯"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_127",
+                                                "name":  "রাজশাহী বোর্ড ২০১৯",
+                                                "file":  "/hsc/bangla_2nd/127.json",
+                                                "name_en":  "রাজশাহী বোর্ড ২০১৯",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজশাহী বোর্ড ২০১৯"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_142",
+                                                "name":  "সিলেট বোর্ড ২০১৯",
+                                                "file":  "/hsc/bangla_2nd/142.json",
+                                                "name_en":  "সিলেট বোর্ড ২০১৯",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "সিলেট বোর্ড ২০১৯"
+                                            }
+                                        ]
+                       },
+                       {
+                           "name_en":  "Year 2022",
+                           "name":  "Year 2022",
+                           "id":  "year_2022",
+                           "name_bn":  "২০২২ সাল",
+                           "chapters":  [
+                                            {
+                                                "id":  "hsc_bangla2_15",
+                                                "name":  "কুমিল্লা বোর্ড ২০২২",
+                                                "file":  "/hsc/bangla_2nd/15.json",
+                                                "name_en":  "কুমিল্লা বোর্ড ২০২২",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "কুমিল্লা বোর্ড ২০২২"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_25",
+                                                "name":  "চট্টগ্রাম বোর্ড ২০২২",
+                                                "file":  "/hsc/bangla_2nd/25.json",
+                                                "name_en":  "চট্টগ্রাম বোর্ড ২০২২",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "চট্টগ্রাম বোর্ড ২০২২"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_44",
+                                                "name":  "ঢাকা বোর্ড ২০২২",
+                                                "file":  "/hsc/bangla_2nd/44.json",
+                                                "name_en":  "ঢাকা বোর্ড ২০২২",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঢাকা বোর্ড ২০২২"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_54",
+                                                "name":  "দিনাজপুর বোর্ড ২০২২",
+                                                "file":  "/hsc/bangla_2nd/54.json",
+                                                "name_en":  "দিনাজপুর বোর্ড ২০২২",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "দিনাজপুর বোর্ড ২০২২"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_80",
+                                                "name":  "বরিশাল বোর্ড ২০২২",
+                                                "file":  "/hsc/bangla_2nd/80.json",
+                                                "name_en":  "বরিশাল বোর্ড ২০২২",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "বরিশাল বোর্ড ২০২২"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_94",
+                                                "name":  "ময়মনসিংহ বোর্ড ২০২২",
+                                                "file":  "/hsc/bangla_2nd/94.json",
+                                                "name_en":  "ময়মনসিংহ বোর্ড ২০২২",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ময়মনসিংহ বোর্ড ২০২২"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_109",
+                                                "name":  "যশোর বোর্ড ২০২২",
+                                                "file":  "/hsc/bangla_2nd/109.json",
+                                                "name_en":  "যশোর বোর্ড ২০২২",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "যশোর বোর্ড ২০২২"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_128",
+                                                "name":  "রাজশাহী বোর্ড ২০২২",
+                                                "file":  "/hsc/bangla_2nd/128.json",
+                                                "name_en":  "রাজশাহী বোর্ড ২০২২",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজশাহী বোর্ড ২০২২"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_143",
+                                                "name":  "সিলেট বোর্ড ২০২২",
+                                                "file":  "/hsc/bangla_2nd/143.json",
+                                                "name_en":  "সিলেট বোর্ড ২০২২",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "সিলেট বোর্ড ২০২২"
+                                            }
+                                        ]
+                       },
+                       {
+                           "name_en":  "Year 2023",
+                           "name":  "Year 2023",
+                           "id":  "year_2023",
+                           "name_bn":  "২০২৩ সাল",
+                           "chapters":  [
+                                            {
+                                                "id":  "hsc_bangla2_1",
+                                                "name":  "আইডিয়াল কলেজ ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/1.json",
+                                                "name_en":  "আইডিয়াল কলেজ ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "আইডিয়াল কলেজ ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_9",
+                                                "name":  "কুমিল্লা ক্যাডেট ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/9.json",
+                                                "name_en":  "কুমিল্লা ক্যাডেট ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "কুমিল্লা ক্যাডেট ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_16",
+                                                "name":  "কুমিল্লা বোর্ড ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/16.json",
+                                                "name_en":  "কুমিল্লা বোর্ড ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "কুমিল্লা বোর্ড ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_20",
+                                                "name":  "চট্টগ্রাম কলেজ ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/20.json",
+                                                "name_en":  "চট্টগ্রাম কলেজ ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "চট্টগ্রাম কলেজ ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_26",
+                                                "name":  "চট্টগ্রাম বোর্ড ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/26.json",
+                                                "name_en":  "চট্টগ্রাম বোর্ড ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "চট্টগ্রাম বোর্ড ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_29",
+                                                "name":  "জয়পুরহাট গার্লস ক্যাডেট ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/29.json",
+                                                "name_en":  "জয়পুরহাট গার্লস ক্যাডেট ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "জয়পুরহাট গার্লস ক্যাডেট ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_32",
+                                                "name":  "ঝিনাইদহ ক্যাডেট ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/32.json",
+                                                "name_en":  "ঝিনাইদহ ক্যাডেট ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঝিনাইদহ ক্যাডেট ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_37",
+                                                "name":  "ঢাকা কলেজ ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/37.json",
+                                                "name_en":  "ঢাকা কলেজ ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঢাকা কলেজ ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_45",
+                                                "name":  "ঢাকা বোর্ড ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/45.json",
+                                                "name_en":  "ঢাকা বোর্ড ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঢাকা বোর্ড ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_55",
+                                                "name":  "দিনাজপুর বোর্ড ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/55.json",
+                                                "name_en":  "দিনাজপুর বোর্ড ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "দিনাজপুর বোর্ড ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_65",
+                                                "name":  "পাবনা ক্যাডেট ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/65.json",
+                                                "name_en":  "পাবনা ক্যাডেট ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "পাবনা ক্যাডেট ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_69",
+                                                "name":  "ফৌজদারহাট ক্যাডেট ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/69.json",
+                                                "name_en":  "ফৌজদারহাট ক্যাডেট ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ফৌজদারহাট ক্যাডেট ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_73",
+                                                "name":  "বরিশাল ক্যাডেট ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/73.json",
+                                                "name_en":  "বরিশাল ক্যাডেট ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "বরিশাল ক্যাডেট ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_81",
+                                                "name":  "বরিশাল বোর্ড ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/81.json",
+                                                "name_en":  "বরিশাল বোর্ড ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "বরিশাল বোর্ড ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_87",
+                                                "name":  "ভিকারুননিসা নূন কলেজ ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/87.json",
+                                                "name_en":  "ভিকারুননিসা নূন কলেজ ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ভিকারুননিসা নূন কলেজ ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_90",
+                                                "name":  "ময়মনসিংহ গার্লস ক্যাডেট ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/90.json",
+                                                "name_en":  "ময়মনসিংহ গার্লস ক্যাডেট ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ময়মনসিংহ গার্লস ক্যাডেট ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_95",
+                                                "name":  "ময়মনসিংহ বোর্ড ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/95.json",
+                                                "name_en":  "ময়মনসিংহ বোর্ড ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ময়মনসিংহ বোর্ড ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_98",
+                                                "name":  "মাইলস্টোন কলেজ ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/98.json",
+                                                "name_en":  "মাইলস্টোন কলেজ ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "মাইলস্টোন কলেজ ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_110",
+                                                "name":  "যশোর বোর্ড ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/110.json",
+                                                "name_en":  "যশোর বোর্ড ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "যশোর বোর্ড ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_113",
+                                                "name":  "রংপুর ক্যাডেট ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/113.json",
+                                                "name_en":  "রংপুর ক্যাডেট ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রংপুর ক্যাডেট ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_115",
+                                                "name":  "রাজউক উত্তরা ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/115.json",
+                                                "name_en":  "রাজউক উত্তরা ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজউক উত্তরা ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_119",
+                                                "name":  "রাজশাহী কলেজ ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/119.json",
+                                                "name_en":  "রাজশাহী কলেজ ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজশাহী কলেজ ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_120",
+                                                "name":  "রাজশাহী ক্যাডেট ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/120.json",
+                                                "name_en":  "রাজশাহী ক্যাডেট ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজশাহী ক্যাডেট ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_129",
+                                                "name":  "রাজশাহী বোর্ড ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/129.json",
+                                                "name_en":  "রাজশাহী বোর্ড ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজশাহী বোর্ড ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_133",
+                                                "name":  "রেসিডেন্সিয়াল কলেজ ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/133.json",
+                                                "name_en":  "রেসিডেন্সিয়াল কলেজ ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রেসিডেন্সিয়াল কলেজ ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_137",
+                                                "name":  "সিলেট ক্যাডেট ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/137.json",
+                                                "name_en":  "সিলেট ক্যাডেট ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "সিলেট ক্যাডেট ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_144",
+                                                "name":  "সিলেট বোর্ড ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/144.json",
+                                                "name_en":  "সিলেট বোর্ড ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "সিলেট বোর্ড ২০২৩"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_147",
+                                                "name":  "হলি ক্রস ঢাকা ২০২৩",
+                                                "file":  "/hsc/bangla_2nd/147.json",
+                                                "name_en":  "হলি ক্রস ঢাকা ২০২৩",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "হলি ক্রস ঢাকা ২০২৩"
+                                            }
+                                        ]
+                       },
+                       {
+                           "name_en":  "Year 2024",
+                           "name":  "Year 2024",
+                           "id":  "year_2024",
+                           "name_bn":  "২০২৪ সাল",
+                           "chapters":  [
+                                            {
+                                                "id":  "hsc_bangla2_2",
+                                                "name":  "আইডিয়াল কলেজ, মতিঝিল ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/2.json",
+                                                "name_en":  "আইডিয়াল কলেজ, মতিঝিল ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "আইডিয়াল কলেজ, মতিঝিল ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_5",
+                                                "name":  "আজিজুল হক কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/5.json",
+                                                "name_en":  "আজিজুল হক কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "আজিজুল হক কলেজ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_6",
+                                                "name":  "আদমজী ক্যান্ট. কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/6.json",
+                                                "name_en":  "আদমজী ক্যান্ট. কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "আদমজী ক্যান্ট. কলেজ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_10",
+                                                "name":  "কুমিল্লা ক্যাডেট ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/10.json",
+                                                "name_en":  "কুমিল্লা ক্যাডেট ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "কুমিল্লা ক্যাডেট ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_17",
+                                                "name":  "কুমিল্লা বোর্ড ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/17.json",
+                                                "name_en":  "কুমিল্লা বোর্ড ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "কুমিল্লা বোর্ড ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_19",
+                                                "name":  "ক্যান্ট. পাবলিক কলেজ, রংপুর ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/19.json",
+                                                "name_en":  "ক্যান্ট. পাবলিক কলেজ, রংপুর ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ক্যান্ট. পাবলিক কলেজ, রংপুর ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_21",
+                                                "name":  "চট্টগ্রাম কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/21.json",
+                                                "name_en":  "চট্টগ্রাম কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "চট্টগ্রাম কলেজ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_27",
+                                                "name":  "চট্টগ্রাম বোর্ড ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/27.json",
+                                                "name_en":  "চট্টগ্রাম বোর্ড ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "চট্টগ্রাম বোর্ড ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_30",
+                                                "name":  "জয়পুরহাট গার্লস ক্যাডেট ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/30.json",
+                                                "name_en":  "জয়পুরহাট গার্লস ক্যাডেট ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "জয়পুরহাট গার্লস ক্যাডেট ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_33",
+                                                "name":  "ঝিনাইদহ ক্যাডেট ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/33.json",
+                                                "name_en":  "ঝিনাইদহ ক্যাডেট ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঝিনাইদহ ক্যাডেট ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_36",
+                                                "name":  "ঢাকা কমার্স কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/36.json",
+                                                "name_en":  "ঢাকা কমার্স কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঢাকা কমার্স কলেজ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_38",
+                                                "name":  "ঢাকা কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/38.json",
+                                                "name_en":  "ঢাকা কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঢাকা কলেজ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_46",
+                                                "name":  "ঢাকা বোর্ড ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/46.json",
+                                                "name_en":  "ঢাকা বোর্ড ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঢাকা বোর্ড ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_49",
+                                                "name":  "ঢাকা সিটি কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/49.json",
+                                                "name_en":  "ঢাকা সিটি কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঢাকা সিটি কলেজ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_56",
+                                                "name":  "দিনাজপুর বোর্ড ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/56.json",
+                                                "name_en":  "দিনাজপুর বোর্ড ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "দিনাজপুর বোর্ড ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_59",
+                                                "name":  "নটরডেম কলেজ, ঢাকা ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/59.json",
+                                                "name_en":  "নটরডেম কলেজ, ঢাকা ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "নটরডেম কলেজ, ঢাকা ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_61",
+                                                "name":  "নটরডেম কলেজ, ময়মনসিংহ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/61.json",
+                                                "name_en":  "নটরডেম কলেজ, ময়মনসিংহ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "নটরডেম কলেজ, ময়মনসিংহ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_62",
+                                                "name":  "নিউ ডিগ্রি কলেজ, রাজশাহী  ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/62.json",
+                                                "name_en":  "নিউ ডিগ্রি কলেজ, রাজশাহী  ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "নিউ ডিগ্রি কলেজ, রাজশাহী  ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_63",
+                                                "name":  "নূর মোহাম্মদ কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/63.json",
+                                                "name_en":  "নূর মোহাম্মদ কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "নূর মোহাম্মদ কলেজ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_64",
+                                                "name":  "পাবনা এডওয়ার্ড কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/64.json",
+                                                "name_en":  "পাবনা এডওয়ার্ড কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "পাবনা এডওয়ার্ড কলেজ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_66",
+                                                "name":  "পাবনা ক্যাডেট ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/66.json",
+                                                "name_en":  "পাবনা ক্যাডেট ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "পাবনা ক্যাডেট ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_68",
+                                                "name":  "ফেনী গার্লস ক্যাডেট ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/68.json",
+                                                "name_en":  "ফেনী গার্লস ক্যাডেট ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ফেনী গার্লস ক্যাডেট ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_70",
+                                                "name":  "ফৌজদারহাট ক্যাডেট ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/70.json",
+                                                "name_en":  "ফৌজদারহাট ক্যাডেট ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ফৌজদারহাট ক্যাডেট ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_74",
+                                                "name":  "বরিশাল ক্যাডেট ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/74.json",
+                                                "name_en":  "বরিশাল ক্যাডেট ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "বরিশাল ক্যাডেট ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_82",
+                                                "name":  "বরিশাল বোর্ড ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/82.json",
+                                                "name_en":  "বরিশাল বোর্ড ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "বরিশাল বোর্ড ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_84",
+                                                "name":  "বিএএফ শাহীন কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/84.json",
+                                                "name_en":  "বিএএফ শাহীন কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "বিএএফ শাহীন কলেজ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_86",
+                                                "name":  "ভিকারুননিসা কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/86.json",
+                                                "name_en":  "ভিকারুননিসা কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ভিকারুননিসা কলেজ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_91",
+                                                "name":  "ময়মনসিংহ গার্লস ক্যাডেট ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/91.json",
+                                                "name_en":  "ময়মনসিংহ গার্লস ক্যাডেট ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ময়মনসিংহ গার্লস ক্যাডেট ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_96",
+                                                "name":  "ময়মনসিংহ বোর্ড ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/96.json",
+                                                "name_en":  "ময়মনসিংহ বোর্ড ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ময়মনসিংহ বোর্ড ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_99",
+                                                "name":  "মাইলস্টোন কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/99.json",
+                                                "name_en":  "মাইলস্টোন কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "মাইলস্টোন কলেজ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_102",
+                                                "name":  "মির্জাপুর ক্যাডেট ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/102.json",
+                                                "name_en":  "মির্জাপুর ক্যাডেট ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "মির্জাপুর ক্যাডেট ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_105",
+                                                "name":  "মুন্সী আব্দুর রউফ কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/105.json",
+                                                "name_en":  "মুন্সী আব্দুর রউফ কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "মুন্সী আব্দুর রউফ কলেজ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_111",
+                                                "name":  "যশোর বোর্ড ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/111.json",
+                                                "name_en":  "যশোর বোর্ড ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "যশোর বোর্ড ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_114",
+                                                "name":  "রংপুর ক্যাডেট ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/114.json",
+                                                "name_en":  "রংপুর ক্যাডেট ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রংপুর ক্যাডেট ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_117",
+                                                "name":  "রাজউক উত্তরা মডেল কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/117.json",
+                                                "name_en":  "রাজউক উত্তরা মডেল কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজউক উত্তরা মডেল কলেজ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_121",
+                                                "name":  "রাজশাহী ক্যাডেট ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/121.json",
+                                                "name_en":  "রাজশাহী ক্যাডেট ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজশাহী ক্যাডেট ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_124",
+                                                "name":  "রাজশাহী ক্যান্ট. পাবলিক কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/124.json",
+                                                "name_en":  "রাজশাহী ক্যান্ট. পাবলিক কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজশাহী ক্যান্ট. পাবলিক কলেজ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_130",
+                                                "name":  "রাজশাহী বোর্ড ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/130.json",
+                                                "name_en":  "রাজশাহী বোর্ড ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজশাহী বোর্ড ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_132",
+                                                "name":  "রেসিডেনসিয়াল কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/132.json",
+                                                "name_en":  "রেসিডেনসিয়াল কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রেসিডেনসিয়াল কলেজ ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_138",
+                                                "name":  "সিলেট ক্যাডেট ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/138.json",
+                                                "name_en":  "সিলেট ক্যাডেট ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "সিলেট ক্যাডেট ২০২৪"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_148",
+                                                "name":  "হলিক্রস কলেজ ২০২৪",
+                                                "file":  "/hsc/bangla_2nd/148.json",
+                                                "name_en":  "হলিক্রস কলেজ ২০২৪",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "হলিক্রস কলেজ ২০২৪"
+                                            }
+                                        ]
+                       },
+                       {
+                           "name_en":  "Year 2025",
+                           "name":  "Year 2025",
+                           "id":  "year_2025",
+                           "name_bn":  "২০২৫ সাল",
+                           "chapters":  [
+                                            {
+                                                "id":  "hsc_bangla2_3",
+                                                "name":  "আইডিয়াল কলেজ, মতিঝিল ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/3.json",
+                                                "name_en":  "আইডিয়াল কলেজ, মতিঝিল ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "আইডিয়াল কলেজ, মতিঝিল ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_7",
+                                                "name":  "আদমজী ক্যান্টনমেন্ট কলেজ ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/7.json",
+                                                "name_en":  "আদমজী ক্যান্টনমেন্ট কলেজ ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "আদমজী ক্যান্টনমেন্ট কলেজ ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_11",
+                                                "name":  "কুমিল্লা ক্যাডেট ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/11.json",
+                                                "name_en":  "কুমিল্লা ক্যাডেট ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "কুমিল্লা ক্যাডেট ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_18",
+                                                "name":  "কুমিল্লা বোর্ড ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/18.json",
+                                                "name_en":  "কুমিল্লা বোর্ড ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "কুমিল্লা বোর্ড ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_28",
+                                                "name":  "চট্টগ্রাম বোর্ড ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/28.json",
+                                                "name_en":  "চট্টগ্রাম বোর্ড ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "চট্টগ্রাম বোর্ড ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_31",
+                                                "name":  "জয়পুরহাট গার্লস ক্যাডেট কলেজ ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/31.json",
+                                                "name_en":  "জয়পুরহাট গার্লস ক্যাডেট কলেজ ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "জয়পুরহাট গার্লস ক্যাডেট কলেজ ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_34",
+                                                "name":  "ঝিনাইদহ ক্যাডেট ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/34.json",
+                                                "name_en":  "ঝিনাইদহ ক্যাডেট ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঝিনাইদহ ক্যাডেট ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_39",
+                                                "name":  "ঢাকা কলেজ ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/39.json",
+                                                "name_en":  "ঢাকা কলেজ ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঢাকা কলেজ ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_47",
+                                                "name":  "ঢাকা বোর্ড ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/47.json",
+                                                "name_en":  "ঢাকা বোর্ড ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঢাকা বোর্ড ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_57",
+                                                "name":  "দিনাজপুর বোর্ড ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/57.json",
+                                                "name_en":  "দিনাজপুর বোর্ড ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "দিনাজপুর বোর্ড ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_60",
+                                                "name":  "নটরডেম কলেজ, ঢাকা ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/60.json",
+                                                "name_en":  "নটরডেম কলেজ, ঢাকা ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "নটরডেম কলেজ, ঢাকা ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_71",
+                                                "name":  "ফৌজদারহাট ক্যাডেট ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/71.json",
+                                                "name_en":  "ফৌজদারহাট ক্যাডেট ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ফৌজদারহাট ক্যাডেট ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_75",
+                                                "name":  "বরিশাল ক্যাডেট ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/75.json",
+                                                "name_en":  "বরিশাল ক্যাডেট ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "বরিশাল ক্যাডেট ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_83",
+                                                "name":  "বরিশাল বোর্ড ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/83.json",
+                                                "name_en":  "বরিশাল বোর্ড ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "বরিশাল বোর্ড ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_88",
+                                                "name":  "ভিকারুননিসা নূন স্কুল এন্ড কলেজ ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/88.json",
+                                                "name_en":  "ভিকারুননিসা নূন স্কুল এন্ড কলেজ ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ভিকারুননিসা নূন স্কুল এন্ড কলেজ ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_92",
+                                                "name":  "ময়মনসিংহ গার্লস ক্যাডেট ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/92.json",
+                                                "name_en":  "ময়মনসিংহ গার্লস ক্যাডেট ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ময়মনসিংহ গার্লস ক্যাডেট ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_97",
+                                                "name":  "ময়মনসিংহ বোর্ড ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/97.json",
+                                                "name_en":  "ময়মনসিংহ বোর্ড ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ময়মনসিংহ বোর্ড ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_101",
+                                                "name":  "মাদ্রাসা বোর্ড ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/101.json",
+                                                "name_en":  "মাদ্রাসা বোর্ড ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "মাদ্রাসা বোর্ড ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_103",
+                                                "name":  "মির্জাপুর ক্যাডেট কলেজ ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/103.json",
+                                                "name_en":  "মির্জাপুর ক্যাডেট কলেজ ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "মির্জাপুর ক্যাডেট কলেজ ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_112",
+                                                "name":  "যশোর বোর্ড ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/112.json",
+                                                "name_en":  "যশোর বোর্ড ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "যশোর বোর্ড ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_116",
+                                                "name":  "রাজউক উত্তরা কলেজ ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/116.json",
+                                                "name_en":  "রাজউক উত্তরা কলেজ ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজউক উত্তরা কলেজ ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_122",
+                                                "name":  "রাজশাহী ক্যাডেট কলেজ ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/122.json",
+                                                "name_en":  "রাজশাহী ক্যাডেট কলেজ ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজশাহী ক্যাডেট কলেজ ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_131",
+                                                "name":  "রাজশাহী বোর্ড ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/131.json",
+                                                "name_en":  "রাজশাহী বোর্ড ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজশাহী বোর্ড ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_145",
+                                                "name":  "সিলেট বোর্ড ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/145.json",
+                                                "name_en":  "সিলেট বোর্ড ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "সিলেট বোর্ড ২০২৫"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_146",
+                                                "name":  "হলি ক্রস কলেজ ২০২৫",
+                                                "file":  "/hsc/bangla_2nd/146.json",
+                                                "name_en":  "হলি ক্রস কলেজ ২০২৫",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "হলি ক্রস কলেজ ২০২৫"
+                                            }
+                                        ]
+                       },
+                       {
+                           "name_en":  "Year 2026",
+                           "name":  "Year 2026",
+                           "id":  "year_2026",
+                           "name_bn":  "২০২৬ সাল",
+                           "chapters":  [
+                                            {
+                                                "id":  "hsc_bangla2_4",
+                                                "name":  "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/4.json",
+                                                "name_en":  "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_8",
+                                                "name":  "উদয়ন উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/8.json",
+                                                "name_en":  "উদয়ন উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "উদয়ন উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_35",
+                                                "name":  "ঝিনাইদহ ক্যাডেট কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/35.json",
+                                                "name_en":  "ঝিনাইদহ ক্যাডেট কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঝিনাইদহ ক্যাডেট কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_40",
+                                                "name":  "ঢাকা কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/40.json",
+                                                "name_en":  "ঢাকা কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঢাকা কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_48",
+                                                "name":  "ঢাকা রেসিডেনসিয়াল মডেল কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/48.json",
+                                                "name_en":  "ঢাকা রেসিডেনসিয়াল মডেল কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঢাকা রেসিডেনসিয়াল মডেল কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_50",
+                                                "name":  "ঢাকা সিটি কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/50.json",
+                                                "name_en":  "ঢাকা সিটি কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ঢাকা সিটি কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_58",
+                                                "name":  "নটর ডেম কলেজ, ঢাকা ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/58.json",
+                                                "name_en":  "নটর ডেম কলেজ, ঢাকা ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "নটর ডেম কলেজ, ঢাকা ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_67",
+                                                "name":  "পাবনা ক্যাডেট কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/67.json",
+                                                "name_en":  "পাবনা ক্যাডেট কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "পাবনা ক্যাডেট কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_72",
+                                                "name":  "ফৌজদারহাট ক্যাডেট কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/72.json",
+                                                "name_en":  "ফৌজদারহাট ক্যাডেট কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ফৌজদারহাট ক্যাডেট কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_76",
+                                                "name":  "বরিশাল ক্যাডেট কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/76.json",
+                                                "name_en":  "বরিশাল ক্যাডেট কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "বরিশাল ক্যাডেট কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_85",
+                                                "name":  "বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ পাবলিক কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/85.json",
+                                                "name_en":  "বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ পাবলিক কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ পাবলিক কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_89",
+                                                "name":  "ভিকারুননিসা নূন স্কুল এন্ড কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/89.json",
+                                                "name_en":  "ভিকারুননিসা নূন স্কুল এন্ড কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ভিকারুননিসা নূন স্কুল এন্ড কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_93",
+                                                "name":  "ময়মনসিংহ গার্লস ক্যাডেট কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/93.json",
+                                                "name_en":  "ময়মনসিংহ গার্লস ক্যাডেট কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "ময়মনসিংহ গার্লস ক্যাডেট কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_100",
+                                                "name":  "মাইলস্টোন কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/100.json",
+                                                "name_en":  "মাইলস্টোন কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "মাইলস্টোন কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_104",
+                                                "name":  "মির্জাপুর ক্যাডেট কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/104.json",
+                                                "name_en":  "মির্জাপুর ক্যাডেট কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "মির্জাপুর ক্যাডেট কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_118",
+                                                "name":  "রাজউক উত্তরা মডেল কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/118.json",
+                                                "name_en":  "রাজউক উত্তরা মডেল কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজউক উত্তরা মডেল কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_123",
+                                                "name":  "রাজশাহী ক্যাডেট কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/123.json",
+                                                "name_en":  "রাজশাহী ক্যাডেট কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "রাজশাহী ক্যাডেট কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_135",
+                                                "name":  "সরকারি আনন্দ মোহন কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/135.json",
+                                                "name_en":  "সরকারি আনন্দ মোহন কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "সরকারি আনন্দ মোহন কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_136",
+                                                "name":  "সরকারি বিজ্ঞান কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/136.json",
+                                                "name_en":  "সরকারি বিজ্ঞান কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "সরকারি বিজ্ঞান কলেজ ২০২৬"
+                                            },
+                                            {
+                                                "id":  "hsc_bangla2_139",
+                                                "name":  "সিলেট ক্যাডেট কলেজ ২০২৬",
+                                                "file":  "/hsc/bangla_2nd/139.json",
+                                                "name_en":  "সিলেট ক্যাডেট কলেজ ২০২৬",
+                                                "_type":  "bangla_written",
+                                                "name_bn":  "সিলেট ক্যাডেট কলেজ ২০২৬"
+                                            }
+                                        ]
+                       }
+                   ]
     }
+    
   ]
 }
