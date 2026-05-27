@@ -173,7 +173,7 @@ function generateTopics(subjectId, entries) {
           ? prefix.charAt(0).toUpperCase() + prefix.slice(1) + " Board " + year
           : bnName;
         chapters.push({
-          id: `board_${prefix}_${year}`,
+          id: `${subjectId}_board_${prefix}_${year}`,
           name: enName,
           name_bn: bnName,
           file: `/ssc/${subjectId}/${e.jsonFile}`,
@@ -195,7 +195,7 @@ function generateTopics(subjectId, entries) {
     // Combined multi-board entries (like agriculture 2022)
     for (const e of combinedEntries) {
       chapters.push({
-        id: `board_all_combined_${year}`,
+        id: `${subjectId}_board_all_combined_${year}`,
         name: `All Boards ${year} Combined`,
         name_bn: e.source,
         file: `/ssc/${subjectId}/${e.jsonFile}`,
@@ -205,7 +205,7 @@ function generateTopics(subjectId, entries) {
     // All-boards combined entry
     for (const e of allBoardEntries) {
       chapters.push({
-        id: `board_all_${year}`,
+        id: `${subjectId}_board_all_${year}`,
         name: `All Boards ${year} Combined`,
         name_bn: `সকল বোর্ড ${toBnDigits(year)}`,
         file: `/ssc/${subjectId}/${e.jsonFile}`,
@@ -214,7 +214,7 @@ function generateTopics(subjectId, entries) {
 
     if (chapters.length > 0) {
       topics.push({
-        id: `board_${year}`,
+        id: `${subjectId}_board_${year}`,
         name: `Board Exams ${year}`,
         name_bn: `বোর্ড পরীক্ষা ${toBnDigits(year)}`,
         name_en: `Board Exams ${year}`,
@@ -234,7 +234,7 @@ function generateTopics(subjectId, entries) {
       const romanized = romanizeSchoolName(src);
       const idSuffix = romanized || `file${e.fileNum}`;
       return {
-        id: `school_${idSuffix}_${year}`,
+        id: `${subjectId}_school_${idSuffix}_${year}`,
         name: src,
         name_bn: src,
         file: `/ssc/${subjectId}/${e.jsonFile}`,
@@ -253,7 +253,7 @@ function generateTopics(subjectId, entries) {
     }
 
     topics.push({
-      id: `school_${year}`,
+      id: `${subjectId}_school_${year}`,
       name: `School & College Exams ${year}`,
       name_bn: `স্কুল ও কলেজ পরীক্ষা ${toBnDigits(year)}`,
       name_en: `School & College Exams ${year}`,
