@@ -9,6 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "codegraph": "node scripts/generate-codegraph.mjs",
     "predeploy": "npm run build",
     "deploy": "npx gh-pages -d dist"
   },

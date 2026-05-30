@@ -36,3 +36,6 @@ dist-ssr
 implementation_plan.md
 docs/
 
+# Generated codebase graph
+codegraph.json
+
