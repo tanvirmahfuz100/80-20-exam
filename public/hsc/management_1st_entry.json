@@ -1,0 +1,1318 @@
+﻿                        {
+                            "id": "management_1st",
+                            "name": "Management 1st Paper",
+                            "icon": "Briefcase",
+                            "topics": [
+                                            {
+                                                "id": "year_2015",
+                                                "name_bn": "2015 সাল",
+                                                "name_en": "2015",
+                                                "name": "2015",
+                                                "chapters": [
+                                                    {
+                                                        "id": "hsc_mgt1_1",
+                                                        "name_bn": "কুমিল্লা বোর্ড ২০১৫",
+                                                        "name_en": "কুমিল্লা বোর্ড ২০১৫",
+                                                        "name": "কুমিল্লা বোর্ড ২০১৫",
+                                                        "file_bn": "/hsc/management_1st/কুমিল্লা বোর্ড ২০১৫.json",
+                                                        "file_en": "/hsc/management_1st/কুমিল্লা বোর্ড ২০১৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_2",
+                                                        "name_bn": "চট্টগ্রাম বোর্ড ২০১৫",
+                                                        "name_en": "চট্টগ্রাম বোর্ড ২০১৫",
+                                                        "name": "চট্টগ্রাম বোর্ড ২০১৫",
+                                                        "file_bn": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০১৫.json",
+                                                        "file_en": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০১৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_3",
+                                                        "name_bn": "ঢাকা বোর্ড ২০১৫",
+                                                        "name_en": "ঢাকা বোর্ড ২০১৫",
+                                                        "name": "ঢাকা বোর্ড ২০১৫",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা বোর্ড ২০১৫.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা বোর্ড ২০১৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_4",
+                                                        "name_bn": "দিনাজপুর বোর্ড ২০১৫",
+                                                        "name_en": "দিনাজপুর বোর্ড ২০১৫",
+                                                        "name": "দিনাজপুর বোর্ড ২০১৫",
+                                                        "file_bn": "/hsc/management_1st/দিনাজপুর বোর্ড ২০১৫.json",
+                                                        "file_en": "/hsc/management_1st/দিনাজপুর বোর্ড ২০১৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_5",
+                                                        "name_bn": "বরিশাল বোর্ড ২০১৫",
+                                                        "name_en": "বরিশাল বোর্ড ২০১৫",
+                                                        "name": "বরিশাল বোর্ড ২০১৫",
+                                                        "file_bn": "/hsc/management_1st/বরিশাল বোর্ড ২০১৫.json",
+                                                        "file_en": "/hsc/management_1st/বরিশাল বোর্ড ২০১৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_6",
+                                                        "name_bn": "যশোর বোর্ড ২০১৫",
+                                                        "name_en": "যশোর বোর্ড ২০১৫",
+                                                        "name": "যশোর বোর্ড ২০১৫",
+                                                        "file_bn": "/hsc/management_1st/যশোর বোর্ড ২০১৫.json",
+                                                        "file_en": "/hsc/management_1st/যশোর বোর্ড ২০১৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_7",
+                                                        "name_bn": "রাজশাহী বোর্ড ২০১৫",
+                                                        "name_en": "রাজশাহী বোর্ড ২০১৫",
+                                                        "name": "রাজশাহী বোর্ড ২০১৫",
+                                                        "file_bn": "/hsc/management_1st/রাজশাহী বোর্ড ২০১৫.json",
+                                                        "file_en": "/hsc/management_1st/রাজশাহী বোর্ড ২০১৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_8",
+                                                        "name_bn": "সিলেট বোর্ড ২০১৫",
+                                                        "name_en": "সিলেট বোর্ড ২০১৫",
+                                                        "name": "সিলেট বোর্ড ২০১৫",
+                                                        "file_bn": "/hsc/management_1st/সিলেট বোর্ড ২০১৫.json",
+                                                        "file_en": "/hsc/management_1st/সিলেট বোর্ড ২০১৫.json"
+                                                    }
+                                                ]
+                                            }
+,
+                                            {
+                                                "id": "year_2016",
+                                                "name_bn": "2016 সাল",
+                                                "name_en": "2016",
+                                                "name": "2016",
+                                                "chapters": [
+                                                    {
+                                                        "id": "hsc_mgt1_9",
+                                                        "name_bn": "কুমিল্লা বোর্ড ২০১৬",
+                                                        "name_en": "কুমিল্লা বোর্ড ২০১৬",
+                                                        "name": "কুমিল্লা বোর্ড ২০১৬",
+                                                        "file_bn": "/hsc/management_1st/কুমিল্লা বোর্ড ২০১৬.json",
+                                                        "file_en": "/hsc/management_1st/কুমিল্লা বোর্ড ২০১৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_10",
+                                                        "name_bn": "চট্টগ্রাম বোর্ড ২০১৬",
+                                                        "name_en": "চট্টগ্রাম বোর্ড ২০১৬",
+                                                        "name": "চট্টগ্রাম বোর্ড ২০১৬",
+                                                        "file_bn": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০১৬.json",
+                                                        "file_en": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০১৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_11",
+                                                        "name_bn": "ঢাকা বোর্ড ২০১৬",
+                                                        "name_en": "ঢাকা বোর্ড ২০১৬",
+                                                        "name": "ঢাকা বোর্ড ২০১৬",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা বোর্ড ২০১৬.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা বোর্ড ২০১৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_12",
+                                                        "name_bn": "দিনাজপুর বোর্ড ২০১৬",
+                                                        "name_en": "দিনাজপুর বোর্ড ২০১৬",
+                                                        "name": "দিনাজপুর বোর্ড ২০১৬",
+                                                        "file_bn": "/hsc/management_1st/দিনাজপুর বোর্ড ২০১৬.json",
+                                                        "file_en": "/hsc/management_1st/দিনাজপুর বোর্ড ২০১৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_13",
+                                                        "name_bn": "বরিশাল বোর্ড ২০১৬",
+                                                        "name_en": "বরিশাল বোর্ড ২০১৬",
+                                                        "name": "বরিশাল বোর্ড ২০১৬",
+                                                        "file_bn": "/hsc/management_1st/বরিশাল বোর্ড ২০১৬.json",
+                                                        "file_en": "/hsc/management_1st/বরিশাল বোর্ড ২০১৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_14",
+                                                        "name_bn": "যশোর বোর্ড ২০১৬",
+                                                        "name_en": "যশোর বোর্ড ২০১৬",
+                                                        "name": "যশোর বোর্ড ২০১৬",
+                                                        "file_bn": "/hsc/management_1st/যশোর বোর্ড ২০১৬.json",
+                                                        "file_en": "/hsc/management_1st/যশোর বোর্ড ২০১৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_15",
+                                                        "name_bn": "রাজশাহী বোর্ড ২০১৬",
+                                                        "name_en": "রাজশাহী বোর্ড ২০১৬",
+                                                        "name": "রাজশাহী বোর্ড ২০১৬",
+                                                        "file_bn": "/hsc/management_1st/রাজশাহী বোর্ড ২০১৬.json",
+                                                        "file_en": "/hsc/management_1st/রাজশাহী বোর্ড ২০১৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_16",
+                                                        "name_bn": "সিলেট বোর্ড ২০১৬",
+                                                        "name_en": "সিলেট বোর্ড ২০১৬",
+                                                        "name": "সিলেট বোর্ড ২০১৬",
+                                                        "file_bn": "/hsc/management_1st/সিলেট বোর্ড ২০১৬.json",
+                                                        "file_en": "/hsc/management_1st/সিলেট বোর্ড ২০১৬.json"
+                                                    }
+                                                ]
+                                            }
+,
+                                            {
+                                                "id": "year_2017",
+                                                "name_bn": "2017 সাল",
+                                                "name_en": "2017",
+                                                "name": "2017",
+                                                "chapters": [
+                                                    {
+                                                        "id": "hsc_mgt1_17",
+                                                        "name_bn": "কুমিল্লা বোর্ড ২০১৭",
+                                                        "name_en": "কুমিল্লা বোর্ড ২০১৭",
+                                                        "name": "কুমিল্লা বোর্ড ২০১৭",
+                                                        "file_bn": "/hsc/management_1st/কুমিল্লা বোর্ড ২০১৭.json",
+                                                        "file_en": "/hsc/management_1st/কুমিল্লা বোর্ড ২০১৭.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_18",
+                                                        "name_bn": "চট্টগ্রাম বোর্ড ২০১৭",
+                                                        "name_en": "চট্টগ্রাম বোর্ড ২০১৭",
+                                                        "name": "চট্টগ্রাম বোর্ড ২০১৭",
+                                                        "file_bn": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০১৭.json",
+                                                        "file_en": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০১৭.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_19",
+                                                        "name_bn": "ঢাকা বোর্ড ২০১৭",
+                                                        "name_en": "ঢাকা বোর্ড ২০১৭",
+                                                        "name": "ঢাকা বোর্ড ২০১৭",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা বোর্ড ২০১৭.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা বোর্ড ২০১৭.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_20",
+                                                        "name_bn": "দিনাজপুর বোর্ড ২০১৭",
+                                                        "name_en": "দিনাজপুর বোর্ড ২০১৭",
+                                                        "name": "দিনাজপুর বোর্ড ২০১৭",
+                                                        "file_bn": "/hsc/management_1st/দিনাজপুর বোর্ড ২০১৭.json",
+                                                        "file_en": "/hsc/management_1st/দিনাজপুর বোর্ড ২০১৭.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_21",
+                                                        "name_bn": "বরিশাল বোর্ড ২০১৭",
+                                                        "name_en": "বরিশাল বোর্ড ২০১৭",
+                                                        "name": "বরিশাল বোর্ড ২০১৭",
+                                                        "file_bn": "/hsc/management_1st/বরিশাল বোর্ড ২০১৭.json",
+                                                        "file_en": "/hsc/management_1st/বরিশাল বোর্ড ২০১৭.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_22",
+                                                        "name_bn": "যশোর বোর্ড ২০১৭",
+                                                        "name_en": "যশোর বোর্ড ২০১৭",
+                                                        "name": "যশোর বোর্ড ২০১৭",
+                                                        "file_bn": "/hsc/management_1st/যশোর বোর্ড ২০১৭.json",
+                                                        "file_en": "/hsc/management_1st/যশোর বোর্ড ২০১৭.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_23",
+                                                        "name_bn": "রাজশাহী বোর্ড ২০১৭",
+                                                        "name_en": "রাজশাহী বোর্ড ২০১৭",
+                                                        "name": "রাজশাহী বোর্ড ২০১৭",
+                                                        "file_bn": "/hsc/management_1st/রাজশাহী বোর্ড ২০১৭.json",
+                                                        "file_en": "/hsc/management_1st/রাজশাহী বোর্ড ২০১৭.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_24",
+                                                        "name_bn": "সিলেট বোর্ড ২০১৭",
+                                                        "name_en": "সিলেট বোর্ড ২০১৭",
+                                                        "name": "সিলেট বোর্ড ২০১৭",
+                                                        "file_bn": "/hsc/management_1st/সিলেট বোর্ড ২০১৭.json",
+                                                        "file_en": "/hsc/management_1st/সিলেট বোর্ড ২০১৭.json"
+                                                    }
+                                                ]
+                                            }
+,
+                                            {
+                                                "id": "year_2018",
+                                                "name_bn": "2018 সাল",
+                                                "name_en": "2018",
+                                                "name": "2018",
+                                                "chapters": [
+                                                    {
+                                                        "id": "hsc_mgt1_25",
+                                                        "name_bn": "সকল বোর্ড ২০১৮",
+                                                        "name_en": "সকল বোর্ড ২০১৮",
+                                                        "name": "সকল বোর্ড ২০১৮",
+                                                        "file_bn": "/hsc/management_1st/সকল বোর্ড ২০১৮.json",
+                                                        "file_en": "/hsc/management_1st/সকল বোর্ড ২০১৮.json"
+                                                    }
+                                                ]
+                                            }
+,
+                                            {
+                                                "id": "year_2019",
+                                                "name_bn": "2019 সাল",
+                                                "name_en": "2019",
+                                                "name": "2019",
+                                                "chapters": [
+                                                    {
+                                                        "id": "hsc_mgt1_26",
+                                                        "name_bn": "কুমিল্লা বোর্ড ২০১৯",
+                                                        "name_en": "কুমিল্লা বোর্ড ২০১৯",
+                                                        "name": "কুমিল্লা বোর্ড ২০১৯",
+                                                        "file_bn": "/hsc/management_1st/কুমিল্লা বোর্ড ২০১৯.json",
+                                                        "file_en": "/hsc/management_1st/কুমিল্লা বোর্ড ২০১৯.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_27",
+                                                        "name_bn": "চট্টগ্রাম বোর্ড ২০১৯",
+                                                        "name_en": "চট্টগ্রাম বোর্ড ২০১৯",
+                                                        "name": "চট্টগ্রাম বোর্ড ২০১৯",
+                                                        "file_bn": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০১৯.json",
+                                                        "file_en": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০১৯.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_28",
+                                                        "name_bn": "ঢাকা বোর্ড ২০১৯",
+                                                        "name_en": "ঢাকা বোর্ড ২০১৯",
+                                                        "name": "ঢাকা বোর্ড ২০১৯",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা বোর্ড ২০১৯.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা বোর্ড ২০১৯.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_29",
+                                                        "name_bn": "দিনাজপুর বোর্ড ২০১৯",
+                                                        "name_en": "দিনাজপুর বোর্ড ২০১৯",
+                                                        "name": "দিনাজপুর বোর্ড ২০১৯",
+                                                        "file_bn": "/hsc/management_1st/দিনাজপুর বোর্ড ২০১৯.json",
+                                                        "file_en": "/hsc/management_1st/দিনাজপুর বোর্ড ২০১৯.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_30",
+                                                        "name_bn": "বরিশাল বোর্ড ২০১৯",
+                                                        "name_en": "বরিশাল বোর্ড ২০১৯",
+                                                        "name": "বরিশাল বোর্ড ২০১৯",
+                                                        "file_bn": "/hsc/management_1st/বরিশাল বোর্ড ২০১৯.json",
+                                                        "file_en": "/hsc/management_1st/বরিশাল বোর্ড ২০১৯.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_31",
+                                                        "name_bn": "যশোর বোর্ড ২০১৯",
+                                                        "name_en": "যশোর বোর্ড ২০১৯",
+                                                        "name": "যশোর বোর্ড ২০১৯",
+                                                        "file_bn": "/hsc/management_1st/যশোর বোর্ড ২০১৯.json",
+                                                        "file_en": "/hsc/management_1st/যশোর বোর্ড ২০১৯.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_32",
+                                                        "name_bn": "রাজশাহী বোর্ড ২০১৯",
+                                                        "name_en": "রাজশাহী বোর্ড ২০১৯",
+                                                        "name": "রাজশাহী বোর্ড ২০১৯",
+                                                        "file_bn": "/hsc/management_1st/রাজশাহী বোর্ড ২০১৯.json",
+                                                        "file_en": "/hsc/management_1st/রাজশাহী বোর্ড ২০১৯.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_33",
+                                                        "name_bn": "সিলেট বোর্ড ২০১৯",
+                                                        "name_en": "সিলেট বোর্ড ২০১৯",
+                                                        "name": "সিলেট বোর্ড ২০১৯",
+                                                        "file_bn": "/hsc/management_1st/সিলেট বোর্ড ২০১৯.json",
+                                                        "file_en": "/hsc/management_1st/সিলেট বোর্ড ২০১৯.json"
+                                                    }
+                                                ]
+                                            }
+,
+                                            {
+                                                "id": "year_2021",
+                                                "name_bn": "2021 সাল",
+                                                "name_en": "2021",
+                                                "name": "2021",
+                                                "chapters": [
+                                                    {
+                                                        "id": "hsc_mgt1_34",
+                                                        "name_bn": "কুমিল্লা বোর্ড ২০২১",
+                                                        "name_en": "কুমিল্লা বোর্ড ২০২১",
+                                                        "name": "কুমিল্লা বোর্ড ২০২১",
+                                                        "file_bn": "/hsc/management_1st/কুমিল্লা বোর্ড ২০২১.json",
+                                                        "file_en": "/hsc/management_1st/কুমিল্লা বোর্ড ২০২১.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_35",
+                                                        "name_bn": "চট্টগ্রাম বোর্ড ২০২১",
+                                                        "name_en": "চট্টগ্রাম বোর্ড ২০২১",
+                                                        "name": "চট্টগ্রাম বোর্ড ২০২১",
+                                                        "file_bn": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০২১.json",
+                                                        "file_en": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০২১.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_36",
+                                                        "name_bn": "ঢাকা বোর্ড ২০২১",
+                                                        "name_en": "ঢাকা বোর্ড ২০২১",
+                                                        "name": "ঢাকা বোর্ড ২০২১",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা বোর্ড ২০২১.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা বোর্ড ২০২১.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_37",
+                                                        "name_bn": "দিনাজপুর বোর্ড ২০২১",
+                                                        "name_en": "দিনাজপুর বোর্ড ২০২১",
+                                                        "name": "দিনাজপুর বোর্ড ২০২১",
+                                                        "file_bn": "/hsc/management_1st/দিনাজপুর বোর্ড ২০২১.json",
+                                                        "file_en": "/hsc/management_1st/দিনাজপুর বোর্ড ২০২১.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_38",
+                                                        "name_bn": "বরিশাল বোর্ড ২০২১",
+                                                        "name_en": "বরিশাল বোর্ড ২০২১",
+                                                        "name": "বরিশাল বোর্ড ২০২১",
+                                                        "file_bn": "/hsc/management_1st/বরিশাল বোর্ড ২০২১.json",
+                                                        "file_en": "/hsc/management_1st/বরিশাল বোর্ড ২০২১.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_39",
+                                                        "name_bn": "ময়মনসিংহ বোর্ড ২০২১",
+                                                        "name_en": "ময়মনসিংহ বোর্ড ২০২১",
+                                                        "name": "ময়মনসিংহ বোর্ড ২০২১",
+                                                        "file_bn": "/hsc/management_1st/ময়মনসিংহ বোর্ড ২০২১.json",
+                                                        "file_en": "/hsc/management_1st/ময়মনসিংহ বোর্ড ২০২১.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_40",
+                                                        "name_bn": "যশোর বোর্ড ২০২১",
+                                                        "name_en": "যশোর বোর্ড ২০২১",
+                                                        "name": "যশোর বোর্ড ২০২১",
+                                                        "file_bn": "/hsc/management_1st/যশোর বোর্ড ২০২১.json",
+                                                        "file_en": "/hsc/management_1st/যশোর বোর্ড ২০২১.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_41",
+                                                        "name_bn": "রাজশাহী বোর্ড ২০২১",
+                                                        "name_en": "রাজশাহী বোর্ড ২০২১",
+                                                        "name": "রাজশাহী বোর্ড ২০২১",
+                                                        "file_bn": "/hsc/management_1st/রাজশাহী বোর্ড ২০২১.json",
+                                                        "file_en": "/hsc/management_1st/রাজশাহী বোর্ড ২০২১.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_42",
+                                                        "name_bn": "সিলেট বোর্ড ২০২১",
+                                                        "name_en": "সিলেট বোর্ড ২০২১",
+                                                        "name": "সিলেট বোর্ড ২০২১",
+                                                        "file_bn": "/hsc/management_1st/সিলেট বোর্ড ২০২১.json",
+                                                        "file_en": "/hsc/management_1st/সিলেট বোর্ড ২০২১.json"
+                                                    }
+                                                ]
+                                            }
+,
+                                            {
+                                                "id": "year_2022",
+                                                "name_bn": "2022 সাল",
+                                                "name_en": "2022",
+                                                "name": "2022",
+                                                "chapters": [
+                                                    {
+                                                        "id": "hsc_mgt1_43",
+                                                        "name_bn": "কুমিল্লা বোর্ড ২০২২",
+                                                        "name_en": "কুমিল্লা বোর্ড ২০২২",
+                                                        "name": "কুমিল্লা বোর্ড ২০২২",
+                                                        "file_bn": "/hsc/management_1st/কুমিল্লা বোর্ড ২০২২.json",
+                                                        "file_en": "/hsc/management_1st/কুমিল্লা বোর্ড ২০২২.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_44",
+                                                        "name_bn": "চট্টগ্রাম বোর্ড ২০২২",
+                                                        "name_en": "চট্টগ্রাম বোর্ড ২০২২",
+                                                        "name": "চট্টগ্রাম বোর্ড ২০২২",
+                                                        "file_bn": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০২২.json",
+                                                        "file_en": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০২২.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_45",
+                                                        "name_bn": "ঢাকা বোর্ড ২০২২",
+                                                        "name_en": "ঢাকা বোর্ড ২০২২",
+                                                        "name": "ঢাকা বোর্ড ২০২২",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা বোর্ড ২০২২.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা বোর্ড ২০২২.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_46",
+                                                        "name_bn": "দিনাজপুর বোর্ড ২০২২",
+                                                        "name_en": "দিনাজপুর বোর্ড ২০২২",
+                                                        "name": "দিনাজপুর বোর্ড ২০২২",
+                                                        "file_bn": "/hsc/management_1st/দিনাজপুর বোর্ড ২০২২.json",
+                                                        "file_en": "/hsc/management_1st/দিনাজপুর বোর্ড ২০২২.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_47",
+                                                        "name_bn": "বরিশাল বোর্ড ২০২২",
+                                                        "name_en": "বরিশাল বোর্ড ২০২২",
+                                                        "name": "বরিশাল বোর্ড ২০২২",
+                                                        "file_bn": "/hsc/management_1st/বরিশাল বোর্ড ২০২২.json",
+                                                        "file_en": "/hsc/management_1st/বরিশাল বোর্ড ২০২২.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_48",
+                                                        "name_bn": "ময়মনসিংহ বোর্ড ২০২২",
+                                                        "name_en": "ময়মনসিংহ বোর্ড ২০২২",
+                                                        "name": "ময়মনসিংহ বোর্ড ২০২২",
+                                                        "file_bn": "/hsc/management_1st/ময়মনসিংহ বোর্ড ২০২২.json",
+                                                        "file_en": "/hsc/management_1st/ময়মনসিংহ বোর্ড ২০২২.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_49",
+                                                        "name_bn": "যশোর বোর্ড ২০২২",
+                                                        "name_en": "যশোর বোর্ড ২০২২",
+                                                        "name": "যশোর বোর্ড ২০২২",
+                                                        "file_bn": "/hsc/management_1st/যশোর বোর্ড ২০২২.json",
+                                                        "file_en": "/hsc/management_1st/যশোর বোর্ড ২০২২.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_50",
+                                                        "name_bn": "রাজশাহী বোর্ড ২০২২",
+                                                        "name_en": "রাজশাহী বোর্ড ২০২২",
+                                                        "name": "রাজশাহী বোর্ড ২০২২",
+                                                        "file_bn": "/hsc/management_1st/রাজশাহী বোর্ড ২০২২.json",
+                                                        "file_en": "/hsc/management_1st/রাজশাহী বোর্ড ২০২২.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_51",
+                                                        "name_bn": "সিলেট বোর্ড ২০২২",
+                                                        "name_en": "সিলেট বোর্ড ২০২২",
+                                                        "name": "সিলেট বোর্ড ২০২২",
+                                                        "file_bn": "/hsc/management_1st/সিলেট বোর্ড ২০২২.json",
+                                                        "file_en": "/hsc/management_1st/সিলেট বোর্ড ২০২২.json"
+                                                    }
+                                                ]
+                                            }
+,
+                                            {
+                                                "id": "year_2023",
+                                                "name_bn": "2023 সাল",
+                                                "name_en": "2023",
+                                                "name": "2023",
+                                                "chapters": [
+                                                    {
+                                                        "id": "hsc_mgt1_52",
+                                                        "name_bn": "আইডিয়াল কলেজ, ধানমন্ডি ২০২৩",
+                                                        "name_en": "আইডিয়াল কলেজ, ধানমন্ডি ২০২৩",
+                                                        "name": "আইডিয়াল কলেজ, ধানমন্ডি ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/আইডিয়াল কলেজ, ধানমন্ডি ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/আইডিয়াল কলেজ, ধানমন্ডি ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_53",
+                                                        "name_bn": "আইডিয়াল কলেজ, মতিঝিল ২০২৩",
+                                                        "name_en": "আইডিয়াল কলেজ, মতিঝিল ২০২৩",
+                                                        "name": "আইডিয়াল কলেজ, মতিঝিল ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/আইডিয়াল কলেজ, মতিঝিল ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/আইডিয়াল কলেজ, মতিঝিল ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_54",
+                                                        "name_bn": "আজিজুল হক কলেজ, বগুড়া ২০২৩",
+                                                        "name_en": "আজিজুল হক কলেজ, বগুড়া ২০২৩",
+                                                        "name": "আজিজুল হক কলেজ, বগুড়া ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/আজিজুল হক কলেজ, বগুড়া ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/আজিজুল হক কলেজ, বগুড়া ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_55",
+                                                        "name_bn": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা ২০২৩",
+                                                        "name_en": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা ২০২৩",
+                                                        "name": "আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_56",
+                                                        "name_bn": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী ২০২৩",
+                                                        "name_en": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী ২০২৩",
+                                                        "name": "আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/আবদুল কাদির মোল্লা সিটি কলেজ, নরসিংদী ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_57",
+                                                        "name_bn": "ইস্পাহানী পাবলিক কলেজ, কুমিল্লা ২০২৩",
+                                                        "name_en": "ইস্পাহানী পাবলিক কলেজ, কুমিল্লা ২০২৩",
+                                                        "name": "ইস্পাহানী পাবলিক কলেজ, কুমিল্লা ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/ইস্পাহানী পাবলিক কলেজ, কুমিল্লা ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/ইস্পাহানী পাবলিক কলেজ, কুমিল্লা ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_58",
+                                                        "name_bn": "কুমিল্লা বোর্ড ২০২৩",
+                                                        "name_en": "কুমিল্লা বোর্ড ২০২৩",
+                                                        "name": "কুমিল্লা বোর্ড ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/কুমিল্লা বোর্ড ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/কুমিল্লা বোর্ড ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_59",
+                                                        "name_bn": "ক্যান্টনমেন্ট কলেজ, কুমিল্লা ২০২৩",
+                                                        "name_en": "ক্যান্টনমেন্ট কলেজ, কুমিল্লা ২০২৩",
+                                                        "name": "ক্যান্টনমেন্ট কলেজ, কুমিল্লা ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/ক্যান্টনমেন্ট কলেজ, কুমিল্লা ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/ক্যান্টনমেন্ট কলেজ, কুমিল্লা ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_60",
+                                                        "name_bn": "ক্যান্টনমেন্ট পাবলিক কলেজ, মোমেনশাহী ২০২৩",
+                                                        "name_en": "ক্যান্টনমেন্ট পাবলিক কলেজ, মোমেনশাহী ২০২৩",
+                                                        "name": "ক্যান্টনমেন্ট পাবলিক কলেজ, মোমেনশাহী ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/ক্যান্টনমেন্ট পাবলিক কলেজ, মোমেনশাহী ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/ক্যান্টনমেন্ট পাবলিক কলেজ, মোমেনশাহী ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_61",
+                                                        "name_bn": "ক্যামব্রিয়ান কলেজ, ঢাকা ২০২৩",
+                                                        "name_en": "ক্যামব্রিয়ান কলেজ, ঢাকা ২০২৩",
+                                                        "name": "ক্যামব্রিয়ান কলেজ, ঢাকা ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/ক্যামব্রিয়ান কলেজ, ঢাকা ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/ক্যামব্রিয়ান কলেজ, ঢাকা ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_62",
+                                                        "name_bn": "চট্টগ্রাম বোর্ড ২০২৩",
+                                                        "name_en": "চট্টগ্রাম বোর্ড ২০২৩",
+                                                        "name": "চট্টগ্রাম বোর্ড ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_63",
+                                                        "name_bn": "ঝালকাঠি কলেজ ২০২৩",
+                                                        "name_en": "ঝালকাঠি কলেজ ২০২৩",
+                                                        "name": "ঝালকাঠি কলেজ ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/ঝালকাঠি কলেজ ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/ঝালকাঠি কলেজ ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_64",
+                                                        "name_bn": "ঢাকা ইমপিরিয়াল কলেজ ২০২৩",
+                                                        "name_en": "ঢাকা ইমপিরিয়াল কলেজ ২০২৩",
+                                                        "name": "ঢাকা ইমপিরিয়াল কলেজ ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা ইমপিরিয়াল কলেজ ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা ইমপিরিয়াল কলেজ ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_65",
+                                                        "name_bn": "ঢাকা কমার্স কলেজ ২০২৩",
+                                                        "name_en": "ঢাকা কমার্স কলেজ ২০২৩",
+                                                        "name": "ঢাকা কমার্স কলেজ ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা কমার্স কলেজ ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা কমার্স কলেজ ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_66",
+                                                        "name_bn": "ঢাকা কলেজ ২০২৩",
+                                                        "name_en": "ঢাকা কলেজ ২০২৩",
+                                                        "name": "ঢাকা কলেজ ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা কলেজ ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা কলেজ ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_67",
+                                                        "name_bn": "ঢাকা বোর্ড ২০২৩",
+                                                        "name_en": "ঢাকা বোর্ড ২০২৩",
+                                                        "name": "ঢাকা বোর্ড ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা বোর্ড ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা বোর্ড ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_68",
+                                                        "name_bn": "ঢাকা রেসিডেনসিয়াল মডেল কলেজ ২০২৩",
+                                                        "name_en": "ঢাকা রেসিডেনসিয়াল মডেল কলেজ ২০২৩",
+                                                        "name": "ঢাকা রেসিডেনসিয়াল মডেল কলেজ ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা রেসিডেনসিয়াল মডেল কলেজ ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা রেসিডেনসিয়াল মডেল কলেজ ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_69",
+                                                        "name_bn": "ঢাকা সিটি কলেজ ২০২৩",
+                                                        "name_en": "ঢাকা সিটি কলেজ ২০২৩",
+                                                        "name": "ঢাকা সিটি কলেজ ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা সিটি কলেজ ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা সিটি কলেজ ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_70",
+                                                        "name_bn": "দিনাজপুর বোর্ড ২০২৩",
+                                                        "name_en": "দিনাজপুর বোর্ড ২০২৩",
+                                                        "name": "দিনাজপুর বোর্ড ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/দিনাজপুর বোর্ড ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/দিনাজপুর বোর্ড ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_71",
+                                                        "name_bn": "নটর ডেম কলেজ, ঢাকা ২০২৩",
+                                                        "name_en": "নটর ডেম কলেজ, ঢাকা ২০২৩",
+                                                        "name": "নটর ডেম কলেজ, ঢাকা ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/নটর ডেম কলেজ, ঢাকা ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/নটর ডেম কলেজ, ঢাকা ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_72",
+                                                        "name_bn": "নূর মোহাম্মদ কলেজ, ঢাকা ২০২৩",
+                                                        "name_en": "নূর মোহাম্মদ কলেজ, ঢাকা ২০২৩",
+                                                        "name": "নূর মোহাম্মদ কলেজ, ঢাকা ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/নূর মোহাম্মদ কলেজ, ঢাকা ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/নূর মোহাম্মদ কলেজ, ঢাকা ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_73",
+                                                        "name_bn": "বরিশাল বোর্ড ২০২৩",
+                                                        "name_en": "বরিশাল বোর্ড ২০২৩",
+                                                        "name": "বরিশাল বোর্ড ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/বরিশাল বোর্ড ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/বরিশাল বোর্ড ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_74",
+                                                        "name_bn": "বি এ এফ শাহীন কলেজ, ঢাকা ২০২৩",
+                                                        "name_en": "বি এ এফ শাহীন কলেজ, ঢাকা ২০২৩",
+                                                        "name": "বি এ এফ শাহীন কলেজ, ঢাকা ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/বি এ এফ শাহীন কলেজ, ঢাকা ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/বি এ এফ শাহীন কলেজ, ঢাকা ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_75",
+                                                        "name_bn": "ভিকারুননিসা কলেজ, ঢাকা ২০২৩",
+                                                        "name_en": "ভিকারুননিসা কলেজ, ঢাকা ২০২৩",
+                                                        "name": "ভিকারুননিসা কলেজ, ঢাকা ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/ভিকারুননিসা কলেজ, ঢাকা ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/ভিকারুননিসা কলেজ, ঢাকা ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_76",
+                                                        "name_bn": "ময়মনসিংহ বোর্ড ২০২৩",
+                                                        "name_en": "ময়মনসিংহ বোর্ড ২০২৩",
+                                                        "name": "ময়মনসিংহ বোর্ড ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/ময়মনসিংহ বোর্ড ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/ময়মনসিংহ বোর্ড ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_77",
+                                                        "name_bn": "মাইলস্টোন কলেজ ২০২৩",
+                                                        "name_en": "মাইলস্টোন কলেজ ২০২৩",
+                                                        "name": "মাইলস্টোন কলেজ ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/মাইলস্টোন কলেজ ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/মাইলস্টোন কলেজ ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_78",
+                                                        "name_bn": "মুন্সী আব্দুর রউফ কলেজ, ঢাকা ২০২৩",
+                                                        "name_en": "মুন্সী আব্দুর রউফ কলেজ, ঢাকা ২০২৩",
+                                                        "name": "মুন্সী আব্দুর রউফ কলেজ, ঢাকা ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/মুন্সী আব্দুর রউফ কলেজ, ঢাকা ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/মুন্সী আব্দুর রউফ কলেজ, ঢাকা ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_79",
+                                                        "name_bn": "যশোর বোর্ড ২০২৩",
+                                                        "name_en": "যশোর বোর্ড ২০২৩",
+                                                        "name": "যশোর বোর্ড ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/যশোর বোর্ড ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/যশোর বোর্ড ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_80",
+                                                        "name_bn": "রাজউক উত্তরা মডেল কলেজ ২০২৩",
+                                                        "name_en": "রাজউক উত্তরা মডেল কলেজ ২০২৩",
+                                                        "name": "রাজউক উত্তরা মডেল কলেজ ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/রাজউক উত্তরা মডেল কলেজ ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/রাজউক উত্তরা মডেল কলেজ ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_81",
+                                                        "name_bn": "রাজশাহী বোর্ড ২০২৩",
+                                                        "name_en": "রাজশাহী বোর্ড ২০২৩",
+                                                        "name": "রাজশাহী বোর্ড ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/রাজশাহী বোর্ড ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/রাজশাহী বোর্ড ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_82",
+                                                        "name_bn": "লে. আনোয়ার গার্লস কলেজ, ঢাকা ২০২৩",
+                                                        "name_en": "লে. আনোয়ার গার্লস কলেজ, ঢাকা ২০২৩",
+                                                        "name": "লে. আনোয়ার গার্লস কলেজ, ঢাকা ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/লে. আনোয়ার গার্লস কলেজ, ঢাকা ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/লে. আনোয়ার গার্লস কলেজ, ঢাকা ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_83",
+                                                        "name_bn": "সিলেট বোর্ড ২০২৩",
+                                                        "name_en": "সিলেট বোর্ড ২০২৩",
+                                                        "name": "সিলেট বোর্ড ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/সিলেট বোর্ড ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/সিলেট বোর্ড ২০২৩.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_84",
+                                                        "name_bn": "হলি ক্রস কলেজ, ঢাকা ২০২৩",
+                                                        "name_en": "হলি ক্রস কলেজ, ঢাকা ২০২৩",
+                                                        "name": "হলি ক্রস কলেজ, ঢাকা ২০২৩",
+                                                        "file_bn": "/hsc/management_1st/হলি ক্রস কলেজ, ঢাকা ২০২৩.json",
+                                                        "file_en": "/hsc/management_1st/হলি ক্রস কলেজ, ঢাকা ২০২৩.json"
+                                                    }
+                                                ]
+                                            }
+,
+                                            {
+                                                "id": "year_2024",
+                                                "name_bn": "2024 সাল",
+                                                "name_en": "2024",
+                                                "name": "2024",
+                                                "chapters": [
+                                                    {
+                                                        "id": "hsc_mgt1_85",
+                                                        "name_bn": "আইডিয়াল কলেজ মতিঝিল ২০২৪",
+                                                        "name_en": "আইডিয়াল কলেজ মতিঝিল ২০২৪",
+                                                        "name": "আইডিয়াল কলেজ মতিঝিল ২০২৪",
+                                                        "file_bn": "/hsc/management_1st/আইডিয়াল কলেজ মতিঝিল ২০২৪.json",
+                                                        "file_en": "/hsc/management_1st/আইডিয়াল কলেজ মতিঝিল ২০২৪.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_86",
+                                                        "name_bn": "আদমজী ক্যান্ট. কলেজ ২০২৪",
+                                                        "name_en": "আদমজী ক্যান্ট. কলেজ ২০২৪",
+                                                        "name": "আদমজী ক্যান্ট. কলেজ ২০২৪",
+                                                        "file_bn": "/hsc/management_1st/আদমজী ক্যান্ট. কলেজ ২০২৪.json",
+                                                        "file_en": "/hsc/management_1st/আদমজী ক্যান্ট. কলেজ ২০২৪.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_87",
+                                                        "name_bn": "ঢাকা কমার্স কলেজ ২০২৪",
+                                                        "name_en": "ঢাকা কমার্স কলেজ ২০২৪",
+                                                        "name": "ঢাকা কমার্স কলেজ ২০২৪",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা কমার্স কলেজ ২০২৪.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা কমার্স কলেজ ২০২৪.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_88",
+                                                        "name_bn": "ঢাকা কলেজ ২০২৪",
+                                                        "name_en": "ঢাকা কলেজ ২০২৪",
+                                                        "name": "ঢাকা কলেজ ২০২৪",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা কলেজ ২০২৪.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা কলেজ ২০২৪.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_89",
+                                                        "name_bn": "ঢাকা রেসিডেন্সিয়াল কলেজ ২০২৪",
+                                                        "name_en": "ঢাকা রেসিডেন্সিয়াল কলেজ ২০২৪",
+                                                        "name": "ঢাকা রেসিডেন্সিয়াল কলেজ ২০২৪",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা রেসিডেন্সিয়াল কলেজ ২০২৪.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা রেসিডেন্সিয়াল কলেজ ২০২৪.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_90",
+                                                        "name_bn": "ঢাকা সিটি কলেজ ২০২৪",
+                                                        "name_en": "ঢাকা সিটি কলেজ ২০২৪",
+                                                        "name": "ঢাকা সিটি কলেজ ২০২৪",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা সিটি কলেজ ২০২৪.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা সিটি কলেজ ২০২৪.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_91",
+                                                        "name_bn": "নটরডেম কলেজ ঢাকা ২০২৪",
+                                                        "name_en": "নটরডেম কলেজ ঢাকা ২০২৪",
+                                                        "name": "নটরডেম কলেজ ঢাকা ২০২৪",
+                                                        "file_bn": "/hsc/management_1st/নটরডেম কলেজ ঢাকা ২০২৪.json",
+                                                        "file_en": "/hsc/management_1st/নটরডেম কলেজ ঢাকা ২০২৪.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_92",
+                                                        "name_bn": "বিএএফ শাহীন কলেজ ২০২৪",
+                                                        "name_en": "বিএএফ শাহীন কলেজ ২০২৪",
+                                                        "name": "বিএএফ শাহীন কলেজ ২০২৪",
+                                                        "file_bn": "/hsc/management_1st/বিএএফ শাহীন কলেজ ২০২৪.json",
+                                                        "file_en": "/hsc/management_1st/বিএএফ শাহীন কলেজ ২০২৪.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_93",
+                                                        "name_bn": "মাইলস্টোন কলেজ ২০২৪",
+                                                        "name_en": "মাইলস্টোন কলেজ ২০২৪",
+                                                        "name": "মাইলস্টোন কলেজ ২০২৪",
+                                                        "file_bn": "/hsc/management_1st/মাইলস্টোন কলেজ ২০২৪.json",
+                                                        "file_en": "/hsc/management_1st/মাইলস্টোন কলেজ ২০২৪.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_94",
+                                                        "name_bn": "মুন্সি আবদুর রউফ কলেজ ২০২৪",
+                                                        "name_en": "মুন্সি আবদুর রউফ কলেজ ২০২৪",
+                                                        "name": "মুন্সি আবদুর রউফ কলেজ ২০২৪",
+                                                        "file_bn": "/hsc/management_1st/মুন্সি আবদুর রউফ কলেজ ২০২৪.json",
+                                                        "file_en": "/hsc/management_1st/মুন্সি আবদুর রউফ কলেজ ২০২৪.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_95",
+                                                        "name_bn": "রাজউক উত্তরা কলেজ ২০২৪",
+                                                        "name_en": "রাজউক উত্তরা কলেজ ২০২৪",
+                                                        "name": "রাজউক উত্তরা কলেজ ২০২৪",
+                                                        "file_bn": "/hsc/management_1st/রাজউক উত্তরা কলেজ ২০২৪.json",
+                                                        "file_en": "/hsc/management_1st/রাজউক উত্তরা কলেজ ২০২৪.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_96",
+                                                        "name_bn": "হলি ক্রস ঢাকা ২০২৪",
+                                                        "name_en": "হলি ক্রস ঢাকা ২০২৪",
+                                                        "name": "হলি ক্রস ঢাকা ২০২৪",
+                                                        "file_bn": "/hsc/management_1st/হলি ক্রস ঢাকা ২০২৪.json",
+                                                        "file_en": "/hsc/management_1st/হলি ক্রস ঢাকা ২০২৪.json"
+                                                    }
+                                                ]
+                                            }
+,
+                                            {
+                                                "id": "year_2025",
+                                                "name_bn": "2025 সাল",
+                                                "name_en": "2025",
+                                                "name": "2025",
+                                                "chapters": [
+                                                    {
+                                                        "id": "hsc_mgt1_97",
+                                                        "name_bn": "আইডিয়াল কলেজ, মতিঝিল ২০২৫",
+                                                        "name_en": "আইডিয়াল কলেজ, মতিঝিল ২০২৫",
+                                                        "name": "আইডিয়াল কলেজ, মতিঝিল ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/আইডিয়াল কলেজ, মতিঝিল ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/আইডিয়াল কলেজ, মতিঝিল ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_98",
+                                                        "name_bn": "আজিজুল হক কলেজ, বগুড়া ২০২৫",
+                                                        "name_en": "আজিজুল হক কলেজ, বগুড়া ২০২৫",
+                                                        "name": "আজিজুল হক কলেজ, বগুড়া ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/আজিজুল হক কলেজ, বগুড়া ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/আজিজুল হক কলেজ, বগুড়া ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_99",
+                                                        "name_bn": "আদমজী ক্যান্ট. কলেজ ২০২৫",
+                                                        "name_en": "আদমজী ক্যান্ট. কলেজ ২০২৫",
+                                                        "name": "আদমজী ক্যান্ট. কলেজ ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/আদমজী ক্যান্ট. কলেজ ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/আদমজী ক্যান্ট. কলেজ ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_100",
+                                                        "name_bn": "কুমিল্লা বোর্ড ২০২৫",
+                                                        "name_en": "কুমিল্লা বোর্ড ২০২৫",
+                                                        "name": "কুমিল্লা বোর্ড ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/কুমিল্লা বোর্ড ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/কুমিল্লা বোর্ড ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_101",
+                                                        "name_bn": "ক্যান্ট. কলেজ, মোমেনশাহী ২০২৫",
+                                                        "name_en": "ক্যান্ট. কলেজ, মোমেনশাহী ২০২৫",
+                                                        "name": "ক্যান্ট. কলেজ, মোমেনশাহী ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/ক্যান্ট. কলেজ, মোমেনশাহী ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/ক্যান্ট. কলেজ, মোমেনশাহী ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_102",
+                                                        "name_bn": "চট্টগ্রাম বোর্ড ২০২৫",
+                                                        "name_en": "চট্টগ্রাম বোর্ড ২০২৫",
+                                                        "name": "চট্টগ্রাম বোর্ড ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/চট্টগ্রাম বোর্ড ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_103",
+                                                        "name_bn": "ঢাকা কমার্স কলেজ ২০২৫",
+                                                        "name_en": "ঢাকা কমার্স কলেজ ২০২৫",
+                                                        "name": "ঢাকা কমার্স কলেজ ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা কমার্স কলেজ ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা কমার্স কলেজ ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_104",
+                                                        "name_bn": "ঢাকা কলেজ ২০২৫",
+                                                        "name_en": "ঢাকা কলেজ ২০২৫",
+                                                        "name": "ঢাকা কলেজ ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা কলেজ ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা কলেজ ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_105",
+                                                        "name_bn": "ঢাকা বোর্ড ২০২৫",
+                                                        "name_en": "ঢাকা বোর্ড ২০২৫",
+                                                        "name": "ঢাকা বোর্ড ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা বোর্ড ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা বোর্ড ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_106",
+                                                        "name_bn": "ঢাকা রেসিডেনসিয়াল কলেজ ২০২৫",
+                                                        "name_en": "ঢাকা রেসিডেনসিয়াল কলেজ ২০২৫",
+                                                        "name": "ঢাকা রেসিডেনসিয়াল কলেজ ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা রেসিডেনসিয়াল কলেজ ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা রেসিডেনসিয়াল কলেজ ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_107",
+                                                        "name_bn": "ঢাকা সিটি কলেজ ২০২৫",
+                                                        "name_en": "ঢাকা সিটি কলেজ ২০২৫",
+                                                        "name": "ঢাকা সিটি কলেজ ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা সিটি কলেজ ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা সিটি কলেজ ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_108",
+                                                        "name_bn": "দিনাজপুর বোর্ড ২০২৫",
+                                                        "name_en": "দিনাজপুর বোর্ড ২০২৫",
+                                                        "name": "দিনাজপুর বোর্ড ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/দিনাজপুর বোর্ড ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/দিনাজপুর বোর্ড ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_109",
+                                                        "name_bn": "নটর ডেম কলেজ, ঢাকা ২০২৫",
+                                                        "name_en": "নটর ডেম কলেজ, ঢাকা ২০২৫",
+                                                        "name": "নটর ডেম কলেজ, ঢাকা ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/নটর ডেম কলেজ, ঢাকা ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/নটর ডেম কলেজ, ঢাকা ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_110",
+                                                        "name_bn": "নূর মোহাম্মদ পাবলিক কলেজ ২০২৫",
+                                                        "name_en": "নূর মোহাম্মদ পাবলিক কলেজ ২০২৫",
+                                                        "name": "নূর মোহাম্মদ পাবলিক কলেজ ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/নূর মোহাম্মদ পাবলিক কলেজ ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/নূর মোহাম্মদ পাবলিক কলেজ ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_111",
+                                                        "name_bn": "বরিশাল বোর্ড ২০২৫",
+                                                        "name_en": "বরিশাল বোর্ড ২০২৫",
+                                                        "name": "বরিশাল বোর্ড ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/বরিশাল বোর্ড ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/বরিশাল বোর্ড ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_112",
+                                                        "name_bn": "বি এ এফ শাহীন কলেজ ২০২৫",
+                                                        "name_en": "বি এ এফ শাহীন কলেজ ২০২৫",
+                                                        "name": "বি এ এফ শাহীন কলেজ ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/বি এ এফ শাহীন কলেজ ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/বি এ এফ শাহীন কলেজ ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_113",
+                                                        "name_bn": "ময়মনসিংহ বোর্ড ২০২৫",
+                                                        "name_en": "ময়মনসিংহ বোর্ড ২০২৫",
+                                                        "name": "ময়মনসিংহ বোর্ড ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/ময়মনসিংহ বোর্ড ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/ময়মনসিংহ বোর্ড ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_114",
+                                                        "name_bn": "মাইলস্টোন কলেজ ২০২৫",
+                                                        "name_en": "মাইলস্টোন কলেজ ২০২৫",
+                                                        "name": "মাইলস্টোন কলেজ ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/মাইলস্টোন কলেজ ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/মাইলস্টোন কলেজ ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_115",
+                                                        "name_bn": "যশোর বোর্ড ২০২৫",
+                                                        "name_en": "যশোর বোর্ড ২০২৫",
+                                                        "name": "যশোর বোর্ড ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/যশোর বোর্ড ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/যশোর বোর্ড ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_116",
+                                                        "name_bn": "রাজউক উত্তরা কলেজ ২০২৫",
+                                                        "name_en": "রাজউক উত্তরা কলেজ ২০২৫",
+                                                        "name": "রাজউক উত্তরা কলেজ ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/রাজউক উত্তরা কলেজ ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/রাজউক উত্তরা কলেজ ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_117",
+                                                        "name_bn": "রাজশাহী বোর্ড ২০২৫",
+                                                        "name_en": "রাজশাহী বোর্ড ২০২৫",
+                                                        "name": "রাজশাহী বোর্ড ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/রাজশাহী বোর্ড ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/রাজশাহী বোর্ড ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_118",
+                                                        "name_bn": "সরকারি কমার্স কলেজ, চট্টগ্রাম ২০২৫",
+                                                        "name_en": "সরকারি কমার্স কলেজ, চট্টগ্রাম ২০২৫",
+                                                        "name": "সরকারি কমার্স কলেজ, চট্টগ্রাম ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/সরকারি কমার্স কলেজ, চট্টগ্রাম ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/সরকারি কমার্স কলেজ, চট্টগ্রাম ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_119",
+                                                        "name_bn": "সিলেট কমার্স কলেজ ২০২৫",
+                                                        "name_en": "সিলেট কমার্স কলেজ ২০২৫",
+                                                        "name": "সিলেট কমার্স কলেজ ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/সিলেট কমার্স কলেজ ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/সিলেট কমার্স কলেজ ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_120",
+                                                        "name_bn": "সিলেট বোর্ড ২০২৫",
+                                                        "name_en": "সিলেট বোর্ড ২০২৫",
+                                                        "name": "সিলেট বোর্ড ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/সিলেট বোর্ড ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/সিলেট বোর্ড ২০২৫.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_121",
+                                                        "name_bn": "হলি ক্রস কলেজ ২০২৫",
+                                                        "name_en": "হলি ক্রস কলেজ ২০২৫",
+                                                        "name": "হলি ক্রস কলেজ ২০২৫",
+                                                        "file_bn": "/hsc/management_1st/হলি ক্রস কলেজ ২০২৫.json",
+                                                        "file_en": "/hsc/management_1st/হলি ক্রস কলেজ ২০২৫.json"
+                                                    }
+                                                ]
+                                            }
+,
+                                            {
+                                                "id": "year_2026",
+                                                "name_bn": "2026 সাল",
+                                                "name_en": "2026",
+                                                "name": "2026",
+                                                "chapters": [
+                                                    {
+                                                        "id": "hsc_mgt1_122",
+                                                        "name_bn": "আইডিয়াল কলেজ, ধানমন্ডি ২০২৬",
+                                                        "name_en": "আইডিয়াল কলেজ, ধানমন্ডি ২০২৬",
+                                                        "name": "আইডিয়াল কলেজ, ধানমন্ডি ২০২৬",
+                                                        "file_bn": "/hsc/management_1st/আইডিয়াল কলেজ, ধানমন্ডি ২০২৬.json",
+                                                        "file_en": "/hsc/management_1st/আইডিয়াল কলেজ, ধানমন্ডি ২০২৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_123",
+                                                        "name_bn": "আদমজী ক্যান্টনমেন্ট কলেজ ২০২৬",
+                                                        "name_en": "আদমজী ক্যান্টনমেন্ট কলেজ ২০২৬",
+                                                        "name": "আদমজী ক্যান্টনমেন্ট কলেজ ২০২৬",
+                                                        "file_bn": "/hsc/management_1st/আদমজী ক্যান্টনমেন্ট কলেজ ২০২৬.json",
+                                                        "file_en": "/hsc/management_1st/আদমজী ক্যান্টনমেন্ট কলেজ ২০২৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_124",
+                                                        "name_bn": "ক্যান্টনমেন্ট পাবলিক কলেজ, মোমেনশাহী ২০২৬",
+                                                        "name_en": "ক্যান্টনমেন্ট পাবলিক কলেজ, মোমেনশাহী ২০২৬",
+                                                        "name": "ক্যান্টনমেন্ট পাবলিক কলেজ, মোমেনশাহী ২০২৬",
+                                                        "file_bn": "/hsc/management_1st/ক্যান্টনমেন্ট পাবলিক কলেজ, মোমেনশাহী ২০২৬.json",
+                                                        "file_en": "/hsc/management_1st/ক্যান্টনমেন্ট পাবলিক কলেজ, মোমেনশাহী ২০২৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_125",
+                                                        "name_bn": "চট্টগ্রাম কমার্স কলেজ ২০২৬",
+                                                        "name_en": "চট্টগ্রাম কমার্স কলেজ ২০২৬",
+                                                        "name": "চট্টগ্রাম কমার্স কলেজ ২০২৬",
+                                                        "file_bn": "/hsc/management_1st/চট্টগ্রাম কমার্স কলেজ ২০২৬.json",
+                                                        "file_en": "/hsc/management_1st/চট্টগ্রাম কমার্স কলেজ ২০২৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_126",
+                                                        "name_bn": "ঢাকা কমার্স কলেজ ২০২৬",
+                                                        "name_en": "ঢাকা কমার্স কলেজ ২০২৬",
+                                                        "name": "ঢাকা কমার্স কলেজ ২০২৬",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা কমার্স কলেজ ২০২৬.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা কমার্স কলেজ ২০২৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_127",
+                                                        "name_bn": "ঢাকা কলেজ ২০২৬",
+                                                        "name_en": "ঢাকা কলেজ ২০২৬",
+                                                        "name": "ঢাকা কলেজ ২০২৬",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা কলেজ ২০২৬.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা কলেজ ২০২৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_128",
+                                                        "name_bn": "ঢাকা সিটি কলেজ ২০২৬",
+                                                        "name_en": "ঢাকা সিটি কলেজ ২০২৬",
+                                                        "name": "ঢাকা সিটি কলেজ ২০২৬",
+                                                        "file_bn": "/hsc/management_1st/ঢাকা সিটি কলেজ ২০২৬.json",
+                                                        "file_en": "/hsc/management_1st/ঢাকা সিটি কলেজ ২০২৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_129",
+                                                        "name_bn": "নটর ডেম কলেজ ২০২৬",
+                                                        "name_en": "নটর ডেম কলেজ ২০২৬",
+                                                        "name": "নটর ডেম কলেজ ২০২৬",
+                                                        "file_bn": "/hsc/management_1st/নটর ডেম কলেজ ২০২৬.json",
+                                                        "file_en": "/hsc/management_1st/নটর ডেম কলেজ ২০২৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_130",
+                                                        "name_bn": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+                                                        "name_en": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+                                                        "name": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+                                                        "file_bn": "/hsc/management_1st/বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬.json",
+                                                        "file_en": "/hsc/management_1st/বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_131",
+                                                        "name_bn": "মাইলস্টোন কলেজ ২০২৬",
+                                                        "name_en": "মাইলস্টোন কলেজ ২০২৬",
+                                                        "name": "মাইলস্টোন কলেজ ২০২৬",
+                                                        "file_bn": "/hsc/management_1st/মাইলস্টোন কলেজ ২০২৬.json",
+                                                        "file_en": "/hsc/management_1st/মাইলস্টোন কলেজ ২০২৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_132",
+                                                        "name_bn": "রংপুর ক্যান্টনমেন্ট পাবলিক কলেজ ২০২৬",
+                                                        "name_en": "রংপুর ক্যান্টনমেন্ট পাবলিক কলেজ ২০২৬",
+                                                        "name": "রংপুর ক্যান্টনমেন্ট পাবলিক কলেজ ২০২৬",
+                                                        "file_bn": "/hsc/management_1st/রংপুর ক্যান্টনমেন্ট পাবলিক কলেজ ২০২৬.json",
+                                                        "file_en": "/hsc/management_1st/রংপুর ক্যান্টনমেন্ট পাবলিক কলেজ ২০২৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_133",
+                                                        "name_bn": "রাজউক উত্তরা মডেল কলেজ ২০২৬",
+                                                        "name_en": "রাজউক উত্তরা মডেল কলেজ ২০২৬",
+                                                        "name": "রাজউক উত্তরা মডেল কলেজ ২০২৬",
+                                                        "file_bn": "/hsc/management_1st/রাজউক উত্তরা মডেল কলেজ ২০২৬.json",
+                                                        "file_en": "/hsc/management_1st/রাজউক উত্তরা মডেল কলেজ ২০২৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_134",
+                                                        "name_bn": "রাজশাহী ক্যান্টনমেন্ট পাবলিক কলেজ ২০২৬",
+                                                        "name_en": "রাজশাহী ক্যান্টনমেন্ট পাবলিক কলেজ ২০২৬",
+                                                        "name": "রাজশাহী ক্যান্টনমেন্ট পাবলিক কলেজ ২০২৬",
+                                                        "file_bn": "/hsc/management_1st/রাজশাহী ক্যান্টনমেন্ট পাবলিক কলেজ ২০২৬.json",
+                                                        "file_en": "/hsc/management_1st/রাজশাহী ক্যান্টনমেন্ট পাবলিক কলেজ ২০২৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_135",
+                                                        "name_bn": "সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+                                                        "name_en": "সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+                                                        "name": "সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬",
+                                                        "file_bn": "/hsc/management_1st/সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬.json",
+                                                        "file_en": "/hsc/management_1st/সেন্ট যোসেফ উচ্চ মাধ্যমিক বিদ্যালয় ২০২৬.json"
+                                                    }
+,
+                                                    {
+                                                        "id": "hsc_mgt1_136",
+                                                        "name_bn": "হলি ক্রস কলেজ ২০২৬",
+                                                        "name_en": "হলি ক্রস কলেজ ২০২৬",
+                                                        "name": "হলি ক্রস কলেজ ২০২৬",
+                                                        "file_bn": "/hsc/management_1st/হলি ক্রস কলেজ ২০২৬.json",
+                                                        "file_en": "/hsc/management_1st/হলি ক্রস কলেজ ২০২৬.json"
+                                                    }
+                                                ]
+                                            }
+                            ]
+                        }

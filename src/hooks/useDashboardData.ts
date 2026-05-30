@@ -18,6 +18,7 @@ const subjectFromPath = (filePath) => {
     economics_1st: 'Economics 1st Paper',
     economics_2nd: 'Economics 2nd Paper',
     logic_1st: 'Logic 1st Paper', logic_2nd: 'Logic 2nd Paper',
+    management_1st: 'Management 1st Paper',
   };
 
   const examMap = {

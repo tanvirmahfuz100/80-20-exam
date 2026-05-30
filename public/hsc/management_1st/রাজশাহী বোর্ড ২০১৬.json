@@ -1,0 +1,482 @@
+﻿[
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  1,
+        "question":  "শিল্প কোন ধরনের উপযোগ সৃষ্টি করে?",
+        "options":  {
+                        "A":  "স্বত্ত্বগত",
+                        "B":  "স্থানগত",
+                        "C":  "রূপগত",
+                        "D":  "কালগত"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  2,
+        "question":  "পণ্যসামগ্রী উৎপাদন থেকে শুরু করে ভোক্তার কাছে পৌঁছে দেয়া পর্যন্ত যাবতীয় কর্মকাণ্ডকে কী বলে?",
+        "options":  {
+                        "A":  "শিল্প",
+                        "B":  "বাণিজ্য",
+                        "C":  "প্রত্যক্ষ সেবা",
+                        "D":  "ব্যবসায়"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  3,
+        "question":  "মাটি ও পানি কোন ধরনের পরিবেশের উপাদান?",
+        "options":  {
+                        "A":  "প্রাকৃতিক",
+                        "B":  "রাজনৈতিক",
+                        "C":  "অর্থনৈতিক",
+                        "D":  "সামাজিক"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  4,
+        "question":  "শব্দ দূষণের ফলে কোন সমস্যা সৃষ্টি হতে পারে?",
+        "options":  {
+                        "A":  "উচ্চ রক্তচাপ",
+                        "B":  "ডায়াবেটিক",
+                        "C":  "চর্মরোগ",
+                        "D":  "হৃদরোগ"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  5,
+        "question":  "বাংলাদেশে বলবৎ যোগ্য অংশীদারি আইন কত সালের?",
+        "options":  {
+                        "A":  "১৯১৩",
+                        "B":  "১৯৩২",
+                        "C":  "১৯৯৪",
+                        "D":  "১৯২০"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  6,
+        "question":  "পাবলিক লি. কোম্পানির মূল দলিল কোনটি?",
+        "options":  {
+                        "A":  "বিবরণপত্র",
+                        "B":  "নিবন্ধনপত্র",
+                        "C":  "পরিমেলবন্ধ",
+                        "D":  "পরিমেল নিয়মাবলি"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  7,
+        "question":  "কোন ব্যবসায়টি জনকল্যাণের উদ্দেশ্যে প্রতিষ্ঠিত?",
+        "options":  {
+                        "A":  "সমবায়",
+                        "B":  "ব্যবসায় জোট",
+                        "C":  "অংশীদারি",
+                        "D":  "রাষ্ট্রীয়"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  8,
+        "question":  "অংশীদারি ব্যবসায়ের বাধ্যতামূলক বিলোপসাধন হয় যখন- i.কোনো অংশীদারের মস্তিষ্ক বিকৃতি হলে ii.একজন ভিন্ন সকল অংশীদার দেউলিয়া হলে iii.আইন অনুযায়ী ব্যবসায়টি পরিচালনা অবৈধ হলে নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i,ii ও iii"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  9,
+        "question":  "সম্পূর্ণ ভোক্তা সম্পর্কিত ব্যবসায় কোনটি?",
+        "options":  {
+                        "A":  "ই-কমার্স",
+                        "B":  "ই-মার্কেটিং",
+                        "C":  "ই-রিটেইলিং",
+                        "D":  "ই-ব্যাংকিং"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  10,
+        "question":  "অংশীদারি ব্যবসায়ের মূল ভিত্তি কী?",
+        "options":  {
+                        "A":  "নিবন্ধন",
+                        "B":  "বিশ্বাস",
+                        "C":  "চুত্তি",
+                        "D":  "আইন"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  11,
+        "question":  "WTO- এর প্রধান অফিস কোথায় অবস্থিত ?",
+        "options":  {
+                        "A":  "মার্কিন যুক্তরাষ্ট্রের নিউইয়র্কে",
+                        "B":  "যুক্তরাজ্যের লন্ডনে",
+                        "C":  "জাপানের টোকিওতে",
+                        "D":  "সুইজারল্যান্ডের জেনেভায়"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  12,
+        "question":  "বিশ্বের কোন কোম্পানি সর্বপ্রথম ই- বিজনেস চালু করে ?",
+        "options":  {
+                        "A":  "Apple",
+                        "B":  "IBM",
+                        "C":  "Amazon.com",
+                        "D":  "Alibaba.com"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  13,
+        "question":  "সিলেটের জৈন্তাপুর গ্রামের কৃষকগণ ন্যায্যমূল্যে পণ্য প্রাপ্তির আশায়। একটি সমবায় সমিতি গঠন করে। বছর শেষে তাদের মুনাফা হয় ২,০০,০০০ টাকা। সদস্যরা কত টাকা সঞ্চিতি তহবিলে জমা করবে?",
+        "options":  {
+                        "A":  "১০,০০০ টাকা",
+                        "B":  "১৫,০০০ টাকা",
+                        "C":  "২৫,০০০ টাকা",
+                        "D":  "৩০,০০০ টাকা"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  14,
+        "question":  "একমালিকানা ব্যবসায়ের মালিকের ব্যক্তিগত সুবিধা কোনটি?",
+        "options":  {
+                        "A":  "স্বাধীনতা",
+                        "B":  "সহজ গঠন",
+                        "C":  "স্বল্প মূলধন",
+                        "D":  "গোপনীয়তা"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  15,
+        "question":  "অংশীদারি ব্যবসায়ের বাধ্যতামূলক বিলোপসাধন হয় যখন- i.কোনো অংশীদারের মস্তিষ্ক বিকৃতি হলে ii.একজন ভিন্ন সকল অংশীদার দেউলিয়া হলে iii.আইন অনুযায়ী ব্যবসায়টি পরিচালনা অবৈধ হলে নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i,ii ও iii"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  16,
+        "question":  "সুনাম\u0027 কোন পরিবেশের উপাদান?",
+        "options":  {
+                        "A":  "অর্থনৈতিক",
+                        "B":  "রাজনৈতিক",
+                        "C":  "সামাজিক",
+                        "D":  "প্রাকৃতিক"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  17,
+        "question":  "পাবলিক লিমিটেড কোম্পানির ন্যূনতম পরিচালকের সংখ্যা কত?",
+        "options":  {
+                        "A":  "২",
+                        "B":  "৩",
+                        "C":  "৪",
+                        "D":  "৫"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  18,
+        "question":  "বাংলাদেশে কত সালের সমবায় বিধিমালা চালু রয়েছে?",
+        "options":  {
+                        "A":  "১৯৮৪",
+                        "B":  "২০০৪",
+                        "C":  "১৯৯৬",
+                        "D":  "১৯৯২"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  19,
+        "question":  "মূল্যবোধ দ্বারা মানুষের কোনটি প্রভাবিত হয়?",
+        "options":  {
+                        "A":  "বিবেক",
+                        "B":  "আচরণ",
+                        "C":  "জ্ঞান",
+                        "D":  "যোগ্যতা"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  20,
+        "question":  "ব্যবসায়ের সামাজিক দায়িত্বের প্রতি সচেতন হওয়ার পিছনে সবচেয়ে বড় কারণ কী?",
+        "options":  {
+                        "A":  "বিক্রয় বৃদ্ধি",
+                        "B":  "প্রতিযোগিতা বৃদ্ধি",
+                        "C":  "ক্রেতা সচেতনতা বৃদ্ধি",
+                        "D":  "ব্যবসায় সচেতনতা বৃদ্ধি"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  21,
+        "question":  "কোনটি রাষ্ট্রীয় প্রতিষ্ঠান বহির্ভূত?",
+        "options":  {
+                        "A":  "পল্লি বিদ্যুৎ",
+                        "B":  "ওয়াসা",
+                        "C":  "ডাক বিভাগ",
+                        "D":  "বিটিটিবি"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  22,
+        "question":  "কোম্পানি সংগঠনের ন্যূনতম কত ভাগ শেয়ারের মালিক হলে একজন মহিলা নারী উদ্যোক্তা বিবেচিত হন?",
+        "options":  {
+                        "A":  "80%",
+                        "B":  "৫১%",
+                        "C":  "৫০%",
+                        "D":  "৬১%"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  23,
+        "question":  "ব্যবসায়ের প্রাথমিক কাজ কোনটি?",
+        "options":  {
+                        "A":  "বণ্টন",
+                        "B":  "উৎপাদন",
+                        "C":  "সেবা প্রদান",
+                        "D":  "পণ্য সরবরাহ"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  24,
+        "question":  "কোন ব্যবসায়ের আয়কর মালিককে বহন করতে হয়?",
+        "options":  {
+                        "A":  "অংশীদারি",
+                        "B":  "যৌথ মূলধনী",
+                        "C":  "সমবায়",
+                        "D":  "একমালিকানা"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  25,
+        "question":  "ব্যবসায়ের সামাজিক গুরুত্ব নিচের কোনটি?",
+        "options":  {
+                        "A":  "সম্পদের সুষ্ঠু ব্যবহার",
+                        "B":  "সঞ্চয়ে উৎসাহ দান",
+                        "C":  "জীবনযাত্রার মানোন্নয়ন",
+                        "D":  "শ্রম বিভাগের সুফল"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  26,
+        "question":  "ক্ষুদ্র ঋণ কর্মসূচির বিষয়ে বাংলাদেশে সফল এনজিও কোনটি?",
+        "options":  {
+                        "A":  "আশা",
+                        "B":  "ব্র্যাক",
+                        "C":  "টিএমএসএস",
+                        "D":  "প্রশিকা"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  27,
+        "question":  "রনদা প্রসাদ সাহার পৈতৃক নিবাস কোথায় ছিল?",
+        "options":  {
+                        "A":  "ঢাকা",
+                        "B":  "টাঙ্গাইল",
+                        "C":  "কিশোরগঞ্জ",
+                        "D":  "নারায়ণগঞ্জ"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  28,
+        "question":  "আবিদ বি. কম পাস করে চাকরি না পেয়ে পৈত্রিক মজা পুকুরে মাছ চাষ করে। ছোট পোনা পুকুরে ছাড়ে এবং তা বড় হলে স্থানীয় বাজারে বিক্রয় করে। আবিদের কাজটি ব্যবসায়ের কোন শাখার অন্তর্ভুক্ত?",
+        "options":  {
+                        "A":  "শিল্প",
+                        "B":  "বাণিজ্য",
+                        "C":  "ব্যবসায়",
+                        "D":  "আত্মকর্মসংস্থান"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  29,
+        "question":  "আবিদ বি. কম পাস করে চাকরি না পেয়ে পৈত্রিক প্রাপ্ত পুকুরে মাছ চাষ করে। ছোট পোনা পুকুরে ছাড়ে এবং তা বড় হলে স্থানীয় বাজারে বিক্রয় করে। আবিদের মাছ চাষে জড়িত হওয়ার কারণ— i. পৈত্রিক প্রাপ্ত পুকুর ii. মাছ চাষ আগ্রহ iii. আত্মকর্মসংস্থানের সুযোগ নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  30,
+        "question":  "সিলেটে নিজস্ব জমি থাকা সত্বেও জনাব কামাল খাগড়াছড়িতে জমি লিজ নিয়ে কমলালেবু চাষ করেন। তার উৎপাদিত কমলালেবুর মান ভালো হওয়ায় স্থানীয় চাহিদা মিটিয়ে তিনি বিদেশে রপ্তানি করতে চাচ্ছেন। ব্যবসায় পরিবেশের কোন উপাদান বিবেচনায় মি. কামাল খাগড়াছড়িতে কমলা চাষে আগ্রহী হন?",
+        "options":  {
+                        "A":  "সামাজিক",
+                        "B":  "প্রাকৃতিক",
+                        "C":  "অর্থনৈতিক",
+                        "D":  "রাজনৈতিক"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  31,
+        "question":  "সিলেটে নিজস্ব জমি থাকা সত্বেও জনাব কামাল খাগড়াছড়িতে জমি লিজ নিয়ে কমলালেবু চাষ করেন। তার উৎপাদিত কমলালেবুর মান ভালো হওয়ায় স্থানীয় চাহিদা মিটিয়ে তিনি বিদেশে রপ্তানি করতে চাচ্ছেন।কামালের পরবর্তী পরিকল্পনা বাস্তবায়নে প্রয়োজন- i. রাজনৈতিক স্থিতিশীলতা ii. আন্তর্জাতিক সুসম্পর্ক iii. স্থানীয় ভোক্তার মনোভাব নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  32,
+        "question":  "বাংলাদেশ সরকার কক্সবাজারের সোনাদিয়া দ্বীপে গভীর সমুদ্র বন্দর নির্মাণের সিদ্ধান্ত নিয়েছে। বিদেশি বিনিয়োগকারীরা শর্তসাপেক্ষে বিনিয়োগে আগ্রহী। এমতাবস্থায় নির্মাণ সংশ্লিষ্ট কিছু স্বনামধন্য প্রতিষ্ঠান ও দেশীয় বিনিয়োগকারীদের সাথে নিয়ে সরকার প্রকল্পটি বাস্তবায়নের সিদ্ধান্ত নিয়েছে। এরূপ প্রতিষ্ঠান গড়ার ফলে বাংলাদেশ লাভবান হবে। কারণ— i. বিদেশের উপর নির্ভরতা কমবে ii. দেশি বিনিয়োগকারীরা উৎসাহিত হবে iii. সকল পক্ষের সামর্থ্য ও দক্ষতা বাড়বে নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  33,
+        "question":  "বাংলাদেশ সরকার কক্সবাজারের সোনাদিয়া দ্বীপে গভীর সমুদ্র বন্দর নির্মাণের সিদ্ধান্ত নিয়েছে। বিদেশি বিনিয়োগকারীরা শর্তসাপেক্ষে বিনিয়োগে আগ্রহী। এমতাবস্থায় নির্মাণ সংশ্লিষ্ট কিছু স্বনামধন্য প্রতিষ্ঠান ও দেশীয় বিনিয়োগকারীদের সাথে নিয়ে সরকার প্রকল্পটি বাস্তবায়নের সিদ্ধান্ত নিয়েছে। এরূপ প্রতিষ্ঠান গড়ার ফলে বাংলাদেশ লাভবান হবে। কারণ— i. বিদেশের উপর নির্ভরতা কমবে ii. দেশি বিনিয়োগকারীরা উৎসাহিত হবে iii. সকল পক্ষের সামর্থ্য ও দক্ষতা বাড়বে নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  34,
+        "question":  "X, Y, Z সমঝোতার ভিত্তিতে একটি অংশীদারি ব্যবসায় গঠন করে। কিছুদিন পর Y ব্যবসায় থেকে অবসর নেয়। কিন্তু তার মূলধন লাভ হলে লাভ পাবে এ শর্তে থেকে যায়। Y-এর অবসরের বিষয়টি না জেনে Q. X কে বাকিতে মাল সরবরাহ করে। উদ্দীপকে Y কোন ধরনের অংশীদার?",
+        "options":  {
+                        "A":  "নামমাত্র",
+                        "B":  "ঘুমন্ত",
+                        "C":  "আপাতদৃষ্টিতে",
+                        "D":  "প্রতিবন্ধ"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  35,
+        "question":  "X, Y, Z সমঝোতার ভিত্তিতে একটি অংশীদারি ব্যবসায় গঠন করে। কিছুদিন পর Y ব্যবসায় থেকে অবসর নেয়। কিন্তু তার মূলধন লাভ হলে লাভ পাবে এ শর্তে থেকে যায়। Y-এর অবসরের বিষয়টি না জেনে Q. X কে বাকিতে মাল সরবরাহ করে। উদ্দীপকে Y কোন ধরনের অংশীদার?",
+        "options":  {
+                        "A":  "নামমাত্র",
+                        "B":  "ঘুমন্ত",
+                        "C":  "আপাতদৃষ্টিতে",
+                        "D":  "প্রতিবন্ধ"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  36,
+        "question":  "সাকিব ও তার ১০ জন বন্ধু মিলে কৃত্রিম সত্তাবিশিষ্ট একটি ব্যবসায় প্রতিষ্ঠান গঠন করেন। বাজারে পণ্যের চাহিদা বৃদ্ধি পাওয়ায় মূলধন সংগ্রহের জন্য তারা ব্যবসায়ের কাঠামো পরিবর্তনের সিদ্ধান্ত গ্রহণ করে। উদ্দীপকের প্রথম পর্যায়ের ব্যবসায়টির ধরন কী?",
+        "options":  {
+                        "A":  "অংশীদারি",
+                        "B":  "সমবায়",
+                        "C":  "প্রাইভেট লি.",
+                        "D":  "পাবলিক লি."
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  37,
+        "question":  "মি. পল্টু ও তার ১৫ জন বন্ধু মিলে কৃত্রিম সত্ত্বা বিশিষ্ট একটি ব্যবসায় প্রতিষ্ঠান গঠন করেন। বাজারে পণ্যের চাহিদা বৃদ্ধি পাওয়ায় মূলধন সংগ্রহের জন্য তারা ব্যবসায়ের কাঠামো পরিবর্তনের সিদ্ধান্ত গ্রহণ করেন। উদ্দীপকের নতুন সিদ্ধান্ত বাস্তবায়নে করণীয় হলো— i. সদস্য সংখ্যা বৃদ্ধি ii. বিবরণপত্র প্রচার iii. কার্যারম্ভের অনুমতিপত্র সংগ্রহ নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  38,
+        "question":  "\u003cimg class=\"mx-auto bg-gray-100 rounded-lg my-2 max-h-96 object-contain\" src=\"data:image/png;base64,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\"\u003eউপরের চিত্রটি কী নির্দেশ করে?",
+        "options":  {
+                        "A":  "আই. এস. ও.",
+                        "B":  "পেটেন্ট",
+                        "C":  "ট্রেডমার্ড",
+                        "D":  "কপিরাইট"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  39,
+        "question":  "রাজশাহীর জেলেরা নদীতে মাছ ধরে এবং স্থানীয় বাজারে বিক্রি করে থাকে। তারা একটি সমবায় সমিতি গঠনের মাধ্যমে মাছের ন্যায্যমূল্য পেতে চায়। জেলেরা কোন ধরনের সমবায় সমিতি গঠন করতে পারে?",
+        "options":  {
+                        "A":  "পেশাজীবী",
+                        "B":  "বিক্রেতা",
+                        "C":  "উৎপাদক",
+                        "D":  "শ্রমজীবী"
+                    }
+    },
+    {
+        "source":  "রাজশাহী বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  40,
+        "question":  "পদ্মা নদীর পাড়ের জেলেরা ব্যক্তিগতভাবে নদীতে মাছ ধরে এবং স্থানীয় বাজারে বিক্রি করে। তারা সমবায় সমিতি গঠনের মাধ্যমে। মাছের ন্যায্যমূল্য পেতে চায়। উদ্দীপকে বর্ণিত জেলেরা তাদের সমিতি থেকে যা করতে পারে তা হলো- i. বৈষম্য দূর ii. জীবনযাত্রার মান উন্নয়ন iii. সঞ্চয় সৃষ্টি নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    }
+]

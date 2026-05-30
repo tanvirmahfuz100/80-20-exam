@@ -1,0 +1,338 @@
+﻿[
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  1,
+        "question":  "নিচের কোনটি ব্যবসায়ের সঠিক সমীকরণ?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eB\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmo\u003e∑\u003c/mo\u003e\u003cmi\u003eT\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo\u003e∑\u003c/mo\u003e\u003cmi\u003eI\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo\u003e∑\u003c/mo\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmi\u003eT\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e B = \\sum T + \\sum I + \\sum AT \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0502em;\"\u003eB\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mop op-symbol small-op\" style=\"position:relative;top:0em;\"\u003e∑\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.1389em;\"\u003eT\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mop op-symbol small-op\" style=\"position:relative;top:0em;\"\u003e∑\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eI\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mop op-symbol small-op\" style=\"position:relative;top:0em;\"\u003e∑\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.1389em;\"\u003eT\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eB\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmo\u003e∑\u003c/mo\u003e\u003cmi\u003eI\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo\u003e∑\u003c/mo\u003e\u003cmi\u003eT\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo\u003e∑\u003c/mo\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmi\u003eT\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e B = \\sum I + \\sum T + \\sum AT \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0502em;\"\u003eB\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mop op-symbol small-op\" style=\"position:relative;top:0em;\"\u003e∑\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eI\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mop op-symbol small-op\" style=\"position:relative;top:0em;\"\u003e∑\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.1389em;\"\u003eT\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mop op-symbol small-op\" style=\"position:relative;top:0em;\"\u003e∑\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.1389em;\"\u003eT\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eB\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmo\u003e∑\u003c/mo\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmi\u003eT\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo\u003e∑\u003c/mo\u003e\u003cmi\u003eI\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo\u003e∑\u003c/mo\u003e\u003cmi\u003eT\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e B = \\sum AT + \\sum I + \\sum T \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0502em;\"\u003eB\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mop op-symbol small-op\" style=\"position:relative;top:0em;\"\u003e∑\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.1389em;\"\u003eT\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mop op-symbol small-op\" style=\"position:relative;top:0em;\"\u003e∑\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eI\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mop op-symbol small-op\" style=\"position:relative;top:0em;\"\u003e∑\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.1389em;\"\u003eT\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eB\u003c/mi\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmo\u003e∑\u003c/mo\u003e\u003cmi\u003eI\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo\u003e∑\u003c/mo\u003e\u003cmi\u003eA\u003c/mi\u003e\u003cmi\u003eT\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo\u003e∑\u003c/mo\u003e\u003cmi\u003eT\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e B = \\sum I + \\sum AT + \\sum T \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0502em;\"\u003eB\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mop op-symbol small-op\" style=\"position:relative;top:0em;\"\u003e∑\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eI\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mop op-symbol small-op\" style=\"position:relative;top:0em;\"\u003e∑\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.1389em;\"\u003eT\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mop op-symbol small-op\" style=\"position:relative;top:0em;\"\u003e∑\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.1667em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.1389em;\"\u003eT\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  2,
+        "question":  "যৌগিক শিল্পের উদাহরণ কোনটি?",
+        "options":  {
+                        "A":  "মোবাইল",
+                        "B":  "ন্যাপথলিন",
+                        "C":  "চিনি",
+                        "D":  "সার"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  3,
+        "question":  "বাণিজ্যের মাধ্যমে দূর হয়— i. ব্যক্তিগত বাধা ii. সময়গত বাধা iii. তথ্যগত বাধা নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  4,
+        "question":  "ব্যবসায়ের অভ্যন্তরীণ পরিবেশের উপাদান— i. মালিক ii. শ্রমিক-কর্মী iii. পরিচালনা পর্ষদ নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  5,
+        "question":  "মানব সম্পদ ও জনসংখ্যা যথাক্রমে ব্যবসায়ের কোন পরিবেশের অন্তর্গত?",
+        "options":  {
+                        "A":  "অর্থনৈতিক ও সামাজিক",
+                        "B":  "সামাজিক ও প্রাকৃতিক",
+                        "C":  "অর্থনৈতিক ও প্রাকৃতিক",
+                        "D":  "সামাজিক ও অর্থনৈতিক"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  6,
+        "question":  "পৌর এলাকায় একমালিকানা ব্যবসায় পরিচালনা করতে কোন দলিলটি সংগ্রহ করতে হয়?",
+        "options":  {
+                        "A":  "আয়কর সনদপত্র",
+                        "B":  "স্মারকলিপি",
+                        "C":  "ট্রেড লাইসেন্স",
+                        "D":  "পরিমেল নিয়মাবলি"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  7,
+        "question":  "একমালিকানা ব্যবসায়ের বৈশিষ্ট্য হলো— i. আইনের ঝামেলামুক্ত ii. মালিকের একক কর্তৃত্ব iii. সম্প্রসারণে সীমাবদ্ধতা নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  8,
+        "question":  "একমালিকানা ব্যবসায়ের উপযুক্ত ক্ষেত্রের মধ্যে পড়ে— i. হাসপাতাল ii. কুটির শিল্প iii. মুদির দোকান নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  9,
+        "question":  "রাজু, মনি ও সালমা মিলে একটি অংশীদারি ব্যবসায় গঠন করে। সালমা কোনো মূলধন বিনিয়োগ না করে শুধু শ্রম দেয়। এখানে সালমা কোন ধরনের অংশীদার?",
+        "options":  {
+                        "A":  "সক্রিয়",
+                        "B":  "কর্মী",
+                        "C":  "প্রতিবন্ধ",
+                        "D":  "নামমাত্র"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  10,
+        "question":  "অংশীদারি ব্যবসায় নিবন্ধন না করলে যেসব অধিকার থেকে বঞ্চিত হয়— i. মামলার অধিকার ii. চেম্বার অব কমার্স-এর সদস্য হওয়ার অধিকার iii. তৃতীয় ব্যক্তি হয়ে মামলার অধিকার নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  11,
+        "question":  "অংশীদারি ব্যবসায়ের ক্ষেত্রে কত ধারা অনুযায়ী আদালত কর্তৃক বিলোপসাধনের বিধান রয়েছে?",
+        "options":  {
+                        "A":  "৪০",
+                        "B":  "৪১",
+                        "C":  "৪২",
+                        "D":  "৪৪"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  12,
+        "question":  "১৯৯৪ সালের কোম্পানি আইনের কোন ধারায় কোম্পানির সংজ্ঞা দেওয়া হয়েছে?",
+        "options":  {
+                        "A":  "২-১ (ক)",
+                        "B":  "২-১ (খ)",
+                        "C":  "২-১ (গ)",
+                        "D":  "২-১ (ঘ)"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  13,
+        "question":  "বিধিবদ্ধ সভা প্রযোজ্য হয় কোনটির ক্ষেত্রে?",
+        "options":  {
+                        "A":  "পাবলিক লিমিটেড কোম্পানি",
+                        "B":  "অ-ব্যাংকিং ব্যবসায়ের জন্য অংশীদারি ব্যবসায়",
+                        "C":  "ব্যাংকিং ব্যবসায়ের জন্য অংশীদারি ব্যবসায়",
+                        "D":  "প্রাইভেট লিমিটেড কোম্পানি"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  14,
+        "question":  "সমবায় সমিতির নিবন্ধনের জন্য কতজন সদস্যের প্রয়োজন হয়?",
+        "options":  {
+                        "A":  "০২",
+                        "B":  "০৭",
+                        "C":  "১০",
+                        "D":  "২০"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  15,
+        "question":  "সমবায় সমিতির মুনাফার কত অংশ বাধ্যতামূলকভাবে সংরক্ষিত তহবিলে জমা রাখতে হয়?",
+        "options":  {
+                        "A":  "১০%",
+                        "B":  "১৫%",
+                        "C":  "১৮%",
+                        "D":  "২০%"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  16,
+        "question":  "রাষ্ট্রীয় ব্যবসায় ন্যূনতম কত শতাংশ শেয়ার সরকারের মালিকানায় থাকে?",
+        "options":  {
+                        "A":  "৪৯",
+                        "B":  "৫০",
+                        "C":  "৫১",
+                        "D":  "১০০"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  17,
+        "question":  "বাংলাদেশ সরকার চীন ও ভারতের সুপ্রতিষ্ঠিত দুটি ব্যবসায় প্রতিষ্ঠানের সাথে চুক্তিবদ্ধ হয়ে ঢাকাসহ বড় বিভাগীয় শহরে মেট্রোরেল চালুর প্রকল্প নিয়েছে। উদ্দীপকের প্রতিষ্ঠানটি কোন ধরনের?",
+        "options":  {
+                        "A":  "সরকারি-বেসরকারি অংশীদারিভিত্তিক",
+                        "B":  "যৌথ উদ্যোগ",
+                        "C":  "অংশীদারি",
+                        "D":  "রাষ্ট্রীয়"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  18,
+        "question":  "পেটেন্ট ও ট্রেডমার্কের মধ্যে মিলের ক্ষেত্র কোনটি?",
+        "options":  {
+                        "A":  "উভয়ই অধিকার সংরক্ষণের সাথে সম্পর্কিত",
+                        "B":  "উভয় ক্ষেত্রেই নিবন্ধন করা আবশ্যক",
+                        "C":  "উভয়ই পণ্যের প্রচারে সহায়ক হয়",
+                        "D":  "ক্রেতা ও বিক্রেতা উভয়ই এ সুফল পায়"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  19,
+        "question":  "ইটভাটায় কোন ধরনের দূষণ ঘটতে পারে?",
+        "options":  {
+                        "A":  "বায়ু ও শব্দ দূষণ",
+                        "B":  "বায়ু ও পানি দূষণ",
+                        "C":  "বায়ু ও মাটি দূষণ",
+                        "D":  "পানি ও শব্দ দূষণ"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  20,
+        "question":  "BGMEA-এর উদ্দেশ্য হলো— i. রপ্তানিকারকদের বিবাদ মীমাংসায় সাহায্য ii. শিল্প প্রতিষ্ঠানের নিরাপত্তা তদারকি করা iii. পণ্যসামগ্রীর বাজারজাতকরণে সাহায্য নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  21,
+        "question":  "MICR-এর পূর্ণরূপ কোনটি?",
+        "options":  {
+                        "A":  "Managerial Identity Control Recognition",
+                        "B":  "Magnetic Ink Character Recognition",
+                        "C":  "Magnetic Input Character Recognition",
+                        "D":  "Managerial Input Cheque Recognition"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  22,
+        "question":  "উদ্যোক্তার অত্যাবশ্যকীয় গুণ কোনটি?",
+        "options":  {
+                        "A":  "দূরদৃষ্টি",
+                        "B":  "সিদ্ধান্ত নেওয়ার সামর্থ্য",
+                        "C":  "ধৈর্য ও কষ্টসহিষ্ণুতা",
+                        "D":  "ঝুঁকি নেওয়ার মানসিকতা"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  23,
+        "question":  "মি. সালাম যমুনা নদীর তীরে কাপিলাসা নামক স্থানে ৫০ একর জমি লিজ নিয়ে একটি বিনোদন কেন্দ্র গড়ে তোলেন। মি. সালামের বিনোদন কেন্দ্র গড়ে তোলাকে কী বলে?",
+        "options":  {
+                        "A":  "উদ্যোগ",
+                        "B":  "আত্মকর্মসংস্থান",
+                        "C":  "ব্যবসায় উদ্যোগ",
+                        "D":  "ব্যবসায়"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  24,
+        "question":  "Ethics শব্দটি নিম্নলিখিত কোন শব্দ থেকে এসেছে?",
+        "options":  {
+                        "A":  "ল্যাটিন Ethos শব্দ",
+                        "B":  "ইংরেজি Ethos শব্দ",
+                        "C":  "গ্রিক Ethos শব্দ",
+                        "D":  "ইতালিয়ান Ethos শব্দ"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  25,
+        "question":  "ব্যবসায়ের নৈতিকতা হলো— i. মুনাফা অর্জনে চেষ্টা করা ii. আইনের প্রতি শ্রদ্ধা দেখানো iii. বাজারে কৃত্রিম সংকট সৃষ্টি না করা নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  26,
+        "question":  "সম্পূর্ণ ভোক্তা সম্পর্কিত ব্যবসায় কোনটি?",
+        "options":  {
+                        "A":  "ই-ব্যবসায়",
+                        "B":  "ই-মার্কেটিং",
+                        "C":  "ই-রিটেইলিং",
+                        "D":  "ই-কমার্স"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  27,
+        "question":  "মালয়েশিয়ার কর্মসংস্থান মন্ত্রণালয় ডিজিটালাইজেশন পদ্ধতির মাধ্যমে বাংলাদেশের প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের সাথে আগামী ৫ বছরে ২০০০ কর্মী মালয়েশিয়ায় নেওয়ার জন্য চুক্তিবদ্ধ হয়েছে। উদ্দীপকে ই-কমার্সের কোন ধরনটি ব্যবহার করা হয়েছে?",
+        "options":  {
+                        "A":  "B2G",
+                        "B":  "G2G",
+                        "C":  "C2G",
+                        "D":  "G2B"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  28,
+        "question":  "নৈতিকতা ও মূল্যবোধ কোন ব্যবসায় পরিবেশের সাথে সরাসরি সম্পৃক্ত?",
+        "options":  {
+                        "A":  "অর্থনৈতিক",
+                        "B":  "রাজনৈতিক",
+                        "C":  "সাংস্কৃতিক",
+                        "D":  "প্রাকৃতিক"
+                    }
+    }
+]

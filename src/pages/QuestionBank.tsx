@@ -234,7 +234,7 @@ const QuestionBank = () => {
                     for (const sub of (idx.subjects || [])) {
                         for (const topic of (sub.topics || [])) {
                             for (const ch of (topic.chapters || [])) {
-                                const fp = ch.file || ch.file_bn || null;
+                                const fp = ch.file || ch.file_bn || ch.file_en || null;
                                 if (fp) entries.push({
                                     path: fp,
                                     exam: exam.label,

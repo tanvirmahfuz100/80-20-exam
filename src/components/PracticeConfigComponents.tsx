@@ -16,6 +16,7 @@ export const icons = {
     agriculture: Sprout,
     islam: BookHeart,
     accounting: BookOpen,
+    management_1st: Briefcase,
 };
 
 export const examColors = {
