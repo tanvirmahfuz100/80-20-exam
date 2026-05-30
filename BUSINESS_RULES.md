@@ -52,12 +52,15 @@ Review occurs twice a month. AI reviews the question database for duplicates, wr
 ## Test Modes
 
 ### Learning Mode
+
 No timer. No question count limit. The user goes through all available questions at their own pace. Each answer gets instant feedback. The user must get a question right before moving to the next one.
 
 ### Exam Mode
+
 Questions are randomized based on the exam type and the user's level. Both timed and untimed options are available. Feedback is shown only after the exam ends, not during. Ranking is based on Exam Mode only.
 
 ### Test Formats
+
 - Full Test
 - Chapter-wise
 - Time-based
@@ -142,25 +145,31 @@ Use yellow and stars to show mistakes. Do not use red, error, or warning signs. 
 ## Currency & Paywall
 
 ### How to Earn
+
 - 10 hints free per day
 - Watch an ad to earn more hints
 - *(More ways TBD)*
 
 ### Where to Spend
+
 - *(TBD — e.g., unlock hints, premium content, cosmetic items)*
 
 ### Paywall
+
 - *(TBD — subscription tiers, feature gates)*
 
 ### Keeping Students Motivated
-- Users (students) gets overwhelmed seeing 200-300 questions to solve. That is why we implemented Leveling system. Instead of solving 300 questions at one sitting, students will see questions are properly and logically segmented into levels. After completing each levels, users would be able to collect rewards, that will keep them do finish more levels, eventually finishing 300 questions on their own pace.
 
-- But we will give students challenges such as completing so and so levels on so and so time. If completed, they will receive rewards such as XP (XP will increase their rank) and Gems (but gems are rarer, they would mostly collect gems through purchasing or watching ad. maybe sometimes we would offer them to watch an ad and doubling their XP and getting a gem or two. we will never force them to watch ad even though it is our main revenue models.).
+- Users get overwhelmed seeing 200-300 questions to solve. The leveling system solves this by segmenting questions into logical, manageable levels. After completing each level, users collect rewards, keeping them engaged to finish more levels at their own pace.
+- **Challenges**: Students are given time-bound challenges to complete X levels. Completion rewards include XP (boosts rank) and Gems (rarer — mostly acquired through purchase or ads). Optional ad-watching can double XP and earn gems.
+- **Streak rewards**: 3 correct answers in a row → XP. 5 correct → more XP. 10+ correct → even more XP.
+- **Mistakes are not failures**: Mistakes are shown with a yellow star (never red/X). A star must be collected via spaced repetition (day 1, 3, 7, 14, 30). Stars are slightly annoying by design — incomplete stars limit access to further lessons. This prevents students from piling up massive backlogs.
+- **Star visibility**: Stars are shown per subject in the subject grid. A small popup encourages timely collection. Pending stars must be reviewed before anything else that day. If 50+ stars accumulate, let them review 5 first and offer a "Review Later" button.
+- **Be annoying but helpful**: Push notifications and reminders exist to keep students on track. Users love instant feedback and support. Provide clues freely in Learning Mode.
 
-- Students should never feel bored. They should feel engaged and motivated by learning. For 3 correct answers in a row, give them XP. For 5 correct answers in a row, give them more xp. For 10 or more correct answers, give them more XP.
+---
 
-- We do not even discourage students to make mistakes. Mistakes are not shown in red or X. We show it yellow star. A star has to be collected. A mistake has to be reviewed. Mistakes are oppurtnuities to learn. A star balance can be accessed from home page or menu, notifications will remind of stars. stars are collected through spaced repeatation methods (day 1, day 3, day 7, day 14, day 30). stars will be a bit annoying for a good reason. incompleted stars will prevent from accessing further lessons to a limit. We do not want students to pilling up massive amounts of stars which led them to be afraid and never return or touch the app again. We want them to give stars, but also keep them in managable poisition.
+## Question Bank
 
-- The stars can be also accessed from subject grids. Users will be able to see if they have stars pending for each subjects. Give them a friendly pop up message, very small, just to encourage them to collect stars on time. Without completing that day's review, they should not be able to access anything that day. Opening the app would make them review their pending stars first. But hey, if there are many many stars like 50+, you know it is overwhelming too. Let them review, 5 stars first and give them a Review Later button.
-
-- Be annoying but to keep them motivated. Be anoying as long as it helps them. Be annyoing as long as it is helping them. Users love instant feedbacks, instant support. Make sure you give them clues here and there, obviously when they are in the Learning mode.
+- Searching the question bank must be efficient and fast.
+- Most users access the app on mobile phones with limited storage and processing power. The app must work on any device.
