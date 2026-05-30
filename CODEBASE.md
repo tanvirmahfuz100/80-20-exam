@@ -1,5 +1,11 @@
 # 80-20 Exam (Fireman) — Codebase Map
 
+> **Related files:**
+> - [AGENTS.md](./AGENTS.md) — Skill index and knowledge base entry point
+> - [BUSINESS_RULES.md](./BUSINESS_RULES.md) — Product rules (test modes, scoring, question types)
+> - [docs/DESIGN.md](./docs/DESIGN.md) — UI/UX design rules and theme tokens
+> - [skills/](./skills/) — Reusable agent skills (extraction, error handling, navigation)
+
 ## Quick Reference
 
 | Attribute | Value |
@@ -161,15 +167,18 @@
 | `animations/` | Lottie JSON animations |
 | Each exam dir has `index.json` defining subjects → topics → chapters → file paths |
 
-### `scripts/` — Data extraction & transformation tools (88 files)
+### `scripts/` — Data tools
 
-See `scripts/categorize.sh` or `CODEVIEW.md` for categorization. Key groups:
-- **Extraction**: extracting data from chorcha.net HTML / other sources
-- **Transformation**: converting formats, fixing, deduplicating
-- **BCS parsing**: parsing BCS exam data from raw text/PDF
-- **Index management**: generating/updating `index.json` files
-- **Translation**: Bengali → English question translation
-- **QA/audit**: verification, duplicate checking
+| Directory | Purpose | Count |
+|-----------|---------|-------|
+| `data-extraction/` | Scraping/parsing question data from external sources (chorcha.net, PDFs) | 22 |
+| `data-fix/` | Transforming, fixing, deduplicating, and migrating data | 41 |
+| `audit/` | QA, verification, duplicate checking | 14 |
+| `bcs/` | BCS exam-specific parsing | 4 |
+| `archive/` | One-off translations, temp data, old experiments | 7 |
+
+Key files:
+- `generate-codegraph.mjs` — Auto-generates the codebase dependency graph (`npm run codegraph`)
 
 ## Module Import Graph
 
@@ -266,9 +275,9 @@ Exam slug → subjects → topics → chapters → file paths
 
 1. **Lazy loading**: All pages use `React.lazy()` + `Suspense` with `LoadingScreen` fallback
 2. **Prototype API**: `localApi.ts` returns `{ data, error }` to mimic Supabase. Comment says "Replace with Supabase before launch"
-3. **Spaced repetition**: `review.ts` implements 5-stage review (0→3→7→14→30 days) for wrong answers
+3. **Spaced repetition**: `review.ts` implements 5-stage review (0→3→7→14→30 days) for wrong answers (see [skills/error-handling.md](./skills/error-handling.md))
 4. **Seeded randomization**: `dailyQuiz.ts` uses deterministic shuffle based on date string
 5. **Bengali-first**: UI labels in Bengali, Bengali font stack (Hind Siliguri, Noto Sans Bengali)
 6. **Duolingo-style gamification**: Gems, streaks, XP, stars, daily/weekly challenges
-7. **Mobile-first responsive**: Tailwind breakpoints for mobile/tablet/desktop/TV (3840px)
+7. **Mobile-first responsive**: Tailwind breakpoints for mobile/tablet/desktop/TV (3840px) (see [docs/DESIGN.md](./docs/DESIGN.md))
 8. **CSS custom properties**: Theme colors via `--bg`, `--text`, `--surface` etc., swapped with `data-theme="dark"` attribute
