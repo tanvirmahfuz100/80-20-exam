@@ -87,18 +87,20 @@
 | `GapFillPassage` | `GapFillPassage.tsx` | Quiz exercise |
 | `SubstitutionTableExercise` | `SubstitutionTableExercise.tsx` | Quiz exercise |
 | `Rearrangement` | `Rearrangement.tsx` | Quiz exercise |
+| `LevelUpModal` | `LevelUpModal.tsx` | `Layout` — level-up celebration (reads `exam_leveled_up` localStorage flag) |
+| `QuestionInsight` | `QuestionInsight.tsx` | `Quiz` — "X% users got this right" badge after answering |
 | `Illustrations` | `Illustrations.tsx` | Decorative assets |
 
 #### `src/hooks/` — Custom React hooks (13 hooks)
 
 | Hook | Exports / Purpose | Depends On |
 |------|-------------------|------------|
-| `useQuizSession` | Main quiz state orchestrator | `useQuizLoader`, `useQuizTimer`, `useQuizAnswer`, `useQuizPersistence` |
+| `useQuizSession` | Main quiz state orchestrator; computes `earnedXp` (difficulty-weighted + streak bonus) | `useQuizLoader`, `useQuizTimer`, `useQuizAnswer`, `useQuizPersistence` |
 | `useQuizLoader` | Fetch questions, compute levels | `api`, `review`, `quizUtils`, `levels` |
-| `useQuizAnswer` | Answer validation, review, score | `review`, `sounds`, `mistakeStore` |
+| `useQuizAnswer` | Answer validation, review, score; tracks `consecutiveCorrect` counter for streak bonus XP | `review`, `sounds`, `mistakeStore` |
 | `useQuizTimer` | Elapsed time tracking | none |
-| `useQuizPersistence` | Save progress/results | `api`, `review`, `levels` |
-| `usePracticeConfig` | Exam/subject/chapter data | `api`, `examPaths` |
+| `useQuizPersistence` | Save progress/results; accepts `earnedXp` (weighted), detects level-up boundary, awards gems on level-up | `api`, `review`, `levels` |
+| `usePracticeConfig` | Exam/subject/chapter data; `hydrateChapterCounts` filters to `selectedExam` only (no batch overfetch) | `api`, `examPaths` |
 | `useExamPath` | User's selected exam path | localStorage |
 | `useDashboardData` | Stats for dashboard | `api` |
 | `useCountdown` | Countdown timer utility | none |
@@ -112,8 +114,8 @@
 
 | File | Purpose | Depends On |
 |------|---------|------------|
-| `localApi.ts` | LocalStorage-backed API (mimics Supabase) | `storage`, `normalizeQuestion`, `levels` |
-| `levels.ts` | Level computation, progress, XP, stars, challenges | `storage` |
+| `localApi.ts` | LocalStorage-backed API (mimics Supabase). Methods: `getProfile`/`updateProfileFields`, `getLeaderboard` (period-based), `getQuestionStats` (accuracy %), `addBookmark`/`removeBookmark`/`getBookmarks`/`isBookmarked`, challenge progress read | `storage`, `normalizeQuestion`, `levels` |
+| `levels.ts` | Level computation, progress, XP, stars, daily/weekly challenges, `getUserStats`, gem awarding on level-up | `storage` |
 | `quizUtils.ts` | Question normalization for quiz | `normalizeQuestion` |
 | `review.ts` | Spaced-repetition mistake/star review system | `mistakeStore` |
 | `streak.ts` | Daily check-in streak tracking | `storage` |
@@ -136,7 +138,7 @@
 
 | File | Key Types |
 |------|-----------|
-| `index.ts` | `User`, `Profile`, `AuthSession`, `Question`, `RawQuestion`, `QuizResult`, `Mistake`, `Level`, `DailyChallenge`, `WeeklyChallenge`, `PracticeSession`, `Course`, `MockTest`, `ShortVideo`, `SoundName`, `Theme`, `FontSize` |
+| `index.ts` | `User`, `Profile` (includes `active_items`, `show_in_leaderboard`, `show_question_insight`), `AuthSession`, `Question`, `RawQuestion`, `NormalizedQuestion` (flat shape with `options: string[]`), `QuizResult`, `Mistake`, `Level`, `DailyChallenge`, `WeeklyChallenge`, `PracticeSession`, `Course`, `MockTest`, `ShortVideo`, `LeaderboardEntry`, `QuestionStats`, `Bookmark`, `SoundName`, `Theme`, `FontSize` |
 
 #### `src/config/` — App configuration
 
@@ -189,15 +191,18 @@ main.tsx```
 ## Data Flow
 
 ```
-  JSON Data (public/*/index.json)
-       │
-       ▼
-  services/localApi.ts (fetch + parse → Question[])
-       │
-       ├──→ hooks/usePracticeConfig.ts (exam/subject/chapter listing)
-       ├──→ hooks/useQuizLoader.ts (load + normalize + compute levels)
-       ├──→ hooks/useDashboardData.ts (stats aggregation)
-       └──→ pages/QuestionBank.tsx (search)
+   JSON Data (public/*/index.json)
+        │
+        ▼
+   services/localApi.ts (fetch + parse → Question[])
+        │
+        ├──→ hooks/usePracticeConfig.ts (exam/subject/chapter listing)
+        ├──→ hooks/useQuizLoader.ts (load + normalize + compute levels)
+        ├──→ hooks/useDashboardData.ts (stats aggregation)
+        ├──→ pages/QuestionBank.tsx (search, bookmarks, fuzzy)
+        ├──→ pages/Leaderboard.tsx (period-based rank)
+        ├──→ pages/Shop.tsx (gem deduction, active_items)
+        └──→ components/QuestionInsight.tsx (accuracy % per question)
        
   hooks/useQuizSession.ts
        ├── useQuizLoader.ts → normalizes via quizUtils.ts → computeLevels.ts
@@ -217,14 +222,15 @@ main.tsx```
   <App>                          (HashRouter)
     <AuthProvider>
       <Layout>                   (header, sidebar, bottom nav, popups)
-        ├── Sidebar              (navigation links)
-        ├── header               (search, streak/gems/stars, theme toggle, notifications)
-        ├── MobileBottomNav      (mobile-only: 5 nav items)
-        ├── main content         (<Suspense fallback=<LoadingScreen>>)
-        │   └── <page>           (lazy-loaded page component)
-        ├── StreakPopup          (conditional)
-        ├── GemPopup             (conditional)
-        └── StarPopup            (conditional)
+├── Sidebar              (navigation links)
+├── header               (search, streak/gems/stars, theme toggle, notifications)
+├── MobileBottomNav      (mobile-only: 5 nav items)
+├── main content         (<Suspense fallback=<LoadingScreen>>)
+│   └── <page>           (lazy-loaded page component)
+├── StreakPopup          (conditional)
+├── GemPopup             (conditional)
+├── StarPopup            (conditional)
+└── LevelUpModal         (always mounted, reads `exam_leveled_up` localStorage flag)
 ```
 
 ## Key Data Structures
@@ -270,6 +276,9 @@ Exam slug → subjects → topics → chapters → file paths
 | `fireman-font-size` | key string | Font size preference |
 | `daily_quiz_cache_v2` | cached questions | Daily quiz cache |
 | `quiz_star_balance` | number | Star balance |
+| `exam_bookmarks` | `Bookmark[]` | Bookmarked questions (per user) |
+| `exam_leveled_up` | `{ level: number }` | Flag for LevelUpModal (cleared after display) |
+| `exam_leaderboard_period` | `"daily" \| "weekly" \| "all_time"` | Leaderboard period preference |
 
 ## Key Patterns
 
@@ -281,3 +290,10 @@ Exam slug → subjects → topics → chapters → file paths
 6. **Duolingo-style gamification**: Gems, streaks, XP, stars, daily/weekly challenges
 7. **Mobile-first responsive**: Tailwind breakpoints for mobile/tablet/desktop/TV (3840px) (see [docs/DESIGN.md](./docs/DESIGN.md))
 8. **CSS custom properties**: Theme colors via `--bg`, `--text`, `--surface` etc., swapped with `data-theme="dark"` attribute
+9. **Weighted XP**: Easy=5, Medium=10, Hard=20 XP per correct answer. Streak bonus additive: 3→+5, 5→+10, 10+→+20 XP.
+10. **Level-up detection**: `useQuizPersistence` compares `prevLevel` vs `newLevel` on each save; writes `exam_leveled_up` flag to localStorage; awards `newLevel * 10` gems.
+11. **Active items (shop)**: Profile stores `active_items: ActiveItem[]` with `{ itemId, expiresAt }` — XP boosts, streak freeze/repair, timer freeze.
+12. **BCS index format**: Unlike other exams (`{ subjects: [...] }`), BCS `index.json` is a bare array — Question Bank detects this and creates virtual subject/topic/chapter structure.
+13. **Bookmark system**: `Set<string>` in component memory synced to `exam_bookmarks` localStorage via `api.addBookmark`/`removeBookmark`.
+14. **Fuzzy search**: Levenshtein sliding-window scorer in Question Bank (threshold 0.55, results sorted by score).
+15. **Per-subject star grouping**: `getPendingMistakesBySubject()` in `review.ts` extracts subject slugs from `m.source.file` path segments for Dashboard pills and Stars breakdown.

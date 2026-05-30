@@ -38,3 +38,6 @@
 3. **Debugging UI issues?** Read [docs/DESIGN.md](./docs/DESIGN.md)
 4. **Understanding product rules?** Read [BUSINESS_RULES.md](./BUSINESS_RULES.md)
 5. **Handling errors?** Read [skills/error-handling.md](./skills/error-handling.md)
+6. **Working on gamification features (XP, streaks, levels, shop)?** Read [AGENT_LESSONS.md](./AGENT_LESSONS.md) lessons 15-21 — covers weighted XP, level-up detection, active_items pattern, leaderboard/insight opt-out
+7. **Extending the Question Bank (bookmarks, fuzzy search, BCS format)?** Read [AGENT_LESSONS.md](./AGENT_LESSONS.md) lessons 18-20 — BCS array-index, fuzzy Levenshtein, bookmark lifecycle
+8. **Fixing quiz type errors?** Read [AGENT_LESSONS.md](./AGENT_LESSONS.md) lesson 21 — `NormalizedQuestion` must be defined in `src/types/index.ts`
