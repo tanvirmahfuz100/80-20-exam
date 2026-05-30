@@ -17,6 +17,7 @@ export const icons = {
     islam: BookHeart,
     accounting: BookOpen,
     management_1st: Briefcase,
+    management_2nd: Briefcase,
 };
 
 export const examColors = {

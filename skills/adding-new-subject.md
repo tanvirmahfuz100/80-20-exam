@@ -58,7 +58,47 @@ Edit `public/hsc/index.json`. Add a new subject entry in the `subjects` array wi
 
 **Chapter IDs**: Use a unique prefix like `hsc_subjectname_N` (e.g., `hsc_mgt1_1`). IDs must be unique across all chapters in the subject.
 
-## 3. Add Icon in PracticeConfigComponents
+## 3. Add to Hardcoded Subject List (for SubjectSelection page)
+
+For the subject to appear on the **HSC home screen** (the subject grid shown after onboarding), you must update two files:
+
+### 3a. Edit `src/config/examPaths.ts`
+
+Add the Bengali subject name to the appropriate exam+group array:
+- `HSC-Business` — for management, accounting, finance, economics, entrepreneurship
+- `HSC-Science` — for physics, chemistry, biology, higher math
+- `HSC-Arts` — for history, geography, civics
+
+**For multi-paper subjects** (subjects with 1st/2nd paper like Bengali, Management):
+- Add a SINGLE entry with the generic name (e.g., `'ব্যবস্থাপনা'`) instead of paper-specific names
+- The paper picker dialog will let users choose between 1st and 2nd paper after clicking
+
+### 3b. Edit `src/pages/SubjectSelection.tsx`
+
+Add entries for the generic subject name:
+
+1. In `subjectIconMap`: map the Bengali name to a `lucide-react` icon
+2. In `subjectNameToId`: map the Bengali name to a short URL-safe ID
+3. In `multiPaperSubjects`: add `'বাংলা': true` or `'ব্যবস্থাপনা': true` to enable the paper picker dialog
+
+Use the same icon from PracticeConfigComponents. The ID should be a simple short name (e.g., `'management'` not `'management_1st'`) following the existing pattern.
+
+## 4. Add Paper Picker Options (for multi-paper subjects)
+
+Edit `src/components/PaperPicker.tsx` and add paper options in the `paperOptions` object:
+
+```typescript
+hsc: {
+    'ব্যবস্থাপনা': [
+      { id: 'management_1st', label: 'ব্যবস্থাপনা ১ম পত্র', desc: 'Management 1st Paper' },
+      { id: 'management_2nd', label: 'ব্যবস্থাপনা ২য় পত্র', desc: 'Management 2nd Paper' },
+    ],
+},
+```
+
+**Important**: The `id` values must match the `id` fields in `index.json` (e.g., `management_1st`, `management_2nd`). This ensures the paper picker's navigation URL (`/practice?exam=hsc&subjectId=management_1st`) matches the subject IDs in the index, bypassing the pre-existing ID mismatch between `examPaths.ts` and `index.json`.
+
+## 5. Add Icon in PracticeConfigComponents
 
 Edit `src/components/PracticeConfigComponents.tsx` and add an icon entry in the `icons` object:
 ```typescript
@@ -74,7 +114,7 @@ Icon choices by subject type:
 - **Agriculture**: `Sprout`
 - **ICT**: `Monitor`
 
-## 4. Add Name Mapping in Dashboard.tsx
+## 6. Add Name Mapping in Dashboard.tsx
 
 Edit `src/pages/Dashboard.tsx` and add an entry in the `subjectMap` object:
 ```typescript
@@ -82,7 +122,7 @@ subject_id: 'Subject Display Name',
 ```
 This maps the URL slug to a human-readable page title.
 
-## 5. Add Name Mapping in useDashboardData.ts
+## 7. Add Name Mapping in useDashboardData.ts
 
 Edit `src/hooks/useDashboardData.ts` and add the same entry in its `subjectMap` object:
 ```typescript
@@ -90,7 +130,7 @@ subject_id: 'Subject Display Name',
 ```
 This maps question file paths to subject names in dashboard statistics.
 
-## 6. Verify
+## 8. Verify
 
 ### Validate JSON
 Ensure `index.json` is valid JSON by running one of:
@@ -127,6 +167,10 @@ Open the browser, navigate to the HSC exam practice, and verify:
 
 - [ ] Question JSON files in `public/hsc/<subject_id>/`
 - [ ] Subject entry added to `public/hsc/index.json` subjects array
+- [ ] Bengali name added to `src/config/examPaths.ts` in the right group array
+- [ ] Icon + ID mapping added in `src/pages/SubjectSelection.tsx`
+- [ ] Multi-paper subject added to `multiPaperSubjects` in `src/pages/SubjectSelection.tsx` (if applicable)
+- [ ] Paper picker options added in `src/components/PaperPicker.tsx` (if multi-paper)
 - [ ] Each chapter has both `file_bn` and `file_en` keys
 - [ ] File paths match actual filenames (Bengali characters OK)
 - [ ] Icon added in `src/components/PracticeConfigComponents.tsx`

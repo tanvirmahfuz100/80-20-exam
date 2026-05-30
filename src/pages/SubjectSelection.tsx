@@ -39,10 +39,12 @@ const subjectIconMap = {
   'সাধারণ বিজ্ঞান': FlaskConical,
   'কৃষি শিক্ষা': Sprout,
   'ইসলাম শিক্ষা': BookHeart,
+  'ব্যবস্থাপনা': Briefcase,
 };
 
 export const multiPaperSubjects = {
   'বাংলা': true,
+  'ব্যবস্থাপনা': true,
 };
 
 export const subjectNameToId = {
@@ -68,6 +70,7 @@ export const subjectNameToId = {
   'সাধারণ বিজ্ঞান': 'general_science',
   'কৃষি শিক্ষা': 'agriculture',
   'ইসলাম শিক্ষা': 'islam',
+  'ব্যবস্থাপনা': 'management',
 };
 
 function getIcon(name) {

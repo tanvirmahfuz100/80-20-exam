@@ -70,3 +70,18 @@
 10. **`npm run dev` starts Vite dev server** — the only way to verify UI changes
    - Node.js portable location: `C:\Users\BD-0217-PFEC\.node-portable\`
    - Needs to be in PATH for `npm` / `node` to work from PowerShell
+
+### Subject Display Systems
+
+11. **Two separate subject display systems exist**:
+    - **SubjectSelection page** (`/subject-selection` after onboarding): Uses hardcoded arrays in `src/config/examPaths.ts`. A new HSC subject must be added to the appropriate group array AND to `SubjectSelection.tsx` (icon map + name-to-ID map).
+    - **PracticeConfig page** (`/practice?exam=hsc`): Loads dynamically from `public/hsc/index.json`. Registration in JSON alone only affects this page.
+    - **Both systems must be updated** for a new subject to appear on the HSC home screen.
+    - The two systems use different ID conventions: `examPaths.ts` → `SubjectSelection.tsx` uses short IDs (e.g., `'management'`), while `index.json` uses suffixed IDs (e.g., `'management_1st'`). This mismatch is pre-existing and does not break functionality — users just see the full subject list after navigation.
+
+12. **Paper picker pattern for multi-paper subjects** (Bengali, Management):
+    - Instead of listing `'ব্যবস্থাপনা ১ম পত্র'` directly in `examPaths.ts`, use a single entry `'ব্যবস্থাপনা'` and mark it as multi-paper in `multiPaperSubjects` in `SubjectSelection.tsx`.
+    - Add paper options in `PaperPicker.tsx` `paperOptions` under the appropriate exam and subject name.
+    - Paper picker IDs must match `index.json` subject `id` values (e.g., `management_1st`, `management_2nd`) — this avoids the pre-existing ID mismatch.
+    - The icon map in `SubjectSelection.tsx` should use the single entry name (`'ব্যবস্থাপনা'`), not the paper-specific entry.
+    - When navigating from the paper picker, the URL uses `subjectId=management_1st` (matching `index.json`), which works directly with `usePracticeConfig.ts` without needing a lookup table.

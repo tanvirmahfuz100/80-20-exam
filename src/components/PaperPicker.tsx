@@ -14,6 +14,10 @@ const paperOptions = {
       { id: 'bangla_1st', label: 'বাংলা ১ম পত্র', desc: 'Bangla 1st Paper' },
       { id: 'bangla_2nd', label: 'বাংলা ২য় পত্র', desc: 'Bangla 2nd Paper' },
     ],
+    'ব্যবস্থাপনা': [
+      { id: 'management_1st', label: 'ব্যবস্থাপনা ১ম পত্র', desc: 'Management 1st Paper' },
+      { id: 'management_2nd', label: 'ব্যবস্থাপনা ২য় পত্র', desc: 'Management 2nd Paper' },
+    ],
   },
 };
 

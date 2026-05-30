@@ -46,6 +46,7 @@ const subjectFromPath = (filePath) => {
     economics_2nd: 'Economics 2nd Paper',
     logic_1st: 'Logic 1st Paper', logic_2nd: 'Logic 2nd Paper',
     management_1st: 'Management 1st Paper',
+    management_2nd: 'Management 2nd Paper',
   };
 
   const examSlug = segments[0];
