@@ -23,6 +23,7 @@ interface UseQuizPersistenceParams {
   challengeType: string | null;
   modelTestTotal: number;
   wrongAttempts: number;
+  earnedXp?: number;
   setLevelSessionSaved: (b: boolean) => void;
 }
 
@@ -31,7 +32,7 @@ export function useQuizPersistence(params: UseQuizPersistenceParams) {
     isFinished, questions, score, chapterId, title, file,
     isTimedMode, isReviewMode, currentLevel, levelSessionSaved,
     isChallenge, challengeType, modelTestTotal, wrongAttempts,
-    setLevelSessionSaved,
+    earnedXp: earnedXpProp, setLevelSessionSaved,
   } = params;
   const { user, updateProfileFields } = useAuth();
   const sessionSavedRef = useRef(false);
@@ -59,13 +60,31 @@ export function useQuizPersistence(params: UseQuizPersistenceParams) {
         clearReviewSession();
       }
 
-      const earnedXp = score * 10;
+      const difficultyXpMap: Record<string, number> = { easy: 5, medium: 10, hard: 20 };
+      let earnedXp = 0;
+      let correctCount = 0;
+      for (const q of questions) {
+        const diff = q.difficulty || 'medium';
+        earnedXp += difficultyXpMap[diff] || 10;
+        correctCount++;
+      }
+      const ratio = totalQ > 0 ? score / totalQ : 0;
+      earnedXp = Math.round(earnedXp * ratio);
+
+      if (earnedXpProp !== undefined) earnedXp = earnedXpProp;
+
       const raw = localStorage.getItem('exam_local_auth');
       if (raw) {
         const currentSession = JSON.parse(raw);
         const currentXp = currentSession.profile.total_xp || 0;
+        const oldLevel = Math.floor(currentXp / 100) + 1;
         const newXp = currentXp + earnedXp;
+        const newLevel = Math.floor(newXp / 100) + 1;
         updateProfileFields({ total_xp: newXp });
+        if (newLevel > oldLevel) {
+          updateProfileFields({ gems: (currentSession.profile.gems || 0) + newLevel * 10 });
+          try { localStorage.setItem('exam_leveled_up', JSON.stringify({ oldLevel, newLevel })); } catch {}
+        }
       }
 
       if (currentLevel && chapterId && !levelSessionSaved) {

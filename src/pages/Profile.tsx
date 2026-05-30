@@ -53,7 +53,9 @@ export default function Profile() {
           <span className="text-3xl font-black text-primary">{initial}</span>
         </div>
         <h1 className="text-lg font-black text-text">{username}</h1>
-        <p className="text-sm text-text-muted font-medium mt-0.5 whitespace-nowrap">লেভেল 1 — বিগিনার</p>
+        <p className="text-sm text-text-muted font-medium mt-0.5 whitespace-nowrap">
+          লেভেল {Math.floor(xp / 100) + 1} — {xp < 100 ? 'বিগিনার' : xp < 300 ? 'ব্রোঞ্জ' : xp < 500 ? 'সিলভার' : xp < 800 ? 'গোল্ড' : xp < 1200 ? 'স্যাফায়ার' : xp < 1700 ? 'রুবি' : 'ডায়মন্ড'}
+        </p>
       </div>
 
       <div className="grid grid-cols-3 gap-3 mb-6">

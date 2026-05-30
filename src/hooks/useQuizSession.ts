@@ -53,6 +53,7 @@ export function useQuizSession() {
     shuffledOptions, gapFillGroup, currentQuestion,
     selectedOriginalIdx, isCurrentCorrect, correctAnswerText, isManyOptions,
     totalXpSoFar, isReviewSession, nextModelFile,
+    streakBonusXp, consecutiveCorrect,
     setScore, setSelectedOption, setIsAnswered,
     setResults, setWrongAttempts,
     setFlyingStars, setBalanceGlow,
@@ -65,11 +66,19 @@ export function useQuizSession() {
     file, title, chapterId, user, questionStartRef,
   });
 
+  const earnedXp = questions.reduce((sum, q, i) => {
+    const r = results[i];
+    if (!r?.isCorrect) return sum;
+    const difficulty = (r as any).difficulty || 'medium';
+    const xpMap: Record<string, number> = { easy: 5, medium: 10, hard: 20 };
+    return sum + (xpMap[difficulty] || 10);
+  }, 0) + streakBonusXp;
+
   useQuizPersistence({
     isFinished, questions, score, chapterId, title, file,
     isTimedMode, isReviewMode, currentLevel, levelSessionSaved,
     isChallenge, challengeType, modelTestTotal, wrongAttempts,
-    setLevelSessionSaved,
+    earnedXp, setLevelSessionSaved,
   });
 
   // Reset quiz state when questions reload

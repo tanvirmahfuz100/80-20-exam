@@ -1,8 +1,10 @@
 ﻿import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, Filter, ChevronDown, ChevronLeft, ChevronRight, Loader2, Clock, Target, X } from 'lucide-react';
+import { Search, Filter, ChevronDown, ChevronLeft, ChevronRight, Loader2, Clock, Target, X, Bookmark, ExternalLink } from 'lucide-react';
 import LottieAnimation from '../components/LottieAnimation';
 import searchAnimation from '../assets/search.json';
+import { useAuth } from '../context/AuthContext';
+import { api } from '../services/localApi';
 
 function useDebounce(value, delay = 300) {
     const [debounced, setDebounced] = useState(value);
@@ -199,12 +201,14 @@ function FilterDropdown({ label, options, value, onChange }) {
 }
 
 const QuestionBank = () => {
+    const { user, profile } = useAuth();
     const [allQuestions, setAllQuestions] = useState([]);
     const [loading, setLoading] = useState(true);
     const [loadProgress, setLoadProgress] = useState('');
     const [searchTerm, setSearchTerm] = useState('');
     const [exactMatch, setExactMatch] = useState(false);
-    const [filters, setFilters] = useState({ category: 'All', difficulty: 'All', subject: 'All', topic: 'All', year: 'All' });
+    const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(new Set());
+    const [filters, setFilters] = useState({ category: 'All', difficulty: 'All', subject: 'All', topic: 'All', year: 'All', bookmark: 'All' });
     const [page, setPage] = useState(1);
     const [searchTime, setSearchTime] = useState(0);
     const inputRef = useRef(null);
@@ -212,11 +216,36 @@ const QuestionBank = () => {
     const perPage = 15;
 
     useEffect(() => {
+        if (!user?.id) return;
+        (async () => {
+            const { data } = await api.getBookmarks(user.id);
+            if (data) setBookmarkedIds(new Set(data.map(b => b.question_id)));
+        })();
+    }, [user?.id]);
+
+    const toggleBookmark = useCallback(async (questionId: string, sourceFile: string) => {
+        if (!user?.id) return;
+        if (bookmarkedIds.has(questionId)) {
+            await api.removeBookmark(user.id, questionId);
+            setBookmarkedIds(prev => { const n = new Set(prev); n.delete(questionId); return n; });
+        } else {
+            await api.addBookmark(user.id, questionId, sourceFile);
+            setBookmarkedIds(prev => new Set(prev).add(questionId));
+        }
+    }, [user?.id, bookmarkedIds]);
+
+    const openAiAssist = useCallback((text: string) => {
+        const url = `https://chatgpt.com/?q=${encodeURIComponent(text)}`;
+        window.open(url, '_blank', 'noopener');
+    }, []);
+
+    useEffect(() => {
         const base = import.meta.env.BASE_URL || '/';
         const exams = [
             { id: 'ssc', label: 'SSC' },
             { id: 'hsc', label: 'HSC' },
             { id: 'iba', label: 'IBA' },
+            { id: 'bcs', label: 'BCS' },
             { id: 'class7', label: 'Class 7' },
         ];
 
@@ -229,26 +258,38 @@ const QuestionBank = () => {
                     const idxRes = await fetch(`${base}${exam.id}/index.json`);
                     if (!idxRes.ok) continue;
                     const idx = await idxRes.json();
-                    const entries = [];
 
-                    for (const sub of (idx.subjects || [])) {
-                        for (const topic of (sub.topics || [])) {
-                            for (const ch of (topic.chapters || [])) {
-                                const fp = ch.file || ch.file_bn || ch.file_en || null;
-                                if (fp) entries.push({
-                                    path: fp,
-                                    exam: exam.label,
-                                    subject: sub.name,
-                                    topic: topic.name,
-                                    chapter: ch.name,
-                                });
+                    if (exam.id === 'bcs' && Array.isArray(idx)) {
+                        for (const item of idx) {
+                            const fp = `/bcs/${item.id}.json`;
+                            all.push({
+                                path: fp,
+                                exam: exam.label,
+                                subject: 'BCS Questions',
+                                topic: 'All BCS Exams',
+                                chapter: item.name,
+                            });
+                        }
+                    } else {
+                        for (const sub of (idx.subjects || [])) {
+                            for (const topic of (sub.topics || [])) {
+                                for (const ch of (topic.chapters || [])) {
+                                    const fp = ch.file || ch.file_bn || ch.file_en || null;
+                                    if (fp) all.push({
+                                        path: fp,
+                                        exam: exam.label,
+                                        subject: sub.name,
+                                        topic: topic.name,
+                                        chapter: ch.name,
+                                    });
+                                }
                             }
                         }
                     }
 
-                    for (let i = 0; i < entries.length; i += 10) {
-                        const batch = entries.slice(i, i + 10);
-                        setLoadProgress(`Indexing ${exam.label}... (${Math.min(i + 10, entries.length)}/${entries.length})`);
+                    for (let i = 0; i < all.length; i += 10) {
+                        const batch = all.slice(i, i + 10);
+                        setLoadProgress(`Indexing ${exam.label}... (${Math.min(i + 10, all.length)}/${all.length})`);
                         const fetched = await Promise.all(
                             batch.map(async (e) => {
                                 try {
@@ -295,15 +336,34 @@ const QuestionBank = () => {
         const t0 = performance.now();
         let filtered = allQuestions;
 
+        if (filters.bookmark === 'Bookmarked' && user?.id) {
+            filtered = filtered.filter(q => bookmarkedIds.has(q.id));
+        }
+
         if (debouncedSearch) {
             const terms = exactMatch
                 ? [debouncedSearch.toLowerCase()]
                 : debouncedSearch.toLowerCase().split(/\s+/).filter(Boolean);
             if (terms.length > 0) {
-                filtered = filtered.filter(q => {
-                    const text = q.text.toLowerCase();
-                    return terms.every(t => text.includes(t));
-                });
+                const fuzzy = (term: string, text: string): number => {
+                    const t = term.toLowerCase();
+                    const s = text.toLowerCase();
+                    if (t.length < 2) return s.includes(t) ? 1 : 0;
+                    const minD = Math.min(...Array.from({ length: Math.max(1, s.length - t.length + 1) }, (_, i) => {
+                        let d = 0;
+                        for (let j = 0; j < t.length; j++) if (s[i + j] !== t[j]) d++;
+                        return d;
+                    }));
+                    return 1 - minD / t.length;
+                };
+                const threshold = exactMatch ? 0 : 0.55;
+                filtered = filtered.map(q => {
+                    const text = q.text;
+                    const scores = terms.map(t => fuzzy(t, text));
+                    const avg = scores.reduce((a, b) => a + b, 0) / scores.length;
+                    return { ...q, _fuzzyScore: avg };
+                }).filter(q => q._fuzzyScore >= threshold)
+                  .sort((a, b) => b._fuzzyScore - a._fuzzyScore);
             }
         }
 
@@ -323,7 +383,7 @@ const QuestionBank = () => {
 
     const clearAll = () => {
         setSearchTerm('');
-        setFilters({ category: 'All', difficulty: 'All', subject: 'All', topic: 'All', year: 'All' });
+        setFilters({ category: 'All', difficulty: 'All', subject: 'All', topic: 'All', year: 'All', bookmark: 'All' });
         setPage(1);
         inputRef.current?.focus();
     };
@@ -452,15 +512,25 @@ const QuestionBank = () => {
                                             <span className="text-text-muted">{q.year}</span>
                                         </>
                                     )}
-                                    <div className="ml-auto flex items-center gap-3 text-text-dim">
-                                        <div className="flex items-center gap-1.5">
-                                            <Target className="w-3 h-3" />
-                                            <span className="text-emerald-500/50 font-black">68%</span>
-                                        </div>
-                                        <div className="flex items-center gap-1.5">
-                                            <Clock className="w-3 h-3" />
-                                            <span className="text-blue-500/50 font-black">45s</span>
-                                        </div>
+                                    <div className="ml-auto flex items-center gap-1.5 text-text-dim">
+                                        <button
+                                            onClick={() => openAiAssist(q.text)}
+                                            className="p-1.5 rounded-lg hover:bg-primary/10 hover:text-primary transition-all"
+                                            title="AI সহায়তা"
+                                        >
+                                            <ExternalLink className="w-3.5 h-3.5" />
+                                        </button>
+                                        <button
+                                            onClick={() => toggleBookmark(q.id, q.file)}
+                                            className={`p-1.5 rounded-lg transition-all ${
+                                                bookmarkedIds.has(q.id)
+                                                    ? 'text-primary hover:text-primary/70'
+                                                    : 'hover:text-primary'
+                                            }`}
+                                            title={bookmarkedIds.has(q.id) ? 'বুকমার্ক সরান' : 'বুকমার্ক করুন'}
+                                        >
+                                            <Bookmark className={`w-3.5 h-3.5 ${bookmarkedIds.has(q.id) ? 'fill-current' : ''}`} />
+                                        </button>
                                     </div>
                                 </div>
                             </div>

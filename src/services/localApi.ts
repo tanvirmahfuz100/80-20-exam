@@ -31,7 +31,8 @@ const STORAGE_KEYS = {
     activityLogs: 'exam_activity_logs',
     reports: 'exam_reports',
     courses: 'exam_courses',
-    mockTests: 'exam_mock_tests'
+    mockTests: 'exam_mock_tests',
+    bookmarks: 'exam_bookmarks'
 };
 
 const defaultCourses = [
@@ -459,5 +460,73 @@ export const api = {
     advanceWeeklyChallenge: async (userId, sectionId) => {
         _advanceWeeklyChallenge(userId, sectionId);
         return { data: true, error: null };
+    },
+
+    getLeaderboard: async (period = 'all-time') => {
+        const profiles = readStorage(STORAGE_KEYS.profiles, []);
+        const sessions = readStorage(STORAGE_KEYS.practiceSessions, []);
+        const now = Date.now();
+        const periodMs = period === 'daily' ? 86400000 : period === 'weekly' ? 604800000 : Infinity;
+
+        const xpMap: Record<string, number> = {};
+        for (const s of sessions) {
+            if (periodMs !== Infinity && now - new Date(s.created_at).getTime() > periodMs) continue;
+            const uid = s.user_id;
+            xpMap[uid] = (xpMap[uid] || 0) + (s.correct_answers || 0) * 10;
+        }
+
+        const entries = Object.entries(xpMap)
+            .map(([userId, xp]) => {
+                const p = profiles.find(pr => pr.id === userId);
+                return { userId, username: p?.username || 'Unknown', xp, avatar: undefined };
+            })
+            .filter(e => {
+                const p = profiles.find(pr => pr.id === e.userId);
+                return p?.show_in_leaderboard !== false;
+            })
+            .sort((a, b) => b.xp - a.xp);
+
+        return { data: entries, error: null };
+    },
+
+    getQuestionStats: async (questionId) => {
+        const responses = readStorage(STORAGE_KEYS.responses, [])
+            .filter(r => String(r.question_id) === String(questionId));
+        const total = responses.length;
+        const correct = responses.filter(r => r.is_correct).length;
+        return {
+            data: { totalAttempts: total, correctCount: correct, accuracyPercent: total > 0 ? Math.round((correct / total) * 100) : 0 },
+            error: null
+        };
+    },
+
+    addBookmark: async (userId, questionId, sourceFile) => {
+        const rows = readStorage(STORAGE_KEYS.bookmarks, []);
+        const exists = rows.find(b => b.user_id === userId && String(b.question_id) === String(questionId));
+        if (exists) return { data: exists, error: null };
+        const bookmark = { id: crypto.randomUUID(), user_id: userId, question_id: String(questionId), source_file: sourceFile || '', created_at: new Date().toISOString() };
+        rows.push(bookmark);
+        writeStorage(STORAGE_KEYS.bookmarks, rows);
+        return { data: bookmark, error: null };
+    },
+
+    removeBookmark: async (userId, questionId) => {
+        let rows = readStorage(STORAGE_KEYS.bookmarks, []);
+        rows = rows.filter(b => !(b.user_id === userId && String(b.question_id) === String(questionId)));
+        writeStorage(STORAGE_KEYS.bookmarks, rows);
+        return { data: true, error: null };
+    },
+
+    getBookmarks: async (userId) => {
+        const rows = readStorage(STORAGE_KEYS.bookmarks, [])
+            .filter(b => b.user_id === userId)
+            .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
+        return { data: rows, error: null };
+    },
+
+    isBookmarked: async (userId, questionId) => {
+        const rows = readStorage(STORAGE_KEYS.bookmarks, []);
+        const exists = !!rows.find(b => b.user_id === userId && String(b.question_id) === String(questionId));
+        return { data: exists, error: null };
     }
 };

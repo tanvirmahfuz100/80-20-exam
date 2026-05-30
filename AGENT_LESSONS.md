@@ -106,4 +106,38 @@
       const chapterEntries = (selectedExam ? [selectedExam] : data.exams || [])
         .flatMap((exam) => exam.subjects || [])
       ```
-    - Pre-emptively check total fetch volume when adding new subjects. If a single exam would exceed ~100 files, consider concurrency batching (e.g., 10-at-a-time).
+     - Pre-emptively check total fetch volume when adding new subjects. If a single exam would exceed ~100 files, consider concurrency batching (e.g., 10-at-a-time).
+
+15. **Weighted XP + streak bonus**:
+    - Difficulty-weighted XP (easy=5, medium=10, hard=20) is computed in the quiz *session* hook (`useQuizSession`) so it has access to per-answer results. The persistence hook (`useQuizPersistence`) just receives the final `earnedXp` number — keeps persistence generic.
+    - Streak bonus is additive: 3→+5, 5→+10, 10+→+20. Tracked as `consecutiveCorrect` counter in `useQuizAnswer`.
+    - XP is combined (difficulty + streak) before passing to persistence.
+
+16. **Level-up detection**:
+    - Compute `prevLevel = Math.floor(prevXp / 100) + 1` and `newLevel = Math.floor(newXp / 100) + 1` in `useQuizPersistence`. If `newLevel > prevLevel`, award `newLevel * 10` gems and write `exam_leveled_up` JSON to localStorage.
+    - A global `LevelUpModal` component reads this flag on mount and clears it after display.
+
+17. **Shop `active_items` array pattern**:
+    - Store all consumable items as a single `active_items: ActiveItem[]` array on Profile with each item having `{ itemId, expiresAt: ISO string }`.
+    - XP boosts merge/replace logic: if a new boost extends beyond the existing expiry, replace; otherwise keep the longer one.
+    - `itemId` encodes both the type and duration: `xp_boost_15min`, `xp_boost_30min`, `streak_freeze`, `streak_repair`, `timer_freeze`.
+
+18. **BCS index.json is an array, not an object**:
+    - Unlike SSC/HSC/IBA which have `{ subjects: [...] }`, BCS's `index.json` is a bare array of `[{ id, name }, ...]` (42 items).
+    - Question Bank loading code must detect this: `if (exam.id === 'bcs' && Array.isArray(idx))`.
+    - Subject/topic/chapter structure is virtual: subject = 'BCS Questions', topic = 'All BCS Exams', chapter = `item.name`.
+
+19. **Question per-subject grouping from mistake `source.file`**:
+    - Extract subject slugs from `m.source.file` path segments: split by `/`, take `segments[1]`.
+    - Capitalize and format as display label. Fallback to 'অন্যান্য' if no subject identified.
+    - `getPendingMistakesBySubject()` in `review.ts` groups pending (due now) mistakes by subject for Dashboard pills and Stars breakdown.
+
+20. **Fuzzy search with Levenshtein distance**:
+    - Simple sliding-window Levenshtein: slide search term across text, count mismatches, normalize to 0-1 score.
+    - Threshold at 0.55 for non-exact search. Results sorted by score descending.
+    - Used in Question Bank when `exactMatch` toggle is OFF.
+
+21. **`NormalizedQuestion` type must be defined**:
+    - The three quiz hooks (`useQuizAnswer`, `useQuizLoader`, `useQuizPersistence`) all import `NormalizedQuestion` from `'../types'`.
+    - This type was never defined in `src/types/index.ts` — a silent TS error that would block building.
+    - Define it as a flat interface with `options: string[]` (not `NormalizedOption[]`), matching the shape returned by `normalizeQuizQuestions`.

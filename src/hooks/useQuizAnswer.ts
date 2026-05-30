@@ -51,6 +51,7 @@ export function useQuizAnswer({
   const [flyingStars, setFlyingStars] = useState<any[]>([]);
   const [balanceGlow, setBalanceGlow] = useState(false);
   const [wrongAttempts, setWrongAttempts] = useState(0);
+  const [consecutiveCorrect, setConsecutiveCorrect] = useState(0);
   const [showReportModal, setShowReportModal] = useState(false);
   const [reportReason, setReportReason] = useState('');
   const [reportDetails, setReportDetails] = useState('');
@@ -111,8 +112,19 @@ export function useQuizAnswer({
     };
   }, [questions, currentIndex]);
 
+  const difficultyXpMap: Record<string, number> = { easy: 5, medium: 10, hard: 20 };
+
+  const getStreakBonus = (streak: number) => {
+    if (streak >= 10) return 20;
+    if (streak >= 5) return 10;
+    if (streak >= 3) return 5;
+    return 0;
+  };
+
+  const streakBonusXp = getStreakBonus(consecutiveCorrect);
+
   const currentQuestion = questions[currentIndex];
-  const totalXpSoFar = results.reduce((acc, r) => acc + (r.isCorrect ? 10 : 0), 0);
+  const totalXpSoFar = results.reduce((acc, r) => acc + (r.isCorrect ? (difficultyXpMap[(r as any).difficulty || 'medium'] || 10) : 0), 0) + streakBonusXp;
   const isReviewSession = false;
 
   const selectedOriginalIdx = isAnswered && selectedOption !== null ? shuffledOptions?.[selectedOption]?.originalIdx : -1;
@@ -165,6 +177,7 @@ export function useQuizAnswer({
 
     if (correct) {
       setScore(s => s + 1);
+      setConsecutiveCorrect(c => c + 1);
       playSound('correctAnswer');
 
       if ((currentQ as any)._mistakeId) {
@@ -173,6 +186,7 @@ export function useQuizAnswer({
     }
 
     if (!correct) {
+      setConsecutiveCorrect(0);
       playSound('star');
       setWrongAttempts(w => w + 1);
       if ((currentQ as any)._mistakeId) {
@@ -187,12 +201,13 @@ export function useQuizAnswer({
 
     const questionTime = Math.round((Date.now() - questionStartRef.current) / 1000);
 
-    const newResult: AnswerResult = {
+    const newResult: AnswerResult & { difficulty?: string } = {
       id: currentQ.id,
       isCorrect: correct,
       selected: index,
       selectedOriginalIdx: origIdx,
       time_spent: questionTime,
+      difficulty: currentQ.difficulty || 'medium',
     };
 
     setResults(prev => [...prev, newResult]);
@@ -276,7 +291,7 @@ export function useQuizAnswer({
     setFlyingStars, setBalanceGlow,
     setShowExitConfirm, setShowReportModal,
     setReportReason, setReportDetails, setQuizFontSize,
-    createFlyingStar, getQuestionKey,
+    createFlyingStar, getQuestionKey, streakBonusXp, consecutiveCorrect,
     handleOptionSelect, handleSubmitReport, handleNext, handleBackWithConfirm,
   };
 }

@@ -1,7 +1,7 @@
 ﻿import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Star, ArrowRight, CheckCircle, Clock, Sparkles, Brain, Zap, BookOpen, RefreshCw } from 'lucide-react';
-import { getMistakeGroups, startReviewSession, startAllReviewSession, REVIEW_INTERVALS } from '../services/review';
+import { Star, ArrowRight, CheckCircle, Clock, Sparkles, Brain, Zap, BookOpen, RefreshCw, Layers } from 'lucide-react';
+import { getMistakeGroups, getPendingMistakesBySubject, startReviewSession, startAllReviewSession, REVIEW_INTERVALS } from '../services/review';
 import { getUserStats } from '../services/levels';
 import { useAuth } from '../context/AuthContext';
 import { useMistakeStore } from '../stores/mistakeStore';
@@ -10,6 +10,7 @@ const Stars = () => {
   const navigate = useNavigate();
   const { user } = useAuth();
   const [groups, setGroups] = useState<unknown[]>([]);
+  const [subjectGroups, setSubjectGroups] = useState([]);
   const [stats, setStats] = useState({ total_xp: 0, total_stars: 0 });
   const refreshKey = useMistakeStore((s) => s.refreshKey);
 
@@ -21,6 +22,7 @@ const Stars = () => {
 
   useEffect(() => {
     setGroups(getMistakeGroups());
+    setSubjectGroups(getPendingMistakesBySubject());
   }, [refreshKey]);
 
   const handleReview = (stage) => {
@@ -80,6 +82,23 @@ const Stars = () => {
           </div>
         </div>
       </div>
+
+      {subjectGroups.length > 0 && (
+        <div className="bg-surface border rounded-2xl p-4">
+          <h3 className="text-[10px] font-black uppercase tracking-widest text-text-dim mb-3 flex items-center gap-1.5 bn-text">
+            <Layers className="w-3 h-3" />
+            সাবজেক্ট অনুযায়ী
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {subjectGroups.map(g => (
+              <div key={g.subject} className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-yellow-400/10 border border-yellow-400/20 rounded-full text-[11px] font-bold text-yellow-400">
+                <Star className="w-3 h-3" />
+                {g.subject} ({g.count})
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       <div className="flex items-center justify-between">
         <div>

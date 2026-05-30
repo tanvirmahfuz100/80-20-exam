@@ -162,3 +162,27 @@ export const getRecentMistakes = (count = 3) => {
     source: m.source,
   }));
 };
+
+export const getPendingMistakesBySubject = () => {
+  const all = read();
+  const now = new Date();
+  const pending = all.filter(m => new Date(m.nextReviewAt) <= now);
+  const map = {};
+  for (const m of pending) {
+    const path = m.source?.file || '';
+    const segments = path.replace(/\\/g, '/').split('/');
+    const subjectSlug = segments.length >= 2 ? segments[1] : null;
+    const label = subjectSlug
+      ? subjectSlug.charAt(0).toUpperCase() + subjectSlug.slice(1).replace(/[-_]/g, ' ')
+      : 'অন্যান্য';
+    if (!map[label]) map[label] = [];
+    map[label].push(m);
+  }
+  const entries = Object.entries(map).map(([subject, mistakes]) => ({
+    subject,
+    count: (mistakes as any[]).length,
+    mistakes,
+  }));
+  entries.sort((a, b) => b.count - a.count);
+  return entries;
+};

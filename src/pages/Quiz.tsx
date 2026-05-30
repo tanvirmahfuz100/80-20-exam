@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import {
     ArrowLeft, CheckCircle2, XCircle, RefreshCw, Flag,
-    Zap, Clock, Video, Star, Sparkles, ChevronRight,
+    Zap, Clock, Video, Star, Sparkles, ChevronRight, Target,
 } from 'lucide-react';
 import {
     addMistake, advanceStage, resetStage,
@@ -18,6 +18,7 @@ import LoadingScreen from '../components/LoadingScreen';
 import { playSound } from '../utils/sounds';
 import { stripMath } from '../services/quizUtils';
 import QuizResultScreen from '../components/QuizResultScreen';
+import QuestionInsight from '../components/QuestionInsight';
 import { ExitConfirmModal, ReportModal } from '../components/QuizModals';
 import { useQuizSession } from '../hooks/useQuizSession';
 
@@ -522,6 +523,8 @@ const Quiz = () => {
                                                         )}
                                                     </div>
 
+                                                    <QuestionInsight questionUuid={currentQ.uuid} questionId={currentQ.id} />
+
                                                     {currentQ.explanation_video_url && (
                                                         <a
                                                             href={currentQ.explanation_video_url}
@@ -586,6 +589,8 @@ const Quiz = () => {
                                                             </div>
                                                         )}
                                                     </div>
+
+                                                    <QuestionInsight questionUuid={currentQ.uuid} questionId={currentQ.id} />
 
                                                     <button
                                                         onClick={handleNext}

@@ -19,6 +19,14 @@ export interface Profile {
   fontSize?: string;
   gems?: number;
   streak?: number;
+  show_in_leaderboard?: boolean;
+  show_question_insight?: boolean;
+  active_items?: ActiveItem[];
+}
+
+export interface ActiveItem {
+  itemId: string;
+  expiresAt: string;
 }
 
 export interface AuthSession {
@@ -100,7 +108,34 @@ export interface Question {
   source?: string;
   year?: string;
   _type?: string;
+  explanation_distractors?: Array<{ option: string; reason: string }>;
 }
+
+export type NormalizedQuestion = {
+  id: string;
+  uuid?: string;
+  question_text?: string;
+  text: string;
+  difficulty: string;
+  passage?: string;
+  boxWords?: string[];
+  blankId?: string | null;
+  options: string[];
+  correct: number;
+  explanation?: string;
+  explanation_bn?: string;
+  explanation_en?: string;
+  explanation_distractors?: Array<{ option: string; reason: string }>;
+  explanation_video_url?: string;
+  source?: string;
+  source_tags?: string[];
+  _mistakeId?: string;
+  year?: string;
+  _type?: string;
+  exam_category?: string;
+  exam_type?: string;
+  [key: string]: unknown;
+};
 
 // ── Quiz ──
 export interface ShuffledOption {
@@ -359,6 +394,30 @@ export interface QuestionFilter {
 // ── Report ──
 export interface ReportConfig {
   whatsappNumber: string;
+}
+
+// ── Leaderboard ──
+export interface LeaderboardEntry {
+  userId: string;
+  username: string;
+  xp: number;
+  avatar?: string;
+}
+
+// ── Question Stats ──
+export interface QuestionStats {
+  totalAttempts: number;
+  correctCount: number;
+  accuracyPercent: number;
+}
+
+// ── Bookmarks ──
+export interface Bookmark {
+  id: string;
+  user_id: string;
+  question_id: string;
+  source_file: string;
+  created_at: string;
 }
 
 // ── Quiz Session State ──

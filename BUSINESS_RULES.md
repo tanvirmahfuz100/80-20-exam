@@ -173,3 +173,17 @@ Use yellow and stars to show mistakes. Do not use red, error, or warning signs. 
 
 - Searching the question bank must be efficient and fast.
 - Most users access the app on mobile phones with limited storage and processing power. The app must work on any device.
+- Users may enter text which may not always match exactly. So the default is approximate match.
+
+---
+
+## Ranking
+
+- Track every user's attempt with their answers and IDs. Show what percentage of people got each question right so users can assess their position.
+- Experience: after answering (right or wrong), show "X% of people got this right" in the explanation. Never show the exact count — only the percentage.
+- Skipping a question is not counted as an attempt. Only a submitted answer counts. Correct Answers / Attempts.
+- Fully functional when migrating to a database. For now, create a demo to make migration easier.
+- Leaderboards: daily, weekly, all-time. Ranked by XP. More practice = more XP.
+- Per-question accuracy determines difficulty (hard/medium/easy). XP is weighted weekly — harder questions give more XP, easier ones less.
+- Keep students competing, challenged, motivated. Send notifications when others are catching up.
+- **Ranking opt-out**: Settings toggle to disable ranking. Users won't see their rank or appear on leaderboards. Per-question insight can also be toggled off separately.

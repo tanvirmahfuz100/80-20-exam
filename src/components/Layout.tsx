@@ -11,6 +11,7 @@ import { useReducedMotion } from '../hooks';
 import StreakPopup from './StreakPopup';
 import GemPopup from './GemPopup';
 import StarPopup from './StarPopup';
+import LevelUpModal from './LevelUpModal';
 import { getCurrentStreak, getStreakHistory, recordDailyCheckIn } from '../services/streak';
 import { readStorage } from '../utils/storage';
 import { useMistakeStore } from '../stores/mistakeStore';
@@ -304,6 +305,8 @@ const Layout = ({ children }) => {
           </div>
         )}
       </AnimatePresence>
+
+      <LevelUpModal />
     </div>
   );
 };

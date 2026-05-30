@@ -316,6 +316,39 @@ const Settings = () => {
 
                 <div className="bg-surface border border rounded-2xl p-5">
                     <h3 className="font-black text-sm text-text mb-4 flex items-center gap-2">
+                        <ShieldCheck className="w-4 h-4 text-primary" />
+                        প্রাইভেসি
+                    </h3>
+                    <div className="space-y-4">
+                        {['show_in_leaderboard', 'show_question_insight'].map(field => (
+                            <label key={field} className="flex items-center justify-between cursor-pointer">
+                                <div>
+                                    <p className="text-sm font-bold text-text">
+                                        {field === 'show_in_leaderboard' ? 'লিডারবোর্ডে দেখাও' : 'প্রশ্ন ইনসাইট দেখাও'}
+                                    </p>
+                                    <p className="text-xs text-text-muted font-medium mt-0.5">
+                                        {field === 'show_in_leaderboard'
+                                            ? 'লিডারবোর্ডে তোমার নাম ও স্কোর অন্যদের থেকে লুকাও'
+                                            : 'প্রশ্নের উত্তর দেওয়ার সময় "কত% সঠিক পেয়েছে" দেখাও'}
+                                    </p>
+                                </div>
+                                <button
+                                    onClick={() => updateProfileFields({ [field]: !(profile as any)?.[field] } as any)}
+                                    className={`relative w-12 h-6 rounded-full transition-all ${
+                                        (profile as any)?.[field] !== false ? 'bg-primary' : 'bg-wolf'
+                                    }`}
+                                >
+                                    <div className={`absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform ${
+                                        (profile as any)?.[field] !== false ? 'translate-x-6' : 'translate-x-0.5'
+                                    }`} />
+                                </button>
+                            </label>
+                        ))}
+                    </div>
+                </div>
+
+                <div className="bg-surface border border rounded-2xl p-5">
+                    <h3 className="font-black text-sm text-text mb-4 flex items-center gap-2">
                         <Database className="w-4 h-4 text-primary" />
                         ডেটা ব্যাকআপ
                     </h3>

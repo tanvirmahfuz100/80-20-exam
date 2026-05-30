@@ -12,6 +12,7 @@ import particleWaveAnimation from '../assets/particle-wave.json';
 import { getChallengeState, getDailyChallengeKey, getWeeklyChallengeKey, getDailyChallengesForExam, getWeeklyChallengeForExam, getDailyChallengeExpiry, getWeeklyChallengeExpiry, getUserStats } from '../services/levels';
 import { useCountdown } from '../hooks/useCountdown';
 import { useDashboardData } from '../hooks/useDashboardData';
+import { getPendingMistakesBySubject } from '../services/review';
 import {
   Target, Brain, BookOpen, TrendingUp, ArrowRight,
   Crown, Flame, BadgeCheck, Clock, Zap,
@@ -101,9 +102,11 @@ const Dashboard = () => {
   const [dailyChallenges, setDailyChallenges] = useState([]);
   const [weeklyChallenge, setWeeklyChallenge] = useState(null);
   const [userGameStats, setUserGameStats] = useState({ total_xp: 0, total_stars: 0 });
+  const [pendingSubjectGroups, setPendingSubjectGroups] = useState([]);
 
   useEffect(() => {
     if (user?.id) setUserGameStats(getUserStats(user.id));
+    setPendingSubjectGroups(getPendingMistakesBySubject());
     const examId = 'ssc';
     setDailyChallenges(getDailyChallengesForExam(examId));
     setWeeklyChallenge(getWeeklyChallengeForExam(examId));
@@ -264,12 +267,33 @@ const Dashboard = () => {
       )}
 
       {/* â”€â”€â”€ Stats Grid â”€â”€â”€ */}
-      <Motion.div variants={itemVariants} className="grid grid-cols-2 md:grid-cols-4 gap-2.5">
+      <Motion.div variants={itemVariants} className="grid grid-cols-2 md:grid-cols-5 gap-2.5">
         <StatCard Icon={Crown} label="লেভেল" value={`${level}`} bgClass="bg-yellow-400/10" iconColor="text-yellow-400" />
         <StatCard Icon={Flame} label="স্ট্রিক" value={`${streak}d`} bgClass="bg-orange-400/10" iconColor="text-orange-400" />
         <StatCard Icon={Zap} label="এক্সপি" value={`${totalXp}`} bgClass="bg-primary/10" iconColor="text-primary" />
         <StatCard Icon={BadgeCheck} label="র‍্যাংক" value={rankLabel} bgClass={rankTheme.bg} iconColor={rankTheme.icon} />
+        <Link to="/stars" className="block">
+          <StatCard Icon={Star} label="পর্যালোচনা" value={`${pendingSubjectGroups.reduce((a, b) => a + b.count, 0)}`} bgClass="bg-yellow-400/10" iconColor="text-yellow-400" />
+        </Link>
       </Motion.div>
+
+      {pendingSubjectGroups.length > 0 && (
+        <Motion.div variants={itemVariants}>
+          <h2 className="text-2xs font-black uppercase tracking-[0.2em] text-text-dim mb-3 bn-text">পর্যালোচনার জন্য সাবজেক্ট</h2>
+          <div className="flex flex-wrap gap-2">
+            {pendingSubjectGroups.map(g => (
+              <Link
+                key={g.subject}
+                to={`/practice?subject=${encodeURIComponent(g.subject)}`}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-yellow-400/10 border border-yellow-400/20 rounded-full text-[11px] font-bold text-yellow-400 hover:bg-yellow-400/20 transition-colors"
+              >
+                <Star className="w-3 h-3" />
+                {g.subject} ({g.count})
+              </Link>
+            ))}
+          </div>
+        </Motion.div>
+      )}
 
       {/* â”€â”€â”€ Quick Actions â”€â”€â”€ */}
       <Motion.div variants={itemVariants}>
