@@ -85,3 +85,25 @@
     - Paper picker IDs must match `index.json` subject `id` values (e.g., `management_1st`, `management_2nd`) — this avoids the pre-existing ID mismatch.
     - The icon map in `SubjectSelection.tsx` should use the single entry name (`'ব্যবস্থাপনা'`), not the paper-specific entry.
     - When navigating from the paper picker, the URL uses `subjectId=management_1st` (matching `index.json`), which works directly with `usePracticeConfig.ts` without needing a lookup table.
+
+13. **JSON array elements require commas between them**:
+    - When inserting a new subject entry into `index.json`'s `subjects` array, the closing `}` of the previous subject MUST be followed by a `,` before the new subject's opening `{`.
+    - Missing this comma causes the entire `index.json` to fail JSON parsing, making the whole HSC exam invisible (no subjects load → exam appears inactive).
+    - Always validate `index.json` after insertion with `ConvertFrom-Json` or `JSON.parse`.
+    - Example of correct separator between adjacent subjects:
+      ```
+                        },    ← note the comma
+                        {
+                            "id": "new_subject",
+      ```
+
+14. **Never `Promise.all` hundreds of fetch calls at once**:
+    - `usePracticeConfig.ts` `hydrateChapterCounts` flatMaps ALL exams → ALL subjects → ALL chapters and fires `Promise.all` over every chapter file simultaneously.
+    - Adding ~124 management_2nd files pushed the total past the browser's resource limit, causing `ERR_INSUFFICIENT_RESOURCES` across ALL subjects (not just management).
+    - Fix: filter `chapterEntries` to only the currently `selectedExam` instead of `data.exams`. On the practice page, you only need counts for the visible exam, not all 5 exams at once.
+    - Pattern to use:
+      ```typescript
+      const chapterEntries = (selectedExam ? [selectedExam] : data.exams || [])
+        .flatMap((exam) => exam.subjects || [])
+      ```
+    - Pre-emptively check total fetch volume when adding new subjects. If a single exam would exceed ~100 files, consider concurrency batching (e.g., 10-at-a-time).

@@ -167,7 +167,7 @@ export function usePracticeConfig() {
     };
 
     const hydrateChapterCounts = async () => {
-      const chapterEntries = (data.exams || [])
+      const chapterEntries = (selectedExam ? [selectedExam] : data.exams || [])
         .flatMap((exam) => exam.subjects || [])
         .flatMap((subject) => subject.topics || [])
         .flatMap((topic) => topic.chapters || [])
@@ -187,7 +187,7 @@ export function usePracticeConfig() {
     };
 
     hydrateChapterCounts();
-  }, [data, version, getChapterFile]);
+  }, [data, selectedExam, version, getChapterFile]);
 
   useEffect(() => {
     if (!user?.id) return;
