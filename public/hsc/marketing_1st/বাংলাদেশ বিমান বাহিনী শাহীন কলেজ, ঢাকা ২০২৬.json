@@ -1,0 +1,326 @@
+﻿[
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "B",
+        "id":  1,
+        "question":  "মান ব্যবস্থাপনার জনক কে?",
+        "options":  {
+                        "A":  "Walter A. Shewhart",
+                        "B":  "W. Edwards Deming",
+                        "C":  "Joseph M. Juran",
+                        "D":  "A. V. Feigenbaum"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "D",
+        "id":  2,
+        "question":  "নার্সের সেবাকে উৎপাদন বলা হলেও মায়ের সেবাকে উৎপাদন বলা হয় না কেন?",
+        "options":  {
+                        "A":  "এর উপযোগিতা খুব বেশি",
+                        "B":  "পারিবারিকভাবে এ সেবা উৎপাদিত হয়",
+                        "C":  "নির্দিষ্ট সময় পরে এ সেবার প্রয়োজন ফুরিয়ে যায়",
+                        "D":  "এটি বিক্রয়যোগ্য মূল্য সৃষ্টি করে না বলে"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "A",
+        "id":  3,
+        "question":  "উৎপাদনের অর্থ হলো— i. উপযোগ সৃষ্টি ii. রূপগত পরিবর্তন iii. উপযোগ নিঃশেষ নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "B",
+        "id":  4,
+        "question":  "কোনো জিনিসের অভাব পূরণের সামর্থ্যকে কী বলে?",
+        "options":  {
+                        "A":  "চাহিদা",
+                        "B":  "উপযোগ",
+                        "C":  "অভাব",
+                        "D":  "উপযোগ বাড়া"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "A",
+        "id":  5,
+        "question":  "নিচের কোনটি ভূমির উদাহরণ?",
+        "options":  {
+                        "A":  "বৃষ্টিপাত",
+                        "B":  "যন্ত্রপাতি",
+                        "C":  "শ্রম",
+                        "D":  "কারখানা"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "D",
+        "id":  6,
+        "question":  "কৌশলগত উৎপাদন ক্ষমতা কোনটি?",
+        "options":  {
+                        "A":  "মানবিক ক্ষমতা",
+                        "B":  "প্রকৃত ক্ষমতা",
+                        "C":  "যান্ত্রিক ক্ষমতা",
+                        "D":  "কার্যগত ক্ষমতা"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "B",
+        "id":  7,
+        "question":  "নিচের কোনটি পরিবর্তনশীল ব্যয়ের উদাহরণ?",
+        "options":  {
+                        "A":  "কর্মচারীদের বেতন",
+                        "B":  "কাঁচামালের ব্যয়",
+                        "C":  "যন্ত্রপাতির অবচয়",
+                        "D":  "কারখানার ভাড়া"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "A",
+        "id":  8,
+        "question":  "উৎপাদনের পরিমাণ বাড়লে এককপ্রতি উৎপাদন ব্যয় কমে যাওয়াকে কী বলে?",
+        "options":  {
+                        "A":  "মিতব্যয়ী উৎপাদনের মাত্রা",
+                        "B":  "অমিতব্যয়ী উৎপাদনের মাত্রা",
+                        "C":  "কাম্য উৎপাদন মাত্রা",
+                        "D":  "স্থির ব্যয়"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "D",
+        "id":  9,
+        "question":  "মাত্রাজনিত ব্যয় সংকোচের কারণ কী?",
+        "options":  {
+                        "A":  "স্থায়ী ব্যয়ের প্রসারণ",
+                        "B":  "একক প্রতি শ্রম ব্যয় কমানো",
+                        "C":  "শ্রম দক্ষতার উত্তরোত্তর বাড়া",
+                        "D":  "উৎপাদনের মাত্রা বাড়ানো"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "A",
+        "id":  10,
+        "question":  "একটি আর্থিক বছরে একটি দেশের ভৌগোলিক সীমারেখার মধ্যে যেসব দ্রব্যসামগ্রী ও সেবা উৎপন্ন হয় তার মোট আর্থিক মূল্যকে কী বলে?",
+        "options":  {
+                        "A":  "মোট দেশজ উৎপাদন",
+                        "B":  "নিট দেশজ উৎপাদন",
+                        "C":  "মোট জাতীয় উৎপাদন",
+                        "D":  "নিট জাতীয় উৎপাদন"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "B",
+        "id":  11,
+        "question":  "মোট দেশজ উৎপাদন থেকে নিচের কোন বিষয়টি বাদ দিলে নিট দেশজ উৎপাদন পাওয়া যায়?",
+        "options":  {
+                        "A":  "প্রবাসীদের রেমিটেন্স",
+                        "B":  "স্থায়ী সম্পত্তির অবচয়",
+                        "C":  "বিদেশ কর্তৃক অর্জিত আয়",
+                        "D":  "রপ্তানি বাণিজ্যের আয়"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "A",
+        "id":  12,
+        "question":  "কোনো দেশের জিডিপি বাড়ার অর্থ হলো— i. দেশীয় উৎপাদন বেড়েছে ii. বিনিয়োগ অবস্থার উন্নতি হয়েছে iii. বৈদেশিক রেমিটেন্স বেড়েছে নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "D",
+        "id":  13,
+        "question":  "কাম্য উৎপাদনমাত্রার সুবিধা হলো— i. উৎপাদনশীলতা বৃদ্ধি ii. উপকরণের সদ্ব্যবহার iii. প্রতিযোগিতামূলক সুবিধা নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "C",
+        "id":  14,
+        "question":  "ব্যবসায় প্রতিষ্ঠান স্থাপন করার ক্ষেত্রে কোন বিষয়টি বিবেচনা করা হয়?",
+        "options":  {
+                        "A":  "ক্রেতার চাহিদা",
+                        "B":  "ভৌগোলিক চাহিদা",
+                        "C":  "দক্ষ ব্যবস্থাপনা",
+                        "D":  "বিপণন সুবিধা"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "A",
+        "id":  15,
+        "question":  "কার্যকর উৎপাদন ক্ষমতার প্রধান বিবেচ্য বিষয় হলো— i. মিতব্যয়িতার সাথে উৎপাদন ii. সর্বোচ্চ পরিমাণ উৎপাদন iii. যন্ত্রের সর্বোচ্চ ক্ষমতা প্রয়োগ নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "D",
+        "id":  16,
+        "question":  "উৎপাদন ভোক্তার ক্ষেত্রে কী প্রভাব ফেলে?",
+        "options":  {
+                        "A":  "কর্মসংস্থান সৃষ্টি করে",
+                        "B":  "বিনিয়োগ বাড়ায়",
+                        "C":  "আয় বাড়ায়",
+                        "D":  "জীবনযাত্রার মান বাড়ায়"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "B",
+        "id":  17,
+        "question":  "ইনপুট কী?",
+        "options":  {
+                        "A":  "উৎপাদিত পণ্য",
+                        "B":  "উৎপাদনের উপকরণ",
+                        "C":  "উৎপাদন প্রক্রিয়া",
+                        "D":  "উৎপাদন বিন্যাস"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "B",
+        "id":  18,
+        "question":  "পণ্য ও সেবা উভয়ের মধ্যে যে বৈশিষ্ট্য বিদ্যমান তা হলো— i. অভাব পূরণের ক্ষমতা ii. সংরক্ষণযোগ্যতা iii. ব্যবহার উপযোগিতা নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "C",
+        "id":  19,
+        "question":  "নিচের কোন বিষয়টি পণ্য ধারণা উন্নয়ন স্তরের সাথে জড়িত?",
+        "options":  {
+                        "A":  "বাজার চাহিদা",
+                        "B":  "কারিগরি জ্ঞান",
+                        "C":  "ভোক্তা জরিপ",
+                        "D":  "উৎপাদন সামর্থ্য"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "A",
+        "id":  20,
+        "question":  "পণ্য ডিজাইনের ক্ষেত্রে এর অভ্যন্তরীণ বিষয় বলতে কী বোঝায়?",
+        "options":  {
+                        "A":  "পণ্যের গুণাগুণ",
+                        "B":  "পণ্যের আকার",
+                        "C":  "পণ্যের রং",
+                        "D":  "আকর্ষণীয় মোড়ক"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "A",
+        "id":  21,
+        "question":  "প্রবাসীদের প্রেরিত অর্থ যেটির অন্তর্ভুক্ত হবে তা হলো— i. মাথাপিছু আয় ii. জাতীয় আয় iii. দেশজ আয় নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "B",
+        "id":  22,
+        "question":  "সর্বোচ্চ সদ্ব্যবহার নির্ণয়ের সূত্র কোনটি?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmfrac\u003e\u003cmtext\u003eপ্রকৃত উৎপাদন\u003c/mtext\u003e\u003cmtext\u003eসিস্টেম কার্যকর দক্ষতা\u003c/mtext\u003e\u003c/mfrac\u003e\u003cmo\u003e×\u003c/mo\u003e\u003cmtext\u003e১০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e\\frac{\\text{প্রকৃত উৎপাদন}}{\\text{সিস্টেম কার্যকর দক্ষতা}} \\times ১০০\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1.2173em;vertical-align:-0.345em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mopen nulldelimiter\"\u003e\u003c/span\u003e\u003cspan class=\"mfrac\"\u003e\u003cspan class=\"vlist-t vlist-t2\"\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.8723em;\"\u003e\u003cspan style=\"top:-2.655em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"sizing reset-size6 size3 mtight\"\u003e\u003cspan class=\"mord mtight\"\u003e\u003cspan class=\"mord text mtight\"\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eসিস্টেম\u003c/span\u003e\u003cspan class=\"mord mtight\"\u003e \u003c/span\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eকার্যকর\u003c/span\u003e\u003cspan class=\"mord mtight\"\u003e \u003c/span\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eদক্ষতা\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-3.23em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"frac-line\" style=\"border-bottom-width:0.04em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-3.394em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"sizing reset-size6 size3 mtight\"\u003e\u003cspan class=\"mord mtight\"\u003e\u003cspan class=\"mord text mtight\"\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eপ্রকৃত\u003c/span\u003e\u003cspan class=\"mord mtight\"\u003e \u003c/span\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eউৎপাদন\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-s\"\u003e​\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.345em;\"\u003e\u003cspan\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mclose nulldelimiter\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e×\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmfrac\u003e\u003cmtext\u003eগড় উৎপাদনের হার\u003c/mtext\u003e\u003cmtext\u003eসর্বোচ্চ উৎপাদন ক্ষমতা\u003c/mtext\u003e\u003c/mfrac\u003e\u003cmo\u003e×\u003c/mo\u003e\u003cmtext\u003e১০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e\\frac{\\text{গড় উৎপাদনের হার}}{\\text{সর্বোচ্চ উৎপাদন ক্ষমতা}} \\times ১০০\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1.2173em;vertical-align:-0.345em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mopen nulldelimiter\"\u003e\u003c/span\u003e\u003cspan class=\"mfrac\"\u003e\u003cspan class=\"vlist-t vlist-t2\"\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.8723em;\"\u003e\u003cspan style=\"top:-2.655em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"sizing reset-size6 size3 mtight\"\u003e\u003cspan class=\"mord mtight\"\u003e\u003cspan class=\"mord text mtight\"\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eসর্বোচ্চ\u003c/span\u003e\u003cspan class=\"mord mtight\"\u003e \u003c/span\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eউৎপাদন\u003c/span\u003e\u003cspan class=\"mord mtight\"\u003e \u003c/span\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eক্ষমতা\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-3.23em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"frac-line\" style=\"border-bottom-width:0.04em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-3.394em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"sizing reset-size6 size3 mtight\"\u003e\u003cspan class=\"mord mtight\"\u003e\u003cspan class=\"mord text mtight\"\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eগড়\u003c/span\u003e\u003cspan class=\"mord mtight\"\u003e \u003c/span\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eউৎপাদনের\u003c/span\u003e\u003cspan class=\"mord mtight\"\u003e \u003c/span\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eহার\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-s\"\u003e​\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.345em;\"\u003e\u003cspan\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mclose nulldelimiter\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e×\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmfrac\u003e\u003cmtext\u003eগড় উৎপাদনের হার\u003c/mtext\u003e\u003cmtext\u003eকার্যকর উৎপাদন দক্ষতা\u003c/mtext\u003e\u003c/mfrac\u003e\u003cmo\u003e×\u003c/mo\u003e\u003cmtext\u003e১০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e\\frac{\\text{গড় উৎপাদনের হার}}{\\text{কার্যকর উৎপাদন দক্ষতা}} \\times ১০০\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1.2173em;vertical-align:-0.345em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mopen nulldelimiter\"\u003e\u003c/span\u003e\u003cspan class=\"mfrac\"\u003e\u003cspan class=\"vlist-t vlist-t2\"\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.8723em;\"\u003e\u003cspan style=\"top:-2.655em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"sizing reset-size6 size3 mtight\"\u003e\u003cspan class=\"mord mtight\"\u003e\u003cspan class=\"mord text mtight\"\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eকার্যকর\u003c/span\u003e\u003cspan class=\"mord mtight\"\u003e \u003c/span\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eউৎপাদন\u003c/span\u003e\u003cspan class=\"mord mtight\"\u003e \u003c/span\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eদক্ষতা\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-3.23em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"frac-line\" style=\"border-bottom-width:0.04em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-3.394em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"sizing reset-size6 size3 mtight\"\u003e\u003cspan class=\"mord mtight\"\u003e\u003cspan class=\"mord text mtight\"\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eগড়\u003c/span\u003e\u003cspan class=\"mord mtight\"\u003e \u003c/span\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eউৎপাদনের\u003c/span\u003e\u003cspan class=\"mord mtight\"\u003e \u003c/span\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eহার\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-s\"\u003e​\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.345em;\"\u003e\u003cspan\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mclose nulldelimiter\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e×\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmfrac\u003e\u003cmtext\u003eপ্রকৃত উৎপাদন\u003c/mtext\u003e\u003cmtext\u003eসিস্টেম দক্ষতা\u003c/mtext\u003e\u003c/mfrac\u003e\u003cmo\u003e×\u003c/mo\u003e\u003cmtext\u003e১০০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e\\frac{\\text{প্রকৃত উৎপাদন}}{\\text{সিস্টেম দক্ষতা}} \\times ১০০\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1.2173em;vertical-align:-0.345em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mopen nulldelimiter\"\u003e\u003c/span\u003e\u003cspan class=\"mfrac\"\u003e\u003cspan class=\"vlist-t vlist-t2\"\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.8723em;\"\u003e\u003cspan style=\"top:-2.655em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"sizing reset-size6 size3 mtight\"\u003e\u003cspan class=\"mord mtight\"\u003e\u003cspan class=\"mord text mtight\"\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eসিস্টেম\u003c/span\u003e\u003cspan class=\"mord mtight\"\u003e \u003c/span\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eদক্ষতা\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-3.23em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"frac-line\" style=\"border-bottom-width:0.04em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"top:-3.394em;\"\u003e\u003cspan class=\"pstrut\" style=\"height:3em;\"\u003e\u003c/span\u003e\u003cspan class=\"sizing reset-size6 size3 mtight\"\u003e\u003cspan class=\"mord mtight\"\u003e\u003cspan class=\"mord text mtight\"\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eপ্রকৃত\u003c/span\u003e\u003cspan class=\"mord mtight\"\u003e \u003c/span\u003e\u003cspan class=\"mord brahmic_fallback mtight\"\u003eউৎপাদন\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-s\"\u003e​\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"vlist-r\"\u003e\u003cspan class=\"vlist\" style=\"height:0.345em;\"\u003e\u003cspan\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mclose nulldelimiter\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e×\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১০০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "C",
+        "id":  23,
+        "question":  "কোনটির দ্বারা কারখানার প্রকৃত অবস্থা জানা যায়?",
+        "options":  {
+                        "A":  "সর্বোচ্চ উৎপাদন ক্ষমতা",
+                        "B":  "কার্যকর উৎপাদন ক্ষমতা",
+                        "C":  "প্রকৃত উৎপাদন ক্ষমতা",
+                        "D":  "কৌশলগত উৎপাদন ক্ষমতা"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "D",
+        "id":  24,
+        "question":  "ব্যবসায় অবস্থান নির্বাচন প্রক্রিয়ার শেষ ধাপ কোনটি?",
+        "options":  {
+                        "A":  "বিকল্পসমূহ চিহ্নিতকরণ",
+                        "B":  "বিকল্পসমূহ মূল্যায়ন",
+                        "C":  "তথ্য সংগ্রহ ও বিশ্লেষণ",
+                        "D":  "উপযুক্ত অবস্থান নির্বাচন"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "D",
+        "id":  25,
+        "question":  "ফিক্সড পজিশন লে-আউটের অন্তর্ভুক্ত পণ্য— i. জাহাজ ii. তেলকূপ iii. ডেম নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "D",
+        "id":  26,
+        "question":  "অফিস লে-আউট কী?",
+        "options":  {
+                        "A":  "অফিসের কার্যধারা সজ্জিত করা",
+                        "B":  "অফিসের বাহ্যিক কাঠামো সজ্জিত করা",
+                        "C":  "অফিসের কর্মচারীদের সাজানো",
+                        "D":  "অফিসের সকল বিভাগ ও উপকরণ সাজানো"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, ঢাকা ২০২৬",
+        "answer":  "A",
+        "id":  27,
+        "question":  "ফিক্সড পজিশন লে-আউটে কোনটি স্থির থাকে?",
+        "options":  {
+                        "A":  "পণ্য",
+                        "B":  "যন্ত্রপাতি",
+                        "C":  "শ্রমিক",
+                        "D":  "কাঁচামাল"
+                    }
+    }
+]

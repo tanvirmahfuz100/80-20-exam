@@ -1,0 +1,266 @@
+﻿[
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  1,
+        "question":  "উৎপাদনের মাধ্যমে পণ্যের কী সৃষ্টি হয়?",
+        "options":  {
+                        "A":  "মালিকানা",
+                        "B":  "উপযোগ",
+                        "C":  "চাহিদা",
+                        "D":  "ঝুঁকি"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  2,
+        "question":  "উপযোগ কত প্রকার?",
+        "options":  {
+                        "A":  "২",
+                        "B":  "৩",
+                        "C":  "৪",
+                        "D":  "৫"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  3,
+        "question":  "উৎপাদনশীলতার সুবিধা— i. উৎপাদন বৃদ্ধি ii. বিক্রয় বৃদ্ধি iii. উৎপাদন ব্যয় বৃদ্ধি নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  4,
+        "question":  "নিচের কোনটি ভূমির অন্তর্ভুক্ত নয়?",
+        "options":  {
+                        "A":  "সূর্য কিরণ",
+                        "B":  "পানি",
+                        "C":  "কাঁচামাল",
+                        "D":  "বৃষ্টিপাত"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  5,
+        "question":  "মূল্য পরিশোধের মাধ্যমে ক্রেতা পণ্য বা সেবার কী পায়?",
+        "options":  {
+                        "A":  "উপযোগ",
+                        "B":  "মালিকানা",
+                        "C":  "উৎপাদন",
+                        "D":  "মুনাফা"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  6,
+        "question":  "নিচের কোনটি স্থায়ী ব্যয়?",
+        "options":  {
+                        "A":  "বিদ্যুৎ বিল",
+                        "B":  "প্রত্যক্ষ কাঁচামাল",
+                        "C":  "শ্রমিকের মজুরি",
+                        "D":  "কারখানার ভাড়া"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  7,
+        "question":  "কাম্য উৎপাদন মাত্রার সুবিধা হলো— i. উৎপাদনের পরিমাণ সর্বোচ্চ ii. মুনাফার পরিমাণ সর্বোচ্চ iii. ব্যয়ের পরিমাণ সর্বোচ্চ নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  8,
+        "question":  "মোট দেশজ উৎপাদন (GDP) নির্ণয়ের সূত্র নয় কোনটি? i. \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmrow\u003e\u003cmi\u003eG\u003c/mi\u003e\u003cmi\u003eD\u003c/mi\u003e\u003cmi\u003eP\u003c/mi\u003e\u003c/mrow\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eI\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eG\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e {GDP} = {C} - {I} - {G} \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mord mathnormal\"\u003eG\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.1389em;\"\u003eP\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eI\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mord mathnormal\"\u003eG\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e ii. \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmrow\u003e\u003cmi\u003eG\u003c/mi\u003e\u003cmi\u003eD\u003c/mi\u003e\u003cmi\u003eP\u003c/mi\u003e\u003c/mrow\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eI\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eG\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e {GDP} = {C} - {I} + {G} \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mord mathnormal\"\u003eG\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.1389em;\"\u003eP\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eI\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mord mathnormal\"\u003eG\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e iii. \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmrow\u003e\u003cmi\u003eG\u003c/mi\u003e\u003cmi\u003eD\u003c/mi\u003e\u003cmi\u003eP\u003c/mi\u003e\u003c/mrow\u003e\u003cmo\u003e=\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eI\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eG\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e {GDP} = {C} + {I} - {G} \u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mord mathnormal\"\u003eG\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0278em;\"\u003eD\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.1389em;\"\u003eP\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003cspan class=\"mrel\"\u003e=\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2778em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eI\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord\"\u003e\u003cspan class=\"mord mathnormal\"\u003eG\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  9,
+        "question":  "উৎপাদন প্রক্রিয়া কীরূপ হয়?",
+        "options":  {
+                        "A":  "চলমান",
+                        "B":  "স্থিতিশীল",
+                        "C":  "নির্দিষ্ট",
+                        "D":  "সময়োপযোগী"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  10,
+        "question":  "বৈজ্ঞানিক ব্যবস্থাপনার প্রবর্তক কে?",
+        "options":  {
+                        "A":  "Adam Smith",
+                        "B":  "F.W. Taylor",
+                        "C":  "F.W. Harris",
+                        "D":  "Walter Shewhart"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  11,
+        "question":  "উৎপাদন ব্যবস্থাপনার কাজ হলো— i. ব্যয় সংকোচন করা ii. পণ্যের মান উন্নয়ন করা iii. পণ্য গবেষণা করা নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  12,
+        "question":  "পণ্য ডিজাইন বলতে বোঝায়— i. পণ্যের নির্দিষ্ট আকার নির্ধারণ ii. অলংকার নির্ধারণ iii. প্যাটার্ন নির্ধারণ নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  13,
+        "question":  "\u003cstrong\u003eসার্বিক \u003c/strong\u003eমান ব্যবস্থাপনা নিচের কোন প্রক্রিয়ার সমষ্টি?",
+        "options":  {
+                        "A":  "কার্য",
+                        "B":  "বিক্রয়",
+                        "C":  "বণ্টন",
+                        "D":  "বাজারজাতকরণ"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  14,
+        "question":  "কখন মান নির্ধারণ করতে হয়?",
+        "options":  {
+                        "A":  "উৎপাদনের পূর্বে",
+                        "B":  "উৎপাদনকালীন সময়ে",
+                        "C":  "উৎপাদনের শেষে",
+                        "D":  "বাজারজাত করার পূর্বে"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  15,
+        "question":  "\u003cstrong\u003eসার্বিক \u003c/strong\u003eমান ব্যবস্থাপনা যে নীতির সাথে সম্পৃক্ত, তা হলো— i. ক্রেতা সন্তুষ্টি ii. কর্মী সম্পৃক্ততা iii. মানের ধারাবাহিকতা নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  16,
+        "question":  "উৎপাদন ক্ষমতা কীভাবে প্রকাশ করা যায়?",
+        "options":  {
+                        "A":  "পরিমাণ",
+                        "B":  "টাকা",
+                        "C":  "একক",
+                        "D":  "ব্যয় হার"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  17,
+        "question":  "খরচের পরিমাণ মিতব্যয়ী উৎপাদন মাত্রায়—",
+        "options":  {
+                        "A":  "হ্রাস পায়",
+                        "B":  "বৃদ্ধি পায়",
+                        "C":  "সীমিত",
+                        "D":  "সমান"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  18,
+        "question":  "কর অবকাশ কোন ধরনের শিল্পের জন্য জরুরি?",
+        "options":  {
+                        "A":  "পুরাতন শিল্প",
+                        "B":  "নতুন শিল্প",
+                        "C":  "মাঝারি শিল্প",
+                        "D":  "বৃহদায়তন শিল্প"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  19,
+        "question":  "ব্যবসায় অবস্থান নির্বাচনে প্রভাব বিস্তারকারী উপাদান হলো— i. বাজারের নৈকট্য ii. আইনের প্রয়োগ iii. শ্রমিকের সহজপ্রাপ্যতা নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  20,
+        "question":  "কোন বিন্যাসে কর্মীরা পণ্যের নিকটে গিয়ে কাজ করে?",
+        "options":  {
+                        "A":  "প্রক্রিয়া",
+                        "B":  "স্থির",
+                        "C":  "পণ্য",
+                        "D":  "শংকর"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  21,
+        "question":  "ফিক্সড পজিশন লে-আউটে কোনটি স্থির থাকে?",
+        "options":  {
+                        "A":  "পণ্য",
+                        "B":  "যন্ত্রপাতি",
+                        "C":  "শ্রমিক",
+                        "D":  "কাঁচামাল"
+                    }
+    },
+    {
+        "source":  "ঢাকা কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  22,
+        "question":  "সার্ভিস লে-আউটের অন্তর্ভুক্ত— i. পণ্য ii. উৎপাদন iii. বণ্টন নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    }
+]

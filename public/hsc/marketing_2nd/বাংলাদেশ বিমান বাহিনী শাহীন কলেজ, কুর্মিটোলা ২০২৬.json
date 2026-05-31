@@ -1,0 +1,266 @@
+﻿[
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "A",
+        "id":  1,
+        "question":  "ভ্যালু কী?",
+        "options":  {
+                        "A":  "পণ্য থেকে প্রাপ্ত সুবিধা",
+                        "B":  "আনন্দ ও হতাশার অনুভূতি",
+                        "C":  "কিছু প্রদানের মাধ্যমে কিছু গ্রহণ",
+                        "D":  "বিভিন্ন পর্বের সাথে সুসম্পর্ক স্থাপন"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "C",
+        "id":  2,
+        "question":  "বিপণন কোন ধরনের প্রক্রিয়া?\u003cbr\u003ei. মানবিক\u003cbr\u003eii. সামাজিক\u003cbr\u003eiii. ব্যবস্থাপকীয়\u003cbr\u003eনিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "D",
+        "id":  3,
+        "question":  "নিচের কোনটি বিক্রয় যুগ হিসেবে পরিচিত?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১৮৩০\u003c/mtext\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmtext\u003e১৮৬০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e১৮৩০-১৮৬০\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১৮৩০\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১৮৬০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১৭৩০\u003c/mtext\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmtext\u003e১৮৬০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e১৭৩০-১৮৬০\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১৭৩০\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১৮৬০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১৮৩০\u003c/mtext\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmtext\u003e১৯৬০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e১৮৩০-১৯৬০\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১৮৩০\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১৯৬০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১৯৩০\u003c/mtext\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmtext\u003e১৯৫০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e১৯৩০-১৯৫০\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১৯৩০\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১৯৫০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "D",
+        "id":  4,
+        "question":  "বিপণন কার্যক্রমে ক্রেতা কোন ধরনের উপাদান?",
+        "options":  {
+                        "A":  "অনিয়ন্ত্রণকারী",
+                        "B":  "বাহ্যিক",
+                        "C":  "প্রাকৃতিক",
+                        "D":  "নিয়ন্ত্রণকারী"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "B",
+        "id":  5,
+        "question":  "যে সকল ব্যক্তি ও প্রতিষ্ঠান উৎপাদনকারী প্রতিষ্ঠানের প্রয়োজনীয় উপকরণ যোগান দেয়, তা হলো—",
+        "options":  {
+                        "A":  "প্রতিনিধি",
+                        "B":  "সরবরাহকারী",
+                        "C":  "মধ্যস্বত্বব্যবসায়ী",
+                        "D":  "জনগোষ্ঠী"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "C",
+        "id":  6,
+        "question":  "বাংলাদেশের অনেক কম্পিউটার প্রশিক্ষিত ব্যক্তি বিদেশে গিয়ে বিদেশি প্রতিষ্ঠানের সফটওয়্যার উন্নয়নের মাধ্যমে বৈদেশিক মুদ্রা অর্জন করেন। উল্লিখিত ঘটনাটি পরিবেশের কোন উপাদানকে বেশি প্রভাবিত করেছে?",
+        "options":  {
+                        "A":  "রাজনৈতিক",
+                        "B":  "অর্থনৈতিক",
+                        "C":  "প্রযুক্তিগত",
+                        "D":  "সামাজিক"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "B",
+        "id":  7,
+        "question":  "প্রমিতকরণ হলো—\u003cbr\u003ei. শারীরিক কাজ\u003cbr\u003eii. মানসিক কাজ\u003cbr\u003eiii. উৎপাদনমূলক কাজ\u003cbr\u003eনিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i",
+                        "B":  "ii",
+                        "C":  "i ও ii",
+                        "D":  "i ও iii"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "C",
+        "id":  8,
+        "question":  "জনাব রিয়াজ ঢাকার ইসলামপুরের একজন প্রতিষ্ঠিত কাপড় ব্যবসায়ী। তিনি নরসিংদী থেকে জামদানি শাড়ি সংগ্রহ করে ঢাকার বিভিন্ন নামকরা শোরুমে সরবরাহ করেন। ফলে ভোক্তারা সহজে পছন্দমতো জামদানি শাড়ি ক্রয় করতে পারে। জনাব রিয়াজ যাদের নিকট পণ্য বিক্রয় করেন তারা কোন বাজারের সদস্য?",
+        "options":  {
+                        "A":  "ভোক্তা",
+                        "B":  "শিল্প",
+                        "C":  "পুনঃবিক্রেতা",
+                        "D":  "জাতীয়"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "D",
+        "id":  9,
+        "question":  "সাংগঠনিক বাজারের অন্তর্ভুক্ত—\u003cbr\u003ei. শিল্প বাজার\u003cbr\u003eii. পুনঃবিক্রেতার বাজার\u003cbr\u003eiii. সরকারি বাজার\u003cbr\u003eনিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "D",
+        "id":  10,
+        "question":  "\u0027ব্যক্তিত্ব\u0027 নিম্নের কোন ভোক্তা বাজার বিভক্তিকরণের অন্তর্ভুক্ত?",
+        "options":  {
+                        "A":  "ভৌগোলিক",
+                        "B":  "জনসংখ্যা",
+                        "C":  "আচরণভিত্তিক",
+                        "D":  "মনস্তাত্ত্বিক"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "A",
+        "id":  11,
+        "question":  "সেবাগত পণ্যের বৈশিষ্ট্য হলো—\u003cbr\u003ei. অদৃশ্যমান\u003cbr\u003eii. অস্পর্শনীয়\u003cbr\u003eiii. দৃশ্যমান\u003cbr\u003eনিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "B",
+        "id":  12,
+        "question":  "ওরস্যালাইন কোন ধরনের পণ্য?",
+        "options":  {
+                        "A":  "লোভনীয় পণ্য",
+                        "B":  "জরুরি পণ্য",
+                        "C":  "অযাচিত পণ্য",
+                        "D":  "শপিং পণ্য"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "B",
+        "id":  13,
+        "question":  "নিচের কোনটি প্রবৃদ্ধি স্তরের বৈশিষ্ট্য?",
+        "options":  {
+                        "A":  "অধিক প্রসার ব্যয়",
+                        "B":  "বিক্রয় বৃদ্ধি",
+                        "C":  "মুনাফা কম",
+                        "D":  "দুর্বল পণ্য উচ্ছেদ"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "A",
+        "id":  14,
+        "question":  "কোন পণ্যের বণ্টন প্রণালি সাধারণত দীর্ঘ হয়?",
+        "options":  {
+                        "A":  "ভোগ্য",
+                        "B":  "শিল্প",
+                        "C":  "কৃষি",
+                        "D":  "সেবা"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "A",
+        "id":  15,
+        "question":  "কোনটি বণিক মধ্যস্থ কারবার?",
+        "options":  {
+                        "A":  "পাইকারি ব্যবসায়ী",
+                        "B":  "ব্যাংক",
+                        "C":  "দালাল",
+                        "D":  "সরবরাহকারী"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "A",
+        "id":  16,
+        "question":  "বণ্টন প্রণালির কাজ হচ্ছে—\u003cbr\u003ei. সংযোগ সাধন করা\u003cbr\u003eii. অর্থসংস্থান করা\u003cbr\u003eiii. কাঁচামাল ক্রয় করা\u003cbr\u003eনিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "A",
+        "id":  17,
+        "question":  "উৎপাদকের নিজস্ব তত্ত্বাবধানে ও মালিকানায় পরিচালিত পাইকার কোনটি?",
+        "options":  {
+                        "A":  "বিক্রয় প্রতিনিধি",
+                        "B":  "বিক্রয় বিপণি",
+                        "C":  "কমিশন প্রতিনিধি",
+                        "D":  "ড্রপশিপারস"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "C",
+        "id":  18,
+        "question":  "শৌখিন বুটিক ১ ফাল্গুন উপলক্ষে \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e২৫\u003c/mtext\u003e\u003cmi mathvariant=\"normal\"\u003e%\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e২৫\\%\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8056em;vertical-align:-0.0556em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২৫\u003c/span\u003e\u003cspan class=\"mord\"\u003e%\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e ছাড়ের ঘোষণা দিয়েছে। এটি কিসের আওতায় পড়ে?",
+        "options":  {
+                        "A":  "বিজ্ঞাপন",
+                        "B":  "প্রত্যক্ষ বিপণন",
+                        "C":  "বিক্রয় প্রসার",
+                        "D":  "প্রসার"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "D",
+        "id":  19,
+        "question":  "বিজ্ঞাপন কোনটি?",
+        "options":  {
+                        "A":  "পণ্যের টেকসই মোড়কীকরণ",
+                        "B":  "পণ্য ক্রয়ের ক্ষেত্রে \u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১০\u003c/mtext\u003e\u003cmi mathvariant=\"normal\"\u003e%\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e১০\\%\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.8056em;vertical-align:-0.0556em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১০\u003c/span\u003e\u003cspan class=\"mord\"\u003e%\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e মূল্য হ্রাস",
+                        "C":  "ক্রেতাদের মাঝে পণ্যের নমুনা বিতরণ",
+                        "D":  "খেলোয়াড়দের পোশাকে পণ্যের লোগো"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "A",
+        "id":  20,
+        "question":  "প্রচার গণসম্পর্কিত তথ্য উপস্থাপন করে—\u003cbr\u003ei. নৈব্যক্তিক উপায়ে\u003cbr\u003eii. গণমিডিয়ার সাহায্য\u003cbr\u003eiii. অর্থপ্রদত্ত উপায়ে\u003cbr\u003eনিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "B",
+        "id":  21,
+        "question":  "ধৈর্য বিক্রয়কর্মীর কোন গুণের অন্তর্ভুক্ত?",
+        "options":  {
+                        "A":  "শারীরিক",
+                        "B":  "মানসিক",
+                        "C":  "নৈতিক",
+                        "D":  "পেশাগত"
+                    }
+    },
+    {
+        "source":  "বাংলাদেশ বিমান বাহিনী শাহীন কলেজ, কুর্মিটোলা ২০২৬",
+        "answer":  "C",
+        "id":  22,
+        "question":  "পরিকল্পিত বিপণির উদাহরণ—\u003cbr\u003ei. ঢাকা নিউমার্কেট\u003cbr\u003eii. যমুনা ফিউচার পার্ক\u003cbr\u003eiii. বসুন্ধরা সিটি মার্কেট\u003cbr\u003eনিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    }
+]

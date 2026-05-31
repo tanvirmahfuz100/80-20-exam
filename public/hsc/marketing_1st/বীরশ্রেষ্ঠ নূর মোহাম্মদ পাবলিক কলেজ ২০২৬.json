@@ -1,0 +1,290 @@
+﻿[
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  1,
+        "question":  "কীসের ওপর উৎপাদন ক্ষমতা হ্রাস পায়?",
+        "options":  {
+                        "A":  "অদক্ষ ব্যবস্থাপনা",
+                        "B":  "আধুনিক প্রযুক্তি",
+                        "C":  "চাহিদা বৃদ্ধি",
+                        "D":  "কাঁচামালের পর্যাপ্ততা"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  2,
+        "question":  "উৎপাদন ক্ষমতা বলতে উৎপাদনের কোন মাত্রাকে বোঝায়?",
+        "options":  {
+                        "A":  "নিম্ন মাত্রাকে",
+                        "B":  "গড় মাত্রাকে",
+                        "C":  "সর্বোচ্চ মাত্রাকে",
+                        "D":  "ভারসাম্য মাত্রাকে"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  3,
+        "question":  "কোন ধরনের উৎপাদন ক্ষমতার তথ্য মেশিনের গায়ে লিখা থাকে?",
+        "options":  {
+                        "A":  "প্রকৌশলগত",
+                        "B":  "কার্যকর",
+                        "C":  "প্রকৃত",
+                        "D":  "সর্বোচ্চ"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  4,
+        "question":  "ব্যবসায়ের অবস্থান নির্বাচন প্রক্রিয়ার শেষ ধাপ কোনটি?",
+        "options":  {
+                        "A":  "বিকল্পসমূহ চিহ্নিতকরণ",
+                        "B":  "বিকল্পসমূহ মূল্যায়ন",
+                        "C":  "তথ্য সংগ্রহ ও বিশ্লেষণ",
+                        "D":  "সর্বোত্তম বিকল্প নির্বাচন"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  5,
+        "question":  "মানুষের অভাব পূরণের ক্ষমতাকে কী বলে?",
+        "options":  {
+                        "A":  "উৎপাদন",
+                        "B":  "উৎপাদনশীলতা",
+                        "C":  "চাহিদা",
+                        "D":  "উপযোগ"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  6,
+        "question":  "বাংলাদেশের গার্মেন্টস শিল্প অবস্থানের প্রধান কারণ কোনটি?",
+        "options":  {
+                        "A":  "কাঁচামাল",
+                        "B":  "শ্রম",
+                        "C":  "সরকারি নীতি",
+                        "D":  "পরিবহন"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  7,
+        "question":  "উৎপাদনের উৎপাদিত উপাদান কোনটি?",
+        "options":  {
+                        "A":  "ভূমি",
+                        "B":  "শ্রম",
+                        "C":  "মূলধন",
+                        "D":  "সংগঠন"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  8,
+        "question":  "রোজা অনেক বছর ধরে ফলের ব্যবসায় করে তার ব্যবসায়কে আরও সম্প্রসারিত করছেন। এক্ষেত্রে তার শ্রমকে কী বলা যাবে?",
+        "options":  {
+                        "A":  "বণ্টনবিহীন শ্রম",
+                        "B":  "দলগত শ্রম",
+                        "C":  "উৎপাদনশীল শ্রম",
+                        "D":  "অনুৎপাদনশীল শ্রম"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  9,
+        "question":  "মাঝারি উৎপাদনকারী শিল্পের ক্ষেত্রে ন্যূনতম মূলধন কত?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৫\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e৫\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৫\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e লাখ",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৫০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e৫০\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৫০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e লাখ",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১০\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e১০\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১০\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e কোটি",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১৫\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e১৫\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১৫\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e কোটি"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  10,
+        "question":  "নিম্নের কোন ব্যয়টি বাহ্যিক ব্যর্থতা ব্যয়ের অন্তর্ভুক্ত?",
+        "options":  {
+                        "A":  "গ্যারান্টি",
+                        "B":  "প্রশিক্ষণ",
+                        "C":  "পরিদর্শন",
+                        "D":  "পুনঃকার্য"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  11,
+        "question":  "স্থির ব্যয়ের উদাহরণ হলো— i. মেশিনের ক্রয়মূল্য ii. মেশিনের অবচয় iii. ব্যবস্থাপকের বেতন নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  12,
+        "question":  "জাতীয় উৎপাদনের আর্থিক মূল্যের সমষ্টিকে কী বলে?",
+        "options":  {
+                        "A":  "মোট জাতীয় আয়",
+                        "B":  "মোট ব্যক্তিগত আয়",
+                        "C":  "মোট সামষ্টিক আয়",
+                        "D":  "মোট ব্যয়যোগ্য আয়"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  13,
+        "question":  "সার্বিক মান ব্যবস্থাপনা হলো— i. অবিরাম উৎকর্ষ সাধন ii. প্রত্যেককে অন্তর্ভুক্তকরণ iii. ক্রেতা সন্তুষ্টি নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  14,
+        "question":  "দিনাজপুরে লিচু বাগান গড়ে ওঠার পিছনে কোন উপাদানটি গুরুত্বপূর্ণ ভূমিকা রেখেছে?",
+        "options":  {
+                        "A":  "প্রাকৃতিক",
+                        "B":  "সামাজিক",
+                        "C":  "অর্থনৈতিক",
+                        "D":  "রাজনৈতিক"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  15,
+        "question":  "মোট জাতীয় আয়কে মোট জনসংখ্যা দিয়ে ভাগ করলে কী পাওয়া যায়?",
+        "options":  {
+                        "A":  "মোট জাতীয় উৎপাদন",
+                        "B":  "নিট জাতীয় উৎপাদন",
+                        "C":  "মাথা পিছু আয়",
+                        "D":  "নিট দেশজ উৎপাদন"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  16,
+        "question":  "জাহাজ নির্মাণের জন্য কোন বিন্যাস উপযোগী?",
+        "options":  {
+                        "A":  "প্রক্রিয়া",
+                        "B":  "পণ্য",
+                        "C":  "স্থির",
+                        "D":  "সেবা"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  17,
+        "question":  "দ্রব্য ও সেবার মধ্যে সাদৃশ্য কোনটি?",
+        "options":  {
+                        "A":  "দৃশ্যমানতায়",
+                        "B":  "সংরক্ষণ যোগ্যতায়",
+                        "C":  "বণ্টন প্রণালির দৈর্ঘ্য",
+                        "D":  "উপযোগিতায়"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  18,
+        "question":  "পণ্য সাজানো থাকে কোন লে আউটে?",
+        "options":  {
+                        "A":  "অফিস",
+                        "B":  "প্রোডাক্ট",
+                        "C":  "প্রসেস",
+                        "D":  "রিটেইল"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  19,
+        "question":  "জীবনযাত্রার মান নির্ভর করে যার ওপর তা হলো— i. GNP ii. GDP iii. CCA নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  20,
+        "question":  "বিশেষ গ্রাহকের বিশেষ চাহিদা পূরণের নাম কী?",
+        "options":  {
+                        "A":  "কেন্দ্রীকরণ",
+                        "B":  "কাস্টমাইজেশন",
+                        "C":  "সিমুলেশন",
+                        "D":  "পরোক্ষ সেবা"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  21,
+        "question":  "উৎপাদন ব্যবস্থাপনার বর্তমান নাম কী?",
+        "options":  {
+                        "A":  "পণ্য ব্যবস্থাপনা",
+                        "B":  "কর্মী ব্যবস্থাপনা",
+                        "C":  "কার্য ব্যবস্থাপনা",
+                        "D":  "মান ব্যবস্থাপনা"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  22,
+        "question":  "পণ্য ডিজাইন করার সময় কোনটির ওপর গুরুত্ব দেওয়া উচিত?",
+        "options":  {
+                        "A":  "বিনিয়োগ",
+                        "B":  "ভোক্তার সংখ্যা",
+                        "C":  "চলতি ফ্যাশন",
+                        "D":  "উৎপাদন সময়"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  23,
+        "question":  "কোনটিকে পরিবেশ ব্যবস্থাপনা পদ্ধতি বলা হয়?",
+        "options":  {
+                        "A":  "ISO-9000",
+                        "B":  "ISO-9003",
+                        "C":  "ISO-9004",
+                        "D":  "ISO -14000"
+                    }
+    },
+    {
+        "source":  " বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  24,
+        "question":  "এফ. ডব্লিউ. টেইলর বৈজ্ঞানিক ব্যবস্থাপনার কয়টি নীতি প্রদান করেছেন?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e২\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e২\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e২\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003eটি",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৪\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e৪\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৪\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003eটি",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e৭\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e৭\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e৭\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003eটি",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmtext\u003e১৪\u003c/mtext\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003e১৪\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord brahmic_fallback\"\u003e১৪\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003eটি"
+                    }
+    }
+]

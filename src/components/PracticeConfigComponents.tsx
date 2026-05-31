@@ -18,6 +18,8 @@ export const icons = {
     accounting: BookOpen,
     management_1st: Briefcase,
     management_2nd: Briefcase,
+    marketing_1st: Briefcase,
+    marketing_2nd: Briefcase,
 };
 
 export const examColors = {

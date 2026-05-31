@@ -1,0 +1,242 @@
+﻿[
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  1,
+        "question":  "কোনটি উৎপাদনকারী প্রতিষ্ঠান?",
+        "options":  {
+                        "A":  "ঢাকা বিশ্ববিদ্যালয়",
+                        "B":  "ইউনিলিভার কোম্পানি",
+                        "C":  "বিআরটিসি",
+                        "D":  "গ্রামীণফোন"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  2,
+        "question":  "কোনটি উৎপাদনশীলতাকে প্রভাবিত করে?",
+        "options":  {
+                        "A":  "প্রযুক্তি",
+                        "B":  "বিজ্ঞাপন",
+                        "C":  "জনসংখ্যা",
+                        "D":  "মুনাফা"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  3,
+        "question":  "উৎপাদন ও উৎপাদনশীলতার পার্থক্য দেখা যায়- i. প্রকৃতিতে ii. পণ্যে iii. উপযোগে নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  4,
+        "question":  "কোন উপকরণটি উৎপাদনের চালিকাশক্তি?",
+        "options":  {
+                        "A":  "ভূমি",
+                        "B":  "শ্রম",
+                        "C":  "মূলধন",
+                        "D":  "সংগঠন"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  5,
+        "question":  "সংগঠনের বৈশিষ্ট্য হলো— i. গতিশীলতা ii. আদেশের ঐক্য iii. সমন্বিত প্রচেষ্টা নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  6,
+        "question":  "মাত্রাজনিত মিতব্যয়ী ধারণা নির্ণয়ের সময় কোনটি দরকার?",
+        "options":  {
+                        "A":  "স্বল্পমেয়াদি গড় ব্যয়",
+                        "B":  "দীর্ঘমেয়াদি গড় ব্যয়",
+                        "C":  "স্বল্পমেয়াদি মুনাফা",
+                        "D":  "দীর্ঘমেয়াদি গড় আয়"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  7,
+        "question":  "একটি ক্ষুদ্র এন্টারপ্রাইজের উৎপাদনের ক্ষেত্রে জমি ও দালানকোঠা বাদে স্থায়ী সম্পদের পরিমাণ কত?",
+        "options":  {
+                        "A":  "৫ লক্ষ- ১ কোটি",
+                        "B":  "৭৫ লক্ষ- ১৫ কোটি",
+                        "C":  "১০ কোটি- ১৫ কোটি",
+                        "D":  "১০ কোটি- ৩০ কোটি"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  8,
+        "question":  "মোট জাতীয় উৎপাদন পরিমাপে কোনটি বহির্ভূত থাকে?",
+        "options":  {
+                        "A":  "ভোগ ও বিনিময়",
+                        "B":  "আমদানি",
+                        "C":  "রপ্তানি",
+                        "D":  "মূল্যসূচক"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  9,
+        "question":  "মোট জাতীয় উৎপাদন নির্ণয়ের সূত্র কোনটি?",
+        "options":  {
+                        "A":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eI\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eG\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003eC + I + G\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eI\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eG\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "B":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eI\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eG\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo stretchy=\"false\"\u003e(\u003c/mo\u003e\u003cmi\u003eX\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eM\u003c/mi\u003e\u003cmo stretchy=\"false\"\u003e)\u003c/mo\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003eC + I + G + (X - M)\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eI\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eG\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mopen\"\u003e(\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eX\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.109em;\"\u003eM\u003c/span\u003e\u003cspan class=\"mclose\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "C":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eI\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eG\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmi\u003eA\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003eC + I + G - CCA\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eI\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eG\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e",
+                        "D":  "\u003cspan class=\"katex\"\u003e\u003cspan class=\"katex-mathml\"\u003e\u003cmath xmlns=\"http://www.w3.org/1998/Math/MathML\"\u003e\u003csemantics\u003e\u003cmrow\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eI\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmi\u003eG\u003c/mi\u003e\u003cmo\u003e+\u003c/mo\u003e\u003cmo stretchy=\"false\"\u003e(\u003c/mo\u003e\u003cmi\u003eX\u003c/mi\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eM\u003c/mi\u003e\u003cmo stretchy=\"false\"\u003e)\u003c/mo\u003e\u003cmo\u003e−\u003c/mo\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmi\u003eC\u003c/mi\u003e\u003cmi\u003eA\u003c/mi\u003e\u003c/mrow\u003e\u003cannotation encoding=\"application/x-tex\"\u003eC + I + G + (X - M) - CCA\u003c/annotation\u003e\u003c/semantics\u003e\u003c/math\u003e\u003c/span\u003e\u003cspan class=\"katex-html\" aria-hidden=\"true\"\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eI\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eG\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e+\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mopen\"\u003e(\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0785em;\"\u003eX\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.109em;\"\u003eM\u003c/span\u003e\u003cspan class=\"mclose\"\u003e)\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003cspan class=\"mbin\"\u003e−\u003c/span\u003e\u003cspan class=\"mspace\" style=\"margin-right:0.2222em;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"base\"\u003e\u003cspan class=\"strut\" style=\"height:0.6833em;\"\u003e\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mord mathnormal\" style=\"margin-right:0.0715em;\"\u003eC\u003c/span\u003e\u003cspan class=\"mord mathnormal\"\u003eA\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  10,
+        "question":  "কাজল গাড়ি চালাতে গিয়ে হঠাৎ টায়ার পাংচার হয়ে গেলে একটি ভালো কোম্পানির টায়ার কিনল। কাজল কোন ধরনের পণ্য কিনেছে?",
+        "options":  {
+                        "A":  "বিপণন পণ্য",
+                        "B":  "শৌখিন পণ্য",
+                        "C":  "বিশিষ্ট পণ্য",
+                        "D":  "জরুরি পণ্য"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  11,
+        "question":  "উৎপাদন বাজেটে লিপিবদ্ধ থাকে— i. কী পরিমাণ পণ্য উৎপাদিত হবে ii. কী পরিমাণ অর্থ ব্যয় হবে iii. ব্যয়ের টাকা কীভাবে সংগৃহীত হবে নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  12,
+        "question":  "কোনটি পণ্য ডিজাইনের সাথে সম্পর্কযুক্ত?",
+        "options":  {
+                        "A":  "পণ্যের মান",
+                        "B":  "পণ্যের কাঁচামাল",
+                        "C":  "পণ্যের বাজার",
+                        "D":  "পণ্যের আকৃতি"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  13,
+        "question":  "প্রতিযোগিতা মোকাবিলা করা যায়— i. ডিজাইন পরিবর্তন করে ii. পর্যাপ্ত উৎপাদন করে iii. রং পরিবর্তন করে নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  14,
+        "question":  "মান ব্যবস্থাপনার জনক কে?",
+        "options":  {
+                        "A":  "W. Edwards Deming",
+                        "B":  "Lee J. KrajewskGiv",
+                        "C":  "Lary P. Ritzman",
+                        "D":  "Kenneth Rose"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "C",
+        "id":  15,
+        "question":  "বেঞ্চমার্কিং বলতে বোঝায়— i. প্রতিরোধ ব্যয় ii. ক্রেতার প্রতি ধারণা iii. ক্রেতার সন্তুষ্টির স্থির নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  16,
+        "question":  "প্রকৃত উৎপাদনের বিষয়টি কীসের ওপর নির্ভর করে?",
+        "options":  {
+                        "A":  "যন্ত্রপাতি",
+                        "B":  "পণ্য বা সেবার",
+                        "C":  "মিতব্যয়িতার",
+                        "D":  "জনশক্তির"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  17,
+        "question":  "উৎপাদন ক্ষমতার ওপর প্রভাব বিস্তারকারী উপাদান হলো— i. পণ্য বা সেবার প্রকৃতি ii. চাহিদার প্রকৃতি iii. উৎপাদন প্রক্রিয়ার প্রকৃতি নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "D",
+        "id":  18,
+        "question":  "ইপিজেড থেকে যে সুবিধা পাওয়া যায় তা হচ্ছে— i. শুল্ক সুবিধা ii. যোগাযোগ ব্যবস্থা iii. নিরাপত্তা নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "B",
+        "id":  19,
+        "question":  "ফাস্টফুড দ্রব্য বিক্রির জন্য যে লে-আউট ব্যবহার করা হয় তাকে কী বলে?",
+        "options":  {
+                        "A":  "অফিস",
+                        "B":  "রিটেইল",
+                        "C":  "ওয়্যারহাউজ",
+                        "D":  "প্রসেস"
+                    }
+    },
+    {
+        "source":  "বিসিআইসি কলেজ ২০২৬",
+        "answer":  "A",
+        "id":  20,
+        "question":  "প্রোডাক্ট লে-আউট সাধারণত কোন আকৃতির হয়? i. S ii. L iii. W নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    }
+]

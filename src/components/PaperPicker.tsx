@@ -18,6 +18,10 @@ const paperOptions = {
       { id: 'management_1st', label: 'ব্যবস্থাপনা ১ম পত্র', desc: 'Management 1st Paper' },
       { id: 'management_2nd', label: 'ব্যবস্থাপনা ২য় পত্র', desc: 'Management 2nd Paper' },
     ],
+    'মার্কেটিং': [
+      { id: 'marketing_1st', label: 'মার্কেটিং ১ম পত্র', desc: 'Marketing 1st Paper' },
+      { id: 'marketing_2nd', label: 'মার্কেটিং ২য় পত্র', desc: 'Marketing 2nd Paper' },
+    ],
   },
 };
 

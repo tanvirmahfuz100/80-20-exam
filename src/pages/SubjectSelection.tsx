@@ -40,11 +40,13 @@ const subjectIconMap = {
   'কৃষি শিক্ষা': Sprout,
   'ইসলাম শিক্ষা': BookHeart,
   'ব্যবস্থাপনা': Briefcase,
+  'মার্কেটিং': Briefcase,
 };
 
 export const multiPaperSubjects = {
   'বাংলা': true,
   'ব্যবস্থাপনা': true,
+  'মার্কেটিং': true,
 };
 
 export const subjectNameToId = {
@@ -71,6 +73,7 @@ export const subjectNameToId = {
   'কৃষি শিক্ষা': 'agriculture',
   'ইসলাম শিক্ষা': 'islam',
   'ব্যবস্থাপনা': 'management',
+  'মার্কেটিং': 'marketing',
 };
 
 function getIcon(name) {

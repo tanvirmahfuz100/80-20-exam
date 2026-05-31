@@ -1,0 +1,482 @@
+﻿[
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  1,
+        "question":  "কোনটি একাধিক শাখা থাকে?",
+        "options":  {
+                        "A":  "চেইন স্টোর",
+                        "B":  "ডিপার্টমেন্ট স্টোর",
+                        "C":  "সুপার মার্কেট",
+                        "D":  "সুপার স্টোর"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  2,
+        "question":  "ভূমির উপাদান হলো-\r\n\r\n\r\ni. খনিজ সম্পদ\r\nii. সূর্যের আলো\r\niii. বাতাস\r\nনিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  3,
+        "question":  "পূর্ণ সেবাদানকারী পাইকার কোনটি?",
+        "options":  {
+                        "A":  "র‌্যাক জবারস",
+                        "B":  "হোলসেল মার্চেন্ট",
+                        "C":  "ড্রপ শিপারস",
+                        "D":  "কমিশন মার্চেন্ট"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  4,
+        "question":  "কোন খুচরা ব্যবসায় বিক্রয়কর্মীর অস্তিত্ব নেই?",
+        "options":  {
+                        "A":  "ক্যাটাগরি কিলার",
+                        "B":  "ফ্রাঞ্চাইজ সংগঠন",
+                        "C":  "চেইন স্টোর",
+                        "D":  "অটোমেটিক ভেন্ডিং"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  5,
+        "question":  "ভূমির উপাদান হলো-\r\n\r\n\r\ni. খনিজ সম্পদ\r\nii. সূর্যের আলো\r\niii. বাতাস\r\nনিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  6,
+        "question":  "পণ্য বিক্রয়ের পরিমাণ সর্বোচ্চ পর্যায়ে পৌছায় কোন স্তরে?",
+        "options":  {
+                        "A":  "সূচনা স্তরে",
+                        "B":  "পূর্ণতা স্তরে",
+                        "C":  "প্রবৃদ্ধি স্তরে",
+                        "D":  "পতন স্তরে"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  7,
+        "question":  "কোনটি স্থায়ী ব্যয়?",
+        "options":  {
+                        "A":  "বাড়ি ভাড়া",
+                        "B":  "বিক্রয় পরিবহন",
+                        "C":  "বিক্রয় কমিশন",
+                        "D":  "উৎপাদন খরচ"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  8,
+        "question":  "পণ্যের মূল্য বৃদ্ধি পেলে যা ঘটে— i. চাহিদা হ্রাস পায় ii. যোগান বৃদ্ধি পায় iii. চাহিদা বৃদ্ধি পায় নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও  iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  9,
+        "question":  "মূল্য নির্ধারণের উদ্দেশ্য হলো-",
+        "options":  {
+                        "A":  "জীবনযাত্রার মানোন্নয়ন",
+                        "B":  "মুনাফা সর্বাধিকরণ",
+                        "C":  "অর্থনৈতিক উন্নয়ন",
+                        "D":  "কর্মসংস্থান সৃষ্টি"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  10,
+        "question":  "\u003cimg class=\"mx-auto bg-gray-100 rounded-lg my-2 max-h-96 object-contain\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAL0AAAEpCAYAAADGVyPRAAAgAElEQVR4Ae2dT4gcyb3n0xcPtjHGh51NHu9S0Ae3rIMae3DXsQsEVq0FOwX9lqlFeOViDKKmPQy1zaCpJ2anlYhHU0+YpvwW5KQNA9kHQekgqD4IsmdBkH0QVB8E1TwE1QYZUo/eJQ99SEwfvktkZGRlZmVWZ6Uys//Ur6Gm8k/ELyK+8cmIX/wiayS9+4//B/qQBvPEgGS++7+gD2kwTwxIoD9SYM4UIOjnrMOpuQBBTxTMnQIE/dx1OTWYoCcG5k4Bgn7uupwaTNATA3OnAEE/d11ODSboiYG5U4Cgn7supwYT9MTA3ClA0M9dl1ODrw70pzYsy4JlU6eSAtMVuDrQ7yuQJAm1HXN6i+nu3CtA0M89AvMnwNWB/q2GmiRBWlZgWPPXkdTi5ApcHehhw9goOy6OJMlYXKmgcnPy01jvoveanorkiFy9lFcIet455p6K1t0KKtdl9wGQIr5ltF7Qivfq4ZysRVcO+jObfaRyN+hOD8UveU30v6ig+Syi5FddVG4qMOhZPLML3zfB5YfetniokoUrE32GUD+WIMlt6P70EbDZ1giDPR3GoZk8FHpiYXTg5jkJd48JbVWCtKpi6Jb9znQLdqJPMlrPTd6Od+63v44Jj9/9NX3eSA0jtAm37DKdX3rozZ1ahPsS5dJMvzYOddoY7rRQXQinl1H5oo9RXO+aOjqrpVBdZCx+0oFxLDK50LMFt/u5JkmQVxQYuzzkKq5L0jUvzfjaON/Ua/+YMJ2vHtPsjbUR7bjc35ceemtfRWezE/25V3XAWbrTjr7vy6fus8WtbzG8UENruwd9T4e+q6F9m68Ryo8HEz1uvVRQkRloMiqftqE+43k696ooMbDkKjoHbLgU0FfRdMr+Cp9/1kJjRYYsc/uirg8/+xxfsTT361hiNm41z2wD1+Eh1n63hoe+tr2vPlybiWZf2guXHvqpys+6YXXQQZkBttrFMOyanOhoMbBlBX7s7X2F55HrUKOiQmYf7RXZBX/I3RtJgeGv+IkBZZmPzhOjqgjFbgRy+HOnOz61MNxuOINC5UHPceHs03SmLluuqwH9WwPaZhOt8AJxRugHj9hou4TOQVQ3jqDeZGD6gBUPiVxDd28A/WA06fsf9dF0gZbkMso3QjbcouwXLQfAmaE/NWHsKGiuT3G9fM2xDvvoihko7N7Ii6hv9DC84hHdqwH9GxUV1oH3+gj0Vwz09oGGznoTnX3/Ck24Hk30D1TUbjXRfWZgaFqwzCH0rTrkcBlHvTHQAiC5Du3Ipeyoh4azNiijuaWg7rhA0dAjpq6IG+lPTehbDdet4rNE+Yt+TETKhrnXddwo4buXlhtQ1vl6qPJAg7bVQmPZXZN47pjvablCh1cDegzQcUbQFnQ/x1EgnRhoO2nZ7m0n4KoYDxg8NSibTSx6gHKgHFgWGugJoAUElgF1qwd934Cx03ZcHXnDgH2kuZCXobzkj6L9ss39c/9sIexE1ZXdi4DeetVFzV1oyytjeJc2/Y4Xy8xg76Du7VmUUF1XYbx1RYoo0zpQvQc1esYTFb6831cEemDweMlxDwKbTm6nVp64MRfLgML8a6mM6m2WXkZ7b/yUiEhQlaU/tTE66EPbYovkLrTdAcwzfV53trhRRtnx/ytQArPJCBoLl6aG3sLgcZXPOHIFrZ0hLFjo32M2K1DfjEG0DzW0nLayeyXUotyWCOgdC29UVMOz2tj0pT+6MtBDdNTd3tjFsfpoOvAtOq8k8NFbRn1nBJaeuUTyI9/oaBtQnFmgjOaz2ODklE4XM44/YuNPLlwo37pA3I4DUIz0DzT07nL3Q76t+MKgAyisjTeCsxYOOnxW+VkD2uH4wRbFOd9xZWLKwxkwcDlPrg70sNC7y0a1cmAhar1QvJi7fL2OjutqAAbabDRb1YJ+sOeWSCitdqBHbJ5Gd7Uv3On36wOJ3wN6Z80go/JAHz/UzLZ4KCZ2mEdQbzE9+KfE1ih7ocbEQe89/BEPZ6A9l/PkCkEPeKPbqha/ieT1Uwz07P6x4dtoYrH3LvpvAktkz4r/YPS8iXKU3+8lSgG92UPdBb7+ZIiJMVtAHxXStC2Yhzq0zfGCt7TaxUA0JQT9aLeDznrDe29Jvq9Plue15fIeXC3oYUNfZz6768JM6xd3+g+4N6H05r6K1q3xLmtpVTn7Dc2pfn8K6FmdzD7UOHdrGvT+9rBoz2aNb5YtNHiEKQS9sSFmBraT3MUgvFfht3eJj68Y9AC8jR4Z1ceDoCsgOootaJ3YeVxMXiTk3yy2PX7FYIrdYLaIs5TQR1jyLrF1S5Sb5iUIHlivVR5Vkuvo7YR/bcZ/cnnVN6muHvSsj/0bQgtVNB+o6LmvE3TX6144ssxCi0Empp5ZrzUvLl9+NJgpLzecA/QiXBteyE5ribtuEa8+TGyITct7Be5dTehZxzjT+RhwsaBzvt1w3yzAe33tzSQN9LwXyby7ZxzkAT1z6ZhbUoP29ozifbe91yfm8HfFVxd60cGnNsxDg7845r4m/L7Tt4jnt/dEIUm/84AesJ43IcmLaD0XK9Qk9WHRJr63QSN9Er3mPc2pjfd9cDKVcOriOdOSroSxqz/SX4luokZkqQBBn6WaZOtSKEDQX4puokpmqQBBn6WaCWz9/e9/B/vQ3/kpQNAXrP3vf/97/PGPfyy4VCrOrwBB71ejgGOCvgCRzyiCoD9DoKxvE/RZKzq7PYJ+ds3eKwdB/17yZZKZoM9ExuRGCPrkWuWVkqDPS9kYuwR9jDAFXiboCxSbFUXQFyx4RHEEfYQoeV4i6PNUN5ltgj6ZTpmlIugzkzK1IYI+tXTpMhL06XTLMhdBn6WaCWwR9AlEyjkJQZ+zwGHzBH1YkeLPCfqCNSfoCxY8ojiCPkKUPC8R9Hmqm8w2QZ9Mp8xSEfSZSZnaEEGfWrp0GQn6dLplmYugz1LNBLYI+gQi5ZyEoM9Z4LB5gj6sSPHnBH3BmhP0BQseURxBHyFKnpcI+jzVTWaboE+mU2apCPrMpExtiKBPLV26jAR9Ot2yzEXQZ6lmAlsEfQKRck5C0OcscNg8QR9WpPhzgr5gzQn6ggWPKI6gjxAlz0sEfZ7qJrNN0CfTKbNUBH1mUqY2RNCnli5dRoI+nW5Z5iLos1QzgS2CPoFIOSch6HMWOGyeoA8rUvw5QV+w5gR9wYJHFEfQR4iS5yWCPk91k9km6JPplFkqgj4zKVMbIuhTS5cuI0GfTrcscxH0ITXNfQ3dB03UblZQuVlD80EX2t4QVkb/bCVBHxL8HE4JeiH6yQDd1RK8f1l8oYzKyiJkif1r3BIkuYLGlg7zPeEn6IXg5/dN0DPtTwwoywxuGdVHOkw72CH2kQF1vYoSg3+hhu6rWf5l7rGtDz/8ED/+8Y+dDzumv/NRgKCHDX1ddoCv74ym94LZR3uFp60+HmBW9FdXV/H9738fH3zwAb7++uvpZdHd3BSYe+jtFy3HhZHXdYQG+BjRLQweV508ixtGwjzc1NHREdgI/9FHH8XYpstFKDD30FvPm5ClRbT3kiEvOsV62cfgRJwl/2bgz/T3po8OW0vMlIkST1Ng7qEHbBgbZUhyHdqMPE4TNrN7+wokqQL1TWYW597QfEPvAOVGZ0SUxvm+No7iBK5HpY269hE+SpXPZ+vnEj5cUWDsMuiD1wPn/nuxxzVob+eedU+A+YaeuQ6bHXQ2m6gyYG41+fmXn2PtG3Y9/GmjfkOCdKOO9sQ9X9pv7uN+ZH5fmnD+e1UH7uo9nuarP6zhs9USZJktnCX4rz8M5504D9dThTHrqttD5OodzDf0Xn8aUBj0G4Z3JfrAhLYqQVrVsvex3VlH2feXPIJ2h0MfvO5PEzo+HkLfaaMq51TPUHGX8ZSgd3ptEnr7lYrm7TKCsKWB3sJovwd1s4PuTh+Dt74Fs23BsiweAYqEHsDLtjPSB+sxiRrbSVY+8W2msYc4j4dzsuhLd4Wgj4Eeb1RUJAlLjwe+To2G3t5TUF6QUNsJxVjYppcT1/f55GwD7PEAw6cNvtnF4GQbXpvNaLjjHganVjbMvQ7q1/lsIMmLqG9o0A8HUPOakXxqXNZDgt7pucmRHhhBvcn89w7G2EdAf6ShzlwJBq/chu4N5Db0+3wjq/5kAMsG7OMBtLUyTytJKN/torfXh/pFxXvdYWJEj4He3FfREg/UQg3KjuF7RSKinpeV0BzqTdDHQg+MnlQgSUvoHAjl2e4tA7wG9ZC5LV00FiRIywr6T/kmV+uFoH4AhT0MgYeG2RnxdYHUCjwgbMOLPThJoB99W3MfsgpaO8OInWGCXvRY1DdB76gSNdIDzMVhUR3/bq39SkGZjeruR15poc/i+1YfTZb2kZgX3JlCaiO8PDaf1iFf988gAGJG9Mjrol7Xq2huajD86wSnPQR9FOziGkE/DXr2Xo7jolQDm0P22wF62yp6+/5XjicfnMFj7sqU7/d9roeQPvQ9C/SwYDxpo3lbLFxlVD5VMfDCkgR9SN3AKUHvyDEJrKfSWw01NqrfUjH1dTQ3XXDhOw45ssWq+lq4Pp718cFM0I+zwTahb9axyFwpuYL2C0Y+Qe9TaOKQoHckmQI988J36s5Cs3RXwyjyfXoL+oOlkP8vtLYw2G6gIvt9eHHP950WemHi2IBymy2cWZh1mN9+gijvEn8T9E7nTYfeeT/nkRthWaihtd2DcWjCMocwdjUo7o9PSmv9iEVlQjrSQH9qQt9W0T8SM8gIfRYdkssos51jitNHik/QJ4KeaxeIifsWs5JUQm3TSA88M58C+sFjNrswt0bxhVV9LhVBT9BHKuBcPGukD+a0jwbQ93T+YYtZMdAGk812lgJ6/lq0BPljLbjeEOsQgj6yD2ikj5TlEl08cV9juERVPu+qEvTn3QNUfuEKEPSFS04FnrcCBP159wCVX7gCBH3BktP/96ZgwSOKI+gjRMnzEkGfp7rJbBP0yXTKLBVBn5mUqQ0R9KmlS5eRoE+nW5a5CPos1Uxgi6BPIFLOSQj6nAUOmyfow4oUf07QF6w5QV+w4BHFEfQRouR5iaDPU91ktgn6ZDplloqgz0zK1IYI+tTSpctI0KfTLctcBH2WaiawRdAnECnnJAR9zgKHzRP0YUWKPyfoC9acoC9Y8IjiCPoIUfK8RNDnqW4y2wR9Mp0yS0XQZyZlakMEfWrp0mUk6NPplmUugj5LNRPYIugTiJRzEoI+Z4HD5gn6sCLFnxP0BWtO0BcseERxBH2EKHleIujzVDeZbYI+mU6ZpSLoM5MytSGCPrV06TIS9Ol0yzIXQZ+lmglsEfQJRMo5CUGfs8Bh8wR9WJHizwn6gjUn6AsWPKI4gj5ClDwvEfR5qpvMNkGfTKfMUhH0mUmZ2hBBn1q6dBkJ+nS6ZZmLoM9SzQS2CPoEIuWchKDPWeCweYI+rEjx5wR9wZoT9AULHlEcQR8hSp6XCPo81U1mm6BPplNmqQj6zKRMbYigTy1duowEfTrdssxF0GepZgJbBH0CkXJOQtDnLHDYPEEfVqT4c4K+QM2//vpr/OIXv8Cvf/1r/PnPfy6wZCrKrwBB71cj5+MPP/wQ3/ve95x/2p7BT3/nowBBX6DuR0dH+MlPfuJAz47p73wUOGfobViWBevkfBqfqtRTG9bRAPqeDv1gBMuyZzLz3XffgX3oL6iAbVkwDw2uK9N2fwiTsTGbvEGjMWfnC/1bDTVJwtLjQUz1LtDlkyG09SpKkuSM1JL/e6GK5pYOM4cOukAKZF8Va4jeRh2LcoSmPn3l6xU0NjQYb7MR+HyhP+LQSxtG9oJmafGoj+Yy7xj5eh2tLQ19Nhrt9aButtBYLvEHQa6gtTOElWXZV9WWPYDiaCpj8ZMWOtu98SjvaKtDf6ai86CJ6nXZHWhkVL7QMHxPz+B8obd1tNlTLtehXVQX98TwOqf6eBALtPWmj84qh1++rcA4vqq0ZtSufcUBubw1TGSQ6avc5vDLKwqM9wD/fKEHMNqpQ3anstJyBZWbvs9qE+1tHeZpIl1ySGTD2CjzztkwcPbkamO400LFeZAraL+gMT+2Uw46WGL9zlzDBx10NoMf9dkgwl20oN/n/bGUqD+iSz936Fm1rNc9dO7VUBFugs+fc3zn5Q7Ow+u3Xykos7rMWv5RD60VGdKygsHZT0p0z1z5q3yAGLsuEX59lAdwYqB9g6VtoJdyNs0F+sFWBZWoxanZR+tmA9qbpD1qQX+wBEmSobxKmidluqi6nehoyRLkOxpGs5o9HWF0UV22WduSOr2J/hcVNL49Sz03iseiNe7HPOg6QQ75vj4xww4eMyYktF6kG1HSQW+74aWYkJ2xwfz0NnS3Ae/+ZvGKu9Ga6r8NeOOO3/GwlK+xotHe927baWDtyZDneffXs/NMsxe69+6v5tS6jZ63sChJKG/oXrmsPV79QvbOuh7ZTXZ6e3F1Ye06qy6R91mfHKevj2PznemGGk1oqxKkW10MXJ3emUlt/zu+/W8SpP/6Z/y7yOu2yXzaDDIxY1xzNuitIbQvKp4PLsJ2pVstaIfj7nSg97soP2e+WwO9l260xrt3zam8sJPs+x9S5ImYOkUd/jHLuk0pxymvBu3t5LBp7tSybRMri7VLtLHo7199BEkqofHU4ND7yr/mO86ufgpmif8lh/5IQ2OBC1labaG70+chu3URZy2j+ZxPYxz6JdTvs8XJQ6z94Su0WGRDlvkDc6vJFy5ffo61b9wFzHrNi4FXPlUmFjZiofPws9+O84QWPyIN/26iygS+UUc7Nt1DrP1uDZ+dUbfmLdZu0Z6v0PgfX8XWL1CHe1UHvKU7bTe9CiNibWvtq8nsbbZRd/zZKppOm4J1ad/h0768cge//d0aHsa227dovF/nC0qvTxpofCnKkVBebaK14UsfYVOUW73H0z1s38dDpz9lyE4Mflzfzz97iM5GAxUH/kVU1+L7musugdv9Co1/cts0oWt/JvczGfRHGupO5cto75qTQ5U1hHqXhes4+Bz68Kg2gnbHjbfGxOXtfXfh6E6H47ljssizrliHKhpM2Jtt9Nju3tQQ1/S6Rbdneg3s4yH6Gxz62k6EZtOzT949tTHaV9F0oI8Y2UTce3mGcN7JCMaTJoc+0CcDKE5/u7OFvIj6Rh+jmCiamKmU/WC1x5G5UH33Oyh79t3Ye8RgIDyGsF244c60up4N/XEfTaeCS2g9HcCIAuhkgI4bQ2Xgl51NhzD0AN6o/AkPCOwKdWyg88liyHViGxcd6EmZYaBtNVF1Z6Tg9MlsKei9jlCXVWFK3RJDf2phuNtF85a7WeVO5Wk7h1XLfmtAm9i1DEHEImDPuZ/beBbTPo9HG+a+BiWsdUSf2JaJ4Z4GRew/xCzo46AHRlBvsgdnsr6ADeuwj+6nrrssT4Z4zw96yw+0++RLZSj77jjMNm9YeE6SUX3URdvduZSkCOjdhezEDqzYpJJkVD4VrkAHLa9jfOV5nTc+sN/qY/EYaAtlNDZazuqfjfTaThetu2XXfZLBNpkmZpG4ugE4E3rbhL7V4PF5B/SSMyVrjxuOe5MGeuug58HGHl5nJ3hbRTsGIl7HCtS4yNiphcEzBTVvQOA7oeqTdvxANJYYo2227pDhjLpHfbTYg71QdXagh+6aZGJEhruQjYR+bNx6rfEQrySjuTt+aM8Pela30xF6Wyr6+waM3S53dVY1jKzxbmVdhKXEqwWzQP9K4SP8Wn8CRvuQh66kG5Oxega7f3ZgC2p1343GwIDCAFzV4E0UxwPXDZNQDodU00B/GoI9/A5OimmY7VmIkZVB5sxOBwKEeIjiH0wLQz/sjqvSw0DEuKe0e4wlOxqgc0PC0qYG1VnjSChd5zOzLHO3NRX0zvs34/VcaXO8I3O+0Adb7458wo1hq/RgHNZ4wGaEGUZ650GRsehrsL9Ibm8JnQP3Knv5yxdFKq1GuS0R0DvZR26nNdEXLLHrUzo/CijrZWc8ai7UoDwbwAr7vLNAH2gTm/G60CdesIqHfvCIz7b+/Qz7UIygLIRcQSPqpbgp7fb3AXNH9HVmhwcjatu8z+1D1V3vSXwWCGSKry/YgLHpg90dsPzZLxD0Fnp3x26OiNhMVnYG6P2ZI4554/0bVHzUkaRFNHaGE7MDNxEHPTD6locIAyPTlM6PhP4Zd10k9h6I/+Hx138W6N2RdHqb4iESPn39qTevAWKr/2eNQEjZX8VpD3sgHXtlxNVNuqUGoiXiekBPJ3NMfV+r3oAhr7SgeTNZsMQLA/14RV6G8jK6t6MgcZozBaxgc/1nAvDgyDza5pERZ7Eq3IrASBsHPXufhof2Ap00pW6R7fHWIWwAiFkkzwQ9cHabYiBicomF+AN/xFrManyQKt1qorvneyhYvph2Mz+7E5jB2UjPZpOl8XrO7ab4hWxMfY97PLL2sxpaT3owDt3NS3+3e2upiBlkRl1DZnF29CaUw3rVQXWhMtFwf7JISFiCGIHtoyFG4V21Uxvm4fjNugkfnK3+zSH0nQ4azkKaLWBr6L4SD2IIevYWJHsNeMWNELEdY/9qNqZurNqx7TkxMdzvoXtv/J596a6KoajCzJ3Df6DS31FQF6/TsqiGFyaOgcgR30CbrWE+Dr0yYVsYHfQDESB5pY2+YD+y3SKEOx7YRt/yFwPle/2JN01nhh5s4AlF6txFsZBurPsFgN7RNzCiOlcC/4mFJFJg11d0oh7CbfJ9u++o+/kMFOaemHvCxy6hscP8zRD0LoAiEtI9CFmMrBs3Htsef0X8u9ULDahsh3pm6P0GgXGbZFQe6LCmRkPc9k6LlPj9aBEijGu37zcEXuhXrqM3ZUc5MHM6TZn2kLIE/CHv+cLMzN3pue8scd0vCvTBvpk4i4UkRmDrdR/alu/HGOwBWGmi+2II+4wHLFA42yRzNsBk1J9qE9Eb9pO02J8mxtSN2Y9tT6BwfuLMhGxfg70h+K373tD7bE6xyNmaeL1ZQ5e9yxIJdgLoRX2Peu6PYspQdtzoWEScHtYA6r0aytcXUbmroB/zAt3sI72oiP/bCryWzVxnw1mcX1Ho/U13djK9mDfbrVNhiKnYnzD22J2axSsP/pBlbJ5414tlOQt680CH8cY3Mbs72CKUlyZOH6yqeK9fbOtHbPa8UflrF3d64xBt0EjwTPw4RugUBX0wR+xZeugtjPZ1DPz96+0LlVG/U3H2OSZmkPecQWf26WNb7rsRC8mU0dSXnR+emjC23R9kSCXUNmf4MYno0HCcfqIQ34UpdYttDwDR4ZJUDWwMea9USBLeH3pWT+FnR4z03gwn4ewdWV+bvddLJExsGPqSnXUoNJiAc6o7Bgy3+AwmycEgBU7EjM3d3Am7VxZ6oTTzld3pXVpuxofeRHr3m0Hn/DIn55F+HHEpo/s6WInBY96p2UAPwHslxB3p2eL8XtX7YXV5bbYXr1htWajT+eXaOYz0fG+BgR2CnlXMN3BdCuiDXZ/Nmbnb5tv87FdMs/j52RQ/xQqfovW4d3qm5HzvW+7sxF5R6OyOYvYr3ruU/AycmhjshVzD/ErzLOfi3njWsz44Go7DgVnbvqT27HCo95K2o8hqXy7oi1SGyrqyChD0V7ZrqWFxChD0ccrkdP1Pf/oT2If+zk8Bgr5g7en/T1+w4BHFEfQRouR5iaDPU91ktgn6ZDplloqgz0zK1IYI+tTSpctI0KfTLctcBH2WaiawRdAnECnnJAR9zgKHzRP0YUWKPyfoC9acoC9Y8IjiCPoIUfK8RNDnqW4y2wR9Mp0yS0XQZyZlakMEfWrp0mUk6NPplmUugj5LNRPYIugTiJRzEoI+Z4HD5gn6sCLFnxP0BWtO0BcseERxBH2EKHleIujzVDeZbYI+mU6ZpSLoM5MytSGCPrV06TIS9Ol0yzIXQZ+lmglsEfQJRMo5CUGfs8Bh8wR9WJHizwn6gjUn6AsWPKI4gj5ClDwvEfR5qpvMNkGfTKfMUhH0mUmZ2hBBn1q6dBkJ+nS6ZZmLoM9SzQS2CPoEIuWchKDPWeCweYI+rEjx5wR9wZoT9AULHlEcQR8hSp6XCPo81U1mm6BPplNmqQj6zKRMbYigTy1duowEfTrdssxF0GepZgJbBH0CkXJOQtDnLHDYPEEfVqT4c4K+YM0J+oIFjyiOoI8QJc9LBH2e6iazTdAn0ymzVAR9ZlKmNkTQp5YuXUaCPp1uWeYi6LNUM4Etgj6BSDknIehzFthv/ujoCL/5zW/w2WefgR3T3/koQNAXqLskSfjBD37gfK5du1ZgyVSUXwGC3q9Gzsd/+ctf8MMf/hAM/u+++y7n0sh8nAIEfZwyOV1fX18Hg5/+zk8Bgv78tKeSz0kBgv6chL8SxdoWLHMIY0+H7n0MDE0Lln1xW0jQX9y+ubg1OzbQ+WQRsiQ56xO2Ron6lJYbaG3rMC/YA0DQX1y0LmbN7AGUZQmSXEFjU0N/b4CRZcESH2fk70PbaqF+XeYPg1xB6/nowrSHoL8wXXFJKrKvOCBXt5NBbB2oaCywmUBGfSdZnryVIOjzVviq2T/uoylziBdXKqjc9H8aaG31MLRCjT7SUGd55Cb6x6F753BK0J+D6Je+SFOH+qCJWgD4Ciorrp+/rGAQ8uOtZ42ZZog8NbrA0JvQViXIG0ae7T/TtrlTg3Sjg8GZKa9SAgOKJKHxLDxkn91G+2UbS5KE1osw9X002YL3Xh+zWz273FlSFA69ta9B2x1MrOjtIwO9HR1jr49DL8lVtDY76Gw+xP32Q3ScY3ae7PPVH9bwMGHasc2HWPvn/42BCTjQS0uo33fL2zYiOs2CsZ2sPuMyOuh8s4bffhbRpm/u4/43aeylzCf0+fJ/4n89H8ECh1661eQ6f7OGz79MWJ9HX+C//5fb+CfRrn/5V1f/JqoM+ht1tN3y+m9mQTW7tAVDb6F/j87BP/UAAA6FSURBVPmDDfT8vt2JjpbjJ0ooPxqAjxEu9L5w2Ee/Ynln/Px8xvTCvpOvjMbdarDMVQ3mhP6TdU1az38Q5QW+P8JHgfOkbUibT9i/5rRVvtPgPrivDtd8x0nb5qSrrAb189lR9ieELORCwdALOJron7jtOx1Bu8NCW2VUVth3FaozAoi0bfTdcNg7tulhWRg+qTlCNp+a41CZCJmFv/+WII1loX+fdXwN6mtexru/mRg8qXux6PauCMuFpm23GXa43MjzIdSPWTmiTe/wV7dN1lEfrZ9JkJYV6OY7mJH5RR3c79cqagyi+31XB5ZPh8LsSBLKq210nhoYiTLCNsP5j9/BPOqjzUKSzO7HKoZOnncwjy0Yj8v8+s+qaD8dRtdxt+2k8fQ6FnXuox2wacE+LYTxiUIKhh4YbnHh5Ot81V92wlklNJ6OgJdcsPpTNpYK6BWEvXrucnBADPHwTDQtwYVTC8M9DYq30VKD9tafz4a+zmPN7zUq2SYGz7po3ipxaKRwm2zo91k5NWgJ3ji23w7Q22qi6mgnQfKve2wT+nYH7Xs1cG2ZTk30o+y+1fhD48/Pmv9G5a5IYFazYb7qQV1veHbllRZ6YbtuSHNSL9dlCtj0a13cceHQg3mMmw1UnI2LEsqrLWiv3aWNK1htJyH0kgT5tgL9bfToGyujNUJ/s45F16WSpBJKDkBh6IVPL2GyE2Otj2+YBtT1KkpiSpdLKDllhqF3gbjTi3CdfOb2VbS8B0eCvFDiM1EY2nEWWPsdVFmZt1S+XrJG/LWBAxOIg1749HGAnloY7LRQcdpSRvuFb2lK0PvUP/PQgv5gKcK9CQMyBrH9bR9NMRVLJZRFCO2ugt5hxINgDdHbqHkQytfr6OwOnfdEjA3u3gRH+nFZM0Fv6uh+WvFco9KtFtT9EezTmNkrFj4umrnXRcNx/VgdS6iuqzCO7CnQBsW2X7Qgs1nktcF3U92HsLzWjB7pz4KemWfgP6lj0XFZtHEAgqAPih99ZsM67KOzyqZ+GZVHRmghGw+9A+KpCWOng+aqu0nibX37NkJOTeibY9hLqwp6B77RCUAm0FtDaF8I2GVUPu2GZqEY6C03nLeuu23nSlmvNbQE7Gzbfyv0HssZD4unt62jJUmo3mKLchn1JwOMDrTxgDExU0xzRSwMd1qeayWvNNDdHY3rTdB7sk8cDLfr480M5qawUXfPHxeJAYR5+yx2LsW7HMN/qwTui40R5oNqIdhFxbKAfrDJZioJpdVOCHZRSlybBujckCDddF0QJ7l7TSqhthmCXZhLCj1G0JwFtATZ/2AddlFhI3VC6P0PIdNS3ff3l1spgl70zuQ3m3KdCIG0iMaTAcyJlXwcIGdDP/FQ2Drajv8pocRiz88GsELlZQG9twCUZCx+0oK6Z45HQEeCuDaxBTNzXZro+yag0bYbLpUXUV9XJx+kOOitIYaBBaaAPrRmicsf496Ih3rxU23yVQPRxQS9UCLi2x6hv9VCY9mNaLCOZSOaB2McIGdB74uE+CIx1us+tM0mqsL9WagFZpZMoIeN0f5khMNbqE+JSI2+ZbOXDOWVT6uTEYxnKlp3y+46REblCx9wUdCeGlDYony5g4Gr5WiHh16rT8Zbf04pUfmdGzHuzRuVzwzumoC9OtzZZZtZvj+C3ifGtMPjwdgXXm66YbCU0LvhNnnKdrfJoiCur1xe6zuLsGyg9zfSwmi3g5oTFZJRfcw23eLbBBcWHq7123GPnYiTuy6Rq+gcxC9k7X0FZcdlnP4+TKrozYmF0YE7gLghU8dtFIEDgj6i86ZcYj6jE42R61APh867N9JETBsQrlHzeWCMAY56Xv6z490WBo+rToRFvqOh76wDQtN/gvXDlObwW6cj9Nb43kR5Q0fPcWMmF+fBPYopVkUbpTKUFz1ngTrpkwPWq673PnvplgLdvwMuzM860ot83rf/wS6jyd6ZJ+g9dZIfnAzQuS1DkmuoOYuvCEDE5slyG71DE9YR26xp8LixXIGyHxGudGpgYbSvw3gzflhGz5soSzLKy2wRmgP0Trm2+4CVUXZCrJNt4ovvkHsTp5rQaLnsjOhR0MdlDVxPCT17T0rfG47dGu/BLqFxNy7IEOMyBSpUzMk5bE4laNiJP548CQhgY7DFR2m+GObb5k7UJCKgIEr0FobhBaPr8+YHPauBDWPD3cYPzV7Wa5W/6zLL25x+jSaiL6LFZ3yngV6EV9lrDltDXwGWr31RkTWC3idWzCH74cF/ZjD/M/5PTBL7WPwo2cDwOG50H2e2njf5hhH7McN4sAcwgnqLlZXXSO/WwXuxjj/IFltbiFcgps5Q4zb4j/imU1TI0Z9qynEa6L1ImIzJ9Yd4j4qgn6L69Ftxi8vpuabfdV4MO/v5mG4ko7vsIXR2WO91oU+ZoTIqLjsz7P+CcJH/dwdntPTCuDejZ61xONGNPPAXpuroXSYgzhA8cPvUPrc3DQP1mLOTiwH9Qcf5tQ3zyXvs/5+yq6G7Ll4IC8Wm56yDqLnZK3AhoOc7qKHXao/4a6/yStWNylShvAw44tmrQRbnQoELAb2914Ysyag+6jv/d6zRvhqMtx8bUFgYk72Q9kAfh8ouYRe9fPkS7EN/56fAhYCehfOG2w3f++3sBbQGVLHL5+hjwXhUhbys4L1+OHJ+Wjsl0z/KcM4dAOCCQC+EsN2fvcWFV2zY7/NLKVHMOX4T9Ocovlv0BYP+/AXJuwYEfd4Kn22foD9bo0xTEPSZypnKGEGfSrb0mQj69NpllZOgz0rJhHYI+oRC5ZiMoM9R3CjTBH2UKsVeI+iL1RsEfcGCRxRH0EeIkuclgj5PdZPZJuiT6ZRZKoI+MylTGyLoU0uXLiNBn063LHMR9FmqmcAWQZ9ApJyTEPQ5Cxw2T9CHFSn+nKAvWHOCvmDBI4oj6CNEyfMSQZ+nuslsE/TJdMosFUGfmZSpDRH0qaVLl5GgT6dblrkI+izVTGCLoE8gUs5JCPqcBQ6bJ+jDihR/TtAXrDlBX7DgEcUR9BGi5HmJoM9T3WS2CfpkOmWWiqDPTMrUhgj61NKly0jQp9Mty1wEfZZqJrBF0CcQKeckBH3OAofNE/RhRYo/J+gL1pygL1jwiOII+ghR8rxE0OepbjLbBH0ynTJLRdBnJmVqQwR9aunSZSTo0+mWZS6CPks1E9gi6BOIlHMSgj5ngcPmCfqwIsWfE/QFa07QFyx4RHEEfYQoeV4i6PNUN5ltgj6ZTpmlIugzkzK1IYI+tXTpMhL06XTLMhdBn6WaCWwR9AlEyjkJQZ+zwH7zksT+VXL++elPf+q/RccFKkDQFyj2119/jQ8++AA/+tGP8N133xVYMhXlV4Cg96uR8/HR0RF++ctfol6v51wSmZ+mAEE/TR26dyUVIOivZLdSo6YpQNBPU4fuXUkFCPor2a3UqGkKEPTT1KF7V1IBgv5Kdis1apoCBP00dd773gj9zS70t+9tKIGBIstKUJ0LnISgz7VzDCiShMqTUa6lcONFllVAc3IsgqAX4lpspKyhJEn46Ffj1wXEawMzfVdWIckVKPt9B/px3mveawjja+9ZlnQN0n+KKqsGrZAZRgh4eb4JegD2QRe1BQafjMqnLdxvP0Rns5P+8y//iofrNZRkGTJ71+ZWk9v68nOsffMedqPqxGz+IaKsTRWGdXlALLKmcw+9va+gIkuQFhpQX2dLyWinzqHfMJL1KZtttltorCzyfPIiqve6MI7Pzj5zWWebvLIp5hv6Ex0tBrxch3bk7+MR+vcbKN/VYHqXbegPyhEQWjCetNFc72HSczfQZiN9AuitF23+8EkyFlcaaG120L5XddwtaVnBwAbMPRWd9QZq99pQd0ewvbqxg+RlBbLN4clcQz/YXHJcmtaLID6ADX2duTt+v5gvFKWbagBub4SVZDSfh2cKN48PevtAQ+tuBZ39MW32KwVlSYJ8W4E+fsqcBOZOjbtdK2VnPVBarqDsuGISyo8HYyOYLMt3kw59Cswx9AYUNsrfCkIstLH32o6LUdsRFA54ermFPnM3Ti0Mdpoc1jtNNG9E2YoA8aCDJUnC0qYA1kL/HnvAmuifiNLH39bzJl/8LrfRF1XBCNoqy6Ng7DhFlDU2Q0c+BeYXehe+2HCiraMdeijGozoDjn9Kd1UMT4DRkwokqQL1jU/dyNF3gA57QG50wLE30bvDbFWhPBsiMFeYfbSXJTD3xgg9EMYDlqdN0PvlTng8v9DvKw64ky7JWLnBY+ZSyPC7P9YbHdpWB50tDfqhD1HXnuJzW5ifzeL0YZ9+tF117Lb3uFvlLaaF6/SmD+UTdzErLaLx3BvincqZewqqsgT5Xt/3kESXNW4NHQkF5h56P9BCFO/7uI8mG+3dhaR3PergZdt5iJJAj+MeGk4o0+dandoYme5D5NwvobbeRoON9HIdPSfmPoL2sTvLLDfRDyy+Cfqobom6Nr/Qv1K4z/7tZMzFL5T5lIcdy/d136jqT8GO2cJXDi182fV4EMUsUt+JKf/ULSPkho2+bUHZMWCK+15V4svyktCBo8D8Qm/raLHR9m5vCsxMIxvGhhs5We1MRFcAC8Mn/MEIuhss7xQQ7QEUNopLZSj74eiRj843KiossvNILHx99wKHU8oKpKOT+YXegZmHLGNHW48PC/qDCt8wkiSwsGHlJv+I8GHUYnMq9Mz2kYY6c5+kMpo7A1jh0fvURP8+X1c0d33rB69e/gOC3q/GtOM5hh7AieGOtjIWP2k5rwqwDaHFdT208cMltN/qUNcbqFxnrgz3rUvLNTS39Ah3g+VJAOKxjvaKsFdC2X2Y2EO16DwQEkp3oza+wt2aoKxwljk9n2/oWaefDKGtuzufDsglVNnuanjUTQVIUhBtmPsalLvjjSdJKqG82kR3d3SG+yUqlrQskX5+vwl6X9/bJ1N8a186OrzcCvx/5jnjy2tuq6MAAAAASUVORK5CYII=\"\u003e উদ্দীপকটি কি নির্দেশ করে?",
+        "options":  {
+                        "A":  "বিক্রয়প্রণালি",
+                        "B":  "বিপণন প্রণালি",
+                        "C":  "ক্রয় প্রণালি",
+                        "D":  "উৎপাদন প্রণালি"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  11,
+        "question":  "\u003cimg class=\"mx-auto bg-gray-100 rounded-lg my-2 max-h-96 object-contain\" src=\"data:image/png;base64,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\"\u003e উদ্দীপকের ৪র্থ স্তরের ব্যবসায়ীর কাজ হলো- i. সরাসরি কারখানা থেকে পণ্য ক্রয় ii. পাইকারি ব্যবসায়ির নিকট থেকে পণ্য ক্রয় iii. সরাসরি ভোক্তার নিকট থেকে পণ্য ক্রয় নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "iও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  12,
+        "question":  "গণি মিয়া অটোরাইস মিল প্রচুর চাল উৎপাদন করলেও স্থানীয় বাজারের চাহিদা অনুযায়ী চাল সরবরাহ করে। অতিরিক্ত চাল মিলের আধুনিক গুদামে ভবিষ্যতে বিক্রির জন্য সংরক্ষণ করে।\r\n\r\n\r\nচাহিদা অনুযায়ী পণ্য সরবরাহ করলে মূল্য কীরূপ হয়?",
+        "options":  {
+                        "A":  "বৃদ্ধি পায়",
+                        "B":  "হ্রাস পায়",
+                        "C":  "স্থির থাকে",
+                        "D":  "মূল্যহীন হয়"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  13,
+        "question":  "গণি মিয়া অটোরাইস মিল প্রচুর চাল উৎপাদন করলেও স্থানীয় বাজারের চাহিদা অনুযায়ী চাল সরবরাহ করে। অতিরিক্ত চাল মিলের আধুনিক গুদামে ভবিষ্যতে বিক্রির জন্য সংরক্ষণ করে। উদ্দীপকের মিলটি কোন ধরনের উপযোগ সৃষ্টি করছে? i. স্থানগত ii. কালগত iii. রূপগত নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  14,
+        "question":  "বেশিরভাগ ক্ষেত্রে খুচরা ব্যবসায়ের মালিকানা কীরূপ হয়?",
+        "options":  {
+                        "A":  "একমালিকানা",
+                        "B":  "অংশীদারী",
+                        "C":  "যৌথমূলধনী",
+                        "D":  "সমবায়"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  15,
+        "question":  "কোনটি পাইকারি ব্যবসায়ের বৈশিষ্ট্য?",
+        "options":  {
+                        "A":  "চূড়ান্ত ভোক্তার নিকট পণ্য বিক্রয়",
+                        "B":  "খুচরা বিক্রেতার নিকট পণ্য বিক্রয়",
+                        "C":  "মানসম্পন্ন পণ্য বিক্রয়",
+                        "D":  "নতুন পণ্য বিক্রয়"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  16,
+        "question":  "নতুন ক্রেতার নিকট পণ্য বিক্রির মাধ্যমে খুচরা ব্যবসায় কী করে?",
+        "options":  {
+                        "A":  "ঝুঁকি হ্রাস",
+                        "B":  "বাজার সম্প্রসারণ",
+                        "C":  "জীবনযাত্রার মনোন্নয়ন",
+                        "D":  "নিয়মিত পণ্য সরবরাহ"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  17,
+        "question":  "মি. ‘ক’ মুড়ির পাইকারি বিক্রেতা। স্থানীয় মুড়ি উৎপাদকদের সাথে চুক্তি করে তিনি সব মুড়ি কিনে গুদামজাত করেছেন। এক্ষেত্রে মূল্য নির্ধারণে তাঁর সিদ্ধান্তই চূড়ান্ত বলে গণ্য হবে। উদ্দীপকে পাইকারি ব্যবসায়ের কোন সমস্যাটি তুলে ধরা হয়েছে?",
+        "options":  {
+                        "A":  "মূলধনের অপর্যপ্ততা",
+                        "B":  "সুনির্দিষ্ট নীতিমালার অভাব",
+                        "C":  "অনুন্নত যোগাযোগ ব্যবস্থা",
+                        "D":  "তথ্যের অসংগতি"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  18,
+        "question":  "মি. ‘ক’ মুড়ির পাইকারি বিক্রেতা। স্থানীয় মুড়ি উৎপাদকদের সাথে চুক্তি করে তিনি সব মুড়ি কিনে গুদামজাত করেছেন। এক্ষেত্রে মূল্য নির্ধারণে তাঁর সিদ্ধান্তই চূড়ান্ত বলে গণ্য হবে। ‘ক এর অধিক মজুদের ফলে যে সকল সমস্যা তৈরি হতে পারে তা হলো- i. অধিক ঝুঁকি সৃষ্টি ii. পণ্যের কৃত্রিম সয়কট iii. পণ্যমূল্য বৃদ্ধি পায় নিচের কোনটি সঠিক?‘",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও  iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  19,
+        "question":  "বিক্রয় প্রসার বলতে বোঝায়-",
+        "options":  {
+                        "A":  "অধিক পরিমপাণে বিক্রি",
+                        "B":  "লাভজনক মূ্ল্যে বিক্রি",
+                        "C":  "বিক্রি বৃদ্ধির প্রচেষ্টা",
+                        "D":  "বাজারের পরিধি বাড়ানো"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  20,
+        "question":  "বিজ্ঞাপন কোন ধরনের প্রতিবন্ধকতা দূর করে?",
+        "options":  {
+                        "A":  "স্থানগত",
+                        "B":  "কালগত",
+                        "C":  "জ্ঞানগত",
+                        "D":  "রূপগত"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  21,
+        "question":  "বিক্রয় বৃদ্ধির কোন কৌশলটি জীবন্ত উৎপাদন?",
+        "options":  {
+                        "A":  "প্রচার",
+                        "B":  "বিজ্ঞাপন",
+                        "C":  "ব্যক্তিক বিক্রয়",
+                        "D":  "বিক্রয় প্রসার"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  22,
+        "question":  "বিক্রয়কর্মীর গৃহীত কলাকৌশলকে কী বলে?",
+        "options":  {
+                        "A":  "ব্যক্তির বিক্রয়",
+                        "B":  "বিক্রয়িকতা",
+                        "C":  "বিক্রয় প্রসার",
+                        "D":  "বিক্রয় ব্যবস্থাপনা"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  23,
+        "question":  "ব্যাক্তিক বিক্রয়ের ক্ষেত্রে কোন ধরনের যোগাযোগ প্রতিষ্ঠিত হয়?",
+        "options":  {
+                        "A":  "একমুখী যোগাযোগ",
+                        "B":  "দ্বি-মুখী যোগাযোগ",
+                        "C":  "বিপরীতমুখী যোগাযোগ",
+                        "D":  "বহুমুখী যোগাযোগ"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  24,
+        "question":  "দালাল তার কাজের বিনিময়ে কী পায়?",
+        "options":  {
+                        "A":  "মুনাফা",
+                        "B":  "বেতন",
+                        "C":  "মজুরি",
+                        "D":  "কমিশন"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  25,
+        "question":  "বিক্রয় প্রসার কোন ধরনের কৌশল?",
+        "options":  {
+                        "A":  "স্বল্পমেয়াদী",
+                        "B":  "মধ্যমেয়াদী",
+                        "C":  "দীর্ঘমেয়াদী",
+                        "D":  "চিরস্থায়ী"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  26,
+        "question":  "জনাব হাবিব একটি পুরানো মটর সাইকেল কিনতে চাচ্ছেন। পরিচিতজনদের কাছে না পেয়ে সে Bikroy.Com এর ওয়েবসাইটে ঢুকে পছন্দমতো মটর সাইকেলটি ক্রয়ের জন্য ফরমায়েশ দিল। অনলাইন বিপণনে জনাব হাবিব খরচ বহন করতে পারে কোন পদ্ধতিতে?",
+        "options":  {
+                        "A":  "প্রি-পেইড পদ্ধতি",
+                        "B":  "ভোগ পদ্ধতি",
+                        "C":  "প্রত্যক্ষ পদ্ধতি",
+                        "D":  "পোস্ট-পেইড পদ্ধতি"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  27,
+        "question":  "জনাব হাবিব একটি পুরানো মটর সাইকেল কিনতে চাচ্ছেন। পরিচিতজনদের কাছে না পেয়ে সে Bikroy.Com এর ওয়েবসাইটে ঢুকে পছন্দমতো মটর সাইকেলটি ক্রয়ের জন্য ফরমায়েশ দিল। অনলাইনে বিপণণের ফলে জনাব হবিবের- i. কেনা সহজরত হয়েছে ii. স্বল্প ব্যায়ে ক্রয় করেছে iii. কিনতে সময় কম লেগেছে নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  28,
+        "question":  "বিপণন কী?",
+        "options":  {
+                        "A":  "পণ্য উৎপাদন",
+                        "B":  "পণ্যের ভ্যালু সৃষ্টি",
+                        "C":  "পণ্য ভোগ",
+                        "D":  "গ্রাহকদের সন্তুষ্টি বিধান"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  29,
+        "question":  "বাজারজাতকরণে বাজার কিসের সাথে সম্পৃক্ত?",
+        "options":  {
+                        "A":  "ক্রেতা",
+                        "B":  "স্থান",
+                        "C":  "দ্রব্য",
+                        "D":  "বিক্রেতা"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "D",
+        "id":  30,
+        "question":  "ভূমির উপাদান হলো-\r\n\r\n\r\ni. খনিজ সম্পদ\r\nii. সূর্যের আলো\r\niii. বাতাস\r\nনিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  31,
+        "question":  "জনাব সাহিদ তার উৎপাদিত সবজি নিজস্ব ভ্যানের মাধ্যমে বিভিন্ন বাজারে খুচরা ব্রিকতাদের নিকট সরবহার করে থাকেন। এত ব্যবসায়ীদের খরচ কম ও লাভ বেশী হয়। এর ফলে তার উৎপাদিত পণ্যই বাজারে বেশি বিক্রি হয়। জনাব সাহিদ বিপণণে কোন বিষয়টি বেশি গুরুত্ব দিয়েছেন?",
+        "options":  {
+                        "A":  "গুদামজাতকরণ",
+                        "B":  "পরিবহন",
+                        "C":  "মোড়কীকরণ",
+                        "D":  "বাজার গভেষণা"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  32,
+        "question":  "জনাব সজিব তার উৎপাদিত সবজি নিজস্ব ভ্যানের মাধ্যমে বিভিন্ন বাজারে খুচরা বিক্রেতাদের কাছে সরবরাহ করে থাকেন এতে ব্যবসায়ীদের খরচ কম ও লাভ বেশি হয়। ফলে তার উৎপাদিত পণ্যই বাজারে বেশি বিক্রি হয়। জনাব সজিবের কার্যক্রমটির মাধ্যমে সম্ভব হয়েছে— i. বিক্রয় গতিশীলতা সৃষ্টি ii. সময়গত উপযোগ সৃষ্টি iii. সমাজের মানুষের চাহিদা সৃষ্টি নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও  iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  33,
+        "question":  "আধুনিক বিপণনের জনক কে?",
+        "options":  {
+                        "A":  "Philip Kotler",
+                        "B":  "Gary Armstrong",
+                        "C":  "W.J. Stanton",
+                        "D":  "McCarthy"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  34,
+        "question":  "ভোক্তার ক্রয় ক্ষমতা কোন পরিবেশের উৎপাদন?",
+        "options":  {
+                        "A":  "অর্থনৈতিক",
+                        "B":  "সামাজিক",
+                        "C":  "সাংস্কৃতিক",
+                        "D":  "রাজনৈতিক"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "C",
+        "id":  35,
+        "question":  "বাংলাদেশে ওজন ও পরিমাপের মান সম্পর্কিত অধ্যাদেশ কত সালে জারি করা হয়?",
+        "options":  {
+                        "A":  "১৯১১",
+                        "B":  "১৯৪০",
+                        "C":  "১৯৮২",
+                        "D":  "১৯৯৪"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  36,
+        "question":  "কোনটি বিজ্ঞাপনের সাথে সম্পর্কযুক্ত?",
+        "options":  {
+                        "A":  "উৎপাদন",
+                        "B":  "বিক্রয়",
+                        "C":  "পরিকল্পনা",
+                        "D":  "নিয়ন্ত্রণ"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  37,
+        "question":  "কোনটি প্রমিতকরণ?",
+        "options":  {
+                        "A":  "পণ্যের বাজারমূল্যের নির্ধারণ",
+                        "B":  "পণ্যের গুণগত নির্ধারণ",
+                        "C":  "পণ্যের বিভাগীকরণ",
+                        "D":  "পণ্যের মান নিয়ন্ত্রণ"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "A",
+        "id":  38,
+        "question":  "তাহের সাহেব আলীপুর মৎস্য বন্দর থেবে সামুদ্রিক মাছস ক্রয় করে লঞ্চে ঢাকার বিভিন্ন আড়তে সরবরাহ করেন। তিনি কোন ধরনের উপযোগ সৃষ্টি করেন?",
+        "options":  {
+                        "A":  "স্থানগত",
+                        "B":  "সমবায়গত",
+                        "C":  "রূপগত",
+                        "D":  "সেবাগত"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  39,
+        "question":  "তমা একটি প্রতিষ্ঠানের বিপণন ব্যবস্থাপক। প্রতিষ্ঠানটির প্রয়োজনীয় অর্থের উৎস অনুসন্ধান, সংগ্রহ এবং বিনিয়োগের ব্যাপারে সিদ্ধান্ত গ্রহণে সে গুরুত্বপূর্ণ অবদান রাখে। এছাড়াও বাজার থেকে পণ্য সম্পর্কিত বিভিন্ন তথ্য সংগ্রহ করে। তমা বাজার তথ্য সংগ্রহের মাধ্যমে যেসব কার্য সম্পাদন করতে পারবে সেগুলো হলো- i. বিপণন পরিকল্পনা গ্রহণ ii. বাস্তবায়ন ও নিয়ন্ত্রণ iii. বিশ্লেষণ ও বন্টন নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও  iii"
+                    }
+    },
+    {
+        "source":  "ঢাকা বোর্ড ২০১৬",
+        "answer":  "B",
+        "id":  40,
+        "question":  "তমা একটি প্রতিষ্ঠানের বিপণন ব্যবস্থাপক। প্রতিষ্ঠানটির প্রয়োজনীয় অর্থের উৎস অনুসন্ধান, সংগ্রহ এবং বিনিয়োগের ব্যাপারে সিদ্ধান্ত গ্রহণে সে গুরুত্বপূর্ণ অবদান রাখে। এছাড়াও বাজার থেকে পণ্য সম্পর্কিত বিভিন্ন তথ্য সংগ্রহ করে। তমা বাজার তথ্য সংগ্রহের মাধ্যমে যেসব কার্য সম্পাদন করতে পারবে সেগুলো হলো- i. বিপণন পরিকল্পনা গ্রহণ ii. বাস্তবায়ন ও নিয়ন্ত্রণ iii. বিশ্লেষণ ও বন্টন নিচের কোনটি সঠিক?",
+        "options":  {
+                        "A":  "i ও ii",
+                        "B":  "i ও iii",
+                        "C":  "ii ও iii",
+                        "D":  "i, ii ও  iii"
+                    }
+    }
+]
