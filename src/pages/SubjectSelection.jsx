@@ -41,7 +41,7 @@ const subjectNameToId = {
   'বাংলা': 'bangla',
   'ইংরেজি': 'english',
   'গণিত': 'math',
-  'উচ্চতর গণিত': 'higher_math',
+  'উচ্চতর গণিত': 'higher_math_1st',
   'পদার্থবিদ্যা': 'physics',
   'রসায়ন': 'chemistry',
   'জীববিদ্যা': 'biology',
