@@ -1787,6 +1787,44 @@
       ],
       "name_bn": "ইসলামের ইতিহাস ও সংস্কৃতি ২য় পত্র",
       "name_en": "Islamic History and Culture 2nd Paper"
+    },
+    {
+      "id": "physics_1st",
+      "name": "Physics 1st Paper",
+      "icon": "Flask",
+      "topics": [
+        { "id": "chapter_1", "name": "Chapter 1", "chapters": [{ "id": "hsc_phy1_ch1", "name": "Chapter 1 Questions", "file_bn": "/hsc/physics_1st/chapter_1.json" }], "name_bn": "অধ্যায় ১: ভৌতজগৎ ও পরিমাপ", "name_en": "Chapter 1: Physical World and Measurement" },
+        { "id": "chapter_2", "name": "Chapter 2", "chapters": [{ "id": "hsc_phy1_ch2", "name": "Chapter 2 Questions", "file_bn": "/hsc/physics_1st/chapter_2.json" }], "name_bn": "অধ্যায় ২: ভেক্টর", "name_en": "Chapter 2: Vectors" },
+        { "id": "chapter_3", "name": "Chapter 3", "chapters": [{ "id": "hsc_phy1_ch3", "name": "Chapter 3 Questions", "file_bn": "/hsc/physics_1st/chapter_3.json" }], "name_bn": "অধ্যায় ৩: গতিবিদ্যা", "name_en": "Chapter 3: Dynamics" },
+        { "id": "chapter_4", "name": "Chapter 4", "chapters": [{ "id": "hsc_phy1_ch4", "name": "Chapter 4 Questions", "file_bn": "/hsc/physics_1st/chapter_4.json" }], "name_bn": "অধ্যায় ৪: নিউটনিয়ান বলবিদ্যা", "name_en": "Chapter 4: Newtonian Mechanics" },
+        { "id": "chapter_5", "name": "Chapter 5", "chapters": [{ "id": "hsc_phy1_ch5", "name": "Chapter 5 Questions", "file_bn": "/hsc/physics_1st/chapter_5.json" }], "name_bn": "অধ্যায় ৫: কাজ, শক্তি ও ক্ষমতা", "name_en": "Chapter 5: Work, Energy and Power" },
+        { "id": "chapter_6", "name": "Chapter 6", "chapters": [{ "id": "hsc_phy1_ch6", "name": "Chapter 6 Questions", "file_bn": "/hsc/physics_1st/chapter_6.json" }], "name_bn": "অধ্যায় ৬: মহাকর্ষ ও অভিকর্ষ", "name_en": "Chapter 6: Gravitation and Gravity" },
+        { "id": "chapter_7", "name": "Chapter 7", "chapters": [{ "id": "hsc_phy1_ch7", "name": "Chapter 7 Questions", "file_bn": "/hsc/physics_1st/chapter_7.json" }], "name_bn": "অধ্যায় ৭: পদার্থের গাঠনিক ধর্ম", "name_en": "Chapter 7: Structural Properties of Matter" },
+        { "id": "chapter_8", "name": "Chapter 8", "chapters": [{ "id": "hsc_phy1_ch8", "name": "Chapter 8 Questions", "file_bn": "/hsc/physics_1st/chapter_8.json" }], "name_bn": "অধ্যায় ৮: পর্যায়বৃত্তিক গতি", "name_en": "Chapter 8: Periodic Motion" },
+        { "id": "chapter_9", "name": "Chapter 9", "chapters": [{ "id": "hsc_phy1_ch9", "name": "Chapter 9 Questions", "file_bn": "/hsc/physics_1st/chapter_9.json" }], "name_bn": "অধ্যায় ৯: তরঙ্গ", "name_en": "Chapter 9: Waves" },
+        { "id": "chapter_10", "name": "Chapter 10", "chapters": [{ "id": "hsc_phy1_ch10", "name": "Chapter 10 Questions", "file_bn": "/hsc/physics_1st/chapter_10.json" }], "name_bn": "অধ্যায় ১০: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব", "name_en": "Chapter 10: Ideal Gas and Kinetic Theory of Gases" }
+      ],
+      "name_bn": "পদার্থবিজ্ঞান ১ম পত্র",
+      "name_en": "Physics 1st Paper"
+    },
+    {
+      "id": "physics_2nd",
+      "name": "Physics 2nd Paper",
+      "icon": "Flask",
+      "topics": [
+        { "id": "40", "name": "Chapter 1", "chapters": [{ "id": "hsc_phy2_40", "name": "Chapter 1 Questions", "file_bn": "/hsc/physics_2nd/40.json" }], "name_bn": "অধ্যায় ১: তাপগতিবিদ্যা", "name_en": "Chapter 1: Thermodynamics" },
+        { "id": "78", "name": "Chapter 2", "chapters": [{ "id": "hsc_phy2_78", "name": "Chapter 2 Questions", "file_bn": "/hsc/physics_2nd/78.json" }], "name_bn": "অধ্যায় ২: চল তরল", "name_en": "Chapter 2: Moving Fluids" },
+        { "id": "120", "name": "Chapter 3", "chapters": [{ "id": "hsc_phy2_120", "name": "Chapter 3 Questions", "file_bn": "/hsc/physics_2nd/120.json" }], "name_bn": "অধ্যায় ৩: চৌম্বক", "name_en": "Chapter 3: Magnetism" },
+        { "id": "153", "name": "Chapter 4", "chapters": [{ "id": "hsc_phy2_153", "name": "Chapter 4 Questions", "file_bn": "/hsc/physics_2nd/153.json" }], "name_bn": "অধ্যায় ৪: তড়িৎ প্রবাহের চৌম্বক ক্রিয়া ও তড়িৎ চুম্বকীয় আবেশ", "name_en": "Chapter 4: Magnetic Effect of Current and Electromagnetic Induction" },
+        { "id": "186", "name": "Chapter 5", "chapters": [{ "id": "hsc_phy2_186", "name": "Chapter 5 Questions", "file_bn": "/hsc/physics_2nd/186.json" }], "name_bn": "অধ্যায় ৫: জ্যামিতিক আলোকবিজ্ঞান", "name_en": "Chapter 5: Geometric Optics" },
+        { "id": "216", "name": "Chapter 6", "chapters": [{ "id": "hsc_phy2_216", "name": "Chapter 6 Questions", "file_bn": "/hsc/physics_2nd/216.json" }], "name_bn": "অধ্যায় ৬: ভৌত আলোকবিজ্ঞান", "name_en": "Chapter 6: Physical Optics" },
+        { "id": "247", "name": "Chapter 7", "chapters": [{ "id": "hsc_phy2_247", "name": "Chapter 7 Questions", "file_bn": "/hsc/physics_2nd/247.json" }], "name_bn": "অধ্যায় ৭: আলোর প্রকৃতি ও বৈশিষ্ট্য", "name_en": "Chapter 7: Nature and Properties of Light" },
+        { "id": "279", "name": "Chapter 8", "chapters": [{ "id": "hsc_phy2_279", "name": "Chapter 8 Questions", "file_bn": "/hsc/physics_2nd/279.json" }], "name_bn": "অধ্যায় ৮: আধুনিক পদার্থবিজ্ঞানের সূচনা", "name_en": "Chapter 8: Introduction to Modern Physics" },
+        { "id": "317", "name": "Chapter 9", "chapters": [{ "id": "hsc_phy2_317", "name": "Chapter 9 Questions", "file_bn": "/hsc/physics_2nd/317.json" }], "name_bn": "অধ্যায় ৯: পরমাণু মডেল ও নিউক্লিয়ার পদার্থবিজ্ঞান", "name_en": "Chapter 9: Atomic Model and Nuclear Physics" },
+        { "id": "395", "name": "Chapter 11", "chapters": [{ "id": "hsc_phy2_395", "name": "Chapter 11 Questions", "file_bn": "/hsc/physics_2nd/395.json" }], "name_bn": "অধ্যায় ১১: জ্যোতির্বিজ্ঞান", "name_en": "Chapter 11: Astronomy" }
+      ],
+      "name_bn": "পদার্থবিজ্ঞান ২য় পত্র",
+      "name_en": "Physics 2nd Paper"
     }
   ]
 }
