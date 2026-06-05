@@ -11,6 +11,7 @@ export const icons = {
     accounting: BookOpen,
     physics_1st: Flask,
     physics_2nd: Flask,
+    higher_math_1st: Calculator,
 };
 
 export const examColors = {

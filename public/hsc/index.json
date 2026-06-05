@@ -1825,6 +1825,22 @@
       ],
       "name_bn": "পদার্থবিজ্ঞান ২য় পত্র",
       "name_en": "Physics 2nd Paper"
+    },
+    {
+      "id": "higher_math_1st",
+      "name": "Higher Math 1st Paper",
+      "icon": "Sigma",
+      "topics": [
+        { "id": "chapter_1", "name": "Chapter 1", "chapters": [{ "id": "hsc_hm1_ch1", "name": "Chapter 1 Questions", "file_bn": "/hsc/higher_math_1st/chapter_1.json" }], "name_bn": "অধ্যায় ১: ম্যাট্রিক্স ও নির্ণায়ক", "name_en": "Chapter 1: Matrices and Determinants" },
+        { "id": "chapter_2", "name": "Chapter 2", "chapters": [{ "id": "hsc_hm1_ch2", "name": "Chapter 2 Questions", "file_bn": "/hsc/higher_math_1st/chapter_2.json" }], "name_bn": "অধ্যায় ২: ভেক্টর", "name_en": "Chapter 2: Vectors" },
+        { "id": "chapter_3", "name": "Chapter 3", "chapters": [{ "id": "hsc_hm1_ch3", "name": "Chapter 3 Questions", "file_bn": "/hsc/higher_math_1st/chapter_3.json" }], "name_bn": "অধ্যায় ৩: স্থানাঙ্ক জ্যামিতি", "name_en": "Chapter 3: Coordinate Geometry" },
+        { "id": "chapter_4", "name": "Chapter 4", "chapters": [{ "id": "hsc_hm1_ch4", "name": "Chapter 4 Questions", "file_bn": "/hsc/higher_math_1st/chapter_4.json" }], "name_bn": "অধ্যায় ৪: বৃত্ত", "name_en": "Chapter 4: Circle" },
+        { "id": "chapter_5", "name": "Chapter 5", "chapters": [{ "id": "hsc_hm1_ch5", "name": "Chapter 5 Questions", "file_bn": "/hsc/higher_math_1st/chapter_5.json" }], "name_bn": "অধ্যায় ৫: বিন্যাস ও সমাবেশ", "name_en": "Chapter 5: Permutation and Combination" },
+        { "id": "chapter_6", "name": "Chapter 6", "chapters": [{ "id": "hsc_hm1_ch6", "name": "Chapter 6 Questions", "file_bn": "/hsc/higher_math_1st/chapter_6.json" }], "name_bn": "অধ্যায় ৬: ত্রিকোণমিতিক কোণ", "name_en": "Chapter 6: Trigonometric Angles" },
+        { "id": "chapter_7", "name": "Chapter 7", "chapters": [{ "id": "hsc_hm1_ch7", "name": "Chapter 7 Questions", "file_bn": "/hsc/higher_math_1st/chapter_7.json" }], "name_bn": "অধ্যায় ৭: ত্রিকোণমিতিক অনুপাত ও চিহ্ন", "name_en": "Chapter 7: Trigonometric Ratios and Signs" }
+      ],
+      "name_bn": "উচ্চতর গণিত ১ম পত্র",
+      "name_en": "Higher Math 1st Paper"
     }
   ]
 }

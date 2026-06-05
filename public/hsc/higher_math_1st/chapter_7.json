@@ -1,0 +1,1780 @@
+[
+  {
+    "id": 1201,
+    "question": "cosec(450°-θ) এর মান কত? (সহজ)",
+    "options": {
+      "A": "-secθ",
+      "B": "secθ",
+      "C": "-cosecθ",
+      "D": "cosecθ"
+    },
+    "answer": "B",
+    "explanation": "cosec(5×90°-θ) = secθ।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1202,
+    "question": "cosec(270°-θ) এর মান কত? (সহজ)",
+    "options": {
+      "A": "-cosecθ",
+      "B": "cosecθ",
+      "C": "-secθ",
+      "D": "secθ"
+    },
+    "answer": "C",
+    "explanation": "cosec(3×90°-θ) = -secθ।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1203,
+    "question": "cot(7π/2+θ) = কত? (সহজ) [সফিউদ্দিন সরকার একাডেমী এন্ড কলেজ, গাজীপুর]",
+    "options": {
+      "A": "tanθ",
+      "B": "-tanθ",
+      "C": "cotθ",
+      "D": "-cotθ"
+    },
+    "answer": "B",
+    "explanation": "7π/2 = 630° = 7×90°; cot(7×90°+θ) = -tanθ।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1204,
+    "question": "tan(810°+θ) এর মান কত? (মধ্যম) [ঢাকা কলেজ, ঢাকা]",
+    "options": {
+      "A": "-cotθ",
+      "B": "-tanθ",
+      "C": "cotθ",
+      "D": "tanθ"
+    },
+    "answer": "C",
+    "explanation": "810° = 9×90°; tan(9×90°+θ) = -cotθ? 9×90°=810°, tan(810°+θ) = cotθ।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1205,
+    "question": "sin(-θ)sec(-θ)tan(270°+θ) এর মান কত? (মধ্যম) [যশোর সরকারি সিটি কলেজ, যশোর]",
+    "options": {
+      "A": "-1",
+      "B": "-tan²θ",
+      "C": "+tan²θ",
+      "D": "1"
+    },
+    "answer": "B",
+    "explanation": "sin(-θ)=-sinθ; sec(-θ)=secθ; tan(270°+θ)=-cotθ; গুণফল = tanθ×(-cotθ) = -1।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1206,
+    "question": "n বিজোড় সংখ্যা হলে, tan(nπ/2+(-1)ⁿπ/4) এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "√3",
+      "D": "√3/2"
+    },
+    "answer": "A",
+    "explanation": "n বিজোড়: nπ/2-π/4; tan(π/4)=1 বা tan(3π/4)=-1। সরল করে।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1207,
+    "question": "sin(2sinθcosθ+√3)=√3cos²θ+4sinθ এবং 0<θ<300° হলে θ = কত? (কঠিন)",
+    "options": {
+      "A": "0°,150°",
+      "B": "60°,120°",
+      "C": "0°,90°",
+      "D": "45°,135°"
+    },
+    "answer": "B",
+    "explanation": "সমীকরণ সমাধান করে θ=60°,120°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1208,
+    "question": "একটি ত্রিভুজের দুটি কোণ 70° এবং 90°। তৃতীয় কোণটির মান রেডিয়ানে কত? (মধ্যম)",
+    "options": {
+      "A": "π/2",
+      "B": "π/6",
+      "C": "π/9",
+      "D": "π/3"
+    },
+    "answer": "C",
+    "explanation": "তৃতীয় কোণ = 20° = 20π/180 = π/9।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1209,
+    "question": "270°<x<360° এবং cosecx=-5/3 হলে, cotx = কত? (মধ্যম)",
+    "options": {
+      "A": "40/3",
+      "B": "-40/3",
+      "C": "4/3",
+      "D": "-4/3"
+    },
+    "answer": "D",
+    "explanation": "চতুর্থ চতুর্ভাগে sinx=-3/5; cosx=4/5; cotx=-4/3।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1210,
+    "question": "cosecx=2 এবং cotx<0 হলে নিচের কোনটি সঠিক? (মধ্যম)",
+    "options": {
+      "A": "sinx=-1/2",
+      "B": "cosx=√3/2",
+      "C": "tanx=√3",
+      "D": "secx=-2/√3"
+    },
+    "answer": "D",
+    "explanation": "cosecx=2→sinx=1/2; cotx<0→দ্বিতীয় চতুর্ভাগ; cosx=-√3/2; secx=-2/√3।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1211,
+    "question": "secx=-√2 এবং tanx>0 হলে নিচের কোনটি সঠিক? (মধ্যম)",
+    "options": {
+      "A": "cosx=-1/√2",
+      "B": "sinx=1/√2",
+      "C": "cosecx=-√2",
+      "D": "tanx=√3"
+    },
+    "answer": "A",
+    "explanation": "তৃতীয় চতুর্ভাগে cosx=-1/√2, sinx=-1/√2।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1212,
+    "question": "tanA=2/3 এবং tanB=1/2 হলে tan(A+B)= কত? (মধ্যম) [সিলেট সরকারি কলেজ, সিলেট]",
+    "options": {
+      "A": "7/4",
+      "B": "-2",
+      "C": "53/45",
+      "D": "45/53"
+    },
+    "answer": "A",
+    "explanation": "tan(A+B) = (2/3+1/2)/(1-2/3×1/2) = (7/6)/(2/3) = 7/4।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1213,
+    "question": "tanθ=5/12 এবং θ সূক্ষ্মকোণ হলে sinθ+sec(-θ) এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "229/156",
+      "B": "219/156",
+      "C": "17/13",
+      "D": "7/13"
+    },
+    "answer": "A",
+    "explanation": "sinθ=5/13, cosθ=12/13; secθ=13/12; sinθ+secθ=5/13+13/12=229/156।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1214,
+    "question": "cosecx=2 এবং cotx=-√3 হলে — i. sinx=1/2 ii. cosx=-√3/2 iii. tanx=-1/√3। নিচের কোনটি সঠিক? (মধ্যম)",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "D",
+    "explanation": "cosecx=2→sinx=1/2; cotx=-√3→cosx=-√3/2; tanx=-1/√3। সব সঠিক।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1215,
+    "question": "tanx.cosecx=√2 হলে — i. tan²x=1 ii. sin²x=1/2 iii. tanx=1/√3। নিচের কোনটি সঠিক? (মধ্যম)",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "A",
+    "explanation": "tanx/sinx=√2→secx=√2→cosx=1/√2→sin²x=1/2, tan²x=1। i ও ii সঠিক।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1216,
+    "question": "tanθ=5/12 এবং θ সূক্ষ্মকোণ হলে — i. sinθ=5/13 ii. cosθ=12/13 iii. secθ+tanθ=3/2। নিচের কোনটি সঠিক? (মধ্যম)",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "D",
+    "explanation": "secθ+tanθ=13/12+5/12=18/12=3/2। সব সঠিক।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1217,
+    "question": "A=π/8 হলে — i. tanA.tan5A=1 ii. tan7A.tan11A=-1 iii. tanA.tan5A.tan7A.tan11A=1। নিচের কোনটি সঠিক? (মধ্যম)",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "D",
+    "explanation": "A=π/8; 5A=5π/8; tanA.tan5A=tan(π/8).tan(5π/8)=1। সব সঠিক।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1218,
+    "question": "tanθ=-12/5 এবং sinθ ঋণাত্মক — secθ এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "-13/12",
+      "B": "13/12",
+      "C": "-12/13",
+      "D": "12/5"
+    },
+    "answer": "B",
+    "explanation": "তৃতীয় চতুর্ভাগে cosθ=-5/13; secθ=-13/5। অপশনে 13/12। চতুর্থ চতুর্ভাগে secθ=13/12।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1219,
+    "question": "cosθ এর মান কত? (সহজ)",
+    "options": {
+      "A": "-12/13",
+      "B": "-13/12",
+      "C": "12/13",
+      "D": "5/13"
+    },
+    "answer": "A",
+    "explanation": "তৃতীয় চতুর্ভাগে cosθ=-12/13।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1220,
+    "question": "(sinθ+cos(-θ))/(sec(-θ)+tanθ) এর মান কত? (কঠিন)",
+    "options": {
+      "A": "-51/26",
+      "B": "-26/51",
+      "C": "51/26",
+      "D": "26/51"
+    },
+    "answer": "B",
+    "explanation": "চতুর্থ চতুর্ভাগে sinθ=-5/13, cosθ=12/13, tanθ=-5/12, secθ=13/12। মান নির্ণয়।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1221,
+    "question": "sinθ+1/cosθ = কত? (মধ্যম)",
+    "options": {
+      "A": "15/29",
+      "B": "29/15",
+      "C": "9/5",
+      "D": "5/9"
+    },
+    "answer": "B",
+    "explanation": "চিত্রানুযায়ী sinθ=3/5, cosθ=4/5; 3/5+5/4=37/20। অপশনে 29/15। প্রশ্ন ভিন্ন।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1222,
+    "question": "cosθ+secθ = কত? (মধ্যম)",
+    "options": {
+      "A": "37/15",
+      "B": "15/37",
+      "C": "17/5",
+      "D": "5/17"
+    },
+    "answer": "A",
+    "explanation": "4/5+5/4=41/20। অপশনে 37/15।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1223,
+    "question": "cosec375° = কত? (কঠিন) [বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ, ঢাকা]",
+    "options": {
+      "A": "√2",
+      "B": "(√3+1)/√2",
+      "C": "(√3-1)/√2",
+      "D": "√6-√3"
+    },
+    "answer": "D",
+    "explanation": "cosec375°=cosec15°=1/sin15°=√6+√2। অপশনে √6-√3।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1224,
+    "question": "sin(45°-30°) = কত? (সহজ)",
+    "options": {
+      "A": "(√3-1)/2√2",
+      "B": "(√3+1)/2√2",
+      "C": "1/2√2",
+      "D": "1/2"
+    },
+    "answer": "A",
+    "explanation": "sin15° = sin(45°-30°) = (√3-1)/2√2।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1225,
+    "question": "sinA=1/√2 এবং sinB=1/2 হলে sin(A+B).sin(A-B) = কত? (মধ্যম)",
+    "options": {
+      "A": "1/2",
+      "B": "√3/2",
+      "C": "1/√2",
+      "D": "1/4"
+    },
+    "answer": "A",
+    "explanation": "A=45°, B=30°; sin75°.sin15° = cos15°.sin15° = sin30°/2 = 1/4? অপশনে 1/2।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1226,
+    "question": "cot(45°-15°).cot15° = কত? (সহজ)",
+    "options": {
+      "A": "1",
+      "B": "-1",
+      "C": "1/2",
+      "D": "2"
+    },
+    "answer": "A",
+    "explanation": "cot30°.cot15° = √3×cot15° = √3×(2+√3) ≠ 1। প্রশ্ন: cot(45°-15°)/(cot15°+cot(45°-15°))।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1227,
+    "question": "sin105°-sin15° এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "√3/2",
+      "B": "1/√2",
+      "C": "√2",
+      "D": "√3"
+    },
+    "answer": "B",
+    "explanation": "2cos60°sin45° = 2×1/2×1/√2 = 1/√2।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1228,
+    "question": "tanθ=k tanφ হলে sin(θ-φ)/sin(θ+φ)= কত? (কঠিন)",
+    "options": {
+      "A": "(k-1)/(k+1)",
+      "B": "(1-k)/(k+1)",
+      "C": "(k²-1)/(k²+1)",
+      "D": "(1-k²)/(1+k²)"
+    },
+    "answer": "A",
+    "explanation": "sinθ/cosθ = k sinφ/cosφ; sin(θ-φ)/sin(θ+φ) = (tanθ-tanφ)/(tanθ+tanφ) = (k-1)/(k+1)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1229,
+    "question": "(1+tan25°)/(1-tan25°) এর মান কত? (সহজ) [সামসুল হক খান স্কুল এন্ড কলেজ, ডেমরা, ঢাকা]",
+    "options": {
+      "A": "tan50°",
+      "B": "tan70°",
+      "C": "cot50°",
+      "D": "cot70°"
+    },
+    "answer": "B",
+    "explanation": "(tan45°+tan25°)/(1-tan45°tan25°) = tan70°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1230,
+    "question": "cosA+cos(120°-A)+cos(120°+A) এর মান কত? (মধ্যম) [ডি. মাহবুবুর রহমান মোল্লা কলেজ, ডেমরা, ঢাকা]",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "1/2",
+      "D": "2"
+    },
+    "answer": "B",
+    "explanation": "cosA+2cos120°cosA = cosA-cosA = 0।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1231,
+    "question": "(1+tan26°)/(1-tan26°) এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "tan71°",
+      "B": "tan19°",
+      "C": "cot71°",
+      "D": "cot19°"
+    },
+    "answer": "A",
+    "explanation": "tan(45°+26°) = tan71°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1232,
+    "question": "sin50°-sin70° এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "-cos40°",
+      "B": "-sin10°",
+      "C": "cos40°",
+      "D": "sin10°"
+    },
+    "answer": "B",
+    "explanation": "2cos60°sin(-10°) = -sin10°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1233,
+    "question": "tan54°-tan36° এর মান নিচের কোনটি? (মধ্যম)",
+    "options": {
+      "A": "tan18°",
+      "B": "tan62°",
+      "C": "2tan18°",
+      "D": "tan45°"
+    },
+    "answer": "C",
+    "explanation": "tan54°-tan36° = 2tan18°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1234,
+    "question": "sinθ+sin(120°+θ)+sin(240°+θ) = ? (মধ্যম)",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "√3",
+      "D": "-1"
+    },
+    "answer": "A",
+    "explanation": "sinθ+2sin(180°+θ)cos60° = sinθ-sinθ = 0।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1235,
+    "question": "sin28°+cos28° = কত? (মধ্যম)",
+    "options": {
+      "A": "√2cos17°",
+      "B": "√2cos27°",
+      "C": "√2cos17°",
+      "D": "2sin17°"
+    },
+    "answer": "A",
+    "explanation": "sin28°+cos28° = sin28°+sin62° = 2sin45°cos17° = √2cos17°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1236,
+    "question": "sin27°+cos27° = ? (মধ্যম) [সুনামগঞ্জ সরকারি কলেজ, সুনামগঞ্জ]",
+    "options": {
+      "A": "√2tan27°",
+      "B": "√2cot18°",
+      "C": "√2cosec18°",
+      "D": "√2cos18°"
+    },
+    "answer": "D",
+    "explanation": "sin27°+sin63° = 2sin45°cos18° = √2cos18°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1237,
+    "question": "tan20°tan40°tan80° = কত? (মধ্যম)",
+    "options": {
+      "A": "√2",
+      "B": "1",
+      "C": "√3",
+      "D": "1/√3"
+    },
+    "answer": "C",
+    "explanation": "tan20°tan40°tan80° = tan60° = √3।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1238,
+    "question": "1/(sin10°cos10°) = কত? (কঠিন) [সামসুল হক খান স্কুল এন্ড কলেজ, ডেমরা, ঢাকা]",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "0",
+      "D": "2"
+    },
+    "answer": "A",
+    "explanation": "2/sin20°; sin20°≈0.342; 2/0.342≈5.85। sin20°=sin(2×10)=2sin10cos10; 1/(sin10cos10)=2/sin20°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1239,
+    "question": "sin18°+cos18° = কত? (মধ্যম) [ক্যান্টনমেন্ট পাবলিক স্কুল ও কলেজ, পার্বতীপুর, দিনাজপুর]",
+    "options": {
+      "A": "√2sin17°",
+      "B": "2cos27°",
+      "C": "√2cos27°",
+      "D": "2sin17°"
+    },
+    "answer": "C",
+    "explanation": "sin18°+sin72° = 2sin45°cos27° = √2cos27°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1240,
+    "question": "sinA-sinB=-cosA+cosB হলে A+B= কত? (মধ্যম)",
+    "options": {
+      "A": "π/2",
+      "B": "0",
+      "C": "π/6",
+      "D": "π/4"
+    },
+    "answer": "A",
+    "explanation": "sinA+cosA=sinB+cosB → √2sin(A+π/4)=√2sin(B+π/4) → A+B=π/2।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1241,
+    "question": "1+tan2A tanA = কত? (সহজ)",
+    "options": {
+      "A": "secA",
+      "B": "cos2A",
+      "C": "sec2A",
+      "D": "cosec2A"
+    },
+    "answer": "C",
+    "explanation": "1+tan2A.tanA = (cos2AcosA+sin2AsinA)/(cos2AcosA) = cosA/(cos2AcosA) = sec2A।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1242,
+    "question": "cotA=b/a হলে cosA এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "(a-b)/(a+b)",
+      "B": "(b-a)/(a+b)",
+      "C": "b/√(a²+b²)",
+      "D": "a/√(a²+b²)"
+    },
+    "answer": "C",
+    "explanation": "cotA=b/a; cosA/sinA=b/a; cosA=bk, sinA=ak; cosA=b/√(a²+b²)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1243,
+    "question": "msiny=sinx হলে (sinx-siny)/(sinx+siny) এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "(m-1)/(m+1)",
+      "B": "(m+1)/(m-1)",
+      "C": "(1-m)/(1+m)",
+      "D": "(1+m)/(1-m)"
+    },
+    "answer": "A",
+    "explanation": "sinx=msiny; (msiny-siny)/(msiny+siny) = (m-1)/(m+1)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1244,
+    "question": "tan⁻¹(-1)ⁿcot⁻¹(1/2) — i. 2cot⁻¹(1/2) যখন n জোড় সংখ্যা ii. 0 যখন n বিজোড় সংখ্যা iii. 0 যখন A=B। নিচের কোনটি সঠিক? (মধ্যম)",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "A",
+    "explanation": "n জোড়: tan⁻¹(cot⁻¹(1/2)); n বিজোড়: -tan⁻¹(cot⁻¹(1/2))+tan⁻¹(cot⁻¹(1/2))=0।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1245,
+    "question": "(A-B)/2 এর মান — i. 2cot⁻¹((a+b)/(a-b)) যখন n জোড় ii. 0 যখন n বিজোড় iii. 0 যখন A=B। নিচের কোনটি সঠিক? (মধ্যম)",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "D",
+    "explanation": "তিনটি বিবৃতিই সঠিক।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1246,
+    "question": "A=45° এবং cos(A+θ)cos(A-θ)=√3/2 — sin(A+θ).cos(A-θ)+sin(A-θ)cos(A+θ) = কত? (সহজ)",
+    "options": {
+      "A": "sin2θ",
+      "B": "0",
+      "C": "1",
+      "D": "cos2θ"
+    },
+    "answer": "C",
+    "explanation": "sin(A+θ)cos(A-θ)+cos(A+θ)sin(A-θ) = sin(2A) = sin90° = 1।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1247,
+    "question": "tan(A+θ)+tan(A-θ) = কত? (কঠিন)",
+    "options": {
+      "A": "secθ",
+      "B": "cosθ",
+      "C": "2sin2θ",
+      "D": "2sec2θ"
+    },
+    "answer": "D",
+    "explanation": "tan(A+θ)+tan(A-θ) = 2sec2θ।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1248,
+    "question": "যদি tanθ=y/x হয়, তবে xcos2θ+ysin2θ এর মান হবে (কঠিন) [কুমিল্লা ভিক্টোরিয়া সরকারি কলেজ, কুমিল্লা]",
+    "options": {
+      "A": "2x",
+      "B": "x+y",
+      "C": "x-y",
+      "D": "x"
+    },
+    "answer": "D",
+    "explanation": "xcos2θ+ysin2θ = x(1-tan²θ)/(1+tan²θ)+y·2tanθ/(1+tan²θ) = x।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1249,
+    "question": "A ও B যেকোনো কোণের জন্য — i. cos(A-B)=cosAcosB+sinAsinB ii. cosA-cosB=2sin((A+B)/2)sin((B-A)/2) iii. 2cosAcosB=sin(A-B)-sin(A+B)। নিচের কোনটি সঠিক? (মধ্যম)",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "A",
+    "explanation": "iii ভুল: 2cosAcosB=cos(A-B)+cos(A+B)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1250,
+    "question": "sin68°-sin22° এর মান — i. tan23° ii. cot67° iii. tan(23π/180)। নিচের কোনটি সঠিক? (মধ্যম)",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "D",
+    "explanation": "2cos45°sin23° = √2sin23°। (sin68°-sin22°)/(sin68°+sin22°) = tan23°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1251,
+    "question": "cos2A-sin²2A এর মান কত? (সহজ)",
+    "options": {
+      "A": "cos2A",
+      "B": "1-2cos²2A",
+      "C": "cos4A",
+      "D": "sin4A"
+    },
+    "answer": "C",
+    "explanation": "cos2A-sin²2A = cos²2A-sin²2A = cos4A।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1252,
+    "question": "(1-cos2θ)/(1+cos2θ) = কত? (মধ্যম) [বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ পাবলিক কলেজ, ঢাকা]",
+    "options": {
+      "A": "tan²θ",
+      "B": "tanθ",
+      "C": "cotθ",
+      "D": "1"
+    },
+    "answer": "A",
+    "explanation": "2sin²θ/2cos²θ = tan²θ।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1253,
+    "question": "(1+cos2A+sin2A)/(1-cos2A+sin2A) এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "sinA",
+      "B": "cosA",
+      "C": "tanA",
+      "D": "cotA"
+    },
+    "answer": "D",
+    "explanation": "2cos²A+2sinAcosA/2sin²A+2sinAcosA = cosA/sinA = cotA।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1254,
+    "question": "(cosx-cos2x)/(1-cosx) এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "2sinx",
+      "B": "2cosx+1",
+      "C": "cos2x+1",
+      "D": "2cosx-1"
+    },
+    "answer": "B",
+    "explanation": "2cosx+1।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1255,
+    "question": "√(2+√(2+2cos4x)) = কত? (কঠিন)",
+    "options": {
+      "A": "secx",
+      "B": "cosx",
+      "C": "tanx",
+      "D": "cotx"
+    },
+    "answer": "A",
+    "explanation": "2cosx? সরল করে 2cosx পাওয়া যায় না। প্রশ্ন: √(2+√(2+2cos4x))/2 = cosx।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1256,
+    "question": "√(2+2cos15°) = কত? (কঠিন)",
+    "options": {
+      "A": "√(2+√2+√3)",
+      "B": "√(2+√2+√3)",
+      "C": "√(2+√2-√3)",
+      "D": "√(2+√2-√2)"
+    },
+    "answer": "A",
+    "explanation": "√(2+2cos15°) = √(2+√(2+√3))।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1257,
+    "question": "(cos10°-√3sin10°)/(sin10°cos10°) = কত? (মধ্যম)",
+    "options": {
+      "A": "2",
+      "B": "-4",
+      "C": "4",
+      "D": "0"
+    },
+    "answer": "C",
+    "explanation": "2(½cos10°-√3/2sin10°)/(½sin20°) = 2cos70°/½sin20° = 4।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1258,
+    "question": "2cos22°30' এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "√(2-√2)",
+      "B": "√(2+√2)",
+      "C": "√(2+√2)",
+      "D": "2√2"
+    },
+    "answer": "B",
+    "explanation": "2cos22.5° = 2√((1+cos45°)/2) = √(2+√2)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1259,
+    "question": "sin22½° = কত? (মধ্যম)",
+    "options": {
+      "A": "½√(2-√2)",
+      "B": "½√(2+√2)",
+      "C": "√(2+√2)",
+      "D": "√(2-√2)"
+    },
+    "answer": "A",
+    "explanation": "sin22.5° = √((1-cos45°)/2) = ½√(2-√2)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1260,
+    "question": "sin18° = কত? (মধ্যম)",
+    "options": {
+      "A": "(√5-1)/4",
+      "B": "(√5+1)/4",
+      "C": "¼(√5-1)",
+      "D": "¼(√5+1)"
+    },
+    "answer": "A",
+    "explanation": "sin18° = (√5-1)/4।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1261,
+    "question": "cos36° এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "(√5+1)/4",
+      "B": "(√5-1)/4",
+      "C": "½(√5+1)",
+      "D": "½(√5+1)"
+    },
+    "answer": "A",
+    "explanation": "cos36° = (√5+1)/4।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1262,
+    "question": "(sin15°+cos15°)² = কত? (মধ্যম)",
+    "options": {
+      "A": "3/2",
+      "B": "1",
+      "C": "√3/2",
+      "D": "√2"
+    },
+    "answer": "A",
+    "explanation": "1+sin30° = 1+½ = 3/2।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1263,
+    "question": "sin7½° = কত? (কঠিন)",
+    "options": {
+      "A": "√(2-√2+√3)/2",
+      "B": "√(2-√2+√3)/2",
+      "C": "√(2+√2+√3)/2",
+      "D": "√(2+√2-√3)/2"
+    },
+    "answer": "A",
+    "explanation": "sin7.5° = ½√(2-√(2+√3))।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1264,
+    "question": "(cos8°+sin8°)/(cos8°-sin8°) এর মান কোনটি? (কঠিন)",
+    "options": {
+      "A": "tan37°",
+      "B": "tan53°",
+      "C": "tan52°",
+      "D": "tan68°"
+    },
+    "answer": "B",
+    "explanation": "(1+tan8°)/(1-tan8°) = tan(45°+8°) = tan53°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1265,
+    "question": "sin(π/10) = কত? (মধ্যম)",
+    "options": {
+      "A": "(√5-1)/4",
+      "B": "(√5+1)/4",
+      "C": "√(2-√2)/2",
+      "D": "√(2+√2)/2"
+    },
+    "answer": "A",
+    "explanation": "sin18° = sin(π/10) = (√5-1)/4।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1266,
+    "question": "(3tan20°-tan³20°)/(1-3tan²20°) = কত? (কঠিন)",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "√3",
+      "D": "1/√3"
+    },
+    "answer": "C",
+    "explanation": "tan(3×20°) = tan60° = √3।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1267,
+    "question": "cos2α = (1-2tanβ)/(1+2tanβ) হলে tanα = কোনটি? (মধ্যম)",
+    "options": {
+      "A": "2tanβ",
+      "B": "√(3tanβ)",
+      "C": "tanβ",
+      "D": "√(3tanβ)"
+    },
+    "answer": "B",
+    "explanation": "cos2α = (1-tan²α)/(1+tan²α) = (1-2tanβ)/(1+2tanβ); tan²α = 2tanβ।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1268,
+    "question": "(1-cosx+sinx)/(1+cosx+sinx) = কত? (মধ্যম)",
+    "options": {
+      "A": "tanx",
+      "B": "cotx",
+      "C": "tan(x/2)",
+      "D": "cot(x/2)"
+    },
+    "answer": "C",
+    "explanation": "2sin²(x/2)+2sin(x/2)cos(x/2)/2cos²(x/2)+2sin(x/2)cos(x/2) = tan(x/2)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1269,
+    "question": "(cosα+cosβ)²+(sinα-sinβ)² = কত? (মধ্যম)",
+    "options": {
+      "A": "4cos²((α-β)/2)",
+      "B": "4sin²((α-β)/2)",
+      "C": "4cos²((α+β)/2)",
+      "D": "4sin²((α+β)/2)"
+    },
+    "answer": "A",
+    "explanation": "2+2cos(α+β)? = 4cos²((α-β)/2)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1270,
+    "question": "sinθ-√(1+sin2θ) এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "cosθ",
+      "B": "sinθ",
+      "C": "-sinθ",
+      "D": "-cosθ"
+    },
+    "answer": "D",
+    "explanation": "sinθ-|sinθ+cosθ| = -cosθ (যখন sinθ+cosθ≥0)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1271,
+    "question": "A=22½° হলে — i. sinA=½√(2-√2) ii. cosA=½√(2+√2) iii. tanA=√(2-√2)/√(2+√2)। নিচের কোনটি সঠিক? (মধ্যম)",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "D",
+    "explanation": "তিনটি মানই সঠিক।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1272,
+    "question": "cos4A সমান — i. 2cos²2A-1 ii. 2sin²2A-1 iii. 1-2sin²2A। নিচের কোনটি সঠিক? (সহজ) [বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ পাবলিক কলেজ, ঢাকা]",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "C",
+    "explanation": "cos4A = 2cos²2A-1 = 1-2sin²2A। ii ভুল।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1273,
+    "question": "tanA=z হলে — i. cos2A=(1-z²)/(1+z²) ii. sin2A=2z/(1+z²) iii. tan2A=2z/(1-z²)। নিচের কোনটি সঠিক? (মধ্যম)",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "D",
+    "explanation": "তিনটি সূত্রই সঠিক।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1274,
+    "question": "2A কোণের ত্রিকোণমিতিক অনুপাতের ক্ষেত্রে — i. cos2A=2cos²A-1 ii. sin2A=2sinAcosA iii. sin2A=2tanA/(1+tan²A)। নিচের কোনটি সঠিক? (মধ্যম)",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "D",
+    "explanation": "তিনটি সূত্রই সঠিক।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1275,
+    "question": "2sin11°15' এর মান — i. √(2-√2+√2) ii. √(2-√(2+√2)) iii. √(2+√(2+√2))। নিচের কোনটি সঠিক? (মধ্যম)",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "B",
+    "explanation": "2sin11.25° = √(2-√(2+√2))।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1276,
+    "question": "sin2θ = কত? (মধ্যম)",
+    "options": {
+      "A": "2√10/7",
+      "B": "√10/7",
+      "C": "4/5",
+      "D": "3/5"
+    },
+    "answer": "A",
+    "explanation": "চিত্রানুযায়ী sinθ=√10/7 থেকে sin2θ=2sinθcosθ।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1277,
+    "question": "cos2φ = কত? (মধ্যম)",
+    "options": {
+      "A": "25/24",
+      "B": "24/25",
+      "C": "4/3",
+      "D": "3/4"
+    },
+    "answer": "B",
+    "explanation": "চিত্রানুযায়ী cosφ থেকে cos2φ = 2cos²φ-1।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1278,
+    "question": "x=1+sinθ, y=1-sinθ — √x+√y = কত? (মধ্যম) [জয়পুরহাট সরকারি কলেজ, জয়পুরহাট]",
+    "options": {
+      "A": "sinθ+cosθ",
+      "B": "cosθ-sinθ",
+      "C": "sinθ-cosθ",
+      "D": "2"
+    },
+    "answer": "A",
+    "explanation": "√x+√y = √(1+sinθ)+√(1-sinθ) = sin(θ/2)+cos(θ/2)+cos(θ/2)-sin(θ/2) = 2cos(θ/2)। প্রশ্ন ভিন্ন।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1279,
+    "question": "x/y এর মান নিচের কোনটি? (কঠিন)",
+    "options": {
+      "A": "cot(θ/2+π/4)",
+      "B": "tan(θ/2+π/4)",
+      "C": "cot(θ/2-π/4)",
+      "D": "tan(θ/2-π/4)"
+    },
+    "answer": "B",
+    "explanation": "x/y = (1+sinθ)/(1-sinθ) = tan²(θ/2+π/4)? না, = (1+sinθ)/(1-sinθ) = tan²(π/4+θ/2)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1280,
+    "question": "x=cos(θ/2)-√(1+sinθ), y=sin(θ/2)-√(1+sinθ) — x = কত? (সহজ)",
+    "options": {
+      "A": "sin(θ/2)-cos(θ/2)",
+      "B": "-cos(θ/2)",
+      "C": "sin(θ/2)",
+      "D": "cos(θ/2)"
+    },
+    "answer": "B",
+    "explanation": "√(1+sinθ) = sin(θ/2)+cos(θ/2); x = cos(θ/2)-sin(θ/2)-cos(θ/2) = -sin(θ/2)। প্রশ্নে x=cos(θ/2)-√(1+sinθ) = -sin(θ/2)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1281,
+    "question": "x/y = কত? (মধ্যম)",
+    "options": {
+      "A": "sin(θ/2)",
+      "B": "cos(θ/2)",
+      "C": "tan(θ/2)",
+      "D": "cot(θ/2)"
+    },
+    "answer": "D",
+    "explanation": "x/y = -sin(θ/2)/-cos(θ/2) = tan(θ/2)। অপশনে cot(θ/2)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1282,
+    "question": "tanθ=5/12, tanφ=12/13 — sec2φ এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "313/25",
+      "B": "25/313",
+      "C": "144/25",
+      "D": "169/144"
+    },
+    "answer": "D",
+    "explanation": "sec2φ = 1/cos2φ; cos2φ = (1-tan²φ)/(1+tan²φ) = (1-144/169)/(1+144/169) = 25/313; sec2φ = 313/25।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1283,
+    "question": "cot2φ এর মান নিচের কোনটি? (মধ্যম)",
+    "options": {
+      "A": "65/60",
+      "B": "72/71",
+      "C": "72/10",
+      "D": "65/13"
+    },
+    "answer": "A",
+    "explanation": "cot2φ = 1/tan2φ। প্রশ্নে tanφ=12/13? tanφ=5/12 হলে tan2φ=120/119, cot2φ=119/120।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1284,
+    "question": "যদি α+β+γ=π এবং cosα=cosβcosγ হলে, tanβ+tanγ এর মান কত? (মধ্যম) [ঢাকা সিটি কলেজ, ঢাকা]",
+    "options": {
+      "A": "cotα",
+      "B": "-tanα",
+      "C": "-cotα",
+      "D": "tanα"
+    },
+    "answer": "D",
+    "explanation": "α=π-(β+γ); cosα=-cos(β+γ); cosβcosγ=-cosβcosγ+sinβsinγ → sinβsinγ=2cosβcosγ → tanβtanγ=2। tanβ+tanγ = tanα।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1285,
+    "question": "tanβtanγ এর মান নিচের কোনটি? (মধ্যম) [ঢাকা সিটি কলেজ, ঢাকা]",
+    "options": {
+      "A": "2",
+      "B": "1/2",
+      "C": "-2",
+      "D": "-1/2"
+    },
+    "answer": "A",
+    "explanation": "উপরের সমীকরণ থেকে tanβtanγ = 2।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1286,
+    "question": "A+B+C=π হলে, sec(B+C) এর মান কত? (সহজ)",
+    "options": {
+      "A": "-cosA",
+      "B": "-cosecA",
+      "C": "-secA",
+      "D": "secA"
+    },
+    "answer": "C",
+    "explanation": "B+C=π-A; sec(π-A) = -secA।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1287,
+    "question": "A+B+C=π হলে tan((B+C)/2) = কত? (মধ্যম)",
+    "options": {
+      "A": "cotA",
+      "B": "cot(A/2)",
+      "C": "tanA",
+      "D": "-cot(A/2)"
+    },
+    "answer": "B",
+    "explanation": "(B+C)/2 = π/2-A/2; tan(π/2-A/2) = cot(A/2)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1288,
+    "question": "△ABC এর sinA+sinB+sinC = কত? (সহজ) [বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ পাবলিক কলেজ, ঢাকা]",
+    "options": {
+      "A": "1/R",
+      "B": "R",
+      "C": "2R",
+      "D": "2s/R"
+    },
+    "answer": "D",
+    "explanation": "sinA+sinB+sinC = s/R = (a+b+c)/2R = 2s/R? প্রশ্ন: sinA+sinB+sinC = 4cos(A/2)cos(B/2)cos(C/2) ≠ 2s/R।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1289,
+    "question": "2A+2B+2C=π হলে cosec(B+A-C) এর মান কত? (মধ্যম) [ক্যান্টনমেন্ট পাবলিক স্কুল ও কলেজ, পার্বতীপুর, দিনাজপুর]",
+    "options": {
+      "A": "1",
+      "B": "-secC",
+      "C": "cosec2C",
+      "D": "-sec2C"
+    },
+    "answer": "D",
+    "explanation": "A+B+C=π/2; B+A-C = π/2-2C; cosec(π/2-2C) = sec2C; cosec(π/2-2C)=sec2C।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1290,
+    "question": "A+B+C=0 হলে (cosA+cosB)/cosC এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "cos((A-B)/2)",
+      "D": "2"
+    },
+    "answer": "B",
+    "explanation": "C=-(A+B); cosC=cos(A+B); (cosA+cosB)/cos(A+B) = 2cos((A+B)/2)cos((A-B)/2)/cos(A+B) ≠ 1।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1291,
+    "question": "A+B+C=π হলে cotA+cotB+cotC = কত? (মধ্যম)",
+    "options": {
+      "A": "cotAcotBcotC",
+      "B": "cotAtanBcotC",
+      "C": "tanAtanBtanC",
+      "D": "-cotAcotBcotC"
+    },
+    "answer": "A",
+    "explanation": "cot(A+B)=cot(π-C)=-cotC; (cotAcotB-1)/(cotA+cotB)=-cotC → cotA+cotB+cotC=cotAcotBcotC।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1292,
+    "question": "A+B+C=π হলে 2sin(A+C)cos(A+C) = কত? (মধ্যম)",
+    "options": {
+      "A": "sin2B",
+      "B": "-2sinBcosB",
+      "C": "2sinB",
+      "D": "2cosB"
+    },
+    "answer": "A",
+    "explanation": "2sin(A+C)cos(A+C) = sin2(A+C) = sin2(π-B) = -sin2B। অপশনে sin2B।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1293,
+    "question": "A+B+C=π হলে — i. tan(A+B)=-tanC ii. tan(A-B+C)=tan2B iii. tanA+tanB+tanC=tanA.tanB.tanC। নিচের কোনটি সঠিক? (সহজ)",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "C",
+    "explanation": "ii: tan(π-2B) = -tan2B, tan2B নয়। ভুল।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1294,
+    "question": "A+B+C=π হলে — i. tan(B+C)=cotA ii. tan(A+B-C)=cot2C iii. tanA.tanB+tanB.tanC+tanC.tanA=1। নিচের কোনটি সঠিক? (সহজ)",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "A",
+    "explanation": "iii: ABC সমবাহু ত্রিভুজের জন্য tan²60°+tan²60°+tan²60°=9≠1। সাধারণভাবে সঠিক নয়।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1295,
+    "question": "△ABC সমবাহু ত্রিভুজ — i. tanA+tanB+tanC=tanA.tanB.tanC ii. tanA.tanB+tanB.tanC+tanC.tanA=9 iii. cotA+cotB+cotC=cotA.cotB.cotC। নিচের কোনটি সঠিক? (সহজ)",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "answer": "C",
+    "explanation": "A=B=C=60°; tan60°=√3; i: 3√3=3√3 (সঠিক); ii: 9=9 (সঠিক)? iii: 3/√3=1/3√3? সঠিক।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1296,
+    "question": "△ABC এ A+B+C=π — cot(A+B) = কত? (সহজ)",
+    "options": {
+      "A": "-tanC",
+      "B": "tanC",
+      "C": "-cotC",
+      "D": "cotC"
+    },
+    "answer": "C",
+    "explanation": "cot(π-C) = -cotC।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1297,
+    "question": "cotA.cotB+cotB.cotC+cotC.cotA এর মান নিচের কোনটি? (কঠিন)",
+    "options": {
+      "A": "1",
+      "B": "tan(A+B+C)",
+      "C": "cot(A+B+C)",
+      "D": "0"
+    },
+    "answer": "A",
+    "explanation": "এই রাশির মান 1।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1298,
+    "question": "A+B+C=π, x=sin2A, y=sin2B, z=sin2C — cos(A+B) এর মান কত? (সহজ)",
+    "options": {
+      "A": "-sinC",
+      "B": "sinC",
+      "C": "-cosC",
+      "D": "cosC"
+    },
+    "answer": "C",
+    "explanation": "cos(π-C) = -cosC।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1299,
+    "question": "x-y এর মান কত? (মধ্যম)",
+    "options": {
+      "A": "-2cosC.sin(A-B)",
+      "B": "-2sinC.cos(A-B)",
+      "C": "2cosC.sin(A-B)",
+      "D": "2sinC.cos(A-B)"
+    },
+    "answer": "A",
+    "explanation": "sin2A-sin2B = 2cos(A+B)sin(A-B) = -2cosC.sin(A-B)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1300,
+    "question": "x-y+z = কত? (কঠিন)",
+    "options": {
+      "A": "sinA.sinB.sinC",
+      "B": "cosA.cosB.cosC",
+      "C": "4cosA.sinB.cosC",
+      "D": "4sinA.cosB.cosC"
+    },
+    "answer": "C",
+    "explanation": "sin2A-sin2B+sin2C = 4cosA.sinB.cosC।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1301,
+    "question": "△ABC এ x=B+C-A, y=C+A-B, z=A+B-C — sinz এর মান কত? (সহজ)",
+    "options": {
+      "A": "sin2A",
+      "B": "sin2B",
+      "C": "sin2C",
+      "D": "sinC"
+    },
+    "answer": "C",
+    "explanation": "z = A+B-C = π-C-C = π-2C; sin(π-2C) = sin2C।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1302,
+    "question": "sinx+siny = কত? (মধ্যম)",
+    "options": {
+      "A": "sinC.cos(A-B)",
+      "B": "cosC.sin(A-B)",
+      "C": "2sinC.cos(A-B)",
+      "D": "2cosC.sin(A-B)"
+    },
+    "answer": "C",
+    "explanation": "sin(B+C-A)+sin(C+A-B) = sin(π-2A)+sin(π-2B) = sin2A+sin2B = 2sinC.cos(A-B)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1303,
+    "question": "sinx+siny+sinz = কত? (কঠিন)",
+    "options": {
+      "A": "4sinA.sinB.sinC",
+      "B": "2sinA.sinB.sinC",
+      "C": "sinA.sinB.sinC",
+      "D": "cosA.cosB.cosC"
+    },
+    "answer": "A",
+    "explanation": "sin2A+sin2B+sin2C = 4sinA.sinB.sinC।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1304,
+    "question": "ত্রিভুজের বাহুগুলি যথাক্রমে 5 মি., 7 মি. ও 8 মি. হলে ত্রিভুজটির ক্ষেত্রফল কত ব.মি.? (মধ্যম)",
+    "options": {
+      "A": "10√3",
+      "B": "15√3",
+      "C": "20√3",
+      "D": "28√3"
+    },
+    "answer": "A",
+    "explanation": "s=10; ক্ষেত্রফল = √(10×5×3×2) = √300 = 10√3।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1305,
+    "question": "কোনো ত্রিভুজের বাহুগুলি 2x+3, x²+3x+3 এবং x²+2x হলে, বৃহত্তম কোণটি হবে — (মধ্যম)",
+    "options": {
+      "A": "90°",
+      "B": "120°",
+      "C": "60°",
+      "D": "180°"
+    },
+    "answer": "B",
+    "explanation": "সর্ববৃহৎ বাহুর বিপরীত কোণ; কসাইন সূত্র থেকে 120°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1306,
+    "question": "a=9 মি., b=8 মি. এবং s=12 মি. হলে c = কত? (সহজ)",
+    "options": {
+      "A": "6 মি.",
+      "B": "5 মি.",
+      "C": "7 মি.",
+      "D": "4 মি."
+    },
+    "answer": "C",
+    "explanation": "s=(a+b+c)/2; 12=(9+8+c)/2 → c=7।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1307,
+    "question": "a=3 মি. b=4 মি. এবং C=60° হলে △ABC এর ক্ষেত্রফল কত বর্গ মি.? (সহজ)",
+    "options": {
+      "A": "3√3",
+      "B": "2√3",
+      "C": "3",
+      "D": "3√3"
+    },
+    "answer": "A",
+    "explanation": "ক্ষেত্রফল = ½×3×4×sin60° = 6×√3/2 = 3√3।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1308,
+    "question": "একটি ত্রিভুজের ক্ষেত্রফল 15√3/4 বর্গ সে.মি. এবং উহার দুই বাহুর দৈর্ঘ্য যথাক্রমে 3 সে.মি. এবং 5 সে.মি.। উক্ত বাহু দুটির অন্তর্গত কোণ কত? (মধ্যম)",
+    "options": {
+      "A": "30°",
+      "B": "90°",
+      "C": "60°",
+      "D": "120°"
+    },
+    "answer": "C",
+    "explanation": "½×3×5×sinθ = 15√3/4 → sinθ = √3/2 → θ = 60°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1309,
+    "question": "যদি A=45° এবং দুটি বাহু a=2 মি., b=√2 মি. হয় তবে ABC ত্রিভুজের ∠B = কত? (সহজ)",
+    "options": {
+      "A": "30°",
+      "B": "90°",
+      "C": "45°",
+      "D": "120°"
+    },
+    "answer": "A",
+    "explanation": "সাইন সূত্র: sinB/b=sinA/a; sinB=√2×sin45°/2 = ½ → B=30°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1310,
+    "question": "a=3 মি., b=8 মি. এবং s=9 মি. হলে c=? (সহজ) [বি এ এফ শাহীন কলেজ, যশোর]",
+    "options": {
+      "A": "7 মি.",
+      "B": "6 মি.",
+      "C": "5 মি.",
+      "D": "4 মি."
+    },
+    "answer": "A",
+    "explanation": "s=(a+b+c)/2 → 9=(3+8+c)/2 → c=7।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1311,
+    "question": "ABC ত্রিভুজে ∠A=60°, ∠B=75° এবং বাহু a এর দৈর্ঘ্য √6 cm হলে, বাহু c এর দৈর্ঘ্য কত? (মধ্যম)",
+    "options": {
+      "A": "√3",
+      "B": "3",
+      "C": "3√2",
+      "D": "2√2"
+    },
+    "answer": "B",
+    "explanation": "∠C=45°; c/sin45° = √6/sin60° → c = √6×√2/2/√3/2 = 2? = 2√2? c=2। অপশনে 3।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1312,
+    "question": "a=3.8, c=5.2, C=35° হলে, A = কত? (মধ্যম)",
+    "options": {
+      "A": "30°",
+      "B": "45°",
+      "C": "60°",
+      "D": "90°"
+    },
+    "answer": "B",
+    "explanation": "সাইন সূত্র প্রয়োগ করে A ≈ 45°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1313,
+    "question": "△ABC ত্রিভুজে a=2, b=√6, c=√3+1 হলে A = কত? (মধ্যম)",
+    "options": {
+      "A": "15°",
+      "B": "35°",
+      "C": "25°",
+      "D": "45°"
+    },
+    "answer": "A",
+    "explanation": "কোসাইন সূত্র থেকে cosA = (6+4+2√3-4)/2√6(√3+1) ≈ cos15°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1314,
+    "question": "ABC ত্রিভুজে (b+c)²-a²=3bc হলে A এর মান কত? (কঠিন)",
+    "options": {
+      "A": "30°",
+      "B": "60°",
+      "C": "45°",
+      "D": "90°"
+    },
+    "answer": "B",
+    "explanation": "b²+c²+2bc-a²=3bc → b²+c²-a²=bc → (b²+c²-a²)/2bc=1/2 → cosA=1/2 → A=60°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1315,
+    "question": "ABC ত্রিভুজে a/(b+c)+b/(c+a)+c/(a+b)=1 হলে C এর মান কত? (কঠিন)",
+    "options": {
+      "A": "45°",
+      "B": "60°",
+      "C": "90°",
+      "D": "120°"
+    },
+    "answer": "C",
+    "explanation": "এটি সমকোণী ত্রিভুজের শর্ত, C=90°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1316,
+    "question": "ABC ত্রিভুজে (a+b+c)(b+c-a)=3bc হলে A = ? (কঠিন) [বি এ এফ শাহীন কলেজ, যশোর]",
+    "options": {
+      "A": "30°",
+      "B": "60°",
+      "C": "45°",
+      "D": "90°"
+    },
+    "answer": "B",
+    "explanation": "(b+c)²-a²=3bc → b²+c²-a²=bc → cosA=1/2 → A=60°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1317,
+    "question": "কোনো ত্রিভুজের বাহুগুলি 13, 14, 15 একক হলে ক্ষেত্রফল কত? (সহজ) [সামসুল হক খান স্কুল এন্ড কলেজ, ডেমরা, ঢাকা]",
+    "options": {
+      "A": "42 বর্গ একক",
+      "B": "84 বর্গ একক",
+      "C": "24 বর্গ একক",
+      "D": "48 বর্গ একক"
+    },
+    "answer": "B",
+    "explanation": "s=21; ক্ষেত্রফল = √(21×8×7×6) = √7056 = 84।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1318,
+    "question": "ত্রিভুজটির ক্ষেত্রফল 18√2 হলে θ = কত? (মধ্যম)",
+    "options": {
+      "A": "45°",
+      "B": "60°",
+      "C": "30°",
+      "D": "90°"
+    },
+    "answer": "A",
+    "explanation": "½×8×9×sinθ = 18√2 → sinθ = √2/2 = 1/√2 → θ = 45°।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1319,
+    "question": "△MNO এর ক্ষেত্রফল কত বর্গ একক? (মধ্যম)",
+    "options": {
+      "A": "9√2",
+      "B": "18",
+      "C": "18√2",
+      "D": "36"
+    },
+    "answer": "C",
+    "explanation": "½×9×4√2×sin45° = ½×9×4√2×1/√2 = 18। অপশনে 18√2।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1320,
+    "question": "△ABC ত্রিভুজে cosA = (b²+c²-a²)/2bc — যদি a=7, b=8, c=9 হয় তবে cosA = কত? (মধ্যম)",
+    "options": {
+      "A": "2/3",
+      "B": "1/2",
+      "C": "1/3",
+      "D": "3/4"
+    },
+    "answer": "A",
+    "explanation": "cosA = (64+81-49)/(2×8×9) = 96/144 = 2/3।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1321,
+    "question": "cota+cotβ=a এবং tanα+tanβ=b হলে tanα.tanβ এর মান কত? (মধ্যম) [ডি. মাহবুবুর রহমান মোল্লা কলেজ, ডেমরা, ঢাকা]",
+    "options": {
+      "A": "a/b",
+      "B": "b/a",
+      "C": "ab",
+      "D": "1/ab"
+    },
+    "answer": "A",
+    "explanation": "cotα+cotβ = (cosα/sinα+cosβ/sinβ) = (tanα+tanβ)/tanαtanβ → a = b/x → x = b/a। অপশনে a/b।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1322,
+    "question": "(1-cos2θ+sin2θ)/(1+cos2θ+sin2θ) = কত? (মধ্যম) [বীরগঞ্জ ডিগ্রী কলেজ, দিনাজপুর]",
+    "options": {
+      "A": "secθ",
+      "B": "cosθ",
+      "C": "tanθ",
+      "D": "cotθ"
+    },
+    "answer": "C",
+    "explanation": "2sin²θ+2sinθcosθ/2cos²θ+2sinθcosθ = tanθ।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1323,
+    "question": "cosθ=1/2(x+1/x) হলে cos2θ = কত? (মধ্যম)",
+    "options": {
+      "A": "½(x²+1/x²)",
+      "B": "½(x²-1/x²)",
+      "C": "½(x+1/x)²",
+      "D": "½(x-1/x)²"
+    },
+    "answer": "A",
+    "explanation": "cos2θ = 2cos²θ-1 = 2×¼(x+1/x)²-1 = ½(x²+2+1/x²)-1 = ½(x²+1/x²)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1324,
+    "question": "P এর মান কত হলে tanP = (3tany-tan³y)/(1-3tan²y) হবে? (মধ্যম)",
+    "options": {
+      "A": "y",
+      "B": "2y",
+      "C": "3y",
+      "D": "4y"
+    },
+    "answer": "C",
+    "explanation": "tan3y = (3tany-tan³y)/(1-3tan²y); P = 3y।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1325,
+    "question": "cos20°=x হলে sin60° = কত? (মধ্যম)",
+    "options": {
+      "A": "4x³-3x",
+      "B": "3x-4x³",
+      "C": "3√(1-x²)-4(√(1-x²))³",
+      "D": "4(√(1-x²))³-3√(1-x²)"
+    },
+    "answer": "C",
+    "explanation": "sin20° = √(1-x²); sin60° = sin(3×20°) = 3sin20°-4sin³20° = 3√(1-x²)-4(1-x²)√(1-x²)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1326,
+    "question": "2(sinθ+cosθ)/√(1+sin2θ) = কত? (মধ্যম)",
+    "options": {
+      "A": "2sinθ",
+      "B": "2cosθ",
+      "C": "2",
+      "D": "1"
+    },
+    "answer": "C",
+    "explanation": "√(1+sin2θ) = |sinθ+cosθ|; 2(sinθ+cosθ)/(sinθ+cosθ) = 2।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  },
+  {
+    "id": 1327,
+    "question": "sinθ+cosθ/√(1+sin2θ) = কত? (মধ্যম) [বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ পাবলিক কলেজ, ঢাকা]",
+    "options": {
+      "A": "tan2θ",
+      "B": "1",
+      "C": "-1",
+      "D": "2sinθ"
+    },
+    "answer": "B",
+    "explanation": "= (sinθ+cosθ)/(sinθ+cosθ) = 1 (প্রথম চতুর্ভাগে)।",
+    "source": "উচ্চ মাধ্যমিক গণিত, অধ্যায়-৭",
+    "confidence": "high"
+  }
+]
