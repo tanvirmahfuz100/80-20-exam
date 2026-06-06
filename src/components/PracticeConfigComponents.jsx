@@ -12,6 +12,7 @@ export const icons = {
     physics_1st: Flask,
     physics_2nd: Flask,
     higher_math_1st: Calculator,
+    higher_math_2nd: Calculator,
 };
 
 export const examColors = {
