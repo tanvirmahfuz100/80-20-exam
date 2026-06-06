@@ -1854,6 +1854,7 @@
         { "id": "chapter_5", "name": "Chapter 5", "chapters": [{ "id": "hsc_hm2_ch5", "name": "Chapter 5 Questions", "file_bn": "/hsc/higher_math_2nd/chapter_5.json" }], "name_bn": "অধ্যায় ৫: দ্বিপদী বিস্তৃতি", "name_en": "Chapter 5: Binomial Expansion" },
         { "id": "chapter_6", "name": "Chapter 6", "chapters": [{ "id": "hsc_hm2_ch6", "name": "Chapter 6 Questions", "file_bn": "/hsc/higher_math_2nd/chapter_6.json" }], "name_bn": "অধ্যায় ৬: কণিক", "name_en": "Chapter 6: Conic Section" },
         { "id": "chapter_7", "name": "Chapter 7", "chapters": [{ "id": "hsc_hm2_ch7", "name": "Chapter 7 Questions", "file_bn": "/hsc/higher_math_2nd/chapter_7.json" }], "name_bn": "অধ্যায় ৭: বিপরীত ত্রিকোণমিতিক ফাংশন", "name_en": "Chapter 7: Inverse Trigonometric Functions" },
+        { "id": "chapter_8", "name": "Chapter 8", "chapters": [{ "id": "hsc_hm2_ch8", "name": "Chapter 8 Questions", "file_bn": "/hsc/higher_math_2nd/chapter_8.json" }], "name_bn": "অধ্যায় ৮: স্থিতিবিদ্যা", "name_en": "Chapter 8: Statics" },
         { "id": "chapter_9", "name": "Chapter 9", "chapters": [{ "id": "hsc_hm2_ch9", "name": "Chapter 9 Questions", "file_bn": "/hsc/higher_math_2nd/chapter_9.json" }], "name_bn": "অধ্যায় ৯: বস্তুকণার গতি", "name_en": "Chapter 9: Particle Motion" }
       ],
       "name_bn": "উচ্চতর গণিত ২য় পত্র",
