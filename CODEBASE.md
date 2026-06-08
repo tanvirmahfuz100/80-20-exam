@@ -5,6 +5,7 @@
 > - [BUSINESS_RULES.md](./BUSINESS_RULES.md) — Product rules (test modes, scoring, question types)
 > - [docs/DESIGN.md](./docs/DESIGN.md) — UI/UX design rules and theme tokens
 > - [skills/](./skills/) — Reusable agent skills (extraction, error handling, navigation)
+> - [specify/](./specify/) — Feature specs: requirements for pages/features, written by the user
 
 ## Quick Reference
 

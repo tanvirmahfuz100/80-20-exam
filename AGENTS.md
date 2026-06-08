@@ -11,6 +11,7 @@
 | [CODEBASE.md](./CODEBASE.md) | Full codebase map: directories, imports, data flow, types, patterns |
 | [BUSINESS_RULES.md](./BUSINESS_RULES.md) | Product rules: question types, test modes, scoring, rewards |
 | [docs/DESIGN.md](./docs/DESIGN.md) | UI/UX design rules: theme tokens, Tailwind conventions, border/spacing guidelines |
+| [specify/](./specify/) | Agent instructions & specs — features, pages, ideas, notes written by you |
 
 ## Available Skills
 
@@ -41,3 +42,5 @@
 6. **Working on gamification features (XP, streaks, levels, shop)?** Read [AGENT_LESSONS.md](./AGENT_LESSONS.md) lessons 15-21 — covers weighted XP, level-up detection, active_items pattern, leaderboard/insight opt-out
 7. **Extending the Question Bank (bookmarks, fuzzy search, BCS format)?** Read [AGENT_LESSONS.md](./AGENT_LESSONS.md) lessons 18-20 — BCS array-index, fuzzy Levenshtein, bookmark lifecycle
 8. **Fixing quiz type errors?** Read [AGENT_LESSONS.md](./AGENT_LESSONS.md) lesson 21 — `NormalizedQuestion` must be defined in `src/types/index.ts`
+9. **Building a new feature/page?** Check [specify/](./specify/) for the spec file first, then read relevant codebase docs
+10. **Following agent instructions?** Visit [specify/](./specify/) when a task mentions a spec file or when you need detailed requirements
