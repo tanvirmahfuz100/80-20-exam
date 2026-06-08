@@ -15,7 +15,7 @@ export const stripMath = (text) => {
     .replace(/\\therefore/g, '∴');
 };
 
-import { normalizeQuizQuestion, pickQuestionText, resolveOptions, pickExplanation } from '../utils/normalizeQuestion';
+import { normalizeQuizQuestion } from '../utils/normalizeQuestion';
 import type { RawQuestion } from '../types';
 
 export const normalizeQuizQuestions = (payload: RawQuestion | RawQuestion[]) => {

@@ -3,7 +3,7 @@
 > **Related files:**
 > - [AGENTS.md](./AGENTS.md) — Skill index and knowledge base entry point
 > - [BUSINESS_RULES.md](./BUSINESS_RULES.md) — Product rules (test modes, scoring, question types)
-> - [docs/DESIGN.md](./docs/DESIGN.md) — UI/UX design rules and theme tokens
+> - [DESIGN.md](./DESIGN.md) — UI/UX design rules and theme tokens
 > - [skills/](./skills/) — Reusable agent skills (extraction, error handling, navigation)
 > - [specify/](./specify/) — Feature specs: requirements for pages/features, written by the user
 
@@ -178,7 +178,7 @@
 | `data-fix/` | Transforming, fixing, deduplicating, and migrating data | 41 |
 | `audit/` | QA, verification, duplicate checking | 14 |
 | `bcs/` | BCS exam-specific parsing | 4 |
-| `archive/` | One-off translations, temp data, old experiments | 7 |
+
 
 Key files:
 - `generate-codegraph.mjs` — Auto-generates the codebase dependency graph (`npm run codegraph`)
@@ -289,7 +289,7 @@ Exam slug → subjects → topics → chapters → file paths
 4. **Seeded randomization**: `dailyQuiz.ts` uses deterministic shuffle based on date string
 5. **Bengali-first**: UI labels in Bengali, Bengali font stack (Hind Siliguri, Noto Sans Bengali)
 6. **Duolingo-style gamification**: Gems, streaks, XP, stars, daily/weekly challenges
-7. **Mobile-first responsive**: Tailwind breakpoints for mobile/tablet/desktop/TV (3840px) (see [docs/DESIGN.md](./docs/DESIGN.md))
+7. **Mobile-first responsive**: Tailwind breakpoints for mobile/tablet/desktop/TV (3840px) (see [DESIGN.md](./DESIGN.md))
 8. **CSS custom properties**: Theme colors via `--bg`, `--text`, `--surface` etc., swapped with `data-theme="dark"` attribute
 9. **Weighted XP**: Easy=5, Medium=10, Hard=20 XP per correct answer. Streak bonus additive: 3→+5, 5→+10, 10+→+20 XP.
 10. **Level-up detection**: `useQuizPersistence` compares `prevLevel` vs `newLevel` on each save; writes `exam_leveled_up` flag to localStorage; awards `newLevel * 10` gems.

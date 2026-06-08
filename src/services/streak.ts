@@ -24,11 +24,6 @@ function getTodayStr() {
   return getDateStr(new Date());
 }
 
-function getDaysBetween(a, b) {
-  const ms = new Date(b).getTime() - new Date(a).getTime();
-  return Math.round(ms / 86400000);
-}
-
 export function recordDailyCheckIn(userId) {
   const data = getStreakData(userId);
   const today = getTodayStr();

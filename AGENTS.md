@@ -10,7 +10,7 @@
 |------|---------|
 | [CODEBASE.md](./CODEBASE.md) | Full codebase map: directories, imports, data flow, types, patterns |
 | [BUSINESS_RULES.md](./BUSINESS_RULES.md) | Product rules: question types, test modes, scoring, rewards |
-| [docs/DESIGN.md](./docs/DESIGN.md) | UI/UX design rules: theme tokens, Tailwind conventions, border/spacing guidelines |
+| [DESIGN.md](./DESIGN.md) | UI/UX design rules: theme tokens, Tailwind conventions, border/spacing guidelines |
 | [specify/](./specify/) | Agent instructions & specs — features, pages, ideas, notes written by you |
 
 ## Available Skills
@@ -29,14 +29,14 @@
 | `scripts/data-extraction/` | Scraping/parsing question data from external sources |
 | `scripts/data-fix/` | Transforming, fixing, and migrating question data |
 | `scripts/audit/` | QA, deduplication, and verification tools |
-| `scripts/archive/` | One-off translations and temporary data |
+
 | `scripts/generate-codegraph.mjs` | Auto-generates codebase dependency graph |
 
 ## How to Use
 
 1. **New to the codebase?** Read [CODEBASE.md](./CODEBASE.md) and [skills/codebase-navigation.md](./skills/codebase-navigation.md)
 2. **Adding questions?** Read [skills/html-to-json-extraction.md](./skills/html-to-json-extraction.md) and [skills/adding-new-subject.md](./skills/adding-new-subject.md)
-3. **Debugging UI issues?** Read [docs/DESIGN.md](./docs/DESIGN.md)
+3. **Debugging UI issues?** Read [DESIGN.md](./DESIGN.md)
 4. **Understanding product rules?** Read [BUSINESS_RULES.md](./BUSINESS_RULES.md)
 5. **Handling errors?** Read [skills/error-handling.md](./skills/error-handling.md)
 6. **Working on gamification features (XP, streaks, levels, shop)?** Read [AGENT_LESSONS.md](./AGENT_LESSONS.md) lessons 15-21 — covers weighted XP, level-up detection, active_items pattern, leaderboard/insight opt-out

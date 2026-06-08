@@ -1,9 +1,0 @@
-{
-  "name": "pdf_extractor",
-  "version": "1.0.0",
-  "type": "module",
-  "dependencies": {
-    "@google/generative-ai": "^0.21.0",
-    "dotenv": "^16.4.5"
-  }
-}

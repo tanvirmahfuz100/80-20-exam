@@ -1,5 +1,5 @@
 ﻿import React, { useEffect, useState } from 'react';
-import AnimatedTextCycle from '@/components/ui/animated-text-cycle.jsx';
+import AnimatedTextCycle from '@/components/ui/animated-text-cycle';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Star, Zap, BookOpen, Users, GraduationCap, Sun, Moon } from 'lucide-react';
 import { Books, Target, StudyDesk } from '../components/Illustrations';

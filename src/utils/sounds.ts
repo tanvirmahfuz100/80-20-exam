@@ -1,10 +1,7 @@
 import { useSoundStore } from '../stores/soundStore';
 
-let userInteracted = false;
-
 if (typeof window !== 'undefined') {
     const unlockAudio = () => {
-        userInteracted = true;
         try {
             const ctx = new (window.AudioContext || window.webkitAudioContext)();
             const osc = ctx.createOscillator();
@@ -14,7 +11,7 @@ if (typeof window !== 'undefined') {
             gain.connect(ctx.destination);
             osc.start(0);
             osc.stop(0.001);
-        } catch {}
+        } catch { /* AudioContext may not be available */ }
     };
     window.addEventListener('click', unlockAudio, { once: true });
     window.addEventListener('keydown', unlockAudio, { once: true });
