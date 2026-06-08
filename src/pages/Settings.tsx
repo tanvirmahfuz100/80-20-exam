@@ -306,7 +306,7 @@ const Settings = () => {
                                     type="text"
                                     value={formData.username}
                                     onChange={(e) => setFormData({ ...formData, username: e.target.value })}
-                                    className="duo-input pl-10"
+                                    className="duo-input !pl-10"
                                     placeholder="পূর্ণ নাম"
                                 />
                             </div>
@@ -315,7 +315,7 @@ const Settings = () => {
                             <label className="text-[10px] font-bold uppercase tracking-wider text-text-muted px-1 bn-text">ইমেইল</label>
                             <div className="relative opacity-60">
                                 <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
-                                <input type="email" value={user?.email} disabled className="duo-input pl-10 cursor-not-allowed" />
+                                <input type="email" value={user?.email} disabled className="duo-input !pl-10 cursor-not-allowed" />
                             </div>
                         </div>
                         <div className="space-y-1.5">
@@ -326,7 +326,7 @@ const Settings = () => {
                                     type="tel"
                                     value={formData.phone_number}
                                     onChange={(e) => setFormData({ ...formData, phone_number: e.target.value })}
-                                    className="duo-input pl-10"
+                                    className="duo-input !pl-10"
                                     placeholder="ফোন নম্বর"
                                 />
                             </div>

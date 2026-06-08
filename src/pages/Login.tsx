@@ -52,7 +52,7 @@ const Login = () => {
                                 required
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
-                                className="duo-input pl-10"
+                                className="duo-input !pl-10"
                                 placeholder="ইমেইল ঠিকানা"
                             />
                         </div>
