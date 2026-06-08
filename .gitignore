@@ -39,3 +39,7 @@ docs/
 # Generated codebase graph
 codegraph.json
 
+# Agent workspace & generated graph
+.opencode/
+graphify-out
+

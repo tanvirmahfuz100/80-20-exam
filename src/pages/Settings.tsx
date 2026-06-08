@@ -6,13 +6,17 @@ import LoadingScreen from '../components/LoadingScreen';
 import {
     User, Mail, Phone, GraduationCap, CheckCircle2,
     Save, AlertCircle, Loader2, ShieldCheck, Sun, Moon,
-    BookOpen, Bell, Globe, Lock, Palette,
+    BookOpen, Bell, Globe, Lock, Palette, Layout,
     Download, Upload, Database, Trash2,
 } from 'lucide-react';
+import HomepageCustomizer from '../components/homepage/HomepageCustomizer';
+import { useHomepageLayout } from '../hooks/useHomepageLayout';
+import { ALL_CARDS, HOMEPAGE_CARD_META } from '../types/homepage';
 
 const Settings = () => {
     const { user, profile, loading: authLoading, updateProfileFields } = useAuth();
     const { theme, setTheme, isDark, fontSize, setFontSize } = useTheme();
+    const { isCardActive, toggleCard, resetToDefault } = useHomepageLayout();
     const [loading, setLoading] = useState(false);
     const [message, setMessage] = useState({ type: '', text: '' });
 
@@ -101,6 +105,7 @@ const Settings = () => {
         'user_exam_path',
         'user_name',
         'fireman-mode-chosen',
+        'exam_homepage_layout',
     ];
 
     const exportData = () => {
@@ -144,7 +149,7 @@ const Settings = () => {
                     }
                 }
                 setBackupMessage({ type: 'success', text: `${count}টি আইটেম রিস্টোর করা হয়েছে। পৃষ্ঠা রিফ্রেশ করো।` });
-            } catch (err) {
+            } catch {
                 setBackupMessage({ type: 'error', text: 'ইমপোর্ট ব্যর্থ: ফাইল ফরম্যাট সঠিক নয়।' });
             }
         };
@@ -311,6 +316,42 @@ const Settings = () => {
                                 ))}
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <div className="bg-surface border border rounded-2xl p-5">
+                    <h3 className="font-black text-sm text-text mb-4 flex items-center gap-2">
+                        <Layout className="w-4 h-4 text-primary" />
+                        হোমপেজ লেআউট
+                    </h3>
+                    <div className="space-y-3">
+                        {ALL_CARDS.map((id) => {
+                            const meta = HOMEPAGE_CARD_META[id];
+                            const active = isCardActive(id);
+                            return (
+                                <button
+                                    key={id}
+                                    onClick={() => toggleCard(id)}
+                                    className={`w-full p-3 rounded-xl border text-left flex items-center justify-between transition-all active:scale-[0.98] ${
+                                        active
+                                            ? 'bg-primary/5 border-primary/20 text-primary'
+                                            : 'bg-surface border text-text-muted hover:border hover:text-text'
+                                    }`}
+                                >
+                                    <div>
+                                        <p className="text-sm font-bold">{meta?.label || id}</p>
+                                        <p className="text-xs text-text-muted mt-0.5">{meta?.description || ''}</p>
+                                    </div>
+                                    {active && <CheckCircle2 className="w-4 h-4 shrink-0" />}
+                                </button>
+                            );
+                        })}
+                        <button
+                            onClick={resetToDefault}
+                            className="w-full p-3 rounded-xl border border text-text-muted font-bold text-sm hover:bg-surface-alt transition-all active:scale-[0.98]"
+                        >
+                            ডিফল্টে রিসেট করো
+                        </button>
                     </div>
                 </div>
 

@@ -141,3 +141,8 @@
     - The three quiz hooks (`useQuizAnswer`, `useQuizLoader`, `useQuizPersistence`) all import `NormalizedQuestion` from `'../types'`.
     - This type was never defined in `src/types/index.ts` — a silent TS error that would block building.
     - Define it as a flat interface with `options: string[]` (not `NormalizedOption[]`), matching the shape returned by `normalizeQuizQuestions`.
+
+22. **Shared Zustand store for cross-component state sync**:
+    - When a hook with `useState` + `localStorage` is used in multiple component instances (e.g., `HomepageLayout` + `HomepageCustomizer` + `Settings`), each instance gets independent state — changes in one don't reflect in others until a full re-mount/refresh.
+    - Fix: use a Zustand store (`create()`) to hold the state. Every component that subscribes via the hook re-renders from the single source of truth.
+    - The pattern: store loads from `localStorage` on init, persists on every mutation, and all consumers read/write through the same store. No stale state.

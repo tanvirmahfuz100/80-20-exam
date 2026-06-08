@@ -44,3 +44,17 @@
 8. **Fixing quiz type errors?** Read [AGENT_LESSONS.md](./AGENT_LESSONS.md) lesson 21 — `NormalizedQuestion` must be defined in `src/types/index.ts`
 9. **Building a new feature/page?** Check [specify/](./specify/) for the spec file first, then read relevant codebase docs
 10. **Following agent instructions?** Visit [specify/](./specify/) when a task mentions a spec file or when you need detailed requirements
+
+## graphify
+
+This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
+
+When the user types `/graphify`, invoke the `skill` tool with `skill: "graphify"` before doing anything else.
+
+Rules:
+- For codebase questions, first run `graphify query "<question>"` when graphify-out/graph.json exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
+- Dirty graphify-out/ files are expected after hooks or incremental updates; dirty graph files are not a reason to skip graphify. Only skip graphify if the task is about stale or incorrect graph output, or the user explicitly says not to use it.
+- If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.
+- Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
+- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
+- **End-of-session rule:** Before any session ends (after the last code modification), always run `graphify update .` then `graphify tree --graph graphify-out/graph.json --output graphify-out/graph.html` to regenerate the graph and HTML. This is mandatory — the hook only runs on commits, not on unstaged work.
