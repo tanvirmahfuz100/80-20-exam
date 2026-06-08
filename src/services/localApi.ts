@@ -468,6 +468,12 @@ export const api = {
         const now = Date.now();
         const periodMs = period === 'daily' ? 86400000 : period === 'weekly' ? 604800000 : Infinity;
 
+        const lbOptOut = readStorage<{ until: string | null } | null>('exam_leaderboard_opt_out', null);
+        if (lbOptOut && lbOptOut.until !== null && now >= new Date(lbOptOut.until).getTime()) {
+            writeStorage('exam_leaderboard_opt_out', null);
+        }
+        const isActiveOptOut = lbOptOut && (lbOptOut.until === null || now < new Date(lbOptOut.until).getTime());
+
         const xpMap: Record<string, number> = {};
         for (const s of sessions) {
             if (periodMs !== Infinity && now - new Date(s.created_at).getTime() > periodMs) continue;
@@ -481,6 +487,7 @@ export const api = {
                 return { userId, username: p?.username || 'Unknown', xp, avatar: undefined };
             })
             .filter(e => {
+                if (isActiveOptOut) return false;
                 const p = profiles.find(pr => pr.id === e.userId);
                 return p?.show_in_leaderboard !== false;
             })

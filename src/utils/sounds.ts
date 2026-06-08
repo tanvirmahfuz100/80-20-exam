@@ -1,3 +1,5 @@
+import { useSoundStore } from '../stores/soundStore';
+
 let userInteracted = false;
 
 if (typeof window !== 'undefined') {
@@ -20,8 +22,10 @@ if (typeof window !== 'undefined') {
 
 const base = import.meta.env.BASE_URL || '/';
 
-const sounds = {
+const sounds: Record<string, HTMLAudioElement> = {
     correctAnswer: new Audio(`${base}audio/correct_answer.mp3`),
+    wrongAnswer: new Audio(`${base}audio/wrong_answer.mp3`),
+    click: new Audio(`${base}audio/click.mp3`),
     star: new Audio(`${base}audio/star.mp3`),
     levelUp: new Audio(`${base}audio/level_up.mp3`),
     bonus: new Audio(`${base}audio/bonus.mp3`),
@@ -31,11 +35,23 @@ const sounds = {
     time: new Audio(`${base}audio/time.mp3`),
 };
 
-export const playSound = (soundName) => {
-    const sound = sounds[soundName];
+const ALIASES: Record<string, string> = {
+    pageChange: 'interface',
+};
+
+export const playSound = (soundName: string) => {
+    const storeKey = ALIASES[soundName] ? soundName : soundName;
+    const state = useSoundStore.getState();
+    if (state.globalMute) return;
+    const setting = state.getSetting(storeKey);
+    if (!setting.enabled) return;
+
+    const resolved = ALIASES[soundName] || soundName;
+    const sound = sounds[resolved];
     if (sound) {
         sound.currentTime = 0;
-        sound.play().catch(e => console.log('Sound error:', e.message));
+        sound.volume = setting.volume / 100;
+        sound.play().catch(() => {});
     }
 };
 

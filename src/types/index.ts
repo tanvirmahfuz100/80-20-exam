@@ -379,7 +379,7 @@ export interface StreakHistoryData {
 }
 
 // ── Theme Context ──
-export type Theme = 'dark' | 'light';
+export type Theme = 'dark' | 'light' | 'system';
 export type FontSize = 'small' | 'normal' | 'large' | 'xlarge';
 
 // ── Question Bank ──

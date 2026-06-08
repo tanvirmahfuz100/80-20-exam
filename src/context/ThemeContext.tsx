@@ -1,9 +1,13 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
 
 const THEME_KEY = 'duo-theme';
+const SYSTEM = 'system';
 const DARK = 'dark';
 const LIGHT = 'light';
 const FONT_SIZE_KEY = 'fireman-font-size';
+const CUSTOM_FONT_SIZE_KEY = 'fireman-custom-font-size';
+
+const THEMES = [DARK, LIGHT, SYSTEM] as const;
 
 const FONT_SIZE_MAP: Record<string, string> = {
   small: '14px',
@@ -26,6 +30,8 @@ interface ThemeContextValue {
   isDark: boolean;
   fontSize: string;
   setFontSize: (s: string) => void;
+  customFontSize: string;
+  setCustomFontSize: (px: string) => void;
   fontSizeValue: string;
   fontSizeOptions: { key: string; label: string; value: string }[];
 }
@@ -42,10 +48,15 @@ const getSystemPreference = () => {
   }
 };
 
+const resolveTheme = (theme: string) => {
+  if (theme === SYSTEM) return getSystemPreference();
+  return theme;
+};
+
 const getInitialTheme = () => {
   try {
     const stored = localStorage.getItem(THEME_KEY);
-    if (stored === LIGHT || stored === DARK) return stored;
+    if (THEMES.includes(stored as any)) return stored;
   } catch {}
   return DARK;
 };
@@ -60,14 +71,15 @@ const getInitialFontSize = () => {
 
 const applyTheme = (theme: string) => {
   if (typeof document === 'undefined') return;
-  if (theme === DARK) {
+  const resolved = resolveTheme(theme);
+  if (resolved === DARK) {
     document.documentElement.setAttribute('data-theme', DARK);
   } else {
     document.documentElement.removeAttribute('data-theme');
   }
   const meta = document.querySelector<HTMLMetaElement>('meta[name="theme-color"]');
   if (meta) {
-    meta.content = theme === DARK ? '#131F24' : '#F1F7FB';
+    meta.content = resolved === DARK ? '#131F24' : '#F1F7FB';
   }
 };
 
@@ -77,9 +89,25 @@ const applyFontSize = (sizeKey: string) => {
   document.documentElement.style.setProperty('--app-font-size', v);
 };
 
+const getInitialCustomFontSize = () => {
+  try {
+    const stored = localStorage.getItem(CUSTOM_FONT_SIZE_KEY);
+    if (stored && !isNaN(Number(stored))) return stored;
+  } catch {}
+  return '';
+};
+
+const applyCustomFontSize = (px: string) => {
+  if (typeof document === 'undefined') return;
+  if (px && !isNaN(Number(px))) {
+    document.documentElement.style.setProperty('--app-font-size', `${px}px`);
+  }
+};
+
 export const ThemeProvider = ({ children }) => {
   const [theme, setThemeState] = useState(() => getInitialTheme());
   const [fontSize, setFontSizeState] = useState(() => getInitialFontSize());
+  const [customFontSize, setCustomFontSizeState] = useState(() => getInitialCustomFontSize());
 
   useEffect(() => {
     applyTheme(theme);
@@ -89,11 +117,15 @@ export const ThemeProvider = ({ children }) => {
   }, [theme]);
 
   useEffect(() => {
-    applyFontSize(fontSize);
+    if (customFontSize) {
+      applyCustomFontSize(customFontSize);
+    } else {
+      applyFontSize(fontSize);
+    }
     try {
       localStorage.setItem(FONT_SIZE_KEY, fontSize);
     } catch {}
-  }, [fontSize]);
+  }, [fontSize, customFontSize]);
 
   useEffect(() => {
     let mq;
@@ -102,14 +134,10 @@ export const ThemeProvider = ({ children }) => {
     } catch {
       return;
     }
-    const handler = (e) => {
-      try {
-        const stored = localStorage.getItem(THEME_KEY);
-        if (!stored) {
-          setThemeState(e.matches ? LIGHT : DARK);
-        }
-      } catch {
-        setThemeState(e.matches ? LIGHT : DARK);
+    const handler = () => {
+      const stored = localStorage.getItem(THEME_KEY);
+      if (stored === SYSTEM || !stored) {
+        applyTheme(SYSTEM);
       }
     };
     mq.addEventListener('change', handler);
@@ -117,25 +145,42 @@ export const ThemeProvider = ({ children }) => {
   }, []);
 
   const setTheme = useCallback((t: string) => {
+    if (!THEMES.includes(t as any)) return;
     setThemeState(t);
   }, []);
 
   const toggleTheme = useCallback(() => {
-    setThemeState((prev: string) => (prev === DARK ? LIGHT : DARK));
+    setThemeState((prev: string) => {
+      if (prev === DARK) return LIGHT;
+      if (prev === LIGHT) return DARK;
+      const sys = getSystemPreference();
+      return sys === DARK ? LIGHT : DARK;
+    });
   }, []);
 
   const setFontSize = useCallback((sizeKey: string) => {
     if (!FONT_SIZE_MAP[sizeKey]) return;
     setFontSizeState(sizeKey);
+    setCustomFontSizeState('');
+    try { localStorage.removeItem(CUSTOM_FONT_SIZE_KEY); } catch {}
   }, []);
 
-  const isDark = theme === DARK;
+  const setCustomFontSize = useCallback((px: string) => {
+    setCustomFontSizeState(px);
+    if (px && !isNaN(Number(px))) {
+      applyCustomFontSize(px);
+      try { localStorage.setItem(CUSTOM_FONT_SIZE_KEY, px); } catch {}
+    }
+  }, []);
+
+  const isDark = resolveTheme(theme) === DARK;
 
   return (
     <ThemeContext.Provider value={{
       theme, setTheme, toggleTheme, isDark,
       fontSize, setFontSize,
-      fontSizeValue: FONT_SIZE_MAP[fontSize] || FONT_SIZE_MAP.normal,
+      customFontSize, setCustomFontSize,
+      fontSizeValue: customFontSize ? `${customFontSize}px` : (FONT_SIZE_MAP[fontSize] || FONT_SIZE_MAP.normal),
       fontSizeOptions: Object.entries(FONT_SIZE_MAP).map(([key, val]) => ({
         key,
         label: FONT_SIZE_LABELS[key] || key,
@@ -153,4 +198,4 @@ export const useTheme = () => {
   return ctx;
 };
 
-export { DARK, LIGHT };
+export { DARK, LIGHT, SYSTEM };
