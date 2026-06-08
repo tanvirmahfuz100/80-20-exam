@@ -44,7 +44,7 @@ const PracticeConfig = () => {
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3 }}
-                className="relative overflow-hidden rounded-2xl bg-surface border p-5 md:p-6 flex flex-col md:flex-row md:items-end justify-between gap-3 shadow-sm"
+                className="relative overflow-hidden rounded-2xl bg-surface border p-5 md:p-6 flex flex-col md:flex-row md:items-end justify-between gap-3"
             >
                 <div className="min-w-0 flex-1 relative z-10">
                     <motion.h1
@@ -80,10 +80,10 @@ const PracticeConfig = () => {
                     transition={{ delay: 0.15 }}
                     className="bg-background border p-0.5 rounded-xl flex items-center gap-0.5 self-start md:self-end shrink-0 relative z-10"
                 >
-                    <button onClick={() => setIsTimed(false)} className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-[10px] font-bold tracking-wider transition-all whitespace-nowrap bn-text ${!isTimed ? 'bg-primary text-white shadow-sm' : 'text-text-muted hover:text-text'}`}>
+                    <button onClick={() => setIsTimed(false)} className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-[10px] font-bold tracking-wider transition-all whitespace-nowrap bn-text ${!isTimed ? 'bg-primary text-white' : 'text-text-muted hover:text-text'}`}>
                         আনটাইমড
                     </button>
-                    <button onClick={() => setIsTimed(true)} className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-[10px] font-bold tracking-wider transition-all whitespace-nowrap bn-text ${isTimed ? 'bg-primary text-white shadow-sm' : 'text-text-muted hover:text-text'}`}>
+                    <button onClick={() => setIsTimed(true)} className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-[10px] font-bold tracking-wider transition-all whitespace-nowrap bn-text ${isTimed ? 'bg-primary text-white' : 'text-text-muted hover:text-text'}`}>
                         <Timer className="w-3.5 h-3.5" />
                         টাইমড
                     </button>

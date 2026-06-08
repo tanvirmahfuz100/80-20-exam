@@ -325,7 +325,7 @@ const Analytics = () => {
       {/* ── Smart Recommendation ── */}
       <motion.div variants={itemVariants} className="relative bg-primary/[0.07] rounded-xl border border-primary/30 p-5 md:p-6 space-y-3 overflow-hidden">
         <div className="absolute inset-y-0 left-0 w-1 bg-primary rounded-full" />
-        <div className="absolute -top-6 -right-6 w-32 h-32 bg-primary/[0.04] rounded-full blur-3xl" />
+        <div className="absolute -top-6 -right-6 w-32 h-32 bg-primary/[0.04] rounded-full" />
         <div className="flex items-center gap-2">
           <div className="p-1.5 rounded-lg bg-primary/10 border border-primary/20">
             <Sparkles className="w-4 h-4 text-primary" />

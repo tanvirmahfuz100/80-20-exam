@@ -25,7 +25,7 @@ const Login = () => {
 
     return (
         <div className="min-h-[80vh] flex items-center justify-center w-full px-4">
-            <div className="w-full max-w-sm space-y-6 p-6 md:p-8 bg-surface border rounded-3xl shadow-lg">
+            <div className="w-full max-w-sm space-y-6 p-6 md:p-8 bg-surface border rounded-3xl">
                 <div className="text-center space-y-3">
                     <div className="w-16 h-16 bg-primary/10 rounded-2xl border-2 border-primary/20 flex items-center justify-center mx-auto">
                         <Sparkles className="w-8 h-8 text-primary" />
@@ -64,7 +64,7 @@ const Login = () => {
                     <button
                         type="submit"
                         disabled={loading}
-                        className="w-full py-3 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-full font-bold text-sm transition-all flex items-center justify-center gap-2 active:scale-[0.97] shadow-sm"
+                        className="w-full py-3 bg-primary hover:bg-primary-hover disabled:opacity-50 text-white rounded-full font-bold text-sm transition-all flex items-center justify-center gap-2 active:scale-[0.97]"
                     >
                         {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <LogIn className="w-4 h-4" />}
                         অ্যাপে যাও

@@ -24,9 +24,9 @@ export default function AnimatedTextCycle({ words = [], interval = 5000, classNa
   }, [interval, words.length]);
 
   const containerVariants = {
-    hidden: { y: -20, opacity: 0, filter: "blur(8px)" },
-    visible: { y: 0, opacity: 1, filter: "blur(0px)", transition: { duration: 0.4, ease: "easeOut" } },
-    exit: { y: 20, opacity: 0, filter: "blur(8px)", transition: { duration: 0.3, ease: "easeIn" } },
+    hidden: { y: -20, opacity: 0 },
+    visible: { y: 0, opacity: 1, transition: { duration: 0.4, ease: "easeOut" } },
+    exit: { y: 20, opacity: 0, transition: { duration: 0.3, ease: "easeIn" } },
   };
 
   return (

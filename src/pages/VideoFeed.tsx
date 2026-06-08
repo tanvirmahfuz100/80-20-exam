@@ -29,7 +29,7 @@ const VideoFeed = () => {
     if (loading) return <LoadingScreen message="ভিডিও লোড হচ্ছে..." />;
 
     return (
-        <div className="max-w-md mx-auto h-[calc(100vh-80px)] md:h-[calc(100vh-120px)] overflow-y-scroll no-scrollbar snap-y snap-mandatory bg-black rounded-2xl md:rounded-[3rem] border shadow-lg relative">
+        <div className="max-w-md mx-auto h-[calc(100vh-80px)] md:h-[calc(100vh-120px)] overflow-y-scroll no-scrollbar snap-y snap-mandatory bg-black rounded-2xl md:rounded-[3rem] border relative">
             {videos.map((vid) => (
                 <div key={vid.id} className="h-full w-full snap-start relative group flex flex-col justify-end">
                     <div className="absolute inset-0 z-0">
@@ -70,7 +70,7 @@ const VideoFeed = () => {
 
                     <div className="relative z-10 p-5 md:p-8 pb-8 md:pb-12 space-y-3 md:space-y-4">
                         <div className="flex items-center gap-3">
-                            <div className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-primary flex items-center justify-center font-black text-base md:text-lg shadow-lg border-2 border-white/20">
+                            <div className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-primary flex items-center justify-center font-black text-base md:text-lg border-2 border-white/20">
                                 80
                             </div>
                             <div>

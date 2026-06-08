@@ -45,12 +45,12 @@ const Courses = () => {
                     </p>
                 </div>
 
-                <div className="bg-surface border p-1 rounded-xl md:rounded-2xl flex gap-1 shadow-lg overflow-x-auto no-scrollbar -mx-4 md:mx-0 px-4 md:px-0">
+                <div className="bg-surface border p-1 rounded-xl md:rounded-2xl flex gap-1 overflow-x-auto no-scrollbar -mx-4 md:mx-0 px-4 md:px-0">
                     {categories.map(cat => (
                         <button
                             key={cat}
                             onClick={() => setFilter(cat)}
-                            className={`px-3 md:px-5 py-1.5 md:py-2 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all shrink-0 ${filter === cat ? 'bg-primary text-white shadow-lg' : 'text-text-dim hover:text-text-muted'
+                            className={`px-3 md:px-5 py-1.5 md:py-2 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all shrink-0 ${filter === cat ? 'bg-primary text-white' : 'text-text-dim hover:text-text-muted'
                                 }`}
                         >
                             {cat}
@@ -61,7 +61,7 @@ const Courses = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
                 {filteredCourses.length > 0 ? filteredCourses.map((course) => (
-                    <div key={course.id} className="bg-surface border rounded-2xl md:rounded-[2.5rem] overflow-hidden group hover:border-primary/30 transition-all shadow-lg flex flex-col">
+                    <div key={course.id} className="bg-surface border rounded-2xl md:rounded-[2.5rem] overflow-hidden group hover:border-primary/30 transition-all flex flex-col">
                         <div className="relative aspect-video overflow-hidden">
                             <img
                                 src={course.cover_image_url || 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80'}
@@ -70,7 +70,7 @@ const Courses = () => {
                             />
                             <div className="absolute inset-0 bg-black/40"></div>
                             {course.is_premium && (
-                                <div className="absolute top-4 right-4 px-3 py-1 bg-reward text-black text-[9px] font-black uppercase tracking-widest rounded-full shadow-lg bn-text">
+                                <div className="absolute top-4 right-4 px-3 py-1 bg-reward text-black text-[9px] font-black uppercase tracking-widest rounded-full bn-text">
                                     প্রিমিয়াম
                                 </div>
                             )}

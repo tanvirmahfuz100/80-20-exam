@@ -29,7 +29,7 @@ export default function Button({
       type={type}
       onClick={onClick}
       disabled={disabled}
-      className={`rounded-full font-bold transition-all active:scale-[0.97] flex items-center justify-center gap-2 disabled:opacity-40 disabled:cursor-not-allowed ${variants[variant]} ${sizes[size]} shadow-sm ${className}`}
+      className={`rounded-full font-bold transition-all active:scale-[0.97] flex items-center justify-center gap-2 disabled:opacity-40 disabled:cursor-not-allowed ${variants[variant]} ${sizes[size]} ${className}`}
       {...props}
     >
       {icon && <span className="shrink-0">{icon}</span>}

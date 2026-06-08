@@ -137,7 +137,7 @@ function FilterDropdown({ label, options, value, onChange }) {
                     >
                         <div className="fixed inset-0 bg-black/60" onClick={() => setOpen(false)} />
                         <motion.div
-                            className="relative w-full bg-zinc-900 border-t border-white/10 rounded-t-3xl shadow-2xl flex flex-col"
+                            className="relative w-full bg-zinc-900 border-t border-white/10 rounded-t-3xl flex flex-col"
                             initial={{ y: '100%' }}
                             animate={{ y: 0 }}
                             exit={{ y: '100%' }}
@@ -171,7 +171,7 @@ function FilterDropdown({ label, options, value, onChange }) {
 
                 {open && !isMobile && (
                     <motion.div
-                        className="absolute top-full left-0 mt-1.5 w-56 bg-zinc-900 border border-white/10 rounded-xl shadow-2xl p-1.5 z-50 max-h-[50vh] overflow-y-auto"
+                        className="absolute top-full left-0 mt-1.5 w-56 bg-zinc-900 border border-white/10 rounded-xl p-1.5 z-50 max-h-[50vh] overflow-y-auto"
                         initial={{ opacity: 0, y: -8, scale: 0.97 }}
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: -8, scale: 0.97 }}
@@ -392,7 +392,7 @@ const QuestionBank = () => {
 
     return (
         <div className="max-w-5xl mx-auto space-y-6 md:space-y-8">
-                <div className="bg-surface border p-5 md:p-10 rounded-2xl md:rounded-[2rem] shadow-lg relative">
+                <div className="bg-surface border p-5 md:p-10 rounded-2xl md:rounded-[2rem] relative">
                 <div className="absolute -right-8 -top-8 w-[200px] h-[200px] md:w-[260px] md:h-[260px] opacity-20 pointer-events-none z-0">
                     <LottieAnimation src={searchAnimation} className="w-full h-full" pingPong />
                 </div>

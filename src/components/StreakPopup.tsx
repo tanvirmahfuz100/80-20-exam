@@ -73,7 +73,7 @@ export default function StreakPopup({ isOpen, onClose, streak, streakHistory, on
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 40 }}
             transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-            className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
+            className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4"
             onClick={e => e.stopPropagation()}
           >
             <div className="flex items-center justify-between">
@@ -83,7 +83,7 @@ export default function StreakPopup({ isOpen, onClose, streak, streakHistory, on
               </button>
             </div>
 
-            <div className="flex items-center gap-3 bg-gradient-to-br from-orange-500/10 to-red-500/10 border border-orange-500/20 rounded-xl p-4">
+            <div className="flex items-center gap-3 bg-surface border border-orange-500/20 rounded-xl p-4">
               <div className="w-12 h-12 rounded-xl bg-orange-500/20 flex items-center justify-center">
                 <Flame className="w-6 h-6 text-orange-500" />
               </div>

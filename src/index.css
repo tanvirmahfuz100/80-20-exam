@@ -5,81 +5,77 @@
 @layer base {
   :root {
     --app-font-size: 16px;
-    /* Duolingo color tokens */
-    --color-snow: 19 31 36;
+    --color-snow: 26 26 26;
     --color-snow-always-light: 255 255 255;
-    --color-snow-always-dark: 19 31 36;
-    --color-polar: 32 47 54;
-    --color-swan: 55 70 79;
+    --color-snow-always-dark: 26 26 26;
+    --color-polar: 245 245 240;
+    --color-swan: 140 140 135;
     --color-swan-always-light: 229 229 229;
-    --color-swan-always-dark: 55 70 79;
-    --color-hare: 82 101 109;
-    --color-hare-always-light: 175 175 175;
-    --color-wolf: 220 230 236;
-    --color-eel: 241 247 251;
-    --color-anchovy: 210 228 232;
+    --color-swan-always-dark: 140 140 135;
+    --color-hare: 180 180 175;
+    --color-hare-always-light: 200 200 200;
+    --color-wolf: 229 229 224;
+    --color-eel: 245 245 240;
+    --color-anchovy: 235 235 230;
     --color-flamingo: 148 81 81;
     --color-pig: 245 164 164;
     --color-crab: 255 120 120;
     --color-cardinal: 238 85 85;
     --color-fire-ant: 216 72 72;
-    --color-owl: 147 211 51;
-    --color-tree-frog: 121 185 51;
-    --color-turtle: 95 132 40;
+    --color-owl: 124 58 237;
+    --color-tree-frog: 109 40 217;
+    --color-turtle: 91 33 182;
     --color-bee: 255 199 0;
     --color-lion: 255 177 0;
-    --color-peacock: 0 205 156;
+    --color-peacock: 16 185 129;
     --color-macaw: 73 192 248;
     --color-whale: 24 153 214;
     --color-starling: 92 108 252;
     --color-betta: 144 105 205;
     --color-butterfly: 111 78 161;
-    --color-snow-always-light: 255 255 255;
 
-    /* Legacy aliases for backward compat */
     --color-background: var(--color-eel);
     --color-sidebar: var(--color-snow-always-light);
     --color-surface: var(--color-snow-always-light);
-    --color-surface-hover: 245 240 235;
-    --color-surface-alt: 235 228 222;
-    --color-surface-active: 220 213 207;
+    --color-surface-hover: 245 245 240;
+    --color-surface-alt: 235 235 230;
+    --color-surface-active: 220 220 215;
     --color-text: var(--color-snow);
     --color-text-muted: var(--color-swan);
     --color-text-dim: var(--color-hare);
     --color-border: var(--color-wolf);
     --color-border-hover: var(--color-hare);
-    --color-inverse: 255 255 255;
+    --color-inverse: 15 15 14;
   }
 
   [data-theme="dark"] {
-    --color-eel: 19 31 36;
-    --color-snow-always-light: 19 31 36;
-    --color-wolf: 55 70 79;
-    --color-swan: 155 170 185;
-    --color-hare: 55 70 79;
-    --color-anchovy: 32 47 54;
-    --color-snow: 241 247 251;
-    --color-background: 19 31 36;
-    --color-sidebar: 32 47 54;
-    --color-surface: 32 47 54;
-    --color-surface-hover: 55 70 79;
-    --color-surface-alt: 32 47 54;
-    --color-surface-active: 55 70 79;
-    --color-text: 241 247 251;
-    --color-text-muted: 82 101 109;
-    --color-text-dim: 55 70 79;
-    --color-border: 32 47 54;
-    --color-border-hover: 55 70 79;
+    --color-eel: 15 15 14;
+    --color-snow-always-light: 26 26 26;
+    --color-wolf: 42 42 42;
+    --color-swan: 160 157 150;
+    --color-hare: 42 42 42;
+    --color-anchovy: 26 26 26;
+    --color-snow: 237 234 227;
+    --color-background: 15 15 14;
+    --color-sidebar: 26 26 26;
+    --color-surface: 26 26 26;
+    --color-surface-hover: 42 42 42;
+    --color-surface-alt: 26 26 26;
+    --color-surface-active: 42 42 42;
+    --color-text: 237 234 227;
+    --color-text-muted: 160 157 150;
+    --color-text-dim: 139 136 130;
+    --color-border: 42 42 42;
+    --color-border-hover: 56 56 56;
     --color-inverse: 255 255 255;
-    --color-swan-always-light: 55 70 79;
-    --color-swan-always-dark: 55 70 79;
+    --color-swan-always-light: 42 42 42;
+    --color-swan-always-dark: 160 157 150;
   }
 
   html {
     font-size: var(--app-font-size);
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
-    /* Prevent mobile text size adjust on orientation change */
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
   }
@@ -111,23 +107,20 @@
   }
 
   ::selection {
-    background: rgba(147, 211, 51, 0.3);
-    color: #131F24;
+    background: rgba(124, 58, 237, 0.3);
+    color: #fff;
   }
 
-  /* Focus-visible for keyboard nav (not mouse clicks) */
   :focus-visible {
-    outline: 2px solid #f54123;
+    outline: 2px solid #7C3AED;
     outline-offset: 2px;
     border-radius: 8px;
   }
 
-  /* Remove focus ring for mouse clicks */
   :focus:not(:focus-visible) {
     outline: none;
   }
 
-  /* TV / large screen base overrides */
   @media (min-width: 1920px) {
     :root {
       --app-font-size: 18px;
@@ -146,7 +139,6 @@
     }
   }
 
-  /* Safe area padding for notched devices */
   @supports (padding: env(safe-area-inset-top)) {
     .safe-area-inset {
       --sat: env(safe-area-inset-top);
@@ -157,7 +149,6 @@
   }
 }
 
-/* Responsive font size for very small screens */
 @media (max-width: 380px) and (max-height: 700px) {
   :root {
     --app-font-size: 13px;
@@ -178,14 +169,12 @@
   }
 }
 
-/* Tablet landscape optimizations */
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
   .quiz-card {
     max-height: calc(100vh - 140px) !important;
   }
 }
 
-/* TV / couch-distance optimizations */
 @media (min-width: 1920px) {
   body {
     cursor: none;
@@ -206,7 +195,6 @@
   }
 }
 
-/* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
@@ -225,43 +213,31 @@
 }
 
 @layer utilities {
-  .glass {
-    @apply bg-surface/80 border shadow-lg;
-    backdrop-filter: blur(12px);
-  }
-
-  .glass-strong {
-    @apply bg-surface border shadow-xl;
-  }
-
-  /* Duolingo-style card */
   .duo-card {
-    @apply bg-surface rounded-2xl shadow-sm border p-4 md:p-6;
+    @apply bg-surface rounded-2xl border p-4 md:p-6;
   }
 
-  /* Duolingo-style pill button */
   .duo-btn {
     @apply inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-base
            transition-all duration-200 min-h-touch;
   }
 
   .duo-btn-primary {
-    @apply duo-btn bg-primary text-white shadow-sm hover:bg-primary-hover
-           active:scale-[0.97] hover:shadow-md;
+    @apply duo-btn bg-primary text-white hover:bg-primary-hover
+           active:scale-[0.97];
   }
 
   .duo-btn-secondary {
-    @apply duo-btn bg-wolf/30 text-snow hover:bg-wolf/50;
+    @apply duo-btn bg-surface-hover text-text hover:bg-border;
   }
 
   .duo-btn-ghost {
-    @apply duo-btn bg-transparent text-snow hover:bg-wolf/20;
+    @apply duo-btn bg-transparent text-text hover:bg-surface-hover;
   }
 
-  /* Duolingo input */
   .duo-input {
     @apply w-full px-4 py-3 rounded-xl border bg-surface
-           text-text placeholder:text-hare text-base font-medium
+           text-text placeholder:text-text-dim text-base font-medium
            focus:border-primary focus:ring-2 focus:ring-primary/20
            transition-all;
   }
@@ -385,15 +361,14 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(147, 211, 51, 0.3);
+  background: rgba(124, 58, 237, 0.3);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(147, 211, 51, 0.6);
+  background: rgba(124, 58, 237, 0.6);
 }
 
-/* TV: larger scrollbar */
 @media (min-width: 2560px) {
   ::-webkit-scrollbar {
     width: 12px;
@@ -407,7 +382,7 @@
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(147, 211, 51, 0.3) transparent;
+  scrollbar-color: rgba(124, 58, 237, 0.3) transparent;
 }
 
 @layer base {
@@ -422,41 +397,6 @@
 
 body.low-end {
   --low-end-reduced: 1;
-}
-
-body.low-end .blur-3xl,
-body.low-end .blur-2xl,
-body.low-end .blur-xl,
-body.low-end .blur-lg,
-body.low-end .blur-md,
-body.low-end .blur-sm {
-  display: none !important;
-}
-
-body.low-end .shadow-lg,
-body.low-end .shadow-xl,
-body.low-end .shadow-2xl {
-  box-shadow: none !important;
-}
-
-body.low-end .glass {
-  @apply bg-surface/10 border border-surface/10;
-  backdrop-filter: none !important;
-  -webkit-backdrop-filter: none !important;
-  box-shadow: none !important;
-}
-
-body.low-end .glass-strong {
-  @apply bg-black/80 border border-white/10;
-  backdrop-filter: none !important;
-  -webkit-backdrop-filter: none !important;
-  box-shadow: none !important;
-}
-
-body.low-end * {
-  animation-duration: 0.01ms !important;
-  animation-iteration-count: 1 !important;
-  transition-duration: 0.01ms !important;
 }
 
 body.low-end .motion-safe-only {

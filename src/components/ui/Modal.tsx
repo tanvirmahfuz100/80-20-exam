@@ -20,7 +20,7 @@ export default function Modal({
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 40 }}
             transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-            className={`relative w-full ${maxWidth} bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl ${className}`}
+            className={`relative w-full ${maxWidth} bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4 ${className}`}
             onClick={e => e.stopPropagation()}
           >
             {title && (

@@ -26,7 +26,7 @@ const VocabPopup = ({ vocab, onClose }) => {
         animate={{ opacity: 1, y: 0, scale: 1 }}
         exit={{ opacity: 0, y: 20, scale: 0.95 }}
         transition={{ duration: 0.2, ease: 'easeOut' }}
-        className="relative w-full max-w-sm bg-surface border rounded-2xl p-5 shadow-2xl space-y-3"
+        className="relative w-full max-w-sm bg-surface border rounded-2xl p-5 space-y-3"
         onClick={e => e.stopPropagation()}
       >
         <button onClick={onClose} className="absolute top-3 right-3 p-1 rounded-full text-text-dim hover:text-text hover:bg-surface-hover transition-colors">

@@ -149,7 +149,7 @@ export const SubjectCard = ({ subject, isSelected, onClick, progress, version })
             className={`relative w-full text-left rounded-2xl border-2 transition-all ${
                 isSelected
                     ? 'bg-primary/10 border-primary ring-2 ring-primary/30'
-                    : 'bg-surface border hover:border-primary/40 hover:shadow-md'
+                    : 'bg-surface border hover:border-primary/40'
             }`}>
             {isSelected && (
                 <div className="absolute top-2 right-2 p-1.5 bg-primary text-white rounded-full z-10">
@@ -207,7 +207,7 @@ export const ChapterItem = ({ chapter, topic, onClick, questionCount, completedC
         <motion.div
             className={`relative rounded-2xl border-2 transition-all ${
                 hasQuestions
-                    ? 'bg-surface border hover:border-primary/40 hover:shadow-md'
+                    ? 'bg-surface border hover:border-primary/40'
                     : 'bg-eel/50 border opacity-50'
             }`}
         >
@@ -245,7 +245,7 @@ export const ChapterItem = ({ chapter, topic, onClick, questionCount, completedC
                 {hasQuestions && (
                     <button
                         onClick={() => onClick(chapter, cleanName)}
-                        className="flex items-center gap-1.5 px-4 py-2.5 bg-primary text-white font-bold rounded-full hover:bg-primary-hover transition-all text-xs active:scale-95 shrink-0 shadow-sm"
+                        className="flex items-center gap-1.5 px-4 py-2.5 bg-primary text-white font-bold rounded-full hover:bg-primary-hover transition-all text-xs active:scale-95 shrink-0"
                     >
                         <Play className="w-3.5 h-3.5 fill-current" />
                         শুরু করো

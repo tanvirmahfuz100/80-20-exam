@@ -137,7 +137,7 @@ export default function ExamChangerDropdown({ currentExamPath, onExamChange }) {
               exit={{ opacity: 0, y: 40 }}
               transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
               onClick={(e) => e.stopPropagation()}
-              className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 shadow-2xl max-h-[80vh] overflow-y-auto"
+              className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 max-h-[80vh] overflow-y-auto"
             >
               {/* Header */}
               <div className="flex items-center justify-between mb-4">

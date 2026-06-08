@@ -32,7 +32,7 @@ export default function DailyQuizCard({ exam, group }: DailyQuizCardProps) {
 
   if (loading) {
     return (
-      <div className="rounded-2xl border border-primary/20 bg-gradient-to-br from-primary/5 to-peacock/5 p-4 md:p-5">
+      <div className="rounded-2xl border border-primary/20 bg-surface p-4 md:p-5">
         <div className="flex items-center gap-2 mb-4">
           <Sparkles className="w-4 h-4 text-primary" />
           <h2 className="font-black text-sm text-text">দৈনিক কুইজ</h2>
@@ -46,7 +46,7 @@ export default function DailyQuizCard({ exam, group }: DailyQuizCardProps) {
 
   if (questions.length === 0) {
     return (
-      <div className="rounded-2xl border border-primary/20 bg-gradient-to-br from-primary/5 to-peacock/5 p-4 md:p-5">
+      <div className="rounded-2xl border border-primary/20 bg-surface p-4 md:p-5">
         <div className="flex items-center gap-2 mb-4">
           <Sparkles className="w-4 h-4 text-primary" />
           <h2 className="font-black text-sm text-text">দৈনিক কুইজ</h2>
@@ -65,7 +65,7 @@ export default function DailyQuizCard({ exam, group }: DailyQuizCardProps) {
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
-        className="bg-gradient-to-br from-primary/5 to-peacock/5 border border-primary/20 rounded-2xl p-5 text-center"
+        className="bg-surface border border-primary/20 rounded-2xl p-5 text-center"
       >
         <div className="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center mx-auto mb-3">
           <Sparkles className="w-6 h-6 text-white" />
@@ -127,7 +127,7 @@ export default function DailyQuizCard({ exam, group }: DailyQuizCardProps) {
     <motion.div
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
-      className="rounded-2xl border border-primary/20 bg-gradient-to-br from-primary/5 to-peacock/5 p-4 md:p-5"
+      className="rounded-2xl border border-primary/20 bg-surface p-4 md:p-5"
     >
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-2">

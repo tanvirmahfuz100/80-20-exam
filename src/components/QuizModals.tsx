@@ -22,7 +22,7 @@ export const ExitConfirmModal = ({ show, onStay, onLeave, title, message, stayLa
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 40 }}
         transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-        className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
+        className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4"
         onClick={e => e.stopPropagation()}
       >
         <div className="flex items-start gap-3">
@@ -89,7 +89,7 @@ export const ReportModal = ({ show, reason, details, onReasonChange, onDetailsCh
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 40 }}
         transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-        className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
+        className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4"
         onClick={e => e.stopPropagation()}
       >
         <div className="flex items-start gap-3">
@@ -116,7 +116,7 @@ export const ReportModal = ({ show, reason, details, onReasonChange, onDetailsCh
               <ChevronDown className={`w-4 h-4 text-text-muted transition-transform ${dropdownOpen ? 'rotate-180' : ''}`} />
             </button>
             {dropdownOpen && (
-              <div className="absolute top-full left-0 right-0 mt-1 z-10 bg-surface border rounded-xl shadow-lg overflow-y-auto max-h-48">
+              <div className="absolute top-full left-0 right-0 mt-1 z-10 bg-surface border rounded-xl overflow-y-auto max-h-48">
                 {reasons.slice(1).map(r => (
                   <button
                     key={r.value}

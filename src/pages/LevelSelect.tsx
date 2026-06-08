@@ -117,13 +117,13 @@ const LevelSelect = () => {
 
   if (error) {
     return (
-      <div className="max-w-md mx-auto p-6 md:p-8 bg-surface border rounded-3xl text-center shadow-lg">
+      <div className="max-w-md mx-auto p-6 md:p-8 bg-surface border rounded-3xl text-center">
         <div className="w-14 h-14 mx-auto mb-4 rounded-2xl bg-cardinal/10 border border-cardinal/20 flex items-center justify-center">
           <Sparkles className="w-6 h-6 text-cardinal" />
         </div>
             <h3 className="text-text font-black text-xl tracking-tighter mb-2 bn-text">লেভেল লোড করা যায়নি</h3>
         <p className="text-text-muted font-medium leading-relaxed text-sm">{error}</p>
-        <Link to="/practice" className="mt-5 inline-flex items-center justify-center rounded-full bg-primary px-6 py-2.5 text-sm font-bold text-white transition-all hover:bg-primary-hover active:scale-95 shadow-sm">
+        <Link to="/practice" className="mt-5 inline-flex items-center justify-center rounded-full bg-primary px-6 py-2.5 text-sm font-bold text-white transition-all hover:bg-primary-hover active:scale-95">
           প্রাক্টিসে ফিরে যাও
         </Link>
       </div>
@@ -141,7 +141,7 @@ const LevelSelect = () => {
         <div className="flex items-center gap-3">
           <button
             onClick={() => navigate('/practice')}
-            className="p-2 bg-surface border rounded-xl text-text-muted hover:text-text hover:border-hare transition-all active:scale-95 shadow-sm"
+            className="p-2 bg-surface border rounded-xl text-text-muted hover:text-text hover:border-hare transition-all active:scale-95"
           >
             <ArrowLeft className="w-4 h-4" />
           </button>
@@ -162,7 +162,7 @@ const LevelSelect = () => {
         </div>
       </div>
 
-      <div className="flex items-center gap-2 px-3 py-2 bg-surface border rounded-xl shadow-sm">
+      <div className="flex items-center gap-2 px-3 py-2 bg-surface border rounded-xl">
         <div className="flex-1 h-1.5 bg-background rounded-full overflow-hidden">
           <motion.div
             className="h-full rounded-full bg-primary"
@@ -183,7 +183,7 @@ const LevelSelect = () => {
 
       {/* Section banner */}
       {totalCount > 0 && (
-        <div className="bg-primary rounded-2xl shadow-md flex items-stretch sticky top-0 z-10">
+        <div className="bg-primary rounded-2xl flex items-stretch sticky top-0 z-10">
           <div className="flex-1 min-w-0 p-4">
             <p className="text-white/70 text-[10px] font-bold uppercase tracking-[0.15em] leading-relaxed">
               SECTION 1 · UNIT 1
@@ -247,9 +247,9 @@ const LevelSelect = () => {
             if (isCurrent) {
               return (
                 <div className="relative">
-                  <div className="absolute inset-0 rounded-full bg-primary/40 animate-ping" />
+
                   <button
-                    className="relative w-14 h-14 rounded-full bg-gradient-to-b from-primary to-[#7ABF33] flex items-center justify-center cursor-pointer shadow-lg active:scale-95 transition-all border-b-4 border-[#5C9E1F] active:border-b-0 active:translate-y-[3px]"
+                    className="relative w-14 h-14 rounded-full bg-primary flex items-center justify-center cursor-pointer active:scale-95 transition-all"
                     onClick={() => handleStartLevel(level.levelNumber)}
                   >
                     <span className="text-white font-black text-lg mt-[-2px]">{level.levelNumber}</span>
@@ -258,7 +258,7 @@ const LevelSelect = () => {
                     initial={{ opacity: 0, y: -8, scale: 0.9 }}
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     transition={{ delay: 0.3, type: 'spring', stiffness: 250 }}
-                    className="absolute -top-12 left-1/2 -translate-x-1/2 bg-primary text-white text-sm font-bold px-4 py-2 rounded-full whitespace-nowrap shadow-xl z-20 border-2 border-white/30"
+                    className="absolute -top-12 left-1/2 -translate-x-1/2 bg-primary text-white text-sm font-bold px-4 py-2 rounded-full whitespace-nowrap z-20 border-2 border-white/30"
                   >
                     শুরু করো
                     <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-[7px] border-r-[7px] border-t-[8px] border-l-transparent border-r-transparent border-t-primary" />
@@ -269,14 +269,14 @@ const LevelSelect = () => {
 
             if (level.completed) {
               return (
-                <div className="w-14 h-14 rounded-full bg-gradient-to-b from-primary to-[#7ABF33] flex items-center justify-center shadow-sm border-b-4 border-[#5C9E1F] active:border-b-0 active:translate-y-[1px]">
+                <div className="w-14 h-14 rounded-full bg-primary flex items-center justify-center">
                   <Star className="w-7 h-7 text-white fill-white mt-[-2px]" />
                 </div>
               );
             }
 
             return (
-              <div className="w-14 h-14 rounded-full bg-surface border-[3px] border flex items-center justify-center shadow-sm">
+              <div className="w-14 h-14 rounded-full bg-surface border-[3px] border flex items-center justify-center">
                 <span className="text-text-muted font-bold text-base">{level.levelNumber}</span>
               </div>
             );
@@ -357,7 +357,7 @@ const LevelSelect = () => {
                         transform: 'translateX(-50%)',
                       }}
                     >
-                      <div className="w-16 h-16 rounded-full bg-cardinal flex items-center justify-center ring-4 ring-background shadow-lg">
+                      <div className="w-16 h-16 rounded-full bg-cardinal flex items-center justify-center ring-4 ring-background">
                         <Trophy className="w-7 h-7 text-white" />
                       </div>
                     </motion.div>
@@ -404,7 +404,7 @@ const LevelSelect = () => {
             const nextUncompleted = levelsWithMeta.find(l => l.unlocked && !l.completed);
             if (nextUncompleted) handleStartLevel(nextUncompleted.levelNumber);
           }}
-          className="w-full py-3 bg-primary text-white rounded-full font-bold text-sm transition-all active:scale-[0.97] hover:bg-primary-hover flex items-center justify-center gap-2 shadow-sm"
+          className="w-full py-3 bg-primary text-white rounded-full font-bold text-sm transition-all active:scale-[0.97] hover:bg-primary-hover flex items-center justify-center gap-2"
         >
           <TrendingUp className="w-4 h-4" />
           প্রাক্টিস চালিয়ে যাও

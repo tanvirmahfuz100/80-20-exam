@@ -76,7 +76,7 @@ const Quiz = () => {
     if (loading) return <LoadingScreen message="প্রাক্টিস সেশন লোড হচ্ছে..." />;
 
     if (error) return (
-        <div className="max-w-md mx-auto p-6 md:p-10 bg-surface border rounded-2xl md:rounded-3xl text-center shadow-lg">
+        <div className="max-w-md mx-auto p-6 md:p-10 bg-surface border rounded-2xl md:rounded-3xl text-center">
             <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-4 md:mb-5 rounded-2xl md:rounded-3xl bg-primary/10 border border-primary/20 flex items-center justify-center">
                 <Sparkles className="w-6 h-6 md:w-8 md:h-8 text-primary" />
             </div>
@@ -217,7 +217,7 @@ const Quiz = () => {
             </div>
 
             <div className="flex-1 flex flex-col min-h-0 px-4 pb-3 mt-1">
-                <div className="bg-surface border rounded-2xl md:rounded-3xl flex-1 flex flex-col p-4 md:p-6 overflow-hidden quiz-card shadow-sm" style={{ maxHeight: 'calc(var(--app-available-height, 100vh) - 112px)' }}>
+                <div className="bg-surface border rounded-2xl md:rounded-3xl flex-1 flex flex-col p-4 md:p-6 overflow-hidden quiz-card" style={{ maxHeight: 'calc(var(--app-available-height, 100vh) - 112px)' }}>
                     {currentQ?._type === 'model_test' ? (
                         <ModelTest
                             key={currentQ.modelId}
@@ -455,7 +455,7 @@ const Quiz = () => {
                                                             state === 'wrong' ? 'bg-reward/10 border-reward text-reward' :
                                                                 state === 'selected' ? 'bg-primary/10 border-primary text-primary' :
                                                                     state === 'dimmed' ? 'bg-background border-transparent opacity-30' :
-                                                                        'bg-surface border text-text-muted hover:border-primary/40 hover:text-text hover:shadow-sm'
+                                                                        'bg-surface border text-text-muted hover:border-primary/40 hover:text-text'
                                                             }`}
                                                         role="radio"
                                                         aria-checked={selectedOption === idx}
@@ -538,7 +538,7 @@ const Quiz = () => {
                                                     )}
                                                     <button
                                                         onClick={handleNext}
-                                                        className="w-full py-3.5 bg-primary text-white rounded-full font-black text-sm shrink-0 active:scale-[0.97] transition-all hover:bg-primary-hover min-h-touch shadow-sm"
+                                                        className="w-full py-3.5 bg-primary text-white rounded-full font-black text-sm shrink-0 active:scale-[0.97] transition-all hover:bg-primary-hover min-h-touch"
                                                     >
                                                         {currentIndex < questions.length - 1 ? 'চালিয়ে যাও' : 'লেসন শেষ করো'}
                                                     </button>
@@ -594,7 +594,7 @@ const Quiz = () => {
 
                                                     <button
                                                         onClick={handleNext}
-                                                        className="w-full py-3.5 bg-primary text-white rounded-full font-black text-sm shrink-0 active:scale-[0.97] transition-all hover:bg-primary-hover min-h-touch shadow-sm"
+                                                        className="w-full py-3.5 bg-primary text-white rounded-full font-black text-sm shrink-0 active:scale-[0.97] transition-all hover:bg-primary-hover min-h-touch"
                                                     >
                                                         বুঝেছি
                                                     </button>

@@ -186,7 +186,7 @@ export default function ExamOnboarding({ onComplete }) {
               {/* Light mode card */}
               <button
                 onClick={() => handleThemePick('light')}
-                className="group relative flex flex-col rounded-2xl overflow-hidden border-2 border-gray-200 bg-white text-left transition-all hover:scale-[1.02] hover:shadow-xl active:scale-[0.98]"
+                className="group relative flex flex-col rounded-2xl overflow-hidden border-2 border-gray-200 bg-white text-left transition-all hover:scale-[1.02] active:scale-[0.98]"
               >
                 <div className="px-3 md:px-4 pt-3 pb-2 md:pt-4 md:pb-3 space-y-2 md:space-y-3">
                   <div className="flex items-center gap-2">
@@ -224,7 +224,7 @@ export default function ExamOnboarding({ onComplete }) {
               {/* Dark mode card */}
               <button
                 onClick={() => handleThemePick('dark')}
-                className="group relative flex flex-col rounded-2xl overflow-hidden border-2 border-gray-800 bg-gray-950 text-left transition-all hover:scale-[1.02] hover:shadow-xl active:scale-[0.98]"
+                className="group relative flex flex-col rounded-2xl overflow-hidden border-2 border-gray-800 bg-gray-950 text-left transition-all hover:scale-[1.02] active:scale-[0.98]"
               >
                 <div className="relative px-3 md:px-4 pt-3 pb-2 md:pt-4 md:pb-3 space-y-2 md:space-y-3">
                   <div className="absolute top-2 right-2 md:top-3 md:right-3 bg-primary text-white text-[7px] md:text-[8px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full">

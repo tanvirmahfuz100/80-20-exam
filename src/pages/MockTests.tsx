@@ -30,7 +30,7 @@ const MockTests = () => {
 
     return (
         <div className="mx-auto max-w-7xl space-y-8 md:space-y-12">
-            <div className="relative flex flex-col items-center justify-between gap-8 overflow-hidden rounded-2xl md:rounded-3xl border bg-surface p-6 md:p-16 shadow-xl">
+            <div className="relative flex flex-col items-center justify-between gap-8 overflow-hidden rounded-2xl md:rounded-3xl border bg-surface p-6 md:p-16">
                 <div className="absolute -right-6 md:-right-12 -top-6 md:-top-12 opacity-[0.03] pointer-events-none">
                     <Trophy className="w-40 h-40 md:w-64 md:h-64" />
                 </div>
@@ -58,7 +58,7 @@ const MockTests = () => {
                     </div>
                 </div>
 
-                <div className="relative z-10 w-full md:min-w-[240px] md:max-w-xs rounded-2xl border bg-surface p-4 md:p-8 shadow-lg">
+                <div className="relative z-10 w-full md:min-w-[240px] md:max-w-xs rounded-2xl border bg-surface p-4 md:p-8">
                     <div className="mb-6 flex items-center justify-between">
                         <TrendingUp className="h-6 w-6 md:h-8 md:w-8 text-primary" />
                         <span className="text-[9px] font-black uppercase tracking-widest text-text-dim bn-text">গ্লোবাল র‍্যাংক</span>
@@ -125,7 +125,7 @@ const MockTests = () => {
                         </div>
                     )) : (
                         <div className="rounded-2xl md:rounded-[2.5rem] border bg-surface p-6 md:p-8 opacity-60">
-                            <div className="space-y-5 blur-[1px]">
+                            <div className="space-y-5">
                                 <div className="flex items-start justify-between">
                                     <div className="flex h-12 w-12 md:h-14 md:w-14 items-center justify-center rounded-xl md:rounded-[1.4rem] border bg-surface-alt">
                                         <ClipboardList className="h-5 w-5 md:h-6 md:w-6 text-text-dim" />
@@ -165,7 +165,7 @@ const MockTests = () => {
                         </p>
                     </div>
                 </div>
-                <button className="w-full md:w-auto rounded-xl md:rounded-[1.4rem] bg-primary px-8 md:px-10 py-3 md:py-4 text-[10px] font-black uppercase tracking-widest text-white shadow-lg transition-all active:scale-95 hover:bg-primary-hover bn-text">
+                <button className="w-full md:w-auto rounded-xl md:rounded-[1.4rem] bg-primary px-8 md:px-10 py-3 md:py-4 text-[10px] font-black uppercase tracking-widest text-white transition-all active:scale-95 hover:bg-primary-hover bn-text">
                     ইভেন্টে রেজিস্টার করো
                 </button>
             </div>

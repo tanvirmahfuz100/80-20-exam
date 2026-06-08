@@ -15,7 +15,7 @@ export default function Card({
   return (
     <div
       onClick={onClick}
-      className={`bg-surface border rounded-2xl shadow-sm ${paddings[padding] || paddings.md} ${hover ? 'hover:border-primary/40 hover:shadow-md transition-all cursor-pointer' : ''} ${onClick ? 'cursor-pointer' : ''} ${className}`}
+      className={`bg-surface border rounded-2xl ${paddings[padding] || paddings.md} ${hover ? 'hover:border-primary/40 transition-all cursor-pointer' : ''} ${onClick ? 'cursor-pointer' : ''} ${className}`}
       {...props}
     >
       {children}

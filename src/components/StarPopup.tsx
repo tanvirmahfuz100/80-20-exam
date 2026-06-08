@@ -25,7 +25,7 @@ export default function StarPopup({ isOpen, onClose, mistakeGroups, recentMistak
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 40 }}
             transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-            className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4 shadow-2xl"
+            className="relative w-full sm:max-w-sm bg-surface rounded-t-2xl sm:rounded-2xl p-5 space-y-4"
             onClick={e => e.stopPropagation()}
           >
             <div className="flex items-center justify-between">
@@ -35,7 +35,7 @@ export default function StarPopup({ isOpen, onClose, mistakeGroups, recentMistak
               </button>
             </div>
 
-            <div className="flex items-center gap-3 bg-gradient-to-br from-yellow-500/10 to-amber-500/10 border border-yellow-500/20 rounded-xl p-4">
+            <div className="flex items-center gap-3 bg-surface border border-yellow-500/20 rounded-xl p-4">
               <div className="w-12 h-12 rounded-xl bg-yellow-500/20 flex items-center justify-center">
                 <Star className="w-6 h-6 text-yellow-400" />
               </div>

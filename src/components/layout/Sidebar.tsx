@@ -58,7 +58,7 @@ export default function Sidebar({ isOpen, toggle, onOpenReport }: { isOpen: bool
         aria-label="Navigation sidebar"
         className={`fixed top-0 left-0 z-40 w-72 h-screen transition-transform transform safe-top safe-bottom
           ${isOpen ? 'translate-x-0' : '-translate-x-full'}
-          md:translate-x-0 bg-surface shadow-xl
+          md:translate-x-0 bg-surface
           ${reducedMotion ? 'duration-0' : 'duration-300'}
         `}
       >

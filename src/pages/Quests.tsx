@@ -99,7 +99,7 @@ export default function Quests() {
         )}
       </div>
 
-      <div className="bg-gradient-to-br from-primary/5 to-peacock/5 border border-primary/20 rounded-2xl p-4 md:p-5 mb-4">
+      <div className="bg-surface border border-primary/20 rounded-2xl p-4 md:p-5 mb-4">
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
             <Trophy className="w-5 h-5 text-bee" />
@@ -118,7 +118,7 @@ export default function Quests() {
             <div className="flex items-center gap-2">
               <div className="flex-1 h-2 bg-wolf rounded-full overflow-hidden">
                 <div
-                  className="h-full bg-gradient-to-r from-primary to-peacock rounded-full transition-all"
+                  className="h-full bg-primary rounded-full transition-all"
                   style={{ width: `${weeklyProgress}%` }}
                 />
               </div>

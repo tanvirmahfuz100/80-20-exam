@@ -156,7 +156,7 @@ const Dashboard = () => {
 
       {/* â”€â”€â”€ Hero Card â”€â”€â”€ */}
       <Motion.div variants={itemVariants} className="relative overflow-hidden rounded-2xl border bg-surface p-4 md:p-7">
-        <div className="absolute top-0 right-0 w-40 h-40 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-0 right-0 w-40 h-40 bg-primary/5 rounded-full pointer-events-none" />
 
         <div className="relative z-10 flex items-start justify-between gap-3 mb-4">
           <div className="min-w-0 flex-1">
@@ -171,7 +171,7 @@ const Dashboard = () => {
             <img
               src={`${import.meta.env.BASE_URL || '/'}mascot-celebrating.png`}
               alt="Mascot"
-              className="w-12 h-12 md:w-14 md:h-14 object-contain drop-shadow-lg"
+              className="w-12 h-12 md:w-14 md:h-14 object-contain"
             />
             <div className={`shrink-0 px-3 py-1.5 rounded-full border ${rankTheme.bg}`}>
               <div className="flex items-center gap-1.5">
@@ -498,7 +498,6 @@ const Dashboard = () => {
         <Motion.div variants={itemVariants} className="space-y-4">
           {/* Gamify Banner */}
           <div className="relative overflow-hidden rounded-3xl bg-surface p-6">
-            <div className="absolute top-0 right-0 w-48 h-48 bg-primary/[0.03] rounded-full blur-3xl pointer-events-none" />
             <div className="absolute -top-8 -right-8 w-36 h-36 opacity-[0.08] pointer-events-none">
               <LottieAnimation src={gameControllerAnimation} className="w-full h-full" lottieStyle={{ transform: 'scale(1.5)', transformOrigin: 'center center' }} pingPong />
             </div>
@@ -523,7 +522,6 @@ const Dashboard = () => {
 
           {/* Launch CTA */}
           <div className="relative overflow-hidden rounded-3xl bg-surface p-6">
-            <div className="absolute top-0 right-0 w-48 h-48 bg-primary/[0.03] rounded-full blur-3xl pointer-events-none" />
             <div className="absolute -top-8 -right-8 w-36 h-36 opacity-[0.06] pointer-events-none">
               <LottieAnimation src={speedometerAnimation} className="w-full h-full" pingPong />
             </div>
@@ -580,7 +578,7 @@ const Dashboard = () => {
                 <Link
                   key={exam.id}
                   to={`/practice?exam=${exam.id}`}
-                  className={`group relative rounded-xl border bg-surface ${t.border} border-l-4 p-4 transition-all hover:-translate-y-0.5 hover:shadow-lg active:scale-[0.97] overflow-hidden`}
+                  className={`group relative rounded-xl border bg-surface ${t.border} border-l-4 p-4 transition-all hover:-translate-y-0.5 active:scale-[0.97] overflow-hidden`}
                 >
                   <div className="flex items-start justify-between gap-3">
                     <div className="min-w-0 flex-1">
@@ -670,7 +668,7 @@ const StatCard = ({ Icon, label, value, bgClass, iconColor }) => (
 const ActionCard = ({ Icon, title, desc, path }) => (
   <Link
     to={path}
-    className="rounded-xl border bg-surface p-4 transition-all hover:-translate-y-1 hover:border-primary/30 hover:shadow-xl active:scale-[0.97] group"
+    className="rounded-xl border bg-surface p-4 transition-all hover:-translate-y-1 hover:border-primary/30 active:scale-[0.97] group"
   >
     <div className="w-10 h-10 rounded-xl bg-surface-alt border flex items-center justify-center mb-3 transition-transform group-hover:scale-110">
       <Icon className="w-5 h-5 text-text" />

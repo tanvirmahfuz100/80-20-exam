@@ -16,7 +16,7 @@ export default function StarReviewCard() {
     <motion.div
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
-      className="rounded-2xl border border-yellow-400/15 bg-gradient-to-br from-yellow-400/[0.04] to-yellow-400/[0.02] p-5"
+      className="rounded-2xl border border-yellow-400/15 bg-surface p-5"
     >
       <div className="flex items-center justify-between mb-3">
         <div className="flex items-center gap-2">

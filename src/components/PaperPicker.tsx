@@ -48,7 +48,7 @@ const PaperPicker = ({ isOpen, onClose, onSelect, exam, subjectName }) => {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ type: 'spring', duration: 0.4, bounce: 0.3 }}
-            className="relative w-full max-w-sm bg-surface border rounded-3xl p-6 shadow-2xl"
+            className="relative w-full max-w-sm bg-surface border rounded-3xl p-6"
             onClick={(e) => e.stopPropagation()}
           >
             <button

@@ -16,7 +16,7 @@ export default function QuizResultScreen({
 }) {
   const ResultCard = ({ children, levelMode }) => (
     <div className="max-w-lg mx-auto">
-      <div className="bg-surface border rounded-3xl p-6 md:p-8 shadow-lg relative overflow-hidden">
+      <div className="bg-surface border rounded-3xl p-6 md:p-8 relative overflow-hidden">
         <div className="relative z-10 text-center space-y-5">
           <div className="flex justify-center">
             <div className="w-20 h-20 bg-primary/10 rounded-full border-2 border-primary/20 flex items-center justify-center">
@@ -40,13 +40,13 @@ export default function QuizResultScreen({
   if (currentLevel) {
     return (
       <div className="max-w-lg mx-auto">
-        <div className="bg-surface border rounded-3xl p-6 md:p-8 shadow-lg relative overflow-hidden">
+      <div className="bg-surface border rounded-3xl p-6 md:p-8 relative overflow-hidden">
           <div className="relative z-10 text-center space-y-5">
             <div className="flex justify-center mb-1">
               <img
                 src={`${import.meta.env.BASE_URL || '/'}mascot-celebrating.png`}
                 alt="Mascot celebrating"
-                className="w-28 h-28 md:w-32 md:h-32 object-contain drop-shadow-lg"
+                className="w-28 h-28 md:w-32 md:h-32 object-contain"
               />
             </div>
 
@@ -104,14 +104,14 @@ export default function QuizResultScreen({
               </button>
               <button
                 onClick={onPracticeAgain}
-                className="flex-1 py-3 bg-primary text-white rounded-full font-bold text-sm hover:bg-primary-hover active:scale-[0.97] transition-all flex items-center justify-center gap-2 min-h-touch shadow-sm"
+                className="flex-1 py-3 bg-primary text-white rounded-full font-bold text-sm hover:bg-primary-hover active:scale-[0.97] transition-all flex items-center justify-center gap-2 min-h-touch"
               >
                 <RefreshCw className="w-4 h-4" /> আবার করো
               </button>
               {accuracy >= 80 && onNextLevel && (
                 <button
                   onClick={onNextLevel}
-                  className="flex-1 py-3 bg-peacock text-white rounded-full font-bold text-sm hover:bg-accent-dark transition-all active:scale-[0.97] flex items-center justify-center gap-2 min-h-touch shadow-sm"
+                  className="flex-1 py-3 bg-peacock text-white rounded-full font-bold text-sm hover:bg-accent-dark transition-all active:scale-[0.97] flex items-center justify-center gap-2 min-h-touch"
                 >
                   <Sparkles className="w-4 h-4" /> পরবর্তী লেভেল
                 </button>
@@ -125,13 +125,13 @@ export default function QuizResultScreen({
 
   return (
     <div className="max-w-lg mx-auto">
-      <div className="bg-surface border rounded-3xl p-6 md:p-8 shadow-lg relative overflow-hidden">
+      <div className="bg-surface border rounded-3xl p-6 md:p-8 relative overflow-hidden">
         <div className="relative z-10 text-center space-y-5">
           <div className="flex justify-center mb-1">
             <img
               src={`${import.meta.env.BASE_URL || '/'}mascot-celebrating.png`}
               alt="Mascot celebrating"
-              className="w-28 h-28 md:w-32 md:h-32 object-contain drop-shadow-lg"
+              className="w-28 h-28 md:w-32 md:h-32 object-contain"
             />
           </div>
 
@@ -169,13 +169,14 @@ export default function QuizResultScreen({
             <button onClick={onGoHome} className="flex-1 py-3 bg-surface border text-text rounded-full font-bold text-sm hover:bg-background transition-all active:scale-[0.97] min-h-touch flex items-center justify-center gap-2">
               <Home className="w-4 h-4" /> হোম
             </button>
-            <button onClick={onPracticeAgain} className="flex-1 py-3 bg-primary text-white rounded-full font-bold text-sm hover:bg-primary-hover active:scale-[0.97] transition-all flex items-center justify-center gap-2 min-h-touch shadow-sm">
+            <button                 onClick={onPracticeAgain}
+                className="flex-1 py-3 bg-primary text-white rounded-full font-bold text-sm hover:bg-primary-hover active:scale-[0.97] transition-all flex items-center justify-center gap-2 min-h-touch">
               <RefreshCw className="w-4 h-4" /> আবার চেষ্টা করো
             </button>
             {onNextModel && (
               <button
                 onClick={onNextModel}
-                className="flex-1 py-3 bg-peacock text-white rounded-full font-bold text-sm hover:bg-accent-dark transition-all active:scale-[0.97] flex items-center justify-center gap-2 min-h-touch shadow-sm"
+                className="flex-1 py-3 bg-peacock text-white rounded-full font-bold text-sm hover:bg-accent-dark transition-all active:scale-[0.97] flex items-center justify-center gap-2 min-h-touch"
               >
                 পরবর্তী মডেল
               </button>

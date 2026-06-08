@@ -16,7 +16,7 @@ const Landing = () => {
                         onClick={() => setTheme('light')}
                         className={`flex items-center gap-1 px-2.5 md:px-3 py-1.5 rounded-lg text-[9px] md:text-[10px] font-black uppercase tracking-wider transition-all ${
                             theme === 'light'
-                                ? 'bg-background text-text shadow-sm border'
+                                ? 'bg-background text-text border'
                                 : 'text-text-muted hover:text-text'
                         }`}
                     >
@@ -26,7 +26,7 @@ const Landing = () => {
                         onClick={() => setTheme('dark')}
                         className={`flex items-center gap-1 px-2.5 md:px-3 py-1.5 rounded-lg text-[9px] md:text-[10px] font-black uppercase tracking-wider transition-all ${
                             theme === 'dark'
-                                ? 'bg-background text-text shadow-sm border'
+                                ? 'bg-background text-text border'
                                 : 'text-text-muted hover:text-text'
                         }`}
                     >
@@ -40,7 +40,7 @@ const Landing = () => {
               <img
                 src={`${import.meta.env.BASE_URL || '/'}mascot-celebrating.png`}
                 alt="Mascot"
-                className="w-32 h-32 md:w-44 md:h-44 object-contain drop-shadow-2xl"
+                className="w-32 h-32 md:w-44 md:h-44 object-contain"
               />
             </div>
             <div className="inline-flex items-center gap-1.5 md:gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-primary/10 border border-primary/20 rounded-full text-primary font-black uppercase tracking-widest text-[8px] md:text-[10px] bn-text">
@@ -73,7 +73,7 @@ const Landing = () => {
             <div className="bg-surface border-y border py-10 md:py-32">
                 <div className="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 text-center">
                     <div className="space-y-3 md:space-y-6">
-                        <div className="w-14 h-14 md:w-20 md:h-20 bg-emerald-500/10 rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto border border-emerald-500/20 shadow-lg">
+                        <div className="w-14 h-14 md:w-20 md:h-20 bg-emerald-500/10 rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto border border-emerald-500/20">
                             <Zap className="w-6 h-6 md:w-10 md:h-10 text-emerald-500" />
                         </div>
                         <h3 className="text-lg md:text-2xl font-black tracking-tighter uppercase bn-text">ফ্রি। ফান। ইফেক্টিভ।</h3>
@@ -82,7 +82,7 @@ const Landing = () => {
                         </p>
                     </div>
                     <div className="space-y-3 md:space-y-6">
-                        <div className="w-14 h-14 md:w-20 md:h-20 bg-primary/10 rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto border border-primary/20 shadow-lg">
+                        <div className="w-14 h-14 md:w-20 md:h-20 bg-primary/10 rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto border border-primary/20">
                             <BookOpen className="w-6 h-6 md:w-10 md:h-10 text-primary" />
                         </div>
                         <h3 className="text-lg md:text-2xl font-black tracking-tighter uppercase bn-text">৫০,০০০+ প্রশ্ন</h3>
@@ -91,7 +91,7 @@ const Landing = () => {
                         </p>
                     </div>
                     <div className="space-y-3 md:space-y-6">
-                        <div className="w-14 h-14 md:w-20 md:h-20 bg-yellow-500/10 rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto border border-yellow-500/20 shadow-lg">
+                        <div className="w-14 h-14 md:w-20 md:h-20 bg-yellow-500/10 rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto border border-yellow-500/20">
                             <Users className="w-6 h-6 md:w-10 md:h-10 text-yellow-500" />
                         </div>
                         <h3 className="text-lg md:text-2xl font-black tracking-tighter uppercase bn-text">পার্সোনালাইজড পাথ</h3>

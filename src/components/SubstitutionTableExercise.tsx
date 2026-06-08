@@ -250,7 +250,7 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   exit={{ opacity: 0, y: 20, scale: 0.95 }}
                   transition={{ duration: 0.25, ease: 'easeOut' }}
-                  className={`relative w-full max-w-sm bg-surface rounded-2xl p-6 shadow-2xl ${isCorrect && !alreadyTried ? 'border border-emerald-500/30' : alreadyTried ? 'border' : 'border border-yellow-500/30'}`}
+                  className={`relative w-full max-w-sm bg-surface rounded-2xl p-6 ${isCorrect && !alreadyTried ? 'border border-emerald-500/30' : alreadyTried ? 'border' : 'border border-yellow-500/30'}`}
                   onClick={e => e.stopPropagation()}
                 >
                   <div className="flex items-center gap-3 mb-3">

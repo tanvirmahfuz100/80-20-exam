@@ -34,7 +34,7 @@ const LevelUpModal: React.FC = () => {
                     exit={{ opacity: 0 }}
                 >
                     <motion.div
-                        className="bg-surface border border-primary/20 rounded-3xl p-6 max-w-sm w-full text-center shadow-2xl"
+                        className="bg-surface border border-primary/20 rounded-3xl p-6 max-w-sm w-full text-center"
                         initial={{ scale: 0.8, opacity: 0 }}
                         animate={{ scale: 1, opacity: 1 }}
                         exit={{ scale: 0.8, opacity: 0 }}
