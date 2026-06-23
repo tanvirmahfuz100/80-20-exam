@@ -29,9 +29,23 @@
                          "icon":  "BookOpen",
                          "name_bn":  "হিসাববিজ্ঞান",
                          "name_en":  "Accounting",
-                         "topics":  [
-                                        {
-                                            "id":  "board_2025",
+                          "topics":  [
+                                         {
+                                             "id":  "chapter_wise",
+                                             "name":  "Chapter-wise",
+                                             "name_bn":  "অধ্যায়ভিত্তিক",
+                                             "name_en":  "Chapter-wise",
+                                             "chapters":  [
+                                                              {
+                                                                  "id":  "chapter_wise_all",
+                                                                  "name":  "All Chapters",
+                                                                  "name_bn":  "সকল অধ্যায়",
+                                                                  "file":  "/ssc/accounting/chapter_wise.json"
+                                                              }
+                                                          ]
+                                         },
+                                         {
+                                             "id":  "board_2025",
                                             "name":  "Board Exams 2025",
                                             "name_bn":  "বোর্ড পরীক্ষা ২০২৫",
                                             "name_en":  "Board Exams 2025",
