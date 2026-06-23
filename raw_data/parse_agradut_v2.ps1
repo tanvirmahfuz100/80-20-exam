@@ -1,319 +1,251 @@
-# parse_agradut_v2.ps1 - Extract MCQ questions from অগ্রদূত Recent Job Solution text
+#Requires -Version 5.1
+$ErrorActionPreference = 'Stop'
 
-param(
-    [string]$InputFile = "raw_data/agradut_raw.txt",
-    [string]$OutputDir = "public/bank",
-    [switch]$Debug
-)
+$rawFile = "C:\Users\User\OneDrive\Documents\80-20 exam\raw_data\agradut_raw.txt"
+$outputDir = "C:\Users\User\OneDrive\Documents\80-20 exam\public\bank"
 
-$ErrorActionPreference = "Stop"
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-$sw = [System.Diagnostics.Stopwatch]::StartNew()
+$utf8 = [System.Text.Encoding]::UTF8
+$content = [System.IO.File]::ReadAllText($rawFile, $utf8)
 
-# Read entire file
-$content = [System.IO.File]::ReadAllText((Resolve-Path $InputFile), [System.Text.Encoding]::UTF8)
-Write-Host "Read $($content.Length) chars from $InputFile"
+Write-Host "File length: $($content.Length) chars"
 
-function Remove-ExtraWhitespace { param([string]$s) ($s -replace '\s+', ' ').Trim() }
-function HtmlDecodeBangla { param([string]$s) [System.Net.WebUtility]::HtmlDecode($s) }
+# Unicode ranges
+# Bengali digits: U+09E6 to U+09EF
+# Bengali ka-kha-ga-gha: U+0995, U+0996, U+0997, U+0998
+# Using regex with Unicode categories or escape sequences
 
-# ---------------------------------------------------------------
-# Step 1: Find exam boundaries
-# ---------------------------------------------------------------
-# Real exam starts have "অগ্রদূত Recent Job Solution" followed by exam metadata
-$examStarts = @()
-$allMatches = [regex]::Matches($content, 'অগ্রদূত\s+Recent\s+Job\s+Solution')
+# Find question starts - Bengali digits followed by period
+$bnDigitPattern = '[\u09E6-\u09EF]+'
+$bnQPattern = [regex]"(?:^|(?<=[\s(]))($bnDigitPattern)\.(?=\s)"
+$bnMatches = $bnQPattern.Matches($content)
 
-foreach ($m in $allMatches) {
-    $pos = $m.Index + $m.Length
-    $lookaheadLen = [Math]::Min(200, $content.Length - $pos)
-    $lookahead = $content.Substring($pos, $lookaheadLen)
-    # Check if followed by exam metadata (সময়: or পদের নাম: or time pattern)
-    if ($lookahead -match 'সময়\s*:' -or $lookahead -match 'পদের\s+নাম\s*:') {
-        $examStarts += $m.Index
+Write-Host "Found $($bnMatches.Count) Bengali-numbered question starts"
+
+$positions = @()
+foreach ($m in $bnMatches) {
+    $numStr = $m.Groups[1].Value
+    $qnum = 0
+    foreach ($c in $numStr.ToCharArray()) {
+        $digitVal = [int]$c - 0x09E6
+        if ($digitVal -ge 0 -and $digitVal -le 9) {
+            $qnum = $qnum * 10 + $digitVal
+        }
+    }
+    if ($qnum -ge 1 -and $qnum -le 200) {
+        $positions += [PSCustomObject]@{
+            Index = $m.Index
+            Number = $qnum
+            NumEnd = $m.Index + $m.Length
+        }
     }
 }
 
-# Sort and deduplicate (remove starts that are within 200 chars of each other, keep first)
-$sorted = $examStarts | Sort-Object
-$cleanStarts = @()
-$last = -1000
-foreach ($s in $sorted) {
-    if ($s - $last -gt 200) {
-        $cleanStarts += $s
-        $last = $s
+if ($positions.Count -le 1) {
+    Write-Host "Fallback: trying Latin digits..."
+    $positions = @()
+    $latQPattern = [regex]'(?:^|(?<=[\s(]))(\d+)\.(?=\s)'
+    $latMatches = $latQPattern.Matches($content)
+    foreach ($m in $latMatches) {
+        $qnum = 0
+        if ([int]::TryParse($m.Groups[1].Value, [ref]$qnum) -and $qnum -ge 1 -and $qnum -le 300) {
+            $positions += [PSCustomObject]@{
+                Index = $m.Index
+                Number = $qnum
+                NumEnd = $m.Index + $m.Length
+            }
+        }
     }
+    Write-Host "Found $($positions.Count) Latin-numbered question starts"
 }
 
-Write-Host "Found $($cleanStarts.Count) exam sections"
+Write-Host "First 20 numbers: $($positions | Select-Object -First 20 | ForEach-Object { $_.Number }) -join ', '"
 
-# Extract each exam section
-$examSections = @()
-for ($i = 0; $i -lt $cleanStarts.Count; $i++) {
-    $start = $cleanStarts[$i]
-    $end = if ($i -lt $cleanStarts.Count - 1) { $cleanStarts[$i+1] } else { $content.Length }
-    $sectionText = $content.Substring($start, $end - $start)
-    
-    # Extract header info from first 400 chars
-    $headerLen = [Math]::Min(400, $sectionText.Length)
-    $headerText = ($sectionText.Substring(0, $headerLen) -replace "`r|`n", " ")
-    $headerText = Remove-ExtraWhitespace $headerText
-    
-    # Parse exam name and date from header
-    $examName = ""
-    $examDate = ""
-    
-    # Try multiple patterns for exam name
-    $pat1 = [regex]::Match($headerText, '(?:মিনিট|Minutes)\s+(.+?)(?:\s+পদের নাম|\s+পূর্ণমান|\s+পরীক্ষার|\s+Based|\s+Post Name|\s*$)')
-    if ($pat1.Success -and $pat1.Groups[1].Value.Trim().Length -gt 3) {
-        $examName = Remove-ExtraWhitespace $pat1.Groups[1].Value
-    }
-    
-    # Try English pattern
-    if ([string]::IsNullOrEmpty($examName)) {
-        $pat2 = [regex]::Match($headerText, '(?:Based\s+)?Post\s+Name:\s*(.+?)(?:\s+Written\s+Exam|\s+Facebook|\s+পরীক্ষার|\s*$)')
-        if ($pat2.Success) { $examName = Remove-ExtraWhitespace $pat2.Groups[1].Value }
-    }
-    
-    # Try to get exam name from the "সমন্বিত" or "Combined" part
-    if ([string]::IsNullOrEmpty($examName)) {
-        $pat3 = [regex]::Match($headerText, '(সমন্বিত\s+[\d০১২৩৪৫৬৭৮৯]+\s+ব্যাংক[^প]*?)(?:\s+পদের|\s*$)')
-        if ($pat3.Success) { $examName = Remove-ExtraWhitespace $pat3.Groups[1].Value }
-    }
-    
-    # Extract date
-    if ($headerText -match 'তারিখ:\s*([\d./]+)') {
-        $examDate = $matches[1]
-    } elseif ($headerText -match 'Date:\s*([\d./]+)') {
-        $examDate = $matches[1]
-    }
-    
-    # Determine format
-    $hasBengaliNumbers = $sectionText -match '[০১২৩৪৫৬৭৮৯]'
-    $hasEnglishAns = $sectionText -match 'Ans:\s*[ABCD]'
-    
-    $format = "unknown"
-    if ($hasEnglishAns) { $format = "english" }
-    elseif ($hasBengaliNumbers) { $format = "bengali" }
-    
-    $examSections += @{
+# Extract blocks
+$blocks = @()
+for ($i = 0; $i -lt $positions.Count; $i++) {
+    $start = $positions[$i].Index
+    $end = if ($i + 1 -lt $positions.Count) { $positions[$i + 1].Index } else { $content.Length }
+    $blockText = $content.Substring($start, $end - $start).Trim()
+    $blocks += [PSCustomObject]@{
         Index = $i
-        Start = $start
-        End = $end
-        Length = $end - $start
-        Header = $headerText
-        ExamName = if ([string]::IsNullOrEmpty($examName)) { "Exam $i" } else { $examName }
-        ExamDate = $examDate
-        Format = $format
-        Text = $sectionText
+        Number = $positions[$i].Number
+        Offset = $start
+        Text = $blockText
     }
-    
-    $dispName = if ($examName.Length -gt 60) { $examName.Substring(0, 60) + "..." } else { $examName }
-    Write-Host "  [$i] $dispName ($examDate) format=$format len=$($sectionText.Length)"
 }
 
-# ---------------------------------------------------------------
-# Step 2: Parse each section
-# ---------------------------------------------------------------
+Write-Host "Extracted $($blocks.Count) blocks"
 
-$bengaliDigits = @{'০'='0';'১'='1';'২'='2';'৩'='3';'৪'='4';'৫'='5';'৬'='6';'৭'='7';'৮'='8';'৯'='9'}
-function NormalizeDigits {
-    param([string]$s)
-    $sb = [System.Text.StringBuilder]::new()
-    foreach ($ch in $s.ToCharArray()) {
-        if ($bengaliDigits.ContainsKey($ch)) { $null = $sb.Append($bengaliDigits[$ch]) }
-        else { $null = $sb.Append($ch) }
-    }
-    return $sb.ToString()
-}
+# Parse each block
+$parsedQuestions = @()
+$savedCount = 0
+$bengaliOptLetters = @('\u0995', '\u0996', '\u0997', '\u0998') # ka, kha, ga, gha
+$bnOptClass = '[\u0995\u0996\u0997\u0998]'
+$bnOptPattern = [regex]"($bnOptClass)\.[\s\S]*?(?=\s*(?:$bnOptClass\.|\u0989\.?|\u09AA\u09C3\u09B7\u09CD\u09A0\u09BE|$))"
 
-function Extract-Questions-By-Answer {
-    <#
-    .DESCRIPTION
-    Strategy: Find answer markers, then work backwards to find question/options.
-    #>
-    param([string]$text, [string]$examName, [string]$format)
+# u0989 = উ (answer marker start)
+# u09AAu09C3u09B7u09CDu09A0u09BE = পৃষ্ঠা (page)
+# u0995u0996u0997u0998 = কখগঘ (option letters)
+
+$bnToLatin = @{ "\u0995" = "A"; "\u0996" = "B"; "\u0997" = "C"; "\u0998" = "D" }
+
+$savedCount = 0
+foreach ($b in $blocks) {
+    $text = $b.Text
+    if ($text.Length -lt 15) { continue }
     
-    $questions = @()
+    # Try Bengali option pattern
+    $hasBnOpts = $text -match '[\u0995\u0996\u0997\u0998]\.'
+    $hasLatinOpts = $text -match '(?<!\w)[A-D]\. '
     
-    if ($format -eq "english") {
-        $ansPattern = 'Ans:\s*([ABCD])\s*'
-    } else {
-        $ansPattern = 'উ\.?\s*([কখগঘ])'
-    }
-    
-    $ansMatches = [regex]::Matches($text, $ansPattern)
-    Write-Host "  Found $($ansMatches.Count) answer markers"
-    
-    $ansMapB2E = @{ 'ক'='A'; 'খ'='B'; 'গ'='C'; 'ঘ'='D' }
-    
-    for ($i = 0; $i -lt $ansMatches.Count; $i++) {
-        $m = $ansMatches[$i]
-        $ansLetter = $m.Groups[1].Value
+    if ($hasBnOpts) {
+        # Remove question number prefix
+        $clean = $text -replace '^[\u09E6-\u09EF]+\.\s*', ''
         
-        if ($format -eq "english") {
-            $answer = $ansLetter
-        } else {
-            $answer = $ansMapB2E[$ansLetter]
-        }
-        
-        # Determine the answer marker start
-        $ansEnd = $m.Index + $m.Length
-        $ansStart = $m.Index
-        
-        # Look for question number before this answer
-        # Find the last occurrence of a question number before this position
-        $preText = $text.Substring(0, $ansStart)
-        
-        # Find question number
-        $qNum = ""
-        $qText = ""
-        $options = @{}
-        
-        if ($format -eq "english") {
-            $qMatch = [regex]::Match($preText, '(?:^|\s)(\d+)\s*\.\s*(?!\d)(?=[^.]*$)')
-            if (-not $qMatch.Success) {
-                $qMatch = [regex]::Match($preText, '(?:^|[\s)])(\d+)\s*\.\s*(?=[A-Z])')
-            }
-        } else {
-            # Bengali numbers
-            $normalized = NormalizeDigits($preText)
-            $qMatch = [regex]::Match($normalized, '(?:^|\s)(\d+)\s*\.\s*(?=[^.]*$)')
-            if (-not $qMatch.Success) {
-                $qMatch = [regex]::Match($normalized, '(?:^|\s)(\d+)\s*\.\s*(.+)')
+        # Extract Bengali option blocks in order of appearance
+        $optBlocks = @()
+        $bnOptPattern2 = [regex]"([\u0995\u0996\u0997\u0998])\.\s*((?:(?![\u0995\u0996\u0997\u0998]\.|[\u0989]\.?|[\u09AA\u09C3\u09B7\u09CD\u09A0\u09BE])[\s\S])*)"
+        $bnOptMatches = $bnOptPattern2.Matches($clean)
+        foreach ($optMatch in $bnOptMatches) {
+            $letter = $optMatch.Groups[1].Value
+            $value = $optMatch.Groups[2].Value.Trim()
+            if ($value.Length -gt 0) {
+                $optBlocks += [PSCustomObject]@{ Letter = $letter; Value = $value }
             }
         }
         
-        if ($qMatch.Success) {
-            $qNum = $qMatch.Groups[1].Value
-            # Extract question text - from after the number to before options
-            $qnStart = $preText.LastIndexOf($qMatch.Groups[1].Value + ".")
-            if ($qnStart -ge 0) {
-                $qnAfter = $qnStart + $qMatch.Groups[1].Value.Length + 1
-                $qnTextRaw = $preText.Substring($qnAfter)
+        if ($optBlocks.Count -ge 2) {
+            $fopts = [Ordered]@{}
+            $ka = $false; $kha = $false; $ga = $false; $gha = $false
+            foreach ($ob in $optBlocks) {
+                $latin = ""
+                if ($ob.Letter -eq [char]0x0995) { $latin = "A"; $ka = $true }
+                elseif ($ob.Letter -eq [char]0x0996) { $latin = "B"; $kha = $true }
+                elseif ($ob.Letter -eq [char]0x0997) { $latin = "C"; $ga = $true }
+                elseif ($ob.Letter -eq [char]0x0998) { $latin = "D"; $gha = $true }
+                if ($latin -ne "" -and -not $fopts.Contains($latin)) {
+                    $fopts[$latin] = $ob.Value
+                }
+            }
+            # Fill missing
+            if (-not $ka) { $fopts["A"] = "" }
+            if (-not $kha) { $fopts["B"] = "" }
+            if (-not $ga) { $fopts["C"] = "" }
+            if (-not $gha) { $fopts["D"] = "" }
+            
+            # Extract answer: উ. letter or উletter
+            $ans = ""
+            $ansMatch = [regex]::Match($clean, "[\u0989]\.?\s*([\u0995\u0996\u0997\u0998])")
+            if ($ansMatch.Success) {
+                $al = $ansMatch.Groups[1].Value
+                if ($al -eq [char]0x0995) { $ans = "A" }
+                elseif ($al -eq [char]0x0996) { $ans = "B" }
+                elseif ($al -eq [char]0x0997) { $ans = "C" }
+                elseif ($al -eq [char]0x0998) { $ans = "D" }
+            }
+            
+            # Clean question
+            $qclean = $clean -replace "[\u0995\u0996\u0997\u0998]\.[\s\S]*?$", ''
+            $qclean = $qclean -replace "[\u0989]\.?\s*[\u0995\u0996\u0997\u0998]\s*", ''
+            $qclean = $qclean -replace "[\u09AA\u09C3\u09B7\u09CD\u09A0\u09BE].*$", ''
+            $qclean = $qclean -replace 'G\s*$', ''
+            $qclean = $qclean -replace '^\d+\s*', ''
+            $qclean = $qclean.Trim()
+            
+            if ($qclean.Length -gt 5 -and $ans -ne "") {
+                $parsedQuestions += [PSCustomObject]@{
+                    id = $savedCount
+                    question = $qclean
+                    options = $fopts
+                    answer = $ans
+                    source = "Agradut Job"
+                    subject = "Bangla"
+                    explanation = ""
+                }
+                $savedCount++
+            }
+        }
+    } elseif ($hasLatinOpts) {
+        # Latin options
+        $clean = $text -replace '^\d+\.\s*', ''
+        
+        $optBlocks = @()
+        $latOptPattern = [regex]"(?<!\w)([A-D])\.\s+((?:(?!\s*[A-D]\.)[\s\S])*?)(?=\s*(?:[A-D]\.|$|[\u09AA\u09C3\u09B7\u09CD\u09A0\u09BE]))"
+        $latOptMatches = $latOptPattern.Matches($clean)
+        foreach ($optMatch in $latOptMatches) {
+            $letter = $optMatch.Groups[1].Value
+            $value = $optMatch.Groups[2].Value.Trim()
+            if ($value.Length -gt 0) {
+                $optBlocks += [PSCustomObject]@{ Letter = $letter; Value = $value }
+            }
+        }
+        
+        if ($optBlocks.Count -ge 2) {
+            $fopts = [Ordered]@{}
+            foreach ($l in @('A','B','C','D')) { $fopts[$l] = "" }
+            foreach ($ob in $optBlocks) {
+                if ($fopts.Contains($ob.Letter)) {
+                    $fopts[$ob.Letter] = $ob.Value
+                }
+            }
+            
+            # Extract answer
+            $ans = ""
+            # Match various answer patterns
+            $ansMatch = [regex]::Match($clean, "[\u0985\u0986\u0987\u0988\u0989]\s*\.?\s*([A-D])(?:\s|$)")
+            if (-not $ansMatch.Success) {
+                $ansMatch = [regex]::Match($clean, "([A-D])\s*[\u0985\u0986\u0987\u0988\u0989]")
+            }
+            if (-not $ansMatch.Success) {
+                $ansMatch = [regex]::Match($clean, '\?\s*\.?\s*([A-D])(?:\s|$)')
+            }
+            if ($ansMatch.Success) { $ans = $ansMatch.Groups[1].Value }
+            
+            # Clean question
+            $qclean = $clean -replace "(?<!\w)[A-D]\.\s+((?:(?!\s*[A-D]\.)[\s\S])*?)(?=\s*(?:[A-D]\.|$|[\u09AA\u09C3\u09B7\u09CD\u09A0\u09BE]))", ''
+            $qclean = $qclean -replace "[\u0985-\u0989]\s*\.?\s*[A-D]", ''
+            $qclean = $qclean -replace "[\u09AA\u09C3\u09B7\u09CD\u09A0\u09BE].*$", ''
+            $qclean = $qclean -replace '^\d+\.\s*', ''
+            $qclean = $qclean.Trim()
+            
+            if ($qclean.Length -gt 5 -and $ans -ne "") {
+                # Detect subject
+                $subj = "General"
+                if ($clean -match 'Competitive English|Idiom|Active|Passive|Spelling|Synonym|Antonym|One word|Narration|Speech|Phrase|Verb|Adverb|Noun|Pronoun|Adjective|Preposition|Conjunction|Interjection|Grammar|Tense|Voice') { $subj = "English" }
+                elseif ($clean -match 'Basic Math|গণিত|ratio|percentage|average|probability|profit|loss|interest|speed|distance|time|work|area|volume|permutation|combination|number|digit|fraction|decimal|square|root|triangle|circle') { $subj = "Math" }
+                elseif ($clean -match 'সাধারণ জ্ঞান|Bangladesh|UN|world|Nobel|country|president|prime minister|capital|river|mountain|ocean|continent|organization|treaty|agreement|sports|game|cricket|football|Olympic|Asian') { $subj = "GK" }
+                elseif ($clean -match 'কম্পিউটার|computer|binary|RAM|software|hardware|programming|language|database|network|internet|email|website|server|client|CPU|memory|disk|drive|file|folder|operating|system|Windows|Linux|Mac|Microsoft|Oracle|Java|Python|C\+\+|HTML|CSS') { $subj = "Computer" }
+                elseif ($clean -match 'বিজ্ঞান|science|physics|chemistry|biology|cell|atom|molecule|force|energy|light|sound|heat|electricity|magnet|planet|star|satellite|gravity|acid|base|salt|metal|non-metal') { $subj = "Science" }
                 
-                # Extract text before options
-                if ($format -eq "english") {
-                    $optSplit = [regex]::Match($qnTextRaw, '(.*?)(?=A\.|B\.|C\.|D\.|Ans:)')
-                    if ($optSplit.Success) { $qText = Remove-ExtraWhitespace $optSplit.Groups[1].Value }
-                    else { $qText = Remove-ExtraWhitespace $qnTextRaw }
-                } else {
-                    $optSplit = [regex]::Match($qnTextRaw, '(.*?)(?=ক\.|খ\.|গ\.|ঘ\.|উ\.)')
-                    if ($optSplit.Success) { $qText = Remove-ExtraWhitespace $optSplit.Groups[1].Value }
-                    else { $qText = Remove-ExtraWhitespace $qnTextRaw }
+                $parsedQuestions += [PSCustomObject]@{
+                    id = $savedCount
+                    question = $qclean
+                    options = $fopts
+                    answer = $ans
+                    source = "Agradut Job"
+                    subject = $subj
+                    explanation = ""
                 }
-            }
-        }
-        
-        # Extract options - search between question and answer
-        $blockEnd = $ansStart
-        $blockStart = if ($qMatch.Success) { $qnStart } else { 0 }
-        $blockText = if ($blockStart -lt $blockEnd -and $blockStart -ge 0) { $text.Substring($blockStart, $blockEnd - $blockStart) } else { "" }
-        
-        $optOrder = @('A','B','C','D')
-        $optPatterns = @()
-        if ($format -eq "english") {
-            $optPatterns = @('A\.\s*', 'B\.\s*', 'C\.\s*', 'D\.\s*')
-        } else {
-            $optPatterns = @('ক\.\s*', 'খ\.\s*', 'গ\.\s*', 'ঘ\.\s*')
-        }
-        
-        for ($oi = 0; $oi -lt 4; $oi++) {
-            $optPattern = $optPatterns[$oi]
-            $nextPatterns = @()
-            for ($ni = $oi+1; $ni -lt 4; $ni++) { $nextPatterns += $optPatterns[$ni] }
-            $nextPatterns += if ($format -eq "english") { 'Ans:' } else { 'উ\.|পৃষ্ঠা:' }
-            
-            $lookahead = "(?=$($nextPatterns -join '|'))"
-            $fullPat = "(?s)($optPattern)(.*?)$lookahead"
-            $om = [regex]::Match($blockText, $fullPat)
-            
-            if ($om.Success) {
-                $optVal = Remove-ExtraWhitespace $om.Groups[2].Value
-                $options[$optOrder[$oi]] = $optVal
-            }
-        }
-        
-        # Extract explanation (for English format only)
-        $explanation = ""
-        if ($format -eq "english") {
-            $expMatch = [regex]::Match($text.Substring($ansStart), '(?:Ans:\s*[ABCD]\s*)(.*?)(?=(?:\d+\s*\.|পৃষ্ঠা:|$))')
-            if ($expMatch.Success) {
-                # Check if starts with ব্যাখ্যা: or Explanation:
-                $expText = Remove-ExtraWhitespace $expMatch.Groups[1].Value
-                if ($expText -match '^(ব্যাখ্যা|Explanation):\s*(.*)') {
-                    $explanation = Remove-ExtraWhitespace $matches[2]
-                } else {
-                    $explanation = $expText
-                }
-            }
-        }
-        
-        if ($qNum -ne "" -or $qText -ne "" -or $options.Count -gt 0) {
-            $questions += @{
-                id = $qNum
-                question = $qText
-                options = $options
-                answer = $answer
-                explanation = $explanation
+                $savedCount++
             }
         }
     }
-    
-    return $questions
 }
 
-# ---------------------------------------------------------------
-# Process all sections
-# ---------------------------------------------------------------
+Write-Host "Parsed $savedCount questions total"
 
-$allQuestions = @()
-$examIndex = @()
-
-foreach ($section in $examSections) {
-    $text = $section.Text
-    $examName = $section.ExamName
-    $examDate = $section.ExamDate
-    $format = $section.Format
+if ($parsedQuestions.Count -gt 0) {
+    $jsonPath = Join-Path $outputDir "agradut_parsed.json"
+    $parsedQuestions | ConvertTo-Json -Depth 3 | Set-Content -Path $jsonPath -Encoding UTF8
+    Write-Host "Saved to $jsonPath"
     
-    $fullExamName = Remove-ExtraWhitespace "$examName ($examDate)"
-    if ($examDate -eq "") { $fullExamName = $examName }
-    
-    Write-Host "`n=== Processing [$($section.Index)] $fullExamName ==="
-    
-    $sectionQs = Extract-Questions-By-Answer -text $text -examName $fullExamName -format $format
-    
-    Write-Host "  Extracted $($sectionQs.Count) questions"
-    
-    if ($sectionQs.Count -gt 0) {
-        $examIndex += @{
-            examName = $fullExamName
-            count = $sectionQs.Count
-            format = $format
-            index = $section.Index
-        }
-        
-        # Save individual file
-        $safeName = $fullExamName -replace '[^\w\s-]', '' -replace '\s+', '_'
-        $safeName = $safeName.Substring(0, [Math]::Min(80, $safeName.Length))
-        $outFile = Join-Path $OutputDir "agradut_$($section.Index)_$safeName.json"
-        
-        $sectionQs | ConvertTo-Json -Depth 10 | Out-File -FilePath $outFile -Encoding utf8
-        Write-Host "  -> Saved to $outFile"
-        
-        $allQuestions += $sectionQs
+    # Also save by subject
+    $subjects = $parsedQuestions | Group-Object subject
+    foreach ($sg in $subjects) {
+        $safeName = "agradut_" + $sg.Name.ToLower().Replace(' ', '_')
+        $sgPath = Join-Path $outputDir "$safeName.json"
+        $sg.Group | ConvertTo-Json -Depth 3 | Set-Content -Path $sgPath -Encoding UTF8
+        Write-Host "  $($sg.Name): $($sg.Count) questions -> $safeName.json"
     }
 }
-
-Write-Host "`n============================================"
-Write-Host "Total questions extracted: $($allQuestions.Count)"
-Write-Host "Exam sections: $($examIndex.Count)"
-Write-Host "Time: $($sw.Elapsed.TotalSeconds.ToString('F1'))s"
-
-$combinedFile = Join-Path $OutputDir "agradut_combined.json"
-$allQuestions | ConvertTo-Json -Depth 10 | Out-File -FilePath $combinedFile -Encoding utf8
-Write-Host "Combined -> $combinedFile"
-
-$indexFile = Join-Path $OutputDir "agradut_index.json"
-$examIndex | ConvertTo-Json -Depth 3 | Out-File -FilePath $indexFile -Encoding utf8
-Write-Host "Index -> $indexFile"
