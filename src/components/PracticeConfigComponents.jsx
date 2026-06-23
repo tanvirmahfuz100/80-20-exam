@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 import { motion } from 'framer-motion';
-import { Book, Calculator, Brain, Briefcase, ChevronRight, Play, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles, Check, Flask } from 'lucide-react';
+import { Book, Calculator, Brain, Briefcase, ChevronRight, Play, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles, Check, Flask, Leaf } from 'lucide-react';
 
 export const icons = {
     bangla: BookOpen,
@@ -13,6 +13,7 @@ export const icons = {
     physics_2nd: Flask,
     higher_math_1st: Calculator,
     higher_math_2nd: Calculator,
+    biology_1st: Leaf,
 };
 
 export const examColors = {

@@ -1859,6 +1859,28 @@
       ],
       "name_bn": "উচ্চতর গণিত ২য় পত্র",
       "name_en": "Higher Math 2nd Paper"
+    },
+    {
+      "id": "biology_1st",
+      "name": "Biology 1st Paper",
+      "icon": "Leaf",
+      "topics": [
+        {
+          "id": "board_mcq",
+          "name": "Board MCQ",
+          "chapters": [
+            {
+              "id": "hsc_bio1_board",
+              "name": "HSC Biology 1st Paper MCQ",
+              "file_bn": "/hsc/biology_1st/board_mcq.json"
+            }
+          ],
+          "name_bn": "বোর্ড এমসিকিউ",
+          "name_en": "Board MCQ"
+        }
+      ],
+      "name_bn": "জীববিজ্ঞান ১ম পত্র",
+      "name_en": "Biology 1st Paper"
     }
   ]
 }
