@@ -146,3 +146,13 @@
     - When a hook with `useState` + `localStorage` is used in multiple component instances (e.g., `HomepageLayout` + `HomepageCustomizer` + `Settings`), each instance gets independent state — changes in one don't reflect in others until a full re-mount/refresh.
     - Fix: use a Zustand store (`create()`) to hold the state. Every component that subscribes via the hook re-renders from the single source of truth.
     - The pattern: store loads from `localStorage` on init, persists on every mutation, and all consumers read/write through the same store. No stale state.
+
+23. **Dev server dies after 120s because bash tool kills it**:
+    - The `bash` tool has a default 120s timeout. Running `npm run dev` directly kills the server when the timeout fires.
+    - **Fix**: start with `nohup npx vite --host 0.0.0.0 > /tmp/vite-dev.log 2>&1 & disown` and a short timeout so the tool exits before the server is killed.
+    - Check logs with `tail -5 /tmp/vite-dev.log`.
+    - Verify with `curl -s -o /dev/null -w "%{http_code}" http://localhost:5173/`.
+
+24. **Kill stale vite before restarting**:
+    - `pkill -f "vite"` kills all vite processes.
+    - Always run this before starting a new dev server to avoid port conflicts.

@@ -44,6 +44,7 @@
 8. **Fixing quiz type errors?** Read [AGENT_LESSONS.md](./AGENT_LESSONS.md) lesson 21 — `NormalizedQuestion` must be defined in `src/types/index.ts`
 9. **Building a new feature/page?** Check [specify/](./specify/) for the spec file first, then read relevant codebase docs
 10. **Following agent instructions?** Visit [specify/](./specify/) when a task mentions a spec file or when you need detailed requirements
+11. **Dev server keeps dying on "go live"?** Read AGENT_LESSONS.md lesson 23 — must use `nohup + disown` to keep vite alive past bash tool timeout
 
 ## graphify
 
