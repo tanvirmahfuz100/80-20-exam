@@ -282,6 +282,7 @@ export const api = {
         const rows = readStorage(STORAGE_KEYS.responses, []);
         rows.push({ ...response, id: crypto.randomUUID(), created_at: new Date().toISOString() });
         writeStorage(STORAGE_KEYS.responses, rows);
+        window.dispatchEvent(new CustomEvent('responses-changed'));
         return { data: true, error: null };
     },
 

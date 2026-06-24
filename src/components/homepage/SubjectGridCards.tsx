@@ -9,6 +9,7 @@ import {
 import type { LucideIcon } from 'lucide-react';
 import { getSubjects } from '../../config/examPaths';
 import { subjectNameToId, multiPaperSubjects } from '../../pages/SubjectSelection';
+import { useSubjectProgress } from '../../hooks/useSubjectProgress';
 import PaperPicker from '../PaperPicker';
 
 const subjectIconMap: Record<string, LucideIcon> = {
@@ -36,7 +37,7 @@ const subjectIconMap: Record<string, LucideIcon> = {
   'ইসলাম শিক্ষা': BookHeart,
 };
 
-function SubjectGridCard({ subject, onClick }: { subject: string; onClick: () => void }) {
+function SubjectGridCard({ subject, onClick, progress }: { subject: string; onClick: () => void; progress: number }) {
   return (
     <motion.button
       onClick={onClick}
@@ -48,6 +49,15 @@ function SubjectGridCard({ subject, onClick }: { subject: string; onClick: () =>
         {renderSubjectIcon(subject)}
       </div>
       <span className="text-[11px] font-bold text-text text-center leading-tight">{subject}</span>
+      <div className="w-full flex items-center gap-1.5">
+        <div className="flex-1 h-1 rounded-full bg-surface-hover overflow-hidden">
+          <div
+            className="h-full rounded-full bg-primary transition-all duration-500"
+            style={{ width: `${progress}%` }}
+          />
+        </div>
+        <span className="text-[9px] font-bold text-text-muted tabular-nums">{progress}%</span>
+      </div>
     </motion.button>
   );
 }
@@ -65,6 +75,7 @@ interface SubjectGridCardsProps {
 export default function SubjectGridCards({ examPath, onNavigate }: SubjectGridCardsProps) {
   const [paperPicker, setPaperPicker] = useState({ open: false, subject: '' });
   const subjects = getSubjects(examPath.exam, examPath.group) || [];
+  const subjectProgress = useSubjectProgress(examPath.exam);
 
   return (
     <div>
@@ -84,6 +95,7 @@ export default function SubjectGridCards({ examPath, onNavigate }: SubjectGridCa
             <SubjectGridCard
               key={subject}
               subject={subject}
+              progress={subjectProgress[subject] ?? 0}
               onClick={() => {
                 if (multiPaperSubjects[subject]) {
                   setPaperPicker({ open: true, subject });
