@@ -22,9 +22,9 @@
     --color-crab: 255 120 120;
     --color-cardinal: 238 85 85;
     --color-fire-ant: 216 72 72;
-    --color-owl: 124 58 237;
-    --color-tree-frog: 109 40 217;
-    --color-turtle: 91 33 182;
+    --color-owl: 0 129 72;
+    --color-tree-frog: 0 107 58;
+    --color-turtle: 0 84 46;
     --color-bee: 255 199 0;
     --color-lion: 255 177 0;
     --color-peacock: 16 185 129;
@@ -107,12 +107,12 @@
   }
 
   ::selection {
-    background: rgba(124, 58, 237, 0.3);
+    background: rgba(0, 129, 72, 0.3);
     color: #fff;
   }
 
   :focus-visible {
-    outline: 2px solid #7C3AED;
+    outline: 2px solid #008148;
     outline-offset: 2px;
     border-radius: 8px;
   }
@@ -361,12 +361,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(124, 58, 237, 0.3);
+  background: rgba(0, 129, 72, 0.3);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(124, 58, 237, 0.6);
+  background: rgba(0, 129, 72, 0.6);
 }
 
 @media (min-width: 2560px) {
@@ -382,7 +382,7 @@
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(124, 58, 237, 0.3) transparent;
+  scrollbar-color: rgba(0, 129, 72, 0.3) transparent;
 }
 
 @layer base {
