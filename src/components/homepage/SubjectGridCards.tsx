@@ -41,9 +41,8 @@ function SubjectGridCard({ subject, onClick, progress }: { subject: string; onCl
   return (
     <motion.button
       onClick={onClick}
-      whileHover={{ scale: 1.03 }}
       whileTap={{ scale: 0.97 }}
-      className="flex flex-col items-center gap-2 p-3 rounded-2xl bg-surface border hover:border-primary/50 transition-all"
+      className="flex flex-col items-center gap-2 p-3 rounded-2xl bg-surface border hover:border-primary/50 hover:shadow-[0_0_20px_rgba(0,129,72,0.15)] transition-all duration-200"
     >
       <div className="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center">
         {renderSubjectIcon(subject)}
