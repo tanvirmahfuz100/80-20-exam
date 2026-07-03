@@ -15039,5 +15039,642 @@
     "answer": "A",
     "explanation": "The Bangladesh Garment Manufacturers and Exporters Association has set a target of $50 billion in RMG exports by 2030. Achieving this requires: (1) Product diversification beyond basic garments to high-value items; (2) Moving up the value chain from cut-make-trim to design and branding; (3) Expanding into non-traditional markets beyond the EU and US; (4) Improving sustainability and compliance standards. The RMG sector currently exports approximately $40+ billion annually.",
     "source": "Bangladesh Affairs (Current Affairs)"
+  },
+  {
+    "id": 1158,
+    "question": "According to the Constitution of Bangladesh, what is the highest court of the country?",
+    "options": {
+      "A": "High Court Division",
+      "B": "Supreme Court of Bangladesh",
+      "C": "Court of Appeal",
+      "D": "International Court of Justice"
+    },
+    "answer": "B",
+    "explanation": "The Supreme Court of Bangladesh is the highest court, consisting of the Appellate Division and the High Court Division. It has ultimate appellate and constitutional jurisdiction.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1159,
+    "question": "The Constitution of Bangladesh came into effect on which date?",
+    "options": {
+      "A": "16 December 1971",
+      "B": "26 March 1971",
+      "C": "16 December 1972",
+      "D": "4 November 1972"
+    },
+    "answer": "C",
+    "explanation": "The Constitution was adopted on 4 November 1972 and came into force on 16 December 1972, marking Victory Day.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1160,
+    "question": "Which article of the Constitution declares secularism as one of the fundamental principles of state policy?",
+    "options": {
+      "A": "Article 2",
+      "B": "Article 8",
+      "C": "Article 12",
+      "D": "Article 15"
+    },
+    "answer": "C",
+    "explanation": "Article 12 specifically deals with secularism and freedom of religion, stating that the state shall ensure secularism and freedom of religion.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1161,
+    "question": "Who was the first President of Bangladesh under the 1972 Constitution?",
+    "options": {
+      "A": "Sheikh Mujibur Rahman",
+      "B": "Syed Nazrul Islam",
+      "C": "Abu Sayeed Chowdhury",
+      "D": "Ziaur Rahman"
+    },
+    "answer": "C",
+    "explanation": "Abu Sayeed Chowdhury was the first President under the Constitution of Bangladesh, taking office on 12 January 1972. Sheikh Mujibur Rahman was the Prime Minister.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1162,
+    "question": "How many members did the Constituent Assembly of Bangladesh have?",
+    "options": {
+      "A": "300",
+      "B": "400",
+      "C": "469",
+      "D": "500"
+    },
+    "answer": "C",
+    "explanation": "The Constituent Assembly consisted of 469 members: 300 elected to the National Assembly of Pakistan from East Pakistan and 169 elected to the Provincial Assembly.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1163,
+    "question": "Which amendment is often associated with the 'Indemnity Ordinance'?",
+    "options": {
+      "A": "4th Amendment",
+      "B": "5th Amendment",
+      "C": "7th Amendment",
+      "D": "8th Amendment"
+    },
+    "answer": "B",
+    "explanation": "The 5th Amendment (1979) validated the Indemnity Ordinance, which protected actions taken during the martial law regime from legal challenge.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1164,
+    "question": "Article 70 of the Constitution deals with which issue?",
+    "options": {
+      "A": "Floor crossing",
+      "B": "Resignation of members",
+      "C": "Expulsion from party",
+      "D": "Disqualification for criminal offence"
+    },
+    "answer": "A",
+    "explanation": "Article 70 provides that a member of Parliament who votes against the party whip or abstains from voting loses membership, i.e., anti-defection (floor crossing).",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1165,
+    "question": "Which article guarantees the freedom of speech and expression?",
+    "options": {
+      "A": "Article 39",
+      "B": "Article 40",
+      "C": "Article 41",
+      "D": "Article 42"
+    },
+    "answer": "A",
+    "explanation": "Article 39(1) guarantees freedom of thought and conscience, and Article 39(2) guarantees freedom of speech and expression, subject to reasonable restrictions.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1166,
+    "question": "Article 31 of the Constitution provides for:",
+    "options": {
+      "A": "Right to protection of law",
+      "B": "Right to equality",
+      "C": "Right to privacy",
+      "D": "Right to property"
+    },
+    "answer": "A",
+    "explanation": "Article 31 states that no person shall be deprived of life or personal liberty save in accordance with law, and every person has the right to the protection of law.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1167,
+    "question": "Which article states that the President shall be elected by the members of Parliament?",
+    "options": {
+      "A": "Article 48",
+      "B": "Article 50",
+      "C": "Article 52",
+      "D": "Article 54"
+    },
+    "answer": "A",
+    "explanation": "Article 48(1) provides that the President shall be elected by the members of Parliament in accordance with law.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1168,
+    "question": "The power of the Supreme Court to review its own judgments is provided under which article?",
+    "options": {
+      "A": "Article 102",
+      "B": "Article 103",
+      "C": "Article 104",
+      "D": "Article 105"
+    },
+    "answer": "B",
+    "explanation": "Article 103 grants the Supreme Court the power to review its own judgments and orders.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1169,
+    "question": "Which article provides for the superintendence and control of subordinate courts by the Supreme Court?",
+    "options": {
+      "A": "Article 94",
+      "B": "Article 96",
+      "C": "Article 98",
+      "D": "Article 109"
+    },
+    "answer": "D",
+    "explanation": "Article 109 empowers the Supreme Court to have superintendence and control over all courts and tribunals subordinate to it.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1170,
+    "question": "Which of the following is NOT a Fundamental Principle of State Policy in the Bangladesh Constitution?",
+    "options": {
+      "A": "Nationalism",
+      "B": "Socialism",
+      "C": "Democracy",
+      "D": "Capitalism"
+    },
+    "answer": "D",
+    "explanation": "The four fundamental principles are nationalism, socialism, democracy, and secularism. Capitalism is not a constitutional principle.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1171,
+    "question": "The principle of 'equality of opportunity' for all citizens is associated with which fundamental principle?",
+    "options": {
+      "A": "Socialism",
+      "B": "Democracy",
+      "C": "Nationalism",
+      "D": "Secularism"
+    },
+    "answer": "A",
+    "explanation": "Socialism aims to ensure economic and social justice, including equality of opportunity and the reduction of disparities.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1172,
+    "question": "Which article explicitly mentions the participation of women in national life?",
+    "options": {
+      "A": "Article 10",
+      "B": "Article 28",
+      "C": "Article 65",
+      "D": "Article 91"
+    },
+    "answer": "A",
+    "explanation": "Article 10 states that the state shall take measures to ensure participation of women in all spheres of national life.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1173,
+    "question": "Which article guarantees the right to equality before law?",
+    "options": {
+      "A": "Article 27",
+      "B": "Article 28",
+      "C": "Article 29",
+      "D": "Article 31"
+    },
+    "answer": "A",
+    "explanation": "Article 27 states that all citizens are equal before law and are entitled to equal protection of law.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1174,
+    "question": "The right to move the Supreme Court for enforcement of fundamental rights is guaranteed under which article?",
+    "options": {
+      "A": "Article 44",
+      "B": "Article 102",
+      "C": "Article 103",
+      "D": "Article 106"
+    },
+    "answer": "A",
+    "explanation": "Article 44 provides that the right to move the Supreme Court by appropriate proceedings for the enforcement of fundamental rights is guaranteed.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1175,
+    "question": "Which fundamental right is exclusively available to citizens of Bangladesh?",
+    "options": {
+      "A": "Right to life",
+      "B": "Right to personal liberty",
+      "C": "Right to property",
+      "D": "Protection of law"
+    },
+    "answer": "C",
+    "explanation": "Article 42 guarantees the right to property only to citizens. Rights like life (32), personal liberty (31, 33) and protection of law (31) are available to all persons.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1176,
+    "question": "The prohibition against torture and cruel, inhuman, or degrading punishment is provided under which article?",
+    "options": {
+      "A": "Article 35(5)",
+      "B": "Article 35(4)",
+      "C": "Article 35(3)",
+      "D": "Article 35(2)"
+    },
+    "answer": "A",
+    "explanation": "Article 35(5) explicitly states that no person shall be subjected to torture or to cruel, inhuman or degrading punishment or treatment.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1177,
+    "question": "Freedom of association is guaranteed by which article?",
+    "options": {
+      "A": "Article 37",
+      "B": "Article 38",
+      "C": "Article 39",
+      "D": "Article 40"
+    },
+    "answer": "B",
+    "explanation": "Article 38 guarantees every citizen the right to form associations or unions, subject to reasonable restrictions.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1178,
+    "question": "Which of the following is NOT a fundamental right in the Constitution of Bangladesh?",
+    "options": {
+      "A": "Right to education",
+      "B": "Right to property",
+      "C": "Right to freedom of movement",
+      "D": "Right to assembly"
+    },
+    "answer": "A",
+    "explanation": "The right to education is not listed as a fundamental right; it is a fundamental principle of state policy under Article 17.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1179,
+    "question": "Article 28 of the Constitution deals with:",
+    "options": {
+      "A": "Non-discrimination in public life",
+      "B": "Equality of opportunity",
+      "C": "Right to equality",
+      "D": "Freedom from discrimination on grounds of religion, race, caste, sex or place of birth"
+    },
+    "answer": "D",
+    "explanation": "Article 28(1) states that the State shall not discriminate against any citizen on grounds of religion, race, caste, sex, or place of birth.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1180,
+    "question": "The right to form trade unions is guaranteed under which article?",
+    "options": {
+      "A": "Article 37",
+      "B": "Article 38",
+      "C": "Article 39",
+      "D": "Article 40"
+    },
+    "answer": "B",
+    "explanation": "Article 38 guarantees the right to form associations or unions, which includes trade unions.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1181,
+    "question": "Who is the head of the state in Bangladesh?",
+    "options": {
+      "A": "Prime Minister",
+      "B": "President",
+      "C": "Speaker",
+      "D": "Chief Justice"
+    },
+    "answer": "B",
+    "explanation": "Article 48(1) states that the President is the head of state of Bangladesh.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1182,
+    "question": "According to the Constitution, the President is elected by:",
+    "options": {
+      "A": "Direct popular vote",
+      "B": "Electoral college",
+      "C": "Members of Parliament",
+      "D": "Cabinet"
+    },
+    "answer": "C",
+    "explanation": "Article 48(1) specifies that the President shall be elected by the members of Parliament.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1183,
+    "question": "In whom is the executive authority of the Republic vested according to the Constitution?",
+    "options": {
+      "A": "President",
+      "B": "Prime Minister",
+      "C": "Cabinet",
+      "D": "Parliament"
+    },
+    "answer": "B",
+    "explanation": "Article 55(1) states that the executive authority of the Republic shall be vested in the Prime Minister and shall be exercised by him or her.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1184,
+    "question": "Who appoints the Prime Minister of Bangladesh?",
+    "options": {
+      "A": "President",
+      "B": "Parliament",
+      "C": "Chief Justice",
+      "D": "Cabinet"
+    },
+    "answer": "A",
+    "explanation": "Article 56(1) provides that the President shall appoint as Prime Minister the member of Parliament who appears to command the confidence of the majority of the MPs.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1185,
+    "question": "The Parliament of Bangladesh is officially known as:",
+    "options": {
+      "A": "Jatiya Sangsad",
+      "B": "National Assembly",
+      "C": "Senate",
+      "D": "House of Commons"
+    },
+    "answer": "A",
+    "explanation": "The unicameral parliament is called the Jatiya Sangsad (National Parliament).",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1186,
+    "question": "What is the term of the Jatiya Sangsad?",
+    "options": {
+      "A": "4 years",
+      "B": "5 years",
+      "C": "6 years",
+      "D": "7 years"
+    },
+    "answer": "B",
+    "explanation": "Article 65(1) and related provisions state that the term of Parliament is five years unless dissolved earlier.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1187,
+    "question": "The Speaker of the Jatiya Sangsad is elected by:",
+    "options": {
+      "A": "The President",
+      "B": "The Prime Minister",
+      "C": "The members of Parliament",
+      "D": "The Cabinet"
+    },
+    "answer": "C",
+    "explanation": "The Speaker is elected by the members of Parliament from among themselves, as per Article 72.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1188,
+    "question": "The composition of Parliament is provided under which article?",
+    "options": {
+      "A": "Article 65",
+      "B": "Article 66",
+      "C": "Article 67",
+      "D": "Article 68"
+    },
+    "answer": "A",
+    "explanation": "Article 65 establishes the Parliament and sets its composition: 300 directly elected seats and 50 reserved for women.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1189,
+    "question": "The Supreme Court of Bangladesh consists of how many divisions?",
+    "options": {
+      "A": "One",
+      "B": "Two",
+      "C": "Three",
+      "D": "Four"
+    },
+    "answer": "B",
+    "explanation": "The Supreme Court comprises the Appellate Division and the High Court Division.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1190,
+    "question": "Who appoints the judges of the Supreme Court?",
+    "options": {
+      "A": "President",
+      "B": "Prime Minister",
+      "C": "Chief Justice",
+      "D": "Parliament"
+    },
+    "answer": "A",
+    "explanation": "Article 95(1) provides that the President appoints the Chief Justice and other judges, on the advice of the Prime Minister.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1191,
+    "question": "The appointment of the Chief Justice is provided under which article?",
+    "options": {
+      "A": "Article 94",
+      "B": "Article 95",
+      "C": "Article 96",
+      "D": "Article 97"
+    },
+    "answer": "B",
+    "explanation": "Article 95(1) deals with the appointment of the Chief Justice and other judges.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1192,
+    "question": "The Supreme Court has the power to review its own judgments under which article?",
+    "options": {
+      "A": "Article 102",
+      "B": "Article 103",
+      "C": "Article 104",
+      "D": "Article 105"
+    },
+    "answer": "B",
+    "explanation": "Article 103 grants the Supreme Court the power to review its judgments and orders.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1193,
+    "question": "The Election Commission of Bangladesh is headed by the:",
+    "options": {
+      "A": "Chief Election Commissioner",
+      "B": "Prime Minister",
+      "C": "President",
+      "D": "Speaker"
+    },
+    "answer": "A",
+    "explanation": "Article 118(1) provides that there shall be an Election Commission consisting of a Chief Election Commissioner and such number of other Election Commissioners as may be prescribed.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1194,
+    "question": "Which article of the Constitution provides for the Election Commission?",
+    "options": {
+      "A": "Article 118",
+      "B": "Article 119",
+      "C": "Article 120",
+      "D": "Article 121"
+    },
+    "answer": "A",
+    "explanation": "Article 118 establishes the Election Commission and sets out its composition.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1195,
+    "question": "The Election Commission is responsible for conducting elections to:",
+    "options": {
+      "A": "Parliament only",
+      "B": "Local government only",
+      "C": "Both Parliament and local government",
+      "D": "Only presidential elections"
+    },
+    "answer": "C",
+    "explanation": "Article 119(1) states that the Election Commission shall be responsible for the conduct of elections to Parliament and to the local government bodies.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1196,
+    "question": "Which article of the Constitution deals with local government?",
+    "options": {
+      "A": "Article 59",
+      "B": "Article 60",
+      "C": "Article 61",
+      "D": "Article 62"
+    },
+    "answer": "A",
+    "explanation": "Article 59 provides that there shall be local government in every administrative unit of the country, and the Parliament shall provide for its composition and functions.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1197,
+    "question": "According to the Constitution, local government bodies shall be elected in every:",
+    "options": {
+      "A": "Union",
+      "B": "Upazila",
+      "C": "District",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Article 59(1) states that there shall be elected local government bodies in every administrative unit, which includes union, upazila, and district levels.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1198,
+    "question": "The constitutional provision for local government is further elaborated in which part?",
+    "options": {
+      "A": "Part IX",
+      "B": "Part X",
+      "C": "Part XI",
+      "D": "Part XII"
+    },
+    "answer": "A",
+    "explanation": "Part IX of the Constitution (Articles 59-60) deals with local government.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1199,
+    "question": "Which amendment to the Constitution removed the provision of secularism as a state principle?",
+    "options": {
+      "A": "4th Amendment",
+      "B": "5th Amendment",
+      "C": "8th Amendment",
+      "D": "15th Amendment"
+    },
+    "answer": "B",
+    "explanation": "The 5th Amendment (1979) deleted the word 'secularism' from the Constitution, though it was later restored by the 15th Amendment.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1200,
+    "question": "The 15th Amendment is known for:",
+    "options": {
+      "A": "Restoring secularism",
+      "B": "Introducing caretaker government",
+      "C": "Abolishing the parliamentary system",
+      "D": "Reducing women seats"
+    },
+    "answer": "A",
+    "explanation": "The 15th Amendment (2011) restored secularism as a fundamental principle, increased the number of reserved seats for women, and made other changes.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1201,
+    "question": "The 16th Amendment of the Constitution was related to:",
+    "options": {
+      "A": "Caretaker government",
+      "B": "Judicial appointments",
+      "C": "President's power",
+      "D": "Local government"
+    },
+    "answer": "B",
+    "explanation": "The 16th Amendment (2014) was enacted to restore the power of Parliament to impeach judges, but it was later declared unconstitutional by the Supreme Court. It essentially dealt with judicial appointments and discipline.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1202,
+    "question": "The 13th Amendment introduced which system?",
+    "options": {
+      "A": "Caretaker government",
+      "B": "Secularism",
+      "C": "Parliamentary impeachment of judges",
+      "D": "Local government elections"
+    },
+    "answer": "A",
+    "explanation": "The 13th Amendment (1996) introduced a non-party caretaker government system for conducting general elections.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1203,
+    "question": "In which part of the Constitution are the emergency provisions located?",
+    "options": {
+      "A": "Part IX",
+      "B": "Part X",
+      "C": "Part XI",
+      "D": "Part XII"
+    },
+    "answer": "A",
+    "explanation": "Part IX (Articles 141-143) contains the provisions relating to emergency, including proclamation and effect.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1204,
+    "question": "Which article empowers the President to proclaim a state of emergency?",
+    "options": {
+      "A": "Article 141",
+      "B": "Article 142",
+      "C": "Article 143",
+      "D": "Article 144"
+    },
+    "answer": "A",
+    "explanation": "Article 141 gives the President the power to issue a Proclamation of Emergency if satisfied that a grave emergency exists.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1205,
+    "question": "Which article of the Constitution declares the national anthem of Bangladesh?",
+    "options": {
+      "A": "Article 4",
+      "B": "Article 5",
+      "C": "Article 6",
+      "D": "Article 7"
+    },
+    "answer": "A",
+    "explanation": "Article 4(1) states that the national anthem of the Republic is 'Amar Sonar Bangla'.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
+  },
+  {
+    "id": 1206,
+    "question": "The state religion of Bangladesh was made Islam by which constitutional amendment?",
+    "options": {
+      "A": "5th Amendment",
+      "B": "8th Amendment",
+      "C": "7th Amendment",
+      "D": "10th Amendment"
+    },
+    "answer": "B",
+    "explanation": "The 8th Amendment (1988) inserted Article 2A, declaring Islam the state religion of Bangladesh.",
+    "source": "Bangladesh Affairs (Constitution of Bangladesh)"
   }
 ]
