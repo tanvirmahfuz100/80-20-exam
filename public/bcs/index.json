@@ -250,5 +250,11 @@
     "name": "49th BCS",
     "code": "",
     "questionCount": 92
+  },
+  {
+    "id": "bcs_bangladesh_affairs",
+    "name": "Bangladesh Affairs",
+    "code": "",
+    "questionCount": 315
   }
 ]
