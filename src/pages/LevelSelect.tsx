@@ -155,9 +155,9 @@ const LevelSelect = () => {
             <Zap className="w-3.5 h-3.5 text-primary" />
             <span className="text-primary font-bold text-xs tabular-nums">{stats.total_xp}</span>
           </div>
-          <div className="flex items-center gap-1 px-2.5 py-1.5 rounded-full bg-yellow-500/10 border border-yellow-500/20">
-            <Star className="w-3.5 h-3.5 text-yellow-500" />
-            <span className="text-yellow-600 font-bold text-xs tabular-nums">{stats.total_stars}</span>
+          <div className="flex items-center gap-1 px-2.5 py-1.5 rounded-full bg-surface-alt border">
+            <Star className="w-3.5 h-3.5 text-text" />
+            <span className="text-text font-bold text-xs tabular-nums">{stats.total_stars}</span>
           </div>
         </div>
       </div>
@@ -323,7 +323,7 @@ const LevelSelect = () => {
                 {svgCompletedPath && (
                   <path
                     d={svgCompletedPath}
-                    stroke="#93D333"
+                    stroke="#666666"
                     strokeWidth="4"
                     fill="none"
                     strokeLinecap="round"
@@ -336,7 +336,7 @@ const LevelSelect = () => {
                     cx={getX(idx)}
                     cy={idx * ROW_H + ROW_H / 2}
                     r="2.5"
-                    fill="#93D333"
+                    fill="#666666"
                   />
                 ))}
               </svg>

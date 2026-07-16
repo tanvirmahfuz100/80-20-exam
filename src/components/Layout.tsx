@@ -163,16 +163,16 @@ const Layout = ({ children }) => {
                   className="flex items-center gap-1.5 bg-surface border rounded-xl px-2.5 py-1.5 hover:bg-surface-hover transition-all active:scale-95"
                   aria-label="Open streak details"
                 >
-                  <Flame className="w-4 h-4 text-orange-500" />
-                  <span className="text-sm font-black text-orange-600">{streakData}</span>
+                  <Flame className="w-4 h-4 text-text-muted" />
+                  <span className="text-sm font-black text-text">{streakData}</span>
                 </button>
                 <button
                   onClick={() => setShowGemPopup(true)}
                   className="flex items-center gap-1.5 bg-surface border rounded-xl px-2.5 py-1.5 hover:bg-surface-hover transition-all active:scale-95"
                   aria-label="Open gem details"
                 >
-                  <Gem className="w-4 h-4 text-cyan-500" />
-                  <span className="text-sm font-black text-cyan-600">{gemsBalance}</span>
+                  <Gem className="w-4 h-4 text-text-muted" />
+                  <span className="text-sm font-black text-text">{gemsBalance}</span>
                 </button>
                 <button
                   onClick={() => setShowStarPopup(true)}

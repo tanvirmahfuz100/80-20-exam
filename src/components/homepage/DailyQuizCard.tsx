@@ -149,8 +149,8 @@ export default function DailyQuizCard({ exam, group }: DailyQuizCardProps) {
 
           if (answered) {
             if (opt.key === q.answer) {
-              btnClass = 'border-2 border-emerald-500 bg-emerald-500/10';
-              badgeClass = 'bg-emerald-500 text-white border-emerald-500';
+              btnClass = 'border-2 border bg-surface-alt';
+              badgeClass = 'bg-surface-alt text-text border';
             } else if (isSelected) {
               btnClass = 'border-2 border-cardinal bg-cardinal/10';
               badgeClass = 'bg-cardinal text-white border-cardinal';

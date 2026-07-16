@@ -190,10 +190,10 @@ export default function ExamOnboarding({ onComplete }) {
               >
                 <div className="px-3 md:px-4 pt-3 pb-2 md:pt-4 md:pb-3 space-y-2 md:space-y-3">
                   <div className="flex items-center gap-2">
-                    <div className="w-7 h-7 md:w-8 md:h-8 rounded-lg bg-amber-50 border border-amber-200 flex items-center justify-center">
-                      <Sun className="w-3.5 h-3.5 md:w-4 md:h-4 text-amber-500" />
+                    <div className="w-7 h-7 md:w-8 md:h-8 rounded-lg bg-surface-alt border flex items-center justify-center">
+                      <Sun className="w-3.5 h-3.5 md:w-4 md:h-4 text-text-muted" />
                     </div>
-                    <span className="text-xs md:text-sm font-black text-gray-800">লাইট মোড</span>
+                    <span className="text-xs md:text-sm font-black text-text">লাইট মোড</span>
                   </div>
                   <div className="bg-gray-50 rounded-xl border border-gray-100 p-2 md:p-3 space-y-1.5 md:space-y-2">
                     <div className="flex items-center justify-between">

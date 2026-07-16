@@ -59,7 +59,7 @@ const Stars = () => {
             <Star className="w-3 h-3" />
             রিভিউ বাকি
           </div>
-          <div className="text-2xl font-black tracking-tighter text-yellow-300">
+          <div className="text-2xl font-black tracking-tighter text-text-muted">
             {totalMistakes}
           </div>
         </div>
@@ -68,7 +68,7 @@ const Stars = () => {
             <Clock className="w-3 h-3" />
             আজকে
           </div>
-          <div className="text-2xl font-black tracking-tighter text-yellow-400">
+          <div className="text-2xl font-black tracking-tighter text-text">
             {totalDue}
           </div>
         </div>
@@ -91,7 +91,7 @@ const Stars = () => {
           </h3>
           <div className="flex flex-wrap gap-2">
             {subjectGroups.map(g => (
-              <div key={g.subject} className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-yellow-400/10 border border-yellow-400/20 rounded-full text-[11px] font-bold text-yellow-400">
+              <div key={g.subject} className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-surface-alt border rounded-full text-[11px] font-bold text-text-muted">
                 <Star className="w-3 h-3" />
                 {g.subject} ({g.count})
               </div>
@@ -103,7 +103,7 @@ const Stars = () => {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl md:text-3xl font-black text-text tracking-tighter flex items-center gap-3 bn-text">
-            <Star className="w-6 h-6 text-yellow-300 fill-yellow-300/30" />
+            <Star className="w-6 h-6 text-text fill-text" />
             স্টার রিভিউ
           </h1>
           <p className="text-text-muted text-sm font-medium mt-1">
@@ -132,9 +132,9 @@ const Stars = () => {
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center gap-3">
                 <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${
-                  group.stage === 0 ? 'bg-yellow-500/20 text-yellow-300' :
+                  group.stage === 0 ? 'bg-surface-alt text-text-muted' :
                   group.stage <= 2 ? 'bg-primary/20 text-primary' :
-                  'bg-emerald-500/20 text-emerald-400'
+                  'bg-surface-alt text-text'
                 }`}>
                   <Star className="w-5 h-5" />
                 </div>
@@ -146,9 +146,9 @@ const Stars = () => {
               <div className="text-right">
                 <p className="text-text font-black text-xl">
                   {group.dueNow > 0 ? (
-                    <span className="text-yellow-300">{group.dueNow}</span>
+                    <span className="text-text-dim">{group.dueNow}</span>
                   ) : (
-                    <span className="text-emerald-400">{group.dueNow}</span>
+                    <span className="text-text">{group.dueNow}</span>
                   )}
                   <span className="text-text-muted text-base">/{group.total}</span>
                 </p>

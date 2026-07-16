@@ -46,7 +46,7 @@ const VideoFeed = () => {
 
                     <div className="absolute right-3 md:right-4 bottom-24 md:bottom-32 z-20 flex flex-col gap-5 md:gap-8 items-center text-white/80">
                         <button onClick={() => handleAction(vid.id, 'like')} className="group/btn flex flex-col items-center gap-1">
-                            <div className="p-2.5 md:p-3 bg-white/20 rounded-full border hover:bg-red-500 hover:text-white transition-all transform group-active/btn:scale-125">
+                            <div className="p-2.5 md:p-3 bg-white/20 rounded-full border hover:bg-white/40 hover:text-white transition-all transform group-active/btn:scale-125">
                                 <Heart className="w-5 h-5 md:w-6 md:h-6" />
                             </div>
                             <span className="text-[10px] font-black uppercase tracking-widest">{vid.likes_count}</span>

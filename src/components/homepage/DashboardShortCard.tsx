@@ -15,10 +15,10 @@ const rankFromAccuracy = (accuracy: number) => {
 };
 
 const rankColorMap: Record<string, { bg: string; text: string; icon: string }> = {
-  Bronze: { bg: 'bg-amber-500/10', text: 'text-amber-400', icon: 'text-amber-500' },
-  Silver: { bg: 'bg-slate-300/10', text: 'text-slate-300', icon: 'text-slate-400' },
-  Gold: { bg: 'bg-yellow-400/10', text: 'text-yellow-400', icon: 'text-yellow-500' },
-  Diamond: { bg: 'bg-cyan-300/10', text: 'text-cyan-300', icon: 'text-cyan-400' },
+  Bronze: { bg: 'bg-surface', text: 'text-text-dim', icon: 'text-text-dim' },
+  Silver: { bg: 'bg-surface', text: 'text-text-muted', icon: 'text-text-muted' },
+  Gold: { bg: 'bg-surface-hover', text: 'text-text', icon: 'text-text' },
+  Diamond: { bg: 'bg-surface-hover', text: 'text-text', icon: 'text-text' },
 };
 
 export default function DashboardShortCard() {
@@ -55,14 +55,14 @@ export default function DashboardShortCard() {
       <div className="grid grid-cols-4 gap-3 mb-3">
         <div className="text-center">
           <div className="flex items-center justify-center gap-1 mb-1">
-            <Crown className="w-3.5 h-3.5 text-yellow-400" />
+            <Crown className="w-3.5 h-3.5 text-text-muted" />
           </div>
           <p className="text-lg font-black text-text">{level}</p>
           <p className="text-[9px] font-bold text-text-muted uppercase tracking-wider">লেভেল</p>
         </div>
         <div className="text-center">
           <div className="flex items-center justify-center gap-1 mb-1">
-            <Flame className="w-3.5 h-3.5 text-orange-400" />
+            <Flame className="w-3.5 h-3.5 text-text-muted" />
           </div>
           <p className="text-lg font-black text-text">{streak}d</p>
           <p className="text-[9px] font-bold text-text-muted uppercase tracking-wider">স্ট্রিক</p>
@@ -85,7 +85,7 @@ export default function DashboardShortCard() {
 
       <div className="flex items-center gap-3 pt-3 border-t">
         <div className="flex items-center gap-1.5">
-          <Star className="w-3.5 h-3.5 text-yellow-400" />
+          <Star className="w-3.5 h-3.5 text-text-muted" />
           <span className="text-xs font-bold text-text">{userGameStats.total_stars} স্টার</span>
         </div>
         <div className="w-px h-4 bg-wolf" />

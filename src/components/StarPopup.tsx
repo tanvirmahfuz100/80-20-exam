@@ -35,9 +35,9 @@ export default function StarPopup({ isOpen, onClose, mistakeGroups, recentMistak
               </button>
             </div>
 
-            <div className="flex items-center gap-3 bg-surface border border-yellow-500/20 rounded-xl p-4">
-              <div className="w-12 h-12 rounded-xl bg-yellow-500/20 flex items-center justify-center">
-                <Star className="w-6 h-6 text-yellow-400" />
+            <div className="flex items-center gap-3 bg-surface border rounded-xl p-4">
+              <div className="w-12 h-12 rounded-xl bg-surface-hover flex items-center justify-center">
+                <Star className="w-6 h-6 text-text-muted" />
               </div>
               <div>
                 <p className="text-[10px] font-black uppercase tracking-widest text-text-muted bn-text">স্পেসড রিভিশন</p>
@@ -54,15 +54,15 @@ export default function StarPopup({ isOpen, onClose, mistakeGroups, recentMistak
                     key={group.stage}
                     className={`rounded-xl p-2.5 text-center border transition-all ${
                       isDue
-                        ? 'bg-yellow-500/10 border-yellow-500/20'
-                        : 'bg-emerald-500/10 border-emerald-500/20'
+                        ? 'bg-surface-hover border'
+                        : 'bg-surface border'
                     }`}
                   >
-                    <p className={`text-lg font-black ${isDue ? 'text-yellow-300' : 'text-emerald-400'}`}>
+                    <p className={`text-lg font-black ${isDue ? 'text-text' : 'text-text-dim'}`}>
                       {group.dueNow}
                     </p>
                     <p className={`text-[8px] font-black uppercase tracking-widest mt-0.5 ${
-                      isDue ? 'text-yellow-400/70' : 'text-emerald-400/70'
+                      isDue ? 'text-text-muted/70' : 'text-text-dim/70'
                     }`}>
                       {STAGE_LABELS[idx]?.day || `Day ${group.stage}`}
                     </p>
@@ -77,7 +77,7 @@ export default function StarPopup({ isOpen, onClose, mistakeGroups, recentMistak
                 <p className="text-[10px] font-black uppercase tracking-widest text-text-muted bn-text">সর্বশেষ স্টার পাওয়া প্রশ্ন</p>
                 {recentMistakes.slice(0, 3).map((m, idx) => (
                   <div key={m.id || idx} className="flex items-start gap-2.5 bg-background border rounded-xl p-3">
-                    <Star className="w-3.5 h-3.5 text-yellow-400 shrink-0 mt-0.5" />
+                    <Star className="w-3.5 h-3.5 text-text-dim shrink-0 mt-0.5" />
                     <div className="min-w-0 flex-1">
                       <p className="text-[11px] font-medium text-text leading-relaxed line-clamp-2">
                         {truncate(m.question?.text || m.question?.question || 'Unknown question', 60)}

@@ -198,8 +198,8 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
                   ? alreadyTried
                     ? 'bg-surface-alt border-dashed border'
                     : isCorrect
-                      ? 'bg-emerald-500/10 border-emerald-500/30'
-                      : 'bg-red-500/10 border-red-500/30'
+                      ? 'bg-surface border'
+                      : 'bg-surface-hover border'
                   : 'bg-surface-alt border'
             }`}
           >
@@ -208,7 +208,7 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
                 checked
                   ? alreadyTried
                     ? 'text-text-dim'
-                    : isCorrect ? 'text-emerald-400' : 'text-red-400'
+                    : isCorrect ? 'text-text' : 'text-text-dim'
                   : allSelected ? 'text-primary' : 'text-text-dim'
               }`}>
                 {checked ? (alreadyTried ? 'Already tried' : isCorrect ? 'Correct sentence' : 'Incorrect') : allSelected ? 'Sentence preview' : 'Building...'}
@@ -221,7 +221,7 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
               checked
                 ? alreadyTried
                 ? 'text-text-dim'
-                : isCorrect ? 'text-emerald-300' : 'text-red-300'
+                : isCorrect ? 'text-text' : 'text-text-dim'
               : 'text-text'
             }`} style={{ fontSize: `${fontSize}px` }}>
               {allSelected || selections.some(s => s !== null) ? formedSentence || 'Select items from each column...' : ''}
@@ -250,21 +250,21 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   exit={{ opacity: 0, y: 20, scale: 0.95 }}
                   transition={{ duration: 0.25, ease: 'easeOut' }}
-                  className={`relative w-full max-w-sm bg-surface rounded-2xl p-6 ${isCorrect && !alreadyTried ? 'border border-emerald-500/30' : alreadyTried ? 'border' : 'border border-yellow-500/30'}`}
+                  className={`relative w-full max-w-sm bg-surface rounded-2xl p-6 ${isCorrect && !alreadyTried ? 'border' : alreadyTried ? 'border' : 'border'}`}
                   onClick={e => e.stopPropagation()}
                 >
                   <div className="flex items-center gap-3 mb-3">
-                    <div className={`p-2 rounded-xl ${isCorrect && !alreadyTried ? 'bg-emerald-500/15' : alreadyTried ? 'bg-surface-hover' : 'bg-yellow-500/15'}`}>
+                    <div className={`p-2 rounded-xl ${isCorrect && !alreadyTried ? 'bg-surface-hover' : alreadyTried ? 'bg-surface-hover' : 'bg-surface-hover'}`}>
                       {isCorrect && !alreadyTried ? (
-                        <Check className="w-5 h-5 text-emerald-400" />
+                        <Check className="w-5 h-5 text-text" />
                       ) : alreadyTried ? (
                         <X className="w-5 h-5 text-text-dim" />
                       ) : (
-                        <X className="w-5 h-5 text-yellow-400" />
+                        <X className="w-5 h-5 text-text-dim" />
                       )}
                     </div>
                     <div>
-                      <p className={`font-black uppercase tracking-wider text-[10px] ${isCorrect && !alreadyTried ? 'text-emerald-400' : alreadyTried ? 'text-text-dim' : 'text-yellow-400'}`}>
+                      <p className={`font-black uppercase tracking-wider text-[10px] ${isCorrect && !alreadyTried ? 'text-text' : alreadyTried ? 'text-text-dim' : 'text-text-muted'}`}>
                         {alreadyTried ? 'Already Tried' : isCorrect ? 'Correct!' : 'Incorrect'}
                       </p>
                       <p className="text-[8px] text-text-dim font-black uppercase tracking-widest mt-0.5">Explanation</p>
@@ -292,13 +292,13 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
               <div
                 key={i}
                 className={`w-2 h-2 rounded-full transition-all ${
-                   i < foundCount ? 'bg-emerald-400 ' : 'bg-surface-hover'
+                    i < foundCount ? 'bg-text ' : 'bg-surface-hover'
                 }`}
               />
             ))}
           </div>
           <p className={`text-[9px] font-bold ${
-            allFound ? 'text-emerald-400' : 'text-text-dim'
+            allFound ? 'text-text' : 'text-text-dim'
           }`}>
             {allFound
               ? `All ${foundCount} found`
@@ -326,7 +326,7 @@ const SubstitutionTableExercise = ({ exercise, onContinue, onWrongAttempt, fontS
               ? 'bg-surface-alt text-text-dim cursor-not-allowed'
               : checked
                 ? allFound
-                  ? 'bg-emerald-500 text-black hover:bg-emerald-400'
+                  ? 'bg-text text-white hover:bg-text/80'
                   : 'bg-surface-hover hover:bg-surface-hover text-text border'
                 : 'bg-primary hover:bg-primary-hover text-white'
           }`}

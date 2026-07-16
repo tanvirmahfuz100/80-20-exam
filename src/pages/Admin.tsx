@@ -68,9 +68,9 @@ const Admin = () => {
             </div>
 
             {message.text && (
-                <div className={`p-4 rounded-xl md:rounded-2xl border flex items-center gap-3 ${message.type === 'success'
-                        ? 'bg-emerald-500/10 border-emerald-500/20 text-emerald-500'
-                        : 'bg-yellow-500/10 border-yellow-500/30 text-yellow-400'
+                <div className={`p-4 rounded-xl md:rounded-2xl border flex items-center gap-3 $    {message.type === 'success'
+                        ? 'bg-surface-hover border text-text'
+                        : 'bg-surface-hover border text-text-dim'
                     }`}>
                     {message.type === 'success' ? <CheckCircle2 className="w-5 h-5" /> : <AlertTriangle className="w-5 h-5" />}
                     <span className="font-bold text-sm">{message.text}</span>

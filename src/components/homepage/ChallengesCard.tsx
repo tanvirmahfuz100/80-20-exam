@@ -46,14 +46,14 @@ export default function ChallengesCard({ exam }: ChallengesCardProps) {
             key={ch.id}
             to={`/levels?file=${encodeURIComponent(ch.file)}&title=${encodeURIComponent(ch.label)}&chapterId=${ch.chapterId}`}
             className={`flex items-center gap-3 p-3 rounded-xl border transition-all hover:border-primary/30 ${
-              ch.completed ? 'border-emerald-500/20 bg-emerald-500/[0.04]' : 'bg-surface-alt border'
+              ch.completed ? 'border bg-surface-alt' : 'bg-surface-alt border'
             }`}
           >
             <div className={`w-8 h-8 rounded-lg flex items-center justify-center ${
-              ch.completed ? 'bg-emerald-500/10' : 'bg-primary/10'
+              ch.completed ? 'bg-surface-alt' : 'bg-primary/10'
             }`}>
               {ch.completed ? (
-                <BadgeCheck className="w-4 h-4 text-emerald-400" />
+                <BadgeCheck className="w-4 h-4 text-text" />
               ) : (
                 <Target className="w-4 h-4 text-primary" />
               )}
@@ -64,7 +64,7 @@ export default function ChallengesCard({ exam }: ChallengesCardProps) {
             </div>
             <div className={`px-2 py-0.5 rounded-full text-[8px] font-black uppercase tracking-wider ${
               ch.completed
-                ? 'bg-emerald-500/15 text-emerald-400'
+                ? 'bg-surface-alt text-text'
                 : 'bg-primary/10 text-primary'
             }`}>
               {ch.completed ? 'সম্পন্ন' : `+${ch.bonusXp} XP`}
@@ -84,11 +84,11 @@ export default function ChallengesCard({ exam }: ChallengesCardProps) {
         {weeklyChallenge && (
           <Link
             to="/practice"
-            className="block p-3 rounded-xl border border-yellow-500/15 bg-yellow-500/[0.03] hover:bg-yellow-500/[0.06] transition-all"
+            className="block p-3 rounded-xl border bg-surface-alt hover:bg-surface-hover transition-all"
           >
             <div className="flex items-center justify-between mb-2">
               <div className="flex items-center gap-2">
-                <Flame className="w-4 h-4 text-yellow-400" />
+                <Flame className="w-4 h-4 text-text-muted" />
                 <div>
                   <p className="text-xs font-bold text-text">সাপ্তাহিক: {weeklyChallenge.label}</p>
                   <p className="text-[9px] text-text-muted font-medium flex items-center gap-1">
@@ -98,7 +98,7 @@ export default function ChallengesCard({ exam }: ChallengesCardProps) {
                 </div>
               </div>
               <div className={`px-2 py-0.5 rounded-full text-[8px] font-black uppercase ${
-                weeklyChallenge.completed ? 'bg-emerald-500/15 text-emerald-400' : 'bg-yellow-500/10 text-yellow-400'
+                weeklyChallenge.completed ? 'bg-surface-alt text-text' : 'bg-surface-alt text-text-muted'
               }`}>
                 {weeklyChallenge.completed ? 'সম্পন্ন' : `+${weeklyChallenge.bonusXp} XP`}
               </div>
@@ -106,11 +106,11 @@ export default function ChallengesCard({ exam }: ChallengesCardProps) {
             <div className="flex items-center gap-2">
               <div className="flex-1 h-1.5 bg-surface-hover rounded-full overflow-hidden">
                 <div
-                  className="h-full rounded-full bg-yellow-400"
+                  className="h-full rounded-full bg-surface-hover"
                   style={{ width: `${((weeklyChallenge.completedLevels?.length || 0) / Math.max(weeklyChallenge.totalLevels, 1)) * 100}%` }}
                 />
               </div>
-              <span className="text-[9px] font-bold tabular-nums text-yellow-400/70">
+              <span className="text-[9px] font-bold tabular-nums text-text-muted">
                 {weeklyChallenge.completedLevels?.length || 0}/{weeklyChallenge.totalLevels}
               </span>
             </div>

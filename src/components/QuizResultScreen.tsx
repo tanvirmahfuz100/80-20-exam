@@ -59,38 +59,38 @@ export default function QuizResultScreen({
 
             <div className="grid grid-cols-2 gap-3">
               <div className="bg-background rounded-2xl p-4 border">
-                <div className={`font-black text-xl mb-0.5 ${accuracy >= 80 ? 'text-primary' : accuracy >= 50 ? 'text-bee' : 'text-text-muted'}`}>{accuracy}%</div>
+                <div className={`font-black text-xl mb-0.5 ${accuracy >= 80 ? 'text-text' : accuracy >= 50 ? 'text-text-muted' : 'text-text-dim'}`}>{accuracy}%</div>
                 <div className="text-[9px] text-text-muted font-black uppercase tracking-wider bn-text">একিউরেসি</div>
               </div>
               <div className="bg-background rounded-2xl p-4 border">
-                <div className="text-primary font-black text-xl mb-0.5">{score}/{totalQuestions}</div>
+                <div className="text-text font-black text-xl mb-0.5">{score}/{totalQuestions}</div>
                 <div className="text-[9px] text-text-muted font-black uppercase tracking-wider bn-text">সঠিক</div>
               </div>
             </div>
 
             <div className="grid grid-cols-2 gap-3">
-              <div className="bg-primary/5 rounded-2xl p-4 border border-primary/20">
+              <div className="bg-surface-hover border rounded-2xl p-4">
                 <div className="flex items-center justify-center gap-1.5">
-                  <Zap className="w-5 h-5 text-primary" />
-                  <span className="text-primary font-black text-xl">+{earnedXp}</span>
+                  <Zap className="w-5 h-5 text-text" />
+                  <span className="text-text font-black text-xl">+{earnedXp}</span>
                 </div>
-                <div className="text-[9px] text-primary/50 font-black uppercase tracking-wider mt-0.5 bn-text">এক্সপি</div>
+                <div className="text-[9px] text-text-muted/50 font-black uppercase tracking-wider mt-0.5 bn-text">এক্সপি</div>
               </div>
               {earnedStars === 0 ? (
-                <div className="bg-primary/5 rounded-2xl p-4 border border-primary/20">
+                <div className="bg-surface-hover border rounded-2xl p-4">
                   <div className="flex items-center justify-center gap-1.5">
-                    <Sparkles className="w-5 h-5 text-primary" />
-                    <span className="text-primary font-black text-xl">পারফেক্ট!</span>
+                    <Sparkles className="w-5 h-5 text-text" />
+                    <span className="text-text font-black text-xl">পারফেক্ট!</span>
                   </div>
-                  <div className="text-[9px] text-primary/50 font-black uppercase tracking-wider mt-0.5 bn-text">কোনো ভুল নেই</div>
+                  <div className="text-[9px] text-text-muted/50 font-black uppercase tracking-wider mt-0.5 bn-text">কোনো ভুল নেই</div>
                 </div>
               ) : (
-                <div className="bg-bee/5 rounded-2xl p-4 border border-bee/20">
+                <div className="bg-surface-alt border rounded-2xl p-4">
                   <div className="flex items-center justify-center gap-1.5">
-                    <Star className="w-5 h-5 text-bee" />
-                    <span className="text-bee font-black text-xl">{earnedStars}</span>
+                    <Star className="w-5 h-5 text-text-muted" />
+                    <span className="text-text-muted font-black text-xl">{earnedStars}</span>
                   </div>
-                  <div className="text-[9px] text-bee/50 font-black uppercase tracking-wider mt-0.5 bn-text">স্টার রিভিউ</div>
+                  <div className="text-[9px] text-text-muted/50 font-black uppercase tracking-wider mt-0.5 bn-text">স্টার রিভিউ</div>
                 </div>
               )}
             </div>
@@ -142,7 +142,7 @@ export default function QuizResultScreen({
 
           <div className="grid grid-cols-3 gap-3">
             <div className="bg-background rounded-2xl p-4 border">
-              <div className="font-black text-xl mb-0.5" style={{ color: accuracy >= 80 ? '#93D333' : accuracy >= 50 ? '#FFC700' : '#829CAD' }}>{accuracy}%</div>
+              <div className="font-black text-xl mb-0.5" style={{ color: accuracy >= 80 ? '#666666' : accuracy >= 50 ? '#999999' : '#AAAAAA' }}>{accuracy}%</div>
               <div className="text-[9px] text-text-muted font-black uppercase tracking-wider">Accuracy</div>
             </div>
             <div className="bg-background rounded-2xl p-4 border">
@@ -150,17 +150,17 @@ export default function QuizResultScreen({
               <div className="text-[9px] text-text-muted font-black uppercase tracking-wider bn-text">সঠিক</div>
             </div>
             {earnedStars === 0 ? (
-              <div className="bg-primary/5 rounded-2xl p-4 border border-primary/20">
-                <div className="text-primary font-black text-xl mb-0.5">ক্লিন!</div>
-                <div className="text-[9px] text-primary/50 font-black uppercase tracking-wider mt-0.5 bn-text">কোনো ভুল নেই</div>
+              <div className="bg-surface-hover border rounded-2xl p-4">
+                <div className="text-text font-black text-xl mb-0.5">ক্লিন!</div>
+                <div className="text-[9px] text-text-muted/50 font-black uppercase tracking-wider mt-0.5 bn-text">কোনো ভুল নেই</div>
               </div>
             ) : (
-              <div className="bg-bee/5 rounded-2xl p-4 border border-bee/20">
+              <div className="bg-surface-alt border rounded-2xl p-4">
                 <div className="flex items-center justify-center gap-1.5">
-                  <Star className="w-5 h-5 text-bee" />
-                  <span className="text-bee font-black text-xl">{earnedStars}</span>
+                  <Star className="w-5 h-5 text-text-muted" />
+                  <span className="text-text-muted font-black text-xl">{earnedStars}</span>
                 </div>
-                <div className="text-[9px] text-bee/50 font-black uppercase tracking-wider mt-0.5 bn-text">স্টার রিভিউ</div>
+                <div className="text-[9px] text-text-muted/50 font-black uppercase tracking-wider mt-0.5 bn-text">স্টার রিভিউ</div>
               </div>
             )}
           </div>

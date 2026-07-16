@@ -496,9 +496,9 @@ const QuestionBank = () => {
                                 </div>
                                 <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-[10px] font-bold text-text-dim uppercase tracking-widest ml-9">
                                     <span className={`px-1.5 py-0.5 rounded text-[9px] font-black ${
-                                        q.difficulty === 'hard' ? 'bg-red-500/10 text-red-400' :
-                                        q.difficulty === 'medium' ? 'bg-yellow-500/10 text-yellow-400' :
-                                        q.difficulty === 'easy' ? 'bg-emerald-500/10 text-emerald-400' :
+                                        q.difficulty === 'hard' ? 'bg-surface-hover text-text-dim' :
+                                        q.difficulty === 'medium' ? 'bg-surface-hover text-text-muted' :
+                                        q.difficulty === 'easy' ? 'bg-surface text-text' :
                                         'bg-surface-alt text-text-dim'
                                     }`}>{q.difficulty}</span>
                                     <span className="text-text-muted">{q.exam}</span>

@@ -134,10 +134,10 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
             animate={{ opacity: 1, y: 0 }}
             className="flex items-center gap-2 px-1 pb-1"
           >
-            <div className="p-1 rounded-lg bg-emerald-500/15">
-              <Check className="w-3.5 h-3.5 text-emerald-400" />
+            <div className="p-1 rounded-lg bg-surface-hover">
+              <Check className="w-3.5 h-3.5 text-text" />
             </div>
-            <span className="text-[10px] font-black uppercase tracking-widest text-emerald-400">
+            <span className="text-[10px] font-black uppercase tracking-widest text-text">
               Correct order!
             </span>
           </motion.div>
@@ -163,9 +163,9 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
                 onDragEnd={handleDragEnd}
                 className={`flex items-center gap-2 p-3 rounded-xl border transition-all cursor-grab active:cursor-grabbing ${
                   status === 'correct'
-                    ? 'bg-emerald-500/10 border-emerald-500/30'
+                    ? 'bg-surface border'
                     : status === 'wrong'
-                      ? 'bg-yellow-500/10 border-yellow-500/30'
+                      ? 'bg-surface-hover border'
                       : 'bg-surface border hover:border'
                 }`}
               >
@@ -195,8 +195,8 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
                   <div className="flex items-center gap-2 min-w-0 flex-1">
                     {status && (
                       status === 'correct'
-                        ? <Check className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-                        : <X className="w-3.5 h-3.5 text-yellow-400 shrink-0" />
+                        ? <Check className="w-3.5 h-3.5 text-text shrink-0" />
+                        : <X className="w-3.5 h-3.5 text-text-dim shrink-0" />
                     )}
                     <p className="text-text font-medium leading-relaxed" style={{ fontSize: `${fontSize}px` }}>
                       {sentence?.text || id}
@@ -235,7 +235,7 @@ const Rearrangement = ({ sentences, correctOrder, reconstructedParagraph, fontSi
             onClick={checked ? handleContinueAnyway : handleCheck}
             className={`w-full py-3.5 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] flex items-center justify-center gap-1.5 ${
               checked
-                ? 'bg-yellow-500/15 text-yellow-400 border border-yellow-500/30 hover:bg-yellow-500/25'
+                ? 'bg-surface-hover text-text-muted border hover:bg-surface-hover'
                 : 'bg-primary hover:bg-primary-hover text-white'
             }`}
           >

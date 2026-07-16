@@ -39,8 +39,8 @@ export default function Quests() {
           <p className="text-sm text-text-muted font-medium mt-0.5">ডেইলি ও উইকলি চ্যালেঞ্জ</p>
         </div>
         <div className="flex items-center gap-1.5 bg-surface border rounded-xl px-3 py-1.5">
-          <Gem className="w-4 h-4 text-cyan-500" />
-          <span className="text-sm font-black text-cyan-600">{profile?.gems || 0}</span>
+          <Gem className="w-4 h-4 text-text-muted" />
+          <span className="text-sm font-black text-text-muted">{profile?.gems || 0}</span>
         </div>
       </div>
 
@@ -70,14 +70,14 @@ export default function Quests() {
                 <div key={quest.id} className="bg-background rounded-xl p-3.5">
                   <div className="flex items-center gap-3">
                     <div className="w-9 h-9 bg-surface border rounded-xl flex items-center justify-center">
-                      <Zap className={`w-4 h-4 ${quest.completed ? 'text-green-500' : 'text-primary'}`} />
+                      <Zap className={`w-4 h-4 ${quest.completed ? 'text-text' : 'text-primary'}`} />
                     </div>
                     <div className="flex-1 min-w-0">
                       <p className="font-bold text-sm text-text">{quest.label}</p>
                       <div className="flex items-center gap-2 mt-1.5">
                         <div className="flex-1 h-1.5 bg-wolf rounded-full overflow-hidden">
                           <div
-                            className={`h-full rounded-full transition-all ${quest.completed ? 'bg-green-500' : 'bg-primary'}`}
+                            className="h-full rounded-full bg-primary transition-all"
                             style={{ width: `${quest.completed ? 100 : 0}%` }}
                           />
                         </div>
@@ -87,7 +87,7 @@ export default function Quests() {
                       </div>
                     </div>
                     <div className="text-right shrink-0">
-                      <p className={`text-xs font-black ${quest.completed ? 'text-green-600' : 'text-text'}`}>
+                      <p className="text-xs font-black text-text">
                         {quest.completed ? '✓' : '+'}{quest.bonusXp} এক্সপি
                       </p>
                     </div>
@@ -130,7 +130,7 @@ export default function Quests() {
                 {weeklyChallenge.completed ? '✓ সম্পন্ন' : `+${weeklyChallenge.bonusXp} এক্সপি`}
               </span>
               {weeklyChallenge.completed && (
-                <span className="text-xs font-black text-cyan-600 flex items-center gap-0.5">
+                <span className="text-xs font-black text-text-muted flex items-center gap-0.5">
                   <Gem className="w-3 h-3" /> +২০
                 </span>
               )}

@@ -60,17 +60,17 @@ export default function Profile() {
 
       <div className="grid grid-cols-3 gap-3 mb-6">
         <div className="bg-surface border rounded-2xl p-3.5 text-center">
-          <Flame className="w-5 h-5 text-orange-500 mx-auto mb-1" />
+          <Flame className="w-5 h-5 text-text-muted mx-auto mb-1" />
           <p className="text-lg font-black text-text">{streak}</p>
                     <p className="text-[10px] text-text-muted font-bold uppercase tracking-wider bn-text">স্ট্রিক</p>
         </div>
         <div className="bg-surface border rounded-2xl p-3.5 text-center">
-          <Star className="w-5 h-5 text-yellow-500 mx-auto mb-1 fill-yellow-500/30" />
+          <Star className="w-5 h-5 text-text mx-auto mb-1 fill-text" />
           <p className="text-lg font-black text-text">{xp}</p>
                     <p className="text-[10px] text-text-muted font-bold uppercase tracking-wider bn-text">এক্সপি</p>
         </div>
         <div className="bg-surface border rounded-2xl p-3.5 text-center">
-          <Gem className="w-5 h-5 text-cyan-500 mx-auto mb-1" />
+          <Gem className="w-5 h-5 text-text-muted mx-auto mb-1" />
           <p className="text-lg font-black text-text">{gems}</p>
                     <p className="text-[10px] text-text-muted font-bold uppercase tracking-wider bn-text">জেমস</p>
         </div>
@@ -107,7 +107,7 @@ export default function Profile() {
           </span>
         </Link>
         <Link to="/stars" className="flex items-center gap-3 bg-surface border rounded-2xl p-3.5 hover:border-hare transition-all">
-          <Star className="w-5 h-5 text-yellow-500" />
+          <Star className="w-5 h-5 text-text" />
           <span className="font-bold text-sm text-text">স্টার রিভিউ</span>
           {stars > 0 && (
             <span className="ml-auto bg-primary text-white text-[10px] font-bold px-2 py-0.5 rounded-full">{stars}</span>

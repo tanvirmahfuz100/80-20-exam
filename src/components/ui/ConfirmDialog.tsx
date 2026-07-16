@@ -15,9 +15,9 @@ export default function ConfirmDialog({ show, title, message, confirmLabel, canc
         onClick={e => e.stopPropagation()}
       >
         <div className="flex items-start gap-3">
-          <div className={`p-2 rounded-xl shrink-0 ${danger ? 'bg-yellow-500/15' : 'bg-primary/15'}`}>
+            <div className={`p-2 rounded-xl shrink-0 ${danger ? 'bg-surface-hover' : 'bg-surface-hover'}`}>
             {danger
-              ? <AlertTriangle className="w-5 h-5 text-yellow-400" />
+              ? <AlertTriangle className="w-5 h-5 text-text-muted" />
               : <Check className="w-5 h-5 text-primary" />
             }
           </div>
@@ -37,7 +37,7 @@ export default function ConfirmDialog({ show, title, message, confirmLabel, canc
             onClick={onConfirm}
             className={`flex-1 py-3 rounded-xl font-black uppercase tracking-widest text-[10px] transition-all active:scale-[0.97] ${
               danger
-                ? 'bg-yellow-500 text-black hover:bg-yellow-400'
+                ? 'bg-gray-600 text-white hover:bg-gray-500'
                 : 'bg-primary hover:bg-primary-hover text-white'
             }`}
           >

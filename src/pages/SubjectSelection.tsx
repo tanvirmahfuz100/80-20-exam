@@ -132,8 +132,8 @@ export default function SubjectSelection() {
               transition={{ type: 'spring', stiffness: 300, damping: 28 }}
             >
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-xl bg-yellow-500/15 flex items-center justify-center shrink-0">
-                  <AlertTriangle className="w-5 h-5 text-yellow-400" />
+                <div className="w-10 h-10 rounded-xl bg-surface-alt flex items-center justify-center shrink-0">
+                  <AlertTriangle className="w-5 h-5 text-text-muted" />
                 </div>
                 <div>
                   <h3 className="text-sm font-black text-text">পরীক্ষা পরিবর্তন?</h3>
@@ -385,8 +385,8 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath, onPaperSelect }) 
                       onClick={() => handleSelect(idx)}
                       disabled={answered}
                       className={`w-full text-left px-4 py-3 rounded-xl border-2 transition-all flex items-center gap-3 ${
-                        state === 'correct' ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400' :
-                        state === 'wrong' ? 'bg-yellow-500/10 border-yellow-500/50 text-yellow-300' :
+                        state === 'correct' ? 'bg-surface-alt border text-text' :
+                        state === 'wrong' ? 'bg-surface-hover border text-text-dim' :
                         state === 'selected' ? 'bg-primary/20 border-primary text-text' :
                         state === 'dimmed' ? 'bg-surface-alt border-transparent opacity-30' :
                         'bg-surface-alt border text-text-muted hover:border hover:bg-surface-hover hover:text-text'
@@ -394,8 +394,8 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath, onPaperSelect }) 
                     >
                       <span className={`w-7 h-7 rounded-lg flex items-center justify-center text-[11px] font-black border shrink-0 ${
                         state === 'selected' ? 'bg-primary text-white border-primary' :
-                        state === 'correct' ? 'bg-emerald-500 text-black border-emerald-500' :
-                        state === 'wrong' ? 'bg-yellow-500 text-black border-yellow-500' :
+                        state === 'correct' ? 'bg-surface-hover text-text border' :
+                        state === 'wrong' ? 'bg-surface-hover text-text-dim border' :
                         'bg-surface-alt border text-text-muted'
                       }`}>
                         {String.fromCharCode(65 + idx)}
@@ -403,7 +403,7 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath, onPaperSelect }) 
                       <span className="text-xs font-bold leading-snug flex-1">
                         {stripMath(opt.text)}
                       </span>
-                      {state === 'correct' && <CheckCircle className="w-4 h-4 text-emerald-400 shrink-0" />}
+                      {state === 'correct' && <CheckCircle className="w-4 h-4 text-text shrink-0" />}
                     </button>
                   );
                 })}
@@ -412,15 +412,15 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath, onPaperSelect }) 
               {answered && (
                 <div className="mt-3">
                   {selected !== null && currentQ.options[selected]?.key === currentQ.answer ? (
-                    <div className="bg-emerald-500/[0.07] border border-emerald-500/20 rounded-xl p-3 mb-3">
-                      <p className="text-emerald-400 text-xs font-black mb-1">✓ সঠিক</p>
+                    <div className="bg-surface-alt border rounded-xl p-3 mb-3">
+                      <p className="text-text text-xs font-black mb-1">✓ সঠিক</p>
                       {currentQ.explanation && (
                         <p className="text-text-muted text-[11px] leading-relaxed">{stripMath(currentQ.explanation)}</p>
                       )}
                     </div>
                   ) : (
-                    <div className="bg-yellow-500/[0.07] border border-yellow-500/20 rounded-xl p-3 mb-3">
-                      <p className="text-yellow-300 text-xs font-black mb-1">
+                    <div className="bg-surface-hover border rounded-xl p-3 mb-3">
+                      <p className="text-text-dim text-xs font-black mb-1">
                         ✗ ভুল — সঠিক উত্তর: <span className="text-text font-bold">{currentQ.answer}</span>
                       </p>
                       {currentQ.explanation && (

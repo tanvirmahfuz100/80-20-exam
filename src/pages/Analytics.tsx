@@ -115,15 +115,15 @@ const Analytics = () => {
   const wrongOnes = stats?.wrongOnes || 0;
 
   const getAccuracyLabel = () => {
-    if (accuracy >= 80) return { label: 'চমৎকার', color: 'text-emerald-400' };
-    if (accuracy >= 60) return { label: 'ভালো', color: 'text-blue-400' };
-    if (accuracy >= 40) return { label: 'মোটামুটি', color: 'text-yellow-400' };
-    return { label: 'কাজ বাকি', color: 'text-red-400' };
+    if (accuracy >= 80) return { label: 'চমৎকার', color: 'text-text' };
+    if (accuracy >= 60) return { label: 'ভালো', color: 'text-text-muted' };
+    if (accuracy >= 40) return { label: 'মোটামুটি', color: 'text-text-dim' };
+    return { label: 'কাজ বাকি', color: 'text-text-dim' };
   };
 
   const getReadinessLabel = () => {
-    if (readinessScore >= 70) return { label: 'প্রস্তুত', color: 'text-emerald-400' };
-    if (readinessScore >= 40) return { label: 'গড়ে উঠছে', color: 'text-yellow-400' };
+    if (readinessScore >= 70) return { label: 'প্রস্তুত', color: 'text-text' };
+    if (readinessScore >= 40) return { label: 'গড়ে উঠছে', color: 'text-text-dim' };
     return { label: 'শুরু হচ্ছে', color: 'text-text-muted' };
   };
 
@@ -226,15 +226,15 @@ const Analytics = () => {
             label="সমাধান করা চ্যালেঞ্জ"
             value={totalPracticed}
             subtext="চালিয়ে যাও!"
-            color={{ bg: 'bg-emerald-500/10', border: 'border-emerald-500/20', text: 'text-emerald-500', label: 'rgba(52,211,153,0.5)' }}
-            trend={{ label: `${correctOnes}টি সঠিক`, color: 'text-emerald-400/50' }}
+            color={{ bg: 'bg-surface-alt', border: 'border', text: 'text-text', label: 'rgba(150,150,150,0.5)' }}
+            trend={{ label: `${correctOnes}টি সঠিক`, color: 'text-text' }}
           />
         ) : (
           <EmptyStat
             icon={CheckCircle2}
             label="সমাধান করা চ্যালেঞ্জ"
             message="প্রথম প্রশ্ন সমাধান করে শুরু করো"
-            color={{ bg: 'bg-emerald-500/10', border: 'border-emerald-500/20', text: 'text-emerald-500/50' }}
+            color={{ bg: 'bg-surface-alt', border: 'border', text: 'text-text-muted' }}
           />
         )}
 
@@ -245,7 +245,7 @@ const Analytics = () => {
             value={accuracy}
             suffix="%"
             subtext={accuracyLabel.label}
-            color={{ bg: 'bg-blue-500/10', border: 'border-blue-500/20', text: 'text-blue-500', label: 'rgba(96,165,250,0.5)' }}
+            color={{ bg: 'bg-surface-alt', border: 'border', text: 'text-text-muted', label: 'rgba(150,150,150,0.5)' }}
             trend={{ label: accuracyLabel.label, color: accuracyLabel.color }}
           />
         ) : (
@@ -253,7 +253,7 @@ const Analytics = () => {
             icon={Target}
             label="একিউরেসি"
             message="একিউরেসি দেখতে কিছু প্রশ্নের উত্তর দাও"
-            color={{ bg: 'bg-blue-500/10', border: 'border-blue-500/20', text: 'text-blue-500/50' }}
+            color={{ bg: 'bg-surface-alt', border: 'border', text: 'text-text-muted' }}
           />
         )}
 
@@ -264,14 +264,14 @@ const Analytics = () => {
             value={totalTime}
             suffix="মি"
             subtext="মোট অ্যাকটিভ লার্নিং"
-            color={{ bg: 'bg-purple-500/10', border: 'border-purple-500/20', text: 'text-purple-500', label: 'rgba(192,132,252,0.5)' }}
+            color={{ bg: 'bg-surface-alt', border: 'border', text: 'text-text-muted', label: 'rgba(150,150,150,0.5)' }}
           />
         ) : (
           <EmptyStat
             icon={Clock}
             label="শেখার সময়"
             message="সময় ট্র্যাক করতে একটি সেশন শুরু করো"
-            color={{ bg: 'bg-purple-500/10', border: 'border-purple-500/20', text: 'text-purple-500/50' }}
+            color={{ bg: 'bg-surface-alt', border: 'border', text: 'text-text-muted' }}
           />
         )}
 
@@ -282,7 +282,7 @@ const Analytics = () => {
             value={readinessScore}
             suffix="%"
             subtext={readinessLabel.label}
-            color={{ bg: 'bg-amber-500/10', border: 'border-amber-500/20', text: 'text-amber-500', label: 'rgba(251,191,36,0.5)' }}
+            color={{ bg: 'bg-surface-alt', border: 'border', text: 'text-text-muted', label: 'rgba(150,150,150,0.5)' }}
             trend={{ label: readinessLabel.label, color: readinessLabel.color }}
           />
         ) : (
@@ -290,7 +290,7 @@ const Analytics = () => {
             icon={Zap}
             label="প্রস্তুতি"
             message="প্রস্তুতি স্কোর বাড়াতে আরো প্রাক্টিস করো"
-            color={{ bg: 'bg-amber-500/10', border: 'border-amber-500/20', text: 'text-amber-500/50' }}
+            color={{ bg: 'bg-surface-alt', border: 'border', text: 'text-text-muted' }}
           />
         )}
       </div>
@@ -299,24 +299,24 @@ const Analytics = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
         <motion.div variants={itemVariants} className="bg-surface border rounded-xl p-4 space-y-3">
           <div className="flex items-center gap-2">
-            <TrendingUp className="w-3.5 h-3.5 text-emerald-500" />
-                    <span className="text-[9px] font-black uppercase tracking-widest text-emerald-500 bn-text">শক্তিমত্তা</span>
+            <TrendingUp className="w-3.5 h-3.5 text-text" />
+                    <span className="text-[9px] font-black uppercase tracking-widest text-text bn-text">শক্তিমত্তা</span>
           </div>
           <div className="flex flex-wrap gap-1.5 items-start">
             {['Vocabulary', 'Algebra', 'Puzzles'].map(s => (
-              <Chip key={s} label={s} color="bg-emerald-500/15 border-emerald-500/25 text-emerald-400" />
+              <Chip key={s} label={s} color="bg-surface-alt border text-text" />
             ))}
           </div>
         </motion.div>
 
         <motion.div variants={itemVariants} className="bg-surface border rounded-xl p-4 space-y-3">
           <div className="flex items-center gap-2">
-            <AlertTriangle className="w-3.5 h-3.5 text-red-500" />
-                    <span className="text-[9px] font-black uppercase tracking-widest text-red-500 bn-text">দুর্বলতা</span>
+            <AlertTriangle className="w-3.5 h-3.5 text-text-dim" />
+                    <span className="text-[9px] font-black uppercase tracking-widest text-text-dim bn-text">দুর্বলতা</span>
           </div>
           <div className="flex flex-wrap gap-1.5 items-start">
             {['Geometry', 'Grammar Basics', 'Critical Reasoning'].map(s => (
-              <Chip key={s} label={s} color="bg-red-500/15 border-red-500/25 text-red-400" />
+              <Chip key={s} label={s} color="bg-surface-hover border text-text-dim" />
             ))}
           </div>
         </motion.div>
@@ -359,10 +359,10 @@ const Analytics = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
           {[
-            { label: 'বিগিনার', color: 'bg-red-500', value: '২০%' },
-            { label: 'ইন্টারমিডিয়েট', color: 'bg-yellow-500', value: '৩০%' },
+            { label: 'বিগিনার', color: 'bg-text-dim', value: '২০%' },
+            { label: 'ইন্টারমিডিয়েট', color: 'bg-text-dim', value: '৩০%' },
             { label: 'তুমি', color: 'bg-primary', value: `${accuracy}%` },
-            { label: 'এলিট', color: 'bg-emerald-500', value: `${Math.max(0, 100 - accuracy - 50)}%` }
+            { label: 'এলিট', color: 'bg-text', value: `${Math.max(0, 100 - accuracy - 50)}%` }
           ].map(l => (
             <div key={l.label} className="flex items-center gap-2.5">
               <div className={`w-3 h-3 rounded-full ${l.color} shrink-0`} />

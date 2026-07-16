@@ -18,7 +18,7 @@ export default class ErrorBoundary extends Component {
     if (this.state.hasError) {
       return (
         <div className="max-w-md mx-auto p-6 md:p-10 mt-10 bg-surface border rounded-2xl md:rounded-[2rem] text-center">
-          <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-4 md:mb-5 rounded-2xl md:rounded-3xl bg-yellow-500/15 border border-yellow-500/20 flex items-center justify-center">
+          <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-4 md:mb-5 rounded-2xl md:rounded-3xl bg-surface-hover border flex items-center justify-center">
             <span className="text-2xl">⚠</span>
           </div>
           <h3 className="text-text font-black text-xl md:text-2xl tracking-tighter mb-3">Something went wrong</h3>

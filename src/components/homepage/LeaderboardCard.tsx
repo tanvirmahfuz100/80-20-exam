@@ -7,10 +7,10 @@ import { api } from '../../services/localApi';
 import type { LeaderboardEntry } from '../../types';
 
 const leagueColors: Record<string, { bg: string; text: string; icon: string }> = {
-  Bronze: { bg: 'bg-amber-500/10', text: 'text-amber-400', icon: 'text-amber-500' },
-  Silver: { bg: 'bg-slate-300/10', text: 'text-slate-300', icon: 'text-slate-400' },
-  Gold: { bg: 'bg-yellow-400/10', text: 'text-yellow-400', icon: 'text-yellow-500' },
-  Diamond: { bg: 'bg-cyan-300/10', text: 'text-cyan-300', icon: 'text-cyan-400' },
+  Bronze: { bg: 'bg-surface-alt', text: 'text-text-dim', icon: 'text-text-dim' },
+  Silver: { bg: 'bg-surface-alt', text: 'text-text-muted', icon: 'text-text-muted' },
+  Gold: { bg: 'bg-surface-hover', text: 'text-text', icon: 'text-text' },
+  Diamond: { bg: 'bg-surface-hover', text: 'text-text', icon: 'text-text' },
 };
 
 function getLeague(xp: number) {
@@ -91,7 +91,7 @@ export default function LeaderboardCard() {
               >
                 <div className="w-6 h-6 rounded-lg bg-surface-alt border flex items-center justify-center shrink-0">
                   {index === 0 ? (
-                    <Crown className="w-3.5 h-3.5 text-yellow-400" />
+                    <Crown className="w-3.5 h-3.5 text-text-muted" />
                   ) : (
                     <span className="text-[10px] font-black text-text-muted">{index + 1}</span>
                   )}

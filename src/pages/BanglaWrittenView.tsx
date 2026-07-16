@@ -123,7 +123,7 @@ const BanglaWrittenView = () => {
     return (
       <div className="min-h-[60vh] flex items-center justify-center">
         <div className="text-center space-y-4">
-          <p className="text-red-400 text-lg font-bold">Failed to load</p>
+          <p className="text-text-dim text-lg font-bold">Failed to load</p>
           <p className="text-text-muted text-sm">{error}</p>
           <button onClick={goBack} className="px-6 py-2 bg-surface-alt hover:bg-surface-hover rounded-xl text-sm font-medium text-text-muted transition-colors">
             Go back

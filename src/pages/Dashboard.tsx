@@ -79,10 +79,10 @@ const timeAgo = (dateStr) => {
 };
 
 const rankColorMap = {
-  Bronze: { bg: 'bg-amber-500/10', text: 'text-amber-400', icon: 'text-amber-500' },
-  Silver: { bg: 'bg-slate-300/10', text: 'text-slate-300', icon: 'text-slate-400' },
-  Gold: { bg: 'bg-yellow-400/10', text: 'text-yellow-400', icon: 'text-yellow-500' },
-  Diamond: { bg: 'bg-cyan-300/10', text: 'text-cyan-300', icon: 'text-cyan-400' },
+  Bronze: { bg: 'bg-surface-alt', text: 'text-text-dim', icon: 'text-text-dim' },
+  Silver: { bg: 'bg-surface-alt', text: 'text-text-muted', icon: 'text-text-muted' },
+  Gold: { bg: 'bg-surface-alt', text: 'text-text', icon: 'text-text' },
+  Diamond: { bg: 'bg-surface-alt', text: 'text-text', icon: 'text-text' },
 };
 
 const containerVariants = {
@@ -184,7 +184,7 @@ const Dashboard = () => {
 
         <div className="flex items-center gap-3 md:gap-5 mb-3">
           <div className="flex items-center gap-1.5">
-            <Flame className="w-3.5 h-3.5 text-orange-400 shrink-0" />
+            <Flame className="w-3.5 h-3.5 text-text-muted shrink-0" />
             <div>
               <p className="text-3xs font-black uppercase tracking-widest text-text-dim leading-none mb-0.5 bn-text">{streak}d স্ট্রিক</p>
               <p className="text-sm md:text-base font-black text-text leading-none">{totalXp} <span className="text-3xs font-bold text-text-muted">XP</span></p>
@@ -192,10 +192,10 @@ const Dashboard = () => {
           </div>
           <div className="w-px h-7 bg-surface-alt" />
           <div className="flex items-center gap-1.5">
-            <Star className="w-3.5 h-3.5 text-yellow-400 shrink-0" />
+            <Star className="w-3.5 h-3.5 text-text shrink-0" />
             <div>
               <p className="text-3xs font-black uppercase tracking-widest text-text-dim leading-none mb-0.5 bn-text">স্টার</p>
-              <p className="text-sm md:text-base font-black text-yellow-400 leading-none">{userGameStats.total_stars}</p>
+              <p className="text-sm md:text-base font-black text-text leading-none">{userGameStats.total_stars}</p>
             </div>
           </div>
           <div className="w-px h-7 bg-surface-alt" />
@@ -270,12 +270,12 @@ const Dashboard = () => {
 
       {/* â”€â”€â”€ Stats Grid â”€â”€â”€ */}
       <Motion.div variants={itemVariants} className="grid grid-cols-2 md:grid-cols-5 gap-2.5">
-        <StatCard Icon={Crown} label="লেভেল" value={`${level}`} bgClass="bg-yellow-400/10" iconColor="text-yellow-400" />
-        <StatCard Icon={Flame} label="স্ট্রিক" value={`${streak}d`} bgClass="bg-orange-400/10" iconColor="text-orange-400" />
+        <StatCard Icon={Crown} label="লেভেল" value={`${level}`} bgClass="bg-surface-alt" iconColor="text-text" />
+        <StatCard Icon={Flame} label="স্ট্রিক" value={`${streak}d`} bgClass="bg-surface-alt" iconColor="text-text-muted" />
         <StatCard Icon={Zap} label="এক্সপি" value={`${totalXp}`} bgClass="bg-primary/10" iconColor="text-primary" />
         <StatCard Icon={BadgeCheck} label="র‍্যাংক" value={rankLabel} bgClass={rankTheme.bg} iconColor={rankTheme.icon} />
         <Link to="/stars" className="block">
-          <StatCard Icon={Star} label="পর্যালোচনা" value={`${pendingSubjectGroups.reduce((a, b) => a + b.count, 0)}`} bgClass="bg-yellow-400/10" iconColor="text-yellow-400" />
+          <StatCard Icon={Star} label="পর্যালোচনা" value={`${pendingSubjectGroups.reduce((a, b) => a + b.count, 0)}`} bgClass="bg-surface-alt" iconColor="text-text" />
         </Link>
       </Motion.div>
 
@@ -287,7 +287,7 @@ const Dashboard = () => {
               <Link
                 key={g.subject}
                 to={`/practice?subject=${encodeURIComponent(g.subject)}`}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-yellow-400/10 border border-yellow-400/20 rounded-full text-[11px] font-bold text-yellow-400 hover:bg-yellow-400/20 transition-colors"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-surface-alt border rounded-full text-[11px] font-bold text-text-muted hover:bg-surface-hover transition-colors"
               >
                 <Star className="w-3 h-3" />
                 {g.subject} ({g.count})
@@ -326,7 +326,7 @@ const Dashboard = () => {
                 to={`/levels?file=${encodeURIComponent(ch.file)}&title=${encodeURIComponent(ch.label)}&chapterId=${ch.chapterId}`}
                 className={`relative overflow-hidden rounded-2xl border p-4 transition-all group ${
                   ch.completed
-                    ? 'border-emerald-500/20 bg-emerald-500/[0.05]'
+                    ? 'border bg-surface'
                     : 'border bg-surface hover:border-primary/30 hover:bg-surface-alt'
                 }`}
               >
@@ -336,7 +336,7 @@ const Dashboard = () => {
                     <p className="text-[10px] text-text-dim font-medium mt-0.5">লেভেল {ch.levelNumber}</p>
                   </div>
                   {ch.completed ? (
-                    <BadgeCheck className="w-5 h-5 text-emerald-400 shrink-0" />
+                    <BadgeCheck className="w-5 h-5 text-text shrink-0" />
                   ) : (
                     <TargetIcon className="w-4 h-4 text-primary/40" />
                   )}
@@ -344,7 +344,7 @@ const Dashboard = () => {
                 <div className="flex items-center gap-2">
                   <div className={`px-2 py-0.5 rounded-full text-[8px] font-black uppercase tracking-wider bn-text ${
                     ch.completed
-                      ? 'bg-emerald-500/15 text-emerald-400'
+                      ? 'bg-surface-alt text-text'
                       : 'bg-primary/10 text-primary'
                   }`}>
                     {ch.completed ? 'সম্পন্ন' : `+${ch.bonusXp} এক্সপি`}
@@ -364,12 +364,12 @@ const Dashboard = () => {
         <Motion.div variants={itemVariants}>
           <Link
             to="/practice"
-            className="relative overflow-hidden rounded-2xl border border-yellow-500/15 bg-yellow-500/[0.04] p-4 md:p-5 hover:bg-yellow-500/[0.07] transition-all group block"
+            className="relative overflow-hidden rounded-2xl border bg-surface-alt p-4 md:p-5 hover:bg-surface-hover transition-all group block"
           >
             <div className="flex items-start justify-between mb-3">
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded-lg bg-yellow-500/15 flex items-center justify-center">
-                  <Flame className="w-4 h-4 text-yellow-400" />
+                <div className="w-8 h-8 rounded-lg bg-surface-alt flex items-center justify-center">
+                  <Flame className="w-4 h-4 text-text-muted" />
                 </div>
                 <div>
                   <h3 className="text-xs font-black text-text tracking-tight bn-text">সাপ্তাহিক: {weeklyChallenge.label}</h3>
@@ -380,7 +380,7 @@ const Dashboard = () => {
                 </div>
               </div>
               <div className={`px-2 py-0.5 rounded-full text-[8px] font-black uppercase tracking-wider bn-text ${
-                weeklyChallenge.completed ? 'bg-emerald-500/15 text-emerald-400' : 'bg-yellow-500/10 text-yellow-400'
+                weeklyChallenge.completed ? 'bg-surface-alt text-text' : 'bg-surface-alt text-text-muted'
               }`}>
                 {weeklyChallenge.completed ? 'সম্পন্ন' : `+${weeklyChallenge.bonusXp} এক্সপি`}
               </div>
@@ -388,18 +388,18 @@ const Dashboard = () => {
             <div className="flex items-center gap-2">
               <div className="flex-1 h-1.5 bg-surface-hover rounded-full overflow-hidden">
                 <Motion.div
-                  className="h-full rounded-full bg-yellow-400"
+                  className="h-full rounded-full bg-primary"
                   initial={{ width: 0 }}
                   animate={{ width: `${(weeklyChallenge.completedLevels?.length || 0) / weeklyChallenge.totalLevels * 100}%` }}
                   transition={{ duration: 0.6 }}
                 />
               </div>
-              <span className="text-[10px] font-black tabular-nums text-yellow-400/70 whitespace-nowrap">
+              <span className="text-[10px] font-black tabular-nums text-text-muted whitespace-nowrap">
                 {weeklyChallenge.completedLevels?.length || 0}/{weeklyChallenge.totalLevels}
               </span>
             </div>
             {!weeklyChallenge.completed && (
-              <ArrowRight className="absolute bottom-3 right-3 w-4 h-4 text-yellow-500/30 group-hover:text-yellow-500/60 transition-all group-hover:translate-x-0.5" />
+              <ArrowRight className="absolute bottom-3 right-3 w-4 h-4 text-text-muted group-hover:text-text-muted transition-all group-hover:translate-x-0.5" />
             )}
           </Link>
         </Motion.div>
@@ -425,8 +425,8 @@ const Dashboard = () => {
               <CircularProgress value={Math.round(Number(statsData.accuracy))} size={96} strokeWidth={7} />
               <div className="grid grid-cols-3 gap-2 w-full">
                 <StatBox label="প্রশ্ন" value={statsData.totalPracticed} />
-                <StatBox label="সঠিক" value={statsData.correctOnes} accent="text-emerald-400" />
-                <StatBox label="ভুল" value={statsData.wrongOnes} accent="text-yellow-300" />
+                <StatBox label="সঠিক" value={statsData.correctOnes} accent="text-text" />
+                <StatBox label="ভুল" value={statsData.wrongOnes} accent="text-text-dim" />
               </div>
             </div>
             {focusAreas.length > 0 && (
@@ -570,7 +570,7 @@ const Dashboard = () => {
                 { border: 'border-l-primary', accent: 'text-primary', badge: 'bg-primary/20 text-primary', icon: Book },
                 { border: 'border-l-reward', accent: 'text-reward', badge: 'bg-reward/20 text-reward', icon: GraduationCap },
                 { border: 'border-l-accent', accent: 'text-accent', badge: 'bg-accent/20 text-accent', icon: Library },
-                { border: 'border-l-fuchsia-500', accent: 'text-fuchsia-400', badge: 'bg-fuchsia-500/20 text-fuchsia-400', icon: ScrollText },
+                { border: 'border-l-text-dim', accent: 'text-text-muted', badge: 'bg-surface-alt text-text-muted', icon: ScrollText },
               ];
               const t = themes[i % themes.length];
               const IconComp = t.icon;

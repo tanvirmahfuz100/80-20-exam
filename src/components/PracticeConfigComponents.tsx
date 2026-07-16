@@ -27,11 +27,11 @@ function getSvgUrl(svgName: string) {
 }
 
 export const examColors = {
-    ssc: { accent: '#10b981', bg: 'rgba(16,185,129,0.08)', label: 'এসএসসি' },
-    hsc: { accent: '#0ea5e9', bg: 'rgba(14,165,233,0.08)', label: 'এইচএসসি' },
-    iba: { accent: '#8b5cf6', bg: 'rgba(139,92,246,0.08)', label: 'আইবিএ' },
-    bcs: { accent: '#f59e0b', bg: 'rgba(245,158,11,0.08)', label: 'বিসিএস' },
-    class7: { accent: '#f43f5e', bg: 'rgba(244,63,94,0.08)', label: 'সপ্তম শ্রেণী' },
+    ssc: { accent: '#666666', bg: 'rgba(100,100,100,0.08)', label: 'এসএসসি' },
+    hsc: { accent: '#666666', bg: 'rgba(100,100,100,0.08)', label: 'এইচএসসি' },
+    iba: { accent: '#666666', bg: 'rgba(100,100,100,0.08)', label: 'আইবিএ' },
+    bcs: { accent: '#666666', bg: 'rgba(100,100,100,0.08)', label: 'বিসিএস' },
+    class7: { accent: '#666666', bg: 'rgba(100,100,100,0.08)', label: 'সপ্তম শ্রেণী' },
 };
 
 export const fadeUp = {
@@ -58,7 +58,7 @@ export const steps = [
 export const ProgressBar = ({ completed, total, color }) => {
     if (total === 0) return null;
     const pct = Math.min(Math.round((completed / total) * 100), 100);
-    const barColor = color || '#93D333';
+    const barColor = color || '#666666';
     return (
         <div className="flex items-center gap-2 w-full">
             <div className="flex-1 h-1.5 bg-eel rounded-full overflow-hidden">

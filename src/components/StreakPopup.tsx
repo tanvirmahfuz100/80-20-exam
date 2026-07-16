@@ -83,12 +83,12 @@ export default function StreakPopup({ isOpen, onClose, streak, streakHistory, on
               </button>
             </div>
 
-            <div className="flex items-center gap-3 bg-surface border border-orange-500/20 rounded-xl p-4">
-              <div className="w-12 h-12 rounded-xl bg-orange-500/20 flex items-center justify-center">
-                <Flame className="w-6 h-6 text-orange-500" />
+            <div className="flex items-center gap-3 bg-surface border rounded-xl p-4">
+              <div className="w-12 h-12 rounded-xl bg-surface-alt flex items-center justify-center">
+                <Flame className="w-6 h-6 text-text-muted" />
               </div>
               <div>
-                <p className="text-2xl font-black text-orange-500">{streak}</p>
+                <p className="text-2xl font-black text-text">{streak}</p>
                 <p className="text-[10px] font-black uppercase tracking-widest text-text-muted bn-text">দিনের স্ট্রিক</p>
               </div>
             </div>

@@ -9,7 +9,7 @@ const shopItems = [
     description: 'তোমার স্ট্রিক বাঁচাও! একটা দিন মিস করলেও স্ট্রিক থাকবে।',
     price: 200,
     icon: Snowflake,
-    color: 'text-blue-500',
+    color: 'text-text-muted',
     bg: 'bg-surface',
     border: 'border',
   },
@@ -104,7 +104,7 @@ export default function Shop() {
           <span className="font-bold text-sm text-text">শপ</span>
         </div>
         <div className="flex items-center justify-center gap-2">
-          <Gem className="w-6 h-6 text-cyan-500" />
+          <Gem className="w-6 h-6 text-text-muted" />
           <span className="text-2xl font-black text-text">{gems.toLocaleString()}</span>
           <span className="text-sm text-text-muted font-medium">জেমস</span>
         </div>
@@ -133,7 +133,7 @@ export default function Shop() {
                   ${gems < item.price
                     ? 'bg-wolf/50 text-text-muted cursor-not-allowed'
                     : purchased.has(item.id)
-                      ? 'bg-emerald-500 text-white'
+                      ? 'bg-surface-hover text-text'
                       : purchasing === item.id
                         ? 'bg-primary text-white scale-95'
                         : 'bg-primary text-white hover:bg-primary-hover active:scale-95'

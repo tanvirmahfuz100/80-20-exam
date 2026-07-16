@@ -5,16 +5,16 @@ import { api } from '../services/localApi';
 import type { LeaderboardEntry } from '../types';
 
 const leagueColors = {
-  Bronze: { bg: 'bg-amber-50 dark:bg-amber-900/10', border: 'border-amber-200 dark:border-amber-800', text: 'text-amber-700 dark:text-amber-400', icon: 'text-amber-500' },
-  Silver: { bg: 'bg-slate-50 dark:bg-slate-900/10', border: 'border-slate-200 dark:border-slate-700', text: 'text-slate-600 dark:text-slate-400', icon: 'text-slate-400' },
-  Gold: { bg: 'bg-yellow-50 dark:bg-yellow-900/10', border: 'border-yellow-200 dark:border-yellow-800', text: 'text-yellow-700 dark:text-yellow-400', icon: 'text-yellow-500' },
-  Diamond: { bg: 'bg-cyan-50 dark:bg-cyan-900/10', border: 'border-cyan-200 dark:border-cyan-800', text: 'text-cyan-700 dark:text-cyan-400', icon: 'text-cyan-500' },
+  Bronze: { bg: 'bg-surface', border: 'border', text: 'text-text-dim', icon: 'text-text-dim' },
+  Silver: { bg: 'bg-surface-hover', border: 'border', text: 'text-text-muted', icon: 'text-text-muted' },
+  Gold: { bg: 'bg-surface-hover', border: 'border', text: 'text-text', icon: 'text-text' },
+  Diamond: { bg: 'bg-surface', border: 'border', text: 'text-text', icon: 'text-text' },
 };
 
 const ChangeIcon = ({ change }: { change: string }) => {
   if (change === 'up') return <ArrowUp className="w-3.5 h-3.5 text-primary" />;
-  if (change === 'down') return <ArrowDown className="w-3.5 h-3.5 text-cardinal" />;
-  return <Minus className="w-3.5 h-3.5 text-hare" />;
+  if (change === 'down') return <ArrowDown className="w-3.5 h-3.5 text-text-dim" />;
+  return <Minus className="w-3.5 h-3.5 text-text-dim" />;
 };
 
 export default function Leaderboard() {

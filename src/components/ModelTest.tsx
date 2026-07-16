@@ -8,12 +8,12 @@ import Rearrangement from './Rearrangement';
 
 
 const typeConfig = {
-  passage_mcq: { icon: BookOpen, color: 'text-blue-400', bg: 'bg-blue-400/10', border: 'border-blue-400/20' },
-  gap_fill_vocab: { icon: PenTool, color: 'text-emerald-400', bg: 'bg-emerald-400/10', border: 'border-emerald-400/20' },
-  passage_summary: { icon: FileText, color: 'text-purple-400', bg: 'bg-purple-400/10', border: 'border-purple-400/20' },
-  sentence_matching: { icon: Shuffle, color: 'text-orange-400', bg: 'bg-orange-400/10', border: 'border-orange-400/20' },
-  rearrangement: { icon: Shuffle, color: 'text-pink-400', bg: 'bg-pink-400/10', border: 'border-pink-400/20' },
-  poetry_mcq: { icon: Music, color: 'text-rose-400', bg: 'bg-rose-400/10', border: 'border-rose-400/20' },
+  passage_mcq: { icon: BookOpen, color: 'text-text', bg: 'bg-surface-hover', border: 'border' },
+  gap_fill_vocab: { icon: PenTool, color: 'text-text', bg: 'bg-surface-hover', border: 'border' },
+  passage_summary: { icon: FileText, color: 'text-text', bg: 'bg-surface-hover', border: 'border' },
+  sentence_matching: { icon: Shuffle, color: 'text-text', bg: 'bg-surface-hover', border: 'border' },
+  rearrangement: { icon: Shuffle, color: 'text-text', bg: 'bg-surface-hover', border: 'border' },
+  poetry_mcq: { icon: Music, color: 'text-text', bg: 'bg-surface-hover', border: 'border' },
 };
 
 const VocabPopup = ({ vocab, onClose }) => {
@@ -50,15 +50,15 @@ const VocabPopup = ({ vocab, onClose }) => {
         )}
         <div className="grid grid-cols-2 gap-2 pt-1">
           {vocab.synonym && (
-            <div className="bg-emerald-500/10 rounded-xl p-2.5 border border-emerald-500/15">
-              <p className="text-[8px] font-black text-emerald-400 uppercase tracking-widest mb-0.5">Synonym</p>
-              <p className="text-emerald-300 font-bold" style={{ fontSize: '13px' }}>{vocab.synonym}</p>
+            <div className="bg-surface rounded-xl p-2.5 border">
+              <p className="text-[8px] font-black text-text uppercase tracking-widest mb-0.5">Synonym</p>
+              <p className="text-text font-bold" style={{ fontSize: '13px' }}>{vocab.synonym}</p>
             </div>
           )}
           {vocab.antonym && (
-            <div className="bg-red-500/10 rounded-xl p-2.5 border border-red-500/15">
-              <p className="text-[8px] font-black text-red-400 uppercase tracking-widest mb-0.5">Antonym</p>
-              <p className="text-red-300 font-bold" style={{ fontSize: '13px' }}>{vocab.antonym}</p>
+            <div className="bg-surface-hover rounded-xl p-2.5 border">
+              <p className="text-[8px] font-black text-text-dim uppercase tracking-widest mb-0.5">Antonym</p>
+              <p className="text-text-dim font-bold" style={{ fontSize: '13px' }}>{vocab.antonym}</p>
             </div>
           )}
         </div>
@@ -271,9 +271,9 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
         }}
         className={`w-full text-left px-4 py-3.5 rounded-xl border font-bold leading-snug transition-all active:scale-[0.98] ${
           state === 'correct'
-            ? 'bg-emerald-500/15 border-emerald-500/40 text-emerald-300 ring-1 ring-emerald-500/30'
+            ? 'bg-surface-hover border text-text ring-1 ring-text-muted/20'
             : state === 'wrong'
-              ? 'bg-yellow-500/15 border-yellow-500/40 text-yellow-300 ring-1 ring-yellow-500/30'
+              ? 'bg-surface-hover border text-text-muted ring-1 ring-text-muted/20'
               : state === 'selected'
                 ? 'bg-primary/20 border-primary/50 text-white ring-1 ring-primary/40'
                 : state === 'dimmed'
@@ -282,8 +282,8 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
         }`}
         style={{ fontSize: `${fontSize}px` }}
       >
-        {state === 'correct' && <Check className="w-4 h-4 inline mr-2 -mt-0.5 text-emerald-400 shrink-0" />}
-        {state === 'wrong' && <X className="w-4 h-4 inline mr-2 -mt-0.5 text-yellow-400 shrink-0" />}
+        {state === 'correct' && <Check className="w-4 h-4 inline mr-2 -mt-0.5 text-text shrink-0" />}
+        {state === 'wrong' && <X className="w-4 h-4 inline mr-2 -mt-0.5 text-text-dim shrink-0" />}
         {option.text || option}
       </button>
     );
@@ -310,10 +310,10 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
                 Question {mcqIndex + 1} of {allQuestions.length}
               </span>
               <div className="flex items-center gap-1">
-                <span className="text-[9px] font-black text-emerald-400/60 uppercase tracking-wider">
+                <span className="text-[9px] font-black text-text-muted/60 uppercase tracking-wider">
                   Done
                 </span>
-                <span className="text-[10px] font-black tabular-nums text-emerald-400">
+                <span className="text-[10px] font-black tabular-nums text-text">
                   {mcqIndex + (isAnswered ? 1 : 0)}
                 </span>
                 <span className="text-[9px] text-text-dim">/</span>
@@ -344,10 +344,10 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
               >
                 {selectedOption !== undefined && selectedOption !== null && selectedOption === q.correct && (
                   <div className="flex items-center gap-2 mb-1">
-                    <div className="p-1 rounded-lg bg-emerald-500/15">
-                      <Check className="w-3.5 h-3.5 text-emerald-400" />
+                    <div className="p-1 rounded-lg bg-surface-hover">
+                      <Check className="w-3.5 h-3.5 text-text" />
                     </div>
-                    <span className="text-[10px] font-black uppercase tracking-widest text-emerald-400">Correct!</span>
+                    <span className="text-[10px] font-black uppercase tracking-widest text-text">Correct!</span>
                   </div>
                 )}
                 {q.explanation_bn && (
@@ -419,7 +419,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
                 key={ch.id}
                 className={`h-1.5 flex-1 rounded-full transition-all ${
                   isDone
-                    ? 'bg-emerald-500'
+                    ? 'bg-text'
                     : isCurrent
                       ? 'bg-primary'
                       : 'bg-surface-alt'
@@ -594,7 +594,7 @@ const ModelTest = ({ chapters, fontSize, onCorrectAttempt, onWrongAttempt, onCon
 
         {chapter.type === 'gap_fill_vocab' && phase === 'vocabQuestions' && (
           <div className="flex-1 flex flex-col min-h-0 gap-2">
-            <p className="text-[9px] font-black text-emerald-400 uppercase tracking-wider shrink-0 px-0.5">Vocabulary Questions</p>
+            <p className="text-[9px] font-black text-text uppercase tracking-wider shrink-0 px-0.5">Vocabulary Questions</p>
             {renderMCQs()}
           </div>
         )}

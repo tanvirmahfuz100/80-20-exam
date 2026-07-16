@@ -73,8 +73,8 @@ const Landing = () => {
             <div className="bg-surface border-y border py-10 md:py-32">
                 <div className="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 text-center">
                     <div className="space-y-3 md:space-y-6">
-                        <div className="w-14 h-14 md:w-20 md:h-20 bg-emerald-500/10 rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto border border-emerald-500/20">
-                            <Zap className="w-6 h-6 md:w-10 md:h-10 text-emerald-500" />
+                        <div className="w-14 h-14 md:w-20 md:h-20 bg-surface-alt rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto border">
+                            <Zap className="w-6 h-6 md:w-10 md:h-10 text-text" />
                         </div>
                         <h3 className="text-lg md:text-2xl font-black tracking-tighter uppercase bn-text">ফ্রি। ফান। ইফেক্টিভ।</h3>
                         <p className="text-text-dim text-xs md:text-sm leading-relaxed max-w-xs mx-auto">
@@ -91,8 +91,8 @@ const Landing = () => {
                         </p>
                     </div>
                     <div className="space-y-3 md:space-y-6">
-                        <div className="w-14 h-14 md:w-20 md:h-20 bg-yellow-500/10 rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto border border-yellow-500/20">
-                            <Users className="w-6 h-6 md:w-10 md:h-10 text-yellow-500" />
+                        <div className="w-14 h-14 md:w-20 md:h-20 bg-surface-alt rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto border">
+                            <Users className="w-6 h-6 md:w-10 md:h-10 text-text-muted" />
                         </div>
                         <h3 className="text-lg md:text-2xl font-black tracking-tighter uppercase bn-text">পার্সোনালাইজড পাথ</h3>
                         <p className="text-text-dim text-xs md:text-sm leading-relaxed max-w-xs mx-auto">

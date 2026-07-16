@@ -7,16 +7,21 @@
 - A `border-t` on a footer or section header is acceptable **only** if there is real content on both sides (it separates two sections of content). If content only exists above, use spacing alone.
 
 ## Theme
+- **Grayscale-only palette** — no accent colors. All visual hierarchy uses shades of gray.
 - Uses Tailwind CSS with custom CSS variable tokens (defined in `src/index.css`):
   - `bg-background` — page background
   - `bg-surface` — card/panel background
   - `bg-surface-hover` — hover state for surface elements
+  - `bg-surface-alt` — alternative surface background
   - `text-text` — primary text
   - `text-text-muted` — secondary text
   - `text-text-dim` — dim/disabled text
   - `border` — default border color
-  - `border-primary/20` / `border-primary/40` — primary-tinted borders
-  - `primary` / `primary-hover` — accent color
+  - `primary` / `primary-hover` — darkest gray (replaces former green accent)
+  - `cardinal` — medium-dark gray (replaces former red)
+  - `reward` — light gray (replaces former yellow)
+- **Dark mode** uses pure black (`#000000`) background with near-black surfaces.
+- **Light mode** uses near-white (`#F5F5F5`) background with white surfaces.
 - See `tailwind.config.js` and `src/index.css` for the full token and color definitions.
 
 ## Layout Rules

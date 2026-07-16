@@ -212,9 +212,9 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
       <div className="flex-1 overflow-y-auto min-h-0 space-y-3 px-0.5">
         <div className="flex items-center gap-2 shrink-0">
           <span className={`text-[9px] font-black px-2.5 py-1 rounded-full uppercase border ${
-            difficulty === 'hard' ? 'text-yellow-300 border-yellow-300/20 bg-yellow-300/10' :
-            difficulty === 'medium' ? 'text-yellow-400 border-yellow-400/20 bg-yellow-400/5' :
-            'text-emerald-400 border-emerald-400/20 bg-emerald-400/5'
+            difficulty === 'hard' ? 'text-text-muted border bg-surface' :
+            difficulty === 'medium' ? 'text-text-muted border bg-surface' :
+            'text-text border bg-surface'
           }`}>
             {difficulty}
           </span>
@@ -260,8 +260,8 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
                   cursor-pointer
                   ${isAnswered
                     ? answer.isCorrect
-                      ? 'border-emerald-500/70 text-emerald-400'
-                      : 'border-amber-500/70 text-amber-400'
+                      ? 'border text-text'
+                      : 'border text-text-muted'
                     : hasData && isActive
                       ? 'border-white text-text bg-surface-alt rounded-t-sm'
                       : hasData
@@ -272,9 +272,9 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
               >
                   {isAnswered ? (
                     answer.isCorrect ? (
-                      <span className="text-emerald-400 font-bold">{blankData?.correct || blankData?.correct_answer || answer.selected || `(${seg.blankId})`}</span>
+                      <span className="text-text font-bold">{blankData?.correct || blankData?.correct_answer || answer.selected || `(${seg.blankId})`}</span>
                     ) : (
-                      <span className="text-amber-400 font-bold line-through decoration-amber-400/70">
+                      <span className="text-text-muted font-bold line-through decoration-text-muted/70">
                         {answer.selected || `(${seg.blankId})`}
                       </span>
                     )
@@ -417,13 +417,13 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
               exit={{ opacity: 0, y: 20, scale: 0.95 }}
               transition={{ duration: 0.25, ease: 'easeOut' }}
               className={`relative w-full max-w-sm md:max-w-md bg-surface rounded-2xl p-6 ${
-                explanationPanel.isCorrect ? 'border border-emerald-500/20' : ''
+                explanationPanel.isCorrect ? 'border' : ''
               }`}
               onClick={(e) => e.stopPropagation()}
             >
-              {explanationPanel.isCorrect && (
-                <div className="absolute -top-20 -right-20 w-40 h-40 bg-emerald-500/10 rounded-full pointer-events-none" />
-              )}
+                {explanationPanel.isCorrect && (
+                  <div className="absolute -top-20 -right-20 w-40 h-40 bg-text/10 rounded-full pointer-events-none" />
+                )}
 
               <button
                 onClick={() => setExplanationPanel(null)}
@@ -435,12 +435,12 @@ const GapFillPassage = ({ passage, blanks, boxWords, difficulty, onBlankAnswer, 
 
               <div className="flex flex-col items-center text-center gap-2 mb-5">
                 {explanationPanel.isCorrect ? (
-                  <CheckCircle size={40} className="text-emerald-400" aria-hidden="true" />
+                  <CheckCircle size={40} className="text-text" aria-hidden="true" />
                 ) : (
-                  <Star size={40} className="text-yellow-300 fill-yellow-300" aria-hidden="true" />
+                  <Star size={40} className="text-text-muted fill-text-muted" aria-hidden="true" />
                 )}
                 <div>
-                  <span className={`text-lg font-black uppercase tracking-wider ${explanationPanel.isCorrect ? 'text-emerald-400' : 'text-yellow-300'}`}>
+                  <span className={`text-lg font-black uppercase tracking-wider ${explanationPanel.isCorrect ? 'text-text' : 'text-text-muted'}`}>
                     {explanationPanel.isCorrect ? 'Good job!' : 'Star collected!'}
                   </span>
                   {!explanationPanel.isCorrect && (

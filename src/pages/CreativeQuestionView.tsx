@@ -77,7 +77,7 @@ const CreativeQuestionView = () => {
     return (
       <div className="min-h-[60vh] flex items-center justify-center">
         <div className="text-center space-y-4">
-          <p className="text-red-400 text-lg font-bold">Failed to load</p>
+          <p className="text-text-dim text-lg font-bold">Failed to load</p>
           <p className="text-text-muted text-sm">{error}</p>
           <button onClick={goBack} className="px-6 py-2 bg-surface-alt hover:bg-surface-hover rounded-xl text-sm font-medium text-text-muted transition-colors">
             Go back
@@ -201,7 +201,7 @@ const CreativeQuestionView = () => {
                       return (
                         <div key={sq.label} className="p-2.5 bg-primary/[0.03] border border-primary/[0.08] rounded-lg">
                           <div className="flex items-start gap-2 text-sm">
-                            <span className="font-bold text-emerald-400 shrink-0 w-5 text-right">
+                            <span className="font-bold text-text shrink-0 w-5 text-right">
                               {sq.label}.
                             </span>
                             <span className="text-text-muted text-xs leading-relaxed">{ans}</span>

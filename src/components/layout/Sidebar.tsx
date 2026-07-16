@@ -121,13 +121,13 @@ export default function Sidebar({ isOpen, toggle, onOpenReport }: { isOpen: bool
 
             {isAdmin && (
               <div className="mb-6">
-                <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-emerald-600/50 mb-2 bn-text">অ্যাডমিন</p>
+                <p className="px-3 text-[10px] font-black uppercase tracking-[0.2em] text-text-muted/50 mb-2 bn-text">অ্যাডমিন</p>
                 <NavLink
                   to="/admin"
                   onClick={() => { if (window.innerWidth < 768) toggle(); }}
                   className={({ isActive }) =>
                     `flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold transition-all
-                    ${isActive ? 'bg-emerald-500/10 text-emerald-600' : 'text-text-muted hover:bg-surface-hover hover:text-text'}`
+                    ${isActive ? 'bg-surface text-text' : 'text-text-muted hover:bg-surface-hover hover:text-text'}`
                   }
                 >
                   <ShieldCheck className="w-5 h-5 shrink-0" aria-hidden="true" />

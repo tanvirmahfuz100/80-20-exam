@@ -183,7 +183,7 @@ export default function ExamChangerDropdown({ currentExamPath, onExamChange }) {
                       </div>
                       <div className="flex items-center gap-1">
                         {isCurrentExam(exam) && (
-                          <span className="text-2xs font-bold text-emerald-600 bg-emerald-500/10 px-2 py-0.5 rounded-full bn-text">
+                          <span className="text-2xs font-bold text-text bg-surface px-2 py-0.5 rounded-full bn-text">
                             চলছে
                           </span>
                         )}
@@ -259,7 +259,7 @@ export default function ExamChangerDropdown({ currentExamPath, onExamChange }) {
               {/* Reassurance footer */}
               <div className="mt-5 pt-4 text-center space-y-2.5">
                 <div className="flex items-center justify-center gap-1.5">
-                  <ShieldCheck className="w-4 h-4 text-emerald-500 shrink-0" />
+                  <ShieldCheck className="w-4 h-4 text-text shrink-0" />
                   <span className="text-xs font-medium text-text-muted leading-relaxed bn-text">
                     পরীক্ষা পরিবর্তন করলেও তোমার সব অগ্রগতি (এক্সপি, স্টার, স্ট্রিক) ঠিক থাকবে! 🎉
                   </span>

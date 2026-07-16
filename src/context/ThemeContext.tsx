@@ -79,7 +79,7 @@ const applyTheme = (theme: string) => {
   }
   const meta = document.querySelector<HTMLMetaElement>('meta[name="theme-color"]');
   if (meta) {
-    meta.content = resolved === DARK ? '#0F0F0E' : '#F5F5F0';
+    meta.content = resolved === DARK ? '#000000' : '#F5F5F0';
   }
 };
 

@@ -1,8 +1,8 @@
 const colorMap = {
   primary: 'bg-primary/10 border-primary/20 text-primary',
-  success: 'bg-emerald-500/10 border-emerald-500/20 text-emerald-400',
-  warning: 'bg-yellow-500/10 border-yellow-500/20 text-yellow-400',
-  danger: 'bg-red-500/10 border-red-500/20 text-red-400',
+  success: 'bg-surface-hover border text-text-muted',
+  warning: 'bg-surface-hover border text-text-dim',
+  danger: 'bg-surface-alt border text-text-dim',
   default: 'bg-surface-alt border text-text-dim',
 };
 
