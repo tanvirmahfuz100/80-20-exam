@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg7" cx="50%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#152030"/>
+      <stop offset="100%" stop-color="#05070a"/>
+    </radialGradient>
+    <filter id="glow7" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="220" fill="url(#bg7)"/>
+  <g fill="none" stroke="#8fb6e6" stroke-width="1" filter="url(#glow7)">
+    <circle cx="200" cy="112" r="24"/>
+    <circle cx="200" cy="112" r="9"/>
+    <g stroke-width="1">
+      <line x1="200" y1="80" x2="200" y2="70"/>
+      <line x1="200" y1="144" x2="200" y2="154"/>
+      <line x1="168" y1="112" x2="158" y2="112"/>
+      <line x1="232" y1="112" x2="242" y2="112"/>
+      <line x1="177" y1="89" x2="170" y2="82"/>
+      <line x1="223" y1="135" x2="230" y2="142"/>
+      <line x1="223" y1="89" x2="230" y2="82"/>
+      <line x1="177" y1="135" x2="170" y2="142"/>
+    </g>
+  </g>
+  <circle cx="200" cy="112" r="45" fill="none" stroke="#4a6a99" stroke-width="0.4" opacity="0.4" stroke-dasharray="2 3"/>
+</svg>

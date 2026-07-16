@@ -265,19 +265,28 @@ const Settings = () => {
 
     return (
         <div className="max-w-2xl mx-auto">
-            <div className="flex items-center justify-between mb-6">
-                <div>
-                    <h1 className="text-lg font-black text-text">সেটিংস</h1>
-                    <p className="text-sm text-text-muted font-medium mt-0.5">তোমার লার্নিং এক্সপিরিয়েন্স কাস্টমাইজ করো</p>
+            <div className="relative overflow-hidden rounded-2xl bg-surface border mb-6">
+                <div className="absolute inset-0 opacity-30">
+                    <img
+                        src={`${import.meta.env.BASE_URL || '/'}assets/images/icons/settings.svg`}
+                        alt=""
+                        className="w-full h-full object-cover"
+                    />
                 </div>
-                <button
-                    onClick={handleSave}
-                    disabled={loading}
-                    className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white rounded-full font-bold text-sm hover:bg-primary-hover disabled:opacity-50 transition-all active:scale-95 shrink-0"
-                >
-                    {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Save className="w-4 h-4" />}
-                    সেভ করো
-                </button>
+                <div className="relative z-10 flex items-center justify-between p-5">
+                    <div>
+                        <h1 className="text-lg font-black text-text">সেটিংস</h1>
+                        <p className="text-sm text-text-muted font-medium mt-0.5">তোমার লার্নিং এক্সপিরিয়েন্স কাস্টমাইজ করো</p>
+                    </div>
+                    <button
+                        onClick={handleSave}
+                        disabled={loading}
+                        className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white rounded-full font-bold text-sm hover:bg-primary-hover disabled:opacity-50 transition-all active:scale-95 shrink-0"
+                    >
+                        {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Save className="w-4 h-4" />}
+                        সেভ করো
+                    </button>
+                </div>
             </div>
 
             {message.text && (

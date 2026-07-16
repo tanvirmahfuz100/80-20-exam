@@ -1,26 +1,30 @@
 ﻿import React from 'react';
 import { motion } from 'framer-motion';
-import { Book, Calculator, Brain, Briefcase, ChevronRight, Play, Timer, ShieldCheck, ArrowRight, BookOpen, Sparkles, Check, Monitor, BarChart3, FlaskConical, Sprout, BookHeart } from 'lucide-react';
+import { ArrowRight, Play, Check } from 'lucide-react';
 
-export const icons = {
-    bangla: BookOpen,
-    bangla_1st: BookOpen,
-    bangla_2nd: BookOpen,
-    english: Book,
-    ict: Monitor,
-    math: Calculator,
-    analytical: Brain,
-    business_entrepreneurship: Briefcase,
-    finance: BarChart3,
-    general_science: FlaskConical,
-    agriculture: Sprout,
-    islam: BookHeart,
-    accounting: BookOpen,
-    management_1st: Briefcase,
-    management_2nd: Briefcase,
-    marketing_1st: Briefcase,
-    marketing_2nd: Briefcase,
+const svgSlugMap: Record<string, string> = {
+    bangla: 'subject-language',
+    bangla_1st: 'subject-language',
+    bangla_2nd: 'subject-language',
+    english: 'subject-language',
+    ict: 'subject-science',
+    math: 'subject-math',
+    analytical: 'subject-math',
+    business_entrepreneurship: 'subject-business',
+    finance: 'subject-business',
+    general_science: 'subject-science',
+    agriculture: 'subject-agriculture',
+    islam: 'subject-islam',
+    accounting: 'subject-business',
+    management_1st: 'subject-business',
+    management_2nd: 'subject-business',
+    marketing_1st: 'subject-business',
+    marketing_2nd: 'subject-business',
 };
+
+function getSvgUrl(svgName: string) {
+    return `${import.meta.env.BASE_URL || '/'}assets/images/icons/${svgName}.svg`;
+}
 
 export const examColors = {
     ssc: { accent: '#10b981', bg: 'rgba(16,185,129,0.08)', label: 'এসএসসি' },
@@ -138,7 +142,7 @@ export const InactiveExam = ({ exam }) => {
 };
 
 export const SubjectCard = ({ subject, isSelected, onClick, progress, version }) => {
-    const Icon = icons[subject.id] || Book;
+    const svgName = svgSlugMap[subject.id] || 'general';
     const moduleCount = subject.topics?.reduce((acc, t) => acc + t.chapters.length, 0) || 0;
     const pct = progress.total > 0 ? Math.min(Math.round((progress.completed / progress.total) * 100), 100) : 0;
 
@@ -146,32 +150,33 @@ export const SubjectCard = ({ subject, isSelected, onClick, progress, version })
         <motion.button
             onClick={onClick}
             whileTap={{ scale: 0.98 }}
-            className={`relative w-full text-left rounded-2xl border-2 transition-all ${
+            className={`relative overflow-hidden w-full text-left rounded-2xl border-2 transition-all ${
                 isSelected
-                    ? 'bg-primary/10 border-primary ring-2 ring-primary/30'
-                    : 'bg-surface border hover:border-primary/40'
+                    ? 'border-primary ring-2 ring-primary/30'
+                    : 'border hover:border-primary/40'
             }`}>
+            <img
+                src={getSvgUrl(svgName)}
+                alt=""
+                className="absolute inset-0 w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-black/60" />
+
             {isSelected && (
                 <div className="absolute top-2 right-2 p-1.5 bg-primary text-white rounded-full z-10">
                     <Check className="w-3 h-3" />
                 </div>
             )}
 
-            <div className="grid grid-cols-[auto_1fr_auto] items-center gap-3 p-4">
-                <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-all ${
-                    isSelected ? 'bg-primary text-white' : 'bg-eel text-hare'
-                }`}>
-                    <Icon className="w-5 h-5" />
-                </div>
-
+            <div className="relative z-10 grid grid-cols-[1fr_auto] items-center gap-3 p-4">
                 <div className="min-w-0 break-words">
-                    <h3 className="font-bold text-sm leading-tight text-text">{version === 'english' ? (subject.name_en || subject.name) : (subject.name_bn || subject.name)}</h3>
-                    <p className="text-[10px] font-medium text-hare mt-0.5">{moduleCount}টি মডিউল</p>
+                    <h3 className="font-bold text-sm leading-tight text-white drop-shadow-md">{version === 'english' ? (subject.name_en || subject.name) : (subject.name_bn || subject.name)}</h3>
+                    <p className="text-[10px] font-medium text-white/70 mt-0.5 drop-shadow-md">{moduleCount}টি মডিউল</p>
                 </div>
 
                 <div className="flex items-center justify-end">
                     <div className="flex items-center gap-1.5 w-full max-w-[5.5rem]">
-                        <div className="flex-1 h-1.5 bg-eel rounded-full overflow-hidden">
+                        <div className="flex-1 h-1.5 bg-white/20 rounded-full overflow-hidden">
                             <motion.div
                                 className="h-full rounded-full bg-primary"
                                 initial={{ width: 0 }}
@@ -179,7 +184,7 @@ export const SubjectCard = ({ subject, isSelected, onClick, progress, version })
                                 transition={{ duration: 0.6, ease: 'easeOut' }}
                             />
                         </div>
-                        <span className="text-[10px] font-bold tabular-nums text-primary w-8 text-right shrink-0">{pct}%</span>
+                        <span className="text-[10px] font-bold tabular-nums text-white/80 w-8 text-right shrink-0">{pct}%</span>
                     </div>
                 </div>
             </div>

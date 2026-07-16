@@ -3,10 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Menu, Search, CheckCircle,
-  BookOpen, Brain, Atom, Beaker, Microscope, Globe,
-  Calculator, BarChart3, MapPin, History,
-  Landmark, PieChart, Briefcase, AlertTriangle, RefreshCw,
-  Sparkles, Zap, ArrowRight, Star, FlaskConical, Sprout, BookHeart,
+  AlertTriangle, RefreshCw,
+  Sparkles, Zap, ArrowRight, Star,
 } from 'lucide-react';
 import { useExamPath } from '../hooks/useExamPath';
 import { getSubjects, getPathLabel } from '../config/examPaths';
@@ -16,31 +14,31 @@ import PaperPicker from '../components/PaperPicker';
 import { getDailyQuizQuestions } from '../services/dailyQuiz';
 import { stripMath } from '../services/quizUtils';
 
-const subjectIconMap = {
-  'বাংলা': BookOpen,
-  'ইংরেজি': BookOpen,
-  'গণিত': Brain,
-  'উচ্চতর গণিত': Brain,
-  'পদার্থবিদ্যা': Atom,
-  'রসায়ন': Beaker,
-  'জীববিদ্যা': Microscope,
-  'আইসিটি': Globe,
-  'হিসাববিজ্ঞান': Calculator,
-  'ফিন্যান্স': BarChart3,
-  'ব্যবসায় উদ্যোগ': Briefcase,
-  'অর্থনীতি': PieChart,
-  'ইতিহাস': History,
-  'ভূগোল': MapPin,
-  'নাগরিকতা': Landmark,
-  'সাধারণ জ্ঞান': Globe,
-  'বাংলাদেশ বিষয়াবলী': MapPin,
-  'বিশ্লেষণী ক্ষমতা': Brain,
-  'সমাজ বিজ্ঞান': BookOpen,
-  'সাধারণ বিজ্ঞান': FlaskConical,
-  'কৃষি শিক্ষা': Sprout,
-  'ইসলাম শিক্ষা': BookHeart,
-  'ব্যবস্থাপনা': Briefcase,
-  'মার্কেটিং': Briefcase,
+const subjectSvgMap: Record<string, string> = {
+  'বাংলা': 'subject-language',
+  'ইংরেজি': 'subject-language',
+  'গণিত': 'subject-math',
+  'উচ্চতর গণিত': 'subject-math',
+  'পদার্থবিদ্যা': 'subject-science',
+  'রসায়ন': 'subject-science',
+  'জীববিদ্যা': 'subject-science',
+  'আইসিটি': 'subject-science',
+  'হিসাববিজ্ঞান': 'subject-business',
+  'ফিন্যান্স': 'subject-business',
+  'ব্যবসায় উদ্যোগ': 'subject-business',
+  'অর্থনীতি': 'subject-business',
+  'ইতিহাস': 'subject-social',
+  'ভূগোল': 'subject-social',
+  'নাগরিকতা': 'subject-social',
+  'সাধারণ জ্ঞান': 'subject-knowledge',
+  'বাংলাদেশ বিষয়াবলী': 'subject-knowledge',
+  'বিশ্লেষণী ক্ষমতা': 'subject-math',
+  'সমাজ বিজ্ঞান': 'subject-language',
+  'সাধারণ বিজ্ঞান': 'subject-science',
+  'কৃষি শিক্ষা': 'subject-agriculture',
+  'ইসলাম শিক্ষা': 'subject-islam',
+  'ব্যবস্থাপনা': 'subject-business',
+  'মার্কেটিং': 'subject-business',
 };
 
 export const multiPaperSubjects = {
@@ -76,8 +74,12 @@ export const subjectNameToId = {
   'মার্কেটিং': 'marketing',
 };
 
-function getIcon(name) {
-  return subjectIconMap[name] || BookOpen;
+function getSvgUrl(svgName: string) {
+  return `${import.meta.env.BASE_URL || '/'}assets/images/icons/${svgName}.svg`;
+}
+
+function getSvgName(name: string) {
+  return subjectSvgMap[name] || 'general';
 }
 
 
@@ -280,8 +282,8 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath, onPaperSelect }) 
 
       <div className="px-4 pt-4 pb-4">
         <div className="grid grid-cols-3 gap-3">
-          {subjects.map((name, index) => {
-            const Icon = getIcon(name);
+          {subjects.map((name) => {
+            const svgName = getSvgName(name);
             return (
               <motion.button
                 key={name}
@@ -297,17 +299,19 @@ function HomeScreen({ subjects, pathLabel, onSwitch, examPath, onPaperSelect }) 
                     : `/practice?exam=${examPath.exam.toLowerCase()}`;
                   navigate(url);
                 }}
-                className={`
-                  flex flex-col items-center justify-center gap-2.5
-                  rounded-2xl border border bg-surface
-                  transition-all hover:border-primary/40 hover:bg-surface-hover
-                  ${index < 2 ? 'py-10' : 'py-7'}
-                `}
+                className="relative overflow-hidden flex flex-col items-center justify-end gap-1.5 p-3 rounded-2xl border border transition-all hover:border-primary/40 min-h-[110px]"
               >
-                <Icon className="w-6 h-6 text-text-muted" />
-                <span className="text-sm font-bold text-text leading-tight">
-                  {name}
-                </span>
+                <img
+                  src={getSvgUrl(svgName)}
+                  alt=""
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                <div className="relative z-10 flex flex-col items-center gap-1.5">
+                  <span className="text-sm font-bold text-white text-center leading-tight drop-shadow-md">
+                    {name}
+                  </span>
+                </div>
               </motion.button>
             );
           })}
